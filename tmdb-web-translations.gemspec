@@ -10,6 +10,5 @@ Gem::Specification.new do |s|
   s.description         = "TMDb's website translations."
   s.rubyforge_project   = 'tmdb_web_translations'
 
-  s.files               = Dir.glob("**/*")
-  s.require_path        = ['lib', 'locales']
+  s.files               = Dir["{lib,locales}/**/*"]
 end
