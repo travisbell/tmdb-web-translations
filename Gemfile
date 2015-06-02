@@ -6,4 +6,5 @@ group :development do
   gem "jeweler", "> 1.6.4"
   gem 'i18n-spec'
   gem 'localeapp'
+  gem "tmdb_web_translations", :path => '.'
 end
