@@ -118,8 +118,14 @@ en:
       abbrev: "%-d %b %Y"
       default: "%m/%d/%Y"
   days: days
-  edits: edits
-  favorite: favorite
+  edits:
+    many: edits
+    one: edit
+    other: edit%{count}
+  favorite:
+    many: favorites
+    one: favorite
+    other: favorite%{count}
   joined: joined
   view all: view all
   watchlist: watchlist
