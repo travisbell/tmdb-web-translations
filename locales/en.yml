@@ -119,10 +119,16 @@ en:
       abbrev: "%-d %b %Y"
       default: "%m/%d/%Y"
   day: day
-  days: days
+  days:
+    one: day
+    other: "%{count} days"
+    two: days
   edits: edits
   joined: joined
-  month: month
+  month:
+    one: month
+    other: "%{count} months"
+    two: "%{count} months"
   number_of_edits:
     many: edits
     one: edit

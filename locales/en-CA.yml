@@ -64,7 +64,7 @@ en-CA:
   None: None
   Now Playing: 
   Now Playing Movies: 
-  Number of edits in the past: 
+  Number of edits in the past: Number of edits in the past
   On TV: 
   On the Air: 
   Page: 
@@ -119,10 +119,14 @@ en-CA:
       abbrev: 
       default: "%d/%m/%Y"
   day: day
-  days: 
+  days:
+    one: day
+    other: "%{count} days"
   edits: edits
   joined: 
-  month: month
+  month:
+    one: month
+    other: "%{count} months"
   number_of_edits: 
   view all: 
   watchlist: 
