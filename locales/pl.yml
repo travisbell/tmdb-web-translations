@@ -118,8 +118,12 @@ pl:
       abbrev: "%-d %b %Y"
       default: "%d.%m.%Y"
   days: dni
-  edits: edycji
-  favorite: ulubione
+  edit:
+    one: edycji
+    other: edycji%{count}
+  favorite:
+    one: ulubione
+    other: ulubione%{count}
   joined: dołączył
   view all: wyświetl wszystkie
   watchlist: obserwowany

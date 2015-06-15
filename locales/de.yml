@@ -118,8 +118,12 @@ de:
       abbrev: "%-d. %b %Y"
       default: "%d.%m.%Y"
   days: Tage
-  edits: "Änderungen"
-  favorite: Lieblings
+  edit:
+    one: "Änderungen"
+    other: "Änderungen%{count}"
+  favorite:
+    one: Lieblings
+    other: Lieblings%{count}
   joined: beigetreten
   view all: alle ansehen
   watchlist: Watchlist

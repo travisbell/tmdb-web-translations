@@ -118,8 +118,12 @@ fr-FR:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
   days: jours
-  edits: changements
-  favorite: favoris
+  edit:
+    one: changements
+    other: changements%{count}
+  favorite:
+    one: favoris
+    other: favoris%{count}
   joined: membre depuis
   view all: voir tous
   watchlist: film à voir

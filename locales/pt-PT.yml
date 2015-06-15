@@ -118,8 +118,12 @@ pt-PT:
       abbrev: "%d %b %Y"
       default: "%d-%m-%Y"
   days: dias
-  edits: edições
-  favorite: favorito
+  edit:
+    one: edições
+    other: edições%{count}
+  favorite:
+    one: favorito
+    other: favorito%{count}
   joined: membro desde
   view all: ver tudo
   watchlist: lista para ver

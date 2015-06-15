@@ -118,8 +118,12 @@ nl:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
   days: dagen
-  edits: aanpassingen
-  favorite: favoriet
+  edit:
+    one: aanpassingen
+    other: aanpassingen%{count}
+  favorite:
+    one: favoriet
+    other: favoriet%{count}
   joined: lid geworden
   view all: alles weergeven
   watchlist: kijklijst

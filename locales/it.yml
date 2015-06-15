@@ -118,8 +118,12 @@ it:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
   days: giorni
-  edits: modifica
-  favorite: favorito
+  edit:
+    one: modifica
+    other: modifica%{count}
+  favorite:
+    one: favorito
+    other: favorito%{count}
   joined: unito
   view all: Vedi tutti
   watchlist: da vedere

@@ -118,8 +118,12 @@ es-ES:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
   days: días
-  edits: ediciones
-  favorite: favorito
+  edit:
+    one: ediciones
+    other: ediciones%{count}
+  favorite:
+    one: favorito
+    other: favorito%{count}
   joined: unido
   view all: ver todo
   watchlist: lista de pendientes de ver
