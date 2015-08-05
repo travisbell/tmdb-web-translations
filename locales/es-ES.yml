@@ -22,7 +22,7 @@ es-ES:
   Cancel: Cancelar
   Canceled: Cancelada
   Cast: Reparto
-  Certification: 
+  Certification: Certificación
   Changes: Cambios
   Collection Results: Resultados de Colecciones
   Collections: Colecciones
@@ -135,12 +135,12 @@ es-ES:
   Rated: Valorado
   Rating Ascending: Valoración Ascendente
   Rating Descending: Valoración Descendente
-  Ratings: 
+  Ratings: Valoraciones
   Recent News: Noticias Recientes
   Recommendations: Recomendaciones
   Release Date Ascending: Fecha de Estreno Ascendente
   Release Date Descending: Fecha de Estreno Descendente
-  Released: 
+  Released: Estrenada
   Remove from your favorite list: Quitar de tu lista de favoritos
   Remove from your watchlist: Quitar de tu lista de pendientes de ver
   Report: Reportar
@@ -199,14 +199,53 @@ es-ES:
   Year: Año
   average edits per day: media de ediciones por día
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - Dom
+    - Lun
+    - Mar
+    - Mié
+    - Jue
+    - Vie
+    - Sáb
+    abbr_month_names:
+    - Ene
+    - Feb
+    - Mar
+    - Abr
+    - May
+    - Jun
+    - Jul
+    - Ago
+    - Sep
+    - Oct
+    - Nov
+    - Dic
+    day_names:
+    - Domingo
+    - Lunes
+    - Martes
+    - Miércoles
+    - Jueves
+    - Viernes
+    - Sábado
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%B %u, %Y"
+    month_names:
+    - 
+    - Enero
+    - Febrero
+    - Marzo
+    - Abril
+    - Mayo
+    - Junio
+    - Julio
+    - Agosto
+    - Septiembre
+    - Octubre
+    - Noviembre
+    - Diciembre
   day: día
   days:
     one: día
@@ -223,6 +262,8 @@ es-ES:
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
-  number_of_votes: 
+  number_of_votes:
+    one: "%{count} voto"
+    other: "%{count} votos"
   view all: ver todo
   watchlist: lista de pendientes de ver
