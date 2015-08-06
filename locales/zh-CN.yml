@@ -22,7 +22,7 @@ zh-CN:
   Cancel: "取消"
   Canceled: "已取消"
   Cast: "演员"
-  Certification: 
+  Certification: "分级"
   Changes: "变更"
   Collection Results: "影片集结果"
   Collections: "影片集"
@@ -135,12 +135,12 @@ zh-CN:
   Rated: "已评分"
   Rating Ascending: "评分升序"
   Rating Descending: "评分降序"
-  Ratings: 
+  Ratings: "评分"
   Recent News: "最近新闻"
   Recommendations: " 推荐"
   Release Date Ascending: "发行日期升序"
   Release Date Descending: "发行日期降序"
-  Released: 
+  Released: "上映"
   Remove from your favorite list: "从你的收藏列表删除"
   Remove from your watchlist: "从你的观看列表删除"
   Report: "报告"
@@ -199,14 +199,54 @@ zh-CN:
   Year: "年"
   average edits per day: "日均编辑"
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - "周日"
+    - "周一"
+    - "周二"
+    - "周三"
+    - "周四"
+    - "周五"
+    - "周六"
+    abbr_month_names:
+    - 
+    - "一月"
+    - "二月"
+    - "三月"
+    - "四月"
+    - "五月"
+    - "六月"
+    - "七月"
+    - "八月"
+    - "九月"
+    - "十月"
+    - "十一月"
+    - "十二月"
+    day_names:
+    - "星期日"
+    - "星期一"
+    - "星期二"
+    - "星期三"
+    - "星期四"
+    - "星期五"
+    - "星期六"
     formats:
       abbrev: "%Y年%m月%d日"
       default: "%Y-%m-%d"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%Y年%m月%d日"
+    month_names:
+    - 
+    - "一月"
+    - "二月"
+    - "三月"
+    - "四月"
+    - "五月"
+    - "六月"
+    - "七月"
+    - "八月"
+    - "九月"
+    - "十月"
+    - "十一月"
+    - "十二月"
   day: "日"
   days: "%{count} 日"
   edits: "编辑"
@@ -215,6 +255,6 @@ zh-CN:
   month: "%{count} 月"
   number_of_edits: "%{count} 条"
   number_of_results: "%{count} 结果"
-  number_of_votes: 
+  number_of_votes: "%{count} 投票"
   view all: "浏览全部"
   watchlist: "观看列表"
