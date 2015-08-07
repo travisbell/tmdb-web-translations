@@ -5,14 +5,14 @@ fi-FI:
   API Updates: API-päivitykset
   About TMDb: Tietoja TMDb:stä
   Account: Tili
-  Add Backdrop: 
+  Add Backdrop: Lisää tausta
   Add New Movie: Lisää uusi elokuva
   Add New TV Show: Lisää uusi TV-ohjelma
-  Add Poster: 
-  Add to Watchlist: Lisää seurantalistalle
+  Add Poster: Lisää juliste
+  Add to Watchlist: Lisää katsomislistalle
   Add to your favorite list: Lisää suosikkilistallesi
-  Add to your watchlist: Lisää seurantalistallesi
-  Added to Watchlist: 
+  Add to your watchlist: Lisää katsomislistallesi
+  Added to Watchlist: Lisää katsomislistalle
   Adding & Editing Content: Sisälllön lisääminen ja muokkaus
   Airing Today: Esityspäivä
   Apiary Documentation: Apiaryn dokumentaatio
@@ -23,11 +23,11 @@ fi-FI:
   Cancel: Peruuta
   Canceled: Peruttu
   Cast: Näyttelijät
-  Certification: 
+  Certification: Luokitus
   Changes: Muutokset
   Collection Results: Kokoelmatulokset
   Collections: Kokoelmat
-  Comments: 
+  Comments: Kommentit
   Companies: Yritykset
   Company Results: Yhtiötulokset
   Contact Us: Ota yhtettä meihin
@@ -51,10 +51,10 @@ fi-FI:
   Ended: Päättynyt
   FAQ: UKK
   Facts: Faktat
-  Favorite: 
+  Favorite: Suosikki
   Favorites: Suosikit
-  Featured Cast: 
-  Featured Crew: 
+  Featured Cast: Kiinnostavat näyttelijät
+  Featured Crew: Kiinnostavat tekijät
   Featured Lists: Suositellut listat
   Filter by genres: Suodata lajityypeittäin
   Filter by keywords: Suodata avainsanoin
@@ -80,11 +80,11 @@ fi-FI:
   Lists: Listat
   Login: Kirjaudu
   Login to add this TV show to your favorite list: Kirjaudu lisätäksesi TV-ohjelma suosikkilistallesi
-  Login to add this TV show to your watchlist: Kirjaudu lisätäksesi TV-ohjelma seurantalistallesi
+  Login to add this TV show to your watchlist: Kirjaudu lisätäksesi TV-ohjelma katsomislistallesi
   Login to add this movie to your favorite list: Kirjaudu lisätäksesi elokuva suosikkilistallesi
-  Login to add this movie to your watchlist: Kirjaudu lisätäksesi elokuva seurantalistallesi
-  Login to rate this TV show: 
-  Login to rate this movie: 
+  Login to add this movie to your watchlist: Kirjaudu lisätäksesi elokuva katsomislistallesi
+  Login to rate this TV show: Kirjaudu sisään arvioidaksesi tämä TV-ohjelma
+  Login to rate this movie: Kirjaudu sisään arvioidaksesi tämä elokuva
   Login to your account: Kirjaudu tiliisi
   Logos & Attribution: Logot ja nimeäminen
   Logout: Kirjaudu ulos
@@ -133,18 +133,18 @@ fi-FI:
   Popularity Rank: Suosiosija
   Poster Card View: Julisteiden korttinäkymä
   Privacy Policy: Yksityisyydensuoja
-  Rate It!: 
+  Rate It!: Arvioi se!
   Rated: Arvioitu
   Rating Ascending: Arvio nousee
   Rating Descending: Arvio laskee
-  Ratings: 
+  Ratings: Arviot
   Recent News: Uusimmat uutiset
   Recommendations: Suositukset
   Release Date Ascending: Julkaisupäivä nousee
   Release Date Descending: Julkaisupäivä laskee
-  Released: 
+  Released: Julkaistu
   Remove from your favorite list: Poista suosikkilistaltasi
-  Remove from your watchlist: Poista seurantalistaltasi
+  Remove from your watchlist: Poista katsomislistaltasi
   Report: Ilmoita
   Resend Activation Email: Uudelleen lähetä aktivointiviesti
   Reset Password: Aseta salasana uudestaan
@@ -193,8 +193,8 @@ fi-FI:
   View All Backdrops: Näytä kaikki taustat
   View All Posters: Näytä kaikki julisteet
   Watch Online: Katso verkossa
-  Watchlist: seurantalista
-  Watchlists: Seurantalistat
+  Watchlist: Katsomislista
+  Watchlists: Katsomislistat
   Website: Verkkosivusto
   Website Terms: Verkkosivuston ehdot
   Website Updates: Verkkosivuston päivitykset
@@ -202,14 +202,54 @@ fi-FI:
   Year: Vuosi
   average edits per day: keskimäärin muokkauksia päivässä
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - Sun
+    - Maa
+    - Tii
+    - Kes
+    - Tor
+    - Per
+    - Lau
+    abbr_month_names:
+    - 
+    - Tam
+    - Hel
+    - Maa
+    - Huh
+    - Tou
+    - Kes
+    - Hei
+    - Elo
+    - Syy
+    - Lok
+    - Mar
+    - Jou
+    day_names:
+    - Sunnuntai
+    - Maanantai
+    - Tiistai
+    - Keskiviikko
+    - Torstai
+    - Perjantai
+    - Lauantai
     formats:
       abbrev: "%-d %b %Y"
       default: "%d.%m.%Y"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%B %e, %Y"
+    month_names:
+    - 
+    - Tammikuu
+    - Helmikuu
+    - Maaliskuu
+    - Huhtikuu
+    - Toukokuu
+    - Kesäkuu
+    - Heinäkuu
+    - Elokuu
+    - Syyskuu
+    - Lokakuu
+    - Marraskuu
+    - Joulukuu
   day: päivä
   days:
     one: päivä
@@ -225,5 +265,7 @@ fi-FI:
   number_of_results:
     one: "%{count} tulos"
     other: "%{count} tulosta"
-  number_of_votes: 
+  number_of_votes:
+    one: "%{count} ääni"
+    other: "%{count} ääntä"
   view all: näytä kaikki
