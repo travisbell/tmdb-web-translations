@@ -5,14 +5,14 @@ pt-PT:
   API Updates: Actualizações da API
   About TMDb: Sobre o TMDb
   Account: Conta
-  Add Backdrop: 
+  Add Backdrop: Adicione Imagem de Fundo
   Add New Movie: Adicionar Novo Filme
   Add New TV Show: Adicionar Novo Programa TV
-  Add Poster: 
+  Add Poster: Adicionar Póster
   Add to Watchlist: Adicionar à lista para ver
   Add to your favorite list: Adicionar à sua lista preferida
   Add to your watchlist: Adicionar à sua lista para ver
-  Added to Watchlist: 
+  Added to Watchlist: Adicionado à lista para ver
   Adding & Editing Content: Adicionando & Editando Conteúdos
   Airing Today: Emitidos Hoje
   Apiary Documentation: Documentação da API
@@ -23,11 +23,11 @@ pt-PT:
   Cancel: Cancelar
   Canceled: Cancelado
   Cast: Elenco
-  Certification: 
+  Certification: Certificação
   Changes: Alterações
   Collection Results: Resultados do Conjunto
   Collections: Conjuntos
-  Comments: 
+  Comments: Comentários
   Companies: Empresas
   Company Results: Resultados da Empresa
   Contact Us: Contacte-nos
@@ -51,7 +51,7 @@ pt-PT:
   Ended: Terminado
   FAQ: FAQ
   Facts: Factos
-  Favorite: 
+  Favorite: Favorito
   Favorites: Favoritos
   Featured Cast: Elenco Principal
   Featured Crew: Equipa Principal
@@ -81,10 +81,10 @@ pt-PT:
   Login: Entrar
   Login to add this TV show to your favorite list: Entre para adicionar este programa de TV à sua lista de favoritos
   Login to add this TV show to your watchlist: Entre para adicionar este programa de TV à sua lista para ver
-  Login to add this movie to your favorite list: Faça login para adicionar este filme à sua lista de favoritos
-  Login to add this movie to your watchlist: Faça login para adicionar este filme à sua lista para ver
-  Login to rate this TV show: 
-  Login to rate this movie: 
+  Login to add this movie to your favorite list: Entre para adicionar este filme à sua lista de favoritos
+  Login to add this movie to your watchlist: Entre para adicionar este filme à sua lista para ver
+  Login to rate this TV show: Entre para classificar este programa
+  Login to rate this movie: Entre para classificar este filme
   Login to your account: Entrar na sua conta
   Logos & Attribution: Atribuição & Logos
   Logout: Sair
@@ -133,16 +133,16 @@ pt-PT:
   Popularity Rank: Tabela de Popularidade
   Poster Card View: Vista de Póster
   Privacy Policy: Política de Privacidade
-  Rate It!: 
+  Rate It!: Classifique-o!
   Rated: Votados
   Rating Ascending: Classificação Ascendente
   Rating Descending: Classificação Descendente
-  Ratings: 
+  Ratings: Classificações
   Recent News: "Últimas Notícias"
   Recommendations: Recomendações
   Release Date Ascending: Data de Lançamento Ascendente
   Release Date Descending: Data de Lançamento Descendente
-  Released: 
+  Released: Data de Lançamento
   Remove from your favorite list: Remover da sua lista de favoritos
   Remove from your watchlist: Remover da sua lista para ver
   Report: Relatório
@@ -190,7 +190,7 @@ pt-PT:
   Upcoming Movies: Filmes em Breve
   Username: Utilizador
   Videos: Vídeos
-  View All Backdrops: Ver Todos os Fundos
+  View All Backdrops: Ver Todas as Imagens de Fundo
   View All Posters: Ver Todos os Pósteres
   Watch Online: Ver Online
   Watchlist: lista para ver
@@ -202,14 +202,54 @@ pt-PT:
   Year: Ano
   average edits per day: média de edições por dia
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - Dom
+    - Seg
+    - Ter
+    - Qua
+    - Qui
+    - Sex
+    - Sáb
+    abbr_month_names:
+    - 
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Mai
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+    day_names:
+    - Domingo
+    - Segunda-feira
+    - Terça-feira
+    - Quarta-feira
+    - Quinta-feira
+    - Sexta-feira
+    - Sábado
     formats:
       abbrev: "%d %b %Y"
       default: "%d-%m-%Y"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%e %B %Y"
+    month_names:
+    - 
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
   day: dia
   days: "%{count} dias"
   edits: edições
@@ -223,5 +263,7 @@ pt-PT:
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
-  number_of_votes: 
+  number_of_votes:
+    one: "%{count} voto"
+    other: "%{count} votos"
   view all: ver tudo
