@@ -202,8 +202,28 @@ pl:
   Year: Rok
   average edits per day: "średnich edycji na dzień"
   date:
-    abbr_day_names: '["Nie", "Pon", "Wt", "Śr", "Cz", "Pt", "So"]'
-    abbr_month_names: '[nil, "Sty", "Lut", "Mar", "Kwi", "Maj", "Cze", "Lip", "Sie", "Wrz", "Paź", "Lis", "Gru"]'
+    abbr_day_names:
+    - Nie
+    - Pon
+    - Wt
+    - "Śr"
+    - Cz
+    - Pt
+    - So
+    abbr_month_names:
+    - 
+    - Sty
+    - Lut
+    - Mar
+    - Kwi
+    - Maj
+    - Cze
+    - Lip
+    - Sie
+    - Wrz
+    - Paź
+    - Lis
+    - Gru
     day_names:
     - Niedziela
     - Poniedziałek
@@ -216,7 +236,20 @@ pl:
       abbrev: "%-d %b %Y"
       default: "%d.%m.%Y"
       full_month_day: "%e %B, %Y"
-    month_names: '[nil, "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"]'
+    month_names:
+    - 
+    - Styczeń
+    - Luty
+    - Marzec
+    - Kwiecień
+    - Maj
+    - Czerwiec
+    - Lipiec
+    - Sierpień
+    - Wrzesień
+    - Październik
+    - Listopad
+    - Grudzień
   day: dzień
   days: "%{count} dni"
   edits: edycji
