@@ -8,11 +8,11 @@ ru:
   Add Backdrop: 
   Add New Movie: "Добавить новый фильм"
   Add New TV Show: "Добавить новый сериал"
-  Add Poster: 
-  Add to Watchlist: "Отложить"
-  Add to your favorite list: "Добавить в избранное"
+  Add Poster: "Добавить постер"
+  Add to Watchlist: Добавить в "Буду смотреть"
+  Add to your favorite list: Добавить в "Буду смотреть"
   Add to your watchlist: "Посмотрю позже"
-  Added to Watchlist: 
+  Added to Watchlist: Добавлен в "Буду смотреть"
   Adding & Editing Content: "Добавление и редактирование данных"
   Airing Today: "Сегодня на ТВ"
   Apiary Documentation: "Документация по API"
@@ -22,8 +22,8 @@ ru:
   Budget: "Бюджет"
   Cancel: "Отмена"
   Canceled: "Завершён"
-  Cast: 
-  Certification: 
+  Cast: "В ролях"
+  Certification: "Сертификация"
   Changes: "Правки"
   Collection Results: "Коллекция Результаты"
   Collections: "Коллекции"
@@ -50,10 +50,10 @@ ru:
   Email: E-mail
   Ended: "Закончился"
   FAQ: "Часто задаваемые вопросы"
-  Facts: 
-  Favorite: 
-  Favorites: "Избранное"
-  Featured Cast: 
+  Facts: "Факты"
+  Favorite: "Избранное"
+  Favorites: "Избранные"
+  Featured Cast: "Планировались к участию"
   Featured Crew: 
   Featured Lists: "Популярные списки"
   Filter by genres: "Фильтр по жанрам"
@@ -202,16 +202,59 @@ ru:
   Year: "Год"
   average edits per day: "средние правки в день"
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - "Пн"
+    - "Вт"
+    - "Ср"
+    - "Чт"
+    - "Пт"
+    - "Сб"
+    - "Вс"
+    abbr_month_names:
+    - 
+    - "Янв"
+    - "Фев"
+    - "Мар"
+    - "Апр"
+    - "Май"
+    - "Июн"
+    - "Июл"
+    - "Авг"
+    - "Сен"
+    - "Окт"
+    - "Ноя"
+    - "Дек"
+    day_names:
+    - "Воскресенье"
+    - "Понедельник"
+    - "Вторник"
+    - "Среда"
+    - "Четверг"
+    - "Пятница"
+    - "Суббота"
     formats:
       abbrev: "%-d %b %Y"
       default: "%d.%m.%Y"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%B %e, %Y"
+    month_names:
+    - "Январь"
+    - "Февраль"
+    - "Март"
+    - "Апрель"
+    - "Май"
+    - "Июнь"
+    - "Июль"
+    - "Август"
+    - "Сентябрь"
+    - "Октябрь"
+    - "Ноябрь"
+    - "Декабрь"
   day: "день"
-  days: "%{count} дни"
+  days:
+    few: "дня(ей)"
+    many: "дня(ей)"
+    one: "день"
+    other: "%{count} дня(ей)"
   edits: "правки"
   joined: "присоединился"
   month:
