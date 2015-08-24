@@ -15,11 +15,12 @@ ja:
   Added to Watchlist: "ウォッチリストに追加しました。"
   Adding & Editing Content: "内容の追加と編集"
   Airing Today: "本日放送"
+  Alternative Titles: "別の題名（邦題など）"
   Apiary Documentation: 
   App Showcase: " アプリ一覧"
   Apps: "アプリ"
   Backdrop Card View: "背景画像一覧"
-  Budget: 
+  Budget: "予算"
   Cancel: "キャンセル"
   Canceled: "キャンセルしました"
   Cast: "出演者"
@@ -28,11 +29,11 @@ ja:
   Clips: 
   Collection Results: 
   Collections: "コレクション"
-  Comments: 
+  Comments: "コメント"
   Companies: 
   Company Results: 
   Contact Us: "お問い合わせ"
-  Content Score: 
+  Content Score: "コメントの得点"
   Continue: "続ける"
   Contribute: "支援する"
   Contribution leaders for the week of: "直近一週間の貢献度上位者"
@@ -70,7 +71,7 @@ ja:
   Help Us By Contributing Missing Data: "未記入項目の入力を手伝う"
   Hi: 
   Home: 
-  Homepage: 
+  Homepage: "ホーム"
   Images: "画像"
   Import CSV: CSVファイルを読み込み
   In Production: 
@@ -84,13 +85,13 @@ ja:
   List Results: 
   Lists: 
   Login: "ログイン"
-  Login to add this TV show to your favorite list: 
-  Login to add this TV show to your watchlist: 
-  Login to add this movie to your favorite list: 
-  Login to add this movie to your watchlist: 
-  Login to rate this TV show: 
-  Login to rate this movie: 
-  Login to your account: 
+  Login to add this TV show to your favorite list: "ログインしてこのテレビ番組をお気に入りリストに加えましょう"
+  Login to add this TV show to your watchlist: "ログインしてこのテレビ番組を注目リストに加えましょう"
+  Login to add this movie to your favorite list: "ログインしてこの映画をお気に入りリストに加えましょう"
+  Login to add this movie to your watchlist: "ログインしてこの映画を注目リストに加えましょう"
+  Login to rate this TV show: "ログインしてこのテレビ番組に点数をつけましょう"
+  Login to rate this movie: "ログインしてこの映画に点数をつけましょう"
+  Login to your account: "あなたのアカウントにログイン"
   Logos & Attribution: 
   Logout: "ログアウト"
   Mark as Favorite: 
@@ -112,11 +113,11 @@ ja:
   No overview: "概要がまだ翻訳されていません。概要を入力してデータベースを一緒に充実させましょう。"
   No results found: 
   None: "指定しない"
-  Notes: 
+  Notes: "メモ"
   Now Playing: "上映中"
   Now Playing Movies: "上映中の映画"
   Number of Movies: 
-  Number of edits in the past: 
+  Number of edits in the past: "以前に編集した回数"
   On TV: "放送中"
   On the Air: "放送中"
   Our History: 
@@ -132,10 +133,11 @@ ja:
   Popular Movies: "人気の映画"
   Popular People: "人気の人物"
   Popular TV Shows: "人気のテレビ番組"
-  Popularity: 
+  Popularity: "人気"
   Popularity Ascending: "人気の低い順"
   Popularity Descending: "人気の高い順"
   Popularity Rank: "人気順"
+  Popularity Trend: "トレンド"
   Poster Card View: 
   Privacy Policy: "個人情報の取扱いについて"
   Rate It!: 
@@ -147,10 +149,12 @@ ja:
   Recommendations: 
   Release Date Ascending: "公開日の早い順"
   Release Date Descending: "公開日の遅い順"
+  Release Dates & Certifications: 
   Released: 
   Remove from your favorite list: "お気に入りリストから削除"
   Remove from your watchlist: "ウォッチリストから削除"
   Report: 
+  Reported Issues: 
   Resend Activation Email: 
   Reset Password: "パスワードをリセット"
   Returning Series: 
@@ -209,20 +213,58 @@ ja:
   Year: "公開年"
   average edits per day: 1日あたりの平均編集回数
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - "(日)"
+    - "(月)"
+    - "(火)"
+    - "(水)"
+    - "(木)"
+    - "(金)"
+    - "(土)"
+    abbr_month_names:
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
+    day_names:
+    - "日曜日"
+    - "月曜日"
+    - "火曜日"
+    - "水曜日"
+    - "木曜日"
+    - "金曜日"
+    - "土曜日"
     formats:
-      abbrev: 
+      abbrev: "%Y年%b%e日"
       default: "%Y年%m月%d日"
-      full_month_day: 
-    month_names: 
+      full_month_day: "%Y/%B/%e"
+    month_names:
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
   day: "日"
-  days: 
+  days: "%{count}日"
   edits: "編集"
   joined: 
   month: 
-  number_of_edits: 
+  number_of_edits: "%{count}回"
   number_of_results: 
   number_of_votes: 
   view all: "全て表示"
