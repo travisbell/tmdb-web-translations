@@ -270,18 +270,18 @@ hu:
     currency:
       format:
         delimiter: 
-        format: 
+        format: "%n%u"
         precision: 2
         separator: 
-        significant: 
-        strip_insignificant_zeros: 
-        unit: 
+        significant: true
+        strip_insignificant_zeros: true
+        unit: USD
     format:
       delimiter: 
       precision: 3
       separator: 
-      significant: 
-      strip_insignificant_zeros: 
+      significant: true
+      strip_insignificant_zeros: true
     human:
       decimal_units:
         format: 
@@ -290,13 +290,13 @@ hu:
           million: Millió
           quadrillion: Kvadrillió
           thousand: Ezer
-          trillion: 
+          trillion: Trillió
           unit: 
       format:
         delimiter: 
         precision: 
-        significant: 
-        strip_insignificant_zeros: 
+        significant: true
+        strip_insignificant_zeros: true
     percentage:
       format:
         delimiter: 
