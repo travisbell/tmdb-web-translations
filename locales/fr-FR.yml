@@ -5,29 +5,29 @@ fr-FR:
   API Updates: Mises à jour de l'API
   About TMDb: "À propos de TMDb"
   Account: Compte
-  Add Backdrop: 
+  Add Backdrop: Ajouter une toile de fond
   Add New Movie: Ajouter un nouveau film
   Add New TV Show: Ajouter une nouvelle série
-  Add Poster: 
+  Add Poster: Ajouter une affiche
   Add to Watchlist: Ajouter à la liste de suivi
   Add to your favorite list: Ajouter à votre liste de favoris
   Add to your watchlist: Ajouter à votre liste de suivi
-  Added to Watchlist: 
+  Added to Watchlist: Ajouté à la liste de suivi
   Adding & Editing Content: Ajout et édition de contenu
   Airing Today: Diffusé actuellement
-  Alternative Titles: 
+  Alternative Titles: Titres alternatifs
   Apiary Documentation: Documentation Apiary
   App Showcase: Présentation des applications
   Apps: Applications
   Backdrop Card View: Voir la galerie photos
-  Bad Image: 
+  Bad Image: Image incorrecte
   Budget: Budget
   Cancel: Annuler
   Canceled: Annulé
   Cast: Distribution
   Certification: 
   Changes: Modifications
-  Clips: 
+  Clips: Extraits
   Collection Results: Résultats de la recherche pour collections
   Collections: Collections
   Comments: Commentaires
@@ -53,14 +53,14 @@ fr-FR:
   Discussions: Discussions
   Documentation: Documentation
   Duplicate: 
-  Edit: 
+  Edit: "Éditer"
   Edit Page: Modifier la page
   Editing Content: Modification du contenu
   Email: Email
   Email Content: 
   Ended: Terminé
-  Error: 
-  Extra Details: 
+  Error: Erreur
+  Extra Details: Détails supplémentaires
   Extras: 
   FAQ: FAQ
   Facts: Faits
@@ -85,7 +85,7 @@ fr-FR:
   Import CSV: Importer CSV
   In Production: En production
   In Theaters: Au cinéma
-  Incorrect Content: 
+  Incorrect Content: Contenu incorrect
   Join the Community: Rejoindre la communauté
   Joined in: membre depuis
   Keyword Results: Résultats de la recherche de mots-clés
@@ -101,7 +101,7 @@ fr-FR:
   Login to add this movie to your watchlist: Connectez-vous pour ajouter ce film à votre liste de suivi
   Login to rate this TV show: Connectez-vous pour noter ce programme télé
   Login to rate this movie: Connectez-vous pour noter ce film
-  Login to report an issue: 
+  Login to report an issue: Connectez-vous pour signaler un problème
   Login to your account: Connectez-vous à votre compte
   Logos & Attribution: Logos et attribution
   Logout: Déconnexion
@@ -121,7 +121,7 @@ fr-FR:
   Movies Missing A Title: Titre de films manquant
   New: Nouveau
   New episode airs in: Nouveaux épisodes le
-  'No': 
+  'No': Non
   No overview: Nous ne disposons pas d'un résumé traduit en français. Aidez-nous à améliorer notre base de données en ajoutant un résumé.
   No results found: Aucun résultats
   None: Aucun
@@ -130,7 +130,7 @@ fr-FR:
   Now Playing Movies: Films actuellement en salles
   Number of Movies: Nombre de films
   Number of edits in the past: Nombre de modifications par le passé
-  Offensive or Spam: 
+  Offensive or Spam: Insultant ou spam
   On TV: Séries du moment
   On the Air: Série du moment
   Our History: Notre histoire
@@ -164,12 +164,12 @@ fr-FR:
   Release Date Ascending: Date de sortie ascendante
   Release Date Descending: Date de sortie descendante
   Release Dates & Certifications: 
-  Released: 
+  Released: Sorti
   Remove from your favorite list: Supprimer de vos favoris
   Remove from your watchlist: Supprimer de votre liste de suivi
   Report: Signaler
-  Report an Issue: 
-  Reported Issues: 
+  Report an Issue: Signaler un problème
+  Reported Issues: Problèmes signalés
   Resend Activation Email: Renvoyer l'e-mail d'activation
   Reset Password: Réinitialiser le mot de passe
   Returning Series: Série renouvellée
@@ -191,8 +191,8 @@ fr-FR:
   Status: Statu
   Status Codes: Codes de statuts
   Staying In Touch: Rester en contact
-  Subject: 
-  Success: 
+  Subject: Sujet
+  Success: Succès
   Support: Suppport
   TV Missing A Backdrop: Images de série manquantes
   TV Missing A Poster: Affiche de série manquante
@@ -213,9 +213,9 @@ fr-FR:
   Top Rated Movies: Films les mieux notés
   Top Rated TV Shows: Séries les mieux notées
   Top Users: Top des contributeurs
-  Trailers: 
+  Trailers: Bande-annonces
   Translations: Traductions
-  Type of Problem: 
+  Type of Problem: Genre de problème
   Upcoming: Prochainement
   Upcoming Movies: Films prochainement en salles
   Username: Nom d'utilisateur
@@ -230,7 +230,7 @@ fr-FR:
   Website Updates: Mises à jour du site web
   Wrappers & Libraries: Wrappers et bibliothèques
   Year: Année
-  'Yes': 
+  'Yes': Oui
   average edits per day: modifications moyenne par jour
   date:
     abbr_day_names:
@@ -286,8 +286,8 @@ fr-FR:
     one: jour
     other: "%{count} jours"
   edits: modifications
-  failed_email: 
-  failed_generic: 
+  failed_email: Votre courriel n'a pas pu être envoyé.
+  failed_generic: Un problème est survenu.
   failed_report: 
   failed_sharing: 
   joined: membre depuis
@@ -299,36 +299,36 @@ fr-FR:
       format:
         delimiter: 
         format: 
-        precision: 
+        precision: 2
         separator: 
-        significant: 
-        strip_insignificant_zeros: 
+        significant: false
+        strip_insignificant_zeros: false
         unit: 
     format:
       delimiter: " "
-      precision: 
+      precision: 3
       separator: ","
-      significant: 
-      strip_insignificant_zeros: 
+      significant: false
+      strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: 
+        format: "%n %u"
         units:
-          billion: 
-          million: 
+          billion: Milliard
+          million: Million
           quadrillion: 
-          thousand: 
+          thousand: Mille
           trillion: 
           unit: 
       format:
         delimiter: 
-        precision: 
-        significant: 
-        strip_insignificant_zeros: 
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
     percentage:
       format:
         delimiter: 
-        format: 
+        format: "%n%"
     precision:
       format:
         delimiter: 
@@ -339,7 +339,7 @@ fr-FR:
     one: "%{count} résultat"
     other: "%{count} résultats"
   number_of_votes: 
-  success_email: 
-  success_report: 
+  success_email: Votre courriel a été correctement envoyé.
+  success_report: Votre rapport a été correctement soumis.
   success_sharing: 
   view all: voir tous
