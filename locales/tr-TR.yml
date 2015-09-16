@@ -176,7 +176,7 @@ tr-TR:
   Revenue: Kazanç
   Reviews: Değerlendirmeler
   Runtime: Süre
-  Search: 
+  Search: Arama
   Search for a movie, TV show, person: Film, dizi, kişi ara
   Select One: Bir tane seçin...
   Selected Language: Seçilen Dil
@@ -292,13 +292,13 @@ tr-TR:
   failed_sharing: 'Mesajınızın paylaşımında bir problem oluştu. '
   joined: katıldı
   month: "%{count} ay"
-  no_collection_search_results: 
-  no_company_search_results: 
-  no_keyword_search_results: 
-  no_list_search_results: 
-  no_movie_search_results: 
-  no_person_search_results: 
-  no_tv_search_results: 
+  no_collection_search_results: Sorgunuza uyan herhangi bir koleksiyon bulunamadı.
+  no_company_search_results: Sorgunuza uyan herhangi bir şirket bulunamadı.
+  no_keyword_search_results: Sorgunuza uyan herhangi bir anahtar kelime bulunamadı.
+  no_list_search_results: Sorgunuza uyan herhangi bir liste bulunamadı.
+  no_movie_search_results: Sorgunuza uyan herhangi bir film bulunamadı.
+  no_person_search_results: Sorgunuza uyan herhangi bir kişi bulunamadı.
+  no_tv_search_results: Sorgunuza uyan herhangi bir televizyon dizisi bulunamadı.
   number:
     currency:
       format:
@@ -328,8 +328,8 @@ tr-TR:
       format:
         delimiter: 
         precision: 3
-        significant: 
-        strip_insignificant_zeros: 
+        significant: true
+        strip_insignificant_zeros: true
     percentage:
       format:
         delimiter: 
@@ -340,7 +340,7 @@ tr-TR:
   number_of_edits: "%{count} düzenleme"
   number_of_results: "%{count} sonuç"
   number_of_votes: "%{count} oy"
-  search_tip_1: 
+  search_tip_1: "İpucu: Sorgunuzda yıl belirtmek için 'y:' kullanabilirsiniz. Örneğin: 'yıldız savaşları y:1977'."
   success_email: Mailiniz başarı ile gönderildi.
   success_report: Raporunuz başarı ile gönderildi.
   success_sharing: Mesajınız başarı ile gönderildi.
