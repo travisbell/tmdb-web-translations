@@ -15,27 +15,27 @@ el:
   Added to Watchlist: "Προστέθηκε στην λίστα παρακολούθησης"
   Adding & Editing Content: "Προσθέτοντας και επεξεργάζοντας περιεχόμενο"
   Airing Today: "Προβάλονται σήμερα για πρώτη φορά"
-  Alternative Titles: 
+  Alternative Titles: "Εναλλακτικοί τίτλοι"
   Apiary Documentation: "Πληροφορίες Κυψέλης"
   App Showcase: "Επισκόπηση Εφαρμογής"
   Apps: "Εφαρμογές"
   Backdrop Card View: "Φόντο σε προβολή κάρτας"
-  Bad Image: 
+  Bad Image: "Κακή Εικόνα"
   Budget: "Κεφάλαιο"
   Cancel: "Ακύρωση"
   Canceled: "Ακυρώθηκε"
   Cast: "Επιτελείο"
   Certification: "Πιστοποίηση"
   Changes: "Αλλαγές"
-  Clips: 
+  Clips: "Κλιπς"
   Collection Results: "Αποτελέσματα συλλογών"
   Collections: "Συλλογές"
   Comments: "Σχόλια"
   Companies: "Εταιρίες"
   Company Results: "Αποτελέσματα Εταιριών"
-  Contact Email: 
+  Contact Email: "Επικοινωνία μέσω Email"
   Contact Us: "Επικοινώνησε μαζί μας"
-  Content Score: 
+  Content Score: "Σκορ Περιεχομένου"
   Continue: "Συνέχεια"
   Contribute: "Πρόσφερε - Δώρησε"
   Contribution leaders for the week of: "Ηγέτες δωρεών για την εβδομάδα του"
@@ -43,7 +43,7 @@ el:
   Currently Airing TV Shows: "Τηλεοπτικές σειρές που προβάλλονται αυτή την στιγμή"
   Currently on page: "Αυτή την στιγμή στην σελίδα"
   DMCA Takedown Request: 
-  Design or Functionality Issue: 
+  Design or Functionality Issue: "Θέμα Σχεδιασμόυ και Λειτουργικότητας"
   Details: "Λεπτομέρειες"
   Discover: "Ανακάλυψε"
   Discover Examples: "Παραδείγματα ανακάλύψης"
@@ -52,15 +52,15 @@ el:
   Discover New TV Shows: "Ανακάλυψε νέες τηλεοπτικές σειρές"
   Discussions: "Συζητήσεις"
   Documentation: "Έγγραφα "
-  Duplicate: 
-  Edit: 
+  Duplicate: "Διπλότυπο"
+  Edit: "Επεξεργασία"
   Edit Page: "Επεξεργάσου την Σελίδα"
   Editing Content: "επεξεργασία περιεχομένου"
   Email: "Ηλεκτρονικό Ταχυδρομείο"
   Email Content: 
   Ended: "Τελείωσε"
-  Error: 
-  Extra Details: 
+  Error: "Σφάλμα"
+  Extra Details: Eπιπλέον Χαρακτηριστικά
   Extras: 
   FAQ: "Συχνές ερωτήσεις"
   Facts: "Γεγονότα"
@@ -101,7 +101,7 @@ el:
   Login to add this movie to your watchlist: "Συνδέσου για να προσθέσεις αυτή την ταινία στην λίστα παρακολούθησής σου"
   Login to rate this TV show: "Συνδέσου για να βαθμολογήσεις αυτή την τηλεοπτική σειρά"
   Login to rate this movie: "Συνδέσου για να βαθμολογήσεις αυτή την ταινία"
-  Login to report an issue: 
+  Login to report an issue: "Συνδεθείτε για να αναφέρετε ένα πρόβλημα"
   Login to your account: "Συνδέσου στον λογαριασμό σου"
   Logos & Attribution: "Λογότυπα & Δημιουργία"
   Logout: "Αποσύνδεση"
@@ -121,7 +121,7 @@ el:
   Movies Missing A Title: "Ταινίες στις οποίες λείπει ο τίτλος"
   New: "Καινούργιο"
   New episode airs in: "Το νέο επεισόδιο θα προβληθεί σε"
-  'No': 
+  'No': "Όχι"
   No overview: "Δεν διαθέτουμε ανασκόπηση μεταφρασμένη στα Αγγλικά. Βοήθησέ μας να επεκτείνουμε την βάση δεδομένων μας προσθέτοντας μια."
   No results found: "Δεν βρέθηκαν αποτελέσματα"
   None: "Κανένα"
@@ -288,9 +288,9 @@ el:
     one: "Ημέρα"
     other: "%{count} ημέρες"
   edits: "Επεξεργασίες"
-  failed_email: 
-  failed_generic: 
-  failed_report: 
+  failed_email: "Το email σας απέτυχε να στείλει."
+  failed_generic: "Υπάρχει ένα πρόβλημα."
+  failed_report: "Υπήρξε ένα πρόβλημα κατά την υποβολή της αναφοράς σας."
   failed_sharing: 
   joined: "Εισήλθε"
   month:
@@ -308,30 +308,30 @@ el:
       format:
         delimiter: 
         format: 
-        precision: 
+        precision: 2
         separator: 
-        significant: 
-        strip_insignificant_zeros: 
+        significant: false
+        strip_insignificant_zeros: false
         unit: 
     format:
       delimiter: 
-      precision: 
+      precision: 3
       separator: 
-      significant: 
-      strip_insignificant_zeros: 
+      significant: false
+      strip_insignificant_zeros: false
     human:
       decimal_units:
         format: 
         units:
-          billion: 
-          million: 
+          billion: "Δισεκατομμύριο"
+          million: "Εκατομμύριο"
           quadrillion: 
-          thousand: 
-          trillion: 
+          thousand: "Χίλια"
+          trillion: "Τρισεκατομμύριο"
           unit: 
       format:
         delimiter: 
-        precision: 
+        precision: 3
         significant: 
         strip_insignificant_zeros: 
     percentage:
