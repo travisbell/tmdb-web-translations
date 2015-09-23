@@ -266,8 +266,8 @@ bn-BD:
     - "শুক্রবার"
     - "শনিবার"
     formats:
-      abbrev: "%-দি %মা %ব"
-      default: "%মা/%দি/%ব"
+      abbrev: 
+      default: 
       full_month_day: 
     month_names:
     - 
@@ -306,17 +306,17 @@ bn-BD:
   number:
     currency:
       format:
-        delimiter: 
+        delimiter: ","
         format: 
         precision: "২"
-        separator: 
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: 
+        unit: "$"
     format:
-      delimiter: 
+      delimiter: ","
       precision: "৩"
-      separator: 
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -328,19 +328,19 @@ bn-BD:
           quadrillion: "হাজারের পাঁচঘাত"
           thousand: "হাজার"
           trillion: "দশ সহস্রের ত্রিঘাত"
-          unit: 
+          unit: "টেক্সট / অনুবাদ লিখতে ক্লিক করুন"
       format:
-        delimiter: 
+        delimiter: "টেক্সট / অনুবাদ লিখতে ক্লিক করুন"
         precision: "৩"
         significant: true
         strip_insignificant_zeros: true
     percentage:
       format:
-        delimiter: 
+        delimiter: "টেক্সট / অনুবাদ লিখতে ক্লিক করুন"
         format: 
     precision:
       format:
-        delimiter: 
+        delimiter: "টেক্সট / অনুবাদ লিখতে ক্লিক করুন"
   number_of_edits:
     one: "সম্পাদন"
     other: "%{count} সম্পাদন"
