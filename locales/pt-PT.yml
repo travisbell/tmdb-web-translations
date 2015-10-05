@@ -10,7 +10,7 @@ pt-PT:
   Add New TV Show: Adicionar Novo Programa TV
   Add Poster: Adicionar Póster
   Add to Watchlist: Adicionar à lista para ver
-  Add to your favorite list: Adicionar à sua lista preferida
+  Add to your favorite list: Adicionar à sua lista de preferidos
   Add to your watchlist: Adicionar à sua lista para ver
   Added to Watchlist: Adicionado à lista para ver
   Adding & Editing Content: Adicionando & Editando Conteúdos
@@ -20,7 +20,7 @@ pt-PT:
   App Showcase: Montra de Apps
   Apps: Apps
   Backdrop Card View: Vista de Fundo
-  Backdrops: 
+  Backdrops: Imagens
   Bad Image: Imagem com Defeito
   Budget: Orçamento
   Cancel: Cancelar
@@ -41,7 +41,7 @@ pt-PT:
   Contribute: Contribuir
   Contribution leaders for the week of: Líderes em contribuições na semana de
   Crew: Equipa
-  Currently Airing TV Shows: Programas de TV Em Curso
+  Currently Airing TV Shows: Programas de TV em Exibição
   Currently on page: Actualmente na página
   DMCA Takedown Request: Pedido de Desactivação da DMCA
   Design or Functionality Issue: Problema numa Funcionalidade ou no Design
@@ -89,7 +89,7 @@ pt-PT:
   Incorrect Content: Conteúdo Incorrecto
   Join the Community: Adira à Comunidade
   Joined in: Membro desde
-  Keyword: 
+  Keyword: Palavra-chave
   Keyword Results: Resultados das palavras-chave
   Keywords: Palavras-chave
   Last Week: Na Última Semana
@@ -153,8 +153,8 @@ pt-PT:
   Popularity Descending: Popularidade Descendente
   Popularity Rank: Tabela de Popularidade
   Popularity Trend: Curva de Popularidade
-  Poster Card View: Vista de Póster
-  Posters: 
+  Poster Card View: Vista em Póster
+  Posters: Pósters
   Privacy Policy: Política de Privacidade
   Public Report?: Exposição Pública?
   Rate It!: Classifique-o!
@@ -228,7 +228,7 @@ pt-PT:
   View All Backdrops: Ver Todas as Imagens de Fundo
   View All Posters: Ver Todos os Pósteres
   Watch Online: Ver Online
-  Watchlist: lista para ver
+  Watchlist: Lista Para Ver
   Watchlists: Listas Para Ver
   Website: Site
   Website Terms: Condições do Site
@@ -287,7 +287,9 @@ pt-PT:
     - Novembro
     - Dezembro
   day: dia
-  days: "%{count} dias"
+  days:
+    one: dia
+    other: "%{count} dias"
   edits: edições
   failed_email: Email não enviado.
   failed_generic: Houve um problema.
@@ -307,17 +309,17 @@ pt-PT:
   number:
     currency:
       format:
-        delimiter: 
+        delimiter: "."
         format: "%u%n"
         precision: 2
-        separator: 
+        separator: "."
         significant: false
         strip_insignificant_zeros: true
         unit: 
     format:
-      delimiter: 
+      delimiter: ","
       precision: 3
-      separator: 
+      separator: "."
       significant: false
       strip_insignificant_zeros: true
     human:
