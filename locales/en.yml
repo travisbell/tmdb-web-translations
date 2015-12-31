@@ -260,6 +260,9 @@ en:
   Wrappers & Libraries: Wrappers & Libraries
   Year: Year
   'Yes': 'Yes'
+  attributes:
+    iso_3166_1: Country
+    iso_639_1: Language
   average edits per day: average edits per day
   date:
     abbr_day_names:
@@ -316,6 +319,12 @@ en:
     other: "%{count} days"
     two: days
   edits: edits
+  errors:
+    messages:
+      blank: is required
+      inclusion: must be selected
+      required: must exist
+      taken: has already been taken
   failed_email: Your email failed to send.
   failed_generic: There was a problem.
   failed_report: There was a problem submitting your report.
@@ -358,19 +367,19 @@ en:
           quadrillion: Quadrillion
           thousand: Thousand
           trillion: Trillion
-          unit: ''
+          unit: 
       format:
-        delimiter: ''
+        delimiter: 
         precision: 3
         significant: true
         strip_insignificant_zeros: true
     percentage:
       format:
-        delimiter: ''
+        delimiter: 
         format: "%n%"
     precision:
       format:
-        delimiter: ''
+        delimiter: 
   number_of_edits:
     many: edits
     one: edit
