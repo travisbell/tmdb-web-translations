@@ -6,13 +6,20 @@ module TMDb
         { 'en' => 'en-US',
           'bg' => 'bg-BG',
           'bn' => 'bn-BD',
+          'da' => 'da-DK',
+          'el' => 'el-GR',
           'es' => 'es-ES',
           'fi' => 'fi-FI',
           'fr' => 'fr-FR',
+          'he' => 'he-IL',
+          'ja' => 'ja-JP',
+          'no' => 'no-NO',
+          # 'nb' => 'nb-NO',
           'ko' => 'ko-KR',
           'pt' => 'pt-PT',
           'sv' => 'sv-SE',
           'tr' => 'tr-TR',
+          'uk' => 'uk-UA',
           'zh' => 'zh-CN' }
       end
 
