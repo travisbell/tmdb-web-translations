@@ -40,6 +40,10 @@ module TMDb
           'zh' => 'zh-CN' }
       end
 
+      def self.default_language_to_country_mapping
+        TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }.to_hash
+      end
+
       def self.load_path
         File.dirname(__FILE__) + "/../locales"
       end
