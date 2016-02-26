@@ -2,6 +2,13 @@ module TMDb
   module Config
     class I18n
 
+      def self.allowed_duplicate_languages
+        { 'es' => [ 'es-ES', 'es-MX' ],
+          'fr' => [ 'fr-FR', 'fr-CA' ],
+          'pt' => [ 'pt-PT', 'pt-BR' ],
+          'zh' => [ 'zh-CN', 'zh-TW'] }
+      end
+
       def self.default_mapping
         { 'en' => 'en-US',
           'bg' => 'bg-BG',
