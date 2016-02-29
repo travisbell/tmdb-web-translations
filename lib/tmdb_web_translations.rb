@@ -2,11 +2,11 @@ module TMDb
   module Config
     class I18n
 
-      def self.allowed_duplicate_languages
-        { 'es' => [ 'es-ES', 'es-MX' ],
-          'fr' => [ 'fr-FR', 'fr-CA' ],
-          'pt' => [ 'pt-PT', 'pt-BR' ],
-          'zh' => [ 'zh-CN', 'zh-TW'] }
+      def self.default_iso_3166_1_mapping
+        TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'MX',
+                                                        'fr-CA' => 'CA',
+                                                        'pt-BR' => 'BR',
+                                                        'zh-TW' => 'TW')
       end
 
       def self.default_mapping
