@@ -80,6 +80,7 @@ en-US:
   Contribution leaders for the week of: Contribution leaders for the week of
   Convert to Collection?: Convert to Collection?
   Country: Country
+  Create Translation: Create Translation
   Created By: Created By
   Credits: Credits
   Crew: Crew
@@ -362,6 +363,7 @@ en-US:
   Top Users: Top Users
   Trailer: Trailer
   Trailers: Trailers
+  Translate Movie: Translate Movie
   Translated Name: Translated Name
   Translated Overview: Translated Overview
   Translated Tagline: Translated Tagline
@@ -390,6 +392,7 @@ en-US:
   Year: Year
   'Yes': 'Yes'
   Zip Code: Zip Code
+  already_translated_in: "%{page_title} is already translated in the following languages..."
   attributes:
     iso_3166_1: Country
     iso_639_1: Language
@@ -850,6 +853,9 @@ en-US:
   no_watchlist_tv_shows:
     current_user: You haven't added any TV shows to your watchlist.
     public: This watchlist is empty.
+  not_translated:
+    logged_in: "%{page_title} has not yet been translated to <strong>%{requested_i18n} (%{requested_language_text})</strong>. If you would like to continue and create this translation, please click the button below."
+    public: '%{page_title} has not yet been translated to <strong>%{requested_i18n} (%{requested_language_text})</strong>. You can add this translation by <a href="/account/signup">signing up</a> for an account and <a href="/login">logging in</a>.'
   number:
     currency:
       format:
