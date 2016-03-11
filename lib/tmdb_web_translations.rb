@@ -3,10 +3,10 @@ module TMDb
     class I18n
 
       def self.default_iso_3166_1_mapping
-        TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'MX',
-                                                        'fr-CA' => 'CA',
-                                                        'pt-BR' => 'BR',
-                                                        'zh-TW' => 'TW')
+        TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'es',
+                                                        'fr-CA' => 'fr',
+                                                        'pt-BR' => 'pt',
+                                                        'zh-TW' => 'zh')
       end
 
       def self.default_mapping
