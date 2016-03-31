@@ -14,6 +14,7 @@ module TMDb
           'bg' => 'bg-BG',
           'bn' => 'bn-BD',
           'ca' => 'ca-ES',
+          'ch' => 'ch-GU',
           'cs' => 'cs-CZ',
           'da' => 'da-DK',
           'de' => 'de-DE',
