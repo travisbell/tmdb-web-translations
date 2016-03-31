@@ -5,6 +5,7 @@ module TMDb
       def self.default_iso_3166_1_mapping
         TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'es',
                                                         'fr-CA' => 'fr',
+                                                        'nl-BE' => 'nl',
                                                         'pt-BR' => 'pt',
                                                         'zh-TW' => 'zh')
       end
