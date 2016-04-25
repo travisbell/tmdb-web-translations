@@ -46,6 +46,7 @@ module TMDb
           'th' => 'th-TH',
           'tr' => 'tr-TR',
           'uk' => 'uk-UA',
+          'vi' => 'vi-VN',
           'zh' => 'zh-CN' }
       end
 
