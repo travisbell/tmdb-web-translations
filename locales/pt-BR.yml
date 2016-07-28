@@ -10,7 +10,7 @@ pt-BR:
   API Terms: Termos da API
   API Updates: Atualizações da API
   About TMDb: Sobre o TMDb
-  About this list: 
+  About this list: Sobre esta lista
   Accept: Aceitar
   Accept API Terms: Aceitar termos de API
   Account: Conta
@@ -904,15 +904,17 @@ pt-BR:
     Writer: Escritor
   joined: membro desde
   list_info:
-    average_rating: 
-    items_on_list: 
-    total_revenue: 
-    total_runtime: 
+    average_rating: Avaliação média
+    items_on_list:
+      one: item nesta lista
+      other: itens nesta lista
+    total_revenue: Receita total
+    total_runtime: Duração total
   list_sort:
-    original_order: 
-    rating: 
-    release_date: 
-    title: 
+    original_order: Ordem original
+    rating: Avaliação
+    release_date: Data de lançamento
+    title: Título
   list_steps:
     step_1: 'Passo 1: Listar informações'
     step_2: 'Passo 2: Adicionar itens'
@@ -993,6 +995,13 @@ pt-BR:
         precision: 3
         significant: true
         strip_insignificant_zeros: true
+      short_decimal_units:
+        units:
+          billion: 
+          million: 
+          quadrillion: 
+          thousand: 
+          trillion: 
     percentage:
       format:
         delimiter: 
