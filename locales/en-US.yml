@@ -444,6 +444,7 @@ en-US:
   URL: URL
   Upcoming: Upcoming
   Upcoming Movies: Upcoming Movies
+  Update: Update
   Username: Username
   Video?: Video?
   Videos: Videos
@@ -923,6 +924,7 @@ en-US:
     comment_updated: Comment updated!
     item_added: Item added!
     item_already_added: This item is already on the list.
+    item_removed: Item removed.
   list_sort:
     original_order: Original Order
     rating: Rating
@@ -1003,9 +1005,9 @@ en-US:
           quadrillion: Quadrillion
           thousand: Thousand
           trillion: Trillion
-          unit: 
+          unit: ''
       format:
-        delimiter: 
+        delimiter: ''
         precision: 3
         significant: true
         strip_insignificant_zeros: true
@@ -1019,11 +1021,11 @@ en-US:
           unit: " "
     percentage:
       format:
-        delimiter: 
+        delimiter: ''
         format: "%n%"
     precision:
       format:
-        delimiter: 
+        delimiter: ''
   number_of_edits:
     many: "%{count} edits"
     one: "%{count} edit"
