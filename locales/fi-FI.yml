@@ -157,7 +157,7 @@ fi-FI:
   Featured Crew: Kiinnostavat tekijät
   Featured Lists: Suositellut listat
   Featured Review: Suositeltu arvostelu
-  Featurette: 
+  Featurette: Kooste
   Featurettes: Lyhytdokumentti
   Female: Naispuolinen
   Filter by genre: Suodatus lajityypin mukaan
@@ -200,9 +200,9 @@ fi-FI:
   Language: Kieli
   Last Name: Sukunimi
   Last Season: Viimeisin kausi
-  Last Season Crew: 
-  Last Season Featured Crew: 
-  Last Season Regular Cast: 
+  Last Season Crew: Edellisen kauden kuvausryhmä
+  Last Season Featured Crew: Edellisen kauden vakituinen kuvausryhmä
+  Last Season Regular Cast: Edellisen kauden vakituiset näyttelijät
   Last Week: Viime viikko
   Leaderboard: Tulostaulukko
   Legal: 
@@ -327,10 +327,10 @@ fi-FI:
   Rating Descending: Arvio laskee
   Ratings: Arviot
   Read All Reviews: 
-  Read More: 
+  Read More: Lue lisää
   Recent News: Uusimmat uutiset
   Recommendations: Suositukset
-  Regular Cast: 
+  Regular Cast: Vakituiset näyttelijät
   Release Date Ascending: Julkaisupäivä nousee
   Release Date Descending: Julkaisupäivä laskee
   Release Dates & Certifications: Julkaisupäivät ja luokitukset
@@ -343,7 +343,7 @@ fi-FI:
   Report: Ilmoita
   Report an Issue: Ilmoita ongelmasta
   Reported Issues: Ilmoitetut ongelmat
-  Request an API Key: 
+  Request an API Key: Pyydä API-avainta
   Resend Activation Email: Uudelleen lähetä aktivointiviesti
   Reset Password: Aseta salasana uudestaan
   Returning Series: Palaava sarja
@@ -353,16 +353,16 @@ fi-FI:
   Runtime: Kesto
   Save: Tallenna
   Search: Hae
-  Search for a company: 
-  Search for a country: 
-  Search for a genre: 
+  Search for a company: Etsi tuotantoyhtiötä
+  Search for a country: Etsi tuotantomaata
+  Search for a genre: Etsi lajityyppiä
   Search for a keyword: Hae avainsanalla
-  Search for a movie or TV show: 
+  Search for a movie or TV show: Etsi elokuvaa tai TV-sarjaa
   Search for a movie, TV show, person: Hae elokuvaa, tv-ohjelmaa, ihmistä
   Season: Kausi
-  Season Number: 
+  Season Number: Kauden numero
   Season Overview: Kauden kuvaus
-  Season Regulars: 
+  Season Regulars: Kauden vakituiset näyttelijät
   Season Specials: Kauden spesiaalit
   Seasons: Kaudet
   Select One: Valitse yksi...
@@ -449,7 +449,7 @@ fi-FI:
   URL: URL
   Upcoming: Tulossa
   Upcoming Movies: Tulevat elokuvat
-  Update: 
+  Update: Päivitä
   Username: Käyttäjänimi
   Video?: Video?
   Videos: Videot
@@ -735,7 +735,7 @@ fi-FI:
     Loader: 
     Location Manager: Järjestäjä
     Location Scout: 
-    Machinist: 
+    Machinist: Koneistaja
     Makeup Artist: Maskeeraaja
     Makeup Department Head: 
     Makeup Designer: 
@@ -750,14 +750,14 @@ fi-FI:
     Motion Actor: 
     Motion Capture Artist: 
     Music: Musiikki
-    Music Director: 
-    Music Editor: 
+    Music Director: Musiikkiohjaaja
+    Music Editor: Musiikin editoija
     Music Supervisor: 
     Musical: 
     Novel: Romaani
     Opera: Ooppera
     Orchestrator: Orkestroija
-    Original Music Composer: 
+    Original Music Composer: Alkuperäismusiikin säveltäjä
     Original Story: Alkuperäinen tarina
     Other: Muu
     Painter: Maalari
@@ -766,7 +766,7 @@ fi-FI:
     Poem: Runo
     Post Production Assistant: Jälkituotannon assistentti
     Post Production Consulting: Jälkituotanto konsultti
-    Post Production Supervisor: 
+    Post Production Supervisor: Jälkituotannon valvoja
     Post-Production Manager: Jälkituotantopäällikkö
     Producer: Tuottaja
     Production Accountant: 
@@ -788,8 +788,8 @@ fi-FI:
     Propmaker: Rekvisiitan tekijä
     Prosthetic Supervisor: Maskien koordinoija
     Public Relations: Tiedotus- ja suhdetoiminta
-    Publicist: 
-    Pyrotechnic Supervisor: 
+    Publicist: Tiedottaja
+    Pyrotechnic Supervisor: Pyrotekniikan valvoja
     Quality Control Supervisor: 
     Radio Play: 
     Recording Supervision: 
@@ -869,8 +869,8 @@ fi-FI:
     Studio Teachers: 
     Stunt Coordinator: Stunt-koordinaattori
     Stunt Double: Sijaisnäyttelijä
-    Stunts: 
-    Stunts Coordinator: 
+    Stunts: Stuntit
+    Stunts Coordinator: Stunt-koordinaattori
     Supervising Animator: 
     Supervising Art Director: 
     Supervising Film Editor: 
@@ -928,9 +928,9 @@ fi-FI:
     total_revenue: Kokonaistuotto
     total_runtime: Kokonaiskesto
   list_messages:
-    comment_updated: 
-    image_saved: 
-    item_added: 
+    comment_updated: Kommentti päivitetty!
+    image_saved: Kuva tallennettu!
+    item_added: Nimike lisätty!
     item_already_added: Nimike on jo listalla
     item_removed: Nimike poistettu
   list_sort:
@@ -947,21 +947,21 @@ fi-FI:
   month:
     one: kuukausi
     other: "%{count} kuukautta"
-  no_biography: 
-  no_cast: 
+  no_biography: Meillä ei ole %{name} biografiaa.
+  no_cast: Meillä ei ole näyttelijöitä lisättynä %{media_type}lle. Voit auttaa lisäämällä heidät!
   no_collection_search_results: Hakuasi vastaavia kokoelmia ei löytynyt.
   no_company_search_results: Hakuasi vastaavia yhtiöitä ei löytynyt.
   no_contributors: 
-  no_crew: 
-  no_director: 
-  no_episode_images: 
+  no_crew: Meillä ei ole kuvausryhmää lisättynä %{media_type}lle. Voit auttaa lisäämällä heidät!
+  no_director: Ohjaajaa ei ole lisätty.
+  no_episode_images: Jakson kuvia ei ole lisätty.
   no_favorite_movies:
-    current_user: 
-    public: 
+    current_user: Et ole lisännyt yhtään suosikkielokuvaa.
+    public: Käyttäjällä %{username} ei ole yhtään suosikkielokuvaa.
   no_favorite_tv_shows:
-    current_user: 
-    public: 
-  no_genres: 
+    current_user: Et ole lisännyt yhtään suosikkisarjaa.
+    public: Käyttäjällä %{username} ei ole yhtään suosikkisarjaa.
+  no_genres: Lajityyppiä ei ole lisätty.
   no_guest_stars: 
   no_keyword_search_results: Hakuasi vastaavia avainsanoja ei löytynyt.
   no_keywords: 
@@ -1056,8 +1056,8 @@ fi-FI:
     watchlist_tv: Etsi TV-ohjelmakatselulista
   search_tip_1: 'Vinkki: Voit käyttää merkintää ''y:'' suodattaaksesi tuloksesi vuoden mukaan. Esimerkiksi: ''star wars y:1977''.'
   season_overview:
-    already_aired: 
-    to_air: 
+    already_aired: "%{show_name} kauden %{season_number}  ensiesitys oli %{date}"
+    to_air: "%{show_name} kauden %{season_number}  ensiesitys on %{date}"
   success_approved_access_token: 
   success_email: Sähköpostisi lähetettiin onnistuneesti.
   success_image_rated: Olet onnistuneesti arvioinut kuvan.
