@@ -192,11 +192,11 @@ ar:
   Job: "وظيفة"
   Join the Community: 
   Joined in: 
-  Keyword: 
-  Keyword Results: 
-  Keywords: 
+  Keyword: " كلمة دلالية"
+  Keyword Results: "نتائج كلمة دلالية"
+  Keywords: "كلمات دلالية"
   Known Credits: 
-  Known For: 
+  Known For: "معروف ب"
   Language: "اللغة"
   Last Name: "الأسم الأخير"
   Last Season: "آخر موسم"
@@ -207,7 +207,7 @@ ar:
   Leaderboard: "قائمة المتصدرين"
   Legal: "قانوني"
   List Results: 
-  Lists: 
+  Lists: "قوائم"
   Locked?: 
   Login: "تسجيل الدخول"
   Login to Add a Backdrop: "سجل الدخول لتضيف خلفية"
@@ -249,25 +249,25 @@ ar:
   Movies Missing A Overview: 
   Movies Missing A Poster: 
   Movies Missing A Title: 
-  Name: 
+  Name: "اسم"
   Network: 
-  New: 
+  New: "جديد"
   New episode airs in: "حلقة جديدة ستبث في"
   Next Episode: "الحلقة التالية"
-  Next Season: 
-  'No': 
-  No results found: 
-  None: 
-  Notes: 
-  Now Playing: 
-  Now Playing Movies: 
-  Number of Movies: 
+  Next Season: "الموسم التالي"
+  'No': "لا"
+  No results found: "لا توجد نتائج"
+  None: "لا شيء"
+  Notes: "الملاحظات"
+  Now Playing: "يعرض حالياً"
+  Now Playing Movies: "أفلام تعرض حالياً"
+  Number of Movies: "عدد من الأفلام"
   Number of TV Shows: 
   Number of edits in the past: 
   Offensive or Spam: 
-  Offical Site: 
+  Offical Site: "الموقع الرسمي"
   On TV: "على التلفاز"
-  On the Air: 
+  On the Air: "على الهواء"
   Opening Credits: 
   Origin Country: "بلد المنشأ"
   Original Air Date: "تاريخ البث الأصلي"
@@ -276,15 +276,15 @@ ar:
   Original Name: "الأسم الأصلي"
   Original TV Show Language: "لغة المسلسل الأصلية"
   Original Title: "العنوان الأصلي"
-  Other Databases: 
-  Our History: 
-  Overview: 
-  Page: 
+  Other Databases: "قواعد بيانات أخرى"
+  Our History: "تاريخنا"
+  Overview: "نظرة عامة"
+  Page: "صفحة"
   Password: "كلمه المرور"
   Password Confirm: "تأكيد كلمه المرور"
   People: "أشخاص "
   People Results: "نتائج الأشخاص"
-  Person: 
+  Person: "شخص"
   Personal: 
   Personal Info: 
   Phone Number: 
@@ -292,15 +292,15 @@ ar:
   Place of Birth: 
   Planned: 
   Plot Keywords: 
-  Popular: 
-  Popular Lists: 
-  Popular Movies: 
+  Popular: "رائج"
+  Popular Lists: "قوائم رائجه"
+  Popular Movies: "أفلام رائجه"
   Popular People: "أشخاص ذات الشعبية"
-  Popular TV Shows: 
-  Popularity: 
-  Popularity Ascending: 
-  Popularity Descending: 
-  Popularity Rank: 
+  Popular TV Shows: "مسلسلات رائجه"
+  Popularity: "شعبية"
+  Popularity Ascending: "الشهرة تصاعدي"
+  Popularity Descending: "الشهرة تنازلي"
+  Popularity Rank: "ترتيب الشهرة"
   Popularity Trend: 
   Post Production: 
   Poster Card View: 
@@ -484,23 +484,9 @@ ar:
   collection_includes: 
   confirm_delete: "هل أنت متأكد من أنك تريد أن تحذف هذا السجل؟"
   date:
-    abbr_day_names:
-    - "أحد"
-    - "إثن"
-    - "ثلا"
-    - "أرب"
-    - "خمي"
-    - "جمع"
-    - "سبت"
+    abbr_day_names: '["أحد", "إثن", "ثلا", "ارب", "خمي", "جمع", "سبت"]'
     abbr_month_names: 
-    day_names:
-    - "الأحد"
-    - "الأثنين"
-    - "الثلاثاء"
-    - "الأربعاء"
-    - "الخميس"
-    - "الجمعة"
-    - "السبت"
+    day_names: '["الأحد", "الأثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"]'
     formats:
       abbrev: 
       default: "%m/%d/%Y"
@@ -904,17 +890,17 @@ ar:
     Visual Effects Producer: 
     Visual Effects Supervisor: 
     Vocal Coach: 
-    Voice: 
+    Voice: "صوت"
     Wigmaker: 
-    Writer: 
+    Writer: "كاتب"
   joined: 
   list_info:
     average_rating: "متوسط ​​التقييم"
-    image_selected: 
+    image_selected: "مختار"
     items_on_list: 
-    select_this_image: 
-    total_revenue: 
-    total_runtime: 
+    select_this_image: "إختر هذه الصورة"
+    total_revenue: "إجمالي الإيرادات"
+    total_runtime: "إجمالي زمن التشغيل"
   list_messages:
     comment_updated: 
     image_saved: 
@@ -932,7 +918,10 @@ ar:
     step_3: 
     step_4: 
   login_to_edit: 
-  month: 
+  month:
+    one: "شهر"
+    other: "%{count} شهور"
+    two: "%{count} شهرين"
   no_biography: 
   no_cast: 
   no_collection_search_results: 
@@ -993,8 +982,8 @@ ar:
       decimal_units:
         format: 
         units:
-          billion: 
-          million: 
+          billion: "مليار"
+          million: "مليون"
           quadrillion: 
           thousand: 
           trillion: 
@@ -1017,11 +1006,32 @@ ar:
     precision:
       format:
         delimiter: 
-  number_of_edits: 
-  number_of_items: 
-  number_of_results: 
-  number_of_translations: 
-  number_of_votes: 
+  number_of_edits:
+    one: "%{count} تعديل"
+    other: "%{count} تعديلات"
+    two: "%{count} تعديلين"
+  number_of_items:
+    many: "%{count} عناصر"
+    one: "%{count} عنصر"
+    other: "%{count} عناصر"
+    two: "%{count} عنصرين"
+  number_of_results:
+    many: "%{count} نتائج"
+    one: "%{count} نتيجة"
+    other: "%{count} نتائج"
+    two: "%{count} نتيجتين"
+  number_of_translations:
+    few: "%{count} ترجمات"
+    many: "%{count} ترجمة"
+    one: "%{count} ترجمة"
+    other: "%{count} ترجمة"
+    two: "%{count} ترجمتين"
+  number_of_votes:
+    few: "%{count} أصوت"
+    many: "%{count} صوت"
+    one: "%{count} صوت"
+    other: "%{count} صوت"
+    two: "%{count} صوتين"
   part_of_collection: 
   search:
     favorite_movie: 
@@ -1046,6 +1056,7 @@ ar:
   translation:
     many: "ترجمات"
     one: "ترجمة"
+    other: "ترجمتين"
     two: "ترجمتين"
   upload_backdrop: "تحميل خلفية "
   upload_poster: "تحميل ملصق"
