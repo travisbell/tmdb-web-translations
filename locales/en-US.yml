@@ -985,7 +985,9 @@ en-US:
   no_rated_tv_shows:
     current_user: You haven't rated any TV shows.
     public: "%{username} hasn't rated any TV shows."
-  no_recommendations: We don't have enough data to suggest any movies based on %{title}. You can help by rating movies you've seen.
+  no_recommendations:
+    movie: We don't have enough data to suggest any movies based on %{title}. You can help by rating movies you've seen.
+    tv_show: We don't have enough data to suggest any TV shows based on %{title}. You can help by rating TV shows you've seen.
   no_records: No records have been added.
   no_review:
     logged_in: We don't have any reviews for %{title}. Would you like to <a href="%{url}">write one</a>?
