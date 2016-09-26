@@ -48,7 +48,7 @@ fr-CA:
   Address 2: Adresse 2
   Admin Tools: Outils d'administration
   Adult Actor: Acteur de films pornographiques
-  Adult Movie?: Film pour adulte ?
+  Adult Movie?: Film pour adultes ?
   Advanced Search: Recherche avancée
   Air Date: Date de diffusion
   Airing Today: Diffusé aujourd'hui
@@ -144,7 +144,7 @@ fr-CA:
   Episodes: 
   Error: 
   Example API Request: 
-  External IDs: 
+  External IDs: ID externes
   External Links: 
   Extra Details: 
   Extras: 
@@ -154,8 +154,8 @@ fr-CA:
   Favorite Movies: Films préférés
   Favorite TV Shows: "Émissions de télévision préférées"
   Favorites: Favoris
-  Featured Cast: 
-  Featured Crew: 
+  Featured Cast: Membres de la distribution en vedette
+  Featured Crew: Membres de l'équipe technique en vedette
   Featured Lists: Listes en vedette
   Featured Review: Critique en vedette
   Featurette: 
@@ -183,7 +183,7 @@ fr-CA:
   Hi: Allo
   Home: 
   Homepage: 
-  IMDB ID: 
+  IMDB ID: ID IMDB
   Images: 
   Import CSV: Importer CSV
   In Production: En production
@@ -200,9 +200,9 @@ fr-CA:
   Known For: 
   Language: 
   Last Name: 
-  Last Season: 
-  Last Season Crew: 
-  Last Season Featured Crew: 
+  Last Season: Dernière saison
+  Last Season Crew: "Équipe technique de la dernière saison"
+  Last Season Featured Crew: Membres de l'équipe technique de la dernière saison en vedette
   Last Season Regular Cast: Distribution principale de la dernière saison
   Last Week: 
   Leaderboard: Meilleurs contributeurs
@@ -243,7 +243,7 @@ fr-CA:
   Movie Language Distribution: Distribution linguistique des films
   Movie Recommendations: Recommandations de films
   Movie Results: Résultats de recherche pour les films
-  Movie Status: 
+  Movie Status: Statut du film
   Movie Watchlist: Liste de suivi de films
   Movies: 
   Movies Missing A Backdrop: Films sans une toile de fond
@@ -256,7 +256,7 @@ fr-CA:
   New episode airs in: 
   News: Actualité
   Next Episode: 
-  Next Season: 
+  Next Season: Saison suivante
   'No': 
   No results found: Aucun résultat n'a été trouvé
   None: 
@@ -273,11 +273,11 @@ fr-CA:
   Opening Credits: Générique d'ouverture
   Origin Country: 
   Original Air Date: 
-  Original Language: 
-  Original Movie Language: 
-  Original Name: 
-  Original TV Show Language: 
-  Original Title: 
+  Original Language: Langue d'origine
+  Original Movie Language: Langue d'origine du film
+  Original Name: Nom d'origine
+  Original TV Show Language: Langue d'origine de l'émission
+  Original Title: Titre d'origine
   Other Databases: Autres bases de données
   Our History: Notre histoire
   Overview: Aperçu
@@ -321,7 +321,7 @@ fr-CA:
   Public Report?: Rapport public ?
   Quality: 
   Rank: 
-  Rate It!: 
+  Rate It!: Coter
   Rated: Coté
   Rated Movies: Films cotés
   Rated TV Shows: "Émissions de télévision cotées"
@@ -364,12 +364,12 @@ fr-CA:
   Search for a keyword: Rechercher un mot-clé
   Search for a movie or TV show: Rechercher un film ou une émission de télévision
   Search for a movie, TV show, person: Rechercher un film, une émission de télévision, un artiste
-  Season: 
-  Season Number: 
+  Season: Saison
+  Season Number: Numéro de saison
   Season Overview: Synopsis de la saison
-  Season Regulars: 
-  Season Specials: 
-  Seasons: 
+  Season Regulars: Acteurs principaux de la saison
+  Season Specials: Spéciaux
+  Seasons: Saisons
   Select One: 
   Selected Language: 
   Send: 
@@ -390,8 +390,8 @@ fr-CA:
   Spoken Languages: 
   State: Province
   Stats: 
-  Status: 
-  Status Codes: 
+  Status: Statut
+  Status Codes: 'Codes de statut '
   Staying In Touch: Rester en contact
   Step 1: 
   Step 2: 
@@ -411,7 +411,7 @@ fr-CA:
   TV Show Data: 
   TV Show Language Distribution: Distribution linguistique des émissions de télévision
   TV Show Results: Résultats de recherche pour les émissions de télévision
-  TV Show Status: 
+  TV Show Status: Statut de l'émission
   TV Show Type: 
   TV Show Watchlist: 'Liste de suivi d''émissions de télévision '
   TV Shows: 
@@ -443,10 +443,10 @@ fr-CA:
   Translate Collection: 
   Translate Movie: 
   Translate TV Series: 
-  Translated Name: 
+  Translated Name: Traduction officielle du nom
   Translated Overview: Synopsis traduit
-  Translated Tagline: 
-  Translated Title: Titre original
+  Translated Tagline: Slogan traduit
+  Translated Title: Traduction officielle du titre
   Translations: Traductions
   Trending Searches: 
   Type: 
@@ -967,8 +967,8 @@ fr-CA:
     public: Cette liste de suivi est vide.
   no_writer: 
   not_translated:
-    logged_in: 
-    public: 
+    logged_in: "%{page_title} n'a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si vous voulez continuer et créer la traduction, veuillez cliquer sur le bouton ci-dessous."
+    public: '%{page_title} n''a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Vous pouvez ajouter la traduction en vous <a href="%{signup_link}">créant </a> un compte et en vous <a href="%{login_link}">connectant</a>.'
   number:
     currency:
       format:
@@ -1024,13 +1024,13 @@ fr-CA:
   search:
     favorite_movie: Rechercher dans vos films préférés...
     favorite_tv: Rechercher dans vos émissions de télévision préférées...
-    rated_movie: Rechercher dans vos films préférés...
-    rated_tv: 
-    watchlist_movie: 
-    watchlist_tv: 
+    rated_movie: Rechercher dans vos films cotés...
+    rated_tv: Rechercher dans vos émissions de télévision cotées...
+    watchlist_movie: Rechercher dans votre liste de suivi de films...
+    watchlist_tv: Rechercher dans votre liste de suivi d'émissions de télévision...
   search_tip_1: 'Astuce : Vous pouvez utiliser le filtre ''y:'' pour filtrer les résultats par année. Exemple: ''star wars y:1977''. '
   season_overview:
-    already_aired: La saison %{season_number} de %{show_name} a débutée le %{date}.
+    already_aired: La saison %{season_number} de %{show_name} a débuté le %{date}.
     to_air: La saison %{season_number} de %{show_name} sera diffusée à partir du %{date}.
   success_approved_access_token: 
   success_deleted: 
