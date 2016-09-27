@@ -95,54 +95,54 @@ ka-GE:
   Continue: "გაგრძელება"
   Contribute: "წვლილის შეტანა"
   Contribution leaders for the week of: "წვლილის შეტანის ლიდერები კვირისთვის"
-  Convert to Collection?: 
-  Country: 
-  Create New List: 
-  Create Translation: 
-  Created By: 
-  Credits: 
-  Crew: 
-  Current Season: 
-  Currently Airing TV Shows: 
-  Currently on page: 
+  Convert to Collection?: "გარდაიქმნას კრებულად?"
+  Country: "ქვეყანა"
+  Create New List: "ახალი სიის შექმნა"
+  Create Translation: "თარგმანის შექმნა"
+  Created By: "შემქმნელი"
+  Credits: "შემსრულებლების შემადგენლობა"
+  Crew: "გადამღები ჯგუფი"
+  Current Season: "მიმდინარე სესია"
+  Currently Airing TV Shows: "ამჟამად მიმდინარე სერიალები"
+  Currently on page: "ამჟამად გვერდზე"
   DMCA Takedown Request: 
-  Date: 
-  Day of Death: 
-  Delete Keyword: 
-  Delete Movie: 
-  Delete Person: 
-  Delete TV Show: 
-  Deny: 
-  Department: 
-  Description: 
-  Design or Functionality Issue: 
-  Desktop Application: 
+  Date: "თარიღი"
+  Day of Death: "გარდაცვალების დღე"
+  Delete Keyword: "საკვანძო სიტყვის წაშლა"
+  Delete Movie: "ფილმის წაშლა"
+  Delete Person: "პიროვნების წაშლა"
+  Delete TV Show: "სერიალის წაშლა"
+  Deny: "უარყოფა"
+  Department: "განყოფილება"
+  Description: "აღწერა"
+  Design or Functionality Issue: "დიზაინი ან ფუნქციონალური გამოცემა"
+  Desktop Application: "სამუშაო მაგიდის პროგრამა"
   Destination Record: 
-  Details: 
-  Digital: 
+  Details: "დეტალები"
+  Digital: "ციფრული"
   Directed by: 
   Discover: "აღმოჩენა"
   Discover Examples: "აღმოჩენის მაგალითები"
   Discover New Movies: "აღმოაჩინეთ ახალი ფილმები"
   Discover New Movies & TV Shows: "აღმოაჩინეთ ახალი ფილმები & ტელეშოუები"
   Discover New TV Shows: "აღმოაჩინეთ ახალი ტელეშოუები"
-  Discussions: 
-  Documentary: 
-  Documentation: 
+  Discussions: "დისკუსია"
+  Documentary: "დოკუმენტური"
+  Documentation: "დოკუმენტაცია"
   Duplicate: 
-  Edit: 
+  Edit: "რედაქტირება"
   Edit Page: 
-  Editing Content: 
-  Education: 
-  Email: 
-  Email Address: 
-  Email Content: 
-  Ended: 
-  Episode Images: 
-  Episode Number: 
-  Episode Overview: 
-  Episodes: 
-  Error: 
+  Editing Content: "შიგთავსის რედაქტირება"
+  Education: "განათლება"
+  Email: "ელფოსტა"
+  Email Address: "ელფოსტის მისამართი"
+  Email Content: "ელფოსტის შიგთავსი"
+  Ended: "დასრულებული"
+  Episode Images: "სერიის სურათები"
+  Episode Number: "სერიის ნომერი"
+  Episode Overview: "სერიის შეჯამება"
+  Episodes: "სერიები"
+  Error: "შეცდომა"
   Example API Request: 
   External IDs: 
   External Links: 
@@ -490,40 +490,57 @@ ka-GE:
   collection_includes: "შეიცავს %{movie_titles}-ს"
   confirm_delete: "ნამდვილად გსურთ ამ ჩანაწერის წაშლა?"
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names: '["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]'
+    abbr_month_names: '[nil, "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]'
+    day_names: '["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]'
     formats:
-      abbrev: 
-      default: 
-      full_month_day: 
-    month_names: 
-  day: 
-  days: 
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+    month_names:
+    - 
+    - "იანვარი"
+    - "თებერვალი"
+    - "მარტი"
+    - "აპრილი"
+    - "მაისი"
+    - "ივნისი"
+    - "ივლისი"
+    - "აგვისტო"
+    - "სექტემბერი"
+    - "ოქტომბერი"
+    - "ნოემბერი"
+    - "დეკემბერი"
+  day: "დღე"
+  days:
+    one: "დღე"
+    other: "%{count} დღე"
   departments:
-    Acting: 
-    Actors: 
-    Art: 
-    Camera: 
-    Costume & Make-Up: 
-    Creator: 
-    Crew: 
-    Directing: 
-    Editing: 
-    Lighting: 
-    Production: 
-    Sound: 
-    Visual Effects: 
-    Writing: 
-  edit_homepage_tooltip: 
+    Acting: "შესრულება"
+    Actors: "მსახიობები"
+    Art: "ხელოვნება"
+    Camera: "კამერა"
+    Costume & Make-Up: "კოსტუმები და გრიმი"
+    Creator: "შემქმნელი"
+    Crew: "გადამღები ჯგუფი"
+    Directing: "რეჟისურა"
+    Editing: "მონტაჟი "
+    Lighting: "განათება"
+    Production: "პროდიუსირება"
+    Sound: "ხმა"
+    Visual Effects: "ვიზუალური ეფექტები"
+    Writing: "სცენარი"
+  edit_homepage_tooltip: "მხოლოდ ოფიციალური საშინაო გვერდი. ფანების გვერდები დაშვებული არაა."
   edit_list:
-    add_edit_items: 
-    choose_image: 
-    edit_list: 
+    add_edit_items: "ელემენტების დამატება/რედაქტირება"
+    choose_image: "სურათის არჩევა"
+    edit_list: "სიის რედაქტირება"
   edit_original_title_tooltip: 
   edit_overview_tooltip: 
   edits: 
-  episode_count: 
+  episode_count:
+    one: "%{count} სერია"
+    other: "%{count} სერია"
   errors:
     messages:
       blank: 
