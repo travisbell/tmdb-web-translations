@@ -58,7 +58,10 @@ module TMDb
 
       def self.language_list
         return @@master_i18n_language_list unless @@master_i18n_language_list.nil?
-        @@master_i18n_language_list = ((Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).map { |iso_639_1| "#{iso_639_1}-#{iso_639_1.upcase}" } + TMDb::Config::I18n.default_iso_3166_1_mapping.keys).sort
+        @@master_i18n_language_list = (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).inject({}) do |hash, iso_639_1|
+          hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
+          hash
+        end.merge(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_hash
       end
 
       def self.load_path
