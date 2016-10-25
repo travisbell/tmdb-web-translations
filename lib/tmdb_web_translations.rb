@@ -2,6 +2,8 @@ module TMDb
   module Config
     class I18n
 
+      @@master_i18n_language_list = nil
+
       def self.default_iso_3166_1_mapping
         TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'es',
                                                         'fr-CA' => 'fr',
@@ -52,6 +54,11 @@ module TMDb
 
       def self.default_language_to_country_mapping
         TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }.to_hash
+      end
+
+      def self.language_list
+        return @@master_i18n_language_list unless @@master_i18n_language_list.nil?
+        @@master_i18n_language_list = ((Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).map { |iso_639_1| "#{iso_639_1}-#{iso_639_1.upcase}" } + TMDb::Config::I18n.default_iso_3166_1_mapping.keys).sort
       end
 
       def self.load_path
