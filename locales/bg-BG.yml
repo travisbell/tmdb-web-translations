@@ -60,7 +60,7 @@ bg-BG:
   Application Name: "Име на приложението"
   Application Summary: "Обобщение за приложението"
   Application URL: URL за приложението
-  Approve: 
+  Approve: "Одобри"
   Apps: "Приложения"
   Are you sure?: "Сигурни ли сте?"
   Back to top: "Към началото"
@@ -75,7 +75,7 @@ bg-BG:
   Canceled: "Отменен"
   Cast: "Актьори"
   Certification: "Категоризация"
-  Change Email: 
+  Change Email: "Промяна на имейл"
   Changes: "Редакции"
   Character: "Роля"
   City: "Град"
@@ -110,7 +110,7 @@ bg-BG:
   DMCA Takedown Request: DMCA Заявка за премахване
   Date: "Дата"
   Day of Death: "Починал на"
-  Default Language: 
+  Default Language: "Стандартен език"
   Delete: 
   Delete Keyword: "Изтрии ключова дума"
   Delete Movie: 
@@ -136,8 +136,8 @@ bg-BG:
   Duplicate: "Дублиране"
   Edit: "Промени"
   Edit Page: "промени страницата"
-  Editing Content: "Промени съдържанието"
-  Editing in: 
+  Editing Content: "Редактиране"
+  Editing in: "Редактирате на %{language}"
   Education: "Обучение"
   Email: "Имейл"
   Email Address: "Имейл адрес"
@@ -208,7 +208,7 @@ bg-BG:
   Known Credits: 
   Known For: "Известен с"
   Language: "Език"
-  Language Preferences: 
+  Language Preferences: "Предпочитан език"
   Last Name: "Фамилия"
   Last Season: "Последен сезон"
   Last Season Crew: "Екип от последния сезон"
@@ -264,7 +264,7 @@ bg-BG:
   Network: "Мрежа"
   New: "Нов"
   New episode airs in: "Нов епизод ще се излъчи след"
-  News: 
+  News: "Новини"
   Next Episode: "Следващ епизод"
   Next Season: "Следващ сезон"
   'No': "Не"
@@ -446,7 +446,7 @@ bg-BG:
   The Basics: "Основните"
   Theatrical: "Театрален"
   Theatrical (limited): "Театрален (ограничен)"
-  Timezone: 
+  Timezone: "Часови пояс"
   Title: "Заглавие"
   Title (A-Z): "Заглавие (А-Я)"
   Title (Z-A): "Заглавие (Я-А)"
@@ -500,17 +500,17 @@ bg-BG:
   Zip Code: "Пощенски код"
   already_translated_in: "%{page_title} е преведен на следните езици..."
   api_session:
-    approved_session: 
-    continue: 
+    approved_session: "Одобрихте приложението %{application_name}. Можете да затворите прозореца."
+    continue: Ако желаете да продължите кликнете върху бутона "Одобри". В противен случай просто затворете прозореца.
   attributes:
-    biography: 
+    biography: "Биография"
     certification: 
     iso_3166_1: "Държава"
     iso_639_1: "Език"
     overview: 
     title: "Заглавие"
   average edits per day: "среден брой промени на ден"
-  change_email_text: 
+  change_email_text: "Ако желаете да промените имейла си въведете новия адрес долу. Преди да се влезете е необходимо да потвърдите новия имейл адрес като кликнете върху линка за активиране (от имейла който ще получили)."
   collection_includes: "Включва %{movie_titles}"
   confirm_delete: "Сигурни ли сте, че искате да изтриете този запис?"
   date:
@@ -592,14 +592,14 @@ bg-BG:
   edit_overview_tooltip: "Когато въвеждате информация моля старайте се тя да бъде кратка, точна и без спойлери."
   edits: "промени"
   email:
-    confirm_new_email_address: 
-    does_not_match: 
-    new_email_address: 
-    sent_verification_email: 
+    confirm_new_email_address: "Потвърдете новия имейл адрес"
+    does_not_match: "Имейл адресите не съвпадат. Опитайте отново."
+    new_email_address: "Нов имейл адрес"
+    sent_verification_email: "Изпратен е имейл за потвърждение до %{email_address}. За повече информация проверете входящата кутия (и СПАМ папката)."
   episode_count:
     one: "%{count} епизод"
     other: "%{count} епизода"
-  episode_number_name: 
+  episode_number_name: "Епизд %{episode_number}"
   errors:
     messages:
       blank: "задължително"
@@ -1096,11 +1096,11 @@ bg-BG:
     other: "%{count} гласа"
   part_of_collection: "Част от %{collection_name}"
   password:
-    confirm_new_password: 
+    confirm_new_password: "Потвърдете новата парола"
     invalid_reset_code: 
-    new_password: 
-    reset_email_sent: 
-  resend_verification_email_text: 
+    new_password: "Нова парола"
+    reset_email_sent: "Изпратен е имейл! Скоро ще получите инструкции за възстановяване на паролата."
+  resend_verification_email_text: "Не сте получили имейла за потвърждаване на регистрацията? Въведете имейла си за да възстановите паролата."
   reset_password_dialog_text: 
   reset_password_text: 
   search:
@@ -1113,7 +1113,7 @@ bg-BG:
     watchlist_movie: "Търси списъка за гледане с филми..."
     watchlist_tv: "Търси списъка за гледане със сериали..."
   search_tip_1: 'Съвет: Можете да ползвате "y:" (латинска буква) за филтриране на резултатите по година. Пример: "междузвездни войни y:1977".'
-  season_number_name: 
+  season_number_name: "Сезон %{season_number}"
   season_overview:
     already_aired: "Премиерата на  сезон %{season_number} от %{show_name} се е състояла на %{date}."
     to_air: "Премиерният сезон %{season_number} от %{show_name} ще бъде излъчен на %{date}."
