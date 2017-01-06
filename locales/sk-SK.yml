@@ -299,7 +299,7 @@ sk-SK:
   Now Playing Movies: Aktuálne hrané filmy
   Number of Movies: Počet filmov
   Number of TV Shows: Počet seriálov
-  Number of edits in the past: Počet úprav v minulosti
+  Number of edits in the past: Počet úprav za posledých
   Offensive or Spam: Urážlivé alebo spam
   Offical Site: Oficiálna stránka
   On TV: Vysielané v TV
@@ -547,7 +547,7 @@ sk-SK:
     iso_639_1: Jazyk
     overview: Obsah
     title: Názov
-  average edits per day: priemer úprav za deň
+  average edits per day: premierne úprav za deň
   change_email_text: Pokiaľ si želáte zmeniť svoj email, zadajte nový email do poľa nižšie. Pred tým, než sa budete môcť znova prihlásiť, budete musieť overiť svoju novú adresu kliknutím na aktivačný odkaz v emaili, ktorý pošleme na vašu novú adresu.
   collection_includes: Zahŕňa %{movie_titles}
   confirm_delete: Ste si istý, že chcete vymazať tento záznam?
@@ -1060,15 +1060,15 @@ sk-SK:
         format: "%u%n"
         precision: 2
         separator: "."
-        significant: nepravda
-        strip_insignificant_zeros: nepravda
+        significant: 'false'
+        strip_insignificant_zeros: 'false'
         unit: "$"
     format:
       delimiter: ","
       precision: 3
       separator: "."
-      significant: "$"
-      strip_insignificant_zeros: nepravda
+      significant: 'false'
+      strip_insignificant_zeros: 'false'
     human:
       decimal_units:
         format: "%n %u"
@@ -1080,8 +1080,8 @@ sk-SK:
           trillion: Trilión
       format:
         precision: 3
-        significant: pravda
-        strip_insignificant_zeros: pravda
+        significant: 'true'
+        strip_insignificant_zeros: 'true'
       short_decimal_units:
         units:
           billion: B
