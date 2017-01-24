@@ -6,11 +6,11 @@ fa-IR:
   API Details: "جزئیات API"
   API Key: "کلید API"
   API Libraries: "کتابخانه‌های API"
-  API Read Access Token: 
-  API Stats: 
+  API Read Access Token: "رمز دسترسی خوانده شده توسط API"
+  API Stats: "آمار API"
   API Terms: "شرایط API"
   API Updates: "بروزرسانی‌های API"
-  About: 
+  About: "درباره"
   About TMDb: "درباره TMDB"
   About this list: "درباره این لیست"
   Accept: "پذیرفتن"
@@ -59,17 +59,17 @@ fa-IR:
   Alternative Names: "نام‌های جایگزین"
   Alternative Titles: "عنوان‌های جایگزین"
   Apiary Documentation: "مستندات API"
-  App Directory: 
+  App Directory: "فهرست برنامه"
   App Showcase: "ویترین نرم‌افزار"
-  Application Description: 
+  Application Description: "توضیحات نرم افزار"
   Application Name: "نام برنامه"
   Application Summary: "توصیفی از برنامه"
   Application URL: URL برنامه
   Approve: "تایید"
-  Approved?: 
+  Approved?: "تایید؟"
   Apps: "برنامه‌ها"
   Are you sure?: "آیا شما مطمئن هستید؟"
-  Attributes: 
+  Attributes: "ویژگی‌ها"
   Auto: "خودکار"
   Back to top: "بازگشت به بالا"
   Backdrop Card View: "نمای کارت بک‌دراپ"
@@ -78,12 +78,12 @@ fa-IR:
   Best Match: "بهترین تطابق"
   Biography: "بیوگرافی"
   Birthday: "تولد"
-  Branding: 
+  Branding: "نام تجاری"
   Budget: "بودجه"
   Cancel: "لغو"
   Canceled: "لغو شد"
   Cast: "بازیگران"
-  Categories: 
+  Categories: "دسته‌بندی‌ها"
   Certification: "گواهی"
   Change Email: "تغییر ایمیل"
   Change?: "تغییرات ذخیره شود؟"
@@ -101,7 +101,7 @@ fa-IR:
   Companies: "شرکت‌ها"
   Company Results: "نتایج شرکت‌ها"
   Confirm: "تایید"
-  Confirm Your Application: 
+  Confirm Your Application: "تایید نرم‌افزار شما"
   Contact Email: "ایمیل تماس"
   Contact Us: "با ما تماس بگیرید"
   Content Ratings: "رده‌بندی‌های محتوا"
@@ -112,8 +112,8 @@ fa-IR:
   Convert to Collection?: "تبدیل به مجموعه؟"
   Country: "کشور"
   Create: "ایجاد"
-  Create App: 
-  Create Application: 
+  Create App: "ایجاد نرم‌افزار"
+  Create Application: "ایجاد درخواست"
   Create New List: "ایجاد لیست جدید"
   Create Translation: "ایجاد ترجمه"
   Created By: "ایجاد شده توسط"
@@ -121,7 +121,7 @@ fa-IR:
   Crew: "عوامل تولید"
   Current Season: "فصل فعلی"
   Currently Airing TV Shows: "سریال‌های در حال پخش"
-  Currently on page: 
+  Currently on page: "در حال حاضر روی صفحه"
   DMCA Takedown Request: "درخواست حذف DCMA (قانون هزاره دیجیتال)"
   Date: "تاریخ"
   Day of Death: "تاریخ مرگ"
@@ -138,10 +138,10 @@ fa-IR:
   Desktop Application: "نرم‌افزار ویندوز"
   Destination Record: "ضبط مقصد"
   Details: "جزئیات"
-  Developed By: 
+  Developed By: "توسعه داده شده توسط"
   Digital: "دیجیتال"
   Directed by: "کارگردانی توسط"
-  Directory: 
+  Directory: "فهرست"
   Discover: "پیدا کردن"
   Discover Examples: "پیدا کردن نمونه‌ها"
   Discover New Movies: "پیدا کردن فیلم‌های جدید"
@@ -152,7 +152,7 @@ fa-IR:
   Documentation: "مستندات"
   Duplicate: "تکراری"
   Edit: "ویرایش"
-  Edit App: 
+  Edit App: "ویرایش برنامه"
   Edit Page: "ویرایش صفحه"
   Editing Content: "ویرایش محتویات"
   Editing in: "ویرایش در زبان %{language}"
@@ -543,7 +543,7 @@ fa-IR:
   attributes:
     biography: "بیوگرافی"
     certification: "گواهی"
-    external_href: 
+    external_href: "نشانی وب"
     iso_3166_1: "کشور"
     iso_639_1: "زبان"
     overview: "بررسی اجمالی"
@@ -575,7 +575,7 @@ fa-IR:
     - "نوامبر"
     - "دسامبر"
   day: "روز"
-  days: 
+  days: "%{count} روز"
   departments:
     Acting: "بازیگری"
     Actors: "بازیگران"
@@ -591,7 +591,7 @@ fa-IR:
     Sound: "صدا"
     Visual Effects: "جلوه‌های ویژه"
     Writing: "نویسندگی"
-  dont_fallback: 
+  dont_fallback: "هیچکدام (عدم ارسال بازخورد)"
   edit_homepage_tooltip: "صفحه خانه اصلی. صفحه کاربران مجاز نیست."
   edit_list:
     add_edit_items: "افزودن/ویرایش آیتم‌ها"
@@ -605,7 +605,9 @@ fa-IR:
     confirm_new_email_address: "تایید آدرس ایمیل جدید"
     does_not_match: "آدرس ایمیل مطابقت ندارد٫ لطفا دوباره تلاش کنید."
     new_email_address: "آدرس ایمیل جدید"
-    sent_verification_email: 
+    sent_verification_email: |-
+      We've sent an email to %{email_address} to be verified. Check your inbox (and spam folder) for instructions on how to proceed.‫
+      ‫م
   episode_count: 
   episode_number_name: 
   errors:
