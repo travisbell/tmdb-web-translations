@@ -3,6 +3,7 @@ module TMDb
     class I18n
 
       @@master_i18n_language_list = nil
+      @@supported_iso_639_1_path = nil
 
       def self.default_iso_3166_1_mapping
         TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'es',
@@ -71,6 +72,11 @@ module TMDb
 
       def self.supported_iso_639_1
         TMDb::Config::I18n.default_mapping.keys
+      end
+
+      def self.supported_iso_639_1_path
+        return @@supported_iso_639_1_path unless @@supported_iso_639_1_path.nil?
+        @@supported_iso_639_1_path = TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }
       end
 
     end
