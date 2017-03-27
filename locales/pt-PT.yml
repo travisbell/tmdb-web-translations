@@ -397,6 +397,7 @@ pt-PT:
   Release Type: Tipo
   Released: Lançado
   Reload Page: Recarregar Página
+  Remove: 
   Remove from your favorite list: Remover da sua lista de favoritos
   Remove from your watchlist: Remover da sua lista de desejos
   Remove?: Remover?
@@ -548,6 +549,7 @@ pt-PT:
   Year: Ano
   'Yes': Sim
   Your lists: As suas listas
+  Your rating: 
   Zip Code: Código Zip
   add_to_list: Adicionar %{media_title} para uma das suas listas...
   already_translated_in: "%{page_title} já está transcrito/a nos idiomas seguintes..."
@@ -682,7 +684,9 @@ pt-PT:
     max: Filtrar Por Data De Estreia (Max)
     min: Filtrar Por Data De Estreia (Min)
   invalid_aspect_ratio: Essa proporção do aspecto é inválida.
-  item_count: 
+  item_count:
+    one: "%{count} item"
+    other: "%{count} itens"
   jobs:
     24 Frame Playback: Operador de Reprodução em 24 Frames
     3D Director: Diretor(a) 3D
@@ -1032,8 +1036,8 @@ pt-PT:
       many: ''
       one: item nesta lista
       other: itens nesta lista
-    private: 
-    public: 
+    private: Privado
+    public: Público
     select_this_image: Seleciona esta imagem
     total_revenue: Receita Total
     total_runtime: Tempo de Execução Total

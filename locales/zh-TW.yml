@@ -397,6 +397,7 @@ zh-TW:
   Release Type: "類型"
   Released: "已上映"
   Reload Page: "頁面重新整理"
+  Remove: 
   Remove from your favorite list: "從我的最愛清單移除"
   Remove from your watchlist: "自您的稍候觀看清單內移除"
   Remove?: "確認移除嗎？"
@@ -548,6 +549,7 @@ zh-TW:
   Year: "年"
   'Yes': "是"
   Your lists: "你的清單"
+  Your rating: 
   Zip Code: "郵遞區號"
   add_to_list: "新增 %{media_title} 至播放清單"
   already_translated_in: "%{page_title} 已被翻譯成以下語言..."
@@ -679,7 +681,9 @@ zh-TW:
     max: "依照上映日期篩選 (最晚日期)"
     min: "依照上映日期篩選 (最早日期)"
   invalid_aspect_ratio: "比例不正確"
-  item_count: 
+  item_count:
+    one: "%{count} 個項目"
+    other: "%{count} 個項目"
   jobs:
     24 Frame Playback: 24 幀播放
     3D Director: 3D 導演
@@ -1027,8 +1031,8 @@ zh-TW:
     items_on_list:
       many: ''
       other: "清單內的電影數量"
-    private: 
-    public: 
+    private: "私人"
+    public: "公開"
     select_this_image: "選擇此圖片"
     total_revenue: "票房總收入"
     total_runtime: "總播映時間"
