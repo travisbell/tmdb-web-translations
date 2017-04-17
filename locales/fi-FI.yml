@@ -105,7 +105,7 @@ fi-FI:
   Confirm: Varmista
   Confirm Your Application: 
   Contact Email: Sähköpostiosoite
-  Contact Us: Ota yhtettä meihin
+  Contact Us: Ota meihin yhtettä
   Content Ratings: Sisältöluokitukset
   Content Score: Sisällön pisteytys
   Continue: Jatka
@@ -165,7 +165,7 @@ fi-FI:
   Email Address: Email-osoite
   Email Content: Sähköpostin sisältö
   Ended: Päättynyt
-  Episode Images: Jaksojen kuvat
+  Episode Images: Jakson kuvat
   Episode Number: Jaksonumero
   Episode Overview: Jakson kuvaus
   Episodes: Jaksot
@@ -360,12 +360,12 @@ fi-FI:
   Powered by TMDb: 
   Powered by The Movie Database: 
   Premiere: Ensi-ilta
-  Preview: 
+  Preview: Esikatselu
   Previous Episode: Edellinen jakso
   Primary Color: Pääväri
   Primary Facts: Perustiedot
   Privacy Policy: Yksityisyydensuoja
-  Production Code: 
+  Production Code: Tuotantokoodi
   Production Companies: Tuotantoyhtiöt
   Production Countries: Tuotantomaat
   Production Information: Tuotantotiedot
@@ -388,7 +388,7 @@ fi-FI:
   Recent Blog Posts: Uusimmat blogitekstit
   Recent News: Uusimmat uutiset
   Recommendations: Suosituksia
-  Regions: 
+  Regions: Alueet
   Regular Cast: Vakituiset näyttelijät
   Release Date Ascending: Julkaisupäivä, nouseva
   Release Date Descending: Julkaisupäivä, laskeva
@@ -398,7 +398,7 @@ fi-FI:
   Release Type: Tyyppi
   Released: Julkaistu
   Reload Page: Lataa sivu uudelleen
-  Remove: 
+  Remove: Poista
   Remove from your favorite list: Poista suosikkilistaltasi
   Remove from your watchlist: Poista katsomislistaltasi
   Remove?: Poista?
@@ -433,7 +433,7 @@ fi-FI:
   Secondary Color: 
   See Episodes: 
   Select One: Valitse yksi...
-  Select a category: 
+  Select a category: Valitse kategoria...
   Selected Language: Valitse kieli
   Send: Lähetä
   Sessions: Istunnot
@@ -530,7 +530,7 @@ fi-FI:
   Videos: Videot
   View: Näkymä
   View All Backdrops: Näytä kaikki taustat
-  View All Episode Images: 
+  View All Episode Images: Katso kaikki jakson kuvat
   View All Episodes: 
   View All Posters: Näytä kaikki julisteet
   View All Seasons: Katso kaikki kaudet
@@ -690,7 +690,9 @@ fi-FI:
     max: Suodatus julkaisupäivän mukaan (max)
     min: Suodatus julkaisupäivän mukaan (min)
   invalid_aspect_ratio: Tämä kuvasuhde ei kelpaa.
-  item_count: 
+  item_count:
+    one: "%{count} nimike"
+    other: "%{count} nimikettä"
   jobs:
     24 Frame Playback: 24 kuvan toistonopeus
     3D Director: 3D-ohjaaja
@@ -1039,8 +1041,8 @@ fi-FI:
       many: ''
       one: nimike tällä listalla
       other: nimikettä tällä listalla
-    private: 
-    public: 
+    private: Yksityinen
+    public: Julkinen
     select_this_image: Valitse tämä kuva
     total_revenue: Kokonaistuotto
     total_runtime: Kokonaiskesto
