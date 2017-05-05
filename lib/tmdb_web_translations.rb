@@ -22,6 +22,7 @@ module TMDb
           'da' => 'da-DK',
           'de' => 'de-DE',
           'el' => 'el-GR',
+          'eo' => 'eo-EO',
           'es' => 'es-ES',
           'eu' => 'eu-ES',
           'fa' => 'fa-IR',
