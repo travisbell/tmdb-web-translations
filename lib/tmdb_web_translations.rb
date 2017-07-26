@@ -35,6 +35,7 @@ module TMDb
           'it' => 'it-IT',
           'ja' => 'ja-JP',
           'ka' => 'ka-GE',
+          'kn' => 'kn-IN',
           'ko' => 'ko-KR',
           'nb' => 'nb-NO',
           'nl' => 'nl-NL',
