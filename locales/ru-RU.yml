@@ -567,25 +567,44 @@ ru-RU:
   Your rating: "Ваш рейтинг"
   Zip Code: Zip-код
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: "Обсуждения"
+    edit_profile: "Редактировать профиль"
+    lists: "Списки"
+    logout: "Выйти"
+    settings: "Настройки"
+    view_profile: "Посмотреть профиль"
+    watchlist: "Список просмотра"
   accounts:
-    average_movie_score: 
-    average_tv_score: 
-    member_since: 
+    average_movie_score: "Средний<br>рейтинг фильмов"
+    average_tv_score: "Средний<br>рейтинг сериалов"
+    member_since: "Участник с %{date}"
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
+      discussions: "Обсуждения"
+      favorites: "Избранное"
+      lists: "Списки"
+      overview: "Обзор"
+      ratings_reviews: "Рейтинги и обзоры"
+      recommendations: "Рекомендации"
+      watchlist: "Список просмотра"
+    overview:
+      30_day_activity: 
+      empty_recent_activity:
+        logged_in: 
+        public: 
+      empty_upcoming_watchlist:
+        logged_in: "В списке просмотра нет ожидаемых фильмов."
+      empty_watched_genres:
+        logged_in: "Вы не смотрели фильмов или сериалов."
+        public: "%{username} не просматривал фильмов и сериалов."
+      goto_discussions: "Перейти к обсуждениям"
+      goto_watchlist: "К списку просмотра"
+      most_watch_genres: "Самые просматриваемые жанры"
+      rating_overview: "Обзор оценок"
+      recent_activity: "Последняя активность"
+      recent_discussions: "Последние обсуждения"
+      total_edits: "Всего правок"
+      total_ratings: "Всего оценок"
+      upcoming_watchlist: "Предстоящее из списка просмотра"
   add_to_list: "Добавить %{media_title} в свой список..."
   already_translated_in: "%{page_title} уже переведен на следующие языки... "
   api_session:
@@ -694,6 +713,11 @@ ru-RU:
     Sound: "Звук"
     Visual Effects: "Визуальные эффекты  "
     Writing: "Сценарий"
+  discussions:
+    last_reply: "Последний ответ"
+    replies: "Ответы"
+    status: "Статус"
+    subject: "Тема"
   dont_fallback: "Отсутствует"
   edit_homepage_tooltip: "Только оффициальные сайты. Любительские сайты запрещены. "
   edit_list:
