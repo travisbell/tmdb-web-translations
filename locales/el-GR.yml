@@ -445,7 +445,7 @@ el-GR:
   Sessions: "Συνεδρείες"
   Share: "Μοιράσου το"
   Sharing: "Διαμοιρασμός"
-  Show: 
+  Show: "Προβολή"
   Show More: "Δείτε Περισσότερα"
   Sign Up: "Εγγραφή"
   Sign up for an account: "Εγγραφή για έναν Λογαριασμό"
@@ -566,44 +566,76 @@ el-GR:
   Your rating: "Η Αξιολόγηση σας"
   Zip Code: "Ταχυδρομικός κώδικας"
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: "Συζητήσεις"
+    edit_profile: "Επεξεργασία προφίλ"
+    lists: "Λίστες"
+    logout: "Αποσύνδεση"
+    settings: "Ρυθμίσεις"
+    view_profile: "Προβολή προφίλ"
+    watchlist: "Λίστα παρακολούθησης"
   accounts:
-    average_movie_score: 
-    average_tv_score: 
-    member_since: 
-    navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    overview:
-      30_day_activity: 
-      empty_recent_activity:
+    average_movie_score: "Μέσος όρος<br>Βαθμολογία ταινιών"
+    average_tv_score: "Μέσος όρος<br>Βαθμολογία Σειρών"
+    favorites:
+      my_favorites:
         logged_in: 
         public: 
-      empty_upcoming_watchlist:
+    filter_by: "Φιλτράρισμα Κατά:"
+    filters:
+      popularity: "Δημοτικότητα"
+      release_date: "Ημερομηνία κυκλοφορίας"
+      upcoming: "Επερχόμενες"
+    lists:
+      create_list: "Δημιουργία λίστας"
+      last_updated: 
+      my_lists:
+        logged_in: "Οι λίστες μου"
+        public: 
+      no_lists:
         logged_in: 
+        public: 
+    member_since: "Μέλος από: %{date}"
+    navigation:
+      discussions: "Συζητήσεις"
+      favorites: "Αγαπημένα"
+      lists: "Λίστες"
+      overview: "Επισκόπηση"
+      ratings_reviews: |
+        Αξιολογήσεις & Κριτικές
+      recommendations: "Προτάσεις"
+      watchlist: "Λίστα παρακολούθησης"
+    order: "Σειρά:"
+    overview:
+      30_day_activity: "Δραστηριότητα 30 ημερών"
+      empty_recent_activity:
+        logged_in: "Δεν έχετε κάνει καμία πρόσφατη επεξεργασία."
+        public: "%{username} Δεν έχει κάνει πρόσφατα αλλαγές"
+      empty_upcoming_watchlist:
+        logged_in: "Δεν υπάρχουν επερχόμενες ταινίες στη λίστα παρακολούθησής σας."
       empty_watched_genres:
         logged_in: 
         public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+      goto_discussions: "Μεταβείτε στις συζητήσεις"
+      goto_watchlist: "Μεταβείτε στη λίστα παρακολούθησης"
+      most_watched_genres: "Τα πιο δημοφιλή είδη"
+      rating_overview: "Επισκόπηση αξιολόγησης"
+      recent_activity: "Πρόσφατη Δραστηριότητα"
+      recent_discussions: "Πρόσφατες συζητήσεις"
+      total_edits: "Συνολικές Επεξεργασίες"
+      total_ratings: "Σύνολο Αξιολογήσεων"
+      upcoming_watchlist: "Προσεχώς από τη λίστα παρακολούθησης"
+    watchlist:
+      my_watchlist: "Η λίστα παρακολούθησής μου"
+      next_month: "Τον επόμενο μήνα"
+      no_upcoming_movies:
+        one: "Δεν υπάρχουν ταινίες προσεχώς στη λίστα παρακολούθησής σας. Υπάρχει, ωστόσο, %{count} στοιχείο στη λίστα παρακολούθησής σας."
+        other: "Δεν υπάρχουν ταινίες προσεχώς στη λίστα παρακολούθησής σας. Υπάρχει, ωστόσο, %{count} στοιχεία στη λίστα παρακολούθησής σας."
+      no_upcoming_tv_shows:
+        one: "Δεν υπάρχουν σειρές προσεχώς στη λίστα παρακολούθησής σας. Υπάρχει, ωστόσο, %{count} στοιχείο στη λίστα παρακολούθησής σας."
+        other: "Δεν υπάρχουν σειρές προσεχώς στη λίστα παρακολούθησής σας. Υπάρχει, ωστόσο, %{count} στοιχεία στη λίστα παρακολούθησής σας."
+      this_month: "Αυτόν το μηνά"
+      this_week: "Αυτή την εβδομάδα"
+      view_them: "Δείτε τα."
   add_to_list: "Προσθήκη %{media_title} σε μία από τις λίστες σας..."
   already_translated_in: "%{page_title} έχει μεταφραστεί στις ακόλουθες γλώσσες..."
   api_session:
@@ -711,10 +743,10 @@ el-GR:
     Visual Effects: "Οπτικά εφέ"
     Writing: "Σενάριο"
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    last_reply: "Τελευταία Απάντηση"
+    replies: "Απαντήσεις"
+    status: "Κατάσταση"
+    subject: "Θέμα"
   dont_fallback: "Όχι (δεν υπάρχει εναλλακτική)"
   edit_homepage_tooltip: "Επίσημη Ιστοσελίδα μόνο. σελίδες οπαδών δεν επιτρέπονται."
   edit_list:

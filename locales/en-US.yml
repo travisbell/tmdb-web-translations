@@ -573,6 +573,24 @@ en-US:
   accounts:
     average_movie_score: Average<br>Movie Score
     average_tv_score: Average<br>TV Score
+    favorites:
+      my_favorites:
+        logged_in: My Favorites
+        public: "%{username}'s Favorites"
+    filter_by: 'Filter by:'
+    filters:
+      popularity: Popularity
+      release_date: Release Date
+      upcoming: Upcoming
+    lists:
+      create_list: Create List
+      last_updated: Updated
+      my_lists:
+        logged_in: My Lists
+        public: "%{username}'s lists"
+      no_lists:
+        logged_in: You haven't created any lists.
+        public: "%{username} doesn't have any public lists to share."
     member_since: Member since %{date}
     navigation:
       discussions: Discussions
@@ -582,6 +600,7 @@ en-US:
       ratings_reviews: Ratings & Reviews
       recommendations: Recommendations
       watchlist: Watchlist
+    order: 'Order:'
     overview:
       30_day_activity: 30 Day Activity
       empty_recent_activity:
@@ -601,6 +620,18 @@ en-US:
       total_edits: Total Edits
       total_ratings: Total Ratings
       upcoming_watchlist: Upcoming From Watchlist
+    watchlist:
+      my_watchlist: My Watchlist
+      next_month: Next month
+      no_upcoming_movies:
+        one: There are no upcoming movies on your watchlist. There is however, %{count} item in your watchlist.
+        other: There are no upcoming movies on your watchlist. There is however, %{count} items in your watchlist.
+      no_upcoming_tv_shows:
+        one: There are no upcoming TV shows on your watchlist. There is however, %{count} item in your watchlist.
+        other: There are no upcoming TV shows on your watchlist. There is however, %{count} items in your watchlist.
+      this_month: This month
+      this_week: This week
+      view_them: View them.
   add_to_list: Add %{media_title} to one of your lists...
   already_translated_in: "%{page_title} is already translated in the following languages..."
   api_session:
