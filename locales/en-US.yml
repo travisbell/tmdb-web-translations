@@ -1341,6 +1341,9 @@ en-US:
           summary: We were able to import a total of %{imported_count} items out of the %{total_count} (%{imported_percentage}%) items that we detected in your exported list.
         currently_running: Your import is currently running. You can refresh this page to see if it has completed.
         import_results: Import Results
+        in_progress:
+          import_status: Import Status
+          summary: We detected a total number of %{total_count} items to import. The import is currently running the background and you will be automatically notified when it is complete.
       select_csv: Select CSV file
       type:
         favorite: Favorite
