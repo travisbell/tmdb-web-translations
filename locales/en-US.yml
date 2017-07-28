@@ -579,8 +579,11 @@ en-US:
         public: "%{username}'s Favorites"
     filter_by: 'Filter by:'
     filters:
+      date_rated: Date Rated
+      my_rating: My Rating
       popularity: Popularity
       release_date: Release Date
+      score: Score
       upcoming: Upcoming
     lists:
       create_list: Create List
@@ -620,6 +623,21 @@ en-US:
       total_edits: Total Edits
       total_ratings: Total Ratings
       upcoming_watchlist: Upcoming From Watchlist
+    ratings_reviews:
+      my_ratings:
+        logged_in: My Ratings
+        public: "%{username}'s Ratings"
+      my_reviews:
+        logged_in: My Reviews
+        public: "%{username}'s Reviews"
+      ratings_by_year: Ratings By Year
+    recommendations:
+      my_recommendations: My Recommendations
+      no_recommendations: We don't have enough data to suggest any recommendations.
+      no_recommendations_helper: Try adding a few more favorites (the more the better) and come back to see how we did.
+    tips:
+      import_imdb_ratings: You can import your ratings from IMDb.
+      tip: Tip
     watchlist:
       my_watchlist: My Watchlist
       next_month: Next month

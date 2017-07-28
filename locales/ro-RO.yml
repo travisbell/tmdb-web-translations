@@ -240,7 +240,7 @@ ro-RO:
   Known For: Cunoscut pentru
   Language: Limbă
   Language Preferences: Preferințe lingvistice
-  Languages: 
+  Languages: Limbi
   Last Name: Nume de familie
   Last Season: Ultimul sezon
   Last Season Crew: Echipa ultimului sezon
@@ -267,7 +267,7 @@ ro-RO:
   Login to rate this movie: Autentificați-vă pentru a nota acest film artistic
   Login to report an issue: Autentificați-vă pentru a raporta o problemă.
   Login to your account: Autentificați-vă cu contul dumneavoastră
-  Logo: 
+  Logo: Siglă
   Logos & Attribution: Sigle și atribuire
   Logout: Deconectează
   Male: Masculin
@@ -344,7 +344,7 @@ ro-RO:
   Pilot: Pilot
   Place of Birth: Locul nașterii
   Planned: Planificat
-  Play: 
+  Play: Redă
   Play Trailer: 
   Plot Keywords: Cuvinte cheie intrigă
   Popular: Populare
@@ -391,7 +391,7 @@ ro-RO:
   Recent Blog Posts: Postările de pe blog recente
   Recent News: "Știri recente"
   Recommendations: Recomandări
-  Regions: 
+  Regions: Regiuni
   Regular Cast: Distribuție frecventă
   Release Date Ascending: Dată de lansare ascendent
   Release Date Descending: Dată de lansare descendent
@@ -401,10 +401,10 @@ ro-RO:
   Release Type: Tip
   Released: Lansat
   Reload Page: Reîncarcă pagina
-  Remove: 
+  Remove: Elimină
   Remove from your favorite list: Elimină din lista de filme favorite
   Remove from your watchlist: Elimină din lista de filme de privit
-  Remove?: 
+  Remove?: Eliminați?
   Report: Raportare
   Report Violation: 
   Report an Issue: Raportați o problemă
@@ -528,7 +528,7 @@ ro-RO:
   Upcoming: Pe viitor
   Upcoming Movies: Filme artistice viitoare
   Update: Actualizează
-  Upload Logo: 
+  Upload Logo: "Încărcare siglă"
   User Score: 
   Username: Nume de utilizator
   Video?: Video?
@@ -579,8 +579,11 @@ ro-RO:
         public: 
     filter_by: 'Filtrare după:'
     filters:
+      date_rated: 
+      my_rating: 
       popularity: Popularitate
       release_date: 
+      score: 
       upcoming: 
     lists:
       create_list: 
@@ -615,11 +618,26 @@ ro-RO:
       goto_watchlist: 
       most_watched_genres: 
       rating_overview: 
-      recent_activity: Activitatea recentă
-      recent_discussions: Dicuțiile recente
+      recent_activity: Activitate recentă
+      recent_discussions: Dicuții recente
       total_edits: 
       total_ratings: 
       upcoming_watchlist: 
+    ratings_reviews:
+      my_ratings:
+        logged_in: 
+        public: 
+      my_reviews:
+        logged_in: 
+        public: 
+      ratings_by_year: 
+    recommendations:
+      my_recommendations: 
+      no_recommendations: 
+      no_recommendations_helper: 
+    tips:
+      import_imdb_ratings: 
+      tip: 
     watchlist:
       my_watchlist: 
       next_month: Luna următoare
@@ -734,10 +752,10 @@ ro-RO:
     Visual Effects: Efecte vizuale
     Writing: Scriere
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    last_reply: Ultimul răspuns
+    replies: Răspunsuri
+    status: Stare
+    subject: Subiect
   dont_fallback: Niciuna (Fără limbă de rezervă)
   edit_homepage_tooltip: Doar pagina oficială. Paginile fanilor nu sunt permise.
   edit_list:
@@ -1123,8 +1141,8 @@ ro-RO:
       many: 
       one: 
       other: 
-    private: 
-    public: 
+    private: Privat
+    public: Public
     select_this_image: 
     total_revenue: 
     total_runtime: Durată totală
