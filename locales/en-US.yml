@@ -667,19 +667,6 @@ en-US:
     iso_639_1: Language
     overview: Overview
     title: Title
-  avatar:
-    current_avatar: Current Avatar
-    explain: Currently, the only option we have to display a custom avatar is by using a service called <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. If you would like to display a custom avatar on TMDb, you will have to sign up for an account on Gravatar and make sure to add the same email address you used here (that's how we can link your account). Once this has been done, click the update button below and we'll grab your new image.
-    explain_gravatar: If you would like to use <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> as the provider of your avatar, make sure you have the same email address you use here added on Gravatar. Once that is done (and you have uploaded an image of course), click the update button below and we'll try to grab your new image.
-    not_found: No avatar found.
-    not_found_add: No avatar found. Would you like to <a href="#">add one</a>?
-    remove_own: Remove Your Avatar?
-    update_avatar: Update Avatar
-    update_gravatar: Update Gravatar?
-    updated: Avatar Updated!
-    upload_avatar: Upload Avatar
-    upload_own: Upload Your Own?
-    use_gravatar: Use Gravatar?
   average edits per day: average edits per day
   back_options:
     episode: Back to episode
@@ -1322,6 +1309,28 @@ en-US:
   season_overview:
     already_aired: Season %{season_number} of %{show_name} premiered on %{date}.
     to_air: Season %{season_number} of %{show_name} is set to premiere on %{date}.
+  settings:
+    profile:
+      accent_color: Accent Color
+      avatar:
+        current_avatar: Current Avatar
+        explain: Currently, the only option we have to display a custom avatar is by using a service called <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. If you would like to display a custom avatar on TMDb, you will have to sign up for an account on Gravatar and make sure to add the same email address you used here (that's how we can link your account). Once this has been done, click the update button below and we'll grab your new image.
+        explain_gravatar: If you would like to use <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> as the provider of your avatar, make sure you have the same email address you use here added on Gravatar. Once that is done (and you have uploaded an image of course), click the update button below and we'll try to grab your new image.
+        not_found: No avatar found.
+        not_found_add: No avatar found. Would you like to <a href="#">add one</a>?
+        remove_own: Remove Your Avatar?
+        update_avatar: Update Avatar
+        update_gravatar: Update Gravatar?
+        updated: Avatar Updated!
+        upload_avatar: Upload Avatar
+        upload_own: Upload Your Own?
+        upload_window_tip: Use the file selector below to upload you own custom avatar. We will automatically crop your image to be a square if it's not already.
+        use_gravatar: Use Gravatar?
+      background:
+        background_image: Background Image
+        remove_background: Remove Your Background Image?
+        set_image: Set a background image?
+      edit_profile: Edit Profile
   signup_text: Signing up for an account is free and easy. Fill out the form below to get started.
   success_approved_access_token: Permission granted!
   success_deleted: The selected item was successfully deleted.
