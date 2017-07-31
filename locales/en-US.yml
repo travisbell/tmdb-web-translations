@@ -679,6 +679,19 @@ en-US:
   change_email_text: If you would like to change your email, enter a new email in the field below. Before being able to log back in, you will have to verify your new address by clicking the activation link in the email we send to your new address.
   collection_includes: Includes %{movie_titles}
   confirm_delete: Are you sure you want to delete this record?
+  content_score:
+    scale:
+      '0': Gotta start somewhere...
+      '1': Hey, it's a start.
+      '10': Yes! Looking good!
+      '2': We're getting there.
+      '3': Rome wasn't built in a day...
+      '4': There's no 'I' in team...
+      '5': Still needs a little work.
+      '6': We're so close, yet so far.
+      '7': Just a little bit more...
+      '8': Pump it up! We're close now.
+      '9': Almost there...
   date:
     abbr_day_names:
     - Sun
@@ -1313,11 +1326,30 @@ en-US:
     account:
       account_settings: Account Settings
       change_password: Change Password?
+    api:
+      api: API
+      navigation:
+        create: Create
+        details: Details
+        directory: Directory
+        sessions: Sessions
+        stats: Stats
     blocked_users:
       action: Action
       blocked_users: Blocked Users
       no_blocked: You haven't blocked any users.
       username: Username
+    connected_apps:
+      connected_apps: Connected Apps
+      listed_below_explanation: Listed below are the 3rd party applications you have authorized to write data on your behalf. You can revoke these authorizations at any time.
+      no_apps: You have not connected any apps to your account.
+      table:
+        action: Actions
+        application_name: Application Name
+        date_authorised: Date Authorised
+    delete_account:
+      delete_account: Delete Account
+      summary_text: You've just entered the <strong>danger zone</strong>! If you would like to continue and remove your account, you can do so by entering your password below and confirming the prompts.
     import_list:
       import_button: Import
       import_list: Import List
@@ -1388,6 +1420,32 @@ en-US:
         remove_background: Remove Your Background Image?
         set_image: Set a background image?
       edit_profile: Edit Profile
+    sharing:
+      favorite_list:
+        favorite_settings: Favorite List Settings
+        share_on_twitter: Share new favorites on Twitter?
+        share_publicly: Share this list publicly?
+      rated_list:
+        rated_settings: Rated List Settings
+        share_publicly: Share this list publicly?
+      sharing_settings: Sharing Settings
+      watchlist:
+        remove_when_rated: Automatically remove items when they're rated?
+        watchlist_settings: Watchlist Settings
+    social:
+      connected_table:
+        action: Action
+        auto_sharing: 'Automatically sharing:'
+        connect: Connect
+        connected_to: Connected to
+        info: Info
+        reload_text: Reload this page once you have authorized your account!
+        service: Service
+      favorite_message_hint: When marking an item as a favourite and sharing on Twitter or Facebook...
+      message_settings: Message Settings
+      sharing_message_hint: When sharing an item on Twitter or Facebook...
+      social_settings: Social Settings
+      supported_template_values: 'Supported template values:'
   signup_text: Signing up for an account is free and easy. Fill out the form below to get started.
   success_approved_access_token: Permission granted!
   success_deleted: The selected item was successfully deleted.

@@ -180,7 +180,7 @@ pt-BR:
   FAQ: Perguntas Frequentes
   Facts: Informações
   Fallback Language: Idioma secundário
-  Favorite: Nos favoritos
+  Favorite: Adicionar aos favoritos
   Favorite Movies: Filmes favoritos
   Favorite TV Shows: Séries favoritas
   Favorites: Favoritos
@@ -571,8 +571,8 @@ pt-BR:
     view_profile: Ver perfil
     watchlist: Lista de interesses
   accounts:
-    average_movie_score: Média de avaliação<br>de filmes
-    average_tv_score: Média de avaliação<br>de séries
+    average_movie_score: Avaliação média<br>de filmes
+    average_tv_score: Avaliação média<br>de séries
     discussions:
       my_active_boards: Meus fóruns ativos
       my_discussions: Minhas discussões
@@ -679,6 +679,19 @@ pt-BR:
   change_email_text: Se deseja alterar seu endereço de e-mail, insira o novo endereço no campo abaixo. Antes de logar de volta, você precisará verificar o seu novo endereço clicando no link de ativação no e-mail que será enviado ao seu novo endereço.
   collection_includes: Composta por filmes como %{movie_titles}
   confirm_delete: Tem certeza de que deseja excluir este registro?
+  content_score:
+    scale:
+      '0': 
+      '1': 
+      '10': 
+      '2': 
+      '3': 
+      '4': 
+      '5': 
+      '6': 
+      '7': 
+      '8': 
+      '9': 
   date:
     abbr_day_names:
     - Dom
@@ -1304,11 +1317,30 @@ pt-BR:
     account:
       account_settings: Configurações da conta
       change_password: Alterar senha?
+    api:
+      api: 
+      navigation:
+        create: 
+        details: 
+        directory: 
+        sessions: 
+        stats: 
     blocked_users:
       action: Ação
       blocked_users: Usuários bloqueados
       no_blocked: Você ainda não bloqueou nenhum usuário.
       username: Nome de usuário
+    connected_apps:
+      connected_apps: 
+      listed_below_explanation: 
+      no_apps: 
+      table:
+        action: 
+        application_name: 
+        date_authorised: 
+    delete_account:
+      delete_account: 
+      summary_text: 
     import_list:
       import_button: Importar
       import_list: Importar lista
@@ -1342,17 +1374,17 @@ pt-BR:
         watchlist: Lista de interesses
       which_list: Importar para qual lista?
     navigation:
-      account_settings: Configurações da conta
+      account_settings: Conta
       api: API
       blocked_users: Usuários bloqueados
       connected_apps: Aplicativos conectados
       delete_account: Deletar conta
-      edit_profile: Editar perfil
-      import_list: Importar lista
-      notification_settings: Configurações de notificação
+      edit_profile: Perfil
+      import_list: Importar listas
+      notification_settings: Notificações
       settings: Configurações
-      sharing_settings: Configurações de compartilhamento
-      social_settings: Configurações sociais
+      sharing_settings: Compartilhamento
+      social_settings: Social
     notifications:
       email_new_releases_watchlist: Me notificar por e-mail de estreias na minha lista de interesses?
       new_replies_to_threads_created: Acompanhar automaticamente tópicos criados ou respondidos por você?
@@ -1379,6 +1411,32 @@ pt-BR:
         remove_background: Remover sua imagem de fundo?
         set_image: Selecionar uma imagem de fundo?
       edit_profile: Editar perfil
+    sharing:
+      favorite_list:
+        favorite_settings: Configurações da lista de favoritos
+        share_on_twitter: Compartilhar novos favoritos no Twitter?
+        share_publicly: Compartilhar esta lista publicamente?
+      rated_list:
+        rated_settings: Configurações da lista de avaliações
+        share_publicly: Compartilhar esta lista publicamente?
+      sharing_settings: Configurações de compartilhamento
+      watchlist:
+        remove_when_rated: Remover itens automaticamente quando forem avaliados?
+        watchlist_settings: Configurações da lista de interesses
+    social:
+      connected_table:
+        action: Ação
+        auto_sharing: 'Compartilhamento automático:'
+        connect: Conectar
+        connected_to: Conectar ao
+        info: Informações
+        reload_text: Recarregue esta página quando tiver autorizado a sua conta!
+        service: Serviço
+      favorite_message_hint: 
+      message_settings: Configurações de mensagens
+      sharing_message_hint: 
+      social_settings: Configurações sociais
+      supported_template_values: 'Valores suportados:'
   signup_text: Crie uma conta, é fácil e gratuito. Comece completando o formulário abaixo.
   success_approved_access_token: Permissão concedida!
   success_deleted: O item selecionado foi deletado com sucesso.

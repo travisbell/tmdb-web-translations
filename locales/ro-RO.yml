@@ -571,12 +571,12 @@ ro-RO:
     view_profile: Vizualizare profil
     watchlist: Listă de privit
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Punctaj mediu<br>Filme artistice
+    average_tv_score: Punctaj mediu<br>Filme seriale
     discussions:
       my_active_boards: 
       my_discussions: Discuțiile mele
-      not_watching: 
+      not_watching: Nu urmăriți nicio discucție.
     favorites:
       my_favorites:
         logged_in: Favoritele mele
@@ -603,10 +603,10 @@ ro-RO:
       discussions: Discuții
       favorites: Favorite
       lists: Liste
-      overview: 
+      overview: Sumar
       ratings_reviews: 
       recommendations: Recomandări
-      watchlist: Listă f. de privit
+      watchlist: Listă filme de privit
     order: 'Ordonare:'
     overview:
       30_day_activity: Activitatea pe 30 de zile
@@ -620,9 +620,9 @@ ro-RO:
         public: 
       goto_discussions: Mergi la Discuții
       goto_watchlist: Mergi la Listă filme de privit
-      most_watched_genres: 
+      most_watched_genres: Cele mai privite genuri
       rating_overview: 
-      recent_activity: Activitate recentă
+      recent_activity: Activitatea recentă
       recent_discussions: Dicuții recente
       total_edits: 
       total_ratings: 
@@ -669,12 +669,25 @@ ro-RO:
     episode_list: "Înapoi la lista de episoade"
     home: 
     main: 
-    season: 
-    season_list: 
+    season: "Înapoi la sezon"
+    season_list: "Înapoi la lista de sezoane"
     top: "Înapoi sus"
   change_email_text: Dacă doriți să vă schimbați adresa de poștă electronică (email), introduceți adresa nouă în câmpul de mai jos. Înainte de a fi capabili să vă autentificați din nou în cont, va trebui să vă verificați adresa nouă dând clic pe legătura de activare din mesajul de poștă electronică (email) pe care vi l-am trimis la adresa dumneavoastră nouă.
   collection_includes: Include %{movie_titles}
   confirm_delete: Sigur doriți să ștergeți această înregistrare?
+  content_score:
+    scale:
+      '0': 
+      '1': 
+      '10': 
+      '2': 
+      '3': 
+      '4': 
+      '5': 
+      '6': 
+      '7': 
+      '8': 
+      '9': 
   date:
     abbr_day_names:
     - Dum
@@ -1149,10 +1162,10 @@ ro-RO:
     release_date: Data de lansare
     title: Titlu
   list_steps:
-    step_1: 
-    step_2: 
-    step_3: 
-    step_4: 
+    step_1: 'Pasul 1: Detaliile listei'
+    step_2: 'Pasul 2: Adăugarea elementelor'
+    step_3: 'Pasul 3: Alegerea imaginii'
+    step_4: 'Pasul 4: Distribuirea'
   login_to_create: 
   login_to_edit: Autentificați-vă pentru a edita
   month:
@@ -1188,7 +1201,7 @@ ro-RO:
     movie: 
     tv: 
   no_rated_movies:
-    current_user: Nu ați notat niciun film artistic.
+    current_user: Nu ați votat niciun film artistic.
     public: "%{username} nu a votat niciun film artistic."
   no_rated_tv_shows:
     current_user: Nu ați notat niciun film serial.
@@ -1304,11 +1317,30 @@ ro-RO:
     account:
       account_settings: Stabiliri cont
       change_password: Schimbați parola?
+    api:
+      api: 
+      navigation:
+        create: 
+        details: 
+        directory: 
+        sessions: 
+        stats: 
     blocked_users:
       action: 
       blocked_users: Utilizatori blocați
       no_blocked: Nu ați blocat niciun utilizator.
       username: 
+    connected_apps:
+      connected_apps: 
+      listed_below_explanation: 
+      no_apps: 
+      table:
+        action: 
+        application_name: 
+        date_authorised: 
+    delete_account:
+      delete_account: 
+      summary_text: 
     import_list:
       import_button: 
       import_list: Importare listă
@@ -1379,6 +1411,32 @@ ro-RO:
         remove_background: Vă eliminați imaginea de fundal?
         set_image: Stabiliți o imagine de fundal?
       edit_profile: 
+    sharing:
+      favorite_list:
+        favorite_settings: 
+        share_on_twitter: 
+        share_publicly: 
+      rated_list:
+        rated_settings: 
+        share_publicly: 
+      sharing_settings: 
+      watchlist:
+        remove_when_rated: 
+        watchlist_settings: 
+    social:
+      connected_table:
+        action: 
+        auto_sharing: 
+        connect: 
+        connected_to: 
+        info: 
+        reload_text: 
+        service: 
+      favorite_message_hint: 
+      message_settings: 
+      sharing_message_hint: 
+      social_settings: 
+      supported_template_values: 
   signup_text: 
   success_approved_access_token: Permisiune acordată!
   success_deleted: Elementul selectat a fost șters cu succes.

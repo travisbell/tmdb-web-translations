@@ -229,7 +229,7 @@ el-GR:
   Import List: "Εισαγωγή Λίστας"
   In Production: "Σε παραγωγή"
   In Theaters: "Στα σινεμά"
-  Include Adult Items in Search?: "Περιλαμβάνουν στοιχεία Ενηλίκων στην αναζήτηση;"
+  Include Adult Items in Search?: "Συμπεριλάβετε τα στοιχεία ενηλίκων στην αναζήτηση;"
   Incorrect Content: "Λανθασμένο Περιεχόμενο"
   Info: "Πληροφορίες"
   Job: "θέση"
@@ -577,30 +577,30 @@ el-GR:
     average_movie_score: "Μέσος όρος<br>Βαθμολογία ταινιών"
     average_tv_score: "Μέσος όρος<br>Βαθμολογία Σειρών"
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: "Οι Ενεργοί Πίνακες Μου"
+      my_discussions: "Οι συζητήσεις μου"
+      not_watching: "Δεν παρακολουθείτε συζητήσεις"
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
+        logged_in: "Τα αγαπημένα μου"
+        public: "%{username} Αγαπημένα"
     filter_by: "Φιλτράρισμα Κατά:"
     filters:
-      date_rated: 
-      my_rating: 
+      date_rated: "Ημερομηνία Αξιολογήσεις"
+      my_rating: "Η Αξιολογήσεις μου"
       popularity: "Δημοτικότητα"
       release_date: "Ημερομηνία κυκλοφορίας"
-      score: 
+      score: "Σκορ"
       upcoming: "Επερχόμενες"
     lists:
       create_list: "Δημιουργία λίστας"
-      last_updated: 
+      last_updated: "Ενημερωμένο"
       my_lists:
         logged_in: "Οι λίστες μου"
-        public: 
+        public: "%{username} λίστες"
       no_lists:
-        logged_in: 
-        public: 
+        logged_in: "Δεν έχετε δημιουργήσει λίστες."
+        public: "%{username} Δεν έχει δημόσιες λίστες για κοινή χρήση."
     member_since: "Μέλος από: %{date}"
     navigation:
       discussions: "Συζητήσεις"
@@ -633,19 +633,19 @@ el-GR:
       upcoming_watchlist: "Προσεχώς από τη λίστα παρακολούθησης"
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: "Οι αξιολογήσεις μου"
+        public: "%{username} Αξιολογήσεις "
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: 
+        logged_in: "Οι κριτικές μου"
+        public: "%{username} Κριτικές"
+      ratings_by_year: "Αξιολογήσεις ανά έτος"
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
+      my_recommendations: "Οι Προτάσεις μου"
+      no_recommendations: "Δεν διαθέτουμε επαρκή δεδομένα για να προτείνουμε."
+      no_recommendations_helper: "Δοκιμάστε να προσθέσετε μερικά ακόμα αγαπημένα (όσο περισσότερα τόσο καλύτερο) και επιστρέψτε για να δείτε."
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: "Μπορείτε να εισαγάγετε τις αξιολογήσεις σας από το IMDb."
+      tip: "Συμβουλή"
     watchlist:
       my_watchlist: "Η λίστα παρακολούθησής μου"
       next_month: "Τον επόμενο μήνα"
@@ -683,6 +683,19 @@ el-GR:
   change_email_text: "Εάν θέλετε να αλλάξετε το email σας, πληκτρολογήστε ένα νέο email στο παρακάτω πεδίο. Πριν να είστε σε θέση να συνδεθείτε ξανά, θα πρέπει να επαληθεύσετε τη νέα διεύθυνση σας, κάνοντας κλικ στο σύνδεσμο ενεργοποίησης στο email που στείλαμε στη νέα σας διεύθυνση."
   collection_includes: "Περιλαμβάνει %{movie_titles}"
   confirm_delete: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την εγγραφή;"
+  content_score:
+    scale:
+      '0': 
+      '1': 
+      '10': 
+      '2': 
+      '3': 
+      '4': 
+      '5': 
+      '6': 
+      '7': 
+      '8': 
+      '9': 
   date:
     abbr_day_names:
     - "Κυρ"
@@ -1280,7 +1293,7 @@ el-GR:
     one: "%{count} ψήφος"
     other: "%{count} ψήφοι"
   pagination:
-    load_more: 
+    load_more: "Φορτώστε Περισσότερα"
   part_of_collection: "Μέρος από την %{collection_name}"
   password:
     confirm_new_password: "Επιβεβαίωση του καινούριου σας κωδικό"
@@ -1306,64 +1319,84 @@ el-GR:
     to_air: "Κύκλος %{season_number} του %{show_name} έχει οριστεί να κάνει πρεμιέρα στις %{date}."
   settings:
     account:
-      account_settings: 
-      change_password: 
-    blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
-    import_list:
-      import_button: 
-      import_list: 
+      account_settings: "Ρυθμίσεις λογαριασμού"
+      change_password: "Αλλαγή κωδικού πρόσβασης;"
+    api:
+      api: 
       navigation:
-        import: 
-        previous: 
+        create: 
+        details: 
+        directory: 
+        sessions: 
+        stats: 
+    blocked_users:
+      action: "Ενέργεια"
+      blocked_users: "Αποκλεισμένοι χρήστες"
+      no_blocked: "Δεν έχετε αποκλείσει κανέναν χρήστη."
+      username: |
+        Όνομα χρήστη
+    connected_apps:
+      connected_apps: 
+      listed_below_explanation: 
+      no_apps: 
+      table:
+        action: 
+        application_name: 
+        date_authorised: 
+    delete_account:
+      delete_account: 
+      summary_text: 
+    import_list:
+      import_button: "Εισαγωγή"
+      import_list: "Εισαγωγή Λίστας"
+      navigation:
+        import: "Εισαγωγή"
+        previous: "Προηγούμενες εισαγωγές"
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
-        no_imports: 
-        type: 
+        date: "Ημερομηνία"
+        imported: "Εισαγόμενες"
+        items: "Στοιχεία"
+        local_list: "Τοπική Λίστα"
+        no_imports: "Δεν έχετε εισαγάγει λίστες."
+        type: "Τύπος"
       results:
         complete:
-          imported: 
+          imported: "Εισαγόμενες;"
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
-          reason: 
-          summary: 
-        currently_running: 
-        import_results: 
+            already_imported: "Έχουν ήδη εισαχθεί."
+            cant_find_imdb: "Δεν ήταν δυνατή η εύρεση αναγνωριστικού IMDB."
+          reason: "Λόγος? (Εάν ισχύει)"
+          summary: "Μπορέσαμε να εισαγάγουμε συνολικά %{imported_count} στοιχεία από τα %{total_count} (%{imported_percentage}%) αντικείμενα που ανιχνεύσαμε στην εξαγόμενη λίστα σας."
+        currently_running: "Η εισαγωγή σας εκτελείται αυτή τη στιγμή. Μπορείτε να ανανεώσετε αυτήν τη σελίδα για να δείτε αν έχει ολοκληρωθεί."
+        import_results: "Αποτελέσματα Εισαγωγής"
         in_progress:
-          import_status: 
-          summary: 
-      select_csv: 
+          import_status: "Κατάσταση Εισαγωγής"
+          summary: "Εντοπίσαμε ένα σύνολο αριθμό %{total_count} στοιχείων για εισαγωγή. Η εισαγωγή αυτή τη στιγμή τρέχει στο παρασκήνιο και θα ειδοποιηθείτε αυτόματα όταν είναι πλήρης."
+      select_csv: "Επιλέξτε αρχείο CSV"
       type:
-        favorite: 
-        rated: 
-        watchlist: 
-      which_list: 
+        favorite: "Αγαπημένο"
+        rated: "Αξιολογήθηκε"
+        watchlist: "Λίστα παρακολούθησης"
+      which_list: "Εισαγωγή σε ποια λίστα;"
     navigation:
-      account_settings: 
-      api: 
-      blocked_users: 
-      connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      account_settings: "Ρυθμίσεις λογαριασμού"
+      api: API
+      blocked_users: "Αποκλεισμένοι χρήστες"
+      connected_apps: "Συνδεδεμένες εφαρμογές"
+      delete_account: "Διαγραφή λογαριασμού"
+      edit_profile: "Επεξεργασία προφίλ"
+      import_list: "Εισαγωγή Λίστας"
+      notification_settings: "Ρυθμίσεις Ειδοποιήσεων"
+      settings: "Ρυθμίσεις"
+      sharing_settings: "Ρυθμίσεις Κοινής Χρήσης"
+      social_settings: "Ρυθμίσεις Κοινωνικά Δίκτυα"
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      notifications: 
+      email_new_releases_watchlist: "Λάβετε e-mail για νέες κυκλοφορίες στη λίστα παρακολούθησής σας;"
+      new_replies_to_threads_created: "Να παρακολουθείτε αυτόματα τα θέματα, που δημιουργώ ή απαντώ;;"
+      new_replies_to_threads_watching: "Λάβετε email σχετικά με νέες απαντήσεις για θέματα που παρακολουθείτε;"
+      notifications: "Ειδοποιήσεις"
     profile:
-      accent_color: 
+      accent_color: "Έγχρωμο"
       avatar:
         current_avatar: "Τρέχων Avatar"
         explain: Προς το παρόν, η μόνη επιλογή που έχουμε για να εμφανίσετε ένα προσαρμοσμένο avatar είναι με τη χρήση μιας υπηρεσίας που ονομάζεται <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> Εάν θέλετε να εμφανίσετε ένα προσαρμοσμένο avatar για TMDb, θα πρέπει να εγγραφείτε για ένα λογαριασμό στο Gravatar και φροντίστε να προσθέσετε την ίδια διεύθυνση ηλεκτρονικού ταχυδρομείου που χρησιμοποιήσατε εδώ (αυτό είναι το πώς μπορείτε να συνδέσετε τον λογαριασμό σας). Μόλις γίνει αυτό, κάντε κλικ στο κουμπί Ενημέρωση παρακάτω και θα αποκτήσετε την νέα σας εικόνα.
@@ -1376,13 +1409,41 @@ el-GR:
         updated: "Το Avatar Ενημερώθηκε!"
         upload_avatar: "Ανεβάστε Avatar"
         upload_own: "Ανεβάστε το δικό σας;"
-        upload_window_tip: 
+        upload_window_tip: |-
+          Χρησιμοποιήστε τον επιλογέα αρχείων παρακάτω για να ανεβάσετε το δικό σας προσαρμοσμένο avatar. Εμείς αυτόματα θα περικόψουμε την εικόνα σας σε τετράγωνη αν δεν είναι ήδη.
+          .
         use_gravatar: "Χρήση Gravatar;"
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: "Εικόνα Φόντου"
+        remove_background: "Αφαιρέστε την εικόνα φόντου σας;"
+        set_image: "Ορίστε μια εικόνα φόντου;"
+      edit_profile: "Επεξεργασία προφίλ"
+    sharing:
+      favorite_list:
+        favorite_settings: 
+        share_on_twitter: 
+        share_publicly: 
+      rated_list:
+        rated_settings: 
+        share_publicly: 
+      sharing_settings: 
+      watchlist:
+        remove_when_rated: 
+        watchlist_settings: 
+    social:
+      connected_table:
+        action: 
+        auto_sharing: 
+        connect: 
+        connected_to: 
+        info: 
+        reload_text: 
+        service: 
+      favorite_message_hint: 
+      message_settings: 
+      sharing_message_hint: 
+      social_settings: 
+      supported_template_values: 
   signup_text: "Η εγγραφή για ένα λογαριασμό είναι δωρεάν και εύκολη. Συμπληρώστε την παρακάτω φόρμα για να ξεκινήσετε."
   success_approved_access_token: "Η άδεια χορηγείται!"
   success_deleted: "Το επιλεγμένο στοιχείο διαγράφηκε με επιτυχία."
