@@ -61,12 +61,12 @@ ro-RO:
   Apiary Documentation: Documentație Apiary
   App Directory: 
   App Showcase: Prezentare aplicații
-  Application Description: 
+  Application Description: Descriere aplicație
   Application Name: Nume aplicație
   Application Summary: Rezumat aplicație
   Application URL: Adresă (URL) aplicație
   Approve: Aprobă
-  Approved?: 
+  Approved?: Aprobată?
   Apps: Aplicații
   Are you sure?: Sigur doriți acest lucru?
   Attributes: Atribute
@@ -88,7 +88,7 @@ ro-RO:
   Categories: Categorii
   Certification: Certificare
   Change Email: Schimbare adresă poștă electronică
-  Change?: 
+  Change?: Schimbați?
   Changes: Modificări
   Character: Personaj
   City: Oraș
@@ -157,7 +157,7 @@ ro-RO:
   Edit: Editare
   Edit App: 
   Edit Data: 
-  Edit Data & Content: 
+  Edit Data & Content: Editare date și conținut
   Edit Page: Modificare pagină
   Editing Content: Modificare conținut
   Editing in: Editare în %{language}
@@ -529,7 +529,7 @@ ro-RO:
   Upcoming Movies: Filme artistice viitoare
   Update: Actualizează
   Upload Logo: "Încărcare siglă"
-  User Score: 
+  User Score: Punctaj utilizator
   Username: Nume de utilizator
   Video?: Video?
   Videos: Videoclipuri
@@ -574,7 +574,7 @@ ro-RO:
     average_movie_score: Punctaj mediu<br>Filme artistice
     average_tv_score: Punctaj mediu<br>Filme seriale
     discussions:
-      my_active_boards: 
+      my_active_boards: Tablele mele active
       my_discussions: Discuțiile mele
       not_watching: Nu urmăriți nicio discucție.
     favorites:
@@ -587,8 +587,8 @@ ro-RO:
       my_rating: 
       popularity: Popularitate
       release_date: Data de lansare
-      score: 
-      upcoming: 
+      score: Punctaj
+      upcoming: Viitoare
     lists:
       create_list: Creeare listă
       last_updated: Actualizată
@@ -597,7 +597,7 @@ ro-RO:
         public: Listele lui %{username}
       no_lists:
         logged_in: Nu ați creat nicio listă.
-        public: 
+        public: "%{username} nu are nicio listă publică de distribuit."
     member_since: Membru din %{date}
     navigation:
       discussions: Discuții
@@ -611,10 +611,10 @@ ro-RO:
     overview:
       30_day_activity: Activitatea pe 30 de zile
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Nu ați făcut nicio editare recentă.
+        public: "%{username} nu a făcut nicio editare recent."
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Nu sunt filme artistice viitoare pe lista dumneavoastră cu filme de privit.
       empty_watched_genres:
         logged_in: 
         public: 
@@ -626,7 +626,7 @@ ro-RO:
       recent_discussions: Dicuții recente
       total_edits: 
       total_ratings: 
-      upcoming_watchlist: 
+      upcoming_watchlist: Viitoare din lista de filme de privit
     ratings_reviews:
       my_ratings:
         logged_in: 
@@ -677,17 +677,17 @@ ro-RO:
   confirm_delete: Sigur doriți să ștergeți această înregistrare?
   content_score:
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
+      '0': Trebuie să începem de undeva...
+      '1': Hei, e un început.
+      '10': Da! Arată bine!
+      '2': Ajungem acolo.
+      '3': Roma nu a fost construită într-o zi...
+      '4': Nu există „Eu” într-o echipă...
+      '5': "Încă mai e nevoie de puțină muncă."
+      '6': Suntem așa de aproape, și totuși așa de departe.
+      '7': "Încă un pic mai mult..."
       '8': 
-      '9': 
+      '9': Aproape acolo...
   date:
     abbr_day_names:
     - Dum
@@ -1339,7 +1339,7 @@ ro-RO:
         application_name: 
         date_authorised: 
     delete_account:
-      delete_account: 
+      delete_account: "Ștergere cont"
       summary_text: 
     import_list:
       import_button: 
@@ -1348,9 +1348,9 @@ ro-RO:
         import: 
         previous: 
       previous:
-        date: 
-        imported: 
-        items: 
+        date: Dată
+        imported: Importată
+        items: Elemente
         local_list: Listă locală
         no_imports: 
         type: Tip
@@ -1374,22 +1374,22 @@ ro-RO:
         watchlist: 
       which_list: 
     navigation:
-      account_settings: 
+      account_settings: Stabiliri cont
       api: 
-      blocked_users: 
+      blocked_users: Utilizatori blocați
       connected_apps: Aplicații conectate
-      delete_account: 
+      delete_account: "Ștergere cont"
       edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      import_list: Importare listă
+      notification_settings: Stabiliri notificări
+      settings: Stabiliri
+      sharing_settings: Stabiliri distribuire
+      social_settings: Stabiliri sociale
     notifications:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: Notificări
     profile:
       accent_color: 
       avatar:
@@ -1422,18 +1422,18 @@ ro-RO:
       sharing_settings: 
       watchlist:
         remove_when_rated: 
-        watchlist_settings: 
+        watchlist_settings: Stabiliri listă filme de privit
     social:
       connected_table:
-        action: 
+        action: Acțiune
         auto_sharing: 
         connect: 
         connected_to: 
-        info: 
+        info: Informații
         reload_text: 
-        service: 
+        service: Serviciu
       favorite_message_hint: 
-      message_settings: 
+      message_settings: Stabiliri mesaje
       sharing_message_hint: 
       social_settings: 
       supported_template_values: 
