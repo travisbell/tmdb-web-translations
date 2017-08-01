@@ -54,7 +54,6 @@ sk-SK:
   Adult Movie?: Film pre dospelých?
   Advanced Search: Pokročilé vyhľadávanie
   Air Date: Dátum vysielania
-  Airing Today: Vysielané dnes
   Also Known As: Tiež známy/-a ako
   Alternative Names: Alternatívne mená
   Alternative Titles: Alternatívne názvy
@@ -307,15 +306,12 @@ sk-SK:
   None: "Žiadne"
   Notes: Poznámky
   Notifications: Notifikácie
-  Now Playing: Aktuálne hrané
   Now Playing Movies: Aktuálne hrané filmy
   Number of Movies: Počet filmov
   Number of TV Shows: Počet seriálov
   Number of edits in the past: Počet úprav za posledých
   Offensive or Spam: Urážlivé alebo spam
   Offical Site: Oficiálna stránka
-  On TV: V TV
-  On the Air: Práve vysielané
   Opening Credits: "Úvodné titulky"
   Origin Country: Krajina pôvodu
   Original Air Date: Pôvodný dátum vysielania
@@ -347,7 +343,6 @@ sk-SK:
   Play: Spustiť
   Play Trailer: Spustiť trailer
   Plot Keywords: Kľúčové slová zápletky
-  Popular: Populárne
   Popular Lists: Populárne zoznamy
   Popular Movies: Populárne filmy
   Popular People: Populárne osoby
@@ -505,7 +500,6 @@ sk-SK:
   Title (Z-A): Názov (Z-A)
   Today: Dnes
   Top Billed Cast: Hlavné obsadenie
-  Top Rated: Najlepšie hodnotené
   Top Rated Movies: Najlepšie hodnotené filmy
   Top Rated TV Shows: Najlepšie hodnotené seriály
   Top Users: Najaktívnejší užívatelia
@@ -525,7 +519,6 @@ sk-SK:
   Type of Problem: Typ problému
   Type of Use: Typ použitia
   URL: URL
-  Upcoming: Nadchádzajúce
   Upcoming Movies: Nadchádzajúce filmy
   Update: Aktualizovať
   Upload Logo: Nahraj logo
@@ -1169,6 +1162,18 @@ sk-SK:
     few: "%{count} mesiace"
     one: mesiac
     other: "%{count} mesiacov"
+  navigation:
+    movies:
+      now_playing: Aktuálne hrané
+      popular: Populárne
+      top_rated: Najlepšie hodnotené
+      upcoming: Nadchádzajúce
+    tv_shows:
+      airing_today: Vysielané dnes
+      on_the_air: Práve vysielané
+      on_tv: V TV
+      popular: Populárne
+      top_rated: Najlepšie hodnotené
   no_biography: Pre osobu %{name} nemáme biografiu.
   no_cast: Nemáme pridané žiadne obsadenie do %{media_type}. Pomôž nám jeho pridaním!
   no_collection_search_results: Neexistujú kolekcie zodpovedajúce zadaniu.
@@ -1446,6 +1451,7 @@ sk-SK:
   success_saved: Zmeny boli úspešne uložené.
   success_set_language: Jazyk bol aktualizovaný.
   success_sharing: Správa bola úspešne zdielaná.
+  top_contributors: 
   translation:
     few: preklady
     one: preklad

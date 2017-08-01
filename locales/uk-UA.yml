@@ -54,7 +54,6 @@ uk-UA:
   Adult Movie?: "Фільм для дорослих?"
   Advanced Search: "Розширений пошук"
   Air Date: "Дата виходу"
-  Airing Today: "Сьогодні в кіно"
   Also Known As: "Також відомий як"
   Alternative Names: "Альтернативні назви"
   Alternative Titles: "Альтернативні назви"
@@ -307,15 +306,12 @@ uk-UA:
   None: "Нічого"
   Notes: "Нотатки"
   Notifications: 
-  Now Playing: "Зараз відтворюються"
   Now Playing Movies: "Зараз відтворюються фільми"
   Number of Movies: "Кількість фільмів"
   Number of TV Shows: 
   Number of edits in the past: "Кількість правок у минулому"
   Offensive or Spam: "Образа або спам"
   Offical Site: "Офіційний сайт"
-  On TV: "На телебаченні"
-  On the Air: "В ефірі"
   Opening Credits: 
   Origin Country: 
   Original Air Date: 
@@ -347,7 +343,6 @@ uk-UA:
   Play: 
   Play Trailer: 
   Plot Keywords: 
-  Popular: "Популярний"
   Popular Lists: "Популярні списки"
   Popular Movies: "Популярні фільми"
   Popular People: "Популярні люди"
@@ -505,7 +500,6 @@ uk-UA:
   Title (Z-A): "Назвою (Я-А)"
   Today: "Сьогодні"
   Top Billed Cast: "В головних ролях"
-  Top Rated: "Найвище оцінені"
   Top Rated Movies: "Найвище оцінені фільми"
   Top Rated TV Shows: "Найвище оцінені телепередачі"
   Top Users: "Найкращі кроистувачі"
@@ -525,7 +519,6 @@ uk-UA:
   Type of Problem: "Тип проблеми"
   Type of Use: 
   URL: 
-  Upcoming: "Заплановані"
   Upcoming Movies: "Заплановані фільми"
   Update: 
   Upload Logo: 
@@ -1181,6 +1174,18 @@ uk-UA:
     many: "місяців"
     one: "місяць"
     other: "%{count} місяців"
+  navigation:
+    movies:
+      now_playing: "Зараз відтворюються"
+      popular: "Популярний"
+      top_rated: "Найвище оцінені"
+      upcoming: "Заплановані"
+    tv_shows:
+      airing_today: "Сьогодні в кіно"
+      on_the_air: "В ефірі"
+      on_tv: "На телебаченні"
+      popular: "Популярний"
+      top_rated: "Найвище оцінені"
   no_biography: 
   no_cast: "Немає даних про акторів до %{media_type}. Ви можете допомогти!"
   no_collection_search_results: "Нема колекцій, що відповідають Вашому запиту."
@@ -1459,6 +1464,7 @@ uk-UA:
   success_saved: 
   success_set_language: 
   success_sharing: "Ваше повідомлення було успішно відправлено."
+  top_contributors: 
   translation: 
   upload_backdrop: 
   upload_poster: 

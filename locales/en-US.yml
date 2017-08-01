@@ -54,7 +54,6 @@ en-US:
   Adult Movie?: Adult Movie?
   Advanced Search: Advanced Search
   Air Date: Air Date
-  Airing Today: Airing Today
   Also Known As: Also Known As
   Alternative Names: Alternative Names
   Alternative Titles: Alternative Titles
@@ -307,15 +306,12 @@ en-US:
   None: None
   Notes: Notes
   Notifications: Notifications
-  Now Playing: Now Playing
   Now Playing Movies: Now Playing Movies
   Number of Movies: Number of Movies
   Number of TV Shows: Number of TV Shows
   Number of edits in the past: Number of edits in the past
   Offensive or Spam: Offensive or Spam
   Offical Site: Official Site
-  On TV: On TV
-  On the Air: On the Air
   Opening Credits: Opening Credits
   Origin Country: Origin Country
   Original Air Date: Original Air Date
@@ -347,7 +343,6 @@ en-US:
   Play: Play
   Play Trailer: Play Trailer
   Plot Keywords: Plot Keywords
-  Popular: Popular
   Popular Lists: Popular Lists
   Popular Movies: Popular Movies
   Popular People: Popular People
@@ -505,7 +500,6 @@ en-US:
   Title (Z-A): Title (Z-A)
   Today: Today
   Top Billed Cast: Top Billed Cast
-  Top Rated: Top Rated
   Top Rated Movies: Top Rated Movies
   Top Rated TV Shows: Top Rated TV Shows
   Top Users: Top Users
@@ -525,7 +519,6 @@ en-US:
   Type of Problem: Type of Problem
   Type of Use: Type of Use
   URL: URL
-  Upcoming: Upcoming
   Upcoming Movies: Upcoming Movies
   Update: Update
   Upload Logo: Upload Logo
@@ -1184,6 +1177,18 @@ en-US:
     one: month
     other: "%{count} months"
     two: "%{count} months"
+  navigation:
+    movies:
+      now_playing: Now Playing
+      popular: Popular
+      top_rated: Top Rated
+      upcoming: Upcoming
+    tv_shows:
+      airing_today: Airing Today
+      on_the_air: On the Air
+      on_tv: On TV
+      popular: Popular
+      top_rated: Top Rated
   no_biography: We don't have a biography for %{name}.
   no_cast: We don't have any cast added to this %{media_type}. You can help by adding some!
   no_collection_search_results: There are no collections that matched your query.
@@ -1462,6 +1467,7 @@ en-US:
   success_saved: Your changes have been successfully saved.
   success_set_language: The language has been updated.
   success_sharing: Your message has successfully been shared.
+  top_contributors: Top Contributors
   translation:
     many: translations
     one: translation

@@ -54,7 +54,6 @@ fr-CA:
   Adult Movie?: Film pour adultes ?
   Advanced Search: Recherche avancée
   Air Date: Date de diffusion
-  Airing Today: Diffusé aujourd'hui
   Also Known As: Aussi connu(e) sous le nom
   Alternative Names: Noms alternatifs
   Alternative Titles: Titres alternatifs
@@ -307,15 +306,12 @@ fr-CA:
   None: Aucune
   Notes: Notes
   Notifications: 
-  Now Playing: "À l'affiche"
   Now Playing Movies: Films à l'affiche
   Number of Movies: Nombre de films
   Number of TV Shows: Nombre d'émissions de télévision
   Number of edits in the past: Nombre de modifications dans les derniers
   Offensive or Spam: Offensant ou spam
   Offical Site: Site officiel
-  On TV: "À la télévision"
-  On the Air: En diffusion
   Opening Credits: Générique d'ouverture
   Origin Country: Pays d'origine
   Original Air Date: Date de diffusion d'origine
@@ -347,7 +343,6 @@ fr-CA:
   Play: Lire
   Play Trailer: Regarder la bande-annonce
   Plot Keywords: Mots-clés de l'intrigue
-  Popular: Populaire
   Popular Lists: Listes populaires
   Popular Movies: Films populaires
   Popular People: Artistes populaires
@@ -505,7 +500,6 @@ fr-CA:
   Title (Z-A): Titre (Z-A)
   Today: Aujourd'hui
   Top Billed Cast: Têtes d'affiche
-  Top Rated: Mieux coté
   Top Rated Movies: Films les mieux cotés
   Top Rated TV Shows: "Émissions de télévision les mieux cotées"
   Top Users: Meilleurs contributeurs
@@ -525,7 +519,6 @@ fr-CA:
   Type of Problem: Type de problème
   Type of Use: 
   URL: URL
-  Upcoming: "À venir"
   Upcoming Movies: Films bientôt à l'affiche
   Update: 
   Upload Logo: 
@@ -1148,6 +1141,18 @@ fr-CA:
   month:
     one: "%{count} mois"
     other: "%{count} mois"
+  navigation:
+    movies:
+      now_playing: "À l'affiche"
+      popular: Populaire
+      top_rated: Mieux coté
+      upcoming: "À venir"
+    tv_shows:
+      airing_today: Diffusé aujourd'hui
+      on_the_air: En diffusion
+      on_tv: "À la télévision"
+      popular: Populaire
+      top_rated: Mieux coté
   no_biography: Nous n'avons pas encore de biographie pour %{name}.
   no_cast: 'Nous n''avons pas encore de membres de la distribution pour ce %{media_type}. Vous pouvez nous aider en ajoutant les premiers! '
   no_collection_search_results: Aucune collection ne correspond à votre recherche.
@@ -1420,6 +1425,7 @@ fr-CA:
   success_saved: 
   success_set_language: 
   success_sharing: 
+  top_contributors: 
   translation:
     one: traduction
     other: traductions

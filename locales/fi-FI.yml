@@ -54,7 +54,6 @@ fi-FI:
   Adult Movie?: Aikuisviihde-elokuva?
   Advanced Search: Laajennettu haku
   Air Date: Lähetys päivämäärä
-  Airing Today: Esityspäivä
   Also Known As: Tunnetaan myös nimillä
   Alternative Names: Vaihtoehtoiset nimet
   Alternative Titles: Vaihtoehtoiset nimet
@@ -307,15 +306,12 @@ fi-FI:
   None: Ei mitään
   Notes: Huomautukset
   Notifications: Ilmoitukset
-  Now Playing: Nyt esitettävä
   Now Playing Movies: Nyt esitettävät elokuvat
   Number of Movies: Elokuvien määrä
   Number of TV Shows: TV-ohjelmien lukumäärä
   Number of edits in the past: Muokkausten määrä viime
   Offensive or Spam: Loukkaava tai roskasisältö
   Offical Site: Virallinen kotisivu
-  On TV: Televisiossa
-  On the Air: Esitettävät
   Opening Credits: Alkutekstit
   Origin Country: Alkuperämaa
   Original Air Date: Alkuperäinen lähetyspäivä
@@ -347,7 +343,6 @@ fi-FI:
   Play: Toista
   Play Trailer: Katso traileri
   Plot Keywords: Juonen avainsanat
-  Popular: Suosittu
   Popular Lists: Suositut listat
   Popular Movies: Suositut elokuvat
   Popular People: Suositut ihmiset
@@ -505,7 +500,6 @@ fi-FI:
   Title (Z-A): Nimi (Ö-A)
   Today: Tänään
   Top Billed Cast: Tärkeimmät näyttelijät
-  Top Rated: Parhaiten arvioidut
   Top Rated Movies: Parhaiten arvioidut elokuvat
   Top Rated TV Shows: Parhaiten arvioidut TV-ohjelmat
   Top Users: Parhaat käyttäjät
@@ -525,7 +519,6 @@ fi-FI:
   Type of Problem: Ongelman laji
   Type of Use: Käyttötapa
   URL: URL
-  Upcoming: Tulossa
   Upcoming Movies: Tulevat elokuvat
   Update: Päivitä
   Upload Logo: 
@@ -1177,6 +1170,18 @@ fi-FI:
   month:
     one: kuukausi
     other: "%{count} kuukautta"
+  navigation:
+    movies:
+      now_playing: Nyt esitettävä
+      popular: Suosittu
+      top_rated: Parhaiten arvioidut
+      upcoming: Tulossa
+    tv_shows:
+      airing_today: Esityspäivä
+      on_the_air: Esitettävät
+      on_tv: Televisiossa
+      popular: Suosittu
+      top_rated: Parhaiten arvioidut
   no_biography: Meillä ei ole henkilön %{name} elämänkertaa.
   no_cast: Meillä ei ole näyttelijöitä lisättynä %{media_type}lle. Voit auttaa lisäämällä heitä!
   no_collection_search_results: Hakuasi vastaavia kokoelmia ei löytynyt.
@@ -1449,6 +1454,7 @@ fi-FI:
   success_saved: Muutoksesi talletettiin onnistuneesti.
   success_set_language: Kieli on päivitetty.
   success_sharing: Viestisi jaettiin onnistuneesti.
+  top_contributors: 
   translation:
     one: käännös
     other: käännöstä
