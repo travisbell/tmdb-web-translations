@@ -576,7 +576,7 @@ pt-BR:
     discussions:
       my_active_boards: Meus fóruns ativos
       my_discussions: Minhas discussões
-      not_watching: Você não está acompanhando nenhuma discussão.
+      not_watching: Você ainda não está acompanhando nenhuma discussão.
     favorites:
       my_favorites:
         logged_in: Meus favoritos
@@ -596,7 +596,7 @@ pt-BR:
         logged_in: Minhas listas
         public: Listas de %{username}
       no_lists:
-        logged_in: Você não criou nenhuma lista.
+        logged_in: Você ainda não criou nenhuma lista.
         public: "%{username} não tem nenhuma lista pública para compartilhar."
     member_since: Membro desde %{date}
     navigation:
@@ -611,14 +611,14 @@ pt-BR:
     overview:
       30_day_activity: Atividade nos últimos 30 dias
       empty_recent_activity:
-        logged_in: Você não fez nenhuma edição recentemente.
-        public: "%{username} não fez nenhuma edição recentemente."
+        logged_in: Você ainda não fez nenhuma edição recentemente.
+        public: "%{username} ainda não fez nenhuma edição recentemente."
       empty_upcoming_watchlist:
         logged_in: Não há nenhuma estreia próxima na sua lista de interesses.
       empty_watched_genres:
-        logged_in: Você não registrou nenhum filme ou série.
-        public: "%{username} não registrou nenhum filme ou série."
-      goto_discussions: Ir para discussões
+        logged_in: Você ainda não registrou nenhum filme ou série.
+        public: "%{username} ainda não registrou nenhum filme ou série."
+      goto_discussions: Ir para as discussões
       goto_watchlist: Ir para a lista de interesses
       most_watched_genres: Gêneros mais assistidos
       rating_overview: Quadro de avaliações
@@ -681,17 +681,17 @@ pt-BR:
   confirm_delete: Tem certeza de que deseja excluir este registro?
   content_score:
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': Temos que começar de algum lugar...
+      '1': Olha só, já é um começo.
+      '10': Aí sim! Ficou ótimo!
+      '2': Ainda chegamos lá...
+      '3': Roma não foi construída em um dia...
+      '4': Ninguém constrói nada sozinho...
+      '5': Ainda precisa de um pouco de trabalho.
+      '6': Tão perto e, ainda assim, tão longe.
+      '7': Só mais um pouquinho...
+      '8': Não desanima não! Estamos tão perto.
+      '9': Quase lá...
   date:
     abbr_day_names:
     - Dom
@@ -1182,17 +1182,17 @@ pt-BR:
   no_collection_search_results: Não foram encontradas coleções que correspondam aos seus critérios de busca.
   no_company_search_results: Não foram encontradas empresas que correspondam aos seus critérios de busca.
   no_contributors: Nenhum contribuidor encontrado.
-  no_created_lists: Você não criou nenhuma lista.
+  no_created_lists: Você ainda não criou nenhuma lista.
   no_crew: Não temos uma lista da equipe técnica deste(a) %{media_type}. Você pode ajudar!
   no_description: Nenhuma descrição inserida.
   no_director: Nenhum diretor ou diretora adicionados.
   no_episode_images: Nenhuma imagem do episódio adicionada.
   no_favorite_movies:
     current_user: Você ainda não adicionou nenhum filme aos seus favoritos.
-    public: "%{username} não tem nenhum filme favorito."
+    public: "%{username} ainda não tem nenhum filme favorito."
   no_favorite_tv_shows:
     current_user: Você ainda não adicionou nenhuma série aos seus favoritos.
-    public: "%{username} não tem nenhuma série favorita."
+    public: "%{username} ainda não tem nenhuma série favorita."
   no_genres: Nenhum gênero foi adicionado.
   no_guest_stars: Nenhum convidado ou convidada adicionados.
   no_keyword_search_results: Não foram encontradas palavras-chave que correspondam aos seus critérios de busca.
@@ -1318,29 +1318,29 @@ pt-BR:
       account_settings: Configurações da conta
       change_password: Alterar senha?
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: Criar
+        details: Detalhes
+        directory: Diretório
+        sessions: Sessões
+        stats: Estatísticas
     blocked_users:
       action: Ação
       blocked_users: Usuários bloqueados
       no_blocked: Você ainda não bloqueou nenhum usuário.
       username: Nome de usuário
     connected_apps:
-      connected_apps: 
-      listed_below_explanation: 
-      no_apps: 
+      connected_apps: Aplicativos conectados
+      listed_below_explanation: Abaixo está uma lista de aplicativos de terceiros que você autorizou a publicação de dados em seu nome. Você  pode revogar estas autorizações a qualquer momento.
+      no_apps: Você ainda não conectou nenhum aplicativo à sua conta.
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Ações
+        application_name: Nome do aplicativo
+        date_authorised: Data da autorização
     delete_account:
-      delete_account: 
-      summary_text: 
+      delete_account: Deletar conta
+      summary_text: Você acabou de entrar na <strong>zona de perigo</strong>! Se deseja continuar a remoção da sua conta, insira a sua senha no campo abaixo e confirme.
     import_list:
       import_button: Importar
       import_list: Importar lista
@@ -1352,7 +1352,7 @@ pt-BR:
         imported: Importada
         items: Itens
         local_list: Lista local
-        no_imports: Você não importou nenhuma lista.
+        no_imports: Você ainda não importou nenhuma lista.
         type: Tipo
       results:
         complete:
@@ -1432,9 +1432,9 @@ pt-BR:
         info: Informações
         reload_text: Recarregue esta página quando tiver autorizado a sua conta!
         service: Serviço
-      favorite_message_hint: 
+      favorite_message_hint: Ao adicionar um item aos favorito e compartilhar no Twitter ou Facebook...
       message_settings: Configurações de mensagens
-      sharing_message_hint: 
+      sharing_message_hint: Ao compartilhar um item com o Twitter ou Facebook...
       social_settings: Configurações sociais
       supported_template_values: 'Valores suportados:'
   signup_text: Crie uma conta, é fácil e gratuito. Comece completando o formulário abaixo.
