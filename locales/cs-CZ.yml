@@ -107,7 +107,7 @@ cs-CZ:
   Contact Email: Kontaktní e-mail
   Contact Us: Kontaktujte nás
   Content Ratings: Hodnocení obsahu
-  Content Score: Skóre obsahu
+  Content Score: Hodnocení obsahu
   Continue: Pokračovat
   Contribute: Přispět
   Contribution leaders for the week of: Hlavní přispěvatelé v týdnu
@@ -144,7 +144,6 @@ cs-CZ:
   Digital: Digitální
   Directed by: Režíroval
   Directory: Adresář
-  Discover: Prozkoumat
   Discover Examples: Prozkoumat příklady
   Discover New Movies: Prozkoumat nové filmy
   Discover New Movies & TV Shows: Prozkoumat nové filmy a seriály
@@ -345,7 +344,6 @@ cs-CZ:
   Plot Keywords: Klíčová slova
   Popular Lists: Oblíbené seznamy
   Popular Movies: Oblíbené filmy
-  Popular People: Oblíbené lidé
   Popular TV Shows: Oblíbené seriály
   Popularity: Oblíbenost
   Popularity Ascending: Oblíbenost vzestupně
@@ -486,7 +484,7 @@ cs-CZ:
   Tagged People: Označení lidé
   Tagline: Slogan
   Talk: 
-  Talk Show: Televizní diskuze
+  Talk Show: Televizní diskuse
   Teaser: Ukázka
   Teasers: Ukázky
   Television: Televize
@@ -522,7 +520,7 @@ cs-CZ:
   Upcoming Movies: Nadcházející filmy
   Update: Aktualizovat
   Upload Logo: Nahrát logo
-  User Score: Uživatelské skóre
+  User Score: Uživatelské hodnocení
   Username: Uživatelské jméno
   Video?: Video?
   Videos: Videa
@@ -556,77 +554,77 @@ cs-CZ:
   Your rating: Vaše hodnocení
   Zip Code: PSČ
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: Diskuse
+    edit_profile: Upravit profil
+    lists: Seznamy
+    logout: Odhlásit se
+    settings: Nastavení
+    view_profile: Zobrazit profil
+    watchlist: Seznam ke zhlédnutí
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Průměrné<br>hodnocení filmu
+    average_tv_score: Průměrné<br>hodnocení seriálu
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: Mé aktivní panely
+      my_discussions: Mé diskuse
+      not_watching: Nesledujete žádné diskuse.
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
-    filter_by: 
+        logged_in: Mé oblíbené
+        public: Oblíbené uživatele %{username}
+    filter_by: 'Filtrovat podle:'
     filters:
-      date_rated: 
-      my_rating: 
-      popularity: 
-      release_date: 
-      score: 
-      upcoming: 
+      date_rated: Datum hodnocení
+      my_rating: Mé hodnocení
+      popularity: Oblíbenost
+      release_date: Datum vydání
+      score: 'Hodnocení '
+      upcoming: Nadcházející
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Vytvořit seznam
+      last_updated: Aktualizováno
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: Mé seznamy
+        public: Seznamy uživatele %{username}
       no_lists:
-        logged_in: 
-        public: 
-    member_since: 
+        logged_in: Nevytvořili jste žádné seznamy.
+        public: Uživatel %{username} nemá žádné veřejné seznamy ke sdílení.
+    member_since: "Členem od %{date}"
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    order: 
+      discussions: Diskuse
+      favorites: Oblíbené
+      lists: Seznamy
+      overview: Přehled
+      ratings_reviews: Hodnocení a recenze
+      recommendations: Doporučení
+      watchlist: Seznam ke zhlédnutí
+    order: 'Pořadí:'
     overview:
-      30_day_activity: 
+      30_day_activity: Aktivita za 30 dní
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Neprovedli jste žádné nedávné úpravy.
+        public: Uživatel %{username} neprovedl žádné nedávné úpravy.
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející filmy.
       empty_watched_genres:
-        logged_in: 
+        logged_in: Nezapsali jste žádné filmy nebo seriály.
         public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+      goto_discussions: Přejít na diskuse
+      goto_watchlist: Přejít na seznam ke zhlédnutí
+      most_watched_genres: Nejsledovanější žánry
+      rating_overview: Přehled hodnocení
+      recent_activity: Nedávná aktivita
+      recent_discussions: Nedávné diskuse
+      total_edits: Celkem úprav
+      total_ratings: Celkem hodnocení
+      upcoming_watchlist: Nadcházející ze seznamu ke zhlédnutí
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: Má hodnocení
+        public: Hodnocení uživatele %{username}
       my_reviews:
-        logged_in: 
-        public: 
+        logged_in: Mé recenze
+        public: Recenze uživatele %{username}
       ratings_by_year: 
     recommendations:
       my_recommendations: 
@@ -636,13 +634,19 @@ cs-CZ:
       import_imdb_ratings: 
       tip: 
     watchlist:
-      my_watchlist: 
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
-      this_month: 
-      this_week: 
-      view_them: 
+      my_watchlist: Můj seznam ke zhlédnutí
+      next_month: Příští měsíc
+      no_upcoming_movies:
+        few: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející filmy. Ve vašem seznamu jsou však %{count} položky.
+        one: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející filmy. Ve vašem seznamu je však %{count} položka.
+        other: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející filmy. Ve vašem seznamu je však %{count} položek.
+      no_upcoming_tv_shows:
+        few: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející seriály. Ve vašem seznamu jsou však %{count} položky.
+        one: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející seriály. Ve vašem seznamu je však %{count} položka.
+        other: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející seriály. Ve vašem seznamu je však %{count} položek.
+      this_month: Tento měsíc
+      this_week: Tento týden
+      view_them: Zobrazit je.
   add_to_list: Přidat %{media_title} do jednoho z vašich seznamů…
   already_translated_in: Stránka %{page_title} je již přeložena do následujících jazyků…
   api_session:
@@ -671,17 +675,17 @@ cs-CZ:
   content_score:
     helper_tooltip: 
     scale:
-      '0': 
-      '1': 
-      '10': 
+      '0': Někde musíme začít...
+      '1': Hej, to je začátek.
+      '10': Ano! To vypadá dobře!
       '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '3': "Řím nebyl postaven za den..."
+      '4': Je to týmová práce...
+      '5': Ještě to chce trochu práce.
+      '6': Je to blízko, přesto ještě daleko.
+      '7': Ještě trochu víc...
+      '8': Do toho! Jsme už blízko.
+      '9': Už to bude...
   date:
     abbr_day_names:
     - Ne
@@ -1176,11 +1180,18 @@ cs-CZ:
     one: měsíc
     other: "%{count} měsíců"
   navigation:
+    discover:
+      discover: Prozkoumat
+      movies: 
+      tv_shows: 
     movies:
       now_playing: Právě se hraje
       popular: Oblíbené
       top_rated: Nejlépe hodnocené
       upcoming: Nadcházející
+    people:
+      people: Lidé
+      popular_people: Oblíbené lidé
     tv_shows:
       airing_today: Vysílá se dnes
       on_the_air: Vysílá se
@@ -1386,7 +1397,7 @@ cs-CZ:
       type:
         favorite: 
         rated: 
-        watchlist: 
+        watchlist: Seznam ke zhlédnutí
       which_list: 
     navigation:
       account_settings: 
@@ -1401,7 +1412,7 @@ cs-CZ:
       sharing_settings: 
       social_settings: 
     notifications:
-      email_new_releases_watchlist: 
+      email_new_releases_watchlist: Upozornit mě e-mailem na nová vydání na mém seznamu ke zhlédnutí?
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
       notifications: 
@@ -1436,8 +1447,8 @@ cs-CZ:
         share_publicly: 
       sharing_settings: 
       watchlist:
-        remove_when_rated: 
-        watchlist_settings: 
+        remove_when_rated: Automaticky odebrat položky, když jsou ohodnoceny?
+        watchlist_settings: Nastavení seznamu ke zhlédnutí
     social:
       connected_table:
         action: 
