@@ -40,12 +40,12 @@ zh-TW:
   Add a New Cast Member: "新增演員"
   Add a New Crew Member: "新增劇組人員"
   Add a New Guest Star: "新增客串演員"
-  Add to Watchlist: "新增至稍候觀看"
+  Add to Watchlist: "新增至播放清單"
   Add to list: "新增至推薦清單"
   Add to your favorite list: "新增至我的最愛"
-  Add to your watchlist: "新增至稍候觀看"
+  Add to your watchlist: "新增至播放清單"
   Added By: "新增"
-  Added to Watchlist: "已新增至稍候觀看"
+  Added to Watchlist: "已新增至播放清單"
   Adding & Editing Content: "新增 & 編輯內容"
   Address 1: "地址 1"
   Address 2: "地址 2"
@@ -257,9 +257,9 @@ zh-TW:
   Login to Add a Video: "登入以新增電影短片"
   Login to Edit Cast & Crew: "登入以編輯演員及劇組人員"
   Login to add this TV show to your favorite list: "登入以新增此電視影集至我的最愛清單"
-  Login to add this TV show to your watchlist: "登入以新增此電視節目至稍候觀看"
+  Login to add this TV show to your watchlist: "登入以新增此電視節目至播放清單"
   Login to add this movie to your favorite list: "登入以新增此電影至我的最愛清單"
-  Login to add this movie to your watchlist: "登入以新增至稍候觀看"
+  Login to add this movie to your watchlist: "登入以新增至播放清單"
   Login to create and edit custom lists: "登入以建立及編輯推薦清單"
   Login to rate this TV show: "登入以評分此電視影集"
   Login to rate this movie: "登入以評分此電影"
@@ -287,7 +287,7 @@ zh-TW:
   Movie Recommendations: "電影建議"
   Movie Results: "電影搜尋結果"
   Movie Status: "電影狀態"
-  Movie Watchlist: "電影的稍候觀看清單"
+  Movie Watchlist: "播放清單中的電影"
   Movies: "電影"
   Movies Missing A Backdrop: "缺少佈景的電影"
   Movies Missing A Overview: "缺少大綱的電影"
@@ -396,7 +396,7 @@ zh-TW:
   Reload Page: "頁面重新整理"
   Remove: "移除"
   Remove from your favorite list: "從我的最愛清單移除"
-  Remove from your watchlist: "自您的稍候觀看清單內移除"
+  Remove from your watchlist: "自您的播放清單內移除"
   Remove?: "確認移除嗎？"
   Report: "回報問題"
   Report Violation: "回報不當行為"
@@ -476,7 +476,7 @@ zh-TW:
   TV Show Results: "電視影集搜尋結果"
   TV Show Status: "影集狀態"
   TV Show Type: "影集類型"
-  TV Show Watchlist: "電視影集的稍候觀看清單"
+  TV Show Watchlist: "播放清單中的電視影集"
   TV Shows: "電視影集"
   TV Shows Airing Today: "今日上映的電視影集"
   TV Shows Missing A Name: "缺少電視影集名稱"
@@ -540,8 +540,8 @@ zh-TW:
   View Weekly Leaderboard: "瀏覽本週排行榜"
   View the Collection: "檢視特集"
   Watch Online: "線上觀看"
-  Watchlist: "稍候觀看"
-  Watchlists: "稍候觀看"
+  Watchlist: "播放清單"
+  Watchlists: "播放清單"
   Website: "網站"
   Website Terms: "網站條款"
   Website Updates: "網站更新紀錄"
@@ -554,93 +554,97 @@ zh-TW:
   Your rating: "你的評分"
   Zip Code: "郵遞區號"
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: "討論串"
+    edit_profile: "編輯個人資料"
+    lists: "推薦清單"
+    logout: "登出"
+    settings: "設定"
+    view_profile: "檢視個人資料"
+    watchlist: "播放清單"
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: "電影<br>平均評分"
+    average_tv_score: "電視影集<br>平均評分"
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: "我的活動板"
+      my_discussions: "我的討論"
+      not_watching: "你沒有參與任何討論"
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
-    filter_by: 
+        logged_in: "我的最愛"
+        public: "%{username} 的最愛"
+    filter_by: "過濾："
     filters:
-      date_rated: 
-      my_rating: 
-      popularity: 
-      release_date: 
-      score: 
-      upcoming: 
+      date_rated: "評分日期"
+      my_rating: "我的評分"
+      popularity: "熱門度"
+      release_date: "上映日期"
+      score: "評分"
+      upcoming: "即將上映"
     lists:
-      create_list: 
-      last_updated: 
+      create_list: "建立清單"
+      last_updated: "更新"
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: "我的清單"
+        public: "%{username} 的清單"
       no_lists:
-        logged_in: 
-        public: 
-    member_since: 
+        logged_in: "您尚未建立清單"
+        public: "%{username} 沒有可分享的公開清單"
+    member_since: "會員加入於 %{date}"
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    order: 
+      discussions: "討論"
+      favorites: "我的最愛"
+      lists: "清單"
+      overview: "簡介"
+      ratings_reviews: "評分和評論"
+      recommendations: "推薦給我"
+      watchlist: "播放清單"
+    order: "排序依："
     overview:
-      30_day_activity: 
+      30_day_activity: 30天內的活動
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: "您近期內無編輯任何項目"
+        public: "%{username} 近期內無編輯任何項目"
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: "您的播放清單中沒有即將上映的電影。"
       empty_watched_genres:
-        logged_in: 
-        public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+        logged_in: "您並未紀錄任何電影或電視影集"
+        public: "%{username} 並未紀錄任何電影及電視影集"
+      goto_discussions: "前往討論"
+      goto_watchlist: "前往播放清單"
+      most_watched_genres: "最多人喜歡的風格"
+      rating_overview: "評分簡介"
+      recent_activity: "近期活動"
+      recent_discussions: "近期討論"
+      total_edits: "總編輯數"
+      total_ratings: "總評分數"
+      upcoming_watchlist: "播放清單中即將上映的電影"
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: "我的評分"
+        public: "%{username} 的評分"
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: 
+        logged_in: "我的評論"
+        public: "%{username} 的評論"
+      ratings_by_year: "一年內的評分數"
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
+      my_recommendations: "推薦給我"
+      no_recommendations: "我們沒有足夠的評分資訊來產生推薦資料"
+      no_recommendations_helper: "請嘗試新增多筆最愛的電影或電視影集，以產生新的推薦資料給您"
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: "您可以匯入您在 IMDb 的評分資料"
+      tip: "提示"
     watchlist:
-      my_watchlist: 
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
-      this_month: 
-      this_week: 
-      view_them: 
+      my_watchlist: "我的播放清單"
+      next_month: "下個月"
+      no_upcoming_movies:
+        one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影"
+        other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影"
+      no_upcoming_tv_shows:
+        one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
+        other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
+      this_month: "本月"
+      this_week: "本週"
+      view_them: "檢視"
   add_to_list: "新增 %{media_title} 至播放清單"
   already_translated_in: "%{page_title} 已被翻譯成以下語言..."
   api_session:
@@ -667,19 +671,19 @@ zh-TW:
   collection_includes: "包含 %{movie_titles}"
   confirm_delete: "您確定要刪除這筆資料嗎？"
   content_score:
-    helper_tooltip: 
+    helper_tooltip: "內容分數是幫助您了解本資料的數據完整性"
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': "即將開始囉！"
+      '1': "這是一個好的開始"
+      '10': "太好了！看起來很棒！"
+      '2': "快完成囉！"
+      '3': "羅馬不是一天造成的⋯"
+      '4': "在團隊中不能只看自己的部分⋯"
+      '5': "還需要一點努力"
+      '6': "即將要完成囉，就在不遠處！"
+      '7': "還有一點點⋯"
+      '8': "完成！"
+      '9': "幾乎要完成了⋯"
   date:
     abbr_day_names:
     - "週日"
@@ -747,17 +751,17 @@ zh-TW:
     Visual Effects: "特效"
     Writing: "編劇"
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    last_reply: "最後的回應"
+    replies: "回應"
+    status: "狀態"
+    subject: "主題"
   dont_fallback: "無 (不使用備用語言)"
   edit:
     tooltips:
       homepage: "僅開放官方網站登錄，不包含粉絲專頁"
       original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合"
       overview: "撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。"
-      social_links: 
+      social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業"
   edit_list:
     add_edit_items: "新增 / 編輯項目"
     choose_image: "選擇圖片"
@@ -1165,7 +1169,7 @@ zh-TW:
   navigation:
     discover:
       discover: "探索"
-      movies: 
+      movies: "電影"
       tv_shows: "電視影集"
     movies:
       now_playing: "現正熱映中"
@@ -1224,11 +1228,11 @@ zh-TW:
     public: "目前沒有關於%{title}的評論"
   no_tv_search_results: "沒有搜尋到任何電視影集"
   no_watchlist_movies:
-    current_user: "您尚未加入任何電影至您的稍候觀看清單。"
-    public: "無稍候觀看的電影"
+    current_user: "您尚未加入任何電影至您的播放清單"
+    public: "播放清單中無任何電影"
   no_watchlist_tv_shows:
-    current_user: "您尚未加入任何電視影集到您的稍候觀看清單。"
-    public: "無任何稍候觀看的紀錄"
+    current_user: "您尚未加入任何電視影集到您的播放清單。"
+    public: "播放清單中無任何電視影集"
   no_writer: "目前沒有關於編劇的資料"
   not_translated:
     logged_in: "目前%{page_title}尚未有<strong>%{requested_i18n} (%{requested_language_text})</strong>的翻譯。如果您有興趣新增此翻譯，請按下方的按鈕。"
@@ -1283,7 +1287,7 @@ zh-TW:
   number_of_translations: "%{count} 個翻譯"
   number_of_votes: "%{count} 個投票"
   pagination:
-    load_more: 
+    load_more: "更多"
   part_of_collection: "為%{collection_name}的一部分"
   password:
     confirm_new_password: "確認新密碼"
@@ -1300,8 +1304,8 @@ zh-TW:
     rated_tv: "搜尋已評分的電視影集..."
     recommendations_movie: "搜尋您的個人電影推薦..."
     recommendations_tv: "搜尋您的個人電視影集推薦..."
-    watchlist_movie: "搜尋稍候觀看清單內的電影..."
-    watchlist_tv: "搜尋稍候觀看清單內的電視影集..."
+    watchlist_movie: "搜尋播放清單內的電影..."
+    watchlist_tv: "搜尋播放清單內的電視影集..."
   search_tip_1: 提示：您可以使用 "y:" 過濾該年份的搜尋結果。例："星際大戰 y:1977"
   season_number_name: "%{season_number} 季"
   season_overview:
@@ -1309,61 +1313,61 @@ zh-TW:
     to_air: "%{show_name} 的第 %{season_number} 季預定首映於 %{date}。"
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: "帳戶設定"
+      change_password: "更換密碼嗎？"
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: "建立"
+        details: "細節"
+        directory: "目錄"
+        sessions: Sessions
+        stats: "統計"
     blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      action: "動作"
+      blocked_users: "封鎖用戶"
+      no_blocked: "您尚未封鎖任何用戶"
+      username: "帳號"
     connected_apps:
-      connected_apps: 
+      connected_apps: "連結應用程式"
       listed_below_explanation: 
-      no_apps: 
+      no_apps: "您的帳戶尚未連結任何應用程式"
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: "動作"
+        application_name: "應用程式名稱"
+        date_authorised: "授權日期"
     delete_account:
-      delete_account: 
-      summary_text: 
+      delete_account: "刪除帳戶"
+      summary_text: "<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作"
     import_list:
-      import_button: 
-      import_list: 
+      import_button: "匯入"
+      import_list: "匯入清單"
       navigation:
-        import: 
-        previous: 
+        import: "匯入"
+        previous: "之前的匯入資料"
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
-        no_imports: 
-        type: 
+        date: "日期"
+        imported: "已匯入"
+        items: "項目"
+        local_list: "本地清單"
+        no_imports: "您尚未匯入任何清單"
+        type: "類型"
       results:
         complete:
-          imported: 
+          imported: "確認要匯入嗎？"
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
-          reason: 
+            already_imported: "已匯入"
+            cant_find_imdb: "找不到 IMDB ID"
+          reason: "若您願意的話，能提供原因嗎？"
           summary: 
-        currently_running: 
-        import_results: 
+        currently_running: "已在執行您的匯入動作，您可重新整理本頁面來檢視結果"
+        import_results: "匯入結果"
         in_progress:
-          import_status: 
+          import_status: "匯入狀態"
           summary: 
-      select_csv: 
+      select_csv: "選擇 CSV 檔案"
       type:
-        favorite: 
+        favorite: "我的最愛"
         rated: 
         watchlist: 
       which_list: 
