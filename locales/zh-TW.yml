@@ -12,7 +12,7 @@ zh-TW:
   API Updates: API 更新記錄
   About: "關於"
   About TMDb: "關於 TMDb"
-  About this list: "關於本推薦清單"
+  About this list: "關於本清單"
   Accept: "同意"
   Accept API Terms: "同意 API 條款"
   Account: "帳號"
@@ -790,6 +790,12 @@ zh-TW:
   filter_by_release_date:
     max: "依照上映日期篩選 (最晚日期)"
     min: "依照上映日期篩選 (最早日期)"
+  homepage:
+    tv_shows:
+      episode_airs:
+        in_days: 
+        today: 
+        tomorrow: 
   invalid_aspect_ratio: "比例不正確"
   item_count:
     one: "%{count} 個項目"
@@ -1165,6 +1171,14 @@ zh-TW:
     step_4: "步驟 4：分享"
   login_to_create: "找不到電影或電視影集嗎？登入來建立一個吧！"
   login_to_edit: "登入編輯"
+  media:
+    social_panel:
+      discussions:
+        currently_subscribed: "您已開始訂閱，當任何人發布訊息時您將會收到通知"
+        no_discussions: 
+        unsubscribe_me: "誰取消訂閱我"
+        want_to_be_notified: "當有任何人發布訊息時，您想要獲得即時通知嗎？"
+        yes_notify_me: 
   month: "%{count} 個月"
   navigation:
     discover:
@@ -1330,7 +1344,7 @@ zh-TW:
       username: "帳號"
     connected_apps:
       connected_apps: "連結應用程式"
-      listed_below_explanation: 
+      listed_below_explanation: "您已授權下列的第三方套件，您可隨時取消授權。"
       no_apps: "您的帳戶尚未連結任何應用程式"
       table:
         action: "動作"
@@ -1359,37 +1373,37 @@ zh-TW:
             already_imported: "已匯入"
             cant_find_imdb: "找不到 IMDB ID"
           reason: "若您願意的話，能提供原因嗎？"
-          summary: 
+          summary: "目前還有 %{imported_count} / %{total_count} 個項目尚待匯入，完成 %{imported_percentage}% ％"
         currently_running: "已在執行您的匯入動作，您可重新整理本頁面來檢視結果"
         import_results: "匯入結果"
         in_progress:
           import_status: "匯入狀態"
-          summary: 
+          summary: "我們偵測到共有 %{total_count} 個項目正在匯入中。這些工作將在背景執行，完成後將會自動通知您。"
       select_csv: "選擇 CSV 檔案"
       type:
         favorite: "我的最愛"
-        rated: 
-        watchlist: 
-      which_list: 
+        rated: "已評分"
+        watchlist: "播放清單"
+      which_list: "要匯入至哪個清單？"
     navigation:
-      account_settings: 
-      api: 
-      blocked_users: 
-      connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      account_settings: "帳戶設定"
+      api: API
+      blocked_users: "封鎖用戶"
+      connected_apps: "連結應用程式"
+      delete_account: "刪除帳戶"
+      edit_profile: "編輯用戶資料"
+      import_list: "匯入清單"
+      notification_settings: "通知設定"
+      settings: "設定"
+      sharing_settings: "分享設定"
+      social_settings: "社群設定"
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      notifications: 
+      email_new_releases_watchlist: "在播放清單中有新影片消息時，要傳送電子郵件給您嗎？"
+      new_replies_to_threads_created: "當您建立新的討論串或回應討論傳時，要傳送電子郵件給您嗎？"
+      new_replies_to_threads_watching: "當我關注的討論串有新回應時，要傳送電子郵件給您嗎？"
+      notifications: "通知"
     profile:
-      accent_color: 
+      accent_color: "個人預設顏色"
       avatar:
         current_avatar: "目前的 Avatar"
         explain: 目前關於客製化 Avatar，我們只提供以 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 為主要的客製化 Avatar 服務。若您欲在TMDb中顯示您的客製化 Avatar，您必須擁有 Gravatar 帳號並且確認兩邊網站的註冊電子郵件位址一致（如此才可連結至您的帳號）。當上述步驟完成後，按下更新的按鈕即可獲取您的照片。
@@ -1403,39 +1417,39 @@ zh-TW:
         updated: Avatar 上傳成功！
         upload_avatar: "上傳 Avatar"
         upload_own: "上傳照片"
-        upload_window_tip: 
+        upload_window_tip: "請使用下方的檔案選取工具來上傳您的 avatar 圖片，本圖片經上傳後將自動裁切為正方形"
         use_gravatar: "使用 Gravatar 嗎？"
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: "背景圖片"
+        remove_background: "移除您的背景圖片嗎？"
+        set_image: "設定背景圖片？"
+      edit_profile: "編輯個人簡介"
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: "我的最愛設定"
+        share_on_twitter: "分享我的最愛至 Twitter ？"
+        share_publicly: "將此清單設為公開嗎？"
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: "清單評分設定"
+        share_publicly: "將此清單設為公開嗎？"
+      sharing_settings: "分享設定"
       watchlist:
-        remove_when_rated: 
-        watchlist_settings: 
+        remove_when_rated: "自動移除已被評分的項目嗎？"
+        watchlist_settings: "播放清單設定"
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
-      favorite_message_hint: 
-      message_settings: 
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+        action: "動作"
+        auto_sharing: "自動分享："
+        connect: "連結"
+        connected_to: "連結到"
+        info: "資訊"
+        reload_text: "當您授權您的帳戶時將會自動重新整理頁面"
+        service: "服務"
+      favorite_message_hint: "當儲存我的最愛時並分享至 Twitter 或 Facebook 時..."
+      message_settings: "訊息設定"
+      sharing_message_hint: "當分享訊息至 Twitter 或 Facebook 時..."
+      social_settings: "社群設定"
+      supported_template_values: "支援的模版："
   signup_text: "註冊一個帳號是輕鬆簡單的，請填完下列資料後即完成。"
   success_approved_access_token: "已授權!"
   success_deleted: "已成功選擇的項目刪除。"
@@ -1448,7 +1462,7 @@ zh-TW:
   success_saved: "已將您的修改儲存。"
   success_set_language: "已更新語言。"
   success_sharing: "已成功分享您的訊息。"
-  top_contributors: 
+  top_contributors: "傑出貢獻者"
   translation: "翻譯"
   upload_backdrop: "上傳佈景"
   upload_poster: "上傳海報"
