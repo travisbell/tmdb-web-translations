@@ -41,7 +41,7 @@ zh-TW:
   Add a New Crew Member: "新增劇組人員"
   Add a New Guest Star: "新增客串演員"
   Add to Watchlist: "新增至播放清單"
-  Add to list: "新增至推薦清單"
+  Add to list: "新增至收藏"
   Add to your favorite list: "新增至我的最愛"
   Add to your watchlist: "新增至播放清單"
   Added By: "新增"
@@ -116,7 +116,7 @@ zh-TW:
   Create: "建立"
   Create App: "建立程式"
   Create Application: "建立應用程式"
-  Create New List: "新增推薦清單"
+  Create New List: "新增收藏清單"
   Create Translation: "新增翻譯"
   Created By: "出品人"
   Credits: "貢獻者"
@@ -167,10 +167,10 @@ zh-TW:
   Episode Images: "影集圖片"
   Episode Number: "集數"
   Episode Overview: "影集簡介"
-  Episodes: "集"
+  Episodes: "集數"
   Error: "錯誤"
   Example API Request: API 需求範例
-  Expand: "檢視海報"
+  Expand: "展開"
   External IDs: "外部編號"
   External Links: "外部連結"
   Extra Details: "額外詳細資訊"
@@ -185,7 +185,7 @@ zh-TW:
   Featured: "推薦"
   Featured Cast: "主演"
   Featured Crew: "主要劇組人員"
-  Featured Lists: "推薦清單"
+  Featured Lists: "精選收藏"
   Featured Review: "推薦影評"
   Featurette: "花絮"
   Featurettes: "花絮"
@@ -248,7 +248,7 @@ zh-TW:
   Leaderboard: "貢獻排行榜"
   Legal: "法律條款"
   List Results: "清單搜尋結果"
-  Lists: "推薦清單"
+  Lists: "收藏"
   Load More: "更多"
   Locked?: "鎖定項目？"
   Login: "登入"
@@ -260,7 +260,7 @@ zh-TW:
   Login to add this TV show to your watchlist: "登入以新增此電視節目至播放清單"
   Login to add this movie to your favorite list: "登入以新增此電影至我的最愛清單"
   Login to add this movie to your watchlist: "登入以新增至播放清單"
-  Login to create and edit custom lists: "登入以建立及編輯推薦清單"
+  Login to create and edit custom lists: "登入以建立或編輯收藏清單"
   Login to rate this TV show: "登入以評分此電視影集"
   Login to rate this movie: "登入以評分此電影"
   Login to report an issue: "登入以回報此問題"
@@ -342,7 +342,7 @@ zh-TW:
   Play: "播放"
   Play Trailer: "播放預告片"
   Plot Keywords: "劇情關鍵詞"
-  Popular Lists: "熱門推薦清單"
+  Popular Lists: "熱門收藏清單"
   Popular Movies: "熱門電影"
   Popular TV Shows: "熱門電視影集"
   Popularity: "人氣"
@@ -426,7 +426,7 @@ zh-TW:
   Season Overview: "季簡介"
   Season Regulars: "常態演員"
   Season Specials: "每季特點"
-  Seasons: "季"
+  Seasons: "季數"
   Secondary Color: "二次色"
   See Episodes: "觀看影集"
   Select One: "選擇一個..."
@@ -556,7 +556,7 @@ zh-TW:
   account_drop_down:
     discussions: "討論串"
     edit_profile: "編輯個人資料"
-    lists: "推薦清單"
+    lists: "收藏"
     logout: "登出"
     settings: "設定"
     view_profile: "檢視個人資料"
@@ -567,12 +567,12 @@ zh-TW:
     discussions:
       my_active_boards: "我的活動板"
       my_discussions: "我的討論"
-      not_watching: "你沒有參與任何討論"
+      not_watching: "您尚未參與任何討論"
     favorites:
       my_favorites:
         logged_in: "我的最愛"
         public: "%{username} 的最愛"
-    filter_by: "過濾："
+    filter_by: "過濾依："
     filters:
       date_rated: "評分日期"
       my_rating: "我的評分"
@@ -625,11 +625,11 @@ zh-TW:
       my_reviews:
         logged_in: "我的評論"
         public: "%{username} 的評論"
-      ratings_by_year: "一年內的評分數"
+      ratings_by_year: "評分統計（年）"
     recommendations:
       my_recommendations: "推薦給我"
-      no_recommendations: "我們沒有足夠的評分資訊來產生推薦資料"
-      no_recommendations_helper: "請嘗試新增多筆最愛的電影或電視影集，以產生新的推薦資料給您"
+      no_recommendations: "我們沒有足夠的資訊來產生推薦資料。"
+      no_recommendations_helper: "請選出喜愛的電影或電視影集並加入我的最愛，以產生專屬於您的推薦資料。"
     tips:
       import_imdb_ratings: "您可以匯入您在 IMDb 的評分資料"
       tip: "提示"
@@ -637,15 +637,15 @@ zh-TW:
       my_watchlist: "我的播放清單"
       next_month: "下個月"
       no_upcoming_movies:
-        one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影"
-        other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影"
+        one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影。"
+        other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電影。"
       no_upcoming_tv_shows:
         one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
         other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
       this_month: "本月"
       this_week: "本週"
-      view_them: "檢視"
-  add_to_list: "新增 %{media_title} 至播放清單"
+      view_them: "檢視清單內容"
+  add_to_list: "新增 %{media_title} 至收藏清單"
   already_translated_in: "%{page_title} 已被翻譯成以下語言..."
   api_session:
     approved_session: "您已許可%{application_name}，請關閉本視窗。"
@@ -765,8 +765,8 @@ zh-TW:
   edit_list:
     add_edit_items: "新增 / 編輯項目"
     choose_image: "選擇圖片"
-    delete_list: "刪除推薦清單"
-    edit_list: "編輯推薦清單"
+    delete_list: "刪除收藏清單"
+    edit_list: "編輯收藏清單"
   edits: "次編輯"
   email:
     confirm_new_email_address: "確認新電子郵件位址"
@@ -793,9 +793,9 @@ zh-TW:
   homepage:
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: "新的集數將於 %{number_of_days} 天後上映"
+        today: "新的集數將於今天上映"
+        tomorrow: "新的集數將於明天上映"
   invalid_aspect_ratio: "比例不正確"
   item_count:
     one: "%{count} 個項目"
@@ -1175,10 +1175,10 @@ zh-TW:
     social_panel:
       discussions:
         currently_subscribed: "您已開始訂閱，當任何人發布訊息時您將會收到通知"
-        no_discussions: 
+        no_discussions: "%{item_title} 內沒有相關的討論。請登入後加入討論吧！"
         unsubscribe_me: "誰取消訂閱我"
         want_to_be_notified: "當有任何人發布訊息時，您想要獲得即時通知嗎？"
-        yes_notify_me: 
+        yes_notify_me: "好的，請通知我！"
   month: "%{count} 個月"
   navigation:
     discover:
@@ -1321,7 +1321,7 @@ zh-TW:
     watchlist_movie: "搜尋播放清單內的電影..."
     watchlist_tv: "搜尋播放清單內的電視影集..."
   search_tip_1: 提示：您可以使用 "y:" 過濾該年份的搜尋結果。例："星際大戰 y:1977"
-  season_number_name: "%{season_number} 季"
+  season_number_name: "第 %{season_number} 季"
   season_overview:
     already_aired: "%{show_name} 的第 %{season_number} 季首映於 %{date}。"
     to_air: "%{show_name} 的第 %{season_number} 季預定首映於 %{date}。"
@@ -1374,7 +1374,7 @@ zh-TW:
             cant_find_imdb: "找不到 IMDB ID"
           reason: "若您願意的話，能提供原因嗎？"
           summary: "目前還有 %{imported_count} / %{total_count} 個項目尚待匯入，完成 %{imported_percentage}% ％"
-        currently_running: "已在執行您的匯入動作，您可重新整理本頁面來檢視結果"
+        currently_running: "正在執行您的匯入動作，您可重新整理本頁面來檢視結果"
         import_results: "匯入結果"
         in_progress:
           import_status: "匯入狀態"
@@ -1399,7 +1399,7 @@ zh-TW:
       social_settings: "社群設定"
     notifications:
       email_new_releases_watchlist: "在播放清單中有新影片消息時，要傳送電子郵件給您嗎？"
-      new_replies_to_threads_created: "當您建立新的討論串或回應討論傳時，要傳送電子郵件給您嗎？"
+      new_replies_to_threads_created: "當您建立新的討論串或回應討論時，要傳送電子郵件給您嗎？"
       new_replies_to_threads_watching: "當我關注的討論串有新回應時，要傳送電子郵件給您嗎？"
       notifications: "通知"
     profile:
@@ -1430,7 +1430,7 @@ zh-TW:
         share_on_twitter: "分享我的最愛至 Twitter ？"
         share_publicly: "將此清單設為公開嗎？"
       rated_list:
-        rated_settings: "清單評分設定"
+        rated_settings: "已評分清單設定"
         share_publicly: "將此清單設為公開嗎？"
       sharing_settings: "分享設定"
       watchlist:
