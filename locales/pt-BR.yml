@@ -53,7 +53,7 @@ pt-BR:
   Adult Actor: Ator de filmes e séries adultas
   Adult Movie?: Filme adulto?
   Advanced Search: Busca avançada
-  Air Date: Data de estreia
+  Air Date: Data de exibição
   Also Known As: Também conhecido como
   Alternative Names: Nomes alternativos
   Alternative Titles: Títulos alternativos
@@ -207,7 +207,7 @@ pt-BR:
   General: Geral
   Genres: Gêneros
   Genres & Keywords: Gêneros e palavras-chave
-  Get Involved: Faça parte
+  Get Involved: Envolva-se
   Guest Stars: Convidados especiais
   Guidelines: Diretrizes
   Hardware/Embedded: Hardware/Incorporado
@@ -245,7 +245,7 @@ pt-BR:
   Last Season Featured Crew: Equipe principal da última temporada
   Last Season Regular Cast: Elenco recorrente da última temporada
   Last Week: "Última semana"
-  Leaderboard: Placar de usuários
+  Leaderboard: Placar de colaboradores
   Legal: Legalidade
   List Results: Resultados para listas
   Lists: Listas
@@ -296,7 +296,7 @@ pt-BR:
   Name: Nome
   Network: Emissora
   New: Novo
-  New episode airs in: Novo episódio será exibido em
+  New episode airs in: Um novo episódio será exibido em
   News: Noticiário
   Next Episode: Próximo episódio
   Next Season: Próxima temporada
@@ -478,7 +478,7 @@ pt-BR:
   TV Show Type: Tipo de série
   TV Show Watchlist: Séries que tenho interesse
   TV Shows: Séries
-  TV Shows Airing Today: Séries transmitidas hoje
+  TV Shows Airing Today: Séries exibidas hoje
   TV Shows Missing A Name: Séries sem um nome
   TV Shows Missing A Overview: Séries sem uma sinopse
   Tagged People: Pessoas marcadas
@@ -797,9 +797,9 @@ pt-BR:
   homepage:
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Novo episódio em %{number_of_days} dias
+        today: Novo episódio hoje
+        tomorrow: Novo episódio amanhã
   invalid_aspect_ratio: Proporção da imagem inválida.
   item_count:
     one: "%{count} item"
@@ -1179,10 +1179,10 @@ pt-BR:
     social_panel:
       discussions:
         currently_subscribed: Você receberá uma notificação quando alguém fizer a primeira postagem.
-        no_discussions: 
+        no_discussions: Ainda não há nenhuma discussão sobre %{item_title}. Entre com uma conta para começar uma.
         unsubscribe_me: Cancelar inscrição.
         want_to_be_notified: Deseja receber uma notificação quando alguém fazer a primeira postagem?
-        yes_notify_me: 
+        yes_notify_me: Sim, me notifique!
   month:
     one: mês
     other: "%{count} meses"
@@ -1200,7 +1200,7 @@ pt-BR:
       people: Pessoas
       popular_people: Pessoas populares
     tv_shows:
-      airing_today: Transmitidas hoje
+      airing_today: Em exibição hoje
       on_the_air: Em exibição
       on_tv: Na TV
       popular: Populares
