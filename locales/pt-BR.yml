@@ -53,7 +53,7 @@ pt-BR:
   Adult Actor: Ator de filmes e séries adultas
   Adult Movie?: Filme adulto?
   Advanced Search: Busca avançada
-  Air Date: Data de estreia
+  Air Date: Data de exibição
   Also Known As: Também conhecido como
   Alternative Names: Nomes alternativos
   Alternative Titles: Títulos alternativos
@@ -109,8 +109,8 @@ pt-BR:
   Content Ratings: Classificações indicativas
   Content Score: Avaliação do conteúdo
   Continue: Continuar
-  Contribute: Contribuir
-  Contribution leaders for the week of: Líderes em contribuições na semana de
+  Contribute: Contribua
+  Contribution leaders for the week of: Principais colaboradores da semana de
   Convert to Collection?: Converter para coleção?
   Country: País
   Create: Criar
@@ -207,7 +207,7 @@ pt-BR:
   General: Geral
   Genres: Gêneros
   Genres & Keywords: Gêneros e palavras-chave
-  Get Involved: Contribua
+  Get Involved: Envolva-se
   Guest Stars: Convidados especiais
   Guidelines: Diretrizes
   Hardware/Embedded: Hardware/Incorporado
@@ -245,7 +245,7 @@ pt-BR:
   Last Season Featured Crew: Equipe principal da última temporada
   Last Season Regular Cast: Elenco recorrente da última temporada
   Last Week: "Última semana"
-  Leaderboard: Placar de usuários
+  Leaderboard: Placar de colaboradores
   Legal: Legalidade
   List Results: Resultados para listas
   Lists: Listas
@@ -296,7 +296,7 @@ pt-BR:
   Name: Nome
   Network: Emissora
   New: Novo
-  New episode airs in: Novo episódio será exibido em
+  New episode airs in: Um novo episódio será exibido em
   News: Noticiário
   Next Episode: Próximo episódio
   Next Season: Próxima temporada
@@ -322,7 +322,7 @@ pt-BR:
   Original Order: Ordenação Original
   Original TV Show Language: Idioma original da série
   Original Title: Título original
-  Other Databases: Base de dados de terceiros
+  Other Databases: Bancos de dados de terceiros
   Our History: A Nossa História
   Overview: Sinopse
   Page: Página
@@ -478,7 +478,7 @@ pt-BR:
   TV Show Type: Tipo de série
   TV Show Watchlist: Séries que tenho interesse
   TV Shows: Séries
-  TV Shows Airing Today: Séries transmitidas hoje
+  TV Shows Airing Today: Séries exibidas hoje
   TV Shows Missing A Name: Séries sem um nome
   TV Shows Missing A Overview: Séries sem uma sinopse
   Tagged People: Pessoas marcadas
@@ -671,7 +671,7 @@ pt-BR:
   collection_includes: Composta por filmes como %{movie_titles}
   confirm_delete: Tem certeza de que deseja excluir este registro?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: A avaliação do conteúdo é uma forma de ajudá-lo a entender o quão completo está os dados de um item do nosso banco de dados.
     scale:
       '0': Temos que começar de algum lugar...
       '1': Olha só, já é um começo.
@@ -763,7 +763,7 @@ pt-BR:
       homepage: Somente sites oficias, páginas de fãs não são permitidas.
       original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
       overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
-      social_links: 
+      social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
   edit_list:
     add_edit_items: Adicionar/Editar itens
     choose_image: Selecionar imagem
@@ -794,6 +794,12 @@ pt-BR:
   filter_by_release_date:
     max: Filtrar por Data Lançamento (Máx)
     min: Filtrar por Data Lançamento (Mín)
+  homepage:
+    tv_shows:
+      episode_airs:
+        in_days: Novo episódio em %{number_of_days} dias
+        today: Novo episódio hoje
+        tomorrow: Novo episódio amanhã
   invalid_aspect_ratio: Proporção da imagem inválida.
   item_count:
     one: "%{count} item"
@@ -1167,15 +1173,23 @@ pt-BR:
     step_2: 'Passo 2: Adicionar itens'
     step_3: 'Passo 3: Escolher imagem'
     step_4: 'Passo 4: Compartilhar'
-  login_to_create: Não encontrou o filme ou série que procurava? Crie uma conta e contribua.
+  login_to_create: Não encontrou o filme ou série que procurava? Entre com uma conta e adicione ao nosso banco de dados.
   login_to_edit: Entre com uma conta para editar
+  media:
+    social_panel:
+      discussions:
+        currently_subscribed: Você receberá uma notificação quando alguém fizer a primeira postagem.
+        no_discussions: Ainda não há nenhuma discussão sobre %{item_title}. Entre com uma conta para começar uma.
+        unsubscribe_me: Cancelar inscrição.
+        want_to_be_notified: Deseja receber uma notificação quando alguém fazer a primeira postagem?
+        yes_notify_me: Sim, me notifique!
   month:
     one: mês
     other: "%{count} meses"
   navigation:
     discover:
-      discover: Descobrir
-      movies: 
+      discover: Explorar
+      movies: Filmes
       tv_shows: Séries
     movies:
       now_playing: Em cartaz
@@ -1186,16 +1200,16 @@ pt-BR:
       people: Pessoas
       popular_people: Pessoas populares
     tv_shows:
-      airing_today: Transmitido hoje
+      airing_today: Em exibição hoje
       on_the_air: Em exibição
       on_tv: Na TV
       popular: Populares
-      top_rated: Mais bem avaliados
+      top_rated: Mais bem avaliadas
   no_biography: Não temos uma biografia para %{name}.
   no_cast: Não temos uma lista do elenco deste(a) %{media_type}. Você pode ajudar!
   no_collection_search_results: Não foram encontradas coleções que correspondam aos seus critérios de busca.
   no_company_search_results: Não foram encontradas empresas que correspondam aos seus critérios de busca.
-  no_contributors: Nenhum contribuidor encontrado.
+  no_contributors: Nenhum colaborador encontrado.
   no_created_lists: Você ainda não criou nenhuma lista.
   no_crew: Não temos uma lista da equipe técnica deste(a) %{media_type}. Você pode ajudar!
   no_description: Nenhuma descrição inserida.
@@ -1214,7 +1228,7 @@ pt-BR:
   no_list_search_results: Não foram encontradas listas que correspondam aos seus critérios de busca.
   no_media: Não foram adicionados vídeos, imagens de fundo ou pôsteres para %{title}.
   no_movie_search_results: Não foram encontrados filmes que correspondam aos seus critérios de busca.
-  no_overview: Não temos uma sinopse em Português do Brasil. Você pode ajudar a ampliar a nossa base de dados adicionando uma.
+  no_overview: Não temos uma sinopse em Português do Brasil. Você pode ajudar a ampliar o nosso banco de dados adicionando uma.
   no_person_search_results: Não foram encontradas pessoas que correspondam aos seus critérios de busca.
   no_personal_recommendations:
     movie: Para receber recomendações pessoais de filmes, comece a marcar os seus filmes favoritos. Neste ponto, você provavelmente perceberá que um monte dos filmes que recomendamos são aqueles que você já viu. Para filtrá-los, avalie-os! Uma vez avaliados, eles serão retirados automaticamente da lista.
@@ -1241,7 +1255,7 @@ pt-BR:
     public: Esta lista de interesses está vazia.
   no_writer: Nenhum escritor ou escritora adicionados.
   not_translated:
-    logged_in: "%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se gostaria de contribuir criando esta tradução, clique no botão abaixo."
+    logged_in: "%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se gostaria de contribuir com uma tradução, clique no botão abaixo."
     public: '%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Você pode contribuir com uma tradução <a href="%{signup_link}">criando uma conta</a> e <a href="%{login_link}">entrando</a>.com a mesma.'
   number:
     currency:
@@ -1460,10 +1474,10 @@ pt-BR:
   success_rating: Sua avaliação foi enviada com sucesso.
   success_registration: Seu cadastro foi realizado com sucesso.
   success_report: Seu relatório foi enviado com sucesso.
-  success_saved: Suas contribuições foram feitas com sucesso.
+  success_saved: Suas edições foram salvas com sucesso.
   success_set_language: O idioma foi atualizado.
   success_sharing: Sua mensagem foi compartilhada com sucesso.
-  top_contributors: 
+  top_contributors: Principais colaboradores
   translation:
     one: tradução
     other: traduções

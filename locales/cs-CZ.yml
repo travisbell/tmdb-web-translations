@@ -406,13 +406,13 @@ cs-CZ:
   Resend Activation Email: Znovu poslat aktivační e-mail
   Reset: Obnovit
   Reset Password: Obnovit heslo
-  Returning Series: Návrat seriálu
+  Returning Series: Vracející se seriál
   Revenue: Výnos
   Reviews: Recenze
   Rumored: Nepotvrzeno
   Runtime: 'Délka '
   Save: Uložit
-  Scripted: 
+  Scripted: Naplánováno
   Search: Vyhledat
   Search for a company: Hledat společnost
   Search for a country: Hledat zemi
@@ -448,7 +448,7 @@ cs-CZ:
   Sort Regular Cast: Seřadit pravidelné obsazení
   Source Key: Zdrojový klíč
   Specials: Speciály
-  Spoken Languages: Jazyky, ve kterých se mluví
+  Spoken Languages: Jazyky, kterými se mluví
   State: Kraj
   Stats: Statistiky
   Status: Stav
@@ -629,10 +629,10 @@ cs-CZ:
     recommendations:
       my_recommendations: Má doporučení
       no_recommendations: Nemáme dostatek dat pro návrh doporučení.
-      no_recommendations_helper: 
+      no_recommendations_helper: Přidejte o něco více oblíbených (čím více, tím lépe) a zkuste se sem vrátit, jestli to nebude lepší.
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: Můžete importovat svá hodnocení z IMDb.
+      tip: Tip
     watchlist:
       my_watchlist: Můj seznam ke zhlédnutí
       next_month: Příští měsíc
@@ -673,12 +673,12 @@ cs-CZ:
   collection_includes: Zahrnuje %{movie_titles}
   confirm_delete: Opravdu chcete odstranit tento záznam?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: Hodnocení obsahu je způsob, jak vám pomoci pochopit, jak úplná jsou data pro objekt v databázi.
     scale:
       '0': Někde musíme začít...
       '1': Hej, to je začátek.
       '10': Ano! To vypadá dobře!
-      '2': 
+      '2': Už to začíná.
       '3': "Řím nebyl postaven za den..."
       '4': Je to týmová práce...
       '5': Ještě to chce trochu práce.
@@ -756,17 +756,17 @@ cs-CZ:
     Visual Effects: Vizuální efekty
     Writing: Scénář
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    last_reply: Poslední odpověď
+    replies: Odpovědi
+    status: Stav
+    subject: Předmět
   dont_fallback: "Žádný (Bez záložního)"
   edit:
     tooltips:
       homepage: Pouze oficiální domovská stránka. Fanouškovské stránky nejsou povoleny.
       original_title: Původní název by měl být zadán v původním jazyce položky. Ve většině případů to bude odpovídat jazyku zadanému v poli „původní jazyk“.
       overview: Při psaní přehledu se pokuste, aby byl krátký, stručný a neprozrazoval zápletku.
-      social_links: 
+      social_links: Sociální odkazy slouží pouze pro oficiální (ověřené) stránky. Fanouškovské stránky nejsou povoleny.
   edit_list:
     add_edit_items: Přidat nebo upravit položky
     choose_image: Zvolte obrázek
@@ -798,6 +798,12 @@ cs-CZ:
   filter_by_release_date:
     max: Filtrovat podle data vydání (maximálně)
     min: Filtrovat podle data vydání (minimálně)
+  homepage:
+    tv_shows:
+      episode_airs:
+        in_days: Nová epizoda se vysílá za %{number_of_days} dní
+        today: Nová epizoda se vysílá dnes
+        tomorrow: Nová epizoda se vysílá zítra
   invalid_aspect_ratio: Tento poměr stran je neplatný.
   item_count:
     few: "%{count} položky"
@@ -1175,6 +1181,14 @@ cs-CZ:
     step_4: 'Krok 4: Sdílejte'
   login_to_create: Nemůžete nalézt film nebo seriál? Přihlaste se pro jeho vytvoření.
   login_to_edit: Pro úpravu se přihlaste
+  media:
+    social_panel:
+      discussions:
+        currently_subscribed: Aktuálně jste přihlášeni k odběru, abyste obdrželi oznámení, když někdo vytvoří první příspěvek.
+        no_discussions: Pro %{item_title} není žádná diskuse. Přihlaste se, abyste byli první!
+        unsubscribe_me: Odhlásit mě z odběru.
+        want_to_be_notified: Chcete obdržet oznámení, když někdo vytvoří první příspěvek?
+        yes_notify_me: Ano, oznámit mi to!
   month:
     few: "%{count} měsíce"
     one: měsíc
@@ -1182,7 +1196,7 @@ cs-CZ:
   navigation:
     discover:
       discover: Prozkoumat
-      movies: 
+      movies: Filmy
       tv_shows: Seriály
     movies:
       now_playing: Právě se hraje
@@ -1315,7 +1329,7 @@ cs-CZ:
     one: "%{count} hlas"
     other: "%{count} hlasů"
   pagination:
-    load_more: 
+    load_more: Načíst další
   part_of_collection: Součástí %{collection_name}
   password:
     confirm_new_password: Potvrďte nové heslo
@@ -1341,83 +1355,83 @@ cs-CZ:
     to_air: "%{season_number}. sezóna seriálu %{show_name} bude mít premiéru %{date}."
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: Nastavení účtu
+      change_password: Změnit heslo?
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: Vytvořit
+        details: Podrobnosti
+        directory: Adresář
+        sessions: Relace
+        stats: Statistika
     blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      action: Akce
+      blocked_users: Blokovaní uživatelé
+      no_blocked: Nemáte žádné zablokované uživatele.
+      username: Uživatelské jméno
     connected_apps:
-      connected_apps: 
-      listed_below_explanation: 
-      no_apps: 
+      connected_apps: Připojené aplikace
+      listed_below_explanation: Níže jsou vypsány aplikace třetích stran, které jste oprávnili zapisovat data vaším jménem. Tato oprávnění můžete kdykoliv odvolat.
+      no_apps: Ke svému účtu nemáte připojené žádné aplikace.
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Akce
+        application_name: Název aplikace
+        date_authorised: Datum oprávnění
     delete_account:
-      delete_account: 
-      summary_text: 
+      delete_account: Odstranit účet
+      summary_text: Právě jste vstoupili do <strong>nebezpečné zóny</strong>! Pokud chcete pokračovat a odebrat svůj účet, můžete to provést zadáním hesla níže a potvrzením výzev.
     import_list:
-      import_button: 
-      import_list: 
+      import_button: Importovat
+      import_list: Importovat seznam
       navigation:
-        import: 
-        previous: 
+        import: Importovat
+        previous: Předchozí importy
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
-        no_imports: 
-        type: 
+        date: Datum
+        imported: Importováno
+        items: Položky
+        local_list: Místní seznam
+        no_imports: Neimportovali jste žádné seznamy.
+        type: Typ
       results:
         complete:
-          imported: 
+          imported: Importováno?
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
-          reason: 
-          summary: 
-        currently_running: 
-        import_results: 
+            already_imported: Již importováno.
+            cant_find_imdb: Nelze nalézt ID IMDB.
+          reason: Důvod? (Pokud je použitelný)
+          summary: Dokázali jsme importovat celkem %{imported_count} položek z %{total_count} (%{imported_percentage} %) položek, které jsme rozpoznali ve vašem exportovaném seznamu.
+        currently_running: Váš import je aktuálně spuštěn. Abyste zjistili, zda byl dokončen, můžete obnovit tuto stránku.
+        import_results: Importovat výsledky
         in_progress:
-          import_status: 
-          summary: 
-      select_csv: 
+          import_status: Importovat stav
+          summary: Rozpoznali jsme celkem %{total_count} položek k importování. Import je aktuálně spuštěn na pozadí a budete automaticky upozorněni, až bude dokončen.
+      select_csv: Vyberte soubor CSV
       type:
-        favorite: 
-        rated: 
+        favorite: Oblíbené
+        rated: Hodnoceno
         watchlist: Seznam ke zhlédnutí
-      which_list: 
+      which_list: Do kterého seznamu importovat?
     navigation:
-      account_settings: 
-      api: 
-      blocked_users: 
-      connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      account_settings: Nastavení účtu
+      api: API
+      blocked_users: Blokovaní uživatelé
+      connected_apps: Připojené aplikace
+      delete_account: Odstranit účet
+      edit_profile: Upravit profil
+      import_list: Importovat seznam
+      notification_settings: Nastavení oznámení
+      settings: Nastavení
+      sharing_settings: Nastavení sdílení
+      social_settings: Nastavení sociálních sítí
     notifications:
       email_new_releases_watchlist: Upozornit mě e-mailem na nová vydání na mém seznamu ke zhlédnutí?
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      notifications: 
+      new_replies_to_threads_created: Automaticky sledovat vlákna, která vytvořím, nebo na která odpovím?
+      new_replies_to_threads_watching: Upozornit mě e-mailem na nové odpovědi ve vláknech, která sleduji?
+      notifications: Oznámení
     profile:
-      accent_color: 
+      accent_color: Barva zdůraznění
       avatar:
         current_avatar: Aktuální avatar
         explain: V současné době jedinou možností, kterou máme pro zobrazení vlastního avatara, je pomocí služby nazvané <a href="https://www.gravatar.com/" target="_blank"> Gravatar</a>. Pokud chcete zobrazit vlastní avatar na TMDb, musíte se přihlásit k účtu na Gravatar a ujistěte se, že jste přidali stejnou e-mailovou adresu, kterou jste použili zde (tak můžeme propojit váš účet). Jakmile to bude hotovo, klikněte na níže uvedené tlačítko pro aktualizaci a my stáhneme váš nový obrázek.
@@ -1430,39 +1444,39 @@ cs-CZ:
         updated: Avatar aktualizován!
         upload_avatar: Nahrát avatar
         upload_own: Nahrát vlastní?
-        upload_window_tip: 
+        upload_window_tip: Použijte níže uvedený výběr souboru pro nahrání vlastního avataru. Pokud nebude váš obrázek čtvercový, automaticky ho ořízneme.
         use_gravatar: Použít Gravatar?
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: Obrázek na pozadí
+        remove_background: Odebrat váš obrázek na pozadí?
+        set_image: Nastavit obrázek na pozadí?
+      edit_profile: Upravit profil
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: Nastavení seznamu oblíbených
+        share_on_twitter: Sdílet nové oblíbené na Twitter?
+        share_publicly: Sdílet tento seznam veřejně?
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: Nastavení seznamu hodnocených
+        share_publicly: Sdílet tento seznam veřejně?
+      sharing_settings: Nastavení sdílení
       watchlist:
         remove_when_rated: Automaticky odebrat položky, když jsou ohodnoceny?
         watchlist_settings: Nastavení seznamu ke zhlédnutí
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
-      favorite_message_hint: 
-      message_settings: 
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+        action: Akce
+        auto_sharing: 'Automatické sdílení:'
+        connect: Připojit
+        connected_to: Připojeno k
+        info: Informace
+        reload_text: Načtěte znovu tuto stránku, jakmile ověříte svůj účet!
+        service: Služba
+      favorite_message_hint: Při označení položky jako oblíbené a sdílení na Twitter nebo Facebook...
+      message_settings: Nastavení zprávy
+      sharing_message_hint: Při sdílení položky na Twitter nebo Facebook...
+      social_settings: Nastavení sociálních sítí
+      supported_template_values: 'Podporované hodnoty šablony:'
   signup_text: Zaregistrovat si účet je zdarma a snadné. Vyplňte níže uvedený formulář.
   success_approved_access_token: Oprávnění uděleno!
   success_deleted: Vybraná položka byla úspěšně odstraněna.
@@ -1475,7 +1489,7 @@ cs-CZ:
   success_saved: Vaše změny byly úspěšně uloženy.
   success_set_language: Jazyk byl aktualizován.
   success_sharing: Vaše zpráva byla úspěšně sdílena.
-  top_contributors: 
+  top_contributors: Nejlepší přispěvatelé
   translation:
     few: překlady
     one: překlad
