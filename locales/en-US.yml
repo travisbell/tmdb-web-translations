@@ -719,6 +719,7 @@ en-US:
       abbrev: "%-d %b %Y"
       default: "%m/%d/%Y"
       full_month_day: "%B %e, %Y"
+      short_month_day_year: "%b. %d, %Y"
     month_names:
     - 
     - January
@@ -783,6 +784,8 @@ en-US:
         moderator_talk: Moderator Talk
         support: Support
         website_support: Website Support
+    category:
+      last_reply_with_datetime: "%{date} at %{time} by %{username}"
     email_notifications:
       email_notifications: Email Notifications
       subscribe: Subscribe
