@@ -681,7 +681,14 @@ ar:
       '8': 
       '9': 
   date:
-    abbr_day_names: '["أحد", "إثن", "ثلا", "ارب", "خمي", "جمع", "سبت"]'
+    abbr_day_names:
+    - "أحد"
+    - "إثن"
+    - "ثلا"
+    - "ارب"
+    - "خمي"
+    - "جمع"
+    - "سبت"
     abbr_month_names: 
     day_names: '["الأحد", "الأثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"]'
     formats:
@@ -724,10 +731,58 @@ ar:
     Visual Effects: "تأثيرات بصرية"
     Writing: "كتابة"
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    actions:
+      actions: 
+      close_discussion: 
+      make_private: 
+      make_public: 
+      mark_spam: 
+      reopen_discussion: 
+      stop_watching: 
+      view_activity: 
+      watch: 
+    admin_panel: 
+    back_options:
+      back_to_item_with_arrow: 
+      back_to_tmdb_with_arrow: 
+      back_with_arrow: 
+    categories:
+      categories: 
+      discuss:
+        discuss: 
+        general: 
+      support:
+        api_requests: 
+        api_requests_(professional): 
+        api_support: 
+        content_issues: 
+        general: 
+        moderator_talk: 
+        support: 
+        website_support: 
+    email_notifications:
+      email_notifications: 
+      subscribe: 
+      unsubscribe: 
+    login_to_be_notified: 
+    new_discussion: 
+    no_discussions: 
+    pagination:
+      summary: 
+    post:
+      like: 
+      posted_by_with_datetime: 
+      quote: 
+      report: 
+    table_headers:
+      last_reply: 
+      replies: 
+      status: 
+      subject: 
+    users_in_discussion:
+      no_subscribers: 
+      users_in_discussion: 
+    your_account: 
   dont_fallback: 
   edit:
     tooltips:
@@ -1229,6 +1284,14 @@ ar:
   not_translated:
     logged_in: 
     public: 
+  notifications:
+    caught_up: 
+    clear: 
+    good_job: 
+    mark_all_as_read: 
+    refresh: 
+    unread_notifications: 
+    view: 
   number:
     currency:
       format:
@@ -1301,6 +1364,11 @@ ar:
     two: "%{count} صوتين"
   pagination:
     load_more: 
+    next_page: 
+    next_page_with_arrow: 
+    previous_page: 
+    previous_page_with_arrow: 
+    show_more: 
   part_of_collection: 
   password:
     confirm_new_password: 
@@ -1460,6 +1528,9 @@ ar:
   success_saved: "تم حفظ تغييراتك بنجاح."
   success_set_language: "تم تحديث اللغة."
   success_sharing: "تمت مشاركة رسالتك بنجاح."
+  time:
+    formats:
+      12hour_minutes: 
   top_contributors: 
   translation:
     many: "ترجمات"

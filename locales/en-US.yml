@@ -754,10 +754,60 @@ en-US:
     Visual Effects: Visual Effects
     Writing: Writing
   discussions:
-    last_reply: Last Reply
-    replies: Replies
-    status: Status
-    subject: Subject
+    actions:
+      actions: Actions
+      close_discussion: Close Discussion
+      make_private: Make Private
+      make_public: Make Public
+      mark_spam: Mark As Spam
+      reopen_discussion: Re-Open Discussion
+      stop_watching: Stop Watching
+      view_activity: View Activity
+      watch: Watch
+    admin_panel: Admin Panel
+    back_options:
+      back_to_item_with_arrow: "← Back to %{item_title}"
+      back_to_tmdb_with_arrow: "← Back to TMDb"
+      back_with_arrow: "← Back"
+    categories:
+      categories: Categories
+      discuss:
+        discuss: Discuss
+        general: General
+      support:
+        api_requests: API Requests
+        api_requests_(professional): API Requests (Professional)
+        api_support: API Support
+        content_issues: Content Issues
+        general: General
+        moderator_talk: Moderator Talk
+        support: Support
+        website_support: Website Support
+    email_notifications:
+      email_notifications: Email Notifications
+      subscribe: Subscribe
+      unsubscribe: Unsubscribe
+    login_to_be_notified: Login to be notified about the first post.
+    new_discussion: New Discussion
+    no_discussions: No discussions.
+    pagination:
+      summary:
+        one: "%{count} discussion, currently on page %{current_page} of %{total_pages}"
+        other: "%{count} discussions, currently on page %{current_page} of %{total_pages}"
+    post:
+      like: Like
+      posted_by_with_datetime: posted by %{username} on %{date} at %{time}
+      quote: Quote
+      report: Report
+    table_headers:
+      last_reply: Last Reply
+      replies: Replies
+      status: Status
+      subject: Subject
+    users_in_discussion:
+      no_subscribers: No subscribers
+      users_in_discussion: Users In This Discussion
+    your_account: Your Account
   dont_fallback: None (Don't Fallback)
   edit:
     tooltips:
@@ -1260,6 +1310,14 @@ en-US:
   not_translated:
     logged_in: "%{page_title} has not yet been translated to <strong>%{requested_i18n} (%{requested_language_text})</strong>. If you would like to continue and create this translation, please click the button below."
     public: '%{page_title} has not yet been translated to <strong>%{requested_i18n} (%{requested_language_text})</strong>. You can add this translation by <a href="%{signup_link}">signing up</a> for an account and <a href="%{login_link}">logging in</a>.'
+  notifications:
+    caught_up: Looks like you're all caught up.
+    clear: Clear
+    good_job: Good job!
+    mark_all_as_read: Mark All As Read
+    refresh: Refresh
+    unread_notifications: Unread Notifications
+    view: View
   number:
     currency:
       format:
@@ -1327,6 +1385,11 @@ en-US:
     other: "%{count} votes"
   pagination:
     load_more: Load More
+    next_page: Next page
+    next_page_with_arrow: Next page →
+    previous_page: Previous page
+    previous_page_with_arrow: "← Previous page"
+    show_more: Show More
   part_of_collection: Part of the %{collection_name}
   password:
     confirm_new_password: Confirm New Password
@@ -1486,6 +1549,9 @@ en-US:
   success_saved: Your changes have been successfully saved.
   success_set_language: The language has been updated.
   success_sharing: Your message has successfully been shared.
+  time:
+    formats:
+      12hour_minutes: "%l:%M%p"
   top_contributors: Top Contributors
   translation:
     many: translations

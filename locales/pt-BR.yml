@@ -753,10 +753,60 @@ pt-BR:
     Visual Effects: Efeitos Visuais
     Writing: Roteirização
   discussions:
-    last_reply: Resposta mais recente
-    replies: Respostas
-    status: Situação
-    subject: Assunto
+    actions:
+      actions: Ações
+      close_discussion: Fechar discussão
+      make_private: Tornar privada
+      make_public: Tornar pública
+      mark_spam: Marcar como spam
+      reopen_discussion: Reabrir discussão
+      stop_watching: Parar de acompanhar
+      view_activity: Mostrar atividade
+      watch: Acompanhar
+    admin_panel: 
+    back_options:
+      back_to_item_with_arrow: 
+      back_to_tmdb_with_arrow: 
+      back_with_arrow: 
+    categories:
+      categories: Categorias
+      discuss:
+        discuss: Discutir
+        general: Geral
+      support:
+        api_requests: Requisições da API
+        api_requests_(professional): Requisições da API (Profissional)
+        api_support: Suporte da API
+        content_issues: Problemas com conteúdo
+        general: Geral
+        moderator_talk: Discussões dos moderadores
+        support: Suporte
+        website_support: Suporte do site
+    email_notifications:
+      email_notifications: Notificações por e-mail
+      subscribe: Inscrever
+      unsubscribe: Cancelar inscrição
+    login_to_be_notified: Entre com uma conta para receber uma notificação da primeira postagem.
+    new_discussion: Nova discussão
+    no_discussions: Nenhuma discussão.
+    pagination:
+      summary:
+        one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
+        other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
+    post:
+      like: 
+      posted_by_with_datetime: 
+      quote: 
+      report: 
+    table_headers:
+      last_reply: Resposta mais recente
+      replies: Respostas
+      status: Situação
+      subject: Assunto
+    users_in_discussion:
+      no_subscribers: Nenhum inscrito
+      users_in_discussion: Usuários nesta discussão
+    your_account: 
   dont_fallback: Nenhum
   edit:
     tooltips:
@@ -1257,6 +1307,14 @@ pt-BR:
   not_translated:
     logged_in: "%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se gostaria de contribuir com uma tradução, clique no botão abaixo."
     public: '%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Você pode contribuir com uma tradução <a href="%{signup_link}">criando uma conta</a> e <a href="%{login_link}">entrando</a>.com a mesma.'
+  notifications:
+    caught_up: 
+    clear: 
+    good_job: 
+    mark_all_as_read: 
+    refresh: 
+    unread_notifications: 
+    view: 
   number:
     currency:
       format:
@@ -1318,6 +1376,11 @@ pt-BR:
     other: "%{count} votos"
   pagination:
     load_more: Carregar mais
+    next_page: Próxima página
+    next_page_with_arrow: Próxima página →
+    previous_page: Página anterior
+    previous_page_with_arrow: "← Página anterior"
+    show_more: Mostrar mais
   part_of_collection: Parte da coleção %{collection_name}
   password:
     confirm_new_password: Confirmar a senha nova
@@ -1477,6 +1540,9 @@ pt-BR:
   success_saved: Suas edições foram salvas com sucesso.
   success_set_language: O idioma foi atualizado.
   success_sharing: Sua mensagem foi compartilhada com sucesso.
+  time:
+    formats:
+      12hour_minutes: 
   top_contributors: Principais colaboradores
   translation:
     one: tradução

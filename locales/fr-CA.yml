@@ -681,7 +681,14 @@ fr-CA:
       '8': 
       '9': 
   date:
-    abbr_day_names: '["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"]'
+    abbr_day_names:
+    - Dim
+    - Lun
+    - Mar
+    - Mer
+    - Jeu
+    - Ven
+    - Sam
     abbr_month_names: '[nil, "Jan", "Fév", "Mar", "Avr", "Mai", "Jun", "Jul", "Aoû", "Sep", "Oct", "Nov", "Déc"]'
     day_names: '["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]'
     formats:
@@ -722,10 +729,58 @@ fr-CA:
     Visual Effects: Effets visuels
     Writing: "Écriture"
   discussions:
-    last_reply: 
-    replies: 
-    status: 
-    subject: 
+    actions:
+      actions: 
+      close_discussion: 
+      make_private: 
+      make_public: 
+      mark_spam: 
+      reopen_discussion: 
+      stop_watching: 
+      view_activity: 
+      watch: 
+    admin_panel: 
+    back_options:
+      back_to_item_with_arrow: 
+      back_to_tmdb_with_arrow: 
+      back_with_arrow: 
+    categories:
+      categories: 
+      discuss:
+        discuss: 
+        general: 
+      support:
+        api_requests: 
+        api_requests_(professional): 
+        api_support: 
+        content_issues: 
+        general: 
+        moderator_talk: 
+        support: 
+        website_support: 
+    email_notifications:
+      email_notifications: 
+      subscribe: 
+      unsubscribe: 
+    login_to_be_notified: 
+    new_discussion: 
+    no_discussions: 
+    pagination:
+      summary: 
+    post:
+      like: 
+      posted_by_with_datetime: 
+      quote: 
+      report: 
+    table_headers:
+      last_reply: 
+      replies: 
+      status: 
+      subject: 
+    users_in_discussion:
+      no_subscribers: 
+      users_in_discussion: 
+    your_account: 
   dont_fallback: Aucune
   edit:
     tooltips:
@@ -1224,6 +1279,14 @@ fr-CA:
   not_translated:
     logged_in: "%{page_title} n'a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si vous voulez continuer et créer la traduction, veuillez cliquer sur le bouton ci-dessous."
     public: '%{page_title} n''a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Vous pouvez ajouter la traduction en vous <a href="%{signup_link}">créant </a> un compte et en vous <a href="%{login_link}">connectant</a>.'
+  notifications:
+    caught_up: 
+    clear: 
+    good_job: 
+    mark_all_as_read: 
+    refresh: 
+    unread_notifications: 
+    view: 
   number:
     currency:
       format:
@@ -1285,6 +1348,11 @@ fr-CA:
     other: "%{count} votes"
   pagination:
     load_more: 
+    next_page: 
+    next_page_with_arrow: 
+    previous_page: 
+    previous_page_with_arrow: 
+    show_more: 
   part_of_collection: Fait partie de %{collection_name}
   password:
     confirm_new_password: Confirmer le nouveau mot de passe
@@ -1444,6 +1512,9 @@ fr-CA:
   success_saved: 
   success_set_language: 
   success_sharing: 
+  time:
+    formats:
+      12hour_minutes: 
   top_contributors: 
   translation:
     one: traduction
