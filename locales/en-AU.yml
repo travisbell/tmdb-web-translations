@@ -728,6 +728,7 @@ en-AU:
     categories:
       categories: 
       discuss:
+        content_issues: 
         discuss: 
         general: 
       support:
@@ -749,14 +750,27 @@ en-AU:
     new_discussion: 
     no_discussions: 
     pagination:
+      post_summary:
+        one: "%{count} reply (on page %{current_page} of %{total_pages})"
+        other: "%{count} replies (on page %{current_page} of %{total_pages})"
       summary:
         one: "%{count} discussion, currently on page %{current_page} of %{total_pages}"
         other: "%{count} discussions, currently on page %{current_page} of %{total_pages}"
     post:
+      delete: 
+      edit: 
+      ignore: 
       like: 
       posted_by_with_datetime: 
       quote: 
+      reopen_reply: 
+      reply: 
+      reply_by: 
+      reply_on_datetime: 
       report: 
+    statuses:
+      closed: 
+      open: 
     table_headers:
       last_reply: 
       replies: 
@@ -1324,6 +1338,8 @@ en-AU:
   number_of_translations: 
   number_of_votes: 
   pagination:
+    currently_on: 
+    last_page: 
     load_more: 
     next_page: 
     next_page_with_arrow: 

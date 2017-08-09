@@ -770,6 +770,7 @@ zh-CN:
     categories:
       categories: "分类"
       discuss:
+        content_issues: 
         discuss: "讨论"
         general: "一般问题"
       support:
@@ -791,14 +792,25 @@ zh-CN:
     new_discussion: "新讨论"
     no_discussions: "无讨论"
     pagination:
+      post_summary: 
       summary:
         one: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
         other: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
     post:
+      delete: 
+      edit: 
+      ignore: 
       like: "喜欢"
       posted_by_with_datetime: "%{username} 发贴于 %{date} 的 %{time}"
       quote: "引用"
+      reopen_reply: 
+      reply: 
+      reply_by: 
+      reply_on_datetime: 
       report: "报告"
+    statuses:
+      closed: 
+      open: 
     table_headers:
       last_reply: "最后回复"
       replies: "回复"
@@ -1362,6 +1374,8 @@ zh-CN:
   number_of_translations: "%{count} 翻译"
   number_of_votes: "%{count} 投票"
   pagination:
+    currently_on: 
+    last_page: 
     load_more: 
     next_page: 
     next_page_with_arrow: 

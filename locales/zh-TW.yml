@@ -770,6 +770,7 @@ zh-TW:
     categories:
       categories: "類別"
       discuss:
+        content_issues: 
         discuss: "討論"
         general: "一般"
       support:
@@ -793,14 +794,25 @@ zh-TW:
     new_discussion: "新的討論"
     no_discussions: "沒有任何討論"
     pagination:
+      post_summary: 
       summary:
         one: "目前在第 %{current_page} / %{total_pages} 頁中，共有 %{count} 個討論串。"
         other: "目前在第 %{current_page} / %{total_pages} 頁中，共有 %{count} 個討論串。"
     post:
+      delete: 
+      edit: 
+      ignore: 
       like: "喜歡"
       posted_by_with_datetime: "%{username} 於 %{date} %{time} 時張貼"
       quote: "引用"
+      reopen_reply: 
+      reply: 
+      reply_by: 
+      reply_on_datetime: 
       report: "報告"
+    statuses:
+      closed: 
+      open: 
     table_headers:
       last_reply: "最後的回應"
       replies: "回應"
@@ -1364,6 +1376,8 @@ zh-TW:
   number_of_translations: "%{count} 個翻譯"
   number_of_votes: "%{count} 個投票"
   pagination:
+    currently_on: 
+    last_page: 
     load_more: "更多"
     next_page: "下一頁"
     next_page_with_arrow: "下一頁 →"

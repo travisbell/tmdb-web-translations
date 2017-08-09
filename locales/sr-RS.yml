@@ -567,35 +567,35 @@ sr-RS:
     discussions:
       my_active_boards: 
       my_discussions: "Моје дискусије"
-      not_watching: 
+      not_watching: "Не пратиш ни једну дискусију"
     favorites:
       my_favorites:
         logged_in: "Моји омиљени"
-        public: 
+        public: "Омиљено корисника: %{username}"
     filter_by: "Филтрирај по:"
     filters:
       date_rated: "Датум оцене"
       my_rating: "Моја оцена"
       popularity: "Популарност"
-      release_date: 
+      release_date: "Датум почетка приказивања"
       score: "Оцена"
       upcoming: "Ускоро"
     lists:
       create_list: "Направи листу"
-      last_updated: 
+      last_updated: "Ажурирано"
       my_lists:
         logged_in: "Моје листе"
-        public: 
+        public: "Листе корисника: %{username}"
       no_lists:
-        logged_in: 
+        logged_in: "Немаш ни једну листу"
         public: 
     member_since: "Члан од %{date}"
     navigation:
       discussions: "Дискусије"
       favorites: "Омиљено"
       lists: "Листе"
-      overview: 
-      ratings_reviews: 
+      overview: "Преглед"
+      ratings_reviews: "Оцене и рецензије"
       recommendations: "Препоруке"
       watchlist: "Листа за погледати"
     order: 
@@ -612,20 +612,20 @@ sr-RS:
       goto_discussions: "Иди на дискусије"
       goto_watchlist: "Иди на листу за погледати"
       most_watched_genres: "Најгледанији жанрови"
-      rating_overview: 
+      rating_overview: "Преглед оцена"
       recent_activity: "Скорашња активност"
       recent_discussions: "Скорашње дискусије"
       total_edits: "Укупно измена"
-      total_ratings: 
-      upcoming_watchlist: 
+      total_ratings: "Просечно оцењено"
+      upcoming_watchlist: "Ускоро са листе за погледати"
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: "Моје оцене"
+        public: "Оцене корисника: %{username}"
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: 
+        logged_in: "Моје рецензије"
+        public: "Рецензије корисника %{username}"
+      ratings_by_year: "Оцене по годинама"
     recommendations:
       my_recommendations: "Моје препоруке"
       no_recommendations: "Немамо довољно података да би извршили препоруку."
@@ -652,7 +652,7 @@ sr-RS:
     external_href: "УРЛ"
     iso_3166_1: "Држава"
     iso_639_1: "Језик"
-    overview: 
+    overview: "Преглед"
     title: "Наслов"
   average edits per day: "просечних уређивања по дану"
   back_options:
@@ -669,17 +669,17 @@ sr-RS:
   content_score:
     helper_tooltip: 
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': "Од нечега мора да се крене..."
+      '1': "Хеј, није лоше за почетак."
+      '10': "Да! То изгледа добро!"
+      '2': "Надзире се крај."
+      '3': "Рим није саграђен за један дан..."
+      '4': "Не постоји „Ја“ у тиму..."
+      '5': "Остало је још мало посла."
+      '6': "Тако смо близу, а тако далеко."
+      '7': "Још само малчице..."
+      '8': "Дотерај то мало! Сада смо баш близу."
+      '9': "Још само мало..."
   date:
     abbr_day_names:
     - "Нед"
@@ -754,22 +754,23 @@ sr-RS:
   discussions:
     actions:
       actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      close_discussion: "Затвори дискусију"
+      make_private: "Начини приватним"
+      make_public: "Начини јавним"
+      mark_spam: "Означи као нежењено"
+      reopen_discussion: "Отвори поново дискусију"
+      stop_watching: "Прекини да пратиш"
+      view_activity: "Погледај активност"
+      watch: "Прати"
+    admin_panel: "Администраторски панел"
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Назад на %{item_title}"
+      back_to_tmdb_with_arrow: "← Назад на TMDb"
+      back_with_arrow: "← Назад"
     categories:
       categories: 
       discuss:
+        content_issues: 
         discuss: 
         general: 
       support:
@@ -791,12 +792,23 @@ sr-RS:
     new_discussion: 
     no_discussions: 
     pagination:
+      post_summary: 
       summary: 
     post:
+      delete: 
+      edit: 
+      ignore: 
       like: 
       posted_by_with_datetime: 
       quote: 
+      reopen_reply: 
+      reply: 
+      reply_by: 
+      reply_on_datetime: 
       report: 
+    statuses:
+      closed: 
+      open: 
     table_headers:
       last_reply: "Последњи одговор"
       replies: "Одговори"
@@ -1383,6 +1395,8 @@ sr-RS:
     one: "%{count} глас"
     other: "%{count} гласова"
   pagination:
+    currently_on: 
+    last_page: 
     load_more: 
     next_page: 
     next_page_with_arrow: 

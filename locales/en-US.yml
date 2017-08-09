@@ -773,6 +773,7 @@ en-US:
     categories:
       categories: Categories
       discuss:
+        content_issues: Content Issues
         discuss: Discuss
         general: General
       support:
@@ -794,14 +795,27 @@ en-US:
     new_discussion: New Discussion
     no_discussions: No discussions.
     pagination:
+      post_summary:
+        one: "%{count} reply (on page %{current_page} of %{total_pages})"
+        other: "%{count} replies (on page %{current_page} of %{total_pages})"
       summary:
         one: "%{count} discussion, currently on page %{current_page} of %{total_pages}"
         other: "%{count} discussions, currently on page %{current_page} of %{total_pages}"
     post:
+      delete: Delete
+      edit: Edit
+      ignore: Ignore
       like: Like
       posted_by_with_datetime: posted by %{username} on %{date} at %{time}
       quote: Quote
+      reopen_reply: Re-Open & Reply
+      reply: Reply
+      reply_by: Reply by %{username}
+      reply_on_datetime: on %{date} at %{time}
       report: Report
+    statuses:
+      closed: Closed
+      open: Open
     table_headers:
       last_reply: Last Reply
       replies: Replies
@@ -1387,6 +1401,8 @@ en-US:
     one: "%{count} vote"
     other: "%{count} votes"
   pagination:
+    currently_on: Currently on page %{current_page} of %{total_pages}
+    last_page: Last page
     load_more: Load More
     next_page: Next page
     next_page_with_arrow: Next page →
