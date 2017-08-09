@@ -781,7 +781,7 @@ pt-BR:
         api_support: Suporte da API
         content_issues: Problemas com conteúdo
         general: Geral
-        general_chat: 
+        general_chat: Chat geral
         moderator_talk: Discussões dos moderadores
         support: Suporte
         website_support: Suporte do site
@@ -792,31 +792,33 @@ pt-BR:
       subscribe: Inscrever
       unsubscribe: Cancelar inscrição
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
+      discuss: Discussões
+      discuss_item: Discussões sobre %{item_title}
+      lets_chat: Vamos conversar
+      support: Suporte
+      support_title: Suporte do The Movie Database
     login_to_be_notified: Entre com uma conta para receber uma notificação da primeira postagem.
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
+      community_guidelines: Diretrizes da Comunidade
+      discussion_category: Categoria
+      for_item: Para o item
       new_discussion: Nova discussão
-      subject: 
+      subject: Assunto
     no_discussions: Nenhuma discussão.
     pagination:
-      post_summary: 
+      post_summary:
+        one: "%{count} resposta (na página %{current_page} de %{total_pages})"
+        other: "%{count} respostas (na página %{current_page} de %{total_pages})"
       summary:
         one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
         other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
     post:
       delete: Deletar
       edit: Editar
-      ignore: 
-      like: 
-      posted_by_with_datetime: 
-      quote: 
+      ignore: Ignorar
+      like: Curtir
+      posted_by_with_datetime: postado por %{username} em %{date} às %{time}
+      quote: Citar
       reopen_reply: 
       reply: 
       reply_by: 
@@ -878,7 +880,7 @@ pt-BR:
     min: Filtrar por Data Lançamento (Mín)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Coloque o papo em dia.
       discussions: Discussões
     tv_shows:
       episode_airs:
@@ -1344,11 +1346,11 @@ pt-BR:
     public: '%{page_title} ainda não tem uma tradução para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Você pode contribuir com uma tradução <a href="%{signup_link}">criando uma conta</a> e <a href="%{login_link}">entrando</a>.com a mesma.'
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
+    clear: Limpar
+    good_job: Bom trabalho!
+    mark_all_as_read: Marcar todas como lidas
+    refresh: Atualizar
+    unread_notifications: Notificações não lidas
     view: 
   number:
     currency:
@@ -1410,8 +1412,8 @@ pt-BR:
     one: "%{count} voto"
     other: "%{count} votos"
   pagination:
-    currently_on: 
-    last_page: 
+    currently_on: Atualmente na página %{current_page} de %{total_pages}
+    last_page: "Última página"
     load_more: Carregar mais
     next_page: Próxima página
     next_page_with_arrow: Próxima página →
@@ -1431,7 +1433,7 @@ pt-BR:
     favorites_movie: Buscar nos filmes favoritos...
     favorites_tv: Buscar nas séries favoritas...
     media_types:
-      movie: 
+      movie: Filme
       person: Pessoa
       tv_show: Série
     rated_movie: Buscar nos filmes avaliados...
