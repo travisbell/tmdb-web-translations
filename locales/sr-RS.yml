@@ -565,7 +565,7 @@ sr-RS:
     average_movie_score: "Просечна<br>оцена филмова"
     average_tv_score: "Просечна<br>оцена серија"
     discussions:
-      my_active_boards: 
+      my_active_boards: "Моје активне теме"
       my_discussions: "Моје дискусије"
       not_watching: "Не пратиш ни једну дискусију"
     favorites:
@@ -605,7 +605,7 @@ sr-RS:
         logged_in: "Није било твојих скорашњих измена."
         public: 
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: "Нема предстојећих филмова на твојој листи за погледати."
       empty_watched_genres:
         logged_in: 
         public: 
@@ -768,56 +768,62 @@ sr-RS:
       back_to_tmdb_with_arrow: "← Назад на TMDb"
       back_with_arrow: "← Назад"
     categories:
-      categories: 
+      categories: "Категорије"
       discuss:
-        content_issues: 
-        discuss: 
-        general: 
+        content_issues: "Проблем са садржајем"
+        discuss: "Дискутуј"
+        general: "Опште"
       support:
         api_requests: 
         api_requests_(professional): 
         api_support: 
-        content_issues: 
-        general: 
+        content_issues: "Проблем са садржајем"
+        general: "Опште"
+        general_chat: 
         moderator_talk: 
-        support: 
-        website_support: 
+        support: "Подршка"
+        website_support: "Подршка за сајт"
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} у %{time}<br>од стране корисника: %{username}"
     email_notifications:
-      email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      email_notifications: "Имејл обавештење"
+      subscribe: "Пријави се"
+      unsubscribe: "Одјави се"
     headers:
-      discuss_item: 
+      discuss_item: "Дискутуј о %{item_title}"
       lets_chat: 
       support: 
     login_to_be_notified: 
-    new_discussion: 
-    no_discussions: 
+    new_discussion:
+      community_guidelines: 
+      discussion_category: "Категорија"
+      for_item: 
+      new_discussion: "Нова дискусија"
+      subject: 
+    no_discussions: "Нема дискусија."
     pagination:
       post_summary: 
       summary: 
     post:
-      delete: 
-      edit: 
-      ignore: 
-      like: 
+      delete: "Обриши"
+      edit: "Измени"
+      ignore: "Игнориши"
+      like: "Свиђа ми се"
       posted_by_with_datetime: 
-      quote: 
+      quote: "Цитирај"
       reopen_reply: 
-      reply: 
+      reply: "Одговори"
       reply_by: 
       reply_on_datetime: 
-      report: 
+      report: "Пријави"
     search:
-      advanced_search: 
+      advanced_search: "Напредна претрага"
       search_closed: 
-      search_forums: 
+      search_forums: "Претражи форуме..."
       search_open: 
     statuses:
-      closed: 
-      open: 
+      closed: "Затворено"
+      open: "Отворено"
     table_headers:
       last_reply: "Последњи одговор"
       replies: "Одговори"
@@ -869,9 +875,9 @@ sr-RS:
   homepage:
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: "Нова епизода се емитује за %{number_of_days} дана"
+        today: "Нова епизода се емитује данас"
+        tomorrow: "Нова епизода се емитује сутра"
   invalid_aspect_ratio: "Ова пропорција слике није исправна."
   item_count: 
   jobs:
@@ -1251,9 +1257,9 @@ sr-RS:
       discussions:
         currently_subscribed: 
         no_discussions: 
-        unsubscribe_me: 
+        unsubscribe_me: "Одјави ме."
         want_to_be_notified: 
-        yes_notify_me: 
+        yes_notify_me: "Да обавести ме!"
   month:
     few: "месеци"
     many: "месеци"
@@ -1262,7 +1268,7 @@ sr-RS:
   navigation:
     discover:
       discover: "Откриј"
-      movies: 
+      movies: "Филмови"
       tv_shows: "Серије"
     movies:
       now_playing: "Сада се приказује"
@@ -1332,12 +1338,12 @@ sr-RS:
     public: '%{page_title} још није преведен на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Можеш да додаш овај превод <a href="%{signup_link}">пријавом</a> за налог и <a href="%{login_link}">логовањем</a>.'
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    clear: "Обриши"
+    good_job: "Одличан посао!"
+    mark_all_as_read: "Означи све као прочитано"
+    refresh: "Освежи"
+    unread_notifications: "Непрочитана обавештења"
+    view: "Погледај"
   number:
     currency:
       format:
@@ -1405,9 +1411,9 @@ sr-RS:
     other: "%{count} гласова"
   pagination:
     currently_on: 
-    last_page: 
-    load_more: 
-    next_page: 
+    last_page: "Последња страница"
+    load_more: "Учитај још"
+    next_page: "Следећа страница"
     next_page_with_arrow: 
     previous_page: 
     previous_page_with_arrow: 
@@ -1443,7 +1449,7 @@ sr-RS:
       api: 
       navigation:
         create: 
-        details: 
+        details: "Детаљи"
         directory: 
         sessions: 
         stats: 
