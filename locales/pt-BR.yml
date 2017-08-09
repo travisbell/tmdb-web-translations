@@ -719,7 +719,7 @@ pt-BR:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e de %B de %Y"
-      short_month_day_year: 
+      short_month_day_year: "%d de %b de %Y"
     month_names:
     - 
     - Janeiro
@@ -766,13 +766,13 @@ pt-BR:
       watch: Acompanhar
     admin_panel: 
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Voltar para %{item_title}"
+      back_to_tmdb_with_arrow: "← Voltar ao TMDb"
+      back_with_arrow: "← Voltar"
     categories:
       categories: Categorias
       discuss:
-        content_issues: 
+        content_issues: Problemas com conteúdo
         discuss: Discutir
         general: Geral
       support:
@@ -786,7 +786,7 @@ pt-BR:
         support: Suporte
         website_support: Suporte do site
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} às %{time}<br>por %{username}"
     email_notifications:
       email_notifications: Notificações por e-mail
       subscribe: Inscrever
@@ -811,8 +811,8 @@ pt-BR:
         one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
         other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
     post:
-      delete: 
-      edit: 
+      delete: Deletar
+      edit: Editar
       ignore: 
       like: 
       posted_by_with_datetime: 
@@ -821,15 +821,15 @@ pt-BR:
       reply: 
       reply_by: 
       reply_on_datetime: 
-      report: 
+      report: Denunciar
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Busca avançada
+      search_closed: Buscar fechadas?
+      search_forums: Buscar nos fóruns...
+      search_open: Buscar abertas?
     statuses:
-      closed: 
-      open: 
+      closed: Fechada
+      open: Aberta
     table_headers:
       last_reply: Resposta mais recente
       replies: Respostas
@@ -838,7 +838,7 @@ pt-BR:
     users_in_discussion:
       no_subscribers: Nenhum inscrito
       users_in_discussion: Usuários nesta discussão
-    your_account: 
+    your_account: Sua conta
   dont_fallback: Nenhum
   edit:
     tooltips:
@@ -879,7 +879,7 @@ pt-BR:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: Discussões
     tv_shows:
       episode_airs:
         in_days: Novo episódio em %{number_of_days} dias
@@ -1432,8 +1432,8 @@ pt-BR:
     favorites_tv: Buscar nas séries favoritas...
     media_types:
       movie: 
-      person: 
-      tv_show: 
+      person: Pessoa
+      tv_show: Série
     rated_movie: Buscar nos filmes avaliados...
     rated_tv: Buscar nas séries avaliadas...
     recommendations_movie: Buscar nos filmes recomendados...
