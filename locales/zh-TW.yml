@@ -441,7 +441,7 @@ zh-TW:
   Sign Up: "註冊"
   Sign up for an account: "註冊帳號"
   Size: "尺寸"
-  Social: "社交"
+  Social: "社群"
   Sort: "排序"
   Sort By: "排序依"
   Sort Cast: "演員排序"
@@ -719,7 +719,7 @@ zh-TW:
       abbrev: "%Y 年 %m 月 %d 日"
       default: "%Y/%m/%d"
       full_month_day: "%Y 年 %m 月 %d 日"
-      short_month_day_year: 
+      short_month_day_year: "%b月 %d日, %年"
     month_names:
     - 
     - "一月"
@@ -753,59 +753,63 @@ zh-TW:
     Writing: "編劇"
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      actions: "動作"
+      close_discussion: "關閉討論"
+      make_private: "設定為私人討論串"
+      make_public: "設定為公開討論串"
+      mark_spam: "標記為垃圾發言"
+      reopen_discussion: "重新開放討論串"
+      stop_watching: "停止關注"
+      view_activity: "檢視活動"
+      watch: "檢視"
+    admin_panel: "控制面板"
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← 回到%{item_title}"
+      back_to_tmdb_with_arrow: "← 回到 TMDb"
+      back_with_arrow: "← 返回"
     categories:
-      categories: 
+      categories: "類別"
       discuss:
-        discuss: 
-        general: 
+        discuss: "討論"
+        general: "一般"
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        moderator_talk: 
-        support: 
-        website_support: 
+        api_requests: API 申請
+        api_requests_(professional): API 申請 (專業版)
+        api_support: API 支援
+        content_issues: "內容問題"
+        general: "一般"
+        moderator_talk: "主持人發言"
+        support: "支援"
+        website_support: "網站支援"
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: |-
+        %{username} 於 <br>
+        %{date} %{time} 時發言
     email_notifications:
-      email_notifications: 
-      subscribe: 
-      unsubscribe: 
-    login_to_be_notified: 
-    new_discussion: 
-    no_discussions: 
+      email_notifications: "郵件通知"
+      subscribe: "訂閱"
+      unsubscribe: "訂閱"
+    login_to_be_notified: "登錄以獲得有關第一篇文章的通知。"
+    new_discussion: "新的討論"
+    no_discussions: "沒有任何討論"
     pagination:
-      summary: 
+      summary:
+        one: "目前在第 %{current_page} / %{total_pages} 頁中，共有 %{count} 個討論串。"
+        other: "目前在第 %{current_page} / %{total_pages} 頁中，共有 %{count} 個討論串。"
     post:
-      like: 
-      posted_by_with_datetime: 
-      quote: 
-      report: 
+      like: "喜歡"
+      posted_by_with_datetime: "%{username} 於 %{date} %{time} 時張貼"
+      quote: "引用"
+      report: "報告"
     table_headers:
       last_reply: "最後的回應"
       replies: "回應"
       status: "狀態"
       subject: "主題"
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
-    your_account: 
+      no_subscribers: "無訂閱者"
+      users_in_discussion: "於本討論串內的用戶"
+    your_account: "你的帳戶"
   dont_fallback: "無 (不使用備用語言)"
   edit:
     tooltips:
@@ -1303,13 +1307,13 @@ zh-TW:
     logged_in: "目前%{page_title}尚未有<strong>%{requested_i18n} (%{requested_language_text})</strong>的翻譯。如果您有興趣新增此翻譯，請按下方的按鈕。"
     public: 目前%{page_title}尚未有<strong>%{requested_i18n} (%{requested_language_text})</strong>的翻譯。您可以透過<a href="%{signup_link}">註冊</a>一個帳號並<a href="%{login_link}">登入</a>以新增翻譯。
   notifications:
-    caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    caught_up: "看起來你都掌握了"
+    clear: "清除"
+    good_job: Good job!
+    mark_all_as_read: "將全部標記為已讀"
+    refresh: "重新整理"
+    unread_notifications: "未讀的通知"
+    view: "檢視"
   number:
     currency:
       format:
@@ -1361,11 +1365,11 @@ zh-TW:
   number_of_votes: "%{count} 個投票"
   pagination:
     load_more: "更多"
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
-    show_more: 
+    next_page: "下一頁"
+    next_page_with_arrow: "下一頁 →"
+    previous_page: "上一頁"
+    previous_page_with_arrow: "← 上一頁"
+    show_more: "更多"
   part_of_collection: "為%{collection_name}的一部分"
   password:
     confirm_new_password: "確認新密碼"
@@ -1528,7 +1532,7 @@ zh-TW:
   success_sharing: "已成功分享您的訊息。"
   time:
     formats:
-      12hour_minutes: 
+      12hour_minutes: "%l:%M%p"
   top_contributors: "傑出貢獻者"
   translation: "翻譯"
   upload_backdrop: "上傳佈景"
