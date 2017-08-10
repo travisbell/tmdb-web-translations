@@ -160,7 +160,7 @@ pl-PL:
   Duplicate: Duplikat
   Edit: Edytuj
   Edit App: Edycja aplikacji
-  Edit Data: 
+  Edit Data: Edycja danych
   Edit Data & Content: Edycja danych & treści
   Edit Page: Edytuj stronę
   Editing Content: Edycja treści
@@ -757,76 +757,82 @@ pl-PL:
       watch: Obserwuj
     admin_panel: Panel admina
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Wróć do %{item_title}"
+      back_to_tmdb_with_arrow: "← Wróć do TMDb"
+      back_with_arrow: "← Wróć"
     categories:
       categories: Kategorie
       discuss:
-        content_issues: 
-        discuss: 
-        general: 
+        content_issues: Problemy z treścią
+        discuss: Dyskusje
+        general: Ogólne
       support:
         api_requests: 
         api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        general_chat: 
+        api_support: Wsparcie API
+        content_issues: Problemy z treścią
+        general: Ogólne
+        general_chat: Ogólny czat
         moderator_talk: 
-        support: 
-        website_support: 
+        support: Wsparcie
+        website_support: Wsparcie strony
     category:
       last_reply_with_datetime: 
     email_notifications:
-      email_notifications: 
+      email_notifications: Powiadomienia e-mail
       subscribe: Subskrybuj
       unsubscribe: Odsubskrybuj
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
-    login_to_be_notified: 
+      discuss: Dyskusje
+      discuss_item: Dyskusje %{item_title}
+      lets_chat: Pogadajmy
+      support: Wsparcie
+      support_title: Wsparcie The Movie Database
+    login_to_be_notified: Zaloguj się, aby dostać powiadomienie o pierwszym poście.
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      community_guidelines: Wytyczne dla społeczności
+      discussion_category: Kategoria
+      for_item: Dla elementu
+      new_discussion: Nowa dyskusja
+      subject: Temat
+    no_discussions: Brak dyskusji.
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        few: ''
+        one: "%{count} odpowiedź (strona %{current_page} z %{total_pages})"
+        other: "%{count} odpowiedzi (strona %{current_page} z %{total_pages})"
+      summary:
+        few: ''
+        one: "%{count} dyskusja, strona %{current_page} z %{total_pages}"
+        other: "%{count} dyskusji, strona %{current_page} z %{total_pages}"
     post:
       delete: Usuń
       edit: Edytuj
       ignore: Ignoruj
-      like: 
-      posted_by_with_datetime: 
+      like: Lubię to
+      posted_by_with_datetime: stworzony przez %{username} %{date} o %{time}
       quote: Cytuj
-      reopen_reply: 
+      reopen_reply: Otwórz i odpowiedz
       reply: Odpowiedz
-      reply_by: 
-      reply_on_datetime: 
-      report: 
+      reply_by: Odpowiedź użytkownika %{username}
+      reply_on_datetime: "%{date} o %{time}"
+      report: Zgłoś
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Zaawansowane wyszukiwanie
+      search_closed: Wyszukiwać zamknięte wątki?
+      search_forums: Wyszukaj na forum...
+      search_open: Wyszukiwać otwarte wątki?
     statuses:
-      closed: 
-      open: 
+      closed: Zamknięty
+      open: Otwarty
     table_headers:
-      last_reply: 
-      replies: 
-      status: 
-      subject: 
+      last_reply: Ostatnia odpowiedź
+      replies: Odpowiedzi
+      status: Status
+      subject: Temat
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Brak subskrybentów
+      users_in_discussion: Użytkownicy w dyskusji
     your_account: Twoje konto
   dont_fallback: Brak (Nie ma zastepczej)
   edit:
@@ -872,9 +878,9 @@ pl-PL:
       discussions: Dyskusje
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Nowy odcinek za %{number_of_days} dni
+        today: Nowy odcinek dzisiaj
+        tomorrow: Nowy odcinek jutro
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.
   item_count: 
   jobs:
