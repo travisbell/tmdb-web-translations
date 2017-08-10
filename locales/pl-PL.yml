@@ -614,8 +614,8 @@ pl-PL:
       empty_upcoming_watchlist:
         logged_in: Nie ma nadchodzących filmów na twojej liście obserwowanych.
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: Nie oceniłeś żadnych filmów ani serialów.
+        public: "%{username} nie ocenił żadnych filmów ani serialów."
       goto_discussions: Idź do dyskusji
       goto_watchlist: Idź do listy obserwowanych
       most_watched_genres: Najczęściej oglądane gatunki
@@ -783,7 +783,7 @@ pl-PL:
         support: Wsparcie
         website_support: Wsparcie strony
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} o godz. %{time}<br>przez %{username}"
     email_notifications:
       email_notifications: Powiadomienia e-mail
       subscribe: Subskrybuj
@@ -816,12 +816,12 @@ pl-PL:
       edit: Edytuj
       ignore: Ignoruj
       like: Lubię to
-      posted_by_with_datetime: stworzony przez %{username} %{date} o %{time}
+      posted_by_with_datetime: stworzony przez %{username} %{date} o godz. %{time}
       quote: Cytuj
       reopen_reply: Otwórz i odpowiedz
       reply: Odpowiedz
       reply_by: Odpowiedź użytkownika %{username}
-      reply_on_datetime: "%{date} o %{time}"
+      reply_on_datetime: "%{date} o godz. %{time}"
       report: Zgłoś
     search:
       advanced_search: Zaawansowane wyszukiwanie
@@ -1355,7 +1355,7 @@ pl-PL:
     good_job: Dobra robota!
     mark_all_as_read: Zaznacz wszystkie jako przeczytane
     refresh: Odśwież
-    unread_notifications: Nieprzeczytane powiadomienia
+    unread_notifications: 'Powiadomienia:'
     view: Zobacz
   number:
     currency:
@@ -1465,9 +1465,9 @@ pl-PL:
       navigation:
         create: Stwórz
         details: Szczegóły
-        directory: 
-        sessions: 
-        stats: 
+        directory: Katalog
+        sessions: Sesje
+        stats: Staystyki
     blocked_users:
       action: Akcja
       blocked_users: Zablokowani użytkownicy
@@ -1529,9 +1529,9 @@ pl-PL:
       sharing_settings: Ustawienia udostępniania
       social_settings: Ustawienia społecznościowe
     notifications:
-      email_new_releases_watchlist: Powiadom e-mailem o nowych wydaniach z listy obserwowanych?
-      new_replies_to_threads_created: Automatycznie obserwuj wątki, które stworzyłem lub odpowiedziałem w nich?
-      new_replies_to_threads_watching: Powiadom e-mailem o nowych odpowiedziach w wątkach, które obserwuję?
+      email_new_releases_watchlist: Powiadom e-mailem o nowych wydaniach z listy obserwowanych.
+      new_replies_to_threads_created: Automatycznie obserwuj wątki, które stworzyłem lub odpowiedziałem w nich.
+      new_replies_to_threads_watching: Powiadom e-mailem o nowych odpowiedziach w wątkach, które obserwuję.
       notifications: Powiadomienia
     profile:
       accent_color: Motyw koloru
@@ -1578,7 +1578,7 @@ pl-PL:
       favorite_message_hint: 
       message_settings: Ustawienia wiadomości
       sharing_message_hint: 
-      social_settings: Ustawienia społeczności
+      social_settings: Ustawienia społecznościowe
       supported_template_values: 
   signup_text: Zarejestruj swoje konto, to jest darmowe i łatwe. Wypełnij poniższy formularz, aby rozpocząć
   success_approved_access_token: Uprawnienia przyznane!
