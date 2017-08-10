@@ -573,7 +573,7 @@ pl-PL:
     average_tv_score: "Średnia ocen<br>serialów"
     discussions:
       my_active_boards: Moje aktywne dyskusje
-      my_discussions: Moje rozmowy
+      my_discussions: Moje dyskusje
       not_watching: Nie obserwujesz żadnych dyskusji.
     favorites:
       my_favorites:
@@ -598,7 +598,7 @@ pl-PL:
         public: "%{username} nie posiada żadnych publicznych list."
     member_since: Użytkownik od %{date}
     navigation:
-      discussions: Rozmowy
+      discussions: Dyskusje
       favorites: Ulubione
       lists: Listy
       overview: Przegląd
@@ -621,7 +621,7 @@ pl-PL:
       most_watched_genres: Najczęściej oglądane gatunki
       rating_overview: Przegląd ocen
       recent_activity: Ostatnia aktywność
-      recent_discussions: Ostatnie rozmowy
+      recent_discussions: Ostatnie dyskusje
       total_edits: Wszystkich edycji
       total_ratings: Wszystkich ocen
       upcoming_watchlist: Nadchodzące z obserwowanych
@@ -687,21 +687,14 @@ pl-PL:
       '10': Wygląda całkiem dobrze!
       '2': Powolutku, aż do skutku.
       '3': Nie od razu Kraków zbudowano...
-      '4': 
+      '4': Bez pracy nie ma kołaczy.
       '5': Potrzeba jeszcze trochę pracy.
       '6': Tak blisko, a tak daleko...
       '7': Jeszcze tylko troszeczkę...
       '8': Jesteśmy już tak blisko!
       '9': Już prawie...
   date:
-    abbr_day_names:
-    - Nie
-    - Pon
-    - Wt
-    - "Śr"
-    - Cz
-    - Pt
-    - So
+    abbr_day_names: '["nie", "pon", "wt", "śr", "czw", "pt", "so"]'
     abbr_month_names: '[nil, "sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"]'
     day_names:
     - niedziela
@@ -714,8 +707,8 @@ pl-PL:
     formats:
       abbrev: "%-d %b %Y"
       default: "%d.%m.%Y"
-      full_month_day: "%e %B, %Y"
-      short_month_day_year: 
+      full_month_day: "%e %B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
     - 
     - stycznia
@@ -754,8 +747,8 @@ pl-PL:
     actions:
       actions: Akcje
       close_discussion: Zamknij dyskusję
-      make_private: 
-      make_public: 
+      make_private: Zmień na prywatny
+      make_public: Zmień na publiczny
       mark_spam: Oznacz jako spam
       reopen_discussion: Otwórz dyskusje
       stop_watching: Przestań obserwować
@@ -773,8 +766,8 @@ pl-PL:
         discuss: Dyskusje
         general: Ogólne
       support:
-        api_requests: 
-        api_requests_(professional): 
+        api_requests: "Żądania API"
+        api_requests_(professional): "Żądania API (dla profesjonalistów)"
         api_support: Wsparcie API
         content_issues: Problemy z treścią
         general: Ogólne
@@ -846,7 +839,7 @@ pl-PL:
       homepage: Tylko oficjalna strona. Fan Page są niedozwolone.
       original_title: Oryginalny tytuł powinien być wprowadzony w oryginalnym języku danego elementu. W większości przypadków będzie to zgodne z językiem wpisanym w polu "oryginalny język".
       overview: Pisząc ogólny opis, staraj się, aby był krótki, zwięzły i bez zbędnych komentarzy.
-      social_links: 
+      social_links: Strony społecznościowe muszą być oficjalne (zweryfikowane). Strony fanowskie nie są dozwolone.
   edit_list:
     add_edit_items: Dodaj/Edytuj pozycje
     choose_image: Wybór obrazu
@@ -880,7 +873,7 @@ pl-PL:
     min: Filtruj według daty wydania (min)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Rozmawiaj.
       discussions: Dyskusje
     tv_shows:
       episode_airs:
@@ -1269,7 +1262,7 @@ pl-PL:
   media:
     social_panel:
       discussions:
-        currently_subscribed: 
+        currently_subscribed: Obecnie masz zaznaczoną opcję otrzymywania powiadomień, gdy ktoś napisze pierwszy post.
         no_discussions: Nie ma obecnie żadnych dyskusji dla %{item_title}. Zaloguj się, aby stworzyć pierwszą dyskusję!
         unsubscribe_me: Odsubskrybuj mnie.
         want_to_be_notified: Chcesz być powiadomiony, gdy ktoś napisze pierwszego posta?
@@ -1575,11 +1568,11 @@ pl-PL:
         info: Informacja
         reload_text: Odśwież tę stronę, jeśli zautoryzowałeś swoje konto!
         service: Usługa
-      favorite_message_hint: 
+      favorite_message_hint: Gdy zaznaczasz element jako ulubiony i udostępniasz na Twitterze lub Facebooku...
       message_settings: Ustawienia wiadomości
-      sharing_message_hint: 
+      sharing_message_hint: Gdy udostępniasz element na Twitterze lub Facebooku...
       social_settings: Ustawienia społecznościowe
-      supported_template_values: 
+      supported_template_values: 'Obsługiwane wartości wzorów:'
   signup_text: Zarejestruj swoje konto, to jest darmowe i łatwe. Wypełnij poniższy formularz, aby rozpocząć
   success_approved_access_token: Uprawnienia przyznane!
   success_deleted: Wybrana pozycja została usunięta.
@@ -1594,8 +1587,8 @@ pl-PL:
   success_sharing: Twoja wiadomość została udostępniona.
   time:
     formats:
-      12hour_minutes: 
-  top_contributors: 
+      12hour_minutes: "%l:%M%p"
+  top_contributors: Najlepsi współtwórcy
   translation:
     few: tłumaczeń
     one: tłumaczenie
