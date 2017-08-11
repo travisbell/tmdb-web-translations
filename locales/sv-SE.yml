@@ -904,11 +904,11 @@ sv-SE:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Alla åldrar.
         '2':
-          meaning: 
+          meaning: Barn under 7 års ålder får i vuxet sällskap se en film från 7 års ålder.
         '3':
-          meaning: 
+          meaning: Barn över 7 års ålder får i vuxet sällskap se en film från 11 års ålder.
         '4':
           meaning: 
       US:
@@ -1203,7 +1203,7 @@ sv-SE:
     actions:
       actions: 
       close_discussion: 'Stäng Diskussion '
-      make_private: 
+      make_private: Gör Privat
       make_public: 
       mark_spam: 
       reopen_discussion: "Återöppna Diskussion"
@@ -1232,14 +1232,14 @@ sv-SE:
         support: 
         website_support: 
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} vid %{time}<br>av %{username}"
     email_notifications:
       email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      subscribe: Prenumerera
+      unsubscribe: 'Avsluta Prenumeration '
     headers:
-      discuss: 
-      discuss_item: 
+      discuss: Diskutera
+      discuss_item: Diskutera %{item_title}
       lets_chat: 
       support: 
       support_title: 
@@ -1252,19 +1252,23 @@ sv-SE:
       subject: "Ämne "
     no_discussions: Inga diskussioner.
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        one: "%{count} svar (på sida %{current_page} av %{total_pages})"
+        other: "%{count} svar (på sida %{current_page} av %{total_pages})"
+      summary:
+        one: "%{count} diskussion, nuvarande på sida %{current_page} av %{total_pages}"
+        other: "%{count} diskussioner, nuvarande på sida %{current_page} av %{total_pages}"
     post:
       delete: Ta bort
       edit: Redigera
       ignore: Ignorera
       like: Gilla
-      posted_by_with_datetime: 
-      quote: 
+      posted_by_with_datetime: Inlagt av %{username} den %{date} vid %{time}
+      quote: Citera
       reopen_reply: "Återöppna & Svara"
       reply: Svara
-      reply_by: 
-      reply_on_datetime: 
+      reply_by: Svar från %{username}
+      reply_on_datetime: den %{date} vid %{time}
       report: 'Rapportera '
     search:
       advanced_search: 
@@ -1280,8 +1284,8 @@ sv-SE:
       status: Status
       subject: "Ämne"
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Inga prenumeranter
+      users_in_discussion: Användare I Denna Diskussion
     your_account: Ditt Konto
   dont_fallback: 
   edit:
