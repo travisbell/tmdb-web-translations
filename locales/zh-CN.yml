@@ -32,7 +32,7 @@ zh-CN:
   Add New Season: "添加新季"
   Add New TV Show: "添加新剧集"
   Add Poster: "添加海报"
-  Add Profile: "添加资料"
+  Add Profile: "添加用户资料"
   Add Season Regular: "添加季固定演员"
   Add To Every Season?: "添加到所有季？"
   Add Video: "添加视频"
@@ -77,7 +77,7 @@ zh-CN:
   Best Match: "最佳匹配"
   Biography: "个人简介"
   Birthday: "生日"
-  Blocked Users: "拉黑用户"
+  Blocked Users: "被拉黑用户"
   Blog: "博客"
   Branding: "品牌"
   Budget: "预算"
@@ -273,7 +273,7 @@ zh-CN:
   Media: "媒体"
   Member since: "成员始于"
   Merge Keyword: "合并关键字"
-  Miniseries: 
+  Miniseries: "迷你剧"
   Missing A Biography: "缺少个人简介"
   Missing A Profile Image: "缺少个人资料图片"
   Mixed Compact View: "混合紧凑视图"
@@ -428,13 +428,13 @@ zh-CN:
   Season Specials: "季特别篇"
   Seasons: "季"
   Secondary Color: "次色"
-  See Episodes: 
+  See Episodes: "见剧集"
   Select One: "选择一个..."
   Select a category: "选择类别..."
   Selected Language: "选定语言"
   Send: "发送"
   Sessions: "会话"
-  Share: "共享"
+  Share: "分享"
   Sharing: "共享"
   Show: 
   Show More: "显示更多..."
@@ -555,15 +555,15 @@ zh-CN:
   Zip Code: "邮政编码"
   account_drop_down:
     discussions: "讨论"
-    edit_profile: "编辑资料"
+    edit_profile: "编辑用户资料"
     lists: "列表"
     logout: "注销"
     settings: "设置"
-    view_profile: "浏览资料"
+    view_profile: "浏览用户资料"
     watchlist: "观看列表"
   accounts:
-    average_movie_score: "平均<br>电影评分"
-    average_tv_score: "平均<br>剧集评分"
+    average_movie_score: "电影<br>平均评分"
+    average_tv_score: "剧集<br>平均评分"
     discussions:
       my_active_boards: "我的活跃讨论板"
       my_discussions: "我的讨论"
@@ -582,38 +582,38 @@ zh-CN:
       upcoming: "即将上映"
     lists:
       create_list: "创建列表"
-      last_updated: 
+      last_updated: "更新"
       my_lists:
         logged_in: "我的列表"
         public: "%{username} 的列表"
       no_lists:
         logged_in: "你还未创建任何列表。"
-        public: 
-    member_since: 
+        public: "%{username} 没有公开列表可供分享。"
+    member_since: "%{date} 加入为本网站会员。"
     navigation:
       discussions: "讨论"
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    order: 
+      favorites: "收藏"
+      lists: "列表"
+      overview: "概览"
+      ratings_reviews: "评分 & 影评"
+      recommendations: "推荐"
+      watchlist: "观看列表"
+    order: "排序："
     overview:
-      30_day_activity: 
+      30_day_activity: 30 天活跃
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: "你最近没有进行编辑。"
+        public: "%{username} 最近没有进行编辑。"
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: "你的观看列表中没有即将上映影片。"
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: "你尚未登录任何电影或剧集。"
+        public: "%{username} 尚未登录任何电影或剧集。"
       goto_discussions: "进入讨论"
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
+      goto_watchlist: "进入观看列表"
+      most_watched_genres: "最多观看类型"
+      rating_overview: "评分总览"
+      recent_activity: "最近活跃"
       recent_discussions: "最近讨论"
       total_edits: "编辑总数"
       total_ratings: "评分总数"
@@ -644,7 +644,7 @@ zh-CN:
         other: "虽然你的观看列表有 %{count} 个项目，但其中没有即将播出剧集。"
       this_month: "本月"
       this_week: "本周"
-      view_them: 
+      view_them: "浏览它们。"
   add_to_list: "添加 %{media_title} 到你的列表..."
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
@@ -660,30 +660,30 @@ zh-CN:
     title: "标题"
   average edits per day: "日均编辑"
   back_options:
-    episode: 
-    episode_list: 
+    episode: "返回集"
+    episode_list: "返回集列表"
     home: 
-    main: 
-    season: 
-    season_list: 
-    top: 
+    main: "返回主页面"
+    season: "返回季"
+    season_list: "返回季列表"
+    top: "返回顶端"
   change_email_text: "如果你想改变你的电子邮箱，在下面输入一个新的电子邮箱。你需要通过点击我们发送到你的新邮箱的邮件中的激活链接验证新邮箱，然后才能登录。"
   collection_includes: "包括 %{movie_titles}"
   confirm_delete: "确定删除此记录吗？"
   content_score:
-    helper_tooltip: 
+    helper_tooltip: "内容分值帮你了解一个项目在数据库中的资料完整性情况。"
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': "等待开始..."
+      '1': "嗨，这是个开始。"
+      '10': "好！非常好！"
+      '2': "我们有进展了。"
+      '3': "罗马不是一天建成的..."
+      '4': "让我来贡献力量..."
+      '5': "还需再加把劲。"
+      '6': "成功在望了。"
+      '7': "只差一点点..."
+      '8': "加油！成功就在眼前。"
+      '9': "马上要成功了..."
   date:
     abbr_day_names:
     - "周日"
@@ -719,7 +719,7 @@ zh-CN:
       abbrev: "%Y年%m月%d日"
       default: "%Y-%m-%d"
       full_month_day: "%Y年%m月%d日"
-      short_month_day_year: 
+      short_month_day_year: "%Y-%m-%d"
     month_names:
     - 
     - "一月"
@@ -770,7 +770,7 @@ zh-CN:
     categories:
       categories: "分类"
       discuss:
-        content_issues: 
+        content_issues: "内容问题"
         discuss: "讨论"
         general: "一般问题"
       support:
@@ -779,7 +779,7 @@ zh-CN:
         api_support: API 支持
         content_issues: "内容问题"
         general: "一般问题"
-        general_chat: 
+        general_chat: "一般问题聊天"
         moderator_talk: "板务交流"
         support: "支持"
         website_support: "网站支持"
@@ -790,44 +790,46 @@ zh-CN:
       subscribe: "订阅"
       unsubscribe: "退订"
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
+      discuss: "讨论"
+      discuss_item: "讨论 %{item_title}"
+      lets_chat: "来聊天"
+      support: "支持"
+      support_title: "电影数据库支持"
     login_to_be_notified: "登录以获得新贴通知。"
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
+      community_guidelines: "社区指南"
+      discussion_category: "类别"
+      for_item: "针对项目"
       new_discussion: "新讨论"
-      subject: 
+      subject: "主题"
     no_discussions: "无讨论"
     pagination:
-      post_summary: 
+      post_summary:
+        one: "%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
+        other: "%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
       summary:
         one: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
         other: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
     post:
-      delete: 
-      edit: 
-      ignore: 
+      delete: "删除"
+      edit: "编辑"
+      ignore: "忽略"
       like: "喜欢"
       posted_by_with_datetime: "%{username} 发贴于 %{date} 的 %{time}"
       quote: "引用"
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
+      reopen_reply: "重开 & 回复"
+      reply: "回复"
+      reply_by: "%{username} 的回复"
+      reply_on_datetime: "于 %{date} 的 %{time}"
       report: "报告"
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: "高级搜索"
+      search_closed: "搜索关闭？"
+      search_forums: "搜索论坛..."
+      search_open: "搜索打开？"
     statuses:
-      closed: 
-      open: 
+      closed: "关闭"
+      open: "打开"
     table_headers:
       last_reply: "最后回复"
       replies: "回复"
@@ -874,13 +876,13 @@ zh-CN:
     min: "按发布日期筛选（最小）"
   homepage:
     discussions:
-      catch_up_now: 
-      discussions: 
+      catch_up_now: "快来吧。"
+      discussions: "讨论"
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: "%{number_of_days} 天内播出的新集"
+        today: "今日播出的新集"
+        tomorrow: "明日播出的新集"
   invalid_aspect_ratio: "此宽高比无效。"
   item_count:
     one: "%{count} 项"
@@ -1268,7 +1270,7 @@ zh-CN:
   navigation:
     discover:
       discover: "发现"
-      movies: 
+      movies: "电影"
       tv_shows: "剧集"
     movies:
       now_playing: "正在上映"
@@ -1338,12 +1340,12 @@ zh-CN:
     public: '%{page_title}还没有翻译为<strong>%{requested_i18n} (%{requested_language_text})</strong>。你可以<a href="%{signup_link}">注册</a>一个帐号<a href="%{login_link}">登录</a>后添加翻译版本。'
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    clear: "清除"
+    good_job: "做得好！"
+    mark_all_as_read: "全部标记为已读"
+    refresh: "刷新"
+    unread_notifications: "未读通知"
+    view: "浏览"
   number:
     currency:
       format:
@@ -1394,14 +1396,14 @@ zh-CN:
   number_of_translations: "%{count} 翻译"
   number_of_votes: "%{count} 投票"
   pagination:
-    currently_on: 
-    last_page: 
-    load_more: 
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
-    show_more: 
+    currently_on: "当前第 %{current_page} 页，共 %{total_pages} 页"
+    last_page: "末页"
+    load_more: "载入更多"
+    next_page: "下一页"
+    next_page_with_arrow: "下一页 →"
+    previous_page: "上一页"
+    previous_page_with_arrow: "← 上一页"
+    show_more: "显示更多"
   part_of_collection: "%{collection_name} 之一"
   password:
     confirm_new_password: "确认新密码"
@@ -1415,9 +1417,9 @@ zh-CN:
     favorites_movie: "搜索电影收藏..."
     favorites_tv: "搜索剧集收藏..."
     media_types:
-      movie: 
-      person: 
-      tv_show: 
+      movie: "电影"
+      person: "人物"
+      tv_show: "剧集"
     rated_movie: "搜索已投票电影..."
     rated_tv: "搜索相关剧集..."
     recommendations_movie: "搜索你的个人推荐电影..."
@@ -1431,44 +1433,44 @@ zh-CN:
     to_air: "%{show_name} 的第 %{season_number} 季首播日期设为 %{date}。"
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: "帐号设置"
+      change_password: "修改密码？"
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: "创建"
+        details: "详细内容"
+        directory: "目录"
+        sessions: "会话"
+        stats: "状态"
     blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      action: "动作"
+      blocked_users: "被拉黑用户"
+      no_blocked: "你未拉黑任何用户。"
+      username: "用户名"
     connected_apps:
-      connected_apps: 
-      listed_below_explanation: 
-      no_apps: 
+      connected_apps: "已连接应用"
+      listed_below_explanation: "以下列出了你授权代表你写入数据的第三方应用程序。你可以随时撤销这些授权。"
+      no_apps: "未连接任何应用到你的帐号。"
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: "动作"
+        application_name: "应用名称"
+        date_authorised: "授权日期"
     delete_account:
-      delete_account: 
+      delete_account: "删除帐号"
       summary_text: 
     import_list:
-      import_button: 
-      import_list: 
+      import_button: "导入"
+      import_list: "导入列表"
       navigation:
-        import: 
-        previous: 
+        import: "导入"
+        previous: "前一导入"
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
-        no_imports: 
+        date: "日期"
+        imported: "已导入"
+        items: "项目"
+        local_list: "本地列表"
+        no_imports: "你未导入任何列表。"
         type: 
       results:
         complete:
@@ -1491,21 +1493,21 @@ zh-CN:
       which_list: 
     navigation:
       account_settings: 
-      api: 
-      blocked_users: 
-      connected_apps: 
-      delete_account: 
-      edit_profile: "编辑资料"
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      api: API
+      blocked_users: "被拉黑用户"
+      connected_apps: "已连接应用"
+      delete_account: "删除帐户"
+      edit_profile: "编辑用户资料"
+      import_list: "导入列表"
+      notification_settings: "通知设置"
+      settings: "设置"
+      sharing_settings: "共享设置"
+      social_settings: "社交设置"
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      notifications: 
+      email_new_releases_watchlist: "我的观看列表项目发行时给我发邮件？"
+      new_replies_to_threads_created: "自动关注我创建的帖子及回复的帖子？"
+      new_replies_to_threads_watching: "我关注的帖子有新回复时给我发邮件？"
+      notifications: "通知"
     profile:
       accent_color: "强调色"
       avatar:
@@ -1523,22 +1525,22 @@ zh-CN:
         upload_window_tip: "使用下面的选择器上传你的头像。你的图片将自动裁剪成正方形。"
         use_gravatar: "使用 Gravatar？"
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: "背景图片"
+        remove_background: "删除你的背景图片？"
+        set_image: "设置背景图片？"
+      edit_profile: "编辑用户资料"
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: "收藏列表设置"
+        share_on_twitter: "新收藏分享到推特？"
+        share_publicly: "公开分享此列表？"
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: "已评分列表设置"
+        share_publicly: "公开分享此列表？"
+      sharing_settings: "分享设置"
       watchlist:
         remove_when_rated: 
-        watchlist_settings: 
+        watchlist_settings: "观看列表设置"
     social:
       connected_table:
         action: 
