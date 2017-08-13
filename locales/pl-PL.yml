@@ -198,7 +198,7 @@ pl-PL:
   Featurettes: "Średniometrażowe"
   Female: Kobieta
   Filter: Filtruj
-  Filter Profanity?: Filtr według wulgaryzmów
+  Filter Profanity?: Filtrować wulgaryzmy?
   Filter by genre: Filtruj według gatunku
   Filter by genres: Filtruj według gatunków
   Filter by keywords: Filtruj według słów kluczowych
@@ -595,7 +595,7 @@ pl-PL:
         public: Listy użytkownika %{username}
       no_lists:
         logged_in: Nie stworzyłeś żadnych list.
-        public: "%{username} nie posiada żadnych publicznych list."
+        public: Użytkownik %{username} nie posiada żadnych publicznych list.
     member_since: Użytkownik od %{date}
     navigation:
       discussions: Dyskusje
@@ -610,12 +610,12 @@ pl-PL:
       30_day_activity: 30-dniowa aktywność
       empty_recent_activity:
         logged_in: Ostatnio nic nie edytowałeś.
-        public: "%{username} ostatnio nic nie edytował."
+        public: Użytkownik %{username} ostatnio nic nie edytował.
       empty_upcoming_watchlist:
         logged_in: Nie ma nadchodzących filmów na twojej liście obserwowanych.
       empty_watched_genres:
         logged_in: Nie oceniłeś żadnych filmów ani serialów.
-        public: "%{username} nie ocenił żadnych filmów ani serialów."
+        public: Użytkownik %{username} nie ocenił jeszcze żadnych filmów ani serialów.
       goto_discussions: Przejdź do dyskusji
       goto_watchlist: Przejdź do obserwowanych
       most_watched_genres: Najczęściej oglądane gatunki
@@ -820,123 +820,123 @@ pl-PL:
           meaning: Może być pokazywany tylko w kinach dla dorosłych lub sprzedawany w licencjonowanych sex-shopach. Tylko dla dorosłych. Filmy z tą klasyfikacją zawierają hard-core'ową pornografię i przemoc.
       IN:
         '0':
-          meaning: 
+          meaning: Nieograniczona możliwość publicznych pokazów w całych Indiach dla wszystkich grup wiekowych. Filmy z tą klasyfikacją nie powinny niepokoić dzieci powyżej 4 lat. Takie filmy mogą zawierać motywy edukacyjne, społeczne lub związane z rodziną. Filmy z tą klasyfikacją mogą zawierać również przemoc w świecie fantasy i/lub umiarkowanie niegrzeczny język.
         '1':
-          meaning: 
+          meaning: Dozwolony dla każdego wieku, ale rekomenduje się aby dzieci poniżej 12 lat oglądały w towarzystwie rodzica, jako że motywy lub treści mogą być niewłaściwe dla małych dzieci. Filmy z tą klasyfikacją mogą zawierać motywy dla dorosłych, odniesienia do seksu, przemoc z krwią i/lub okazjonalnie wulgarny język.
         '2':
-          meaning: 
+          meaning: Tylko dla dorosłych (18+ lat). Nikt poniżej wieku 18 lat nie może kupować ani wypożyczać takiego filmu na DVD, VHS, Blu-Ray lub oglądać go w kinie. Filmy z tą klasyfikacją mogą zawierać drastyczne motywy dla dorosłych, częsty wulgarny język, brutalną przemoc i krew, wyraźne sceny seksu i/lub sceny nadużywania narkotyków.
       MY:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Dla osób powyżej 13 lat, chyba że film jest oglądany w obecności osoby dorosłej. Sceny całowania niedozwolone dla tej klasyfikacji.
         '3':
-          meaning: 
+          meaning: Film może zawierać brutalną przemoc, krew i sceny horroru/terroru.
         '4':
-          meaning: 
+          meaning: Filmy może zawierać sceny seksu, nagości i dialogów / odniesień nawiązujących do seksu.
         '5':
-          meaning: 
+          meaning: Film może zawierać motywy religijne, społeczne lub polityczne.
         '6':
-          meaning: 
+          meaning: Film może zawierać zawierać brutalną przemoc, krew, sceny horroru/terroru, sceny seksu, nagości, dialogi / odniesienia nawiązujące do seksu; motywy religijne, społeczne lub polityczne. Większość filmów dla dorosłych używa tej klasyfikacji.
       NL:
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Potencjalnie szkodliwy dla dzieci poniżej 6 lat.
         '3':
-          meaning: 
+          meaning: Potencjalnie szkodliwy dla dzieci poniżej 9 lat.
         '4':
-          meaning: 
+          meaning: Potencjalnie szkodliwy dla dzieci poniżej 12 lat. Transmitowanie niedozwolone przed godziną 20:00.
         '5':
-          meaning: 
+          meaning: Potencjalnie szkodliwy dla dzieci poniżej 16 lat. Transmitowanie niedozwolone przed godziną 22:00.
       'NO':
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Od 6 lat. Bez ograniczeń, jeśli oglądany w towarzystwie osoby dorosłej.
         '3':
-          meaning: 
+          meaning: Od 9 lat. Od 6 lat, jeśli oglądany w towarzystwie osoby dorosłej.
         '4':
-          meaning: 
+          meaning: Od 12 lat. Od 9 lat, jeśli oglądany w towarzystwie osoby dorosłej.
         '5':
-          meaning: 
+          meaning: Od 15 lat. Od 12 lat, jeśli oglądany w towarzystwie osoby dorosłej.
         '6':
-          meaning: 
+          meaning: Tylko dla dorosłych (18+ lat).
       NZ:
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Dla młodych widzów rekomendowane oglądanie z osobą dorosłą.
         '3':
-          meaning: 
+          meaning: Rekomendowany dla osób powyżej 16 lat. Mimo to, bez ograniczeń wiekowych.
         '4':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 13 lat.
         '5':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 15 lat.
         '6':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 16 lat.
         '7':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 18 lat.
         '8':
-          meaning: 
+          meaning: Dozwolony tylko dla określonej grupy osób lub/i dla konkretnych celów.
       PH:
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Osoby poniżej 13 lat mogą oglądać tylko w towarzystwie rodzica lub dorosłego opiekuna.
         '3':
-          meaning: 
+          meaning: Tylko dla widzów powyżej 13 lat.
         '4':
-          meaning: 
+          meaning: Tylko dla widzów powyżej 16 lat.
         '5':
-          meaning: 
+          meaning: Tylko dla widzów powyżej 18 lat.
         '6':
-          meaning: 
+          meaning: Niedozwolone publiczne pokazy.
       PT:
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych. Film stworzony z myślą o dzieciach poniżej 3 lat.
         '2':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 3 lat.
         '3':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 6 lat.
         '4':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 12 lat.
         '5':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 14 lat.
         '6':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 16 lat.
         '7':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 18 lat.
         '8':
-          meaning: 
+          meaning: Specjalna klasyfikacja dodawana do M/18. Film zawiera pornografię.
       SE:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Dla osób powyżej 7 lat. Osoby poniżej 7 lat mogą oglądać tylko w towarzystwie dorosłego opiekuna.
         '3':
-          meaning: 
+          meaning: Dla osób powyżej 11 lat. Osoby poniżej 7 lat mogą oglądać tylko w towarzystwie dorosłego opiekuna.
         '4':
-          meaning: 
+          meaning: Dla osób powyżej 15 lat.
       US:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych. Nie posiada treści, które byłyby niepożądane przez większość rodziców. To jest jedna z dwóch klasyfikacji sięgających roku 1968, która istnieje do dziś.
         '2':
-          meaning: 
+          meaning: Niektóre sceny mogą być nieodpowiednie dla dzieci poniżej 10 lat. Takie filmy mogą zawierać łagodnie wulgarny język, niegrzeczny / sugestywny humor, straszne momenty i/lub przemoc. W filmie nie ma narkotyków. Jest kilka odstępstw od tej zasady. Może zawierać kilka rasowych obelg.
         '3':
-          meaning: 
+          meaning: Niektóre sceny mogą być nieodpowiednie dla dzieci poniżej 13 lat. Filmy z tą klasyfikacją mogą zawierać treści z seksem, lakoniczną lub częściową nagością, wulgarnym językiem i insynuacjami, humorem, motywami dla dorosłych, polityką, terrorem i/lub dosadną akcją z przemocą. Mimo to, krew występuje rzadko. To jest najniższa klasyfikacja, która pozwala na występowanie narkotyków.
         '4':
-          meaning: 
+          meaning: Osoby poniżej 17 lat mogą oglądać z rodzicem lub opiekunem, który ma co najmniej 21 lat i jest obecny przez cały seans. Takie filmy mogą zawierać bluźnierstwo, graficzne sceny z seksem, nagość, brutalną przemoc, sceny horroru, krwi i używania twardych narkotyków. Film sklasyfikowany jako "R for profanity" często zawiera mocniejszy język niż PG-13 pozwala. Film z klasyfikacją R może zawierać więcej krwi, używania narkotyków, nagości i graficznego przedstawienia seksu niż PG-13 pozwala.
         '5':
-          meaning: 
+          meaning: Te filmy zawierają dużo graficznej przemocy, dokładne sceny seksu, deprawacje, obrzydliwe zachowanie, nadużywanie narkotyków, wulgarny język, dokładne przedstawienie nagości lub inne elementy, które w tych czasach większość rodziców uznałaby za zbyt mocne do oglądania przez ich dzieci. NC-17 niekoniecznie oznacza pornografię w legalnym tego słowa znaczeniu.
     tv_series:
       AU:
         '1':
@@ -957,175 +957,175 @@ pl-PL:
           meaning: Dla dorosłych (18+); tylko dla programów "Pay Per View" VC 196 i 197. Treści mogą zawierać przemoc, seks, wulgarny język i stosowanie narkotyków.
       BR:
         '0':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '1':
-          meaning: 
+          meaning: Dla widzów powyżej 10 lat.
         '2':
-          meaning: 
+          meaning: Dla widzów powyżej 12 lat.
         '3':
-          meaning: 
+          meaning: Dla widzów powyżej 14 lat.
         '4':
-          meaning: 
+          meaning: Dla widzów powyżej 16 lat.
         '5':
-          meaning: 
+          meaning: Dla widzów powyżej 18 lat.
       CA:
         '0':
-          meaning: 
+          meaning: Programy zwolnione z klasyfikacji (takie jak wiadomości i sport) nie wyświetlą klasyfikacji na ekranie.
         '1':
-          meaning: 
+          meaning: Odpowiedni dla dzieci w wieku 2-7 lat. Brak treści wulgarnych i odniesień do seksu. Zawiera trochę przemocy.
         '2':
-          meaning: 
+          meaning: Odpowiedni dla dzieci powyżej 8 lat. Dozwolony niski poziom i horroru w świecie fantasy. Wulgaryzmy niedozwolone, aczkolwiek okazjonalnie "społecznie obraźliwy i dyskryminujący" język jest dozwolony, w ramach kontekstu. Brak odniesień do seksu.
         '3':
-          meaning: 
+          meaning: Odpowiedni dla każdej grupy wiekowej. Odpowiedni dla całej rodziny, może zawierać łagodną przemoc i cenzurowane wulgaryzmy.
         '4':
-          meaning: 
+          meaning: Pod opieką dorosłych. Przemoc i wulgaryzmy są dozwolone, jak też okazjonalna nagość i odniesienia do seksu, w ramach kontekstu.
         '5':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 14 lat. Może zawierać mocne sceny przemoc, łagodne sceny seksu, w ramach kontekstu.
         '6':
-          meaning: 
+          meaning: Dozwolony dla osób powyżej 18 lat. Może zawierać dokładne sceny przemocy i seksu. Programy z tą klasyfikacją nie mogą być transmitowane poza ramą czasową, tj. 21:00 - 6:00.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Odpowiedni dla każdej grupy wiekowej. Może zawierać małe ilości przemocy i odniesień do seksu.
         '2':
-          meaning: 
+          meaning: Odpowiedni dla dzieci powyżej 8 lat, jako że może zawierać małe ilości przemocy, brzydkiego języka i małe ilości odniesień do seksu.
         '3':
-          meaning: 
+          meaning: Odpowiedni dla dzieci powyżej 13 lat, jako że może zawierać przemoc, wulgaryzmy i odniesienia do seksu.
         '4':
-          meaning: 
+          meaning: Rekomendowany dla osób powyżej 16 lat, jako że może zawierać brutalną przemoc, wulgaryzmy i mocne odniesienia do seksu.
         '5':
-          meaning: 
+          meaning: Tylko dla dorosłych, jako że może zawierać bardzo brutalną przemoc i obrazowe sceny seksu. Klasyfikacja używana głównie dla filmów 18+ i pornografii.
       DE:
         '0':
-          meaning: 
+          meaning: Może być transmitowany o każdej porze.
         '1':
-          meaning: 
+          meaning: Może być transmitowany o każdej porze.
         '2':
-          meaning: 
+          meaning: Nadawca ponosi odpowiedzialność za porę transmisji, biorąc pod uwagę ilość widzów w postaci dzieci pomiędzy 6:00 a 20:00.
         '3':
-          meaning: 
+          meaning: Może być transmitowany tylko od 22:00 do 6:00.
         '4':
-          meaning: 
+          meaning: Może być transmitowany tylko od 23:00 do 6:00.
       FR:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Nierekomendowany dla dzieci poniżej 10 lat. Niedozwolony w ramówkach dla dzieci.
         '2':
-          meaning: 
+          meaning: Nierekomendowany dla dzieci poniżej 12 lat. Transmisja niedozwolona przed godziną 22:00. Niektóre kanały i programy mogą stanowić wyjątek.
         '3':
-          meaning: 
+          meaning: Nierekomendowany dla dzieci poniżej 16 lat. Transmisja niedozwolona przed godziną 22:30. Niektóre kanały i programy mogą stanowić wyjątek.
         '4':
-          meaning: 
+          meaning: Nierekomendowany dla osób poniżej 18 lat. Transmisja tylko pomiędzy północą a 5:00 i tylko na niektórych kanałach, do których dostęp jest zablokowany przez hasło.
       GB:
         '0':
-          meaning: 
+          meaning: Odpowiedni dla osób powyżej 4 lat.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych, lecz niektóre sceny mogą być nieodpowiednie dla małych dzieci. Ta klasyfikacja mówi, że film jest odpowiedni dla dzieci powyżej około 8 lat.
         '2':
-          meaning: 
+          meaning: Odpowiedni dla dzieci powyżej 12 lat. 12A pozwala na oglądanie osobom poniżej 12 lat w towarzystwie osoby dorosłej.
         '3':
-          meaning: 
+          meaning: Odpowiedni dla dzieci powyżej 12 lat.
         '4':
-          meaning: 
+          meaning: 'Dozwolony od 15 lat. '
         '5':
-          meaning: 
+          meaning: Tylko dla dorosłych.
         '6':
-          meaning: 
+          meaning: Tylko dla dorosłych. Zawiera wyraźne sceny seksu.
       KR:
         '0':
-          meaning: 
+          meaning: Ta klasyfikacja jest skierowana dla teleturniejów; programów lifestyle'owych; programów dokumentalnych; wiadomości; programów talk-show; programów kulturowych/edukacyjnych; wydarzeń sportowych oprócz MMA i innych sportów nawiązujących do przemocy; innych programów, które Koreańska Komisja Standardów Komunikacji uznaje za stosowne.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych. Program zazwyczaj jest stworzony z myślą o dzieciach i rodzinie.
         '2':
-          meaning: 
+          meaning: Nieodpowiedni dla dzieci młodszych niż 7, które mogą oglądać tylko przy obecności rodzica. Do tej klasyfikacji zaliczają się niektóre bajki nieznane jako "edukacyjne" i filmy zaklasyfikowane jako "G", "PG" w Ameryce Północnej.
         '3':
-          meaning: 
+          meaning: Nieodpowiedni dla dzieci młodszych niż 12 lat, które mogą oglądać tylko przy obecności rodzica. Zazwyczaj zawiera animacje, które przedstawiają przemoc lub mocniejsze motywy, takie jak umiarkowanie brzydki język.
         '4':
-          meaning: 
+          meaning: Nieodpowiedni dla dzieci młodszych niż 15 lat, które mogą oglądać tylko przy obecności rodzica. Większość serialów telewizyjnych i programów talk-show należy do tej klasyfikacji. Programy mogą zawierać silne motywy dla dorosłych, wulgaryzmy, odniesienia do seksu i przemoc.
         '5':
-          meaning: 
+          meaning: Tylko dla dorosłych (19+). Programy nie mogą być transmitowane pomiędzy 7:00 a 9:00 i pomiędzy 13:00 a 20:00. Takie programy zawierają zazwyczaj motywy dla dorosłych, seks, częste wulgaryzmy i brutalną przemoc.
       NL:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Dzieci poniżej 6 lat pod opieką rodzica.
         '3':
-          meaning: 
+          meaning: Dzieci poniżej 9 lat pod opieką rodzica.
         '4':
-          meaning: 
+          meaning: Dzieci poniżej 12 lat pod opieką rodzica.
         '5':
-          meaning: 
+          meaning: Dzieci poniżej 16 lat pod opieką rodzica.
       PT:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Nieodpowiedni dla dzieci poniżej 10 lat, chyba że oglądany w towarzystwie osoby dorosłej.
         '3':
-          meaning: 
+          meaning: Nieodpowiedni dla dzieci poniżej 12 lat, chyba że oglądany w towarzystwie osoby dorosłej.
         '4':
-          meaning: 
+          meaning: Nieodpowiedni dla osoby poniżej 16 lat. Dostęp do tych programów powinien być zablokowany przez hasło.
         '5':
-          meaning: 
+          meaning: Nieodpowiedni dla osób poniżej 18 lat.
       RU:
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Tylko dla dzieci powyżej 6 lat.
         '3':
-          meaning: 
+          meaning: Tylko dla dzieci powyżej 12 lat.
         '4':
-          meaning: 
+          meaning: Tylko dla osób powyżej 16 lat.
         '5':
-          meaning: 
+          meaning: Tylko dla dorosłych.
       SK:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Treści odpowiednie dla osób powyżej 7 lat.
         '3':
-          meaning: 
+          meaning: Treści odpowiednie dla osób powyżej 12 lat.
         '4':
-          meaning: 
+          meaning: Treści odpowiednie dla osób powyżej 15 lat.
         '5':
-          meaning: 
+          meaning: Tylko dla dorosłych.
       TH:
         '0':
-          meaning: 
+          meaning: Edukacyjne filmy, do których opinia publiczna powinna zachęcać.
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych. Brak seksu, brzydkiego języka i przemocy.
         '2':
-          meaning: 
+          meaning: Odpowiedni dla osób powyżej 13 lat.
         '3':
-          meaning: 
+          meaning: Odpowiedni dla osób powyżej 15 lat. Może występować przemoc, brutalność, nieludzkość, wulgaryzmy i nieprzyzwoite gesty.
         '4':
-          meaning: 
+          meaning: Tylko dla osób powyżej 18 lat.
         '5':
-          meaning: 
+          meaning: Niedozwolone dla osób poniżej 20 lat.
         '6':
-          meaning: 
+          meaning: Niedozwolony.
       US:
         '0':
-          meaning: 
+          meaning: Brak informacji o klasyfikacji.
         '1':
-          meaning: 
+          meaning: Ten program jest stworzony z myślą o dzieciach.
         '2':
-          meaning: 
+          meaning: Ten program jest stworzony z myślą o dzieciach powyżej 7 lat.
         '3':
-          meaning: 
+          meaning: Większość rodziców uznałaby ten program za odpowiedni dla wszystkich grup wiekowych.
         '4':
-          meaning: 
+          meaning: Ten program zawiera treści, które rodzice mogą uznać za nieodpowiednie dla małych dzieci.
         '5':
-          meaning: 
+          meaning: Ten program zawiera treści, które wielu rodziców uznałoby za nieodpowiednie dla dzieci poniżej 14 lat.
         '6':
-          meaning: 
+          meaning: Ten program jest skierowany głównie do dorosłych i jest nieodpowiedni dla osób poniżej 17 lat.
   change_email_text: Jeśli chcesz zmienić swój adres e-mail, wprowadź nowy adres e-mail w polu poniżej. Zanim będzie mógł zalogować się ponownie, będziesz musiał zweryfikować swój nowy adres, klikając w link aktywacyjny w mailu, który wyślemy na nowy adres.
   collection_includes: Zawiera %{movie_titles}
   confirm_delete: Czy na pewno chcesz usunąć ten rekord?
@@ -1755,7 +1755,7 @@ pl-PL:
     public: "%{username} nie posiada, jeszcze żadnego ulubionego filmu."
   no_favorite_tv_shows:
     current_user: Nie dodałeś jeszcze żadnego ulubionego serialu TV.
-    public: "%{username} nie posiada jeszcze żadnego ulubionego serialu."
+    public: Użytkownik %{username} nie posiada jeszcze żadnego ulubionego serialu.
   no_genres: Nie dodano gatunku.
   no_guest_stars: Nie dodano gwiazdy specjalnej.
   no_keyword_search_results: Brak słów kluczowych pasujących do twoich kryteriów wyszukiwania
@@ -1770,10 +1770,10 @@ pl-PL:
     tv: Aby uzyskać indywidualne rekomendacje seriali, zacznij dodawać wszystkie swoje ulubione seriale. W tym momencie pewnie widzisz, że wiele z polecanych to te, które już widziałeś. Aby odfiltrować te oglądane, po prostu je oceń! Po ocenie, automatycznie znikną z listy rekomendowanych.
   no_rated_movies:
     current_user: Nie oceniłeś jeszcze żadnego filmu.
-    public: "%{username} nie ocenił jeszcze żadnego filmu."
+    public: Użytkownik %{username} nie ocenił jeszcze żadnego filmu.
   no_rated_tv_shows:
     current_user: Nie oceniłeś jeszcze żadnego serialu.
-    public: "%{username} nie ocenił jeszcze żadnego serialu."
+    public: Użytkownik %{username} nie ocenił jeszcze żadnego serialu.
   no_recommendations:
     movie: Nie mamy wystarczająco dużo danych, aby zaproponować jakieś filmy w oparciu o %{title}. Możesz pomóc poprzez ocenę seriali, które widziałaś/eś.
     tv_show: Nie mamy wystarczająco dużo danych, aby zaproponować jakieś seriale w oparciu o %{title}. Możesz pomóc poprzez ocenę seriali, które widziałaś/eś.
@@ -1853,9 +1853,9 @@ pl-PL:
     one: "%{count} element"
     other: "%{count} elementów"
   number_of_results:
-    few: "%{count} wyników"
+    few: "%{count} wyniki"
     one: "%{count} wynik"
-    other: "%{count} wyniki"
+    other: "%{count} wyników"
   number_of_translations:
     few: "%{count} tłumaczenia"
     one: "%{count} tłumaczenie"
