@@ -76,7 +76,7 @@ pt-PT:
   Bad Image: Imagem com Defeito
   Best Match: Melhor Correspondência
   Biography: Biografia
-  Birthday: Aniversário
+  Birthday: Nasceu em
   Blocked Users: Utilizadores Bloqueados
   Blog: Blogue
   Branding: Marca
@@ -126,7 +126,7 @@ pt-PT:
   Currently on page: Atualmente na página
   DMCA Takedown Request: Pedido de Desativação da DMCA
   Date: Data
-  Day of Death: Dia do Óbito
+  Day of Death: Faleceu em
   Default Language: Idioma Predefinido
   Delete: Remover
   Delete Keyword: Remover Palavra-chave
@@ -381,7 +381,7 @@ pt-PT:
   Read All Reviews: Ler Todas as Críticas
   Read More: Ler Mais
   Reality: Realidade
-  Recent Blog Posts: Mensagens de Blogue Recentes
+  Recent Blog Posts: "Últimas Mensagens do Blogue"
   Recent News: "Últimas Notícias"
   Recommendations: Recomendações
   Regions: Regiões
@@ -551,16 +551,16 @@ pt-PT:
   Year: Ano
   'Yes': Sim
   Your lists: As suas listas
-  Your rating: A Tua Pontuação
+  Your rating: A Tua Classificação
   Zip Code: Código Postal
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
+    discussions: Discussões
+    edit_profile: Editar Perfil
+    lists: Listas
+    logout: Sair
     settings: 
     view_profile: 
-    watchlist: 
+    watchlist: Lista de Desejo Ver
   accounts:
     average_movie_score: 
     average_tv_score: 
@@ -571,7 +571,7 @@ pt-PT:
     favorites:
       my_favorites:
         logged_in: 
-        public: 
+        public: Favoritos de %{username}
     filter_by: 
     filters:
       date_rated: 
@@ -581,40 +581,40 @@ pt-PT:
       score: 
       upcoming: 
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Criar Lista
+      last_updated: Atualizado
       my_lists:
-        logged_in: 
+        logged_in: As Minhas Listas
         public: 
       no_lists:
-        logged_in: 
+        logged_in: Ainda não criou nenhuma lista.
         public: 
     member_since: 
     navigation:
       discussions: 
       favorites: 
-      lists: 
+      lists: Listas
       overview: 
       ratings_reviews: 
       recommendations: 
-      watchlist: 
+      watchlist: Desejo Ver
     order: 
     overview:
       30_day_activity: 
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Ainda não fez nenhuma edição recentemente.
+        public: "%{username} ainda não fez nenhuma edição recentemente."
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Não há nenhuma estreia próxima na sua lista de Desejo Ver.
       empty_watched_genres:
         logged_in: 
         public: 
       goto_discussions: 
-      goto_watchlist: 
+      goto_watchlist: Ir para a lista de Desejo Ver
       most_watched_genres: 
       rating_overview: 
-      recent_activity: 
-      recent_discussions: 
+      recent_activity: Atividade Recente
+      recent_discussions: "Últimas Discussões"
       total_edits: 
       total_ratings: 
       upcoming_watchlist: 
@@ -625,7 +625,7 @@ pt-PT:
       my_reviews:
         logged_in: 
         public: 
-      ratings_by_year: 
+      ratings_by_year: Classificação Por Ano
     recommendations:
       my_recommendations: 
       no_recommendations: 
@@ -634,12 +634,12 @@ pt-PT:
       import_imdb_ratings: 
       tip: 
     watchlist:
-      my_watchlist: 
-      next_month: 
+      my_watchlist: Desejo Ver
+      next_month: Mês seguinte
       no_upcoming_movies: 
       no_upcoming_tv_shows: 
-      this_month: 
-      this_week: 
+      this_month: Este mês
+      this_week: Esta semana
       view_them: 
   add_to_list: Adicionar %{media_title} para uma das suas listas...
   already_translated_in: "%{page_title} já está transcrito/a nos idiomas seguintes..."
@@ -1216,18 +1216,18 @@ pt-PT:
       back_to_tmdb_with_arrow: 
       back_with_arrow: 
     categories:
-      categories: 
+      categories: Categorias
       discuss:
         content_issues: 
-        discuss: 
-        general: 
+        discuss: Discussão
+        general: Geral
       support:
         api_requests: 
         api_requests_(professional): 
         api_support: 
         content_issues: 
-        general: 
-        general_chat: 
+        general: Geral
+        general_chat: Chat Geral
         moderator_talk: 
         support: 
         website_support: 
@@ -1240,7 +1240,7 @@ pt-PT:
     headers:
       discuss: 
       discuss_item: 
-      lets_chat: 
+      lets_chat: Vamos Conversar
       support: 
       support_title: 
     login_to_be_notified: 
@@ -2020,7 +2020,7 @@ pt-PT:
   success_email: E-mail enviado com sucesso.
   success_image_rated: Avaliou a imagem com sucesso.
   success_image_uploaded: A imagem foi carregada com sucesso.
-  success_rating: A sua avaliação foi guardada.
+  success_rating: A tua classificação foi guardada.
   success_registration: O seu registo foi concluído com sucesso.
   success_report: O que reportou foi submetido com sucesso.
   success_saved: As suas alterações foram guardadas com sucesso.
