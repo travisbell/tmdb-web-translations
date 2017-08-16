@@ -607,7 +607,7 @@ ru-RU:
       30_day_activity: 
       empty_recent_activity:
         logged_in: "Вы не совершали правок за последнее время."
-        public: 
+        public: "%{username} не имеет недавних правок."
       empty_upcoming_watchlist:
         logged_in: "В списке просмотра нет ожидаемых фильмов."
       empty_watched_genres:
@@ -624,21 +624,21 @@ ru-RU:
       upcoming_watchlist: "Предстоящее из списка просмотра"
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: "Мои оценки"
+        public: "Оценки %{username}"
       my_reviews:
-        logged_in: 
-        public: 
+        logged_in: "Мои рецензии"
+        public: "Рецензии %{username}"
       ratings_by_year: 
     recommendations:
-      my_recommendations: 
+      my_recommendations: "Мои рекомендации"
       no_recommendations: 
       no_recommendations_helper: 
     tips:
       import_imdb_ratings: 
       tip: 
     watchlist:
-      my_watchlist: 
+      my_watchlist: "Мои список просмотра"
       next_month: 
       no_upcoming_movies: 
       no_upcoming_tv_shows: 
