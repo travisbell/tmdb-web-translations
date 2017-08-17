@@ -377,7 +377,7 @@ pt-PT:
   Rating: Pontuação
   Rating Ascending: Pontuação Ascendente
   Rating Descending: Pontuação Descendente
-  Ratings: Classificações
+  Ratings: Pontuações
   Read All Reviews: Ler Todas as Críticas
   Read More: Ler Mais
   Reality: Realidade
@@ -521,7 +521,7 @@ pt-PT:
   Update: Atualizar
   Upload Logo: Enviar Logótipo
   User Score: Pontuação Geral dos Utilizadores
-  Username: Utilizador
+  Username: Nome de Utilizador
   Video?: Vídeo?
   Videos: Vídeos
   View: Ver
@@ -551,93 +551,97 @@ pt-PT:
   Year: Ano
   'Yes': Sim
   Your lists: As suas listas
-  Your rating: A Tua Classificação
+  Your rating: A sua pontuação
   Zip Code: Código Postal
   account_drop_down:
     discussions: Discussões
     edit_profile: Editar Perfil
     lists: Listas
     logout: Sair
-    settings: 
-    view_profile: 
+    settings: Configurações
+    view_profile: Ver Perfil
     watchlist: Lista de Desejo Ver
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Pontuação Média<br>dos Filmes
+    average_tv_score: Pontuação Média<br>das Séries de TV
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: Meus Fóruns Ativos
+      my_discussions: As Minhas Dicussões
+      not_watching: Ainda não está acompanhando nenhuma discussão.
     favorites:
       my_favorites:
-        logged_in: 
+        logged_in: Os Meus Favoritos
         public: Favoritos de %{username}
-    filter_by: 
+    filter_by: 'Filtrar por:'
     filters:
-      date_rated: 
-      my_rating: 
+      date_rated: Data da Pontuação
+      my_rating: As Minhas Pontuações
       popularity: 
       release_date: 
       score: 
-      upcoming: 
+      upcoming: Brevemente
     lists:
       create_list: Criar Lista
       last_updated: Atualizado
       my_lists:
         logged_in: As Minhas Listas
-        public: 
+        public: As Listas de %{username}
       no_lists:
         logged_in: Ainda não criou nenhuma lista.
         public: 
-    member_since: 
+    member_since: Membro desde %{date}
     navigation:
-      discussions: 
-      favorites: 
+      discussions: Discussões
+      favorites: Favoritos
       lists: Listas
-      overview: 
-      ratings_reviews: 
-      recommendations: 
+      overview: Visão Geral
+      ratings_reviews: Pontuações & Críticas
+      recommendations: Recomendações
       watchlist: Desejo Ver
-    order: 
+    order: 'Ordem:'
     overview:
-      30_day_activity: 
+      30_day_activity: "Últimos 30 Dias de Atividade"
       empty_recent_activity:
         logged_in: Ainda não fez nenhuma edição recentemente.
         public: "%{username} ainda não fez nenhuma edição recentemente."
       empty_upcoming_watchlist:
-        logged_in: Não há nenhuma estreia próxima na sua lista de Desejo Ver.
+        logged_in: Não há nenhuma estreia em breve na sua lista de Desejo Ver.
       empty_watched_genres:
         logged_in: 
         public: 
-      goto_discussions: 
+      goto_discussions: Ir para Discussões
       goto_watchlist: Ir para a lista de Desejo Ver
-      most_watched_genres: 
-      rating_overview: 
+      most_watched_genres: Géneros Mais Vistos
+      rating_overview: Visão Geral das Pontuações
       recent_activity: Atividade Recente
       recent_discussions: "Últimas Discussões"
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+      total_edits: Número de Edições
+      total_ratings: Número de Pontuações
+      upcoming_watchlist: A Estrear em Breve da Lista Desejo Ver
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: As Minhas Pontuações
+        public: Pontuações de %{username}
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: Classificação Por Ano
+        logged_in: As Minhas Críticas
+        public: Críticas de %{username}
+      ratings_by_year: Pontuações Por Ano
     recommendations:
-      my_recommendations: 
+      my_recommendations: As Minhas Recomendações
       no_recommendations: 
       no_recommendations_helper: 
     tips:
       import_imdb_ratings: 
-      tip: 
+      tip: Dica
     watchlist:
-      my_watchlist: Desejo Ver
+      my_watchlist: A Minha Lista de Desejo Ver
       next_month: Mês seguinte
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        one: Não há nenhum Filme que estreará em breve na sua lista de Desejo Ver. No entanto, tem %{count} item na sua lista de Desejo Ver.
+        other: Não há nenhum Filme que estreará em breve na sua lista de Desejo Ver. No entanto, tem %{count} itens na sua lista de Desejo Ver.
+      no_upcoming_tv_shows:
+        one: Não há nenhuma série de TV que estreará em breve na sua lista de Desejo Ver. No entanto, tem %{count} item na sua lista de Desejo Ver.
+        other: Não há nenhuma Série de TV que estreará em breve na sua lista de Desejo Ver. No entanto, tem %{count} itens na sua lista de Desejo Ver.
       this_month: Este mês
       this_week: Esta semana
       view_them: 
@@ -1676,7 +1680,7 @@ pt-PT:
     Writer: Escritor(a)
   joined: aderiu
   list_info:
-    average_rating: Média de Votos
+    average_rating: Média das Pontuações
     image_selected: Selecionada
     items_on_list:
       many: ''
@@ -1860,8 +1864,8 @@ pt-PT:
     load_more: 
     next_page: 
     next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
+    previous_page: Página anterior
+    previous_page_with_arrow: "← Página anterior"
     show_more: 
   part_of_collection: Faz parte da %{collection_name}
   password:
@@ -1892,29 +1896,29 @@ pt-PT:
     to_air: A temporada %{season_number} de %{show_name} vai estrear a %{date}.
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: Configurações da Conta
+      change_password: Mudar Palavra-passe?
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: Criar
+        details: Detalhes
+        directory: Diretório
+        sessions: Sessões
+        stats: Estatísticas
     blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      action: Ação
+      blocked_users: Utilizadores Bloqueados
+      no_blocked: Ainda não bloqueou nenhum utilizador.
+      username: Nome de Utilizador
     connected_apps:
-      connected_apps: 
-      listed_below_explanation: 
-      no_apps: 
+      connected_apps: Aplicações Conectadas
+      listed_below_explanation: Abaixo está uma lista de aplicações de terceiros que autorizou a publicar dados em seu nome. Pode revogar estas autorizações a qualquer momento.
+      no_apps: Ainda não conectou nenhuma aplicação à sua conta.
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Ações
+        application_name: Nome da Aplicação
+        date_authorised: Data da Autorização
     delete_account:
       delete_account: 
       summary_text: 
@@ -1923,12 +1927,12 @@ pt-PT:
       import_list: 
       navigation:
         import: 
-        previous: 
+        previous: Importações Anteriores
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
+        date: Data
+        imported: Importado
+        items: Itens
+        local_list: Lista Local
         no_imports: 
         type: 
       results:
@@ -1956,7 +1960,7 @@ pt-PT:
       blocked_users: 
       connected_apps: 
       delete_account: 
-      edit_profile: 
+      edit_profile: Editar Perfil
       import_list: 
       notification_settings: 
       settings: 
@@ -1968,7 +1972,7 @@ pt-PT:
       new_replies_to_threads_watching: 
       notifications: 
     profile:
-      accent_color: 
+      accent_color: Cor de Destaque
       avatar:
         current_avatar: Avatar Atual
         explain: Atualmente, a única opção que dispomos para exibir um avatar é por via de um serviço designado <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Se desejar ter um avatar personalizado no TMDb, terá de criar uma conta no Gravatar e utilizar o mesmo endereço de e-mail que o usado para criar conta connosco (é via esse e-mail que automaticamente interligaremos o seu avatar). De seguida, clique no botão atualizar e a sua imagem será adicionada.
@@ -1978,7 +1982,7 @@ pt-PT:
         remove_own: Remover Avatar?
         update_avatar: Atualizar Avatar
         update_gravatar: Atualizar Gravatar?
-        updated: Avatar Atualizado
+        updated: Avatar Atualizado!
         upload_avatar: Enviar Avatar
         upload_own: Enviar um avatar?
         upload_window_tip: 
@@ -2020,7 +2024,7 @@ pt-PT:
   success_email: E-mail enviado com sucesso.
   success_image_rated: Avaliou a imagem com sucesso.
   success_image_uploaded: A imagem foi carregada com sucesso.
-  success_rating: A tua classificação foi guardada.
+  success_rating: A sua pontuação foi guardada.
   success_registration: O seu registo foi concluído com sucesso.
   success_report: O que reportou foi submetido com sucesso.
   success_saved: As suas alterações foram guardadas com sucesso.
