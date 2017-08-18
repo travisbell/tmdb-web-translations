@@ -42,7 +42,7 @@ pt-PT:
   Add a New Guest Star: Adicionar um(a) Novo/a Convidado/a Especial
   Add to Watchlist: Adicionar à lista dos que desejo ver
   Add to list: Adicionar à lista
-  Add to your favorite list: Adicionar à sua lista de preferidos
+  Add to your favorite list: Adicionar à sua lista de favoritos
   Add to your watchlist: Adicionar à sua lista dos que deseja ver
   Added By: Adicionado Por
   Added to Watchlist: Adicionado à lista dos que desejo ver
@@ -169,7 +169,7 @@ pt-PT:
   Episode Overview: Sinopse do Episódio
   Episodes: Episódios
   Error: Erro
-  Example API Request: 'Exemplo: Requisição de API'
+  Example API Request: 'Exemplo: Requisição da API'
   Expand: Expandir
   External IDs: IDs Externos
   External Links: Atalhos Externos
@@ -257,9 +257,9 @@ pt-PT:
   Login to Add a Video: Inicie Sessão para Adicionar um Vídeo
   Login to Edit Cast & Crew: Faça Iniciar Sessão para Editar o Elenco & Equipa Técnica
   Login to add this TV show to your favorite list: Inicie Sessão para adicionar esta Série de TV à sua lista de favoritos
-  Login to add this TV show to your watchlist: Inicie Sessão para adicionar esta Série de TV à sua lista "Desejo Ver"
+  Login to add this TV show to your watchlist: Inicie Sessão para adicionar esta Série de TV à sua lista Desejo Ver
   Login to add this movie to your favorite list: Inicie Sessão para adicionar este Filme à sua lista de favoritos
-  Login to add this movie to your watchlist: Inicie Sessão para adicionar este Filme à sua lista "Desejo Ver"
+  Login to add this movie to your watchlist: Inicie Sessão para adicionar este Filme à sua lista Desejo Ver
   Login to create and edit custom lists: Inicie Sessão para criar e editar listas pessoais
   Login to rate this TV show: Inicie Sessão para avaliar esta Série de TV
   Login to rate this movie: Inicie Sessão para avaliar este Filme
@@ -396,7 +396,7 @@ pt-PT:
   Reload Page: Recarregar Página
   Remove: Remover
   Remove from your favorite list: Remover da sua lista de favoritos
-  Remove from your watchlist: Remover da sua lista de desejos
+  Remove from your watchlist: Remover da lista Desejo Ver
   Remove?: Remover?
   Report: Reportar
   Report Violation: Denunciar Violação
@@ -405,7 +405,7 @@ pt-PT:
   Request an API Key: Pedir a Chave da API
   Resend Activation Email: Reenviar o e-mail de ativação
   Reset: Reiniciar
-  Reset Password: Redefinir a palavra-passe
+  Reset Password: Redefinir a Palavra-passe
   Returning Series: Renovada
   Revenue: Bilheteira
   Reviews: Críticas
@@ -567,19 +567,19 @@ pt-PT:
     discussions:
       my_active_boards: Meus Fóruns Ativos
       my_discussions: As Minhas Dicussões
-      not_watching: Ainda não está acompanhando nenhuma discussão.
+      not_watching: Não está a acompanhar nenhuma discussão.
     favorites:
       my_favorites:
         logged_in: Os Meus Favoritos
         public: Favoritos de %{username}
     filter_by: 'Filtrar por:'
     filters:
-      date_added: 
+      date_added: Data de Adição
       date_rated: Data da Pontuação
       my_rating: As Minhas Pontuações
-      popularity: 
-      release_date: 
-      score: 
+      popularity: Popularidade
+      release_date: Data de Lançamento
+      score: Pontuação
       upcoming: Brevemente
     lists:
       create_list: Criar Lista
@@ -588,8 +588,8 @@ pt-PT:
         logged_in: As Minhas Listas
         public: As Listas de %{username}
       no_lists:
-        logged_in: Ainda não criou nenhuma lista.
-        public: 
+        logged_in: Não criou nenhuma lista.
+        public: "%{username} não tem nenhuma lista pública para partilhar."
     member_since: Membro desde %{date}
     navigation:
       discussions: Discussões
@@ -603,13 +603,13 @@ pt-PT:
     overview:
       30_day_activity: "Últimos 30 Dias de Atividade"
       empty_recent_activity:
-        logged_in: Ainda não fez nenhuma edição recentemente.
-        public: "%{username} ainda não fez nenhuma edição recentemente."
+        logged_in: Não fez nenhuma edição recentemente.
+        public: "%{username} não fez nenhuma edição recentemente."
       empty_upcoming_watchlist:
         logged_in: Não há nenhuma estreia em breve na sua lista de Desejo Ver.
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: Não adicionou nenhum Filme ou Série de TV.
+        public: "%{username} não adicionou nenhum Filme ou Série de TV."
       goto_discussions: Ir para Discussões
       goto_watchlist: Ir para a lista de Desejo Ver
       most_watched_genres: Géneros Mais Vistos
@@ -629,10 +629,10 @@ pt-PT:
       ratings_by_year: Pontuações Por Ano
     recommendations:
       my_recommendations: As Minhas Recomendações
-      no_recommendations: 
-      no_recommendations_helper: 
+      no_recommendations: Ainda não temos informação suficiente para fazer recomendações.
+      no_recommendations_helper: Tente adicionar mais alguns itens aos favoritos (quanto mais, melhor) e volte para conferir como nos saímos.
     tips:
-      import_imdb_ratings: 
+      import_imdb_ratings: Pode importar as suas pontuações do IMDb.
       tip: Dica
     watchlist:
       my_watchlist: A Minha Lista de Desejo Ver
@@ -645,7 +645,7 @@ pt-PT:
         other: Não há nenhuma Série de TV que estreará em breve na sua lista de Desejo Ver. No entanto, tem %{count} itens na sua lista de Desejo Ver.
       this_month: Este mês
       this_week: Esta semana
-      view_them: 
+      view_them: Ver tudo.
   add_to_list: Adicionar %{media_title} para uma das suas listas...
   already_translated_in: "%{page_title} já está transcrito/a nos idiomas seguintes..."
   api_session:
@@ -669,7 +669,7 @@ pt-PT:
     season_list: Regressar a lista de temporadas
     top: Regressar ao topo
   certifications:
-    meaning: 
+    meaning: Significado
     movies:
       AU:
         '1':
@@ -690,13 +690,13 @@ pt-PT:
           meaning: 
       BG:
         '1':
-          meaning: 
+          meaning: Recomendado para crianças.
         '2':
-          meaning: 
+          meaning: Sem restrição de idade.
         '3':
-          meaning: 
+          meaning: Não recomendado para crianças menores de 12 Anos.
         '4':
-          meaning: 
+          meaning: Proibido para menores de 16 Anos.
         '5':
           meaning: 
       BR:
@@ -890,21 +890,21 @@ pt-PT:
           meaning: 
       PT:
         '1':
-          meaning: 
+          meaning: Para todo o público (especialmente concebido para crianças com menos de 3 anos de idade).
         '2':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 3 anos.
         '3':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 6 anos.
         '4':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 12 anos.
         '5':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 14 anos.
         '6':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 16 anos.
         '7':
-          meaning: 
+          meaning: Recomendado para espectadores com idade igual ou superior a 18 anos.
         '8':
-          meaning: 
+          meaning: Classificação especial complementar à classificação etária M/18, denotando pornografia.
       SE:
         '0':
           meaning: 
@@ -1053,17 +1053,17 @@ pt-PT:
           meaning: 
       PT:
         '0':
-          meaning: 
+          meaning: Nenhuma informação de classificação etária.
         '1':
-          meaning: 
+          meaning: T - TODOS (Esta classificação é atribuída aos programas destinados a todos os públicos, sem restrição de conteúdos.)
         '2':
-          meaning: 
+          meaning: 10AP (Esta classificação é atribuída aos programas destinados a indivíduos com mais de dez anos, e é aconselhado o acompanhamento parental (AP). Denota-se que em princípio todo o público pode assistir, embora algumas cenas podem não ser aconselhadas a menores mais sensíveis, e os pais devem avaliar o seu conteúdo.)
         '3':
-          meaning: 
+          meaning: 12AP (Esta classificação é atribuída aos programas destinados a indivíduos com mais de doze anos, e é aconselhado o acompanhamento parental (AP). Denota-se que em princípio todo o público pré e adolescente pode assistir. O tratamento dos temas deve ser adequado às diferentes fases da adolescência, mas alguns dos tópicos podem exigir um particular grau de maturidade, logo os pais e educadores são aconselhados a avaliar o seu conteúdo.)
         '4':
-          meaning: 
+          meaning: 16 (Esta classificação é atribuída aos programas destinados a indivíduos com mais de dezasseis anos. Presume-se que o público que assiste está previamente informado sobre este tipo de programas e o seu respectivo conteúdo, o qual poderá revelar-se susceptível de influir de modo negativo na formação da personalidade, devido à exibição de conteúdo violento.)
         '5':
-          meaning: 
+          meaning: 18 (Esta classificação é atribuída aos programas destinados a indivíduos com mais de dezoito anos. Presume-se que o público que assiste está previamente informado sobre este tipo de programas e o seu respectivo conteúdo, o qual poderá revelar-se susceptível de influir de modo negativo na formação da personalidade, devido à exibição de conteúdo violento. Sexo explícito.)
       RU:
         '1':
           meaning: 
@@ -1122,19 +1122,19 @@ pt-PT:
   collection_includes: Inclui %{movie_titles}
   confirm_delete: Deseja realmente eliminar este registo?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: O preenchimento de conteúdo é uma forma de ajudá-lo a entender o quão completo estão os dados de um item da nossa base de dados.
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': Temos que começar de algum lugar...
+      '1': Olha só, já é um começo.
+      '10': Aí sim! Ficou ótimo!
+      '2': Ainda chegamos lá...
+      '3': Roma não foi construída em um dia...
+      '4': Ninguém constrói nada sozinho...
+      '5': Ainda precisa de um pouco de trabalho.
+      '6': Tão perto e, ainda assim, tão longe.
+      '7': Só mais um pouquinho...
+      '8': Não desanime! Estamos tão perto.
+      '9': Quase lá...
   date:
     abbr_day_names:
     - Dom
@@ -1170,7 +1170,7 @@ pt-PT:
       abbrev: "%d %b %Y"
       default: "%d-%m-%Y"
       full_month_day: "%e %B %Y"
-      short_month_day_year: 
+      short_month_day_year: "%d de %b de %Y"
     month_names:
     - 
     - Janeiro
@@ -1206,67 +1206,69 @@ pt-PT:
     Writing: Argumento
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      actions: Ações
+      close_discussion: Fechar Discussão
+      make_private: Tornar Privada
+      make_public: Tornar Pública
+      mark_spam: Marcar como Spam
+      reopen_discussion: Reabrir Discussão
+      stop_watching: Deixar de Seguir
+      view_activity: Ver Atividade
+      watch: Seguir
+    admin_panel: Painel de Administração
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Regressar a %{item_title}"
+      back_to_tmdb_with_arrow: "← Regressar ao TMDb"
+      back_with_arrow: "← Regressar"
     categories:
       categories: Categorias
       discuss:
-        content_issues: 
+        content_issues: Conteúdo Incorreto
         discuss: Discussão
         general: Geral
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
-        content_issues: 
+        api_requests: Requisições da API
+        api_requests_(professional): Requisições da API (Profissional)
+        api_support: Suporte da API
+        content_issues: Conteúdo Incorreto
         general: Geral
         general_chat: Chat Geral
-        moderator_talk: 
-        support: 
-        website_support: 
+        moderator_talk: Discussões dos Moderadores
+        support: Suporte
+        website_support: Suporte do Site
     category:
       last_reply_with_datetime: 
     email_notifications:
       email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      subscribe: Subscrever
+      unsubscribe: Cancelar Subscrição
     headers:
-      discuss: 
-      discuss_item: 
+      discuss: Discussão
+      discuss_item: Discussão %{item_title}
       lets_chat: Vamos Conversar
-      support: 
-      support_title: 
+      support: Suporte
+      support_title: Suporte do The Movie Database
     login_to_be_notified: 
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      community_guidelines: Regras da Comunidade
+      discussion_category: Categoria
+      for_item: Para o item
+      new_discussion: Nova Discussão
+      subject: Assunto
+    no_discussions: Nenhuma discussão.
     pagination:
       post_summary: 
-      summary: 
+      summary:
+        one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
+        other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
     post:
-      delete: 
-      edit: 
-      ignore: 
-      like: 
-      posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
+      delete: Remover
+      edit: Editar
+      ignore: Ignorar
+      like: Gosto
+      posted_by_with_datetime: postado por %{username} em %{date} às %{time}
+      quote: Citar
+      reopen_reply: Reabrir & Responder
       reply: 
       reply_by: 
       reply_on_datetime: 
@@ -1287,7 +1289,7 @@ pt-PT:
     users_in_discussion:
       no_subscribers: 
       users_in_discussion: 
-    your_account: 
+    your_account: A Sua Conta
   dont_fallback: Nenhum (Sem Retorno)
   edit:
     tooltips:
@@ -1328,7 +1330,7 @@ pt-PT:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: Discussões
     tv_shows:
       episode_airs:
         in_days: 
@@ -1439,7 +1441,7 @@ pt-PT:
     Directing Lighting Artist: Diretor(a) Artístico(a) de Iluminação
     Director: Diretor(a)
     Director of Photography: Diretor(a) de Fotografia
-    Documentation & Support: Documentação & Apoio
+    Documentation & Support: Documentação & Suporte
     Dolby Consultant: Consultoria em Sonorização
     Dramaturgy: Dramaturgo
     Driver: Condutor
@@ -1700,7 +1702,7 @@ pt-PT:
     item_removed: Item removido.
   list_sort:
     original_order: Ordem Original
-    rating: Avaliação
+    rating: Pontuação
     release_date: Data de Lançamento
     title: Título
   list_steps:
@@ -1751,11 +1753,11 @@ pt-PT:
   no_director: Não foi adicionado nenhum(a) realizador(a).
   no_episode_images: Não foi adicionada nenhuma imagem do episódio.
   no_favorite_movies:
-    current_user: Não adicionou nenhum Filme preferido.
-    public: "%{username}, não tem nenhum Filme preferido."
+    current_user: Não adicionou nenhum Filme favorito.
+    public: "%{username}, não tem nenhum Filme favorito."
   no_favorite_tv_shows:
-    current_user: Não adicionou nenhuma Série de TV preferida.
-    public: "%{username}, não tem nenhuma Série de TV preferida."
+    current_user: Não adicionou nenhuma Série de TV favorita.
+    public: "%{username}, não tem nenhuma Série de TV favorita."
   no_genres: Não foram adicionados géneros.
   no_guest_stars: Não foram adicionados nenhuns convidados especiais.
   no_keyword_search_results: Não existem palavras-chave que correspondam à sua busca.
@@ -1777,17 +1779,17 @@ pt-PT:
   no_recommendations:
     movie: Não temos dados suficientes para lhe sugerir qualquer Filme baseado em "%{title}". Poderá ajudar ao avaliar os Filmes que já viu.
     tv_show: Não temos dados suficientes para lhe sugerir qualquer Série de TV baseado em "%{title}". Poderá ajudar ao avaliar as Séries de TV que já viu.
-  no_records: Não foram adicionados nenhuns discos.
+  no_records: Não foi adicionado nenhum vídeo.
   no_review:
     logged_in: Não temos quaisquer críticas para "%{title}". Gostaria de <a href="%{url}">escrever uma</a>?
     public: Não temos quaisquer críticas para "%{title}".
   no_tv_search_results: Não existem Séries de TV que correspondam à sua busca.
   no_watchlist_movies:
-    current_user: Não adicionou nenhum Filme à sua lista do que deseja ver.
-    public: Esta lista de desejos está vazia.
+    current_user: Não adicionou nenhum Filme à sua lista Desejo Ver.
+    public: A lista Desejo Ver está vazia.
   no_watchlist_tv_shows:
-    current_user: Não adicionou nenhuma Série de TV à sua lista do que deseja ver.
-    public: Esta lista de desejos está vazia.
+    current_user: Não adicionou nenhuma Série de TV à sua lista Desejo Ver.
+    public: A lista Desejo Ver está vazia.
   no_writer: Não foi adicionado/a nenhum(a) escritor(a).
   not_translated:
     logged_in: "%{page_title} ainda não foi traduzida para <strong>%{requested_i18n} (%{requested_language_text})</strong>.Se quiser criar esta tradução, por favor clique no seguinte botão."
@@ -1799,7 +1801,7 @@ pt-PT:
     mark_all_as_read: 
     refresh: 
     unread_notifications: 
-    view: 
+    view: Ver
   number:
     currency:
       format:
@@ -1878,8 +1880,8 @@ pt-PT:
   reset_password_dialog_text: Ao confirmar este pedido irá receber um e-mail com instruções de como redefinir a sua palavra-passe. Tem a certeza que deseja prosseguir?
   reset_password_text: Introduza o seu nome de utilizador em baixo para começar o processo de redefinição da palavra-passe.
   search:
-    favorites_movie: Procure Filmes preferidos...
-    favorites_tv: Procure Série de TV preferidas...
+    favorites_movie: Procure Filmes favoritos...
+    favorites_tv: Procure Série de TV favoritas...
     media_types:
       movie: 
       person: 
@@ -1910,19 +1912,19 @@ pt-PT:
     blocked_users:
       action: Ação
       blocked_users: Utilizadores Bloqueados
-      no_blocked: Ainda não bloqueou nenhum utilizador.
+      no_blocked: Não bloqueou nenhum utilizador.
       username: Nome de Utilizador
     connected_apps:
       connected_apps: Aplicações Conectadas
       listed_below_explanation: Abaixo está uma lista de aplicações de terceiros que autorizou a publicar dados em seu nome. Pode revogar estas autorizações a qualquer momento.
-      no_apps: Ainda não conectou nenhuma aplicação à sua conta.
+      no_apps: Não conectou nenhuma aplicação à sua conta.
       table:
         action: Ações
         application_name: Nome da Aplicação
         date_authorised: Data da Autorização
     delete_account:
-      delete_account: 
-      summary_text: 
+      delete_account: Remover Conta
+      summary_text: Acabou de entrar na <strong>Zona de Perigo</strong>! Se desejar prosseguir com a remoção da sua conta, insira a sua palavra-passe no campo abaixo e confirme.
     import_list:
       import_button: 
       import_list: 
@@ -1951,16 +1953,16 @@ pt-PT:
           summary: 
       select_csv: 
       type:
-        favorite: 
+        favorite: Favorita
         rated: 
-        watchlist: 
+        watchlist: Lista Desejo Ver
       which_list: 
     navigation:
-      account_settings: 
+      account_settings: Configurar Conta
       api: 
       blocked_users: 
       connected_apps: 
-      delete_account: 
+      delete_account: Remover Conta
       edit_profile: Editar Perfil
       import_list: 
       notification_settings: 
@@ -2004,7 +2006,7 @@ pt-PT:
       sharing_settings: 
       watchlist:
         remove_when_rated: 
-        watchlist_settings: 
+        watchlist_settings: Configurar lista Desejo Ver
     social:
       connected_table:
         action: 
