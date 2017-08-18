@@ -1238,6 +1238,7 @@ zh-TW:
       last_reply_with_datetime: |-
         %{username} 於 <br>
         %{date} %{time} 時發言
+    discussion_activity: 
     email_notifications:
       email_notifications: "郵件通知"
       subscribe: "訂閱"
@@ -1265,12 +1266,16 @@ zh-TW:
         other: "目前在第 %{current_page} / %{total_pages} 頁中，共有 %{count} 個討論串。"
     post:
       delete: "刪除"
-      delete_comment_message: 
       edit: "編輯"
       hide: 
-      hide_comment_message: 
       ignore: "忽略"
       like: "喜歡"
+      messages:
+        delete_comment: 
+        delete_discussion: 
+        hide_comment: 
+        ignore_user: 
+        mark_as_spam: 
       posted_by_with_datetime: "%{username} 於 %{date} %{time} 時發布"
       quote: "引用"
       reopen_reply: "重新開放並回覆"

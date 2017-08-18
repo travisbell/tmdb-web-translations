@@ -1236,6 +1236,7 @@ zh-CN:
         website_support: "网站支持"
     category:
       last_reply_with_datetime: "%{date} 的 %{time}<br>由 %{username}"
+    discussion_activity: 
     email_notifications:
       email_notifications: "电子邮件通知"
       subscribe: "订阅"
@@ -1263,12 +1264,16 @@ zh-CN:
         other: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
     post:
       delete: "删除"
-      delete_comment_message: 
       edit: "编辑"
       hide: 
-      hide_comment_message: 
       ignore: "忽略"
       like: "喜欢"
+      messages:
+        delete_comment: 
+        delete_discussion: 
+        hide_comment: 
+        ignore_user: 
+        mark_as_spam: 
       posted_by_with_datetime: "%{username} 发贴于 %{date} 的 %{time}"
       quote: "引用"
       reopen_reply: "重开 & 回复"

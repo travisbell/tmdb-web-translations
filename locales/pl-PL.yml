@@ -1228,6 +1228,7 @@ pl-PL:
         website_support: Wsparcie strony
     category:
       last_reply_with_datetime: "%{date} o godz. %{time}<br>przez %{username}"
+    discussion_activity: 
     email_notifications:
       email_notifications: Powiadomienia e-mail
       subscribe: Subskrybuj
@@ -1257,12 +1258,16 @@ pl-PL:
         other: "%{count} dyskusji, strona %{current_page} z %{total_pages}"
     post:
       delete: Usuń
-      delete_comment_message: 
       edit: Edytuj
       hide: 
-      hide_comment_message: 
       ignore: Ignoruj
       like: Lubię to
+      messages:
+        delete_comment: 
+        delete_discussion: 
+        hide_comment: 
+        ignore_user: 
+        mark_as_spam: 
       posted_by_with_datetime: stworzony przez %{username} %{date} o godz. %{time}
       quote: Cytuj
       reopen_reply: Otwórz i odpowiedz

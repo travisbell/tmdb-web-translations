@@ -1234,6 +1234,7 @@ sv-SE:
         website_support: 
     category:
       last_reply_with_datetime: "%{date} vid %{time}<br>av %{username}"
+    discussion_activity: 
     email_notifications:
       email_notifications: E-post Notifikationer
       subscribe: Prenumerera
@@ -1261,12 +1262,16 @@ sv-SE:
         other: "%{count} diskussioner, nuvarande på sida %{current_page} av %{total_pages}"
     post:
       delete: Ta bort
-      delete_comment_message: 
       edit: Redigera
       hide: 
-      hide_comment_message: 
       ignore: Ignorera
       like: Gilla
+      messages:
+        delete_comment: 
+        delete_discussion: 
+        hide_comment: 
+        ignore_user: 
+        mark_as_spam: 
       posted_by_with_datetime: Inlagt av %{username} den %{date} vid %{time}
       quote: Citera
       reopen_reply: "Återöppna & Svara"
