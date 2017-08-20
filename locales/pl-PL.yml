@@ -580,7 +580,7 @@ pl-PL:
         public: Ulubione użytkownika %{username}
     filter_by: 'Filtry:'
     filters:
-      date_added: 
+      date_added: Data dodania
       date_rated: Data oceny
       my_rating: Moja ocena
       popularity: Popularność
@@ -1215,7 +1215,7 @@ pl-PL:
         content_issues: Problemy z treścią
         discuss: Dyskusje
         general: Ogólne
-        website_support: 
+        website_support: Wsparcie strony
       support:
         api_requests: "Żądania API"
         api_requests_(professional): "Żądania API (dla profesjonalistów)"
@@ -1228,7 +1228,7 @@ pl-PL:
         website_support: Wsparcie strony
     category:
       last_reply_with_datetime: "%{date} o godz. %{time}<br>przez %{username}"
-    discussion_activity: 
+    discussion_activity: Aktywność w dyskusji
     email_notifications:
       email_notifications: Powiadomienia e-mail
       subscribe: Subskrybuj
@@ -1259,18 +1259,18 @@ pl-PL:
     post:
       delete: Usuń
       edit: Edytuj
-      hide: 
+      hide: Ukryj
       ignore: Ignoruj
       like: Lubię to
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
-        hide_discussion: 
-        ignore_user: 
-        mark_as_spam: 
-        report_violation: 
-        unhide_discussion: 
+        delete_comment: Klikając "Tak", usuniesz ten komentarz bezpowrotnie.
+        delete_discussion: Klikając "Tak", usuniesz ten wątek bezpowrotnie.
+        hide_comment: Klikając "Tak", ukryjesz ten komentarz.
+        hide_discussion: Klikając "Tak", ukryjesz ten wątek.
+        ignore_user: Jesteś pewny, że chcesz zignorować tego użytkownika? Wszystkie jego wątki i komentarze znikną. Możesz usunąć blokadę, wchodząc w zakładkę "Zablokowani użytkownicy" w ustawieniach twojego konta.
+        mark_as_spam: Jesteś pewny, że chcesz oznaczyć tę dyskusję jako spam? Zostanie ona automatycznie usunięta i nie będzie można jej przywrócić. Oznaczanie dyskusji jako spam pomaga nam trenować usługę wykrywania spamu.
+        report_violation: Proszę potwierdzić zgłoszenie tego użytkownika za naruszenie naszych <a href="/documentation/community/guidelines" target="_blank" rel="noopener">wytycznych społeczności</a>.
+        unhide_discussion: Klikając "Tak", sprawisz, że wątek będzie znów widoczny.
       posted_by_with_datetime: stworzony przez %{username} %{date} o godz. %{time}
       quote: Cytuj
       reopen_reply: Otwórz i odpowiedz
@@ -1278,7 +1278,7 @@ pl-PL:
       reply_by: Odpowiedź użytkownika %{username}
       reply_on_datetime: "%{date} o godz. %{time}"
       report: Zgłoś
-      unhide: 
+      unhide: Wyświetl ponownie
     report_violation: Zgłoś naruszenie
     search:
       advanced_search: Zaawansowane wyszukiwanie

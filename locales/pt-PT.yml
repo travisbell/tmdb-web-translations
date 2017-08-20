@@ -428,8 +428,8 @@ pt-PT:
   Seasons: Temporadas
   Secondary Color: Cor Secundária
   See Episodes: Ver Episódios
-  Select One: Seleccione um...
-  Select a category: Seleccione a categoria...
+  Select One: Selecione um...
+  Select a category: Selecione a categoria...
   Selected Language: Idioma Selecionado
   Send: Enviar
   Sessions: Sessões
@@ -629,7 +629,7 @@ pt-PT:
     recommendations:
       my_recommendations: As Minhas Recomendações
       no_recommendations: Ainda não temos informação suficiente para fazer recomendações.
-      no_recommendations_helper: Tente adicionar mais alguns itens aos favoritos (quanto mais, melhor) e volte para conferir como nos saímos.
+      no_recommendations_helper: Tente adicionar mais alguns aos favoritos (quanto mais, melhor) e volte para conferir como ficou.
     tips:
       import_imdb_ratings: Pode importar as suas pontuações do IMDb.
       tip: Dica
@@ -1121,7 +1121,7 @@ pt-PT:
   collection_includes: Inclui %{movie_titles}
   confirm_delete: Deseja realmente eliminar este registo?
   content_score:
-    helper_tooltip: O preenchimento de conteúdo é uma forma de ajudá-lo a entender o quão completo estão os dados de um item da nossa base de dados.
+    helper_tooltip: O preenchimento de conteúdo é uma forma de o ajudar a entender o quão completo estão os dados de um item na nossa base de dados.
     scale:
       '0': Temos que começar de algum lugar...
       '1': Olha só, já é um começo.
@@ -1240,7 +1240,7 @@ pt-PT:
       last_reply_with_datetime: 
     discussion_activity: 
     email_notifications:
-      email_notifications: 
+      email_notifications: Notificações por E-mail
       subscribe: Subscrever
       unsubscribe: Cancelar Subscrição
     headers:
@@ -1280,24 +1280,24 @@ pt-PT:
       posted_by_with_datetime: postado por %{username} em %{date} às %{time}
       quote: Citar
       reopen_reply: Reabrir & Responder
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 
+      reply: Responder
+      reply_by: Resposta por %{username}
+      reply_on_datetime: em %{date} às %{time}
+      report: Reportar
       unhide: 
     report_violation: Denunciar Violação
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Pesquisa Avançada
+      search_closed: Pesquisar discussões fechadas?
+      search_forums: Pesquisar nos fóruns...
+      search_open: Pesquisar discussões abertas?
     statuses:
-      closed: 
-      open: 
+      closed: Fechada
+      open: Aberta
     table_headers:
-      last_reply: 
+      last_reply: "Última Resposta"
       replies: 
-      status: 
+      status: Estado
       subject: 
     users_in_discussion:
       no_subscribers: 
@@ -1309,7 +1309,7 @@ pt-PT:
       homepage: Apenas a Página Oficial. Não é permitido páginas de fãs.
       original_title: O título original deverá ser introduzido no idioma original do item. Na maioria dos casos irá coincidir no idioma introduzido no campo "idioma original".
       overview: Ao escrever uma sinopse, tente ser breve, conciso e livre de spoilers.
-      social_links: 
+      social_links: Os links das redes sociais são apenas para as páginas oficiais (verificadas). Páginas criadas por fãs não são aceites.
   edit_list:
     add_edit_items: Adicionar/Editar Itens
     choose_image: Escolher Imagem
@@ -1699,7 +1699,7 @@ pt-PT:
     average_rating: Média das Pontuações
     image_selected: Selecionada
     items_on_list:
-      many: ''
+      many: itens nesta lista
       one: item nesta lista
       other: itens nesta lista
     private: Privado
@@ -1728,18 +1728,18 @@ pt-PT:
   media:
     social_panel:
       discussions:
-        currently_subscribed: 
-        no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        currently_subscribed: Está subscrito para receber notificação para quando alguém criar novo tópico.
+        no_discussions: Ainda não há nenhuma discussão sobre %{item_title}. Inicie Sessão para começar uma!
+        unsubscribe_me: Cancelar subscrição.
+        want_to_be_notified: Deseja receber uma notificação quando alguém criar um novo tópico?
+        yes_notify_me: Sim, notifique-me!
   month:
     one: mês
     other: "%{count} meses"
   navigation:
     discover:
       discover: Explorar
-      movies: 
+      movies: Filmes
       tv_shows: Séries de TV
     movies:
       now_playing: Em Exibição
@@ -1809,11 +1809,11 @@ pt-PT:
     public: '%{page_title} ainda não foi traduzida para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desejar criar esta tradução crie <a href="%{signup_link}">uma conta</a> e <a href="%{login_link}">inicie sessão</a>,'
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
+    clear: Limpar
+    good_job: Bom trabalho!
+    mark_all_as_read: Marcar Todas como Lidas
+    refresh: Atualizar
+    unread_notifications: Notificações Não Lidas
     view: Ver
   number:
     currency:
@@ -1876,13 +1876,13 @@ pt-PT:
     other: "%{count} votos"
   pagination:
     currently_on: 
-    last_page: 
-    load_more: 
-    next_page: 
-    next_page_with_arrow: 
+    last_page: "Última página"
+    load_more: Ver Mais
+    next_page: Página seguinte
+    next_page_with_arrow: Página seguinte →
     previous_page: Página anterior
     previous_page_with_arrow: "← Página anterior"
-    show_more: 
+    show_more: Mostrar Mais
   part_of_collection: Faz parte da %{collection_name}
   password:
     confirm_new_password: Confirmar Nova Palavra-passe
@@ -1896,9 +1896,9 @@ pt-PT:
     favorites_movie: Procure Filmes favoritos...
     favorites_tv: Procure Série de TV favoritas...
     media_types:
-      movie: 
-      person: 
-      tv_show: 
+      movie: Filme
+      person: Pessoa
+      tv_show: Série de TV
     rated_movie: Procure Filmes avaliados...
     rated_tv: Procure Série de TV avaliadas...
     recommendations_movie: Procurar por recomendações pessoais de Filmes...
@@ -1939,54 +1939,54 @@ pt-PT:
       delete_account: Remover Conta
       summary_text: Acabou de entrar na <strong>Zona de Perigo</strong>! Se desejar prosseguir com a remoção da sua conta, insira a sua palavra-passe no campo abaixo e confirme.
     import_list:
-      import_button: 
-      import_list: 
+      import_button: Importar
+      import_list: Importar Lista
       navigation:
-        import: 
+        import: Importar
         previous: Importações Anteriores
       previous:
         date: Data
-        imported: Importado
+        imported: Importada
         items: Itens
         local_list: Lista Local
-        no_imports: 
-        type: 
+        no_imports: Ainda não importou nenhuma lista.
+        type: Tipo
       results:
         complete:
-          imported: 
+          imported: Importada?
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
-          reason: 
-          summary: 
-        currently_running: 
-        import_results: 
+            already_imported: Já foi importada.
+            cant_find_imdb: Não encontramos esta ID do IMDB.
+          reason: Motivo? (Se aplicável)
+          summary: Conseguimos importar um total de %{imported_count} itens dos %{total_count} (%{imported_percentage}%) itens detectados na sua lista exportada.
+        currently_running: A importação está em execução. Pode atualizar a página para se certificar que está concluída.
+        import_results: Resultados da Importação
         in_progress:
-          import_status: 
-          summary: 
-      select_csv: 
+          import_status: Estado da Importação
+          summary: Detectamos um total de %{total_count} itens para importação. A importação está sendo feita em segundo plano e será notificado automaticamente quando ela for concluída.
+      select_csv: Selecionar ficheiro CSV
       type:
         favorite: Favorita
-        rated: 
+        rated: Pontuação
         watchlist: Lista Desejo Ver
-      which_list: 
+      which_list: Importar para qual lista?
     navigation:
       account_settings: Configurar Conta
-      api: 
-      blocked_users: 
-      connected_apps: 
+      api: API
+      blocked_users: Utilizadores Bloqueados
+      connected_apps: Aplicações Conectadas
       delete_account: Remover Conta
       edit_profile: Editar Perfil
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      import_list: Importar Lista
+      notification_settings: Configurações de Notificação
+      settings: Configurações
+      sharing_settings: Configurações de Partilha
+      social_settings: Configurações das Redes Sociais
     notifications:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: Notificações
     profile:
       accent_color: Cor de Destaque
       avatar:
@@ -2004,35 +2004,35 @@ pt-PT:
         upload_window_tip: 
         use_gravatar: Usar Gravatar?
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: Imagem de Fundo
+        remove_background: Remover a Imagem de Fundo?
+        set_image: Selecionar uma Imagem de Fundo?
+      edit_profile: Editar Perfil
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: Configurar Lista de Favoritos
+        share_on_twitter: Partilhar novos favoritos no Twitter?
+        share_publicly: Partilhar esta lista publicamente?
       rated_list:
         rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        share_publicly: Partilhar esta lista publicamente?
+      sharing_settings: Configurações de Partilha
       watchlist:
         remove_when_rated: 
         watchlist_settings: Configurar lista Desejo Ver
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
+        action: Ação
+        auto_sharing: 'Partilhar Automaticamente:'
+        connect: Conectar
+        connected_to: Conectar ao
+        info: Informações
+        reload_text: Recarregue esta página quando tiver autorizado a sua conta!
+        service: Serviço
       favorite_message_hint: 
       message_settings: 
       sharing_message_hint: 
-      social_settings: 
+      social_settings: Configurações das Redes Sociais
       supported_template_values: 
   signup_text: Registar uma conta é fácil e gratuito. Preencha os campos para começar.
   success_approved_access_token: Permissão concedida!
