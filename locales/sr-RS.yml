@@ -573,7 +573,7 @@ sr-RS:
         public: "Омиљено корисника: %{username}"
     filter_by: "Филтрирај по:"
     filters:
-      date_added: 
+      date_added: "Датум додавања"
       date_rated: "Датум оцене"
       my_rating: "Моја оцена"
       popularity: "Популарност"
@@ -588,7 +588,7 @@ sr-RS:
         public: "Листе корисника: %{username}"
       no_lists:
         logged_in: "Немаш ни једну листу"
-        public: 
+        public: "%{username} нема јавних листи које дели."
     member_since: "Члан од %{date}"
     navigation:
       discussions: "Дискусије"
@@ -640,7 +640,7 @@ sr-RS:
       no_upcoming_tv_shows: 
       this_month: "Овог месеца"
       this_week: "Ове недеље"
-      view_them: 
+      view_them: "Погледај их"
   add_to_list: "Додај %{media_title} у једну од твојих листи..."
   already_translated_in: "%{page_title} је већ преведен на следеће језике..."
   api_session:
@@ -664,7 +664,7 @@ sr-RS:
     season_list: "Повратак на листу сезона"
     top: "Повратак на врх"
   certifications:
-    meaning: 
+    meaning: "Значење"
     movies:
       AU:
         '1':
@@ -689,11 +689,11 @@ sr-RS:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: "Није препоручљиво за децу испод 12 година."
         '4':
-          meaning: 
+          meaning: "Забрањено за особе испод 16 година."
         '5':
-          meaning: 
+          meaning: "Забрањено за особе испод 18 година."
       BR:
         '1':
           meaning: 
@@ -709,7 +709,7 @@ sr-RS:
           meaning: 
       CA:
         '1':
-          meaning: 
+          meaning: "За све узрасте."
         '2':
           meaning: 
         '3':
@@ -731,7 +731,7 @@ sr-RS:
           meaning: 
       DE:
         '1':
-          meaning: 
+          meaning: "Нема забрана по годинама."
         '2':
           meaning: 
         '3':
@@ -746,9 +746,9 @@ sr-RS:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: "Није препоручљиво за децу испод 7 година."
         '3':
-          meaning: 
+          meaning: "За једанаестогодишњаке и изнад."
         '4':
           meaning: 
         '5':
@@ -1230,7 +1230,7 @@ sr-RS:
         api_support: 
         content_issues: "Проблем са садржајем"
         general: "Опште"
-        general_chat: 
+        general_chat: "Општи разговори"
         moderator_talk: 
         support: "Подршка"
         website_support: "Подршка за сајт"
@@ -1261,7 +1261,7 @@ sr-RS:
     post:
       delete: "Обриши"
       edit: "Измени"
-      hide: 
+      hide: "Сакриј"
       ignore: "Игнориши"
       like: "Свиђа ми се"
       messages:
@@ -1294,11 +1294,11 @@ sr-RS:
       last_reply: "Последњи одговор"
       replies: "Одговори"
       status: "Статус"
-      subject: 
+      subject: "Тема"
     users_in_discussion:
       no_subscribers: 
-      users_in_discussion: 
-    your_account: 
+      users_in_discussion: "Корисници у овој дискусији"
+    your_account: "Твој налог"
   dont_fallback: 
   edit:
     tooltips:
@@ -1341,7 +1341,7 @@ sr-RS:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: "Дискусије"
     tv_shows:
       episode_airs:
         in_days: "Нова епизода се емитује за %{number_of_days} дана"
@@ -1879,14 +1879,14 @@ sr-RS:
     one: "%{count} глас"
     other: "%{count} гласова"
   pagination:
-    currently_on: 
+    currently_on: "Тренутно на страници %{current_page} од %{total_pages}"
     last_page: "Последња страница"
     load_more: "Учитај још"
     next_page: "Следећа страница"
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
-    show_more: 
+    next_page_with_arrow: "Следећа страница →"
+    previous_page: "Претходна страница"
+    previous_page_with_arrow: "← Претходна страница"
+    show_more: "Прикажи више"
   part_of_collection: "Део је %{collection_name}"
   password:
     confirm_new_password: "Потврдите нову лозинку"
@@ -1900,9 +1900,9 @@ sr-RS:
     favorites_movie: "Претражи омиљене филмове..."
     favorites_tv: "Претражи омиљене серије..."
     media_types:
-      movie: 
+      movie: "Филм"
       person: 
-      tv_show: 
+      tv_show: "ТВ серија"
     rated_movie: "Тражи оцењене филмове..."
     rated_tv: "Тражи оцењене серије..."
     recommendations_movie: "Претражи своје личне филмске препоруке..."
@@ -1916,32 +1916,32 @@ sr-RS:
     to_air: "Сезона %{season_number} серије %{show_name} је заказана за премијерно приказивање %{date}."
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: "Подешавање налога"
+      change_password: "Промени лозинку?"
     api:
       api: 
       navigation:
         create: 
         details: "Детаљи"
-        directory: 
-        sessions: 
+        directory: "Директоријум"
+        sessions: "Сесија"
         stats: "Статистика"
     blocked_users:
-      action: 
+      action: "Акција"
       blocked_users: "Блокирани корисници"
-      no_blocked: 
+      no_blocked: "Нисте блокирали ниједног корисника."
       username: "Корисничко име"
     connected_apps:
       connected_apps: 
       listed_below_explanation: 
       no_apps: 
       table:
-        action: 
-        application_name: 
+        action: "Акције"
+        application_name: "Име апликације"
         date_authorised: 
     delete_account:
       delete_account: "Обриши налог"
-      summary_text: 
+      summary_text: "Приступили сте <strong>опасној зони</strong>! Ако желите да наставите и уклоните свој налог, можете учинити то уношењем своје лозинке доле и потврђивањем исте."
     import_list:
       import_button: "Увези"
       import_list: "Увези листу"
@@ -1954,14 +1954,14 @@ sr-RS:
         items: "Ставке"
         local_list: "Локална листа"
         no_imports: 
-        type: 
+        type: "Врста"
       results:
         complete:
-          imported: 
+          imported: "Увезено?"
           item_reasons:
             already_imported: "Већ је увезено."
             cant_find_imdb: 
-          reason: 
+          reason: "Разлог? (ако је примењиво)"
           summary: 
         currently_running: 
         import_results: 
@@ -1978,14 +1978,14 @@ sr-RS:
       account_settings: "Подешавање налога"
       api: 
       blocked_users: "Блокирани корисници"
-      connected_apps: 
+      connected_apps: "Повезане апликације"
       delete_account: "Обриши налог"
       edit_profile: "Ажурирај профил"
       import_list: "Увези листу"
-      notification_settings: 
+      notification_settings: "Подешавање обавештења"
       settings: "Подешавања"
-      sharing_settings: 
-      social_settings: 
+      sharing_settings: "Подешавање дељења"
+      social_settings: "Друштвена подешавања"
     notifications:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
@@ -2009,32 +2009,32 @@ sr-RS:
         use_gravatar: "Користи Граватар?"
       background:
         background_image: "Позадинска слика"
-        remove_background: 
-        set_image: 
+        remove_background: "Уклоните слику позадине?"
+        set_image: "Подесите слику позадине?"
       edit_profile: "Ажурирај профил"
     sharing:
       favorite_list:
-        favorite_settings: 
+        favorite_settings: "Подешавање листе омиљених"
         share_on_twitter: 
-        share_publicly: 
+        share_publicly: "Дели ову листу јавно?"
       rated_list:
         rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        share_publicly: "Дели ову листу јавно?"
+      sharing_settings: "Подешавања дељења"
       watchlist:
         remove_when_rated: 
-        watchlist_settings: 
+        watchlist_settings: "Подешавање листе за погледати"
     social:
       connected_table:
         action: 
         auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
+        connect: "Повежи"
+        connected_to: "Повезано са"
+        info: "Информације"
         reload_text: 
         service: 
       favorite_message_hint: 
-      message_settings: 
+      message_settings: "Подешавање порука"
       sharing_message_hint: 
       social_settings: 
       supported_template_values: 
@@ -2053,7 +2053,7 @@ sr-RS:
   time:
     formats:
       12hour_minutes: 
-  top_contributors: 
+  top_contributors: "Најбољи доприносиоци"
   translation:
     few: "Превода"
     many: "Превода"

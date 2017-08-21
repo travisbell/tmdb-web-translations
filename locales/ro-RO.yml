@@ -69,7 +69,7 @@ ro-RO:
   Apps: Aplicații
   Are you sure?: Sigur doriți acest lucru?
   Attributes: Atribute
-  Auto: 
+  Auto: Automat
   Back to top: "Înapoi sus"
   Backdrop Card View: Vizualizare decoruri
   Backdrops: Decoruri
@@ -79,7 +79,7 @@ ro-RO:
   Birthday: Data nașterii
   Blocked Users: Utilizatori blocați
   Blog: 
-  Branding: 
+  Branding: Marcare
   Budget: Buget
   Cancel: Renunță
   Canceled: Anulat
@@ -95,7 +95,7 @@ ro-RO:
   Clips: Clipuri
   Collection Results: Rezultate colecții
   Collections: Colecții
-  Coming soon!: 
+  Coming soon!: Vine în curând!
   Comments: Comentarii
   Community: Comunitate
   Community Data: Date comunitate
@@ -153,8 +153,8 @@ ro-RO:
   Documentation: Documentație
   Duplicate: Duplicat
   Edit: Editare
-  Edit App: 
-  Edit Data: 
+  Edit App: Editare aplicație
+  Edit Data: Editare date
   Edit Data & Content: Editare date și conținut
   Edit Page: Modificare pagină
   Editing Content: Modificare conținut
@@ -273,7 +273,7 @@ ro-RO:
   Media: Media
   Member since: Membru din
   Merge Keyword: 
-  Miniseries: 
+  Miniseries: Miniserie
   Missing A Biography: Lipsește o biografie
   Missing A Profile Image: Lipsește o imagine de profil
   Mixed Compact View: Vizualizare compactă mixtă
@@ -374,7 +374,7 @@ ro-RO:
   Rated: Votat
   Rated Movies: Filme artistice votate
   Rated TV Shows: Filme seriale votate
-  Rating: 
+  Rating: Evaluare
   Rating Ascending: Notă ascendent
   Rating Descending: Notă descendent
   Ratings: Note
@@ -573,9 +573,9 @@ ro-RO:
         public: Favoritele lui %{username}
     filter_by: 'Filtrare după:'
     filters:
-      date_added: 
-      date_rated: 
-      my_rating: 
+      date_added: Data adăugării
+      date_rated: Data evaluării
+      my_rating: Evaluarea mea
       popularity: Popularitate
       release_date: Data de lansare
       score: Punctaj
@@ -595,7 +595,7 @@ ro-RO:
       favorites: Favorite
       lists: Liste
       overview: Sumar
-      ratings_reviews: 
+      ratings_reviews: Evaluări și recenzii
       recommendations: Recomandări
       watchlist: Listă filme de privit
     order: 'Ordonare:'
@@ -615,17 +615,17 @@ ro-RO:
       rating_overview: 
       recent_activity: Activitatea recentă
       recent_discussions: Dicuții recente
-      total_edits: 
-      total_ratings: 
+      total_edits: Total editări
+      total_ratings: Total evaluări
       upcoming_watchlist: Viitoare din lista de filme de privit
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: Evaluările mele
+        public: Evaluările lui %{username}
       my_reviews:
         logged_in: Recenziile mele
         public: Recenziile lui %{username}
-      ratings_by_year: 
+      ratings_by_year: Evaluări după an
     recommendations:
       my_recommendations: Recomandările mele
       no_recommendations: Nu avem destule date pentru a vă sugera vreo recomandare.
@@ -685,11 +685,11 @@ ro-RO:
           meaning: 
       BG:
         '1':
-          meaning: 
+          meaning: Recomandat pentru copii.
         '2':
-          meaning: 
+          meaning: Fără restricții de vârstă.
         '3':
-          meaning: 
+          meaning: Nu este recomandat pentru copii sub 12 ani.
         '4':
           meaning: 
         '5':
@@ -709,7 +709,7 @@ ro-RO:
           meaning: 
       CA:
         '1':
-          meaning: 
+          meaning: Toate vârstele.
         '2':
           meaning: 
         '3':
@@ -731,7 +731,7 @@ ro-RO:
           meaning: 
       DE:
         '1':
-          meaning: 
+          meaning: Nicio restricție de vârstă.
         '2':
           meaning: 
         '3':
@@ -776,7 +776,7 @@ ro-RO:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: Doar pentru adulți.
         '6':
           meaning: 
       FR:
@@ -829,7 +829,7 @@ ro-RO:
           meaning: 
       NL:
         '1':
-          meaning: 
+          meaning: Toate vârstele.
         '2':
           meaning: 
         '3':
@@ -842,7 +842,7 @@ ro-RO:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Potrivit pentru toți.
         '2':
           meaning: 
         '3':
@@ -1205,11 +1205,11 @@ ro-RO:
       make_private: 
       make_public: 
       mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
+      reopen_discussion: Re-deschide discuția
+      stop_watching: Oprește vizionarea
       view_activity: 
       watch: 
-    admin_panel: 
+    admin_panel: Panou de administrare
     back_options:
       back_to_item_with_arrow: 
       back_to_tmdb_with_arrow: 
@@ -1219,7 +1219,7 @@ ro-RO:
       discuss:
         content_issues: 
         discuss: 
-        general: 
+        general: Generale
         website_support: 
       support:
         api_requests: 
@@ -1232,7 +1232,7 @@ ro-RO:
         support: 
         website_support: 
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} la ora %{time}<br>de către %{username}"
     discussion_activity: 
     email_notifications:
       email_notifications: 
@@ -1247,20 +1247,20 @@ ro-RO:
     login_to_be_notified: 
     new_discussion:
       community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      discussion_category: Categorie
+      for_item: Pentru element
+      new_discussion: Discuție nouă
+      subject: Subiect
+    no_discussions: Nicio discuție.
     pagination:
       post_summary: 
       summary: 
     post:
-      delete: 
-      edit: 
-      hide: 
-      ignore: 
-      like: 
+      delete: "Șterge"
+      edit: Editează
+      hide: Ascunde
+      ignore: Ignoră
+      like: Apreciază
       messages:
         delete_comment: 
         delete_discussion: 
@@ -1270,7 +1270,7 @@ ro-RO:
         mark_as_spam: 
         report_violation: 
         unhide_discussion: 
-      posted_by_with_datetime: 
+      posted_by_with_datetime: postat de către %{username} pe data de %{date} la ora %{time}
       quote: 
       reopen_reply: 
       reply: 
@@ -1295,7 +1295,7 @@ ro-RO:
     users_in_discussion:
       no_subscribers: 
       users_in_discussion: 
-    your_account: 
+    your_account: Contul dumneavoastră
   dont_fallback: Niciuna (Fără limbă de rezervă)
   edit:
     tooltips:
@@ -1341,8 +1341,8 @@ ro-RO:
     tv_shows:
       episode_airs:
         in_days: 
-        today: 
-        tomorrow: 
+        today: Un episod nou va fi difuzat astăzi
+        tomorrow: Un episod nou va fi difuzat mâine
   invalid_aspect_ratio: Acest raport de aspect nu este valid.
   item_count: 
   jobs:
@@ -1591,10 +1591,10 @@ ro-RO:
     Set Decoration: Decorare platou
     Set Decoration Buyer: Cumpărător decorații platou
     Set Designer: Proiectant platou
-    Set Dressing Artist: Artist îmbrăcare
-    Set Dressing Manager: 
-    Set Dressing Production Assistant: 
-    Set Dressing Supervisor: 
+    Set Dressing Artist: Artist îmbrăcăminte platou
+    Set Dressing Manager: Gestionar îmbrăcăminte platou
+    Set Dressing Production Assistant: Asistent de producție îmbrăcăminte platou
+    Set Dressing Supervisor: Supraveghetor îmbrăcăminte platou
     Set Medic: Medic de platou
     Set Production Assistant: Asistent de producție platou
     Set Production Intern: Ucenic de producție platou
@@ -1731,7 +1731,7 @@ ro-RO:
   navigation:
     discover:
       discover: Descoperire
-      movies: 
+      movies: Filme artistice
       tv_shows: Filme seriale
     movies:
       now_playing: Difuzate acum
@@ -1803,8 +1803,8 @@ ro-RO:
     caught_up: 
     clear: 
     good_job: 
-    mark_all_as_read: 
-    refresh: 
+    mark_all_as_read: Marchează toate ca citite
+    refresh: Reîmprospătează
     unread_notifications: 
     view: 
   number:
@@ -1873,13 +1873,13 @@ ro-RO:
     other: "%{count} voturi"
   pagination:
     currently_on: 
-    last_page: 
-    load_more: 
+    last_page: Ultima pagină
+    load_more: "Încarcă mai multe"
     next_page: 
     next_page_with_arrow: 
     previous_page: 
     previous_page_with_arrow: 
-    show_more: 
+    show_more: Arată mai multe
   part_of_collection: Parte din %{collection_name}
   password:
     confirm_new_password: Confirmați parola nouă
@@ -1893,9 +1893,9 @@ ro-RO:
     favorites_movie: Căutare filme artistice favorite...
     favorites_tv: Căutare filme seriale favorite...
     media_types:
-      movie: 
-      person: 
-      tv_show: 
+      movie: Film artistic
+      person: Persoană
+      tv_show: Film serial
     rated_movie: Căutare filme artistice votate...
     rated_tv: Căutare filme seriale votate...
     recommendations_movie: 
@@ -1914,9 +1914,9 @@ ro-RO:
     api:
       api: 
       navigation:
-        create: 
+        create: Creează
         details: Detalii
-        directory: 
+        directory: Director
         sessions: Sesiuni
         stats: Statistici
     blocked_users:
@@ -1931,7 +1931,7 @@ ro-RO:
       table:
         action: Acțiuni
         application_name: Nume aplicație
-        date_authorised: 
+        date_authorised: Data autorizării
     delete_account:
       delete_account: "Ștergere cont"
       summary_text: 
@@ -1973,7 +1973,7 @@ ro-RO:
       blocked_users: Utilizatori blocați
       connected_apps: Aplicații conectate
       delete_account: "Ștergere cont"
-      edit_profile: 
+      edit_profile: Editare profil
       import_list: Importare listă
       notification_settings: Stabiliri notificări
       settings: Stabiliri
@@ -1999,38 +1999,38 @@ ro-RO:
         upload_avatar: 
         upload_own: "Încărcați unul propriu?"
         upload_window_tip: 
-        use_gravatar: 
+        use_gravatar: Folosiți Gravatar?
       background:
         background_image: Imagine de fundal
         remove_background: Vă eliminați imaginea de fundal?
         set_image: Stabiliți o imagine de fundal?
-      edit_profile: 
+      edit_profile: Editare profil
     sharing:
       favorite_list:
         favorite_settings: 
         share_on_twitter: 
         share_publicly: 
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: Stabiliri listă evaluări
+        share_publicly: Distribuiți public această listă?
+      sharing_settings: Stabiliri distribuire
       watchlist:
         remove_when_rated: 
         watchlist_settings: Stabiliri listă filme de privit
     social:
       connected_table:
         action: Acțiune
-        auto_sharing: 
+        auto_sharing: 'Distribuire automată:'
         connect: 
-        connected_to: 
+        connected_to: Conectat la
         info: Informații
         reload_text: 
         service: Serviciu
       favorite_message_hint: 
       message_settings: Stabiliri mesaje
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+      sharing_message_hint: Când se distribuie un element pe Twitter sau Facebook...
+      social_settings: Stabiliri sociale
+      supported_template_values: 'Valorile sprijinite pentru șablon:'
   signup_text: 
   success_approved_access_token: Permisiune acordată!
   success_deleted: Elementul selectat a fost șters cu succes.
