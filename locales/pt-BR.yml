@@ -1169,7 +1169,7 @@ pt-BR:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e de %B de %Y"
-      full_month_year: 
+      full_month_year: "%B de %Y"
       short_month_day_year: "%d de %b de %Y"
     month_names:
     - 
@@ -1226,7 +1226,7 @@ pt-BR:
         content_issues: Conteúdo Incorreto
         discuss: Discussões
         general: Geral
-        website_support: 
+        website_support: Suporte do Site
       support:
         api_requests: Requisições da API
         api_requests_(professional): Requisições da API (Profissional)
@@ -1239,7 +1239,7 @@ pt-BR:
         website_support: Suporte do Site
     category:
       last_reply_with_datetime: "%{date} às %{time}<br>por %{username}"
-    discussion_activity: 
+    discussion_activity: Atividade em discussões
     email_notifications:
       email_notifications: Notificações por e-mail
       subscribe: Inscrever
@@ -1268,18 +1268,18 @@ pt-BR:
     post:
       delete: Deletar
       edit: Editar
-      hide: 
+      hide: Esconder
       ignore: Ignorar
       like: Curtir
       messages:
-        delete_comment: 
+        delete_comment: Ao clicar em "Sim", seu comentário será excluído permanentemente.
         delete_discussion: 
         hide_comment: 
         hide_discussion: 
         ignore_user: 
-        mark_as_spam: 
-        report_violation: 
-        unhide_discussion: 
+        mark_as_spam: Tem certeza de que deseja marcar esta discussão como spam? Ela será excluída automaticamente e não poderá ser restaurada. Marcar discussões como spam nos ajuda a treinar o serviço de detecção de spam que usamos.
+        report_violation: Por favor, confirme que você deseja denunciar este usuário por violação das nossas <a href="/documentation/community/guidelines" target="_blank" rel="noopener">diretrizes da comunidade</a>.
+        unhide_discussion: Ao clicar em "Sim", esta discussão ficará visivel novamente.
       posted_by_with_datetime: postado por %{username} em %{date} às %{time}
       quote: Citar
       reopen_reply: Reabrir e responder
@@ -1287,7 +1287,7 @@ pt-BR:
       reply_by: Resposta por %{username}
       reply_on_datetime: em %{date} às %{time}
       report: Denunciar
-      unhide: 
+      unhide: Desfazer esconder
     report_violation: Relatar uma violação
     search:
       advanced_search: Busca avançada
