@@ -1234,7 +1234,11 @@ de-DE:
         support: Support
         website_support: Webseiten Support
     category:
-      last_reply_with_datetime: "%{date} um %{time}<br>von %{username}"
+      discussions:
+        category:
+          last_reply_with_datetime: 
+          last_reply_with_datetime_and_username: "%{date} um %{time}<br>von %{username}"
+      last_reply_with_datetime_and_username: "%{date} um %{time}<br>von %{username}"
     discussion_activity: 
     email_notifications:
       email_notifications: 

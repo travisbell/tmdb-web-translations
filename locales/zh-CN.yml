@@ -1236,7 +1236,11 @@ zh-CN:
         support: "支持"
         website_support: "网站支持"
     category:
-      last_reply_with_datetime: "%{date} 的 %{time}<br>由 %{username}"
+      discussions:
+        category:
+          last_reply_with_datetime: 
+          last_reply_with_datetime_and_username: "%{date} 的 %{time}<br>由 %{username}"
+      last_reply_with_datetime_and_username: "%{date} 的 %{time}<br>由 %{username}"
     discussion_activity: "活跃讨论"
     email_notifications:
       email_notifications: "电子邮件通知"

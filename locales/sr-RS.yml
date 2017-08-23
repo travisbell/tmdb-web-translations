@@ -1236,7 +1236,11 @@ sr-RS:
         support: "Подршка"
         website_support: "Подршка за сајт"
     category:
-      last_reply_with_datetime: "%{date} у %{time}<br>од стране корисника: %{username}"
+      discussions:
+        category:
+          last_reply_with_datetime: 
+          last_reply_with_datetime_and_username: "%{date} у %{time}<br>од стране корисника: %{username}"
+      last_reply_with_datetime_and_username: "%{date} у %{time}<br>од стране корисника: %{username}"
     discussion_activity: 
     email_notifications:
       email_notifications: "Имејл обавештење"

@@ -1239,7 +1239,11 @@ en-US:
         support: Support
         website_support: Website Support
     category:
-      last_reply_with_datetime: "%{date} at %{time}<br>by %{username}"
+      discussions:
+        category:
+          last_reply_with_datetime: "%{date} at %{time}"
+          last_reply_with_datetime_and_username: "%{date} at %{time}<br>by %{username}"
+      last_reply_with_datetime_and_username: "%{date} at %{time}<br>by %{username}"
     discussion_activity: Discussion Activity
     email_notifications:
       email_notifications: Email Notifications
