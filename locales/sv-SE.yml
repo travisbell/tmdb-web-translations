@@ -519,7 +519,7 @@ sv-SE:
   Upcoming Movies: Kommande filmer
   Update: Uppdatera
   Upload Logo: 
-  User Score: 
+  User Score: 'Användare Betyg '
   Username: Användarnamn
   Video?: Video?
   Videos: Videor
@@ -598,7 +598,7 @@ sv-SE:
       ratings_reviews: Betyg & Recensioner
       recommendations: Rekommendationer
       watchlist: Bevakningslista
-    order: 
+    order: 'Ordning:'
     overview:
       30_day_activity: 30 Dagars Aktivitet
       empty_recent_activity:
@@ -636,8 +636,12 @@ sv-SE:
     watchlist:
       my_watchlist: Min Bevakningslista
       next_month: Nästa månad
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        one: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
+        other: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
+      no_upcoming_tv_shows:
+        one: Det finns inga kommande TV-serier på din bevakningslista. Det finns däremot %{count} föremål på din bevakningslista.
+        other: Det finns inga kommande TV-serier på din bevakningslista. Det finns däremot %{count} föremål på din bevakningslista.
       this_month: Denna månad
       this_week: Denna vecka
       view_them: Visa dem.
@@ -1129,7 +1133,7 @@ sv-SE:
       '6': 
       '7': 
       '8': 
-      '9': 
+      '9': Nästan där...
   date:
     abbr_day_names:
     - Sön
@@ -1163,9 +1167,9 @@ sv-SE:
     - Lördag
     formats:
       abbrev: "%-d %b %Y"
-      default: "%Y-%M-%D"
+      default: "%Y-%m-%d"
       full_month_day: "%e %B, %Y"
-      full_month_year: 
+      full_month_year: "%B %Y"
       short_month_day_year: "%d %b, %Y"
     month_names:
     - 
@@ -1273,7 +1277,7 @@ sv-SE:
         delete_discussion: 
         hide_comment: 
         hide_discussion: 
-        ignore_user: 
+        ignore_user: 'Är du säker på att du vill blockera denna användaren? Alla deras diskussioner och kommentarer kommer att försvinna. Du kan ta bort denna blockeringen genom att gå till "Blockerade Användare" sidan i dina konto inställningar.  '
         mark_as_spam: 
         report_violation: 
         unhide_discussion: 
