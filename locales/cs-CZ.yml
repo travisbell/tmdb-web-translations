@@ -1169,8 +1169,8 @@ cs-CZ:
       abbrev: "%-d %b %Y"
       default: "%-d. %-m. %Y"
       full_month_day: "%d.%m.%Y"
-      full_month_year: 
-      short_month_day_year: 
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d. %b. %Y"
     month_names:
     - 
     - Leden
@@ -1207,85 +1207,91 @@ cs-CZ:
     Writing: Scénář
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      actions: Akce
+      close_discussion: Zavřít diskusi
+      make_private: Označit jako  soukromé
+      make_public: Označit jako veřejné
+      mark_spam: Označit jako spam
+      reopen_discussion: Znovu otevřít diskuzi
+      stop_watching: Přestat sledovat
+      view_activity: Zobrazit aktivitu
+      watch: Sledovat
+    admin_panel: Panel pro správu
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Zpět na %{item_title}"
+      back_to_tmdb_with_arrow: "← Zpět na TMDb"
+      back_with_arrow: "← Zpět"
     categories:
-      categories: 
+      categories: Kategorie
       discuss:
-        content_issues: 
-        discuss: 
-        general: 
-        website_support: 
+        content_issues: Problémy s obsahem
+        discuss: Diskuse
+        general: Obecné
+        website_support: Podpora webových stránek
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        general_chat: 
+        api_requests: Požadavky na API
+        api_requests_(professional): Požadavky na API (Profesionální)
+        api_support: Podpora API
+        content_issues: Problémy s obsahem
+        general: Obecné
+        general_chat: Obecný chat
         moderator_talk: 
-        support: 
-        website_support: 
+        support: Podpora
+        website_support: Podpora webových stránek
     category:
-      last_reply_with_datetime: 
-      last_reply_with_datetime_and_username: 
-    discussion_activity: 
+      last_reply_with_datetime: "%{date} v %{time}"
+      last_reply_with_datetime_and_username: "%{date} v %{time}<br>od %{username}"
+    discussion_activity: Aktivita v diskusi
     email_notifications:
-      email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      email_notifications: Oznámení e-mailem
+      subscribe: Přihlásit odběr
+      unsubscribe: Odhlásit odběr
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
+      discuss: Diskuse
+      discuss_item: Diskuse o %{item_title}
+      lets_chat: Pokecáme
+      support: Podpora
+      support_title: Podpora The Movie Database
     login_to_be_notified: 
     new_discussion:
       community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      discussion_category: Kategorie
+      for_item: Pro položku
+      new_discussion: Nová diskuse
+      subject: Předmět
+    no_discussions: "Žádné diskuse."
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        few: "%{count} odpovědi (na stránce %{current_page} z %{total_pages})"
+        one: "%{count} odpověď (na stránce %{current_page} z %{total_pages})"
+        other: "%{count} odpovědí (na stránce %{current_page} z %{total_pages})"
+      summary:
+        few: "%{count} diskuse, aktuálně na stránce %{current_page} z %{total_pages}"
+        one: "%{count} diskuse, aktuálně na stránce %{current_page} z %{total_pages}"
+        other: "%{count} diskusí, aktuálně na stránce %{current_page} z %{total_pages}"
     post:
-      delete: 
-      edit: 
-      hide: 
-      ignore: 
-      like: 
+      delete: Odstranit
+      edit: Upravit
+      hide: Skrýt
+      ignore: Ignorovat
+      like: To se mi líbí
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
-        hide_discussion: 
+        delete_comment: Kliknutím na ‚Ano‘ bude tento obsah trvale odstraněn.
+        delete_discussion: Kliknutím na ‚Ano‘ bude tato diskuse trvale odstraněna.
+        hide_comment: Kliknutím na ‚Ano‘ bude tento komentář skryt.
+        hide_discussion: Kliknutím na ‚Ano‘ bude tato diskuse skryta.
         ignore_user: 
         mark_as_spam: 
         report_violation: 
-        unhide_discussion: 
-      posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 
-      unhide: 
+        unhide_discussion: Kliknutím na ‚Ano‘ bude tato diskuse znovu zviditelněna.
+      posted_by_with_datetime: zveřejnil  %{username} %{date} v %{time}
+      quote: Citovat
+      reopen_reply: Znovu otevřít a odpovědět
+      reply: Odpovědět
+      reply_by: Odpověď od %{username}
+      reply_on_datetime: "%{date} v %{time}"
+      report: Nahlásit
+      unhide: Zobrazit
     report_violation: Nahlásit porušení podmínek
     search:
       advanced_search: 
@@ -1303,7 +1309,7 @@ cs-CZ:
     users_in_discussion:
       no_subscribers: 
       users_in_discussion: 
-    your_account: 
+    your_account: Váš účet
   dont_fallback: "Žádný (Bez záložního)"
   edit:
     tooltips:
@@ -1345,7 +1351,7 @@ cs-CZ:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: Diskuse
     tv_shows:
       episode_airs:
         in_days: Nová epizoda se vysílá za %{number_of_days} dní
@@ -1813,12 +1819,12 @@ cs-CZ:
     public: Stránka %{page_title} nebyla zatím přeložena do jazyka <strong>%{requested_i18n} (%{requested_language_text})</strong>. Tento překlad můžete přidat <a href="%{signup_link}">zaregistrováním</a> účtu a <a href="%{login_link}">přihlášením se</a>.
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    clear: Vymazat
+    good_job: Dobrá práce!
+    mark_all_as_read: Označit vše jako přečtené
+    refresh: Aktualizovat
+    unread_notifications: Nepřečtená oznámení
+    view: Zobrazit
   number:
     currency:
       format:
@@ -1884,14 +1890,14 @@ cs-CZ:
     one: "%{count} hlas"
     other: "%{count} hlasů"
   pagination:
-    currently_on: 
-    last_page: 
+    currently_on: Aktuálně na stránce %{current_page} z %{total_pages}
+    last_page: Poslední stránka
     load_more: Načíst další
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
-    show_more: 
+    next_page: Další stránka
+    next_page_with_arrow: Další stránka →
+    previous_page: Předchozí stránka
+    previous_page_with_arrow: "← Předchozí stránka"
+    show_more: Zobrazit více
   part_of_collection: Součástí %{collection_name}
   password:
     confirm_new_password: Potvrďte nové heslo
@@ -1905,9 +1911,9 @@ cs-CZ:
     favorites_movie: Hledat oblíbené filmy…
     favorites_tv: Hledat oblíbené seriály…
     media_types:
-      movie: 
-      person: 
-      tv_show: 
+      movie: Film
+      person: Osoba
+      tv_show: Seriál
     rated_movie: Hledat hodnocené filmy…
     rated_tv: Hledat hodnocené seriály…
     recommendations_movie: Hledat vaše osobní doporučení filmů…
@@ -2060,7 +2066,7 @@ cs-CZ:
   success_sharing: Vaše zpráva byla úspěšně sdílena.
   time:
     formats:
-      12hour_minutes: 
+      12hour_minutes: "%l:%M%p"
   top_contributors: Nejlepší přispěvatelé
   translation:
     few: překlady
