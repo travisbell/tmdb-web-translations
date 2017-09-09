@@ -7,16 +7,16 @@ es-ES:
   API Key: Clave de la API
   API Libraries: Librerías API
   API Read Access Token: Token de acceso de lectura a la API
-  API Stats: 
+  API Stats: Estadísticas API
   API Terms: Términos de API
   API Updates: Actualizaciones de API
-  About: 
-  About TMDb: Acerca de TMDb
+  About: Acerca de
+  About TMDb: Acerca TMDb
   About this list: Acerca de esta lista
   Accept: Aceptar
   Accept API Terms: Aceptar los términos de la API
   Account: Cuenta
-  Account Filtering: 
+  Account Filtering: Filtrar cuentas
   Add Alternative Name: Añadir nombre alternativo
   Add Alternative Title: Añadir título alternativo
   Add Backdrop: Añadir Imagen de fondo
@@ -58,18 +58,18 @@ es-ES:
   Alternative Names: Nombres alternativos
   Alternative Titles: Títulos Alternativos
   Apiary Documentation: Documentación de la API
-  App Directory: 
+  App Directory: Directorio de Apps
   App Showcase: Muestrario de Aplicaciones
-  Application Description: 
+  Application Description: Descripción de App
   Application Name: Nombre de la Aplicación
   Application Summary: Resumen de la Aplicación
   Application URL: URL de la Aplicación
   Approve: Aprobar
-  Approved?: 
+  Approved?: Aprobada ?
   Apps: Aplicaciones
   Are you sure?: "¿Estás seguro?"
-  Attributes: 
-  Auto: 
+  Attributes: Características
+  Auto: Auto
   Back to top: Volver arriba
   Backdrop Card View: Vista de Imágenes de Fondo
   Backdrops: Imágenes de Fondo
@@ -77,14 +77,14 @@ es-ES:
   Best Match: Mejor búsqueda
   Biography: Biografía
   Birthday: Fecha de nacimiento
-  Blocked Users: 
-  Blog: 
-  Branding: 
+  Blocked Users: Usuarios bloqueados
+  Blog: Blog
+  Branding: Marcado
   Budget: Presupuesto
   Cancel: Cancelar
   Canceled: Cancelada
   Cast: Reparto
-  Categories: 
+  Categories: Categorías
   Certification: Certificación
   Change?: 
   Changes: Cambios
@@ -552,174 +552,178 @@ es-ES:
   Your rating: 
   Zip Code: Código Postal
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: Discusión
+    edit_profile: Editar perfil
+    lists: Listas
+    logout: Salir
+    settings: Settings
+    view_profile: Ver perfil
+    watchlist: Lista de pendientes
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Media<br>Puntuación película
+    average_tv_score: Media<br>Puntuación TV
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: Mis mensajes activos
+      my_discussions: Mis mensajes
+      not_watching: No sigues ninguna discusión
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
-    filter_by: 
+        logged_in: Mis favoritos
+        public: "%{username}'s Favoritos"
+    filter_by: 'Filtrar por:'
     filters:
-      date_added: 
-      date_rated: 
-      my_rating: 
-      popularity: 
-      release_date: 
-      score: 
-      upcoming: 
+      date_added: Fecha añadido
+      date_rated: Fecha votado
+      my_rating: Mi clasificación
+      popularity: Popularidad
+      release_date: Fecha de estreno
+      score: Puntuación
+      upcoming: Próximamente
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Lista creada
+      last_updated: Actualizado
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: Mis listas
+        public: "%{username}'s listas"
       no_lists:
-        logged_in: 
-        public: 
-    member_since: 
+        logged_in: No has creado ninguna lista
+        public: "%{username} no tiene ninguna lista pública para compartir"
+    member_since: Miembro desde %{date}
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    order: 
+      discussions: Discusiones
+      favorites: Favoritos
+      lists: Listas
+      overview: Vistazo
+      ratings_reviews: Votos & Reseñas
+      recommendations: Recomendaciones
+      watchlist: Lista de pendientes
+    order: 'Orden:'
     overview:
-      30_day_activity: 
+      30_day_activity: Actividad en 30 días
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: No has editado nada recientemente
+        public: "%{username} no ha hecho ninguna edición recientemente"
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: No hay ninguna próxima película en tu lista de pendientes
       empty_watched_genres:
-        logged_in: 
-        public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+        logged_in: No has registrado ninguna película o programa de TV
+        public: "%{username} no ha registrado ninguna película o programa de TV"
+      goto_discussions: Ir a discusiones
+      goto_watchlist: Ir a lista de pendientes
+      most_watched_genres: Géneros más vistos
+      rating_overview: Descripción de los votos
+      recent_activity: Actividad reciente
+      recent_discussions: Discusiones recientes
+      total_edits: Total de ediciones
+      total_ratings: Total de votos
+      upcoming_watchlist: Proximamente de lista de pendientes
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: Mis votos
+        public: Votos de %{username}
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: 
+        logged_in: Mis reseñas
+        public: Reseñas de %{username}
+      ratings_by_year: Votos por año
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
+      my_recommendations: Mis recomendaciones
+      no_recommendations: No tenemos suficientes datos para sugerirte ninguna recomendación
+      no_recommendations_helper: Prueba a añadir más favoritas (cuántas más mejor) y vuelve para ver como lo hicimos
     tips:
-      import_imdb_ratings: 
+      import_imdb_ratings: Puedes importar tus votos de IMDb.
       tip: 
     watchlist:
-      my_watchlist: 
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
-      this_month: 
-      this_week: 
-      view_them: 
-  add_to_list: 
+      my_watchlist: Mi lista de pendientes
+      next_month: Próximo mes
+      no_upcoming_movies:
+        one: No hay próximas películas en tu lista de pendientes. Sin embargo, hay %{count} elementos en tu lista de pendientes
+        other: No hay próximas películas en tu lista de pendientes. Sin embargo, hay %{count} elementos en tu lista de pendientes
+      no_upcoming_tv_shows:
+        one: No hay próximos programas de TV en tu lista de pendientes. Sin embargo, hay %{count} elementos en tu lista de pendientes
+        other: No hay próximos programas de TV en tu lista de pendientes. Sin embargo, hay %{count} elementos en tu lista de pendientes
+      this_month: Este mes
+      this_week: Esta semana
+      view_them: Verlos
+  add_to_list: Añadir %{media_title} a una de tus listas
   already_translated_in: "%{page_title} ya está traducida en los siguientes idiomas..."
   api_session:
-    approved_session: 
-    continue: 
+    approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
+    continue: Si quieres continuar, haz click en aprobar. Si no, simplemente cierra esta ventana.
   attributes:
-    biography: 
+    biography: Biografía
     certification: Certificación
-    external_href: 
+    external_href: URL
     iso_3166_1: País
     iso_639_1: Idioma
-    overview: 
+    overview: Resumen
     title: Título
   average edits per day: promedio de ediciones por día
   back_options:
-    episode: 
-    episode_list: 
-    home: 
-    main: 
-    season: 
-    season_list: 
-    top: 
+    episode: Volver al episodio
+    episode_list: Volver a la lista de episodios
+    home: Volver al inicio
+    main: Volver al principal
+    season: Volver a la temporada
+    season_list: Volver a lista de temporadas
+    top: Volver arriba
   certifications:
-    meaning: 
+    meaning: Significado
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Exento de clasificación. Las películas que están exentas de clasificación no deben contener material.
         '2':
-          meaning: 
+          meaning: General. El contenido es muy suave
         '3':
-          meaning: 
+          meaning: Guía parental recomendada. No hay restricción de edad. El contenido es suave.
         '4':
-          meaning: 
+          meaning: Recomendado para gente adulta. No hay restricción de edad. El contenido es moderado.
         '5':
-          meaning: 
+          meaning: Acompañado de adultos. Inadecuado para menores de 15. Los niños menores de 15 años deberán ir acompañados de su padre o tutor. El contenido es fuerte.
         '6':
-          meaning: 
+          meaning: Restringido a mayores de 18. Sólo adultos. El contenido es muy fuerte.
         '7':
           meaning: 
         '8':
           meaning: 
       BG:
         '1':
-          meaning: 
+          meaning: Recomendada para niños.
         '2':
-          meaning: 
+          meaning: Sin restricciones de edad.
         '3':
-          meaning: 
+          meaning: No recomendada para manores de 12.
         '4':
-          meaning: 
+          meaning: No recomendada para manores de 16.
         '5':
-          meaning: 
+          meaning: Prohibida para menores de 18.
       BR:
         '1':
-          meaning: 
+          meaning: Para todos los públicos. No expongan a los niños a contenido potencialmente perjudicial.
         '2':
-          meaning: 
+          meaning: No recomendada para menores de 10. Contenido violento o lenguaje inapropiado, aunque sea suave.
         '3':
-          meaning: 
+          meaning: No recomendada para menores de 12. Hay escenas que incluyen agresión física, uso de drogal legales o contenido sexual.
         '4':
-          meaning: 
+          meaning: No recomendada para menores de 14. Más material violento, fuerte contenido sexual y desnudez.
         '5':
-          meaning: 
+          meaning: No recomendada para menores de 16. Hay escenas con tráfico y/o uso de drogas ilegales, sexo realista, violencia sexual, aborto, tortura, mutilación, suicidio y trivialización de la violencia y la pena de muerte.
         '6':
-          meaning: 
+          meaning: No recomendada para menores de 18. Escenas de sexo explícito, incesto, pedofilia, elogios del uso de las drogas ilegales y violencia de muy alta intensidad.
       CA:
         '1':
-          meaning: 
+          meaning: Todas las edades.
         '2':
-          meaning: 
+          meaning: Guía parental recomendada. No hay restricción de edad pero alguna escena no es recomendable para los niños.
         '3':
-          meaning: 
+          meaning: Los menorres de 14 deben estar acompañados de un adulto.
         '4':
-          meaning: 
+          meaning: Los menores de 18 deben estar acompañados de un adulto. En Maritimes & Manitoba, los menores de 14 tienen prohibido verla.
         '5':
-          meaning: 
+          meaning: Restringido a menores de 18. El único propósito de la película es representar actividad sexual explícita y/o violencia explícita.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Sin información
         '1':
           meaning: 
         '2':
