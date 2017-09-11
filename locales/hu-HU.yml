@@ -86,7 +86,7 @@ hu-HU:
   Cast: Szereposztás
   Categories: Kategóriák
   Certification: Certifikáció
-  Change?: 
+  Change?: Változtatnál?
   Changes: Szerkesztések
   Character: Szerep
   City: Város
@@ -250,7 +250,6 @@ hu-HU:
   Lists: Listák
   Load More: Több betöltése
   Locked?: Zárt?
-  Login: Bejelentkezés
   Login to Add a Backdrop: Bejelentkezés háttérkép hozzáadásához
   Login to Add a Poster: Bejelentkezés poszter hozzáadásához
   Login to Add a Video: Bejelentkezés videó hozzáadásához
@@ -436,7 +435,6 @@ hu-HU:
   Sharing: Megosztás
   Show: 
   Show More: További
-  Sign Up: Regisztrálj
   Sign up for an account: Hozz létre egy új fiókot
   Size: Méret
   Social: Közösség
@@ -552,27 +550,29 @@ hu-HU:
   Your rating: A te értékelésed
   Zip Code: Irányítószám
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
-    logout: 
-    settings: 
-    view_profile: 
-    watchlist: 
+    discussions: Beszélgetések
+    edit_profile: Profil szerkesztése
+    lists: Listák
+    login: Bejelentkezés
+    logout: Kijelentkezés
+    settings: Beállítások
+    sign_up: Regisztrálj
+    view_profile: Profil megtekintése
+    watchlist: Megnézendők listája
   accounts:
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Film értékelésied<br>átlaga
+    average_tv_score: Tévéfilm értékeléseid<br>átlaga
     discussions:
       my_active_boards: 
       my_discussions: 
       not_watching: 
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
-    filter_by: 
+        logged_in: Kedvenceim
+        public: "%{username} kedvencei"
+    filter_by: 'Szűrés:'
     filters:
-      date_added: 
+      date_added: Hozzáadás dátuma
       date_rated: 
       my_rating: 
       popularity: 
@@ -588,20 +588,20 @@ hu-HU:
       no_lists:
         logged_in: 
         public: 
-    member_since: 
+    member_since: 'Tagság kezdete: %{date}'
     navigation:
       discussions: 
       favorites: 
       lists: 
-      overview: 
+      overview: "Áttekintés"
       ratings_reviews: 
       recommendations: 
       watchlist: 
     order: 
     overview:
-      30_day_activity: 
+      30_day_activity: Aktivitásod az elmúlt 30 napban
       empty_recent_activity:
-        logged_in: 
+        logged_in: A közelmúltban nem szerkesztettél semmit.
         public: 
       empty_upcoming_watchlist:
         logged_in: 
@@ -609,13 +609,13 @@ hu-HU:
         logged_in: 
         public: 
       goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
+      goto_watchlist: Ugrás a megnézendők listájához
+      most_watched_genres: Legtöbbet nézett műfajok
+      rating_overview: "Értékelés áttekintés"
       recent_activity: 
       recent_discussions: 
-      total_edits: 
-      total_ratings: 
+      total_edits: "Összes szerkesztés"
+      total_ratings: "Összes értékelés"
       upcoming_watchlist: 
     ratings_reviews:
       my_ratings:
@@ -1953,7 +1953,7 @@ hu-HU:
         in_progress:
           import_status: 
           summary: 
-      select_csv: 
+      select_csv: CSV fájl kiválasztása
       type:
         favorite: 
         rated: 
@@ -1965,7 +1965,7 @@ hu-HU:
       blocked_users: 
       connected_apps: 
       delete_account: 
-      edit_profile: 
+      edit_profile: Profil szerkesztése
       import_list: 
       notification_settings: 
       settings: 
@@ -1977,7 +1977,7 @@ hu-HU:
       new_replies_to_threads_watching: 
       notifications: 
     profile:
-      accent_color: 
+      accent_color: Domináns szín
       avatar:
         current_avatar: Jelenlegi profilkép
         explain: Pillanatnyilag csak a <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> által szolgáltatott egyedi profilképet tudjuk megjeleníteni. Amennyiben egyedi profilképet szeretnél beállítani a TMDb-n, a Gravatar honlapján ugyanazzal az email címmel jelentkezz be, amelyiket itt használtál a regisztráció során - így tudjuk összekötni a felhasználói fiókoddal. Ha ezzel megvagy, kattints az alábbi gombra, és frissítjük a profilképedet.
@@ -1990,12 +1990,12 @@ hu-HU:
         updated: Profilkép sikeresen frissítve.
         upload_avatar: Profilkép feltöltése
         upload_own: Feltöltesz saját fotót?
-        upload_window_tip: 
+        upload_window_tip: Használd a fájl választót alább, hogy feltöltsd a saját egyéni profilképed. Automatikusan négyzet alakúra vágjuk, ha még nem tetted volna meg előtte.
         use_gravatar: Gravatar használata?
       background:
-        background_image: 
-        remove_background: 
-        set_image: 
+        background_image: Háttérkép
+        remove_background: Eltávolítanád a háttérképet?
+        set_image: Beállítanál egy háttérképet?
       edit_profile: 
     sharing:
       favorite_list:
