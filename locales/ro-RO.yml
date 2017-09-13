@@ -338,7 +338,7 @@ ro-RO:
   Place of Birth: Locul nașterii
   Planned: Planificat
   Play: Redă
-  Play Trailer: 
+  Play Trailer: Redă secvențele
   Plot Keywords: Cuvinte cheie intrigă
   Popular Lists: Liste populare
   Popular Movies: Filme artistice populare
@@ -352,7 +352,7 @@ ro-RO:
   Poster Card View: Vizualizare cartele afișe
   Posters: Afișe
   Powered by TMDb: Furnizat de TMDb
-  Powered by The Movie Database: 
+  Powered by The Movie Database: Alimentat de Baza de date de filme (The Movie Database)
   Premiere: Premieră
   Preview: Previzualizare
   Previous Episode: Episod anterior
@@ -560,6 +560,18 @@ ro-RO:
     view_profile: Vizualizare profil
     watchlist: Listă de privit
   accounts:
+    activity:
+      activity: 
+      legend:
+        added: 
+        created: 
+        deleted: 
+        updated: 
+      table:
+        action: 
+        edit: 
+        key: 
+        language_abbreviation: 
     average_movie_score: Punctaj mediu<br>Filme artistice
     average_tv_score: Punctaj mediu<br>Filme seriale
     discussions:
@@ -692,9 +704,9 @@ ro-RO:
         '3':
           meaning: Nu este recomandat pentru copii sub 12 ani.
         '4':
-          meaning: 
+          meaning: Inerzis persoanelor sub 16 ani.
         '5':
-          meaning: 
+          meaning: Interzis persoanelor sub 18 ani.
       BR:
         '1':
           meaning: 
@@ -1201,27 +1213,27 @@ ro-RO:
     Writing: Scriere
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
+      actions: Acțiuni
+      close_discussion: "Închide discuția"
+      make_private: Fă-o privată
+      make_public: Fă-o publică
+      mark_spam: Marchează ca spam
       reopen_discussion: Re-deschide discuția
       stop_watching: Oprește vizionarea
       view_activity: 
       watch: 
     admin_panel: Panou de administrare
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Înapoi la %{item_title}"
+      back_to_tmdb_with_arrow: "← Înapoi la TMDb"
+      back_with_arrow: "← Înapoi"
     categories:
-      categories: 
+      categories: Categorii
       discuss:
         content_issues: 
         discuss: 
         general: Generale
-        website_support: 
+        website_support: Sprijin sit web
       support:
         api_requests: 
         api_requests_(professional): 
@@ -1239,12 +1251,12 @@ ro-RO:
     email_notifications:
       email_notifications: 
       subscribe: 
-      unsubscribe: 
+      unsubscribe: Dezabonează
     headers:
       discuss: 
       discuss_item: 
       lets_chat: 
-      support: 
+      support: Sprijin
       support_title: 
     login_to_be_notified: 
     new_discussion:
@@ -1277,14 +1289,14 @@ ro-RO:
       reopen_reply: 
       reply: 
       reply_by: 
-      reply_on_datetime: 
+      reply_on_datetime: pe data de %{date} la ora %{time}
       report: 
-      unhide: 
+      unhide: Dezascunde
     report_violation: 
     search:
-      advanced_search: 
+      advanced_search: Căutare avansată
       search_closed: 
-      search_forums: 
+      search_forums: Căutare în forumuri...
       search_open: 
     statuses:
       closed: 
@@ -1295,8 +1307,8 @@ ro-RO:
       status: Stare
       subject: Subiect
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Niciun abonat
+      users_in_discussion: Utilizatori în această discuție
     your_account: Contul dumneavoastră
   dont_fallback: Niciuna (Fără limbă de rezervă)
   edit:
@@ -1636,12 +1648,12 @@ ro-RO:
     Still Photographer: 
     Story: Poveste
     Storyboard: 
-    Studio Teachers: 
+    Studio Teachers: "Învățători destudiou"
     Stunt Coordinator: Coordonator cascadorie
     Stunt Double: Dublură cascador
     Stunts: Cascadorii
     Stunts Coordinator: Coordonator cascadorii
-    Supervising Animator: 
+    Supervising Animator: Animator supraveghetor
     Supervising Art Director: 
     Supervising Film Editor: 
     Supervising Producer: 
@@ -1725,9 +1737,9 @@ ro-RO:
       discussions:
         currently_subscribed: 
         no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        unsubscribe_me: Dezabonează-mă.
+        want_to_be_notified: Doriți să fiți notificat când cineva face primul post?
+        yes_notify_me: Da, notifică-mă!
   month:
     few: luni
     one: lună
@@ -1879,10 +1891,10 @@ ro-RO:
     currently_on: 
     last_page: Ultima pagină
     load_more: "Încarcă mai multe"
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
+    next_page: Pagina următoare
+    next_page_with_arrow: Pagina următoare →
+    previous_page: Pagina anterioară
+    previous_page_with_arrow: "← Pagina anterioară"
     show_more: Arată mai multe
   part_of_collection: Parte din %{collection_name}
   password:
@@ -1957,7 +1969,7 @@ ro-RO:
         imported: Importată
         items: Elemente
         local_list: Listă locală
-        no_imports: 
+        no_imports: Nu ați importat nicio listă.
         type: Tip
       results:
         complete:
@@ -1996,7 +2008,7 @@ ro-RO:
       new_replies_to_threads_watching: 
       notifications: Notificări
     profile:
-      accent_color: 
+      accent_color: Culoare accent
       avatar:
         current_avatar: Avatarul actual
         explain: 
@@ -2032,7 +2044,7 @@ ro-RO:
       connected_table:
         action: Acțiune
         auto_sharing: 'Distribuire automată:'
-        connect: 
+        connect: Conectare
         connected_to: Conectat la
         info: Informații
         reload_text: 

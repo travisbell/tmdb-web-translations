@@ -213,18 +213,18 @@ es-ES:
   Help: Ayuda
   Help Us By Contributing Missing Data: Ayúdanos aportando los datos que falten
   Hi: Hola
-  Hide favorites?: 
-  Hide items on watchlist?: 
-  Hide rated?: 
+  Hide favorites?: Ocultar favoritos?
+  Hide items on watchlist?: Ocultar elementos en la lista de pendientes?
+  Hide rated?: Ocultar las votadas?
   Home: Inicio
   Homepage: Inicio
   IMDB ID: ID de IMDB
   Images: Imágenes
   Import CSV: Importar CSV
-  Import List: 
+  Import List: Importar lista
   In Production: En Producción
   In Theaters: En Cines
-  Include Adult Items in Search?: 
+  Include Adult Items in Search?: Incluir películas de adultos en la búsqeda?
   Incorrect Content: Contenido Incorrecto
   Info: Información
   Job: Trabajo
@@ -560,6 +560,18 @@ es-ES:
     view_profile: Ver perfil
     watchlist: Lista de pendientes
   accounts:
+    activity:
+      activity: 
+      legend:
+        added: 
+        created: 
+        deleted: 
+        updated: 
+      table:
+        action: 
+        edit: 
+        key: 
+        language_abbreviation: 
     average_movie_score: Media<br>Puntuación película
     average_tv_score: Media<br>Puntuación TV
     discussions:
@@ -1346,15 +1358,17 @@ es-ES:
     min: Filtro por fecha de estreno (Min)
   homepage:
     discussions:
-      catch_up_now: 
-      discussions: 
+      catch_up_now: Ponte ahora.
+      discussions: Discusiones
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: El nuevo episodio se retransmite en %{number_of_days} días
+        today: El nuevo episodio se retransmite hoy
+        tomorrow: El nuevo episodio se retransmite mañana.
   invalid_aspect_ratio: La relación de aspecto no es válida.
-  item_count: 
+  item_count:
+    one: "%{count} elemento"
+    other: "%{count} elementos"
   jobs:
     24 Frame Playback: Reproducción 24 Fotogramas
     3D Director: Director 3D
@@ -1367,7 +1381,7 @@ es-ES:
     Additional Dialogue: Guión Adicional
     Additional Editing: Edición adicional
     Additional Editorial Assistant: Ayudante Editorial Adicional
-    Additional Effects Development: Desarrollo de Efectos Adicional
+    Additional Effects Development: Desarrollo de Efectos Adicionales
     Additional Music: Música Adicional
     Additional Music Supervisor: Supervisor de Música Adicional
     Additional Photography: Fotografía Adicional
@@ -1378,16 +1392,16 @@ es-ES:
     Animation Department Coordinator: Coordinador del Departamento de Animación
     Animation Director: Director de Animación
     Animation Fix Coordinator: Coordinador de Ajustes de Animación
-    Animation Manager: Gerente de Animación
+    Animation Manager: Manager de Animación
     Animation Production Assistant: Ayudante de Producción de Animación
     Animation Supervisor: Supervisor de Animación
     Animatronic and Prosthetic Effects: Efectos de Animatrónica y Protésicos
     Archival Footage Coordinator: Coordinador de Material de Archivo
     Archival Footage Research: Investigación de Material de Archivo
     Armorer: Armero
-    Art Department Assistant: Ayudante de Departamento de Arte
-    Art Department Coordinator: Coordinador de Departamento de Arte
-    Art Department Manager: Gerente de Departamento de Arte
+    Art Department Assistant: Ayudante de Departamento Artístico
+    Art Department Coordinator: Coordinador de Departamento Artístico
+    Art Department Manager: Manager de Departamento Artístico
     Art Direction: Dirección Artística
     Assistant Art Director: Ayudante de Dirección Artística
     Assistant Costume Designer: Ayudante de Diseñador de Vestuario
@@ -1398,8 +1412,8 @@ es-ES:
     Author: Autor
     Background Designer: Diseñador de Escenarios
     Battle Motion Coordinator: Coordinador de Escenas de Combate
-    Best Boy Electric: Asistente de Electricidad
-    Best Boy Electrician: Ayudante de Electricista
+    Best Boy Electric: Asistente Eléctrico
+    Best Boy Electrician: Asistente Eléctrico
     Book: Libro
     Boom Operator: Operador de Micrófono
     CG Engineer: Ingeniero de CG
@@ -1408,52 +1422,52 @@ es-ES:
     CGI Supervisor: Supervisor de CGI
     Cableman: Instalador de Cable
     Cameo: Cameo
-    Camera Department Manager: Gerente de Departamento de Cámara
+    Camera Department Manager: Manager de Departamento de Cámara
     Camera Intern: Aprendiz de Cámara
     Camera Operator: Operador de Cámara
     Camera Supervisor: Supervisor de Cámara
     Camera Technician: Técnico de Cámara
     Carpenter: Carpintero
     Casting: Casting
-    Casting Associate: Asociado de Casting
+    Casting Associate: Casting Asociado
     Character Technical Supervisor: Supervisor Técnico de Personajes
     Characters: Personajes
     Chef: Cocinero
     Chief Technician / Stop-Motion Expert: Técnico / Experto en Stop-Motion
     Choreographer: Coreógrafo
     Cinematography: Cinematografía
-    Cloth Setup: 
-    Co-Art Director: Codirector de Arte
-    Co-Costume Designer: Codiseñador de Vestuario
-    Co-Executive Producer: Coproductor Ejecutivo
-    Co-Producer: Coproductor
-    Co-Writer: Coguionista
+    Cloth Setup: Configurador de Vestuario
+    Co-Art Director: Co-Director Artístico
+    Co-Costume Designer: Co-Diseñador de Vestuario
+    Co-Executive Producer: Co-Productor Ejecutivo
+    Co-Producer: Co-Productor
+    Co-Writer: Co-Guionista
     Color Designer: Diseñador de Color
-    Color Timer: 
-    Comic Book: 
-    Commissioning Editor: 
+    Color Timer: Temporizador de Color
+    Comic Book: Cómic
+    Commissioning Editor: Editor comisionado
     Compositors: Compositores
     Conceptual Design: Diseño Conceptual
-    Construction Coordinator: Coordinador de Construcciones
-    Construction Foreman: Encargado de Construcciones
+    Construction Coordinator: Coordinador de Construcción
+    Construction Foreman: Capataz de construcción
     Consulting Producer: Productor Consultivo
     Costume Design: Diseño de Vestuario
     Costume Supervisor: Supervisor de Vestuario
-    Craft Service: Servicio de Confección
+    Craft Service: Servicio de catering
     Creative Consultant: Consultor Creativo
     Creative Producer: Productor Creativo
     Creator: Creador
     Creature Design: Diseñador de Criaturas
     Department Administrator: Administrador de Departamentos
-    Development Manager: Gerente de Desarrollo
-    Dialect Coach: Instructor de Dialectos
+    Development Manager: Manager de Desarrollo
+    Dialect Coach: Entrenador de Dialectos
     Dialogue: Diálogos
     Dialogue Editor: Editor de Diálogos
     Digital Compositors: Compositores Digitales
     Digital Effects Supervisor: Supervisor de Efectos Digitales
-    Digital Intermediate: 
+    Digital Intermediate: Digital Intermediate
     Digital Producer: Productor Digital
-    Directing Lighting Artist: Dirección Artística de Iluminación
+    Directing Lighting Artist: Director De Iluminación
     Director: Director
     Director of Photography: Director de Fotografía
     Documentation & Support: Documentación & Soporte
@@ -1462,7 +1476,7 @@ es-ES:
     Driver: Conductor
     Editor: Editor
     Editorial Coordinator: Coordinador Editorial
-    Editorial Manager: Gerente Editorial
+    Editorial Manager: Manager Editorial
     Editorial Production Assistant: Ayudante de Producción Editorial
     Editorial Services: Servicios Editoriales
     Editorial Staff: Equipo Editorial
@@ -1470,26 +1484,26 @@ es-ES:
     Executive Consultant: Consultor Ejecutivo
     Executive In Charge Of Post Production: Encargado de Postproducción
     Executive In Charge Of Production: Encargado de Producción
-    Executive Music Producer: Productor Ejecutivo de Música
+    Executive Music Producer: Productor Ejecutivo Musical
     Executive Producer: Productor Ejecutivo
     Executive Visual Effects Producer: Productor Ejecutivo de Efectos Visuales
     Executive in Charge of Finance: Encargado de Finanzas
-    Facial Setup Artist: 
+    Facial Setup Artist: Artista Facial
     Finance: Finanzas
     First Assistant Camera: Primer Ayudante de Cámara
     First Assistant Editor: Primer Ayudante de Edición
     First Assistant Sound Editor: Primer Ayudante de Edición de Sonido
-    Fix Animator: 
-    Foley: Foley
+    Fix Animator: Diseñador gráfico
+    Foley: Efecto de sala
     Gaffer: Iluminador
     Graphic Novel Illustrator: Ilustrador de Novela Gráfica
-    Greensman: 
-    Grip: Operador de Cámara
-    Gun Wrangler: 
-    Hair Department Head: 
-    Hair Designer: 
-    Hair Setup: 
-    Hairstylist: Estilista
+    Greensman: Encargado ecológico
+    Grip: Encargado de anclajes
+    Gun Wrangler: Responsable de Armas
+    Hair Department Head: Manager del departamento de peluquería
+    Hair Designer: Diseñador de peluquería
+    Hair Setup: Configurador de peluquería
+    Hairstylist: Peluquero
     Helicopter Camera: Cámara de Helicóptero
     I/O Manager: Gerente de I/O
     I/O Supervisor: Supervisor de I/O
