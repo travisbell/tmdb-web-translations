@@ -1401,10 +1401,10 @@ zh-TW:
       '9': "上傳圖片最小解析度為 300x450"
       backdrops_must_meet: "背景圖片必須符合以下標準："
       episode_stills_must_meet: "影集劇照必須符合以下標準："
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      posters_must_meet: "電影海報必須符合以下標準："
+      profile_must_meet: "個人資料圖片必須符合以下標準："
+      read_guidelines: 請隨時留意我們的更新資訊。<a href="%{link}" target="_blank" rel="noopener">圖片貢獻指南</a>.
+      tip: "若您的瀏覽器支援，您可直接拖拉檔案至下面區域以供上傳圖片。若瀏覽器無支援，請點擊「選擇檔案...」按鈕並選擇圖片以供上傳。"
   invalid_aspect_ratio: "比例不正確"
   item_count:
     one: "%{count} 個項目"
@@ -1783,8 +1783,14 @@ zh-TW:
   media:
     movie:
       edit:
-        confirm_collection: 
-        confirm_video: 
+        confirm_collection: |-
+          <p>特集是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但特集並非以「電影宇宙」的方式來作分組的依據。若您了解特集的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立特集</a>. 若您想要了解更多關於特集的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
+
+          <p>如果您要創建的特集符合此條件，請繼續建立特集。</p>
+        confirm_video: |-
+          <p>請協助將某些電影標記為影片，可幫助我們區分不是真正電影的內容類型。</p>
+
+          <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
     rating:
       rated_with_rating: "評分 %{value}"
     social_panel:
@@ -2071,7 +2077,7 @@ zh-TW:
         use_gravatar: "使用 Gravatar 嗎？"
       background:
         background_image: "背景圖片"
-        confirm_remove: 
+        confirm_remove: "請確認你將要移除背景圖片，要繼續嗎？"
         remove_background: "移除您的背景圖片嗎？"
         set_image: "設定背景圖片？"
       edit_profile: "編輯個人簡介"
