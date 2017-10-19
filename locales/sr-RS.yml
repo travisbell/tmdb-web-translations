@@ -6,8 +6,8 @@ sr-RS:
   API Details: API детаљи
   API Key: API кључ
   API Libraries: API библиотеке
-  API Read Access Token: 
-  API Stats: 
+  API Read Access Token: API Токен за приступ читању
+  API Stats: API Статистика
   API Terms: API услови
   API Updates: API ажурирања
   About: "О сајту"
@@ -560,22 +560,22 @@ sr-RS:
     watchlist: "Листа за погледати"
   accounts:
     activity:
-      activity: 
+      activity: "Активност"
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: "Додато"
+        created: "Направљено"
+        deleted: "Обрисано"
+        updated: "Ажурирано"
       media_types:
         movies: "Филмови"
-        others: 
+        others: "Остало"
         people: "Особе"
         tv: "ТВ"
       table:
         action: 
-        edit: 
-        key: 
-        language_abbreviation: 
+        edit: "Промени"
+        key: "Кључ"
+        language_abbreviation: "Језик"
     average_movie_score: "Просечна<br>оцена филмова"
     average_tv_score: "Просечна<br>оцена серија"
     discussions:
@@ -613,17 +613,17 @@ sr-RS:
       ratings_reviews: "Оцене и рецензије"
       recommendations: "Препоруке"
       watchlist: "Листа за погледати"
-    order: 
+    order: "Редослед:"
     overview:
       30_day_activity: 30-то дневна активност
       empty_recent_activity:
         logged_in: "Није било твојих скорашњих измена."
-        public: 
+        public: "Нема скорашњих промена од стране %{username}"
       empty_upcoming_watchlist:
         logged_in: "Нема предстојећих филмова на твојој листи за погледати."
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: "Нисте унели ни један филм или ТВ серију."
+        public: "%{username} није унео/ла ни један филм или ТВ серију."
       goto_discussions: "Иди на дискусије"
       goto_watchlist: "Иди на листу за погледати"
       most_watched_genres: "Најгледанији жанрови"
@@ -647,12 +647,20 @@ sr-RS:
       no_recommendations_helper: "Покушај да додаш више омиљених филмова (што више то боље) и врати се да видиш како нам иде."
     tips:
       import_imdb_ratings: "Можеш да увезеш своје оцене са IMDb-а."
-      tip: 
+      tip: "Савет"
     watchlist:
       my_watchlist: "Моја листа за погледати"
       next_month: "Следећег месеца"
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        few: ''
+        many: ''
+        one: "Нема надолазећих филмова на Вашој листи за погледати. Али, %{count} ставка је на Вашој листи за погледати."
+        other: "Нема надолазећих филмова на Вашој листи за погледати. Али, %{count} ставки је на Вашој листи за погледати."
+      no_upcoming_tv_shows:
+        few: ''
+        many: ''
+        one: "Нема надолазећих ТВ серија на Вашој листи за погледати. Али, %{count} ставка је на Вашој листи за погледати."
+        other: "Нема надолазећих ТВ серија на Вашој листи за погледати. Али, %{count} ставки је на Вашој листи за погледати."
       this_month: "Овог месеца"
       this_week: "Ове недеље"
       view_them: "Погледај их"
@@ -667,37 +675,37 @@ sr-RS:
     external_href: "УРЛ"
     iso_3166_1: "Држава"
     iso_639_1: "Језик"
-    normalized_email: 
-    normalized_username: 
+    normalized_email: Email
+    normalized_username: "Корисничко име"
     overview: "Преглед"
     title: "Наслов"
   average edits per day: "просечних уређивања по дану"
   back_options:
-    back: 
+    back: "Назад"
     episode: "Повратак на епизоду"
     episode_list: "Повратак на листу епизода"
     home: "Повратак на почетну"
     main: "Повратак на главну"
     season: "Повратак на сезону"
     season_list: "Повратак на листу сезона"
-    to_tmdb: 
+    to_tmdb: "Назад на ТМДб"
     top: "Повратак на врх"
   certifications:
     meaning: "Значење"
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: "Изостављен из класификације. Филмови који су изостављени из класификација не смеју садржати спорни материјал (пр. материјал који би уобочајено био оцењен са М или више)."
         '2':
-          meaning: 
+          meaning: "Опште. Садржај је благог карактера."
         '3':
-          meaning: 
+          meaning: "Надзор родитеља препоручен. Нема ограничења за године. Садржај је благог карактера."
         '4':
-          meaning: 
+          meaning: "Препоручљиво за одрасле публику. Нема ограничења у годинама. Садражај је средњег карактера."
         '5':
-          meaning: 
+          meaning: "Захтева пристуство одрасле особе. Неприкладно за децу млађу од 15 година. Деца млађа од 15 година морају бити у присуству родитеља или старатеља. Садржај је јаког карактера."
         '6':
-          meaning: 
+          meaning: "Дозвољено за особе од 18 година и више. Само за одрасле. Садржај има јак утицај."
         '7':
           meaning: 
         '8':
@@ -706,7 +714,7 @@ sr-RS:
         '1':
           meaning: "Препоручено за децу."
         '2':
-          meaning: 
+          meaning: "Без ограничења у годинама."
         '3':
           meaning: "Није препоручљиво за децу испод 12 година."
         '4':
