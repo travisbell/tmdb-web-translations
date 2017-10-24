@@ -67,7 +67,7 @@ pt-BR:
   Approve: Aprovar
   Approved?: Aprovado?
   Apps: Apps
-  Are you sure?: Você tem certeza?
+  Are you sure?: Tem certeza?
   Attributes: Atributos
   Auto: Automático
   Back to top: Voltar ao topo
@@ -1170,41 +1170,41 @@ pt-BR:
       '9': Quase lá...
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      collection: col
+      image: img
+      movie: flm
+      people: pes
+      tv: sre
     collection:
-      collection_bible: 
+      collection_bible: Bíblia das Coleções
       tall_bible:
-        bottom: 
-        top: 
+        bottom: Bíblia
+        top: das Coleções
     contribution_bible: Bíblia do Colaborador
-    featured_articles: 
+    featured_articles: Artigos em Destaque
     image:
-      image_bible: 
+      image_bible: Bíblia das Imagens
     movie:
-      movie_bible: 
+      movie_bible: Bíblia dos Filmes
       tall_bible:
-        bottom: 
-        top: 
-    note: 
+        bottom: Bíblia
+        top: dos Filmes
+    note: Observação
     people:
-      people_bible: 
+      people_bible: Bíblia das Pessoas
       tall_bible:
-        bottom: 
-        top: 
-    pro_tip: 
+        bottom: Bíblia
+        top: das Pessoas
+    pro_tip: Dica
     search:
-      placeholder_1: 
+      placeholder_1: Você precisa de ajuda com o que?
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: Bíblia
+        top: das Séries
+      tv_bible: Bíblia das Séries
+    welcome_1: Boas-vindas à
+    welcome_2: Bíblia do Colaborador
   date:
     abbr_day_names:
     - Dom
@@ -1425,23 +1425,23 @@ pt-BR:
         today: Novo episódio hoje
         tomorrow: Novo episódio amanhã
   images:
-    confirm_delete: 
+    confirm_delete: Tem certeza de que deseja excluir esta imagem?
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      '1': Uma resolução máxima de 2000x3000
+      '2': Uma resolução mínima de 500x750
+      '3': Proporção de 1:1.5 (2:3)
+      '4': Uma resolução máxima de até 3840x2160
+      '5': Uma resolução mínima de 400x225
+      '6': Imagens na proporção de 16:9 (1.78:1) e 4:3 são aceitas
+      '7': Uma resolução mínima de 1280x720
+      '8': Proporção de 16:9 (1.78:1)
+      '9': Uma resolução mínima de 300x450
+      backdrops_must_meet: 'Imagens de fundo devem atender aos seguintes critérios:'
+      episode_stills_must_meet: 'Imagens de episódios devem atender aos seguintes critérios:'
+      posters_must_meet: 'Pôsteres devem atender aos seguintes critérios:'
+      profile_must_meet: 'As imagens de perfil devem atender aos seguintes critérios:'
+      read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.
+      tip: Se seu navegador suportar, você pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar arquivos..." e escolher a imagem do seu computador.
   invalid_aspect_ratio: Proporção da imagem inválida.
   item_count:
     one: "%{count} item"
@@ -1820,8 +1820,14 @@ pt-BR:
   media:
     movie:
       edit:
-        confirm_collection: 
-        confirm_video: 
+        confirm_collection: |-
+          <p>As coleções são uma maneira conveniente de agrupar sequências no TMDb. Embora às vezes sejam controversas, as coleções não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, </p><a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coleções, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
+
+          <p>Se a coleção que você está prestes a criar atende este critério, por favor, continue.</p>
+        confirm_video: |-
+          <p>Marcar um filme como um vídeo nos ajuda a diferenciar os tipos de conteúdo que não são realmente filmes.</p>
+
+          <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
     rating:
       rated_with_rating: Avaliado em %{value}
     social_panel:
@@ -2119,7 +2125,7 @@ pt-BR:
         use_gravatar: Usar o Gravatar?
       background:
         background_image: Imagem de fundo
-        confirm_remove: 
+        confirm_remove: Por favor, confirme que você deseja remover sua imagem de fundo. Tem certeza?
         remove_background: Remover sua imagem de fundo?
         set_image: Selecionar uma imagem de fundo?
       edit_profile: Editar perfil
@@ -2182,5 +2188,5 @@ pt-BR:
   upload_backdrop: Enviar uma imagem de fundo
   upload_poster: Enviar um pôster
   upload_profile: Enviar uma foto
-  used_by_developers: O TMDb é usado por mais de 125.000 desenvolvedores.<br>Confira o trabalho de alguns deles abaixo.
+  used_by_developers: O TMDb é usado por mais de 150.000 desenvolvedores.<br>Confira o trabalho de alguns deles abaixo.
   view all: Mostrar tudo
