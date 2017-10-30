@@ -425,7 +425,7 @@ fr-FR:
   Season Specials: Saison spécial
   Seasons: Saisons
   Secondary Color: Couleur secondaire
-  See Episodes: 
+  See Episodes: Voir les épisodes
   Select One: Sélectionnez-en un...
   Select a category: Choisir une catégorie...
   Selected Language: Langue sélectionné
@@ -500,7 +500,7 @@ fr-FR:
   Trailers: Bande-annonces
   Translate Collection: Traduire Collection
   Translate Movie: Traduire le film
-  Translate Person: 
+  Translate Person: Traduire la personne
   Translate TV Series: Traduire Séries
   Translated Name: Traduction du nom
   Translated Overview: Traduction du résumé
@@ -549,113 +549,117 @@ fr-FR:
   Your rating: Votre note
   Zip Code: Code postal
   account_drop_down:
-    discussions: 
-    edit_profile: 
-    lists: 
+    discussions: Conversations
+    edit_profile: Modifier le profil
+    lists: Listes
     login: Connexion
-    logout: 
-    settings: 
+    logout: Se déconnecter
+    settings: Paramètres
     sign_up: Créer un compte
-    view_profile: 
-    watchlist: 
+    view_profile: Voir le profil
+    watchlist: Liste de suivi
   accounts:
     activity:
-      activity: 
+      activity: Activité
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: Ajouté
+        created: Créé
+        deleted: Supprimé
+        updated: Mis à jour
       media_types:
         movies: Films
-        others: 
+        others: Autre
         people: Artistes
         tv: TV
       table:
-        action: 
-        edit: 
-        key: 
-        language_abbreviation: 
-    average_movie_score: 
-    average_tv_score: 
+        action: Action
+        edit: Modification
+        key: Clé
+        language_abbreviation: Langue
+    average_movie_score: Note moyenne<br>Films
+    average_tv_score: Note moyenne<br>Télévision
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: Mes sujets actifs
+      my_discussions: Mes conversations
+      not_watching: Vous ne surveillez aucune conversation.
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
-    filter_by: 
+        logged_in: Mes favoris
+        public: Les favoris de %{username}
+    filter_by: 'Filtrer par :'
     filters:
-      date_added: 
-      date_rated: 
-      my_rating: 
-      popularity: 
-      release_date: 
-      score: 
-      upcoming: 
+      date_added: Date d'ajout
+      date_rated: Date de notation
+      my_rating: Mes notes
+      popularity: Popularité
+      release_date: Date de sorti
+      score: Note
+      upcoming: "À venir"
     lists:
-      create_list: 
+      create_list: Créer une liste
       last_updated: 
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: Mes listes
+        public: Les listes de %{username}
       no_lists:
-        logged_in: 
-        public: 
-    member_since: 
+        logged_in: Vous n'avez pas créé de liste.
+        public: "%{username} n'a pas liste publique à partager."
+    member_since: Membre depuis le %{date}
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
-      watchlist: 
-    order: 
+      discussions: Conversations
+      favorites: Favoris
+      lists: Listes
+      overview: Résumé
+      ratings_reviews: Notes & Critiques
+      recommendations: Recommandations
+      watchlist: Liste de suivi
+    order: 'Ordre :'
     overview:
-      30_day_activity: 
+      30_day_activity: Activité des 30 derniers jours
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Vous n'avez pas fait de modification récemment.
+        public: "%{username} n'a pas fait de modification récemment."
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Il n'y a aucun film à venir dans votre liste de suivi.
       empty_watched_genres:
         logged_in: 
         public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
+      goto_discussions: Voir les conversations
+      goto_watchlist: Voir la liste de suivi
+      most_watched_genres: Les genres les plus regardés
       rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+      recent_activity: Activité récente
+      recent_discussions: Conversations récentes
+      total_edits: Modifications totales
+      total_ratings: Notes totales
+      upcoming_watchlist: "À venir dans votre liste de suivi"
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: Mes notes
+        public: Les notes de %{username}
       my_reviews:
-        logged_in: 
-        public: 
-      ratings_by_year: 
+        logged_in: Mes critiques
+        public: Les critiques de %{username}
+      ratings_by_year: Notes par années
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
+      my_recommendations: Mes recommandations
+      no_recommendations: Nous n'avons assez d'information pour vous faire des recommandations.
+      no_recommendations_helper: Ajoutez plus de films ou séries en favoris (plus y aura mieux ce sera) et revenir voir ce qu'on vous propose.
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: Vous pouvez importez vos note depuis IMDb.
+      tip: Astuce
     watchlist:
-      my_watchlist: 
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
-      this_month: 
-      this_week: 
-      view_them: 
+      my_watchlist: Ma liste de suivi
+      next_month: Le mois prochain
+      no_upcoming_movies:
+        one: Il n'y a aucun film à venir dans votre liste de suivi. Il y néanmoins, %{count} film dans votre liste de suivi.
+        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y néanmoins, %{count} films dans votre liste de suivi.
+      no_upcoming_tv_shows:
+        one: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} série dans votre liste de suivi.
+        other: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} séries dans votre liste de suivi.
+      this_month: Ce mois-ci
+      this_week: Cette semaine
+      view_them: Les voir.
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
@@ -667,20 +671,20 @@ fr-FR:
     external_href: URL
     iso_3166_1: Pays
     iso_639_1: Langue
-    normalized_email: 
-    normalized_username: 
+    normalized_email: Email
+    normalized_username: Nom d'utilisateur
     overview: Aperçu
     title: Titre
   average edits per day: modifications en moyenne par jour
   back_options:
-    back: 
+    back: Retour
     episode: Retour vers l'épisode
     episode_list: Retour à la liste des épisodes
     home: Retour à l'accueil
     main: Retour à l'écran principal
     season: Retour à la saison
     season_list: Retour à la liste des saisons
-    to_tmdb: 
+    to_tmdb: Retourner sur TMDb
     top: Retourner en haut
   certifications:
     meaning: 
@@ -1151,19 +1155,19 @@ fr-FR:
   collection_includes: Comprend %{movie_titles}
   confirm_delete: Voulez-vous vraiment supprimer cette entrée ?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: Le score du contenu est un indicateur permettant de savoir à quel point les informations d'un élément sont complètes.
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '0': Il faut bien commencer quelque part...
+      '1': Hé, c'est un début.
+      '10': Bien ! Ça semble bon !
+      '2': On progresse.
+      '3': Rome n'a pas été construit en un jour...
+      '4': Tous pour un, un pour tous...
+      '5': Encore un peu de travail.
+      '6': On n'est pas loin, encore un effort.
+      '7': Juste encore un petit peu...
+      '8': Aller ! On n'est pas loin maintenant.
+      '9': C'est presque bon...
   contribution_bible:
     abbreviations:
       collection: 
@@ -1236,8 +1240,8 @@ fr-FR:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e %B %Y"
-      full_month_year: 
-      short_month_day_year: 
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b, %Y"
     month_names:
     - 
     - Janvier
@@ -1273,110 +1277,114 @@ fr-FR:
     Writing: "Écriture"
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      actions: Actions
+      close_discussion: Fermer la conversation
+      make_private: Rendre la conversation privée
+      make_public: Rendre la conversation publique
+      mark_spam: Marquer comme Indésirable
+      reopen_discussion: Rouvrir la conversation
+      stop_watching: Arrêter de surveiller
+      view_activity: Voir l'activité
+      watch: Surveiller
+    admin_panel: Panneau d'administration
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Retourner vers %{item_title}"
+      back_to_tmdb_with_arrow: "← Retourner sur TMDb"
+      back_with_arrow: "← Retour"
     categories:
-      categories: 
+      categories: Catégories
       discuss:
-        content_issues: 
-        discuss: 
-        general: 
-        website_support: 
+        content_issues: Problèmes de contenu
+        discuss: Discuter
+        general: Général
+        website_support: Support du site
       support:
         api_requests: 
         api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        general_chat: 
+        api_support: Support API
+        content_issues: Problèmes de contenu
+        general: Général
+        general_chat: Discussion générale
         moderator_talk: 
-        support: 
-        website_support: 
+        support: Support
+        website_support: Support du site
     category:
-      last_reply_with_datetime: 
-      last_reply_with_datetime_and_username: 
-    discussion_activity: 
+      last_reply_with_datetime: le %{date} à %{time}
+      last_reply_with_datetime_and_username: le %{date} à %{time}<br>par %{username}
+    discussion_activity: Activité de la conversation
     email_notifications:
-      email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      email_notifications: Notifications Email
+      subscribe: S'abonner
+      unsubscribe: Se désabonner
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
+      discuss: Discuter
+      discuss_item: Discuter de %{item_title}
+      lets_chat: Discutons
+      support: Support
+      support_title: Support de The Movie Database
     login_to_be_notified: 
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
+      community_guidelines: Règles de la communauté
+      discussion_category: Catégorie
       for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      new_discussion: Nouvelle Conversation
+      subject: Sujet
+    no_discussions: Aucune conversation.
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        one: "%{count} réponse (sur la page %{current_page} sur %{total_pages})"
+        other: "%{count} réponses (sur la page %{current_page} sur %{total_pages})"
+      summary:
+        one: "%{count} conversation, sur la page %{current_page} sur %{total_pages}"
+        other: "%{count} conversations, sur la page %{current_page} sur %{total_pages}"
     post:
-      delete: 
-      edit: 
-      hide: 
-      ignore: 
-      like: 
+      delete: Supprimer
+      edit: Modifier
+      hide: Masquer
+      ignore: Ignorer
+      like: Aimer
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
-        hide_discussion: 
-        ignore_user: 
-        mark_as_spam: 
-        report_violation: 
-        unhide_discussion: 
-      posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 
-      unhide: 
+        delete_comment: En cliquant sur 'Oui', ce commentaire sera supprimé définitivement.
+        delete_discussion: En cliquant sur 'Oui', cette conversation sera supprimée définitivement.
+        hide_comment: En cliquant sur 'Oui', ce commentaire sera masqué.
+        hide_discussion: En cliquant sur 'Oui', cette discussion sera masquée.
+        ignore_user: Êtes-vous sûr de vouloir ignorer cet utilisateur ? Toutes leurs conversations et leurs commentaires vont disparaitre. Vous pouvez supprimer ce blocage en vous rendant sur la page "Utilisateurs bloqués" dans les réglages de votre compte.
+        mark_as_spam: "Êtes-vous sûr de vouloir marquer cette conversation comme Indésirable ? Elle sera supprimée automatiquement et il ne sera pas possible de revenir en arrière. Marquer une conversation comme Indésirable aide le service de détection d'indésirable que nous utilisons. "
+        report_violation: Veuillez confirmer que vous souhaitez signaler cet utilisateur pour une violations de nos <a href="/documentation/community/guidelines" target="_blank" rel="noopener">règles communautaires</a>.
+        unhide_discussion: En cliquant sur 'Oui', cette conversation sera à nouveau rendu visible.
+      posted_by_with_datetime: "écrit par %{username} le %{date} à %{time}"
+      quote: Citer
+      reopen_reply: Rouvrir & Répondre
+      reply: Répondre
+      reply_by: Réponse de %{username}
+      reply_on_datetime: le %{date} à %{time}
+      report: Signaler
+      unhide: Réafficher
     report_violation: Effectuer un signalement
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Recherche avancée
+      search_closed: Conversation fermées ?
+      search_forums: Rechercher sur le forum...
+      search_open: Conversation ouvertes ?
     statuses:
-      closed: 
-      open: 
+      closed: Fermée
+      open: Ouverte
     table_headers:
-      last_reply: 
-      replies: 
-      status: 
-      subject: 
+      last_reply: Dernière réponse
+      replies: Réponses
+      status: Statut
+      subject: Sujet
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
-    your_account: 
+      no_subscribers: Aucun abonné
+      users_in_discussion: Membres de cette conversation
+    your_account: Votre compte
   dont_fallback: Aucune (Pas d'alternative)
   edit:
     tooltips:
       homepage: Seulement le site officiel. Les sites de fans ne sont pas autorisés.
       original_title: Le titre original devrait être saisi dans la langue originale de l'élément. Dans la plupart des cas cela devrait correspondre à la langue sélectionnée dans le champ "langue originale".
       overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
-      social_links: 
+      social_links: Les liens vers les réseaux sociaux doivent être ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
   edit_list:
     add_edit_items: Ajouter/Modifier des éléments
     choose_image: Choisir l'image
@@ -1409,31 +1417,31 @@ fr-FR:
     min: Filtrer par Date de sortie (Min)
   homepage:
     discussions:
-      catch_up_now: 
-      discussions: 
+      catch_up_now: Rejoignez-nous.
+      discussions: Conversations
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Prochain épisode dans %{number_of_days} jours
+        today: Prochain épisode aujourd'hui
+        tomorrow: Prochain épisode demain
   images:
-    confirm_delete: 
+    confirm_delete: "Êtes-vous sûr de vouloir supprimer cette image ?"
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      '1': Une résolution maximum de 2000x3000
+      '2': Une résolution minimum de 500x750
+      '3': Format d'image 1:1.5 (2:3)
+      '4': Une résolution maximum de 3840x2160
+      '5': Une résolution minimum de 400x225
+      '6': Les formats d'image de 16x9 (1.78:1) et 4:3 sont supportés
+      '7': Une résolution minimum de 1280x720
+      '8': Format d'image 16x9 (1.78:1)
+      '9': Une résolution minimum de 300x450
+      backdrops_must_meet: 'Les fonds d''écran doivent respecter les critères suivants :'
+      episode_stills_must_meet: 'Les images d''épisodes doivent respecter les critères suivants :'
+      posters_must_meet: 'Les affiches doivent respecter les critères suivants :'
+      profile_must_meet: 'Les images de profil doivent respecter les critères suivants :'
+      read_guidelines: Veuillez s'il vous plait vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images</a>.
+      tip: Si votre navigateur le support, vous poussez glisser et déposer une image sur la zone ci-dessous. Sinon, vous pouvez cliquer sur le bouton 'Sélectionner les fichiers...' et choisissez les images sur votre ordinateur.
   invalid_aspect_ratio: Le ratio est incorrect
   item_count:
     one: "%{count} élément"
@@ -1815,7 +1823,7 @@ fr-FR:
         confirm_collection: 
         confirm_video: 
     rating:
-      rated_with_rating: 
+      rated_with_rating: Noté %{value}
     social_panel:
       discussions:
         currently_subscribed: 
@@ -1838,12 +1846,12 @@ fr-FR:
   navigation:
     discover:
       discover: Découvrir
-      movies: 
+      movies: Films
       tv_shows: Télévision
     movies:
       now_playing: Actuellement en salles
       popular: Populaire
-      top_rated: Meilleurs notes
+      top_rated: Mieux notés
       upcoming: Prochainement
     people:
       people: Artistes
@@ -1853,7 +1861,7 @@ fr-FR:
       on_the_air: Série en cours de diffusion
       on_tv: Série en cours de diffusion
       popular: Populaire
-      top_rated: Meilleurs notes
+      top_rated: Mieux notées
   no_biography: Aucune biographie n'est disponible pour %{name}.
   no_cast: Aucune distribution n'a été ajoutée à ce %{media_type}. Vous pouvez nous aider en la complétant un peu !
   no_collection_search_results: Aucune collection ne correspond à votre requête.
@@ -1907,13 +1915,13 @@ fr-FR:
     logged_in: "%{page_title} n'a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si vous voulez continuer et créer cette traduction, veuillez cliquer sur le bouton ci-dessous."
     public: '%{page_title} n''a pas encore été traduit en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Vous pouvez créer cette traduction en <a href="%{signup_link}">vous inscrivant</a> pour créer un compte et en <a href="%{login_link}">vous connectant</a>.'
   notifications:
-    caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
+    caught_up: Il semblerait que vous avez tout lu.
+    clear: Effacer
+    good_job: Bon travail !
+    mark_all_as_read: Marquer comme lu
     refresh: 
     unread_notifications: 
-    view: 
+    view: Voir
   number:
     currency:
       format:
@@ -1975,12 +1983,12 @@ fr-FR:
     other: "%{count} votes"
   pagination:
     currently_on: 
-    last_page: 
+    last_page: Dernière page
     load_more: 
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
+    next_page: Page suivante
+    next_page_with_arrow: Page suivante →
+    previous_page: Page précédente
+    previous_page_with_arrow: "← Page précédente"
     show_more: 
   part_of_collection: Fait partie de %{collection_name}
   password:
@@ -1990,7 +1998,7 @@ fr-FR:
     reset_email_sent: Courriel envoyé ! Vous devriez recevoir les instructions pour réinitialiser votre mot de passe dans peu de temps.
   person:
     credits:
-      as_character: 
+      as_character: en tant que %{character}
       as_job: 
   resend_verification_email_text: Vous n'avez pas reçu le courriel de vérification de compte ? Entrez votre nom d'utilisateur ci-dessous et nous vous le renverrons.
   reset_password_dialog_text: Si vous confirmez votre demande, vous recevrez un courriel avec les instructions pour définir un nouveau mot de passe. Souhaitez-vous confirmer votre demande ?
@@ -1999,9 +2007,9 @@ fr-FR:
     favorites_movie: Rechercher dans vos films favoris...
     favorites_tv: Rechercher dans vos séries favorites...
     media_types:
-      movie: 
-      person: 
-      tv_show: 
+      movie: Film
+      person: Personne
+      tv_show: Série
     rated_movie: Recherche des films notés...
     rated_tv: Rechercher dans vos séries notées...
     recommendations_movie: Cherchez parmi les films qui vous sont recommandés...
@@ -2015,21 +2023,21 @@ fr-FR:
     to_air: La saison %{season_number} de %{show_name}, en première diffusion le %{date}.
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: Réglages du compte
+      change_password: Changer de mot de passe ?
     api:
       api: 
       navigation:
-        create: 
-        details: 
+        create: Créer
+        details: Détails
         directory: 
         sessions: 
-        stats: 
+        stats: Statistiques
     blocked_users:
-      action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      action: Action
+      blocked_users: Utilisateurs bloqués
+      no_blocked: Vous n'avez bloqué aucun utilisateur.
+      username: Nom d'utilisateur
     change_email:
       change_email: Modifier l'adresse courriel ?
       change_email_text: Si vous souhaitez changer votre adresse courriel, entrez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous identifier à nouveau sur le site, vous devrez d'abord vérifier votre nouvelle adresse courriel en cliquant sur le lien que nous aurons envoyé dans un courriel à cette nouvelle adresse.
@@ -2042,18 +2050,18 @@ fr-FR:
         application_name: 
         date_authorised: 
     delete_account:
-      delete_account: 
-      summary_text: 
+      delete_account: Supprimer mon compte
+      summary_text: Vous venez d'entrer la <strong>zone de danger</strong> ! Si vous souhaitez continuer et supprimer votre compte, veuillez entrer votre mot de passe ci-dessous et confirmer lorsque demandé.
     import_list:
-      import_button: 
-      import_list: 
+      import_button: Importer
+      import_list: Importer une liste
       navigation:
-        import: 
-        previous: 
+        import: Importer
+        previous: Imports précédents
       previous:
-        date: 
-        imported: 
-        items: 
+        date: Date
+        imported: Importé
+        items: "Éléments"
         local_list: 
         no_imports: 
         type: 
@@ -2077,16 +2085,16 @@ fr-FR:
         watchlist: 
       which_list: 
     navigation:
-      account_settings: 
+      account_settings: Réglage du compte
       api: 
-      blocked_users: 
+      blocked_users: Utilisateurs bloqués
       connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
+      delete_account: Supprimer mon compte
+      edit_profile: Modifier le profil
+      import_list: Importer une liste
+      notification_settings: Paramètres de notification
+      settings: Réglages
+      sharing_settings: Paramètres de partage
       social_settings: 
     notifications:
       email_new_releases_watchlist: 
@@ -2166,8 +2174,8 @@ fr-FR:
   success_sharing: Votre message a été partagé avec succès.
   time:
     formats:
-      12hour_minutes: 
-  top_contributors: 
+      12hour_minutes: "%H:%M"
+  top_contributors: Meilleurs contributeurs
   translation:
     one: traduction
     other: taductions
