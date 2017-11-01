@@ -87,7 +87,7 @@ de-DE:
   Categories: Kategorien
   Certification: Altersfreigabe
   Change?: "Ändern?"
-  Changes: "Änderungen"
+  Changes: Aktivität
   Character: Rolle
   City: Stadt
   Clip: Clip
@@ -98,7 +98,7 @@ de-DE:
   Comments: Kommentare
   Community: Community
   Community Data: Zu den Mitwirkenden
-  Community Guidelines: Community Richtlinien
+  Community Guidelines: 
   Companies: Firmen
   Company Results: Ergebnisse (Firmen)
   Confirm: Bestätigung
@@ -384,8 +384,8 @@ de-DE:
   Recommendations: Empfehlungen
   Regions: 
   Regular Cast: Stammdarsteller
-  Release Date Ascending: Veröffentlichungsdatum aufsteigend
-  Release Date Descending: Veröffentlichungsdatum absteigend
+  Release Date Ascending: Veröffentlichung aufsteigend
+  Release Date Descending: Veröffentlichung absteigend
   Release Dates & Certifications: Veröffentlichungsdaten & Altersfreigaben
   Release Information: Veröffentlichungen
   Release Note: Kommentar
@@ -460,7 +460,7 @@ de-DE:
   Success: Erledigt
   Summary: Zusammenfassung
   Support: Support
-  Support Forums: 
+  Support Forums: Forum
   TV: TV
   TV Missing A Backdrop: Serien mit fehlendem Hintergrundbild
   TV Missing A Poster: Serien mit fehlendem Poster
@@ -519,12 +519,12 @@ de-DE:
   Username: Benutzername
   Video?: Video?
   Videos: Videos
-  View: 
+  View: Ansicht
   View All Backdrops: Alle Hintergrundbilder anzeigen
   View All Episode Images: 
-  View All Episodes: 
+  View All Episodes: Alle Episoden anzeigen
   View All Posters: Alle Poster anzeigen
-  View All Seasons: 
+  View All Seasons: Alle Staffeln anzeigen
   View All Videos: Alle Videos anzeigen
   View Discussions: Diskussionen anzeigen
   View Edit History: 
@@ -560,12 +560,12 @@ de-DE:
     watchlist: Watchlist
   accounts:
     activity:
-      activity: 
+      activity: Aktivität
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: Hinzugefügt
+        created: Erstellt
+        deleted: Gelöscht
+        updated: Aktualisiert
       media_types:
         movies: Filme
         others: 
@@ -575,7 +575,7 @@ de-DE:
         action: 
         edit: 
         key: 
-        language_abbreviation: 
+        language_abbreviation: Sprache
     average_movie_score: Durchschnittliche<br>Film Bewertung
     average_tv_score: Durchschnittliche<br>Serie Bewertung
     discussions:
@@ -592,7 +592,7 @@ de-DE:
       date_rated: Bewertungsdatum
       my_rating: Meine Bewertung
       popularity: Popularität
-      release_date: Veröffentlichungsdatum
+      release_date: Veröffentlichung
       score: Punkte
       upcoming: Demnächst
     lists:
@@ -668,7 +668,7 @@ de-DE:
     iso_3166_1: Land
     iso_639_1: Sprache
     normalized_email: 
-    normalized_username: 
+    normalized_username: Benutzername
     overview: "Übersicht"
     title: Titel
   average edits per day: durchschnittliche Beiträge pro Tag
@@ -1286,13 +1286,13 @@ de-DE:
     actions:
       actions: Aktionen
       close_discussion: Diskussion beenden
-      make_private: Privat machen
-      make_public: "Öffentlich machen"
+      make_private: 
+      make_public: 
       mark_spam: Als Spam markieren
       reopen_discussion: Diskussion wieder eröffnen
-      stop_watching: Nicht mehr schauen
-      view_activity: Aktivität anzeigen
-      watch: Anschauen
+      stop_watching: 
+      view_activity: Aktivitätsübersicht
+      watch: 
     admin_panel: Admin Panel
     back_options:
       back_to_item_with_arrow: "← Zurück zu %{item_title}"
@@ -1321,8 +1321,8 @@ de-DE:
     discussion_activity: 
     email_notifications:
       email_notifications: 
-      subscribe: Abonnieren
-      unsubscribe: Abo abbestellen
+      subscribe: Benachrichtigungen aktivieren
+      unsubscribe: Benachrichtigungen deaktivieren
     headers:
       discuss: Diskutieren
       discuss_item: 
@@ -1332,10 +1332,10 @@ de-DE:
     login_to_be_notified: 
     new_discussion:
       community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
+      discussion_category: Kategorie
+      for_item: Für Eintrag
+      new_discussion: Neue Diskussion
+      subject: Thema
     no_discussions: 
     pagination:
       post_summary: 
@@ -1416,8 +1416,8 @@ de-DE:
   failed_sharing: Es trat ein Fehler beim Teilen der Nachricht auf.
   failed_validation: Es traten Validierungsfehler auf.
   filter_by_release_date:
-    max: Nach Veröffentlichungsdatum filtern (Max)
-    min: Nach Veröffentlichungsdatum filtern (Min)
+    max: Nach Veröffentlichung filtern (Max)
+    min: Nach Veröffentlichung filtern (Min)
   homepage:
     discussions:
       catch_up_now: 
@@ -1809,7 +1809,7 @@ de-DE:
   list_sort:
     original_order: Listenvorgabe
     rating: Bewertung
-    release_date: Veröffentlichungsdatum
+    release_date: Veröffentlichung
     title: Titel
   list_steps:
     step_1: 'Schritt 1: Details'
@@ -1847,13 +1847,13 @@ de-DE:
   navigation:
     discover:
       discover: Entdecken
-      movies: 
+      movies: Filme
       tv_shows: Serien
     movies:
       now_playing: Im Kino
       popular: Beliebt
       top_rated: Bestbewertet
-      upcoming: Kommend
+      upcoming: Demnächst
     people:
       people: Personen
       popular_people: Beliebte Personen
@@ -1919,10 +1919,10 @@ de-DE:
     caught_up: 
     clear: 
     good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    mark_all_as_read: Als gelesen markieren
+    refresh: Aktualisieren
+    unread_notifications: Ungelese Benachrichtigungen
+    view: Anzeigen
   number:
     currency:
       format:
@@ -2036,9 +2036,9 @@ de-DE:
         stats: 
     blocked_users:
       action: 
-      blocked_users: 
+      blocked_users: Gesperrte Benutzer
       no_blocked: 
-      username: 
+      username: Benutzername
     change_email:
       change_email: E-Mail Adresse ändern
       change_email_text: 
@@ -2088,7 +2088,7 @@ de-DE:
     navigation:
       account_settings: 
       api: 
-      blocked_users: 
+      blocked_users: Gesperrte Benutzer
       connected_apps: 
       delete_account: 
       edit_profile: 
@@ -2101,7 +2101,7 @@ de-DE:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: Benachrichtigungen
     profile:
       accent_color: 
       avatar:
