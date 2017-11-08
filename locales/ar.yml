@@ -10,7 +10,7 @@ ar:
   API Stats: 
   API Terms: 
   API Updates: 
-  About: 
+  About: "عن"
   About TMDb: "عن TMDb"
   About this list: "عن هذه القائمة"
   Accept: "قبول"
@@ -299,7 +299,6 @@ ar:
   Next Episode: "الحلقة التالية"
   Next Season: "الموسم التالي"
   'No': "لا"
-  No results found: "لا توجد نتائج"
   None: "لا شيء"
   Notes: "الملاحظات"
   Notifications: 
@@ -521,7 +520,7 @@ ar:
   View: 
   View All Backdrops: "عرض كل الخلفيات"
   View All Episode Images: 
-  View All Episodes: 
+  View All Episodes: "عرض كل الحلقات"
   View All Posters: "عرض كل الملصقات"
   View All Seasons: "عرض كل المواسم"
   View All Videos: "عرض كل الفيديوهات"
@@ -673,8 +672,8 @@ ar:
   average edits per day: "متوسط التعديلات في اليوم"
   back_options:
     back: 
-    episode: 
-    episode_list: 
+    episode: "الرجوع إلى الحلقة"
+    episode_list: "الرجوع إلى قائمة الحلقات"
     home: 
     main: 
     season: 
@@ -1381,11 +1380,13 @@ ar:
     new_email_address: 
     sent_verification_email: 
   episode_count:
-    many: "%{count} حلقات"
-    one: "%{count} حلقة"
-    other: "%{count} حلقات"
-    two: "%{count} حلقتين"
-  episode_number_name: 
+    few: "حلقات %{count}"
+    many: "حلقة %{count}"
+    one: "حلقة واحدة"
+    other: "حلقة %{count}"
+    two: "حلقتان"
+    zero: "حلقة %{count}"
+  episode_number_name: "%{episode_number} الحلقة"
   errors:
     messages:
       blank: "مطلوب"
@@ -1966,12 +1967,12 @@ ar:
     other: "%{count} نتائج"
     two: "%{count} نتيجتين"
   number_of_translations:
-    few: "%{count} ترجمات"
-    many: "%{count} ترجمة"
-    one: "%{count} ترجمة"
-    other: "%{count} ترجمة"
-    two: "%{count} ترجمتين"
-    zero: "%{count} ترجمة"
+    few: "ترجمات %{count}"
+    many: "ترجمة %{count}"
+    one: "ترجمة واحدة"
+    other: "ترجمة %{count}"
+    two: "ترجمتان"
+    zero: "ترجمة %{count}"
   number_of_votes:
     few: "%{count} أصوت"
     many: "%{count} صوت"
@@ -2011,10 +2012,12 @@ ar:
       person: 
       tv_show: 
     no_results: 
+    no_results_found: "لا توجد نتائج"
     rated_movie: 
     rated_tv: 
     recommendations_movie: 
     recommendations_tv: 
+    trending: 
     trending_searches: "عمليات البحث الشائعة"
     watchlist_movie: "بحث قائمة مشاهدة للأفلام..."
     watchlist_tv: "بحث قائمة مشاهدة للمسلسلات..."
@@ -2179,10 +2182,12 @@ ar:
       12hour_minutes: 
   top_contributors: 
   translation:
-    many: "ترجمات"
+    few: "ترجمات"
+    many: "ترجمة"
     one: "ترجمة"
-    other: "ترجمتين"
-    two: "ترجمتين"
+    other: "ترجمة"
+    two: "ترجمتان"
+    zero: "ترجمة"
   upload_backdrop: "تحميل خلفية "
   upload_poster: "تحميل ملصق"
   upload_profile: 
