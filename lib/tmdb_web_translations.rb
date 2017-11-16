@@ -59,7 +59,7 @@ module TMDb
       end
 
       def self.default_language_to_country_mapping
-        TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }.to_hash
+        Hash[TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }]
       end
 
       def self.language_list
