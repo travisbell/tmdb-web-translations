@@ -1267,7 +1267,9 @@ zh-TW:
     - "十二月"
   day: "日"
   days: "%{count} 天"
-  department_credits_count: 
+  department_credits_count:
+    one: "%{department} (%{count} 信用分數)"
+    other: "%{department} (%{count} 信用分數)"
   departments:
     Acting: "演出"
     Actors: "演員"
@@ -2068,8 +2070,8 @@ zh-TW:
         import: "匯入"
         previous: "之前的匯入資料"
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: "匯入完成"
+        started_import: "開始匯入"
       previous:
         date: "日期"
         imported: "已匯入"
