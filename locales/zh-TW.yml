@@ -590,7 +590,7 @@ zh-TW:
       date_rated: "評分日期"
       my_rating: "我的評分"
       popularity: "熱門度"
-      rating: 
+      rating: "評分"
       release_date: "上映日期"
       score: "評分"
       upcoming: "即將上映"
@@ -1854,7 +1854,9 @@ zh-TW:
 
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
     network:
-      number_of_shows: 
+      number_of_shows:
+        one: "%{count} 個節目"
+        other: "%{count} 個節目"
     rating:
       rated_with_rating: "評分 %{value}"
     social_panel:

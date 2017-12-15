@@ -558,7 +558,7 @@ sk-SK:
     watchlist: Watchlist
   accounts:
     activity:
-      activity: 
+      activity: Aktivity
       legend:
         added: Pridané
         created: Vytvorené
@@ -570,56 +570,56 @@ sk-SK:
         people: Osoby
         tv: TV
       table:
-        action: 
+        action: Akcia
         edit: Upraviť
         key: Kľúč
         language_abbreviation: Jazyk
     average_movie_score: Priemerné<br>hodnotenie filmu
     average_tv_score: Priemerne<br>hodnotenie seriálu
     discussions:
-      my_active_boards: 
+      my_active_boards: Moje aktívne nástenky
       my_discussions: Moje diskusie
-      not_watching: 
+      not_watching: Nesleduješ žiadnu diskusiu.
     favorites:
       my_favorites:
         logged_in: Moje obľúbené
-        public: 
-    filter_by: 
+        public: Obľúbené používateľa %{username}
+    filter_by: 'Filtrovať podľa:'
     filters:
       date_added: Dátum pridania
       date_rated: 
       my_rating: Moje hodnotenia
       popularity: Popularita
-      rating: 
+      rating: Hodnotenie
       release_date: Dátum vydania
       score: Skóre
-      upcoming: 
+      upcoming: Nadchádzajúce
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Vytvoriť zoznam
+      last_updated: Aktualizované
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: Moje zoznamy
+        public: Zoznamy používateľa %{username}
       no_lists:
         logged_in: Nevytvoril si žiadne zoznamy.
-        public: 
+        public: "%{username} nemá žiadne verejné zoznamy pre zdielanie."
     member_since: "Členom od %{date}"
     navigation:
       discussions: Diskusie
       favorites: Obľúbené
       lists: Zoznamy
       overview: Prehľad
-      ratings_reviews: 
+      ratings_reviews: Hodnotenia a recenzie
       recommendations: Odporúčania
       watchlist: Watchlist
-    order: 
+    order: 'Poradie:'
     overview:
       30_day_activity: Aktivita za 30 dní
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Neurobil si žiadne nedávne úpravy.
+        public: "%{username} neurobil žiadne nedávne úpravy."
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy.
       empty_watched_genres:
         logged_in: 
         public: 
@@ -727,7 +727,7 @@ sk-SK:
           meaning: 
       CA:
         '1':
-          meaning: 
+          meaning: Všetky vekové kategórie.
         '2':
           meaning: 
         '3':
@@ -1168,28 +1168,28 @@ sk-SK:
     scale:
       '0': Niekde sa musí začať...
       '1': Hej, je to začiatok.
-      '10': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
+      '10': "Áno! Vyzerá to dobre!"
+      '2': Už sa tam dostávame.
+      '3': Rím nebol postavený za deň...
+      '4': V tíme nie je žiadne "ja"...
+      '5': Stále potrebuje trochu práce.
       '6': 
-      '7': 
-      '8': 
-      '9': 
+      '7': Ešte trochu viac...
+      '8': Nevzdávaj sa! Už sme skoro tam.
+      '9': Takmer tam...
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      collection: kol
+      image: obr
+      movie: fil
+      people: lud
+      tv: tv
     collection:
-      collection: 
-      collection_bible: 
+      collection: Kolekcie
+      collection_bible: Biblia kolekcií
       tall_bible:
-        bottom: 
-        top: 
+        bottom: Biblia
+        top: Kolekcia
     contribution_bible: 
     featured_articles: 
     general:
@@ -1216,15 +1216,15 @@ sk-SK:
         top: 
     pro_tip: 
     search:
-      placeholder_1: 
+      placeholder_1: S čím potrebuješ pomôcť?
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: Biblia
+        top: TV
+      tv: TV
+      tv_bible: TV Biblia
+    welcome_1: Vitaj v
+    welcome_2: Biblia príspevkov
   date:
     abbr_day_names:
     - Ned
@@ -1247,8 +1247,8 @@ sk-SK:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e. %B, %Y"
-      full_month_year: 
-      short_month_day_year: 
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
     - 
     - Január
@@ -1286,16 +1286,16 @@ sk-SK:
     Writing: Scenár
   discussions:
     actions:
-      actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
+      actions: Akcie
+      close_discussion: Zavrieť diskusiu
+      make_private: Urobiť súkromnú
+      make_public: Urobiť verejnú
+      mark_spam: Označiť ako Spam
+      reopen_discussion: Znovu otvoriť diskusiu
       stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      view_activity: Zobraziť aktivitu
+      watch: Pozerať
+    admin_panel: Panel administrátor
     back_options:
       back_to_item_with_arrow: 
       back_to_tmdb_with_arrow: 
@@ -1322,23 +1322,23 @@ sk-SK:
       last_reply_with_datetime_and_username: 
     discussion_activity: 
     email_notifications:
-      email_notifications: 
-      subscribe: 
-      unsubscribe: 
+      email_notifications: Emailové notifikácie
+      subscribe: Odoberať
+      unsubscribe: Neodoberať
     headers:
-      discuss: 
+      discuss: Diskutovať
       discuss_item: 
       lets_chat: 
-      support: 
-      support_title: 
+      support: Podpora
+      support_title: The Movie Database podpora
     login_to_be_notified: 
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      community_guidelines: Komunitné pravidlá
+      discussion_category: Kategória
+      for_item: Pre položku
+      new_discussion: Nová diskusia
+      subject: Predmet
+    no_discussions: "Žiadne diskusie."
     pagination:
       post_summary: 
       summary: 
@@ -1358,29 +1358,29 @@ sk-SK:
         report_violation: 
         unhide_discussion: 
       posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
-      reply: 
+      quote: Citácia
+      reopen_reply: Znovu otvoriť a odpovedať
+      reply: Odpovedať
       reply_by: 
       reply_on_datetime: 
-      report: 
-      unhide: 
+      report: Nahlásiť
+      unhide: Odokryť
     report_violation: Nahlásiť porušenie
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Pokročilé vyhľadávanie
+      search_closed: Vyhľadávanie zatvorené?
+      search_forums: Prehľadávať fórum
+      search_open: Vyhľadávanie otvorené?
     statuses:
-      closed: 
-      open: 
+      closed: Zatvorené
+      open: Otvorené
     table_headers:
-      last_reply: 
-      replies: 
-      status: 
-      subject: 
+      last_reply: Posledná odpoveď
+      replies: Odpovede
+      status: Stav
+      subject: Predmet
     users_in_discussion:
-      no_subscribers: 
+      no_subscribers: "Žiadny odoberatelia"
       users_in_discussion: 
     your_account: 
   dont_fallback: "Žiadny (žiadny rezervný)"
@@ -1441,13 +1441,13 @@ sk-SK:
       '6': 
       '7': 
       '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      '9': Minimálne rozlíšenie je 300x450
+      backdrops_must_meet: 'Pozadia musia spĺňať nasledovné kritériá:'
+      episode_stills_must_meet: 'Obrázky epizód musia spĺňať nasledovné kritériá:'
+      posters_must_meet: 'Plagáty musia spĺňať nasledovné kritériá:'
+      profile_must_meet: 'Profilové obrázky musia spĺňať nasledovné kritériá:'
+      read_guidelines: Prosíme, aby si sa oboznámil s našimi aktualizovanými <a href="%{link}" target="_blank" rel="noopener">príspevkovými pravidlami pre obrázky</a>.
+      tip: Pokiaľ to tvoj prehliada, môžeš potiahnuť a pustiť obrázok do oblasti nižšie. Alebo jednoducho klikni na "Vybrať súbory..." a vyber obrázok zo svojho počítača.
   invalid_aspect_ratio: Tento pomer strán je nesprávny.
   item_count:
     few: "%{count} položiek"
@@ -1831,24 +1831,27 @@ sk-SK:
         confirm_collection: 
         confirm_video: 
     network:
-      number_of_shows: 
+      number_of_shows:
+        few: "%{count} seriálov"
+        one: "%{count} serál"
+        other: "%{count} seriály"
     rating:
-      rated_with_rating: 
+      rated_with_rating: Hodnotenie %{value}
     social_panel:
       discussions:
         currently_subscribed: 
         no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        unsubscribe_me: Prestať odoberať.
+        want_to_be_notified: Chceš byť upozornený keď niekto urobí prvý príspevok?
+        yes_notify_me: "Áno, upozorni ma!"
     tv_episode:
       edit:
-        screened_as_part_of_season: 
-        screened_confirm: 
-        screened_label: 
+        screened_as_part_of_season: "Áno, ako súčasť tejto série"
+        screened_confirm: Pokiaľ bola táto epizóda niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
+        screened_label: Bola táto epizóda niekedy premietaná v kine?
     tv_season:
       edit:
-        screened_confirm: 
+        screened_confirm: Pokiaľ bola táto séria niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
         screened_label: 
   month:
     few: "%{count} mesiace"
@@ -2005,7 +2008,7 @@ sk-SK:
     next_page_with_arrow: 
     previous_page: 
     previous_page_with_arrow: 
-    show_more: 
+    show_more: Zobraziť viac
   part_of_collection: Súčasť %{collection_name}
   password:
     confirm_new_password: Potvrdiť nové heslo
@@ -2014,7 +2017,7 @@ sk-SK:
     reset_email_sent: Email zaslaný! Čoskoro by si mal obdržať inštrukcie pre obnovu hesla.
   person:
     credits:
-      as_character: 
+      as_character: ako %{character}
       as_job: 
   resend_verification_email_text: Neobdržal si aktivačný email pre účet? Zadaj svoje uživateľské meno nižsie a my ti ho prepošleme.
   reset_password_dialog_text: Potvrdením tejto požiadavky ti bude poslaný email s inštrukciami, ako obnoviť heslo.Si si istý, že toto chceš urobiť?
@@ -2022,20 +2025,20 @@ sk-SK:
   search:
     favorites_movie: Vyhľadať obľúbené filmy...
     favorites_tv: Vyhľadať obľúbené seriály...
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: vo filmoch
+    in_people: v ľuďoch
+    in_tv_shows: v seriáloch
     media_types:
-      movie: 
-      person: 
-      tv_show: 
-    no_results: 
+      movie: Film
+      person: Osoba
+      tv_show: Seriál
+    no_results: "Žiadny výsledok"
     no_results_found: Neboli nájdené žiadne vysledky
     rated_movie: Hľadať ohodnotené filmy...
     rated_tv: Hľadať ohodnotené seriály...
     recommendations_movie: Hľadať osobné filmové odporúčania...
     recommendations_tv: Hľadať osobné seriálové odporúčania...
-    trending: 
+    trending: Trendujúce
     trending_searches: Trendujúce vyhľadávania
     watchlist_movie: Hľadať vo filmovom watchliste...
     watchlist_tv: Hľadať v seriálovom watchliste...
@@ -2046,19 +2049,19 @@ sk-SK:
     to_air: "%{season_number} séria seriálu %{show_name} má premiéru %{date}."
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: Nastavenia účtu
+      change_password: Zmeniť heslo?
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
+        create: Vytvoriť
+        details: Detaily
+        directory: Priečinok
         sessions: 
-        stats: 
+        stats: "Štatistika"
     blocked_users:
-      action: 
-      blocked_users: 
+      action: Akcia
+      blocked_users: Zablokovaný používatelia
       no_blocked: 
       username: 
     change_email:
@@ -2090,13 +2093,13 @@ sk-SK:
         items: 
         local_list: 
         no_imports: 
-        type: 
+        type: Typ
       results:
         complete:
-          imported: 
+          imported: Importovaný?
           item_reasons:
             already_imported: 
-            cant_find_imdb: 
+            cant_find_imdb: IMDB ID nebolo nájdené.
           reason: 
           summary: 
         currently_running: 
