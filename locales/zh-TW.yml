@@ -1843,6 +1843,12 @@ zh-TW:
   login_to_create: "找不到電影或電視影集嗎？登入來建立一個吧！"
   login_to_edit: "登入編輯"
   media:
+    genre:
+      movie_page_title: 
+      tv_page_title: 
+    keyword:
+      movie_page_title: 
+      tv_page_title: 
     movie:
       edit:
         confirm_collection: |-
@@ -1853,7 +1859,11 @@ zh-TW:
           <p>請協助將某些電影標記為影片，可幫助我們區分不是真正電影的內容類型。</p>
 
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
-    number_of_movies: 
+    network:
+      tv_page_title: 
+    number_of_movies:
+      one: "%{count} 部電影"
+      other: "%{count} 部電影"
     number_of_shows:
       one: "%{count} 個節目"
       other: "%{count} 個節目"

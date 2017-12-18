@@ -1845,6 +1845,12 @@ pt-BR:
   login_to_create: Não encontrou o filme ou série que procurava? Entre com uma conta e adicione ao nosso banco de dados.
   login_to_edit: Entre com uma conta para editar
   media:
+    genre:
+      movie_page_title: 
+      tv_page_title: 
+    keyword:
+      movie_page_title: 
+      tv_page_title: 
     movie:
       edit:
         confirm_collection: |-
@@ -1855,7 +1861,11 @@ pt-BR:
           <p>Marcar um filme como um vídeo nos ajuda a diferenciar os tipos de conteúdo que não são realmente filmes.</p>
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
-    number_of_movies: 
+    network:
+      tv_page_title: 
+    number_of_movies:
+      one: "%{count} filme"
+      other: "%{count} filmes"
     number_of_shows:
       one: "%{count} séries"
       other: "%{count} séries"

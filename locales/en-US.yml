@@ -1847,6 +1847,12 @@ en-US:
   login_to_create: Can't find a movie or TV show? Login to create it.
   login_to_edit: Login to edit
   media:
+    genre:
+      movie_page_title: "%{name} Movies"
+      tv_page_title: "%{name} TV Shows"
+    keyword:
+      movie_page_title: '"%{name}" Movies'
+      tv_page_title: '"%{name}" TV Shows'
     movie:
       edit:
         confirm_collection: |-
@@ -1857,6 +1863,8 @@ en-US:
           <p>Tagging a movie as a video helps us differentiate types of content that aren't truly movies.</p>
 
           <p>If this content is for example, a compilation DVD, a fitness video or perhaps a "best of" DVD, then you should mark it as a video.</p>
+    network:
+      tv_page_title: TV Shows on %{name}
     number_of_movies:
       one: "%{count} movie"
       other: "%{count} movies"
