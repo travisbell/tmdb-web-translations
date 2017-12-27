@@ -281,7 +281,7 @@ sk-SK:
   Most Popular: Najpopulárnejšie
   Move TV Credits: Presunúť TV titulky
   Movie Data: Filmové informácie
-  Movie Language Distribution: Jazyková distribúcia filmu
+  Movie Language Distribution: Jazyková distribúcia filmov
   Movie Recommendations: Filmové odporúčania
   Movie Results: Nájdené filmy
   Movie Status: Stav filmu
@@ -466,7 +466,7 @@ sk-SK:
   TV Network: TV stanica
   TV Recommendations: TV odporúčania
   TV Show Data: Informácie seriálu
-  TV Show Language Distribution: Jazyková distribúcia seriálu
+  TV Show Language Distribution: Jazyková distribúcia seriálov
   TV Show Results: Nájdené seriály
   TV Show Status: Status seriálu
   TV Show Type: Typ seriálu
@@ -1297,28 +1297,28 @@ sk-SK:
       watch: Pozerať
     admin_panel: Panel administrátor
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Späť na %{item_title}"
+      back_to_tmdb_with_arrow: "← Späť na TMDb"
+      back_with_arrow: "← Späť"
     categories:
-      categories: 
+      categories: Kategórie
       discuss:
-        content_issues: 
+        content_issues: Problémy s obsahom
         discuss: 
-        general: 
-        website_support: 
+        general: Všeobecné
+        website_support: Podpora webstránky
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        general_chat: 
+        api_requests: API požiadavky
+        api_requests_(professional): API požiadavky (profesionálne)
+        api_support: API podpora
+        content_issues: Problémy s obsahom
+        general: Všeobecné
+        general_chat: Všeobecná diskusia
         moderator_talk: 
-        support: 
-        website_support: 
+        support: Podpora
+        website_support: Podpora webstránky
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} o %{time}"
       last_reply_with_datetime_and_username: 
     discussion_activity: 
     email_notifications:
@@ -1382,7 +1382,7 @@ sk-SK:
     users_in_discussion:
       no_subscribers: "Žiadny odoberatelia"
       users_in_discussion: 
-    your_account: 
+    your_account: Tvoj účet
   dont_fallback: "Žiadny (žiadny rezervný)"
   edit:
     tooltips:
@@ -1424,19 +1424,19 @@ sk-SK:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: Diskusie
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Nová epizóda bude za %{number_of_days} deň/dni/dní.
+        today: Nová epizóda sa vysiela dnes
+        tomorrow: Nová epizóda sa vysiela zajtra
   images:
-    confirm_delete: 
+    confirm_delete: Si si istý, že chceš vymazať tento obrázok?
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
+      '1': Maximálne rozlíšenie je 2000x3000
+      '2': Minimálne rozlíšenie je 500x750
+      '3': Pomer strán 1:1.5 (2:3)
+      '4': Maximálne rozlíšenie je 3840x2160
       '5': 
       '6': 
       '7': 
@@ -1939,9 +1939,9 @@ sk-SK:
   notifications:
     caught_up: 
     clear: 
-    good_job: 
+    good_job: Dobrá práca!
     mark_all_as_read: 
-    refresh: 
+    refresh: Obnoviť
     unread_notifications: 
     view: 
   number:
