@@ -13,7 +13,7 @@ module TMDb
       end
 
       def self.default_mapping
-        { 'en' => 'en-US',
+        { 'ar' => 'ar-SA',
           'bg' => 'bg-BG',
           'bn' => 'bn-BD',
           'ca' => 'ca-ES',
@@ -22,6 +22,7 @@ module TMDb
           'da' => 'da-DK',
           'de' => 'de-DE',
           'el' => 'el-GR',
+          'en' => 'en-US',
           'eo' => 'eo-EO',
           'es' => 'es-ES',
           'eu' => 'eu-ES',
