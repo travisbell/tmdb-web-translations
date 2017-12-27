@@ -38,6 +38,7 @@ module TMDb
           'ka' => 'ka-GE',
           'kn' => 'kn-IN',
           'ko' => 'ko-KR',
+          'lt' => 'lt-LT',
           'nb' => 'nb-NO',
           'nl' => 'nl-NL',
           'ml' => 'ml-IN',
