@@ -279,7 +279,7 @@ sk-SK:
   Moderator: Moderátor
   More Info: Viac informácií
   Most Popular: Najpopulárnejšie
-  Move TV Credits: Presunúť TV titulky
+  Move TV Credits: Presunúť seriálové titulky
   Movie Data: Filmové informácie
   Movie Language Distribution: Jazyková distribúcia filmov
   Movie Recommendations: Filmové odporúčania
@@ -568,7 +568,7 @@ sk-SK:
         movies: Filmy
         others: Ostatné
         people: Osoby
-        tv: TV
+        tv: Seriály
       table:
         action: Akcia
         edit: Upraviť
@@ -587,7 +587,7 @@ sk-SK:
     filter_by: 'Filtrovať podľa:'
     filters:
       date_added: Dátum pridania
-      date_rated: 
+      date_rated: Dátum hodnotenia
       my_rating: Moje hodnotenia
       popularity: Popularita
       rating: Hodnotenie
@@ -621,24 +621,24 @@ sk-SK:
       empty_upcoming_watchlist:
         logged_in: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy.
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: Nezaznamenal si žiadne filmy alebo seriály.
+        public: "%{username} nezaznamenal žiadne filmy alebo seriály."
       goto_discussions: "Ísť do diskusií"
       goto_watchlist: "Ísť do Watchlistu"
       most_watched_genres: Najviac pozerané žánre
-      rating_overview: 
+      rating_overview: Prehľad hodnotení
       recent_activity: Nadávna aktivita
       recent_discussions: Nedávne diskusie
       total_edits: Celkovo úprav
       total_ratings: Celkové hodnotenia
-      upcoming_watchlist: 
+      upcoming_watchlist: Nadchádzajúce z Watchlistu
     ratings_reviews:
       my_ratings:
         logged_in: Moje hodnotenia
-        public: 
+        public: Hodnotenia užívateľa %{username}
       my_reviews:
-        logged_in: 
-        public: 
+        logged_in: Moje recenzie
+        public: Recenzie užívateľa %{username}
       ratings_by_year: 
     recommendations:
       my_recommendations: 
@@ -1385,6 +1385,7 @@ sk-SK:
     your_account: Tvoj účet
   dont_fallback: "Žiadny (žiadny rezervný)"
   edit:
+    page_title: 
     tooltips:
       homepage: Iba oficiálne webové stránky. Fan-stránky nie sú povolené.
       original_title: Pôvodný názov by mal byť vložený v pôvodnom jazyku danej položky. Vo väčšine prípadov sa bude zhodovať s jazykom, ktorý je v políčku "Pôvodný jazyk".
@@ -1828,16 +1829,16 @@ sk-SK:
   media:
     genre:
       movie_page_title: 
-      tv_page_title: 
+      tv_page_title: "%{name} seriály"
     keyword:
       movie_page_title: 
-      tv_page_title: 
+      tv_page_title: "%{name} seriály"
     movie:
       edit:
         confirm_collection: 
         confirm_video: 
     network:
-      tv_page_title: 
+      tv_page_title: Seriály na %{name}
     number_of_movies: 
     number_of_shows:
       few: "%{count} seriálov"
@@ -1860,7 +1861,7 @@ sk-SK:
     tv_season:
       edit:
         screened_confirm: Pokiaľ bola táto séria niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
-        screened_label: 
+        screened_label: Bola táto séria niekedy premietaná v kine?
   month:
     few: "%{count} mesiace"
     one: mesiac
@@ -1881,7 +1882,7 @@ sk-SK:
     tv_shows:
       airing_today: Vysielané dnes
       on_the_air: Práve vysielané
-      on_tv: V TV
+      on_tv: Teraz vysielané
       popular: Populárne
       top_rated: Najlepšie hodnotené
   no_biography: Pre osobu %{name} nemáme biografiu.
@@ -2013,9 +2014,9 @@ sk-SK:
     last_page: Posledná strana
     load_more: Načítať viac
     next_page: "Ďalšia strana"
-    next_page_with_arrow: Next page →
-    previous_page: 
-    previous_page_with_arrow: 
+    next_page_with_arrow: "Ďalšia strana →"
+    previous_page: Predchádzajúca strana
+    previous_page_with_arrow: "← Predchádzajúca strana"
     show_more: Zobraziť viac
   part_of_collection: Súčasť %{collection_name}
   password:
@@ -2087,28 +2088,28 @@ sk-SK:
       delete_account: 
       summary_text: 
     import_list:
-      import_button: 
-      import_list: 
+      import_button: Importovať
+      import_list: Importovať zoznam
       navigation:
-        import: 
-        previous: 
+        import: Importovať
+        previous: Predchádzajúce importy
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: Dokončený import!
+        started_import: Začatý import...
       previous:
-        date: 
-        imported: 
-        items: 
-        local_list: 
-        no_imports: 
+        date: Dátum
+        imported: Importované
+        items: Položky
+        local_list: Lokálny zoznam
+        no_imports: Neimportoval si žiadne zoznamy.
         type: Typ
       results:
         complete:
           imported: Importovaný?
           item_reasons:
-            already_imported: 
+            already_imported: Už importované.
             cant_find_imdb: IMDB ID nebolo nájdené.
-          reason: 
+          reason: Dôvod? (ak je aplikovateľné)
           summary: 
         currently_running: 
         import_results: 
@@ -2132,14 +2133,14 @@ sk-SK:
       notification_settings: 
       settings: 
       sharing_settings: 
-      social_settings: 
+      social_settings: Sociálne nadstavenia
     notifications:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: Notifikácie
     profile:
-      accent_color: 
+      accent_color: Farebný odtieň
       avatar:
         current_avatar: Aktuálny avatar
         explain: V súčastnosti je jediná možnosť ako pridať vlastný avatar len prostrednícstvom služby zvanej <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Pokiaľ si želáš vlastného avatara na TMDb, musíš sa zaregistrovať na Gravatar-e a uistiť sa, že používaš rovnaký email ako na našej stránke (to je spôsob, akým vieme prepojiť tieto dve služby). Akonáhle tieto podmienky splníš, klikni na tlačidlo aktualizovať a my získame tvoj nový obrázok.
@@ -2155,7 +2156,7 @@ sk-SK:
         upload_window_tip: 
         use_gravatar: Použiť Gravatar?
       background:
-        background_image: 
+        background_image: Obrázok pozadia
         confirm_remove: 
         remove_background: 
         set_image: 
@@ -2168,10 +2169,10 @@ sk-SK:
       rated_list:
         rated_settings: 
         share_publicly: 
-      sharing_settings: 
+      sharing_settings: Nastavenie zdieľania
       watchlist:
-        remove_when_rated: 
-        watchlist_settings: 
+        remove_when_rated: Automaticky odstrániť položky ktoré boli ohodnotené?
+        watchlist_settings: Nastavenia Watchlistu
     social:
       connected_table:
         action: 
@@ -2212,7 +2213,7 @@ sk-SK:
   time:
     formats:
       12hour_minutes: 
-  top_contributors: 
+  top_contributors: Najlepší prispievatelia
   translation:
     few: preklady
     one: preklad
