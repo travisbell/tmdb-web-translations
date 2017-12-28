@@ -639,22 +639,28 @@ sk-SK:
       my_reviews:
         logged_in: Moje recenzie
         public: Recenzie užívateľa %{username}
-      ratings_by_year: 
+      ratings_by_year: Hodnotenia podľa roku
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
+      my_recommendations: Moje odporúčania
+      no_recommendations: Nemáme dostatok údajov pre navrhovanie odporúčaní.
+      no_recommendations_helper: Skús pridať viac obľúbených (čím viac, tým lepšie) a znova sa sem príď pozrieť, či sme niečo našli.
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: Môžeš importovať svoje hodnotenia z IMDb.
+      tip: Tip
     watchlist:
       my_watchlist: Môj Watchlist
       next_month: "Ďalší mesiac"
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        few: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položky.
+        one: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položku.
+        other: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položiek.
+      no_upcoming_tv_shows:
+        few: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položky.
+        one: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položku.
+        other: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položiek.
       this_month: Tento mesiac
       this_week: Tento týždeň
-      view_them: 
+      view_them: Zobraziť ich.
   add_to_list: Pridať %{media_title} do tvojho zoznamu...
   already_translated_in: "%{page_title} je už preložený do nasledujúcich jazykov..."
   api_session:
@@ -667,7 +673,7 @@ sk-SK:
     iso_3166_1: Krajina
     iso_639_1: Jazyk
     normalized_email: Email
-    normalized_username: 
+    normalized_username: Užívateľské meno
     overview: Obsah
     title: Názov
   average edits per day: premierne úprav za deň
@@ -686,21 +692,21 @@ sk-SK:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Oslobodené od klasifikácie. Filmy ktoré sú oslobodené od klasifikácie nemôžu obsahovať diskutabilný materiál (tj. materiál ktorý by vo všeobecnosti bol klasifikovaný ako M alebo vyššie).
         '2':
-          meaning: 
+          meaning: Všeobecný. Obsah má veľmi mierny dopad.
         '3':
-          meaning: 
+          meaning: Dozor rodiča odporúčaný. Tu nie sú žiadne vekové obmedzenia. Obsah má veľmi mierny dopad.
         '4':
-          meaning: 
+          meaning: Odporúčané pre dospelé publikum. Tu nie sú žiadne vekové obmedzenia. Obsah má veľmi mierny dopad.
         '5':
-          meaning: 
+          meaning: S dospelým sprievodom. Nevhodné pre deti mladšie ako 15 rokov. Deti mladšie ako 15 rokov musia byť sprevádzané rodičom alebo opatrovníkom. Obsah má silný dopad.
         '6':
-          meaning: 
+          meaning: Obmedzené pre 18 ročných a starších. Len pre dospelých. Obsah má veľmi silný dopad.
         '7':
-          meaning: 
+          meaning: Obmedzené pre 18 ročných a starších. Filmy s týmto hodnotením majú pornografický obsah. Filmy klasifikované ako X18+ sú zakázané predávať alebo požičiavať vo všetkých štátoch Austrálie a sú legálne dostupné len v Austrálskom hlavnom území a v Severných územiach. Avšak, importovanie X18+ materálu z týchto dvoch území do akéhokoľvek Austrálskeho štátu je legálne. Obsah má jasne sexuálny dopad.
         '8':
-          meaning: 
+          meaning: Odmietnutá klasifikácia. Zakázané predávať alebo požičiavať v Austrálií. Vzťahujú sa naň clá. Súkromné internetové pozeranie je nepresadzované a pokusy o legálne cenzurovanie online materiálu vyústili do kontroverzie. Filmy sú hodnotené ako RC, pokiaľ ich obsah neprekračuje príručku. Obsah má veľmi vysoký dopad.
       BG:
         '1':
           meaning: Odporúčané pre deti
@@ -709,33 +715,33 @@ sk-SK:
         '3':
           meaning: Neodporúčané pre deti do 12 rokov.
         '4':
-          meaning: 
+          meaning: Zakázané pre osoby mladšie ako 16.
         '5':
-          meaning: 
+          meaning: Zakázané pre osoby mladšie ako 18.
       BR:
         '1':
-          meaning: 
+          meaning: Všeobecné publikum. Nevystavuje deti žiadnemu potencionálne nevhodnému obsahu.
         '2':
-          meaning: 
+          meaning: Neodporúčané pre mladších ako 10. Násilný obsah alebo nevhodný jazyk pre deti, aj keď v menšej intenzite.
         '3':
-          meaning: 
+          meaning: Neodporúčané pre mladších ako 12. Scény môžu obsahovať fyzickú agresiu, užívanie drog a sexuálne narážky.
         '4':
-          meaning: 
+          meaning: Neodporúčané pre mladších ako 14. Viac násilného obsahu, silnejšie sexuálne narážky a/alebo nahota.
         '5':
-          meaning: 
+          meaning: Neodporúčané pre mladších ako 16. Scény obsahujú produkciu, pašovanie a/alebo užívanie nelegálnych drog, realistické sexuálne scény, sexuálne násilie, mučenie, mrzačenie, samovraždy, trivializáciu násilia a rozsudok smrti.
         '6':
-          meaning: 
+          meaning: Neodporúčané pre mladších ako 18. Scény obsahujú necenzurovaný sex, incest, pedofíliu, vyzdvihovanie užívania drog a násilie so silnou prezentáciou.
       CA:
         '1':
           meaning: Všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Dozor rodiča odporúčaný. u nie sú žiadne vekové obmedzenia ale niektoré materiály nemusia byť vhodné pre všetky deti.
         '3':
-          meaning: 
+          meaning: Osoby mladšie ako 14 rokov musia byť sprevádzané dospelým človekom.
         '4':
-          meaning: 
+          meaning: Osoby mladšie ako 18 rokov musia byť sprevádzané dospelým človekom. V Maritimes & Manitoba, deti pod 14 rokov majú zakázané pozerať film.
         '5':
-          meaning: 
+          meaning: Vstup obmedzená pre osoby staršie ako 18 rokov. Jediný účel filmu je zobraziť sexuálne explicitnú aktivitu a/alebo explicitné násilie.
       CA-QC:
         '0':
           meaning: 
@@ -781,25 +787,25 @@ sk-SK:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: Neodporúčané pre divákov mladších ako 18.
         '6':
-          meaning: 
+          meaning: Zakázané pre divákov mladších ako 18.
       FI:
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Viac ako 7 ročných.
         '3':
-          meaning: 
+          meaning: Viac ako 12 ročných.
         '4':
-          meaning: 
+          meaning: Viac ako 16 ročných.
         '5':
-          meaning: 
+          meaning: Len dospelý.
         '6':
-          meaning: 
+          meaning: Zakázané z komerčnej distribúcie.
       FR:
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
           meaning: 
         '3':
@@ -1839,7 +1845,10 @@ sk-SK:
         confirm_video: 
     network:
       tv_page_title: Seriály na %{name}
-    number_of_movies: 
+    number_of_movies:
+      few: "%{count} filmy"
+      one: "%{count} film"
+      other: "%{count} filmov"
     number_of_shows:
       few: "%{count} seriálov"
       one: "%{count} serál"
@@ -1869,10 +1878,10 @@ sk-SK:
   navigation:
     discover:
       discover: Objav
-      movies: 
+      movies: Filmy
       tv_shows: Seriály
     movies:
-      now_playing: Aktuálne hrané
+      now_playing: Teraz hrané
       popular: Populárne
       top_rated: Najlepšie hodnotené
       upcoming: Nadchádzajúce
@@ -1881,7 +1890,7 @@ sk-SK:
       popular_people: Populárne osoby
     tv_shows:
       airing_today: Vysielané dnes
-      on_the_air: Práve vysielané
+      on_the_air: Teraz vysielané
       on_tv: Teraz vysielané
       popular: Populárne
       top_rated: Najlepšie hodnotené
