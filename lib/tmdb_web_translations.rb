@@ -6,7 +6,8 @@ module TMDb
       @@supported_iso_639_1_path = nil
 
       def self.default_iso_3166_1_mapping
-        TMDb::Config::I18n.default_mapping.invert.merge('es-MX' => 'es',
+        TMDb::Config::I18n.default_mapping.invert.merge('ar-AE' => 'ar',
+                                                        'es-MX' => 'es',
                                                         'fr-CA' => 'fr',
                                                         'pt-BR' => 'pt',
                                                         'zh-TW' => 'zh')
