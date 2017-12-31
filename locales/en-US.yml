@@ -569,6 +569,9 @@ en-US:
         others: Other
         people: People
         tv: TV
+      page_title:
+        page_owner: My Recent Activity
+        public: "%{username}'s Recent Activity"
       table:
         action: Action
         edit: Edit
@@ -580,9 +583,15 @@ en-US:
       my_active_boards: My Active Boards
       my_discussions: My Discussions
       not_watching: You are not watching any discussions.
+      page_title:
+        page_owner: My Discussions
+        public: "%{username}'s Discussions"
     favorites:
       my_favorites:
         logged_in: My Favorites
+        public: "%{username}'s Favorites"
+      page_title:
+        page_owner: My Favorites
         public: "%{username}'s Favorites"
     filter_by: 'Filter by:'
     filters:
@@ -603,6 +612,9 @@ en-US:
       no_lists:
         logged_in: You haven't created any lists.
         public: "%{username} doesn't have any public lists to share."
+      page_title:
+        page_owner: My Lists
+        public: "%{username}'s Lists"
     member_since: Member since %{date}
     navigation:
       discussions: Discussions
@@ -632,6 +644,9 @@ en-US:
       total_edits: Total Edits
       total_ratings: Total Ratings
       upcoming_watchlist: Upcoming From Watchlist
+    page_title:
+      page_owner: My Profile
+      public: "%{username}'s Profile"
     ratings_reviews:
       my_ratings:
         logged_in: My Ratings
@@ -639,11 +654,15 @@ en-US:
       my_reviews:
         logged_in: My Reviews
         public: "%{username}'s Reviews"
+      page_title:
+        page_owner: My Ratings & Reviews
+        public: "%{username}'s Ratings & Reviews"
       ratings_by_year: Ratings By Year
     recommendations:
       my_recommendations: My Recommendations
       no_recommendations: We don't have enough data to suggest any recommendations.
       no_recommendations_helper: Try adding a few more favorites (the more the better) and come back to see how we did.
+      page_title: Recommendations
     tips:
       import_imdb_ratings: You can import your ratings from IMDb.
       tip: Tip
@@ -656,6 +675,9 @@ en-US:
       no_upcoming_tv_shows:
         one: There are no upcoming TV shows on your watchlist. There is however, %{count} item in your watchlist.
         other: There are no upcoming TV shows on your watchlist. There is however, %{count} items in your watchlist.
+      page_title:
+        page_owner: My Watchlist
+        public: "%{username}'s Watchlist"
       this_month: This month
       this_week: This week
       view_them: View them.
