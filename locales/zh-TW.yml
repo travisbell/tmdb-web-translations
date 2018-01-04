@@ -570,8 +570,8 @@ zh-TW:
         people: "演員"
         tv: "電視"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的近期活動"
+        public: "%{username} 的近期活動"
       table:
         action: "動作"
         edit: "編輯"
@@ -584,15 +584,15 @@ zh-TW:
       my_discussions: "我的討論"
       not_watching: "您尚未參與任何討論"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的討論串"
+        public: "%{username} 的討論串"
     favorites:
       my_favorites:
         logged_in: "我的最愛"
         public: "%{username} 的最愛"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的最愛"
+        public: "%{username} 的最愛"
     filter_by: "過濾依："
     filters:
       date_added: "增加資料的日期"
@@ -613,8 +613,8 @@ zh-TW:
         logged_in: "您尚未建立收藏清單"
         public: "%{username} 沒有可公開分享的清單"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的清單"
+        public: "%{username} 的清單"
     member_since: "會員加入於 %{date}"
     navigation:
       discussions: "討論"
@@ -645,8 +645,8 @@ zh-TW:
       total_ratings: "總評分數"
       upcoming_watchlist: "播放清單中即將上映的電影"
     page_title:
-      page_owner: 
-      public: 
+      page_owner: "我的簡介"
+      public: "%{username} 的簡介"
     ratings_reviews:
       my_ratings:
         logged_in: "我的評分"
@@ -655,14 +655,14 @@ zh-TW:
         logged_in: "我的評論"
         public: "%{username} 的評論"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的評分及評論"
+        public: "%{username} 的評分及評論"
       ratings_by_year: "評分統計（年）"
     recommendations:
       my_recommendations: "推薦給我"
       no_recommendations: "我們沒有足夠的資訊來產生推薦資料。"
       no_recommendations_helper: "請選出喜愛的電影或電視影集並加入我的最愛，以產生專屬於您的推薦資料。"
-      page_title: 
+      page_title: "建議"
     tips:
       import_imdb_ratings: "您可以匯入您在 IMDb 的評分資料"
       tip: "提示"
@@ -676,8 +676,8 @@ zh-TW:
         one: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
         other: "目前您的播放清單中有%{count}筆資料，但沒有即將上映的電視影集"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的觀看清單"
+        public: "%{username} 的觀看清單"
       this_month: "本月"
       this_week: "本週"
       view_them: "檢視清單內容"
@@ -1867,11 +1867,11 @@ zh-TW:
   login_to_edit: "登入編輯"
   media:
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} 的電影"
+      tv_page_title: "%{name} 的電視影集"
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" 的電影'
+      tv_page_title: '"%{name}" 的電視影集'
     movie:
       edit:
         confirm_collection: |-
@@ -1883,7 +1883,7 @@ zh-TW:
 
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
     network:
-      tv_page_title: 
+      tv_page_title: "在 %{name} 上的電視影集"
     number_of_movies:
       one: "%{count} 部電影"
       other: "%{count} 部電影"
@@ -1906,11 +1906,11 @@ zh-TW:
         screened_label: "本集內容曾經於劇院或電影院播映嗎？"
     tv_season:
       edit:
-        create_episode: 
+        create_episode: "建立單集內容"
         screened_confirm: 若本季內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: "本季內容曾經於劇院或電影院播映嗎？"
     tv_show:
-      create_season: 
+      create_season: "建立單季內容"
   month: "%{count} 個月"
   navigation:
     discover:
