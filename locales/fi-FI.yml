@@ -570,8 +570,8 @@ fi-FI:
         people: Ihmiset
         tv: TV
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Oma viimeaikainen toiminta
+        public: Käyttäjän %{username} viimeaikainen toiminta
       table:
         action: Toiminta
         edit: Muokkaa
@@ -584,15 +584,15 @@ fi-FI:
       my_discussions: Omat keskustelut
       not_watching: Et seuraa yhtään keskustelua.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Omat keskustelut
+        public: Käyttäjän %{username} keskustelut
     favorites:
       my_favorites:
         logged_in: Omat suosikit
         public: Käyttäjän %{username} suosikit
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Omat suosikit
+        public: Käyttäjän %{username} suosikit
     filter_by: Suodata
     filters:
       date_added: Lisätty
@@ -613,8 +613,8 @@ fi-FI:
         logged_in: Et ole luonut yhtään listaa.
         public: Käyttäjällä %{username} ei ole yhtään julkista listaa.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Omat listat
+        public: Käyttäjän %{username} listat
     member_since: Liittynyt %{date}
     navigation:
       discussions: Keskustelut
@@ -645,8 +645,8 @@ fi-FI:
       total_ratings: Pisteytyksiä yhteensä
       upcoming_watchlist: Tulevat elokuvat seurantalistalla
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Oma profiili
+      public: Käyttäjän %{username} profiili
     ratings_reviews:
       my_ratings:
         logged_in: Omat pisteytykset
@@ -655,14 +655,14 @@ fi-FI:
         logged_in: Omat arvostelut
         public: Käyttäjän %{username} arvostelut
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Omat arvostelut ja pisteytykset
+        public: Käyttäjän %{username} arvostelut ja pisteytykset
       ratings_by_year: Pisteytys vuoden mukaan
     recommendations:
       my_recommendations: Omat suositukset
       no_recommendations: Meillä ei ole tarpeeksi tietoa tehdäksemme suosituksia
       no_recommendations_helper: Lisää muutama suosikki (enempi on parempi) ja tule takaisin miten pärjäsimme.
-      page_title: 
+      page_title: Suositukset
     tips:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
@@ -676,8 +676,8 @@ fi-FI:
         one: Seurantalistallasi ei ole tulevia TV-sarjoja. Seurantalistallasi on kuitenkin %{count} nimikettä.
         other: Seurantalistallasi ei ole tulevia TV-sarjoja. Seurantalistallasi on kuitenkin %{count} nimikettä.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Oma seurantalista
+        public: Käyttäjän %{username} seurantalista
       this_month: Tässä kuussa
       this_week: Tällä viikolla
       view_them: Näytä ne.
@@ -690,6 +690,7 @@ fi-FI:
     biography: Elämänkerta
     certification: Ikärajoitus
     external_href: URL
+    homepage: 
     iso_3166_1: Maa
     iso_639_1: Kieli
     normalized_email: Sähköposti
@@ -1429,7 +1430,7 @@ fi-FI:
     your_account: Oma tili
   dont_fallback: Ei mitään (ei varakieltä)
   edit:
-    page_title: 
+    page_title: Muokkaa %{name}
     tooltips:
       homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
       original_title: Alkuperäinen nimi tulee olla nimikkeen alkuperäisellä kielellä. Yleensä tämä vastaa "alkuperäinen kieli"-kohdan asetusta.
@@ -1869,11 +1870,11 @@ fi-FI:
   login_to_edit: Kirjaudu sisään muokataksesi
   media:
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Elokuvissa"
+      tv_page_title: "%{name} TV-sarjoissa"
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Elokuvissa"
+      tv_page_title: "%{name} TV-sarjoissa"
     movie:
       edit:
         confirm_collection: |-
@@ -1885,8 +1886,10 @@ fi-FI:
 
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
     network:
-      tv_page_title: 
-    number_of_movies: 
+      tv_page_title: TV-sarjat kanavalla %{name}
+    number_of_movies:
+      one: "%{count} elokuva"
+      other: "%{count} elokuvaa"
     number_of_shows:
       one: "%{count} sarja"
       other: "%{count} sarjaa"
@@ -1906,11 +1909,11 @@ fi-FI:
         screened_label: Onko tämä jakso esitetty elokuvateatterissa?
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Luo jakso
         screened_confirm: Jos tämä kausi on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
     tv_show:
-      create_season: 
+      create_season: Luo kausi
   month:
     one: kuukausi
     other: "%{count} kuukautta"
