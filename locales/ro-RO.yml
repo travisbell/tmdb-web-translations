@@ -374,7 +374,6 @@ ro-RO:
   Rating Ascending: Notă ascendent
   Rating Descending: Notă descendent
   Ratings: Note
-  Read All Reviews: Citește toate recenziile
   Read More: Citiți mai multe
   Reality: Realitate
   Recent Blog Posts: Postările de pe blog recente
@@ -1883,6 +1882,10 @@ ro-RO:
         a_review_by: 
         by: 
         featured_review: Recenzia evidențiată
+        no_review:
+          logged_in: Nu avem nicio recenzie pentru %{title}. Doriți să <a href="%{url}">scrieți una</a>?
+          public: Nu avem nicio recenzie pentru %{title}.
+        read_all: Citește toate recenziile
     tv_episode:
       edit:
         screened_as_part_of_season: Da, ca parte din sezon
@@ -1956,9 +1959,6 @@ ro-RO:
     movie: 
     tv_show: 
   no_records: Nu au fost adăugate înregistrări.
-  no_review:
-    logged_in: Nu avem nicio recenzie pentru %{title}. Doriți să <a href="%{url}">scrieți una</a>?
-    public: Nu avem nicio recenzie pentru %{title}.
   no_tv_search_results: Nu există niciun film serial care să se potrivească cu căutarea dumneavoastră
   no_watchlist_movies:
     current_user: Nu ați adăugat niciun film artistic în lista de filme de privit.

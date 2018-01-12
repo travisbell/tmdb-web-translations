@@ -374,7 +374,6 @@ fr-FR:
   Rating Ascending: Note ascendante
   Rating Descending: Note descendante
   Ratings: Notes
-  Read All Reviews: Lire tous les avis
   Read More: Lire la suite
   Reality: Télé-réalité
   Recent Blog Posts: Articles récents du blog
@@ -1893,6 +1892,10 @@ fr-FR:
         a_review_by: 
         by: 
         featured_review: Critique en vedette
+        no_review:
+          logged_in: Nous n'avons pas assez de critiques pour %{title}. Voudriez-vous <a href="%{url}">en écrire une</a> ?
+          public: Aucune critique pour %{title}.
+        read_all: Lire tous les avis
     tv_episode:
       edit:
         screened_as_part_of_season: 
@@ -1965,9 +1968,6 @@ fr-FR:
     movie: Nous n'avons pas assez de données pour vous suggérer des films à partir de %{title}. Aidez-nous à y parvenir en notant les films que vous avez vus.
     tv_show: Nous n'avons pas assez de données pour vous suggérer des séries TV à partir de %{title}. Aidez-nous à y parvenir en notant les séries que vous avez vues.
   no_records: Aucune entrée n'a été ajoutée.
-  no_review:
-    logged_in: Nous n'avons pas assez de critiques pour %{title}. Voudriez-vous <a href="%{url}">en écrire une</a> ?
-    public: Aucune critique pour %{title}.
   no_tv_search_results: Aucune série TV ne correspond à votre requête.
   no_watchlist_movies:
     current_user: Vous n'avez ajouté aucun film à votre liste de suivi.

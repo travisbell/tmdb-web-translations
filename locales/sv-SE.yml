@@ -374,7 +374,6 @@ sv-SE:
   Rating Ascending: Betyg stigande
   Rating Descending: Betyg fallande
   Ratings: Betyg
-  Read All Reviews: Läs Alla Recensioner
   Read More: Läs Mer
   Reality: 
   Recent Blog Posts: Senaste Blogginläggen
@@ -1893,6 +1892,10 @@ sv-SE:
         a_review_by: 
         by: 
         featured_review: Presenterad Recension
+        no_review:
+          logged_in: Vi har inte några recensioner för %{title}. Skulle du vilja <a href="%{url}">skriva en</a>?
+          public: Vi har inte några recensioner för %{title}.
+        read_all: Läs Alla Recensioner
     tv_episode:
       edit:
         screened_as_part_of_season: 
@@ -1965,9 +1968,6 @@ sv-SE:
     movie: 
     tv_show: 
   no_records: Inget nytt har lagts till
-  no_review:
-    logged_in: Vi har inte några recensioner för %{title}. Skulle du vilja <a href="%{url}">skriva en</a>?
-    public: Vi har inte några recensioner för %{title}.
   no_tv_search_results: Det finns inga TV-serier som stämmer med din sökning
   no_watchlist_movies:
     current_user: Du har inte lagt till några filmer till din bevakningslista.

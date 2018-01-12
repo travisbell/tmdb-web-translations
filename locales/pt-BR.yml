@@ -374,7 +374,6 @@ pt-BR:
   Rating Ascending: Avaliação (pior)
   Rating Descending: Avaliação (melhor)
   Ratings: Avaliações
-  Read All Reviews: Mostrar todas as resenhas
   Read More: Saiba mais
   Reality: Reality Show
   Recent Blog Posts: Postagens recentes do blog
@@ -1905,6 +1904,10 @@ pt-BR:
         a_review_by: 
         by: 
         featured_review: Resenha em destaque
+        no_review:
+          logged_in: Ainda não temos uma resenha para %{title}. Gostaria de <a href="%{url}">escrever uma</a>?
+          public: Ainda não temos uma resenha para %{title}.
+        read_all: Mostrar todas as resenhas
     tv_episode:
       edit:
         screened_as_part_of_season: Sim, como parte de uma temporada
@@ -1977,9 +1980,6 @@ pt-BR:
     movie: Ainda não temos dados o suficiente para sugerir filmes com base em %{title}. Você pode ajudar avaliando filmes que tenha visto.
     tv_show: Ainda não temos dados o suficiente para sugerir uma série com base em %{title}. Você pode ajudar avaliando séries que você tenha visto.
   no_records: Nenhum registro foi adicionado.
-  no_review:
-    logged_in: Ainda não temos uma resenha para %{title}. Gostaria de <a href="%{url}">escrever uma</a>?
-    public: Ainda não temos uma resenha para %{title}.
   no_tv_search_results: Não foram encontradas séries que correspondam aos seus critérios de busca.
   no_watchlist_movies:
     current_user: Você ainda não adicionou nenhum filme à sua lista de interesses.

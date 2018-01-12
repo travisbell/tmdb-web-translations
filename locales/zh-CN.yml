@@ -374,7 +374,6 @@ zh-CN:
   Rating Ascending: "评分升序"
   Rating Descending: "评分降序"
   Ratings: "评分"
-  Read All Reviews: "阅读所有影评"
   Read More: "更多..."
   Reality: "真人秀"
   Recent Blog Posts: "当前博客文章"
@@ -1889,6 +1888,10 @@ zh-CN:
         a_review_by: 
         by: 
         featured_review: "精选影评"
+        no_review:
+          logged_in: 还没有 %{title} 的影评。想要<a href="%{url}">写一个</a>吗？
+          public: "还没有 %{title} 的影评。"
+        read_all: "阅读所有影评"
     tv_episode:
       edit:
         screened_as_part_of_season: 
@@ -1959,9 +1962,6 @@ zh-CN:
     movie: "没有足够的数据来推荐关于 %{title} 的电影。你可以帮忙给看过的电影投票。"
     tv_show: "没有足够的数据来推荐关于 %{title} 的剧集。你可以帮忙给看过的剧集投票。"
   no_records: "没有添加记录"
-  no_review:
-    logged_in: 还没有 %{title} 的影评。想要<a href="%{url}">写一个</a>吗？
-    public: "还没有 %{title} 的影评。"
   no_tv_search_results: "未找到所查询的剧集。"
   no_watchlist_movies:
     current_user: "你没有添加过电影到观看列表。"

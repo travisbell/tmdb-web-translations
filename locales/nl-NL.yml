@@ -374,7 +374,6 @@ nl-NL:
   Rating Ascending: Beoordeling - Oplopend
   Rating Descending: Beoordeling - Aflopend
   Ratings: Beoordelingen
-  Read All Reviews: Alle recensies lezen
   Read More: Lees meer
   Reality: Realiteit
   Recent Blog Posts: Recente blogberichten
@@ -1883,6 +1882,10 @@ nl-NL:
         a_review_by: 
         by: 
         featured_review: Uitgelichte recensie
+        no_review:
+          logged_in: We hebben geen recensies voor %{title}. Wilt u er <a href="%{url}">een schrijven</a>?
+          public: We hebben geen recensies voor %{title}.
+        read_all: Alle recensies lezen
     tv_episode:
       edit:
         screened_as_part_of_season: 
@@ -1955,9 +1958,6 @@ nl-NL:
     movie: We hebben niet genoeg gegevens om films aan te raden op basis van %{title}. U kunt helpen door films te beoordelen die u al heeft gezien.
     tv_show: We hebben niet genoeg gegevens om tv-series aan te raden op basis van %{title}. U kunt helpen door tv-series te beoordelen die u al heeft gezien.
   no_records: Er zijn geen gegevens toegevoegd.
-  no_review:
-    logged_in: We hebben geen recensies voor %{title}. Wilt u er <a href="%{url}">een schrijven</a>?
-    public: We hebben geen recensies voor %{title}.
   no_tv_search_results: Er zijn geen tv-series die overeenkomen met uw zoekopdracht.
   no_watchlist_movies:
     current_user: Je hebt nog geen films toegevoegd aan je watchlist.

@@ -374,7 +374,6 @@ fi-FI:
   Rating Ascending: Pisteytys, nouseva
   Rating Descending: Pisteytys, laskeva
   Ratings: Pisteytykset
-  Read All Reviews: Lue kaikki arvostelut
   Read More: Lue lisää
   Reality: Tosi-TV
   Recent Blog Posts: Uusimmat blogitekstit
@@ -1905,6 +1904,10 @@ fi-FI:
         a_review_by: 
         by: 
         featured_review: Suositeltu arvostelu
+        no_review:
+          logged_in: Meillä ei ole yhtään arvostelua nimikkeelle %{title}. Haluatko <a href="%{url}">kirjoittaa uuden</a>?
+          public: Meillä ei ole yhtään arvostelua nimikkeelle %{title}.
+        read_all: Lue kaikki arvostelut
     tv_episode:
       edit:
         screened_as_part_of_season: Kyllä, osana kautta
@@ -1977,9 +1980,6 @@ fi-FI:
     movie: Emme osaa suositella yhtään elokuvaa nimikkeen %{title} perusteella. Voit auttaa arvostelemalla katsomasi elokuvat.
     tv_show: Meillä ei ole tarpeeksi tietoa suositellaksemme TV-ohjelmia nimikkeen %{title} perusteella. Voit auttaa arvostelemalla katsomasi TV-ohjelmat.
   no_records: Tietoja ei ole lisätty.
-  no_review:
-    logged_in: Meillä ei ole yhtään arvostelua nimikkeelle %{title}. Haluatko <a href="%{url}">kirjoittaa uuden</a>?
-    public: Meillä ei ole yhtään arvostelua nimikkeelle %{title}.
   no_tv_search_results: Hakuasi vastaavia TV-ohjelmia ei löytynyt.
   no_watchlist_movies:
     current_user: Et ole lisännyt yhtään elokuvaa katselulistallesi.

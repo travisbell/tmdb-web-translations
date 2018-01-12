@@ -374,7 +374,6 @@ en-US:
   Rating Ascending: Rating Ascending
   Rating Descending: Rating Descending
   Ratings: Ratings
-  Read All Reviews: Read All Reviews
   Read More: Read More
   Reality: Reality
   Recent Blog Posts: Recent Blog Posts
@@ -1907,6 +1906,10 @@ en-US:
         a_review_by: A review by %{username}
         by: Written by %{username} on %{date}
         featured_review: Featured Review
+        no_review:
+          logged_in: We don't have any reviews for %{title}. Would you like to <a href="%{url}">write one</a>?
+          public: We don't have any reviews for %{title}.
+        read_all: Read All Reviews
     tv_episode:
       edit:
         screened_as_part_of_season: Yes, as part of season
@@ -1980,9 +1983,6 @@ en-US:
     movie: We don't have enough data to suggest any movies based on %{title}. You can help by rating movies you've seen.
     tv_show: We don't have enough data to suggest any TV shows based on %{title}. You can help by rating TV shows you've seen.
   no_records: No records have been added.
-  no_review:
-    logged_in: We don't have any reviews for %{title}. Would you like to <a href="%{url}">write one</a>?
-    public: We don't have any reviews for %{title}.
   no_tv_search_results: There are no TV shows that matched your query.
   no_watchlist_movies:
     current_user: You haven't added any movies to your watchlist.
