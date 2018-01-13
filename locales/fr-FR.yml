@@ -54,7 +54,7 @@ fr-FR:
   Adult Movie?: Film pour adulte ?
   Advanced Search: Recherche avancée
   Air Date: Date de diffusion
-  Also Known As: Aussi connu sous le nom
+  Also Known As: Aussi connu(e) sous le nom
   Alternative Names: Noms alternatifs
   Alternative Titles: Titres alternatifs
   Apiary Documentation: Documentation Apiary
@@ -233,7 +233,7 @@ fr-FR:
   Keyword Results: Résultats de la recherche de mots-clés
   Keywords: Mots-clés
   Known Credits: Apparitions connues
-  Known For: Connu pour
+  Known For: Connu(e) pour
   Language: Langue
   Language Preferences: Préférences de langue
   Languages: Langues
@@ -438,7 +438,7 @@ fr-FR:
   Sort By: Trier par
   Sort Cast: Trier les acteurs
   Sort Regular Cast: Trier les acteurs récurrents
-  Source Key: 
+  Source Key: Clé source
   Specials: "Épisodes spéciaux"
   Spoken Languages: Langues parlées
   State: "État"
@@ -473,7 +473,7 @@ fr-FR:
   TV Shows Airing Today: Séries diffusées aujourd'hui
   TV Shows Missing A Name: Nom de série manquante
   TV Shows Missing A Overview: Synopsis de série manquante
-  Tagged People: 
+  Tagged People: Artistes marqués
   Tagline: Slogan
   Talk: Discuter
   Talk Show: Talk Show
@@ -567,8 +567,8 @@ fr-FR:
         people: Artistes
         tv: TV
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mon activité récente
+        public: Activité récente de %{username}
       table:
         action: Action
         edit: Modification
@@ -581,28 +581,28 @@ fr-FR:
       my_discussions: Mes conversations
       not_watching: Vous ne surveillez aucune conversation.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mes conversations
+        public: Conversations de %{username}
     favorites:
       my_favorites:
         logged_in: Mes favoris
         public: Les favoris de %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mes favoris
+        public: Favoris de %{username}
     filter_by: 'Filtrer par :'
     filters:
       date_added: Date d'ajout
       date_rated: Date de notation
       my_rating: Mes notes
       popularity: Popularité
-      rating: 
+      rating: Note
       release_date: Date de sorti
       score: Note
       upcoming: Prochainement
     lists:
       create_list: Créer une liste
-      last_updated: 
+      last_updated: Mise à jour
       my_lists:
         logged_in: Mes listes
         public: Les listes de %{username}
@@ -610,8 +610,8 @@ fr-FR:
         logged_in: Vous n'avez pas créé de liste.
         public: "%{username} n'a pas liste publique à partager."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mes listes
+        public: Listes de %{username}
     member_since: Membre depuis le %{date}
     navigation:
       discussions: Conversations
@@ -642,8 +642,8 @@ fr-FR:
       total_ratings: Notes totales
       upcoming_watchlist: Prochainement dans votre liste de suivi
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Mon profil
+      public: Profil de %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Mes notes
@@ -652,14 +652,14 @@ fr-FR:
         logged_in: Mes critiques
         public: Les critiques de %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mes Notes & Critiques
+        public: Notes & Critiques de %{username}
       ratings_by_year: Notes par années
     recommendations:
       my_recommendations: Mes recommandations
       no_recommendations: Nous n'avons assez d'information pour vous faire des recommandations.
       no_recommendations_helper: Ajoutez plus de films ou séries en favoris (plus y aura mieux ce sera) et revenir voir ce qu'on vous propose.
-      page_title: 
+      page_title: Recommandations
     tips:
       import_imdb_ratings: Vous pouvez importez vos note depuis IMDb.
       tip: Astuce
@@ -673,8 +673,8 @@ fr-FR:
         one: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} série dans votre liste de suivi.
         other: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} séries dans votre liste de suivi.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Ma liste de suivi
+        public: Liste de suivi de %{username}
       this_month: Ce mois-ci
       this_week: Cette semaine
       view_them: Les voir.
@@ -687,7 +687,7 @@ fr-FR:
     biography: Biographie
     certification: Certification
     external_href: URL
-    homepage: 
+    homepage: Accueil
     iso_3166_1: Pays
     iso_639_1: Langue
     normalized_email: Email
@@ -706,7 +706,7 @@ fr-FR:
     to_tmdb: Retourner sur TMDb
     top: Retourner en haut
   certifications:
-    meaning: 
+    meaning: Signification
     movies:
       AU:
         '1':
@@ -823,15 +823,15 @@ fr-FR:
           meaning: 
       FR:
         '1':
-          meaning: 
+          meaning: Tous publics
         '2':
-          meaning: 
+          meaning: 'Déconseillé aux moins de 10 ans : le film ou le programme est un reflet de la télévision, certaines scènes peuvent heurter la sensibilité des moins de 10 ans.'
         '3':
-          meaning: 
+          meaning: 'Interdit aux moins de 12 ans : le film ou le programme comporte un scénario qui recourt de façon répétée et systématique à la violence physique ou psychologique et peut troubler les moins de 12 ans.'
         '4':
-          meaning: 
+          meaning: 'Interdit aux moins de 16 ans : programmes ou films à caractère érotique ou de grande violence pouvant nuire aux moins de 16 ans.'
         '5':
-          meaning: 
+          meaning: 'Interdit aux mineurs : films interdits en salle aux moins de 18 ans et programmes à caractère pornographique ou de violence extrême et réservés à un public adulte averti, pouvant nuire aux moins de 18 ans.'
       GB:
         '1':
           meaning: 
@@ -1209,46 +1209,46 @@ fr-FR:
       people: 
       tv: 
     collection:
-      collection: 
-      collection_bible: 
+      collection: Collections
+      collection_bible: Bible des collections
       tall_bible:
-        bottom: 
-        top: 
-    contribution_bible: 
-    featured_articles: 
+        bottom: Bible
+        top: Collections
+    contribution_bible: Bible de contribution
+    featured_articles: Articles en vedette
     general:
-      general: 
-      general_bible: 
+      general: Général
+      general_bible: Bible générale
     image:
-      image: 
-      image_bible: 
+      image: Images
+      image_bible: Bible des images
     movie:
-      movie: 
-      movie_bible: 
+      movie: Films
+      movie_bible: Bible des films
       tall_bible:
-        bottom: 
-        top: 
+        bottom: Bible
+        top: Films
     new_content:
-      new_content: 
-      new_content_bible: 
-    note: 
+      new_content: Nouveau contenu
+      new_content_bible: Bible des nouveaux contenus
+    note: Note
     people:
-      people: 
-      people_bible: 
+      people: Artistes
+      people_bible: Bible des artistes
       tall_bible:
-        bottom: 
-        top: 
-    pro_tip: 
+        bottom: Bible
+        top: Artistes
+    pro_tip: Astuce
     search:
-      placeholder_1: 
+      placeholder_1: "À quel sujet avez-vous besoin d'aider ?"
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: Bible
+        top: Télévision
+      tv: Télévision
+      tv_bible: Bible de la télévision
+    welcome_1: Bienvenue sur
+    welcome_2: la bible de contribution
   date:
     abbr_day_names:
     - Dim
@@ -1304,9 +1304,11 @@ fr-FR:
   days:
     one: jour
     other: "%{count} jours"
-  department_credits_count: 
+  department_credits_count:
+    one: "%{department} (%{count} mention)"
+    other: "%{department} (%{count} mentions)"
   departments:
-    Acting: Acteurs
+    Acting: Interprétation
     Actors: Acteurs
     Art: Artistique
     Camera: Image
@@ -1344,8 +1346,8 @@ fr-FR:
         general: Général
         website_support: Support du site
       support:
-        api_requests: 
-        api_requests_(professional): 
+        api_requests: Demandes API
+        api_requests_(professional): Demandes API (Professionnels)
         api_support: Support API
         content_issues: Problèmes de contenu
         general: Général
@@ -1367,11 +1369,11 @@ fr-FR:
       lets_chat: Discutons
       support: Support
       support_title: Support de The Movie Database
-    login_to_be_notified: 
+    login_to_be_notified: Connectez-vous pour être prévenu de la première conversation.
     new_discussion:
       community_guidelines: Règles de la communauté
       discussion_category: Catégorie
-      for_item: 
+      for_item: Pour
       new_discussion: Nouvelle Conversation
       subject: Sujet
     no_discussions: Aucune conversation.
@@ -1425,7 +1427,7 @@ fr-FR:
     your_account: Votre compte
   dont_fallback: Aucune (Pas d'alternative)
   edit:
-    page_title: 
+    page_title: Modifier %{name}
     tooltips:
       homepage: Seulement le site officiel. Les sites de fans ne sont pas autorisés.
       original_title: Le titre original devrait être saisi dans la langue originale de l'élément. Dans la plupart des cas cela devrait correspondre à la langue sélectionnée dans le champ "langue originale".
@@ -1865,52 +1867,62 @@ fr-FR:
   login_to_edit: Connectez-vous pour modifier
   media:
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: Films de %{name}
+      tv_page_title: Séries de %{name}
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: Films "%{name}"
+      tv_page_title: Séries "%{name}"
     movie:
       edit:
-        confirm_collection: 
-        confirm_video: 
+        confirm_collection: |-
+          <p>Les collections permettent de regrouper des films et leurs suites sur TMDb. Même si cela prête à discussion, les collections ne sont pas faites pour regrouper des films du même "univers". Pour cela, veuillez s'il-vous-plait <a href="%{list_link}" target="_blank" rel="noopener">créer une liste</a>. Pour plus d'information sur les collections vous pouvez visiter <a href="%{docs_link}" target="_blank" rel="noopener">notre documentation</a>.</p>
+
+          <p>Si la collection que vous vous apprêtez à créer réponds à ces critères, vous pouvez continuer.</p>
+        confirm_video: |-
+          <p>Marquer un film en tant que vidéo nous permet de différencier les contenus qui ne sont pas vraiment des films.</p>
+
+          <p>Si ce contenu est par exemple une compilation de DVD, un vidéo de fitness or peut-être un "best-of", alors vous pouvez le marquer en tant que vidéo.</p>
     network:
-      tv_page_title: 
-    number_of_movies: 
-    number_of_shows: 
+      tv_page_title: Séries sur %{name}
+    number_of_movies:
+      one: "%{count} film"
+      other: "%{count} films"
+    number_of_shows:
+      one: "%{count} série"
+      other: "%{count} séries"
     rating:
       rated_with_rating: Noté %{value}
     social_panel:
       discussions:
-        currently_subscribed: 
-        no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        currently_subscribed: Vous êtes abonné pour être prévenu lorsque quelqu'un créera la première conversation.
+        no_discussions: Il n'y a aucune conversation pour %{item_title}. Connectez-vous et soyez le premier !
+        unsubscribe_me: Me désabonner.
+        want_to_be_notified: Souhaitez-vous être prévenu lorsque quelqu'un créera la première conversation ?
+        yes_notify_me: Oui, prévenez-moi !
       reviews:
-        a_review_by: 
-        by: 
+        a_review_by: Une critique de %{username}
+        by: "Écrit par %{username} le %{date}"
         featured_review: Critique en vedette
         no_review:
           logged_in: Nous n'avons pas assez de critiques pour %{title}. Voudriez-vous <a href="%{url}">en écrire une</a> ?
           public: Aucune critique pour %{title}.
         read_all: Lire tous les avis
-        read_the_rest: 
+        read_the_rest: lire la suite.
         write_review:
           logged_in: "Écrire une critique"
-          public: 
+          public: Connectez-vous pour écrire une critique.
     tv_episode:
       edit:
         screened_as_part_of_season: 
-        screened_confirm: 
-        screened_label: 
+        screened_confirm: Si cet épisode a été diffusé lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
+        screened_label: Cet épisode a t-il été diffusé au cinéma ?
     tv_season:
       edit:
-        create_episode: 
-        screened_confirm: 
-        screened_label: 
+        create_episode: Créer un épisode
+        screened_confirm: Si cette saison a été diffusée lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
+        screened_label: Cette saison a t-elle été diffusée au cinéma ?
     tv_show:
-      create_season: 
+      create_season: Créer une saison
   month:
     one: mois
     other: "%{count} mois"
@@ -1987,7 +1999,7 @@ fr-FR:
     clear: Effacer
     good_job: Bon travail !
     mark_all_as_read: Marquer comme lu
-    refresh: 
+    refresh: Rafraichir
     unread_notifications: Notifications non lues
     view: Voir
   number:
@@ -2050,7 +2062,7 @@ fr-FR:
     one: "%{count} vote"
     other: "%{count} votes"
   pagination:
-    currently_on: 
+    currently_on: Page courante %{current_page} sur %{total_pages}
     last_page: Dernière page
     load_more: Charger plus
     next_page: Page suivante
@@ -2074,20 +2086,20 @@ fr-FR:
   search:
     favorites_movie: Rechercher dans vos films favoris...
     favorites_tv: Rechercher dans vos séries favorites...
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: dans les Films
+    in_people: dans les Artistes
+    in_tv_shows: dans les Séries
     media_types:
       movie: Film
       person: Personnalité
       tv_show: Série
-    no_results: 
+    no_results: Aucun résultat
     no_results_found: Aucun résultat
     rated_movie: Recherche des films notés...
     rated_tv: Rechercher dans vos séries notées...
     recommendations_movie: Cherchez parmi les films qui vous sont recommandés...
     recommendations_tv: Cherchez parmi les séries télé qui vous sont recommandées...
-    trending: 
+    trending: Populaire
     trending_searches: Recherches populaires
     watchlist_movie: Rechercher un film dans votre liste de suivi...
     watchlist_tv: Rechercher une série dans votre liste de suivi...
@@ -2101,7 +2113,7 @@ fr-FR:
       account_settings: Réglages du compte
       change_password: Changer de mot de passe ?
     api:
-      api: 
+      api: API
       navigation:
         create: Créer
         details: Détails
@@ -2117,13 +2129,13 @@ fr-FR:
       change_email: Modifier l'adresse courriel ?
       change_email_text: Si vous souhaitez changer votre adresse courriel, entrez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous identifier à nouveau sur le site, vous devrez d'abord vérifier votre nouvelle adresse courriel en cliquant sur le lien que nous aurons envoyé dans un courriel à cette nouvelle adresse.
     connected_apps:
-      connected_apps: 
-      listed_below_explanation: 
-      no_apps: 
+      connected_apps: Applications connectées
+      listed_below_explanation: Ci-dessous sont listés les applications que vous avez autorisées à écrire des données à votre place. Vous pouvez à tout moment enlever ces autorisations.
+      no_apps: Vous n'avez connecté aucune application à votre compte.
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Actions
+        application_name: Nom de l'application
+        date_authorised: Date d'autorisation
     delete_account:
       delete_account: Supprimer mon compte
       summary_text: Vous venez d'entrer la <strong>zone de danger</strong> ! Si vous souhaitez continuer et supprimer votre compte, veuillez entrer votre mot de passe ci-dessous et confirmer lorsque demandé.
@@ -2134,53 +2146,53 @@ fr-FR:
         import: Importer
         previous: Imports précédents
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: Import terminé !
+        started_import: Import démarré...
       previous:
         date: Date
         imported: Importé
         items: "Éléments"
-        local_list: 
-        no_imports: 
-        type: 
+        local_list: Liste locale
+        no_imports: Vous n'avez importé aucune liste.
+        type: Type
       results:
         complete:
-          imported: 
+          imported: Importé ?
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
-          reason: 
-          summary: 
-        currently_running: 
-        import_results: 
+            already_imported: Déjà importée.
+            cant_find_imdb: Impossible de trouver cet identifiant IMDB.
+          reason: Raison ? (si applicable)
+          summary: Nous avons importé un total de %{imported_count} éléments sur les %{total_count} (%{imported_percentage}%) éléments que nous avons détecté dans votre liste.
+        currently_running: Votre import est en cours. Vous pouvez rafraichir cette page pour voir si il est terminé.
+        import_results: Résultat de l'import
         in_progress:
-          import_status: 
-          summary: 
-      select_csv: 
+          import_status: Statut de l'import
+          summary: Nous avons détecté un total de %{total_count} éléments à importer. L'import est en cours en tâche de fond. Vous serez prévenu automatiquement lorsqu'il sera terminé.
+      select_csv: Sélectionner le fichier CSV
       type:
-        favorite: 
-        rated: 
-        watchlist: 
-      which_list: 
+        favorite: Favoris
+        rated: Noté(e)s
+        watchlist: Liste de suivi
+      which_list: Importer quelle liste ?
     navigation:
       account_settings: Réglage du compte
-      api: 
+      api: API
       blocked_users: Utilisateurs bloqués
-      connected_apps: 
+      connected_apps: Application connectées
       delete_account: Supprimer mon compte
       edit_profile: Modifier le profil
       import_list: Importer une liste
       notification_settings: Paramètres de notification
       settings: Réglages
       sharing_settings: Paramètres de partage
-      social_settings: 
+      social_settings: Paramètres des réseaux sociaux
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      notifications: 
+      email_new_releases_watchlist: Envoyez moi un email à propos de la sortie des éléments dans ma liste de suivi ?
+      new_replies_to_threads_created: Abonnement automatique au discussions que je créer ou auxquelles je réponds ?
+      new_replies_to_threads_watching: Envoyez moi un email à propos des réponses aux discussions auxquelles je suis abonné ?
+      notifications: Notifications
     profile:
-      accent_color: 
+      accent_color: Couleur d'accentuation
       avatar:
         current_avatar: Votre avatar
         explain: Pour le moment, la seule option pour avoir un avatar personnalisé est d'utiliser un service nommé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous voulez afficher un avatar personnalisé sur TMDb, vous devrez créer un compte sur Gravatar en ajoutant la même adresse courriel que vous avez utilisée ici (c'est comme cela que l'on lie vos comptes). Une fois que vous avez fait cela, cliquez sur le bouton Mettre à jour ci-dessous et nous récupérerons l'image.
@@ -2193,50 +2205,50 @@ fr-FR:
         updated: Avatar mis à jour !
         upload_avatar: Envoyer un avatar
         upload_own: Envoyer le vôtre ?
-        upload_window_tip: 
+        upload_window_tip: Utiliser ce sélecteur de fichier ci-dessous pour envoyer votre avatar personnalisé. Nous recadrerons votre image afin qu'elle soit carré si elle ne l'est pas déjà.
         use_gravatar: Utiliser Gravatar ?
       background:
-        background_image: 
-        confirm_remove: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        background_image: Image de fond
+        confirm_remove: Veuillez confirmer que vous voulez supprimer votre image de fond. Êtes-vous bien sûr ?
+        remove_background: Supprimer votre image de fond ?
+        set_image: Activer une image de fond ?
+      edit_profile: Modifier le profil
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: Paramètres des favoris
+        share_on_twitter: Partager les nouveaux favoris sur Twitter ?
+        share_publicly: Liste visible par tout le monde ?
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: Paramètres de la liste des éléments notés
+        share_publicly: Liste visible par tout le monde ?
+      sharing_settings: Paramètres de partage
       watchlist:
-        remove_when_rated: 
-        watchlist_settings: 
+        remove_when_rated: Supprimer automatiquement les éléments lors qu'ils sont notés ?
+        watchlist_settings: Paramètres de la liste de suivi
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
-      favorite_message_hint: 
-      message_settings: 
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+        action: Action
+        auto_sharing: 'Partage automatique :'
+        connect: Connecter
+        connected_to: Connecté à
+        info: Info
+        reload_text: Recharger cette page lorsque vous aurez autorisé votre compte !
+        service: Service
+      favorite_message_hint: Lorsque vous mettrez un éléments dans vos favoris et le partagez sur Twitter ou Facebook....
+      message_settings: Paramètres du message
+      sharing_message_hint: Lorsque vous partagez un élément sur Twitter ou Facebook....
+      social_settings: Paramètres des réseaux sociaux
+      supported_template_values: 'Valeurs possibles dans le modèle :'
   sign_up:
     benefits:
-      benefits_to_being_member: 
-      build_custom_lists: 
-      build_watchlist: 
-      contribute: 
-      discussions: 
-      keep_track: 
-      log_movies: 
-    by_clicking_agree_to_terms: 
+      benefits_to_being_member: Pourquoi créer un compte ?
+      build_custom_lists: Construisez des listes personnalisées (films et séries)
+      build_watchlist: Construisez et maintenez votre liste de suivi personnelle.
+      contribute: Contribuez et améliorez les informations de notre base de données.
+      discussions: Prenez par aux discussions sur les films et séries.
+      keep_track: Suivez vos films et séries préférés et obtenez des recommendations personnalisées.
+      log_movies: Enregistrez les films et séries que vous avez vu.
+    by_clicking_agree_to_terms: En cliquant sur le bouton "Créer un compte" ci-dessous, je certifie avoir lu et accepter les conditions d'utilisation et les règles des données personnelles de TMDb.
     sign_up_for_account: Inscrivez-vous pour obtenir un compte
     signup_text: S'inscrire est facile et gratuit. Remplissez tout d'abord ce formulaire.
   success_approved_access_token: Permission accordée !
