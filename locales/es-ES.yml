@@ -555,25 +555,25 @@ es-ES:
     watchlist: Lista de pendientes
   accounts:
     activity:
-      activity: 
+      activity: Actividad
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: Añadido
+        created: Creado
+        deleted: Borrado
+        updated: Actualizado
       media_types:
         movies: Películas
-        others: 
+        others: Otro
         people: Gente
         tv: TV
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mi actividad reciente
+        public: Actividad reciente de %{username}
       table:
-        action: 
-        edit: 
-        key: 
-        language_abbreviation: 
+        action: Acción
+        edit: Editar
+        key: Clave
+        language_abbreviation: Idioma
     average_movie_score: Media<br>Puntuación película
     average_tv_score: Media<br>Puntuación TV
     discussions:
@@ -581,22 +581,22 @@ es-ES:
       my_discussions: Mis mensajes
       not_watching: No sigues ninguna discusión
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mis conversaciones
+        public: Conversaciones de %{username}
     favorites:
       my_favorites:
         logged_in: Mis favoritos
         public: "%{username}'s Favoritos"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mis favoritos
+        public: Favoritos de %{username}
     filter_by: 'Filtrar por:'
     filters:
       date_added: Fecha añadido
       date_rated: Fecha votado
       my_rating: Mi clasificación
       popularity: Popularidad
-      rating: 
+      rating: Calificación
       release_date: Fecha de estreno
       score: Puntuación
       upcoming: Próximamente
@@ -610,8 +610,8 @@ es-ES:
         logged_in: No has creado ninguna lista
         public: "%{username} no tiene ninguna lista pública para compartir"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mis listas
+        public: Listas de %{username}
     member_since: Miembro desde %{date}
     navigation:
       discussions: Discusiones
@@ -642,7 +642,7 @@ es-ES:
       total_ratings: Total de votos
       upcoming_watchlist: Proximamente de lista de pendientes
     page_title:
-      page_owner: 
+      page_owner: Mi perfil
       public: 
     ratings_reviews:
       my_ratings:
@@ -980,15 +980,17 @@ es-ES:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: |-
+            No apropiado para menores de 17 años
+            Esta película contiene imágenes de excesiva violencia, sexo intenso o explícito, comportamientos desviados, abuso de drogas, lenguaje inapropiado, desnudos explícitos u otros elementos que la mayoría de los padres considerarían demasiado fuertes por lo que no serían apropiados para niños ni adolescentes. NC-17 no significa necesariamente obsceno o pornográfico en el sentido legal de los términos.
     tv_series:
       AU:
         '1':
-          meaning: 
+          meaning: Programación para niños pequeños, de 2 a 11 años. Las cadenas comerciales deben programar al menos 30 minutos de contenido calificado como 'P' cada día. No se deben mostrar anuncios durante estos programas.
         '2':
-          meaning: 
+          meaning: Programación para niños mayores, de 5 a 14 años. Las cadenas comerciales deben emitir al menos 30 minutos de contenido calificado como C entre las 7:00 y las 8:00 o entre las 16:00 y las 18:30. Más de 2 horas y media deben ser emitidas en esas franjas horarias los fines de semana y vacaciones escolares. Esto hacen un total de 5 horas a la semana (una media de 260 horas anuales). El contenido calificado C está sujeto a ciertas restricciones y limitaciones publicitarias (normalmente un máximo de 5 minutos cada media hora o 7 minutos incluyendo promociones y anuncios de la comunidad.)
         '3':
-          meaning: 
+          meaning: Para todos los públicos. Se permite el visionado a cualquier edad del contenido con esta calificación.
         '4':
           meaning: 
         '5':
@@ -1003,15 +1005,15 @@ es-ES:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Contenido adecuado para espectadores sobre los 10 años.
         '2':
-          meaning: 
+          meaning: Contenido adecuado para espectadores sobre los 12 años.
         '3':
-          meaning: 
+          meaning: Contenido adecuado para espectadores sobre los 14 años.
         '4':
-          meaning: 
+          meaning: Contenido adecuado para espectadores sobre los 16 años.
         '5':
-          meaning: 
+          meaning: Contenido adecuado para espectadores sobre los 18 años.
       CA:
         '0':
           meaning: 
