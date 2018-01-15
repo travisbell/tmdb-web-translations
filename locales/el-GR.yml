@@ -1388,11 +1388,11 @@ el-GR:
       delete: "Διαγραφή"
       edit: "Επεξεργασία"
       hide: "Απόκρυψη"
-      ignore: 
-      like: 
+      ignore: "Παράβλεψη"
+      like: "Μου Αρέσει"
       messages:
-        delete_comment: 
-        delete_discussion: 
+        delete_comment: Κάνοντας κλικ στο κουμπί "Ναι", αυτό το σχόλιο θα διαγραφεί οριστικά.
+        delete_discussion: Κάνοντας κλικ στο κουμπί "Ναι", αυτή η συζήτηση θα διαγραφεί οριστικά.
         hide_comment: 
         hide_discussion: 
         ignore_user: 
@@ -1400,17 +1400,17 @@ el-GR:
         report_violation: 
         unhide_discussion: Κάνοντας κλικ στο κουμπί "Ναι", αυτή η συζήτηση θα γίνει ξανά ορατή.
       posted_by_with_datetime: "δημοσιεύτηκε από %{username} στις %{date} στις %{time}"
-      quote: 
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 
-      unhide: 
+      quote: "Παράθεση"
+      reopen_reply: "Ανοίγμα ξανά & Απάντηση"
+      reply: "Απάντηση"
+      reply_by: "Απάντηση από %{username}"
+      reply_on_datetime: "στις %{date} στις %{time}"
+      report: "Αναφορά"
+      unhide: "Επανεμφάνιση"
     report_violation: "Αναφορά Παραβίασης"
     search:
-      advanced_search: 
-      search_closed: 
+      advanced_search: "Προχωρημένη Αναζήτηση"
+      search_closed: "Κλείσιμο Αναζήτησης;"
       search_forums: "Αναζήτηση στα φόρουμ..."
       search_open: "Αναζήτηση ανοικτών;"
     statuses:
@@ -1427,7 +1427,7 @@ el-GR:
     your_account: "Ο λογαριασμός σας"
   dont_fallback: "Όχι (δεν υπάρχει εναλλακτική)"
   edit:
-    page_title: 
+    page_title: "Επεξεργασία %{name}"
     tooltips:
       homepage: "Επίσημη ιστοσελίδα μόνο. Σελίδες οπαδών δεν επιτρέπονται."
       original_title: Ο αρχικός τίτλος πρέπει να αναγράφεται στην αρχική γλώσσα του αντικειμένου. Στις περισσότερες περιπτώσεις, αυτό θα ταιριάζει με τη γλώσσα εισαχθεί στο πεδίο "αρχική γλώσσα".
@@ -1473,19 +1473,19 @@ el-GR:
         today: "Το νέο επεισόδιο βγαίνει στον αέρα σήμερα"
         tomorrow: "Το νέο επεισόδιο βγαίνει στον αέρα αύριο"
   images:
-    confirm_delete: 
+    confirm_delete: "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτήν την εικόνα;"
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
+      '1': "Μέγιστη ανάλυση από 2000x3000"
+      '2': "Μέγιστη ανάλυση από 500x750"
+      '3': "Αναλογία εικόνας από 1:1.5 (2:3)"
+      '4': "Μέγιστη ανάλυση από 3840x2160"
+      '5': "Ελάχιστη ανάλυση από 400x225"
+      '6': "Αναλογία εικόνας από 16x9 (1.78:1) και 4:3 εικόνες που υποστηρίζονται"
+      '7': "Ελάχιστη ανάλυση από 1280x720"
+      '8': "Αναλογία εικόνας από 16x9 (1.78:1)"
+      '9': "Ελάχιστη ανάλυση από 300x450"
+      backdrops_must_meet: "Η Ταπετσαρίες πρέπει να πληρούν τα ακόλουθα κριτήρια:"
+      episode_stills_must_meet: "Φωτογραφίες του επεισοδίου πρέπει να πληρούν τα ακόλουθα κριτήρια:"
       posters_must_meet: 
       profile_must_meet: 
       read_guidelines: 
