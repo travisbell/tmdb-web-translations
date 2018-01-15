@@ -271,8 +271,6 @@ el-GR:
   Member since: "Μέλος από"
   Merge Keyword: "Συγχώνευση λέξης-κλειδιού"
   Miniseries: "Μίνι σειρές"
-  Missing A Biography: "Λείπει η βιογραφία"
-  Missing A Profile Image: "Λείπει η εικόνα προφίλ"
   Mixed Compact View: "Μεικτή συμπαγής προβολή"
   Mobile Application: "Εφαρμογή για κινητά"
   Moderator: "Διαμορφωτής"
@@ -280,16 +278,11 @@ el-GR:
   Most Popular: "Πιο δημοφιλή"
   Move TV Credits: "Μετακίνηση σε TV Credits"
   Movie Data: "Δεδομένα ταινίας"
-  Movie Language Distribution: "Κατανομή γλωσσών ταινιών"
   Movie Recommendations: "Ταινία Προτάσεις "
   Movie Results: "Αποτελέσματα ταινιών"
   Movie Status: "Κατάσταση ταινίας"
   Movie Watchlist: "Ταινία Λίστα Παρακολούθησης"
   Movies: "Ταινίες"
-  Movies Missing A Backdrop: "Ταινίες χωρίς ταπετσαρία"
-  Movies Missing A Overview: "Ταινίες στις οποίες απουσιάζει η περίληψη"
-  Movies Missing A Poster: "Ταινίες στις οποίες λείπει η αφίσα"
-  Movies Missing A Title: "Ταινίες στις οποίες λείπει ο τίτλος"
   Name: "Όνομα"
   Network: "Δίκτυο"
   New: "Καινούργια"
@@ -425,7 +418,6 @@ el-GR:
   See Episodes: "Δείτε Επεισόδια"
   Select One: "Επιλέξτε ένα..."
   Select a category: "Επιλέξτε κατηγορία..."
-  Selected Language: "Επιλεγμένη γλώσσα"
   Send: "Αποστολή"
   Sessions: "Συνεδρείες"
   Share: "Κοινοποίηση"
@@ -460,20 +452,15 @@ el-GR:
   Support: "Υποστήριξη"
   Support Forums: "Φόρουμ υποστήριξης"
   TV: "Τηλεόραση"
-  TV Missing A Backdrop: "Τηλεοπτικές σειρές χωρίς ταπετσαρία"
-  TV Missing A Poster: "Σειρές στις οποίες λείπει η αφίσα."
   TV Network: "Τηλεοπτικό δίκτυο"
   TV Recommendations: 'TV Προτάσεις '
   TV Show Data: "Δεδομένα Τηλ. Σειράς"
-  TV Show Language Distribution: "Κατανομή γλωσσών τηλεοπτικών σειρών"
   TV Show Results: "Αποτελέσματα Τηλεοπτικών Σειρών"
   TV Show Status: "Κατάσταση τηλεοπτικής σειράς"
   TV Show Type: "Τύπος τηλεοπτικής σειράς"
   TV Show Watchlist: "Τηλεοπτικη Σειρά Λίστα Παρακολούθησης"
   TV Shows: "Τηλεοπτικές σειρές"
   TV Shows Airing Today: "Τηλεοπτικές σειρές που βγαίνουν στον αέρα σήμερα"
-  TV Shows Missing A Name: "Τηλεοπτικές σειρές στις οποίες απουσιάζει το όνομα"
-  TV Shows Missing A Overview: "Τηλεοπτικές σειρές στις οποίες απουσιάζει η περίληψη"
   Tagged People: "Άτομα που έχουν επισημανθεί"
   Tagline: "Σλόγκαν"
   Talk: "Συζητήσεις"
@@ -1204,6 +1191,19 @@ el-GR:
       '9': "Σχεδόν φτάσαμε..."
   contribute:
     contribute: "Συνεισφορά"
+    missing_a_biography: "Λείπει η βιογραφία"
+    missing_a_profile_image: "Λείπει η εικόνα προφίλ"
+    movie_language_distribution: "Κατανομή γλωσσών ταινιών"
+    movies_missing_a_backdrop: "Ταινίες χωρίς ταπετσαρία"
+    movies_missing_a_overview: "Ταινίες στις οποίες απουσιάζει η περίληψη"
+    movies_missing_a_poster: "Ταινίες στις οποίες λείπει η αφίσα"
+    movies_missing_a_title: "Ταινίες στις οποίες λείπει ο τίτλος"
+    selected_language: "Επιλεγμένη γλώσσα"
+    tv_missing_a_backdrop: "Τηλεοπτικές σειρές χωρίς ταπετσαρία"
+    tv_missing_a_poster: "Σειρές στις οποίες λείπει η αφίσα."
+    tv_show_language_distribution: "Κατανομή γλωσσών τηλεοπτικών σειρών"
+    tv_shows_missing_a_name: "Τηλεοπτικές σειρές στις οποίες απουσιάζει το όνομα"
+    tv_shows_missing_a_overview: "Τηλεοπτικές σειρές στις οποίες απουσιάζει η περίληψη"
   contribution_bible:
     abbreviations:
       collection: 
@@ -1396,8 +1396,8 @@ el-GR:
         delete_discussion: Κάνοντας κλικ στο κουμπί "Ναι", αυτή η συζήτηση θα διαγραφεί οριστικά.
         hide_comment: 
         hide_discussion: 
-        ignore_user: 
-        mark_as_spam: 
+        ignore_user: Είστε βέβαιοι ότι θέλετε να αγνοήσετε αυτόν τον χρήστη; Όλες οι συζητήσεις και τα σχόλιά του θα εξαφανιστούν. Μπορείτε να καταργήσετε αυτόν τον αποκλεισμό πηγαίνοντας στη σελίδα "Αποκλεισμένοι χρήστες" στις ρυθμίσεις του λογαριασμού σας.
+        mark_as_spam: "Είστε βέβαιοι ότι θέλετε να επισημάνετε αυτήν τη συζήτηση ως ανεπιθύμητη; Αυτό θα διαγράφετε αυτόματα αν το κάνετε και δεν μπορεί να ανακληθεί. Η επισήμανση των συζητήσεων ως ανεπιθύμητων μηνυμάτων βοηθά στην εκπαίδευση της υπηρεσίας ανίχνευσης ανεπιθύμητων μηνυμάτων που χρησιμοποιούμε"
         report_violation: 
         unhide_discussion: Κάνοντας κλικ στο κουμπί "Ναι", αυτή η συζήτηση θα γίνει ξανά ορατή.
       posted_by_with_datetime: "δημοσιεύτηκε από %{username} στις %{date} στις %{time}"
