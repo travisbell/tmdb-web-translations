@@ -246,53 +246,53 @@ it-IT:
   Legal: Legale
   List Results: Lista Risultati
   Lists: Liste
-  Load More: 
-  Locked?: 
-  Login to Add a Backdrop: 
-  Login to Add a Poster: 
-  Login to Add a Video: 
-  Login to Edit Cast & Crew: 
+  Load More: Carica altro
+  Locked?: Bloccato?
+  Login to Add a Backdrop: Accedi per aggiungere uno sfondo
+  Login to Add a Poster: Accedi per aggiungere un poster
+  Login to Add a Video: Accedi per aggiungere un video
+  Login to Edit Cast & Crew: Accedi per modificare Cast & Troupe
   Login to add this TV show to your favorite list: Accedi per aggiungere questa serie TV alla tua lista dei preferiti
   Login to add this TV show to your watchlist: Accedi per aggiungere questa serie TV al tuo catalogo
   Login to add this movie to your favorite list: Accedi per aggiungere questo film alla lista dei tuoi preferiti
   Login to add this movie to your watchlist: Accedi per aggiungere questo film al tuo catalogo
-  Login to create and edit custom lists: 
+  Login to create and edit custom lists: Accedi per creare e modificare elenchi personalizzati
   Login to rate this TV show: Accedi per votare la serie TV
   Login to rate this movie: Accedi per votare il film
   Login to report an issue: Entra per segnalare un problema
   Login to your account: Accedi al tuo profilo
-  Logo: 
+  Logo: Logo
   Logos & Attribution: Loghi e Attribuzioni
   Logout: Disconnettiti
-  Male: 
+  Male: Maschio
   Mark as Favorite: Segna come Preferito
-  Media: 
+  Media: Media
   Member since: Membro dal
-  Merge Keyword: 
-  Miniseries: 
+  Merge Keyword: Unisci parola chiave
+  Miniseries: Miniserie
   Mixed Compact View: Visuale Compatta Mista
-  Mobile Application: 
+  Mobile Application: Applicazione mobile
   Moderator: Moderatore
   More Info: Più Info
-  Most Popular: 
-  Move TV Credits: 
-  Movie Data: 
-  Movie Recommendations: 
+  Most Popular: Più popolare
+  Move TV Credits: Sposta crediti TV
+  Movie Data: Dati del film
+  Movie Recommendations: Consigli del film
   Movie Results: Risultati Film
-  Movie Status: 
-  Movie Watchlist: 
+  Movie Status: Stato del film
+  Movie Watchlist: Watchlist film
   Movies: Film
-  Name: 
-  Network: 
+  Name: Nome
+  Network: Network
   New: Nuovo
   New episode airs in: Nuovo episodio previsto il
-  News: 
-  Next Episode: 
-  Next Season: 
+  News: News
+  Next Episode: Prossimo episodio
+  Next Season: Prossima stagione
   'No': 'No'
   None: Nessuno
   Notes: Note
-  Notifications: 
+  Notifications: Notifiche
   Now Playing Movies: Film In Onda Adesso
   Number of Movies: Numero di Film
   Number of TV Shows: 
@@ -1196,7 +1196,7 @@ it-IT:
     movies_missing_a_overview: Recensione Mancante
     movies_missing_a_poster: Poster Mancante
     movies_missing_a_title: Titolo Mancante
-    page_title: 
+    page_title: Contribuire a dati mancanti
     selected_language: Lingua Selezionata
     tv_missing_a_backdrop: Schermata TV Mancante
     tv_missing_a_poster: Poster Mancante
@@ -1431,7 +1431,7 @@ it-IT:
   edit:
     page_title: Modifica %{name}
     tooltips:
-      bible: 
+      bible: Per assistenza nella modifica delle informazioni su TMDb, fare clic su questo '?' leggere il manuale di contributo.
       homepage: Solo homepage ufficiale. Le pagine fan non sono permesse.
       original_title: Il titolo originale deve essere inserito nella lingua originale dell'articolo. Nella maggior parte dei casi questo corrisponderebbe alla lingua inserita nel campo "lingua originale".
       overview: Quando scrivi un' osservazione, cerca di tenerla breve, concisa e priva di spoiler.
@@ -1860,69 +1860,79 @@ it-IT:
     original_order: Ordine originale
     rating: Valutazione
     release_date: Data di rilascio
-    title: 
+    title: Titolo
   list_steps:
-    step_1: 
-    step_2: 
-    step_3: 
-    step_4: 
-  login_to_create: 
-  login_to_edit: 
+    step_1: 'Passaggio 1: elenca i dettagli'
+    step_2: 'Passaggio 2: aggiungere elementi'
+    step_3: 'Passaggio 3: Scegli immagine'
+    step_4: 'Passaggio 4: Condividi'
+  login_to_create: Non riesci a trovare un film o una serie Tv? Accedi per crearlo.
+  login_to_edit: Accedi per modificare
   media:
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Film"
+      tv_page_title: "%{name} Serie Tv"
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" Film'
+      tv_page_title: '"%{name}" Serie Tv'
     movie:
       edit:
-        confirm_collection: 
-        confirm_video: 
+        confirm_collection: |-
+          <p> Le raccolte sono un modo conveniente di raggruppare sequel insieme su TMDb. Anche se a volte controverso, le raccolte non sono intese come un modo per raggruppare film dello stesso "universo". Per questo, per favore <a href="%{list_link}" target="_blank" rel="noopener"> crea un elenco </a>. Per ulteriori informazioni sulle raccolte, puoi visitare <a href="%{docs_link}" target="_blank" rel="noopener"> la nostra documentazione </a>. </ P>
+
+          <p> Se la raccolta che stai per creare soddisfa questi criteri, continua. </ p>
+        confirm_video: |-
+          p> La codifica di un film come video ci aiuta a differenziare tipi di contenuti che non sono veramente film. </ p>
+
+          <p> Se questo contenuto è ad esempio un DVD di compilation, un video di fitness o forse un DVD "migliore di", dovresti contrassegnarlo come un video. </ p>
     network:
-      tv_page_title: 
-    number_of_movies: 
-    number_of_shows: 
+      tv_page_title: Serie Tv su %{name}
+    number_of_movies:
+      one: "%{count} film"
+      other: "%{count} film"
+    number_of_shows:
+      one: "%{count} serie"
+      other: "%{count} serie"
     rating:
-      rated_with_rating: 
+      rated_with_rating: Valutato %{value}
     social_panel:
       discussions:
-        currently_subscribed: 
-        no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        currently_subscribed: Al momento sei iscritto per ricevere una notifica quando qualcuno crea il primo post.
+        no_discussions: Non ci sono discussioni per %{item_title}. Accedi per essere il primo!
+        unsubscribe_me: Annullami.
+        want_to_be_notified: Vuoi essere avvisato quando qualcuno fa il primo post?
+        yes_notify_me: Sì, avvisami!
       reviews:
-        a_review_by: 
-        by: 
-        featured_review: 
+        a_review_by: Una recensione di %{username}
+        by: Scritto da %{username} il %{date}
+        featured_review: Recensione in primo piano
         no_review:
-          logged_in: 
-          public: 
-        read_all: 
-        read_the_rest: 
+          logged_in: Non abbiamo recensioni per %{title}. Ti piacerebbe <a href="%{url}"> scriverne uno </a>?
+          public: Non abbiamo recensioni per %{title}.
+        read_all: Leggi tutte le recensioni
+        read_the_rest: leggi il resto.
         write_review:
-          logged_in: 
-          public: 
+          logged_in: Scrivere una recensione
+          public: Autenticati per poter scrivere una recensione.
     tv_episode:
       edit:
-        screened_as_part_of_season: 
-        screened_confirm: 
-        screened_label: 
+        screened_as_part_of_season: Sì, come parte della stagione
+        screened_confirm: Se questo episodio è stato proiettato in un festival cinematografico o in un teatro, fai clic su "Sì" per continuare.
+        screened_label: Questo episodio è stato proiettato teatralmente?
     tv_season:
       edit:
-        create_episode: 
-        screened_confirm: 
-        screened_label: 
+        create_episode: Crea epidodio
+        screened_confirm: Se questa stagione è stata proiettata in un festival cinematografico o teatrale, fai clic su "Sì" per continuare.
+        screened_label: Questa stagione è stata proiettata teatralmente?
     tv_show:
-      create_season: 
+      create_season: Crea stagione
   month:
     one: mese
     other: "%{count} mesi"
   navigation:
     discover:
       discover: Scopri
-      movies: 
+      movies: Film
       tv_shows: Serie TV
     movies:
       now_playing: Adesso In Onda
@@ -1938,63 +1948,63 @@ it-IT:
       on_tv: In TV
       popular: Popolare
       top_rated: Più Votati
-  no_biography: 
-  no_cast: 
+  no_biography: Non abbiamo una biografia per %{name}.
+  no_cast: Non abbiamo aggiunto cast a questo %{media_type}. Puoi aiutare aggiungendo un po '!
   no_collection_search_results: Non ci sono collezioni che corrispondano alla tua richiesta.
   no_company_search_results: Non ci sono società che corrispondano alla tua richiesta.
-  no_contributors: 
-  no_created_lists: 
-  no_crew: 
-  no_description: 
-  no_director: 
-  no_episode_images: 
+  no_contributors: Nessun contributore trovato.
+  no_created_lists: Non hai creato nessun elenco.
+  no_crew: Non abbiamo membri troupe aggiunta a questo %{media_type}. Puoi aiutare aggiungendo un po '!
+  no_description: Nessuna descrizione inserita.
+  no_director: Nessun regista è stato aggiunto.
+  no_episode_images: Non sono state aggiunte immagini dell'episodio.
   no_favorite_movies:
-    current_user: 
-    public: 
+    current_user: Non hai aggiunto nessun film preferito.
+    public: "%{username} non ha film preferiti."
   no_favorite_tv_shows:
-    current_user: 
-    public: 
-  no_genres: 
-  no_guest_stars: 
+    current_user: Non hai aggiunto nessuna serie Tv preferita.
+    public: "%{username} non ha serie Tv preferite."
+  no_genres: Nessun genere è stato aggiunto.
+  no_guest_stars: Non sono state aggiunte guest stars.
   no_keyword_search_results: Non ci sono parole chiavi che corrispondano alla tua richiesta.
-  no_keywords: 
+  no_keywords: Non sono state aggiunte parole chiave.
   no_list_search_results: Non ci sono elenchi che corrispondano alla tua richiesta.
-  no_media: 
+  no_media: Nessun video, sfondo o poster sono stati aggiunti a %{title}.
   no_movie_search_results: Non ci sono film che corrispondano alla tua richiesta.
   no_overview: Non abbiamo una recensione tradotta in inglese. Aiutaci a espandere il nostro database aggiungendone una.
   no_person_search_results: Non ci sono persone che corrispondano alla tua richiesta.
   no_personal_recommendations:
-    movie: 
-    tv: 
+    movie: Per ottenere consigli sui film personali, inizia aggiungendo tutti i tuoi film preferiti. A questo punto, probabilmente noterai che molti dei film che consigliamo sono quelli che hai visto. Per filtrarli, valutali! Una volta valutato, filtreremo automaticamente quelli fuori.
+    tv: Per ottenere consigli TV personalizzati inizia aggiungendo tutti i tuoi film preferiti. A questo punto, probabilmente noterai che molti dei programmi TV che consigliamo sono quelli che hai visto. Per filtrarli, valutali! Una volta valutato, filtreremo automaticamente quelli fuori.
   no_rated_movies:
-    current_user: 
-    public: 
+    current_user: Non hai votato nessun film.
+    public: "%{username} non ha votato nessun film."
   no_rated_tv_shows:
-    current_user: 
-    public: 
+    current_user: Non hai votato nessuna serie Tv.
+    public: "%{username} non ha valutato nessuna serie Tv."
   no_recommendations:
-    movie: 
-    tv_show: 
-  no_records: 
+    movie: Non disponiamo di dati sufficienti per suggerire film basati su %{title}. Puoi aiutare valutando i film che hai visto.
+    tv_show: Non disponiamo di dati sufficienti per suggerire serie Tv basate su %{title}. Puoi aiutare valutando le serie Tv che hai visto.
+  no_records: Nessun record è stato aggiunto.
   no_tv_search_results: Non ci sono serie TV che corrispondano alla tua richiesta.
   no_watchlist_movies:
-    current_user: 
-    public: 
+    current_user: Non hai aggiunto nessun film alla tua watchlist.
+    public: Questa watchlist è vuota.
   no_watchlist_tv_shows:
     current_user: 
     public: 
   no_writer: 
   not_translated:
-    logged_in: 
-    public: 
+    logged_in: "%{page_title} non è ancora stato tradotto in <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desideri continuare e creare questa traduzione, fai clic sul pulsante in basso."
+    public: '%{page_title} non è ancora stato tradotto in <strong>%{requested_i18n} (%{requested_language_text})</strong>. Puoi aggiungere questa traduzione <a href="%{signup_link}">signing up</a> for an account and <a href="%{login_link}">logging in</a>.'
   notifications:
-    caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    caught_up: Sembra che tu sia coinvolto.
+    clear: Chiare
+    good_job: Buon lavoro!
+    mark_all_as_read: Segna tutti come letti
+    refresh: Ricarica
+    unread_notifications: Notifiche non lette
+    view: Viste
   number:
     currency:
       format:
