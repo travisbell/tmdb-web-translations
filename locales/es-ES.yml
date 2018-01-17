@@ -269,7 +269,7 @@ es-ES:
   Media: 
   Member since: Miembro desde
   Merge Keyword: 
-  Miniseries: 
+  Miniseries: Miniseries
   Mixed Compact View: Vista Compacta Mixta
   Mobile Application: Aplicación Móvil
   Moderator: Moderador
@@ -292,7 +292,7 @@ es-ES:
   'No': 'No'
   None: Ninguno
   Notes: Notas
-  Notifications: 
+  Notifications: Notificaciones
   Now Playing Movies: Películas en Cartelera
   Number of Movies: Número de Películas
   Number of TV Shows: Número de Series
@@ -1157,22 +1157,22 @@ es-ES:
         '4':
           meaning: Nor 18+. Películas apropiadas para mayores de 18 años
         '5':
-          meaning: 
+          meaning: Chor 20 - Películas prohibidas a menores de 20 años.
         '6':
           meaning: Prohibido.
       US:
         '0':
           meaning: Sin calificación.
         '1':
-          meaning: 
+          meaning: Este programa está diseñado para niños de cualquier edad.
         '2':
-          meaning: 
+          meaning: Este programa está diseñado para niños mayores de 7 años.
         '3':
-          meaning: 
+          meaning: La mayoría de los padres considerarían este programa adecuado para todas las edades.
         '4':
-          meaning: 
+          meaning: Este programa contiene materiales que algunos padres podrían considerar no adecuados para niños pequeños.
         '5':
-          meaning: 
+          meaning: Este programa contiene materiales que algunos padres podrían considerar no adecuados para menores de 14 años.
         '6':
           meaning: Este programa está diseñado específicamente para un público adulto y, por lo tanto, puede no ser adecuado para menores de 17 años.
   collection_includes: Incluye %{movie_titles}
@@ -1216,45 +1216,45 @@ es-ES:
       tv: tv
     collection:
       collection: Colecciones
-      collection_bible: Compendio de colecciones
+      collection_bible: Guía de colecciones
       tall_bible:
-        bottom: Compendio
+        bottom: Guía
         top: Colección
-    contribution_bible: 
-    featured_articles: 
+    contribution_bible: Guía de contribuciones
+    featured_articles: Artículos relacionados
     general:
-      general: 
-      general_bible: 
+      general: General
+      general_bible: Guía general
     image:
-      image: 
-      image_bible: 
+      image: Imágenes
+      image_bible: Guía de imágenes
     movie:
-      movie: 
-      movie_bible: 
+      movie: Películas
+      movie_bible: Guía de películas
       tall_bible:
-        bottom: 
-        top: 
+        bottom: Guía
+        top: Película
     new_content:
-      new_content: 
-      new_content_bible: 
-    note: 
+      new_content: Contenido nuevo
+      new_content_bible: Guía de nuevo contenido
+    note: Nota
     people:
-      people: 
-      people_bible: 
+      people: Personas
+      people_bible: Guía de personas
       tall_bible:
-        bottom: 
-        top: 
-    pro_tip: 
+        bottom: Guía
+        top: Personas
+    pro_tip: Consejo
     search:
-      placeholder_1: 
+      placeholder_1: "¿Con qué necesitas ayuda?"
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: Guía
+        top: TV
+      tv: TV
+      tv_bible: Guía de TV
+    welcome_1: Bienvenido a
+    welcome_2: La guía de contribuciones
   date:
     abbr_day_names:
     - Dom
@@ -1310,7 +1310,9 @@ es-ES:
   days:
     one: día
     other: "%{count} días"
-  department_credits_count: 
+  department_credits_count:
+    one: "%{department} (%{count} crédito)"
+    other: "%{department} (%{count} créditos)"
   departments:
     Acting: Interpretación
     Actors: Actores
@@ -1402,7 +1404,7 @@ es-ES:
         ignore_user: ¿Estás seguro de ignorar a este usuario? Todas sus discusiones y comentarios desaparecerán. Puede eliminar este bloque yendo a  "Usuarios bloqueados" dentro de la configuración de su cuenta.
         mark_as_spam: "¿Estás seguro de que quieres marcar esta discusión como spam? Se eliminará automáticamente si lo haces y no se puede deshacer. Marcar discusiones como spam ayuda a entrenar el servicio de detección de spam que usamos."
         report_violation: Confirma que deseas informar a este usuario de una infracción de nuestras <a href="/documentation/community/guidelines" target="_blank" rel="noopener"> directrices de la comunidad </a>.
-        unhide_discussion: 
+        unhide_discussion: Haciendo clic en 'Sí', esta conversación será visible de nuevo.
       posted_by_with_datetime: posteado por %{username} el %{date} a las %{time}
       quote: Citar
       reopen_reply: Re-abrir & contestar
@@ -1428,12 +1430,12 @@ es-ES:
     users_in_discussion:
       no_subscribers: Sin suscriptores
       users_in_discussion: Usuarios en esta discusión
-    your_account: 
+    your_account: Tu cuenta
   dont_fallback: Ninguno (No vuelvas atrás)
   edit:
-    page_title: 
+    page_title: Editar %{name}
     tooltips:
-      bible: 
+      bible: Para ayuda sobre editar la información de TMDb, haz clic en este '?' para leer la "guía de contribuciones".
       homepage: Página oficial solamente. Páginas de fans no están permitidos.
       original_title: El título original debería ser en el idioma original del item. En la mayoría de los casos debería coincidiro con el idioma puesto en el campo "idioma original"
       overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin spoilers.
@@ -1478,23 +1480,23 @@ es-ES:
         today: El nuevo episodio se retransmite hoy
         tomorrow: El nuevo episodio se retransmite mañana.
   images:
-    confirm_delete: 
+    confirm_delete: "¿Estás seguro de querer eliminar esta imagen?"
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      '1': Resolución máxima de 2000x3000
+      '2': Resolución mínima de 500x750
+      '3': Relación de tamaño 1:1.5 (2:3)
+      '4': Resolución máxima de 3840x2160
+      '5': Resolución mínima de 400x225
+      '6': Se admiten imágenes con relación de tamaño de 16x9 (1.78:1) y 4:3.
+      '7': Resolución mínima de 1280x720
+      '8': Relación de tamaño de 16x9 (1.78:1)
+      '9': Resolución mínima de 300x450
+      backdrops_must_meet: 'Los "backdrops" deben cumplir las siguientes reglas:'
+      episode_stills_must_meet: 'Los episodios se deben ajustar a las siguientes normas:'
+      posters_must_meet: 'Los posters deben cumplir las siguientes reglas:'
+      profile_must_meet: 'Las imágenes de perfil deben cumplir las siguientes reglas:'
+      read_guidelines: Familiarícese con nuestras <a href="%{link}" target="_blank" rel="noopener"> directrices de contribución de imágenes </a> actualizadas.
+      tip: Si su navegador lo admite, puede arrastrar y soltar una imagen en el área siguiente. En otro caso, haga clic en el botón 'Seleccionar archivos ...' y elija la imagen de su equipo.
   invalid_aspect_ratio: La relación de aspecto no es válida.
   item_count:
     one: "%{count} elemento"
@@ -1637,14 +1639,14 @@ es-ES:
     Helicopter Camera: Cámara de Helicóptero
     I/O Manager: Gerente de I/O
     I/O Supervisor: Supervisor de I/O
-    Idea: 
-    Imaging Science: 
+    Idea: Idea
+    Imaging Science: Ciencias de la imagen
     Information Systems Manager: Gerente de Sistemas de Información
     Interior Designer: Diseñador de Interiores
-    Key Hair Stylist: 
-    Layout: 
+    Key Hair Stylist: Peluquero
+    Layout: Diseño
     Lead Painter: Pintor Principal
-    Leadman: 
+    Leadman: Encargado
     Legal Services: Servicios Legales
     Lighting Artist: Artista de Iluminación
     Lighting Camera: Cámara de Iluminación
@@ -1653,10 +1655,10 @@ es-ES:
     Lighting Production Assistant: Ayudante de Producción de Iluminación
     Lighting Supervisor: Supervisor de Iluminación
     Lighting Technician: Técnico de Iluminación
-    Line Producer: 
-    Loader: 
+    Line Producer: Productor en línea
+    Loader: Cargador
     Location Manager: Gerente de Localizaciones
-    Location Scout: 
+    Location Scout: Localizador
     Machinist: Maquinista
     Makeup Artist: Artista de Maquillaje
     Makeup Department Head: Jefe del Departamento de Maquillaje
@@ -1683,9 +1685,9 @@ es-ES:
     Original Story: Historia Original
     Other: Otros
     Painter: Pintor
-    Photoscience Manager: 
-    Picture Car Coordinator: 
-    Poem: 
+    Photoscience Manager: Encargado de fotografía
+    Picture Car Coordinator: Coordinador de vehículos
+    Poem: '"Poem"'
     Post Production Assistant: Asistente de Postproducción
     Post Production Consulting: Consultor de Postproducción
     Post Production Supervisor: Supervisor de Postproducción
@@ -1702,22 +1704,22 @@ es-ES:
     Production Manager: Gerente de Producción
     Production Office Assistant: Ayudante de Oficina de Producción
     Production Office Coordinator: Coordinador de Oficina de Producción
-    Production Sound Mixer: 
+    Production Sound Mixer: Mezclador de sonido
     Production Supervisor: Supervisor de Producción
     Projection: Proyección
-    Prop Maker: 
-    Property Master: 
-    Propmaker: 
+    Prop Maker: Fabricante de utilería
+    Property Master: Maestro de utilería
+    Propmaker: Fabricante de utilería
     Prosthetic Supervisor: Supervisor de Prótesis
     Public Relations: Relaciones Públicas
     Publicist: Publicista
     Pyrotechnic Supervisor: Supervisor Pirotécnico
     Quality Control Supervisor: Supervisor del Control de Calidad
-    Radio Play: 
+    Radio Play: Operador de radio
     Recording Supervision: Supervisor de Grabación
     Researcher: Investigador
-    Rigging Gaffer: 
-    Rigging Grip: 
+    Rigging Gaffer: Técnico de electricidad e iluminación
+    Rigging Grip: Técnico operador
     Scenario Writer: Escritor de Situaciones
     Scenic Artist: Artista Escénico
     Schedule Coordinator: Coordinador de Horarios
@@ -1731,17 +1733,17 @@ es-ES:
     Script Supervisor: Supervisor de Guión
     Sculptor: Escultor
     Seamstress: Modista
-    Second Film Editor: 
+    Second Film Editor: Segundo editor
     Second Unit: Segunda Unidad
     Second Unit Cinematographer: Cinematógrafo de Segunda Unidad
     Security: Seguridad
     Senior Executive Consultant: Consultor Ejecutivo Senior
     Sequence Artist: Artista de Secuencias
-    Sequence Leads: 
-    Sequence Supervisor: 
-    Series Composition: 
-    Series Writer: 
-    Set Costumer: 
+    Sequence Leads: '"Sequence Leads"'
+    Sequence Supervisor: Supervisor de secuencias
+    Series Composition: Compositor de escenas
+    Series Writer: Guionista de escenas
+    Set Costumer: Encargado del vesturio de rodaje
     Set Decoration: 
     Set Decoration Buyer: 
     Set Designer: 
@@ -1841,30 +1843,30 @@ es-ES:
     Writer: Escritor
   joined: unido
   list_info:
-    average_rating: 
-    image_selected: 
+    average_rating: Calificación media
+    image_selected: Seleccionada
     items_on_list:
-      many: 
-      one: 
-      other: 
-    private: 
-    public: 
-    select_this_image: 
+      many: elementos en esta lista
+      one: elemento en esta lista
+      other: elementos en esta lista
+    private: Privado
+    public: Público
+    select_this_image: Seleccionar esta imagen
     total_revenue: 
     total_runtime: 
   list_messages:
-    comment_updated: 
-    image_saved: 
-    item_added: 
-    item_already_added: 
-    item_removed: 
+    comment_updated: "¡Comentario actualizado!"
+    image_saved: "¡Imagen guardada!"
+    item_added: "¡Elemento añadido!"
+    item_already_added: Este elemento ya está en la lista.
+    item_removed: Elemento eliminado.
   list_sort:
-    original_order: 
-    rating: 
+    original_order: Orden original
+    rating: Calificación
     release_date: 
     title: Título
   list_steps:
-    step_1: 
+    step_1: 'Paso 1: Lista de detalles'
     step_2: 
     step_3: 
     step_4: 
@@ -1882,11 +1884,15 @@ es-ES:
         confirm_collection: 
         confirm_video: 
     network:
-      tv_page_title: 
-    number_of_movies: 
-    number_of_shows: 
+      tv_page_title: Programas de tv en %{name}
+    number_of_movies:
+      one: "%{count} película"
+      other: "%{count} películas"
+    number_of_shows:
+      one: "%{count} programa"
+      other: "%{count} programas"
     rating:
-      rated_with_rating: 
+      rated_with_rating: Calificado %{value}
     social_panel:
       discussions:
         currently_subscribed: 
@@ -1985,18 +1991,18 @@ es-ES:
   no_watchlist_tv_shows:
     current_user: No has añadido Series a tu lista de pendientes.
     public: Esta lista de pendientes está vacía.
-  no_writer: 
+  no_writer: No se ha añadido ningún guionista.
   not_translated:
     logged_in: "%{page_title} aún no ha sido traducida al <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si quieres continuar y traducirla tú, por favor, haz click en el botón de abajo."
     public: '%{page_title} no ha sido traducida al <strong>%{requested_i18n} (%{requested_language_text})</strong>. Puedes añadir esta traducción <a href="%{signup_link}">creando</a> una cuenta e <a href="%{login_link}">iniciando sesión</a>.'
   notifications:
     caught_up: 
-    clear: 
-    good_job: 
-    mark_all_as_read: 
-    refresh: 
-    unread_notifications: 
-    view: 
+    clear: Limpiar
+    good_job: "¡Bien hecho!"
+    mark_all_as_read: Marcar todo como leído
+    refresh: Refrescar
+    unread_notifications: Notificaciones sin leer
+    view: Ver
   number:
     currency:
       format:
