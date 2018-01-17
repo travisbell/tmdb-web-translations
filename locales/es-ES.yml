@@ -321,14 +321,14 @@ es-ES:
   Person: Persona
   Personal: Personal
   Personal Info: Información Personal
-  Personal Recommendations: 
+  Personal Recommendations: Recomendaciones personales
   Phone Number: Número de Teléfono
   Physical: Copia Física
-  Pilot: 
+  Pilot: Piloto
   Place of Birth: Lugar de Nacimiento
   Planned: Programada
-  Play: 
-  Play Trailer: 
+  Play: Reproducir
+  Play Trailer: Reproducir trailer
   Plot Keywords: Palabras clave
   Popular Lists: Listas Populares
   Popular Movies: Películas Populares
@@ -344,7 +344,7 @@ es-ES:
   Powered by TMDb: 
   Powered by The Movie Database: 
   Premiere: Premiere
-  Preview: 
+  Preview: Vista previa
   Previous Episode: Episodio Anterior
   Primary Color: 
   Primary Facts: Datos Principales
@@ -354,20 +354,20 @@ es-ES:
   Production Countries: Países de producción
   Production Information: Información sobre la Producción
   Profiles: Perfiles
-  Public List?: 
+  Public List?: "¿Lista pública?"
   Public Report?: "¿Informe Público?"
   Quality: Calidad
-  Rank: 
+  Rank: Rango
   Rate It!: "¡Puntúala!"
   Rated: Valorado
   Rated Movies: Películas Valoradas
   Rated TV Shows: Series Valoradas
-  Rating: 
+  Rating: Calificación
   Rating Ascending: Valoración Ascendente
   Rating Descending: Valoración Descendente
   Ratings: Valoraciones
   Read More: Leer Más
-  Reality: 
+  Reality: Realidad
   Recent Blog Posts: 
   Recent News: Noticias Recientes
   Recommendations: Recomendaciones
@@ -407,8 +407,8 @@ es-ES:
   Search for a language: 
   Search for a movie or TV show: 
   Search for a movie, TV show, person: Buscar por película, serie, persona
-  Season: 
-  Season Number: 
+  Season: Temporada
+  Season Number: Número de temporada
   Season Overview: 
   Season Regulars: 
   Season Specials: 
@@ -442,13 +442,13 @@ es-ES:
   Step 3: Paso 3
   Step 4: Paso 4
   Step 5: Paso 5
-  Store URL: 
+  Store URL: Guardar URL
   Subject: Asunto
   Submit: Enviar
   Success: Correcto
   Summary: Sinopsis
   Support: Soporte
-  Support Forums: 
+  Support Forums: Foros de ayuda
   TV: TV
   TV Network: Cadena de TV
   TV Recommendations: Recomendaciones de Series
@@ -459,7 +459,7 @@ es-ES:
   TV Show Watchlist: Lista de Series Pendientes
   TV Shows: Series
   TV Shows Airing Today: Series que se Emiten Hoy
-  Tagged People: 
+  Tagged People: Personas etiquetadas
   Tagline: Etiquetas
   Talk: 
   Talk Show: 
@@ -467,10 +467,10 @@ es-ES:
   Teasers: Avances
   Television: Televisión
   Terms of Use: Términos de Uso
-  The Basics: 
+  The Basics: Los básicos
   Theatrical: Estreno
   Theatrical (limited): Estreno (limitado)
-  Timezone: 
+  Timezone: Zona horaria
   Title: Título
   Title (A-Z): Título (A-Z)
   Title (Z-A): Título (Z-A)
@@ -2050,7 +2050,9 @@ es-ES:
   number_of_edits:
     one: "%{count} ediciones"
     other: "%{count} ediciones"
-  number_of_items: 
+  number_of_items:
+    one: "%{count} elemento"
+    other: "%{count} elementos"
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
@@ -2068,16 +2070,16 @@ es-ES:
     next_page_with_arrow: 
     previous_page: 
     previous_page_with_arrow: 
-    show_more: 
-  part_of_collection: 
+    show_more: Mostrar más
+  part_of_collection: Parte de %{collection_name}
   password:
-    confirm_new_password: 
+    confirm_new_password: Confirmar nueva contraseña
     invalid_reset_code: 
-    new_password: 
-    reset_email_sent: 
+    new_password: Nueva contraseña
+    reset_email_sent: "¡Correo electrónico enviado! En breve deberías recibir las instrucciones para cambiar la contraseña."
   person:
     credits:
-      as_character: 
+      as_character: como %{character}
       as_job: 
   resend_verification_email_text: 
   reset_password_dialog_text: 
@@ -2085,19 +2087,19 @@ es-ES:
   search:
     favorites_movie: 
     favorites_tv: 
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: en películas
+    in_people: en personas
+    in_tv_shows: en programas de tv
     media_types:
-      movie: 
-      person: 
-      tv_show: 
-    no_results: 
+      movie: Película
+      person: Persona
+      tv_show: Programa de tv
+    no_results: Sin resultados
     no_results_found: No hay resultados
-    rated_movie: 
-    rated_tv: 
-    recommendations_movie: 
-    recommendations_tv: 
+    rated_movie: Buscar películas calificadas...
+    rated_tv: Buscar programas de tv calificados...
+    recommendations_movie: Buscar tus recomendaciones de películas...
+    recommendations_tv: Buscar tus recomendaciones de programas de tv...
     trending: 
     trending_searches: Lo Más Buscado
     watchlist_movie: 
@@ -2121,34 +2123,34 @@ es-ES:
         stats: 
     blocked_users:
       action: 
-      blocked_users: 
-      no_blocked: 
-      username: 
+      blocked_users: Usuarios bloqueados
+      no_blocked: No tienes usuarios bloqueados.
+      username: Nombre de usuario
     change_email:
-      change_email: 
+      change_email: Cambiar correo electrónico
       change_email_text: 
     connected_apps:
       connected_apps: 
       listed_below_explanation: 
       no_apps: 
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Acciones
+        application_name: Nombre de aplicación
+        date_authorised: Fecha de autorización
     delete_account:
-      delete_account: 
+      delete_account: Eliminar cuenta
       summary_text: 
     import_list:
-      import_button: 
-      import_list: 
+      import_button: Importar
+      import_list: Importar lista
       navigation:
-        import: 
-        previous: 
+        import: Importar
+        previous: Importaciones anteriores
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: "¡Importación finalizada!"
+        started_import: Importación iniciada...
       previous:
-        date: 
+        date: Fecha
         imported: 
         items: 
         local_list: 
@@ -2169,27 +2171,27 @@ es-ES:
           summary: 
       select_csv: 
       type:
-        favorite: 
-        rated: 
-        watchlist: 
-      which_list: 
+        favorite: Favorito
+        rated: Calificado
+        watchlist: Lista de pendientes
+      which_list: "¿A qué lista desea importar?"
     navigation:
-      account_settings: 
-      api: 
-      blocked_users: 
+      account_settings: Configuración de cuenta
+      api: API
+      blocked_users: Usuarios bloqueados
       connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
+      delete_account: Eliminar cuenta
+      edit_profile: Editar perfil
+      import_list: Importar lista
+      notification_settings: Opciones de notificaciones
+      settings: Opciones
+      sharing_settings: Opciones de compartir
       social_settings: 
     notifications:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: Notificaciones
     profile:
       accent_color: 
       avatar:
@@ -2209,9 +2211,9 @@ es-ES:
       background:
         background_image: 
         confirm_remove: 
-        remove_background: 
-        set_image: 
-      edit_profile: 
+        remove_background: "¿Eliminar tu imagen de fondo?"
+        set_image: "¿Establecer como imagen de fondo?"
+      edit_profile: Editar perfil
     sharing:
       favorite_list:
         favorite_settings: 
@@ -2226,13 +2228,13 @@ es-ES:
         watchlist_settings: 
     social:
       connected_table:
-        action: 
+        action: Acción
         auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
+        connect: Conectar
+        connected_to: Conectado a
+        info: Información
+        reload_text: "¡Recarga esta página cuando hayas autorizado tu cuenta!"
+        service: Servicio
       favorite_message_hint: 
       message_settings: 
       sharing_message_hint: 
@@ -2250,7 +2252,7 @@ es-ES:
     by_clicking_agree_to_terms: 
     sign_up_for_account: Crea una cuenta
     signup_text: 
-  success_approved_access_token: 
+  success_approved_access_token: "¡Permiso concedido!"
   success_deleted: 
   success_email: Tu correo se ha enviado correctamente.
   success_image_rated: Has valorado correctamente la imagen.
