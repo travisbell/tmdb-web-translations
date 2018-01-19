@@ -188,7 +188,7 @@ uk-UA:
   Featurettes: "Короткометражки"
   Female: "Жінка"
   Filter: 
-  Filter Profanity?: 
+  Filter Profanity?: "Відфільтрувати богохульства?"
   Filter by genre: "Фільтрувати за жанром"
   Filter by genres: "Фільтр за жанром"
   Filter by keywords: "Фільтр за ключовими словами"
@@ -236,7 +236,7 @@ uk-UA:
   Language: "Мова"
   Language Preferences: 
   Languages: 
-  Last Name: "Фамілія"
+  Last Name: "Прізвище"
   Last Season: "Останній сезон"
   Last Season Crew: "Персонал останнього сезону"
   Last Season Featured Crew: 
@@ -700,7 +700,7 @@ uk-UA:
     movies:
       AU:
         '1':
-          meaning: NR (Not rated)
+          meaning: NR (Not rated) – фільми, що не проходили процедуру класифікації. За загально прийнятим правилом, такі фільми не повинні містити будь-яких суперечливих матеріалів, що могли би стати предметом розгляду комісії.
         '2':
           meaning: G (General audiences) – фільм демонструється без обмежень. Фільми цієї категорії не містять нічого, що більшість батьків могли би вважати неприйнятним для перегляду або прослуховування навіть найменшими дітьми.
         '3':
@@ -708,13 +708,13 @@ uk-UA:
         '4':
           meaning: PG-13 (Parents strongly cautioned) – діти до 13 років допускаються на фільм тільки з батьками. Батьки повинні бути особливо обережні, дозволяючи своїм дітям проглядання таких картин. В них відсутні сцени з грубим або тривалим насильством і оголенням, немає сексуальної орієнтації на наготу, але вже можуть бути присутніми неконкретизовані епізоди з наркотиками, а також можна почути одиничні вживання грубої сексуальної лексики.
         '5':
-          meaning: 'R Під доглядом дорослих. '
+          meaning: R (Restricted) – підлітки до 17 років допускаються на фільм тільки у супроводі одного з батьків, або законного представника. Деякий матеріал такого фільму призначається для дорослих. Батьки повинні більше дізнатися про фільм і гарненько подумати перш, ніж узяти на його перегляд дітей-підлітків. До цієї категорії також відносяться фільми, де використовується мова, тема насильства, сексу або зображення вживання наркотиків.
         '6':
-          meaning: 'NC-17 Обмеження 18 років і більше. Тільки для дорослих. '
+          meaning: NC-17 (No Children 17 and under admitted) – особи, що не досягли 18 років, на фільм не допускаються. Тільки для дорослих. Фільм може містити явні сексуальні сцени, безліч сексуально-орієнтованої мови, або сцени надмірного насильства. Але позначка NC-17 все ж не означає, що даний фільм є непристойним або порнографічним.
         '7':
-          meaning: X18+
+          meaning: X18+  – ця позначка використовується в Австралії стосовно деяких порнографічних фільмів.
         '8':
-          meaning: 
+          meaning: RC (Refused Classification) – ця позначка використовується і має значення тільки в Австралії.
       BG:
         '1':
           meaning: "Рекомендовано для дітей."
@@ -1385,15 +1385,15 @@ uk-UA:
     no_discussions: "Нема обговорень."
     pagination:
       post_summary:
-        few: "%{count} відповідей (на сторінці %{current_page} із %{total_pages})"
+        few: "%{count} відповіді (на сторінці %{current_page} із %{total_pages})"
         many: "%{count} відповідей (на сторінці %{current_page} із %{total_pages})"
         one: "%{count} відповідь (на сторінці %{current_page} із %{total_pages})"
         other: "%{count} відповідей (на сторінці %{current_page} із %{total_pages})"
       summary:
-        few: "%{count} дискусій, зараз на сторінці %{current_page} із %{total_pages}"
-        many: "%{count} дискусій, зараз на сторінці %{current_page} із %{total_pages}"
-        one: "%{count} дискусія, зараз на сторінці %{current_page} із %{total_pages}"
-        other: "%{count} дискусій, зараз на сторінці %{current_page} із %{total_pages}"
+        few: "%{count} обговорення, зараз на сторінці %{current_page} із %{total_pages}"
+        many: "%{count} обговорень, зараз на сторінці %{current_page} із %{total_pages}"
+        one: "%{count} обговорення, зараз на сторінці %{current_page} із %{total_pages}"
+        other: "%{count} обговорень, зараз на сторінці %{current_page} із %{total_pages}"
     post:
       delete: "Видалити"
       edit: "Змінити"
@@ -1500,7 +1500,7 @@ uk-UA:
       backdrops_must_meet: 
       episode_stills_must_meet: 
       posters_must_meet: 
-      profile_must_meet: 
+      profile_must_meet: "Обов'язкові вимоги до зображень для профіля:"
       read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднування зображень</a>.
       tip: 
   invalid_aspect_ratio: "Співвідношення сторін неправильне."
@@ -1605,7 +1605,7 @@ uk-UA:
     Digital Producer: 
     Directing Lighting Artist: 
     Director: "Режисер"
-    Director of Photography: 
+    Director of Photography: "Директор по фотозйомці"
     Documentation & Support: 
     Dolby Consultant: 
     Dramaturgy: 
@@ -1623,7 +1623,7 @@ uk-UA:
     Executive Music Producer: 
     Executive Producer: 
     Executive Visual Effects Producer: 
-    Executive in Charge of Finance: 
+    Executive in Charge of Finance: "Виконавчий директор із фінансових питань"
     Facial Setup Artist: 
     Finance: 
     First Assistant Camera: 
@@ -1668,7 +1668,7 @@ uk-UA:
     Makeup Department Head: 
     Makeup Designer: 
     Makeup Effects: 
-    Manager of Operations: 
+    Manager of Operations: "Операційний менеджер"
     Martial Arts Choreographer: 
     Master Lighting Artist: 
     Mechanical & Creature Designer: 
@@ -1767,8 +1767,8 @@ uk-UA:
     Sign Painter: 
     Simulation & Effects Artist: 
     Simulation & Effects Production Assistant: 
-    Software Engineer: 
-    Software Team Lead: 
+    Software Engineer: "Розробник програмного забезпечення"
+    Software Team Lead: "Керівник команди програмістів"
     Songs: 
     Sound: 
     Sound Design Assistant: 
@@ -1889,7 +1889,11 @@ uk-UA:
         confirm_video: 
     network:
       tv_page_title: 
-    number_of_movies: 
+    number_of_movies:
+      few: "%{count} фільма"
+      many: "%{count} фільмів"
+      one: "%{count} фільм"
+      other: "%{count} фільмів"
     number_of_shows: 
     rating:
       rated_with_rating: 
