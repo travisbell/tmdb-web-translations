@@ -1198,7 +1198,8 @@ el-GR:
     movies_missing_a_overview: "Ταινίες στις οποίες απουσιάζει η περίληψη"
     movies_missing_a_poster: "Ταινίες στις οποίες λείπει η αφίσα"
     movies_missing_a_title: "Ταινίες στις οποίες λείπει ο τίτλος"
-    page_title: 
+    page_title: |
+      Συμβάλλετε στα δεδομένα που λείπουν
     selected_language: "Επιλεγμένη γλώσσα"
     tv_missing_a_backdrop: "Τηλεοπτικές σειρές χωρίς ταπετσαρία"
     tv_missing_a_poster: "Σειρές στις οποίες λείπει η αφίσα."
@@ -1491,7 +1492,7 @@ el-GR:
       episode_stills_must_meet: "Φωτογραφίες του επεισοδίου πρέπει να πληρούν τα ακόλουθα κριτήρια:"
       posters_must_meet: "Οι αφίσες πρέπει να πληρούν τα ακόλουθα κριτήρια:"
       profile_must_meet: "Οι εικόνες προφίλ πρέπει να πληρούν τα ακόλουθα κριτήρια:"
-      read_guidelines: 
+      read_guidelines: Παρακαλούμε να εξοικειωθείτε με την ενημερωμένες μας <a href="%{link}" target="_blank" rel="noopener">οδηγίες συνεισφοράς στις εικόνες</a>
       tip: Αν το πρόγραμμα περιήγησης το υποστηρίζει, μπορείτε να μεταφέρετε και να αποθέσετε μια εικόνα στην παρακάτω περιοχή. Διαφορετικά, απλά κάντε κλικ στο κουμπί "Επιλογή αρχείων ..." και επιλέξτε την εικόνα από τον υπολογιστή σας.
   invalid_aspect_ratio: "Η αναλογία δεν είναι έγκυρη."
   item_count:
@@ -1878,13 +1879,20 @@ el-GR:
     movie:
       edit:
         confirm_collection: 
-        confirm_video: 
+        confirm_video: |-
+          <p>Η επισήμανση μιας ταινίας ως βίντεο μας βοηθά να διαφοροποιούμε τους τύπους περιεχομένου που δεν είναι πραγματικά ταινίες</p>
+
+          <p>Εάν αυτό το περιεχόμενο είναι για παράδειγμα ένα DVD compilation, ένα βίντεο γυμναστικής ή ίσως ένα "best of" DVD, τότε θα πρέπει να το χαρακτηρίσετε ως βίντεο.</p>
     network:
       tv_page_title: 
-    number_of_movies: 
-    number_of_shows: 
+    number_of_movies:
+      one: "%{count} ταινία"
+      other: "%{count} ταινίες"
+    number_of_shows:
+      one: "%{count} σειρά"
+      other: "%{count} σειρές"
     rating:
-      rated_with_rating: 
+      rated_with_rating: "Βαθμολογήθηκε με %{value}"
     social_panel:
       discussions:
         currently_subscribed: "Αυτή τη στιγμή έχετε εγγραφεί για να λαμβάνετε ειδοποιήσεις όταν κάποιος δημιουργεί την πρώτη ανάρτηση."
@@ -1893,17 +1901,17 @@ el-GR:
         want_to_be_notified: "Θέλετε να ειδοποιηθείτε μόλις κάποιος κάνει την πρώτη δημοσίευση;"
         yes_notify_me: "Ναι, ειδοποιήστε με!"
       reviews:
-        a_review_by: 
-        by: 
+        a_review_by: "Μια κριτική από %{username}"
+        by: "Γραμμένο από %{username} στις %{date}"
         featured_review: "Επιλεγμένη κριτική"
         no_review:
           logged_in: Δεν υπάρχουν κριτικές για %{title}. Θα θέλατε να <a href="%{url}">γράψετε μια</a>;
           public: "Δεν υπάρχουν κριτικές για %{title}."
         read_all: "Διαβάστε όλες τις κριτικές"
-        read_the_rest: 
+        read_the_rest: "διαβάστε τα υπόλοιπα."
         write_review:
           logged_in: "Γράψε κριτική"
-          public: 
+          public: "Συνδεθείτε για να γράψετε μια κριτική."
     tv_episode:
       edit:
         screened_as_part_of_season: "Ναι, ως μέρος της σαιζόν"
@@ -1911,11 +1919,11 @@ el-GR:
         screened_label: "Αυτό το επεισόδιο έχει προβληθεί σε κινηματογραφική αίθουσα;"
     tv_season:
       edit:
-        create_episode: 
+        create_episode: "Δημιουργία Επεισοδίου"
         screened_confirm: "Εάν αυτή η σαιζόν έχει προβληθεί σε κάποιο φεστιβάλ ή κινηματογραφική αίθουσα, κάντε κλικ στο «Ναι» για να συνεχίσετε."
         screened_label: "Αυτή η σαιζόν έχει προβληθεί σε κινηματογραφική αίθουσα;"
     tv_show:
-      create_season: 
+      create_season: "Δημιουργία Σαιζόν"
   month:
     one: "Μήνας"
     other: "%{count} μήνες"
@@ -1993,8 +2001,8 @@ el-GR:
     good_job: "Καλή δουλειά!"
     mark_all_as_read: "Σήμανση όλων ως αναγνωσμένα"
     refresh: "Ανανέωση"
-    unread_notifications: 
-    view: 
+    unread_notifications: "Μη Αναγνωσμένες Ειδοποιήσεις"
+    view: "Προβολή"
   number:
     currency:
       format:
@@ -2055,14 +2063,14 @@ el-GR:
     one: "%{count} ψήφος"
     other: "%{count} ψήφοι"
   pagination:
-    currently_on: 
-    last_page: 
+    currently_on: "Αυτή τη στιγμή στη σελίδα %{current_page} απο %{total_pages}"
+    last_page: "Τελευταία σελίδα"
     load_more: "Φορτώστε Περισσότερα"
-    next_page: 
-    next_page_with_arrow: 
-    previous_page: 
-    previous_page_with_arrow: 
-    show_more: 
+    next_page: "Επόμενη σελίδα"
+    next_page_with_arrow: "Επόμενη σελίδα →"
+    previous_page: "Προηγούμενη σελίδα"
+    previous_page_with_arrow: "← Προηγούμενη σελίδα"
+    show_more: "Εμφάνιση Περισσοτέρων"
   part_of_collection: "Μέρος από την %{collection_name}"
   password:
     confirm_new_password: "Επιβεβαίωση νέου συνθηματικού"
@@ -2079,20 +2087,20 @@ el-GR:
   search:
     favorites_movie: "Αναζήτηση αγαπημένης ταινίας"
     favorites_tv: "Αναζήτηση αγαπημένης σειρας"
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: "σε Ταινίες"
+    in_people: "σε Ατομα"
+    in_tv_shows: "σε Σειρες"
     media_types:
-      movie: 
-      person: 
-      tv_show: 
-    no_results: 
+      movie: "Ταινία"
+      person: "Πρόσωπο"
+      tv_show: "Σειρες"
+    no_results: "Δεν υπάρχουν αποτελέσματα"
     no_results_found: "Δεν βρέθηκαν αποτελέσματα"
     rated_movie: "Αναζήτηση Αξιολογούμενες ταινίες..."
     rated_tv: "Αναζήτηση Αξιολογούμενες Τηλ. Σειρές..."
     recommendations_movie: "Αναζήτηση σε προσωπικές σας αξιολογήσεις ταινιών"
     recommendations_tv: "Αναζήτηση σε προσωπικές σας αξιολογήσεις τηλεοπτικών σειρών"
-    trending: 
+    trending: "Δημοφιλή θέματα"
     trending_searches: "Δημοφιλείς Αναζητήσεις"
     watchlist_movie: "Αναζήτηση λίστα παρακολούθησης ταινιών..."
     watchlist_tv: "Αναζήτηση λίστα παρακολούθησης τηλεοπτικων σειρών"
@@ -2140,8 +2148,8 @@ el-GR:
         import: "Εισαγωγή"
         previous: "Προηγούμενες εισαγωγές"
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: "Ολοκληρώθηκε η εισαγωγή "
+        started_import: "Άρχισε η εισαγωγή ..."
       previous:
         date: "Ημερομηνία"
         imported: "Εισαγόμενες"
@@ -2205,31 +2213,31 @@ el-GR:
         use_gravatar: "Χρήση Gravatar;"
       background:
         background_image: "Εικόνα Φόντου"
-        confirm_remove: 
+        confirm_remove: "Επιβεβαιώστε ότι θέλετε να καταργήσετε την εικόνα φόντου. Είσαι σίγουρος?"
         remove_background: "Αφαιρέστε την εικόνα φόντου σας;"
         set_image: "Να οριστεί εικόνα φόντου;"
       edit_profile: "Επεξεργασία προφίλ"
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: "Ρυθμίσεις λίστας αγαπημένων"
+        share_on_twitter: "Μοιραστείτε τα νέα αγαπημένα στο Twitter;"
+        share_publicly: "Μοιραστείτε αυτήν τη λίστα δημόσια;"
       rated_list:
         rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        share_publicly: "Μοιραστείτε αυτήν τη λίστα δημόσια;"
+      sharing_settings: "Ρυθμίσεις κοινής χρήσης"
       watchlist:
-        remove_when_rated: 
+        remove_when_rated: "Κατάργηση αυτόματων στοιχείων όταν βαθμολογούνται;"
         watchlist_settings: "Ρυθμίσεις λίστας παρακολούθησης"
     social:
       connected_table:
         action: "Ενέργεια"
         auto_sharing: "Αυτόματη κοινοποίηση:"
-        connect: 
-        connected_to: 
+        connect: "Συνδεθείτε"
+        connected_to: "Συνδεδεμένος με"
         info: "Πληροφορίες"
-        reload_text: 
-        service: 
+        reload_text: "Ανανεώστε αυτή τη σελίδα μόλις εγκρίνετε το λογαριασμό σας!"
+        service: "Υπηρεσία"
       favorite_message_hint: 
       message_settings: "Ρυθμίσεις μηνυμάτων"
       sharing_message_hint: 
@@ -2244,7 +2252,7 @@ el-GR:
       discussions: "Μπορείτε να λαμβάνετε μέρος σε συζητήσεις για ταινίες και σειρές"
       keep_track: "Μπορείτε να παρακολουθείτε τις αγαπημένες ταινίες και σειρές και να λαμβάνετε προτάσεις σύμφωνα με αυτές"
       log_movies: "Μπορείτε να καταγράφετε τις ταινίες και σειρές που έχετε δει"
-    by_clicking_agree_to_terms: 
+    by_clicking_agree_to_terms: Κάνοντας κλικ στο κουμπί "Εγγραφή" παρακάτω, βεβαιώνω ότι έχω διαβάσει και συμφωνώ με τους όρους χρήσης και την πολιτική απορρήτου της TMDb.
     sign_up_for_account: "Δημιουργία λογαριασμού"
     signup_text: "Η δημιουργία λογαριασμού είναι δωρεάν και εύκολη. Συμπληρώστε την παρακάτω φόρμα για να ξεκινήσετε."
   success_approved_access_token: "Η άδεια χορηγείται!"
@@ -2260,8 +2268,8 @@ el-GR:
   success_sharing: "Το μήνυμα σας έχει αποσταλεί με επιτυχία."
   time:
     formats:
-      12hour_minutes: 
-  top_contributors: 
+      12hour_minutes: "%Ω:%Λ%p"
+  top_contributors: "Κορυφαίοι Συνεισφέροντες"
   translation:
     one: "μετάφραση"
     other: "μεταφράσεις"
