@@ -198,7 +198,7 @@ uk-UA:
   Formatting Help: "Допомога по оформленню"
   Forum: "Форум"
   Forums: "Форуми"
-  Full Cast & Crew: "Весь список акторів"
+  Full Cast & Crew: "Уся команда й актори"
   Full Leaderboard: "Вся таблиця лідерів"
   Gender: "Стать"
   General: "Загальні"
@@ -509,7 +509,7 @@ uk-UA:
   View All Seasons: "Перелік усіх сезонів"
   View All Videos: 
   View Discussions: 
-  View Edit History: 
+  View Edit History: "Переглянути історію змін"
   View Episodes: "Переглянути серію"
   View More: "Оглянути всі"
   View Original: 
@@ -626,7 +626,7 @@ uk-UA:
       recent_discussions: "Останні обговорення"
       total_edits: "Усього правок"
       total_ratings: "Усього оцінок"
-      upcoming_watchlist: "Очікувані у списку для перегляду"
+      upcoming_watchlist: Очікувані в "Перегляну пізніше"
     page_title:
       page_owner: "Мій профіль"
       public: "Профіль учасника %{username}"
@@ -1237,7 +1237,7 @@ uk-UA:
     new_content:
       new_content: "Новий контент"
       new_content_bible: "Інструкції щодо створення контенту"
-    note: 
+    note: "УВАГА"
     people:
       people: "Люди"
       people_bible: "Інструкції щодо людей"
@@ -1257,26 +1257,26 @@ uk-UA:
     welcome_2: "Біблії по створенню контента"
   date:
     abbr_day_names:
-    - "нд"
-    - "пн"
-    - "вт"
-    - "ср"
-    - "чт"
-    - "пт"
-    - "сб"
+    - "НД"
+    - "ПН"
+    - "ВТ"
+    - "СР"
+    - "ЧТ"
+    - "ПТ"
+    - "СБ"
     abbr_month_names:
     - 
     - "січ."
     - "лют."
-    - "берез."
+    - "бер."
     - "квіт."
     - "трав."
     - "черв."
     - "лип."
     - "серп."
-    - "верес."
+    - "вер."
     - "жовт."
-    - "лис-топ."
+    - "лист."
     - "груд."
     day_names:
     - "Неділя"
@@ -1289,30 +1289,34 @@ uk-UA:
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
-      full_month_day: "%B %e, %Y"
+      full_month_day: "%e %B %Y"
       full_month_year: 
-      short_month_day_year: 
+      short_month_day_year: "%d %b %Y"
     month_names:
     - 
-    - "Січень"
-    - "Лютий"
-    - "Березень"
-    - "Квітень"
-    - "Травень"
-    - "Червень"
-    - "Липень"
-    - "Серпень"
-    - "Вересень"
-    - "Жовтень"
-    - "Листопад"
-    - "Грудень"
+    - "січня"
+    - "лютого"
+    - "березня"
+    - "квітня"
+    - "травня"
+    - "червня"
+    - "липня"
+    - "серпня"
+    - "вересня"
+    - "жовтня"
+    - "листопада"
+    - "грудня"
   day: "день"
   days:
     few: "днів"
     many: "днів"
     one: "день"
     other: "%{count} днів"
-  department_credits_count: 
+  department_credits_count:
+    few: "%{department} (%{count} кредита)"
+    many: "%{department} (%{count} кредитів)"
+    one: "%{department} (%{count} кредит)"
+    other: "%{department} (%{count} кредитів)"
   departments:
     Acting: "Гра"
     Actors: "Актори"
@@ -1414,7 +1418,7 @@ uk-UA:
       reopen_reply: "Відкрити наново та відповісти"
       reply: "Відповісти"
       reply_by: "Відповідь %{username}"
-      reply_on_datetime: "на %{date} об %{time}"
+      reply_on_datetime: "за %{date} об %{time}"
       report: "Звіт"
       unhide: "Показати приховані"
     report_violation: "Повідомити про порушення"
@@ -1445,7 +1449,7 @@ uk-UA:
       overview: "Створюючи опис, намагайтеся писати коротко, стисло і без спойлерів."
       social_links: "Посилання на соціальні мережі передбачені лише для офіційних (перевірених) сторінок. Не дозволяються посилання на сторінки фанатських спільнот."
   edit_list:
-    add_edit_items: "Додати/Змінити елемент"
+    add_edit_items: "Додати/Змінити елементи"
     choose_image: "Обрати зображення"
     delete_list: "Видалити список"
     edit_list: "Редагувати список"
@@ -1478,7 +1482,7 @@ uk-UA:
     min: "Фільтрувати за датою виходу (мін.)"
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: "Надолужуємо зараз."
       discussions: "Обговорення"
     tv_shows:
       episode_airs:
@@ -1511,7 +1515,7 @@ uk-UA:
     other: "%{count} елементів"
   jobs:
     24 Frame Playback: 24-х кадрове відтворення
-    3D Director: 3D директор
+    3D Director: 3D Режисер
     3D Supervisor: 3D супервізор
     ADR & Dubbing: "Дублер"
     Actor: "Актор"
@@ -1519,11 +1523,11 @@ uk-UA:
     Adaptation: "Адаптація"
     Additional Camera: "Додаткова камера"
     Additional Dialogue: "Додатковий діалог"
-    Additional Editing: "Додаткове редагування"
-    Additional Editorial Assistant: "Помічник додаткового редактора"
+    Additional Editing: "Додатковий монтаж"
+    Additional Editorial Assistant: "Помічник із додаткового монтажа"
     Additional Effects Development: "Помічник розробника ефектів"
     Additional Music: "Додаткова музика"
-    Additional Music Supervisor: "Додатковий музичний керівник"
+    Additional Music Supervisor: "Відповідальний за додаткову музику"
     Additional Photography: "Додатковий фотограф"
     Additional Soundtrack: "Додатковий саундтрек"
     Additional Writing: "Додатковий письменник"
@@ -1535,7 +1539,7 @@ uk-UA:
     Animation Manager: "Менеджер анімації"
     Animation Production Assistant: 
     Animation Supervisor: "Відповідальний за анімацію"
-    Animatronic and Prosthetic Effects: 
+    Animatronic and Prosthetic Effects: "Аніматроничні та протезні ефекти"
     Archival Footage Coordinator: "Координатор по архівним матеріалам"
     Archival Footage Research: "Дослідження архівних матеріалів"
     Armorer: "Зброяр"
@@ -1547,42 +1551,42 @@ uk-UA:
     Assistant Costume Designer: "Помічник художника по костюмам"
     Assistant Director: "Помічник режисеру"
     Assistant Editor: "Помічник монтажера"
-    Associate Choreographer: "Помічник хореографа"
-    Associate Producer: "Помічник продюсера"
+    Associate Choreographer: "Асоційований хореограф"
+    Associate Producer: "Асоційований продюсер"
     Author: "Автор"
     Background Designer: 
     Battle Motion Coordinator: "Координатор по батальним сценам"
-    Best Boy Electric: 
-    Best Boy Electrician: 
+    Best Boy Electric: "Молодший освітлювач"
+    Best Boy Electrician: "Молодший освітлювач"
     Book: "Книга"
-    Boom Operator: 
-    CG Engineer: 
-    CG Painter: 
-    CG Supervisor: 
-    CGI Supervisor: 
+    Boom Operator: "Імітатор шуму"
+    CG Engineer: "Інженер комп'ютерної графіки"
+    CG Painter: "Художник комп'ютерної графіки"
+    CG Supervisor: "Керівник комп'ютерної графіки"
+    CGI Supervisor: "Керівник комп'ютерної графіки"
     Cableman: "Кабельник"
-    Cameo: 
+    Cameo: "Камео"
     Camera Department Manager: "Менеджер відділу камер"
-    Camera Intern: 
+    Camera Intern: "Внутрішня камера"
     Camera Operator: "Оператор"
     Camera Supervisor: 
     Camera Technician: 
-    Carpenter: 
+    Carpenter: "Тесляр"
     Casting: "Кастинг"
-    Casting Associate: 
+    Casting Associate: "Асоційовані актори"
     Character Technical Supervisor: 
     Characters: "Персонажі"
     Chef: "Шеф"
-    Chief Technician / Stop-Motion Expert: 
-    Choreographer: 
+    Chief Technician / Stop-Motion Expert: "Головний технік / Експерт стоп-кадру"
+    Choreographer: "Хореограф"
     Cinematography: "Кінематографія"
     Cloth Setup: 
     Co-Art Director: 
     Co-Costume Designer: "Художник по костюмам"
     Co-Executive Producer: "Співвиконавчий продюсер"
-    Co-Producer: 
+    Co-Producer: "Співпродюсер"
     Co-Writer: "Співавтор сценарію"
-    Color Designer: 
+    Color Designer: "Колорист"
     Color Timer: 
     Comic Book: "Комікс"
     Commissioning Editor: 
@@ -1590,24 +1594,24 @@ uk-UA:
     Conceptual Design: 
     Construction Coordinator: 
     Construction Foreman: 
-    Consulting Producer: 
+    Consulting Producer: "Продюсер-консультант"
     Costume Design: "Дизайн костюмів"
     Costume Supervisor: 
     Craft Service: 
     Creative Consultant: 
-    Creative Producer: 
+    Creative Producer: "Креативний продюсер"
     Creator: 
-    Creature Design: 
-    Department Administrator: 
+    Creature Design: "Дизайнер істот"
+    Department Administrator: "Адміністратор відділу"
     Development Manager: "Менеджер по розвитку"
     Dialect Coach: "Тренер діалектів"
     Dialogue: "Діалог"
-    Dialogue Editor: "Редактор діалогів"
+    Dialogue Editor: "Монтажер діалогів"
     Digital Compositors: 
-    Digital Effects Supervisor: 
+    Digital Effects Supervisor: "Керівник цифрових ефектів"
     Digital Intermediate: 
-    Digital Producer: 
-    Directing Lighting Artist: 
+    Digital Producer: "Продюсер оцифровки"
+    Directing Lighting Artist: "Ведучий художник по освітленню"
     Director: "Режисер"
     Director of Photography: "Оператор"
     Documentation & Support: "Документація та Підтримка"
@@ -1619,23 +1623,23 @@ uk-UA:
     Editorial Manager: 
     Editorial Production Assistant: 
     Editorial Services: 
-    Editorial Staff: "Редакція"
+    Editorial Staff: "Монтажери"
     Electrician: "Електрик"
-    Executive Consultant: 
-    Executive In Charge Of Post Production: 
-    Executive In Charge Of Production: 
-    Executive Music Producer: 
+    Executive Consultant: "Виконавчий консультант"
+    Executive In Charge Of Post Production: "Виконавчий з питань пост-продакшена"
+    Executive In Charge Of Production: "Виконавчий з питань продакшена"
+    Executive Music Producer: "Виконавчий композитор"
     Executive Producer: "Виконавчий продюсер"
-    Executive Visual Effects Producer: 
+    Executive Visual Effects Producer: "Виконавчий продюсер візуальних ефектів"
     Executive in Charge of Finance: "Виконавчий директор із фінансових питань"
     Facial Setup Artist: 
     Finance: "Фінанси"
     First Assistant Camera: 
-    First Assistant Editor: "Перший помічник редактора"
-    First Assistant Sound Editor: "Перший помічник редактора звуку"
-    Fix Animator: 
-    Foley: 
-    Gaffer: 
+    First Assistant Editor: "Перший помічник монтажера"
+    First Assistant Sound Editor: "Перший помічник монтажера звуку"
+    Fix Animator: "Аніматор кінцевої обробки"
+    Foley: "Артист звукових ефектів"
+    Gaffer: "Головний освітлювач"
     Graphic Novel Illustrator: 
     Greensman: 
     Grip: 
@@ -1663,7 +1667,7 @@ uk-UA:
     Lighting Production Assistant: 
     Lighting Supervisor: 
     Lighting Technician: 
-    Line Producer: 
+    Line Producer: "Лінійний продюсер"
     Loader: 
     Location Manager: 
     Location Scout: 
@@ -1683,7 +1687,7 @@ uk-UA:
     Motion Capture Artist: 
     Music: "Музика"
     Music Director: 
-    Music Editor: "Музикальний редактор"
+    Music Editor: "Монтажер музики"
     Music Supervisor: 
     Musical: "Мюзикл"
     Novel: "Роман"
@@ -1697,7 +1701,7 @@ uk-UA:
     Picture Car Coordinator: 
     Poem: "Поема"
     Post Production Assistant: 
-    Post Production Consulting: 
+    Post Production Consulting: "Консультант з пост-продакшену"
     Post Production Supervisor: 
     Post-Production Manager: 
     Producer: "Продюсер"
@@ -1741,7 +1745,7 @@ uk-UA:
     Script Supervisor: 
     Sculptor: 
     Seamstress: "Швачка"
-    Second Film Editor: "Другий режисер"
+    Second Film Editor: "Другий монтажер"
     Second Unit: 
     Second Unit Cinematographer: 
     Security: "Охорона"
@@ -1803,11 +1807,11 @@ uk-UA:
     Stunt Double: 
     Stunts: 
     Stunts Coordinator: 
-    Supervising Animator: 
-    Supervising Art Director: 
-    Supervising Film Editor: 
-    Supervising Producer: 
-    Supervising Sound Editor: 
+    Supervising Animator: "Керівний аніматор"
+    Supervising Art Director: "Керівний арт-директор"
+    Supervising Film Editor: "Керівний монтажер"
+    Supervising Producer: "Керівний продюсер"
+    Supervising Sound Editor: "Керівний звукорежисер"
     Supervising Sound Effects Editor: 
     Supervising Technical Director: 
     Supervisor of Production Resources: 
@@ -1832,7 +1836,7 @@ uk-UA:
     Unit Publicist: 
     Utility Stunts: 
     VFX Artist: "Художник візуальних ефектів"
-    VFX Editor: "Режисер візуальних ефектів"
+    VFX Editor: "Монтажер візуальних ефектів"
     VFX Production Coordinator: "Координатор по випуску візуальних ефектів"
     VFX Supervisor: "Відповідальний за візуальні ефекти"
     Video Assist Operator: "Оператор відеосупроводу"
@@ -1842,7 +1846,7 @@ uk-UA:
     Visual Effects Art Director: "Художній керівник по візуальним ефектам"
     Visual Effects Coordinator: "Координатор візуальних ефектів"
     Visual Effects Design Consultant: "Консультант із проектування візуальних ефектів"
-    Visual Effects Editor: "Режисер візуальних ефектів"
+    Visual Effects Editor: "Монтажер візуальних ефектів"
     Visual Effects Producer: "Продюсер візуальних ефектів"
     Visual Effects Supervisor: "Відповідальний за візуальні ефекти"
     Vocal Coach: "Тренер вокалу"
@@ -2207,7 +2211,7 @@ uk-UA:
       blocked_users: "Заблоковані користувачі"
       connected_apps: "Приєднані додатки"
       delete_account: "Знищити цей обліковий запис"
-      edit_profile: 
+      edit_profile: "Редагувати профіль"
       import_list: 
       notification_settings: "Налаштування повідомлень"
       settings: 
