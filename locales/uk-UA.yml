@@ -316,7 +316,7 @@ uk-UA:
   Page: "Сторінка"
   Password: "Пароль"
   Password Confirm: "Підтвердження паролю"
-  People: "Люди"
+  People: "Персони"
   People Results: "Результат пошуку людей"
   Person: "Особа"
   Personal: "Персональне"
@@ -459,7 +459,7 @@ uk-UA:
   TV Show Watchlist: 
   TV Shows: "Серіали"
   TV Shows Airing Today: "Серіали сьогодні в ефірі"
-  Tagged People: "Помічені люди"
+  Tagged People: "Помічені персони"
   Tagline: "Слоган"
   Talk: "Обговорення"
   Talk Show: "Ток-шоу"
@@ -483,7 +483,7 @@ uk-UA:
   Trailers: "Трейлери"
   Translate Collection: "Переклад колекції"
   Translate Movie: "Переклад фільма"
-  Translate Person: "Переклад людини"
+  Translate Person: "Переклад персони"
   Translate TV Series: "Перекласти серіали"
   Translated Name: "Перекладена назва"
   Translated Overview: "Перекладений опис"
@@ -504,10 +504,10 @@ uk-UA:
   View: 
   View All Backdrops: "Переглянути всі світлини"
   View All Episode Images: 
-  View All Episodes: 
+  View All Episodes: "Переглянути всі епізоди"
   View All Posters: "Переглянути всі постери"
   View All Seasons: "Перелік усіх сезонів"
-  View All Videos: 
+  View All Videos: "Переглянути всі відео"
   View Discussions: 
   View Edit History: "Переглянути історію змін"
   View Episodes: "Переглянути серію"
@@ -550,7 +550,7 @@ uk-UA:
       media_types:
         movies: "Фільми"
         others: "Інше"
-        people: "Люди"
+        people: "Персони"
         tv: "Серіали"
       page_title:
         page_owner: "Моя остання активність"
@@ -614,19 +614,19 @@ uk-UA:
         logged_in: "Ви не вносили правок останнім часом."
         public: "%{username} не вносив правок останнім часом."
       empty_upcoming_watchlist:
-        logged_in: "Ваш список не містить фільмів, запланованих для перегляду"
+        logged_in: "(ваш список не містить фільмів, запланованих для перегляду)"
       empty_watched_genres:
-        logged_in: "Ви ще не оцінювали фільми або серіали."
+        logged_in: "(ще не оцінювали фільми або серіали)"
         public: "%{username} ще не має будь-яких фільмів або серіалів."
       goto_discussions: "Перейти до обговорень"
       goto_watchlist: Показати "Перегляну пізніше"
-      most_watched_genres: "Ви найбільше цікавились жанрами"
+      most_watched_genres: "Ви найбільше цікавились жанрами:"
       rating_overview: "Швидкий огляд оцінок"
       recent_activity: "Останні дії"
       recent_discussions: "Останні обговорення"
       total_edits: "Усього правок"
       total_ratings: "Усього оцінок"
-      upcoming_watchlist: Очікувані в "Перегляну пізніше"
+      upcoming_watchlist: 'Очікувані в "Перегляну пізніше":'
     page_title:
       page_owner: "Мій профіль"
       public: "Профіль учасника %{username}"
@@ -1239,11 +1239,11 @@ uk-UA:
       new_content_bible: "Інструкції щодо створення контенту"
     note: "УВАГА"
     people:
-      people: "Люди"
+      people: "Персони"
       people_bible: "Інструкції щодо людей"
       tall_bible:
         bottom: "Біблія"
-        top: "Люди"
+        top: "Персони"
     pro_tip: "Підказки"
     search:
       placeholder_1: "Чим можемо допомогти?"
@@ -1366,8 +1366,8 @@ uk-UA:
         support: "Підтримка"
         website_support: "Підтримка вебсайту"
     category:
-      last_reply_with_datetime: "%{date} об %{time}"
-      last_reply_with_datetime_and_username: "%{date} об %{time}<br>від %{username}"
+      last_reply_with_datetime: "%{date}, %{time}"
+      last_reply_with_datetime_and_username: "%{date}, %{time}<br>від %{username}"
     discussion_activity: "Участь в обговоренні"
     email_notifications:
       email_notifications: "Поштові повідомлення"
@@ -1413,12 +1413,12 @@ uk-UA:
         mark_as_spam: "Ви дійсно бажаєте позначити це обговорення як спам? Якщо це зробити, воно автоматично видалиться і не зможе бути відновлено. Маркування обговорень як спам допомагає покращити службу виявлення спаму, що ми використовуємо."
         report_violation: Будь ласка, підтвердіть, що хочете повідомити про порушення цим користувачем наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">community guidelines</a>.
         unhide_discussion: Натисканням "Так" це обговорення буде відновлено.
-      posted_by_with_datetime: "створено %{username} за %{date} об %{time}"
+      posted_by_with_datetime: "створено %{username} за %{date}, %{time}"
       quote: "Цитата"
       reopen_reply: "Відкрити наново та відповісти"
       reply: "Відповісти"
       reply_by: "Відповідь %{username}"
-      reply_on_datetime: "за %{date} об %{time}"
+      reply_on_datetime: "за %{date}, %{time}"
       report: "Звіт"
       unhide: "Показати приховані"
     report_violation: "Повідомити про порушення"
@@ -1962,7 +1962,7 @@ uk-UA:
       top_rated: "Рейтингові"
       upcoming: "Очікувані"
     people:
-      people: "Люди"
+      people: "Персони"
       popular_people: "Популярні"
     tv_shows:
       airing_today: "Сьогодні в ефірі"
@@ -2000,10 +2000,10 @@ uk-UA:
     tv: "Щоб отримувати персоналізовані рекомендації щодо серіалів, додайте свої улюблені серіали - всі, або більшість з них. На цьому етапі вам, напевно, буде рекомендовано багато серіалів, що вже бачили раніше. Щоб відфільтрувати такі серіали, оцініть їх!  Після того, як оцінили, вони будуть автоматично відфільтровані."
   no_rated_movies:
     current_user: "Ви не оцінили жодного фільму."
-    public: "Учасником %{username} ще не оцінювались фільми."
+    public: "Фільми ще не оцінювались учасником %{username}."
   no_rated_tv_shows:
     current_user: "Ви не оцінили ніякого серіалу."
-    public: "Учасником %{username} ще не оцінювались серіали."
+    public: "Серіали ще не оцінювались учасником %{username}."
   no_recommendations:
     movie: "Недостатньо даних, щоби порадити якісь фільми, схожі на %{title}. Ви можете допомогти, надавши оцінку фільмам, що бачили раніше."
     tv_show: "Недостатньо даних, щоби порадити якісь серіали, схожі на %{title}. Ви можете допомогти, надавши оцінку серіалам, що бачили раніше."
@@ -2134,7 +2134,7 @@ uk-UA:
     trending_searches: "Актуальні запити"
     watchlist_movie: Шукати серед фільмів у "Перегляну пізніше"...
     watchlist_tv: Шукати серед серіалів у "Перегляну пізніше"...
-  search_tip_1: "Порада: Ви можете використовувати 'y:' щоб звузити результати за роком. Приклад: 'зоряні війни y:1977'."
+  search_tip_1: "Щоб отримати результати за певний рік, додайте 'y:' латинську. Приклад: 'зоряні війни y:1977'."
   season_number_name: "Сезон %{season_number}"
   season_overview:
     already_aired: Сезон %{season_number} серіалу "%{show_name}", прем'єра якого була %{date}.
