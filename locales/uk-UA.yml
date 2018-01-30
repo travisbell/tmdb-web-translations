@@ -26,7 +26,7 @@ uk-UA:
   Add Item: "Додати елемент"
   Add Missing Cast & Crew: "Додати відсутнього актора або члена знім. групи"
   Add Network: "Додати телемережу"
-  Add New Episode: "Додати новий епізод"
+  Add New Episode: "Додати нову серію"
   Add New Movie: "Додати новий фільм"
   Add New Release: "Додати новий реліз"
   Add New Season: "Додати новий сезон"
@@ -165,7 +165,7 @@ uk-UA:
   Episode Images: "Зображення серії"
   Episode Number: "Номер серії"
   Episode Overview: "Огляд серії"
-  Episodes: "Епізоди"
+  Episodes: "Серії"
   Error: "Помилка"
   Example API Request: "Приклад API-запиту"
   Expand: "Розкрити"
@@ -285,7 +285,7 @@ uk-UA:
   Name: "Ім'я"
   Network: "Канал"
   New: "Нові"
-  New episode airs in: "Новий епізод виходить через"
+  New episode airs in: "Нова серія виходить через"
   News: "Новини"
   Next Episode: "Наступна серія"
   Next Season: "Наступний сезон"
@@ -355,7 +355,7 @@ uk-UA:
   Production Information: "Виробництво"
   Profiles: "Фото профілю"
   Public List?: 
-  Public Report?: "Публічний звіт"
+  Public Report?: "Звітувати публічно?"
   Quality: "Якість"
   Rank: 
   Rate It!: "Оцінити!"
@@ -503,7 +503,7 @@ uk-UA:
   Videos: "Відео"
   View: 
   View All Backdrops: "Переглянути всі світлини"
-  View All Episode Images: 
+  View All Episode Images: "Переглянути всі світлини епізоду"
   View All Episodes: "Переглянути всі епізоди"
   View All Posters: "Переглянути всі постери"
   View All Seasons: "Перелік усіх сезонів"
@@ -687,8 +687,8 @@ uk-UA:
   average edits per day: "у середньому правок за день"
   back_options:
     back: "Назад"
-    episode: "Повернутися до епізоду"
-    episode_list: "Повернутися до списка епізодів"
+    episode: "Повернутися до серії"
+    episode_list: "Повернутися до списка серій"
     home: "Додому"
     main: "На головну"
     season: "Повернутися до сезону"
@@ -1401,7 +1401,7 @@ uk-UA:
     post:
       delete: "Видалити"
       edit: "Змінити"
-      hide: "Сховати"
+      hide: "Приховати"
       ignore: "Ігнорувати"
       like: "Вподобати"
       messages:
@@ -1410,16 +1410,16 @@ uk-UA:
         hide_comment: Натисканням "Так" цей коментар буде приховано.
         hide_discussion: Натисканням "Так" це обговорення буде приховано.
         ignore_user: Ви впевнені, що хочете ігнорувати цього користувача надалі? Всі обговорення з ним і коментарі зникнуть. Ви можете зняти це блокування, перейшовши на сторінку "Заблоковані користувачі" в налаштуваннях вашого облікового запису.
-        mark_as_spam: "Ви дійсно бажаєте позначити це обговорення як спам? Якщо це зробити, воно автоматично видалиться і не зможе бути відновлено. Маркування обговорень як спам допомагає покращити службу виявлення спаму, що ми використовуємо."
+        mark_as_spam: "Ви дійсно бажаєте позначити це обговорення як спам? Якщо це зробити, воно автоматично видалиться і не може бути відновлено. Маркування обговорень як спам допомагає покращити службу виявлення спаму, що ми використовуємо."
         report_violation: Будь ласка, підтвердіть, що хочете повідомити про порушення цим користувачем наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">community guidelines</a>.
         unhide_discussion: Натисканням "Так" це обговорення буде відновлено.
       posted_by_with_datetime: "створено %{username} за %{date}, %{time}"
       quote: "Цитата"
       reopen_reply: "Відкрити наново та відповісти"
       reply: "Відповісти"
-      reply_by: "Відповідь %{username}"
+      reply_by: "Відповідь від %{username}"
       reply_on_datetime: "за %{date}, %{time}"
-      report: "Звіт"
+      report: "Поскаржитись"
       unhide: "Показати приховані"
     report_violation: "Повідомити про порушення"
     search:
@@ -1464,17 +1464,18 @@ uk-UA:
     many: "%{count} серій"
     one: "%{count} серія"
     other: "%{count} серій"
-  episode_number_name: "Епізод %{episode_number}"
+  episode_number_name: "Серія %{episode_number}"
   errors:
     messages:
       blank: "обов'язкове"
       inclusion: "повинне бути вибране"
       invalid: "не вірне"
       required: "повинен існувати"
+      suspected_tv_series: 
       taken: "вже прийнято"
   failed_email: "Не вдалося відправити ваш лист"
   failed_generic: "Виникла проблема"
-  failed_report: "Виникла проблема подання звіту"
+  failed_report: "Виникла проблема подання скарги"
   failed_sharing: "Виникла проблема при публікації вашого повідомлення."
   failed_validation: "Виникли помилки достовірності..."
   filter_by_release_date:
@@ -1486,9 +1487,9 @@ uk-UA:
       discussions: "Обговорення"
     tv_shows:
       episode_airs:
-        in_days: "Новий епізод транслюється через %{number_of_days} дн."
-        today: "Новий епізод транслюється сьогодні"
-        tomorrow: "Новий епізод транслюється завтра"
+        in_days: "Нова серія транслюється через %{number_of_days} дн."
+        today: "Нова серія транслюється сьогодні"
+        tomorrow: "Нова серія транслюється завтра"
   images:
     confirm_delete: "Впевнені, що хочете видалити це зображення?"
     upload_criteria:
@@ -1502,7 +1503,7 @@ uk-UA:
       '8': "Співвідношення сторін 16x9 (1.78:1)"
       '9': "Мінімальна роздільна здатність 300x450"
       backdrops_must_meet: "Світлини мають відповідати наступним критеріям:"
-      episode_stills_must_meet: "Епізод усе ще потребує узгодження з наступними критеріями:"
+      episode_stills_must_meet: "Серія все ще потребує узгодження з наступними критеріями:"
       posters_must_meet: "Постери обов'язково мають відповідати наступним критеріям: "
       profile_must_meet: "Обов'язкові вимоги до зображень для профіля:"
       read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднування зображень</a>.
@@ -1568,9 +1569,9 @@ uk-UA:
     Cameo: "Камео"
     Camera Department Manager: "Менеджер відділу камер"
     Camera Intern: "Внутрішня камера"
-    Camera Operator: "Оператор"
+    Camera Operator: "Кінооператор"
     Camera Supervisor: 
-    Camera Technician: 
+    Camera Technician: "Камеротехнік"
     Carpenter: "Тесляр"
     Casting: "Кастинг"
     Casting Associate: "Асоційовані актори"
@@ -1587,18 +1588,18 @@ uk-UA:
     Co-Producer: "Співпродюсер"
     Co-Writer: "Співавтор сценарію"
     Color Designer: "Колорист"
-    Color Timer: 
+    Color Timer: "Монтажер-колорист"
     Comic Book: "Комікс"
     Commissioning Editor: 
     Compositors: "Композитори"
-    Conceptual Design: 
+    Conceptual Design: "Концептуальний дизайн"
     Construction Coordinator: 
     Construction Foreman: 
     Consulting Producer: "Продюсер-консультант"
     Costume Design: "Дизайн костюмів"
-    Costume Supervisor: 
+    Costume Supervisor: "Костюмер"
     Craft Service: 
-    Creative Consultant: 
+    Creative Consultant: "Креативний консультант"
     Creative Producer: "Креативний продюсер"
     Creator: 
     Creature Design: "Дизайнер істот"
@@ -1655,7 +1656,7 @@ uk-UA:
     Imaging Science: 
     Information Systems Manager: "Менеджер інформаційних систем"
     Interior Designer: "Дизайнер інтер'єру"
-    Key Hair Stylist: 
+    Key Hair Stylist: "Головний стиліст зачісок"
     Layout: "Шар"
     Lead Painter: "Головний художник"
     Leadman: 
@@ -1669,13 +1670,13 @@ uk-UA:
     Lighting Technician: 
     Line Producer: "Лінійний продюсер"
     Loader: 
-    Location Manager: 
+    Location Manager: "Менеджер знімального майданчика"
     Location Scout: 
     Machinist: 
-    Makeup Artist: 
+    Makeup Artist: "Художник-гример"
     Makeup Department Head: 
     Makeup Designer: 
-    Makeup Effects: 
+    Makeup Effects: "Грим"
     Manager of Operations: "Операційний менеджер"
     Martial Arts Choreographer: 
     Master Lighting Artist: 
@@ -1687,7 +1688,7 @@ uk-UA:
     Motion Capture Artist: 
     Music: "Музика"
     Music Director: 
-    Music Editor: "Монтажер музики"
+    Music Editor: "Музикальний редактор"
     Music Supervisor: 
     Musical: "Мюзикл"
     Novel: "Роман"
@@ -1708,19 +1709,19 @@ uk-UA:
     Production Accountant: 
     Production Artist: 
     Production Controller: 
-    Production Coordinator: 
+    Production Coordinator: "Координатор зйомок"
     Production Design: "Художник-постановник"
     Production Director: 
     Production Illustrator: 
     Production Intern: 
-    Production Manager: 
+    Production Manager: "Менеджер зйомок"
     Production Office Assistant: 
     Production Office Coordinator: 
     Production Sound Mixer: 
     Production Supervisor: 
     Projection: 
     Prop Maker: 
-    Property Master: 
+    Property Master: "Реквізитор"
     Propmaker: 
     Prosthetic Supervisor: 
     Public Relations: 
@@ -1737,7 +1738,7 @@ uk-UA:
     Schedule Coordinator: "Координатор розкладу"
     Score Engineer: 
     Scoring Mixer: 
-    Screenplay: "Сценарій"
+    Screenplay: "Сценарист"
     Screenstory: 
     Script: 
     Script Coordinator: 
@@ -1803,10 +1804,10 @@ uk-UA:
     Story: 
     Storyboard: 
     Studio Teachers: 
-    Stunt Coordinator: 
-    Stunt Double: 
-    Stunts: 
-    Stunts Coordinator: 
+    Stunt Coordinator: "Координатор трюків"
+    Stunt Double: "Дублер-каскадер"
+    Stunts: "Каскадери"
+    Stunts Coordinator: "Керівник каскадерів"
     Supervising Animator: "Керівний аніматор"
     Supervising Art Director: "Керівний арт-директор"
     Supervising Film Editor: "Керівний монтажер"
@@ -1820,7 +1821,7 @@ uk-UA:
     Technical Supervisor: 
     Telecine Colorist: 
     Teleplay: "Телеспектакль"
-    Temp Music Editor: 
+    Temp Music Editor: "Музикальний редактор"
     Temp Sound Editor: 
     Thanks: "Дякуємо"
     Theatre Play: "Театральна вистава"
@@ -1837,7 +1838,7 @@ uk-UA:
     Utility Stunts: 
     VFX Artist: "Художник візуальних ефектів"
     VFX Editor: "Монтажер візуальних ефектів"
-    VFX Production Coordinator: "Координатор по випуску візуальних ефектів"
+    VFX Production Coordinator: "Координатор візуальних ефектів"
     VFX Supervisor: "Відповідальний за візуальні ефекти"
     Video Assist Operator: "Оператор відеосупроводу"
     Video Game: "Відеогра"
@@ -1937,11 +1938,11 @@ uk-UA:
     tv_episode:
       edit:
         screened_as_part_of_season: "Так. Як частина сезону"
-        screened_confirm: Якщо цей епізод показували на кінофестивалі або у кінотеатрі, натисніть "Так" для продовження.
-        screened_label: "Цей епізод показували у кінотеатрі?"
+        screened_confirm: Якщо цю серію показували на кінофестивалі або у кінотеатрі, натисніть "Так" для продовження.
+        screened_label: "Цю серію показували у кінотеатрі?"
     tv_season:
       edit:
-        create_episode: "Додати епізод"
+        create_episode: "Додати серію"
         screened_confirm: Якщо цей сезон був показаний на кінофестивалі чи в кінотеатрі, натисніть "Так" для продовження.
         screened_label: "Цей сезон був показаний у кінотеатрі?"
     tv_show:
@@ -1979,7 +1980,7 @@ uk-UA:
   no_crew: "Відсутні дані про команду, що знімала %{media_type}. Можете посприяти, додавши такі дані!"
   no_description: "Жодного опису не введено."
   no_director: "Не додано жодного директора."
-  no_episode_images: "Немає зображення до серії."
+  no_episode_images: "Немає зображень до серії."
   no_favorite_movies:
     current_user: "Ви ще не додали улюблених фільмів."
     public: "%{username} не має вподобаних фільмів."
