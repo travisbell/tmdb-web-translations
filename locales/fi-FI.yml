@@ -1433,7 +1433,7 @@ fi-FI:
     tooltips:
       bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
       homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
-      logo_format: 
+      logo_format: SVG- ja PNG-tiedostotyypit ovat tuettuja. SVG:tä suositellaan käytettäväksi, koska se ei ole resoluutiosta riippuvainen.
       original_title: Alkuperäinen nimi tulee olla nimikkeen alkuperäisellä kielellä. Yleensä tämä vastaa "alkuperäinen kieli"-kohdan asetusta.
       overview: Kuvausta kirjoittaessa, pyri pitämään se suppeana, tarkkana ja spoileri-vapaana.
       social_links: Sosiaalisen median tilit ovat ainoastaan virallisia (hyväksytty) sivuja varten. Fanisivut eivät ole sallittu.
@@ -1458,7 +1458,7 @@ fi-FI:
       inclusion: pitää olla valittu
       invalid: ei kelpaa
       required: pitää olla olemassa
-      suspected_tv_series: 
+      suspected_tv_series: epäillään olevan jo lisätty TV-sarja tai minisarja. Voit jatkaa sen lisäämistä mikäli olet varma, mutta se poistetaan mikäli se on lisätty jo aikaisemmin
       taken: on jo valittu
   failed_email: Sähköpostisi lähettäminen epäonnistui.
   failed_generic: Ilmeni ongelma.
@@ -1876,11 +1876,11 @@ fi-FI:
       tv_page_title: "%{name} TV-sarjoissa"
     images:
       format: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
-      primary: 
+      no_backdrops: Tälle nimikkeelle ei ole lisätty yhtään taustaa.
+      no_logos: Tälle nimikkeelle ei ole lisätty yhtään logoa.
+      no_posters: Tälle nimikkeelle ei ole lisätty yhtään julistetta.
+      no_profiles: Tälle nimikkeelle ei ole lisätty yhtään profiilia.
+      primary: Ensisijainen?
     keyword:
       movie_page_title: "%{name} Elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
@@ -1896,14 +1896,14 @@ fi-FI:
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
     network:
       edit:
-        alternative_names: 
-        logos: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
+        alternative_names: Vaihtoehtoiset nimet
+        logos: Logot
+        primary_facts: Ensisijaiset tiedot
+        upload_logo: Lisää logo
+      logos: Logot
+      name: Nimi
       tv_page_title: TV-sarjat kanavalla %{name}
-      upload_logo: 
+      upload_logo: Lisää logo
     number_of_movies:
       one: "%{count} elokuva"
       other: "%{count} elokuvaa"
