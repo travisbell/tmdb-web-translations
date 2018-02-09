@@ -15,6 +15,7 @@ module TMDb
 
       def self.default_mapping
         { 'ar' => 'ar-SA',
+          'be' => 'be-BY',
           'bg' => 'bg-BG',
           'bn' => 'bn-BD',
           'ca' => 'ca-ES',
