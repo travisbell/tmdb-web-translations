@@ -1433,7 +1433,7 @@ zh-TW:
     tooltips:
       bible: "有關編輯 TMDb 資訊，若需要幫助請點擊 '?' 按鈕"
       homepage: "僅開放官方網站登錄，不包含粉絲專頁"
-      logo_format: 
+      logo_format: "支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。"
       original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合"
       overview: "撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。"
       social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業"
@@ -1456,7 +1456,7 @@ zh-TW:
       inclusion: "必須選擇"
       invalid: "是無效的"
       required: "必須存在"
-      suspected_tv_series: 
+      suspected_tv_series: "本影片似乎存在於本電影資料庫中，若您確認無誤後仍可繼續執行添加。若未來發現已有相同影片時，本影片將會被系統所刪除。"
       taken: "已被使用"
   failed_email: "郵件傳送錯誤"
   failed_generic: "發生了問題"
@@ -1873,12 +1873,12 @@ zh-TW:
       movie_page_title: "%{name} 的電影"
       tv_page_title: "%{name} 的電視影集"
     images:
-      format: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
-      primary: 
+      format: "格式"
+      no_backdrops: "此項目尚未添加背景圖片"
+      no_logos: "此項目尚未添加標誌"
+      no_posters: "此項目尚未添加海報"
+      no_profiles: "此項目尚未添加簡介"
+      primary: "設定為主要圖片？"
     keyword:
       movie_page_title: '"%{name}" 的電影'
       tv_page_title: '"%{name}" 的電視影集'
@@ -1894,14 +1894,14 @@ zh-TW:
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
     network:
       edit:
-        alternative_names: 
-        logos: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
+        alternative_names: "替代名稱"
+        logos: "標誌"
+        primary_facts: "主要事實"
+        upload_logo: "更新標誌"
+      logos: "標誌"
+      name: "名稱"
       tv_page_title: "在 %{name} 上的電視影集"
-      upload_logo: 
+      upload_logo: "更新標誌"
     number_of_movies:
       one: "%{count} 部電影"
       other: "%{count} 部電影"
