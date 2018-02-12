@@ -1,6 +1,6 @@
 de-DE:
-  "-": "-"
-  3rd Party Applications: Drittanbieter Anwendungen
+  "-": "—"
+  3rd Party Applications: Anwendungen von Drittanbietern
   API: API
   API Access Token: API Zugangsschlüssel
   API Details: API Details
@@ -16,7 +16,7 @@ de-DE:
   Accept: Akzeptieren
   Accept API Terms: API Nutzungsbedingungen akzeptieren
   Account: Konto
-  Account Filtering: Konto-Filterung
+  Account Filtering: Konto-Filter
   Add Alternative Name: Alternativname hinzufügen
   Add Alternative Title: Alternativtitel hinzufügen
   Add Backdrop: Hintergrund hinzufügen
@@ -26,7 +26,7 @@ de-DE:
   Add Item: Eintrag hinzufügen
   Add Missing Cast & Crew: Fehlende Darsteller und Crew hinzufügen
   Add Network: Sender hinzufügen
-  Add New Episode: Episode hinzufügen
+  Add New Episode: Folge hinzufügen
   Add New Movie: Film hinzufügen
   Add New Release: Veröffentlichung hinzufügen
   Add New Season: Staffel hinzufügen
@@ -59,7 +59,7 @@ de-DE:
   Alternative Titles: Alternativtitel
   Apiary Documentation: Apiary Dokumentation
   App Directory: Applikationsverzeichnis
-  App Showcase: 
+  App Showcase: App Showcase
   Application Description: Applikationsbezeichnung
   Application Name: Anwendungsname
   Application Summary: Anwendungsbeschreibung
@@ -163,9 +163,9 @@ de-DE:
   Email Content: Inhalt mailen
   Ended: Beendet
   Episode Images: Episodenbilder
-  Episode Number: Episodennummer
-  Episode Overview: Episodenhandlung
-  Episodes: Episoden
+  Episode Number: Episode Nummer
+  Episode Overview: Zusammenfassung dieser Folge
+  Episodes: Folgen
   Error: Fehler
   Example API Request: Beispielhafte API Anfrage
   Expand: Zoom
@@ -285,9 +285,9 @@ de-DE:
   Name: Name
   Network: Sender
   New: Neu
-  New episode airs in: Nächste Episode wird ausgestrahlt in
+  New episode airs in: Neue Folge erscheint in
   News: 
-  Next Episode: Nächste Episode
+  Next Episode: Nächste Folge
   Next Season: Nächste Staffel
   'No': Nein
   None: Kein
@@ -531,17 +531,17 @@ de-DE:
   Zip Code: PLZ
   account_drop_down:
     discussions: Diskussionen
-    edit_profile: Profil editieren
+    edit_profile: Profil bearbeiten
     lists: Listen
     login: Anmelden
     logout: Abmelden
     settings: Einstellungen
     sign_up: Registrieren
     view_profile: Profil ansehen
-    watchlist: Watchlist
+    watchlist: Beobachtungsliste
   accounts:
     activity:
-      activity: Aktivität
+      activity: Aktivitäten
       legend:
         added: Hinzugefügt
         created: Erstellt
@@ -549,43 +549,43 @@ de-DE:
         updated: Aktualisiert
       media_types:
         movies: Filme
-        others: 
+        others: Andere
         people: Personen
         tv: TV
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine letzte Aktivität
+        public: Letzte Aktivität von %{username}
       table:
-        action: 
+        action: Aktion
         edit: Editieren
-        key: 
+        key: Schlüssel
         language_abbreviation: Sprache
     average_movie_score: Durchschnittliche<br>Filmbewertung
     average_tv_score: Durchschnittliche<br>Serienbewertung
     discussions:
       my_active_boards: Meine Forumaktivität
-      my_discussions: Meine Themen
-      not_watching: Du hast keine Themen abonniert.
+      my_discussions: Meine Diskussionen
+      not_watching: Du hast zurzeit keine Diskussionen abonniert.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine Diskussionen
+        public: Diskussionen von %{username}
     favorites:
       my_favorites:
         logged_in: Meine Favoriten
         public: Favoriten von %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine Favoriten
+        public: Favoriten von %{username}
     filter_by: 'Gefiltert nach:'
     filters:
-      date_added: 
-      date_rated: Bewertungsdatum
+      date_added: Hinzugefügt am
+      date_rated: Bewertet am
       my_rating: Meine Bewertung
-      popularity: Popularität
-      rating: 
+      popularity: Beliebtheit
+      rating: Bewertung
       release_date: Veröffentlichung
       score: Bewertung
-      upcoming: Demnächst
+      upcoming: In Kürze
     lists:
       create_list: Liste erstellen
       last_updated: Aktualisiert
@@ -596,8 +596,8 @@ de-DE:
         logged_in: Du hast noch keine Listen erstellt.
         public: "%{username} teilt keine öffentlichen Listen."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine Listen
+        public: Listen von %{username}
     member_since: Mitglied seit %{date}
     navigation:
       discussions: Diskussionen
@@ -616,8 +616,8 @@ de-DE:
       empty_upcoming_watchlist:
         logged_in: Es gibt keine Filme in deiner Watchlist die demnächst erscheinen.
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: Du hast keine Filme oder TV-Sendungen gespeichert.
+        public: "%{username} hat bisher keine Filme oder TV-Sendungen gespeichert."
       goto_discussions: Gehe zu Diskussionen
       goto_watchlist: Gehe zur Watchlist
       most_watched_genres: Am meisten angesehene Genres
@@ -628,8 +628,8 @@ de-DE:
       total_ratings: Bewertungen
       upcoming_watchlist: Filme aus Watchliste die bald erscheinen
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Mein Profil
+      public: Profil von %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Meine Bewertungen
@@ -638,48 +638,52 @@ de-DE:
         logged_in: Meine Rezessionen
         public: Rezessionen von %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine Bewertungen & Rezensionen
+        public: Bewertungen & Rezensionen von %{username}
       ratings_by_year: Bewertungen nach Jahr
     recommendations:
       my_recommendations: Meine Empfehlungen
       no_recommendations: Wir haben nicht genug Daten um dir Empfehlungen anzubieten.
-      no_recommendations_helper: 
-      page_title: 
+      no_recommendations_helper: Füge weitere Favoriten (je mehr, desto besser) hinzu und schaue, was sich inzwischen getan hat.
+      page_title: Empfehlungen
     tips:
       import_imdb_ratings: Du kannst deine Bewertungen von IMDb importieren.
       tip: Tipp
     watchlist:
       my_watchlist: Meine Watchliste
       next_month: Nächsten Monat
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        one: Es gibt keine Filme in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält nur %{count} Objekt.
+        other: Es gibt keine Filme in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält insgesamt %{count} Objekte.
+      no_upcoming_tv_shows:
+        one: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält nur %{count} Objekt.
+        other: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält insgesamt %{count} Objekte.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Meine Beobachtungsliste
+        public: Beobachtungsliste von %{username}
       this_month: Diesen Monat
       this_week: Diese Woche
       view_them: Elemente anzeigen.
   add_to_list: "%{media_title} zu einer deiner Listen hinzufügen..."
   already_translated_in: "%{page_title} wurde bereits für folgende Sprachen übersetzt..."
   api_session:
-    approved_session: Du hast %{application_name} berechtigt. Du kannst dieses Fenster jetzt schliessen.
-    continue: Klicke zum Fortfahren auf die Schaltfläche unten. Zum abbrechen kannst du das Fenster einfach schliessen.
+    approved_session: Die Berechtigung für %{application_name} wurde gespeichert. Du kannst dieses Fenster jetzt schließen.
+    continue: Klicke auf die Schaltfläche „Bestätigen”, um fortzufahren oder schließe dieses Fenster, um abzubrechen.
   attributes:
-    biography: Biographie
+    biography: Biografie
     certification: Altersfreigabe
     external_href: URL
-    homepage: 
+    homepage: Website
     iso_3166_1: Land
     iso_639_1: Sprache
-    normalized_email: 
+    normalized_email: E-Mail
     normalized_username: Benutzername
     overview: "Übersicht"
     title: Titel
   average edits per day: durchschnittliche Beiträge pro Tag
   back_options:
-    back: 
-    episode: Zurück zur Episode
+    back: Zurück
+    episode: Zurück zur Folge
     episode_list: Zurück zur Episodenliste
     home: Zurück zur Startseite
     main: Zurück zur Hauptseite
@@ -688,7 +692,7 @@ de-DE:
     to_tmdb: Zurück zu TMDb
     top: Zurück nach oben
   certifications:
-    meaning: 
+    meaning: Bedeutung
     movies:
       AU:
         '1':
@@ -724,49 +728,49 @@ de-DE:
         '2':
           meaning: Nicht geeignet für Minderjährige unter 10 Jahren. Gewalttätige Inhalte oder unangemessene Sprache für Kinder nicht ausgeschlossen.
         '3':
-          meaning: 
+          meaning: Nicht empfohlen für Kinder unter 12 Jahren. Szenen können körperliche Gewalt, Konsum legaler Drogen und sexuelle Handlungen zeigen.
         '4':
-          meaning: 
+          meaning: Nicht empfohlen für Jugendliche unter 14 Jahren. Vermehrte Gewalt-, Sex- und/oder Nacktszenen
         '5':
-          meaning: 
+          meaning: Nicht empfohlen für Jugendliche unter 16 Jahren. Szenen über Herstellung, Handel und/oder Gebrauch illegaler Drogen, realen Sex. sexuelle Gewalt, Abtreibung, Misshandlung, Verstümmelung, Selbstmord, Verharmlosung von Gewalt und Todesstrafe.
         '6':
-          meaning: 
+          meaning: Nicht empfohlen für Jugendliche unter 18 Jahren. Szenen über harten Sex, Inzest, Pädophilie, Verherrlichung illegaler Drogen und Gewalt in verstörenden Bildern.
       CA:
         '1':
-          meaning: 
+          meaning: Ohne Altersbeschränkung.
         '2':
-          meaning: 
+          meaning: Elterliche Überwachung empfohlen. Es gibt keine Altersbeschränkung, dennoch könnten einige Szenen nicht für Kinder geeignet sein.
         '3':
-          meaning: 
+          meaning: Personen unter 14 Jahren nur in Begleitung eines Erwachsenen.
         '4':
-          meaning: 
+          meaning: 'Personen unter 18 Jahren nur in Begleitung eines Erwachsenen. Maritimes & Manitoba: für Kinder unter 14 Jahren verboten.'
         '5':
-          meaning: 
+          meaning: Freigabe nur für Personen über 18 Jahren. Zentrale Themen des Films sind die Darstellung von hartem Sex und/oder intensiver Gewalt.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Keine Informationen zur Freigabe..
         '1':
-          meaning: 
+          meaning: Allgemeine Freigabe - Kann von Personen aller Altersstufen angesehen, gemietet oder gekauft werden. Filme mit der Freigabe „G”, die Kinder unter 8 Jahren gefährden könnten, tragen den Zusatz „Nicht geeignet für Kleinkinder”.
         '2':
-          meaning: 
+          meaning: 13 Jahre und älter - Kann von Jugendlichen über 13 Jahren angesehen, gemietet oder gekauft werden. Freigabe für Kinder unter 13 Jahren nur in Begleitung eines Erwachsenen.
         '3':
-          meaning: 
+          meaning: 16 Jahre und älter - Kann von Jugendlichen über 16 Jahren angesehen, gemietet oder gekauft werden.
         '4':
-          meaning: 
+          meaning: 18 Jahre und älter - Kann von Erwachsenen über 18 Jahren angesehen, gemietet oder gekauft werden. Filme, die realen und harten Sex zeigen, tragen den Zusatz „Harte Sexszenen” und dürfen in Läden nur in einem für Erwachsene reservierten Bereich ausgelegt werden..
       DE:
         '1':
-          meaning: 
+          meaning: Ohne Altersbeschränkung.
         '2':
-          meaning: 
+          meaning: Keine Freigabe für Kinder unter 6 Jahren.
         '3':
-          meaning: 
+          meaning: Freigabe für Jugendliche über 12 Jahren, Kinder zwischen 6 und 11 Jahren nur in Begleitung eines Elternteils oder gesetzlichen Vormunds.
         '4':
-          meaning: 
+          meaning: Freigabe nur für Jugendliche über 16 Jahren, darunter keine Freigabe.
         '5':
-          meaning: 
+          meaning: Keine Jugendfreigabe, nur Erwachsene.
       DK:
         '0':
-          meaning: 
+          meaning: Keine Informationen zur Freigabe..
         '1':
           meaning: 
         '2':
@@ -811,12 +815,12 @@ de-DE:
         '3':
           meaning: 
         '4':
-          meaning: 
+          meaning: "(Interdit aux moins de 16 ans) Keine Freigabe für Jugendliche unter 16 Jahren oder verboten in Kinos für unter 16-jährige."
         '5':
-          meaning: 
+          meaning: "(Interdit aux mineurs) Keine Freigabe für Jugendliche unter 18 Jahren oder verboten in Kinos für unter 18-jährige."
       GB:
         '1':
-          meaning: 
+          meaning: Ohne Altersbeschränkung, keine Gefährdung für Kinder.
         '2':
           meaning: 
         '3':
@@ -853,7 +857,7 @@ de-DE:
           meaning: 
       MY:
         '0':
-          meaning: 
+          meaning: Keine Informationen zur Freigabe.
         '1':
           meaning: 
         '2':
@@ -868,7 +872,7 @@ de-DE:
           meaning: 
       NL:
         '1':
-          meaning: 
+          meaning: Ohne Altersbeschränkung.
         '2':
           meaning: 
         '3':
@@ -881,7 +885,7 @@ de-DE:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Geeignet für alle Altersstufen.
         '2':
           meaning: 
         '3':
@@ -894,7 +898,7 @@ de-DE:
           meaning: 
       NZ:
         '1':
-          meaning: 
+          meaning: Geeignet für alle Altersstufen.
         '2':
           meaning: 
         '3':
@@ -911,7 +915,7 @@ de-DE:
           meaning: 
       PH:
         '1':
-          meaning: 
+          meaning: Ohne Altersbeschränkung. Freigabe für Zuschauer aller Altersstufen.
         '2':
           meaning: 
         '3':
@@ -921,7 +925,7 @@ de-DE:
         '5':
           meaning: 
         '6':
-          meaning: 
+          meaning: Nicht zur öffentlichen Vorführung. Filme mit der Freigabe „X” sind nicht geeignet für die öffentliche Vorführung.
       PT:
         '1':
           meaning: 
@@ -952,7 +956,7 @@ de-DE:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: Keine Informationen zur Freigabe.
         '1':
           meaning: 
         '2':
@@ -1170,18 +1174,18 @@ de-DE:
   collection_includes: Weitere Filme sind %{movie_titles}
   confirm_delete: Soll dieser Eintrag wirklich gelöscht werden?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: Der „Content-Score” gibt Auskunft über die Vollständigkeit eines Datensatzes in der Datenbank.
     scale:
-      '0': 
-      '1': 
-      '10': 
+      '0': Fange irgendwo an...
+      '1': Hey, es geht los.
+      '10': Jawohl! Das sieht gut aus!
       '2': Wir kommen voran.
       '3': Gut Ding will Weile haben...
-      '4': 
+      '4': Ein Team kennt kein „Ich”...
       '5': Es braucht noch etwas Arbeit.
-      '6': 
-      '7': 
-      '8': 
+      '6': Wir sind nah dran und doch noch weit entfernt.
+      '7': Noch ein bisschen mehr...
+      '8': Durchhalten! Wir sind fast fertig.
       '9': Fast geschafft.
   contribute:
     contribute: Mitwirken
@@ -1192,7 +1196,7 @@ de-DE:
     movies_missing_a_overview: Filme mit fehlender Handlung
     movies_missing_a_poster: Filme mit fehlendem Poster
     movies_missing_a_title: Filme mit fehlendem Titel
-    page_title: 
+    page_title: Ergänze fehlende Daten
     selected_language: Ausgewählte Sprache
     tv_missing_a_backdrop: Serien mit fehlendem Hintergrundbild
     tv_missing_a_poster: Serien mit fehlendem Poster
@@ -1201,42 +1205,42 @@ de-DE:
     tv_shows_missing_a_overview: Serien mit fehlender Handlung
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      collection: col
+      image: img
+      movie: mov
+      people: ppl
+      tv: tv
     collection:
-      collection: 
-      collection_bible: 
+      collection: Sammlungen
+      collection_bible: Sammlungsfibel
       tall_bible:
         bottom: 
         top: 
-    contribution_bible: 
-    featured_articles: 
+    contribution_bible: Bearbeitungsfibel
+    featured_articles: Hervorgehobene Artikel
     general:
-      general: 
-      general_bible: 
+      general: Allgemein
+      general_bible: Allgemeine Fibel
     image:
-      image: 
-      image_bible: 
+      image: Bilder
+      image_bible: Bildfibel
     movie:
-      movie: 
-      movie_bible: 
+      movie: Filme
+      movie_bible: Filmfibel
       tall_bible:
         bottom: 
         top: 
     new_content:
-      new_content: 
+      new_content: Neue Inhalte
       new_content_bible: 
-    note: 
+    note: Notiz
     people:
       people: 
       people_bible: 
       tall_bible:
         bottom: 
         top: 
-    pro_tip: 
+    pro_tip: Extra-Tipp
     search:
       placeholder_1: 
     tv:
@@ -1245,8 +1249,8 @@ de-DE:
         top: 
       tv: 
       tv_bible: 
-    welcome_1: 
-    welcome_2: 
+    welcome_1: Willkommen in der
+    welcome_2: Bearbeitungsfibel
   date:
     abbr_day_names:
     - So
@@ -1322,8 +1326,8 @@ de-DE:
     actions:
       actions: Themen-Optionen
       close_discussion: Schließen
-      make_private: 
-      make_public: 
+      make_private: Auf „Privat” setzen
+      make_public: Auf „Öffentlich” setzen
       mark_spam: Als Spam markieren
       reopen_discussion: Thema wieder öffnen
       stop_watching: Abonnement beenden
@@ -1361,13 +1365,13 @@ de-DE:
       unsubscribe: Abmelden
     headers:
       discuss: Diskussionen
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
-    login_to_be_notified: 
+      discuss_item: "Über %{item_title} diskutieren"
+      lets_chat: Jetzt chatten
+      support: Unterstützung
+      support_title: Unterstützung für The Movie Database
+    login_to_be_notified: Melde Dich an, um Dich über den ersten Beitrag benachrichtigen zu lassen.
     new_discussion:
-      community_guidelines: 
+      community_guidelines: Community Richtlinien
       discussion_category: Kategorie
       for_item: Für Eintrag
       new_discussion: Neues Thema
@@ -1377,7 +1381,9 @@ de-DE:
       post_summary:
         one: "%{count} Antwort (Seite %{current_page} von %{total_pages})"
         other: "%{count} Antworten (Seite %{current_page} von %{total_pages})"
-      summary: 
+      summary:
+        one: Nur %{count} Diskussion, Seite %{current_page} von %{total_pages}
+        other: Insgesamt %{count} Diskussionen, Seite %{current_page} von %{total_pages}
     post:
       delete: Löschen
       edit: Editieren
@@ -1385,17 +1391,17 @@ de-DE:
       ignore: Ignorieren
       like: Gefällt mir
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
-        hide_discussion: 
-        ignore_user: 
-        mark_as_spam: 
+        delete_comment: Klicke auf „Ja”, um diesen Kommentar unwiderruflich zu löschen.
+        delete_discussion: Klicke auf „Ja”, um diese Diskussion unwiderruflich zu löschen.
+        hide_comment: Klicke auf „Ja”, um diesen Kommentar auszublenden.
+        hide_discussion: Klicke auf „Ja”, um diese Diskussion auszublenden.
+        ignore_user: Möchtest Du diesen Benutzer wirklich sperren? Alle Diskussionen und Kommentare des Benutzers werden ausgeblendet. Du kannst die Sperre auf der Seite „Gesperrte Benutzer” in Deinen Konto-Einstellungen aufheben.
+        mark_as_spam: Möchtest Du diese Diskussion wirklich als Spam melden? Die Diskussion wird danach automatisch und unwiderruflich gelöscht. Spam-Meldungen helfen uns bei der Verbesserung unseres Spam-Filters.
         report_violation: 
         unhide_discussion: 
       posted_by_with_datetime: Verfasst von %{username} am %{date} um %{time}
       quote: Zitat
-      reopen_reply: 
+      reopen_reply: Erneut öffnen & Antworten
       reply: Antworten
       reply_by: Antwort von %{username}
       reply_on_datetime: am %{date} um %{time}
@@ -1404,9 +1410,9 @@ de-DE:
     report_violation: Verstoß melden
     search:
       advanced_search: Erweiterte Suche
-      search_closed: 
+      search_closed: Suche geschlossen?
       search_forums: Forum durchsuchen...
-      search_open: 
+      search_open: Suche offen?
     statuses:
       closed: Geschlossen
       open: Offen
@@ -1416,42 +1422,42 @@ de-DE:
       status: Status
       subject: Thema
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Keine Abonnenten
+      users_in_discussion: Benutzer in dieser Diskussion
     your_account: Dein Konto
   dont_fallback: Keine (Kein Fallback)
   edit:
-    page_title: 
+    page_title: "%{name} bearbeiten"
     tooltips:
-      bible: 
+      bible: Hilfe zur Bearbeitung von Informationen auf TMDb findest Du in der Bearbeitungsfibel, klicke einfach auf „?”.
       homepage: Nur offizielle Homepages. Fanseiten sind nicht gestattet.
-      logo_format: 
+      logo_format: Die Bildformate „SVG” und „PNG” werden unterstützt. Wir bevorzugen „SVG” als von der Auflösung unabhängiges Vektorformat.
       original_title: Der Originaltitel soll in der Originalsprache eingetragen werden. Häufig ist diese Sprache identisch mit der Originalsprache.
       overview: Die Handlung soll mit prägnanten und präzisen Formulierungen und vor allem ohne Spoiler beschrieben werden.
-      social_links: 
+      social_links: Soziale Links sind nur auf offizielle (bestätigte) Seiten gestattet. Links auf Fan-Seiten sind nicht erlaubt.
   edit_list:
-    add_edit_items: Eintrag hinzufügen/editieren
+    add_edit_items: Einträge hinzufügen/bearbeiten
     choose_image: Bild auswählen
     delete_list: Liste löschen
-    edit_list: Liste editieren
+    edit_list: Liste bearbeiten
   edits: Beiträge
   email:
-    confirm_new_email_address: Neue E-Mail Adresse bestätigen
-    does_not_match: Die E-Mail Adressen stimmen nicht überein.
-    new_email_address: Neue E-Mail Adresse
-    sent_verification_email: 
+    confirm_new_email_address: Neue E-Mail-Adresse bestätigen
+    does_not_match: Die E-Mail-Adressen stimmen nicht überein, bitte versuche es noch einmal.
+    new_email_address: Neue E-Mail-Adresse
+    sent_verification_email: Wir haben soeben eine Bestätigung an %{email_address} versandt. Bitte überprüfe Deinen Posteingang (und gegebenenfalls den Spam-Ordner) und folge den Anweisungen in der E-Mail.
   episode_count:
     one: "%{count} Episode"
     other: "%{count} Episoden"
   episode_number_name: Folge %{episode_number}
   errors:
     messages:
-      blank: wird benötigt
+      blank: ist erforderlich
       inclusion: muss ausgewählt werden
       invalid: ist ungültig
       required: muss vorhanden sein
-      suspected_tv_series: 
-      taken: ist bereits in Verwendung
+      suspected_tv_series: scheint eine vorhandene TV-Serie oder Miniserie zu sein. Du kannst die Bearbeitung dieses Objekts fortsetzen, es wird jedoch entfernt, falls es in unserem TV-Bereich bereits existiert.
+      taken: wird bereits verwendet
   failed_email: Deine E-Mail konnte nicht gesendet werden.
   failed_generic: Es trat ein Fehler auf.
   failed_report: Es trat ein Fehler beim Senden deines Berichts auf.
@@ -1462,54 +1468,54 @@ de-DE:
     min: Nach Veröffentlichung filtern (Min)
   homepage:
     discussions:
-      catch_up_now: 
-      discussions: 
+      catch_up_now: Jetzt verfolgen.
+      discussions: Diskussionen
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Neue Folge erscheint in %{number_of_days}
+        today: Neue Folge erscheint heute
+        tomorrow: Neue Folge erscheint morgen
   images:
-    confirm_delete: 
+    confirm_delete: Möchtest Du dieses Bild wirklich löschen?
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      '1': Eine maximale Auflösung von 2000x3000 Pixel
+      '2': Eine Mindestauflösung von 500x750 Pixel
+      '3': Seitenverhältnis 1:1,5 (2:3)
+      '4': Eine maximale Auflösung von 3840x2160 Pixel
+      '5': Eine Mindestauflösung von 400x225 Pixel
+      '6': Bilder im Seitenverhältnis 16:9 (1,78:1) und 4:3 werden unterstützt
+      '7': Eine Mindestauflösung von 1280x720 Pixel
+      '8': Seitenverhältnis 16:9 (1,78:1)
+      '9': Eine Mindestauflösung von 300x450 Pixel
+      backdrops_must_meet: 'Hintergrundbilder müssen die folgenden Kriterien erfüllen:'
+      episode_stills_must_meet: 'Fotos von Filmszenen müssen die folgenden Kriterien erfüllen:'
+      posters_must_meet: 'Cover müssen den folgenden Kriterien entsprechen:'
+      profile_must_meet: 'Profilbilder müssen die folgenden Kriterien erfüllen:'
+      read_guidelines: Mache Dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Bild-Richtlinien</a> vertraut
+      tip: Ziehe ein Bild auf die Fläche unterhalb, falls Dein Browser „Drag and Drop” unterstützt. Ansonsten klicke einfach auf die Schaltfläche „Dateien auswählen” und wähle ein Bild aus.
   invalid_aspect_ratio: Seitenverhältnis unzulässig.
   item_count: 
   jobs:
-    24 Frame Playback: 
-    3D Director: 3D Regisseur
-    3D Supervisor: 
+    24 Frame Playback: Wiedergabe mit 24 Bildern/Sek.
+    3D Director: 3D Regie
+    3D Supervisor: 3D Redaktion
     ADR & Dubbing: Nachvertonung & Synchronisation
-    Actor: Darsteller
-    Actor's Assistant: Persönlicher Assistent
+    Actor: Darsteller(in)
+    Actor's Assistant: Persönliche(r) Assistent(in)
     Adaptation: Adaption
     Additional Camera: Zweite Kamera
-    Additional Dialogue: Zusätzlicher Dialog
-    Additional Editing: 
-    Additional Editorial Assistant: 
-    Additional Effects Development: 
-    Additional Music: Zusätzliche Musik
-    Additional Music Supervisor: 
-    Additional Photography: Zusätzliches Foto
-    Additional Soundtrack: 
-    Additional Writing: 
-    Administration: Administration
+    Additional Dialogue: Dialoge (weitere)
+    Additional Editing: Schnitt (weitere)
+    Additional Editorial Assistant: Billdassistenz (weitere)
+    Additional Effects Development: Spezialeffekte (weitere)
+    Additional Music: Musik (weitere)
+    Additional Music Supervisor: Musik-Redaktion (weitere)
+    Additional Photography: Bild (weitere)
+    Additional Soundtrack: Komposition (weitere)
+    Additional Writing: Drehbuch (weitere)
+    Administration: Verwaltung
     Animation: Animation
-    Animation Department Coordinator: 
+    Animation Department Coordinator: Animationsredaktion
     Animation Director: 
     Animation Fix Coordinator: 
     Animation Manager: 
@@ -1525,11 +1531,11 @@ de-DE:
     Art Direction: 
     Assistant Art Director: 
     Assistant Costume Designer: 
-    Assistant Director: Regieassistent
+    Assistant Director: Regieassistenz
     Assistant Editor: 
     Associate Choreographer: 
-    Associate Producer: 
-    Author: Autor
+    Associate Producer: Co-Produktion
+    Author: Autor(in)
     Background Designer: 
     Battle Motion Coordinator: 
     Best Boy Electric: 
@@ -1540,37 +1546,37 @@ de-DE:
     CG Painter: 
     CG Supervisor: 
     CGI Supervisor: 
-    Cableman: 
+    Cableman: Kabelträger(in)
     Cameo: Cameoauftritt
     Camera Department Manager: 
     Camera Intern: 
-    Camera Operator: Kamera Operator
-    Camera Supervisor: 
-    Camera Technician: 
-    Carpenter: Schreiner
+    Camera Operator: Kamera
+    Camera Supervisor: Camera-Redaktion
+    Camera Technician: Kameratechnik
+    Carpenter: Schreiner(in)
     Casting: Casting
-    Casting Associate: 
+    Casting Associate: Co-Casting
     Character Technical Supervisor: 
     Characters: Charaktere
-    Chef: Koch
+    Chef: Verpflegung
     Chief Technician / Stop-Motion Expert: 
-    Choreographer: Choreograph
+    Choreographer: Choreografie
     Cinematography: Kinematographie
     Cloth Setup: 
     Co-Art Director: 
     Co-Costume Designer: 
     Co-Executive Producer: 
-    Co-Producer: 
-    Co-Writer: 
+    Co-Producer: Co-Produzent(in)
+    Co-Writer: Co-Autor(in)
     Color Designer: 
     Color Timer: 
-    Comic Book: 
+    Comic Book: Script
     Commissioning Editor: 
     Compositors: 
-    Conceptual Design: 
+    Conceptual Design: Konzept
     Construction Coordinator: 
     Construction Foreman: 
-    Consulting Producer: 
+    Consulting Producer: Beratende(r) Produzent(in)
     Costume Design: 
     Costume Supervisor: 
     Craft Service: 
@@ -1580,7 +1586,7 @@ de-DE:
     Creature Design: 
     Department Administrator: 
     Development Manager: 
-    Dialect Coach: 
+    Dialect Coach: Dialekttrainer(in)
     Dialogue: Dialog
     Dialogue Editor: 
     Digital Compositors: 
@@ -1588,13 +1594,13 @@ de-DE:
     Digital Intermediate: 
     Digital Producer: 
     Directing Lighting Artist: 
-    Director: Regisseur
-    Director of Photography: 
+    Director: Regisseur(in)
+    Director of Photography: Bildregie
     Documentation & Support: Dokumentation & Support
     Dolby Consultant: 
     Dramaturgy: Dramaturgie
     Driver: Fahrer
-    Editor: 
+    Editor: Schnitt
     Editorial Coordinator: 
     Editorial Manager: 
     Editorial Production Assistant: 
@@ -1605,10 +1611,10 @@ de-DE:
     Executive In Charge Of Post Production: 
     Executive In Charge Of Production: 
     Executive Music Producer: 
-    Executive Producer: 
+    Executive Producer: Ausführende(r) Produzent(in)
     Executive Visual Effects Producer: 
     Executive in Charge of Finance: 
-    Facial Setup Artist: 
+    Facial Setup Artist: Maske
     Finance: Finanzen
     First Assistant Camera: 1. Kameraassistent
     First Assistant Editor: 
@@ -1632,23 +1638,23 @@ de-DE:
     Information Systems Manager: 
     Interior Designer: 
     Key Hair Stylist: 
-    Layout: 
+    Layout: Layout
     Lead Painter: 
     Leadman: 
-    Legal Services: 
-    Lighting Artist: 
+    Legal Services: Rechtsberatung
+    Lighting Artist: Beleuchtung
     Lighting Camera: 
     Lighting Coordinator: 
     Lighting Manager: 
     Lighting Production Assistant: Lichtassistent
     Lighting Supervisor: 
-    Lighting Technician: 
+    Lighting Technician: Lichttechnik
     Line Producer: 
     Loader: 
     Location Manager: 
     Location Scout: 
     Machinist: 
-    Makeup Artist: 
+    Makeup Artist: Maskenbildner(in)
     Makeup Department Head: 
     Makeup Designer: 
     Makeup Effects: 
@@ -1658,7 +1664,7 @@ de-DE:
     Mechanical & Creature Designer: 
     Mix Technician: 
     Mixing Engineer: 
-    Modeling: 
+    Modeling: Modellage
     Motion Actor: 
     Motion Capture Artist: 
     Music: Musik
@@ -1669,7 +1675,7 @@ de-DE:
     Novel: Roman
     Opera: Oper
     Orchestrator: 
-    Original Music Composer: 
+    Original Music Composer: Komponist(in)
     Original Story: 
     Other: Sonstige
     Painter: Maler
@@ -1699,7 +1705,7 @@ de-DE:
     Property Master: 
     Propmaker: 
     Prosthetic Supervisor: 
-    Public Relations: 
+    Public Relations: Marketing
     Publicist: 
     Pyrotechnic Supervisor: 
     Quality Control Supervisor: 
@@ -1715,7 +1721,7 @@ de-DE:
     Scoring Mixer: 
     Screenplay: Drehbuch
     Screenstory: 
-    Script: 
+    Script: Script
     Script Coordinator: 
     Script Editor: 
     Script Supervisor: 
@@ -1724,14 +1730,14 @@ de-DE:
     Second Film Editor: 
     Second Unit: Zweite Crew
     Second Unit Cinematographer: 
-    Security: 
+    Security: Sicherheit
     Senior Executive Consultant: 
     Sequence Artist: 
     Sequence Leads: 
     Sequence Supervisor: 
     Series Composition: 
     Series Writer: 
-    Set Costumer: 
+    Set Costumer: Kostümbildner(in)
     Set Decoration: 
     Set Decoration Buyer: 
     Set Designer: 
@@ -1739,14 +1745,14 @@ de-DE:
     Set Dressing Manager: 
     Set Dressing Production Assistant: 
     Set Dressing Supervisor: 
-    Set Medic: 
+    Set Medic: Sanitäter(in)
     Set Production Assistant: 
     Set Production Intern: 
     Sets & Props Artist: 
     Sets & Props Supervisor: 
     Settings: 
     Shading: 
-    Shoe Design: 
+    Shoe Design: Schuhdesign
     Short Story: 
     Sign Painter: 
     Simulation & Effects Artist: 
@@ -1768,7 +1774,7 @@ de-DE:
     Special Effects: Spezialeffekte
     Special Effects Coordinator: 
     Special Effects Supervisor: 
-    Special Guest: 
+    Special Guest: Stargast
     Special Guest Director: 
     Special Sound Effects: 
     Stand In: 
@@ -1776,7 +1782,7 @@ de-DE:
     Steadicam Operator: 
     Steadycam: 
     Still Photographer: 
-    Story: 
+    Story: Story
     Storyboard: 
     Studio Teachers: 
     Stunt Coordinator: Stunt Coordinator
@@ -1798,15 +1804,15 @@ de-DE:
     Teleplay: Fernsehspiel
     Temp Music Editor: 
     Temp Sound Editor: 
-    Thanks: 
-    Theatre Play: 
+    Thanks: Besonderen Dank an
+    Theatre Play: Kinovorführung
     Title Graphics: 
-    Translator: Dolmetscher
+    Translator: Dolmetscher(in)
     Transportation Captain: 
     Transportation Co-Captain: 
     Transportation Coordinator: 
     Treatment: 
-    Underwater Camera: 
+    Underwater Camera: Unterwasser-Kamera
     Unit Manager: 
     Unit Production Manager: 
     Unit Publicist: 
@@ -1816,16 +1822,16 @@ de-DE:
     VFX Production Coordinator: 
     VFX Supervisor: 
     Video Assist Operator: 
-    Video Game: 
-    Visual Development: 
-    Visual Effects: 
+    Video Game: Videospiel
+    Visual Development: Visuelle Entwicklung
+    Visual Effects: Visuelle Effekte
     Visual Effects Art Director: 
     Visual Effects Coordinator: 
     Visual Effects Design Consultant: 
     Visual Effects Editor: 
     Visual Effects Producer: 
     Visual Effects Supervisor: 
-    Vocal Coach: 
+    Vocal Coach: Stimmtrainer(in)
     Voice: Stimme
     Wigmaker: 
     Writer: Drehbuchautor
@@ -1914,12 +1920,12 @@ de-DE:
           public: 
     tv_episode:
       edit:
-        screened_as_part_of_season: 
-        screened_confirm: 
-        screened_label: 
+        screened_as_part_of_season: Ja, als Teil von Staffel
+        screened_confirm: Klicke auf „Ja”, falls diese Folge auf einem Film-Festival oder im Kino gezeigt wurde.
+        screened_label: Wurde diese Folge im Kino gezeigt?
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Folge erstellen
         screened_confirm: 
         screened_label: 
     tv_show:
@@ -1956,7 +1962,7 @@ de-DE:
   no_crew: Wir haben keine Crew für diesen %{media_type}. Hilf uns indem du einen hinzufügst.
   no_description: 
   no_director: Kein Regisseur hinzugefügt.
-  no_episode_images: Kein Episodenbild hinzugefügt.
+  no_episode_images: Für diese Folge wurden keine Bilder hinzugefügt.
   no_favorite_movies:
     current_user: Du hast keine Filme zu deinen Favoriten hinzugefügt.
     public: "%{username} hat keine Filmfavoriten."
@@ -2266,7 +2272,7 @@ de-DE:
   success_sharing: Nachricht wurde erfolgreich geteilt.
   time:
     formats:
-      12hour_minutes: 
+      12hour_minutes: "%I:%M%p"
   top_contributors: 
   translation:
     one: "Übersetzung"
