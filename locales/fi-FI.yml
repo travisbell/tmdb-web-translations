@@ -1639,7 +1639,7 @@ fi-FI:
     I/O Supervisor: I/O valvoja
     Idea: Idea
     Imaging Science: 
-    Information Systems Manager: 
+    Information Systems Manager: Tietojärjestelmäpäällikkö
     Interior Designer: 
     Key Hair Stylist: 
     Layout: Leiska
@@ -1875,7 +1875,7 @@ fi-FI:
       movie_page_title: "%{name} Elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
     images:
-      format: 
+      format: Tiedostotyyppi
       no_backdrops: Tälle nimikkeelle ei ole lisätty yhtään taustaa.
       no_logos: Tälle nimikkeelle ei ole lisätty yhtään logoa.
       no_posters: Tälle nimikkeelle ei ole lisätty yhtään julistetta.
@@ -1898,11 +1898,12 @@ fi-FI:
       edit:
         alternative_names: Vaihtoehtoiset nimet
         logos: Logot
+        merge: 
         primary_facts: Ensisijaiset tiedot
         upload_logo: Lisää logo
       logos: Logot
       name: Nimi
-      other_shows_on: 
+      other_shows_on: Näytä lisää TV-sarjoja kanavalta %{name}...
       tv_page_title: TV-sarjat kanavalla %{name}
       upload_logo: Lisää logo
     number_of_movies:
@@ -1944,7 +1945,9 @@ fi-FI:
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
     tv_show:
       create_season: Luo kausi
-      networks: 
+      networks:
+        one: Julkaisukanava
+        other: Julkaisukanavat
   month:
     one: kuukausi
     other: "%{count} kuukautta"
@@ -2035,7 +2038,7 @@ fi-FI:
         strip_insignificant_zeros: false
         unit: "$"
     format:
-      delimiter: " "
+      delimiter: ","
       precision: 3
       separator: ","
       significant: false
