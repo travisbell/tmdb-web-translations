@@ -1886,7 +1886,6 @@ pt-BR:
       tv_page_title: Séries com "%{name}"
     movie:
       edit:
-        add_keyword: Adicionar palavra-chave
         confirm_collection: |-
           <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDb. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, </p><a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
@@ -1896,8 +1895,9 @@ pt-BR:
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
         keyword:
-          create: 
-          none_found: 
+          add_keyword: Adicionar palavra-chave
+          create: Criar
+          none_found: Nenhuma palavra-chave correspondente foi encontrada. Deseja criá-la?
     network:
       edit:
         alternative_names: Nomes alternativos
