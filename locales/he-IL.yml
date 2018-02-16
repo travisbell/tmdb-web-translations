@@ -1178,7 +1178,7 @@ he-IL:
     scale:
       '0': "...חייבים להתחיל איפשהו"
       '1': "היי, זאת התחלה"
-      '10': "כן! נִרְאֶה מעולה!"
+      '10': "!כן! נִרְאֶה מעולה"
       '2': "אנחנו מתקרבים לשם"
       '3': "...רומא לא נבנתה ביום אחד"
       '4': "...אין 'אני' בצוות"
@@ -1452,6 +1452,13 @@ he-IL:
     other: "%{count} פרקים"
   episode_number_name: "פרק %{episode_number}"
   errors:
+    images:
+      couldnt_process: 
+      not_jpeg: 
+      not_png: 
+      not_svg: 
+    locked:
+      keywords: 
     messages:
       blank: "נדרש"
       inclusion: "חייב להיות מסומן"
@@ -1894,14 +1901,15 @@ he-IL:
 
           <p>.אם תוכן זה הוא לדוגמה אוסף די-וי-די, סרטון כושר או אולי די-וי-די "המיטב", אז עליך לסמן אותו בתור וידיאו</p>
         keyword:
-          add_keyword: 
-          create: 
-          none_found: 
+          add_keyword: "הוסף מילת מפתח"
+          create: "צור אותה"
+          none_found: "לא נמצאה מילת מפתח תואמת. האם אתה רוצה ליצור אותה?"
+          tip: 
     network:
       edit:
         alternative_names: "שמות חלופיים"
         logos: "סמלילים"
-        merge: 
+        merge: "מזג"
         primary_facts: "עובדות עיקריות"
         upload_logo: "העלה סמליל"
       logos: "סמלילים"

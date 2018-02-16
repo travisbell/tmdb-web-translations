@@ -1455,6 +1455,13 @@ en-US:
     other: "%{count} Episodes"
   episode_number_name: Episode %{episode_number}
   errors:
+    images:
+      couldnt_process: We couldn't process this image
+      not_jpeg: The image is not a JPEG
+      not_png: The image is not a PNG
+      not_svg: The image is not a SVG
+    locked:
+      keywords: The keywords field is locked
     messages:
       blank: is required
       inclusion: must be selected
@@ -1900,6 +1907,7 @@ en-US:
           add_keyword: Add Keyword
           create: Create It
           none_found: No matching keyword found. Want to create it?
+          tip: As a general guideline, think of things that help describe the plot, general themes and moods.
     network:
       edit:
         alternative_names: Alternative Names
