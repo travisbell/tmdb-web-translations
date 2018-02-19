@@ -956,7 +956,7 @@ pt-BR:
           meaning: Crianças com idade superior a 7 Anos, quando acompanhadas por um adulto (pessoa com 18 Anos ou mais), são admitidas em filmes que foram aprovados para crianças maiores de 11 Anos. Atualizado em 1º de Março de 2017.
       US:
         '0':
-          meaning: Sem classificação.
+          meaning: Sem Classificação (No Rating).
         '1':
           meaning: Todas as idades admitidas. Não há conteúdo que seja repreensível para a maioria dos pais.
         '2':
@@ -1459,6 +1459,7 @@ pt-BR:
       not_png: Esta imagem não é PNG
       not_svg: Esta imagem não é SVG
     locked:
+      genres: O campo de gêneros está trancado
       keywords: O campo de Palavras-chave está trancado.
     messages:
       blank: "é necessário(a)"
@@ -1902,12 +1903,14 @@ pt-BR:
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
         genres:
-          add_genre: 
+          add_genre: Adicionar gênero
+          no_records: 
         keywords:
           add_keyword: Adicionar palavra-chave
           create: Criar
+          no_records: 
           none_found: Nenhuma palavra-chave correspondente foi encontrada. Deseja criá-la?
-          tip: 
+          tip: Como regra geral, pense em coisas que ajudem a descrever o enredo, temas gerais e tom do filme.
     network:
       edit:
         alternative_names: Nomes alternativos
