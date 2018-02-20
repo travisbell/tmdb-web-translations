@@ -1898,6 +1898,10 @@ es-ES:
       tv_page_title: Programas de tv %{name}
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p> Las colecciones son una forma adecuada de agrupar secuelas en TMDb. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, por favor, <a href="%{list_link}" target="_blank" rel="noopener"> crea una lista </a>. Para obtener más información acerca de las colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener"> nuestra documentación </a>. </ P>
 
@@ -1906,6 +1910,8 @@ es-ES:
           <p> Etiquetar una película como 'Vídeo' nos ayuda a diferenciar tipos de contenido que no son realmente películas. </ p>
 
           <p> Si este contenido es, por ejemplo, un DVD de compilación, un video de fitness o tal vez un DVD de "lo mejor de", entonces deberías marcarlo como 'Vídeo'. </ p>
+        crew:
+          no_records: 
         genres:
           add_genre: 
           no_records: 
@@ -1915,6 +1921,10 @@ es-ES:
           no_records: 
           none_found: 
           tip: 
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: 

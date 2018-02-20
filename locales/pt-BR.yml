@@ -1894,6 +1894,10 @@ pt-BR:
       tv_page_title: Séries com "%{name}"
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDb. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, </p><a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
@@ -1902,15 +1906,21 @@ pt-BR:
           <p>Marcar um filme como um vídeo nos ajuda a diferenciar os tipos de conteúdo que não são realmente filmes.</p>
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
+        crew:
+          no_records: 
         genres:
           add_genre: Adicionar gênero
-          no_records: 
+          no_records: Nenhum gênero foi adicionado.
         keywords:
           add_keyword: Adicionar palavra-chave
           create: Criar
-          no_records: 
+          no_records: Nenhuma palavra-chave foi adicionada.
           none_found: Nenhuma palavra-chave correspondente foi encontrada. Deseja criá-la?
           tip: Como regra geral, pense em coisas que ajudem a descrever o enredo, temas gerais e tom do filme.
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: Nomes alternativos

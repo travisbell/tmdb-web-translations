@@ -1892,6 +1892,10 @@ zh-TW:
       tv_page_title: '"%{name}" 的電視影集'
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p>特集是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但特集並非以「電影宇宙」的方式來作分組的依據。若您了解特集的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立特集</a>. 若您想要了解更多關於特集的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
 
@@ -1900,6 +1904,8 @@ zh-TW:
           <p>請協助將某些電影標記為影片，可幫助我們區分不是真正電影的內容類型。</p>
 
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
+        crew:
+          no_records: 
         genres:
           add_genre: 
           no_records: 
@@ -1909,6 +1915,10 @@ zh-TW:
           no_records: 
           none_found: 
           tip: 
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: "替代名稱"

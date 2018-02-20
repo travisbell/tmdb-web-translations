@@ -1894,6 +1894,10 @@ fi-FI:
       tv_page_title: "%{name} TV-sarjoissa"
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p>Kokoelmat ovat kätevä tapa ryhmittää jatko-osat yhteen. Vaikkakin kiistanalaista, kokoelmat eivät ole tarkoitettu kokoamaan saman "universumin" elokuvia yhteen. Niitä varten voit <a href="%{list_link}" target="_blank" rel="noopener">luoda listan</a>. Saadaksesi lisätietoa kokoelmista, voit tutustua <a href="%{docs_link}" target="_blank" rel="noopener">tukisivustoon</a>.</p>
 
@@ -1902,6 +1906,8 @@ fi-FI:
           <p>Elokuvan merkitseminen videoksi auttaa meitä erottamaan sisällön jotka eivät varsinaisesti ole elokuvia.</p>
 
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
+        crew:
+          no_records: 
         genres:
           add_genre: 
           no_records: 
@@ -1911,6 +1917,10 @@ fi-FI:
           no_records: 
           none_found: 
           tip: 
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: Vaihtoehtoiset nimet

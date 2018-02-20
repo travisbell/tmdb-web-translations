@@ -1895,6 +1895,10 @@ el-GR:
       tv_page_title: '"%{name}" Τηλεοπτικές Σειρές'
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p>Οι συλλογές είναι ένας βολικός τρόπος για την ομαδοποίηση των αλληλεπιδράσεων μαζί στο TMDb. Ενώ μερικές φορές είναι αμφιλεγόμενες, οι συλλογές δεν προορίζονται να είναι ένας τρόπος ομαδοποίησης ταινιών του ίδιου «σύμπαντος». Για αυτό, παρακαλώ <a href="%{list_link}" target="_blank" rel="noopener"> δημιουργήστε μια λίστα </a>. Για περισσότερες πληροφορίες σχετικά με τις συλλογές, μπορείτε να επισκεφτείτε τη <a href="%{docs_link}" target="_blank" rel="noopener"> our documentation </a>. </ P>
 
@@ -1903,6 +1907,8 @@ el-GR:
           <p>Η επισήμανση μιας ταινίας ως βίντεο μας βοηθά να διαφοροποιούμε τους τύπους περιεχομένου που δεν είναι πραγματικά ταινίες</p>
 
           <p>Εάν αυτό το περιεχόμενο είναι για παράδειγμα ένα DVD compilation, ένα βίντεο γυμναστικής ή ίσως ένα "best of" DVD, τότε θα πρέπει να το χαρακτηρίσετε ως βίντεο.</p>
+        crew:
+          no_records: 
         genres:
           add_genre: 
           no_records: 
@@ -1912,6 +1918,10 @@ el-GR:
           no_records: 
           none_found: 
           tip: 
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: "Εναλλακτικά Ονόματα"

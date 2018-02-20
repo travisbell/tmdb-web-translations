@@ -1893,6 +1893,10 @@ he-IL:
       tv_page_title: סדרות "%{name}"
     movie:
       edit:
+        alternative_titles:
+          no_records: 
+        cast:
+          no_records: 
         confirm_collection: |-
           <p>בזמן שזה לעיתים שנוי במחלוקת, אוספים אינם אמורים להיות דרך לקיבוץ סרטים מאותו "יקום". בשביל זה, אנא <a href="%{list_link}" target="_blank" rel="noopener">צור רשימה</a>. למידע נוסף אודות אוספים אתה יכול לבקר <a href="%{docs_link}" target="_blank" rel="noopener">בתיעוד שלנו</a> .TMDb-אוספים הם דרך נוחה לקיבוץ המשכים יחד ב</p>
 
@@ -1901,15 +1905,21 @@ he-IL:
           <p>.תיוג סרט בתור וידיאו עוזר לנו להבדיל בין סוגים של תוכן שאינם באמת סרטים</p>
 
           <p>.אם תוכן זה הוא לדוגמה אוסף די-וי-די, סרטון כושר או אולי די-וי-די "המיטב", אז עליך לסמן אותו בתור וידיאו</p>
+        crew:
+          no_records: 
         genres:
           add_genre: "הוסף סוגה"
-          no_records: 
+          no_records: "לא התווספו סוגות"
         keywords:
           add_keyword: "הוסף מילת מפתח"
           create: "צור אותה"
-          no_records: 
+          no_records: "לא התווספו מילות מפתח"
           none_found: "לא נמצאה מילת מפתח תואמת. האם אתה רוצה ליצור אותה?"
           tip: "בתור קו מנחה כללי, חשוב על דברים העוזרים לתאר את העלילה, נושאים כללים ומצבי רוח"
+        release_information:
+          no_records: 
+        videos:
+          no_records: 
     network:
       edit:
         alternative_names: "שמות חלופיים"
