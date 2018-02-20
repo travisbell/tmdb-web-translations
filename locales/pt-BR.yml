@@ -225,7 +225,7 @@ pt-BR:
   Include Adult Items in Search?: Incluir itens adultos na busca?
   Incorrect Content: Conteúdo incorreto
   Info: Informação
-  Job: Emprego
+  Job: Cargo
   Join the Community: Junte-se a Comunidade
   Joined in: Membro desde
   Keyword: Palavra-chave
@@ -1823,7 +1823,7 @@ pt-BR:
     VFX Artist: Artista de efeitos visuais
     VFX Editor: Editor(a) de efeitos visuais
     VFX Production Coordinator: Coordenador(a) de produção de efeitos visuais
-    VFX Supervisor: Supervisor de efeitos visuais
+    VFX Supervisor: Supervisor(a) de efeitos visuais
     Video Assist Operator: Assistente de operação de vídeo
     Video Game: Jogo eletrônico
     Visual Development: Desenvolvimento visual
@@ -1834,10 +1834,10 @@ pt-BR:
     Visual Effects Editor: Editor(a) de efeitos visuais
     Visual Effects Producer: Produtor(a) de efeitos visuais
     Visual Effects Supervisor: Supervisor de efeitos visuais
-    Vocal Coach: Treinador vocal
-    Voice: Voz
-    Wigmaker: Criador de perucas
-    Writer: Escritor
+    Vocal Coach: Treinador(a) vocal
+    Voice: Dublagem
+    Wigmaker: Criador(a) de perucas
+    Writer: Escritor(a)
   joined: membro desde
   list_info:
     average_rating: Avaliação média
@@ -1875,7 +1875,7 @@ pt-BR:
       placeholders:
         country: Selecione um país...
         genres: Selecione um gênero...
-        job: 
+        job: Selecione um cargo...
         keywords: Selecione uma palavra-chave...
         person: Procurar por uma pessoa...
       tooltips:
@@ -1968,6 +1968,8 @@ pt-BR:
           public: Entre com uma conta para fazer uma resenha.
     tv_episode:
       edit:
+        guest_stars:
+          no_records: 
         screened_as_part_of_season: Sim, como parte de uma temporada
         screened_confirm: Se este episódio foi exibido em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Este episódio foi exibido em cinemas ou festivais?
@@ -1975,7 +1977,7 @@ pt-BR:
       edit:
         create_episode: Criar episódio
         episodes:
-          no_records: 
+          no_records: Nenhum episódio foi adicionado.
         screened_confirm: Se esta temporada foi exibida em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Esta Temporada foi exibida em cinemas ou festivais?
     tv_show:
@@ -1986,13 +1988,13 @@ pt-BR:
         creator:
           no_records: Nenhum criador foi adicionado.
         crew:
-          no_season: 
+          no_season: Não temos nenhuma temporada! É necessária uma temporada para adicionar membros à equipe técnica.
         networks:
           no_records: Nenhuma emissora foi adicionada.
           none_found: Nenhuma emissora correspondente foi encontrada. Deseja criá-la?
         regular_cast:
           no_records: Nenhum membro do elenco principal foi adicionado.
-          no_season: 
+          no_season: Não temos nenhuma temporada! É necessária uma temporada para adicionar membros ao elenco principal.
         seasons:
           no_records: Nenhuma temporada foi adicionada.
       networks:
