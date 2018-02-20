@@ -1428,15 +1428,6 @@ pt-BR:
       users_in_discussion: Usuários nesta discussão
     your_account: Sua conta
   dont_fallback: Nenhum
-  edit:
-    page_title: Editando %{name}
-    tooltips:
-      bible: Para obter ajuda na edição de informações no TMDb, clique nesta '?' para ler a Bíblia do Colaborador.
-      homepage: Somente sites oficiais, páginas de fãs não são permitidas.
-      logo_format: Arquivos SVG e PNG são suportados. Preferimos arquivos SVG, por serem independentes de resolução.
-      original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
-      overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
-      social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
   edit_list:
     add_edit_items: Adicionar/Editar itens
     choose_image: Selecionar imagem
@@ -1879,6 +1870,17 @@ pt-BR:
   login_to_create: Não encontrou o filme ou série que procurava? Entre com uma conta e adicione ao nosso banco de dados.
   login_to_edit: Entre com uma conta para editar
   media:
+    edit:
+      page_title: Editando %{name}
+      placeholders:
+        country: 
+      tooltips:
+        bible: Para obter ajuda na edição de informações no TMDb, clique nesta '?' para ler a Bíblia do Colaborador.
+        homepage: Somente sites oficiais, páginas de fãs não são permitidas.
+        logo_format: Arquivos SVG e PNG são suportados. Preferimos arquivos SVG, por serem independentes de resolução.
+        original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
+        overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
+        social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
     genre:
       movie_page_title: Filmes de %{name}
       tv_page_title: Séries de %{name}
@@ -1895,9 +1897,9 @@ pt-BR:
     movie:
       edit:
         alternative_titles:
-          no_records: 
+          no_records: Nenhum título alternativo foi adicionado.
         cast:
-          no_records: 
+          no_records: Nenhum membro do elenco foi adicionado.
         confirm_collection: |-
           <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDb. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, </p><a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
@@ -1907,7 +1909,7 @@ pt-BR:
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
         crew:
-          no_records: 
+          no_records: Nenhuma membro da equipe técnica foi adicionado.
         genres:
           add_genre: Adicionar gênero
           no_records: Nenhum gênero foi adicionado.
@@ -1918,9 +1920,9 @@ pt-BR:
           none_found: Nenhuma palavra-chave correspondente foi encontrada. Deseja criá-la?
           tip: Como regra geral, pense em coisas que ajudem a descrever o enredo, temas gerais e tom do filme.
         release_information:
-          no_records: 
+          no_records: Nenhuma data de lançamento foi adicionada.
         videos:
-          no_records: 
+          no_records: Nenhum vídeo foi adicionado.
     network:
       edit:
         alternative_names: Nomes alternativos
@@ -1972,6 +1974,21 @@ pt-BR:
         screened_label: Esta Temporada foi exibida em cinemas ou festivais?
     tv_show:
       create_season: Criar temporada
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: Nenhum criador foi adicionado.
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks:
         one: Emissora
         other: Emissoras

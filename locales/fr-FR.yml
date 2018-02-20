@@ -1428,15 +1428,6 @@ fr-FR:
       users_in_discussion: Membres de cette conversation
     your_account: Votre compte
   dont_fallback: Aucune (Pas d'alternative)
-  edit:
-    page_title: Modifier %{name}
-    tooltips:
-      bible: 
-      homepage: Seulement le site officiel. Les sites de fans ne sont pas autorisés.
-      logo_format: 
-      original_title: Le titre original devrait être saisi dans la langue originale de l'élément. Dans la plupart des cas cela devrait correspondre à la langue sélectionnée dans le champ "langue originale".
-      overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
-      social_links: Les liens vers les réseaux sociaux doivent être ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
   edit_list:
     add_edit_items: Ajouter/Modifier des éléments
     choose_image: Choisir l'image
@@ -1879,6 +1870,17 @@ fr-FR:
   login_to_create: Vous ne trouvez pas un film ou un série ? Connectez-vous pour l'ajouter.
   login_to_edit: Connectez-vous pour modifier
   media:
+    edit:
+      page_title: Modifier %{name}
+      placeholders:
+        country: 
+      tooltips:
+        bible: 
+        homepage: Seulement le site officiel. Les sites de fans ne sont pas autorisés.
+        logo_format: 
+        original_title: Le titre original devrait être saisi dans la langue originale de l'élément. Dans la plupart des cas cela devrait correspondre à la langue sélectionnée dans le champ "langue originale".
+        overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
+        social_links: Les liens vers les réseaux sociaux doivent être ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
     genre:
       movie_page_title: Films de %{name}
       tv_page_title: Séries de %{name}
@@ -1972,6 +1974,21 @@ fr-FR:
         screened_label: Cette saison a t-elle été diffusée au cinéma ?
     tv_show:
       create_season: Créer une saison
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks: 
   month:
     one: mois

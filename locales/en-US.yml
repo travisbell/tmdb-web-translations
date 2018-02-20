@@ -1429,15 +1429,6 @@ en-US:
       users_in_discussion: Users In This Discussion
     your_account: Your Account
   dont_fallback: None (Don't Fallback)
-  edit:
-    page_title: Edit %{name}
-    tooltips:
-      bible: For help editing information on TMDb, click this '?' to read the contribution bible.
-      homepage: Official homepage only. Fan pages are not allowed.
-      logo_format: SVG's and PNG's are supported. SVG's are preferred since they are resolution independent.
-      original_title: The original title should be entered in the original language of the item. In most cases this would match the language entered in the "original language" field.
-      overview: When writing an overview, try to keep it short, concise and free of spoilers.
-      social_links: Social links are for the official (verified) pages only. Fan pages are not allowed.
   edit_list:
     add_edit_items: Add/Edit Items
     choose_image: Choose Image
@@ -1881,6 +1872,17 @@ en-US:
   login_to_create: Can't find a movie or TV show? Login to create it.
   login_to_edit: Login to edit
   media:
+    edit:
+      page_title: Edit %{name}
+      placeholders:
+        country: Select a country...
+      tooltips:
+        bible: For help editing information on TMDb, click this '?' to read the contribution bible.
+        homepage: Official homepage only. Fan pages are not allowed.
+        logo_format: SVG's and PNG's are supported. SVG's are preferred since they are resolution independent.
+        original_title: The original title should be entered in the original language of the item. In most cases this would match the language entered in the "original language" field.
+        overview: When writing an overview, try to keep it short, concise and free of spoilers.
+        social_links: Social links are for the official (verified) pages only. Fan pages are not allowed.
     genre:
       movie_page_title: "%{name} Movies"
       tv_page_title: "%{name} TV Shows"
@@ -1974,6 +1976,21 @@ en-US:
         screened_label: Has this season been screened theatrically?
     tv_show:
       create_season: Create Season
+      edit:
+        content_ratings:
+          no_records: No content ratings have been added.
+        creator:
+          no_records: No creators have been added.
+        crew:
+          no_season: No seasons exist! A season is required to add crew members.
+        networks:
+          no_records: No networks have been added.
+          none_found: No matching networks found. Want to create it?
+        regular_cast:
+          no_records: No regular cast members have been added.
+          no_season: No seasons exist! A season is required to add regular cast members.
+        seasons:
+          no_records: No seasons have been added.
       networks:
         one: Network
         other: Networks

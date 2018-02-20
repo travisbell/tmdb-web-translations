@@ -1428,15 +1428,6 @@ zh-TW:
       users_in_discussion: "於本討論串內的用戶"
     your_account: "你的帳戶"
   dont_fallback: "無 (不使用備用語言)"
-  edit:
-    page_title: "編輯 %{name}"
-    tooltips:
-      bible: "有關編輯 TMDb 資訊，若需要幫助請點擊 '?' 按鈕"
-      homepage: "僅開放官方網站登錄，不包含粉絲專頁"
-      logo_format: "支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。"
-      original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合"
-      overview: "撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。"
-      social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業"
   edit_list:
     add_edit_items: "新增 / 編輯項目"
     choose_image: "選擇圖片"
@@ -1877,6 +1868,17 @@ zh-TW:
   login_to_create: "找不到電影或電視影集嗎？登入來建立一個吧！"
   login_to_edit: "登入編輯"
   media:
+    edit:
+      page_title: "編輯 %{name}"
+      placeholders:
+        country: 
+      tooltips:
+        bible: "有關編輯 TMDb 資訊，若需要幫助請點擊 '?' 按鈕"
+        homepage: "僅開放官方網站登錄，不包含粉絲專頁"
+        logo_format: "支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。"
+        original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合"
+        overview: "撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。"
+        social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業"
     genre:
       movie_page_title: "%{name} 的電影"
       tv_page_title: "%{name} 的電視影集"
@@ -1970,6 +1972,21 @@ zh-TW:
         screened_label: "本季內容曾經於劇院或電影院播映嗎？"
     tv_show:
       create_season: "建立單季內容"
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks:
         one: "電視網"
         other: "電視網"

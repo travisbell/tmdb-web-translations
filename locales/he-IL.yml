@@ -1427,15 +1427,6 @@ he-IL:
       users_in_discussion: "משתמשים בדיון זה"
     your_account: "החשבון שלך"
   dont_fallback: "ללא (אל תיסוג)"
-  edit:
-    page_title: "ערוך את %{name}"
-    tooltips:
-      bible: .לחץ על '?' כדי לקרוא את תנ"ך התרומה לקהילה ,TMDb לעזרה בעריכת מידע באתר
-      homepage: "עמודי בית רשמיים בלבד. עמודי מעריצים אינם מותרים."
-      logo_format: "עדיפים מאחר שהם עצמאיי רזולוציה SVG .נתמכים PNG וקבצי SVG קבצי"
-      original_title: הכותרת המקורית צריכה להיות מוזנת בשפה המקורית של הפריט. ברוב המקרים היא תתאים לשפה שהוזנה בשדה "שפה מקורית".
-      overview: "בעת כתיבת תקציר, נסה להשאיר אותו קצר, תמציתי ונטול ספוילרים."
-      social_links: "קישורים חברתיים עבור עמודים רשמיים (מאומתים) בלבד. עמודי מעריצים אינם מותרים."
   edit_list:
     add_edit_items: "הוסף/ערוך פריטים"
     choose_image: "בחר תמונה"
@@ -1878,6 +1869,17 @@ he-IL:
   login_to_create: "אינך מוצא סרט או סדרה? התחבר כדי ליצור אותם"
   login_to_edit: "התחבר כדי לערוך"
   media:
+    edit:
+      page_title: "ערוך את %{name}"
+      placeholders:
+        country: 
+      tooltips:
+        bible: .לחץ על '?' כדי לקרוא את תנ"ך התרומה לקהילה ,TMDb לעזרה בעריכת מידע באתר
+        homepage: "עמודי בית רשמיים בלבד. עמודי מעריצים אינם מותרים."
+        logo_format: "עדיפים מאחר שהם עצמאיי רזולוציה SVG .נתמכים PNG וקבצי SVG קבצי"
+        original_title: הכותרת המקורית צריכה להיות מוזנת בשפה המקורית של הפריט. ברוב המקרים היא תתאים לשפה שהוזנה בשדה "שפה מקורית".
+        overview: "בעת כתיבת תקציר, נסה להשאיר אותו קצר, תמציתי ונטול ספוילרים."
+        social_links: "קישורים חברתיים עבור עמודים רשמיים (מאומתים) בלבד. עמודי מעריצים אינם מותרים."
     genre:
       movie_page_title: "סרטי %{name}"
       tv_page_title: "סדרות %{name}"
@@ -1971,6 +1973,21 @@ he-IL:
         screened_label: "האם עונה זו הוקרנה באופן קולנועי?"
     tv_show:
       create_season: "צור עונה"
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks:
         one: "רשת"
         other: "רשתות"

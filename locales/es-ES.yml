@@ -1432,15 +1432,6 @@ es-ES:
       users_in_discussion: Usuarios en esta discusión
     your_account: Tu cuenta
   dont_fallback: Ninguno (No vuelvas atrás)
-  edit:
-    page_title: Editar %{name}
-    tooltips:
-      bible: Para ayuda sobre editar la información de TMDb, haz clic en este '?' para leer la "guía de contribuciones".
-      homepage: Página oficial solamente. Páginas de fans no están permitidos.
-      logo_format: 
-      original_title: El título original debería ser en el idioma original del item. En la mayoría de los casos debería coincidiro con el idioma puesto en el campo "idioma original"
-      overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin spoilers.
-      social_links: Los links sociales son los únicos permitidos (verificados) a las páginas oficiales. Las páginas de fans no se permiten
   edit_list:
     add_edit_items: Añadir/Editar Elementos
     choose_image: Seleccione Imagen
@@ -1883,6 +1874,17 @@ es-ES:
   login_to_create: "¿No encuentras una película o programa de tv? Identifícate y crealo."
   login_to_edit: Inicia Sesión Para Editar
   media:
+    edit:
+      page_title: Editar %{name}
+      placeholders:
+        country: 
+      tooltips:
+        bible: Para ayuda sobre editar la información de TMDb, haz clic en este '?' para leer la "guía de contribuciones".
+        homepage: Página oficial solamente. Páginas de fans no están permitidos.
+        logo_format: 
+        original_title: El título original debería ser en el idioma original del item. En la mayoría de los casos debería coincidiro con el idioma puesto en el campo "idioma original"
+        overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin spoilers.
+        social_links: Los links sociales son los únicos permitidos (verificados) a las páginas oficiales. Las páginas de fans no se permiten
     genre:
       movie_page_title: Películas %{name}
       tv_page_title: Programas de tv %{name}
@@ -1976,6 +1978,21 @@ es-ES:
         screened_label: "¿Se ha exhibido en salas esta temporada?"
     tv_show:
       create_season: Crear temporada
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks: 
   month:
     one: mes

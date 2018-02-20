@@ -1428,15 +1428,6 @@ it-IT:
       users_in_discussion: Utenti in questa discussione
     your_account: Il tuo account
   dont_fallback: Nessuno (non fallback)
-  edit:
-    page_title: Modifica %{name}
-    tooltips:
-      bible: Per assistenza nella modifica delle informazioni su TMDb, fare clic su questo '?' leggere il manuale di contributo.
-      homepage: Solo homepage ufficiale. Le pagine fan non sono permesse.
-      logo_format: SVG e PNG sono supportati. Gli SVG sono preferiti poiché sono indipendenti dalla risoluzione.
-      original_title: Il titolo originale deve essere inserito nella lingua originale dell'articolo. Nella maggior parte dei casi questo corrisponderebbe alla lingua inserita nel campo "lingua originale".
-      overview: Quando scrivi un' osservazione, cerca di tenerla breve, concisa e priva di spoiler.
-      social_links: I collegamenti social sono solo per le pagine ufficiali (verificate). Le pagine fan non sono permesse.
   edit_list:
     add_edit_items: Aggiungi/Modifica articoli
     choose_image: Scegli immagine
@@ -1879,6 +1870,17 @@ it-IT:
   login_to_create: Non riesci a trovare un film o una serie Tv? Accedi per crearlo.
   login_to_edit: Accedi per modificare
   media:
+    edit:
+      page_title: Modifica %{name}
+      placeholders:
+        country: 
+      tooltips:
+        bible: Per assistenza nella modifica delle informazioni su TMDb, fare clic su questo '?' leggere il manuale di contributo.
+        homepage: Solo homepage ufficiale. Le pagine fan non sono permesse.
+        logo_format: SVG e PNG sono supportati. Gli SVG sono preferiti poiché sono indipendenti dalla risoluzione.
+        original_title: Il titolo originale deve essere inserito nella lingua originale dell'articolo. Nella maggior parte dei casi questo corrisponderebbe alla lingua inserita nel campo "lingua originale".
+        overview: Quando scrivi un' osservazione, cerca di tenerla breve, concisa e priva di spoiler.
+        social_links: I collegamenti social sono solo per le pagine ufficiali (verificate). Le pagine fan non sono permesse.
     genre:
       movie_page_title: "%{name} Film"
       tv_page_title: "%{name} Serie Tv"
@@ -1972,6 +1974,21 @@ it-IT:
         screened_label: Questa stagione è stata proiettata teatralmente?
     tv_show:
       create_season: Crea stagione
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks:
         one: Network
         other: Networks

@@ -1428,15 +1428,6 @@ fi-FI:
       users_in_discussion: Käyttäjät tässä keskustelussa
     your_account: Oma tili
   dont_fallback: Ei mitään (ei varakieltä)
-  edit:
-    page_title: Muokkaa %{name}
-    tooltips:
-      bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
-      homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
-      logo_format: SVG- ja PNG-tiedostotyypit ovat tuettuja. SVG:tä suositellaan käytettäväksi, koska se ei ole resoluutiosta riippuvainen.
-      original_title: Alkuperäinen nimi tulee olla nimikkeen alkuperäisellä kielellä. Yleensä tämä vastaa "alkuperäinen kieli"-kohdan asetusta.
-      overview: Kuvausta kirjoittaessa, pyri pitämään se suppeana, tarkkana ja spoileri-vapaana.
-      social_links: Sosiaalisen median tilit ovat ainoastaan virallisia (hyväksytty) sivuja varten. Fanisivut eivät ole sallittu.
   edit_list:
     add_edit_items: Lisää/muokkaa nimikkeitä
     choose_image: Valitse kuva
@@ -1879,6 +1870,17 @@ fi-FI:
   login_to_create: Etkö löydä elokuvaa tai TV-ohjelmaa? Kirjaudu sisään lisätäksesi se.
   login_to_edit: Kirjaudu sisään muokataksesi
   media:
+    edit:
+      page_title: Muokkaa %{name}
+      placeholders:
+        country: 
+      tooltips:
+        bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
+        homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
+        logo_format: SVG- ja PNG-tiedostotyypit ovat tuettuja. SVG:tä suositellaan käytettäväksi, koska se ei ole resoluutiosta riippuvainen.
+        original_title: Alkuperäinen nimi tulee olla nimikkeen alkuperäisellä kielellä. Yleensä tämä vastaa "alkuperäinen kieli"-kohdan asetusta.
+        overview: Kuvausta kirjoittaessa, pyri pitämään se suppeana, tarkkana ja spoileri-vapaana.
+        social_links: Sosiaalisen median tilit ovat ainoastaan virallisia (hyväksytty) sivuja varten. Fanisivut eivät ole sallittu.
     genre:
       movie_page_title: "%{name} Elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
@@ -1972,6 +1974,21 @@ fi-FI:
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
     tv_show:
       create_season: Luo kausi
+      edit:
+        content_ratings:
+          no_records: 
+        creator:
+          no_records: 
+        crew:
+          no_season: 
+        networks:
+          no_records: 
+          none_found: 
+        regular_cast:
+          no_records: 
+          no_season: 
+        seasons:
+          no_records: 
       networks:
         one: Julkaisukanava
         other: Julkaisukanavat
