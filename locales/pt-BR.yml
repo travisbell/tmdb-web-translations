@@ -1873,7 +1873,11 @@ pt-BR:
     edit:
       page_title: Editando %{name}
       placeholders:
-        country: 
+        country: Selecione um país...
+        genres: Selecione um gênero...
+        job: 
+        keywords: Selecione uma palavra-chave...
+        person: Procurar por uma pessoa...
       tooltips:
         bible: Para obter ajuda na edição de informações no TMDb, clique nesta '?' para ler a Bíblia do Colaborador.
         homepage: Somente sites oficiais, páginas de fãs não são permitidas.
@@ -1970,25 +1974,27 @@ pt-BR:
     tv_season:
       edit:
         create_episode: Criar episódio
+        episodes:
+          no_records: 
         screened_confirm: Se esta temporada foi exibida em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Esta Temporada foi exibida em cinemas ou festivais?
     tv_show:
       create_season: Criar temporada
       edit:
         content_ratings:
-          no_records: 
+          no_records: Nenhuma classificação indicativa foi adicionada.
         creator:
           no_records: Nenhum criador foi adicionado.
         crew:
           no_season: 
         networks:
-          no_records: 
-          none_found: 
+          no_records: Nenhuma emissora foi adicionada.
+          none_found: Nenhuma emissora correspondente foi encontrada. Deseja criá-la?
         regular_cast:
-          no_records: 
+          no_records: Nenhum membro do elenco principal foi adicionado.
           no_season: 
         seasons:
-          no_records: 
+          no_records: Nenhuma temporada foi adicionada.
       networks:
         one: Emissora
         other: Emissoras

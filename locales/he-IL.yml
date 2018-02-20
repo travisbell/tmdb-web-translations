@@ -1872,7 +1872,11 @@ he-IL:
     edit:
       page_title: "ערוך את %{name}"
       placeholders:
-        country: 
+        country: "...בחר מדינה"
+        genres: "...בחר סוגה"
+        job: "...בחר משרה"
+        keywords: "...בחר מילת מפתח"
+        person: "...חפש אדם"
       tooltips:
         bible: .לחץ על '?' כדי לקרוא את תנ"ך התרומה לקהילה ,TMDb לעזרה בעריכת מידע באתר
         homepage: "עמודי בית רשמיים בלבד. עמודי מעריצים אינם מותרים."
@@ -1896,9 +1900,9 @@ he-IL:
     movie:
       edit:
         alternative_titles:
-          no_records: 
+          no_records: "לא התווספו כותרות חלופיות"
         cast:
-          no_records: 
+          no_records: "לא התווספו שחקנים"
         confirm_collection: |-
           <p>בזמן שזה לעיתים שנוי במחלוקת, אוספים אינם אמורים להיות דרך לקיבוץ סרטים מאותו "יקום". בשביל זה, אנא <a href="%{list_link}" target="_blank" rel="noopener">צור רשימה</a>. למידע נוסף אודות אוספים אתה יכול לבקר <a href="%{docs_link}" target="_blank" rel="noopener">בתיעוד שלנו</a> .TMDb-אוספים הם דרך נוחה לקיבוץ המשכים יחד ב</p>
 
@@ -1908,7 +1912,7 @@ he-IL:
 
           <p>.אם תוכן זה הוא לדוגמה אוסף די-וי-די, סרטון כושר או אולי די-וי-די "המיטב", אז עליך לסמן אותו בתור וידיאו</p>
         crew:
-          no_records: 
+          no_records: "לא התווספו אנשי צוות"
         genres:
           add_genre: "הוסף סוגה"
           no_records: "לא התווספו סוגות"
@@ -1919,9 +1923,9 @@ he-IL:
           none_found: "לא נמצאה מילת מפתח תואמת. האם אתה רוצה ליצור אותה?"
           tip: "בתור קו מנחה כללי, חשוב על דברים העוזרים לתאר את העלילה, נושאים כללים ומצבי רוח"
         release_information:
-          no_records: 
+          no_records: "לא התווספו תאריכי שחרור"
         videos:
-          no_records: 
+          no_records: "לא התווספו סרטונים"
     network:
       edit:
         alternative_names: "שמות חלופיים"
@@ -1969,25 +1973,27 @@ he-IL:
     tv_season:
       edit:
         create_episode: "צור פרק"
+        episodes:
+          no_records: "לא התווספו פרקים"
         screened_confirm: "במקרה שעונה זו הוקרנה בפסטיבל סרטים או בתיאטרון, לחץ 'כן' כדי להמשיך."
         screened_label: "האם עונה זו הוקרנה באופן קולנועי?"
     tv_show:
       create_season: "צור עונה"
       edit:
         content_ratings:
-          no_records: 
+          no_records: "לא התווספו דירוגי תוכן"
         creator:
-          no_records: 
+          no_records: "לא התווספו יוצרים"
         crew:
-          no_season: 
+          no_season: "לא קיימות עונות! נדרשת עונה כדי להוסיף אנשי צוות"
         networks:
-          no_records: 
-          none_found: 
+          no_records: "לא התווספו רשתות"
+          none_found: "?לא נמצאו רשתות תואמות. האם אתה רוצה ליצור אותה"
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: "לא התווספו שחקנים קבועים"
+          no_season: "לא קיימות עונות! נדרשת עונה כדי להוסיף שחקנים קבועים"
         seasons:
-          no_records: 
+          no_records: "לא התווספו עונות"
       networks:
         one: "רשת"
         other: "רשתות"
@@ -2263,7 +2269,7 @@ he-IL:
       accent_color: "צבע הבלטה"
       avatar:
         current_avatar: "יצגן נוכחי"
-        explain: 
+        explain: כרגע, האפשרות היחידה שיש לנו להציג יצגן מותאם אישית היא ע"י שירות הנקרא <a href="https://www.gravatar.com/" target="_blank">גרוואטר</a>. אם אתה רוצה להציג יצגן מותאם אישית באתר, תצטרך להירשם בחשבון בגרוואטר ולוודא שאתה מוסיף את אותה כתובת דוא"ל שהשתמשת כאן (כך אנחנו יכולים לקשר את חשבונך). ברגע שזה נעשה, לחץ על הכפתור עדכן למטה ואנחנו נתפוס את התמונה החדשה שלך
         explain_gravatar: אם אתה רוצה להשתמש ב<a href="https://www.gravatar.com/" target="_blank">גראווטר</a> בתור הספק של היצגן שלך, וודא שיש לך את אותה כתובת דוא"ל שהשתמשת כאן ובגראווטר. ברגע שזה נעשה (והעלת תמונה כמובן), לחץ על הכפתור עדכן למטה וננסה לתפוס את תמונתך החדשה.
         not_found: "לא נמצא יצגן."
         not_found_add: לא נמצא יצגן. האם תרצה <a href="#">להוסיף אחד</a>?
