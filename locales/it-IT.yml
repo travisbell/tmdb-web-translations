@@ -99,14 +99,14 @@ it-IT:
   Community: Community
   Community Data: Dati della Community
   Community Guidelines: Linee guida della Community
-  Companies: Compagnie
+  Companies: Società
   Company Results: Risultati Società
   Confirm: Conferma
   Confirm Your Application: Conferma la tua applicazione
   Contact Email: Email di Contatto
   Contact Us: Contattaci
   Content Ratings: Classificazioni del Contenuto
-  Content Score: Punteggio Contenuto
+  Content Score: Valutazione Contenuto
   Continue: Continua
   Contribution leaders for the week of: Maggiori contributori della settimana
   Convert to Collection?: Convertire in Collezione?
@@ -174,7 +174,7 @@ it-IT:
   Extra Details: Maggiori Dettagli
   Extras: Extra
   FAQ: FAQ
-  Facts: Avvenimenti
+  Facts: Info
   Fallback Language: Lingua di Riserva
   Favorite: Preferito
   Favorite Movies: Films Preferiti
@@ -347,7 +347,7 @@ it-IT:
   Premiere: Première
   Preview: Anteprima
   Previous Episode: Episodio precedente
-  Primary Color: Colore Primario
+  Primary Color: Colore Principale
   Primary Facts: Informazioni Base
   Privacy Policy: Politica Privacy
   Production Code: Codice di Produzione
@@ -407,7 +407,7 @@ it-IT:
   Search for a keyword: Cerca una parola chiave
   Search for a language: Cerca una lingua...
   Search for a movie or TV show: Cerca un film o una serie Tv
-  Search for a movie, TV show, person: Cerca un film, serie TV, personaggio...
+  Search for a movie, TV show, person: Cerca un film, serie tv, personaggio...
   Season: Stagione
   Season Number: Stagione numero
   Season Overview: Osservazione della stagione
@@ -467,7 +467,7 @@ it-IT:
   Teaser: Teaser
   Teasers: Teasers
   Television: Televisione
-  Terms of Use: Condizioni d'Uso
+  Terms of Use: Condizioni d'uso
   The Basics: Le basi
   Theatrical: Teatrale
   Theatrical (limited): Teatrale (limitato)
@@ -528,7 +528,7 @@ it-IT:
   Year: Anno
   'Yes': Si
   Your lists: Le tue liste
-  Your rating: Il tuo punteggio
+  Your rating: Il tuo voto
   Zip Code: Cap
   account_drop_down:
     discussions: Discussioni
@@ -1213,45 +1213,45 @@ it-IT:
       tv: tv
     collection:
       collection: Collezioni
-      collection_bible: Collezione Bibbia
+      collection_bible: 'Guida Collezione '
       tall_bible:
-        bottom: Bibbia
+        bottom: Guida
         top: Collezione
-    contribution_bible: Contributo Bibbia
+    contribution_bible: Guida Contributi
     featured_articles: Articoli in Primo Piano
     general:
       general: Generale
-      general_bible: Bibbia Generale
+      general_bible: Guida Generale
     image:
       image: Immagini
-      image_bible: Immagine Bibbia
+      image_bible: Guida Immagine
     movie:
       movie: Film
-      movie_bible: Film Bibbia
+      movie_bible: Guida Film
       tall_bible:
-        bottom: Bibbia
+        bottom: Guida
         top: Film
     new_content:
       new_content: Nuovo contenuto
-      new_content_bible: Nuovo contenuto Bibbia
+      new_content_bible: Guida Nuovo Contenuto
     note: Nota
     people:
       people: Persone
-      people_bible: Persone Bibbia
+      people_bible: Guida Persone
       tall_bible:
-        bottom: Bibbia
+        bottom: Guida
         top: Persone
     pro_tip: Suggerimento
     search:
       placeholder_1: Hai bisogno di aiuto?
     tv:
       tall_bible:
-        bottom: Bibbia
+        bottom: Guida
         top: TV
       tv: TV
-      tv_bible: TV Bibbia
+      tv_bible: Guida TV
     welcome_1: Benvenuto a
-    welcome_2: Il Contributo Bibbia
+    welcome_2: Guida Ai Contributi
   date:
     abbr_day_names:
     - Dom
@@ -1287,8 +1287,8 @@ it-IT:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e %B, %Y"
-      full_month_year: "%M %A"
-      short_month_day_year: "%m %g, %A"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b, %Y"
     month_names:
     - 
     - Gennaio
@@ -1352,7 +1352,7 @@ it-IT:
         api_requests: Richieste API
         api_requests_(professional): Richieste API (Professional)
         api_support: Supporto API
-        content_issues: Problemi di contenuto
+        content_issues: Problemi Contenuti
         general: Generale
         general_chat: Chat generale
         moderator_talk: Parla con un moderatore
@@ -1369,7 +1369,7 @@ it-IT:
     headers:
       discuss: Discutere
       discuss_item: Discuti %{item_title}
-      lets_chat: Parliamo
+      lets_chat: Parliamone
       support: Supporto
       support_title: Supporto The Movie Database
     login_to_be_notified: Accedi per ricevere una notifica sul primo post.
@@ -1385,8 +1385,8 @@ it-IT:
         one: "%{count} risposta (nella pagina %{current_page} di %{total_pages})"
         other: "%{count} risposte (nella pagina %{current_page} di %{total_pages})"
       summary:
-        one: "%{count} discussione, attualmente sulla pagina %{current_page} di %{total_pages}"
-        other: "%{count} discussioni, attualmente sulla pagina %{current_page} di %{total_pages}"
+        one: "%{count} discussione, attualmente a pagina %{current_page} di %{total_pages}"
+        other: "%{count} discussioni, attualmente a pagina %{current_page} di %{total_pages}"
     post:
       delete: Elimina
       edit: Modifica
@@ -1413,9 +1413,9 @@ it-IT:
     report_violation: Segnala violazione
     search:
       advanced_search: Ricerca avanzata
-      search_closed: Ricerca chiusa?
+      search_closed: Cerca tra domande chiuse?
       search_forums: Cerca nei forum ...
-      search_open: Ricerca aperta?
+      search_open: Cerca tra domande aperte?
     statuses:
       closed: Chiuso
       open: Aperto
@@ -1470,7 +1470,7 @@ it-IT:
     min: Filtra per Data di Rilascio (Min)
   homepage:
     discussions:
-      catch_up_now: Recupera ora.
+      catch_up_now: Facciamo due chiacchiere.
       discussions: Discussioni
     tv_shows:
       episode_airs:
@@ -1897,7 +1897,7 @@ it-IT:
       no_logos: Non ci sono loghi aggiunti a questa voce.
       no_posters: Nessun poster aggiunto a questa voce.
       no_profiles: Non ci sono profili aggiunti a questa voce.
-      primary: Primario?
+      primary: Principale?
     keyword:
       movie_page_title: '"%{name}" Film'
       tv_page_title: '"%{name}" Serie Tv'
@@ -1944,7 +1944,7 @@ it-IT:
           confirm_merge: Conferma Unione
           merge: Unisci
           next: Prossimo
-        primary_facts: Fatti Primari
+        primary_facts: Informazioni Base
         upload_logo: Carica un logo
       logos: Loghi
       name: Nome
@@ -1978,7 +1978,7 @@ it-IT:
         by: Scritto da %{username} il %{date}
         featured_review: Recensione in primo piano
         no_review:
-          logged_in: Non abbiamo recensioni per %{title}. Ti piacerebbe <a href="%{url}"> scriverne uno </a>?
+          logged_in: Non abbiamo recensioni per %{title}. Ti piacerebbe <a href="%{url}">scriverne una</a>?
           public: Non abbiamo recensioni per %{title}.
         read_all: Leggi tutte le recensioni
         read_the_rest: leggi il resto.
@@ -2048,8 +2048,8 @@ it-IT:
       top_rated: Più Votati
   no_biography: Non abbiamo una biografia per %{name}.
   no_cast: Non abbiamo aggiunto cast a questo %{media_type}. Puoi aiutare aggiungendo qualcuno!
-  no_collection_search_results: Non ci sono collezioni che corrispondano alla tua richiesta.
-  no_company_search_results: Non ci sono società che corrispondano alla tua richiesta.
+  no_collection_search_results: Non ci sono collezioni che corrispondano alla tua ricerca.
+  no_company_search_results: Non ci sono società che corrispondano alla tua ricerca.
   no_contributors: Nessun contributore trovato.
   no_created_lists: Non hai creato nessuna lista.
   no_crew: Non abbiamo membri troupe aggiunti a questo %{media_type}. Puoi aiutare aggiungendo qualcuno!
@@ -2064,13 +2064,13 @@ it-IT:
     public: "%{username} non ha serie Tv preferite."
   no_genres: Nessun genere è stato aggiunto.
   no_guest_stars: Non sono state aggiunte guest stars.
-  no_keyword_search_results: Non ci sono parole chiavi che corrispondano alla tua richiesta.
+  no_keyword_search_results: Non ci sono parole chiavi che corrispondano alla tua ricerca.
   no_keywords: Non sono state aggiunte parole chiave.
-  no_list_search_results: Non ci sono liste che corrispondano alla tua richiesta.
+  no_list_search_results: Non ci sono liste che corrispondano alla tua ricerca.
   no_media: Nessun video, sfondo o poster sono stati aggiunti a %{title}.
-  no_movie_search_results: Non ci sono film che corrispondano alla tua richiesta.
+  no_movie_search_results: Non ci sono film che corrispondano alla tua ricerca.
   no_overview: Non abbiamo una descrizione tradotta in inglese. Aiutaci ad espandere il nostro database aggiungendone una.
-  no_person_search_results: Non ci sono persone che corrispondano alla tua richiesta.
+  no_person_search_results: Non ci sono persone che corrispondano alla tua ricerca.
   no_personal_recommendations:
     movie: Per ottenere consigli sui film, inizia aggiungendo tutti i tuoi film preferiti. A questo punto, probabilmente noterai che molti dei film che consigliamo sono quelli che hai visto. Per filtrarli, valutali! Una volta valutato lo escluderemo.
     tv: Per ottenere consigli TV personalizzati inizia aggiungendo tutti i tuoi film preferiti. A questo punto, probabilmente noterai che molti dei programmi TV che consigliamo sono quelli che hai visto. Per filtrarli, valutali! Una volta valutato lo escluderemo.
@@ -2084,7 +2084,7 @@ it-IT:
     movie: Non disponiamo di dati sufficienti per suggerire film basati su %{title}. Puoi aiutare valutando i film che hai visto.
     tv_show: Non disponiamo di dati sufficienti per suggerire serie Tv basate su %{title}. Puoi aiutare valutando le serie Tv che hai visto.
   no_records: Nessun record è stato aggiunto.
-  no_tv_search_results: Non ci sono serie TV che corrispondano alla tua richiesta.
+  no_tv_search_results: Non ci sono serie TV che corrispondano alla tua ricerca.
   no_watchlist_movies:
     current_user: Non hai aggiunto nessun film alla tua watchlist.
     public: Questa watchlist è vuota.
@@ -2163,7 +2163,7 @@ it-IT:
     one: "%{count} voto"
     other: "%{count} voti"
   pagination:
-    currently_on: Attualmente sulla pagina %{current_page} di %{total_pages}
+    currently_on: Attualmente a pagina %{current_page} di %{total_pages}
     last_page: Ultima pagina
     load_more: Carica altro
     next_page: Prossima pagina
@@ -2357,7 +2357,7 @@ it-IT:
   success_email: La tua email è stata inviata.
   success_image_rated: Hai valutato l'immagine con successo.
   success_image_uploaded: L'immagine è stata caricata con successo.
-  success_rating: Il tuo punteggio è stato salvato.
+  success_rating: Il tuo voto è stato salvato.
   success_registration: La tua registrazione è stata completata con successo.
   success_report: La tua segnalazione è stata inviata con successo.
   success_saved: Le tue modifiche sono state salvate correttamente.

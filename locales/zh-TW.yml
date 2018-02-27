@@ -284,7 +284,7 @@ zh-TW:
   Movies: "電影"
   Name: "名字"
   Network: "電視網"
-  Networks: 
+  Networks: "電視網"
   New: "最新"
   New episode airs in: "新一集上映於"
   News: "新聞"
@@ -1444,13 +1444,13 @@ zh-TW:
   episode_number_name: "第 %{episode_number} 集"
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: "無法處理本圖片"
+      not_jpeg: "檔案格式不是 JPEG"
+      not_png: "檔案格式不是 PNG"
+      not_svg: "檔案格式不是 SVG"
     locked:
-      genres: 
-      keywords: 
+      genres: "影片流派區域已被鎖定"
+      keywords: "關鍵字區域已被鎖定"
     messages:
       blank: "必填"
       inclusion: "必須選擇"
@@ -1872,13 +1872,13 @@ zh-TW:
     edit:
       page_title: "編輯 %{name}"
       placeholders:
-        country: 
-        genres: 
-        job: 
-        keywords: 
-        networks: 
-        person: 
-        production_companies: 
+        country: "請選城市..."
+        genres: "請選流派..."
+        job: "請選工作..."
+        keywords: "請選關鍵字..."
+        networks: "根據電視網做搜尋..."
+        person: "根據人物做搜尋..."
+        production_companies: "根據製作公司做搜尋..."
       tooltips:
         bible: "有關編輯 TMDb 資訊，若需要幫助請點擊 '?' 按鈕"
         homepage: "僅開放官方網站登錄，不包含粉絲專頁"
@@ -1902,9 +1902,9 @@ zh-TW:
     movie:
       edit:
         alternative_titles:
-          no_records: 
+          no_records: "無任何替代標題添加的紀錄"
         cast:
-          no_records: 
+          no_records: "無任何演員被添加的紀錄"
         confirm_collection: |-
           <p>特集是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但特集並非以「電影宇宙」的方式來作分組的依據。若您了解特集的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立特集</a>. 若您想要了解更多關於特集的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
 
@@ -1914,42 +1914,42 @@ zh-TW:
 
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片</p>
         crew:
-          no_records: 
+          no_records: "無任何劇組人員被添加的紀錄"
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: "新增流派"
+          no_records: "無任何流派被添加的紀錄"
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
-          tip: 
+          add_keyword: "新增關鍵字"
+          create: "新增"
+          no_records: "沒有添加任何關鍵字"
+          none_found: "無搜尋到任何關鍵字。想要新增關鍵字嗎？"
+          tip: "作為一般指導的原則，新增的關鍵字需有助於描述劇情、一般主題和影片情緒的內容"
         production_information:
-          add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          add_production_company: "新增製作公司"
+          no_records: "沒有添加任何製作公司"
+          none_found: "無搜尋到任何製作公司。想要新增製作公司嗎？"
+          production_company: "製作公司"
         release_information:
-          no_records: 
+          no_records: "沒有添加上映日期"
         videos:
-          no_records: 
+          no_records: "沒有添加影片"
     network:
       edit:
         alternative_names: "替代名稱"
         logos: "標誌"
         merge:
-          choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
+          choose_destination: "選擇紀錄的目的地"
+          confirm_merge: "確認合併"
+          merge: "合併"
+          next: "下一步"
         primary_facts: "主要事實"
         upload_logo: "更新標誌"
       logos: "標誌"
       name: "名稱"
       other_shows_on: "於 %{name} 上觀看更多影集..."
       search:
-        no_results: 
-        results: 
+        no_results: "沒有符合搜尋的電視網"
+        results: "搜尋出的電視網如下"
       tv_page_title: "在 %{name} 上的電視影集"
       upload_logo: "更新標誌"
     number_of_movies:
@@ -1961,7 +1961,7 @@ zh-TW:
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: "沒有添加任何替代名字"
     rating:
       rated_with_rating: "評分 %{value}"
     social_panel:
@@ -1986,7 +1986,7 @@ zh-TW:
     tv_episode:
       edit:
         guest_stars:
-          no_records: 
+          no_records: "沒有添加客串演員"
         screened_as_part_of_season: "此集數為本季內容"
         screened_confirm: 若本集內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: "本集內容曾經於劇院或電影院播映嗎？"
@@ -1994,31 +1994,31 @@ zh-TW:
       edit:
         create_episode: "建立單集內容"
         episodes:
-          no_records: 
+          no_records: "沒有添加影集"
         screened_confirm: 若本季內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: "本季內容曾經於劇院或電影院播映嗎？"
     tv_show:
       create_season: "建立單季內容"
       edit:
         alternative_names:
-          no_records: 
+          no_records: "沒有添加任何替代名字"
         content_ratings:
-          no_records: 
+          no_records: "沒有添加內容分級"
         creator:
-          no_records: 
+          no_records: "沒有添加創作者"
         crew:
-          no_season: 
+          no_season: "此影集沒有任何季的資料，每季的資料中需包含劇組人員。"
         networks:
-          no_records: 
-          none_found: 
+          no_records: "沒有添加電視網"
+          none_found: "沒有找到任何電視網資料，想要新增一個嗎？"
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: "沒有添加常規演員資料"
+          no_season: "此影集沒有任何季的資料，每季的資料中需包含常規演員名單。"
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: "新增片長時間？"
+          enter_value: "請輸入分鐘的資料"
         seasons:
-          no_records: 
+          no_records: "沒有添加每季的資料"
       networks:
         one: "電視網"
         other: "電視網"
