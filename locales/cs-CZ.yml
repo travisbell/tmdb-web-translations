@@ -554,8 +554,8 @@ cs-CZ:
         people: Lidé
         tv: Televize
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Má nedávná aktivita
+        public: Nedávná aktivita uživatele %{username}
       table:
         action: Akce
         edit: Upravit
@@ -568,15 +568,15 @@ cs-CZ:
       my_discussions: Mé diskuse
       not_watching: Nesledujete žádné diskuse.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mé diskuse
+        public: Diskuse uživatele %{username}
     favorites:
       my_favorites:
         logged_in: Mé oblíbené
         public: Oblíbené uživatele %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mé oblíbené
+        public: Oblíbené uživatele %{username}
     filter_by: 'Filtrovat podle:'
     filters:
       date_added: Datum přidání
@@ -597,8 +597,8 @@ cs-CZ:
         logged_in: Nevytvořili jste žádné seznamy.
         public: Uživatel %{username} nemá žádné veřejné seznamy ke sdílení.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mé seznamy
+        public: Seznamy uživatele %{username}
     member_since: "Členem od %{date}"
     navigation:
       discussions: Diskuse
@@ -629,8 +629,8 @@ cs-CZ:
       total_ratings: Celkem hodnocení
       upcoming_watchlist: Nadcházející ze seznamu ke zhlédnutí
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Můj profil
+      public: Profil uživatele %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Má hodnocení
@@ -639,14 +639,14 @@ cs-CZ:
         logged_in: Mé recenze
         public: Recenze uživatele %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Má hodnocení a recenze
+        public: Hodnocení a recenze uživatele %{username}
       ratings_by_year: Hodnocení podle roku
     recommendations:
       my_recommendations: Má doporučení
       no_recommendations: Nemáme dostatek dat pro návrh doporučení.
       no_recommendations_helper: Přidejte o něco více oblíbených (čím více, tím lépe) a zkuste se sem vrátit, jestli to nebude lepší.
-      page_title: 
+      page_title: Doporučení
     tips:
       import_imdb_ratings: Můžete importovat svá hodnocení z IMDb.
       tip: Tip
@@ -662,8 +662,8 @@ cs-CZ:
         one: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející seriály. Ve vašem seznamu je však %{count} položka.
         other: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející seriály. Ve vašem seznamu je však %{count} položek.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Můj seznam ke zhlédnutí
+        public: Seznam ke zhlédnutí uživatele %{username}
       this_month: Tento měsíc
       this_week: Tento týden
       view_them: Zobrazit je.
@@ -676,7 +676,7 @@ cs-CZ:
     biography: Biografie
     certification: Certifikace
     external_href: URL
-    homepage: 
+    homepage: Domovská stránka
     iso_3166_1: Země
     iso_639_1: Jazyk
     normalized_email: E-mail
@@ -1417,7 +1417,7 @@ cs-CZ:
     search:
       advanced_search: Rozšířené hledání
       search_closed: Hledat uzavřené?
-      search_forums: 
+      search_forums: Hledat na fóru...
       search_open: Hledat otevřené?
     statuses:
       closed: Uzavřeno
@@ -1428,7 +1428,7 @@ cs-CZ:
       status: Stav
       subject: Předmět
     users_in_discussion:
-      no_subscribers: 
+      no_subscribers: "Žádní odběratelé"
       users_in_discussion: Uživatelé v této diskusi
     your_account: Váš účet
   dont_fallback: "Žádný (Bez záložního)"
@@ -1450,19 +1450,19 @@ cs-CZ:
   episode_number_name: "%{episode_number}. epizoda"
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Obrázek nemohl být zpracován
+      not_jpeg: Obrázek není JPEG
+      not_png: Obrázek není PNG
+      not_svg: Obrázek není SVG
     locked:
-      genres: 
-      keywords: 
+      genres: Pole žánrů je uzamčeno
+      keywords: Pole klíčových slov je uzamčeno
     messages:
       blank: je vyžadováno
       inclusion: musí být vybráno
       invalid: je neplatný
       required: musí existovat
-      suspected_tv_series: 
+      suspected_tv_series: vypadá jako existující seriál nebo minisérie. Pokud jste si jisti, můžete tuto položku přesto přidat, ale pokud již v naší sekci TV existuje, bude odebrána.
       taken: je již použito
   failed_email: Váš e-mail se nepodařilo odeslat.
   failed_generic: Došlo k problému.
@@ -1474,7 +1474,7 @@ cs-CZ:
     min: Filtrovat podle data vydání (minimálně)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Proberte to nyní.
       discussions: Diskuse
     tv_shows:
       episode_airs:
