@@ -284,7 +284,7 @@ cs-CZ:
   Movies: Filmy
   Name: Název
   Network: Stanice
-  Networks: 
+  Networks: Stanice
   New: Nové
   New episode airs in: Nové epizody se vysílají za
   News: Zprávy
@@ -320,7 +320,7 @@ cs-CZ:
   People: Lidé
   People Results: Nalezení lidé
   Person: Osoba
-  Personal: Osoba
+  Personal: Osobní
   Personal Info: Osobní informace
   Personal Recommendations: Osobní doporučení
   Phone Number: Telefonní číslo
@@ -407,7 +407,7 @@ cs-CZ:
   Search for a keyword: Hledat klíčové slovo
   Search for a language: Hledat jazyk…
   Search for a movie or TV show: Hledat film nebo seriál
-  Search for a movie, TV show, person: Hledat film, seriál, osobu
+  Search for a movie, TV show, person: Hledat film, seriál, osobu...
   Season: Sezóna
   Season Number: "Číslo sezóny"
   Season Overview: Přehled sezóny
@@ -1878,19 +1878,19 @@ cs-CZ:
   login_to_edit: Pro úpravu se přihlaste
   media:
     edit:
-      page_title: 
+      page_title: Upravit %{name}
       placeholders:
-        country: 
-        genres: 
+        country: Vyberte zemi...
+        genres: Vyberte žánr...
         job: 
-        keywords: 
-        networks: 
-        person: 
+        keywords: Vyberte klíčové slovo...
+        networks: Hledat stanici...
+        person: Hledat osobu...
         production_companies: 
       tooltips:
         bible: 
         homepage: Pouze oficiální domovská stránka. Fanouškovské stránky nejsou povoleny.
-        logo_format: 
+        logo_format: Je podporováno SVG a PNG. Upřednostňováno je SVG, protože není závislé na rozlišení.
         original_title: Původní název by měl být zadán v původním jazyce položky. Ve většině případů to bude odpovídat jazyku zadanému v poli „původní jazyk“.
         overview: Při psaní přehledu se pokuste, aby byl krátký, stručný a neprozrazoval zápletku.
         social_links: Sociální odkazy slouží pouze pro oficiální (ověřené) stránky. Fanouškovské stránky nejsou povoleny.
@@ -1898,11 +1898,11 @@ cs-CZ:
       movie_page_title: 
       tv_page_title: 
     images:
-      format: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
+      format: Formát
+      no_backdrops: K této položce nejsou přidána žádná pozadí.
+      no_logos: K této položce nejsou přidána žádná loga.
+      no_posters: K této položce nejsou přidány žádné plakáty.
+      no_profiles: K této položce nejsou přidány žádné profily.
       primary: 
     keyword:
       movie_page_title: 
@@ -1910,9 +1910,9 @@ cs-CZ:
     movie:
       edit:
         alternative_titles:
-          no_records: 
+          no_records: Nebyly přidány žádné alternativní žánry.
         cast:
-          no_records: 
+          no_records: Nebyli přidáni žádní členové obsazení.
         confirm_collection: |-
           <p>Kolekce jsou vhodným způsobem seskupování pokračování na TMDb. I když je to někdy kontroverzní, kolekce nejsou zamýšleny jako způsob seskupování filmů ze stejného „vesmíru“. Za tímto účelem <a href="%{list_link}" target="_blank" rel="noopener">vytvořte seznam</a>. Více informací o kolekcích naleznete v <a href="%{docs_link}" target="_blank" rel="noopener">naší dokumentaci</a>.</p>
 
@@ -1922,45 +1922,48 @@ cs-CZ:
 
           <p>Pokud je tento obsah například kompilací DVD, cvičební video nebo třeba DVD s výběrem „toho nejlepšího“, pak byste ho měli označit jako video.</p>
         crew:
-          no_records: 
+          no_records: Nebyli přidáni žádní členové štábu.
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Přidat žánr
+          no_records: Nebyly přidány žádné žánry.
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
+          add_keyword: Přidat klíčové slovo
+          create: Vytvořit
+          no_records: Nebyla přidána žádná klíčová slova.
+          none_found: Nebylo nalezeno žádné odpovídající klíčové slovo. Chcete ho vytvořit?
           tip: 
         production_information:
-          add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          add_production_company: Přidat produkční společnost
+          no_records: Nebyly přidány žádné produkční společnosti.
+          none_found: Nebyly nalezeny žádné odpovídající společnosti. Chcete ji vytvořit?
+          production_company: Produkční společnost
         release_information:
-          no_records: 
+          no_records: Nebyla přidána žádná data vydání.
         videos:
-          no_records: 
+          no_records: Nebyla přidána žádná videa.
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Alternativní názvy
+        logos: Loga
         merge:
           choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
+          confirm_merge: Potvrdit sloučení
+          merge: Sloučit
+          next: Další
         primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+        upload_logo: Nahrát logo
+      logos: Loga
+      name: Název
+      other_shows_on: Zobrazit více seriálů od %{name}...
       search:
-        no_results: 
-        results: 
-      tv_page_title: 
-      upload_logo: 
-    number_of_movies: 
+        no_results: Vašemu dotazu neodpovídají žádné stanice.
+        results: Výsledky stanic
+      tv_page_title: Seriály na %{name}
+      upload_logo: Nahrát logo
+    number_of_movies:
+      few: "%{count} filmy"
+      one: "%{count} film"
+      other: "%{count} filmů"
     number_of_shows:
       few: "%{count} seriály"
       one: "%{count} seriál"
@@ -1968,7 +1971,7 @@ cs-CZ:
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: Nebyly přidány žádné alternativní názvy.
     rating:
       rated_with_rating: Hodnoceno %{value}
     social_panel:
@@ -1979,17 +1982,17 @@ cs-CZ:
         want_to_be_notified: Chcete obdržet oznámení, když někdo vytvoří první příspěvek?
         yes_notify_me: Ano, oznámit mi to!
       reviews:
-        a_review_by: 
-        by: 
+        a_review_by: Recenze od uživatele %{username}
+        by: Napsal uživatel %{username} %{date}
         featured_review: Vybraná recenze
         no_review:
           logged_in: Nemáme žádné recenze pro %{title}. Nechtěli byste <a href="%{url}">nějakou napsat</a>?
           public: Nemáme žádné recenze pro %{title}.
         read_all: "Číst všechny recenze"
-        read_the_rest: 
+        read_the_rest: přečíst zbytek
         write_review:
           logged_in: Napsat recenzi
-          public: 
+          public: Pro napsání recenze se přihlaste.
     tv_episode:
       edit:
         guest_stars:
@@ -1999,34 +2002,37 @@ cs-CZ:
         screened_label: Byla tato epizoda vysílána v kině?
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Vytvořit epizodu
         episodes:
-          no_records: 
+          no_records: Nebyly přidány žádné epizody.
         screened_confirm: Pokud byla tato sezóna vysílána na filmovém festivalu nebo v kině, klikněte na ‚Ano‘ pro pokračování.
         screened_label: Byla tato sezóna vysílána v kině?
     tv_show:
-      create_season: 
+      create_season: Vytvořit sezónu
       edit:
         alternative_names:
-          no_records: 
+          no_records: Nebyly přidány žádné alternativní názvy.
         content_ratings:
-          no_records: 
+          no_records: Nebyla přidána žádná hodnocení obsahu.
         creator:
-          no_records: 
+          no_records: Nebyli přidáni žádní tvůrci.
         crew:
-          no_season: 
+          no_season: Neexistují žádné sezóny! Pro přidání členů štábu je vyžadována nějaká sezóna.
         networks:
-          no_records: 
-          none_found: 
+          no_records: Nebyly přidány žádné stanice.
+          none_found: Nebyly nalezeny žádné odpovídající stanice. Chcete ji vytvořit?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: Nebyli přidáni žádní pravidelní členové obsazení.
+          no_season: Neexistují žádné sezóny. Pro přidání pravidelných členů obsazení je vyžadována nějaká sezóna.
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: Přidat novou délku?
+          enter_value: Zadejte hodnotu v minutách
         seasons:
-          no_records: 
-      networks: 
+          no_records: Nebyly přidány žádné sezóny.
+      networks:
+        few: Stanice
+        one: Stanice
+        other: Stanice
   month:
     few: "%{count} měsíce"
     one: měsíc
@@ -2189,7 +2195,7 @@ cs-CZ:
   person:
     credits:
       as_character: jako %{character}
-      as_job: 
+      as_job: "– %{job}"
   resend_verification_email_text: Chybí vám e-mail s ověřením vašeho účtu? Zadejte níže své uživatelské jméno a nechte si ho znovu poslat.
   reset_password_dialog_text: Potvrzením této žádosti vám bude zaslán e-mail s pokyny pro obnovení vašeho hesla. Opravdu to chcete udělat?
   reset_password_text: Níže zadejte své uživatelské jméno pro spuštění procesu obnovení hesla.
@@ -2256,8 +2262,8 @@ cs-CZ:
         import: Importovat
         previous: Předchozí importy
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: Import dokončen...
+        started_import: Import spuštěn...
       previous:
         date: Datum
         imported: Importováno
