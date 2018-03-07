@@ -1,6 +1,6 @@
 nb-NO:
   "-": "-"
-  3rd Party Applications: 
+  3rd Party Applications: 'tredjeparts-applikasjoner '
   API: 
   API Access Token: 
   API Details: 
@@ -10,10 +10,10 @@ nb-NO:
   API Stats: 
   API Terms: 
   API Updates: 
-  About: 
+  About: Om
   About TMDb: Om TMDb
-  About this list: 
-  Accept: 
+  About this list: Om denne listen
+  Accept: Godta
   Accept API Terms: 
   Account: Konto
   Account Filtering: 
@@ -115,7 +115,7 @@ nb-NO:
   Create App: 
   Create Application: 
   Create New List: 
-  Create Translation: 
+  Create Translation: Lag oversettelse
   Created By: 
   Credits: 
   Crew: 
@@ -490,7 +490,7 @@ nb-NO:
   Translated Overview: 
   Translated Tagline: 
   Translated Title: 
-  Translations: 
+  Translations: Oversettelser
   Type: 
   Type of Problem: 
   Type of Use: 
@@ -531,36 +531,36 @@ nb-NO:
   Your rating: 
   Zip Code: 
   account_drop_down:
-    discussions: 
+    discussions: Diskusjoner
     edit_profile: 
-    lists: 
-    login: 
-    logout: 
-    settings: 
-    sign_up: 
+    lists: Lister
+    login: Logg inn
+    logout: Logg ut
+    settings: Instillinger
+    sign_up: Registrer ny bruker
     view_profile: 
     watchlist: 
   accounts:
     activity:
-      activity: 
+      activity: Aktivitet
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: Lagt til
+        created: Lagd
+        deleted: Slettet
+        updated: Oppdatert
       media_types:
-        movies: 
-        others: 
-        people: 
-        tv: 
+        movies: Filmer
+        others: Annet
+        people: Personer
+        tv: TV
       page_title:
         page_owner: 
         public: 
       table:
-        action: 
-        edit: 
-        key: 
-        language_abbreviation: 
+        action: Action
+        edit: Rediger
+        key: Nøkkel
+        language_abbreviation: Språk
     average_movie_score: 
     average_tv_score: 
     discussions:
@@ -582,22 +582,22 @@ nb-NO:
       date_added: 
       date_rated: 
       my_rating: 
-      popularity: 
+      popularity: Popularitet
       rating: 
       release_date: 
       score: 
       upcoming: 
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Lag liste
+      last_updated: Oppdatert
       my_lists:
-        logged_in: 
+        logged_in: Mine Lister
         public: 
       no_lists:
-        logged_in: 
+        logged_in: Du har ikke lagd noen lister
         public: 
       page_title:
-        page_owner: 
+        page_owner: Mine Lister
         public: 
     member_since: 
     navigation:
@@ -662,7 +662,7 @@ nb-NO:
       this_week: 
       view_them: 
   add_to_list: 
-  already_translated_in: 
+  already_translated_in: "%{page_title} er allerede oversatt til følgende språk..."
   api_session:
     approved_session: 
     continue: 
@@ -1815,6 +1815,9 @@ nb-NO:
   login_to_create: 
   login_to_edit: 
   media:
+    company:
+      movie_page_title: 
+      tv_page_title: 
     edit:
       page_title: 
       placeholders:
@@ -2080,7 +2083,9 @@ nb-NO:
   number_of_edits: 
   number_of_items: 
   number_of_results: 
-  number_of_translations: 
+  number_of_translations:
+    one: "%{count} oversettelse"
+    other: "%{count} oversettelser"
   number_of_votes: 
   pagination:
     currently_on: 
@@ -2287,7 +2292,9 @@ nb-NO:
     formats:
       12hour_minutes: 
   top_contributors: 
-  translation: 
+  translation:
+    one: oversettelse
+    other: oversettelser
   upload_backdrop: 
   upload_poster: 
   upload_profile: 
