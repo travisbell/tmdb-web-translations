@@ -284,7 +284,7 @@ fi-FI:
   Movies: Elokuvat
   Name: Nimi
   Network: Julkaisukanava
-  Networks: 
+  Networks: Julkaisukanavat
   New: Uusi
   New episode airs in: Uusi jakso esitetään
   News: Uutiset
@@ -1446,13 +1446,13 @@ fi-FI:
   episode_number_name: Jakso %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Emme pystyneet käsittelemään tätä kuvaa
+      not_jpeg: Kuva ei ole JPEG-formaatissa
+      not_png: Kuva ei ole PNG-formaatissa
+      not_svg: Kuva ei ole SVG-formaatissa
     locked:
-      genres: 
-      keywords: 
+      genres: Lajityypin sarake on lukittu
+      keywords: Avainsanojen sarake on lukittu
     messages:
       blank: on pakollinen
       inclusion: pitää olla valittu
@@ -1485,7 +1485,7 @@ fi-FI:
       '3': Kuvasuhde 1:1.5 (2:3)
       '4': Maksimi resoluutio 3840x2160
       '5': Minimi resoluutio 400x225
-      '6': Kuvasuhteen 16x9 (1.78:1) ja 4:3 ovat tuettuja
+      '6': Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
       '7': Minimi resoluutio 1280x720
       '8': Kuvasuhde 16x9 (1.78:1)
       '9': Minimiresoluutio 300x450
@@ -1873,18 +1873,18 @@ fi-FI:
   media:
     company:
       headquarters: 
-      movie_page_title: 
+      movie_page_title: Elokuvat jotka on tuottanut %{name}
       tv_page_title: TV-sarjat kanavalla %{name}
     edit:
       page_title: Muokkaa %{name}
       placeholders:
-        country: 
-        genres: 
-        job: 
-        keywords: 
-        networks: 
-        person: 
-        production_companies: 
+        country: Valitse maa...
+        genres: Valitse lajityyppi...
+        job: Valitse työtehtävä...
+        keywords: Valitse avainsana...
+        networks: Etsi julkaisukanavaa...
+        person: Etsi henkilöä...
+        production_companies: Etsi tuotantoyhtiötä...
       tooltips:
         bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
         homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
@@ -1897,23 +1897,23 @@ fi-FI:
       tv_page_title: "%{name} TV-sarjoissa"
     images:
       format: Tiedostotyyppi
-      no_backdrop_stills: 
+      no_backdrop_stills: Tälle nimikkeelle ei ole lisätty kohtaustaustoja.
       no_backdrops: Tälle nimikkeelle ei ole lisätty yhtään taustaa.
       no_logos: Tälle nimikkeelle ei ole lisätty yhtään logoa.
       no_posters: Tälle nimikkeelle ei ole lisätty yhtään julistetta.
       no_profiles: Tälle nimikkeelle ei ole lisätty yhtään profiilia.
       primary: Ensisijainen?
       types:
-        backdrop_stills: 
+        backdrop_stills: Kohtaustaustat
     keyword:
       movie_page_title: "%{name} Elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
     movie:
       edit:
         alternative_titles:
-          no_records: 
+          no_records: Vaihtoehtoisia nimiä ei ole lisätty.
         cast:
-          no_records: 
+          no_records: Näyttelijöitä ei ole lisätty.
         confirm_collection: |-
           <p>Kokoelmat ovat kätevä tapa ryhmittää jatko-osat yhteen. Vaikkakin kiistanalaista, kokoelmat eivät ole tarkoitettu kokoamaan saman "universumin" elokuvia yhteen. Niitä varten voit <a href="%{list_link}" target="_blank" rel="noopener">luoda listan</a>. Saadaksesi lisätietoa kokoelmista, voit tutustua <a href="%{docs_link}" target="_blank" rel="noopener">tukisivustoon</a>.</p>
 
@@ -1923,10 +1923,10 @@ fi-FI:
 
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
         crew:
-          no_records: 
+          no_records: Tekijöitä ei ole lisätty.
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Lisää lajityyppi
+          no_records: Lajityyppejä ei ole lisätty.
         keywords:
           add_keyword: 
           create: 
@@ -1957,7 +1957,7 @@ fi-FI:
       name: Nimi
       other_shows_on: Näytä lisää TV-sarjoja kanavalta %{name}...
       search:
-        no_results: 
+        no_results: Haulla ei löytynyt vastaavia tuotantoyhtiöitä.
         results: 
       tv_page_title: TV-sarjat kanavalla %{name}
       upload_logo: Lisää logo
@@ -1970,7 +1970,7 @@ fi-FI:
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: Vaihtoehtoisia nimiä ei ole lisätty.
     rating:
       rated_with_rating: Pisteytetty %{value}
     social_panel:
@@ -1995,7 +1995,7 @@ fi-FI:
     tv_episode:
       edit:
         guest_stars:
-          no_records: 
+          no_records: Vierailevia tähtiä ei ole lisätty.
         screened_as_part_of_season: Kyllä, osana kautta
         screened_confirm: Jos tämä jakso on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä jakso esitetty elokuvateatterissa?
@@ -2003,42 +2003,42 @@ fi-FI:
       edit:
         create_episode: Luo jakso
         episodes:
-          no_records: 
+          no_records: Jaksoja ei ole lisätty.
         screened_confirm: Jos tämä kausi on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
     tv_show:
       create_season: Luo kausi
       edit:
         alternative_names:
-          no_records: 
+          no_records: Vaihtoehtoisia nimiä ei ole lisätty.
         content_ratings:
-          no_records: 
+          no_records: Ikärajoja ei ole lisätty.
         creator:
-          no_records: 
+          no_records: TV-sarjan luojia ei ole lisätty.
         crew:
-          no_season: 
+          no_season: Ei olemassa olevia kausia! Kausi vaaditaan tekijöiden lisäämiseksi.
         networks:
-          no_records: 
-          none_found: 
+          no_records: Julkaisukanavia ei ole lisätty.
+          none_found: Vastaavia julkaisukanavia ei löytynyt. Haluatko luoda uuden?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: Vakituisia näyttelijöitä ei ole lisätty.
+          no_season: Ei olemassa olevia kausia! Kausi vaaditaan vakituisten näyttelijöiden lisäämiseksi.
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: Lisää uusi kesto?
+          enter_value: Lisää arvo minuutteina
         seasons:
-          no_records: 
+          no_records: Kausia ei ole lisätty.
       networks:
         one: Julkaisukanava
         other: Julkaisukanavat
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      audio_language: "Ääniraidan kieli"
+      channel: Kanava
+      duration: Kesto
+      published: Julkaistu
+      published_at: Julkaistu
+      restricted_regions: Rajoitetut alueet
+      tags: Tunnisteet
   month:
     one: kuukausi
     other: "%{count} kuukautta"
@@ -2048,18 +2048,18 @@ fi-FI:
       movies: Elokuvat
       tv_shows: TV-ohjelmat
     movies:
-      now_playing: Nyt esitettävä
-      popular: Suosittu
+      now_playing: Nyt esitettävät
+      popular: Suositut
       top_rated: Parhaiten arvioidut
       upcoming: Tulossa
     people:
       people: Ihmiset
       popular_people: Suositut ihmiset
     tv_shows:
-      airing_today: Esityspäivä
+      airing_today: Tänään esitettävät
       on_the_air: Esitettävät
       on_tv: Televisiossa
-      popular: Suosittu
+      popular: Suositut
       top_rated: Parhaiten arvioidut
   no_biography: Meillä ei ole henkilön %{name} elämänkertaa.
   no_cast: Meillä ei ole näyttelijöitä lisättynä %{media_type}lle. Voit auttaa lisäämällä heitä!
@@ -2385,8 +2385,8 @@ fi-FI:
   translation:
     one: käännös
     other: käännöstä
-  upload_backdrop: Lähetä tausta
-  upload_poster: Lähetä juliste
-  upload_profile: Lataa profiili
+  upload_backdrop: Lisää tausta
+  upload_poster: Lisää juliste
+  upload_profile: Lisää profiili
   used_by_developers: TMDb on käytössä yli 150 000 kehittäjällä.<br>Alle on listattu heidän töitään.
   view all: näytä kaikki
