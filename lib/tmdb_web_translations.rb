@@ -49,6 +49,7 @@ module TMDb
           'pt' => 'pt-PT',
           'ro' => 'ro-RO',
           'ru' => 'ru-RU',
+          'si' => 'si-LK',
           'sk' => 'sk-SK',
           'sl' => 'sl-SI',
           'sr' => 'sr-RS',
