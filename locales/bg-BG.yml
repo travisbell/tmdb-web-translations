@@ -177,7 +177,7 @@ bg-BG:
 
     ЧЗВ
   Facts: "Факти"
-  Fallback Language: 
+  Fallback Language: "Резервен език"
   Favorite: "Любим"
   Favorite Movies: "Любими филми"
   Favorite TV Shows: "Любими сериали"
@@ -295,7 +295,7 @@ bg-BG:
   'No': "Не"
   None: "Няма"
   Notes: "Бележки"
-  Notifications: 
+  Notifications: "Известия"
   Now Playing Movies: "Излъчвани в момента филми"
   Number of Movies: "Брой филми"
   Number of TV Shows: "Брой сериали"
@@ -1327,11 +1327,11 @@ bg-BG:
     Writing: "Като сценарист"
   discussions:
     actions:
-      actions: 
+      actions: "Действия"
       close_discussion: 
       make_private: 
       make_public: 
-      mark_spam: 
+      mark_spam: "Маркирай като спам"
       reopen_discussion: 
       stop_watching: 
       view_activity: 
@@ -1363,7 +1363,7 @@ bg-BG:
       last_reply_with_datetime_and_username: 
     discussion_activity: 
     email_notifications:
-      email_notifications: 
+      email_notifications: "Имейл известия"
       subscribe: 
       unsubscribe: 
     headers:
@@ -1387,8 +1387,8 @@ bg-BG:
       delete: "Изтриване"
       edit: "Редактиране"
       hide: 
-      ignore: 
-      like: 
+      ignore: "Игнорирай"
+      like: "Харесай"
       messages:
         delete_comment: 
         delete_discussion: 
@@ -1422,8 +1422,8 @@ bg-BG:
       subject: "Тема"
     users_in_discussion:
       no_subscribers: 
-      users_in_discussion: 
-    your_account: 
+      users_in_discussion: "Участници в дискусията"
+    your_account: "Вашият акаунт"
   dont_fallback: 
   edit_list:
     add_edit_items: "Добавяне/Редактиране"
@@ -1868,12 +1868,12 @@ bg-BG:
     company:
       headquarters: 
       movie_page_title: 
-      tv_page_title: 
+      tv_page_title: "Сериали продуцирани от %{name}"
     edit:
       page_title: 
       placeholders:
-        country: 
-        genres: 
+        country: "Изберете държава..."
+        genres: "Изберете жанр..."
         job: 
         keywords: 
         networks: 
@@ -1890,7 +1890,7 @@ bg-BG:
       movie_page_title: 
       tv_page_title: 
     images:
-      format: 
+      format: "Формат"
       no_backdrop_stills: 
       no_backdrops: 
       no_logos: 
@@ -1913,7 +1913,7 @@ bg-BG:
         crew:
           no_records: 
         genres:
-          add_genre: 
+          add_genre: "Добави жанр"
           no_records: 
         keywords:
           add_keyword: 
@@ -1932,7 +1932,7 @@ bg-BG:
           no_records: 
     network:
       edit:
-        alternative_names: 
+        alternative_names: "Алтернативни имена"
         logos: "Лого"
         merge:
           choose_destination: 
@@ -1942,15 +1942,19 @@ bg-BG:
         primary_facts: 
         upload_logo: "Качете лого"
       logos: 
-      name: 
+      name: "Име"
       other_shows_on: 
       search:
         no_results: 
         results: 
       tv_page_title: 
-      upload_logo: 
-    number_of_movies: 
-    number_of_shows: 
+      upload_logo: "Качи лого"
+    number_of_movies:
+      one: "%{count} филм"
+      other: "%{count} филма"
+    number_of_shows:
+      one: "%{count} сериал"
+      other: "%{count} сериала"
     person:
       edit:
         alternative_names:
@@ -2001,6 +2005,10 @@ bg-BG:
           no_records: 
         crew:
           no_season: 
+        episode_groups:
+          create_new_group: 
+          group: 
+          no_records: 
         networks:
           no_records: 
           none_found: 
@@ -2097,10 +2105,10 @@ bg-BG:
   notifications:
     caught_up: 
     clear: 
-    good_job: 
+    good_job: "Добра работа!"
     mark_all_as_read: 
     refresh: 
-    unread_notifications: 
+    unread_notifications: "Непрочетени"
     view: 
   number:
     currency:
@@ -2216,10 +2224,10 @@ bg-BG:
       api: 
       navigation:
         create: 
-        details: 
+        details: "Подробности"
         directory: "Директория"
         sessions: "Сезони"
-        stats: 
+        stats: "Статистика"
     blocked_users:
       action: "Действие"
       blocked_users: "Блокирани потребители"
@@ -2230,12 +2238,12 @@ bg-BG:
       change_email_text: "Въведете новия адрес долу, ако желаете да промените имейла. Преди да влезете, е необходимо да потвърдите новия имейл адрес, като кликнете върху линка за активиране (от имейла който ще получите)."
     connected_apps:
       connected_apps: "Приложения"
-      listed_below_explanation: 
+      listed_below_explanation: "Долу са изброени приложения, на които сте дали права да създават данни, ползвайки вашия акаунт. Можете да премахнете правата когато пожелаете."
       no_apps: "Не сте свързали нито едно приложение с акаунта си."
       table:
         action: "Действия"
         application_name: "Име"
-        date_authorised: 
+        date_authorised: "Дата на разрешаване"
     delete_account:
       delete_account: "Изтриване на акаунта"
       summary_text: 
@@ -2275,14 +2283,14 @@ bg-BG:
         watchlist: "Списък за гледане"
       which_list: 
     navigation:
-      account_settings: 
+      account_settings: "Акаунт"
       api: 
-      blocked_users: 
+      blocked_users: "Блокирани потребители"
       connected_apps: "Свързани приложения"
       delete_account: "Изтриване на акаунта"
-      edit_profile: "Редакция на профила"
+      edit_profile: "Профил"
       import_list: "Внасяне на списък"
-      notification_settings: 
+      notification_settings: "Известия"
       settings: "Настройки"
       sharing_settings: "Настройки за споделяне"
       social_settings: "Социални"
@@ -2290,7 +2298,7 @@ bg-BG:
       email_new_releases_watchlist: 
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
-      notifications: 
+      notifications: "Известия"
     profile:
       accent_color: 
       avatar:
@@ -2308,10 +2316,10 @@ bg-BG:
         upload_window_tip: 
         use_gravatar: 
       background:
-        background_image: 
-        confirm_remove: 
-        remove_background: 
-        set_image: 
+        background_image: "Фоново изображение"
+        confirm_remove: "Моля потвърдете, че желаете премахването на фоновото изображение. Сигурни ли сте?"
+        remove_background: "Ремахване на фоновото изображение?"
+        set_image: "Задаване на фоново изображение?"
       edit_profile: "Редактиране на профила"
     sharing:
       favorite_list:
