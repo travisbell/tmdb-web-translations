@@ -247,7 +247,7 @@ uk-UA:
   List Results: "Список результатів"
   Lists: "Списки"
   Load More: "Завантажити більше"
-  Locked?: 
+  Locked?: "Заблоковано?"
   Login to Add a Backdrop: "Залогінтеся, щоби додати світлини"
   Login to Add a Poster: "Увійдіть, щоб додати постер"
   Login to Add a Video: "Увійдіть, щоб додати відео"
@@ -301,17 +301,17 @@ uk-UA:
   Offensive or Spam: "Образа або спам"
   Offical Site: "Офіційний сайт"
   Opening Credits: 
-  Origin Country: 
+  Origin Country: "Оригінальна країна"
   Original Air Date: 
   Original Ascending: 
   Original Descending: 
   Original Language: "Мова оригіналу"
   Original Movie Language: "Мова оригіналу фільму"
-  Original Name: 
+  Original Name: "Оригінальна назва"
   Original Order: 
   Original TV Show Language: "Мова оригіналу серіалу"
   Original Title: "Оригінальна назва"
-  Other Databases: 
+  Other Databases: "Інші бази даних"
   Our History: "Наша історія"
   Overview: "Опис"
   Page: "Сторінка"
@@ -347,7 +347,7 @@ uk-UA:
   Premiere: 
   Preview: 
   Previous Episode: "Попередня серія"
-  Primary Color: 
+  Primary Color: "Основний колір"
   Primary Facts: "Основні дані"
   Privacy Policy: "Політика Конфіденційності"
   Production Code: 
@@ -404,7 +404,7 @@ uk-UA:
   Search for a company: 
   Search for a country: "Відшукати країну"
   Search for a genre: "Відшукати жанр"
-  Search for a keyword: "Відшукати ключове слово"
+  Search for a keyword: "Шукати ключове слово"
   Search for a language: "Шукати мову..."
   Search for a movie or TV show: "Відшукати фільм або серіал"
   Search for a movie, TV show, person: "Пошук фільму, серіалу, людини"
@@ -689,11 +689,11 @@ uk-UA:
   back_options:
     back: "Назад"
     episode: "Повернутися до серії"
-    episode_list: "Повернутися до списка серій"
+    episode_list: "Повернутися до списку серій"
     home: "Додому"
     main: "На головну"
     season: "Повернутися до сезону"
-    season_list: "Повернутися до списка сезонів"
+    season_list: "Повернутися до списку сезонів"
     to_tmdb: "Повернутися до TMDb"
     top: "Повернутися наверх"
   certifications:
@@ -1460,13 +1460,13 @@ uk-UA:
   episode_number_name: "Серія %{episode_number}"
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: "Неможливо опрацювати це зображення"
+      not_jpeg: "Зображення не в форматі JPEG"
+      not_png: "Зображення не в форматі PNG"
+      not_svg: "Зображення не в форматі SVG"
     locked:
-      genres: 
-      keywords: 
+      genres: Поле "жанри" заблоковано
+      keywords: Поле "ключові слова" заблоковано
     messages:
       blank: "обов'язкове"
       inclusion: "повинне бути вибране"
@@ -1860,44 +1860,45 @@ uk-UA:
     average_rating: "Усереднений рейтинг"
     image_selected: "Вибіркове"
     items_on_list:
-      many: 
-      one: 
-      other: 
-    private: 
-    public: 
-    select_this_image: 
+      few: "позиції в цьому переліку"
+      many: "позицій в цьому переліку"
+      one: "позиція в цьому переліку"
+      other: "позицій в цьому переліку"
+    private: "Приватний"
+    public: "Публічний"
+    select_this_image: "Вибрати це зображення"
     total_revenue: "Загальний прибуток"
-    total_runtime: 
+    total_runtime: "Загальний час"
   list_messages:
-    comment_updated: 
-    image_saved: 
+    comment_updated: "Коментар оновлено!"
+    image_saved: "Зображення збережено!"
     item_added: "елемент додано"
     item_already_added: "елемент доданий раніше"
     item_removed: "елемент видалено"
   list_sort:
-    original_order: 
-    rating: 
+    original_order: "Оригінальний порядок"
+    rating: "Рейтинг"
     release_date: "Дата виходу"
-    title: 
+    title: "Заголовок"
   list_steps:
-    step_1: 
-    step_2: 
-    step_3: 
-    step_4: 
+    step_1: "Крок 1: Деталі списку"
+    step_2: "Крок 2: Додавання позицій"
+    step_3: "Крок 3: Вибір зображення"
+    step_4: "Крок 4: Поділитися"
   login_to_create: "Не вдалося знайти фільм чи серіал? Увійдіть, щоб додати."
   login_to_edit: "Увійдіть для редагування"
   media:
     company:
       headquarters: 
-      movie_page_title: 
+      movie_page_title: "Фільми виробництва %{name}"
       tv_page_title: "Серіали на %{name}"
     edit:
       page_title: "Зміни %{name}"
       placeholders:
-        country: 
+        country: "Вибрати країну..."
         genres: 
         job: 
-        keywords: 
+        keywords: "Вибрати ключове слово..."
         networks: 
         person: 
         production_companies: 
@@ -1918,7 +1919,7 @@ uk-UA:
       no_logos: 
       no_posters: 
       no_profiles: 
-      primary: 
+      primary: "Основне?"
       types:
         backdrop_stills: 
     keyword:
@@ -1942,12 +1943,12 @@ uk-UA:
           no_records: 
         genres:
           add_genre: 
-          no_records: 
+          no_records: "Жанри не додано."
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
+          add_keyword: "Додати ключове слово"
+          create: "Створити"
+          no_records: "Ключові слова не додані"
+          none_found: "Немає результатів з таким ключовим словом. Хочете створити його?"
           tip: 
         production_information:
           add_production_company: 
@@ -1960,18 +1961,18 @@ uk-UA:
           no_records: 
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: "Альтернативні назви"
+        logos: "Логотипи"
         merge:
           choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+          confirm_merge: "Підтвердити об'єднання"
+          merge: "Об'єднати"
+          next: "Наступний"
+        primary_facts: "Основні факти"
+        upload_logo: "Завантажити логотип"
+      logos: "Логотипи"
+      name: "Назва"
+      other_shows_on: "Переглянути інші серіали %{name}..."
       search:
         no_results: 
         results: 
@@ -2040,17 +2041,17 @@ uk-UA:
         episode_groups:
           create_new_group: 
           episode_groups: 
-          episodes: 
-          group: 
-          groups: 
-          name: 
+          episodes: "Серії"
+          group: "Група"
+          groups: "Групи"
+          name: "Назва групи"
           no_records: 
-          type: 
+          type: "Тип"
           types:
-            '1': 
+            '1': "Оригінальна дата виходу"
             '2': 
-            '3': 
-            '4': 
+            '3': DVD
+            '4': "Цифровий"
             '5': 
             '6': 
             '7': 
@@ -2062,9 +2063,9 @@ uk-UA:
           no_season: 
         runtime:
           add_it: 
-          enter_value: 
+          enter_value: "Введіть значення в хвилинах"
         seasons:
-          no_records: 
+          no_records: "Сезони не додано."
       networks: 
     video:
       audio_language: 
@@ -2221,7 +2222,7 @@ uk-UA:
     one: "%{count} голос"
     other: "%{count} голосів"
   pagination:
-    currently_on: 
+    currently_on: "Поточна сторінка %{current_page} з %{total_pages}"
     last_page: 
     load_more: "Завантажити ще"
     next_page: "Наступна сторінка"
