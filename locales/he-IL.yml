@@ -685,9 +685,11 @@ he-IL:
   back_options:
     back: "חזרה"
     episode: "חזרה אל פרק"
+    episode_groups: 
     episode_list: "חזרה אל רשימת פרקים"
     home: "חזרה אל הבית"
     main: "חזרה אל ראשי"
+    named_episode_group: 
     season: "חזרה אל עונה"
     season_list: "חזרה אל רשימת עונות"
     to_tmdb: "חזרה אל TMDb"
@@ -2050,7 +2052,9 @@ he-IL:
           no_records: "לא התווספו עונות"
       episode_groups:
         groups:
-          count: 
+          count:
+            one: "קבוצה %{count}"
+            other: "%{count} קבוצות"
       networks:
         one: "רשת"
         other: "רשתות"
