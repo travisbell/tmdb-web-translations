@@ -51,7 +51,6 @@ it-IT:
   Address 2: Indirizzo 2
   Admin Tools: Strumenti di amministrazione
   Adult Actor: Attore Adulto
-  Adult Movie?: Film per Adulti?
   Advanced Search: RIcerca Avanzata
   Air Date: Data di Trasmissione
   Also Known As: Conosciuto anche come
@@ -1906,14 +1905,16 @@ it-IT:
       tv_page_title: '"%{name}" Serie Tv'
     movie:
       edit:
+        adult:
+          adult_movie: Film per Adulti?
         alternative_titles:
           no_records: Nessun titolo alternativo aggiunto.
         cast:
           no_records: Nessun membro del cast aggiunto.
         confirm_collection: |-
-          <p> Le raccolte sono un modo conveniente di raggruppare sequel insieme su TMDb. Anche se a volte controverso, le raccolte non sono intese come un modo per raggruppare film dello stesso "universo". Per questo, per favore <a href="%{list_link}" target="_blank" rel="noopener"> crea un elenco </a>. Per ulteriori informazioni sulle raccolte, puoi visitare <a href="%{docs_link}" target="_blank" rel="noopener"> la nostra documentazione </a>. </ P>
+          <p> Le raccolte sono un modo conveniente di raggruppare sequel insieme su TMDb. Anche se a volte controverso, le raccolte non sono intese come un modo per raggruppare film dello stesso "universo". Per questo, per favore <a href="%{list_link}" target="_blank" rel="noopener"> crea un elenco </a>. Per ulteriori informazioni sulle raccolte, puoi visitare <a href="%{docs_link}" target="_blank" rel="noopener"> la nostra documentazione </a>.</p>
 
-          <p> Se la raccolta che stai per creare soddisfa questi criteri, continua. </ p>
+          <p>Se la raccolta che stai per creare soddisfa questi criteri, continua.</ p>
         confirm_video: |-
           p> La codifica di un film come video ci aiuta a differenziare tipi di contenuti che non sono veramente film. </ p>
 
@@ -2005,6 +2006,8 @@ it-IT:
     tv_show:
       create_season: Crea stagione
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: Nessun nome alternativo aggiunto.
         content_ratings:

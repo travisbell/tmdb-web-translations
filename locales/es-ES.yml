@@ -51,7 +51,6 @@ es-ES:
   Address 2: Dirección 2
   Admin Tools: Herramientas de Administrador
   Adult Actor: Actor Adulto
-  Adult Movie?: "¿Cine para adultos?"
   Advanced Search: Búsqueda avanzada
   Air Date: Fecha de emisión
   Also Known As: También Conocido Como
@@ -1910,6 +1909,8 @@ es-ES:
       tv_page_title: Programas de tv %{name}
     movie:
       edit:
+        adult:
+          adult_movie: "¿Cine para adultos?"
         alternative_titles:
           no_records: 
         cast:
@@ -1917,7 +1918,7 @@ es-ES:
         confirm_collection: |-
           <p> Las colecciones son una forma adecuada de agrupar secuelas en TMDb. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, por favor, <a href="%{list_link}" target="_blank" rel="noopener"> crea una lista </a>. Para obtener más información acerca de las colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener"> nuestra documentación </a>. </ P>
 
-          <p> Si la colección que vas a crear cumple con esta condición, continúa. </ p>
+          <p>Si la colección que vas a crear cumple con esta condición, continúa.</p>
         confirm_video: |-
           <p> Etiquetar una película como 'Vídeo' nos ayuda a diferenciar tipos de contenido que no son realmente películas. </ p>
 
@@ -2009,6 +2010,8 @@ es-ES:
     tv_show:
       create_season: Crear temporada
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: 
         content_ratings:

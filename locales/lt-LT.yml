@@ -51,7 +51,6 @@ lt-LT:
   Address 2: Adresas 2
   Admin Tools: Administratoriaus įrankiai
   Adult Actor: Filmų suaugusiems aktorius
-  Adult Movie?: Filmas suaugusiems?
   Advanced Search: Išplėstinė paieška
   Air Date: Transliacijos data
   Also Known As: Kiti vardai
@@ -1911,6 +1910,8 @@ lt-LT:
       tv_page_title: '"%{name}" TV laidos'
     movie:
       edit:
+        adult:
+          adult_movie: Filmas suaugusiems?
         alternative_titles:
           no_records: Nėra jokių alternatyvių pavadinimų.
         cast:
@@ -2012,6 +2013,8 @@ lt-LT:
     tv_show:
       create_season: Sukurk sezoną
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: Nėra jokių alternatyvių pavadinimų.
         content_ratings:

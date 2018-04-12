@@ -51,7 +51,6 @@ cs-CZ:
   Address 2: Adresa 2
   Admin Tools: Nástroje správce
   Adult Actor: Herec pro dospělé
-  Adult Movie?: Film pro dospělé?
   Advanced Search: Rozšířené hledání
   Air Date: Datum vysílání
   Also Known As: Také známý jako
@@ -1912,6 +1911,8 @@ cs-CZ:
       tv_page_title: "%{name} seriály"
     movie:
       edit:
+        adult:
+          adult_movie: Film pro dospělé?
         alternative_titles:
           no_records: Nebyly přidány žádné alternativní žánry.
         cast:
@@ -2013,6 +2014,8 @@ cs-CZ:
     tv_show:
       create_season: Vytvořit sezónu
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: Nebyly přidány žádné alternativní názvy.
         content_ratings:

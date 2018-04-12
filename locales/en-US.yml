@@ -51,7 +51,6 @@ en-US:
   Address 2: Address 2
   Admin Tools: Admin Tools
   Adult Actor: Adult Actor
-  Adult Movie?: Adult Movie?
   Advanced Search: Advanced Search
   Air Date: Air Date
   Also Known As: Also Known As
@@ -1908,6 +1907,8 @@ en-US:
       tv_page_title: '"%{name}" TV Shows'
     movie:
       edit:
+        adult:
+          adult_movie: Adult Movie?
         alternative_titles:
           no_records: No alternative titles have been added.
         cast:
@@ -2007,6 +2008,8 @@ en-US:
     tv_show:
       create_season: Create Season
       edit:
+        adult:
+          adult_show: Adult Show?
         alternative_names:
           no_records: No alternative names have been added.
         content_ratings:

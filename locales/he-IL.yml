@@ -51,7 +51,6 @@ he-IL:
   Address 2: "כתובת 2"
   Admin Tools: "כלי ניהול"
   Adult Actor: "שחקן בוגר"
-  Adult Movie?: "סרט למבוגרים?"
   Advanced Search: "חיפוש מתקדם"
   Air Date: "תאריך שידור"
   Also Known As: "ידוע/ה גם בתור"
@@ -1905,6 +1904,8 @@ he-IL:
       tv_page_title: סדרות "%{name}"
     movie:
       edit:
+        adult:
+          adult_movie: "סרט למבוגרים?"
         alternative_titles:
           no_records: "לא התווספו כותרות חלופיות"
         cast:
@@ -2004,6 +2005,8 @@ he-IL:
     tv_show:
       create_season: "צור עונה"
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: "לא התווספו שמות חלופיים"
         content_ratings:

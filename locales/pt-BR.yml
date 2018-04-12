@@ -51,7 +51,6 @@ pt-BR:
   Address 2: Endereço 2
   Admin Tools: Ferramentas de administração
   Adult Actor: Ator de filmes e séries adultas
-  Adult Movie?: Filme adulto?
   Advanced Search: Busca avançada
   Air Date: Data de exibição
   Also Known As: Também conhecida(o) como
@@ -1906,6 +1905,8 @@ pt-BR:
       tv_page_title: Séries com "%{name}"
     movie:
       edit:
+        adult:
+          adult_movie: Filme adulto?
         alternative_titles:
           no_records: Nenhum título alternativo foi adicionado.
         cast:
@@ -2005,6 +2006,8 @@ pt-BR:
     tv_show:
       create_season: Criar temporada
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: Nenhum nome alternativo foi adicionado.
         content_ratings:

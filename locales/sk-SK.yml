@@ -51,7 +51,6 @@ sk-SK:
   Address 2: Adresa 2
   Admin Tools: Administrátorské nástroje
   Adult Actor: Herec/-čka pre dospelých
-  Adult Movie?: Film pre dospelých?
   Advanced Search: Pokročilé vyhľadávanie
   Air Date: Dátum vysielania
   Also Known As: Tiež známy/-a ako
@@ -1893,6 +1892,8 @@ sk-SK:
       tv_page_title: "%{name} seriály"
     movie:
       edit:
+        adult:
+          adult_movie: Film pre dospelých?
         alternative_titles:
           no_records: 
         cast:
@@ -1988,6 +1989,8 @@ sk-SK:
     tv_show:
       create_season: 
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: 
         content_ratings:

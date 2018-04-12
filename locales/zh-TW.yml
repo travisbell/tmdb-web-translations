@@ -51,7 +51,6 @@ zh-TW:
   Address 2: "地址 2"
   Admin Tools: "管理工具"
   Adult Actor: "色情演員"
-  Adult Movie?: "成人電影？"
   Advanced Search: "進階搜尋"
   Air Date: "上映日期"
   Also Known As: "別名"
@@ -1904,6 +1903,8 @@ zh-TW:
       tv_page_title: '"%{name}" 的電視影集'
     movie:
       edit:
+        adult:
+          adult_movie: "成人電影？"
         alternative_titles:
           no_records: "無任何替代標題添加的紀錄"
         cast:
@@ -2003,6 +2004,8 @@ zh-TW:
     tv_show:
       create_season: "建立單季內容"
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: "沒有添加任何替代名字"
         content_ratings:

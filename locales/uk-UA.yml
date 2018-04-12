@@ -51,7 +51,6 @@ uk-UA:
   Address 2: "Адреса 2 "
   Admin Tools: "Інструменти адміністратора"
   Adult Actor: "Актор(ка) фільмів для дорослих"
-  Adult Movie?: "Тільки для дорослих?"
   Advanced Search: "Розширений пошук"
   Air Date: "Дата виходу"
   Also Known As: "Також відомий як"
@@ -1923,6 +1922,8 @@ uk-UA:
       tv_page_title: '"%{name}" Серіали'
     movie:
       edit:
+        adult:
+          adult_movie: "Тільки для дорослих?"
         alternative_titles:
           no_records: "Альтернативні назви не додано."
         cast:
@@ -2026,6 +2027,8 @@ uk-UA:
     tv_show:
       create_season: "Додати сезон"
       edit:
+        adult:
+          adult_show: 
         alternative_names:
           no_records: "Альтернативних назв не додано."
         content_ratings:
