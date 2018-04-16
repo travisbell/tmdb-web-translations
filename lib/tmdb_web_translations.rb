@@ -31,6 +31,7 @@ module TMDb
           'fa' => 'fa-IR',
           'fi' => 'fi-FI',
           'fr' => 'fr-FR',
+          'gl' => 'gl-ES',
           'he' => 'he-IL',
           'hi' => 'hi-IN',
           'hu' => 'hu-HU',
@@ -71,8 +72,7 @@ module TMDb
         return @@master_i18n_language_list unless @@master_i18n_language_list.nil?
 
         master_i18n_language_list = (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).inject({}) do |hash, iso_639_1|
-          hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
-          hash
+          hash.merge("#{iso_639_1}-#{iso_639_1.upcase}" => "#{iso_639_1}")
         end.merge(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }
 
         @@master_i18n_language_list = Hash[master_i18n_language_list]
