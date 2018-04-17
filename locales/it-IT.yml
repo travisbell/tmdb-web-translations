@@ -599,7 +599,7 @@ it-IT:
       lists: Liste
       overview: Panoramica
       ratings_reviews: Valutazioni & Recensioni
-      recommendations: Raccomandazioni
+      recommendations: Consigliati
       watchlist: Watchlist
     order: 'Ordine:'
     overview:
@@ -636,10 +636,10 @@ it-IT:
         public: "%{username}'s valutazioni & recensioni"
       ratings_by_year: Valutazioni per Anno
     recommendations:
-      my_recommendations: Le Mie Raccomandazioni
-      no_recommendations: Non abbiamo dati sufficienti per suggerire eventuali raccomandazioni.
+      my_recommendations: Consigliati Per Te
+      no_recommendations: Non abbiamo dati sufficienti per consigliarti.
       no_recommendations_helper: Prova ad aggiungere altri preferiti (più sono e meglio è) e torna per vedere cosa proponiamo.
-      page_title: Raccomandazioni
+      page_title: Consigliati
     tips:
       import_imdb_ratings: Puoi importare le tue valutazioni da IMDb.
       tip: Suggerimento
@@ -678,11 +678,11 @@ it-IT:
   back_options:
     back: Indietro
     episode: Torna all'episodio
-    episode_groups: 
+    episode_groups: Torna ai gruppi episodi
     episode_list: Torna all'elenco degli episodi
     home: Torna alla home
     main: Ritorna al principale
-    named_episode_group: 
+    named_episode_group: Torna al gruppo &lsquo;%{group_name}&rsquo;
     season: Torna alla stagione
     season_list: Torna all'elenco delle stagioni
     to_tmdb: Torna a TMDb
@@ -1867,13 +1867,16 @@ it-IT:
   login_to_edit: Accedi per modificare
   media:
     company:
-      headquarters: 
-      movie_page_title: 
+      headquarters: Quartier generale
+      movie_page_title: Film prodotti da %{name}
       tv_page_title: Serie Tv su %{name}
     edit:
       page_title: Modifica %{name}
       placeholders:
         country: Seleziona un paese
+        create_person:
+          click_to_create: 
+          create_it: 
         genres: Seleziona un genere...
         job: Seleziona una mansione...
         keywords: Seleziona una parola chiave...
@@ -1892,14 +1895,14 @@ it-IT:
       tv_page_title: "%{name} Serie Tv"
     images:
       format: Formato
-      no_backdrop_stills: 
+      no_backdrop_stills: Nessuna immagine di sfondo aggiunta.
       no_backdrops: Non sono stati aggiunti sfondi a questa voce.
       no_logos: Non ci sono loghi aggiunti a questa voce.
       no_posters: Nessun poster aggiunto a questa voce.
       no_profiles: Non ci sono profili aggiunti a questa voce.
       primary: Principale?
       types:
-        backdrop_stills: 
+        backdrop_stills: Immagini di sfondo
     keyword:
       movie_page_title: '"%{name}" Film'
       tv_page_title: '"%{name}" Serie Tv'
@@ -2007,7 +2010,7 @@ it-IT:
       create_season: Crea stagione
       edit:
         adult:
-          adult_show: 
+          adult_show: Serie per adulti?
         alternative_names:
           no_records: Nessun nome alternativo aggiunto.
         content_ratings:
@@ -2017,26 +2020,26 @@ it-IT:
         crew:
           no_season: Nessuna stagione presente! è richiesta una stagione per aggiungere i membri della troupe.
         episode_groups:
-          create_new_group: 
-          episode_groups: 
+          create_new_group: Crea Nuovo Gruppo
+          episode_groups: Gruppi Episodio
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Sposta Episodi Selezionati
+            no_records: Nessun episodio è stato aggiunto a questo gruppo.
           grid:
-            episodes: 
-            groups: 
-          group: 
-          name: 
-          no_records: 
-          type: 
+            episodes: Episodi
+            groups: Gruppi
+          group: Gruppo
+          name: Nome Gruppo
+          no_records: Nessun gruppo episodi è stato aggiunto.
+          type: Tipo
           types:
-            '1': 
-            '2': 
-            '3': 
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '1': Messa in Onda Originale
+            '2': Assoluto
+            '3': DVD
+            '4': Digitale
+            '5': Tema Principale
+            '6': Produzione
+            '7': TV
         networks:
           no_records: Nessun network aggiunto.
           none_found: Nessun network corrispondente trovato. Vuoi crearlo?
@@ -2050,8 +2053,10 @@ it-IT:
           no_records: Nessuna stagione aggiunta.
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
+          count:
+            one: "%{count} Gruppo"
+            other: "%{count} Gruppi"
+        original_air_date: Messa in Onda Originale
       networks:
         one: Network
         other: Network
@@ -2062,15 +2067,15 @@ it-IT:
         Reality: Reality
         Scripted: Preparato
         Talk Show: Talk Show
-        Video: 
+        Video: Video
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      audio_language: Lingua Audio
+      channel: Canale
+      duration: Durata
+      published: Pubblicato
+      published_at: Pubblicato Alle
+      restricted_regions: Restrizione Paesi
+      tags: Tags
   month:
     one: mese
     other: "%{count} mesi"
