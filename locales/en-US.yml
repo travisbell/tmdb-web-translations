@@ -284,7 +284,6 @@ en-US:
   Networks: Networks
   New: New
   New episode airs in: New episode airs in
-  Next Episode: Next Episode
   Next Season: Next Season
   'No': 'No'
   None: None
@@ -342,7 +341,6 @@ en-US:
   Powered by The Movie Database: Powered by The Movie Database
   Premiere: Premiere
   Preview: Preview
-  Previous Episode: Previous Episode
   Primary Color: Primary Color
   Primary Facts: Primary Facts
   Privacy Policy: Privacy Policy
@@ -1996,6 +1994,11 @@ en-US:
           public: Login to write a review.
     tv_episode:
       edit:
+        episode_selector:
+          current_episode: Episode %{season_number}x%{episode_number}
+          episode: "%{episode_name} (%{season_number}x%{episode_number)}"
+          next_episode: Next Episode
+          previous_episode: Previous Episode
         guest_stars:
           no_records: No guest stars have been added.
         screened_as_part_of_season: Yes, as part of season
