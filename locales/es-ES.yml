@@ -1996,16 +1996,16 @@ es-ES:
           public: Identifícate para escribir una crítica.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Siguiente Episodio
-          previous_episode: Episodio Anterior
         guest_stars:
           no_records: 
         screened_as_part_of_season: Sí, como parte de una temporada
         screened_confirm: Si este episodio se ha exhibido en salas (proyectado en un festival de cine o teatro), haz click en 'Sí' para continuar.
         screened_label: "¿Se ha exhibido en salas este episodio?"
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Siguiente Episodio
+        previous_episode: Episodio Anterior
     tv_season:
       edit:
         create_episode: Crear episodio
@@ -2013,6 +2013,10 @@ es-ES:
           no_records: 
         screened_confirm: Si esta temporada se ha exhibido en salas (proyectado en un festival de cine o teatro), haz click en 'Sí' para continuar.
         screened_label: "¿Se ha exhibido en salas esta temporada?"
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Crear temporada
       edit:

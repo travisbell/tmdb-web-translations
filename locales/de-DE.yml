@@ -1978,16 +1978,16 @@ de-DE:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Nächste Folge
-          previous_episode: Vorherige Episode
         guest_stars:
           no_records: 
         screened_as_part_of_season: Ja, als Teil von Staffel
         screened_confirm: Klicke auf „Ja”, falls diese Folge auf einem Film-Festival oder im Kino gezeigt wurde.
         screened_label: Wurde diese Folge im Kino gezeigt?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Nächste Folge
+        previous_episode: Vorherige Episode
     tv_season:
       edit:
         create_episode: Folge erstellen
@@ -1995,6 +1995,10 @@ de-DE:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: 
       edit:

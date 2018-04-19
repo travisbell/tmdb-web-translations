@@ -1956,16 +1956,16 @@ no-NO:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Neste Episode
-          previous_episode: Forrige Episode
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: 
         screened_label: 
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Neste Episode
+        previous_episode: Forrige Episode
     tv_season:
       edit:
         create_episode: 
@@ -1973,6 +1973,10 @@ no-NO:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: 
       edit:

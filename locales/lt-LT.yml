@@ -1999,16 +1999,16 @@ lt-LT:
           public: Prisijunkite, jei norite parašyti recenziją.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Kitas epizodas
-          previous_episode: Ankstesnis epizodas
         guest_stars:
           no_records: Nebuvo pridėta jokių kviestinių žvaigždžių.
         screened_as_part_of_season: Taip, kaip sezono dalis
         screened_confirm: Jei šis epizodas buvo rodomas filmų festivalyje ar teatre, spustelėkite 'Taip', kad tęstumėte.
         screened_label: Ar šis epizodas buvo vaidintas teatre?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Kitas epizodas
+        previous_episode: Ankstesnis epizodas
     tv_season:
       edit:
         create_episode: Sukurkite epizodą
@@ -2016,6 +2016,10 @@ lt-LT:
           no_records: Nebuvo pridėta jokių epizodų.
         screened_confirm: Jei šis sezonas buvo rodomas kino festivalyje ar teatre, spustelėkite 'Taip', kad tęstumėte.
         screened_label: Ar šis epizodas buvo rodytas teatre?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Sukurk sezoną
       edit:

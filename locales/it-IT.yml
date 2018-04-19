@@ -1992,16 +1992,16 @@ it-IT:
           public: Autenticati per poter scrivere una recensione.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Prossimo episodio
-          previous_episode: Episodio precedente
         guest_stars:
           no_records: Nessuna guest star aggiunta.
         screened_as_part_of_season: Sì, come parte della stagione
         screened_confirm: Se questo episodio è stato proiettato in un festival cinematografico o in un teatro, fai clic su "Sì" per continuare.
         screened_label: Questo episodio è stato proiettato teatralmente?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Prossimo episodio
+        previous_episode: Episodio precedente
     tv_season:
       edit:
         create_episode: Crea Episodio
@@ -2009,6 +2009,10 @@ it-IT:
           no_records: Nessun episodio aggiunto.
         screened_confirm: Se questa stagione è stata proiettata in un festival cinematografico o teatrale, fai clic su "Sì" per continuare.
         screened_label: Questa stagione è stata proiettata teatralmente?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Crea stagione
       edit:

@@ -1992,16 +1992,16 @@ fi-FI:
           public: Kirjaudu sisään arvostellaksesi.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Seuraava jakso
-          previous_episode: Edellinen jakso
         guest_stars:
           no_records: Vierailevia tähtiä ei ole lisätty.
         screened_as_part_of_season: Kyllä, osana kautta
         screened_confirm: Jos tämä jakso on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä jakso esitetty elokuvateatterissa?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Seuraava jakso
+        previous_episode: Edellinen jakso
     tv_season:
       edit:
         create_episode: Luo jakso
@@ -2009,6 +2009,10 @@ fi-FI:
           no_records: Jaksoja ei ole lisätty.
         screened_confirm: Jos tämä kausi on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Luo kausi
       edit:

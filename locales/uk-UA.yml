@@ -2013,16 +2013,16 @@ uk-UA:
           public: "Увійдіть, щоби написати рецензію."
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "Наступна серія"
-          previous_episode: "Попередня серія"
         guest_stars:
           no_records: 
         screened_as_part_of_season: "Так. Як частина сезону"
         screened_confirm: Якщо цю серію показували на кінофестивалі або у кінотеатрі, натисніть "Так" для продовження.
         screened_label: "Цю серію показували у кінотеатрі?"
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "Наступна серія"
+        previous_episode: "Попередня серія"
     tv_season:
       edit:
         create_episode: "Додати серію"
@@ -2030,6 +2030,10 @@ uk-UA:
           no_records: "Епізоди не додано."
         screened_confirm: Якщо цей сезон був показаний на кінофестивалі чи в кінотеатрі, натисніть "Так" для продовження.
         screened_label: "Цей сезон був показаний у кінотеатрі?"
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: "Додати сезон"
       edit:

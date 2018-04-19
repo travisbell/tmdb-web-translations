@@ -1989,16 +1989,16 @@ ru-RU:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "Следующая серия"
-          previous_episode: "Предыдущая серия"
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: 
         screened_label: 
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "Следующая серия"
+        previous_episode: "Предыдущая серия"
     tv_season:
       edit:
         create_episode: 
@@ -2006,6 +2006,10 @@ ru-RU:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: 
       edit:

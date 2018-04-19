@@ -1983,16 +1983,16 @@ sr-RS:
           public: "Улогуј се да напишеш рецензију."
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "Следећа епизода"
-          previous_episode: "Претходна епизода"
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: 
         screened_label: 
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "Следећа епизода"
+        previous_episode: "Претходна епизода"
     tv_season:
       edit:
         create_episode: "Додај епизоду"
@@ -2000,6 +2000,10 @@ sr-RS:
           no_records: "Епизоде нису додате."
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: "Додај сезону"
       edit:

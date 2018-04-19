@@ -1992,16 +1992,16 @@ fr-FR:
           public: Connectez-vous pour écrire une critique.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "Épisode suivant"
-          previous_episode: "Épisode précédent"
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: Si cet épisode a été diffusé lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cet épisode a t-il été diffusé au cinéma ?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "Épisode suivant"
+        previous_episode: "Épisode précédent"
     tv_season:
       edit:
         create_episode: Créer un épisode
@@ -2009,6 +2009,10 @@ fr-FR:
           no_records: 
         screened_confirm: Si cette saison a été diffusée lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cette saison a t-elle été diffusée au cinéma ?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Créer une saison
       edit:

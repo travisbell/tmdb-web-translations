@@ -1990,16 +1990,16 @@ zh-TW:
           public: "登入以撰寫評論"
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "下一集"
-          previous_episode: "之前的影集"
         guest_stars:
           no_records: "沒有添加客串演員"
         screened_as_part_of_season: "此集數為本季內容"
         screened_confirm: 若本集內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: "本集內容曾經於劇院或電影院播映嗎？"
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "下一集"
+        previous_episode: "之前的影集"
     tv_season:
       edit:
         create_episode: "建立單集內容"
@@ -2007,6 +2007,10 @@ zh-TW:
           no_records: "沒有添加影集"
         screened_confirm: 若本季內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: "本季內容曾經於劇院或電影院播映嗎？"
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: "建立單季內容"
       edit:

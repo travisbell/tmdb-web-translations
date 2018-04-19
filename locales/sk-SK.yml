@@ -1975,16 +1975,16 @@ sk-SK:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: Nasledujúca epizóda
-          previous_episode: Predchádzajúca epizóda
         guest_stars:
           no_records: 
         screened_as_part_of_season: "Áno, ako súčasť tejto série"
         screened_confirm: Pokiaľ bola táto epizóda niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
         screened_label: Bola táto epizóda niekedy premietaná v kine?
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: Nasledujúca epizóda
+        previous_episode: Predchádzajúca epizóda
     tv_season:
       edit:
         create_episode: 
@@ -1992,6 +1992,10 @@ sk-SK:
           no_records: 
         screened_confirm: Pokiaľ bola táto séria niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
         screened_label: Bola táto séria niekedy premietaná v kine?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: 
       edit:

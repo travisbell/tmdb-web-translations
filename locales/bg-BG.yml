@@ -1980,16 +1980,16 @@ bg-BG:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "Следващ епизод"
-          previous_episode: "Предишен епизод"
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: 
         screened_label: 
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "Следващ епизод"
+        previous_episode: "Предишен епизод"
     tv_season:
       edit:
         create_episode: "Създайте епизод"
@@ -1997,6 +1997,10 @@ bg-BG:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: "Създайте сезон"
       edit:

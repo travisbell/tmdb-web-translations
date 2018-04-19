@@ -1991,16 +1991,16 @@ he-IL:
           public: "התחבר כדי לכתוב ביקורת"
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: "פרק %{season_number}x%{episode_number}"
-          episode: "%{episode_name} (%{season_number}x%{episode_number})"
-          next_episode: "הפרק הבא"
-          previous_episode: "הפרק הקודם"
         guest_stars:
           no_records: "לא התווספו כוכבי אורח"
         screened_as_part_of_season: "כן, כחלק מעונה"
         screened_confirm: ".אם פרק זה הוקרן בפסטיבל סרטים או בתיאטרון, לחץ 'כן' כדי להמשיך"
         screened_label: "האם פרק זה הוקרן באופן קולנועי?"
+      episode_selector:
+        current_episode: "פרק %{season_number}x%{episode_number}"
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        next_episode: "הפרק הבא"
+        previous_episode: "הפרק הקודם"
     tv_season:
       edit:
         create_episode: "צור פרק"
@@ -2008,6 +2008,10 @@ he-IL:
           no_records: "לא התווספו פרקים"
         screened_confirm: "במקרה שעונה זו הוקרנה בפסטיבל סרטים או בתיאטרון, לחץ 'כן' כדי להמשיך."
         screened_label: "האם עונה זו הוקרנה באופן קולנועי?"
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: "צור עונה"
       edit:

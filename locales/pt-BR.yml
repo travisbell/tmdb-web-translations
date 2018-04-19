@@ -1992,16 +1992,16 @@ pt-BR:
           public: Entre com uma conta para fazer uma resenha.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: Episódio %{season_number}x%{episode_number}
-          episode: "%{episode_name} (%{season_number}x%{episode_number})"
-          next_episode: Próximo episódio
-          previous_episode: Episódio anterior
         guest_stars:
           no_records: Nenhum artista convidado foi adicionado.
         screened_as_part_of_season: Sim, como parte de uma temporada
         screened_confirm: Se este episódio foi exibido em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Este episódio foi exibido em cinemas ou festivais?
+      episode_selector:
+        current_episode: Episódio %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        next_episode: Próximo episódio
+        previous_episode: Episódio anterior
     tv_season:
       edit:
         create_episode: Criar episódio
@@ -2009,6 +2009,10 @@ pt-BR:
           no_records: Nenhum episódio foi adicionado.
         screened_confirm: Se esta temporada foi exibida em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Esta Temporada foi exibida em cinemas ou festivais?
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: Criar temporada
       edit:

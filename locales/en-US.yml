@@ -1994,16 +1994,16 @@ en-US:
           public: Login to write a review.
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: Episode %{season_number}x%{episode_number}
-          episode: "%{episode_name} (%{season_number}x%{episode_number})"
-          next_episode: Next Episode
-          previous_episode: Previous Episode
         guest_stars:
           no_records: No guest stars have been added.
         screened_as_part_of_season: Yes, as part of season
         screened_confirm: If this episode has been screened in a film festival or theatre, click 'Yes' to continue.
         screened_label: Has this episode been screened theatrically?
+      episode_selector:
+        current_episode: Episode %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        next_episode: Next Episode
+        previous_episode: Previous Episode
     tv_season:
       edit:
         create_episode: Create Episode
@@ -2011,6 +2011,10 @@ en-US:
           no_records: No episodes have been added.
         screened_confirm: If this season has been screened in a film festival or theater, click 'Yes' to continue.
         screened_label: Has this season been screened theatrically?
+      season_selector:
+        next_season: Next Season
+        previous_season: Previous Season
+        season: "%{season_name} (%{season_number})"
     tv_show:
       create_season: Create Season
       edit:

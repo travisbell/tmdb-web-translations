@@ -1976,16 +1976,16 @@ zh-CN:
           public: 
     tv_episode:
       edit:
-        episode_selector:
-          current_episode: 
-          episode: 
-          next_episode: "下一集"
-          previous_episode: "上一集"
         guest_stars:
           no_records: 
         screened_as_part_of_season: 
         screened_confirm: 
         screened_label: 
+      episode_selector:
+        current_episode: 
+        episode: 
+        next_episode: "下一集"
+        previous_episode: "上一集"
     tv_season:
       edit:
         create_episode: 
@@ -1993,6 +1993,10 @@ zh-CN:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_selector:
+        next_season: 
+        previous_season: 
+        season: 
     tv_show:
       create_season: 
       edit:
