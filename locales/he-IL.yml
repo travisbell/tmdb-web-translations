@@ -236,7 +236,7 @@ he-IL:
   Last Name: "שם משפחה"
   Last Season Crew: "אנשי צוות של עונה אחרונה"
   Last Season Featured Crew: "אנשי צוות בולטים של עונה אחרונה"
-  Last Season Regular Cast: "צוות שחקנים רגיל של עונה אחרונה"
+  Last Season Regular Cast: "צוות שחקנים קבוע של עונה אחרונה"
   Last Week: "שבוע שעבר"
   Leaderboard: "לוח תוצאות"
   Legal: "משפטי"
@@ -362,7 +362,7 @@ he-IL:
   Recent News: "חדשות אחרונות"
   Recommendations: "המלצות"
   Regions: "תחומים"
-  Regular Cast: "צוות שחקנים רגיל"
+  Regular Cast: "צוות שחקנים קבוע"
   Release Date Ascending: "תאריך שחרור מוקדם יותר"
   Release Date Descending: "תאריך שחרור מאוחר יותר"
   Release Dates & Certifications: "תאריכי שחרור ואישורים"
@@ -417,7 +417,7 @@ he-IL:
   Sort: "מיין"
   Sort By: "מיין לפי"
   Sort Cast: "מיין צוות שחקנים"
-  Sort Regular Cast: "מיין צוות שחקנים רגיל"
+  Sort Regular Cast: "מיין צוות שחקנים קבוע"
   Source Key: "מפתח מקור"
   Specials: "מיוחדים"
   Spoken Languages: "שפות מדוברות"
@@ -1449,14 +1449,14 @@ he-IL:
       suspected_tv_series: "חשודה כסדרה או כמיני סדרה קיימת, אתה יכול להמשיך להוסיף פריט זה אם אתה בטוח אבל אם הוא קיים בפלג הטלוויזיה שלנו, הוא יוסר"
       taken: "כבר נלקח"
     movie:
-      duplicate_cast: 
+      duplicate_cast: "איש זה התווסף כבר בתור שחקן"
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: "איש זה התווסף כבר בתור יוצר"
+      duplicate_crew_member: "איש זה התווסף כבר בתור %{job_name}"
+      duplicate_episode: "פרק זה כבר קיים"
+      duplicate_guest_star: "אורח מיוחד זה כבר קיים"
+      duplicate_regular_season_member: "איש זה התווסף כבר בתור שחקן עונה קבוע"
+      duplicate_season: "עונה זו כבר קיימת"
   failed_email: ישנה בעיה בשליחת הדוא"ל שלך
   failed_generic: "הייתה בעיה."
   failed_report: "הייתה בעיה בהגשת הדוח שלך."
@@ -1866,8 +1866,8 @@ he-IL:
     step_3: "שלב 3: בחר תמונה"
     step_4: "שלב 4: שתף"
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: על מנת להשתמש ביכולות של עריכה ודירוג של טי־אם־די־בי, ולקבל המלצות אישיות תצטרך להתחבר אל חשבונך. אם אין לך חשבון, הרשמת חשבון היא חינמית ופשוטה. <a href="%{signup_link}">לחץ כאן</a> כדי להתחיל
+    login_text_2: במקרה שנרשמת אבל לא קיבלת את דוא"ל הוידוא שלך, <a href="%{verification_link}">לחץ כאן</a> כדי לשלוח אותו מחדש
     login_to_your_account: "התחבר אל החשבון שלך"
   login_to_create: "אינך מוצא סרט או סדרה? התחבר כדי ליצור אותם"
   login_to_edit: "התחבר כדי לערוך"
