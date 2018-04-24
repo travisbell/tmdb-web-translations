@@ -258,7 +258,6 @@ pt-BR:
   Login to rate this TV show: Entre com uma conta para avaliar esta Série
   Login to rate this movie: Entre com uma conta para avaliar este filme
   Login to report an issue: Entre com uma conta para reportar um problema
-  Login to your account: Entre com a sua conta
   Logo: Logo
   Logos & Attribution: Logos & Atribuições
   Logout: Sair
@@ -1453,14 +1452,14 @@ pt-BR:
       suspected_tv_series: parece ser uma série ou minissérie já existente. Você pode continuar a adicionar este item, mas ele será removido caso já exista em nossa seção de Séries
       taken: já foi feito(a)
     movie:
-      duplicate_cast: 
+      duplicate_cast: Esta pessoa já foi adicionada como um membro do elenco.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: Esta pessoa já foi adicionada como um(a) criador(a).
+      duplicate_crew_member: Esta pessoa já foi adicionada como um(a) %{job_name}.
+      duplicate_episode: Este episódio já existe.
+      duplicate_guest_star: Este convidado especial já existe.
+      duplicate_regular_season_member: Esta pessoa já foi adicionada como um membro do elenco recorrente da temporada.
+      duplicate_season: Esta temporada já existe.
   failed_email: Ocorreu um problema ao enviar seu e-mail.
   failed_generic: Ocorreu um problema.
   failed_report: Ocorreu um problema ao enviar seu relatório.
@@ -1869,6 +1868,10 @@ pt-BR:
     step_2: 'Passo 2: Adicionar itens'
     step_3: 'Passo 3: Escolher imagem'
     step_4: 'Passo 4: Compartilhar'
+  login:
+    login_text_1: 
+    login_text_2: 
+    login_to_your_account: Entre com a sua conta
   login_to_create: Não encontrou o filme ou série que procurava? Entre com uma conta e adicione ao nosso banco de dados.
   login_to_edit: Entre com uma conta para editar
   media:

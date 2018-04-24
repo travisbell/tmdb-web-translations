@@ -258,7 +258,6 @@ zh-TW:
   Login to rate this TV show: "登入以評分此電視影集"
   Login to rate this movie: "登入以評分此電影"
   Login to report an issue: "登入以回報此問題"
-  Login to your account: "登入至您的帳號"
   Logo: "商標"
   Logos & Attribution: "網站商標與定義"
   Logout: "登出"
@@ -675,11 +674,11 @@ zh-TW:
   back_options:
     back: "返回"
     episode: "回到影集"
-    episode_groups: 
+    episode_groups: "回到影集群"
     episode_list: "回到影集清單"
     home: "回到首頁"
     main: "回到首頁"
-    named_episode_group: 
+    named_episode_group: "回到 ‘%{group_name}’"
     season: "回到影集"
     season_list: "回到影集清單"
     to_tmdb: "返回至 TMDb"
@@ -1451,11 +1450,11 @@ zh-TW:
       suspected_tv_series: "本影片似乎存在於本電影資料庫中，若您確認無誤後仍可繼續執行添加。若未來發現已有相同影片時，本影片將會被系統所刪除。"
       taken: "已被使用"
     movie:
-      duplicate_cast: 
+      duplicate_cast: "已存在於演員群中"
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
+      duplicate_created_by: "已存在於導演群中"
+      duplicate_crew_member: "已存在於%{job_name}中"
+      duplicate_episode: "此影集已存在於資料庫中"
       duplicate_guest_star: 
       duplicate_regular_season_member: 
       duplicate_season: 
@@ -1867,6 +1866,10 @@ zh-TW:
     step_2: "步驟 2：加入項目"
     step_3: "步驟 3：選擇圖片"
     step_4: "步驟 4：分享"
+  login:
+    login_text_1: 
+    login_text_2: 
+    login_to_your_account: "登入至您的帳號"
   login_to_create: "找不到電影或電視影集嗎？登入來建立一個吧！"
   login_to_edit: "登入編輯"
   media:
