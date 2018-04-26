@@ -17,7 +17,7 @@ lt-LT:
   Accept API Terms: Priimti API sąlygas
   Account: Paskyra
   Account Filtering: Paskyros filtravimas
-  Add Alternative Name: Pridėti alternatyvų vardą
+  Add Alternative Name: Pridėti alternatyvų pavadinimą
   Add Alternative Title: Pridėti alternatyvų pavadinimą
   Add Backdrop: Pridėti filmo sceną
   Add Content Rating: Klasifikuoti turinį
@@ -33,7 +33,7 @@ lt-LT:
   Add New TV Show: Pridėti naują TV laidą
   Add Poster: Pridėti plakatą
   Add Profile: Pridėti profilį
-  Add Season Regular: Pridėti įprastą sezoną
+  Add Season Regular: Pridėti reguliarų sezoną
   Add To Every Season?: Pridėti prie kiekvieno sezono?
   Add Video: Pridėti vaizdo įrašą
   Add YouTube Video: Pridėti YouTube vaizdo įrašą
@@ -52,9 +52,9 @@ lt-LT:
   Admin Tools: Administratoriaus įrankiai
   Adult Actor: Filmų suaugusiems aktorius
   Advanced Search: Išplėstinė paieška
-  Air Date: Transliacijos data
+  Air Date: Eterio data
   Also Known As: "Žinomas(-a) kaip"
-  Alternative Names: Alternatyvūs vardai
+  Alternative Names: Alternatyvūs pavadinimai
   Alternative Titles: Alternatyvūs pavadinimai
   Apiary Documentation: Apiary dokumentacija
   App Directory: Programų katalogas
@@ -98,8 +98,8 @@ lt-LT:
   Community: Bendruomenė
   Community Data: Bendruomenės informacija
   Community Guidelines: Bendruomenės nuostatos
-  Companies: Bendrovės
-  Company Results: Bendrovės rezultatai
+  Companies: Kino kompanijos
+  Company Results: Kino kompanijos rezultatai
   Confirm: Patvirtinti
   Confirm Your Application: Patvirtinkite savo paraišką
   Contact Email: Kontaktinis el. paštas
@@ -299,7 +299,7 @@ lt-LT:
   Original Language: Originalo kalba
   Original Movie Language: Originali filmo kalba
   Original Name: Originalus pavadinimas
-  Original Order: Originali seka
+  Original Order: Kaip pasirinkta
   Original TV Show Language: Originali TV laidos kalba
   Original Title: Originalus pavadinimas
   Other Databases: Kitos duomenų bazės
@@ -318,7 +318,7 @@ lt-LT:
   Physical: Fizinis
   Pilot: Bandomoji versija
   Place of Birth: Gimimo vieta
-  Planned: Suplanuotas
+  Planned: Suplanuota
   Play: "Žiūrėti"
   Play Trailer: "Žiūrėti treilerį"
   Plot Keywords: Siužeto raktažodžiai
@@ -382,7 +382,7 @@ lt-LT:
   Resend Activation Email: Dar kartą atsiųskite aktyvacijos el. laišką
   Reset: Atkurti
   Reset Password: Atkurti slaptažodį
-  Returning Series: Grįžtamoji serija
+  Returning Series: Tęstinė serija
   Revenue: Pajamos
   Reviews: Apžvalgos
   Rumored: Gandai
@@ -420,7 +420,7 @@ lt-LT:
   Sort Regular Cast: Rūšiuoti nuolatinę aktorių sudėtį
   Source Key: "Šaltinis"
   Specials: Specialūs pasiūlymai
-  Spoken Languages: Filme kalbama
+  Spoken Languages: "Šnekamoji kalba"
   State: Valstija
   Stats: Statistika
   Status: Būsena
@@ -473,7 +473,7 @@ lt-LT:
   Translate Movie: Išversti filmą
   Translate Person: Išversti asmenį
   Translate TV Series: Išversti TV serijas
-  Translated Name: Išverstas vardas
+  Translated Name: Išverstas pavadinimas
   Translated Overview: Išversta apžvalga
   Translated Tagline: Išverstas šūkis
   Translated Title: Išverstas pavadinimas
@@ -566,8 +566,8 @@ lt-LT:
         public: "%{username} mėgstamiausi"
     filter_by: 'Rūšiuoti pagal:'
     filters:
-      date_added: Data pridėta
-      date_rated: Data nustatyta
+      date_added: Kada pridėta
+      date_rated: Kada įvertinta
       my_rating: Mano reitingas
       popularity: Populiarumas
       rating: Reitingas
@@ -602,7 +602,7 @@ lt-LT:
         logged_in: Pastaruoju metu nebuvo daryta jokių pakeitimų.
         public: "%{username} paskutiniu metu neredagavo."
       empty_upcoming_watchlist:
-        logged_in: Jūsų peržiūrų sąraše nėra jokių būsimų filmų.
+        logged_in: Jūsų peržiūrų sąraše nėra jokių naujų filmų.
       empty_watched_genres:
         logged_in: Nepažymėjote jokių filmų ar TV laidų.
         public: "%{username} nepažymėjo jokių filmų ar TV laidų."
@@ -641,13 +641,13 @@ lt-LT:
       my_watchlist: Mano peržiūros
       next_month: Sekantį mėnesį
       no_upcoming_movies:
-        few: Jūsų peržiūrų sąraše nėra jokių būsimų filmų. Tačiau yra %{count} filmai jūsų peržiūrų sąraše.
-        one: Jūsų peržiūrų sąraše nėra jokių būsimų filmų. Tačiau yra %{count} filmas jūsų peržiūrų sąraše.
-        other: Jūsų peržiūrų sąraše nėra jokių būsimų filmų. Tačiau yra %{count} filmų jūsų peržiūrų sąraše.
+        few: Jūsų peržiūrų sąraše nėra jokių naujų filmų. Tačiau yra išsaugoti %{count} filmai jūsų peržiūrų sąraše.
+        one: Jūsų peržiūrų sąraše nėra jokių naujų filmų. Tačiau yra išsaugotas %{count} filmas jūsų peržiūrų sąraše.
+        other: Jūsų peržiūrų sąraše nėra jokių naujų filmų. Tačiau yra išsaugota %{count} filmų jūsų peržiūrų sąraše.
       no_upcoming_tv_shows:
-        few: Jūsų peržiūrų sąraše nėra jokių būsimų TV laidų. Tačiau yra %{count} laidos peržiūrų sąraše.
-        one: Jūsų peržiūrų sąraše nėra jokių būsimų TV laidų. Tačiau yra %{count} laida peržiūrų sąraše.
-        other: Jūsų peržiūrų sąraše nėra jokių būsimų TV laidų. Tačiau yra %{count} laidų peržiūrų sąraše.
+        few: Jūsų peržiūrų sąraše nėra jokių naujų TV laidų. Tačiau yra išsaugotos %{count} laidos peržiūrų sąraše.
+        one: Jūsų peržiūrų sąraše nėra jokių naujų TV laidų. Tačiau yra išsaugota %{count} laida peržiūrų sąraše.
+        other: Jūsų peržiūrų sąraše nėra jokių naujų TV laidų. Tačiau yra išsaugota %{count} laidų peržiūrų sąraše.
       page_title:
         page_owner: Mano peržiūros
         public: "%{username} peržiūrų sąrašas"
@@ -1298,7 +1298,7 @@ lt-LT:
   days:
     few: "%{count} dienų"
     one: dieną
-    other: dienas
+    other: dienų
   department_credits_count: 
   departments:
     Acting: Vaidyba
@@ -1456,7 +1456,7 @@ lt-LT:
     movie:
       duplicate_cast: "Šis asmuo jau įtrauktas kaip aktorius."
     tv:
-      duplicate_created_by: "Šis asmuo jau yra pridėtas kaip kūrėjas."
+      duplicate_created_by: "Šis asmuo jau yra pridėtas kaip autorius."
       duplicate_crew_member: "Šis asmuo jau yra pridėtas kaip %{job_name}."
       duplicate_episode: "Šis epizodas jau egzistuoja."
       duplicate_guest_star: "Ši kviestinė žvaigždė jau egzistuoja."
@@ -1589,7 +1589,7 @@ lt-LT:
     Craft Service: 
     Creative Consultant: Kūrybinis konsultantas
     Creative Producer: Kūrybinis prodiuseris
-    Creator: Kūrėjas
+    Creator: Autorius
     Creature Design: 
     Department Administrator: Skyriaus administratorius
     Development Manager: Parengiamųjų darbų vadovas
@@ -1894,7 +1894,7 @@ lt-LT:
         keywords: Pasirinkite raktažodį ...
         networks: Pasirinkite transliuotoją...
         person: Ieškoti asmens ...
-        production_companies: Ieškoti vaizdo turinio gamybos įmonės ...
+        production_companies: Ieškoti kino kompanijos...
       tooltips:
         bible: Norėdami padėti redaguoti informaciją TMDb, spustelėkite '?' ir susipažinkite su savanorio biblija.
         homepage: Tik oficialus tinklalapis. Neleidžiami gerbėjų puslapiai.
@@ -2048,7 +2048,7 @@ lt-LT:
           no_season: Nėra sezonų! Būtina įtraukti sezono filmavimo komandą.
         episode_groups:
           create_new_group: Sukurti naują grupę
-          description: 
+          description: Apibūdinimas
           episode_groups: Epizodų grupės
           episodes:
             move_episodes: Perkelti pasirinktus epizodus
@@ -2058,7 +2058,10 @@ lt-LT:
             groups: Grupės
           group: Grupė
           messages:
-            episodes_added: 
+            episodes_added:
+              few: "%{count} epizodai pridėti!"
+              one: "%{count} epizodas pridėtas!"
+              other: "%{count} epizodų pridėta!"
           name: Grupės pavadinimas
           no_records: Nebuvo pridėta jokių epizodų grupių.
           type: Tipas
@@ -2067,7 +2070,7 @@ lt-LT:
             '2': Absoliutus
             '3': DVD
             '4': Skaitmeninis
-            '5': 
+            '5': Siužeto arka
             '6': Gamyba
             '7': TV
         networks:
@@ -2091,7 +2094,7 @@ lt-LT:
       networks:
         few: Transliuotojai
         one: Transliuotojas
-        other: Transliuotojų
+        other: Transliuotojai
       types:
         Documentary: Dokumentinis filmas
         Miniseries: Mini serialas
@@ -2243,7 +2246,7 @@ lt-LT:
   number_of_results:
     few: "%{count} rezultatai"
     one: "%{count} rezultatas"
-    other: "%{count} rezultatų"
+    other: "%{count} rezultatai"
   number_of_translations:
     few: "%{count} vertimai"
     one: "%{count} vertimas"
@@ -2297,8 +2300,8 @@ lt-LT:
   search_tip_1: 'Patarimas: galite filtruoti ''y:'', kad susiaurinti paiešką pagal metus. Pavyzdys: ''žvaigždžių karai: 1977''.'
   season_number_name: Sezonas %{season_number}
   season_overview:
-    already_aired: "%{show_name} Sezonas %{season_number} premjera %{date}."
-    to_air: "%{show_name} Sezonas %{season_number} įtrauktas premjerai %{date}."
+    already_aired: "%{show_name}. Sezonas %{season_number} premjera %{date}."
+    to_air: "%{show_name}. Sezonas %{season_number} įtrauktas premjerai %{date}."
   settings:
     account:
       account_settings: Paskyros nustatymai
