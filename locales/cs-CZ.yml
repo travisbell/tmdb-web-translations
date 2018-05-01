@@ -115,7 +115,7 @@ cs-CZ:
   Create Application: Vytvořit aplikaci
   Create New List: Vytvořit nový seznam
   Create Translation: Vytvořit překlad
-  Created By: Tvůrci
+  Created By: Autoři
   Credits: Zásluhy
   Crew: "Štáb"
   Currently Airing TV Shows: Aktuálně vysílané seriály
@@ -674,11 +674,11 @@ cs-CZ:
   back_options:
     back: Zpět
     episode: Zpět na epizodu
-    episode_groups: 
+    episode_groups: Zpět na skupiny epizod
     episode_list: Zpět na seznam epizod
     home: Zpět domů
     main: Zpět na hlavní
-    named_episode_group: 
+    named_episode_group: Zpět na skupiny &lsqou;%{group_name}&rsqou;
     season: Zpět na sezónu
     season_list: Zpět na seznam sezón
     to_tmdb: Zpět na TMDb
@@ -1188,7 +1188,7 @@ cs-CZ:
     movies_missing_a_overview: Filmy s chybějícím přehledem
     movies_missing_a_poster: Filmy s chybějícím plakátem
     movies_missing_a_title: Filmy s chybějícím názvem
-    page_title: 
+    page_title: Přispět chybějícími daty
     selected_language: Vybraný jazyk
     tv_missing_a_backdrop: Seriály s chybějícím pozadím
     tv_missing_a_poster: Seriály s chybějícím plakátem
@@ -1454,14 +1454,14 @@ cs-CZ:
       suspected_tv_series: vypadá jako existující seriál nebo minisérie. Pokud jste si jisti, můžete tuto položku přesto přidat, ale pokud již v naší sekci TV existuje, bude odebrána.
       taken: je již použito
     movie:
-      duplicate_cast: 
+      duplicate_cast: Tato osoba již je přidána jako člen obsazení.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: Tato osoba již je přidána jako tvůrce.
+      duplicate_crew_member: Tato osoba již je přidána jako %{job_name}.
+      duplicate_episode: Tato epizoda již existuje.
+      duplicate_guest_star: Tato hostující hvězda již existuje.
+      duplicate_regular_season_member: Tato osoba již je přidána jako pravidelný člen obsazení sezóny.
+      duplicate_season: Tato sezóna již existuje.
   failed_email: Váš e-mail se nepodařilo odeslat.
   failed_generic: Došlo k problému.
   failed_report: Došlo k problému s odesláním vašeho hlášení.
@@ -1589,7 +1589,7 @@ cs-CZ:
     Craft Service: 
     Creative Consultant: 
     Creative Producer: 
-    Creator: 
+    Creator: Autor
     Creature Design: 
     Department Administrator: 
     Development Manager: 
@@ -1888,8 +1888,8 @@ cs-CZ:
       placeholders:
         country: Vyberte zemi...
         create_person:
-          click_to_create: 
-          create_it: 
+          click_to_create: Klikněte pro vytvoření %{name}
+          create_it: Vytvořit...
         genres: Vyberte žánr...
         job: 
         keywords: Vyberte klíčové slovo...
@@ -1975,8 +1975,8 @@ cs-CZ:
       tv_page_title: Seriály na %{name}
       upload_logo: Nahrát logo
     no_results_found:
-      movie: 
-      tv: 
+      movie: Nebyly nalezeny žádné filmy.
+      tv: Nebyly nalezeny žádné seriály.
     number_of_movies:
       few: "%{count} filmy"
       one: "%{count} film"
@@ -2018,8 +2018,8 @@ cs-CZ:
         screened_confirm: Pokud byla tato epizoda vysílána na filmovém festivalu nebo v kině, klikněte na ‚Ano‘ pro pokračování.
         screened_label: Byla tato epizoda vysílána v kině?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Epizoda %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Další epizoda
         previous_episode: Předchozí epizoda
     tv_season:
@@ -2033,40 +2033,43 @@ cs-CZ:
         current_season: Aktuální sezóna
         last_season: Poslední sezóna
         next_season: Další sezóna
-        previous_season: 
+        previous_season: Předchozí sezóna
     tv_show:
       create_season: Vytvořit sezónu
       edit:
         adult:
-          adult_show: 
+          adult_show: Seriál pro dospělé?
         alternative_names:
           no_records: Nebyly přidány žádné alternativní názvy.
         content_ratings:
           no_records: Nebyla přidána žádná hodnocení obsahu.
         creator:
-          no_records: Nebyli přidáni žádní tvůrci.
+          no_records: Nebyli přidáni žádní autoři.
         crew:
           no_season: Neexistují žádné sezóny! Pro přidání členů štábu je vyžadována nějaká sezóna.
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Vytvořit novou skupinu
+          description: Popis
+          episode_groups: Skupiny epizod
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Přesunout vybrané epizody
+            no_records: Do této skupiny nebyly přidány žádné epizody.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Epizody
+            groups: Skupiny
+          group: Skupina
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              few: Přidány %{count} epizody!
+              one: Přidána %{count} epizoda!
+              other: Přidáno %{count} epizod!
+          name: Název skupiny
+          no_records: Nebyly přidány žádné skupiny.
+          type: Typ
           types:
-            '1': 
-            '2': 
-            '3': 
+            '1': Datum původního vysílání
+            '2': Absolutní
+            '3': DVD
             '4': 
             '5': 
             '6': 
@@ -2084,8 +2087,11 @@ cs-CZ:
           no_records: Nebyly přidány žádné sezóny.
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
+          count:
+            few: "%{count} skupiny"
+            one: "%{count} skupina"
+            other: "%{count} skupin"
+        original_air_date: Datum původního vysílání
       networks:
         few: Stanice
         one: Stanice
@@ -2097,15 +2103,15 @@ cs-CZ:
         Reality: Reality
         Scripted: Podle scénáře
         Talk Show: Televizní diskuse
-        Video: 
+        Video: Video
     video:
-      audio_language: 
-      channel: 
-      duration: 
+      audio_language: Jazyk zvuku
+      channel: Kanál
+      duration: Trvání
       published: 
       published_at: 
       restricted_regions: 
-      tags: 
+      tags: "Štítky"
   month:
     few: "%{count} měsíce"
     one: měsíc
@@ -2122,7 +2128,7 @@ cs-CZ:
       upcoming: Nadcházející
     people:
       people: Lidé
-      popular_people: Oblíbené lidé
+      popular_people: Oblíbení lidé
     tv_shows:
       airing_today: Vysílá se dnes
       on_the_air: Vysílá se
