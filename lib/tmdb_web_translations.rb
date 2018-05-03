@@ -2,6 +2,8 @@ module TMDb
   module Config
     class I18n
 
+      @@default_language_to_i18n = nil
+      @@default_language_to_country_mapping = nil
       @@master_i18n_language_list = nil
       @@supported_iso_639_1_path = nil
 
@@ -64,8 +66,12 @@ module TMDb
           'zh' => 'zh-CN' }
       end
 
+      def self.default_language_i18n
+        @@default_language_to_i18n ||= Language.distinct(:iso_639_1).inject({}) { |hash, iso_639_1| hash.merge(iso_639_1 => "#{iso_639_1}-#{iso_639_1.upcase}") }.merge(TMDb::Config::I18n.default_mapping)
+      end
+
       def self.default_language_to_country_mapping
-        Hash[TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }]
+        @@default_language_to_country_mapping ||= Hash[TMDb::Config::I18n.default_mapping.map { |k,v| v.split('-') }]
       end
 
       def self.language_list
@@ -87,8 +93,12 @@ module TMDb
       end
 
       def self.supported_iso_639_1_path
-        return @@supported_iso_639_1_path unless @@supported_iso_639_1_path.nil?
-        @@supported_iso_639_1_path = TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }
+        @@supported_iso_639_1_path ||= TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }
+      end
+
+      def self.parse_valid_i18n(valid_i18n)
+        split_18n = valid_i18n.split('-')
+        [valid_i18n, split_18n[0], split_18n[1]]
       end
 
     end
