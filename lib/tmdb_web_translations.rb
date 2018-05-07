@@ -88,6 +88,11 @@ module TMDb
         File.dirname(__FILE__) + "/../locales"
       end
 
+      def self.parse_valid_i18n(valid_i18n)
+        split_18n = valid_i18n.split('-')
+        [valid_i18n, split_18n[0], split_18n[1]]
+      end
+
       def self.supported_iso_639_1
         TMDb::Config::I18n.default_mapping.keys
       end
@@ -96,9 +101,8 @@ module TMDb
         @@supported_iso_639_1_path ||= TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }
       end
 
-      def self.parse_valid_i18n(valid_i18n)
-        split_18n = valid_i18n.split('-')
-        [valid_i18n, split_18n[0], split_18n[1]]
+      def self.transliteration_path
+        File.dirname(__FILE__) + "/../transliteration"
       end
 
     end
