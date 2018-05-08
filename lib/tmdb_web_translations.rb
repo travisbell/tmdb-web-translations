@@ -7,7 +7,7 @@ module TMDb
       @@master_i18n_language_list = nil
       @@supported_iso_639_1_path = nil
 
-      def self.counrty_path
+      def self.country_path
         File.dirname(__FILE__) + "/../transliteration"
       end
 
