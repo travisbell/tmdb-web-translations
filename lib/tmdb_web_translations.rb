@@ -7,6 +7,10 @@ module TMDb
       @@master_i18n_language_list = nil
       @@supported_iso_639_1_path = nil
 
+      def self.counrty_path
+        File.dirname(__FILE__) + "/../transliteration"
+      end
+
       def self.default_iso_3166_1_mapping
         TMDb::Config::I18n.default_mapping.invert.merge('ar-AE' => 'ar',
                                                         'es-MX' => 'es',
