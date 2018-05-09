@@ -8,7 +8,7 @@ module TMDb
       @@supported_iso_639_1_path = nil
 
       def self.country_path
-        File.dirname(__FILE__) + "/../transliteration"
+        File.dirname(__FILE__) + "/../countries"
       end
 
       def self.default_iso_3166_1_mapping
@@ -47,7 +47,7 @@ module TMDb
           'ka' => 'ka-GE',
           'kn' => 'kn-IN',
           'ko' => 'ko-KR',
-          'lt' => 'lt-LV',
+          'lt' => 'lt-LT',
           'ml' => 'ml-IN',
           'nb' => 'nb-NO',
           'nl' => 'nl-NL',
@@ -86,6 +86,10 @@ module TMDb
         end.merge(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }
 
         @@master_i18n_language_list = Hash[master_i18n_language_list]
+      end
+
+      def self.language_path
+        File.dirname(__FILE__) + "/../languages"
       end
 
       def self.load_path
