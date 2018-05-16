@@ -672,11 +672,11 @@ fi-FI:
   back_options:
     back: Takaisin
     episode: Takaisin jaksoon
-    episode_groups: 
+    episode_groups: Takaisin jaksoryhmiin
     episode_list: Takaisin jaksoluetteloon
     home: Takaisin kotiin
     main: Takaisin pääsivulle
-    named_episode_group: 
+    named_episode_group: Takaisin &lsquo;%{group_name}&rsquo; ryhmät
     season: Takaisin kauteen
     season_list: Takaisin kausiluetteloon
     to_tmdb: Takaisin TMDb:hen
@@ -847,7 +847,7 @@ fi-FI:
           meaning: Sallittu ainoastaan yli 18-vuotiaille aikuisille. Alle Alle 18-vuotias ei voi vuokrata tai ostaa 15-luokiteltua VHS, DVD, Blu-ray, UMD-tallennetta tai peliä, eikä katsoa elokuvaa elokuvateatterissa. Tämän luokituksen alaiset elokuvat saattavat sisältää aikuisille suunnattuja/häiritseviä teemoja, toistuvaa huonoa kielenkäyttöä, veristä ja raakaa väkivaltaa, vahvoja seksikohtauksia ja/tai päihteiden väärinkäyttöä jonka ei katsota soveltuvan alaikäisille.
       LT:
         '1':
-          meaning: 
+          meaning: Soveltuu kaikenikäisille katsojille.
         '2':
           meaning: 
         '3':
@@ -946,15 +946,15 @@ fi-FI:
           meaning: Erityismerkintä M/18-luokitukselle ilmaisemaan pornografia.
       RU:
         '1':
-          meaning: 
+          meaning: Sallittu kaiken ikäisille.
         '2':
-          meaning: 
+          meaning: "(Yli 6-vuotiaille lapsille) – Ei sovellu alle 6-vuotiaille."
         '3':
-          meaning: 
+          meaning: "(Yli 12-vuotiaille lapsille) – Ei sovellu alle 12-vuotiaille."
         '4':
-          meaning: 
+          meaning: "(Yli 16-vuotiaille lapsille) – Ei sovellu alle 16-vuotiaille."
         '5':
-          meaning: 
+          meaning: "(Lapsilta kielletty) – Kielletty alle 18-vuotiailta."
       SE:
         '0':
           meaning: Ei luokiteltu.
@@ -1479,13 +1479,13 @@ fi-FI:
       suspected_tv_series: epäillään olevan jo lisätty TV-sarja tai minisarja. Voit jatkaa sen lisäämistä mikäli olet varma, mutta se poistetaan mikäli se on lisätty jo aikaisemmin
       taken: on jo valittu
     movie:
-      duplicate_cast: 
+      duplicate_cast: Tämä henkilö on jo lisätty näyttelijäksi.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
+      duplicate_created_by: Tämä henkilö on jo lisätty luojaksi.
+      duplicate_crew_member: Tämä henkilö on jo lisätty työnimikkeellä %{job_name}.
+      duplicate_episode: Tämä episodi on jo lisätty.
+      duplicate_guest_star: Tämä vieraileva tähti on jo lisätty.
+      duplicate_regular_season_member: Tämä henkilö on jo lisätty vakituisena näyttelijänä.
       duplicate_season: 
   failed_email: Sähköpostisi lähettäminen epäonnistui.
   failed_generic: Ilmeni ongelma.
@@ -1532,17 +1532,17 @@ fi-FI:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: 24 kuvan toistonopeus
-    2D Artist: 
-    2D Sequence Supervisor: 
-    2D Supervisor: 
-    3D Animator: 
-    3D Artist: 
-    3D Coordinator: 
+    2D Artist: 2D-artisti
+    2D Sequence Supervisor: 2D Sekvenssin valvoja
+    2D Supervisor: 2D-valvoja
+    3D Animator: 3D-animoija
+    3D Artist: 3D-artisti
+    3D Coordinator: 3D-koordinaattori
     3D Digital Colorist: 
     3D Director: 3D-ohjaaja
-    3D Editor: 
+    3D Editor: 3D-editoija
     3D Generalist: 
-    3D Modeller: 
+    3D Modeller: 3D-mallintaja
     3D Sequence Supervisor: 
     3D Supervisor: 3D koordinaattori
     3D Tracking Layout: 
@@ -2487,32 +2487,32 @@ fi-FI:
     step_3: 'Vaihe 3: Valitse kuva'
     step_4: 'Vaihe 4: Jaa'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: Käyttääksesi TMDb:n muokkaus ja arvostelutyökaluja, sekä saadaksesi henkilökohtaisia suosituksia, sinun täytyy kirjautua sisään. Mikäli sinulla ei ole tiliä, voit rekisteröityä helposti ja ilmaiseksi. <a href="%{signup_link}">Klikkaa tästä</a> aloittaaksesi.
+    login_text_2: Jos rekisteröidyit, mutta et saanut aktivointilinkkiä sähköpostiisi, <a href="%{verification_link}">klikkaa tästä</a> niin lähetämme sen uudelleen.
     login_to_your_account: Kirjaudu tiliisi
   login_to_create: Etkö löydä elokuvaa tai TV-ohjelmaa? Kirjaudu sisään lisätäksesi se.
   login_to_edit: Kirjaudu sisään muokataksesi
   media:
     company:
-      headquarters: 
+      headquarters: Pääkonttori
       movie_page_title: Elokuvat jotka on tuottanut %{name}
       tv_page_title: TV-sarjat kanavalla %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Lukitse kaikki kentät
+      lock_all_images: Lukitse kaikki kuvat
       page_title: Muokkaa %{name}
       placeholders:
         country: Valitse maa...
         create_person:
-          click_to_create: 
-          create_it: 
+          click_to_create: Klikkaa luodaksesi %{name}
+          create_it: Luo...
         genres: Valitse lajityyppi...
         job: Valitse työtehtävä...
         keywords: Valitse avainsana...
         networks: Etsi julkaisukanavaa...
         person: Etsi henkilöä...
         production_companies: Etsi tuotantoyhtiötä...
-      success_fields_locked: 
+      success_fields_locked: Kentät lukittu.
       tooltips:
         bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
         homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
@@ -2553,36 +2553,36 @@ fi-FI:
 
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
         crew:
-          job_required: 
+          job_required: Työnimike vaaditaan
           no_records: Tekijöitä ei ole lisätty.
-          person_required: 
+          person_required: Henkilö vaaditaan
         genres:
           add_genre: Lisää lajityyppi
           no_records: Lajityyppejä ei ole lisätty.
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
-          tip: 
+          add_keyword: Lisää asiasana
+          create: Luo
+          no_records: Asiasanoja ei ole lisätty.
+          none_found: Vastaavaa asiasanaa ei löytynyt. Haluatko luoda sen?
+          tip: Yleisenä ohjeena, mieti mitkä asiat auttavat kuvaamaan juonta, yleisiä teemoja ja tunnelmia.
         production_information:
-          add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          add_production_company: Lisää tuotantoyhtiö
+          no_records: Tuotantoyhtiöitä ei ole lisätty.
+          none_found: Vastaavaa tuotantoyhtiötä ei löytynyt. Haluatko luoda sen?
+          production_company: Tuotantoyhtiö
         release_information:
-          no_records: 
+          no_records: Julkaisupäivämääriä ei ole lisätty.
         videos:
-          no_records: 
+          no_records: Videoita ei ole lisätty.
     network:
       edit:
         alternative_names: Vaihtoehtoiset nimet
         logos: Logot
         merge:
-          choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
+          choose_destination: Valitse kohde-tietue...
+          confirm_merge: Vahvista yhdistäminen
+          merge: Yhdistä
+          next: Seuraava
         primary_facts: Ensisijaiset tiedot
         upload_logo: Lisää logo
       logos: Logot
@@ -2590,12 +2590,12 @@ fi-FI:
       other_shows_on: Näytä lisää TV-sarjoja kanavalta %{name}...
       search:
         no_results: Haulla ei löytynyt vastaavia tuotantoyhtiöitä.
-        results: 
+        results: Julkaisukanavien tulokset
       tv_page_title: TV-sarjat kanavalla %{name}
       upload_logo: Lisää logo
     no_results_found:
-      movie: 
-      tv: 
+      movie: Elokuvia ei löytynyt.
+      tv: TV-sarjoja ei löytynyt.
     number_of_movies:
       one: "%{count} elokuva"
       other: "%{count} elokuvaa"
@@ -2635,8 +2635,8 @@ fi-FI:
         screened_confirm: Jos tämä jakso on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä jakso esitetty elokuvateatterissa?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Episode %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Seuraava jakso
         previous_episode: Edellinen jakso
     tv_season:
@@ -2650,12 +2650,12 @@ fi-FI:
         current_season: Nykyinen kausi
         last_season: Viimeisin kausi
         next_season: Seuraava kausi
-        previous_season: 
+        previous_season: Edellinen kausi
     tv_show:
       create_season: Luo kausi
       edit:
         adult:
-          adult_show: 
+          adult_show: K-18 TV-sarja?
         alternative_names:
           no_records: Vaihtoehtoisia nimiä ei ole lisätty.
         content_ratings:
@@ -2665,29 +2665,31 @@ fi-FI:
         crew:
           no_season: Ei olemassa olevia kausia! Kausi vaaditaan tekijöiden lisäämiseksi.
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Luo uusi ryhmä
+          description: Kuvaus
+          episode_groups: Jaksoryhmät
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Siirrä valitut jaksot
+            no_records: Yhtään jaksoa ei ole lisätty tähän ryhmään.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Jaksot
+            groups: Ryhmät
+          group: Ryhmä
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              one: "%{count} jakso lisätty!"
+              other: "%{count} jaksoa lisätty!"
+          name: Ryhmän nimi
+          no_records: Jaksoryhmiä ei ole lisätty.
+          type: Tyyppi
           types:
-            '1': 
-            '2': 
-            '3': 
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '1': Alkuperäinen esityspäivämäärä
+            '2': Ehdoton
+            '3': DVD
+            '4': Digitaalinen
+            '5': Juonenkulku
+            '6': Tuotanto
+            '7': TV
         networks:
           no_records: Julkaisukanavia ei ole lisätty.
           none_found: Vastaavia julkaisukanavia ei löytynyt. Haluatko luoda uuden?
@@ -2701,8 +2703,10 @@ fi-FI:
           no_records: Kausia ei ole lisätty.
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
+          count:
+            one: "%{count} ryhmä"
+            other: "%{count} ryhmää"
+        original_air_date: Alkuperäinen esityspäivämäärä
       networks:
         one: Julkaisukanava
         other: Julkaisukanavat
@@ -2713,7 +2717,7 @@ fi-FI:
         Reality: Tosi-TV
         Scripted: Käsikirjoitettu
         Talk Show: Keskusteluohjelma
-        Video: 
+        Video: Video
     video:
       audio_language: "Ääniraidan kieli"
       channel: Kanava
