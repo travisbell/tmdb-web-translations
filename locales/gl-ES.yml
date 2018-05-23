@@ -116,16 +116,16 @@ gl-ES:
   Create New List: Crear nova lista
   Create Translation: Crear tradución
   Created By: Creado por
-  Credits: 
-  Crew: 
-  Currently Airing TV Shows: 
-  Currently on page: 
+  Credits: Créditos
+  Crew: Equipo
+  Currently Airing TV Shows: Series TV actualmente en emisión
+  Currently on page: Estás na páxina
   DMCA Takedown Request: 
-  Date: 
-  Day of Death: 
-  Default Language: 
-  Delete: 
-  Delete Keyword: 
+  Date: Data
+  Day of Death: Día do deceso
+  Default Language: Lingua por defecto
+  Delete: Borrar
+  Delete Keyword: Borrar palabra chave
   Delete Movie: Eliminar filme
   Delete Person: Eliminar persoa
   Delete TV Show: Eliminar serie TV
@@ -1271,18 +1271,60 @@ gl-ES:
     welcome_1: Benvido a
     welcome_2: A biblia das contribucións
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - Dom
+    - Lun
+    - Mar
+    - Mér
+    - Xov
+    - Ven
+    - Sáb
+    abbr_month_names:
+    - 
+    - Xan
+    - Feb
+    - Mar
+    - Abr
+    - Mai
+    - Xuñ
+    - Xul
+    - Ago
+    - Sep
+    - Out
+    - Nov
+    - Dec
+    day_names:
+    - Domingo
+    - Luns
+    - Martes
+    - Mércores
+    - Xoves
+    - Venres
+    - Sábado
     formats:
-      abbrev: 
-      default: 
-      full_month_day: 
-      full_month_year: 
-      short_month_day_year: 
-    month_names: 
-  day: 
-  days: 
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%B %e do %Y"
+      full_month_year: "%B do %Y"
+      short_month_day_year: "%d %b do %Y"
+    month_names:
+    - 
+    - Xaneiro
+    - Febreiro
+    - Marzo
+    - Abril
+    - Maio
+    - Xuño
+    - Xullo
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Decembro
+  day: día
+  days:
+    one: día
+    other: "%{count} días"
   department_credits_count:
     one: "%{department} (%{count} credit)"
     other: "%{department} (%{count} credit)"
