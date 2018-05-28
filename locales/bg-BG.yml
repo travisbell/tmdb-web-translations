@@ -266,7 +266,7 @@ bg-BG:
   Media: 
   Member since: "Потребител от"
   Merge Keyword: 
-  Mixed Compact View: "Смесен компактен изглед"
+  Mixed Compact View: "Смесен (компактен)"
   Mobile Application: "Мобилно приложение"
   Moderator: "Модератор"
   More Info: "Повече информация"
@@ -280,7 +280,7 @@ bg-BG:
   Movies: "Филми"
   Name: "Име"
   Network: "Мрежа"
-  Networks: 
+  Networks: "Мрежи"
   New: "Нов"
   New episode airs in: "Нов епизод ще се излъчи след"
   'No': "Не"
@@ -318,7 +318,7 @@ bg-BG:
   Personal Recommendations: 
   Phone Number: "Телефонен номер"
   Physical: "Физика"
-  Pilot: 
+  Pilot: "Пилотен"
   Place of Birth: "Родно място"
   Planned: "Планиран"
   Play: 
@@ -333,7 +333,7 @@ bg-BG:
   Popularity Rank: "Класиране по популярност"
   Popularity Trend: "Тенденция на популярността"
   Post Production: "Постпродукция"
-  Poster Card View: "Плакат за фон"
+  Poster Card View: "Плакат"
   Posters: "Плакати"
   Powered by TMDb: 
   Powered by The Movie Database: 
@@ -395,7 +395,7 @@ bg-BG:
   Search for a country: "Търси за държава"
   Search for a genre: "Търси за жанр"
   Search for a keyword: "Търси за ключова дума"
-  Search for a language: 
+  Search for a language: "Търсене за език..."
   Search for a movie or TV show: "Търсене за филм или сериал"
   Search for a movie, TV show, person: "Търсене за филм, сериал или човек"
   Season: "Сезон"
@@ -494,12 +494,12 @@ bg-BG:
   View: "Изглед"
   View All Backdrops: "Виж всички тапети"
   View All Episode Images: 
-  View All Episodes: 
+  View All Episodes: "Пред на всички епизоди"
   View All Posters: "Виж всички плакати"
   View All Seasons: "Всички сезони"
   View All Videos: "Към видео клиповете"
-  View Discussions: 
-  View Edit History: 
+  View Discussions: "Преглед на дискусиите"
+  View Edit History: "История на редакциите"
   View Episodes: "Към епизодите"
   View More: "Виж още"
   View Original: "Виж оригинала"
@@ -550,8 +550,8 @@ bg-BG:
         edit: "Редактирай"
         key: "Ключ"
         language_abbreviation: "Език"
-    average_movie_score: "Средна оценка<br>на филма"
-    average_tv_score: "Средна оценка<br>на сериала"
+    average_movie_score: "Средна оценка<br>на филмите"
+    average_tv_score: "Средна оценка<br>на сериалите"
     discussions:
       my_active_boards: "Моите активни форуми"
       my_discussions: "Моите дискусии"
@@ -673,14 +673,14 @@ bg-BG:
   average edits per day: "среден брой промени на ден"
   back_options:
     back: "Назад"
-    episode: "Връщане към епизода"
+    episode: "Към епизода"
     episode_groups: 
-    episode_list: "Връщане към списъка с епизоди"
-    home: "Връщане към начална страница"
-    main: "Връщане към главна страница"
+    episode_list: "Към списъка с епизоди"
+    home: "Към началната страница"
+    main: "Към главната страница"
     named_episode_group: 
-    season: "Връщане към сезон"
-    season_list: "Връщане към списък със сезони"
+    season: "Към сезона"
+    season_list: "Към списъка със сезони"
     to_tmdb: "Връщане към TMDb"
     top: "Връщане догоре"
   certifications:
@@ -2654,28 +2654,30 @@ bg-BG:
           no_season: 
         episode_groups:
           create_new_group: "Създай нова група"
-          description: 
+          description: "Описание"
           episode_groups: 
           episodes:
             move_episodes: 
             no_records: 
           grid:
             episodes: 
-            groups: 
+            groups: "Групи"
           group: "Група"
           messages:
-            episodes_added: 
-          name: 
+            episodes_added:
+              one: "Добавен е %{count} епизод!"
+              other: "Добавени са %{count} епизода!"
+          name: "Име на групата"
           no_records: 
-          type: 
+          type: "Тип"
           types:
-            '1': 
+            '1': "Дата на първо излъчване"
             '2': 
-            '3': 
+            '3': DVD
             '4': 
             '5': 
             '6': 
-            '7': 
+            '7': "Телевизия"
         networks:
           no_records: 
           none_found: 
@@ -2683,13 +2685,15 @@ bg-BG:
           no_records: 
           no_season: 
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: "Добавяне на ново времетраене?"
+          enter_value: "Стойност в минути"
         seasons:
           no_records: 
       episode_groups:
         groups:
-          count: 
+          count:
+            one: "%{count} група"
+            other: "%{count} групи"
         original_air_date: 
       networks: 
       types:
@@ -2707,7 +2711,7 @@ bg-BG:
       published: 
       published_at: 
       restricted_regions: 
-      tags: 
+      tags: "Етикети"
   month:
     one: "месец"
     other: "%{count} месеца"
@@ -2737,9 +2741,9 @@ bg-BG:
   no_collection_search_results: "Няма колекции които да отговарят на вашата заявка."
   no_company_search_results: "Няма компании които да отговарят на вашата заявка."
   no_contributors: "Никой не е допринесъл."
-  no_created_lists: 
+  no_created_lists: "Не сте създали нито един списък."
   no_crew: "Няма добавени членове на епипа към %{media_type}. Можете да помогнете като добавите!"
-  no_description: 
+  no_description: "Няма въведено описание."
   no_director: "Няма добавен режисьор."
   no_episode_images: "Няма добавени изображения към епизода."
   no_favorite_movies:
@@ -2786,9 +2790,9 @@ bg-BG:
     clear: 
     good_job: "Добра работа!"
     mark_all_as_read: 
-    refresh: 
+    refresh: "Опресни"
     unread_notifications: "Непрочетени"
-    view: 
+    view: "Преглед"
   number:
     currency:
       format:
@@ -2873,14 +2877,14 @@ bg-BG:
   search:
     favorites_movie: "Търси любими филми..."
     favorites_tv: "Търси любими сериали..."
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: "във филми"
+    in_people: "в хора"
+    in_tv_shows: "в сериали"
     media_types:
       movie: "Филм"
       person: "Човек"
       tv_show: "Сериал"
-    no_results: 
+    no_results: "Няма резултат"
     no_results_found: "Няма намерени резултати"
     rated_movie: "Търси оценени филми..."
     rated_tv: "Търси оценени сериали..."
@@ -2947,8 +2951,8 @@ bg-BG:
           imported: 
           item_reasons:
             already_imported: "Вече е внесен"
-            cant_find_imdb: 
-          reason: 
+            cant_find_imdb: IMDB ID не може да бъде намерен.
+          reason: "Причина?"
           summary: 
         currently_running: "Внасяне в прогрес. За да проверите завършило ли е презаредете страницата."
         import_results: "Резултат"
@@ -2985,11 +2989,11 @@ bg-BG:
         current_avatar: "Текущ аватар"
         explain: 
         explain_gravatar: 
-        not_found: 
-        not_found_add: 
-        remove_own: 
-        update_avatar: 
-        update_gravatar: 
+        not_found: "Не е намерен аватар."
+        not_found_add: Не е намерен аватар. Желаете ли  да <a href="#">добавите</a>?
+        remove_own: "Премахване на аватара?"
+        update_avatar: "Обнови аватара"
+        update_gravatar: "Обновяване на Gravatar?"
         updated: "Аватарът е обновен!"
         upload_avatar: 
         upload_own: 
