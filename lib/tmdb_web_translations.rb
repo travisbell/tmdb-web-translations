@@ -16,6 +16,7 @@ module TMDb
                                                         'es-MX' => 'es',
                                                         'fr-CA' => 'fr',
                                                         'pt-BR' => 'pt',
+                                                        'zh-HK' => 'zh',
                                                         'zh-TW' => 'zh')
       end
 
