@@ -302,10 +302,10 @@ gl-ES:
   Original Order: Orden orixinal
   Original TV Show Language: Lingua orixinal da serie TV
   Original Title: Título orixinal
-  Other Databases: 
-  Our History: 
-  Overview: 
-  Page: 
+  Other Databases: Outras bases de datos
+  Our History: Nosa historia
+  Overview: Sinopse
+  Page: Páxina
   Password: 
   Password Confirm: 
   People: 
@@ -330,29 +330,29 @@ gl-ES:
   Popularity Descending: Popularidade descendente
   Popularity Rank: Posto na popularidade
   Popularity Trend: Evolución da popularidade
-  Post Production: 
-  Poster Card View: 
-  Posters: 
-  Powered by TMDb: 
-  Powered by The Movie Database: 
+  Post Production: 'Post-produción '
+  Poster Card View: Vista do póster en tarxeta
+  Posters: Pósters
+  Powered by TMDb: Impulsado pola TMDb
+  Powered by The Movie Database: Impulsado por The Movie Database
   Premiere: Estrea
   Preview: Ollada
-  Primary Color: 
+  Primary Color: Cor primario
   Primary Facts: Datos principais
-  Privacy Policy: 
-  Production Code: 
-  Production Companies: 
-  Production Countries: 
-  Production Information: 
-  Profiles: 
-  Public List?: 
-  Public Report?: 
-  Quality: 
-  Rank: 
+  Privacy Policy: Política de privacidade
+  Production Code: 'Código de produción '
+  Production Companies: Produtoras
+  Production Countries: 'Países de produción '
+  Production Information: 'Información de produción '
+  Profiles: Perfís
+  Public List?: Publicar lista?
+  Public Report?: Publicar informe?
+  Quality: Calidade
+  Rank: Posto
   Rate It!: Valórao!
-  Rated: 
-  Rated Movies: 
-  Rated TV Shows: 
+  Rated: Valorado
+  Rated Movies: Filmes valorados
+  Rated TV Shows: Series TV valoradas
   Rating: Valoración
   Rating Ascending: Valoración ascendente
   Rating Descending: Valoración descendente
@@ -375,7 +375,7 @@ gl-ES:
   Remove from your favorite list: Eliminar da túa lista de favoritos
   Remove from your watchlist: Eliminar da túa lista de seguimento
   Remove?: Eliminar?
-  Report: 
+  Report: Informar
   Report an Issue: 
   Reported Issues: 
   Request an API Key: 
@@ -1993,7 +1993,7 @@ gl-ES:
     Key Hairdresser: Perruqueiro/a chave
     Key Makeup Artist: 'Artista de maquillaxe chave '
     Key Production Assistant: Auxiliar de produción chave
-    Key Rigging Grip: 
+    Key Rigging Grip: Reparador/a chave de montaxe
     Key Scenic Artist: Artista escénico chave
     Key Set Costumer: Figurinista chave de plató
     Key Set Painter: Pintor/a chave de plató
@@ -2545,31 +2545,37 @@ gl-ES:
         alternative_titles:
           no_records: 
         cast:
-          no_records: 
-        confirm_collection: 
-        confirm_video: 
+          no_records: Non se engadiron membros do reparto.
+        confirm_collection: |-
+          <p>As coleccións son un mecanismo proveitoso para axuntar secuelas na TMDb. Namentres poida resultar controvertido ás veces, non están pensadas para agruparen filmes do mesmo "universo". Por tanto, por favor <a href="%{list_link}" target="_blank" rel="noopener">crea unha lista</a>. Para máis información sobre coleccións podes visitar <a href="%{docs_link}" target="_blank" rel="noopener">a nosa documentación</a>.</p>
+
+          <p>Se a colección que estás a piques de crear cumpre estes requisitos, continúa por favor.</p>
+        confirm_video: |-
+          <p>Ao etiquetares un filme coma un vídeo estasnos a axudar a diferenciarmos tipos de contido que non son filmes realmente.<\p>
+
+          <p>Se este contido é por exemplo un DVD recopilatorio, "o mellor de" ou un vídeo de fitness, entón deberíalo marcar coma un vídeo.</p>
         crew:
-          job_required: 
-          no_records: 
-          person_required: 
+          job_required: Requírese un traballo
+          no_records: Non se engadiron membros do equipo.
+          person_required: Requírese unha persoa
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Engadir xénero
+          no_records: Non se engadiron xéneros.
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
+          add_keyword: 'Engadir palabra chave '
+          create: Crealo
+          no_records: Non se engadiron palabras chave.
+          none_found: Non se atopou palabra chave algunha. Quérela crear?
           tip: 
         production_information:
-          add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          add_production_company: 'Engadir produtora '
+          no_records: Non se engadiron produtoras.
+          none_found: Non se atopou produtora algunha. Quérela crear?
+          production_company: Produtora
         release_information:
-          no_records: 
+          no_records: Non se engadiron datas de publicación.
         videos:
-          no_records: 
+          no_records: Non se engadiron vídeos.
     network:
       edit:
         alternative_names: Nomes alternativos
@@ -2690,8 +2696,8 @@ gl-ES:
           no_records: Non se engadiron redes.
           none_found: Non se atoparon redes que coincidan. Queres crear unha?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: 'Non se engadiu reparto habitual '
+          no_season: Non existen tempadas! Requírese unha tempada para engadir reparto habitual.
         runtime:
           add_it: 
           enter_value: 
@@ -2811,30 +2817,30 @@ gl-ES:
         unit: 
     format:
       delimiter: 
-      precision: 
+      precision: 3
       separator: 
-      significant: 
+      significant: true
       strip_insignificant_zeros: 
     human:
       decimal_units:
-        format: 
+        format: "%n %u"
         units:
-          billion: 
-          million: 
+          billion: Mil millón
+          million: 'Millón '
           quadrillion: Cuatrillón
-          thousand: 
-          trillion: 
+          thousand: Mil
+          trillion: Billón
       format:
-        precision: 
+        precision: 3
         significant: 
         strip_insignificant_zeros: 
       short_decimal_units:
         units:
-          billion: 
-          million: 
+          billion: MilM
+          million: M
           quadrillion: C
-          thousand: 
-          trillion: 
+          thousand: k
+          trillion: Bill
           unit: 
     percentage:
       format:
@@ -2843,7 +2849,9 @@ gl-ES:
     precision:
       format:
         delimiter: 
-  number_of_edits: 
+  number_of_edits:
+    one: "%{count} edición"
+    other: "%{count} edicións"
   number_of_items:
     one: "%{count} elemento"
     other: "%{count} elementos"
