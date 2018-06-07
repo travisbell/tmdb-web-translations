@@ -391,7 +391,7 @@ zh-TW:
   Search: "搜尋"
   Search for a company: "搜尋公司"
   Search for a country: "搜尋國家"
-  Search for a genre: "搜尋年代"
+  Search for a genre: "搜尋類型"
   Search for a keyword: "搜尋關鍵字"
   Search for a language: "以語言做搜索..."
   Search for a movie or TV show: "搜尋電影或電視影集"
@@ -487,7 +487,7 @@ zh-TW:
   Upload Logo: "商標上傳"
   User Score: "使用者評分"
   Username: "帳號"
-  Video?: "影片？"
+  Video?: "小短片？"
   Videos: "影片"
   View: "檢視"
   View All Backdrops: "檢視所有劇照"
@@ -2519,9 +2519,9 @@ zh-TW:
         bible: "有關編輯 TMDb 資訊，若需要幫助請點擊 '?' 按鈕"
         homepage: "僅開放官方網站登錄，不包含粉絲專頁"
         logo_format: "支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。"
-        original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合"
+        original_title: "原登錄片名的項目，通常與「原始語言」欄位的語言類型相吻合。"
         overview: "撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。"
-        social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業"
+        social_links: "社群連結只能是認證過的官方網站，目前還不允許粉絲專業。"
     genre:
       movie_page_title: "%{name} 的電影"
       tv_page_title: "%{name} 的電視影集"
@@ -2691,7 +2691,7 @@ zh-TW:
             '4': "數位"
             '5': Story Arc
             '6': "製作"
-            '7': TV
+            '7': "電視"
         networks:
           no_records: "沒有添加電視網"
           none_found: "沒有找到任何電視網資料，想要新增一個嗎？"
@@ -2734,7 +2734,11 @@ zh-TW:
       subject: 
       template: 
       to: 
+    no_messages: 
     number_of_messages: 
+    options:
+      archive: 
+      settings: 
     placeholders:
       reply: 
       subject: 
@@ -2779,28 +2783,28 @@ zh-TW:
   no_favorite_tv_shows:
     current_user: "您尚未加入任何喜愛的電視影集。"
     public: "%{username} 沒有任何喜愛的電視影集。"
-  no_genres: "目前還沒有任何電影類型的資料"
-  no_guest_stars: "目前沒有關於客串演員的資料"
-  no_keyword_search_results: "沒有任何符合關鍵字的資料"
-  no_keywords: "目前沒有關鍵字的資料"
+  no_genres: "目前還沒有任何電影類型的資料。"
+  no_guest_stars: "目前沒有關於客串演員的資料。"
+  no_keyword_search_results: "沒有任何符合關鍵字的資料。"
+  no_keywords: "目前沒有關鍵字的資料。"
   no_list_search_results: "目前沒有符合的清單資料"
-  no_media: "目前沒有關於%{title}的影片、背景簡介或海報"
-  no_movie_search_results: "沒有搜尋到任何電影"
+  no_media: "目前沒有關於%{title}的影片、背景簡介或海報。"
+  no_movie_search_results: "沒有搜尋到任何電影。"
   no_overview: "目前沒有相關簡介，您可協助新增簡介資料。"
-  no_person_search_results: "沒有搜尋到任何演員"
+  no_person_search_results: "沒有搜尋到任何演員。"
   no_personal_recommendations:
     movie: "您可透過增加有興趣的電影來獲得針對您個人的電影推薦。同時您可能已經注意到我們推薦過很多您已經看過的電影，請對這些電影評分，未來我們將根據您的喜好來做過濾！"
     tv: "您可透過增加有興趣的電視影集來獲得針對您個人的電視影集推薦。同時您可能已經注意到我們推薦過很多您已經看過的電視影集，請對這些電視影集評分，未來我們將根據您的喜好來做過濾！"
   no_rated_movies:
-    current_user: "您尚未對任何電影作評分"
-    public: "%{username} 尚未對任何電影作評分"
+    current_user: "您尚未對任何電影作評分。"
+    public: "%{username} 尚未對任何電影作評分。"
   no_rated_tv_shows:
-    current_user: "您尚未對任何電視影集作評分"
-    public: "%{username} 尚未對任何電視影集作評分"
+    current_user: "您尚未對任何電視影集作評分。"
+    public: "%{username} 尚未對任何電視影集作評分。"
   no_recommendations:
-    movie: "我們沒有關於%{title}的電影推薦，您可對此電影評分以推薦本電影"
-    tv_show: "我們沒有關於%{title}的電視影集推薦，您可對此影集評分以推薦本影集"
-  no_records: "沒有資料"
+    movie: "我們沒有關於%{title}的電影推薦，您可對此電影評分以推薦本電影。"
+    tv_show: "我們沒有關於%{title}的電視影集推薦，您可對此影集評分以推薦本影集。"
+  no_records: "沒有資料。"
   no_tv_search_results: "沒有搜尋到任何電視影集"
   no_watchlist_movies:
     current_user: "您尚未加入任何電影至您的播放清單"
@@ -2815,7 +2819,7 @@ zh-TW:
   notifications:
     caught_up: "看起來你都收到了"
     clear: "清除"
-    good_job: Good job!
+    good_job: "做得好！"
     mark_all_as_read: "全部標記為已讀"
     refresh: "重新整理"
     unread_notifications: "未讀的通知"
@@ -2881,7 +2885,7 @@ zh-TW:
   part_of_collection: "為%{collection_name}的一部分"
   password:
     confirm_new_password: "確認新密碼"
-    invalid_reset_code: "不正確的重置碼"
+    invalid_reset_code: "不正確的重置碼。"
     new_password: "新密碼"
     reset_email_sent: "郵件已寄出！您很快就會收到密碼重置的說明郵件。"
   person:
@@ -2946,7 +2950,7 @@ zh-TW:
         date_authorised: "授權日期"
     delete_account:
       delete_account: "刪除帳戶"
-      summary_text: "<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作"
+      summary_text: "<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作。"
     import_list:
       import_button: "匯入"
       import_list: "匯入清單"
@@ -3003,19 +3007,19 @@ zh-TW:
     profile:
       accent_color: "個人預設顏色"
       avatar:
-        current_avatar: "目前的 Avatar"
+        current_avatar: "目前的頭像"
         explain: 目前關於客製化 Avatar，我們只提供以 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 為主要的客製化 Avatar 服務。若您欲在TMDb中顯示您的客製化 Avatar，您必須擁有 Gravatar 帳號並且確認兩邊網站的註冊電子郵件位址一致（如此才可連結至您的帳號）。當上述步驟完成後，按下更新的按鈕即可獲取您的照片。
         explain_gravatar: |
           如果您想要使用 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 當作您的個人頭像，請先確認您在TMDb註冊的電子郵件與您在 Gravatar 註冊的一致。當兩邊帳號一致（並請確認已於 Gravatar 上傳個人照片）時，點擊下方的更新按鈕將會立即更新您的個人頭像。
-        not_found: "沒有找到您的 Avatar"
-        not_found_add: 找不到 avatar。您要 <a href="#">新增</a> 一個嗎？
-        remove_own: "移除 Avatar 嗎？"
-        update_avatar: "上傳 Avatar"
+        not_found: "沒有找到您的頭像。"
+        not_found_add: 找不到頭像。您要 <a href="#">新增</a> 一個嗎？
+        remove_own: "移除頭像嗎？"
+        update_avatar: "更新頭像"
         update_gravatar: "更新 Gravatar"
-        updated: Avatar 上傳成功！
-        upload_avatar: "上傳 Avatar"
-        upload_own: "上傳照片"
-        upload_window_tip: "請使用下方的檔案選取工具來上傳您的 avatar 圖片，本圖片經上傳後將自動裁切為正方形"
+        updated: "頭像更新成功！"
+        upload_avatar: "上傳頭像"
+        upload_own: "上傳照片？"
+        upload_window_tip: "請使用下方的檔案選取工具來上傳您的頭像圖片，本圖片經上傳後將自動裁切為正方形"
         use_gravatar: "使用 Gravatar 嗎？"
       background:
         background_image: "背景圖片"
@@ -3056,19 +3060,19 @@ zh-TW:
       build_watchlist: "製作並維護自己的觀看清單"
       contribute: "為我們的資料庫中的資料做出改進和貢獻"
       discussions: "一同參加任何電影和電視影集的相關討論"
-      keep_track: "可持續追蹤自己所喜好的電影和電視影集並得到相關建議"
+      keep_track: "可持續追蹤自己所喜好的電影和電視影集並得到相關建議。"
       log_movies: "可紀錄自己曾觀看過的電影和電視節目"
-    by_clicking_agree_to_terms: "若您已點選下方的「註冊」按鈕，本網站將會視同您已閱讀並同意 TMDb 的使用條款和隱私權政策"
-    javascript_required: JavaScript 需要繼續
+    by_clicking_agree_to_terms: "若您已點選下方的「註冊」按鈕，本網站將會視同您已閱讀並同意 TMDb 的使用條款和隱私權政策。"
+    javascript_required: JavaScript 需要繼續。
     sign_up_for_account: "註冊帳號"
-    signup_text: "請填寫完下列資料後即可完成註冊流程"
+    signup_text: "請填寫完下列資料後即可完成註冊流程。"
   success_approved_access_token: "已授權!"
   success_deleted: "已成功選擇的項目刪除。"
   success_email: "已成功寄出您的信件。"
   success_image_rated: "您已成功對此圖片評分。"
   success_image_uploaded: "已成功上傳圖片。"
   success_rating: "已儲存您的評分。"
-  success_registration: "註冊成功"
+  success_registration: "註冊成功。"
   success_report: "已成功送出問題回報。"
   success_saved: "已將您的修改儲存。"
   success_set_language: "已更新語言。"
@@ -3078,7 +3082,7 @@ zh-TW:
       12hour_minutes: "%l:%M%p"
   top_contributors: "傑出貢獻者"
   translation: "翻譯"
-  upload_backdrop: "上傳佈景"
+  upload_backdrop: "上傳劇照"
   upload_poster: "上傳海報"
   upload_profile: "上傳簡介"
   used_by_developers: TMDb 目前被超過150,000位以上的開發人員所使用。<br> 以下為他們的作品：
