@@ -304,7 +304,7 @@ gl-ES:
   Original Title: Título orixinal
   Other Databases: Outras bases de datos
   Our History: Nosa historia
-  Overview: Sinopse
+  Overview: Descrición
   Page: Páxina
   Password: Contrasinal
   Password Confirm: Confirmar contrasinal
@@ -464,7 +464,7 @@ gl-ES:
   Title (Z-A): Título (Z-A)
   Today: Hoxe
   Top Billed Cast: Reparto máis destacado
-  Top Rated Movies: Filmes mellor valorados
+  Top Rated Movies: Filmes mellor puntuados
   Top Rated TV Shows: Series TV mellor valoradas
   Top Users: Mellores usuarios
   Trailer: Tráiler
@@ -592,7 +592,7 @@ gl-ES:
       favorites: Favoritos
       lists: Listas
       overview: Resumo
-      ratings_reviews: Críticas e Valoracións
+      ratings_reviews: Críticas e Puntuacións
       recommendations: Recomendacións
       watchlist: Lista de seguimento
     order: 'Orden:'
@@ -609,33 +609,33 @@ gl-ES:
       goto_discussions: Ir a debates
       goto_watchlist: Ir á lista de seguimento
       most_watched_genres: Xéneros máis vistos
-      rating_overview: Resumo de valoracións
+      rating_overview: Resumo de puntuacións
       recent_activity: Actividade recente
       recent_discussions: Debates recentes
       total_edits: Edicións totais
-      total_ratings: Valoracións totais
+      total_ratings: Puntuacións totais
       upcoming_watchlist: Proximamente na lista de seguimento
     page_title:
       page_owner: Meu perfil
       public: O perfil de %{username}
     ratings_reviews:
       my_ratings:
-        logged_in: 'As miñas valoracións '
-        public: Valoracións de %{username}
+        logged_in: As miñas puntuacións
+        public: Puntuacións de %{username}
       my_reviews:
         logged_in: As miñas críticas
         public: Críticas de %{username}
       page_title:
-        page_owner: As miñas críticas e valoracións
-        public: Críticas e valoracións de %{username}
-      ratings_by_year: Valoracións por ano
+        page_owner: As miñas críticas e puntuacións
+        public: Críticas e puntuacións de %{username}
+      ratings_by_year: Puntuacións por ano
     recommendations:
       my_recommendations: As miñas recomendacións
       no_recommendations: Non dispoñemos datos de abondo para realizarmos unha recomendación.
       no_recommendations_helper: Tenta engadir uns poucos favoritos máis (cantos máis mellor) e retorna para mirares como o fixemos.
       page_title: Recomendacións
     tips:
-      import_imdb_ratings: Podes importar as túas valoracións dende IMDb.
+      import_imdb_ratings: Podes importar as túas puntuacións dende IMDb.
       tip: Consello
     watchlist:
       my_watchlist: A miña lista de seguimento
@@ -738,7 +738,7 @@ gl-ES:
           meaning: Admisión restrinxida a maiores de 18 anos. O simple propósito do filme é o retrato de actividade sexual e/ou violencia explícitas.
       CA-QC:
         '0':
-          meaning: Sen información de valoracións.
+          meaning: Sen información de puntuacións.
         '1':
           meaning: Valoración xeral - Pode ser vista, alugada ou adquirida por personas de todas as idades. Se un filme posúe unha valoración "G"  pode ofender a sensibilidade de cativos menores de 8 anos. "Non axeitado para cativos" engadirase á clasificación.
         '2':
@@ -1639,7 +1639,7 @@ gl-ES:
     Art Department Production Assistant: Auxiliar de produción de departamento artístico
     Art Department Trainee: Bolseiro do departamento artístico
     Art Designer: Deseñador artístico
-    Art Direction: Director artístico
+    Art Direction: Director/a artístico/a
     Art Direction Intern: Aprendiz de dirección artística
     Assistant Accountant: Auxiliar contable
     Assistant Art Director: Director/a artístico/a auxiliar
@@ -2734,11 +2734,13 @@ gl-ES:
       subject: Asunto
       template: Padrón
       to: A
-    no_messages: 
-    number_of_messages: 
+    no_messages: Sen mensaxes
+    number_of_messages:
+      one: "%{count} mensaxe"
+      other: "%{count} mensaxe"
     options:
-      archive: 
-      settings: 
+      archive: Arquivo
+      settings: Configuración
     placeholders:
       reply: Escribe unha mensaxe...
       subject: De que vai isto?
@@ -2746,7 +2748,7 @@ gl-ES:
     right_column_titles:
       conversation_with: Parola con %{username}
       message_inbox: Caixa de entrada
-      new_message: 
+      new_message: Nova mensaxe
   month:
     one: mes
     other: "%{count} meses"
@@ -2756,9 +2758,9 @@ gl-ES:
       movies: Filmes
       tv_shows: Series TV
     movies:
-      now_playing: Reproducindo agora
+      now_playing: Proxectándose agora
       popular: Popular
-      top_rated: Mellor valorados
+      top_rated: Mellor puntuados
       upcoming: Proximamente
     people:
       people: Xente
@@ -2768,7 +2770,7 @@ gl-ES:
       on_the_air: Emitíndose
       on_tv: En TV
       popular: Popular
-      top_rated: Mellor valorados
+      top_rated: Mellor puntuados
   no_biography: Non temos unha biografía para %{name}.
   no_cast: Non temos ningún reparto engadido a este/a %{media_type}. Podes axudar engadindo datos!
   no_collection_search_results: Non hai coleccións que coincidan coa túa procura.
@@ -2792,7 +2794,7 @@ gl-ES:
   no_list_search_results: Non hai listas que coincidan coa túa procura.
   no_media: Non se engadiron vídeos, fondos ou pósters para %{title}.
   no_movie_search_results: Non hai filmes que coincidan coa túa procura.
-  no_overview: Non temos sinopse algunha traducia ao galego. Axúdanos a expandir a nosa base de datos engadindo unha.
+  no_overview: Non temos sinopse algunha traducida ao galego. Axúdanos a expandir a nosa base de datos engadindo unha.
   no_person_search_results: Non hai xente que coincida coa túa procura.
   no_personal_recommendations:
     movie: 'Para obteres recomendacións persoalizadas de filmes comeza por engadires todos os teus filmes favoritos. Entón repararás que moitos dos filmes que recomendamos son os que xa tes visto. Para filtrárelos, valóraos! Após os filtraremos automaticamente. '
@@ -3009,7 +3011,7 @@ gl-ES:
       notification_settings: Configuración dos avisos
       settings: Configuración
       sharing_settings: Configuración de compartición
-      social_settings: Configuración social
+      social_settings: Configuración de redes sociais
     notifications:
       email_new_releases_watchlist: Enviarme un email sobre novas publicacións na miña lista de seguimento?
       new_replies_to_threads_created: Seguir automaticamente os temas que creei ou respostei?
@@ -3017,7 +3019,7 @@ gl-ES:
       news_updates: Enviarme un email sobre novas e novidades de produtos
       notifications: Avisos
     profile:
-      accent_color: Cor de acento
+      accent_color: Cor da icona
       avatar:
         current_avatar: Avatar actual
         explain: Agora mesmo, a única opción que temos para mostrarmos un avatar personalizado é empregando un servizo chamado <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Se queres amosar un avatar personalizado na TMDb, teráste que rexistrar en Gravatar e asegurarte que engades o mesmo email que empregas aquí (e así poderemos ligar a túa conta). Unha vez feito, preme no botón de anovar de abaixo e colleremos a túa nova imaxe.
@@ -3091,7 +3093,7 @@ gl-ES:
   time:
     formats:
       12hour_minutes: "%l:%M%p"
-  top_contributors: Mellores contribuídores
+  top_contributors: Mellores contribuidores
   translation:
     one: tradución
     other: traducións
