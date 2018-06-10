@@ -668,7 +668,7 @@ pt-BR:
     normalized_username: Nome de Usuário
     overview: Sinopse
     title: Título
-    to_accounts_ids: 
+    to_accounts_ids: Para
   average edits per day: média de edições por dia
   back_options:
     back: Voltar
@@ -2742,24 +2742,26 @@ pt-BR:
       tags: Marcadores
   messages:
     compose:
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
-    number_of_messages: 
+      message: Mensagem
+      subject: Assunto
+      template: Modelo
+      to: Para
+    no_messages: Nenhuma mensagem
+    number_of_messages:
+      one: "%{count} mensagem"
+      other: "%{count} mensagens"
     options:
-      archive: 
-      settings: 
+      archive: Arquivo
+      settings: Configurações
     placeholders:
-      no_user_found: 
-      reply: 
-      subject: 
-      to: 
+      no_user_found: Nenhum usuário encontrado.
+      reply: Digite uma mensagem...
+      subject: Do que se trata?
+      to: Procurar por um usuário...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      new_message: 
+      conversation_with: Conversa com %{username}
+      message_inbox: Caixa de entrada
+      new_message: Nova mensagem
   month:
     one: mês
     other: "%{count} meses"

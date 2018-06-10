@@ -334,7 +334,7 @@ fi-FI:
   Poster Card View: Julisteiden korttinäkymä
   Posters: Julisteet
   Powered by TMDb: 
-  Powered by The Movie Database: 
+  Powered by The Movie Database: Voimanlähteenä The Movie Database
   Premiere: Ensi-ilta
   Preview: Esikatselu
   Primary Color: Pääväri
@@ -1272,8 +1272,8 @@ fi-FI:
     welcome_1: Tervetuloa
     welcome_2: Avustajan ohjekirja
   cookie_popup:
-    message: 
-    ok_button: 
+    message: Käytämme evästeitä tarjotaksemme sinulle paremman käyttökokemuksen. Katso <a href="%{policy_url}" target="_blank" rel="noopener">evästekäytäntömme</a> saadaksesi lisätietoa. Jatkamalla TMDb:n käyttöä hyväksyt evästeiden käytön.
+    ok_button: Ok
   date:
     abbr_day_names:
     - Sun
@@ -2732,24 +2732,26 @@ fi-FI:
       tags: Tunnisteet
   messages:
     compose:
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
-    number_of_messages: 
+      message: Viesti
+      subject: Aihe
+      template: Luonnos
+      to: Vastaanottaja
+    no_messages: Ei viestejä
+    number_of_messages:
+      one: "%{count} viesti"
+      other: "%{count} viestiä"
     options:
-      archive: 
-      settings: 
+      archive: Arkisto
+      settings: Asetukset
     placeholders:
-      no_user_found: 
-      reply: 
-      subject: 
-      to: 
+      no_user_found: Käyttäjää ei löytynyt.
+      reply: Kirjoita viesti...
+      subject: Mitä asia koskee?
+      to: Etsi käyttäjää...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      new_message: 
+      conversation_with: Keskustelu käyttäjän %{username} kanssa
+      message_inbox: Saapuneet viestit
+      new_message: Uusi viesti
   month:
     one: kuukausi
     other: "%{count} kuukautta"
