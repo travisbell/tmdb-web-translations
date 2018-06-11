@@ -41,7 +41,7 @@ zh-CN:
   Add a New Crew Member: "添加新主创人员"
   Add a New Guest Star: "添加新友情客串"
   Add to Watchlist: "添加到观看目标"
-  Add to list: "添加到列表"
+  Add to list: "添加到收藏表"
   Add to your favorite list: "添加到我的最爱清单"
   Add to your watchlist: "添加到观看目标"
   Added By: "添加者"
@@ -113,7 +113,7 @@ zh-CN:
   Create: "创建"
   Create App: "创建 App"
   Create Application: "创建应用"
-  Create New List: "创建新列表"
+  Create New List: "创建新收藏表"
   Create Translation: "创建翻译"
   Created By: "创建者"
   Credits: "贡献者"
@@ -180,7 +180,7 @@ zh-CN:
   Featured: "精选"
   Featured Cast: "主演"
   Featured Crew: "主创"
-  Featured Lists: "推荐列表"
+  Featured Lists: "推荐收藏"
   Featurette: "花絮"
   Featurettes: "花絮"
   Female: "女"
@@ -241,7 +241,7 @@ zh-CN:
   Leaderboard: "排行榜"
   Legal: "法律声明"
   List Results: "列表结果"
-  Lists: "列表"
+  Lists: "收藏表"
   Load More: "载入更多"
   Locked?: "锁定？"
   Login to Add a Backdrop: "登录以添加剧照"
@@ -252,7 +252,7 @@ zh-CN:
   Login to add this TV show to your watchlist: "登录以添加此剧集到你的观看目标"
   Login to add this movie to your favorite list: "登录以添加此电影到我的最爱清单"
   Login to add this movie to your watchlist: "登录以添加此电影到你的观看目标"
-  Login to create and edit custom lists: "登录以创建和编辑用户列表"
+  Login to create and edit custom lists: "登录以创建和编辑用户收藏表"
   Login to rate this TV show: "登录以给此剧集评分"
   Login to rate this movie: "登录以给此电影评分"
   Login to report an issue: "登录以报告问题"
@@ -322,7 +322,7 @@ zh-CN:
   Play: "播放"
   Play Trailer: "播放预告片"
   Plot Keywords: "剧情关键字"
-  Popular Lists: "热门列表"
+  Popular Lists: "热门收藏表"
   Popular Movies: "热门电影"
   Popular TV Shows: "热门剧集"
   Popularity: "热门"
@@ -514,13 +514,13 @@ zh-CN:
   Written by: "原作"
   Year: "年"
   'Yes': "是"
-  Your lists: "你的列表"
+  Your lists: "你的收藏表"
   Your rating: "你的评分"
   Zip Code: "邮政编码"
   account_drop_down:
     discussions: "讨论"
     edit_profile: "编辑用户资料"
-    lists: "列表"
+    lists: "收藏表"
     login: "登录"
     logout: "注销"
     settings: "设置"
@@ -575,22 +575,22 @@ zh-CN:
       score: "评分"
       upcoming: "即将上映"
     lists:
-      create_list: "创建列表"
+      create_list: "创建收藏表"
       last_updated: "更新"
       my_lists:
-        logged_in: "我的列表"
-        public: "%{username} 的列表"
+        logged_in: "我的收藏表"
+        public: "%{username} 的收藏表"
       no_lists:
-        logged_in: "你还未创建任何列表。"
-        public: "%{username} 没有公开列表可供分享。"
+        logged_in: "你还未创建任何收藏表。"
+        public: "%{username} 没有公开收藏表可供分享。"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "我的收藏表"
+        public: "%{username}的收藏表"
     member_since: "%{date} 加入为本网站会员。"
     navigation:
       discussions: "讨论"
       favorites: "我的最爱"
-      lists: "列表"
+      lists: "收藏表"
       overview: "概览"
       ratings_reviews: "评分 & 影评"
       recommendations: "推荐给我"
@@ -652,7 +652,7 @@ zh-CN:
       this_month: "本月"
       this_week: "本周"
       view_them: "浏览它们。"
-  add_to_list: "添加 %{media_title} 到你的列表..."
+  add_to_list: "添加 %{media_title} 到你的收藏表..."
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
     approved_session: "你已核准 %{application_name}。你可以关闭此窗口。"
@@ -1450,8 +1450,8 @@ zh-CN:
   edit_list:
     add_edit_items: "添加/编辑项目"
     choose_image: "选择图像"
-    delete_list: "删除列表"
-    edit_list: "编辑列表"
+    delete_list: "删除收藏表"
+    edit_list: "编辑收藏表"
   edits: "编辑"
   email:
     confirm_new_email_address: "确认新电子邮件地址"
@@ -2516,7 +2516,7 @@ zh-CN:
         homepage: "仅官方主页，影迷页不允许"
         logo_format: 
         original_title: "原始标题应录入项目的原始语言，通常匹配“原始语言”栏录入的语言。"
-        overview: "剧情简介请尽量简短，避免剧透。"
+        overview: "请尽量简短，避免剧透。"
         social_links: "社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。"
     genre:
       movie_page_title: 
@@ -2753,7 +2753,7 @@ zh-CN:
   no_collection_search_results: "未找到所查询的影片集。"
   no_company_search_results: "未找到所查询的公司。"
   no_contributors: "没未找到贡献者"
-  no_created_lists: "你尚未创建列表。"
+  no_created_lists: "你尚未创建收藏表。"
   no_crew: "此%{media_type}还没有主创人员信息。你可以帮助添加！"
   no_description: "尚未录入描述。"
   no_director: "未添加导演"
@@ -3036,7 +3036,7 @@ zh-CN:
   sign_up:
     benefits:
       benefits_to_being_member: 
-      build_custom_lists: 
+      build_custom_lists: "制作自选的混合收藏表(电影及剧集)"
       build_watchlist: 
       contribute: 
       discussions: 
