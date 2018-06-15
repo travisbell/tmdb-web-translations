@@ -91,8 +91,8 @@ zh-CN:
   City: "城市"
   Clip: "剪辑"
   Clips: "剪辑"
-  Collection Results: "影片集结果"
-  Collections: "影片集"
+  Collection Results: "系列结果"
+  Collections: "系列"
   Coming soon!: "即将推出！"
   Comments: "说明"
   Community: "社区"
@@ -108,7 +108,7 @@ zh-CN:
   Content Score: "完成度"
   Continue: "继续"
   Contribution leaders for the week of: "一周最多贡献"
-  Convert to Collection?: "转换为影片集？"
+  Convert to Collection?: "转换为系列纲领？"
   Country: "国家"
   Create: "创建"
   Create App: "创建 App"
@@ -469,7 +469,7 @@ zh-CN:
   Top Users: "用户排行"
   Trailer: "预告片"
   Trailers: "预告片"
-  Translate Collection: "翻译电影集"
+  Translate Collection: "翻译系列"
   Translate Movie: "翻译电影"
   Translate Person: "译者"
   Translate TV Series: "翻译剧集"
@@ -1231,11 +1231,11 @@ zh-CN:
       people: 
       tv: 
     collection:
-      collection: "特集"
-      collection_bible: "特集参考手册"
+      collection: "系列"
+      collection_bible: "系列参考手册"
       tall_bible:
         bottom: "参考手册"
-        top: "特集"
+        top: "系列"
     contribution_bible: "数据编辑参考手册"
     featured_articles: 
     general:
@@ -2537,12 +2537,15 @@ zh-CN:
     movie:
       edit:
         adult:
-          adult_movie: "成人电影？"
+          adult_movie: "色情电影？"
         alternative_titles:
           no_records: 
         cast:
           no_records: 
-        confirm_collection: 
+        confirm_collection: |-
+          <p>系列是在TMDb将续集分组的方式，虽然有时此方式有些为争议，但系列不一定以同一「故事世界观」的方式来作分组的依据。若您了解系列的原则，请继续 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多关於系列的资讯，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文件</a>.</p>
+
+          <p>如果您要创建的系列符合此条件，请继续建立系列。</p>
         confirm_video: 
         crew:
           job_required: 
@@ -2761,7 +2764,7 @@ zh-CN:
       top_rated: "高分"
   no_biography: "没有 %{name} 的自传"
   no_cast: "此%{media_type}还没有演员信息。你可以帮助添加！"
-  no_collection_search_results: "未找到所查询的影片集。"
+  no_collection_search_results: "未找到所查询的系列。"
   no_company_search_results: "未找到所查询的公司。"
   no_contributors: "没未找到贡献者"
   no_created_lists: "你尚未创建收藏表。"

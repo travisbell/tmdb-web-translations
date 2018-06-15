@@ -91,8 +91,8 @@ zh-TW:
   City: "城市"
   Clip: "精華片段"
   Clips: "精華片段"
-  Collection Results: "特集搜尋結果"
-  Collections: "特集"
+  Collection Results: "系列搜尋結果"
+  Collections: "系列"
   Coming soon!: "即將推出！"
   Comments: "影評"
   Community: "社群"
@@ -108,7 +108,7 @@ zh-TW:
   Content Score: "內容評分"
   Continue: "繼續"
   Contribution leaders for the week of: "本週最佳貢獻者  "
-  Convert to Collection?: "整合進特集？"
+  Convert to Collection?: "轉換為系列綱領？"
   Country: "國家"
   Create: "建立"
   Create App: "建立程式"
@@ -469,7 +469,7 @@ zh-TW:
   Top Users: "使用者排行"
   Trailer: "預告片"
   Trailers: "預告片"
-  Translate Collection: "翻譯特集"
+  Translate Collection: "翻譯系列"
   Translate Movie: "電影翻譯"
   Translate Person: "翻譯人員"
   Translate TV Series: "電視影集翻譯"
@@ -503,7 +503,7 @@ zh-TW:
   View Original: "檢視原檔"
   View Profile Images: "檢視大頭照"
   View Weekly Leaderboard: "瀏覽本週排行榜"
-  View the Collection: "檢視特集"
+  View the Collection: "檢視系列"
   Watch Online: "線上觀看"
   Watchlist: "播放目標"
   Watchlists: "播放目標"
@@ -1231,11 +1231,11 @@ zh-TW:
       people: ppl
       tv: tv
     collection:
-      collection: "特集"
-      collection_bible: "特集指引"
+      collection: "系列"
+      collection_bible: "系列指引"
       tall_bible:
         bottom: "指引"
-        top: "特集"
+        top: "系列"
     contribution_bible: "貢獻指引"
     featured_articles: "推薦文章"
     general:
@@ -2342,7 +2342,7 @@ zh-TW:
     Storyboard Artist: Storyboard Artist
     Storyboard Assistant: Storyboard Assistant
     Storyboard Designer: Storyboard Designer
-    Street Casting: Street Casting
+    Street Casting: "街頭演員"
     Studio Teacher: "工作室老師"
     Stunt Coordinator: "特技協調"
     Stunt Double: "特技替身"
@@ -2542,15 +2542,15 @@ zh-TW:
     movie:
       edit:
         adult:
-          adult_movie: "成人電影？"
+          adult_movie: "色情電影？"
         alternative_titles:
           no_records: "無任何替代標題添加的紀錄"
         cast:
           no_records: "無任何演員被添加的紀錄"
         confirm_collection: |-
-          <p>特集是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但特集並非以「電影宇宙」的方式來作分組的依據。若您了解特集的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立特集</a>. 若您想要了解更多關於特集的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
+          <p>系列是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但系列不一定以同一「故事世界觀」的方式來作分組的依據。若您了解系列的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多關於系列的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
 
-          <p>如果您要創建的特集符合此條件，請繼續建立特集。</p>
+          <p>如果您要創建的系列符合此條件，請繼續建立系列。</p>
         confirm_video: |-
           <p>請協助將某些電影標記為影片，可幫助我們區分不是真正電影的內容類型。</p>
 
@@ -2731,35 +2731,37 @@ zh-TW:
       tags: "標籤"
   messages:
     compose:
-      ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
-    number_of_messages: 
+      ban: "封鎖"
+      from: "寄件人"
+      message: "訊息"
+      subject: "標題"
+      template: "樣式"
+      to: "收件人"
+    no_messages: "無任何訊息"
+    number_of_messages:
+      one: "%{count} 封訊息"
+      other: "%{count} 封訊息"
     options:
-      admin: 
-      archive: 
-      settings: 
+      admin: "管理"
+      archive: "封存"
+      settings: "設定"
     placeholders:
       no_conversation_selected:
-        create: 
-        no_conversations: 
-        view: 
-      no_user_found: 
-      reply: 
-      subject: 
-      to: 
+        create: 您可點擊 <a href="%{link}">此處</a> 建立新的會話
+        no_conversations: "你目前沒有任何進行中的會話"
+        view: "您可點擊左側瀏覽會話"
+      no_user_found: "沒有找到任何使用者"
+      reply: "輸入訊息..."
+      subject: "這是什麼？"
+      to: "搜尋使用者"
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      my_archive: 
-      my_inbox: 
-      new_message: 
-      support_archive: 
-      support_inbox: 
+      conversation_with: "和 %{username} 進行會話"
+      message_inbox: "訊息收件匣"
+      my_archive: "我的封存"
+      my_inbox: "我的收件匣"
+      new_message: "新訊息"
+      support_archive: "封存支援"
+      support_inbox: "收件匣支援"
   month: "%{count} 個月"
   navigation:
     discover:
