@@ -12,12 +12,12 @@ module TMDb
       end
 
       def self.default_iso_3166_1_mapping
-        TMDb::Config::I18n.default_mapping.invert.merge('ar-AE' => 'ar',
-                                                        'es-MX' => 'es',
-                                                        'fr-CA' => 'fr',
-                                                        'pt-BR' => 'pt',
-                                                        'zh-HK' => 'zh',
-                                                        'zh-TW' => 'zh')
+        TMDb::Config::I18n.default_mapping.invert.merge!('ar-AE' => 'ar',
+                                                         'es-MX' => 'es',
+                                                         'fr-CA' => 'fr',
+                                                         'pt-BR' => 'pt',
+                                                         'zh-HK' => 'zh',
+                                                         'zh-TW' => 'zh')
       end
 
       def self.default_mapping
@@ -72,7 +72,7 @@ module TMDb
       end
 
       def self.default_language_i18n
-        @@default_language_to_i18n ||= Language.distinct(:iso_639_1).inject({}) { |hash, iso_639_1| hash.merge(iso_639_1 => "#{iso_639_1}-#{iso_639_1.upcase}") }.merge(TMDb::Config::I18n.default_mapping)
+        @@default_language_to_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash| hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}" }.merge!(TMDb::Config::I18n.default_mapping)
       end
 
       def self.default_language_to_country_mapping
@@ -82,9 +82,9 @@ module TMDb
       def self.language_list
         return @@master_i18n_language_list unless @@master_i18n_language_list.nil?
 
-        master_i18n_language_list = (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).inject({}) do |hash, iso_639_1|
-          hash.merge("#{iso_639_1}-#{iso_639_1.upcase}" => "#{iso_639_1}")
-        end.merge(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }
+        master_i18n_language_list = (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
+          hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
+        end.merge!(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }
 
         @@master_i18n_language_list = Hash[master_i18n_language_list]
       end
