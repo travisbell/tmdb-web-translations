@@ -7,14 +7,14 @@ sk-SK:
   API Key: API kľúč
   API Libraries: API knižnice
   API Read Access Token: Token API prístupu pre čítanie
-  API Stats: API štatistika
+  API Stats: API štatistiky
   API Terms: API podmienky
   API Updates: API aktualizácie
   About: Informácie
   About TMDb: O TMDb
   About this list: O tomto zozname
-  Accept: Akceptovať
-  Accept API Terms: Akceptovať podmienky API
+  Accept: Súhlasím
+  Accept API Terms: Súhlasím s podmienkami API
   Account: "Účet"
   Account Filtering: Filtrovanie účtov
   Add Alternative Name: Pridať alternatívne meno
@@ -22,9 +22,9 @@ sk-SK:
   Add Backdrop: Pridať pozadie
   Add Content Rating: Pridať hodnotenie obsahu
   Add Creator: Pridať tvorcu
-  Add Data & Content: Pridať informácie a obsah
+  Add Data & Content: Pridať dáta obsah
   Add Item: Pridať položku
-  Add Missing Cast & Crew: Pridať chýbajúce Obsadenie a Štáb
+  Add Missing Cast & Crew: Pridať chýbajúce obsadenie a štáb
   Add Network: Pridať stanicu
   Add New Episode: Pridať novú epizódu
   Add New Movie: Pridať nový film
@@ -32,8 +32,8 @@ sk-SK:
   Add New Season: Pridať novú sériu
   Add New TV Show: Pridať nový seriál
   Add Poster: Pridať plagát
-  Add Profile: Pridať profilovku
-  Add Season Regular: Pridať pravidelné obsadenie
+  Add Profile: Pridať profil
+  Add Season Regular: Pridať pravidelné obsadenie série
   Add To Every Season?: Pridať do každej série?
   Add Video: Pridať video
   Add YouTube Video: Pridať YouTube video
@@ -44,7 +44,7 @@ sk-SK:
   Add to list: Pridať do zoznamu
   Add to your favorite list: Pridať medzi obľúbené
   Add to your watchlist: Pridať do watchlistu
-  Added By: Pridané
+  Added By: Pridané používateľom
   Added to Watchlist: Pridané do watchlistu
   Adding & Editing Content: Pridávanie a upravovanie obsahu
   Address 1: Adresa 1
@@ -76,7 +76,7 @@ sk-SK:
   Best Match: Najlepšia zhoda
   Biography: Biografia
   Birthday: Dátum narodenia
-  Blocked Users: Blokovaný užívatelia
+  Blocked Users: Blokovaný používatelia
   Blog: Blog
   Branding: Brandovanie
   Budget: Rozpočet
@@ -522,20 +522,20 @@ sk-SK:
     discussions: Diskusia
     edit_profile: Upraviť profil
     lists: Zoznamy
-    login: Prihlásiť
-    logout: Odhlásiť
-    messages: 
-    settings: Nadstavenia
-    sign_up: Registrovať
+    login: Prihlásiť sa
+    logout: Odhlásiť sa
+    messages: Správy
+    settings: Nastavenia
+    sign_up: Zaregistrovať sa
     view_profile: Zobraziť profil
     watchlist: Watchlist
   accounts:
     activity:
-      activity: Aktivity
+      activity: Aktivita
       legend:
         added: Pridané
         created: Vytvorené
-        deleted: Vymazané
+        deleted: Odstránené
         updated: Aktualizované
       media_types:
         movies: Filmy
@@ -555,7 +555,7 @@ sk-SK:
     discussions:
       my_active_boards: Moje aktívne nástenky
       my_discussions: Moje diskusie
-      not_watching: Nesleduješ žiadnu diskusiu.
+      not_watching: Nesledujete žiadnu diskusiu.
       page_title:
         page_owner: Moje diskusie
         public: Diskusie používateľa %{username}
@@ -583,7 +583,7 @@ sk-SK:
         logged_in: Moje zoznamy
         public: Zoznamy používateľa %{username}
       no_lists:
-        logged_in: Nevytvoril si žiadne zoznamy.
+        logged_in: Nevytvorili ste žiadne zoznamy.
         public: "%{username} nemá žiadne verejné zoznamy pre zdielanie."
       page_title:
         page_owner: Moje zoznamy
@@ -601,12 +601,12 @@ sk-SK:
     overview:
       30_day_activity: Aktivita za 30 dní
       empty_recent_activity:
-        logged_in: Neurobil si žiadne nedávne úpravy.
+        logged_in: Neurobili ste žiadne nedávne úpravy.
         public: "%{username} neurobil žiadne nedávne úpravy."
       empty_upcoming_watchlist:
-        logged_in: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy.
+        logged_in: Na vašom watchliste nie sú žiadne nadchádzajúce filmy.
       empty_watched_genres:
-        logged_in: Nezaznamenal si žiadne filmy alebo seriály.
+        logged_in: Nezaznamenali ste si žiadne filmy alebo seriály.
         public: "%{username} nezaznamenal žiadne filmy alebo seriály."
       goto_discussions: "Ísť do diskusií"
       goto_watchlist: "Ísť do Watchlistu"
@@ -615,7 +615,7 @@ sk-SK:
       recent_activity: Nadávna aktivita
       recent_discussions: Nedávne diskusie
       total_edits: Celkovo úprav
-      total_ratings: Celkové hodnotenia
+      total_ratings: Celkom hodnotení
       upcoming_watchlist: Nadchádzajúce z Watchlistu
     page_title:
       page_owner: Môj profil
@@ -623,44 +623,44 @@ sk-SK:
     ratings_reviews:
       my_ratings:
         logged_in: Moje hodnotenia
-        public: Hodnotenia užívateľa %{username}
+        public: Hodnotenia používateľa %{username}
       my_reviews:
         logged_in: Moje recenzie
         public: Recenzie užívateľa %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje hodnotenia a recenzie
+        public: Hodnotenia a recenzie používateľa %{username}
       ratings_by_year: Hodnotenia podľa roku
     recommendations:
       my_recommendations: Moje odporúčania
       no_recommendations: Nemáme dostatok údajov pre navrhovanie odporúčaní.
-      no_recommendations_helper: Skús pridať viac obľúbených (čím viac, tým lepšie) a znova sa sem príď pozrieť, či sme niečo našli.
-      page_title: 
+      no_recommendations_helper: Skúste pridať viac obľúbených (čím viac, tým lepšie) a znova sa sem príďte pozrieť, či sme niečo našli.
+      page_title: Odporúčania
     tips:
-      import_imdb_ratings: Môžeš importovať svoje hodnotenia z IMDb.
+      import_imdb_ratings: Môžete importovať svoje hodnotenia z IMDb.
       tip: Tip
     watchlist:
-      my_watchlist: Môj Watchlist
+      my_watchlist: Môj watchlist
       next_month: "Ďalší mesiac"
       no_upcoming_movies:
-        few: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položky.
-        one: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položku.
-        other: Na tvojom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, tvoj watchlist obsahuje %{count} položiek.
+        few: Na vašom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, váš watchlist obsahuje %{count} položky.
+        one: Na vašom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, váš watchlist obsahuje %{count} položku.
+        other: Na vašom watchliste nie sú žiadne nadchádzajúce filmy. Avšak, váš watchlist obsahuje %{count} položiek.
       no_upcoming_tv_shows:
-        few: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položky.
-        one: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položku.
-        other: Na tvojom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, tvoj watchlist obsahuje %{count} položiek.
+        few: Na vašom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, váš watchlist obsahuje %{count} položky.
+        one: Na vašom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, váš watchlist obsahuje %{count} položku.
+        other: Na vašom watchliste nie sú žiadne nadchádzajúce seriály. Avšak, váš watchlist obsahuje %{count} položiek.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Môj watchlist
+        public: Watchlist používateľa %{username}
       this_month: Tento mesiac
       this_week: Tento týždeň
       view_them: Zobraziť ich.
-  add_to_list: Pridať %{media_title} do tvojho zoznamu...
+  add_to_list: Pridať %{media_title} do jedného z vašich zoznamov...
   already_translated_in: "%{page_title} je už preložený do nasledujúcich jazykov..."
   api_session:
-    approved_session: Schvállil si %{application_name}. Môžeš zavrieť toto okno.
-    continue: Pokiaľ si želáš pokračovať, klikni na tlačidlo schváliť. Pokiaľ nie, jednoducho zavri toto okno.
+    approved_session: Schválilo ste %{application_name}. Môžete zavrieť toto okno.
+    continue: Pokiaľ si želáte pokračovať, kliknite na tlačidlo schváliť. Pokiaľ nie, jednoducho zavrite toto okno.
   attributes:
     biography: Biografia
     certification: Prístupnosť
@@ -669,15 +669,15 @@ sk-SK:
     iso_3166_1: Krajina
     iso_639_1: Jazyk
     normalized_email: Email
-    normalized_username: Užívateľské meno
+    normalized_username: Používateľské meno
     overview: Obsah
     title: Názov
-    to_accounts_ids: 
+    to_accounts_ids: Ku
   average edits per day: premierne úprav za deň
   back_options:
     back: Späť
     episode: Späť na epizódu
-    episode_groups: 
+    episode_groups: Späť na skupinu epizód
     episode_list: Späť na zoznam epizód
     home: Späť domov
     main: Späť na hlavnú
@@ -708,7 +708,7 @@ sk-SK:
           meaning: Odmietnutá klasifikácia. Zakázané predávať alebo požičiavať v Austrálií. Vzťahujú sa naň clá. Súkromné internetové pozeranie je nepresadzované a pokusy o legálne cenzurovanie online materiálu vyústili do kontroverzie. Filmy sú hodnotené ako RC, pokiaľ ich obsah neprekračuje príručku. Obsah má veľmi vysoký dopad.
       BG:
         '1':
-          meaning: Odporúčané pre deti
+          meaning: Odporúčané pre deti.
         '2':
           meaning: Bez vekového obmedzenia.
         '3':
@@ -743,91 +743,91 @@ sk-SK:
           meaning: Vstup obmedzená pre osoby staršie ako 18 rokov. Jediný účel filmu je zobraziť sexuálne explicitnú aktivitu a/alebo explicitné násilie.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Všeobecné hodnotenie - Môže byť sledované, požičiavané alebo kupované osobami každého veku. Je to film ktorý nesie hodnotenie "G" a môže byť nevhodné pre deti pod 8 rokov, "Nevhodné pre malé deti" je súčasť tohoto hodnotenia.
         '2':
-          meaning: 
+          meaning: 13 rokov a viac -  Môže byť sledované, požičiavané alebo kupované osobami staršími ako 13 rokov. Deti pod 13 rokov môžu byť pripustené len v sprievode dospelého človeka.
         '3':
-          meaning: 
+          meaning: 16 rokov a viac -  Môže byť sledované, požičiavané alebo kupované osobami staršími ako 16 rokov.
         '4':
-          meaning: 
+          meaning: 18 rokov a viac -  Môže byť sledované, požičiavané alebo kupované osobami staršími ako 18 rokov. Film obsahuje reálne a explicitné sexuálne aktivity. "Explicitná sexualita" je súčasťou tohoto hodnotenia a majitelia video požičovní sú povinný umiestniť tento film do sekcie pre dospelých.
       DE:
         '1':
-          meaning: 
+          meaning: Bez vekových obmedzení.
         '2':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 6 rokov.
         '3':
-          meaning: 
+          meaning: Vhodné pre deti od 12 rokov alebo staršie, deti medzi rokmi 6 a 11 len so sprievodom rodiča alebo opatrovníka.
         '4':
-          meaning: 
+          meaning: Pre deti od 16 rokov alebo starších, neprístupné pod túto hranicu.
         '5':
-          meaning: 
+          meaning: Nevhodné pre mladistvých, len pre dospelých.
       DK:
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Vhodné pre všetkých.
         '2':
-          meaning: 
+          meaning: Neodporúčané pre deti pod 7 rokov.
         '3':
-          meaning: 
+          meaning: Pre 11 ročných a starších.
         '4':
-          meaning: 
+          meaning: Pre 15 ročných a starších.
         '5':
-          meaning: 
+          meaning: Vyňaté z klasifikácie.
       ES:
         '1':
-          meaning: 
+          meaning: Všeobecne prípustné.
         '2':
-          meaning: 
+          meaning: Neodporúčané pre publikum pod 7 rokov.
         '3':
-          meaning: 
+          meaning: Neodporúčané pre publikum pod 12 rokov.
         '4':
-          meaning: 
+          meaning: Neodporúčané pre publikum pod 16 rokov.
         '5':
-          meaning: Neodporúčané pre divákov mladších ako 18.
+          meaning: Neodporúčané pre publikum pod 18 rokov.
         '6':
-          meaning: Zakázané pre divákov mladších ako 18.
+          meaning: Zakázané pre publikum mladšie ako 18.
       FI:
         '1':
           meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: Viac ako 7 ročných.
+          meaning: Pre viac ako 7 ročných.
         '3':
-          meaning: Viac ako 12 ročných.
+          meaning: Pre viac ako 12 ročných.
         '4':
-          meaning: Viac ako 16 ročných.
+          meaning: Pre viac ako 16 ročných.
         '5':
-          meaning: Len dospelý.
+          meaning: Len pre dospelých.
         '6':
           meaning: Zakázané z komerčnej distribúcie.
       FR:
         '1':
           meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 10 rokov.
         '3':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 12 rokov.
         '4':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 16 rokov.
         '5':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 18 rokov.
       GB:
         '1':
-          meaning: 
+          meaning: Prístupné pre všetky vekové kategórie, neobsahuje veci nevhodné pre deti.
         '2':
-          meaning: 
+          meaning: Prístupné pre všetky vekové kategórie, niektoré scény však môžu byť nevhodné pre malé deti.
         '3':
-          meaning: 
+          meaning: Nevhodné pre deti mladšie ako 12 rokov, prípustné len v sprievode dospelého človeka staršieho ako 18 rokov počas celého filmu.
         '4':
-          meaning: 
+          meaning: Nevhodné pre mladších ako 12 rokov. Nikto mladší ako 12 rokov si nemôže požičať ako kúpiť tento film.
         '5':
-          meaning: 
+          meaning: Nevhodné pre mladších ako 15 rokov. Nikto mladší ako 15 rokov si nemôže požičať ako kúpiť tento film.
         '6':
-          meaning: 
+          meaning: Len pre dospelých. Nikto mladší ako 18 rokov si nemôže požičať ako kúpiť tento film.
         '7':
-          meaning: 
+          meaning: Môže byť ukazovaný len v licencovanom kine pre dospelých alebo predávaný v licencovaných sex shop-och, a to len dospelým osobám starším ako 18 rokov.
       HU:
         '0':
           meaning: 
@@ -845,153 +845,153 @@ sk-SK:
           meaning: 
       IN:
         '0':
-          meaning: 
+          meaning: Vhodné pre všetky vekové kategórie.
         '1':
-          meaning: 
+          meaning: Vhodné pre všetky vekové kategórie, avšak je odporúčané pre deti mladšie ako 12 rokov aby boli sprevádzané rodičom.
         '2':
-          meaning: 
+          meaning: Len pre dospelých starších ako 18 rokov.
       LT:
         '1':
-          meaning: 
+          meaning: Vhodné pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 7 rokov.
         '3':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 13 rokov.
         '4':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 16 rokov.
         '5':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 18 rokov.
       MY:
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Vhodné pre všetkých.
         '2':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 13 rokov.
         '3':
-          meaning: 
+          meaning: Film môže obsahovať násilie, krv alebo hororizovať/terorizovať ľudí.
         '4':
-          meaning: 
+          meaning: Film obsahuje sexuálne scény, nahotu alebo sexuálne dialógy/referencie.
         '5':
-          meaning: 
+          meaning: Film obsahuje elementy ktoré zahŕňajú náboženstvo, sociálne alebo politické aspekty.
         '6':
-          meaning: 
+          meaning: Film môže obsahovať násilie, krv, horor, sexuálne scény, nahotu, sexuálne dialógy/referencie, náboženstvo, sociálne alebo politické aspekty.
       NL:
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Potencionálne nevhodné pre deti pod 6 rokov.
         '3':
-          meaning: 
+          meaning: Potencionálne nevhodné pre deti pod 9 rokov.
         '4':
-          meaning: 
+          meaning: Potencionálne nevhodné pre deti pod 12 rokov.
         '5':
-          meaning: 
+          meaning: Potencionálne nevhodné pre deti pod 16 rokov.
       'NO':
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Vhodné pre všetkých.
         '2':
-          meaning: 
+          meaning: 6 rokov
         '3':
-          meaning: 
+          meaning: 9 rokov
         '4':
-          meaning: 
+          meaning: 12 rokov
         '5':
-          meaning: 
+          meaning: 15 rokov
         '6':
-          meaning: 
+          meaning: 18 rokov
       NZ:
         '1':
-          meaning: 
+          meaning: Vhodné pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Sprievod rodiča odporúčaný pre mladistvých divákov.
         '3':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 16 rokov.
         '4':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 13 rokov.
         '5':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 15 rokov.
         '6':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 16 rokov.
         '7':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 18 rokov.
         '8':
-          meaning: 
+          meaning: Nevhodné pre špecifické osoby alebo pre špecifické účely, alebo oba prípady.
       PH:
         '1':
-          meaning: 
+          meaning: Prístupné pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: So sprievodom rodiča alebo dospelého pre osoby mladšie ako 13 rokov.
         '3':
-          meaning: 
+          meaning: Pre osoby staršie ako 13 rokov.
         '4':
-          meaning: 
+          meaning: Pre osoby staršie ako 16 rokov.
         '5':
-          meaning: 
+          meaning: Pre osoby staršie ako 18 rokov.
         '6':
-          meaning: 
+          meaning: Nevhodné pre verejné premietanie.
       PT:
         '1':
-          meaning: 
+          meaning: Vhodné pre všetky vekové kategórie, špecificky navrhnuté pre deti pod 3 roky.
         '2':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 3 roky.
         '3':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 6 rokov.
         '4':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 12 rokov.
         '5':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 14 rokov.
         '6':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 16 rokov.
         '7':
-          meaning: 
+          meaning: Vhodné pre osoby staršie ako 18 rokov.
         '8':
-          meaning: 
+          meaning: "Špeciálne doplnkové hodnotenie pre M/18, ktoré označuje pornografiu."
       RU:
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 6 rokov.
         '3':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 12 rokov.
         '4':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 16 rokov.
         '5':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 18 rokov.
       SE:
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 7 rokov, len so sprievodom dospelého.
         '3':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 7 rokov, len so sprievodom dospelého, sú pripustené k sledovaniu filmu, ktorý bol ohodnotený ako film pre osoby staršie ako 11 rokov.
         '4':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 7 rokov, len so sprievodom dospelého, sú pripustené k sledovaniu filmu, ktorý bol ohodnotený ako film pre osoby staršie ako 11 rokov.
       US:
         '0':
-          meaning: 
+          meaning: Bez hodnotenia.
         '1':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '2':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 10 rokov.
         '3':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 13 rokov.
         '4':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 17 rokov.
         '5':
-          meaning: 
+          meaning: Nevhodné pre osoby mladšie ako 17 rokov.
     tv_series:
       AU:
         '1':
-          meaning: 
+          meaning: Vhodné pre deti od 2 do 11 rokov.
         '2':
-          meaning: 
+          meaning: Vhodné pre deti od 5 do 14 rokov.
         '3':
-          meaning: 
+          meaning: Pre všetky vekové kategórie.
         '4':
           meaning: 
         '5':
@@ -1027,7 +1027,7 @@ sk-SK:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: Program určený pre divákov starších ako 14 rokov.
         '6':
           meaning: 
       CA-QC:
@@ -1198,7 +1198,7 @@ sk-SK:
   collection_includes: Zahŕňa %{movie_titles}
   confirm_delete: Si si istý, že chceš vymazať tento záznam?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: Hodnotenie obsahu je spôsob, ktorý Vám pomôže pochopiť, ako kompletné sú dáta pre objekt v databázy.
     scale:
       '0': Niekde sa musí začať...
       '1': Hej, je to začiatok.
@@ -1207,7 +1207,7 @@ sk-SK:
       '3': Rím nebol postavený za deň...
       '4': V tíme nie je žiadne "ja"...
       '5': Stále potrebuje trochu práce.
-      '6': 
+      '6': Sme tak blízko, ale aj tak ďaleko.
       '7': Ešte trochu viac...
       '8': Nevzdávaj sa! Už sme skoro tam.
       '9': Takmer tam...
@@ -3073,7 +3073,7 @@ sk-SK:
       keep_track: 
       log_movies: 
     by_clicking_agree_to_terms: 
-    javascript_required: 
+    javascript_required: Pre pokračovanie je vyžadovaný JavaScript.
     sign_up_for_account: Registrácia účtu
     signup_text: Registrácia účtu je jednoduchá a zdarma. Pre začatie vyplň formulár nižšie.
   success_approved_access_token: Povolenie udelené!

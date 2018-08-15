@@ -524,7 +524,7 @@ fr-FR:
     lists: Listes
     login: Connexion
     logout: Se déconnecter
-    messages: 
+    messages: Messages
     settings: Paramètres
     sign_up: Créer un compte
     view_profile: Voir le profil
@@ -1218,7 +1218,7 @@ fr-FR:
     movies_missing_a_overview: Films sans synopsis
     movies_missing_a_poster: Films sans affiche
     movies_missing_a_title: Films sans titre
-    page_title: 
+    page_title: Ajouter des informations manquantes
     selected_language: Langue sélectionné
     tv_missing_a_backdrop: Images de série manquantes
     tv_missing_a_poster: Affiche de série manquante
@@ -1227,11 +1227,11 @@ fr-FR:
     tv_shows_missing_a_overview: Synopsis de série manquante
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      collection: col
+      image: img
+      movie: film
+      people: pers
+      tv: tv
     collection:
       collection: Collections
       collection_bible: Bible des collections
@@ -1274,8 +1274,8 @@ fr-FR:
     welcome_1: Bienvenue sur
     welcome_2: la bible de contribution
   cookie_popup:
-    message: 
-    ok_button: 
+    message: Nous utilisons des 'cookies' dans le but de vous donner une meilleure expérience de TMDb. Vous pouvez consulter notre <a href="%{policy_url}" target="_blank" rel="noopener">politique à propos des 'cookies'</a> pour en savoir plus. En continuant sur TMDb, vous acceptez cette politique.
+    ok_button: Ok
   date:
     abbr_day_names:
     - Dim
@@ -1470,27 +1470,27 @@ fr-FR:
   episode_number_name: "Épisode %{episode_number}"
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Nous n'avons pas pu traiter cette image
+      not_jpeg: Cette image n'est pas au format JPEG
+      not_png: Cette image n'est pas au format PNG
+      not_svg: Cette image n'est pas au format SVG
     locked:
-      genres: 
-      keywords: 
+      genres: Le champ des genres est verrouillé
+      keywords: Le champ des mots clés est verrouillé
     messages:
       blank: est nécessaire
       inclusion: doit être sélectionné
       invalid: n'est pas valide
       required: doit exister
-      suspected_tv_series: 
+      suspected_tv_series: semble exister en tant que série ou mini-série. Vous pouvez continuer à créer ce film si vous êtes sûr de vous mais il sera supprimé s'il existe déjà dans notre section Télévision.
       taken: est déjà utilisé
     movie:
-      duplicate_cast: 
+      duplicate_cast: Cette personne est déjà présente dans la distribution du film.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
+      duplicate_created_by: Cette personne est déjà enregistrée comme créateur de la série.
+      duplicate_crew_member: Cette personne est déjà enregistrée en tant que %{job_name}.
+      duplicate_episode: Cet épisode existe déjà.
+      duplicate_guest_star: Cette personne est déjà enregistrée en tant que Guest Star.
       duplicate_regular_season_member: 
       duplicate_season: 
   failed_email: Votre courriel n'a pas pu être envoyé.
