@@ -1558,8 +1558,8 @@ pt-BR:
     3D Director: Direção 3D
     3D Editor: Editor 3D
     3D Generalist: 
-    3D Modeller: 
-    3D Sequence Supervisor: 
+    3D Modeller: Modelos 3D
+    3D Sequence Supervisor: Supervisor de Sequência 3D
     3D Supervisor: Supervisão 3D
     3D Tracking Layout: 
     ADR & Dubbing: Substituição automática de diálogo (ADR) e dublagem
@@ -1572,12 +1572,12 @@ pt-BR:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
-    Accounting Clerk Assistant: 
+    Accountant: Contador
+    Accounting Clerk Assistant: Assistente de contabilidade
     Accounting Supervisor: 
     Accounting Trainee: 
     Acting Double: 
-    Action Director: 
+    Action Director: Diretor de Ação
     Actor: Ator/Atriz
     Actor's Assistant: Assistente do elenco
     Adaptation: Adaptação
@@ -2744,8 +2744,13 @@ pt-BR:
       tags: Marcadores
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |-
+        Olá, obrigado por usar o TMDb. Percebemos que você está navegando no TMDb em um idioma que ainda não terminamos de traduzir. Se você tiver interesse em nos ajudar a obter esses dados, visite o nosso [projeto no Locale] (https://www.localeapp.com/projects/8267). [Criar uma conta] (https://www.localeapp.com/users/sign_up) no Locale é gratuito e você pode adicionar quantas novas traduções forem necessárias. Toda edição ajuda.
+
+        Se você não tem interesse, não se preocupe. Só pensamos em perguntar.
+
+        Obrigado!
+      subject: Ajude a traduzir o nosso site
   messages:
     compose:
       ban: Banimento
@@ -2756,7 +2761,7 @@ pt-BR:
       to: Para
     no_messages: Nenhuma mensagem
     notifications:
-      new_message: 
+      new_message: "%{username} enviou uma nova mensagem para você"
     number_of_messages:
       one: "%{count} mensagem"
       other: "%{count} mensagens"
