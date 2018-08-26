@@ -78,7 +78,7 @@ de-DE:
   Birthday: Geboren am
   Blocked Users: Gesperrte Benutzer
   Blog: Blog
-  Branding: 
+  Branding: Branding
   Budget: Budget
   Cancel: Abbrechen
   Canceled: Eingestellt
@@ -524,7 +524,7 @@ de-DE:
     lists: Listen
     login: Anmelden
     logout: Abmelden
-    messages: 
+    messages: Mitteilungen
     settings: Einstellungen
     sign_up: Registrieren
     view_profile: Profil ansehen
@@ -670,16 +670,16 @@ de-DE:
     normalized_username: Benutzername
     overview: "Übersicht"
     title: Titel
-    to_accounts_ids: 
+    to_accounts_ids: Nach
   average edits per day: durchschnittliche Beiträge pro Tag
   back_options:
     back: Zurück
     episode: Zurück zur Folge
-    episode_groups: 
+    episode_groups: Zurück zu den Episodengruppen
     episode_list: Zurück zur Episodenliste
     home: Zurück zur Startseite
     main: Zurück zur Hauptseite
-    named_episode_group: 
+    named_episode_group: Zurück zu &lsquo;%{group_name}&rsquo; groups
     season: Zurück zur Staffel
     season_list: Zurück zur Staffelliste
     to_tmdb: Zurück zu TMDb
@@ -689,21 +689,21 @@ de-DE:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Von der Klassifizierung ausgenommen. Filme, die von der Klassifizierung ausgenommen sind, dürfen kein umstrittenes Material enthalten (d. h. Material, das normalerweise mit M oder höher bewertet wird).
         '2':
-          meaning: 
+          meaning: Allgemein. Unbedenklicher Inhalt
         '3':
-          meaning: 
+          meaning: Begleitung der Eltern empfohlen. Keine Altersbeschränkung.
         '4':
-          meaning: 
+          meaning: Für Erwachsene. Es gibt keine Altersbeschränkung.
         '5':
-          meaning: 
+          meaning: 'Nicht für Kinder geeignet. Kinder unter 15 Jahren nur mit Elternbegleitung. '
         '6':
-          meaning: 
+          meaning: Ab 18. Nur für Erwachsene.
         '7':
-          meaning: 
+          meaning: Ab 18 Jahre und älter. Filme mit dieser Bewertung haben pornographische Inhalte. Filme, die als X18 + eingestuft sind, dürfen in keinem der australischen Bundesstaaten verkauft oder gemietet werden und sind nur im Australischen Hauptstadtterritorium und im Northern Territory legal verfügbar. Das Importieren von X18 + Material aus den beiden Territorien in einen der australischen Staaten ist jedoch legal. Der Inhalt ist eindeutig sexuell.
         '8':
-          meaning: 
+          meaning: 'Abgelehnte Klassifizierung. Verbot von Verkauf oder Vermietung in Australien; gilt auch allgemein für die Einfuhr (wenn sie vom Zoll kontrolliert und verdächtig ist). Versuche, solches Online-Material zu zensieren, hat zu Kontroversen geführt. Filme werden mit RC bewertet, wenn ihr Inhalt die Richtlinien überschreitet. '
       BG:
         '1':
           meaning: Für Kinder geeignet.
@@ -717,7 +717,7 @@ de-DE:
           meaning: Verboten für Personen unter 18 Jahren
       BR:
         '1':
-          meaning: 
+          meaning: Allgemeines Publikum. Setzen Sie Kinder keinen potenziell schädlichen Inhalten aus.
         '2':
           meaning: Nicht geeignet für Minderjährige unter 10 Jahren. Gewalttätige Inhalte oder unangemessene Sprache für Kinder nicht ausgeschlossen.
         '3':
@@ -765,44 +765,44 @@ de-DE:
         '0':
           meaning: Keine Informationen zur Freigabe..
         '1':
-          meaning: 
+          meaning: Geeignet für ein allgemeines Publikum.
         '2':
-          meaning: 
+          meaning: Nicht für Kinder unter 7 Jahren empfohlen.
         '3':
-          meaning: 
+          meaning: Für 11 Jahre und älter.
         '4':
-          meaning: 
+          meaning: Für 15 Jahre und älter.
         '5':
-          meaning: 
+          meaning: Von der Klassifizierung ausgenommen.
       ES:
         '1':
-          meaning: 
+          meaning: Allgemeine Zulassung.
         '2':
-          meaning: 
+          meaning: Freigegeben ab 7 Jahren.
         '3':
-          meaning: 
+          meaning: Freigegeben ab 12 Jahren.
         '4':
-          meaning: 
+          meaning: Freigegeben ab 16 Jahren.
         '5':
-          meaning: 
+          meaning: Freigegeben ab 18 Jahren.
         '6':
-          meaning: 
+          meaning: Nicht freigegeben unter 18 Jahren
       FI:
         '1':
-          meaning: 
+          meaning: Für jedes Alter.
         '2':
-          meaning: 
+          meaning: "Über 7 Jahre."
         '3':
-          meaning: 
+          meaning: "Über 12 Jahre."
         '4':
-          meaning: 
+          meaning: "Über 16 Jahre."
         '5':
-          meaning: 
+          meaning: Nur für Erwachsene.
         '6':
-          meaning: 
+          meaning: 'Kommerzieller Vertrieb verboten. '
       FR:
         '1':
-          meaning: 
+          meaning: Gültig für alle Zielgruppen.
         '2':
           meaning: 
         '3':
@@ -2718,37 +2718,39 @@ de-DE:
       subject: 
   messages:
     compose:
-      ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      ban: verboten
+      from: Von
+      message: Mitteilung
+      subject: Gegenstand
+      template: Vorlage
+      to: Nach
+    no_messages: Keine Mitteilungen
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} schickte dir eine neue Nachricht"
+    number_of_messages:
+      one: "%{count} Mitteilung"
+      other: "%{count} Mitteilungen"
     options:
-      admin: 
-      archive: 
-      settings: 
+      admin: Administrator
+      archive: Archiv
+      settings: Einstellungen
     placeholders:
       no_conversation_selected:
-        create: 
-        no_conversations: 
-        view: 
-      no_user_found: 
-      reply: 
-      subject: 
-      to: 
+        create: Du kannst auch eine neue Konversation erstellen <a href="%{link}">clicking here</a>.
+        no_conversations: Du hast keine offenen Gespräche, du Glücklicher!
+        view: Um eine Konversation anzuzeigen, wähle eine auf der linken Seite aus.
+      no_user_found: Kein Benutzer gefunden.
+      reply: Gib eine Nachricht ein...
+      subject: Um was geht's hier?
+      to: Suche einen Nutzer...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      my_archive: 
-      my_inbox: 
-      new_message: 
-      support_archive: 
-      support_inbox: 
+      conversation_with: Konversation mit %{username}
+      message_inbox: Nachrichteneingang
+      my_archive: Mein Archiv
+      my_inbox: Mein Posteingang
+      new_message: Neue Mitteilung
+      support_archive: Support Archiv
+      support_inbox: Support Eingang
   month:
     one: 1 Monat
     other: "%{count} Monate"
