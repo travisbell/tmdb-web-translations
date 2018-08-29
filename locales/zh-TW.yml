@@ -40,12 +40,12 @@ zh-TW:
   Add a New Cast Member: "新增演員"
   Add a New Crew Member: "新增劇組人員"
   Add a New Guest Star: "新增客串演員"
-  Add to Watchlist: "新增至播放目標"
+  Add to Watchlist: "新增至待看清單"
   Add to list: "新增至收藏表"
   Add to your favorite list: "新增至我的最愛"
-  Add to your watchlist: "新增至播放目標"
+  Add to your watchlist: "新增至您的待看清單"
   Added By: "新增"
-  Added to Watchlist: "已新增至播放目標"
+  Added to Watchlist: "已新增至待看清單"
   Adding & Editing Content: "新增 & 編輯內容"
   Address 1: "地址 1"
   Address 2: "地址 2"
@@ -209,7 +209,7 @@ zh-TW:
   Help Us By Contributing Missing Data: "協助我們補齊資料"
   Hi: "哈囉"
   Hide favorites?: "隱藏我的最愛嗎？"
-  Hide items on watchlist?: "隱藏項目嗎？"
+  Hide items on watchlist?: "要隱藏待看清單上的項目嗎？"
   Hide rated?: "隱藏評分嗎？"
   Home: "首頁"
   Homepage: "官方網站"
@@ -249,9 +249,9 @@ zh-TW:
   Login to Add a Video: "登入以新增電影短片"
   Login to Edit Cast & Crew: "登入以編輯演員及劇組人員"
   Login to add this TV show to your favorite list: "登入以新增此電視影集至我的最愛清單"
-  Login to add this TV show to your watchlist: "登入以新增此電視節目至播放目標"
+  Login to add this TV show to your watchlist: "登入以新增此電視節目至待看清單"
   Login to add this movie to your favorite list: "登入以新增此電影至我的最愛清單"
-  Login to add this movie to your watchlist: "登入以新增至播放目標"
+  Login to add this movie to your watchlist: "登入以新增此電影至待看清單"
   Login to create and edit custom lists: "登入以建立或編輯收藏表"
   Login to rate this TV show: "登入以評分此電視影集"
   Login to rate this movie: "登入以評分此電影"
@@ -528,7 +528,7 @@ zh-TW:
     settings: "設定"
     sign_up: "註冊"
     view_profile: "檢視個人資料"
-    watchlist: "播放目標"
+    watchlist: "待看清單"
   accounts:
     activity:
       activity: "近期活動"
@@ -596,7 +596,7 @@ zh-TW:
       overview: "簡介"
       ratings_reviews: "評分和評論"
       recommendations: "推薦給我"
-      watchlist: "播放目標"
+      watchlist: "待看清單"
     order: "排序依："
     overview:
       30_day_activity: 30天內的活動
@@ -604,19 +604,19 @@ zh-TW:
         logged_in: "您近期內無編輯任何項目。"
         public: "%{username} 近期內無編輯任何項目。"
       empty_upcoming_watchlist:
-        logged_in: "您的播放目標中沒有即將上映的電影。"
+        logged_in: "您的待看清單中沒有即將上映的電影。"
       empty_watched_genres:
         logged_in: "您並未紀錄任何電影或電視影集。"
         public: "%{username} 並未紀錄任何電影及電視影集。"
       goto_discussions: "前往討論"
-      goto_watchlist: "前往播放目標"
+      goto_watchlist: "前往待看清單"
       most_watched_genres: "最多觀看類型"
       rating_overview: "評分簡介"
       recent_activity: "近期活動"
       recent_discussions: "近期討論"
       total_edits: "總編輯數"
       total_ratings: "總評分數"
-      upcoming_watchlist: "播放目標中即將上映的電影"
+      upcoming_watchlist: "待看清單中即將上映的電影"
     page_title:
       page_owner: "我的簡介"
       public: "%{username} 的簡介"
@@ -640,20 +640,20 @@ zh-TW:
       import_imdb_ratings: "您可以匯入您在 IMDb 的評分資料"
       tip: "提示"
     watchlist:
-      my_watchlist: "我的播放目標"
+      my_watchlist: "我的待看清單"
       next_month: "下個月"
       no_upcoming_movies:
-        one: "目前您的播放目標中有%{count}筆資料，但沒有即將上映的電影。"
-        other: "目前您的播放目標中有%{count}筆資料，但沒有即將上映的電影。"
+        one: "目前您的待看清單中有%{count}筆資料，但沒有即將上映的電影。"
+        other: "目前您的待看清單中有%{count}筆資料，但沒有即將上映的電影。"
       no_upcoming_tv_shows:
-        one: "目前您的播放目標中有%{count}筆資料，但沒有即將上映的電視影集。"
-        other: "目前您的播放目標中有%{count}筆資料，但沒有即將上映的電視影集。"
+        one: "目前您的待看清單中有%{count}筆資料，但沒有即將上映的電視影集。"
+        other: "目前您的待看清單中有%{count}筆資料，但沒有即將上映的電視影集。"
       page_title:
-        page_owner: "我的觀看目標"
-        public: "%{username} 的觀看目標"
+        page_owner: "我的待看清單"
+        public: "%{username} 的待看清單"
       this_month: "本月"
       this_week: "本週"
-      view_them: "檢視目標內容。"
+      view_them: "檢視待看清單。"
   add_to_list: "新增 %{media_title} 至收藏表..."
   already_translated_in: "%{page_title} 已被翻譯成以下語言..."
   api_session:
@@ -1234,45 +1234,45 @@ zh-TW:
       tv: tv
     collection:
       collection: "典藏"
-      collection_bible: "典藏指引"
+      collection_bible: "典藏指南"
       tall_bible:
-        bottom: "指引"
+        bottom: "指南"
         top: "典藏"
-    contribution_bible: "貢獻指引"
+    contribution_bible: "貢獻指南"
     featured_articles: "推薦文章"
     general:
-      general: "通用"
-      general_bible: "通用指引"
+      general: "一般"
+      general_bible: "通用指南"
     image:
       image: "圖片"
-      image_bible: "圖片編輯指引"
+      image_bible: "圖片編輯指南"
     movie:
       movie: "電影"
-      movie_bible: "電影編輯指引"
+      movie_bible: "電影編輯指南"
       tall_bible:
-        bottom: "指引"
+        bottom: "指南"
         top: "電影"
     new_content:
       new_content: "新內容"
-      new_content_bible: "增加新內容指引"
+      new_content_bible: "增加新內容指南"
     note: "筆記"
     people:
       people: "人物"
-      people_bible: "人物編輯指引"
+      people_bible: "人物編輯指南"
       tall_bible:
-        bottom: "指引"
+        bottom: "指南"
         top: "人物"
     pro_tip: "專業提示"
     search:
       placeholder_1: "您需要哪方面的協助？"
     tv:
       tall_bible:
-        bottom: "指引"
+        bottom: "指南"
         top: "電視"
       tv: "電視"
-      tv_bible: "電視編輯指引"
+      tv_bible: "電視編輯指南"
     welcome_1: "歡迎至"
-    welcome_2: "貢獻指引"
+    welcome_2: "貢獻指南"
   cookie_popup:
     message: 我們需使用 cookies 以提升瀏覽 TMDb 的使用體驗，您可以透過瀏覽 <a href="%{policy_url}" target="_blank" rel="noopener">cookie 使用條款</a> 以了解相關內容。您需同意此條款內容才可繼續瀏覽 TMDb。
     ok_button: "確認"
@@ -2750,7 +2750,7 @@ zh-TW:
       to: "收件人"
     no_messages: "無任何訊息"
     notifications:
-      new_message: 
+      new_message: "%{username} 寄給您一封新訊息"
     number_of_messages:
       one: "%{count} 封訊息"
       other: "%{count} 封訊息"
@@ -2998,6 +2998,7 @@ zh-TW:
       results:
         complete:
           imported: "確認要匯入嗎？"
+          item: 
           item_reasons:
             already_imported: "已匯入"
             cant_find_imdb: "找不到 IMDb ID"

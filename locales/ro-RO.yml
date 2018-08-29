@@ -21,10 +21,10 @@ ro-RO:
   Add Alternative Title: Adăugare titlu alternativ
   Add Backdrop: Adăugare decor
   Add Content Rating: Adăugare evaluare conținut
-  Add Creator: Adaugă creator
+  Add Creator: Adaugă realizator
   Add Data & Content: Adăugare date și conținut
-  Add Item: Adaugă element
-  Add Missing Cast & Crew: Adăugare distribuție și echipă lipsă
+  Add Item: Adaugă articol
+  Add Missing Cast & Crew: Adăugare distribuție și echipă filmare lipsă
   Add Network: Adaugă rețea
   Add New Episode: Adaugă episod nou
   Add New Movie: Adăugare film artistic nou
@@ -38,14 +38,14 @@ ro-RO:
   Add Video: Adăugare videoclip
   Add YouTube Video: Adăugare videoclip YouTube
   Add a New Cast Member: Adăugare membru distribuție nou
-  Add a New Crew Member: Adăugare membru echipă nou
+  Add a New Crew Member: Adăugare membru echipă filmare nou
   Add a New Guest Star: Adăugare vedetă oaspete
-  Add to Watchlist: Adaugă în lista filmelor de privit
+  Add to Watchlist: Adaugă în lista filmelor de urmărit
   Add to list: Adaugă în listă
   Add to your favorite list: Adaugă în lista de favorite
-  Add to your watchlist: Adaugă în lista mea de privire
+  Add to your watchlist: Adaugă în lista mea de urmărit
   Added By: Adăugat de
-  Added to Watchlist: Adăugat în lista de filme de privit
+  Added to Watchlist: Adăugat în lista de filme de urmărit
   Adding & Editing Content: Adăugare și modificare conținut
   Address 1: Adresa 1
   Address 2: Adresa 2
@@ -57,14 +57,14 @@ ro-RO:
   Alternative Names: Nume alternative
   Alternative Titles: Titluri alternative
   Apiary Documentation: Documentație Apiary
-  App Directory: 
+  App Directory: Folderele Aplicației
   App Showcase: Prezentare aplicații
   Application Description: Descriere aplicație
   Application Name: Nume aplicație
   Application Summary: Rezumat aplicație
   Application URL: Adresă (URL) aplicație
   Approve: Aprobă
-  Approved?: Aprobată?
+  Approved?: Aprobați?
   Apps: Aplicații
   Are you sure?: Sigur doriți acest lucru?
   Attributes: Atribute
@@ -77,7 +77,7 @@ ro-RO:
   Biography: Biografie
   Birthday: Data nașterii
   Blocked Users: Utilizatori blocați
-  Blog: 
+  Blog: Blog
   Branding: Marcare
   Budget: Buget
   Cancel: Renunță
@@ -524,11 +524,11 @@ ro-RO:
     lists: Liste
     login: Autentificare
     logout: Dezautentifică
-    messages: 
+    messages: Mesaje
     settings: Stabiliri
     sign_up: "Înregistrare"
     view_profile: Vizualizare profil
-    watchlist: Listă de privit
+    watchlist: Listă de urmărit.
   accounts:
     activity:
       activity: Activitate
@@ -553,9 +553,9 @@ ro-RO:
     average_movie_score: Punctaj mediu<br>Filme artistice
     average_tv_score: Punctaj mediu<br>Filme seriale
     discussions:
-      my_active_boards: Tablele mele active
+      my_active_boards: Tabelele mele active
       my_discussions: Discuțiile mele
-      not_watching: Nu urmăriți nicio discucție.
+      not_watching: Nu urmăriți nici o discuție.
       page_title:
         page_owner: Discuțiile mele
         public: Discuțiile lui %{username}
@@ -583,7 +583,7 @@ ro-RO:
         logged_in: Listele mele
         public: Listele lui %{username}
       no_lists:
-        logged_in: Nu ați creat nicio listă.
+        logged_in: Nu ați creat nici o listă.
         public: "%{username} nu are nicio listă publică de distribuit."
       page_title:
         page_owner: Listele mele
@@ -596,27 +596,27 @@ ro-RO:
       overview: Sumar
       ratings_reviews: Evaluări și recenzii
       recommendations: Recomandări
-      watchlist: Listă filme de privit
+      watchlist: Listă filme de urmărit
     order: 'Ordonare:'
     overview:
       30_day_activity: Activitatea pe 30 de zile
       empty_recent_activity:
-        logged_in: Nu ați făcut nicio editare recentă.
-        public: "%{username} nu a făcut nicio editare recent."
+        logged_in: Nu ați făcut nici o editare recentă.
+        public: "%{username} nu a făcut nici o editare recent."
       empty_upcoming_watchlist:
-        logged_in: Nu sunt filme artistice viitoare pe lista dumneavoastră cu filme de privit.
+        logged_in: Nu sunt filme artistice viitoare pe lista dumneavoastră cu filme de urmărit.
       empty_watched_genres:
-        logged_in: 
-        public: 
+        logged_in: Nu v-ați conectat la nici un film sau serial.
+        public: "%{username} nu s-a conectat la nici un film sau serial."
       goto_discussions: Mergi la Discuții
-      goto_watchlist: Mergi la Listă filme de privit
-      most_watched_genres: Cele mai privite genuri
+      goto_watchlist: Mergi la Lista filmelor de urmărit
+      most_watched_genres: Cele mai urmărite genuri
       rating_overview: Rezumat evaluări
       recent_activity: Activitatea recentă
-      recent_discussions: Dicuții recente
+      recent_discussions: Discuții recente
       total_edits: Total editări
       total_ratings: Total evaluări
-      upcoming_watchlist: Viitoare din lista de filme de privit
+      upcoming_watchlist: "În viitor din lista de filme de urmărit"
     page_title:
       page_owner: Profilul meu
       public: Profilul lui %{username}
@@ -634,23 +634,29 @@ ro-RO:
     recommendations:
       my_recommendations: Recomandările mele
       no_recommendations: Nu avem destule date pentru a vă sugera vreo recomandare.
-      no_recommendations_helper: 
+      no_recommendations_helper: "Încercaţi să adăugaţi mai multe filme favorite (mai multe este mai bine) şi reveniţi pentru a vedea cum procedăm."
       page_title: Recomandări
     tips:
       import_imdb_ratings: Puteți să vă importați evaluările de pe IMDb.
       tip: Sfat
     watchlist:
-      my_watchlist: 
+      my_watchlist: Lista filmelor ce le urmăresc
       next_month: Luna următoare
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        few: ''
+        one: Nu există filme viitoare în lista filmelor ce le urmăreşti.Există aproximativ, %{count} articol în lista filmelor ce le urmăreşti
+        other: Nu există filme viitoare în lista filmelor ce le urmăreşti.Există aproximativ, %{count} articole în lista filmelor ce le urmăreşti
+      no_upcoming_tv_shows:
+        few: ''
+        one: Nu există filme seriale viitoare în lista filmelor ce le urmăreşti.Există aproximativ, %{count} articol în lista filmelor ce le urmăreşti
+        other: Nu există filme seriale viitoare în lista filmelor ce le urmăreşti.Există aproximativ, %{count} articole în lista filmelor ce le urmăreşti
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Lista filmelor ce le urmăresc
+        public: "%{username} ce urmăresc aceeaşi listă"
       this_month: Luna aceasta
       this_week: Săptămâna aceasta
-      view_them: 
-  add_to_list: 
+      view_them: Văzut.
+  add_to_list: Adăugați %{media_title} la una din listele voastre...
   already_translated_in: "%{page_title} este deja tradus în următoarele limbi..."
   api_session:
     approved_session: Ați aprobat %{application_name}. Puteți închide această fereastră.
@@ -659,24 +665,24 @@ ro-RO:
     biography: Biografie
     certification: Certificare
     external_href: Adresă URL
-    homepage: 
+    homepage: Pagină pornire (Acasă)
     iso_3166_1: "Țară"
     iso_639_1: Limbă
     normalized_email: Adresă poștă electronică (email)
     normalized_username: Nume de utilizator
     overview: Prezentare
     title: Titlu
-    to_accounts_ids: 
+    to_accounts_ids: Către
   average edits per day: Medie de modificări pe zi
   back_options:
     back: "Înapoi"
-    episode: "Înapoi la episod"
-    episode_groups: 
+    episode: "Înapoi la episodul"
+    episode_groups: "Înapoi la grupul de episoade"
     episode_list: "Înapoi la lista de episoade"
     home: "Înapoi la pagina inițială"
     main: "Înapoi la pagina principală"
     named_episode_group: 
-    season: "Înapoi la sezon"
+    season: "Înapoi la sezonul"
     season_list: "Înapoi la lista de sezoane"
     to_tmdb: "Înapoi la TMDb"
     top: "Înapoi sus"
@@ -685,21 +691,21 @@ ro-RO:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Exclus de la clasificare. Filmele excluse de la clasificare trebuie să nu conţină materiale controversate(ex. materiale care pot fi clasate M sau peste)
         '2':
-          meaning: 
+          meaning: General. Conținutul cu impact foarte redus.
         '3':
-          meaning: 
+          meaning: Se recomandă avizul părinților. Nu există restricții de vârstă. Conținutul cu impact redus.
         '4':
-          meaning: 
+          meaning: Recomandat pentru adulți. Nu există restricții de vârstă. Conținutul este cu impact moderat.
         '5':
-          meaning: 
+          meaning: Pentru adulți. Nerecomandat pentru copiii sub 15 ani. Copiii cu vârsta sub 15 ani trebuie să fie însoțiți de un părinte sau de un tutore. Conținutul este cu puternic impact.
         '6':
-          meaning: 
+          meaning: Restricționat la 18 ani și chiar peste. Doar pentru adulți. Conținutul are un puternic impact.
         '7':
-          meaning: 
+          meaning: Restricționat la 18 ani și chiar peste. Filmele cu această evaluare au conținut pornografic. Filmele clasificate ca X18 + sunt interzise  a fi vândute sau închiriate în toate statele australiene și sunt disponibile în mod legal doar în Australian Capital Territory și în Teritoriul de Nord. Cu toate acestea, importul de materiale X18 + din cele două teritorii către oricare dintre statele australiene este legal. Conținutul este explicit sexual ca impact.
         '8':
-          meaning: 
+          meaning: Clasificare refuzată. Interzise la vânzare sau închiriere în Australia; se aplică, de asemenea, în general importului (dacă este inspectat și suspect de către vamă). Vizualizarea privată pe Internet nu este cenzurată, s-a încercat acest lucru de a cenzura legal astfel de materiale on-line dar au condus la controverse. Filmele sunt evaluate cu RC dacă conținutul lor depășeșc anumite limite. Conținutul are un impact foarte mare.
       BG:
         '1':
           meaning: Recomandat pentru copii.
@@ -708,84 +714,84 @@ ro-RO:
         '3':
           meaning: Nu este recomandat pentru copii sub 12 ani.
         '4':
-          meaning: Inerzis persoanelor sub 16 ani.
+          meaning: Interzis persoanelor sub 16 ani.
         '5':
           meaning: Interzis persoanelor sub 18 ani.
       BR:
         '1':
-          meaning: 
+          meaning: Audiență generală. Indicat a nu expune copiii la conținuturi potențial dăunătoare.
         '2':
-          meaning: 
+          meaning: Nerecomandat pentru minorii sub 10 ani. Conținut violent sau limbaj neadecvat pentru copii, de mai mică sau mai mare intensitate.
         '3':
-          meaning: 
+          meaning: Nerecomandat pentru minorii sub 12 ani. Scenele pot include agresiune fizică, folosire de droguri sau implicații sexuale.
         '4':
-          meaning: 
+          meaning: Nerecomandat pentru minorii sub 14 ani. Mai multe materiale violente, referințe sexuale puternice și / sau nuditate.
         '5':
-          meaning: 
+          meaning: Nerecomandat pentru minorii sub 16 ani. Conținut cu scene privind producția, traficul și / sau utilizarea drogurilor ilegale, sex hiperealist, violență sexuală, avort, tortură, mutilare, sinucidere, trivializarea violenței și pedeapsa cu moartea.
         '6':
-          meaning: 
+          meaning: Nerecomandat pentru minorii sub 18 ani. Scene cu conținut sexual explicit, incest, pedofilie, laudă a utilizării drogurilor ilegale și a violenței cu un puternic impact.
       CA:
         '1':
-          meaning: Toate vârstele.
+          meaning: Pentru toate vârstele.
         '2':
-          meaning: 
+          meaning: Doar cu avizul părinților. Nu există restricții de vârstă, dar este posibil ca unele materiale să nu fie potrivite pentru toți copiii.
         '3':
-          meaning: 
+          meaning: Persoanele sub 14 ani trebuie să fie însoțite de un adult.
         '4':
-          meaning: 
+          meaning: Persoanele sub 18 ani trebuie să fie însoțite de un adult. În Maritimes & Manitoba, copiilor sub 14 ani le este interzis vizionarea a unor astfel de filme.
         '5':
-          meaning: 
+          meaning: Admis pentru persoane cu vârsta de 18 ani sau peste. Unicul scop al filmului este reprezentarea activității explicite sexual și / sau a violenței explicite.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
-          meaning: 
+          meaning: Clasificare generală - Poate fi văzut, închiriat sau achiziționat de persoane indiferent de vârstă. Dacă filmul este însoțit de evaluarea "G" și ar putea ofensa sensibilitățile unui copil cu vârsta mai mică de 8 ani, atunci mesajul "Nepotrivit pentru copii mici" este anexat clasificării.
         '2':
-          meaning: 
+          meaning: 13 ani și peste - Poate fi văzut, închiriat sau cumpărat numai de către copiii de 13 ani sau peste această vârstă. Copiii sub 13 ani pot fi admiși doar dacă sunt însoțiți de un adult.
         '3':
-          meaning: 
+          meaning: 16 ani și peste - Poate fi văzut, închiriat sau cumpărat numai de către copiii de 16 ani sau peste această vârstă.
         '4':
-          meaning: 
+          meaning: 18 ani și peste - Poate fi văzut, închiriat sau cumpărat numai de către adulți de 18 ani sau peste această vârstă. Dacă filmul conține o activitate sexuală reală și explicită, atunci textul "Sexualitate explicită" este anexat la clasificare, iar în industria video cu amănuntul, proprietarii de magazine trebuie să pună filmul într-o cameră rezervată doar adulților.
       DE:
         '1':
-          meaning: Nicio restricție de vârstă.
+          meaning: Fără restricție de vârstă.
         '2':
-          meaning: 
+          meaning: Neadmis copiilor mai mici de 6 ani.
         '3':
-          meaning: 
+          meaning: Admis copiilor de 12 ani sau peste această vârstă, copiii între 6 și 11 ani pot fi admiși doar dacă sunt însoțiți de părinți sau de un tutore legal.
         '4':
-          meaning: 
+          meaning: Admis copiilor de 16 ani sau peste, nimeni sub această vârstă nu este admis.
         '5':
-          meaning: 
+          meaning: Neadmis tinerilor, doar pentru adulți.
       DK:
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
-          meaning: 
+          meaning: Potrivit pentru audiență generală.
         '2':
-          meaning: 
+          meaning: Nerecomandat pentru copii sub 7 ani.
         '3':
-          meaning: 
+          meaning: Pentru vârsta de peste 11 ani.
         '4':
-          meaning: 
+          meaning: Pentru vârsta de peste 15 ani.
         '5':
-          meaning: 
+          meaning: Scutite de la clasificare.
       ES:
         '1':
-          meaning: 
+          meaning: Admitere generală.
         '2':
-          meaning: 
+          meaning: Nerecomandat pentru audiență sub 7 ani.
         '3':
-          meaning: 
+          meaning: Nerecomandat pentru audiență sub 12 ani.
         '4':
-          meaning: 
+          meaning: Nerecomandat pentru audiență sub 16 ani.
         '5':
-          meaning: 
+          meaning: Nerecomandat pentru audiență sub 18 ani.
         '6':
-          meaning: 
+          meaning: Interzis pentru publicul sub 18 ani.
       FI:
         '1':
-          meaning: 
+          meaning: Pentru toate vârstele.
         '2':
           meaning: Peste 7 ani.
         '3':
@@ -795,10 +801,10 @@ ro-RO:
         '5':
           meaning: Doar pentru adulți.
         '6':
-          meaning: 
+          meaning: Interzis pentru a fi comercializat.
       FR:
         '1':
-          meaning: 
+          meaning: "(Tous publics) valabil pentru toate categoriile de public."
         '2':
           meaning: 
         '3':
@@ -1493,7 +1499,7 @@ ro-RO:
     min: Filtrează după data lansării (minimă)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Chiar acum.
       discussions: Discuții
     tv_shows:
       episode_airs:
@@ -2932,8 +2938,8 @@ ro-RO:
     recommendations_tv: 
     trending: 
     trending_searches: Căutări în ascensiune
-    watchlist_movie: Căutare listă de filme artistice de privit...
-    watchlist_tv: Căutare listă de filme seriale de privit...
+    watchlist_movie: Căutare listă de filme artistice de urmărit...
+    watchlist_tv: Căutare listă de filme seriale de urmărit...
   search_tip_1: 'Sfat: Puteți folosi filtrul „y:” pentru a restrânge rezultatele după an. De exemplu: „Războaiele stelare y:1977”.'
   season_number_name: Sezonul %{season_number}
   season_overview:
@@ -2989,6 +2995,7 @@ ro-RO:
       results:
         complete:
           imported: 
+          item: 
           item_reasons:
             already_imported: Deja importată.
             cant_find_imdb: 
