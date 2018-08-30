@@ -18,13 +18,13 @@ ru-RU:
 
     Принять условия использования API
   Account: "Профиль"
-  Account Filtering: 
+  Account Filtering: "Фильтрация аккаунта"
   Add Alternative Name: "Добавить другое имя"
-  Add Alternative Title: "Добавить альтернативное название"
+  Add Alternative Title: "Добавить другое название"
   Add Backdrop: "Добавить кадр"
   Add Content Rating: "Добавить возрастной рейтинг"
   Add Creator: "Добавить сценариста"
-  Add Data & Content: "Редактировать"
+  Add Data & Content: "Добавить дату и содержание"
   Add Item: "Добавить элемент"
   Add Missing Cast & Crew: "Добавить отсутствующего актера & члена сьемочн. группы"
   Add Network: "Добавить телесеть"
@@ -47,7 +47,7 @@ ru-RU:
   Add to your favorite list: Добавить в "Избранное"
   Add to your watchlist: "Добавлено в ''Буду смотреть''"
   Added By: "Добавлено"
-  Added to Watchlist: Добавлен в "Буду смотреть"
+  Added to Watchlist: "Добавлен в список просмотра"
   Adding & Editing Content: "Добавление и редактирование данных"
   Address 1: "Адрес 1"
   Address 2: "Адрес 2"
@@ -528,58 +528,62 @@ ru-RU:
     lists: "Списки"
     login: "Войти"
     logout: "Выйти"
-    messages: 
+    messages: "Сообщения"
     settings: "Настройки"
     sign_up: "Зарегистрироваться"
     view_profile: "Посмотреть профиль"
     watchlist: "Список просмотра"
   accounts:
     activity:
-      activity: 
+      activity: "Активность"
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: "Добавлено"
+        created: "Создано"
+        deleted: "Удалено"
+        updated: "Обновлено"
       media_types:
         movies: "Фильмы"
         others: "Другой"
         people: "Актеры"
         tv: "ТВ"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "Моя последняя активность"
+        public: "Последняя активность %{username}"
       table:
-        action: 
-        edit: 
+        action: "Действие"
+        edit: "Редактировать"
         key: "Ключ"
-        language_abbreviation: 
+        language_abbreviation: "Язык"
     average_movie_score: "Средний<br>рейтинг фильмов"
     average_tv_score: "Средний<br>рейтинг сериалов"
     discussions:
-      my_active_boards: 
+      my_active_boards: "Моя доска активности"
       my_discussions: "Мои обсуждения"
       not_watching: "Вы не отслеживаете какие-либо обсуждения."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "Мои обсуждения"
+        public: "Обсуждения %{username}"
+    export:
+      csv_explanation: 
+      export: 
+      export_csv: 
     favorites:
       my_favorites:
         logged_in: "Моё избранное"
         public: "Избранное %{username}"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "Моё избранное"
+        public: "Избранное %{username}"
     filter_by: "Отфильтровать по:"
     filters:
       date_added: "Дата добавления"
       date_rated: "Дата оценки"
       my_rating: "Моя оценка"
       popularity: "Популярность"
-      rating: 
+      rating: "Оценка"
       release_date: "Дата выхода"
       score: "Рейтинг"
-      upcoming: 
+      upcoming: "Ожидаемые"
     lists:
       create_list: "Создать список"
       last_updated: "Обновлено"
@@ -590,8 +594,8 @@ ru-RU:
         logged_in: "Вы не создавали списков."
         public: "%{username} не имеет публичных списков."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: "Мои списки"
+        public: "Списки %{username}"
     member_since: "Участник с %{date}"
     navigation:
       discussions: "Обсуждения"
@@ -601,7 +605,7 @@ ru-RU:
       ratings_reviews: "Рейтинги и обзоры"
       recommendations: "Рекомендации"
       watchlist: "Список просмотра"
-    order: 
+    order: "Порядок:"
     overview:
       30_day_activity: "Активность за 30 дней"
       empty_recent_activity:
@@ -620,10 +624,10 @@ ru-RU:
       recent_discussions: "Последние обсуждения"
       total_edits: "Всего правок"
       total_ratings: "Всего оценок"
-      upcoming_watchlist: "Предстоящее из списка просмотра"
+      upcoming_watchlist: "Ожидаемое из списка просмотра"
     page_title:
-      page_owner: 
-      public: 
+      page_owner: "Мой профиль"
+      public: "Профиль %{username}"
     ratings_reviews:
       my_ratings:
         logged_in: "Мои оценки"
@@ -632,28 +636,36 @@ ru-RU:
         logged_in: "Мои рецензии"
         public: "Рецензии %{username}"
       page_title:
-        page_owner: 
-        public: 
-      ratings_by_year: "Рейтинг Года"
+        page_owner: "Мои рейтинги и обзоры"
+        public: "Рейтинги и обзоры %{username}"
+      ratings_by_year: "Рейтинг года"
     recommendations:
       my_recommendations: "Мои рекомендации"
-      no_recommendations: 
-      no_recommendations_helper: 
-      page_title: 
+      no_recommendations: "У нас недостаточно данных, чтобы предложить какие-либо рекомендации."
+      no_recommendations_helper: "Попробуйте добавить еще несколько избранных (чем больше, тем лучше) и возвращайтесь, чтобы посмотреть, как мы это сделали."
+      page_title: "Рекомендации"
     tips:
-      import_imdb_ratings: 
+      import_imdb_ratings: "Вы можете импортировать свои оценки из IMDb."
       tip: "Подсказка"
     watchlist:
-      my_watchlist: "Мои список просмотра"
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      my_watchlist: "Мой список просмотра"
+      next_month: "Следующий месяц"
+      no_upcoming_movies:
+        few: "В вашем списке ожидания нет фильмов. Однако есть %{count} в вашем списке просмотра."
+        many: "В вашем списке ожидания нет фильмов. Однако есть %{count} в вашем списке просмотра."
+        one: "В вашем списке ожидания нет фильмов. Однако есть %{count} в вашем списке просмотра."
+        other: "В вашем списке ожидания нет фильмов. Однако есть %{count} в вашем списке просмотра."
+      no_upcoming_tv_shows:
+        few: "В вашем списке ожидания нет сериалов. Однако есть %{count} в вашем списке просмотра."
+        many: "В вашем списке ожидания нет сериалов. Однако есть %{count} в вашем списке просмотра."
+        one: "В вашем списке ожидания нет сериалов. Однако есть %{count} в вашем списке просмотра."
+        other: "В вашем списке ожидания нет сериалов. Однако есть %{count} в вашем списке просмотра."
       page_title:
-        page_owner: 
-        public: 
-      this_month: 
-      this_week: 
-      view_them: 
+        page_owner: "Мой список просмотра"
+        public: "Список просмотра %{username}"
+      this_month: "Текущий месяц"
+      this_week: "Текущая неделя"
+      view_them: "Просмотреть их."
   add_to_list: "Добавить %{media_title} в свой список..."
   already_translated_in: "%{page_title} уже переведен на следующие языки... "
   api_session:
@@ -663,7 +675,7 @@ ru-RU:
     biography: "Биография"
     certification: "Сертификация"
     external_href: URL
-    homepage: 
+    homepage: "Домашняя страница"
     iso_3166_1: "Страна"
     iso_639_1: "Язык"
     normalized_email: 
