@@ -560,9 +560,9 @@ it-IT:
         page_owner: Le Mie Discussioni
         public: Discussioni di %{username}
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Se preferisci esportare una copia di questa lista in formato CSV, clicca il pulsante "Esporta" qui sotto. Ti invieremo la lista così creata tramite email. In base alla lunghezza della lista, completare l'esportazione potrebbe richiedere alcuni minuti.
+      export: Esporta
+      export_csv: Esporta in formato CSV
     favorites:
       my_favorites:
         logged_in: I Miei Favoriti
@@ -1611,7 +1611,7 @@ it-IT:
     Additional Storyboarding: 
     Additional Third Assistant Director: 
     Additional Underwater Photography: 
-    Additional Visual Effects: 
+    Additional Visual Effects: Effetti speciali addizionali
     Additional Wardrobe Assistant: 
     Additional Writing: Scrittura Aggiuntiva
     Administration: Amministrazione
@@ -2090,7 +2090,7 @@ it-IT:
     Music Supervisor: Supervisore Musicale
     Musical: Musical
     Musical Casting: 
-    Musician: 
+    Musician: Musicista
     Negative Cutter: 
     Novel: Romanzo
     "O\x01B\x01 Lighting": 
@@ -2497,7 +2497,7 @@ it-IT:
     step_3: 'Passaggio 3: Scegli Immagine'
     step_4: 'Passaggio 4: Condividi'
   login:
-    login_text_1: 
+    login_text_1: Per usufruire delle possibilità offerte da TMDb di aggiungere informazioni e votare i tuoi film preferiti, oppure ricevere consigli su cosa guardare hai bisogno di effettuare il login al tuo account. Se non hai ancora un account, registrarti è semplice e gratuito. <a href=%{signup_link}">Clicca qui</a> per iniziare.
     login_text_2: 
     login_to_your_account: Accedi al tuo profilo
   login_to_create: Non riesci a trovare un film o una serie Tv? Accedi per crearlo.
@@ -2515,7 +2515,7 @@ it-IT:
         country: Seleziona un paese
         create_person:
           click_to_create: 
-          create_it: 
+          create_it: Crea...
         genres: Seleziona un genere...
         job: Seleziona una mansione...
         keywords: Seleziona una parola chiave...
@@ -2604,8 +2604,8 @@ it-IT:
       tv_page_title: Serie Tv su %{name}
       upload_logo: Carica un logo
     no_results_found:
-      movie: 
-      tv: 
+      movie: Nessun film trovato.
+      tv: Nessun programma TV trovato.
     number_of_movies:
       one: "%{count} film"
       other: "%{count} film"
@@ -2660,7 +2660,7 @@ it-IT:
         current_season: Stagione Corrente
         last_season: Ultima Stagione
         next_season: Prossima stagione
-        previous_season: 
+        previous_season: Stagione precedente
     tv_show:
       create_season: Crea stagione
       edit:
@@ -2676,7 +2676,7 @@ it-IT:
           no_season: Nessuna stagione presente! è richiesta una stagione per aggiungere i membri della troupe.
         episode_groups:
           create_new_group: Crea Nuovo Gruppo
-          description: 
+          description: Descrizione
           episode_groups: Gruppi Episodio
           episodes:
             move_episodes: Sposta Episodi Selezionati
@@ -2686,7 +2686,9 @@ it-IT:
             groups: Gruppi
           group: Gruppo
           messages:
-            episodes_added: 
+            episodes_added:
+              one: "%{count} episodio aggiunto!"
+              other: "%{count} episodi aggiunti!"
           name: Nome Gruppo
           no_records: Nessun gruppo episodi è stato aggiunto.
           type: Tipo
@@ -2737,13 +2739,13 @@ it-IT:
   message_templates:
     help_translate:
       message: 
-      subject: 
+      subject: Aiutaci a tradurre il nostro sito internet
   messages:
     compose:
       ban: 
-      from: 
-      message: 
-      subject: 
+      from: Da
+      message: Messaggio
+      subject: Oggetto
       template: 
       to: 
     no_messages: 
@@ -2759,16 +2761,16 @@ it-IT:
         create: 
         no_conversations: 
         view: 
-      no_user_found: 
-      reply: 
+      no_user_found: Nessun utente trovato.
+      reply: Scrivi un messaggio...
       subject: 
-      to: 
+      to: Cerca un utente...
     right_column_titles:
       conversation_with: 
       message_inbox: 
       my_archive: 
       my_inbox: 
-      new_message: 
+      new_message: Nuovo messaggio
       support_archive: 
       support_inbox: 
   month:
@@ -3099,7 +3101,7 @@ it-IT:
       keep_track: Tieni traccia dei tuoi film e programmi TV preferiti e ricevi consigli basati da loro
       log_movies: Registra i film e i programmi TV che hai guardato
     by_clicking_agree_to_terms: Facendo clic sul pulsante "Registrati" di seguito, dichiaro di aver letto e accettato i termini di utilizzo e l'informativa sulla privacy di TMDb.
-    javascript_required: 
+    javascript_required: "È richiesto JavaScript per continuare."
     sign_up_for_account: Registra un profilo
     signup_text: Registrarsi per un account è gratuito e facile. Compila il modulo sottostante per iniziare.
   success_approved_access_token: Permesso accordato!
