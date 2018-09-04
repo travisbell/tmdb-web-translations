@@ -19,17 +19,17 @@ ro-RO:
   Account Filtering: Filtrare cont
   Add Alternative Name: Adăugare nume alternativ
   Add Alternative Title: Adăugare titlu alternativ
-  Add Backdrop: Adăugare decor
+  Add Backdrop: Adăugare fotografii fundal
   Add Content Rating: Adăugare evaluare conținut
-  Add Creator: Adaugă realizator
+  Add Creator: Adăugare realizator
   Add Data & Content: Adăugare date și conținut
-  Add Item: Adaugă articol
+  Add Item: Adăugare articol
   Add Missing Cast & Crew: Adăugare distribuție și echipă filmare lipsă
-  Add Network: Adaugă rețea
-  Add New Episode: Adaugă episod nou
+  Add Network: Adăugare rețea
+  Add New Episode: Adăugare episod nou
   Add New Movie: Adăugare film artistic nou
   Add New Release: Adăugare lansare nouă
-  Add New Season: Adaugă sezon nou
+  Add New Season: Adăugare sezon nou
   Add New TV Show: Adăugare film serial nou
   Add Poster: Adăugare afiș
   Add Profile: Adăugare profil
@@ -70,8 +70,8 @@ ro-RO:
   Attributes: Atribute
   Auto: Automat
   Back to top: "Înapoi sus"
-  Backdrop Card View: Vizualizare decoruri
-  Backdrops: Decoruri
+  Backdrop Card View: Vizualizare fotografii de fundal
+  Backdrops: Fotografii de fundal
   Bad Image: Imagine greșită
   Best Match: Cea mai bună potrivire
   Biography: Biografie
@@ -525,7 +525,7 @@ ro-RO:
     login: Autentificare
     logout: Dezautentifică
     messages: Mesaje
-    settings: Stabiliri
+    settings: Setări
     sign_up: "Înregistrare"
     view_profile: Vizualizare profil
     watchlist: Listă de urmărit
@@ -560,9 +560,9 @@ ro-RO:
         page_owner: Discuțiile mele
         public: Discuțiile lui %{username}
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Dacă doriți să aveți o copie a acestei liste exportată într-un fișier CSV, faceți clic pe butonul "Export" de mai jos. Vom crea exportul și îl vom trimite prin e-mail. În funcție de dimensiunea listei dvs., aceasta poate dura câteva minute până la finalizare.
+      export: Export
+      export_csv: Export CSV
     favorites:
       my_favorites:
         logged_in: Favoritele mele
@@ -588,7 +588,7 @@ ro-RO:
         public: Listele lui %{username}
       no_lists:
         logged_in: Nu ați creat nici o listă.
-        public: "%{username} nu are nicio listă publică de distribuit."
+        public: "%{username} nu are nici o listă publică de distribuit."
       page_title:
         page_owner: Listele mele
         public: Listele lui %{username}
@@ -664,7 +664,7 @@ ro-RO:
   already_translated_in: "%{page_title} este deja tradus în următoarele limbi..."
   api_session:
     approved_session: Ați aprobat %{application_name}. Puteți închide această fereastră.
-    continue: Dacă doriți să continuați, Dați clic pe butonul de aprobare de mai jos. Dacă nu, puteți să închideți pur și simplu această fereastră.
+    continue: Dacă doriți să continuați, dați clic pe butonul de aprobare de mai jos. Dacă nu, puteți să închideți pur și simplu această fereastră.
   attributes:
     biography: Biografie
     certification: Certificare
@@ -707,7 +707,7 @@ ro-RO:
         '6':
           meaning: Restricționat la 18 ani și chiar peste. Doar pentru adulți. Conținutul are un puternic impact.
         '7':
-          meaning: Restricționat la 18 ani și chiar peste. Filmele cu această evaluare au conținut pornografic. Filmele clasificate ca X18 + sunt interzise  a fi vândute sau închiriate în toate statele australiene și sunt disponibile în mod legal doar în Australian Capital Territory și în Teritoriul de Nord. Cu toate acestea, importul de materiale X18 + din cele două teritorii către oricare dintre statele australiene este legal. Conținutul este explicit sexual ca impact.
+          meaning: Restricționat la 18 ani și chiar peste. Filmele cu această evaluare au conținut pornografic. Filmele clasificate ca X18 + sunt interzise a fi vândute sau închiriate în toate statele australiene și sunt disponibile în mod legal doar în Australian Capital Territory și în Teritoriul de Nord. Cu toate acestea, importul de materiale X18 + din cele două teritorii către oricare dintre statele australiene este legal. Conținutul este explicit sexual ca impact.
         '8':
           meaning: Clasificare refuzată. Interzise la vânzare sau închiriere în Australia; se aplică, de asemenea, în general importului (dacă este inspectat și suspect de către vamă). Vizualizarea privată pe Internet nu este cenzurată, s-a încercat acest lucru de a cenzura legal astfel de materiale on-line dar au condus la controverse. Filmele sunt evaluate cu RC dacă conținutul lor depășeșc anumite limite. Conținutul are un impact foarte mare.
       BG:
@@ -744,7 +744,7 @@ ro-RO:
         '4':
           meaning: Persoanele sub 18 ani trebuie să fie însoțite de un adult. În Maritimes & Manitoba, copiilor sub 14 ani le este interzis vizionarea a unor astfel de filme.
         '5':
-          meaning: Admis pentru persoane cu vârsta de 18 ani sau peste. Unicul scop al filmului este reprezentarea activității explicite sexual și / sau a violenței explicite.
+          meaning: Admis pentru persoane cu vârsta de 18 ani sau peste. Unicul scop al filmului este reprezentarea activității explicit sexuale și / sau a violenței explicite.
       CA-QC:
         '0':
           meaning: Fără evaluare.
@@ -812,11 +812,11 @@ ro-RO:
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) nepotrivit pentru copii sub 10 ani (această evaluare este utilizată doar pentru filme); echivalent în teatre: "avertisment" (avertizare), unele scene pot fi deranjante pentru copiii mici și persoanele sensibile; echivalent video: "acord parental" (îndrumare parentală).'
         '3':
-          meaning: "(Interdit aux moins de 12 ans) nepotrivit pentru copiii sub 12 ani sau interzis în cinematografe sub 12 ani."
+          meaning: "(Interdit aux moins de 12 ans) nepotrivit pentru copiii sub 12 ani sau interzis în cinematografe pentru cei sub 12 ani."
         '4':
-          meaning: "(Interdit aux moins de 16 ans) nepotrivit pentru copiii sub 16 ani sau interzis în cinematografe sub 16 ani."
+          meaning: "(Interdit aux moins de 16 ans) nepotrivit pentru copiii sub 16 ani sau interzis în cinematografe pentru cei sub 16 ani."
         '5':
-          meaning: "(Interdit aux mineurs) nepotrivit pentru copiii sub 18 ani sau interzis în cinematografe sub 18 ani."
+          meaning: "(Interdit aux mineurs) nepotrivit pentru copiii sub 18 ani sau interzis în cinematografe pentru cei sub 18 ani."
       GB:
         '1':
           meaning: Admis tuturor vârstelor, nu conține nimic nepotrivit pentru copii.
@@ -831,7 +831,7 @@ ro-RO:
         '6':
           meaning: Admis doar pentru adulți. Nimeni mai mic de 18 ani nu poate să închirieze sau să cumpere un VHS, DVD, Blu-ray Disc, UMD sau joc cu evaluare 18 sau să vizioneze un film în cinematograf cu această evaluare. Filmele din această categorie nu limitează limbajul neadecvat utilizat. Drogurile de mare risc sunt, în general, permise, iar referințele sexuale explicite și activitatea sexuală detaliată sunt, de asemenea, permise. Scenele de sex real pot fi permise dacă sunt justificate de context. Violența este extremă și/sau violența sadică este de obicei permisă. Violența sexuală extremă este permisă doar dacă este limitată de grafică.
         '7':
-          meaning: 'Poate fi vizionată numai la cinematografele pentru adulți sau vândută la magazinele de sex licențiate și numai la adulți, cei cu vârsta de 18 ani sau mai mult. Filmele din această categorie sunt întotdeauna pornografice de tip hard-core, definite ca materiale destinate stimulării sexuale și care conțin imagini clare ale activității sexuale reale, materiale puternice de fetiș, imagini animate explicit sau vizionarea anumitor acte, cum ar fi pătrunderea simultană triplă și ejaculare. Există o serie de materiale care sunt adesea tăiate din aceste evaluări R18: imagini puternice de rănirii în timpul actului sexual, urinări, scene sugerând incest, chiar dacă sunt organizate, referiri la sex cu minori sau la dezvoltarea sexuală a copiilor precum și la comportament agresiv de a scuipa pe un interpret nu sunt permise. Mai multe tăieri sunt solicitate în această categorie decât orice altă categorie.'
+          meaning: 'Poate fi vizionată numai la cinematografele pentru adulți sau vândută la magazinele de sex licențiate și numai la adulți, cei cu vârsta de 18 ani sau peste. Filmele din această categorie sunt întotdeauna pornografice de tip hard-core, definite ca materiale destinate stimulării sexuale și care conțin imagini clare ale activității sexuale reale, materiale puternice de fetiș, imagini animate explicit sau vizionarea anumitor acte, cum ar fi pătrunderea simultană triplă și ejaculare. Există o serie de materiale care sunt adesea tăiate din aceste evaluări R18: imagini puternice de rănirii în timpul actului sexual, urinări, scene sugerând incest, chiar dacă sunt organizate, referiri la sex cu minori sau la dezvoltarea sexuală a copiilor precum și la comportament agresiv de a scuipa pe un interpret nu sunt permise. Mai multe tăieri sunt solicitate în această categorie decât în orice altă categorie.'
       HU:
         '0':
           meaning: 
@@ -849,143 +849,143 @@ ro-RO:
           meaning: 
       IN:
         '0':
-          meaning: 
+          meaning: Nerestricționată pentru vizionare în toată India, potrivită pentru toate grupele de vârstă. Filmele din această categorie nu ar trebui să deranjeze copiii de peste 4 ani. Aceste filme pot conține teme educaționale, sociale sau de familie. Filmele din această categorie pot conține, de asemenea, violență fantastică și / sau limbaj neadecvat.
         '1':
-          meaning: 
+          meaning: Admis pentru toate vârstele, dar se recomandă ca cei sub 12 ani să fie însoțiți de un părinte, deoarece tema sau conținutul pot fi considerate intense sau neadecvate pentru copiii mici. Filmele din această categorie pot conține teme mature, referințe sexuale, scene sexuale ușoare, violență cu imagini scurte și / sau o utilizare rară a limbajului brut.
         '2':
-          meaning: 
+          meaning: Limitat la segmentul de public adult (18 ani sau peste). Nimeni sub vârsta de 18 ani nu poate cumpăra / închiria un DVD, VHS, UMD cu evaluare  A sau poate viziona un film în cinematograf cu această evaluare. Filmele din această categorie pot conține teme adulte / deranjante, limbaj frecvent brut, violență brutală cu sânge, scene sexuale puternice și / sau scene de abuz de droguri considerate a fi nepotrivite pentru minori.
       LT:
         '1':
-          meaning: 
+          meaning: Filme pentru toate vârstele.
         '2':
-          meaning: 
+          meaning: Filme pentru spectatori de peste 7 ani. Pentru cei sub 7 ani, aceștia pot participa numai împreună cu persoane adulte însoțitoare.
         '3':
-          meaning: 
+          meaning: Filme pentru spectatori de peste 13 ani. Pentru cei între 7 și 13 ani, aceștia pot participa numai împreună cu persoane adulte însoțitoare.
         '4':
-          meaning: 
+          meaning: Filme pentru spectatori de peste 16 ani.
         '5':
-          meaning: 
+          meaning: Filme pentru spectatori de peste 18 ani.
       MY:
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
-          meaning: 
+          meaning: '(Umum: "General Audiences") - Pentru publicul larg. (Folosit de majoritatea filmelor filmate în Malaezia până în 2008, dar continuă doar pentru televiziune, în special pentru RTM.)'
         '2':
-          meaning: 
+          meaning: '(Penjaga 13 : "Parental Guidance 13") - Copiii sub 13 ani nu sunt admiși decât dacă sunt însoțiți de un adult. (Introdus în 2006, acesta a devenit sistemul oficial de evaluare al filmelor din Malaezia în 2008. Evaluarea "PG-13" a fost revizuit la "P13" începând din aprilie 2012 pentru a sublinia utilizarea limbii Malay în loc de limba engleză.) Scenele pasionale de săruturi nu sunt permise în baza unui evaluări P13.'
         '3':
-          meaning: 
+          meaning: '(Seram, Ganas: "Graphic Violence and Horror/Terror") - Filmul poate conține violență puternică, sânge sau groază / teroare pe care oamenii le pot considera inacceptabile.'
         '4':
-          meaning: 
+          meaning: '(Seks: "Sexual Content") - Filmul poate conține scene sexuale, nuditate sau dialog sexual / referințe pe care oamenii le pot considera inacceptabile (în ciuda scenelor de sex și de nuditate ele fiind strict cenzurate de LPF).'
         '5':
-          meaning: 
+          meaning: '(Politik, Agama: "Strong Religious or Political Elements") - Filmul poate conține elemente care includ aspecte religioase, sociale sau politice pe care oamenii le pot considera inacceptabile. Folosit rar.'
         '6':
-          meaning: 
+          meaning: '(Pelbagai: "Various") - Filmul poate conține violență puternică, sânge, groază / teroare, scene sexuale, nuditate, dialoguri sexuale / referințe, aspecte religioase, sociale sau politice. Majoritatea filmelor folosesc evaluarea 18+. De exemplu, un film cu scene sexuale și violență puternică va fi clasificat drept 18PL, în ciuda scenelor de sex și de nuditate ele fiind strict cenzurate de LPF.'
       NL:
         '1':
           meaning: Toate vârstele.
         '2':
-          meaning: 
+          meaning: Potențial dăunătoare pentru copiii sub 6 ani.
         '3':
-          meaning: 
+          meaning: Potențial dăunătoare pentru copiii sub 9 ani.
         '4':
-          meaning: 
+          meaning: Potențial dăunătoare pentru copiii sub 12 ani; difuzarea nu este permisă înainte de ora 20:00.
         '5':
-          meaning: 
+          meaning: Potențial dăunătoare pentru copiii sub 16 ani; difuzarea nu este permisă înainte de ora 22:00.
       'NO':
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
           meaning: Potrivit pentru toți.
         '2':
-          meaning: 
+          meaning: 6 ani (fără restricții pentru copii însoțiți de un adult).
         '3':
-          meaning: 
+          meaning: 9 ani (copii în vârstă de până la 6 ani însoțiți de un adult).
         '4':
-          meaning: 
+          meaning: 12 ani (copii în vârstă de până la 9 ani însoțiți de un adult).
         '5':
-          meaning: 
+          meaning: 15 ani (tineri în vârstă de până la 12 ani însoțiți de un adult).
         '6':
-          meaning: 
+          meaning: 18 ani (limită inferioară absolută).
       NZ:
         '1':
-          meaning: 
+          meaning: Potrivit pentru publicul larg.
         '2':
-          meaning: 
+          meaning: "Îndrumare părintească recomandat pentru telespectatorii mai tineri."
         '3':
-          meaning: 
+          meaning: Potrivit pentru (nerestricționat) audiență matură de 16 ani și peste.
         '4':
-          meaning: 
+          meaning: Limitat la persoanele de 13 ani și peste.
         '5':
-          meaning: 
+          meaning: Limitat la persoanele de 15 ani și peste.
         '6':
-          meaning: 
+          meaning: Limitat la persoanele de 16 ani și peste.
         '7':
-          meaning: 
+          meaning: Limitat la persoanele de 18 ani și peste.
         '8':
-          meaning: 
+          meaning: Limitat la o anumită categorie de persoane, sau în scopuri particulare, sau ambele.
       PH:
         '1':
-          meaning: 
+          meaning: Audiență generală. Sunt admiși spectatori de toate vârstele.
         '2':
-          meaning: 
+          meaning: "Îndrumare părintească. Spectatorii sub vârsta de 13 ani trebuie să fie însoțiți de un părinte sau de un adult supraveghetor."
         '3':
-          meaning: 
+          meaning: Restricted-13. Numai spectatorii cu vârsta de 13 ani și peste pot fi admiși.
         '4':
-          meaning: 
+          meaning: Restricted-16. Numai spectatorii cu vârsta de 16 ani și peste pot fi admiși.
         '5':
-          meaning: 
+          meaning: Restricted-18. Numai spectatorii cu vârsta de 18 ani și peste pot fi admiși.
         '6':
-          meaning: 
+          meaning: Nu pentru vizionare publică. Filmele cu evaluare X nu sunt potrivite pentru vizionare publică.
       PT:
         '1':
-          meaning: 
+          meaning: Pentru tot publicul (special conceput pentru copii sub 3 ani).
         '2':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 3 ani și peste.
         '3':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 6 ani și peste.
         '4':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 12 ani și peste.
         '5':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 14 ani și peste.
         '6':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 16 ani și peste.
         '7':
-          meaning: 
+          meaning: Permis pentru spectatorii cu vârsta de 18 ani și peste.
         '8':
-          meaning: 
+          meaning: Evaluare specială suplimentară M/18 ani evaluare care denotă pornografie.
       RU:
         '1':
-          meaning: 
+          meaning: Admis pentru toate vârstele
         '2':
-          meaning: 
+          meaning: "(For children above 6) - Neadecvată pentru copiii sub 6 ani."
         '3':
-          meaning: 
+          meaning: "(For children above 12) – Neadecvată pentru copiii sub 12 ani."
         '4':
-          meaning: 
+          meaning: "(For children above 16) – Neadecvată pentru copiii sub 16 ani."
         '5':
-          meaning: 
+          meaning: "(Prohibited for children) – Interzis pentru copii sub 18 ani."
       SE:
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
-          meaning: Toate vârstele.
+          meaning: Pentru toate vârstele.
         '2':
-          meaning: 
+          meaning: Copiii sub vârsta de 7 ani, care sunt însoțiți de un adult (o persoană în vârstă de 18 ani sau mai mult), sunt admiși la filme care se adresează copiilor de la vârsta de 7 ani.
         '3':
-          meaning: 
+          meaning: Copiii cu vârsta de peste 7 ani, care sunt însoțiți de un adult, sunt admiși la filme care se adresează copiilor de la vârsta de 11 ani.
         '4':
-          meaning: 
+          meaning: "Copiii cu vârsta de peste 7 ani, care sunt însoțiți de un adult, sunt admiși la filme care se adresează copiilor de la vârsta de 11 ani. \nActualizat la 01.03.2017 ."
       US:
         '0':
-          meaning: 
+          meaning: Fără evaluare.
         '1':
-          meaning: 
+          meaning: Admis pentru toate vârstele. Nu există conținut care ar fi inacceptabil pentru majoritatea părinților. Aceasta este una dintre cele două evaluări datând din 1968, care încă există astăzi.
         '2':
-          meaning: 
+          meaning: Unele materiale ar putea să nu fie potrivite pentru copiii sub 10 ani. Aceste filme pot conține un limbaj nuanțat, umor brut sugestiv, momente înfricoșătoare și/sau violență. Nu există referiri la droguri. Există câteva excepții de la această regulă. Pot fi prezente și câteva insulte rasiale.
         '3':
-          meaning: 
+          meaning: Unele materiale pot fi nepotrivite pentru copiii cu vârsta sub 13 ani. Filmele care au această evaluare pot conține conținut sexual, nuditate scurtă sau parțială, limbaj neadecvat și inconveniente, umor, teme mature, teme politice, teroare și/sau violență intensă. Cu toate acestea, vărsarea de sânge este rareori prezentă. Acesta este clasificarea minimă la care este prezent conținut de droguri.
         '4':
-          meaning: 
+          meaning: Sub 17 ani necesită o persoană de însoțire părinte sau adult de 21 de ani sau mai în vârstă. Părintele/persoana trebuie să rămână cu copilul sub 17 ani pe întregul film, chiar dacă părintele îi dă copilului/adolescentului permisiunea de a vedea filmul singur. Aceste filme pot conține profanări puternice, sexualitate grafică, nuditate, violență extremă, groază, sânge și consum puternic de droguri. Un film evaluat R pentru profanări are deseori un limbaj mai sever sau mai frecvent decât ar permite evaluarea PG-13. Un film evaluat R ar putea avea mai mult sânge, consum de droguri, nuditate sau sexualitate grafică decât un film PG-13 ar admite.
         '5':
           meaning: 
     tv_series:
