@@ -432,7 +432,7 @@ fr-FR:
   Step 3: Etape 3
   Step 4: Etape 4
   Step 5: "Étape 5"
-  Store URL: 
+  Store URL: Enregistrer l'URL
   Subject: Sujet
   Submit: Envoyer
   Success: Succès
@@ -485,7 +485,7 @@ fr-FR:
   URL: URL
   Upcoming Movies: Films prochainement en salles
   Update: Mettre à jour
-  Upload Logo: 
+  Upload Logo: Envoyer un logo
   User Score: Note des utilisateurs
   Username: Nom d'utilisateur
   Video?: Vidéo ?
@@ -2596,7 +2596,7 @@ fr-FR:
         primary_facts: 
         upload_logo: 
       logos: 
-      name: 
+      name: Nom
       other_shows_on: 
       search:
         no_results: 
@@ -2604,8 +2604,8 @@ fr-FR:
       tv_page_title: Séries sur %{name}
       upload_logo: 
     no_results_found:
-      movie: 
-      tv: 
+      movie: Pas de films trouvés
+      tv: Pas de séries TV trouvées
     number_of_movies:
       one: "%{count} film"
       other: "%{count} films"
@@ -2645,8 +2645,8 @@ fr-FR:
         screened_confirm: Si cet épisode a été diffusé lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cet épisode a t-il été diffusé au cinéma ?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: "Épisode %{season_number}x%{episode_number}"
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: "Épisode suivant"
         previous_episode: "Épisode précédent"
     tv_season:
@@ -2660,7 +2660,7 @@ fr-FR:
         current_season: Saison actuelle
         last_season: Dernière saison
         next_season: Saison suivante
-        previous_season: 
+        previous_season: Saison précédente
     tv_show:
       create_season: Créer une saison
       edit:
@@ -2675,29 +2675,31 @@ fr-FR:
         crew:
           no_season: 
         episode_groups:
-          create_new_group: 
-          description: 
+          create_new_group: Créer un nouveau groupe
+          description: Description
           episode_groups: 
           episodes:
             move_episodes: 
             no_records: 
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: "Épisodes"
+            groups: Groupes
+          group: Groupe
           messages:
-            episodes_added: 
-          name: 
+            episodes_added:
+              one: "%{count} épisode ajouté !"
+              other: "%{count} épisodes ajoutés !"
+          name: Nom du groupe
           no_records: 
-          type: 
+          type: Type
           types:
             '1': 
             '2': 
-            '3': 
-            '4': 
+            '3': DVD
+            '4': Numérique
             '5': 
-            '6': 
-            '7': 
+            '6': Production
+            '7': TV
         networks:
           no_records: 
           none_found: 
@@ -2706,14 +2708,18 @@ fr-FR:
           no_season: 
         runtime:
           add_it: 
-          enter_value: 
+          enter_value: Entrez une valeur en minutes
         seasons:
-          no_records: 
+          no_records: Aucune saison n'a été ajoutée
       episode_groups:
         groups:
-          count: 
+          count:
+            one: "%{count} groupe"
+            other: "%{count} groupes"
         original_air_date: 
-      networks: 
+      networks:
+        one: Réseau
+        other: Réseaux
       types:
         Documentary: Documentaire
         Miniseries: Mini-série
@@ -2721,15 +2727,15 @@ fr-FR:
         Reality: Télé-réalité
         Scripted: Scénarisé
         Talk Show: Talk Show
-        Video: 
+        Video: Vidéo
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
+      audio_language: Langue Audio
+      channel: Canal
+      duration: Durée
+      published: Publié(e)
       published_at: 
       restricted_regions: 
-      tags: 
+      tags: Tags
   message_templates:
     help_translate:
       message: 
@@ -2737,34 +2743,36 @@ fr-FR:
   messages:
     compose:
       ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      from: De
+      message: Message
+      subject: Sujet
+      template: Modèle
+      to: Destinataire
+    no_messages: Pas de messages
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} vous a envoyé un message"
+    number_of_messages:
+      one: "%{count} message"
+      other: "%{count} messages"
     options:
-      admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      admin: Admin
+      archive: Archive
+      settings: Paramètres
+      viewed_at: Vu il y a %{time_ago}
     placeholders:
       no_conversation_selected:
         create: 
         no_conversations: 
-        view: 
-      no_user_found: 
+        view: Pour voir une conversation, sélectionnez en une sur la gauche
+      no_user_found: Utilisateur non trouvé
       reply: 
       subject: 
       to: 
     right_column_titles:
       conversation_with: 
       message_inbox: 
-      my_archive: 
-      my_inbox: 
+      my_archive: Mon archive
+      my_inbox: Ma boîte de réception
       new_message: 
       support_archive: 
       support_inbox: 
