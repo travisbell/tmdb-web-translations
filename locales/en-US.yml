@@ -88,6 +88,7 @@ en-US:
   Change?: Change?
   Changes: Changes
   Character: Character
+  Choose: Choose...
   City: City
   Clip: Clip
   Clips: Clips
@@ -1336,6 +1337,50 @@ en-US:
     one: day
     other: "%{count} days"
     two: days
+  deleted_content:
+    entry_deleted: Entry Deleted
+    reasons:
+      '1':
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDb. The entry you created titled "%{title}" was deleted. This title was already in our database and was therefore considered a duplicate.
+
+          If you have any questions about this deletion, feel free to reply to this message.
+        subject: It's a duplicate
+      '2':
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDb. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
+        subject: It doesn't meet our content guidelines (amateur, etc...)
+      '3':
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDb. The entry you created titled "%{title}" was deleted. This title already exists as a TV show and is not considered to be a valid movie. You can read more about our content guidelines [here](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
+        subject: It's a TV show
+      '4':
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDb. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
+        subject: It's a fake entry
+      '5':
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDb. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
+        subject: It's spam
+    why_deleting: Why are you deleting this entry?
   department_credits_count:
     one: "%{department} (%{count} credit)"
     other: "%{department} (%{count} credits)"
