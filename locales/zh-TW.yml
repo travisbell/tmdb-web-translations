@@ -88,7 +88,7 @@ zh-TW:
   Change?: "想修改嗎？"
   Changes: "編輯紀錄"
   Character: "劇中角色"
-  Choose: 
+  Choose: "選擇"
   City: "城市"
   Clip: "精華片段"
   Clips: "精華片段"
@@ -1335,24 +1335,49 @@ zh-TW:
   day: "日"
   days: "%{count} 天"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: "項目已刪除"
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          您好：
+
+          您先前建立的資料，標題為 "%{title}" 的項目已被刪除。刪除原因為該項目已存在於我們的數據庫中，因此被視為重複的資料。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: "這是重複的資料"
       '2':
-        message: 
-        subject: 
+        message: |-
+          您好：
+
+          您先前建立的資料，標題為 "%{title}" 的項目已被刪除。刪除原因為該項目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: "不符合內容指南規範"
       '3':
-        message: 
-        subject: 
+        message: |-
+          您好：
+
+          您先前建立的資料，標題為 "%{title}" 的項目已被刪除。刪除原因為該項目已存在於電視影集資料庫中，故系統自動判斷該項目不為有效的資料。您可透過參閱我們的內容指南以獲得更多資訊 [內容指南](https://www.themoviedb.org/bible/new_content)
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: "此為電視影集"
       '4':
-        message: 
-        subject: 
+        message: |-
+          您好：
+
+          您先前建立的資料，標題為 "%{title}" 的項目已被刪除。刪除原因為該項目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: "此為假資料"
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          您好：
+
+          您先前建立的資料，標題為 "%{title}" 的項目已被刪除。刪除原因為該項目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: "此為垃圾內容"
+    why_deleting: "您為什麼刪除這個條目？"
   department_credits_count:
     one: "%{department} (%{count} 信用分數)"
     other: "%{department} (%{count} 信用分數)"
@@ -2782,7 +2807,7 @@ zh-TW:
       admin: "管理"
       archive: "封存"
       settings: "設定"
-      viewed_at: 
+      viewed_at: "%{time_ago} 前已瀏覽"
     placeholders:
       no_conversation_selected:
         create: 您可點擊 <a href="%{link}">此處</a> 建立新的會話

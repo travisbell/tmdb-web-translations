@@ -88,7 +88,7 @@ de-DE:
   Change?: "Ändern?"
   Changes: Aktivität
   Character: Rolle
-  Choose: 
+  Choose: Wählen...
   City: Stadt
   Clip: Clip
   Clips: Videoclips
@@ -965,9 +965,9 @@ de-DE:
           meaning: 
       SE:
         '0':
-          meaning: 
+          meaning: Keine Bewertungsinformationen.
         '1':
-          meaning: 
+          meaning: Jedes Alter.
         '2':
           meaning: 
         '3':
@@ -1035,7 +1035,7 @@ de-DE:
           meaning: 
       CA-QC:
         '0':
-          meaning: 
+          meaning: Keine Bewertungsinformationen
         '1':
           meaning: 
         '2':
@@ -1241,8 +1241,8 @@ de-DE:
       collection: Sammlungen
       collection_bible: Sammlungsfibel
       tall_bible:
-        bottom: 
-        top: 
+        bottom: Bibel
+        top: Sammlung
     contribution_bible: Bearbeitungsfibel
     featured_articles: Hervorgehobene Artikel
     general:
@@ -1273,8 +1273,8 @@ de-DE:
     tv:
       tall_bible:
         bottom: 
-        top: 
-      tv: 
+        top: TV
+      tv: TV
       tv_bible: 
     welcome_1: Willkommen in der
     welcome_2: Bearbeitungsfibel
@@ -2963,91 +2963,91 @@ de-DE:
     to_air: Staffel %{season_number} von %{show_name} wird am %{date} erstausgestrahlt.
   settings:
     account:
-      account_settings: 
-      change_password: 
+      account_settings: Account Einstellungen
+      change_password: Passwort ändern?
     api:
-      api: 
+      api: API
       navigation:
-        create: 
-        details: 
-        directory: 
-        sessions: 
-        stats: 
+        create: Erstellen
+        details: Einzelheiten
+        directory: Verzeichnis
+        sessions: Sitzungen
+        stats: Statistiken
     blocked_users:
-      action: 
+      action: Aktion
       blocked_users: Gesperrte Benutzer
-      no_blocked: 
+      no_blocked: Sie haben keine Benutzer blockiert.
       username: Benutzername
     change_email:
       change_email: E-Mail Adresse ändern
       change_email_text: 
     connected_apps:
-      connected_apps: 
+      connected_apps: Verbundene Apps
       listed_below_explanation: 
-      no_apps: 
+      no_apps: Sie haben keine Apps mit Ihrem Konto verbunden.
       table:
-        action: 
-        application_name: 
-        date_authorised: 
+        action: Aktionen
+        application_name: Anwendungsname
+        date_authorised: Datum autorisiert
     delete_account:
-      delete_account: 
+      delete_account: Konto löschen
       summary_text: 
     import_list:
-      import_button: 
-      import_list: 
+      import_button: importieren
+      import_list: Liste importieren
       navigation:
-        import: 
-        previous: 
+        import: importieren
+        previous: Vorherige Importe
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: Fertiger Import!
+        started_import: Import gestartet ...
       previous:
-        date: 
-        imported: 
+        date: Datum
+        imported: Importiert
         items: 
-        local_list: 
-        no_imports: 
+        local_list: Lokale Liste
+        no_imports: Sie haben keine Listen importiert.
         type: 
       results:
         complete:
-          imported: 
+          imported: Importiert?
           item: 
           item_reasons:
-            already_imported: 
-            cant_find_imdb: 
+            already_imported: Bereits importiert.
+            cant_find_imdb: Die IMDB ID konnte nicht gefunden werden.
           reason: 
           summary: 
-        currently_running: 
-        import_results: 
+        currently_running: Ihr Import wird gerade ausgeführt. Sie können diese Seite aktualisieren, um festzustellen, ob sie abgeschlossen wurde.
+        import_results: Ergebnisse importieren
         in_progress:
-          import_status: 
-          summary: 
-      select_csv: 
+          import_status: Importstatus
+          summary: Wir haben eine Gesamtzahl von %{total_count} zu importierenden Artikeln ermittelt. Der Import wird derzeit im Hintergrund ausgeführt und Sie werden automatisch benachrichtigt, wenn der Vorgang abgeschlossen ist.
+      select_csv: Wählen Sie eine CSV-Datei
       type:
-        favorite: 
-        rated: 
-        watchlist: 
-      which_list: 
+        favorite: Favorit
+        rated: Bewertet
+        watchlist: Beobachtungsliste
+      which_list: In welche Liste importieren?
     navigation:
-      account_settings: 
+      account_settings: Account Einstellungen
       api: 
       blocked_users: Gesperrte Benutzer
-      connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
-      social_settings: 
+      connected_apps: Verbundene Apps
+      delete_account: Konto löschen
+      edit_profile: Profil bearbeiten
+      import_list: Liste importieren
+      notification_settings: Benachrichtigungseinstellungen
+      settings: Einstellungen
+      sharing_settings: Einstellungen teilen
+      social_settings: Soziale Einstellungen
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      news_updates: 
+      email_new_releases_watchlist: Mailen Sie mir über neue Releases auf meiner Beobachtungsliste?
+      new_replies_to_threads_created: Automatisch beobachtete Threads, die ich erstelle oder antworte?
+      new_replies_to_threads_watching: Bitte schicken Sie mir über neue Antworten für Themen, wo ich gerade bin?
+      news_updates: Mailen Sie mir über Neuigkeiten und Produktupdates
       notifications: Benachrichtigungen
     profile:
-      accent_color: 
+      accent_color: Akzentfarbe
       avatar:
         current_avatar: Aktueller Avatar
         explain: 
@@ -3059,41 +3059,41 @@ de-DE:
         update_gravatar: Gravatar aktualisieren?
         updated: Avatar hochgeladen!
         upload_avatar: Avatar hochladen
-        upload_own: 
-        upload_window_tip: 
+        upload_own: Laden Sie Ihre eigenen hoch?
+        upload_window_tip: Verwenden Sie die Dateiauswahl unten, um Ihren eigenen benutzerdefinierten Avatar hochzuladen. Wir werden Ihr Bild automatisch zu einem Quadrat zuschneiden, wenn es nicht bereits vorhanden ist.
         use_gravatar: Gravater verwenden?
       background:
-        background_image: 
+        background_image: Hintergrundbild
         confirm_remove: Möchtest du wirklich dein Hintergrundbild entfernen?
         remove_background: Hintergrundbild entfernen?
-        set_image: 
-      edit_profile: 
+        set_image: Ein Hintergrundbild festlegen?
+      edit_profile: Profil bearbeiten
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: Favoritenliste Einstellungen
+        share_on_twitter: Neue Favoriten auf Twitter teilen?
+        share_publicly: Teilen Sie diese Liste öffentlich?
       rated_list:
-        rated_settings: 
-        share_publicly: 
-      sharing_settings: 
+        rated_settings: Einstellungen der bewerteten Liste
+        share_publicly: Teilen Sie diese Liste öffentlich?
+      sharing_settings: Einstellungen teilen
       watchlist:
-        remove_when_rated: 
-        watchlist_settings: 
+        remove_when_rated: Elemente automatisch entfernen, wenn sie bewertet werden?
+        watchlist_settings: Einstellungen der Beobachtungsliste
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
+        action: Aktion
+        auto_sharing: 'Automatisch teilen:'
+        connect: verbinden
+        connected_to: Verbunden mit
         info: 
-        reload_text: 
-        service: 
-      favorite_message_hint: 
-      message_settings: 
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+        reload_text: Laden Sie diese Seite neu, sobald Sie Ihr Konto autorisiert haben!
+        service: Dienst
+      favorite_message_hint: Beim Markieren eines Artikels als Favorit und Teilen auf Twitter oder Facebook ...
+      message_settings: Nachrichteneinstellungen
+      sharing_message_hint: Wenn Sie einen Artikel auf Twitter oder Facebook teilen ...
+      social_settings: Soziale Einstellungen
+      supported_template_values: 'Unterstützte Vorlagenwerte:'
   sign_up:
     benefits:
       benefits_to_being_member: 
