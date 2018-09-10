@@ -150,23 +150,25 @@ es-MX:
   Duplicate: Duplicado
   Edit: Editar
   Edit App: 
-  Edit Data: 
-  Edit Data & Content: 
+  Edit Data: Editar Datos
+  Edit Data & Content: Editar Datos y Contenido
   Edit Page: Editar Página
   Editing Content: Editar Contenido
-  Editing in: 
+  Editing in: Editando en %{language}
   Education: Educación
   Email: Email
   Email Address: Dirección de Email
   Email Content: Contenido de Email
   Ended: Finalizado
-  Episode Images: 
+  Episode Images:
+    one: Imagen del Episodio
+    other: Imágenes del Episodio
   Episode Number: Numero del Episodio
   Episode Overview: Sinopsis del episodio
   Episodes: Episodios
   Error: Error
   Example API Request: Ejemplo de Solicitud API
-  Expand: 
+  Expand: Expandir
   External IDs: IDs Externos
   External Links: Links Externos
   Extra Details: Detalles adicionales
@@ -185,7 +187,7 @@ es-MX:
   Featurette: Featurette
   Featurettes: Cortometrajes
   Female: Mujer
-  Filter: 
+  Filter: Filtro
   Filter Profanity?: 
   Filter by genre: Filtrar Por Género
   Filter by genres: Filtrar por géneros
@@ -217,7 +219,7 @@ es-MX:
   IMDB ID: ID de IMDb
   Images: Imágenes
   Import CSV: Importar CSV
-  Import List: 
+  Import List: Importar Lista
   In Production: En Producción
   In Theaters: En Cines
   Include Adult Items in Search?: 
@@ -1463,14 +1465,14 @@ es-MX:
       status: 
       subject: 
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
-    your_account: 
+      no_subscribers: Sin Suscriptores
+      users_in_discussion: Usuarios En Esta Discusión
+    your_account: Tu Cuenta
   dont_fallback: 
   edit_list:
     add_edit_items: 
     choose_image: Seleccionar Imagen
-    delete_list: 
+    delete_list: Eliminar Lista
     edit_list: Editar Lista
   edits: ediciones
   email:
@@ -1478,33 +1480,35 @@ es-MX:
     does_not_match: 
     new_email_address: 
     sent_verification_email: 
-  episode_count: 
-  episode_number_name: 
+  episode_count:
+    one: "%{count} Episodio"
+    other: "%{count} Episodios"
+  episode_number_name: Episodio %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: No se pudo procesar esta imagen
+      not_jpeg: La imagen no es JPEG
+      not_png: La imagen no es PNG
+      not_svg: La imagen no es SVG
     locked:
-      genres: 
-      keywords: 
+      genres: El campo de Género está bloqueado
+      keywords: El campo de Palabras Clave está bloqueado
     messages:
       blank: es requerido
       inclusion: debe seleccionarse
-      invalid: 
+      invalid: es inválido
       required: debe existir
       suspected_tv_series: 
       taken: ya ha sido seleccionado
     movie:
-      duplicate_cast: 
+      duplicate_cast: Esta persona ya ha sido agregada como miembro de Elenco
     tv:
-      duplicate_created_by: 
+      duplicate_created_by: Esta persona ya ha sido agregada como Creador
       duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_episode: Este episodio ya existe.
+      duplicate_guest_star: Esta Estrella Invitada ya existe.
+      duplicate_regular_season_member: Esta persona ya ha sido agregada como miembro regular del Elenco.
+      duplicate_season: Esta temporada ya existe.
   failed_email: Fállo al enviar tu correo.
   failed_generic: Oops!, Hay un problema.
   failed_report: Hubo un problema al enviar tu reporte.
@@ -1523,32 +1527,34 @@ es-MX:
         today: 
         tomorrow: 
   images:
-    confirm_delete: 
+    confirm_delete: "¿Estás seguro que deseas eliminar esta imagen?"
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
+      '1': Una resolución máxima de 2000x3000
+      '2': Una resolución mínima de 500x750
+      '3': Relación de aspecto de 1:1.5 (2:3)
+      '4': Una resolución máxima de 3840x2160
+      '5': Una resolución mínima de 400x225
       '6': 
-      '7': 
-      '8': 
-      '9': 
+      '7': Una resolución mínima de 1280x720
+      '8': Relación de aspecto de 16:9 (1.78:1)
+      '9': Una resolución mínima de 300x450
       backdrops_must_meet: 
       episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
+      posters_must_meet: 'Los Pósters deben cumplir los siguientes criterios:'
+      profile_must_meet: 'Las Imáenes de Perfil deben cumplir los siguientes criterios:'
       read_guidelines: 
-      tip: 
+      tip: Si el navegador lo soporta, puedes arrastrar y soltar la imagen en el área debajo. De lo contrario, haz clic en "Seleccionar Archivos" y escoge la imagen manualmente.
   invalid_aspect_ratio: La proporción es incorrecta.
-  item_count: 
+  item_count:
+    one: "%{count} elemento"
+    other: "%{count} elementos"
   jobs:
     '"A" Camera Operator': 
     '"B" Camera Operator': 
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: Reproducción a 24 fotogramas
-    2D Artist: 
+    2D Artist: Artista 2D
     2D Sequence Supervisor: 
     2D Supervisor: 
     3D Animator: 
@@ -1582,14 +1588,14 @@ es-MX:
     Actor's Assistant: Asistente de Actores
     Adaptation: Adaptación
     Additional Camera: Cámara Adicional
-    Additional Casting: 
+    Additional Casting: Elenco Adicional
     Additional Colorist: 
     Additional Construction: 
     Additional Construction Grip: 
     Additional Dialogue: Diálogos Adicionales
-    Additional Director of Photography: 
+    Additional Director of Photography: Director Adicional de Fotografía
     Additional Editing: Edición Adicional
-    Additional Editor: 
+    Additional Editor: Editor Adicional
     Additional Editorial Assistant: Asistente Editorial Adicional
     Additional Effects Development: Desarrollo de Efectos Adicionales
     Additional First Assistant Camera: 
@@ -1598,14 +1604,14 @@ es-MX:
     Additional Hairstylist: 
     Additional Key Construction Grip: 
     Additional Key Grip: 
-    Additional Lighting Technician: 
+    Additional Lighting Technician: Técnico de Iluminación Adicional
     Additional Music: Música Adicional
     Additional Music Supervisor: Supervisor de Música Adicional
     Additional Photography: Fotografía Adicional
-    Additional Post-Production Supervisor: 
-    Additional Production Assistant: 
+    Additional Post-Production Supervisor: Supervisor de Post-Producción Adicional
+    Additional Production Assistant: Asistente de Producción Adicional
     Additional Production Sound Mixer: 
-    Additional Script Supervisor: 
+    Additional Script Supervisor: Supervisor de Guión Adicional
     Additional Second Assistant Camera: 
     Additional Second Assistant Director: 
     Additional Set Dresser: 
@@ -2850,7 +2856,7 @@ es-MX:
         format: "%u%n"
         precision: 2
         separator: ","
-        significant: 'false'
+        significant: false
         strip_insignificant_zeros: false
         unit: "$"
     format:

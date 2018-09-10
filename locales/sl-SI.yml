@@ -2858,14 +2858,14 @@ sl-SI:
         format: "%n %u"
         precision: 2
         separator: "."
-        significant: 'false'
+        significant: false
         strip_insignificant_zeros: false
         unit: "€"
     format:
       delimiter: 
       precision: 3
       separator: ","
-      significant: 
+      significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
@@ -2878,8 +2878,8 @@ sl-SI:
           trillion: 
       format:
         precision: 
-        significant: 
-        strip_insignificant_zeros: 
+        significant: false
+        strip_insignificant_zeros: false
       short_decimal_units:
         units:
           billion: 
