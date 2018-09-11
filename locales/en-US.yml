@@ -3075,7 +3075,12 @@ en-US:
           item: Item
           item_reasons:
             already_imported: Already imported.
-            cant_find_imdb: Couldn't find IMDB ID.
+            cant_find_imdb: Couldn't find IMDb ID.
+            imdb_id_not_in_row: The IMDb ID was not found in this row.
+            personal_rating_invalid: Your personal rating is invalid (should be between 0.5 and 10.0).
+            personal_rating_not_found: Your personal rating was not found in this row.
+            row_is_invalid: This row is invalid.
+            updated_date: Updated date.
           reason: Reason? (If applicable)
           summary: We were able to import a total of %{imported_count} items out of the %{total_count} (%{imported_percentage}%) items that we detected in your exported list.
         currently_running: Your import is currently running. You can refresh this page to see if it has completed.
