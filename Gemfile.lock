@@ -15,10 +15,6 @@ GEM
       domain_name (~> 0.5)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
-    i18n-spec (0.6.0)
-      iso
-    iso (0.2.2)
-      i18n
     json (2.1.0)
     localeapp (3.1.0)
       gli
@@ -58,7 +54,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  i18n-spec
   localeapp
   nokogiri (~> 1.8.2)
   rspec
