@@ -88,7 +88,7 @@ sk-SK:
   Change?: Zmeniť?
   Changes: Zmeny
   Character: Postava
-  Choose: 
+  Choose: Vyberte...
   City: Mesto
   Clip: Klip
   Clips: Klipy
@@ -1327,24 +1327,39 @@ sk-SK:
     one: deň
     other: "%{count} dní"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Príspevok vymazaný
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDb. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Príspevok s podobným názvom sa už nachádzal v našej databáze, preto bol vyhodnotený ako duplikát.
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to duplikát
       '2':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDb. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Nespĺňa naše pravidlá pre obsah (amatérske, atď...)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDb. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento názov už existuje ako seriál a nie je považovaný za film. Viac sa môžete dočítať v našich [pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to seriál
       '4':
         message: 
-        subject: 
+        subject: Je to falošný príspevok
       '5':
         message: 
-        subject: 
-    why_deleting: 
+        subject: Je to spam
+    why_deleting: Prečo vymazávate tento príspevok?
   department_credits_count: 
   departments:
     Acting: Hral/-a
@@ -1432,11 +1447,11 @@ sk-SK:
       ignore: Ignorovať
       like: Páči sa mi
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
+        delete_comment: Kliknutím na 'Áno' bude tento komentár natrvalo vymazaný.
+        delete_discussion: Kliknutím na 'Áno' bude táto diskusia natrvalo vymazaná.
+        hide_comment: Kliknutím na 'Áno' bude tento komentár skrytý.
         hide_discussion: Po kliknutí na 'Áno' sa táto diskusia skryje.
-        ignore_user: 
+        ignore_user: 'Ste si naozaj istí, že chcete ignorovať tohto užívateľa? Všetky ich diskusie a komentáre zmiznú. Znova odblokovať daného užívateľa môžete v nastaveniach účtu v sekcií "Zablokovaný užívatelia" '
         mark_as_spam: 
         report_violation: 
         unhide_discussion: Po kliknutí na 'Áno' sa táto diskusia znova zviditelní.
@@ -1444,8 +1459,8 @@ sk-SK:
       quote: Citácia
       reopen_reply: Znovu otvoriť a odpovedať
       reply: Odpovedať
-      reply_by: 
-      reply_on_datetime: 
+      reply_by: Odpoveď od %{username}
+      reply_on_datetime: dňa %{date} o %{time}
       report: Nahlásiť
       unhide: Odokryť
     report_violation: Nahlásiť porušenie
@@ -1464,7 +1479,7 @@ sk-SK:
       subject: Predmet
     users_in_discussion:
       no_subscribers: "Žiadny odoberatelia"
-      users_in_discussion: 
+      users_in_discussion: Užívatelia v tejto diskusií
     your_account: Tvoj účet
   dont_fallback: "Žiadny (žiadny rezervný)"
   edit_list:
@@ -1485,13 +1500,13 @@ sk-SK:
   episode_number_name: Epizóda %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Nemohli sme spracovať tento obrázok
+      not_jpeg: Obrázok nie je JPEG
+      not_png: Obrázok nie je PNG
+      not_svg: Obrázok nie je SVG
     locked:
-      genres: 
-      keywords: 
+      genres: Políčko pre žánre je zamknuté
+      keywords: Políčko pre kľúčové slová je zamknuté
     messages:
       blank: je požadovaný
       inclusion: musí byť zvolený
@@ -1550,9 +1565,9 @@ sk-SK:
     other: "%{count} položky"
   jobs:
     '"A" Camera Operator': Operátor kamery "A"
-    '"B" Camera Operator': 
-    '"C" Camera Operator': 
-    '"D" Camera Operator': 
+    '"B" Camera Operator': '"B" Camera Operator'
+    '"C" Camera Operator': '"C" Camera Operator'
+    '"D" Camera Operator': '"D" Camera Operator'
     24 Frame Playback: 24 políčkové prehrávanie
     2D Artist: 2D Umelec
     2D Sequence Supervisor: 2D Sekvenčný supervízor
@@ -1569,15 +1584,15 @@ sk-SK:
     3D Supervisor: 3D supervízor
     3D Tracking Layout: 3D Tracking Layout
     ADR & Dubbing: ADR a dabing
-    ADR Coordinator: 
-    ADR Editor: 
-    ADR Engineer: 
-    ADR Mixer: 
-    ADR Post Producer: 
-    ADR Recording Engineer: 
-    ADR Recordist: 
-    ADR Supervisor: 
-    ADR Voice Casting: 
+    ADR Coordinator: ADR Coordinator
+    ADR Editor: ADR Editor
+    ADR Engineer: ADR Engineer
+    ADR Mixer: ADR Mixer
+    ADR Post Producer: ADR Post Producer
+    ADR Recording Engineer: ADR Recording Engineer
+    ADR Recordist: ADR Recordist
+    ADR Supervisor: ADR Supervisor
+    ADR Voice Casting: ADR Voice Casting
     Accountant: "Účtovník"
     Accounting Clerk Assistant: Asistent tajomníka účtovníka
     Accounting Supervisor: "Účtovník supervízor"
@@ -1589,896 +1604,896 @@ sk-SK:
     Adaptation: Adaptácia
     Additional Camera: Dodatočná kamera
     Additional Casting: Dodatočné obsadenie
-    Additional Colorist: 
-    Additional Construction: 
-    Additional Construction Grip: 
+    Additional Colorist: Additional Colorist
+    Additional Construction: Additional Construction
+    Additional Construction Grip: Additional Construction Grip
     Additional Dialogue: Dodatočný dialóg
-    Additional Director of Photography: 
+    Additional Director of Photography: Additional Director of Photography
     Additional Editing: Dodatočné úpravy
-    Additional Editor: 
+    Additional Editor: Additional Editor
     Additional Editorial Assistant: Dodatočný asistent redakcie
     Additional Effects Development: Dodatočný vývojár efektov
-    Additional First Assistant Camera: 
-    Additional Gaffer: 
-    Additional Grip: 
-    Additional Hairstylist: 
-    Additional Key Construction Grip: 
-    Additional Key Grip: 
-    Additional Lighting Technician: 
+    Additional First Assistant Camera: Additional First Assistant Camera
+    Additional Gaffer: Additional Gaffer
+    Additional Grip: Additional Grip
+    Additional Hairstylist: Additional Hairstylist
+    Additional Key Construction Grip: Additional Key Construction Grip
+    Additional Key Grip: Additional Key Grip
+    Additional Lighting Technician: Additional Lighting Technician
     Additional Music: Dodatočná hudba
     Additional Music Supervisor: Dodatočný hudobný supervízor
     Additional Photography: Dodatočná fotografia
-    Additional Post-Production Supervisor: 
-    Additional Production Assistant: 
-    Additional Production Sound Mixer: 
-    Additional Script Supervisor: 
-    Additional Second Assistant Camera: 
-    Additional Second Assistant Director: 
-    Additional Set Dresser: 
-    Additional Set Photographer: 
-    Additional Sound Re-Recording Mixer: 
-    Additional Sound Re-Recordist: 
+    Additional Post-Production Supervisor: Additional Post-Production Supervisor
+    Additional Production Assistant: Additional Production Assistant
+    Additional Production Sound Mixer: Additional Production Sound Mixer
+    Additional Script Supervisor: Additional Script Supervisor
+    Additional Second Assistant Camera: Additional Second Assistant Camera
+    Additional Second Assistant Director: Additional Second Assistant Director
+    Additional Set Dresser: Additional Set Dresser
+    Additional Set Photographer: Additional Set Photographer
+    Additional Sound Re-Recording Mixer: Additional Sound Re-Recording Mixer
+    Additional Sound Re-Recordist: Additional Sound Re-Recordist
     Additional Soundtrack: Dodatočný soundtrack
-    Additional Still Photographer: 
-    Additional Storyboarding: 
-    Additional Third Assistant Director: 
-    Additional Underwater Photography: 
-    Additional Visual Effects: 
-    Additional Wardrobe Assistant: 
+    Additional Still Photographer: Additional Still Photographer
+    Additional Storyboarding: Additional Storyboarding
+    Additional Third Assistant Director: Additional Third Assistant Director
+    Additional Underwater Photography: Additional Underwater Photography
+    Additional Visual Effects: Additional Visual Effects
+    Additional Wardrobe Assistant: Additional Wardrobe Assistant
     Additional Writing: Dodatočný scenár
     Administration: Administrácia
-    Administrative Assistant: 
-    Aerial Camera: 
-    Aerial Camera Technician: 
-    Aerial Coordinator: 
-    Aerial Director of Photography: 
-    Ager/Dyer: 
-    Animal Coordinator: 
-    Animal Wrangler: 
+    Administrative Assistant: Administrative Assistant
+    Aerial Camera: Aerial Camera
+    Aerial Camera Technician: Aerial Camera Technician
+    Aerial Coordinator: Aerial Coordinator
+    Aerial Director of Photography: Aerial Director of Photography
+    Ager/Dyer: Ager/Dyer
+    Animal Coordinator: Animal Coordinator
+    Animal Wrangler: Animal Wrangler
     Animation: Animácia
-    Animation Coordinator: 
+    Animation Coordinator: Animation Coordinator
     Animation Department Coordinator: Koordinátor animačného oddelenia
     Animation Director: Režisér Animácie
     Animation Fix Coordinator: Koordinátor animačnej opravy
     Animation Manager: Animačný manažér
     Animation Production Assistant: Produkčný asistent animácie
     Animation Supervisor: Supervízor animácie
-    Animation Technical Director: 
+    Animation Technical Director: Animation Technical Director
     Animatronic and Prosthetic Effects: Animatronické a prostetické efekty
-    Animatronics Designer: 
-    Animatronics Supervisor: 
-    Apprentice Sound Editor: 
+    Animatronics Designer: Animatronics Designer
+    Animatronics Supervisor: Animatronics Supervisor
+    Apprentice Sound Editor: Apprentice Sound Editor
     Archival Footage Coordinator: Koordinátor archívnych záznamov
     Archival Footage Research: Výskumník archívnych záznamov
     Armorer: Zbrojár
-    Armory Coordinator: 
+    Armory Coordinator: Armory Coordinator
     Art Department Assistant: Asistent umeleckého oddelenia
     Art Department Coordinator: Koordinátor umeleckého oddelenia
     Art Department Manager: Manažér umeleckého oddelenia
-    Art Department Production Assistant: 
-    Art Department Trainee: 
-    Art Designer: 
+    Art Department Production Assistant: Art Department Production Assistant
+    Art Department Trainee: Art Department Trainee
+    Art Designer: Art Designer
     Art Direction: Umelecký režisér
-    Art Direction Intern: 
-    Assistant Accountant: 
+    Art Direction Intern: Art Direction Intern
+    Assistant Accountant: Assistant Accountant
     Assistant Art Director: Asistent Umeleckého Šéfa
-    Assistant Camera: 
-    Assistant Chef: 
-    Assistant Chief Lighting Technician: 
+    Assistant Camera: Assistant Camera
+    Assistant Chef: Assistant Chef
+    Assistant Chief Lighting Technician: Assistant Chief Lighting Technician
     Assistant Costume Designer: Asistent kostýmového dizajnéra
-    Assistant Craft Service: 
-    Assistant Decorator: 
-    Assistant Dialogue Editor: 
+    Assistant Craft Service: Assistant Craft Service
+    Assistant Decorator: Assistant Decorator
+    Assistant Dialogue Editor: Assistant Dialogue Editor
     Assistant Director: Asistent Réžie
-    Assistant Director Trainee: 
-    Assistant Director of Photography: 
+    Assistant Director Trainee: Assistant Director Trainee
+    Assistant Director of Photography: Assistant Director of Photography
     Assistant Editor: Asistent editora
-    Assistant Electrician: 
-    Assistant Extras Casting: 
-    Assistant Foley Artist: 
-    Assistant Gaffer: 
-    Assistant Grip: 
-    Assistant Hairdresser: 
-    Assistant Hairstylist: 
-    Assistant Location Manager: 
-    Assistant Makeup Artist: 
-    Assistant Music Supervisor: 
-    Assistant Picture Car Coordinator: 
-    Assistant Picture Editor: 
-    Assistant Production Coordinator: 
-    Assistant Production Design: 
-    Assistant Production Manager: 
-    Assistant Property Master: 
-    Assistant Script: 
-    Assistant Set Decoration: 
-    Assistant Set Decoration Buyer: 
-    Assistant Set Designer: 
-    Assistant Set Dresser: 
-    Assistant Set Propsman: 
-    Assistant Sound Designer: 
-    Assistant Sound Editor: 
-    Assistant Sound Engineer: 
-    Assistant Unit Manager: 
-    Assistant Vehicles Coordinator: 
+    Assistant Electrician: Assistant Electrician
+    Assistant Extras Casting: Assistant Extras Casting
+    Assistant Foley Artist: Assistant Foley Artist
+    Assistant Gaffer: Assistant Gaffer
+    Assistant Grip: Assistant Grip
+    Assistant Hairdresser: Assistant Hairdresser
+    Assistant Hairstylist: Assistant Hairstylist
+    Assistant Location Manager: Assistant Location Manager
+    Assistant Makeup Artist: Assistant Makeup Artist
+    Assistant Music Supervisor: Assistant Music Supervisor
+    Assistant Picture Car Coordinator: Assistant Picture Car Coordinator
+    Assistant Picture Editor: Assistant Picture Editor
+    Assistant Production Coordinator: Assistant Production Coordinator
+    Assistant Production Design: Assistant Production Design
+    Assistant Production Manager: Assistant Production Manager
+    Assistant Property Master: Assistant Property Master
+    Assistant Script: Assistant Script
+    Assistant Set Decoration: Assistant Set Decoration
+    Assistant Set Decoration Buyer: Assistant Set Decoration Buyer
+    Assistant Set Designer: Assistant Set Designer
+    Assistant Set Dresser: Assistant Set Dresser
+    Assistant Set Propsman: Assistant Set Propsman
+    Assistant Sound Designer: Assistant Sound Designer
+    Assistant Sound Editor: Assistant Sound Editor
+    Assistant Sound Engineer: Assistant Sound Engineer
+    Assistant Unit Manager: Assistant Unit Manager
+    Assistant Vehicles Coordinator: Assistant Vehicles Coordinator
     Associate Choreographer: Spolupracovník choreografa
-    Associate Editor: 
+    Associate Editor: Associate Editor
     Associate Producer: Spolupracovník producenta
-    Atmos Editor: 
-    Attorney: 
-    Audio Post Coordinator: 
+    Atmos Editor: Atmos Editor
+    Attorney: Attorney
+    Audio Post Coordinator: Audio Post Coordinator
     Author: Autor
-    BTS Footage: 
-    BTS Photographer: 
-    BTS Videographer: 
-    Back-up Set Production Assistant: 
-    Back-up Truck Production Assistant: 
-    Background Casting Director: 
+    BTS Footage: BTS Footage
+    BTS Photographer: BTS Photographer
+    BTS Videographer: BTS Videographer
+    Back-up Set Production Assistant: Back-up Set Production Assistant
+    Back-up Truck Production Assistant: Back-up Truck Production Assistant
+    Background Casting Director: Background Casting Director
     Background Designer: Dizajnér pozadia
-    Base Camp Operator: 
+    Base Camp Operator: Base Camp Operator
     Battle Motion Coordinator: Koordinátor bojových pohybov
     Best Boy Electric: Best Boy Electric
     Best Boy Electrician: Best Boy Electrician
-    Best Boy Grip: 
-    Best Boy Lighting Technician: 
+    Best Boy Grip: Best Boy Grip
+    Best Boy Lighting Technician: Best Boy Lighting Technician
     Book: Kniha
     Boom Operator: Boom operátor
-    Broadcast Producer: 
-    Business Affairs Coordinator: 
-    CG Animator: 
-    CG Artist: 
+    Broadcast Producer: Broadcast Producer
+    Business Affairs Coordinator: Business Affairs Coordinator
+    CG Animator: CG Animator
+    CG Artist: CG Artist
     CG Engineer: CG inžinier
     CG Painter: CG maliar
     CG Supervisor: CG supervízor
-    CGI Director: 
+    CGI Director: CGI Director
     CGI Supervisor: CGI supervízor
     Cableman: Cableman
     Cameo: Cameo
-    Camera Car: 
+    Camera Car: Camera Car
     Camera Department Manager: Manažér oddelenia kamier
-    Camera Department Production Assistant: 
+    Camera Department Production Assistant: Camera Department Production Assistant
     Camera Intern: Kamerový internista
-    Camera Loader: 
+    Camera Loader: Camera Loader
     Camera Operator: Operátor kamery
-    Camera Production Assistant: 
+    Camera Production Assistant: Camera Production Assistant
     Camera Supervisor: Supervízor kamery
     Camera Technician: Technik kamery
-    Camera Trainee: 
-    Camera Truck: 
-    Captain Driver: 
+    Camera Trainee: Camera Trainee
+    Camera Truck: Camera Truck
+    Captain Driver: Captain Driver
     Carpenter: Tesár
-    Cast Driver: 
+    Cast Driver: Cast Driver
     Casting: Kasting
-    Casting Assistant: 
+    Casting Assistant: Casting Assistant
     Casting Associate: Spolupracovník kastingu
-    Casting Consultant: 
-    Casting Coordinator: 
-    Casting Director: 
-    Casting Producer: 
-    Casting Researcher: 
-    Catering: 
-    Catering Head Chef: 
-    Chaperone: 
-    Chaperone Tutor: 
-    Character Designer: 
-    Character Modelling Supervisor: 
+    Casting Consultant: Casting Consultant
+    Casting Coordinator: Casting Coordinator
+    Casting Director: Casting Director
+    Casting Producer: Casting Producer
+    Casting Researcher: Casting Researcher
+    Catering: Catering
+    Catering Head Chef: Catering Head Chef
+    Chaperone: Chaperone
+    Chaperone Tutor: Chaperone Tutor
+    Character Designer: Character Designer
+    Character Modelling Supervisor: Character Modelling Supervisor
     Character Technical Supervisor: Technický supervízor postáv
     Characters: Postavy
-    Charge Scenic Artist: 
+    Charge Scenic Artist: Charge Scenic Artist
     Chef: "Šéfkuchár"
-    Chief Lighting Technician: 
+    Chief Lighting Technician: Chief Lighting Technician
     Chief Technician / Stop-Motion Expert: Hlavný technik / Stop-Motion Expert
-    Child Wrangler: 
+    Child Wrangler: Child Wrangler
     Choreographer: Choreograf
     Cinematography: Cinematografia
-    Clapper Loader: 
-    Clearances Consultant: 
-    Clearances Coordinator: 
+    Clapper Loader: Clapper Loader
+    Clearances Consultant: Clearances Consultant
+    Clearances Coordinator: Clearances Coordinator
     Cloth Setup: Oblečenie
     Co-Art Director: Pomocný umelecký režisér
     Co-Costume Designer: Co-Costume designer
-    Co-Director: 
-    Co-Editor: 
+    Co-Director: Co-Director
+    Co-Editor: Co-Editor
     Co-Executive Producer: Co-Executive producer
     Co-Producer: Ko-producent
     Co-Writer: Ko-scenárista
-    Color Assistant: 
+    Color Assistant: Color Assistant
     Color Designer: Dizajnér farieb
-    Color Grading: 
+    Color Grading: Color Grading
     Color Timer: "Časovač farieb"
-    Colorist: 
+    Colorist: Colorist
     Comic Book: Komixová kniha
     Commissioning Editor: Commissioning editor
-    Compositing Artist: 
-    Compositing Lead: 
-    Compositing Supervisor: 
+    Compositing Artist: Compositing Artist
+    Compositing Lead: Compositing Lead
+    Compositing Supervisor: Compositing Supervisor
     Compositor: Kompozítori
-    Concept Artist: 
+    Concept Artist: Concept Artist
     Conceptual Design: Koncepčný dizajn
-    Conceptual Illustrator: 
-    Conductor: 
-    Construction Buyer: 
+    Conceptual Illustrator: Conceptual Illustrator
+    Conductor: Conductor
+    Construction Buyer: Construction Buyer
     Construction Coordinator: Koordinátor konštrukcie
     Construction Foreman: Hlavný konštruktér
-    Construction Grip: 
-    Construction Manager: 
-    Consulting Accountant: 
-    Consulting Editor: 
+    Construction Grip: Construction Grip
+    Construction Manager: Construction Manager
+    Consulting Accountant: Consulting Accountant
+    Consulting Editor: Consulting Editor
     Consulting Producer: Konzultačný producent
-    Contact Lens Designer: 
-    Contact Lens Painter: 
-    Contact Lens Technician: 
-    Continuity: 
-    Contract Manager: 
-    Controller: 
-    Coordinating Producer: 
-    Costume Assistant: 
-    Costume Consultant: 
-    Costume Coordinator: 
+    Contact Lens Designer: Contact Lens Designer
+    Contact Lens Painter: Contact Lens Painter
+    Contact Lens Technician: Contact Lens Technician
+    Continuity: Continuity
+    Contract Manager: Contract Manager
+    Controller: Controller
+    Coordinating Producer: Coordinating Producer
+    Costume Assistant: Costume Assistant
+    Costume Consultant: Costume Consultant
+    Costume Coordinator: Costume Coordinator
     Costume Design: Kostýmový dizajn
-    Costume Designer: 
-    Costume Illustrator: 
-    Costume Mistress: 
-    Costume Set Supervisor: 
-    Costume Standby: 
+    Costume Designer: Costume Designer
+    Costume Illustrator: Costume Illustrator
+    Costume Mistress: Costume Mistress
+    Costume Set Supervisor: Costume Set Supervisor
+    Costume Standby: Costume Standby
     Costume Supervisor: Kostýmový supervízor
-    Costumer: 
+    Costumer: Costumer
     Craft Service: Remeselné služby
     Creative Consultant: Kreatívny konzultant
-    Creative Director: 
+    Creative Director: Creative Director
     Creative Producer: Kreatívny producent
     Creator: Tvorca
     Creature Design: Kreatívny dizajn
-    Creature Effects Technical Director: 
-    Creature Technical Director: 
-    Crowd Assistant Director: 
-    Cyber Scanning Supervisor: 
-    Dailies Manager: 
-    Dailies Operator: 
-    Dailies Technician: 
-    Daily Electrics: 
-    Daily Grip: 
-    Daily Makeup & Hair: 
-    Daily Wardrobe: 
-    Data Management Technician: 
-    Data Wrangler: 
-    Decorator: 
-    Delegated Producer: 
+    Creature Effects Technical Director: Creature Effects Technical Director
+    Creature Technical Director: Creature Technical Director
+    Crowd Assistant Director: Crowd Assistant Director
+    Cyber Scanning Supervisor: Cyber Scanning Supervisor
+    Dailies Manager: Dailies Manager
+    Dailies Operator: Dailies Operator
+    Dailies Technician: Dailies Technician
+    Daily Electrics: Daily Electrics
+    Daily Grip: Daily Grip
+    Daily Makeup & Hair: Daily Makeup & Hair
+    Daily Wardrobe: Daily Wardrobe
+    Data Management Technician: Data Management Technician
+    Data Wrangler: Data Wrangler
+    Decorator: Decorator
+    Delegated Producer: Delegated Producer
     Department Administrator: Administračné oddelenie
     Development Manager: Manažér vývoja
-    Development Producer: 
+    Development Producer: Development Producer
     Dialect Coach: Tréner dialektu
     Dialogue: Dialógy
-    Dialogue Coach: 
+    Dialogue Coach: Dialogue Coach
     Dialogue Editor: Editor dialógov
-    Digital Color Timer: 
-    Digital Colorist: 
+    Digital Color Timer: Digital Color Timer
+    Digital Colorist: Digital Colorist
     Digital Compositor: Kompozítory digitálu
-    Digital Conform Editor: 
-    Digital Effects Producer: 
+    Digital Conform Editor: Digital Conform Editor
+    Digital Effects Producer: Digital Effects Producer
     Digital Effects Supervisor: Supervízor digitálnych efektov
-    Digital Film Recording: 
-    Digital Foley Artist: 
-    Digital Imaging Technician: 
+    Digital Film Recording: Digital Film Recording
+    Digital Foley Artist: Digital Foley Artist
+    Digital Imaging Technician: Digital Imaging Technician
     Digital Intermediate: Digital Intermediate
-    Digital Intermediate Assistant: 
-    Digital Intermediate Colorist: 
-    Digital Intermediate Data Wrangler: 
-    Digital Intermediate Editor: 
-    Digital Intermediate Producer: 
+    Digital Intermediate Assistant: Digital Intermediate Assistant
+    Digital Intermediate Colorist: Digital Intermediate Colorist
+    Digital Intermediate Data Wrangler: Digital Intermediate Data Wrangler
+    Digital Intermediate Editor: Digital Intermediate Editor
+    Digital Intermediate Producer: Digital Intermediate Producer
     Digital Producer: Digitálny producent
-    Digital Storyboarding: 
-    Digital Supervisor: 
+    Digital Storyboarding: Digital Storyboarding
+    Digital Supervisor: Digital Supervisor
     Directing Lighting Artist: Umelec hlavného osvetlenia
     Director: Režisér
-    Director of Communications: 
-    Director of Operations: 
+    Director of Communications: Director of Communications
+    Director of Operations: Director of Operations
     Director of Photography: Hlavný kameraman
-    Director of Previsualization: 
+    Director of Previsualization: Director of Previsualization
     Documentation & Support: Dokumentácia a podpora
     Dolby Consultant: Dolby konzultant
-    Dolly Grip: 
+    Dolly Grip: Dolly Grip
     Dramaturgy: Dramaturgia
-    Draughtsman: 
-    Dresser: 
-    Dressing Prop: 
+    Draughtsman: Draughtsman
+    Dresser: Dresser
+    Dressing Prop: Dressing Prop
     Driver: Vodič
-    Drone Cinematographer: 
-    Drone Operator: 
-    Drone Pilot: 
-    EPK Editor: 
+    Drone Cinematographer: Drone Cinematographer
+    Drone Operator: Drone Operator
+    Drone Pilot: Drone Pilot
+    EPK Editor: EPK Editor
     Editor: Editor
-    Editorial Consultant: 
+    Editorial Consultant: Editorial Consultant
     Editorial Coordinator: Redakčný koordinátor
     Editorial Manager: Redakčný manažér
     Editorial Production Assistant: Produkčný asistent redakcie
     Editorial Services: Redakčné služby
     Editorial Staff: Personál redakcie
-    Effects Supervisor: 
+    Effects Supervisor: Effects Supervisor
     Electrician: Elektrikár
-    Epk Camera Operator: 
-    Epk Director: 
-    Epk Producer: 
-    Executive Assistant: 
-    Executive Co-Producer: 
+    Epk Camera Operator: Epk Camera Operator
+    Epk Director: Epk Director
+    Epk Producer: Epk Producer
+    Executive Assistant: Executive Assistant
+    Executive Co-Producer: Executive Co-Producer
     Executive Consultant: Vedúci konzultant
     Executive In Charge Of Post Production: Vedúci post produkcie
     Executive In Charge Of Production: Vedúci produkcie
     Executive Music Producer: Vedúci hudobnej produkcie
     Executive Producer: Výkonný producent
-    Executive Producer's Assistant: 
-    Executive Story Editor: 
+    Executive Producer's Assistant: Executive Producer's Assistant
+    Executive Story Editor: Executive Story Editor
     Executive Visual Effects Producer: Výkonný producent vizuálnych efektov
     Executive in Charge of Finance: Vedúci financií
-    Extras Casting: 
-    Extras Casting Assistant: 
-    Extras Casting Coordinator: 
-    Extras Dresser: 
-    Extras Makeup Artist: 
+    Extras Casting: Extras Casting
+    Extras Casting Assistant: Extras Casting Assistant
+    Extras Casting Coordinator: Extras Casting Coordinator
+    Extras Dresser: Extras Dresser
+    Extras Makeup Artist: Extras Makeup Artist
     Facial Setup Artist: Tvárový umelec
-    Feature Finishing Producer: 
-    Field Director: 
-    Fight Choreographer: 
-    File Footage: 
-    Film Processor: 
+    Feature Finishing Producer: Feature Finishing Producer
+    Field Director: Field Director
+    Fight Choreographer: Fight Choreographer
+    File Footage: File Footage
+    Film Processor: Film Processor
     Finance: Financie
-    Finishing Producer: 
-    First Assistant "A" Camera: 
-    First Assistant "B" Camera: 
-    First Assistant "C" Camera: 
-    First Assistant "D" Camera: 
-    First Assistant Accountant: 
-    First Assistant Art Direction: 
+    Finishing Producer: Finishing Producer
+    First Assistant "A" Camera: First Assistant "A" Camera
+    First Assistant "B" Camera: First Assistant "B" Camera
+    First Assistant "C" Camera: First Assistant "C" Camera
+    First Assistant "D" Camera: First Assistant "D" Camera
+    First Assistant Accountant: First Assistant Accountant
+    First Assistant Art Direction: First Assistant Art Direction
     First Assistant Camera: Prvý asistent kamery
-    First Assistant Director: 
-    First Assistant Director (Prep): 
-    First Assistant Director Trainee: 
+    First Assistant Director: First Assistant Director
+    First Assistant Director (Prep): First Assistant Director (Prep)
+    First Assistant Director Trainee: First Assistant Director Trainee
     First Assistant Editor: Prvý asistent editora
-    First Assistant Hairstylist: 
-    First Assistant Makeup Artist: 
-    First Assistant Picture Editor: 
-    First Assistant Production Coordinator: 
-    First Assistant Property Master: 
+    First Assistant Hairstylist: First Assistant Hairstylist
+    First Assistant Makeup Artist: First Assistant Makeup Artist
+    First Assistant Picture Editor: First Assistant Picture Editor
+    First Assistant Production Coordinator: First Assistant Production Coordinator
+    First Assistant Property Master: First Assistant Property Master
     First Assistant Sound Editor: Prvý asistent zvukového editora
-    First Company Grip: 
+    First Company Grip: First Company Grip
     Fix Animator: Fix animátor
-    Floor Runner: 
-    Focus Puller: 
+    Floor Runner: Floor Runner
+    Focus Puller: Focus Puller
     Foley: Foley
-    Foley Artist: 
-    Foley Editor: 
-    Foley Mixer: 
-    Foley Recording Engineer: 
-    Foley Recordist: 
-    Foley Supervisor: 
+    Foley Artist: Foley Artist
+    Foley Editor: Foley Editor
+    Foley Mixer: Foley Mixer
+    Foley Recording Engineer: Foley Recording Engineer
+    Foley Recordist: Foley Recordist
+    Foley Supervisor: Foley Supervisor
     Gaffer: Osvetlovač
-    General Manager: 
-    Generalist: 
-    Generator Operator: 
-    Genetator Operator: 
-    Graphic Designer: 
-    Graphic Novel: 
+    General Manager: General Manager
+    Generalist: Generalist
+    Generator Operator: Generator Operator
+    Genetator Operator: Genetator Operator
+    Graphic Designer: Graphic Designer
+    Graphic Novel: Graphic Novel
     Graphic Novel Illustrator: Grafický ilustrátor novely
     Greensman: Greensman
     Grip: Grip
-    Grip Production Assistant: 
+    Grip Production Assistant: Grip Production Assistant
     Gun Wrangler: Zbrane
-    Hair Assistant: 
+    Hair Assistant: Hair Assistant
     Hair Department Head: "Šéf vlasového oddelenia"
     Hair Designer: Vlasový dizajnér
     Hair Setup: Nadstavenie vlasov
-    Hair Supervisor: 
-    Hairdresser: 
+    Hair Supervisor: Hair Supervisor
+    Hairdresser: Hairdresser
     Hairstylist: Vlasový čtýl
-    Head Carpenter: 
-    Head Decorator: 
-    Head Designer: 
-    Head Driver: 
-    Head Greensman: 
-    Head of Animation: 
-    Head of Layout: 
-    Head of Production: 
-    Head of Programming: 
-    Head of Research: 
-    Head of Story: 
-    Health and Safety: 
+    Head Carpenter: Head Carpenter
+    Head Decorator: Head Decorator
+    Head Designer: Head Designer
+    Head Driver: Head Driver
+    Head Greensman: Head Greensman
+    Head of Animation: Head of Animation
+    Head of Layout: Head of Layout
+    Head of Production: Head of Production
+    Head of Programming: Head of Programming
+    Head of Research: Head of Research
+    Head of Story: Head of Story
+    Health and Safety: Health and Safety
     Helicopter Camera: Helikoptérová kamera
-    Helping Hand: 
-    Human Resources: 
+    Helping Hand: Helping Hand
+    Human Resources: Human Resources
     I/O Manager: I/O manažér
     I/O Supervisor: I/O supervízor
     Idea: Nápad
     Imaging Science: Obrazové vedy
-    In Memory Of: 
+    In Memory Of: In Memory Of
     Information Systems Manager: Manažér informačných systémov
-    Insert Unit Director: 
-    Insert Unit First Assistant Director: 
-    Insert Unit Location Manager: 
-    Interactive Manager: 
+    Insert Unit Director: Insert Unit Director
+    Insert Unit First Assistant Director: Insert Unit First Assistant Director
+    Insert Unit Location Manager: Insert Unit Location Manager
+    Interactive Manager: Interactive Manager
     Interior Designer: Dizajnér interiéru
-    Intern: 
-    Jimmy Jib Operator: 
-    Joint ADR Mixer: 
-    Junior Story Editor: 
-    Key Accountant: 
-    Key Animation: 
-    Key Art Production Assistant: 
-    Key Carpenter: 
-    Key Construction Grip: 
-    Key Costumer: 
-    Key Dresser: 
-    Key Grip: 
-    Key Grip Production Assistant: 
+    Intern: Intern
+    Jimmy Jib Operator: Jimmy Jib Operator
+    Joint ADR Mixer: Joint ADR Mixer
+    Junior Story Editor: Junior Story Editor
+    Key Accountant: Key Accountant
+    Key Animation: Key Animation
+    Key Art Production Assistant: Key Art Production Assistant
+    Key Carpenter: Key Carpenter
+    Key Construction Grip: Key Construction Grip
+    Key Costumer: Key Costumer
+    Key Dresser: Key Dresser
+    Key Grip: Key Grip
+    Key Grip Production Assistant: Key Grip Production Assistant
     Key Hair Stylist: Kľúčový vlasový stylista
-    Key Hairdresser: 
-    Key Makeup Artist: 
-    Key Production Assistant: 
-    Key Rigging Grip: 
-    Key Scenic Artist: 
-    Key Set Costumer: 
-    Key Set Painter: 
-    Key Set Production Assistant: 
-    Key Special Effects: 
-    Keyboard Programmer: 
+    Key Hairdresser: Key Hairdresser
+    Key Makeup Artist: Key Makeup Artist
+    Key Production Assistant: Key Production Assistant
+    Key Rigging Grip: Key Rigging Grip
+    Key Scenic Artist: Key Scenic Artist
+    Key Set Costumer: Key Set Costumer
+    Key Set Painter: Key Set Painter
+    Key Set Production Assistant: Key Set Production Assistant
+    Key Special Effects: Key Special Effects
+    Keyboard Programmer: Keyboard Programmer
     Layout: Vrstvy
-    Layout Supervisor: 
-    Lead Animator: 
-    Lead Character Designer: 
-    Lead Costumer: 
-    Lead Creature Designer: 
-    Lead Editor: 
+    Layout Supervisor: Layout Supervisor
+    Lead Animator: Lead Animator
+    Lead Character Designer: Lead Character Designer
+    Lead Costumer: Lead Costumer
+    Lead Creature Designer: Lead Creature Designer
+    Lead Editor: Lead Editor
     Lead Painter: Hlavný maliar
-    Lead Set Dresser: 
+    Lead Set Dresser: Lead Set Dresser
     Leadman: Leadman
     Legal Services: Právne služby
-    Libra Head Technician: 
+    Libra Head Technician: Libra Head Technician
     Lighting Artist: Umelec osvetlenia
     Lighting Camera: Kamera osvetlenia
     Lighting Coordinator: Koordinátor osvetlenia
-    Lighting Design: 
-    Lighting Director: 
+    Lighting Design: Lighting Design
+    Lighting Director: Lighting Director
     Lighting Manager: Manažér osvetlenia
     Lighting Production Assistant: Asistent produkcie osvetlenia
-    Lighting Programmer: 
+    Lighting Programmer: Lighting Programmer
     Lighting Supervisor: Supervízor osvetlenia
     Lighting Technician: Technik osvetlenia
     Line Producer: Line Producer
     Loader: Zavádzač
-    Local Casting: 
-    Locale Casting Director: 
-    Location Assistant: 
-    Location Casting: 
-    Location Coordinator: 
+    Local Casting: Local Casting
+    Locale Casting Director: Locale Casting Director
+    Location Assistant: Location Assistant
+    Location Casting: Location Casting
+    Location Coordinator: Location Coordinator
     Location Manager: Manažér lokácií
-    Location Production Assistant: 
+    Location Production Assistant: Location Production Assistant
     Location Scout: Skaut lokácií
-    Location Sound Assistant: 
-    Location Sound Mixer: 
-    Location Sound Recordist: 
-    Logistics Coordinator: 
-    Loop Group Coordinator: 
-    Lyricist: 
+    Location Sound Assistant: Location Sound Assistant
+    Location Sound Mixer: Location Sound Mixer
+    Location Sound Recordist: Location Sound Recordist
+    Logistics Coordinator: Logistics Coordinator
+    Loop Group Coordinator: Loop Group Coordinator
+    Lyricist: Lyricist
     Machinist: Mechanik
-    Main Title Designer: 
-    Main Title Theme Composer: 
-    Makeup & Hair: 
-    Makeup & Hair Assistant: 
+    Main Title Designer: Main Title Designer
+    Main Title Theme Composer: Main Title Theme Composer
+    Makeup & Hair: Makeup & Hair
+    Makeup & Hair Assistant: Makeup & Hair Assistant
     Makeup Artist: Makeup umelec
     Makeup Department Head: "Šéf makeup oddelenia"
     Makeup Designer: Makeup dizajnér
     Makeup Effects: Makeup efekty
-    Makeup Effects Designer: 
-    Makeup Supervisor: 
-    Makeup Trainee: 
+    Makeup Effects Designer: Makeup Effects Designer
+    Makeup Supervisor: Makeup Supervisor
+    Makeup Trainee: Makeup Trainee
     Manager of Operations: Manažér operácií
-    Marine Coordinator: 
-    Marine Pilot: 
+    Marine Coordinator: Marine Coordinator
+    Marine Pilot: Marine Pilot
     Martial Arts Choreographer: Choreograf bojových umení
     Master Lighting Artist: Majster umelec osvetlenia
-    Master at Arms: 
-    Matchmove Supervisor: 
-    Matte Painter: 
+    Master at Arms: Master at Arms
+    Matchmove Supervisor: Matchmove Supervisor
+    Matte Painter: Matte Painter
     Mechanical & Creature Designer: Dizajnér stvorení a mechaniky
-    Mechanical Designer: 
-    Medical Consultant: 
-    Military Consultant: 
+    Mechanical Designer: Mechanical Designer
+    Medical Consultant: Medical Consultant
+    Military Consultant: Military Consultant
     Mix Technician: Technik mixáže
     Mixing Engineer: Inžinier mixáže
     Modeling: Modelovanie
-    Modelling Supervisor: 
+    Modelling Supervisor: Modelling Supervisor
     Motion Actor: Herec pohybov
     Motion Capture Artist: Umelec motion capture
     Music: Hudba
-    Music Arranger: 
-    Music Co-Supervisor: 
-    Music Consultant: 
-    Music Coordinator: 
+    Music Arranger: Music Arranger
+    Music Co-Supervisor: Music Co-Supervisor
+    Music Consultant: Music Consultant
+    Music Coordinator: Music Coordinator
     Music Director: Režisér Hudby
     Music Editor: Editor hudby
-    Music Producer: 
-    Music Programmer: 
-    Music Score Producer: 
-    Music Sound Design and Processing: 
-    Music Supervision Assistant: 
+    Music Producer: Music Producer
+    Music Programmer: Music Programmer
+    Music Score Producer: Music Score Producer
+    Music Sound Design and Processing: Music Sound Design and Processing
+    Music Supervision Assistant: Music Supervision Assistant
     Music Supervisor: Supervízor hudby
     Musical: Muzikál
-    Musical Casting: 
-    Musician: 
-    Negative Cutter: 
+    Musical Casting: Musical Casting
+    Musician: Musician
+    Negative Cutter: Negative Cutter
     Novel: Autor Predlohy
-    "O\x01B\x01 Lighting": 
-    "O\x01B\x01 Sound": 
-    On Set Computer Graphics: 
-    On Set Dresser: 
-    On Set Key Props: 
-    On Set Props: 
-    Online Editor: 
-    Opening Title Sequence: 
-    Opening/Ending Animation: 
+    "O\x01B\x01 Lighting": O.B. Lighting
+    "O\x01B\x01 Sound": O.B. Sound
+    On Set Computer Graphics: On Set Computer Graphics
+    On Set Dresser: On Set Dresser
+    On Set Key Props: On Set Key Props
+    On Set Props: On Set Props
+    Online Editor: Online Editor
+    Opening Title Sequence: Opening Title Sequence
+    Opening/Ending Animation: Opening/Ending Animation
     Opera: Opera
     Orchestrator: Orchestrator
-    Original Casting: 
-    Original Concept: 
-    Original Film Writer: 
+    Original Casting: Original Casting
+    Original Concept: Original Concept
+    Original Film Writer: Original Film Writer
     Original Music Composer: Skladateľ originálnej hudby
-    Original Series Creator: 
-    Original Series Design: 
+    Original Series Creator: Original Series Creator
+    Original Series Design: Original Series Design
     Original Story: Pôvodný príbeh
     Other: Ostatné
-    Paint Coordinator: 
+    Paint Coordinator: Paint Coordinator
     Painter: Maliar
-    Payroll Accountant: 
-    Petty Cash Buyer: 
-    Phantom Operator: 
-    Photo Retouching: 
+    Payroll Accountant: Payroll Accountant
+    Petty Cash Buyer: Petty Cash Buyer
+    Phantom Operator: Phantom Operator
+    Photo Retouching: Photo Retouching
     Photoscience Manager: Manažér fotovedy
     Picture Car Coordinator: Koordinátor obrazového auta
-    Pilot: 
-    Pipeline Technical Director: 
-    Playback Coordinator: 
-    Playback Singer: 
+    Pilot: Pilot
+    Pipeline Technical Director: Pipeline Technical Director
+    Playback Coordinator: Playback Coordinator
+    Playback Singer: Playback Singer
     Poem: Báseň
-    Police Consultant: 
-    Post Coordinator: 
-    Post Producer: 
-    Post Production Accountant: 
+    Police Consultant: Police Consultant
+    Post Coordinator: Post Coordinator
+    Post Producer: Post Producer
+    Post Production Accountant: Post Production Accountant
     Post Production Assistant: Asistent post produkcie
     Post Production Consulting: Konzultant post produkcie
-    Post Production Coordinator: 
-    Post Production Producer: 
-    Post Production Scripts: 
+    Post Production Coordinator: Post Production Coordinator
+    Post Production Producer: Post Production Producer
+    Post Production Scripts: Post Production Scripts
     Post Production Supervisor: Supervízor post-produkcie
-    Post Production Technical Engineer: 
+    Post Production Technical Engineer: Post Production Technical Engineer
     Post-Production Manager: Manažér post-produkcie
-    Pre-Visualization Coordinator: 
-    Pre-Visualization Supervisor: 
-    Presenter: 
-    Principal Costumer: 
+    Pre-Visualization Coordinator: Pre-Visualization Coordinator
+    Pre-Visualization Supervisor: Pre-Visualization Supervisor
+    Presenter: Presenter
+    Principal Costumer: Principal Costumer
     Producer: Producent
-    Producer's Assistant: 
+    Producer's Assistant: Producer's Assistant
     Production Accountant: "Účtovník produkcie"
     Production Artist: Produkčný umelec
-    Production Assistant: 
-    Production Consultant: 
+    Production Assistant: Production Assistant
+    Production Consultant: Production Consultant
     Production Controller: Kontrolór produkcie
     Production Coordinator: Koordinátor produkcie
     Production Design: Produkčný dizajn
-    Production Designer: 
+    Production Designer: Production Designer
     Production Director: Režisér produkcie
-    Production Driver: 
-    Production Executive: 
+    Production Driver: Production Driver
+    Production Executive: Production Executive
     Production Illustrator: Ilustrátor produkcie
     Production Intern: Internista produkcie
     Production Manager: Manažér produkcie
     Production Office Assistant: Asistent kancelárie produkcie
     Production Office Coordinator: Koordinátor kancelárie produkcie
-    Production Runner: 
-    Production Secretary: 
+    Production Runner: Production Runner
+    Production Secretary: Production Secretary
     Production Sound Mixer: Zvuková mixáž produkcie
     Production Supervisor: Supervízor produkcie
-    Production Trainee: 
-    Project Manager: 
+    Production Trainee: Production Trainee
+    Project Manager: Project Manager
     Projection: Projekcie
-    Prop Designer: 
+    Prop Designer: Prop Designer
     Prop Maker: Prop Maker
-    Property Builder: 
-    Property Buyer: 
-    Property Graphic Designer: 
+    Property Builder: Property Builder
+    Property Buyer: Property Buyer
+    Property Graphic Designer: Property Graphic Designer
     Property Master: Property Master
     Propmaker: Propmaker
-    Props: 
-    Prosthetic Designer: 
-    Prosthetic Makeup Artist: 
+    Props: Props
+    Prosthetic Designer: Prosthetic Designer
+    Prosthetic Makeup Artist: Prosthetic Makeup Artist
     Prosthetic Supervisor: Supervízor prostetík
-    Prosthetics: 
-    Prosthetics Painter: 
-    Prosthetics Sculptor: 
+    Prosthetics: Prosthetics
+    Prosthetics Painter: Prosthetics Painter
+    Prosthetics Sculptor: Prosthetics Sculptor
     Public Relations: Vzťahy s verejnosťou
     Publicist: Publicista
     Pyrotechnic Supervisor: Supervízor pyrotechniky
-    Pyrotechnician: 
+    Pyrotechnician: Pyrotechnician
     Quality Control Supervisor: Supervízor kontroly kvality
     Radio Play: Rádiová hra
-    Receptionist: 
+    Receptionist: Receptionist
     Recording Supervision: Supervízor nahrávania
-    Red Technician: 
-    Research Assistant: 
+    Red Technician: Red Technician
+    Research Assistant: Research Assistant
     Researcher: Výskumník
     Rigging Gaffer: Výbava osvetlenia
     Rigging Grip: Rigging Grip
-    Rigging Supervisor: 
-    Roto Supervisor: 
-    Rotoscoping Artist: 
-    Runner Art Department: 
-    Russian Arm Operator: 
+    Rigging Supervisor: Rigging Supervisor
+    Roto Supervisor: Roto Supervisor
+    Rotoscoping Artist: Rotoscoping Artist
+    Runner Art Department: Runner Art Department
+    Russian Arm Operator: Russian Arm Operator
     Scenario Writer: Autor scenára
     Scenic Artist: Javiskový umelec
     Schedule Coordinator: Koordinátor rozvrhu
-    Scientific Consultant: 
+    Scientific Consultant: Scientific Consultant
     Score Engineer: Inžinier filmovej hudby
     Scoring Mixer: Mixáž filmovej hudby
     Screenplay: Scenár
     Screenstory: Screenstory
     Script: Scenár
-    Script Consultant: 
+    Script Consultant: Script Consultant
     Script Coordinator: Koordinátor scenára
     Script Editor: Editor scenára
-    Script Researcher: 
+    Script Researcher: Script Researcher
     Script Supervisor: Supervízor scenára
     Sculptor: Sochár
     Seamstress: Krajčírka
-    Second Assistant "A" Camera: 
-    Second Assistant "B" Camera: 
-    Second Assistant "C" Camera: 
-    Second Assistant "D" Camera: 
-    Second Assistant Accountant: 
-    Second Assistant Art Director: 
-    Second Assistant Camera: 
-    Second Assistant Director: 
-    Second Assistant Director Trainee: 
-    Second Assistant Production Coordinator: 
-    Second Assistant Sound: 
-    Second Assistant Unit Manager: 
-    Second Company Grip: 
+    Second Assistant "A" Camera: Second Assistant "A" Camera
+    Second Assistant "B" Camera: Second Assistant "B" Camera
+    Second Assistant "C" Camera: Second Assistant "C" Camera
+    Second Assistant "D" Camera: Second Assistant "D" Camera
+    Second Assistant Accountant: Second Assistant Accountant
+    Second Assistant Art Director: Second Assistant Art Director
+    Second Assistant Camera: Second Assistant Camera
+    Second Assistant Director: Second Assistant Director
+    Second Assistant Director Trainee: Second Assistant Director Trainee
+    Second Assistant Production Coordinator: Second Assistant Production Coordinator
+    Second Assistant Sound: Second Assistant Sound
+    Second Assistant Unit Manager: Second Assistant Unit Manager
+    Second Company Grip: Second Company Grip
     Second Film Editor: Druhý filmový editor
-    Second Second Assistant Director: 
+    Second Second Assistant Director: Second Second Assistant Director
     Second Unit: Druhá jednotka
     Second Unit Cinematographer: Cinematografer druhej jednotky
-    Second Unit Director: 
-    Second Unit Director of Photography: 
-    Second Unit First Assistant Director: 
-    Second Unit Location Manager: 
+    Second Unit Director: Second Unit Director
+    Second Unit Director of Photography: Second Unit Director of Photography
+    Second Unit First Assistant Director: Second Unit First Assistant Director
+    Second Unit Location Manager: Second Unit Location Manager
     Security: Bezpečnosť
-    Security Coordinator: 
-    Senior Animator: 
-    Senior Colorist: 
-    Senior Digital Intermediate Colorist: 
+    Security Coordinator: Security Coordinator
+    Senior Animator: Senior Animator
+    Senior Colorist: Senior Colorist
+    Senior Digital Intermediate Colorist: Senior Digital Intermediate Colorist
     Senior Executive Consultant: Seniorský konzultant vedúceho
-    Senior Generalist: 
-    Senior Modeller: 
-    Senior Story Editor: 
-    Senior Visual Effects Supervisor: 
+    Senior Generalist: Senior Generalist
+    Senior Modeller: Senior Modeller
+    Senior Story Editor: Senior Story Editor
+    Senior Visual Effects Supervisor: Senior Visual Effects Supervisor
     Sequence Artist: Umelec sekvencie
     Sequence Lead: Vodca sekvencie
     Sequence Supervisor: Supervízor sekvencie
     Series Composition: Kompozícia série
-    Series Director: 
-    Series Publicist: 
+    Series Director: Series Director
+    Series Publicist: Series Publicist
     Series Writer: Scenárista série
-    Set Buyer: 
+    Set Buyer: Set Buyer
     Set Costumer: Kostumér scény
-    Set Decorating Coordinator: 
+    Set Decorating Coordinator: Set Decorating Coordinator
     Set Decoration: Dekorácia scény
     Set Decoration Buyer: Nákup dekorácií scény
     Set Designer: Dizajnér scény
-    Set Dresser: 
+    Set Dresser: Set Dresser
     Set Dressing Artist: Umelec oblečenia scény
-    Set Dressing Buyer: 
+    Set Dressing Buyer: Set Dressing Buyer
     Set Dressing Manager: Manažér oblečenia scény
     Set Dressing Production Assistant: Asistent produkcie oblečenia scény
     Set Dressing Supervisor: Supervízor oblečenia scény
     Set Medic: Medik scény
-    Set Painter: 
-    Set Photographer: 
+    Set Painter: Set Painter
+    Set Photographer: Set Photographer
     Set Production Assistant: Asistent produkcie scény
     Set Production Intern: Internista produkcie scény
-    Set Propsman: 
-    Set Runner: 
-    Set Supervisor: 
+    Set Propsman: Set Propsman
+    Set Runner: Set Runner
+    Set Supervisor: Set Supervisor
     Sets & Props Artist: Umelec scény a rekvizír
     Sets & Props Supervisor: Supervízor scény a rekvizír
     Settings: Nadstavenia
     Shading: Tienenie
     Shoe Design: Dizajnér topánok
-    Shop Electric: 
+    Shop Electric: Shop Electric
     Short Story: Krátky príbeh
     Sign Painter: Maliar značiek
     Simulation & Effects Artist: Umelec simulácie a efektov
     Simulation & Effects Production Assistant: Asistent produkcie simulácie a efektov
-    Smoke Artist: 
+    Smoke Artist: Smoke Artist
     Software Engineer: Inžinier softvéru
     Software Team Lead: Vodca softvérového týmu
     Songs: Piesne
     Sound: Zvuk
-    Sound Assistant: 
+    Sound Assistant: Sound Assistant
     Sound Design Assistant: Asistent zvukového dizajnu
     Sound Designer: Zvukový dizajnér
     Sound Director: Režisér zvuku
     Sound Editor: Editor zvuku
-    Sound Effects: 
-    Sound Effects Designer: 
+    Sound Effects: Sound Effects
+    Sound Effects Designer: Sound Effects Designer
     Sound Effects Editor: Editor zvukových efektov
     Sound Engineer: Zvukový inžinier
-    Sound Mix Technician: 
+    Sound Mix Technician: Sound Mix Technician
     Sound Mixer: Mixáž zvuku
     Sound Montage Associate: Spolupracovník zvukovej montáže
-    Sound Post Production Coordinator: 
-    Sound Post Supervisor: 
-    Sound Re-Recording Assistant: 
+    Sound Post Production Coordinator: Sound Post Production Coordinator
+    Sound Post Supervisor: Sound Post Supervisor
+    Sound Re-Recording Assistant: Sound Re-Recording Assistant
     Sound Re-Recording Mixer: Mixér znovu nahraného zvuku
     Sound Recordist: Nahrávač zvuku
-    Sound Supervisor: 
-    Sound Technical Supervisor: 
+    Sound Supervisor: Sound Supervisor
+    Sound Technical Supervisor: Sound Technical Supervisor
     Special Effects: "Špeciálne efekty"
-    Special Effects Assistant: 
-    Special Effects Best Boy: 
+    Special Effects Assistant: Special Effects Assistant
+    Special Effects Best Boy: Special Effects Best Boy
     Special Effects Coordinator: Koordinátor špeciálnych efektov
-    Special Effects Key Makeup Artist: 
-    Special Effects Makeup Artist: 
-    Special Effects Manager: 
+    Special Effects Key Makeup Artist: Special Effects Key Makeup Artist
+    Special Effects Makeup Artist: Special Effects Makeup Artist
+    Special Effects Manager: Special Effects Manager
     Special Effects Supervisor: Supervízor špeciálnych efektov
-    Special Effects Technician: 
+    Special Effects Technician: Special Effects Technician
     Special Guest: "Špeciálny hosť"
     Special Guest Director: "Špeciálny hosťujúci režisér"
-    Special Props: 
+    Special Props: Special Props
     Special Sound Effects: "Špeciálne zvukové efekty"
-    Specialized Driver: 
-    Sponsorship Coordinator: 
-    Sponsorship Director: 
-    Staff Writer: 
-    Stage Director: 
+    Specialized Driver: Specialized Driver
+    Sponsorship Coordinator: Sponsorship Coordinator
+    Sponsorship Director: Sponsorship Director
+    Staff Writer: Staff Writer
+    Stage Director: Stage Director
     Stand In: Stand In
-    Standby Art Director: 
-    Standby Carpenter: 
+    Standby Art Director: Standby Art Director
+    Standby Carpenter: Standby Carpenter
     Standby Painter: Pohotovostný maliar
-    Standby Property Master: 
-    Standby Rigger: 
+    Standby Property Master: Standby Property Master
+    Standby Rigger: Standby Rigger
     Steadicam Operator: Steadicam operátor
     Steadycam: Steadycam
-    Stereoscopic Coordinator: 
-    Stereoscopic Editor: 
-    Stereoscopic Supervisor: 
-    Stereoscopic Technical Director: 
+    Stereoscopic Coordinator: Stereoscopic Coordinator
+    Stereoscopic Editor: Stereoscopic Editor
+    Stereoscopic Supervisor: Stereoscopic Supervisor
+    Stereoscopic Technical Director: Stereoscopic Technical Director
     Still Photographer: Still Photographer
     Story: Príbeh
-    Story Artist: 
-    Story Consultant: 
-    Story Coordinator: 
-    Story Developer: 
-    Story Editor: 
-    Story Manager: 
-    Story Supervisor: 
+    Story Artist: Story Artist
+    Story Consultant: Story Consultant
+    Story Coordinator: Story Coordinator
+    Story Developer: Story Developer
+    Story Editor: Story Editor
+    Story Manager: Story Manager
+    Story Supervisor: Story Supervisor
     Storyboard: Storyboard
-    Storyboard Artist: 
-    Storyboard Assistant: 
-    Storyboard Designer: 
-    Street Casting: 
+    Storyboard Artist: Storyboard Artist
+    Storyboard Assistant: Storyboard Assistant
+    Storyboard Designer: Storyboard Designer
+    Street Casting: Street Casting
     Studio Teacher: "Štúdio učitelia"
     Stunt Coordinator: 'Trikový koordinátor '
     Stunt Double: Trikový dvojník
-    Stunt Driver: 
+    Stunt Driver: Stunt Driver
     Stunts: Triky
     Stunts Coordinator: Trikový koordinátor
-    Supervising ADR Editor: 
-    Supervising Animation Director: 
+    Supervising ADR Editor: Supervising ADR Editor
+    Supervising Animation Director: Supervising Animation Director
     Supervising Animator: Supervízor animátor
-    Supervising Armorer: 
+    Supervising Armorer: Supervising Armorer
     Supervising Art Director: Dozerajúci umelecký režisér
-    Supervising Carpenter: 
-    Supervising Dialogue Editor: 
-    Supervising Editor: 
+    Supervising Carpenter: Supervising Carpenter
+    Supervising Dialogue Editor: Supervising Dialogue Editor
+    Supervising Editor: Supervising Editor
     Supervising Film Editor: Supervízor filmový editor
-    Supervising Music Editor: 
+    Supervising Music Editor: Supervising Music Editor
     Supervising Producer: Dozerajúci producent
     Supervising Sound Editor: Supervízor zvukový editor
     Supervising Sound Effects Editor: Supervízor editor zvukových efektov
     Supervising Technical Director: Dozerajúci technický režisér
     Supervisor of Production Resources: Supervízor produkčných zdrojov
-    Swing: 
+    Swing: Swing
     Systems Administrators & Support: Systémový administrátori a podpora
-    Tailor: 
-    Tattoo Designer: 
+    Tailor: Tailor
+    Tattoo Designer: Tattoo Designer
     Tattooist: Tatér
-    Technical Advisor: 
+    Technical Advisor: Technical Advisor
     Technical Supervisor: Technický supervízor
-    Techno Crane Operator: 
+    Techno Crane Operator: Techno Crane Operator
     Telecine Colorist: Telecine Colorist
     Teleplay: Teleplay
     Temp Music Editor: Temp Music Editor
     Temp Sound Editor: Temp Sound Editor
-    Textile Artist: 
+    Textile Artist: Textile Artist
     Thanks: Poďakovanie
     Theatre Play: Divadelná hra
-    Theme Song Performance: 
-    Third Assistant "A" Camera: 
-    Third Assistant "B" Camera: 
-    Third Assistant "C" Camera: 
-    Third Assistant "D" Camera: 
-    Third Assistant Camera: 
-    Third Assistant Director: 
-    Title Designer: 
+    Theme Song Performance: Theme Song Performance
+    Third Assistant "A" Camera: Third Assistant "A" Camera
+    Third Assistant "B" Camera: Third Assistant "B" Camera
+    Third Assistant "C" Camera: Third Assistant "C" Camera
+    Third Assistant "D" Camera: Third Assistant "D" Camera
+    Third Assistant Camera: Third Assistant Camera
+    Third Assistant Director: Third Assistant Director
+    Title Designer: Title Designer
     Title Graphics: Titulná grafika
-    Title Illustration: 
-    Trainee Production Coordinator: 
-    Transcriptions: 
+    Title Illustration: Title Illustration
+    Trainee Production Coordinator: Trainee Production Coordinator
+    Transcriptions: Transcriptions
     Translator: Prekladatel
     Transportation Captain: Kapitán prepravy
     Transportation Co-Captain: Ko-koordinátor prepravy
     Transportation Coordinator: Koordinátor prepravy
-    Travel Coordinator: 
+    Travel Coordinator: Travel Coordinator
     Treatment: Ošetrenie
-    Truck Costumer: 
-    Truck Production Assistant: 
-    Truck Supervisor: 
-    Ultimate Arm Operator: 
+    Truck Costumer: Truck Costumer
+    Truck Production Assistant: Truck Production Assistant
+    Truck Supervisor: Truck Supervisor
+    Ultimate Arm Operator: Ultimate Arm Operator
     Underwater Camera: Podvodná kamera
-    Underwater Director of Photography: 
-    Underwater Epk Photographer: 
-    Underwater Gaffer: 
-    Underwater Stills Photographer: 
+    Underwater Director of Photography: Underwater Director of Photography
+    Underwater Epk Photographer: Underwater Epk Photographer
+    Underwater Gaffer: Underwater Gaffer
+    Underwater Stills Photographer: Underwater Stills Photographer
     Unit Manager: Manažér jednotky
-    Unit Medic: 
+    Unit Medic: Unit Medic
     Unit Production Manager: Manažér produkčnej jednotky
     Unit Publicist: Publicista jednotky
-    Unit Swing: 
-    Utility Sound: 
+    Unit Swing: Unit Swing
+    Utility Sound: Utility Sound
     Utility Stunts: Praktické triky
     VFX Artist: VFX umelec
-    VFX Director of Photography: 
+    VFX Director of Photography: VFX Director of Photography
     VFX Editor: VFX editor
-    VFX Lighting Artist: 
+    VFX Lighting Artist: VFX Lighting Artist
     VFX Production Coordinator: Koordinátor VFX produkcie
     VFX Supervisor: VFX supervízor
-    Vehicles Coordinator: 
-    Vehicles Wrangler: 
+    Vehicles Coordinator: Vehicles Coordinator
+    Vehicles Wrangler: Vehicles Wrangler
     Video Assist Operator: Asistent video operátor
     Video Game: Video hra
-    Video Report: 
-    Videojournalist: 
+    Video Report: Video Report
+    Videojournalist: Videojournalist
     Visual Development: Vizuálny vývoj
     Visual Effects: Vizuálne efekty
     Visual Effects Art Director: Umelecký režisér vizuálnych efektov
-    Visual Effects Assistant Editor: 
-    Visual Effects Camera: 
-    Visual Effects Compositor: 
+    Visual Effects Assistant Editor: Visual Effects Assistant Editor
+    Visual Effects Camera: Visual Effects Camera
+    Visual Effects Compositor: Visual Effects Compositor
     Visual Effects Coordinator: Koordinátor vizuálnych efektov
     Visual Effects Design Consultant: Konzultant dizajnu vizuálnych efektov
-    Visual Effects Designer: 
-    Visual Effects Director: 
+    Visual Effects Designer: Visual Effects Designer
+    Visual Effects Director: Visual Effects Director
     Visual Effects Editor: Editor vizuálnych efektov
-    Visual Effects Lineup: 
+    Visual Effects Lineup: Visual Effects Lineup
     Visual Effects Producer: Producent vizuálnych efektov
-    Visual Effects Production Assistant: 
-    Visual Effects Production Manager: 
+    Visual Effects Production Assistant: Visual Effects Production Assistant
+    Visual Effects Production Manager: Visual Effects Production Manager
     Visual Effects Supervisor: Supervízor vizuálnych efektov
-    Visual Effects Technical Director: 
+    Visual Effects Technical Director: Visual Effects Technical Director
     Vocal Coach: Hlasový tréner
-    Vocals: 
+    Vocals: Vocals
     Voice: Hlas
-    Wardrobe Assistant: 
-    Wardrobe Coordinator: 
-    Wardrobe Designer: 
-    Wardrobe Intern: 
-    Wardrobe Master: 
-    Wardrobe Specialized Technician: 
-    Wardrobe Supervisor: 
-    Weapons Master: 
-    Weapons Wrangler: 
-    Web Designer: 
-    Wig Designer: 
+    Wardrobe Assistant: Wardrobe Assistant
+    Wardrobe Coordinator: Wardrobe Coordinator
+    Wardrobe Designer: Wardrobe Designer
+    Wardrobe Intern: Wardrobe Intern
+    Wardrobe Master: Wardrobe Master
+    Wardrobe Specialized Technician: Wardrobe Specialized Technician
+    Wardrobe Supervisor: Wardrobe Supervisor
+    Weapons Master: Weapons Master
+    Weapons Wrangler: Weapons Wrangler
+    Web Designer: Web Designer
+    Wig Designer: Wig Designer
     Wigmaker: Výrobca parochní
     Writer: Scenárista
-    Writers' Assistant: 
-    Writers' Production: 
+    Writers' Assistant: Writers' Assistant
+    Writers' Production: Writers' Production
   joined: spojené
   list_info:
     average_rating: Priemerné hodnotenie
@@ -2517,102 +2532,102 @@ sk-SK:
   login_to_edit: Prihlás sa pre úpravu
   media:
     company:
-      headquarters: 
-      movie_page_title: 
+      headquarters: Centrála
+      movie_page_title: Film produkovaný %{name}
       tv_page_title: Seriály na %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
-      page_title: 
+      lock_all_fields: Zamknúť všetky polia
+      lock_all_images: Zamknúť všetky obrázky
+      page_title: Upraviť %{name}
       placeholders:
-        country: 
+        country: Vyberte krajinu...
         create_person:
-          click_to_create: 
-          create_it: 
-        genres: 
-        job: 
-        keywords: 
-        networks: 
-        person: 
-        production_companies: 
-      success_fields_locked: 
+          click_to_create: Kliknutím vytvoriť %{name}
+          create_it: Vytvoriť...
+        genres: Vyberte žáner...
+        job: Vyberte povolanie...
+        keywords: Vyberte kľúčové slovo/á...
+        networks: Vyhľadajte sieť...
+        person: Vyhľadajte osobu...
+        production_companies: Vyhľadajte produkčnú spoločnosť...
+      success_fields_locked: Polia sú zamknuté.
       tooltips:
-        bible: 
+        bible: Pre pomoc s úpravou informácií na TMDb, klikni na tento '?' a prečítaj si bibliu prispievania.
         homepage: Iba oficiálne webové stránky. Fan-stránky nie sú povolené.
-        logo_format: 
+        logo_format: SVG a PNG sú podporované. SVG sú však preferované z dôvodu, že sú nezávislé na rozlíšení.
         original_title: Pôvodný názov by mal byť vložený v pôvodnom jazyku danej položky. Vo väčšine prípadov sa bude zhodovať s jazykom, ktorý je v políčku "Pôvodný jazyk".
         overview: Pri písaní obsahu sa snaž o to, aby bol stručný a neprezrádzal dej.
-        social_links: 
+        social_links: Odkazy na sociálne stránky sú len pre oficiálne (overené) stránky. Fanúšikovské stránky nie sú povolené.
     genre:
-      movie_page_title: 
+      movie_page_title: "%{name} filmy"
       tv_page_title: "%{name} seriály"
     images:
-      format: 
-      no_backdrop_stills: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
-      primary: 
+      format: Formát
+      no_backdrop_stills: Do tohto príspevku neboli pridané žiadne pozadia.
+      no_backdrops: Tento príspevok neobsahuje žiadne pozadia
+      no_logos: Do tohto príspevku neboli pridané žiadne logá.
+      no_posters: Do tohto príspevku neboli pridané žiadne plagáty.
+      no_profiles: Tento príspevok neobsahuje žiadne profily.
+      primary: Hlavné?
       types:
         backdrop_stills: 
     keyword:
-      movie_page_title: 
+      movie_page_title: '"%{name}" filmy'
       tv_page_title: "%{name} seriály"
     movie:
       edit:
         adult:
           adult_movie: Film pre dospelých?
         alternative_titles:
-          no_records: 
+          no_records: Nebol pridaný žiadny alternatívny názov.
         cast:
-          no_records: 
+          no_records: Nebolo pridané žiadne obsadenie.
         confirm_collection: 
         confirm_video: 
         crew:
-          job_required: 
-          no_records: 
-          person_required: 
+          job_required: Povolanie je požadované
+          no_records: Nebol pridaný žiadny člen štábu.
+          person_required: Osoba je požadovaná
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Pridať žáner
+          no_records: Neboli pridané žiadne žánre.
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
+          add_keyword: Pridať kľúčové slovo
+          create: Vytvoriť
+          no_records: Neboli pridané žiadne kľúčové slová.
+          none_found: Nenašla sa žiadna zhoda medzi kľúčovými slovami. Chcete ho vytvoriť?
           tip: 
         production_information:
-          add_production_company: 
-          no_records: 
+          add_production_company: Pridať produkčnú spoločnosť
+          no_records: Neboli pridané žiadne produkčné spoločnosti.
           none_found: 
-          production_company: 
+          production_company: Produkčná spoločnosť
         release_information:
-          no_records: 
+          no_records: Nebol pridaný žiadny dátum vydania.
         videos:
-          no_records: 
+          no_records: Neboli pridané žiadne videá.
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Alternatívne mená
+        logos: Logá
         merge:
           choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+          confirm_merge: Potvrdiť zlúčenie
+          merge: Zlúčiť
+          next: Nasledujúce
+        primary_facts: Základné fakty
+        upload_logo: Nahrať logo
+      logos: Logá
+      name: Meno
+      other_shows_on: Pozrieť viac seriálov od %{name}...
       search:
-        no_results: 
-        results: 
+        no_results: Nebola nájdená žiadna sieť, ktorá by sa zhodovala s vaším dopytom.
+        results: Výsledky sietí
       tv_page_title: Seriály na %{name}
-      upload_logo: 
+      upload_logo: Nahrať logo
     no_results_found:
-      movie: 
-      tv: 
+      movie: Neboli nájdené žiadne filmy.
+      tv: Neboli nájdené žiadne seriály.
     number_of_movies:
       few: "%{count} filmy"
       one: "%{count} film"
@@ -2624,7 +2639,7 @@ sk-SK:
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: Neboli pridané žiadne alternatívne mená.
     rating:
       rated_with_rating: Hodnotenie %{value}
     social_panel:
@@ -2635,94 +2650,103 @@ sk-SK:
         want_to_be_notified: Chceš byť upozornený keď niekto urobí prvý príspevok?
         yes_notify_me: "Áno, upozorni ma!"
       reviews:
-        a_review_by: 
-        by: 
+        a_review_by: Recenzia od %{username}
+        by: Napísané %{username} dňa %{date}
         featured_review: Doporučené recenzie
         no_review:
           logged_in: Nemáme žiadne recenzie pre film %{title}. Chcel by si jednu <a href="%{url}">napísať</a>?
           public: Nemáme žiadne recenzie pre film %{title}.
         read_all: Zobraziť všetky recenzie
-        read_the_rest: 
+        read_the_rest: prečítať zvyšok.
         write_review:
           logged_in: Napísať recenziu
-          public: 
+          public: Prihláste sa pre napísanie recenzie.
     tv_episode:
       edit:
         guest_stars:
-          no_records: 
+          no_records: Neboli pridané žiadne hosťujúce hviezdy.
         screened_as_part_of_season: "Áno, ako súčasť tejto série"
         screened_confirm: Pokiaľ bola táto epizóda niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
         screened_label: Bola táto epizóda niekedy premietaná v kine?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Epizóda %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Nasledujúca epizóda
         previous_episode: Predchádzajúca epizóda
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Vytvoriť epizódu
         episodes:
-          no_records: 
+          no_records: Nebola pridaná žiadna epizóda
         screened_confirm: Pokiaľ bola táto séria niekedy premietaná na filmovom festivale alebo v kine, klikni na "Áno" pre pokračovanie.
         screened_label: Bola táto séria niekedy premietaná v kine?
       season_selector:
         current_season: Aktuálna séria
         last_season: Posledná séria
         next_season: Nasledujúca séria
-        previous_season: 
+        previous_season: Predchádzajúca séria
     tv_show:
-      create_season: 
+      create_season: Vytvoriť sériu
       edit:
         adult:
-          adult_show: 
+          adult_show: Seriál pre dospelých?
         alternative_names:
-          no_records: 
+          no_records: Nebol pridaný žiadny alternatívny názov.
         content_ratings:
-          no_records: 
+          no_records: Nebolo pridané žiadne hodnotenie obsahu.
         creator:
-          no_records: 
+          no_records: Nebol pridaný žiadny tvorca.
         crew:
-          no_season: 
+          no_season: Neexistuje žiadna séria! Séria je požadovaná pre pridanie členov štábu.
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Vytvoriť novú skupinu
+          description: Popis
+          episode_groups: Skupiny epizód
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Presunúť vyznačené epizódy
+            no_records: Do tejto skupiny nebola pridaná žiadna epizóda.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Epizódy
+            groups: Skupiny
+          group: Skupina
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              few: "%{count} epizód pridaných!"
+              one: "%{count} epizóda pridaná!"
+              other: "%{count} epizód pridaných!"
+          name: Názov skupiny
+          no_records: Nebola pridaná žiadna skupina epizód.
+          type: Typ
           types:
-            '1': 
-            '2': 
-            '3': 
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '1': Dátum pôvodného vysielania
+            '2': Absolútne
+            '3': DVD
+            '4': Digitálne
+            '5': Príbehová línia
+            '6': Produkcia
+            '7': TV
         networks:
-          no_records: 
-          none_found: 
+          no_records: Nebola pridaná žiadna sieť.
+          none_found: Nebola nájdená žiadna zhoda medzi sieťami. Chcete ju vytvoriť?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: Nebolo pridané žiadne pravidelné obsadenie.
+          no_season: Neexistuje žiadna séria! Séria je požadovaná pre pridanie pravidelného obsadenia.
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: Pridať novú dĺžku?
+          enter_value: Vložte hodnotu v minútach
         seasons:
-          no_records: 
+          no_records: Neboli pridané žiadne série.
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
-      networks: 
+          count:
+            few: "%{count} skupín"
+            one: "%{count} skupina"
+            other: "%{count} skupiny"
+        original_air_date: Pôvodný dátum vysielania
+      networks:
+        few: Siete
+        one: Sieť
+        other: Siete
       types:
         Documentary: Dokument
         Miniseries: Minisérie
@@ -2730,15 +2754,15 @@ sk-SK:
         Reality: Realita
         Scripted: Skriptované
         Talk Show: Talk show
-        Video: 
+        Video: Video
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      audio_language: Jazyk audia
+      channel: Kanál
+      duration: Trvanie
+      published: Publikované
+      published_at: Publikované na
+      restricted_regions: Obmedzené regióny
+      tags: Tagy
   message_templates:
     help_translate:
       message: 
@@ -3040,18 +3064,18 @@ sk-SK:
       api: 
       blocked_users: 
       connected_apps: 
-      delete_account: 
-      edit_profile: 
-      import_list: 
-      notification_settings: 
-      settings: 
-      sharing_settings: 
+      delete_account: Vymazať účet
+      edit_profile: Upraviť profil
+      import_list: Importovať zoznam
+      notification_settings: Nastavania notifikácií
+      settings: Nastavenia
+      sharing_settings: Nastavenia zdielania
       social_settings: Sociálne nadstavenia
     notifications:
       email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      news_updates: 
+      new_replies_to_threads_created: Automaticky sledovať vlákna ktoré som vytvoril alebo som v nich prispieval?
+      new_replies_to_threads_watching: Dostávať email o nových odpovediach z vlákien, ktoré sledujem?
+      news_updates: Dostávať email o novinkách a aktualizáciách
       notifications: Notifikácie
     profile:
       accent_color: Farebný odtieň
@@ -3074,42 +3098,42 @@ sk-SK:
         confirm_remove: 
         remove_background: 
         set_image: 
-      edit_profile: 
+      edit_profile: Upraviť profil
     sharing:
       favorite_list:
-        favorite_settings: 
-        share_on_twitter: 
-        share_publicly: 
+        favorite_settings: Nastavanie zoznamu obľúbených
+        share_on_twitter: Zdielať nové obľúbené na Twitteri?
+        share_publicly: Zdielať tento zoznam verejne?
       rated_list:
-        rated_settings: 
-        share_publicly: 
+        rated_settings: Nastavenia zoznamu ohodnotených
+        share_publicly: Zdielať tento zoznam verejne?
       sharing_settings: Nastavenie zdieľania
       watchlist:
         remove_when_rated: Automaticky odstrániť položky ktoré boli ohodnotené?
         watchlist_settings: Nastavenia Watchlistu
     social:
       connected_table:
-        action: 
-        auto_sharing: 
-        connect: 
-        connected_to: 
-        info: 
-        reload_text: 
-        service: 
+        action: Akcia
+        auto_sharing: 'Automaticky zdielané:'
+        connect: Pripojiť
+        connected_to: Pripojené k
+        info: Info
+        reload_text: Pokiaľ ste autorizovali svoj účet, tak znovu načítajte túto stránku!
+        service: Služby
       favorite_message_hint: 
-      message_settings: 
-      sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+      message_settings: Nastavenia správ
+      sharing_message_hint: Ked zdielate položku na Twitteri alebo Facebooku...
+      social_settings: Nastavania sociálnych sietí
+      supported_template_values: 'Podporované hodnoty vzorov:'
   sign_up:
     benefits:
-      benefits_to_being_member: 
-      build_custom_lists: 
-      build_watchlist: 
-      contribute: 
-      discussions: 
+      benefits_to_being_member: Benefity člena
+      build_custom_lists: Vytvorte vlastné zmiešané zoznamy (filmy a seriály)
+      build_watchlist: Vytvárajte a udržujte súkromný watchlist
+      contribute: Prispievajte a vylepšujte informácie v našej databáze
+      discussions: Staňte sa súčasťou diskusií o filmoch a seriáloch
       keep_track: 
-      log_movies: 
+      log_movies: Zaznamenávajte filmy a seriály ktoré ste videli
     by_clicking_agree_to_terms: 
     javascript_required: Pre pokračovanie je vyžadovaný JavaScript.
     sign_up_for_account: Registrácia účtu
@@ -3127,7 +3151,7 @@ sk-SK:
   success_sharing: Správa bola úspešne zdielaná.
   time:
     formats:
-      12hour_minutes: 
+      12hour_minutes: "%l:%M%p"
   top_contributors: Najlepší prispievatelia
   translation:
     few: preklady
