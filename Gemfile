@@ -1,10 +1,10 @@
 source "http://rubygems.org"
 
 group :development do
-  gem "rspec", ">= 2.4.0"
-  gem "bundler"
-  gem "jeweler", "> 1.6.4"
+  gem 'rspec'
+  gem 'bundler'
   gem 'i18n-spec'
   gem 'localeapp'
-  gem "tmdb_web_translations", :path => '.'
+  gem 'nokogiri', '~> 1.8.2'
+  gem 'tmdb_web_translations', :path => '.'
 end
