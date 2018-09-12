@@ -526,8 +526,8 @@ ro-RO:
     login: Autentificare
     logout: Dezautentifică
     messages: Mesaje
-    profile_and_settings: 
-    ratings: 
+    profile_and_settings: Profil și Setări
+    ratings: Evaluări
     settings: Setări
     sign_up: Înregistrare
     view_profile: Vizualizare profil
@@ -2531,8 +2531,8 @@ ro-RO:
       other: de elemente pe această listă
     private: Privat
     public: Public
-    select_this_image: 
-    total_revenue: 
+    select_this_image: Selectați această imagine
+    total_revenue: Veniturile totale
     total_runtime: Durată totală
   list_messages:
     comment_updated: Comentariul a fost actualizat!
@@ -2696,12 +2696,12 @@ ro-RO:
         screened_label: 
       episode_selector:
         current_episode: 
-        episode: 
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Episod următor
         previous_episode: Episod anterior
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Crează episod
         episodes:
           no_records: 
         screened_confirm: 
@@ -2730,11 +2730,11 @@ ro-RO:
           episode_groups: 
           episodes:
             move_episodes: 
-            no_records: 
+            no_records: Nu au fost adăugate episoade la acest grup.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Episoade
+            groups: Grupuri
+          group: Grup
           messages:
             episodes_added: 
           name: 
@@ -2743,27 +2743,33 @@ ro-RO:
           types:
             '1': 
             '2': 
-            '3': 
+            '3': DVD
             '4': 
             '5': 
             '6': 
             '7': 
         networks:
-          no_records: 
-          none_found: 
+          no_records: Nu au fost adăugate rețele.
+          none_found: Nu au fost găsite rețele ce se potrivesc. Doriți să o creați?
         regular_cast:
           no_records: 
           no_season: 
         runtime:
           add_it: 
-          enter_value: 
+          enter_value: Introduceți o valoare în minute
         seasons:
-          no_records: 
+          no_records: Nu s-au adăugat sezoane.
       episode_groups:
         groups:
-          count: 
+          count:
+            few: ''
+            one: "%{count} Grup"
+            other: "%{count} Grupuri"
         original_air_date: 
-      networks: 
+      networks:
+        few: ''
+        one: Rețea
+        other: Rețele
       types:
         Documentary: Documentar
         Miniseries: Miniserie
@@ -2771,31 +2777,34 @@ ro-RO:
         Reality: Realitate
         Scripted: 
         Talk Show: Emisiune de discuții
-        Video: 
+        Video: Video
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      audio_language: Limbă audio
+      channel: Canal
+      duration: Durată
+      published: Publicat
+      published_at: Publicat la
+      restricted_regions: Regiuni restricționate
+      tags: Etichete
   message_templates:
     help_translate:
       message: 
       subject: 
   messages:
     compose:
-      ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      ban: Interzis
+      from: De la
+      message: Mesaj
+      subject: Subiect
+      template: Format
+      to: Către
+    no_messages: Nu există mesaje
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} v-a trimis un nou mesaj"
+    number_of_messages:
+      few: ''
+      one: "%{count} mesaj"
+      other: "%{count} mesaje"
     options:
       admin: 
       archive: 

@@ -2545,7 +2545,7 @@ it-IT:
     step_4: 'Passaggio 4: Condividi'
   login:
     login_text_1: Per usufruire delle possibilità offerte da TMDb di aggiungere informazioni e votare i tuoi film preferiti, oppure ricevere consigli su cosa guardare hai bisogno di effettuare il login al tuo account. Se non hai ancora un account, registrarti è semplice e gratuito. <a href=%{signup_link}">Clicca qui</a> per iniziare.
-    login_text_2: 
+    login_text_2: Se ti sei registrato ma non hai ricevuto e-mail di verifica, <a href="%{verification_link}"> fai clic qui </a> per inviarla nuovamente.
     login_to_your_account: Accedi al tuo profilo
   login_to_create: Non riesci a trovare un film o una serie Tv? Accedi per crearlo.
   login_to_edit: Accedi per modificare
@@ -2555,13 +2555,13 @@ it-IT:
       movie_page_title: Film prodotti da %{name}
       tv_page_title: Serie Tv su %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Blocca tutti i campi
+      lock_all_images: Blocca tutte le immagini
       page_title: Modifica %{name}
       placeholders:
         country: Seleziona un paese
         create_person:
-          click_to_create: 
+          click_to_create: Fai clic per creare %{name}
           create_it: Crea...
         genres: Seleziona un genere...
         job: Seleziona una mansione...
@@ -2785,7 +2785,12 @@ it-IT:
       tags: Tags
   message_templates:
     help_translate:
-      message: 
+      message: |-
+        Ciao, grazie per aver utilizzato TMDb. Ho notato che stai navigando su TMDb in una lingua che non è la tua. Se sei interessato ad aiutarci nella traduzione e ad ottenere dati completi, puoi farlo visitando il nostro [Progetto locale](https://www.localeapp.com/projects/8267). [L'iscrizione](https://www.localeapp.com/users/sign_up) al progetto locale è gratuita e puoi aggiungere nuove traduzioni quando hai tempo. Ogni modifica aiuta a migliorarci.
+
+        Se non sei interessato, non preoccuparti. Ho solo pensato di chiedertelo.
+
+        Grazie e Stammi Bene!
       subject: Aiutaci a tradurre il nostro sito internet
   messages:
     compose:
@@ -2793,34 +2798,36 @@ it-IT:
       from: Da
       message: Messaggio
       subject: Oggetto
-      template: 
-      to: 
-    no_messages: 
+      template: Modello
+      to: Da
+    no_messages: Nessun messaggio
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} ti ha inviato un nuovo messaggio"
+    number_of_messages:
+      one: "%{count} messaggio"
+      other: "%{count} messaggi"
     options:
       admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      archive: Archivio
+      settings: Impostazioni
+      viewed_at: Visualizzato %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
-        no_conversations: 
-        view: 
+        create: Puoi creare una nuova conversazione anche tramite <a href="%{link}">clicking here</a>.
+        no_conversations: Non hai conversazioni aperte, sei fortunato!
+        view: Per visualizzare una conversazione, selezionarne una a sinistra.
       no_user_found: Nessun utente trovato.
       reply: Scrivi un messaggio...
-      subject: 
+      subject: Di cosa si tratta?
       to: Cerca un utente...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      my_archive: 
-      my_inbox: 
+      conversation_with: Conversazione con %{username}
+      message_inbox: Messaggi in arrivo
+      my_archive: Il mio archivio
+      my_inbox: La mia casella di posta
       new_message: Nuovo messaggio
-      support_archive: 
-      support_inbox: 
+      support_archive: Archivio di supporto
+      support_inbox: Posta in arrivo di supporto
   month:
     one: mese
     other: "%{count} mesi"
@@ -3056,7 +3063,7 @@ it-IT:
       results:
         complete:
           imported: Importato?
-          item: 
+          item: Articolo
           item_reasons:
             already_imported: Già importato.
             cant_find_imdb: Impossibile trovare l'ID IMDb.
