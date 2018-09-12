@@ -88,7 +88,7 @@ it-IT:
   Change?: Modificare?
   Changes: Modifiche
   Character: Personaggio
-  Choose: 
+  Choose: Scegliere...
   City: Città
   Clip: Filmato
   Clips: Filmati
@@ -526,8 +526,8 @@ it-IT:
     login: Accedi
     logout: Disconnetti
     messages: Messaggi
-    profile_and_settings: 
-    ratings: 
+    profile_and_settings: Profilo e Impostazioni
+    ratings: Classificazione
     settings: Impostazioni
     sign_up: Registrati
     view_profile: Vedi profilo
@@ -1339,24 +1339,49 @@ it-IT:
     one: giorno
     other: "%{count} giorni"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Voce cancellata
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo era già nel nostro database ed è stato quindi considerato un duplicato.
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È un duplicato
       '2':
-        message: 
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
         subject: 
       '3':
-        message: 
-        subject: 
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo esiste già come serie TV e non è considerato un film valido. Puoi leggere ulteriori informazioni sulle nostre linee guida sui contenuti [qui] (https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È uno show TV
       '4':
-        message: 
-        subject: 
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È una voce falsa
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È considerato spam
+    why_deleting: Perché stai eliminando questa voce?
   department_credits_count:
     one: "%{department} (%{count} crediti)"
     other: "%{department} (%{count} crediti)"
@@ -1588,10 +1613,10 @@ it-IT:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
-    Accounting Clerk Assistant: 
-    Accounting Supervisor: 
-    Accounting Trainee: 
+    Accountant: Contabile
+    Accounting Clerk Assistant: Assistente amministrativo contabile
+    Accounting Supervisor: Supervisore contabile
+    Accounting Trainee: Contabile Tirocinante
     Acting Double: 
     Action Director: 
     Actor: Attore
@@ -3036,7 +3061,7 @@ it-IT:
             already_imported: Già importato.
             cant_find_imdb: Impossibile trovare l'ID IMDb.
             imdb_id_not_in_row: 
-            personal_rating_invalid: 
+            personal_rating_invalid: La tua valutazione personale non è valida (la valutazione deve essere compresa tra 0,5 e 10,0).
             personal_rating_not_found: 
             row_is_invalid: 
             updated_date: 
@@ -3066,10 +3091,10 @@ it-IT:
       sharing_settings: Impostazioni di condivisione
       social_settings: Impostazioni Social
     notifications:
-      email_new_releases_watchlist: Inviami un'email delle nuove uscite sulla mia watchlist?
+      email_new_releases_watchlist: Ricevi e-mail delle nuove uscite sulla mia watchlist?
       new_replies_to_threads_created: Segui automaticamente le discussioni che creo o rispondo?
-      new_replies_to_threads_watching: Inviami una e-mail sulle nuove risposte per la discussione che sto seguendo?
-      news_updates: 
+      new_replies_to_threads_watching: Ricevi e-mail sulle nuove risposte per la discussione che sto seguendo?
+      news_updates: Ricevi e-mail su notizie e aggiornamenti sui prodotti
       notifications: Notifiche
     profile:
       accent_color: Colore Accento

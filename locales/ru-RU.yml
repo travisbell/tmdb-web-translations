@@ -1507,7 +1507,7 @@ ru-RU:
       couldnt_process: Мы не смогли обработать это изображение
       not_jpeg: Это изображение не в формате JPEG
       not_png: Это изображение не в формате PNG
-      not_svg: 
+      not_svg: Изображение не в формате SVG
     locked:
       genres: 
       keywords: 
@@ -1552,10 +1552,10 @@ ru-RU:
       '3': Соотношение сторон 1:1.5 (2:3)
       '4': Максимальное разрешение не более 3840х2160
       '5': Минимальное разрешение не менее 400х225
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '6': Поддерживается соотношение сторон изображений 16x9 (1.78:1) и 4:3
+      '7': Минимальное разрешение 1280х720
+      '8': Соотношение сторон 16x9 (1.78:1)
+      '9': Минимальное разрешение 300х450
       backdrops_must_meet: 
       episode_stills_must_meet: 
       posters_must_meet: 'Постеры должны соответствовать следующим требованиям:'
@@ -2540,8 +2540,8 @@ ru-RU:
     step_3: 'Шаг 3: Выберите изображение'
     step_4: 'Шаг 4: Поделитесь'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: Для того, чтобы воспользоваться возможностями редактирования и рейтинга TMDb, а также получить персональные рекомендации, Вам необходимо войти в свой аккаунт. Если у вас нет учетной записи, регистрация учетной записи является бесплатной и простой. <a href="%{signup_link}">Нажмите здесь</a>, чтобы начать.
+    login_text_2: Если Вы зарегистрировались, но не получили письмо для подтверждения, <a href="%{verification_link}">нажмите здесь</a>, чтобы отправить письмо повторно.
     login_to_your_account: Авторизоваться
   login_to_create: Не можете найти фильм или сериал? Войдите на сайт, чтобы добавить его.
   login_to_edit: Войти чтобы редактировать
@@ -2553,18 +2553,18 @@ ru-RU:
     edit:
       lock_all_fields: 
       lock_all_images: 
-      page_title: 
+      page_title: Редактировать %{name}
       placeholders:
-        country: 
+        country: Выбрать страну...
         create_person:
-          click_to_create: 
-          create_it: 
-        genres: 
-        job: 
-        keywords: 
+          click_to_create: Нажмите, чтобы создать %{name}
+          create_it: Создать...
+        genres: Выбрать жанр...
+        job: Выбрать выполняемую обязанность...
+        keywords: Выбрать ключевое слово...
         networks: 
-        person: 
-        production_companies: 
+        person: Поиск человека...
+        production_companies: Поиск производственной компании...
       success_fields_locked: 
       tooltips:
         bible: 
@@ -2604,16 +2604,16 @@ ru-RU:
           no_records: 
           person_required: 
         genres:
-          add_genre: 
+          add_genre: Добавить жанр
           no_records: 
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
-          tip: 
+          add_keyword: Добавить ключевое слово
+          create: Создать
+          no_records: Ключевые слова не были добавлены.
+          none_found: Не найдено ключевого слова. Хотите создать его?
+          tip: Как общее руководство, подумайте о вещах, которые помогают описать сюжет, общие темы и настроения.
         production_information:
-          add_production_company: 
+          add_production_company: Добавить производственную компанию
           no_records: 
           none_found: 
           production_company: 
@@ -2627,21 +2627,21 @@ ru-RU:
         logos: 
         merge:
           choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
+          confirm_merge: Подтвердить совмещение
+          merge: Совместить
+          next: Следующий
+        primary_facts: Основные сведения
+        upload_logo: Загрузить логотип
+      logos: Логотип
+      name: Название
       other_shows_on: 
       search:
         no_results: 
         results: 
       tv_page_title: 
-      upload_logo: 
+      upload_logo: Загрузить логотип
     no_results_found:
-      movie: 
+      movie: Фильмы не найдены.
       tv: 
     number_of_movies: 
     number_of_shows: 
@@ -2653,7 +2653,7 @@ ru-RU:
       rated_with_rating: 
     social_panel:
       discussions:
-        currently_subscribed: 
+        currently_subscribed: В настоящее время вы подписались на получение уведомления, когда кто-то создает первое сообщение.
         no_discussions: 
         unsubscribe_me: 
         want_to_be_notified: 
@@ -2738,8 +2738,8 @@ ru-RU:
           no_records: 
           no_season: 
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: Добавить продолжительность?
+          enter_value: Ввести значение в минутах
         seasons:
           no_records: 
       episode_groups:
@@ -2780,9 +2780,9 @@ ru-RU:
       new_message: 
     number_of_messages: 
     options:
-      admin: 
-      archive: 
-      settings: 
+      admin: Администратор
+      archive: Архив
+      settings: Установки
       viewed_at: 
     placeholders:
       no_conversation_selected:
