@@ -126,7 +126,7 @@ ro-RO:
   Day of Death: Data decesului
   Default Language: Limba implicită
   Delete: Șterge
-  Delete Keyword: Șterge cuvât cheie
+  Delete Keyword: Șterge cuvânt cheie
   Delete Movie: Șterge filmul artistic
   Delete Person: Șterge persoana
   Delete TV Show: Șterge filmul serial
@@ -264,14 +264,14 @@ ro-RO:
   Mark as Favorite: Marchează ca favorit
   Media: Media
   Member since: Membru din
-  Merge Keyword: 
+  Merge Keyword: Combinați cuvânt cheie
   Mixed Compact View: Vizualizare compactă mixtă
   Mobile Application: Aplicație pentru mobile
   Moderator: Moderator
   More Info: Mai multe informații
   Most Popular: Cele mai populare
-  Move Credits: 
-  Move TV Credits: Mută mulțumirile tv
+  Move Credits: Mută creditele
+  Move TV Credits: Mută creditele tv
   Movie Data: Date film artistic
   Movie Recommendations: Recomandări filme artistice
   Movie Results: Rezultate filme artistice
@@ -1393,7 +1393,7 @@ ro-RO:
     Art: Artă
     Camera: Cameră
     Costume & Make-Up: Costume și machiaj
-    Creator: Creator
+    Creator: Realizator
     Crew: Echipă filmare
     Directing: Regizare
     Editing: Editare
@@ -1543,7 +1543,7 @@ ro-RO:
     movie:
       duplicate_cast: Această persoană a fost deja adăugată în distribuţie
     tv:
-      duplicate_created_by: Această persoană a fost deja adăugată ca și creator.
+      duplicate_created_by: Această persoană a fost deja adăugată ca și realizator.
       duplicate_crew_member: Această persoană a fost deja adăugată ca și %{job_name}.
       duplicate_episode: Acest episod există deja.
       duplicate_guest_star: Această vedetă oaspete există deja.
@@ -1867,7 +1867,7 @@ ro-RO:
     Creative Consultant: Consultant creativ
     Creative Director: 
     Creative Producer: Producător creativ
-    Creator: Creator
+    Creator: Realizator
     Creature Design: Proiectare creaturi
     Creature Effects Technical Director: 
     Creature Technical Director: 
@@ -2161,7 +2161,7 @@ ro-RO:
     Original Concept: 
     Original Film Writer: 
     Original Music Composer: Compunător muzică originală
-    Original Series Creator: 
+    Original Series Creator: Realizator serie originală
     Original Series Design: 
     Original Story: Poveste originală
     Other: Altele
@@ -2572,7 +2572,7 @@ ro-RO:
           create_it: 
         genres: 
         job: 
-        keywords: 
+        keywords: Selectați un cuvânt cheie...
         networks: 
         person: 
         production_companies: 
@@ -2598,8 +2598,8 @@ ro-RO:
       types:
         backdrop_stills: Fundale capturate
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" Filme'
+      tv_page_title: '"%{name}" Seriale'
     movie:
       edit:
         adult:
@@ -2618,8 +2618,8 @@ ro-RO:
           add_genre: 
           no_records: 
         keywords:
-          add_keyword: 
-          create: 
+          add_keyword: Adăugați un cuvânt cheie...
+          create: Crează-l
           no_records: 
           none_found: 
           tip: 
@@ -2695,7 +2695,7 @@ ro-RO:
         screened_confirm: 
         screened_label: 
       episode_selector:
-        current_episode: 
+        current_episode: Episod %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Episod următor
         previous_episode: Episod anterior
@@ -2703,59 +2703,62 @@ ro-RO:
       edit:
         create_episode: Crează episod
         episodes:
-          no_records: 
-        screened_confirm: 
-        screened_label: 
+          no_records: Nu s-au adăugat episoade.
+        screened_confirm: Dacă acest sezon a fost vizionat într-un festival de film sau teatru, faceți clic pe "Da" pentru a continua.
+        screened_label: Acest sezon a fost prezentat teatral?
       season_selector:
         current_season: Sezonul actual
         last_season: Ultimul sezon
         next_season: Sezonul următor
-        previous_season: 
+        previous_season: Sezonul anterior
     tv_show:
-      create_season: 
+      create_season: Creați un sezon
       edit:
         adult:
-          adult_show: 
+          adult_show: Emisiune pentru adulți?
         alternative_names:
-          no_records: 
+          no_records: Nu au fost adăugate nume alternative.
         content_ratings:
           no_records: Nu a fost adăugată nicio evaluare de conținut.
         creator:
-          no_records: 
+          no_records: Nu au fost adăugați realizatori.
         crew:
           no_season: Nu există sezoane! Un sezon este necesar pentru a adăuga membri ai echipei de filmare.
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Creați un grup nou
+          description: Descriere
+          episode_groups: Grupuri episoade
           episodes:
-            move_episodes: 
+            move_episodes: Mutați episoadele selectate
             no_records: Nu au fost adăugate episoade la acest grup.
           grid:
             episodes: Episoade
             groups: Grupuri
           group: Grup
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              few: ''
+              one: "%{count} episod adăugat!"
+              other: "%{count} episoade adăugate!"
+          name: Numele grupului
+          no_records: Nu s-au adăugat grupuri de episoade.
+          type: Tip
           types:
-            '1': 
-            '2': 
+            '1': Dată difuzare originală
+            '2': Complet
             '3': DVD
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '4': Digital
+            '5': Povestire
+            '6': Producție
+            '7': TV
         networks:
           no_records: Nu au fost adăugate rețele.
           none_found: Nu au fost găsite rețele ce se potrivesc. Doriți să o creați?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: Nu s-au adăugat membri ai distribuției..
+          no_season: Nu există sezoane! Un sezon este necesar pentru a adăuga membri ai distribuției.
         runtime:
-          add_it: 
+          add_it: Adăugați o nouă durată?
           enter_value: Introduceți o valoare în minute
         seasons:
           no_records: Nu s-au adăugat sezoane.
@@ -2765,7 +2768,7 @@ ro-RO:
             few: ''
             one: "%{count} Grup"
             other: "%{count} Grupuri"
-        original_air_date: 
+        original_air_date: Dată difuzare originală
       networks:
         few: ''
         one: Rețea
@@ -2775,7 +2778,7 @@ ro-RO:
         Miniseries: Miniserie
         News: Noutăți
         Reality: Realitate
-        Scripted: 
+        Scripted: Scriptat
         Talk Show: Emisiune de discuții
         Video: Video
     video:
@@ -2788,8 +2791,13 @@ ro-RO:
       tags: Etichete
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |-
+        Bună ziua, mulțumim pentru utilizarea TMDb. Am observat că navigați pe TMDb într-o limbă care nu este terminată ca traducere. Dacă aveți vreun interes să ne ajutați să completăm aceste date, puteți face acest lucru vizitând [Locale project](https://www.localeapp.com/projects/8267). [Signing up](https://www.localeapp.com/users/sign_up) pentru Locale este gratuit și puteți adăuga cât mai multe traduceri noi dacă aveți timp. Fiecare editare ajută.
+
+        Dacă nu aveți niciun interes în acest sens, nu vă apucați. Am dorit doar să întreb.
+
+        Mulțumim și aveți grijă!
+      subject: Ajutați-ne să traducem site-ul nostru web
   messages:
     compose:
       ban: Interzis
@@ -2806,27 +2814,27 @@ ro-RO:
       one: "%{count} mesaj"
       other: "%{count} mesaje"
     options:
-      admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      admin: Admin
+      archive: Arhivă
+      settings: Setări
+      viewed_at: Vizionat %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
-        no_conversations: 
-        view: 
-      no_user_found: 
-      reply: 
-      subject: 
-      to: 
+        create: De asemenea, puteți crea o nouă conversație prin <a href="%{link}">dați clic aici</a>.
+        no_conversations: Nu aveți conversații deschise, sunteți norocos!
+        view: Pentru a vedea o conversație, selectați una din stânga.
+      no_user_found: Nu a fost găsit niciun utilizator .
+      reply: Scrie un mesaj...
+      subject: Despre ce este vorba?
+      to: Caută un utilizator ...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      my_archive: 
-      my_inbox: 
-      new_message: 
-      support_archive: 
-      support_inbox: 
+      conversation_with: Conversație cu %{username}
+      message_inbox: Mesaje în inbox
+      my_archive: Arhiva mea
+      my_inbox: Inbox-ul meu
+      new_message: Mesaj Nou
+      support_archive: Suport Arhivă
+      support_inbox: Suport Inbox
   month:
     few: "%{count} luni"
     one: lună
@@ -2900,7 +2908,7 @@ ro-RO:
     logged_in: "%{page_title} nu a fost încă tradus în <strong>%{requested_i18n} (%{requested_language_text})</strong>. Dacă doriți să continuați și să creați această traducere, dați clic pe butonul de mai jos."
     public: '%{page_title} nu a fost încă tradus în <strong>%{requested_i18n} (%{requested_language_text})</strong>. Puteți adăuga această traducere dacă vă <a href="%{signup_link}">Înregistrați</a> și vă <a href="%{login_link}">Autentificați</a>.'
   notifications:
-    caught_up: Se pare că ai fost ajuns.
+    caught_up: Se pare că a fost de ajuns.
     clear: Curăță
     good_job: Treabă bună!
     mark_all_as_read: Marchează toate ca citite
