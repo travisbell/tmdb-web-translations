@@ -1350,21 +1350,46 @@ pt-BR:
     entry_deleted: Entrada excluída
     reasons:
       '1':
-        message: 
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDb. A entrada que você criou com o título "%{title}" foi excluída. Este título já estava em nosso banco de dados e, portanto, foi considerado uma duplicata.
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: É uma duplicata
       '2':
-        message: 
-        subject: 
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDb. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: Não atende às nossas diretrizes de conteúdo (amadores, etc ...)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDb. A entrada que você criou com o título "%{title}" foi excluída. Este título já existe como um programa de TV e não é considerado um filme válido. Você pode ler mais sobre nossas diretrizes de conteúdo [aqui](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É um programa de TV
       '4':
-        message: 
-        subject: 
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDb. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É uma entrada falsa
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDb. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: Isso é spam
+    why_deleting: Por que você está excluindo esta entrada?
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
@@ -1589,7 +1614,7 @@ pt-BR:
     3D Supervisor: Supervisão 3D
     3D Tracking Layout: Layout de Rastreamento 3D
     ADR & Dubbing: Substituição automática de diálogo (ADR) e dublagem
-    ADR Coordinator: 
+    ADR Coordinator: Coordenador ADR
     ADR Editor: 
     ADR Engineer: 
     ADR Mixer: 
@@ -1609,7 +1634,7 @@ pt-BR:
     Adaptation: Adaptação
     Additional Camera: Câmera (suplementar)
     Additional Casting: Elenco Adicional
-    Additional Colorist: 
+    Additional Colorist: Auxiliar de Colorização
     Additional Construction: Construção Adicional
     Additional Construction Grip: 
     Additional Dialogue: Diálogo (suplementar)
@@ -1619,9 +1644,9 @@ pt-BR:
     Additional Editorial Assistant: Assistente editorial (suplementar)
     Additional Effects Development: Desenvolvimento de efeitos (suplementar)
     Additional First Assistant Camera: Primeiro Assistente Câmera Adicional
-    Additional Gaffer: 
+    Additional Gaffer: Auxiliar de Cenário
     Additional Grip: 
-    Additional Hairstylist: 
+    Additional Hairstylist: Auxiliar de Cabeleireiro
     Additional Key Construction Grip: 
     Additional Key Grip: 
     Additional Lighting Technician: Técnico de Iluminação Adicional
@@ -1630,24 +1655,24 @@ pt-BR:
     Additional Photography: Suplementar em fotografia
     Additional Post-Production Supervisor: Supervisor(a) extra de pós-produção
     Additional Production Assistant: Assistente de produção adicional
-    Additional Production Sound Mixer: 
+    Additional Production Sound Mixer: Auxiliar de Produção de Som
     Additional Script Supervisor: Supervisor de Roteiro Adicional
     Additional Second Assistant Camera: Assistente de Segunda Câmera Adicional
     Additional Second Assistant Director: Segundo Assistente Diretor Adicional
-    Additional Set Dresser: 
-    Additional Set Photographer: 
-    Additional Sound Re-Recording Mixer: 
-    Additional Sound Re-Recordist: 
+    Additional Set Dresser: Auxiliar de Figurino de Cena
+    Additional Set Photographer: Auxiliar de Fotografia de Cena
+    Additional Sound Re-Recording Mixer: Auxiliar de Dublagem
+    Additional Sound Re-Recordist: Auxiliar de Dublagem
     Additional Soundtrack: Trilha sonora (suplementar)
-    Additional Still Photographer: 
-    Additional Storyboarding: 
-    Additional Third Assistant Director: 
-    Additional Underwater Photography: 
-    Additional Visual Effects: 
-    Additional Wardrobe Assistant: 
+    Additional Still Photographer: Auxiliar de Fotógrafo de Cena
+    Additional Storyboarding: Auxiliar de Roteiro
+    Additional Third Assistant Director: Assistente Auxiliar de Diretor III
+    Additional Underwater Photography: Auxiliar de Fotografia Subaquática
+    Additional Visual Effects: Auxiliar de Efeitos Visuais
+    Additional Wardrobe Assistant: Assistente Auxiliar de Figurino
     Additional Writing: Escrita (suplementar)
     Administration: Administração
-    Administrative Assistant: 
+    Administrative Assistant: Assistente Administrativo
     Aerial Camera: 
     Aerial Camera Technician: 
     Aerial Coordinator: 
@@ -2795,7 +2820,7 @@ pt-BR:
       admin: Admin
       archive: Arquivo
       settings: Configurações
-      viewed_at: 
+      viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
         create: Você também pode começar uma nova conversa <a href="%{link}">clicando aqui</a>.
@@ -3052,11 +3077,11 @@ pt-BR:
           item_reasons:
             already_imported: Já foi importada.
             cant_find_imdb: Não encontramos esta ID do IMDb.
-            imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            imdb_id_not_in_row: O IMDb ID não foi encontrado nesta linha.
+            personal_rating_invalid: Sua classificação pessoal é inválida (deve estar entre 0,5 e 10,0).
+            personal_rating_not_found: Sua classificação pessoal não foi encontrada nessa linha.
+            row_is_invalid: Esta linha é inválida.
+            updated_date: Data atualizada.
           reason: Motivo? (se aplicável)
           summary: Conseguimos importar um total de %{imported_count} itens dos %{total_count} (%{imported_percentage}%) itens detectados na sua lista exportada.
         currently_running: Sua importação está em andamento. Você pode atualizar esta página para ver se ela já foi concluída.
