@@ -526,8 +526,8 @@ uk-UA:
     login: Увійти
     logout: Вихід
     messages: Повідомлення
-    profile_and_settings: 
-    ratings: 
+    profile_and_settings: Профіль та налаштування
+    ratings: Рейтинги
     settings: Параметри
     sign_up: Зареєструватись
     view_profile: Мій профіль
@@ -681,7 +681,7 @@ uk-UA:
     normalized_username: Ім'я учасника
     overview: Огляд
     title: Назва
-    to_accounts_ids: 
+    to_accounts_ids: До
   average edits per day: у середньому правок за день
   back_options:
     back: Назад
@@ -1345,23 +1345,28 @@ uk-UA:
     one: день
     other: "%{count} днів"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Запис Видалено
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Вітяння,
+
+          Це повідомлення від модераторів TMDb. Запис що Ви строрили з ім'ям "%{title}" було видалено. Запис з таким ім'ям вже є в нашій базі, і Ваш був розцінений як дублікат.
+
+          Якщо у вас є питання щодо цього, Ви можете поставити їх, відповивши на це повідомлення.
+        subject: Це дублікат
       '2':
         message: 
         subject: 
       '3':
         message: 
-        subject: 
+        subject: Це телесеріал
       '4':
         message: 
-        subject: 
+        subject: Це хибний запис
       '5':
         message: 
-        subject: 
+        subject: Це спам
     why_deleting: 
   department_credits_count:
     few: "%{department} (%{count} досягнень)"
