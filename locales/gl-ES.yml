@@ -88,7 +88,7 @@ gl-ES:
   Change?: Mudar?
   Changes: Modificacións
   Character: Personaxe
-  Choose: 
+  Choose: Escoller...
   City: Cidade
   Clip: Curto (clip)
   Clips: Curtos (clips)
@@ -526,8 +526,8 @@ gl-ES:
     login: Acceder
     logout: Saír
     messages: Mensaxes
-    profile_and_settings: 
-    ratings: 
+    profile_and_settings: Perfil e configuración
+    ratings: Puntuacións
     settings: Configuración
     sign_up: Rexistrarse
     view_profile: Ver Perfil
@@ -563,9 +563,9 @@ gl-ES:
         page_owner: Os meus debates
         public: Os debates de %{username}
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Se desexas ter unha copia desta lista exportada a CSV, preme o botón "Exportar" de abaixo. Crearemos a exportación e enviarémoscha por email. O proceso pode demorar varios minutos dependendo do tamaño da túa lista.
+      export: Exportar
+      export_csv: Exportar CSV
     favorites:
       my_favorites:
         logged_in: Os meus favoritos
@@ -1339,24 +1339,49 @@ gl-ES:
     one: día
     other: "%{count} días"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Entrada eliminada
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Ola!
+
+          Este é unha nota amistosa dos moderadores do contido da TMDb. A entrada que creaches co título "%{title}" foi eliminada. Este título xa existe na nosa base de datos e foi conisderada como duplicada.
+
+          Se precisas máis información sobre esta eliminación podes respostar a esta mesma mensaxe.
+        subject: Isto é un duplicado
       '2':
-        message: 
-        subject: 
+        message: |-
+          Ola!
+
+          Este é unha nota amistosa dos moderadores do contido da TMDb. A entrada que creaches co título "%{title}" foi eliminada. Este título non cumpre coas [novas directrices de contido](https://www.themoviedb.org/bible/new_content).
+
+          Se precisas máis información sobre esta eliminación podes respostar a esta mesma mensaxe.
+        subject: Non cumpre coas nosas directrices de contido (amatuer, etc...)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Ola!
+
+          Este é unha nota amistosa dos moderadores do contido da TMDb. A entrada que creaches co título "%{title}" foi eliminada. Este título xa existe como Serie TV e non se considera como filme. Podes ler maís sobre as nosas directrices do contido [aquí](https://www.themoviedb.org/bible/new_content).
+
+          Se precisas máis información sobre esta eliminación podes respostar a esta mesma mensaxe.
+        subject: Isto é unha Serie TV
       '4':
-        message: 
-        subject: 
+        message: |-
+          Ola!
+
+          Este é unha nota amistosa dos moderadores do contido da TMDb. A entrada que creaches co título "%{title}" foi eliminada. Este título non cumpre coas [novas directrices de contido](https://www.themoviedb.org/bible/new_content).
+
+          Se precisas máis información sobre esta eliminación podes respostar a esta mesma mensaxe.
+        subject: Esta entrada é falsa
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Ola!
+
+          Este é unha nota amistosa dos moderadores do contido da TMDb. A entrada que creaches co título "%{title}" foi eliminada. Este título non cumpre coas [novas directrices de contido](https://www.themoviedb.org/bible/new_content).
+
+          Se precisas máis información sobre esta eliminación podes respostar a esta mesma mensaxe.
+        subject: Isto é SPAM
+    why_deleting: Por que estás a eliminar esta entrada?
   department_credits_count:
     one: "%{department} (%{count} credit)"
     other: "%{department} (%{count} credit)"
@@ -2759,11 +2784,18 @@ gl-ES:
       tags: Etiquetas
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |-
+        Ola!
+
+        Moitas grazas por usares a TMDb. Reparei que estás a navigar pola TMDb nunha lingua que non está completamente traducida. Se tes interese en axudarnos a completar esta información pódelo facer visitando o noso [Locale project](https://www.localeapp.com/projects/8267). [Rexistrarse](https://www.localeapp.com/users/sign_up) en Locale é de balde e podes engadir tantas traducións como queiras. Cada edición axuda.
+
+        Se non tes interese, non te preocupes. Pagaba a pena preguntar.
+
+        Grazas e a coidarse!
+      subject: Axuda a traducir a nosa web
   messages:
     compose:
-      ban: 
+      ban: Vetar
       from: De
       message: Mensaxe
       subject: Asunto
@@ -2771,7 +2803,7 @@ gl-ES:
       to: A
     no_messages: Sen mensaxes
     notifications:
-      new_message: 
+      new_message: "%{username} enviouche unha mensaxe"
     number_of_messages:
       one: "%{count} mensaxe"
       other: "%{count} mensaxe"
@@ -2779,7 +2811,7 @@ gl-ES:
       admin: Admin
       archive: Arquivo
       settings: Configuración
-      viewed_at: 
+      viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
         create: Tamén podes crear unha nova parola <a href="%{link}">premendo aquí</a>.
@@ -3032,15 +3064,15 @@ gl-ES:
       results:
         complete:
           imported: Importado?
-          item: 
+          item: Elemento
           item_reasons:
             already_imported: Xa importado.
             cant_find_imdb: Non se puido atopar o ID da IMDb.
-            imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            imdb_id_not_in_row: O ID da IMDb non se atopou nesta fila.
+            personal_rating_invalid: A túa puntuación non é válida - debe estar entre 0.5 e 10).
+            personal_rating_not_found: A túa puntuación non se atopou nesta fila.
+            row_is_invalid: Esta fila non é válida.
+            updated_date: Data anovada.
           reason: Razón? (se procede)
           summary: Fomos quen de importar un total de %{imported_count} elementos dos %{total_count} (%{imported_percentage}%) elementos que detectamos na túa lista exportada.
         currently_running: A túa importación estase a levar a cabo. Podes recargar esta páxina para ver se completouse.
