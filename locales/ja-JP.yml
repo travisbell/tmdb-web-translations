@@ -1316,10 +1316,10 @@ ja-JP:
     - 土曜日
     formats:
       abbrev: "%Y年%m月%d日"
-      default: "%Y年%m月%d日"
-      full_month_day: "%Y年%m月%d日"
-      full_month_year: "%Y年%m月"
-      short_month_day_year: "%Y年%m月%d日"
+      default: "%Y年%n月%j日"
+      full_month_day: "%Y年%n月%j日"
+      full_month_year: "%Y年%n月"
+      short_month_day_year: "%Y年%n月%j日"
     month_names:
     - 
     - 1月
@@ -2526,19 +2526,19 @@ ja-JP:
     view_shortcuts: 
   list_info:
     average_rating: 
-    image_selected: 
+    image_selected: 選択
     items_on_list:
       many: 
       one: 
       other: 
     private: 
     public: 
-    select_this_image: 
+    select_this_image: この画像を選択する
     total_revenue: 総収益
     total_runtime: 総時間
   list_messages:
     comment_updated: コメントが更新されました！
-    image_saved: 
+    image_saved: 画像が保存されました！
     item_added: 
     item_already_added: 
     item_removed: 削除されました。
@@ -2650,12 +2650,12 @@ ja-JP:
           choose_destination: 
           confirm_merge: 
           merge: 
-          next: 
+          next: 次
         primary_facts: 基本情報
         upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+      logos: ロゴ画像
+      name: 名称
+      other_shows_on: "%{name}さんの他のテレビ番組を見る..."
       search:
         no_results: 
         results: 
@@ -3103,23 +3103,23 @@ ja-JP:
       accent_color: アクセントカラー
       avatar:
         current_avatar: 現在のアバター
-        explain: 
-        explain_gravatar: 
-        not_found: 
-        not_found_add: 
+        explain: 現在、カスタムアバターを表示するには、<a href="https://www.gravatar.com/" target="_blank"> Gravatar </a>というサービスを使用する必要があります。 TMDbにカスタムアバターを表示するには、Gravatarのアカウントにサインアップして、ここで使用したのと同じメールアドレスを追加する必要があります（アカウントをリンクする方法です）。これが完了したら、下の更新ボタンをクリックすると、新しい画像を取得します。
+        explain_gravatar: アバターのプロバイダとして<a href="https://www.gravatar.com/" target="_blank"> Gravatar </a>を使用する場合は、使用するメールアドレスが同じであることを確認してくださいGravatarに追加されました。それが完了したら（そして画像をアップロードしたことがあります）、下の更新ボタンをクリックすると、新しい画像を取得しようとします。
+        not_found: アバターは見つかりませんでした。
+        not_found_add: アバターは見つかりませんでした。 <a href="#">追加しますか？</a>
         remove_own: アバターを削除しますか？
-        update_avatar: アバターを更新
-        update_gravatar: 
-        updated: 
-        upload_avatar: 
+        update_avatar: アバターを更新する
+        update_gravatar: Gravatarを更新しますか？
+        updated: アバターを更新しました！
+        upload_avatar: アバターをアップロードする
         upload_own: 
-        upload_window_tip: 
-        use_gravatar: 
+        upload_window_tip: 以下のファイルセレクタを使用して、独自のカスタムアバターをアップロードします。画像が正方形でない場合は自動的にトリミングします。
+        use_gravatar: Gravatarを使用しますか？
       background:
         background_image: 背景画像
         confirm_remove: 背景画像を削除することを確認してください。本当によろしいですか？
-        remove_background: 
-        set_image: 
+        remove_background: 背景画像を削除しますか？
+        set_image: 背景画像を設定しますか？
       edit_profile: 
     sharing:
       favorite_list:

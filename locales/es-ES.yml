@@ -1123,7 +1123,7 @@ es-ES:
         '2':
           meaning: Especialmente recomendada para 14 años y de 21:00 a 6:00 horas
         '3':
-          meaning: 
+          meaning: Dirigida a espectadores adultos desde 18 años (correspondiente para la edad N-18) y emitido entre las 23 (11pm) y las 6 (6am) horas; Limitado para menores y destinado a espectadores adultos.
       NL:
         '0':
           meaning: Sin calificar.
@@ -1346,19 +1346,44 @@ es-ES:
     entry_deleted: Entrada eliminada
     reasons:
       '1':
-        message: 
+        message: |-
+          Hola,
+
+          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creó titulada "%{title}" fue borrada. Este título ya está en nuestra base de datos y, por lo tanto, se considera duplicado.
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en contestar a este mensaje.
         subject: Duplicado
       '2':
-        message: 
+        message: |-
+          Hola,
+
+          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creó titulada "%{title}" fue borrada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en contestar a este mensaje.
         subject: No sigue nuestras guías de contenidos (amateur, etc...)
       '3':
-        message: 
+        message: |-
+          Hola,
+
+          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creó titulada "%{title}" fue borrada. Este título ya existe como una serie de TV y no se considera una película válida. Puede leer más sobre nuestras pautas de contenido [aquí] (https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en contestar a este mensaje.
         subject: Es un programa de televisión
       '4':
-        message: 
+        message: |-
+          Hola,
+
+          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creó titulada "%{title}" fue borrada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en contestar a este mensaje.
         subject: Es una entrada falsa
       '5':
-        message: 
+        message: |-
+          Hola,
+
+          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creó titulada "%{title}" fue borrada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en contestar a este mensaje.
         subject: Es spam
     why_deleting: "¿Por qué quieres eliminar esta entrada?"
   department_credits_count:
@@ -1502,27 +1527,27 @@ es-ES:
     images:
       couldnt_process: No podemos procesar esta imagen
       not_jpeg: La imagen no está en formato JPEG.
-      not_png: 
-      not_svg: 
+      not_png: Esta imagen no es PNG
+      not_svg: Esta imagen no es SVG
     locked:
-      genres: 
-      keywords: 
+      genres: El campo Generos está bloqueado
+      keywords: El campo de palabras clave está bloqueado
     messages:
       blank: requerido
       inclusion: debe seleccionarse
       invalid: es inválido
       required: debe existir
-      suspected_tv_series: 
+      suspected_tv_series: Parece que es una serie de TV o miniserie ya existente, puede continuar agregando este elemento si está seguro, pero si existe en nuestra sección de TV, se eliminará.
       taken: está ocupado
     movie:
-      duplicate_cast: 
+      duplicate_cast: Esta persona ya está añadida como miembro de reparto.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: Esta persona ya está añadida como creador.
+      duplicate_crew_member: Esta persona ya está añadida como %{job_name}.
+      duplicate_episode: Este episodio ya existe
+      duplicate_guest_star: Esta estrella invitada ya existe.
+      duplicate_regular_season_member: Esta persona ya está añadida como actor permanente de esta temporada.
+      duplicate_season: Esta temporada ya existe.
   failed_email: No se ha podido enviar tu correo.
   failed_generic: Ha habido un problema.
   failed_report: Ha habido un problema al enviar tu informe.
@@ -1568,20 +1593,20 @@ es-ES:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: Reproducción 24 Fotogramas
-    2D Artist: 
-    2D Sequence Supervisor: 
+    2D Artist: 2D Artista
+    2D Sequence Supervisor: 2D Supervisor de secuencias
     2D Supervisor: Supervisor 2D
     3D Animator: Animador 3D
     3D Artist: Artista 3D
     3D Coordinator: Coordinador 3D
-    3D Digital Colorist: 
+    3D Digital Colorist: 3D Colorista Digital
     3D Director: Director 3D
     3D Editor: Editor 3D
-    3D Generalist: 
+    3D Generalist: '3D Generalista '
     3D Modeller: Modelador 3D
     3D Sequence Supervisor: Supervisor de secuencia 3D
     3D Supervisor: Supervisor 3D
-    3D Tracking Layout: 
+    3D Tracking Layout: 3D Diseño de seguimiento
     ADR & Dubbing: ADR & Doblaje
     ADR Coordinator: 
     ADR Editor: 
@@ -3082,7 +3107,7 @@ es-ES:
             personal_rating_invalid: 
             personal_rating_not_found: 
             row_is_invalid: 
-            updated_date: 
+            updated_date: Fecha actualizada.
           reason: "¿Motivo? (si es aplicable)"
           summary: Somos capaces de importar %{imported_count} elementos de los %{total_count} (%{imported_percentage}%) elementos detectados en tu lista exportada.
         currently_running: Tu importación está ejecutándose. Puedes refrescar esta página para ver si se ha completado.
@@ -3112,7 +3137,7 @@ es-ES:
       email_new_releases_watchlist: Envíame un correo electrónico cuando haya actualizaciones en mi lista de pendientes..
       new_replies_to_threads_created: Ver automáticamente los hilos que he creado o respondido.
       new_replies_to_threads_watching: Envíame un correo electrónico cuando haya nuevas respuestas en los hilos que sigo.
-      news_updates: 
+      news_updates: Envíeme un correo electrónico sobre noticias y actualizaciones de productos
       notifications: Notificaciones
     profile:
       accent_color: Color para destacar
@@ -3172,7 +3197,7 @@ es-ES:
       keep_track: Mantenga un registro de sus películas y programas de TV favoritos y obtenga recomendaciones de ellos
       log_movies: Registra las pelívulas y programas de tv que has visto.
     by_clicking_agree_to_terms: Al hacer clic en el siguiente botón "Registro", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDb.
-    javascript_required: 
+    javascript_required: Se requiere JavaScript para continuar.
     sign_up_for_account: Crea una cuenta
     signup_text: Crear una cuenta es fácil y gratis. Rellena el formulario para empezar.
   success_approved_access_token: "¡Permiso concedido!"
