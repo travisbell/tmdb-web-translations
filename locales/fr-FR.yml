@@ -280,7 +280,7 @@ fr-FR:
   Movies: Films
   Name: Nom
   Network: Chaîne de télévision
-  Networks: 
+  Networks: Réseaux
   New: Nouveau
   New episode airs in: Nouvel épisode diffusé dans
   'No': Non
@@ -1613,7 +1613,7 @@ fr-FR:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
+    Accountant: Comptable
     Accounting Clerk Assistant: 
     Accounting Supervisor: 
     Accounting Trainee: 
@@ -1628,7 +1628,7 @@ fr-FR:
     Additional Construction: 
     Additional Construction Grip: 
     Additional Dialogue: Dialogue additionnel
-    Additional Director of Photography: 
+    Additional Director of Photography: Directeur de la photographie supplémentaire
     Additional Editing: Montage additionnel
     Additional Editor: Editeur supplémentaire
     Additional Editorial Assistant: Assistant(e) éditorial additionnel
@@ -1644,17 +1644,17 @@ fr-FR:
     Additional Music Supervisor: Superviseur de musique additionnelle
     Additional Photography: Photographie additionnelle
     Additional Post-Production Supervisor: 
-    Additional Production Assistant: 
+    Additional Production Assistant: Assistant de production supplémentaire
     Additional Production Sound Mixer: 
     Additional Script Supervisor: 
     Additional Second Assistant Camera: 
     Additional Second Assistant Director: 
-    Additional Set Dresser: 
+    Additional Set Dresser: Ensemblier supplémentaire
     Additional Set Photographer: 
     Additional Sound Re-Recording Mixer: 
     Additional Sound Re-Recordist: 
     Additional Soundtrack: Bande originale additionnelle
-    Additional Still Photographer: 
+    Additional Still Photographer: Photographe de plateau supplémentaire
     Additional Storyboarding: 
     Additional Third Assistant Director: 
     Additional Underwater Photography: 
@@ -1727,10 +1727,10 @@ fr-FR:
     Assistant Script: 
     Assistant Set Decoration: 
     Assistant Set Decoration Buyer: 
-    Assistant Set Designer: 
-    Assistant Set Dresser: 
+    Assistant Set Designer: Assistant décorateur
+    Assistant Set Dresser: Assistant Ensemblier
     Assistant Set Propsman: 
-    Assistant Sound Designer: 
+    Assistant Sound Designer: Assistant designer sonore
     Assistant Sound Editor: 
     Assistant Sound Engineer: 
     Assistant Unit Manager: 
@@ -1787,7 +1787,7 @@ fr-FR:
     Casting Associate: Associé casting
     Casting Consultant: 
     Casting Coordinator: 
-    Casting Director: 
+    Casting Director: Directeur de casting
     Casting Producer: 
     Casting Researcher: 
     Catering: 
@@ -1805,7 +1805,7 @@ fr-FR:
     Child Wrangler: 
     Choreographer: Chorégraphe
     Cinematography: Cinématographie
-    Clapper Loader: 
+    Clapper Loader: "\t\nDeuxième assistant opérateur"
     Clearances Consultant: 
     Clearances Coordinator: 
     Cloth Setup: Simulation de tissu
@@ -1977,7 +1977,7 @@ fr-FR:
     First Company Grip: 
     Fix Animator: Animateur correction
     Floor Runner: 
-    Focus Puller: 
+    Focus Puller: "\t\nPremier assistant opérateur"
     Foley: Bruitage
     Foley Artist: 
     Foley Editor: 
@@ -2197,7 +2197,7 @@ fr-FR:
     Production Controller: Contrôleur de production
     Production Coordinator: Coordinateur de production
     Production Design: Décors
-    Production Designer: 
+    Production Designer: Chef décorateur
     Production Director: Directeur de la production
     Production Driver: 
     Production Executive: 
@@ -2305,7 +2305,7 @@ fr-FR:
     Set Decoration: Ensemblier
     Set Decoration Buyer: Acheteur décor
     Set Designer: Scénographe
-    Set Dresser: 
+    Set Dresser: Ensemblier
     Set Dressing Artist: Accessoiriste
     Set Dressing Buyer: 
     Set Dressing Manager: Ensemblier
@@ -2624,8 +2624,8 @@ fr-FR:
     images:
       format: Format
       no_backdrop_stills: 
-      no_backdrops: 
-      no_logos: 
+      no_backdrops: Il n'y a pas de fonds d'écran ajoutés à cette entrée.
+      no_logos: 'Il n''y aucun logo '
       no_posters: 
       no_profiles: 
       primary: 
@@ -2639,9 +2639,11 @@ fr-FR:
         adult:
           adult_movie: Film pour adulte ?
         alternative_titles:
-          no_records: 
+          no_records: |2-
+
+            Aucun titre alternatif n'a été ajouté.
         cast:
-          no_records: 
+          no_records: Aucun membre de la distribution n'a été ajouté.
         confirm_collection: |-
           <p>Les collections permettent de regrouper des films et leurs suites sur TMDb. Même si cela prête à discussion, les collections ne sont pas faites pour regrouper des films du même "univers". Pour cela, veuillez s'il-vous-plait <a href="%{list_link}" target="_blank" rel="noopener">créer une liste</a>. Pour plus d'information sur les collections vous pouvez visiter <a href="%{docs_link}" target="_blank" rel="noopener">notre documentation</a>.</p>
 
@@ -2652,11 +2654,13 @@ fr-FR:
           <p>Si ce contenu est par exemple une compilation de DVD, un vidéo de fitness or peut-être un "best-of", alors vous pouvez le marquer en tant que vidéo.</p>
         crew:
           job_required: 
-          no_records: 
+          no_records: Aucun membre d'équipe n'a été ajouté.
           person_required: 
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Ajouter un genre
+          no_records: |2-
+
+            Aucun genre n'a été ajouté.
         keywords:
           add_keyword: Ajouter un Mot-clé
           create: 
@@ -2664,10 +2668,10 @@ fr-FR:
           none_found: Aucun mot-clé correspondant. Voulez-vous en créer un ?
           tip: 
         production_information:
-          add_production_company: 
+          add_production_company: Ajouter une société de production
           no_records: 
           none_found: 
-          production_company: 
+          production_company: Société de production
         release_information:
           no_records: Aucune date de sortie n'a été ajoutée.
         videos:
@@ -2804,7 +2808,7 @@ fr-FR:
           count:
             one: "%{count} groupe"
             other: "%{count} groupes"
-        original_air_date: 
+        original_air_date: Date de diffusion originale
       networks:
         one: Réseau
         other: Réseaux
