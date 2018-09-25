@@ -81,7 +81,6 @@ zh-TW:
   Branding: 品牌
   Budget: 電影成本
   Cancel: 取消
-  Canceled: 已取消
   Cast: 演員陣容
   Categories: 類別
   Certification: 分級
@@ -159,7 +158,6 @@ zh-TW:
   Email: 電子信箱
   Email Address: 信箱地址
   Email Content: 信件內容
-  Ended: 已完結
   Episode Images: 影集圖片
   Episode Number: 集數
   Episode Overview: 影集簡介
@@ -218,7 +216,6 @@ zh-TW:
   Images: 圖片
   Import CSV: 匯入 CSV
   Import List: 匯入清單
-  In Production: 製作中
   In Theaters: 劇院上映中
   Include Adult Items in Search?: 搜尋時包含成人內容的項目嗎？
   Incorrect Content: 不正確的內容
@@ -318,9 +315,7 @@ zh-TW:
   Personal Recommendations: 個人化建議
   Phone Number: 電話號碼
   Physical: DVD出版
-  Pilot: 開發中
   Place of Birth: 出生地
-  Planned: 已列入計畫
   Play: 播放
   Play Trailer: 播放預告片
   Plot Keywords: 劇情關鍵詞
@@ -384,7 +379,6 @@ zh-TW:
   Resend Activation Email: 重送啟用信件
   Reset: 重置
   Reset Password: 重設密碼
-  Returning Series: 最新一季上映中
   Revenue: 收入
   Reviews: 評論
   Rumored: 傳聞
@@ -2517,40 +2511,40 @@ zh-TW:
   joined: 加盟
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
-      toggle_watching: 
+      back_to_parent: 上一頁
+      close_window: 關閉視窗
+      focus_search: 移動至搜尋列
+      go_to_edit: 移動至編輯頁
+      last_reply: 移動至最後的回覆
+      new_discussion: 建立新的討論
+      next_episode: "（右箭頭）下一集"
+      next_page: "（右箭頭）下一頁"
+      next_season: "（右箭頭）下一季"
+      open_activity: 開啟活動頁
+      open_add_image_window: 開啟新增圖片視窗
+      open_profile: 打開個人資料
+      open_shortcut_window: 打開快捷建說明視窗
+      open_translation_selector: 打開語言選擇器
+      previous_episode: "（左箭頭）上一集"
+      previous_page: "（左箭頭）上一頁"
+      previous_season: "（左箭頭）上一季"
+      reply_to_discussion: 回覆討論串
+      save_form: 提交
+      submit_message: 寄出訊息
+      toggle_close: 切換 關閉/打開
+      toggle_private: 切換 公開/私人
+      toggle_watching: 切換觀看狀態
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      discussion_pages: 於討論頁面
+      edit_pages: 於所有編輯頁面
+      global: 全站通用
+      image_pages: 於所有圖片頁面
+      media_pages: 於媒體頁面
+      tv_episode_pages: 於電視影集集數頁面
+      tv_season_pages: 於電視影集季數頁面
+    keyboard_shortcuts: 鍵盤快捷鍵
+    view_keyboard_shorcuts: 瀏覽鍵盤快捷鍵
+    view_shortcuts: 瀏覽快捷鍵
   list_info:
     average_rating: 平均評分
     image_selected: 已選擇
@@ -2614,10 +2608,10 @@ zh-TW:
         overview: 撰寫劇情簡介時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。
         social_links: 社群連結只能是認證過的官方網站，目前還不允許粉絲專業。
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: 瀏覽 Facebook
+      visit_homepage: 瀏覽首頁
+      visit_instagram: 瀏覽 Instagram
+      visit_twitter: 瀏覽 Twitter
     genre:
       movie_page_title: "%{name} 的電影"
       tv_page_title: "%{name} 的電視影集"
@@ -2808,6 +2802,13 @@ zh-TW:
       networks:
         one: 電視網
         other: 電視網
+      stauses:
+        Canceled: 已取消
+        Ended: 已完結
+        In Production: 製作中
+        Pilot: 開發中
+        Planned: 已列入計畫
+        Returning Series: 最新一季上映中
       types:
         Documentary: 紀錄片
         Miniseries: 迷你影集
@@ -3096,9 +3097,9 @@ zh-TW:
           item_reasons:
             already_imported: 已匯入
             cant_find_imdb: 找不到 IMDb ID
-            imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
+            imdb_id_not_in_row: 無法找到此 IMDb ID
+            personal_rating_invalid: 您的個人評分無效（應介於 0.5 和 10.0 之間）
+            personal_rating_not_found: 無法找到您的個人評分資料
             row_is_invalid: 此行資料是無效的
             updated_date: 更新日期
           reason: 若您願意的話，能提供原因嗎？

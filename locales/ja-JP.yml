@@ -81,7 +81,6 @@ ja-JP:
   Branding: 
   Budget: 予算
   Cancel: キャンセル
-  Canceled: キャンセルしました
   Cast: 出演者
   Categories: カテゴリー
   Certification: 分類
@@ -159,11 +158,10 @@ ja-JP:
   Email: メール
   Email Address: メールアドレス
   Email Content: メールの内容
-  Ended: 終了
-  Episode Images: 
+  Episode Images: エピソード画像
   Episode Number: エピソード番号
   Episode Overview: エピソードの概要
-  Episodes: 
+  Episodes: エピソード
   Error: 
   Example API Request: 
   Expand: 拡大する
@@ -220,7 +218,6 @@ ja-JP:
   Images: 画像
   Import CSV: CSVファイルを読み込み
   Import List: 
-  In Production: 制作中
   In Theaters: 上映中
   Include Adult Items in Search?: 検索に成人向けを含めますか？
   Incorrect Content: 不適切なコンテンツ
@@ -320,9 +317,7 @@ ja-JP:
   Personal Recommendations: 
   Phone Number: 電話番号
   Physical: 
-  Pilot: 
   Place of Birth: 出生地
-  Planned: 予定
   Play: 
   Play Trailer: 予告編を再生する
   Plot Keywords: 
@@ -346,7 +341,7 @@ ja-JP:
   Privacy Policy: 個人情報の取扱いについて
   Production Code: 
   Production Companies: 制作会社
-  Production Countries: 
+  Production Countries: 制作国
   Production Information: 制作情報
   Profiles: プロフィール
   Public List?: リストを公開しますか？
@@ -386,7 +381,6 @@ ja-JP:
   Resend Activation Email: 有効化メールを再送信する
   Reset: リセット
   Reset Password: パスワードをリセット
-  Returning Series: 
   Revenue: 収益
   Reviews: レビュー
   Rumored: 
@@ -578,7 +572,7 @@ ja-JP:
     filter_by: 絞り込み：
     filters:
       date_added: 追加日
-      date_rated: 
+      date_rated: 評価日
       my_rating: 私の評価
       popularity: 人気
       rating: 評価
@@ -625,7 +619,7 @@ ja-JP:
       recent_discussions: 最近のディスカッション
       total_edits: 総編集数
       total_ratings: 総評価数
-      upcoming_watchlist: 
+      upcoming_watchlist: ウォッチリストから公開予定の作品
     page_title:
       page_owner: マイプロフィール
       public: "%{username}さんのプロフィール"
@@ -1316,10 +1310,10 @@ ja-JP:
     - 土曜日
     formats:
       abbrev: "%Y年%m月%d日"
-      default: "%Y年%n月%j日"
-      full_month_day: "%Y年%n月%j日"
-      full_month_year: "%Y年%n月"
-      short_month_day_year: "%Y年%n月%j日"
+      default: "%Y年%m月%d日"
+      full_month_day: "%Y年%m月%d日"
+      full_month_year: "%Y年%m月"
+      short_month_day_year: "%Y年%m月%d日"
     month_names:
     - 
     - 1月
@@ -1479,7 +1473,7 @@ ja-JP:
     users_in_discussion:
       no_subscribers: 
       users_in_discussion: 
-    your_account: 
+    your_account: あなたのアカウント
   dont_fallback: 
   edit_list:
     add_edit_items: 
@@ -1492,7 +1486,7 @@ ja-JP:
     does_not_match: メールアドレスが一致しません。もう一度お試しください。
     new_email_address: 新しいメールアドレス
     sent_verification_email: "%{email_address}に確認のためのメールが送信されました。進める方法につきましては、受信トレイ（および迷惑メールフォルダ）を確認してください。"
-  episode_count: 
+  episode_count: "%{count} 話"
   episode_number_name: 第%{episode_number}話
   errors:
     images:
@@ -1515,7 +1509,7 @@ ja-JP:
     tv:
       duplicate_created_by: この人物はすでにスタッフとして追加されています。
       duplicate_crew_member: 
-      duplicate_episode: 
+      duplicate_episode: このエピソードは既に存在しています。
       duplicate_guest_star: 
       duplicate_regular_season_member: 
       duplicate_season: 
@@ -1533,9 +1527,9 @@ ja-JP:
       discussions: 
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: 新しいエピソードは%{number_of_days}日後に放送されます
+        today: 新しいエピソードは本日放送されます
+        tomorrow: 新しいエピソードは明日放送されます
   images:
     confirm_delete: 
     upload_criteria:
@@ -1555,7 +1549,9 @@ ja-JP:
       read_guidelines: 更新された<a href="%{link}" target="_blank" rel="noopener">画像投稿ガイドライン</a>をよくお読みください。
       tip: 
   invalid_aspect_ratio: このアスペクト比は無効です。
-  item_count: 
+  item_count:
+    one: "%{count} 件"
+    other: "%{count} 件"
   jobs:
     '"A" Camera Operator': 
     '"B" Camera Operator': 
@@ -1586,7 +1582,7 @@ ja-JP:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
+    Accountant: 会計士
     Accounting Clerk Assistant: 
     Accounting Supervisor: 
     Accounting Trainee: 
@@ -2491,9 +2487,9 @@ ja-JP:
   keyboard_shortcuts:
     actions:
       back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
+      close_window: 開いているウィンドウを閉じる
+      focus_search: 検索バーに移動する
+      go_to_edit: 編集ページに行く
       last_reply: 
       new_discussion: 
       next_episode: 
@@ -2770,6 +2766,13 @@ ja-JP:
       networks:
         one: ネットワーク
         other: ネットワーク
+      stauses:
+        Canceled: キャンセルしました
+        Ended: 終了
+        In Production: 制作中
+        Pilot: 
+        Planned: 予定
+        Returning Series: 
       types:
         Documentary: ドキュメンタリー
         Miniseries: ミニシリーズ
@@ -3044,7 +3047,7 @@ ja-JP:
       import_button: インポート
       import_list: インポートリスト
       navigation:
-        import: 
+        import: インポート
         previous: 
       notification:
         finished_import: 
@@ -3062,13 +3065,13 @@ ja-JP:
           item: 
           item_reasons:
             already_imported: 
-            cant_find_imdb: 
+            cant_find_imdb: IMDb IDが見つかりませんでした。
             imdb_id_not_in_row: 
             personal_rating_invalid: あなたの評価は無効です（0.5から10.0の間でなければなりません）
             personal_rating_not_found: 
-            row_is_invalid: 
+            row_is_invalid: この行は無効です。
             updated_date: 
-          reason: 
+          reason: 理由は？ （該当する場合）
           summary: 
         currently_running: 
         import_results: 
@@ -3080,17 +3083,17 @@ ja-JP:
         favorite: 
         rated: 
         watchlist: 
-      which_list: 
+      which_list: どのリストにインポートしますか？
     navigation:
       account_settings: アカウント設定
       api: API
       blocked_users: 
       connected_apps: 接続されたアプリ
       delete_account: アカウントを削除する
-      edit_profile: 
+      edit_profile: プロフィールを編集する
       import_list: 
-      notification_settings: 
-      settings: 
+      notification_settings: 通知の設定
+      settings: 設定
       sharing_settings: 
       social_settings: SNSの設定
     notifications:
@@ -3098,7 +3101,7 @@ ja-JP:
       new_replies_to_threads_created: 
       new_replies_to_threads_watching: 
       news_updates: 
-      notifications: 
+      notifications: 通知
     profile:
       accent_color: アクセントカラー
       avatar:
@@ -3127,8 +3130,8 @@ ja-JP:
         share_on_twitter: Twitterで新しいお気に入りを共有しますか？
         share_publicly: このリストを一般公開しますか？
       rated_list:
-        rated_settings: 
-        share_publicly: 
+        rated_settings: 評価リストの設定
+        share_publicly: このリストを公開しますか？
       sharing_settings: 共有設定
       watchlist:
         remove_when_rated: アイテムが評価されたら自動的に削除しますか？
