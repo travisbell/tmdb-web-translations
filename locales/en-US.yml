@@ -658,6 +658,10 @@ en-US:
     3rd_party_request: 3rd Party Authentication Request
     approved_session: You have approved %{application_name}. You can close this window.
     continue: If you would like to continue, click the approve button below. If not, you can simply close this window.
+    errors:
+      invalid_request_token:
+        message: The access token you have submitted is invalid. Try creating a new one and making sure you have copied it correctly. If you continue to  have issues, contact the developer of the app you're using.
+        name: Invalid Request Token
     request_token_approval: "{{APP}} is asking for your permission to read and write data on your behalf. This is necessary if you want to do things like maintain your lists or rate movies outside of TMDb."
   attributes:
     biography: Biography
