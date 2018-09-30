@@ -178,7 +178,7 @@ ru-RU:
   Favorite Movies: Избранные фильмы
   Favorite TV Shows: Избранные сериалы
   Favorites: Избранное
-  Featured: 
+  Featured: Рекомендуемые
   Featured Cast: Планировались к участию
   Featured Crew: Создатели
   Featured Lists: Лучшие подборки
@@ -663,8 +663,10 @@ ru-RU:
   add_to_list: Добавить %{media_title} в свой список...
   already_translated_in: "%{page_title} уже переведен на следующие языки... "
   api_session:
+    3rd_party_request: 
     approved_session: Вы подтвердили %{application_name}. Можете закрыть это окно.
     continue: Чтобы продолжить, нажмите на клавишу ниже. Для выхода просто закройте это окно.
+    request_token_approval: 
   attributes:
     biography: Биография
     certification: Сертификация
@@ -718,9 +720,9 @@ ru-RU:
         '3':
           meaning: Не рекомендуется для детей младше 12.
         '4':
-          meaning: 
+          meaning: Запрещено для лиц моложе 16 лет.
         '5':
-          meaning: 
+          meaning: Запрещено для лиц моложе 18 лет.
       BR:
         '1':
           meaning: 
@@ -758,9 +760,9 @@ ru-RU:
           meaning: 18+ - разрешается смотреть, арендовать и покупать только с 18 летнего возраста. Если фильм содержит явные порнографические сцены, то к классификации добавляется "Explicit sexuality". А продавцы видео должны разместить подобные фильмы в специальной комнате для взрослых.
       DE:
         '1':
-          meaning: 
+          meaning: Нет ограничений по возрасту.
         '2':
-          meaning: 
+          meaning: Не допускается для детей младше 6 лет.
         '3':
           meaning: 
         '4':
@@ -769,28 +771,28 @@ ru-RU:
           meaning: 
       DK:
         '0':
-          meaning: 
+          meaning: Нет информации о рейтинге.
         '1':
-          meaning: 
+          meaning: Подходит для широкой аудитории.
         '2':
           meaning: Не рекомендуется детям до 7 лет.
         '3':
-          meaning: 
+          meaning: От 11 лет и выше.
         '4':
-          meaning: 
+          meaning: От 15 лет и выше.
         '5':
           meaning: 
       ES:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: Не рекомендуется для аудитории до 7 лет.
         '3':
-          meaning: 
+          meaning: Не рекомендуется для аудитории до 12 лет.
         '4':
-          meaning: 
+          meaning: Не рекомендуется для аудитории младше 16 лет.
         '5':
-          meaning: 
+          meaning: Не рекомендуется для аудитории младше 18 лет.
         '6':
           meaning: 
       FI:
@@ -803,9 +805,9 @@ ru-RU:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: Только для взрослых.
         '6':
-          meaning: 
+          meaning: Коммерческое распространение запрещено.
       FR:
         '1':
           meaning: 
@@ -819,9 +821,9 @@ ru-RU:
           meaning: 
       GB:
         '1':
-          meaning: 
+          meaning: Допускается для всех возрастов, для детей нет ничего непригодного.
         '2':
-          meaning: 
+          meaning: Допускается для всех возрастов, но некоторые сцены могут быть непригодными для маленьких детей. Может содержать мягкий язык и отсылки к сексу/наркотикам. Может содержать умеренное насилие, если это оправдано контекстом (например, фантазией).
         '3':
           meaning: 
         '4':
@@ -856,11 +858,11 @@ ru-RU:
           meaning: 
       LT:
         '1':
-          meaning: 
+          meaning: Фильмы для зрителей всех возрастов.
         '2':
-          meaning: 
+          meaning: Фильмы для зрителей от 7 лет. Зрители до 7 лет допускаются только в сопровождении взрослых.
         '3':
-          meaning: 
+          meaning: Фильмы для зрителей от 13 лет. Зрители от 7 до 13 лет допускаются только в сопровождении взрослых.
         '4':
           meaning: 
         '5':
@@ -882,7 +884,7 @@ ru-RU:
           meaning: 
       NL:
         '1':
-          meaning: 
+          meaning: Для всех возрастов.
         '2':
           meaning: 
         '3':
@@ -893,9 +895,9 @@ ru-RU:
           meaning: 
       'NO':
         '0':
-          meaning: 
+          meaning: Информация о рейтинге отсутствует.
         '1':
-          meaning: 
+          meaning: Подходит для всех.
         '2':
           meaning: 
         '3':
@@ -1253,7 +1255,7 @@ ru-RU:
       image: Изображения
       image_bible: 
     movie:
-      movie: 
+      movie: Фильмы
       movie_bible: 
       tall_bible:
         bottom: 
@@ -1376,35 +1378,35 @@ ru-RU:
     Writing: Сценарий
   discussions:
     actions:
-      actions: 
-      close_discussion: 
+      actions: Действия
+      close_discussion: Закрыть Дискуссию
       make_private: Сделать Приватным
       make_public: 'Сделать Публичным '
       mark_spam: Отметить как спам
-      reopen_discussion: 
+      reopen_discussion: Переоткрыть Дискуссию
       stop_watching: Остановить просмотр
-      view_activity: 
+      view_activity: Просмотр Активности
       watch: Смотреть
-    admin_panel: 
+    admin_panel: Панель Администратора
     back_options:
-      back_to_item_with_arrow: 
-      back_to_tmdb_with_arrow: 
-      back_with_arrow: 
+      back_to_item_with_arrow: "← Вернуться к %{item_title}"
+      back_to_tmdb_with_arrow: "← Вернуться к TMDb"
+      back_with_arrow: "← Вернуться"
     categories:
-      categories: 
+      categories: Категории
       discuss:
-        content_issues: 
-        discuss: 
-        general: 
-        website_support: 
+        content_issues: Проблемы с содержимым
+        discuss: Обсудить
+        general: Общее
+        website_support: Поддержка Сайта
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
-        content_issues: 
-        general: 
-        general_chat: 
-        moderator_talk: 
+        api_requests: Запросы API
+        api_requests_(professional): Запросы API (Профессионал)
+        api_support: Поддержка API
+        content_issues: Проблемы с содержимым
+        general: Общее
+        general_chat: Общий Чат
+        moderator_talk: Чат Модераторов
         support: 
         website_support: 
     category:
@@ -1432,36 +1434,40 @@ ru-RU:
     no_discussions: 
     pagination:
       post_summary: 
-      summary: 
+      summary:
+        few: "%{count} обсуждения, страница %{current_page} из %{total_pages}"
+        many: "%{count} обсуждений, страница %{current_page} из %{total_pages}"
+        one: "%{count} обсуждение, страница %{current_page} из %{total_pages}"
+        other: ''
     post:
       delete: Удалить
       edit: Редактировать
       hide: Спрятать
       ignore: 'Игнорировать '
-      like: 
+      like: Нравится
       messages:
         delete_comment: Нажав "Да", этот комментарий будет удален.
         delete_discussion: Нажав "Да", это обсуждения будет удалено.
         hide_comment: 'Нажав "Да", этот комментарий будет спрятан. '
         hide_discussion: Нажав "Да", это обсуждения будет спрятано.
-        ignore_user: 
-        mark_as_spam: 
-        report_violation: 
-        unhide_discussion: 
-      posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 
-      unhide: 
+        ignore_user: Вы действительно хотите игнорировать этого пользователя? Все его обсуждения и комментарии исчезнут. Вы можете отменить блокировку, перейдя на страницу «Заблокированные пользователи» в настройках вашей учетной записи.
+        mark_as_spam: Вы уверены, что хотите отметить это обсуждение как спам? Оно будет удалено автоматически и это действие нельзя отменить. Отметка дискуссий в качестве спама помогает обучению службы обнаружения спама, которую мы используем.
+        report_violation: Пожалуйста подтвердите, что вы хотите сообщить о нарушении этим пользователем наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">правил сообщества</a>.
+        unhide_discussion: Нажав «Да», эта дискуссия снова станет видимой.
+      posted_by_with_datetime: опубликовано %{username}, %{date} в %{time}
+      quote: Цитата
+      reopen_reply: Переоткрыть и Ответить
+      reply: Ответить
+      reply_by: Ответ от %{username}
+      reply_on_datetime: ", %{date} в %{time}"
+      report: Сообщить
+      unhide: Показать
     report_violation: Сообщить о нарушении
     search:
-      advanced_search: 
-      search_closed: 
-      search_forums: 
-      search_open: 
+      advanced_search: Расширенный Поиск
+      search_closed: Поиск закрыт?
+      search_forums: Поиск в форумах...
+      search_open: Поиск открыт?
     statuses:
       closed: Закрыть
       open: Открыть
@@ -1471,8 +1477,8 @@ ru-RU:
       status: Статус
       subject: Тема
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Нет подписчиков
+      users_in_discussion: Пользователи в этой дискуссии
     your_account: Ваш Аккаунт
   dont_fallback: Отсутствует
   edit_list:
@@ -1501,8 +1507,8 @@ ru-RU:
       not_png: Это изображение не в формате PNG
       not_svg: Изображение не в формате SVG
     locked:
-      genres: 
-      keywords: 
+      genres: Поле жанров заблокировано
+      keywords: Поле ключевых слов заблокировано
     messages:
       blank: обязательный
       inclusion: должен быть выбран
@@ -1511,14 +1517,14 @@ ru-RU:
       suspected_tv_series: 
       taken: уже выбран
     movie:
-      duplicate_cast: 
+      duplicate_cast: Этот человек уже добавлен в качестве участника трансляции.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
+      duplicate_created_by: Этот человек уже добавлен в качестве создателя.
+      duplicate_crew_member: Этот человек уже добавлен как %{job_name}.
       duplicate_episode: Этот эпизод уже существует.
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_guest_star: Эта гостевая звезда уже существует.
+      duplicate_regular_season_member: Этот человек уже добавлен в качестве регулярного участника трансляции.
+      duplicate_season: Этот сезон уже существует.
   failed_email: Не удалось отправить письмо по электронной почте.
   failed_generic: Возникла проблема.
   failed_report: Возникла проблема с отправкой вашего отчета.
@@ -1530,7 +1536,7 @@ ru-RU:
   homepage:
     discussions:
       catch_up_now: 
-      discussions: 
+      discussions: Обсуждения
     tv_shows:
       episode_airs:
         in_days: 
@@ -1548,7 +1554,7 @@ ru-RU:
       '7': Минимальное разрешение 1280х720
       '8': Соотношение сторон 16x9 (1.78:1)
       '9': Минимальное разрешение 300х450
-      backdrops_must_meet: 
+      backdrops_must_meet: 'Фоны должны соответствовать следующим критериям:'
       episode_stills_must_meet: 
       posters_must_meet: 'Постеры должны соответствовать следующим требованиям:'
       profile_must_meet: 'Изображение должно соответствовать следующим требованиям:'
@@ -1561,7 +1567,7 @@ ru-RU:
     one: "%{count} позиция"
     other: "%{count} позиции"
   jobs:
-    '"A" Camera Operator': 
+    '"A" Camera Operator': Оператор «A»
     '"B" Camera Operator': 
     '"C" Camera Operator': 
     '"D" Camera Operator': 
@@ -1590,30 +1596,30 @@ ru-RU:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
-    Accounting Clerk Assistant: 
-    Accounting Supervisor: 
-    Accounting Trainee: 
+    Accountant: Бухгалтер
+    Accounting Clerk Assistant: Помощник по бухгалтерскому учету
+    Accounting Supervisor: Главный бухгалтер
+    Accounting Trainee: Стажер бухгалтера
     Acting Double: 
     Action Director: 
     Actor: Актер
     Actor's Assistant: Дублёр
     Adaptation: Адаптация
     Additional Camera: Дополнительная камера
-    Additional Casting: 
+    Additional Casting: Дополнительный набор актёров
     Additional Colorist: 
     Additional Construction: 
     Additional Construction Grip: 
     Additional Dialogue: Дополнительный диалог
-    Additional Director of Photography: 
+    Additional Director of Photography: Дополнительный Директор по фотографии
     Additional Editing: Дополнительное редактирование
-    Additional Editor: 
+    Additional Editor: Дополнительный Редактор
     Additional Editorial Assistant: Помощник дополнительного редактора
     Additional Effects Development: Помощник разработчика эффектов
-    Additional First Assistant Camera: 
+    Additional First Assistant Camera: Дополнительная первая вспомогательная камера
     Additional Gaffer: 
     Additional Grip: 
-    Additional Hairstylist: 
+    Additional Hairstylist: Дополнительный стилист для волос
     Additional Key Construction Grip: 
     Additional Key Grip: 
     Additional Lighting Technician: 
@@ -2856,7 +2862,7 @@ ru-RU:
   navigation:
     discover:
       discover: Обзор
-      movies: 
+      movies: Фильмы
       tv_shows: Сериалы
     movies:
       now_playing: Сейчас
