@@ -657,20 +657,20 @@ sk-SK:
   add_to_list: Pridať %{media_title} do jedného z vašich zoznamov...
   already_translated_in: "%{page_title} je už preložený do nasledujúcich jazykov..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Autentifikačné požiadavky 3 strany
     approved_session: Schválilo ste %{application_name}. Môžete zavrieť toto okno.
     continue: Pokiaľ si želáte pokračovať, kliknite na tlačidlo schváliť. Pokiaľ nie, jednoducho zavrite toto okno.
-    request_token_approval: 
+    request_token_approval: "{{APP}} si pýta vaše povolenie čítať a zapisovať dáta za vás. Toto je nevyhnutné, pokiaľ chcete robiť veci ako udržiavať vaše zoznamy alebo hodnotenia mimo TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Udelili ste povolenia čítania a zápisu aplikácií <strong>%{application_name}</strong>. Teraz sa môžete vrátiť do aplikácie a zatvoriť toto okno. Prístupové práva môžete kedykoľvek odoprieť tak, že pôjdete do vašich nastavení účtu a do sekcie "Pripojené aplikácie".
+        name: Autentifikácia udelená
       denied:
-        message: 
-        name: 
+        message: "<p>Odopreli ste prístup aplikácií <strong>%{application_name}</strong>. Pokiaľ bol toto omyl, alebo by ste chceli reštartovať autentifikačný proces, jednoducho sa vráťte do aplikácie a vyžiadajte znova nové povolenie.</p>"
+        name: Autentifikácia odmietnutá
       invalid_request_token:
-        message: 
-        name: 
+        message: Odoslaný prístupový token je neplatný. Skúste vytvoriť nový a uistite sa, že ste ho nakopírovali správne. Pokiaľ vaše problémy pretrvajú, kontaktujte vývojára aplikácie, ktorú používate.
+        name: Neplatný požiadavkový token
   attributes:
     biography: Biografia
     certification: Prístupnosť
@@ -1459,7 +1459,7 @@ sk-SK:
       community_guidelines: Komunitné pravidlá
       discussion_category: Kategória
       for_item: Pre položku
-      message: 
+      message: Správa
       new_discussion: Nová diskusia
       subject: Predmet
     no_discussions: Žiadne diskusie.

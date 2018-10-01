@@ -519,7 +519,7 @@ es-ES:
     messages: Mensajes
     profile_and_settings: Perfil y ajustes
     ratings: Puntuaciones
-    settings: Settings
+    settings: Ajustes
     sign_up: Registrarse
     view_profile: Ver perfil
     watchlist: Lista de pendientes
@@ -655,20 +655,20 @@ es-ES:
   add_to_list: Añadir %{media_title} a una de tus listas
   already_translated_in: "%{page_title} ya está traducida en los siguientes idiomas..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Autentificación Requerida de Terceros
     approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
     continue: Si quieres continuar, haz click en aprobar. Si no, simplemente cierra esta ventana.
-    request_token_approval: 
+    request_token_approval: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas puntuadas fuera de TMDb"
     statuses:
       completed:
-        message: 
-        name: 
+        message: Has concedido permiso para leer y escribir a <strong>%{application_name}</strong>. Ahora puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso yendo a los ajustes de tu cuenta y a tu "Aplicaciones Conectadas" página.
+        name: Autentificación Concedida
       denied:
-        message: 
-        name: 
+        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si esto fue un error, o te gustaría reiniciar el proceso de autentificación vuelve a la aplicación y solicita el permiso de nuevo.</p>"
+        name: Autentificación Denegada
       invalid_request_token:
-        message: 
-        name: 
+        message: El token de acceso que has presentado es inválido. Prueba creando uno nuevo y asegurándote de que lo has copiado correctamente. Si continuas teniendo problemas, contacta con el desarrollador de la aplicación que estás usando.
+        name: Token de Solicitud Inválido
   attributes:
     biography: Biografía
     certification: Certificación
@@ -1537,7 +1537,7 @@ es-ES:
       genres: El campo Generos está bloqueado
       keywords: El campo de palabras clave está bloqueado
     messages:
-      blank: requerido
+      blank: es requerido
       inclusion: debe seleccionarse
       invalid: es inválido
       required: debe existir
@@ -1597,20 +1597,20 @@ es-ES:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: Reproducción 24 Fotogramas
-    2D Artist: 2D Artista
-    2D Sequence Supervisor: 2D Supervisor de secuencias
+    2D Artist: Artista 2D
+    2D Sequence Supervisor: Supervisor de secuencias 2D
     2D Supervisor: Supervisor 2D
     3D Animator: Animador 3D
     3D Artist: Artista 3D
     3D Coordinator: Coordinador 3D
-    3D Digital Colorist: 3D Colorista Digital
+    3D Digital Colorist: Colorista Digital 3D
     3D Director: Director 3D
     3D Editor: Editor 3D
-    3D Generalist: '3D Generalista '
+    3D Generalist: Generalista 3D
     3D Modeller: Modelador 3D
     3D Sequence Supervisor: Supervisor de secuencia 3D
     3D Supervisor: Supervisor 3D
-    3D Tracking Layout: 3D Diseño de seguimiento
+    3D Tracking Layout: Diseño de seguimiento 3D
     ADR & Dubbing: ADR & Doblaje
     ADR Coordinator: 
     ADR Editor: 
@@ -1622,7 +1622,7 @@ es-ES:
     ADR Supervisor: 
     ADR Voice Casting: 
     Accountant: Contador
-    Accounting Clerk Assistant: 
+    Accounting Clerk Assistant: Asistente del Secretario de Contabilidad
     Accounting Supervisor: Cuenta de supervisor
     Accounting Trainee: Cuenta de entrenamiento
     Acting Double: 
@@ -2525,23 +2525,23 @@ es-ES:
   joined: unido
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
+      back_to_parent: retrocede (o a padre cuando sea aplicable)
+      close_window: Cierra una ventana abierta
+      focus_search: centra la barra de búsqueda
+      go_to_edit: ir a la pagina de editar
+      last_reply: ir a la ultima respuesta
+      new_discussion: Crear nueva discusión
+      next_episode: "(flecha derecha) ir a siguiente episodio"
+      next_page: "(flecha derecha) siguiente página"
+      next_season: "(flecha derecha) ir a siguiente temporada"
+      open_activity: abrir actividad
+      open_add_image_window: abrir añadir ventana de imágen
+      open_profile: abrir menú de perfil
+      open_shortcut_window: abrir la ventana de atajo del teclado
+      open_translation_selector: abrir la sección de traducción
+      previous_episode: "(flecha izquierda) ir a anterior episodio"
+      previous_page: "(flecha izquierda) anterior página"
+      previous_season: "(flecha izquierda) ir a la anterior temporada"
       reply_to_discussion: 
       save_form: 
       submit_message: 
@@ -2556,9 +2556,9 @@ es-ES:
       media_pages: 
       tv_episode_pages: 
       tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+    keyboard_shortcuts: Atajos de teclado
+    view_keyboard_shorcuts: Ver Atajos de Teclado
+    view_shortcuts: Ver atajos
   list_info:
     average_rating: Calificación media
     image_selected: Seleccionada
@@ -2588,7 +2588,7 @@ es-ES:
     step_3: 'Paso 3: Escoger imagen'
     step_4: 'Paso 4: compartir'
   login:
-    login_text_1: 
+    login_text_1: En orden para usar las capacidades de editar y puntuar de TMDb, asi como a recibir recomendaciones personales necesitaras entrar con tu cuenta. Si no tienes una cuenta, registrar una es facil y simple. <a href="%{signup_link}">pulsa aquí</a> para empezar
     login_text_2: Si ya te has registrado pero aún no has recibido el correo de confirmación, <a href="%{verification_link}">pulsa aquí</a> para enviarlo de nuevo.
     login_to_your_account: Accede a tu cuenta
   login_to_create: "¿No encuentras una película o programa de tv? Identifícate y crealo."
@@ -2599,8 +2599,8 @@ es-ES:
       movie_page_title: Películas producidas por %{name}
       tv_page_title: Programas de tv en %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Bloquea todos los Campos
+      lock_all_images: Bloquea todas las Imagenes
       page_title: Editar %{name}
       placeholders:
         country: Selecciona un país...
@@ -2622,10 +2622,10 @@ es-ES:
         overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin spoilers.
         social_links: Los links sociales son los únicos permitidos (verificados) a las páginas oficiales. Las páginas de fans no se permiten
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Visita Facebook
+      visit_homepage: Visita la página principal
+      visit_instagram: Visita Instagram
+      visit_twitter: Visita Twitter
     genre:
       movie_page_title: Películas %{name}
       tv_page_title: Programas de tv %{name}
@@ -2875,7 +2875,7 @@ es-ES:
         create: 
         no_conversations: 
         view: 
-      no_user_found: 
+      no_user_found: Ningún usuario encontrado
       reply: Escribe un mensaje
       subject: "¿Sobre que trata esto?"
       to: Busca un usuario
@@ -3043,7 +3043,7 @@ es-ES:
   person:
     credits:
       as_character: como %{character}
-      as_job: 
+      as_job: "— %{job}"
   resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación? Introduce tu nombre de usuario y lo reenviaremos."
   reset_password_dialog_text: Confirmando esta petición, te enviaremos un correo electrónico con las instrucciones para reestablecer la contraseña. ¿Estás seguro de querer hacelo?
   reset_password_text: Escribe tu nombre de usuario debajo para iniciar el proceso de reestablecimiento de contraseña.
