@@ -89,13 +89,13 @@ ru-RU:
   Change?: Изменить?
   Changes: Мои правки
   Character: Персонаж
-  Choose: 
+  Choose: Выберите...
   City: Город
   Clip: Клип
   Clips: Клипы
   Collection Results: Коллекция Результаты
   Collections: Коллекции
-  Coming soon!: 
+  Coming soon!: Скоро!
   Comments: Комментарии
   Community: Сообщество
   Community Data: Рейтинг
@@ -103,7 +103,7 @@ ru-RU:
   Companies: Компании
   Company Results: Результаты компании
   Confirm: Подтвердить
-  Confirm Your Application: 
+  Confirm Your Application: Подтвердите свою заявку
   Contact Email: Эл. почта для контактов
   Contact Us: Связаться с нами
   Content Ratings: Возрастной рейтинг
@@ -663,20 +663,20 @@ ru-RU:
   add_to_list: Добавить %{media_title} в свой список...
   already_translated_in: "%{page_title} уже переведен на следующие языки... "
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Запрос на стороннюю аутентификацию
     approved_session: Вы подтвердили %{application_name}. Можете закрыть это окно.
     continue: Чтобы продолжить, нажмите на клавишу ниже. Для выхода просто закройте это окно.
-    request_token_approval: 
+    request_token_approval: "{{APP}} запрашивает ваше разрешение на чтение и запись данных от вашего имени. Это необходимо, если вы хотите делать такие вещи, как вести свои списки или оценивать фильмы вне TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Вы предоставили <strong>%{application_name}</strong> разрешение на чтение и запись. Теперь вы можете вернуться в приложение и закрыть это окно. Вы всегда можете отменить этот доступ, перейдя на страницу настроек своей учетной записи, а затем на страницу «Связанные приложения».
+        name: Аутентификация разрешена
       denied:
-        message: 
-        name: 
+        message: "<p>Вы отказали в доступе <strong>%{application_name}</strong>. Если это было ошибкой или вы хотите перезапустить процесс аутентификации, вернитесь обратно в приложение и снова запросите разрешение.</p>"
+        name: Отказано в аутентификации
       invalid_request_token:
-        message: 
-        name: 
+        message: Отправленный вами токен доступа недействителен. Попробуйте создать новый и убедитесь, что вы скопировали его правильно. Если у вас по-прежнему возникают проблемы, обратитесь к разработчику приложения, которое вы используете.
+        name: Токен запроса недействителен
   attributes:
     biography: Биография
     certification: Сертификация
@@ -1282,7 +1282,7 @@ ru-RU:
         top: 
     pro_tip: 
     search:
-      placeholder_1: 
+      placeholder_1: Как я могу вам помочь?
     tv:
       tall_bible:
         bottom: 
@@ -1292,7 +1292,7 @@ ru-RU:
     welcome_1: 'Добро пожаловать в '
     welcome_2: Библия содействия
   cookie_popup:
-    message: 
+    message: Мы используем файлы cookie, чтобы помочь вам улучшить опыт работы с TMDb. Чтобы узнать больше, вы можете ознакомиться с нашей <a href="%{policy_url}" target="_blank" rel="noopener">политикой использования файлов cookie</a>. Продолжая использовать TMDb, вы соглашаетесь с этой политикой.
     ok_button: Ок
   date:
     abbr_day_names:
@@ -1417,33 +1417,37 @@ ru-RU:
         general: Общее
         general_chat: Общий Чат
         moderator_talk: Чат Модераторов
-        support: 
-        website_support: 
+        support: Поддержка
+        website_support: Поддержка сайта
     category:
-      last_reply_with_datetime: 
-      last_reply_with_datetime_and_username: 
-    discussion_activity: 
+      last_reply_with_datetime: "%{date} в %{time}"
+      last_reply_with_datetime_and_username: "%{date} в %{time}<br>от %{username}"
+    discussion_activity: Активность обсуждения
     email_notifications:
-      email_notifications: 
+      email_notifications: Уведомления по электронной почте
       subscribe: 'Подписаться '
       unsubscribe: Отказаться от подписки
     headers:
-      discuss: 
-      discuss_item: 
-      lets_chat: 
-      support: 
-      support_title: 
-    login_to_be_notified: 
+      discuss: Обсудить
+      discuss_item: Обсудить %{item_title}
+      lets_chat: Давайте общаться
+      support: Поддержка
+      support_title: Поддержка The Movie Database
+    login_to_be_notified: Войдите, чтобы получать уведомления о первом сообщении.
     new_discussion:
-      community_guidelines: 
-      discussion_category: 
-      for_item: 
-      message: 
-      new_discussion: 
-      subject: 
-    no_discussions: 
+      community_guidelines: Руководство сообщества
+      discussion_category: Категория
+      for_item: Для сообщения
+      message: Сообщение
+      new_discussion: Новое обсуждение
+      subject: Тема
+    no_discussions: Нет обсуждений.
     pagination:
-      post_summary: 
+      post_summary:
+        few: "%{count} ответ(ов) (на странице %{current_page} из %{total_pages})"
+        many: "%{count} ответов (на странице %{current_page} из %{total_pages})"
+        one: "%{count} ответ (на странице %{current_page} из %{total_pages})"
+        other: ''
       summary:
         few: "%{count} обсуждения, страница %{current_page} из %{total_pages}"
         many: "%{count} обсуждений, страница %{current_page} из %{total_pages}"
@@ -1524,7 +1528,7 @@ ru-RU:
       inclusion: должен быть выбран
       invalid: неверный
       required: должен быть
-      suspected_tv_series: 
+      suspected_tv_series: предположительно, является существующим сериалом или минисериалом. Вы можете продолжить добавление этого элемента, если вы уверены, но если он уже существует в нашем разделе сериалов, то будет удален
       taken: уже выбран
     movie:
       duplicate_cast: Этот человек уже добавлен в качестве участника трансляции.
@@ -1545,13 +1549,13 @@ ru-RU:
     min: Фильтр по дате выхода (Мин)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Принять участие.
       discussions: Обсуждения
     tv_shows:
       episode_airs:
-        in_days: 
-        today: 
-        tomorrow: 
+        in_days: Новые выходы серий в следующие %{number_of_days} дней
+        today: Новые выходы серий сегодня
+        tomorrow: Новые выходы серий завтра
   images:
     confirm_delete: Вы уверены, что хотите удалить это изображение?
     upload_criteria:
@@ -1565,10 +1569,10 @@ ru-RU:
       '8': Соотношение сторон 16x9 (1.78:1)
       '9': Минимальное разрешение 300х450
       backdrops_must_meet: 'Фоны должны соответствовать следующим критериям:'
-      episode_stills_must_meet: 
+      episode_stills_must_meet: 'Серии должны соответствовать следующим критериям:'
       posters_must_meet: 'Постеры должны соответствовать следующим требованиям:'
       profile_must_meet: 'Изображение должно соответствовать следующим требованиям:'
-      read_guidelines: Пожалуйста, ознакомьтесь с нашим обновленным < a href="%{link}" target= "_blank"rel="no opener" >руководством по добавлению изображений</a>.
+      read_guidelines: Пожалуйста, ознакомьтесь с нашим обновленным <a href="%{link}" target="_blank" rel="noopener">руководством по добавлению изображений</a>.
       tip: Если ваш браузер поддерживает эту функцию, вы можете перетащить изображение в область ниже. В противном случае просто нажмите " Выбрать файлы..." кнопку и выберите изображение с вашего компьютера.
   invalid_aspect_ratio: Неверные пропорции.
   item_count:
@@ -2520,40 +2524,40 @@ ru-RU:
   joined: присоединился
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
-      toggle_watching: 
+      back_to_parent: вернуться (или выше, если применимо)
+      close_window: закрыть открытое окно
+      focus_search: сфокусировать панель поиска
+      go_to_edit: перейти на страницу редактирования
+      last_reply: перейти к последнему сообщению
+      new_discussion: создать новое обсуждение
+      next_episode: "(стрелка вправо) перейти к следующей серии"
+      next_page: "(стрелка вправо) следующая страница"
+      next_season: "(стрелка вправо) перейти к следующему сезону"
+      open_activity: открыть деятельность
+      open_add_image_window: открыть окно добавления картинок
+      open_profile: открыть меню профиля
+      open_shortcut_window: открыть окно сочетаний клавиш
+      open_translation_selector: открыть переводчик
+      previous_episode: "(стрелка влево) перейти к предыдущей серии"
+      previous_page: "(стрелка влево) предыдущая страница"
+      previous_season: "(стрелка влево) перейти к предыдущему сезону"
+      reply_to_discussion: ответить в обсуждении
+      save_form: отправить форму
+      submit_message: отправить ваше сообщение
+      toggle_close: закрыть/открыть
+      toggle_private: публичные/приватные
+      toggle_watching: сменить статус просмотра
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      discussion_pages: На страницах обсуждения
+      edit_pages: На всех страницах редактирования
+      global: Глобальные
+      image_pages: На всех страницах изображений
+      media_pages: На страницах медиа
+      tv_episode_pages: На страницах эпизодов
+      tv_season_pages: На страницах сезонов
+    keyboard_shortcuts: Сочетания клавиш
+    view_keyboard_shorcuts: Смотреть сочетания клавиш
+    view_shortcuts: Смотреть сочетания клавиш
   list_info:
     average_rating: Средний рейтинг
     image_selected: Выбрано
@@ -2591,12 +2595,12 @@ ru-RU:
   login_to_edit: Войти чтобы редактировать
   media:
     company:
-      headquarters: 
-      movie_page_title: 
-      tv_page_title: 
+      headquarters: Штаб-квартира
+      movie_page_title: Фильмы, созданные %{name}
+      tv_page_title: Сериалы, созданные %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Заблокировать все поля
+      lock_all_images: Заблокировать все картинки
       page_title: Редактировать %{name}
       placeholders:
         country: Выбрать страну...
@@ -2606,55 +2610,61 @@ ru-RU:
         genres: Выбрать жанр...
         job: Выбрать выполняемую обязанность...
         keywords: Выбрать ключевое слово...
-        networks: 
+        networks: Поиск сети...
         person: Поиск человека...
         production_companies: Поиск производственной компании...
-      success_fields_locked: 
+      success_fields_locked: Поля заблокированы.
       tooltips:
-        bible: 
+        bible: Для получения справки по редактированию TMDb нажмите «?» чтобы прочитать Библию Содействия.
         homepage: 'Только оффициальные сайты. Любительские сайты запрещены. '
-        logo_format: 
+        logo_format: Поддерживаются SVG и PNG. SVG предпочтительнее, поскольку они независимы от разрешения.
         original_title: Оригинальное название должно быть введено на родном языке. В большинстве случаев оно должно соответствовать языку выбранному в поле "родной язык.
         overview: При написании обзора старайтесь быть кратким, четким и избегать спойлеров.
-        social_links: 
+        social_links: Социальные ссылки только для официальных (проверенных) страниц. Любительские страницы не разрешены.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Посетить Facebook
+      visit_homepage: Посетить Домашнюю страницу
+      visit_instagram: Посетить Instagram
+      visit_twitter: Посетить Twitter
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Фильмы"
+      tv_page_title: "%{name} Сериалы"
     images:
-      format: 
-      no_backdrop_stills: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
-      primary: 
+      format: Формат
+      no_backdrop_stills: В этой записи не добавлено кадров из фильма.
+      no_backdrops: В этой записи не добавлено фоновых изображений.
+      no_logos: В этой записи не добавлено логотипов.
+      no_posters: В этой записи не добавлено плакатов.
+      no_profiles: В этой записи не добавлено профилей.
+      primary: Основной?
       types:
-        backdrop_stills: 
+        backdrop_stills: Кадры из фильма
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" Фильмы'
+      tv_page_title: '"%{name}" Сериалы'
     movie:
       edit:
         adult:
           adult_movie: Фильм для взрослых?
         alternative_titles:
-          no_records: 
+          no_records: Альтернативных названий не добавлено.
         cast:
-          no_records: 
-        confirm_collection: 
-        confirm_video: 
+          no_records: Актёры еще не добавлены.
+        confirm_collection: |-
+          <p>Коллекции - это удобный способ группировки сиквелов вместе на TMDb. Хотя иногда это противоречиво, сборники не предназначены для группировки фильмов одной и той же «Вселенной». Для этого, пожалуйста, <a href="%{list_link}" target="_blank" rel="noopener">создайте список</a>. Для получения дополнительной информации о коллекциях вы можете посетить <a href="%{docs_link}" target="_blank" rel="noopener">нашу документацию</a>.</p>
+
+          <p>Если коллекция, которую вы собираетесь создать, соответствует этим критериям, пожалуйста, продолжайте.</p>
+        confirm_video: |-
+          <p>Пометка контента как видео помогает нам отделять типы контента, которые на самом деле не являются настоящими фильмами.</p>
+
+          <p>Если это, к примеру, DVD-сборник, фитнесс-видео или DVD "лучшее из лучших", то вы должны пометить его как видео.</p>
         crew:
           job_required: 
           no_records: 
           person_required: 
         genres:
           add_genre: Добавить жанр
-          no_records: 
+          no_records: Жанров не добавлено.
         keywords:
           add_keyword: Добавить ключевое слово
           create: Создать
@@ -2663,13 +2673,13 @@ ru-RU:
           tip: Как общее руководство, подумайте о вещах, которые помогают описать сюжет, общие темы и настроения.
         production_information:
           add_production_company: Добавить производственную компанию
-          no_records: 
-          none_found: 
-          production_company: 
+          no_records: Производственных компаний не добавлено.
+          none_found: Соответствующих компаний не найдено. Хотите создать?
+          production_company: Производственная компания
         release_information:
-          no_records: 
+          no_records: Дат релиза не добавлено.
         videos:
-          no_records: 
+          no_records: Видео не добавлено.
       statuses:
         Canceled: Отменен
         In Production: Cнимаеться
@@ -2679,10 +2689,10 @@ ru-RU:
         Rumored: Известный по слухам
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Альтернативные названия
+        logos: Логотипы
         merge:
-          choose_destination: 
+          choose_destination: Выберите запись назначения...
           confirm_merge: Подтвердить совмещение
           merge: Совместить
           next: Следующий
@@ -2690,17 +2700,25 @@ ru-RU:
         upload_logo: Загрузить логотип
       logos: Логотип
       name: Название
-      other_shows_on: 
+      other_shows_on: Смотреть еще сериалы от %{name}...
       search:
-        no_results: 
-        results: 
-      tv_page_title: 
+        no_results: Нет сетей, соответствующих вашему запросу.
+        results: Сетевые результаты
+      tv_page_title: Сериалы на %{name}
       upload_logo: Загрузить логотип
     no_results_found:
       movie: Фильмы не найдены.
-      tv: 
-    number_of_movies: 
-    number_of_shows: 
+      tv: Сериалы не найдены.
+    number_of_movies:
+      few: "%{count} фильм(ов)"
+      many: "%{count} фильмов"
+      one: "%{count} фильм"
+      other: ''
+    number_of_shows:
+      few: "%{count} сериал(ов)"
+      many: "%{count} сериалов"
+      one: "%{count} сериал"
+      other: ''
     person:
       edit:
         alternative_names:
