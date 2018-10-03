@@ -1455,7 +1455,7 @@ fr-FR:
       community_guidelines: Règles de la communauté
       discussion_category: Catégorie
       for_item: Pour
-      message: 
+      message: Message
       new_discussion: Nouvelle Conversation
       subject: Sujet
     no_discussions: Aucune conversation.
@@ -2539,22 +2539,22 @@ fr-FR:
       previous_page: "(flêche gauche) page précédente"
       previous_season: "(flêche gauche) aller à la saison précédente"
       reply_to_discussion: répondre à la discussion
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
-      toggle_watching: 
+      save_form: envoyer le formulaire
+      submit_message: envoyer votre message
+      toggle_close: modifier ouvrir/fermer
+      toggle_private: modier publique/privé
+      toggle_watching: modifier statut surveillance
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      discussion_pages: Sur les pages de discussion
+      edit_pages: Sur les pages de modification
+      global: Général
+      image_pages: Sur les pages d'images
+      media_pages: Sur les pages de médias
+      tv_episode_pages: Sur les pages d'épisodes TV
+      tv_season_pages: Sur les pages de saisons TV
+    keyboard_shortcuts: Raccourcis clavier
+    view_keyboard_shorcuts: Voir les raccourcis clavier
+    view_shortcuts: Voir les raccourcis
   list_info:
     average_rating: Note moyenne
     image_selected: Sélectionnée
@@ -2584,14 +2584,14 @@ fr-FR:
     step_3: 'Étape 3 : Choisir une image'
     step_4: 'Étape 3 : Partager'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: Pour pouvoir modifier et noter les contenus de TMDb, ou pour recevoir nos recommandations personnalisées, vous devez vous connecter à votre compte. Si vous n'avez pas de compte, créer votre compte est simple et gratuit. <a href="%{signup_link}">Cliquez ici</a> pour commencer.
+    login_text_2: Si vous avez créé votre compte mais n'avez pas reçu l'email de vérification, <a href="%{verification_link}">cliquez ici</a> pour l'envoyer à nouveau.
     login_to_your_account: Connectez-vous à votre compte
   login_to_create: Vous ne trouvez pas un film ou un série ? Connectez-vous pour l'ajouter.
   login_to_edit: Connectez-vous pour modifier
   media:
     company:
-      headquarters: 
+      headquarters: Siège
       movie_page_title: Films produits par %{name}
       tv_page_title: Séries sur %{name}
     edit:
@@ -2627,14 +2627,14 @@ fr-FR:
       tv_page_title: Séries de %{name}
     images:
       format: Format
-      no_backdrop_stills: 
-      no_backdrops: Il n'y a pas de fonds d'écran ajoutés à cette entrée.
+      no_backdrop_stills: Il n'y a pas de fonds d'écran ajouté à cette entrée.
+      no_backdrops: Il n'y a pas de fonds d'écran ajouté à cette entrée.
       no_logos: 'Il n''y aucun logo '
-      no_posters: 
+      no_posters: Il n'y a pas d'affiche ajoutée à cette entrée.
       no_profiles: 
-      primary: 
+      primary: Principale ?
       types:
-        backdrop_stills: 
+        backdrop_stills: Fonds d'écrans
     keyword:
       movie_page_title: Films "%{name}"
       tv_page_title: Séries "%{name}"
@@ -2657,9 +2657,9 @@ fr-FR:
 
           <p>Si ce contenu est par exemple une compilation de DVD, un vidéo de fitness or peut-être un "best-of", alors vous pouvez le marquer en tant que vidéo.</p>
         crew:
-          job_required: 
+          job_required: Un métier est obligatoire
           no_records: Aucun membre d'équipe n'a été ajouté.
-          person_required: 
+          person_required: Une personne est obligatoire
         genres:
           add_genre: Ajouter un genre
           no_records: |2-
@@ -2667,14 +2667,14 @@ fr-FR:
             Aucun genre n'a été ajouté.
         keywords:
           add_keyword: Ajouter un Mot-clé
-          create: 
+          create: La créer
           no_records: Aucun mot-clé n'a été ajouté.
           none_found: Aucun mot-clé correspondant. Voulez-vous en créer un ?
-          tip: 
+          tip: En règle générale, pensez aux choses qui décrivent l'histoire, les thèmes généraux et l'ambiance.
         production_information:
           add_production_company: Ajouter une société de production
-          no_records: 
-          none_found: 
+          no_records: Aucune société de production n'a été ajouté.
+          none_found: Aucune société ne correspond. Voulez-vous la créer ?
           production_company: Société de production
         release_information:
           no_records: Aucune date de sortie n'a été ajoutée.
@@ -2774,16 +2774,16 @@ fr-FR:
         content_ratings:
           no_records: 
         creator:
-          no_records: 
+          no_records: Aucun créateur n'a été ajouté.
         crew:
-          no_season: 
+          no_season: Aucune saison n'existe ! Une saison est requise pour pouvoir ajouter des membres d'équipe.
         episode_groups:
           create_new_group: Créer un nouveau groupe
           description: Description
-          episode_groups: 
+          episode_groups: Groupes d'épisodes
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Déplacer les épisodes sélectionnés
+            no_records: Aucun épisode n'a été ajouté à ce groupe.
           grid:
             episodes: Épisodes
             groups: Groupes
@@ -2793,14 +2793,14 @@ fr-FR:
               one: "%{count} épisode ajouté !"
               other: "%{count} épisodes ajoutés !"
           name: Nom du groupe
-          no_records: 
+          no_records: Aucun groupe d'épisodes n'a été ajouté.
           type: Type
           types:
-            '1': 
+            '1': Date de diffusion originale
             '2': 
             '3': DVD
             '4': Numérique
-            '5': 
+            '5': Arc narratif
             '6': Production
             '7': TV
         networks:
@@ -2808,9 +2808,9 @@ fr-FR:
           none_found: 
         regular_cast:
           no_records: 
-          no_season: 
+          no_season: Aucune saison existe ! Une saison est requise pour ajouter un acteur régulier.
         runtime:
-          add_it: 
+          add_it: Ajouter une nouvelle durée ?
           enter_value: Entrez une valeur en minutes
         seasons:
           no_records: Aucune saison n'a été ajoutée
@@ -2876,7 +2876,7 @@ fr-FR:
       viewed_at: Vu il y a %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
+        create: Vous pouvez aussi créer une nouvelle conversation en <a href="%{link}">cliquant ici</a>.
         no_conversations: Vous n'avez aucun conversation en cours, petit.e veinard.e !
         view: Pour voir une conversation, sélectionnez en une sur la gauche
       no_user_found: Utilisateur non trouvé
@@ -3251,6 +3251,6 @@ fr-FR:
   used_by_developers: TMDB est utilisé par plus de 150 000 développeurs.<br>Consultez leur travail ci-dessous.
   view all: voir tous
   will_paginate:
-    next_label: 
+    next_label: Suivant →
     page_gap: 
-    previous_label: 
+    previous_label: "← Précédent"
