@@ -657,20 +657,20 @@ ro-RO:
   add_to_list: Adăugați %{media_title} la una din listele voastre...
   already_translated_in: "%{page_title} este deja tradus în următoarele limbi..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Solicitare autentificare de la o terță parte
     approved_session: Ați aprobat %{application_name}. Puteți închide această fereastră.
     continue: Dacă doriți să continuați, dați clic pe butonul de aprobare de mai jos. Dacă nu, puteți să închideți pur și simplu această fereastră.
-    request_token_approval: 
+    request_token_approval: "{{APP}} solicită permisiunea dvs. de a citi și de a scrie date în numele dvs. Acest lucru este necesar dacă doriți să faceți lucruri cum ar fi să vă mențineți listele sau să evaluați filmele în afara TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Ați primit permisiunea de citire și scriere la <strong>%{application_name}</strong>. Acum puteți reveni la aplicație și puteți închide această fereastră. Puteți revoca acest acces întotdeauna accesând pagina cu setările contului dvs. și apoi pagina "Aplicații conectate".
+        name: Autentificare permisă
       denied:
-        message: 
-        name: 
+        message: "<p>Ţi-a fost refuzat accesul la <strong>%{application_name}</ strong>. Dacă aceasta a fost o greșeală, sau doriți să reporniți procesul de autentificare, reveniți din nou în aplicație și solicitați din nou permisiunea.</p>"
+        name: Autentificare refuzată
       invalid_request_token:
-        message: 
-        name: 
+        message: Solicitarea de token trimisă este nevalidă. Încercați să creați una nouă și să vă asigurați că ați copiat-o corect. Dacă aveți în continuare probleme, contactați dezvoltatorul aplicației pe care o utilizați.
+        name: Solicitare nevalidă Token
   attributes:
     biography: Biografie
     certification: Certificare
@@ -1459,7 +1459,7 @@ ro-RO:
       community_guidelines: Regulile comunității
       discussion_category: Categorie
       for_item: Pentru element
-      message: 
+      message: Mesaj
       new_discussion: Discuție nouă
       subject: Subiect
     no_discussions: Nicio discuție.
@@ -2523,7 +2523,7 @@ ro-RO:
     Web Designer: Programator Web
     Wig Designer: Proiectant peruci
     Wigmaker: Peruchier
-    Writer: Scriitor
+    Writer: Scenariul
     Writers' Assistant: Asistent scriitor
     Writers' Production: Scriitor producție
   joined: Înregistrat
@@ -3269,6 +3269,6 @@ ro-RO:
   used_by_developers: TMDb este utilizată de mai mult de 150,000 de dezvoltatori.<br>Răsfoiți-le munca mai jos.
   view all: Arată toți
   will_paginate:
-    next_label: 
+    next_label: Următorul →
     page_gap: 
-    previous_label: 
+    previous_label: "← Anteriorul"

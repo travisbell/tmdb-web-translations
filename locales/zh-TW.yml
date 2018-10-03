@@ -655,17 +655,17 @@ zh-TW:
   add_to_list: 新增 %{media_title} 至收藏表...
   already_translated_in: "%{page_title} 已被翻譯成以下語言..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: 第三方認證請求
     approved_session: 您已許可%{application_name}，請關閉本視窗。
     continue: 如果您想要繼續，請點選同意按鈕；若不繼續，請直接關閉本視窗。
-    request_token_approval: 
+    request_token_approval: "{{APP}} 對您提出讀取/改寫您資料的請求。若您想要在 TMDb 外維護列表或對電影作評價，則必須授權此請求。"
     statuses:
       completed:
-        message: 
-        name: 
+        message: 您已授權 <strong>%{application_name}</strong> 。您可隨時回到帳戶設定中的 "連結應用程式" 頁取消此授權。
+        name: 授權認證
       denied:
-        message: 
-        name: 
+        message: "<p>您已拒絕訪問 <strong>%{application_name}</strong>。您可重新進行認證流程已更改授權內容。</p>"
+        name: 授權拒絕
       invalid_request_token:
         message: 
         name: 
