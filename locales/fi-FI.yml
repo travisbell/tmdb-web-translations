@@ -655,20 +655,20 @@ fi-FI:
   add_to_list: Lisää %{media_title} listallesi...
   already_translated_in: "%{page_title} on jo käännetty seuraavilla kielille..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Kolmannen osapuolen todennuspyyntö
     approved_session: Olet hyväksynyt %{application_name}. Voit sulkea tämän ikkunan.
     continue: Jos haluat jatkaa, klikkaa 'hyväksy' nappia alta. Jos et, voit yksinkertaisesti sulkea tämän ikkunan.
-    request_token_approval: 
+    request_token_approval: "{{APP}} pyytää hyväksyntääsi kirjoittaa ja lukea tietoja puolestasi. Tämä on välttämätöntä, jos haluat ylläpitää listoja tai pisteyttää elokuvia TMDb:n ulkopuolella."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Olet sallinut sovellukselle <strong>%{application_name}</strong> lukea ja kirjoittaa tietoja. Voit nyt palata sovellukseen ja sulkea tämän ikkunan. Voit peruuttaa luvan menemällä tiliasetuksiisi ja valitsemalla "sallitut sovellukset".
+        name: Todennus hyväksytty
       denied:
-        message: 
-        name: 
+        message: "<p> Olet kieltänyt sovelluksen <strong>%{application_name}</strong> luvan. Jos tämä oli virhe tai jos haluat tehdä todennuksen uudelleen, voit tehdä sen pyytämällä uutta todennusta sovelluksesta.</p>"
+        name: Todennus hylätty
       invalid_request_token:
-        message: 
-        name: 
+        message: Käyttämäsi pyyntökoodi on virheellinen. Kokeile luoda uusi ja varmista, että se on oikein. Mikäli ongelmat jatkuvat, ole hyvä ja ole yhteydessä sovelluksen kehittäjään.
+        name: Virheellinen pyyntökoodi
   attributes:
     biography: Elämänkerta
     certification: Ikärajoitus
@@ -1369,11 +1369,21 @@ fi-FI:
           Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
         subject: Se on TV ohjelma.
       '4':
-        message: 
-        subject: 
+        message: |
+          Hei,
+
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi nimike "%{title}" on poistettu. Se ei täyttänyt [uusia sisältöohjeitamme](https://www.themoviedb.org/bible/new_content).
+
+          Voit vastata tähän viestiin, mikäli sinulla on kysyttävää koskien tätä poistoa.
+        subject: Se on tekaistu nimike
       '5':
-        message: 
-        subject: 
+        message: |-
+          Hei,
+
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi nimike "%{title}" on poistettu. Se ei täyttänyt uusia [sisältöohjeitamme](https://www.themoviedb.org/bible/new_content).
+
+          Voit vastata tähän viestiin, mikäli sinulla on kysyttävää koskien tätä poistoa.
+        subject: Se on spämmiä
     why_deleting: Miksi olet poistamassa merkintää?
   department_credits_count:
     one: "%{department} (%{count} credit)"
@@ -1445,7 +1455,7 @@ fi-FI:
       community_guidelines: Yhteisön ohjesäännöt
       discussion_category: Kategoria
       for_item: Aiheelle
-      message: 
+      message: Viesti
       new_discussion: Uusi keskustelu
       subject: Aihe
     no_discussions: Ei keskusteluja.
@@ -2511,24 +2521,24 @@ fi-FI:
   joined: liittyi
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
+      back_to_parent: palaa takaisin (tai hakemistoon mikäli mahdollista)
+      close_window: sulje avoin ikkuna
+      focus_search: keskitä hakukenttään
+      go_to_edit: siirry editoimaan sivua
+      last_reply: siirry viimeisimpään vastaukseen
+      new_discussion: luo uusi keskustelu
+      next_episode: "(oikea nuolinäppäin) siirry seuraavaan jaksoon"
+      next_page: "(oikea nuolinäppäin) seuraava sivu"
+      next_season: "(oikea nuolinäppäin) siirry seuraavaan kauteen"
+      open_activity: avaa viimeaikainen toiminta
+      open_add_image_window: avaa "lisää kuva" ikkuna
+      open_profile: avaa profiilivalikko
+      open_shortcut_window: avaa pikanäppäinikkuna
+      open_translation_selector: avaa kielivalinta
+      previous_episode: "(vasen nuolinäppäin) siirry edelliseen jaksoon"
+      previous_page: "(vasen nuolinäppäin) edellinen sivu"
+      previous_season: "(vasen nuolinäppäin) siirry edelliseen kauteen"
+      reply_to_discussion: vastaa keskusteluun
       save_form: 
       submit_message: 
       toggle_close: 
@@ -2611,7 +2621,7 @@ fi-FI:
       visit_facebook: 
       visit_homepage: 
       visit_instagram: 
-      visit_twitter: 
+      visit_twitter: Vieraile Twittersivustolla
     genre:
       movie_page_title: "%{name} Elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
@@ -2834,8 +2844,13 @@ fi-FI:
       tags: Tunnisteet
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |-
+        Hei, ja kiitos TMBn: käytöstä. Huomasin, että käytät TMDb:tä kielellä jota ei ole vielä käännetty kokonaan. Jos sinulla on kiinnostusta auttaa käännöksen saattamisessa loppuun, voit vierailla [käännösprojektissamme](https://www.localeapp.com/projects/8267). [Rekisteröityminen](https://www.localeapp.com/users/sign_up) on ilmaista ja voit lisätä niin monta käännöstä kuin haluat. Jokainen muokkaus auttaa.
+
+        Ei haittaa jos sinua ei kiinnosta osallistua, ajattelin vain kysyä.
+
+        Kiitos ja mukavaa päivänjatkoa!
+      subject: Auta kääntämään sivustomme
   messages:
     compose:
       ban: Estä
@@ -2846,7 +2861,7 @@ fi-FI:
       to: Vastaanottaja
     no_messages: Ei viestejä
     notifications:
-      new_message: 
+      new_message: "%{username} lähetti sinulle uuden viestin"
     number_of_messages:
       one: "%{count} viesti"
       other: "%{count} viestiä"
@@ -2854,7 +2869,7 @@ fi-FI:
       admin: 
       archive: Arkisto
       settings: Asetukset
-      viewed_at: 
+      viewed_at: Katsottu %{time_ago}
     placeholders:
       no_conversation_selected:
         create: Voit luoda uuden keskustelun <a href="%{link}">klikkaamalla tästä</a>.
@@ -2870,8 +2885,8 @@ fi-FI:
       my_archive: Arkisto
       my_inbox: Saapuneet
       new_message: Uusi viesti
-      support_archive: 
-      support_inbox: 
+      support_archive: Tukiarkisto
+      support_inbox: Tuen saapuneet
   month:
     one: kuukausi
     other: "%{count} kuukautta"
@@ -3112,10 +3127,10 @@ fi-FI:
             already_imported: Tuotu jo.
             cant_find_imdb: IMDb ID:tä ei löytynyt.
             imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            personal_rating_invalid: Pisteytys on virheellinen (tulisi olla 0.5 ja 10 välillä).
+            personal_rating_not_found: Henkilökohtaista pisteytystä ei löytynyt tässä rivissä.
+            row_is_invalid: Tämä rivi on virheellinen.
+            updated_date: Päivämäärä päivitetty.
           reason: Syy? (Mikäli soveltuu)
           summary: Emme pystyneet tuomaan %{imported_count} kohdetta, %{total_count} (%{imported_percentage}%) kokonaismäärästä kohteista jotka löysimme vientilistallasi.
         currently_running: Tuontia ajetaan parhaillaan. Voit päivittää sivua nähdäksesi onko se valmistunut.
@@ -3232,6 +3247,6 @@ fi-FI:
   used_by_developers: TMDb on käytössä yli 150 000 kehittäjällä.<br>Alle on listattu heidän töitään.
   view all: näytä kaikki
   will_paginate:
-    next_label: 
+    next_label: Seuraava →
     page_gap: 
-    previous_label: 
+    previous_label: "← Edellinen"
