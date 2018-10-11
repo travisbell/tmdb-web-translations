@@ -87,7 +87,7 @@ nl-NL:
   Change?: Wijzigen?
   Changes: Wijzigingen
   Character: Personage
-  Choose: 
+  Choose: Kies...
   City: Stad
   Clip: Fragment
   Clips: Fragmenten
@@ -516,8 +516,8 @@ nl-NL:
     login: Inloggen
     logout: Uitloggen
     messages: Berichten
-    profile_and_settings: 
-    ratings: 
+    profile_and_settings: Profiel en instellingen
+    ratings: Waardering
     settings: Instellingen
     sign_up: Registreren
     view_profile: Profiel bekijken
@@ -553,15 +553,16 @@ nl-NL:
         page_owner: Mijn discussies
         public: "%{username}'s discussies"
     events:
+      all: 
       emails:
-        emails: 
-      events: 
+        emails: E-mails
+      events: Evenementen
       notifications:
-        notifications: 
+        notifications: Notificaties
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Als u een lijst wilt exporteren in CSV-formaat, klik dan op "Export" hieronder. We maken het bestand voor u en sturen dat per e-mail naar u toe. Afhankelijk van de grootte van het bestand, zal dit enkele minuten duren.
+      export: Exporteren
+      export_csv: Exporteer CSV
     favorites:
       my_favorites:
         logged_in: Mijn favorieten
@@ -660,20 +661,20 @@ nl-NL:
   add_to_list: "%{media_title} toevoegen aan één van je lijsten..."
   already_translated_in: "%{page_title} is al vertaald naar de volgende talen..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Extern authenticatieverzoek
     approved_session: Je hebt %{application_name} geaccepteerd. Je kunt dit venster sluiten.
     continue: Als je door wilt gaan, klik dan op de onderstaande goedkeuringsknop. Als je niet door wilt gaan, sluit dan dit venster.
-    request_token_approval: 
+    request_token_approval: "{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden."
     statuses:
       completed:
-        message: 
-        name: 
+        message: U hebt <strong>%{application_name}</strong> toestemming gegeven om te lezen en schrijven. U kunt nu teruggaan naar uw applicatie en dit venster sluiten. U kunt uw toestemming altijd intrekken door naar uw instellingenpagina te gaan en daarna naar de pagina "Connected Apps" te gaan.
+        name: Authenticatie verleend
       denied:
-        message: 
-        name: 
+        message: "<p>U heeft <strong>%{application_name}</strong> de toegang geweigerd. Als dat een vergissing was or u wilt het authenticatieproces opnieuw starten, kunt u dit gewoon doen via applicatie en daar opnieuw een verzoek indienen.</p>"
+        name: Authenticatie geweigerd
       invalid_request_token:
-        message: 
-        name: 
+        message: De token die u meezond is niet geldig. Maak een nieuwe token aan en zorg dat u deze goed kopieert. Als u problemen blijft houden, neem dan contact op met de ontwikkelaar van de app die u gebruikt.
+        name: Ongeldige token
   attributes:
     biography: Biografie
     certification: Certificaat
@@ -880,7 +881,7 @@ nl-NL:
         '1':
           meaning: '(Umum: "General Audiences") - Voor algemeen publiek. (werd gebruikt door de meeste films in Maleisië van vóór 2008, maar nu alleen nog door tv-series, vooral voor RTM)'
         '2':
-          meaning: 
+          meaning: '(Penjaga 13 : "Parental Guidance 13") - Kinderen jonger dan 13 jaar krijgen alleen toegang onder begeleiding van een volwassene. (Geïntroduceerd in 2006 en sinds 2008 het officiële waarderingssysteem van Maleisië. De PG-13 waardering is herzien in april 2012 om de nadruk te leggen om het gebruik van de Maleisische taal in plaats van Engels. Gepassioneerde kus scenes zijn niet toegestaan in deze P13 waardering.'
         '3':
           meaning: '(Seram, Ganas: "Graphic Violence and Horror/Terror" - De film kan hevig geweld en ranzige of horror/terror-scènes bevatten.'
         '4':
@@ -1080,17 +1081,17 @@ nl-NL:
           meaning: 
       GB:
         '0':
-          meaning: 
+          meaning: De U staat voor Universeel. Een film met een U zou geschikt moeten zijn voor kinderen vanaf 4 jaar of ouder.
         '1':
-          meaning: 
+          meaning: PG staat voor Ouderlijk Toezicht. Dit betekent dat de film geschikt is voor algemeen publiek, maar dat sommige scenes mogelijk niet geschikt zijn voor jonge kinderen. Een film met PG zou een kind van 8 jaar of ouder niet bang moeten maken.
         '2':
-          meaning: 
+          meaning: Films geclassificeerd met 12A en video's geclassificeerd met 12 bevatten materiaal dat geschikt bevonden is voor 12 jaar en ouder. 12A betekent dat een volwassene aanwezig moet zijn wanneer een kind deze film in de bioscoop bekijkt.
         '3':
-          meaning: 
+          meaning: Films geclassificeerd met 12A en video's geclassificeerd met 12 bevatten materiaal dat geschikt bevonden is voor 12 jaar en ouder.
         '4':
-          meaning: 
+          meaning: Personen jonger dan 15 jaar mogen films met klasse 15 niet in de bioscoop bekijken of kopen/huren. Films met klasse 15 zijn niet geschikt voor kinderen jonger dan 15 jaar.
         '5':
-          meaning: 
+          meaning: Films met klasse 18 zijn geschikt voor volwassenen. Kijkers jonger dan 18 jaar mogen deze films niet bekijken in de bioscoop of kopen/huren. Film met klasse 18 zijn niet geschikt voor kinderen.
         '6':
           meaning: 
       HU:
@@ -1123,9 +1124,9 @@ nl-NL:
           meaning: 
       LT:
         '1':
-          meaning: 
+          meaning: Bedoeld voor kijkers van 7 jaar of ouder.
         '2':
-          meaning: 
+          meaning: Bedoeld voor kijkers van 14 jaar of ouder en uitgezonden tussen 21 uur 's avonds en 6 uur 's ochtends.
         '3':
           meaning: 
       NL:
@@ -1147,24 +1148,24 @@ nl-NL:
         '1':
           meaning: Todos (geschikt voor alle leeftijden).
         '2':
-          meaning: 
+          meaning: Acompanhamento Parental (mogelijk niet geschikt voor kinderen onder de 10 jaar, ouderlijk toezicht wordt geadviseerd).
         '3':
-          meaning: 
+          meaning: Acompanhamento Parental (mogelijk niet geschikt voor kinderen onder de 12 jaar, ouderlijk toezicht wordt geadviseerd).
         '4':
-          meaning: 
+          meaning: Niet geschikt voor kinderen onder de 16 jaar, toegang tot deze programma's is afgeschermd met een persoonlijk wachtwoord.
         '5':
-          meaning: 
+          meaning: Niet geschikt voor kinderen onder de 18 jaar.
       RU:
         '1':
-          meaning: 
+          meaning: Dit mag bekeken worden door iedere leeftijd.
         '2':
-          meaning: 
+          meaning: Alleen toegestaan voor kinderen ouder dan 6 jaar.
         '3':
-          meaning: 
+          meaning: Alleen toegestaan voor kinderen ouder dan 12 jaar.
         '4':
-          meaning: 
+          meaning: Alleen toegestaan voor personen ouder dan 16 jaar.
         '5':
-          meaning: 
+          meaning: Alleen toegestaan voor personen ouder dan 18 jaar.
       SK:
         '0':
           meaning: Geen classificatie-informatie.
@@ -1184,28 +1185,28 @@ nl-NL:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: Nor 13+ - Alleen toegestaan voor publiek van 13 jaar or ouder.
         '3':
-          meaning: 
+          meaning: Nor 15+ - Alleen toegestaan voor kinderen ouder dan 15 jaar. Er kan geweld, brutaliteit, onmenselijkheid, slecht taalgebruik of onfatsoenlijke gebaren getoond worden.
         '4':
-          meaning: 
+          meaning: Nor 18+ - Alleen toegestaan voor publiek van 18 jaar or ouder.
         '5':
-          meaning: 
+          meaning: Chor 20 - Deze films is verboden voor publiek jonger dan 20 jaar.
         '6':
           meaning: Verboden.
       US:
         '0':
           meaning: Geen classificatie-informatie.
         '1':
-          meaning: 
+          meaning: Dit programma is geschikt voor alle leeftijden.
         '2':
-          meaning: 
+          meaning: Dit programma is gemaakt voor kinderen van 7 jaar of ouder.
         '3':
-          meaning: 
+          meaning: De meeste ouders vinden dit een geschikt programma voor alle leeftijden.
         '4':
-          meaning: 
+          meaning: Dit programma bevat materiaal dat ouders niet geschikt kunnen vinden voor jonge kinderen.
         '5':
-          meaning: 
+          meaning: Dit programma bevat materiaal dat veel ouders niet geschikt kunnen vinden voor kinderen onder de 14 jaar.
         '6':
           meaning: 
   collection_includes: Bevat %{movie_titles}
@@ -1347,24 +1348,24 @@ nl-NL:
     one: dag
     other: "%{count} dagen"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Item gewist
     reasons:
       '1':
         message: 
-        subject: 
+        subject: Dit is een duplicaat
       '2':
         message: 
         subject: 
       '3':
         message: 
-        subject: 
+        subject: Het is een TV show
       '4':
         message: 
-        subject: 
+        subject: Het is een nepitem
       '5':
         message: 
-        subject: 
-    why_deleting: 
+        subject: Het is spam
+    why_deleting: Waarom wilt u dit item verwijderen?
   department_credits_count:
     one: "%{department} (%{count} bijdrage)"
     other: "%{department} (%{count} bijdragen)"
@@ -1435,7 +1436,7 @@ nl-NL:
       community_guidelines: Gemeenschapsrichtlijnen
       discussion_category: Categorie
       for_item: Voor item
-      message: 
+      message: Bericht
       new_discussion: Nieuwe discussie
       subject: Onderwerp
     no_discussions: Geen discussies.
@@ -1571,7 +1572,7 @@ nl-NL:
     '"A" Camera Operator': '"A"-cameraman'
     '"B" Camera Operator': '"B" cameraregisseur'
     '"C" Camera Operator': '"C" cameraregisseur'
-    '"D" Camera Operator': 
+    '"D" Camera Operator': '"D" Cameraman'
     24 Frame Playback: 24 frames-afspeelsnelheid
     2D Artist: 2D-artiest
     2D Sequence Supervisor: 2D Sequence Supervisor
@@ -1740,13 +1741,13 @@ nl-NL:
     Best Boy Grip: Gaffer-grip
     Best Boy Lighting Technician: Gaffer
     Book: Boek
-    Boom Operator: 
+    Boom Operator: Kraanbestuurder
     Broadcast Producer: Uitzendregisseur
     Business Affairs Coordinator: Zakelijk coördinator
     CG Animator: 
     CG Artist: 
     CG Engineer: 
-    CG Painter: 
+    CG Painter: CG schilder
     CG Supervisor: 
     CGI Director: 
     CGI Supervisor: 
@@ -1776,9 +1777,9 @@ nl-NL:
     Casting Researcher: Casting-researcher
     Catering: Catering
     Catering Head Chef: Chef-kok catering
-    Chaperone: 
+    Chaperone: Chaperone
     Chaperone Tutor: 
-    Character Designer: 
+    Character Designer: Tekenaar
     Character Modelling Supervisor: 
     Character Technical Supervisor: 
     Characters: Personages
@@ -1795,13 +1796,13 @@ nl-NL:
     Cloth Setup: Kledingstylist
     Co-Art Director: 
     Co-Costume Designer: Co-kostuumontwerper
-    Co-Director: 
-    Co-Editor: 
+    Co-Director: Mede-regisseur
+    Co-Editor: Assistent editor
     Co-Executive Producer: Co-uitvoerend producent
     Co-Producer: Co-producent
-    Co-Writer: 
-    Color Assistant: 
-    Color Designer: 
+    Co-Writer: Medeauteur
+    Color Assistant: Kleur assistent
+    Color Designer: Kleurontwerper
     Color Grading: 
     Color Timer: 
     Colorist: 
@@ -1814,29 +1815,29 @@ nl-NL:
     Concept Artist: 
     Conceptual Design: 
     Conceptual Illustrator: 
-    Conductor: 
-    Construction Buyer: 
-    Construction Coordinator: 
-    Construction Foreman: 
+    Conductor: Dirigent
+    Construction Buyer: Bouwinkoper
+    Construction Coordinator: Bouwcoördinator
+    Construction Foreman: Voorman
     Construction Grip: 
-    Construction Manager: 
-    Consulting Accountant: 
-    Consulting Editor: 
+    Construction Manager: Bouwmanager
+    Consulting Accountant: Adviserend Accountant
+    Consulting Editor: Adviserend Editor
     Consulting Producer: Consulting producer
-    Contact Lens Designer: 
-    Contact Lens Painter: 
-    Contact Lens Technician: 
-    Continuity: 
-    Contract Manager: 
-    Controller: 
-    Coordinating Producer: 
-    Costume Assistant: 
+    Contact Lens Designer: Contactlens ontwerper
+    Contact Lens Painter: Contactlens schilder
+    Contact Lens Technician: Contactlens technicus
+    Continuity: Continuïteit
+    Contract Manager: Contractmanager
+    Controller: Controller
+    Coordinating Producer: Coördinerend producent
+    Costume Assistant: Kostuumassistent
     Costume Consultant: 
     Costume Coordinator: 
     Costume Design: Kostuumontwerp
-    Costume Designer: 
-    Costume Illustrator: 
-    Costume Mistress: 
+    Costume Designer: Kostuumontwerper
+    Costume Illustrator: Kostuum illustrator
+    Costume Mistress: Kostuummeesteres
     Costume Set Supervisor: 
     Costume Standby: 
     Costume Supervisor: Kostuumsupervisor
@@ -1858,17 +1859,17 @@ nl-NL:
     Daily Grip: 
     Daily Makeup & Hair: 
     Daily Wardrobe: 
-    Data Management Technician: 
+    Data Management Technician: Technicus datamanagement
     Data Wrangler: 
-    Decorator: 
-    Delegated Producer: 
-    Department Administrator: 
-    Development Manager: 
-    Development Producer: 
-    Dialect Coach: 
+    Decorator: Decorateur
+    Delegated Producer: Gedelegeerde producent
+    Department Administrator: Afdelingsadministrateur
+    Development Manager: Ontwikkelingsmanager
+    Development Producer: Ontwikkelingsproducent
+    Dialect Coach: Dialectcoach
     Dialogue: Dialoog
-    Dialogue Coach: 
-    Dialogue Editor: 
+    Dialogue Coach: Dialoogcoach
+    Dialogue Editor: Dialoogeditor
     Digital Color Timer: 
     Digital Colorist: 
     Digital Compositor: 
@@ -1884,28 +1885,28 @@ nl-NL:
     Digital Intermediate Data Wrangler: 
     Digital Intermediate Editor: 
     Digital Intermediate Producer: 
-    Digital Producer: 
-    Digital Storyboarding: 
-    Digital Supervisor: 
+    Digital Producer: Digitaal producent
+    Digital Storyboarding: Digitaal storyboard
+    Digital Supervisor: Digitaal supervisor
     Directing Lighting Artist: 
     Director: Regisseur
-    Director of Communications: 
-    Director of Operations: 
+    Director of Communications: Communicatiedirecteur
+    Director of Operations: Operationeel directeur
     Director of Photography: 
     Director of Previsualization: 
-    Documentation & Support: 
-    Dolby Consultant: 
+    Documentation & Support: Documentatie & ondersteuning
+    Dolby Consultant: Dolby adviseur
     Dolly Grip: 
     Dramaturgy: Dramaturgie
-    Draughtsman: 
-    Dresser: 
+    Draughtsman: Tekenaar
+    Dresser: Kleedster
     Dressing Prop: 
-    Driver: 
+    Driver: Chauffeur
     Drone Cinematographer: 
     Drone Operator: 
-    Drone Pilot: 
-    EPK Editor: 
-    Editor: 
+    Drone Pilot: Dronepiloot
+    EPK Editor: EPK regisseur
+    Editor: Editor
     Editorial Consultant: 
     Editorial Coordinator: 
     Editorial Manager: 
@@ -1915,8 +1916,8 @@ nl-NL:
     Effects Supervisor: 
     Electrician: Electriciën
     Epk Camera Operator: 
-    Epk Director: 
-    Epk Producer: 
+    Epk Director: Epk regisseur
+    Epk Producer: Epk producent
     Executive Assistant: 
     Executive Co-Producer: 
     Executive Consultant: 
@@ -1935,25 +1936,25 @@ nl-NL:
     Extras Makeup Artist: 
     Facial Setup Artist: 
     Feature Finishing Producer: 
-    Field Director: 
-    Fight Choreographer: 
+    Field Director: Veldregisseur
+    Fight Choreographer: Gevechtschoreograaf
     File Footage: 
     Film Processor: 
     Finance: Financiën
     Finishing Producer: 
-    First Assistant "A" Camera: 
-    First Assistant "B" Camera: 
-    First Assistant "C" Camera: 
-    First Assistant "D" Camera: 
+    First Assistant "A" Camera: Eerste assistent "A" camera
+    First Assistant "B" Camera: Eerste assistent "B" camera
+    First Assistant "C" Camera: Eerste assistent "C" camera
+    First Assistant "D" Camera: Eerste assistent "D" camera
     First Assistant Accountant: 
     First Assistant Art Direction: 
     First Assistant Camera: Eerste assistent camera
-    First Assistant Director: 
-    First Assistant Director (Prep): 
-    First Assistant Director Trainee: 
+    First Assistant Director: Eerste assistent regisseur
+    First Assistant Director (Prep): Eerste assistent regisseur (voorbereiding)
+    First Assistant Director Trainee: Eerste assistent stagiair regisseur
     First Assistant Editor: Eerste assistent montage
-    First Assistant Hairstylist: 
-    First Assistant Makeup Artist: 
+    First Assistant Hairstylist: Eerste assistent kapper
+    First Assistant Makeup Artist: Eerste assistent make-up artiest
     First Assistant Picture Editor: 
     First Assistant Production Coordinator: 
     First Assistant Property Master: 
@@ -1974,35 +1975,35 @@ nl-NL:
     Generalist: 
     Generator Operator: 
     Genetator Operator: 
-    Graphic Designer: 
+    Graphic Designer: Grafisch ontwerper
     Graphic Novel: 
     Graphic Novel Illustrator: Grafische romanillustrator
     Greensman: Hovenier
     Grip: Greep
     Grip Production Assistant: 
     Gun Wrangler: Geweerverzorging
-    Hair Assistant: 
+    Hair Assistant: Haarassistent
     Hair Department Head: Hoofd haarafdeling
     Hair Designer: Haarontwerper
     Hair Setup: Haarverzorger
-    Hair Supervisor: 
-    Hairdresser: 
+    Hair Supervisor: Hoofdkapper
+    Hairdresser: Kapper
     Hairstylist: Haarstylist
-    Head Carpenter: 
-    Head Decorator: 
-    Head Designer: 
-    Head Driver: 
-    Head Greensman: 
-    Head of Animation: 
+    Head Carpenter: Hoofdtimmerman
+    Head Decorator: 'Hoofd decorateur '
+    Head Designer: Hoofdontwerper
+    Head Driver: Hoofdchauffeur
+    Head Greensman: Hoofd hovenier
+    Head of Animation: Hoofd animatie
     Head of Layout: 
-    Head of Production: 
-    Head of Programming: 
-    Head of Research: 
-    Head of Story: 
+    Head of Production: Directeur productie
+    Head of Programming: Directeur programmering
+    Head of Research: Hoofd onderzoek
+    Head of Story: Hoofd verhaallijn
     Health and Safety: 
     Helicopter Camera: Helicoptercamera
-    Helping Hand: 
-    Human Resources: 
+    Helping Hand: Manusje van alles
+    Human Resources: Personeelszaken
     I/O Manager: I/O-beheerder
     I/O Supervisor: I/O-supervisor
     Idea: Idee
@@ -2012,7 +2013,7 @@ nl-NL:
     Insert Unit Director: 
     Insert Unit First Assistant Director: 
     Insert Unit Location Manager: 
-    Interactive Manager: 
+    Interactive Manager: Interactief manager
     Interior Designer: Interieurontwerper
     Intern: Stagiair
     Jimmy Jib Operator: 
@@ -2053,11 +2054,11 @@ nl-NL:
     Lighting Artist: Lichtartiest
     Lighting Camera: Lichtcamera
     Lighting Coordinator: Licht-coördinator
-    Lighting Design: 
+    Lighting Design: Lichtontwerp
     Lighting Director: 
     Lighting Manager: Lichtbeheerder
     Lighting Production Assistant: Lichtproductie-assistent
-    Lighting Programmer: 
+    Lighting Programmer: Programmeur licht
     Lighting Supervisor: Licht-supervisor
     Lighting Technician: Licht-technicus
     Line Producer: Line producer
@@ -2079,7 +2080,7 @@ nl-NL:
     Machinist: Machinist
     Main Title Designer: 
     Main Title Theme Composer: 
-    Makeup & Hair: 
+    Makeup & Hair: Make-up & haar
     Makeup & Hair Assistant: 
     Makeup Artist: Make-up-artiest
     Makeup Department Head: Make-up-afdelingshoofd
@@ -2087,17 +2088,17 @@ nl-NL:
     Makeup Effects: Make-up-effecten
     Makeup Effects Designer: 
     Makeup Supervisor: 
-    Makeup Trainee: 
+    Makeup Trainee: Stagiaire make-up
     Manager of Operations: Operatiemanager
     Marine Coordinator: 
     Marine Pilot: 
     Martial Arts Choreographer: Vechtkunst-choreograaf
     Master Lighting Artist: Hoofd lichtartiest
-    Master at Arms: 
+    Master at Arms: Wapenspecialist
     Matchmove Supervisor: 
     Matte Painter: 
     Mechanical & Creature Designer: Mechanisch- en wezenontwerper
-    Mechanical Designer: 
+    Mechanical Designer: Mechanisch ontwerper
     Medical Consultant: 
     Military Consultant: 
     Mix Technician: Mixtechnicus
@@ -2107,32 +2108,32 @@ nl-NL:
     Motion Actor: Bewegingsacteur
     Motion Capture Artist: Bewegingsvastleggingartiest
     Music: Muziek
-    Music Arranger: 
+    Music Arranger: Muziekarrangeur
     Music Co-Supervisor: 
-    Music Consultant: 
-    Music Coordinator: 
+    Music Consultant: Adviseur muziek
+    Music Coordinator: Muziek coördinator
     Music Director: Muziekregisseur
     Music Editor: Muziekbewerker
-    Music Producer: 
-    Music Programmer: 
+    Music Producer: Producent muziek
+    Music Programmer: Muziek programmeur
     Music Score Producer: 
     Music Sound Design and Processing: 
     Music Supervision Assistant: 
     Music Supervisor: Muzieksupervisor
     Musical: Musical
     Musical Casting: 
-    Musician: 
+    Musician: Muzikant
     Negative Cutter: 
     Novel: Roman
-    "O\x01B\x01 Lighting": 
-    "O\x01B\x01 Sound": 
+    "O\x01B\x01 Lighting": O.B. verlichting
+    "O\x01B\x01 Sound": O.B. geluid
     On Set Computer Graphics: 
     On Set Dresser: 
     On Set Key Props: 
     On Set Props: 
-    Online Editor: 
+    Online Editor: Online editor
     Opening Title Sequence: 
-    Opening/Ending Animation: 
+    Opening/Ending Animation: Begin- en eindanimatie
     Opera: Opera
     Orchestrator: Orkestratie
     Original Casting: 
@@ -2143,20 +2144,20 @@ nl-NL:
     Original Series Design: 
     Original Story: Origineel verhaal
     Other: Overig
-    Paint Coordinator: 
+    Paint Coordinator: 'Schildercoördinator '
     Painter: Schilder
-    Payroll Accountant: 
+    Payroll Accountant: Accountant loonstroken
     Petty Cash Buyer: 
     Phantom Operator: 
     Photo Retouching: 
     Photoscience Manager: Fotowetenschapsbeheerder
     Picture Car Coordinator: Foto-autocoördinator
-    Pilot: 
+    Pilot: Piloot
     Pipeline Technical Director: 
     Playback Coordinator: 
-    Playback Singer: 
+    Playback Singer: Playbackzanger
     Poem: Gedicht
-    Police Consultant: 
+    Police Consultant: Adviseur politie
     Post Coordinator: 
     Post Producer: 
     Post Production Accountant: 
@@ -2170,7 +2171,7 @@ nl-NL:
     Post-Production Manager: Na-productiebeheerder
     Pre-Visualization Coordinator: 
     Pre-Visualization Supervisor: 
-    Presenter: 
+    Presenter: Presentator
     Principal Costumer: 
     Producer: Producer
     Producer's Assistant: 
@@ -2194,8 +2195,8 @@ nl-NL:
     Production Secretary: 
     Production Sound Mixer: Productiegeluidsmixer
     Production Supervisor: Productiesupervisor
-    Production Trainee: 
-    Project Manager: 
+    Production Trainee: Stagiaire productie
+    Project Manager: Projectmanager
     Projection: Projectie
     Prop Designer: 
     Prop Maker: Rekwisietmaker
@@ -2217,7 +2218,7 @@ nl-NL:
     Pyrotechnician: 
     Quality Control Supervisor: Kwaliteitscontrole-supervisor
     Radio Play: Radio-afspeeltijd
-    Receptionist: 
+    Receptionist: Receptionist
     Recording Supervision: Opnamesupervisor
     Red Technician: 
     Research Assistant: 
@@ -2267,13 +2268,13 @@ nl-NL:
     Second Unit First Assistant Director: 
     Second Unit Location Manager: 
     Security: Beveiliging
-    Security Coordinator: 
+    Security Coordinator: Beveiligingscoördinator
     Senior Animator: 
     Senior Colorist: 
     Senior Digital Intermediate Colorist: 
     Senior Executive Consultant: Hoofd uitvorend adviseur
     Senior Generalist: 
-    Senior Modeller: 
+    Senior Modeller: Senior modelleur
     Senior Story Editor: 
     Senior Visual Effects Supervisor: 
     Sequence Artist: Sequentie-artiest
@@ -2318,7 +2319,7 @@ nl-NL:
     Software Team Lead: Hoofd softwareteam
     Songs: Nummers
     Sound: Geluid
-    Sound Assistant: 
+    Sound Assistant: Assistent geluid
     Sound Design Assistant: Geluidsontwerpassistent
     Sound Designer: Geluidsontwerper
     Sound Director: Geluidsregisseur
@@ -2350,14 +2351,14 @@ nl-NL:
     Special Guest Director: Speciale gastregisseur
     Special Props: 
     Special Sound Effects: Speciale geluidseffecten
-    Specialized Driver: 
+    Specialized Driver: Gespecialiseerde chauffeur
     Sponsorship Coordinator: 
     Sponsorship Director: 
     Staff Writer: 
     Stage Director: 
     Stand In: Stand-in
     Standby Art Director: 
-    Standby Carpenter: 
+    Standby Carpenter: Timmerman
     Standby Painter: Invalverver
     Standby Property Master: 
     Standby Rigger: 
@@ -2384,7 +2385,7 @@ nl-NL:
     Studio Teacher: Studioleraren
     Stunt Coordinator: Stuntcoördinator
     Stunt Double: Stuntman
-    Stunt Driver: 
+    Stunt Driver: Stuntman
     Stunts: Stunts
     Stunts Coordinator: Stuntscoördinator
     Supervising ADR Editor: 
@@ -2404,17 +2405,17 @@ nl-NL:
     Supervisor of Production Resources: Productiepersoneel-supervisor
     Swing: 
     Systems Administrators & Support: Systeemadministrators en -ondersteuning
-    Tailor: 
-    Tattoo Designer: 
+    Tailor: Kleermaker
+    Tattoo Designer: Tatoeageontwerper
     Tattooist: Tatoeëerder
-    Technical Advisor: 
+    Technical Advisor: Technisch adviseur
     Technical Supervisor: Technisch supervisor
     Techno Crane Operator: 
     Telecine Colorist: Telecine-inkleurder
     Teleplay: Televisietoneelstuk
     Temp Music Editor: Tijdelijk muziekbewerker
     Temp Sound Editor: Tijdelijk geluidsbewerker
-    Textile Artist: 
+    Textile Artist: Textielartiest
     Thanks: Bedankt
     Theatre Play: Theaterstuk
     Theme Song Performance: 
@@ -2424,7 +2425,7 @@ nl-NL:
     Third Assistant "D" Camera: 
     Third Assistant Camera: 
     Third Assistant Director: 
-    Title Designer: 
+    Title Designer: Titelontwerper
     Title Graphics: Titels
     Title Illustration: 
     Trainee Production Coordinator: 
@@ -2433,7 +2434,7 @@ nl-NL:
     Transportation Captain: Vervoersleider
     Transportation Co-Captain: Co-vervoersleider
     Transportation Coordinator: Vervoerscoördinator
-    Travel Coordinator: 
+    Travel Coordinator: Reiscoördinator
     Treatment: Verzorging
     Truck Costumer: 
     Truck Production Assistant: 
@@ -2445,7 +2446,7 @@ nl-NL:
     Underwater Gaffer: 
     Underwater Stills Photographer: 
     Unit Manager: Afdelingsbeheerder
-    Unit Medic: 
+    Unit Medic: Medicus
     Unit Production Manager: Afdelingsproductiebeheerder
     Unit Publicist: Afdelingsjournalist
     Unit Swing: 
@@ -2462,7 +2463,7 @@ nl-NL:
     Video Assist Operator: Video-assistentuitvoerder
     Video Game: Videospel
     Video Report: 
-    Videojournalist: 
+    Videojournalist: Videojournalist
     Visual Development: Visuele ontwikkeling
     Visual Effects: Visuele effecten
     Visual Effects Art Director: Visuele effecten-kunstregisseur
@@ -2483,16 +2484,16 @@ nl-NL:
     Vocal Coach: Stemcoach
     Vocals: 
     Voice: Stem
-    Wardrobe Assistant: 
-    Wardrobe Coordinator: 
-    Wardrobe Designer: 
-    Wardrobe Intern: 
-    Wardrobe Master: 
-    Wardrobe Specialized Technician: 
-    Wardrobe Supervisor: 
-    Weapons Master: 
+    Wardrobe Assistant: Kledingassistent
+    Wardrobe Coordinator: Kledingcoördinator
+    Wardrobe Designer: Kledingontwerper
+    Wardrobe Intern: Stagiaire kleding
+    Wardrobe Master: Kledingmeester
+    Wardrobe Specialized Technician: Technicus specialistische kleding
+    Wardrobe Supervisor: Hoofd kleding
+    Weapons Master: Wapenmeester
     Weapons Wrangler: 
-    Web Designer: 
+    Web Designer: Webdesigner
     Wig Designer: Pruikenontwerper
     Wigmaker: Pruikenmaker
     Writer: Schrijver
@@ -2501,40 +2502,40 @@ nl-NL:
   joined: lid geworden
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
+      back_to_parent: ga terug (of ga naar bovenliggend item)
+      close_window: sluit een open venster
+      focus_search: focus op zoekbalk
+      go_to_edit: ga naar beweken
+      last_reply: ga naar laatste antwoord
+      new_discussion: start nieuwe discussie
+      next_episode: "(rechter pijl) ga naar volgende aflevering"
+      next_page: "(rechter pijl) volgende pagina"
+      next_season: "(rechter pijl) ga naar volgende seizoen"
+      open_activity: open activiteit
+      open_add_image_window: open venster afbeelding toevoegen
+      open_profile: open profielmenu
+      open_shortcut_window: open sneltoetsen venster
+      open_translation_selector: open vertaalmenu
+      previous_episode: "(linker pijl) ga naar vorige aflevering"
+      previous_page: "(linker pijl) vorige pagina"
+      previous_season: "(linker pijl) ga naar vorig seizoen"
+      reply_to_discussion: beantwoord discussie
+      save_form: verstuur formulier
+      submit_message: verstuur uw bericht
+      toggle_close: gesloten of open
+      toggle_private: privé of openbaar
       toggle_watching: 
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      discussion_pages: Op discussiepagina's
+      edit_pages: Op alle bewerkte pagina's
+      global: Wereldwijd
+      image_pages: Op alle afbeeldingspagina's
+      media_pages: Op media pagina's
+      tv_episode_pages: Op pagina's met TV-programma's
+      tv_season_pages: Op TV seizoenspagina's
+    keyboard_shortcuts: Sneltoetsen
+    view_keyboard_shorcuts: Bekijk sneltoetsen
+    view_shortcuts: Bekijk sneltoetsen
   list_info:
     average_rating: Gemiddelde beoordeling
     image_selected: Geselecteerd
@@ -2572,11 +2573,13 @@ nl-NL:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Leegmaken
+        key: Toets
+        language: Taal
+        user: Gebruiker
+      number_of_changes:
+        one: "%{count} Verandering"
+        other: "%{count} Veranderingen"
       view_weekly_leaderboard: Weekklassement tonen
     company:
       headquarters: Hoofdkantoor
@@ -2606,10 +2609,10 @@ nl-NL:
         overview: Als je een omschrijving schrijft, houd deze dan kort, to-the-point en zonder spoilers.
         social_links: Sociale links zijn alleen bedoeld voor officiële (geverifieerde) pagina's; fanpagina's zijn niet toegestaan.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Bezoek Facebook
+      visit_homepage: Bezoek homepage
+      visit_instagram: Bezoek Instagram
+      visit_twitter: Bezoek Twitter
     genre:
       movie_page_title: "%{name} films"
       tv_page_title: "%{name} tv-series"
@@ -2849,7 +2852,7 @@ nl-NL:
       to: aan
     no_messages: Geen berichten
     notifications:
-      new_message: 
+      new_message: "%{username} heeft jouw een bericht gestuurd"
     number_of_messages:
       one: "%{count} bericht"
       other: "%{count} berichten"
@@ -2857,7 +2860,7 @@ nl-NL:
       admin: Administrator
       archive: Archief
       settings: Instellingen
-      viewed_at: 
+      viewed_at: "%{time_ago} bekeken"
     placeholders:
       no_conversation_selected:
         create: Je kunt ook een nieuw gesprek starten door <a href="%{link}">hier te klikken</a>.
@@ -3110,15 +3113,15 @@ nl-NL:
       results:
         complete:
           imported: Geïmporteerd?
-          item: 
+          item: Item
           item_reasons:
             already_imported: Reeds geïmporteerd.
             cant_find_imdb: De IMDb-ID kan niet worden gevonden.
-            imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            imdb_id_not_in_row: Het IMDb ID is niet gevonden in deze rij.
+            personal_rating_invalid: Uw persoonlijke waardering is foutief (moet tussen 0.5 en 10.0 zijn).
+            personal_rating_not_found: Uw persoonlijk waardering is niet gevonden in deze rij.
+            row_is_invalid: Deze rij is foutief.
+            updated_date: Datum bijgewerkt.
           reason: Reden? (indien van toepassing)
           summary: We hebben in totaal %{imported_count} van %{total_count} (%{imported_percentage}%) items kunnen importeren uit je lijst.
         currently_running: De importering wordt uitgevoerd. Je kunt de pagina verversen om te zien of de importering al voltooid is.
@@ -3235,6 +3238,6 @@ nl-NL:
   used_by_developers: TMDb wordt gebruikt door meer dan 150.000 ontwikkelaars.<br>Bekijk hieronder hun werk.
   view all: alles tonen
   will_paginate:
-    next_label: 
+    next_label: Volgende →
     page_gap: 
-    previous_label: 
+    previous_label: "← Vorige"
