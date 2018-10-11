@@ -565,6 +565,14 @@ fi-FI:
             status: 
       events: 
       notifications:
+        filters:
+          type:
+            Discussion: 
+            General: 
+            List Import: 
+            Mention: 
+            Messages: 
+            type: 
         notifications: 
     export:
       csv_explanation: Jos haluat viedä listan csv tiedostoon, paina "Vie" painiketta sivun alareunassa. Tämä luo csv-tiedoston, joka lähetetään sähköpostiisi. Listasi koosta riippuen, tässä saattaa kestää muutama minuutti.
