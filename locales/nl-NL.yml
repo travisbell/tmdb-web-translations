@@ -553,9 +553,16 @@ nl-NL:
         page_owner: Mijn discussies
         public: "%{username}'s discussies"
     events:
-      all: 
+      all: Alle
       emails:
         emails: E-mails
+        filters:
+          status:
+            Bounced: 
+            Complaint: 
+            Delivered: 
+            Unsubscribed: 
+            status: 
       events: Evenementen
       notifications:
         notifications: Notificaties
