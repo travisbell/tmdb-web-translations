@@ -33,7 +33,7 @@ uk-UA:
   Add New TV Show: Додати новий серіал
   Add Poster: Додати постер
   Add Profile: Додати фото профілю
-  Add Season Regular: Додавати черговий сезон
+  Add Season Regular: Додати черговий сезон
   Add To Every Season?: Додати до кожного сезону?
   Add Video: Додати відео
   Add YouTube Video: Додати відео з YouTube
@@ -562,22 +562,23 @@ uk-UA:
             Complaint: 
             Delivered: 
             Unsubscribed: 
-            status: 
+            status: Статус
         number_of_items: 
-      events: 
+      events: Події
       notifications:
         filters:
           type:
-            Discussion: 
+            Discussion: Обговорення
             General: 
             List Import: 
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
+            Messages: Повідомлення
+            type: Тип
+        notifications: Сповіщення
         number_of_items: 
+      recent: 
     export:
-      csv_explanation: Якщо ви хочете отримати копію цього списку вивантаженого у CSV, натисніть клавішу "Експорт" внизу. Ми створимо експорт і відправимо на електронну пошту. Залежно від розміру вашого списку, може знадобитися декілька хвилин, для завершення.
+      csv_explanation: Якщо ви хочете отримати копію цього списку, вивантаженого у CSV, натисніть клавішу "Експорт" внизу. Ми створимо експорт і відправимо на електронну пошту. Залежно від розміру вашого списку, може знадобитися декілька хвилин для завершення.
       export: Експорт
       export_csv: Експорт у CSV
     favorites:
@@ -1250,7 +1251,7 @@ uk-UA:
     contribute: Посприяти
     missing_a_biography: Відсутня біографія
     missing_a_profile_image: Відсутнє зображення
-    movie_language_distribution: Розподіл фільмів по мовам
+    movie_language_distribution: Розподіл фільмів за мовами
     movies_missing_a_backdrop: Фільми, що потребують світлин
     movies_missing_a_overview: Фільми, що потребують опису
     movies_missing_a_poster: Фільми, що потребують постери
@@ -1259,7 +1260,7 @@ uk-UA:
     selected_language: Обрана мова
     tv_missing_a_backdrop: Серіали, що потребують світлин
     tv_missing_a_poster: Серіали, що потребують постери
-    tv_show_language_distribution: Розподіл серіалів по мовам
+    tv_show_language_distribution: Розподіл серіалів за мовами
     tv_shows_missing_a_name: Серіали, що потребують назви
     tv_shows_missing_a_overview: Серіали, що потребують опису
   contribution_bible:
@@ -1476,7 +1477,7 @@ uk-UA:
       community_guidelines: Правила спільноти
       discussion_category: Категорія
       for_item: Для елемента
-      message: 
+      message: Повідомлення
       new_discussion: Нове обговорення
       subject: Тема
     no_discussions: Нема обговорень.
@@ -2550,32 +2551,32 @@ uk-UA:
   joined: приєднався
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
+      back_to_parent: повернутися назад
+      close_window: закрити відкрите вікно
       focus_search: 
       go_to_edit: 
       last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
+      new_discussion: створити нове обговорення
+      next_episode: "(стрілка вправо) перейти до наступної серії"
+      next_page: "(стрілка вправо) наступна сторінка"
+      next_season: "(стрілка вправо) перейти до наступного сезону"
       open_activity: 
-      open_add_image_window: 
-      open_profile: 
+      open_add_image_window: відкрити вікно додавання картинки
+      open_profile: відкрити меню профілю
       open_shortcut_window: 
       open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
+      previous_episode: "(стрілка вліво) перейти до попередньої серії"
+      previous_page: "(стрілка вліво) попередня сторінка"
+      previous_season: "(стрілка вліво) перейти до попереднього сезону"
+      reply_to_discussion: відповісти на обговорення
+      save_form: підтвердити форму
+      submit_message: підтвердити повідомлення
       toggle_close: 
       toggle_private: 
       toggle_watching: 
     groups:
-      discussion_pages: 
-      edit_pages: 
+      discussion_pages: На сторінки обговорення
+      edit_pages: На всі редаговані сторінки
       global: 
       image_pages: 
       media_pages: 
@@ -2624,7 +2625,7 @@ uk-UA:
       filters:
         clear: 
         key: 
-        language: 
+        language: Мова
         user: 
       number_of_changes: 
       view_weekly_leaderboard: Переглянути таблицю лідерів за тиждень
@@ -2633,21 +2634,21 @@ uk-UA:
       movie_page_title: Фільми виробництва %{name}
       tv_page_title: Серіали на %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Заблокувати всі поля
+      lock_all_images: Заблокувати всі картинки
       page_title: Зміни %{name}
       placeholders:
         country: Вибрати країну...
         create_person:
-          click_to_create: 
-          create_it: 
+          click_to_create: Натисніть, щоб створити %{name}
+          create_it: Створити це...
         genres: Вибрати жанр...
         job: Вибрати посаду...
         keywords: Вибрати ключове слово...
-        networks: 
-        person: 
+        networks: Знайти мережу...
+        person: Знайти персону...
         production_companies: Шукати виробничу компанію...
-      success_fields_locked: 
+      success_fields_locked: Поля заблоковані.
       tooltips:
         bible: Щоб узнати, як змінювати інформацію на TMDb, натисніть '?' для переходу до Біблії по контексту.
         homepage: Тільки офіційні сторінки. Сторінки фанів не дозволено.
@@ -2656,10 +2657,10 @@ uk-UA:
         overview: Створюючи опис, намагайтеся писати коротко, стисло і без спойлерів.
         social_links: Посилання на соціальні мережі передбачені лише для офіційних (перевірених) сторінок. Не дозволяються посилання на сторінки фанатських спільнот.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Відвідайте Facebook
+      visit_homepage: Відвідайте Домашню сторінку
+      visit_instagram: Відвідайте Instagram
+      visit_twitter: Відвідайте Twitter
     genre:
       movie_page_title: "%{name} Фільми"
       tv_page_title: "%{name} Серіали"
@@ -2693,9 +2694,9 @@ uk-UA:
 
           <p>Якщо це, наприклад, записана на DVD компіляція, спортивне відео або, можливо, записана на DVD колекція типу "Найкраще з...", то такий контент треба позначати як "Відео".</p>
         crew:
-          job_required: 
+          job_required: Робота - обов'язково
           no_records: Членів знімальної групи не додано.
-          person_required: 
+          person_required: Персона - обов'язково
         genres:
           add_genre: Додати жанр
           no_records: Жанри не додано.
@@ -2906,19 +2907,19 @@ uk-UA:
       admin: Адмін
       archive: Архів
       settings: Налаштування
-      viewed_at: 
+      viewed_at: Переглянуто %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
+        create: Ви також можете створити нову бесіду, <a href="%{link}">натиснувши тут</a>.
         no_conversations: 
-        view: 
+        view: Щоб переглянути бесіду, виберіть зліва.
       no_user_found: Користувачів не знайдено
       reply: Введіть повідомлення...
       subject: 
       to: Шукати користувача...
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
+      conversation_with: Бесіда з %{username}
+      message_inbox: Вхідні повідомлення
       my_archive: Мій архів
       my_inbox: Вхідні
       new_message: Нове повідомлення
@@ -2995,7 +2996,7 @@ uk-UA:
     public: Цей список порожній.
   no_writer: Не додано ще жодного сценариста.
   not_translated:
-    logged_in: "%{page_title} ще не був перекладений на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Якщо Ви бажаєте продовжити та додати переклад, будь-ласка, натисніть кнопку знизу."
+    logged_in: "%{page_title} ще не був перекладений на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Якщо Ви бажаєте продовжити та додати переклад, будь ласка, натисніть кнопку знизу."
     public: '%{page_title} ще не був перекладений на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Ви можете додати переклад <a href="%{signup_link}">створивши</a> обліковий запис та <a href="%{login_link}">увійшовши до нього</a>.'
   notifications:
     caught_up: Повідомлень більше нема.
@@ -3095,8 +3096,8 @@ uk-UA:
       as_character: як %{character}
       as_job: 
   resend_verification_email_text: Немає листа з підтвердженням акаунту? Введіть ім'я користувача щоб надіслати повторно.
-  reset_password_dialog_text: 
-  reset_password_text: 
+  reset_password_dialog_text: Підтвердивши цей запит, ви надішлете електронного листа з інструкціями, як скинути пароль. Ви впевнені, що хочете це зробити?
+  reset_password_text: Введіть своє ім'я користувача нижче, щоб почати процес скидання паролю.
   search:
     favorites_movie: Шукати серед улюблених фільмів...
     favorites_tv: Шукати серед улюблених телефільмів...
