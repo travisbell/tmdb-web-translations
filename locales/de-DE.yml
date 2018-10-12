@@ -553,29 +553,33 @@ de-DE:
         page_owner: Meine Diskussionen
         public: Diskussionen von %{username}
     events:
-      all: 
+      all: Alle
       emails:
-        emails: 
+        emails: E-Mails
         filters:
           status:
             Bounced: 
             Complaint: 
-            Delivered: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Delivered: Zugestellt
+            Unsubscribed: Abgemeldet
+            status: Status
+        number_of_items:
+          one: "%{count} E-Mail"
+          other: "%{count} E-Mails"
+      events: Veranstaltungen
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
+            Discussion: Diskussion
+            General: Allgemein
             List Import: 
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Messages: Nachrichten
+            type: Typ
+        notifications: Benachrichtigungen
+        number_of_items:
+          one: "%{count} Benachrichtigung"
+          other: "%{count} Benachrichtigungen"
     export:
       csv_explanation: Wählen Sie unten den "Exportieren" Knopf aus, wenn Sie diese Liste in eine CSV-Datei exportieren möchten. Die exportierten Daten werden Ihnen per Email zugeschickt. Abhängig von der Größe der Liste kann dies einige Minuten in Anspruch nehmen.
       export: Exportieren
