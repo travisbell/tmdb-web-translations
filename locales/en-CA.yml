@@ -563,6 +563,9 @@ en-CA:
             Delivered: 
             Unsubscribed: 
             status: 
+        number_of_emails:
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events: 
       notifications:
         filters:
@@ -574,6 +577,9 @@ en-CA:
             Messages: 
             type: 
         notifications: 
+        number_of_notifications:
+          one: "%{count} Notification"
+          other: "%{count} Notifications"
     export:
       csv_explanation: 
       export: 
@@ -2951,6 +2957,7 @@ en-CA:
     refresh: 
     unread_notifications: 
     view: 
+    view_all: 
   number:
     currency:
       format:

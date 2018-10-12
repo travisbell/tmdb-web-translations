@@ -553,27 +553,29 @@ he-IL:
         page_owner: הדיונים שלי
         public: הדיונים של %{username}
     events:
-      all: 
+      all: הכל
       emails:
-        emails: 
+        emails: דוא"לים
         filters:
           status:
-            Bounced: 
-            Complaint: 
-            Delivered: 
-            Unsubscribed: 
-            status: 
-      events: 
+            Bounced: הוחזר
+            Complaint: תלונה
+            Delivered: נמסר
+            Unsubscribed: לא רשום כמנוי
+            status: מעמד
+        number_of_emails: 
+      events: אירועים
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
+            Discussion: דיון
+            General: כללי
+            List Import: יבוא רשימה
+            Mention: הזכרה
+            Messages: הודעות
+            type: סוג
+        notifications: התראות
+        number_of_notifications: 
     export:
       csv_explanation: אם אתה רוצה שיהיה לך עותק של רשימה זו מיוצאת אל סי־אס־וי, לחץ על הכפתור "ייצא" למטה. ניצור את היצוא ונשלח אותו אליך באמצעות דוא"ל. בהתאם לגודל הרשימה שלך, זה עשוי לקחת מספר דקות להשלמה.
       export: ייצא
@@ -2964,6 +2966,7 @@ he-IL:
     refresh: רענן
     unread_notifications: התראות שלא נקראו
     view: הצג
+    view_all: 
   number:
     currency:
       format:

@@ -563,6 +563,9 @@ en-US:
             Delivered: Delivered
             Unsubscribed: Unsubscribed
             status: Status
+        number_of_emails:
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events: Events
       notifications:
         filters:
@@ -574,6 +577,9 @@ en-US:
             Messages: Messages
             type: Type
         notifications: Notifications
+        number_of_notifications:
+          one: "%{count} Notification"
+          other: "%{count} Notifications"
     export:
       csv_explanation: If you'd like to have a copy of this list exported to a CSV, click the "Export" button below. We will create the export and send it to you via email. Depending on the size of your list, this can take a few minutes to complete.
       export: Export
@@ -3000,6 +3006,7 @@ en-US:
     refresh: Refresh
     unread_notifications: Unread Notifications
     view: View
+    view_all: View All Notifications
   number:
     currency:
       format:
