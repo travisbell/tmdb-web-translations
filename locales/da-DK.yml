@@ -555,30 +555,34 @@ da-DK:
         page_owner: Mine Diskussioner
         public: "%{username}'s Diskussioner"
     events:
-      all: 
+      all: Alle
       emails:
-        emails: 
+        emails: E-mails
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Afviste
+            Complaint: Klage
+            Delivery: Leveret
+            Unsubscribed: Afmeldt
+            status: Status
+        number_of_items:
+          one: "%{count} E-mail"
+          other: "%{count} e-mails"
+      events: Begivenheder
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
-      recent: 
+            Discussion: Diskussion
+            General: Generelt
+            List Import: Vis import
+            Mention: Nævnte
+            Messages: Beskeder
+            type: Type
+        notifications: Notifikation
+        number_of_items:
+          one: "%{count} Notifikation"
+          other: "%{count} Notifikationer"
+      recent: Nylige
     export:
       csv_explanation: Hvis du gerne vil have en kopi af denne liste eksporteret til CSV, klik på "Eksportér" knappen nedenunder. Vi laver eksporteringen og sender den til dig via email. Afhængig af størrelsen på din liste, kan det tage nogle få minutter at færdiggøre.
       export: Eksportér
@@ -684,17 +688,17 @@ da-DK:
     3rd_party_request: 3. parts godkendelses anmodning
     approved_session: Du har godkendt %{application_name}. Du kan nu lukke dette vindue.
     continue: Hvis du vil fortsætte, klik på godkend knappen herunder. Hvis ikke, så bare luk vinduet.
-    request_token_approval: 
+    request_token_approval: "{{APP}} beder om din tilladelse til at læse og skrive data på dine vegne. Dette er nødvendigt, hvis du vil gøre ting som at vedligeholde dine lister eller vurdere film uden for TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Du har givet læse og skrive tilladelse til <strong>%{application_name}</ strong>. Du kan nu vende tilbage til programmet og lukke dette vindue. Du kan altid tilbagekalde denne adgang ved at gå ind på din kontoindstillingsside og derefter på din "Connected Apps" -side.
+        name: Autentificering tildelt
       denied:
-        message: 
-        name: 
+        message: "<p>Du har nægtet adgang til <strong>%{application_name}</ strong>. Hvis dette var en fejl, eller hvis du gerne vil genstarte godkendelsesprocessen, skal du bare gå tilbage til applikationen og anmode om tilladelse igen.</ P>"
+        name: Autentificering nægtet
       invalid_request_token:
-        message: 
-        name: 
+        message: Den adgangstoken du har indsendt er ugyldig. Prøv at oprette en ny og sørg for at du har kopieret den korrekt. Hvis du fortsat har problemer, skal du kontakte udvikleren af den app, du bruger.
+        name: Ugyldig anmodningstoken
   attributes:
     biography: Biografi
     certification: Certificering
@@ -757,40 +761,40 @@ da-DK:
         '2':
           meaning: Ikke anbefalet til børn under 10 år. Voldeligt indhold og hårdt sprog for børn, selvom det ikke er særlig intenst.
         '3':
-          meaning: 
+          meaning: Anbefales ikke til mindreårige under tolv. Scener kan omfatte fysisk aggression, brug af lovlige stoffer og seksuel induendo.
         '4':
-          meaning: 
+          meaning: Anbefales ikke til mindreårige under fjorten. Mere voldeligt materiale, stærkere sexreferencer og / eller nøgenhed.
         '5':
-          meaning: 
+          meaning: Anbefales ikke til mindreårige under seksten. Scener med produktion, handel og / eller brug af ulovlige stoffer, hyperrealistisk sex, seksuel vold, abort, tortur, lemlæstelse, selvmord, trivialisering af vold og dødsstraf.
         '6':
-          meaning: 
+          meaning: Anbefales ikke til mindreårige under 18. Scener med eksplicit sex, incest, pædofili, lovprisning af brugen af illegale stoffer og vold med stærk billedvirkning.
       CA:
         '1':
-          meaning: 
+          meaning: Alle aldre
         '2':
-          meaning: 
+          meaning: Forældres vejledning anbefales. Der er ingen aldersbegrænsning, men noget materiale er muligvis ikke egnet til alle børn.
         '3':
-          meaning: 
+          meaning: Personer under 14 år skal ledsages af en voksen.
         '4':
-          meaning: 
+          meaning: Personer under 18 år skal ledsages af en voksen. I Maritimes & Manitoba er det forbudt for børn under 14 år at se filmen.
         '5':
-          meaning: 
+          meaning: Adgang begrænset til personer 18 år eller derover. Det eneste formål med filmen er skildringen af seksuelt eksplicit aktivitet og / eller eksplicit vold.
       CA-QC:
         '0':
-          meaning: 
+          meaning: Ingen bedømmelser.
         '1':
-          meaning: 
+          meaning: Generel vurdering - Kan ses, lejes eller købes af personer i alle aldre. Hvis en film, der bærer en "G" -rating, kan være til skade for et barn under 8 år, er "Ikke egnet til små børn" vedlagt klassificeringen.
         '2':
-          meaning: 
+          meaning: 13 år og derover - Kan ses, lejes eller købes kun af børn 13 år eller derover. Børn under 13 må kun deltage, hvis de ledsages af en voksen.
         '3':
-          meaning: 
+          meaning: 16 år og derover - Kan ses, lejes eller købes kun af børn på 16 år eller derover.
         '4':
-          meaning: 
+          meaning: 18 år og derover - Kan ses, lejes eller købes kun af voksne 18 år eller derover. Hvis en film indeholder en reel og eksplicit seksuel aktivitet, er "Explicit Sexuality" tilføjet til klassificeringen, og i detailvirksomheden skal butiksejerne placere filmen på et værelse reserveret til voksne.
       DE:
         '1':
-          meaning: 
+          meaning: Ingen alders restriktioner
         '2':
-          meaning: 
+          meaning: Ikke anbefalet til børn under 6 år.
         '3':
           meaning: 
         '4':
@@ -812,56 +816,56 @@ da-DK:
           meaning: 
       ES:
         '1':
-          meaning: 
+          meaning: Generel adgang
         '2':
-          meaning: 
+          meaning: Anbefales ikke til publikum under 7.
         '3':
-          meaning: 
+          meaning: Anbefales ikke til publikum under 12.
         '4':
-          meaning: 
+          meaning: Anbefales ikke til publikum under 16.
         '5':
-          meaning: 
+          meaning: Anbefales ikke til publikum under 18.
         '6':
-          meaning: 
+          meaning: Forbudt for publikum under 18 år.
       FI:
         '1':
-          meaning: 
+          meaning: For alle aldre
         '2':
-          meaning: 
+          meaning: Over 7 år
         '3':
-          meaning: 
+          meaning: Over 12 år
         '4':
-          meaning: 
+          meaning: Over 16 år
         '5':
-          meaning: 
+          meaning: Kun for voksne
         '6':
-          meaning: 
+          meaning: Forbudt for kommerciel uddeling
       FR:
         '1':
-          meaning: 
+          meaning: "(Tous publics) gælder for alle målgrupper."
         '2':
-          meaning: 
+          meaning: '(Déconseillé aux moins de 10 ans) uegnet til børn under 10 år (denne bedømmelse bruges kun til tv); tilsvarende i teatre : "avertissement" (Advarsel), nogle scener kan være forstyrrende for små børn og følsomme mennesker; ækvivalent på video : "accord parental" (Forældrevejledning).'
         '3':
-          meaning: 
+          meaning: "(Interdit aux moins de 12 ans) uegnet til børn under 12 år eller forbudt i biografer under 12 år."
         '4':
-          meaning: 
+          meaning: "(Interdit aux moins de 16 ans) uegnet til børn under 16 år eller forbudt i biografer under 16 år."
         '5':
-          meaning: 
+          meaning: "(Interdit aux mineurs) uegnet til børn under 18 år eller forbudt i biografer under 18 år."
       GB:
         '1':
-          meaning: 
+          meaning: Alle aldre indeholdt, at der ikke er noget uegnet til børn.
         '2':
-          meaning: 
+          meaning: Alle aldre indeholdt, men visse scener kan være uegnet til små børn. Kan indeholde milde sprog og køn / medicin referencer. Kan indeholde moderat vold, hvis begrundet i kontekst (fx fantasi).
         '3':
-          meaning: 
+          meaning: Film under denne kategori anses for uegnet til meget unge. Dem under 12 år er kun anbefalet, hvis de ledsages af en voksen, der er mindst 18 år, under alle omstændigheder under filmen. Det anbefales dog generelt ikke, at børn under 12 år skal se filmen. Film under denne kategori kan indeholde modne temaer, diskrimination, bløde stoffer, moderate svære ord, sjældent stærkt sprog og moderat vold, sexreferencer og nøgenhed. Seksuel aktivitet kan kort og diskret udmøntes. Seksuel vold kan antydes eller kort angives.
         '4':
-          meaning: 
+          meaning: Home media kun siden 2002. 12A-ratede film er normalt givet et 12 certifikat til VHS / DVD version, medmindre ekstra materiale er blevet tilføjet, der kræver en højere rating. Ingen yngre end 12 kan leje eller købe en 12-klassificeret VHS, DVD, Blu-ray Disc, UMD eller spil. Indholdsretningslinjerne er identiske med dem, der anvendes til 12A-certifikatet.
         '5':
-          meaning: 
+          meaning: Kun folk over 15 år er anbefalet. Ingen yngre end 15 kan leje eller købe en 15-graders VHS, DVD, Blu-ray Disc, UMD eller spil, eller se film i biografen med denne rating. Film under denne kategori kan indeholde voksen temaer, hård medicin, hyppigt stærkt sprog og begrænset brug af meget stærkt sprog, stærk vold og stærke sexreferencer og nøgenhed uden grafiske detaljer. Seksuel aktivitet kan være portrætteret, men uden nogen stærk detalje. Seksuel vold kan vises, hvis den er diskret og begrundet i kontekst.
         '6':
-          meaning: 
+          meaning: Kun anbefalet for voksne. Ingen yngre end 18 kan leje eller købe en 18-graders VHS, DVD, Blu-ray Disc, UMD eller spil, eller se film i biografen med denne rating. Film under denne kategori har ikke begrænsning på det dårlige sprog, der bruges. Hårde stoffer er generelt tilladt, og eksplicitte sexreferencer sammen med detaljeret seksuel aktivitet er også tilladt. Scener af stærkt ægte sex kan tillades, hvis det er begrundet i konteksten. Meget stærk, gory og / eller sadistisk vold er normalt tilladt. Stærke seksuelle vold er tilladt, medmindre det er erotisk eller overdreven grafisk.
         '7':
-          meaning: 
+          meaning: 'Kan kun vises på licenserede voksenbiografer eller sælges hos licenserede sexbutikker og kun til voksne, 18 år og derover. Film under denne kategori er altid hårdkornspornografi, defineret som materiale beregnet til seksuel stimulation og indeholdende klare billeder af ægte seksuel aktivitet, stærkt fetisk materiale, eksplicit animerede billeder eller syn på visse handlinger som tredobbelt samtidig indtrængning og snebold. Der er stadig et udvalg af materiale, der ofte skæres fra R18-bedømmelsen: stærke billeder af skader i BDSM eller spanking, urolagni, scener, der tyder på incest, selvom de er iscenesat, referencer til underlig sex eller seksuel udvikling i barndommen og aggressiv adfærd som hårdrækker eller spytte på en performer er ikke tilladt. Flere nedskæringer kræves i denne kategori end nogen anden kategori.'
       HU:
         '0':
           meaning: 
@@ -879,7 +883,7 @@ da-DK:
           meaning: 
       IN:
         '0':
-          meaning: 
+          meaning: Ubegrænset offentlig udstilling i hele Indien, velegnet til alle aldersgrupper. Film under denne kategori bør ikke forstyrre børn over 4. Sådanne film kan indeholde uddannelsesmæssige, sociale eller familieorienterede temaer. Film under denne kategori kan også indeholde fantasy vold og / eller mildt dårlig sprog.
         '1':
           meaning: 
         '2':
