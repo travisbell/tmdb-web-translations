@@ -553,30 +553,36 @@ ro-RO:
         page_owner: Discuțiile mele
         public: Discuțiile lui %{username}
     events:
-      all: 
+      all: Toate
       emails:
-        emails: 
+        emails: E-mailuri
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Sărit
+            Complaint: Reclamaţie
+            Delivery: Livrat
+            Unsubscribed: Dezabonare
+            status: Stare
+        number_of_items:
+          few: ''
+          one: "%{count} E-mail"
+          other: "%{count} E-mailuri"
+      events: Evenimente
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
-      recent: 
+            Discussion: Discuţie
+            General: General
+            List Import: Listă Import
+            Mention: Menţiune
+            Messages: Mesaje
+            type: Tip
+        notifications: Notificări
+        number_of_items:
+          few: ''
+          one: "%{count} Notificare"
+          other: "%{count} Notificări"
+      recent: Recent
     export:
       csv_explanation: Dacă doriți să aveți o copie a acestei liste exportată într-un fișier CSV, faceți clic pe butonul "Export" de mai jos. Vom crea exportul și îl vom trimite prin e-mail. În funcție de dimensiunea listei dvs., aceasta poate dura câteva minute până la finalizare.
       export: Export
@@ -1425,7 +1431,7 @@ ro-RO:
     Creator: Realizator
     Crew: Echipă filmare
     Directing: Regizare
-    Editing: Editare
+    Editing: Montaj
     Lighting: Lumini
     Production: Producere
     Sound: Sonorizare
@@ -1840,7 +1846,7 @@ ro-RO:
     Chief Technician / Stop-Motion Expert: Tehnician șef / Expert Oprire-mișcare
     Child Wrangler: Responsabil copii
     Choreographer: Coreograf
-    Cinematography: Cinematografie
+    Cinematography: Imagine
     Clapper Loader: 'Încărcător material în cameră '
     Clearances Consultant: Consultant aprobări
     Clearances Coordinator: Coordonator aprobări
@@ -2625,11 +2631,14 @@ ro-RO:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Curăță
+        key: Cheie
+        language: Limba
+        user: Utilizator
+      number_of_changes:
+        few: ''
+        one: "%{count} Modificare"
+        other: "%{count} Modificări"
       view_weekly_leaderboard: Arată clasamentul săptămânal
     company:
       headquarters: Sediu
@@ -3014,7 +3023,7 @@ ro-RO:
     refresh: Reîmprospătează
     unread_notifications: Notificări necitite
     view: Arată
-    view_all: 
+    view_all: Vedeți tot
   number:
     currency:
       format:

@@ -553,30 +553,34 @@ zh-TW:
         page_owner: 我的討論串
         public: "%{username} 的討論串"
     events:
-      all: 
+      all: 全部
       emails:
         emails: 電子郵件
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
+            Bounce: 退回
+            Complaint: 投訴
+            Delivery: 已寄出
+            Unsubscribed: 退訂
+            status: 狀態
+        number_of_items:
+          one: "%{count} 封電子郵件"
+          other: "%{count} 封電子郵件"
       events: 事件
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
+            Discussion: 討論
+            General: 一般
+            List Import: 清單匯入
+            Mention: 提及
+            Messages: 訊息
+            type: 類型
         notifications: 通知
-        number_of_items: 
-      recent: 
+        number_of_items:
+          one: "%{count} 個通知"
+          other: "%{count} 個通知"
+      recent: 最近
     export:
       csv_explanation: 若您想要將資料匯出成 CSV 檔案，請點選 "匯出" 按鈕，我們將為您建立 CSV 檔案並透過 email 發送給您。完成時間依據您資料的大小決定，可能會需要幾分鐘的時間才能完成。
       export: 匯出
@@ -2998,7 +3002,7 @@ zh-TW:
     refresh: 重新整理
     unread_notifications: 未讀的通知
     view: 檢視
-    view_all: 
+    view_all: 檢視全部
   number:
     currency:
       format:
