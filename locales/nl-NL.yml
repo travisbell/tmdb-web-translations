@@ -558,27 +558,31 @@ nl-NL:
         emails: E-mails
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
+            Bounce: Onbestelbaar
+            Complaint: Klacht
+            Delivery: Verzonden
+            Unsubscribed: Afgemeld
+            status: Status
+        number_of_items:
+          one: "%{count} E-mail"
+          other: "%{count} E-mails"
       events: Evenementen
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
+            Discussion: Discussie
+            General: Algemeen
+            List Import: Lijst importeren
+            Mention: Noemen
+            Messages: Berichten
+            type: Type
         notifications: Notificaties
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Melding"
+          other: "%{count} Meldingen"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Recente gebeurtenissen
+      recent: Recent
     export:
       csv_explanation: Als u een lijst wilt exporteren in CSV-formaat, klik dan op "Export" hieronder. We maken het bestand voor u en sturen dat per e-mail naar u toe. Afhankelijk van de grootte van het bestand, zal dit enkele minuten duren.
       export: Exporteren
@@ -1092,13 +1096,13 @@ nl-NL:
         '0':
           meaning: Geen classificatie-informatie.
         '1':
-          meaning: 
+          meaning: Niet aanbevolen voor kinderen onder 10. Niet toegestaan in televisieseries voor kinderen
         '2':
-          meaning: 
+          meaning: Niet aanbevolen voor kinderen onder 12. Niet toegestaan voor 22:00u. Sommige zenders en programma's zijn hiervan uitgezonderd.
         '3':
-          meaning: 
+          meaning: Niet aanbevolen voor kinderen onder 16. Niet toegestaan voor 22:30u. Sommige zenders en programma's zijn hiervan uitgezonderd.
         '4':
-          meaning: 
+          meaning: Niet aanbevolen voor kinderen onder 18. Toegestaan tussen middernacht en 05:00u en alleen op sommige zenders is toegang tot deze programma's afgesloten met een persoonlijk wachtwoord.
       GB:
         '0':
           meaning: De U staat voor Universeel. Een film met een U zou geschikt moeten zijn voor kinderen vanaf 4 jaar of ouder.
@@ -1764,13 +1768,13 @@ nl-NL:
     Boom Operator: Kraanbestuurder
     Broadcast Producer: Uitzendregisseur
     Business Affairs Coordinator: Zakelijk coördinator
-    CG Animator: 
-    CG Artist: 
-    CG Engineer: 
+    CG Animator: CG Animator
+    CG Artist: CG Artiest
+    CG Engineer: CG Technicus
     CG Painter: CG schilder
-    CG Supervisor: 
-    CGI Director: 
-    CGI Supervisor: 
+    CG Supervisor: CG Leidinggevende
+    CGI Director: CGI Directeur
+    CGI Supervisor: CGI Leidinggevende
     Cableman: Kabelman
     Cameo: Cameo
     Camera Car: Camerawagen
@@ -3087,7 +3091,7 @@ nl-NL:
   settings:
     account:
       account_settings: Accountinstellingen
-      change_password: Wachtwoord wijzigen?
+      change_password: Wachtwoord wijzigen
     api:
       api: API
       navigation:

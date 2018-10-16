@@ -553,7 +553,7 @@ es-ES:
         page_owner: Mis conversaciones
         public: Conversaciones de %{username}
     events:
-      all: 
+      all: Todos
       emails:
         emails: 
         filters:
@@ -564,21 +564,23 @@ es-ES:
             Unsubscribed: 
             status: 
         number_of_items: 
-      events: 
+      events: Eventos
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
+            Discussion: Discusión
+            General: Generar
+            List Import: Importar lista
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Messages: Mensajes
+            type: Tipo
+        notifications: Notificaciones
+        number_of_items:
+          one: "%{count} Notificación"
+          other: "%{count} Notificaciones"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Eventos recientes
+      recent: Reciente
     export:
       csv_explanation: Si deseas exportar esta lista en formato CSV, haz click en botón 'Exportar'. El fichero se enviará por correo electrónico. Es posible que el envío tarde unos minutos dependiendo del tamaño de la lista.
       export: Exportar
@@ -3110,7 +3112,7 @@ es-ES:
   settings:
     account:
       account_settings: Opciones de cuenta
-      change_password: "¿Cambiar contraseña?"
+      change_password: Cambiar contraseña
     api:
       api: API
       navigation:
