@@ -3237,6 +3237,10 @@ en-US:
         invalid_dialog_title: Reset Email?
         reset_button: Reset and send?
         reset_invalid_email_dialog_text: |-
+          <p>Unfortunately, we had trouble sending emails to you in the past. You can view the errors <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
+
+          <p>If the problems with your email address have been fixed or were only temporary, click the reset button below and we will try sending you another email to verify.</p>
+        reset_password_invalid_email_dialog_text: |-
           <p>In order to change your password we need a valid email address. Unfortunately, we had trouble sending emails to you in the past. You can view the errors <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
 
           <p>If the problems with your email address have been fixed or were only temporary, click the reset button below and we will try sending you another email.</p>

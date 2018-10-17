@@ -553,32 +553,38 @@ sk-SK:
         page_owner: Moje diskusie
         public: Diskusie užívateľa %{username}
     events:
-      all: 
+      all: Všetky
       emails:
-        emails: 
+        emails: Emaily
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Odrazené
+            Complaint: Sťažnosti
+            Delivery: Doručené
+            Unsubscribed: Neodoberané
+            status: Stav
+        number_of_items:
+          few: "%{count} Emailov"
+          one: "%{count} Email"
+          other: "%{count} Emaily"
+      events: Udalosti
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Diskusia
+            General: Všeobecné
+            List Import: Zoznam importov
+            Mention: Zmienka
+            Messages: Správy
+            type: Typ
+        notifications: Notifikácie
+        number_of_items:
+          few: "%{count} Notifikácií"
+          one: "%{count} Notifikácia"
+          other: "%{count} Notifikácie"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Nedávne udalosti
+      recent: Nedávne
     export:
       csv_explanation: Pokiaľ chcete kópiu tohoto zoznamu exportovať do CSV, kliknite na tlačidlo "Export" nižšie. My vytvoríme export a pošleme vám ho na email. Podľa veľkosti zoznamu, môže táto operácia trvať aj niekoľko minút.
       export: Export
@@ -2627,11 +2633,14 @@ sk-SK:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Vyčistiť
+        key: Kľúč
+        language: Jazyk
+        user: Užívateľ
+      number_of_changes:
+        few: "%{count} Zmien"
+        one: "%{count} Zmena"
+        other: "%{count} Zmeny"
       view_weekly_leaderboard: Zobraziť týždenný rebríček
     company:
       headquarters: Centrála
@@ -3014,7 +3023,7 @@ sk-SK:
     refresh: Obnoviť
     unread_notifications: Neprečítané notifikácie
     view: Zobraziť
-    view_all: 
+    view_all: Zobraziť všetko
   number:
     currency:
       format:
@@ -3238,9 +3247,10 @@ sk-SK:
       change_password: Zmeniť heslo
       edit_profile: Upraviť profil
       email:
-        invalid_dialog_title: 
-        reset_button: 
+        invalid_dialog_title: Resetovať Email?
+        reset_button: Resetovať a poslať?
         reset_invalid_email_dialog_text: 
+        reset_password_invalid_email_dialog_text: <p>Aby sme mohli zmeniť vaše heslo, potrebujeme platnú emailovú adresu. Bohužiaľ sme v minulosti  mali problém zaslať email na vašu adresu. Chyby si môžete pozrieť <a href="/u/%{username_url}/events/emails?status=2,3">tu</a>.</p>
       reset_password_dialog_text: Potvrdením tejto požiadavky ti bude poslaný email s inštrukciami, ako obnoviť heslo.Si si istý, že toto chceš urobiť?
     sharing:
       favorite_list:
@@ -3306,6 +3316,6 @@ sk-SK:
   used_by_developers: TMDb je využívané viac než 150 000 developermi.<br>Prehliadni si ich prácu nižšie.
   view all: zobraziť všetko
   will_paginate:
-    next_label: 
+    next_label: Nasledujúce  →
     page_gap: 
-    previous_label: 
+    previous_label: "← Predchádzajúce"

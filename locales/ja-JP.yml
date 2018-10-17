@@ -10,41 +10,41 @@ ja-JP:
   API Stats: APIの統計
   API Terms: 
   API Updates: APIアップデート
-  About: について
+  About: '次について: '
   About TMDb: TMDbについて
   About this list: このリストについて
   Accept: 同意する
-  Accept API Terms: API利用規約に同意する
+  Accept API Terms: API 利用規約に同意する
   Account: アカウント
-  Account Filtering: 
+  Account Filtering: アカウントフィルター
   Add Alternative Name: 別の名前を追加
   Add Alternative Title: 別のタイトルを追加
   Add Backdrop: 背景画像を追加
-  Add Content Rating: 
+  Add Content Rating: コンテンツ レーティングを追加
   Add Creator: クリエイターを追加する
-  Add Data & Content: 
+  Add Data & Content: データとコンテンツを追加
   Add Item: アイテムを追加
   Add Missing Cast & Crew: 出演者・スタッフを追加
   Add Network: ネットワークを追加する
   Add New Episode: 新しいエピソードを追加する
   Add New Movie: 新しい映画を追加
-  Add New Release: 
-  Add New Season: 新しいシーズンを追加する
+  Add New Release: 新しいリリースを追加
+  Add New Season: 新しいシーズンを追加
   Add New TV Show: 新しいテレビ番組を追加
   Add Poster: ポスター画像を追加
   Add Profile: プロフィールを追加
   Add Season Regular: シーズンレギュラーを追加
-  Add To Every Season?: 
+  Add To Every Season?: 毎シーズンに追加しますか？
   Add Video: ビデオを追加
   Add YouTube Video: YouTube動画を追加する
-  Add a New Cast Member: 新しい出演者を追加する
-  Add a New Crew Member: 
-  Add a New Guest Star: 
+  Add a New Cast Member: 新しい出演者を追加
+  Add a New Crew Member: 新しいスタッフを追加
+  Add a New Guest Star: 新しいゲスト出演者を追加
   Add to Watchlist: ウォッチリストに追加
   Add to list: リストに追加する
   Add to your favorite list: お気に入りリストに追加
   Add to your watchlist: ウォッチリストに追加
-  Added By: によって追加されました
+  Added By: '次のユーザーにより追加: '
   Added to Watchlist: ウォッチリストに追加しました。
   Adding & Editing Content: 内容の追加と編集
   Address 1: アドレス1
@@ -513,12 +513,12 @@ ja-JP:
   Zip Code: 
   account_drop_down:
     discussions: ディスカッション
-    edit_profile: プロフィールを編集する
+    edit_profile: プロフィールを編集
     lists: リスト
     login: ログイン
     logout: ログアウト
-    messages: メールボックス
-    profile_and_settings: プロフィールと設定
+    messages: メッセージ
+    profile_and_settings: プロフィールと一般設定
     ratings: 評価
     settings: 設定
     sign_up: 登録する
@@ -526,20 +526,20 @@ ja-JP:
     watchlist: ウォッチリスト
   accounts:
     activity:
-      activity: 活動
+      activity: アクティビティ
       legend:
-        added: 追加しました
-        created: 作成しました
-        deleted: 削除しました
-        updated: 更新しました
+        added: '追加済み: '
+        created: '作成済み: '
+        deleted: '削除済み: '
+        updated: '更新済み: '
       media_types:
         movies: 映画
         others: その他
         people: 出演者・スタッフ
         tv: テレビ
       page_title:
-        page_owner: 最近の活動
-        public: "%{username}さんの最近の活動"
+        page_owner: 最近のアクティビティ
+        public: "%{username}さんの最近のアクティビティ"
       table:
         action: アクション
         edit: 編集
@@ -548,41 +548,45 @@ ja-JP:
     average_movie_score: 映画の<br>平均スコア
     average_tv_score: テレビ番組の<br>平均スコア
     discussions:
-      my_active_boards: アクティブボード
+      my_active_boards: マイ アクティブボード
       my_discussions: マイディスカッション
       not_watching: あなたはディスカッションを閲覧していません。
       page_title:
-        page_owner: 私のディスカッション
+        page_owner: マイ ディスカッション
         public: "%{username}さんのディスカッション"
     events:
-      all: 
+      all: 全て
       emails:
-        emails: 
+        emails: メール
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: 作成済み
+            Complaint: 苦情
+            Delivery: 配信済み
+            Unsubscribed: 未購読
+            status: ステータス
+        number_of_items:
+          one: "%{count}件のメール"
+          other: "%{count}件のメール"
+      events: イベント
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: ディスカッション
+            General: 一般
+            List Import: リストをインポート
+            Mention: 返信
+            Messages: メッセージ
+            type: タイプ
+        notifications: 通知
+        number_of_items:
+          one: "%{count}件の通知"
+          other: "%{count}件の通知"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: 最近のイベント
+      recent: 最近
     export:
-      csv_explanation: このリストのコピーをCSV形式でエクスポートする場合は、下の“エクスポート”ボタンをクリックしてください。ファイルを作成し、メールであなたに送信します。リストのサイズによっては、完了までに数分かかることがあります。
+      csv_explanation: このリストのコピーをCSV形式でエクスポートする場合は、下の“エクスポート”ボタンをクリックしてください。ファイルを作成し、メールで送信します。リストのサイズによっては、完了までに数分かかることがあります。
       export: エクスポート
       export_csv: CSV形式でエクスポート
     favorites:
@@ -592,7 +596,7 @@ ja-JP:
       page_title:
         page_owner: 私のお気に入り
         public: "%{username}さんのお気に入り"
-    filter_by: 絞り込み：
+    filter_by: '絞り込み: '
     filters:
       date_added: 追加日
       date_rated: 評価日
@@ -609,12 +613,12 @@ ja-JP:
         logged_in: マイリスト
         public: "%{username}さんのリスト"
       no_lists:
-        logged_in: あなたはマイリストを作成していません。
+        logged_in: あなたはリストを作成していません。
         public: "%{username}さんは共有する公開リストを作成していません。"
       page_title:
         page_owner: マイリスト
         public: "%{username}さんのリスト"
-    member_since: "%{date}から参加"
+    member_since: "%{date}から参加中"
     navigation:
       discussions: ディスカッション
       favorites: お気に入り
@@ -623,26 +627,26 @@ ja-JP:
       ratings_reviews: 評価とレビュー
       recommendations: おすすめ
       watchlist: ウォッチリスト
-    order: 並び替え：
+    order: '並び替え: '
     overview:
-      30_day_activity: 30日間の活動
+      30_day_activity: 30日間のアクティビティ
       empty_recent_activity:
         logged_in: あなたは最近編集していません。
         public: "%{username}さんは最近編集していません。"
       empty_upcoming_watchlist:
-        logged_in: ウォッチリストには映画がありません。
+        logged_in: ウォッチリストには今後公開予定の映画がありません。
       empty_watched_genres:
         logged_in: あなたは映画やテレビ番組を記録していません。
         public: "%{username}さんは映画やテレビ番組を記録していません。"
       goto_discussions: ディスカッションに移動
       goto_watchlist: ウォッチリストに移動
-      most_watched_genres: 最も注目されたジャンル
+      most_watched_genres: 最も閲覧されているジャンル
       rating_overview: 評価の概要
-      recent_activity: 最近の活動
+      recent_activity: 最近のアクティビティ
       recent_discussions: 最近のディスカッション
       total_edits: 総編集数
       total_ratings: 総評価数
-      upcoming_watchlist: ウォッチリストから公開予定の作品
+      upcoming_watchlist: ウォッチリスト内の公開予定の作品
     page_title:
       page_owner: マイプロフィール
       public: "%{username}さんのプロフィール"
@@ -651,27 +655,31 @@ ja-JP:
         logged_in: 私の評価
         public: "%{username}さんの評価"
       my_reviews:
-        logged_in: 私のレビュー
+        logged_in: マイ レビュー
         public: "%{username}さんのレビュー"
       page_title:
         page_owner: 私の評価とレビュー
         public: "%{username}さんの評価とレビュー"
-      ratings_by_year: 
+      ratings_by_year: 年ごとの評価
     recommendations:
       my_recommendations: 私のおすすめ
       no_recommendations: おすすめを表示するのに十分なデータがありません。
-      no_recommendations_helper: いくつかのお気に入りを追加してみてください（もっとうまくいく）。
+      no_recommendations_helper: いくつかお気に入りを追加してみると良いかもしれません。
       page_title: おすすめ
     tips:
       import_imdb_ratings: IMDbからあなたの評価をインポートすることができます。
       tip: ヒント
     watchlist:
-      my_watchlist: 私のウォッチリスト
+      my_watchlist: マイ ウォッチリスト
       next_month: 来月
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        one: 今後公開予定の映画はウォッチリストに存在しませんが、 %{count}件のアイテムがウォッチリスト内に存在します。
+        other: 今後公開予定の映画はウォッチリストに存在しませんが、 %{count}件のアイテムがウォッチリスト内に存在します。
+      no_upcoming_tv_shows:
+        one: 今後放送予定のテレビ番組はウォッチリストに存在しませんが、 %{count}件のアイテムがウォッチリスト内に存在します。
+        other: 今後放送予定のテレビ番組はウォッチリストに存在しませんが、 %{count}件のアイテムがウォッチリスト内に存在します。
       page_title:
-        page_owner: 私のウォッチリスト
+        page_owner: マイ ウォッチリスト
         public: "%{username}さんのウォッチリスト"
       this_month: 今月
       this_week: 今週
@@ -3179,6 +3187,7 @@ ja-JP:
         invalid_dialog_title: 
         reset_button: 
         reset_invalid_email_dialog_text: 
+        reset_password_invalid_email_dialog_text: 
       reset_password_dialog_text: 
     sharing:
       favorite_list:
