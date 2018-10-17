@@ -558,27 +558,31 @@ fr-FR:
         emails: e-mail
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
+            Bounce: Rebond
+            Complaint: Plainte
+            Delivery: Délivré
+            Unsubscribed: Désabonné
+            status: Status
+        number_of_items:
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events: Évènements
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
+            Discussion: Discussion
+            General: Général
+            List Import: Liste importée
+            Mention: Mentionne
+            Messages: Messages
+            type: Type
         notifications: Notifications
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Notification"
+          other: "%{count} Notifications"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: 'Événements récents '
+      recent: Récent
     export:
       csv_explanation: Si vous voulez une copie de cette liste au format CSV, cliquez sur le bouton "Exporter" ci-dessous. Nous vous enverrons le fichier ainsi créé. Suivant la taille de la liste, cela peut prendre plusieurs minutes.
       export: Export
@@ -681,20 +685,20 @@ fr-FR:
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Demande d'authentification tierce
     approved_session: Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre.
     continue: Si vous souhaitez poursuivre, cliquez ci-dessous sur le bouton Approuver. Sinon, vous pouvez simplement fermer cette fenêtre.
-    request_token_approval: 
+    request_token_approval: "{{APP}} demande votre permission de lecture et d'écriture de vos données. C'est une démarche nécessaire si vous voulez par exemple garder vos listes ou films en dehors de TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Vous avez accordé la permission de lecture et d'écriture à <strong>%{application_name}</strong>. Vous pouvez maintenant retourner à l'application et fermer cette fenêtre. Vous pouvez toujours révoquer cet accès en vous rendant sur la page des paramètres de votre compte puis sur votre page "Applications connectées".
+        name: Authentification accordée
       denied:
-        message: 
-        name: 
+        message: "<p>Vous avez refusé l'accès à <strong>%{application_name}</strong>. Si c'était une erreur, ou si vous souhaitez redémarrer le processus d'authentification, retournez dans l'application et demandez à nouveau la permission."
+        name: Authentification refusée
       invalid_request_token:
-        message: 
-        name: 
+        message: Le token que vous avez soumis est invalide. Essayez d'en créer un nouveau et assurez-vous de l'avoir copié correctement. Si vous continuez à avoir des problèmes, contactez le développeur de l'application que vous utilisez.
+        name: Accès non valide
   attributes:
     biography: Biographie
     certification: Certification
@@ -725,7 +729,7 @@ fr-FR:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Exempté de la classification. Les films exemptés de la classification ne doivent pas contenir de contenus contestables (c.-à-d. des contenus qui seraient normalement classés Mature ou plus).
         '2':
           meaning: Tout public.
         '3':
@@ -737,9 +741,9 @@ fr-FR:
         '6':
           meaning: Interdit au moins de 18 ans.
         '7':
-          meaning: 
+          meaning: Limité à 18 ans et plus. Les films avec cette classification contiennent du contenu pornographique. Les films classés X18+ sont interdits de vente ou de location dans tous les états australiens et ne sont légalement disponibles que dans le Territoire de la capitale australienne et le Territoire du Nord. Cependant, l'importation de matériel X18+ des deux territoires vers n'importe lequel des États australiens est légale. Son contenu est sexuellement explicite.
         '8':
-          meaning: 
+          meaning: 'Refus de classification. Interdit à la vente ou à la location en Australie ; s''applique aussi généralement à l''importation (si inspecté par les douanes). Le visionnage en navigation privé sur Internet est déconseillé et les tentatives de censure légale de tels documents en ligne ont donné lieu à des controverses. Les films sont cotés "RC" si leur contenu ne correspondent pas aux règle. Le contenu est violent. '
       BG:
         '1':
           meaning: Recommandé pour les enfants
@@ -774,18 +778,18 @@ fr-FR:
         '4':
           meaning: Les mineurs doivent être accompagnés par une personne adulte. Dans les Maritimes & Manitoba, le film est interdit aux enfants de moins de 14 ans.
         '5':
-          meaning: 
+          meaning: L'entrée est réservée aux personnes âgées de 18 ans et plus. Le film n'a d'autre but que de dépeindre une activité sexuellement explicite et/ou une violence explicite.
       CA-QC:
         '0':
           meaning: Pas d'information sur les restrictions d'âge.
         '1':
-          meaning: 
+          meaning: Général - Peut être consultée, louée ou achetée par des personnes de tout âge. Si un film classé "G" risque d'offenser la sensibilité d'un enfant de moins de 8 ans, la mention "Ne convient pas aux jeunes enfants" est ajoutée au classement.
         '2':
           meaning: 13 ans et plus - Ne peut être visionné, loué ou acheté que par des enfants de 13 ans et plus. Les enfants de moins de 13 ans ne peuvent être admis que s'ils sont accompagnés d'un adulte.
         '3':
           meaning: 16 ans et plus - Peut être vu, loué ou acheté par des enfants de 16 ans et plus.
         '4':
-          meaning: 
+          meaning: 18 ans et plus - Ne peut être visionné, loué ou acheté que par des adultes de 18 ans et plus. Si un film contient une activité sexuelle réelle et explicite "Scène de sexe explicite" est ajoutée à la classification, et dans les commerces, les propriétaires de magasins sont tenus de placer le film dans une salle réservée aux adultes.
       DE:
         '1':
           meaning: Tout public
@@ -794,7 +798,7 @@ fr-FR:
         '3':
           meaning: Admis aux enfants de 12 ans et plus, ceux entre 6 et 11 uniquement en compagnie d'un parent ou responsable légal.
         '4':
-          meaning: 
+          meaning: 'interdit aux moins de 16 ans. '
         '5':
           meaning: Jeunes non admis, adultes seulement
       DK:

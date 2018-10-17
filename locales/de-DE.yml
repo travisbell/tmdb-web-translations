@@ -1,6 +1,6 @@
 de-DE:
-  "-": "—"
-  3rd Party Applications: Anwendungen von Drittanbietern
+  "-": "-"
+  3rd Party Applications: Anwendungen
   API: API
   API Access Token: API Zugangsschlüssel
   API Details: API Details
@@ -15,8 +15,8 @@ de-DE:
   About this list: Über diese Liste
   Accept: Akzeptieren
   Accept API Terms: API Nutzungsbedingungen akzeptieren
-  Account: Konto
-  Account Filtering: Konto-Filter
+  Account: Account
+  Account Filtering: Account-Filterung
   Add Alternative Name: Alternativname hinzufügen
   Add Alternative Title: Alternativtitel hinzufügen
   Add Backdrop: Hintergrund hinzufügen
@@ -521,7 +521,7 @@ de-DE:
     settings: Einstellungen
     sign_up: Registrieren
     view_profile: Profil ansehen
-    watchlist: Beobachtungsliste
+    watchlist: Watchliste
   accounts:
     activity:
       activity: Aktivitäten
@@ -534,24 +534,24 @@ de-DE:
         movies: Filme
         others: Andere
         people: Personen
-        tv: TV
+        tv: Serien
       page_title:
-        page_owner: Meine letzte Aktivität
-        public: Letzte Aktivität von %{username}
+        page_owner: Meine letzten Aktivitäten
+        public: "%{username}'s letzte Aktivitäten"
       table:
         action: Aktion
-        edit: Editieren
-        key: Schlüssel
+        edit: Änderung
+        key: Art
         language_abbreviation: Sprache
     average_movie_score: Durchschnittliche<br>Filmbewertung
     average_tv_score: Durchschnittliche<br>Serienbewertung
     discussions:
       my_active_boards: Meine Forumaktivität
       my_discussions: Meine Diskussionen
-      not_watching: Du hast zurzeit keine Diskussionen abonniert.
+      not_watching: Du verfolgst derzeit keine Diskussionen.
       page_title:
         page_owner: Meine Diskussionen
-        public: Diskussionen von %{username}
+        public: "%{username}'s Diskussionen"
     events:
       all: Alle
       emails:
@@ -566,13 +566,13 @@ de-DE:
         number_of_items:
           one: "%{count} E-Mail"
           other: "%{count} E-Mails"
-      events: Veranstaltungen
+      events: Ereignis
       notifications:
         filters:
           type:
             Discussion: Diskussion
             General: Allgemein
-            List Import: Liste importieren
+            List Import: Importierte Listen
             Mention: Erwähnung
             Messages: Nachrichten
             type: Typ
@@ -581,12 +581,12 @@ de-DE:
           one: "%{count} Benachrichtigung"
           other: "%{count} Benachrichtigungen"
       page_title:
-        recent_events: 
-      recent: Aktuell
+        recent_events: Letzte Ereignisse
+      recent: Letzte
     export:
       csv_explanation: Wählen Sie unten den "Exportieren" Knopf aus, wenn Sie diese Liste in eine CSV-Datei exportieren möchten. Die exportierten Daten werden Ihnen per Email zugeschickt. Abhängig von der Größe der Liste kann dies einige Minuten in Anspruch nehmen.
       export: Exportieren
-      export_csv: Exportiere CSV
+      export_csv: Liste exportieren
     favorites:
       my_favorites:
         logged_in: Meine Favoriten
@@ -594,7 +594,7 @@ de-DE:
       page_title:
         page_owner: Meine Favoriten
         public: Favoriten von %{username}
-    filter_by: 'Gefiltert nach:'
+    filter_by: 'Filtern nach:'
     filters:
       date_added: Hinzugefügt am
       date_rated: Bewertet am
@@ -625,7 +625,7 @@ de-DE:
       ratings_reviews: Bewertungen & Rezensionen
       recommendations: Empfehlungen
       watchlist: Watchlist
-    order: 'Sortierung:'
+    order: 'Sortieren:'
     overview:
       30_day_activity: Aktivität der letzten 30 Tage
       empty_recent_activity:
