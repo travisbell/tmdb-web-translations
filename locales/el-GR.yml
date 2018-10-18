@@ -896,13 +896,13 @@ el-GR:
         '1':
           meaning: Ταινίες για κοινό όλων των ηλικιών.
         '2':
-          meaning: 
+          meaning: Ταινίες για άτομα άνω των 7 ετών. Άτομα κάτω των 7 ετών, viewers of this index have been featured only together with accompanying adult persons.
         '3':
           meaning: 
         '4':
-          meaning: 
+          meaning: Ταινίες για άτομα άνω των 16 ετών.
         '5':
-          meaning: 
+          meaning: Ταινίες για άτομα άνω των 18 ετών.
       MY:
         '0':
           meaning: Δεν υπάρχουν πληροφορίες καταλληλότητας.
@@ -1061,7 +1061,7 @@ el-GR:
         '0':
           meaning: Προγράμματα που εξαιρούνται από την αξιολόγηση(όπως ειδήσεις και αθλητικά προγράμματα) δεν εμφανίζουν καθόλου καταλληλότητα στην οθόνη.
         '1':
-          meaning: 
+          meaning: Πρόγραμμα κατάλληλο για παιδιά 2-7 ετών. Δεν επιτρέπεται ή σεξουαλικό περιεχόμενο σε κανένα επίπεδο. Περιέχει ελάχιστη βία.
         '2':
           meaning: 
         '3':
@@ -2892,17 +2892,19 @@ el-GR:
     compose:
       ban: 
       from: Από
-      message: 
-      subject: 
+      message: Μήνυμα
+      subject: Θέμα
       template: 
-      to: 
-    no_messages: 
+      to: Προς
+    no_messages: Κανένα μήνυμα
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: Ο/Η %{username} σας έστειλε ένα νέο μήνυμα
+    number_of_messages:
+      one: "%{count} μήνυμα"
+      other: "%{count} μηνύματα"
     options:
-      admin: 
-      archive: 
+      admin: Διαχειριστής
+      archive: Αρχείο
       settings: Ρυθμίσεις
       viewed_at: Προβλήθηκε %{time_ago}
     placeholders:
@@ -2911,13 +2913,13 @@ el-GR:
         no_conversations: 
         view: 
       no_user_found: Δεν βρέθηκε χρήστης.
-      reply: 
-      subject: 
+      reply: Γράψτε ένα μήνυμα...
+      subject: Με τι σχετίζεται;
       to: Αναζήτηση χρήστη...
     right_column_titles:
       conversation_with: Συζήτηση με τον/την %{username}
-      message_inbox: 
-      my_archive: 
+      message_inbox: Εισερχόμενα μηνύματα
+      my_archive: Το αρχείο μου
       my_inbox: Τα εισερχόμενά μου
       new_message: Νέο μήνυμα
       support_archive: 

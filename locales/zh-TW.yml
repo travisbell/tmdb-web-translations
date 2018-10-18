@@ -3215,10 +3215,16 @@ zh-TW:
       change_password: 更換密碼嗎
       edit_profile: 編輯個人簡介
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: 重新設定電子郵件？
+        reset_button: 重新設定且再次發送？
+        reset_invalid_email_dialog_text: |-
+          <p>對於傳送電子郵件遇到了一些問題，請您至 <a href="/u/%{username_url}/events/emails?status=2,3">此處</a> 來檢視問題。</p>
+
+          <p>若您已排除問題，請點擊重新設定的按鈕，我們將會再次發送確認信件給您。</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>因您之前修改了密碼，依照流程我們需要傳送確認信件給您，但在傳送信件的過程中發生了問題，請您至 <a href="/u/%{username_url}/events/emails?status=2,3">此處</a> 來檢視問題。 </p>
+
+          <p>若您已排除問題，請點擊重新設定的按鈕，我們將會再次發送確認信件給您。</p>
       reset_password_dialog_text: 當您確認之後，系統將會立即寄送重置密碼的說明郵件至您的信箱。您確定要進行重置密碼的動作嗎？
     sharing:
       favorite_list:

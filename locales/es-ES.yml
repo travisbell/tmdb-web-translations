@@ -259,7 +259,7 @@ es-ES:
   Logout: Desconectar
   Male: Masculino
   Mark as Favorite: Marcar como Favorito
-  Media: 
+  Media: Media
   Member since: Miembro desde
   Merge Keyword: Unir palabra clave
   Mixed Compact View: Vista Compacta Mixta
@@ -555,15 +555,17 @@ es-ES:
     events:
       all: Todos
       emails:
-        emails: 
+        emails: Emails
         filters:
           status:
-            Bounce: 
+            Bounce: Devuelto
             Complaint: Queja
-            Delivery: 
-            Unsubscribed: 
+            Delivery: Entregado
+            Unsubscribed: Sin Subscripción
             status: Estado
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events: Eventos
       notifications:
         filters:
@@ -1640,7 +1642,7 @@ es-ES:
     3D Supervisor: Supervisor 3D
     3D Tracking Layout: Diseño de seguimiento 3D
     ADR & Dubbing: ADR & Doblaje
-    ADR Coordinator: 
+    ADR Coordinator: Coordinador ADR
     ADR Editor: Editor ADR
     ADR Engineer: Ingeniero ADR
     ADR Mixer: 
@@ -1662,7 +1664,7 @@ es-ES:
     Additional Casting: Reparto adicional
     Additional Colorist: Colorista Adicional
     Additional Construction: Construcción Adicional
-    Additional Construction Grip: 
+    Additional Construction Grip: Grip Constructor adicional
     Additional Dialogue: Guión Adicional
     Additional Director of Photography: Director de Fotografía Adicional
     Additional Editing: Edición adicional
@@ -1670,11 +1672,11 @@ es-ES:
     Additional Editorial Assistant: Ayudante Editorial Adicional
     Additional Effects Development: Desarrollo de Efectos Adicionales
     Additional First Assistant Camera: Primer Asistente de Camara Adicional
-    Additional Gaffer: 
-    Additional Grip: 
+    Additional Gaffer: Capataz adicional
+    Additional Grip: Grip Adicional
     Additional Hairstylist: Peluquero Adicional
-    Additional Key Construction Grip: 
-    Additional Key Grip: 
+    Additional Key Construction Grip: Grip constructor de llaves adicional
+    Additional Key Grip: Key Grip adicional
     Additional Lighting Technician: Técnico de iluminación adicional
     Additional Music: Música Adicional
     Additional Music Supervisor: Supervisor de Música Adicional
@@ -1685,20 +1687,20 @@ es-ES:
     Additional Script Supervisor: Supervisor del Guión Adicional
     Additional Second Assistant Camera: Segundo Asistente de Cámara Adicional
     Additional Second Assistant Director: Segundo Asistente del Director Adicional
-    Additional Set Dresser: 
-    Additional Set Photographer: 
+    Additional Set Dresser: Ayudante de Vestuario
+    Additional Set Photographer: Ayudante Set Fotográfico
     Additional Sound Re-Recording Mixer: Mezclador de Re-Grabación de Sonido Adicional
-    Additional Sound Re-Recordist: 
+    Additional Sound Re-Recordist: Ayudante de Regrabador
     Additional Soundtrack: Banda Sonora Adicional
-    Additional Still Photographer: 
-    Additional Storyboarding: 
-    Additional Third Assistant Director: 
-    Additional Underwater Photography: 
+    Additional Still Photographer: Fotógrafo fijo adicional
+    Additional Storyboarding: Ayudante Guionista Gráfico
+    Additional Third Assistant Director: Tercer asistente director adicional
+    Additional Underwater Photography: Fotografía Sub-Acuática adicional
     Additional Visual Effects: Efectos Visuales Adicionales
-    Additional Wardrobe Assistant: 
+    Additional Wardrobe Assistant: Asistente de vestuario adicional
     Additional Writing: Narración Adicional
     Administration: Administración
-    Administrative Assistant: 
+    Administrative Assistant: Asistente Administrativo
     Aerial Camera: Cámara aérea
     Aerial Camera Technician: Técnico de cámara aérea
     Aerial Coordinator: Coordinador aéreo
@@ -2624,9 +2626,9 @@ es-ES:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
+        clear: Limpiar
+        key: Llave
+        language: Lenguaje
         user: 
       number_of_changes: 
       view_weekly_leaderboard: Ver la clasificación semanal
@@ -2784,8 +2786,8 @@ es-ES:
         screened_confirm: Si este episodio se ha exhibido en salas (proyectado en un festival de cine o teatro), haz click en 'Sí' para continuar.
         screened_label: "¿Se ha exhibido en salas este episodio?"
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Episodio %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Siguiente Episodio
         previous_episode: Episodio Anterior
     tv_season:
@@ -2840,21 +2842,25 @@ es-ES:
             '6': Producción
             '7': Televisión
         networks:
-          no_records: 
-          none_found: 
+          no_records: No se han añadido redes.
+          none_found: No se han encontrado redes. ¿Quieres crear una?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: No se han añadido miembros del reparto.
+          no_season: "¡No existen temporadas! Se requiere una temporada para agregar miembros del reparto."
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: "¿Añadir nueva duración?"
+          enter_value: Introducir valor en minutos
         seasons:
-          no_records: 
+          no_records: No se han añadido temporadas.
       episode_groups:
         groups:
-          count: 
+          count:
+            one: "%{count} Grupo"
+            other: "%{count} Grupos"
         original_air_date: Fecha de lanzamiento original
-      networks: 
+      networks:
+        one: Red
+        other: Redes
       statuses:
         Canceled: Cancelada
         Ended: Finalizada
@@ -2867,7 +2873,7 @@ es-ES:
         Miniseries: Miniseries
         News: Noticias
         Reality: Realidad
-        Scripted: 
+        Scripted: Guión
         Talk Show: Programa de entrevistas
         Video: Vídeo
     video:
@@ -3002,7 +3008,7 @@ es-ES:
     refresh: Refrescar
     unread_notifications: Notificaciones sin leer
     view: Ver
-    view_all: 
+    view_all: Ver todo
   number:
     currency:
       format:
@@ -3221,10 +3227,16 @@ es-ES:
       change_password: Cambiar contraseña
       edit_profile: Editar perfil
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: "¿Restablecer Email?"
+        reset_button: "¿Restablecer y enviar?"
+        reset_invalid_email_dialog_text: |-
+          <p>Desafortunadamente, tuvimos problemas para enviarle correos electrónicos en el pasado. Puede ver los errores <a href="/u/%{username_url}/events/emails?status=2,3"> aquí </a>.</p>
+
+          <p>Si los problemas con su dirección de email se han solucionado o solo fueron temporales, haga clic en el botón de reinicio a continuación e intentaremos enviarle otro correo electrónico para verificar.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Para cambiar su contraseña necesitamos una dirección de correo electrónico válida. Desafortunadamente, tuvimos problemas para enviarle correos electrónicos en el pasado. Puede ver los errores <a href="/u/%{username_url}/events/emails?status=2,3"> aquí </a>.</p>
+
+          <p>Si los problemas con su dirección de email se han solucionado o solo fueron temporales, haga clic en el botón de reinicio a continuación e intentaremos enviarle otro correo electrónico.</p>
       reset_password_dialog_text: Confirmando esta petición, te enviaremos un correo electrónico con las instrucciones para reestablecer la contraseña. ¿Estás seguro de querer hacelo?
     sharing:
       favorite_list:

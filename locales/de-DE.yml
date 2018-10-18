@@ -584,16 +584,16 @@ de-DE:
         recent_events: Letzte Ereignisse
       recent: Letzte
     export:
-      csv_explanation: Wählen Sie unten den "Exportieren" Knopf aus, wenn Sie diese Liste in eine CSV-Datei exportieren möchten. Die exportierten Daten werden Ihnen per Email zugeschickt. Abhängig von der Größe der Liste kann dies einige Minuten in Anspruch nehmen.
+      csv_explanation: Wenn Du eine Kopie dieser Liste als CSV-Datei exportieren möchtest dann klicke nachstehend auf Exportieren. Wir erstellen den Export und senden ihn dir per Email zu. Je nachdem wie lang deine Liste ist kann dies einige Minuten dauern.
       export: Exportieren
       export_csv: Liste exportieren
     favorites:
       my_favorites:
         logged_in: Meine Favoriten
-        public: Favoriten von %{username}
+        public: "%{username}'s Favoriten"
       page_title:
         page_owner: Meine Favoriten
-        public: Favoriten von %{username}
+        public: "%{username}'s Favoriten"
     filter_by: 'Filtern nach:'
     filters:
       date_added: Hinzugefügt am
@@ -603,19 +603,19 @@ de-DE:
       rating: Bewertung
       release_date: Veröffentlichung
       score: Bewertung
-      upcoming: In Kürze
+      upcoming: Demnächst
     lists:
       create_list: Liste erstellen
       last_updated: Aktualisiert
       my_lists:
         logged_in: Meine Listen
-        public: Listen von %{username}
+        public: "%{username}'s Listen"
       no_lists:
         logged_in: Du hast noch keine Listen erstellt.
-        public: "%{username} teilt keine öffentlichen Listen."
+        public: "%{username} hat keine öffentlichen Listen geteilt."
       page_title:
         page_owner: Meine Listen
-        public: Listen von %{username}
+        public: "%{username}'s Listen"
     member_since: Mitglied seit %{date}
     navigation:
       discussions: Diskussionen
@@ -632,37 +632,37 @@ de-DE:
         logged_in: Du hast kürzlich nichts editiert.
         public: "%{username} hat kürzlich nichts editiert."
       empty_upcoming_watchlist:
-        logged_in: Es gibt keine Filme in deiner Watchlist die demnächst erscheinen.
+        logged_in: Es gibt keine Filme aus deiner Watchliste die demnächst erscheinen.
       empty_watched_genres:
         logged_in: Du hast keine Filme oder TV-Sendungen gespeichert.
         public: "%{username} hat bisher keine Filme oder TV-Sendungen gespeichert."
       goto_discussions: Gehe zu Diskussionen
       goto_watchlist: Gehe zur Watchlist
-      most_watched_genres: Am meisten angesehene Genres
+      most_watched_genres: Meist gesehene Genres
       rating_overview: Bewertungsübersicht
       recent_activity: Letzte Aktivität
       recent_discussions: Letzte Diskussionen
-      total_edits: Beiträge
+      total_edits: Änderungen
       total_ratings: Bewertungen
-      upcoming_watchlist: Filme aus Watchliste die bald erscheinen
+      upcoming_watchlist: Demnächst aus deiner Watchliste
     page_title:
       page_owner: Mein Profil
-      public: Profil von %{username}
+      public: "%{username}'s Profil"
     ratings_reviews:
       my_ratings:
         logged_in: Meine Bewertungen
-        public: Bewertungen von %{username}
+        public: "%{username}'s Bewertungen"
       my_reviews:
         logged_in: Meine Rezessionen
-        public: Rezessionen von %{username}
+        public: "%{username}'s Rezessionen"
       page_title:
         page_owner: Meine Bewertungen & Rezensionen
-        public: Bewertungen & Rezensionen von %{username}
-      ratings_by_year: Bewertungen nach Jahr
+        public: "%{username}'s Bewertungen & Rezensionen"
+      ratings_by_year: Bewertungen im Jahr
     recommendations:
       my_recommendations: Meine Empfehlungen
       no_recommendations: Wir haben nicht genug Daten um dir Empfehlungen anzubieten.
-      no_recommendations_helper: Füge weitere Favoriten (je mehr, desto besser) hinzu und schaue, was sich inzwischen getan hat.
+      no_recommendations_helper: Füge weitere Favoriten hinzu (je mehr, desto besser) und komm wieder um zu schaue was sich getan hat.
       page_title: Empfehlungen
     tips:
       import_imdb_ratings: Du kannst deine Bewertungen von IMDb importieren.
@@ -677,11 +677,11 @@ de-DE:
         one: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält nur %{count} Objekt.
         other: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält insgesamt %{count} Objekte.
       page_title:
-        page_owner: Meine Beobachtungsliste
-        public: Beobachtungsliste von %{username}
+        page_owner: Meine Watchliste
+        public: "%{username}'s Watchliste"
       this_month: Diesen Monat
       this_week: Diese Woche
-      view_them: Elemente anzeigen.
+      view_them: Zeige sie mir.
   add_to_list: "%{media_title} zu einer deiner Listen hinzufügen..."
   already_translated_in: "%{page_title} wurde bereits für folgende Sprachen übersetzt..."
   api_session:
