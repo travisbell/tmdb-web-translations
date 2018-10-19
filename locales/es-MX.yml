@@ -548,38 +548,42 @@ es-MX:
     average_movie_score: Promedio<br>Puntuación Pelíiculas
     average_tv_score: Promedio<br>Puntuación Series
     discussions:
-      my_active_boards: 
+      my_active_boards: Mis tableros activos
       my_discussions: Mis Discusiones
-      not_watching: 
+      not_watching: No estás viendo ninguna discusión.
       page_title:
         page_owner: Mis Discusiones
         public: Discusiones de %{username}
     events:
-      all: 
+      all: Todos
       emails:
-        emails: 
+        emails: Correos electrónicos
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Rebotado
+            Complaint: Queja
+            Delivery: Entregado
+            Unsubscribed: Desuscrito
+            status: Estado
+        number_of_items:
+          one: "%{count} Correo electrónico"
+          other: "%{count} Correos electrónicos"
+      events: Eventos
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Discusión
+            General: General
+            List Import: Importar lista
+            Mention: Mencionar
+            Messages: Mensajes
+            type: Tipo
+        notifications: Notificaciones
+        number_of_items:
+          one: "%{count} Notificación"
+          other: "%{count} Notificaciones"
       page_title:
-        recent_events: 
+        recent_events: Eventos recientes
       recent: 
     export:
       csv_explanation: Si deseas obtener una copia de esta lista en formato CSV, haz clic en el botón "Exportar". El archivo será enviado a tu correo electrónico. Esto puede tardar unos minutos, dependiendo del tamaño de tu lista.
