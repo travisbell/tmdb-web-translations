@@ -1,6 +1,6 @@
 de-DE:
   "-": "-"
-  3rd Party Applications: Anwendungen Dritter
+  3rd Party Applications: Anwendungen
   API: API
   API Access Token: API Zugangsschlüssel
   API Details: API Details
@@ -85,7 +85,7 @@ de-DE:
   Categories: Kategorien
   Certification: Altersfreigabe
   Change?: Ändern?
-  Changes: Aktivität
+  Changes: Änderungen
   Character: Rolle
   Choose: Wählen...
   City: Stadt
@@ -211,7 +211,7 @@ de-DE:
   Hide items on watchlist?: Elemente auf der Merkliste ausblenden?
   Hide rated?: Bewertetes Elemente ausblenden?
   Home: Home
-  Homepage: Homepage
+  Homepage: Webseite
   IMDB ID: IMDb-ID
   Images: Bilder
   Import CSV: CSV-Import
@@ -432,7 +432,7 @@ de-DE:
   Support: Support
   Support Forums: Forum
   TV: TV
-  TV Network: Sender
+  TV Network: TV Sender
   TV Recommendations: Empfehlungen für Serien
   TV Show Data: Zur Serie
   TV Show Results: Ergebnisse (Serien)
@@ -703,7 +703,7 @@ de-DE:
     biography: Biografie
     certification: Altersfreigabe
     external_href: URL
-    homepage: Website
+    homepage: Webseite
     iso_3166_1: Land
     iso_639_1: Sprache
     normalized_email: E-Mail
@@ -1278,7 +1278,7 @@ de-DE:
       tall_bible:
         bottom: Richtlinien
         top: Sammlung
-    contribution_bible: Richtlinien für Beiträge
+    contribution_bible: Editierungs Richtlinien
     featured_articles: Hervorgehobene Artikel
     general:
       general: Allgemein
@@ -1442,7 +1442,7 @@ de-DE:
       mark_spam: Als Spam markieren
       reopen_discussion: Thema wieder öffnen
       stop_watching: Abonnement beenden
-      view_activity: Aktivität
+      view_activity: Verlauf
       watch: Abonnieren
     admin_panel: Adminbereich
     back_options:
@@ -1469,7 +1469,7 @@ de-DE:
     category:
       last_reply_with_datetime: "%{date} um %{time}"
       last_reply_with_datetime_and_username: "%{date} um %{time}<br>von %{username}"
-    discussion_activity: Aktivität
+    discussion_activity: 'Diskussionsverlauf '
     email_notifications:
       email_notifications: E-Mail Benachrichtigungen
       subscribe: Anmelden
@@ -1588,7 +1588,7 @@ de-DE:
     min: Nach Veröffentlichung filtern (Min)
   homepage:
     discussions:
-      catch_up_now: Jetzt verfolgen.
+      catch_up_now: Jetzt loslegen.
       discussions: Diskussionen
     tv_shows:
       episode_airs:
@@ -2551,39 +2551,39 @@ de-DE:
   joined: beigetreten
   keyboard_shortcuts:
     actions:
-      back_to_parent: gehe zurück (oder noch weiter wenn möglich)
-      close_window: schließe ein offenes Fenster
-      focus_search: Fokus auf die Sucheingabe
-      go_to_edit: öffne die Editierungs-Ansicht
-      last_reply: springe zur letzten Antwort
-      new_discussion: eröffne eine neue Diskussion
-      next_episode: "(rechter Pfeil) springe zur nächsten Episode"
-      next_page: "(rechter Pfeil) nächste Seite"
-      next_season: "(rechter Pfeil) springe zur nächsten Staffel"
-      open_activity: springe zur Aktivität
-      open_add_image_window: öffne die Bild hinzufügen Option
-      open_profile: öffne das Profil-Menü
-      open_shortcut_window: öffne das Tastenkürzel Fenster
-      open_translation_selector: öffne die Sprachauswahl
-      previous_episode: "(linker Pfeil) springe zur vorherigen Episode"
-      previous_page: "(linker Pfeil) vorherige Seite"
-      previous_season: "(linker Pfeil) springe zur vorherigen Staffel"
-      reply_to_discussion: auf Diskussion antworten
-      save_form: bestätigen
-      submit_message: Nachricht bestätigen
-      toggle_close: wechsle zwischen offen und zu
-      toggle_private: wechsle zwischen öffentlich und privat
-      toggle_watching: von der Watchliste entfernen oder hinzufügen
+      back_to_parent: Zurück
+      close_window: Fenster schließen
+      focus_search: Sucheingabe
+      go_to_edit: Editieren
+      last_reply: Letzten Antwort zeigen
+      new_discussion: Neue Diskussion erstellen
+      next_episode: Nächste Episode
+      next_page: Nächste Seite
+      next_season: Nächste Staffel
+      open_activity: Diskussionsverlauf zeigen
+      open_add_image_window: Poster/Hintergrund hinzufügen
+      open_profile: Profil-Menü öffnen
+      open_shortcut_window: Tastenkürzel anzeigen
+      open_translation_selector: Sprachauswahl öffnen
+      previous_episode: Vorherige Episode
+      previous_page: Vorherige Seite
+      previous_season: Vorherige Staffel
+      reply_to_discussion: Diskussion antworten
+      save_form: Speichern
+      submit_message: Abschicken
+      toggle_close: Diskussion offen / geschlossen
+      toggle_private: Diskussion offen / privat
+      toggle_watching: Beobachten an / aus
     groups:
       discussion_pages: Diskussionen
-      edit_pages: Editierung
+      edit_pages: Editieren
       global: Allgemein
       image_pages: Bilder
-      media_pages: Medien
-      tv_episode_pages: Episoden Seiten
-      tv_season_pages: Staffel Seiten
+      media_pages: Videos
+      tv_episode_pages: Episoden
+      tv_season_pages: Staffeln
     keyboard_shortcuts: Tastenkürzel
-    view_keyboard_shorcuts: Zeige Tastenkürzel
+    view_keyboard_shorcuts: Zeige die Tastenkürzel
     view_shortcuts: Zeige die Kürzel
   list_info:
     average_rating: Durchschnittliche Bewertung
@@ -2622,250 +2622,263 @@ de-DE:
   media:
     changes:
       filters:
-        clear: 
+        clear: Löschen
         key: Art
         language: Sprache
         user: Benutzer
       number_of_changes:
         one: "%{count} Änderung"
         other: "%{count} Änderungen"
-      view_weekly_leaderboard: 
+      view_weekly_leaderboard: Wöchentliche Bestenliste
     company:
-      headquarters: 
-      movie_page_title: 
-      tv_page_title: 
+      headquarters: Hauptsitz
+      movie_page_title: Filme produziert von %{name}
+      tv_page_title: Serien produziert von %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Sperre alle Felder
+      lock_all_images: Sperre alle Bilder
       page_title: "%{name} bearbeiten"
       placeholders:
-        country: 
+        country: Sprache wählen...
         create_person:
-          click_to_create: 
-          create_it: 
-        genres: 
-        job: 
-        keywords: 
-        networks: 
-        person: 
-        production_companies: 
-      success_fields_locked: 
+          click_to_create: Klicke um %{name} zu erstellen
+          create_it: Erstelle sie...
+        genres: Gerne wählen...
+        job: Job wählen...
+        keywords: Schlüsselwort wählen...
+        networks: Suche nach Sender...
+        person: Suche nach Person...
+        production_companies: Suche nach Produktionsfirma...
+      success_fields_locked: Feld ist gesperrt
       tooltips:
-        bible: Hilfe zur Bearbeitung von Informationen auf TMDb findest du in den Richtlinien für Beiträge, klicke einfach auf „?”.
-        homepage: Nur offizielle Homepages. Fanseiten sind nicht gestattet.
-        logo_format: Die Bildformate „SVG” und „PNG” werden unterstützt. Wir bevorzugen „SVG” als von der Auflösung unabhängiges Vektorformat.
-        original_title: Der Originaltitel soll in der Originalsprache eingetragen werden. Häufig ist diese Sprache identisch mit der Originalsprache.
-        overview: Die Handlung soll mit prägnanten und präzisen Formulierungen und vor allem ohne Spoiler beschrieben werden.
-        social_links: Soziale Links sind nur auf offizielle (bestätigte) Seiten gestattet. Links auf Fan-Seiten sind nicht erlaubt.
+        bible: Um Hilfe und Richtlinien zum bearbeiten von Informationen aufzurufen klicke einfach auf „?”.
+        homepage: Nur offizielle Webseiten. Fan-Webseiten sind nicht gestattet.
+        logo_format: Unterstützt werden die Bildformate „SVG” und „PNG”. Wir bevorzugen das Vektorformat SVG da es von der Auflösung unabhängig ist.
+        original_title: Der Originaltitel muss in der Originalsprache eingetragen werden. Häufig ist diese Sprache identisch mit der Originalsprache.
+        overview: Die Handlung muss mit prägnanten und präzisen Formulierungen und vor allem ohne Spoiler beschrieben werden.
+        social_links: Soziale Links sind nur auf offiziell bestätigte Seiten erlaubt. Links auf Fan-Seiten sind nicht erlaubt.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Facebook
+      visit_homepage: Webseite
+      visit_instagram: Instagram
+      visit_twitter: Twitter
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Filme"
+      tv_page_title: "%{name} Serien"
     images:
-      format: 
-      no_backdrop_stills: 
-      no_backdrops: 
-      no_logos: 
-      no_posters: 
-      no_profiles: 
-      primary: 
+      format: Verhältnis
+      no_backdrop_stills: Es wurde keine Hintergründe hinzugefügt.
+      no_backdrops: Es wurde keine Hintergründe hinzugefügt.
+      no_logos: Es wurde keine Logos hinzugefügt.
+      no_posters: Es wurde keine Poster hinzugefügt.
+      no_profiles: Es wurde keine Profile hinzugefügt.
+      primary: Standard?
       types:
-        backdrop_stills: 
+        backdrop_stills: Hintergründe
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" Filme'
+      tv_page_title: '"%{name}" Serien'
     movie:
       edit:
         adult:
           adult_movie: Pornographischer Film?
         alternative_titles:
-          no_records: 
+          no_records: Es wurden keine Alternative Titel eingetragen.
         cast:
-          no_records: 
+          no_records: Es wurden keine Schauspieler eingetragen.
         confirm_collection: 
-        confirm_video: 
+        confirm_video: |-
+          <p>Filme als Videos zu kennzeichnen hilft uns die Unterschiede besser zu erkennen.</p>
+
+          <p>Wenn dieser Inhalt beispielsweise eine Zusammenstellung von Best Of oder ein Fitness-Video ist dann solltest du es als Video markieren.</p>
         crew:
-          job_required: 
-          no_records: 
-          person_required: 
+          job_required: Eine Stelle muss gewählt werden.
+          no_records: Keine Schauspieler wurden eingetragen.
+          person_required: Eine Person muss gewählt werden.
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: Gerne hinzufügen.
+          no_records: Keine Gerne's wurden eingetragen.
         keywords:
-          add_keyword: 
-          create: 
-          no_records: 
-          none_found: 
-          tip: 
+          add_keyword: 'Schlüsselwort hinzufügen.. '
+          create: Erstelle ihn
+          no_records: Keine Schlüsselwörter wurden eingetragen.
+          none_found: Keine passenden Schlüsselwörter gefunden. Möchtest du ein erstellen?
+          tip: Als allgemeine Richtlinie solltest du an Dinge denken die helfen die Handlung, allgemeine Themen und Stimmungen zu beschreiben.
         production_information:
-          add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          add_production_company: Produktionsunternehmen hinzuzufügen
+          no_records: Keine Produktionsunternehmen wurden eingetragen.
+          none_found: Keine passenden Unternehmen gefunden, Willst du eins erstellen?
+          production_company: Produktionsunternehmen
         release_information:
-          no_records: 
+          no_records: Keine Daten zur Veröffentlichung wurden eingetragen
         videos:
-          no_records: 
+          no_records: Keine Videos wurden hinzugefügt.
       statuses:
         Canceled: Eingestellt
         In Production: In Produktion
         Planned: In Planung
-        Post Production: Postproduktion
+        Post Production: Nach-Produktion
         Released: Veröffentlicht
-        Rumored: Gerüchten zufolge
+        Rumored: Gerücht
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Alternative Namen
+        logos: Logos
         merge:
-          choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
-        primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+          choose_destination: Wähle den Sender zur Zusammenlegung...
+          confirm_merge: Bestätige Zusammenlegung
+          merge: Zusammenlegen
+          next: Weiter
+        primary_facts: Allgemein
+        upload_logo: Logo hochladen
+      logos: Logos
+      name: Name
+      other_shows_on: Zeige weitere Serien von %{name}...
       search:
-        no_results: 
-        results: 
-      tv_page_title: 
-      upload_logo: 
+        no_results: Es gibt keine Sender die zu deiner abfrage passen.
+        results: Sender Ergebnisse
+      tv_page_title: Serien bei %{name}
+      upload_logo: Logo hochladen
     no_results_found:
-      movie: 
-      tv: 
-    number_of_movies: 
-    number_of_shows: 
+      movie: Keine Filme gefunden.
+      tv: Keine Serien gefunden.
+    number_of_movies:
+      one: "%{count} Film"
+      other: "%{count} Filme"
+    number_of_shows:
+      one: "%{count} Serie"
+      other: "%{count} Serien"
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: Kiene alternativen Namen wurden eingetragen.
     rating:
-      rated_with_rating: 
+      rated_with_rating: Bewertet mit %{value}
     social_panel:
       discussions:
-        currently_subscribed: 
-        no_discussions: 
-        unsubscribe_me: 
-        want_to_be_notified: 
-        yes_notify_me: 
+        currently_subscribed: Du verfolgst das Theme derzeit und wirst benachrichtigt sobald sich etwas tut.
+        no_discussions: Es gibt keine Diskussionen für %{item_title}. Melde dich an um der erste zu sein!
+        unsubscribe_me: Melde mich ab.
+        want_to_be_notified: Willst du Benachrichtigt werden wenn jemand etwas dazu schreibt?
+        yes_notify_me: Ja, Benachrichtige mich!
       reviews:
-        a_review_by: 
-        by: 
+        a_review_by: Eine Rezension von %{username}
+        by: Verfasst von %{username} am %{date}
         featured_review: Ausgewählte Rezension
         no_review:
-          logged_in: 
-          public: 
+          logged_in: Wir haben keine Rezension für %{title}. Willst du <a href="%{url}">eine schreiben</a>?
+          public: Wir haben keine Rezension für %{title}.
         read_all: Alle Rezensionen lesen
-        read_the_rest: 
+        read_the_rest: lese den rest.
         write_review:
           logged_in: Rezension verfassen
-          public: 
+          public: Melde dich an um einer Rezension zu verfassen.
     tv_episode:
       edit:
         guest_stars:
-          no_records: 
-        screened_as_part_of_season: Ja, als Teil von Staffel
-        screened_confirm: Klicke auf „Ja”, falls diese Folge auf einem Film-Festival oder im Kino gezeigt wurde.
+          no_records: Keine Gast-Stars wurden eingetragen.
+        screened_as_part_of_season: Ja, als Teil einer Staffel
+        screened_confirm: Wurde diese Folge auf einem Filmfestival oder im Kino ausgestrahlt? Klicke auf 'Ja' um vorzufahren.
         screened_label: Wurde diese Folge im Kino gezeigt?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Folge %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Nächste Folge
         previous_episode: Vorherige Episode
     tv_season:
       edit:
         create_episode: Folge erstellen
         episodes:
-          no_records: 
-        screened_confirm: 
-        screened_label: 
+          no_records: Keine Folgen wurden eingetragen.
+        screened_confirm: Wurde diese Serie auf einem Filmfestival oder im Kino ausgestrahlt? Klicke auf 'Ja' um vorzufahren.
+        screened_label: Wurde diese Serie im Kino gezeigt?
       season_selector:
         current_season: Aktuelle Staffel
         last_season: Letzte Staffel
         next_season: Nächste Staffel
-        previous_season: 
+        previous_season: Vorherige Staffel
     tv_show:
-      create_season: 
+      create_season: Staffel erstellen
       edit:
         adult:
-          adult_show: 
+          adult_show: Erwachsenen Fernsehshow?
         alternative_names:
-          no_records: 
+          no_records: Es wurden keine alternativen Namen eingetragen.
         content_ratings:
-          no_records: 
+          no_records: Es wurden keine Bewertungen abgegeben.
         creator:
-          no_records: 
+          no_records: Es wurden keine Schöpfer eingetragen.
         crew:
-          no_season: 
+          no_season: Es gibt keine Staffeln! Eine Staffel ist notwendig um eine Besatzung hinzufügen zu können.
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Erstelle ein neuen Teil
+          description: Beschreibung
+          episode_groups: Folgen Teilung
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Verschiebe die markierten Folgen.
+            no_records: Keine folgen wurden dieser Einteilung hinzugefügt.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Folgen
+            groups: Teile
+          group: Teil
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              one: "%{count} Folge hinzugefügt!"
+              other: "%{count} Folgen hinzugefügt!"
+          name: Name des Teils
+          no_records: Keine Folgen Teile wurden eingetragen.
+          type: Art
           types:
-            '1': 
-            '2': 
-            '3': 
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '1': Originale Erstausstrahlung
+            '2': Vollkommen
+            '3': DVD
+            '4': Digital
+            '5': Handlungsbogen
+            '6': Produktion
+            '7': TV
         networks:
-          no_records: 
-          none_found: 
+          no_records: Es wurden keine Sender eingetragen.
+          none_found: Keine passenden Sender wurden gefunden. Möchtest du ein erstellen?
         regular_cast:
-          no_records: 
-          no_season: 
+          no_records: Es wurde keine Besatzung eingetragen.
+          no_season: Keine Staffeln vorhanden! Eine Staffel ist notwendig um die Besatzung hinzufügen zu können.
         runtime:
-          add_it: 
-          enter_value: 
+          add_it: Neue Laufzeit hinzufügen?
+          enter_value: Geb ein Wert in Minuten ein
         seasons:
-          no_records: 
+          no_records: Es wurden keine Staffeln eingetragen.
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
-      networks: 
+          count:
+            one: "%{count} Teil"
+            other: "%{count} Teile"
+        original_air_date: Original Erstausstrahlung
+      networks:
+        one: Sender
+        other: Sender
       statuses:
         Canceled: Eingestellt
         Ended: Beendet
-        In Production: In Produktion
-        Pilot: 
-        Planned: In Planung
+        In Production: Dreh
+        Pilot: Pilot
+        Planned: Geplant
         Returning Series: Wiederkehrend
       types:
         Documentary: Dokumentation
-        Miniseries: 
-        News: 
-        Reality: 
-        Scripted: 
-        Talk Show: 
-        Video: 
+        Miniseries: Miniseries
+        News: News
+        Reality: Reality
+        Scripted: Scripted
+        Talk Show: Talk Show
+        Video: Video
     video:
-      audio_language: 
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      audio_language: Sprachausgabe
+      channel: Channel
+      duration: Länge
+      published: Veröffentlicht
+      published_at: Veröffentlicht auf
+      restricted_regions: In Länder verboten
+      tags: Schlüsselbegriffe
   message_templates:
     help_translate:
       message: 
@@ -2888,7 +2901,7 @@ de-DE:
       admin: Administrator
       archive: Archiv
       settings: Einstellungen
-      viewed_at: 
+      viewed_at: Gesehen am %{time_ago}
     placeholders:
       no_conversation_selected:
         create: Du kannst auch eine neue Konversation erstellen <a href="%{link}">clicking here</a>.
