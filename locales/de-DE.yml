@@ -40,12 +40,12 @@ de-DE:
   Add a New Cast Member: Darsteller hinzufügen
   Add a New Crew Member: Crew hinzufügen
   Add a New Guest Star: Gastdarsteller hinzufügen
-  Add to Watchlist: Zur Watchlist hinzufügen
+  Add to Watchlist: Zur Watchliste hinzufügen
   Add to list: Zur Liste hinzufügen
   Add to your favorite list: Zu deinen Favoriten hinzufügen
-  Add to your watchlist: Zu deiner Watchlist hinzufügen
+  Add to your watchlist: Zu deiner Watchliste hinzufügen
   Added By: Hinzugefügt von
-  Added to Watchlist: Zur Watchlist hinzugefügt
+  Added to Watchlist: Zur Watchliste hinzugefügt
   Adding & Editing Content: Inhalte hinzufügen und editieren
   Address 1: Adresse 1
   Address 2: Adresse 2
@@ -208,7 +208,7 @@ de-DE:
   Help Us By Contributing Missing Data: Hilf uns indem du fehlende Daten hinzufügst
   Hi: Hallo
   Hide favorites?: Favoriten verbergen?
-  Hide items on watchlist?: Elemente auf der Merkliste ausblenden?
+  Hide items on watchlist?: Elemente auf der Watchliste ausblenden?
   Hide rated?: Bewertetes Elemente ausblenden?
   Home: Home
   Homepage: Webseite
@@ -247,9 +247,9 @@ de-DE:
   Login to Add a Video: Anmelden um Video hinzufügen
   Login to Edit Cast & Crew: Anmelden um Darsteller und Crew zu editieren
   Login to add this TV show to your favorite list: Anmelden um diese Serie zu deinen Favoriten hinzuzufügen
-  Login to add this TV show to your watchlist: Anmelden um diese Serie zu deiner Watchlist hinzuzufügen
+  Login to add this TV show to your watchlist: Melde dich an um diese Serie zu deiner Watchlist hinzuzufügen
   Login to add this movie to your favorite list: Anmelden um diesen Film zu deinen Favoriten hinzuzufügen
-  Login to add this movie to your watchlist: Anmelden um diesen Film zu deiner Watchlist hinzuzufügen
+  Login to add this movie to your watchlist: Melde dich an um diesen Film zu deiner Watchliste hinzuzufügen
   Login to create and edit custom lists: Log dich ein um benutzerdefinierte Listen zu erstellen.
   Login to rate this TV show: Anmelden um diese Serie zu bewerten
   Login to rate this movie: Anmelden um diesen Film zu bewerten
@@ -624,7 +624,7 @@ de-DE:
       overview: Übersicht
       ratings_reviews: Bewertungen & Rezensionen
       recommendations: Empfehlungen
-      watchlist: Watchlist
+      watchlist: Watchliste
     order: 'Sortieren:'
     overview:
       30_day_activity: Aktivität der letzten 30 Tage
@@ -637,7 +637,7 @@ de-DE:
         logged_in: Du hast keine Filme oder TV-Sendungen gespeichert.
         public: "%{username} hat bisher keine Filme oder TV-Sendungen gespeichert."
       goto_discussions: Gehe zu Diskussionen
-      goto_watchlist: Gehe zur Watchlist
+      goto_watchlist: Zur Watchliste
       most_watched_genres: Meist gesehene Genres
       rating_overview: Bewertungsübersicht
       recent_activity: Letzte Aktivität
@@ -671,17 +671,17 @@ de-DE:
       my_watchlist: Meine Watchliste
       next_month: Nächsten Monat
       no_upcoming_movies:
-        one: Es gibt keine Filme in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält nur %{count} Objekt.
-        other: Es gibt keine Filme in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält insgesamt %{count} Objekte.
+        one: Es gibt keine Filme in Deiner Watchliste welche in demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Film.
+        other: Es gibt keine Filme in Deiner Watchliste welche in demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Filme.
       no_upcoming_tv_shows:
-        one: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält nur %{count} Objekt.
-        other: Es gibt keine Filme oder TV-Sendungen in Deiner Beobachtungsliste , die in Kürze erscheinen. Deine Beobachtungsliste enthält insgesamt %{count} Objekte.
+        one: Es gibt keine Serien in Deiner Watchliste welche in demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Serie.
+        other: Es gibt keine Serien in Deiner Watchliste welche in demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Serien.
       page_title:
         page_owner: Meine Watchliste
         public: "%{username}'s Watchliste"
       this_month: Diesen Monat
       this_week: Diese Woche
-      view_them: Zeige sie mir.
+      view_them: Zeigen
   add_to_list: "%{media_title} zu einer deiner Listen hinzufügen..."
   already_translated_in: "%{page_title} wurde bereits für folgende Sprachen übersetzt..."
   api_session:
@@ -3173,7 +3173,7 @@ de-DE:
       type:
         favorite: Favorit
         rated: Bewertet
-        watchlist: Beobachtungsliste
+        watchlist: Watchliste
       which_list: In welche Liste importieren?
     navigation:
       account_settings: Account Einstellungen
@@ -3188,7 +3188,7 @@ de-DE:
       sharing_settings: Einstellungen teilen
       social_settings: Soziale Einstellungen
     notifications:
-      email_new_releases_watchlist: Mailen Sie mir über neue Releases auf meiner Beobachtungsliste?
+      email_new_releases_watchlist: Über neue Veröffentlichungen in meiner Watchliste benachrichtigen?
       new_replies_to_threads_created: Automatisch beobachtete Threads, die ich erstelle oder antworte?
       new_replies_to_threads_watching: Bitte schicken Sie mir über neue Antworten für Themen, wo ich gerade bin?
       news_updates: Mailen Sie mir über Neuigkeiten und Produktupdates
@@ -3224,16 +3224,16 @@ de-DE:
       reset_password_dialog_text: 
     sharing:
       favorite_list:
-        favorite_settings: Favoritenliste Einstellungen
+        favorite_settings: Einstellungen der Favoriten-Liste
         share_on_twitter: Neue Favoriten auf Twitter teilen?
         share_publicly: Teilen Sie diese Liste öffentlich?
       rated_list:
-        rated_settings: Einstellungen der bewerteten Liste
+        rated_settings: Einstellungen der Liste mit Bewertungen
         share_publicly: Teilen Sie diese Liste öffentlich?
       sharing_settings: Einstellungen teilen
       watchlist:
         remove_when_rated: Elemente automatisch entfernen, wenn sie bewertet werden?
-        watchlist_settings: Einstellungen der Beobachtungsliste
+        watchlist_settings: Einstellungen der Watchliste
     social:
       connected_table:
         action: Aktion
