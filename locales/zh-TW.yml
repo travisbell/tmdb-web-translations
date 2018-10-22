@@ -91,8 +91,8 @@ zh-TW:
   City: 城市
   Clip: 精華片段
   Clips: 精華片段
-  Collection Results: 典藏搜尋結果
-  Collections: 典藏
+  Collection Results: 系列搜尋結果
+  Collections: 系列
   Coming soon!: 即將推出！
   Comments: 影評
   Community: 社群
@@ -105,10 +105,10 @@ zh-TW:
   Contact Email: 聯絡信箱
   Contact Us: 聯絡我們
   Content Ratings: 內容分級
-  Content Score: 內容評分
+  Content Score: 完成度
   Continue: 繼續
   Contribution leaders for the week of: '本週最佳貢獻者  '
-  Convert to Collection?: 轉換為典藏？
+  Convert to Collection?: 轉換為系列綱領？
   Country: 國家
   Create: 建立
   Create App: 建立程式
@@ -151,7 +151,7 @@ zh-TW:
   Edit App: 程式編輯
   Edit Data: 編輯資料
   Edit Data & Content: 編輯資料與內容
-  Edit Page: 編輯頁面
+  Edit Page: 編輯
   Editing Content: 編輯內容
   Editing in: 使用 %{language} 編輯
   Education: 教育
@@ -297,13 +297,13 @@ zh-TW:
   Original Descending: 原始降序
   Original Language: 原始語言
   Original Movie Language: 原電影語言
-  Original Name: 本名
+  Original Name: 原片名
   Original Order: 原順序
   Original TV Show Language: 原電視影集的語言
   Original Title: 原片名
   Other Databases: 其他資料庫
   Our History: 我們的歷史
-  Overview: 簡介
+  Overview: 劇情簡介
   Page: 頁
   Password: 密碼
   Password Confirm: 確認密碼
@@ -370,9 +370,9 @@ zh-TW:
   Remove from your favorite list: 從我的最愛清單移除
   Remove from your watchlist: 從您的待看清單中移除
   Remove?: 確認移除嗎？
-  Report: 回報問題
-  Report an Issue: 回報問題
-  Reported Issues: 已回報問題
+  Report: 回報出錯
+  Report an Issue: 回報出錯
+  Reported Issues: 已回報出錯
   Request an API Key: 請求 API 金鑰
   Resend Activation Email: 重送啟用信件
   Reset: 重置
@@ -456,13 +456,13 @@ zh-TW:
   Title (A-Z): 片名（A-Z）
   Title (Z-A): 片名（Z-A）
   Today: 今日
-  Top Billed Cast: 同場演員
+  Top Billed Cast: 主要演員
   Top Rated Movies: 電影評分排行
   Top Rated TV Shows: 電視影集評分排行
   Top Users: 使用者排行
   Trailer: 預告片
   Trailers: 預告片
-  Translate Collection: 翻譯典藏
+  Translate Collection: 翻譯系列
   Translate Movie: 電影翻譯
   Translate Person: 翻譯人員
   Translate TV Series: 電視影集翻譯
@@ -490,12 +490,12 @@ zh-TW:
   View All Seasons: 瀏覽所有季數
   View All Videos: 檢視所有影片
   View Discussions: 檢視討論串
-  View Edit History: 檢視歷史編輯
+  View Edit History: 編輯紀錄
   View Episodes: 檢視集數
   View More: 更多
   View Original: 檢視原檔
   View Profile Images: 檢視大頭照
-  View the Collection: 檢視典藏
+  View the Collection: 檢視系列
   Watch Online: 線上觀看
   Watchlist: 待看清單
   Watchlists: 待看清單
@@ -520,7 +520,7 @@ zh-TW:
     ratings: 評價
     settings: 帳戶設定
     sign_up: 註冊
-    view_profile: 檢視個人資料
+    view_profile: 概覽
     watchlist: 待看清單
   accounts:
     activity:
@@ -618,11 +618,11 @@ zh-TW:
         public: "%{username}的收藏表"
     member_since: 會員加入於 %{date}
     navigation:
-      discussions: 討論
+      discussions: 討論串
       favorites: 我的最愛
       lists: 收藏表
       overview: 概覽
-      ratings_reviews: 評分和評論
+      ratings_reviews: 評價
       recommendations: 推薦給我
       watchlist: 待看清單
     order: 排序依：
@@ -636,14 +636,14 @@ zh-TW:
       empty_watched_genres:
         logged_in: 您並未紀錄任何電影或電視影集。
         public: "%{username} 並未紀錄任何電影及電視影集。"
-      goto_discussions: 前往討論
+      goto_discussions: 前往討論串
       goto_watchlist: 前往待看清單
-      most_watched_genres: 最多觀看類型
-      rating_overview: 評分簡介
+      most_watched_genres: 類型分佈
+      rating_overview: 評分值分佈
       recent_activity: 近期活動
       recent_discussions: 近期討論
-      total_edits: 總編輯數
-      total_ratings: 總評分數
+      total_edits: 總編輯次數
+      total_ratings: 總評分套數
       upcoming_watchlist: 待看清單中即將上映的電影
     page_title:
       page_owner: 我的簡介
@@ -1273,11 +1273,11 @@ zh-TW:
       people: ppl
       tv: tv
     collection:
-      collection: 典藏
-      collection_bible: 典藏指南
+      collection: 系列
+      collection_bible: 系列型態指南
       tall_bible:
         bottom: 指南
-        top: 典藏
+        top: 系列
     contribution_bible: 貢獻指南
     featured_articles: 推薦文章
     general:
@@ -1450,7 +1450,7 @@ zh-TW:
     categories:
       categories: 類別
       discuss:
-        content_issues: 內容問題
+        content_issues: 內容出錯
         discuss: 討論
         general: 一般
         website_support: 網站支援
@@ -1458,7 +1458,7 @@ zh-TW:
         api_requests: API 申請
         api_requests_(professional): API 申請 (專業版)
         api_support: API 支援
-        content_issues: 內容問題
+        content_issues: 內容出錯
         general: 一般
         general_chat: 一般閒聊
         moderator_talk: 主持人發言
@@ -1479,7 +1479,7 @@ zh-TW:
       discuss_item: "%{item_title}的討論"
       lets_chat: 開始聊天吧
       support: 支援
-      support_title: TBDb 支援
+      support_title: TMDb 支援
     login_to_be_notified: 登錄以獲得有關第一篇文章的通知。
     new_discussion:
       community_guidelines: 社群指南
@@ -2687,9 +2687,9 @@ zh-TW:
         cast:
           no_records: 無任何演員被添加的紀錄
         confirm_collection: |-
-          <p>典藏是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但系列不一定以同一「故事世界觀」的方式來作分組的依據。若您了解系列的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立典藏</a>. 若您想要了解更多關於典藏的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
+          <p>系列是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但系列不一定以同一「故事世界觀」的方式來作分組的依據。若您了解系列型態的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多關於系列型態的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
 
-          <p>如果您要創建的典藏符合此條件，請繼續建立典藏。</p>
+          <p>如果您要創建的系列符合此條件，請繼續建立。</p>
         confirm_video: |-
           <p>請協助將某些電影標記為影片，可幫助我們區分不是真正電影的內容類型。</p>
 

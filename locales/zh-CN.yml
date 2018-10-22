@@ -85,7 +85,7 @@ zh-CN:
   Categories: 分类
   Certification: 分级
   Change?: 变更吗？
-  Changes: 变更
+  Changes: 编辑纪录
   Character: 角色
   Choose: 
   City: 城市
@@ -151,7 +151,7 @@ zh-CN:
   Edit App: 编辑 App
   Edit Data: 编辑数据
   Edit Data & Content: 编辑数据 & 内容
-  Edit Page: 编辑页面
+  Edit Page: 编辑
   Editing Content: 编辑内容
   Editing in: 编辑 %{language}
   Education: 教育
@@ -178,7 +178,7 @@ zh-CN:
   Favorites: 我的最爱
   Featured: 精选
   Featured Cast: 主演
-  Featured Crew: 主创
+  Featured Crew: 主创人员
   Featured Lists: 推荐收藏
   Featurette: 花絮
   Featurettes: 花絮
@@ -296,11 +296,11 @@ zh-CN:
   Original Ascending: 原升序
   Original Descending: 原降序
   Original Language: 原始语言
-  Original Movie Language: 原始电影语言
-  Original Name: 原始名字
+  Original Movie Language: 原电影语言
+  Original Name: 原片名
   Original Order: 原始顺序
-  Original TV Show Language: 原始剧集语言
-  Original Title: 原始标题
+  Original TV Show Language: 原剧集语言
+  Original Title: 原片名
   Other Databases: 其它数据库
   Our History: 我们的历史
   Overview: 剧情简介
@@ -370,9 +370,9 @@ zh-CN:
   Remove from your favorite list: 从我的最爱清单删除
   Remove from your watchlist: 从你的待看清单删除
   Remove?: 删除？
-  Report: 报告
-  Report an Issue: 报告问题
-  Reported Issues: 已报告问题
+  Report: 报告出错
+  Report an Issue: 报告出错
+  Reported Issues: 已报告出错
   Request an API Key: 请求 API 密钥
   Resend Activation Email: 重发激活邮件
   Reset: 重置
@@ -490,7 +490,7 @@ zh-CN:
   View All Seasons: 浏览全部季
   View All Videos: 浏览全部视频
   View Discussions: 浏览讨论
-  View Edit History: 浏览编辑历史
+  View Edit History: 编辑纪录
   View Episodes: 浏览集
   View More: 浏览更多
   View Original: 显示原图
@@ -520,7 +520,7 @@ zh-CN:
     ratings: 评分
     settings: 帐户设置
     sign_up: 注册
-    view_profile: 浏览用户资料
+    view_profile: 概览
     watchlist: 待看清单
   accounts:
     activity:
@@ -634,12 +634,12 @@ zh-CN:
         public: "%{username} 尚未登录任何电影或剧集。"
       goto_discussions: 进入讨论
       goto_watchlist: 进入待看清单
-      most_watched_genres: 最多观看类型
-      rating_overview: 评分总览
+      most_watched_genres: 类型分佈
+      rating_overview: 评分值分佈
       recent_activity: 最近活跃
       recent_discussions: 最近讨论
-      total_edits: 编辑总数
-      total_ratings: 评分总数
+      total_edits: 总编辑次数
+      total_ratings: 总评分套数
       upcoming_watchlist: 待看清单中即将上映
     page_title:
       page_owner: 我的个人资料
@@ -1270,7 +1270,7 @@ zh-CN:
       tv: 
     collection:
       collection: 系列
-      collection_bible: 系列参考手册
+      collection_bible: 系列型态参考手册
       tall_bible:
         bottom: 参考手册
         top: 系列
@@ -1419,7 +1419,7 @@ zh-CN:
     categories:
       categories: 分类
       discuss:
-        content_issues: 内容问题
+        content_issues: 内容出错
         discuss: 讨论
         general: 一般问题
         website_support: 网站支持
@@ -1427,7 +1427,7 @@ zh-CN:
         api_requests: API 请求
         api_requests_(professional): API 请求（专业）
         api_support: API 支持
-        content_issues: 内容问题
+        content_issues: 内容出错
         general: 一般问题
         general_chat: 一般问题聊天
         moderator_talk: 板务交流
@@ -2617,7 +2617,7 @@ zh-CN:
         bible: 
         homepage: 仅官方主页，影迷页不允许
         logo_format: 
-        original_title: 原始标题应录入项目的原始语言，通常匹配“原始语言”栏录入的语言。
+        original_title: 原片名应录入影片的原始语言，通常跟“原始语言”栏的语言一致。
         overview: 请尽量简短，避免剧透。
         social_links: 社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。
     external_links:
@@ -2650,9 +2650,9 @@ zh-CN:
         cast:
           no_records: 
         confirm_collection: |-
-          <p>系列是在TMDb将续集分组的方式，虽然有时此方式有些为争议，但系列不一定以同一「故事世界观」的方式来作分组的依据。若您了解系列的原则，请继续 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多关於系列的资讯，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文件</a>.</p>
+          <p>系列是在TMDb将续集分组的方式，虽然有时此方式有些为争议，但系列不一定以同一「故事世界观」的方式来作分组的依据。若您了解系列型态的原则，请继续 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多关於系列型态的资讯，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文件</a>.</p>
 
-          <p>如果您要创建的系列符合此条件，请继续建立系列。</p>
+          <p>如果您要创建的系列符合此条件，请继续建立。</p>
         confirm_video: 
         crew:
           job_required: 
@@ -2681,7 +2681,7 @@ zh-CN:
         In Production: 拍摄中
         Planned: 已计划
         Post Production: 后期制作
-        Released: 上映
+        Released: 已上映
         Rumored: 传闻
     network:
       edit:
@@ -2913,7 +2913,7 @@ zh-CN:
   no_list_search_results: 未找到所查询的列表。
   no_media: 尚未为 %{title} 添加视频、剧照和海报。
   no_movie_search_results: 未找到所查询的电影。
-  no_overview: 没有中文的剧情简介，请帮助添加到数据库。
+  no_overview: 没有简体中文的剧情简介，请帮助添加到数据库。
   no_person_search_results: 未找到所查询的人物。
   no_personal_recommendations:
     movie: 收藏所有你喜欢的电影，就能获得个人电影推荐。这时，你可能会注意到，我们推荐的很多电影都是你看过的。通过评分来过滤它们。你已评分的电影会自动过滤掉。
