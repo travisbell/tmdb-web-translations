@@ -54,8 +54,8 @@ zh-CN:
   Advanced Search: 高级搜索
   Air Date: 播出日期
   Also Known As: 又名
-  Alternative Names: 影片化名
-  Alternative Titles: 影片化名
+  Alternative Names: 附加化名
+  Alternative Titles: 附加化名
   Apiary Documentation: Apiary 文档
   App Directory: App 目录
   App Showcase: 应用展示
@@ -341,7 +341,7 @@ zh-CN:
   Production Countries: 制片国家
   Production Information: 制片信息
   Profiles: 档案照
-  Public List?: 公开列表？
+  Public List?: 公开这个收藏表？
   Public Report?: 公开报告？
   Quality: 质量
   Rank: 级别
@@ -526,10 +526,10 @@ zh-CN:
     activity:
       activity: 活跃
       legend:
-        added: 已添加
-        created: 已创建
-        deleted: 已删除
-        updated: 已修改
+        added: 附加
+        created: 创建
+        deleted: 删除
+        updated: 修改
       media_types:
         movies: 电影
         others: 其他
@@ -540,8 +540,8 @@ zh-CN:
         public: "%{username}的最新新动态"
       table:
         action: 动作
-        edit: 编辑
-        key: 密钥
+        edit: 修改值
+        key: 项目
         language_abbreviation: 语言
     average_movie_score: 电影<br>平均评分
     average_tv_score: 剧集<br>平均评分
@@ -2618,7 +2618,7 @@ zh-CN:
         homepage: 仅官方主页，影迷页不允许
         logo_format: 
         original_title: 原片名应录入影片的原始语言，通常跟“原始语言”栏的语言一致。
-        overview: 请尽量简短，避免剧透。
+        overview: 请尽量简短，避免剧透地雷。
         social_links: 社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。
     external_links:
       visit_facebook: 
@@ -2760,7 +2760,7 @@ zh-CN:
       create_season: 
       edit:
         adult:
-          adult_show: 
+          adult_show: 此为成人剧集吗？
         alternative_names:
           no_records: 
         content_ratings:
