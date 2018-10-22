@@ -142,8 +142,8 @@ pt-BR:
   Directory: Diretório
   Discover Examples: Exemplos de descobrir
   Discover New Movies: Descobrir novos filmes
-  Discover New Movies & TV Shows: Descobrir Novos Filmes e Séries
-  Discover New TV Shows: Descobrir Novas Séries
+  Discover New Movies & TV Shows: Descobrir novos filmes e séries
+  Discover New TV Shows: Descobrir novas séries
   Discussions: Discussões
   Documentation: Documentação
   Duplicate: Duplicado
@@ -555,7 +555,7 @@ pt-BR:
     events:
       all: Tudo
       emails:
-        emails: 
+        emails: E-mails
         filters:
           status:
             Bounce: 
@@ -563,7 +563,9 @@ pt-BR:
             Delivery: 
             Unsubscribed: 
             status: 
-        number_of_items: 
+        number_of_items:
+          one: "%{count} e-mail"
+          other: "%{count} e-mails"
       events: 
       notifications:
         filters:
@@ -577,7 +579,7 @@ pt-BR:
         notifications: 
         number_of_items: 
       page_title:
-        recent_events: 
+        recent_events: Eventos recentes
       recent: 
     export:
       csv_explanation: Se você quiser ter uma cópia dessa lista exportada para um arquivo CSV, clique no botão "Exportar" abaixo. Vamos criar um arquivo e enviá-lo para você via e-mail. Dependendo do tamanho da sua lista, o processo pode levar alguns minutos para ser concluído.
@@ -688,7 +690,7 @@ pt-BR:
     statuses:
       completed:
         message: 
-        name: 
+        name: Autenticação concedida
       denied:
         message: 
         name: 
@@ -1359,18 +1361,18 @@ pt-BR:
       short_month_day_year: "%d de %b de %Y"
     month_names:
     - 
-    - Janeiro
-    - Fevereiro
-    - Março
-    - Abril
-    - Maio
-    - Junho
-    - Julho
-    - Agosto
-    - Setembro
-    - Outubro
-    - Novembro
-    - Dezembro
+    - janeiro
+    - fevereiro
+    - março
+    - abril
+    - maio
+    - junho
+    - julho
+    - agosto
+    - setembro
+    - outubro
+    - novembro
+    - dezembro
   day: dia
   days:
     one: dia
@@ -2581,16 +2583,16 @@ pt-BR:
       toggle_private: 
       toggle_watching: 
     groups:
-      discussion_pages: 
-      edit_pages: 
+      discussion_pages: Em páginas de discussão
+      edit_pages: Em todas as páginas de edição
       global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      image_pages: Em todas as páginas de imagens
+      media_pages: Em páginas de mídia
+      tv_episode_pages: Em páginas de episódio de séries
+      tv_season_pages: Em páginas de temporada de séries
+    keyboard_shortcuts: Atalhos do teclado
+    view_keyboard_shorcuts: Visualizar atalhos do teclado
+    view_shortcuts: Ver atalhos
   list_info:
     average_rating: Avaliação média
     image_selected: Selecionada
@@ -2662,9 +2664,9 @@ pt-BR:
         overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
         social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
+      visit_facebook: Visitar Facebook
+      visit_homepage: Visitar página inicial
+      visit_instagram: Visitar Instagram
       visit_twitter: 
     genre:
       movie_page_title: Filmes de %{name}
