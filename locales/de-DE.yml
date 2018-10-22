@@ -43,7 +43,7 @@ de-DE:
   Add to Watchlist: Zur Watchliste hinzufügen
   Add to list: Zur Liste hinzufügen
   Add to your favorite list: Zu deinen Favoriten hinzufügen
-  Add to your watchlist: Zu deiner Watchliste hinzufügen
+  Add to your watchlist: Zur Watchliste hinzufügen
   Added By: Hinzugefügt von
   Added to Watchlist: Zur Watchliste hinzugefügt
   Adding & Editing Content: Inhalte hinzufügen und editieren
@@ -102,8 +102,8 @@ de-DE:
   Company Results: Ergebnisse in Unternehmen
   Confirm: Bestätigung
   Confirm Your Application: Bestätige deine Applikation
-  Contact Email: Kontakt-E-Mail-Adresse
-  Contact Us: Kontakt
+  Contact Email: E-Mail
+  Contact Us: Kontaktiere Uns
   Content Ratings: Altersfreigaben
   Content Score: Vollständigkeit
   Continue: Weiter
@@ -157,7 +157,7 @@ de-DE:
   Education: Bildung
   Email: E-Mail
   Email Address: E-Mail Adresse
-  Email Content: Inhalt mailen
+  Email Content: Nachricht
   Episode Images: Episodenbilder
   Episode Number: Episode Nummer
   Episode Overview: Zusammenfassung dieser Folge
@@ -258,7 +258,7 @@ de-DE:
   Logos & Attribution: Logos & Urheberrecht
   Logout: Abmelden
   Male: Männlich
-  Mark as Favorite: Als Fa­vo­rit markieren
+  Mark as Favorite: Zu Favoriten hinzufügen
   Media: Medien
   Member since: Mitglied seit
   Merge Keyword: Schlüsselwörter zusammenführen
@@ -367,8 +367,8 @@ de-DE:
   Release Type: Art
   Reload Page: Seite neuladen
   Remove: Entfernen
-  Remove from your favorite list: Von deinen Favoriten entfernen
-  Remove from your watchlist: Von deiner Watchlist entfernen
+  Remove from your favorite list: Aus Favoriten entfernen
+  Remove from your watchlist: Aus Watchlist entfernen
   Remove?: Entfernen?
   Report: Fehler melden
   Report an Issue: Fehler melden
@@ -430,7 +430,7 @@ de-DE:
   Success: Erledigt
   Summary: Zusammenfassung
   Support: Support
-  Support Forums: Forum
+  Support Forums: Support Forum
   TV: TV
   TV Network: TV Sender
   TV Recommendations: Empfehlungen für Serien
@@ -622,7 +622,7 @@ de-DE:
       favorites: Favoriten
       lists: Listen
       overview: Übersicht
-      ratings_reviews: Bewertungen & Rezensionen
+      ratings_reviews: Bewertungen
       recommendations: Empfehlungen
       watchlist: Watchliste
     order: 'Sortieren:'
@@ -661,8 +661,8 @@ de-DE:
       ratings_by_year: Bewertungen im Jahr
     recommendations:
       my_recommendations: Meine Empfehlungen
-      no_recommendations: Wir haben nicht genug Daten um dir Empfehlungen anzubieten.
-      no_recommendations_helper: Füge weitere Favoriten hinzu (je mehr, desto besser) und komm wieder um zu schaue was sich getan hat.
+      no_recommendations: Wir haben nicht genug Daten um dir Empfehlungen anbieten zu können
+      no_recommendations_helper: Füge weitere Favoriten hinzu und komme später wieder.
       page_title: Empfehlungen
     tips:
       import_imdb_ratings: Du kannst deine Bewertungen von IMDb importieren.
@@ -1439,11 +1439,11 @@ de-DE:
       close_discussion: Schließen
       make_private: Auf „Privat” setzen
       make_public: Auf „Öffentlich” setzen
-      mark_spam: Als Spam markieren
+      mark_spam: Als Spam melden
       reopen_discussion: Thema wieder öffnen
-      stop_watching: Abonnement beenden
+      stop_watching: Nicht mehr Verfolgen
       view_activity: Verlauf
-      watch: Abonnieren
+      watch: Verfolgen
     admin_panel: Adminbereich
     back_options:
       back_to_item_with_arrow: "← Zurück zu %{item_title}"
@@ -1522,9 +1522,9 @@ de-DE:
     report_violation: Verstoß melden
     search:
       advanced_search: Erweiterte Suche
-      search_closed: Suche geschlossen?
+      search_closed: Geschlossen
       search_forums: Forum durchsuchen...
-      search_open: Suche offen?
+      search_open: Geöffnet
     statuses:
       closed: Geschlossen
       open: Offen
@@ -2614,8 +2614,8 @@ de-DE:
     step_3: 'Schritt 3: Bilder wählen'
     step_4: 'Schritt 4: Teilen'
   login:
-    login_text_1: Um mit dem Bewerten oder Editieren beginnen zu können oder um persönliche Empfehlungen zu bekomme musst du dich einloggen. Wenn du noch kein Account hast dann erstelle doch einfach einen Neuen, völlig einfach und kostenlos. <a href="%{signup_link}">Klicke hier</a> um loszulegen.
-    login_text_2: Wenn du immer noch keine Verifizierung E-Mail bekommen hast dann <a href="%{verification_link}">klicke hier</a> um sie erneut zu senden.
+    login_text_1: Um mit dem Bewerten und Editieren beginnen zu können oder um persönliche Empfehlungen zu bekomme musst du Angemeldet sein. Solltest du noch kein Account haben kannst du dich einfach und kostenlos <a href="%{signup_link}">hier</a> registrieren um loszulegen.
+    login_text_2: Solltest du dich schon Registriert haben aber immer noch keine Verifizierung E-Mail bekommen haben dann <a href="%{verification_link}">klicke hier</a> um sie erneut zu senden.
     login_to_your_account: Anmelden
   login_to_create: Es fehlt ein Film oder eine Serie? Logge dich ein zum Ergänzen.
   login_to_edit: Anmelden um zu editieren
@@ -2999,14 +2999,14 @@ de-DE:
     logged_in: "%{page_title} wurde noch nicht auf <strong>%{requested_i18n} (%{requested_language_text})</strong> übersetzt. Wenn du eine hinzufügen möchtest, klicke auf Übersetzung hinzufügen."
     public: '%{page_title} wurde noch nicht auf <strong>%{requested_i18n} (%{requested_language_text})</strong> übersetzt. Du kannst eine Übersetzung hinzufügen indem du dich <a href="%{signup_link}">registrierst</a> oder <a href="%{login_link}">anmeldest</a>.'
   notifications:
-    caught_up: Sieht aus als würdet ihr alle aufholen.
+    caught_up: Sieht aus als hättest du alles erledigt.
     clear: Löschen
     good_job: Gute Arbeit!
     mark_all_as_read: Als gelesen markieren
     refresh: Aktualisieren
     unread_notifications: Ungelese Benachrichtigungen
     view: Anzeigen
-    view_all: Zeige alles
+    view_all: Zeige alle
   number:
     currency:
       format:
@@ -3086,7 +3086,7 @@ de-DE:
       as_character: als %{character}
       as_job: "— %{job}"
   resend_verification_email_text: Deine Account Daten vergessen? Gib dein Nutzername ein um sie per Mail zu erhalten.
-  reset_password_text: Gib dein Nutzername ein um das Passwort zurückzusetzen.
+  reset_password_text: Gib dein Nutzername ein um dein Passwort zurückzusetzen.
   search:
     favorites_movie: Suche favorisierte Filme...
     favorites_tv: Suche favorisierte Serien...
@@ -3266,15 +3266,15 @@ de-DE:
     benefits:
       benefits_to_being_member: Vorteile einer Registrierung
       build_custom_lists: Erstelle eigene Listen mit Filmen und Serien.
-      build_watchlist: Erstelle und erweitere deine persönliche Watchliste.
-      contribute: Wirke mit und verbessere die Informationen dieser Datenbank.
-      discussions: Nimm an Film und Serien Diskussionen teil.
-      keep_track: Verfolge deine Lieblings Filme und Serien um Empfehlungen zu bekommen.
-      log_movies: Speiche die Filme und Serien die du gesehen hast.
-    by_clicking_agree_to_terms: Durch Klicken auf die Schaltfläche "Registrieren" bestätige ich dass ich die TMDb-Nutzungsbedingungen und Datenschutzrichtlinien gelesen habe und ihnen zustimme.
-    javascript_required: JavaScript wird benötigt um fortzufahren.
-    sign_up_for_account: Konto erstellen
-    signup_text: Registriere dich für ein Account, es ist einfach und völlig kostenlos. Fülle das Formular aus und es kann losgehen.
+      build_watchlist: Erstelle und bearbeite deine persönliche Watchliste.
+      contribute: Editiere und verbessere die Informationen in unserer Datenbank.
+      discussions: Nimm an Diskussionen zu Filmen und Serien teil.
+      keep_track: Verfolge deine Lieblings Filme und Serien und bekomme Empfehlungen.
+      log_movies: Speichere all die Filme und Serien die du gesehen hast.
+    by_clicking_agree_to_terms: Durch Klicken auf die Schaltfläche "Registrieren" bestätige ich dass ich die TMDb-Nutzungsbedingungen und Datenschutzrichtlinien gelesen habe und zustimme.
+    javascript_required: "(JavaScript wird benötigt)"
+    sign_up_for_account: Account erstellen
+    signup_text: Die Registrierung eines Accounts ist einfach und kostenlos. Fülle dazu das Formular aus um zu beginnen.
   success_approved_access_token: Zugriff gewährt!
   success_deleted: Das gewählte Objekt wurde erfolgreich entfernt.
   success_email: E-Mail wurde erfolgreich gesendet.
@@ -3296,7 +3296,7 @@ de-DE:
   upload_backdrop: Hintergrundbild hochladen
   upload_poster: Poster hochladen
   upload_profile: Profil hochladen
-  used_by_developers: TMDb wird von mehr als 150,000 Entwickler genutzt.<br>Durchsuche hier ihre Projekte.
+  used_by_developers: TMDb wird von mehr als 150,000 Entwicklern genutzt.<br>Schau dir Ihre Projekte an.
   view all: Alle anzeigen
   will_paginate:
     next_label: Nächste →
