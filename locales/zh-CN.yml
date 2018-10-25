@@ -515,7 +515,7 @@ zh-CN:
     lists: 收藏表
     login: 登录
     logout: 注销
-    messages: 
+    messages: 消息
     profile_and_settings: 个人资料与设定
     ratings: 评分
     settings: 帐户设置
@@ -553,36 +553,40 @@ zh-CN:
         page_owner: 我的讨论
         public: "%{username}的讨论"
     events:
-      all: 
+      all: 全部
       emails:
-        emails: 
+        emails: 电子邮件
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: 退回
+            Complaint: 投诉
+            Delivery: 已发送
+            Unsubscribed: 已取消订阅
+            status: 状态
+        number_of_items:
+          one: "%{count} 封电子邮件"
+          other: "%{count} 封电子邮件"
+      events: 事件
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: 讨论
+            General: 一般
+            List Import: 导入列表
+            Mention: 提及
+            Messages: 消息
+            type: 类型
+        notifications: 通知
+        number_of_items:
+          one: "%{count} 个通知"
+          other: "%{count} 个通知"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: 最新动态
+      recent: 最近
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: 如果您想要这个清单的 CSV 格式，请按下面的 “导出” 按钮，我们会将之导出并且发送到您的电子邮件地址，很长的清单可能会花稍长点的时间。
+      export: 导出
+      export_csv: 导出到 CSV 格式
     favorites:
       my_favorites:
         logged_in: 我的最爱
@@ -652,14 +656,14 @@ zh-CN:
         logged_in: 我的影评
         public: "%{username} 的影评"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: 我的评分和影评
+        public: "%{username} 的评分和影评"
       ratings_by_year: 播映年份统计:评分数量
     recommendations:
       my_recommendations: 推荐给我
       no_recommendations: 没有足够的数据来形成推荐建议。
       no_recommendations_helper: 尝试添加一些收藏（越多越好）再回来看有何变化。
-      page_title: 
+      page_title: 推荐
     tips:
       import_imdb_ratings: 可以从 IMDb 导入你的评分。
       tip: 提示
@@ -681,20 +685,20 @@ zh-CN:
   add_to_list: 添加 %{media_title} 到你的收藏表...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: 第三方授权请求
     approved_session: 你已核准 %{application_name}。你可以关闭此窗口。
     continue: 如要继续，点击下面的核准按钮。否则，只需关闭此窗口。
     request_token_approval: 
     statuses:
       completed:
-        message: 
-        name: 
+        message: 您已授予<strong>%{application_name}</strong>的读写权限。您现在可以返回到应用程序并关闭此窗口。您可以随时进入帐户设置页面，然后进入“已连接的应用”页面，以撤消此访问权限。
+        name: 授权认证
       denied:
-        message: 
-        name: 
+        message: "<p>您已拒绝访问<strong>%{application_name}</strong>。 如果这是一个错误，或者您想重新启动身份验证过程，请返回应用程序并再次请求权限。</p>"
+        name: 身份验证被拒绝
       invalid_request_token:
-        message: 
-        name: 
+        message: 您提交的访问令牌无效。 尝试创建一个新的并确保您已正确复制它。 如果您仍然遇到问题，请与您正在使用的应用的开发者联系。
+        name: 无效的请求令牌
   attributes:
     biography: 简介
     certification: 分级
@@ -1452,7 +1456,7 @@ zh-CN:
       community_guidelines: 社区指南
       discussion_category: 类别
       for_item: 针对项目
-      message: 
+      message: 信息
       new_discussion: 新讨论
       subject: 主题
     no_discussions: 无讨论
@@ -1520,29 +1524,29 @@ zh-CN:
   episode_number_name: 第 %{episode_number} 集
   errors:
     images:
-      couldnt_process: 
+      couldnt_process: 我们无法处理此图片
       not_jpeg: 
       not_png: 
-      not_svg: 
+      not_svg: 图片不是SVG
     locked:
-      genres: 
-      keywords: 
+      genres: 类型字段已锁定
+      keywords: 关键字字段已锁定
     messages:
       blank: 需要
       inclusion: 必须选定
       invalid: 是无效的
       required: 必须存在
-      suspected_tv_series: 
+      suspected_tv_series: 可能是现有的电视剧或迷你剧，如果你确定，你可以继续添加这个项目，但如果它存在于我们的电视部分，它将被删除
       taken: 已经被使用
     movie:
-      duplicate_cast: 
+      duplicate_cast: 此人物已添加为演员。
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: 此人物已添加为创建者。
+      duplicate_crew_member: 此人物已添加为 %{job_name}.
+      duplicate_episode: 这一集已经存在。
+      duplicate_guest_star: 这位客串明星已经存在。
+      duplicate_regular_season_member: 此人物已被添加为常规季演员。
+      duplicate_season: 这一季已经存在。
   failed_email: 邮件发送失败
   failed_generic: 出现问题。
   failed_report: 提交报告出问题。
@@ -1561,16 +1565,16 @@ zh-CN:
         today: 今日播出的新集
         tomorrow: 明日播出的新集
   images:
-    confirm_delete: 
+    confirm_delete: 您确定要删除此图片吗？
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
+      '1': 最高分辨率为2000x3000
+      '2': 最低分辨率为500x750
+      '3': 宽高比为 1:1.5 (2:3)
+      '4': 最高分辨率为3840x2160
+      '5': 最低分辨率为400x225
+      '6': 支持16x9 (1.78:1)和4:3图像的宽高比
+      '7': 最低分辨率为1280x720
+      '8': 宽高比为16x9 (1.78:1)
       '9': 
       backdrops_must_meet: 
       episode_stills_must_meet: 
