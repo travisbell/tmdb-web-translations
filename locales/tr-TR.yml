@@ -553,32 +553,36 @@ tr-TR:
         page_owner: Tartışmalarım
         public: "%{username}'nin Tartışmaları"
     events:
-      all: 
+      all: Hepsi
       emails:
-        emails: 
+        emails: E-postalar
         filters:
           status:
             Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Complaint: Şikayet
+            Delivery: Teslim
+            Unsubscribed: abonelik iptali
+            status: Durum
+        number_of_items:
+          one: "%{count} e-posta"
+          other: "%{count} e-posta"
+      events: Olaylar
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
+            Discussion: Tartışma
+            General: Genel
+            List Import: Listeyi İçe Aktar
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Messages: Mesajlar
+            type: Tip
+        notifications: Bildirimler
+        number_of_items:
+          one: "%{count} bildirim"
+          other: "%{count} bildirim"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Son Olaylar
+      recent: Yeni
     export:
       csv_explanation: Eğer bu listenin bir kopyasını CSV olarak dışarı aktarmak istiyorsanız, aşağıdaki "Dışarı aktar" tuşuna basın. Aktarmayı gerçekleştireceğiz ve email yoluyla size göndereceğiz. Listenizin boyutuna bağlı olarak, tamamlanması birkaç dakikayı bulabilir.
       export: Dışarı Aktar
