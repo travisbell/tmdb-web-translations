@@ -541,7 +541,7 @@ el-GR:
         tv: Τηλεόραση
       page_title:
         page_owner: Η Πρόσφατη Δραστηριότητα Μου
-        public: "%{username}'s Πρόσφατη Δραστηριότητα"
+        public: Πρόσφατη δραστηριότητα του/της %{username}
       table:
         action: Ενέργεια
         edit: Επεξεργασία
@@ -596,8 +596,8 @@ el-GR:
         logged_in: Τα αγαπημένα μου
         public: Αγαπημένα του χρήστη %{username}
       page_title:
-        page_owner: Τα  Μου
-        public: "%{username}'s Αγαπημένα"
+        page_owner: Τα αγαπημένα μου
+        public: Τα αγαπημένα του/της %{username}
     filter_by: 'Φιλτράρισμα κατά:'
     filters:
       date_added: Ημερομηνία προσθήκης
@@ -613,13 +613,13 @@ el-GR:
       last_updated: Ενημερωμένο
       my_lists:
         logged_in: Οι λίστες μου
-        public: "%{username} λίστες"
+        public: Οι λίστες του/της %{username}
       no_lists:
         logged_in: Δεν έχετε δημιουργήσει λίστες.
-        public: "%{username} Δεν έχει δημόσιες λίστες για κοινή χρήση."
+        public: Ο/Η %{username} δεν έχει δημόσιες λίστες για κοινή χρήση.
       page_title:
-        page_owner: Η Λίστες Μου
-        public: "%{username}'s Λίστες"
+        page_owner: Οι λίστες μου
+        public: Οι λίστες του/της %{username}
     member_since: Μέλος από %{date}
     navigation:
       discussions: Συζητήσεις
@@ -634,12 +634,12 @@ el-GR:
       30_day_activity: Δραστηριότητα 30 ημερών
       empty_recent_activity:
         logged_in: Δεν έχετε κάνει πρόσφατες επεξεργασίες.
-        public: Ο χρήστης %{username} δεν έχει κάνει επεξεργασίες πρόσφατα.
+        public: Ο/Η %{username} δεν έχει κάνει επεξεργασίες πρόσφατα.
       empty_upcoming_watchlist:
         logged_in: Δεν υπάρχουν επερχόμενες ταινίες στη λίστα παρακολούθησής σας.
       empty_watched_genres:
         logged_in: Δεν έχετε αξιολογήσει ακόμα κάποια ταινία ή τηλεοπτική σειρά.
-        public: Ο χρήστης %{username} δεν έχει αξιολογήσει ακόμα κάποια ταινία ή τηλεοπτική σειρά.
+        public: Ο/Η %{username} δεν έχει αξιολογήσει ακόμα κάποια ταινία ή τηλεοπτική σειρά.
       goto_discussions: Μετάβαση στις συζητήσεις
       goto_watchlist: Μετάβαση στη λίστα παρακολούθησης
       most_watched_genres: Τα πιο προτιμώμενα είδη
@@ -651,7 +651,7 @@ el-GR:
       upcoming_watchlist: Προσεχώς από τη λίστα παρακολούθησης
     page_title:
       page_owner: Το Προφίλ Μου
-      public: "%{username}'s Προφίλ"
+      public: Το προφίλ του/της %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Οι βαθμολογήσεις μου
@@ -661,7 +661,7 @@ el-GR:
         public: Κριτικές του χρήστη %{username}
       page_title:
         page_owner: Οι Αξιολογήσεις και οι Κριτικές μου
-        public: "%{username}'s Αξιολογήσεις και Κριτικές"
+        public: Αξιολογήσεις και κριτικές του/της %{username}
       ratings_by_year: Βαθμολογήσεις ανά έτος
     recommendations:
       my_recommendations: Οι προτάσεις μου
@@ -682,7 +682,7 @@ el-GR:
         other: Δεν υπάρχουν επερχόμενες τηλεοπτικές σειρές στη λίστα παρακολούθησής σας. Υπάρχουν, ωστόσο, %{count} στοιχεία στη λίστα παρακολούθησής σας.
       page_title:
         page_owner: Η Λίστα Παρακολούθησής Μου
-        public: "%{username}'s Λίστα παρακολούθησης"
+        public: Λίστα παρακολούθησης του/της %{username}
       this_month: Αυτόν το μήνα
       this_week: Αυτήν την εβδομάδα
       view_them: Δείτε τα.
@@ -894,13 +894,13 @@ el-GR:
           meaning: 
       IT:
         '0':
-          meaning: 
+          meaning: Δεν υπάρχουν πληροφορίες αξιολόγησης.
         '1':
-          meaning: 
+          meaning: Μπορούν να το παρακολουθήσουν όλοι.
         '2':
-          meaning: 
+          meaning: Δεν μπορούν να το παρακολουθήσουν παιδιά κάτω των 14 ετών.
         '3':
-          meaning: 
+          meaning: Δεν μπορούν να το παρακολουθήσουν παιδιά κάτω των 18 ετών.
       LT:
         '1':
           meaning: Ταινίες για κοινό όλων των ηλικιών.
@@ -916,9 +916,9 @@ el-GR:
         '0':
           meaning: Δεν υπάρχουν πληροφορίες καταλληλότητας.
         '1':
-          meaning: 
+          meaning: '(Umum: "Γενική παρακολούθηση") - Κατάλληλο για όλους(Χρησιμοποιήθηκε στις περισσότερες ταινίες που προβλήθηκαν στη Μαλαισία μέχρι το 2008, αλλά χρησιμοποιείται σήμερα μόνο στην τηλεόραση, κυρίως για RTM.)'
         '2':
-          meaning: 
+          meaning: '(Penjaga 13 : "Γονική επίβλεψη 13") - Τα παιδιά κάτω των 13 ετών δεν μπορούν να το παρακολουθήσουν αν δεν είναι υπό τη συνοδεία ενήλικα(Εμφανίστηκε το 2006 και έγινε το επίσημο σύστημα αξιολόγησης στη Μαλαισία το 2008. Η αξιολόγηση PG-13 άλλαξε σε P13 από τον Απρίλιο του 2012 για να δοθεί έμφαση στη χρήση της Μαλαισιανής γλώσσας αντί για την Αγγλική.) Σκηνές με παθιασμένα φιλιά δεν επιτρέπονται σε ταινίες με αξιολόγηση P13.'
         '3':
           meaning: 
         '4':
@@ -1107,23 +1107,23 @@ el-GR:
           meaning: Μπορεί να προβάλλεται μόνο από τις 23:00 μέχρι τις 6:00.
       ES:
         '0':
-          meaning: 
+          meaning: Δεν υπάρχουν πληροφορίες αξιολόγησης.
         '1':
-          meaning: 
+          meaning: Ειδικά για μικρά παιδιά.
         '2':
-          meaning: 
+          meaning: Για γενική παρακολούθηση.
         '3':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 7 ετών.
         '4':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 10 ετών.
         '5':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 12 ετών.
         '6':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 13 ετών.
         '7':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 16 ετών.
         '8':
-          meaning: 
+          meaning: Δεν συνίσταται για άτομα κάτω των 18 ετών.
       FR:
         '0':
           meaning: Δεν υπάρχουν πληροφορίες καταλληλότητας.
@@ -1200,15 +1200,15 @@ el-GR:
           meaning: Προσοχή για παιδιά κάτω των 16 ετών.
       PH:
         '0':
-          meaning: 
+          meaning: Δεν υπάρχουν πληροφορίες αξιολόγησης.
         '1':
-          meaning: 
+          meaning: Κατάλληλο για όλες τις ηλικίες.
         '2':
-          meaning: 
+          meaning: Συνίσταται γονική επίβλεψη.
         '3':
-          meaning: 
+          meaning: Συνίσταται ισχυρότερη γονική επίβλεψη.
         '4':
-          meaning: 
+          meaning: Κάθε τηλεοπτικό πρόγραμμα που δεν εντάσσεται σε μια από τις κατηγορίες G, PG και SPG δεν μπορεί να προβάλλεται στην τηλεόραση.
       PT:
         '0':
           meaning: Δεν υπάρχουν πληροφορίες καταλληλότητας.
@@ -1774,7 +1774,7 @@ el-GR:
     Art Designer: 
     Art Direction: Σκηνογράφος
     Art Direction Intern: Άτομο πρακτικής σε θέμα κάμερας
-    Assistant Accountant: 
+    Assistant Accountant: Βοηθός
     Assistant Art Director: Βοηθός Σκηνογράφου
     Assistant Camera: Βοηθός κάμερας
     Assistant Chef: Βοηθός μάγειρα
@@ -1862,9 +1862,9 @@ el-GR:
     Carpenter: 
     Cast Driver: 
     Casting: 
-    Casting Assistant: 
+    Casting Assistant: Βοηθός κάστινγκ
     Casting Associate: 
-    Casting Consultant: 
+    Casting Consultant: Σύμβουλος κάστινγκ
     Casting Coordinator: Συντονιστής κάστινγκ
     Casting Director: 
     Casting Producer: Παραγωγός κάστινγκ
@@ -1922,7 +1922,7 @@ el-GR:
     Contact Lens Painter: 
     Contact Lens Technician: 
     Continuity: 
-    Contract Manager: συμβολαίων
+    Contract Manager: Διαχείριση συμβολαίων
     Controller: 
     Coordinating Producer: Συντονιστής παραγωγός
     Costume Assistant: 
@@ -2007,7 +2007,7 @@ el-GR:
     Editorial Production Assistant: Βοηθός παραγωγής σε θέματα επεξεργασίας
     Editorial Services: Υπηρεσίες σύνταξης
     Editorial Staff: Συντακτική ομάδα
-    Effects Supervisor: 
+    Effects Supervisor: Επιβλέπων εφέ
     Electrician: Ηλεκτρολόγος
     Epk Camera Operator: Χειριστής κάμερας EPK
     Epk Director: Σκηνοθέτης EPK
@@ -2194,7 +2194,7 @@ el-GR:
     Mechanical & Creature Designer: 
     Mechanical Designer: 
     Medical Consultant: 
-    Military Consultant: 
+    Military Consultant: Σύμβουλος
     Mix Technician: 
     Mixing Engineer: 
     Modeling: 
@@ -2350,8 +2350,8 @@ el-GR:
     Second Assistant Director: Δεύτερος βοηθός σκηνοθέτη
     Second Assistant Director Trainee: Εκπαιδευόμενος δεύτερος βοηθός σκηνοθέτη
     Second Assistant Production Coordinator: Συντονιστής
-    Second Assistant Sound: 
-    Second Assistant Unit Manager: 
+    Second Assistant Sound: Δεύτερος βοηθός ήχου
+    Second Assistant Unit Manager: Δεύτερος βοηθός διαχείρισης μονάδας
     Second Company Grip: 
     Second Film Editor: Δεύτερος υπεύθυνος επεξεργασίας ταινίας
     Second Second Assistant Director: Βοηθός δεύτερου βοηθού σκηνοθέτη
@@ -2434,13 +2434,13 @@ el-GR:
     Sound Technical Supervisor: Επιβλέπων τεχνικός ήχου
     Special Effects: 
     Special Effects Assistant: Βοηθός ειδικών εφέ
-    Special Effects Best Boy: 
+    Special Effects Best Boy: ειδικών εφέ
     Special Effects Coordinator: Συντονιστής ειδικών εφέ
-    Special Effects Key Makeup Artist: 
-    Special Effects Makeup Artist: 
-    Special Effects Manager: 
+    Special Effects Key Makeup Artist: ειδικών εφέ
+    Special Effects Makeup Artist: ειδικών εφέ
+    Special Effects Manager: Διαχείριση ειδικών εφέ
     Special Effects Supervisor: 
-    Special Effects Technician: 
+    Special Effects Technician: Τεχνικός ειδικών εφέ
     Special Guest: 
     Special Guest Director: 
     Special Props: Ειδικά
@@ -2521,7 +2521,7 @@ el-GR:
     Third Assistant Director: Τρίτος βοηθός σκηνοθέτη
     Title Designer: Σχεδιασμός τίτλων
     Title Graphics: Γραφικά Τίτλων
-    Title Illustration: 
+    Title Illustration: Απεικόνιση τίτλων
     Trainee Production Coordinator: Συντονιστής
     Transcriptions: 
     Translator: Μεταφράστης
@@ -2741,7 +2741,7 @@ el-GR:
           <p>Εάν αυτό το περιεχόμενο είναι για παράδειγμα ένα DVD compilation, ένα βίντεο γυμναστικής ή ίσως ένα "best of" DVD, τότε θα πρέπει να το χαρακτηρίσετε ως βίντεο.</p>
         crew:
           job_required: Απαιτείται εργασία
-          no_records: 
+          no_records: Δεν έχουν προστεθεί συντελεστές.
           person_required: Απαιτείται άτομο
         genres:
           add_genre: Προσθήκη είδους
@@ -2881,7 +2881,7 @@ el-GR:
             '2': 
             '3': DVD
             '4': 
-            '5': 
+            '5': Ιστορία
             '6': Παραγωγή
             '7': Τηλεόραση
         networks:
@@ -2921,10 +2921,10 @@ el-GR:
         Video: Βίντεο
     video:
       audio_language: Γλώσσα ήχου
-      channel: 
+      channel: Κανάλι
       duration: Διάρκεια
-      published: 
-      published_at: 
+      published: Δημοσιεύτηκε
+      published_at: Δημοσιεύτηκε στο
       restricted_regions: 
       tags: Ετικέτες
   message_templates:
