@@ -68,7 +68,7 @@ ru-RU:
   Approve: Подтвердить
   Approved?: Одобрено?
   Apps: Приложения
-  Archived Databases: 
+  Archived Databases: Заархивированные базы данных
   Are you sure?: Вы уверены?
   Attributes: Аттрибуты
   Auto: Авто
@@ -567,24 +567,32 @@ ru-RU:
             Bounce: Отскакивающий
             Complaint: Жалоба
             Delivery: Доставлено
-            Unsubscribed: 
+            Unsubscribed: Подписка отменена
             status: Статус
-        number_of_items: 
-      events: 
+        number_of_items:
+          few: "%{count} Сообщений"
+          many: "%{count} Сообщений"
+          one: "%{count} Сообщение"
+          other: "%{count} Сообщение"
+      events: События
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Обсуждение
+            General: Главный
+            List Import: Импорт списка
+            Mention: Упоминание
+            Messages: Сообщения
+            type: Тип
+        notifications: Уведомления
+        number_of_items:
+          few: "%{count} Уведомлений"
+          many: "%{count} Уведомлений"
+          one: "%{count} Уведомление"
+          other: "%{count} Уведомление"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Последние события
+      recent: Последний
     export:
       csv_explanation: Если вы хотите, чтобы копия этого списка экспортировалась в CSV, нажмите кнопку «Экспорт» ниже. Мы создадим экспорт и отправим его вам по электронной почте. В зависимости от размера вашего списка это может занять несколько минут.
       export: Экспорт
@@ -765,11 +773,11 @@ ru-RU:
         '1':
           meaning: Фильм демонстрируется без ограничений
         '2':
-          meaning: 
+          meaning: Не рекомендуется для детей младше 10 лет. Содержит сцены насилия или нецензурную лексику.
         '3':
-          meaning: 
+          meaning: Не рекомендуется для детей младше 12 лет. Содержит сцены физической агрессии, употребления легальных наркотических средств и сексуального подтекста.
         '4':
-          meaning: 
+          meaning: 'Не рекомендуется для детей младше 14 лет. '
         '5':
           meaning: 
         '6':
