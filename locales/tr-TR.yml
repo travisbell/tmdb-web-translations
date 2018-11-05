@@ -66,7 +66,7 @@ tr-TR:
   Approve: Onayla
   Approved?: Onaylandı mı?
   Apps: Uygulamalar
-  Archived Databases: 
+  Archived Databases: Arşivlenen Veritabanı
   Are you sure?: Emin misiniz?
   Attributes: Öznitellikler
   Auto: Oto
@@ -88,7 +88,7 @@ tr-TR:
   Change?: Değiştir?
   Changes: Değişiklikler
   Character: Karakter
-  Choose: 
+  Choose: Seç
   City: Şehir
   Clip: Klip
   Clips: Klipler
@@ -117,7 +117,7 @@ tr-TR:
   Create New List: Yeni Liste Oluştur
   Create Translation: Dil Oluştur
   Created By: Oluşturan
-  Credits: 
+  Credits: Emeği geçenler
   Crew: Kadro
   Currently Airing TV Shows: Gösterimde Bulunan Diziler
   Currently on page: Sayfada şu an bulunan
@@ -131,13 +131,13 @@ tr-TR:
   Delete Person: Kişiyi Sil
   Delete TV Show: Diziyi Sil
   Deny: 
-  Department: 
+  Department: Bölüm
   Description: Açıklama
   Design or Functionality Issue: Tasarım ya da Özellik Sorunu
   Desktop Application: Masaüstü Uygulaması
   Destination Record: 
   Details: Ayrıntılar
-  Developed By: 
+  Developed By: Geliştiren
   Digital: Dijital
   Directed by: Yöneten
   Directory: Yönetim
@@ -155,14 +155,14 @@ tr-TR:
   Edit Page: sayfayı düzenle
   Editing Content: İçeriği Düzenleme
   Editing in: 
-  Education: 
+  Education: Eğitim
   Email: E-Mail
   Email Address: Email Adres
   Email Content: E-Mail İçeriği
-  Episode Images: 
-  Episode Number: 
+  Episode Images: Bölüm Resimleri
+  Episode Number: Bölüm numarası
   Episode Overview: Bölüm Tanıtımı
-  Episodes: 
+  Episodes: Bölümler
   Error: Hata
   Example API Request: 
   Expand: Büyüt
@@ -213,7 +213,7 @@ tr-TR:
   Hide rated?: 
   Home: Ana Sayfa
   Homepage: Ana Sayfa
-  IMDB ID: 
+  IMDB ID: IMDB kimliği
   Images: Resimler
   Import CSV: CSV Dosyasını İçeri Aktar
   Import List: Listemi Yükle
@@ -341,7 +341,7 @@ tr-TR:
   Production Code: 
   Production Companies: Yapım Şirketleri
   Production Countries: Yapım Ülkeleri
-  Production Information: Üretim Bilgileri
+  Production Information: Yapım Bilgisi
   Profiles: Profiller
   Public List?: Genel Liste?
   Public Report?: Genel Açık Rapor?
@@ -364,7 +364,7 @@ tr-TR:
   Release Date Ascending: Artan Yayınlanma Tarihi
   Release Date Descending: Azalan Yayınlanma Tarihi
   Release Dates & Certifications: Yayınlanma Tarihleri & Sertifikasyon
-  Release Information: Bilgi Vermek
+  Release Information: Gösterim Bilgisi
   Release Note: Not
   Release Type: Tip
   Reload Page: Sayfayı Yenile
@@ -687,20 +687,20 @@ tr-TR:
   add_to_list: "%{media_title} yi listelerinizden birine ekleyin..."
   already_translated_in: "%{page_title} sayfası şu dillere önceden çevrilmiştir..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: 3üncü Parti Kimlik Doğrulama Talebi
     approved_session: "%{application_name} ı onayladın. Bu pencereyi kapatabilirsin."
     continue: Devam etmek istiyorsanız, aşağıdaki onaylama düğmesine tıklayın. İstemiyorsanız, bu pencereyi kapatabilirsiniz.
-    request_token_approval: 
+    request_token_approval: "{{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Bu izin TMDb dışında listelerinize ulaşmak veya filmlere oy verebilmek gibi eylemler için gereklidir."
     statuses:
       completed:
-        message: 
-        name: 
+        message: ' <strong>%{application_name}</strong> uygulamasına okuma yazma izinleri verdiniz. Artık bu pencereyi kapatıp uygulamaya geri dönebilirsiniz. Bu izni daha sonra değiştirmek için hesap ayarları sayfanıza giderek "Bağlı uygulamalar" sayfasından ayar yapabilirsiniz. '
+        name: Kimlik doğrulama başarılı
       denied:
-        message: 
-        name: 
+        message: "<strong>%{application_name}</strong> uygulamasına erişim izni vermeyi reddettiniz. Eğer bunu yanlışlıkla yaptıysanız veya izin verme işlemini baştan başlatmak istiyorsanız, uygulamaya geri dönün ve tekrar izin talebinde bulunun."
+        name: Kimlik Denetimi Başarısız
       invalid_request_token:
-        message: 
-        name: 
+        message: Girdiğiniz kod yanlıştır. Yeni bir kod üretip kodu doğru kopyaladığınızdan emin olun. Eğer bu sorun devam ederse, lütfen kullandığınız uygulamanın geliştiricileriyle iletişime geçin.
+        name: Geçersiz Kod
   attributes:
     biography: Biyografi
     certification: Belgeleme
@@ -721,7 +721,7 @@ tr-TR:
     episode_list: Bölüm listesine geri dön
     home: Anasayfaya Dön
     main: Sayfaya Dön
-    named_episode_group: 
+    named_episode_group: "&lsquo;%{group_name}&rsquo; gruplarına geri dönün"
     season: Sezonlara Geri Dön
     season_list: Sezon listesine geri dön
     to_tmdb: TMDb'ye Geri Dön
@@ -731,21 +731,21 @@ tr-TR:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Sınıflandırmadan muaftır. Sınıflandırmadan muaf olan filmler, tartışmalı içerik ihtiva etmez. (yani, normalde M veya daha yüksek bir değere sahip olacak içerik).
         '2':
-          meaning: 
+          meaning: Genel izleyici. İçerik etkisi oldukça düşük seviyededir.
         '3':
-          meaning: 
+          meaning: 'Ebeveyn refakati önerilir. Yaş sınırı yoktur. İçerik etkisi düşük seviyededir. '
         '4':
-          meaning: 
+          meaning: Yetişkin izleyici için önerilir. Yaş sınırı yoktur. İçerik etkisi orta düzeydedir.
         '5':
-          meaning: 
+          meaning: Yetişkin refakati gerekli. 15 yaşından küçükler için uygun değildir. 15 yaşından küçükler ancak bir büyüğün refakatinde izleyebilir. İçerik etkisi yüksektir.
         '6':
-          meaning: 
+          meaning: Yalnızca 18 yaş ve üstü yetişkinler içindir. Yetişkin içerik etkisi yüksektir.
         '7':
-          meaning: 
+          meaning: 18 yaş ve üstü ile sınırlıdır. Bu derecelendirmeye sahip filmler pornografik içeriğe sahiptir. X18 + olarak sınıflandırılan filmlerin tüm Avustralya eyaletlerinde satılması veya kiralanması yasaktır ve yalnızca Avustralya Başkent Bölgesi ve Kuzey Bölgesi'nde yasal olarak kullanılabilir. Bununla birlikte, X18 + materyalini bu iki bölgeden Avustralya eyaletlerine ithal etmek yasaldır. İçerik, müstehcendir.
         '8':
-          meaning: 
+          meaning: Sınıflandırmasız. Avustralya'da satışı veya kiralaması yasak; Ayrıca genellikle ithalat için de geçerlidir (eğer Gümrük tarafından incelenir ve şüphelenirse). Özel İnternet izleme zorunlu değildir ve bu çevrimiçi materyalin yasal olarak sansürlenmesi girişimi ihtilafla sonuçlanmıştır. İçeriği yönergeleri aşarsa filmler RC olarak derecelendirilir. İçeriğin etki düzeyi çok yüksektir.
       BG:
         '1':
           meaning: Çocuklar için önerilir.
@@ -759,9 +759,9 @@ tr-TR:
           meaning: 18 yaşından küçükler için yasaktır.
       BR:
         '1':
-          meaning: 
+          meaning: Genel İzleyici. Çocukları zararlı içeriklere maruz bırakmayın.
         '2':
-          meaning: 
+          meaning: On yaşından küçükler için tavsiye edilmez. Az miktarda da olsa çocuklar için uygunsuz dil ve şiddet içeriği.
         '3':
           meaning: On iki yaşın altındakiler için önerilmez. Sahneler fiziksel saldırganlık, yasal ilaçların kullanımı ve cinsellik içerebilir.
         '4':
@@ -852,22 +852,22 @@ tr-TR:
         '4':
           meaning: 16 yaşından küçük çocuklar için uygun değildir veya 16 yaşından küçükler sinemada izleyemez.
         '5':
-          meaning: 
+          meaning: "(küçüklere yasak) 18 yaşından küçük çocuklar için uygun olmayan veya sinemalarda 18 yaşın altındakilere yasaklanan "
       GB:
         '1':
-          meaning: 
+          meaning: Tüm yaş grupları için uygun. Çocuklar için herhangi bir zararı yok.
         '2':
-          meaning: 
+          meaning: Her yaş grubu izleyebilir, ancak bazı sahneler küçük çocuklar için uygun olmayabilir. Argo ve cinsellik/uyuşturucu imaları içerebilir. İçerikle bağdaşması bakımından ılımlı şiddet içerebilir  (ör. Fantezi).
         '3':
-          meaning: 
+          meaning: Bu kategorideki filmler gençler için uygun değildir. 12 yaş altındakiler ancak en az 18 yaşında olan bir yetişkinin sürekli refakatinde izleyebilir. Yine de filmi 12 yaş altındakilerin izlemesi tavsiye edilmez. Bu kategorideki filmler yetişkin konular, ayrımcılık, hafif uyuşturucular ve haplar, orta düzeyde küfür, zaman zaman kötü sözler ve orta düzeyde şiddet, çıplaklık ve cinsel konular içerebilir. Cinsel eylemler kısa süre ve aralıklarla sahnelenebilir. Cinsel şiddet uygulaması veya imaları olabilir.
         '4':
-          meaning: 
+          meaning: 2002'den bu yana yalnız evde izlenebilir. 12A dereceli filmlere, daha yüksek bir derecelendirme gerektiren ekstra malzeme eklenmedikçe genellikle VHS / DVD versiyonu için 12 sertifikası verilir. 12 yaşından küçük hiç kimse 12 dereceli VHS, DVD, Blu-ray Disc, UMD veya oyun kiralayamaz veya satın alamaz. İçerik yönergeleri, 12A sertifikası için kullanılanlarla aynıdır
         '5':
-          meaning: 
+          meaning: Yalnızca 15 yaşından büyükler izleyebilir. 15 yaşından küçükler 15-yaş etiketli VHS, DVD, Blu-ray diskleri veya UMD ya da oyun kiralayabilir ya da satın alabilir, veyahut 15-yaş a uygun derecelendirilmiş bir kopyayı sinemada izleyebilir. Bu kategorideki filmler yetişkin konular, her türlü uyuşturucu, sıkça argo ve küfür, sınırlı da olsa ağır küfürler, ağır şiddet ve cinsel imalar ve ayrıntılı olmasa da çıpaklık içerebilir. Cinsel eylemler çok ayrıntıya girlmeden sahnelenebilir. Filmin içeriğiyle bağdaşması bakımından aralıklarla cinsel şiddet görülebilir.
         '6':
-          meaning: 
+          meaning: 'Yalnızca 18 yaşından büyükler izleyebilir. 18 yaşından küçükler 18-yaş etiketli VHS, DVD, Blu-ray diskleri veya UMD ya da oyun kiralayabilir ya da satın alabilir, veyahut 15-yaş a uygun derecelendirilmiş bir kopyayı sinemada izleyebilir. Bu kategorideki filmlerde argo ve küfürün sınırı yoktur. Genellikle her türlü uyuşturucu, açık cinsellik imaları ve hatta ayrıntılı cinsel eylemler sahnelenebilir. İçerikle bağdaşması bakımından açık ve gerçek cinsel ilişki sahneleri de yaer alabilir. Çok büyük şiddet, eziyet, sadistçe eylemler genellikle sahnelenir. Erotik veya aşırı aleni olmadığı sürece cinsel şiddeti dozu çok yüksek sahneler olabilir.   '
         '7':
-          meaning: 
+          meaning: "Yalnızca 18 yaş üstü yetişkinlere özel izinle açılan yetişkin salonlarda gösterilebilir veya sex shoplarda yine bu kişilere satılabilir. Bu kategorideki filmler her zaman sert porno filmlerdir. Bunlar cinsel uyarıcı içerik olarak tanımlanır ve tamamen aleni cinsel ilişki sahneleri, fetiş nesneler, açık cinsel ögeler barındıran animeler veya üçlü cinsel münasebet barındıran sahneler içerebilir. Bu kategoride izin verilmeyen unsurlar şu şekildedir:\nÇok ciddi yaralanmaların görselleri, ürolojik zevk içeren sahneler, ensest ima eden sahneler, çocukların cinsel ilişkisini içeren durumlar, tükütme veya saçını çekip sürükleme gibi sahneler. Bu kategorideki filmlere uygulanacak sansür, diğer tüm kategorilerdan daha fazladır. "
       HU:
         '0':
           meaning: 
@@ -885,20 +885,20 @@ tr-TR:
           meaning: 
       IN:
         '0':
-          meaning: 
+          meaning: Hindistan genelinde sınırsız olarak kamuya açık, tüm yaş grupları için uygundur. Bu kategorideki filmler 4 yaşın üstündeki çocukları kötü etkilememelidir. Bu tür filmler eğitici, sosyal veya aile odaklı temalar içerebilir. Bu kategorideki filmler ayrıca fantezi şiddeti ve / veya az miktarda kötü dil içerebilir.
         '1':
-          meaning: 
+          meaning: Her yaş grubu izleyebilir, ancak tema veya içerik küçük çocuklar için yoğun veya uygunsuz olabileceğinden 12 yaşın altındaki çocuklara bir ebeveynin eşlik etmesi tavsiye edilir. Bu kategorideki filmler, olgun temalar, cinsel imalar, basit cinsellik sahneleri, kısa gory görüntüleri ile şiddet ve / veya nadiren pis bir dil kullanımını içerebilir.
         '2':
-          meaning: 
+          meaning: Yetişkin izleyicilerle sınırlıdır (18 yaş veya üstü). 18 yaşın altındaki hiç kimse, A dereceli DVD, VHS, UMD satın alamaz / kiralayamaz veya bu derecelendirmeki bir filmi sinemada izleyemez. Bu kategorideki filmler yetişkin / rahatsız edici konular, sık sık kaba dil, kan ve acımasız şiddet, güçlü cinsellik sahneleri ve / veya küçükler için uygun olmayan uyuşturucu kullanımı sahnelerini içerebilir.
       IT:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok.
         '1':
-          meaning: 
+          meaning: Tüm yaş gruplarına uygundur.
         '2':
-          meaning: 
+          meaning: 14 yaş altı çocuklar izleyemez.
         '3':
-          meaning: 
+          meaning: 18 yaş altı çocuklar izleyemez.
       LT:
         '1':
           meaning: Her yaştan izleyici için filmler.
@@ -914,7 +914,7 @@ tr-TR:
         '0':
           meaning: Derecelendirme bilgisi yok.
         '1':
-          meaning: 
+          meaning: '(Umum: "Genel İzleyici") - Genel İzleyici içindir. (Malezya''da 2008 yılına kadar gösterilen çoğu film tarafından kullanılır, şu an sadece televizyon yayınlarında kullanılıyor, özellikle de RTM için)'
         '2':
           meaning: 
         '3':
@@ -927,80 +927,80 @@ tr-TR:
           meaning: 
       NL:
         '1':
-          meaning: 
+          meaning: Tüm yaş grupları.
         '2':
-          meaning: 
+          meaning: 6 yaş altı çocuklar için zararlı olabilir.
         '3':
-          meaning: 
+          meaning: 9 yaş altı çocuklar için zararlı olabilir.
         '4':
-          meaning: 
+          meaning: 12 yaş altı çocuklar için zararlı olabilir, akşam saat 8'den önce yayn yasağı.
         '5':
-          meaning: 
+          meaning: 16 yaş altı çocuklar için zararlı olabilir, akşam saat 10'dan önce yayn yasağı.
       'NO':
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Herkes için uygun
         '2':
-          meaning: 
+          meaning: 6 yaş sınırı (Yanında yetişkin refakatçisi olan çocuklara sınırlama yok)
         '3':
-          meaning: 
+          meaning: 9 yaş sınırı (Yanında yetişkin refakatçisi olan çocuklara 6 yaşına kadar sınırlama yok)
         '4':
-          meaning: 
+          meaning: 12 yaş sınırı (Yanında yetişkin refakatçisi olan çocuklara 9 yaşına kadar sınırlama yok)
         '5':
-          meaning: 
+          meaning: 15 yaş sınırı (Yanında yetişkin refakatçisi olan çocuklara 12 yaşına kadar sınırlama yok)
         '6':
-          meaning: 
+          meaning: 18 yaş sınırı (mutlak en küçük yaş sınırı)
       NZ:
         '1':
-          meaning: 
+          meaning: Genel izleyici için uygundur
         '2':
-          meaning: 
+          meaning: Gençler için ebeveyn refakati tavsiye edilir
         '3':
-          meaning: 
+          meaning: 16 yaş ve üstü olgun gençler için uygun (ancak sınırlama yok)
         '4':
-          meaning: 
+          meaning: Yalnızca 13 yaş ve üstü izleyebilir
         '5':
-          meaning: 
+          meaning: Yalnızca 15 yaş ve üstü izleyebilir
         '6':
-          meaning: 
+          meaning: Yalnızca 16 yaş ve üzeri içindir.
         '7':
-          meaning: 
+          meaning: 18 yaş ve üstü kişilerle sınırlanmıştır
         '8':
-          meaning: 
+          meaning: Sınırlama belli bir sınıf insan veya belirli amaçlara yönelik olarak mevcuttur.
       PH:
         '1':
-          meaning: 
+          meaning: Genel izleyici. Tüm yaş grupları izleyebilir.
         '2':
-          meaning: 
+          meaning: Ebeveyn rehberliği. 13 yaş altı izleyiciler bir yetişkinin gözetiminde izleyebilir.
         '3':
-          meaning: 
+          meaning: '13-sınırı: Yalnız 13 yaş ve üstü izleyebilir.'
         '4':
-          meaning: 
+          meaning: '16-sınırı: Yalnız 16 yaş ve üstü izleyebilir.'
         '5':
-          meaning: 
+          meaning: '18-sınırı: Yalnız 18 yaş ve üstü izleyebilir.'
         '6':
-          meaning: 
+          meaning: 'Herkese açık gösterilemez. X dereceli filmler herkese açık gösterime uygun değildir. '
       PT:
         '1':
-          meaning: 
+          meaning: Herkese açık (Özellikle 3 yaş ve altı için uygundur)
         '2':
-          meaning: 
+          meaning: 3 yaş veya üstü için uygundur
         '3':
-          meaning: 
+          meaning: 6 yaş veya üstü için uygundur
         '4':
-          meaning: 
+          meaning: 12 yaş veya üstü için uygundur
         '5':
-          meaning: 
+          meaning: 14 yaş veya üstü için uygundur
         '6':
-          meaning: 
+          meaning: 16 yaş veya üstü için uygundur
         '7':
-          meaning: 
+          meaning: 18 yaş veya üstü için uygundur
         '8':
           meaning: 
       RU:
         '1':
-          meaning: 
+          meaning: Tüm yaş grupları izleyebilir.
         '2':
           meaning: 
         '3':
@@ -1022,7 +1022,7 @@ tr-TR:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
           meaning: 
         '2':
@@ -1053,17 +1053,17 @@ tr-TR:
           meaning: 
       BR:
         '0':
-          meaning: 
+          meaning: Genel izleyici için uygun
         '1':
-          meaning: 
+          meaning: 10 yaş üstü için uygun
         '2':
-          meaning: 
+          meaning: İçerik 12 yaş ve üstü için uygundur.
         '3':
-          meaning: 
+          meaning: İçerik 14 yaş ve üstü için uygundur.
         '4':
-          meaning: 
+          meaning: İçerik 16 yaş ve üstü için uygundur.
         '5':
-          meaning: 
+          meaning: İçerik 18 yaş ve üstü için uygundur.
       CA:
         '0':
           meaning: 
@@ -1081,7 +1081,7 @@ tr-TR:
           meaning: 
       CA-QC:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
           meaning: 
         '2':
@@ -1094,45 +1094,45 @@ tr-TR:
           meaning: 
       DE:
         '0':
-          meaning: 
+          meaning: Her zaman gösterilebilir
         '1':
-          meaning: 
+          meaning: Her zaman gösterilebilir
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: 'Yalnız akşam 10''dan sabah 6''ya kadar gösterilebilir '
         '4':
-          meaning: 
+          meaning: 'Yalnız akşam 11''den sabah 6''ya kadar gösterilebilir '
       ES:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Özellikle küçük çocuklar için tavsiye olunur.
         '2':
-          meaning: 
+          meaning: Genel izleyici için
         '3':
-          meaning: 
+          meaning: 7 yaş altı çocuklar için tavsiye edilmez.
         '4':
-          meaning: 
+          meaning: 10 yaş altı çocuklar için tavsiye edilmez.
         '5':
-          meaning: 
+          meaning: 12 yaş altı çocuklar için tavsiye edilmez.
         '6':
-          meaning: 
+          meaning: 13 yaş altı çocuklar için tavsiye edilmez.
         '7':
-          meaning: 
+          meaning: 16 yaş altı çocuklar için tavsiye edilmez.
         '8':
-          meaning: 
+          meaning: 18 yaş altı çocuklar için tavsiye edilmez.
       FR:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: 10 yaş altı çocuklar için tavsiye edilmez. Televizyonda çocuk dizilerinde bulunamaz.
         '2':
-          meaning: 
+          meaning: '12 yaş altı çocuklar için tavsiye edilmez. Akşam 10''dan önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. '
         '3':
-          meaning: 
+          meaning: '16 yaş altı çocuklar için tavsiye edilmez. Akşam 11''den önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. '
         '4':
-          meaning: 
+          meaning: 18 yaş altı çocuklar için tavsiye edilmez. Gece 12'den önce ve sabah 5'ten sonra yayınlanamaz. Yalnız belirli kanallarda yayınlanabilir. Bu yayınlara erişim kişisel şifreyle kilitlidir.
       GB:
         '0':
           meaning: 
@@ -1178,72 +1178,72 @@ tr-TR:
           meaning: 
       LT:
         '1':
-          meaning: 
+          meaning: Yalnız 7 yaş ve üstü içindir.
         '2':
-          meaning: 
+          meaning: 14 yaş ve üstü içindir.Akşam 9 sabah 6 arası yayınlanabilir.
         '3':
           meaning: 
       NL:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Zararsız / Tüm yaş grupları
         '2':
-          meaning: 
+          meaning: 6 yaşından küçük çocuklarla dikkatli izlenmeli
         '3':
-          meaning: 
+          meaning: 90 yaşından küçük çocuklarla dikkatli izlenmeli
         '4':
-          meaning: 
+          meaning: 12 yaşından küçük çocuklarla dikkatli izlenmeli
         '5':
-          meaning: 
+          meaning: 16 yaşından küçük çocuklarla dikkatli izlenmeli
       PH:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Tüm yaş grupları için uygun
         '2':
-          meaning: 
+          meaning: Ebeveyn rehberliğinde izlenmesi tavsiye olunur
         '3':
           meaning: 
         '4':
           meaning: 
       PT:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Herkes için uygun
         '2':
-          meaning: 
+          meaning: Ebeveyn rehberliği (10 yaş altı çocuklar için uygun olmayabilir, ebeveyn rehberliği tavsiye olunur)
         '3':
-          meaning: 
+          meaning: Ebeveyn rehberliği (12 yaş altı çocuklar için uygun olmayabilir, ebeveyn rehberliği tavsiye olunur)
         '4':
-          meaning: 
+          meaning: 16 yaş altı çocuklar için uygun değildir, bu yapımlara erişim kişisel bir şifreyle kilit altındadır)
         '5':
-          meaning: 
+          meaning: 18 yaş altı çocuklar için uygun değil
       RU:
         '1':
-          meaning: 
+          meaning: Her yaş frubu için uygun
         '2':
-          meaning: 
+          meaning: Yalnız 6 yaş ve üstü çocuklar izleyebilir
         '3':
-          meaning: 
+          meaning: Sadece 12 yaş ve üstü çocuklar izleyebilir
         '4':
-          meaning: 
+          meaning: Yalnız 16 yaş ve üstü içindir.
         '5':
-          meaning: 
+          meaning: Yalnız 18 yaş ve üstü içindir.
       SK:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok.
         '1':
-          meaning: 
+          meaning: Herkese açık
         '2':
-          meaning: 
+          meaning: Yalnız 7 yaş ve üstü içindir.
         '3':
-          meaning: 
+          meaning: Yalnız 12 yaş ve üstü içindir.
         '4':
-          meaning: 
+          meaning: Yalnız 15 yaş ve üstü içindir.
         '5':
-          meaning: 
+          meaning: Yalnız yetişkinler içindir.
       TH:
         '0':
           meaning: 
@@ -1258,7 +1258,7 @@ tr-TR:
         '5':
           meaning: 
         '6':
-          meaning: 
+          meaning: Yasaklanmış
       US:
         '0':
           meaning: 
@@ -1267,29 +1267,29 @@ tr-TR:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Ebeveynlerin çoğu bu programı her yaş için uygun bulur.
         '4':
-          meaning: 
+          meaning: Bu program, ebeveynlerin küçük çocuklar için uygun olmayan bulabileceği materyaller içerir.
         '5':
-          meaning: 
+          meaning: Bu program, birçok ebeveynin 14 yaşından küçük çocuklar için uygun bulmayacağı bazı materyaller içermektedir.
         '6':
-          meaning: 
-  collection_includes: 
+          meaning: Bu program yetişkinler tarafından görülmesi için özel olarak tasarlanmıştır ve bu nedenle 17 yaşın altındaki çocuklar için uygun olmayabilir.
+  collection_includes: "%{movie_titles} içerir"
   confirm_delete: Bu kaydı silmek istediğinden emin misin?
   content_score:
-    helper_tooltip: 
+    helper_tooltip: İçerik puanı, verilerin veritabanındaki bir nesne için ne kadar tamamlandığını anlamanıza yardımcı olacak bir yoldur
     scale:
-      '0': 
-      '1': 
+      '0': Bir yerden başlamak gerek
+      '1': Evet, daha işin başındayız
       '10': Evet! İyi görünüyor!
-      '2': 
-      '3': 
-      '4': 
-      '5': 
-      '6': 
-      '7': 
-      '8': 
-      '9': 
+      '2': Yola koyulduk
+      '3': Her şey bir anda olmuyor tabii
+      '4': Bir elin nesi var, iki elin sesi var
+      '5': Hâlâ yapılacak çok iş var
+      '6': Epey yol katettik, ama daha var
+      '7': Biraz daha sabır
+      '8': Ha gayret az kaldı
+      '9': Neredeyse bitti
   contribute:
     contribute: Katkıda Bulun
     missing_a_biography: Özgeçmişiniz Eksik
@@ -1308,9 +1308,9 @@ tr-TR:
     tv_shows_missing_a_overview: Dizinin Özeti Eksik
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
+      collection: kol
+      image: rsm
+      movie: flm
       people: 
       tv: 
     collection:
@@ -1355,7 +1355,7 @@ tr-TR:
     welcome_1: Hoşgeldiniz
     welcome_2: 
   cookie_popup:
-    message: 
+    message: Size TMDb hakkında daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Daha fazla bilgi edinmek için  <a href="%{policy_url}" target="_blank" rel="noopener">çerez politikamızı</a> inceleyebilirsiniz. TMDb'yi kullanmaya devam ederek, bu politikayı kabul ediyorsunuz.
     ok_button: Tamam
   date:
     abbr_day_names:
@@ -1411,24 +1411,34 @@ tr-TR:
   day: gün
   days: "%{count} gün"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Girdi silindi
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Merhaba,
+
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten veritabanımızda mevcuttu ve bu nedenle bir kopya olarak kabul edildi.
+
+          Bu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin.
+        subject: Bu bir mükerrer girdi
       '2':
-        message: 
-        subject: 
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        subject: Bu, içerik kurallarımıza uymuyor (amatör, vb ...)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Merhaba,
+
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten bir TV dizisi olarak var ve geçerli bir film olarak görünmemekte. İçerik yönergelerimiz hakkında daha fazla bilgiyi [buradam](https://www.themoviedb.org/bible/new_content) edinebilirsiniz.
+
+          Bu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin.
+        subject: Bu bir TV dizisi.
       '4':
-        message: 
-        subject: 
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        subject: Bu sahte bir girdi.
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        subject: Bu bir spam.
+    why_deleting: Bu girdiyi neden siliyorsunuz?
   department_credits_count: 
   departments:
     Acting: Oyunculuk
@@ -1450,11 +1460,11 @@ tr-TR:
       actions: Eylemler
       close_discussion: Tartışmayı Kapat
       make_private: Özel Yap
-      make_public: 
-      mark_spam: 
+      make_public: Herkese açık yap
+      mark_spam: Spam olarak işaretle
       reopen_discussion: Tartışmayı Yeniden Aç
-      stop_watching: 
-      view_activity: 
+      stop_watching: Takibi bırak
+      view_activity: Etkinliği görüntüle
       watch: İzle
     admin_panel: Yönetim Paneli
     back_options:
@@ -1469,8 +1479,8 @@ tr-TR:
         general: Genel
         website_support: Website Desteği
       support:
-        api_requests: 
-        api_requests_(professional): 
+        api_requests: API istekleri
+        api_requests_(professional): API istekleri (profosyonel)
         api_support: API Desteği
         content_issues: İçerik Sorunları
         general: Genel
@@ -1480,7 +1490,7 @@ tr-TR:
         website_support: Website Desteği
     category:
       last_reply_with_datetime: "%{date} tarihinde %{time}\n"
-      last_reply_with_datetime_and_username: 
+      last_reply_with_datetime_and_username: "%{date} tarihinde saat %{time} da %{username} <br>tarafından "
     discussion_activity: Tartışma Etkinliği
     email_notifications:
       email_notifications: Email Bildirimleri
@@ -1488,30 +1498,32 @@ tr-TR:
       unsubscribe: Abonelikten Çık
     headers:
       discuss: Tartışma
-      discuss_item: 
+      discuss_item: "%{item_title} girdisini tartış"
       lets_chat: Konuşalım
       support: Destek
       support_title: Film Veritabanı Desteği
-    login_to_be_notified: 
+    login_to_be_notified: İlk gönderiden haberdar olmak için giriş yap
     new_discussion:
       community_guidelines: Topluluk Rehberleri
       discussion_category: Kategori
-      for_item: 
-      message: 
+      for_item: şu madde için
+      message: İleti
       new_discussion: Yeni Tartışma
       subject: Konu
     no_discussions: Tartışma Yok.
     pagination:
-      post_summary: 
+      post_summary:
+        one: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
+        other: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
       summary: 
     post:
       delete: Sil
       edit: Düzenle
       hide: Gizle
-      ignore: 
+      ignore: Gözardı et
       like: Beğen
       messages:
-        delete_comment: 
+        delete_comment: "'Evet'i tıklayarak bu yorum kalıcı olarak sileceksiniz."
         delete_discussion: "'Evet'i tıkladığınızda, bu tartışma kalıcı olarak silinecek."
         hide_comment: "'Evet'i tıklayarak, bu yorum gizlenecektir."
         hide_discussion: "'Evet'i tıkladığınızda, bu tartışma gizlenecektir."
@@ -1524,9 +1536,9 @@ tr-TR:
       reopen_reply: Yeniden Aç ve Yanıtla
       reply: Cevap
       reply_by: Yanıtla %{username}
-      reply_on_datetime: 
+      reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Rapor
-      unhide: 
+      unhide: Göster
     report_violation: 
     search:
       advanced_search: Gelişmiş Arama
@@ -1556,23 +1568,23 @@ tr-TR:
     confirm_new_email_address: Yeni Mail Adresini Onayla
     does_not_match: E-posta adresleri eşleşmiyor, lütfen tekrar deneyin.
     new_email_address: Yeni Email Adresi
-    sent_verification_email: 
-  episode_count: 
+    sent_verification_email: "%{email_address} adresine onaylamanız için bir eposta gönderdik. Gelen kutunuzu (ve spam klasörünü) kontrol edin ve buradaki yönlendirmeleri takip edin."
+  episode_count: "%{count} Bölüm"
   episode_number_name: "%{episode_number}. Bölüm"
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Bu resmi işleyemiyoruz
+      not_jpeg: Bu resim JPEG biçiminde değil
+      not_png: Bu resim PNG biçiminde değil
+      not_svg: Bu resim SVG biçiminde değil
     locked:
-      genres: 
-      keywords: 
+      genres: Tür alanı kilitlenmiştir
+      keywords: ANahtar kelimeler alanı kilitlenmiştir.
     messages:
-      blank: 
-      inclusion: 
-      invalid: 
-      required: 
+      blank: gereklidir
+      inclusion: seçilmelidir
+      invalid: geçersizdir
+      required: mevcut olmalıdır.
       suspected_tv_series: 
       taken: 
     movie:
@@ -1616,59 +1628,61 @@ tr-TR:
       backdrops_must_meet: 'Arka plan aşağıdaki kriterlere uygun olmalıdır:'
       episode_stills_must_meet: 'Bölüm hala aşağıdaki kriterleri karşılamalıdır:'
       posters_must_meet: 'Afişler aşağıdaki kriterleri karşılamalıdır:'
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
-  invalid_aspect_ratio: 
-  item_count: 
+      profile_must_meet: 'Profil resmi şu şartları sağlamalıdır:'
+      read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">resim ekleme rehberimizi</a> inceleyin.
+      tip: Tarayıcınız destekliyorsa, bir resmi aşağıdaki alana sürükleyip bırakabilirsiniz. Aksi takdirde, 'Dosyaları seç/Gözat...' düğmesine tıklayın ve bilgisayarınızdan yüklemek istediğiniz resmi seçin.
+  invalid_aspect_ratio: Bu en boy oranı geçersiz
+  item_count:
+    one: "%{count} öge"
+    other: "%{count} öge"
   jobs:
-    '"A" Camera Operator': 
+    '"A" Camera Operator': '"A" Kamera Operatörü'
     '"B" Camera Operator': 
-    '"C" Camera Operator': 
-    '"D" Camera Operator': 
+    '"C" Camera Operator': '"C" Kamera Operatörü'
+    '"D" Camera Operator': '"D" kamera operatörü'
     24 Frame Playback: 24 Kare Oynatma
-    2D Artist: 
-    2D Sequence Supervisor: 
-    2D Supervisor: 
-    3D Animator: 
-    3D Artist: 
-    3D Coordinator: 
-    3D Digital Colorist: 
-    3D Director: 
-    3D Editor: 
+    2D Artist: 2 Boyut sanatçısı
+    2D Sequence Supervisor: 2 Boyut Sıralama Danışmanı
+    2D Supervisor: 2 Boyut Danışmanı
+    3D Animator: 3 Boyut Animatörü
+    3D Artist: 3 Boyut sanatçısı
+    3D Coordinator: 3 Boyut eşgüdümcüsü
+    3D Digital Colorist: 3 Boyutlu sayısal renk sanatçısı
+    3D Director: 3 Boyut Yönetmeni
+    3D Editor: 3 Boyut düzeltmeni
     3D Generalist: 
-    3D Modeller: 
-    3D Sequence Supervisor: 
-    3D Supervisor: 
+    3D Modeller: 3 Boyut Modelci
+    3D Sequence Supervisor: 3 Boyut Sıralama Danışmanı
+    3D Supervisor: 3B Danışmanı
     3D Tracking Layout: 
-    ADR & Dubbing: 
-    ADR Coordinator: 
-    ADR Editor: 
-    ADR Engineer: 
-    ADR Mixer: 
-    ADR Post Producer: 
-    ADR Recording Engineer: 
-    ADR Recordist: 
-    ADR Supervisor: 
-    ADR Voice Casting: 
-    Accountant: 
-    Accounting Clerk Assistant: 
-    Accounting Supervisor: Muhasebe Sorumlusu
+    ADR & Dubbing: ADR ve Dublaj
+    ADR Coordinator: ADR Koordinatörü
+    ADR Editor: ADR Düzeltmeni
+    ADR Engineer: ADR Mühendisi
+    ADR Mixer: ADR karıştırıcı
+    ADR Post Producer: ADR sonra yapım
+    ADR Recording Engineer: ADR kayıt mühendisi
+    ADR Recordist: ADR Kayıt Listesi
+    ADR Supervisor: ADR Danışmanı
+    ADR Voice Casting: ADR Rol dağıtım
+    Accountant: Muhasebeci
+    Accounting Clerk Assistant: Kâtip (Muhasebe)
+    Accounting Supervisor: Muhasebe Danışmanı
     Accounting Trainee: Muhasebe Stajyeri
     Acting Double: 
-    Action Director: 
+    Action Director: Aksiyon yönetmeni
     Actor: Oyuncu
     Actor's Assistant: Oyuncu Asistanı
-    Adaptation: 
-    Additional Camera: 
-    Additional Casting: 
-    Additional Colorist: 
-    Additional Construction: 
-    Additional Construction Grip: 
-    Additional Dialogue: 
-    Additional Director of Photography: 
-    Additional Editing: 
-    Additional Editor: 
+    Adaptation: Uyarlama
+    Additional Camera: İlave Kamera
+    Additional Casting: İlave rol dağıtım
+    Additional Colorist: İlave ressam
+    Additional Construction: İlave inşaat
+    Additional Construction Grip: İlave inşaat işçisi
+    Additional Dialogue: İlave diyalog
+    Additional Director of Photography: İlave görüntü yönetmeni
+    Additional Editing: İlave düzeltme
+    Additional Editor: İlave düzeltmen
     Additional Editorial Assistant: 
     Additional Effects Development: 
     Additional First Assistant Camera: 
@@ -1677,17 +1691,17 @@ tr-TR:
     Additional Hairstylist: 
     Additional Key Construction Grip: 
     Additional Key Grip: 
-    Additional Lighting Technician: 
-    Additional Music: 
-    Additional Music Supervisor: 
-    Additional Photography: 
-    Additional Post-Production Supervisor: 
-    Additional Production Assistant: 
+    Additional Lighting Technician: İlave Işık Teknisyeni
+    Additional Music: İlave Müzik
+    Additional Music Supervisor: İlave Müzik Danışmanı
+    Additional Photography: İlave Fotoğrafçı
+    Additional Post-Production Supervisor: İlave Yapım sonrası danışmanı
+    Additional Production Assistant: İlave Yapım Asistanı
     Additional Production Sound Mixer: 
     Additional Script Supervisor: 
-    Additional Second Assistant Camera: 
-    Additional Second Assistant Director: 
-    Additional Set Dresser: 
+    Additional Second Assistant Camera: İlave ikinci yardımcı kamera
+    Additional Second Assistant Director: İlave ikinci yardımcı yönetmen
+    Additional Set Dresser: İlave Set Kostümcüsü
     Additional Set Photographer: 
     Additional Sound Re-Recording Mixer: 
     Additional Sound Re-Recordist: 
@@ -1695,28 +1709,28 @@ tr-TR:
     Additional Still Photographer: 
     Additional Storyboarding: 
     Additional Third Assistant Director: 
-    Additional Underwater Photography: 
-    Additional Visual Effects: 
-    Additional Wardrobe Assistant: 
-    Additional Writing: 
-    Administration: 
-    Administrative Assistant: 
-    Aerial Camera: 
-    Aerial Camera Technician: 
-    Aerial Coordinator: 
-    Aerial Director of Photography: 
+    Additional Underwater Photography: İlave sualtı görüntü yönetmeni
+    Additional Visual Effects: İlave görsel efektler
+    Additional Wardrobe Assistant: İlave kostüm asistanı
+    Additional Writing: İlave senaryo yazım
+    Administration: Yönetim
+    Administrative Assistant: Yönetici Yardımcısı
+    Aerial Camera: Hava Kamera
+    Aerial Camera Technician: Hava Kamera Teknisyeni
+    Aerial Coordinator: Hava Koordinatörü
+    Aerial Director of Photography: Hava Fotoğraf Müdürü
     Ager/Dyer: 
-    Animal Coordinator: 
-    Animal Wrangler: 
-    Animation: 
-    Animation Coordinator: 
-    Animation Department Coordinator: 
-    Animation Director: 
-    Animation Fix Coordinator: 
-    Animation Manager: 
-    Animation Production Assistant: 
-    Animation Supervisor: 
-    Animation Technical Director: 
+    Animal Coordinator: Hayvan Koordinatörü
+    Animal Wrangler: Hayvan bakıcısı
+    Animation: Animasyon
+    Animation Coordinator: Animasyon koordinatörü
+    Animation Department Coordinator: Animasyon Bölüm Koordinatörü
+    Animation Director: Animasyon yönetmeni
+    Animation Fix Coordinator: Animasyon redaktörü
+    Animation Manager: Animasyon müdürü
+    Animation Production Assistant: Animasyon Yapım Asistanı
+    Animation Supervisor: Animasyon Danışmanı
+    Animation Technical Director: Animasyon Teknik Direktörü
     Animatronic and Prosthetic Effects: 
     Animatronics Designer: 
     Animatronics Supervisor: 
@@ -1726,60 +1740,60 @@ tr-TR:
     Armorer: 
     Armory Coordinator: 
     Art Department Assistant: 
-    Art Department Coordinator: 
-    Art Department Manager: 
-    Art Department Production Assistant: 
-    Art Department Trainee: 
-    Art Designer: 
-    Art Direction: 
-    Art Direction Intern: 
-    Assistant Accountant: 
-    Assistant Art Director: 
-    Assistant Camera: 
-    Assistant Chef: 
+    Art Department Coordinator: Sanat Bölüm Koordinatörü
+    Art Department Manager: Sanat Bölüm Müdürü
+    Art Department Production Assistant: Sanat Bölüm Yapım Asistanı
+    Art Department Trainee: Sanat Bölüm Stajyeri
+    Art Designer: Sanat Tasarımcı
+    Art Direction: Sanat Yönetimi
+    Art Direction Intern: Sanat Yönetim Stajyeri
+    Assistant Accountant: 'Muhasip Yardımcı '
+    Assistant Art Director: Yardımcı Sanat Yönetmeni
+    Assistant Camera: Yardımcı Kamera
+    Assistant Chef: Şef Yardımcısı
     Assistant Chief Lighting Technician: 
-    Assistant Costume Designer: 
+    Assistant Costume Designer: Kostüm tasarım asistanı
     Assistant Craft Service: 
-    Assistant Decorator: 
+    Assistant Decorator: Dekoratör asistanı
     Assistant Dialogue Editor: 
     Assistant Director: Yardımcı Yönetmen
     Assistant Director Trainee: 
     Assistant Director of Photography: 
-    Assistant Editor: 
-    Assistant Electrician: 
+    Assistant Editor: Düzeltmen yardımcısı
+    Assistant Electrician: Elektrik asistanı
     Assistant Extras Casting: 
     Assistant Foley Artist: 
     Assistant Gaffer: 
     Assistant Grip: 
     Assistant Hairdresser: 
-    Assistant Hairstylist: 
-    Assistant Location Manager: 
-    Assistant Makeup Artist: 
-    Assistant Music Supervisor: 
-    Assistant Picture Car Coordinator: 
-    Assistant Picture Editor: 
-    Assistant Production Coordinator: 
-    Assistant Production Design: 
-    Assistant Production Manager: 
-    Assistant Property Master: 
-    Assistant Script: 
-    Assistant Set Decoration: 
-    Assistant Set Decoration Buyer: 
-    Assistant Set Designer: 
-    Assistant Set Dresser: 
+    Assistant Hairstylist: Yardımcı Kuaför
+    Assistant Location Manager: Mekan Müdür Yardımcısı
+    Assistant Makeup Artist: Yardımcı Makyaj Sanatçısı
+    Assistant Music Supervisor: Yardımcı Müzik Danışmanı
+    Assistant Picture Car Coordinator: Yardımcı araç koordinatörü
+    Assistant Picture Editor: Yardımcı çekim düzeltmeni
+    Assistant Production Coordinator: Yardımcı Yapım Koordinatörü
+    Assistant Production Design: Yardımcı Yapım Tasarımı
+    Assistant Production Manager: Yardımcı Yapım Müdürü
+    Assistant Property Master: Emlak uzman yardımcısı
+    Assistant Script: Yardımcı Senaryo
+    Assistant Set Decoration: Yardımcı Set Dekorasyon
+    Assistant Set Decoration Buyer: Yardımcı Set Dekorasyon satınalım
+    Assistant Set Designer: Yardımcı Set Tasarımcı
+    Assistant Set Dresser: Asistan Set kostümcüsü
     Assistant Set Propsman: 
-    Assistant Sound Designer: 
-    Assistant Sound Editor: 
-    Assistant Sound Engineer: 
+    Assistant Sound Designer: Yardımcı Ses tasarıcısı
+    Assistant Sound Editor: Yardımcı Ses Düzeltmen
+    Assistant Sound Engineer: Yardımcı Ses Mühendisi
     Assistant Unit Manager: 
-    Assistant Vehicles Coordinator: 
+    Assistant Vehicles Coordinator: Yardımcı araç koordinatörü
     Associate Choreographer: 
-    Associate Editor: 
-    Associate Producer: 
+    Associate Editor: Düzeltmen Ortak
+    Associate Producer: Yapımcı Ortak
     Atmos Editor: 
-    Attorney: 
+    Attorney: Vekil (hukuk)
     Audio Post Coordinator: 
-    Author: 
+    Author: Yazar
     BTS Footage: 
     BTS Photographer: 
     BTS Videographer: 
@@ -1797,39 +1811,39 @@ tr-TR:
     Boom Operator: 
     Broadcast Producer: 
     Business Affairs Coordinator: 
-    CG Animator: 
-    CG Artist: 
-    CG Engineer: 
-    CG Painter: 
-    CG Supervisor: 
-    CGI Director: 
-    CGI Supervisor: 
-    Cableman: 
+    CG Animator: CG Animatörü
+    CG Artist: CG Sanatçısı
+    CG Engineer: CG Mühendisi
+    CG Painter: CG Boyacı
+    CG Supervisor: CG Danışmanı
+    CGI Director: CGI Yönetmeni
+    CGI Supervisor: CGI Danışmanı
+    Cableman: Kablocu
     Cameo: 
-    Camera Car: 
-    Camera Department Manager: 
-    Camera Department Production Assistant: 
-    Camera Intern: 
+    Camera Car: Kamera Arabası
+    Camera Department Manager: Kamera Bölüm Müdürü
+    Camera Department Production Assistant: Kamera bölümü yapım asistanı
+    Camera Intern: Kamera Stajyeri
     Camera Loader: 
-    Camera Operator: 
-    Camera Production Assistant: 
-    Camera Supervisor: 
-    Camera Technician: 
-    Camera Trainee: 
-    Camera Truck: 
-    Captain Driver: 
-    Carpenter: 
+    Camera Operator: Kamera operatörü
+    Camera Production Assistant: Kamera Yapım Asistanı
+    Camera Supervisor: Kamera Danışmanı
+    Camera Technician: Kamera teknisyeni
+    Camera Trainee: Kamera Stajyeri
+    Camera Truck: Camera Aracı
+    Captain Driver: Şoför
+    Carpenter: Marangoz
     Cast Driver: 
-    Casting: 
-    Casting Assistant: 
-    Casting Associate: 
-    Casting Consultant: 
-    Casting Coordinator: 
-    Casting Director: 
-    Casting Producer: 
-    Casting Researcher: 
-    Catering: 
-    Catering Head Chef: 
+    Casting: Rol Dağıtım
+    Casting Assistant: Rol Dağıtım asistanı
+    Casting Associate: Rol Dağıtım ortağı
+    Casting Consultant: Rol Dağıtım Danışmanı
+    Casting Coordinator: Rol Dağıtım Koordinatörü
+    Casting Director: Rol Dağıtım yöneticisi
+    Casting Producer: Rol Dağıtım yapımcısı
+    Casting Researcher: Rol Dağıtım Araştırmacısı
+    Catering: Yiyecek-İçecek Hizmeti
+    Catering Head Chef: Yiyecek-İçecek Müdürü
     Chaperone: 
     Chaperone Tutor: 
     Character Designer: 
@@ -1847,12 +1861,12 @@ tr-TR:
     Clearances Consultant: 
     Clearances Coordinator: 
     Cloth Setup: 
-    Co-Art Director: 
+    Co-Art Director: Eş Sanat Yönetmeni
     Co-Costume Designer: 
-    Co-Director: 
+    Co-Director: Eş Yönetmen
     Co-Editor: 
     Co-Executive Producer: 
-    Co-Producer: 
+    Co-Producer: Eş yapımcı
     Co-Writer: Eş-Yazar
     Color Assistant: 
     Color Designer: 
@@ -1869,11 +1883,11 @@ tr-TR:
     Conceptual Design: 
     Conceptual Illustrator: 
     Conductor: 
-    Construction Buyer: 
-    Construction Coordinator: 
-    Construction Foreman: 
-    Construction Grip: 
-    Construction Manager: 
+    Construction Buyer: İnşaat Satın Alım Müdürü
+    Construction Coordinator: İnşaat Koordinatörü
+    Construction Foreman: Şantiyede Ustabaşı
+    Construction Grip: İnşaat İşçisi
+    Construction Manager: Şantiye Müdürü
     Consulting Accountant: 
     Consulting Editor: 
     Consulting Producer: 
@@ -1882,9 +1896,9 @@ tr-TR:
     Contact Lens Technician: 
     Continuity: 
     Contract Manager: 
-    Controller: 
+    Controller: Denetçi
     Coordinating Producer: 
-    Costume Assistant: 
+    Costume Assistant: Kostüm asistanı
     Costume Consultant: 
     Costume Coordinator: 
     Costume Design: 
@@ -1895,25 +1909,25 @@ tr-TR:
     Costume Standby: 
     Costume Supervisor: 
     Costumer: 
-    Craft Service: 
+    Craft Service: Zanaat Hizmeti
     Creative Consultant: 
-    Creative Director: 
-    Creative Producer: 
-    Creator: 
-    Creature Design: 
-    Creature Effects Technical Director: 
-    Creature Technical Director: 
-    Crowd Assistant Director: 
-    Cyber Scanning Supervisor: 
+    Creative Director: Yaratıcı Yönetmen
+    Creative Producer: Yaratıcı Yapımcı
+    Creator: Yaratıcı
+    Creature Design: Yaratık Tasarım
+    Creature Effects Technical Director: Yaratık efektleri teknik direktörü
+    Creature Technical Director: Yaratık Teknik Direktörü
+    Crowd Assistant Director: Yığın Müdür Yardımcısı
+    Cyber Scanning Supervisor: Siber tarayıcı danışmanı
     Dailies Manager: 
     Dailies Operator: 
     Dailies Technician: 
     Daily Electrics: 
     Daily Grip: 
-    Daily Makeup & Hair: 
-    Daily Wardrobe: 
-    Data Management Technician: 
-    Data Wrangler: 
+    Daily Makeup & Hair: Günlük makyaj / saç
+    Daily Wardrobe: Günlük Kostüm
+    Data Management Technician: Veri yönetimi teknisyeni
+    Data Wrangler: Veri yöneticisi
     Decorator: 
     Delegated Producer: 
     Department Administrator: 
@@ -1928,10 +1942,10 @@ tr-TR:
     Digital Compositor: 
     Digital Conform Editor: 
     Digital Effects Producer: 
-    Digital Effects Supervisor: 
-    Digital Film Recording: 
+    Digital Effects Supervisor: Sayısal efekt danışmanı
+    Digital Film Recording: Sayısal film kaydı
     Digital Foley Artist: 
-    Digital Imaging Technician: 
+    Digital Imaging Technician: Sayısal görüntüleme teknisyeni
     Digital Intermediate: 
     Digital Intermediate Assistant: 
     Digital Intermediate Colorist: 
@@ -1954,10 +1968,10 @@ tr-TR:
     Draughtsman: 
     Dresser: 
     Dressing Prop: 
-    Driver: 
+    Driver: Sürücü
     Drone Cinematographer: 
-    Drone Operator: 
-    Drone Pilot: 
+    Drone Operator: Drone operatörü
+    Drone Pilot: Drone sürücüsü
     EPK Editor: 
     Editor: Editör
     Editorial Consultant: 
@@ -1967,7 +1981,7 @@ tr-TR:
     Editorial Services: 
     Editorial Staff: 
     Effects Supervisor: 
-    Electrician: 
+    Electrician: Elektrikçi
     Epk Camera Operator: 
     Epk Director: 
     Epk Producer: 
@@ -2026,18 +2040,18 @@ tr-TR:
     Gaffer: 
     General Manager: 
     Generalist: 
-    Generator Operator: 
-    Genetator Operator: 
-    Graphic Designer: 
+    Generator Operator: Jeneratör Operatörü
+    Genetator Operator: Jeneratör Operatörü
+    Graphic Designer: Grafik Tasarımcı
     Graphic Novel: 
     Graphic Novel Illustrator: 
     Greensman: 
     Grip: 
     Grip Production Assistant: 
     Gun Wrangler: 
-    Hair Assistant: 
-    Hair Department Head: 
-    Hair Designer: 
+    Hair Assistant: Kuaför Kalfası
+    Hair Department Head: Kuafmr Bölüm Başkanı
+    Hair Designer: Kuaför
     Hair Setup: 
     Hair Supervisor: 
     Hairdresser: 
@@ -2108,7 +2122,7 @@ tr-TR:
     Lighting Camera: 
     Lighting Coordinator: 
     Lighting Design: 
-    Lighting Director: 
+    Lighting Director: Işık Yönetmeni
     Lighting Manager: 
     Lighting Production Assistant: 
     Lighting Programmer: 
@@ -2591,14 +2605,14 @@ tr-TR:
     view_shortcuts: 
   list_info:
     average_rating: Ortalama Puanı
-    image_selected: 
+    image_selected: Seçildi
     items_on_list:
       many: bu listedeki öğeler
       one: bu listedeki öğeler
       other: bu listedeki öğe
-    private: 
-    public: 
-    select_this_image: 
+    private: Özel
+    public: Herkese açık
+    select_this_image: Bu resmi seçin
     total_revenue: Toplam Gelir
     total_runtime: Toplam Çalışma Zamanı
   list_messages:
@@ -2618,8 +2632,8 @@ tr-TR:
     step_3: '3. Adım: Resmi Seç'
     step_4: '4. Adım: Paylaş'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: 'TMDb''nin düzenleme ve oy verme işlevlerini kullanabilmek ve size özel tavsiyeler alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDb hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayın</a> '
+    login_text_2: 'Eğer kayıt olduğunuz halde onay epostası size ulaşmadıysa tekrar onay epostası almak için <a href="%{verification_link}">buraya tıklayın</a> '
     login_to_your_account: Hesabına Gir
   login_to_create: 
   login_to_edit: 
@@ -2633,12 +2647,12 @@ tr-TR:
       number_of_changes: 
       view_weekly_leaderboard: Haftalık Liderleri Görüntüle
     company:
-      headquarters: 
-      movie_page_title: 
-      tv_page_title: 
+      headquarters: Genel Merkez
+      movie_page_title: "%{name} tarafından çekilen filmler"
+      tv_page_title: "%{name} tarafından çekilen tv dizileri"
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Tüm alanları kilitle
+      lock_all_images: Tüm resimleri kilitle
       page_title: Düzenle %{name}
       placeholders:
         country: 
@@ -2651,24 +2665,24 @@ tr-TR:
         networks: 
         person: 
         production_companies: 
-      success_fields_locked: 
+      success_fields_locked: Kilitli alanlar
       tooltips:
         bible: 
         homepage: 
-        logo_format: 
+        logo_format: SVG ve PNG türleri desteklenir.  Çözünürlükten bağımsız olduğu için SVG tercih edilir.
         original_title: 
-        overview: 
-        social_links: 
+        overview: Lütfen özet yazarken kısa ve öz olmasına, senaryoyu önceden eleverecek ifadeler kullanmamaya özen gösterin
+        social_links: Sosyal ağ bağlantıları yalnızca (onaylı) resmi sayfalar içindir, hayran sayfalarına izin verilmemektedir.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Facebook'u ziyaret edin
+      visit_homepage: Ana Sayfayı ziyaret edin
+      visit_instagram: Instagram'ı ziyaret edin
+      visit_twitter: Twitter'ı ziyaret edin
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Filmleri"
+      tv_page_title: "%{name} Dizileri"
     images:
-      format: 
+      format: Biçim
       no_backdrop_stills: Bu girdiye hala arka plan eklenmedi.
       no_backdrops: Bu girişe hiçbir arka plan eklenmedi.
       no_logos: Bu girişe eklenen logo yok.
@@ -2678,8 +2692,8 @@ tr-TR:
       types:
         backdrop_stills: 
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Filmleri"
+      tv_page_title: "%{name} Dizileri"
     movie:
       edit:
         adult:
@@ -2756,19 +2770,19 @@ tr-TR:
     social_panel:
       discussions:
         currently_subscribed: Birisi ilk gönderiyi oluşturduğunda bir bildirim alacaksınız.
-        no_discussions: 
+        no_discussions: "%{item_title} için hiç tartışma yok. İlkini başlatmak için giriş yapın!"
         unsubscribe_me: Beni üyelikten çıkar.
-        want_to_be_notified: 
-        yes_notify_me: 
+        want_to_be_notified: İlk gönderim yapıldığında haberdar olmak ister misin?
+        yes_notify_me: Evet, beni haberdar et!
       reviews:
-        a_review_by: 
-        by: 
-        featured_review: 
+        a_review_by: "%{username} tarafından eklenen yorum"
+        by: "%{username} tarafından %{date} tarihinde yazılmıştır."
+        featured_review: Öne çıkan yorum
         no_review:
           logged_in: 
           public: 
-        read_all: 
-        read_the_rest: 
+        read_all: Tüm yorumları oku
+        read_the_rest: geri kalanları oku
         write_review:
           logged_in: 
           public: 
@@ -2776,7 +2790,7 @@ tr-TR:
       edit:
         guest_stars:
           no_records: 
-        screened_as_part_of_season: 
+        screened_as_part_of_season: Evet, sezonun bir parşası olarak
         screened_confirm: 
         screened_label: 
       episode_selector:
@@ -3019,11 +3033,11 @@ tr-TR:
         strip_insignificant_zeros: true
       short_decimal_units:
         units:
-          billion: 
-          million: 
-          quadrillion: 
-          thousand: 
-          trillion: 
+          billion: Mia
+          million: Mio
+          quadrillion: Kad
+          thousand: Bin
+          trillion: Tio
           unit: 
     percentage:
       format:
@@ -3061,28 +3075,28 @@ tr-TR:
   search:
     favorites_movie: Favori filmleri ara...
     favorites_tv: Favori dizileri ara...
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: filmlerde
+    in_people: kişilerde
+    in_tv_shows: TV dizilerinde
     media_types:
       movie: Film
       person: Kişi
       tv_show: Dizi
     no_results: Sonuç Yok
     no_results_found: Sonuç bulunamadı
-    rated_movie: 
-    rated_tv: 
-    recommendations_movie: 
-    recommendations_tv: 
-    trending: 
+    rated_movie: Derecelendirilmiş filmlerde ara
+    rated_tv: Derecelendirilmiş TV dizilerinde ara
+    recommendations_movie: Kendi kişisel film tavsiyelerinde ara
+    recommendations_tv: Kendi kişisel dizi tavsiyelerinde ara
+    trending: Revaçta
     trending_searches: Popüler Aramalar
-    watchlist_movie: 
-    watchlist_tv: 
+    watchlist_movie: Film izleme listesinde ara
+    watchlist_tv: Dizi izleme listesinde ara
   search_tip_1: 'İpucu: Sorgunuzda yıl belirtmek için ''y:'' kullanabilirsiniz. Örneğin: ''yıldız savaşları y:1977''.'
   season_number_name: Sezon %{season_number}
   season_overview:
-    already_aired: 
-    to_air: 
+    already_aired: "%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girdi."
+    to_air: "%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girecek."
   settings:
     account:
       account_settings: Hesap Ayarları
@@ -3124,9 +3138,9 @@ tr-TR:
         started_import: Aktarım Başladı...
       previous:
         date: Tarih
-        imported: 
+        imported: İçe aktarılan
         items: Öğeler
-        local_list: 
+        local_list: Yerel Liste
         no_imports: Her hangi bir listeyi içeri aktarmadınız.
         type: Tip
       results:
@@ -3143,7 +3157,7 @@ tr-TR:
             updated_date: 
           reason: 
           summary: 
-        currently_running: 
+        currently_running: İçe aktarma işlemi şu anda devam ediyor. Bitip bitmediğini sayfayı yenileyerek öğrenebilirsiniz.
         import_results: Aktarım Sonuçları
         in_progress:
           import_status: 
@@ -3151,7 +3165,7 @@ tr-TR:
       select_csv: CSV Dosyası Seç
       type:
         favorite: Favori
-        rated: 
+        rated: Oylanmış
         watchlist: İzleme Listesi
       which_list: Hangi listeye içe aktarılsın?
     navigation:
@@ -3165,22 +3179,22 @@ tr-TR:
       notification_settings: Bildirim Ayarları
       settings: Ayarlar
       sharing_settings: Paylaşım Ayarları
-      social_settings: 
+      social_settings: Sosyal Ağ Ayarları
     notifications:
-      email_new_releases_watchlist: 
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      news_updates: 
+      email_new_releases_watchlist: İzleme listendekilerden yeni gösterime girenleri eposta ile almak ister misin?
+      new_replies_to_threads_created: Açtığın veya cevap verdiğin konular resen takip edilsin mi?
+      new_replies_to_threads_watching: İzlediğin konulara gelen cevaplar eposta ile sana bildirilsin mi?
+      news_updates: Ürün haberleri ve güncellemeleri ile ilgili eposta almak ister misin?
       notifications: Bildirimler
     profile:
-      accent_color: 
+      accent_color: Profil Simge Rengi
       avatar:
         current_avatar: Mevcut Avatar
         explain: 
         explain_gravatar: 
-        not_found: 
-        not_found_add: 
-        remove_own: 
+        not_found: Profil resmi bulunamadı
+        not_found_add: Profil resmi bulunamadı. <a href="#">Eklemek</a>? ister misiniz?
+        remove_own: Profil resmini kaldır?
         update_avatar: Avatar Güncelle
         update_gravatar: Gravatar Güncelle?
         updated: Avatar Güncellendi!
@@ -3225,8 +3239,8 @@ tr-TR:
       favorite_message_hint: 
       message_settings: Mesaj Ayarları
       sharing_message_hint: 
-      social_settings: 
-      supported_template_values: 
+      social_settings: Sosyal Ağ Ayarları
+      supported_template_values: Desteklenen şablon özellikleri
   sign_up:
     benefits:
       benefits_to_being_member: Üye Olmanın Faydaları

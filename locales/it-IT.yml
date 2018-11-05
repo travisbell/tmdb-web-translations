@@ -66,7 +66,7 @@ it-IT:
   Approve: Approva
   Approved?: Approvato?
   Apps: Apps
-  Archived Databases: 
+  Archived Databases: Database archiviati
   Are you sure?: Sei sicuro?
   Attributes: Attributi
   Auto: Auto
@@ -555,32 +555,36 @@ it-IT:
         page_owner: Le Mie Discussioni
         public: Discussioni di %{username}
     events:
-      all: 
+      all: Tutti
       emails:
-        emails: 
+        emails: Email
         filters:
           status:
             Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Complaint: Reclamo
+            Delivery: Inviato
+            Unsubscribed: Sottoscrizione annullata
+            status: Stato
+        number_of_items:
+          one: "%{count} Email"
+          other: "%{count} Email"
+      events: Eventi
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
+            Discussion: Discussione
+            General: Generale
+            List Import: Importa lista
+            Mention: Citazione
+            Messages: Messaggi
+            type: Tipo
         notifications: Notifiche
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Notifica"
+          other: "%{count} Notifiche"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Eventi recenti
+      recent: Recenti
     export:
       csv_explanation: Se preferisci esportare una copia di questa lista in formato CSV, clicca il pulsante "Esporta" qui sotto. Ti invieremo la lista così creata tramite email. In base alla lunghezza della lista, completare l'esportazione potrebbe richiedere alcuni minuti.
       export: Esporta
@@ -683,17 +687,17 @@ it-IT:
   add_to_list: Aggiungi %{media_title} a una delle tue liste...
   already_translated_in: "%{page_title} è già tradotto nelle seguenti lingue..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Autenticazione terze parti richiesta
     approved_session: Hai approvato %{application_name}. Puoi chiudere questa finestra.
     continue: Se desideri continuare, fai clic sul pulsante in basso. In caso contrario, puoi semplicemente chiudere questa finestra.
     request_token_approval: "{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Sei stato abilitato/a alla lettura e scrittura di <strong>%{application_name}</strong>. Puoi tornare all'applicazione e chiudere questa finestra. Puoi sempre revocare questo accesso nelle impostazioni del tuo account alla pagina "Applicazioni connesse".
+        name: Autorizzazione concessa
       denied:
         message: 
-        name: 
+        name: Autenticazione negata
       invalid_request_token:
         message: 
         name: 
@@ -888,13 +892,13 @@ it-IT:
           meaning: Limitato a un pubblico adulto (18 anni o più). Nessuno di età inferiore ai 18 anni può acquistare / noleggiare un DVD con classificazione A, VHS, UMD o guardare un film al cinema con questo punteggio. I film di questa categoria possono contenere temi adulti / inquietanti, linguaggio volgare frequente, violenza brutale con sangue e sangue, scene di sesso forte e / o scene di abuso di droghe considerate non idonee per i minori.
       IT:
         '0':
-          meaning: 
+          meaning: Nessun visto censura.
         '1':
-          meaning: 
+          meaning: Film per tutti.
         '2':
-          meaning: 
+          meaning: Vietato ai minori di 14 anni.
         '3':
-          meaning: 
+          meaning: Vietato ai minori di 18 anni.
       LT:
         '1':
           meaning: Film per tutte le età
@@ -1426,7 +1430,7 @@ it-IT:
           Questa è solo una nota amichevole dai moderatori dei contenuti di TMDb. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
 
           Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
-        subject: 
+        subject: Non corrisponde alle nostre linee guida sui contenuti (amatoriale, ecc...)
       '3':
         message: |-
           Ciao,
@@ -1522,7 +1526,7 @@ it-IT:
       community_guidelines: Linee guida della Community
       discussion_category: Categoria
       for_item: Per articolo
-      message: 
+      message: Messaggio
       new_discussion: Nuova discussione
       subject: Soggetto
     no_discussions: Nessuna discussione
@@ -1675,14 +1679,14 @@ it-IT:
     3D Supervisor: Supervisore 3D
     3D Tracking Layout: Tracciamento Layout 3D
     ADR & Dubbing: ADR & Doppiaggio
-    ADR Coordinator: 
+    ADR Coordinator: Coordinatore ADR
     ADR Editor: 
     ADR Engineer: 
     ADR Mixer: 
     ADR Post Producer: 
     ADR Recording Engineer: 
     ADR Recordist: 
-    ADR Supervisor: 
+    ADR Supervisor: Supervisore ADR
     ADR Voice Casting: 
     Accountant: Contabile
     Accounting Clerk Assistant: Assistente amministrativo contabile
@@ -1705,7 +1709,7 @@ it-IT:
     Additional Editorial Assistant: Assistente Editoriale Aggiuntivo
     Additional Effects Development: Sviluppo Effetti Aggiuntivo
     Additional First Assistant Camera: Primo assistente camera aggiuntivo
-    Additional Gaffer: 
+    Additional Gaffer: Gaffer addizionale
     Additional Grip: Macchinista Aggiuntivo
     Additional Hairstylist: Parrucchiere Aggiuntivo
     Additional Key Construction Grip: Capo squadra costruzione macchinisti
@@ -1717,7 +1721,7 @@ it-IT:
     Additional Post-Production Supervisor: Supervisore Post-Produzione Aggiuntivo
     Additional Production Assistant: Assistente produzione aggiuntivo
     Additional Production Sound Mixer: Produzione Mixer audio aggiuntivo
-    Additional Script Supervisor: 
+    Additional Script Supervisor: Supervisore script addizionale
     Additional Second Assistant Camera: Secondo Assistente Cameramen Aggiuntivo
     Additional Second Assistant Director: Secondo Assistente Direttore aggiuntivo
     Additional Set Dresser: 
@@ -1730,7 +1734,7 @@ it-IT:
     Additional Third Assistant Director: Terzo assistente direttore aggiuntivo
     Additional Underwater Photography: 
     Additional Visual Effects: Effetti speciali addizionali
-    Additional Wardrobe Assistant: 
+    Additional Wardrobe Assistant: Assistente guardaroba addizionale
     Additional Writing: Scrittura Aggiuntiva
     Administration: Amministrazione
     Administrative Assistant: Assistente Amministrativo
@@ -1739,17 +1743,17 @@ it-IT:
     Aerial Coordinator: 
     Aerial Director of Photography: 
     Ager/Dyer: 
-    Animal Coordinator: 
+    Animal Coordinator: Coordinare animali
     Animal Wrangler: 
     Animation: Animazione
-    Animation Coordinator: 
+    Animation Coordinator: Coordinatore animazioni
     Animation Department Coordinator: Coordinatore Dipartimento Animazione
     Animation Director: Direttore Animazione
     Animation Fix Coordinator: Coordinatore Correzione Animazione
     Animation Manager: Manager Animazione
     Animation Production Assistant: Assistente Produzione Animazione
     Animation Supervisor: Supervisore Animazione
-    Animation Technical Director: 
+    Animation Technical Director: Direttore tecnico animazioni
     Animatronic and Prosthetic Effects: Effetti Animatronici e Protesici
     Animatronics Designer: 
     Animatronics Supervisor: 
@@ -1757,7 +1761,7 @@ it-IT:
     Archival Footage Coordinator: Coordinatore Filmati D'Archivio
     Archival Footage Research: Ricerca Filmati D'Archivio
     Armorer: Armatore
-    Armory Coordinator: 
+    Armory Coordinator: Coordinatore armeria
     Art Department Assistant: Assistente Dipartimento Artistico
     Art Department Coordinator: Coordinatore Dipartimento Artistico
     Art Department Manager: Manager Dipartimento Artistico
@@ -1768,18 +1772,18 @@ it-IT:
     Art Direction Intern: 
     Assistant Accountant: 
     Assistant Art Director: Assistente Regia Artistica
-    Assistant Camera: 
-    Assistant Chef: 
+    Assistant Camera: Assistente camera
+    Assistant Chef: Assistente Chef
     Assistant Chief Lighting Technician: 
     Assistant Costume Designer: Assistente Costumista
     Assistant Craft Service: 
-    Assistant Decorator: 
+    Assistant Decorator: Assistente decoratore
     Assistant Dialogue Editor: 
     Assistant Director: Assistente Regia
     Assistant Director Trainee: 
-    Assistant Director of Photography: 
+    Assistant Director of Photography: Assistente direttore della fotografia
     Assistant Editor: Assistente Editore
-    Assistant Electrician: 
+    Assistant Electrician: Assistente elettricista
     Assistant Extras Casting: 
     Assistant Foley Artist: 
     Assistant Gaffer: 
@@ -1805,9 +1809,9 @@ it-IT:
     Assistant Sound Editor: 
     Assistant Sound Engineer: 
     Assistant Unit Manager: 
-    Assistant Vehicles Coordinator: 
+    Assistant Vehicles Coordinator: Assistente coordinatore veicoli
     Associate Choreographer: Coreografo Associato
-    Associate Editor: 
+    Associate Editor: Editor associato
     Associate Producer: Produttore Associato
     Atmos Editor: 
     Attorney: 
@@ -1828,14 +1832,14 @@ it-IT:
     Best Boy Lighting Technician: 
     Book: Libro
     Boom Operator: Operatore Boom
-    Broadcast Producer: 
+    Broadcast Producer: Produttore emittente TV
     Business Affairs Coordinator: 
-    CG Animator: 
-    CG Artist: 
+    CG Animator: Animatore CG
+    CG Artist: Artista CG
     CG Engineer: Ingegnere CG
     CG Painter: Pittore CG
     CG Supervisor: Supervisore CG
-    CGI Director: 
+    CGI Director: Direttore CGI
     CGI Supervisor: Supervisore CGI
     Cableman: Tecnico
     Cameo: Cameo
@@ -1854,15 +1858,15 @@ it-IT:
     Carpenter: Carpentiere
     Cast Driver: 
     Casting: Casting
-    Casting Assistant: 
+    Casting Assistant: Assistente casting
     Casting Associate: Associato Casting
-    Casting Consultant: 
-    Casting Coordinator: 
-    Casting Director: 
+    Casting Consultant: Consulente casting
+    Casting Coordinator: Coordinatore casting
+    Casting Director: Direttore casting
     Casting Producer: 
     Casting Researcher: 
-    Catering: 
-    Catering Head Chef: 
+    Catering: Catering
+    Catering Head Chef: Capo Chef catering
     Chaperone: 
     Chaperone Tutor: 
     Character Designer: 
@@ -1901,7 +1905,7 @@ it-IT:
     Concept Artist: 
     Conceptual Design: Design Concettuale
     Conceptual Illustrator: 
-    Conductor: 
+    Conductor: Conduttore
     Construction Buyer: 
     Construction Coordinator: Coordinatore Costruzione
     Construction Foreman: Caposquadra Costruzione
@@ -2881,7 +2885,7 @@ it-IT:
           no_records: Nessun membro principale del cast aggiunto.
           no_season: Nessuna stagione presente! è richiesta una stagione per aggiungere i membri del cast principale.
         runtime:
-          add_it: Aggiungere nuovo orario di messa in onda?
+          add_it: Aggiungere nuova durata?
           enter_value: Inserisci un valore in minuti
         seasons:
           no_records: Nessuna stagione aggiunta.

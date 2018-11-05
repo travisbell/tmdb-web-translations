@@ -517,9 +517,9 @@ sr-RS:
     lists: Листе
     login: Пријави се
     logout: Одјави се
-    messages: 
-    profile_and_settings: 
-    ratings: 
+    messages: Поруке
+    profile_and_settings: Профил и подешавања
+    ratings: Оцене
     settings: Подешавања
     sign_up: Региструј се
     view_profile: Види профил
@@ -541,7 +541,7 @@ sr-RS:
         page_owner: Моја скорашња активност
         public: Скорашња активност корисника %{username}
       table:
-        action: Акција
+        action: Радња
         edit: Промени
         key: Кључ
         language_abbreviation: Језик
@@ -555,36 +555,44 @@ sr-RS:
         page_owner: Моје дискусије
         public: Дискусије корисника %{username}
     events:
-      all: 
+      all: Све
       emails:
-        emails: 
+        emails: Имејлови
         filters:
           status:
             Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Complaint: Жалба
+            Delivery: Испоручено
+            Unsubscribed: Отказане претплате
+            status: Стање
+        number_of_items:
+          few: "%{count} Имејлова"
+          many: "%{count} Имејлова"
+          one: "%{count} Имејл"
+          other: "%{count} Имејлова"
+      events: Догађаји
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Дискусија
+            General: Уопштено
+            List Import: Увоз листе
+            Mention: Помињање
+            Messages: Поруке
+            type: Тип
+        notifications: Обавештења
+        number_of_items:
+          few: "%{count} Обавештења"
+          many: "%{count} Обавештења"
+          one: "%{count} Обавештење"
+          other: "%{count} Обавештења"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Скорашњи догађаји
+      recent: Скорашњи
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Ако желиш да примерак ове листе буде извезен као CSV, кликни на дугме "Извези". Ми ћемо направити извоз и послати ти га на имејл адресу. У зависности од величине твоје листе, ово може да потраје неколико минута.
+      export: Извези
+      export_csv: Извези CSV
     favorites:
       my_favorites:
         logged_in: Моји омиљени
@@ -598,7 +606,7 @@ sr-RS:
       date_rated: Датум оцене
       my_rating: Моја оцена
       popularity: Популарност
-      rating: Рејтинг
+      rating: Оцене
       release_date: Датум почетка приказивања
       score: Оцена
       upcoming: Ускоро
@@ -687,14 +695,14 @@ sr-RS:
   add_to_list: Додај %{media_title} у једну од твојих листи...
   already_translated_in: "%{page_title} је већ преведен на следеће језике..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Захтев за потврду од 3. стране
     approved_session: Потврдили сте %{application_name}. Можете да затворите овај прозор.
     continue: Уколико желите да наставите, кликните на дугме потврди испод. Ако не, можете просто затворити овај прозор.
-    request_token_approval: 
+    request_token_approval: "{{APP}} тражи дозволу да  чита и пише твоје податке у твоје име. Ово је неопходно ако желиш да мењаш своје листе или да оцењујеш филмове изван TMDb-а."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Доделио си довзолу <strong>%{application_name}</strong> за писање & читање. Сад можеш да се вратиш у апликацију и да затвориш прозор. У сваком тренутку на својој профилној страници у поставкама, можеш да поништиш ову дозволу.
+        name: Потврда додељена
       denied:
         message: 
         name: 

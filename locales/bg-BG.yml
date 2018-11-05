@@ -557,18 +557,20 @@ bg-BG:
         page_owner: Моите дискусии
         public: Дискусиите на %{username}
     events:
-      all: 
+      all: Всички
       emails:
-        emails: 
+        emails: Имейли
         filters:
           status:
             Bounce: 
             Complaint: 
             Delivery: 
             Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            status: Състояние
+        number_of_items:
+          one: "%{count} имейл"
+          other: "%{count} имейла"
+      events: Събития
       notifications:
         filters:
           type:
@@ -576,12 +578,14 @@ bg-BG:
             General: 
             List Import: 
             Mention: 
-            Messages: 
+            Messages: Съобщения
             type: 
         notifications: 
-        number_of_items: 
+        number_of_items:
+          one: "%{count} известие"
+          other: "%{count} известия"
       page_title:
-        recent_events: 
+        recent_events: Последни събития
       recent: 
     export:
       csv_explanation: Ако искаш да имаш копие на този списък, като CSV, кликни бутона "Експорт" по-долу. Ние, ще ти изпратим файла на твоя имейл. Това може да отнеме няколко минути, ако размера на файла е голям.
