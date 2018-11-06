@@ -88,7 +88,7 @@ cs-CZ:
   Change?: Změnit?
   Changes: Změny
   Character: Role
-  Choose: 
+  Choose: Zvolte...
   City: Město
   Clip: Klip
   Clips: Klipy
@@ -291,7 +291,7 @@ cs-CZ:
   Number of edits in the past: Počet minulých úprav
   Offensive or Spam: Urážlivé nebo spam
   Offical Site: Oficiální stránky
-  Offline Databases: 
+  Offline Databases: Offline databáze
   Opening Credits: Úvodní titulky
   Origin Country: Země původu
   Original Air Date: Původní datum vysílání
@@ -555,32 +555,38 @@ cs-CZ:
         page_owner: Mé diskuse
         public: Diskuse uživatele %{username}
     events:
-      all: 
+      all: Vše
       emails:
-        emails: 
+        emails: E-maily
         filters:
           status:
-            Bounce: 
+            Bounce: Vrácené
             Complaint: 
-            Delivery: 
+            Delivery: Doručené
             Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            status: Stav
+        number_of_items:
+          few: "%{count} e-maily"
+          one: "%{count} e-mail"
+          other: "%{count} e-mailů"
+      events: Události
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
+            Discussion: Diskuse
+            General: Obecné
             List Import: 
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Messages: Zprávy
+            type: Typ
+        notifications: Oznámení
+        number_of_items:
+          few: "%{count} oznámení"
+          one: "%{count} oznámení"
+          other: "%{count} oznámení"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Nedávné události
+      recent: Nedávné
     export:
       csv_explanation: 
       export: Exportovat
@@ -1412,24 +1418,49 @@ cs-CZ:
     one: den
     other: "%{count} dní"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Záznam odstraněn
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelská poznámka od moderátorů obsahu na TMDb. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je a je proto považován za duplicitní.
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o duplicitu
       '2':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelská poznámka od moderátorů obsahu na TMDb. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Neodpovídá našim pokynům pro nový obsah (amatér, atd.)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelská poznámka od moderátorů obsahu na TMDb. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je jako seriál a není považován za platný film. Více o našich pokynech pro obsah si můžete přečíst [zde](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o seriál
       '4':
-        message: 
-        subject: 
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelská poznámka od moderátorů obsahu na TMDb. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o falešný záznam
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelská poznámka od moderátorů obsahu na TMDb. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o spam
+    why_deleting: Proč jste odstranili tento záznam?
   department_credits_count: 
   departments:
     Acting: Herec
@@ -2640,11 +2671,14 @@ cs-CZ:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Vymazat
+        key: Klíč
+        language: Jazyk
+        user: Uživatel
+      number_of_changes:
+        few: "%{count} změny"
+        one: "%{count} změna"
+        other: "%{count} změn"
       view_weekly_leaderboard: Zobrazit týdenní žebříček
     company:
       headquarters: 
@@ -2674,10 +2708,10 @@ cs-CZ:
         overview: Při psaní přehledu se pokuste, aby byl krátký, stručný a neprozrazoval zápletku.
         social_links: Sociální odkazy slouží pouze pro oficiální (ověřené) stránky. Fanouškovské stránky nejsou povoleny.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Navštivte Facebook
+      visit_homepage: Navštivte domovskou stránku
+      visit_instagram: Navštivte Instagram
+      visit_twitter: Navštivte Twitter
     genre:
       movie_page_title: "%{name} filmy"
       tv_page_title: "%{name} seriály"
@@ -2905,28 +2939,36 @@ cs-CZ:
       tags: Štítky
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |-
+        Ahoj, díky za používání TMDb. Všiml jsem si, že procházíte TMDb v jazyce, jehož překlad není dokončen. Pokud máte zájem pomoci nám se získáním těchto dat, můžete tak učinit navštívením našeho projektu [Locale project] (https://www.localeapp.com/projects/8267). [Registrace](https://www.localeapp.com/users/sign_up) do služby Locale je zdarma a můžete přidat tolik nových překladů, na kolik máte čas. Každá úprava pomůže.
+
+        Pokud o to nemáte zájem, nic se neděje. Jen mě napadlo vás požádat.
+
+        Díky a mějte se!
+      subject: Pomozte nám přeložit naše stránky
   messages:
     compose:
       ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      from: Od
+      message: Zpráva
+      subject: Předmět
+      template: Šablona
+      to: Komu
+    no_messages: Žádné zprávy
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} vám poslal novou zprávu"
+    number_of_messages:
+      few: "%{count} zprávy"
+      one: "%{count} zpráva"
+      other: "%{count} zpráv"
     options:
-      admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      admin: Administrátor
+      archive: Archiv
+      settings: Nastavení
+      viewed_at: Zobrazeno %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
+        create: Novou konverzaci můžete vytvořit <a href="%{link}">kliknutím sem</a>.
         no_conversations: 
         view: 
       no_user_found: 
@@ -2934,14 +2976,14 @@ cs-CZ:
       subject: 
       to: 
     right_column_titles:
-      conversation_with: 
-      message_inbox: 
-      my_archive: 
-      my_inbox: 
-      new_message: 
+      conversation_with: Konverzace s %{username}
+      message_inbox: Doručené zprávy
+      my_archive: Můj archiv
+      my_inbox: Mé doručené
+      new_message: Nová zpráva
       support_archive: 
       support_inbox: 
-    translate: 
+    translate: Překlad
   month:
     few: "%{count} měsíce"
     one: měsíc
@@ -3022,7 +3064,7 @@ cs-CZ:
     refresh: Aktualizovat
     unread_notifications: Nepřečtená oznámení
     view: Zobrazit
-    view_all: 
+    view_all: Zobrazit vše
   number:
     currency:
       format:
@@ -3182,15 +3224,15 @@ cs-CZ:
       results:
         complete:
           imported: Importováno?
-          item: 
+          item: Položka
           item_reasons:
             already_imported: Již importováno.
             cant_find_imdb: Nelze nalézt ID IMDb.
-            imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            imdb_id_not_in_row: IMDb ID nebylo nalezeno v tomto řádku.
+            personal_rating_invalid: Vaše osobní hodnocení je neplatné (mělo by být mezi 0,5 a 10,0).
+            personal_rating_not_found: Vaše osobní hodnocení nebylo nalezeno v tomto řádku.
+            row_is_invalid: Tento řádek je neplatný.
+            updated_date: Aktualizované datum.
           reason: Důvod? (Pokud je použitelný)
           summary: Dokázali jsme importovat celkem %{imported_count} položek z %{total_count} (%{imported_percentage} %) položek, které jsme rozpoznali ve vašem exportovaném seznamu.
         currently_running: Váš import je aktuálně spuštěn. Abyste zjistili, zda byl dokončen, můžete obnovit tuto stránku.
@@ -3312,9 +3354,9 @@ cs-CZ:
   upload_backdrop: Nahrát pozadí
   upload_poster: Nahrát plakát
   upload_profile: Nahrát profil
-  used_by_developers: TMDb je používáno více než 150.000 vývojáři.<br>Níže můžete procházet jejich práci.
+  used_by_developers: TMDb je používáno více než 200.000 vývojáři.<br>Níže můžete procházet jejich práci.
   view all: zobrazit vše
   will_paginate:
-    next_label: 
+    next_label: Další →
     page_gap: 
-    previous_label: 
+    previous_label: "← Předchozí"
