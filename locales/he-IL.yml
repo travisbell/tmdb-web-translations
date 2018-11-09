@@ -291,7 +291,7 @@ he-IL:
   Number of edits in the past: מספר עריכות בעבר
   Offensive or Spam: פוגעני או זבל
   Offical Site: אתר רשמי
-  Offline Databases: 
+  Offline Databases: מסדי נתונים אי־מקוונים
   Opening Credits: קרדיטי פתיחה
   Origin Country: מדינת מקור
   Original Air Date: תאריך מקורי של שידור
@@ -713,6 +713,7 @@ he-IL:
     overview: תקציר
     title: כותרת
     to_accounts_ids: אל
+    translated_overview: 
   average edits per day: ממוצע עריכות ליום
   back_options:
     back: אחורה
@@ -2637,11 +2638,13 @@ he-IL:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: נקה
+        key: מפתח
+        language: שפה
+        user: משתמש
+      number_of_changes:
+        one: שינוי %{count}
+        other: "%{count} שינויים"
       view_weekly_leaderboard: הצג לוח תוצאות שבועי
     company:
       headquarters: מַטֶה
@@ -2671,10 +2674,10 @@ he-IL:
         overview: בעת כתיבת תקציר, נסה להשאיר אותו קצר, תמציתי ונטול ספוילרים.
         social_links: קישורים חברתיים עבור עמודים רשמיים (מאומתים) בלבד. עמודי מעריצים אינם מותרים.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: בקר ב־Facebook
+      visit_homepage: בקר בדף הבית
+      visit_instagram: בקר ב־Instagram
+      visit_twitter: בקר ב־Twitter
     genre:
       movie_page_title: סרטי %{name}
       tv_page_title: סדרות %{name}
@@ -2935,7 +2938,7 @@ he-IL:
       new_message: הודעה חדשה
       support_archive: ארכיון תמיכה
       support_inbox: תיבת דואר תמיכה
-    translate: 
+    translate: תרגם
   month:
     one: 'חודש '
     other: "%{count} חודשים"
@@ -3015,7 +3018,7 @@ he-IL:
     refresh: רענן
     unread_notifications: התראות שלא נקראו
     view: הצג
-    view_all: 
+    view_all: הצג הכל
   number:
     currency:
       format:
@@ -3174,7 +3177,7 @@ he-IL:
           item_reasons:
             already_imported: מיובא כבר.
             cant_find_imdb: לא היה ניתן למצוא זהות איי־אם־די־בי.
-            imdb_id_not_in_row: 
+            imdb_id_not_in_row: זהות איי־אם־די־בי לא נמצאה בטור זה.
             personal_rating_invalid: הדירוגים האישיים שלך לא תקינים (הם צריכים להיות בין 0.5 ל-10.0).
             personal_rating_not_found: הדירוגים האישיים שלך לא נמצאו בשורה הזאת.
             row_is_invalid: השורה הזאת לא תקינה.
@@ -3234,10 +3237,16 @@ he-IL:
       change_password: שנה סיסמה
       edit_profile: ערוך פרופיל
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: לאפס דוא"ל?
+        reset_button: לאפס ולשלוח?
+        reset_invalid_email_dialog_text: |-
+          <p>למרבה הצער, הייתה לנו בעיה לשלוח אליך דוא"לים בעבר. אתה יכול לצפות בשגיאות <a href="/u/%{username_url}/events/emails?status=2,3">כאן</a>.</p>
+
+          <p>במקרה שהבעיות עם כתובת הדוא"ל שלך תוקנו או שהן היו רק זמניות, לחץ על כפתור האיפוס למטה וננסה לשלוח לך דוא"ל אחר לוודא.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>על מנת לשנות את הסיסמה שלך, אנחנו צריכים כתובת דוא"ל תקפה. למרבה הצער, הייתה לנו בעיה לשלוח אליך דוא"לים בעבר. אתה יכול לצפות בשגיאות <a href="/u/%{username_url}/events/emails?status=2,3">כאן</a>.</p>
+
+          <p>במקרה שהבעיות עם כתובת הדוא"ל שלך תוקנו או שהן היו רק זמניות, לחץ על כפתור האיפוס למטה וננסה לשלוח לך דוא"ל אחר לוודא.</p>
       reset_password_dialog_text: ע"י אישור בקשה זו, יישלח אליך דוא"ל עם הוראות כיצד לאפס את סיסמתך. האם אתה בטוח שאתה רוצה לעשות זאת?
     sharing:
       favorite_list:
@@ -3302,6 +3311,6 @@ he-IL:
   used_by_developers: .נמצא בשימוש ע"י יותר מ־200,000 מפתחים TMDb<br>.עיין בעבודתם למטה
   view all: הצג הכל
   will_paginate:
-    next_label: 
+    next_label: הבא ←
     page_gap: 
-    previous_label: 
+    previous_label: הקודם →

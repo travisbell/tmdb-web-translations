@@ -147,7 +147,7 @@ zh-TW:
   Discover New TV Shows: 探索新電視影集
   Discussions: 討論
   Documentation: 文件
-  Duplicate: 資料重復
+  Duplicate: 資料重複
   Edit: 編輯
   Edit App: 程式編輯
   Edit Data: 編輯資料
@@ -233,9 +233,9 @@ zh-TW:
   Language Preferences: 語言設定
   Languages: 語言
   Last Name: 姓
-  Last Season Crew: 最後一季的劇組人員
-  Last Season Featured Crew: 最後一季的精選劇組人員
-  Last Season Regular Cast: 最後一季的演員
+  Last Season Crew: 最新一季的劇組人員
+  Last Season Featured Crew: 最新一季的精選劇組人員
+  Last Season Regular Cast: 最新一季的演員
   Last Week: 上週
   Leaderboard: 貢獻排行榜
   Legal: 法律條款
@@ -305,7 +305,7 @@ zh-TW:
   Original Title: 原片名
   Other Databases: 其他資料庫
   Our History: 我們的歷史
-  Overview: 劇情簡介
+  Overview: 簡介
   Page: 頁
   Password: 密碼
   Password Confirm: 確認密碼
@@ -402,7 +402,7 @@ zh-TW:
   Select One: 選擇...
   Select a category: 選擇類別...
   Send: 送出
-  Sessions: 層級
+  Sessions: Sessions
   Share: 分享
   Sharing: 分享
   Show: 展開
@@ -673,8 +673,8 @@ zh-TW:
       my_watchlist: 我的待看清單
       next_month: 下個月
       no_upcoming_movies:
-        one: 目前您的待看清單中有%{count}筆資料，但沒有即將上映的電影。
-        other: 目前您的待看清單中有%{count}筆資料，但沒有即將上映的電影。
+        one: 您的待看清單中有%{count}筆資料，但沒有即將上映的電影。
+        other: 您的待看清單中有%{count}筆資料，但沒有即將上映的電影。
       no_upcoming_tv_shows:
         one: 目前您的待看清單中有%{count}筆資料，但沒有即將上映的電視影集。
         other: 目前您的待看清單中有%{count}筆資料，但沒有即將上映的電視影集。
@@ -713,6 +713,7 @@ zh-TW:
     overview: 簡介
     title: 片名
     to_accounts_ids: 往
+    translated_overview: 
   average edits per day: 每日平均編輯量
   back_options:
     back: 返回
@@ -2810,8 +2811,8 @@ zh-TW:
         by: 由 %{username} 撰寫於 %{date}
         featured_review: 推薦影評
         no_review:
-          logged_in: 目前沒有關於%{title}的評論，您有興趣<a href="%{url}">寫一個評論</a>嗎?
-          public: 目前沒有關於%{title}的評論
+          logged_in: 沒有關於%{title}的評論，您有興趣<a href="%{url}">寫一個評論</a>嗎?
+          public: 沒有關於%{title}的評論
         read_all: 閱讀所有評論
         read_the_rest: 繼續閱讀
         write_review:
@@ -2838,7 +2839,7 @@ zh-TW:
         screened_label: 本季內容曾經於劇院或電影院播映嗎？
       season_selector:
         current_season: 本季
-        last_season: 最後一季
+        last_season: 最新一季
         next_season: 下一季
         previous_season: 前一季
     tv_show:
@@ -2954,7 +2955,7 @@ zh-TW:
     placeholders:
       no_conversation_selected:
         create: 您可點擊 <a href="%{link}">此處</a> 建立新的會話
-        no_conversations: 你目前沒有任何進行中的會話
+        no_conversations: 您沒有任何進行中的會話
         view: 您可點擊左側瀏覽會話
       no_user_found: 沒有找到任何使用者
       reply: 輸入訊息...
@@ -2968,7 +2969,7 @@ zh-TW:
       new_message: 新訊息
       support_archive: 封存支援
       support_inbox: 收件匣支援
-    translate: 
+    translate: 翻譯
   month: "%{count} 個月"
   navigation:
     discover:
@@ -2989,15 +2990,15 @@ zh-TW:
       on_tv: 電視播映中
       popular: 熱門
       top_rated: 評分排行
-  no_biography: 目前沒有關於 %{name} 的傳記
-  no_cast: 目前沒有關於%{media_type}的演員。您可以幫助新增資料！
+  no_biography: 沒有關於 %{name} 的傳記
+  no_cast: 沒有關於%{media_type}的演員。您可以新增資料！
   no_collection_search_results: 沒有符合您搜尋的結果
   no_company_search_results: 沒有符合您要搜尋的結果
-  no_contributors: 目前沒有關於投稿人的資料
+  no_contributors: 無投稿人名單
   no_created_lists: 您尚未建立任何收藏表
-  no_crew: 目前沒有本 %{media_type} 的演員資料，您可以幫助新增資料！
+  no_crew: 沒有 %{media_type} 的演員資料，您可以新增資料！
   no_description: 尚未輸入任何描述
-  no_director: 目前沒有導演名單
+  no_director: 無導演名單
   no_episode_images: 目前還沒有加入任何影集圖片
   no_favorite_movies:
     current_user: 您尚未加入任何喜愛的電影。
@@ -3006,13 +3007,13 @@ zh-TW:
     current_user: 您尚未加入任何喜愛的電視影集。
     public: "%{username} 沒有任何喜愛的電視影集。"
   no_genres: 目前還沒有任何電影類型的資料。
-  no_guest_stars: 目前沒有關於客串演員的資料。
+  no_guest_stars: 無客串演員名單
   no_keyword_search_results: 沒有任何符合關鍵字的資料。
-  no_keywords: 目前沒有關鍵字的資料。
-  no_list_search_results: 目前沒有符合的清單資料
-  no_media: 目前沒有關於%{title}的影片、背景簡介或海報。
+  no_keywords: 沒有關鍵字的資料
+  no_list_search_results: 沒有符合結果的清單資料
+  no_media: 沒有關於%{title}的影片、背景簡介或海報。
   no_movie_search_results: 沒有搜尋到任何電影。
-  no_overview: 目前沒有相關簡介，您可協助新增簡介資料。
+  no_overview: 沒有相關簡介，您可協助新增資料。
   no_person_search_results: 沒有搜尋到任何演員。
   no_personal_recommendations:
     movie: 您可透過增加有興趣的電影來獲得針對您個人的電影推薦。同時您可能已經注意到我們推薦過很多您已經看過的電影，請對這些電影評分，未來我們將根據您的喜好來做過濾！
@@ -3034,7 +3035,7 @@ zh-TW:
   no_watchlist_tv_shows:
     current_user: 您尚未加入任何電視影集到您的待看清單。
     public: 待看清單中無任何電視影集。
-  no_writer: 目前沒有關於編劇的資料
+  no_writer: 無編劇名單
   not_translated:
     logged_in: 目前%{page_title}尚未有<strong>%{requested_i18n} (%{requested_language_text})</strong>的翻譯。如果您有興趣新增此翻譯，請按下方的按鈕。
     public: 目前%{page_title}尚未有<strong>%{requested_i18n} (%{requested_language_text})</strong>的翻譯。您可以透過<a href="%{signup_link}">註冊</a>一個帳號並<a href="%{login_link}">登入</a>以新增翻譯。
@@ -3254,7 +3255,7 @@ zh-TW:
         confirm_remove: 請確認你將要移除背景圖片，要繼續嗎？
         remove_background: 移除您的背景圖片嗎？
         set_image: 設定背景圖片？
-      change_password: 更換密碼嗎
+      change_password: 更改密碼
       edit_profile: 編輯個人資料
       email:
         invalid_dialog_title: 重新設定電子郵件？
