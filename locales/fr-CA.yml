@@ -66,7 +66,7 @@ fr-CA:
   Approve: Approuver
   Approved?: Approuvé?
   Apps: Applications
-  Archived Databases: 
+  Archived Databases: Bases de données archivées
   Are you sure?: Êtes-vous certain(e) ?
   Attributes: Attributs
   Auto: Auto
@@ -77,9 +77,9 @@ fr-CA:
   Best Match: Meilleur résultat
   Biography: Biographie
   Birthday: Date de naissance
-  Blocked Users: 
-  Blog: 
-  Branding: 
+  Blocked Users: Utilisateurs bloqués
+  Blog: Blog
+  Branding: Marque
   Budget: Budget
   Cancel: Annuler
   Cast: Distribution
@@ -517,231 +517,239 @@ fr-CA:
     lists: Listes
     login: Se connecter
     logout: Déconnexion
-    messages: 
-    profile_and_settings: 
-    ratings: 
+    messages: Messages
+    profile_and_settings: Profil et paramètres
+    ratings: Évaluation
     settings: Paramètres
     sign_up: S'inscrire
     view_profile: Voir le profile
     watchlist: Liste de suivi
   accounts:
     activity:
-      activity: 
+      activity: Activité
       legend:
-        added: 
-        created: 
-        deleted: 
-        updated: 
+        added: Ajouté
+        created: Créé
+        deleted: Effacé
+        updated: Mis à jour
       media_types:
         movies: Films
-        others: 
+        others: Autre
         people: Artistes
         tv: Télé
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mon activité récente
+        public: Activité récente de %{username}
       table:
-        action: 
-        edit: 
-        key: 
-        language_abbreviation: 
-    average_movie_score: 
-    average_tv_score: 
+        action: Action
+        edit: Modifié
+        key: Clé
+        language_abbreviation: Langue
+    average_movie_score: Évaluation<br>moyenne du film
+    average_tv_score: Évaluation<br>moyenne de la série
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: Mes forums actifs
+      my_discussions: Mes discussions
+      not_watching: Vous ne suivez aucune discussion
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mes discussions
+        public: Discussions de %{username}
     events:
-      all: 
+      all: Tous
       emails:
-        emails: 
+        emails: Courriels
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Rebondi
+            Complaint: Plaintes
+            Delivery: Livré
+            Unsubscribed: Désabonné
+            status: Statut
+        number_of_items:
+          one: "%{count} courriel"
+          other: "%{count} courriels"
+      events: Événements
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Discussion
+            General: Général
+            List Import: Importation de liste
+            Mention: Mention
+            Messages: Messages
+            type: Type
+        notifications: Notifications
+        number_of_items:
+          one: "%{count} Notification"
+          other: "%{count} Notifications"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Événements récents
+      recent: Récent
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Si vous souhaitez exporter une copie de cette liste vers un fichier CSV, cliquez sur le bouton "Exporter" ci-dessous. Nous allons créer le fichier d'exportation et vous l'envoyer par courriel. Selon la taille de votre liste, cette opération peut prendre quelques minutes.
+      export: Exporter
+      export_csv: Exporter en format CSV
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
+        logged_in: Mes favoris
+        public: Favoris de %{username}
       page_title:
-        page_owner: 
-        public: 
-    filter_by: 
+        page_owner: Mes favoris
+        public: Favoris de %{username}
+    filter_by: 'Filtré par:'
     filters:
-      date_added: 
-      date_rated: 
-      my_rating: 
-      popularity: 
-      rating: 
-      release_date: 
-      score: 
-      upcoming: 
+      date_added: Date d'ajout
+      date_rated: Date de l'évaluation
+      my_rating: Mon évaluation
+      popularity: Popularité
+      rating: Évaluation
+      release_date: Date de sortie
+      score: Note
+      upcoming: Prochain
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Créer une liste
+      last_updated: Mis à jour
       my_lists:
-        logged_in: 
-        public: 
+        logged_in: Mes listes
+        public: Liste de %{username}
       no_lists:
-        logged_in: 
-        public: 
+        logged_in: Vous n'avez créé aucune liste.
+        public: "%{username} n'a créé aucune liste publique à partager"
       page_title:
-        page_owner: 
-        public: 
-    member_since: 
+        page_owner: Mes listes
+        public: Listes de %{username}
+    member_since: Membre depuis %{date}
     navigation:
-      discussions: 
-      favorites: 
-      lists: 
-      overview: 
-      ratings_reviews: 
-      recommendations: 
+      discussions: Discussions
+      favorites: Favoris
+      lists: Listes
+      overview: Vue d'ensemble
+      ratings_reviews: Évaluations et commentaires
+      recommendations: Recommandations
       watchlist: Liste de suivi
-    order: 
+    order: 'Ordre:'
     overview:
-      30_day_activity: 
+      30_day_activity: Activité de 30 jours
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Vous n'avez apporté aucune modification récente.
+        public: "%{username} n'a effectué aucune modification récemment."
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Il n'y a pas de films à venir dans votre liste de suivi.
       empty_watched_genres:
-        logged_in: 
-        public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+        logged_in: Vous n'avez enregistré aucun film ou émission de télévision.
+        public: "%{username} n'a enregistré aucun film ou série."
+      goto_discussions: Aller aux discussions
+      goto_watchlist: Aller à la liste d'écoute
+      most_watched_genres: Genres les plus regardés
+      rating_overview: Aperçu de l'évaluation
+      recent_activity: Activité récente
+      recent_discussions: Discussions récentes
+      total_edits: Nombre total de modifications
+      total_ratings: Nombre total d'évaluations
+      upcoming_watchlist: À venir de la liste de suivi
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Mon profil
+      public: Profil de %{username}
     ratings_reviews:
       my_ratings:
-        logged_in: 
-        public: 
+        logged_in: Mon classement
+        public: Notes de %{username}
       my_reviews:
-        logged_in: 
-        public: 
+        logged_in: Mes commentaires
+        public: Commentaires de %{username}
       page_title:
-        page_owner: 
-        public: 
-      ratings_by_year: 
+        page_owner: Mon classement et commentaires
+        public: Classement et commentaires de %{username}
+      ratings_by_year: Notes par année
     recommendations:
-      my_recommendations: 
-      no_recommendations: 
-      no_recommendations_helper: 
-      page_title: 
+      my_recommendations: Mes recommandations
+      no_recommendations: Nous n'avons pas assez de données pour suggérer des recommandations.
+      no_recommendations_helper: Essayez d’ajouter quelques favoris (le meilleur est le mieux) et revenez pour voir comment nous en sommes arrivés.
+      page_title: Recommandations
     tips:
-      import_imdb_ratings: 
-      tip: 
+      import_imdb_ratings: Vous pouvez importer vos évaluations depuis IMDb.
+      tip: Truc
     watchlist:
-      my_watchlist: 
-      next_month: 
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      my_watchlist: Ma liste de suivi
+      next_month: Mois prochain
+      no_upcoming_movies:
+        one: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
+        other: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+      no_upcoming_tv_shows:
+        one: Il n'y a pas de série à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
+        other: Il n'y a pas de série à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
       page_title:
-        page_owner: 
-        public: 
-      this_month: 
-      this_week: 
-      view_them: 
+        page_owner: Ma liste de suivi
+        public: Liste de suivi de %{username}
+      this_month: Ce mois-ci
+      this_week: Cette semaine
+      view_them: Les visionner
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Demande d'authentification tierce
     approved_session: 'Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre. '
     continue: 'Si vous voulez continuer, cliquer sur le bouton ci-dessous pour approuver. Sinon, vous n''avez qu''à fermer cette fenêtre.  '
-    request_token_approval: 
+    request_token_approval: "{{APP}} vous demande la permission de lire et d'écrire des données en votre nom. Cela est nécessaire si vous voulez faire des choses comme maintenir vos listes ou noter des films en dehors de TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Vous avez accordé les droits de lecture et d'écriture sur <strong>%{application_name}</strong>. Vous pouvez maintenant revenir à l'application et fermer cette fenêtre. Vous pouvez toujours révoquer cet accès en accédant à la page des paramètres de votre compte, puis à la page "Applications connectées".
+        name: Authentification accordée
       denied:
-        message: 
-        name: 
+        message: "<p>Vous avez refusé l'accès à <strong>%{application_name}</ strong>. S'il s'agit d'une erreur ou si vous souhaitez redémarrer le processus d'authentification, retournez dans l'application et redemandez l'autorisation. </p>"
+        name: Autorisation refusée
       invalid_request_token:
-        message: 
-        name: 
+        message: Le jeton d'accès que vous avez soumis n'est pas valide. Essayez de créer un nouveau et assurez-vous de l'avoir copié correctement. Si vous continuez à avoir des problèmes, contactez le développeur de l'application que vous utilisez.
+        name: Jeton de demande invalide
   attributes:
     biography: Biographie
     certification: Classement
     external_href: URL
-    homepage: 
+    homepage: Page d'acceuil
     iso_3166_1: Pays
     iso_639_1: Langue
-    normalized_email: 
-    normalized_username: 
+    normalized_email: Courriel
+    normalized_username: Nom d'utilisateur
     overview: Synopsis
     title: Titre
-    to_accounts_ids: 
-    translated_overview: 
+    to_accounts_ids: À
+    translated_overview: Vue d'ensemble
   average edits per day: moyenne de modifications par jour
   back_options:
-    back: 
-    episode: 
-    episode_groups: 
-    episode_list: 
-    home: 
-    main: 
+    back: Retour
+    episode: Retour à l'épisode
+    episode_groups: Retour aux groupes d'épisodes
+    episode_list: Retour à la liste des épisodes
+    home: Retour à l'acceuil
+    main: Retour à la page principale
     named_episode_group: 
-    season: 
-    season_list: 
-    to_tmdb: 
-    top: 
+    season: Retour à la saison
+    season_list: Retour à la liste des saisons
+    to_tmdb: Retour à TMDb
+    top: Retour au début
   certifications:
     meaning: 
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Exempt de classification. Les films exemptés de classification ne doivent pas contenir de matériel controversé (c’est-à-dire un matériel qui serait normalement classé mature ou plus).
         '2':
-          meaning: 
+          meaning: Général. Le contenu est très faible en impact.
         '3':
-          meaning: 
+          meaning: Surveillance parentale recommandée. Il n'y a pas de restrictions d'âge. Le contenu est faible en impact.
         '4':
-          meaning: 
+          meaning: Recommandé pour un public mature. Il n'y a pas de restrictions d'âge. Le contenu est modéré en impact.
         '5':
-          meaning: 
+          meaning: Mature Accompagné. Ne convient pas aux enfants de moins de 15 ans. Les enfants de moins de 15 ans doivent être accompagnés d'un parent ou d'un tuteur. Le contenu est fort en impact.
         '6':
-          meaning: 
+          meaning: Limité à 18 ans et plus. Seulement les adultes. Le contenu a un gros impact.
         '7':
-          meaning: 
+          meaning: Limité à 18 ans et plus. Les films ayant cette cote ont un contenu pornographique. Les films classés 18+ ne peuvent être ni vendus ni loués dans tous les États australiens et ne sont légalement disponibles que dans le territoire de la capitale australienne et le territoire du Nord. Cependant, importer du matériel 18+ depuis les deux territoires dans n’importe quel État australien est légal. Le contenu est sexuellement explicite.
         '8':
-          meaning: 
+          meaning: Classification refusée. Interdit de vendre ou de louer en Australie; s’applique aussi généralement à l’importation (si elle est inspectée et suspecte par les douanes). L'écoute privée sur Internet n'est pas appliquée et les tentatives de censure légale de tels contenus en ligne ont donné lieu à des controverses. Les films sont classés RC si leur contenu dépasse les directives. Le contenu a un très fort impact.
       BG:
         '1':
-          meaning: 
+          meaning: Recommandé pour les enfants.
         '2':
           meaning: 
         '3':
