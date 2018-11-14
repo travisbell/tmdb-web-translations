@@ -88,7 +88,7 @@ zh-CN:
   Change?: 变更吗？
   Changes: 编辑纪录
   Character: 角色
-  Choose: 
+  Choose: 选择
   City: 城市
   Clip: 剪辑
   Clips: 剪辑
@@ -416,7 +416,7 @@ zh-CN:
   Source Key: 源密钥
   Specials: 特别篇
   Spoken Languages: 配音语言
-  State: 状态
+  State: 省
   Stats: 状态
   Status: 状态
   Status Codes: 状态码
@@ -1181,9 +1181,9 @@ zh-CN:
         '1':
           meaning: 适合7岁以上观众观影。
         '2':
-          meaning: 
+          meaning: 面向超过14岁的观众，从晚上9点到早上6点播出。
         '3':
-          meaning: 
+          meaning: 面向超过18岁（对应年龄分级N-18）的成人观众，晚上11点到早上6点播出；未成年人不允许观看，仅限成人观众。
       NL:
         '0':
           meaning: 无分级信息。
@@ -1199,15 +1199,15 @@ zh-CN:
           meaning: 16岁以下的儿童注意。
       PH:
         '0':
-          meaning: 
+          meaning: 没有分级信息。
         '1':
-          meaning: 
+          meaning: 适合所有年龄观看。
         '2':
-          meaning: 
+          meaning: 建议在家长指导下观看。
         '3':
-          meaning: 
+          meaning: 建议在家长加强和更警惕地指导下观看。
         '4':
-          meaning: 
+          meaning: 任何不符合“G”，“PG”和“SPG”分级的电视节目不允许播出。
       PT:
         '0':
           meaning: 无分级信息。
@@ -1309,11 +1309,11 @@ zh-CN:
     tv_shows_missing_a_overview: 剧集缺少剧情简介
   contribution_bible:
     abbreviations:
-      collection: 
+      collection: col
       image: 图
-      movie: 
-      people: 
-      tv: 
+      movie: mov
+      people: ppl
+      tv: tv
     collection:
       collection: 系列
       collection_bible: 系列型态参考手册
@@ -1321,7 +1321,7 @@ zh-CN:
         bottom: 参考手册
         top: 系列
     contribution_bible: 数据编辑参考手册
-    featured_articles: 
+    featured_articles: 精华文章
     general:
       general: 一般
       general_bible: 一般参考手册
@@ -1356,8 +1356,8 @@ zh-CN:
     welcome_1: 欢迎至
     welcome_2: 贡献参考手册
   cookie_popup:
-    message: 
-    ok_button: 
+    message: 为了让您在访问 TMDb 网站能有更好的体验，我们需要使用 cookies。您可以浏览我们的<a href="%{policy_url}" target="_blank" rel="noopener">cookie 使用条款</a>了解更多内容。如果您继续使用 TMDb，我们默认您已经同意此条款。
+    ok_button: 好的
   date:
     abbr_day_names:
     - 周日
@@ -1412,14 +1412,20 @@ zh-CN:
   day: 日
   days: "%{count} 日"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: 内容已删除
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          你好，
+          这只是一条 TMDb 内容管理员发过来的友好消息。你创建的名为 "%{title}" 的条目已经被删除。因为标题已经存在于我们的数据库中，所以被认为是重复内容。
+          如果对这个删除操作有任何疑问，请不用顾虑，直接回复这条消息。
+        subject: 重复内容
       '2':
-        message: 
-        subject: 
+        message: |-
+          你好，
+          这只是一条 TMDb 内容管理员发过来的友好消息。你创建的名为 "%{title}" 的条目已经被删除。因为标题不符合我们[的新内容准则](https://www.themoviedb.org/bible/new_content)。
+          如果对这个删除操作有任何疑问，请不用顾虑，直接回复这条消息。
+        subject: 不符合我们的内容准则（业余，等等）
       '3':
         message: 
         subject: 
@@ -3269,6 +3275,6 @@ zh-CN:
   used_by_developers: 有超过20万开发人员使用 TMDB。<br>以下浏览他们的工作。
   view all: 浏览全部
   will_paginate:
-    next_label: 
+    next_label: 下一页 →
     page_gap: 
-    previous_label: 
+    previous_label: "← 上一页"
