@@ -66,7 +66,7 @@ zh-CN:
   Approve: 准许
   Approved?: 核准吗？
   Apps: 应用
-  Archived Databases: 
+  Archived Databases: 存档数据库
   Are you sure?: 确定吗？
   Attributes: 属性
   Auto: 自动
@@ -690,7 +690,7 @@ zh-CN:
     3rd_party_request: 第三方授权请求
     approved_session: 你已核准 %{application_name}。你可以关闭此窗口。
     continue: 如要继续，点击下面的核准按钮。否则，只需关闭此窗口。
-    request_token_approval: 
+    request_token_approval: "{{APP}}请求您的许可来代为读取和写入数据。如果你想做一些事情，比如维护你的列表或者对TMDB以外的电影进行评分都是有必要的。"
     statuses:
       completed:
         message: 您已授予<strong>%{application_name}</strong>的读写权限。您现在可以返回到应用程序并关闭此窗口。您可以随时进入帐户设置页面，然后进入“已连接的应用”页面，以撤消此访问权限。
@@ -712,17 +712,17 @@ zh-CN:
     normalized_username: 用户名
     overview: 概述
     title: 标题
-    to_accounts_ids: 
+    to_accounts_ids: 发送给
     translated_overview: 概述
   average edits per day: 日均编辑
   back_options:
     back: 返回
     episode: 返回集
-    episode_groups: 
+    episode_groups: 返回剧集组
     episode_list: 返回集列表
     home: 返回主界面
     main: 返回主页面
-    named_episode_group: 
+    named_episode_group: 返回 &lsquo;%{group_name}&rsquo; 组
     season: 返回季
     season_list: 返回季列表
     to_tmdb: 回到 TMDb
@@ -893,24 +893,24 @@ zh-CN:
           meaning: 限于成人观众（18岁以上）。任何18岁以下者不得购买/租用A级DVD、VHS、UMD或在电影院观看此分级的电影。这个类别的电影可能包含被认为不适合未成年人的成人/令人不安的主题、频繁的粗口、残酷的暴力与血腥、强烈的性爱场面和/或药物滥用的场景。
       IT:
         '0':
-          meaning: 
+          meaning: 没有评分信息
         '1':
-          meaning: 
+          meaning: 可接纳所有年龄段
         '2':
-          meaning: 
+          meaning: 限制14周岁以下儿童
         '3':
-          meaning: 
+          meaning: 限制18周岁以下儿童
       LT:
         '1':
-          meaning: 
+          meaning: 适合所有年龄段观众的电影
         '2':
-          meaning: 
+          meaning: 适合7岁以上观众的电影。低于7岁的观众需要在家长的陪同下浏览此索引。
         '3':
-          meaning: 
+          meaning: 适合13岁以上观众的电影。年龄在7岁至13岁的观众，需要在家长的陪同下浏览此索引。
         '4':
-          meaning: 
+          meaning: 适合16岁以上观众的电影。
         '5':
-          meaning: 
+          meaning: 适合18岁以上观众的电影。
       MY:
         '0':
           meaning: 无分级信息。
@@ -1001,15 +1001,15 @@ zh-CN:
           meaning: 特别分级对M/18年龄分级针对色情。
       RU:
         '1':
-          meaning: 
+          meaning: 适合所有年龄段
         '2':
-          meaning: 
+          meaning: "（适合6岁以上）- 不适合6岁以下"
         '3':
-          meaning: 
+          meaning: "（适合12岁以上）- 不适合12岁以下"
         '4':
-          meaning: 
+          meaning: "（适合16岁以上）- 不适合16岁以下"
         '5':
-          meaning: 
+          meaning: "（限制儿童）- 限制18岁以下儿童"
       SE:
         '0':
           meaning: 无分级信息。
@@ -1106,23 +1106,23 @@ zh-CN:
           meaning: 仅能在晚上11:00到早上6:00播出。
       ES:
         '0':
-          meaning: 
+          meaning: 没有评分信息
         '1':
-          meaning: 
+          meaning: 特别推荐给幼儿
         '2':
-          meaning: 
+          meaning: 一般观影
         '3':
-          meaning: 
+          meaning: 不推荐7岁以下儿童观影
         '4':
-          meaning: 
+          meaning: 不推荐10岁以下儿童观影
         '5':
-          meaning: 
+          meaning: 不推荐12岁以下儿童观影
         '6':
-          meaning: 
+          meaning: 不推荐13岁以下儿童观影
         '7':
-          meaning: 
+          meaning: 不推荐16岁以下观众观影
         '8':
-          meaning: 
+          meaning: 不推荐18岁以下观众观影
       FR:
         '0':
           meaning: 无分级信息。
@@ -1179,7 +1179,7 @@ zh-CN:
           meaning: 此分级的节目仅适合成年人。上午7:00至9:00，下午1:00至晚上10:00不得播放19级节目。此分级的节目几乎肯定会有成人主题、性描述、频繁使用强烈的语言和令人不安的暴力场面。
       LT:
         '1':
-          meaning: 
+          meaning: 适合7岁以上观众观影。
         '2':
           meaning: 
         '3':

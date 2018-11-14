@@ -560,25 +560,33 @@ pt-BR:
         emails: E-mails
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
+            Bounce: |2-
+
+              Devolvido
+            Complaint: |2-
+
+              Queixa
+            Delivery: |2-
+
+              Entregue
+            Unsubscribed: |2-
+
+              Não subscrito
+            status: Status
         number_of_items:
           one: "%{count} e-mail"
           other: "%{count} e-mails"
-      events: 
+      events: Eventos
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
+            Discussion: Comentários
+            General: Geral
+            List Import: Importar Lista
+            Mention: Menções
             Messages: Mensagens
             type: Tipo
-        notifications: 
+        notifications: Notificações
         number_of_items: 
       page_title:
         recent_events: Eventos recentes
@@ -685,7 +693,9 @@ pt-BR:
   add_to_list: Adicionar %{media_title} a uma de suas listas...
   already_translated_in: "%{page_title} já foi traduzido para as seguintes línguas..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: |2-
+
+      Pedido de autenticação de terceiros
     approved_session: O aplicativo %{application_name} foi aprovado. Você já pode fechar esta janela.
     continue: Se deseja continuar, clique no botão aprovar abaixo. Se não, você pode simplesmente fechar esta janela.
     request_token_approval: 
@@ -694,11 +704,19 @@ pt-BR:
         message: 
         name: Autenticação concedida
       denied:
-        message: 
-        name: 
+        message: |-
+          <p>Você negou acesso <strong>%{application_name}</strong>.
+          Se isso foi um erro, ou se você quiser reiniciar o processo de autenticação, basta voltar ao aplicativo e solicitar permissão novamente.</p>
+        name: 'Autenticação negada
+
+'
       invalid_request_token:
-        message: 
-        name: 
+        message: |2-
+
+          O token de acesso que você enviou é inválido. Tente criar um novo e verifique se copiou corretamente. Se você continuar com problemas, entre em contato com o desenvolvedor do aplicativo que você está usando.
+        name: |2-
+
+          Token de solicitação inválido
   attributes:
     biography: Biografia
     certification: Certificação
