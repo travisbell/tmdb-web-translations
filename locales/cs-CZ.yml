@@ -66,7 +66,7 @@ cs-CZ:
   Approve: Schválit
   Approved?: Schváleno?
   Apps: Aplikace
-  Archived Databases: 
+  Archived Databases: Archivované databáze
   Are you sure?: Opravdu?
   Attributes: Atributy
   Auto: Automaticky
@@ -561,9 +561,9 @@ cs-CZ:
         filters:
           status:
             Bounce: Vrácené
-            Complaint: 
+            Complaint: Stížnost
             Delivery: Doručené
-            Unsubscribed: 
+            Unsubscribed: Odhlášeno
             status: Stav
         number_of_items:
           few: "%{count} e-maily"
@@ -575,8 +575,8 @@ cs-CZ:
           type:
             Discussion: Diskuse
             General: Obecné
-            List Import: 
-            Mention: 
+            List Import: Import seznamu
+            Mention: Zmínka
             Messages: Zprávy
             type: Typ
         notifications: Oznámení
@@ -588,7 +588,7 @@ cs-CZ:
         recent_events: Nedávné události
       recent: Nedávné
     export:
-      csv_explanation: 
+      csv_explanation: Chcete-li kopii tohoto seznamu exportovat do souboru CSV, klikněte níže na tlačítko Exportovat. Export vytvoříme a zašleme vám e-mailem. V závislosti na velikosti vašeho seznamu to může trvat několik minut.
       export: Exportovat
       export_csv: Exportovat CSV
     favorites:
@@ -691,20 +691,20 @@ cs-CZ:
   add_to_list: Přidat %{media_title} do jednoho z vašich seznamů…
   already_translated_in: Stránka %{page_title} je již přeložena do následujících jazyků…
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Žádost o ověření třetí strany
     approved_session: Schválili jste %{application_name}. Můžete zavřít toto okno.
     continue: Pokud chcete pokračovat, klikněte na níže uvedené tlačítko schválení. Pokud ne, jednoduše zavřete toto okno.
-    request_token_approval: 
+    request_token_approval: "{{APP}} žádá o vaše oprávnění číst a zapisovat údaje ve vašem zastoupení. To je nutné, pokud chcete dělat věci, jako je udržování seznamů nebo posuzování filmů mimo TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Udělili jste oprávnění čtení a zápisu <strong>%{application_name}</strong> . Nyní se můžete vrátit do aplikace a zavřít toto okno. Tento přístup můžete kdykoli zrušit tím, že přejdete na stránku s nastavením účtu a na stránce Připojené aplikace.
+        name: Ověření schváleno
       denied:
-        message: 
-        name: 
+        message: "<p>Odmítli jste přístup k <strong>%{application_name}</ strong>. Pokud by se jednalo o chybu nebo byste chtěli restartovat proces ověřování, stačí se vrátit zpět do aplikace a znovu požádat o povolení. </ p>"
+        name: Ověření zamítnuto
       invalid_request_token:
-        message: 
-        name: 
+        message: Přístupový token, který jste odeslali, je neplatný. Zkuste vytvořit nový a ujistěte se, že jste jej správně zkopírovali. Pokud máte nadále problémy, obraťte se na vývojáře aplikace, kterou používáte.
+        name: Neplatný token požadavku
   attributes:
     biography: Biografie
     certification: Certifikace
@@ -716,8 +716,8 @@ cs-CZ:
     normalized_username: Uživatelské jméno
     overview: Přehled
     title: Název
-    to_accounts_ids: 
-    translated_overview: 
+    to_accounts_ids: K
+    translated_overview: Přehled
   average edits per day: úprav v průměru za den
   back_options:
     back: Zpět
@@ -736,7 +736,7 @@ cs-CZ:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Osvobozeno od klasifikace. Filmy, které jsou vyloučeny z klasifikace, nesmí obsahovat sporný materiál (tj. Materiál, který by byl obvykle hodnocen M nebo vyšším).
         '2':
           meaning: 
         '3':
@@ -761,36 +761,36 @@ cs-CZ:
         '4':
           meaning: Nevhodné pro děti do 16 let.
         '5':
-          meaning: 
+          meaning: Zakázáno pro osoby mladší 18 let.
       BR:
         '1':
-          meaning: 
+          meaning: Obecné publikum. Nevystavujte děti potenciálně škodlivému obsahu.
         '2':
-          meaning: 
+          meaning: Nedoporučuje se pro děti mladší 10 let. Násilný obsah nebo nevhodný jazyk pro děti, i když s nižší intenzitou.
         '3':
-          meaning: 
+          meaning: Nedoporučuje se pro děti mladší 12 let. Scény mohou zahrnovat fyzickou agresi, používání legálních drog a sexuální narušování.
         '4':
-          meaning: 
+          meaning: Nedoporučuje se mladistvým do 14 let. Více násilného materiálu, silnější odkazy na sex a / nebo nahotu.
         '5':
-          meaning: 
+          meaning: Nedoporučuje se pro mladistvé mladším 16 let. Scény představující produkci, obchodování s lidmi a / nebo užívání nelegálních drog, hyperrealistický sex, sexuální násilí, potraty, mučení, mrzačení, sebevražda, trivializace násilí a trest smrti.
         '6':
-          meaning: 
+          meaning: Nedoporučuje se mladistvým mladším 18 let. Scény představující explicitní sex, incest, pedofilii, chválení používání nezákonných drog a násilím silného rázu.
       CA:
         '1':
-          meaning: 
+          meaning: Všechny věkové kategorie.
         '2':
-          meaning: 
+          meaning: Doporučuje se rodičovský dohled. Neexistuje žádné věkové omezení, ale některé materiály nemusí být vhodné pro všechny děti.
         '3':
-          meaning: 
+          meaning: Osoby mladší 14 let musí být pod dohledem dospělé osoby.
         '4':
-          meaning: 
+          meaning: Osoby mladší 18 let musí být pod dohledem dospělé osoby. V Maritimes & Manitoba je dětem mladším 14 let zakázáno shlédnout film.
         '5':
-          meaning: 
+          meaning: Přístup se omezuje na osoby ve věku 18 let nebo starší. Jediným účelem filmu je zobrazení sexuálně explicitní činnosti a nebo explicitního násilí.
       CA-QC:
         '0':
           meaning: Žádné hodnocení
         '1':
-          meaning: 
+          meaning: Obecné hodnocení - mohou být prohlíženy, pronajaty nebo zakoupeny osobami všech věkových kategorií. Pokud by film nesoucí hodnocení "G" mohl urážet citlivost dítěte mladšího 8 let, je ke klasifikaci připojena poznámka "Nevhodné pro malé děti".
         '2':
           meaning: 
         '3':
@@ -825,48 +825,48 @@ cs-CZ:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: Nedoporučuje se pro publikum pod 7 let.
         '3':
-          meaning: 
+          meaning: Nedoporučuje se pro publikum pod 12 let.
         '4':
-          meaning: 
+          meaning: Nedoporučuje se pro publikum pod 16 let.
         '5':
-          meaning: 
+          meaning: Nedoporučuje se pro publikum pod 18 let.
         '6':
-          meaning: 
+          meaning: Zakázáno pro publikum pod 18 let.
       FI:
         '1':
-          meaning: 
+          meaning: Pro všechny věkové kategorie.
         '2':
-          meaning: 
+          meaning: Více než 7 let.
         '3':
-          meaning: 
+          meaning: Více než 12 let.
         '4':
-          meaning: 
+          meaning: Více než 16 let.
         '5':
-          meaning: 
+          meaning: Jen dospělí.
         '6':
-          meaning: 
+          meaning: Zakázán od komerční distribuce.
       FR:
         '1':
-          meaning: 
+          meaning: "(Tous publics) platné pro všechny diváky."
         '2':
-          meaning: 
+          meaning: '(Déconseillé aux moins de 10 ans) nevhodné pro děti mladší 10 let (toto hodnocení se používá pouze pro televizi); ekvivalent v divadlech: "varování" (výstraha), některé scény mohou znepokojovat malé děti a citlivé lidi; ekvivalentní na video: "Rodičovský doprovod" (rodičovský dohled).'
         '3':
-          meaning: 
+          meaning: "(Interdit aux moins de 12 ans) nevhodné pro děti mladší 12 let nebo zakázané v kinech osobám do 12 let."
         '4':
-          meaning: 
+          meaning: "(Interdit aux moins de 16 ans) nevhodné pro děti mladší 16 let nebo zakázané v kinech osobám do 16 let."
         '5':
-          meaning: 
+          meaning: "(Interdit aux mineurs) nevhodné pro děti mladší 18 let nebo zakázané v kinech osobám mladším 18 let."
       GB:
         '1':
-          meaning: 
+          meaning: Všechny věkové kategorie povoleny, zde pro děti není nic nevhodného.
         '2':
-          meaning: 
+          meaning: Všechny věkové kategorie jsou povoleny, ale některé scény mohou být nevhodné pro malé děti. Může obsahovat mírné narážky a odkazy na sex/drogy. Mohou obsahovat mírné násilí, pokud je to odůvodněno kontextem (například fantasy).
         '3':
-          meaning: 
+          meaning: Filmy v této kategorii jsou považovány za nevhodné pro velmi mladé lidi. Pro osoby mladší než 12 let, je vstup povolen pouze v doprovodu dospělého člověka, který je ve věku minimálně 18 let, a to v průběhu celého filmu. Nicméně se obecně nedoporučuje, aby děti do 12 let sledovaly film. Filmy v této kategorii mohou obsahovat témata pro dospělé, diskriminaci, měkké drogy, mírné nadávky, silné nadávky a mírné násilí, sexuální odkazy a nahotu. Sexuální aktivita může být krátce a diskrétně vylíčena. Sexuální násilí může být naznačeno nebo krátce uvedeno.
         '4':
-          meaning: 
+          meaning: Domácí média od roku 2002. Filmy s hodnocením 12A jsou většinou opatřeny hodnocením 12 pro verzi VHS / DVD, pokud nebyl přidán žádný další materiál, který vyžaduje vyšší hodnocení. Nikdo mladší než 12 let si nemůže pronajmout nebo koupit VHS, DVD, Blu-ray Disc, UMD nebo hru označenou hodnocením 12. Pokyny pro obsah jsou stejné jako u hodnocení 12A.
         '5':
           meaning: 
         '6':

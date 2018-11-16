@@ -66,7 +66,7 @@ sk-SK:
   Approve: Schváliť
   Approved?: Schválené?
   Apps: Aplikácie
-  Archived Databases: 
+  Archived Databases: Archivované databázy
   Are you sure?: Si si istý?
   Attributes: Atribúty
   Auto: Auto
@@ -291,7 +291,7 @@ sk-SK:
   Number of edits in the past: Počet úprav za posledých
   Offensive or Spam: Urážlivé alebo spam
   Offical Site: Oficiálna stránka
-  Offline Databases: 
+  Offline Databases: Offline databázy
   Opening Credits: Úvodné titulky
   Origin Country: Krajina pôvodu
   Original Air Date: Pôvodný dátum vysielania
@@ -717,7 +717,7 @@ sk-SK:
     overview: Obsah
     title: Názov
     to_accounts_ids: Ku
-    translated_overview: 
+    translated_overview: Prehľad
   average edits per day: premierne úprav za deň
   back_options:
     back: Späť
@@ -1209,9 +1209,9 @@ sk-SK:
         '2':
           meaning: Dohľad rodiča odporúčaný.
         '3':
-          meaning: 
+          meaning: Je navrhnuté silnejšie a bdelšie rodičovský dohlad.
         '4':
-          meaning: 
+          meaning: Každý televízny program, ktorý nie je v súlade s klasifikáciou "G", "PG" a "SPG", bude zamietnutý pre televízne vysielanie.
       PT:
         '0':
           meaning: Bez hodnotenia.
@@ -2985,7 +2985,7 @@ sk-SK:
       new_message: Nová správa
       support_archive: Archív podpory
       support_inbox: Chránka podpory
-    translate: 
+    translate: Preložiť
   month:
     few: "%{count} mesiace"
     one: mesiac
@@ -3292,7 +3292,10 @@ sk-SK:
       email:
         invalid_dialog_title: Resetovať Email?
         reset_button: Resetovať a poslať?
-        reset_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          <p> Bohužiaľ, v minulosti sme mali problémy s odosielaním e-mailov. Môžete zobraziť chyby <a href="/u/%{username_url}/events/emails?status=2,3">tu</a>. </p>
+
+          <p> Ak boli problémy s vašou e-mailovou adresou opravené alebo boli len dočasné, kliknite na tlačidlo resetovania nižšie a my vam skúsime poslať ďalší e-mail na overenie. </p>
         reset_password_invalid_email_dialog_text: <p>Aby sme mohli zmeniť vaše heslo, potrebujeme platnú emailovú adresu. Bohužiaľ sme v minulosti  mali problém zaslať email na vašu adresu. Chyby si môžete pozrieť <a href="/u/%{username_url}/events/emails?status=2,3">tu</a>.</p>
       reset_password_dialog_text: Potvrdením tejto požiadavky ti bude poslaný email s inštrukciami, ako obnoviť heslo.Si si istý, že toto chceš urobiť?
     sharing:

@@ -26,7 +26,7 @@ sv-SE:
   Add Item: Lägg till föremål
   Add Missing Cast & Crew: Lägg till saknade skådespelare & medarbetare
   Add Network: Lägg till bolag
-  Add New Episode: Lägg Till Avsnitt
+  Add New Episode: Lägg till avsnitt
   Add New Movie: Lägg till en Film
   Add New Release: Lägg till utgåva
   Add New Season: Lägg till Säsong
@@ -159,9 +159,11 @@ sv-SE:
   Email: E-post
   Email Address: E-postadress
   Email Content: E-postinnehåll
-  Episode Images: Avsnitts Bilder
-  Episode Number: Avsnitts Nummer
-  Episode Overview: Avsnitts Översikt
+  Episode Images:
+    one: ''
+    other: Avsnittsbilder
+  Episode Number: Avsnittsnummer
+  Episode Overview: Avsnittsöversikt
   Episodes: Avsnitt
   Error: Fel
   Example API Request: 
@@ -189,7 +191,7 @@ sv-SE:
   Filter by genre: Filtrera Efter Genrer
   Filter by genres: Filtrera på genre
   Filter by keywords: Filtrera på nyckelord
-  First Air Date: Första Sändnings Datum
+  First Air Date: Första sändningsdatum
   First Name: Förnamn
   Footnotes: Fotnoter
   Formatting Help: Formaterings Hjälp
@@ -398,7 +400,7 @@ sv-SE:
   Season Specials: 
   Seasons: Säsonger
   Secondary Color: 
-  See Episodes: Se Avsnitt
+  See Episodes: Se avsnitt
   Select One: Välj en...
   Select a category: Välj en kategori...
   Send: Skicka
@@ -486,14 +488,14 @@ sv-SE:
   Videos: Videor
   View: Vy
   View All Backdrops: Visa alla bakgrundsbilder
-  View All Episode Images: 
-  View All Episodes: Visa Alla Avsnitt
+  View All Episode Images: Visa alla avsnittsbilder
+  View All Episodes: Visa alla avsnitt
   View All Posters: Visa alla affischer
   View All Seasons: Visa Alla Säsonger
   View All Videos: Visa Alla Videos
   View Discussions: Visa Diskussioner
   View Edit History: Visa Redigerings Historik
-  View Episodes: Visa Avsnitt
+  View Episodes: Visa avsnitt
   View More: Visa Mer
   View Original: Visa Ursprunglig
   View Profile Images: Visa Profilbilder
@@ -513,7 +515,7 @@ sv-SE:
   Zip Code: 
   account_drop_down:
     discussions: Diskussioner
-    edit_profile: Redigera Profil
+    edit_profile: Redigera profil
     lists: Listor
     login: Logga in
     logout: Logga ut
@@ -541,7 +543,7 @@ sv-SE:
         page_owner: 
         public: 
       table:
-        action: 
+        action: Åtgärd
         edit: Redigera
         key: 
         language_abbreviation: Språk
@@ -552,46 +554,50 @@ sv-SE:
       my_discussions: Mina Diskussioner
       not_watching: 'Du bevakar inga diskussioner.  '
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mina diskussioner
+        public: "%{username}s diskussioner"
     events:
-      all: 
+      all: Alla
       emails:
-        emails: 
+        emails: E-postmeddelanden
         filters:
           status:
             Bounce: 
-            Complaint: 
-            Delivery: 
+            Complaint: Klagomål
+            Delivery: Levererad
             Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            status: Status
+        number_of_items:
+          one: "%{count} e-postmeddelande"
+          other: "%{count} e-postmeddelanden"
+      events: Evenemang
       notifications:
         filters:
           type:
-            Discussion: 
+            Discussion: Diskussion
             General: 
             List Import: 
             Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Messages: Meddelanden
+            type: Typ
+        notifications: Notiser
+        number_of_items:
+          one: "%{count} notis"
+          other: "%{count} notiser"
       page_title:
         recent_events: 
       recent: 
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Om du vill ha en kopia av listan i CSV-format, klicka på "Exportera"-knappen nedan. Vi exporterar den och skickar den till dig via e-post. Beroende på din listas storlek kan det ta några minuter att fullborda.
+      export: Exportera
+      export_csv: Exportera CSV
     favorites:
       my_favorites:
         logged_in: Mina Favoriter
         public: "%{username}s Favoriter"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mina favoriter
+        public: "%{username}s favoriter"
     filter_by: 'Filtrera efter:'
     filters:
       date_added: Tillagt den
@@ -612,8 +618,8 @@ sv-SE:
         logged_in: Du har inte skapat några listor.
         public: "%{username} har inte några offentliga listor att dela"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Mina listor
+        public: "%{username}s listor"
     member_since: Medlem sedan %{date}
     navigation:
       discussions: Diskussioner
@@ -701,21 +707,21 @@ sv-SE:
     biography: Biografi
     certification: Certifiering
     external_href: URL
-    homepage: 
+    homepage: Hemsida
     iso_3166_1: Land
     iso_639_1: Språk
     normalized_email: E-post
     normalized_username: Användarnamn
     overview: Översikt
     title: Titel
-    to_accounts_ids: 
-    translated_overview: 
+    to_accounts_ids: Till
+    translated_overview: Översikt
   average edits per day: genomsnittliga ändringar per dag
   back_options:
     back: Tillbaka
     episode: Tillbaka till avsnitt
-    episode_groups: 
-    episode_list: Tillbaka till avsnitts listan
+    episode_groups: Tillbaka till avsnittsgrupper
+    episode_list: Tillbaka till avsnittslistan
     home: Tillbaka till hem
     main: Tillbaka till huvudsidan
     named_episode_group: 
@@ -742,7 +748,7 @@ sv-SE:
         '7':
           meaning: 
         '8':
-          meaning: 
+          meaning: Refused Classification (Vägrad klassificering). Bannlyst från försäljning eller uthyrning i Australien; gäller också vid importering (om inspekterad av och misstänkt av tullen). Privat visning över internet regleras inte och försök att lagligt censurera sådant onlinematerial har slutat i kontrovers. Filmer klassificeras som RC om innehållet överskrider riktlinjerna. Innehållet är mycket stötande.
       BG:
         '1':
           meaning: Rekommenderad för barn.
@@ -758,11 +764,11 @@ sv-SE:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: Rekommenderas inte för unga under tio år. Våldsamt innehåll eller opassande språk för barn, även om det är av en mindre grad.
         '3':
-          meaning: 
+          meaning: Rekommenderas inte för unga under tolv år. Scener kan innehålla fysisk aggression, användande av lagliga droger samt sexuella insinuationer.
         '4':
-          meaning: 
+          meaning: Rekommenderas inte för unga under fjorton år. Mer våldsamt innehåll, grövre sexreferenser och/eller nakenhet.
         '5':
           meaning: 
         '6':
@@ -1585,7 +1591,7 @@ sv-SE:
     tv:
       duplicate_created_by: 
       duplicate_crew_member: 
-      duplicate_episode: 
+      duplicate_episode: Avsnittet finns redan
       duplicate_guest_star: 
       duplicate_regular_season_member: 
       duplicate_season: 
@@ -1619,7 +1625,7 @@ sv-SE:
       '8': 
       '9': 
       backdrops_must_meet: 
-      episode_stills_must_meet: 
+      episode_stills_must_meet: 'Avsnitts-stillbilder måste möta följande kriterier:'
       posters_must_meet: 
       profile_must_meet: 
       read_guidelines: 
@@ -2568,7 +2574,7 @@ sv-SE:
       go_to_edit: 
       last_reply: 
       new_discussion: 
-      next_episode: 
+      next_episode: "(höger pil) gå till nästa avsnitt"
       next_page: 
       next_season: 
       open_activity: 
@@ -2576,7 +2582,7 @@ sv-SE:
       open_profile: 
       open_shortcut_window: 
       open_translation_selector: 
-      previous_episode: 
+      previous_episode: "(vänster pil) gå till föregående avsnitt"
       previous_page: 
       previous_season: 
       reply_to_discussion: 
@@ -2779,19 +2785,19 @@ sv-SE:
       edit:
         guest_stars:
           no_records: 
-        screened_as_part_of_season: 
+        screened_as_part_of_season: Ja, som en del av säsong
         screened_confirm: 
-        screened_label: 
+        screened_label: Har det här avsnittet visats på biografer?
       episode_selector:
         current_episode: 
         episode: 
-        next_episode: Nästa Avsnitt
-        previous_episode: Föregående Avsnitt
+        next_episode: Nästa avsnitt
+        previous_episode: Föregående avsnitt
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Skapa avsnitt
         episodes:
-          no_records: 
+          no_records: Inga avsnitt har lagts till.
         screened_confirm: 
         screened_label: 
       season_selector:
@@ -2813,29 +2819,31 @@ sv-SE:
         crew:
           no_season: 
         episode_groups:
-          create_new_group: 
-          description: 
-          episode_groups: 
+          create_new_group: Skapa ny grupp
+          description: Beskrivning
+          episode_groups: Avsnittsgrupper
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Flytta valda avsnitt
+            no_records: Inga avsnitt har lagts till i den här gruppen.
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Avsnitt
+            groups: Grupper
+          group: Grupp
           messages:
-            episodes_added: 
-          name: 
-          no_records: 
-          type: 
+            episodes_added:
+              one: "%{count} avsnitt har lagts till!"
+              other: "%{count} avsnitt har lagts till!"
+          name: Gruppnamn
+          no_records: Inga avsnittsgrupper har lagts till.
+          type: Typ
           types:
-            '1': 
-            '2': 
-            '3': 
-            '4': 
-            '5': 
-            '6': 
-            '7': 
+            '1': Ursprungligt sändningsdatum
+            '2': Absolut
+            '3': DVD
+            '4': Digital
+            '5': Historiespann
+            '6': Produktion
+            '7': TV
         networks:
           no_records: 
           none_found: 
@@ -2849,8 +2857,10 @@ sv-SE:
           no_records: 
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
+          count:
+            one: "%{count} grupp"
+            other: "%{count} grupper"
+        original_air_date: Ursprungligt sändningsdatum
       networks: 
       statuses:
         Canceled: Avbruten
@@ -2945,7 +2955,7 @@ sv-SE:
   no_crew: Vi har inga medarbetare tillagda till denna %{media_type}. Du kan hjälpa till genom att lägga till några!
   no_description: 
   no_director: Ingen regissör har lagts till.
-  no_episode_images: 
+  no_episode_images: Inga avsnittsbilder har lagts till.
   no_favorite_movies:
     current_user: Du har inte några favorit filmer.
     public: "%{username} har inte några favorit filmer."
