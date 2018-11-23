@@ -68,7 +68,7 @@ pl-PL:
   Approve: Zatwierdzaj
   Approved?: Zatwierdzić?
   Apps: Aplikacje
-  Archived Databases: 
+  Archived Databases: Zarchowizowane bazy danych
   Are you sure?: Jesteś pewny(-a)?
   Attributes: Atrybuty
   Auto: Automatycznie
@@ -549,7 +549,7 @@ pl-PL:
         tv: TV
       page_title:
         page_owner: Moja ostatnia aktywność
-        public: 
+        public: Ostatnia aktywność %{username}
       table:
         action: Działanie
         edit: Edycja
@@ -563,45 +563,51 @@ pl-PL:
       not_watching: Nie obserwujesz żadnych dyskusji.
       page_title:
         page_owner: Moje dyskusje
-        public: 
+        public: Dyskusje %{username}
     events:
       all: Wszystko
       emails:
         emails: E-maile
         filters:
           status:
-            Bounce: 
-            Complaint: 
+            Bounce: Odrzucona
+            Complaint: Zażalenie
             Delivery: Dostarczone
-            Unsubscribed: 
+            Unsubscribed: Wyrejestrowany
             status: Status
-        number_of_items: 
-      events: 
+        number_of_items:
+          few: "%{count} maile"
+          one: "%{count} mail"
+          other: "%{count} maili"
+      events: Wydarzenia
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Dyskusje
+            General: Ogólne
+            List Import: Import listy
+            Mention: Wspomnienie
+            Messages: Wiadomości
+            type: Typ
+        notifications: Nowyfikacje
+        number_of_items:
+          few: "%{count} notyfikacje"
+          one: "%{count} notyfikacja"
+          other: "%{count} notyfikacji"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Ostatnie wydarzenia
+      recent: Ostatnie
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Jeśli chcesz pobrać kopię tej listy w w formacie CSV, naciśnij przycisk "Ekportuj" poniżej. Plik zostanie przygotowany i przesłan pocztą email. W  zależności od rozmiaru listy, operacja może potrwać kilka minut.
+      export: Eksportuj
+      export_csv: Eksportuj CSV
     favorites:
       my_favorites:
         logged_in: Moje ulubione
         public: Ulubione użytkownika %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje ulubione
+        public: Ulubione %{username}
     filter_by: 'Filtry:'
     filters:
       date_added: Data dodania
@@ -622,8 +628,8 @@ pl-PL:
         logged_in: Nie stworzyłeś żadnych list.
         public: Użytkownik %{username} nie posiada żadnych publicznych list.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje listy
+        public: Listy %{username}
     member_since: Użytkownik od %{date}
     navigation:
       discussions: Dyskusje
@@ -654,8 +660,8 @@ pl-PL:
       total_ratings: Wszystkich ocen
       upcoming_watchlist: Nadchodzące z obserwowanych
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Mój profil
+      public: Profil %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Moje oceny
@@ -664,14 +670,14 @@ pl-PL:
         logged_in: Moje recenzje
         public: Recenzje użytkownika %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje oceny i recenzje
+        public: Oceny i recenzje %{username}
       ratings_by_year: Oceny według roku
     recommendations:
       my_recommendations: Rekomendowane dla ciebie
       no_recommendations: Mamy zbyt mało danych, aby zasugerować ci jakiekolwiek rekomendacje.
       no_recommendations_helper: Postaraj się dodać więcej ulubionych (czym więcej tym lepiej) i wróć ponownie.
-      page_title: 
+      page_title: Polecenia
     tips:
       import_imdb_ratings: Możesz importować swoje oceny z IMDb.
       tip: Wskazówka
@@ -687,8 +693,8 @@ pl-PL:
         one: Nie ma nadchodzących serialów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} serial.
         other: Nie ma nadchodzących serialów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} serialów.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moja lista do obejrzenia
+        public: Lista do obejrzenia %{username}
       this_month: W tym miesiącu
       this_week: W tym tygodniu
       view_them: Zobacz je.
@@ -698,39 +704,39 @@ pl-PL:
     3rd_party_request: 
     approved_session: Aplikacja %{application_name} została zatwierdzona. Można zamknąć to okno.
     continue: Jeśli chcesz kontynuować, kliknij przycisk zatwierdzaj poniżej. Jeśli nie, można po prostu zamknąć to okno.
-    request_token_approval: 
+    request_token_approval: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDb."
     statuses:
       completed:
         message: 
-        name: 
+        name: Dostęp udzielony
       denied:
-        message: 
-        name: 
+        message: "<p>Odmówiłeś dostępu aplikacji <strong>%{application_name}</strong>. Jeśli to była pomyłka lub chciałbyś rozpocząć ponownie proces autoryzacji, to zrób to z poziomu aplikacji.</p>"
+        name: Odmowa dostępu
       invalid_request_token:
-        message: 
-        name: 
+        message: Podany token jest niepoprawny.Spróbuj stworzyć nowy token i upewnij się, że został poprawnie skopiowany. Jeśli problem będzie się powtarzał, skontaktuj się z twórcą aplikacji.
+        name: NIepoprawny token
   attributes:
     biography: Biografia
     certification: Certyfikacja
     external_href: adres internetowy
-    homepage: 
+    homepage: Strona główna
     iso_3166_1: Kraj
     iso_639_1: Język
     normalized_email: E-mail
-    normalized_username: 
+    normalized_username: Nazwa użytkownika
     overview: Przegląd
     title: Tytuł
-    to_accounts_ids: 
-    translated_overview: 
+    to_accounts_ids: Do
+    translated_overview: Podgląd
   average edits per day: średnio edycji na dzień
   back_options:
     back: Wróć
     episode: Wróć do odcinka
-    episode_groups: 
+    episode_groups: Powrót do grup odcinków
     episode_list: Wróć do listy odcinków
     home: Wróć do strony głównej
     main: Wróć
-    named_episode_group: 
+    named_episode_group: 'Powrót do grupy &lsquo;%{group_name}&rsquo; '
     season: Wróć do sezonu
     season_list: Wróć do listy sezonów
     to_tmdb: Wróć do TMDb
@@ -881,7 +887,7 @@ pl-PL:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
           meaning: 
         '3':
@@ -901,24 +907,24 @@ pl-PL:
           meaning: Tylko dla dorosłych (18+ lat). Nikt poniżej wieku 18 lat nie może kupować ani wypożyczać takiego filmu na DVD, VHS, Blu-Ray lub oglądać go w kinie. Filmy z tą klasyfikacją mogą zawierać drastyczne motywy dla dorosłych, częsty wulgarny język, brutalną przemoc i krew, wyraźne sceny seksu i/lub sceny nadużywania narkotyków.
       IT:
         '0':
-          meaning: 
+          meaning: Brak informacji
         '1':
-          meaning: 
+          meaning: Dla wszystkich grup wiekowych
         '2':
-          meaning: 
+          meaning: Nieodpowiednie dla dzieci poniżej 14 lat
         '3':
-          meaning: 
+          meaning: Nieodpowiednie dla dzieci poniżej 18 lat
       LT:
         '1':
-          meaning: 
+          meaning: Filmy dla wszystkich grup wiekowych
         '2':
-          meaning: 
+          meaning: 'Filmy dla widzów od lat 7. Młodsi widzowie mogą oglądać film tylko w towarzystwie osoby dorosłej. '
         '3':
-          meaning: 
+          meaning: 'Filmy dla widzów od lat 13. Widzowie w wieku od 7 do 13 lat mogą oglądać film tylko w towarzystwie osoby dorosłej. '
         '4':
-          meaning: 
+          meaning: Filmy dla widzów od 16 roku życia.
         '5':
-          meaning: 
+          meaning: Filmy dla widzów od 18 roku życia.
       MY:
         '0':
           meaning: Brak informacji o klasyfikacji.
@@ -1009,15 +1015,15 @@ pl-PL:
           meaning: Specjalna klasyfikacja dodawana do M/18. Film zawiera pornografię.
       RU:
         '1':
-          meaning: 
+          meaning: Dozwolone dla wszystkich grup wiekowych.
         '2':
-          meaning: 
+          meaning: "(Dla dzieci powyżej 6 roku życia) - Nieodpowiednie dla dzieci poniżej 6 roku życia."
         '3':
-          meaning: 
+          meaning: "(Dla dzieci powyżej 12 roku życia) - Nieodpowiednie dla dzieci poniżej 12 roku życia."
         '4':
-          meaning: 
+          meaning: "(Dla dzieci powyżej 16 roku życia) - Nieodpowiednie dla dzieci poniżej 16 roku życia."
         '5':
-          meaning: 
+          meaning: "(Niedozwolone dla dzieci) - Niedozwolone dla dzieci poniżj 18 roku życia."
       SE:
         '0':
           meaning: Brak informacji o klasyfikacji.
@@ -1161,7 +1167,7 @@ pl-PL:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Bez ograniczeń wiekowych.
         '2':
           meaning: 
         '3':
@@ -1318,32 +1324,32 @@ pl-PL:
   contribution_bible:
     abbreviations:
       collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      image: img
+      movie: mov
+      people: ppl
+      tv: tv
     collection:
-      collection: 
+      collection: Kolekcje
       collection_bible: 
       tall_bible:
         bottom: 
-        top: 
+        top: Kolekcja
     contribution_bible: 
-    featured_articles: 
+    featured_articles: Polecane artykuły
     general:
-      general: 
+      general: Ogólne
       general_bible: 
     image:
-      image: 
+      image: Obrazy
       image_bible: 
     movie:
-      movie: 
+      movie: Filmy
       movie_bible: 
       tall_bible:
         bottom: 
-        top: 
+        top: Film
     new_content:
-      new_content: 
+      new_content: Nowa zawartość
       new_content_bible: 
     note: 
     people:
@@ -1423,24 +1429,49 @@ pl-PL:
     one: dzień
     other: "%{count} dni"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: Wpis skazowany
     reasons:
       '1':
-        message: 
-        subject: 
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDb. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł znajdowałs się już w naszej bazie danych i został uznany za duplikat.
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest duplikat
       '2':
-        message: 
-        subject: 
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDb. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: Nie spełnia naszych standardów zawartości (niska jakość, itp...)
       '3':
-        message: 
-        subject: 
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDb. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł już istnieje jako serial telewizyjny i nie jest uznawany za poprawnt film. Możesz przeczytać więcej na temat naszych standardów zawartości [tutaj](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest serial telewizyjny
       '4':
-        message: 
-        subject: 
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDb. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest fałszywy wpis
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDb. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest spam
+    why_deleting: Dlaczego usuwasz ten wpis?
   department_credits_count: 
   departments:
     Acting: Aktor
@@ -1509,7 +1540,7 @@ pl-PL:
       community_guidelines: Wytyczne dla społeczności
       discussion_category: Kategoria
       for_item: Dla elementu
-      message: 
+      message: Wiadomość
       new_discussion: Nowa dyskusja
       subject: Temat
     no_discussions: Brak dyskusji.
@@ -1582,12 +1613,12 @@ pl-PL:
   episode_number_name: Odcinek %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Nie mogliśmy przetworzyć tego obrazu
+      not_jpeg: Ten obraz nie jest w formacie JPEG
+      not_png: Ten obraz nie jest w formacie PNG
+      not_svg: Ten obraz nie jest w formacie SVG
     locked:
-      genres: 
+      genres: Pole gatunków jest zablokowane
       keywords: 
     messages:
       blank: jest wymagane
@@ -1638,8 +1669,8 @@ pl-PL:
       episode_stills_must_meet: 
       posters_must_meet: 'Plakaty muszą spełniać poniższe kryteria:'
       profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.
+      tip: Jeśli Twoja przeglądarka wspiera tę funkcjonalność, możesz przeciągnąć obrazki w pole poniżej. W przeciwnym razie naciśnij "Wybierz pliki" i wczytaj obraz ze swojego komputera.
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.
   item_count:
     few: "%{count} elementy"
