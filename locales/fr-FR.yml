@@ -25,7 +25,7 @@ fr-FR:
   Add Data & Content: Ajouter des données et du contenu
   Add Item: Ajouter un objet
   Add Missing Cast & Crew: Ajouter des membres du casting manquants
-  Add Network: Ajouter une chaîne de télévision
+  Add Network: Ajouter un diffuseur
   Add New Episode: Ajouter un nouvel épisode
   Add New Movie: Ajouter un nouveau film
   Add New Release: Ajouter une nouvelle sortie
@@ -103,7 +103,7 @@ fr-FR:
   Company Results: Résultats dans les sociétés
   Confirm: Confirmer
   Confirm Your Application: Confirmez votre candidature
-  Contact Email: Courriel de contact
+  Contact Email: Email de contact
   Contact Us: Contactez-nous
   Content Ratings: Classifications
   Content Score: Score du contenu
@@ -129,7 +129,7 @@ fr-FR:
   Delete Keyword: Supprimer le mots-clé
   Delete Movie: Supprimer le film
   Delete Person: Supprimer la personnalité
-  Delete TV Show: Supprimer l'émission de télévision
+  Delete TV Show: Supprimer la série
   Deny: Refuser
   Department: Service
   Description: Description
@@ -156,9 +156,9 @@ fr-FR:
   Editing Content: Modification du contenu
   Editing in: Édition en %{language}
   Education: Éducation
-  Email: Courriel
-  Email Address: Adresse courriel
-  Email Content: Contenu du courriel
+  Email: Email
+  Email Address: Adresse email
+  Email Content: Contenu de l'email
   Episode Images: Images des épisodes
   Episode Number: Numéro de l'épisode
   Episode Overview: Résumé de l'épisode
@@ -277,8 +277,8 @@ fr-FR:
   Movie Watchlist: Liste de suivi des films
   Movies: Films
   Name: Nom
-  Network: Chaîne de télévision
-  Networks: Réseaux
+  Network: Diffuseur
+  Networks: Diffuseurs
   New: Nouveau
   New episode airs in: Nouvel épisode diffusé dans
   'No': Non
@@ -376,7 +376,7 @@ fr-FR:
   Report an Issue: Signaler un problème
   Reported Issues: Problèmes signalés
   Request an API Key: Demander une clé API
-  Resend Activation Email: Renvoyer le courriel d'activation
+  Resend Activation Email: Renvoyer l'email d'activation
   Reset: Réinitialiser
   Reset Password: Réinitialiser le mot de passe
   Revenue: Recette
@@ -434,7 +434,7 @@ fr-FR:
   Support: Support
   Support Forums: Forum d'aide
   TV: TV
-  TV Network: Chaîne de TV
+  TV Network: Diffuseur TV
   TV Recommendations: Recommendations de séries
   TV Show Data: Informations de la série
   TV Show Results: Résultats de la recherche de séries
@@ -871,19 +871,23 @@ fr-FR:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: |2-
+
+            aucune information d'évaluation
         '1':
-          meaning: 
+          meaning: |2-
+
+            sans limite d'âge
         '2':
-          meaning: 
+          meaning: Non recommandé au moins de 6 ans
         '3':
-          meaning: 
+          meaning: Non recommandé au moins de 12 ans
         '4':
-          meaning: 
+          meaning: Non recommandé au moins de 16 ans
         '5':
-          meaning: 
+          meaning: Non recommandé au moins de 18 ans
         '6':
-          meaning: 
+          meaning: interdit au moins de 18 ans, réservé aux adultes.
       IN:
         '0':
           meaning: 
@@ -1012,7 +1016,9 @@ fr-FR:
           meaning: "(Interdit aux enfants) - Ne convient pas aux enfants de moins de 18 ans."
       SE:
         '0':
-          meaning: 
+          meaning: |2-
+
+            aucune information d'évaluation
         '1':
           meaning: Tout ages.
         '2':
@@ -1023,7 +1029,9 @@ fr-FR:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: |2-
+
+            aucune information d'évaluation
         '1':
           meaning: 
         '2':
@@ -1054,13 +1062,13 @@ fr-FR:
           meaning: 
       BR:
         '0':
-          meaning: 
+          meaning: 'Contenu adapté à tous les téléspectateurs '
         '1':
-          meaning: 
+          meaning: Contenu adapté aux téléspectateurs de plus de 10 ans.
         '2':
-          meaning: 
+          meaning: Contenu adapté aux téléspectateurs de plus de 12 ans.
         '3':
-          meaning: 
+          meaning: Contenu adapté aux téléspectateurs de plus de 14 ans.
         '4':
           meaning: 
         '5':
@@ -1095,26 +1103,36 @@ fr-FR:
           meaning: 
       DE:
         '0':
-          meaning: 
+          meaning: |2-
+
+            peut être diffusé à tout moment
         '1':
-          meaning: 
+          meaning: |2-
+
+            peut être diffusé à tout moment
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Peut être diffusé seulement de 22h à 6h du matin.
         '4':
-          meaning: 
+          meaning: Peut être diffusé seulement de 22h à 6h du matin.
       ES:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: |2-
+
+            Spécialement recommandé pour les jeunes enfants.
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: |2-
+
+            Non recommandé pour les téléspectateurs de moins de 7 ans.
         '4':
-          meaning: 
+          meaning: |2-
+
+            Non recommandé pour les téléspectateurs de moins de 10 ans.
         '5':
           meaning: 
         '6':
@@ -1505,7 +1523,7 @@ fr-FR:
         content_issues: Problèmes de contenu
         general: Général
         general_chat: Discussion générale
-        moderator_talk: 
+        moderator_talk: Discussions Modérateurs
         support: Support
         website_support: Support du site
     category:
@@ -1549,7 +1567,7 @@ fr-FR:
         delete_discussion: En cliquant sur 'Oui', cette conversation sera supprimée définitivement.
         hide_comment: En cliquant sur 'Oui', ce commentaire sera masqué.
         hide_discussion: En cliquant sur 'Oui', cette discussion sera masquée.
-        ignore_user: Êtes-vous sûr de vouloir ignorer cet utilisateur ? Toutes leurs conversations et leurs commentaires vont disparaitre. Vous pouvez supprimer ce blocage en vous rendant sur la page "Utilisateurs bloqués" dans les réglages de votre compte.
+        ignore_user: Êtes-vous sûr de vouloir ignorer cet utilisateur ? Toutes leurs conversations et leurs commentaires vont disparaitre. Vous pouvez supprimer ce blocage en vous rendant sur la page "Utilisateurs bloqués" dans les paramètres de votre compte.
         mark_as_spam: 'Êtes-vous sûr de vouloir marquer cette conversation comme Indésirable ? Elle sera supprimée automatiquement et il ne sera pas possible de revenir en arrière. Marquer une conversation comme Indésirable aide le service de détection d''indésirable que nous utilisons. '
         report_violation: Veuillez confirmer que vous souhaitez signaler cet utilisateur pour une violations de nos <a href="/documentation/community/guidelines" target="_blank" rel="noopener">règles communautaires</a>.
         unhide_discussion: En cliquant sur 'Oui', cette conversation sera à nouveau rendu visible.
@@ -1587,10 +1605,10 @@ fr-FR:
     edit_list: Modifier la liste
   edits: modifications
   email:
-    confirm_new_email_address: Confirmez votre nouvelle adresse courriel
-    does_not_match: Les adresses courriel ne correspondent pas. Veuillez réessayer.
-    new_email_address: Nouvelle adresse courriel
-    sent_verification_email: Nous vous avons envoyé un courriel à %{email_address} pour vérification. Consultez votre boite de réception (et votre dossier d'indésirables) pour obtenir les instructions à suivre.
+    confirm_new_email_address: Confirmez votre nouvelle adresse email
+    does_not_match: Les adresses email ne correspondent pas. Veuillez réessayer.
+    new_email_address: Nouvelle adresse email
+    sent_verification_email: Nous vous avons envoyé un email à l'adresse %{email_address} pour vérification. Consultez votre boite de réception (et votre dossier d'indésirables) pour obtenir les instructions à suivre.
   episode_count:
     one: "%{count} Épisode"
     other: "%{count} Épisodes"
@@ -1620,7 +1638,7 @@ fr-FR:
       duplicate_guest_star: Cette personne est déjà enregistrée en tant que Guest Star.
       duplicate_regular_season_member: Cette personne est déjà un membre du casting régulier de la saison.
       duplicate_season: Cette saison existe déjà.
-  failed_email: Votre courriel n'a pas pu être envoyé.
+  failed_email: Votre email n'a pas pu être envoyé.
   failed_generic: Un problème est survenu.
   failed_report: Une erreur s'est produite lors de l'envoi de votre rapport.
   failed_sharing: Un problème est survenu lors du partage de votre message.
@@ -2397,7 +2415,7 @@ fr-FR:
     Set Supervisor: 
     Sets & Props Artist: Accessoiriste
     Sets & Props Supervisor: Superviseur accessoires
-    Settings: Réglages
+    Settings: Paramètres
     Shading: Ombres
     Shoe Design: Modéliste de chaussures
     Shop Electric: 
@@ -2664,11 +2682,13 @@ fr-FR:
   media:
     changes:
       filters:
-        clear: 
-        key: 
+        clear: Effacer
+        key: Champ
         language: Langue
-        user: 
-      number_of_changes: 
+        user: Utilisateur
+      number_of_changes:
+        one: "%{count} Modification"
+        other: "%{count} Modifications"
       view_weekly_leaderboard: Voir le classement de la semaine
     company:
       headquarters: Siège
@@ -2783,7 +2803,7 @@ fr-FR:
       other_shows_on: Voir plus de séries télé de %{name}...
       search:
         no_results: Il n'y a aucun réseau qui correspond à votre requête
-        results: 
+        results: Résultats diffuseurs
       tv_page_title: Séries sur %{name}
       upload_logo: Télécharger un Logo
     no_results_found:
@@ -2884,8 +2904,8 @@ fr-FR:
             '6': Production
             '7': TV
         networks:
-          no_records: 
-          none_found: 
+          no_records: Aucun diffuseur n'a été ajouté.
+          none_found: Aucun diffuseur n'a été trouvé. Voulez-vous le créer ?
         regular_cast:
           no_records: 
           no_season: Aucune saison existe ! Une saison est requise pour ajouter un acteur régulier.
@@ -2901,8 +2921,8 @@ fr-FR:
             other: "%{count} groupes"
         original_air_date: Date de diffusion originale
       networks:
-        one: Réseau
-        other: Réseaux
+        one: Diffuseur
+        other: Diffuseurs
       statuses:
         Canceled: Annulé
         Ended: Terminé
@@ -2937,7 +2957,7 @@ fr-FR:
       subject: Aider à traduire le site
   messages:
     compose:
-      ban: 
+      ban: Bannir
       from: De
       message: Message
       subject: Sujet
@@ -2971,7 +2991,7 @@ fr-FR:
       new_message: Nouveau Message
       support_archive: 
       support_inbox: 
-    translate: 
+    translate: Traduire
   month:
     one: mois
     other: "%{count} mois"
@@ -3125,12 +3145,12 @@ fr-FR:
     confirm_new_password: Confirmez votre nouveau mot de passe
     invalid_reset_code: Le code de réinitialisation du mot de passe est invalide
     new_password: Nouveau mot de passe
-    reset_email_sent: Courriel envoyé ! Vous devriez recevoir les instructions pour réinitialiser votre mot de passe dans peu de temps.
+    reset_email_sent: Email envoyé ! Vous devriez recevoir les instructions pour réinitialiser votre mot de passe dans peu de temps.
   person:
     credits:
       as_character: en tant que %{character}
       as_job: "— %{job}"
-  resend_verification_email_text: Vous n'avez pas reçu le courriel de vérification de compte ? Entrez votre nom d'utilisateur ci-dessous et nous vous le renverrons.
+  resend_verification_email_text: Vous n'avez pas reçu l'email de vérification de compte ? Entrez votre nom d'utilisateur ci-dessous et nous vous le renverrons.
   reset_password_text: Entrez ci-dessous votre nom d'utilisateur pour enclencher la procédure de renouvellement du mot de passe.
   search:
     favorites_movie: Rechercher dans vos films favoris...
@@ -3159,7 +3179,7 @@ fr-FR:
     to_air: La saison %{season_number} de %{show_name}, en première diffusion le %{date}.
   settings:
     account:
-      account_settings: Réglages du compte
+      account_settings: Paramètres du compte
     api:
       api: API
       navigation:
@@ -3174,8 +3194,8 @@ fr-FR:
       no_blocked: Vous n'avez bloqué aucun utilisateur.
       username: Nom d'utilisateur
     change_email:
-      change_email: Modifier l'adresse courriel ?
-      change_email_text: Si vous souhaitez changer votre adresse courriel, entrez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous identifier à nouveau sur le site, vous devrez d'abord vérifier votre nouvelle adresse courriel en cliquant sur le lien que nous aurons envoyé dans un courriel à cette nouvelle adresse.
+      change_email: Modifier votre adresse email
+      change_email_text: Si vous souhaitez changer votre adresse email, entrez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous identifier à nouveau sur le site, vous devrez d'abord vérifier votre nouvelle adresse email en cliquant sur le lien que nous aurons envoyé dans un email à cette nouvelle adresse.
     connected_apps:
       connected_apps: Applications connectées
       listed_below_explanation: Ci-dessous sont listés les applications que vous avez autorisées à écrire des données à votre place. Vous pouvez à tout moment enlever ces autorisations.
@@ -3229,7 +3249,7 @@ fr-FR:
         watchlist: Liste de suivi
       which_list: Importer quelle liste ?
     navigation:
-      account_settings: Réglage du compte
+      account_settings: Paramètres du compte
       api: API
       blocked_users: Utilisateurs bloqués
       connected_apps: Application connectées
@@ -3237,7 +3257,7 @@ fr-FR:
       edit_profile: Modifier le profil
       import_list: Importer une liste
       notification_settings: Paramètres de notification
-      settings: Réglages
+      settings: Paramètres
       sharing_settings: Paramètres de partage
       social_settings: Paramètres des réseaux sociaux
     notifications:
@@ -3250,8 +3270,8 @@ fr-FR:
       accent_color: Couleur d'accentuation
       avatar:
         current_avatar: Votre avatar
-        explain: Pour le moment, la seule option pour avoir un avatar personnalisé est d'utiliser un service nommé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous voulez afficher un avatar personnalisé sur TMDb, vous devrez créer un compte sur Gravatar en ajoutant la même adresse courriel que vous avez utilisée ici (c'est comme cela que l'on lie vos comptes). Une fois que vous avez fait cela, cliquez sur le bouton Mettre à jour ci-dessous et nous récupérerons l'image.
-        explain_gravatar: Si vous voulez utiliser <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> comme fournisseur pour votre avatar, vérifiez que vous avez ajouté la même adresse courriel que vous utilisez ici sur Gravatar. Une fois que vous avez fait cela (et que vous avez choisi une image, bien sûr), cliquez sur le bouton Mettre à jour ci-dessous et nous récupérerons l'image.
+        explain: Pour le moment, la seule option pour avoir un avatar personnalisé est d'utiliser un service nommé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous voulez afficher un avatar personnalisé sur TMDb, vous devrez créer un compte sur Gravatar en ajoutant la même adresse email que vous avez utilisée ici (c'est comme cela que l'on lie vos comptes). Une fois que vous avez fait cela, cliquez sur le bouton Mettre à jour ci-dessous et nous récupérerons l'image.
+        explain_gravatar: Si vous souhaitez utiliser <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> comme fournisseur pour votre avatar, vérifiez que vous avez ajouté la même adresse email que vous utilisez ici sur Gravatar. Une fois que vous avez fait cela (et que vous avez choisi une image, bien sûr), cliquez sur le bouton Mettre à jour ci-dessous et nous récupérerons l'image.
         not_found: Aucun avatar
         not_found_add: Aucun avatar. Voulez-vous en <a href="#">ajouter un</a> ?
         remove_own: Supprimer votre avatar ?
@@ -3267,14 +3287,14 @@ fr-FR:
         confirm_remove: Veuillez confirmer que vous voulez supprimer votre image de fond. Êtes-vous bien sûr ?
         remove_background: Supprimer votre image de fond ?
         set_image: Activer une image de fond ?
-      change_password: Changer passe
+      change_password: Modifier votre mot de passe
       edit_profile: Modifier le profil
       email:
         invalid_dialog_title: 
         reset_button: 
         reset_invalid_email_dialog_text: 
         reset_password_invalid_email_dialog_text: 
-      reset_password_dialog_text: Si vous confirmez votre demande, vous recevrez un courriel avec les instructions pour définir un nouveau mot de passe. Souhaitez-vous confirmer votre demande ?
+      reset_password_dialog_text: Si vous confirmez votre demande, vous recevrez un email avec les instructions pour définir un nouveau mot de passe. Souhaitez-vous confirmer votre demande ?
     sharing:
       favorite_list:
         favorite_settings: Paramètres des favoris
@@ -3316,7 +3336,7 @@ fr-FR:
     signup_text: S'inscrire est facile et gratuit. Remplissez tout d'abord ce formulaire.
   success_approved_access_token: Permission accordée !
   success_deleted: L'élément sélectionné a bien été supprimé.
-  success_email: Votre courriel a été correctement envoyé.
+  success_email: Votre email a été correctement envoyé.
   success_image_rated: Vous avez noté l'image avec succès.
   success_image_uploaded: L'image à été mise en ligne avec succès.
   success_rating: Votre note a été enregistrée.
