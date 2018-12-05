@@ -66,7 +66,7 @@ uk-UA:
   Approve: Затвердити
   Approved?: Схвалено?
   Apps: Додатки
-  Archived Databases: 
+  Archived Databases: Архівовані бази даних
   Are you sure?: Впевнені?
   Attributes: Атрибути
   Auto: Авто
@@ -565,7 +565,11 @@ uk-UA:
             Delivery: Доставлено
             Unsubscribed: 
             status: Статус
-        number_of_items: 
+        number_of_items:
+          few: "%{count} електронні листи"
+          many: "%{count} електронних листів"
+          one: "%{count} електронний лист"
+          other: "%{count} електронних листів"
       events: Події
       notifications:
         filters:
@@ -577,7 +581,11 @@ uk-UA:
             Messages: Повідомлення
             type: Тип
         notifications: Сповіщення
-        number_of_items: 
+        number_of_items:
+          few: "%{count} сповіщення"
+          many: "%{count} сповіщень"
+          one: "%{count} сповіщення"
+          other: "%{count} сповіщень"
       page_title:
         recent_events: Останні події
       recent: Недавні
@@ -687,20 +695,20 @@ uk-UA:
   add_to_list: Додати %{media_title} до одного з ваших списків...
   already_translated_in: "%{page_title} перекладено на наступні мови"
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Запит автентифікації третіх сторін
     approved_session: Ви схвалили %{application_name}. Можете закрити це вікно.
     continue: Натисніть кнопку Підтвердити внизу, якщо бажаєте продовжити. Або ж просто закрийте це вікно.
-    request_token_approval: 
+    request_token_approval: "{{APP}} запитує вашого дозволу на читання і запис даних від вашого імені. Це необхідно, якщо ви хочете робити щось за межами TMDb, наприклад, підтримувати ваші списки, або оцінювати фільми."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Ви надали дозвіл на читання і запис додаткові <strong>%{application_name}</strong>. Можете повернутися у додаток і закрити це вікно. Ви завжди можете відкликати цей доступ в налаштуваннях вашого профілю, в розділі "Приєднані додатки".
+        name: Автентифікацію підтверджено
       denied:
-        message: 
-        name: 
+        message: "<p>Ви заборонили доступ додаткові <strong>%{application_name}</strong>. Якщо це було помилково, або ви хочете заново автентифікувати додаток, тоді просто поверніться в цей додаток і надішліть запит знову.</p>"
+        name: Автентифікацію відхилено
       invalid_request_token:
         message: 
-        name: 
+        name: Невірний токен запиту
   attributes:
     biography: Біографія
     certification: Сертифікація
@@ -871,19 +879,19 @@ uk-UA:
           meaning: 18+
       HU:
         '0':
-          meaning: 
+          meaning: Немає інформації про вікові обмеження.
         '1':
-          meaning: 
+          meaning: Без вікових обмежень.
         '2':
-          meaning: 
+          meaning: Не рекомендовано особам, віком до 6 років.
         '3':
-          meaning: 
+          meaning: Не рекомендовано особам, віком до 12 років.
         '4':
-          meaning: 
+          meaning: Не рекомендовано особам, віком до 16 років.
         '5':
-          meaning: 
+          meaning: Не рекомендовано особам, віком до 18 років.
         '6':
-          meaning: 
+          meaning: Заборонено особам, віком до 18, тільки дорослі.
       IN:
         '0':
           meaning: 5+
@@ -893,13 +901,13 @@ uk-UA:
           meaning: 18+
       IT:
         '0':
-          meaning: 
+          meaning: Немає інформації про вікові обмеження.
         '1':
-          meaning: 
+          meaning: Дозволено усім віковим групам.
         '2':
-          meaning: 
+          meaning: Не допускаються діти до 14 років.
         '3':
-          meaning: 
+          meaning: Не допускаються діти до 18 років.
       LT:
         '1':
           meaning: Фільми для глядачів будь-якого віку.
@@ -1106,11 +1114,11 @@ uk-UA:
           meaning: Може транслюватися лише з 23:00 до 06:00.
       ES:
         '0':
-          meaning: 
+          meaning: Немає інформації про вікові обмеження.
         '1':
-          meaning: 
+          meaning: Спеціально рекомендовано для ваших дітей.
         '2':
-          meaning: 
+          meaning: Для загального перегляду.
         '3':
           meaning: 
         '4':
@@ -2101,7 +2109,7 @@ uk-UA:
     I/O Supervisor: Контроль ввімкнення/вимкнення
     Idea: Ідея
     Imaging Science: Науки обробки зображень
-    In Memory Of: 
+    In Memory Of: В пам'ять про
     Information Systems Manager: Менеджер інформаційних систем
     Insert Unit Director: 
     Insert Unit First Assistant Director: 
@@ -3284,10 +3292,16 @@ uk-UA:
       change_password: Змінити пароль
       edit_profile: Редагувати профіль
       email:
-        invalid_dialog_title: 
+        invalid_dialog_title: Скинути Email?
         reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          <p>На жаль, у нас виникали труднощі під час надсилання вам листів. Ви можете переглянути помилки <a href="/u/%{username_url}/events/emails?status=2,3">тут</a>.</p>
+
+          <p>Якщо проблему з вашою електронною адресою вирішено, або це було тимчасово, натисніть кнопку скидання і ми спробуємо надіслати іншого листа, щоб перевірити.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Щоб змінити пароль, вам потрібна робоча електронна адреса. На жаль, у нас виникали труднощі під час надсилання вам листів. Ви можете переглянути помилки <a href="/u/%{username_url}/events/emails?status=2,3">тут</a>.</p>
+
+          <p>Якщо проблему з вашою електронною адресою вирішено, або це було тимчасово, натисніть кнопку скидання і ми спробуємо надіслати іншого листа.</p>
       reset_password_dialog_text: Підтвердивши цей запит, ви надішлете електронного листа з інструкціями, як скинути пароль. Ви впевнені, що хочете це зробити?
     sharing:
       favorite_list:
