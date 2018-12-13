@@ -555,23 +555,23 @@ pt-PT:
         page_owner: Minhas Discussões
         public: Discussões de %{username}
     events:
-      all: 
+      all: Todos
       emails:
-        emails: 
+        emails: Emails
         filters:
           status:
             Bounce: 
             Complaint: 
             Delivery: Enviado
-            Unsubscribed: 
+            Unsubscribed: Não subscrito
             status: Estado
         number_of_items: 
-      events: 
+      events: Eventos
       notifications:
         filters:
           type:
             Discussion: Discussão
-            General: 
+            General: Geral
             List Import: 
             Mention: 
             Messages: Mensagens
@@ -579,7 +579,7 @@ pt-PT:
         notifications: Notificações
         number_of_items: 
       page_title:
-        recent_events: 
+        recent_events: Eventos Recentes
       recent: Recente
     export:
       csv_explanation: Se desejar ter uma cópia desta lista exportada para um ficheiro CSV, clique no botão "Exportar". Vamos criar um ficheiro e enviá-lo para si via e-mail. Dependendo do tamanho da sua lista, o processo pode levar alguns minutos para ser concluído.
@@ -1569,9 +1569,9 @@ pt-PT:
   errors:
     images:
       couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      not_jpeg: A imagem não é JPEG
+      not_png: A imagem não é PNG
+      not_svg: A imagem não é SVG
     locked:
       genres: O campo de géneros está bloqueado
       keywords: 
@@ -1611,11 +1611,11 @@ pt-PT:
   images:
     confirm_delete: Tem a certeza que quer remover esta imagem?
     upload_criteria:
-      '1': 
-      '2': 
+      '1': Uma resolução máxima de 2000x3000
+      '2': Uma resolução mínima de 500x750
       '3': 
-      '4': 
-      '5': 
+      '4': Uma resolução máxima de 3840x2160
+      '5': Uma resolução mínima de 400x225
       '6': 
       '7': 
       '8': 
@@ -2637,11 +2637,13 @@ pt-PT:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Eliminar Filtro
+        key: Filtro
+        language: Idioma
+        user: Utilizador
+      number_of_changes:
+        one: "%{count} Alteração"
+        other: "%{count} Alterações"
       view_weekly_leaderboard: Ver Líderes Semanais
     company:
       headquarters: Sede
@@ -2649,7 +2651,7 @@ pt-PT:
       tv_page_title: 
     edit:
       lock_all_fields: 
-      lock_all_images: 
+      lock_all_images: Bloquear todas as imagens
       page_title: 
       placeholders:
         country: 
@@ -2679,7 +2681,7 @@ pt-PT:
       movie_page_title: "%{name} Filmes"
       tv_page_title: "%{name} Séries de TV"
     images:
-      format: 
+      format: Formato
       no_backdrop_stills: 
       no_backdrops: 
       no_logos: 

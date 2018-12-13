@@ -66,7 +66,7 @@ gl-ES:
   Approve: Aprobar
   Approved?: Aprobado?
   Apps: 'Aplicacións '
-  Archived Databases: 
+  Archived Databases: Bases de datos arquivadas
   Are you sure?: Estás seguro?
   Attributes: Atributos
   Auto: Auto
@@ -84,7 +84,7 @@ gl-ES:
   Cancel: Cancelar
   Cast: Reparto
   Categories: Categorías
-  Certification: 'Certificación '
+  Certification: Calificación
   Change?: Mudar?
   Changes: Modificacións
   Character: Personaxe
@@ -363,7 +363,7 @@ gl-ES:
   Regular Cast: Reparto habitual
   Release Date Ascending: Data de publicación ascendente
   Release Date Descending: Data de publicación descendente
-  Release Dates & Certifications: Data de publicación e certificacións
+  Release Dates & Certifications: Data de publicación e calificacións
   Release Information: Información de publicación
   Release Note: Nota
   Release Type: Tipo
@@ -555,32 +555,36 @@ gl-ES:
         page_owner: Os meus debates
         public: Os debates de %{username}
     events:
-      all: 
+      all: Todo
       emails:
-        emails: 
+        emails: Emails
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Retornado
+            Complaint: Queixa
+            Delivery: Entregado
+            Unsubscribed: Non subscrito
+            status: Estado
+        number_of_items:
+          one: "%{count} Email"
+          other: "%{count} Emails"
+      events: Eventos
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Debates
+            General: Xeral
+            List Import: Importar lista
+            Mention: Mención
+            Messages: Mensaxes
+            type: Tipo
+        notifications: Notificacións
+        number_of_items:
+          one: "%{count} Notificación"
+          other: "%{count} Notificacións"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Eventos recentes
+      recent: Recente
     export:
       csv_explanation: Se desexas ter unha copia desta lista exportada a CSV, preme o botón "Exportar" de abaixo. Crearemos a exportación e enviarémoscha por email. O proceso pode demorar varios minutos dependendo do tamaño da túa lista.
       export: Exportar
@@ -683,23 +687,23 @@ gl-ES:
   add_to_list: Engadir %{media_title} a umha das túas listas…
   already_translated_in: "%{page_title} xa está traducido ás seguintes linguas…"
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Solicitude de autenticación de terceiros
     approved_session: Aprobaches %{application_name}. Podes pechar esta xanela.
     continue: Se desexas continuar, preme o botón de Aprobar abaixo. Se non, simplemente pecha esta xanela.
     request_token_approval: 
     statuses:
       completed:
         message: 
-        name: 
+        name: Authentication Granted
       denied:
         message: 
-        name: 
+        name: Authentication Denied
       invalid_request_token:
         message: 
-        name: 
+        name: Invalid Request Token
   attributes:
     biography: 'Biografía '
-    certification: 'Certificación '
+    certification: Calificación
     external_href: URL
     homepage: Páxina de inicio
     iso_3166_1: 'País '
@@ -709,7 +713,7 @@ gl-ES:
     overview: Descrición
     title: 'Título '
     to_accounts_ids: Para
-    translated_overview: 
+    translated_overview: Resumo
   average edits per day: Media de edicións ao día
   back_options:
     back: Voltar
@@ -858,7 +862,7 @@ gl-ES:
         '3':
           meaning: 'Os filmes nesta categoría considéranse non axeitados para os máis cativos. Os menores de 12 anos son admitidos soamente acompañados en todo momento dun adulto (maior de 18). Porén, xeralmente recoméndase cós devanditos menores non vexan o filme. Os filmes nesta categoría poden conter temas de madurez, discriminación, drogas menores, insultos moderados, linguaxe malsoante ocasional e espidos, referencias sexuais e violencia moderadas. A actividade sexual pode ser retratada breve e discretamente. A violencia sexual pode estar incluída ou sinalada brevemente. '
         '4':
-          meaning: De uso doméstico dende 2002 soamente. Os filmes "12A" soen levar unha certificación 12 para o VHS/DVD agás incluíren material que requira unha valoración superior. Ningún menor de 12 anos pode alugar ou mercar un VHS, DVD, Blu-ray, UMD ou xogo valorado para 12 anos. As directrices para o contido son semellantes á certificación "12A".
+          meaning: De uso doméstico dende 2002 soamente. Os filmes "12A" soen levar unha certificación 12 para o VHS/DVD agás incluíren material que requira unha valoración superior. Ningún menor de 12 anos pode alugar ou mercar un VHS, DVD, Blu-ray, UMD ou xogo valorado para 12 anos. As directrices para o contido son semellantes á calificación "12A".
         '5':
           meaning: Só para maiores de 15 anos. Os cativos menores de 15 non poden alugar ou mercar un VHS, DVD, Blu-ray, UMD ou xogo valorado para 15 anos; tampouco mirar un filme no cinema con esta valoración. Os filmes nesta categoría poden conter temas de adultos, forte violencia e fortes referencias sexuais e espidos sen detalles gráficos. A actividade sexual pode ser retratada pero sen moito detalle. A violencia sexual poderíase mostrar se for discreta e xustificada polo contexto.
         '6':
@@ -867,19 +871,19 @@ gl-ES:
           meaning: 'Só pode ser vista en cinemas para adultos con licenza ou vendida en sex shops con licenza, sendo os adultos os maiores de 18 anos. Os filmes nesta categoría son pornografía hard-core entendida como material destinado á simulación sexual contendo claras imaxes de actividade sxual real, forte contidomfetichista, imaxes animadas explícitas ou visións de certos actos como triple penetración simultánea ou "snowballing". Existe porén certo rango de material que se soe quitar da calificación "R18": non están permitidas as imaxes duras de lesións en BDSM ou palabras obscenas, urolagnia, escenas que suxiren incesto aínda se presenten, referencias a sexo con ou entre menores e comportamento agresivo como tirar do pelo ou cuspir. Nesta categoría solicítanse máis restricións ca en calquera outra.'
       HU:
         '0':
-          meaning: 
+          meaning: Sen información de calificación.
         '1':
-          meaning: 
+          meaning: Sen restrición de idade.
         '2':
-          meaning: 
+          meaning: Non recomendado para menores de 6 anos.
         '3':
-          meaning: 
+          meaning: Non recomendado para menores de 12 anos.
         '4':
-          meaning: 
+          meaning: Non recomendado para menores de 16 anos.
         '5':
-          meaning: 
+          meaning: Non recomendado para menores de 18 anos.
         '6':
-          meaning: 
+          meaning: Restrixido para menores de 18 anos, só adultos.
       IN:
         '0':
           meaning: Sen restricións de exhibición pública en toda a India, axeitado para todas as idades. Os filmes nesta categoría non deberían alterar aos cativos menores de 4 anos. Estes filmes poden conter temas educacionais, sociais ou familiares. Igualmente, os filmes nesta categoría poden conter violencia de fantasía e/ou mal linguaxe leve.
@@ -889,13 +893,13 @@ gl-ES:
           meaning: Retrinxido a público adulto soamente (maiores de 18 anos). Os menores de 18 non poden mercar/alugar un DVD, VHS, UMD calificacado como "A" ou mirar un filme nun cinema con esta calificación. Os filmes nesta categoría poden conter temas de adultos ou impactantes, linguaxe doez frecuente, violencia brutal con sangue e escenas gore, fortes escenas de sexo e/ou escenas de abuso de drogas consideradas non axeitadas para menores.
       IT:
         '0':
-          meaning: 
+          meaning: Sen información de calificación.
         '1':
-          meaning: 
+          meaning: Admítense todas as idades.
         '2':
-          meaning: 
+          meaning: Non se admiten cativos menores de 14 anos.
         '3':
-          meaning: 
+          meaning: Non se admiten cativos menores de 18 anos.
       LT:
         '1':
           meaning: Filmes para todos os públicos.
@@ -1102,23 +1106,23 @@ gl-ES:
           meaning: Soamente pode ser emitido entre as 23.00 e as 6.00.
       ES:
         '0':
-          meaning: 
+          meaning: Sen información de calificación.
         '1':
-          meaning: 
+          meaning: Recomendado especificamente para cativos pequenos.
         '2':
-          meaning: 
+          meaning: Para público xeral.
         '3':
-          meaning: 
+          meaning: Non recomendado para menores de 7 anos.
         '4':
-          meaning: 
+          meaning: Non recomendado para menores de 10 anos.
         '5':
-          meaning: 
+          meaning: Non recomendado para menores de 12 anos.
         '6':
-          meaning: 
+          meaning: Non recomendado para menores de 13 anos.
         '7':
-          meaning: 
+          meaning: Non recomendado para menores de 16 anos.
         '8':
-          meaning: 
+          meaning: Non recomendado para menores de 18 anos.
       FR:
         '0':
           meaning: Sen información de calificación.
@@ -1147,19 +1151,19 @@ gl-ES:
           meaning: A categoría "R18" é unha clasificación especial e restrinxida legalmente principalmente para obras nas que se consinte o sexo explícito ou forte material fetichista sobre adultos.
       HU:
         '0':
-          meaning: 
+          meaning: Sen información de calificación.
         '1':
-          meaning: 
+          meaning: Sen restrición de idade.
         '2':
-          meaning: 
+          meaning: Programas recomendados para cativos. Trátase dunha calificación opcional, o difusor non está na obriga de indicalo.
         '3':
-          meaning: 
+          meaning: Programas non recomendados para cativos menores de 6 anos, pode que non conteña violencia ou contido sexual. Esta calificación aparece indicada cun círculo marelo co número 6 no seu interior.
         '4':
-          meaning: 
+          meaning: Programas non recomendados para cativos menores de 12 anos, pode que conteña contido sexual leve ou linguaxe soez. A maioría de filmes sen alto contido sexual ou violento inclúense nesta categoría. Esta calificación aparece indicada cun círculo marelo co número 12 no seu interior.
         '5':
-          meaning: 
+          meaning: Programas non recomendados para cativos menores de 16 anos, pode que conteña intenso contido sexual e violencia. Esta calificación aparece indicada cun círculo marelo co número 16 no seu interior.
         '6':
-          meaning: 
+          meaning: Programas só recomendados para adultos (maiores de 18 anos), pode que conteña contido sexual e violencia explícitas. Esta calificación aparece indicada cun círculo vermello co número 18 no seu interior (até 2002 empregouse o círculo vermello soamente).
       KR:
         '0':
           meaning: Esta calificación é soamente para concursos intelectuais; programas de estilo de vida, documentais, noticias, programas de actualidade, programas de educación/cultura, deportes que se exclúen do "MMA" ou doutros deportes violentos, e outros programas recoñecidos pola Korea Communications Standards Commission (Comisión dos Estándares de Comunicación de Korea).
@@ -1195,11 +1199,11 @@ gl-ES:
           meaning: Coidado cos cativos menores de 16 anos.
       PH:
         '0':
-          meaning: 
+          meaning: Sen información de calificación.
         '1':
-          meaning: 
+          meaning: Axeitado para todas as idades.
         '2':
-          meaning: 
+          meaning: Recoméndase a presenza dun adulto.
         '3':
           meaning: 
         '4':
@@ -3263,8 +3267,8 @@ gl-ES:
       change_password: Mudar contrasinal
       edit_profile: Editar perfil
       email:
-        invalid_dialog_title: 
-        reset_button: 
+        invalid_dialog_title: Restablecer email?
+        reset_button: Restablecer e enviar?
         reset_invalid_email_dialog_text: 
         reset_password_invalid_email_dialog_text: 
       reset_password_dialog_text: Confirmando esta solicitude enviarémosche un email con instrucións para restablecer o teu contrasinal. Abofé queres continuar?
@@ -3331,6 +3335,6 @@ gl-ES:
   used_by_developers: A TMDb é empregada por máis de 200.000 desenvolvedores. <br>Bota unha ollada ao seu traballo abaixo.
   view all: ver todos
   will_paginate:
-    next_label: 
+    next_label: Seguinte →
     page_gap: 
-    previous_label: 
+    previous_label: "← Anterior"
