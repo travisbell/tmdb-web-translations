@@ -889,15 +889,15 @@ pl-PL:
         '1':
           meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Nie zalecane poniżej 6 roku.
         '3':
-          meaning: 
+          meaning: Nie zalecane poniżej 12 roku.
         '4':
-          meaning: 
+          meaning: Nie zalecane poniżej 16 roku.
         '5':
-          meaning: 
+          meaning: Nie zalecane poniżej 18 roku.
         '6':
-          meaning: 
+          meaning: Niedozwolone poniżej 18 roku życia, tylko dla dorosłych.
       IN:
         '0':
           meaning: Nieograniczona możliwość publicznych pokazów w całych Indiach dla wszystkich grup wiekowych. Filmy z tą klasyfikacją nie powinny niepokoić dzieci powyżej 4 lat. Takie filmy mogą zawierać motywy edukacyjne, społeczne lub związane z rodziną. Filmy z tą klasyfikacją mogą zawierać również przemoc w świecie fantasy i/lub umiarkowanie niegrzeczny język.
@@ -1120,7 +1120,7 @@ pl-PL:
           meaning: Może być transmitowany tylko od 23:00 do 6:00.
       ES:
         '0':
-          meaning: 
+          meaning: Brak dostępnych ocen.
         '1':
           meaning: 
         '2':
@@ -1165,7 +1165,7 @@ pl-PL:
           meaning: Tylko dla dorosłych. Zawiera wyraźne sceny seksu.
       HU:
         '0':
-          meaning: 
+          meaning: Brak dostępnych ocen.
         '1':
           meaning: Bez ograniczeń wiekowych.
         '2':
@@ -1367,11 +1367,11 @@ pl-PL:
         top: TV
       tv: TV
       tv_bible: 
-    welcome_1: 
+    welcome_1: Witamy w
     welcome_2: 
   cookie_popup:
     message: 
-    ok_button: 
+    ok_button: Ok
   date:
     abbr_day_names:
     - nie
@@ -1472,7 +1472,10 @@ pl-PL:
           Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
         subject: To jest spam
     why_deleting: Dlaczego usuwasz ten wpis?
-  department_credits_count: 
+  department_credits_count:
+    few: "%{department} (%{count} kredyty)"
+    one: "%{department} (%{count} kredyt)"
+    other: "%{department} (%{count} kredytów)"
   departments:
     Acting: Aktor
     Actors: Aktorzy
@@ -1619,7 +1622,7 @@ pl-PL:
       not_svg: Ten obraz nie jest w formacie SVG
     locked:
       genres: Pole gatunków jest zablokowane
-      keywords: 
+      keywords: Pole słów kluczowych jest zablokowane
     messages:
       blank: jest wymagane
       inclusion: musi być wybrane
@@ -1628,14 +1631,14 @@ pl-PL:
       suspected_tv_series: 
       taken: już jest zajęty
     movie:
-      duplicate_cast: 
+      duplicate_cast: Ta osoba jest już dodana jako członek obsady.
     tv:
-      duplicate_created_by: 
+      duplicate_created_by: Ta osoba już została dodana jako twórca.
       duplicate_crew_member: 
-      duplicate_episode: 
+      duplicate_episode: Ten odcinek już istnieje.
       duplicate_guest_star: 
       duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_season: Ten sezon już istnieje.
   failed_email: Wystąpił błąd przy wysyłaniu e-maila.
   failed_generic: Wystąpił problem.
   failed_report: Wystąpił problem przy wysyłaniu zgłoszenia.
@@ -1654,14 +1657,14 @@ pl-PL:
         today: Nowy odcinek dzisiaj
         tomorrow: Nowy odcinek jutro
   images:
-    confirm_delete: 
+    confirm_delete: Czy na pewno chcesz usunąć ten obraz?
     upload_criteria:
       '1': Maksymalna rozdzielczość 2000x3000
       '2': Minimalna rozdzielczość 500x750
       '3': Proporcje 1:1.5 (2:3)
-      '4': 
-      '5': 
-      '6': 
+      '4': Maksymalne wymiary to 3840x2160
+      '5': Minimalne wymiary to 400x225
+      '6': 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
       '7': 
       '8': 
       '9': Minimalna rozdzielczość 300x450
@@ -1690,7 +1693,7 @@ pl-PL:
     3D Coordinator: 
     3D Digital Colorist: 
     3D Director: Reżyser 3D
-    3D Editor: 
+    3D Editor: Edytor 3D
     3D Generalist: 
     3D Modeller: 
     3D Sequence Supervisor: 
@@ -3340,6 +3343,6 @@ pl-PL:
   used_by_developers: TMDb jest używana przez ponad 200 000 osób rozwijających serwis.<br>Przeglądaj ich pracę poniżej.
   view all: wyświetl wszystkich
   will_paginate:
-    next_label: 
-    page_gap: 
-    previous_label: 
+    next_label: Następny →
+    page_gap: "..."
+    previous_label: "← Poprzedni"

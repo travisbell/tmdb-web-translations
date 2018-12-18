@@ -66,7 +66,7 @@ pt-PT:
   Approve: Aprovar
   Approved?: Aprovado?
   Apps: Aplicações
-  Archived Databases: 
+  Archived Databases: Bases de dados Arquivadas
   Are you sure?: Tem a certeza?
   Attributes: Atributos
   Auto: Automático
@@ -88,7 +88,7 @@ pt-PT:
   Change?: Mudar?
   Changes: Alterações
   Character: Personagem
-  Choose: 
+  Choose: Escolha...
   City: Cidade
   Clip: Vídeo
   Clips: Videoclipes
@@ -560,24 +560,28 @@ pt-PT:
         emails: Emails
         filters:
           status:
-            Bounce: 
-            Complaint: 
+            Bounce: Devolvido
+            Complaint: Queixa
             Delivery: Enviado
             Unsubscribed: Não subscrito
             status: Estado
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events: Eventos
       notifications:
         filters:
           type:
             Discussion: Discussão
             General: Geral
-            List Import: 
-            Mention: 
+            List Import: Importar lista
+            Mention: Menção
             Messages: Mensagens
             type: Tipo
         notifications: Notificações
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Notificação"
+          other: "%{count} Notificações"
       page_title:
         recent_events: Eventos Recentes
       recent: Recente
@@ -685,20 +689,22 @@ pt-PT:
   add_to_list: Adicionar %{media_title} para uma das suas listas...
   already_translated_in: "%{page_title} já está transcrito(a) nos idiomas seguintes..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Pedido de autenticação de terceiros
     approved_session: Aprovaste a aplicação %{application_name}. Podes fechar esta janela.
     continue: Se desejares continuar, clica no botão aprovar que se encontra em baixo. Caso contrário, podes fechar esta janela.
-    request_token_approval: 
+    request_token_approval: "{{APP}} está a pedir a sua permissão para ler e gravar dados em seu nome. Isso é necessário se quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
     statuses:
       completed:
-        message: 
-        name: 
+        message: Concedeu permissão de leitura e gravação para <strong>%{application_name}</ strong>. Agora pode voltar ao aplicativo e fechar esta janela. Poderá revogar esst acesso entrando na página de configurações da sua conta e, em seguida, na página "Aplicativos conectados".
+        name: Autenticação concedida
       denied:
-        message: 
-        name: 
+        message: |-
+          <p>Você negou o acesso  a <strong>%{application_name}</strong>.
+          Se isto foi um erro, ou se quiser reiniciar o processo de autenticação, basta voltar ao aplicativo e solicitar permissão novamente.</p>
+        name: Autenticação negada
       invalid_request_token:
-        message: 
-        name: 
+        message: O token de acesso que enviou não é válido. Tente criar um novo e verifique se copiou correctamente. Se continuar com problemas, entre em contrato com o desenvolvedor do aplicativo que está a utilizar.
+        name: Token de solicitação inválido
   attributes:
     biography: Biografia
     certification: Classificação Etária
@@ -711,7 +717,7 @@ pt-PT:
     overview: Visão Geral
     title: Título
     to_accounts_ids: Para
-    translated_overview: 
+    translated_overview: Sinopse
   average edits per day: média de edições por dia
   back_options:
     back: Voltar
@@ -720,7 +726,7 @@ pt-PT:
     episode_list: Regressar a lista de episódios
     home: Regressar ao início
     main: Regressar a página principal
-    named_episode_group: 
+    named_episode_group: Voltar aos grupos de "%{group_name}"
     season: Regressar a temporada
     season_list: Regressar a lista de temporadas
     to_tmdb: Voltar a TMDB
@@ -734,9 +740,9 @@ pt-PT:
         '2':
           meaning: Geral. O conteúdo tem impacto muito ligeiro.
         '3':
-          meaning: 
+          meaning: Orientação dos pais recomendada. Sem restrições de idade. Conteúdo de pouco impacto.
         '4':
-          meaning: 
+          meaning: Recomendado para públicos maduros. Sem restrições de idade. Conteúdo de impacto moderado.
         '5':
           meaning: 
         '6':
@@ -1298,7 +1304,7 @@ pt-PT:
     movies_missing_a_overview: Filmes Sem Sinopse
     movies_missing_a_poster: Filmes Sem Cartaz
     movies_missing_a_title: Filmes Sem Título
-    page_title: 
+    page_title: Contribuir com Dados em Falta
     selected_language: Idioma Selecionado
     tv_missing_a_backdrop: Séries de TV Sem Imagem de Fundo
     tv_missing_a_poster: Séries de TV Sem Cartaz
@@ -1307,30 +1313,30 @@ pt-PT:
     tv_shows_missing_a_overview: Séries de TV Sem Sinopse
   contribution_bible:
     abbreviations:
-      collection: 
-      image: 
-      movie: 
-      people: 
-      tv: 
+      collection: col
+      image: img
+      movie: mov
+      people: ppl
+      tv: tv
     collection:
-      collection: 
-      collection_bible: 
+      collection: Colecções
+      collection_bible: Lista de Colecções
       tall_bible:
         bottom: Bíblia
         top: Coleção
     contribution_bible: Bíblia de Contribuição
-    featured_articles: 
+    featured_articles: Artigos em Destaque
     general:
       general: Geral
-      general_bible: 
+      general_bible: Lista Geral
     image:
       image: Imagens
-      image_bible: 
+      image_bible: Lista de Imagens
     movie:
       movie: Filmes
-      movie_bible: 
+      movie_bible: Lista de Filmes
       tall_bible:
-        bottom: 
+        bottom: Lista
         top: Filme
     new_content:
       new_content: Novo Conteúdo
@@ -1342,9 +1348,9 @@ pt-PT:
       tall_bible:
         bottom: 
         top: Pessoas
-    pro_tip: 
+    pro_tip: Dica PRO
     search:
-      placeholder_1: 
+      placeholder_1: Que tipo de ajuda precisa?
     tv:
       tall_bible:
         bottom: 
@@ -1480,9 +1486,9 @@ pt-PT:
         support: Suporte
         website_support: Suporte do Site
     category:
-      last_reply_with_datetime: 
-      last_reply_with_datetime_and_username: 
-    discussion_activity: 
+      last_reply_with_datetime: "%{date} às %{time}"
+      last_reply_with_datetime_and_username: "%{date} às %{time}<br>por %{username}"
+    discussion_activity: Actividade nas discussões
     email_notifications:
       email_notifications: Notificações por E-mail
       subscribe: Subscrever
@@ -1498,7 +1504,7 @@ pt-PT:
       community_guidelines: Regras da Comunidade
       discussion_category: Categoria
       for_item: Para o item
-      message: 
+      message: Mensagem
       new_discussion: Nova Discussão
       subject: Assunto
     no_discussions: Nenhuma discussão.
@@ -1543,12 +1549,12 @@ pt-PT:
       open: Aberta
     table_headers:
       last_reply: Última Resposta
-      replies: 
+      replies: Respostas
       status: Estado
-      subject: 
+      subject: Assunto
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Sem subscritores
+      users_in_discussion: Utilizadores nesta Discussão
     your_account: A Sua Conta
   dont_fallback: Nenhum (Sem Retorno)
   edit_list:
@@ -1568,29 +1574,29 @@ pt-PT:
   episode_number_name: Episódio %{episode_number}
   errors:
     images:
-      couldnt_process: 
+      couldnt_process: Não conseguimos processar esta imagem
       not_jpeg: A imagem não é JPEG
       not_png: A imagem não é PNG
       not_svg: A imagem não é SVG
     locked:
       genres: O campo de géneros está bloqueado
-      keywords: 
+      keywords: O campo de palavras-chave está bloqueado
     messages:
       blank: é necessário
       inclusion: deve estar selecionado
       invalid: é inválido
       required: deve existir
-      suspected_tv_series: 
+      suspected_tv_series: parece ser uma série ou mini-série já existente. Pode continuar a adicionar este item, mas ele será removido caso já exista na nossa secção de Séries
       taken: já está atribuído
     movie:
-      duplicate_cast: 
+      duplicate_cast: Esta pessoa já foi adicionada ao elenco.
     tv:
-      duplicate_created_by: 
-      duplicate_crew_member: 
-      duplicate_episode: 
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_created_by: Esta pessoa já foi adicionada como um(a) criador(a).
+      duplicate_crew_member: Esta pessoa já foi adicionada como um(a) %{job_name}.
+      duplicate_episode: Este episódio já existe.
+      duplicate_guest_star: Este convidado especial já existe.
+      duplicate_regular_season_member: Esta pessoa já foi adicionada como um membro do elenco recorrente da temporada.
+      duplicate_season: Esta temporada já existe.
   failed_email: E-mail não enviado.
   failed_generic: Houve um problema.
   failed_report: Houve um problema na entrega da sua submissão.
@@ -1601,11 +1607,11 @@ pt-PT:
     min: Filtrar Por Data De Estreia (Min)
   homepage:
     discussions:
-      catch_up_now: 
+      catch_up_now: Coloque a conversa em dia
       discussions: Discussões
     tv_shows:
       episode_airs:
-        in_days: 
+        in_days: Novo episódio em %{number_of_days} dias
         today: 
         tomorrow: 
   images:
@@ -1631,7 +1637,7 @@ pt-PT:
     one: "%{count} item"
     other: "%{count} itens"
   jobs:
-    '"A" Camera Operator': 
+    '"A" Camera Operator': Operador de Camera "A"
     '"B" Camera Operator': 
     '"C" Camera Operator': 
     '"D" Camera Operator': 
@@ -1649,7 +1655,7 @@ pt-PT:
     3D Modeller: 
     3D Sequence Supervisor: Supervisor(a) de Sequência 3D
     3D Supervisor: Supervisor(a) 3D
-    3D Tracking Layout: 
+    3D Tracking Layout: Layout de Rastreamento 3D
     ADR & Dubbing: Substituição Automática de Diálogo (ADR) e Dobragem
     ADR Coordinator: Coordenador(a) de Substituição Automática de Diálogo (ADR)
     ADR Editor: Editor(a) de Substituição Automática de Diálogo (ADR)
@@ -1660,12 +1666,12 @@ pt-PT:
     ADR Recordist: Gravador(a) de Substituição Automática de Diálogo (ADR)
     ADR Supervisor: Supervisor(a) de Substituição Automática de Diálogo (ADR)
     ADR Voice Casting: Casting de Voz para Substituição Automática de Diálogo (ADR)
-    Accountant: 
+    Accountant: Contador
     Accounting Clerk Assistant: Assistente Administrativo(a) de Contabilidade
     Accounting Supervisor: Supervisor(a) de Contabilidade
     Accounting Trainee: Estagiário(a) de Contabilidade
-    Acting Double: 
-    Action Director: 
+    Acting Double: Dupla personagem
+    Action Director: Director de Acção
     Actor: Ator/Atriz
     Actor's Assistant: Assistente do(a) Ator/Atriz
     Adaptation: Adaptação
@@ -1686,34 +1692,34 @@ pt-PT:
     Additional Hairstylist: Auxiliar de Estilista de Cabelos
     Additional Key Construction Grip: Maquinista de Montagem de Construção Adicional
     Additional Key Grip: Maquinista de Montagem Adicional
-    Additional Lighting Technician: 
+    Additional Lighting Technician: Técnico de Iluminação Adicional
     Additional Music: Música Suplementar
     Additional Music Supervisor: Supervisor(a) Adicional de Música
     Additional Photography: Fotografia Suplementar
     Additional Post-Production Supervisor: Supervisor(a) Adicional de Pós-Produção
-    Additional Production Assistant: 
+    Additional Production Assistant: Assistente de Produção Adicional
     Additional Production Sound Mixer: Produção Adicional de Mistura de Som
     Additional Script Supervisor: Supervisor(a) Adicional de Argumentação
-    Additional Second Assistant Camera: 
-    Additional Second Assistant Director: 
-    Additional Set Dresser: 
-    Additional Set Photographer: 
+    Additional Second Assistant Camera: Assistente de Segunda Camera Adicional
+    Additional Second Assistant Director: Segundo Director Assistente Adicional
+    Additional Set Dresser: Auxiliar de Guarda-Roupa
+    Additional Set Photographer: Auxiliar de Fotografia
     Additional Sound Re-Recording Mixer: Misturador(a) Adicional de Regravação de Som
     Additional Sound Re-Recordist: Regravador(a) Adicional de Som
     Additional Soundtrack: Banda Sonora Adicional
     Additional Still Photographer: 
-    Additional Storyboarding: 
+    Additional Storyboarding: Auxiliar de Guião
     Additional Third Assistant Director: Terceiro Assistente Adicional de Realizador
     Additional Underwater Photography: 
     Additional Visual Effects: Auxiliar de Efeitos Visuais
     Additional Wardrobe Assistant: 
     Additional Writing: Guionista Adicional
     Administration: Administração
-    Administrative Assistant: 
-    Aerial Camera: 
-    Aerial Camera Technician: 
-    Aerial Coordinator: 
-    Aerial Director of Photography: 
+    Administrative Assistant: Assistente Administrativo
+    Aerial Camera: Câmera Aérea
+    Aerial Camera Technician: Técnico de Camera Aérea
+    Aerial Coordinator: Coordenador Aéreo
+    Aerial Director of Photography: Director de Fotografia Aérea
     Ager/Dyer: 
     Animal Coordinator: 
     Animal Wrangler: 
@@ -1749,11 +1755,11 @@ pt-PT:
     Assistant Chief Lighting Technician: 
     Assistant Costume Designer: Figurinista Assistente
     Assistant Craft Service: 
-    Assistant Decorator: 
-    Assistant Dialogue Editor: 
+    Assistant Decorator: Assistente de Decoração
+    Assistant Dialogue Editor: Assistente do Editor de Diálogos
     Assistant Director: Diretor(a) Assistente
     Assistant Director Trainee: 
-    Assistant Director of Photography: 
+    Assistant Director of Photography: Assistente do Director de Fotografia
     Assistant Editor: Editor(a) Assistente
     Assistant Electrician: 
     Assistant Extras Casting: 
@@ -2656,7 +2662,7 @@ pt-PT:
       placeholders:
         country: 
         create_person:
-          click_to_create: 
+          click_to_create: Clicar para cliar %{name}
           create_it: 
         genres: Selecione um género...
         job: 
@@ -2795,7 +2801,7 @@ pt-PT:
         previous_episode: Episódio Anterior
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Criar Episódio
         episodes:
           no_records: 
         screened_confirm: 
@@ -2806,7 +2812,7 @@ pt-PT:
         next_season: Próxima Temporada
         previous_season: 
     tv_show:
-      create_season: 
+      create_season: Criar Temporada
       edit:
         adult:
           adult_show: Séries de TV para Adultos?
@@ -2819,7 +2825,7 @@ pt-PT:
         crew:
           no_season: 
         episode_groups:
-          create_new_group: 
+          create_new_group: Criar Novo Grupo
           description: 
           episode_groups: 
           episodes:

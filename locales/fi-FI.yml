@@ -66,7 +66,7 @@ fi-FI:
   Approve: Vahvista
   Approved?: Hyväksytty?
   Apps: Sovellukset
-  Archived Databases: 
+  Archived Databases: Arkistoidut tietokannat
   Are you sure?: Oletko varma?
   Attributes: Ominaisuudet
   Auto: Automaattinen
@@ -291,7 +291,7 @@ fi-FI:
   Number of edits in the past: Muokkausten määrä viime
   Offensive or Spam: Loukkaava tai roskasisältö
   Offical Site: Virallinen kotisivu
-  Offline Databases: 
+  Offline Databases: Offline-tietokannat
   Opening Credits: Alkutekstit
   Origin Country: Alkuperämaa
   Original Air Date: Alkuperäinen lähetyspäivä
@@ -331,7 +331,7 @@ fi-FI:
   Popularity Trend: Suosion suuntaus
   Poster Card View: Julisteiden korttinäkymä
   Posters: Julisteet
-  Powered by TMDb: 
+  Powered by TMDb: Voimanlähteenä TMDb
   Powered by The Movie Database: Voimanlähteenä The Movie Database
   Premiere: Ensi-ilta
   Preview: Esikatselu
@@ -555,32 +555,36 @@ fi-FI:
         page_owner: Omat keskustelut
         public: Käyttäjän %{username} keskustelut
     events:
-      all: 
+      all: Kaikki
       emails:
-        emails: 
+        emails: Sähköpostit
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Hylätyt
+            Complaint: Valitus
+            Delivery: Toimitettu
+            Unsubscribed: Seuranta lopetettu
+            status: Tila
+        number_of_items:
+          one: "%{count} Sähköposti"
+          other: "%{count} Sähköpostia"
+      events: Tapahtumat
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Keskustelu
+            General: Yleinen
+            List Import: Listan tuonti
+            Mention: Maininta
+            Messages: Viestit
+            type: Tyyppi
+        notifications: Ilmoitukset
+        number_of_items:
+          one: "%{count} Ilmoitus"
+          other: "%{count} Ilmoitusta"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Viimeaikaiset tapahtumat
+      recent: Viimeaikaiset
     export:
       csv_explanation: Jos haluat viedä listan csv tiedostoon, paina "Vie" painiketta sivun alareunassa. Tämä luo csv-tiedoston, joka lähetetään sähköpostiisi. Listasi koosta riippuen, tässä saattaa kestää muutama minuutti.
       export: Vie
@@ -1118,7 +1122,7 @@ fi-FI:
         '7':
           meaning: 
         '8':
-          meaning: 
+          meaning: Ei suositella alle 18-vuotiaille.
       FR:
         '0':
           meaning: Ei luokiteltu.
@@ -1147,19 +1151,19 @@ fi-FI:
           meaning: R18-luokitus on erityinen ja lain vaatima luokitus pääasiassa aikuisille tarkoitetulle pornografialle ja fetissimateriaalille.
       HU:
         '0':
-          meaning: 
+          meaning: Ikärajaa ei saatavilla.
         '1':
-          meaning: 
+          meaning: Ei ikärajoitettu.
         '2':
-          meaning: 
+          meaning: Ohjelmaa suositellaan lapsille. Tämä luokitus on vapaaehtoinen, eikä esittäjältä vaadita sen käyttöä.
         '3':
-          meaning: 
+          meaning: Ohjelmaa ei suositella alle 6-vuotiaille, eikä saa sisältää väkivaltaa tai seksuaalista sisältöä. Keltaista ympyrää jonka sisällä on numero 6 käytetään tälle luokitukselle.
         '4':
-          meaning: 
+          meaning: Ohjelmaa ei suositella alle 12-vuotiaille, saa sisältää lievää väkivaltaa, lievää seksuaalista sisältöä tai kielenkäyttöä. Suurin osa elokuvista jotka sisältävät raakaa väkivaltaa tai seksuaalista sisältöä käyttää tätä luokitusta. Keltaista ympyrää jonka sisällä on numero 12 käytetään tälle luokitukselle.
         '5':
-          meaning: 
+          meaning: Ohjelmaa ei suositella alle 16-vuotiaille, saa sisältää raaempaa väkivaltaa tai seksuaalista sisältöä. Keltaista ympyrää jonka sisällä on numero 16 käytetään tälle luokitukselle.
         '6':
-          meaning: 
+          meaning: Ohjelmaa suositellaan ainoastaan aikuisille (yli 18-vuotiaille), saattaa sisältää raakaa väkivaltaa ja peittelemättömiä seksikohtauksia. Punaista ympyrää jonka sisällä on numero 18 käytetään tälle luokitukselle (ympyrää käytettiin myös vuonna 2002, mutta se ei sisältänyt mitään numeroa).
       KR:
         '0':
           meaning: Tämä luokitus on ainoastaan tietokilpailutyyppisille ohjelmille, lifestyle-sarjoille, dokumenteille, uutisille, keskusteluohjelmille, koulutus/kulttuuri-sarjoille, urheilullle (pois lukien MMA tai muu väkivaltainen urheilu) sekä muut ohjelmat jotka ovat Korean kommunikaatio standardi komission tunnistamia.
@@ -1195,15 +1199,15 @@ fi-FI:
           meaning: Alle 16-vuotiaille vanhempien ohjauksessa.
       PH:
         '0':
-          meaning: 
+          meaning: Ei luokitustietoja.
         '1':
-          meaning: 
+          meaning: Sopii kaiken ikäisille.
         '2':
-          meaning: 
+          meaning: Suositellaan vanhempien valvonnassa.
         '3':
-          meaning: 
+          meaning: Suositellaan vanhempien tarkassa valvonnassa.
         '4':
-          meaning: 
+          meaning: Kaikkien televisio-ohjelmien jotka eivät sovi "G," "PG" ja "SPG" luokitukseen, televisioesitykset tullaan kieltämään.
       PT:
         '0':
           meaning: Ei luokiteltu.
@@ -2493,9 +2497,9 @@ fi-FI:
     Swing: 
     Systems Administrators & Support: Järjestelmien hallinnointi ja tuki
     Tailor: 
-    Tattoo Designer: 
+    Tattoo Designer: Tatuointisuunnittelija
     Tattooist: Tatuoija
-    Technical Advisor: 
+    Technical Advisor: Tekninen neuvonantaja
     Technical Supervisor: Tekninen valvoja
     Techno Crane Operator: 
     Telecine Colorist: 
@@ -2607,22 +2611,22 @@ fi-FI:
       previous_page: "(vasen nuolinäppäin) edellinen sivu"
       previous_season: "(vasen nuolinäppäin) siirry edelliseen kauteen"
       reply_to_discussion: vastaa keskusteluun
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
-      toggle_watching: 
+      save_form: Lähetä lomake
+      submit_message: Lähetä viesti
+      toggle_close: vaihda avaa/sulje asetus
+      toggle_private: vaihda julkinen/yksityinen asetus
+      toggle_watching: vaihda seurannan asetus
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      discussion_pages: Keskustelu sivuilla
+      edit_pages: Kaikilla muokkaus-sivuilla
+      global: Koko sivustolla
+      image_pages: Kaikilla kuvasivustoilla
+      media_pages: Mediasivuilla
+      tv_episode_pages: TV-sarjan jaksojen sivuilla
+      tv_season_pages: TV-sarjan kausien sivuilla
+    keyboard_shortcuts: Näppäinoikotiet
+    view_keyboard_shorcuts: Näytä näppäinoikotiet
+    view_shortcuts: Näytä oikotiet
   list_info:
     average_rating: Pisteytyksen keskiarvo
     image_selected: Valittu
@@ -2660,11 +2664,13 @@ fi-FI:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: Tyhjennä
+        key: Avain
+        language: Kieli
+        user: Käyttäjä
+      number_of_changes:
+        one: "%{count} Muutos"
+        other: "%{count} Muutosta"
       view_weekly_leaderboard: Näytä viikottainen tulostaulukko
     company:
       headquarters: Pääkonttori
@@ -2694,9 +2700,9 @@ fi-FI:
         overview: Kuvausta kirjoittaessa, pyri pitämään se suppeana, tarkkana ja spoileri-vapaana.
         social_links: Sosiaalisen median tilit ovat ainoastaan virallisia (hyväksytty) sivuja varten. Fanisivut eivät ole sallittu.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
+      visit_facebook: Vieraile Facebookissa
+      visit_homepage: Vieraile kotisivulla
+      visit_instagram: Vieraile Instagramissa
       visit_twitter: Vieraile Twittersivustolla
     genre:
       movie_page_title: "%{name} Elokuvissa"
@@ -2942,7 +2948,7 @@ fi-FI:
       one: "%{count} viesti"
       other: "%{count} viestiä"
     options:
-      admin: 
+      admin: Ylläpitäjä
       archive: Arkisto
       settings: Asetukset
       viewed_at: Katsottu %{time_ago}
@@ -2963,7 +2969,7 @@ fi-FI:
       new_message: Uusi viesti
       support_archive: Tukiarkisto
       support_inbox: Tuen saapuneet
-    translate: 
+    translate: Käännä
   month:
     one: kuukausi
     other: "%{count} kuukautta"
@@ -3037,13 +3043,13 @@ fi-FI:
     public: '%{page_title} ei ole vielä käännetty kielelle <strong>%{requested_i18n} (%{requested_language_text})</strong>. Voit lisätä käännöksen <a href="%{signup_link}">luomalla tilin</a> ja <a href="%{login_link}">kirjautumalla sisään</a>.'
   notifications:
     caught_up: Näyttää siltä, että olet tilanteen tasalla.
-    clear: 
+    clear: Tyhjennä
     good_job: Hyvää työtä!
     mark_all_as_read: Merkitse kaikki luetuiksi
     refresh: Päivitä
     unread_notifications: Lukemattomat ilmoitukset
     view: Näytä
-    view_all: 
+    view_all: Näytä kaikki
   number:
     currency:
       format:
@@ -3198,11 +3204,11 @@ fi-FI:
       results:
         complete:
           imported: Tuotu?
-          item: 
+          item: Nimike
           item_reasons:
             already_imported: Tuotu jo.
             cant_find_imdb: IMDb ID:tä ei löytynyt.
-            imdb_id_not_in_row: 
+            imdb_id_not_in_row: IMDb tunnistetta ei löytynyt tästä sarakkeesta.
             personal_rating_invalid: Pisteytys on virheellinen (tulisi olla 0.5 ja 10 välillä).
             personal_rating_not_found: Henkilökohtaista pisteytystä ei löytynyt tässä rivissä.
             row_is_invalid: Tämä rivi on virheellinen.
@@ -3262,10 +3268,16 @@ fi-FI:
       change_password: Vaihda salasana
       edit_profile: Muokkaa profiilia
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: Nollaa sähköposti?
+        reset_button: Nollaa ja lähetä?
+        reset_invalid_email_dialog_text: |-
+          <p>Valitettavasti emme ole pystyneet lähettämään sinulle sähköpostia aiemmin. Voit tarkistaa virheilmoitukset <a href="/u/%{username_url}/events/emails?status=2,3">tästä</a>.</p>
+
+          <p>Mikäli ongelma sähköpostissasi on korjattu tai se oli vain väliaikaista, klikkaa nollauspainiketta alapuolella ja yritämme lähettää sinulle uuden vahvistusviestin.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <pVaihtaaksesi salasanan, tarvitsemme toimivan sähköpostiosoitteen. Valitettavasti emme ole pystyneet lähettämään sinulle sähköpostia aiemmin. Voit tarkistaa virheilmoitukset <a href="/u/%{username_url}/events/emails?status=2,3">tästä</a>.</p>
+
+          <p>Mikäli ongelma sähköpostissasi on korjattu tai se oli vain väliaikaista, klikkaa nollauspainiketta alapuolella ja yritämme lähettää sinulle uuden viestin.</p>
       reset_password_dialog_text: Vahvistamalla tämän pyynnön sinulle lähetetään sähköposti, joka sisältää ohjeet salasanan nollaamiseen. Oletko varma, että haluat jatkaa?
     sharing:
       favorite_list:

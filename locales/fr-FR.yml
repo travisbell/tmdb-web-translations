@@ -319,7 +319,7 @@ fr-FR:
   Physical: Copie Physique
   Place of Birth: Lieu de naissance
   Play: Regarder
-  Play Trailer: Regarder la bande d'annonce
+  Play Trailer: Regarder le trailer
   Plot Keywords: Mots-clés de l'intrigue
   Popular Lists: Listes populaires
   Popular Movies: Films populaires
@@ -462,7 +462,7 @@ fr-FR:
   Top Rated Movies: Films les mieux notés
   Top Rated TV Shows: Séries les mieux notées
   Top Users: Top des contributeurs
-  Trailer: Bande Annonce
+  Trailer: Bande-annonce
   Trailers: Bande-annonces
   Translate Collection: Traduire Collection
   Translate Movie: Traduire le film
@@ -2944,7 +2944,7 @@ fr-FR:
       duration: Durée
       published: Publié(e)
       published_at: Publié À
-      restricted_regions: 
+      restricted_regions: Régions restreintes
       tags: Tags
   message_templates:
     help_translate:
@@ -2989,8 +2989,8 @@ fr-FR:
       my_archive: Mon archive
       my_inbox: Ma boîte de réception
       new_message: Nouveau Message
-      support_archive: 
-      support_inbox: 
+      support_archive: Archives de support
+      support_inbox: Soutien boîte de réception
     translate: Traduire
   month:
     one: mois
@@ -3292,8 +3292,14 @@ fr-FR:
       email:
         invalid_dialog_title: Réinitialiser l'Email ?
         reset_button: Réinitialiser et envoyer ?
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          <p>Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher les erreurs <a href="/u/%{username_url}/events/emails?status=2,3">ici</a>.</p>
+
+          <p>Si les problèmes avec votre adresse e-mail ont été corrigés ou ne sont que temporaires, cliquez sur le bouton de réinitialisation ci-dessous. Nous essayerons de vous envoyer un autre e-mail pour le vérifier.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Afin de changer votre mot de passe, nous avons besoin d'une adresse email valide. Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher les erreurs <a href="/u/%{username_url}/events/emails?status=2,3">ici</a>.</p>
+
+          <p>Si les problèmes avec votre adresse e-mail ont été corrigés ou ne sont que temporaires, cliquez sur le bouton de réinitialisation ci-dessous pour que nous essayions de vous envoyer un autre e-mail.</p>
       reset_password_dialog_text: Si vous confirmez votre demande, vous recevrez un email avec les instructions pour définir un nouveau mot de passe. Souhaitez-vous confirmer votre demande ?
     sharing:
       favorite_list:

@@ -299,10 +299,10 @@ zh-CN:
   Original Descending: 原降序
   Original Language: 原始语言
   Original Movie Language: 原电影语言
-  Original Name: 原片名
+  Original Name: 原产地片名
   Original Order: 原始顺序
   Original TV Show Language: 原剧集语言
-  Original Title: 原片名
+  Original Title: 原产地片名
   Other Databases: 其它数据库
   Our History: 我们的历史
   Overview: 剧情简介
@@ -468,10 +468,10 @@ zh-CN:
   Translate Movie: 翻译电影
   Translate Person: 译者
   Translate TV Series: 翻译剧集
-  Translated Name: 本页语系官方发行片名
+  Translated Name: 所选区域之官方片名
   Translated Overview: 剧情简介
-  Translated Tagline: 本页语系海报口号
-  Translated Title: 本页语系官方发行片名
+  Translated Tagline: 该区海报口号
+  Translated Title: 所选区域之官方片名
   Translations: 翻译
   Type: 类型
   Type of Problem: 问题类型
@@ -871,19 +871,19 @@ zh-CN:
           meaning: 只能在持牌成人电影院放映，或在持牌性商店出售，仅限18岁及以上的成年人。这个类别的电影都是硬色情，被定义为旨在用于性刺激的材料，并包含真实的性行为、强烈的恋物癖材料、明确的动画图像或某些行为，如三人性交和口交的清晰图像。仍然有一系列材料经常被从R18级剪掉：即便是表演的性虐或打屁股作品、尿色情、暗示乱伦的场景的强烈伤害图像，涉及未成年人性或儿童性开发和侵略行为，如拔毛或者在表演者身上吐痰都是不允许的。这一类别被剪片的要比其他任何类别都多。
       HU:
         '0':
-          meaning: 
+          meaning: 没有评级信息.
         '1':
-          meaning: 
+          meaning: 没有年龄限制.
         '2':
-          meaning: 
+          meaning: 不建议6岁以下.
         '3':
-          meaning: 
+          meaning: 不建议12岁以下.
         '4':
-          meaning: 
+          meaning: 不建议16岁以下.
         '5':
-          meaning: 
+          meaning: 不建议18岁以下.
         '6':
-          meaning: 
+          meaning: 限制18岁,仅限成人使用.
       IN:
         '0':
           meaning: 可在全印度无限制的公映，适合所有年龄组。这类电影不应该使4岁以上的儿童受到伤害。这些电影可能包含教育、社会或以家庭为导向的主题。这个类别的电影也可能包含幻想暴力和/或轻度不良语言。
@@ -1151,9 +1151,9 @@ zh-CN:
           meaning: R18类别是一种特殊的和受法律限制的分级，主要针对同性恋或涉及成年人的强烈恋物癖作品。
       HU:
         '0':
-          meaning: 
+          meaning: 无评分信息
         '1':
-          meaning: 
+          meaning: 无年龄限制
         '2':
           meaning: 
         '3':
@@ -1428,14 +1428,14 @@ zh-CN:
         subject: 不符合我们的内容准则（业余，等等）
       '3':
         message: 
-        subject: 
+        subject: 电视剧集
       '4':
         message: 
-        subject: 
+        subject: 假条目
       '5':
         message: 
-        subject: 
-    why_deleting: 
+        subject: 这是垃圾邮件
+    why_deleting: 为什么删除此条目？
   department_credits_count: 
   departments:
     Acting: 参演
@@ -1573,8 +1573,8 @@ zh-CN:
   errors:
     images:
       couldnt_process: 我们无法处理此图片
-      not_jpeg: 
-      not_png: 
+      not_jpeg: 图片不是JPEG格式
+      not_png: 图片不是PNG格式
       not_svg: 图片不是SVG
     locked:
       genres: 类型字段已锁定
@@ -1623,9 +1623,9 @@ zh-CN:
       '6': 支持16x9 (1.78:1)和4:3图像的宽高比
       '7': 最低分辨率为1280x720
       '8': 宽高比为16x9 (1.78:1)
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
+      '9': 最小分辨率为300X450
+      backdrops_must_meet: 背景需满足以下标准：
+      episode_stills_must_meet: 单集需满足以下标准：
       posters_must_meet: 
       profile_must_meet: 
       read_guidelines: 
@@ -1648,16 +1648,16 @@ zh-CN:
     3D Coordinator: 
     3D Digital Colorist: 
     3D Director: 3D 导演
-    3D Editor: 
-    3D Generalist: 
-    3D Modeller: 
+    3D Editor: 3D编辑器
+    3D Generalist: 3D多样化
+    3D Modeller: 3D建模
     3D Sequence Supervisor: 
     3D Supervisor: 3D 总监
-    3D Tracking Layout: 
+    3D Tracking Layout: 3D追踪图层
     ADR & Dubbing: 配音
-    ADR Coordinator: 
-    ADR Editor: 
-    ADR Engineer: 
+    ADR Coordinator: ADR协调
+    ADR Editor: ADR编辑
+    ADR Engineer: ADR工程师
     ADR Mixer: 
     ADR Post Producer: 
     ADR Recording Engineer: 
@@ -1669,13 +1669,13 @@ zh-CN:
     Accounting Supervisor: 
     Accounting Trainee: 
     Acting Double: 
-    Action Director: 
+    Action Director: 动作导演
     Actor: 演员
     Actor's Assistant: 演员助理
     Adaptation: 改编
     Additional Camera: 副摄像
     Additional Casting: 
-    Additional Colorist: 
+    Additional Colorist: 额外调色师
     Additional Construction: 
     Additional Construction Grip: 
     Additional Dialogue: 副对白
@@ -1713,26 +1713,26 @@ zh-CN:
     Additional Wardrobe Assistant: 
     Additional Writing: 副编剧
     Administration: 行政
-    Administrative Assistant: 
-    Aerial Camera: 
-    Aerial Camera Technician: 
-    Aerial Coordinator: 
-    Aerial Director of Photography: 
+    Administrative Assistant: 首席助理
+    Aerial Camera: 航拍镜头
+    Aerial Camera Technician: 航拍镜头技术支持
+    Aerial Coordinator: 航拍协调
+    Aerial Director of Photography: 航拍摄像导演
     Ager/Dyer: 
     Animal Coordinator: 
     Animal Wrangler: 
     Animation: 动画
-    Animation Coordinator: 
+    Animation Coordinator: 动画协调
     Animation Department Coordinator: 动画部协调
     Animation Director: 动画导演
     Animation Fix Coordinator: 动画修复协调
     Animation Manager: 动画经理
     Animation Production Assistant: 动画摄制助理
     Animation Supervisor: 动画总监
-    Animation Technical Director: 
+    Animation Technical Director: 动画技术导演
     Animatronic and Prosthetic Effects: 电子动物和假肢特效
-    Animatronics Designer: 
-    Animatronics Supervisor: 
+    Animatronics Designer: 动画设计师
+    Animatronics Supervisor: 动画咨询师
     Apprentice Sound Editor: 
     Archival Footage Coordinator: 档案影像协调
     Archival Footage Research: 档案影像研究
