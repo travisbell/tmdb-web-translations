@@ -20,7 +20,7 @@ ja-JP:
   Add Alternative Name: 別の名前を追加
   Add Alternative Title: 別のタイトルを追加
   Add Backdrop: 背景画像を追加
-  Add Content Rating: コンテンツ レーティングを追加
+  Add Content Rating: コンテンツの評価を追加
   Add Creator: クリエイターを追加する
   Add Data & Content: データとコンテンツを追加
   Add Item: アイテムを追加
@@ -203,7 +203,7 @@ ja-JP:
   General: 
   Genres: ジャンル
   Genres & Keywords: ジャンルとキーワード
-  Get Involved: 
+  Get Involved: 参加する
   Guest Stars: 
   Guidelines: ガイドライン
   Hardware/Embedded: 
@@ -240,7 +240,7 @@ ja-JP:
   Last Season Regular Cast: 
   Last Week: 先週
   Leaderboard: ランキング
-  Legal: 
+  Legal: 法的事項
   List Results: 
   Lists: リスト
   Load More: 更に読み込む
@@ -463,7 +463,7 @@ ja-JP:
   Top Billed Cast: 主な出演者
   Top Rated Movies: 評価の高い映画
   Top Rated TV Shows: 評価の高いテレビ番組
-  Top Users: 
+  Top Users: 上位の貢献者
   Trailer: 予告編
   Trailers: 予告編
   Translate Collection: コレクションを翻訳する
@@ -602,7 +602,7 @@ ja-JP:
     filters:
       date_added: 追加日
       date_rated: 評価日
-      my_rating: 私の評価
+      my_rating: 自分の評価
       popularity: 人気
       rating: 評価
       release_date: 公開日
@@ -689,20 +689,20 @@ ja-JP:
   add_to_list: "%{media_title}をあなたのリストに加える"
   already_translated_in: "%{page_title}は既に次の言語で翻訳されています..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: サードパーティの認証要求
     approved_session: あなたは%{application_name}を承認しました。このウィンドウを閉じることができます。
     continue: 続行したい場合は下の承認ボタンをクリックしてください。そうでない場合は、このウィンドウを閉じてください。
     request_token_approval: 
     statuses:
       completed:
-        message: 
-        name: 
+        message: "<strong>%{application_name}</strong>に対して読み取りと書き込みの許可を与えています。 アプリケーションに戻り、このウィンドウを閉じることができます。 アカウント設定ページにアクセスして「接続済みアプリ」ページにアクセスすると、いつでもこのアクセス権を取り消すことができます。"
+        name: 認証が承認されました。
       denied:
-        message: 
-        name: 
+        message: "<p><strong>%{application_name}</strong>へのアクセスを拒否しました。 これが間違いだった場合、または認証プロセスを再開したい場合は、アプリケーションに戻って再度許可を要求してください。</p>"
+        name: 認証が拒否されました。
       invalid_request_token:
-        message: 
-        name: 
+        message: 送信したアクセストークンが無効です。 新しいものを作成し正しくコピーしたことを確認してください。 引き続き問題が発生する場合は、使用しているアプリのデベロッパーにお問い合わせください。
+        name: 無効な要求トークンです。
   attributes:
     biography: 経歴
     certification: 分類
@@ -1282,7 +1282,7 @@ ja-JP:
   collection_includes: "%{movie_titles}に含まれています"
   confirm_delete: 本当にこの記録を削除しますか？
   content_score:
-    helper_tooltip: 
+    helper_tooltip: コンテンツスコアは、データベース内のオブジェクトに対するデータの完成度を理解するのに役立ちます。
     scale:
       '0': どこかで始めなきゃ…
       '1': ここがスタートライン！
@@ -1317,48 +1317,48 @@ ja-JP:
       image: 
       movie: 
       people: 
-      tv: 
+      tv: テレビ番組
     collection:
-      collection: 
-      collection_bible: 
+      collection: コレクション
+      collection_bible: コレクションの手引き
       tall_bible:
-        bottom: 
+        bottom: 手引き
         top: コレクション
-    contribution_bible: 
-    featured_articles: 
+    contribution_bible: 投稿の手引き
+    featured_articles: 特集記事
     general:
-      general: 
-      general_bible: 
+      general: 一般事項
+      general_bible: 一般事項の手引き
     image:
-      image: 
-      image_bible: 
+      image: 画像
+      image_bible: 画像の手引き
     movie:
-      movie: 
-      movie_bible: 
+      movie: 映画
+      movie_bible: 映画の手引き
       tall_bible:
-        bottom: 
-        top: 
+        bottom: 手引き
+        top: 映画
     new_content:
-      new_content: 
-      new_content_bible: 
-    note: メモ
+      new_content: 新しいコンテンツ
+      new_content_bible: 新しいコンテンツの手引き
+    note: ノート
     people:
-      people: 
-      people_bible: 
+      people: 人物
+      people_bible: 人物の手引き
       tall_bible:
-        bottom: 
-        top: 
+        bottom: 手引き
+        top: 人物
     pro_tip: プロのヒント
     search:
-      placeholder_1: 
+      placeholder_1: 何を助けてくれますか？
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: 手引き
+        top: テレビ番組
+      tv: テレビ番組
+      tv_bible: テレビ番組の手引き
+    welcome_1: ようこそ
+    welcome_2: 投稿の手引きへ
   cookie_popup:
     message: 
     ok_button: OK
