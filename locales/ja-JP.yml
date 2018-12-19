@@ -73,7 +73,7 @@ ja-JP:
   Back to top: トップに戻る
   Backdrop Card View: 背景画像
   Backdrops: 背景画像
-  Bad Image: 
+  Bad Image: 良くない画像
   Best Match: 
   Biography: 経歴
   Birthday: 誕生日
@@ -552,7 +552,7 @@ ja-JP:
     discussions:
       my_active_boards: マイ アクティブボード
       my_discussions: マイディスカッション
-      not_watching: あなたはディスカッションを閲覧していません。
+      not_watching: ディスカッションを閲覧していません。
       page_title:
         page_owner: マイ ディスカッション
         public: "%{username}さんのディスカッション"
@@ -620,7 +620,7 @@ ja-JP:
       page_title:
         page_owner: マイリスト
         public: "%{username}さんのリスト"
-    member_since: "%{date}から参加中"
+    member_since: "%{date}からメンバーに参加"
     navigation:
       discussions: ディスカッション
       favorites: お気に入り
@@ -692,7 +692,7 @@ ja-JP:
     3rd_party_request: サードパーティの認証要求
     approved_session: あなたは%{application_name}を承認しました。このウィンドウを閉じることができます。
     continue: 続行したい場合は下の承認ボタンをクリックしてください。そうでない場合は、このウィンドウを閉じてください。
-    request_token_approval: 
+    request_token_approval: "{{APP}}はデータを読み書きするあなたの許可を求めています。 これは、あなたのリストを維持したり、TMDbの外で映画を評価するようなことをしたい場合に必要です。"
     statuses:
       completed:
         message: "<strong>%{application_name}</strong>に対して読み取りと書き込みの許可を与えています。 アプリケーションに戻り、このウィンドウを閉じることができます。 アカウント設定ページにアクセスして「接続済みアプリ」ページにアクセスすると、いつでもこのアクセス権を取り消すことができます。"
@@ -734,11 +734,11 @@ ja-JP:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: 分類が免除されています。分類が免除されている映画には、異論のある素材（通常は日本の映画のレイティングでPG12以上の映画）が含まれていてはなりません。
         '2':
-          meaning: 一般。内容は非常に軽度です。
+          meaning: 一般的。内容は大変穏やかな物です。
         '3':
-          meaning: 
+          meaning: 両親の指導が推奨されます。 年齢制限はありません。 内容は穏やかな物です。
         '4':
           meaning: 
         '5':
@@ -1463,14 +1463,14 @@ ja-JP:
   discussions:
     actions:
       actions: アクション
-      close_discussion: 
+      close_discussion: ディスカッションを終える
       make_private: 非公開にする
-      make_public: 
+      make_public: 一般公開する
       mark_spam: スパムとしてマーク
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
+      reopen_discussion: ディスカッションを再開する
+      stop_watching: ウォッチをやめる
+      view_activity: アクティビティを見る
+      watch: ウォッチする
     admin_panel: 管理パネル
     back_options:
       back_to_item_with_arrow: "← %{item_title}に戻る"
@@ -1496,7 +1496,7 @@ ja-JP:
     category:
       last_reply_with_datetime: 
       last_reply_with_datetime_and_username: 
-    discussion_activity: 
+    discussion_activity: ディスカッションのアクティビティ
     email_notifications:
       email_notifications: 
       subscribe: 購読する
@@ -1515,7 +1515,7 @@ ja-JP:
       message: メッセージ
       new_discussion: 
       subject: タイトル
-    no_discussions: 
+    no_discussions: ディスカッションはありません
     pagination:
       post_summary: 
       summary: 
@@ -1542,7 +1542,7 @@ ja-JP:
       reply_on_datetime: 
       report: 報告する
       unhide: 再表示する
-    report_violation: 
+    report_violation: 違反を報告する
     search:
       advanced_search: 
       search_closed: 
