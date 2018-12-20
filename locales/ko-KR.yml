@@ -7,7 +7,7 @@ ko-KR:
   API Key: API 키
   API Libraries: API 라이브러리
   API Read Access Token: API 읽기 액세스 토큰
-  API Stats: 
+  API Stats: API 통계
   API Terms: API 이용약관
   API Updates: API 업데이트 내역
   About: 정보
@@ -57,29 +57,29 @@ ko-KR:
   Alternative Names: 다른 이름
   Alternative Titles: 다른 제목
   Apiary Documentation: API 개발문서
-  App Directory: 
+  App Directory: '앱 디렉토리 '
   App Showcase: 앱 쇼케이스
   Application Description: 어플리케이션 소개
   Application Name: 어플리케이션 이름
   Application Summary: 어플리케이션 개요
   Application URL: 어플리케이션 URL
   Approve: 허가
-  Approved?: 
+  Approved?: 승인 되었습니까?
   Apps: 앱
-  Archived Databases: 
+  Archived Databases: '저장된 데이터베이스 '
   Are you sure?: 확실합니까?
-  Attributes: 
+  Attributes: 속성
   Auto: 자동
   Back to top: 맨 위로
   Backdrop Card View: 배경 카드 보기
   Backdrops: 배경
   Bad Image: 잘못된 이미지
-  Best Match: 
+  Best Match: '최상의 매치 '
   Biography: 약력
   Birthday: 생일
   Blocked Users: 차단 유저
   Blog: 블로그
-  Branding: 
+  Branding: 브랜딩
   Budget: 제작비
   Cancel: 취소
   Cast: 배역
@@ -694,13 +694,13 @@ ko-KR:
     statuses:
       completed:
         message: <strong>%{application_name}</strong> 응용 프로그램에 읽기/쓰기 권한을 부여했습니다. 이제 응용 프로그램으로 돌아가 이 창을 닫을 수 있습니다. 언제라도 계정 설정 페이지의 "연결된 앱" 페이지로 이동하여 이 액세스 권한을 해지할 수 있습니다.
-        name: 
+        name: 인증 승인이 완료되었습니다.
       denied:
-        message: 
-        name: 
+        message: "<p><strong>%{application_name}</strong>의 제어가 거부되었습니다. 잘못된 것이거나 인증 처리를 다시 하시려면 뒤로 돌아가서 권한 요청을 다시 해 주시기 바랍니다.</p>"
+        name: 인증 승인이 거부되었습니다.
       invalid_request_token:
-        message: 
-        name: 
+        message: 제출 한 액세스 토큰이 유효하지 않습니다. 새 것을 만들고 올바르게 복사 했는지 확인하시기 바랍니다. 계속 문제가 발생하면 사용중인 앱의 개발자에게 문의하시기 바랍니다.
+        name: 잘못된 토큰 요청입니다.
   attributes:
     biography: 약력
     certification: 자격
@@ -710,10 +710,10 @@ ko-KR:
     iso_639_1: 언어
     normalized_email: 이메일
     normalized_username: 유저명
-    overview: 
+    overview: '개요 '
     title: 제목
-    to_accounts_ids: 
-    translated_overview: 
+    to_accounts_ids: To
+    translated_overview: '개요 '
   average edits per day: 일 평균 편집수
   back_options:
     back: 돌아가기
@@ -722,7 +722,7 @@ ko-KR:
     episode_list: 에피소드 목록으로 돌아가기
     home: 홈으로 돌아가기
     main: 메인으로 돌아가기
-    named_episode_group: 
+    named_episode_group: "&lsquo;%{group_name}&rsquo; 그룹으로 돌아가기 "
     season: 시즌으로 돌아가기
     season_list: 시즌 목록으로 돌아가기
     to_tmdb: TMDb로 돌아가기
@@ -732,7 +732,7 @@ ko-KR:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: 분류 면제. 등급 분류 대상에서 제외되는 영화에는 논쟁의 여지가있는 소재 (즉, 일반적으로 M 이상 등급의 자료)가 포함되어서는 안됩니다.
         '2':
           meaning: 
         '3':

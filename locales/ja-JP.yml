@@ -74,7 +74,7 @@ ja-JP:
   Backdrop Card View: 背景画像
   Backdrops: 背景画像
   Bad Image: 良くない画像
-  Best Match: 
+  Best Match: ベストマッチ
   Biography: 経歴
   Birthday: 誕生日
   Blocked Users: ブロックされたユーザー
@@ -506,13 +506,13 @@ ja-JP:
   Website: ウェブサイト
   Website Terms: 
   Website Updates: 更新履歴
-  Wrappers & Libraries: 
-  Written by: 
+  Wrappers & Libraries: ラッパーとライブラリ
+  Written by: 著作
   Year: 公開年
   'Yes': はい
   Your lists: あなたのリスト
   Your rating: あなたの評価
-  Zip Code: 
+  Zip Code: 郵便番号
   account_drop_down:
     discussions: ディスカッション
     edit_profile: プロフィールを編集
@@ -715,7 +715,7 @@ ja-JP:
     overview: 概要
     title: タイトル
     to_accounts_ids: 
-    translated_overview: 
+    translated_overview: 概要
   average edits per day: 1日あたりの平均編集回数
   back_options:
     back: 戻る
@@ -734,17 +734,17 @@ ja-JP:
     movies:
       AU:
         '1':
-          meaning: 分類が免除されています。分類が免除されている映画には、異論のある素材（通常は日本の映画のレイティングでPG12以上の映画）が含まれていてはなりません。
+          meaning: 
         '2':
-          meaning: 一般的。内容は大変穏やかな物です。
+          meaning: 
         '3':
-          meaning: 両親の指導が推奨されます。 年齢制限はありません。 内容は穏やかな物です。
+          meaning: 
         '4':
           meaning: 
         '5':
           meaning: 
         '6':
-          meaning: 18歳以上に制限されています。大人だけ。インパクトの強い内容。
+          meaning: 
         '7':
           meaning: 
         '8':
@@ -1300,7 +1300,7 @@ ja-JP:
     missing_a_biography: 経歴が不足しています
     missing_a_profile_image: プロフィール画像がありません
     movie_language_distribution: 映画情報の言語毎の分布
-    movies_missing_a_backdrop: 
+    movies_missing_a_backdrop: 背景画像が設定されていない映画です
     movies_missing_a_overview: 概要が不足している映画
     movies_missing_a_poster: ポスター画像が不足している映画
     movies_missing_a_title: タイトルが不足している映画
@@ -1360,7 +1360,7 @@ ja-JP:
     welcome_1: ようこそ
     welcome_2: 投稿の手引きへ
   cookie_popup:
-    message: 
+    message: 私たちは、TMDbのより良いサービス提供のためクッキーを使用しています。 詳細については、<a href="%{policy_url}" target="_blank" rel="noopener"> Cookieポリシー</a>をご覧ください。 TMDbを引き続き使用することにより、このポリシーに同意したことになります。
     ok_button: OK
   date:
     abbr_day_names:
@@ -1451,15 +1451,15 @@ ja-JP:
     Art: 美術
     Camera: カメラ
     Costume & Make-Up: 衣装 ＆ メイク
-    Creator: 
-    Crew: 
-    Directing: 
-    Editing: 
-    Lighting: 
-    Production: 
-    Sound: 
-    Visual Effects: 
-    Writing: 
+    Creator: クリエイター
+    Crew: クルー
+    Directing: 監督
+    Editing: 編集
+    Lighting: 照明
+    Production: プロダクション
+    Sound: 音響
+    Visual Effects: 視覚効果
+    Writing: 脚本
   discussions:
     actions:
       actions: アクション
@@ -1494,17 +1494,17 @@ ja-JP:
         support: サポート
         website_support: 
     category:
-      last_reply_with_datetime: 
+      last_reply_with_datetime: "%{date} 、 %{time}"
       last_reply_with_datetime_and_username: 
     discussion_activity: ディスカッションのアクティビティ
     email_notifications:
-      email_notifications: 
+      email_notifications: 電子メール通知
       subscribe: 購読する
-      unsubscribe: 
+      unsubscribe: 退会する
     headers:
       discuss: 
       discuss_item: 
-      lets_chat: 
+      lets_chat: チャットしましょう
       support: サポート
       support_title: The Movie Database サポート
     login_to_be_notified: ログインすると、最初の投稿が通知されます。
@@ -1629,11 +1629,11 @@ ja-JP:
       '8': アスペクト比：16:9（1.78:1)
       '9': 最小解像度：300x450
       backdrops_must_meet: 背景画像は次の基準を満たさなければなりません：
-      episode_stills_must_meet: 
-      posters_must_meet: 
+      episode_stills_must_meet: エピソード画像は次の基準を満たさなければなりません：
+      posters_must_meet: ポスター画像は次の基準を満たさなければなりません：
       profile_must_meet: プロフィール画像は次の基準を満たしている必要があります：
       read_guidelines: 更新された<a href="%{link}" target="_blank" rel="noopener">画像投稿ガイドライン</a>をよくお読みください。
-      tip: 
+      tip: ブラウザがサポートしている場合は、下の領域に画像をドラッグアンドドロップすることができます。 それ以外の場合は、「ファイルを選択...」ボタンをクリックし、コンピュータから画像を選択します。
   invalid_aspect_ratio: このアスペクト比は無効です。
   item_count:
     one: "%{count} 件"
@@ -2991,7 +2991,7 @@ ja-JP:
     tv: 
   no_rated_movies:
     current_user: あなたは映画を評価していません。
-    public: 
+    public: "%{username}さんは映画を評価していません。"
   no_rated_tv_shows:
     current_user: あなたはテレビ番組を評価していません。
     public: "%{username}さんはテレビ番組を評価していません。"
@@ -3090,25 +3090,25 @@ ja-JP:
   resend_verification_email_text: アカウント確認メールがありませんか？あなたのユーザー名を入力して再送信してください。
   reset_password_text: 
   search:
-    favorites_movie: 
-    favorites_tv: 
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    favorites_movie: お気に入りの映画を検索する...
+    favorites_tv: お気に入りのテレビ番組を検索する...
+    in_movies: 映画で
+    in_people: 人物で
+    in_tv_shows: テレビ番組で
     media_types:
       movie: 映画
-      person: 
+      person: 人物
       tv_show: テレビ番組
     no_results: 見つかりませんでした
     no_results_found: 結果が見つかりません
-    rated_movie: 
-    rated_tv: 
-    recommendations_movie: 
-    recommendations_tv: 
+    rated_movie: 評価の高い映画を検索する...
+    rated_tv: 評価の高いテレビ番組を検索する...
+    recommendations_movie: あなたが個人的に推薦する映画を検索する...
+    recommendations_tv: あなたが個人的に推薦するテレビ番組を検索する...
     trending: トレンド
     trending_searches: トレンド検索
-    watchlist_movie: 
-    watchlist_tv: 
+    watchlist_movie: 映画のウォッチリストを検索する...
+    watchlist_tv: テレビ番組のウォッチリストを検索する...
   search_tip_1: 
   season_number_name: シーズン%{season_number}
   season_overview:
@@ -3293,6 +3293,6 @@ ja-JP:
   used_by_developers: 
   view all: 全て表示
   will_paginate:
-    next_label: 
-    page_gap: 
-    previous_label: 
+    next_label: 次へ→
+    page_gap: "…"
+    previous_label: "←前へ"
