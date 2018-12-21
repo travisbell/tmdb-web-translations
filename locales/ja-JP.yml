@@ -1416,40 +1416,44 @@ ja-JP:
   day: 日
   days: "%{count}日"
   deleted_content:
-    entry_deleted: 
+    entry_deleted: 書き込みは削除されました
     reasons:
       '1':
-        message: "こんにちは、これは、TMDbのコンテンツ管理者からのフレンドリーなメモです。\n\n“%{title}”というタイトルで作成したエントリは削除されました。\nこのタイトルは既にデータベースに登録されていたため、重複していると見なされました。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
+        message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルは既にデータベースに登録されており重複していると見なされました。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
         subject: 重複しています
       '2':
         message: |-
-          こんにちは、 これは、TMDbのコンテンツ管理者からのフレンドリーなメモです。
-          “%{title}”というタイトルの作成したエントリは削除されました。
-          このタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。
+          こんにちは。
+
+          TMDbのコンテンツ管理者からの友好的な文書です。
+          “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
+          このタイトルは「新しいコンテンツの手引き」（https://www.themoviedb.org/bible/new_content）の基準を満たしていません。
 
           この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
         subject: 私たちのコンテンツガイドラインに合致しません。（アマチュアなど…）
       '3':
-        message: "こんにちは、 これは、TMDbのコンテンツ管理者からのフレンドリーなメモです。\n“%{title}”というタイトルの作成したエントリは削除されました。\nこのタイトルはすでにテレビ番組として存在し、有効な映画とはみなされません。\nコンテンツガイドライン[こちら]（https://www.themoviedb.org/bible/new_content）をご覧ください。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
+        message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルはすでにテレビ番組として存在し、有効な映画とはみなされません。\nコンテンツのガイドライン[こちら]（https://www.themoviedb.org/bible/new_content）をご覧ください。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
         subject: これはテレビ番組です
       '4':
-        message: "こんにちは、 これは、TMDbのコンテンツ管理者からのフレンドリーなメモです。 \n“%{title}”というタイトルの作成したエントリは削除されました。\nこのタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
+        message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
         subject: それは偽のエントリです
       '5':
         message: |-
-          こんにちは、 これは、TMDbのコンテンツ管理者からのフレンドリーなメモです。
-          “%{title}”というタイトルの作成したエントリは削除されました。
+          こんにちは。
+
+          TMDbのコンテンツ管理者からの友好的な文書です。
+          “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
           このタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。
 
           この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
-        subject: スパムです
-    why_deleting: なぜこのエントリを削除しますか？
+        subject: これはスパムです
+    why_deleting: なぜこの書き込みを削除しますか？
   department_credits_count: 
   departments:
     Acting: 演技
     Actors: 役者
     Art: 美術
-    Camera: カメラ
+    Camera: カメラ撮影
     Costume & Make-Up: 衣装 ＆ メイク
     Creator: クリエイター
     Crew: クルー
@@ -1562,7 +1566,7 @@ ja-JP:
     your_account: あなたのアカウント
   dont_fallback: 
   edit_list:
-    add_edit_items: 
+    add_edit_items: アイテムの追加／編集
     choose_image: 画像を選択
     delete_list: リストを削除する
     edit_list: リストの編集
@@ -1571,7 +1575,7 @@ ja-JP:
     confirm_new_email_address: 新しいメールアドレスを確認
     does_not_match: メールアドレスが一致しません。もう一度お試しください。
     new_email_address: 新しいメールアドレス
-    sent_verification_email: "%{email_address}に確認のためのメールが送信されました。進める方法につきましては、受信トレイ（および迷惑メールフォルダ）を確認してください。"
+    sent_verification_email: "%{email_address} に確認のためのメールが送信されました。 続行方法については、受信トレイ（および迷惑メールフォルダ）を確認してください。"
   episode_count: "%{count} 話"
   episode_number_name: 第%{episode_number}話
   errors:
@@ -1581,11 +1585,11 @@ ja-JP:
       not_png: この画像はPNG形式ではありません
       not_svg: この画像はSVG形式ではありません
     locked:
-      genres: ジャンルはロックされています
+      genres: ジャンルのフィールドはロックされています
       keywords: キーワードフィールドはロックされています
     messages:
-      blank: 
-      inclusion: 
+      blank: 必要とされている
+      inclusion: 選択する必要があります
       invalid: 無効です
       required: 必須です
       suspected_tv_series: 既存のテレビシリーズまたはミニシリーズであると思われる場合は、このアイテムを追加できますが、テレビセクションに存在する場合は削除されます
@@ -1594,7 +1598,7 @@ ja-JP:
       duplicate_cast: この人物はすでに出演者として追加されています。
     tv:
       duplicate_created_by: この人物はすでにスタッフとして追加されています。
-      duplicate_crew_member: 
+      duplicate_crew_member: この人はすでに%{job_name}として追加されています。
       duplicate_episode: このエピソードは既に存在しています。
       duplicate_guest_star: 
       duplicate_regular_season_member: 
@@ -1609,8 +1613,8 @@ ja-JP:
     min: 
   homepage:
     discussions:
-      catch_up_now: 
-      discussions: 
+      catch_up_now: すぐ最新情報について話す
+      discussions: ディスカッション
     tv_shows:
       episode_airs:
         in_days: 新しいエピソードは%{number_of_days}日後に放送されます
@@ -1643,7 +1647,7 @@ ja-JP:
     '"B" Camera Operator': 
     '"C" Camera Operator': 
     '"D" Camera Operator': 
-    24 Frame Playback: 
+    24 Frame Playback: 24フレーム再生
     2D Artist: 
     2D Sequence Supervisor: 
     2D Supervisor: 
@@ -2572,23 +2576,23 @@ ja-JP:
   joined: 
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
+      back_to_parent: 戻る（または該当する場合は親に）
       close_window: 開いているウィンドウを閉じる
       focus_search: 検索バーに移動する
       go_to_edit: 編集ページに行く
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
+      last_reply: 最後の返事に行く
+      new_discussion: 新しいディスカッションを作成する
+      next_episode: "（右矢印）次のエピソードに進む"
+      next_page: "（右矢印）次のページ"
+      next_season: "（右矢印）次のシーズンに行く"
+      open_activity: アクティビティを開く
+      open_add_image_window: 画像追加ウィンドウを開く
+      open_profile: プロファイルメニューを開く
+      open_shortcut_window: キーボードショートカットウィンドウを開く
+      open_translation_selector: 翻訳選択を開く
+      previous_episode: "（左矢印）前のエピソードに戻る"
+      previous_page: "（左矢印）前のページ"
+      previous_season: "（左矢印）前のシーズンに戻る"
       reply_to_discussion: 
       save_form: 
       submit_message: 
@@ -2603,16 +2607,16 @@ ja-JP:
       media_pages: 
       tv_episode_pages: 
       tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+    keyboard_shortcuts: キーボードショートカット
+    view_keyboard_shorcuts: キーボードショートカットを見る
+    view_shortcuts: ショートカットを見る
   list_info:
-    average_rating: 
+    average_rating: 平均の評価
     image_selected: 選択
     items_on_list:
-      many: 
-      one: 
-      other: 
+      many: このリストの項目
+      one: このリストの項目
+      other: このリストの項目
     private: 
     public: 
     select_this_image: この画像を選択する
@@ -2625,19 +2629,19 @@ ja-JP:
     item_already_added: このアイテムは既にリストにあります
     item_removed: 削除されました。
   list_sort:
-    original_order: 
-    rating: 
+    original_order: 元の順序
+    rating: 評価
     release_date: 公開日
     title: タイトル
   list_steps:
     step_1: ステップ1：リストの詳細
-    step_2: ステップ2：アイテムを追加する
+    step_2: ステップ2：アイテムを追加
     step_3: ステップ3：画像を選択
     step_4: ステップ4：共有
   login:
     login_text_1: TMDbの編集機能と評価機能を使用したり、個人的なおすすめを得るためには、アカウントにログインする必要があります。アカウントをお持ちでない場合、アカウントの登録は無料で簡単です。開始するには、<a href="%{signup_link}">ここをクリック</a>してください。
     login_text_2: 登録しても確認メールが届かない場合は、<a href="%{verification_link}">ここをクリック</a>して再送信してください。
-    login_to_your_account: あなたのアカウントにログイン
+    login_to_your_account: あなたのアカウントにログインします。
   login_to_create: 映画やテレビ番組が見つかりませんか？ログインして作成してください。
   login_to_edit: 
   media:
@@ -2987,8 +2991,8 @@ ja-JP:
   no_overview: 概要がまだ翻訳されていません。翻訳版を入力してデータベースを一緒に充実させましょう。
   no_person_search_results: 
   no_personal_recommendations:
-    movie: 
-    tv: 
+    movie: 個人的な映画のおすすめを取得するには、あなたのお気に入りの映画を全て追加してください。 そうすれば、私たちがおすすめする多くの映画を、あなたが見たかが分かるでしょう。 フィルタリングするには、それらを評価してください！ 評価すると自動的にフィルタリングされます。
+    tv: 個人的なテレビ番組のおすすめを取得するには、あなたのお気に入りのテレビ番組を全て追加してください。 そうすれば、私たちがおすすめする多くのテレビ番組を、あなたが見たかが分かるでしょう。 フィルタリングするには、それらを評価してください！ 評価すると自動的にフィルタリングされます。
   no_rated_movies:
     current_user: あなたは映画を評価していません。
     public: "%{username}さんは映画を評価していません。"
@@ -2996,13 +3000,13 @@ ja-JP:
     current_user: あなたはテレビ番組を評価していません。
     public: "%{username}さんはテレビ番組を評価していません。"
   no_recommendations:
-    movie: 
-    tv_show: 
+    movie: "%{title}を示唆するのに十分なデータがありません。あなたが見た映画を評価していただけると助かります。"
+    tv_show: "%{title}を示唆するのに十分なデータがありません。あなたが見たテレビ番組を評価していただけると助かります。"
   no_records: 
   no_tv_search_results: 
   no_watchlist_movies:
-    current_user: 
-    public: 
+    current_user: ウォッチリストに映画を追加していません。
+    public: ウォッチリストは空白です。
   no_watchlist_tv_shows:
     current_user: 追加されたテレビ番組はありません。
     public: このウォッチリストは空です。
