@@ -1593,24 +1593,24 @@ ja-JP:
       invalid: 無効です
       required: 必須です
       suspected_tv_series: 既存のテレビシリーズまたはミニシリーズであると思われる場合は、このアイテムを追加できますが、テレビセクションに存在する場合は削除されます
-      taken: すでに使用されています
+      taken: 既に使用されています
     movie:
       duplicate_cast: この人物はすでに出演者として追加されています。
     tv:
       duplicate_created_by: この人物はすでにスタッフとして追加されています。
-      duplicate_crew_member: この人はすでに%{job_name}として追加されています。
+      duplicate_crew_member: この人は既に%{job_name}として追加されています。
       duplicate_episode: このエピソードは既に存在しています。
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_guest_star: このゲストスターは既に存在します。
+      duplicate_regular_season_member: この人物は、レギュラーシーズンのキャストメンバーとして既に追加されています。
+      duplicate_season: このシーズンは既に存在しています。
   failed_email: 
   failed_generic: 問題が発生しました。
   failed_report: 
   failed_sharing: 
   failed_validation: 
   filter_by_release_date:
-    max: 
-    min: 
+    max: リリース日で絞り込み（最大）
+    min: リリース日で絞り込み（最小）
   homepage:
     discussions:
       catch_up_now: すぐ最新情報について話す
@@ -2617,8 +2617,8 @@ ja-JP:
       many: このリストの項目
       one: このリストの項目
       other: このリストの項目
-    private: 
-    public: 
+    private: 非公開
+    public: 公開
     select_this_image: この画像を選択する
     total_revenue: 総収益
     total_runtime: 総時間
@@ -2651,16 +2651,18 @@ ja-JP:
         key: 
         language: 
         user: 
-      number_of_changes: 
+      number_of_changes:
+        one: "%{count} 回の変更"
+        other: "%{count} 回の変更"
       view_weekly_leaderboard: 週間ランキングを見る
     company:
       headquarters: 
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name}によって制作された映画"
+      tv_page_title: "%{name}によって制作されたテレビ番組"
     edit:
-      lock_all_fields: 
-      lock_all_images: 
-      page_title: 
+      lock_all_fields: 全てのフィールドをロックする
+      lock_all_images: 全ての画像をロックする
+      page_title: "%{name}を編集する"
       placeholders:
         country: 国を選択...
         create_person:
@@ -2681,10 +2683,10 @@ ja-JP:
         overview: 
         social_links: 
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Facebookにアクセス
+      visit_homepage: ホームページにアクセス
+      visit_instagram: Instagramにアクセス
+      visit_twitter: Twitterにアクセス
     genre:
       movie_page_title: "%{name}映画"
       tv_page_title: "%{name}テレビ番組"
@@ -2765,8 +2767,12 @@ ja-JP:
     no_results_found:
       movie: 映画は見つかりませんでした。
       tv: テレビ番組は見つかりませんでした。
-    number_of_movies: 
-    number_of_shows: 
+    number_of_movies:
+      one: "%{count} 本の映画"
+      other: "%{count} 本の映画"
+    number_of_shows:
+      one: "%{count} 件を表示"
+      other: "%{count} 件を表示"
     person:
       edit:
         alternative_names:
@@ -2910,20 +2916,20 @@ ja-JP:
       subject: 私たちのウェブサイトの翻訳を手伝う
   messages:
     compose:
-      ban: 
+      ban: 禁止する
       from: From
       message: メッセージ
       subject: 件名
-      template: 
+      template: テンプレート
       to: To
     no_messages: メッセージはありません
     notifications:
-      new_message: 
+      new_message: "%{username}さんがあなたに新しいメッセージを送りました"
     number_of_messages:
       one: "%{count}件のメッセージ"
       other: "%{count}件のメッセージ"
     options:
-      admin: 
+      admin: 管理者
       archive: アーカイブ
       settings: 設定
       viewed_at: 
@@ -2932,7 +2938,7 @@ ja-JP:
         create: 
         no_conversations: 
         view: メールを表示するには、左側のメールを選択します。
-      no_user_found: 
+      no_user_found: ユーザーは見つかりませんでした。
       reply: メッセージを入力してください...
       subject: 何のことですか？
       to: ユーザーを検索する...
@@ -2944,7 +2950,7 @@ ja-JP:
       new_message: 新しいメッセージ
       support_archive: 
       support_inbox: サポート受信トレイ
-    translate: 
+    translate: 翻訳する
   month: "%{count} 月"
   navigation:
     discover:
