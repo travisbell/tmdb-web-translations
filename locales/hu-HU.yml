@@ -517,9 +517,9 @@ hu-HU:
     lists: Listák
     login: Bejelentkezés
     logout: Kijelentkezés
-    messages: 
-    profile_and_settings: 
-    ratings: 
+    messages: Üzenetek
+    profile_and_settings: Profil és beállítások
+    ratings: Értékelések
     settings: Beállítások
     sign_up: Regisztrálás
     view_profile: Profil megtekintése
@@ -538,8 +538,8 @@ hu-HU:
         people: Emberek
         tv: Sorozatok
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Legutóbbi tevékenységem
+        public: "%{username} legutóbbi tevékenysége"
       table:
         action: Művelet
         edit: Szerkesztés
@@ -552,31 +552,33 @@ hu-HU:
       my_discussions: Saját beszélgetéseim
       not_watching: Nem figyelsz egy beszélgetést sem.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Beszélgetéseim
+        public: "%{username} beszélgetései"
     events:
-      all: 
+      all: Összes
       emails:
-        emails: 
+        emails: E-mailek
         filters:
           status:
             Bounce: 
             Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Delivery: Kézbesített
+            Unsubscribed: Leiratkozott
+            status: Állapot
+        number_of_items:
+          one: "%{count} e-mail"
+          other: "%{count} e-mail"
+      events: Események
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
+            Discussion: Megbeszélés
+            General: Általános
+            List Import: Lista importálás
+            Mention: Említés
+            Messages: Üzenetek
+            type: Típus
+        notifications: Értesítések
         number_of_items: 
       page_title:
         recent_events: 

@@ -22,9 +22,9 @@ es-MX:
   Add Backdrop: Agregar imagen de fondo
   Add Content Rating: Agregar Clasificación del contenido
   Add Creator: Agregar Creador
-  Add Data & Content: 
+  Add Data & Content: Añadir datos y contenido
   Add Item: Añadir Elemento
-  Add Missing Cast & Crew: 
+  Add Missing Cast & Crew: Añadir Reparto y Equipo faltante
   Add Network: Agregar Red
   Add New Episode: Agregar Nuevo Episodio
   Add New Movie: Agregar Nueva Película
@@ -50,7 +50,7 @@ es-MX:
   Address 1: Dirección 1
   Address 2: Dirección 2
   Admin Tools: Herramientas de Administrador
-  Adult Actor: 
+  Adult Actor: Actor Adulto
   Advanced Search: Búsqueda Avanzada
   Air Date: Fecha al Aire
   Also Known As: También Conocido Como
@@ -64,11 +64,11 @@ es-MX:
   Application Summary: Sumario de Aplicación
   Application URL: URL de Aplicación
   Approve: Aprobar
-  Approved?: 
+  Approved?: Aprobada?
   Apps: Apps
-  Archived Databases: 
+  Archived Databases: Base de Datos Archivados
   Are you sure?: Estás seguro?
-  Attributes: 
+  Attributes: Atributos
   Auto: Auto
   Back to top: Ir arriba
   Backdrop Card View: Imágenes de fondo modo Tarjeta
@@ -625,7 +625,7 @@ es-MX:
       discussions: Discusiones
       favorites: Favoritos
       lists: Listas
-      overview: 
+      overview: Resumen
       ratings_reviews: Calificaciones y Reseñas
       recommendations: Recomendaciones
       watchlist: Lista de Seguimiento
@@ -674,15 +674,19 @@ es-MX:
     watchlist:
       my_watchlist: Mi Lista de Seguimiento
       next_month: Siguiente mes
-      no_upcoming_movies: 
-      no_upcoming_tv_shows: 
+      no_upcoming_movies:
+        one: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
+        other: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+      no_upcoming_tv_shows:
+        one: No hay Programas de TV próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
+        other: No hay Programas de TVpróximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: MI lista de seguimiento
-        public: 
+        public: Lista de seguimiento de %{username}
       this_month: Este mes
       this_week: Esta semana
       view_them: Míralos
-  add_to_list: 
+  add_to_list: Añadir %{media_title} a una de tus listas...
   already_translated_in: "%{page_title} ya fue traducido en los siguientes lenguajes..."
   api_session:
     3rd_party_request: 
@@ -691,17 +695,17 @@ es-MX:
     request_token_approval: 
     statuses:
       completed:
-        message: 
-        name: 
+        message: Ha concedido permisos de lectura y escritura a <strong>%{application_name}</strong>. Ahora puede regresar a la aplicación y cerrar esta ventana. Puede revocar este acceso en cualquier momento ingresando a la sección de Ajustes de su cuenta y luego a "Aplicaciones Conectadas".
+        name: Autenticación Concedida
       denied:
         message: 
-        name: 
+        name: Autenticación Denegada
       invalid_request_token:
-        message: 
+        message: El token de acceso que ha ingresado es inválido. Intente creando uno nuevo y asegurese de haberlo copiado correctamente. Si continúa teniendo problemas, contacte al desarrollador de la aplicación que está usando.
         name: 
   attributes:
-    biography: 
-    certification: 
+    biography: Biografía
+    certification: Certificación
     external_href: URL
     homepage: Página de Inicio
     iso_3166_1: País
@@ -711,7 +715,7 @@ es-MX:
     overview: Resumen
     title: Título
     to_accounts_ids: A
-    translated_overview: 
+    translated_overview: Vista General
   average edits per day: ediciones promedio por día
   back_options:
     back: Volver
@@ -732,30 +736,30 @@ es-MX:
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: General. El contenido es de bajo impacto.
         '3':
-          meaning: 
+          meaning: Se recomienda ver con los padres. Sin restricción de edad. Contenido de impacto medio.
         '4':
-          meaning: 
+          meaning: Recomendado para audiencias maduras. Sin restricción de edad. Contenido de impacto moderado.
         '5':
-          meaning: 
+          meaning: Compañia de un adulto. No apto para menores de 15 años. Niños menores de 15 años deben estar acompañados por sus padres o tutores. Contenido de fuerte impacto.
         '6':
-          meaning: 
+          meaning: Para mayores de 18 años. Solo adultos. Contenido de alto impacto.
         '7':
-          meaning: 
+          meaning: Para mayores de 18 años. Films con esta clasificación poseen contenido pornográfico. Films clasificados como X18+ tienen prohibida su venta o alquiler en todos los estados de Australia y solo estan legalmente disponibles en el Territorio de la Capital Australiana y Territorios del Norte. Sin embargo, importar material clasificaco como X18+ de estos dos territorios a cualquier estado Australiano es legal. Contenido sexual explícito.
         '8':
           meaning: 
       BG:
         '1':
-          meaning: 
+          meaning: Recomendado para niños.
         '2':
           meaning: Sin restricciones de edad.
         '3':
-          meaning: 
+          meaning: No recomendado para niños menores de 12 años.
         '4':
-          meaning: 
+          meaning: Prohibido a menores de 16 años.
         '5':
-          meaning: 
+          meaning: Prohibido a menores de 18 años.
       BR:
         '1':
           meaning: 

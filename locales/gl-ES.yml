@@ -690,16 +690,16 @@ gl-ES:
     3rd_party_request: Solicitude de autenticación de terceiros
     approved_session: Aprobaches %{application_name}. Podes pechar esta xanela.
     continue: Se desexas continuar, preme o botón de Aprobar abaixo. Se non, simplemente pecha esta xanela.
-    request_token_approval: 
+    request_token_approval: "{{APP}} está a pedir o teu permiso para ler e escribir datos no teu nome. Isto é necesario se queres facer cousas como manter as túas listas ou puntuar filmes fóra da TMDb."
     statuses:
       completed:
-        message: 
+        message: Permitiches ler e escribir a <strong>%{application_name}</strong>. Agora podes volver á aplicación e pechar esta xanela. Sempre poderás revocar este permiso accedendo á  páxina de configuración da túa conta no apartado "Aplicacións conectadas".
         name: Authentication Granted
       denied:
-        message: 
+        message: "<p>Denegaches o acceso a <strong>%{application_name}</strong>. Se foi un erro ou queres reiniciar o proceso de autenticación, volve á aplicación e solicita o permiso de novo.</p>"
         name: Authentication Denied
       invalid_request_token:
-        message: 
+        message: A clave de acceso especificada é incorrecta. Proba a crear unha nova e asegúrate de copiala correctamente. Se segues a ter problemas, contacta co creador da aplicación que estás a empregar.
         name: Invalid Request Token
   attributes:
     biography: 'Biografía '
@@ -2622,8 +2622,8 @@ gl-ES:
       global: Global
       image_pages: 
       media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
+      tv_episode_pages: En páxinas de episodios de TV
+      tv_season_pages: En páxinas de tempadas de TV
     keyboard_shortcuts: Atallos de teclado
     view_keyboard_shorcuts: Amosar atallos de teclado
     view_shortcuts: Amosar atallos
@@ -2663,11 +2663,13 @@ gl-ES:
   media:
     changes:
       filters:
-        clear: 
+        clear: Borrar
         key: 
-        language: 
-        user: 
-      number_of_changes: 
+        language: Língua
+        user: Usuario
+      number_of_changes:
+        one: "%{count} cambio"
+        other: "%{count} cambios"
       view_weekly_leaderboard: Ver a táboa de líderes semanal
     company:
       headquarters: Oficina principal
@@ -2968,7 +2970,7 @@ gl-ES:
       new_message: Nova mensaxe
       support_archive: Arquivo de soporte
       support_inbox: Caixa de entrada de soporte
-    translate: 
+    translate: Traducir
   month:
     one: mes
     other: "%{count} meses"
@@ -3048,7 +3050,7 @@ gl-ES:
     refresh: Refrescar
     unread_notifications: Notificacións sen ler
     view: Ver
-    view_all: 
+    view_all: Ver todo
   number:
     currency:
       format:
@@ -3269,8 +3271,14 @@ gl-ES:
       email:
         invalid_dialog_title: Restablecer email?
         reset_button: Restablecer e enviar?
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          Desafortunadamente, xa tivemos problemas enviando correos no pasado. Podes ver os erros  <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
+
+          <p>Se os problemas co teu enderezo electrónico foron resoltos ou foron temporais, preme no botón "Restablecer" embaixo e enviaremos outro correo para verificalo.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Para cambiar o teu contrasinal, precisamos un correo electrónico válido. Desafortunadamente, xa tivemos problemas enviando correos no pasado. Podes ver os erros  <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
+
+          <p>Se os problemas co teu enderezo electrónico foron resoltos ou foron temporais, preme no botón "Restablecer" embaixo e enviaremos outro correo.</p>
       reset_password_dialog_text: Confirmando esta solicitude enviarémosche un email con instrucións para restablecer o teu contrasinal. Abofé queres continuar?
     sharing:
       favorite_list:

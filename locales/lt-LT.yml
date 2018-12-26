@@ -555,32 +555,38 @@ lt-LT:
         page_owner: Mano aptarimai
         public: "%{username} aptarimai"
     events:
-      all: 
+      all: Visi
       emails:
-        emails: 
+        emails: El. pašto adresai
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Atšokęs
+            Complaint: Skundas
+            Delivery: Pristatyta
+            Unsubscribed: Prenumeruota
+            status: Būsena
+        number_of_items:
+          few: "%{count} El.paštai"
+          one: "%{count} El.paštas"
+          other: "%{count} El.paštai"
+      events: Įvykiai
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Aptarimas
+            General: Bendra
+            List Import: Importuoti sąrašą
+            Mention: Paminėti
+            Messages: Žinutės
+            type: Tipas
+        notifications: Pranešimai
+        number_of_items:
+          few: "%{count} Pranešimai"
+          one: "%{count} Pranešimas"
+          other: "%{count} Pranešimai"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Naujausi įvykiai
+      recent: Naujausi
     export:
       csv_explanation: Jei norite, kad šio sąrašo kopija būtų eksportuota į CSV failą, spustelėkite žemiau esantį mygtuką "Eksportuoti". Mes sukursime eksportuojamą failą ir el. paštu išsiųsime jums. Atsižvelgiant į jūsų sąrašo dydį, tai gali užtrukti keletą minučių.
       export: Eksportuoti
@@ -685,7 +691,7 @@ lt-LT:
   add_to_list: Pridėti %{media_title} prie vieno iš sąrašų...
   already_translated_in: "%{page_title} išversta į šias kalbas..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Trečiosios šalies autentifikavimo užklausa
     approved_session: Jūs patvirtinote %{application_name}. Galite uždaryti šį langą.
     continue: Jei norite tęsti, spustelėkite patvirtinimo mygtuką žemiau. Jei ne, galite tiesiog uždaryti šį langą.
     request_token_approval: 
@@ -897,7 +903,7 @@ lt-LT:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Vaikai iki 18 metų neįleidžiami.
       LT:
         '1':
           meaning: Filmai, skirti įvairaus amžiaus žiūrovams.
@@ -1104,23 +1110,23 @@ lt-LT:
           meaning: Galima transliuoti tik nuo 23:00 iki 6:00 val.
       ES:
         '0':
-          meaning: 
+          meaning: Nėra reitingo informacijos.
         '1':
-          meaning: 
+          meaning: Specialiai rekomenduojama jaunesniems vaikams.
         '2':
-          meaning: 
+          meaning: Bendrai peržiūrai.
         '3':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 7 metų.
         '4':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 10 metų.
         '5':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 12 metų.
         '6':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 13 metų.
         '7':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 16 metų.
         '8':
-          meaning: 
+          meaning: Nerekomenduojama žiūrovams iki 18 metų.
       FR:
         '0':
           meaning: Nėra reitingų informacijos.
@@ -1149,19 +1155,19 @@ lt-LT:
           meaning: R18 kategorija yra speciali ir teisiškai ribojama kategorija, pirmiausia skirta aiškiems sekso ar stipraus fetišo kūriniams, kuriuose dalyvauja suaugusieji.
       HU:
         '0':
-          meaning: 
+          meaning: Nėra reitingo informacijos.
         '1':
-          meaning: 
+          meaning: Be amžiaus apribojimų.
         '2':
-          meaning: 
+          meaning: Vaikams rekomenduojamos programos. Tai neprivalomas reitingas, transliuotojams neprivaloma ją nurodyti.
         '3':
-          meaning: 
+          meaning: Programoms, kurios nerekomenduojamos vaikams iki 6 metų amžiaus, gali nebūti jokio smurto ar seksualinio turinio. Šiam reitingui naudojamas geltonas apskritimas, kurio numeris yra 6.
         '4':
-          meaning: 
+          meaning: Programoms, kurios nerekomenduojamos vaikams iki 12 metų amžiaus, gali būti lengvas seksualinis turinys arba atviro turinio kalba. Dauguma filmų be rimto smurto ar seksualinio turinio taip pat atitinka šią kategoriją. Šiam reitingui naudojamas geltonas apskritimas, kurio numeris yra 12.
         '5':
-          meaning: 
+          meaning: Programoms, kurios nerekomenduojamos paaugliams ir vaikams iki 16 metų, gali būti intensyvesnis smurtas ir seksualinis turinys. Šiam reitingui naudojamas geltonas apskritimas su skaičiumi 16.
         '6':
-          meaning: 
+          meaning: Programa rekomenduojama tik suaugusiems (18 metų ir vyresniems), jame gali būti aiškus smurtas ir aiškus seksualinis turinys. Šiam reitingui naudojamas raudonas apskritimas su 18 raidėmis (raudonas apskritimas taip pat buvo naudojamas iki 2002 m., Tačiau jame nebuvo jokio skaičiaus).
       KR:
         '0':
           meaning: Šis įvertinimas yra skirtas tik žinių pagrindu veikiantiems žaidimų šou; gyvenimo būdo laidos; dokumentiniai šou; žinios; diskusijų šou; švietimo / kultūros šou; sportas, kuriame nėra MMA ar kitų smurtinių sporto šakų; ir kitas programas, kurias pripažįsta Korėjos ryšių standartų komisija.
@@ -1197,11 +1203,11 @@ lt-LT:
           meaning: Tinkamas vaikams iki 16 metų.
       PH:
         '0':
-          meaning: 
+          meaning: Nėra reitingo informacijos.
         '1':
-          meaning: 
+          meaning: Tinka visoms amžiaus grupėms.
         '2':
-          meaning: 
+          meaning: Siūloma tėvų priežiūra.
         '3':
           meaning: 
         '4':
@@ -1791,7 +1797,7 @@ lt-LT:
     Associate Editor: 
     Associate Producer: Asocijuotas prodiuseris
     Atmos Editor: 
-    Attorney: 
+    Attorney: Teisininkas
     Audio Post Coordinator: 
     Author: Autorius
     BTS Footage: 
@@ -2075,7 +2081,7 @@ lt-LT:
     I/O Supervisor: 
     Idea: Idėja
     Imaging Science: 
-    In Memory Of: 
+    In Memory Of: Atminimui
     Information Systems Manager: Informacinių sistemų vadovas
     Insert Unit Director: 
     Insert Unit First Assistant Director: 
@@ -2569,26 +2575,26 @@ lt-LT:
   joined: prisijungė
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
+      back_to_parent: grįžkite atgal (arba tėvams leidus)
+      close_window: uždarykite atidarytą langą
+      focus_search: susitelkti į paieškos juostą
+      go_to_edit: į redagavimo puslapį
+      last_reply: į paskutinį atsakymą
+      new_discussion: sukurti naują aptarimą
+      next_episode: "(dešinė rodyklė) sekantis epizodas"
+      next_page: "(dešinė rodyklė) sekantis puslapis"
+      next_season: "(dešinė rodyklė) sekantis sezonas"
+      open_activity: peržiūrėti aktyvumą
+      open_add_image_window: pridėti vaizdą
+      open_profile: profilio meniu
+      open_shortcut_window: spartieji klavišai
+      open_translation_selector: vertimo parinktys
+      previous_episode: "(kairė rodyklė) ankstesnis epizodas"
+      previous_page: "(kairė rodyklė) ankstesnis puslapis"
+      previous_season: "(kairė rodyklė) ankstesnis sezonas"
+      reply_to_discussion: atsakyti į pokalbį
+      save_form: pateikti formą
+      submit_message: pateikti pranešimą
       toggle_close: 
       toggle_private: 
       toggle_watching: 
@@ -2674,10 +2680,10 @@ lt-LT:
         overview: Pateikdami kūrinio siužetą rašykite trumpai ir glaustai.
         social_links: Socialinės nuorodos yra tik oficialiems (patikrintiems) puslapiams. Neleidžiami gerbėjų puslapiai.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Keliauk į Facebook
+      visit_homepage: Internetinė svetainė
+      visit_instagram: Keliauk į Instagram
+      visit_twitter: Keliauk į Twitter
     genre:
       movie_page_title: "%{name} filmai"
       tv_page_title: "%{name} TV laidos"
@@ -2909,28 +2915,31 @@ lt-LT:
       subject: 
   messages:
     compose:
-      ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      ban: Draudimas
+      from: Nuo
+      message: Pranešimas
+      subject: Tema
+      template: Šablonas
+      to: Į
+    no_messages: Nėra pranešimų
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: naujas pranešimas nuo %{username}
+    number_of_messages:
+      few: "%{count} pranešimai"
+      one: "%{count} pranešimas"
+      other: "%{count} pranešimai"
     options:
-      admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      admin: Administratorius
+      archive: Archyvas
+      settings: Nustatymai
+      viewed_at: Peržiūrėta prieš %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
-        no_conversations: 
-        view: 
-      no_user_found: 
-      reply: 
+        create: Galite sukurti naują pokalbį <a href="%{link}">spustelėję čia</a>.
+        no_conversations: Neturite neužbaigtų pokalbių, jums sekasi!
+        view: Norėdami peržiūrėti pokalbį, pasirinkite vieną kairėje.
+      no_user_found: Nerasta nė vieno naudotojo.
+      reply: Spausdina pranešimą ...
       subject: 
       to: 
     right_column_titles:
@@ -3125,7 +3134,7 @@ lt-LT:
     recommendations_movie: Ieškokite savo asmeninių filmų rekomendacijų ...
     recommendations_tv: Ieškokite savo asmeninių TV rekomendacijų ...
     trending: Tendencijos
-    trending_searches: Tendencijų paieška
+    trending_searches: Dažniausiai ieško
     watchlist_movie: Ieškoti filmo peržiūrų sąraše...
     watchlist_tv: Ieškoti TV laidos peržiūrų sąraše...
   search_tip_1: 'Patarimas: galite filtruoti ''y:'', kad susiaurinti paiešką pagal metus. Pavyzdys: ''žvaigždžių karai: 1977''.'
@@ -3187,10 +3196,10 @@ lt-LT:
             already_imported: Jau importuota.
             cant_find_imdb: Nepavyko rasti IMDb ID.
             imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            personal_rating_invalid: Jūsų įvertinimas yra neteisingas (turėtų būti nuo 0.5 iki 10.0).
+            personal_rating_not_found: Šioje eilutėje nėra jūsų įvertinimo.
+            row_is_invalid: Ši eilutė negalioja.
+            updated_date: Atnaujinta data.
           reason: Priežastis? (Jei taikoma)
           summary: Mums pavyko importuoti bendrai %{imported_count} elementų iš %{total_count} (%{imported_percentage}%) elementų, kuriuos aptikome jūsų eksportuotame sąraše.
         currently_running: Jūsų importavimas šiuo metu veikia. Galite atnaujinti šį puslapį ir pamatyti, ar jis baigtas.
@@ -3220,7 +3229,7 @@ lt-LT:
       email_new_releases_watchlist: Siųsti pranešimus el. paštu apie naujus rodymus mano peržiūrų sąraše?
       new_replies_to_threads_created: Automatiškai peržiūrėti temas, kurias sukūriau ar atsakiau į jas?
       new_replies_to_threads_watching: Pranešti man el. paštu apie naujus atsakymus į temas, kurias stebiu?
-      news_updates: 
+      news_updates: Informuoti mane el. laišku apie naujienas ir produktų naujinimus
       notifications: Pranešimai
     profile:
       accent_color: Akcento spalva
@@ -3246,10 +3255,16 @@ lt-LT:
       change_password: Pakeisti slaptažodį
       edit_profile: Redaguoti profilį
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: Iš naujo nustatyti el. paštą?
+        reset_button: Atstatyti ir siųsti?
+        reset_invalid_email_dialog_text: |-
+          <p>Deja, susidūrėme su sunkumais siųsdami jums el. laiškus. Galite patikrinti klaidas <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
+
+          <p>Jei problemos, susijusios su el. pašto adresu, buvo nustatytos arba buvo laikinos, spustelėkite toliau esantį atstatymo mygtuką ir bandysime jums atsiųsti kitą el. laišką.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Norint pakeisti slaptažodį, mums reikia galiojančio el. pašto adreso. Deja, susidūrėme su sunkumais siųsdami jums el. laiškus. Galite patikrinti klaidas <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
+
+          <p>Jei problemos, susijusios su el. pašto adresu, buvo nustatytos arba buvo laikinos, spustelėkite toliau esantį atstatymo mygtuką ir bandysime atsiųsti kitą el. laišką.</p>
       reset_password_dialog_text: Patvirtinus šį prašymą, jums bus išsiųstas el. laiškas su instrukcijomis, kaip iš naujo nustatyti slaptažodį. Ar tikrai norite tai padaryti?
     sharing:
       favorite_list:
@@ -3287,7 +3302,7 @@ lt-LT:
       keep_track: Sekite mėgstamiausius filmus ir TV laidas ir gaukite rekomendacijų iš jų
       log_movies: Prisijunkite prie žiūrėtų filmų ir TV laidų
     by_clicking_agree_to_terms: Paspaudęs žemiau esantį mygtuką "Registruotis", aš patvirtinu, kad perskaičiau ir sutinku su TMDb naudojimo sąlygomis ir privatumo politika.
-    javascript_required: 
+    javascript_required: Jei norite tęsti, reikia JavaScript.
     sign_up_for_account: Susikurk paskyrą
     signup_text: Prisijungimas prie paskyros yra nemokamas ir paprastas. Norėdami pradėti, užpildykite toliau pateiktą formą.
   success_approved_access_token: Leidimas suteiktas!
@@ -3315,6 +3330,6 @@ lt-LT:
   used_by_developers: TMDb naudojasi daugiau nei 200,000 kūrėjų.<br>Susipažinkite su jų darbais žemiau.
   view all: Žiūrėti viską
   will_paginate:
-    next_label: 
+    next_label: Sekantis →
     page_gap: 
-    previous_label: 
+    previous_label: "← Ankstesnis"

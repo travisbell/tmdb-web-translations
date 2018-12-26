@@ -1427,16 +1427,33 @@ zh-CN:
           如果对这个删除操作有任何疑问，请不用顾虑，直接回复这条消息。
         subject: 不符合我们的内容准则（业余，等等）
       '3':
-        message: 
+        message: |-
+          Hi 您好，
+
+          这是来自TMDB内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目已经显示为一部电视剧，因此不认为是一部电影。你可以[在此](https://www.themoviedb.org/bible/new_content)获得更多我们的内容指南。
+
+          如果您还有任何相关问题，请随时回复本消息。
         subject: 电视剧集
       '4':
-        message: 
+        message: |-
+          Hi 您好，
+
+          这是来自TMDB内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+
+          如果您还有任何相关问题，请随时回复本消息。
         subject: 假条目
       '5':
-        message: 
+        message: |-
+          Hi 您好，
+
+          这是来自TMDB内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+
+          如果您还有任何相关问题，请随时回复本消息。
         subject: 这是垃圾邮件
     why_deleting: 为什么删除此条目？
-  department_credits_count: 
+  department_credits_count:
+    one: "%{department} (%{count} 信用分數)"
+    other: "%{department} (%{count} 信用分数)"
   departments:
     Acting: 参演
     Actors: 演员
@@ -1626,10 +1643,10 @@ zh-CN:
       '9': 最小分辨率为300X450
       backdrops_must_meet: 背景需满足以下标准：
       episode_stills_must_meet: 单集需满足以下标准：
-      posters_must_meet: 
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      posters_must_meet: 海报需要符合下列条件：
+      profile_must_meet: 个人图片必须符合下列条件：
+      read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献指南</a>。
+      tip: 如果您的浏览器支持，您可以将图片拖拽到下面区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
   invalid_aspect_ratio: 此宽高比无效。
   item_count:
     one: "%{count} 项"
@@ -1640,11 +1657,11 @@ zh-CN:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: 24 帧播放
-    2D Artist: 
+    2D Artist: 2D艺术家
     2D Sequence Supervisor: 
     2D Supervisor: 
     3D Animator: 
-    3D Artist: 
+    3D Artist: 3D艺术家
     3D Coordinator: 
     3D Digital Colorist: 
     3D Director: 3D 导演
@@ -2569,32 +2586,32 @@ zh-CN:
   keyboard_shortcuts:
     actions:
       back_to_parent: 
-      close_window: 
+      close_window: 关闭打开的窗口
       focus_search: 
-      go_to_edit: 
+      go_to_edit: 访问编辑页面
       last_reply: 
       new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
+      next_episode: "（右箭头）下一集"
+      next_page: "（右箭头）下一页"
+      next_season: "（右箭头）下一季"
+      open_activity: 开启活动页
+      open_add_image_window: 开启新增图片窗口
+      open_profile: 打开个人资料菜单
+      open_shortcut_window: 开启键盘快捷键窗口
       open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
-      toggle_watching: 
+      previous_episode: "（左箭头）前一集"
+      previous_page: "（左箭头）前一页"
+      previous_season: "（左箭头）前一季"
+      reply_to_discussion: 回复讨论
+      save_form: 提交
+      submit_message: 提交你的消息
+      toggle_close: 切换关闭/开启
+      toggle_private: 切换公开/私人
+      toggle_watching: 切换观看状态
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
+      discussion_pages: 于讨论页面
+      edit_pages: 于所有编辑页面
+      global: 全站通用
       image_pages: 
       media_pages: 
       tv_episode_pages: 
@@ -2652,40 +2669,40 @@ zh-CN:
     edit:
       lock_all_fields: 
       lock_all_images: 
-      page_title: 
+      page_title: 编辑 %{name}
       placeholders:
-        country: 
+        country: 选择一个国家...
         create_person:
-          click_to_create: 
-          create_it: 
-        genres: 
-        job: 
-        keywords: 
-        networks: 
-        person: 
-        production_companies: 
-      success_fields_locked: 
+          click_to_create: 点击新建 %{name}
+          create_it: 新建...
+        genres: 选择一个类型
+        job: 选择一个职务...
+        keywords: 选择一个关键字...
+        networks: 根据电视网搜索...
+        person: 根据人物搜索...
+        production_companies: 根据制片公司搜索...
+      success_fields_locked: 区域已锁定。
       tooltips:
-        bible: 
+        bible: 有关TMDb上编辑信息的帮助，点击 '?' 按钮阅读贡献指南。
         homepage: 仅官方主页，影迷页不允许
-        logo_format: 
+        logo_format: 支持SVG和PNG格式。推荐SVG格式，因为SVG格式支持无级缩放。
         original_title: 原片名应录入影片的原始语言，通常跟“原始语言”栏的语言一致。
         overview: 请尽量简短，避免剧透地雷。
         social_links: 社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: 访问Facebook
+      visit_homepage: 访问首页
+      visit_instagram: 访问Instagram
+      visit_twitter: 访问Twitter
     genre:
       movie_page_title: 
       tv_page_title: 
     images:
-      format: 
+      format: 格式
       no_backdrop_stills: 
       no_backdrops: 
       no_logos: 
-      no_posters: 
+      no_posters: 本条目没有添加海报。
       no_profiles: 
       primary: 
       types:
@@ -2716,8 +2733,8 @@ zh-CN:
         keywords:
           add_keyword: 
           create: 
-          no_records: 
-          none_found: 
+          no_records: 没有添加关键字。
+          none_found: 未找到相符的关键字，需要新建吗？
           tip: 
         production_information:
           add_production_company: 
@@ -2807,7 +2824,7 @@ zh-CN:
         current_season: 当前季
         last_season: 上季
         next_season: 下一季
-        previous_season: 
+        previous_season: 前一季
     tv_show:
       create_season: 
       edit:
