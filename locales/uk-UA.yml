@@ -560,10 +560,10 @@ uk-UA:
         emails: Електронні листи
         filters:
           status:
-            Bounce: 
-            Complaint: 
+            Bounce: Перенаправлено
+            Complaint: Скарга
             Delivery: Доставлено
-            Unsubscribed: 
+            Unsubscribed: Підписку скасовано
             status: Статус
         number_of_items:
           few: "%{count} електронні листи"
@@ -575,7 +575,7 @@ uk-UA:
         filters:
           type:
             Discussion: Обговорення
-            General: 
+            General: Загальні
             List Import: Імпорт списку
             Mention: Згадування
             Messages: Повідомлення
@@ -707,7 +707,7 @@ uk-UA:
         message: "<p>Ви заборонили доступ додаткові <strong>%{application_name}</strong>. Якщо це було помилково, або ви хочете заново автентифікувати додаток, тоді просто поверніться в цей додаток і надішліть запит знову.</p>"
         name: Автентифікацію відхилено
       invalid_request_token:
-        message: 
+        message: Наданий токен недійсний. Спробуйте створити новий і переконайтеся, що ви скопіювали його правильно. Якщо проблема не вирішиться, зверніться до розробника програми, яку ви використовуєте.
         name: Невірний токен запиту
   attributes:
     biography: Біографія
@@ -721,7 +721,7 @@ uk-UA:
     overview: Огляд
     title: Назва
     to_accounts_ids: До
-    translated_overview: 
+    translated_overview: Огляд
   average edits per day: у середньому правок за день
   back_options:
     back: Назад
@@ -1120,17 +1120,17 @@ uk-UA:
         '2':
           meaning: Для загального перегляду.
         '3':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 7 років
         '4':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 10 років
         '5':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 12 років
         '6':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 13 років
         '7':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 16 років
         '8':
-          meaning: 
+          meaning: Не рекомендовано для глядачів молодше 18 років
       FR:
         '0':
           meaning: Без вікових обмежень.
@@ -1207,15 +1207,15 @@ uk-UA:
           meaning: 16+
       PH:
         '0':
-          meaning: 
+          meaning: Немає інформації про рейтинг
         '1':
-          meaning: 
+          meaning: Підходить для глядачів бідь якого віку
         '2':
-          meaning: 
+          meaning: Рекомендовано перегляд під наглядом батьків
         '3':
-          meaning: 
+          meaning: Рекомендований пильніший нагляд батьків під час перегляду
         '4':
-          meaning: 
+          meaning: Будь-яка телевізійна програма, яка не відповідає класифікації «G», «PG» та «SPG», не має бути допущена до телевізійної трансляції.
       PT:
         '0':
           meaning: Без вікових обмежень.
@@ -1451,10 +1451,20 @@ uk-UA:
           Якщо у вас є питання щодо цього, Ви можете поставити їх, відповивши на це повідомлення.
         subject: Це телесеріал
       '4':
-        message: 
+        message: |-
+          Вітання,
+
+          Це лише дружне повідомлення від модераторів вмісту в TMDb. Створений вами запис з назвою "%{title}" було видалено. Ця назва не відповідає нашим [новим рекомендаціям щодо вмісту] (https://www.themoviedb.org/bible/new_content).
+
+          Якщо у вас виникли запитання щодо цього видалення, можете відповідайте на це повідомлення без вагань.
         subject: Це хибний запис
       '5':
-        message: 
+        message: |-
+          Вітання,
+
+          Це лише дружне повідомлення від модераторів вмісту в TMDb. Створений вами запис з назвою "%{title}" було видалено. Ця назва не відповідає нашим [новим рекомендаціям щодо вмісту] (https://www.themoviedb.org/bible/new_content).
+
+          Якщо у вас виникли запитання щодо цього видалення, можете відповідайте на це повідомлення без вагань.
         subject: Це спам
     why_deleting: Чому видалено запис?
   department_credits_count:
@@ -1734,9 +1744,9 @@ uk-UA:
     Additional Production Sound Mixer: Додатковий виробничий звуковий редактор
     Additional Script Supervisor: Додатковий інспектор сценарію
     Additional Second Assistant Camera: 'Додаткова камера другого помічника '
-    Additional Second Assistant Director: 
-    Additional Set Dresser: 
-    Additional Set Photographer: 
+    Additional Second Assistant Director: Додатковий другий помічник директора
+    Additional Set Dresser: Другий Художник-Декоратор
+    Additional Set Photographer: Другий Оператор-постановник
     Additional Sound Re-Recording Mixer: 
     Additional Sound Re-Recordist: 
     Additional Soundtrack: Додатковий саундтрек
@@ -2391,7 +2401,7 @@ uk-UA:
     Set Decoration: Декорації
     Set Decoration Buyer: Закупівля декорацій
     Set Designer: 
-    Set Dresser: 
+    Set Dresser: Художник-Декоратор
     Set Dressing Artist: 
     Set Dressing Buyer: 
     Set Dressing Manager: 
