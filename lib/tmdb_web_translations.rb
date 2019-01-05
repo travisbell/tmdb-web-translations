@@ -31,6 +31,7 @@ module TMDb
         'kn' => 'kn-IN',
         'ko' => 'ko-KR',
         'lt' => 'lt-LT',
+        'lv' => 'lv-LV',
         'ml' => 'ml-IN',
         'nb' => 'nb-NO',
         'nl' => 'nl-NL',
