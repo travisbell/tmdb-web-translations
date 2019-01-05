@@ -1499,13 +1499,13 @@ fi-FI:
         general: Yleinen
         website_support: Sivuston tuki
       support:
-        api_requests: API pyynnöt
-        api_requests_(professional): API pyynnöt (ammattilainen)
+        api_requests: API-pyynnöt
+        api_requests_(professional): API-pyynnöt (ammattilaiset)
         api_support: API-tuki
         content_issues: Sisällön ongelmat
         general: Yleinen
         general_chat: Yleinen keskustelu
-        moderator_talk: Moderaattori keskustelu
+        moderator_talk: Moderaattorien keskustelu
         support: Tuki
         website_support: Sivuston tuki
     category:
@@ -1513,7 +1513,7 @@ fi-FI:
       last_reply_with_datetime_and_username: "%{date} klo %{time}<br>käyttäjältä %{username}"
     discussion_activity: Keskustelun viimeaikainen toiminta
     email_notifications:
-      email_notifications: Sähköposti ilmoitukset
+      email_notifications: Sähköposti-ilmoitukset
       subscribe: Tilaa
       unsubscribe: Lopeta tilaus
     headers:
@@ -1521,7 +1521,7 @@ fi-FI:
       discuss_item: Keskustele nimikkeestä %{item_title}
       lets_chat: Keskustellaan
       support: Tuki
-      support_title: The Movie Database tuki
+      support_title: The Movie Database -tuki
     login_to_be_notified: Kirjaudu sisään saadaksesi ilmotuksen ensimmäisestä viestistä.
     new_discussion:
       community_guidelines: Yhteisön ohjesäännöt
@@ -1537,7 +1537,7 @@ fi-FI:
         other: "%{count} vastausta (sivulla %{current_page}, sivuja yhteensä %{total_pages})"
       summary:
         one: "%{count} keskustelu, nyt sivulla %{current_page}, sivuja yhteensä %{total_pages}"
-        other: "%{count} keskustelu, nyt sivulla %{current_page}, sivuja yhteensä %{total_pages}"
+        other: "%{count} keskustelua, nyt sivulla %{current_page}, sivuja yhteensä %{total_pages}"
     post:
       delete: Poista
       edit: Muokkaa
@@ -1551,22 +1551,22 @@ fi-FI:
         hide_discussion: Klikkaamalla 'Kyllä', tämä keskustelu piilotetaan.
         ignore_user: Oletko varma, että haluat estää tämän käyttäjän. Kaikki heidän keskustelut ja kommentit piilotetaan. Vois poistaa eston menemällä "Estetyt käyttäjä" sivulle käyttäjätilin asetuksissa.
         mark_as_spam: Oletko varma, että haluat merkitä tämän viestin roskasisällöksi? Se poistetaan automaattisesti ja sitä ei voida peruuttaa. Viestien merkitseminen auttaa kehittämään roskasisällön tunnistusjärjestelmää mitä käytämme.
-        report_violation: Vahvista, että haluat raportoida tämän käyttäjän <a href="/documentation/community/guidelines" target="_blank" rel="noopener">yhteisön ohjesääntöjen</a> rikkomisesta.
+        report_violation: Vahvista, että haluat ilmiantaa tämän käyttäjän <a href="/documentation/community/guidelines" target="_blank" rel="noopener">yhteisön ohjesääntöjen</a> rikkomisesta.
         unhide_discussion: Klikkaamalla "Kyllä", tämä keskustelu tehdään jälleen näkyväksi.
       posted_by_with_datetime: Kirjoittanut %{username} pvä %{date} klo %{time}
-      quote: Lainaus
+      quote: Lainaa
       reopen_reply: Avaa uudelleen ja vastaa
       reply: Vastaa
       reply_by: Vastaus käyttäjältä %{username}
-      reply_on_datetime: pvä %{date} klo %{time}
-      report: Raportoi
+      reply_on_datetime: "%{date} klo %{time}"
+      report: Ilmianna
       unhide: Tuo esiin
-    report_violation: Raportoi sääntörikkomus
+    report_violation: Ilmianna sääntörikkomus
     search:
       advanced_search: Tarkennettu haku
-      search_closed: Suljetaanko haku?
-      search_forums: Etsi foorumilta...
-      search_open: Avataanko haku?
+      search_closed: Haetaanko suljetuista keskusteluista?
+      search_forums: Etsi foorumilta…
+      search_open: Haetaanko avoimista keskusteluista?
     statuses:
       closed: Suljettu
       open: Avoin
@@ -2669,13 +2669,13 @@ fi-FI:
         language: Kieli
         user: Käyttäjä
       number_of_changes:
-        one: "%{count} Muutos"
-        other: "%{count} Muutosta"
+        one: "%{count} muutos"
+        other: "%{count} muutosta"
       view_weekly_leaderboard: Näytä viikottainen tulostaulukko
     company:
       headquarters: Pääkonttori
       movie_page_title: Elokuvat jotka on tuottanut %{name}
-      tv_page_title: TV-sarjat kanavalla %{name}
+      tv_page_title: TV-sarjat jotka on tuottanut %{name}
     edit:
       lock_all_fields: Lukitse kaikki kentät
       lock_all_images: Lukitse kaikki kuvat
@@ -2705,7 +2705,7 @@ fi-FI:
       visit_instagram: Vieraile Instagramissa
       visit_twitter: Vieraile Twittersivustolla
     genre:
-      movie_page_title: "%{name} Elokuvissa"
+      movie_page_title: "%{name} elokuvissa"
       tv_page_title: "%{name} TV-sarjoissa"
     images:
       format: Tiedostotyyppi
@@ -3343,5 +3343,5 @@ fi-FI:
   view all: näytä kaikki
   will_paginate:
     next_label: Seuraava →
-    page_gap: 
+    page_gap: "…"
     previous_label: "← Edellinen"

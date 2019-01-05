@@ -88,7 +88,7 @@ sv-SE:
   Change?: Ändra?
   Changes: Ändringar
   Character: Roll
-  Choose: 
+  Choose: Välj...
   City: Stad
   Clip: Klipp
   Clips: Klipp
@@ -105,7 +105,7 @@ sv-SE:
   Confirm Your Application: Godkänn Din Application
   Contact Email: E-postadress för kontakt
   Contact Us: Kontakta oss
-  Content Ratings: 
+  Content Ratings: Innehålls Klassificering
   Content Score: Innehållets betyg
   Continue: Fortsätt
   Contribution leaders for the week of: Bidragsledare för vecka
@@ -133,7 +133,7 @@ sv-SE:
   Deny: Neka
   Department: Avdelning
   Description: Beskrivning
-  Design or Functionality Issue: Utformning eller Funktions problem
+  Design or Functionality Issue: Utformnings eller Funktions Problem
   Desktop Application: Skrivbordsapplikation
   Destination Record: 
   Details: Detaljer
@@ -262,7 +262,7 @@ sv-SE:
   Logout: Logga ut
   Male: Man
   Mark as Favorite: Markera som favorit
-  Media: 
+  Media: Media
   Member since: Medlem sedan
   Merge Keyword: 
   Mixed Compact View: Kompakt vy
@@ -662,7 +662,7 @@ sv-SE:
       page_title:
         page_owner: Mina Betyg & Recensioner
         public: "%{username}'s Betyg & Recensioner"
-      ratings_by_year: Betyg Efter År
+      ratings_by_year: Betyg per År
     recommendations:
       my_recommendations: 'Mina Rekommendationer '
       no_recommendations: Vi har inte tillräckligt med data för att föreslå rekommendationer.
@@ -689,20 +689,20 @@ sv-SE:
   add_to_list: Lägg till %{media_title} till en av dina listor...
   already_translated_in: "%{page_title} är redan översatt till följande språk..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Autentiseringsförfrågan från annat program eller sajt
     approved_session: Du har godkänt %{application_name}. Du kan stänga detta fönster.
     continue: Klicka på knappen ovan om du vill fortsätta, annars kan du bara stänga detta fönster.
-    request_token_approval: 
+    request_token_approval: "{{APP}} frågar efter ditt tillstånd att läsa och skriva data åt dig. Detta behövs om du till exempel vill ändra i listor eller betygssätta filmer utifrån TMDb."
     statuses:
       completed:
         message: 
         name: Autentisering godkänd
       denied:
-        message: 
+        message: "<p>Du tillåter inte att <strong>%{application_name}</strong> får tillgång. Om det var av misstag eller om du vill starta autentiseringen igen, gå då tillbaka till den applikationen och begär tillgång en gång till.</p>"
         name: Autentisering nekad
       invalid_request_token:
         message: 
-        name: 
+        name: Ogiltigt Request Token
   attributes:
     biography: Biografi
     certification: Certifiering
@@ -724,9 +724,9 @@ sv-SE:
     episode_list: Tillbaka till avsnittslistan
     home: Tillbaka till hem
     main: Tillbaka till huvudsidan
-    named_episode_group: 
+    named_episode_group: Tillbaka till &lsquo;%{group_name}&rsquo; grupper
     season: Tillbaka till säsong
-    season_list: Tillbaka till säsongs lista
+    season_list: Tillbaka till säsongerna
     to_tmdb: Tillbaka till TMDb
     top: Tillbaka till toppen
   certifications:
@@ -734,7 +734,7 @@ sv-SE:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Undantagen från klassificering. Materialet får inte innehålla någonting som kan vara till skada för barn.
         '2':
           meaning: 
         '3':
@@ -742,9 +742,9 @@ sv-SE:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: 15 år eller äldre. Innehållet bedöms kunna vara till skada för välbefinnandet för barn under 15 år.
         '6':
-          meaning: 
+          meaning: Endast för personer som är minst 18 år gamla. Endast för vuxna.
         '7':
           meaning: 
         '8':
@@ -786,7 +786,7 @@ sv-SE:
           meaning: 
       CA-QC:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -805,10 +805,10 @@ sv-SE:
         '4':
           meaning: 
         '5':
-          meaning: 
+          meaning: Inget tillträde för ungdomar, endast vuxna.
       DK:
         '0':
-          meaning: 
+          meaning: ingen klassificerings information.
         '1':
           meaning: 'Lämplig för allmän publik. '
         '2':
@@ -818,7 +818,7 @@ sv-SE:
         '4':
           meaning: Från 15 år och upp.
         '5':
-          meaning: 
+          meaning: Undantagen från klassificering.
       ES:
         '1':
           meaning: 
@@ -827,11 +827,11 @@ sv-SE:
         '3':
           meaning: 'Ej rekommenderad för publik under 12 års ålder. '
         '4':
-          meaning: 
+          meaning: Inte rekommenderad för tittare under 16.
         '5':
-          meaning: 
+          meaning: Inte rekommenderad för tittare under 18.
         '6':
-          meaning: 
+          meaning: Förbjudet för tittare under 18.
       FI:
         '1':
           meaning: För alla åldrar.
@@ -879,11 +879,11 @@ sv-SE:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Rekommenderas inte för de som är under 16 år.
         '4':
-          meaning: 
+          meaning: Rekommenderas inte för de som är under 16 år.
         '5':
-          meaning: 
+          meaning: Rekommenderas inte för de som är under 18 år.
         '6':
           meaning: 
       IN:
@@ -895,13 +895,13 @@ sv-SE:
           meaning: 
       IT:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
-          meaning: 
+          meaning: Tillträde för alla åldrar.
         '2':
-          meaning: 
+          meaning: Inget tillträde för barn under 14 år.
         '3':
-          meaning: 
+          meaning: Inget tillträde för barn under 18 år.
       LT:
         '1':
           meaning: 
@@ -915,7 +915,7 @@ sv-SE:
           meaning: 
       MY:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -941,7 +941,7 @@ sv-SE:
           meaning: 
       'NO':
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1014,7 +1014,7 @@ sv-SE:
           meaning: 
       SE:
         '0':
-          meaning: 
+          meaning: Ingen information om åldersgränser.
         '1':
           meaning: Barntillåten. En barntillåten film är tillåten från alla åldrar.
         '2':
@@ -1025,7 +1025,7 @@ sv-SE:
           meaning: 15-årsgräns betyder att man utan vuxet sällskap ska ha fyllt 15 år och också kan styrka detta vid insläpp till filmen. Från och med 11 års ålder kan man i vuxet sällskap se filmer med 15-årsgräns. För att räknas som vuxen måste man ha fyllt 18 år och vara myndig.
       US:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1084,7 +1084,7 @@ sv-SE:
           meaning: 
       CA-QC:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1108,7 +1108,7 @@ sv-SE:
           meaning: 
       ES:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1127,7 +1127,7 @@ sv-SE:
           meaning: 
       FR:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1153,9 +1153,9 @@ sv-SE:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
-          meaning: 
+          meaning: Inga åldersrestriktioner.
         '2':
           meaning: 
         '3':
@@ -1188,7 +1188,7 @@ sv-SE:
           meaning: 
       NL:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: Inte skadlig / Alla åldrar.
         '2':
@@ -1201,9 +1201,9 @@ sv-SE:
           meaning: 
       PH:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
-          meaning: 
+          meaning: Passar för alla åldrar.
         '2':
           meaning: 
         '3':
@@ -1212,7 +1212,7 @@ sv-SE:
           meaning: 
       PT:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1264,7 +1264,7 @@ sv-SE:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: Ingen klassificerings information.
         '1':
           meaning: 
         '2':
@@ -1282,15 +1282,15 @@ sv-SE:
   content_score:
     helper_tooltip: Innehållsbetyget är ett sätt att hjälpa dig förstå hur komplett data är för ett objekt i databasen.
     scale:
-      '0': 
-      '1': 
-      '10': 
-      '2': 
-      '3': 
+      '0': Måste börja någonstans...
+      '1': Det är åtminstone en början.
+      '10': Det ser bra ut!
+      '2': Vi närmar oss.
+      '3': Rom var inte byggt på en dag...
       '4': 
-      '5': 
-      '6': 
-      '7': 
+      '5': Behöver fortfarande lite jobb.
+      '6': Vi är så nära men ändå så långt borta.
+      '7': Bara lite till...
       '8': 
       '9': Nästan där...
   contribute:
@@ -1337,8 +1337,8 @@ sv-SE:
         bottom: Bibel
         top: Film
     new_content:
-      new_content: 
-      new_content_bible: 
+      new_content: Nytt Innehåll
+      new_content_bible: Nytt Innehålls Bibeln
     note: 
     people:
       people: Personer
@@ -1426,25 +1426,25 @@ sv-SE:
         subject: 
       '3':
         message: 
-        subject: 
+        subject: Det är en TV-serie.
       '4':
         message: 
         subject: 
       '5':
         message: 
-        subject: 
+        subject: Det är spam
     why_deleting: 
   department_credits_count: 
   departments:
-    Acting: 
+    Acting: Skådespeleri
     Actors: Skådespelare
     Art: Konst
     Camera: Kamera
     Costume & Make-Up: Kostym & smink
     Creator: Skapare
     Crew: Medarbetare
-    Directing: 
-    Editing: 
+    Directing: Dirigering
+    Editing: Redigering
     Lighting: Ljus
     Production: Produktion
     Sound: Ljud
@@ -1456,7 +1456,7 @@ sv-SE:
       close_discussion: 'Stäng Diskussion '
       make_private: Gör Privat
       make_public: Gör Offentlig
-      mark_spam: 
+      mark_spam: Markera som spam
       reopen_discussion: Återöppna Diskussion
       stop_watching: Sluta Bevaka
       view_activity: Visa Aktivitet
@@ -1502,7 +1502,7 @@ sv-SE:
       community_guidelines: 
       discussion_category: Kategori
       for_item: För Föremål
-      message: 
+      message: Meddelande
       new_discussion: Ny Diskussion
       subject: 'Ämne '
     no_discussions: Inga diskussioner.
@@ -1520,14 +1520,14 @@ sv-SE:
       ignore: Ignorera
       like: Gilla
       messages:
-        delete_comment: 
-        delete_discussion: 
-        hide_comment: 
-        hide_discussion: 
+        delete_comment: Genom att klicka på 'Ja', kommer denna kommentar att raderas permanent.
+        delete_discussion: Genom att klicka på 'Ja', kommer denna diskussion att raderas permanent.
+        hide_comment: Genom att klicka på 'Ja', kommer denna kommentar att döljas.
+        hide_discussion: Genom att klicka på 'Ja', kommer denna diskussion att döljas.
         ignore_user: 'Är du säker på att du vill blockera denna användaren? Alla deras diskussioner och kommentarer kommer att försvinna. Du kan ta bort denna blockeringen genom att gå till "Blockerade Användare" sidan i dina konto inställningar.  '
         mark_as_spam: 
         report_violation: 
-        unhide_discussion: 
+        unhide_discussion: Genom att klicka på 'Ja', kommer denna diskussion att bli synlig igen.
       posted_by_with_datetime: Inlagt av %{username} den %{date} vid %{time}
       quote: Citera
       reopen_reply: Återöppna & Svara
@@ -1536,7 +1536,7 @@ sv-SE:
       reply_on_datetime: den %{date} vid %{time}
       report: 'Rapportera '
       unhide: 
-    report_violation: 
+    report_violation: Rapportera överträdelse
     search:
       advanced_search: Avancerad Sökning
       search_closed: 
@@ -1572,10 +1572,10 @@ sv-SE:
   episode_number_name: Avsnitt %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Vi kunde inte behandla bilden
+      not_jpeg: Bilden är inte en JPEG
+      not_png: Bilden är inte en PNG
+      not_svg: Bilden är inte en SVG
     locked:
       genres: 
       keywords: 
@@ -1587,14 +1587,14 @@ sv-SE:
       suspected_tv_series: 
       taken: har redan tagits
     movie:
-      duplicate_cast: 
+      duplicate_cast: Denna personen är redan tillagd som en skådespelare.
     tv:
       duplicate_created_by: 
       duplicate_crew_member: 
       duplicate_episode: Avsnittet finns redan
-      duplicate_guest_star: 
+      duplicate_guest_star: Den här gästskådespelaren finns redan.
       duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_season: Den här säsongen finns redan.
   failed_email: Ditt e-postmeddelande skickades tyvärr inte.
   failed_generic: Det uppstod ett problem.
   failed_report: Det var ett problem med att skicka in din anmälan.
@@ -1613,21 +1613,21 @@ sv-SE:
         today: Nytt avsnitt släpps idag
         tomorrow: Nytt avsnitt släpps imorgon
   images:
-    confirm_delete: 
+    confirm_delete: Är du säker på att du vill ta bort den här bilden?
     upload_criteria:
-      '1': 
-      '2': 
-      '3': 
-      '4': 
-      '5': 
+      '1': En maximal upplösning på 2000x3000
+      '2': En minsta upplösning på 500x750
+      '3': Bildförhållande 1:1.5 (2:3)
+      '4': En maximal upplösning på 3840x2160
+      '5': En minsta upplösning på 400x225
       '6': 
       '7': 
       '8': 
       '9': 
       backdrops_must_meet: 
       episode_stills_must_meet: 'Avsnitts-stillbilder måste möta följande kriterier:'
-      posters_must_meet: 
-      profile_must_meet: 
+      posters_must_meet: 'Affischer måste möta de följande kriterier:'
+      profile_must_meet: 'Profilbilder måste möta följande kriterier:'
       read_guidelines: 
       tip: 
   invalid_aspect_ratio: Det här bildförhållandet är felaktigt.
@@ -1640,11 +1640,11 @@ sv-SE:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: 
-    2D Artist: 
+    2D Artist: 2D Artist
     2D Sequence Supervisor: 
     2D Supervisor: 
     3D Animator: 
-    3D Artist: 
+    3D Artist: 3D Artist
     3D Coordinator: 
     3D Digital Colorist: 
     3D Director: 
@@ -1672,7 +1672,7 @@ sv-SE:
     Action Director: 
     Actor: Skådespelare
     Actor's Assistant: 
-    Adaptation: 
+    Adaptation: Adaptering
     Additional Camera: 
     Additional Casting: 
     Additional Colorist: 
@@ -2571,20 +2571,20 @@ sv-SE:
       back_to_parent: 
       close_window: 
       focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
+      go_to_edit: gå till redigerings sidan
+      last_reply: gå till det senaste svaret
+      new_discussion: 'skapa ny diskussion '
       next_episode: "(höger pil) gå till nästa avsnitt"
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
+      next_page: "(höger pil) nästa sida"
+      next_season: "(höger pil) gå till nästa säsong"
+      open_activity: öppna aktivitet
+      open_add_image_window: öppna lägg till bild fönstret
+      open_profile: öppna profil menyn
       open_shortcut_window: 
       open_translation_selector: 
       previous_episode: "(vänster pil) gå till föregående avsnitt"
-      previous_page: 
-      previous_season: 
+      previous_page: "(vänster pil) föregående sida "
+      previous_season: "(vänster pil) gå till den föregående säsongen"
       reply_to_discussion: 
       save_form: 
       submit_message: 
@@ -2595,16 +2595,16 @@ sv-SE:
       discussion_pages: 
       edit_pages: 
       global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      image_pages: På alla bild sidor
+      media_pages: På media sidor
+      tv_episode_pages: På Tv-avsnitts sidor
+      tv_season_pages: 'På Tv-säsongs sidor '
+    keyboard_shortcuts: Kortkommandon
+    view_keyboard_shorcuts: Visa Kortkommandon
+    view_shortcuts: Visa Kortkommandon
   list_info:
     average_rating: Medelbetyg
-    image_selected: 
+    image_selected: Vald
     items_on_list:
       many: föremål på denna lista
       one: föremål på denna lista
@@ -2613,7 +2613,7 @@ sv-SE:
     public: Offentlig
     select_this_image: Välj denna bild
     total_revenue: Totala Intäkter
-    total_runtime: 
+    total_runtime: Total Längd
   list_messages:
     comment_updated: Kommentar uppdaterad!
     image_saved: Bild sparad!
@@ -2641,9 +2641,11 @@ sv-SE:
       filters:
         clear: 
         key: 
-        language: 
-        user: 
-      number_of_changes: 
+        language: Språk
+        user: Användare
+      number_of_changes:
+        one: "%{count} Ändring"
+        other: "%{count} Ändringar"
       view_weekly_leaderboard: 
     company:
       headquarters: 
@@ -2664,7 +2666,7 @@ sv-SE:
         networks: 
         person: 
         production_companies: 
-      success_fields_locked: 
+      success_fields_locked: Fält låsta.
       tooltips:
         bible: 
         homepage: Endast officiell hemsida. Beundrarsidor tillåts inte.
@@ -2673,15 +2675,15 @@ sv-SE:
         overview: 
         social_links: Sociala länkar är endast för officiella (verifierade) sidor. Beundrarsidor tillåts inte
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Besök Facebook
+      visit_homepage: Besök Hemsida
+      visit_instagram: Besök Instagram
+      visit_twitter: Besök Twitter
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Filmer"
+      tv_page_title: "%{name} Tv-Serier"
     images:
-      format: 
+      format: Format
       no_backdrop_stills: 
       no_backdrops: 
       no_logos: 
@@ -2734,23 +2736,23 @@ sv-SE:
         Rumored: Ryktas
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Alternativa Namn
+        logos: Loggor
         merge:
           choose_destination: 
-          confirm_merge: 
-          merge: 
-          next: 
+          confirm_merge: 'Bekräfta Sammanfogning '
+          merge: Sammanfoga
+          next: Nästa
         primary_facts: 
-        upload_logo: 
-      logos: 
-      name: 
-      other_shows_on: 
+        upload_logo: Ladda upp en logga
+      logos: Loggor
+      name: Namn
+      other_shows_on: Se fler Tv-serier från %{name}…
       search:
         no_results: 
         results: 
-      tv_page_title: 
-      upload_logo: 
+      tv_page_title: TV-serier på %{name}
+      upload_logo: Ladda upp en logga
     no_results_found:
       movie: 
       tv: 
