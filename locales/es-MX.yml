@@ -692,7 +692,7 @@ es-MX:
     3rd_party_request: 
     approved_session: Has aprobado a %{application_name}. Puedes cerrar esta ventana.
     continue: SI deseas continuar, haz clic en el botón de Aprobar. De lo contrario, cierra esta ventana.
-    request_token_approval: 
+    request_token_approval: "{{APP}} está pidiendo permiso para leer y escribir data a tu nombre. Esto es necesario si quieres hacer cosas como mantener tus listas o calificar películas fuera de TMDb."
     statuses:
       completed:
         message: Ha concedido permisos de lectura y escritura a <strong>%{application_name}</strong>. Ahora puede regresar a la aplicación y cerrar esta ventana. Puede revocar este acceso en cualquier momento ingresando a la sección de Ajustes de su cuenta y luego a "Aplicaciones Conectadas".
@@ -702,7 +702,7 @@ es-MX:
         name: Autenticación Denegada
       invalid_request_token:
         message: El token de acceso que ha ingresado es inválido. Intente creando uno nuevo y asegurese de haberlo copiado correctamente. Si continúa teniendo problemas, contacte al desarrollador de la aplicación que está usando.
-        name: 
+        name: Solicitud de token inválida
   attributes:
     biography: Biografía
     certification: Certificación
@@ -766,11 +766,11 @@ es-MX:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: No recomendado para menores de 12 años. Puede contener escenas con agresión física, uso legal de drogas e insinuaciones sexuales.
         '4':
-          meaning: 
+          meaning: No recomendado para menores de 14 años. Material más violento, referencias sexuales más fuertes y/o desnudismo.
         '5':
-          meaning: 
+          meaning: No recomendado para menores de 16 años. Puede contener escenas que incluyan producción, tráfico y/o uso ilegal de drogas, sexo híper realista, violencia sexual, aborto, tortura, mutilación, suicidio, trivialización de la violencia o pena de muerte.
         '6':
           meaning: 
       CA:
