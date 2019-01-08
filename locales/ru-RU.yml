@@ -295,7 +295,7 @@ ru-RU:
   Number of edits in the past: Количество правок за
   Offensive or Spam: Оскорбительное или спам
   Offical Site: Официальный сайт
-  Offline Databases: 
+  Offline Databases: Автономные Базы Данных
   Opening Credits: Открытые кредиты
   Origin Country: Страна оригинала
   Original Air Date: Дата выхода
@@ -365,7 +365,7 @@ ru-RU:
   Recommendations: Вам понравится
   Regions: Регионы
   Regular Cast: Актеры
-  Release Date Ascending: Даты выхода по убыванию
+  Release Date Ascending: Даты выхода по возрастанию
   Release Date Descending: Дата выхода по убыванию
   Release Dates & Certifications: Даты выпуска и сертификаты
   Release Information: Информация о релизе
@@ -1300,7 +1300,7 @@ ru-RU:
       '1': Начало положено.
       '10': Да! Уже лучше!
       '2': Идем верной дорогой.
-      '3': Москва не сразу строилась...
+      '3': Рим не сразу строилась...
       '4': Мы - бригада. Работаем, как один.
       '5': Еще немного, еще чуть-чуть.
       '6': Мы почти у цели.
@@ -1351,7 +1351,7 @@ ru-RU:
         bottom: 
         top: Фильмы
     new_content:
-      new_content: 
+      new_content: Новое содержание
       new_content_bible: 
     note: Отметка
     people:
@@ -1435,19 +1435,44 @@ ru-RU:
     entry_deleted: Запись удалена
     reasons:
       '1':
-        message: 
+        message: |
+          Привет,
+
+          Это просто дружеская записка от модераторов контента в TMDb. Запись, которую вы создали под названием "%{title}" была удалена. Это название уже было в нашей базе и поэтому считается дубликатом.
+
+          Если у вас есть какие-либо вопросы об этом удалении, не стесняйтесь отвечать на это сообщение.
         subject: Это дубликат
       '2':
-        message: 
-        subject: 
+        message: |-
+          Привет,
+
+          Это просто дружеская записка от модераторов контента в TMDb. Запись, которую вы создали под названием "%{title}" была удалена. Это название не соответствует нашим [новым руководящим принципам содержания](https://www.themoviedb.org/bible/new_content).
+
+          Если у вас есть какие-либо вопросы об этом удалении, не стесняйтесь отвечать на это сообщение.
+        subject: Он не соответствует нашим рекомендациям по контенту (любительский и т. д...)
       '3':
-        message: 
+        message: |
+          Привет,
+
+          Это просто дружеская записка от модераторов контента в TMDb. Запись, которую вы создали под названием "%{title}" была удалена. Это название уже существует как телешоу и не считается действительным фильмом. Вы можете прочитать больше о наших руководящих принципах содержания [здесь](https://www.themoviedb.org/bible/new_content).
+
+          Если у вас есть какие-либо вопросы об этом удалении, не стесняйтесь отвечать на это сообщение.
         subject: Это ТВ шоу
       '4':
-        message: 
+        message: |-
+          Привет,
+
+          Это просто дружеская записка от модераторов контента в TMDb. Запись, которую вы создали под названием "%{title}}" была удалена. Это название не соответствует нашим [новым руководящим принципам содержания](https://www.themoviedb.org/bible/new_content).
+
+          Если у вас есть какие-либо вопросы об этом удалении, не стесняйтесь отвечать на это сообщение.
         subject: Это фальшивая запись
       '5':
-        message: 
+        message: |-
+          Привет,
+
+          Это просто дружеская записка от модераторов контента в TMDb. Запись, которую вы создали под названием "%{title}" был удален. Это название не соответствует нашим [новым руководящим принципам содержания](https://www.themoviedb.org/bible/new_content).
+
+          Если у вас есть какие-либо вопросы об этом удалении, не стесняйтесь отвечать на это сообщение.
         subject: Это спам
     why_deleting: Почему вы удаляете эту запись?
   department_credits_count: 
@@ -2679,10 +2704,10 @@ ru-RU:
   media:
     changes:
       filters:
-        clear: 
+        clear: Очистить
         key: 
         language: Язык
-        user: 
+        user: Пользователь
       number_of_changes: 
       view_weekly_leaderboard: Еженедельный Рейтинг
     company:
@@ -2804,12 +2829,12 @@ ru-RU:
       few: "%{count} фильм(ов)"
       many: "%{count} фильмов"
       one: "%{count} фильм"
-      other: ''
+      other: "%{count} фильм(ов)"
     number_of_shows:
       few: "%{count} сериал(ов)"
       many: "%{count} сериалов"
       one: "%{count} сериал"
-      other: ''
+      other: "%{count} сериал(ов)"
     person:
       edit:
         alternative_names:
@@ -2831,7 +2856,7 @@ ru-RU:
           logged_in: Рецензий на %{title} нет. Не желаете ли Вы написать  <a href="%{url}">одну</a>?
           public: Вы пока не оставляли обзоров для %{title}.
         read_all: Читать все рецензии
-        read_the_rest: 
+        read_the_rest: прочти остальное.
         write_review:
           logged_in: Написать отзыв
           public: Войдите, чтобы написать отзыв.
@@ -2839,7 +2864,7 @@ ru-RU:
       edit:
         guest_stars:
           no_records: Приглашенные звезды не добавлены.
-        screened_as_part_of_season: 
+        screened_as_part_of_season: Да, в рамках сезона
         screened_confirm: 
         screened_label: 
       episode_selector:
@@ -2849,7 +2874,7 @@ ru-RU:
         previous_episode: Предыдущая серия
     tv_season:
       edit:
-        create_episode: 
+        create_episode: Создать Эпизод
         episodes:
           no_records: Эпизоды не были добавлены.
         screened_confirm: 
@@ -2858,9 +2883,9 @@ ru-RU:
         current_season: Текущий сезон
         last_season: Последний сезон
         next_season: Следующий сезон
-        previous_season: 
+        previous_season: Предыдущий сезон
     tv_show:
-      create_season: 
+      create_season: Создать Сезон
       edit:
         adult:
           adult_show: 
@@ -2877,14 +2902,18 @@ ru-RU:
           description: 
           episode_groups: 
           episodes:
-            move_episodes: 
+            move_episodes: Переместить Выбранные Эпизоды
             no_records: В эту группу не добавлено ни одного эпизода.
           grid:
-            episodes: 
-            groups: 
+            episodes: Эпизоды
+            groups: Группы
           group: 
           messages:
-            episodes_added: 
+            episodes_added:
+              few: ''
+              many: ''
+              one: "%{count} эпизод добавлен!"
+              other: "%{count} добавлены эпизоды!"
           name: 
           no_records: Группы эпизодов не добавлены.
           type: 
@@ -2892,7 +2921,7 @@ ru-RU:
             '1': 
             '2': 
             '3': 
-            '4': 
+            '4': Цифровой
             '5': 
             '6': 
             '7': 
@@ -2911,7 +2940,11 @@ ru-RU:
         groups:
           count: 
         original_air_date: 
-      networks: 
+      networks:
+        few: ''
+        many: ''
+        one: Телесеть
+        other: Телесеть
       statuses:
         Canceled: Отменен
         Ended: Завершился
@@ -2937,8 +2970,13 @@ ru-RU:
       tags: Теги
   message_templates:
     help_translate:
-      message: 
-      subject: 
+      message: |
+        Привет, спасибо за использование TMDb. Я заметил, что вы просматриваете TMDb на языке, который еще не переведен. Если вы заинтересованы в том, чтобы помочь нам получить эти данные, вы можете сделать это, посетив наш [местный проект](https://www.localeapp.com/projects/8267). [Регистрация участнико](https://www.localeapp.com/users/sign_up) для Locale бесплатно, и вы можете добавить столько новых переводов, сколько у вас есть время. Каждое редактирование помогает.
+
+        Если у вас нет никакого интереса к этому, не потейте. Я просто подумал, что могу спросить.
+
+        Спасибо и берегите себя!
+      subject: Помогите перевести наш сайт
   messages:
     compose:
       ban: 
@@ -3307,7 +3345,7 @@ ru-RU:
         connect: 
         connected_to: 
         info: 
-        reload_text: 
+        reload_text: Перезагрузите эту страницу после авторизации аккаунта!
         service: 
       favorite_message_hint: 
       message_settings: Настройка сообщений
