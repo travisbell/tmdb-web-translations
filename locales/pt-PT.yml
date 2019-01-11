@@ -291,7 +291,7 @@ pt-PT:
   Number of edits in the past: Número de edições no(s) último(s)
   Offensive or Spam: Spam ou Ofensivo
   Offical Site: Site Oficial
-  Offline Databases: 
+  Offline Databases: Base de Dados Offline
   Opening Credits: Créditos de Abertura
   Origin Country: País de Origem
   Original Air Date: Data de Estreia Original
@@ -2578,12 +2578,12 @@ pt-PT:
       back_to_parent: 
       close_window: 
       focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
+      go_to_edit: ir para a página de edição
+      last_reply: ir para a última resposta
+      new_discussion: criar uma nova discussão
+      next_episode: "(seta para a direita) ir para o próximo episódio"
+      next_page: "(seta para a direita) página seguinte"
+      next_season: "(seta para a direita) ir para a próxima temporada"
       open_activity: 
       open_add_image_window: 
       open_profile: 
@@ -2659,21 +2659,21 @@ pt-PT:
       movie_page_title: 
       tv_page_title: 
     edit:
-      lock_all_fields: 
+      lock_all_fields: Bloquear todos os campos
       lock_all_images: Bloquear todas as imagens
-      page_title: 
+      page_title: Editar %{name}
       placeholders:
-        country: 
+        country: Seleccione um Pais...
         create_person:
           click_to_create: Clicar para cliar %{name}
           create_it: 
         genres: Selecione um género...
-        job: 
+        job: Seleccione um Cargo...
         keywords: 
-        networks: 
-        person: 
-        production_companies: 
-      success_fields_locked: 
+        networks: Pesquise uma Rede Emissora...
+        person: Pesquise uma pessoa...
+        production_companies: Pesquise uma produtora...
+      success_fields_locked: Campos bloqueados.
       tooltips:
         bible: 
         homepage: Apenas a Página Oficial. Não é permitido páginas de fãs.
@@ -2682,18 +2682,18 @@ pt-PT:
         overview: Ao escrever uma sinopse, tente ser breve, conciso e livre de spoilers.
         social_links: Os links das redes sociais são apenas para as páginas oficiais (verificadas). Páginas criadas por fãs não são aceites.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Visitar Facebook
+      visit_homepage: Visitar Página Oficial
+      visit_instagram: Visitar Instagram
+      visit_twitter: Visitar Twitter
     genre:
       movie_page_title: "%{name} Filmes"
       tv_page_title: "%{name} Séries de TV"
     images:
       format: Formato
       no_backdrop_stills: 
-      no_backdrops: 
-      no_logos: 
+      no_backdrops: Não há imagens de fundo para apresentar.
+      no_logos: Não há logos para apresentar
       no_posters: Nenhum cartaz foi adicionado à esta entrada.
       no_profiles: 
       primary: 
@@ -2749,16 +2749,16 @@ pt-PT:
           choose_destination: 
           confirm_merge: 
           merge: 
-          next: 
+          next: Seguinte
         primary_facts: Factos Básicos
         upload_logo: Enviar um Logótipo
       logos: Logótipos
       name: Nome
-      other_shows_on: 
+      other_shows_on: Ver mais séries de %{name}
       search:
         no_results: 
         results: 
-      tv_page_title: 
+      tv_page_title: Séries em %{name}
       upload_logo: Enviar um Logótipo
     no_results_found:
       movie: 
@@ -2794,7 +2794,7 @@ pt-PT:
       edit:
         guest_stars:
           no_records: 
-        screened_as_part_of_season: 
+        screened_as_part_of_season: Sim, como parte da temporada
         screened_confirm: 
         screened_label: 
       episode_selector:
@@ -2813,7 +2813,7 @@ pt-PT:
         current_season: Temporada Atual
         last_season: Última Temporada
         next_season: Próxima Temporada
-        previous_season: 
+        previous_season: Temporada Anterior
     tv_show:
       create_season: Criar Temporada
       edit:
@@ -2829,27 +2829,27 @@ pt-PT:
           no_season: 
         episode_groups:
           create_new_group: Criar Novo Grupo
-          description: 
-          episode_groups: 
+          description: Descição
+          episode_groups: Grupos de Episódios
           episodes:
-            move_episodes: 
+            move_episodes: Mover Episódios Seleccionados
             no_records: 
           grid:
-            episodes: 
-            groups: 
-          group: 
+            episodes: Episódios
+            groups: Grupos
+          group: Grupo
           messages:
             episodes_added:
               one: "%{count} episódio adicionado!"
               other: "%{count} episódios adicionados!"
-          name: 
+          name: Nome do Grupo
           no_records: 
-          type: 
+          type: Tipo
           types:
-            '1': 
+            '1': Data da Primeira Emissão
             '2': 
-            '3': 
-            '4': 
+            '3': DVD
+            '4': Digital
             '5': 
             '6': 
             '7': 
@@ -2886,12 +2886,12 @@ pt-PT:
         Video: Vídeo
     video:
       audio_language: Idioma do Áudio
-      channel: 
-      duration: 
-      published: 
-      published_at: 
-      restricted_regions: 
-      tags: 
+      channel: Canal
+      duration: Duração
+      published: Publicada
+      published_at: Publicada em
+      restricted_regions: Regiões Restingidas
+      tags: Tags
   message_templates:
     help_translate:
       message: 
@@ -2899,23 +2899,25 @@ pt-PT:
   messages:
     compose:
       ban: 
-      from: 
-      message: 
-      subject: 
-      template: 
-      to: 
-    no_messages: 
+      from: De
+      message: Mensagem
+      subject: Assunto
+      template: Template
+      to: Para
+    no_messages: Sem mensagens
     notifications:
-      new_message: 
-    number_of_messages: 
+      new_message: "%{username} enviou-lhe uma mensagem"
+    number_of_messages:
+      one: "%{count} messagem"
+      other: "%{count} messagens"
     options:
-      admin: 
-      archive: 
-      settings: 
-      viewed_at: 
+      admin: Admin
+      archive: Arquivo
+      settings: Configurações
+      viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: 
+        create: Pode iniciar uma nova conversa <a href="%{link}">clicando aqui</a>.
         no_conversations: 
         view: 
       no_user_found: 
@@ -3010,7 +3012,7 @@ pt-PT:
     refresh: Atualizar
     unread_notifications: Notificações Não Lidas
     view: Ver
-    view_all: 
+    view_all: Ver tudo
   number:
     currency:
       format:
@@ -3071,7 +3073,7 @@ pt-PT:
     one: "%{count} voto"
     other: "%{count} votos"
   pagination:
-    currently_on: 
+    currently_on: Página %{current_page} de %{total_pages}
     last_page: Última página
     load_more: Ver Mais
     next_page: Página seguinte
@@ -3087,27 +3089,27 @@ pt-PT:
     reset_email_sent: E-mail enviado! Deverá receber em breve instruções para redefinir a palavra-passe.
   person:
     credits:
-      as_character: 
+      as_character: como %{character}
       as_job: 
   resend_verification_email_text: Não recebeu o e-mail de verificação? Introduza o seu nome de utilizador em baixo para reenviar.
   reset_password_text: Introduza o seu nome de utilizador em baixo para começar o processo de redefinição da palavra-passe.
   search:
     favorites_movie: Procure Filmes favoritos...
     favorites_tv: Procure Séries de TV favoritas...
-    in_movies: 
-    in_people: 
-    in_tv_shows: 
+    in_movies: em Filmes
+    in_people: em Pessoas
+    in_tv_shows: em Séries
     media_types:
       movie: Filme
       person: Pessoa
       tv_show: Série de TV
-    no_results: 
+    no_results: Sem resultados
     no_results_found: Não foram encontrados resultados
     rated_movie: Procure Filmes avaliados...
     rated_tv: Procure Séries de TV avaliadas...
     recommendations_movie: Procurar por recomendações pessoais de Filmes...
     recommendations_tv: Procurar por recomendações pessoais de Séries de TV
-    trending: 
+    trending: Tendência
     trending_searches: Pesquisas Populares
     watchlist_movie: Procure Filme na Lista de Interesses...
     watchlist_tv: Procure Série de TV na Lista de Interesses...
@@ -3153,8 +3155,8 @@ pt-PT:
         import: Importar
         previous: Importações Anteriores
       notification:
-        finished_import: 
-        started_import: 
+        finished_import: Terminar importação!
+        started_import: Iniciar importação...
       previous:
         date: Data
         imported: Importada
@@ -3165,15 +3167,15 @@ pt-PT:
       results:
         complete:
           imported: Importada?
-          item: 
+          item: Item
           item_reasons:
             already_imported: Já foi importada.
             cant_find_imdb: Não encontramos esta ID do IMDb.
             imdb_id_not_in_row: 
-            personal_rating_invalid: 
+            personal_rating_invalid: A sua avaliação pessoal é inválida (deve ser entre 0.5 e 10.0)
             personal_rating_not_found: 
             row_is_invalid: 
-            updated_date: 
+            updated_date: Data da última actualização.
           reason: Motivo? (Se aplicável)
           summary: Conseguimos importar um total de %{imported_count} itens dos %{total_count} (%{imported_percentage}%) itens detectados na sua lista exportada.
         currently_running: A importação está em execução. Pode atualizar a página para se certificar que está concluída.
@@ -3286,8 +3288,8 @@ pt-PT:
   success_sharing: A sua mensagem foi partilhada com sucesso.
   time:
     formats:
-      12hour_minutes: 
-  top_contributors: 
+      12hour_minutes: "%l:%M %p"
+  top_contributors: Top de Contribuidores
   translation:
     one: tradução
     other: traduções
@@ -3297,6 +3299,6 @@ pt-PT:
   used_by_developers: TMDb é usado por mais de 200.000 desenvolvedores.<br>Veja os seus trabalhos em baixo.
   view all: ver tudo
   will_paginate:
-    next_label: 
+    next_label: Seguinte →
     page_gap: 
-    previous_label: 
+    previous_label: "← Anterior"
