@@ -47,6 +47,7 @@ module TMDb
         'sv' => 'sv-SE',
         'ta' => 'ta-IN',
         'te' => 'te-IN',
+        'tl' => 'tl-PH',
         'th' => 'th-TH',
         'tr' => 'tr-TR',
         'uk' => 'uk-UA',
