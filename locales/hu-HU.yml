@@ -66,7 +66,7 @@ hu-HU:
   Approve: Jóváhagy
   Approved?: Jóváhagyva?
   Apps: Alkalmazások
-  Archived Databases: 
+  Archived Databases: Archívált adatbázisok
   Are you sure?: Biztos vagy benne?
   Attributes: Tulajdonságok
   Auto: Automatikus
@@ -561,7 +561,7 @@ hu-HU:
         filters:
           status:
             Bounce: 
-            Complaint: 
+            Complaint: Panasz
             Delivery: Kézbesített
             Unsubscribed: Leiratkozott
             status: Állapot
@@ -579,21 +579,23 @@ hu-HU:
             Messages: Üzenetek
             type: Típus
         notifications: Értesítések
-        number_of_items: 
+        number_of_items:
+          one: "%{count} Értesítés"
+          other: "%{count} Értesítés"
       page_title:
         recent_events: 
       recent: 
     export:
       csv_explanation: 
-      export: 
-      export_csv: 
+      export: Exportálás
+      export_csv: CSV exportálása
     favorites:
       my_favorites:
         logged_in: Kedvenceim
         public: "%{username} kedvencei"
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Kedvenceim
+        public: "%{username} kedvencei"
     filter_by: 'Szűrés/Rendezés:'
     filters:
       date_added: Hozzáadva
@@ -614,8 +616,8 @@ hu-HU:
         logged_in: Még nem készítettél egy listát sem.
         public: "%{username} felhasználónak nincs publikus listája."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Listáim
+        public: "%{username} listái"
     member_since: "%{date} óta tag"
     navigation:
       discussions: Beszélgetések
@@ -646,8 +648,8 @@ hu-HU:
       total_ratings: Összes értékelés
       upcoming_watchlist: Legközelebbi premier a megnézendők listájáról
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Profilom
+      public: "%{username} profilja"
     ratings_reviews:
       my_ratings:
         logged_in: Értékeléseim
@@ -703,7 +705,7 @@ hu-HU:
     biography: Életrajz
     certification: Tanúsítvány
     external_href: URL
-    homepage: 
+    homepage: Főoldal
     iso_3166_1: Ország
     iso_639_1: Nyelv
     normalized_email: E-mail
