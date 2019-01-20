@@ -670,7 +670,9 @@ es-ES:
       import_imdb_ratings: Puedes importar tus votos de IMDb.
       tip: Tip
     watchlist:
-      my_watchlist: Mi lista de pendientes
+      my_watchlist:
+        logged_in: Mi lista de pendientes
+        public: 
       next_month: Próximo mes
       no_upcoming_movies:
         one: No hay próximas películas en tu lista de pendientes. Sin embargo, hay %{count} elementos en tu lista de pendientes
@@ -3299,6 +3301,7 @@ es-ES:
       sharing_settings: Opciones de compartir
       watchlist:
         remove_when_rated: "¿Borrar elementos automáticamente cuando estén calificados?"
+        share_publicly: 
         watchlist_settings: Opciones de Lista de pendientes
     social:
       connected_table:

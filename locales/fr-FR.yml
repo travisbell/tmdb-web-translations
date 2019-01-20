@@ -268,7 +268,7 @@ fr-FR:
   Moderator: Modérateur
   More Info: Plus d'informations
   Most Popular: Les plus populaires
-  Move Credits: 
+  Move Credits: Déplacer des crédits
   Move TV Credits: Déplacer le générique TV
   Movie Data: Données du film
   Movie Recommendations: Films recommandés
@@ -670,7 +670,9 @@ fr-FR:
       import_imdb_ratings: Vous pouvez importez vos note depuis IMDb.
       tip: Astuce
     watchlist:
-      my_watchlist: Ma liste de suivi
+      my_watchlist:
+        logged_in: Ma liste de suivi
+        public: 
       next_month: Le mois prochain
       no_upcoming_movies:
         one: Il n'y a aucun film à venir dans votre liste de suivi. Il y néanmoins, %{count} film dans votre liste de suivi.
@@ -866,9 +868,9 @@ fr-FR:
         '5':
           meaning: Seuls les plus de 15 ans sont admis. Aucune personne de moins de 15 ans ne peut louer ou acheter un VHS, un DVD, un disque Blu-ray, un UMD ou un jeu classifié 15, ni regarder un film au cinéma avec cette évaluation. Les films de cette catégorie peuvent contenir des thèmes pour adultes, des drogues dures, des mots grossiers, ainsi que l'utilisation limitée de mots très grossiers, une violence et des références sexuelles fortes, ainsi que de la nudité sans détails graphiques. L'activité sexuelle peut être dépeinte mais sans détail important. La violence sexuelle peut être démontrée si elle est discrète et justifiée par le contexte.
         '6':
-          meaning: 
+          meaning: Seuls les adultes sont admis. Aucune personne de moins de 18 ans ne peut louer ou acheter un VHS, un DVD, un disque Blu-ray, un UMD ou un jeu classé 18, ni regarder un film au cinéma bénéficiant de cette note. Les films de cette catégorie n'ont pas de limitation concernant le langage grossier utilisé. Les drogues dures sont généralement autorisées, de même que les références explicites sur le sexe ainsi que l’activité sexuelle détaillée. Des scènes de sexe réel et violent peuvent être autorisées si le contexte le justifie. Une violence très forte, sanglante et / ou sadique est généralement autorisée. Une violence sexuelle forte est autorisée sauf si elle est érotique ou excessivement graphique.
         '7':
-          meaning: 
+          meaning: 'Ne peuvent être montrés que dans des cinémas pour adultes autorisés ou vendus dans des sex-shops autorisés et uniquement aux adultes de 18 ans et plus. Les films de cette catégorie sont toujours de la pornographie «dure», définie comme un matériel destiné à la stimulation sexuelle et contenant des images claires d''activités sexuelles réelles, de puissants contenus fétichistes, des images animées explicites ou la vue de certains actes tels que la triple pénétration simultanée et la pratique du baiser au foutre (snowballing). Il reste une gamme de contenus qui sont souvent coupés dans le classement R18: les images fortes de blessures dans des œuvres de fessée ou BDSM, jeux sexuels avec l''urine, scènes suggérant un inceste même si elles sont mises en scène, références au sexe avec un mineur ou un enfant en développement sexuel et le comportement agressif tel que la coupe de cheveux ou cracher sur un artiste ne sont pas autorisés. Plus de coupes sont demandées dans cette catégorie que toute autre catégorie.'
       HU:
         '0':
           meaning: |2-
@@ -890,11 +892,11 @@ fr-FR:
           meaning: interdit au moins de 18 ans, réservé aux adultes.
       IN:
         '0':
-          meaning: 
+          meaning: Exposition publique sans restriction dans toute l'Inde, adaptée à tous les groupes d'âge. Les films de cette catégorie ne doivent pas déranger les enfants de plus de 4 ans. Ces films peuvent contenir des thèmes éducatifs, sociaux ou axés sur la famille. Les films de cette catégorie peuvent également contenir de la violence fantasmatique et / ou un langage légèrement vulgaire.
         '1':
-          meaning: 
+          meaning: Tous les âges sont admis, mais il est conseillé que les enfants de moins de 12 ans soient accompagnés par un parent car le thème ou le contenu peut être considéré comme intense ou inapproprié pour les jeunes enfants. Les films de cette catégorie peuvent contenir des thèmes matures, des références sexuelles, des scènes de sexe légères, de la violence avec de brèves images sanglantes et / ou un usage peu fréquent d'un langage grossier.
         '2':
-          meaning: 
+          meaning: Réservé aux adultes (18 ans et plus). Aucune personne de moins de 18 ans ne peut acheter / louer un DVD, une VHS, un UMD ou regarder un film au cinéma avec ce classement. Les films de cette catégorie peuvent contenir des thèmes pour adultes / troublants, un langage brutal fréquent, une violence brutale et sanglante, des scènes de sexe marquantes et / ou des scènes de toxicomanie jugées inappropriées pour les mineurs.
       IT:
         '0':
           meaning: Pas d'information sur la note.
@@ -908,9 +910,9 @@ fr-FR:
         '1':
           meaning: Films tout public
         '2':
-          meaning: 
+          meaning: Films pour téléspectateurs à partir de 7 ans. Les téléspectateurs de moins de 7 ans doivent être accompagnés obligatoirement d'un adulte.
         '3':
-          meaning: 
+          meaning: Films pour téléspectateurs à partir de 13 ans. Les téléspectateurs âgés de 7 à 13 ans ne sont autorisés à visionner qu’avec leurs accompagnateurs adultes.
         '4':
           meaning: Films pour les spectateurs d'au moins 16 ans.
         '5':
@@ -919,17 +921,17 @@ fr-FR:
         '0':
           meaning: Pas d'information sur les restrictions d'âge.
         '1':
-          meaning: 
+          meaning: '(Umum: "Public général") - Pour un public général. (Utilisé par la majorité des films projetés en Malaisie jusqu''en 2008, mais uniquement pour la télévision, notamment RTM.)'
         '2':
-          meaning: 
+          meaning: '(Penjaga 13: "Surveillance parentale 13") - Les enfants de moins de 13 ans ne sont pas admis s''ils ne sont pas accompagnés d''un adulte. (Introduit en 2006, c''est devenu le système de classification cinématographique officiel de la Malaisie en 2008. La classification "PG-13" a été modifiée en "P13" à partir d''avril 2012 pour mettre l''accent sur l''utilisation de la langue malaise au lieu de l''anglais.) Les scènes de baisers passionnés ne sont pas autorisées en vertu d''un classement P13.'
         '3':
-          meaning: 
+          meaning: '(Seram, Ganas: "Violence graphique et horreur / terreur") - Le film peut contenir une violence intense, des scènes sanglantes ou une horreur / terreur que les gens peuvent trouver choquant.'
         '4':
-          meaning: 
+          meaning: '(Seks: "Contenu sexuel") - Le film peut contenir des scènes de sexe, de la nudité ou des dialogues / références sexuels que les gens peuvent trouver choquants (même si les scènes de sexe et de nudité sont strictement censurées par la LPF.)'
         '5':
-          meaning: 
+          meaning: '(Politik, Agama: "Eléments religieux ou politiques forts") - Le film peut contenir des éléments comprenant des aspects religieux, sociaux ou politiques que certaines personnes peuvent trouver choquants. Rarement utilisé.'
         '6':
-          meaning: 
+          meaning: '(Pelbagai: "Divers") - Le film peut contenir une violence intense, sanglante, horreur / terreur, scènes de sexe, nudité, dialogues / références sexuels, aspects religieux, sociaux ou politiques que certaines personnes peuvent trouver choquants. La majorité des films pour 18 ans et plus utilisent cette classification. Par exemple, un film comportant des scènes de sexe et de fortes violences sera classé dans la catégorie 18PL, bien que des scènes de sexe et de nudité soient strictement censurées par la LPF.'
       NL:
         '1':
           meaning: Tout âge
@@ -1002,7 +1004,7 @@ fr-FR:
         '7':
           meaning: Admis pour les personne de 18 ans et plus.
         '8':
-          meaning: 
+          meaning: Note spéciale complémentaire à la note d'âge M/18 indiquant la pornographie.
       RU:
         '1':
           meaning: Tout public.
@@ -1022,44 +1024,44 @@ fr-FR:
         '1':
           meaning: Tout ages.
         '2':
-          meaning: 
+          meaning: Les enfants de moins de 7 ans accompagnés d'un adulte (une personne de 18 ans ou plus) sont admis aux films classés pour des enfants à partir de 7 ans.
         '3':
-          meaning: 
+          meaning: Les enfants de plus de 7 ans accompagnés d'un adulte sont admis aux films classés pour des enfants à partir de 11 ans.
         '4':
-          meaning: 
+          meaning: Les enfants de plus de 7 ans accompagnés d'un adulte sont admis aux films classés pour enfants de moins de 11 ans. Mis à jour le 1 mars 2017.
       US:
         '0':
           meaning: |2-
 
             aucune information d'évaluation
         '1':
-          meaning: 
+          meaning: Tous les âges sont admis. Il n'y a pas de contenu qui pourrait être répréhensible pour la plupart des parents. C’est l’un des deux seuls classements remontant à 1968 qui existe toujours.
         '2':
-          meaning: 
+          meaning: Certains films peuvent ne pas convenir aux enfants de moins de 10 ans. Ces films peuvent contenir un langage familier, un humour grossier / suggestif, des moments effrayants et / ou de la violence. Aucun contenu de drogue n'est présent. Il y a quelques exceptions à cette règle. Quelques insultes raciales peuvent également être entendues.
         '3':
-          meaning: 
+          meaning: Certains films peuvent ne pas convenir aux enfants de moins de 13 ans. Les films ainsi évalués peuvent contenir des contenus sexuels, des scènes de nudité brève ou partielle, un langage vulgaire et des insinuations, de l’humour, des thèmes matures, des thèmes politiques, de la terreur et / ou une violence intense. Cependant, l'effusion de sang est rarement présente. C'est la note minimale dans laquelle le contenu de drogue est présent.
         '4':
-          meaning: 
+          meaning: Les enfants de moins de 17 ans nécessitent un parent accompagnateur ou un tuteur adulte de 21 ans ou plus. Le parent / tuteur est tenu de rester avec l'enfant de moins de 17 ans tout au long du film, même si le parent l'autorise à voir le film seul. Ces films peuvent contenir de grosses profanations, une sexualité graphique, de la nudité, une forte violence, de l'horreur, du gore et une forte consommation de drogue. Un film classé R pour blasphème a souvent un langage plus sévère ou plus fréquent que ne le permet la classification PG-13. Un film classé R peut avoir plus de sang, de gore, d’usage de drogue, de nudité ou de sexualité graphique qu’un film PG-13 n’admettrait.
         '5':
-          meaning: 
+          meaning: Ces films contiennent une violence graphique excessive, un sexe intense ou explicite, un comportement dépravé et odieux, un abus de drogue explicite, un langage vulgaire, une nudité explicite ou tout autre élément que la plupart des parents jugeraient inacceptable que leurs enfants et leurs adolescents puissent les visionner. NC-17 ne signifie pas nécessairement obscène ou pornographique dans le sens souvent accepté ou juridique de ces mots.
     tv_series:
       AU:
         '1':
-          meaning: 
+          meaning: Cette programmation est destinée aux jeunes enfants de 2 à 11 ans; Les stations commerciales doivent diffuser au moins 30 minutes de contenu classifié P tous les jours de la semaine et les fins de semaine. Aucune publicité ne peut être affichée pendant les programmes classés P.
         '2':
-          meaning: 
+          meaning: Cette programmation est destinée aux enfants âgés de 5 à 14 ans; Les stations commerciales doivent diffuser au moins 30 minutes de contenu classifié C tous les jours de la semaine, entre 7 h et 8 h ou entre 16 h et 20h30. Deux heures et demie supplémentaires par semaine doivent également être diffusées soit dans ces plages horaires, soit entre 19h00 et 20h30. les week-ends et les vacances scolaires, pour un total de cinq heures par semaine (260 heures en moyenne sur une année). Le contenu classé C est soumis à certaines restrictions et limitations en matière de publicité (généralement cinq minutes maximum par période de 30 minutes ou sept minutes, promotions et annonces de la communauté comprises).
         '3':
-          meaning: 
+          meaning: Pour exposition générale; tous les âges sont autorisés à regarder des émissions ayant cette classification.
         '4':
-          meaning: 
+          meaning: La surveillance parentale est recommandée pour les jeunes téléspectateurs; Le contenu classifié PG peut être diffusé à tout moment sur des chaînes exclusivement numériques. Sinon, il ne devrait être diffusé qu'entre 8h30 et 16h00 et entre 19h00 et 6h00 du matin en semaine et entre 10h00 et 6h00 le week-end.
         '5':
-          meaning: 
+          meaning: Recommandé pour un public adulte; Le contenu classifié M ne peut être diffusé qu'entre 20h30 et 5h00 du matin tous les jours, et entre 12h00 et 15h00 les jours d'école.
         '6':
-          meaning: 
+          meaning: Ne convient pas aux enfants et aux adolescents de moins de 15 ans; Les émissions classées MA15 + ne peuvent être diffusées qu'entre 21h00 et 5 heures du matin, n'importe quel jour. Le conseil du consommateur est obligatoire. Certains films sur DVD / Blu-ray classés R18 + sont souvent réédités sur des chaînes de télévision / câblées gratuites pour obtenir une classification MA15 + plus "appropriée". Certains films classés R18 sur DVD ont depuis été diffusés sur la télévision australienne avec le classement MA15 +.
         '7':
-          meaning: 
+          meaning: Ne convient pas aux enfants et aux adolescents de moins de 15 ans; C’est la même chose que la note MA15 +, sauf que "AV" signifie "violence chez les adultes", ce qui signifie que tout ce qui est classé "MA15 +" avec l’avis du consommateur "Violence fréquente" ou "violence forte" deviendra automatiquement AV15 + (avec le même message de conseils aux consommateurs.) La classification AV est toujours autorisée à dépasser tout contenu MA15 +, en particulier - "Violence". Le contenu AV15 + ne peut être diffusé qu'entre 21h30. et 5 heures du matin tous les jours. Le conseil du consommateur est obligatoire.
         '8':
-          meaning: 
+          meaning: Interdit aux enfants de moins de 18 ans; ceci est limité aux "Paiements à la carte" pour adultes VC 196 et 197. Le contenu peut inclure des violences graphiques, des situations sexuelles, un langage grossier et une consommation explicite de drogue.
       BR:
         '0':
           meaning: 'Contenu adapté à tous les téléspectateurs '
@@ -1075,24 +1077,24 @@ fr-FR:
           meaning: Contenu adapté à des spectateurs de plus de 18 ans.
       CA:
         '0':
-          meaning: 
+          meaning: Les émissions exemptes de classification (telles que les programmes d’actualités et de sport) n’afficheront aucune classification à l’écran.
         '1':
-          meaning: 
+          meaning: Programmation adaptée aux enfants de 2 à 7 ans. Aucune profanation ou contenu sexuel de tout niveau autorisé. Contient peu de violence.
         '2':
-          meaning: 
+          meaning: Convient aux enfants de 8 ans et plus. La violence de bas niveau et l'horreur imaginaire est autorisée. Aucun langage grossier n'est autorisé, mais un langage "socialement offensant et discriminatoire" est parfois autorisé s'il est utilisé dans le contexte de l'histoire. Aucun contenu sexuel de tout niveau autorisé.
         '3':
-          meaning: 
+          meaning: Convient au grand public. Programmation adaptée à toute la famille avec une violence modérée, un langage grossier et / ou un langage censuré.
         '4':
-          meaning: 
+          meaning: Encadrement parental. La violence modérée et le blasphème modéré sont autorisés, de même que de brèves références à la nudité et à la sexualité si elles sont importantes pour le contexte de l'histoire.
         '5':
-          meaning: 
+          meaning: Programmation destinée aux téléspectateurs âgés de 14 ans et plus. Peut contenir une violence et une profanation fortes, ainsi que des représentations d'activités sexuelles, dans la mesure où elles s'inscrivent dans le contexte d'une histoire.
         '6':
-          meaning: 
+          meaning: Programmation destinée aux téléspectateurs âgés de 18 ans et plus. Peut contenir une violence explicite et une activité sexuelle. Les émissions ayant cette classification ne peuvent pas être diffusées au delà de la plage horaire de 21h00 à 6h00 du matin.
       CA-QC:
         '0':
           meaning: Aucune information de classification.
         '1':
-          meaning: 
+          meaning: Convient à tous les âges et doit contenir peu ou pas de violence et peu ou pas de contenu sexuel.
         '2':
           meaning: 'Approprié pour les enfants de 8 ans et plus, peut contenir une légère violence mais pas de situation ou de langage à caractère sexuel. '
         '3':
@@ -2910,7 +2912,7 @@ fr-FR:
           no_records: Aucun diffuseur n'a été ajouté.
           none_found: Aucun diffuseur n'a été trouvé. Voulez-vous le créer ?
         regular_cast:
-          no_records: 
+          no_records: Aucun membre régulier de la distribution n'a été ajouté.
           no_season: Aucune saison existe ! Une saison est requise pour ajouter un acteur régulier.
         runtime:
           add_it: Ajouter une nouvelle durée ?
@@ -3315,6 +3317,7 @@ fr-FR:
       sharing_settings: Paramètres de partage
       watchlist:
         remove_when_rated: Supprimer automatiquement les éléments lors qu'ils sont notés ?
+        share_publicly: 
         watchlist_settings: Paramètres de la liste de suivi
     social:
       connected_table:

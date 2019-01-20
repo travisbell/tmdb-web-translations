@@ -670,7 +670,9 @@ ko-KR:
       import_imdb_ratings: IMDB에 기록된 회원님의 평가를 불러올 수 있어요.
       tip: 팁
     watchlist:
-      my_watchlist: 나의 '보고싶어요' 목록
+      my_watchlist:
+        logged_in: 나의 '보고싶어요' 목록
+        public: 
       next_month: 다음 달
       no_upcoming_movies:
         one: 회원님이 '보고싶어요'한 영화 중 개봉 예정인 작품은 없어요. 참고로, 회원님의 '보고싶어요'한 영화는 %{count} 편이에요.
@@ -3219,6 +3221,7 @@ ko-KR:
       sharing_settings: 공유 설정
       watchlist:
         remove_when_rated: 평가 후 자동으로 지워지게 하시겠습니까?
+        share_publicly: 
         watchlist_settings: 보고싶어요 목록 설정
     social:
       connected_table:

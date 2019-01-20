@@ -674,7 +674,9 @@ bg-BG:
       import_imdb_ratings: Можете да внесете вашите рейтинги от IMDb.
       tip: Съвет
     watchlist:
-      my_watchlist: Моят списък за гледане
+      my_watchlist:
+        logged_in: Моят списък за гледане
+        public: 
       next_month: Следващият месец
       no_upcoming_movies:
         one: Няма предстоящи филми в списъка Ви за гледане. Но има %{count} запис в списъка ви за гледане.
@@ -3251,6 +3253,7 @@ bg-BG:
       sharing_settings: Настройки за споделяне
       watchlist:
         remove_when_rated: 
+        share_publicly: 
         watchlist_settings: 
     social:
       connected_table:

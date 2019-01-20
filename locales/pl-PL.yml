@@ -682,7 +682,9 @@ pl-PL:
       import_imdb_ratings: Możesz importować swoje oceny z IMDb.
       tip: Wskazówka
     watchlist:
-      my_watchlist: Moje obserwowane
+      my_watchlist:
+        logged_in: Moje obserwowane
+        public: 
       next_month: W przyszłym miesiącu
       no_upcoming_movies:
         few: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} filmy.
@@ -3293,6 +3295,7 @@ pl-PL:
       sharing_settings: Ustawienia udostępniania
       watchlist:
         remove_when_rated: Automatycznie usuwać elementy z listy obserwowanych po ocenieniu?
+        share_publicly: 
         watchlist_settings: Ustawienia listy obserwowanych
     social:
       connected_table:

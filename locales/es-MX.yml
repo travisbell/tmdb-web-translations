@@ -672,7 +672,9 @@ es-MX:
       import_imdb_ratings: Puedes importar tus calificaciones desde IMDb.
       tip: Consejo
     watchlist:
-      my_watchlist: Mi Lista de Seguimiento
+      my_watchlist:
+        logged_in: Mi Lista de Seguimiento
+        public: 
       next_month: Siguiente mes
       no_upcoming_movies:
         one: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
@@ -3231,6 +3233,7 @@ es-MX:
       sharing_settings: Configuración de uso compartido
       watchlist:
         remove_when_rated: "¿Remover automáticamente los elementos cuando están clasificados?"
+        share_publicly: 
         watchlist_settings: Configuración de la lista de Pendientes
     social:
       connected_table:

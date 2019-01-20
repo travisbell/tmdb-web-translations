@@ -670,7 +670,9 @@ it-IT:
       import_imdb_ratings: Puoi importare le tue valutazioni da IMDb.
       tip: Suggerimento
     watchlist:
-      my_watchlist: La Mia Watchlist
+      my_watchlist:
+        logged_in: La Mia Watchlist
+        public: 
       next_month: Il mese prossimo
       no_upcoming_movies:
         one: Non ci sono film in uscita nella tua watchlist. C'è tuttavia, %{count} elemento nella tua watchlist.
@@ -3285,6 +3287,7 @@ it-IT:
       sharing_settings: Impostazioni di Condivisione
       watchlist:
         remove_when_rated: Rimuovere automaticamente gli elementi quando sono valutati?
+        share_publicly: 
         watchlist_settings: Impostazioni Watchlist
     social:
       connected_table:

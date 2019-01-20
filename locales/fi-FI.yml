@@ -670,7 +670,9 @@ fi-FI:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
     watchlist:
-      my_watchlist: Oma seurantalista
+      my_watchlist:
+        logged_in: Oma seurantalista
+        public: 
       next_month: Ensi kuussa
       no_upcoming_movies:
         one: Seurantalistallasi ei ole tulevia elokuvia. Seurantalistallasi on kuitenkin %{count} nimikettä.
@@ -3293,6 +3295,7 @@ fi-FI:
       sharing_settings: Jakoasetukset
       watchlist:
         remove_when_rated: Poista pisteytetyt nimikkeet automaattisesti?
+        share_publicly: 
         watchlist_settings: Seurantalistan asetukset
     social:
       connected_table:

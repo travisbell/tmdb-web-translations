@@ -670,7 +670,9 @@ gl-ES:
       import_imdb_ratings: Podes importar as túas puntuacións dende IMDb.
       tip: Consello
     watchlist:
-      my_watchlist: A miña lista de seguimento
+      my_watchlist:
+        logged_in: A miña lista de seguimento
+        public: 
       next_month: Seguinte mes
       no_upcoming_movies:
         one: Non hai próximos filmes na túa lista de seguimento. Porén hai %{count} ítems na devandita lista.
@@ -3294,6 +3296,7 @@ gl-ES:
       sharing_settings: Configuración de comparticións
       watchlist:
         remove_when_rated: Eliminar elementos automaticamente logo de varolalos?
+        share_publicly: 
         watchlist_settings: 'Configuración da lista de seguimento '
     social:
       connected_table:

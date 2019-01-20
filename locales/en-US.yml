@@ -670,7 +670,9 @@ en-US:
       import_imdb_ratings: You can import your ratings from IMDb.
       tip: Tip
     watchlist:
-      my_watchlist: My Watchlist
+      my_watchlist:
+        logged_in: My Watchlist
+        public: "%{username}'s Watchlist"
       next_month: Next month
       no_upcoming_movies:
         one: There are no upcoming movies on your watchlist. There is however, %{count} item in your watchlist.
@@ -3302,6 +3304,7 @@ en-US:
       sharing_settings: Sharing Settings
       watchlist:
         remove_when_rated: Automatically remove items when they're rated?
+        share_publicly: Share this list publicly?
         watchlist_settings: Watchlist Settings
     social:
       connected_table:
