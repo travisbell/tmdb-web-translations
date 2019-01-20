@@ -1,6 +1,6 @@
 sl-SI:
   "-": "-"
-  3rd Party Applications: 
+  3rd Party Applications: Aplikacije drugih ponudnikov
   API: API
   API Access Token: API Dostopni žeton
   API Details: API Podrobnosti
@@ -10,19 +10,19 @@ sl-SI:
   API Stats: 
   API Terms: 
   API Updates: 
-  About: 
-  About TMDb: O TMDb
+  About: Vizitka
+  About TMDb: Vizitka TMDb
   About this list: O tem seznamu
-  Accept: 
-  Accept API Terms: 
+  Accept: Sprejmem
+  Accept API Terms: Sprejem pogojev za API
   Account: Račun
-  Account Filtering: 
+  Account Filtering: Filtriranje računa
   Add Alternative Name: 
-  Add Alternative Title: 
-  Add Backdrop: 
-  Add Content Rating: 
-  Add Creator: 
-  Add Data & Content: 
+  Add Alternative Title: Dodajte alternativen naslov
+  Add Backdrop: Dodajte ozadje
+  Add Content Rating: Dodajte oceno vsebine
+  Add Creator: Dodajte kreatorja
+  Add Data & Content: Dodajte podatke in vsebine
   Add Item: 
   Add Missing Cast & Crew: Dodaj manjkajočega igralca ali osebje
   Add Network: 
@@ -37,9 +37,9 @@ sl-SI:
   Add To Every Season?: 
   Add Video: Dodaj video
   Add YouTube Video: Dodaj YouTube video
-  Add a New Cast Member: 
-  Add a New Crew Member: 
-  Add a New Guest Star: 
+  Add a New Cast Member: Dodajte novega člana zasedbe
+  Add a New Crew Member: Dodajte novega člana ekipe
+  Add a New Guest Star: Dodajte novega gostujočega zvezdnika
   Add to Watchlist: 
   Add to list: Dodaj na seznam
   Add to your favorite list: Dodaj na seznam priljubljenih
@@ -512,158 +512,166 @@ sl-SI:
   Your rating: 
   Zip Code: 
   account_drop_down:
-    discussions: 
+    discussions: Razprave
     edit_profile: Uredi profil
     lists: Seznami
     login: Prijava
     logout: Odjava
-    messages: 
-    profile_and_settings: 
-    ratings: 
+    messages: Sporočila
+    profile_and_settings: Profil in nastavitve
+    ratings: Ocene
     settings: Nastavitve
-    sign_up: 
-    view_profile: 
-    watchlist: 
+    sign_up: Registracija
+    view_profile: Ogled profila
+    watchlist: Spremljano
   accounts:
     activity:
       activity: Aktivnosti
       legend:
         added: Dodano
-        created: 
-        deleted: Izbrisan
-        updated: Posodobljen
+        created: Ustvarjeno
+        deleted: Izbrisano
+        updated: Posodobljeno
       media_types:
         movies: Filmi
-        others: Drugo
-        people: Ljudje
+        others: Ostalo
+        people: Osebe
         tv: TV
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moja nedavna aktivnost
+        public: Nedavna aktivnost %{username}
       table:
-        action: 
+        action: Akcija
         edit: Uredi
         key: Ključ
         language_abbreviation: Jezik
-    average_movie_score: 
-    average_tv_score: 
+    average_movie_score: Povprečna<br>Filmska ocena
+    average_tv_score: Povprečna<br>TV-ocena
     discussions:
-      my_active_boards: 
-      my_discussions: 
-      not_watching: 
+      my_active_boards: 'Moji aktivni forumi '
+      my_discussions: Moje razprave
+      not_watching: Ne spremljate nobene razprave.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje razprave
+        public: Razprave uporabnika %{username}
     events:
-      all: 
+      all: Vsi
       emails:
-        emails: 
+        emails: E-pošta
         filters:
           status:
-            Bounce: 
-            Complaint: 
-            Delivery: 
-            Unsubscribed: 
-            status: 
-        number_of_items: 
-      events: 
+            Bounce: Odbito
+            Complaint: Ustrezno
+            Delivery: Dostavljeno
+            Unsubscribed: Odjavljeno
+            status: Status
+        number_of_items:
+          few: "%{count} sporočila"
+          one: "%{count} sporočilo"
+          other: "%{count} sporočil"
+          two: "%{count} sporočili"
+      events: Dogodki
       notifications:
         filters:
           type:
-            Discussion: 
-            General: 
-            List Import: 
-            Mention: 
-            Messages: 
-            type: 
-        notifications: 
-        number_of_items: 
+            Discussion: Razprava
+            General: Splošno
+            List Import: Uvoz seznama
+            Mention: Omemba
+            Messages: Sporočila
+            type: Tip
+        notifications: Obvestila
+        number_of_items:
+          few: "%{count} obvestila"
+          one: "%{count} obcestilo"
+          other: "%{count} obvestil"
+          two: "%{count} obvestili"
       page_title:
-        recent_events: 
-      recent: 
+        recent_events: Nedavni dogodki
+      recent: Nedavni
     export:
-      csv_explanation: 
-      export: 
-      export_csv: 
+      csv_explanation: Če želite izvoz kopije tega seznama v datoteki CSV, kliknite spodnji gumb "Izvozi". Ustvarili bomo izvoz in ga posredovali na vaš e-poštni naslov. Glede na velikost vašega seznama, lahko izvajanje traja nekaj minut.
+      export: Izvozi
+      export_csv: Izvozi CSV
     favorites:
       my_favorites:
-        logged_in: 
-        public: 
+        logged_in: Moje priljubljene
+        public: Priljubljene uporabnika %{username}
       page_title:
-        page_owner: 
-        public: 
-    filter_by: 
+        page_owner: Moje priljubljene
+        public: Priljubljene uporabnika %{username}
+    filter_by: 'Filtriraj po:'
     filters:
-      date_added: 
-      date_rated: Datum ocene
-      my_rating: Moja ocena
-      popularity: Popularnost
+      date_added: Datumu dodajanja
+      date_rated: Datumu ocene
+      my_rating: Mojih ocenah
+      popularity: Priljubljenosti
       rating: Ocena
-      release_date: Datum izdaje
-      score: 
-      upcoming: Prihajajoči
+      release_date: Datumu izdaje
+      score: Rezultatu
+      upcoming: Napovedanih
     lists:
-      create_list: 
-      last_updated: 
+      create_list: Ustvari seznam
+      last_updated: Posodobljeno
       my_lists:
-        logged_in: 
-        public: Seznami od %{username}
+        logged_in: Moji seznami
+        public: Seznami uporabnika %{username}
       no_lists:
         logged_in: Niste še ustvarili nobenih seznamov.
         public: "%{username} še nima javnih seznamov."
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moji seznami
+        public: Seznami uporabnika %{username}
     member_since: Član od %{date}
     navigation:
       discussions: Pogovori
       favorites: Priljubljeno
       lists: Seznami
       overview: Pregled
-      ratings_reviews: Ocene & Mnenja
-      recommendations: 
-      watchlist: 
-    order: 
+      ratings_reviews: Ocene in mnenja
+      recommendations: Priporočila
+      watchlist: Spremljano
+    order: 'Razvrsti:'
     overview:
-      30_day_activity: 
+      30_day_activity: 30-dnevna aktivnost
       empty_recent_activity:
-        logged_in: 
-        public: 
+        logged_in: Nimate nedavnih urejanj.
+        public: Uporabnik %{username} nima nedavnih urejanj.
       empty_upcoming_watchlist:
-        logged_in: 
+        logged_in: Med spremljanimi ni novih napovedi.
       empty_watched_genres:
-        logged_in: 
-        public: 
-      goto_discussions: 
-      goto_watchlist: 
-      most_watched_genres: 
-      rating_overview: 
-      recent_activity: 
-      recent_discussions: 
-      total_edits: 
-      total_ratings: 
-      upcoming_watchlist: 
+        logged_in: Niste zabeležili nobenih filmov ali TV-oddaj.
+        public: Uporabnik %{username} ni zabeležil nobenih filmov ali TV-oddaj.
+      goto_discussions: Obišči razprave
+      goto_watchlist: Obišči spremljano
+      most_watched_genres: Nabolj gledani žanri
+      rating_overview: Pregled ocen
+      recent_activity: Nedavna aktivnost
+      recent_discussions: Nedavne razprave
+      total_edits: Skupno urejanj
+      total_ratings: Skupno ocen
+      upcoming_watchlist: Napovedano iz spremljanih
     page_title:
-      page_owner: 
-      public: 
+      page_owner: Moj profil
+      public: Prifil uporabnika %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Moje ocene
-        public: Ocene od %{username}
+        public: Ocene uporabnika %{username}
       my_reviews:
-        logged_in: Moja mnenja
-        public: Mnenja od %{username}
+        logged_in: Moje recenzije
+        public: Recenzije uporabnika %{username}
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Moje ocene in recenzije
+        public: Ocene in recenzije uporabnika %{username}
       ratings_by_year: Ocene po letih
     recommendations:
       my_recommendations: Moja priporočila
-      no_recommendations: Nimamo dovolj podatkov, da bi vam lahko kaj priporočili.
-      no_recommendations_helper: 
-      page_title: 
+      no_recommendations: Nimamo dovolj podatkov, da bi vam lahko priporočali karkoli.
+      no_recommendations_helper: Dodajte še nekaj priljubljenih (več jih dodate, tem bolje) in ob ponovnem obisku preverite, kako smo se odrezali.
+      page_title: Priporočila
     tips:
-      import_imdb_ratings: 
+      import_imdb_ratings: Svoje ocene lahko uvozite iz IMDb.
       tip: Namig
     watchlist:
       my_watchlist:

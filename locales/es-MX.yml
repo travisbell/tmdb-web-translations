@@ -2,11 +2,11 @@ es-MX:
   "-": "-"
   3rd Party Applications: Aplicaciones de Terceros
   API: API
-  API Access Token: 
+  API Access Token: Token de Acceso a la API
   API Details: Detalles del API
   API Key: Llave API
   API Libraries: Librerías API
-  API Read Access Token: 
+  API Read Access Token: Token de acceso de lectura a la API
   API Stats: API Estadística
   API Terms: Términos de API
   API Updates: Actualizaciones de API
@@ -79,7 +79,7 @@ es-MX:
   Birthday: Cumpleaños
   Blocked Users: Usuarios Bloqueados
   Blog: Blog
-  Branding: 
+  Branding: Marca
   Budget: Presupuesto
   Cancel: Cancelar
   Cast: Reparto
@@ -674,7 +674,7 @@ es-MX:
     watchlist:
       my_watchlist:
         logged_in: Mi Lista de Seguimiento
-        public: 
+        public: "%{username} Lista"
       next_month: Siguiente mes
       no_upcoming_movies:
         one: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
@@ -691,7 +691,7 @@ es-MX:
   add_to_list: Añadir %{media_title} a una de tus listas...
   already_translated_in: "%{page_title} ya fue traducido en los siguientes lenguajes..."
   api_session:
-    3rd_party_request: 
+    3rd_party_request: Solicitud de autenticación de terceros
     approved_session: Has aprobado a %{application_name}. Puedes cerrar esta ventana.
     continue: SI deseas continuar, haz clic en el botón de Aprobar. De lo contrario, cierra esta ventana.
     request_token_approval: "{{APP}} está pidiendo permiso para leer y escribir data a tu nombre. Esto es necesario si quieres hacer cosas como mantener tus listas o calificar películas fuera de TMDb."
@@ -700,7 +700,7 @@ es-MX:
         message: Ha concedido permisos de lectura y escritura a <strong>%{application_name}</strong>. Ahora puede regresar a la aplicación y cerrar esta ventana. Puede revocar este acceso en cualquier momento ingresando a la sección de Ajustes de su cuenta y luego a "Aplicaciones Conectadas".
         name: Autenticación Concedida
       denied:
-        message: 
+        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si esto fue un error, o si desea reiniciar el proceso de autenticación, simplemente vuelva a la aplicación y solicite nuevamente el permiso.</p>"
         name: Autenticación Denegada
       invalid_request_token:
         message: El token de acceso que ha ingresado es inválido. Intente creando uno nuevo y asegurese de haberlo copiado correctamente. Si continúa teniendo problemas, contacte al desarrollador de la aplicación que está usando.
@@ -736,7 +736,7 @@ es-MX:
     movies:
       AU:
         '1':
-          meaning: 
+          meaning: Exento de clasificación. Las películas que están exentas de la clasificación no deben contener material polémico (es decir, material que normalmente se calificará como M o superior).
         '2':
           meaning: General. El contenido es de bajo impacto.
         '3':
@@ -750,7 +750,7 @@ es-MX:
         '7':
           meaning: Para mayores de 18 años. Films con esta clasificación poseen contenido pornográfico. Films clasificados como X18+ tienen prohibida su venta o alquiler en todos los estados de Australia y solo estan legalmente disponibles en el Territorio de la Capital Australiana y Territorios del Norte. Sin embargo, importar material clasificaco como X18+ de estos dos territorios a cualquier estado Australiano es legal. Contenido sexual explícito.
         '8':
-          meaning: 
+          meaning: Clasificación rechazada. Prohibió la venta o alquiler en Australia; en general, también se aplica a la importación (si es inspeccionado y es sospechoso para la Aduana). La visualización privada de Internet no se ha hecho cumplir y los intentos de censurar legalmente dicho material en línea han generado controversia. Las películas se clasifican como RC si su contenido supera las pautas. El contenido es muy alto en impacto.
       BG:
         '1':
           meaning: Recomendado para niños.
@@ -764,9 +764,9 @@ es-MX:
           meaning: Prohibido a menores de 18 años.
       BR:
         '1':
-          meaning: 
+          meaning: Audiencias general. No exponer a los niños a contenidos potencialmente dañinos.
         '2':
-          meaning: 
+          meaning: No recomendado para menores de diez años. Contenido violento o lenguaje inapropiado para los niños, aunque sea de menor intensidad.
         '3':
           meaning: No recomendado para menores de 12 años. Puede contener escenas con agresión física, uso legal de drogas e insinuaciones sexuales.
         '4':
@@ -774,29 +774,29 @@ es-MX:
         '5':
           meaning: No recomendado para menores de 16 años. Puede contener escenas que incluyan producción, tráfico y/o uso ilegal de drogas, sexo híper realista, violencia sexual, aborto, tortura, mutilación, suicidio, trivialización de la violencia o pena de muerte.
         '6':
-          meaning: 
+          meaning: No recomendado para menores de dieciocho años. Escenas con sexo explícito, incesto, pedofilia, alabando el uso de drogas ilegales y la violencia con imágenes fuertes.
       CA:
         '1':
           meaning: Todas las edades.
         '2':
-          meaning: 
+          meaning: Consejo de Orientación paterna. No hay restricción de edad, pero algunos materiales pueden no ser adecuados para todos los niños.
         '3':
-          meaning: 
+          meaning: Personas menores de 14 años deben de ser acompañadas por un adulto
         '4':
-          meaning: 
+          meaning: Las personas menores de 18 años deben ir acompañadas de un adulto.
         '5':
-          meaning: 
+          meaning: Admisión restringida a personas mayores de 18 años. El único propósito de la película es la descripción de la actividad sexual explícita y / o la violencia explícita.
       CA-QC:
         '0':
-          meaning: 
+          meaning: No hay información de calificación.
         '1':
-          meaning: 
+          meaning: 'Clasificación general: Puede ser vista, alquilada o comprada por personas de todas las edades. Si una película con una calificación de "G" puede ofender las sensibilidades de un niño menor de 8 años, "No es adecuado para niños pequeños" se adjunta a la clasificación.'
         '2':
-          meaning: 
+          meaning: 'Mayor de 13 años: Los niños mayores de 13 años pueden ver, alquilar o comprar. Los niños menores de 13 años solo pueden ser admitidos si van acompañados por un adulto.'
         '3':
-          meaning: 
+          meaning: 'Mayor de 16 años: Pueden ser vistas, alquiladas o compradas solo por personas mayores de 16 años.'
         '4':
-          meaning: 
+          meaning: 'Mayor de 18 años: Solo pueden ser vistos, alquilados o comprados por adultos mayores de 18 años. Si una película contiene actividad sexual real y explícita, se agrega la leyenda "sexualidad explícita" a la clasificación, y en la industria minorista de renta o venta de películas, los propietarios de tiendas deben colocar la película en una habitación reservada para adultos.'
       DE:
         '1':
           meaning: 
