@@ -1512,7 +1512,7 @@ sr-RS:
       community_guidelines: Смернице заједнице
       discussion_category: Категорија
       for_item: 
-      message: 
+      message: Порука
       new_discussion: Нова дискусија
       subject: Тема
     no_discussions: Нема дискусија.
@@ -1538,10 +1538,10 @@ sr-RS:
       quote: Цитирај
       reopen_reply: 
       reply: Одговори
-      reply_by: 
-      reply_on_datetime: 
+      reply_by: Одговор од %{username}
+      reply_on_datetime: дана %{date} у %{time}
       report: Пријави
-      unhide: 
+      unhide: Прикажи
     report_violation: Пријави прекршај
     search:
       advanced_search: Напредна претрага
@@ -1557,7 +1557,7 @@ sr-RS:
       status: Статус
       subject: Тема
     users_in_discussion:
-      no_subscribers: 
+      no_subscribers: Нема пријављених
       users_in_discussion: Корисници у овој дискусији
     your_account: Твој налог
   dont_fallback: 
@@ -1580,10 +1580,10 @@ sr-RS:
   episode_number_name: Епизода %{episode_number}
   errors:
     images:
-      couldnt_process: 
-      not_jpeg: 
-      not_png: 
-      not_svg: 
+      couldnt_process: Нисмо могли да процесуирамо слику
+      not_jpeg: Слика није JPEG
+      not_png: Слика није PNG
+      not_svg: Слика није SVG
     locked:
       genres: 
       keywords: 
@@ -1602,7 +1602,7 @@ sr-RS:
       duplicate_episode: 
       duplicate_guest_star: 
       duplicate_regular_season_member: 
-      duplicate_season: 
+      duplicate_season: Ова сезона већ постоји.
   failed_email: Ваш e-mail није послат.
   failed_generic: Дошло је до проблема.
   failed_report: Дошло је до проблема приликом слања твоје пријаве.
@@ -1624,21 +1624,21 @@ sr-RS:
         today: Нова епизода се емитује данас
         tomorrow: Нова епизода се емитује сутра
   images:
-    confirm_delete: 
+    confirm_delete: Да ли сте сигурни да желите да обришете ову слику?
     upload_criteria:
-      '1': 
-      '2': 
+      '1': Максимална резолуција 2000x3000
+      '2': Минимална резолуција 500x750
       '3': 
-      '4': 
+      '4': Максимална резолуција 3840x2160
       '5': 
       '6': 
-      '7': 
+      '7': Минимална резолуција 1280x720
       '8': 
-      '9': 
+      '9': Минимална резолуција 300x450
       backdrops_must_meet: 
-      episode_stills_must_meet: 
-      posters_must_meet: 
-      profile_must_meet: 
+      episode_stills_must_meet: 'Епизоде морају да испоштују следеће критеријуме:'
+      posters_must_meet: 'Постери морају да испоштују следеће критеријуме:'
+      profile_must_meet: 'Профилне слике морају да испоштују следеће критеријуме:'
       read_guidelines: 
       tip: 
   invalid_aspect_ratio: Ова пропорција слике није исправна.
@@ -2578,7 +2578,7 @@ sr-RS:
   keyboard_shortcuts:
     actions:
       back_to_parent: 
-      close_window: 
+      close_window: затворити отворени прозор
       focus_search: 
       go_to_edit: 
       last_reply: 
@@ -2609,8 +2609,8 @@ sr-RS:
       tv_episode_pages: 
       tv_season_pages: 
     keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+    view_keyboard_shorcuts: Погледај пречице на тастатури
+    view_shortcuts: Погледај пречице
   list_info:
     average_rating: Просечна оцена
     image_selected: Изабран-а
@@ -2651,8 +2651,8 @@ sr-RS:
       filters:
         clear: 
         key: 
-        language: 
-        user: 
+        language: Језик
+        user: Корисник
       number_of_changes: 
       view_weekly_leaderboard: Види недељну таблу лидера
     company:
@@ -2660,8 +2660,8 @@ sr-RS:
       movie_page_title: Филмове продуцирни од стране %{name}
       tv_page_title: ТВ серија продуцирана од стране %{name}
     edit:
-      lock_all_fields: 
-      lock_all_images: 
+      lock_all_fields: Закључај сва поља
+      lock_all_images: Закључај све слике
       page_title: Измени %{name}
       placeholders:
         country: Изабери земљу...
@@ -2674,7 +2674,7 @@ sr-RS:
         networks: Претражи за мрежом...
         person: Претражи за особом...
         production_companies: Претражи за продукцијску компанију...
-      success_fields_locked: 
+      success_fields_locked: Поља су закључана.
       tooltips:
         bible: 
         homepage: Само званичне странице. Странице обожаваоца нису дозвољене.
@@ -2683,7 +2683,7 @@ sr-RS:
         overview: Када пишете опис, трудите се да буде кратак, јасан и без спојлера.
         social_links: 
     external_links:
-      visit_facebook: 
+      visit_facebook: Посети Фејсбук
       visit_homepage: 
       visit_instagram: 
       visit_twitter: 
@@ -2708,7 +2708,7 @@ sr-RS:
         adult:
           adult_movie: Филм за одрасле?
         alternative_titles:
-          no_records: 
+          no_records: Нису додати алтернативни називи.
         cast:
           no_records: 
         confirm_collection: 
@@ -2764,8 +2764,16 @@ sr-RS:
     no_results_found:
       movie: 
       tv: 
-    number_of_movies: 
-    number_of_shows: 
+    number_of_movies:
+      few: "%{count} филма"
+      many: "%{count} филмова"
+      one: "%{count} филм"
+      other: "%{count} филмова"
+    number_of_shows:
+      few: "%{count} серије"
+      many: "%{count} серија"
+      one: "%{count} серија"
+      other: "%{count} серија"
     person:
       edit:
         alternative_names:
@@ -2795,7 +2803,7 @@ sr-RS:
       edit:
         guest_stars:
           no_records: 
-        screened_as_part_of_season: 
+        screened_as_part_of_season: Да, као део сезоне
         screened_confirm: 
         screened_label: 
       episode_selector:
@@ -2814,7 +2822,7 @@ sr-RS:
         current_season: Тренутна сезона
         last_season: Последња сезона
         next_season: Следећа сезона
-        previous_season: 
+        previous_season: Претходна сезона
     tv_show:
       create_season: Додај сезону
       edit:
@@ -2847,7 +2855,7 @@ sr-RS:
           types:
             '1': Оригинални датум емитовања
             '2': 
-            '3': 
+            '3': DVD
             '4': 
             '5': 
             '6': Продукција
@@ -2882,7 +2890,7 @@ sr-RS:
         Reality: Реалити
         Scripted: 
         Talk Show: Ток шоу
-        Video: 
+        Video: Видео
     video:
       audio_language: Језик звука
       channel: Канал
@@ -2903,14 +2911,14 @@ sr-RS:
       subject: 
       template: 
       to: 
-    no_messages: 
+    no_messages: Нема порука
     notifications:
-      new_message: 
+      new_message: "%{username} вам је послао поруку"
     number_of_messages: 
     options:
       admin: 
       archive: 
-      settings: 
+      settings: Подешавања
       viewed_at: 
     placeholders:
       no_conversation_selected:
@@ -2918,13 +2926,13 @@ sr-RS:
         no_conversations: 
         view: 
       no_user_found: 
-      reply: 
+      reply: Укуцај поруку...
       subject: 
-      to: 
+      to: Тражи корисника...
     right_column_titles:
-      conversation_with: 
+      conversation_with: Разговор са %{username}
       message_inbox: 
-      my_archive: 
+      my_archive: Моја архива
       my_inbox: 
       new_message: 
       support_archive: 
