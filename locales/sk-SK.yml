@@ -694,9 +694,19 @@ sk-SK:
   already_translated_in: "%{page_title} je už preložený do nasledujúcich jazykov..."
   api_session:
     3rd_party_request: Autentifikačné požiadavky 3 strany
+    account_required:
+      need_account: 
+      title: 
     approved_session: Schválilo ste %{application_name}. Môžete zavrieť toto okno.
     continue: Pokiaľ si želáte pokračovať, kliknite na tlačidlo schváliť. Pokiaľ nie, jednoducho zavrite toto okno.
-    request_token_approval: "{{APP}} si pýta vaše povolenie čítať a zapisovať dáta za vás. Toto je nevyhnutné, pokiaľ chcete robiť veci ako udržiavať vaše zoznamy alebo hodnotenia mimo TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} si pýta vaše povolenie čítať a zapisovať dáta za vás. Toto je nevyhnutné, pokiaľ chcete robiť veci ako udržiavať vaše zoznamy alebo hodnotenia mimo TMDb."
     statuses:
       completed:
         message: Udelili ste povolenia čítania a zápisu aplikácií <strong>%{application_name}</strong>. Teraz sa môžete vrátiť do aplikácie a zatvoriť toto okno. Prístupové práva môžete kedykoľvek odoprieť tak, že pôjdete do vašich nastavení účtu a do sekcie "Pripojené aplikácie".

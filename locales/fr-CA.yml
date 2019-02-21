@@ -690,9 +690,19 @@ fr-CA:
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
     3rd_party_request: Demande d'authentification tierce
+    account_required:
+      need_account: 
+      title: 
     approved_session: 'Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre. '
     continue: 'Si vous voulez continuer, cliquer sur le bouton ci-dessous pour approuver. Sinon, vous n''avez qu''à fermer cette fenêtre.  '
-    request_token_approval: "{{APP}} vous demande la permission de lire et d'écrire des données en votre nom. Cela est nécessaire si vous voulez faire des choses comme maintenir vos listes ou noter des films en dehors de TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} vous demande la permission de lire et d'écrire des données en votre nom. Cela est nécessaire si vous voulez faire des choses comme maintenir vos listes ou noter des films en dehors de TMDb."
     statuses:
       completed:
         message: Vous avez accordé les droits de lecture et d'écriture sur <strong>%{application_name}</strong>. Vous pouvez maintenant revenir à l'application et fermer cette fenêtre. Vous pouvez toujours révoquer cet accès en accédant à la page des paramètres de votre compte, puis à la page "Applications connectées".

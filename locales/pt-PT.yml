@@ -692,9 +692,19 @@ pt-PT:
   already_translated_in: "%{page_title} já está transcrito(a) nos idiomas seguintes..."
   api_session:
     3rd_party_request: Pedido de autenticação de terceiros
+    account_required:
+      need_account: 
+      title: 
     approved_session: Aprovaste a aplicação %{application_name}. Podes fechar esta janela.
     continue: Se desejares continuar, clica no botão aprovar que se encontra em baixo. Caso contrário, podes fechar esta janela.
-    request_token_approval: "{{APP}} está a pedir a sua permissão para ler e gravar dados em seu nome. Isso é necessário se quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} está a pedir a sua permissão para ler e gravar dados em seu nome. Isso é necessário se quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
     statuses:
       completed:
         message: Concedeu permissão de leitura e gravação para <strong>%{application_name}</ strong>. Agora pode voltar ao aplicativo e fechar esta janela. Poderá revogar esst acesso entrando na página de configurações da sua conta e, em seguida, na página "Aplicativos conectados".

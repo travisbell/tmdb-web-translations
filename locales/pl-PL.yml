@@ -704,9 +704,19 @@ pl-PL:
   already_translated_in: Strona %{page_title} jest już przetłumaczona na następujące języki...
   api_session:
     3rd_party_request: Autoryzowane aplikacje innych firm
+    account_required:
+      need_account: 
+      title: 
     approved_session: Aplikacja %{application_name} została zatwierdzona. Można zamknąć to okno.
     continue: Jeśli chcesz kontynuować, kliknij przycisk zatwierdzaj poniżej. Jeśli nie, można po prostu zamknąć to okno.
-    request_token_approval: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDb."
     statuses:
       completed:
         message: 

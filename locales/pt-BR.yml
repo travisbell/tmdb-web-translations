@@ -680,7 +680,7 @@ pt-BR:
     watchlist:
       my_watchlist:
         logged_in: Minha lista de interesses
-        public: 
+        public: Lista de assistidos %{username}
       next_month: Mês que vem
       no_upcoming_movies:
         one: Não há nenhum filme que estreará em breve na sua lista de interesses. No entanto, você tem %{count} item na sua lista de interesses.
@@ -700,9 +700,19 @@ pt-BR:
     3rd_party_request: |2-
 
       Pedido de autenticação de terceiros
+    account_required:
+      need_account: 
+      title: 
     approved_session: O aplicativo %{application_name} foi aprovado. Você já pode fechar esta janela.
     continue: Se deseja continuar, clique no botão aprovar abaixo. Se não, você pode simplesmente fechar esta janela.
-    request_token_approval: "{{APP}} está pedindo sua permissão para ler e gravar dados em seu nome. Isso é necessário se você quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} está pedindo sua permissão para ler e gravar dados em seu nome. Isso é necessário se você quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
     statuses:
       completed:
         message: Você concedeu permissão de leitura e gravação para <strong>%{application_name}</ strong>. Agora você pode retornar ao aplicativo e fechar esta janela. Você sempre pode revogar esse acesso entrando na página de configurações da sua conta e, em seguida, na página "Aplicativos conectados".
@@ -1661,8 +1671,8 @@ pt-BR:
       catch_up_now: Coloque o papo em dia
       discussions: Discussões
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Leia a recapitulação de 2018
+      thats_a_wrap: Isso é um envoltório!
     tv_shows:
       episode_airs:
         in_days: Novo episódio em %{number_of_days} dias
@@ -1735,7 +1745,7 @@ pt-BR:
     Additional Casting: Elenco Adicional
     Additional Colorist: Auxiliar de Colorização
     Additional Construction: Construção Adicional
-    Additional Construction Grip: 
+    Additional Construction Grip: Aperto Adicional de Construção
     Additional Dialogue: Diálogo (suplementar)
     Additional Director of Photography: Diretor Adicional de Fotografia
     Additional Editing: Edição (suplementar)

@@ -674,7 +674,7 @@ cs-CZ:
     watchlist:
       my_watchlist:
         logged_in: Můj seznam ke zhlédnutí
-        public: 
+        public: "%{username} Sledované stránky"
       next_month: Příští měsíc
       no_upcoming_movies:
         few: Na vašem seznamu ke zhlédnutí nejsou žádné nadcházející filmy. Ve vašem seznamu jsou však %{count} položky.
@@ -694,9 +694,19 @@ cs-CZ:
   already_translated_in: Stránka %{page_title} je již přeložena do následujících jazyků…
   api_session:
     3rd_party_request: Žádost o ověření třetí strany
+    account_required:
+      need_account: 
+      title: 
     approved_session: Schválili jste %{application_name}. Můžete zavřít toto okno.
     continue: Pokud chcete pokračovat, klikněte na níže uvedené tlačítko schválení. Pokud ne, jednoduše zavřete toto okno.
-    request_token_approval: "{{APP}} žádá o vaše oprávnění číst a zapisovat údaje ve vašem zastoupení. To je nutné, pokud chcete dělat věci, jako je udržování seznamů nebo posuzování filmů mimo TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} žádá o vaše oprávnění číst a zapisovat údaje ve vašem zastoupení. To je nutné, pokud chcete dělat věci, jako je udržování seznamů nebo posuzování filmů mimo TMDb."
     statuses:
       completed:
         message: Udělili jste oprávnění čtení a zápisu <strong>%{application_name}</strong> . Nyní se můžete vrátit do aplikace a zavřít toto okno. Tento přístup můžete kdykoli zrušit tím, že přejdete na stránku s nastavením účtu a na stránce Připojené aplikace.
@@ -794,9 +804,9 @@ cs-CZ:
         '1':
           meaning: Obecné hodnocení - mohou být prohlíženy, pronajaty nebo zakoupeny osobami všech věkových kategorií. Pokud by film nesoucí hodnocení "G" mohl urážet citlivost dítěte mladšího 8 let, je ke klasifikaci připojena poznámka "Nevhodné pro malé děti".
         '2':
-          meaning: 
+          meaning: Pouze pro děti od 13 let.
         '3':
-          meaning: 
+          meaning: Pouze pro děti od 16 let.
         '4':
           meaning: 
       DE:
@@ -805,27 +815,31 @@ cs-CZ:
         '2':
           meaning: Nevhodné pro děti do 6 let.
         '3':
-          meaning: 
+          meaning: Pouze pro děti od 12 let. Děti ve věku od 6 do 11 let musí doprovázet rodič nebo legální poručník.
         '4':
-          meaning: 
+          meaning: |2-
+
+            Pouze pro děti od 16 let.
         '5':
-          meaning: 
+          meaning: Pouze pro dospělí.
       DK:
         '0':
-          meaning: 
+          meaning: Žádné informace o hodnocení.
         '1':
-          meaning: 
+          meaning: Vhodné pro obecné publikum.
         '2':
-          meaning: 
+          meaning: |2-
+
+            Nedoporučuje se dětem do 7 let.
         '3':
           meaning: Od 11 let.
         '4':
           meaning: Od 15 let.
         '5':
-          meaning: 
+          meaning: Zproštěný od klasifikace
       ES:
         '1':
-          meaning: 
+          meaning: Generální vstup
         '2':
           meaning: Nedoporučuje se pro publikum pod 7 let.
         '3':
@@ -1947,7 +1961,7 @@ cs-CZ:
     Costumer: 
     Craft Service: 
     Creative Consultant: 
-    Creative Director: 
+    Creative Director: Tvůrčí ředitel
     Creative Producer: 
     Creator: Autor
     Creature Design: 

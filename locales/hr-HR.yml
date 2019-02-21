@@ -702,9 +702,19 @@ hr-HR:
   already_translated_in: "%{page_title} je već prevedeno na sljedećim jezicima..."
   api_session:
     3rd_party_request: Zahtjev za dozvolu pristupa treće strane
+    account_required:
+      need_account: 
+      title: 
     approved_session: Odobrili ste %{application_name}. Možete zatvoriti ovaj prozor.
     continue: Ako želite nastaviti, kliknite gumb za odobravanje u nastavku. Ako ne, možete jednostavno zatvoriti ovaj prozor.
-    request_token_approval: "{{APP}} traži vašu dozvolu za čitanje i pisanje podataka u vaše ime. To je potrebno ako želite raditi stvari poput održavanja popisa ili ocjenjivanja filmova izvan TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} traži vašu dozvolu za čitanje i pisanje podataka u vaše ime. To je potrebno ako želite raditi stvari poput održavanja popisa ili ocjenjivanja filmova izvan TMDb."
     statuses:
       completed:
         message: Dozvolili ste čitanje i pisanje za <strong>%{application_name}</ strong>. Sada se možete vratiti u program i zatvoriti ovaj prozor. Uvijek možete opozvati taj pristup tako da otvorite stranicu s postavkama računa, a zatim stranicu "Povezane aplikacije".

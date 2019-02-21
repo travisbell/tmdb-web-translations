@@ -672,7 +672,7 @@ de-DE:
     watchlist:
       my_watchlist:
         logged_in: Meine Watchliste
-        public: 
+        public: "%{username}s Watchliste"
       next_month: Nächsten Monat
       no_upcoming_movies:
         one: Es gibt keine Filme in Deiner Watchliste welche demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Film.
@@ -690,9 +690,19 @@ de-DE:
   already_translated_in: "%{page_title} wurde bereits für folgende Sprachen übersetzt..."
   api_session:
     3rd_party_request: Drittanbieter-Autorisierungsanfrage
+    account_required:
+      need_account: 
+      title: 
     approved_session: Die Berechtigung für %{application_name} wurde gespeichert. Du kannst dieses Fenster jetzt schließen.
     continue: Klicke auf die Schaltfläche „Bestätigen”, um fortzufahren oder schließe dieses Fenster, um abzubrechen.
-    request_token_approval: Die Anwendung {{APP}} bittet um Ihre Erlaubnis, Daten in Ihrem Namen zu lesen und zu schreiben. Dies ist notwendig, wenn Sie Dinge wie die Pflege Ihrer Listen oder die Bewertung von Filmen außerhalb von TMDb durchführen möchten.
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: Die Anwendung {{APP}} bittet um Ihre Erlaubnis, Daten in Ihrem Namen zu lesen und zu schreiben. Dies ist notwendig, wenn Sie Dinge wie die Pflege Ihrer Listen oder die Bewertung von Filmen außerhalb von TMDb durchführen möchten.
     statuses:
       completed:
         message: Sie haben <strong>%{application_name}</strong> Lese- und Schreibrechte erteilt. Sie können nun zur Anwendung zurückkehren und dieses Fenster schließen. Sie können diesen Zugang jederzeit widerrufen, indem Sie auf Ihrer Kontoeinstellungen-Seite und dann auf Ihrer "Connected Apps"-Seite gehen.
@@ -3295,7 +3305,7 @@ de-DE:
       sharing_settings: Einstellungen teilen
       watchlist:
         remove_when_rated: Elemente automatisch entfernen, wenn sie bewertet werden?
-        share_publicly: 
+        share_publicly: Diese Liste öffentlich teilen?
         watchlist_settings: Einstellungen der Watchliste
     social:
       connected_table:

@@ -690,9 +690,19 @@ fr-FR:
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
     3rd_party_request: Demande d'authentification tierce
+    account_required:
+      need_account: 
+      title: 
     approved_session: Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre.
     continue: Si vous souhaitez poursuivre, cliquez ci-dessous sur le bouton Approuver. Sinon, vous pouvez simplement fermer cette fenêtre.
-    request_token_approval: "{{APP}} demande votre permission de lecture et d'écriture de vos données. C'est une démarche nécessaire si vous voulez par exemple garder vos listes ou films en dehors de TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} demande votre permission de lecture et d'écriture de vos données. C'est une démarche nécessaire si vous voulez par exemple garder vos listes ou films en dehors de TMDb."
     statuses:
       completed:
         message: Vous avez accordé la permission de lecture et d'écriture à <strong>%{application_name}</strong>. Vous pouvez maintenant retourner à l'application et fermer cette fenêtre. Vous pouvez toujours révoquer cet accès en vous rendant sur la page des paramètres de votre compte puis sur votre page "Applications connectées".
@@ -1654,7 +1664,7 @@ fr-FR:
       discussions: Conversations
     taw:
       read_the_2018_recap: Lire le récapitulatif 2018
-      thats_a_wrap: 
+      thats_a_wrap: C'est dans la boîte !
     tv_shows:
       episode_airs:
         in_days: Prochain épisode dans %{number_of_days} jours
@@ -1724,7 +1734,7 @@ fr-FR:
     Additional Camera: Cadreurs seconde caméra
     Additional Casting: Casting additionnel.
     Additional Colorist: Coloriste additionnel
-    Additional Construction: 
+    Additional Construction: construction supplémentaire
     Additional Construction Grip: 
     Additional Dialogue: Dialogue additionnel
     Additional Director of Photography: Directeur de la photographie supplémentaire
@@ -1750,7 +1760,7 @@ fr-FR:
     Additional Second Assistant Director: Second assistant réalisateur additionnel
     Additional Set Dresser: Ensemblier supplémentaire
     Additional Set Photographer: Photographe de plateau additionnel
-    Additional Sound Re-Recording Mixer: 
+    Additional Sound Re-Recording Mixer: 'autre ingénieur du son '
     Additional Sound Re-Recordist: 
     Additional Soundtrack: Bande originale additionnelle
     Additional Still Photographer: Photographe de plateau supplémentaire
@@ -1770,14 +1780,14 @@ fr-FR:
     Animal Coordinator: Coordinateur des animaux
     Animal Wrangler: Dresseur animaux
     Animation: Animation
-    Animation Coordinator: 
+    Animation Coordinator: coordinateur de l'animation
     Animation Department Coordinator: Coordinateur du département d'animation
     Animation Director: Réalisateur de l'animation
     Animation Fix Coordinator: Coordinateur de la correction d'animation
     Animation Manager: Directeur de l'animation
     Animation Production Assistant: Assistant de production de l'animation
     Animation Supervisor: Superviseur de l'animation
-    Animation Technical Director: 
+    Animation Technical Director: Directeur technique animation
     Animatronic and Prosthetic Effects: Effets prosthétiques et animatroniques
     Animatronics Designer: 
     Animatronics Supervisor: 
@@ -1785,7 +1795,7 @@ fr-FR:
     Archival Footage Coordinator: Coordinateur des images d'archive
     Archival Footage Research: Recherche d'archives
     Armorer: Armurier
-    Armory Coordinator: 
+    Armory Coordinator: Coordinateur armurerie
     Art Department Assistant: Assistant du département artistique
     Art Department Coordinator: Coordinateur du département artistique
     Art Department Manager: Directeur du département artistique
@@ -1797,8 +1807,8 @@ fr-FR:
     Assistant Accountant: Assistant comptabilité
     Assistant Art Director: Assistant du directeur artistique
     Assistant Camera: Assistant cadreur
-    Assistant Chef: 
-    Assistant Chief Lighting Technician: 
+    Assistant Chef: Chef assistant
+    Assistant Chief Lighting Technician: Assistant chef éclairagiste
     Assistant Costume Designer: Assistant costumier
     Assistant Craft Service: 
     Assistant Decorator: Assistant Decorateur
@@ -1808,14 +1818,14 @@ fr-FR:
     Assistant Director of Photography: Assistant Directeur de la photographie
     Assistant Editor: Assistant monteur
     Assistant Electrician: Electricien assistant
-    Assistant Extras Casting: 
+    Assistant Extras Casting: Assistant de figuration supplémentaire
     Assistant Foley Artist: Assistant illustrateur sonore
     Assistant Gaffer: 
     Assistant Grip: 
     Assistant Hairdresser: Coiffeur assistant
     Assistant Hairstylist: Assistant coiffeur
-    Assistant Location Manager: 
-    Assistant Makeup Artist: 
+    Assistant Location Manager: Assistant régisseur
+    Assistant Makeup Artist: Assistant maquilleur
     Assistant Music Supervisor: 
     Assistant Picture Car Coordinator: 
     Assistant Picture Editor: 
@@ -1830,8 +1840,8 @@ fr-FR:
     Assistant Set Dresser: Assistant Ensemblier
     Assistant Set Propsman: 
     Assistant Sound Designer: Assistant designer sonore
-    Assistant Sound Editor: 
-    Assistant Sound Engineer: 
+    Assistant Sound Editor: Assistant montage son
+    Assistant Sound Engineer: Assistant ingénieur du son
     Assistant Unit Manager: 
     Assistant Vehicles Coordinator: 
     Associate Choreographer: Chorégraphe associé
@@ -1911,7 +1921,7 @@ fr-FR:
     Co-Art Director: Co-directeur artistique
     Co-Costume Designer: Co-costumier
     Co-Director: 'Coréalisateur '
-    Co-Editor: 
+    Co-Editor: Co-monteur
     Co-Executive Producer: Co-producteur exécutif
     Co-Producer: Co-producteur
     Co-Writer: Co-scénariste
@@ -1949,7 +1959,7 @@ fr-FR:
     Costume Consultant: 
     Costume Coordinator: 
     Costume Design: Création de costume
-    Costume Designer: 
+    Costume Designer: Créateur des costumes
     Costume Illustrator: 
     Costume Mistress: 
     Costume Set Supervisor: 
@@ -2005,7 +2015,7 @@ fr-FR:
     Directing Lighting Artist: Artiste éclairage
     Director: Réalisateur
     Director of Communications: 
-    Director of Operations: 
+    Director of Operations: Directeur des opérations
     Director of Photography: Directeur de la photographie
     Director of Previsualization: 
     Documentation & Support: Documentation & Assistance
@@ -2033,7 +2043,7 @@ fr-FR:
     Epk Director: 
     Epk Producer: 
     Executive Assistant: 
-    Executive Co-Producer: 
+    Executive Co-Producer: Co-producteur executif
     Executive Consultant: Consultant exécutif
     Executive In Charge Of Post Production: Cadre en charge de la post-production
     Executive In Charge Of Production: Cadre en charge de la production

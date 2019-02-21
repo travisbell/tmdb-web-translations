@@ -562,7 +562,7 @@ nl-NL:
           status:
             Bounce: Onbestelbaar
             Complaint: Klacht
-            Delivery: Verzonden
+            Delivery: Geleverd
             Unsubscribed: Afgemeld
             status: Status
         number_of_items:
@@ -672,7 +672,7 @@ nl-NL:
     watchlist:
       my_watchlist:
         logged_in: Mijn watchlist
-        public: 
+        public: "%{username}'s Kijklijst"
       next_month: Volgende maand
       no_upcoming_movies:
         one: Er staan geen binnenkort te verschijnen films op je watchlist, maar er staat wel %{count} item op je watchlist.
@@ -690,9 +690,19 @@ nl-NL:
   already_translated_in: "%{page_title} is al vertaald naar de volgende talen..."
   api_session:
     3rd_party_request: Extern authenticatieverzoek
+    account_required:
+      need_account: 
+      title: 
     approved_session: Je hebt %{application_name} geaccepteerd. Je kunt dit venster sluiten.
     continue: Als je door wilt gaan, klik dan op de onderstaande goedkeuringsknop. Als je niet door wilt gaan, sluit dan dit venster.
-    request_token_approval: "{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden."
     statuses:
       completed:
         message: U hebt <strong>%{application_name}</strong> toestemming gegeven om te lezen en schrijven. U kunt nu teruggaan naar uw applicatie en dit venster sluiten. U kunt uw toestemming altijd intrekken door naar uw instellingenpagina te gaan en daarna naar de pagina "Connected Apps" te gaan.
@@ -885,7 +895,7 @@ nl-NL:
         '5':
           meaning: Afgeraden voor jongeren onder de 18.
         '6':
-          meaning: 
+          meaning: Beperkt onder 18, enkel voor volwassenen
       IN:
         '0':
           meaning: 
@@ -895,11 +905,11 @@ nl-NL:
           meaning: 
       IT:
         '0':
-          meaning: 
+          meaning: Geen beoordelingsinformatie
         '1':
           meaning: Voor alle leeftijden.
         '2':
-          meaning: 
+          meaning: Geen toegang voor kinderen onder de 14 jaar
         '3':
           meaning: Verboden voor jongeren onder de 18.
       LT:
@@ -1108,7 +1118,7 @@ nl-NL:
           meaning: Mag alleen worden uitgezonden tussen 23:00 en 6:00.
       ES:
         '0':
-          meaning: 
+          meaning: Geen beoordelingsinformatie
         '1':
           meaning: Specifiek aanbevolen voor jongere kinderen.
         '2':
@@ -1615,8 +1625,8 @@ nl-NL:
       catch_up_now: Nu inhalen
       discussions: Discussies
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Lees de samenvatting van 2018
+      thats_a_wrap: Het zit er op!
     tv_shows:
       episode_airs:
         in_days: Er wordt over %{number_of_days} dagen een nieuwe aflevering uitgezonden
@@ -1779,7 +1789,7 @@ nl-NL:
     Assistant Location Manager: Assistent-locatiebeheerder
     Assistant Makeup Artist: Assistent-grimeur
     Assistant Music Supervisor: Assistent-muziekregisseur
-    Assistant Picture Car Coordinator: 
+    Assistant Picture Car Coordinator: Beeldauto-coördinator
     Assistant Picture Editor: Assistent-fotobewerker
     Assistant Production Coordinator: Assistent-productiecoördinator
     Assistant Production Design: Assistent-productieontwerp
@@ -1857,7 +1867,7 @@ nl-NL:
     Chaperone Tutor: 
     Character Designer: Tekenaar
     Character Modelling Supervisor: 
-    Character Technical Supervisor: 
+    Character Technical Supervisor: Personagemanager
     Characters: Personages
     Charge Scenic Artist: 
     Chef: Chef
@@ -1879,7 +1889,7 @@ nl-NL:
     Co-Writer: Medeauteur
     Color Assistant: Kleur assistent
     Color Designer: Kleurontwerper
-    Color Grading: 
+    Color Grading: Kleurbeoordeling
     Color Timer: 
     Colorist: 
     Comic Book: Stripboek
@@ -1889,8 +1899,8 @@ nl-NL:
     Compositing Supervisor: 
     Compositor: 
     Concept Artist: 
-    Conceptual Design: 
-    Conceptual Illustrator: 
+    Conceptual Design: Conceptuele Ontwerper
+    Conceptual Illustrator: Conceptuele Illustrator
     Conductor: Dirigent
     Construction Buyer: Bouwinkoper
     Construction Coordinator: Bouwcoördinator
@@ -1908,8 +1918,8 @@ nl-NL:
     Controller: Controller
     Coordinating Producer: Coördinerend producent
     Costume Assistant: Kostuumassistent
-    Costume Consultant: 
-    Costume Coordinator: 
+    Costume Consultant: Kostuum Specialist
+    Costume Coordinator: Kostuum Coördinator
     Costume Design: Kostuumontwerp
     Costume Designer: Kostuumontwerper
     Costume Illustrator: Kostuum illustrator
@@ -1919,7 +1929,7 @@ nl-NL:
     Costume Supervisor: Kostuumsupervisor
     Costumer: 
     Craft Service: 
-    Creative Consultant: 
+    Creative Consultant: Creatief Adviseur
     Creative Director: 
     Creative Producer: Creatief producent
     Creator: Maker
@@ -2600,7 +2610,7 @@ nl-NL:
       submit_message: verstuur uw bericht
       toggle_close: gesloten of open
       toggle_private: privé of openbaar
-      toggle_watching: 
+      toggle_watching: Verander kijk status
     groups:
       discussion_pages: Op discussiepagina's
       edit_pages: Op alle bewerkte pagina's
@@ -3275,7 +3285,7 @@ nl-NL:
       sharing_settings: Deelinstellingen
       watchlist:
         remove_when_rated: Items automatisch verwijderen als ze beoordeeld zijn?
-        share_publicly: 
+        share_publicly: Deze lijst openbaar delen?
         watchlist_settings: Watchlist-instellingen
     social:
       connected_table:

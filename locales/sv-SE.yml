@@ -692,9 +692,19 @@ sv-SE:
   already_translated_in: "%{page_title} är redan översatt till följande språk..."
   api_session:
     3rd_party_request: Autentiseringsförfrågan från annat program eller sajt
+    account_required:
+      need_account: 
+      title: 
     approved_session: Du har godkänt %{application_name}. Du kan stänga detta fönster.
     continue: Klicka på knappen ovan om du vill fortsätta, annars kan du bara stänga detta fönster.
-    request_token_approval: "{{APP}} frågar efter ditt tillstånd att läsa och skriva data åt dig. Detta behövs om du till exempel vill ändra i listor eller betygssätta filmer utifrån TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} frågar efter ditt tillstånd att läsa och skriva data åt dig. Detta behövs om du till exempel vill ändra i listor eller betygssätta filmer utifrån TMDb."
     statuses:
       completed:
         message: 

@@ -690,9 +690,19 @@ gl-ES:
   already_translated_in: "%{page_title} xa está traducido ás seguintes linguas…"
   api_session:
     3rd_party_request: Solicitude de autenticación de terceiros
+    account_required:
+      need_account: 
+      title: 
     approved_session: Aprobaches %{application_name}. Podes pechar esta xanela.
     continue: Se desexas continuar, preme o botón de Aprobar abaixo. Se non, simplemente pecha esta xanela.
-    request_token_approval: "{{APP}} está a pedir o teu permiso para ler e escribir datos no teu nome. Isto é necesario se queres facer cousas como manter as túas listas ou puntuar filmes fóra da TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} está a pedir o teu permiso para ler e escribir datos no teu nome. Isto é necesario se queres facer cousas como manter as túas listas ou puntuar filmes fóra da TMDb."
     statuses:
       completed:
         message: Permitiches ler e escribir a <strong>%{application_name}</strong>. Agora podes volver á aplicación e pechar esta xanela. Sempre poderás revocar este permiso accedendo á  páxina de configuración da túa conta no apartado "Aplicacións conectadas".

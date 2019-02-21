@@ -672,7 +672,7 @@ zh-CN:
     watchlist:
       my_watchlist:
         logged_in: 我的待看清单
-        public: 
+        public: "%{username} 的待看清单"
       next_month: 下月
       no_upcoming_movies:
         one: 虽然你的待看清单有 %{count} 个项目，但其中没有即将上映影片。
@@ -690,9 +690,19 @@ zh-CN:
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
     3rd_party_request: 第三方授权请求
+    account_required:
+      need_account: 
+      title: 
     approved_session: 你已核准 %{application_name}。你可以关闭此窗口。
     continue: 如要继续，点击下面的核准按钮。否则，只需关闭此窗口。
-    request_token_approval: "{{APP}}请求您的许可来代为读取和写入数据。如果你想做一些事情，比如维护你的列表或者对TMDB以外的电影进行评分都是有必要的。"
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}}请求您的许可来代为读取和写入数据。如果你想做一些事情，比如维护你的列表或者对TMDB以外的电影进行评分都是有必要的。"
     statuses:
       completed:
         message: 您已授予<strong>%{application_name}</strong>的读写权限。您现在可以返回到应用程序并关闭此窗口。您可以随时进入帐户设置页面，然后进入“已连接的应用”页面，以撤消此访问权限。
@@ -2653,24 +2663,24 @@ zh-CN:
     step_3: 步骤3：选择图像
     step_4: 步骤4：分享
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: 请登录您的账户，以便使用TMDb的编辑、评分功能，并可开启个性化推荐。如果您没有账户，可以点击<a href="%{signup_link}">此处</a> 进行免费注册。
+    login_text_2: 如果您未收到确认邮件，请点击<a href="%{verification_link}">此处</a>重新发送。
     login_to_your_account: 登录你的帐户
   login_to_create: 找不到电影或剧集？登录并创建它吧。
   login_to_edit: 登录以编辑
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
+        clear: 清除
+        key: 关键字
+        language: 语言
+        user: 用户
       number_of_changes: 
       view_weekly_leaderboard: 浏览每周排行榜
     company:
       headquarters: 
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name}的影片"
+      tv_page_title: "%{name}的剧集"
     edit:
       lock_all_fields: 
       lock_all_images: 
@@ -2705,7 +2715,7 @@ zh-CN:
     images:
       format: 格式
       no_backdrop_stills: 
-      no_backdrops: 
+      no_backdrops: 本条目下无背景图
       no_logos: 
       no_posters: 本条目没有添加海报。
       no_profiles: 
@@ -2729,27 +2739,27 @@ zh-CN:
           <p>如果您要创建的系列符合此条件，请继续建立。</p>
         confirm_video: 
         crew:
-          job_required: 
-          no_records: 
-          person_required: 
+          job_required: 必须填写一个职务
+          no_records: 没有组员
+          person_required: 必须添加一个人
         genres:
-          add_genre: 
-          no_records: 
+          add_genre: 添加体裁
+          no_records: 没有体裁
         keywords:
-          add_keyword: 
-          create: 
+          add_keyword: 添加关键字
+          create: 添加
           no_records: 没有添加关键字。
           none_found: 未找到相符的关键字，需要新建吗？
           tip: 
         production_information:
           add_production_company: 
-          no_records: 
-          none_found: 
-          production_company: 
+          no_records: 没有出品公司
+          none_found: 未匹配到。是否创建？
+          production_company: 出品公司
         release_information:
           no_records: 
         videos:
-          no_records: 
+          no_records: 没有影视
       statuses:
         Canceled: 已取消
         In Production: 拍摄中
@@ -2802,10 +2812,10 @@ zh-CN:
           logged_in: 还没有 %{title} 的影评。想要<a href="%{url}">写一个</a>吗？
           public: 还没有 %{title} 的影评。
         read_all: 阅读所有影评
-        read_the_rest: 
+        read_the_rest: 查看全部。
         write_review:
           logged_in: 写影评
-          public: 
+          public: 请登录来撰写评论。
     tv_episode:
       edit:
         guest_stars:
@@ -2814,15 +2824,15 @@ zh-CN:
         screened_confirm: 
         screened_label: 
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: 第 %{season_number}x%{episode_number} 季
+        episode: " %{episode_name} 第 (%{season_number}x%{episode_number}) 季"
         next_episode: 下一集
         previous_episode: 上一集
     tv_season:
       edit:
-        create_episode: 
+        create_episode: 增加季
         episodes:
-          no_records: 
+          no_records: 未添加季信息。
         screened_confirm: 
         screened_label: 
       season_selector:

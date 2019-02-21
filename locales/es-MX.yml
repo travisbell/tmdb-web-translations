@@ -547,7 +547,7 @@ es-MX:
         edit: Editar
         key: Clave
         language_abbreviation: Idioma
-    average_movie_score: Promedio<br>Puntuación Pelíiculas
+    average_movie_score: Promedio<br>Puntuación Películas
     average_tv_score: Promedio<br>Puntuación Series
     discussions:
       my_active_boards: Mis tableros activos
@@ -692,9 +692,19 @@ es-MX:
   already_translated_in: "%{page_title} ya fue traducido en los siguientes lenguajes..."
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
+    account_required:
+      need_account: 
+      title: 
     approved_session: Has aprobado a %{application_name}. Puedes cerrar esta ventana.
     continue: SI deseas continuar, haz clic en el botón de Aprobar. De lo contrario, cierra esta ventana.
-    request_token_approval: "{{APP}} está pidiendo permiso para leer y escribir data a tu nombre. Esto es necesario si quieres hacer cosas como mantener tus listas o calificar películas fuera de TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} está pidiendo permiso para leer y escribir data a tu nombre. Esto es necesario si quieres hacer cosas como mantener tus listas o calificar películas fuera de TMDb."
     statuses:
       completed:
         message: Ha concedido permisos de lectura y escritura a <strong>%{application_name}</strong>. Ahora puede regresar a la aplicación y cerrar esta ventana. Puede revocar este acceso en cualquier momento ingresando a la sección de Ajustes de su cuenta y luego a "Aplicaciones Conectadas".
@@ -851,11 +861,11 @@ es-MX:
         '1':
           meaning: "(Tous publics) Para todos los públicos"
         '2':
-          meaning: 
+          meaning: '(Déconseillé aux moins de 10 ans) no apto para niños menores de 10 años (esta clasificación solo se usa para TV); equivalente en teatros : "avertissement" (precaución), algunas escenas pueden ser perturbadoras para los niños pequeños y personas sensibles; equivalente en video : "accord parental" (supervisión paterna).'
         '3':
-          meaning: 
+          meaning: "(Interdit aux moins de 12 ans) no apto para menores de 12 años o prohibido en cines para menores de 12 años."
         '4':
-          meaning: 
+          meaning: "(Interdit aux moins de 16 ans) no apto para menores de 16 años o prohibido en cines para menores de 16 años."
         '5':
           meaning: 
       GB:

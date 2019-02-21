@@ -291,7 +291,7 @@ it-IT:
   Number of edits in the past: Numero di modifiche precedenti
   Offensive or Spam: Offensivo o Spam
   Offical Site: Sito Ufficiale
-  Offline Databases: 
+  Offline Databases: Database Offline
   Opening Credits: Crediti di Apertura
   Origin Country: Pese di Origine
   Original Air Date: Data di messa in onda originale
@@ -690,9 +690,19 @@ it-IT:
   already_translated_in: "%{page_title} è già tradotto nelle seguenti lingue..."
   api_session:
     3rd_party_request: Autenticazione terze parti richiesta
+    account_required:
+      need_account: 
+      title: 
     approved_session: Hai approvato %{application_name}. Puoi chiudere questa finestra.
     continue: Se desideri continuare, fai clic sul pulsante in basso. In caso contrario, puoi semplicemente chiudere questa finestra.
-    request_token_approval: "{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB."
     statuses:
       completed:
         message: Sei stato abilitato/a alla lettura e scrittura di <strong>%{application_name}</strong>. Puoi tornare all'applicazione e chiudere questa finestra. Puoi sempre revocare questo accesso nelle impostazioni del tuo account alla pagina "Applicazioni connesse".
@@ -1820,7 +1830,7 @@ it-IT:
     Associate Editor: Editor associato
     Associate Producer: Produttore Associato
     Atmos Editor: 
-    Attorney: 
+    Attorney: Procuratore
     Audio Post Coordinator: 
     Author: Autore
     BTS Footage: 
@@ -1940,7 +1950,7 @@ it-IT:
     Costumer: 
     Craft Service: Servizio Artigianale
     Creative Consultant: Consulente Creativo
-    Creative Director: 
+    Creative Director: Direttore Creativo
     Creative Producer: Produttore Creativo
     Creator: Creatore
     Creature Design: Design Creature
@@ -1957,11 +1967,11 @@ it-IT:
     Daily Wardrobe: 
     Data Management Technician: 
     Data Wrangler: 
-    Decorator: 
-    Delegated Producer: 
+    Decorator: Decoratore
+    Delegated Producer: Produttore Delegato
     Department Administrator: Amministratore Dipartimento
     Development Manager: Manager Sviluppo
-    Development Producer: 
+    Development Producer: Produttore di Sviluppo
     Dialect Coach: Coach Dialetto
     Dialogue: Dialogo
     Dialogue Coach: 
@@ -1983,11 +1993,11 @@ it-IT:
     Digital Intermediate Producer: 
     Digital Producer: Produttore Digitale
     Digital Storyboarding: 
-    Digital Supervisor: 
+    Digital Supervisor: Supervisore Digitale
     Directing Lighting Artist: Artista Direzione Illuminazione
     Director: Regista
-    Director of Communications: 
-    Director of Operations: 
+    Director of Communications: Direttore delle Comunicazioni
+    Director of Operations: Direttore delle Operazioni
     Director of Photography: Direttore della Fotografia
     Director of Previsualization: 
     Documentation & Support: Documentazione e Supporto
@@ -1995,7 +2005,7 @@ it-IT:
     Dolly Grip: 
     Dramaturgy: Drammaturgia
     Draughtsman: 
-    Dresser: 
+    Dresser: Costumista
     Dressing Prop: 
     Driver: Autista
     Drone Cinematographer: 
@@ -2003,7 +2013,7 @@ it-IT:
     Drone Pilot: 
     EPK Editor: 
     Editor: Editore
-    Editorial Consultant: 
+    Editorial Consultant: Consulente Editoriale
     Editorial Coordinator: Coordinatore Editoriale
     Editorial Manager: Manager Editoriale
     Editorial Production Assistant: Assistente Produzione Editoriale
@@ -2014,14 +2024,14 @@ it-IT:
     Epk Camera Operator: 
     Epk Director: 
     Epk Producer: 
-    Executive Assistant: 
-    Executive Co-Producer: 
+    Executive Assistant: Assistente Esecutivo
+    Executive Co-Producer: Co-Produttore Esecutivo
     Executive Consultant: Consulente Esecutivo
     Executive In Charge Of Post Production: Dirigente responsabile della post produzione
     Executive In Charge Of Production: Dirigente responsabile della produzione
     Executive Music Producer: Produttore Esecutivo Musica
     Executive Producer: Produttore Esecutivo
-    Executive Producer's Assistant: 
+    Executive Producer's Assistant: Assistente di Produzione Esecutivo
     Executive Story Editor: 
     Executive Visual Effects Producer: Produttore Esecutivo Effetti Visivi
     Executive in Charge of Finance: Dirigente incaricato della finanza
@@ -2067,11 +2077,11 @@ it-IT:
     Foley Recordist: 
     Foley Supervisor: 
     Gaffer: Capo Elettricista
-    General Manager: 
+    General Manager: General Manager
     Generalist: 
     Generator Operator: 
     Genetator Operator: 
-    Graphic Designer: 
+    Graphic Designer: Progettista Grafico
     Graphic Novel: 
     Graphic Novel Illustrator: Illustratore Graphic Novel
     Greensman: Addetto alla vegetazione
@@ -2083,35 +2093,35 @@ it-IT:
     Hair Designer: Designer Acconciature
     Hair Setup: Impostazione Acconciature
     Hair Supervisor: 
-    Hairdresser: 
+    Hairdresser: Parrucchiere
     Hairstylist: Hairstylist
     Head Carpenter: 
-    Head Decorator: 
-    Head Designer: 
+    Head Decorator: Capo Decoratore
+    Head Designer: Capo Progettista
     Head Driver: 
     Head Greensman: 
-    Head of Animation: 
+    Head of Animation: Capo Animazione
     Head of Layout: 
-    Head of Production: 
-    Head of Programming: 
-    Head of Research: 
+    Head of Production: Capo Produzione
+    Head of Programming: Capo Programmazione
+    Head of Research: Capo Ricerca
     Head of Story: 
-    Health and Safety: 
+    Health and Safety: Salute e Sicurezza
     Helicopter Camera: Camera Elicottero
     Helping Hand: 
-    Human Resources: 
+    Human Resources: Risorse Umane
     I/O Manager: Manager I/O
     I/O Supervisor: Supervisore I/O
     Idea: Idea
     Imaging Science: Scienza delle Immagini
-    In Memory Of: 
+    In Memory Of: In Memoria Di
     Information Systems Manager: Responsabile Sistemi Informativi
     Insert Unit Director: 
     Insert Unit First Assistant Director: 
     Insert Unit Location Manager: 
     Interactive Manager: 
     Interior Designer: Arredatore
-    Intern: 
+    Intern: Interno
     Jimmy Jib Operator: 
     Joint ADR Mixer: 
     Junior Story Editor: 
@@ -2205,13 +2215,13 @@ it-IT:
     Motion Capture Artist: Artista Motion Capture
     Music: Musica
     Music Arranger: 
-    Music Co-Supervisor: 
+    Music Co-Supervisor: Co-Supervisore Musica
     Music Consultant: 
     Music Coordinator: 
     Music Director: Direttore Musica
     Music Editor: Editor Musicale
-    Music Producer: 
-    Music Programmer: 
+    Music Producer: Produttore Musica
+    Music Programmer: Programmatore Musica
     Music Score Producer: 
     Music Sound Design and Processing: 
     Music Supervision Assistant: 
@@ -2229,14 +2239,14 @@ it-IT:
     On Set Props: 
     Online Editor: 
     Opening Title Sequence: 
-    Opening/Ending Animation: 
+    Opening/Ending Animation: Animazione Apertura/Chiusura
     Opera: Opera
     Orchestrator: Orchestratore
     Original Casting: 
     Original Concept: 
-    Original Film Writer: 
+    Original Film Writer: Scrittore Originale Film
     Original Music Composer: Compositore Musica Originale
-    Original Series Creator: 
+    Original Series Creator: Creatore Originale Serie
     Original Series Design: 
     Original Story: Storia Originale
     Other: Altro
@@ -2248,7 +2258,7 @@ it-IT:
     Photo Retouching: 
     Photoscience Manager: Responsabile Fotoscienza
     Picture Car Coordinator: Coordinatore Picture Car
-    Pilot: 
+    Pilot: Pilota
     Pipeline Technical Director: 
     Playback Coordinator: 
     Playback Singer: 
@@ -2267,7 +2277,7 @@ it-IT:
     Post-Production Manager: Manager Post Produzione
     Pre-Visualization Coordinator: 
     Pre-Visualization Supervisor: 
-    Presenter: 
+    Presenter: Presentatore
     Principal Costumer: 
     Producer: Produttore
     Producer's Assistant: 
@@ -2329,7 +2339,7 @@ it-IT:
     Scenario Writer: Sceneggiatore
     Scenic Artist: Artista Scenico
     Schedule Coordinator: Organizzatore Programma
-    Scientific Consultant: 
+    Scientific Consultant: Consulente Scientifico
     Score Engineer: Ingegnere dei punteggi
     Scoring Mixer: Mixer di punteggio
     Screenplay: Sceneggiatura
@@ -2364,8 +2374,8 @@ it-IT:
     Second Unit First Assistant Director: 
     Second Unit Location Manager: 
     Security: Sicurezza
-    Security Coordinator: 
-    Senior Animator: 
+    Security Coordinator: Coordinatore Sicurezza
+    Senior Animator: Animatore Senior
     Senior Colorist: 
     Senior Digital Intermediate Colorist: 
     Senior Executive Consultant: Superiore consulente esecutivo
@@ -2589,7 +2599,7 @@ it-IT:
     Wardrobe Supervisor: 
     Weapons Master: 
     Weapons Wrangler: 
-    Web Designer: 
+    Web Designer: Web Designer
     Wig Designer: 
     Wigmaker: Parrucchiere
     Writer: Scrittore
@@ -2598,40 +2608,40 @@ it-IT:
   joined: unito
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
-      close_window: 
-      focus_search: 
+      back_to_parent: torna indietro (o al precedente quando applicabile)
+      close_window: chiudi una finestra aperta
+      focus_search: focalizza la barra di ricerca
       go_to_edit: 
-      last_reply: 
-      new_discussion: 
-      next_episode: 
-      next_page: 
-      next_season: 
-      open_activity: 
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
-      open_translation_selector: 
-      previous_episode: 
-      previous_page: 
-      previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
-      toggle_close: 
-      toggle_private: 
+      last_reply: vai all'ultima risposta
+      new_discussion: crea nuova discussione
+      next_episode: "(freccia destra) vai all'episodio successivo"
+      next_page: "(freccia destra) pagina successiva"
+      next_season: "(freccia destra) vai alla stagione successiva"
+      open_activity: apri attivita
+      open_add_image_window: apri finestra aggiungi immagine
+      open_profile: apri menu profilo
+      open_shortcut_window: apri finestra scorciatoia tastiera
+      open_translation_selector: apri selettore traduzione
+      previous_episode: "(freccia sinistra) vai all'episodio precedente"
+      previous_page: "(freccia sinistra) pagina precedente"
+      previous_season: "(freccia sinistra) vai alla stagione precedente"
+      reply_to_discussion: rispondi alla discussione
+      save_form: invia modulo
+      submit_message: invia il tuo messaggio
+      toggle_close: cambia chiuso/aperto
+      toggle_private: cambia publico/privato
       toggle_watching: 
     groups:
       discussion_pages: 
       edit_pages: 
-      global: 
+      global: Globale
       image_pages: 
       media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
-    view_keyboard_shorcuts: 
-    view_shortcuts: 
+      tv_episode_pages: Nelle pagine degli episodi TV
+      tv_season_pages: Nelle pagine delle stagioni TV
+    keyboard_shortcuts: Scorciatoie Tastiera
+    view_keyboard_shorcuts: Vedi Scorciatoie Tastiera
+    view_shortcuts: Vedi Scorciatoie
   list_info:
     average_rating: Voto Medio
     image_selected: Selezionato
@@ -2670,10 +2680,12 @@ it-IT:
     changes:
       filters:
         clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        key: Tasto
+        language: Lingua
+        user: Utente
+      number_of_changes:
+        one: "%{count} Cambio"
+        other: "%{count} Cambi"
       view_weekly_leaderboard: Visualizza Classifica Settimanale
     company:
       headquarters: Quartier generale
@@ -2694,7 +2706,7 @@ it-IT:
         networks: Cerca un network...
         person: Cerca una persona...
         production_companies: Cerca compagnia di produzione...
-      success_fields_locked: 
+      success_fields_locked: Campi bloccati.
       tooltips:
         bible: Per assistenza nella modifica delle informazioni su TMDb, fare clic su questo '?' leggere il manuale di contributo.
         homepage: Solo homepage ufficiale. Le pagine fan non sono permesse.
@@ -2703,10 +2715,10 @@ it-IT:
         overview: Quando scrivi una descrizione, cerca di tenerla breve, concisa e priva di spoiler.
         social_links: I collegamenti social sono solo per le pagine ufficiali (verificate). Le pagine fan non sono permesse.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: Visita Facebook
+      visit_homepage: Visita Homepage
+      visit_instagram: Visita Instagram
+      visit_twitter: Visita Twitter
     genre:
       movie_page_title: "%{name} Film"
       tv_page_title: "%{name} Serie Tv"
@@ -2740,9 +2752,9 @@ it-IT:
 
           <p> Se questo contenuto è ad esempio un DVD di compilation, un video di fitness o forse un DVD "migliore di", dovresti contrassegnarlo come un video. </ p>
         crew:
-          job_required: 
+          job_required: e richiesta un lavoro
           no_records: Nessun membro della troupe aggiunto.
-          person_required: 
+          person_required: e richiesta una persona
         genres:
           add_genre: Aggiungi Genere
           no_records: Nessun genere aggiunto.
@@ -2829,8 +2841,8 @@ it-IT:
         screened_confirm: Se questo episodio è stato proiettato in un festival cinematografico o in un teatro, fai clic su "Sì" per continuare.
         screened_label: Questo episodio è stato proiettato teatralmente?
       episode_selector:
-        current_episode: 
-        episode: 
+        current_episode: Episodi %{season_number}x%{episode_number}
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Prossimo episodio
         previous_episode: Episodio precedente
     tv_season:
@@ -2951,7 +2963,7 @@ it-IT:
       one: "%{count} messaggio"
       other: "%{count} messaggi"
     options:
-      admin: 
+      admin: Admin
       archive: Archivio
       settings: Impostazioni
       viewed_at: Visualizzato %{time_ago}
@@ -2972,7 +2984,7 @@ it-IT:
       new_message: Nuovo messaggio
       support_archive: Archivio di supporto
       support_inbox: Posta in arrivo di supporto
-    translate: 
+    translate: Traduci
   month:
     one: mese
     other: "%{count} mesi"
@@ -3052,7 +3064,7 @@ it-IT:
     refresh: Ricarica
     unread_notifications: Notifiche non lette
     view: Vista
-    view_all: 
+    view_all: Vedi Tutto
   number:
     currency:
       format:
@@ -3211,11 +3223,11 @@ it-IT:
           item_reasons:
             already_imported: Già importato.
             cant_find_imdb: Impossibile trovare l'ID IMDb.
-            imdb_id_not_in_row: 
+            imdb_id_not_in_row: ID IMDb non trovato in questa riga
             personal_rating_invalid: La tua valutazione personale non è valida (la valutazione deve essere compresa tra 0,5 e 10,0).
-            personal_rating_not_found: 
-            row_is_invalid: 
-            updated_date: 
+            personal_rating_not_found: Il Tuo voto personale non e stato trovato in questa riga
+            row_is_invalid: Questa riga non e valida
+            updated_date: Data Aggiornamento
           reason: Ragione? (Se applicabile)
           summary: Siamo stati in grado di importare un totale di %{imported_count} elementi dagli %{total_count} (%{imported_percentage}%) che abbiamo rilevato nell'elenco esportato.
         currently_running: La tua importazione è attualmente in esecuzione. È possibile aggiornare questa pagina per vedere se è stata completata.
@@ -3271,8 +3283,8 @@ it-IT:
       change_password: Cambia Password
       edit_profile: Modifica profilo
       email:
-        invalid_dialog_title: 
-        reset_button: 
+        invalid_dialog_title: Resettare Email?
+        reset_button: Resetta e invia?
         reset_invalid_email_dialog_text: 
         reset_password_invalid_email_dialog_text: 
       reset_password_dialog_text: Confermando questa richiesta ti verrà inviata un'email con le istruzioni su come reimpostare la tua password. Sei sicuro di volerlo fare?
@@ -3287,7 +3299,7 @@ it-IT:
       sharing_settings: Impostazioni di Condivisione
       watchlist:
         remove_when_rated: Rimuovere automaticamente gli elementi quando sono valutati?
-        share_publicly: 
+        share_publicly: Condividi questa lista pubblicamente?
         watchlist_settings: Impostazioni Watchlist
     social:
       connected_table:
@@ -3340,6 +3352,6 @@ it-IT:
   used_by_developers: TMDb è utilizzato da più di 200.000 sviluppatori. <br>Sfoglia le loro attività di seguito.
   view all: Vedi tutti
   will_paginate:
-    next_label: 
+    next_label: Successivo →
     page_gap: 
-    previous_label: 
+    previous_label: "← Precedente"

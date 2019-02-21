@@ -130,7 +130,7 @@ tr-TR:
   Delete Movie: Filmi Sil
   Delete Person: Kişiyi Sil
   Delete TV Show: Diziyi Sil
-  Deny: 
+  Deny: Reddet
   Department: Bölüm
   Description: Açıklama
   Design or Functionality Issue: Tasarım ya da Özellik Sorunu
@@ -174,8 +174,8 @@ tr-TR:
   Facts: Film Detayları
   Fallback Language: Geri Dönüş Dili
   Favorite: Favori
-  Favorite Movies: 
-  Favorite TV Shows: 
+  Favorite Movies: Favori Filmler
+  Favorite TV Shows: Favori Diziler
   Favorites: Favoriler
   Featured: Öne Çıkan
   Featured Cast: Öne Çıkan Kadro
@@ -208,7 +208,7 @@ tr-TR:
   Help: Yardım
   Help Us By Contributing Missing Data: Eksik içeriği tamamlamak için bize yardımcı olun
   Hi: Merhaba
-  Hide favorites?: 
+  Hide favorites?: Favorileri gizle?
   Hide items on watchlist?: 
   Hide rated?: 
   Home: Ana Sayfa
@@ -241,11 +241,11 @@ tr-TR:
   Legal: Yasal
   List Results: Sonuçları Listele
   Lists: Listeler
-  Load More: 
-  Locked?: 
+  Load More: Daha Fazla Yükle
+  Locked?: Kilitli?
   Login to Add a Backdrop: 
-  Login to Add a Poster: 
-  Login to Add a Video: 
+  Login to Add a Poster: Poster Eklemek İçin Oturum Aç
+  Login to Add a Video: Video Eklemek İçin Oturum Aç
   Login to Edit Cast & Crew: Oyuncu ve Ekipleri Düzenlemek İçin Giriş Yap
   Login to add this TV show to your favorite list: Diziyi favori listenize eklemek için giriş yapınız
   Login to add this TV show to your watchlist: Diziyi izleme listenize eklemek için giriş yapınız
@@ -255,12 +255,12 @@ tr-TR:
   Login to rate this TV show: Diziyi değerlendirmek için giriş yapınız
   Login to rate this movie: Filmi değerlendirmek için giriş yapınız
   Login to report an issue: Hata bildiriminde bulunmak için giriş yapınız
-  Logo: 
+  Logo: Logo
   Logos & Attribution: Logolar
   Logout: Çıkış Yap
   Male: Erkek
   Mark as Favorite: Favori Olarak İşaretle
-  Media: 
+  Media: Medya
   Member since: Üyeliğe Başlangıç
   Merge Keyword: 
   Mixed Compact View: 
@@ -332,7 +332,7 @@ tr-TR:
   Poster Card View: 
   Posters: Afişler
   Powered by TMDb: TMDb tarafından desteklenmektedir
-  Powered by The Movie Database: 
+  Powered by The Movie Database: 'Movie Database Tarafından Desteklenmektedir '
   Premiere: Gala
   Preview: Önizleme
   Primary Color: Ana Renk
@@ -690,9 +690,19 @@ tr-TR:
   already_translated_in: "%{page_title} sayfası şu dillere önceden çevrilmiştir..."
   api_session:
     3rd_party_request: 3üncü Parti Kimlik Doğrulama Talebi
+    account_required:
+      need_account: 
+      title: 
     approved_session: "%{application_name} ı onayladın. Bu pencereyi kapatabilirsin."
     continue: Devam etmek istiyorsanız, aşağıdaki onaylama düğmesine tıklayın. İstemiyorsanız, bu pencereyi kapatabilirsiniz.
-    request_token_approval: "{{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Bu izin TMDb dışında listelerinize ulaşmak veya filmlere oy verebilmek gibi eylemler için gereklidir."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Bu izin TMDb dışında listelerinize ulaşmak veya filmlere oy verebilmek gibi eylemler için gereklidir."
     statuses:
       completed:
         message: ' <strong>%{application_name}</strong> uygulamasına okuma yazma izinleri verdiniz. Artık bu pencereyi kapatıp uygulamaya geri dönebilirsiniz. Bu izni daha sonra değiştirmek için hesap ayarları sayfanıza giderek "Bağlı uygulamalar" sayfasından ayar yapabilirsiniz. '
@@ -715,7 +725,7 @@ tr-TR:
     overview: Genel Bakış
     title: Başlık
     to_accounts_ids: Kime
-    translated_overview: 
+    translated_overview: Genel bakış
   average edits per day: günlük ortalama düzenleme miktarı
   back_options:
     back: Geri
@@ -730,7 +740,7 @@ tr-TR:
     to_tmdb: TMDb'ye Geri Dön
     top: Başa Dön
   certifications:
-    meaning: 
+    meaning: Anlam
     movies:
       AU:
         '1':
@@ -873,19 +883,19 @@ tr-TR:
           meaning: "Yalnızca 18 yaş üstü yetişkinlere özel izinle açılan yetişkin salonlarda gösterilebilir veya sex shoplarda yine bu kişilere satılabilir. Bu kategorideki filmler her zaman sert porno filmlerdir. Bunlar cinsel uyarıcı içerik olarak tanımlanır ve tamamen aleni cinsel ilişki sahneleri, fetiş nesneler, açık cinsel ögeler barındıran animeler veya üçlü cinsel münasebet barındıran sahneler içerebilir. Bu kategoride izin verilmeyen unsurlar şu şekildedir:\nÇok ciddi yaralanmaların görselleri, ürolojik zevk içeren sahneler, ensest ima eden sahneler, çocukların cinsel ilişkisini içeren durumlar, tükütme veya saçını çekip sürükleme gibi sahneler. Bu kategorideki filmlere uygulanacak sansür, diğer tüm kategorilerdan daha fazladır. "
       HU:
         '0':
-          meaning: 
+          meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Yaş sınırı yok
         '2':
-          meaning: 
+          meaning: '6 yaşın altındakilere tavsiye edilmez. '
         '3':
-          meaning: 
+          meaning: '12 yaşın altındakilere tavsiye edilmez. '
         '4':
-          meaning: 
+          meaning: '16 yaşın altındakilere tavsiye edilmez. '
         '5':
-          meaning: 
+          meaning: '18 yaşın altındakilere tavsiye edilmez. '
         '6':
-          meaning: 
+          meaning: 18 yaş sınırı, yalnızca yetişkinler için
       IN:
         '0':
           meaning: Hindistan genelinde sınırsız olarak kamuya açık, tüm yaş grupları için uygundur. Bu kategorideki filmler 4 yaşın üstündeki çocukları kötü etkilememelidir. Bu tür filmler eğitici, sosyal veya aile odaklı temalar içerebilir. Bu kategorideki filmler ayrıca fantezi şiddeti ve / veya az miktarda kötü dil içerebilir.
@@ -1005,18 +1015,18 @@ tr-TR:
         '1':
           meaning: Tüm yaş grupları izleyebilir.
         '2':
-          meaning: 
+          meaning: "(6 yaşından büyük çocuklar için) - 6 yaşınından küçük çocuklar için uygun değil"
         '3':
-          meaning: 
+          meaning: "(12 yaşından büyük çocuklar için) - 12 yaşınından küçük çocuklar için uygun değil"
         '4':
-          meaning: 
+          meaning: "(16 yaşından büyük çocuklar için) - 16 yaşınından küçük çocuklar için uygun değil"
         '5':
-          meaning: 
+          meaning: "(Çocuk yaştakiler için yasak) - 18 yaşının altındakiler için yasak"
       SE:
         '0':
-          meaning: 
+          meaning: Değerlendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Her yaşa uygun
         '2':
           meaning: 
         '3':
@@ -1027,9 +1037,9 @@ tr-TR:
         '0':
           meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Her yaş için uygun görülmüştür. Çoğu ebeveyne göre sakıncalı içerik yoktur.  1968'den bu yana hala var olan  beri iki derecelendirmeden biridir.
         '2':
-          meaning: 
+          meaning: Bazı materyaller 10 yaşının altındakiler için uygun olmayabilir. Bu filmler argo bir dil,  kaba/müstehcen mizah, ürkütücü anlar ve/veya şiddet içerebilir. Birkaç istisna hariç uyuşturucu ile ilgili içerik yoktur. Birkaç ırkçı hakaret de duyulabilir.
         '3':
           meaning: 
         '4':
@@ -1086,9 +1096,9 @@ tr-TR:
         '0':
           meaning: Derecelendirme bilgisi yok
         '1':
-          meaning: 
+          meaning: Her yaş için uygundur ve hiç cinsel içerik/şiddet içermemelidir veya çok az içermelidir.
         '2':
-          meaning: 
+          meaning: 8 yaş ve üstü için uygundur ve çok az şiddet, argo, cinsel içerik içerebilir
         '3':
           meaning: 
         '4':
@@ -1138,9 +1148,9 @@ tr-TR:
           meaning: 18 yaş altı çocuklar için tavsiye edilmez. Gece 12'den önce ve sabah 5'ten sonra yayınlanamaz. Yalnız belirli kanallarda yayınlanabilir. Bu yayınlara erişim kişisel şifreyle kilitlidir.
       GB:
         '0':
-          meaning: 
+          meaning: E sembolü Evrensel kelimesinden gelir. Evrensel bir film 4 yaş ve üstündeki izleyiciler için uygun olmalıdır.
         '1':
-          meaning: 
+          meaning: ER 'Ebeveyn Rehberliği'nin kısaltmasıdır. Bu bir filmin genel izleyici için uygun olduğu anlamına gelir ancak bazı sahneler küçük yaştaki çocuklar için uygun olmayabilir. Ebeveyn Rehberliği gerektiren bir film 8 yaşlarındaki veya daha büyük bir çocuğu rahatsız etmemelidir.
         '2':
           meaning: 
         '3':
@@ -1153,11 +1163,11 @@ tr-TR:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: Değerlendirme bilgisi yok.
         '1':
-          meaning: 
+          meaning: Yaş sınırı yok.
         '2':
-          meaning: 
+          meaning: Çocuklar için önerilen programlar. İsteğe bağlı değerlendirmedir, yayıncıların belirtme zorunluluğu yoktur.
         '3':
           meaning: 
         '4':
@@ -1348,7 +1358,7 @@ tr-TR:
         top: 
     pro_tip: 
     search:
-      placeholder_1: 
+      placeholder_1: 'Ne konuda yardıma ihtiyacın var? '
     tv:
       tall_bible:
         bottom: 
@@ -1518,7 +1528,9 @@ tr-TR:
       post_summary:
         one: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
         other: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
-      summary: 
+      summary:
+        one: ''
+        other: "%{count} tartışmalar, şu an %{total_pages} sayfadan %{current_page}"
     post:
       delete: Sil
       edit: Düzenle
@@ -1589,7 +1601,7 @@ tr-TR:
       invalid: geçersizdir
       required: mevcut olmalıdır.
       suspected_tv_series: 
-      taken: 
+      taken: çoktan alınmış
     movie:
       duplicate_cast: Bu kişi daha önce oyuncu olarak eklenmiş.
     tv:
@@ -1612,8 +1624,8 @@ tr-TR:
       catch_up_now: Şimdi yakala
       discussions: Tartışmalar
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: 2018 özetini oku
+      thats_a_wrap: Bu bir Özet!
     tv_shows:
       episode_airs:
         in_days: Yeni bölüm %{number_of_days} gün içinde yayınlanıyor
@@ -1675,7 +1687,7 @@ tr-TR:
     Accounting Clerk Assistant: Kâtip (Muhasebe)
     Accounting Supervisor: Muhasebe Danışmanı
     Accounting Trainee: Muhasebe Stajyeri
-    Acting Double: 
+    Acting Double: Dublör
     Action Director: Aksiyon yönetmeni
     Actor: Oyuncu
     Actor's Assistant: Oyuncu Asistanı
@@ -1694,7 +1706,7 @@ tr-TR:
     Additional First Assistant Camera: 
     Additional Gaffer: 
     Additional Grip: 
-    Additional Hairstylist: 
+    Additional Hairstylist: Ek Saç Stilisti
     Additional Key Construction Grip: 
     Additional Key Grip: 
     Additional Lighting Technician: İlave Işık Teknisyeni
@@ -1704,7 +1716,7 @@ tr-TR:
     Additional Post-Production Supervisor: İlave Yapım sonrası danışmanı
     Additional Production Assistant: İlave Yapım Asistanı
     Additional Production Sound Mixer: 
-    Additional Script Supervisor: 
+    Additional Script Supervisor: Ek Senaryo Danışmanı
     Additional Second Assistant Camera: İlave ikinci yardımcı kamera
     Additional Second Assistant Director: İlave ikinci yardımcı yönetmen
     Additional Set Dresser: İlave Set Kostümcüsü
@@ -2013,7 +2025,7 @@ tr-TR:
     Fight Choreographer: 
     File Footage: 
     Film Processor: 
-    Finance: 
+    Finance: Maliye
     Finishing Producer: 
     First Assistant "A" Camera: 
     First Assistant "B" Camera: 
@@ -2087,8 +2099,8 @@ tr-TR:
     Insert Unit First Assistant Director: 
     Insert Unit Location Manager: 
     Interactive Manager: 
-    Interior Designer: 
-    Intern: 
+    Interior Designer: İç Mimar
+    Intern: Stajyer
     Jimmy Jib Operator: 
     Joint ADR Mixer: 
     Junior Story Editor: 
@@ -2150,14 +2162,14 @@ tr-TR:
     Logistics Coordinator: 
     Loop Group Coordinator: 
     Lyricist: 
-    Machinist: 
+    Machinist: Makinist
     Main Title Designer: 
     Main Title Theme Composer: 
-    Makeup & Hair: 
+    Makeup & Hair: Makyaj & Saç
     Makeup & Hair Assistant: 
     Makeup Artist: 
     Makeup Department Head: 
-    Makeup Designer: 
+    Makeup Designer: Makyaj Tasarımcısı
     Makeup Effects: 
     Makeup Effects Designer: 
     Makeup Supervisor: 
@@ -2165,7 +2177,7 @@ tr-TR:
     Manager of Operations: 
     Marine Coordinator: 
     Marine Pilot: 
-    Martial Arts Choreographer: 
+    Martial Arts Choreographer: Dövüş Sanatları Kareografı
     Master Lighting Artist: 
     Master at Arms: 
     Matchmove Supervisor: 
@@ -2180,7 +2192,7 @@ tr-TR:
     Modelling Supervisor: 
     Motion Actor: 
     Motion Capture Artist: 
-    Music: 
+    Music: Müzik
     Music Arranger: 
     Music Co-Supervisor: 
     Music Consultant: 
@@ -2195,9 +2207,9 @@ tr-TR:
     Music Supervisor: 
     Musical: 
     Musical Casting: 
-    Musician: 
+    Musician: Müzisyen
     Negative Cutter: 
-    Novel: 
+    Novel: Roman
     "O\x01B\x01 Lighting": 
     "O\x01B\x01 Sound": 
     On Set Computer Graphics: 
@@ -2207,16 +2219,16 @@ tr-TR:
     Online Editor: 
     Opening Title Sequence: 
     Opening/Ending Animation: 
-    Opera: 
+    Opera: Opera
     Orchestrator: 
     Original Casting: 
-    Original Concept: 
+    Original Concept: Orijinal Konsept
     Original Film Writer: Original Film Writer
     Original Music Composer: 
     Original Series Creator: 
     Original Series Design: 
-    Original Story: 
-    Other: 
+    Original Story: Orijinal Hikaye
+    Other: Diğer
     Paint Coordinator: 
     Painter: 
     Payroll Accountant: 
@@ -2229,7 +2241,7 @@ tr-TR:
     Pipeline Technical Director: 
     Playback Coordinator: 
     Playback Singer: 
-    Poem: 
+    Poem: Şiir
     Police Consultant: 
     Post Coordinator: 
     Post Producer: 
@@ -2244,10 +2256,10 @@ tr-TR:
     Post-Production Manager: 
     Pre-Visualization Coordinator: 
     Pre-Visualization Supervisor: 
-    Presenter: 
+    Presenter: Sunucu
     Principal Costumer: 
     Producer: Yapımcı
-    Producer's Assistant: 
+    Producer's Assistant: Yapımcı Asistanı
     Production Accountant: 
     Production Artist: 
     Production Assistant: 
@@ -2269,7 +2281,7 @@ tr-TR:
     Production Sound Mixer: 
     Production Supervisor: 
     Production Trainee: 
-    Project Manager: 
+    Project Manager: Proje Müdürü
     Projection: 
     Prop Designer: 
     Prop Maker: 
@@ -2282,8 +2294,8 @@ tr-TR:
     Prosthetic Designer: 
     Prosthetic Makeup Artist: 
     Prosthetic Supervisor: 
-    Prosthetics: 
-    Prosthetics Painter: 
+    Prosthetics: Protez
+    Prosthetics Painter: Protez Ressamı
     Prosthetics Sculptor: 
     Public Relations: 
     Publicist: 
@@ -2291,11 +2303,11 @@ tr-TR:
     Pyrotechnician: 
     Quality Control Supervisor: 
     Radio Play: 
-    Receptionist: 
+    Receptionist: Resepsiyonist
     Recording Supervision: 
     Red Technician: 
     Research Assistant: 
-    Researcher: 
+    Researcher: Araştırmacı
     Rigging Gaffer: 
     Rigging Grip: 
     Rigging Supervisor: 
@@ -2311,14 +2323,14 @@ tr-TR:
     Scoring Mixer: 
     Screenplay: Senaryo
     Screenstory: 
-    Script: 
-    Script Consultant: 
-    Script Coordinator: 
-    Script Editor: 
-    Script Researcher: 
-    Script Supervisor: 
-    Sculptor: 
-    Seamstress: 
+    Script: Senaryo
+    Script Consultant: Senaryo Danışmanı
+    Script Coordinator: Senaryo Koordinatörü
+    Script Editor: Senaryo Editörü
+    Script Researcher: Senaryo Araştırmacısı
+    Script Supervisor: Senaryo Denetçisi
+    Sculptor: Heykeltıraş
+    Seamstress: Terzi
     Second Assistant "A" Camera: 
     Second Assistant "B" Camera: 
     Second Assistant "C" Camera: 
@@ -2340,8 +2352,8 @@ tr-TR:
     Second Unit Director of Photography: 
     Second Unit First Assistant Director: 
     Second Unit Location Manager: 
-    Security: 
-    Security Coordinator: 
+    Security: Güvenlik
+    Security Coordinator: Güvenlik Koordinatörü
     Senior Animator: 
     Senior Colorist: 
     Senior Digital Intermediate Colorist: 
@@ -2360,9 +2372,9 @@ tr-TR:
     Set Buyer: 
     Set Costumer: 
     Set Decorating Coordinator: 
-    Set Decoration: 
+    Set Decoration: Set Dekorasyonu
     Set Decoration Buyer: 
-    Set Designer: 
+    Set Designer: Set Tasarımcısı
     Set Dresser: 
     Set Dressing Artist: 
     Set Dressing Buyer: 
@@ -2383,21 +2395,21 @@ tr-TR:
     Shading: 
     Shoe Design: 
     Shop Electric: 
-    Short Story: 
+    Short Story: Kısa Hikaye
     Sign Painter: 
     Simulation & Effects Artist: 
     Simulation & Effects Production Assistant: 
     Smoke Artist: 
     Software Engineer: 
     Software Team Lead: 
-    Songs: 
-    Sound: 
-    Sound Assistant: 
-    Sound Design Assistant: 
-    Sound Designer: 
+    Songs: Şarkılar
+    Sound: Ses
+    Sound Assistant: Ses Asistanı
+    Sound Design Assistant: Ses Dizaynı Asistanı
+    Sound Designer: Ses Tasarımcısı
     Sound Director: 
-    Sound Editor: 
-    Sound Effects: 
+    Sound Editor: Ses Editörü
+    Sound Effects: Ses Efektleri
     Sound Effects Designer: 
     Sound Effects Editor: 
     Sound Engineer: 
@@ -2447,7 +2459,7 @@ tr-TR:
     Story Consultant: 
     Story Coordinator: 
     Story Developer: 
-    Story Editor: 
+    Story Editor: Hikaye Editörü
     Story Manager: 
     Story Supervisor: 
     Storyboard: 
@@ -2457,7 +2469,7 @@ tr-TR:
     Street Casting: 
     Studio Teacher: 
     Stunt Coordinator: 
-    Stunt Double: 
+    Stunt Double: Dublör
     Stunt Driver: 
     Stunts: 
     Stunts Coordinator: 
@@ -2478,9 +2490,9 @@ tr-TR:
     Supervisor of Production Resources: 
     Swing: 
     Systems Administrators & Support: 
-    Tailor: 
-    Tattoo Designer: 
-    Tattooist: 
+    Tailor: Terzi
+    Tattoo Designer: Dövme Tasarımcısı
+    Tattooist: Dövmeci
     Technical Advisor: 
     Technical Supervisor: 
     Techno Crane Operator: 
@@ -2503,7 +2515,7 @@ tr-TR:
     Title Illustration: 
     Trainee Production Coordinator: 
     Transcriptions: 
-    Translator: 
+    Translator: Çevirmen
     Transportation Captain: 
     Transportation Co-Captain: 
     Transportation Coordinator: 
@@ -2534,11 +2546,11 @@ tr-TR:
     Vehicles Coordinator: 
     Vehicles Wrangler: 
     Video Assist Operator: 
-    Video Game: 
+    Video Game: Video Oyunu
     Video Report: 
     Videojournalist: 
     Visual Development: 
-    Visual Effects: 
+    Visual Effects: Görsel Efektler
     Visual Effects Art Director: 
     Visual Effects Assistant Editor: 
     Visual Effects Camera: 
@@ -2554,9 +2566,9 @@ tr-TR:
     Visual Effects Production Manager: 
     Visual Effects Supervisor: 
     Visual Effects Technical Director: 
-    Vocal Coach: 
-    Vocals: 
-    Voice: 
+    Vocal Coach: Vokal Koçu
+    Vocals: Vokal
+    Voice: Ses
     Wardrobe Assistant: 
     Wardrobe Coordinator: 
     Wardrobe Designer: 
@@ -2576,17 +2588,17 @@ tr-TR:
   keyboard_shortcuts:
     actions:
       back_to_parent: 
-      close_window: 
+      close_window: açık bir pencereyi kapat
       focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
+      go_to_edit: sayfayı düzenlemeye git
+      last_reply: son yanıta git
+      new_discussion: yeni tartışma oluştur
       next_episode: 
       next_page: 
       next_season: 
       open_activity: 
       open_add_image_window: 
-      open_profile: 
+      open_profile: profil menüsünü aç
       open_shortcut_window: 
       open_translation_selector: 
       previous_episode: 
@@ -2606,9 +2618,9 @@ tr-TR:
       media_pages: 
       tv_episode_pages: 
       tv_season_pages: 
-    keyboard_shortcuts: 
+    keyboard_shortcuts: Klavye Kısayolları
     view_keyboard_shorcuts: 
-    view_shortcuts: 
+    view_shortcuts: Kısayolları Görüntüle
   list_info:
     average_rating: Ortalama Puanı
     image_selected: Seçildi
@@ -2622,13 +2634,13 @@ tr-TR:
     total_revenue: Toplam Gelir
     total_runtime: Toplam Çalışma Zamanı
   list_messages:
-    comment_updated: 
-    image_saved: 
+    comment_updated: Yorum güncellendi!
+    image_saved: Görüntü kaydedildi!
     item_added: 
     item_already_added: 
     item_removed: 
   list_sort:
-    original_order: 
+    original_order: Orijinal Sıra
     rating: Oylar
     release_date: Yayın Tarihi
     title: Başlık
@@ -2641,15 +2653,15 @@ tr-TR:
     login_text_1: 'TMDb''nin düzenleme ve oy verme işlevlerini kullanabilmek ve size özel tavsiyeler alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDb hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayın</a> '
     login_text_2: 'Eğer kayıt olduğunuz halde onay epostası size ulaşmadıysa tekrar onay epostası almak için <a href="%{verification_link}">buraya tıklayın</a> '
     login_to_your_account: Hesabına Gir
-  login_to_create: 
-  login_to_edit: 
+  login_to_create: 'Bir filmi veya diziyi bulamıyor musun? Eklemek için oturum aç. '
+  login_to_edit: Düzenlemek için oturum aç
   media:
     changes:
       filters:
         clear: 
         key: 
-        language: 
-        user: 
+        language: Dil
+        user: Kullanıcı
       number_of_changes: 
       view_weekly_leaderboard: Haftalık Liderleri Görüntüle
     company:
@@ -2665,11 +2677,11 @@ tr-TR:
         create_person:
           click_to_create: 
           create_it: 
-        genres: 
-        job: 
+        genres: Bir tür seç...
+        job: Bir iş seç...
         keywords: 
         networks: 
-        person: 
+        person: Bir kişiyi ara...
         production_companies: 
       success_fields_locked: Kilitli alanlar
       tooltips:
@@ -2741,8 +2753,8 @@ tr-TR:
         Rumored: Söylenti
     network:
       edit:
-        alternative_names: 
-        logos: 
+        alternative_names: Alternatif İsimler
+        logos: Logolar
         merge:
           choose_destination: 
           confirm_merge: Birleştirme Onayı
@@ -2786,12 +2798,12 @@ tr-TR:
         featured_review: Öne çıkan yorum
         no_review:
           logged_in: 
-          public: 
+          public: "%{title} için hiç eleştiri yok. "
         read_all: Tüm yorumları oku
         read_the_rest: geri kalanları oku
         write_review:
-          logged_in: 
-          public: 
+          logged_in: Bir Eleştiri Yaz
+          public: Eleştiri yazmak için oturum aç.
     tv_episode:
       edit:
         guest_stars:
@@ -2830,25 +2842,27 @@ tr-TR:
         crew:
           no_season: 
         episode_groups:
-          create_new_group: 
-          description: 
+          create_new_group: Yeni Grup Yarat
+          description: Tanım
           episode_groups: 
           episodes:
             move_episodes: 
             no_records: 
           grid:
-            episodes: 
+            episodes: Bölümler
             groups: Gruplar
           group: Grup
           messages:
-            episodes_added: 
-          name: 
+            episodes_added:
+              one: "%{count} bölüm eklendi!"
+              other: "%{count} bölüm eklendi!"
+          name: Grup Adı
           no_records: 
           type: Tip
           types:
-            '1': 
+            '1': Orijinal Yayın Tarihi
             '2': 
-            '3': 
+            '3': DVD
             '4': 
             '5': 
             '6': 
@@ -2866,8 +2880,10 @@ tr-TR:
           no_records: 
       episode_groups:
         groups:
-          count: 
-        original_air_date: 
+          count:
+            one: "%{count} Grup"
+            other: "%{count} Grup"
+        original_air_date: Orijinal Yayın Tarihi
       networks: 
       statuses:
         Canceled: İptal Edildi
@@ -2877,16 +2893,16 @@ tr-TR:
         Planned: Planlanmış
         Returning Series: Yeni Sezonu Olan Diziler
       types:
-        Documentary: 
+        Documentary: Belgesel
         Miniseries: 
-        News: 
+        News: Haber
         Reality: 
         Scripted: 
         Talk Show: 
-        Video: 
+        Video: Video
     video:
       audio_language: 
-      channel: 
+      channel: Kanal
       duration: Süre
       published: Yayın Tarihi
       published_at: 
@@ -2900,18 +2916,18 @@ tr-TR:
     compose:
       ban: 
       from: 
-      message: 
+      message: Mesaj
       subject: 
       template: 
       to: 
-    no_messages: 
+    no_messages: Mesaj yok
     notifications:
       new_message: 
     number_of_messages: 
     options:
       admin: 
-      archive: 
-      settings: 
+      archive: Arşiv
+      settings: Ayarlar
       viewed_at: 
     placeholders:
       no_conversation_selected:

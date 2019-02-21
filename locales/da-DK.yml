@@ -692,9 +692,19 @@ da-DK:
   already_translated_in: "%{page_title} er allerede oversat til følgende sprog..."
   api_session:
     3rd_party_request: 3. parts godkendelses anmodning
+    account_required:
+      need_account: 
+      title: 
     approved_session: Du har godkendt %{application_name}. Du kan nu lukke dette vindue.
     continue: Hvis du vil fortsætte, klik på godkend knappen herunder. Hvis ikke, så bare luk vinduet.
-    request_token_approval: "{{APP}} beder om din tilladelse til at læse og skrive data på dine vegne. Dette er nødvendigt, hvis du vil gøre ting som at vedligeholde dine lister eller vurdere film uden for TMDb."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} beder om din tilladelse til at læse og skrive data på dine vegne. Dette er nødvendigt, hvis du vil gøre ting som at vedligeholde dine lister eller vurdere film uden for TMDb."
     statuses:
       completed:
         message: Du har givet læse og skrive tilladelse til <strong>%{application_name}</ strong>. Du kan nu vende tilbage til programmet og lukke dette vindue. Du kan altid tilbagekalde denne adgang ved at gå ind på din kontoindstillingsside og derefter på din "Connected Apps" -side.

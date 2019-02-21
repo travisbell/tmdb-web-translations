@@ -690,9 +690,19 @@ en-US:
   already_translated_in: "%{page_title} is already translated in the following languages..."
   api_session:
     3rd_party_request: 3rd Party Authentication Request
+    account_required:
+      need_account: You need to be logged in to continue!
+      title: An Account is Required
     approved_session: You have approved %{application_name}. You can close this window.
     continue: If you would like to continue, click the approve button below. If not, you can simply close this window.
-    request_token_approval: "{{APP}} is asking for your permission to read and write data on your behalf. This is necessary if you want to do things like maintain your lists or rate movies outside of TMDb."
+    invalid_api_app:
+      message: The API user that is currently being authenticated is not valid.
+      title: Invalid API User
+    missing_request_token:
+      message: A request token is required in order to authenticate user accounts.
+      title: Missing Request Token
+    request_token_approval:
+      message: "{{APP}} is asking for your permission to read and write data on your behalf. This is necessary if you want to do things like maintain your lists or rate movies outside of TMDb."
     statuses:
       completed:
         message: You have granted read & write permission to <strong>%{application_name}</strong>. You can now return to the application and close this window. You can always revoke this access by going into your account settings page and then your "Connected Apps" page.
@@ -701,7 +711,7 @@ en-US:
         message: "<p>You have denied access to <strong>%{application_name}</strong>. If this was a mistake, or you'd like to restart the authentication process just head back into the application and request permission again.</p>"
         name: Authentication Denied
       invalid_request_token:
-        message: The access token you have submitted is invalid. Try creating a new one and making sure you have copied it correctly. If you continue to  have issues, contact the developer of the app you're using.
+        message: The access token you have submitted is invalid. Most of the time, this is because the token has expired. Try creating a new one and making sure you have copied it correctly. If you continue to have issues, contact the developer of the app you're using.
         name: Invalid Request Token
   attributes:
     biography: Biography

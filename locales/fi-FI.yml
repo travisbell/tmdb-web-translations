@@ -690,9 +690,19 @@ fi-FI:
   already_translated_in: "%{page_title} on jo käännetty seuraavilla kielille..."
   api_session:
     3rd_party_request: Kolmannen osapuolen todennuspyyntö
+    account_required:
+      need_account: 
+      title: 
     approved_session: Olet hyväksynyt %{application_name}. Voit sulkea tämän ikkunan.
     continue: Jos haluat jatkaa, klikkaa 'hyväksy' nappia alta. Jos et, voit yksinkertaisesti sulkea tämän ikkunan.
-    request_token_approval: "{{APP}} pyytää hyväksyntääsi kirjoittaa ja lukea tietoja puolestasi. Tämä on välttämätöntä, jos haluat ylläpitää listoja tai pisteyttää elokuvia TMDb:n ulkopuolella."
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} pyytää hyväksyntääsi kirjoittaa ja lukea tietoja puolestasi. Tämä on välttämätöntä, jos haluat ylläpitää listoja tai pisteyttää elokuvia TMDb:n ulkopuolella."
     statuses:
       completed:
         message: Olet sallinut sovellukselle <strong>%{application_name}</strong> lukea ja kirjoittaa tietoja. Voit nyt palata sovellukseen ja sulkea tämän ikkunan. Voit peruuttaa luvan menemällä tiliasetuksiisi ja valitsemalla "sallitut sovellukset".
@@ -873,7 +883,7 @@ fi-FI:
           meaning: 'Voidaan esittää ainoastaan luvallisessa aikuisille tarkoitetussa elokuvateatterissa tai myydä luvallisessa seksiliikkeessä, ja ainoastaan yli 18-vuotiaille aikuisille. Tämän luokituksen alaiset elokuvat ovat aina kovaa pornografia, ja tarkoitettu seksuaalisen tyydytyksen tuottamiseen, sensuroimattomia kuvia aidosta seksuaalisesta aktista, vahvaa fetissimateriaalia, vahvaa animoitua materiaalia, tai siinä kuvataa tietynlaista aktia kuten tripla-penetraatiota tai eritteiden vaihtoa. Tämän ulkopuolelle jää tietty materiaali, joka usein leikataan R18-luokituksesta: vahva materiaali BDSM:stä tai piiskaamisesta johtuvista vammoista, urofilia, insesti (myös lavastettu), viittaukset seksuaaliseen kanssakäymiseen alaikäisen kanssa tai seksuaaliseen kehitykseen, näyttelijä repiminen tai päälle sylkeminen ei ole sallittu. Tälle luokitukselle vaaditaan enemmän leikkausta mitä muille luokituksille.'
       HU:
         '0':
-          meaning: 
+          meaning: Ei luokitustietoja.
         '1':
           meaning: Ei ikärajoitusta.
         '2':
@@ -895,13 +905,13 @@ fi-FI:
           meaning: Sallittu ainoastaan yli 18-vuotiaille aikuisille. Alle Alle 18-vuotias ei voi vuokrata tai ostaa 15-luokiteltua VHS, DVD, Blu-ray, UMD-tallennetta tai peliä, eikä katsoa elokuvaa elokuvateatterissa. Tämän luokituksen alaiset elokuvat saattavat sisältää aikuisille suunnattuja/häiritseviä teemoja, toistuvaa huonoa kielenkäyttöä, veristä ja raakaa väkivaltaa, vahvoja seksikohtauksia ja/tai päihteiden väärinkäyttöä jonka ei katsota soveltuvan alaikäisille.
       IT:
         '0':
-          meaning: 
+          meaning: Ei luokitustietoja.
         '1':
-          meaning: 
+          meaning: Sallittu kaiken ikäisille.
         '2':
-          meaning: 
+          meaning: Ei sallittu alle 14-vuotiaille.
         '3':
-          meaning: 
+          meaning: Ei sallittu alle 18-vuotiaille.
       LT:
         '1':
           meaning: Soveltuu kaikenikäisille katsojille.
@@ -1108,7 +1118,7 @@ fi-FI:
           meaning: Voidaan esittää ainoastaan klo 23:00-06:00 välisenä aikana.
       ES:
         '0':
-          meaning: 
+          meaning: Ei luokitustietoja.
         '1':
           meaning: Suositeltu erityisesti nuoremmille lapsille.
         '2':
@@ -1635,8 +1645,8 @@ fi-FI:
       catch_up_now: Pysy ajan tasalla
       discussions: Keskustelut
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Lue vuoden 2018 yhteenveto
+      thats_a_wrap: Hommat paketissa!
     tv_shows:
       episode_airs:
         in_days: Uusi jakso esitetään %{number_of_days} päivän päästä
@@ -3295,7 +3305,7 @@ fi-FI:
       sharing_settings: Jakoasetukset
       watchlist:
         remove_when_rated: Poista pisteytetyt nimikkeet automaattisesti?
-        share_publicly: 
+        share_publicly: Jaa tämä lista julkisesti?
         watchlist_settings: Seurantalistan asetukset
     social:
       connected_table:

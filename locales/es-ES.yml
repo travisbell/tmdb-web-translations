@@ -690,9 +690,19 @@ es-ES:
   already_translated_in: "%{page_title} ya está traducida en los siguientes idiomas..."
   api_session:
     3rd_party_request: Autentificación Requerida de Terceros
+    account_required:
+      need_account: 
+      title: 
     approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
     continue: Si quieres continuar, haz click en aprobar. Si no, simplemente cierra esta ventana.
-    request_token_approval: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas puntuadas fuera de TMDb"
+    invalid_api_app:
+      message: 
+      title: 
+    missing_request_token:
+      message: 
+      title: 
+    request_token_approval:
+      message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas puntuadas fuera de TMDb"
     statuses:
       completed:
         message: Has concedido permiso para leer y escribir a <strong>%{application_name}</strong>. Ahora puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso yendo a los ajustes de tu cuenta y a tu "Aplicaciones Conectadas" página.
@@ -2292,7 +2302,7 @@ es-ES:
     Production Office Assistant: Ayudante de Oficina de Producción
     Production Office Coordinator: Coordinador de Oficina de Producción
     Production Runner: 
-    Production Secretary: ecretario/a de producción
+    Production Secretary: Secretario/a de producción
     Production Sound Mixer: Mezclador de sonido
     Production Supervisor: Supervisor de Producción
     Production Trainee: Aprendiz de Producción
@@ -3301,7 +3311,7 @@ es-ES:
       sharing_settings: Opciones de compartir
       watchlist:
         remove_when_rated: "¿Borrar elementos automáticamente cuando estén calificados?"
-        share_publicly: 
+        share_publicly: Compartir esta lista públicamente?
         watchlist_settings: Opciones de Lista de pendientes
     social:
       connected_table:
