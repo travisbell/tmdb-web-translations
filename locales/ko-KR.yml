@@ -233,10 +233,10 @@ ko-KR:
   Language Preferences: 선호하는 언어
   Languages: 언어
   Last Name: 성
-  Last Season Crew: 마지막 시즌 제작진
-  Last Season Featured Crew: 마지막 시즌 주요 제작진
-  Last Season Regular Cast: 마지막 시즌 정규 출연진
-  Last Week: 마지막 주
+  Last Season Crew: 지난 시즌 제작진
+  Last Season Featured Crew: 지난 시즌 주요 제작진
+  Last Season Regular Cast: 지난 시즌 정규 출연진
+  Last Week: 지난 주
   Leaderboard: 기여 랭킹
   Legal: 법적 사항
   List Results: 리스트 검색 결과
@@ -543,7 +543,7 @@ ko-KR:
       table:
         action: 액션
         edit: 편집
-        key: 키
+        key: 항목
         language_abbreviation: 언어
     average_movie_score: 평균<br>영화 점수
     average_tv_score: 평균<br>TV 점수
@@ -629,15 +629,15 @@ ko-KR:
       watchlist: 보고싶어요
     order: '순서:'
     overview:
-      30_day_activity: 30일 내 활동
+      30_day_activity: 30일 간의 활동
       empty_recent_activity:
-        logged_in: 회원님은 최근 어떤 편집도 하지 않았어요.
-        public: "%{username}님은 최근 어떤 편집도 하지 않았어요."
+        logged_in: 회원님은 최근 어떤 편집도 하지 않았습니다.
+        public: "%{username}님은 최근 어떤 편집도 하지 않았습니다."
       empty_upcoming_watchlist:
-        logged_in: 감상할 작품 중 개봉/방영 예정 잡힌 게 없네요.
+        logged_in: 감상할 작품 중 개봉/방영 예정 잡힌 게 없습니다.
       empty_watched_genres:
-        logged_in: 어떤 영화나 TV 프로그램도 기록하지 않았어요.
-        public: "%{username}님은 어떤 영화나 TV 프로그램도 기록하지 않았어요."
+        logged_in: 어떤 영화나 TV 프로그램도 등록하지 않았습니다.
+        public: "%{username}님은 어떤 영화나 TV 프로그램도 등록하지 않았습니다."
       goto_discussions: 토론으로 이동
       goto_watchlist: "'보고싶어요'로 이동"
       most_watched_genres: 가장 많이 본 장르
@@ -1313,7 +1313,7 @@ ko-KR:
     movies_missing_a_poster: 영화 포스터 누락
     movies_missing_a_title: 영화 제목 누락
     page_title: 누락된 정보 제공
-    selected_language: 언어
+    selected_language: 언어 선택
     tv_missing_a_backdrop: TV 프로그램 배경 누락
     tv_missing_a_poster: TV 프로그램 포스터 누락
     tv_show_language_distribution: TV 프로그램 언어별 분포
@@ -1463,17 +1463,17 @@ ko-KR:
   discussions:
     actions:
       actions: 
-      close_discussion: 
-      make_private: 
-      make_public: 
-      mark_spam: 
-      reopen_discussion: 
-      stop_watching: 
-      view_activity: 
-      watch: 
-    admin_panel: 
+      close_discussion: 토론 끝내기
+      make_private: 비공개 설정
+      make_public: 공개 설정
+      mark_spam: 스팸 설정
+      reopen_discussion: 토론 재시작
+      stop_watching: 그만보기
+      view_activity: 활동 보기
+      watch: 보기
+    admin_panel: 관리자 메뉴
     back_options:
-      back_to_item_with_arrow: "← %{item_title}로 돌아가기"
+      back_to_item_with_arrow: "%{item_title} 바로가기"
       back_to_tmdb_with_arrow: "← TMDb로 돌아가기"
       back_with_arrow: "← 돌아가기"
     categories:
@@ -1494,8 +1494,8 @@ ko-KR:
         support: 지원
         website_support: 웹사이트 지원
     category:
-      last_reply_with_datetime: 
-      last_reply_with_datetime_and_username: 
+      last_reply_with_datetime: "%{date} at  %{time}"
+      last_reply_with_datetime_and_username: "%{date} at %{time}<br> 작성자 : %{username}"
     discussion_activity: 토론 내역
     email_notifications:
       email_notifications: 이메일 알람
@@ -1523,36 +1523,36 @@ ko-KR:
       delete: 삭제
       edit: 수정
       hide: 
-      ignore: 무시
-      like: 
+      ignore: 차단
+      like: 좋아요
       messages:
         delete_comment: "'예'를 누르시면, 해당 코멘트는 영구 삭제됩니다."
         delete_discussion: "'예'를 누르시면, 해당 토론은 영구 삭제됩니다."
         hide_comment: "'예'를 누르시면, 해당 코멘트는 숨김 처리됩니다."
         hide_discussion: "'예'를 누르시면, 해당 토론은 숨김 처리됩니다."
         ignore_user: 정말로 이 회원님을 차단하시겠습니까? 차단 후, 이 회원님의 모든 토론과 댓글이 사라지게 됩니다. 차단 해제를 원할 경우, 회원님의 계정 설정의 "차단 유저" 페이지에서 하실 수 있습니다.
-        mark_as_spam: 
+        mark_as_spam: 이 토론을 스팸으로 표시 하시겠습니까? 수행 한 후에는 자동으로 삭제되며 취소 할 수 없습니다. 토론을 스팸으로 표시하면 우리가 사용하는 "스팸 탐지 서비스" 개선에 도움이 됩니다.
         report_violation: 
         unhide_discussion: 
-      posted_by_with_datetime: 
-      quote: 
-      reopen_reply: 
-      reply: 
-      reply_by: 
-      reply_on_datetime: 
-      report: 보고
+      posted_by_with_datetime: "%{date}일 %{time}시에 %{username}님이 게시함"
+      quote: 참고댓글
+      reopen_reply: 새로운 창에 댓글달기
+      reply: 댓글
+      reply_by: "%{username}님의 댓글"
+      reply_on_datetime: "%{date} at %{time}"
+      report: 신고
       unhide: 보이기
-    report_violation: 위반 보고
+    report_violation: 위반 신고
     search:
       advanced_search: 고급 검색
       search_closed: 
       search_forums: 포럼 검색
-      search_open: 
+      search_open: 검색을 열까요?
     statuses:
-      closed: 닫힘
-      open: 열기
+      closed: 토론끝
+      open: 토론중
     table_headers:
-      last_reply: 마지막 답변
+      last_reply: 최근 댓글
       replies: 답변
       status: 상태
       subject: 주제
@@ -2578,8 +2578,8 @@ ko-KR:
       back_to_parent: 돌아가기
       close_window: 열린 창 닫기
       focus_search: 검색 바 띄우기
-      go_to_edit: 편집 페이지로 돌아가기
-      last_reply: 마지막 답변으로 가기
+      go_to_edit: 편집 페이지로 이동
+      last_reply: 마지막 댓글로 가기
       new_discussion: 새 토론 만들기
       next_episode: "(우 화살표) 다음 에피소드로 가기"
       next_page: "(우 화살표) 다음 페이지"
@@ -2592,8 +2592,8 @@ ko-KR:
       previous_episode: "(좌 화살표) 이전 에피소드로 가기"
       previous_page: "(좌 화살표) 이전 페이지"
       previous_season: "(좌 화살표) 이전 시즌으로 가기"
-      reply_to_discussion: 답변하기
-      save_form: 제출 양식
+      reply_to_discussion: 댓글에 글쓰기
+      save_form: 항목 저장
       submit_message: 회원님의 메세지 제출
       toggle_close: 
       toggle_private: 
@@ -2646,19 +2646,21 @@ ko-KR:
   media:
     changes:
       filters:
-        clear: 
-        key: 
-        language: 
-        user: 
-      number_of_changes: 
+        clear: 지우기
+        key: 키
+        language: 언어
+        user: 사용자
+      number_of_changes:
+        one: "%{count} 개 바뀜"
+        other: "%{count} 개 바뀜"
       view_weekly_leaderboard: 주간 리더보드 보기
     company:
       headquarters: 본사
       movie_page_title: "%{name} 제작 영화"
       tv_page_title: "%{name} TV 프로그램"
     edit:
-      lock_all_fields: 모든 란 잠그기
-      lock_all_images: 모든 이미지 잠금
+      lock_all_fields: 모든 항목 잠그기
+      lock_all_images: 모든 이미지 잠그기
       page_title: "%{name} 편집"
       placeholders:
         country: 국가 선택
@@ -2671,7 +2673,7 @@ ko-KR:
         networks: 방송사 검색
         person: 인물 검색
         production_companies: 제작사 검색
-      success_fields_locked: 
+      success_fields_locked: 잠그기 완료
       tooltips:
         bible: TMDB 내 정보 편집에 관해 도움을 원하신다면, '?'를 눌러 기여 지침서를 읽어주세요.
         homepage: 공식 홈페이지만 허용. 팬 홈페이지 불가.
@@ -2680,17 +2682,17 @@ ko-KR:
         overview: 개요 작성시, 스포일러 없이 일목요연하게 작성해주십시오.
         social_links: 소셜 링크에는 공인된 공식 홈페이지만 연결해주십시오. 팬 홈페이지 불가.
     external_links:
-      visit_facebook: 
-      visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_facebook: 페이스북 가기
+      visit_homepage: 홈페이지 가기
+      visit_instagram: 인스타그램 가기
+      visit_twitter: 트위터 가기
     genre:
       movie_page_title: "%{name} 영화"
       tv_page_title: "%{name} TV 프로그램"
     images:
-      format: 규격
-      no_backdrop_stills: 
-      no_backdrops: 
+      format: 형식
+      no_backdrop_stills: 배경 스틸컷이 추가되지 않았습니다.
+      no_backdrops: 배경 화면이 추가되지 않았습니다.
       no_logos: 추가된 로고 없음
       no_posters: 추가된 포스터 없음
       no_profiles: 추가된 프로필 없음
@@ -2770,20 +2772,20 @@ ko-KR:
     person:
       edit:
         alternative_names:
-          no_records: 입력된 다른 이름 없음
+          no_records: 다른 이름이 추가되지 않았습니다.
     rating:
       rated_with_rating: 
     social_panel:
       discussions:
-        currently_subscribed: 
+        currently_subscribed: 이제 다른 사용자가 첫 게시글을 작성 시 알림을 받을 수 있습니다.
         no_discussions: "%{item_title}에 관한 어떤 토론도 없습니다. 로그인 하셔서 첫 작성자가 되세요! "
-        unsubscribe_me: 
+        unsubscribe_me: 구독 취소
         want_to_be_notified: 누군가 첫 게시글 작성시 알람 받길 원하십니까?
-        yes_notify_me: 네, 제게 알려주세요!
+        yes_notify_me: 네, 알림을 받습니다!
       reviews:
         a_review_by: "%{username}의 리뷰"
         by: "%{username}(이)가 %{date}에 작성"
-        featured_review: 
+        featured_review: 추천 리뷰
         no_review:
           logged_in: '%{title}에 관한 리뷰가 없습니다. <a href="%{url}">리뷰</a>를 작성하시겠습니까?'
           public: "%{title}에 관한 리뷰가 없습니다."
@@ -2894,13 +2896,18 @@ ko-KR:
       audio_language: 음성 언어
       channel: 채널
       duration: 재생 시간
-      published: 
+      published: 게시됨
       published_at: 
       restricted_regions: 제한 지역
       tags: 태그
   message_templates:
     help_translate:
-      message: "안녕하세요. TMDB를 이용해주셔서 감사합니다. 다름이 아니라, 회원님께서 현재 번역 미완료된 한국어판 TMDB를 이용하시는 걸 알게 되었습니다. 만약 사이트 번역 작업에 관심이 있으시다면, 저희의 [Locale project](https://www.localeapp.com/projects/8267) 사이트로 방문해 주십시오. Locale 사이트 가입[Signing up] (https://www.localeapp.com/users/sign_up)은 무료이며, 시간 날 때 언제든지 사이트 번역에 참여하실 수 있습니다. 회원님의 모든 편집이 저희에게 도움이 됩니다.\n\n만약 번역 작업에 관심이 없으시다면, 굳이 하지 않으셔도 됩니다. 한 번 부탁 드리는 것만으로도 저희는 만족합니다.\n\n감사합니다! "
+      message: |-
+        안녕하세요. TMDB를 이용해주셔서 감사합니다. 다름이 아니라, 회원님께서 현재 번역 미완료된 한국어판 TMDB를 이용하시는 걸 알게 되었습니다. 만약 사이트 번역 작업에 관심이 있으시다면, 저희의 [Locale project](https://www.localeapp.com/projects/8267) 사이트로 방문해 주세요. Locale 사이트 가입[Signing up] (https://www.localeapp.com/users/sign_up)은 무료이며, 시간 날 때 언제든지 사이트 번역에 참여하실 수 있습니다. 회원님의 모든 편집이 저희에게 도움이 됩니다.
+
+        만약 번역 작업에 관심이 없으시다면, 굳이 하지 않으셔도 됩니다. 한 번 들려주시는 것만으로도 저희는 만족합니다.
+
+        감사합니다!
       subject: 저희 웹사이트의 번역을 도와주십시오
   messages:
     compose:
@@ -2925,7 +2932,7 @@ ko-KR:
         no_conversations: 어떤 대화 내역도 없어요. 잘 됐군요!
         view: 좌측에서 대화 내역을 보실 수 있습니다.
       no_user_found: 검색되는 이용자 없음
-      reply: 메세지 작성
+      reply: 본문 작성
       subject: 
       to: 
     right_column_titles:
@@ -3004,7 +3011,7 @@ ko-KR:
     public: 이 목록은 비어있습니다.
   no_writer: 입력된 각본가 없음.
   not_translated:
-    logged_in: "%{page_title}(은)는 아직 <strong>%{requested_i18n} (%{requested_language_text})</strong>로 번역되지 않습니다. 번역하시길 원하신다면, 아래 버튼을 눌러주십시오."
+    logged_in: "%{page_title}(은)는 아직 <strong>%{requested_i18n} (%{requested_language_text})</strong>로 번역되지 않습니다. 번역을 추가하시려면 아래 버튼을 눌러주세요."
     public: '%{page_title}(은)는 아직 <strong>%{requested_i18n} (%{requested_language_text})</strong>로 번역되지 않습니다. <a href="%{signup_link}">회원 가입</a> 후 <a href="%{login_link}">로그인</a>을 하시면 번역 작업을 하실 수 있습니다.'
   notifications:
     caught_up: 모든 알람을 다 확인하셨어요.
@@ -3066,7 +3073,7 @@ ko-KR:
   number_of_votes: "%{count} 참여"
   pagination:
     currently_on: 총 %{total_pages} 중 현재 %{current_page} 페이지
-    last_page: 이전 페이지
+    last_page: 마지막 페이지
     load_more: 더 불러오기
     next_page: 다음 페이지
     next_page_with_arrow: 다음 페이지 →
@@ -3122,17 +3129,17 @@ ko-KR:
         sessions: 
         stats: 
     blocked_users:
-      action: 
-      blocked_users: 차단 유저
-      no_blocked: 차단한 유저 없음.
-      username: 유저명
+      action: 실행
+      blocked_users: 차단한 사용자
+      no_blocked: 차단한 사용자가 없습니다.
+      username: 사용자이름
     change_email:
       change_email: 이메일 변경
       change_email_text: 회원님의 이메일을 변경하길 원하시면, 하단 영역에 새로운 이메일을 입력해주세요. 그 후 다시 로그인 하시기 전에, 저희가 회원님의 새로운 메일 주소로 보낸 메일에서 계정 활성화 링크를 누르셔야 합니다.
     connected_apps:
       connected_apps: 연결된 앱
-      listed_below_explanation: 
-      no_apps: 연결된 앱 없음.
+      listed_below_explanation: 사용자를 대신하여 데이터를 쓸 수있는 권한을 부여받은 타사 응용 프로그램입니다. 권한 부여는 언제든지 취소 할 수 있습니다.
+      no_apps: 연결된 앱이 없습니다.
       table:
         action: 
         application_name: 어플리케이션 명칭
@@ -3141,21 +3148,21 @@ ko-KR:
       delete_account: 계정 삭제
       summary_text: 회원님께선 <strong>위험 구역</strong>에 진입하셨습니다! 정말로 계정 삭제를 원하신다면, 하단에 비밀번호를 입력해주십시오.
     import_list:
-      import_button: 불러오기
-      import_list: 목록 불러오기
+      import_button: 가져오기
+      import_list: 가져오기 목록
       navigation:
         import: 불러오기
-        previous: 
+        previous: '이전 '
       notification:
         finished_import: 불러오기 완료!
         started_import: 불러오기 시작
       previous:
         date: 일자
-        imported: 불러옴
-        items: 
-        local_list: 
-        no_imports: 불러온 목록 없음.
-        type: 
+        imported: 가져오기
+        items: 항목
+        local_list: 가져오기 제목
+        no_imports: 가져온 목록 없음
+        type: 종류
       results:
         complete:
           imported: 
@@ -3164,8 +3171,8 @@ ko-KR:
             already_imported: 
             cant_find_imdb: 찾을 수 없는 IMDb ID입니다.
             imdb_id_not_in_row: 
-            personal_rating_invalid: 
-            personal_rating_not_found: 
+            personal_rating_invalid: 당신의 개인평점은 유효하지 않습니다. (0.5~10.0 사이값을 넣으세요)
+            personal_rating_not_found: 여기에는 당신의 개인평점이 없습니다.
             row_is_invalid: 
             updated_date: 
           reason: 
@@ -3175,12 +3182,12 @@ ko-KR:
         in_progress:
           import_status: 불러오기 상태
           summary: 
-      select_csv: CSV 파일 불러오기
+      select_csv: CSV 파일 선택
       type:
         favorite: 선호
         rated: 평가
         watchlist: 보고싶어요
-      which_list: 어떤 목록을 불러오시겠습니까?
+      which_list: 어떤 목록을 가져오시겠습니까?
     navigation:
       account_settings: 계정 설정
       api: API
@@ -3290,6 +3297,6 @@ ko-KR:
   used_by_developers: 
   view all: 전체 보기
   will_paginate:
-    next_label: 
-    page_gap: 
-    previous_label: 
+    next_label: 다음 →
+    page_gap: "..."
+    previous_label: "← 이전"
