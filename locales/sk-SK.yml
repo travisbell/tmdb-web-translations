@@ -1376,35 +1376,35 @@ sk-SK:
     ok_button: Ok
   date:
     abbr_day_names:
-    - Ned
-    - Pon
-    - Uto
-    - Str
-    - Štv
-    - Pia
-    - Sob
+    - ned
+    - pon
+    - uto
+    - str
+    - štv
+    - pia
+    - sob
     abbr_month_names:
     - 
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - Máj
-    - Jún
-    - Júl
-    - Aug
-    - Sep
-    - Okt
-    - Nov
-    - Dec
+    - jan
+    - feb
+    - mar
+    - apr
+    - máj
+    - jún
+    - júl
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-    - Nedeľa
-    - Pondelok
-    - Utorok
-    - Streda
-    - Štvrtok
-    - Piatok
-    - Sobota
+    - nedeľa
+    - pondelok
+    - utorok
+    - streda
+    - štvrtok
+    - piatok
+    - sobota
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
@@ -1413,18 +1413,18 @@ sk-SK:
       short_month_day_year: "%b %d, %Y"
     month_names:
     - 
-    - Január
-    - Február
-    - Marec
-    - Apríl
-    - Máj
-    - Jún
-    - Júl
-    - August
-    - September
-    - Október
-    - November
-    - December
+    - január
+    - február
+    - marec
+    - apríl
+    - máj
+    - jún
+    - júl
+    - august
+    - september
+    - október
+    - november
+    - december
   day: deň
   days:
     few: "%{count} dní"
@@ -3085,10 +3085,10 @@ sk-SK:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
+        delimiter: '" "'
+        format: "%n %u"
         precision: 2
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: "€"

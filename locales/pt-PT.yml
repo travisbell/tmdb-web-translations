@@ -1376,35 +1376,35 @@ pt-PT:
     ok_button: 
   date:
     abbr_day_names:
-    - Dom
-    - Seg
-    - Ter
-    - Qua
-    - Qui
-    - Sex
-    - Sáb
+    - dom
+    - seg
+    - ter
+    - qua
+    - qui
+    - sex
+    - sáb
     abbr_month_names:
     - 
-    - Jan
-    - Fev
-    - Mar
-    - Abr
-    - Mai
-    - Jun
-    - Jul
-    - Ago
-    - Set
-    - Out
-    - Nov
-    - Dez
+    - jan
+    - fev
+    - mar
+    - abr
+    - mai
+    - jun
+    - jul
+    - ago
+    - set
+    - out
+    - nov
+    - dez
     day_names:
-    - Domingo
-    - Segunda-feira
-    - Terça-feira
-    - Quarta-feira
-    - Quinta-feira
-    - Sexta-feira
-    - Sábado
+    - domingo
+    - segunda-feira
+    - terça-feira
+    - quarta-feira
+    - quinta-feira
+    - sexta-feira
+    - sábado
     formats:
       abbrev: "%d %b %Y"
       default: "%d-%m-%Y"
@@ -1413,18 +1413,18 @@ pt-PT:
       short_month_day_year: "%d de %b de %Y"
     month_names:
     - 
-    - Janeiro
-    - Fevereiro
-    - Março
-    - Abril
-    - Maio
-    - Junho
-    - Julho
-    - Agosto
-    - Setembro
-    - Outubro
-    - Novembro
-    - Dezembro
+    - janeiro
+    - fevereiro
+    - março
+    - abril
+    - maio
+    - junho
+    - julho
+    - agosto
+    - setembro
+    - outubro
+    - novembro
+    - dezembro
   day: dia
   days:
     one: dia
@@ -3028,10 +3028,10 @@ pt-PT:
   number:
     currency:
       format:
-        delimiter: "."
-        format: "%u%n"
+        delimiter: '" "'
+        format: "%n %u"
         precision: 2
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: "€"

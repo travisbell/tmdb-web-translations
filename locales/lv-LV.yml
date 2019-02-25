@@ -1363,16 +1363,55 @@ lv-LV:
     message: 
     ok_button: 
   date:
-    abbr_day_names: 
-    abbr_month_names: 
-    day_names: 
+    abbr_day_names:
+    - svēt
+    - pirm
+    - otr
+    - treš
+    - ceturt
+    - piekt
+    - sest
+    abbr_month_names:
+    - 
+    - jan
+    - feb
+    - mar
+    - apr
+    - mai
+    - jūn
+    - jūl
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
+    day_names:
+    - svētdiena
+    - pirmdiena
+    - otrdiena
+    - trešdiena
+    - ceturtdiena
+    - piektdiena
+    - sestdiena
     formats:
       abbrev: 
       default: 
       full_month_day: 
       full_month_year: 
-      short_month_day_year: 
-    month_names: 
+      short_month_day_year: "%d %b %Y"
+    month_names:
+    - janvāris
+    - februāris
+    - marts
+    - aprīlis
+    - maijs
+    - jūnijs
+    - jūlijs
+    - augusts
+    - septembris
+    - oktobris
+    - novembris
+    - decembris
   day: 
   days: 
   deleted_content:
@@ -2953,13 +2992,13 @@ lv-LV:
   number:
     currency:
       format:
-        delimiter: 
-        format: 
+        delimiter: '" "'
+        format: "%n %u"
         precision: 
-        separator: 
+        separator: ","
         significant: 
         strip_insignificant_zeros: 
-        unit: 
+        unit: s
     format:
       delimiter: 
       precision: 

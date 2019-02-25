@@ -1372,28 +1372,28 @@ fr-CA:
     ok_button: 
   date:
     abbr_day_names:
-    - Dim
-    - Lun
-    - Mar
-    - Mer
-    - Jeu
-    - Ven
-    - Sam
+    - dim
+    - lun
+    - mar
+    - mer
+    - jeu
+    - ven
+    - sam
     abbr_month_names:
     - 
-    - Jan
-    - Fév
-    - Mar
-    - Avr
-    - Mai
-    - Jun
-    - Jul
-    - Aoû
-    - Sep
-    - Oct
-    - Nov
-    - Déc
-    day_names: '["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]'
+    - jan
+    - fév
+    - mar
+    - avr
+    - mai
+    - jun
+    - jul
+    - aoû
+    - sep
+    - oct
+    - nov
+    - déc
+    day_names: '--- ''["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"]'''
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
@@ -1402,18 +1402,18 @@ fr-CA:
       short_month_day_year: 
     month_names:
     - 
-    - Janvier
-    - Février
-    - Mars
-    - Avril
-    - Mai
-    - Juin
-    - Juillet
-    - Août
-    - Septembre
-    - Octobre
-    - Novembre
-    - Decembre
+    - janvier
+    - février
+    - mars
+    - avril
+    - mai
+    - juin
+    - juillet
+    - août
+    - septembre
+    - octobre
+    - novembre
+    - decembre
   day: jour
   days:
     one: jour
@@ -3003,10 +3003,10 @@ fr-CA:
   number:
     currency:
       format:
-        delimiter: " "
+        delimiter: '" "'
         format: "%n%u"
         precision: 
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: "$"

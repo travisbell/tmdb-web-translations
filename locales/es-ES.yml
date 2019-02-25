@@ -691,16 +691,16 @@ es-ES:
   api_session:
     3rd_party_request: Autentificación Requerida de Terceros
     account_required:
-      need_account: 
-      title: 
+      need_account: "¡Necesitas iniciar sesión para continuar!"
+      title: Se requiere una cuenta
     approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
     continue: Si quieres continuar, haz click en aprobar. Si no, simplemente cierra esta ventana.
     invalid_api_app:
-      message: 
-      title: 
+      message: El usuario de la API que se está autenticando actualmente no es válido.
+      title: El Usuario de la API no es válido
     missing_request_token:
-      message: 
-      title: 
+      message: Es necesario solicitar un token para autenticar la cuentas de usuario.
+      title: Falta el token de solicitud
     request_token_approval:
       message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas puntuadas fuera de TMDb"
     statuses:
@@ -1376,55 +1376,55 @@ es-ES:
     ok_button: Vale
   date:
     abbr_day_names:
-    - Dom
-    - Lun
-    - Mar
-    - Mié
-    - Jue
-    - Vie
-    - Sáb
+    - dom
+    - lun
+    - mar
+    - mié
+    - jue
+    - vie
+    - sáb
     abbr_month_names:
     - 
-    - Ene
-    - Feb
-    - Mar
-    - Abr
-    - May
-    - Jun
-    - Jul
-    - Ago
-    - Sep
-    - Oct
-    - Nov
-    - Dic
+    - ene
+    - feb
+    - mar
+    - abr
+    - may
+    - jun
+    - jul
+    - ago
+    - sep
+    - oct
+    - nov
+    - dic
     day_names:
-    - Domingo
-    - Lunes
-    - Martes
-    - Miércoles
-    - Jueves
-    - Viernes
-    - Sábado
+    - domingo
+    - lunes
+    - martes
+    - miércoles
+    - jueves
+    - viernes
+    - sábado
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
-      full_month_day: "%B %e, %Y"
+      full_month_day: "%e %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: b %d, %Y
+      short_month_day_year: "%d %b %Y"
     month_names:
     - 
-    - Enero
-    - Febrero
-    - Marzo
-    - Abril
-    - Mayo
-    - Junio
-    - Julio
-    - Agosto
-    - Septiembre
-    - Octubre
-    - Noviembre
-    - Diciembre
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
   day: día
   days:
     one: día
@@ -1873,8 +1873,8 @@ es-ES:
     Camera Supervisor: Supervisor de Cámara
     Camera Technician: Técnico de Cámara
     Camera Trainee: Aprendiz/Asistente de cámara
-    Camera Truck: 
-    Captain Driver: 
+    Camera Truck: Cámara de camión
+    Captain Driver: Conductor principal
     Carpenter: Carpintero
     Cast Driver: Conductor de elenco
     Casting: Casting
@@ -3074,10 +3074,10 @@ es-ES:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: "€"

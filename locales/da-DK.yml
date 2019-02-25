@@ -1374,41 +1374,41 @@ da-DK:
     ok_button: Ok
   date:
     abbr_day_names:
-    - Søn
-    - Man
-    - Tir
-    - Ons
-    - Tor
-    - Fre
-    - Lør
+    - søn
+    - man
+    - tir
+    - ons
+    - tor
+    - fre
+    - lør
     abbr_month_names:
     - 
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - Maj
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Okt
-    - Nov
-    - Dec
+    - jan
+    - feb
+    - mar
+    - apr
+    - maj
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-    - Søndag
-    - Mandag
-    - Tirsdag
-    - Onsdag
-    - Torsdag
-    - Fredag
-    - Lørdag
+    - søndag
+    - mandag
+    - tirsdag
+    - onsdag
+    - torsdag
+    - fredag
+    - lørdag
     formats:
       abbrev: "%-d %b %Y"
       default: "%d-%m-%Y"
-      full_month_day: "%B %e, %Y"
+      full_month_day: "%e %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: "%b %d, %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
     - 
     - januar
@@ -3041,10 +3041,10 @@ da-DK:
   number:
     currency:
       format:
-        delimiter: 
-        format: 
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: 
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: kr

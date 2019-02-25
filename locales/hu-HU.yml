@@ -1372,13 +1372,13 @@ hu-HU:
     ok_button: 
   date:
     abbr_day_names:
-    - Vas
-    - Hé
-    - Ke
-    - Sze
-    - Csü
-    - Pén
-    - Szo
+    - vas
+    - hé
+    - ke
+    - sze
+    - csü
+    - pén
+    - szo
     abbr_month_names:
     - 
     - jan
@@ -1394,13 +1394,13 @@ hu-HU:
     - nov
     - dec
     day_names:
-    - Vasárnap
-    - Hétfő
-    - Kedd
-    - Szerda
-    - Csütörtök
-    - Péntek
-    - Szombat
+    - vasárnap
+    - hétfő
+    - kedd
+    - szerda
+    - csütörtök
+    - péntek
+    - szombat
     formats:
       abbrev: "%Y. %b %-d."
       default: "%Y. %m. %d."
@@ -3010,17 +3010,17 @@ hu-HU:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%n%u"
+        delimiter: '" "'
+        format: "%n %u"
         precision: 2
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: Ft
     format:
       delimiter: " "
       precision: 3
-      separator: "."
+      separator: ","
       significant: true
       strip_insignificant_zeros: true
     human:

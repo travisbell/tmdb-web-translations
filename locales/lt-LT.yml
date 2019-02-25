@@ -1376,35 +1376,35 @@ lt-LT:
     ok_button: Gerai
   date:
     abbr_day_names:
-    - Sk.
-    - Pr.
-    - An.
-    - Tr.
-    - Kt.
-    - Pn.
-    - Št.
+    - sk.
+    - pr.
+    - an.
+    - tr.
+    - kt.
+    - pn.
+    - št.
     abbr_month_names:
     - 
-    - Sau.
-    - Vas.
-    - Kov.
-    - Bal.
-    - Geg.
-    - Bir.
-    - Lie.
-    - Rgp.
-    - Rgs.
-    - Spl.
-    - Lap.
-    - Grd.
+    - sau.
+    - vas.
+    - kov.
+    - bal.
+    - geg.
+    - bir.
+    - lie.
+    - rgp.
+    - rgs.
+    - spl.
+    - lap.
+    - grd.
     day_names:
-    - Sekmadienis
-    - Pirmadienis
-    - Antradienis
-    - Trečiadienis
-    - Ketvirtadienis
-    - Penktadienis
-    - Šeštadienis
+    - sekmadienis
+    - pirmadienis
+    - antradienis
+    - trečiadienis
+    - ketvirtadienis
+    - penktadienis
+    - šeštadienis
     formats:
       abbrev: "%Y %b %-d"
       default: "%Y/%m/%d"
@@ -1413,18 +1413,18 @@ lt-LT:
       short_month_day_year: "%Y %b %d"
     month_names:
     - 
-    - Sausio
-    - Vasario
-    - Kovo
-    - Balandžio
-    - Gegužės
-    - Birželio
-    - Liepos
-    - Rugpjūčio
-    - Rugsėjo
-    - Spalio
-    - Lapkričio
-    - Gruodžio
+    - sausio
+    - vasario
+    - kovo
+    - balandžio
+    - gegužės
+    - birželio
+    - liepos
+    - rugpjūčio
+    - rugsėjo
+    - spalio
+    - lapkričio
+    - gruodžio
   day: diena
   days:
     few: "%{count} dienų"
@@ -3050,10 +3050,10 @@ lt-LT:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
+        delimiter: '" "'
+        format: "%n %u"
         precision: 2
-        separator: "."
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: "€"

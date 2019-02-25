@@ -40,12 +40,12 @@ ko-KR:
   Add a New Cast Member: 출연진 추가
   Add a New Crew Member: 제작진 추가
   Add a New Guest Star: 특별 출연진 추가
-  Add to Watchlist: 보고싶어요에 추가
+  Add to Watchlist: 관심 영상에 추가
   Add to list: 목록에 추가
-  Add to your favorite list: 회원님의 선호 목록에 추가
-  Add to your watchlist: 회원님의 보고싶어요 목록에 추가
+  Add to your favorite list: 회원님의 즐겨찾기 목록에 추가
+  Add to your watchlist: 회원님의 관심 영상에 추가
   Added By: "(이)가 추가함"
-  Added to Watchlist: 보고싶어요에 추가됨
+  Added to Watchlist: 관심 영상에 추가됨
   Adding & Editing Content: 내용 추가 및 수정
   Address 1: 주소 1
   Address 2: 주소 2
@@ -101,7 +101,7 @@ ko-KR:
   Community Guidelines: 커뮤니티 가이드라인
   Companies: 제작 및 배급사
   Company Results: 제작 및 배급사 검색 결과
-  Confirm: 호가인
+  Confirm: 확인
   Confirm Your Application: 회원님의 어플리케이션 확인
   Contact Email: 이메일 연락
   Contact Us: 문의하기
@@ -174,8 +174,8 @@ ko-KR:
   Facts: 사항
   Fallback Language: 보조 언어
   Favorite: 즐겨찾기
-  Favorite Movies: 좋아하는 영화
-  Favorite TV Shows: 좋아하는 TV 프로그램
+  Favorite Movies: 즐겨찾기 영화
+  Favorite TV Shows: 즐겨찾기 TV 프로그램
   Favorites: 즐겨찾기
   Featured: 주연
   Featured Cast: 주요 출연진
@@ -208,8 +208,8 @@ ko-KR:
   Help: 도움말
   Help Us By Contributing Missing Data: 누락된 데이터를 저희에게 알려주세요
   Hi: 안녕하세요.
-  Hide favorites?: 
-  Hide items on watchlist?: 리스트에 오른 작품들을 숨기겠습니까?
+  Hide favorites?: 즐겨찾기를 숨길까요?
+  Hide items on watchlist?: 관심 영상을 숨기겠습니까?
   Hide rated?: 
   Home: 홈
   Homepage: 홈페이지
@@ -247,10 +247,10 @@ ko-KR:
   Login to Add a Poster: 포스터를 추가하시려면 로그인 하십시오.
   Login to Add a Video: 동영상 추가를 위해 로그인 해 주십시오
   Login to Edit Cast & Crew: 출연진 & 제작진을 편집하시려면 로그인 하십시오.
-  Login to add this TV show to your favorite list: 로그인 하여 이 TV 프로그램을 즐겨찾기 목록에 추가
+  Login to add this TV show to your favorite list: 로그인 하여 이 TV 프로그램을 즐겨찾기에 추가
   Login to add this TV show to your watchlist: 로그인 하여 이 TV 프로그램을 시청 목록에 추가
-  Login to add this movie to your favorite list: 로그인 하여 이 영화를 즐겨찾기 목록에 추가
-  Login to add this movie to your watchlist: 로그인 하여 이 영화를 시청 목록에 추가
+  Login to add this movie to your favorite list: 로그인하여 이 영화를 즐겨찾기에 추가
+  Login to add this movie to your watchlist: 로그인하여 이 영화를 관심 영상에 추가
   Login to create and edit custom lists: 개인 리스트를 만들거나 편집하려면 로그인 하십시오.
   Login to rate this TV show: TV 프로그램을 평가 하시려면 로그인 하십시오.
   Login to rate this movie: 영화 평가를 하시려면 로그인 하십시오.
@@ -259,7 +259,7 @@ ko-KR:
   Logos & Attribution: 로고 및 저작자
   Logout: 로그아웃
   Male: 남성
-  Mark as Favorite: 좋아해요 표시
+  Mark as Favorite: 즐겨찾기 표시
   Media: 미디어
   Member since: 가입
   Merge Keyword: 
@@ -369,7 +369,7 @@ ko-KR:
   Release Type: 형태
   Reload Page: 페이지 다시 불러오기
   Remove: 제거
-  Remove from your favorite list: 즐겨찾기 목록에서 제거
+  Remove from your favorite list: 즐겨찾기에서 제거
   Remove from your watchlist: 시청 목록에서 제거
   Remove?: 삭제하시겠습니까?
   Report: 보고
@@ -408,7 +408,7 @@ ko-KR:
   Show: 보기
   Show More: 더 보기
   Size: 크기
-  Social: 소셜 연동
+  Social: 사용자의견
   Sort: 정렬
   Sort By: 정렬
   Sort Cast: 출연진 정렬
@@ -492,7 +492,7 @@ ko-KR:
   View All Seasons: 전체 시즌 보기
   View All Videos: 모든 비디오 보기
   View Discussions: 
-  View Edit History: 편집 역사 보기
+  View Edit History: 편집 내역 보기
   View Episodes: 에피소드 보기
   View More: 더 보기
   View Original: 원본 보기
@@ -508,8 +508,8 @@ ko-KR:
   Written by: 
   Year: 년
   'Yes': 예
-  Your lists: 
-  Your rating: 
+  Your lists: 목록
+  Your rating: 평점
   Zip Code: 우편번호
   account_drop_down:
     discussions: 토론
@@ -523,7 +523,7 @@ ko-KR:
     settings: 계정설정
     sign_up: 회원가입
     view_profile: 프로필 보기
-    watchlist: 시청목록
+    watchlist: 관심 영상
   accounts:
     activity:
       activity: 활동
@@ -591,11 +591,11 @@ ko-KR:
       export_csv: CSV로 내보내기
     favorites:
       my_favorites:
-        logged_in: 나의 선호
-        public: "%{username}의 선호"
+        logged_in: 나의 즐겨찾기
+        public: "%{username}의 즐겨찾기"
       page_title:
-        page_owner: 나의 선호
-        public: "%{username}의 선호"
+        page_owner: 나의 즐겨찾기
+        public: "%{username}의 즐겨찾기"
     filter_by: '필터:'
     filters:
       date_added: 추가일 순
@@ -621,12 +621,12 @@ ko-KR:
     member_since: "%{date}부터 회원"
     navigation:
       discussions: 토론
-      favorites: 선호
+      favorites: 즐겨찾기
       lists: 목록
       overview: 개괄
       ratings_reviews: 평가 & 리뷰
       recommendations: 추천
-      watchlist: 보고싶어요
+      watchlist: 관심 영상
     order: '순서:'
     overview:
       30_day_activity: 30일 간의 활동
@@ -634,19 +634,19 @@ ko-KR:
         logged_in: 회원님은 최근 어떤 편집도 하지 않았습니다.
         public: "%{username}님은 최근 어떤 편집도 하지 않았습니다."
       empty_upcoming_watchlist:
-        logged_in: 감상할 작품 중 개봉/방영 예정 잡힌 게 없습니다.
+        logged_in: 관심 영상 중 개봉/방영 예정이 없습니다.
       empty_watched_genres:
         logged_in: 어떤 영화나 TV 프로그램도 등록하지 않았습니다.
         public: "%{username}님은 어떤 영화나 TV 프로그램도 등록하지 않았습니다."
       goto_discussions: 토론으로 이동
-      goto_watchlist: "'보고싶어요'로 이동"
+      goto_watchlist: "'관심 영상'으로 이동"
       most_watched_genres: 가장 많이 본 장르
       rating_overview: 평점 분포
       recent_activity: 최근 활동
       recent_discussions: 최근 토론
       total_edits: 총 편집 수
       total_ratings: 총 평가 수
-      upcoming_watchlist: 개봉/방영 예정인 '보고싶어요' 목록
+      upcoming_watchlist: 개봉/방영 예정인 '관심 영상' 목록
     page_title:
       page_owner: 내 프로필
       public: "%{username}의 프로필"
@@ -663,7 +663,7 @@ ko-KR:
       ratings_by_year: 연도별 평점
     recommendations:
       my_recommendations: 나를 위한 추천
-      no_recommendations: 회원님께 추천해드릴만큼 충분한 데이터가 쌓이질 않았어요.
+      no_recommendations: 회원님께 추천해드릴만큼 충분한 데이터가 없습니다.
       no_recommendations_helper: 좋아하는 영화들을 입력해주시고 (많으면 많을수록 좋아요) 다시 돌아와주세요.
       page_title: 추천
     tips:
@@ -671,18 +671,18 @@ ko-KR:
       tip: 팁
     watchlist:
       my_watchlist:
-        logged_in: 나의 '보고싶어요' 목록
-        public: "%{username}님의 보고싶어요"
+        logged_in: 나의 '관심 영상' 목록
+        public: "%{username}님의 관심 영상"
       next_month: 다음 달
       no_upcoming_movies:
-        one: 회원님이 '보고싶어요'한 영화 중 개봉 예정인 작품은 없어요. 참고로, 회원님의 '보고싶어요'한 영화는 %{count} 편이에요.
-        other: 회원님이 '보고싶어요'한 영화 중 개봉 예정인 작품은 없어요. 참고로, 회원님의 '보고싶어요'한 영화는 %{count} 편이에요.
+        one: 회원님이 '관심 영상'의 영화 중에 개봉 예정이 없습니다. 참고로, 회원님의 '관심 영상' 영화는 %{count} 편입니다.
+        other: 회원님이 '관심 영상'의 영화 중에 개봉 예정이 없습니다. 참고로, 회원님의 '관심 영상' 영화는 %{count} 편입니다.
       no_upcoming_tv_shows:
-        one: 회원님이 '보고싶어요'한 TV 프로그램 중 방영 예정인 작품은 없어요. 참고로, 회원님의 '보고싶어요'한 프로그램은 %{count} 편이에요.
-        other: 회원님이 '보고싶어요'한 TV 프로그램 중 방영 예정인 작품은 없어요. 참고로, 회원님의 '보고싶어요'한 프로그램은 %{count} 편이에요.
+        one: 회원님이 '관심 영상'의 TV 프로그램 중에 방영 예정이 없습니다. 참고로, 회원님의 '관심 영상' TV 프로그램은 %{count} 편입니다.
+        other: 회원님이 '관심 영상'의 TV 프로그램 중에 방영 예정이 없습니다. 참고로, 회원님의 '관심 영상' TV 프로그램은 %{count} 편입니다.
       page_title:
-        page_owner: 나의 보고싶어요 목록
-        public: "%{username}님의 보고싶어요 목록"
+        page_owner: 나의 관심 영상
+        public: "%{username}님의 관심 영상"
       this_month: 이번 달
       this_week: 이번 주
       view_them: 목록 보기
@@ -691,13 +691,13 @@ ko-KR:
   api_session:
     3rd_party_request: 타사 인증 요청
     account_required:
-      need_account: 
-      title: 
+      need_account: 계속하려면 로그인해야합니다!
+      title: 계정이 필요합니다.
     approved_session: "%{application_name}(을)를 허가하셨습니다. 이제 창을 닫으셔도 됩니다."
     continue: 계속하시길 원하시면, 아래 허가 버튼을 눌러주세요. 아닐 경우, 이 창을 닫아주십시오.
     invalid_api_app:
-      message: 
-      title: 
+      message: 현재 인증중인 API 사용자가 유효하지 않습니다.
+      title: 잘못된 API 사용자
     missing_request_token:
       message: 
       title: 
@@ -2647,12 +2647,12 @@ ko-KR:
     changes:
       filters:
         clear: 지우기
-        key: 키
+        key: 항목
         language: 언어
         user: 사용자
       number_of_changes:
-        one: "%{count} 개 바뀜"
-        other: "%{count} 개 바뀜"
+        one: "%{count} 개 변경"
+        other: "%{count} 개 변경"
       view_weekly_leaderboard: 주간 리더보드 보기
     company:
       headquarters: 본사
@@ -2747,7 +2747,7 @@ ko-KR:
         logos: 로고
         merge:
           choose_destination: 
-          confirm_merge: 
+          confirm_merge: 합치기 확인
           merge: 
           next: 다음
         primary_facts: 기본 사항
@@ -2787,7 +2787,7 @@ ko-KR:
         by: "%{username}(이)가 %{date}에 작성"
         featured_review: 추천 리뷰
         no_review:
-          logged_in: '%{title}에 관한 리뷰가 없습니다. <a href="%{url}">리뷰</a>를 작성하시겠습니까?'
+          logged_in: '%{title}에 관한 리뷰가 없습니다. <a href="%{url}">리뷰 쓰기</a>'
           public: "%{title}에 관한 리뷰가 없습니다."
         read_all: 모든 리뷰 보기
         read_the_rest: 나머지 읽기
@@ -2975,11 +2975,11 @@ ko-KR:
   no_director: 입력된 감독 없음
   no_episode_images: 추가된 에피소드 이미지 없습니다.
   no_favorite_movies:
-    current_user: 추가된 선호 영화 없음.
-    public: "%{username}님은 좋아하는 영화가 없어요."
+    current_user: 추가된 즐겨찾기 영화가 없습니다.
+    public: "%{username}님은 즐겨찾기 영화가 없습니다."
   no_favorite_tv_shows:
-    current_user: 추가된 TV 프로그램 없음.
-    public: "%{username}님은 좋아하는 TV 프로그램이 없어요."
+    current_user: 추가된 즐겨찾기 TV 프로그램이 없습니다.
+    public: "%{username}님은  즐겨찾기 TV 프로그램이 없습니다."
   no_genres: 입력된 장르 없음.
   no_guest_stars: 
   no_keyword_search_results: 회원님이 찾으시는 키워드와 일치하는 것이 없습니다.
@@ -2990,8 +2990,8 @@ ko-KR:
   no_overview: 해당 언어의 줄거리가 존재하지 않습니다. 직접 추가하여 저희를 도울 수 있습니다.
   no_person_search_results: 일치하는 인물이 없습니다.
   no_personal_recommendations:
-    movie: 회원님이 좋아하는 영화를 입력하여 영화 추천을 받으세요. 입력된 작품은 자동적으로 추천에서 제외됩니다.
-    tv: 회원님이 좋아하는 영화를 입력하여 TV 프로그램 추천을 받으세요. 입력된 작품은 자동적으로 추천에서 제외됩니다.
+    movie: 추천 영화를 제공받기 위해서는 회원님이 즐겨찾기 영화를 많이 입력하여야 합니다. 입력된 작품은 자동적으로 추천에서 제외됩니다.
+    tv: 추천 TV 프로그램을 제공받기 위해서는 회원님이 즐겨찾기 TV 프로그램을 많이 입력하여야 합니다. 입력된 작품은 자동적으로 추천에서 제외됩니다.
   no_rated_movies:
     current_user: 회원님은 어떤 영화도 평가 하지 않았습니다.
     public: "%{username}님은 어떤 영화도 평가 하지 않았습니다."
@@ -2999,8 +2999,8 @@ ko-KR:
     current_user: 평가한 TV 프로그램 없음.
     public: "%{username}님은 어떤 TV 프로그램도 평가하지 않으셨어요."
   no_recommendations:
-    movie: 
-    tv_show: 
+    movie: "%{title}의 평가 기반으로 추천할 영화가 없습니다. 회원님의 평점이 우리를 도울 수 있습니다."
+    tv_show: "%{title}의 평가 기반으로 추천할 TV 프로그램이 없습니다. 회원님의 평점이 우리를 도울 수 있습니다."
   no_records: 입력된 기록 없음.
   no_tv_search_results: 일치하는 TV 프로그램이 없습니다.
   no_watchlist_movies:
@@ -3093,25 +3093,25 @@ ko-KR:
   resend_verification_email_text: 
   reset_password_text: 
   search:
-    favorites_movie: 좋아하는 영화 검색
-    favorites_tv: 좋아하는 TV 프로그램 검색
+    favorites_movie: 즐겨찾기 영화 검색...
+    favorites_tv: 즐겨찾기 TV 프로그램 검색...
     in_movies: 영화 검색
     in_people: 인물 검색
-    in_tv_shows: TV 프로그램 중 검색
+    in_tv_shows: TV 프로그램에서 검색
     media_types:
       movie: 영화
       person: 인물
       tv_show: TV 프로그램
     no_results: 결과 없음
     no_results_found: 검색 결과가 없습니다.
-    rated_movie: 평가된 영화 검색
-    rated_tv: 평가된 TV 프로그램 검색
-    recommendations_movie: 
-    recommendations_tv: 
-    trending: 
-    trending_searches: 
-    watchlist_movie: 보고싶어요한 영화 검색
-    watchlist_tv: 보고싶어요한 TV 프로그램 검색
+    rated_movie: 평가한 영화 검색
+    rated_tv: 평가한 TV 프로그램 검색
+    recommendations_movie: 개인 영화 추천 검색 ...
+    recommendations_tv: 개인 TV 프로그램 추천 검색 ...
+    trending: 인기 급상승
+    trending_searches: 인기 급상승 검색
+    watchlist_movie: "'관심 영상' 영화 검색..."
+    watchlist_tv: "'관심 영상'  TV 프로그램 검색..."
   search_tip_1: '팁: ''y:'' 필터를 활용해 연도별 검색을 할 수 있습니다. 예: ''스타 워즈 y:1977''.'
   season_number_name: 
   season_overview:
@@ -3246,7 +3246,7 @@ ko-KR:
       sharing_settings: 공유 설정
       watchlist:
         remove_when_rated: 평가 후 자동으로 지워지게 하시겠습니까?
-        share_publicly: 
+        share_publicly: 이 목록을 공개적으로 공유하시겠습니까?
         watchlist_settings: 보고싶어요 목록 설정
     social:
       connected_table:
@@ -3259,7 +3259,7 @@ ko-KR:
         service: 서비스
       favorite_message_hint: 
       message_settings: 메세지 설정
-      sharing_message_hint: 
+      sharing_message_hint: Twitter 또는 Facebook에서 항목을 공유 할 때...
       social_settings: SNS 설정
       supported_template_values: 
   sign_up:

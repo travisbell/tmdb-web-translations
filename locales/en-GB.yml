@@ -1400,9 +1400,9 @@ en-GB:
     formats:
       abbrev: 
       default: "%d/%m/%Y"
-      full_month_day: 
+      full_month_day: "%e %B %Y"
       full_month_year: 
-      short_month_day_year: 
+      short_month_day_year: "%d %b %Y"
     month_names:
     - 
     - January
@@ -3022,10 +3022,10 @@ en-GB:
   number:
     currency:
       format:
-        delimiter: 
-        format: 
+        delimiter: ","
+        format: "%u%n"
         precision: 
-        separator: 
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
         unit: "£"
