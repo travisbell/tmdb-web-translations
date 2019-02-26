@@ -319,7 +319,6 @@ fr-FR:
   Physical: Copie Physique
   Place of Birth: Lieu de naissance
   Play: Regarder
-  Play Trailer: Regarder le trailer
   Plot Keywords: Mots-clés de l'intrigue
   Popular Lists: Listes populaires
   Popular Movies: Films populaires
@@ -691,8 +690,8 @@ fr-FR:
   api_session:
     3rd_party_request: Demande d'authentification tierce
     account_required:
-      need_account: 
-      title: 
+      need_account: Vous avez besoin d'être connecté(e) pour continuer !
+      title: Un Compte est Obligatoire
     approved_session: Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre.
     continue: Si vous souhaitez poursuivre, cliquez ci-dessous sur le bouton Approuver. Sinon, vous pouvez simplement fermer cette fenêtre.
     invalid_api_app:
@@ -1765,7 +1764,7 @@ fr-FR:
     Additional Soundtrack: Bande originale additionnelle
     Additional Still Photographer: Photographe de plateau supplémentaire
     Additional Storyboarding: 
-    Additional Third Assistant Director: 
+    Additional Third Assistant Director: Troisième Assistant Directeur  Additionnel
     Additional Underwater Photography: Photographe sub-aquatique additionnel
     Additional Visual Effects: Effets visuels additionnels
     Additional Wardrobe Assistant: Assistante garde-robe additionnelle
@@ -1814,7 +1813,7 @@ fr-FR:
     Assistant Decorator: Assistant Decorateur
     Assistant Dialogue Editor: Assistant monteur dialogues
     Assistant Director: Assistant réalisateur
-    Assistant Director Trainee: 
+    Assistant Director Trainee: Stagiaire Assistant Directeur
     Assistant Director of Photography: Assistant Directeur de la photographie
     Assistant Editor: Assistant monteur
     Assistant Electrician: Electricien assistant
@@ -1873,7 +1872,7 @@ fr-FR:
     CG Engineer: Ingénieur CG
     CG Painter: Peintre CG
     CG Supervisor: Superviseur CG
-    CGI Director: 
+    CGI Director: Directeur Infographiste
     CGI Supervisor: Superviseur CGI
     Cableman: Câbliste
     Cameo: Caméo
@@ -1945,7 +1944,7 @@ fr-FR:
     Construction Foreman: Contremaître
     Construction Grip: 
     Construction Manager: 
-    Consulting Accountant: 
+    Consulting Accountant: Consultant Comptable
     Consulting Editor: 
     Consulting Producer: Producteur consultant
     Contact Lens Designer: 
@@ -2120,8 +2119,8 @@ fr-FR:
     Head Greensman: 
     Head of Animation: 
     Head of Layout: 
-    Head of Production: 
-    Head of Programming: 
+    Head of Production: Chef de Production
+    Head of Programming: Chef de la Programmation
     Head of Research: 
     Head of Story: 
     Health and Safety: 
@@ -2179,7 +2178,7 @@ fr-FR:
     Lighting Camera: Caméra de l'éclairage
     Lighting Coordinator: Coordonnateur de l'éclairage
     Lighting Design: 
-    Lighting Director: 
+    Lighting Director: Directeur Eclairage
     Lighting Manager: Responsable de l'éclairage
     Lighting Production Assistant: Assistant de production de l'éclairage
     Lighting Programmer: 
@@ -2211,7 +2210,7 @@ fr-FR:
     Makeup Designer: Créateur de maquillage
     Makeup Effects: Effets de maquillage
     Makeup Effects Designer: 
-    Makeup Supervisor: 
+    Makeup Supervisor: Superviseur Maquillage
     Makeup Trainee: 
     Manager of Operations: Responsable des opérations
     Marine Coordinator: 
@@ -2301,8 +2300,8 @@ fr-FR:
     Producer's Assistant: Assistant du producteur
     Production Accountant: Comptable de production
     Production Artist: Artiste de production
-    Production Assistant: 
-    Production Consultant: 
+    Production Assistant: Assistant Production
+    Production Consultant: Consultant Production
     Production Controller: Contrôleur de production
     Production Coordinator: Coordinateur de production
     Production Design: Décors
@@ -2370,15 +2369,15 @@ fr-FR:
     Script Supervisor: Superviseur du script
     Sculptor: Sculpteur
     Seamstress: Couturière
-    Second Assistant "A" Camera: 
-    Second Assistant "B" Camera: 
-    Second Assistant "C" Camera: 
-    Second Assistant "D" Camera: 
-    Second Assistant Accountant: 
+    Second Assistant "A" Camera: Deuxième Assistant Camera "A"
+    Second Assistant "B" Camera: Deuxième Assistant Camera "B"
+    Second Assistant "C" Camera: Deuxième Assistant Camera "C"
+    Second Assistant "D" Camera: Deuxième Assistant Camera "D"
+    Second Assistant Accountant: Deuxième Assistant Comptable
     Second Assistant Art Director: 
-    Second Assistant Camera: 
-    Second Assistant Director: 
-    Second Assistant Director Trainee: 
+    Second Assistant Camera: Deuxième Assistant Camera
+    Second Assistant Director: Deuxième Assistant Directeur
+    Second Assistant Director Trainee: Deuxième Assistant Directeur Stagiaire
     Second Assistant Production Coordinator: 
     Second Assistant Sound: Second assistant Son
     Second Assistant Unit Manager: 
@@ -2448,7 +2447,7 @@ fr-FR:
     Sound Designer: Designer sonore
     Sound Director: Directeur du son
     Sound Editor: Monteur son
-    Sound Effects: 
+    Sound Effects: Effets Sonores
     Sound Effects Designer: 
     Sound Effects Editor: Éditeur des effets sonores
     Sound Engineer: Ingénieur du son
@@ -2479,7 +2478,7 @@ fr-FR:
     Sponsorship Coordinator: 
     Sponsorship Director: 
     Staff Writer: 
-    Stage Director: 
+    Stage Director: Directeur Plateau
     Stand In: Doublure
     Standby Art Director: 
     Standby Carpenter: 
@@ -2957,6 +2956,11 @@ fr-FR:
       audio_language: Langue Audio
       channel: Canal
       duration: Durée
+      play_clip: 
+      play_featurette: 
+      play_opening_credits: 
+      play_teaser: 
+      play_trailer: Regarder le trailer
       published: Publié(e)
       published_at: Publié À
       restricted_regions: Régions restreintes
@@ -3327,7 +3331,7 @@ fr-FR:
       sharing_settings: Paramètres de partage
       watchlist:
         remove_when_rated: Supprimer automatiquement les éléments lors qu'ils sont notés ?
-        share_publicly: 
+        share_publicly: Partager cette liste publiquement ?
         watchlist_settings: Paramètres de la liste de suivi
     social:
       connected_table:
