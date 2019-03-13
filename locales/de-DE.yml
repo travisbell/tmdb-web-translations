@@ -90,8 +90,6 @@ de-DE:
   Character: Rolle
   Choose: Wählen...
   City: Stadt
-  Clip: Clip
-  Clips: Videoclips
   Collection Results: Ergebnisse (Sammlungen)
   Collections: Sammlungen
   Coming soon!: Demnächst verfügbar!
@@ -181,8 +179,6 @@ de-DE:
   Featured Cast: Haupt-Darsteller
   Featured Crew: Haupt-Crew
   Featured Lists: Ausgewählte Listen
-  Featurette: Featurette
-  Featurettes: Featuretten
   Female: Weiblich
   Filter: Filter
   Filter Profanity?: Profanität filtern?
@@ -292,7 +288,6 @@ de-DE:
   Offensive or Spam: Anstößig oder Spam
   Offical Site: Offizielle Seite
   Offline Databases: Lokale Datenbanken
-  Opening Credits: Vorspann
   Origin Country: Herkunftsland
   Original Air Date: Erstausstrahlung
   Original Ascending: Original aufsteigend
@@ -445,8 +440,6 @@ de-DE:
   Tagged People: Markierte Personen
   Tagline: Tagline
   Talk: Forum
-  Teaser: Teaser
-  Teasers: Teaser
   Television: TV
   Terms of Use: Nutzungsbedingungen
   The Basics: Das Wesentliche
@@ -461,8 +454,6 @@ de-DE:
   Top Rated Movies: Bestbewertete Filme
   Top Rated TV Shows: Bestbewertete Serien
   Top Users: Top Mitwirkende
-  Trailer: Trailer
-  Trailers: Trailer
   Translate Collection: Sammlung übersetzen
   Translate Movie: Film übersetzen
   Translate Person: Person Übersetzen
@@ -690,16 +681,16 @@ de-DE:
   api_session:
     3rd_party_request: Drittanbieter-Autorisierungsanfrage
     account_required:
-      need_account: 
-      title: 
+      need_account: Sie müssen angemeldet sein, um fortzufahren!
+      title: Ein Konto ist erforderlich
     approved_session: Die Berechtigung für %{application_name} wurde gespeichert. Du kannst dieses Fenster jetzt schließen.
     continue: Klicke auf die Schaltfläche „Bestätigen”, um fortzufahren oder schließe dieses Fenster, um abzubrechen.
     invalid_api_app:
-      message: 
-      title: 
+      message: Der aktuell authentifizierte API-Benutzer ist ungültig.
+      title: Ungültiger API-Benutzer
     missing_request_token:
-      message: 
-      title: 
+      message: Ein Anforderungstoken ist erforderlich, um Benutzerkonten zu authentifizieren.
+      title: Fehlendes Anfragetoken
     request_token_approval:
       message: Die Anwendung {{APP}} bittet um Ihre Erlaubnis, Daten in Ihrem Namen zu lesen und zu schreiben. Dies ist notwendig, wenn Sie Dinge wie die Pflege Ihrer Listen oder die Bewertung von Filmen außerhalb von TMDb durchführen möchten.
     statuses:
@@ -2934,10 +2925,10 @@ de-DE:
       audio_language: Sprachausgabe
       channel: Channel
       duration: Länge
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_teaser: 
+      play_clip: Clip abspielen
+      play_featurette: Featurette abspielen
+      play_opening_credits: Opening Credits abspielen
+      play_teaser: Teaser abspielen
       play_trailer: Trailer abspielen
       published: Veröffentlicht
       published_at: Veröffentlicht auf
@@ -3360,6 +3351,20 @@ de-DE:
   upload_poster: Poster hochladen
   upload_profile: Profil hochladen
   used_by_developers: TMDb wird von mehr als 200,000 Entwicklern genutzt.<br>Schau dir Ihre Projekte an.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Clip
+      Clips: Videoclips
+      Featurette: Featurette
+      Featurettes: Featuretten
+      Opening Credits: Vorspann
+      Teaser: Teaser
+      Teasers: Teaser
+      Trailer: Trailer
+      Trailers: Trailer
+    youtube_channel: 
   view all: Alle anzeigen
   will_paginate:
     next_label: Nächste →

@@ -90,8 +90,6 @@ it-IT:
   Character: Personaggio
   Choose: Scegliere...
   City: Città
-  Clip: Filmato
-  Clips: Filmati
   Collection Results: Risultati Collezioni
   Collections: Collezioni
   Coming soon!: Prossimamente!
@@ -181,8 +179,6 @@ it-IT:
   Featured Cast: Cast in Evidenza
   Featured Crew: Troupe in Evidenza
   Featured Lists: Liste in Evidenza
-  Featurette: Cortometraggio
-  Featurettes: Cortometraggi
   Female: Femmina
   Filter: Filtro
   Filter Profanity?: Filtra Parole Offensive?
@@ -268,7 +264,7 @@ it-IT:
   Moderator: Moderatore
   More Info: Più Info
   Most Popular: Più Popolare
-  Move Credits: 
+  Move Credits: Sposta i crediti
   Move TV Credits: Sposta crediti TV
   Movie Data: Dati del film
   Movie Recommendations: Consigli del film
@@ -292,7 +288,6 @@ it-IT:
   Offensive or Spam: Offensivo o Spam
   Offical Site: Sito Ufficiale
   Offline Databases: Database Offline
-  Opening Credits: Crediti di Apertura
   Origin Country: Pese di Origine
   Original Air Date: Data di messa in onda originale
   Original Ascending: Ascendente Originale
@@ -445,8 +440,6 @@ it-IT:
   Tagged People: Persone Taggate
   Tagline: Tagline
   Talk: Talk
-  Teaser: Teaser
-  Teasers: Teasers
   Television: Televisione
   Terms of Use: Condizioni d'uso
   The Basics: Le basi
@@ -461,8 +454,6 @@ it-IT:
   Top Rated Movies: Film Più Votati
   Top Rated TV Shows: Serie TV Più Votate
   Top Users: Utenti Top
-  Trailer: Trailer
-  Trailers: Trailers
   Translate Collection: Traduci Collezione
   Translate Movie: Traduci Film
   Translate Person: Traduci Persona
@@ -671,7 +662,7 @@ it-IT:
     watchlist:
       my_watchlist:
         logged_in: La Mia Watchlist
-        public: 
+        public: Lista di %{username}
       next_month: Il mese prossimo
       no_upcoming_movies:
         one: Non ci sono film in uscita nella tua watchlist. C'è tuttavia, %{count} elemento nella tua watchlist.
@@ -690,16 +681,16 @@ it-IT:
   api_session:
     3rd_party_request: Autenticazione terze parti richiesta
     account_required:
-      need_account: 
-      title: 
+      need_account: Devi aver eseguito l'accesso per continuare!
+      title: È necessario un account
     approved_session: Hai approvato %{application_name}. Puoi chiudere questa finestra.
     continue: Se desideri continuare, fai clic sul pulsante in basso. In caso contrario, puoi semplicemente chiudere questa finestra.
     invalid_api_app:
-      message: 
-      title: 
+      message: L'utente API che si sta utilizzando non è valido.
+      title: Utente API non valido
     missing_request_token:
-      message: 
-      title: 
+      message: È necessario un token per poter autenticare gli utenti.
+      title: Token mancante
     request_token_approval:
       message: "{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB."
     statuses:
@@ -2610,7 +2601,7 @@ it-IT:
       back_to_parent: torna indietro (o al precedente quando applicabile)
       close_window: chiudi una finestra aperta
       focus_search: focalizza la barra di ricerca
-      go_to_edit: 
+      go_to_edit: vai alla pagina di modifica
       last_reply: vai all'ultima risposta
       new_discussion: crea nuova discussione
       next_episode: "(freccia destra) vai all'episodio successivo"
@@ -2629,13 +2620,13 @@ it-IT:
       submit_message: invia il tuo messaggio
       toggle_close: cambia chiuso/aperto
       toggle_private: cambia publico/privato
-      toggle_watching: 
+      toggle_watching: segna come visto/non visto
     groups:
-      discussion_pages: 
-      edit_pages: 
+      discussion_pages: Sulle pagine di discussione
+      edit_pages: Su tutte le pagine di modifica
       global: Globale
-      image_pages: 
-      media_pages: 
+      image_pages: Su tutte le pagine di immagini
+      media_pages: Su tutte le pagine di media
       tv_episode_pages: Nelle pagine degli episodi TV
       tv_season_pages: Nelle pagine delle stagioni TV
     keyboard_shortcuts: Scorciatoie Tastiera
@@ -2678,7 +2669,7 @@ it-IT:
   media:
     changes:
       filters:
-        clear: 
+        clear: Pulisci
         key: Tasto
         language: Lingua
         user: Utente
@@ -2934,10 +2925,10 @@ it-IT:
       audio_language: Lingua Audio
       channel: Canale
       duration: Durata
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_teaser: 
+      play_clip: Riproduci clip
+      play_featurette: Riproduci featurette
+      play_opening_credits: Riproduci titoli di testa
+      play_teaser: Riproduci teaser
       play_trailer: Guarda Trailer
       published: Pubblicato
       published_at: Pubblicato Alle
@@ -2954,7 +2945,7 @@ it-IT:
       subject: Aiutaci a tradurre il nostro sito internet
   messages:
     compose:
-      ban: 
+      ban: Blocca
       from: Da
       message: Messaggio
       subject: Oggetto
@@ -3289,8 +3280,14 @@ it-IT:
       email:
         invalid_dialog_title: Resettare Email?
         reset_button: Resetta e invia?
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          <p>Purtroppo abbiamo avuto dei problemi a inviarti delle email in passato. Puoi vedere gli errori <a href="/u/%{username_url}/events/emails?status=2,3">qui</a>.</p>
+
+          <p>Se i problemi con il tuo indirizzo email sono stati risolti o erano solo temporanei clicca il pulsante di reset qui sotto e proveremo a inviarti un'altra email per verificare.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Per poter cambiare la tua password abbiamo bisogno di un indirizzo email valido. Purtroppo abbiamo avuto dei problemi a inviarti delle email in passato. Puoi vedere gli errori <a href="/u/%{username_url}/events/emails?status=2,3">qui</a>.</p>
+
+          <p>Se i problemi con il tuo indirizzo email sono stati risolti o erano solo temporanei clicca il pulsante di reset qui sotto e proveremo a inviarti un'altra email.</p>
       reset_password_dialog_text: Confermando questa richiesta ti verrà inviata un'email con le istruzioni su come reimpostare la tua password. Sei sicuro di volerlo fare?
     sharing:
       favorite_list:
@@ -3354,6 +3351,20 @@ it-IT:
   upload_poster: Carica un Poster
   upload_profile: Carica Profilo
   used_by_developers: TMDb è utilizzato da più di 200.000 sviluppatori. <br>Sfoglia le loro attività di seguito.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Filmato
+      Clips: Filmati
+      Featurette: Cortometraggio
+      Featurettes: Cortometraggi
+      Opening Credits: Crediti di Apertura
+      Teaser: Teaser
+      Teasers: Teasers
+      Trailer: Trailer
+      Trailers: Trailers
+    youtube_channel: 
   view all: Vedi tutti
   will_paginate:
     next_label: Successivo →

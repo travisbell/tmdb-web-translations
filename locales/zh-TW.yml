@@ -90,8 +90,6 @@ zh-TW:
   Character: 劇中角色
   Choose: 選擇
   City: 城市
-  Clip: 精華片段
-  Clips: 精華片段
   Collection Results: 系列搜尋結果
   Collections: 系列
   Coming soon!: 即將推出！
@@ -181,8 +179,6 @@ zh-TW:
   Featured Cast: 主演
   Featured Crew: 主要劇組人員
   Featured Lists: 精選收藏
-  Featurette: 花絮
-  Featurettes: 花絮
   Female: 女性
   Filter: 過濾條件
   Filter Profanity?: 過濾不雅的言語？
@@ -292,7 +288,6 @@ zh-TW:
   Offensive or Spam: 令人難受的內容或垃圾訊息
   Offical Site: 官方網站
   Offline Databases: 離線資料庫
-  Opening Credits: 片頭介紹
   Origin Country: 發源地
   Original Air Date: 原上映日期
   Original Ascending: 原始升序
@@ -445,8 +440,6 @@ zh-TW:
   Tagged People: 海報中的演員
   Tagline: 標語
   Talk: 討論
-  Teaser: 前導預告片
-  Teasers: 前導預告片
   Television: 電視
   Terms of Use: 使用條款
   The Basics: 關於我們
@@ -461,8 +454,6 @@ zh-TW:
   Top Rated Movies: 電影評分排行
   Top Rated TV Shows: 電視影集評分排行
   Top Users: 使用者排行
-  Trailer: 預告片
-  Trailers: 預告片
   Translate Collection: 翻譯系列
   Translate Movie: 電影翻譯
   Translate Person: 翻譯人員
@@ -690,16 +681,16 @@ zh-TW:
   api_session:
     3rd_party_request: 第三方認證請求
     account_required:
-      need_account: 
-      title: 
+      need_account: 請登入後再繼續
+      title: 需要一個帳號才可繼續
     approved_session: 您已許可%{application_name}，請關閉本視窗。
     continue: 如果您想要繼續，請點選同意按鈕；若不繼續，請直接關閉本視窗。
     invalid_api_app:
-      message: 
-      title: 
+      message: The API user that is currently being authenticated is not valid.
+      title: Invalid API User
     missing_request_token:
-      message: 
-      title: 
+      message: A request token is required in order to authenticate user accounts.
+      title: Missing Request Token
     request_token_approval:
       message: "{{APP}} 對您提出讀取/改寫您資料的請求。若您想要在 TMDb 外維護列表或對電影作評價，則必須授權此請求。"
     statuses:
@@ -2934,10 +2925,10 @@ zh-TW:
       audio_language: 音訊語言
       channel: 頻道
       duration: 持續時間
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_teaser: 
+      play_clip: 播放短片
+      play_featurette: 播放特輯
+      play_opening_credits: 播放前導影片
+      play_teaser: 播放預告片
       play_trailer: 播放預告片
       published: 發佈時間
       published_at: 發佈時間為
@@ -3348,6 +3339,20 @@ zh-TW:
   upload_poster: 上傳海報
   upload_profile: 上傳簡介
   used_by_developers: TMDb 目前被超過200,000位以上的開發人員所使用。<br> 以下為他們的作品：
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: 精華片段
+      Clips: 精華片段
+      Featurette: 花絮
+      Featurettes: 花絮
+      Opening Credits: 片頭介紹
+      Teaser: 前導預告片
+      Teasers: 前導預告片
+      Trailer: 預告片
+      Trailers: 預告片
+    youtube_channel: 
   view all: 檢視全部
   will_paginate:
     next_label: 下一頁→

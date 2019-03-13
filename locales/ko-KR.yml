@@ -90,8 +90,6 @@ ko-KR:
   Character: 배역
   Choose: 선택
   City: 도시
-  Clip: 클립 영상
-  Clips: 클립 영상
   Collection Results: 컬렉션 검색 결과
   Collections: 컬렉션
   Coming soon!: 곧 공개 예정!
@@ -135,7 +133,7 @@ ko-KR:
   Description: 소개
   Design or Functionality Issue: 디자인 또는 기능 문제
   Desktop Application: 데스크톱 어플리케이션
-  Destination Record: 
+  Destination Record: 기록 대상
   Details: 상세내용
   Developed By: 개발자
   Digital: 디지털
@@ -162,7 +160,7 @@ ko-KR:
   Episode Images: 에피소드 이미지
   Episode Number: 에피소드 수
   Episode Overview: 줄거리
-  Episodes: 화
+  Episodes: 에피소드
   Error: 오류
   Example API Request: API 요청 예
   Expand: 확장
@@ -181,8 +179,6 @@ ko-KR:
   Featured Cast: 주요 출연진
   Featured Crew: 주요 제작진
   Featured Lists: 추천 목록
-  Featurette: 피처렛
-  Featurettes: 피처렛
   Female: 여성
   Filter: 필터
   Filter Profanity?: 비속어를 필터하시겠습니까?
@@ -210,7 +206,7 @@ ko-KR:
   Hi: 안녕하세요.
   Hide favorites?: 즐겨찾기를 숨길까요?
   Hide items on watchlist?: 관심 영상을 숨기겠습니까?
-  Hide rated?: 
+  Hide rated?: 평점을 숨길까요?
   Home: 홈
   Homepage: 홈페이지
   IMDB ID: IMDB ID
@@ -243,7 +239,7 @@ ko-KR:
   Lists: 리스트
   Load More: 더 불러오기
   Locked?: 잠겼습니까?
-  Login to Add a Backdrop: 
+  Login to Add a Backdrop: 배경을 추가하려면 로그인하십시오.
   Login to Add a Poster: 포스터를 추가하시려면 로그인 하십시오.
   Login to Add a Video: 동영상 추가를 위해 로그인 해 주십시오
   Login to Edit Cast & Crew: 출연진 & 제작진을 편집하시려면 로그인 하십시오.
@@ -255,7 +251,7 @@ ko-KR:
   Login to rate this TV show: TV 프로그램을 평가 하시려면 로그인 하십시오.
   Login to rate this movie: 영화 평가를 하시려면 로그인 하십시오.
   Login to report an issue: 문제 보고를 하려면 로그인 해주십시오
-  Logo: 
+  Logo: 로고
   Logos & Attribution: 로고 및 저작자
   Logout: 로그아웃
   Male: 남성
@@ -292,7 +288,6 @@ ko-KR:
   Offensive or Spam: 모욕적 언사 또는 스팸
   Offical Site: 공식 사이트
   Offline Databases: 
-  Opening Credits: 
   Origin Country: 
   Original Air Date: 
   Original Ascending: 
@@ -335,7 +330,7 @@ ko-KR:
   Premiere: 초연/첫 방송
   Preview: 프리뷰
   Primary Color: 
-  Primary Facts: 기본 사항
+  Primary Facts: 기본 정보
   Privacy Policy: 개인정보약관
   Production Code: 
   Production Companies: 제작사
@@ -445,8 +440,6 @@ ko-KR:
   Tagged People: 태그된 인물
   Tagline: 태그라인
   Talk: 
-  Teaser: 티저
-  Teasers: 티저
   Television: 텔레비젼
   Terms of Use: 서비스 이용약관
   The Basics: 
@@ -461,8 +454,6 @@ ko-KR:
   Top Rated Movies: 높은 평점의 인기 영화
   Top Rated TV Shows: 높은 평점의 TV 프로그램
   Top Users: 우수 기여자
-  Trailer: 트레일러
-  Trailers: 예고편
   Translate Collection: 컬렉션 번역
   Translate Movie: 영화 번역
   Translate Person: 인물 번역
@@ -1426,19 +1417,19 @@ ko-KR:
     entry_deleted: 항목이 삭제되었습니다
     reasons:
       '1':
-        message: 
+        message: "안녕하세요?\n\n이 메모는 TMDb의 컨텐트 관리자가 보내드리는 것입니다. 님께서 등록한 \"%{title}\" 이라는 제목의 항목이 삭제되었습니다. 이 제목은 이미 데이터베이스에 중복된 것으로 파악되었습니다. \n\n이 삭제에 대해 궁금한 점이 있으면 메시지에 회신 해주십시오."
         subject: 같은 제목이 있습니다
       '2':
-        message: 
+        message: "안녕하세요? \n\n이 메모는 TMDb의 컨텐트 관리자가 보내드리는 것입니다. \"%{title}\"이라는 제목의 항목이 삭제되었습니다. 이 제목은 TMDb 콘텐츠 가이드 라인 (https://www.themoviedb.org/bible/new_content)을 충족하지 못했습니다.\n\n이 삭제에 대해 궁금한 점이 있으면 메시지에 회신 해주십시오."
         subject: '콘텐츠 가이드 라인 (아마추어 등)을 충족하지 않습니다. '
       '3':
-        message: 
+        message: "안녕하세요? \n\n이 메모는 TMDb의 컨텐트 관리자가 보내드리는 것입니다. 님께서 등록한 \"%{title}\"이라는 제목의 항목이 삭제되었습니다. 이 제목은 이미 TV 프로그램으로 존재합니다. TMDb 콘텐츠 가이드 라인 (https://www.themoviedb.org/bible/new_content)에서 대한 자세한 내용을 확인할 수 있습니다.\n\n이 삭제에 대해 궁금한 점이 있으면 메시지에 회신 해주십시오."
         subject: TV 프로그램입니다
       '4':
-        message: 
+        message: "안녕하세요? \n\n이 메모는 TMDb의 컨텐트 관리자가 보내드리는 것입니다. 님께서 등록한 \"%{title}\"이라는 제목의 항목이 삭제되었습니다. 이 제목은 TMDb 콘텐츠 가이드 라인 (https://www.themoviedb.org/bible/new_content)을 충족하지 못했습니다.\n\n이 삭제에 대해 궁금한 점이 있으면 메시지에 회신 해주십시오."
         subject: 잘못된 항목
       '5':
-        message: 
+        message: "안녕하세요? \n\n이 메모는 TMDb의 컨텐트 관리자가 보내드리는 것입니다. 님께서 등록한 \"%{title}\"이라는 제목의 항목이 삭제되었습니다. 이 제목은 TMDb 콘텐츠 가이드 라인 (https://www.themoviedb.org/bible/new_content)을 충족하지 못했습니다.\n\n이 삭제에 대해 궁금한 점이 있으면 메시지에 회신 해주십시오."
         subject: 스팸입니다
     why_deleting: 왜 이 항목을 삭제하려고 합니까?
   department_credits_count:
@@ -1484,12 +1475,12 @@ ko-KR:
         website_support: 웹사이트 지원
       support:
         api_requests: API 요청
-        api_requests_(professional): 
+        api_requests_(professional): API Requests (Professional)
         api_support: API 지원
         content_issues: 내용 관련 문제
         general: 일반
         general_chat: 일반 채팅
-        moderator_talk: 
+        moderator_talk: 진행자 대화
         support: 지원
         website_support: 웹사이트 지원
     category:
@@ -1503,25 +1494,29 @@ ko-KR:
     headers:
       discuss: 토론
       discuss_item: "%{item_title} 토론"
-      lets_chat: 
+      lets_chat: 떠들어봅시다!
       support: 지원
       support_title: The Movie Database 지원
     login_to_be_notified: 첫 게시글 알람을 받으려면 로그인 하십시오
     new_discussion:
       community_guidelines: 커뮤니티 가이드라인
       discussion_category: 분류
-      for_item: 
-      message: 
+      for_item: 항목
+      message: 메시지
       new_discussion: 새 토론
       subject: 주제
     no_discussions: 토론 없음
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        one: "%{count} 댓글 (%{current_page} / %{total_pages})"
+        other: "%{count} 댓글 (%{current_page} / %{total_pages})"
+      summary:
+        one: "%{count} 토론,  현재 %{current_page} 페이지 / 전체 %{total_pages} 페이지"
+        other: "%{count} 토론,  현재 %{current_page} 페이지 / 전체 %{total_pages} 페이지"
     post:
       delete: 삭제
       edit: 수정
-      hide: 
+      hide: 숨기기
       ignore: 차단
       like: 좋아요
       messages:
@@ -1531,8 +1526,8 @@ ko-KR:
         hide_discussion: "'예'를 누르시면, 해당 토론은 숨김 처리됩니다."
         ignore_user: 정말로 이 회원님을 차단하시겠습니까? 차단 후, 이 회원님의 모든 토론과 댓글이 사라지게 됩니다. 차단 해제를 원할 경우, 회원님의 계정 설정의 "차단 유저" 페이지에서 하실 수 있습니다.
         mark_as_spam: 이 토론을 스팸으로 표시 하시겠습니까? 수행 한 후에는 자동으로 삭제되며 취소 할 수 없습니다. 토론을 스팸으로 표시하면 우리가 사용하는 "스팸 탐지 서비스" 개선에 도움이 됩니다.
-        report_violation: 
-        unhide_discussion: 
+        report_violation: 이 사용자를 정책위반 신고하기 전에 다시 한번  <a href="/documentation/community/guidelines" target="_blank" rel="noopener">커뮤니티 가이드라인</a>을 확인하십시오.
+        unhide_discussion: '"예"를 클릭하면 토론을 다시 볼 수 있습니다.'
       posted_by_with_datetime: "%{date}일 %{time}시에 %{username}님이 게시함"
       quote: 참고댓글
       reopen_reply: 새로운 창에 댓글달기
@@ -1544,7 +1539,7 @@ ko-KR:
     report_violation: 위반 신고
     search:
       advanced_search: 고급 검색
-      search_closed: 
+      search_closed: 검색 취소
       search_forums: 포럼 검색
       search_open: 검색을 열까요?
     statuses:
@@ -1552,7 +1547,7 @@ ko-KR:
       open: 토론중
     table_headers:
       last_reply: 최근 댓글
-      replies: 답변
+      replies: 댓글
       status: 상태
       subject: 주제
     users_in_discussion:
@@ -1611,8 +1606,8 @@ ko-KR:
       catch_up_now: 지금 참여하세요
       discussions: 토론
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: 2018년도의 기록들...
+      thats_a_wrap: 와~~ 끝났다!
     tv_shows:
       episode_airs:
         in_days: "%{number_of_days}일 후 새 에피소드 방영 예정"
@@ -2612,22 +2607,22 @@ ko-KR:
     average_rating: 평균 평점
     image_selected: 선택됨
     items_on_list:
-      many: 
-      one: 
-      other: 
+      many: 목록의 항목
+      one: 목록의 항목
+      other: 목록의 항목
     private: 비공개
     public: 공개
     select_this_image: 이 이미지 선택
     total_revenue: 총 수입
     total_runtime: 전체 상영시간
   list_messages:
-    comment_updated: 
+    comment_updated: 코멘트 업데이트됨
     image_saved: 이미지 저장!
-    item_added: 
-    item_already_added: 
-    item_removed: 
+    item_added: 항목 추가됨
+    item_already_added: 항목 이미 있습니다
+    item_removed: 항목 삭제됨
   list_sort:
-    original_order: 
+    original_order: 기본정렬
     rating: 평점 순
     release_date: 개봉 일자
     title: 제목 순
@@ -2676,7 +2671,7 @@ ko-KR:
       tooltips:
         bible: TMDB 내 정보 편집에 관해 도움을 원하신다면, '?'를 눌러 기여 지침서를 읽어주세요.
         homepage: 공식 홈페이지만 허용. 팬 홈페이지 불가.
-        logo_format: 
+        logo_format: 로고형식
         original_title: 원제는 원어로 입력되어야 합니다. 대부분의 경우 "원어"란에 기입된 언어와 일치합니다.
         overview: 개요 작성시, 스포일러 없이 일목요연하게 작성해주십시오.
         social_links: 소셜 링크에는 공인된 공식 홈페이지만 연결해주십시오. 팬 홈페이지 불가.
@@ -2695,9 +2690,9 @@ ko-KR:
       no_logos: 추가된 로고 없음
       no_posters: 추가된 포스터 없음
       no_profiles: 추가된 프로필 없음
-      primary: 
+      primary: 기본
       types:
-        backdrop_stills: 
+        backdrop_stills: 배경 스틸컷
     keyword:
       movie_page_title: '"%{name}" 영화'
       tv_page_title: '"%{name}" TV 프로그램'
@@ -2710,7 +2705,7 @@ ko-KR:
         cast:
           no_records: 입력된 출연진 없음.
         confirm_collection: 
-        confirm_video: 
+        confirm_video: 비디오 확인
         crew:
           job_required: 분야는 필수입니다.
           no_records: 입력된 제작진이 없습니다.
@@ -2745,9 +2740,9 @@ ko-KR:
         alternative_names: 다른 이름
         logos: 로고
         merge:
-          choose_destination: 
+          choose_destination: 대상선택
           confirm_merge: 합치기 확인
-          merge: 
+          merge: 합치기
           next: 다음
         primary_facts: 기본 사항
         upload_logo: 로고 올리기
@@ -2756,7 +2751,7 @@ ko-KR:
       other_shows_on: "%{name}의 TV 프로그램 더 보기"
       search:
         no_results: 일치하는 방송사 없음
-        results: 
+        results: 결과
       tv_page_title: "%{name}에서 방영중인 프로그램"
       upload_logo: 로고 업로드
     no_results_found:
@@ -2773,7 +2768,7 @@ ko-KR:
         alternative_names:
           no_records: 다른 이름이 추가되지 않았습니다.
     rating:
-      rated_with_rating: 
+      rated_with_rating: 평점 %{value}
     social_panel:
       discussions:
         currently_subscribed: 이제 다른 사용자가 첫 게시글을 작성 시 알림을 받을 수 있습니다.
@@ -2825,7 +2820,7 @@ ko-KR:
         alternative_names:
           no_records: 입력된 다른 이름 없음.
         content_ratings:
-          no_records: 
+          no_records: 평점없음
         creator:
           no_records: 추가된 창작자 없음
         crew:
@@ -2850,7 +2845,7 @@ ko-KR:
           type: 유형
           types:
             '1': 최초 방영일
-            '2': 
+            '2': 2
             '3': DVD
             '4': 디지털
             '5': 스토리 전개
@@ -2864,7 +2859,7 @@ ko-KR:
           no_season: '에피소드 전무! 시즌 추가시 정규 출연진이 입력되어야 합니다. '
         runtime:
           add_it: 새 방영시간을 추가하시겠습니까?
-          enter_value: 
+          enter_value: 값입력
         seasons:
           no_records: 추가된 시즌 없음
       episode_groups:
@@ -2938,15 +2933,15 @@ ko-KR:
       no_user_found: 검색되는 이용자 없음
       reply: 본문 작성
       subject: 
-      to: 
+      to: 사용자 검색...
     right_column_titles:
-      conversation_with: 
+      conversation_with: "%{username}님 연락하기"
       message_inbox: 메세지함
-      my_archive: 
+      my_archive: 내 기록
       my_inbox: 내 메세지함
       new_message: 새 메세지
-      support_archive: 
-      support_inbox: 
+      support_archive: 도움 기록
+      support_inbox: '도움 '
     translate: 
   month: "%{count} 월"
   navigation:
@@ -3299,6 +3294,20 @@ ko-KR:
   upload_poster: 포스터 업로드
   upload_profile: 
   used_by_developers: 
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: 클립 영상
+      Clips: 클립 영상
+      Featurette: 피처렛
+      Featurettes: 피처렛
+      Opening Credits: 
+      Teaser: 티저
+      Teasers: 티저
+      Trailer: 트레일러
+      Trailers: 예고편
+    youtube_channel: 
   view all: 전체 보기
   will_paginate:
     next_label: 다음 →

@@ -90,8 +90,6 @@ es-MX:
   Character: Personaje
   Choose: 
   City: Ciudad
-  Clip: Clip
-  Clips: Cortos
   Collection Results: Resultados de Colección
   Collections: Collecciones
   Coming soon!: "¡Próximamente!"
@@ -183,8 +181,6 @@ es-MX:
   Featured Cast: Reparto destacado
   Featured Crew: Equipo destacado
   Featured Lists: Listas destacadas
-  Featurette: Featurette
-  Featurettes: Cortometrajes
   Female: Mujer
   Filter: Filtro
   Filter Profanity?: 
@@ -294,7 +290,6 @@ es-MX:
   Offensive or Spam: Ofensivo o Spam
   Offical Site: 
   Offline Databases: 
-  Opening Credits: 
   Origin Country: País de Origen
   Original Air Date: Fecha Original al Aire
   Original Ascending: 
@@ -447,8 +442,6 @@ es-MX:
   Tagged People: Personas Etiquetadas
   Tagline: Lema
   Talk: Reseñas
-  Teaser: Avance
-  Teasers: Avances
   Television: Televisión
   Terms of Use: Términos de Uso
   The Basics: Los Básicos
@@ -463,8 +456,6 @@ es-MX:
   Top Rated Movies: Películas mejor calificadas
   Top Rated TV Shows: Series de TV mejor calificadas
   Top Users: Usuarios Destacados
-  Trailer: Trailer
-  Trailers: Trailers
   Translate Collection: Traducir Colección
   Translate Movie: Traducir Pelicula
   Translate Person: Traducir Persona
@@ -692,16 +683,16 @@ es-MX:
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
     account_required:
-      need_account: 
-      title: 
+      need_account: Necesitas acceder con tu cuenta para continuar
+      title: Se requiere una cuenta
     approved_session: Has aprobado a %{application_name}. Puedes cerrar esta ventana.
     continue: SI deseas continuar, haz clic en el botón de Aprobar. De lo contrario, cierra esta ventana.
     invalid_api_app:
-      message: 
-      title: 
+      message: El usuario de la API que está actualmente autentificado no es valido.
+      title: Usuario no válido por API
     missing_request_token:
-      message: 
-      title: 
+      message: 'Para autentificar cuentas de usuarios se require un código token '
+      title: 'Falta token de acceso '
     request_token_approval:
       message: "{{APP}} está pidiendo permiso para leer y escribir data a tu nombre. Esto es necesario si quieres hacer cosas como mantener tus listas o calificar películas fuera de TMDb."
     statuses:
@@ -866,12 +857,12 @@ es-MX:
         '4':
           meaning: "(Interdit aux moins de 16 ans) no apto para menores de 16 años o prohibido en cines para menores de 16 años."
         '5':
-          meaning: 
+          meaning: No apropiado para menores de 18 años o prohibido en cines para menos de 18
       GB:
         '1':
-          meaning: 
+          meaning: Todas las edades permitidas, no hay nada inapropiado para niños
         '2':
-          meaning: 
+          meaning: Todas las edades admitidas, ciertas escenas no son apropiadas para niños pequeños. Puede contener lenguaje inapropiado y referencias a sexo/drogas. Puede contener violencia moderada si está justificado por el contenido (ej. fantasía).
         '3':
           meaning: 
         '4':
@@ -884,7 +875,7 @@ es-MX:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: No hay clasificación
         '1':
           meaning: Sin restricción de edad
         '2':
@@ -896,7 +887,7 @@ es-MX:
         '5':
           meaning: No recomendado para menores de 18 años
         '6':
-          meaning: 
+          meaning: Para adultos, restringido a menores de 18
       IN:
         '0':
           meaning: Exposición pública sin restricciones en toda la India, apta para todas las edades. Las películas de esta categoría no deben molestar a los niños mayores de 4. Estas películas pueden contener temas educativos, sociales o orientados a la familia. Las películas en esta categoría también pueden contener violencia de fantasía y/o lenguaje moderado.
@@ -945,43 +936,43 @@ es-MX:
         '2':
           meaning: Potencialmente dañino para niños menores de 6 años.
         '3':
-          meaning: 
+          meaning: Potencialmente dañino para niños menores de 9 años
         '4':
-          meaning: 
+          meaning: Potencialmente dañino para niños menores de 12 años; transmisión no permitido antes de las 8:00 pm.
         '5':
-          meaning: 
+          meaning: Potencialmente dañino para niños menores de 16 años; transmisión no permitido antes de las 10:00 pm.
       'NO':
         '0':
-          meaning: 
+          meaning: No hay clasificación.
         '1':
-          meaning: 
+          meaning: Apropiado para todos.
         '2':
-          meaning: 
+          meaning: 6 años (no hay restricción si el niño va acompañado de un adulto).
         '3':
-          meaning: 
+          meaning: 9 años (Niños a partir de 6 años acompañado de un adulto).
         '4':
           meaning: 12 años (niños menores de 9 años acompañados de un adulto)
         '5':
           meaning: 15 años (niños menores de 12 años acompañados de un adulto)
         '6':
-          meaning: 
+          meaning: 18 años (mínimo permitido).
       NZ:
         '1':
           meaning: Adecuado para el público en general
         '2':
-          meaning: 
+          meaning: Aconsejable para menores acompañados de un adulto.
         '3':
-          meaning: 
+          meaning: Apropiado más no restringido para audiencias maduras de 16 años en adelante
         '4':
-          meaning: 
+          meaning: Restringido para personas de 13 años de edad o mayores.
         '5':
-          meaning: 
+          meaning: Restringido para personas de 15 años de edad o mayores.
         '6':
-          meaning: 
+          meaning: Restringido para personas de 16 años de edad o mayores.
         '7':
-          meaning: 
+          meaning: Restringido para personas de 18 años de edad o mayores.
         '8':
-          meaning: 
+          meaning: Restringido para personas de ciertas características, o para propósitos particulares, o ambas.
       PH:
         '1':
           meaning: 
@@ -3298,6 +3289,20 @@ es-MX:
   upload_poster: Subir un Poster
   upload_profile: Subir Perfil
   used_by_developers: TMDb es utilizado por más de 200,000 desarrolladores. <br>Examinar su trabajo a continuación.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Clip
+      Clips: Cortos
+      Featurette: Featurette
+      Featurettes: Cortometrajes
+      Opening Credits: 
+      Teaser: Avance
+      Teasers: Avances
+      Trailer: Trailer
+      Trailers: Trailers
+    youtube_channel: 
   view all: ver todo
   will_paginate:
     next_label: Siguiente →

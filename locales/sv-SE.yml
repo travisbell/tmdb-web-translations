@@ -90,8 +90,6 @@ sv-SE:
   Character: Roll
   Choose: Välj...
   City: Stad
-  Clip: Klipp
-  Clips: Klipp
   Collection Results: Samlingsresultat
   Collections: Samlingar
   Coming soon!: Kommer snart!
@@ -183,8 +181,6 @@ sv-SE:
   Featured Cast: Presenterade Skådespelare
   Featured Crew: Presenterade medarbetare
   Featured Lists: Presenterade Listor
-  Featurette: Featurette
-  Featurettes: Featurettes
   Female: Kvinna
   Filter: 
   Filter Profanity?: Filtrera Svordomar?
@@ -294,7 +290,6 @@ sv-SE:
   Offensive or Spam: Stötande eller spam
   Offical Site: Officiell Sida
   Offline Databases: 
-  Opening Credits: 
   Origin Country: Ursprungsland
   Original Air Date: Ursprungligt sändningsdatum
   Original Ascending: Ursprungligt uppstigande
@@ -447,8 +442,6 @@ sv-SE:
   Tagged People: Taggade Personer
   Tagline: Tagline
   Talk: 
-  Teaser: Teaser
-  Teasers: Teasers
   Television: TV
   Terms of Use: Användningsvillkor
   The Basics: Grunderna
@@ -463,8 +456,6 @@ sv-SE:
   Top Rated Movies: Filmer med toppbetyg
   Top Rated TV Shows: TV-serier med toppbetyg
   Top Users: Toppanvändare
-  Trailer: Trailer
-  Trailers: Trailers
   Translate Collection: 
   Translate Movie: Översätt Film
   Translate Person: Översätt Person
@@ -692,13 +683,13 @@ sv-SE:
   api_session:
     3rd_party_request: Autentiseringsförfrågan från annat program eller sajt
     account_required:
-      need_account: 
+      need_account: Du måste vara inloggad för att fortsätta!
       title: Ett konto krävs
     approved_session: Du har godkänt %{application_name}. Du kan stänga detta fönster.
     continue: Klicka på knappen ovan om du vill fortsätta, annars kan du bara stänga detta fönster.
     invalid_api_app:
       message: 
-      title: 
+      title: Felaktig API-användare
     missing_request_token:
       message: 
       title: 
@@ -790,7 +781,7 @@ sv-SE:
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Personer under 14 år måste medföljas av en vuxen.
         '4':
           meaning: 
         '5':
@@ -886,7 +877,7 @@ sv-SE:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Utan åldersgräns.
         '2':
           meaning: 
         '3':
@@ -954,17 +945,17 @@ sv-SE:
         '0':
           meaning: Ingen klassificerings information.
         '1':
-          meaning: 
+          meaning: Lämplig för alla.
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: 9 år (barn ner till 6 år om ledsagad av vuxen).
         '4':
-          meaning: 
+          meaning: 12 år (barn ner till 9 år om ledsagad av vuxen).
         '5':
-          meaning: 
+          meaning: 15 år (ungdomar ner till 12 år om ledsagad av vuxen).
         '6':
-          meaning: 
+          meaning: 18 år (absolut nedre gräns).
       NZ:
         '1':
           meaning: 
@@ -1612,8 +1603,8 @@ sv-SE:
   failed_sharing: Det var ett problem med att dela ditt meddelande.
   failed_validation: Det fanns valideringsfel...
   filter_by_release_date:
-    max: 
-    min: 
+    max: Filtrera efter releasedatum (max)
+    min: Filtrera efter releasedatum (min)
   homepage:
     discussions:
       catch_up_now: 
@@ -1635,9 +1626,9 @@ sv-SE:
       '4': En maximal upplösning på 3840x2160
       '5': En minsta upplösning på 400x225
       '6': 
-      '7': 
+      '7': Minsta upplösning 1280x720
       '8': 
-      '9': 
+      '9': Minsta upplösning 300x450
       backdrops_must_meet: 
       episode_stills_must_meet: 'Avsnitts-stillbilder måste möta följande kriterier:'
       posters_must_meet: 'Affischer måste möta de följande kriterier:'
@@ -3310,6 +3301,20 @@ sv-SE:
   upload_poster: Ladda upp affisch
   upload_profile: 
   used_by_developers: 
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Klipp
+      Clips: Klipp
+      Featurette: Featurette
+      Featurettes: Featurettes
+      Opening Credits: 
+      Teaser: Teaser
+      Teasers: Teasers
+      Trailer: Trailer
+      Trailers: Trailers
+    youtube_channel: 
   view all: Visa alla
   will_paginate:
     next_label: Nästa→

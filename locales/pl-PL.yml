@@ -94,8 +94,6 @@ pl-PL:
   Character: Postać
   Choose: 
   City: Miasto
-  Clip: Klip
-  Clips: Klipy
   Collection Results: Wyniki wyszukiwania kolekcji
   Collections: Kolekcje
   Coming soon!: Wkrótce!
@@ -191,8 +189,6 @@ pl-PL:
   Featured Cast: Wybrana obsada
   Featured Crew: Polecana ekipa
   Featured Lists: Polecane Listy
-  Featurette: Film fabularny
-  Featurettes: Średniometrażowe
   Female: Kobieta
   Filter: Filtruj
   Filter Profanity?: Filtrować wulgaryzmy?
@@ -302,7 +298,6 @@ pl-PL:
   Offensive or Spam: Obraźliwe lub spam
   Offical Site: Oficjalna strona
   Offline Databases: 
-  Opening Credits: Intro
   Origin Country: Kraj oryginału
   Original Air Date: Oficjalna data premiery
   Original Ascending: Pierwotnie rosnąco
@@ -455,8 +450,6 @@ pl-PL:
   Tagged People: Oznaczone osoby
   Tagline: Slogan
   Talk: Słuchowisko
-  Teaser: Teaser
-  Teasers: Teasery
   Television: Telewizja
   Terms of Use: Regulamin
   The Basics: Podstawy
@@ -471,8 +464,6 @@ pl-PL:
   Top Rated Movies: Najlepiej oceniane filmy
   Top Rated TV Shows: Najlepiej oceniane seriale
   Top Users: Najlepsi użytkownicy
-  Trailer: Zwiastun
-  Trailers: Zwiastuny
   Translate Collection: Tłumaczenie zbiorowe
   Translate Movie: Przekład filmu
   Translate Person: Tłumacz
@@ -683,7 +674,7 @@ pl-PL:
     watchlist:
       my_watchlist:
         logged_in: Moje obserwowane
-        public: 
+        public: Lista Obserwowanych przez %{username}
       next_month: W przyszłym miesiącu
       no_upcoming_movies:
         few: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} filmy.
@@ -704,21 +695,21 @@ pl-PL:
   api_session:
     3rd_party_request: Autoryzowane aplikacje innych firm
     account_required:
-      need_account: 
-      title: 
+      need_account: Musisz być zalogowanym aby kontynuować!
+      title: Wymagane jest posiadanie konta
     approved_session: Aplikacja %{application_name} została zatwierdzona. Można zamknąć to okno.
     continue: Jeśli chcesz kontynuować, kliknij przycisk zatwierdzaj poniżej. Jeśli nie, można po prostu zamknąć to okno.
     invalid_api_app:
-      message: 
-      title: 
+      message: Aktualnie uwierzytelniany użytkownik API jest nieprawidłowy.
+      title: Nieprawidłowy Użytkownik API
     missing_request_token:
-      message: 
-      title: 
+      message: Token żądania jest wymagany w celu uwierzytelnienia kont użytkowników.
+      title: Brak Tokenu Żądania.
     request_token_approval:
       message: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDb."
     statuses:
       completed:
-        message: 
+        message: Przyznano uprawnienia do odczytu i zapisu dla <strong>%{application_name}</strong>. Możesz teraz powrócić do aplikacji i zamknąć to okno. Zawsze możesz odwołać ten dostęp, wchodząc na stronę ustawień konta, a następnie na stronę "Połączone Aplikacje".
         name: Dostęp udzielony
       denied:
         message: "<p>Odmówiłeś dostępu aplikacji <strong>%{application_name}</strong>. Jeśli to była pomyłka lub chciałbyś rozpocząć ponownie proces autoryzacji, to zrób to z poziomu aplikacji.</p>"
@@ -1135,7 +1126,7 @@ pl-PL:
         '1':
           meaning: Szczególnie polecany dla młodszych dzieci.
         '2':
-          meaning: 
+          meaning: Do ogólnego oglądania.
         '3':
           meaning: Nie polecane dla widzów poniżej 7 roku życia.
         '4':
@@ -1180,9 +1171,9 @@ pl-PL:
         '1':
           meaning: Bez ograniczeń wiekowych.
         '2':
-          meaning: 
+          meaning: Programy zalecane dla dzieci. Jest to ocena opcjonalna, nie ma obowiązku, aby nadawcy ją umieszczali.
         '3':
-          meaning: 
+          meaning: Programy niezalecane dla dzieci poniżej 6 roku życia, mogą nie zawierać przemocy ani treści seksualnych. Do tego ratingu używane jest żółte kółko z wpisanym numerem 6.
         '4':
           meaning: 
         '5':
@@ -1334,7 +1325,7 @@ pl-PL:
     tv_shows_missing_a_overview: Brakujące opisy seriali
   contribution_bible:
     abbreviations:
-      collection: 
+      collection: kol
       image: img
       movie: mov
       people: ppl
@@ -3200,7 +3191,7 @@ pl-PL:
       change_email: Zmiana adresu e-mail
       change_email_text: Jeśli chcesz zmienić swój adres e-mail, wprowadź nowy adres e-mail w polu poniżej. Zanim będzie mógł zalogować się ponownie, będziesz musiał zweryfikować swój nowy adres, klikając w link aktywacyjny w mailu, który wyślemy na nowy adres.
     connected_apps:
-      connected_apps: Połączone aplikacje
+      connected_apps: Połączone Aplikacje
       listed_below_explanation: Poniżej znajdują się nieoficjalne aplikacje, dla których autoryzowałeś dostęp do twoich danych w serwisie. Możesz cofnąć autoryzację, kiedy tylko chcesz.
       no_apps: Nie masz żadnych połączonych aplikacji z twoim kontem.
       table:
@@ -3361,6 +3352,20 @@ pl-PL:
   upload_poster: Wysyłanie plakatu
   upload_profile: Uaktualnij profil
   used_by_developers: TMDb jest używana przez ponad 200 000 osób rozwijających serwis.<br>Przeglądaj ich pracę poniżej.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Klip
+      Clips: Klipy
+      Featurette: Film fabularny
+      Featurettes: Średniometrażowe
+      Opening Credits: Intro
+      Teaser: Teaser
+      Teasers: Teasery
+      Trailer: Zwiastun
+      Trailers: Zwiastuny
+    youtube_channel: 
   view all: wyświetl wszystkich
   will_paginate:
     next_label: Następny →

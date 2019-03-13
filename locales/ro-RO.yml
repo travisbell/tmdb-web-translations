@@ -66,7 +66,7 @@ ro-RO:
   Approve: Aprobă
   Approved?: Aprobați?
   Apps: Aplicații
-  Archived Databases: 
+  Archived Databases: Bază de date arhivată
   Are you sure?: Sigur doriți acest lucru?
   Attributes: Atribute
   Auto: Automat
@@ -90,8 +90,6 @@ ro-RO:
   Character: Personaj
   Choose: Alege...
   City: Oraș
-  Clip: Clip
-  Clips: Clipuri
   Collection Results: Rezultate colecții
   Collections: Colecții
   Coming soon!: În curând!
@@ -181,8 +179,6 @@ ro-RO:
   Featured Cast: Distribuția evidențiată
   Featured Crew: Echipă filmare evidențiată
   Featured Lists: Liste evidențiate
-  Featurette: Filmuleț
-  Featurettes: Filmulețe
   Female: Femeie
   Filter: Filtru
   Filter Profanity?: Filtrăm vulgaritatea?
@@ -291,8 +287,7 @@ ro-RO:
   Number of edits in the past: Număr de modificări din ultimele
   Offensive or Spam: Ofensator sau spam
   Offical Site: Site oficial
-  Offline Databases: 
-  Opening Credits: Mulțumiri de deschidere
+  Offline Databases: Baze de date neconectate.
   Origin Country: Țară de origine
   Original Air Date: Dată difuzare originală
   Original Ascending: Original ascendent
@@ -445,8 +440,6 @@ ro-RO:
   Tagged People: Persoane etichetate
   Tagline: Slogan
   Talk: Discuție
-  Teaser: Șicanor
-  Teasers: Șicanoare
   Television: Filme seriale
   Terms of Use: Termeni de utilizare
   The Basics: De bază
@@ -461,8 +454,6 @@ ro-RO:
   Top Rated Movies: Filme artistice cu cele mai mari note
   Top Rated TV Shows: Filme seriale cu cele mai mari note
   Top Users: Clasament utilizatori
-  Trailer: Remorcă
-  Trailers: Remorci
   Translate Collection: Traducere colecție
   Translate Movie: Traducere film artistic
   Translate Person: Traduce persoana
@@ -584,7 +575,7 @@ ro-RO:
           one: "%{count} Notificare"
           other: "%{count} Notificări"
       page_title:
-        recent_events: 
+        recent_events: Evenimente recente
       recent: Recent
     export:
       csv_explanation: Dacă doriți să aveți o copie a acestei liste exportată într-un fișier CSV, faceți clic pe butonul "Export" de mai jos. Vom crea exportul și îl vom trimite prin e-mail. În funcție de dimensiunea listei dvs., aceasta poate dura câteva minute până la finalizare.
@@ -673,7 +664,7 @@ ro-RO:
     watchlist:
       my_watchlist:
         logged_in: Lista filmelor ce le urmăresc
-        public: 
+        public: "%{username} Listă de urmărit"
       next_month: Luna următoare
       no_upcoming_movies:
         few: ''
@@ -694,16 +685,16 @@ ro-RO:
   api_session:
     3rd_party_request: Solicitare autentificare de la o terță parte
     account_required:
-      need_account: 
-      title: 
+      need_account: E nevoie să vă logați pentru a continua!
+      title: Un cont este necesar
     approved_session: Ați aprobat %{application_name}. Puteți închide această fereastră.
     continue: Dacă doriți să continuați, dați clic pe butonul de aprobare de mai jos. Dacă nu, puteți să închideți pur și simplu această fereastră.
     invalid_api_app:
-      message: 
-      title: 
+      message: Utilizatorul API ce este autentificat nu este valid.
+      title: Utilizator API invalid
     missing_request_token:
-      message: 
-      title: 
+      message: Este necesară solicitare token în vederea autentificări în cont.
+      title: Lipsă solicitare Token
     request_token_approval:
       message: "{{APP}} solicită permisiunea dvs. de a citi și de a scrie date în numele dvs. Acest lucru este necesar dacă doriți să faceți lucruri cum ar fi să vă mențineți listele sau să evaluați filmele în afara TMDb."
     statuses:
@@ -728,7 +719,7 @@ ro-RO:
     overview: Prezentare
     title: Titlu
     to_accounts_ids: Către
-    translated_overview: 
+    translated_overview: Prezentare
   average edits per day: Medie de modificări pe zi
   back_options:
     back: Înapoi
@@ -886,19 +877,19 @@ ro-RO:
           meaning: 'Poate fi vizionată numai la cinematografele pentru adulți sau vândută la magazinele de sex licențiate și numai la adulți, cei cu vârsta de 18 ani sau peste. Filmele din această categorie sunt întotdeauna pornografice de tip hard-core, definite ca materiale destinate stimulării sexuale și care conțin imagini clare ale activității sexuale reale, materiale puternice de fetiș, imagini animate explicit sau vizionarea anumitor acte, cum ar fi pătrunderea simultană triplă și ejaculare. Există o serie de materiale care sunt adesea tăiate din aceste evaluări R18: imagini puternice de rănirii în timpul actului sexual, urinări, scene sugerând incest, chiar dacă sunt organizate, referiri la sex cu minori sau la dezvoltarea sexuală a copiilor precum și la comportament agresiv de a scuipa pe un interpret nu sunt permise. Mai multe tăieri sunt solicitate în această categorie decât în orice altă categorie.'
       HU:
         '0':
-          meaning: 
+          meaning: Fără informații de evaluare.
         '1':
-          meaning: 
+          meaning: 'Fără restricții de vârstă. '
         '2':
-          meaning: 
+          meaning: Nerecomandat sub vârsta de 6 ani.
         '3':
-          meaning: 
+          meaning: Nerecomandat sub vârsta de 12 ani.
         '4':
-          meaning: 
+          meaning: Nerecomandat sub vârsta de 16 ani.
         '5':
-          meaning: 
+          meaning: Nerecomandat sub vârsta de 18 ani.
         '6':
-          meaning: 
+          meaning: Restricționat sub 18 ani, doar pentru adulți.
       IN:
         '0':
           meaning: Nerestricționată pentru vizionare în toată India, potrivită pentru toate grupele de vârstă. Filmele din această categorie nu ar trebui să deranjeze copiii de peste 4 ani. Aceste filme pot conține teme educaționale, sociale sau de familie. Filmele din această categorie pot conține, de asemenea, violență fantastică și / sau limbaj neadecvat.
@@ -908,13 +899,13 @@ ro-RO:
           meaning: Limitat la segmentul de public adult (18 ani sau peste). Nimeni sub vârsta de 18 ani nu poate cumpăra / închiria un DVD, VHS, UMD cu evaluare  A sau poate viziona un film în cinematograf cu această evaluare. Filmele din această categorie pot conține teme adulte / deranjante, limbaj frecvent brut, violență brutală cu sânge, scene sexuale puternice și / sau scene de abuz de droguri considerate a fi nepotrivite pentru minori.
       IT:
         '0':
-          meaning: 
+          meaning: Fără informații de evaluare.
         '1':
-          meaning: 
+          meaning: 'Admis tuturor vârstelor. '
         '2':
-          meaning: 
+          meaning: Neadmis pentru copii sub 14 ani.
         '3':
-          meaning: 
+          meaning: Neadmis pentru copii sub 18 ani.
       LT:
         '1':
           meaning: Filme pentru toate vârstele.
@@ -1121,23 +1112,23 @@ ro-RO:
           meaning: Poate fi difuzat doar între 23.00 și 6:00.
       ES:
         '0':
-          meaning: 
+          meaning: Fără informații de evaluare.
         '1':
-          meaning: 
+          meaning: Recomandat special pentru copii.
         '2':
           meaning: 
         '3':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 7 ani.
         '4':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 10 ani.
         '5':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 12 ani.
         '6':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 13 ani.
         '7':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 16 ani.
         '8':
-          meaning: 
+          meaning: Nerecomandat pentru spectatori sub 18 ani.
       FR:
         '0':
           meaning: Fără evaluare.
@@ -1166,11 +1157,11 @@ ro-RO:
           meaning: Categoria R18 este o clasificare specială și limitează din punct de vedere legal, în primul rând materialele explicite ce conțin sex sau cele cu un material puternic de fetiș care implică adulți.
       HU:
         '0':
-          meaning: 
+          meaning: Fără informații de evaluare.
         '1':
-          meaning: 
+          meaning: Fără restricții de vârstă.
         '2':
-          meaning: 
+          meaning: Programe recomandate pentru copii. Evaluare opțională, nu există obligație a fi indicat pentru a fi transmis.
         '3':
           meaning: 
         '4':
@@ -1216,7 +1207,7 @@ ro-RO:
         '0':
           meaning: 
         '1':
-          meaning: 
+          meaning: Potrivit pentru toate vârstele.
         '2':
           meaning: 
         '3':
@@ -1654,7 +1645,7 @@ ro-RO:
       discussions: Discuții
     taw:
       read_the_2018_recap: 
-      thats_a_wrap: 
+      thats_a_wrap: Finalizat!
     tv_shows:
       episode_airs:
         in_days: Un episod nou va fi difuzat peste %{number_of_days} zile
@@ -2951,10 +2942,10 @@ ro-RO:
       audio_language: Limbă audio
       channel: Canal
       duration: Durată
-      play_clip: 
-      play_featurette: 
+      play_clip: Rulați clip
+      play_featurette: Rulați filmulețul
       play_opening_credits: 
-      play_teaser: 
+      play_teaser: Rulați scena scurtă.
       play_trailer: Redă secvențele
       published: Publicat
       published_at: Publicat la
@@ -3006,7 +2997,7 @@ ro-RO:
       new_message: Mesaj Nou
       support_archive: Suport Arhivă
       support_inbox: Suport Inbox
-    translate: 
+    translate: Traducere
   month:
     few: "%{count} luni"
     one: lună
@@ -3311,9 +3302,12 @@ ro-RO:
       change_password: Schimbați parola
       edit_profile: Editare profil
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
+        invalid_dialog_title: Resetați Emailul ?
+        reset_button: Resetați și trimiteți?
+        reset_invalid_email_dialog_text: |-
+          <p>Din păcate, am avut probleme cu trimiterea către dvs. de e-mailuri în trecut. Puteți vedea erorile <a href="/u/%{username_url}/events/emails?status=2,3">aici</a>.</p>
+
+          <p>Dacă problemele cu adresa dvs. de e-mail au fost reparate sau au fost doar temporare, faceți clic pe butonul de resetare de mai jos și vom încerca să vă trimitem un alt e-mail pentru a fi verificat.</p>
         reset_password_invalid_email_dialog_text: 
       reset_password_dialog_text: Prin confirmarea acestei solicitări veți primi un e-mail cu instrucțiuni despre resetarea parolei. Sigur vrei să faci asta?
     sharing:
@@ -3327,7 +3321,7 @@ ro-RO:
       sharing_settings: Stabilire distribuire
       watchlist:
         remove_when_rated: Ștergere automată articole atunci când sunt evaluate?
-        share_publicly: 
+        share_publicly: Distribuiți public această listă?
         watchlist_settings: Stabilire listă filme de urmărit
     social:
       connected_table:
@@ -3379,6 +3373,20 @@ ro-RO:
   upload_poster: Încărcare afiș
   upload_profile: Încărcare imagine de profil
   used_by_developers: TMDb este utilizată de mai mult de 200,000 de dezvoltatori.<br>Răsfoiți-le munca mai jos.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Clip
+      Clips: Clipuri
+      Featurette: Filmuleț
+      Featurettes: Filmulețe
+      Opening Credits: Mulțumiri de deschidere
+      Teaser: Șicanor
+      Teasers: Șicanoare
+      Trailer: Remorcă
+      Trailers: Remorci
+    youtube_channel: 
   view all: Arată toți
   will_paginate:
     next_label: Următorul →

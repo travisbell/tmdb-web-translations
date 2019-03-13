@@ -90,8 +90,6 @@ cs-CZ:
   Character: Role
   Choose: Zvolte...
   City: Město
-  Clip: Klip
-  Clips: Klipy
   Collection Results: Nalezené kolekce
   Collections: Kolekce
   Coming soon!: Již brzy!
@@ -181,8 +179,6 @@ cs-CZ:
   Featured Cast: Vybrané obsazení
   Featured Crew: Vybraný štáb
   Featured Lists: Vybrané seznamy
-  Featurette: Film o filmu
-  Featurettes: Filmy o filmu
   Female: Žena
   Filter: Filtrovat
   Filter Profanity?: Filtrovat vulgární slova?
@@ -292,7 +288,6 @@ cs-CZ:
   Offensive or Spam: Urážlivé nebo spam
   Offical Site: Oficiální stránky
   Offline Databases: Offline databáze
-  Opening Credits: Úvodní titulky
   Origin Country: Země původu
   Original Air Date: Původní datum vysílání
   Original Ascending: Původní vzestupně
@@ -445,8 +440,6 @@ cs-CZ:
   Tagged People: Označení lidé
   Tagline: Slogan
   Talk: 
-  Teaser: Ukázka
-  Teasers: Ukázky
   Television: Televize
   Terms of Use: Podmínky použití
   The Basics: Základní informace
@@ -461,8 +454,6 @@ cs-CZ:
   Top Rated Movies: Nejlépe hodnocené filmy
   Top Rated TV Shows: Nejlépe hodnocené seriály
   Top Users: Nejlepší uživatelé
-  Trailer: Upoutávka
-  Trailers: Upoutávky
   Translate Collection: Přeložit kolekci
   Translate Movie: Přeložit film
   Translate Person: Přeložit osobu
@@ -694,16 +685,16 @@ cs-CZ:
   api_session:
     3rd_party_request: Žádost o ověření třetí strany
     account_required:
-      need_account: 
-      title: 
+      need_account: Pro pokračování musíte být přihlášeni!
+      title: Je vyžadován účet
     approved_session: Schválili jste %{application_name}. Můžete zavřít toto okno.
     continue: Pokud chcete pokračovat, klikněte na níže uvedené tlačítko schválení. Pokud ne, jednoduše zavřete toto okno.
     invalid_api_app:
-      message: 
-      title: 
+      message: Uživatel API, který je aktuálně ověřován, není platný.
+      title: 'Neplatný API uživatel '
     missing_request_token:
-      message: 
-      title: 
+      message: Pro ověření uživatelských účtů je vyžadován request token.
+      title: Chybějící request token
     request_token_approval:
       message: "{{APP}} žádá o vaše oprávnění číst a zapisovat údaje ve vašem zastoupení. To je nutné, pokud chcete dělat věci, jako je udržování seznamů nebo posuzování filmů mimo TMDb."
     statuses:
@@ -3380,6 +3371,20 @@ cs-CZ:
   upload_poster: Nahrát plakát
   upload_profile: Nahrát profil
   used_by_developers: TMDb je používáno více než 200.000 vývojáři.<br>Níže můžete procházet jejich práci.
+  videos:
+    number_of_videos: 
+    official_channel: 
+    types:
+      Clip: Klip
+      Clips: Klipy
+      Featurette: Film o filmu
+      Featurettes: Filmy o filmu
+      Opening Credits: Úvodní titulky
+      Teaser: Ukázka
+      Teasers: Ukázky
+      Trailer: Upoutávka
+      Trailers: Upoutávky
+    youtube_channel: 
   view all: zobrazit vše
   will_paginate:
     next_label: Další →
