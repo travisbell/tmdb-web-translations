@@ -2098,7 +2098,7 @@ pt-BR:
     Foley Supervisor: 
     Gaffer: Chefe de iluminação
     General Manager: Gerente Geral
-    Generalist: 
+    Generalist: Generalista
     Generator Operator: 
     Genetator Operator: 
     Graphic Designer: 'Designer Gráfico '
@@ -2113,7 +2113,7 @@ pt-BR:
     Hair Designer: Projetista de penteados
     Hair Setup: Preparação de penteados
     Hair Supervisor: Supervisor de Cabelos
-    Hairdresser: 
+    Hairdresser: Cabeleireiro
     Hairstylist: Cabeleireiro(a)
     Head Carpenter: Carpinteiro Principal
     Head Decorator: Decorador Principal
@@ -2121,15 +2121,15 @@ pt-BR:
     Head Driver: Motorista Principal
     Head Greensman: 
     Head of Animation: Animador Principal
-    Head of Layout: 
-    Head of Production: 
-    Head of Programming: 
-    Head of Research: 
+    Head of Layout: Chefe de Layout
+    Head of Production: Chefe de produção
+    Head of Programming: Chefe de Programação
+    Head of Research: Chefe de Pesquisa
     Head of Story: 
     Health and Safety: Saúde e Segurança
     Helicopter Camera: Operação de helicóptero câmera
     Helping Hand: Mão Amiga
-    Human Resources: 
+    Human Resources: Recursos humanos
     I/O Manager: Gerente de entrada e saída
     I/O Supervisor: Supervisão de entrada e saída
     Idea: Conceitos
@@ -2617,7 +2617,7 @@ pt-BR:
     Wardrobe Master: 
     Wardrobe Specialized Technician: 
     Wardrobe Supervisor: 
-    Weapons Master: 
+    Weapons Master: Mestre de armas
     Weapons Wrangler: 
     Web Designer: Web Designer
     Wig Designer: Designer de Peruca
@@ -3311,10 +3311,16 @@ pt-BR:
       change_password: Alterar senha
       edit_profile: Editar perfil
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: Redefinir Email?
+        reset_button: Redefinir e enviar?
+        reset_invalid_email_dialog_text: |-
+          <p>Infelizmente, tivemos problemas em enviar e-mails para você no passado. Você pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3"> aqui </a>.</ P>
+
+          <p>Se os problemas com seu endereço de e-mail tiverem sido corrigidos ou forem temporários, clique no botão de redefinição abaixo e tentaremos enviar outro e-mail para você confirmar.</ p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Para alterar sua senha, precisamos de um endereço de e-mail válido. Infelizmente, tivemos problemas em enviar e-mails para você no passado. Você pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3"> aqui </a>.</ P>
+
+          <p>Se os problemas com seu endereço de e-mail foram corrigidos ou foram apenas temporários, clique no botão de redefinição abaixo e tentaremos enviar outro e-mail para você.</ p>
       reset_password_dialog_text: Ao confirmar esta solicitação, enviaremos um e-mail com instruções de como redefinir a sua senha. Tem certeza de que deseja fazer isto?
     sharing:
       favorite_list:
@@ -3327,7 +3333,7 @@ pt-BR:
       sharing_settings: Configurações de compartilhamento
       watchlist:
         remove_when_rated: Remover itens automaticamente quando forem avaliados?
-        share_publicly: 
+        share_publicly: Compartilhar esta lista publicamente?
         watchlist_settings: Configurações da lista de interesses
     social:
       connected_table:
@@ -3380,16 +3386,18 @@ pt-BR:
   used_by_developers: O TMDb é usado por mais de 200.000 desenvolvedores.<br>Confira o trabalho de alguns deles abaixo.
   videos:
     filters:
-      language: 
+      language: Idioma
       sort:
-        published_at_asc: 
-        published_at_desc: 
-        sort: 
-      type: 
-    number_of_videos: 
-    official_channel: 
-    page_title: 
-    popular: 
+        published_at_asc: Publicado em (mais antigo primeiro)
+        published_at_desc: Publicado em (mais novo primeiro)
+        sort: Ordenar
+      type: Tipo
+    number_of_videos:
+      one: "%{count} vídeo"
+      other: "%{count} vídeos"
+    official_channel: Canal Oficial
+    page_title: "%{name} Canal de vídeo"
+    popular: Popular
     types:
       Behind the Scenes: 
       Blooper: 
@@ -3399,14 +3407,14 @@ pt-BR:
       Featurette: Extra
       Featurettes: Extras
       Opening Credits: Créditos de abertura
-      Recap: 
-      Recaps: 
+      Recap: Recapitular
+      Recaps: Recapitulações
       Teaser: Trailer teaser
       Teasers: Trailers teaser
       Trailer: Trailer
       Trailers: Trailers
-    visit_youtube_channel: 
-    youtube_channel: 
+    visit_youtube_channel: Visite o canal do YouTube
+    youtube_channel: Canal do Youtube
   view all: Mostrar tudo
   will_paginate:
     next_label: Próxima →
