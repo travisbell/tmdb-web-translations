@@ -682,16 +682,16 @@ fr-CA:
   api_session:
     3rd_party_request: Demande d'authentification tierce
     account_required:
-      need_account: 
-      title: 
+      need_account: Vous devez vous connecter pour continuer!
+      title: Un compte d'utilisateur est requis
     approved_session: 'Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre. '
     continue: 'Si vous voulez continuer, cliquer sur le bouton ci-dessous pour approuver. Sinon, vous n''avez qu''à fermer cette fenêtre.  '
     invalid_api_app:
-      message: 
-      title: 
+      message: L'utilisateur API présentement authentifié n'est pas valide.
+      title: Utilisateur API non valide
     missing_request_token:
-      message: 
-      title: 
+      message: Un jeton de demande est nécessaire pour authentifier les comptes d'utilisateur.
+      title: Jeton de demande manquant
     request_token_approval:
       message: "{{APP}} vous demande la permission de lire et d'écrire des données en votre nom. Cela est nécessaire si vous voulez faire des choses comme maintenir vos listes ou noter des films en dehors de TMDb."
     statuses:
@@ -767,16 +767,16 @@ fr-CA:
         '2':
           meaning: 'Contient des scènes de violence et un langage non recommandé aux enfants de moins de 10 ans. '
         '3':
-          meaning: 
+          meaning: Non recommandé pour les mineurs en bas de 12 ans. Les scènes peuvent contenir des agressions physique, l'usage de drogues légales et des images à caractère sexuel.
         '4':
-          meaning: 
+          meaning: Non recommandé pour les mineurs en bas de 14 ans. Matériel violent, fortes références sexuelles et/ou nudité.
         '5':
-          meaning: 
+          meaning: Non recommandé pour les mineurs en bas de 16 ans. Les scènes peuvent montrer de la production, du trafic et/ou de l'utilisation de drogue illégales, du sexe, de la violence sexuelle, des avortements, de la torture, de la mutilation, du suicide, de la banalisation de la violence et la peine de mort.
         '6':
           meaning: 
       CA:
         '1':
-          meaning: 
+          meaning: Tous âges.
         '2':
           meaning: 
         '3':
@@ -2791,6 +2791,8 @@ fr-CA:
           no_records: 
         screened_confirm: 
         screened_label: 
+      season_cast: 
+      season_crew: 
       season_selector:
         current_season: Saison en cours
         last_season: Dernière saison
