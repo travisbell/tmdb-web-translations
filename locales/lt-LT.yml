@@ -1490,8 +1490,8 @@ lt-LT:
         support: Palaikymas
         website_support: Svetainės palaikymas
     category:
-      last_reply_with_datetime: "%{date} %{time}"
-      last_reply_with_datetime_and_username: "%{username}, %{date} %{time}<br>"
+      last_reply_with_datetime: "%{date}, %{time}"
+      last_reply_with_datetime_and_username: "%{username}<br>%{date}, %{time}"
     discussion_activity: Diskusijų veikla
     email_notifications:
       email_notifications: Pranešimas el. paštu
@@ -1536,12 +1536,12 @@ lt-LT:
         mark_as_spam: Ar tikrai norite pažymėti šią diskusiją kaip šlamštą? Ji bus automatiškai ištrinta, jei tai padarysite negalėsite šio veiksmo panaikinti. Diskusijų, kaip šlamšto, žymėjimas padeda mokyti mūsų naudojamą šlamšto aptikimo paslaugą.
         report_violation: Patvirtinkite, kad norite pranešti apie šį vartotoją dėl taisyklių pažeidimo <a href="/documentation/community/guidelines" target="_blank" rel="noopener">community guidelines</a>.
         unhide_discussion: Spustelėję 'Taip' ši diskusija bus matoma vėl.
-      posted_by_with_datetime: paskelbtas %{username} %{date} %{time}
+      posted_by_with_datetime: paskelbė %{username}, %{date}, %{time}
       quote: Citata
       reopen_reply: Atnaujinti & Atsakyti
       reply: Atsakyti
       reply_by: Atsakė %{username}
-      reply_on_datetime: "%{date} %{time}"
+      reply_on_datetime: "%{date}, %{time}"
       report: Pranešimas
       unhide: Rodyti
     report_violation: Pranešti apie pažeidimą
@@ -1981,9 +1981,9 @@ lt-LT:
     Dresser: 
     Dressing Prop: 
     Driver: Vairuotojas
-    Drone Cinematographer: 
-    Drone Operator: 
-    Drone Pilot: Drono operatorius
+    Drone Cinematographer: Drono vyr. opertatorius
+    Drone Operator: Drono operatorius
+    Drone Pilot: Drono pilotas
     EPK Editor: EPK redaktorius
     Editor: Montažas
     Editorial Consultant: Montažo konsultantas
@@ -2799,7 +2799,7 @@ lt-LT:
         yes_notify_me: Taip, pranešk man!
       reviews:
         a_review_by: "%{username} rezencija"
-        by: Parašyta %{username}, %{date}
+        by: Parašė %{username}, %{date}
         featured_review: Populiari recenzija
         no_review:
           logged_in: Neturime jokių %{title} recenzijų. Gal nori parašyti savo? <a href="%{url}"></a>
