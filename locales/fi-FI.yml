@@ -682,13 +682,13 @@ fi-FI:
   api_session:
     3rd_party_request: Kolmannen osapuolen todennuspyyntö
     account_required:
-      need_account: 
-      title: 
+      need_account: Sinun täytyy olla kirjautunut sisään jatkaaksesi!
+      title: Tili vaaditaan
     approved_session: Olet hyväksynyt %{application_name}. Voit sulkea tämän ikkunan.
     continue: Jos haluat jatkaa, klikkaa 'hyväksy' nappia alta. Jos et, voit yksinkertaisesti sulkea tämän ikkunan.
     invalid_api_app:
-      message: 
-      title: 
+      message: Tällä hetkellä todennettava API-käyttäjä ei ole kelvollinen.
+      title: Kelpaamaton API-käyttäjä
     missing_request_token:
       message: 
       title: 
@@ -2843,8 +2843,8 @@ fi-FI:
           no_records: Jaksoja ei ole lisätty.
         screened_confirm: Jos tämä kausi on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
-      season_cast: 
-      season_crew: 
+      season_cast: Kauden näyttelijät
+      season_crew: Kauden tekijät
       season_selector:
         current_season: Nykyinen kausi
         last_season: Viimeisin kausi
@@ -2909,8 +2909,8 @@ fi-FI:
       networks:
         one: Julkaisukanava
         other: Julkaisukanavat
-      series_cast: 
-      series_crew: 
+      series_cast: Sarjan näyttelijät
+      series_crew: Sarjan tekijät
       statuses:
         Canceled: Peruttu
         Ended: Päättynyt
@@ -2930,13 +2930,13 @@ fi-FI:
       audio_language: Ääniraidan kieli
       channel: Kanava
       duration: Kesto
-      play_behind_the_scenes: 
+      play_behind_the_scenes: Toista Kulissien takana
       play_blooper: 
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_recap: 
-      play_teaser: 
+      play_clip: Toista leike
+      play_featurette: Toista kooste
+      play_opening_credits: Toista alkutekstit
+      play_recap: Toista kertaus
+      play_teaser: Toista tiiseri
       play_trailer: Katso traileri
       published: Julkaistu
       published_at: Julkaistu
@@ -3361,10 +3361,10 @@ fi-FI:
   used_by_developers: TMDb on käytössä yli 200 000 kehittäjällä.<br>Alle on listattu heidän töitään.
   videos:
     filters:
-      language: 
+      language: Kieli
       sort:
-        published_at_asc: 
-        published_at_desc: 
+        published_at_asc: Julkaistu (Vanhin ensin)
+        published_at_desc: Julkaistu (Uusin ensin)
         sort: 
       type: 
     number_of_videos: 
