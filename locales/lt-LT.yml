@@ -73,7 +73,7 @@ lt-LT:
   Back to top: Atgal į viršų
   Backdrop Card View: Filmo scenos rodymas
   Backdrops: Filmo scenos
-  Bad Image: Blogas atvaizdas
+  Bad Image: Blogas atvaizdis
   Best Match: Geriausias atitikimas
   Biography: Biografija
   Birthday: Gimtadienis
@@ -157,7 +157,10 @@ lt-LT:
   Email: El. paštas
   Email Address: El. pašto adresas
   Email Content: El. pašto turinys
-  Episode Images: Epizodo atvaizdas
+  Episode Images:
+    few: ''
+    one: ''
+    other: Epizodo atvaizdis
   Episode Number: Epizodo numeris
   Episode Overview: Epizodo siužetas
   Episodes: Epizodai
@@ -210,7 +213,7 @@ lt-LT:
   Home: Pagrindinis
   Homepage: Oficialus puslapis
   IMDB ID: IMDB ID
-  Images: Atvaizdai
+  Images: Atvaizdžiai
   Import CSV: Importuoti CSV
   Import List: Importuoti sąrašą
   In Theaters: Kinuose
@@ -477,7 +480,7 @@ lt-LT:
   Videos: Vaizdo įrašai
   View: Rodymas
   View All Backdrops: Peržiūrėti visas filmo scenas
-  View All Episode Images: Peržiūrėti visus epizodų vaizdus
+  View All Episode Images: Peržiūrėti visus epizodų atvaizdžius
   View All Episodes: Peržiūrėti visus epizodus
   View All Posters: Peržiūrėti visus plakatus
   View All Seasons: Peržiūrėti visus sezonus
@@ -487,7 +490,7 @@ lt-LT:
   View Episodes: Peržiūrėti epizodus
   View More: Daugiau
   View Original: Peržiūrėti originalą
-  View Profile Images: Peržiūrėti profilio atvaizdą
+  View Profile Images: Peržiūrėti profilio atvaizdį
   View the Collection: Žiūrėti rinkinį
   Watch Online: Žiūrėti internete
   Watchlist: Stebėraštis
@@ -1301,7 +1304,7 @@ lt-LT:
   contribute:
     contribute: Padėti projektui
     missing_a_biography: Trūksta biografijos
-    missing_a_profile_image: Trūksta profilio atvaizdo
+    missing_a_profile_image: Trūksta profilio atvaizdžio
     movie_language_distribution: Filmo platinimo kalba
     movies_missing_a_backdrop: Trūksta filmo scenos
     movies_missing_a_overview: Trūksta filmo apžvalgos
@@ -1333,8 +1336,8 @@ lt-LT:
       general: Pagrindinis
       general_bible: Pagrindinė Biblija
     image:
-      image: Atvaizdai
-      image_bible: Atvaizdų Biblija
+      image: Atvaizdžiai
+      image_bible: Atvaizdžių Biblija
     movie:
       movie: Filmai
       movie_bible: Filmų Biblija
@@ -1565,7 +1568,7 @@ lt-LT:
   dont_fallback: Jokia (Be pasirinkimo)
   edit_list:
     add_edit_items: Pridėti/redaguoti elementus
-    choose_image: Pasirinkite atvaizdą
+    choose_image: Pasirinkite atvaizdį
     delete_list: Ištrinti sąrašą
     edit_list: Redaguoti sąrašą
   edits: redagavimai
@@ -1581,10 +1584,10 @@ lt-LT:
   episode_number_name: Epizodas %{episode_number}
   errors:
     images:
-      couldnt_process: Nepavyko apdoroti šio atvaizdo
-      not_jpeg: Atvaizdas nėra JPEG formato
-      not_png: Atvaizdas nėra PNG formato
-      not_svg: Atvaizdas nėra SVG formato
+      couldnt_process: Nepavyko apdoroti šio atvaizdžio
+      not_jpeg: Atvaizdis nėra JPEG formato
+      not_png: Atvaizdis nėra PNG formato
+      not_svg: Atvaizdis nėra SVG formato
     locked:
       genres: Žanrų laukas užrakintas
       keywords: Raktažodžių laukas užrakintas
@@ -1625,23 +1628,23 @@ lt-LT:
         today: Naujas epizodas rodomas šiandien
         tomorrow: Naujas epizodas rodomas rytoj
   images:
-    confirm_delete: 'Ar tikrai norite ištrinti šį atvaizdą? '
+    confirm_delete: Ar tikrai norite ištrinti šį atvaizdį?
     upload_criteria:
       '1': Maksimali rezoliucija 2000x3000
       '2': Minimali rezoliucija 500x750
       '3': Kraštinių santykis 1:1.5 (2:3)
       '4': Maksimali rezoliucija 3840x2160
       '5': Minimali rezoilucija 400x225
-      '6': Kraštinių santykis 16x9 (1.78:1) ir 4:3 atvaizdai palaikomi
+      '6': Kraštinių santykis 16x9 (1.78:1) ir 4:3 atvaizdžiai palaikomi
       '7': Minimali rezoliucija 1280x720
       '8': Kraštinių santykis 16x9 (1.78:1)
       '9': Minimali rezoliucija 300x450
       backdrops_must_meet: 'Filmo scenos turi atitikti šiuos kriterijus:'
-      episode_stills_must_meet: 'Epizodų atvaizdai turi atitikti šiuos kriterijus:'
-      posters_must_meet: 'Plakatų atvaizdai turi atitikti šiuos kriterijus:'
-      profile_must_meet: 'Profilio atvaizdai turi atitikti šiuos kriterijus:'
+      episode_stills_must_meet: 'Epizodų atvaizdžiai turi atitikti šiuos kriterijus:'
+      posters_must_meet: 'Plakatų atvaizdžiai turi atitikti šiuos kriterijus:'
+      profile_must_meet: 'Profilio atvaizdžiai turi atitikti šiuos kriterijus:'
       read_guidelines: Prašome susipažinti su mūsų atnaujintais <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
-      tip: Jei jūsų naršyklė palaiko šią funkciją, galite tempti ir mesti atvaizdą į žemiau esantį plotą. Priešingu atveju tiesiog spustelėkite mygtuką "Pasirinkti failus ..." ir pasirinkite atvaizdą iš savo kompiuterio.
+      tip: Jei jūsų naršyklė palaiko šią funkciją, galite tempti ir mesti atvaizdį į žemiau esantį plotą. Priešingu atveju tiesiog spustelėkite mygtuką "Pasirinkti failus ..." ir pasirinkite atvaizdį iš savo kompiuterio.
   invalid_aspect_ratio: Netinkamas kraštinių santykis.
   item_count:
     few: "%{count} elementai"
@@ -1811,8 +1814,8 @@ lt-LT:
     BTS Videographer: 
     Back-up Set Production Assistant: 
     Back-up Truck Production Assistant: 
-    Background Casting Director: 
-    Background Designer: 
+    Background Casting Director: Antro plano atrankos direktorius
+    Background Designer: Antro plano dizaineris
     Base Camp Operator: 
     Battle Motion Coordinator: 
     Best Boy Electric: 
@@ -2591,7 +2594,7 @@ lt-LT:
       next_page: "(dešinė rodyklė) sekantis puslapis"
       next_season: "(dešinė rodyklė) sekantis sezonas"
       open_activity: peržiūrėti aktyvumą
-      open_add_image_window: pridėti vaizdą
+      open_add_image_window: atverti atvaizdžio pridėjimo langą
       open_profile: profilio meniu
       open_shortcut_window: spartieji klavišai
       open_translation_selector: vertimo parinktys
@@ -2608,7 +2611,7 @@ lt-LT:
       discussion_pages: Diskusijų puslapiuose
       edit_pages: Visuose redagavimo puslapiuose
       global: Bendras
-      image_pages: Visuose atvaizdo puslapiuose
+      image_pages: Visuose atvaizdžio puslapiuose
       media_pages: Medijų puslapiuose
       tv_episode_pages: TV epizodo puslapiuose
       tv_season_pages: TV sezono puslapiuose
@@ -2624,12 +2627,12 @@ lt-LT:
       other: elementų šiame sąraše
     private: Asmeniška
     public: Vieša
-    select_this_image: Pasirinkite šį atvaizdą
+    select_this_image: Pasirinkite šį atvaizdį
     total_revenue: Iš viso pajamų
     total_runtime: Bendra trukmė
   list_messages:
     comment_updated: Komentaras atnaujintas!
-    image_saved: Atvaizdas išsaugotas!
+    image_saved: Atvaizdis išsaugotas!
     item_added: Elementas pridėtas!
     item_already_added: Šis elementas jau yra sąraše.
     item_removed: Elementas pašalintas.
@@ -2667,7 +2670,7 @@ lt-LT:
       tv_page_title: TV laidos sukurtos %{name}
     edit:
       lock_all_fields: Užrakinti visus laukus
-      lock_all_images: Užrakinti visus atvaizdus
+      lock_all_images: Užrakinti visus atvaizdžius
       page_title: Redagavo %{name}
       placeholders:
         country: Pasirinkite šalį ...
@@ -3004,7 +3007,7 @@ lt-LT:
   no_crew: Mes neturime filmavimo grupės narių %{media_type}. Galite padėti, pridedant keletą!
   no_description: Aprašymas neįrašytas.
   no_director: Režisierius nėra pridėtas.
-  no_episode_images: Epizodo atvaizdas nėra pridėtas.
+  no_episode_images: Epizodo atvaizdis nėra pridėtas.
   no_favorite_movies:
     current_user: Jūs neįtraukėte jokių mėgstamiausių filmų.
     public: "%{username} neturi mėgstamiausių filmų."
@@ -3269,10 +3272,10 @@ lt-LT:
         upload_window_tip: Naudokite toliau pateiktą failų parinkiklį, jei norite įkelti savo pasirinktinį avatarą. Mes automatiškai apkarpysime jūsų paveikslėlį kaip kvadratą, jei dar to nėra.
         use_gravatar: Naudoti gravatarą?
       background:
-        background_image: Fono paveikslėlis
-        confirm_remove: Patvirtinkite, kad norite pašalinti fono paveikslėlį. Esate tuo tikras?
-        remove_background: Pašalinti fono paveikslėlį?
-        set_image: Nustatyti fono paveikslėlį?
+        background_image: Antro plano atvaizdis
+        confirm_remove: Patvirtinkite, kad norite pašalinti antro plano atvaizdį. Esate tuo tikras?
+        remove_background: Pašalinti antro plano atvaizdį?
+        set_image: Parinkti antro plano atvaizdį?
       change_password: Pakeisti slaptažodį
       edit_profile: Redaguoti profilį
       email:
@@ -3330,8 +3333,8 @@ lt-LT:
   success_approved_access_token: Leidimas suteiktas!
   success_deleted: Pasirinktas elementas buvo sėkmingai ištrintas.
   success_email: El. laiškas buvo sėkmingai išsiųstas.
-  success_image_rated: Jūs sėkmingai įvertinote atvaizdą.
-  success_image_uploaded: Atvaizdas sėkmingai įkeltas.
+  success_image_rated: Jūs sėkmingai įvertinote atvaizdį.
+  success_image_uploaded: Atvaizdis sėkmingai įkeltas.
   success_rating: Jūsų reitingas buvo išsaugotas.
   success_registration: Jūsų registracija sėkmingai baigta.
   success_report: Jūsų pranešimas sėkmingai pateiktas.
