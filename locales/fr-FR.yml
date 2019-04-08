@@ -717,6 +717,7 @@ fr-FR:
     title: Titre
     to_accounts_ids: Vers
     translated_overview: Aperçu
+    tv_series_status: 
   average edits per day: modifications en moyenne par jour
   back_options:
     back: Retour
@@ -1641,6 +1642,7 @@ fr-FR:
       duplicate_guest_star: Cette personne est déjà enregistrée en tant que Guest Star.
       duplicate_regular_season_member: Cette personne est déjà un membre du casting régulier de la saison.
       duplicate_season: Cette saison existe déjà.
+      series_status_invalid_to_create_season: 
   failed_email: Votre email n'a pas pu être envoyé.
   failed_generic: Un problème est survenu.
   failed_report: Une erreur s'est produite lors de l'envoi de votre rapport.
@@ -3387,14 +3389,16 @@ fr-FR:
       sort:
         published_at_asc: 
         published_at_desc: 
-        sort: 
-      type: 
-    number_of_videos: 
-    official_channel: 
+        sort: Trier
+      type: Type
+    number_of_videos:
+      one: "%{count} vidéo"
+      other: "%{count} vidéos"
+    official_channel: Chaîne officielle
     page_title: 
-    popular: 
+    popular: Populaire
     types:
-      Behind the Scenes: 
+      Behind the Scenes: Coulisses
       Blooper: 
       Bloopers: 
       Clip: Extrait
@@ -3411,7 +3415,7 @@ fr-FR:
     vimeo_channel: 
     visit_vimeo_channel: 
     visit_youtube_channel: 
-    youtube_channel: 
+    youtube_channel: Chaîne YouTube
   view all: voir tous
   will_paginate:
     next_label: Suivant →
