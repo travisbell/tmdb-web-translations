@@ -717,7 +717,7 @@ fr-FR:
     title: Titre
     to_accounts_ids: Vers
     translated_overview: Aperçu
-    tv_series_status: 
+    tv_series_status: Statut de la série TV
   average edits per day: modifications en moyenne par jour
   back_options:
     back: Retour
@@ -1637,6 +1637,7 @@ fr-FR:
     movie:
       duplicate_cast: Cette personne est déjà présente dans la distribution du film.
     tv:
+      create_season_locked: 
       duplicate_created_by: Cette personne est déjà enregistrée comme créateur de la série.
       duplicate_crew_member: Cette personne est déjà enregistrée en tant que %{job_name}.
       duplicate_episode: Cet épisode existe déjà.
@@ -2867,8 +2868,8 @@ fr-FR:
           no_records: Aucun épisode n'a été ajouté.
         screened_confirm: Si cette saison a été diffusée lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cette saison a t-elle été diffusée au cinéma ?
-      season_cast: 
-      season_crew: 
+      season_cast: Distribution de la saison
+      season_crew: Équipe de la saison
       season_selector:
         current_season: Saison actuelle
         last_season: Dernière saison
@@ -2933,8 +2934,8 @@ fr-FR:
       networks:
         one: Diffuseur
         other: Diffuseurs
-      series_cast: 
-      series_crew: 
+      series_cast: Distribution de la série
+      series_crew: Équipe de la série
       statuses:
         Canceled: Annulé
         Ended: Terminé
@@ -3385,22 +3386,22 @@ fr-FR:
   used_by_developers: TMDB est utilisé par plus de 200 000 développeurs.<br>Consultez leur travail ci-dessous.
   videos:
     filters:
-      language: 
+      language: Langue
       sort:
-        published_at_asc: 
-        published_at_desc: 
+        published_at_asc: Publié le (plus vieux d'abord)
+        published_at_desc: Publié le (plus récent d'abord)
         sort: Trier
       type: Type
     number_of_videos:
       one: "%{count} vidéo"
       other: "%{count} vidéos"
     official_channel: Chaîne officielle
-    page_title: 
+    page_title: Chaîne vidéo de %{name}
     popular: Populaire
     types:
       Behind the Scenes: Coulisses
-      Blooper: 
-      Bloopers: 
+      Blooper: Gaffe
+      Bloopers: Bêtisier
       Clip: Extrait
       Clips: Extraits
       Featurette: Bonus
@@ -3412,9 +3413,9 @@ fr-FR:
       Teasers: Teasers
       Trailer: Bande-annonce
       Trailers: Bande-annonces
-    vimeo_channel: 
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
+    vimeo_channel: Chaîne Vimeo
+    visit_vimeo_channel: Visiter la chaîne Vimeo
+    visit_youtube_channel: Visiter la chaîne YouTube
     youtube_channel: Chaîne YouTube
   view all: voir tous
   will_paginate:
