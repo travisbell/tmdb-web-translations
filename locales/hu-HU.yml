@@ -656,14 +656,14 @@ hu-HU:
       my_recommendations: Nekem ajánlottak
       no_recommendations: Nincs elég adatunk, hogy ajánlásokat készítsünk.
       no_recommendations_helper: Próbálj meg több kedvencet felvenni (minél több, annál jobb) és gyere vissza.
-      page_title: 
+      page_title: Ajánlások
     tips:
       import_imdb_ratings: Importálhatod az értékeléseidet az IMDb-ről.
       tip: Tipp
     watchlist:
       my_watchlist:
         logged_in: Megnézendők listám
-        public: 
+        public: "%{username} megnézendők listája"
       next_month: Következő hónapban
       no_upcoming_movies:
         one: Nem található hamarosan megjelenő film a megnézendők listádon. Azonban van %{count} régebbi, amit még megnéznél.
@@ -672,8 +672,8 @@ hu-HU:
         one: Nem található hamarosan megjelenő TV film a megnézendők listádon. Azonban van %{count} régebbi, amit még megnéznél.
         other: Nem található hamarosan megjelenő TV film a megnézendők listádon. Azonban van %{count} régebbi, amit még megnéznél.
       page_title:
-        page_owner: 
-        public: 
+        page_owner: Saját megnézendők listám
+        public: "%{username} megnézendők listája"
       this_month: Ebben a hónapban
       this_week: Ezen a héten
       view_them: Megnézem azokat.
@@ -682,13 +682,13 @@ hu-HU:
   api_session:
     3rd_party_request: 
     account_required:
-      need_account: 
+      need_account: A folytatáshoz be kell jelentkeznie!
       title: 
     approved_session: Megerősítetted a(z) %{application_name}-t. Bezárhatod az ablakot.
     continue: Ha szeretnéd folytatni, kattints a megerősítés gombra alul. Ha nem, csak zárd be ezt az ablakot.
     invalid_api_app:
-      message: 
-      title: 
+      message: A hitelesített API felhasználó érvénytelen.
+      title: Érvénytelen API felhasználó
     missing_request_token:
       message: 
       title: 
@@ -1304,7 +1304,7 @@ hu-HU:
     movies_missing_a_overview: Hiányzó film bevezető.
     movies_missing_a_poster: Hiányzó film poszter
     movies_missing_a_title: Hiányzó filmcím
-    page_title: 
+    page_title: Hiányzó adat hozzáadása
     selected_language: Kiválasztott nyelv
     tv_missing_a_backdrop: Hiányzó sorozat háttérkép
     tv_missing_a_poster: Hiányzó sorozat poszter
@@ -1330,10 +1330,10 @@ hu-HU:
       general: 
       general_bible: 
     image:
-      image: 
+      image: Képek
       image_bible: 
     movie:
-      movie: 
+      movie: Filmek
       movie_bible: 
       tall_bible:
         bottom: 
