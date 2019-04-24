@@ -331,6 +331,7 @@ uk-UA:
   Preview: Перегляд
   Primary Color: Основний колір
   Primary Facts: Основні дані
+  Primary?: 
   Privacy Policy: Політика Конфіденційності
   Production Code: Виробничий код
   Production Companies: Виробництво компаніїї
@@ -398,6 +399,7 @@ uk-UA:
   Send: Надіслати
   Sessions: Сесії
   Share: Поділитися
+  Share Link: 
   Sharing: Поділитися
   Show: Показати
   Show More: Показати більше
@@ -667,7 +669,7 @@ uk-UA:
     watchlist:
       my_watchlist:
         logged_in: Моє "Перегляну пізніше"
-        public: 
+        public: Список Перегляду %{username}
       next_month: Наступного місяця
       no_upcoming_movies:
         few: Усього %{count} елементи у вашому "Перегляну пізніше". Очікуваних фільмів немає.
@@ -690,13 +692,13 @@ uk-UA:
   api_session:
     3rd_party_request: Запит автентифікації третіх сторін
     account_required:
-      need_account: 
-      title: 
+      need_account: Вам потрібно увійти щоб продовжити!
+      title: Потрібен обліковий запис
     approved_session: Ви схвалили %{application_name}. Можете закрити це вікно.
     continue: Натисніть кнопку Підтвердити внизу, якщо бажаєте продовжити. Або ж просто закрийте це вікно.
     invalid_api_app:
-      message: 
-      title: 
+      message: Поточний обліковий запис API наразі є недійсним
+      title: Невірний обліковий запис API
     missing_request_token:
       message: 
       title: 
@@ -725,7 +727,7 @@ uk-UA:
     title: Назва
     to_accounts_ids: До
     translated_overview: Огляд
-    tv_series_status: 
+    tv_series_status: Статус серіалу
   average edits per day: у середньому правок за день
   back_options:
     back: Назад
@@ -1637,7 +1639,7 @@ uk-UA:
     movie:
       duplicate_cast: Ця людина вже додана як член команди.
     tv:
-      create_season_locked: 
+      create_season_locked: Додавання нового сезону для цього серіалу заблоковано
       duplicate_created_by: Ця людина вже додана в якості творця.
       duplicate_crew_member: Ця особа уже додана як %{job_name}.
       duplicate_episode: Цей епізод уже існує.
