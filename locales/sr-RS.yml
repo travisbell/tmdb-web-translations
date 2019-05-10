@@ -726,8 +726,8 @@ sr-RS:
     overview: Преглед
     title: Наслов
     to_accounts_ids: За
-    translated_overview: 
-    tv_series_status: 
+    translated_overview: Преглед
+    tv_series_status: Статус ТВ серије
   average edits per day: просечних уређивања по дану
   back_options:
     back: Назад
@@ -736,7 +736,7 @@ sr-RS:
     episode_list: Повратак на листу епизода
     home: Повратак на почетну
     main: Повратак на главну
-    named_episode_group: 
+    named_episode_group: Назад на &lsquo;%{group_name}&rsquo; групе
     season: Повратак на сезону
     season_list: Повратак на листу сезона
     to_tmdb: Назад на ТМДб
@@ -1370,7 +1370,7 @@ sr-RS:
     welcome_1: Доброошли на
     welcome_2: Библију доприноса
   cookie_popup:
-    message: 
+    message: Користимо колачиће да бисмо вам помогли да боље доживите ТМДб. Да бисте сазнали више, можете погледати наше <a href="%{policy_url}" target="_blank" rel="noopener">смернице о колачићима</a>. Ако наставите да користите ТМДб, ви се слажете са овим правилима.
     ok_button: Ок
   date:
     abbr_day_names:
@@ -1433,21 +1433,46 @@ sr-RS:
     entry_deleted: Унос је обрисан
     reasons:
       '1':
-        message: 
+        message: |-
+          Здраво,
+
+          Ово је само пријатељска порука модератора садржаја ТМДб. Унос који сте креирали под називом „%{title}“ је избрисан. Овај наслов је већ био у нашој бази података и стога је сматран дупликатом.
+
+          Ако имате питања о брисању, слободно одговорите на ову поруку.
         subject: Дупликат је
       '2':
-        message: 
-        subject: 
+        message: |-
+          Здраво,
+
+          Ово је само пријатељска порука модератора садржаја ТМДб. Унос који сте креирали под називом „%{title}“ је избрисан. Овај наслов није испунио наше [нове смернице о садржају] (https://www.themoviedb.org/bible/new_content).
+
+          Ако имате питања о брисању, слободно одговорите на ову поруку.
+        subject: Не задовољава наше смернице за садржај (аматери, итд.)
       '3':
-        message: 
+        message: |-
+          Здраво,
+
+          Ово је само пријатељска порука модератора садржаја ТМДб. Унос који сте креирали под називом „%{title}“ је избрисан. Овај наслов већ постоји као ТВ емисија и не сматра се важећим филмом. Више о нашим смерницама о садржају можете прочитати [овде](https://www.themoviedb.org/bible/new_content).
+
+          Ако имате питања о брисању, слободно одговорите на ову поруку.
         subject: ТВ серија је
       '4':
-        message: 
-        subject: 
+        message: |-
+          Здраво,
+
+          Ово је само пријатељска порука модератора садржаја ТМДб. Унос који сте креирали под називом „%{title}“ је избрисан. Овај наслов није испунио наше [нове смернице о садржају] (https://www.themoviedb.org/bible/new_content).
+
+          Ако имате питања о брисању, слободно одговорите на ову поруку.
+        subject: То је лажан унос
       '5':
-        message: 
-        subject: 
-    why_deleting: 
+        message: |-
+          Здраво,
+
+          Ово је само пријатељска порука модератора садржаја ТМДб. Унос који сте креирали под називом „%{title}“ је избрисан. Овај наслов није испунио наше [нове смернице о садржају] (https://www.themoviedb.org/bible/new_content).
+
+          Ако имате питања о брисању, слободно одговорите на ову поруку.
+        subject: То је спам
+    why_deleting: Зашто бришете овај унос?
   department_credits_count: 
   departments:
     Acting: Глума
@@ -1536,11 +1561,11 @@ sr-RS:
         hide_discussion: Кликом на „Да“, ова дискусија ће бити сакривена.
         ignore_user: 
         mark_as_spam: 
-        report_violation: 
+        report_violation: Потврдите да желите да пријавите овог корисника због кршења наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">смерница заједнице</a>.
         unhide_discussion: Кликом на „Да“, ова дискусија ће бити видљива поново.
       posted_by_with_datetime: објављено од стране %{username} дана %{date} у %{time}
       quote: Цитирај
-      reopen_reply: 
+      reopen_reply: Поново отвори и одговори
       reply: Одговори
       reply_by: Одговор од %{username}
       reply_on_datetime: дана %{date} у %{time}
@@ -1590,24 +1615,24 @@ sr-RS:
       not_svg: Слика није SVG
     locked:
       genres: Поље жанр је закључано
-      keywords: 
+      keywords: Поље кључних речи је закључано
     messages:
       blank: обавезно је
       inclusion: мора бити селектовано
       invalid: је неважећи
       required: мора постојати
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: је постављено на „отказана“ или „завршена“ па се нове сезоне не могу креирати.
       suspected_tv_series: 
       taken: већ је завршено
     movie:
-      duplicate_cast: 
+      duplicate_cast: Ова особа је већ додата као члан тима.
     tv:
-      create_season_locked: 
-      duplicate_created_by: 
-      duplicate_crew_member: 
+      create_season_locked: Креирање нових сезона је закључано за ову серију.
+      duplicate_created_by: Ова особа је већ додата као креатор.
+      duplicate_crew_member: Ова особа је већ додата као %{job_name}.
       duplicate_episode: Ова епизода већ постоји.
-      duplicate_guest_star: 
-      duplicate_regular_season_member: 
+      duplicate_guest_star: Ова гостујућа звезда већ постоји.
+      duplicate_regular_season_member: Ова особа је већ додата као члан редовне сезоне.
       duplicate_season: Ова сезона већ постоји.
   failed_email: Ваш e-mail није послат.
   failed_generic: Дошло је до проблема.
@@ -1622,8 +1647,8 @@ sr-RS:
       catch_up_now: Надокнадите пропуштено
       discussions: Дискусије
     taw:
-      read_the_2018_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Прочитајте рекапитулацију за 2018. годину
+      thats_a_wrap: То је то!
     tv_shows:
       episode_airs:
         in_days: Нова епизода се емитује за %{number_of_days} дана
@@ -1634,19 +1659,19 @@ sr-RS:
     upload_criteria:
       '1': Максимална резолуција 2000x3000
       '2': Минимална резолуција 500x750
-      '3': 
+      '3': Пропорција слике 1:1.5 (2:3)
       '4': Максимална резолуција 3840x2160
       '5': Минимална резолуција од 400x225
-      '6': 
+      '6': Пропорције слике од 16x9 (1.78:1) и 4:3 су подржане.
       '7': Минимална резолуција 1280x720
-      '8': 
+      '8': Пропорција слике од 16x9 (1.78:1)
       '9': Минимална резолуција 300x450
-      backdrops_must_meet: 
+      backdrops_must_meet: 'Позадине морају да испуњавају следеће критеријуме:'
       episode_stills_must_meet: 'Епизоде морају да испоштују следеће критеријуме:'
       posters_must_meet: 'Постери морају да испоштују следеће критеријуме:'
       profile_must_meet: 'Профилне слике морају да испоштују следеће критеријуме:'
-      read_guidelines: 
-      tip: 
+      read_guidelines: Упознајте се са нашим ажурираним <a href="%{link}" target="_blank" rel="noopener">смерницама доприноса за слике</a>.
+      tip: Ако ваш прегледач подржава, можете повући и испустити слику на подручје испод. У супротном, само кликните на дугме „Изаберите фајлове ...“ и изаберите слику са свог рачунара.
   invalid_aspect_ratio: Ова пропорција слике није исправна.
   item_count: 
   jobs:
@@ -1679,7 +1704,7 @@ sr-RS:
     ADR Recordist: 
     ADR Supervisor: 
     ADR Voice Casting: 
-    Accountant: 
+    Accountant: Рачуновођа
     Accounting Clerk Assistant: 
     Accounting Supervisor: 
     Accounting Trainee: 
@@ -2585,36 +2610,36 @@ sr-RS:
     actions:
       back_to_parent: 
       close_window: затворити отворени прозор
-      focus_search: 
-      go_to_edit: 
-      last_reply: 
-      new_discussion: 
+      focus_search: фокусирај траку за претрагу
+      go_to_edit: иди на страницу за уређивање
+      last_reply: иди на последњи одговор
+      new_discussion: отвори нову дискусију
       next_episode: 
       next_page: 
       next_season: 
-      open_activity: 
+      open_activity: отвори активност
       open_add_image_window: 
       open_profile: 
       open_shortcut_window: 
-      open_translation_selector: 
+      open_translation_selector: отвори селектор превода
       previous_episode: 
       previous_page: 
       previous_season: 
-      reply_to_discussion: 
-      save_form: 
-      submit_message: 
+      reply_to_discussion: одговор на дискусију
+      save_form: пошаљи образац
+      submit_message: пошаљи поруку
       toggle_close: 
       toggle_private: 
       toggle_watching: 
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
-    keyboard_shortcuts: 
+      discussion_pages: На страницама за дискусију
+      edit_pages: На свим страницама за уређивање
+      global: Глобално
+      image_pages: На свим страницама са сликама
+      media_pages: На страницама медија
+      tv_episode_pages: На страницама ТВ епизода
+      tv_season_pages: На страницама ТВ сезона
+    keyboard_shortcuts: Пречице на тастатури
     view_keyboard_shorcuts: Погледај пречице на тастатури
     view_shortcuts: Погледај пречице
   list_info:
@@ -2647,22 +2672,22 @@ sr-RS:
     step_3: 'Корак 3: Изабери фотографију'
     step_4: 'Корак 4: Подели'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: Да бисте могли да користите могућности уређивања и оцењивања на ТМДб, као и да добијете личне препоруке потребно је да се пријавите на свој налог. Ако немате налог, регистрација за налог је бесплатна и једноставна. <a href="%{signup_link}">Кликните овде</a> да бисте почели.
+    login_text_2: Ако сте се пријавили, али нисте примили е-поруку за верификацију,  <a href="%{verification_link}">кликните овде</a> да бисте је поново послали.
     login_to_your_account: Пријави се на свој налог
   login_to_create: Не можеш да нађеш филм или серију? Пријави се да додаш.
   login_to_edit: Пријави се да направиш измену
   media:
     changes:
       filters:
-        clear: 
+        clear: Очисти
         key: 
         language: Језик
         user: Корисник
       number_of_changes: 
       view_weekly_leaderboard: Види недељну таблу лидера
     company:
-      headquarters: 
+      headquarters: Седиште
       movie_page_title: Филмове продуцирни од стране %{name}
       tv_page_title: ТВ серија продуцирана од стране %{name}
     edit:
@@ -2672,8 +2697,8 @@ sr-RS:
       placeholders:
         country: Изабери земљу...
         create_person:
-          click_to_create: 
-          create_it: 
+          click_to_create: Кликните да бисте направили %{name}
+          create_it: Креирај га...
         genres: Изабери жанр...
         job: Изабери посао...
         keywords: Изабери кључну реч...
@@ -2682,17 +2707,17 @@ sr-RS:
         production_companies: Претражи за продукцијску компанију...
       success_fields_locked: Поља су закључана.
       tooltips:
-        bible: 
+        bible: За помоћ при уређивању информација на ТМДб, кликните овај „?“ да прочитате библију доприноса.
         homepage: Само званичне странице. Странице обожаваоца нису дозвољене.
-        logo_format: 
+        logo_format: Подржани су СВГ и ПНГ. СВГ-ови су пожељни јер су независни од резолуције.
         original_title: Изворни наслов треба да буде унешен на изворном језику. У већини случајева ово се поклапа са језиком унесеним у пољу „изворни језик“.
         overview: Када пишете опис, трудите се да буде кратак, јасан и без спојлера.
-        social_links: 
+        social_links: Друштвени линкови служе само за званичне (верификоване) странице. Странице обожаватеља нису дозвољене.
     external_links:
       visit_facebook: Посети Фејсбук
       visit_homepage: 
-      visit_instagram: 
-      visit_twitter: 
+      visit_instagram: Посети Инстаграм
+      visit_twitter: Посети Твитер
     genre:
       movie_page_title: 
       tv_page_title: 
@@ -2918,7 +2943,7 @@ sr-RS:
       play_clip: 
       play_featurette: 
       play_opening_credits: 
-      play_recap: 
+      play_recap: Пусти рекапитулацију
       play_teaser: 
       play_trailer: Пусти трејлер
       published: Објављено
@@ -3364,8 +3389,8 @@ sr-RS:
       Featurette: Сажетак
       Featurettes: Сажетци
       Opening Credits: Уводне заслуге
-      Recap: 
-      Recaps: 
+      Recap: Рекапитулација
+      Recaps: Рекапитулације
       Teaser: Тизер
       Teasers: Тизери
       Trailer: Трејлер
