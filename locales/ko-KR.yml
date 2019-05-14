@@ -3084,6 +3084,9 @@ ko-KR:
   number_of_translations: 
   number_of_votes: "%{count} 참여"
   ott:
+    available_snippet:
+      flatrate: 
+      rent_or_buy: 
     filters:
       4k: 
       best_price: 
@@ -3322,35 +3325,37 @@ ko-KR:
   used_by_developers: 
   videos:
     filters:
-      language: 
+      language: 언어
       sort:
-        published_at_asc: 
+        published_at_asc: 게시일
         published_at_desc: 
-        sort: 
-      type: 
-    number_of_videos: 
-    official_channel: 
+        sort: 정렬
+      type: 종류
+    number_of_videos:
+      one: "%{count} 영상"
+      other: "%{count} 영상"
+    official_channel: 공식채널
     page_title: 
     popular: 
     types:
-      Behind the Scenes: 
-      Blooper: 
-      Bloopers: 
+      Behind the Scenes: 비공개 영상
+      Blooper: NG 영상
+      Bloopers: NG 영상
       Clip: 클립 영상
       Clips: 클립 영상
       Featurette: 피처렛
       Featurettes: 피처렛
-      Opening Credits: 
-      Recap: 
-      Recaps: 
+      Opening Credits: 오프닝
+      Recap: 요약 영상
+      Recaps: 요약 영상
       Teaser: 티저
       Teasers: 티저
-      Trailer: 트레일러
+      Trailer: 예고편
       Trailers: 예고편
-    vimeo_channel: 
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
-    youtube_channel: 
+    vimeo_channel: 비메오 채널
+    visit_vimeo_channel: 비메오 채널 가기
+    visit_youtube_channel: 유튜브 채널 가기
+    youtube_channel: 유튜브 채널
   view all: 전체 보기
   will_paginate:
     next_label: 다음 →
