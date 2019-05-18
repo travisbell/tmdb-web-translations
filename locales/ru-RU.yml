@@ -459,7 +459,7 @@ ru-RU:
   Title (A-Z): Название (А-Я)
   Title (Z-A): Название (Я-А)
   Today: Сегодня
-  Top Billed Cast: Высокооплачиваемый актёрский состав
+  Top Billed Cast: В главных ролях
   Top Rated Movies: Лучшие фильмы
   Top Rated TV Shows: Лучшие сериалы
   Top Users: Топ пользователей
@@ -601,8 +601,10 @@ ru-RU:
         public: Избранные %{username}
     filter_by: 'Фильтровать по:'
     filters:
+      air_date: 
       date_added: Дата добавления
       date_rated: Дата оценки
+      first_air_date: 
       my_rating: Моя оценка
       popularity: Популярность
       rating: Рейтинг
@@ -669,6 +671,9 @@ ru-RU:
       no_recommendations: У нас недостаточно данных, чтобы предложить какие-либо рекомендации.
       no_recommendations_helper: Попробуйте добавить еще несколько избранных (чем больше, тем лучше) и возвращайтесь, чтобы посмотреть, как мы это сделали.
       page_title: Рекомендации
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Вы можете импортировать свои рейтинги из IMDb.
       tip: Подсказка
@@ -3201,7 +3206,7 @@ ru-RU:
     available_snippet:
       flatrate: Сейчас транслируется
       rent_or_buy: Доступны прокат или покупка
-    description: 
+    description: JustWatch позволяет легко узнать, где вы можете легально смотреть ваши любимые фильмы и телепередачи онлайн. Посетите {justwatch_link} для получения дополнительной информации.
     filters:
       4k: 4K
       best_price: Лучшая цена
@@ -3214,9 +3219,9 @@ ru-RU:
       free: Бесплатно
       rent: Прокат
     no_offers:
-      4k: 
-      hd: 
-      sd: 
+      4k: Предложений 4K не найдено.
+      hd: Предложений HD не найдено.
+      sd: Предложений SD не найдено.
     seasons:
       few: "%{count} сезона"
       many: "%{count} сезонов"
@@ -3259,8 +3264,8 @@ ru-RU:
     rated_tv: Искать оцененные сериалы...
     recommendations_movie: Искать по персональным рекомендациям фильмов...
     recommendations_tv: Искать по персональным рекомендациям сериалов...
-    trending: Тенденции
-    trending_searches: Тенденции поиска
+    trending: Известные
+    trending_searches: Поиск известных
     watchlist_movie: Поиск списка отслеживания фильмов...
     watchlist_tv: Поиск списка отслеживания сериалов...
   search_tip_1: 'Подсказка: Можно использовать латинскую букву ''''y:'''', чтобы сузить результаты по году. Например:'' ''звездные войны y:1977''''.'

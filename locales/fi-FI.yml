@@ -331,7 +331,7 @@ fi-FI:
   Preview: Esikatselu
   Primary Color: Pääväri
   Primary Facts: Perustiedot
-  Primary?: 
+  Primary?: Ensisijainen?
   Privacy Policy: Yksityisyydensuoja
   Production Code: Tuotantokoodi
   Production Companies: Tuotantoyhtiöt
@@ -399,11 +399,11 @@ fi-FI:
   Send: Lähetä
   Sessions: Istunnot
   Share: Jaa
-  Share Link: 
+  Share Link: Jaa linkki
   Sharing: Jakaminen
   Show: Sarja
   Show More: Näytä lisää
-  Site: 
+  Site: Sivusto
   Size: Koko
   Social: Yhteisö
   Sort: Järjestä
@@ -591,8 +591,10 @@ fi-FI:
         public: Käyttäjän %{username} suosikit
     filter_by: Suodata
     filters:
+      air_date: 
       date_added: Lisätty
       date_rated: Arvosteltu
+      first_air_date: 
       my_rating: Oma pisteytys
       popularity: Suosio
       rating: Pisteytys
@@ -659,6 +661,9 @@ fi-FI:
       no_recommendations: Meillä ei ole tarpeeksi tietoa tehdäksemme suosituksia
       no_recommendations_helper: Lisää muutama suosikki (enempi on parempi) ja tule takaisin miten pärjäsimme.
       page_title: Suositukset
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
@@ -719,7 +724,7 @@ fi-FI:
     title: Otsikko
     to_accounts_ids: Vastaanottaja
     translated_overview: Kuvaus
-    tv_series_status: 
+    tv_series_status: TV sarjan tila
   average edits per day: muokkausta päivässä keskimäärin
   back_options:
     back: Takaisin
@@ -1615,13 +1620,13 @@ fi-FI:
       inclusion: pitää olla valittu
       invalid: ei kelpaa
       required: pitää olla olemassa
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: tilaksi on asetettu "Peruttu" tai "Päättynyt", joten uusia kausia ei voi luoda.
       suspected_tv_series: epäillään olevan jo lisätty TV-sarja tai minisarja. Voit jatkaa sen lisäämistä mikäli olet varma, mutta se poistetaan mikäli se on lisätty jo aikaisemmin
       taken: on jo valittu
     movie:
       duplicate_cast: Tämä henkilö on jo lisätty näyttelijäksi.
     tv:
-      create_season_locked: 
+      create_season_locked: Uusien kausien luominen on lukittu tälle sarjalle.
       duplicate_created_by: Tämä henkilö on jo lisätty luojaksi.
       duplicate_crew_member: Tämä henkilö on jo lisätty työnimikkeellä %{job_name}.
       duplicate_episode: Tämä episodi on jo lisätty.
@@ -2936,7 +2941,7 @@ fi-FI:
       channel: Kanava
       duration: Kesto
       play_behind_the_scenes: Toista Kulissien takana
-      play_blooper: 
+      play_blooper: Toista epäonnistunut otos
       play_clip: Toista leike
       play_featurette: Toista kooste
       play_opening_credits: Toista alkutekstit
@@ -3134,25 +3139,28 @@ fi-FI:
     other: "%{count} ääntä"
   ott:
     available_snippet:
-      flatrate: 
-      rent_or_buy: 
-    description: 
+      flatrate: Striimattavissa
+      rent_or_buy: Ostettavissa tai vuokrattavissa
+    description: JustWatch tekee laillisten elokuva- ja TV sarja-palveluiden löytämisestä helppoa. Vieraile osoitteessa {justwatch_link} saadaksesi lisää tietoa.
     filters:
-      4k: 
-      best_price: 
-      hd: 
-      sd: 
+      4k: 4K
+      best_price: Paras hinta
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Mainokset
+      buy: Ostettavissa
+      flatrate: Striimattavissa
+      free: Ilmainen
+      rent: Vuokrattavissa
     no_offers:
-      4k: 
-      hd: 
-      sd: 
-    seasons: 
+      4k: 4K-laadulla ei löytynyt tarjouksia.
+      hd: HD-laadulla ei löytynyt tarjouksia.
+      sd: SD-laadulla ei löytynyt tarjouksia.
+    seasons:
+      many: "%{count} kautta"
+      one: "%{count} kausi"
+      other: "%{count} kautta"
   pagination:
     currently_on: Tällä hetkellä sivulla %{current_page}, sivuja yhteensä %{total_pages}
     last_page: Viimeinen sivu
@@ -3391,31 +3399,33 @@ fi-FI:
       sort:
         published_at_asc: Julkaistu (Vanhin ensin)
         published_at_desc: Julkaistu (Uusin ensin)
-        sort: 
-      type: 
-    number_of_videos: 
-    official_channel: 
-    page_title: 
-    popular: 
+        sort: Järjestä
+      type: Tyyppi
+    number_of_videos:
+      one: "%{count} video"
+      other: "%{count} videota"
+    official_channel: Virallinen kanava
+    page_title: "%{name} Video-kanava"
+    popular: Suositut
     types:
-      Behind the Scenes: 
-      Blooper: 
-      Bloopers: 
+      Behind the Scenes: Kulissien takaa
+      Blooper: Epäonnistunut otos
+      Bloopers: Epäonnistuneet otokset
       Clip: Otos
       Clips: Pätkät
       Featurette: Dokumentti
       Featurettes: Dokumentit
       Opening Credits: Alkutekstit
-      Recap: 
-      Recaps: 
+      Recap: Yhteenveto
+      Recaps: Yhteenvedot
       Teaser: Teaseri
       Teasers: Teaserit
       Trailer: Traileri
       Trailers: Trailerit
-    vimeo_channel: 
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
-    youtube_channel: 
+    vimeo_channel: Vimeo-kanava
+    visit_vimeo_channel: Vieraile Vimeo-kanavalla
+    visit_youtube_channel: Vieraile Youtube-kanavalla
+    youtube_channel: Youtube-kanava
   view all: näytä kaikki
   will_paginate:
     next_label: Seuraava →

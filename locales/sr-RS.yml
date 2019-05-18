@@ -595,8 +595,10 @@ sr-RS:
         public: Омиљени корисника %{username}
     filter_by: 'Филтрирај по:'
     filters:
+      air_date: 
       date_added: Датум додавања
       date_rated: Датум оцене
+      first_air_date: 
       my_rating: Моја оцена
       popularity: Популарност
       rating: Оцене
@@ -663,6 +665,9 @@ sr-RS:
       no_recommendations: Немамо довољно података да би извршили препоруку.
       no_recommendations_helper: Покушај да додаш више омиљених филмова (што више то боље) и врати се да видиш како нам иде.
       page_title: Препоруке
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Можеш да увезеш своје оцене са IMDb-а.
       tip: Савет

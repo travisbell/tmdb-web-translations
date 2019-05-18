@@ -593,8 +593,10 @@ da-DK:
         public: "%{username}'s favoritter"
     filter_by: 'Filtrer med:'
     filters:
+      air_date: 
       date_added: Dato Tilføjet
       date_rated: Dato Bedømt
+      first_air_date: 
       my_rating: Min Bedømmelse
       popularity: Popularitet
       rating: Bedømmelse
@@ -661,6 +663,9 @@ da-DK:
       no_recommendations: Vi har ikke nok data til at lave anbefalinger.
       no_recommendations_helper: Prøv at tilføje et par favoritter mere (jo flere jo bedre) og kom tilbage for at se hvordan vi gjorde.
       page_title: Anbefalinger
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Du kan importere dine bedømmelser fra IMDB.
       tip: Tip

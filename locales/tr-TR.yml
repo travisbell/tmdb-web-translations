@@ -591,8 +591,10 @@ tr-TR:
         public: "%{username}'s Favorileri"
     filter_by: 'Filtrele:'
     filters:
+      air_date: 
       date_added: Eklenme Tarihi
       date_rated: Oylama Tarihi
+      first_air_date: 
       my_rating: Benim Oyum
       popularity: Popülerlik
       rating: Değerlendirme
@@ -659,6 +661,9 @@ tr-TR:
       no_recommendations: Önerileri önerecek yeterli veriye sahip değiliz.
       no_recommendations_helper: Bir kaç daha fazla favoriyi (daha iyi olanı) eklemeyi deneyin ve nasıl yaptığımızı görmek için geri dönün.
       page_title: Öneriler
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Puanlarınızı IMDb'den içe aktarabilirsiniz.
       tip: Tip

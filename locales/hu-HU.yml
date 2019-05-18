@@ -591,8 +591,10 @@ hu-HU:
         public: "%{username} kedvencei"
     filter_by: 'Szűrés/Rendezés:'
     filters:
+      air_date: 
       date_added: Hozzáadva
       date_rated: Értékelés dátuma
+      first_air_date: 
       my_rating: Saját értékelésem
       popularity: Népszerűség
       rating: Értékelés
@@ -659,6 +661,9 @@ hu-HU:
       no_recommendations: Nincs elég adatunk, hogy ajánlásokat készítsünk.
       no_recommendations_helper: Próbálj meg több kedvencet felvenni (minél több, annál jobb) és gyere vissza.
       page_title: Ajánlások
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Importálhatod az értékeléseidet az IMDb-ről.
       tip: Tipp

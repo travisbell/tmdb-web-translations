@@ -591,8 +591,10 @@ it-IT:
         public: Favoriti di %{username}
     filter_by: 'Filtra per:'
     filters:
+      air_date: 
       date_added: Data Aggiunta
       date_rated: Data di Valutazione
+      first_air_date: 
       my_rating: La Mia Valutazione
       popularity: Popolarità
       rating: Valutazione
@@ -659,6 +661,9 @@ it-IT:
       no_recommendations: Non abbiamo dati sufficienti per consigliarti.
       no_recommendations_helper: Prova ad aggiungere altri preferiti (più sono e meglio è) e torna per vedere cosa proponiamo.
       page_title: Consigliati
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Puoi importare le tue valutazioni da IMDb.
       tip: Suggerimento

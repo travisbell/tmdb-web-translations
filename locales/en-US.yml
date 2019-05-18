@@ -591,8 +591,10 @@ en-US:
         public: "%{username}'s Favorites"
     filter_by: 'Filter by:'
     filters:
+      air_date: Air Date
       date_added: Date Added
       date_rated: Date Rated
+      first_air_date: First Air Date
       my_rating: My Rating
       popularity: Popularity
       rating: Rating
@@ -659,6 +661,9 @@ en-US:
       no_recommendations: We don't have enough data to suggest any recommendations.
       no_recommendations_helper: Try adding a few more favorites (the more the better) and come back to see how we did.
       page_title: Recommendations
+    sort_options:
+      asc: Ascending
+      desc: Descending
     tips:
       import_imdb_ratings: You can import your ratings from IMDb.
       tip: Tip

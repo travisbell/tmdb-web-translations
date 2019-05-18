@@ -603,8 +603,10 @@ pl-PL:
         public: Ulubione %{username}
     filter_by: 'Filtry:'
     filters:
+      air_date: 
       date_added: Data dodania
       date_rated: Data oceny
+      first_air_date: 
       my_rating: Moja ocena
       popularity: Popularność
       rating: Ocena
@@ -671,6 +673,9 @@ pl-PL:
       no_recommendations: Mamy zbyt mało danych, aby zasugerować ci jakiekolwiek rekomendacje.
       no_recommendations_helper: Postaraj się dodać więcej ulubionych (czym więcej tym lepiej) i wróć ponownie.
       page_title: Polecenia
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Możesz importować swoje oceny z IMDb.
       tip: Wskazówka

@@ -591,8 +591,10 @@ ko-KR:
         public: "%{username}의 즐겨찾기"
     filter_by: '필터:'
     filters:
+      air_date: 
       date_added: 추가일 순
       date_rated: 평가일 순
+      first_air_date: 
       my_rating: 나의 평점 순
       popularity: 인기 순
       rating: 전체 평점 순
@@ -659,6 +661,9 @@ ko-KR:
       no_recommendations: 회원님께 추천해드릴만큼 충분한 데이터가 없습니다.
       no_recommendations_helper: 좋아하는 영화들을 입력해주시고 (많으면 많을수록 좋아요) 다시 돌아와주세요.
       page_title: 추천
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: IMDB에 기록된 회원님의 평가를 불러올 수 있어요.
       tip: 팁

@@ -593,8 +593,10 @@ sv-SE:
         public: "%{username}s favoriter"
     filter_by: 'Filtrera efter:'
     filters:
+      air_date: 
       date_added: Tillagt den
       date_rated: Betygsatt den
+      first_air_date: 
       my_rating: Mitt betyg
       popularity: Popularitet
       rating: Betyg
@@ -661,6 +663,9 @@ sv-SE:
       no_recommendations: Vi har inte tillräckligt med data för att föreslå rekommendationer.
       no_recommendations_helper: Försök lägga till några fler favoriter (ju fler desto bättre) och kom tillbaka för att se hur vi gjorde.
       page_title: Rekommendationer
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Du kan importera dina betyg från IMDb.
       tip: Tips

@@ -596,8 +596,10 @@ lt-LT:
         public: "%{username} mėgstamiausi"
     filter_by: 'Rūšiuoti pagal:'
     filters:
+      air_date: 
       date_added: Kada pridėta
       date_rated: Kada įvertinta
+      first_air_date: 
       my_rating: Mano reitingas
       popularity: Populiarumas
       rating: Reitingas
@@ -664,6 +666,9 @@ lt-LT:
       no_recommendations: Neturime pakankamai duomenų, kad galėtume pasiūlyti kokių nors rekomendacijų.
       no_recommendations_helper: Pridėkite dar keletą mėgstamiausių (kuo daugiau, tuo geriau) ir pažiūrėkime kaip pavyko.
       page_title: Rekomendacijos
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Galite importuoti savo reitingus iš IMDb.
       tip: Patarimas

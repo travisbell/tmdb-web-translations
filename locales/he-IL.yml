@@ -591,8 +591,10 @@ he-IL:
         public: "%{username} המועדפים של"
     filter_by: 'סנן לפי:'
     filters:
+      air_date: 
       date_added: תאריך הוספה
       date_rated: תאריך דירוג
+      first_air_date: 
       my_rating: הדירוג שלי
       popularity: פופולריות
       rating: דירוג
@@ -659,6 +661,9 @@ he-IL:
       no_recommendations: אין לנו מספיק נתונים כדי להציע המלצות כלשהן.
       no_recommendations_helper: נסה להוסיף עוד קצת מועדפים (ככל שיותר, יותר טוב) וחזור כדי לראות איך היינו
       page_title: המלצות
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: אתה יכול לייבא את הדירוגים שלך מתוך איי־אם־די־בי.
       tip: עצה
@@ -3129,25 +3134,28 @@ he-IL:
     other: "%{count} הצבעות"
   ott:
     available_snippet:
-      flatrate: 
-      rent_or_buy: 
-    description: 
+      flatrate: מוזרם כעת
+      rent_or_buy: זמין להשכרה או למכירה
+    description: ".JustWatch הופך לקל את הגילוי איפה אתה יכול לצפות באופן חוקי בסרטים ובסדרות המועדפים עליך. בקר ב{justwatch_link} לעוד מידע"
     filters:
-      4k: 
-      best_price: 
-      hd: 
-      sd: 
+      4k: 4K
+      best_price: המחיר הטוב ביותר
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: פרסומות
+      buy: קנה
+      flatrate: הזרם
+      free: חינם
+      rent: שכור
     no_offers:
-      4k: 
-      hd: 
-      sd: 
-    seasons: 
+      4k: 4K לא נמצאו הצעות
+      hd: HD לא נמצאו הצעות
+      sd: SD לא נמצאו הצעות
+    seasons:
+      many: "%{count} עונות"
+      one: עונה %{count}
+      other: "%{count} עונות"
   pagination:
     currently_on: כרגע בעמוד %{current_page} מתוך %{total_pages}
     last_page: עמוד אחרון

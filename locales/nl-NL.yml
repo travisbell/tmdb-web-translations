@@ -591,8 +591,10 @@ nl-NL:
         public: "%{username}'s favorieten"
     filter_by: 'Filteren op:'
     filters:
+      air_date: 
       date_added: Toegevoegd op
       date_rated: Beoordeeld op
+      first_air_date: 
       my_rating: Mijn beoordeling
       popularity: Populariteit
       rating: Beoordeling
@@ -659,6 +661,9 @@ nl-NL:
       no_recommendations: We hebben onvoldoende gegevens om je aanbevelingen te kunnen doen.
       no_recommendations_helper: Voeg nog een paar films/series toe aan je favorieten (hoe meer, hoe beter) en keer dan terug.
       page_title: Aanbevelingen
+    sort_options:
+      asc: 
+      desc: 
     tips:
       import_imdb_ratings: Je kunt je beoordelingen importeren uit IMDb.
       tip: Tip
