@@ -258,7 +258,7 @@ ko-KR:
   Mark as Favorite: 즐겨찾기 표시
   Media: 미디어
   Member since: 가입
-  Merge Keyword: 
+  Merge Keyword: 키워드 합치기
   Mixed Compact View: 통합 보기
   Mobile Application: 
   Moderator: 운영자
@@ -311,7 +311,7 @@ ko-KR:
   Personal Info: 인물 정보
   Personal Recommendations: 개인 추천
   Phone Number: 전화 번호
-  Physical: 
+  Physical: 판매
   Place of Birth: 출생지
   Play: 재생
   Plot Keywords: 플롯 키워드
@@ -591,7 +591,7 @@ ko-KR:
         public: "%{username}의 즐겨찾기"
     filter_by: '필터:'
     filters:
-      air_date: 
+      air_date: 방영일
       date_added: 추가일 순
       date_rated: 평가일 순
       first_air_date: 
@@ -662,8 +662,8 @@ ko-KR:
       no_recommendations_helper: 좋아하는 영화들을 입력해주시고 (많으면 많을수록 좋아요) 다시 돌아와주세요.
       page_title: 추천
     sort_options:
-      asc: 
-      desc: 
+      asc: 오름차순
+      desc: 내림차순
     tips:
       import_imdb_ratings: IMDB에 기록된 회원님의 평가를 불러올 수 있어요.
       tip: 팁
@@ -2818,8 +2818,8 @@ ko-KR:
           no_records: 추가된 에피소드 없음
         screened_confirm: 이 시즌이 영화제나 극장에서 상영되었으면, '네'를 눌러주십시오.
         screened_label: 이 시즌이 극장 상영된 적 있습니까?
-      season_cast: 
-      season_crew: 
+      season_cast: 시즌 출연진
+      season_crew: 시즌 제작진
       season_selector:
         current_season: 현재 시즌
         last_season: 지난 시즌
@@ -2884,8 +2884,8 @@ ko-KR:
       networks:
         one: 방송사
         other: 방송사
-      series_cast: 
-      series_crew: 
+      series_cast: 시리즈 출연진
+      series_crew: 시리즈 제작진
       statuses:
         Canceled: 방영 취소
         Ended: 방영 종료
@@ -2905,13 +2905,13 @@ ko-KR:
       audio_language: 음성 언어
       channel: 채널
       duration: 재생 시간
-      play_behind_the_scenes: 
+      play_behind_the_scenes: 비공개영상 재생
       play_blooper: 
-      play_clip: 
-      play_featurette: 
+      play_clip: 클립 재생
+      play_featurette: 피처렛 재생
       play_opening_credits: 
       play_recap: 
-      play_teaser: 
+      play_teaser: 티저 재생
       play_trailer: 트레일러 재생
       published: 게시됨
       published_at: 
@@ -2931,18 +2931,18 @@ ko-KR:
       ban: 금지
       from: 보낸 이
       message: 메세지
-      subject: 
-      template: 
+      subject: 제목
+      template: 임시
       to: 받는 이
     no_messages: 메세지 없음
     notifications:
       new_message: "%{username}님이 회원님께 새 메세지를 보내셨습니다."
     number_of_messages: 
     options:
-      admin: 
+      admin: 관리자
       archive: 아카이브
       settings: 설정
-      viewed_at: 
+      viewed_at: 시청자수 %{time_ago}
     placeholders:
       no_conversation_selected:
         create: <a href="%{link}">여기를 눌러</a> 새로운 대화를 시작할 수 있습니다.
@@ -3038,7 +3038,7 @@ ko-KR:
     refresh: 새로고침
     unread_notifications: 읽지 않은 메세지
     view: 보기
-    view_all: 
+    view_all: 모두 보기
   number:
     currency:
       format:
