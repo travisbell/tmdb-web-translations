@@ -741,7 +741,7 @@ kk-KZ:
     to_tmdb: TMDb úshin oralý
     top: Joǵaryǵa oralý
   certifications:
-    meaning: Bildirý
+    meaning: 
     movies:
       AU:
         '1':
@@ -762,7 +762,7 @@ kk-KZ:
           meaning: 
       BG:
         '1':
-          meaning: Balalarǵa usynylǵan
+          meaning: 
         '2':
           meaning: 
         '3':
@@ -2642,7 +2642,7 @@ kk-KZ:
     step_3: '3-qadam: Keskindi tańdaý'
     step_4: '4-qadam: Bólisý'
   login:
-    login_text_1: 
+    login_text_1: TMDb óńdeý jáne baǵalaý múmkindikterin paıdalaný úshin, sondaı-aq derbestik usynystardy alý úshin tirkelgińizge kirý qajet. Eger tirkelgińiz joq bolsa, onda tirkelý erkin jáne jaı. Iske kirisý úshin <a href="%{signup_link}">mynda basyńyz</a>.
     login_text_2: Eger tirkelgen bolsańyz, biraq rastaý hatyńyzdy almasańyz, ony qaıta jibergizý úshin <a href="%{verification_link}">munda basyńyz</a>.
     login_to_your_account: Tirkelgińizge kirińiz
   login_to_create: Fılmdi nemese kórsetimdi taba almadyńyz ba? Ony jasaý úshin kirińiz.
@@ -2682,8 +2682,8 @@ kk-KZ:
         bible: TMDb óńdeý týraly anyqtama alý úshin osy '?' basyńyz jáne Qatysý týraly Qasietti jazýdy oqyńyz.
         homepage: Resmı ózindik bett ǵana. Áýesqoılyq  better ruqsat etilmeıdi.
         logo_format: SVG jáne PNG qoldaýda. SVG qalaýly, sebebi ajyratylymdyqtan táýelsiz bolyp tabylady.
-        original_title: 
-        overview: 
+        original_title: Túpnusqa taqyryp elementtiń túpnusqalyq tilinde jazylýy kerek. Kóp jaǵdaıda bul «túpnusqalyq til» órisine engizilgen tilge sáıkes keledi.
+        overview: Sholý jazǵan kezde, ony qysqa, yqshamdy jáne spoılerlersiz ustanyńyz.
         social_links: Áleýmettik siltemeler tek resmı (rastalǵan) better úshin. Áýesqoı better ruqsat etilmeıdi.
     external_links:
       visit_facebook: Facebook úshin barý
@@ -2714,8 +2714,15 @@ kk-KZ:
           no_records: Eshqandaı balamaly ataýlar ústelmegen.
         cast:
           no_records: Róldegilerden eshkim ústelmegen.
-        confirm_collection: 
-        confirm_video: 
+        confirm_collection: |-
+          <p>Jıyntyqtar TMDb júıesinde sıkýelderdi biriktirip toptastyrýdyń yńǵaıly ádisi bolyp tabylady. Keıde qaıshylyqty bolsa da, jıyntyqtar birdeı «álemniń» fılmderin toptastyrý úshin josparlanǵan emes. Ol úshin <a href="%{list_link}" target="_blank" rel="noopener">tizim jasańyz</a>. Jıyntyqtar týraly kóbirek aqparat alý úshin <a href="%{docs_link}" target="_blank" rel="noopener">qujattamamyzben</a> tanysyńyz.</p>
+
+          <p>Eger jasalatyn jıyntyq osy sharttarǵa sáıkes kelse, jalǵastyryńyz.</p>
+        confirm_video: |+
+          <p>Fılmdi beıne retinde belgileý, bizge naqty fılmder emes mazmun túrlerin saralaýǵa kómektesedi.</p>
+
+          <p>Eger bul mazmun mysaly, qurastyrylǵan DVD, fıtnes beınesi nemese bálkim «eń jaqsysy» DVDl bolsa, ony beıne retinde belgileýińiz kerek.</p>
+
         crew:
           job_required: Jumys qajetti
           no_records: Qyzmetkerlerden eshkim ústelmegen.
@@ -2985,7 +2992,7 @@ kk-KZ:
   no_company_search_results: Saýalyńyzǵa sáıkes eshqandaı kompanıalar joq.
   no_contributors: Eshqandaı qatysýshylar tabylmady.
   no_created_lists: Eshqandaı tizimderdi jasamaǵansyz.
-  no_crew: 
+  no_crew: Bul %{media_type} úshin eshqandaı ústelgen qyzmetkerler joq. Keıbireýin ústep kómektese alasyz!
   no_description: Sıpattama eńgizilmegen.
   no_director: Rejisór ústelmegen.
   no_episode_images: Eshqandaı epızod keskinderi ústelmegen.
@@ -3014,8 +3021,8 @@ kk-KZ:
     current_user: Eshqandaı kórsetimderdi baǵalamaǵansyz.
     public: "%{username} eshqandaı kórsetimderdi baǵalamaǵan."
   no_recommendations:
-    movie: 
-    tv_show: 
+    movie: "%{title} negizinde kezkelgen fılmderdi usynýǵa jetkilikti derekter joq. Kórgen fılmderdi baǵalaý arqyly kómektese alasyz."
+    tv_show: "%{title} negizinde kezkelgen kórsetimderdi usynýǵa jetkilikti derekter joq. Kórgen kórsetimderdi baǵalaý arqyly kómektese alasyz."
   no_records: Eshqandaı jazbalar ústelmegen.
   no_tv_search_results: Saýalyńyzǵa sáıkes eshqandaı kórsetim joq.
   no_watchlist_movies:
@@ -3026,8 +3033,8 @@ kk-KZ:
     public: Bul qadaǵalaý tizimi bos.
   no_writer: Eshqandaı senarıst ústelmegen.
   not_translated:
-    logged_in: 
-    public: 
+    logged_in: "%{page_title} áli de <strong>%{requested_i18n} (%{requested_language_text})</strong> úshin tárjimelenbedi. Jalǵastyrǵyńyz jáne osy tárjimeni jasaǵyńyz kelse, tómendegi túımeshikti basyńyz."
+    public: '%{page_title} áli de <strong>%{requested_i18n} (%{requested_language_text})</strong> úshin tárjimelenbedi. Bul tárjimeni júıege <a href="%{signup_link}">tirkelý</a> jáne <a href="%{login_link}">kirý</a> arqyly ústeı alasyz.'
   notifications:
     caught_up: Esesin toltyrǵansyz sıaqty.
     clear: Tazalaý
@@ -3145,7 +3152,7 @@ kk-KZ:
     credits:
       as_character: "- %{character} retinde"
       as_job: "— %{job}"
-  resend_verification_email_text: 
+  resend_verification_email_text: Tirkelgińizdi rastaý úshin hat joq pa? Qaıta jibergizý úshin tómende paıdalanýshy atyńyzdy engizińiz.
   reset_password_text: Paróldi ysyrý prosesin iske qosý úshin parólińizdi tómende engizińiz.
   search:
     favorites_movie: Tańdaýly fılmderdi izdeý...
@@ -3167,7 +3174,7 @@ kk-KZ:
     trending_searches: Tanymaldy izdeý
     watchlist_movie: Fılm qadaǵalaý tizimdi izdeý...
     watchlist_tv: Kórsetim qadaǵalaý tizimdi izdeý...
-  search_tip_1: 
+  search_tip_1: 'Tuspal: Nátıjelerdi jyl boıynsha taryltý úshin «y:» súzgisin paıdalanýǵa bolady. Mysal: «juldyzdy soǵystar y:1977».'
   season_number_name: "%{season_number}-telemaýsym "
   season_overview:
     already_aired: "%{show_name} kórsetimi %{season_number}-telemaýsymynyń premerasy %{date} boldy."
@@ -3190,10 +3197,10 @@ kk-KZ:
       username: Paıdalanýshy aty
     change_email:
       change_email: E-poshta mekenjaıyn aýystyrý
-      change_email_text: 
+      change_email_text: Eger e-poshtany ózgertkińiz kelse, tómendegi óriste jańa poshta mekenjaıyn engizińiz. Qaıta kire almas buryn, jańa mekenjaıyńyzǵa jiberiletin hattaǵy belsendirý siltemesin basyp jańa mekenjaıdy rastaýǵa týra keledi.
     connected_apps:
       connected_apps: Baılanystyrylǵan qoldanbalar
-      listed_below_explanation: 
+      listed_below_explanation: Tómende tizimdelgender sizdiń atyńyzdan derekter jazýǵa ýákilettengen úshinshi jaq qoldanbalary bolyp tabylady. Kezkelgen ýaqytta bul ruqsattardyń kúshin joıýǵa bolady.
       no_apps: Eshqandaı qoldabalardy tirkelgińizben baılanystyrǵan joqzyz.
       table:
         action: Áreketter
@@ -3232,7 +3239,7 @@ kk-KZ:
             updated_date: Jańartylǵan kúni.
           reason: Sebebi ne? (Qoldanylatın bolsa)
           summary: 
-        currently_running: 
+        currently_running: Importtaýyńyz aǵymda oryndalýda. Aıaqtalǵanyn kórý úshin bul betti jańalaı alasyz.
         import_results: Import nátıjeleri
         in_progress:
           import_status: Import mártebesi
