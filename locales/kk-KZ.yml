@@ -3243,12 +3243,12 @@ kk-KZ:
             row_is_invalid: Bul jol jaramsyz.
             updated_date: Jańartylǵan kúni.
           reason: Sebebi ne? (Qoldanylatın bolsa)
-          summary: 
+          summary: Eksporttalǵan tizimińizde anyqtalǵan %{total_count} (%{imported_percentage} %) element ishinen qorytyndysy %{imported_count} element ımporttaldy.
         currently_running: Importtaýyńyz aǵymda oryndalýda. Aıaqtalǵanyn kórý úshin bul betti jańalaı alasyz.
         import_results: Import nátıjeleri
         in_progress:
           import_status: Import mártebesi
-          summary: 
+          summary: Importtalatyn %{total_count} element qorytyndy sanyn anyqtadyq. Aǵymda ımport óńdik rejimde jumys isteýde jáne ol aıaqtalǵan kezde avtomatty habarlanady.
       select_csv: CSV-faıldy bólekteý
       type:
         favorite: Tańdaýly
@@ -3277,8 +3277,8 @@ kk-KZ:
       accent_color: Ereksheleý tús
       avatar:
         current_avatar: Aǵymdyq avatar
-        explain: 
-        explain_gravatar: 
+        explain: Aǵymda teńsheýli avatardy beıneleýdiń jalǵyz joly - <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> qyzmetin paıdalaný. Eger TMDb bıynsha teńsheýli avatardy beıneleýdi qalasańyz, Gravatar qyzmetindetirkelýińiz kerek jáne munda paıdalanǵan birdeı e-poshta mekenjaıyńyzdy (tirkelgińizdi qalaı baılanystyratyn múmkindigimiz) ústegenińizdi tekserińiz. Bul áreket jasalysymen, tómendegi jańartý túımeshigin basyńyz, sonda jańa keskinińizdi alamyz.
+        explain_gravatar: Eger avatar jetkizýshi retinde <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> qyzmetin paıdalanǵyńyz kelse, munda paıdalanatyn e-poshta mekenjaıyńyzdyń Gravatar qyzmetine ústelgenimen birdeı ekenine kóz jetkizińiz. Osydan keıin (jáne, árıne, keskindi júktep salǵansyz), tómendegi jańartý túımeshigin basyńyz, sonda jańa keskindi alýǵa tyrysamyz.
         not_found: Eshqandaı avatar tabylmady.
         not_found_add: Eshqandaı avatar tabylmady. <a href="#">Bireýin qosý</a> kerek pe?
         remove_own: Avataryńyzdy alastaý kerek pe?
@@ -3287,11 +3287,11 @@ kk-KZ:
         updated: Avatar jańartyldy!
         upload_avatar: Avatardy júktep salý
         upload_own: Ózińizdikin júktep salasyz ba?
-        upload_window_tip: 
+        upload_window_tip: Ózińizdiń jeke avataryńyzdy júktep salý úshin tómendegi faıl tańdaýshysyn paıdalanyńyz. Eger keskin áldeqashan kvadrat bolmasa, ony avtomatty qıyp alamyz.
         use_gravatar: Gravatardy paıdalaný kerek pe?
       background:
         background_image: Óń keskin
-        confirm_remove: 
+        confirm_remove: Óńdik keskindi alastaǵyńyz kelýin rastańyz. Senimdisiz be?
         remove_background: Óń keskinińizdi alastaý kerek pe?
         set_image: Óń keskindi ornatý kerek pe?
       change_password: Paróldi aýystyrý
@@ -3299,8 +3299,14 @@ kk-KZ:
       email:
         invalid_dialog_title: E-postany ysyrý kerek pe?
         reset_button: Ysyrý jáne jiberý kerek pe?
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        reset_invalid_email_dialog_text: |-
+          <p>Ókinishke oraı, buryn sizge hat jibergende qıyndyqtar boldy. Qatelerdi <a href="/u/%{username_url}/events/emails?status=2,3">osynda</a> kóre alasyz.</p>
+
+          <p>Eger e-poshta mekenjaıyńyzdaǵy aqaýlyqtar túzetilse nemese ýaqytsha ǵana bolsa, tómendegi ysyrý túımeshigin basyńyz, sonda rastaý úshin basqa hatty jiberýge tyrysamyz.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Parólińizdi ózgertý úshin jaramdy e-poshta mekenjaıy qajet. Ókinishke oraı, buryn sizge hat jibergende qıyndyqtar boldy. Qatelerdi <a href="/u/%{username_url}/events/emails?status=2,3">osynda</a> kóre alasyz.</p>
+
+          <p>Eger e-poshta mekenjaıyńyzdaǵy aqaýlyqtar túzetilse nemese ýaqytsha ǵana bolsa, tómendegi ysyrý túımeshigin basyńyz, sonda rastaý úshin basqa hatty jiberýge tyrysamyz.</p>
       reset_password_dialog_text: Bul saýaldy rastaı otyryp, parólińizdi ysyrý týraly nusqaýlar bar hat jiberiledi. Muny istegińiz kele me?
     sharing:
       favorite_list:
