@@ -71,15 +71,23 @@ module TMDb
       end
 
       def self.default_iso_3166_1_mapping
-        TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!('ar-AE' => 'ar',
-                                                          'en-AU' => 'en',
-                                                          'en-CA' => 'en',
-                                                          'en-GB' => 'en',
-                                                          'es-MX' => 'es',
-                                                          'fr-CA' => 'fr',
-                                                          'pt-BR' => 'pt',
-                                                          'zh-HK' => 'zh',
-                                                          'zh-TW' => 'zh')
+        @@default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
+          'ar-AE' => 'ar',
+          'en-AU' => 'en',
+          'en-CA' => 'en',
+          'en-GB' => 'en',
+          'es-MX' => 'es',
+          'fr-CA' => 'fr',
+          'pt-BR' => 'pt',
+          'zh-HK' => 'zh',
+          'zh-TW' => 'zh'
+        )
+      end
+
+      def self.default_iso_3166_1_i18n
+        @@default_iso_3166_1_i18n ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
+          hash[i18n.split('-')[1]] = i18n
+        end
       end
 
       def self.default_language_i18n
