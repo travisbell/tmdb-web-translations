@@ -95,7 +95,7 @@ ja-JP:
   Coming soon!: 近日公開！
   Comments: コメント
   Community: コミュニティ
-  Community Data: 
+  Community Data: コミュニティデータ
   Community Guidelines: コミュニティガイドライン
   Companies: 企業
   Company Results: 会社の検索結果
@@ -221,7 +221,7 @@ ja-JP:
   Info: 情報
   Job: 仕事
   Join the Community: コミュニティに参加する
-  Joined in: 
+  Joined in: 参加しました
   Keyword: キーワード
   Keyword Results: キーワードの結果
   Keywords: キーワード
@@ -230,26 +230,26 @@ ja-JP:
   Language: 言語
   Language Preferences: 言語設定
   Languages: 言語
-  Last Name: 
+  Last Name: 苗字
   Last Season Crew: 
   Last Season Featured Crew: 
   Last Season Regular Cast: 
   Last Week: 先週
   Leaderboard: ランキング
   Legal: 法的事項
-  List Results: 
+  List Results: リスト結果
   Lists: リスト
   Load More: 更に読み込む
-  Locked?: 
-  Login to Add a Backdrop: 
-  Login to Add a Poster: 
-  Login to Add a Video: 
-  Login to Edit Cast & Crew: 
+  Locked?: ロックされていますか？
+  Login to Add a Backdrop: ログインして背景を追加
+  Login to Add a Poster: ログインしてポスターを追加
+  Login to Add a Video: ログインして動画を追加
+  Login to Edit Cast & Crew: ログインして出演者とクルーを編集
   Login to add this TV show to your favorite list: ログインしてこのテレビ番組をお気に入りリストに加えましょう
   Login to add this TV show to your watchlist: ログインしてこのテレビ番組を注目リストに加えましょう
   Login to add this movie to your favorite list: ログインしてこの映画をお気に入りリストに加えましょう
   Login to add this movie to your watchlist: ログインしてこの映画を注目リストに加えましょう
-  Login to create and edit custom lists: 
+  Login to create and edit custom lists: ログインしてカスタムリストを作成および編集
   Login to rate this TV show: ログインしてこのテレビ番組に点数をつけましょう
   Login to rate this movie: ログインしてこの映画に点数をつけましょう
   Login to report an issue: 
@@ -593,10 +593,10 @@ ja-JP:
         public: "%{username}さんのお気に入り"
     filter_by: '絞り込み: '
     filters:
-      air_date: 
+      air_date: 放送日
       date_added: 追加日
       date_rated: 評価日
-      first_air_date: 
+      first_air_date: 初回放送日
       my_rating: 自分の評価
       popularity: 人気
       rating: 評価
@@ -664,8 +664,8 @@ ja-JP:
       no_recommendations_helper: いくつかお気に入りを追加してみると良いかもしれません。
       page_title: おすすめ
     sort_options:
-      asc: 
-      desc: 
+      asc: 昇順
+      desc: 降順
     tips:
       import_imdb_ratings: IMDbからあなたの評価をインポートすることができます。
       tip: ヒント
@@ -691,16 +691,16 @@ ja-JP:
   api_session:
     3rd_party_request: サードパーティの認証要求
     account_required:
-      need_account: 
-      title: 
+      need_account: 続行するにはログインする必要があります！
+      title: アカウントが必要です
     approved_session: あなたは%{application_name}を承認しました。このウィンドウを閉じることができます。
     continue: 続行したい場合は下の承認ボタンをクリックしてください。そうでない場合は、このウィンドウを閉じてください。
     invalid_api_app:
-      message: 
-      title: 
+      message: 現在認証されているAPIユーザーは無効です。
+      title: 無効なAPIユーザー
     missing_request_token:
-      message: 
-      title: 
+      message: ユーザーアカウントを認証するには、リクエストトークンが必要です。
+      title: 欠落しているリクエストトークン
     request_token_approval:
       message: "{{APP}}はデータを読み書きするあなたの許可を求めています。 これは、あなたのリストを維持したり、TMDbの外で映画を評価するようなことをしたい場合に必要です。"
     statuses:
@@ -1530,7 +1530,7 @@ ja-JP:
       discussion_category: カテゴリー
       for_item: アイテム用
       message: メッセージ
-      new_discussion: 
+      new_discussion: 新しいディスカッション
       subject: タイトル
     no_discussions: ディスカッションはありません
     pagination:
@@ -1550,10 +1550,10 @@ ja-JP:
         ignore_user: このユーザーを無視してもよろしいですか？彼らの議論やコメントはすべて消えてしまいます。このブロックを削除するには、アカウント設定の[ブロックされたユーザー]ページに移動します。
         mark_as_spam: このディスカッションをスパムとしてマークしてもよろしいですか？実行した場合に自動的に削除され、元に戻すことはできません。ディスカッションをスパムとマークすることで、私たちが使用するスパム検出サービスを訓練することができます。
         report_violation: 
-        unhide_discussion: 
-      posted_by_with_datetime: 
+        unhide_discussion: "「はい」をクリックすると、このディスカッションが再び表示されます。"
+      posted_by_with_datetime: "%{username}によって%{date}の%{time}に投稿"
       quote: 
-      reopen_reply: 
+      reopen_reply: 再オープンして返信
       reply: 返信
       reply_by: "%{username}からの返信"
       reply_on_datetime: 投稿：%{date} %{time}
@@ -1561,13 +1561,13 @@ ja-JP:
       unhide: 再表示する
     report_violation: 違反を報告する
     search:
-      advanced_search: 
-      search_closed: 
+      advanced_search: 高度な検索
+      search_closed: 検索は終了しましたか？
       search_forums: フォーラムを検索する...
-      search_open: 
+      search_open: 検索しますか？
     statuses:
-      closed: 
-      open: 
+      closed: 閉じる
+      open: 開く
     table_headers:
       last_reply: 前回の返信
       replies: 返信
@@ -2612,8 +2612,8 @@ ja-JP:
       previous_page: "（左矢印）前のページ"
       previous_season: "（左矢印）前のシーズンに戻る"
       reply_to_discussion: ディスカッションに返信
-      save_form: 
-      submit_message: 
+      save_form: フォームを送信する
+      submit_message: メッセージを送信する
       toggle_close: 閉じる／開くを切り替える
       toggle_private: 公開／非公開を切り替える
       toggle_watching: 監視ステータスを切り替える
@@ -2661,7 +2661,7 @@ ja-JP:
     login_text_2: 登録しても確認メールが届かない場合は、<a href="%{verification_link}">ここをクリック</a>して再送信してください。
     login_to_your_account: あなたのアカウントにログインします。
   login_to_create: 映画やテレビ番組が見つかりませんか？ログインして作成してください。
-  login_to_edit: 
+  login_to_edit: ログインして編集
   media:
     changes:
       filters:
@@ -2784,7 +2784,7 @@ ja-JP:
         no_results: 
         results: 
       tv_page_title: 
-      upload_logo: 
+      upload_logo: ロゴをアップロード
     no_results_found:
       movie: 映画は見つかりませんでした。
       tv: テレビ番組は見つかりませんでした。
@@ -2838,8 +2838,8 @@ ja-JP:
           no_records: エピソードは追加されていません。
         screened_confirm: 今シーズンが映画祭や映画館で上映された場合は、「はい」をクリックして続行してください。
         screened_label: 今シーズンは映画館で上映されていますか？
-      season_cast: 
-      season_crew: 
+      season_cast: シーズンの出演者
+      season_crew: シーズンのクルー
       season_selector:
         current_season: 現在のシーズン
         last_season: 最後のシーズン
@@ -2904,8 +2904,8 @@ ja-JP:
       networks:
         one: ネットワーク
         other: ネットワーク
-      series_cast: 
-      series_crew: 
+      series_cast: シリーズの出演者
+      series_crew: シリーズのクルー
       statuses:
         Canceled: キャンセルしました
         Ended: 終了
