@@ -28,6 +28,7 @@ module TMDb
         'it' => 'it-IT',
         'ja' => 'ja-JP',
         'ka' => 'ka-GE',
+        'kk' => 'kk-KZ',
         'kn' => 'kn-IN',
         'ko' => 'ko-KR',
         'lt' => 'lt-LT',
@@ -82,13 +83,6 @@ module TMDb
           'zh-HK' => 'zh',
           'zh-TW' => 'zh'
         )
-      end
-
-      def self.default_iso_3166_1_i18n
-        @@default_iso_3166_1_i18n ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
-          iso_3166_1 = i18n.split('-')[1]
-          hash[iso_3166_1] = i18n unless hash[iso_3166_1]
-        end
       end
 
       def self.default_language_i18n
