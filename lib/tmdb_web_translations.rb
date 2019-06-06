@@ -85,6 +85,13 @@ module TMDb
         )
       end
 
+      def self.default_iso_3166_1_i18n
+        @@default_iso_3166_1_i18n ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
+          iso_3166_1 = i18n.split('-')[1]
+          hash[iso_3166_1] = i18n unless hash[iso_3166_1]
+        end
+      end
+
       def self.default_language_i18n
         @@default_language_to_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash|
           hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
