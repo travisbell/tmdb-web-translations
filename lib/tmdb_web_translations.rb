@@ -35,6 +35,7 @@ module TMDb
         'lt' => 'lt-LT',
         'lv' => 'lv-LV',
         'ml' => 'ml-IN',
+        'ms' => 'ms-MY',
         'nb' => 'nb-NO',
         'nl' => 'nl-NL',
         'no' => 'no-NO',
@@ -54,13 +55,16 @@ module TMDb
         'tr' => 'tr-TR',
         'uk' => 'uk-UA',
         'vi' => 'vi-VN',
-        'zh' => 'zh-CN'
+        'zh' => 'zh-CN',
+        'zu' => 'zu-ZA'
       }.freeze
 
       BLACKLISTED_TRANSLATIONS = [
         'en-AU',
         'en-CA',
-        'en-GB'
+        'en-GB',
+        'en-IE',
+        'en-NZ'
       ].freeze
 
       @@default_language_to_i18n = nil
@@ -76,11 +80,15 @@ module TMDb
         @@default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
           'ar-AE' => 'ar',
           'de-AT' => 'de',
+          'de-CH' => 'de',
           'en-AU' => 'en',
           'en-CA' => 'en',
           'en-GB' => 'en',
+          'en-IE' => 'en',
+          'en-NZ' => 'en',
           'es-MX' => 'es',
           'fr-CA' => 'fr',
+          'ms-SG' => 'ms',
           'pt-BR' => 'pt',
           'zh-HK' => 'zh',
           'zh-TW' => 'zh'
