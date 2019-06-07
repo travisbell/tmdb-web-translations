@@ -16,6 +16,7 @@ module TMDb
         'en' => 'en-US',
         'eo' => 'eo-EO',
         'es' => 'es-ES',
+        'et' => 'et-EE',
         'eu' => 'eu-ES',
         'fa' => 'fa-IR',
         'fi' => 'fi-FI',
@@ -74,6 +75,7 @@ module TMDb
       def self.default_iso_3166_1_mapping
         @@default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
           'ar-AE' => 'ar',
+          'de-AT' => 'de',
           'en-AU' => 'en',
           'en-CA' => 'en',
           'en-GB' => 'en',
