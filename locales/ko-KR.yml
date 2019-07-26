@@ -311,7 +311,7 @@ ko-KR:
   Personal Info: 인물 정보
   Personal Recommendations: 개인 추천
   Phone Number: 전화 번호
-  Physical: 판매
+  Physical: 물리매체
   Place of Birth: 출생지
   Play: 재생
   Plot Keywords: 플롯 키워드
@@ -327,7 +327,7 @@ ko-KR:
   Posters: 포스터
   Powered by TMDb: 제작자 TMDb
   Powered by The Movie Database: The Movie Database에서 개발
-  Premiere: " 방영일"
+  Premiere: 프리미어
   Preview: 프리뷰
   Primary Color: 
   Primary Facts: 기본 정보
@@ -386,11 +386,11 @@ ko-KR:
   Search for a language: 언어 검색...
   Search for a movie or TV show: 영화 또는 TV 프로그램 검색
   Search for a movie, TV show, person: 영화, TV 프로그램, 인물 검색
-  Season: 
+  Season: 시즌
   Season Number: 
-  Season Overview: 
-  Season Regulars: 
-  Season Specials: 
+  Season Overview: 시즌 개요
+  Season Regulars: 시즌 정규 출연진
+  Season Specials: 시즌 스페셜
   Seasons: 시즌
   Secondary Color: 
   See Episodes: 에피소드 참조
@@ -591,10 +591,10 @@ ko-KR:
         public: "%{username}의 즐겨찾기"
     filter_by: '필터:'
     filters:
-      air_date: 방영일
+      air_date: 방영일 순
       date_added: 추가일 순
       date_rated: 평가일 순
-      first_air_date: 
+      first_air_date: 최초 방영일 순
       my_rating: 나의 평점 순
       popularity: 인기 순
       rating: 전체 평점 순
@@ -1591,13 +1591,13 @@ ko-KR:
       inclusion: 반드시 선택해야 합니다.
       invalid: 유효하지 않습니다.
       required: '존재해야 합니다. '
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: "'취소'또는 '종료'으로 설정되어 새 시즌을 만들 수 없습니다."
       suspected_tv_series: 
       taken: 이미 사용되고 있습니다.
     movie:
       duplicate_cast: 이미 출연진에 입력된 인물입니다.
     tv:
-      create_season_locked: 
+      create_season_locked: 이 시리즈에서 새 시즌을 만들 수 없도록 잠겨있습니다.
       duplicate_created_by: 이미 추가되어 있습니다.
       duplicate_crew_member: " %{job_name} 에 이미 추가되어 있습니다."
       duplicate_episode: 해당 에피소드가 이미 있습니다.
@@ -1617,8 +1617,8 @@ ko-KR:
       catch_up_now: 지금 참여하세요
       discussions: 토론
     taw:
-      read_the_2018_recap: 2018년도의 기록들...
-      thats_a_wrap: 와~~ 끝났다!
+      read_the_2018_recap: 2018년 톺아보기
+      thats_a_wrap: 명예의 전당
     tv_shows:
       episode_airs:
         in_days: "%{number_of_days}일 후 새 에피소드 방영 예정"
@@ -2495,7 +2495,7 @@ ko-KR:
     Temp Sound Editor: 
     Textile Artist: 
     Thanks: 감사드리며
-    Theatre Play: 극장 상영
+    Theatre Play: 연극 대본
     Theme Song Performance: 
     Third Assistant "A" Camera: 
     Third Assistant "B" Camera: 
@@ -3094,13 +3094,13 @@ ko-KR:
       rent_or_buy: 
     description: 
     filters:
-      4k: 
+      4k: 4K
       best_price: 
       bluray: 
-      dvd: 
-      dvd_bluray: 
-      hd: 
-      sd: 
+      dvd: DVD
+      dvd_bluray: DVD/Blu-ray
+      hd: HD
+      sd: SD
     monetization_types:
       ads: 
       buy: 
@@ -3114,7 +3114,9 @@ ko-KR:
       hd: 
       none: 
       sd: 
-    seasons: 
+    seasons:
+      many: "%{count} 시즌"
+      other: "%{count} 시즌"
     watch_on:
       ads: 
       buy: 
@@ -3163,10 +3165,10 @@ ko-KR:
     watchlist_movie: "'관심 영상' 영화 검색..."
     watchlist_tv: "'관심 영상'  TV 프로그램 검색..."
   search_tip_1: '팁: ''y:'' 필터를 활용해 연도별 검색을 할 수 있습니다. 예: ''스타 워즈 y:1977''.'
-  season_number_name: 
+  season_number_name: 시즌 %{season_number}
   season_overview:
-    already_aired: 
-    to_air: 
+    already_aired: "%{show_name}의 %{season_number}번째 시즌이 %{date}년에 방영되었습니다."
+    to_air: "%{show_name}의 %{season_number}번째 시즌이 %{date}년에 방영될 예정입니다."
   settings:
     account:
       account_settings: 계정 설정
