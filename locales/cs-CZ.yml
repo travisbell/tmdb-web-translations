@@ -2958,14 +2958,14 @@ cs-CZ:
       audio_language: Jazyk zvuku
       channel: Kanál
       duration: Trvání
-      play_behind_the_scenes: 
-      play_blooper: 
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_recap: 
-      play_teaser: 
-      play_trailer: Přehrát upoutávku
+      play_behind_the_scenes: Přehrát z natáčení
+      play_blooper: Přehrát nepovedené záběry
+      play_clip: Přehrát ukázku
+      play_featurette: Přehrát bonus
+      play_opening_credits: Přehrát úvodní titulky
+      play_recap: Přehrát rekapitulaci
+      play_teaser: Přehrát teaser
+      play_trailer: Přehrát trailer
       published: Publikováno
       published_at: Publikováno
       restricted_regions: 
@@ -3426,35 +3426,38 @@ cs-CZ:
     filters:
       language: Jazyk
       sort:
-        published_at_asc: 
-        published_at_desc: 
-        sort: 
-      type: 
-    number_of_videos: 
+        published_at_asc: Vydáno (od nejstaršího)
+        published_at_desc: Vydáno (od nejnovějšího)
+        sort: Seřadit
+      type: Typ
+    number_of_videos:
+      few: "%{count} videa"
+      one: "%{count} video"
+      other: "%{count} videí"
     official_channel: Oficiální kanál
-    page_title: 
-    popular: 
+    page_title: "%{name} video kanál"
+    popular: Populární
     types:
-      Behind the Scenes: 
-      Blooper: 
-      Bloopers: 
-      Clip: Klip
-      Clips: Klipy
-      Featurette: Film o filmu
-      Featurettes: Filmy o filmu
+      Behind the Scenes: Z natáčení
+      Blooper: Nepovedené záběry
+      Bloopers: Nepovedené záběry
+      Clip: Ukázka
+      Clips: Ukázky
+      Featurette: Bonus
+      Featurettes: Bonusy
       Opening Credits: Úvodní titulky
-      Recap: 
-      Recaps: 
-      Teaser: Ukázka
-      Teasers: Ukázky
-      Trailer: Upoutávka
-      Trailers: Upoutávky
+      Recap: Rekapitulace
+      Recaps: Rekapitulace
+      Teaser: Teaser
+      Teasers: Teasery
+      Trailer: Trailer
+      Trailers: Trailery
     vimeo_channel: Kanál Vimeo
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
-    youtube_channel: Kanál Youtube
+    visit_vimeo_channel: Navštívit kanál Vimeo
+    visit_youtube_channel: Navštívit kanál YouTube
+    youtube_channel: Kanál YouTube
   view all: zobrazit vše
   will_paginate:
     next_label: Další →
-    page_gap: 
+    page_gap: "..."
     previous_label: "← Předchozí"
