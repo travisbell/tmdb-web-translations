@@ -9,6 +9,7 @@ module TMDb
         'bn' => 'bn-BD',
         'ca' => 'ca-ES',
         'ch' => 'ch-GU',
+        'cn' => 'cn-CN',
         'cs' => 'cs-CZ',
         'da' => 'da-DK',
         'de' => 'de-DE',
