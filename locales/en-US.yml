@@ -1605,9 +1605,10 @@ en-US:
     new_email_address: New Email Address
     sent_verification_email: We've sent an email to %{email_address} to be verified. Check your inbox (and spam folder) for instructions on how to proceed.
     unsubscribe:
-      body: You've been <strong>unsubscribed</strong>. If you did this in error you can re-subscribe by visiting your <a href="%{account_link}">notification settings</a> page.
       header: "%{username}, we're sad to see you go!"
+      subscription_changed: Your subscription settings have been updated. You can edit your notification settings by visiting your <a href="%{account_link}">notification settings</a> page.
       unsubscribe: Unsubscribe
+      unsubscribed: You've been <strong>unsubscribed</strong>. If you did this in error you can re-subscribe by visiting your <a href="%{account_link}">notification settings</a> page.
   episode_count:
     many: "%{count} Episodes"
     one: "%{count} Episode"
