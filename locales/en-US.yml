@@ -1604,6 +1604,9 @@ en-US:
     does_not_match: The email addresses do not match, please try again.
     new_email_address: New Email Address
     sent_verification_email: We've sent an email to %{email_address} to be verified. Check your inbox (and spam folder) for instructions on how to proceed.
+    unsubscribe:
+      body: You've been <strong>unsubscribed</strong>. If you did this in error you can re-subscribe by visiting your <a href="%{account_link}">notification settings</a> page.
+      header: "%{username}, we're sad to see you go!"
   episode_count:
     many: "%{count} Episodes"
     one: "%{count} Episode"
@@ -3313,6 +3316,7 @@ en-US:
       sharing_settings: Sharing Settings
       social_settings: Social Settings
     notifications:
+      api_updates: Email me about API changes and updates
       email_new_releases_watchlist: Email me about new releases on my watchlist?
       new_replies_to_threads_created: Automatically watch threads I create or reply to?
       new_replies_to_threads_watching: Email me about new replies for threads that I am watching?
