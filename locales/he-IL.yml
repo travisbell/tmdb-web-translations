@@ -1604,10 +1604,10 @@ he-IL:
     new_email_address: כתובת דוא״ל חדשה
     sent_verification_email: לוידוא. בדוק את תיבת הדואר הנכנס שלך (ותיקיית דואר זבל) להוראות כיצד להמשיך %{email_address} שלחנו דוא״ל אל
     unsubscribe:
-      header: 
-      subscription_changed: 
-      unsubscribe: 
-      unsubscribed: 
+      sad_to_go: "!אנחנו עצובים לראות אותך הולך ,%{username}"
+      subscription_changed: .הגדרות המינוי שלך עודכנו. אתה יכול לערוך את הגדרות ההתראה שלך על ידי ביקור בדף <a href="%{account_link}">הגדרות התראה</a>
+      unsubscribe: בטל הרשמה כמנוי
+      unsubscribed: .<strong>בוטלת מהרשמה כמנוי</strong>. במקרה שעשית זאת בטעות, אתה יכול להירשם מחדש כמנוי על ידי ביקור בדף <a href="%{account_link}">הגדרות התראה</a>
   episode_count:
     one: פרק %{count}
     other: "%{count} פרקים"
@@ -2821,6 +2821,7 @@ he-IL:
           no_records: לא התווספו שמות חלופיים
     rating:
       rated_with_rating: דורג %{value}
+      rating_count: 
     social_panel:
       discussions:
         currently_subscribed: אתה רשום כמנוי כרגע כדי לקבל התראה כאשר מישהו יוצר את הרשומה הראשונה.
