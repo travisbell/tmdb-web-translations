@@ -1487,6 +1487,8 @@ he-IL:
     Sound: קול
     Visual Effects: תוצאים חזותיים
     Writing: כתיבה
+  discover:
+    apply: 
   discussions:
     actions:
       actions: פעולות
@@ -2821,10 +2823,13 @@ he-IL:
           no_records: לא התווספו שמות חלופיים
     rating:
       rated_with_rating: דורג %{value}
-      rating_count: 
-      score_breakdown: 
-      score_distribution: 
-      score_history: 
+      rating_count:
+        one: "%{count} דירוג"
+        other: "%{count} דירוגים"
+      score_breakdown: מפולת ניקודים
+      score_distribution: התפלגות ניקודים
+      score_history: היסטורית ניקודים
+      score_trend: מגמת ניקודים
     social_panel:
       discussions:
         currently_subscribed: אתה רשום כמנוי כרגע כדי לקבל התראה כאשר מישהו יוצר את הרשומה הראשונה.
@@ -3308,7 +3313,7 @@ he-IL:
       sharing_settings: הגדרות שיתוף
       social_settings: הגדרות חברתיות
     notifications:
-      api_updates: 
+      api_updates: API שלח לי דוא״ל לגבי שינויים ועדכונים של
       email_new_releases_watchlist: שלח לי דוא״ל לגבי שחרורים חדשים ברשימת הצפייה שלי
       new_replies_to_threads_created: עקוב באופן אוטומטי אחר אשכולות שאני יוצר או מגיב אליהם
       new_replies_to_threads_watching: שלח לי דוא״ל לגבי תגובות חדשות באשכולות שאני עוקב אחריהם
