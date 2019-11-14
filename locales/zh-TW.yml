@@ -331,7 +331,7 @@ zh-TW:
   Preview: 預覽
   Primary Color: 原色
   Primary Facts: 主要資訊
-  Primary?: 
+  Primary?: 主要方案？
   Privacy Policy: 隱私權政策
   Production Code: 製作代碼
   Production Companies: 製作公司
@@ -399,7 +399,7 @@ zh-TW:
   Send: 送出
   Sessions: Sessions
   Share: 分享
-  Share Link: 
+  Share Link: 分享連結
   Sharing: 分享
   Show: 展開
   Show More: 顯示更多
@@ -526,7 +526,7 @@ zh-TW:
         deleted: 刪除
         updated: 修改
       media_types:
-        all: 
+        all: 全部
         movies: 電影
         others: 其他
         people: 演員
@@ -592,10 +592,10 @@ zh-TW:
         public: "%{username} 的最愛"
     filter_by: 過濾依：
     filters:
-      air_date: 
+      air_date: 上映日期
       date_added: 增加資料的日期
       date_rated: 評分日期
-      first_air_date: 
+      first_air_date: 首映日期
       my_rating: 我的評分
       popularity: 熱門度
       rating: 評分
@@ -663,8 +663,8 @@ zh-TW:
       no_recommendations_helper: 請選出喜愛的電影或電視影集並加入我的最愛，以產生專屬於您的推薦資料。
       page_title: 建議
     sort_options:
-      asc: 
-      desc: 
+      asc: 升序
+      desc: 降序
     tips:
       import_imdb_ratings: 您可以匯入您在 IMDb 的評分資料
       tip: 提示
@@ -725,7 +725,7 @@ zh-TW:
     title: 片名
     to_accounts_ids: 往
     translated_overview: 概覽
-    tv_series_status: 
+    tv_series_status: 影集狀態
   average edits per day: 每日平均編輯量
   back_options:
     back: 返回
@@ -1486,7 +1486,15 @@ zh-TW:
     Visual Effects: 特效
     Writing: 編劇
   discover:
-    apply: 
+    apply: 同意
+    filters:
+      show_me:
+        everything: 
+        movies_have_seen: 
+        movies_havent_seen: 
+        tv_shows_have_seen: 
+        tv_shows_havent_seen: 
+    search: 
   discussions:
     actions:
       actions: 動作
@@ -1606,10 +1614,10 @@ zh-TW:
     new_email_address: 新電子郵件位址
     sent_verification_email: 我們已經傳送一封電子郵件到 %{email_address} 做驗証。請檢查您的收件夾 (及垃圾郵件夾) 以取得此郵件。
     unsubscribe:
-      sad_to_go: 
-      subscription_changed: 
-      unsubscribe: 
-      unsubscribed: 
+      sad_to_go: "%{username}，我們很遺憾的送你離開！"
+      subscription_changed: 您已更新您的訂閱，現在可透過此 <a href="%{account_link}">連結</a> page 編輯帳戶通知設定。
+      unsubscribe: 取消訂閱
+      unsubscribed: 您現在已<strong>取消訂閱</strong>。若您遇到問題，可透過<a href="%{account_link}">通知設定</a>頁進行設定。
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
   errors:
@@ -1626,13 +1634,13 @@ zh-TW:
       inclusion: 必須選擇
       invalid: 是無效的
       required: 必須存在
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: 目前已設定為“已取消”或“已結束”，因此無法建立新季數。
       suspected_tv_series: 本影片似乎存在於本電影資料庫中，若您確認無誤後仍可繼續執行添加。若未來發現已有相同影片時，本影片將會被系統所刪除。
       taken: 已被使用
     movie:
       duplicate_cast: 已存在於演員群中
     tv:
-      create_season_locked: 
+      create_season_locked: 已封鎖建立此系列的新季數的設定。
       duplicate_created_by: 已存在於導演群中
       duplicate_crew_member: 已存在於%{job_name}中
       duplicate_episode: 此影集已存在於資料庫中
@@ -2680,7 +2688,7 @@ zh-TW:
     step_3: 步驟 3：選擇圖片
     step_4: 步驟 4：分享
   login:
-    login_text_1: 為了使用 TMDb 的編輯和評價功能，以及獲得個人專屬的觀賞建議，您需要登錄到您的帳戶。 如果您沒有賬戶，請註冊賬戶。點擊<a href="%{signup_link}">此處</a>開始註冊。
+    login_text_1: 為了使用 TMDb 的編輯和評價功能，以及獲得個人專屬的觀賞建議，您需要登錄到您的帳戶。 如果您沒有帳戶，請註冊帳戶。點擊<a href="%{signup_link}">此處</a>開始註冊。
     login_text_2: 若您註冊後沒有收到認證信件，請點擊 <a href="%{verification_link}">此處</a> 重寄認證信。
     login_to_your_account: 登入至您的帳號
   login_to_create: 找不到電影或電視影集嗎？登入來建立一個吧！
@@ -2823,11 +2831,13 @@ zh-TW:
           no_records: 沒有添加任何替代名字
     rating:
       rated_with_rating: 評分 %{value}
-      rating_count: 
-      score_breakdown: 
-      score_distribution: 
-      score_history: 
-      score_trend: 
+      rating_count:
+        one: 共 %{count} 分
+        other: 共 %{count} 分
+      score_breakdown: 評分細項
+      score_distribution: 評分分布
+      score_history: 評分歷史紀錄
+      score_trend: 評分趨勢
     social_panel:
       discussions:
         currently_subscribed: 您已開始訂閱，當任何人發布訊息時您將會收到通知
@@ -2866,8 +2876,8 @@ zh-TW:
           no_records: 沒有添加影集
         screened_confirm: 若本季內容曾經於劇院或電影院播映，請點選"是"。
         screened_label: 本季內容曾經於劇院或電影院播映嗎？
-      season_cast: 
-      season_crew: 
+      season_cast: 本季卡司
+      season_crew: 本季劇組
       season_selector:
         current_season: 本季
         last_season: 最新一季
@@ -2932,8 +2942,8 @@ zh-TW:
       networks:
         one: 電視網
         other: 電視網
-      series_cast: 
-      series_crew: 
+      series_cast: 系列卡司
+      series_crew: 系列劇組
       statuses:
         Canceled: 已取消
         Ended: 已完結
@@ -3140,37 +3150,39 @@ zh-TW:
   number_of_votes: "%{count} 個投票"
   ott:
     available_snippet:
-      flatrate: 
-      rent_or_buy: 
-    description: 
+      flatrate: 現正串流
+      rent_or_buy: 可租用或購買
+    description: 可透過 JustWatch 輕鬆查詢可合法線上觀賞您喜愛的電影及電視影集。透過 {justwatch_link} 獲得更多資訊。
     filters:
-      4k: 
-      best_price: 
-      bluray: 
-      dvd: 
-      dvd_bluray: 
-      hd: 
-      sd: 
+      4k: 4K
+      best_price: 最佳價格
+      bluray: 藍光
+      dvd: DVD
+      dvd_bluray: DVD / 藍光
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: 廣告
+      buy: 購買
+      flatrate: 串流
+      free: 免費
+      rent: 租用
     no_offers:
-      4k: 
-      bluray: 
-      dvd: 
-      hd: 
-      none: 
-      sd: 
-    seasons: 
+      4k: 無 4K 方案
+      bluray: 無藍光方案
+      dvd: 無 DVD 方案
+      hd: 無 HD 方案
+      none: "%{title} 無任何方案"
+      sd: 無 SD 方案
+    seasons:
+      many: "%{count} 季"
+      other: "%{count} 季"
     watch_on:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: 於 %{provider_name} 觀賞 %{name}
+      buy: 於 %{provider_name} 購買 %{name}
+      flatrate: 於 %{provider_name} 觀賞 %{name}
+      free: 於 %{provider_name} 觀賞 %{name}
+      rent: 於 %{provider_name} 租用 %{name}
   pagination:
     currently_on: 目前位於 %{current_page} / %{total_pages} 頁
     last_page: 最後一頁
@@ -3301,7 +3313,7 @@ zh-TW:
       sharing_settings: 分享設定
       social_settings: 社群設定
     notifications:
-      api_updates: 
+      api_updates: 當 API 變更或更新時請以 Email 通知我
       email_new_releases_watchlist: 當待看清單中有新影片消息時，要傳送電子郵件給您嗎？
       new_replies_to_threads_created: 當您建立新的討論串或回應討論時，要傳送電子郵件給您嗎？
       new_replies_to_threads_watching: 當我關注的討論串有新回應時，要傳送電子郵件給您嗎？

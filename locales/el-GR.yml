@@ -1497,6 +1497,14 @@ el-GR:
     Writing: Σενάριο
   discover:
     apply: 
+    filters:
+      show_me:
+        everything: 
+        movies_have_seen: 
+        movies_havent_seen: 
+        tv_shows_have_seen: 
+        tv_shows_havent_seen: 
+    search: 
   discussions:
     actions:
       actions: Ενέργειες
@@ -1805,10 +1813,10 @@ el-GR:
     Art Direction Intern: Άτομο πρακτικής σκηνογραφίας
     Assistant Accountant: Βοηθός λογιστή
     Assistant Art Director: Βοηθός σκηνογράφου
-    Assistant Camera: Βοηθός κάμερας
+    Assistant Camera: Βοηθός οπερατέρ
     Assistant Chef: Βοηθός μάγειρα
     Assistant Chief Lighting Technician: Βοηθός κύριου τεχνικού φωτισμού
-    Assistant Costume Designer: Βοηθός ενδυματολόγου
+    Assistant Costume Designer: Βοηθός Ενδυματολόγου
     Assistant Craft Service: Βοηθός τεχνικής υπηρεσίας
     Assistant Decorator: Βοηθός ντεκορατέρ
     Assistant Dialogue Editor: Πρόσθετη επεξεργασία διαλόγων
@@ -1830,7 +1838,7 @@ el-GR:
     Assistant Picture Editor: Βοηθός επεξεργασίας εικόνας
     Assistant Production Coordinator: Συντονιστής βοηθός παραγωγής
     Assistant Production Design: Βοηθός σχεδιασμού παραγωγής
-    Assistant Production Manager: Βοηθός διαχείρισης παραγωγής
+    Assistant Production Manager: Βοηθός Διευθυντή Παραγωγής
     Assistant Property Master: Βοηθός φροντιστή
     Assistant Script: Βοηθός γραμματέα γυρίσματος
     Assistant Set Decoration: Βοηθός ντεκορατέρ
@@ -1895,7 +1903,7 @@ el-GR:
     Casting Associate: Βοηθός κάστινγκ
     Casting Consultant: Σύμβουλος κάστινγκ
     Casting Coordinator: Συντονιστής κάστινγκ
-    Casting Director: Υπεύθυνος κάστινγκ
+    Casting Director: Υπεύθυνος Διανομής Ρόλων
     Casting Producer: Παραγωγός κάστινγκ
     Casting Researcher: Αναζήτηση κάστινγκ
     Catering: Τροφοδοσία
@@ -1913,7 +1921,7 @@ el-GR:
     Child Wrangler: Χειριστής παιδιών
     Choreographer: Χορογράφος
     Cinematography: Διευθυντής Φωτογραφίας
-    Clapper Loader: Β' βοηθός χειριστή κάμερας
+    Clapper Loader: Β' Βοηθός Οπερατέρ
     Clearances Consultant: Σύμβουλος εξουσιοδότησης
     Clearances Coordinator: Συντονιστής εξουσιοδότησης
     Cloth Setup: Διαμόρφωση ρούχων
@@ -2001,7 +2009,7 @@ el-GR:
     Digital Effects Supervisor: Επιβλέπων ψηφιακών εφέ
     Digital Film Recording: Ψηφιακή ηχογράφηση ταινίας
     Digital Foley Artist: Ψηφιακή επεξεργασία με αναπαραγωγή
-    Digital Imaging Technician: Τεχνικός ψηφιακής εικόνας
+    Digital Imaging Technician: Τεχνικός Ψηφιακών Μέσων Εικόνας
     Digital Intermediate: Ψηφιακές αλλαγές
     Digital Intermediate Assistant: Βοηθός ψηφιακών αλλαγών
     Digital Intermediate Colorist: Ψηφιακή αλλαγή και διόρθωση χρωμάτων
@@ -2015,11 +2023,11 @@ el-GR:
     Director: Σκηνοθέτης
     Director of Communications: Υπεύθυνος επικοινωνιών
     Director of Operations: Υπεύθυνος λειτουργιών
-    Director of Photography: Διευθυντής φωτογραφίας
+    Director of Photography: Διευθυντής Φωτογραφίας
     Director of Previsualization: Υπεύθυνος προ-οπτικοποίησης
     Documentation & Support: Τεκμηρίωση και Υποστήριξη
     Dolby Consultant: Σύμβουλος Dolby
-    Dolly Grip: Τεχνικός ειδικού οχήματος
+    Dolly Grip: Μακενίστας
     Dramaturgy: Δραματουργία
     Draughtsman: Σχεδιασμός σκηνικών
     Dresser: Ετοιμασία
@@ -2085,7 +2093,7 @@ el-GR:
     First Company Grip: Πρώτος τεχνικός-κλειδί
     Fix Animator: Διόρθωση animation
     Floor Runner: Βοήθεια ομαλής λειτουργίας
-    Focus Puller: Πρώτος βοηθός κάμερας
+    Focus Puller: Α' Βοηθός Οπερατέρ
     Foley: Επεξεργασία με αναπαραγωγή
     Foley Artist: Επεξεργασία με αναπαραγωγή
     Foley Editor: Επεξεργασία ηχητικών εφέ με αναπαραγωγή
@@ -2102,7 +2110,7 @@ el-GR:
     Graphic Novel: " Μυθιστόρημα-κόμικ"
     Graphic Novel Illustrator: Απεικόνιση μυθιστορήματος-κόμικ
     Greensman: Υπεύθυνος φυσικών στοιχείων
-    Grip: Βοηθός τεχνίτης εφαρμοστής
+    Grip: Βοηθός Τεχνίτης Εφαρμοστής
     Grip Production Assistant: Βοηθός τεχνικός παραγωγής
     Gun Wrangler: Χειριστής όπλων τύπου πιστολιού
     Hair Assistant: Βοηθός στυλίστα μαλλιών
@@ -2149,7 +2157,7 @@ el-GR:
     Key Construction Grip: Βασικός τεχνίτης κατασκευών
     Key Costumer: Βασικός ενδυματολόγος
     Key Dresser: Βασική ετοιμασία
-    Key Grip: Βασικός βοηθός τεχνίτης εφαρμοστής
+    Key Grip: Τεχνίτης Εφαρμοστής - Μακινίστας
     Key Grip Production Assistant: Βοηθός τεχνικός-κλειδί παραγωγής
     Key Hair Stylist: Βασικός στυλίστας μαλλιών
     Key Hairdresser: Βασικός κομμωτής / κομμώτρια
@@ -2171,7 +2179,7 @@ el-GR:
     Lead Editor: Κύριος μοντέρ
     Lead Painter: Επικεφαλής βαφέας
     Lead Set Dresser: Επικεφαλής ετοιμασίας σκηνικών
-    Leadman: Επικεφαλής διακόσμησης
+    Leadman: Φροντιστής Πλατώ
     Legal Services: Νομικές υπηρεσίες
     Libra Head Technician: Επικεφαλής τεχνικός σταθερής κάμερας
     Lighting Artist: Καλλιτεχνικό τμήμα φωτισμού
@@ -2191,7 +2199,7 @@ el-GR:
     Location Assistant: Βοηθός τοποθεσίας
     Location Casting: Κάστινγκ τοποθεσίας
     Location Coordinator: Συντονιστής τοποθεσιών
-    Location Manager: Υπεύθυνος διαχείρισης χώρων
+    Location Manager: Υπεύθυνος Διαχείρισης Χώρων
     Location Production Assistant: Βοηθός παραγωγής σε θέματα τοποθεσιών
     Location Scout: Αναζήτηση τοποθεσιών
     Location Sound Assistant: Βοηθός ήχου τοποθεσίας
@@ -2246,7 +2254,7 @@ el-GR:
     Musical: Μιούζικαλ
     Musical Casting: Μουσικό κάστινγκ
     Musician: Μουσικός
-    Negative Cutter: Διαμόρφωση αρνητικού
+    Negative Cutter: Μοντέρ Αρνητικού
     Novel: Μυθιστόρημα
     "O\x01B\x01 Lighting": Φωτισμός O.B.
     "O\x01B\x01 Sound": Ήχος O.B.
@@ -2283,15 +2291,15 @@ el-GR:
     Police Consultant: Σύμβουλος αστυνομίας
     Post Coordinator: Μετα-συντονιστής
     Post Producer: Μετα-παραγωγός
-    Post Production Accountant: Λογιστής μετα-παραγωγής
-    Post Production Assistant: Βοηθός μετα-παραγωγής
-    Post Production Consulting: Σύμβουλος μετα-παραγωγής
-    Post Production Coordinator: Συντονιστής μετα-παραγωγής
-    Post Production Producer: Παραγωγός μετα-παραγωγής
-    Post Production Scripts: Σενάριο μετα-παραγωγής
-    Post Production Supervisor: Επιβλέπων μετα-παραγωγός
-    Post Production Technical Engineer: Τεχνικός μηχανικός μετα-παραγωγής
-    Post-Production Manager: Διευθυντής μετα-παραγωγής
+    Post Production Accountant: Λογιστής εργαστηρίου
+    Post Production Assistant: Βοηθός εργαστηρίου
+    Post Production Consulting: Σύμβουλος εργαστηρίου
+    Post Production Coordinator: Συντονιστής εργαστηρίου
+    Post Production Producer: Παραγωγός εργαστηρίου
+    Post Production Scripts: Σενάριο εργαστηρίου
+    Post Production Supervisor: Προϊστάμενος Εργαστηρίου
+    Post Production Technical Engineer: Τεχνικός μηχανικός εργαστηρίου
+    Post-Production Manager: Διευθυντής Εργαστηρίου
     Pre-Visualization Coordinator: Συντονιστής προ-οπτικοποίησης
     Pre-Visualization Supervisor: Επιβλέπων προ-οπτικοποίησης
     Presenter: Παρουσιαστής
@@ -2361,12 +2369,12 @@ el-GR:
     Scoring Mixer: Διαμόρφωση μουσικής
     Screenplay: Σενάριο
     Screenstory: Ιστορία έργου
-    Script: Γραμματέας γυρίσματος
+    Script: Γραμματέας Γυρίσματος
     Script Consultant: Σύμβουλος σκριπτ
     Script Coordinator: Συντονιστής σκριπτ
     Script Editor: Επεξεργασία σκριπτ
     Script Researcher: Αναζήτηση σκριπτ
-    Script Supervisor: Γραμματέας λήψεων - σκριπτ
+    Script Supervisor: Γραμματέας Λήψεων - Σκριπτ
     Sculptor: Κατασκευές
     Seamstress: Ράψιμο ρούχων
     Second Assistant "A" Camera: Δεύτερος βοηθός χειριστή πρώτης κάμερας
@@ -2410,7 +2418,7 @@ el-GR:
     Set Buyer: Αγορά σκηνικών
     Set Costumer: Ενδυματολόγος στα σκηνικά
     Set Decorating Coordinator: Συντονιστής διακόσμησης σκηνικών
-    Set Decoration: Διακόσμηση σκηνικών
+    Set Decoration: Ντεκόρ
     Set Decoration Buyer: Αγορά διακόσμησης σκηνικών
     Set Designer: Σχεδιασμός σκηνικών
     Set Dresser: Ετοιμασία σκηνικών
@@ -2422,7 +2430,7 @@ el-GR:
     Set Medic: Γιατρός σκηνικών
     Set Painter: Βαφή σκηνικών
     Set Photographer: Φωτογράφος σκηνικών
-    Set Production Assistant: Βοηθός παραγωγής σκηνικών
+    Set Production Assistant: Βοηθός Παραγωγής
     Set Production Intern: Άτομο πρακτικής σε θέμα σκηνικών παραγωγής
     Set Propsman: Υπεύθυνος αντικειμένων σκηνικών
     Set Runner: Εκτέλεση σκηνικών
@@ -2491,7 +2499,7 @@ el-GR:
     Stereoscopic Editor: Στερεοσκοπική επεξεργασία
     Stereoscopic Supervisor: Επιβλέπων στερεοσκοπικής
     Stereoscopic Technical Director: Τεχνικός διευθυντής στερεοσκοπικής
-    Still Photographer: Φωτογράφος σκηνής
+    Still Photographer: Φωτογράφος Σκηνής
     Story: Ιστορία
     Story Artist: Καλλιτεχνικό τμήμα ιστορίας
     Story Consultant: Σύμβουλος ιστορίας
@@ -2583,7 +2591,7 @@ el-GR:
     VFX Supervisor: Επιβλέπων VFX
     Vehicles Coordinator: Συντονιστής οχημάτων
     Vehicles Wrangler: Χειριστής οχημάτων
-    Video Assist Operator: Χειριστής συστήματος video assist
+    Video Assist Operator: Χειριστής Βοηθητικού Βίντεο
     Video Game: Ανάπτυξη ηλεκτρονικών παιχνιδιών
     Video Report: Αναφορά βίντεο
     Videojournalist: Βιντεοδημοσιογράφος
@@ -2608,12 +2616,12 @@ el-GR:
     Vocals: Φωνητικά
     Voice: Φωνή
     Wardrobe Assistant: Βοηθός ρούχων
-    Wardrobe Coordinator: Συντονιστής ρούχων
+    Wardrobe Coordinator: Συντονιστής Αμπιγιέρ / Αμπιγιέζ
     Wardrobe Designer: Σχεδιασμός ρούχων
     Wardrobe Intern: Άτομο πρακτικής σε θέμα ρούχων
-    Wardrobe Master: Υπεύθυνος ρούχων
+    Wardrobe Master: Αμπιγιέρ / Αμπιγιέζ
     Wardrobe Specialized Technician: Ειδικός τεχνικός ρούχων
-    Wardrobe Supervisor: Επιβλέπων υπεύθυνος ρούχων
+    Wardrobe Supervisor: Προϊστάμενος Αμπιγιέρ / Αμπιγιέζ
     Weapons Master: Υπεύθυνος όπλων
     Weapons Wrangler: Χειριστής όπλων
     Web Designer: Κατασκευή ιστοσελίδας

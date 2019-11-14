@@ -526,7 +526,7 @@ ro-RO:
         deleted: Șters
         updated: Actualizat
       media_types:
-        all: 
+        all: Tot/Toate
         movies: Filme artistice
         others: Altul
         people: Persoane
@@ -594,10 +594,10 @@ ro-RO:
         public: Favoritele lui %{username}
     filter_by: 'Filtrare după:'
     filters:
-      air_date: 
+      air_date: Data difuzării
       date_added: Data adăugării
       date_rated: Data evaluării
-      first_air_date: 
+      first_air_date: Data primei difuzări
       my_rating: Evaluarea mea
       popularity: Popularitate
       rating: Evaluare
@@ -665,8 +665,8 @@ ro-RO:
       no_recommendations_helper: Încercaţi să adăugaţi mai multe filme favorite (mai multe este mai bine) şi reveniţi pentru a vedea cum procedăm.
       page_title: Recomandări
     sort_options:
-      asc: 
-      desc: 
+      asc: Ascendent
+      desc: Descendent
     tips:
       import_imdb_ratings: Puteți să vă importați evaluările de pe IMDb.
       tip: Sfat
@@ -729,7 +729,7 @@ ro-RO:
     title: Titlu
     to_accounts_ids: Către
     translated_overview: Prezentare
-    tv_series_status: 
+    tv_series_status: Statusul serialului TV
   average edits per day: Medie de modificări pe zi
   back_options:
     back: Înapoi
@@ -1126,7 +1126,7 @@ ro-RO:
         '1':
           meaning: Recomandat special pentru copii.
         '2':
-          meaning: 
+          meaning: Recomandat tuturor.
         '3':
           meaning: Nerecomandat pentru spectatori sub 7 ani.
         '4':
@@ -1173,13 +1173,13 @@ ro-RO:
         '2':
           meaning: Programe recomandate pentru copii. Evaluare opțională, nu există obligație a fi indicat pentru a fi transmis.
         '3':
-          meaning: 
+          meaning: Acest program nu este recomandat copiilor sub vârsta de 6 ani. Nu conține violență sau conținut sexual. Un cerc galben cu numărul 6 în interior va semnala acest nivel de restricție.
         '4':
-          meaning: 
+          meaning: Acest program nu este recomandat copiilor sub vârsta de 12 ani. Poate conține conținut sexual limitat sau limbaj licențops. Majoritatea filmelor ce nu conțin violență sau conținut sexual de intensitate majoră se înscriu în această categorie. Un cerc galben cu numărul 12 în interior va semnala acest nivel de restricție.
         '5':
-          meaning: 
+          meaning: Acest program nu este recomandat copiilor sub vârsta de 12 ani. Poate conține conținut sexual limitat sau limbaj licențops. Majoritatea filmelor ce nu conțin violență sau conținut sexual de intensitate majoră se înscriu în această categorie. Un cerc galben cu numărul 12 în interior va semnala acest nivel de restricție.
         '6':
-          meaning: 
+          meaning: Acest program este recomandat doar adulților(peste 18 ani) și poate avea violență sau conținut sexual explicit. Un cerc roșu cu numărul 18 în interior va fi folosit pentru a semnala acest rating.
       KR:
         '0':
           meaning: Această evaluare este doar pentru concursurile bazate pe cunoștințe; spectacole despre stilurile de viață; spectacole documentare; știri; spectacole despre subiecte curente; spectacole de educație/cultură; sporturi care exclud MMA sau alte sporturi violente; și alte programe pe care Comisia de standarde de comunicații din Coreea le recunoaște.
@@ -1215,15 +1215,15 @@ ro-RO:
           meaning: Aveți grijă la copiii cu vârsta sub 16 ani.
       PH:
         '0':
-          meaning: 
+          meaning: Nu există informații privind clasificare.
         '1':
           meaning: Potrivit pentru toate vârstele.
         '2':
-          meaning: 
+          meaning: Avizul părinților este sugerat.
         '3':
-          meaning: 
+          meaning: Avizul mai puternic și vigilent al părinților este binevenit.
         '4':
-          meaning: 
+          meaning: Orice program TV ce nu e conform clasificărilor "G", "PG" sau "SPG" va fi anulat pentru difuzarea TV.
       PT:
         '0':
           meaning: Fără evaluare.
@@ -1494,7 +1494,15 @@ ro-RO:
     Visual Effects: Efecte vizuale
     Writing: Scriere
   discover:
-    apply: 
+    apply: Aplică
+    filters:
+      show_me:
+        everything: 
+        movies_have_seen: 
+        movies_havent_seen: 
+        tv_shows_have_seen: 
+        tv_shows_havent_seen: 
+    search: 
   discussions:
     actions:
       actions: Acțiuni
@@ -1614,10 +1622,10 @@ ro-RO:
     new_email_address: Adresa nouă de poștă electronică
     sent_verification_email: V-am trimis un mesaj de poștă electronică la %{email_address} pentru verificare. Verificați în cutia poștală de intrare (și în dosarul de mesaje nedorite) pentru instrucțiuni și cum să procedați.
     unsubscribe:
-      sad_to_go: 
-      subscription_changed: 
-      unsubscribe: 
-      unsubscribed: 
+      sad_to_go: "%{username}, ne pare rău că ne părăsești!"
+      subscription_changed: Setările de abonare au fost actualizate. Puteți edita setările notificărilor vizitând pagina <a href="%{account_link}">setări de notificare</a>.
+      unsubscribe: Dezabonare
+      unsubscribed: Ați fost <strong>dezabonat</strong>. Dacă a fost o eroare puteți să vă reabonați vizitând pagina <a href="%{account_link}">setări de notificare</a> page.
   episode_count:
     few: "%{count} episoade"
     one: "%{count} episod"
