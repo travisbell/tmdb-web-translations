@@ -3294,48 +3294,63 @@ bg-BG:
   settings:
     account:
       account_settings: Настройки на профила
+      page_title: 
     api:
       api: API
+      create_page_title: 
+      directory:
+        page_title: 
       navigation:
         create: Създаване
         details: Подробности
         directory: Директория
         sessions: Сесии
         stats: Статистика
+      page_title: 
+      session_page_title: 
+      stats_page_title: 
     blocked_users:
       action: Действие
       blocked_users: Блокирани потребители
       no_blocked: Не сте блокирали нито един потребител.
+      page_title: 
       username: Потребителско име
     change_email:
       change_email: Промяна на имейл адреса
       change_email_text: Въведете новия адрес долу, ако желаете да промените имейла. Преди да влезете, е необходимо да потвърдите новия имейл адрес, като натиснете линка за активиране в имейла, който ще получите.
+      page_title: 
     connected_apps:
       connected_apps: Свързани приложения
       listed_below_explanation: Долу са изброени приложенията, на които сте дали права да записват данни от Ваше име. Можете да премахнете правата, когато пожелаете.
       no_apps: Не сте свързали нито едно приложение с акаунта си.
+      page_title: 
       table:
         action: Действия
         application_name: Име на приложението
         date_authorised: Дата на разрешението
     delete_account:
+      confirm_delete: 
       delete_account: Изтриване на профил
+      page_title: 
       summary_text: Навлязохте в <strong>опасна зона</strong>! Ако желаете да продължите с изтриването на профила, моля, въведете паролата си по-долу и потвърдете.
     import_list:
       import_button: Внасяне
       import_list: Внасяне на списък
+      import_status: 
       navigation:
         import: Внасяне
         previous: Предишен внос
       notification:
         finished_import: Внасянето е завършено!
         started_import: Стартиране на внасянето...
+      page_title: 
       previous:
         date: Дата
         imported: Внесен
         items: Елементи
         local_list: Локален списък
         no_imports: Не сте внесли нито един списък.
+        page_title: 
         type: Тип
       results:
         complete:
@@ -3382,6 +3397,7 @@ bg-BG:
       new_replies_to_threads_watching: Да се изпраща ли имейл за нови отговори в дискусии, които наблюдавам?
       news_updates: Да се изпраща ли имейл за новини и продуктови обновления
       notifications: Известия
+      page_title: 
     profile:
       accent_color: Цветен акцент
       avatar:
@@ -3416,12 +3432,14 @@ bg-BG:
           <p>За да промените паролата си ще имаме нужда от валиден имейл адрес. За съжаление сме имали трудности да Ви изпращаме имейли в миналото. Можете да видите грешките <a href="/u/%{username_url}/events/emails?status=2,3">тук</a>.</p>
 
           <p>Ако проблемите с имейла Ви са били отстранени или са били временни, моля, натиснете бутона за възстановяване долу и ние ще Ви изпратим нов имейл за проверка.</p>
+      page_title: 
       reset_password_dialog_text: След потвърждението на тази заявка, Вие ще получите имейл с инструкции за възстановяване на паролата. Сигурни ли сте, че искате да продължите?
     sharing:
       favorite_list:
         favorite_settings: Настройки на списъка с любими
         share_on_twitter: Споделяне новите любими в Twitter?
         share_publicly: Списъкът да бъде ли публичен?
+      page_title: 
       rated_list:
         rated_settings: Настройки на списъка с оценените
         share_publicly: Списъкът да бъде ли публичен?
@@ -3441,9 +3459,12 @@ bg-BG:
         service: Услуга
       favorite_message_hint: Когато се маркира елемент като любим и се споделя в Twitter или Facebook...
       message_settings: Настройки на съобщенията
+      page_title: 
       sharing_message_hint: Когато споделяте елемент в Twitter или Facebook...
       social_settings: Настройки на социални мрежи
       supported_template_values: 'Поддържани стойности на темплейт:'
+    streaming_servcies:
+      page_title: 
   sign_up:
     benefits:
       benefits_to_being_member: Предимствата да си регистриран потребител

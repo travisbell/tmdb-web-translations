@@ -3299,48 +3299,63 @@ en-US:
   settings:
     account:
       account_settings: Account Settings
+      page_title: My Settings
     api:
       api: API
+      create_page_title: Create a New API Key
+      directory:
+        page_title: My App Directory
       navigation:
         create: Create
         details: Details
         directory: Directory
         sessions: Sessions
         stats: Stats
+      page_title: My API Settings
+      session_page_title: My API Sessions
+      stats_page_title: My API Stats
     blocked_users:
       action: Action
       blocked_users: Blocked Users
       no_blocked: You haven't blocked any users.
+      page_title: My Blocked Users
       username: Username
     change_email:
       change_email: Change Email
       change_email_text: If you would like to change your email, enter a new email in the field below. Before being able to log back in, you will have to verify your new address by clicking the activation link in the email we send to your new address.
+      page_title: Change My Email Address
     connected_apps:
       connected_apps: Connected Apps
       listed_below_explanation: Listed below are the 3rd party applications you have authorized to write data on your behalf. You can revoke these authorizations at any time.
       no_apps: You have not connected any apps to your account.
+      page_title: My Connected Apps
       table:
         action: Actions
         application_name: Application Name
         date_authorised: Date Authorised
     delete_account:
+      confirm_delete: Confirm Delete
       delete_account: Delete Account
+      page_title: Delete My Account
       summary_text: You've just entered the <strong>danger zone</strong>! If you would like to continue and remove your account, you can do so by entering your password below and confirming the prompts.
     import_list:
       import_button: Import
       import_list: Import List
+      import_status: Import Status
       navigation:
         import: Import
         previous: Previous Imports
       notification:
         finished_import: Finished import!
         started_import: Started import...
+      page_title: Import a List
       previous:
         date: Date
         imported: Imported
         items: Items
         local_list: Local List
         no_imports: You haven't imported any lists.
+        page_title: My Previous Imports
         type: Type
       results:
         complete:
@@ -3387,6 +3402,7 @@ en-US:
       new_replies_to_threads_watching: Email me about new replies for threads that I am watching?
       news_updates: Email me about news & product updates
       notifications: Notifications
+      page_title: My Notifications
     profile:
       accent_color: Accent Color
       avatar:
@@ -3421,12 +3437,14 @@ en-US:
           <p>In order to change your password we need a valid email address. Unfortunately, we had trouble sending emails to you in the past. You can view the errors <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
 
           <p>If the problems with your email address have been fixed or were only temporary, click the reset button below and we will try sending you another email.</p>
+      page_title: My Profile
       reset_password_dialog_text: By confirming this request you will be sent an email with instructions on how to reset your password. Are you sure you want to do this?
     sharing:
       favorite_list:
         favorite_settings: Favorite List Settings
         share_on_twitter: Share new favorites on Twitter?
         share_publicly: Share this list publicly?
+      page_title: My Sharing Settings
       rated_list:
         rated_settings: Rated List Settings
         share_publicly: Share this list publicly?
@@ -3446,9 +3464,12 @@ en-US:
         service: Service
       favorite_message_hint: When marking an item as a favourite and sharing on Twitter or Facebook...
       message_settings: Message Settings
+      page_title: My Social Settings
       sharing_message_hint: When sharing an item on Twitter or Facebook...
       social_settings: Social Settings
       supported_template_values: 'Supported template values:'
+    streaming_servcies:
+      page_title: My Streaming Servcies
   sign_up:
     benefits:
       benefits_to_being_member: Benefits of being a member

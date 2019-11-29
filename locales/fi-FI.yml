@@ -3288,48 +3288,63 @@ fi-FI:
   settings:
     account:
       account_settings: Käyttäjätilin asetukset
+      page_title: 
     api:
       api: API
+      create_page_title: 
+      directory:
+        page_title: 
       navigation:
         create: Luo
         details: Tiedot
         directory: Hakemisto
         sessions: Istunnot
         stats: Tilastot
+      page_title: 
+      session_page_title: 
+      stats_page_title: 
     blocked_users:
       action: Toiminto
       blocked_users: Estetyt käyttäjät
       no_blocked: Et ole estänyt yhtään käyttäjää.
+      page_title: 
       username: Käyttäjänimi
     change_email:
       change_email: Muuta sähköposti
       change_email_text: Jos haluat muuttaa sähköpostiosoitteesi, kirjoita uusi osoite alapuolella olevaan kenttään. Ennen kuin voit kirjautua uudelleen sisään, sinun täytyy vahvistaa uusi osoitteesi klikkaamalla uuteen osoitteeseesi lähetetyssä viestissä olevaa vahvistuslinkkiä.
+      page_title: 
     connected_apps:
       connected_apps: Yhdistetyt sovellukset
       listed_below_explanation: Alla on lueteltu kolmannen osapuolen sovellukset joille olet antanut luvan kirjoittaa tietoa puolestasi. Voit poistaa nämä oikeudet koska vain.
       no_apps: Et ole liittänyt yhtään sovelluksia.
+      page_title: 
       table:
         action: Toiminnot
         application_name: Sovelluksen nimi
         date_authorised: Sallittu pvämäärä
     delete_account:
+      confirm_delete: 
       delete_account: Poista käyttäjätili
+      page_title: 
       summary_text: Olet siirtynyt <strong>vaara-alueelle</strong>! Jos haluat jatkaa ja poistaa käyttäjätilisi, voit tehdä sen kirjoittamalla salasanasi alapuolelle ja vahvistamalla pyynnön.
     import_list:
       import_button: Tuo
       import_list: Tuo lista
+      import_status: 
       navigation:
         import: Tuo
         previous: Edelliset tuonnit
       notification:
         finished_import: Tuonti valmis!
         started_import: Tuonti aloitettu...
+      page_title: 
       previous:
         date: Päivämäärä
         imported: Tuotu
         items: Kohteet
         local_list: Paikallinen lista
         no_imports: Et olet tuonut yhtään listaa
+        page_title: 
         type: Tyyppi
       results:
         complete:
@@ -3376,6 +3391,7 @@ fi-FI:
       new_replies_to_threads_watching: Lähetä sähköpostia uusista vastauksista seuratuissa langoissa?
       news_updates: Lähetä minulle uutisia ja päivityksiä sähköpostilla
       notifications: Ilmoitukset
+      page_title: 
     profile:
       accent_color: Korostusväri
       avatar:
@@ -3410,12 +3426,14 @@ fi-FI:
           <pVaihtaaksesi salasanan, tarvitsemme toimivan sähköpostiosoitteen. Valitettavasti emme ole pystyneet lähettämään sinulle sähköpostia aiemmin. Voit tarkistaa virheilmoitukset <a href="/u/%{username_url}/events/emails?status=2,3">tästä</a>.</p>
 
           <p>Mikäli ongelma sähköpostissasi on korjattu tai se oli vain väliaikaista, klikkaa nollauspainiketta alapuolella ja yritämme lähettää sinulle uuden viestin.</p>
+      page_title: 
       reset_password_dialog_text: Vahvistamalla tämän pyynnön sinulle lähetetään sähköposti, joka sisältää ohjeet salasanan nollaamiseen. Oletko varma, että haluat jatkaa?
     sharing:
       favorite_list:
         favorite_settings: Suosikkilistan asetukset
         share_on_twitter: Jaa uudet suosikit Twitteriin?
         share_publicly: Jaa tämä lista julkisesti?
+      page_title: 
       rated_list:
         rated_settings: Pisteytyslistan asetukset
         share_publicly: Jaa tämä lista julkisesti?
@@ -3435,9 +3453,12 @@ fi-FI:
         service: Palvelu
       favorite_message_hint: Kun lisäät nimikkeen suosikiksi ja jaat Twitterissä tai Facebookissa...
       message_settings: Viestiasetukset
+      page_title: 
       sharing_message_hint: Kun jaat nimikkeen Twitterissä tai Facebookissa
       social_settings: Sosiaalisen median tiliasetukset
       supported_template_values: 'Tuetun mallineen arvot:'
+    streaming_servcies:
+      page_title: 
   sign_up:
     benefits:
       benefits_to_being_member: Jäseneksi liittymisen hyödyt
