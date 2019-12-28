@@ -47,6 +47,7 @@ module TMDb
         'si' => 'si-LK',
         'sk' => 'sk-SK',
         'sl' => 'sl-SI',
+        'sq' => 'sq-AL',
         'sr' => 'sr-RS',
         'sv' => 'sv-SE',
         'ta' => 'ta-IN',
