@@ -145,12 +145,12 @@ tr-TR:
   Documentation: Dökümantasyon
   Duplicate: Kopya
   Edit: Düzenle
-  Edit App: 
+  Edit App: App Düzenle
   Edit Data: Verileri Düzenle
   Edit Data & Content: Verileri ve İçeriği Düzenle
   Edit Page: sayfayı düzenle
   Editing Content: İçeriği Düzenleme
-  Editing in: 
+  Editing in: "%{language} Dilinde Düzenle"
   Education: Eğitim
   Email: E-posta
   Email Address: E-posta Adresi
@@ -237,7 +237,7 @@ tr-TR:
   Load More: Daha Fazla Yükle
   Locked?: Kilitli?
   Login to Add a Backdrop: 
-  Login to Add a Poster: Poster Eklemek İçin Oturum Aç
+  Login to Add a Poster: Afiş Eklemek İçin Oturum Aç
   Login to Add a Video: Video Eklemek İçin Oturum Aç
   Login to Edit Cast & Crew: Oyuncu ve Ekipleri Düzenlemek İçin Giriş Yap
   Login to add this TV show to your favorite list: Diziyi favori listenize eklemek için giriş yapınız
@@ -319,7 +319,7 @@ tr-TR:
   Popularity Descending: Azalan Popülerlik
   Popularity Rank: Popülerlik Seviyesi
   Popularity Trend: Popülerlik Trendi
-  Poster Card View: Poster Kartı Görünümü
+  Poster Card View: Afiş Kartı Görünümü
   Powered by TMDb: TMDb tarafından desteklenmektedir
   Powered by The Movie Database: 'Movie Database Tarafından Desteklenmektedir '
   Premiere: Gala
@@ -455,7 +455,7 @@ tr-TR:
   Translate Person: Kişiyi Çevir
   Translate TV Series: Diziyi Çevir
   Translated Name: Çevrilmiş Ad
-  Translated Overview: Çevrilmiş Film İçeriği
+  Translated Overview: Çevrilmiş Özet
   Translated Tagline: Çevrilmiş Slogan
   Translated Title: Çevrilmiş Başlık
   Translations: Çeviriler
@@ -688,11 +688,11 @@ tr-TR:
     approved_session: "%{application_name} ı onayladın. Bu pencereyi kapatabilirsin."
     continue: Devam etmek istiyorsanız, aşağıdaki onaylama düğmesine tıklayın. İstemiyorsanız, bu pencereyi kapatabilirsiniz.
     invalid_api_app:
-      message: 
-      title: 
+      message: Şu anda kimliği doğrulanan API kullanıcısı geçerli değil.
+      title: Geçersiz API Kullanıcısı
     missing_request_token:
-      message: 
-      title: 
+      message: Kullanıcı hesaplarının kimliğini doğrulamak için bir istek belirteci gerekir.
+      title: Eksik İstek Belirteci
     request_token_approval:
       message: "{{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Bu izin TMDb dışında listelerinize ulaşmak veya filmlere oy verebilmek gibi eylemler için gereklidir."
     statuses:
@@ -1303,12 +1303,12 @@ tr-TR:
     movie_language_distribution: Filmin Dağıtıldığı Diller
     movies_missing_a_backdrop: Arka Planı Eksik Filmler
     movies_missing_a_overview: Filmin Özeti Eksik
-    movies_missing_a_poster: Filmin Afişi Eksik
+    movies_missing_a_poster: Afişi Eksik Filmler
     movies_missing_a_title: Filmin Başlığı Eksik
     page_title: Eksik Verilere Katkıda Bulun
     selected_language: Seçilen Dil
     tv_missing_a_backdrop: Dizinin Arka Planı Eksik
-    tv_missing_a_poster: Dizinin Afişi Eksik
+    tv_missing_a_poster: Afişi Eksik TV
     tv_show_language_distribution: Dizinin Yerel Dildeki Dağımı
     tv_shows_missing_a_name: Dizinin Adı Eksik
     tv_shows_missing_a_overview: Dizinin Özeti Eksik
@@ -1506,9 +1506,9 @@ tr-TR:
           restrict_tooltip: 
         where_to_watch: 
       years:
-        years: 
-    no_items: 
-    search: 
+        years: Yıllar
+    no_items: Sorgunuzla eşleşen öğeler bulunamadı.
+    search: Ara
   discussions:
     actions:
       actions: Eylemler
@@ -1595,7 +1595,7 @@ tr-TR:
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Rapor
       unhide: Göster
-    report_violation: 
+    report_violation: İhlal Bildir
     search:
       advanced_search: Gelişmiş Arama
       search_closed: Kapalı Olanlarda Ara?
@@ -1610,10 +1610,10 @@ tr-TR:
       status: Durum
       subject: Konu
     users_in_discussion:
-      no_subscribers: 
-      users_in_discussion: 
+      no_subscribers: Abone yok
+      users_in_discussion: Bu Tartışmadaki Kullanıcılar
     your_account: Hesabınız
-  dont_fallback: 
+  dont_fallback: Hiçbiri (Geri Dönüş Yapma)
   edit_list:
     add_edit_items: Öğe Ekle/Düzenle
     choose_image: Görsel Seç
@@ -1626,9 +1626,9 @@ tr-TR:
     new_email_address: Yeni E-posta Adresi
     sent_verification_email: "%{email_address} adresine onaylamanız için bir e-posta gönderdik. Gelen kutunuzu (ve spam klasörünü) kontrol edin ve buradaki yönlendirmeleri takip edin."
     unsubscribe:
-      sad_to_go: 
-      subscription_changed: 
-      unsubscribe: 
+      sad_to_go: "%{username}, ayrıldığını görmekten üzgünüz!"
+      subscription_changed: Abonelik ayarlarınız güncellendi. <a href="%{account_link}">notification settings</a>  sayfanızı ziyaret ederek bildirim ayarlarınızı düzenleyebilirsiniz.
+      unsubscribe: Abonelikten Çık
       unsubscribed: 
   episode_count: "%{count} Bölüm"
   episode_number_name: "%{episode_number}. Bölüm"
@@ -2756,7 +2756,7 @@ tr-TR:
       no_backdrop_stills: Bu girdiye hala arka plan eklenmedi.
       no_backdrops: Bu girişe hiçbir arka plan eklenmedi.
       no_logos: Bu girişe eklenen logo yok.
-      no_posters: Bu girişe poster eklenmedi.
+      no_posters: Bu girdiye afiş eklenmedi.
       no_profiles: Bu girdiye profil eklenmedi.
       primary: Birincil?
       types:
@@ -3082,9 +3082,9 @@ tr-TR:
   no_keyword_search_results: Sorgunuza uyan herhangi bir anahtar kelime bulunamadı.
   no_keywords: Hiç anahtar kelime eklenmedi.
   no_list_search_results: Sorgunuza uyan herhangi bir liste bulunamadı.
-  no_media: "%{title} öğesine video, arka plan veya poster eklenmedi."
+  no_media: "%{title} öğesine video, arka plan veya afiş eklenmedi."
   no_movie_search_results: Sorgunuza uyan herhangi bir film bulunamadı.
-  no_overview: 'İngilizce''ye çevrilmiş bir özet henüz bulunmuyor. Film için bir tane ekleyerek katkıda bulunabilirsiniz. '
+  no_overview: Türkçe'ye çevrilmiş bir özet henüz bulunmuyor. Film için bir tane ekleyerek katkıda bulunabilirsiniz.
   no_person_search_results: Sorgunuza uyan herhangi bir kişi bulunamadı.
   no_personal_recommendations:
     movie: Kişisel film önerileri almak için en sevdiğiniz filmleri ekleyerek başlayın. Bu noktada, muhtemelen önerdiğimiz filmlerin çoğunun gördüklerini fark edeceksiniz. Bunları filtrelemek için puanlayın! Derecelendirildikten sonra, bunları otomatik olarak filtreleriz.
@@ -3448,7 +3448,7 @@ tr-TR:
   top_contributors: En Çok Katkıda Bulunanlar
   translation: Çeviriler
   upload_backdrop: Bir Arka Plan Yükle
-  upload_poster: Poster Yükle
+  upload_poster: Afiş Yükle
   upload_profile: Profil Yükle
   used_by_developers: 
   videos:
