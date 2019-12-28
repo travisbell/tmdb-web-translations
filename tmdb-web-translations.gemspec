@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
 
   s.summary             = "See description."
   s.description         = "TMDb's website translations."
-  s.rubyforge_project   = 'tmdb_web_translations'
 
   s.files               = Dir["{lib,locales}/**/*"]
 end
