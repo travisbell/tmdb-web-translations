@@ -499,7 +499,7 @@ zh-TW:
   account_drop_down:
     discussions: 討論串
     edit_profile: 編輯個人資料
-    join_tmdb: 
+    join_tmdb: 加入 TMDb
     lists: 收藏表
     login: 登入
     logout: 登出
@@ -1492,7 +1492,7 @@ zh-TW:
         keywords: 關鍵字
       language:
         language: 語言
-        tooltip: 
+        tooltip: 依據影片的原始語言篩選項目
       minimum_user_votes: 最低投票數
       network:
         filter_by_network: 以電視網篩選
@@ -1508,7 +1508,7 @@ zh-TW:
         movies_have_seen: 我看過的電影
         movies_havent_seen: 我沒看過的電影
         show_me: 給我看看
-        tooltip: 
+        tooltip: 請登入進行篩選項目
         tv_shows_have_seen: 我看過的電視影集
         tv_shows_havent_seen: 我沒看過的電視影集
       sort:
@@ -1518,9 +1518,9 @@ zh-TW:
       where_to_watch:
         country: 國家
         my_services:
-          my_services: 
-          restrict: 
-          restrict_tooltip: 
+          my_services: 我的服務
+          restrict: 是否將搜索條件限制為已訂閱的服務？
+          restrict_tooltip: 請登入進行管理訂閱的服務
         where_to_watch: 在哪裡看
       years:
         years: 年份
@@ -1692,6 +1692,7 @@ zh-TW:
       discussions: 討論
     taw:
       read_the_2018_recap: 2018 年的回顧
+      read_the_2019_recap: 2019 年的回顧
       thats_a_wrap: 全部打包整理好啦！
     tv_shows:
       episode_airs:
@@ -2725,7 +2726,7 @@ zh-TW:
   login_to_create: 找不到電影或電視影集嗎？登入來建立一個吧！
   login_to_edit: 登入編輯
   media:
-    adult: 
+    adult: 成人
     changes:
       filters:
         clear: 清除
@@ -2769,7 +2770,7 @@ zh-TW:
       visit_facebook: 瀏覽 Facebook
       visit_homepage: 瀏覽首頁
       visit_instagram: 瀏覽 Instagram
-      visit_justwatch: 
+      visit_justwatch: 拜訪 JustWatch
       visit_twitter: 瀏覽 Twitter
     genre:
       movie_page_title: "%{name} 的電影"
@@ -2867,13 +2868,13 @@ zh-TW:
       gender:
         female: 女性
         male: 男性
-        non_binary: 
+        non_binary: 性別酷兒
       media_types:
-        all: 
-        movies: 
-        tv: 
-        tv_shows: 
-      years_old: 
+        all: 全部
+        movies: 電影
+        tv: 電視
+        tv_shows: 電視影集
+      years_old: "%{age}  歲"
     rating:
       rated_with_rating: 評分 %{value}
       rating_count:
@@ -2884,19 +2885,19 @@ zh-TW:
       score_history: 評分歷史紀錄
       score_trend: 評分趨勢
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: 副標題
       backdrops: 劇照
-      cast_crew: 
+      cast_crew: 演員及劇組人員
       changes: 編輯紀錄
-      fandom: 
-      main: 
-      media: 
-      overview: 
+      fandom: 影迷
+      main: 主要
+      media: 媒體
+      overview: 概覽
       posters: 海報
       profiles: 基本資料
-      release_dates: 
+      release_dates: 發布時間
       reviews: 評論
-      translations: 
+      translations: 翻譯
       videos: Youtube 影片
     social_panel:
       discussions:
@@ -3237,7 +3238,7 @@ zh-TW:
     seasons:
       many: "%{count} 季"
       other: "%{count} 季"
-    view_offers: 
+    view_offers: 查看方案
     watch_on:
       ads: 於 %{provider_name} 觀賞 %{name}
       buy: 於 %{provider_name} 購買 %{name}
@@ -3281,7 +3282,7 @@ zh-TW:
     rated_tv: 搜尋已評分的電視影集...
     recommendations_movie: 搜尋您的個人電影推薦...
     recommendations_tv: 搜尋您的個人電視影集推薦...
-    search_results: 
+    search_results: 搜尋結果
     trending: 趨勢
     trending_searches: 熱門搜尋關鍵字
     watchlist_movie: 搜尋待看清單內的電影...
@@ -3294,63 +3295,63 @@ zh-TW:
   settings:
     account:
       account_settings: 帳戶設定
-      page_title: 
+      page_title: 我的設定
     api:
       api: API
-      create_page_title: 
+      create_page_title: 新增 API 金鑰
       directory:
-        page_title: 
+        page_title: 我的 App 目錄
       navigation:
         create: 建立
         details: 細節
         directory: 目錄
         sessions: Sessions
         stats: 統計
-      page_title: 
-      session_page_title: 
-      stats_page_title: 
+      page_title: 我的 API 設定
+      session_page_title: 我的 API Sessions
+      stats_page_title: 我的 API 狀態
     blocked_users:
       action: 動作
       blocked_users: 封鎖用戶
       no_blocked: 您尚未封鎖任何用戶
-      page_title: 
+      page_title: 我封鎖的用戶
       username: 帳號
     change_email:
       change_email: 更改電子郵件
       change_email_text: 若要更新您的電子郵件，請在以下欄位輸入新的電子郵件位址。您必須先點選傳送到您的新郵件位址的啟動連結，驗証您的新郵件位址後方可登入。
-      page_title: 
+      page_title: 變更我的 Email
     connected_apps:
       connected_apps: 連結應用程式
       listed_below_explanation: 您已授權下列的第三方套件，您可隨時取消授權。
       no_apps: 您的帳戶尚未連結任何應用程式
-      page_title: 
+      page_title: 已連結的 App
       table:
         action: 動作
         application_name: 應用程式名稱
         date_authorised: 授權日期
     delete_account:
-      confirm_delete: 
+      confirm_delete: 確認刪除
       delete_account: 刪除帳戶
-      page_title: 
+      page_title: 刪除我的帳戶
       summary_text: "<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作。"
     import_list:
       import_button: 匯入
       import_list: 匯入清單
-      import_status: 
+      import_status: 匯入狀態
       navigation:
         import: 匯入
         previous: 之前的匯入資料
       notification:
         finished_import: 匯入完成
         started_import: 開始匯入
-      page_title: 
+      page_title: 匯入清單
       previous:
         date: 日期
         imported: 已匯入
         items: 項目
         local_list: 本地清單
         no_imports: 您尚未匯入任何清單
-        page_title: 
+        page_title: 之前的匯入資料
         type: 類型
       results:
         complete:
@@ -3389,7 +3390,7 @@ zh-TW:
       settings: 設定
       sharing_settings: 分享設定
       social_settings: 社群設定
-      streaming_services: 
+      streaming_services: 串流服務
     notifications:
       api_updates: 當 API 變更或更新時請以 Email 通知我
       email_new_releases_watchlist: 當待看清單中有新影片消息時，要傳送電子郵件給您嗎？
@@ -3397,7 +3398,7 @@ zh-TW:
       new_replies_to_threads_watching: 當我關注的討論串有新回應時，要傳送電子郵件給您嗎？
       news_updates: 寄送電子郵件了解新聞和產品更新
       notifications: 通知設定
-      page_title: 
+      page_title: 我的通知
     profile:
       accent_color: 個人預設顏色
       avatar:
@@ -3434,14 +3435,14 @@ zh-TW:
           <p>因您之前修改了密碼，依照流程我們需要傳送確認信件給您，但在傳送信件的過程中發生了問題，請您至 <a href="/u/%{username_url}/events/emails?status=2,3">此處</a> 來檢視問題。 </p>
 
           <p>若您已排除問題，請點擊重新設定的按鈕，我們將會再次發送確認信件給您。</p>
-      page_title: 
+      page_title: 我的簡介
       reset_password_dialog_text: 當您確認之後，系統將會立即寄送重置密碼的說明郵件至您的信箱。您確定要進行重置密碼的動作嗎？
     sharing:
       favorite_list:
         favorite_settings: 我的最愛設定
         share_on_twitter: 分享我的最愛至 Twitter ？
         share_publicly: 將此清單設為公開嗎？
-      page_title: 
+      page_title: 我的分享設定
       rated_list:
         rated_settings: 已評分清單設定
         share_publicly: 將此清單設為公開嗎？
@@ -3461,13 +3462,13 @@ zh-TW:
         service: 服務
       favorite_message_hint: 當儲存我的最愛時並分享至 Twitter 或 Facebook 時...
       message_settings: 訊息設定
-      page_title: 
+      page_title: 我的社群設定
       sharing_message_hint: 當分享訊息至 Twitter 或 Facebook 時...
       social_settings: 社群設定
       supported_template_values: 支援的模版：
     streaming_services:
-      page_title: 
-      streaming_services: 
+      page_title: 我的串流服務
+      streaming_services: 串流服務
   sign_up:
     benefits:
       benefits_to_being_member: 成為本網站的會員有哪些好處
