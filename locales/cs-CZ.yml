@@ -113,7 +113,7 @@ cs-CZ:
   Create New List: Vytvořit nový seznam
   Create Translation: Vytvořit překlad
   Created By: Autoři
-  Credits: Zásluhy
+  Credits: Záznamy
   Crew: Štáb
   Currently Airing TV Shows: Aktuálně vysílané seriály
   Currently on page: Aktuálně na stránce
@@ -260,7 +260,7 @@ cs-CZ:
   Moderator: Moderátor
   More Info: Více informací
   Most Popular: Nejoblíbenější
-  Move Credits: 
+  Move Credits: Přesunout záznamy
   Move TV Credits: Přesunout záznamy v seriálech
   Movie Data: Data filmu
   Movie Recommendations: Doporučení filmů
@@ -368,7 +368,7 @@ cs-CZ:
   Resend Activation Email: Znovu poslat aktivační e-mail
   Reset: Obnovit
   Reset Password: Obnovit heslo
-  Revenue: Výnos
+  Revenue: Tržby
   Runtime: 'Délka '
   Save: Uložit
   Search: Vyhledat
@@ -423,6 +423,7 @@ cs-CZ:
   Summary: Souhrn
   Support: Podpora
   Support Forums: Fórum podpory
+  System Status: 
   TV: Televize
   TV Network: Televizní stanice
   TV Recommendations: Doporučené seriály
@@ -1471,7 +1472,10 @@ cs-CZ:
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o spam
     why_deleting: Proč jste odstranili tento záznam?
-  department_credits_count: 
+  department_credits_count:
+    few: "%{department} (%{count} záznamy)"
+    one: "%{department} (%{count} záznam)"
+    other: "%{department} (%{count} záznamů)"
   departments:
     Acting: Herec
     Actors: Herci
@@ -1732,7 +1736,7 @@ cs-CZ:
   invalid_aspect_ratio: Tento poměr stran je neplatný.
   item_count:
     few: "%{count} položky"
-    one: "%{count} polžka"
+    one: "%{count} položka"
     other: "%{count} položek"
   jobs:
     '"A" Camera Operator': 
@@ -1965,7 +1969,7 @@ cs-CZ:
     Co-Director: 
     Co-Editor: 
     Co-Executive Producer: 
-    Co-Producer: 
+    Co-Producer: Koproducent
     Co-Writer: Spoluscénárista
     Color Assistant: 
     Color Designer: 
@@ -2011,7 +2015,7 @@ cs-CZ:
     Craft Service: 
     Creative Consultant: 
     Creative Director: Tvůrčí ředitel
-    Creative Producer: 
+    Creative Producer: Kreativní producent
     Creator: Autor
     Creature Design: 
     Creature Effects Technical Director: 
@@ -2028,7 +2032,7 @@ cs-CZ:
     Data Management Technician: 
     Data Wrangler: 
     Decorator: 
-    Delegated Producer: 
+    Delegated Producer: Pověřený producent
     Department Administrator: 
     Development Manager: 
     Development Producer: 
@@ -2072,7 +2076,7 @@ cs-CZ:
     Drone Operator: 
     Drone Pilot: 
     EPK Editor: 
-    Editor: Střihač
+    Editor: Střih
     Editorial Consultant: 
     Editorial Coordinator: 
     Editorial Manager: 
@@ -2085,7 +2089,7 @@ cs-CZ:
     Epk Director: 
     Epk Producer: 
     Executive Assistant: 
-    Executive Co-Producer: 
+    Executive Co-Producer: Výkonný koproducent
     Executive Consultant: 
     Executive In Charge Of Post Production: 
     Executive In Charge Of Production: 
@@ -2713,7 +2717,7 @@ cs-CZ:
     private: Soukromý
     public: Veřejný
     select_this_image: Vybrat tento obrázek
-    total_revenue: Celkové výnosy
+    total_revenue: Celkové tržby
     total_runtime: Celková délka
   list_messages:
     comment_updated: Komentář aktualizován!
@@ -3044,7 +3048,7 @@ cs-CZ:
       play_blooper: Přehrát nepovedené záběry
       play_clip: Přehrát ukázku
       play_featurette: Přehrát bonus
-      play_opening_credits: Přehrát úvodní titulky
+      play_opening_credits: Přehrát úvodní znělku
       play_recap: Přehrát rekapitulaci
       play_teaser: Přehrát teaser
       play_trailer: Přehrát trailer
@@ -3553,7 +3557,7 @@ cs-CZ:
       Clips: Ukázky
       Featurette: Bonus
       Featurettes: Bonusy
-      Opening Credits: Úvodní titulky
+      Opening Credits: Úvodní znělka
       Recap: Rekapitulace
       Recaps: Rekapitulace
       Teaser: Teaser

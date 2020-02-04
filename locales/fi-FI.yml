@@ -423,6 +423,7 @@ fi-FI:
   Summary: Yhteenveto
   Support: Tuki
   Support Forums: Tukikeskustelu
+  System Status: 
   TV: TV
   TV Network: TV-verkko
   TV Recommendations: TV suosituksia
@@ -499,7 +500,7 @@ fi-FI:
   account_drop_down:
     discussions: Keskustelu
     edit_profile: Muokkaa profiilia
-    join_tmdb: 
+    join_tmdb: Liity TMDb:hen
     lists: Listat
     login: Kirjaudu
     logout: Kirjaudu ulos
@@ -519,7 +520,7 @@ fi-FI:
         deleted: Poistettu
         updated: Päivitetty
       media_types:
-        all: 
+        all: Kaikki
         movies: Elokuvat
         others: Muu
         people: Ihmiset
@@ -657,7 +658,7 @@ fi-FI:
       page_title: Suositukset
     sort_options:
       asc: Nouseva
-      desc: 
+      desc: Laskeva
     tips:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
@@ -691,8 +692,8 @@ fi-FI:
       message: Tällä hetkellä todennettava API-käyttäjä ei ole kelvollinen.
       title: Kelpaamaton API-käyttäjä
     missing_request_token:
-      message: 
-      title: 
+      message: Pyyntökoodi vaaditaan käyttäjätunnusten todentamiseen.
+      title: Puuttuva pyyntökoodi
     request_token_approval:
       message: "{{APP}} pyytää hyväksyntääsi kirjoittaa ja lukea tietoja puolestasi. Tämä on välttämätöntä, jos haluat ylläpitää listoja tai pisteyttää elokuvia TMDb:n ulkopuolella."
     statuses:
@@ -1286,7 +1287,7 @@ fi-FI:
     helper_tooltip: Sisällön pisteytys auttaa sinua ymmärtämään kuinka täydelliset tiedot ovat kohteelle.
     scale:
       '0': Jostain täytyy aloittaa...
-      '1': Hei, hieno aloitus.
+      '1': Hei, hyvä alku.
       '10': Kyllä! Hyvältä näyttää!
       '2': Olemme jo melkein perillä
       '3': Roomaa ei rakennettu päivässä...
@@ -1294,8 +1295,8 @@ fi-FI:
       '5': Vaatii vielä hieman työtä.
       '6': Olemme niin lähellä, silti niin kaukana.
       '7': Vielä pieni ponnistus...
-      '8': Vielä jaksaa! Alamme olla jo loppusuoralla.
-      '9': Melkein perillä...
+      '8': Vielä jaksaa! Alkaa olla jo valmista.
+      '9': Melkein valmista...
   contribute:
     contribute: Osallistu
     missing_a_biography: Elämäkerta puuttuu
@@ -1481,49 +1482,49 @@ fi-FI:
     Visual Effects: Visuaaliset tehosteet
     Writing: Käsikirjoitus
   discover:
-    apply: 
+    apply: Käytä
     filters:
       air_dates:
-        air_dates: 
+        air_dates: Julkaisupäivämäärät
       certification:
-        certification: 
-      filters: 
+        certification: Ikäraja
+      filters: Suodattimet
       genres:
-        genres: 
+        genres: Lajityypit
       keywords:
-        keywords: 
+        keywords: Avainsanat
       language:
-        language: 
-        tooltip: 
-      minimum_user_votes: 
+        language: Kieli
+        tooltip: Suodata nimikkeet alkuperäisen kielen mukaan.
+      minimum_user_votes: Vähimmäismäärä käyttäjien pisteytyksiä
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: Suodata lähetyskanavan mukaan...
+        network: Julkaisukanava
+      none_selected: Ei valittu
       release_dates:
-        from: 
-        release_dates: 
-        to: 
-      runtime: 
+        from: lähtien
+        release_dates: Julkaisupäivämäärät
+        to: asti
+      runtime: Kesto
       show_me:
-        everything: 
-        movies_have_seen: 
-        movies_havent_seen: 
-        show_me: 
-        tooltip: 
-        tv_shows_have_seen: 
-        tv_shows_havent_seen: 
+        everything: Kaikki
+        movies_have_seen: Elokuvia joita olen katsonut
+        movies_havent_seen: Elokuvia joita en ole katsonut
+        show_me: Näytä minulle
+        tooltip: Kirjaudu sisään suodattaaksesi katsomasi nimikkeet.
+        tv_shows_have_seen: TV-sarjoja joita olen katsonut
+        tv_shows_havent_seen: TV-sarjoja joita en ole katsonut
       sort:
-        sort_results_by: 
+        sort_results_by: Lajittele tulokset
       user_score:
-        user_score: 
+        user_score: Käyttäjien pisteytys
       where_to_watch:
-        country: 
+        country: Maa
         my_services:
-          my_services: 
-          restrict: 
-          restrict_tooltip: 
-        where_to_watch: 
+          my_services: Omat palveluni
+          restrict: Rajoita haku tilaamiini palveluihin?
+          restrict_tooltip: Kirjaudu sisään hallitaksesi tilaamiasi palveluita.
+        where_to_watch: Missä katsoa
       years:
         years: 
     no_items: 
@@ -1861,7 +1862,7 @@ fi-FI:
     Assistant Picture Car Coordinator: 
     Assistant Picture Editor: 
     Assistant Production Coordinator: 
-    Assistant Production Design: 
+    Assistant Production Design: Avustava lavastaja
     Assistant Production Manager: 
     Assistant Property Master: 
     Assistant Script: 
@@ -2209,7 +2210,7 @@ fi-FI:
     Lighting Artist: 
     Lighting Camera: 
     Lighting Coordinator: Valaistuskoordinaattori
-    Lighting Design: 
+    Lighting Design: Valosuunnittelija
     Lighting Director: 
     Lighting Manager: Johtava valaisija
     Lighting Production Assistant: 
@@ -2247,8 +2248,8 @@ fi-FI:
     Manager of Operations: 
     Marine Coordinator: 
     Marine Pilot: 
-    Martial Arts Choreographer: Kamppailukoreografi
-    Master Lighting Artist: 
+    Martial Arts Choreographer: Kamppailulajikoreografi
+    Master Lighting Artist: Valaistusmestari
     Master at Arms: 
     Matchmove Supervisor: 
     Matte Painter: 
@@ -2336,8 +2337,8 @@ fi-FI:
     Production Consultant: 
     Production Controller: Tuotannonohjaaja
     Production Coordinator: Tuotantokoordinaattori
-    Production Design: Tuotannon suunnittelu
-    Production Designer: 
+    Production Design: Lavastaja
+    Production Designer: Lavastussuunnittelija
     Production Director: Tuotannon ohjaaja
     Production Driver: 
     Production Executive: 
@@ -2370,7 +2371,7 @@ fi-FI:
     Public Relations: Tiedotus- ja suhdetoiminta
     Publicist: Tiedottaja
     Pyrotechnic Supervisor: Pyrotekniikan valvoja
-    Pyrotechnician: 
+    Pyrotechnician: Pyroteknikko
     Quality Control Supervisor: 
     Radio Play: 
     Receptionist: 
@@ -2742,8 +2743,8 @@ fi-FI:
       movie_page_title: Elokuvat jotka on tuottanut %{name}
       tv_page_title: TV-sarjat jotka on tuottanut %{name}
     edit:
-      cast_updated: 
-      genres_updated: 
+      cast_updated: Näyttelijät päivitetty
+      genres_updated: Lajityypit päivitetty
       lock_all_fields: Lukitse kaikki kentät
       lock_all_images: Lukitse kaikki kuvat
       page_title: Muokkaa %{name}
@@ -2770,7 +2771,7 @@ fi-FI:
       visit_facebook: Vieraile Facebookissa
       visit_homepage: Vieraile kotisivulla
       visit_instagram: Vieraile Instagramissa
-      visit_justwatch: 
+      visit_justwatch: Vieraile JustWatch:issa
       visit_twitter: Vieraile Twittersivustolla
     genre:
       movie_page_title: "%{name} elokuvissa"
@@ -2868,16 +2869,18 @@ fi-FI:
       gender:
         female: Nainen
         male: Mies
-        non_binary: 
+        non_binary: Muunsukupuolinen
       media_types:
-        all: 
-        movies: 
-        tv: 
-        tv_shows: 
-      years_old: 
+        all: Kaikki
+        movies: Elokuvat
+        tv: TV
+        tv_shows: TV-sarjat
+      years_old: "%{age} vuotta vanha"
     rating:
       rated_with_rating: Pisteytetty %{value}
-      rating_count: 
+      rating_count:
+        one: "%{count} Pisteytys"
+        other: "%{count} Pisteytystä"
       score_breakdown: 
       score_distribution: 
       score_history: 

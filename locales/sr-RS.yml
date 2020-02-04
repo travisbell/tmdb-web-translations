@@ -61,7 +61,7 @@ sr-RS:
   App Showcase: Изложене апликације
   Application Description: Опис апликације
   Application Name: Име апликације
-  Application Summary: 
+  Application Summary: Резиме апликације
   Application URL: URL апликације
   Approve: Дозволи
   Approved?: Дозвољено?
@@ -117,7 +117,7 @@ sr-RS:
   Crew: Екипа
   Currently Airing TV Shows: Серије које се тренутно емитују
   Currently on page: Тренутно на страници
-  DMCA Takedown Request: 
+  DMCA Takedown Request: Захтев за уклањање ДМЦА
   Date: Датум
   Day of Death: Датум смрти
   Default Language: Подразумевани језик
@@ -160,7 +160,7 @@ sr-RS:
   Episode Overview: Опис епизоде
   Episodes: Епизоде
   Error: Грешка
-  Example API Request: 
+  Example API Request: Пример захтева АПИ-ја
   Expand: Прошири
   External IDs: Спољни ID-ови
   External Links: Спољни линкови
@@ -423,6 +423,7 @@ sr-RS:
   Summary: Сиже
   Support: Подршка
   Support Forums: Форуми за помоћ
+  System Status: 
   TV: ТВ
   TV Network: ТВ мрежа
   TV Recommendations: ТВ препоруке
@@ -489,7 +490,7 @@ sr-RS:
   Website: Веб сајт
   Website Terms: Услови веб сајта
   Website Updates: Ажурирања веб сајта
-  Wrappers & Libraries: 
+  Wrappers & Libraries: Омоти и Библиотеке
   Written by: Сценариста
   Year: Година
   'Yes': Да
@@ -519,7 +520,7 @@ sr-RS:
         deleted: Обрисано
         updated: Ажурирано
       media_types:
-        all: 
+        all: Све
         movies: Филмови
         others: Остало
         people: Особе
@@ -592,7 +593,7 @@ sr-RS:
       air_date: Датум приказивања
       date_added: Датум додавања
       date_rated: Датум оцене
-      first_air_date: 
+      first_air_date: Први датум емитовања
       my_rating: Моја оцена
       popularity: Популарност
       rating: Оцене
@@ -660,8 +661,8 @@ sr-RS:
       no_recommendations_helper: Покушај да додаш више омиљених филмова (што више то боље) и врати се да видиш како нам иде.
       page_title: Препоруке
     sort_options:
-      asc: 
-      desc: 
+      asc: Растуће
+      desc: Опадајуће
     tips:
       import_imdb_ratings: Можеш да увезеш своје оцене са IMDb-а.
       tip: Савет
@@ -696,11 +697,11 @@ sr-RS:
     approved_session: Потврдили сте %{application_name}. Можете да затворите овај прозор.
     continue: Уколико желите да наставите, кликните на дугме потврди испод. Ако не, можете просто затворити овај прозор.
     invalid_api_app:
-      message: 
-      title: 
+      message: Корисник АПИ-ја који се тренутно потврђује није валидан.
+      title: Неважећи корисник АПИ-ја
     missing_request_token:
-      message: 
-      title: 
+      message: Токен је неопходан за аутентикацију корисничких налога.
+      title: Недостаје токен за захтев
     request_token_approval:
       message: "{{APP}} тражи дозволу да  чита и пише твоје податке у твоје име. Ово је неопходно ако желиш да мењаш своје листе или да оцењујеш филмове изван TMDb-а."
     statuses:
@@ -711,7 +712,7 @@ sr-RS:
         message: 
         name: Аутентификација је одбијена
       invalid_request_token:
-        message: 
+        message: Приступни токен који сте послали није важећи. Већином је то зато што је токен истекао. Покушајте да креирате нови и проверите да ли сте га исправно копирали. Ако и даље имате проблема, обратите се програмеру апликације коју користите.
         name: 
   attributes:
     biography: Биографија
@@ -906,7 +907,7 @@ sr-RS:
           meaning: 
       IT:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1492,7 +1493,7 @@ sr-RS:
     apply: Примени
     filters:
       air_dates:
-        air_dates: 
+        air_dates: Датуми приказивања
       certification:
         certification: Сертификација
       filters: Филтери
@@ -1502,39 +1503,39 @@ sr-RS:
         keywords: Кључне речи
       language:
         language: Језик
-        tooltip: 
-      minimum_user_votes: 
+        tooltip: Филтрирајте ставке на основу њиховог оригиналног језика.
+      minimum_user_votes: Минимални број гласова
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: Филтрирај по ТВ мрежама ...
+        network: Мрежа
+      none_selected: Nije odabrano
       release_dates:
-        from: 
-        release_dates: 
-        to: 
+        from: од
+        release_dates: Датуми објављивања
+        to: до
       runtime: Дужина трајања
       show_me:
-        everything: 
+        everything: Све
         movies_have_seen: Филмови које сам погледао/ла
         movies_havent_seen: Филмови које нисам погледао/ла
         show_me: Прикажи ми
-        tooltip: 
-        tv_shows_have_seen: 
-        tv_shows_havent_seen: 
+        tooltip: Пријавите се за филтрирање предмета које сте гледали.
+        tv_shows_have_seen: ТВ емисије које сам гледао
+        tv_shows_havent_seen: ТВ емисије које нисам гледао
       sort:
-        sort_results_by: 
+        sort_results_by: Сортирај резултате по
       user_score:
-        user_score: 
+        user_score: Кориснички резултат
       where_to_watch:
         country: Држава
         my_services:
           my_services: Моји сервиси
-          restrict: 
-          restrict_tooltip: 
-        where_to_watch: 
+          restrict: Ограничити претрагу на моје претплаћене услуге?
+          restrict_tooltip: Пријавите се да бисте управљали својим претплаћеним услугама.
+        where_to_watch: Где да гледам
       years:
         years: Године
-    no_items: 
+    no_items: Није пронађен ниједан предмет који би одговарао вашем упиту.
     search: Претрага
   discussions:
     actions:
@@ -1560,9 +1561,9 @@ sr-RS:
         general: Опште
         website_support: Подршка за сајт
       support:
-        api_requests: 
-        api_requests_(professional): 
-        api_support: 
+        api_requests: Захтеви АПИ-ја
+        api_requests_(professional): АПИ захтеви (професионални)
+        api_support: АПИ подршка
         content_issues: Проблем са садржајем
         general: Опште
         general_chat: Општи разговори
@@ -1572,7 +1573,7 @@ sr-RS:
     category:
       last_reply_with_datetime: "%{date} у %{time}"
       last_reply_with_datetime_and_username: "%{date} у %{time}<br>од стране корисника: %{username}"
-    discussion_activity: 
+    discussion_activity: Активност дискусије
     email_notifications:
       email_notifications: Имејл обавештење
       subscribe: Пријави се
@@ -1583,7 +1584,7 @@ sr-RS:
       lets_chat: Хајде да дискутујемо
       support: Подршка
       support_title: The Movie Database Подршка
-    login_to_be_notified: 
+    login_to_be_notified: Пријавите се да бисте били обавештени о првој објави.
     new_discussion:
       community_guidelines: Смернице заједнице
       discussion_category: Категорија
@@ -1606,8 +1607,8 @@ sr-RS:
         delete_discussion: Кликом на „Да“, ова дискусија ће бити обрисана.
         hide_comment: Кликом на „Да“, овај коментар ће бити сакривен.
         hide_discussion: Кликом на „Да“, ова дискусија ће бити сакривена.
-        ignore_user: 
-        mark_as_spam: 
+        ignore_user: Јесте ли сигурни да желите да игноришете овог корисника? Све њихове расправе и коментари ће нестати. Можете уклонити ову блокаду тако што ћете отворити страницу „Блокирани корисници“ у оквиру подешавања налога.
+        mark_as_spam: Јесте ли сигурни да желите да ову расправу означите као нежељену? Аутоматски ће бити избрисана неповратно уколико то учините. Означавање дискусија као нежељене поште помаже обуци услуге откривања нежељене поште коју користимо.
         report_violation: Потврдите да желите да пријавите овог корисника због кршења наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">смерница заједнице</a>.
         unhide_discussion: Кликом на „Да“, ова дискусија ће бити видљива поново.
       posted_by_with_datetime: објављено од стране %{username} дана %{date} у %{time}
@@ -1650,9 +1651,9 @@ sr-RS:
     sent_verification_email: Послали смо поруку на %{email_address} за верификацију. Молимо проверите пристиглу пошту ( и фолдер са нежељеном поштом) за инструкције како наставити даље.
     unsubscribe:
       sad_to_go: "%{username}, жао нам је што одлазиш!"
-      subscription_changed: 
+      subscription_changed: Подешавања претплате су ажурирана. Поставке обавештења можете да измените тако што ћете посетити страницу <a href="%{account_link}">Подешавања обавештења</a>.
       unsubscribe: Укини претплату
-      unsubscribed: 
+      unsubscribed: Ви сте <strong>одјављени</strong>. Ако сте то учинили грешком, можете се поново претплатити тако што ћете посетити страницу a href="%{account_link}">Подешавања обавештења</a>.
   episode_count:
     few: "%{count} Епизода"
     many: "%{count} Епизода"
@@ -1674,7 +1675,7 @@ sr-RS:
       invalid: је неважећи
       required: мора постојати
       series_status_invalid_to_create_season: је постављено на „отказана“ или „завршена“ па се нове сезоне не могу креирати.
-      suspected_tv_series: 
+      suspected_tv_series: за коју се сумња да је постојећа ТВ серија или министерија, можете наставити да додајете ову ставку ако сте сигурни, али ако постоји у нашем ТВ делу, она ће бити уклоњена
       taken: већ је завршено
     movie:
       duplicate_cast: Ова особа је већ додата као члан тима.
@@ -2652,28 +2653,28 @@ sr-RS:
     Wardrobe Supervisor: 
     Weapons Master: 
     Weapons Wrangler: 
-    Web Designer: 
-    Wig Designer: 
+    Web Designer: Веб дизајнер
+    Wig Designer: Дизајнер перика
     Wigmaker: Власуљар
     Writer: Сценариста
-    Writers' Assistant: 
-    Writers' Production: 
+    Writers' Assistant: Асистент писца
+    Writers' Production: Продукција писаца
   joined: придружио
   keyboard_shortcuts:
     actions:
-      back_to_parent: 
+      back_to_parent: вратити се назад (или родитељу кад је то применљиво)
       close_window: затворити отворени прозор
       focus_search: фокусирај траку за претрагу
       go_to_edit: иди на страницу за уређивање
       last_reply: иди на последњи одговор
       new_discussion: отвори нову дискусију
-      next_episode: 
-      next_page: 
-      next_season: 
+      next_episode: "(стрелица надесно) пређите на следећу епизоду"
+      next_page: "(стрелица надесно) следећа страница"
+      next_season: "(стрелица надесно) пређите на следећу сезону"
       open_activity: отвори активност
-      open_add_image_window: 
-      open_profile: 
-      open_shortcut_window: 
+      open_add_image_window: отвори прозор за додавање слике
+      open_profile: отворите мени профила
+      open_shortcut_window: отвори прозор пречице на тастатури
       open_translation_selector: отвори селектор превода
       previous_episode: 
       previous_page: 
@@ -2784,13 +2785,13 @@ sr-RS:
       no_backdrops: 
       no_logos: 
       no_posters: 
-      no_profiles: 
+      no_profiles: У овај унос нема доданих профила.
       primary: 
       types:
         backdrop_stills: 
     keyword:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: '"%{name}" филмови'
+      tv_page_title: '"%{name}" ТВ емисије'
     movie:
       edit:
         adult:
@@ -2798,22 +2799,28 @@ sr-RS:
         alternative_titles:
           no_records: Нису додати алтернативни називи.
         cast:
-          no_records: 
-        confirm_collection: 
-        confirm_video: 
+          no_records: Нису додани глумци.
+        confirm_collection: |-
+          <p>Колекције су погодан начин груписања наставка заједно на ТМДб. Иако су понекад контроверзне, колекције нису замишљене као начин груписања филмова истог „универзума“. За то молимо <a href="%{list_link}" target="_blank" rel="noopener">направите листу</a>.  За више информација о колекцијама можете посетити  <a href="%{docs_link}" target="_blank" rel="noopener"> наша документација</a>.</p>
+
+          <p>Ако колекција коју намеравате да створите испуњава ове критеријуме, наставите.</p>
+        confirm_video: |-
+          <p>Означавање филма као видеа помаже нам да разликујемо врсте садржаја који у ствари нису филмови.</p>
+
+          <p>Ако је овај садржај, на пример, компилациони ДВД, фитнес видео или ДВД „најбоље од“, онда бисте га требали означити као видео.</p>
         crew:
-          job_required: 
+          job_required: Посао је обавезан
           no_records: Чланови екипе нису додати
-          person_required: 
+          person_required: Особа је обавезна
         genres:
           add_genre: Додај жанр
           no_records: Жанрови нису додати
         keywords:
           add_keyword: Додај кључну реч
-          create: 
+          create: Креирај га
           no_records: Кључне речи нису додате
-          none_found: 
-          tip: 
+          none_found: Није пронађена одговарајућа кључна реч. Желите да је креирате?
+          tip: Као општу смерницу размислите о стварима које помажу у описивању приче, општих тема и расположења.
         production_information:
           add_production_company: Додај продукцијску компанију
           no_records: Нема додатих продукцијских компанија?
@@ -2822,7 +2829,7 @@ sr-RS:
         release_information:
           no_records: Нема додатих датума приказивања.
         videos:
-          no_records: 
+          no_records: Није додан ниједан видео запис.
       statuses:
         Canceled: Отказан-а
         In Production: У продукцији
@@ -2839,19 +2846,19 @@ sr-RS:
           confirm_merge: Потврди спајање
           merge: Споји
           next: Даље
-        primary_facts: 
+        primary_facts: Примарне чињенице
         upload_logo: Додај лого
       logos: Логои
       name: Име
-      other_shows_on: 
+      other_shows_on: Погледајте још ТВ емисија од %{name}...
       search:
-        no_results: 
+        no_results: Не постоје мреже које одговарају вашем упиту.
         results: Резултати мреже
       tv_page_title: ТВ серије на %{name}
       upload_logo: Додај лого
     no_results_found:
-      movie: 
-      tv: 
+      movie: Није пронађен ниједан филм.
+      tv: Нису пронађене ТВ емисије.
     number_of_movies:
       few: "%{count} филма"
       many: "%{count} филмова"
@@ -2871,39 +2878,39 @@ sr-RS:
         male: Мушки
         non_binary: 
       media_types:
-        all: 
+        all: Све
         movies: Филмови
-        tv: 
-        tv_shows: 
+        tv: ТВ
+        tv_shows: ТВ емисије
       years_old: "%{age} година старо"
     rating:
       rated_with_rating: Оцењен %{value}
       rating_count: 
-      score_breakdown: 
-      score_distribution: 
-      score_history: 
-      score_trend: 
+      score_breakdown: Разлагање резултата
+      score_distribution: Дистрибуција резултата
+      score_history: Историја резултата
+      score_trend: Тренд резултата
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: Алтернативни наслови
       backdrops: Позадине
-      cast_crew: 
+      cast_crew: Улоге и екипе
       changes: Промене
       fandom: 
-      main: 
+      main: Главно
       media: 
-      overview: 
+      overview: Преглед
       posters: Постери
       profiles: Профилне фотографије
-      release_dates: 
+      release_dates: Датуми објављивања
       reviews: Рецензије
       translations: Преводи
       videos: Видео клипови
     social_panel:
       discussions:
-        currently_subscribed: 
+        currently_subscribed: Тренутно сте претплаћени на примање обавештења када неко креира прву објаву.
         no_discussions: 
         unsubscribe_me: Одјави ме.
-        want_to_be_notified: 
+        want_to_be_notified: Желите ли да будете обавештени када неко објави прву објаву?
         yes_notify_me: Да обавести ме!
       reviews:
         a_review_by: 
@@ -2922,8 +2929,8 @@ sr-RS:
         guest_stars:
           no_records: Нису додате гостујуће звезде.
         screened_as_part_of_season: Да, као део сезоне
-        screened_confirm: 
-        screened_label: 
+        screened_confirm: Ако је ова епизода приказана на филмском фестивалу или у позоришту, кликните 'Да' за наставак.
+        screened_label: Да ли је та епизода приказана у биоскопу?
       episode_selector:
         current_episode: Епизода %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -2934,8 +2941,8 @@ sr-RS:
         create_episode: Додај епизоду
         episodes:
           no_records: Епизоде нису додате.
-        screened_confirm: 
-        screened_label: 
+        screened_confirm: Ако је ова сезона приказана на филмском фестивалу или у позоришту, кликните "Да" за наставак.
+        screened_label: Да ли је ова сезона приказана у биоскопу?
       season_cast: 
       season_crew: 
       season_selector:
@@ -3330,7 +3337,7 @@ sr-RS:
       action: Акција
       blocked_users: Блокирани корисници
       no_blocked: Нисте блокирали ниједног корисника.
-      page_title: 
+      page_title: Моји блокирани корисници
       username: Корисничко име
     change_email:
       change_email: Измени имејл
