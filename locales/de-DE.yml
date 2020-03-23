@@ -122,6 +122,7 @@ de-DE:
   Day of Death: Verstorben am
   Default Language: Standardsprache
   Delete: Löschen
+  Delete Collection: 
   Delete Keyword: Lösche Schlüsselwort
   Delete Movie: Film löschen
   Delete Person: Lösche Person
@@ -155,6 +156,7 @@ de-DE:
   Email: E-Mail
   Email Address: E-Mail Adresse
   Email Content: Nachricht
+  Embed: 
   Episode Images: Episodenbilder
   Episode Number: Episode Nummer
   Episode Overview: Zusammenfassung dieser Folge
@@ -196,7 +198,7 @@ de-DE:
   Genres & Keywords: Genre & Schlüsselwörter
   Get Involved: Mitwirken
   Guest Stars: Gastdarsteller
-  Guidelines: Richtlinien
+  Guidelines: Leitsätze
   Hardware/Embedded: Hardware/Eingebettet
   Help: Hilfe
   Help Us By Contributing Missing Data: Hilf uns indem du fehlende Daten hinzufügst
@@ -209,7 +211,7 @@ de-DE:
   IMDB ID: IMDb-ID
   Images: Bilder
   Import CSV: CSV-Import
-  Import List: Liste importieren
+  Import List: Listenimport
   In Theaters: Im Kino
   Include Adult Items in Search?: Zeige Erwachseneninhalten in der Suche?
   Incorrect Content: Falscher Inhalt
@@ -234,7 +236,7 @@ de-DE:
   Legal: Rechtliches
   List Results: Ergebnisse (Listen)
   Lists: Listen
-  Load More: Lade Mehr
+  Load More: Weitere Beiträge
   Locked?: Schreibschutz?
   Login to Add a Backdrop: Anmelden um Hintergrundbild hinzuzufügen
   Login to Add a Poster: Anmelden um Poster hinzuzufügen
@@ -441,7 +443,7 @@ de-DE:
   Terms of Use: Nutzungsbedingungen
   The Basics: Die Basics
   Theatrical: Kino
-  Theatrical (limited): Theatralisch
+  Theatrical (limited): Filmbühne
   Timezone: Zeitzone
   Title: Titel
   Title (A-Z): Titel (A-Z)
@@ -488,8 +490,8 @@ de-DE:
   Watchlist: Watchlist
   Watchlists: Watchlisten
   Website: Webseite
-  Website Terms: Webseiten Nutzungsbedingungen
-  Website Updates: Webseiten Updates
+  Website Terms: Nutzungsbedingungen
+  Website Updates: Updates
   Wrappers & Libraries: 'Wrappers & Bibliotheken '
   Written by: Geschrieben von
   Year: Jahr
@@ -499,7 +501,7 @@ de-DE:
   Zip Code: PLZ
   account_drop_down:
     discussions: Diskussionen
-    edit_profile: Profil bearbeiten
+    edit_profile: Profil
     join_tmdb: 
     lists: Listen
     login: Anmelden
@@ -526,7 +528,7 @@ de-DE:
         people: Personen
         tv: Serien
       page_title:
-        page_owner: Meine jüngste Aktivität
+        page_owner: Meine Aktivität
         public: "%{username}'s letzte Aktivitäten"
       table:
         action: Aktion
@@ -638,7 +640,7 @@ de-DE:
       recent_discussions: Aktuelle Diskussionen
       total_edits: Änderungen
       total_ratings: Bewertungen
-      upcoming_watchlist: Erscheint demnächst aus deiner Watchliste
+      upcoming_watchlist: Erscheint demnächst von deiner Watchliste
     page_title:
       page_owner: Mein Profil
       public: "%{username}'s Profil"
@@ -1557,17 +1559,17 @@ de-DE:
         content_issues: Inhaltsfehler
         discuss: Diskussionen
         general: Allgemein
-        website_support: Webseiten Support
+        website_support: Support
       support:
         api_requests: API-Anfragen
-        api_requests_(professional): API-Anfragen (Fortgeschritten)
+        api_requests_(professional): API-Anfragen (Fortgeschrittene)
         api_support: API-Support
         content_issues: Inhaltsfehler
         general: Allgemein
         general_chat: Allgemeine Themen
         moderator_talk: Moderatorenbereich
         support: Support
-        website_support: Webseiten Support
+        website_support: Webseite
     category:
       last_reply_with_datetime: "%{date} um %{time}"
       last_reply_with_datetime_and_username: "%{date} um %{time}<br>von %{username}"
@@ -1580,11 +1582,11 @@ de-DE:
       discuss: Diskussionen
       discuss_item: Über %{item_title} diskutieren
       lets_chat: Jetzt chatten
-      support: Unterstützung
+      support: Support
       support_title: The Movie Database Support Forum
     login_to_be_notified: Melde Dich an, um Dich über den ersten Beitrag benachrichtigen zu lassen.
     new_discussion:
-      community_guidelines: Community Richtlinien
+      community_guidelines: Leitsätze
       discussion_category: Kategorie
       for_item: Für Eintrag
       message: Nachricht
@@ -1612,7 +1614,7 @@ de-DE:
         hide_discussion: Klicke auf „Ja”, um diese Diskussion auszublenden.
         ignore_user: Möchtest Du diesen Benutzer wirklich sperren? Alle Diskussionen und Kommentare des Benutzers werden ausgeblendet. Du kannst die Sperre auf der Seite „Gesperrte Benutzer” in Deinen Konto-Einstellungen aufheben.
         mark_as_spam: Möchtest Du diese Diskussion wirklich als Spam melden? Die Diskussion wird danach automatisch und unwiderruflich gelöscht. Spam-Meldungen helfen uns bei der Verbesserung unseres Spam-Filters.
-        report_violation: Bitte bestätigee, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Community Guidelines</a> melden möchtest.
+        report_violation: Bitte bestätigee, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Leitsätze</a> melden möchtest.
         unhide_discussion: Wenn du auf 'Ja' klickst, wird diese Diskussion wieder sichtbar gemacht.
       posted_by_with_datetime: Verfasst von %{username} am %{date} um %{time}
       quote: Zitat
@@ -3274,7 +3276,7 @@ de-DE:
   pagination:
     currently_on: Derzeit auf Seite %{current_page} von %{total_pages}
     last_page: Letzte Seite
-    load_more: Lade Mehr
+    load_more: Weitere Beiträge
     next_page: Nächste Seite
     next_page_with_arrow: Nächste Seite →
     previous_page: Vorherige Seite
@@ -3321,7 +3323,7 @@ de-DE:
   settings:
     account:
       account_settings: Konto
-      page_title: Meine Konto-Einstellungen
+      page_title: Mein Konto
     api:
       api: API
       create_page_title: 
@@ -3405,23 +3407,23 @@ de-DE:
         watchlist: Watchliste
       which_list: In welche Liste importieren?
     navigation:
-      account_settings: Account Einstellungen
+      account_settings: Konto
       api: API
       blocked_users: Gesperrte Benutzer
       connected_apps: Verbundene Apps
       delete_account: Konto löschen
-      edit_profile: Profil bearbeiten
-      import_list: Liste importieren
-      notification_settings: Benachrichtigungseinstellungen
+      edit_profile: Profil
+      import_list: Listenimport
+      notification_settings: Benachrichtigungen
       settings: Einstellungen
-      sharing_settings: Einstellungen teilen
-      social_settings: Social-Media-Einstellungen
-      streaming_services: 
+      sharing_settings: Privatsphäre
+      social_settings: Social Media
+      streaming_services: Streamingdienste
     notifications:
-      api_updates: E-Mail-Benachrichtigung bei API-Anpassungen oder -Updates?
-      email_new_releases_watchlist: E-Mail-Benachrichtigung bei neuen Veröffentlichungen von meiner Watchliste?
-      new_replies_to_threads_created: Automatisch Themen abonnieren, die ich erstelle oder auf die ich antworte?
-      new_replies_to_threads_watching: E-Mail-Benachrichtigung bei neuen Antworten von mir abonnierten Themen?
+      api_updates: E-Mail-Benachrichtigung bei API-Anpassungen oder -Updates
+      email_new_releases_watchlist: E-Mail-Benachrichtigung bei neuen Veröffentlichungen von meiner Watchliste
+      new_replies_to_threads_created: Themen abonnieren, die ich erstellt oder auf die ich geantwortet habe
+      new_replies_to_threads_watching: E-Mail-Benachrichtigung bei neuen Antworten von mir abonnierten Themen
       news_updates: E-Mail-Benachrichtigung bei Neuigkeiten oder Produktupdates
       notifications: Benachrichtigungen
       page_title: Meine Benachrichtigungen
@@ -3463,18 +3465,18 @@ de-DE:
       reset_password_dialog_text: Wenn du diese Anfrage bestätigst erhälst Du eine E-Mail mit Anweisungen zum Zurücksetzen deines Passworts. Bist du sicher, dass du das tun willst?
     sharing:
       favorite_list:
-        favorite_settings: Einstellung für Listen
+        favorite_settings: Sichtbarkeit von Listen
         share_on_twitter: Neue Favoriten auf Twitter teilen?
-        share_publicly: Liste ist öffentlich?
+        share_publicly: Liste ist öffentlich
       page_title: Meine Privatsphäre
       rated_list:
-        rated_settings: Einstellung für Bewertungen
-        share_publicly: Liste ist öffentlich?
+        rated_settings: Sichtbarkeit von Bewertungen
+        share_publicly: Liste ist öffentlich
       sharing_settings: Privatsphäre
       watchlist:
-        remove_when_rated: Elemente automatisch entfernen, nachdem sie bewertet wurden?
-        share_publicly: Liste ist öffentlich?
-        watchlist_settings: Einstellungen für Watchliste
+        remove_when_rated: Elemente automatisch entfernen, nachdem sie bewertet wurden
+        share_publicly: Liste ist öffentlich
+        watchlist_settings: Sichtbarkeit von Watchlisten
     social:
       connected_table:
         action: Aktion

@@ -122,6 +122,7 @@ sr-RS:
   Day of Death: Датум смрти
   Default Language: Подразумевани језик
   Delete: Обриши
+  Delete Collection: Обрисати колекцију
   Delete Keyword: Обриши кључну реч
   Delete Movie: Обриши филм
   Delete Person: Обриши особу
@@ -155,6 +156,7 @@ sr-RS:
   Email: E-mail
   Email Address: E-mail адреса
   Email Content: Садржај email-а
+  Embed: 
   Episode Images: Слике епизода
   Episode Number: Број епизоде
   Episode Overview: Опис епизоде
@@ -1540,9 +1542,9 @@ sr-RS:
     no_items: Није пронађен ниједан предмет који би одговарао вашем упиту.
     search: Претрага
     tooltips:
-      not_member: 
-      signup: 
-      want_to_rate: 
+      not_member: Нисте члан?
+      signup: Пријавите се и прикључите се заједници
+      want_to_rate: Желите ли да оцените или додате ову ставку у листу?
   discussions:
     actions:
       actions: Акције
@@ -1594,11 +1596,11 @@ sr-RS:
     new_discussion:
       community_guidelines: Смернице заједнице
       discussion_category: Категорија
-      for_item: 
+      for_item: За ставку
       message: Порука
       new_discussion: Нова дискусија
       subject: Тема
-    no_activity: 
+    no_activity: Није било активности у овој дискусији.
     no_discussions: Нема дискусија.
     pagination:
       post_summary: 
@@ -2028,7 +2030,7 @@ sr-RS:
     Daily Wardrobe: 
     Data Management Technician: 
     Data Wrangler: 
-    Decorator: 
+    Decorator: Декоратер
     Delegated Producer: 
     Department Administrator: 
     Development Manager: 
@@ -2751,9 +2753,9 @@ sr-RS:
     collection:
       edit:
         parts:
-          add: 
-          no_records: 
-      parts: 
+          add: Додати филм
+          no_records: Нису додати филмови.
+      parts: Делови
     company:
       headquarters: Седиште
       movie_page_title: Филмове продуцирни од стране %{name}
@@ -2785,13 +2787,13 @@ sr-RS:
         social_links: Друштвени линкови служе само за званичне (верификоване) странице. Странице обожаватеља нису дозвољене.
     external_links:
       visit_facebook: Посети Фејсбук
-      visit_homepage: 
+      visit_homepage: Посетити званичну страницу
       visit_instagram: Посети Инстаграм
       visit_justwatch: 
       visit_twitter: Посети Твитер
     genre:
-      movie_page_title: 
-      tv_page_title: 
+      movie_page_title: "%{name} Филмови"
+      tv_page_title: "%{name} ТВ серије"
     images:
       format: Формат
       no_backdrop_stills: 
@@ -2921,13 +2923,13 @@ sr-RS:
     social_panel:
       discussions:
         currently_subscribed: Тренутно сте претплаћени на примање обавештења када неко креира прву објаву.
-        no_discussions: 
+        no_discussions: Није било дискусије %{item_title}. Улогујте се да будете први!
         unsubscribe_me: Одјави ме.
         want_to_be_notified: Желите ли да будете обавештени када неко објави прву објаву?
         yes_notify_me: Да обавести ме!
       reviews:
         a_review_by: 
-        by: 
+        by: Написао %{username} , дана %{date}
         featured_review: Истакнута рецензија
         no_review:
           logged_in: Немамо никаквих рецензија за %{title}. Желиш ли да <a href="%{url}">напишеш једну</a>?
@@ -2975,14 +2977,14 @@ sr-RS:
         creator:
           no_records: 
         crew:
-          no_season: 
+          no_season: Нема сезона! Сезона је потребна како би могли да додате чланове екипе.
         episode_groups:
           create_new_group: Направи нову групу
           description: Опис
           episode_groups: Групе епизода
           episodes:
-            move_episodes: 
-            no_records: 
+            move_episodes: Преместити одабране епизоде
+            no_records: Нису додате епизоде у ову групу.
           grid:
             episodes: Епизоде
             groups: Групе
@@ -3002,12 +3004,12 @@ sr-RS:
             '7': ТВ
         networks:
           no_records: 
-          none_found: 
+          none_found: Нису нађене тражене мреже. Желите ли да их додате?
         regular_cast:
           no_records: 
           no_season: 
         runtime:
-          add_it: 
+          add_it: Додати ново време трајања?
           enter_value: Додај вредност у минутима
         seasons:
           no_records: 
@@ -3024,7 +3026,7 @@ sr-RS:
         many: Мрежа
         one: Мрежа
         other: Мрежа
-      series_cast: 
+      series_cast: Глумачка екипа серије
       series_crew: 
       statuses:
         Canceled: Отказан-а
@@ -3045,9 +3047,9 @@ sr-RS:
       audio_language: Језик звука
       channel: Канал
       duration: Трајање
-      play_behind_the_scenes: 
-      play_blooper: 
-      play_clip: 
+      play_behind_the_scenes: Пустити сцене иза камере
+      play_blooper: Пустити клип са грешкама
+      play_clip: Пусти клип
       play_featurette: 
       play_opening_credits: 
       play_recap: Пусти рекапитулацију
@@ -3059,7 +3061,12 @@ sr-RS:
       tags: Ознаке
   message_templates:
     help_translate:
-      message: 
+      message: |-
+        Hi there, thanks for using TMDb. I noticed you're browsing TMDb in a language that isn't finished being translated. If you have any interest in helping us get this data completed, you can do so by visiting our [Locale project](https://www.localeapp.com/projects/8267). [Signing up](https://www.localeapp.com/users/sign_up) for Locale is free and you can add as many new translations as you have time for. Every edit helps.
+
+        If you don't have any interest in this, don't sweat it. I just thought I'd ask.
+
+        Thanks and take care!
       subject: Помози у превођењу нашег сајта
   messages:
     compose:
@@ -3258,10 +3265,10 @@ sr-RS:
       bluray: 
       dvd: 
       dvd_bluray: 
-      hd: 
-      sd: 
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
+      ads: Огласи
       buy: Купи
       flatrate: 
       free: Бесплатно
@@ -3274,8 +3281,8 @@ sr-RS:
       none: 
       sd: 
     seasons: 
-    view_offers: 
-    watch_now: 
+    view_offers: Погледати  понуде
+    watch_now: Гледајте га сада
     watch_on:
       ads: 
       buy: 
@@ -3396,12 +3403,12 @@ sr-RS:
           item: 
           item_reasons:
             already_imported: Већ је увезено.
-            cant_find_imdb: 
+            cant_find_imdb: Нисам могао да нађем IMDb ID.
             imdb_id_not_in_row: 
             personal_rating_invalid: 
             personal_rating_not_found: 
             row_is_invalid: 
-            updated_date: 
+            updated_date: Ажурирани датум.
           reason: Разлог? (ако је примењиво)
           summary: 
         currently_running: 

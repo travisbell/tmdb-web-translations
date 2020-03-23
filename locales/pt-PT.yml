@@ -122,6 +122,7 @@ pt-PT:
   Day of Death: Faleceu em
   Default Language: Idioma Predefinido
   Delete: Remover
+  Delete Collection: Remover Coleção
   Delete Keyword: Remover Palavra-chave
   Delete Movie: Remover Filme
   Delete Person: Remover Pessoa
@@ -155,6 +156,7 @@ pt-PT:
   Email: E-mail
   Email Address: Endereço de E-mail
   Email Content: Enviar Conteúdo por E-mail
+  Embed: 
   Episode Images: Imagens do Episódio
   Episode Number: Episódio Nº
   Episode Overview: Sinopse do Episódio
@@ -205,7 +207,7 @@ pt-PT:
   Hide items on watchlist?: Ocultar itens na Lista de Interesses?
   Hide rated?: Ocultar os que foram Avaliados?
   Home: Início
-  Homepage: Página Oficial
+  Homepage: Página Inicial
   IMDB ID: ID do IMDb
   Images: Imagens
   Import CSV: Importar CSV
@@ -214,7 +216,7 @@ pt-PT:
   Include Adult Items in Search?: Incluir Itens Adultos na Pesquisa?
   Incorrect Content: Conteúdo Incorrecto
   Info: Info
-  Job: Trabalho
+  Job: Cargo
   Join the Community: Adira à Comunidade
   Joined in: Membro desde
   Keyword: Palavra-chave
@@ -270,7 +272,7 @@ pt-PT:
   Movies: Filmes
   Name: Nome
   Network: Emissora
-  Networks: 
+  Networks: Emissoras
   New: Novo
   New episode airs in: Novo episódio emitido dentro de
   'No': Não
@@ -467,7 +469,7 @@ pt-PT:
   Upcoming Movies: Filmes a Estrear em Breve
   Update: Atualizar
   Upload Logo: Enviar Logótipo
-  User Score: Pontuação Geral dos Utilizadores
+  User Score: Classificação Geral dos Utilizadores
   Username: Nome de Utilizador
   Video?: Vídeo?
   View: Ver
@@ -517,10 +519,10 @@ pt-PT:
       legend:
         added: Adicionado
         created: Criado
-        deleted: Eliminado
+        deleted: Removido
         updated: Atualizado
       media_types:
-        all: 
+        all: Todos
         movies: Filmes
         others: Outros
         people: Pessoas
@@ -533,14 +535,14 @@ pt-PT:
         edit: Edição
         key: Chave
         language_abbreviation: Idioma
-    average_movie_score: Pontuação Média<br>dos Filmes
-    average_tv_score: Pontuação Média<br>das Séries de TV
+    average_movie_score: Classificação Média<br>dos Filmes
+    average_tv_score: Classificação Média<br>das Séries de TV
     discussions:
       my_active_boards: Os Meus Fóruns Ativos
       my_discussions: As Minhas Dicussões
       not_watching: Não está a acompanhar nenhuma discussão.
       page_title:
-        page_owner: Minhas Discussões
+        page_owner: As Minhas Discussões
         public: Discussões de %{username}
     events:
       all: Todos
@@ -582,19 +584,19 @@ pt-PT:
         logged_in: Os Meus Favoritos
         public: Favoritos de %{username}
       page_title:
-        page_owner: Meus Favoritos
+        page_owner: Os Meus Favoritos
         public: Favoritos de %{username}
     filter_by: 'Filtrar por:'
     filters:
-      air_date: 
+      air_date: Data de Exibição
       date_added: Data de Adição
-      date_rated: Data da Pontuação
-      first_air_date: 
-      my_rating: As Minhas Pontuações
+      date_rated: Data da Classificação
+      first_air_date: Data de Estreia
+      my_rating: As Minhas Classificações
       popularity: Popularidade
-      rating: Pontuações
+      rating: Classificações
       release_date: Data de Lançamento
-      score: Pontuação
+      score: Classificação
       upcoming: Brevemente
     lists:
       create_list: Criar Lista
@@ -606,7 +608,7 @@ pt-PT:
         logged_in: Não criou nenhuma lista.
         public: "%{username} não tem nenhuma lista pública para partilhar."
       page_title:
-        page_owner: Minhas Listas
+        page_owner: As Minhas Listas
         public: Listas de %{username}
     member_since: Membro desde %{date}
     navigation:
@@ -614,11 +616,11 @@ pt-PT:
       favorites: Favoritos
       lists: Listas
       overview: Visão Geral
-      ratings: Pontuações
-      ratings_reviews: Pontuações & Críticas
+      ratings: Classificações
+      ratings_reviews: Classificações & Críticas
       recommendations: Recomendações
-      reviews: 
-      watchlist: Interesses
+      reviews: Críticas
+      watchlist: Lista de Interesses
     order: 'Ordem:'
     overview:
       30_day_activity: Atividade nos Últimos 30 Dias
@@ -633,43 +635,41 @@ pt-PT:
       goto_discussions: Ir para Discussões
       goto_watchlist: Ir para a Lista de Interesses
       most_watched_genres: Géneros Mais Vistos
-      rating_overview: Visão Geral das Pontuações
+      rating_overview: Visão Geral das Classificações
       recent_activity: Atividade Recente
       recent_discussions: Últimas Discussões
       total_edits: Número de Edições
-      total_ratings: Número de Pontuações
+      total_ratings: Número de Classificações
       upcoming_watchlist: A Estrear em Breve da Lista de Interesses
     page_title:
       page_owner: O Meu Perfil
       public: Perfil de %{username}
     ratings_reviews:
       my_ratings:
-        logged_in: As Minhas Pontuações
-        public: Pontuações de %{username}
+        logged_in: As Minhas Classificações
+        public: Classificações de %{username}
       my_reviews:
         logged_in: As Minhas Críticas
         public: Críticas de %{username}
       page_title:
-        page_owner: 'As Minhas Pontuações & Críticas
-
-          '
-        public: Pontuações & Críticas de %{username}
-      ratings_by_year: Pontuações Por Ano
+        page_owner: As Minhas Classificações & Críticas
+        public: Classificações & Críticas de %{username}
+      ratings_by_year: Classificações Por Ano
     recommendations:
       my_recommendations: As Minhas Recomendações
       no_recommendations: Ainda não temos informação suficiente para fazer recomendações.
       no_recommendations_helper: Tente adicionar mais alguns aos favoritos (quanto mais, melhor) e volte para conferir como ficou.
       page_title: Recomendações
     sort_options:
-      asc: 
-      desc: 
+      asc: Ascendente
+      desc: Decendente
     tips:
-      import_imdb_ratings: Pode importar as suas pontuações do IMDb.
+      import_imdb_ratings: Pode importar as suas classificações do IMDb.
       tip: Dica
     watchlist:
       my_watchlist:
         logged_in: A Minha Lista de Interesses
-        public: 
+        public: Lista de Interesses de %{username}
       next_month: Mês seguinte
       no_upcoming_movies:
         one: Não há nenhum Filme que estreará em breve na sua lista de interesses. No entanto, tem %{count} item na sua lista de interesses.
@@ -715,8 +715,8 @@ pt-PT:
   attributes:
     biography: Biografia
     certification: Classificação Etária
-    external_href: Endereço
-    homepage: Inicio
+    external_href: URL
+    homepage: Página Inicial
     iso_3166_1: País
     iso_639_1: Idioma
     normalized_email: E-mail
@@ -725,7 +725,7 @@ pt-PT:
     title: Título
     to_accounts_ids: Para
     translated_overview: Sinopse
-    tv_series_status: 
+    tv_series_status: Estado da Série de TV
   average edits per day: média de edições por dia
   back_options:
     back: Voltar
@@ -1288,7 +1288,7 @@ pt-PT:
         '6':
           meaning: 
   collection_includes: Inclui %{movie_titles}
-  confirm_delete: Deseja realmente eliminar este registo?
+  confirm_delete: Deseja realmente remover este registo?
   content_score:
     helper_tooltip: O preenchimento de conteúdo é uma forma de o ajudar a entender o quão completo estão os dados de um item na nossa base de dados.
     scale:
@@ -1321,14 +1321,14 @@ pt-PT:
     tv_shows_missing_a_overview: Séries de TV Sem Sinopse
   contribution_bible:
     abbreviations:
-      collection: col
-      image: img
-      movie: mov
-      people: ppl
+      collection: col.
+      image: im.
+      movie: fil.
+      people: pess.
       tv: tv
     collection:
-      collection: Colecções
-      collection_bible: Lista de Colecções
+      collection: Coleções
+      collection_bible: Bíblia das Coleções
       tall_bible:
         bottom: Bíblia
         top: Coleção
@@ -1336,37 +1336,37 @@ pt-PT:
     featured_articles: Artigos em Destaque
     general:
       general: Geral
-      general_bible: Lista Geral
+      general_bible: Bíblia Geral
     image:
       image: Imagens
-      image_bible: Lista de Imagens
+      image_bible: Bíblia das Imagens
     movie:
       movie: Filmes
-      movie_bible: Lista de Filmes
+      movie_bible: Bíblia dos Filmes
       tall_bible:
-        bottom: Lista
+        bottom: Bíblia
         top: Filme
     new_content:
       new_content: Novo Conteúdo
-      new_content_bible: 
+      new_content_bible: Bíblia do Novo Conteúdo
     note: Nota
     people:
       people: Pessoas
-      people_bible: 
+      people_bible: Bíblia das Pessoas
       tall_bible:
-        bottom: 
+        bottom: Bíblia
         top: Pessoas
-    pro_tip: Dica PRO
+    pro_tip: Dica Pro
     search:
       placeholder_1: Que tipo de ajuda precisa?
     tv:
       tall_bible:
-        bottom: 
-        top: 
-      tv: 
-      tv_bible: 
-    welcome_1: 
-    welcome_2: 
+        bottom: Bíblia
+        top: Séries TV
+      tv: Séries TV
+      tv_bible: Bíblia das Séries TV
+    welcome_1: Bem-Vindo(a) à
+    welcome_2: Bíblia de Contribuição
   cookie_popup:
     message: 
     ok_button: 
@@ -1426,7 +1426,7 @@ pt-PT:
     one: dia
     other: "%{count} dias"
   deleted_content:
-    entry_deleted: Registro Apagado
+    entry_deleted: Registo Removido
     reasons:
       '1':
         message: 
@@ -1439,12 +1439,14 @@ pt-PT:
         subject: É uma Série de TV
       '4':
         message: 
-        subject: É um registro falso
+        subject: É um registo falso
       '5':
         message: 
         subject: Isto é spam
     why_deleting: 
-  department_credits_count: 
+  department_credits_count:
+    one: "%{department} (%{count} crédito)"
+    other: "%{department} (%{count} créditos)"
   departments:
     Acting: Interpretações
     Actors: Atores/Atrizes
@@ -1464,7 +1466,7 @@ pt-PT:
     apply: 
     filters:
       air_dates:
-        air_dates: 
+        air_dates: Datas das Emissões
       certification:
         certification: 
       filters: 
@@ -1477,9 +1479,9 @@ pt-PT:
         tooltip: 
       minimum_user_votes: 
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: Filtrar por Emissora Televisiva...
+        network: Emissora
+      none_selected: Nenhum selecionado
       release_dates:
         from: 
         release_dates: 
@@ -1496,7 +1498,7 @@ pt-PT:
       sort:
         sort_results_by: 
       user_score:
-        user_score: 
+        user_score: Classificação Geral dos Utilizadores
       where_to_watch:
         country: 
         my_services:
@@ -1678,32 +1680,32 @@ pt-PT:
       catch_up_now: Coloque a conversa em dia
       discussions: Discussões
     taw:
-      read_the_2018_recap: 
-      read_the_2019_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Ler Recapitulativo de 2018
+      read_the_2019_recap: Ler Recapitulativo de 2019
+      thats_a_wrap: É isso! Acabou!
     tv_shows:
       episode_airs:
         in_days: Novo episódio em %{number_of_days} dias
-        today: 
-        tomorrow: 
+        today: Novo episódio emitido hoje
+        tomorrow: Novo episódio emitido amanhã
   images:
     confirm_delete: Tem a certeza que quer remover esta imagem?
     upload_criteria:
-      '1': Uma resolução máxima de 2000x3000
-      '2': Uma resolução mínima de 500x750
-      '3': 
-      '4': Uma resolução máxima de 3840x2160
-      '5': Uma resolução mínima de 400x225
-      '6': 
-      '7': 
-      '8': 
-      '9': 
-      backdrops_must_meet: 
-      episode_stills_must_meet: 
+      '1': Resolução máxima de 2000x3000
+      '2': Resolução mínima de 500x750
+      '3': Proporção de 1:1.5 (2:3)
+      '4': Resolução máxima de 3840x2160
+      '5': Resolução mínima de 400x225
+      '6': São suportadas imagens de proporção de 16:9 (1.78:1) e 4:3
+      '7': Resolução mínima de 1280x720
+      '8': Proporção de 16:9 (1.78:1)
+      '9': Resolução mínima de 300x450
+      backdrops_must_meet: 'As imagens de fundo devem respeitar os seguintes critérios:'
+      episode_stills_must_meet: 'As imagens dos episódios devem respeitar os seguintes critérios:'
       posters_must_meet: 'Os Cartazes devem respeitar os seguintes critérios:'
-      profile_must_meet: 
-      read_guidelines: 
-      tip: 
+      profile_must_meet: 'As imagens do perfil devem respeitar os seguintes critérios:'
+      read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">regras de contribuição de imagens</a>.
+      tip: Se o seu navegador suportar, pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar ficheiros..." e escolher a imagem do seu computador.
   invalid_aspect_ratio: Essa proporção do aspecto é inválida.
   item_count:
     one: "%{count} item"
@@ -1714,17 +1716,17 @@ pt-PT:
     '"C" Camera Operator': 
     '"D" Camera Operator': 
     24 Frame Playback: Operador(a) de Reprodução em 24 Frames
-    2D Artist: 
+    2D Artist: Artista 2D
     2D Sequence Supervisor: Supervisor(a) de Sequência 2D
     2D Supervisor: Supervisor(a) 2D
-    3D Animator: 
-    3D Artist: 
-    3D Coordinator: 
-    3D Digital Colorist: 
-    3D Director: Realizador(a) de efeitos 3D
-    3D Editor: 
-    3D Generalist: 
-    3D Modeller: 
+    3D Animator: Animador(a) 3D
+    3D Artist: Artista 3D
+    3D Coordinator: Coordenador(a) 3D
+    3D Digital Colorist: Colorista Digital 3D
+    3D Director: Diretor(a) de efeitos 3D
+    3D Editor: Editor 3D
+    3D Generalist: Generalista 3D
+    3D Modeller: Modelador 3D
     3D Sequence Supervisor: Supervisor(a) de Sequência 3D
     3D Supervisor: Supervisor(a) 3D
     3D Tracking Layout: Layout de Rastreamento 3D
@@ -1758,7 +1760,7 @@ pt-PT:
     Additional Editor: Editor(a) Adicional
     Additional Editorial Assistant: Assistente Adicional de Editorial
     Additional Effects Development: Desenvolvimento de Efeitos Adicionais
-    Additional First Assistant Camera: Auxiliar de Primeiro Assistente de Câmera
+    Additional First Assistant Camera: Auxiliar de Primeiro(a) Assistente de Câmera
     Additional Gaffer: Eletricista Mestre Adicional
     Additional Grip: Maquinista Adicional
     Additional Hairstylist: Auxiliar de Estilista de Cabelos
@@ -1779,7 +1781,7 @@ pt-PT:
     Additional Sound Re-Recording Mixer: Misturador(a) Adicional de Regravação de Som
     Additional Sound Re-Recordist: Regravador(a) Adicional de Som
     Additional Soundtrack: Banda Sonora Adicional
-    Additional Still Photographer: 
+    Additional Still Photographer: Auxiliar de Fotógrafo(a) de Cena
     Additional Storyboarding: Auxiliar de Guião
     Additional Third Assistant Director: Terceiro Assistente Adicional de Realizador
     Additional Underwater Photography: 
@@ -1815,11 +1817,11 @@ pt-PT:
     Art Department Assistant: Assistente do Departamento de Arte
     Art Department Coordinator: Coordenador(a) do Departamento de Arte
     Art Department Manager: Gestor(a) do Departamento de Artes
-    Art Department Production Assistant: 
-    Art Department Trainee: 
-    Art Designer: 
+    Art Department Production Assistant: Assistente de Produção do Departamento de Arte
+    Art Department Trainee: Estagiário(a) de Departamento de Arte
+    Art Designer: Projetista de Arte
     Art Direction: Direção de Arte
-    Art Direction Intern: 
+    Art Direction Intern: Direção de Arte Interna
     Assistant Accountant: 
     Assistant Art Director: Assistente do Diretor(a) de Arte
     Assistant Camera: 
@@ -1839,14 +1841,14 @@ pt-PT:
     Assistant Gaffer: Assistente de Eletricista Mestre
     Assistant Grip: 
     Assistant Hairdresser: 
-    Assistant Hairstylist: 
+    Assistant Hairstylist: Assistente de Estilista de Cabelos
     Assistant Location Manager: Assistente de Gestor(a) de Locais de Filmagem
     Assistant Makeup Artist: 
     Assistant Music Supervisor: Supervisor(a) Assistente de Música
     Assistant Picture Car Coordinator: 
     Assistant Picture Editor: 
     Assistant Production Coordinator: 
-    Assistant Production Design: 
+    Assistant Production Design: Assistente de Desenho de Produção
     Assistant Production Manager: 
     Assistant Property Master: 
     Assistant Script: 
@@ -1902,7 +1904,7 @@ pt-PT:
     Camera Production Assistant: 
     Camera Supervisor: Supervisor(a) de Câmara
     Camera Technician: Técnico de Câmara
-    Camera Trainee: 
+    Camera Trainee: 'Estagiário(a) de Câmara '
     Camera Truck: 
     Captain Driver: 
     Carpenter: Carpinteiro
@@ -1919,7 +1921,7 @@ pt-PT:
     Catering Head Chef: 
     Chaperone: 
     Chaperone Tutor: 
-    Character Designer: 
+    Character Designer: Projetista de Personagens
     Character Modelling Supervisor: Supervisor(a) de Modelagem de Personagens
     Character Technical Supervisor: Supervisor(a) Técnico(a) de Personagens
     Characters: Personagens
@@ -1975,7 +1977,7 @@ pt-PT:
     Costume Consultant: 
     Costume Coordinator: 
     Costume Design: Figurinista
-    Costume Designer: 
+    Costume Designer: Figurinista
     Costume Illustrator: 
     Costume Mistress: 
     Costume Set Supervisor: Supervisor(a) de Figurino no Cenário
@@ -1988,8 +1990,8 @@ pt-PT:
     Creative Producer: Produtor(a) Criativo(a)
     Creator: Criador(a)
     Creature Design: Projetista de Criaturas
-    Creature Effects Technical Director: 
-    Creature Technical Director: 
+    Creature Effects Technical Director: Diretor(a) Técnico(a) de Efeitos de Criaturas
+    Creature Technical Director: Diretor(a) Técnico(a) de Criaturas
     Crowd Assistant Director: 
     Cyber Scanning Supervisor: Supervisor(a) de Digitalização Cibernética
     Dailies Manager: 
@@ -2016,7 +2018,7 @@ pt-PT:
     Digital Conform Editor: 
     Digital Effects Producer: 
     Digital Effects Supervisor: Supervisor(a) de Efeitos Especiais
-    Digital Film Recording: 
+    Digital Film Recording: Engenheiro(a) de Gravação de Filmes Digitais
     Digital Foley Artist: Artista Digital de Efeitos Sonoros (Foley)
     Digital Imaging Technician: 
     Digital Intermediate: Intermediário(a) Digital
@@ -2082,18 +2084,18 @@ pt-PT:
     Film Processor: 
     Finance: Finanças
     Finishing Producer: 
-    First Assistant "A" Camera: 
-    First Assistant "B" Camera: 
-    First Assistant "C" Camera: 
-    First Assistant "D" Camera: 
-    First Assistant Accountant: 
-    First Assistant Art Direction: 
+    First Assistant "A" Camera: Primeiro(a) Assistente de Câmera "A"
+    First Assistant "B" Camera: Primeiro(a) Assistente de Câmera "B"
+    First Assistant "C" Camera: Primeiro(a) Assistente de Câmera "C"
+    First Assistant "D" Camera: Primeiro(a) Assistente de Câmera "D"
+    First Assistant Accountant: Primeiro(a) Assistente de Contador(a)
+    First Assistant Art Direction: Primeiro(a) Assistente de Direção de Arte
     First Assistant Camera: Câmara Assistente Principal
-    First Assistant Director: 
-    First Assistant Director (Prep): 
-    First Assistant Director Trainee: 
+    First Assistant Director: Primeiro(a) Assistente de Realização
+    First Assistant Director (Prep): Primeiro(a) Assistente de Realização (Prep)
+    First Assistant Director Trainee: Estagiário(a) de Primeiro(a) Assistente de Realização
     First Assistant Editor: Editor(a) Assistente Principal
-    First Assistant Hairstylist: 
+    First Assistant Hairstylist: Primeiro Assistente de Estilista de Cabelos
     First Assistant Makeup Artist: 
     First Assistant Picture Editor: 
     First Assistant Production Coordinator: 
@@ -2115,7 +2117,7 @@ pt-PT:
     Generalist: 
     Generator Operator: 
     Genetator Operator: 
-    Graphic Designer: 
+    Graphic Designer: Projetista Gráfico
     Graphic Novel: 
     Graphic Novel Illustrator: Ilustrador Gráfico
     Greensman: Paisagista
@@ -2131,7 +2133,7 @@ pt-PT:
     Hairstylist: Cabeleireiro(a)
     Head Carpenter: 
     Head Decorator: 
-    Head Designer: 
+    Head Designer: Projetista Principal
     Head Driver: 
     Head Greensman: 
     Head of Animation: 
@@ -2182,9 +2184,9 @@ pt-PT:
     Layout: Esboço
     Layout Supervisor: 
     Lead Animator: 
-    Lead Character Designer: 
+    Lead Character Designer: Projetista de Personagem Principal
     Lead Costumer: 
-    Lead Creature Designer: 
+    Lead Creature Designer: Projetista de Criatura Principal
     Lead Editor: 
     Lead Painter: Pintor(a) Chefe
     Lead Set Dresser: 
@@ -2218,15 +2220,15 @@ pt-PT:
     Loop Group Coordinator: 
     Lyricist: 
     Machinist: Maquinista
-    Main Title Designer: 
-    Main Title Theme Composer: 
+    Main Title Designer: Projetista de Título Principal
+    Main Title Theme Composer: Compositor(a) do Tema dos Títulos Principais
     Makeup & Hair: 
     Makeup & Hair Assistant: 
     Makeup Artist: Maqueador(a)
     Makeup Department Head: Chefe do Departamento de Maquiagem
     Makeup Designer: Projetista de Maquiagem
     Makeup Effects: Efeitos de Maquiagem
-    Makeup Effects Designer: 
+    Makeup Effects Designer: Projetista de Efeitos de Maquiagem
     Makeup Supervisor: 
     Makeup Trainee: 
     Manager of Operations: Gestor(a) de Operações
@@ -2238,8 +2240,8 @@ pt-PT:
     Matchmove Supervisor: 
     Matte Painter: 
     Mechanical & Creature Designer: Projetista de Mecânica e Criaturas
-    Mechanical Designer: 
-    Medical Consultant: 
+    Mechanical Designer: Projetista de Mecânica
+    Medical Consultant: Consultor Médico
     Military Consultant: 
     Mix Technician: Técnico(a) de Mixagem
     Mixing Engineer: Engenheiro(a) de Mistura
@@ -2256,7 +2258,7 @@ pt-PT:
     Music Editor: Editor(a) de Música
     Music Producer: 
     Music Programmer: 
-    Music Score Producer: 
+    Music Score Producer: Produtor(a) de Partitura Musical
     Music Sound Design and Processing: 
     Music Supervision Assistant: 
     Music Supervisor: Supervisor(a) de Música
@@ -2322,7 +2324,7 @@ pt-PT:
     Production Controller: Controlador de Produção
     Production Coordinator: Coordenador(a) de Produção
     Production Design: Projetista de Produção
-    Production Designer: 
+    Production Designer: Projetista de Produção
     Production Director: Diretor(a) de Produção
     Production Driver: 
     Production Executive: 
@@ -2340,7 +2342,7 @@ pt-PT:
     Production Trainee: 
     Project Manager: 
     Projection: 'Projeção '
-    Prop Designer: 
+    Prop Designer: Projetista de Adereços
     Prop Maker: Aderecista
     Property Builder: 
     Property Buyer: 
@@ -2393,7 +2395,7 @@ pt-PT:
     Second Assistant "C" Camera: 
     Second Assistant "D" Camera: 
     Second Assistant Accountant: 
-    Second Assistant Art Director: 
+    Second Assistant Art Director: Segundo(a) Assistente de Diretor(a) de Artes
     Second Assistant Camera: 
     Second Assistant Director: 
     Second Assistant Director Trainee: 
@@ -2467,7 +2469,7 @@ pt-PT:
     Sound Director: Diretor(a) de Som
     Sound Editor: Editor(a) de Som
     Sound Effects: 
-    Sound Effects Designer: 
+    Sound Effects Designer: Projetista de Efeitos de Som
     Sound Effects Editor: Diretor(a) de Efeitos Sonoros
     Sound Engineer: Engenheiro(a) de Som
     Sound Mix Technician: 
@@ -2475,7 +2477,7 @@ pt-PT:
     Sound Montage Associate: Montador(a) de Som Associado(a)
     Sound Post Production Coordinator: Coordenador(a) de Som Pós-Produção
     Sound Post Supervisor: Pós-Supervisor de Som
-    Sound Re-Recording Assistant: 
+    Sound Re-Recording Assistant: Assistente de Gravador(a) de Som
     Sound Re-Recording Mixer: Misturador(a) de Regravação de Som
     Sound Recordist: Gravador(a) de Som
     Sound Supervisor: 
@@ -2499,7 +2501,7 @@ pt-PT:
     Staff Writer: Membro da Equipa de Guionistas
     Stage Director: 
     Stand In: Ator/Atriz Substituto(a)
-    Standby Art Director: 
+    Standby Art Director: Diretor(a) de Artes
     Standby Carpenter: 
     Standby Painter: Pintor(a) de Recurso
     Standby Property Master: 
@@ -2510,7 +2512,7 @@ pt-PT:
     Stereoscopic Editor: 
     Stereoscopic Supervisor: 
     Stereoscopic Technical Director: 
-    Still Photographer: Fotógrafo(a) de Still
+    Still Photographer: Fotógrafo(a) de Cena
     Story: História
     Story Artist: 
     Story Consultant: 
@@ -2548,7 +2550,7 @@ pt-PT:
     Swing: 
     Systems Administrators & Support: Administrador(a) de Sistemas & Suporte
     Tailor: 
-    Tattoo Designer: 
+    Tattoo Designer: Projetista de Tatuagem
     Tattooist: Tatuador(a)
     Technical Advisor: 
     Technical Supervisor: Supervisor(a) Técnico(a)
@@ -2567,7 +2569,7 @@ pt-PT:
     Third Assistant "D" Camera: 
     Third Assistant Camera: 
     Third Assistant Director: 
-    Title Designer: 
+    Title Designer: Projetista do Título
     Title Graphics: Gráficos de Título
     Title Illustration: 
     Trainee Production Coordinator: 
@@ -2586,7 +2588,7 @@ pt-PT:
     Underwater Director of Photography: 
     Underwater Epk Photographer: 
     Underwater Gaffer: Eletricista Mestre Subaquático
-    Underwater Stills Photographer: 
+    Underwater Stills Photographer: Fotógrafo(a) de Cenas Subaquáticas
     Unit Manager: Gestor(a) da Unidade
     Unit Medic: 
     Unit Production Manager: Gestor(a) da Unidade de Produção
@@ -2614,7 +2616,7 @@ pt-PT:
     Visual Effects Compositor: 
     Visual Effects Coordinator: Coordenador(a) de Efeitos Visuais
     Visual Effects Design Consultant: Consultor(a) de Projectos de Efeitos Visuais
-    Visual Effects Designer: 
+    Visual Effects Designer: Projetista de Efeitos Visuais
     Visual Effects Director: 
     Visual Effects Editor: Editor(a) de Efeitos Visuais
     Visual Effects Lineup: 
@@ -2635,8 +2637,8 @@ pt-PT:
     Wardrobe Supervisor: 
     Weapons Master: 
     Weapons Wrangler: 
-    Web Designer: 
-    Wig Designer: 
+    Web Designer: Projetista de Páginas da Internet
+    Wig Designer: Projetista de Perucas
     Wigmaker: Criador(a) de Perucas
     Writer: Escritor(a)
     Writers' Assistant: Assistente de Escritor
@@ -2727,9 +2729,9 @@ pt-PT:
     collection:
       edit:
         parts:
-          add: 
-          no_records: 
-      parts: 
+          add: Adicionar Filme
+          no_records: Não foi adicionado nenhum filme.
+      parts: Partes
     company:
       headquarters: Sede
       movie_page_title: 
@@ -2748,22 +2750,22 @@ pt-PT:
         genres: Selecione um género...
         job: Seleccione um Cargo...
         keywords: 
-        networks: Pesquise uma Rede Emissora...
+        networks: Pesquise por uma emissora
         person: Pesquise uma pessoa...
         production_companies: Pesquise uma produtora...
       success_fields_locked: Campos bloqueados.
       tooltips:
-        bible: 
+        bible: Para obter ajuda na edição de informações no TMDb, clique neste '?' para ler a Bíblia de Contribuição.
         homepage: Apenas a Página Oficial. Não é permitido páginas de fãs.
-        logo_format: 
+        logo_format: São suportados ficheiros SVG e PNG. Preferimos arquivos SVG, por serem independentes de resolução.
         original_title: O título original deverá ser introduzido no idioma original do item. Na maioria dos casos irá coincidir no idioma introduzido no campo "idioma original".
         overview: Ao escrever uma sinopse, tente ser breve, conciso e livre de spoilers.
         social_links: Os links das redes sociais são apenas para as páginas oficiais (verificadas). Páginas criadas por fãs não são aceites.
     external_links:
       visit_facebook: Visitar Facebook
-      visit_homepage: Visitar Página Oficial
+      visit_homepage: Visitar Página Inicial
       visit_instagram: Visitar Instagram
-      visit_justwatch: 
+      visit_justwatch: Visitar JustWatch
       visit_twitter: Visitar Twitter
     genre:
       movie_page_title: "%{name} Filmes"
@@ -2777,7 +2779,7 @@ pt-PT:
       no_profiles: 
       primary: Principal?
       types:
-        backdrop_stills: 
+        backdrop_stills: Cenas de Imagem de Fundo
     keyword:
       movie_page_title: '"%{name}" Filmes'
       tv_page_title: '"%{name}" Séries de TV'
@@ -2786,33 +2788,36 @@ pt-PT:
         adult:
           adult_movie: Filme para Adultos?
         alternative_titles:
-          no_records: Ainda não foram adicionados títulos alternativos.
+          no_records: Não foi adicionado nenhum título alternativo.
         cast:
-          no_records: 
+          no_records: Não foi adicionado nenhum membro do elenco.
         confirm_collection: 
-        confirm_video: 
+        confirm_video: |-
+          <p>Marcar um filme como um vídeo ajuda-nos a diferenciar os tipos de conteúdo que não são realmente filmes.</p>
+
+          <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então deve marcá-lo como um vídeo.</p>
         crew:
-          job_required: 
-          no_records: 
-          person_required: 
+          job_required: É necessário adicionar um cargo.
+          no_records: Não foi adicionado nenhum membro da equipa técnica.
+          person_required: É necessário adicionar uma pessoa
         genres:
           add_genre: Adicionar Género
-          no_records: Nenhum género foi adicionado.
+          no_records: Não foi adicionado nenhum género.
         keywords:
           add_keyword: Adicionar Palavra-chave
-          create: 
-          no_records: 
-          none_found: 
-          tip: 
+          create: Criar
+          no_records: Não foi adicionada nenhuma palavra-chave.
+          none_found: Nenhuma palavra-chave correspondente foi encontrada. Deseja criá-la?
+          tip: Como regra geral, pense em coisas que ajudem a descrever o enredo, a temática e a atmosfera.
         production_information:
           add_production_company: Adicionar Empresas de Produção
-          no_records: 
+          no_records: Não foi adicionada nenhuma empresa de produção.
           none_found: 
           production_company: 
         release_information:
-          no_records: 
+          no_records: Não foi adicionada nenhuma data de lançamento.
         videos:
-          no_records: 
+          no_records: Não foi adicionado nenhum video.
       statuses:
         Canceled: Cancelado
         In Production: Em Produção
@@ -2825,9 +2830,9 @@ pt-PT:
         alternative_names: Nomes Alternativos
         logos: Logótipos
         merge:
-          choose_destination: 
-          confirm_merge: 
-          merge: 
+          choose_destination: Escolha um registo de destino...
+          confirm_merge: Confirmar Combinação
+          merge: Combinar
           next: Seguinte
         primary_facts: Factos Básicos
         upload_logo: Enviar um Logótipo
@@ -2835,8 +2840,8 @@ pt-PT:
       name: Nome
       other_shows_on: Ver mais séries de %{name}
       search:
-        no_results: 
-        results: 
+        no_results: Não existem emissoras que correspondam à sua consulta.
+        results: Resultados para Emissora
       tv_page_title: Séries em %{name}
       upload_logo: Enviar um Logótipo
     no_results_found:
@@ -2847,7 +2852,7 @@ pt-PT:
     person:
       edit:
         alternative_names:
-          no_records: 
+          no_records: Não foi adicionado nenhum nome alternativo.
       gender:
         female: Feminino
         male: Masculino
@@ -2859,21 +2864,23 @@ pt-PT:
         tv_shows: 
       years_old: 
     rating:
-      rated_with_rating: Avaliado em %{value}
-      rating_count: 
-      score_breakdown: 
-      score_distribution: 
-      score_history: 
-      score_trend: 
+      rated_with_rating: Classificado em %{value}
+      rating_count:
+        one: "%{count} Classificação"
+        other: "%{count} Classificações"
+      score_breakdown: Repartição da Classificação
+      score_distribution: Distribuição das Classificações
+      score_history: Histórico das Classificações
+      score_trend: Tendência das Classificações
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: Títulos Alternativos
       backdrops: Imagens de Fundo
       cast_crew: 
       changes: Alterações
       fandom: 
       main: 
       media: 
-      overview: 
+      overview: Visão Geral
       posters: Cartazes
       profiles: Perfis
       release_dates: 
@@ -2902,7 +2909,7 @@ pt-PT:
     tv_episode:
       edit:
         guest_stars:
-          no_records: 
+          no_records: Não foi adicionada nenhuma estrela convidada.
         screened_as_part_of_season: Sim, como parte da temporada
         screened_confirm: 
         screened_label: 
@@ -2915,7 +2922,7 @@ pt-PT:
       edit:
         create_episode: Criar Episódio
         episodes:
-          no_records: 
+          no_records: Não foi adicionada nenhum episódio.
         screened_confirm: 
         screened_label: 
       season_cast: 
@@ -2931,11 +2938,11 @@ pt-PT:
         adult:
           adult_show: Séries de TV para Adultos?
         alternative_names:
-          no_records: 
+          no_records: Não foi adicionada nenhum nome alternativo.
         content_ratings:
-          no_records: 
+          no_records: Não foi adicionada nenhuma estrela convidada.
         creator:
-          no_records: 
+          no_records: Não foi adicionado(a) nenhum(a) criador(a).
         crew:
           no_season: 
         episode_groups:
@@ -2944,7 +2951,7 @@ pt-PT:
           episode_groups: Grupos de Episódios
           episodes:
             move_episodes: Mover Episódios Seleccionados
-            no_records: 
+            no_records: Não foi adicionado nenhum episódio a este grupo.
           grid:
             episodes: Episódios
             groups: Grupos
@@ -2954,7 +2961,7 @@ pt-PT:
               one: "%{count} episódio adicionado!"
               other: "%{count} episódios adicionados!"
           name: Nome do Grupo
-          no_records: 
+          no_records: Não foi adicionado nenhum grupo de episódios.
           type: Tipo
           types:
             '1': Data da Primeira Emissão
@@ -2965,21 +2972,23 @@ pt-PT:
             '6': 
             '7': 
         networks:
-          no_records: 
-          none_found: 
+          no_records: Não foi adicionada nenhuma emissora.
+          none_found: Nenhuma emissora correspondente foi encontrada. Deseja criá-la?
         regular_cast:
-          no_records: 
+          no_records: Não foi adicionado nenhum membro do elenco.
           no_season: 
         runtime:
           add_it: 
           enter_value: 
         seasons:
-          no_records: 
+          no_records: Não foi adicionada nenhuma temporada.
       episode_groups:
         groups:
           count: 
         original_air_date: 
-      networks: 
+      networks:
+        one: Emissora
+        other: Emissoras
       series_cast: 
       series_crew: 
       statuses:
@@ -3093,7 +3102,7 @@ pt-PT:
     current_user: Não adicionou nenhuma Série de TV favorita.
     public: "%{username}, não tem nenhuma Série de TV favorita."
   no_genres: Não foram adicionados géneros.
-  no_guest_stars: Não foram adicionados nenhuns convidados especiais.
+  no_guest_stars: Não foi adicionado nenhum convidado especial.
   no_keyword_search_results: Não existem palavras-chave que correspondam à sua busca.
   no_keywords: Não foram adicionadas nenhumas palavras-chave.
   no_list_search_results: Não existem listas que correspondam à sua busca.
@@ -3195,8 +3204,8 @@ pt-PT:
     other: "%{count} votos"
   ott:
     available_snippet:
-      flatrate: 
-      rent_or_buy: 
+      flatrate: Ver Online Agora
+      rent_or_buy: Disponível para Alugar ou Comprar
     description: 
     filters:
       4k: 
@@ -3213,12 +3222,12 @@ pt-PT:
       free: 
       rent: 
     no_offers:
-      4k: 
-      bluray: 
-      dvd: 
-      hd: 
-      none: 
-      sd: 
+      4k: Nenhuma oferta de 4K foi encontrada.
+      bluray: Nenhuma oferta de Bluray foi encontrada.
+      dvd: Nenhuma oferta de DVD foi encontrada.
+      hd: Nenhuma oferta de HD foi encontrada.
+      none: Não existe oferta para %{title}.
+      sd: Nenhuma oferta de SD foi encontrada.
     seasons: 
     view_offers: 
     watch_now: 
@@ -3313,9 +3322,9 @@ pt-PT:
         application_name: Nome da Aplicação
         date_authorised: Data da Autorização
     delete_account:
-      confirm_delete: 
+      confirm_delete: Confirmar Remoção
       delete_account: Remover Conta
-      page_title: 
+      page_title: Remover A Minha Conta
       summary_text: Acabou de entrar na <strong>Zona de Perigo</strong>! Se desejar prosseguir com a remoção da sua conta, insira a sua palavra-passe no campo abaixo e confirme.
     import_list:
       import_button: Importar
@@ -3424,7 +3433,7 @@ pt-PT:
       sharing_settings: Configurações de Partilha
       watchlist:
         remove_when_rated: Remover automaticamente os itens quando são avaliados?
-        share_publicly: 
+        share_publicly: Partilhar esta lista publicamente?
         watchlist_settings: Configurar Lista de Interesses
     social:
       connected_table:
