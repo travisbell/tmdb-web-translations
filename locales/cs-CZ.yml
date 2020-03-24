@@ -394,7 +394,7 @@ cs-CZ:
   Send: Odeslat
   Sessions: Relace
   Share: Sdílet
-  Share Link: 
+  Share Link: Sdílet odkaz
   Sharing: Sdílení
   Show: Zobrazit
   Show More: Zobrazit více
@@ -2681,7 +2681,7 @@ cs-CZ:
   joined: připojen
   keyboard_shortcuts:
     actions:
-      back_to_parent: zpět (nebo na nadřazený, pokud to jde)
+      back_to_parent: zpět (nebo na nadřazený záznam, pokud to jde)
       close_window: zavřít otevřené okno
       focus_search: zaměřit panel hledání
       go_to_edit: na stránku úprav
@@ -2766,8 +2766,8 @@ cs-CZ:
     collection:
       edit:
         parts:
-          add: 
-          no_records: 
+          add: Přidat film
+          no_records: Nebyly přidány žádné filmy.
       parts: Díly
     company:
       headquarters: Sídlo
@@ -2785,13 +2785,14 @@ cs-CZ:
           click_to_create: Klikněte pro vytvoření %{name}
           create_it: Vytvořit...
         genres: Vyberte žánr...
-        job: 
+        job: Vyberte povolání...
         keywords: Vyberte klíčové slovo...
         networks: Hledat stanici...
         person: Hledat osobu...
         production_companies: Hledat produkční společnost...
       success_fields_locked: Pole uzamčena.
       tooltips:
+        adult: 
         bible: Pro nápovědu k úpravám informací na TMDb klikněte na tento ‚?‘ pro přečtení bible přispívání.
         homepage: Pouze oficiální domovská stránka. Fanouškovské stránky nejsou povoleny.
         logo_format: Je podporováno SVG a PNG. Upřednostňováno je SVG, protože není závislé na rozlišení.
@@ -2809,14 +2810,14 @@ cs-CZ:
       tv_page_title: "%{name} seriály"
     images:
       format: Formát
-      no_backdrop_stills: 
+      no_backdrop_stills: K této položce nejsou přidána žádná pozadí.
       no_backdrops: K této položce nejsou přidána žádná pozadí.
       no_logos: K této položce nejsou přidána žádná loga.
       no_posters: K této položce nejsou přidány žádné plakáty.
       no_profiles: K této položce nejsou přidány žádné profily.
       primary: Primární?
       types:
-        backdrop_stills: 
+        backdrop_stills: Pozadí
     keyword:
       movie_page_title: "%{name} filmy"
       tv_page_title: "%{name} seriály"
@@ -2837,9 +2838,9 @@ cs-CZ:
 
           <p>Pokud je tento obsah například kompilací DVD, cvičební video nebo třeba DVD s výběrem „toho nejlepšího“, pak byste ho měli označit jako video.</p>
         crew:
-          job_required: 
+          job_required: Je vyžadováno povolání
           no_records: Nebyli přidáni žádní členové štábu.
-          person_required: 
+          person_required: Je vyžadována osoba
         genres:
           add_genre: Přidat žánr
           no_records: Nebyly přidány žádné žánry.
@@ -2867,10 +2868,10 @@ cs-CZ:
         Rumored: Nepotvrzeno
     network:
       edit:
-        alternative_names: Alternativní názvy
+        alternative_names: Alternativní jména
         logos: Loga
         merge:
-          choose_destination: 
+          choose_destination: Vyberte cílový záznam...
           confirm_merge: Potvrdit sloučení
           merge: Sloučit
           next: Další
@@ -2902,24 +2903,27 @@ cs-CZ:
       gender:
         female: Žena
         male: Muž
-        non_binary: 
+        non_binary: Nebinární
       media_types:
-        all: 
-        movies: 
-        tv: 
-        tv_shows: 
-      years_old: 
+        all: Vše
+        movies: Filmy
+        tv: Seriály
+        tv_shows: Seriály
+      years_old: "%{age} let"
     rating:
       rated_with_rating: Hodnoceno %{value}
-      rating_count: 
+      rating_count:
+        few: "%{count} hodnocení"
+        one: "%{count} hodnocení"
+        other: "%{count} hodnocení"
       score_breakdown: 
       score_distribution: 
       score_history: 
       score_trend: 
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: Alternativní názvy
       backdrops: Pozadí
-      cast_crew: 
+      cast_crew: Obsazení a tvůrci
       changes: Změny
       fandom: 
       main: Hlavní
@@ -3013,9 +3017,9 @@ cs-CZ:
             '2': Absolutní
             '3': DVD
             '4': Digitální
-            '5': 
+            '5': Dějová linie
             '6': Produkce
-            '7': 
+            '7': TV
         networks:
           no_records: Nebyly přidány žádné stanice.
           none_found: Nebyly nalezeny žádné odpovídající stanice. Chcete ji vytvořit?
@@ -3050,15 +3054,15 @@ cs-CZ:
       types:
         Documentary: Dokumentární
         Miniseries: Minisérie
-        News: Zprávy
+        News: Zpravodajský
         Reality: Reality
         Scripted: Podle scénáře
-        Talk Show: Televizní diskuse
+        Talk Show: Talk show
         Video: Video
     video:
       audio_language: Jazyk zvuku
       channel: Kanál
-      duration: Trvání
+      duration: Délka
       play_behind_the_scenes: Přehrát z natáčení
       play_blooper: Přehrát nepovedené záběry
       play_clip: Přehrát ukázku
@@ -3266,38 +3270,38 @@ cs-CZ:
   ott:
     available_snippet:
       flatrate: 
-      rent_or_buy: 
+      rent_or_buy: Dostupné k vypůjčení či zakoupení
     description: 
     filters:
-      4k: 
-      best_price: 
-      bluray: 
-      dvd: 
-      dvd_bluray: 
-      hd: 
-      sd: 
+      4k: 4K
+      best_price: Nejlepší cena
+      bluray: Blu-ray
+      dvd: DVD
+      dvd_bluray: DVD/Blu-ray
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Reklamy
+      buy: Koupit
+      flatrate: Přehrát
+      free: Zdarma
+      rent: Vypůjčit
     no_offers:
-      4k: 
-      bluray: 
-      dvd: 
-      hd: 
-      none: 
-      sd: 
+      4k: Nebyly nalezeny žádné nabídky 4K.
+      bluray: Nebyly nalezeny žádné nabídky Blu-ray.
+      dvd: Nebyly nalezeny žádné nabídky DVD.
+      hd: Nebyly nalezeny žádné nabídky HD.
+      none: Nebyly nalezeny žádné nabídky pro %{title}.
+      sd: Nebyly nalezeny žádné nabídky SD.
     seasons: 
-    view_offers: 
+    view_offers: Zobrazit nabídky
     watch_now: 
     watch_on:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Shlédnout %{name} na %{provider_name}
+      buy: Koupit %{name} od %{provider_name}
+      flatrate: Shlédnout %{name} na %{provider_name}
+      free: Shlédnout %{name} na %{provider_name}
+      rent: Vypůjčit %{name} od %{provider_name}
   pagination:
     currently_on: Aktuálně na stránce %{current_page} z %{total_pages}
     last_page: Poslední stránka
@@ -3340,7 +3344,7 @@ cs-CZ:
     trending_searches: Oblíbená hledání
     watchlist_movie: Hledat seznam filmů ke zhlédnutí…
     watchlist_tv: Hledat seznam seriálů ke zhlédnutí…
-  search_tip_1: 'Tip: Můžete použít filtr ‚y:‘ pro zúžení výsledků podle roku. Příklad: ‚star wars y:1977‘.'
+  search_tip_1: 'Tip: Pro omezení vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
   season_number_name: "%{season_number}. sezóna"
   season_overview:
     already_aired: "%{season_number}. sezóna seriálu %{show_name} měla premiéru %{date}."

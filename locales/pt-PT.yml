@@ -205,7 +205,7 @@ pt-PT:
   Hi: Olá,
   Hide favorites?: Ocultar favoritos?
   Hide items on watchlist?: Ocultar itens na Lista de Interesses?
-  Hide rated?: Ocultar os que foram Avaliados?
+  Hide rated?: Ocultar os que foram Classificados?
   Home: Início
   Homepage: Página Inicial
   IMDB ID: ID do IMDb
@@ -247,8 +247,8 @@ pt-PT:
   Login to add this movie to your favorite list: Inicie Sessão para adicionar este Filme à sua lista de favoritos
   Login to add this movie to your watchlist: Inicie Sessão para adicionar este Filme à sua Lista de Interesses
   Login to create and edit custom lists: Inicie Sessão para criar e editar listas pessoais
-  Login to rate this TV show: Inicie Sessão para avaliar esta Série de TV
-  Login to rate this movie: Inicie Sessão para avaliar este Filme
+  Login to rate this TV show: Inicie Sessão para classificar esta Série de TV
+  Login to rate this movie: Inicie Sessão para classificar este Filme
   Login to report an issue: Inicie Sessão para reportar um problema
   Logo: Logótipo
   Logos & Attribution: Atribuição & Logótipos
@@ -338,13 +338,13 @@ pt-PT:
   Public Report?: Reportar Publicamente?
   Quality: Qualidade
   Rank: Classificação
-  Rate It!: Avalie!
-  Rated: Avaliado
-  Rated Movies: Filmes Avaliados
-  Rated TV Shows: Séries de TV Avaliadas
-  Rating: Pontuação
-  Rating Ascending: Pontuação Ascendente
-  Rating Descending: Pontuação Descendente
+  Rate It!: Classificar!
+  Rated: Classificado
+  Rated Movies: Filmes Classificados
+  Rated TV Shows: Séries de TV Classificadas
+  Rating: Classificação
+  Rating Ascending: Classificação Ascendente
+  Rating Descending: Classificação Descendente
   Read More: Ler Mais
   Recent Blog Posts: Últimas Mensagens do Blogue
   Recent News: Últimas Notícias
@@ -450,8 +450,8 @@ pt-PT:
   Title (Z-A): Título (Z-A)
   Today: Hoje
   Top Billed Cast: Elenco Principal
-  Top Rated Movies: Filmes com Melhor Pontuação
-  Top Rated TV Shows: Séries de TV com Melhor Pontuação
+  Top Rated Movies: Filmes com Melhor Classificação
+  Top Rated TV Shows: Séries de TV com Melhor Classificação
   Top Users: Top de Utilizadores
   Translate Collection: Traduzir Coleção
   Translate Movie: Traduzir Filme
@@ -497,7 +497,7 @@ pt-PT:
   Year: Ano
   'Yes': Sim
   Your lists: As suas listas
-  Your rating: A sua pontuação
+  Your rating: Classificar
   Zip Code: Código Postal
   account_drop_down:
     discussions: Discussões
@@ -2681,7 +2681,7 @@ pt-PT:
     view_keyboard_shorcuts: Ver Atalhos de Teclado
     view_shortcuts: Ver Atalhos
   list_info:
-    average_rating: Média das Pontuações
+    average_rating: Média das Classificações
     image_selected: Selecionada
     items_on_list:
       many: itens nesta lista
@@ -2700,7 +2700,7 @@ pt-PT:
     item_removed: Item removido.
   list_sort:
     original_order: Ordem Original
-    rating: Pontuação
+    rating: Classificação
     release_date: Data de Lançamento
     title: Título
   list_steps:
@@ -2755,6 +2755,7 @@ pt-PT:
         production_companies: Pesquise uma produtora...
       success_fields_locked: Campos bloqueados.
       tooltips:
+        adult: 
         bible: Para obter ajuda na edição de informações no TMDb, clique neste '?' para ler a Bíblia de Contribuição.
         homepage: Apenas a Página Oficial. Não é permitido páginas de fãs.
         logo_format: São suportados ficheiros SVG e PNG. Preferimos arquivos SVG, por serem independentes de resolução.
@@ -3074,7 +3075,7 @@ pt-PT:
     movies:
       now_playing: Em Exibição
       popular: Populares
-      top_rated: Melhor Pontuação
+      top_rated: Melhor Classificação
       upcoming: Brevemente
     people:
       people: Pessoas
@@ -3084,7 +3085,7 @@ pt-PT:
       on_the_air: Em Exibição
       on_tv: Na TV
       popular: Populares
-      top_rated: Melhor Pontuação
+      top_rated: Melhor Classificação
   no_biography: Não temos uma biografia para %{name}.
   no_cast: Não temos nenhum elenco para este %{media_type}. Pode ajudar adicionando alguém!
   no_collection_search_results: Não existem coleções que correspondam à sua busca.
@@ -3111,17 +3112,17 @@ pt-PT:
   no_overview: Não temos sinopse em Português. Ajude-nos a ampliar a nossa base de dados adicionando uma.
   no_person_search_results: Não existem pessoas que correspondam à sua busca.
   no_personal_recommendations:
-    movie: Para obter recomendações de Filmes comece por marcar todos os seus Filmes favoritos. Feito isso, irá provavelmente reparar que a maioria dos Filmes que recomendamos são aqueles que viu. Para filtrar esses, avalie-os! Após estarem avaliados, deixarão de ser recomendados.
-    tv: Para obter recomendações de Séries de TV comece por marcar todas as suas séries favoritas. Feito isso, irá provavelmente reparar que a maioria das séries que recomendamos são aquelas que viu. Para filtrar essas, avalie-as! Após estarem avaliadas, deixarão de ser recomendadas.
+    movie: Para obter recomendações de Filmes comece por marcar todos os seus Filmes favoritos. Feito isso, irá provavelmente reparar que a maioria dos Filmes que recomendamos são aqueles que viu. Para filtrar esses, classifique-os! Após estarem classificados, deixarão de ser recomendados.
+    tv: Para obter recomendações de Séries de TV comece por marcar todas as suas séries favoritas. Feito isso, irá provavelmente reparar que a maioria das séries que recomendamos são aquelas que viu. Para filtrar essas, classifique-as! Após estarem classificadas, deixarão de ser recomendadas.
   no_rated_movies:
-    current_user: Não avaliou nenhum Filme.
-    public: "%{username}, não avaliou nenhum Filme."
+    current_user: Não classificou nenhum Filme.
+    public: "%{username}, não classificou nenhum Filme."
   no_rated_tv_shows:
-    current_user: Não avaliou nenhuma Série de TV.
-    public: "%{username}, não avaliou nenhuma Série de TV."
+    current_user: Não classificou nenhuma Série de TV.
+    public: "%{username}, não classificou nenhuma Série de TV."
   no_recommendations:
-    movie: Não temos dados suficientes para lhe sugerir qualquer Filme baseado em "%{title}". Poderá ajudar ao avaliar os Filmes que já viu.
-    tv_show: Não temos dados suficientes para lhe sugerir qualquer Série de TV baseado em "%{title}". Poderá ajudar ao avaliar as Séries de TV que já viu.
+    movie: Não temos dados suficientes para lhe sugerir qualquer Filme baseado em "%{title}". Poderá ajudar ao classificar os Filmes que já viu.
+    tv_show: Não temos dados suficientes para lhe sugerir qualquer Série de TV baseado em "%{title}". Poderá ajudar ao classificar as Séries de TV que já viu.
   no_records: Não foi adicionado nenhum vídeo.
   no_tv_search_results: Não existem Séries de TV que correspondam à sua busca.
   no_watchlist_movies:
@@ -3270,8 +3271,8 @@ pt-PT:
       tv_show: Série de TV
     no_results: Sem resultados
     no_results_found: Não foram encontrados resultados
-    rated_movie: Procure Filmes avaliados...
-    rated_tv: Procure Séries de TV avaliadas...
+    rated_movie: Procure Filmes classificados...
+    rated_tv: Procure Séries de TV classificadas...
     recommendations_movie: Procurar por recomendações pessoais de Filmes...
     recommendations_tv: Procurar por recomendações pessoais de Séries de TV
     search_results: 
@@ -3353,7 +3354,7 @@ pt-PT:
             already_imported: Já foi importada.
             cant_find_imdb: Não encontramos esta ID do IMDb.
             imdb_id_not_in_row: 
-            personal_rating_invalid: A sua avaliação pessoal é inválida (deve ser entre 0.5 e 10.0)
+            personal_rating_invalid: A sua classificação pessoal é inválida (deve ser entre 0.5 e 10.0)
             personal_rating_not_found: 
             row_is_invalid: 
             updated_date: Data da última actualização.
@@ -3367,7 +3368,7 @@ pt-PT:
       select_csv: Selecionar ficheiro CSV
       type:
         favorite: Favorita
-        rated: Pontuação
+        rated: Classificação
         watchlist: Lista de Interesses
       which_list: Importar para qual lista?
     navigation:
@@ -3428,11 +3429,11 @@ pt-PT:
         share_publicly: Partilhar esta lista publicamente?
       page_title: 
       rated_list:
-        rated_settings: Configurar Lista de Pontuações
+        rated_settings: Configurar Lista de Classificações
         share_publicly: Partilhar esta lista publicamente?
       sharing_settings: Configurações de Partilha
       watchlist:
-        remove_when_rated: Remover automaticamente os itens quando são avaliados?
+        remove_when_rated: Remover automaticamente os itens quando são classificados?
         share_publicly: Partilhar esta lista publicamente?
         watchlist_settings: Configurar Lista de Interesses
     social:
@@ -3469,9 +3470,9 @@ pt-PT:
   success_approved_access_token: Permissão concedida!
   success_deleted: O item selecionado foi removido com sucesso.
   success_email: E-mail enviado com sucesso.
-  success_image_rated: Avaliou a imagem com sucesso.
+  success_image_rated: Classificou a imagem com sucesso.
   success_image_uploaded: A imagem foi carregada com sucesso.
-  success_rating: A sua pontuação foi guardada.
+  success_rating: A sua Classificação foi guardada.
   success_registration: O seu registo foi concluído com sucesso.
   success_report: O que reportou foi submetido com sucesso.
   success_saved: As suas alterações foram guardadas com sucesso.
