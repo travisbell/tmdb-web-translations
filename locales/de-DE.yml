@@ -484,7 +484,7 @@ de-DE:
   View All Seasons: Alle Staffeln anzeigen
   View All Videos: Alle Videos anzeigen
   View Discussions: Diskussionen anzeigen
-  View Edit History: Zeige Änderungsverlauf an
+  View Edit History: Änderungsverlauf
   View Episodes: Episoden anzeigen
   View More: Mehr anzeigen
   View Original: Original anzeigen
@@ -1294,9 +1294,9 @@ de-DE:
   content_score:
     helper_tooltip: Der „Datenstand” gibt Auskunft über die Vollständigkeit eines Datensatzes in der Datenbank.
     scale:
-      '0': Fange irgendwo an...
+      '0': Irgendwo muss man anfange...
       '1': Hey, es geht los.
-      '10': Jawohl! Das sieht gut aus!
+      '10': Genial! Das sieht gut aus!
       '2': Wir kommen voran.
       '3': Gut Ding will Weile haben...
       '4': Ein Team kennt kein „Ich”...
@@ -1487,13 +1487,15 @@ de-DE:
     Lighting: Licht
     Production: Produktion
     Sound: Ton
-    Visual Effects: Visuelle Effekte
+    Visual Effects: ''
     Writing: Drehbuch
   discover:
     apply: anwenden
     filters:
       air_dates:
         air_dates: Ausstrahlung
+        search_all_episodes: 
+        search_first_air_date: 
       certification:
         certification: Zertifizierung
       filters: Filter
@@ -1512,6 +1514,7 @@ de-DE:
       release_dates:
         from: von
         release_dates: Veröffentlichungen
+        search_release_dates: 
         to: bis
       runtime: Spielzeit
       show_me:
@@ -1706,6 +1709,29 @@ de-DE:
     discussions:
       catch_up_now: Jetzt loslegen
       discussions: Diskussionen
+    header:
+      quick_snippet_1: 
+      welcome_1: 
+    panels:
+      community:
+        join_today: 
+      filters:
+        for_rent: 
+        in_theaters: 
+        movies: 
+        on_tv: 
+        streaming: 
+        this_week: 
+        today: 
+        tv: 
+      free_to_watch: 
+      latest_trailers: 
+      leaderboard:
+        all_time: 
+        leaderboard: 
+        this_week: 
+      trending: 
+      whats_popular: 
     taw:
       read_the_2018_recap: Sieh dir den Rückblick von 2018 an
       read_the_2019_recap: Sieh dir den Rückblick von 2019 an
@@ -2673,14 +2699,14 @@ de-DE:
     actions:
       back_to_parent: Zurück
       close_window: Fenster schließen
-      focus_search: Sucheingabe
+      focus_search: Fokus auf Suchfeld
       go_to_edit: Editieren
       last_reply: Letzte Antwort anzeigen
       new_discussion: Neue Diskussion erstellen
       next_episode: Nächste Episode
       next_page: Nächste Seite
       next_season: Nächste Staffel
-      open_activity: Diskussionsverlauf zeigen
+      open_activity: Diskussionsverlauf anzeigen
       open_add_image_window: Poster oder Hintergrundbild hinzufügen
       open_profile: Profil öffnen
       open_shortcut_window: Tastenkürzel anzeigen
