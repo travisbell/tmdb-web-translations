@@ -12,7 +12,7 @@ de-DE:
   API Stats: API-Statistiken
   API Status Codes: 
   API Terms: API-Nutzungsbedingungen
-  API Terms of Use: API Nutzungsbedingungen
+  API Terms of Use: API-Nutzungsbedingungen
   API Updates: Updates
   About: Über
   About TMDb: Über TMDb
@@ -174,7 +174,7 @@ de-DE:
   Extras: Extras
   FAQ: FAQ
   Facts: Fakten
-  Fallback Language: Fallbacksprache
+  Fallback Language: Ausweichsprache
   Favorite: Favorit
   Favorite Movies: Filmfavoriten
   Favorite TV Shows: Se­rienfavoriten
@@ -184,7 +184,7 @@ de-DE:
   Featured Crew: Haupt-Crew
   Featured Lists: Ausgewählte Listen
   Filter: Filter
-  Filter Profanity?: Obszönitäten/Vulgäre Ausdrücke filtern?
+  Filter Profanity?: Obszönität bzw. vulgäre Ausdrücke filtern?
   Filter by genre: Nach Genre filtern
   Filter by genres: Nach Genre filtern
   Filter by keywords: Nach Schlüsselwörtern filtern
@@ -330,7 +330,7 @@ de-DE:
   Powered by The Movie Database: Powered by The Movie Database
   Premiere: Premiere
   Preview: Vorschau
-  Primary Color: Primäre Farbe
+  Primary Color: Primärfarbe
   Primary Facts: Hauptfakten
   Primary?: Vorrangig?
   Privacy Policy: Datenschutzerklärung
@@ -389,9 +389,9 @@ de-DE:
   Season Number: Staffelnummer
   Season Overview: Staffelhandlung
   Season Regulars: 
-  Season Specials: Staffel Specials
+  Season Specials: Staffel-Extras
   Seasons: Staffeln
-  Secondary Color: Zweite Farbe
+  Secondary Color: Sekundärfarbe
   See Episodes: Folgen zeigen
   Select One: Bitte auswählen...
   Select a category: Wähle eine Kategorie...
@@ -410,7 +410,7 @@ de-DE:
   Sort Cast: Darsteller sortieren
   Sort Regular Cast: Gastdarsteller sortieren
   Source Key: YouTube Video ID
-  Specials: Specials
+  Specials: Extras
   Spoken Languages: Gesprochene Sprachen
   State: Land
   Stats: Statistiken
@@ -431,7 +431,7 @@ de-DE:
   Support Forums: Support
   System Status: Status
   TV: TV
-  TV Network: TV Sender
+  TV Network: Sendergruppe
   TV Recommendations: Serienempfehlungen
   TV Show Data: Zur Serie
   TV Show Results: Ergebnisse (Serien)
@@ -632,7 +632,7 @@ de-DE:
         logged_in: Du hast kürzlich nichts editiert.
         public: "%{username} hat kürzlich nichts editiert."
       empty_upcoming_watchlist:
-        logged_in: Kein Film aus deiner Watchliste erscheint demnächst.
+        logged_in: Kein Film ist bald erhältlich.
       empty_watched_genres:
         logged_in: Du hast keine Filme oder Serien gespeichert.
         public: "%{username} hat bisher keine Filme oder Serien gespeichert."
@@ -1498,7 +1498,7 @@ de-DE:
         search_first_air_date: 
       availability:
         availabilities: Verfügbarkeit
-        search_all_availabilities: 
+        search_all_availabilities: Alle
       certification:
         certification: Altersfreigabe
       filters: Filter
@@ -1509,37 +1509,37 @@ de-DE:
       language:
         language: Sprache
         tooltip: 
-      minimum_user_votes: 
+      minimum_user_votes: Anzahl Benutzerbewertungen
       network:
-        filter_by_network: 
-        network: 
+        filter_by_network: Nach Sendern filtern
+        network: Sender
       none_selected: Nichts ausgewählt
       release_dates:
         from: Von
-        release_dates: Veröffentlichungen
-        search_all_countries: 
-        search_release_dates: 
+        release_dates: Erscheinungsjahr
+        search_all_countries: Alle Produktionsländer
+        search_release_dates: Alle Erscheinungsjahre
         to: Bis
-      runtime: Spielzeit
+      runtime: Laufzeit
       show_me:
         everything: Alles
-        movies_have_seen: Filme die ich gesehen habe
-        movies_havent_seen: Filme die ich nicht gesehen habe
+        movies_have_seen: Filme, die ich gesehen habe
+        movies_havent_seen: Filme, die ich nicht gesehen habe
         show_me: Zeige mir
         tooltip: 
-        tv_shows_have_seen: Serien die gesehen habe
-        tv_shows_havent_seen: Serien die ich nicht gesehen habe
+        tv_shows_have_seen: Serien, die gesehen habe
+        tv_shows_havent_seen: Serien, die ich nicht gesehen habe
       sort:
         sort_results_by: Sortierreihenfolge
       user_score:
-        user_score: 
+        user_score: Benutzerbewertung
       where_to_watch:
         country: Land
         my_services:
           my_services: Meine Anbieter
-          restrict: Suche auf abonierte Anbieter beschränken?
+          restrict: Nur abonierte Anbieter anzeigen
           restrict_tooltip: 
-        where_to_watch: 
+        where_to_watch: Streamingdienste
       years:
         years: Jahre
     no_items: Es wurden keine Ergebnisse zu deiner Anfrage gefunden.
@@ -1714,7 +1714,7 @@ de-DE:
       catch_up_now: Jetzt loslegen
       discussions: Diskussionen
     header:
-      quick_snippet_1: 
+      quick_snippet_1: Entdecke Millionen von FIlmen, Serien und Personen.
       welcome_1: Willkommen.
     panels:
       community:
@@ -1729,7 +1729,7 @@ de-DE:
         this_week: Diese Woche
         today: Heute
         tv: 
-      free_to_watch: 
+      free_to_watch: Kostenlos
       latest_trailers: Neuste Trailer
       leaderboard:
         all_time: Beiträge insgesamt
@@ -2888,7 +2888,7 @@ de-DE:
     network:
       edit:
         alternative_names: Alternativnamen
-        logos: 
+        logos: Senderlogo
         merge:
           choose_destination: Wähle den Inhalt für eine Zusammenführung...
           confirm_merge: Bestätige Zusammenführung
@@ -2896,14 +2896,14 @@ de-DE:
           next: Weiter
         primary_facts: Allgemein
         upload_logo: Logo hochladen
-      logos: Logos
-      name: Name
+      logos: Senderlogo
+      name: ''
       other_shows_on: Zeige weitere Serien von %{name}...
       search:
         no_results: Es gibt keine Sender die zu deiner abfrage passen.
         results: 
       tv_page_title: Serien bei %{name}
-      upload_logo: Logo hochladen
+      upload_logo: Senderlogo hochladen
     no_results_found:
       movie: Keine Filme gefunden.
       tv: Keine Serien gefunden.
@@ -3028,11 +3028,11 @@ de-DE:
           types:
             '1': Erstausstrahlung
             '2': Absolut
-            '3': DVD
-            '4': Digital
-            '5': Handlung
+            '3': ''
+            '4': ''
+            '5': Handlungsbogen
             '6': Produktion
-            '7': TV
+            '7': ''
         networks:
           no_records: Es wurden keine Sender hinzugefügt.
           none_found: Keine passenden Sender wurden gefunden. Möchtest du ein erstellen?
@@ -3049,7 +3049,7 @@ de-DE:
           count:
             one: "%{count} Teil"
             other: "%{count} Teile"
-        original_air_date: Original Erstausstrahlung
+        original_air_date: Erstausstrahlung
       networks:
         one: Sender
         other: Sender
@@ -3059,23 +3059,23 @@ de-DE:
         Canceled: Eingestellt
         Ended: Beendet
         In Production: In Produktion
-        Pilot: Pilot
+        Pilot: ''
         Planned: Geplant
         Returning Series: Wiederkehrend
       types:
         Documentary: Dokumentation
         Miniseries: Miniserie
-        News: News
+        News: ''
         Reality: Reality-TV
         Scripted: Geskriptet
         Talk Show: Talkshow
-        Video: Video
+        Video: ''
     video:
       audio_language: Tonspur
       channel: Kanal
       duration: Länge
       play_behind_the_scenes: Hinter den Kulissen abspielen
-      play_blooper: Patzer abspielen
+      play_blooper: Outtakes abspielen
       play_clip: Clip abspielen
       play_featurette: Featurette abspielen
       play_opening_credits: Vorspann abspielen
@@ -3273,36 +3273,36 @@ de-DE:
     other: "%{count} Bewertungen"
   ott:
     available_snippet:
-      flatrate: Jetzt streamen
+      flatrate: Als Stream verfügbar
       rent_or_buy: Zum Mieten oder Kaufen verfügbar
-    description: Mit JustWatch findest du leicht heraus, wo du deine Lieblingsfilme und TV-Serien legal ansehen kannst. Besuche {justwatch_link} für weitere Informationen.
+    description: Mit JustWatch findest du leicht heraus, wo du deine Lieblingsfilme und Serien legal ansehen kannst. Besuche {justwatch_link} für weitere Informationen.
     filters:
-      4k: 4K
+      4k: ''
       best_price: Bestpreis
-      bluray: Blu-ray
-      dvd: DVD
-      dvd_bluray: DVD/Blu-Ray
-      hd: HD
-      sd: SD
+      bluray: ''
+      dvd: ''
+      dvd_bluray: ''
+      hd: ''
+      sd: ''
     monetization_types:
-      ads: Werbung
+      ads: Mit Werbung
       buy: Kaufen
-      flatrate: Stream
+      flatrate: ''
       free: Kostenlos
       rent: Mieten
     no_offers:
       4k: Keine 4K Angebote gefunden.
       bluray: Keine Blu-Ray Angebote.
-      dvd: Keine DVD Angebote.
-      hd: Keine HD Angebote gefunden.
+      dvd: Keine DVD-Angebote.
+      hd: Keine HD-Angebote gefunden.
       none: Keine Angebote für %{title}.
-      sd: Keine SD Angebot gefunden.
+      sd: Keine SD-Angebote gefunden.
     seasons:
       many: "%{count} Staffeln"
       one: "%{count} Staffel"
       other: "%{count} Staffeln"
-    view_offers: 
-    watch_now: 
+    view_offers: Zeige Angebote
+    watch_now: Jetzt anschauen
     watch_on:
       ads: Schaue %{name} bei %{provider_name}
       buy: Kaufe %{name} bei %{provider_name}
