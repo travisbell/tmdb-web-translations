@@ -6,13 +6,13 @@ lt-LT:
   API Details: API detalės
   API Key: API raktas
   API Libraries: API bibliotekos
-  API Overview: API Apžvalga
+  API Overview: API apžvalga
   API Read Access Token: API prieigos raktas
-  API Sessions: API Sesijos
+  API Sessions: API sesijos
   API Stats: API statistika
-  API Status Codes: API Būsenos kodai
+  API Status Codes: API būsenos kodai
   API Terms: API sąlygos
-  API Terms of Use: API Naudojimo sąlygos
+  API Terms of Use: API naudojimo sąlygos
   API Updates: API atnaujinimai
   About: Apie
   About TMDb: Apie TMDb
@@ -126,7 +126,7 @@ lt-LT:
   Day of Death: Mirties diena
   Default Language: Numatytoji kalba
   Delete: Pašalinti
-  Delete Collection: Panaikinti Kolekciją
+  Delete Collection: Panaikinti Rinkinį
   Delete Keyword: Pašalinti raktažodį
   Delete Movie: Pašalinti filmą
   Delete Person: Pašalinti asmenį
@@ -316,7 +316,7 @@ lt-LT:
   Personal Info: Asmeninė informacija
   Personal Recommendations: Asmeninės rekomendacijos
   Phone Number: Telefono numeris
-  Physical: Fizinis
+  Physical: Laikmena
   Place of Birth: Gimimo vieta
   Play: Žiūrėti
   Plot Keywords: Siužeto raktažodžiai
@@ -369,7 +369,7 @@ lt-LT:
   Remove from your favorite list: Pašalinti iš sąrašo mėgstamiausi
   Remove from your watchlist: Pašalinti iš stebėraščio
   Remove?: Pašalinti?
-  Report: Pranešti
+  Report: Problemos
   Report an Issue: Pranešti apie problemą
   Reported Issues: Pranešti apie problemas
   Request an API Key: API rakto užklausa
@@ -401,7 +401,7 @@ lt-LT:
   Send: Siųsti
   Sessions: Sesijos
   Share: Dalintis
-  Share Link: 
+  Share Link: Dalytis nuoroda
   Sharing: Dalijimasis
   Show: Rodyti
   Show More: Rodyti daugiau
@@ -432,7 +432,7 @@ lt-LT:
   Summary: Suvestinė
   Support: Palaikymas
   Support Forums: Palaikymo forumai
-  System Status: 
+  System Status: Sistemos būsena
   TV: TV
   TV Network: TV transliuotojas
   TV Recommendations: TV rekomendacijos
@@ -476,7 +476,7 @@ lt-LT:
   Upcoming Movies: Greitai kinuose
   Update: Atnaujinti
   Upload Logo: Įkelti logotipą
-  User Score: Lankytojų įvertinimas
+  User Score: Lankytojų reitingas
   Username: Vartotojo vardas
   Video?: Vaizdo įrašas?
   View: Rodymas
@@ -560,7 +560,7 @@ lt-LT:
             Bounce: Atšokęs
             Complaint: Skundas
             Delivery: Pristatyta
-            Unsubscribed: Prenumeruota
+            Unsubscribed: Atšaukta prenumerata
             status: Būsena
         number_of_items:
           few: "%{count} El.paštai"
@@ -707,8 +707,8 @@ lt-LT:
       message: API vartotojas, kuris šiuo metu autentifikuojamas, negalioja.
       title: Neteisingas API naudotojas
     missing_request_token:
-      message: Norint autentifikuoti vartotojo paskyras, reikalingas užklausos ženklas.
-      title: Trūksta užklausos ženklo
+      message: Norint autentifikuoti vartotojo paskyras, reikalingas prieigos raktas.
+      title: Trūksta prieigos rakto
     request_token_approval:
       message: "{{APP}} prašo jūsų leidimo nuskaityti ir įrašyti duomenis jūsų vardu. Tai būtina, jei norite daryti tokius dalykus, kaip išsaugoti sąrašus ar įvertinti filmus už TMDb ribų."
     statuses:
@@ -719,8 +719,8 @@ lt-LT:
         message: "<p> Atsisakėte prieigos prie <strong>%{application_name}</strong>. Jei tai buvo klaida arba norėtumėte iš naujo paleisti autentifikavimo procesą, tiesiog grįžkite į taikomąją programą ir vėl prašykite leidimo.</p>"
         name: Autentifikavimas neleidžiamas
       invalid_request_token:
-        message: Pateiktas prieigos ženklas negalioja. Dažniausiai yra dėl to, kad baigėsi galiojimo laikas. Pabandykite sukurti naują ir įsitikinkite, kad jį teisingai nukopijavote. Jei ir toliau kyla problemų, kreipkitės į naudojamos programos kūrėją.
-        name: Neteisingas užklausos ženklas
+        message: Pateiktas prieigos raktas negalioja. Dažniausiai yra dėl to, kad baigėsi galiojimo laikas. Pabandykite sukurti naują ir įsitikinkite, kad jį teisingai nukopijavote. Jei ir toliau kyla problemų, kreipkitės į naudojamos programos kūrėją.
+        name: Neteisingas prieigos raktas
   attributes:
     biography: Biografija
     certification: Klasifikavimas
@@ -1481,33 +1481,33 @@ lt-LT:
         availabilities: Galimi
         search_all_availabilities: Ieškoti visų galimų?
       certification:
-        certification: 
-      filters: 
+        certification: Klasifikacija
+      filters: Filtruoti
       genres:
-        genres: 
+        genres: Žanrai
       keywords:
-        keywords: 
+        keywords: Raktažodžiai
       language:
-        language: 
-        tooltip: 
-      minimum_user_votes: 
+        language: Kalba
+        tooltip: Filtruoti pagal originalią kalbą.
+      minimum_user_votes: Mažiausiai balsavo
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: Filtruoti pagal TV tinklus ...
+        network: Transliuotajai
+      none_selected: Nepasirinkta
       release_dates:
-        from: 
-        release_dates: 
-        search_all_countries: 
-        search_release_dates: 
-        to: 
-      runtime: 
+        from: nuo
+        release_dates: Išleidimo datos
+        search_all_countries: Ieškoti pagal visas šalis?
+        search_release_dates: Ieškoti pagal visus išleidimus?
+        to: iki
+      runtime: Trukmė
       show_me:
-        everything: 
-        movies_have_seen: 
-        movies_havent_seen: 
-        show_me: Rodyk
-        tooltip: 
+        everything: Viskas
+        movies_have_seen: Filmai, kuriuos mačiau
+        movies_havent_seen: Filmai, kurių nemačiau
+        show_me: Rodyti
+        tooltip: Prisijunkite, jei norite filtruoti stebimus.
         tv_shows_have_seen: TV laidos, kurias mačiau
         tv_shows_havent_seen: Televizijos laidos, kurių aš dar nemačiau
       sort:
@@ -1517,7 +1517,7 @@ lt-LT:
       where_to_watch:
         country: Šalis
         my_services:
-          my_services: Mano paslaugos
+          my_services: Prenumeratos
           restrict: Apriboti paieškas prenumeratose?
           restrict_tooltip: Prisijunkite, kad galėtumėte tvarkyti prenumeratas.
         where_to_watch: Kur žiūrėti
@@ -1535,7 +1535,7 @@ lt-LT:
       close_discussion: Baigti diskusiją
       make_private: Asmeniška
       make_public: Vieša
-      mark_spam: Pranešti apie šlamštą
+      mark_spam: Pažymėti kaip šlamštą
       reopen_discussion: Atnaujinti diskusiją
       stop_watching: Nustoti stebėti
       view_activity: Peržiūrėti veiklą
@@ -1553,8 +1553,8 @@ lt-LT:
         general: Pagrindinis
         website_support: Svetainės palaikymas
       support:
-        api_requests: API užklausimas
-        api_requests_(professional): API užklausimas (Specialistams)
+        api_requests: API užklausos
+        api_requests_(professional): API užklausos (Specialistams)
         api_support: API palaikymas
         content_issues: Turinio problemos
         general: Pagrindinis
@@ -1652,7 +1652,7 @@ lt-LT:
       sad_to_go: "%{username}, gaila su tavim atsisveikinti!"
       subscription_changed: Jūsų prenumeratos nustatymai buvo atnaujinti. Pranešimų nustatymus galite redaguoti apsilankę <a href="%{account_link}">pranešimų nustatymų </a> puslapyje.
       unsubscribe: 
-      unsubscribed: 
+      unsubscribed: <strong>Atšaukėte prenumeratą</strong>. Jei tai padarėte per klaidą, galite iš naujo prenumeruoti apsilankę <a href="%{account_link}">pranešimų nustatymų</a> puslapyje.
   episode_count:
     few: "%{count} epizodai"
     one: "%{count} epizodas"
@@ -1672,7 +1672,7 @@ lt-LT:
       inclusion: turi būti pasirinkta
       invalid: negalioja
       required: turi egzistuoti
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: yra atšauktas arba baigtas, todėl naujų sezonų sukurti negalima.
       suspected_tv_series: tikriausiai egzistuojanti TV laida ar mini serialas, galite tęsti šio elemento įkėlimą, jei esate tuo tikras, bet jei jis yra mūsų TV skyriuje, jis bus pašalintas
       taken: jau buvo paimta
     movie:
@@ -1699,28 +1699,28 @@ lt-LT:
       discussions: Diskusijos
     header:
       quick_snippet_1: 
-      welcome_1: 
+      welcome_1: Sveikas!
     panels:
       community:
-        join_today: 
-        sign_up: 
+        join_today: Prisijunk dabar
+        sign_up: Registruotis
       filters:
-        for_rent: 
-        in_theaters: 
-        movies: 
-        on_tv: 
-        streaming: 
-        this_week: 
-        today: 
-        tv: 
-      free_to_watch: 
-      latest_trailers: 
+        for_rent: Išsinuomoti
+        in_theaters: Kinuose
+        movies: Filmai
+        on_tv: Per TV
+        streaming: Internetu
+        this_week: Šią savaitę
+        today: Šiandien
+        tv: TV
+      free_to_watch: 'Žiūrėti nemokamai '
+      latest_trailers: Naujausi treileriai
       leaderboard:
         all_time: Redaguota per visą laiką
         leaderboard: Lyderių lentelė
         this_week: Redaguota šią savaitę
-      trending: Tendencija
-      whats_popular: Kas populiaru
+      trending: Tendencijos
+      whats_popular: Populiaru
     taw:
       read_the_2018_recap: "2018 metų retrospektyva\n\n"
       read_the_2019_recap: 2019 metų retrospektyva
@@ -2234,7 +2234,7 @@ lt-LT:
     Lead Painter: Vedantysis dailininkas
     Lead Set Dresser: 
     Leadman: 
-    Legal Services: Legalios paslaugos
+    Legal Services: 
     Libra Head Technician: 
     Lighting Artist: Apšvietimo meistras
     Lighting Camera: Apšvietimo kamera
@@ -2908,7 +2908,7 @@ lt-LT:
       gender:
         female: Moteris
         male: Vyras
-        non_binary: 
+        non_binary: Belytis
       media_types:
         all: Visi
         movies: Filmų
@@ -2926,19 +2926,19 @@ lt-LT:
       score_history: Rezultatų istorija
       score_trend: Rezultatų tendencija
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: Alternatyvūs pavadinimai
       backdrops: Filmo scenos
       cast_crew: Aktoriai ir Filmavimo komanda
       changes: Pakeitimai
-      fandom: 
+      fandom: Gerbėjams
       main: Pagrindinis
-      media: 
-      overview: 
+      media: Mediateka
+      overview: Apžvalga
       posters: Plakatai
       profiles: Profiliai
-      release_dates: 
+      release_dates: Išleidimo datos
       reviews: Apžvalgos
-      translations: 
+      translations: Vertimai
       videos: Vaizdo įrašai
     social_panel:
       discussions:
@@ -2948,7 +2948,7 @@ lt-LT:
         want_to_be_notified: Norite gauti pranešimus, kai kas nors pateikia pirmąjį įrašą?
         yes_notify_me: Taip, pranešk man!
       reviews:
-        a_review_by: "%{username} rezencija"
+        a_review_by: "%{username} recenzija"
         by: Parašė %{username}, %{date}
         featured_review: Populiari recenzija
         no_review:
@@ -2979,7 +2979,7 @@ lt-LT:
         screened_confirm: Jei šis sezonas buvo rodomas kino festivalyje ar teatre, spustelėkite 'Taip', kad tęstumėte.
         screened_label: Ar šis epizodas buvo rodytas teatre?
       season_cast: Sezono aktoriai
-      season_crew: 
+      season_crew: Sezono filmavimo grupė
       season_selector:
         current_season: Dabartinis sezonas
         last_season: Paskutinis sezonas
@@ -3048,7 +3048,7 @@ lt-LT:
         one: Transliuotojas
         other: Transliuotojai
       series_cast: Epizodo aktoriai
-      series_crew: 
+      series_crew: Epizodo filmavimo grupė
       statuses:
         Canceled: Atšauktas
         Ended: Baigėsi
@@ -3119,8 +3119,8 @@ lt-LT:
       my_archive: Mano archyvas
       my_inbox: Mano gautieji
       new_message: Nauja žinutė
-      support_archive: Pagalbos archyvas
-      support_inbox: 
+      support_archive: Archyvas
+      support_inbox: Pagalbos gautieji
     translate: 
   month:
     few: "%{count} mėnesius"
@@ -3271,7 +3271,7 @@ lt-LT:
     available_snippet:
       flatrate: Perduodama srautu
       rent_or_buy: Galima išsinuomoti ar nusipirkti
-    description: "„JustWatch“ leidžia lengvai rasti, kur galite legaliai žiūrėti mėgstamus filmus ir TV laidas internete. Norėdami gauti daugiau informacijos, apsilankykite {justwatch_link}."
+    description: Su „JustWatch“ lengva rasti, kur galima legaliai žiūrėti mėgstamus filmus ir TV laidas internetu. Norėdami gauti daugiau informacijos, apsilankykite {justwatch_link}.
     filters:
       4k: 4K
       best_price: Geriausia kaina
@@ -3283,7 +3283,7 @@ lt-LT:
     monetization_types:
       ads: Reklama
       buy: Pirkti
-      flatrate: Srautu
+      flatrate: Internetu
       free: Nemokamai
       rent: Nuoma
     no_offers:
@@ -3295,13 +3295,13 @@ lt-LT:
       sd: 
     seasons: 
     view_offers: 
-    watch_now: 
+    watch_now: Žiūrėk dabar
     watch_on:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Žiūrėk %{name} per %{provider_name}
+      buy: Nusipirk %{name} per %{provider_name}
+      flatrate: Žiūrėk %{name} per %{provider_name}
+      free: Žiūrėk %{name} per %{provider_name}
+      rent: Išsinuomok %{name} per %{provider_name}
   pagination:
     currently_on: Šiuo metu puslapyje %{current_page} iš %{total_pages}
     last_page: Paskutinis puslapis
@@ -3339,7 +3339,7 @@ lt-LT:
     rated_tv: Ieškoti reitinguojamų TV laidų ...
     recommendations_movie: Ieškokite savo asmeninių filmų rekomendacijų ...
     recommendations_tv: Ieškokite savo asmeninių TV rekomendacijų ...
-    search_results: 
+    search_results: Paieškos rezultatai
     trending: Tendencijos
     trending_searches: Dažniausiai ieško
     watchlist_movie: Ieškoti filmo stebėraštyje...
@@ -3355,7 +3355,7 @@ lt-LT:
       page_title: 
     api:
       api: API
-      create_page_title: 
+      create_page_title: Sukurti naują API raktą
       directory:
         page_title: Programų direktorija
       navigation:
@@ -3381,7 +3381,7 @@ lt-LT:
       connected_apps: Prijungtos programėlės
       listed_below_explanation: Žemiau išvardytos trečiųjų šalių programos, kurioms įgaliojate įrašyti duomenis jūsų vardu. Galite atšaukti šiuos įgaliojimus bet kuriuo metu.
       no_apps: Nesate prijungę prie paskyros jokių programėlių.
-      page_title: Prijungtos programos
+      page_title: Mano prijungtos programėlės
       table:
         action: Veiksmai
         application_name: Programėlės pavadinimas
@@ -3416,8 +3416,8 @@ lt-LT:
           item: Elementas
           item_reasons:
             already_imported: Jau importuota.
-            cant_find_imdb: Nepavyko rasti IMDb ID.
-            imdb_id_not_in_row: "„The IMDb“ identifikatorius šioje eilutėje nerastas."
+            cant_find_imdb: Nepavyko rasti IMDb identifikatoriaus.
+            imdb_id_not_in_row: IMDb identifikatorius šioje eilutėje nerastas.
             personal_rating_invalid: Jūsų įvertinimas yra neteisingas (turėtų būti nuo 0.5 iki 10.0).
             personal_rating_not_found: Šioje eilutėje nėra jūsų įvertinimo.
             row_is_invalid: Ši eilutė negalioja.
@@ -3447,7 +3447,7 @@ lt-LT:
       settings: Nustatymai
       sharing_settings: Bendrinimo nustatymai
       social_settings: Socialinių tinklų nustatymai
-      streaming_services: Srautinės paslaugos
+      streaming_services: Transliacijos internetu
     notifications:
       api_updates: Siųsti man informaciją apie API pakeitimus ir atnaujinimus
       email_new_releases_watchlist: Pranešti el. paštu apie greitai pasirodysiančius filmus mano stebėraštyje?
@@ -3522,8 +3522,8 @@ lt-LT:
       social_settings: Socialinių tinklų nustatymai
       supported_template_values: 'Palaikomos šablono reikšmės:'
     streaming_services:
-      page_title: 
-      streaming_services: 
+      page_title: Mano transliacijos internetu
+      streaming_services: Transliacijos internetu
   sign_up:
     benefits:
       benefits_to_being_member: Privalumai būti nariu
@@ -3562,12 +3562,12 @@ lt-LT:
   used_by_developers: TMDb naudojasi daugiau nei 200,000 kūrėjų.<br>Susipažinkite su jų darbais žemiau.
   videos:
     filters:
-      language: 
+      language: Kalba
       sort:
-        published_at_asc: 
-        published_at_desc: 
-        sort: 
-      type: 
+        published_at_asc: Paskelbta (seniausias pirma)
+        published_at_desc: Paskelbta (naujausias pirma)
+        sort: Rūšiuoti
+      type: Tipas
     number_of_videos:
       few: "%{count} vaizdo įrašai"
       one: "%{count} vaizdo įrašas"
