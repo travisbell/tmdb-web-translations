@@ -3046,7 +3046,11 @@ sr-RS:
             groups: Групе
           group: Група
           messages:
-            episodes_added: 
+            episodes_added:
+              few: "%{count} епизоде додате!"
+              many: "%{count} епизода додато!"
+              one: "%{count} епизода додата!"
+              other: "%{count} епизода додато!"
           name: Име групе
           no_records: 
           type: Врста
@@ -3314,10 +3318,10 @@ sr-RS:
     other: "%{count} гласова"
   ott:
     available_sentences:
-      ads: 
-      buy: 
-      free: 
-      rent: 
+      ads: гледај са рекламама
+      buy: купи
+      free: гледај бесплатно
+      rent: изнајми
       sentence: 
       stream: 
     available_snippet:
@@ -3346,7 +3350,11 @@ sr-RS:
       hd: 
       none: 
       sd: 
-    seasons: 
+    seasons:
+      few: "%{count} сезоне"
+      many: "%{count} сезона"
+      one: "%{count} сезона"
+      other: "%{count} сезона"
     view_offers: Погледати  понуде
     watch_now: Гледајте га сада
     watch_on:
@@ -3595,6 +3603,7 @@ sr-RS:
   success_saved: Твоје промене су успешно сачуване.
   success_set_language: Језик је ажуриран.
   success_sharing: Порука је успешно подељена.
+  the: 
   time:
     formats:
       12hour_minutes: 
@@ -3616,7 +3625,11 @@ sr-RS:
         published_at_desc: 
         sort: Сортирај
       type: Врста
-    number_of_videos: 
+    number_of_videos:
+      few: "%{count} видеa"
+      many: "%{count} видеa"
+      one: "%{count} видео"
+      other: "%{count} видеa"
     official_channel: Званични канал
     page_title: "%{name} видео канал"
     popular: Популарно
