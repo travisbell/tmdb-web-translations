@@ -286,7 +286,7 @@ he-IL:
   Now Playing Movies: סרטים המוקרנים כיום
   Number of Movies: מספר סרטים
   Number of TV Shows: מספר סדרות
-  Number of edits in the past: מספר עריכות בעבר
+  Number of edits in the past: מספר עריכות במשך
   Offensive or Spam: פוגעני או זבל
   Offical Site: אתר רשמי
   Offline Databases: מסדי נתונים אי־מקוונים
@@ -384,7 +384,7 @@ he-IL:
   Search for a language: חפש שפה...
   Search for a movie: חפש סרט
   Search for a movie or TV show: חפש סרט או סדרה
-  Search for a movie, TV show, person: "...חפש סרט, סדרה או אדם"
+  Search for a movie, TV show, person: חפש סרט, סדרה או אדם
   Season: עונה
   Season Number: מספר עונה
   Season Overview: תקציר עונה
@@ -405,7 +405,7 @@ he-IL:
   Site: אתר
   Size: גודל
   Social: חברתי
-  Sort: מיין
+  Sort: מיון
   Sort By: מיין לפי
   Sort Cast: מיין מלוהקים
   Sort Regular Cast: מיין מלוהקים קבועים
@@ -1296,7 +1296,7 @@ he-IL:
     scale:
       '0': חייבים להתחיל איפשהו
       '1': היי, זאת התחלה
-      '10': כן! נראה מעולה!
+      '10': כן! נִרְאֶה מעולה
       '2': אנחנו מתקרבים לשם
       '3': רומא לא נבנתה ביום אחד
       '4': אין 'אני' בצוות
@@ -1508,7 +1508,7 @@ he-IL:
         keywords: מילות מפתח
       language:
         language: שפה
-        tooltip: סנן פריטים על סמך השפה המקורית שלהם.
+        tooltip: סנן פריטים על סמך השפה המקורית שלהם
       minimum_user_votes: הצבעות משתמשים מזעריות
       network:
         filter_by_network: "...סנן לפי רשתות טלוויזיה"
@@ -1526,7 +1526,7 @@ he-IL:
         movies_have_seen: סרטים שראיתי
         movies_havent_seen: סרטים שלא ראיתי
         show_me: הראה לי
-        tooltip: התחבר כדי לסנן פריטים שצפית בהם כבר.
+        tooltip: התחבר כדי לסנן פריטים שצפית בהם כבר
         tv_shows_have_seen: סדרות שראיתי
         tv_shows_havent_seen: סדרות שלא ראיתי
       sort:
@@ -1537,8 +1537,8 @@ he-IL:
         country: מדינה
         my_services:
           my_services: השירותים שלי
-          restrict: האם להגביל חיפושים אל השירותים שאתה מנוי אליהם?
-          restrict_tooltip: התחבר כדי לנהל את השירותים שאתה מנוי אליהם.
+          restrict: הגבל חיפושים אל השירותים שאני מנוי אליהם
+          restrict_tooltip: התחבר כדי לנהל את השירותים שאתה מנוי אליהם
         where_to_watch: איפה לצפות
       years:
         years: שנים
@@ -1712,12 +1712,12 @@ he-IL:
   homepage:
     community:
       benefits_list:
-        '1': 
-        '2': 
-        '3': 
-        '4': 
-        '5': 
-        '6': 
+        '1': תהנה מטי־אם־די־בי נטול פרסומות
+        '2': תחזק רשימה אישית של צפייה
+        '3': סנן לפי שירותי ההזרמה שאני מנוי ומצא משהו לצפות
+        '4': כתוב ביומן את הסרטים והסדרות שראית
+        '5': בנה רשימות מותאמות אישית
+        '6': תרום אל מסד הנתונים שלנו ושפר אותו
     discussions:
       catch_up_now: ".התעדכן עכשיו"
       discussions: דיונים
@@ -2805,6 +2805,8 @@ he-IL:
       genres_updated: סוגות עודכנו
       lock_all_fields: נעל את כל השדות
       lock_all_images: נעל את כל התמונות
+      lock_existing_cast: 
+      lock_existing_crew: 
       page_title: ערוך את %{name}
       placeholders:
         country: "...בחר מדינה"
@@ -3154,7 +3156,7 @@ he-IL:
       movies: סרטים
       tv_shows: סדרות
     more:
-      more: 
+      more: עוד
     movies:
       now_playing: מוקרנים כיום
       popular: פופולרי
@@ -3288,16 +3290,16 @@ he-IL:
     other: "%{count} הצבעות"
   ott:
     available_sentences:
-      ads: 
-      buy: 
-      free: 
-      rent: 
-      sentence: 
-      stream: 
+      ads: צפה עם פרסומות
+      buy: קנה
+      free: צפה בחינם
+      rent: שכור
+      sentence: "%{title} זמין כרגע אל %{available_types} ב%{country}"
+      stream: הזרם
     available_snippet:
       flatrate: מוזרם כעת
       rent_or_buy: זמין להשכרה או למכירה
-      summary_sentence: 
+      summary_sentence: "%{service_name} בשירות %{available_snippet}"
     description: ".JustWatch הופך לקל את הגילוי איפה אתה יכול לצפות באופן חוקי בסרטים ובסדרות המועדפים עליך. בקר ב{justwatch_link} לעוד מידע"
     filters:
       4k: 4K
@@ -3578,7 +3580,7 @@ he-IL:
   success_saved: השינויים שלך נשמרו בהצלחה.
   success_set_language: השפה עודכנה.
   success_sharing: הודעתך שותפה בהצלחה.
-  the: 
+  the: ה
   time:
     formats:
       12hour_minutes: "%l:%M%p"

@@ -6,13 +6,13 @@ zh-CN:
   API Details: API 详细信息
   API Key: API 密钥
   API Libraries: API 库
-  API Overview: 
+  API Overview: API 概述
   API Read Access Token: API 读访问令牌
-  API Sessions: 
+  API Sessions: API 会话
   API Stats: API 统计
-  API Status Codes: 
+  API Status Codes: API 状态码
   API Terms: API 条款
-  API Terms of Use: 
+  API Terms of Use: 'API 使用条款 '
   API Updates: API 更新
   About: 关于
   About TMDb: 关于 TMDb
@@ -506,7 +506,7 @@ zh-CN:
   account_drop_down:
     discussions: 讨论
     edit_profile: 编辑用户资料
-    join_tmdb: 
+    join_tmdb: 加入 TMDb
     lists: 收藏表
     login: 登录
     logout: 注销
@@ -526,7 +526,7 @@ zh-CN:
         deleted: 删除
         updated: 修改
       media_types:
-        all: 
+        all: 全部
         movies: 电影
         others: 其他
         people: 人物
@@ -623,7 +623,7 @@ zh-CN:
       ratings: 评分
       ratings_reviews: 评分
       recommendations: 推荐给我
-      reviews: 
+      reviews: 概览
       watchlist: 待看清单
     order: 排序：
     overview:
@@ -665,8 +665,8 @@ zh-CN:
       no_recommendations_helper: 尝试添加一些收藏（越多越好）再回来看有何变化。
       page_title: 推荐
     sort_options:
-      asc: 
-      desc: 
+      asc: 升序
+      desc: 降序
     tips:
       import_imdb_ratings: 可以从 IMDb 导入你的评分。
       tip: 提示
@@ -1484,64 +1484,64 @@ zh-CN:
     Visual Effects: 视效
     Writing: 编剧
   discover:
-    apply: 
+    apply: 应用
     filters:
       air_dates:
-        air_dates: 
-        search_all_episodes: 
-        search_first_air_date: 
+        air_dates: 播出日期
+        search_all_episodes: 搜索所有集？
+        search_first_air_date: 搜索首播日期？
       availability:
-        availabilities: 
-        search_all_availabilities: 
+        availabilities: 可观看
+        search_all_availabilities: 搜索所有可观看？
       certification:
-        certification: 
-      filters: 
+        certification: 分级
+      filters: 筛选
       genres:
-        genres: 
+        genres: 分类
       keywords:
-        keywords: 
+        keywords: 关键字
       language:
-        language: 
-        tooltip: 
-      minimum_user_votes: 
+        language: 语言
+        tooltip: 基于原语言筛选项目
+      minimum_user_votes: 最少投票人数
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: 按电视台筛选
+        network: 电视台
+      none_selected: 未选择
       release_dates:
-        from: 
-        release_dates: 
-        search_all_countries: 
-        search_release_dates: 
-        to: 
-      runtime: 
+        from: 从
+        release_dates: 上映日期
+        search_all_countries: 搜索所有国家？
+        search_release_dates: 搜索所有上映日期？
+        to: 到
+      runtime: 时长
       show_me:
-        everything: 
-        movies_have_seen: 
-        movies_havent_seen: 
-        show_me: 
-        tooltip: 
-        tv_shows_have_seen: 
-        tv_shows_havent_seen: 
+        everything: 全部
+        movies_have_seen: 已观看的电影
+        movies_havent_seen: 未观看的电影
+        show_me: 显示
+        tooltip: 登录以筛选你已观看的项目
+        tv_shows_have_seen: 已观看的剧集
+        tv_shows_havent_seen: 未观看的剧集
       sort:
-        sort_results_by: 
+        sort_results_by: 结果排序
       user_score:
-        user_score: 
+        user_score: 用户评分
       where_to_watch:
-        country: 
+        country: 国家
         my_services:
-          my_services: 
-          restrict: 
-          restrict_tooltip: 
-        where_to_watch: 
+          my_services: 我的服务
+          restrict: 将搜索限制为我订阅的服务？
+          restrict_tooltip: 登录以管理你订阅的服务
+        where_to_watch: 观看地
       years:
-        years: 
-    no_items: 
-    search: 
+        years: 年
+    no_items: 找不到与您的查询匹配的项。
+    search: 搜索
     tooltips:
-      not_member: 
-      signup: 
-      want_to_rate: 
+      not_member: 非会员？
+      signup: 注册加入社区
+      want_to_rate: 想对此项目评分或将其添加到列表中？
   discussions:
     actions:
       actions: 动作
@@ -1597,7 +1597,7 @@ zh-CN:
       message: 信息
       new_discussion: 新讨论
       subject: 主题
-    no_activity: 
+    no_activity: 没有此讨论的内容。
     no_discussions: 无讨论
     pagination:
       post_summary:
@@ -1660,9 +1660,9 @@ zh-CN:
     new_email_address: 新电子邮件地址
     sent_verification_email: 我们已将验证邮件发送到 %{email_address}。请检查你的收件箱（及垃圾邮件夹）获取指令。
     unsubscribe:
-      sad_to_go: 
+      sad_to_go: "%{username}，你的离开令人伤心！"
       subscription_changed: 
-      unsubscribe: 
+      unsubscribe: 取消订阅
       unsubscribed: 
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
@@ -1704,27 +1704,27 @@ zh-CN:
   homepage:
     community:
       benefits_list:
-        '1': 
-        '2': 
-        '3': 
-        '4': 
-        '5': 
-        '6': 
+        '1': 享受无广告的 TMDb
+        '2': 维护个人观看列表
+        '3': 按订阅的流媒体服务筛选并查找要观看的内容
+        '4': 记录你已观看的电影和剧集
+        '5': 创建用户列表
+        '6': 帮助完善我们的数据库
     discussions:
       catch_up_now: 快来吧
       discussions: 讨论
     header:
-      quick_snippet_1: 
-      welcome_1: 
+      quick_snippet_1: 这里有海量的电影、剧集以及用户访问。快来探索吧。
+      welcome_1: 欢迎。
     panels:
       community:
-        join_today: 
-        sign_up: 
+        join_today: 现在加入
+        sign_up: 注册
       filters:
-        for_rent: 
-        in_theaters: 
-        movies: 
-        on_tv: 
+        for_rent: 招租
+        in_theaters: 在影院里
+        movies: 电影
+        on_tv: 在电视里
         streaming: 
         this_week: 
         today: 
@@ -2795,6 +2795,8 @@ zh-CN:
       genres_updated: 
       lock_all_fields: 
       lock_all_images: 
+      lock_existing_cast: 
+      lock_existing_crew: 
       page_title: 编辑 %{name}
       placeholders:
         country: 选择一个国家...

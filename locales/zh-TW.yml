@@ -409,7 +409,7 @@ zh-TW:
   Sort By: 排序依據
   Sort Cast: 排序演員
   Sort Regular Cast: 排序常設演員
-  Source Key: 主要來源
+  Source Key: 來源金鑰
   Specials: 特別篇
   Spoken Languages: 口語
   State: 州
@@ -1495,8 +1495,8 @@ zh-TW:
         search_all_episodes: 是否搜尋所有集數
         search_first_air_date: 是否搜尋首播日期
       availability:
-        availabilities: 觀賞方法
-        search_all_availabilities: 是否搜尋所有觀賞方法
+        availabilities: 觀賞途徑
+        search_all_availabilities: 是否搜尋所有觀賞途徑
       certification:
         certification: 分級
       filters: 篩選
@@ -2801,6 +2801,8 @@ zh-TW:
       genres_updated: 類型已更新
       lock_all_fields: 鎖定所有區域
       lock_all_images: 鎖定所有圖片
+      lock_existing_cast: 
+      lock_existing_crew: 
       page_title: 編輯 %{name}
       placeholders:
         country: 選取一個國家...
@@ -3269,16 +3271,16 @@ zh-TW:
   number_of_votes: "%{count} 個投票"
   ott:
     available_sentences:
-      ads: 
-      buy: 
-      free: 
-      rent: 
-      sentence: 
-      stream: 
+      ads: 帶廣告觀賞
+      buy: 購買
+      free: 免費觀賞
+      rent: 租借
+      sentence: "%{title}目前可在%{country}透過%{available_types}觀賞。"
+      stream: 串流
     available_snippet:
       flatrate: 現正串流
       rent_or_buy: 可租借或購買
-      summary_sentence: 
+      summary_sentence: 在%{service_name}上%{available_snippet}
     description: 透過 JustWatch 輕鬆找到正版平台，線上觀賞你最愛的電影和電視節目。造訪 {justwatch_link} 取得更多資訊。
     filters:
       4k: 4K
