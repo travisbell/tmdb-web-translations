@@ -170,7 +170,7 @@ zh-TW:
   Expand: 展開
   External IDs: 外部編號
   External Links: 外部連結
-  Extra Details: 群眾演員詳細資訊
+  Extra Details: 額外詳細資訊
   Extras: 群眾演員
   FAQ: 常見問題
   Facts: 資料
@@ -263,7 +263,7 @@ zh-TW:
   Merge Keyword: 合併關鍵字
   Mixed Compact View: 緊湊混合檢視
   Mobile Application: 手機應用程式
-  Moderator: 主持人
+  Moderator: 版主
   More Info: 更多資訊
   Most Popular: 最熱門
   Move Credits: 移動參與作品
@@ -1576,7 +1576,7 @@ zh-TW:
         content_issues: 內容出錯
         general: 一般
         general_chat: 一般閒聊
-        moderator_talk: 主持人發言
+        moderator_talk: 版主討論
         support: 支援
         website_support: 網站支援
     category:
@@ -2790,7 +2790,7 @@ zh-TW:
       edit:
         parts:
           add: 新增電影
-          no_records: 沒有新增電影。
+          no_records: 沒有添加的電影。
       parts: 部分
     company:
       headquarters: 總部
@@ -2799,11 +2799,11 @@ zh-TW:
     edit:
       cast_updated: 演員已更新
       genres_updated: 類型已更新
-      lock_all_cast_crew_description: 
+      lock_all_cast_crew_description: 按下「是」，你將會把現存的紀錄鎖定，普通使用者未來將無法編輯。版主將仍可進行編輯。
       lock_all_fields: 鎖定所有區域
       lock_all_images: 鎖定所有圖片
-      lock_existing_cast: 
-      lock_existing_crew: 
+      lock_existing_cast: 鎖定現存演員
+      lock_existing_crew: 鎖定現存製作群
       page_title: 編輯 %{name}
       placeholders:
         country: 選取一個國家...
@@ -2820,11 +2820,11 @@ zh-TW:
       tooltips:
         adult: 一般來說，此標記僅用於色情內容。請參閱<a href="/bible/movie#59f73b759251416e71000004">貢獻指南</a>以取得更多資訊。
         bible: 若需要有關編輯 TMDb 資訊的幫助，請按一下「？」來閱讀貢獻指南。
-        homepage: 僅開放官方網站登錄，不包含粉絲專頁
+        homepage: 僅開放官方網站登錄，不包含粉絲專頁。
         logo_format: 支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。
         original_title: 原始標題應使用原始語言輸入。通常與「原始語言」欄位內的語言符合。
         overview: 撰寫概要時，建議的原則為字數精簡、語意簡潔及避免透漏劇情結局。
-        social_links: 社群連結只能是認證過的官方網站，目前還不允許粉絲專業。
+        social_links: 社群連結只能是認證過的官方網站，目前還不允許粉絲專頁。
     external_links:
       visit_facebook: 造訪 Facebook
       visit_homepage: 造訪首頁
@@ -2836,11 +2836,11 @@ zh-TW:
       tv_page_title: "%{name} 的電視節目"
     images:
       format: 格式
-      no_backdrop_stills: 此條目沒有新增背景劇照。
-      no_backdrops: 此條目沒有新增背景圖片。
-      no_logos: 此條目沒有新增標誌。
-      no_posters: 此條目沒有新增海報。
-      no_profiles: 此條目沒有新增簡介。
+      no_backdrop_stills: 沒有背景劇照添加到此條目。
+      no_backdrops: 沒有背景圖片添加到此條目。
+      no_logos: 沒有標誌添加到此條目。
+      no_posters: 沒有海報添加到此條目。
+      no_profiles: 沒有簡介添加到此條目。
       primary: 是否為主要圖片
       types:
         backdrop_stills: 背景劇照
@@ -2854,7 +2854,7 @@ zh-TW:
         alternative_titles:
           no_records: 沒有添加替代標題。
         cast:
-          no_records: 沒有新增演員。
+          no_records: 沒有添加的演員成員。
         confirm_collection: |-
           <p>系列是在 TMDb 將續集分組的方式，雖然有時此方式有些為爭議，但系列不一定以同一「故事世界觀」的方式來作分組的依據。若你了解系列型態的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>。若你想要了解更多關於系列型態的資訊，請參閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>。</p>
 
@@ -2865,26 +2865,26 @@ zh-TW:
           <p>例如：若影片看起來是DVD編輯教學、健身教學或相關推銷型的DVD，以上的狀況即可標示為影片。</p>
         crew:
           job_required: 必須選取工作
-          no_records: 沒有新增製作群成員。
+          no_records: 沒有添加的製作群成員。
           person_required: 必須選取人物
         genres:
           add_genre: 新增類型
-          no_records: 沒有新增類型。
+          no_records: 沒有添加的類型。
         keywords:
           add_keyword: 新增關鍵字
           create: 新增
-          no_records: 沒有新增關鍵字。
+          no_records: 沒有添加的關鍵字。
           none_found: 未找到符合的關鍵字。要建立此關鍵字嗎？
           tip: 作為一般指導的原則，新增的關鍵字需有助於描述劇情、一般主題和影片情緒的內容
         production_information:
           add_production_company: 新增製作公司
-          no_records: 沒有新增製作公司。
+          no_records: 沒有添加的製作公司。
           none_found: 未找到符合的公司。要建立此製作公司嗎？
           production_company: 製作公司
         release_information:
-          no_records: 沒有新增發佈日期。
+          no_records: 沒有添加的發佈日期。
         videos:
-          no_records: 沒有新增影片。
+          no_records: 沒有添加的影片。
       statuses:
         Canceled: 已取消
         In Production: 製作中
@@ -2901,7 +2901,7 @@ zh-TW:
           confirm_merge: 確認合併
           merge: 合併
           next: 下一步
-        primary_facts: 主要事實
+        primary_facts: 主要資料
         upload_logo: 更新標誌
       logos: 標誌
       name: 名稱
@@ -2923,7 +2923,7 @@ zh-TW:
     person:
       edit:
         alternative_names:
-          no_records: 沒有新增別名。
+          no_records: 沒有添加的別名。
       gender:
         female: 女性
         male: 男性
@@ -2944,12 +2944,12 @@ zh-TW:
       score_history: 分數歷史記錄
       score_trend: 分數趨勢
     shortcut_bar:
-      alternative_titles: 副標題
+      alternative_titles: 替代標題
       backdrops: 背景圖片
       cast_crew: 演員與製作群
       changes: 變更記錄
       fandom: 影迷
-      main: 主要
+      main: 主頁
       media: 媒體
       overview: 概覽
       posters: 海報
@@ -2980,7 +2980,7 @@ zh-TW:
     tv_episode:
       edit:
         guest_stars:
-          no_records: 沒有新增客串演員。
+          no_records: 沒有添加的客串演員。
         screened_as_part_of_season: 此集數為本季內容
         screened_confirm: 若本集內容曾經於劇院或電影院播映，請按一下「是」繼續。
         screened_label: 本集是否曾於影院播映
@@ -2993,7 +2993,7 @@ zh-TW:
       edit:
         create_episode: 建立單集內容
         episodes:
-          no_records: 沒有新增集數。
+          no_records: 沒有添加的集數。
         screened_confirm: 若本季內容曾經於劇院或電影院播映，請按一下「是」繼續。
         screened_label: 本季是否曾於影院播映
       season_cast: 季數演員
@@ -3009,11 +3009,11 @@ zh-TW:
         adult:
           adult_show: 是否為成人電視節目
         alternative_names:
-          no_records: 沒有新增別名。
+          no_records: 沒有添加的別名。
         content_ratings:
-          no_records: 沒有新增內容分級。
+          no_records: 沒有添加的內容分級。
         creator:
-          no_records: 沒有新增創作人。
+          no_records: 沒有添加的創作人。
         crew:
           no_season: 沒有季數存在！每季的資料中需包含製作群成員。
         episode_groups:
@@ -3022,7 +3022,7 @@ zh-TW:
           episode_groups: 集數群組
           episodes:
             move_episodes: 移動選取的集數
-            no_records: 沒有新增集數到此群組。
+            no_records: 沒有集數添加到此群組。
           grid:
             episodes: 集數
             groups: 群組
@@ -3032,7 +3032,7 @@ zh-TW:
               one: 已新增 %{count} 集！
               other: 已新增 %{count} 集！
           name: 群組名稱
-          no_records: 沒有新增集數群組。
+          no_records: 沒有添加的集數群組。
           type: 類型
           types:
             '1': 原始播出日期
@@ -3043,16 +3043,16 @@ zh-TW:
             '6': 製作
             '7': 電視
         networks:
-          no_records: 沒有新增電視網。
+          no_records: 沒有添加的電視網。
           none_found: 未找到符合的電視網。要建立此電視網嗎？
         regular_cast:
-          no_records: 沒有新增季數常設演員。
+          no_records: 沒有添加的季數常設演員。
           no_season: 沒有季數存在！每季的資料中需包含常設演員。
         runtime:
           add_it: 是否新增片長
           enter_value: 請輸入以分鐘為單位的值
         seasons:
-          no_records: 沒有新增季數。
+          no_records: 沒有添加的季數。
       episode_groups:
         groups:
           count:
@@ -3172,19 +3172,19 @@ zh-TW:
   no_crew: 沒有 %{media_type} 的演員資料，你可以新增資料！
   no_description: 尚未輸入任何描述
   no_director: 無導演名單
-  no_episode_images: 沒有新增集數圖片。
+  no_episode_images: 沒有添加的集數圖片。
   no_favorite_movies:
     current_user: 你尚未新增任何最愛的電影。
     public: "%{username} 沒有任何最愛的電影。"
   no_favorite_tv_shows:
     current_user: 你尚未新增任何最愛的電視節目。
     public: "%{username} 沒有任何最愛的電視節目。"
-  no_genres: 沒有新增類型。
+  no_genres: 沒有添加的類型。
   no_guest_stars: 無客串演員名單
   no_keyword_search_results: 沒有任何符合關鍵字的資料。
-  no_keywords: 沒有新增關鍵字。
+  no_keywords: 沒有添加的關鍵字。
   no_list_search_results: 沒有符合搜尋的清單。
-  no_media: 沒有新增%{title}的影片、背景圖片或海報。
+  no_media: 沒有影片、背景圖片或海報添加到%{title}。
   no_movie_search_results: 沒有搜尋到任何電影。
   no_overview: 沒有翻譯為正體中文的概要，請協助我們新增資料。
   no_person_search_results: 沒有搜尋到任何人物。
@@ -3208,7 +3208,7 @@ zh-TW:
   no_watchlist_tv_shows:
     current_user: 你尚未新增任何電視節目到待看清單。
     public: 待看清單中無任何電視節目。
-  no_writer: 沒有新增編劇。
+  no_writer: 沒有添加的編劇。
   not_translated:
     logged_in: 目前%{page_title}尚未有<strong>%{requested_i18n}（%{requested_language_text}）</strong>的翻譯。如果你有興趣新增此翻譯，請按下方的按鈕。
     public: 目前%{page_title}尚未有<strong>%{requested_i18n}（%{requested_language_text}）</strong>的翻譯。你可以<a href="%{signup_link}">註冊</a>帳戶並<a href="%{login_link}">登入</a>來新增翻譯。

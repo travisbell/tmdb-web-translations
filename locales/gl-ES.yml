@@ -6,13 +6,13 @@ gl-ES:
   API Details: Detalles da API
   API Key: API Key
   API Libraries: Librarías da API
-  API Overview: 
+  API Overview: Resumo da API
   API Read Access Token: API Read Access Token
-  API Sessions: 
+  API Sessions: Sesións da API
   API Stats: Estado da API
-  API Status Codes: 
+  API Status Codes: Códigos de estado da API
   API Terms: Termos da API
-  API Terms of Use: 
+  API Terms of Use: Termos de uso da API
   API Updates: Anovacións da API
   About: Sobre
   About TMDb: Sobre a TMDb
@@ -106,7 +106,7 @@ gl-ES:
   Contact Email: Email de contacto
   Contact Us: Contáctanos
   Content Ratings: Calificación do contido
-  Content Score: Valoración do contido
+  Content Score: Puntuación do contido
   Continue: Continuar
   Contribution leaders for the week of: Líderes da contribución durante a semana de
   Convert to Collection?: Converter a colección?
@@ -125,8 +125,8 @@ gl-ES:
   Date: Data
   Day of Death: Día do deceso
   Default Language: Lingua por defecto
-  Delete: Borrar
-  Delete Collection: 
+  Delete: Eliminar
+  Delete Collection: Eliminar colección
   Delete Keyword: Borrar palabra chave
   Delete Movie: Eliminar filme
   Delete Person: Eliminar persoa
@@ -160,7 +160,7 @@ gl-ES:
   Email: Email
   Email Address: Enderezo de email
   Email Content: Contido do email
-  Embed: 
+  Embed: Integrar
   Episode Images: Imaxes do episodio
   Episode Number: Número de episodio
   Episode Overview: Sinopse do episodio
@@ -289,7 +289,7 @@ gl-ES:
   Number of edits in the past: Número de edicións no pasado
   Offensive or Spam: Ofensivo ou SPAM
   Offical Site: Sitio oficial
-  Offline Databases: 
+  Offline Databases: Bases de datos fóra de liña
   Origin Country: País de orixe
   Original Air Date: Data orixinal de emisión
   Original Ascending: Orixinal ascendente
@@ -332,7 +332,7 @@ gl-ES:
   Preview: Ollada
   Primary Color: Cor primario
   Primary Facts: Datos principais
-  Primary?: 
+  Primary?: Primario?
   Privacy Policy: Política de privacidade
   Production Code: 'Código de produción '
   Production Companies: Produtoras
@@ -382,7 +382,7 @@ gl-ES:
   Search for a genre: Procurar por un xénero
   Search for a keyword: Procurar por unha palabra chave
   Search for a language: Procurar por unha lingua...
-  Search for a movie: 
+  Search for a movie: Procurar un filme
   Search for a movie or TV show: Procurar por un filme ou unha serie TV
   Search for a movie, TV show, person: Procurar por un filme, serie TV, persoa...
   Season: Tempada
@@ -398,11 +398,11 @@ gl-ES:
   Send: Enviar
   Sessions: Sesións
   Share: Compartir
-  Share Link: 
+  Share Link: Compartir Vencello
   Sharing: Compartindo
   Show: Amosar
   Show More: Amosar máis
-  Site: 
+  Site: Sitio
   Size: Tamaño
   Social: Social
   Sort: Ordenar
@@ -429,7 +429,7 @@ gl-ES:
   Summary: Resumo
   Support: Soporte
   Support Forums: Foros de soporte
-  System Status: 
+  System Status: Estado do Sistema
   TV: TV
   TV Network: Rede TV
   TV Recommendations: Recomendacións de series TV
@@ -506,14 +506,14 @@ gl-ES:
   account_drop_down:
     discussions: Debates
     edit_profile: Editar Perfil
-    join_tmdb: 
+    join_tmdb: Únete á TMDb
     lists: Listas
     login: Acceder
     logout: Saír
     messages: Mensaxes
-    profile_and_settings: Perfil e configuración
+    profile_and_settings: Perfil e axustes
     ratings: Puntuacións
-    settings: Configuración
+    settings: Axustes
     sign_up: Rexistrarse
     view_profile: Ver Perfil
     watchlist: Lista de seguimento
@@ -526,7 +526,7 @@ gl-ES:
         deleted: Eliminado
         updated: Anovado
       media_types:
-        all: 
+        all: Todos
         movies: Filmes
         others: Outros
         people: Xente
@@ -623,7 +623,7 @@ gl-ES:
       ratings: Valoracións
       ratings_reviews: Críticas e Puntuacións
       recommendations: Recomendacións
-      reviews: 
+      reviews: Revisións
       watchlist: Lista de seguimento
     order: 'Orden:'
     overview:
@@ -673,7 +673,7 @@ gl-ES:
     watchlist:
       my_watchlist:
         logged_in: A miña lista de seguimento
-        public: 
+        public: Lista de seguimento de %{username}
       next_month: Seguinte mes
       no_upcoming_movies:
         one: Non hai próximos filmes na túa lista de seguimento. Porén hai %{count} ítems na devandita lista.
@@ -697,11 +697,11 @@ gl-ES:
     approved_session: Aprobaches %{application_name}. Podes pechar esta xanela.
     continue: Se desexas continuar, preme o botón de Aprobar abaixo. Se non, simplemente pecha esta xanela.
     invalid_api_app:
-      message: 
+      message: O usuario da API que se está a intentar autenticar non é válido.
       title: Usuario da API inválido
     missing_request_token:
-      message: 
-      title: 
+      message: Precísase dun "request token" para autenticar as contas de usuario.
+      title: Falta o "request token"
     request_token_approval:
       message: "{{APP}} está a pedir o teu permiso para ler e escribir datos no teu nome. Isto é necesario se queres facer cousas como manter as túas listas ou puntuar filmes fóra da TMDb."
     statuses:
@@ -727,7 +727,7 @@ gl-ES:
     title: 'Título '
     to_accounts_ids: Para
     translated_overview: Resumo
-    tv_series_status: 
+    tv_series_status: Estado de Series TV
   average edits per day: Media de edicións ao día
   back_options:
     back: Voltar
@@ -1219,9 +1219,9 @@ gl-ES:
         '2':
           meaning: Recoméndase a presenza dun adulto.
         '3':
-          meaning: 
+          meaning: Suxírese unha asistencia parental máis dura e vixilante.
         '4':
-          meaning: 
+          meaning: Non se han de aprovar programas de televisión que non cumpran as clasificacións "G", "PG" e "SPG"
       PT:
         '0':
           meaning: Sen información de calificación.
@@ -1292,7 +1292,7 @@ gl-ES:
   collection_includes: Inclúe %{movie_titles}
   confirm_delete: Seguro que queres eliminiar esta entrada?
   content_score:
-    helper_tooltip: A valoración do contido é un mecanismo para axudarte a comprender como de completa está a información dun obxecto na base de datos.
+    helper_tooltip: A puntuación do contido é un mecanismo para axudarte a comprender como de completa está a información dun obxecto na base de datos.
     scale:
       '0': Escomezando...
       '1': É un comezo.
@@ -1490,64 +1490,64 @@ gl-ES:
     Visual Effects: Efectos visuais
     Writing: Historia
   discover:
-    apply: 
+    apply: Aplicar
     filters:
       air_dates:
-        air_dates: 
-        search_all_episodes: 
-        search_first_air_date: 
+        air_dates: Datas de emisión
+        search_all_episodes: Procurar todos os episodios?
+        search_first_air_date: Procurar a primeira data de emisión?
       availability:
-        availabilities: 
-        search_all_availabilities: 
+        availabilities: Dispoñibilidades
+        search_all_availabilities: Procurar todas as dispoñibilidades?
       certification:
-        certification: 
-      filters: 
+        certification: Certificación
+      filters: Filtros
       genres:
-        genres: 
+        genres: Xéneros
       keywords:
-        keywords: 
+        keywords: Palabras chave
       language:
-        language: 
-        tooltip: 
-      minimum_user_votes: 
+        language: Lingua
+        tooltip: Filtrar elementos baseándose na súa lingua orixinal.
+      minimum_user_votes: Votos mínimos dos usuarios
       network:
-        filter_by_network: 
-        network: 
-      none_selected: 
+        filter_by_network: Filtrar por redes TV…
+        network: Rede
+      none_selected: Nada seleccionado
       release_dates:
-        from: 
-        release_dates: 
-        search_all_countries: 
-        search_release_dates: 
-        to: 
-      runtime: 
+        from: dende
+        release_dates: Datas de publicación
+        search_all_countries: Procurar todos os países?
+        search_release_dates: Procurar todas as publicaciones?
+        to: para
+      runtime: Duración
       show_me:
-        everything: 
-        movies_have_seen: 
-        movies_havent_seen: 
-        show_me: 
-        tooltip: 
-        tv_shows_have_seen: 
-        tv_shows_havent_seen: 
+        everything: Todo
+        movies_have_seen: Filmes que xa vin
+        movies_havent_seen: Filmes que non vin aínda
+        show_me: Amósame
+        tooltip: Accede para filtrares os elementos que xa viches
+        tv_shows_have_seen: Series TV que xa vin
+        tv_shows_havent_seen: Series TV que non vin aínda
       sort:
-        sort_results_by: 
+        sort_results_by: Ordenar resultados por
       user_score:
-        user_score: 
+        user_score: Puntiación de usuarios
       where_to_watch:
-        country: 
+        country: País
         my_services:
-          my_services: 
-          restrict: 
-          restrict_tooltip: 
-        where_to_watch: 
+          my_services: Os meus servizos
+          restrict: Restrinxir procuras aos meus servizos subscritos?
+          restrict_tooltip: Accede para xestionares os teus servizos subscritos.
+        where_to_watch: Onde ver
       years:
-        years: 
-    no_items: 
-    search: 
+        years: Anos
+    no_items: Non se atoparon elementos para a túa procura.
+    search: Procurar
     tooltips:
-      not_member: 
-      signup: 
-      want_to_rate: 
+      not_member: Non es membro?
+      signup: Rexístrate e únete á comunidade
+      want_to_rate: Queres valorar ou engadir o elemento a unha listaxe?
   discussions:
     actions:
       actions: Accións
@@ -1603,7 +1603,7 @@ gl-ES:
       message: Mensaxe
       new_discussion: Novo debate
       subject: Asunto
-    no_activity: 
+    no_activity: Non houbo actividade neste debate.
     no_discussions: Sen debates.
     pagination:
       post_summary:
@@ -1666,10 +1666,10 @@ gl-ES:
     new_email_address: Novo enderezo de email
     sent_verification_email: Enviamos un email a %{email_address} para verificalo. Comproba a túa caixa de entrada (e o cartafol de SPAM) coas instrucións sobre como proceder.
     unsubscribe:
-      sad_to_go: 
-      subscription_changed: 
-      unsubscribe: 
-      unsubscribed: 
+      sad_to_go: Apénanos que marches %{username}!
+      subscription_changed: Actualizáronse os axustes da túa subscripción. Podes editar os axustes das túas notificacións visitando a túa <a href="%{account_link}">páxina de axustes</a>.
+      unsubscribe: Deixar subscripción
+      unsubscribed: Xa <strong>non estás subscrito</strong>. Se foi un erro pódeste subscribir de novo visitando a túa <a href="%{account_link}">páxina de axustes</a>.
   episode_count:
     one: "%{count} Episodio"
     other: "%{count} Episodios"
@@ -1688,13 +1688,13 @@ gl-ES:
       inclusion: debe ser seleccionado
       invalid: é inválido
       required: debe existir
-      series_status_invalid_to_create_season: 
+      series_status_invalid_to_create_season: está marcado como "Cancelado" ou "Finalizado" e por tanto non se poden crear novas tempadas.
       suspected_tv_series: pode que sexa unha serie TV ou miniserie xa existente. Podes continuar engadindo este elemento se estás seguro, pero se ha eliminar se xa existe na nosa sección TV.
       taken: xa foi collido
     movie:
       duplicate_cast: Esta persoa xa foi engadida como membro do equipo.
     tv:
-      create_season_locked: 
+      create_season_locked: Bloqueouse a creación de novas tempadas para esta serie.
       duplicate_created_by: Esta persoa xa foi engadida como creador.
       duplicate_crew_member: Esta persoa xa foi engadida como %{job_name}.
       duplicate_episode: Este episodio xa existe.
@@ -1712,43 +1712,43 @@ gl-ES:
   homepage:
     community:
       benefits_list:
-        '1': 
-        '2': 
-        '3': 
-        '4': 
-        '5': 
-        '6': 
+        '1': Desfruta da TMDb sen anuncios
+        '2': Manter una lista de seguimento persoal
+        '3': Filtrar polos servizos por fluxo stream aos que estás subscrito e atopa algo que ver
+        '4': Anota os filmes e as series TV que tes visto
+        '5': Crea listaxes personalizadas
+        '6': Contribúe e mellora a nosa base de datos
     discussions:
       catch_up_now: Ponte ao día agora
       discussions: Debates
     header:
-      quick_snippet_1: 
-      welcome_1: 
+      quick_snippet_1: Millóns de filmes, series TV e xente por descubrires. Vai explorar.
+      welcome_1: Benvido/a.
     panels:
       community:
-        join_today: 
-        sign_up: 
+        join_today: Únete hoxe
+        sign_up: Rexístrate
       filters:
-        for_rent: 
-        in_theaters: 
-        movies: 
-        on_tv: 
-        streaming: 
-        this_week: 
-        today: 
-        tv: 
-      free_to_watch: 
-      latest_trailers: 
+        for_rent: Para alugar
+        in_theaters: En cinemas
+        movies: Filmes
+        on_tv: Na TV
+        streaming: En fluxo (streaming)
+        this_week: Esta semana
+        today: Hoxe
+        tv: TV
+      free_to_watch: Para ver de balde
+      latest_trailers: Últimos avances
       leaderboard:
-        all_time: 
-        leaderboard: 
-        this_week: 
-      trending: 
-      whats_popular: 
+        all_time: Todas as edicións
+        leaderboard: Panel de líderes
+        this_week: Edicións nesta semana
+      trending: Tendencia
+      whats_popular: O que é popular
     taw:
-      read_the_2018_recap: 
-      read_the_2019_recap: 
-      thats_a_wrap: 
+      read_the_2018_recap: Le o resumo do 2018
+      read_the_2019_recap: Le o resumo do 2019
+      thats_a_wrap: Isto é un final!
     tv_shows:
       episode_airs:
         in_days: Emitirase un novo episodio en %{number_of_days} días
@@ -2734,11 +2734,11 @@ gl-ES:
       toggle_private: mudar público/privado
       toggle_watching: amosar o estado do seguimento
     groups:
-      discussion_pages: 
-      edit_pages: 
+      discussion_pages: Nas páxinas de debate
+      edit_pages: En todas as páxinas de edición
       global: Global
-      image_pages: 
-      media_pages: 
+      image_pages: En todas as páxinas de imaxe
+      media_pages: En páxinas de medios
       tv_episode_pages: En páxinas de episodios de TV
       tv_season_pages: En páxinas de tempadas de TV
     keyboard_shortcuts: Atallos de teclado
@@ -2778,11 +2778,11 @@ gl-ES:
   login_to_create: Non podes atopar un filme ou unha serie TV? Accede para creala.
   login_to_edit: Accede para editar
   media:
-    adult: 
+    adult: Adultos
     changes:
       filters:
         clear: Borrar
-        key: 
+        key: Chave
         language: Língua
         user: Usuario
       number_of_changes:
@@ -2792,21 +2792,21 @@ gl-ES:
     collection:
       edit:
         parts:
-          add: 
-          no_records: 
-      parts: 
+          add: " Engadir filme"
+          no_records: Non se engadiron filmes.
+      parts: Partes
     company:
       headquarters: Oficina principal
       movie_page_title: Filmes producidos por %{name}
       tv_page_title: Series TV producidas por %{name}
     edit:
-      cast_updated: 
-      genres_updated: 
-      lock_all_cast_crew_description: 
+      cast_updated: Reparto actualizado
+      genres_updated: Xéneros actualizados
+      lock_all_cast_crew_description: Premendo "si" bloquearás todos os rexistros existentes e non poderán ser editados por usuarios regulares. Porén os moderadores poderán facer edicións.
       lock_all_fields: Bloquear todos os campos
       lock_all_images: Bloquear todas as imaxes
-      lock_existing_cast: 
-      lock_existing_crew: 
+      lock_existing_cast: Bloquear o reparto existente
+      lock_existing_crew: Bloquear o equipo existente
       page_title: Editar %{name}
       placeholders:
         country: Selecciona un país...
@@ -2821,7 +2821,7 @@ gl-ES:
         production_companies: Procura unha compañía de produción...
       success_fields_locked: Campo bloqueado
       tooltips:
-        adult: 
+        adult: En xeral, este indicador emprégase para pornografía. Para máis información mira a <a href="/bible/movie#59f73b759251416e71000004">biblia de contribucións</a>.
         bible: Se precisas axuda á hora de editar, preme "?" para leres a biblia das contribucións.
         homepage: Só páxinas de inicio oficiais. As páxinas de siareiros non están permitidas.
         logo_format: Sopórtanse SVG e PNG. Prefírense SVG porque son independentes da resolución
@@ -2832,7 +2832,7 @@ gl-ES:
       visit_facebook: Visitar Facebook
       visit_homepage: Visitar a páxina de inicio
       visit_instagram: Visitar Instagram
-      visit_justwatch: 
+      visit_justwatch: Visitar os vistos recentemente
       visit_twitter: Visitar Twitter
     genre:
       movie_page_title: "%{name} Filmes"
@@ -2930,34 +2930,36 @@ gl-ES:
       gender:
         female: Muller
         male: Home
-        non_binary: 
+        non_binary: Non-binario
       media_types:
-        all: 
-        movies: 
-        tv: 
-        tv_shows: 
-      years_old: 
+        all: Todos
+        movies: Filmes
+        tv: TV
+        tv_shows: Series TV
+      years_old: "%{age} anos"
     rating:
       rated_with_rating: Valorado %{value}
-      rating_count: 
-      score_breakdown: 
-      score_distribution: 
-      score_history: 
-      score_trend: 
+      rating_count:
+        one: "%{count} valoración"
+        other: "%{count} valoracións"
+      score_breakdown: Desglose de puntuacións
+      score_distribution: Distribución de puntuacións
+      score_history: Histórico de puntuacións
+      score_trend: Tendencia de puntuacións
     shortcut_bar:
-      alternative_titles: 
+      alternative_titles: Títulos alternativos
       backdrops: Fondos
-      cast_crew: 
+      cast_crew: Reparto & Equipo
       changes: Modificacións
-      fandom: 
-      main: 
-      media: 
-      overview: 
+      fandom: Mundo seareiro
+      main: Principal
+      media: Medios
+      overview: Resumo
       posters: Pósters
       profiles: Perfís
-      release_dates: 
+      release_dates: Datas de publicación
       reviews: Críticas
-      translations: 
+      translations: Traducións
       videos: Vídeos
     social_panel:
       discussions:
@@ -2997,8 +2999,8 @@ gl-ES:
           no_records: Non se engadiron episodios.
         screened_confirm: Se esta tempada proxectouse nun festival de filmes ou nun cinema, preme "Si" para continuar.
         screened_label: Proxectouse esta tempada nun cinema?
-      season_cast: 
-      season_crew: 
+      season_cast: Reparto da tempada
+      season_crew: Equipo da tempada
       season_selector:
         current_season: Tempada actual
         last_season: Última tempada
@@ -3063,8 +3065,8 @@ gl-ES:
       networks:
         one: Rede
         other: Redes
-      series_cast: 
-      series_crew: 
+      series_cast: Reparto da serie
+      series_crew: Equipo da serie
       statuses:
         Canceled: Cancelado
         Ended: Rematado.
@@ -3084,13 +3086,13 @@ gl-ES:
       audio_language: Lingua de audio
       channel: Canle
       duration: Duración
-      play_behind_the_scenes: 
-      play_blooper: 
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_recap: 
-      play_teaser: 
+      play_behind_the_scenes: Reproduccións entre bastidores
+      play_blooper: Reproducir erratas
+      play_clip: Reproducir curto
+      play_featurette: Reproducir longametraxe
+      play_opening_credits: Reproducir créditos iniciais
+      play_recap: Reproducir resumo
+      play_teaser: Reproducir prelanzamento
       play_trailer: Reproducir trailer
       published: Publicado
       published_at: Publicado en
@@ -3124,7 +3126,7 @@ gl-ES:
     options:
       admin: Admin
       archive: Arquivo
-      settings: Configuración
+      settings: Axustes
       viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
@@ -3153,7 +3155,7 @@ gl-ES:
       movies: Filmes
       tv_shows: Series TV
     more:
-      more: 
+      more: Máis
     movies:
       now_playing: Proxectándose agora
       popular: Popular
@@ -3287,47 +3289,50 @@ gl-ES:
     other: "%{count} votos"
   ott:
     available_sentences:
-      ads: 
-      buy: 
-      free: 
-      rent: 
-      sentence: 
-      stream: 
+      ads: mirar con anuncios
+      buy: mercar
+      free: mirar de balde
+      rent: alugar
+      sentence: "%{title} está arestora dispoñible para %{available_types} en %{country}."
+      stream: fluxo (stream)
     available_snippet:
-      flatrate: 
-      rent_or_buy: 
-      summary_sentence: 
-    description: 
+      flatrate: En fluxo agora (streaming)
+      rent_or_buy: Dispoñible para alugar ou mercar
+      summary_sentence: "%{available_snippet} de %{service_name}"
+    description: Os vistos recentemente facilita achar onde podes mirar os teus filmes e series TV favoritos legalmente en liña. Visita {justwatch_link} para máis información.
     filters:
-      4k: 
-      best_price: 
-      bluray: 
-      dvd: 
-      dvd_bluray: 
-      hd: 
-      sd: 
+      4k: 4K
+      best_price: O mellor prezo
+      bluray: Blu-ray
+      dvd: Blu-ray
+      dvd_bluray: DVD/Blu-ray
+      hd: HD
+      sd: SD
     monetization_types:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Anuncios
+      buy: Mercar
+      flatrate: Fluxo (stream)
+      free: De balde
+      rent: Alugar
     no_offers:
-      4k: 
-      bluray: 
-      dvd: 
-      hd: 
-      none: 
-      sd: 
-    seasons: 
-    view_offers: 
-    watch_now: 
+      4k: Sen ofertas para 4K.
+      bluray: Sen ofertas para Blu-ray.
+      dvd: Sen ofertas para DVD.
+      hd: Sen ofertas para HD.
+      none: Sen ofertas para %{title}.
+      sd: Sen ofertas para SD.
+    seasons:
+      many: "%{count} tempadas"
+      one: "%{count} tempada"
+      other: "%{count} tempadas"
+    view_offers: Ver ofertas
+    watch_now: Ver agora
     watch_on:
-      ads: 
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      ads: Ver %{name} en %{provider_name}
+      buy: Mercar %{name} en %{provider_name}
+      flatrate: Ver %{name} en %{provider_name}
+      free: Ver %{name} en %{provider_name}
+      rent: Alugar %{name} en %{provider_name}
   pagination:
     currently_on: Páxina %{current_page} de %{total_pages}
     last_page: Derradeira páxina
@@ -3365,7 +3370,7 @@ gl-ES:
     rated_tv: Procurar series TV valoradas...
     recommendations_movie: Procurar as túas recomendacións persoais de filmes…
     recommendations_tv: Procurar as túas recomendacións persoais de series TV…
-    search_results: 
+    search_results: Procurar resultados
     trending: Tendencia
     trending_searches: Procuras máis frecuentes
     watchlist_movie: Procurar lista de seguimento de filmes…
@@ -3377,64 +3382,64 @@ gl-ES:
     to_air: Tempada %{season_number} de %{show_name} está lista para ser estreada o %{date}.
   settings:
     account:
-      account_settings: Configuración da conta
-      page_title: 
+      account_settings: Axustes da conta
+      page_title: Os meus axustes
     api:
       api: API
-      create_page_title: 
+      create_page_title: Crear nova chave da API
       directory:
-        page_title: 
+        page_title: O meu directorio de aplicacións
       navigation:
         create: Crear
         details: Detalles
         directory: Directorio
         sessions: Sesións
         stats: Estatísticas
-      page_title: 
-      session_page_title: 
-      stats_page_title: 
+      page_title: Os meus axustes da API
+      session_page_title: As miñas sesións da API
+      stats_page_title: As miñas estatísticas da API
     blocked_users:
       action: Accións
       blocked_users: Usuarios bloqueados
       no_blocked: Non tes bloqueado usuario algún.
-      page_title: 
+      page_title: Os meus usuarios bloqueados
       username: Nome de usuario
     change_email:
       change_email: Trocar email
       change_email_text: Se queres trocar o teu email, introduce un novo email no campo de abaixo. Antes de accederes de novo, terás que verificar o teu novo email premendo o vencello de activación que che foi enviado.
-      page_title: 
+      page_title: Mudar o meu enderezo de correo
     connected_apps:
       connected_apps: Aplicacións conectadas
       listed_below_explanation: Abaixo aparecen as aplicacións de terceiros que tes autorizadas para escribiren información por ti. Podes recusar estas autorizacións en calquera momento.
       no_apps: Non tes conectada aplicación algunha á túa conta.
-      page_title: 
+      page_title: As miñas aplicacións conectadas
       table:
         action: Accións
         application_name: Nome da aplicación
         date_authorised: Data de autorización
     delete_account:
-      confirm_delete: 
+      confirm_delete: Confirmar Eliminar
       delete_account: Borrar conta
-      page_title: 
+      page_title: Eliminar A miña conta
       summary_text: Acabas de entrar na <strong>zona de perigo</strong>! Se queres continuar e eliminar a túa conta pódelo facer inserindo o teu contrasinal abaixo e confirmando o comando.
     import_list:
       import_button: Importar
       import_list: Importar lista
-      import_status: 
+      import_status: Importar Estado
       navigation:
         import: Importar
         previous: Importacións anteriores
       notification:
         finished_import: Importación rematada!
         started_import: Importación comezada...
-      page_title: 
+      page_title: Importar unha istaxe
       previous:
         date: Data
         imported: Importado
         items: Elementos
         local_list: Lista local
         no_imports: Non tes importada lista algunha.
-        page_title: 
+        page_title: As miñas importacións previas
         type: Tipo
       results:
         complete:
@@ -3473,15 +3478,15 @@ gl-ES:
       settings: Configuración
       sharing_settings: Configuración de compartición
       social_settings: Configuración de redes sociais
-      streaming_services: 
+      streaming_services: Servizos en fluxo (streaming)
     notifications:
-      api_updates: 
+      api_updates: Enviarme un correo sobre alteracións e actualizacións na API
       email_new_releases_watchlist: Enviarme un email sobre novas publicacións na miña lista de seguimento?
       new_replies_to_threads_created: Seguir automaticamente os temas que creei ou respostei?
       new_replies_to_threads_watching: Enviarme un email sobre novas respostas nos temas que estou seguindo?
       news_updates: Enviarme un email sobre novas e novidades de produtos
       notifications: Avisos
-      page_title: 
+      page_title: As miñas notificacións
     profile:
       accent_color: Cor da icona
       avatar:
@@ -3516,21 +3521,21 @@ gl-ES:
           <p>Para cambiar o teu contrasinal, precisamos un correo electrónico válido. Desafortunadamente, xa tivemos problemas enviando correos no pasado. Podes ver os erros  <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
 
           <p>Se os problemas co teu enderezo electrónico foron resoltos ou foron temporais, preme no botón "Restablecer" embaixo e enviaremos outro correo.</p>
-      page_title: 
+      page_title: O meu perfil
       reset_password_dialog_text: Confirmando esta solicitude enviarémosche un email con instrucións para restablecer o teu contrasinal. Abofé queres continuar?
     sharing:
       favorite_list:
         favorite_settings: Configuración da lista de favoritos
         share_on_twitter: Compartir novos favoritos en Twitter?
         share_publicly: Compartir esta lista publicamente?
-      page_title: 
+      page_title: Os meus axustes de compratición
       rated_list:
         rated_settings: Configuración da lista de puntuacións
         share_publicly: Compartir esta lista publicamente?
       sharing_settings: Configuración de comparticións
       watchlist:
         remove_when_rated: Eliminar elementos automaticamente logo de varolalos?
-        share_publicly: 
+        share_publicly: Facer esta listaxe pública?
         watchlist_settings: 'Configuración da lista de seguimento '
     social:
       connected_table:
@@ -3543,13 +3548,13 @@ gl-ES:
         service: Servizo
       favorite_message_hint: Cando marcar un elemento como favorito e compartilo en Twitter ou Facebook...
       message_settings: Configuración das mensaxes
-      page_title: 
+      page_title: Os meus axustes Sociais
       sharing_message_hint: Cando compartir un elemento en Twiter ou Facebook...
       social_settings: Configuración de redes sociais
       supported_template_values: 'Valores soportados para padróns:'
     streaming_services:
-      page_title: 
-      streaming_services: 
+      page_title: Os meus servizos en fluxo (streaming)
+      streaming_services: Servizos en fluxo (streaming)
   sign_up:
     benefits:
       benefits_to_being_member: Beneficios de seres membro
@@ -3574,7 +3579,7 @@ gl-ES:
   success_saved: Gardáronse as túas modificacións correctamente.
   success_set_language: Mudouse a lingua.
   success_sharing: A túa mensaxe compartiuse correctamente
-  the: 
+  the: el/la
   time:
     formats:
       12hour_minutes: "%l:%M%p"
@@ -3588,35 +3593,37 @@ gl-ES:
   used_by_developers: A TMDb é empregada por máis de 200.000 desenvolvedores. <br>Bota unha ollada ao seu traballo abaixo.
   videos:
     filters:
-      language: 
+      language: Lingua
       sort:
-        published_at_asc: 
-        published_at_desc: 
-        sort: 
-      type: 
-    number_of_videos: 
-    official_channel: 
-    page_title: 
-    popular: 
+        published_at_asc: Publicado o (máis antigo primeiro)
+        published_at_desc: Publicado o (máis recente primeiro)
+        sort: Ordenar
+      type: Tipo
+    number_of_videos:
+      one: "%{count} vídeo"
+      other: "%{count} vídeos"
+    official_channel: Canle Oficial
+    page_title: "%{name} Canle de vídeo"
+    popular: Popular
     types:
-      Behind the Scenes: 
-      Blooper: 
-      Bloopers: 
+      Behind the Scenes: Entre bastidores
+      Blooper: Errata
+      Bloopers: Erratas
       Clip: Curto (clip)
       Clips: Curtos (clips)
       Featurette: Contido adicional
       Featurettes: Contidos adicionais
       Opening Credits: Créditos de abertura
-      Recap: 
-      Recaps: 
+      Recap: Resumo
+      Recaps: Resumos
       Teaser: Avance
       Teasers: Avances
       Trailer: Tráiler
       Trailers: Tráilers
-    vimeo_channel: 
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
-    youtube_channel: 
+    vimeo_channel: Canle Vimeo
+    visit_vimeo_channel: Visita a Canle Vimeo
+    visit_youtube_channel: Visita a Canle de YouTube
+    youtube_channel: Canle Youtube
   view all: ver todos
   will_paginate:
     next_label: Seguinte →
