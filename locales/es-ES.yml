@@ -284,7 +284,7 @@ es-ES:
   'No': 'No'
   None: Ninguno
   Notes: Notas
-  Notifications: Notificaciones
+  Notifications: Avisos
   Now Playing Movies: Películas en cartelera
   Number of Movies: Número de películas
   Number of TV Shows: Número de programas de televisión
@@ -325,7 +325,7 @@ es-ES:
   Popularity: Popularidad
   Popularity Ascending: Popularidad ascendente
   Popularity Descending: Popularidad descendente
-  Popularity Rank: Ranking de popularidad
+  Popularity Rank: Rango de popularidad
   Popularity Trend: Tendencia de popularidad
   Poster Card View: Ver pósteres
   Powered by TMDb: Ofrecido por TMDb
@@ -574,10 +574,10 @@ es-ES:
             Mention: Mención
             Messages: Mensajes
             type: Tipo
-        notifications: Notificaciones
+        notifications: Avisos
         number_of_items:
-          one: "%{count} notificación"
-          other: "%{count} notificaciones"
+          one: "%{count} aviso"
+          other: "%{count} avisos"
       page_title:
         recent_events: Eventos recientes
       recent: Reciente
@@ -667,8 +667,8 @@ es-ES:
       no_recommendations_helper: Prueba a añadir más favoritas (cuántas más mejor) y vuelve para ver cómo lo hicimos.
       page_title: Recomendaciones
     sort_options:
-      asc: Ascender
-      desc: Descender
+      asc: Ascendente
+      desc: Descendente
     tips:
       import_imdb_ratings: Puedes importar tus valoraciones de IMDb.
       tip: Tip
@@ -1411,10 +1411,10 @@ es-ES:
     - sábado
     formats:
       abbrev: "%-d %b %Y"
-      default: "%d/%m/%Y"
-      full_month_day: "%e %B %Y"
-      full_month_year: "%B %Y"
-      short_month_day_year: "%d %b %Y"
+      default: "%-d/%-m/%Y"
+      full_month_day: "%e de %B de %Y"
+      full_month_year: "%B de %Y"
+      short_month_day_year: "%-d %b %Y"
     month_names:
     - 
     - enero
@@ -1592,7 +1592,7 @@ es-ES:
       last_reply_with_datetime_and_username: "%{date} a las %{time}<br>por %{username}"
     discussion_activity: Actividad de la discusión
     email_notifications:
-      email_notifications: Notificaciones por correo electrónico
+      email_notifications: Avisos por correo electrónico
       subscribe: Suscribirse
       unsubscribe: Darse de baja
     headers:
@@ -1601,7 +1601,7 @@ es-ES:
       lets_chat: Charlemos
       support: Soporte
       support_title: Soporte de The Movie Database
-    login_to_be_notified: Acceder para ser notificado sobre la primera publicación.
+    login_to_be_notified: Acceder para recibir avisos sobre la primera publicación.
     new_discussion:
       community_guidelines: Directrices de la comunidad
       discussion_category: Categoría
@@ -1673,9 +1673,9 @@ es-ES:
     sent_verification_email: Hemos enviado un correo electrónico a %{email_address} para verificarlo. Comprueba tu bandeja de entrada (y carpeta de spam) para ver las instrucciones sobre cómo proceder.
     unsubscribe:
       sad_to_go: "¡%{username}, estamos tristes de ver que te vas!"
-      subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tus ajustes visitando tu página de <a href="%{account_link}"=>ajuste de notificaciones</a>.
+      subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tus ajustes visitando tu página de <a href="%{account_link}"=>ajuste de avisos</a>.
       unsubscribe: Darse de baja
-      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>ajuste de notificaciones</a>.
+      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>ajuste de avisos</a>.
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodios"
@@ -1720,7 +1720,7 @@ es-ES:
       benefits_list:
         '1': Disfruta de TMDb sin anuncios
         '2': Mantén una lista de seguimiento personal
-        '3': Filtra por tus suscripciones a servicios de streaming y encuentra algo para ver
+        '3': Filtra por tus suscripciones a servicios de streaming y encuentra algo que ver
         '4': Registra las películas y programas de televisión que has visto
         '5': Crea listas personalizadas
         '6': Aporta y mejora nuestra base de datos
@@ -1739,7 +1739,7 @@ es-ES:
         in_theaters: En cines
         movies: Películas
         on_tv: En televisión
-        streaming: Emisión en directo
+        streaming: En streaming
         this_week: Esta semana
         today: Hoy
         tv: Televisión
@@ -1750,7 +1750,7 @@ es-ES:
         leaderboard: Tabla de clasificación
         this_week: Ediciones esta semana
       trending: Tendencias
-      whats_popular: Qué es popular
+      whats_popular: Lo más popular
     taw:
       read_the_2018_recap: Lee el resumen de 2018
       read_the_2019_recap: Lee el resumen de 2019
@@ -2970,11 +2970,11 @@ es-ES:
       videos: Vídeos
     social_panel:
       discussions:
-        currently_subscribed: Estás suscrito para recibir una notificación cuando se cree la primera publicación.
+        currently_subscribed: Estás suscrito para recibir un aviso cuando se cree la primera publicación.
         no_discussions: No hay discusiones sobre %{item_title}. ¡Identifícate para ser el primero!
         unsubscribe_me: Cancelar mi suscripción.
-        want_to_be_notified: "¿Quieres que se te notifique cuando alguien cree la primera publicación?"
-        yes_notify_me: Si, ¡notificádmelo!
+        want_to_be_notified: "¿Quieres que se te avise cuando alguien cree la primera publicación?"
+        yes_notify_me: "¡Sí, avísame!"
       reviews:
         a_review_by: Una reseña de %{username}
         by: Escrito por %{username} el %{date}
@@ -3230,7 +3230,7 @@ es-ES:
     good_job: "¡Bien hecho!"
     mark_all_as_read: Marcar todo como leído
     refresh: Refrescar
-    unread_notifications: Notificaciones sin leer
+    unread_notifications: Avisos sin leer
     view: Ver
     view_all: Ver todo
   number:
@@ -3301,7 +3301,7 @@ es-ES:
       sentence: "%{title} está actualmente disponible para %{available_types} en %{country}."
       stream: ver en stream
     available_snippet:
-      flatrate: Ahora en directo
+      flatrate: Ahora en streaming
       rent_or_buy: Disponible para alquilar o comprar
       summary_sentence: "%{available_snippet} en %{service_name}"
     description: JustWatch hace que sea fácil descubrir dónde puedes ver legalmente tus películas y programas de televisión favoritos en línea. Visita {justwatch_link} para más información.
@@ -3379,7 +3379,7 @@ es-ES:
     trending: Tendencias
     trending_searches: Lo más buscado
     watchlist_movie: Buscar lista de seguimiento de películas...
-    watchlist_tv: Buscar lista de seguimiento de programas televisión...
+    watchlist_tv: Buscar lista de seguimiento de programas de televisión...
   search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados por año. Ejemplo: ''star wars y:1977''.'
   season_number_name: Temporada %{season_number}
   season_overview:
@@ -3464,7 +3464,7 @@ es-ES:
         import_results: Resultados de la importación
         in_progress:
           import_status: Estado de la importación
-          summary: Se han detectado un total de %{total_count} elementos a importar. Se está ejecutando la importación por debajo y se te notificará cuando haya terminado.
+          summary: Se han detectado un total de %{total_count} elementos a importar. Se está ejecutando la importación por detrás y se te avisará cuando haya terminado.
       select_csv: Selecciona un archivo CSV
       type:
         favorite: Favorito
@@ -3479,7 +3479,7 @@ es-ES:
       delete_account: Eliminar cuenta
       edit_profile: Editar perfil
       import_list: Importar lista
-      notification_settings: Opciones de notificaciones
+      notification_settings: Opciones de avisos
       settings: Opciones
       sharing_settings: Opciones de compartir
       social_settings: Opciones Redes Sociales
@@ -3490,8 +3490,8 @@ es-ES:
       new_replies_to_threads_created: "¿Ver automáticamente los hilos que he creado o respondido?"
       new_replies_to_threads_watching: "¿Enviarme un correo electrónico cuando haya nuevas respuestas en los hilos que sigo?"
       news_updates: Envíame un correo electrónico sobre noticias y actualización de productos
-      notifications: Notificaciones
-      page_title: Mis notificaciones
+      notifications: Avisos
+      page_title: Mis avisos
     profile:
       accent_color: Color destacado
       avatar:
@@ -3587,7 +3587,7 @@ es-ES:
   the: el
   time:
     formats:
-      12hour_minutes: "%l:%M%p"
+      12hour_minutes: "%H:%M"
   top_contributors: Mayores aportadores
   translation:
     one: traducción
@@ -3600,8 +3600,8 @@ es-ES:
     filters:
       language: Idioma
       sort:
-        published_at_asc: Publicado (antiguos primero)
-        published_at_desc: Publicad (nuevos primeros)
+        published_at_asc: Publicado en (el más antiguo primero)
+        published_at_desc: Publicado en (el más reciente primero)
         sort: Ordenar
       type: Tipo
     number_of_videos:
