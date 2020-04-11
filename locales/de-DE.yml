@@ -10,7 +10,7 @@ de-DE:
   API Read Access Token: API-Token für Lesezugriff
   API Sessions: API-Sitzungen
   API Stats: API-Statistiken
-  API Status Codes: 
+  API Status Codes: API-Status-Code
   API Terms: API-Nutzungsbedingungen
   API Terms of Use: API-Nutzungsbedingungen
   API Updates: Updates
@@ -68,7 +68,7 @@ de-DE:
   Application Summary: Anwendungsübersicht
   Application URL: Anwendungs-URL
   Approve: Genehmigen
-  Approved?: Akzeptiert?
+  Approved?: Status
   Apps: Anwendungen
   Archived Databases: Eingestellte Datenbanken
   Are you sure?: Bist du dir sicher?
@@ -313,7 +313,7 @@ de-DE:
   Personal Info: Zur Person
   Personal Recommendations: Persönliche Empfehlungen
   Phone Number: Telefonnummer
-  Physical: Physisch
+  Physical: Datenträger (physisch)
   Place of Birth: Geboren in
   Play: Abspielen
   Plot Keywords: Schlüsselwörter für die Handlung
@@ -405,7 +405,7 @@ de-DE:
   Site: Seite
   Size: Auflösung
   Social: Fandom
-  Sort: Sortieren
+  Sort: Sortierung
   Sort By: Sortieren nach
   Sort Cast: Darsteller sortieren
   Sort Regular Cast: Gastdarsteller sortieren
@@ -447,7 +447,7 @@ de-DE:
   Terms of Use: Nutzungsbedingungen
   The Basics: Basics
   Theatrical: Kino
-  Theatrical (limited): Filmbühne
+  Theatrical (limited): Filmfest
   Timezone: Zeitzone
   Title: Titel
   Title (A-Z): Titel (A-Z)
@@ -625,7 +625,7 @@ de-DE:
       recommendations: Empfehlungen
       reviews: Rezessionen
       watchlist: Watchliste
-    order: 'Sortieren:'
+    order: 'Sortierung:'
     overview:
       30_day_activity: Aktivität der letzten 30 Tage
       empty_recent_activity:
@@ -1358,7 +1358,7 @@ de-DE:
       tall_bible:
         bottom: Richtlinien
         top: Personen
-    pro_tip: Extra-Tipp
+    pro_tip: Profi-Tipp
     search:
       placeholder_1: Wobei benötigst du Hilfe?
     tv:
@@ -1509,7 +1509,7 @@ de-DE:
       language:
         language: Sprache
         tooltip: 
-      minimum_user_votes: Anzahl Benutzerbewertungen
+      minimum_user_votes: Benutzerbewertungen (Anzahl)
       network:
         filter_by_network: Nach Sendern filtern
         network: Sender
@@ -1525,19 +1525,19 @@ de-DE:
         everything: Alles
         movies_have_seen: Filme, die ich gesehen habe
         movies_havent_seen: Filme, die ich nicht gesehen habe
-        show_me: Zeige mir
+        show_me: Anzeigen
         tooltip: 
         tv_shows_have_seen: Serien, die gesehen habe
         tv_shows_havent_seen: Serien, die ich nicht gesehen habe
       sort:
-        sort_results_by: Sortierreihenfolge
+        sort_results_by: Kriterium
       user_score:
         user_score: Benutzerbewertung
       where_to_watch:
         country: Land
         my_services:
           my_services: Meine Anbieter
-          restrict: Nur abonierte Dienste anzeigen
+          restrict: Nur abonierte Dienste
           restrict_tooltip: 
         where_to_watch: Streamingdienste
       years:
@@ -1722,7 +1722,7 @@ de-DE:
       catch_up_now: Jetzt loslegen
       discussions: Diskussionen
     header:
-      quick_snippet_1: Entdecke Millionen von FIlmen, Serien und Personen.
+      quick_snippet_1: Entdecke Millionen von Filmen, Serien und Personen.
       welcome_1: Willkommen.
     panels:
       community:
@@ -3287,11 +3287,11 @@ de-DE:
   ott:
     available_sentences:
       ads: 
-      buy: 
+      buy: kaufen
       free: 
-      rent: 
-      sentence: 
-      stream: 
+      rent: leihen
+      sentence: "%{title} ist momentan zum %{available_types} in %{country} verfügbar."
+      stream: streamen
     available_snippet:
       flatrate: Als Stream verfügbar
       rent_or_buy: Zum Leihen oder Kaufen verfügbar
@@ -3385,7 +3385,7 @@ de-DE:
       api: API
       create_page_title: 
       directory:
-        page_title: 
+        page_title: Meine autorisierten Anwendungen
       navigation:
         create: Erstellen
         details: Details
@@ -3404,11 +3404,11 @@ de-DE:
     change_email:
       change_email: E-Mail Adresse ändern
       change_email_text: Gebe deine neue Adresse ein wenn du deine E-Mail ändern möchtest. Bevor du dich jedoch neu Anmeldest musst vorerst deine neue E-Mail bestätigen indem du auf den Link in der dir zugeschickten E-Mail klickst
-      page_title: 
+      page_title: Meine E-Mail Adresse ändern
     connected_apps:
       connected_apps: Autorisierte Anwendungen
       listed_below_explanation: Hier sind die Anwendungen aufgelistet, denen du Zugriff auf dein Account gewährt hast. Du kannst diesen jederzeit widerrufen.
-      no_apps: Du hast keiner Anwendung Zugriff auf dein Konto gewährt.
+      no_apps: Du hast keiner Anwendung den Zugriff auf dein Konto gewährt.
       page_title: Meine autorisierten Anwendungen
       table:
         action: Aktionen
@@ -3418,7 +3418,7 @@ de-DE:
       confirm_delete: Löschen bestätigen
       delete_account: Konto löschen
       page_title: Mein Konto löschen
-      summary_text: Du begibst dich gerade auf einen <strong>gefährlichen Pfad</strong>! Wenn du wirklich dein Konto löschen willst, gib dein Passwort ein und bestätige die Aufforderung.
+      summary_text: Du begibst dich gerade auf einen <strong>gefährlichen Pfad</strong>! Wenn du wirklich dein Konto löschen willst, gib im ersten Schritt dein Passwort ein.
     import_list:
       import_button: Importieren
       import_list: Listenimport
@@ -3429,7 +3429,7 @@ de-DE:
       notification:
         finished_import: Import abgeschlossen!
         started_import: Import gestartet ...
-      page_title: 
+      page_title: Mein Listenimport
       previous:
         date: Datum
         imported: Importiert
@@ -3594,7 +3594,7 @@ de-DE:
       sort:
         published_at_asc: Veröffentlicht Am (Älteste Zuerst)
         published_at_desc: Veröffentlicht Am (Neueste Zuerst)
-        sort: Sortieren
+        sort: Sortierung
       type: Typ
     number_of_videos:
       one: "%{count} Video"

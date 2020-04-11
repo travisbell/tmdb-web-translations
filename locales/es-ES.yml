@@ -513,9 +513,9 @@ es-ES:
     login: Acceder
     logout: Salir
     messages: Mensajes
-    profile_and_settings: Perfil y ajustes
+    profile_and_settings: Perfil y configuración
     ratings: Valoraciones
-    settings: Ajustes
+    settings: Configuración
     sign_up: Registrarse
     view_profile: Ver perfil
     watchlist: Lista de seguimiento
@@ -690,7 +690,7 @@ es-ES:
       this_week: Esta semana
       view_them: Verlos.
   add_to_list: Añadir %{media_title} a una de tus listas...
-  already_translated_in: "%{page_title} ya está traducida a los siguientes idiomas..."
+  already_translated_in: "%{page_title} ya se ha traducido a los siguientes idiomas..."
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
     account_required:
@@ -708,7 +708,7 @@ es-ES:
       message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas valoradas fuera de TMDb"
     statuses:
       completed:
-        message: Has concedido permiso para leer y escribir a <strong>%{application_name}</strong>. Ahora puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso yendo a los ajustes de tu cuenta y a tu "Aplicaciones Conectadas" página.
+        message: Has concedido permiso de lectura y escritura a <strong>%{application_name}</strong>. Puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso entrando en la página de configuración de tu cuenta y luego en tu página de "Aplicaciones conectadas".
         name: Autenticación concedida
       denied:
         message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si esto fue un error, o te gustaría reiniciar el proceso de autentificación vuelve a la aplicación y solicita el permiso de nuevo.</p>"
@@ -1673,9 +1673,9 @@ es-ES:
     sent_verification_email: Hemos enviado un correo electrónico a %{email_address} para verificarlo. Comprueba tu bandeja de entrada (y carpeta de spam) para ver las instrucciones sobre cómo proceder.
     unsubscribe:
       sad_to_go: "¡%{username}, estamos tristes de ver que te vas!"
-      subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tus ajustes visitando tu página de <a href="%{account_link}"=>ajuste de avisos</a>.
+      subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tu configuración visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
       unsubscribe: Darse de baja
-      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>ajuste de avisos</a>.
+      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodios"
@@ -2520,7 +2520,7 @@ es-ES:
     Set Supervisor: 
     Sets & Props Artist: 
     Sets & Props Supervisor: 
-    Settings: Ajustes
+    Settings: Configuración
     Shading: Sombreado
     Shoe Design: Diseñador de calzado
     Shop Electric: 
@@ -2970,8 +2970,8 @@ es-ES:
       videos: Vídeos
     social_panel:
       discussions:
-        currently_subscribed: Estás suscrito para recibir un aviso cuando se cree la primera publicación.
-        no_discussions: No hay discusiones sobre %{item_title}. ¡Identifícate para ser el primero!
+        currently_subscribed: Te has suscrito para recibir un aviso cuando se cree la primera publicación.
+        no_discussions: No hay discusiones sobre %{item_title}. ¡Accede para ser el primero!
         unsubscribe_me: Cancelar mi suscripción.
         want_to_be_notified: "¿Quieres que se te avise cuando alguien cree la primera publicación?"
         yes_notify_me: "¡Sí, avísame!"
@@ -2986,7 +2986,7 @@ es-ES:
         read_the_rest: Leer el resto
         write_review:
           logged_in: Escribir reseña
-          public: Identifícate para escribir una reseña.
+          public: Accede para escribir una reseña.
     tv_episode:
       edit:
         guest_stars:
@@ -3131,7 +3131,7 @@ es-ES:
     options:
       admin: Administrador
       archive: Archivo
-      settings: Ajustes
+      settings: Configuración
       viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
@@ -3352,13 +3352,13 @@ es-ES:
     confirm_new_password: Confirmar nueva contraseña
     invalid_reset_code: El código de restablecimiento de contraseña no es válido.
     new_password: Nueva contraseña
-    reset_email_sent: "¡Correo electrónico enviado! En breve deberías recibir las instrucciones para cambiar la contraseña."
+    reset_email_sent: "¡Correo electrónico enviado! En breve deberías recibir las instrucciones para restablecer la contraseña."
   person:
     credits:
       as_character: como %{character}
       as_job: "— %{job}"
   resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación? Introduce tu nombre de usuario y te lo reenviaremos."
-  reset_password_text: Escribe tu nombre de usuario debajo para iniciar el proceso de reestablecimiento de contraseña.
+  reset_password_text: Escribe tu nombre de usuario debajo para iniciar el proceso de restablecimiento de contraseña.
   search:
     favorites_movie: Buscar películas favoritas...
     favorites_tv: Buscar programas de televisión favoritos...
@@ -3387,7 +3387,7 @@ es-ES:
     to_air: La temporada %{season_number} de %{show_name} tiene previsto su estreno el %{date}.
   settings:
     account:
-      account_settings: Opciones de cuenta
+      account_settings: Configuración de mi cuenta
       page_title: Mi configuración
     api:
       api: API
@@ -3415,15 +3415,15 @@ es-ES:
       page_title: Cambiar mi dirección de correo electrónico
     connected_apps:
       connected_apps: Aplicaciones conectadas
-      listed_below_explanation: A continuación se enumeran las aplicaciones de terceros que has autorizado a escribir datos en tu nombre. Puedes revocar estas autorizaciones en cualquier momento.
+      listed_below_explanation: A continuación se enumeran las aplicaciones de terceros a las que has autorizado a escribir datos en tu nombre. Puedes revocar estas autorizaciones en cualquier momento.
       no_apps: No tienes ninguna aplicación conectada a tu cuenta.
       page_title: Mis aplicaciones conectadas
       table:
         action: Acciones
-        application_name: Nombre de aplicación
+        application_name: Nombre de la aplicación
         date_authorised: Fecha de autorización
     delete_account:
-      confirm_delete: Confirmar eliminación
+      confirm_delete: Confirmar borrado
       delete_account: Borrar cuenta
       page_title: Borrar mi cuenta
       summary_text: "¡Has entrado en una <strong>zona peligrosa</strong>! Si quieres continuar y borrar tu cuenta, introduce tu contraseña y confirma las indicaciones."
@@ -3454,8 +3454,8 @@ es-ES:
             already_imported: Ya importado.
             cant_find_imdb: No se encuentra el identificador de IMDb.
             imdb_id_not_in_row: El identificador de IMDb no se encontró en esta fila.
-            personal_rating_invalid: Su valoración personal no es válida (debe estar entre 0.5 y 10.0).
-            personal_rating_not_found: Su valoración personal no se encontró en esta fila.
+            personal_rating_invalid: Tu valoración personal no es válida (debe estar entre 0.5 y 10.0).
+            personal_rating_not_found: Tu valoración personal no se encontró en esta fila.
             row_is_invalid: Esta fila no es válida.
             updated_date: Fecha actualizada.
           reason: "¿Motivo? (si es aplicable)"
@@ -3476,13 +3476,13 @@ es-ES:
       api: API
       blocked_users: Usuarios bloqueados
       connected_apps: Aplicaciones conectadas
-      delete_account: Eliminar cuenta
+      delete_account: Borrar cuenta
       edit_profile: Editar perfil
       import_list: Importar lista
-      notification_settings: Opciones de avisos
-      settings: Opciones
-      sharing_settings: Opciones de compartir
-      social_settings: Opciones Redes Sociales
+      notification_settings: Configuración de avisos
+      settings: Configuraciones
+      sharing_settings: Configuración de compartir
+      social_settings: Configuración de Redes Sociales
       streaming_services: Servicios de streaming
     notifications:
       api_updates: Envíame un correo electrónico cuando haya cambios y actualizaciones de la API
@@ -3510,8 +3510,8 @@ es-ES:
         use_gravatar: "¿Utilizar Gravatar?"
       background:
         background_image: Imagen de fondo
-        confirm_remove: Por favor confirma que deseas eliminar tu imagen de fondo. ¿Estás seguro?
-        remove_background: "¿Eliminar tu imagen de fondo?"
+        confirm_remove: Por favor confirma que deseas borrar tu imagen de fondo. ¿Estás seguro?
+        remove_background: "¿Borrar tu imagen de fondo?"
         set_image: "¿Establecer como imagen de fondo?"
       change_password: Cambiar contraseña
       edit_profile: Editar perfil
@@ -3521,23 +3521,23 @@ es-ES:
         reset_invalid_email_dialog_text: |-
           <p>Desafortunadamente, tuvimos problemas para enviarte correos electrónicos en el pasado. Puedes ver los errores <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
 
-          <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el siguiente botón de reinicio e intentaremos enviarte otro correo electrónico para verificarlo.</p>
+          <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el botón de restablecer e intentaremos enviarte otro correo electrónico para verificarlo.</p>
         reset_password_invalid_email_dialog_text: |-
           <p>Para cambiar tu contraseña, necesitamos una dirección de correo electrónico válida. Desafortunadamente, tuvimos problemas para enviarte correos electrónicos en el pasado. Puedes ver los errores <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
 
-          <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el siguiente botón de reinicio e intentaremos enviarte otro correo electrónico para verificarlo.</p>
+          <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el botón de restablecer e intentaremos enviarte otro correo electrónico para verificarlo.</p>
       page_title: Mi perfil
-      reset_password_dialog_text: Si confirmas esta petición, te enviaremos un correo electrónico con las instrucciones para reestablecer la contraseña. ¿Estás seguro de querer hacelo?
+      reset_password_dialog_text: Si confirmas esta petición, te enviaremos un correo electrónico con las instrucciones para restablecer la contraseña. ¿Estás seguro de querer hacelo?
     sharing:
       favorite_list:
         favorite_settings: Configuración de la lista de favoritos
         share_on_twitter: "¿Compartir nuevos favoritos en Twitter?"
         share_publicly: "¿Compartir la lista públicamente?"
-      page_title: Mis opciones de compartir
+      page_title: Mi configuración de compartir
       rated_list:
         rated_settings: Configuración de la lista de valoración
         share_publicly: "¿Compartir la lista públicamente?"
-      sharing_settings: Opciones de compartir
+      sharing_settings: Configuración de compartir
       watchlist:
         remove_when_rated: "¿Borrar elementos automáticamente cuando estén valorados?"
         share_publicly: "¿Compartir la lista públicamente?"
@@ -3551,8 +3551,8 @@ es-ES:
         info: Información
         reload_text: "¡Recarga esta página cuando hayas autorizado tu cuenta!"
         service: Servicio
-      favorite_message_hint: Cuándo marcar un elemento como favorito y compartir en Twitter o Facebook...
-      message_settings: Opciones de mensaje
+      favorite_message_hint: Al marcar un elemento como favorito y compartirlo en Twitter o Facebook...
+      message_settings: Configuración de mensaje
       page_title: Mi configuración de Redes Sociales
       sharing_message_hint: Cuándo compartir un elemento en Twitter o Facebook...
       social_settings: Configuración de Redes Sociales
