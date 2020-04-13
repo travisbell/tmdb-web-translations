@@ -41,7 +41,7 @@ fr-FR:
   Add To Every Season?: Ajouter à toutes les saisons ?
   Add Video: Ajouter une vidéo
   Add YouTube Video: Ajouter une vidéo YouTube
-  Add a New Cast Member: Ajouter un nouveau membre de la distribution
+  Add a New Cast Member: Ajouter un nouvel acteur à la distribution
   Add a New Crew Member: Ajouter un nouveau membre d'équipe
   Add a New Guest Star: Ajouter une nouvelle guest-star
   Add to Watchlist: Ajouter à votre liste de suivi
@@ -382,7 +382,7 @@ fr-FR:
   Search for a genre: Chercher un genre
   Search for a keyword: Chercher un mot clé
   Search for a language: Rechercher une langue
-  Search for a movie: 
+  Search for a movie: Chercher un film
   Search for a movie or TV show: Rechercher un film ou une série télé
   Search for a movie, TV show, person: Rechercher un film, une série, un artiste
   Season: Saison
@@ -429,7 +429,7 @@ fr-FR:
   Summary: Résumé
   Support: Support
   Support Forums: Forum d'aide
-  System Status: 
+  System Status: Status des serveurs
   TV: TV
   TV Network: Diffuseur TV
   TV Recommendations: Recommendations de séries
@@ -540,7 +540,7 @@ fr-FR:
         key: Clé
         language_abbreviation: Langue
     average_movie_score: Note moyenne<br>Films
-    average_tv_score: Note moyenne<br>Télévision
+    average_tv_score: Note moyenne<br>TV
     discussions:
       my_active_boards: Mes sujets actifs
       my_discussions: Mes conversations
@@ -599,7 +599,7 @@ fr-FR:
       my_rating: Mes notes
       popularity: Popularité
       rating: Note
-      release_date: Date de sorti
+      release_date: Date de sortie
       score: Note
       upcoming: Prochainement
     lists:
@@ -610,11 +610,11 @@ fr-FR:
         public: Les listes de %{username}
       no_lists:
         logged_in: Vous n'avez pas créé de liste.
-        public: "%{username} n'a pas liste publique à partager."
+        public: "%{username} n'a pas de liste publique à partager."
       page_title:
         page_owner: Mes listes
         public: Listes de %{username}
-    member_since: Membre depuis le %{date}
+    member_since: Membre depuis %{date}
     navigation:
       discussions: Conversations
       favorites: Favoris
@@ -632,14 +632,14 @@ fr-FR:
         logged_in: Vous n'avez pas fait de modification récemment.
         public: "%{username} n'a pas fait de modification récemment."
       empty_upcoming_watchlist:
-        logged_in: Il n'y a aucun film à venir dans votre liste de suivi.
+        logged_in: Aucun film à venir dans votre liste de suivi.
       empty_watched_genres:
-        logged_in: Vous n'avez aucun regardé de film ou de série.
+        logged_in: Aucun film ou série enregistré.
         public: "%{username} n'a regardé aucun film ou série."
       goto_discussions: Voir les conversations
       goto_watchlist: Voir la liste de suivi
-      most_watched_genres: Les genres les plus regardés
-      rating_overview: Répartition des notes
+      most_watched_genres: Genres les plus regardés
+      rating_overview: Résumé des notes
       recent_activity: Activité récente
       recent_discussions: Conversations récentes
       total_edits: Modifications totales
@@ -662,13 +662,13 @@ fr-FR:
     recommendations:
       my_recommendations: Mes recommandations
       no_recommendations: Nous n'avons pas assez d'information pour vous faire des recommandations.
-      no_recommendations_helper: Ajoutez plus de films ou séries en favoris (plus y aura mieux ce sera) et revenir voir ce qu'on vous propose.
+      no_recommendations_helper: Ajoutez des films et des séries à vos favoris (plus y aura mieux ce sera) et revenez voir ce qu'on vous propose.
       page_title: Recommandations
     sort_options:
       asc: Croissant
       desc: Décroissant
     tips:
-      import_imdb_ratings: Vous pouvez importez vos note depuis IMDb.
+      import_imdb_ratings: Vous pouvez importer vos note depuis IMDb.
       tip: Astuce
     watchlist:
       my_watchlist:
@@ -676,11 +676,11 @@ fr-FR:
         public: liste de %{username}
       next_month: Le mois prochain
       no_upcoming_movies:
-        one: Il n'y a aucun film à venir dans votre liste de suivi. Il y néanmoins, %{count} film dans votre liste de suivi.
-        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y néanmoins, %{count} films dans votre liste de suivi.
+        one: Il n'y a aucun film à venir dans votre liste de suivi. Il y a néanmoins, %{count} film dans votre liste de suivi.
+        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y a néanmoins, %{count} films dans votre liste de suivi.
       no_upcoming_tv_shows:
-        one: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} série dans votre liste de suivi.
-        other: Il n'y a aucune série à venir dans votre liste de suivi. Il y néanmoins, %{count} séries dans votre liste de suivi.
+        one: Il n'y a aucune série à venir dans votre liste de suivi. Il y a néanmoins, %{count} série dans votre liste de suivi.
+        other: Il n'y a aucune série à venir dans votre liste de suivi. Il y a néanmoins, %{count} séries dans votre liste de suivi.
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
@@ -1512,11 +1512,11 @@ fr-FR:
     filters:
       air_dates:
         air_dates: Dates de diffusion
-        search_all_episodes: Voir tous les épisodes ?
+        search_all_episodes: Afficher tous les épisodes ?
         search_first_air_date: Date de première sortie ?
       availability:
         availabilities: Disponibilités
-        search_all_availabilities: Voir toutes les disponibilités ?
+        search_all_availabilities: Tous voir ?
       certification:
         certification: Classification
       filters: Filtres
@@ -1526,38 +1526,38 @@ fr-FR:
         keywords: Mots clés
       language:
         language: Langue
-        tooltip: Filtrer les résultats par langue d'origine.
+        tooltip: Filtre les résultats par langue d'origine.
       minimum_user_votes: Nombre minimum de votes
       network:
-        filter_by_network: Filtrer par chaîne TV
-        network: Chaîne
-      none_selected: Aucun sélectionné
+        filter_by_network: Filtrer par diffuseurs...
+        network: Diffuseur
+      none_selected: Aucune sélectionné
       release_dates:
-        from: depuis
+        from: Du
         release_dates: Date de sortie
-        search_all_countries: Rechercher tous les pays ?
-        search_release_dates: Voir toutes les sorties ?
-        to: à
+        search_all_countries: Dans tous les pays ?
+        search_release_dates: Afficher toutes les sorties ?
+        to: Au
       runtime: Durée
       show_me:
         everything: Tous
-        movies_have_seen: Films déjà-vu
-        movies_havent_seen: Films à voir
+        movies_have_seen: Films que j'ai déjà-vu
+        movies_havent_seen: Films que je n'ai jamais vu
         show_me: Afficher
         tooltip: 'Connectez-vous pour utiliser ce filtre. '
-        tv_shows_have_seen: Séries à voir
-        tv_shows_havent_seen: Séries à voir
+        tv_shows_have_seen: Séries que j'ai déjà-vu
+        tv_shows_havent_seen: Séries que je n'ai jamais vu
       sort:
-        sort_results_by: Filtrer les résultats par
+        sort_results_by: Trier les résultats par
       user_score:
-        user_score: Score utilisateur
+        user_score: Note utilisateur
       where_to_watch:
         country: Pays
         my_services:
           my_services: Mes services
           restrict: Restreindre les recherches à mes services souscrit ?
           restrict_tooltip: Connectez-vous pour modifier vos services
-        where_to_watch: Ou voir
+        where_to_watch: Où regarder
       years:
         years: Années
     no_items: Aucun résultat pour cette recherche.
@@ -1685,9 +1685,9 @@ fr-FR:
     sent_verification_email: Nous vous avons envoyé un email à l'adresse %{email_address} pour vérification. Consultez votre boite de réception (et votre dossier d'indésirables) pour obtenir les instructions à suivre.
     unsubscribe:
       sad_to_go: "%{username}, nous sommes triste de vous voir partir !"
-      subscription_changed: 
+      subscription_changed: 'Souscription mise à jour. Vous pouvez éditer vos paramètres de notification en visitant la page <a href="%{account_link}">Paramètres de notification</a> '
       unsubscribe: Désinscription
-      unsubscribed: 
+      unsubscribed: <strong>Désinscription</strong> prise en compte. Vous pouvez re-souscrire à tout moment en visitant la page <a href="%{account_link}">Paramètres de notification</a>.
   episode_count:
     one: "%{count} Épisode"
     other: "%{count} Épisodes"
@@ -1730,8 +1730,8 @@ fr-FR:
   homepage:
     community:
       benefits_list:
-        '1': Profitez de TMDB sans publicité
-        '2': Maintenez votre liste de suivi personnelle
+        '1': Profitez de TMDB sans publicité.
+        '2': Maintenez votre liste de suivi personnelle.
         '3': Filtrez avec vos services de streaming et faites votre choix.
         '4': Enregistrez les films et séries que vous avez vu.
         '5': Construisez des listes personnalisées.
@@ -2797,7 +2797,7 @@ fr-FR:
   login_to_create: Vous ne trouvez pas un film ou un série ? Connectez-vous pour l'ajouter.
   login_to_edit: Connectez-vous pour modifier
   media:
-    adult: 
+    adult: Adulte
     changes:
       filters:
         clear: Effacer
@@ -2813,13 +2813,13 @@ fr-FR:
         parts:
           add: Ajouter un film
           no_records: Aucun film ajouté
-      parts: 
+      parts: Médias
     company:
       headquarters: Siège
       movie_page_title: Films produits par %{name}
       tv_page_title: Séries sur %{name}
     edit:
-      cast_updated: 
+      cast_updated: Distribution mise à jour
       genres_updated: Genres mis à jour
       lock_all_cast_crew_description: En cliquant 'oui' les champs ne pourront plus être modifiés par un autre utilisateur. Les modérateurs peuvent toujours effectuer des modifications.
       lock_all_fields: Verrouiller tous les champs
@@ -2840,7 +2840,7 @@ fr-FR:
         production_companies: Sélectionner une entreprise de production...
       success_fields_locked: Les champs sont verrouillés.
       tooltips:
-        adult: 
+        adult: De manière générale, cette option est à utiliser uniquement pour la pornographie. Merci de consulter <a href="/bible/movie#59f73b759251416e71000004">Bible de contribution</a> pour plus d'informations.
         bible: Pour accéder à l'aide à l'édition d'informations sur TMDb, cliquer '?' pour lire la bible de contribution.
         homepage: Seulement le site officiel. Les sites de fans ne sont pas autorisés.
         logo_format: Les formats SVG et PNG sont supportés. SVG est préféré puisqu'il est indépendant de la résolution.
@@ -2848,9 +2848,9 @@ fr-FR:
         overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
         social_links: Les liens vers les réseaux sociaux doivent être ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
     external_links:
-      visit_facebook: Aller à Facebook
+      visit_facebook: Aller sur Facebook
       visit_homepage: Aller à l'acceuil
-      visit_instagram: Aller à Instagram
+      visit_instagram: Aller sur Instagram
       visit_justwatch: Visiter JustWatch
       visit_twitter: Aller à Twitter
     genre:
@@ -2964,23 +2964,23 @@ fr-FR:
       rated_with_rating: Noté %{value}
       rating_count: 
       score_breakdown: 
-      score_distribution: 
-      score_history: 
-      score_trend: 
+      score_distribution: Score de distibution
+      score_history: Score de l'historique
+      score_trend: Score de tendance
     shortcut_bar:
       alternative_titles: Titres alternatifs
       backdrops: Fonds d'écran
       cast_crew: Distribution et équipes technique
       changes: Modifications
       fandom: Fan Zone
-      main: 
-      media: 
-      overview: 
+      main: Principale
+      media: Media
+      overview: Aperçu
       posters: Affiches
       profiles: Profils
-      release_dates: 
+      release_dates: Date de sortie
       reviews: Critiques
-      translations: 
+      translations: Traductions
       videos: Vidéos
     social_panel:
       discussions:
@@ -3004,7 +3004,7 @@ fr-FR:
     tv_episode:
       edit:
         guest_stars:
-          no_records: Aucun.e invité.e exceptionel.le n'a été ajouté.e.
+          no_records: Aucune guest star n'a été ajouté.
         screened_as_part_of_season: Oui, comme partie de la saison
         screened_confirm: Si cet épisode a été diffusé lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cet épisode a t-il été diffusé au cinéma ?
@@ -3108,15 +3108,15 @@ fr-FR:
       channel: Canal
       duration: Durée
       play_behind_the_scenes: Regarder les coulisses du tournage
-      play_blooper: 
+      play_blooper: Regarder le bêtisier
       play_clip: Regarder l'extrait
-      play_featurette: 
+      play_featurette: Regarder la featurette
       play_opening_credits: 
       play_recap: Regarder le récapitulatif
       play_teaser: Regarder le Teaser
       play_trailer: Regarder le trailer
       published: Publié(e)
-      published_at: Publié À
+      published_at: Publié à
       restricted_regions: Régions restreintes
       tags: Tags
   message_templates:
@@ -3150,7 +3150,7 @@ fr-FR:
     placeholders:
       no_conversation_selected:
         create: Vous pouvez aussi créer une nouvelle conversation en <a href="%{link}">cliquant ici</a>.
-        no_conversations: Vous n'avez aucun conversation en cours, petit.e veinard.e !
+        no_conversations: Vous n'avez aucune conversation en cours, chanceux !
         view: Pour voir une conversation, sélectionnez en une sur la gauche
       no_user_found: Utilisateur non trouvé
       reply: Taper un message...
@@ -3176,19 +3176,19 @@ fr-FR:
     more:
       more: Plus
     movies:
-      now_playing: Actuellement en salles
+      now_playing: Actuellement en salle
       popular: Populaire
-      top_rated: Mieux notés
+      top_rated: Les mieux notés
       upcoming: Prochainement
     people:
       people: Artistes
       popular_people: Artistes populaires
     tv_shows:
-      airing_today: Diffusées aujourd'hui
-      on_the_air: Séries en cours de diffusion
-      on_tv: Séries en cours de diffusion
+      airing_today: Diffusés aujourd'hui
+      on_the_air: À l'antenne
+      on_tv: À la télévision
       popular: Populaire
-      top_rated: Mieux notées
+      top_rated: Les mieux notés
   no_biography: Aucune biographie n'est disponible pour %{name}.
   no_cast: Aucune distribution n'a été ajoutée à ce %{media_type}. Vous pouvez nous aider en la complétant un peu !
   no_collection_search_results: Aucune collection ne correspond à votre requête.
@@ -3316,7 +3316,7 @@ fr-FR:
       stream: stream
     available_snippet:
       flatrate: Disponible en ce moment
-      rent_or_buy: Disponible à la location ou l'achat
+      rent_or_buy: Disponible à l'achat et la location
       summary_sentence: "%{available_snippet} sur %{service_name}"
     description: JustWatch permet de trouver où regarder légalement vos films et séries préférées en ligne. Allez sur {justwatch_link} pour plus d'information.
     filters:
@@ -3328,11 +3328,11 @@ fr-FR:
       hd: HD
       sd: SD
     monetization_types:
-      ads: Publicités
-      buy: Acheter
-      flatrate: Streaming
+      ads: Publicitaire
+      buy: Vente
+      flatrate: Stream
       free: Gratuit
-      rent: Louer
+      rent: Location
     no_offers:
       4k: Aucune offre 4K Ultra HD n'a été trouvée.
       bluray: Aucune offre Blu-ray n'a été trouvée.
@@ -3389,7 +3389,7 @@ fr-FR:
     rated_tv: Rechercher dans vos séries notées...
     recommendations_movie: Cherchez parmi les films qui vous sont recommandés...
     recommendations_tv: Cherchez parmi les séries télé qui vous sont recommandées...
-    search_results: 
+    search_results: Résultats de la recherche
     trending: Populaire
     trending_searches: Recherches populaires
     watchlist_movie: Rechercher un film dans votre liste de suivi...
@@ -3402,19 +3402,19 @@ fr-FR:
   settings:
     account:
       account_settings: Paramètres du compte
-      page_title: 
+      page_title: Mes paramètres
     api:
       api: API
-      create_page_title: 
+      create_page_title: Créer une nouvelle clé API
       directory:
-        page_title: 
+        page_title: Mon dossier application
       navigation:
         create: Créer
         details: Détails
         directory: Dossier
         sessions: Sessions
         stats: Statistiques
-      page_title: 
+      page_title: Mes paramètres API
       session_page_title: Ma session API
       stats_page_title: Mes statistiques API
     blocked_users:
@@ -3496,7 +3496,7 @@ fr-FR:
       notification_settings: Paramètres de notification
       settings: Paramètres
       sharing_settings: Paramètres de partage
-      social_settings: Paramètres des réseaux sociaux
+      social_settings: Paramètres réseaux sociaux
       streaming_services: Services de streaming
     notifications:
       api_updates: Envoyez moi un email au sujet des modifications et mises à jour de l'API
@@ -3547,13 +3547,13 @@ fr-FR:
         favorite_settings: Paramètres des favoris
         share_on_twitter: Partager les nouveaux favoris sur Twitter ?
         share_publicly: Liste visible par tout le monde ?
-      page_title: 
+      page_title: Mes paramètres de partage
       rated_list:
         rated_settings: Paramètres de la liste des éléments notés
         share_publicly: Liste visible par tout le monde ?
       sharing_settings: Paramètres de partage
       watchlist:
-        remove_when_rated: Supprimer automatiquement les éléments lors qu'ils sont notés ?
+        remove_when_rated: Supprimer automatiquement les éléments lorsqu'ils sont notés ?
         share_publicly: Partager cette liste publiquement ?
         watchlist_settings: Paramètres de la liste de suivi
     social:
@@ -3567,13 +3567,13 @@ fr-FR:
         service: Service
       favorite_message_hint: Lorsque vous mettrez un éléments dans vos favoris et le partagez sur Twitter ou Facebook....
       message_settings: Paramètres du message
-      page_title: 
+      page_title: 'Mes paramètres réseaux sociaux '
       sharing_message_hint: Lorsque vous partagez un élément sur Twitter ou Facebook....
-      social_settings: Paramètres des réseaux sociaux
+      social_settings: Paramètres réseaux sociaux
       supported_template_values: 'Valeurs possibles dans le modèle :'
     streaming_services:
-      page_title: 
-      streaming_services: 
+      page_title: Mes services de streaming
+      streaming_services: Services de streaming
   sign_up:
     benefits:
       benefits_to_being_member: Pourquoi créer un compte ?
