@@ -11,14 +11,14 @@ pt-PT:
   API Sessions: 
   API Stats: Estatísticas da API
   API Status Codes: 
-  API Terms: Termos e Condições da API
-  API Terms of Use: Termos e Condições de Utilização da API
+  API Terms: Termos da API
+  API Terms of Use: Termos de Utilização da API
   API Updates: Atualizações da API
   About: Sobre
   About TMDb: Sobre o TMDb
   About this list: Sobre esta lista
   Accept: Aceitar
-  Accept API Terms: Aceitar Termos e Condições da API
+  Accept API Terms: Aceitar Termos da API
   Account: Conta
   Account Filtering: Filtrar Conta
   Add Alternative Name: Adicionar Nome Alternativo
@@ -211,7 +211,7 @@ pt-PT:
   Hide items on watchlist?: Ocultar itens na Lista de Interesses?
   Hide rated?: Ocultar os que foram Classificados?
   Home: Início
-  Homepage: Página Inicial
+  Homepage: Página Oficial
   IMDB ID: ID do IMDb
   Images: Imagens
   Import CSV: Importar CSV
@@ -376,7 +376,7 @@ pt-PT:
   Revenue: Bilheteira
   Runtime: Duração
   Save: Guardar
-  Search: Procurar
+  Search: Pesquisar
   Search for a company: Procurar por uma companhia
   Search for a country: Procurar por um país
   Search for a genre: Procurar por um género
@@ -444,7 +444,7 @@ pt-PT:
   Tagline: Slogan
   Talk: Falar
   Television: Televisão
-  Terms of Use: Termos e Condições de Utilização
+  Terms of Use: Termos de Utilização
   The Basics: Os Básicos
   Theatrical: Cinematográfica
   Theatrical (limited): Cinematográfica (limitada)
@@ -494,7 +494,7 @@ pt-PT:
   Watchlist: Lista de Interesses
   Watchlists: Listas de Interesses
   Website: Site
-  Website Terms: Termos e Condições do Site
+  Website Terms: Termos do Site
   Website Updates: Atualizações do Site
   Wrappers & Libraries: Bibliotecas & Wrappers
   Written by: Escrito por
@@ -733,16 +733,16 @@ pt-PT:
   average edits per day: média de edições por dia
   back_options:
     back: Voltar
-    episode: Regressar ao episódio
-    episode_groups: Voltar ao grupo de episódios
-    episode_list: Regressar a lista de episódios
-    home: Regressar ao início
-    main: Regressar a página principal
-    named_episode_group: Voltar aos grupos de "%{group_name}"
-    season: Regressar a temporada
-    season_list: Regressar a lista de temporadas
-    to_tmdb: Voltar a TMDB
-    top: Regressar ao topo
+    episode: Voltar ao Episódio
+    episode_groups: Voltar ao Grupo de Episódios
+    episode_list: Voltar a Lista de Episódios
+    home: Voltar à Página Inicial
+    main: Voltar a Página Principal
+    named_episode_group: Voltar aos Grupos de "%{group_name}"
+    season: Voltar à Temporada
+    season_list: Voltar à Lista de Temporadas
+    to_tmdb: Voltar ao TMDb
+    top: Voltar ao Topo
   certifications:
     meaning: Significado
     movies:
@@ -1514,9 +1514,9 @@ pt-PT:
         country: País
         my_services:
           my_services: Os Meus Serviços
-          restrict: 
+          restrict: Restringir pesquisas aos meus serviços subscritos?
           restrict_tooltip: Inicie Sessão para gerir os seus serviços subscritos.
-        where_to_watch: 
+        where_to_watch: Aonde Assistir
       years:
         years: Anos
     no_items: Nenhum item corresponde à sua pesquisa.
@@ -1524,7 +1524,7 @@ pt-PT:
     tooltips:
       not_member: Ainda não é um membro?
       signup: Crie uma Conta e Adere a Comunidade
-      want_to_rate: 
+      want_to_rate: Deseja classificar ou adicionar este item a uma lista?
   discussions:
     actions:
       actions: Ações
@@ -1706,14 +1706,14 @@ pt-PT:
         join_today: Adere Hoje
         sign_up: Criar Conta
       filters:
-        for_rent: 
-        in_theaters: 
-        movies: 
-        on_tv: 
-        streaming: 
-        this_week: 
-        today: 
-        tv: 
+        for_rent: Para Alugar
+        in_theaters: Nos Cinemas
+        movies: Filmes
+        on_tv: Na TV
+        streaming: Streaming
+        this_week: Esta Semana
+        today: Hoje
+        tv: TV
       free_to_watch: 
       latest_trailers: 
       leaderboard:
@@ -3261,8 +3261,8 @@ pt-PT:
   ott:
     available_sentences:
       ads: 
-      buy: 
-      flatrate: 
+      buy: Comprar
+      flatrate: Stream
       free: 
       rent: 
       sentence: 
@@ -3529,7 +3529,7 @@ pt-PT:
       discussions: Fazer parte de discussões sobre Filmes e Séries
       keep_track: Organizar e acompanhar os seus Filmes e Séries favoritas e obter recomendações personalizadas.
       log_movies: Catalogar todos os Filmes e Séries que já viu
-    by_clicking_agree_to_terms: Ao clicar no botão "Criar Conta" abaixo, certifico que li e concordo com os Termos e Condições de Utilização e a Política de Privacidade do TMDb.
+    by_clicking_agree_to_terms: Ao clicar no botão "Criar Conta" abaixo, certifico que li e concordo com os Termos de Utilização e a Política de Privacidade do TMDb.
     javascript_required: É necessário JavaScript para continuar.
     sign_up_for_account: Crie uma conta
     signup_text: Criar uma conta é fácil e gratuito. Preencha os campos para começar.
@@ -3544,6 +3544,11 @@ pt-PT:
   success_saved: As suas alterações foram guardadas com sucesso.
   success_set_language: O idioma foi atualizado.
   success_sharing: A sua mensagem foi partilhada com sucesso.
+  support:
+    array:
+      last_word_connector: 
+      two_words_connector: 
+      words_connector: 
   the: 
   time:
     formats:
@@ -3558,35 +3563,37 @@ pt-PT:
   used_by_developers: TMDb é usado por mais de 200.000 desenvolvedores.<br>Veja os seus trabalhos em baixo.
   videos:
     filters:
-      language: 
+      language: Idioma
       sort:
         published_at_asc: Publicar o (mais antigo primeiro)
         published_at_desc: Publicar o (mais recente primeiro)
         sort: Ordenar
-      type: 
-    number_of_videos: 
-    official_channel: 
-    page_title: 
-    popular: 
+      type: Tipo
+    number_of_videos:
+      one: "%{count} vídeo"
+      other: "%{count} vídeos"
+    official_channel: Canal Oficial
+    page_title: Canal de vídeo de %{name}
+    popular: Popular
     types:
-      Behind the Scenes: 
-      Blooper: 
-      Bloopers: 
-      Clip: Vídeo
+      Behind the Scenes: Bastidores
+      Blooper: Erro de Gravação
+      Bloopers: Erros de Gravação
+      Clip: Videoclipe
       Clips: Videoclipes
-      Featurette: Curta
-      Featurettes: Curtas
-      Opening Credits: Créditos de Abertura
-      Recap: 
-      Recaps: 
+      Featurette: Curta-metragem
+      Featurettes: Curtas-metragens
+      Opening Credits: 'Genéricos '
+      Recap: Resumo
+      Recaps: Resumos
       Teaser: Teaser
       Teasers: Teasers
       Trailer: Trailer
       Trailers: Trailers
-    vimeo_channel: 
-    visit_vimeo_channel: 
-    visit_youtube_channel: 
-    youtube_channel: 
+    vimeo_channel: Canal Vimeo
+    visit_vimeo_channel: Visite o Canal Vimeo
+    visit_youtube_channel: Visite o canal do YouTube
+    youtube_channel: Canal do Youtube
   view all: ver tudo
   will_paginate:
     next_label: Seguinte →
