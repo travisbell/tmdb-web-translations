@@ -1040,7 +1040,7 @@ fr-FR:
         '3':
           meaning: Les enfants de plus de 7 ans accompagnés d'un adulte sont admis aux films classés pour des enfants à partir de 11 ans.
         '4':
-          meaning: Les enfants de plus de 7 ans accompagnés d'un adulte sont admis aux films classés pour enfants de moins de 11 ans. Mis à jour le 1 mars 2017.
+          meaning: Les enfants de plus de 7 ans accompagnés d'un adulte sont admis aux films classés pour enfants de plus de 11 ans. Mis à jour le 1 mars 2017.
       US:
         '0':
           meaning: |2-
@@ -3018,6 +3018,7 @@ fr-FR:
         create_episode: Créer un épisode
         episodes:
           no_records: Aucun épisode n'a été ajouté.
+        runtime_varies_check: 
         screened_confirm: Si cette saison a été diffusée lors d'un festival ou au cinéma, cliquez sur 'Oui' pour continuer.
         screened_label: Cette saison a t-elle été diffusée au cinéma ?
       season_cast: Distribution de la saison
@@ -3309,10 +3310,10 @@ fr-FR:
   ott:
     available_sentences:
       ads: voir avec publicité
-      buy: acheter
-      flatrate: stream
+      buy: la vente
+      flatrate: voir en stream
       free: voir gratuitement
-      rent: louer
+      rent: la location
       sentence: "%{title} est actuellement disponible à %{available_types} en %{country}."
     available_snippet:
       flatrate: Disponible en ce moment
@@ -3600,8 +3601,8 @@ fr-FR:
   success_sharing: Votre message a été partagé avec succès.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: " et"
+      two_words_connector: et
       words_connector: ", "
   the: 
   time:

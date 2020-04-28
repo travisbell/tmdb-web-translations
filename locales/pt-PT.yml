@@ -265,7 +265,7 @@ pt-PT:
   Mobile Application: Aplicação Móvel
   Moderator: Moderador
   More Info: Mais Informação
-  Most Popular: Mais Populares
+  Most Popular: Os Mais Populares
   Move Credits: 
   Move TV Credits: Mover Créditos de TV
   Movie Data: Informação do Filme
@@ -326,7 +326,7 @@ pt-PT:
   Popularity Rank: Tabela de Popularidade
   Popularity Trend: Curva de Popularidade
   Poster Card View: Vista em Cartaz
-  Powered by TMDb: Patrocinado por TMDb
+  Powered by TMDb: Desenvolvido por TMDb
   Powered by The Movie Database: Patrocinado por The Movie Database
   Premiere: Estreia
   Preview: Pré-Estreia
@@ -506,7 +506,7 @@ pt-PT:
   account_drop_down:
     discussions: Discussões
     edit_profile: Editar Perfil
-    join_tmdb: Adere ao TMDb
+    join_tmdb: Aderir ao TMDb
     lists: Listas
     login: Iniciar Sessão
     logout: Terminar Sessão
@@ -551,7 +551,7 @@ pt-PT:
     events:
       all: Todos
       emails:
-        emails: Emails
+        emails: E-mails
         filters:
           status:
             Bounce: Devolvido
@@ -560,8 +560,8 @@ pt-PT:
             Unsubscribed: Não Subscrito
             status: Estado
         number_of_items:
-          one: "%{count} Email"
-          other: "%{count} Emails"
+          one: "%{count} E-mail"
+          other: "%{count} E-mails"
       events: Eventos
       notifications:
         filters:
@@ -700,8 +700,8 @@ pt-PT:
       message: 
       title: 
     missing_request_token:
-      message: 
-      title: 
+      message: É necessário solicitar um token para autenticar as contas de utilizador.
+      title: Token de Solicitação Ausente
     request_token_approval:
       message: "{{APP}} está a pedir a sua permissão para ler e gravar dados em seu nome. Isso é necessário se quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDb."
     statuses:
@@ -1036,7 +1036,7 @@ pt-PT:
         '3':
           meaning: 
         '4':
-          meaning: 
+          meaning: Crianças acima de 7 anos acompanhadas por um adulto são admitidas em filmes classificados para crianças maiores de 11 anos. Atualizado em 1 de março de 2017.
       US:
         '0':
           meaning: 
@@ -1372,8 +1372,8 @@ pt-PT:
     welcome_1: Bem-Vindo(a) à
     welcome_2: Bíblia de Contribuição
   cookie_popup:
-    message: 
-    ok_button: 
+    message: Utilizamos "cookies" para ajudar a proporcionar uma melhor experiência no TMDb. Pode ler a nossa <a href="%{policy_url}" target="_blank" rel="noopener">Política de Cookies</a> para obter mais informações. Ao continuar a usar o TMDb, consideraremos que aceita o uso de cookies.
+    ok_button: Ok
   date:
     abbr_day_names:
     - dom
@@ -1433,19 +1433,43 @@ pt-PT:
     entry_deleted: Registo Removido
     reasons:
       '1':
-        message: 
-        subject: Está duplicado
+        message: |-
+          Olá,
+
+          Esta é uma mensagem amigável dos moderadores de conteúdo do TMDb. A entrada "%{title}" que criou foi excluída. Já constava no nosso banco de dados e, portanto, foi considerado uma duplicata.
+
+          Se tiver alguma dúvida a esse respeito, não hesite em responder a esta mensagem.
+        subject: É uma duplicata
       '2':
-        message: 
-        subject: 
+        message: |-
+          Olá,
+
+          Esta é uma mensagem amigável dos moderadores de conteúdo do TMDb. A entrada "%{title}" que criou foi excluída. Não atendeu às [regras de Novo Conteúdo] (https://www.themoviedb.org/bible/new_content).
+
+          Se tiver alguma dúvida a esse respeito, não hesite em responder a esta mensagem.
+        subject: Não atende às nossas regras de conteúdo (amador, etc ...)
       '3':
-        message: 
+        message: |-
+          Olá,
+
+          Esta é uma mensagem amigável dos moderadores de conteúdo do TMDb. A entrada "%{title}" que criou foi excluída. Ela já existe como uma Série e não é considerado um Filme válido. Pode ler mais sobre às novas regras de Novo Conteúdo [aqui](https://www.themoviedb.org/bible/new_content).
+          Se tiver alguma dúvida a esse respeito, não hesite em responder a esta mensagem.
         subject: É uma Série
       '4':
-        message: 
-        subject: É um registo falso
+        message: |-
+          Olá,
+
+          Esta é uma mensagem amigável dos moderadores de conteúdo do TMDb. A entrada "%{title}" que criou foi excluída. Não atendeu às [regras de Novo Conteúdo] (https://www.themoviedb.org/bible/new_content).
+
+          Se tiver alguma dúvida a esse respeito, não hesite em responder a esta mensagem.
+        subject: É uma entrada falsa
       '5':
-        message: 
+        message: |-
+          Olá,
+
+          Esta é uma mensagem amigável dos moderadores de conteúdo do TMDb. A entrada "%{title}" que criou foi excluída. Não atendeu às [regras de Novo Conteúdo] (https://www.themoviedb.org/bible/new_content).
+
+          Se tiver alguma dúvida a esse respeito, não hesite em responder a esta mensagem.
         subject: Isto é spam
     why_deleting: 
   department_credits_count:
@@ -1539,7 +1563,7 @@ pt-PT:
     admin_panel: Painel de Administração
     back_options:
       back_to_item_with_arrow: "← Regressar a %{item_title}"
-      back_to_tmdb_with_arrow: "← Regressar ao TMDb"
+      back_to_tmdb_with_arrow: "← Voltar ao TMDb"
       back_with_arrow: "← Regressar"
     categories:
       categories: Categorias
@@ -1643,10 +1667,10 @@ pt-PT:
     new_email_address: Novo Endereço de E-mail
     sent_verification_email: Enviámos um e-mail para %{email_address} para o mesmo ser verificado. Veja a sua Caixa de Entrada (e a pasta de spam) para instruções de como proceder.
     unsubscribe:
-      sad_to_go: 
-      subscription_changed: 
-      unsubscribe: 
-      unsubscribed: 
+      sad_to_go: "%{username}, estamos tristes em vê-lo partir!"
+      subscription_changed: As configurações de subscrição foram atualizadas. Pode editar suas configurações de notificação visitando a página <a href="%{account_link}">Configurações de Notificação</a>.
+      unsubscribe: Cancelar Subscrição
+      unsubscribed: <strong>Subscrição Cancelada</strong>. Se fez isso por engano, pode se inscrever novamente a qualquer momento, visitando a página <a href="%{account_link}">Configurações de Notificação</a>.
   episode_count:
     one: "%{count} Episódio"
     other: "%{count} Episódios"
@@ -1689,7 +1713,7 @@ pt-PT:
   homepage:
     community:
       benefits_list:
-        '1': 
+        '1': Desfrute do TMDb sem publicidade
         '2': 
         '3': 
         '4': 
@@ -1703,7 +1727,7 @@ pt-PT:
       welcome_1: Bem-Vindo(a).
     panels:
       community:
-        join_today: Adere Hoje
+        join_today: Adira ainda Hoje
         sign_up: Criar Conta
       filters:
         for_rent: Para Alugar
@@ -1714,14 +1738,14 @@ pt-PT:
         this_week: Esta Semana
         today: Hoje
         tv: TV
-      free_to_watch: 
-      latest_trailers: 
+      free_to_watch: Ver Gratuitamente
+      latest_trailers: Últimos Trailers
       leaderboard:
-        all_time: 
-        leaderboard: 
-        this_week: 
-      trending: 
-      whats_popular: 
+        all_time: Total de Edições
+        leaderboard: Líderes em Contribuições
+        this_week: Edições Nesta Semana
+      trending: Tendências
+      whats_popular: Os Mais Populares
     taw:
       read_the_2018_recap: Ler Recapitulativo de 2018
       read_the_2019_recap: Ler Recapitulativo de 2019
@@ -2501,7 +2525,7 @@ pt-PT:
     Sign Painter: Pintor(a) de Placas
     Simulation & Effects Artist: Artista de Efeitos e Simulação
     Simulation & Effects Production Assistant: Produtor(a) Assistente de Efeitos e Simulação
-    Smoke Artist: 
+    Smoke Artist: Artista de Efeitos de Fumo
     Software Engineer: Engenheiro(a) de Software
     Software Team Lead: Chefe de Equipa de Software
     Songs: Músicas
@@ -2752,8 +2776,8 @@ pt-PT:
     step_3: 'Passo 3: Escolher Imagem'
     step_4: 'Passo 4: Partilhar'
   login:
-    login_text_1: 
-    login_text_2: 
+    login_text_1: Para usar os recursos de edição e classificação do TMDb, além de obter recomendações personalizadas, precisará iniciar sessão na sua conta. Se não possuir uma conta, o registo é gratuito e simples. <a href="%{signup_link}">Clique aqui</a> para começar.
+    login_text_2: Se criou uma conta, mas não recebeu o e-mail de verificação, <a href="%{verification_link}">clique aqui</a> para reenviá-lo.
     login_to_your_account: Iniciar Sessão na sua conta
   login_to_create: Não consegue encontrar um certo Filme ou Série? Inicie Sessão e adicione-o.
   login_to_edit: Iniciar Sessão para Editar
@@ -2838,7 +2862,10 @@ pt-PT:
           no_records: Não foi adicionado nenhum título alternativo.
         cast:
           no_records: Não foi adicionado nenhum membro do elenco.
-        confirm_collection: 
+        confirm_collection: |-
+          <p>As coleções permitem agrupar sequelas no TMDb. Embora às vezes sejam controversas, as coleções não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para fazer isso, por favor, <a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para obter mais informações sobre as coleções, visite a <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
+
+          <p>Se a coleção que esta prestes a criar atender a esses critérios, por favor, continue.</p>
         confirm_video: |-
           <p>Marcar um filme como um vídeo ajuda-nos a diferenciar os tipos de conteúdo que não são realmente filmes.</p>
 
@@ -2970,6 +2997,7 @@ pt-PT:
         create_episode: Criar Episódio
         episodes:
           no_records: Não foi adicionada nenhum episódio.
+        runtime_varies_check: 
         screened_confirm: 
         screened_label: 
       season_cast: 
@@ -3074,7 +3102,7 @@ pt-PT:
   message_templates:
     help_translate:
       message: |-
-        Olá e obrigado por usar o TMDb. Percebemos que está a navegar no site em um idioma que não está totalmente traduzido. Se estiver interessado em nos ajudar a concluir as traduções, visite o [Locale project] (https://www.localeapp.com/projects/8267). [Criar uma Conta] (https://www.localeapp.com/users/sign_up) no Locale é gratuito e poderá adicionar quantas traduções desejar. Cada adição ou correção fornece assistência valiosa.
+        Olá e obrigado por usar o TMDb. Percebemos que está a navegar no site em um idioma que não está totalmente traduzido. Se estiver interessado em nos ajudar a concluir as traduções, visite o [Locale project] (https://www.localeapp.com/projects/8267). [Criar Conta] (https://www.localeapp.com/users/sign_up) no Locale é gratuito e poderá adicionar quantas traduções desejar. Cada adição ou correção fornece assistência valiosa.
 
         Se não estiver interessado, não há problema. Valeu a pena perguntar.
 
@@ -3188,8 +3216,8 @@ pt-PT:
     public: A Lista de Interesses está vazia.
   no_writer: Não foi adicionado(a) nenhum(a) escritor(a).
   not_translated:
-    logged_in: "%{page_title} ainda não foi traduzido(a) para <strong>%{requested_i18n} (%{requested_language_text})</strong>.Se quiser criar esta tradução, por favor clique no seguinte botão."
-    public: '%{page_title} ainda não foi traduzido(a) para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desejar criar esta tradução crie <a href="%{signup_link}">uma conta</a> e <a href="%{login_link}">inicie sessão</a>,'
+    logged_in: "%{page_title} ainda não foi traduzido para <strong>%{requested_i18n} (%{requested_language_text})</strong>.Se quiser criar esta tradução, por favor clique no seguinte botão."
+    public: '%{page_title} ainda não foi traduzido para <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desejar contribuir com uma tradução clique em <a href="%{signup_link}">Criar Conta</a> e depois <a href="%{login_link}">Inicie Sessão</a>,'
   notifications:
     caught_up: 
     clear: Limpar
@@ -3260,17 +3288,17 @@ pt-PT:
     other: "%{count} votos"
   ott:
     available_sentences:
-      ads: Ver com Publicidades
+      ads: Ver com Publicidade
       buy: Comprar
-      flatrate: Stream
+      flatrate: Ver em Stream
       free: Veja Gratuitamente
       rent: Alugar
       sentence: "%{title} está atualmente disponível para %{available_types} em %{country}."
     available_snippet:
       flatrate: Disponível Neste Momento
       rent_or_buy: Disponível para Alugar ou Comprar
-      summary_sentence: "%{available_snippet} no(a) %{service_name}"
-    description: JustWatch ajuda-o a descobrir aonde visualizar legalmente os seus filmes e séries preferidas online. Clique em {justwatch_link} para obter mais informações.
+      summary_sentence: "%{available_snippet} na %{service_name}"
+    description: JustWatch ajuda-o a descobrir onde visualizar legalmente os seus filmes e séries preferidas online. Clique em {justwatch_link} para obter mais informações.
     filters:
       4k: 4K
       best_price: Melhor Preço
@@ -3300,10 +3328,10 @@ pt-PT:
     watch_now: Ver Agora
     watch_on:
       ads: Ver %{name} na %{provider_name}
-      buy: 
-      flatrate: 
-      free: 
-      rent: 
+      buy: Compre %{name} na %{provider_name}
+      flatrate: Ver %{name} na %{provider_name}
+      free: Ver %{name} na %{provider_name}
+      rent: Alugue %{name} na %{provider_name}
   pagination:
     currently_on: Página %{current_page} de %{total_pages}
     last_page: Última página
@@ -3376,9 +3404,9 @@ pt-PT:
       page_title: 
       username: Nome de Utilizador
     change_email:
-      change_email: Mudar E-mail
-      change_email_text: Se desejar alterar o seu endereço de e-mail, introduza um novo no campo abaixo. Antes de poder voltar a entrar, terá de primeiro verificar o endereço de e-mail. Para isso terá de clicar no endereço de ativação que se encontrará no e-mail que enviaremos para o seu novo e-mail.
-      page_title: 
+      change_email: Alterar E-mail
+      change_email_text: Se desejar alterar o seu endereço de e-mail, introduza um novo no campo abaixo. Antes de poder voltar a entrar, terá de primeiro verificar o endereço de e-mail. Para isso terá de clicar no endereço de ativação que se encontrará no e-mail que enviaremos para o seu novo endereço.
+      page_title: Alterar O Meu Endereço de E-mail
     connected_apps:
       connected_apps: Aplicações Conectadas
       listed_below_explanation: Abaixo está uma lista de aplicações de terceiros que autorizou a publicar dados em seu nome. Pode revogar estas autorizações a qualquer momento.
@@ -3451,13 +3479,13 @@ pt-PT:
       social_settings: Configurações das Redes Sociais
       streaming_services: Serviços de Streaming
     notifications:
-      api_updates: 
+      api_updates: Enviar e-mail sobre as alterações e atualizações da API
       email_new_releases_watchlist: Enviar e-mail acerca de novos lançamentos na minha Lista de Interesses?
-      new_replies_to_threads_created: 
-      new_replies_to_threads_watching: 
-      news_updates: 
+      new_replies_to_threads_created: Seguir automaticamente tópicos que eu criei ou respondi?
+      new_replies_to_threads_watching: Enviar notificações por e-mail de respostas em tópicos que estou a Seguir?
+      news_updates: Enviar e-mails sobre novidades e atualizações
       notifications: Notificações
-      page_title: 
+      page_title: As Minhas Notificações
     profile:
       accent_color: Cor de Destaque
       avatar:
@@ -3482,10 +3510,16 @@ pt-PT:
       change_password: Mudar Palavra-passe
       edit_profile: Editar Perfil
       email:
-        invalid_dialog_title: 
-        reset_button: 
-        reset_invalid_email_dialog_text: 
-        reset_password_invalid_email_dialog_text: 
+        invalid_dialog_title: Redefinir E-mail?
+        reset_button: Redefinir e enviar?
+        reset_invalid_email_dialog_text: |-
+          <p>Infelizmente, tivemos problemas em enviar e-mails para si no passado. Pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3">aqui</a>.</ P>
+
+          <p>Se os problemas com o seu endereço de e-mail tiverem sido corrigidos ou foram apenas temporários, clique no botão "Redefinir" abaixo. Tentaremos enviar outro e-mail para verificar.</ p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Para alterar a sua Palavra-passe, precisamos de um endereço de e-mail válido. Infelizmente, tivemos problemas em enviar e-mails para si no passado. Pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3">aqui</a>.</ P>
+
+          <p>Se os problemas com o seu endereço de e-mail tiverem sido corrigidos ou foram apenas temporários, clique no botão "Redefinir" abaixo. Tentaremos enviar outro e-mail para verificar.</ p>
       page_title: 
       reset_password_dialog_text: Ao confirmar este pedido irá receber um e-mail com instruções de como redefinir a sua palavra-passe. Tem a certeza que deseja prosseguir?
     sharing:
@@ -3546,8 +3580,8 @@ pt-PT:
   success_sharing: A sua mensagem foi partilhada com sucesso.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: " e"
+      two_words_connector: e
       words_connector: ", "
   the: 
   time:

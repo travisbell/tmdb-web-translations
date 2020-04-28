@@ -1693,7 +1693,7 @@ pt-BR:
     sent_verification_email: Nós enviamos um e-mail para %{email_address} para que seja verificado. Confira a sua caixa de entrada (e a pasta de spams) para instruções de como proceder.
     unsubscribe:
       sad_to_go: "%{username}, estamos tristes em vê-lo partir!"
-      subscription_changed: Sua configuração de inscrição foi atualizada. Você pode editar suas configurações de notificação acessando <a href="%{account_link}">configurações de notificação</a> page.
+      subscription_changed: Sua configuração de inscrição foi atualizada. Você pode editar suas configurações de notificação acessando <a href="%{account_link}">configurações de notificação</a>.
       unsubscribe: Deixar de Seguir
       unsubscribed: <strong>Inscrição cancelada</strong>. Se você fez isso por engano, pode se inscrever novamente visitando sua página <a href="%{account_link}">configurações de notificação</a>.
   episode_count:
@@ -1739,9 +1739,9 @@ pt-BR:
     community:
       benefits_list:
         '1': Aproveite o TMDb sem propaganda
-        '2': Manter uma Watchlist pessoal
-        '3': Filtre por seus serviços de streaming e encontre algo para assistir
-        '4': Registre os filmes e programas de TV que você já viu
+        '2': Mantenha uma Watchlist pessoal
+        '3': Filtre por seus serviços de streaming e ache algo para assistir
+        '4': Marque os Filmes e Séries que você já viu
         '5': Crie Listas personalizadas
         '6': Contribua e melhore nosso banco de dados
     discussions:
@@ -1764,12 +1764,12 @@ pt-BR:
         today: Hoje
         tv: TV
       free_to_watch: Grátis para Assistir
-      latest_trailers: Últimos  Trailers
+      latest_trailers: Últimos Trailers
       leaderboard:
         all_time: Total de Edições
         leaderboard: Líderes
         this_week: Edições Nesta Semana
-      trending: 
+      trending: Tendências
       whats_popular: Os Mais Populares
     taw:
       read_the_2018_recap: Leia a recapitulação de 2018
@@ -2853,7 +2853,7 @@ pt-BR:
       success_fields_locked: Campos trancados.
       tooltips:
         adult: De um modo geral, essa indicação deve ser usada apenas para pornografia. Por favor, veja <a href="/bible/movie#59f73b759251416e71000004">the contribution bible</a> para mais informações.
-        bible: Para obter ajuda na edição de informações no TMDb, clique nesta '?' para ler a Bíblia do Colaborador.
+        bible: Para obter ajuda na edição de informações no TMDb, clique neste '?' para ler a Bíblia do Colaborador.
         homepage: Somente sites oficiais, páginas de fãs não são permitidas.
         logo_format: Arquivos SVG e PNG são suportados. Preferimos arquivos SVG, por serem independentes de resolução.
         original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
@@ -2890,7 +2890,7 @@ pt-BR:
         cast:
           no_records: Nenhum membro do elenco foi adicionado.
         confirm_collection: |-
-          <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDb. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, </p><a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
+          <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDb. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, <a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
           <p>Se a coletânea que você está prestes a criar atende este critério, por favor, continue.</p>
         confirm_video: |-
@@ -3028,6 +3028,7 @@ pt-BR:
         create_episode: Criar episódio
         episodes:
           no_records: Nenhum episódio foi adicionado.
+        runtime_varies_check: 
         screened_confirm: Se esta temporada foi exibida em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Esta Temporada foi exibida em cinemas ou festivais?
       season_cast: Elenco da Temporada
@@ -3320,7 +3321,7 @@ pt-BR:
     available_sentences:
       ads: assista com anúncios
       buy: compre
-      flatrate: Stream
+      flatrate: Ver em Stream
       free: assista de graça
       rent: alugue
       sentence: "%{title} está atualmente disponível para %{available_types} no/na %{country}."
@@ -3543,7 +3544,7 @@ pt-BR:
         invalid_dialog_title: Redefinir Email?
         reset_button: Redefinir e enviar?
         reset_invalid_email_dialog_text: |-
-          <p>Infelizmente, tivemos problemas em enviar e-mails para você no passado. Você pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3"> aqui </a>.</ P>
+          <p>Infelizmente, tivemos problemas em enviar e-mails para você no passado. Você pode ver os erros <a href="/u/%{username_url}/events/emails?status=2,3">aqui</a>.</ P>
 
           <p>Se os problemas com seu endereço de e-mail tiverem sido corrigidos ou forem temporários, clique no botão de redefinição abaixo e tentaremos enviar outro e-mail para você confirmar.</ p>
         reset_password_invalid_email_dialog_text: |-
@@ -3610,8 +3611,8 @@ pt-BR:
   success_sharing: Sua mensagem foi compartilhada com sucesso.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: " e"
+      two_words_connector: e
       words_connector: ", "
   the: o
   time:
@@ -3624,7 +3625,7 @@ pt-BR:
   upload_backdrop: Enviar uma imagem de fundo
   upload_poster: Enviar um pôster
   upload_profile: Enviar uma foto
-  used_by_developers: O TMDb é usado por mais de 200.000 desenvolvedores.<br>Confira o trabalho de alguns deles abaixo.
+  used_by_developers: O TMDb é usado por mais de 200.000 desenvolvedores.<br>Confira o trabalho de alguns deles a baixo.
   videos:
     filters:
       language: Idioma
