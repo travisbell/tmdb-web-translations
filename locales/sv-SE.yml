@@ -10,7 +10,7 @@ sv-SE:
   API Read Access Token: Läsåtkomsttoken för API
   API Sessions: API-sessioner
   API Stats: API-statistik
-  API Status Codes: API statuskoder
+  API Status Codes: API-statuskoder
   API Terms: API-villkor
   API Terms of Use: API-användningsvillkor
   API Updates: API-uppdateringar
@@ -37,7 +37,7 @@ sv-SE:
   Add New TV Show: Lägg till en tv-serie
   Add Poster: Lägg till affisch
   Add Profile: Lägg till profil
-  Add Season Regular: Lägg till huvudaktörer
+  Add Season Regular: Lägg till återkommande säsongsskådespelare
   Add To Every Season?: Kopplas till varje säsong?
   Add Video: Lägg till video
   Add YouTube Video: Lägg till YouTube video
@@ -142,7 +142,7 @@ sv-SE:
   Digital: Digital
   Directed by: Regisserad av
   Directory: Katalog
-  Discover Examples: Upptäcksexempel
+  Discover Examples: Upptäck-exempel
   Discover New Movies: Hitta nya Filmer
   Discover New Movies & TV Shows: Upptäck nya filmer & tv-serier
   Discover New TV Shows: Upptäck nya tv-serier
@@ -160,7 +160,7 @@ sv-SE:
   Email: E-post
   Email Address: E-postadress
   Email Content: E-postinnehåll
-  Embed: 
+  Embed: Bädda in
   Episode Images:
     one: ''
     other: Avsnittsbilder
@@ -236,7 +236,7 @@ sv-SE:
   Last Name: Efternamn
   Last Season Crew: Förra säsongens medarbetare
   Last Season Featured Crew: Förra säsongens huvudmedarbetare
-  Last Season Regular Cast: Förra säsongens huvudsakliga skådespelarbesättning
+  Last Season Regular Cast: Förra säsongens återkommande skådespelare
   Last Week: Föregående vecka
   Leaderboard: Topplista
   Legal: Juridiskt
@@ -257,7 +257,7 @@ sv-SE:
   Login to rate this movie: Logga in för att betygsätta denna film
   Login to report an issue: Logga in för att rapportera ett problem
   Logo: Logga
-  Logos & Attribution: Loggor & Tillskrivningar
+  Logos & Attribution: Loggor & tillskrivningar
   Logout: Logga ut
   Mark as Favorite: Markera som favorit
   Media: Media
@@ -356,7 +356,7 @@ sv-SE:
   Recent News: Nyheter
   Recommendations: Rekommendationer
   Regions: Regioner
-  Regular Cast: Huvudsaklig skådespelarbesättning
+  Regular Cast: Återkommande skådespelare
   Release Date Ascending: Utgivningsdatum stigande
   Release Date Descending: Utgivningsdatum fallande
   Release Dates & Certifications: Utgivningsdatum & åldersgräns
@@ -390,7 +390,7 @@ sv-SE:
   Season: Säsong
   Season Number: Säsongs Nummer
   Season Overview: Säsongs Översikt
-  Season Regulars: Säsongens huvudaktörer
+  Season Regulars: Säsongens återkommande skådespelare
   Season Specials: 
   Seasons: Säsonger
   Secondary Color: Sekundärfärg
@@ -410,7 +410,7 @@ sv-SE:
   Sort: Sortera
   Sort By: Sortera på
   Sort Cast: Sortera skådespelarbesättning
-  Sort Regular Cast: Sortera huvudsaklig skådespelarbesättning
+  Sort Regular Cast: Sortera återkommande skådespelare
   Source Key: Källnyckel
   Specials: 
   Spoken Languages: Talade språk
@@ -495,9 +495,9 @@ sv-SE:
   Watch Online: Titta online
   Watchlist: Bevakningslista
   Watchlists: Bevakningslistor
-  Website: Websidan
-  Website Terms: Villkor för websidan
-  Website Updates: Uppdateringar av websidan
+  Website: Webbplats
+  Website Terms: Webbplatsvillkor
+  Website Updates: Webbplatsuppdateringar
   Wrappers & Libraries: Wrappers & bibliotek
   Written by: Skriven av
   Year: År
@@ -1572,7 +1572,7 @@ sv-SE:
         content_issues: Innehållsproblem
         discuss: Diskutera
         general: Allmänt
-        website_support: Hemsidesupport
+        website_support: Webbplatssupport
       support:
         api_requests: API-begäran
         api_requests_(professional): API-begäran (Professionell)
@@ -1582,7 +1582,7 @@ sv-SE:
         general_chat: Allmän chatt
         moderator_talk: Moderator diskussioner
         support: Support
-        website_support: Hemsidesupport
+        website_support: Webbplatssupport
     category:
       last_reply_with_datetime: "%{date} vid %{time}"
       last_reply_with_datetime_and_username: "%{date} vid %{time}<br>av %{username}"
@@ -1669,9 +1669,9 @@ sv-SE:
     sent_verification_email: Vi har skickat ett e-postmeddelande till %{email_address} för verifiering. Kolla din inkorg (och din skräpkorg) för instruktioner om hur du fortsätter.
     unsubscribe:
       sad_to_go: Vad tråkigt att du lämnar oss %{username}!
-      subscription_changed: 
+      subscription_changed: Dina prenumerationsinställningar har uppdaterats. Du kan redigera dina aviseringsinställningar genom att besöka din <a href="%{account_link}">aviseringsinställningar</a>-sida.
       unsubscribe: Avanmäl
-      unsubscribed: 
+      unsubscribed: Din prenumeration har <strong>avslutats</strong>. Om du gjorde detta av misstag kan du börja prenumerera igen genom att besöka din <a href="%{account_link}">aviseringsinställningar</a>-sida.
   episode_count:
     one: "%{count} avsnitt"
     other: "%{count} avsnitt"
@@ -1701,7 +1701,7 @@ sv-SE:
       duplicate_crew_member: Denna personen är redan tillagd som %{job_name}.
       duplicate_episode: Avsnittet finns redan
       duplicate_guest_star: Den här gästskådespelaren finns redan.
-      duplicate_regular_season_member: 
+      duplicate_regular_season_member: Denna person är redan tillagd som en återkommande säsongsskådespelare.
       duplicate_season: Den här säsongen finns redan.
   failed_email: Ditt e-postmeddelande skickades tyvärr inte.
   failed_generic: Det uppstod ett problem.
@@ -2734,7 +2734,7 @@ sv-SE:
       submit_message: skicka ditt meddelande
       toggle_close: växla stäng/öppna
       toggle_private: växla offentligt/privat
-      toggle_watching: växla tittad status
+      toggle_watching: växla sedd-status
     groups:
       discussion_pages: På diskussionssidor
       edit_pages: På alla redigeringssidor
@@ -2887,7 +2887,7 @@ sv-SE:
           no_records: Det finns inga videoklipp tillagda.
       statuses:
         Canceled: Avbruten
-        In Production: I Produktion
+        In Production: I produktion
         Planned: Planerad
         Post Production: Efterarbete
         Released: Utgiven
@@ -3047,8 +3047,8 @@ sv-SE:
           no_records: Inga tv-bolag har lagts till.
           none_found: Inga matchande tv-bolag hittades. Vill du skapa det?
         regular_cast:
-          no_records: Det finns inga regelbundna skådespelare tillagda.
-          no_season: Det finns ingen säsong tillagd! En säsong krävs för att lägga till regelbundna skådespelare.
+          no_records: Inga återkommande skådespelare har lagts till.
+          no_season: Inga säsonger existerar! En säsong krävs för att kunna lägga till återkommande skådespelare.
         runtime:
           add_it: Lägg till ny speltid?
           enter_value: Ange värde i minuter
@@ -3104,7 +3104,7 @@ sv-SE:
         Om du inte har något intresse för detta, så är det lugnt. Jag tänkte bara att jag skulle fråga.
 
         Tack och ha det så bra!
-      subject: Hjälp oss att översätta hemsidan
+      subject: Hjälp till att översätta vår webbplats
   messages:
     compose:
       ban: Banna
