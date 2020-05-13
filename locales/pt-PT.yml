@@ -11,14 +11,14 @@ pt-PT:
   API Sessions: 
   API Stats: Estatísticas da API
   API Status Codes: 
-  API Terms: Termos da API
-  API Terms of Use: Termos de Utilização da API
+  API Terms: Condições da API
+  API Terms of Use: Condições de Utilização da API
   API Updates: Atualizações da API
   About: Sobre
   About TMDb: Sobre o TMDb
   About this list: Sobre esta lista
   Accept: Aceitar
-  Accept API Terms: Aceitar Termos da API
+  Accept API Terms: Aceitar Condições da API
   Account: Conta
   Account Filtering: Filtrar Conta
   Add Alternative Name: Adicionar Nome Alternativo
@@ -161,7 +161,9 @@ pt-PT:
   Email Address: Endereço de E-mail
   Email Content: Enviar Conteúdo por E-mail
   Embed: 
-  Episode Images: Imagens do Episódio
+  Episode Images:
+    one: Imagem do Episódio
+    other: Imagens do Episódio
   Episode Number: Episódio Nº
   Episode Overview: Sinopse do Episódio
   Episodes: Episódios
@@ -169,7 +171,7 @@ pt-PT:
   Example API Request: 'Exemplo: Requisição da API'
   Expand: Expandir
   External IDs: IDs Externos
-  External Links: Atalhos Externos
+  External Links: Links Externos
   Extra Details: Detalhes Extra
   Extras: Extras
   FAQ: FAQ
@@ -306,8 +308,8 @@ pt-PT:
   Page: Página
   Password: Palavra-passe
   Password Confirm: Confirmar a Palavra-passe
-  People: Celebridades
-  People Results: Resultados das Celebridades
+  People: Pessoas
+  People Results: Resultados das Pessoas
   Person: Pessoa
   Personal: Pessoal
   Personal Info: Informação Pessoal
@@ -398,7 +400,7 @@ pt-PT:
   Send: Enviar
   Sessions: Sessões
   Share: Partilhar
-  Share Link: 
+  Share Link: Partilhar Link
   Sharing: Partilhar
   Show: 
   Show More: Mostrar Mais
@@ -440,11 +442,11 @@ pt-PT:
   TV Show Watchlist: Lista de Interesses de Série
   TV Shows: Séries
   TV Shows Airing Today: Séries Emitidas Hoje
-  Tagged People: Celebridades Mencionadas
+  Tagged People: Pessoas Mencionadas
   Tagline: Slogan
   Talk: Falar
   Television: Televisão
-  Terms of Use: Termos de Utilização
+  Terms of Use: Condições de Utilização
   The Basics: Os Básicos
   Theatrical: Cinematográfica
   Theatrical (limited): Cinematográfica (limitada)
@@ -494,7 +496,7 @@ pt-PT:
   Watchlist: Lista de Interesses
   Watchlists: Listas de Interesses
   Website: Site
-  Website Terms: Termos do Site
+  Website Terms: Condições do Site
   Website Updates: Atualizações do Site
   Wrappers & Libraries: Bibliotecas & Wrappers
   Written by: Escrito por
@@ -529,8 +531,8 @@ pt-PT:
         all: Todos
         movies: Filmes
         others: Outros
-        people: Celebridades
-        tv: Séries
+        people: Pessoas
+        tv: TV
       page_title:
         page_owner: A Minha Atividade Recente
         public: Atividade Recente de %{username}
@@ -1328,7 +1330,7 @@ pt-PT:
       collection: col.
       image: im.
       movie: fil.
-      people: Celeb.
+      people: pes
       tv: tv
     collection:
       collection: Coleções
@@ -1355,11 +1357,11 @@ pt-PT:
       new_content_bible: Bíblia do Novo Conteúdo
     note: Nota
     people:
-      people: Celebridades
-      people_bible: Bíblia das Celebridades
+      people: Pessoas
+      people_bible: Bíblia das Pessoas
       tall_bible:
         bottom: Bíblia
-        top: Celebridades
+        top: Pessoas
     pro_tip: Dica Pro
     search:
       placeholder_1: Que tipo de ajuda precisa?
@@ -1369,7 +1371,7 @@ pt-PT:
         top: Séries
       tv: Séries
       tv_bible: Bíblia das Séries
-    welcome_1: Bem-Vindo(a) à
+    welcome_1: Bem-vindo(a) à
     welcome_2: Bíblia de Contribuição
   cookie_popup:
     message: Utilizamos "cookies" para ajudar a proporcionar uma melhor experiência no TMDb. Pode ler a nossa <a href="%{policy_url}" target="_blank" rel="noopener">Política de Cookies</a> para obter mais informações. Ao continuar a usar o TMDb, consideraremos que aceita o uso de cookies.
@@ -1723,8 +1725,8 @@ pt-PT:
       catch_up_now: Coloque a conversa em dia
       discussions: Discussões
     header:
-      quick_snippet_1: Milhões de Filmes, Séries e Celebridades para Descobrir. Explore já.
-      welcome_1: Bem-Vindo(a).
+      quick_snippet_1: Milhões de filmes, séries e pessoas para descobrir. Explore já.
+      welcome_1: Bem-vindo(a).
     panels:
       community:
         join_today: Adira ainda Hoje
@@ -1858,8 +1860,8 @@ pt-PT:
     Administration: Administração
     Administrative Assistant: Assistente Administrativo
     Aerial Camera: Câmera Aérea
-    Aerial Camera Technician: Técnico de Camera Aérea
-    Aerial Coordinator: Coordenador Aéreo
+    Aerial Camera Technician: Técnico(a) de Câmera Aérea
+    Aerial Coordinator: Coordenador(a) Aéreo(a)
     Aerial Director of Photography: Diretor(a) de Fotografia Aérea
     Ager/Dyer: 
     Animal Coordinator: 
@@ -1935,7 +1937,7 @@ pt-PT:
     Atmos Editor: 
     Attorney: 
     Audio Post Coordinator: Pós-Coordenador(a) de Áudio
-    Author: Autor/Autora
+    Author: Autor(a)
     BTS Footage: 
     BTS Photographer: 
     BTS Videographer: 
@@ -1965,12 +1967,12 @@ pt-PT:
     Camera Car: 
     Camera Department Manager: Gestor(a) do Departamento de Câmaras
     Camera Department Production Assistant: 
-    Camera Intern: Interino de Câmera
+    Camera Intern: Interino(a) de Câmera
     Camera Loader: 
     Camera Operator: Operador(a) de Câmara
     Camera Production Assistant: 
     Camera Supervisor: Supervisor(a) de Câmara
-    Camera Technician: Técnico de Câmara
+    Camera Technician: Técnico(a) de Câmara
     Camera Trainee: 'Estagiário(a) de Câmara '
     Camera Truck: 
     Captain Driver: 
@@ -2084,7 +2086,7 @@ pt-PT:
     Digital Compositor: Compositores Digitais
     Digital Conform Editor: 
     Digital Effects Producer: 
-    Digital Effects Supervisor: Supervisor(a) de Efeitos Especiais
+    Digital Effects Supervisor: Supervisor(a) de Efeitos Digitais
     Digital Film Recording: Engenheiro(a) de Gravação de Filmes Digitais
     Digital Foley Artist: Artista Digital de Efeitos Sonoros (Foley)
     Digital Imaging Technician: 
@@ -2110,7 +2112,7 @@ pt-PT:
     Draughtsman: 
     Dresser: 
     Dressing Prop: 
-    Driver: Condutor
+    Driver: Condutor(a)
     Drone Cinematographer: 
     Drone Operator: 
     Drone Pilot: 
@@ -2663,16 +2665,16 @@ pt-PT:
     Unit Swing: 
     Utility Sound: 
     Utility Stunts: Utilitário para Cenas de Ação
-    VFX Artist: Artista VFX
-    VFX Director of Photography: 
-    VFX Editor: Editor(a) VFX
+    VFX Artist: Artista de Efeitos Especiais
+    VFX Director of Photography: Diretor(a) de Fotografia de Efeitos Especiais
+    VFX Editor: Editor(a) de Efeitos Especiais
     VFX Lighting Artist: 
-    VFX Production Coordinator: Coordenador(a) de Produção VFX
-    VFX Supervisor: Supervisor(a) VFX
+    VFX Production Coordinator: Coordenador(a) de Produção de Efeitos Especiais
+    VFX Supervisor: Supervisor(a) de Efeitos Especiais
     Vehicles Coordinator: 
     Vehicles Wrangler: 
     Video Assist Operator: Assistente de Operador(a) de Vídeo
-    Video Game: Vídeojogos
+    Video Game: Videojogos
     Video Report: 
     Videojournalist: 
     Visual Development: Desenvolvimento Visual
@@ -2682,7 +2684,7 @@ pt-PT:
     Visual Effects Camera: 
     Visual Effects Compositor: 
     Visual Effects Coordinator: Coordenador(a) de Efeitos Visuais
-    Visual Effects Design Consultant: Consultor(a) de Projectos de Efeitos Visuais
+    Visual Effects Design Consultant: Consultor(a) de Projetos de Efeitos Visuais
     Visual Effects Designer: Projetista de Efeitos Visuais
     Visual Effects Director: 
     Visual Effects Editor: Editor(a) de Efeitos Visuais
@@ -2737,13 +2739,13 @@ pt-PT:
       toggle_private: 
       toggle_watching: 
     groups:
-      discussion_pages: 
-      edit_pages: 
-      global: 
-      image_pages: 
-      media_pages: 
-      tv_episode_pages: 
-      tv_season_pages: 
+      discussion_pages: Em Páginas de Discussão
+      edit_pages: Em Todas as Páginas de Edição
+      global: Geral
+      image_pages: Em Todas as Páginas de Imagens
+      media_pages: Em páginas de Média
+      tv_episode_pages: Em Páginas de Episódios de Séries
+      tv_season_pages: Em Páginas de Temporadas de Séries
     keyboard_shortcuts: Atalhos de Teclado
     view_keyboard_shorcuts: Ver Atalhos de Teclado
     view_shortcuts: Ver Atalhos
@@ -2921,8 +2923,12 @@ pt-PT:
     no_results_found:
       movie: Não foram encontrados Filmes.
       tv: Não foram encontradas Séries.
-    number_of_movies: 
-    number_of_shows: 
+    number_of_movies:
+      one: "%{count} Filme"
+      other: "%{count} Filmes"
+    number_of_shows:
+      one: "%{count} Série"
+      other: "%{count} Séries"
     person:
       edit:
         alternative_names:
@@ -2932,10 +2938,10 @@ pt-PT:
         male: Masculino
         non_binary: 
       media_types:
-        all: 
-        movies: 
-        tv: 
-        tv_shows: 
+        all: Todos
+        movies: Filmes
+        tv: TV
+        tv_shows: Séries
       years_old: 
     rating:
       rated_with_rating: Classificado em %{value}
@@ -2949,17 +2955,17 @@ pt-PT:
     shortcut_bar:
       alternative_titles: Títulos Alternativos
       backdrops: Imagens de Fundo
-      cast_crew: 
+      cast_crew: Elenco & Equipa Técnica
       changes: Alterações
-      fandom: 
-      main: 
-      media: 
+      fandom: Fandom
+      main: Principal
+      media: Média
       overview: Visão Geral
       posters: Cartazes
       profiles: Perfis
       release_dates: Datas de Lançamentos
       reviews: Críticas
-      translations: 
+      translations: Traduções
       videos: Vídeos
     social_panel:
       discussions:
@@ -2983,10 +2989,10 @@ pt-PT:
     tv_episode:
       edit:
         guest_stars:
-          no_records: Não foi adicionada nenhuma estrela convidada.
-        screened_as_part_of_season: Sim, como parte da temporada
-        screened_confirm: 
-        screened_label: 
+          no_records: Nenhuma estrela convidada foi adicionada.
+        screened_as_part_of_season: Sim, como parte de uma temporada
+        screened_confirm: Se este episódio foi exibido em algum cinema ou festival de filmes, clique em "Sim" para continuar.
+        screened_label: Este episódio foi exibido em cinemas ou festivais?
       episode_selector:
         current_episode: Episódio %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -2997,11 +3003,11 @@ pt-PT:
         create_episode: Criar Episódio
         episodes:
           no_records: Não foi adicionada nenhum episódio.
-        runtime_varies_check: 
-        screened_confirm: 
-        screened_label: 
-      season_cast: 
-      season_crew: 
+        runtime_varies_check: O valor do tempo de duração varia muito do tempo de duração da temporada. Inseriu o tempo de duração correto?
+        screened_confirm: Se esta temporada foi exibida em algum cinema ou festival de filmes, clique em "Sim" para continuar.
+        screened_label: Esta Temporada foi exibida em cinemas ou festivais?
+      season_cast: Elenco da Temporada
+      season_crew: Equipa Técnica da Temporada
       season_selector:
         current_season: Temporada Atual
         last_season: Última Temporada
@@ -3087,18 +3093,18 @@ pt-PT:
       audio_language: Idioma do Áudio
       channel: Canal
       duration: Duração
-      play_behind_the_scenes: 
-      play_blooper: 
-      play_clip: 
-      play_featurette: 
-      play_opening_credits: 
-      play_recap: 
-      play_teaser: 
+      play_behind_the_scenes: Ver Bastidores
+      play_blooper: Ver Erros de Gravação
+      play_clip: Ver Videoclipe
+      play_featurette: Ver Curta-metragem
+      play_opening_credits: Ver Genéricos
+      play_recap: Ver Recapitulativo
+      play_teaser: Ver Teaser
       play_trailer: Ver Trailer
-      published: Publicada
-      published_at: Publicada em
-      restricted_regions: Regiões Restingidas
-      tags: Tags
+      published: Publicado
+      published_at: Publicado em
+      restricted_regions: Regiões Restringidas
+      tags: Etiquetas "Tags"
   message_templates:
     help_translate:
       message: |-
@@ -3161,8 +3167,8 @@ pt-PT:
       top_rated: Melhor Classificação
       upcoming: Brevemente
     people:
-      people: Celebridades
-      popular_people: Celebridades Famosas
+      people: Pessoas
+      popular_people: Pessoas Famosas
     tv_shows:
       airing_today: Emitidos Hoje
       on_the_air: Em Exibição
@@ -3350,14 +3356,14 @@ pt-PT:
   person:
     credits:
       as_character: como %{character}
-      as_job: 
+      as_job: "— %{job}"
   resend_verification_email_text: Não recebeu o e-mail de verificação? Introduza o seu nome de utilizador em baixo para reenviar.
   reset_password_text: Introduza o seu nome de utilizador em baixo para começar o processo de redefinição da palavra-passe.
   search:
     favorites_movie: Procure Filmes favoritos...
     favorites_tv: Pesquisar Séries favoritas...
     in_movies: em Filmes
-    in_people: em Celebridades
+    in_people: em Pessoas
     in_tv_shows: em Séries
     media_types:
       movie: Filme
@@ -3563,7 +3569,7 @@ pt-PT:
       discussions: Fazer parte de discussões sobre Filmes e Séries
       keep_track: Organizar e acompanhar os seus Filmes e Séries favoritas e obter recomendações personalizadas.
       log_movies: Catalogar todos os Filmes e Séries que já viu
-    by_clicking_agree_to_terms: Ao clicar no botão "Criar Conta" abaixo, certifico que li e concordo com os Termos de Utilização e a Política de Privacidade do TMDb.
+    by_clicking_agree_to_terms: Ao clicar no botão "Criar Conta" abaixo, certifico que li e concordo com as Condições de Utilização e a Política de Privacidade do TMDb.
     javascript_required: É necessário JavaScript para continuar.
     sign_up_for_account: Crie uma conta
     signup_text: Criar uma conta é fácil e gratuito. Preencha os campos para começar.
