@@ -209,7 +209,7 @@ gl-ES:
   Hi: Ola!
   Hide favorites?: Agochar favoritos?
   Hide items on watchlist?: Agochar elementos da listaxe de seguimento?
-  Hide rated?: Agochar valorados?
+  Hide rated?: Agochar puntuados?
   Home: Inicio
   Homepage: Páxina oficial
   IMDB ID: IMDb ID
@@ -252,7 +252,7 @@ gl-ES:
   Login to add this movie to your watchlist: Accede para engadires este filme á túa listaxe de seguimento
   Login to create and edit custom lists: Accede para creares e editares listas personalizadas
   Login to rate this TV show: Accede para puntuar esta serie TV.
-  Login to rate this movie: Accede para valorares este filme
+  Login to rate this movie: Accede para puntuares este filme
   Login to report an issue: Accede para informar dun abuso
   Logo: Logotipo
   Logos & Attribution: Logotipos e atribucións
@@ -343,12 +343,12 @@ gl-ES:
   Quality: Calidade
   Rank: Posto
   Rate It!: Valórao!
-  Rated: Valorado
-  Rated Movies: Filmes valorados
-  Rated TV Shows: Series TV valoradas
-  Rating: Valoración
-  Rating Ascending: Valoración ascendente
-  Rating Descending: Valoración descendente
+  Rated: Puntuado
+  Rated Movies: Filmes punruados
+  Rated TV Shows: Series TV puntuados
+  Rating: 'Puntuación '
+  Rating Ascending: Puntuación ascendente
+  Rating Descending: Puntuación descendente
   Read More: Ler máis
   Recent Blog Posts: Publicacións recentes no blog
   Recent News: Noticias recentes
@@ -455,7 +455,7 @@ gl-ES:
   Today: Hoxe
   Top Billed Cast: Reparto máis destacado
   Top Rated Movies: Filmes mellor puntuados
-  Top Rated TV Shows: Series TV mellor valoradas
+  Top Rated TV Shows: Series TV mellor puntuadas
   Top Users: Mellores usuarios
   Translate Collection: Traducir colección
   Translate Movie: Traducir filme
@@ -594,11 +594,11 @@ gl-ES:
     filters:
       air_date: Data de emisión
       date_added: Data engadido
-      date_rated: 'Data valoración '
+      date_rated: 'Data puntuación '
       first_air_date: Primeira data de emisión
-      my_rating: 'A miña valoración '
+      my_rating: 'A miña puntuación '
       popularity: Popularidade
-      rating: Valoracíon
+      rating: 'Puntuación '
       release_date: 'Data de publicación '
       score: 'Puntuación '
       upcoming: Proximamente
@@ -620,7 +620,7 @@ gl-ES:
       favorites: Favoritos
       lists: Listas
       overview: Resumo
-      ratings: Valoracións
+      ratings: Puntuacións
       ratings_reviews: Críticas e Puntuacións
       recommendations: Recomendacións
       reviews: Revisións
@@ -820,7 +820,7 @@ gl-ES:
           meaning: 'Non se admiten cativos. Só adultos. '
       DK:
         '0':
-          meaning: 'Sen información de valoración. '
+          meaning: Sen información de puntuacións.
         '1':
           meaning: Axeitado para público en xeral.
         '2':
@@ -1547,7 +1547,7 @@ gl-ES:
     tooltips:
       not_member: Non es membro?
       signup: Rexístrate e únete á comunidade
-      want_to_rate: Queres valorar ou engadir o elemento a unha listaxe?
+      want_to_rate: Queres puntuar ou engadir o elemento a unha listaxe?
   discussions:
     actions:
       actions: Accións
@@ -2745,7 +2745,7 @@ gl-ES:
     view_keyboard_shorcuts: Amosar atallos de teclado
     view_shortcuts: Amosar atallos
   list_info:
-    average_rating: Valoración media
+    average_rating: Puntuación media
     image_selected: Seleccionada
     items_on_list:
       one: elemento nesta lista
@@ -2763,7 +2763,7 @@ gl-ES:
     item_removed: Elemento eliminado.
   list_sort:
     original_order: Orden orixinal
-    rating: Valoración
+    rating: 'Puntuación '
     release_date: Data de publicación
     title: Título
   list_steps:
@@ -2938,10 +2938,10 @@ gl-ES:
         tv_shows: Series TV
       years_old: "%{age} anos"
     rating:
-      rated_with_rating: Valorado %{value}
+      rated_with_rating: Puntuado %{value}
       rating_count:
-        one: "%{count} valoración"
-        other: "%{count} valoracións"
+        one: "%{count} puntuación"
+        other: "%{count} puntuacións"
       score_breakdown: Desglose de puntuacións
       score_distribution: Distribución de puntuacións
       score_history: Histórico de puntuacións
@@ -3200,14 +3200,14 @@ gl-ES:
     movie: 'Para obteres recomendacións persoalizadas de filmes comeza por engadires todos os teus filmes favoritos. Entón repararás que moitos dos filmes que recomendamos son os que xa tes visto. Para filtrárelos, valóraos! Após os filtraremos automaticamente. '
     tv: 'Para obteres recomendacións persoalizadas de series TV comeza por engadires todas as túas series favoritas. Entón repararás que moitas das series que recomendamos son as que xa tes visto. Para filtrárelas valóraas! Após as filtraremos automaticamente. '
   no_rated_movies:
-    current_user: Non valoraches filme algún.
+    current_user: Non puntuaches filme algún.
     public: "%{username} non valorou filme algún."
   no_rated_tv_shows:
     current_user: Non puntuaches serie TV algunha.
     public: "%{username} non puntuou serie TV algunha."
   no_recommendations:
-    movie: Non dispoñemos datos de abondo para suxerirmos un filme baseándonos no %{title}. Podes axudar valorando os filmes que tes visto.
-    tv_show: Non dispoñemos datos de abondo para suxerirmos unha serie TV baseándonos no %{title}. Podes axudar valorando os filmes que tes visto.
+    movie: Non dispoñemos datos de abondo para suxerirmos un filme baseándonos no %{title}. Podes axudar puntuando os filmes que tes visto.
+    tv_show: Non dispoñemos datos de abondo para suxerirmos unha serie TV baseándonos no %{title}. Podes axudar puntuando os filmes que tes visto.
   no_records: Non se engadiron rexistros.
   no_tv_search_results: Non hai series TV que coincidan coa túa procura.
   no_watchlist_movies:
@@ -3367,8 +3367,8 @@ gl-ES:
       tv_show: Serie TV
     no_results: Sen resultados
     no_results_found: Non se atoparon resultados
-    rated_movie: Procurar filmes valorados...
-    rated_tv: Procurar series TV valoradas...
+    rated_movie: Procurar filmes puntuados...
+    rated_tv: Procurar series TV puntuadas...
     recommendations_movie: Procurar as túas recomendacións persoais de filmes…
     recommendations_tv: Procurar as túas recomendacións persoais de series TV…
     search_results: Procurar resultados
@@ -3464,7 +3464,7 @@ gl-ES:
       select_csv: Seleccionar arquivo CSV
       type:
         favorite: Favorito
-        rated: Valoración
+        rated: 'Puntuación '
         watchlist: Listaxe de seguimento
       which_list: A que lista importar?
     navigation:
@@ -3572,7 +3572,7 @@ gl-ES:
   success_approved_access_token: Permiso concedido!
   success_deleted: O elemento seleccionado foi borrado con éxito.
   success_email: O teu email enviouse correctamente.
-  success_image_rated: A túa valoración realizouse correctamente.
+  success_image_rated: Valoraches a imaxe correctamente.
   success_image_uploaded: A imaxe cargouse correctamente.
   success_rating: Gardouse a túa puntuacion.
   success_registration: O teu rexistro completouse correctamente.

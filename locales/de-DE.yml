@@ -25,7 +25,7 @@ de-DE:
   Add Alternative Title: Alternativtitel hinzufügen
   Add Backdrop: Hintergrund hinzufügen
   Add Content Rating: Altersfreigabe hinzufügen
-  Add Creator: Urheber hinzufügen
+  Add Creator: 
   Add Data & Content: Daten und Inhalte hinzufügen
   Add Item: Eintrag hinzufügen
   Add Missing Cast & Crew: Fehlende Besetzung und Crew hinzufügen
@@ -90,7 +90,7 @@ de-DE:
   Certification: Altersfreigabe
   Change?: Ändern?
   Character: Rolle
-  Choose: Wählen …
+  Choose: Wählen …
   City: Stadt
   Collection Results: Ergebnisse (Sammlungen)
   Collections: Sammlungen
@@ -162,7 +162,7 @@ de-DE:
   Email Content: Nachricht
   Embed: Einbetten
   Episode Images: Episodenbilder
-  Episode Number: Episode Nummer
+  Episode Number: Episodennummer
   Episode Overview: Zusammenfassung dieser Episode
   Episodes: Episoden
   Error: Fehler
@@ -393,7 +393,7 @@ de-DE:
   Seasons: Staffeln
   Secondary Color: Sekundärfarbe
   See Episodes: Folgen zeigen
-  Select One: Bitte auswählen...
+  Select One: Bitte auswählen …
   Select a category: Wähle eine Kategorie...
   Send: Senden
   Sessions: Sitzungen
@@ -505,8 +505,8 @@ de-DE:
   Zip Code: PLZ
   account_drop_down:
     discussions: Diskussionen
-    edit_profile: Profil bearbeiten
-    join_tmdb: TBDb beitreten
+    edit_profile: Profil
+    join_tmdb: TMDb beitreten
     lists: Listen
     login: Anmelden
     logout: Abmelden
@@ -632,7 +632,7 @@ de-DE:
         logged_in: Du hast kürzlich nichts bearbeitet.
         public: "%{username} hat kürzlich nichts bearbeitet."
       empty_upcoming_watchlist:
-        logged_in: Es gibt keine anstehenden Filme in deiner Watchliste.
+        logged_in: Momentan befinden sich keine kommenden Filme auf deiner Watchliste.
       empty_watched_genres:
         logged_in: Du hast keine Filme oder Serien gespeichert.
         public: "%{username} hat bisher keine Filme oder Serien gespeichert."
@@ -676,11 +676,11 @@ de-DE:
         public: "%{username}s Watchliste"
       next_month: Nächsten Monat
       no_upcoming_movies:
-        one: Es gibt keine neu erscheinende Filme in deiner Watchliste. Deine gesamte Watchliste enthält %{count} Film.
-        other: Es gibt keine neu erscheinenden Filme in deiner Watchliste. Deine gesamte Watchliste enthält %{count} Filme.
+        one: Es gibt keine Filme in deiner Watchliste, die demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Film.
+        other: Es gibt keine Filme in deiner Watchliste, die demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Filme.
       no_upcoming_tv_shows:
-        one: Es gibt keine neu erscheinenden Serien in deiner Watchliste. Deine gesamte Watchliste enthält %{count} Serie.
-        other: Es gibt keine neu erscheinenden Serien in deiner Watchliste. Deine gesamte Watchliste enthält %{count} Serien.
+        one: Es gibt keine Serien in deiner Watchliste, die demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Serie.
+        other: Es gibt keine Serien in deiner Watchliste, die demnächst erscheinen. Deine gesamte Watchliste enthält %{count} Serien.
       page_title:
         page_owner: Meine Watchliste
         public: "%{username}'s Watchliste"
@@ -1296,7 +1296,7 @@ de-DE:
     scale:
       '0': Irgendwo muss man anfangen …
       '1': Hey, es geht los.
-      '10': Ja! Das sieht gut aus!
+      '10': Genial! Das sieht gut aus!
       '2': Wir kommen voran.
       '3': Gut Ding will Weile haben …
       '4': Ein Team kennt kein „Ich” …
@@ -1480,7 +1480,7 @@ de-DE:
     Art: Design
     Camera: Kamera
     Costume & Make-Up: Kostüm und Maske
-    Creator: Urheber
+    Creator: 
     Crew: Crew
     Directing: Regie
     Editing: Schnitt
@@ -1513,7 +1513,7 @@ de-DE:
       network:
         filter_by_network: Nach Sendern filtern
         network: Sender
-      none_selected: Nichts gewählt
+      none_selected: Nichts ausgewählt
       release_dates:
         from: Von
         release_dates: Erscheinungsjahr
@@ -1669,7 +1669,7 @@ de-DE:
       sad_to_go: "%{username}, schade, dass du nichts mehr von uns hören möchtest!"
       subscription_changed: Die Abonnementeinstellungen wurden aktualisiert. Die Einstellungen für Benachrichtigungen können auf der Seite <a href="%{account_link}">Benachrichtigungen</a> geändert werden.
       unsubscribe: Abmelden
-      unsubscribed: Die <strong>Abmeldung</strong> ist erfolgt. Sollte dies versehentlich geschehen sein, kann man das Abonnement auf der Seite <a href="%{account_link}">Benachrichtigungen</a> erneut hinzufügen.
+      unsubscribed: Die <strong>Abmeldung</strong> ist erfolgt. Sollte dies versehentlich geschehen sein, kann das Abonnement auf der Seite <a href="%{account_link}">Benachrichtigungen</a> erneuert werden.
   episode_count:
     one: "%{count} Episode"
     other: "%{count} Episoden"
@@ -1695,7 +1695,7 @@ de-DE:
       duplicate_cast: Diese Person ist bereits als Besetzungsmitglied hinzugefügt.
     tv:
       create_season_locked: Die Erstellung neuer Staffeln wurde für diese Serie gesperrt.
-      duplicate_created_by: Diese Person ist bereits als Urheber hinzugefügt.
+      duplicate_created_by: 
       duplicate_crew_member: Diese Person ist bereits als %{job_name} hinzugefügt.
       duplicate_episode: Diese Episode existiert bereits.
       duplicate_guest_star: Dieser Gastdarsteller existiert bereits.
@@ -1714,9 +1714,9 @@ de-DE:
       benefits_list:
         '1': TMDb werbefrei genießen
         '2': Eine persönliche Watchliste verwalten
-        '3': 
-        '4': Gesehene Filme und Serien protokollieren
-        '5': Angepasste Listen erstellen
+        '3': Filtere nach den von dir abonnierten Streamingdiensten und finde etwas zum Ansehen
+        '4': Filme und Serien als gesehen markieren
+        '5': Kuratierte Listen erstellen
         '6': Unsere Datenbank ergänzen und verbessern
     discussions:
       catch_up_now: Jetzt loslegen
@@ -1748,7 +1748,7 @@ de-DE:
     taw:
       read_the_2018_recap: Sieh dir den Rückblick für das Jahr 2018 an
       read_the_2019_recap: Sieh dir den Rückblick für das Jahr 2019 an
-      thats_a_wrap: Abgedreht!
+      thats_a_wrap: Im Kasten!
     tv_shows:
       episode_airs:
         in_days: Neue Episode erscheint in %{number_of_days}
@@ -1768,7 +1768,7 @@ de-DE:
       '9': Eine Mindestauflösung von 300x450 Pixel
       backdrops_must_meet: 'Hintergrundbilder müssen folgende Kriterien erfüllen:'
       episode_stills_must_meet: 'Episodenfotos müssen folgende Kriterien erfüllen:'
-      posters_must_meet: 'Cover müssen folgenden Kriterien entsprechen:'
+      posters_must_meet: 'Poster müssen folgenden Kriterien entsprechen:'
       profile_must_meet: 'Profilbilder müssen folgende Kriterien erfüllen:'
       read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut
       tip: Falls von deinem Browser unterstützt, kann ein Bild auf die Fläche unterhalb gezogen und abgelegt werden. Ansonsten einfach auf die Schaltfläche „Dateien auswählen” klicken und ein Bild auswählen.
@@ -2810,13 +2810,13 @@ de-DE:
       lock_existing_crew: Vorhandene Crew sperren
       page_title: "%{name} bearbeiten"
       placeholders:
-        country: Sprache wählen...
+        country: Sprache wählen …
         create_person:
           click_to_create: Klicke um %{name} zu erstellen
           create_it: Erstelle sie...
-        genres: Gerne wählen...
-        job: Job wählen...
-        keywords: Schlüsselwort wählen...
+        genres: Gerne wählen …
+        job: Job wählen …
+        keywords: Schlüsselwort wählen …
         networks: Suche nach Sender...
         person: Suche nach Personen...
         production_companies: Suche nach Produktionsunternehmen...

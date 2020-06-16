@@ -12,7 +12,7 @@ sr-RS:
   API Stats: API Статистика
   API Status Codes: 
   API Terms: API услови
-  API Terms of Use: 
+  API Terms of Use: API услови коришћења
   API Updates: API ажурирања
   About: О сајту
   About TMDb: О TMDb
@@ -893,17 +893,17 @@ sr-RS:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
-          meaning: 
+          meaning: Није препоручљиво за особе млађе од 6 година.
         '3':
-          meaning: 
+          meaning: Није препоручљиво за особе млађе од 12 година.
         '4':
-          meaning: 
+          meaning: Није препоручљиво за особе млађе од 16 година.
         '5':
-          meaning: 
+          meaning: Није препоручљиво за особе млађе од 18 година.
         '6':
           meaning: 
       IN:
@@ -935,7 +935,7 @@ sr-RS:
           meaning: 
       MY:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -961,9 +961,9 @@ sr-RS:
           meaning: 
       'NO':
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
-          meaning: 
+          meaning: Прикладно за све узрасте.
         '2':
           meaning: 
         '3':
@@ -1034,7 +1034,7 @@ sr-RS:
           meaning: 
       SE:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1045,7 +1045,7 @@ sr-RS:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1104,7 +1104,7 @@ sr-RS:
           meaning: 
       CA-QC:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1128,7 +1128,7 @@ sr-RS:
           meaning: 
       ES:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1147,7 +1147,7 @@ sr-RS:
           meaning: 
       FR:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1173,7 +1173,7 @@ sr-RS:
           meaning: 
       HU:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1208,7 +1208,7 @@ sr-RS:
           meaning: 
       NL:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1221,7 +1221,7 @@ sr-RS:
           meaning: 
       PH:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1232,7 +1232,7 @@ sr-RS:
           meaning: 
       PT:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1256,7 +1256,7 @@ sr-RS:
           meaning: 
       SK:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1284,7 +1284,7 @@ sr-RS:
           meaning: 
       US:
         '0':
-          meaning: 
+          meaning: Нема информација о рејтингу
         '1':
           meaning: 
         '2':
@@ -1558,13 +1558,13 @@ sr-RS:
       want_to_rate: Желите ли да оцените или додате ову ставку у листу?
   discussions:
     actions:
-      actions: Акције
+      actions: Радње
       close_discussion: Затвори дискусију
       make_private: Начини приватним
       make_public: Начини јавним
       mark_spam: Означи као нежењено
       reopen_discussion: Отвори поново дискусију
-      stop_watching: Прекини да пратиш
+      stop_watching: Не прати више
       view_activity: Погледај активност
       watch: Прати
     admin_panel: Администраторски панел
@@ -1614,8 +1614,16 @@ sr-RS:
     no_activity: Није било активности у овој дискусији.
     no_discussions: Нема дискусија.
     pagination:
-      post_summary: 
-      summary: 
+      post_summary:
+        few: "%{count} одговора (на страни %{current_page} од %{total_pages})"
+        many: "%{count} одговора (на страни %{current_page} од %{total_pages})"
+        one: "%{count} одговор (на страни %{current_page} од %{total_pages})"
+        other: "%{count} одговора (на страни %{current_page} од %{total_pages})"
+      summary:
+        few: "%{count} дискусије, тренутно на страни %{current_page} од %{total_pages}"
+        many: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
+        one: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
+        other: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
     post:
       delete: Обриши
       edit: Измени
@@ -1696,7 +1704,7 @@ sr-RS:
       required: мора постојати
       series_status_invalid_to_create_season: је постављено на „отказана“ или „завршена“ па се нове сезоне не могу креирати.
       suspected_tv_series: за коју се сумња да је постојећа ТВ серија или министерија, можете наставити да додајете ову ставку ако сте сигурни, али ако постоји у нашем ТВ делу, она ће бити уклоњена
-      taken: већ је завршено
+      taken: већ је заузето
     movie:
       duplicate_cast: Ова особа је већ додата као члан тима.
     tv:
@@ -3336,8 +3344,8 @@ sr-RS:
     filters:
       4k: 4K
       best_price: Најбоља цена
-      bluray: 
-      dvd: 
+      bluray: Blu-ray
+      dvd: DVD
       dvd_bluray: 
       hd: HD
       sd: SD
