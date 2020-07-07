@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module TMDb
   module Config
     class I18n
@@ -61,7 +63,7 @@ module TMDb
         'zu' => 'zu-ZA'
       }.freeze
 
-      BLACKLISTED_TRANSLATIONS = [
+      IGNORED_TRANSLATIONS = [
         'en-AU',
         'en-CA',
         'en-GB',
@@ -69,17 +71,12 @@ module TMDb
         'en-NZ'
       ].freeze
 
-      @@default_language_to_i18n = nil
-      @@default_language_to_country_mapping = nil
-      @@master_i18n_language_list = nil
-      @@supported_iso_639_1_path = nil
-
       def self.country_path
         File.dirname(__FILE__) + "/../countries"
       end
 
       def self.default_iso_3166_1_mapping
-        @@default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
+        @default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
           'ar-AE' => 'ar',
           'de-AT' => 'de',
           'de-CH' => 'de',
@@ -94,34 +91,40 @@ module TMDb
           'pt-BR' => 'pt',
           'zh-HK' => 'zh',
           'zh-TW' => 'zh'
-        )
+        ).freeze
+      end
+
+      def self.default_iso_3166_1_mapping_lowercase
+        @default_iso_3166_1_mapping_lowercase ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
+          hash[i18n.downcase] = i18n
+        end.freeze
+      end
+
+      def self.valid_i18n_translations
+        @valid_i18n_translations ||= TMDb::Config::I18n.language_list.dup.delete_if { |k,v| TMDb::Config::I18n::IGNORED_TRANSLATIONS.include?(k) }.freeze
       end
 
       def self.default_iso_3166_1_i18n
-        @@default_iso_3166_1_i18n ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
+        @default_iso_3166_1_i18n ||= TMDb::Config::I18n.language_list.each_with_object({}) do |(i18n, iso_3166_1), hash|
           iso_3166_1 = i18n.split('-')[1]
           hash[iso_3166_1] = i18n unless hash[iso_3166_1]
-        end
+        end.freeze
       end
 
       def self.default_language_i18n
-        @@default_language_to_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash|
+        @default_language_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash|
           hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
-        }.merge!(TMDb::Config::I18n::DEFAULT_MAPPING)
+        }.merge!(TMDb::Config::I18n::DEFAULT_MAPPING).freeze
       end
 
       def self.default_language_to_country_mapping
-        @@default_language_to_country_mapping ||= Hash[TMDb::Config::I18n::DEFAULT_MAPPING.map { |k,v| v.split('-') }]
+        @default_language_to_country_mapping ||= Hash[TMDb::Config::I18n::DEFAULT_MAPPING.map { |k,v| v.split('-') }].freeze
       end
 
       def self.language_list
-        return @@master_i18n_language_list unless @@master_i18n_language_list.nil?
-
-        master_i18n_language_list = (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
+        @language_list ||= (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
           hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
-        end.merge!(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }
-
-        @@master_i18n_language_list = Hash[master_i18n_language_list]
+        end.merge!(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h.freeze
       end
 
       def self.language_path
@@ -132,9 +135,15 @@ module TMDb
         File.dirname(__FILE__) + "/../locales"
       end
 
-      def self.parse_valid_i18n(valid_i18n)
-        split_18n = valid_i18n.split('-')
-        [valid_i18n, split_18n[0], split_18n[1]]
+      def self.parse_valid_i18n(string)
+        return ['en-US', 'en', 'US'] if (string.nil? || string == '')
+
+        begin
+          split_string = string.split('-')
+          [string, split_string[0], split_string[1]]
+        rescue
+          ['en-US', 'en', 'US']
+        end
       end
 
       def self.supported_iso_639_1
@@ -142,7 +151,7 @@ module TMDb
       end
 
       def self.supported_iso_639_1_path
-        @@supported_iso_639_1_path ||= TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }
+        @supported_iso_639_1_path ||= TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }.freeze
       end
 
       def self.transliteration_path
