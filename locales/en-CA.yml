@@ -1400,11 +1400,11 @@ en-CA:
     - Friday
     - Saturday
     formats:
-      abbrev:
+      abbrev: "%-d %b %Y"
       default: "%Y-%m-%d"
       full_month_day:
-      full_month_year:
-      short_month_day_year:
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
     -
     - January
@@ -3548,10 +3548,10 @@ en-CA:
   time:
     formats:
       12hour_minutes: "%l:%M %p"
-      am:
+      am: am
       default:
       long: "%B %d, %Y %I:%M %p"
-      pm:
+      pm: am
       short: "%d %b %I:%M %p"
   top_contributors:
   translation:

@@ -1403,8 +1403,8 @@ id-ID:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%B %e, %Y"
-      full_month_year:
-      short_month_day_year:
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
     -
     - Januari
@@ -3518,12 +3518,12 @@ id-ID:
   the:
   time:
     formats:
-      12hour_minutes:
+      12hour_minutes: "%l:%M %p"
       am:
       default:
-      long:
+      long: "%B %d, %Y %I:%M %p"
       pm:
-      short:
+      short: "%d %b %I:%M %p"
   top_contributors:
   translation: terjemahan
   upload_backdrop: Unggah Gambar Latar

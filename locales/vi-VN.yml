@@ -1371,11 +1371,11 @@ vi-VN:
     abbr_month_names:
     day_names:
     formats:
-      abbrev:
-      default:
-      full_month_day:
-      full_month_year:
-      short_month_day_year:
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
   day:
   days:
@@ -3473,12 +3473,12 @@ vi-VN:
   the:
   time:
     formats:
-      12hour_minutes:
+      12hour_minutes: "%l:%M %p"
       am:
       default:
-      long:
+      long: "%B %d, %Y %I:%M %p"
       pm:
-      short:
+      short: "%d %b %I:%M %p"
   top_contributors:
   translation:
   upload_backdrop:

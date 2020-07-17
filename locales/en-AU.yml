@@ -1400,10 +1400,10 @@ en-AU:
     - Friday
     - Saturday
     formats:
-      abbrev:
+      abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e %B %Y"
-      full_month_year:
+      full_month_year: "%B %Y"
       short_month_day_year: "%d %b %Y"
     month_names:
     -
@@ -3548,10 +3548,10 @@ en-AU:
   time:
     formats:
       12hour_minutes: "%l:%M %p"
-      am:
+      am: am
       default:
       long: "%B %d, %Y %I:%M %p"
-      pm:
+      pm: am
       short: "%d %b %I:%M %p"
   top_contributors:
   translation:

@@ -1396,10 +1396,10 @@ nb-NO:
     - fredag
     - lørdag
     formats:
-      abbrev:
-      default:
-      full_month_day:
-      full_month_year:
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
       short_month_day_year: "%d %b %Y"
     month_names:
     -
@@ -3516,12 +3516,12 @@ nb-NO:
   the:
   time:
     formats:
-      12hour_minutes:
+      12hour_minutes: "%l:%M %p"
       am:
       default:
-      long:
+      long: "%B %d, %Y %I:%M %p"
       pm:
-      short:
+      short: "%d %b %I:%M %p"
   top_contributors:
   translation:
     one: oversettelse

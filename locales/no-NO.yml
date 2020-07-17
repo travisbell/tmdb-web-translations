@@ -1399,7 +1399,7 @@ no-NO:
       abbrev: "%-d.%c. %Y"
       default: "%d.%m.%Y"
       full_month_day: "%e %B %Y"
-      full_month_year:
+      full_month_year: "%B %Y"
       short_month_day_year: "%d %b %Y"
     month_names:
     -
@@ -3528,12 +3528,12 @@ no-NO:
   the:
   time:
     formats:
-      12hour_minutes:
+      12hour_minutes: "%l:%M %p"
       am:
       default:
-      long:
+      long: "%B %d, %Y %I:%M %p"
       pm:
-      short:
+      short: "%d %b %I:%M %p"
   top_contributors:
   translation:
     one: Oversettelse
