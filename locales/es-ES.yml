@@ -3415,15 +3415,6 @@ es-ES:
       change_email: Cambiar correo electrónico
       change_email_text: Si deseas cambiar el correo electrónico, intoduce una nueva dirección en el campo siguiente. Antes de poder volver a iniciar sesión, tendrás que verificar la nueva dirección haciendo clic en el enlace de activación en el correo electrónico que te enviaremos a la nueva dirección.
       page_title: Cambiar mi dirección de correo electrónico
-    connected_apps:
-      connected_apps: Aplicaciones conectadas
-      listed_below_explanation: A continuación se enumeran las aplicaciones de terceros a las que has autorizado a escribir datos en tu nombre. Puedes revocar estas autorizaciones en cualquier momento.
-      no_apps: No tienes ninguna aplicación conectada a tu cuenta.
-      page_title: Mis aplicaciones conectadas
-      table:
-        action: Acciones
-        application_name: Nombre de la aplicación
-        date_authorised: Fecha de autorización
     delete_account:
       confirm_delete: Confirmar borrado
       delete_account: Borrar cuenta
@@ -3532,9 +3523,19 @@ es-ES:
       page_title: Mi perfil
       reset_password_dialog_text: Si confirmas esta petición, te enviaremos un correo electrónico con las instrucciones para restablecer la contraseña. ¿Estás seguro de querer hacelo?
     sessions:
+      api:
+        connected_apps: Aplicaciones conectadas
+        listed_below_explanation: A continuación se enumeran las aplicaciones de terceros a las que has autorizado a escribir datos en tu nombre. Puedes revocar estas autorizaciones en cualquier momento.
+        no_apps: No tienes ninguna aplicación conectada a tu cuenta.
+        page_title: Mis aplicaciones conectadas
+        table:
+          action: Acciones
+          application_name: Nombre de la aplicación
+          date_authorised: Fecha de autorización
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:

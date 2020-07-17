@@ -3405,15 +3405,6 @@ sv-SE:
       change_email: Ändra e-postadress
       change_email_text: Om du vill ändra din e-postadress, skriv in en ny i fältet nedan. Innan du kan logga in igen måste du verifiera din nya adress genom att klicka på aktiveringslänken i e-postmeddelande vi skickar till din nya adress.
       page_title: Ändra min e-postadress
-    connected_apps:
-      connected_apps: Anslutna appar
-      listed_below_explanation: Listade nedan är de tredjepartsapplikationer som har tillstånd att redigera data åt dina vägnar. Du kan återkalla dessa tillstånd när som helst.
-      no_apps: Du har inte anslutit några appar till ditt konto.
-      page_title: Mina anslutna appar
-      table:
-        action: Åtgärder
-        application_name: Applikationsnamn
-        date_authorised: Tillåten den
     delete_account:
       confirm_delete: Bekräfta borttagning
       delete_account: Radera konto
@@ -3522,9 +3513,19 @@ sv-SE:
       page_title: Min profil
       reset_password_dialog_text: Genom att bekräfta denna begäran, så kommer vi skicka ett e-postmeddelande med instruktioner om hur du återställer ditt lösenord. Är du säker på att du vill göra detta?
     sessions:
+      api:
+        connected_apps: Anslutna appar
+        listed_below_explanation: Listade nedan är de tredjepartsapplikationer som har tillstånd att redigera data åt dina vägnar. Du kan återkalla dessa tillstånd när som helst.
+        no_apps: Du har inte anslutit några appar till ditt konto.
+        page_title: Mina anslutna appar
+        table:
+          action: Åtgärder
+          application_name: Applikationsnamn
+          date_authorised: Tillåten den
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:

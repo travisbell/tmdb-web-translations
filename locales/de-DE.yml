@@ -3407,15 +3407,6 @@ de-DE:
       change_email: E-Mail Adresse ändern
       change_email_text: Falls du deine E-Mail-Adresse ändern möchtest, gib eine Neue in das untenstehende Feld ein. Zur Bestätigung schicken wir dir einen Aktivierungslink an diese Adresse. Damit du dich wieder anmelden kannst, musst du diesen bestätigen.
       page_title: Meine E-Mail Adresse ändern
-    connected_apps:
-      connected_apps: Autorisierte Anwendungen
-      listed_below_explanation: Hier sind die Anwendungen aufgelistet, denen du Zugriff auf dein Account gewährt hast. Du kannst diesen jederzeit widerrufen.
-      no_apps: Du hast keiner Anwendung den Zugriff auf dein Konto gewährt.
-      page_title: Meine autorisierten Anwendungen
-      table:
-        action: Aktionen
-        application_name: Anwendungsname
-        date_authorised: Autorisierungsdatum
     delete_account:
       confirm_delete: Löschen bestätigen
       delete_account: Konto löschen
@@ -3524,9 +3515,19 @@ de-DE:
       page_title: Mein Profil
       reset_password_dialog_text: Wenn du diese Anfrage bestätigst erhälst Du eine E-Mail mit Anweisungen zum Zurücksetzen deines Passworts. Bist du sicher, dass du das tun willst?
     sessions:
+      api:
+        connected_apps: Autorisierte Anwendungen
+        listed_below_explanation: Hier sind die Anwendungen aufgelistet, denen du Zugriff auf dein Account gewährt hast. Du kannst diesen jederzeit widerrufen.
+        no_apps: Du hast keiner Anwendung den Zugriff auf dein Konto gewährt.
+        page_title: Meine autorisierten Anwendungen
+        table:
+          action: Aktionen
+          application_name: Anwendungsname
+          date_authorised: Autorisierungsdatum
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:

@@ -3439,15 +3439,6 @@ pt-BR:
       change_email: Alterar e-mail
       change_email_text: Se deseja alterar seu endereço de e-mail, insira o novo endereço no campo abaixo. Antes de logar de volta, você precisará verificar o seu novo endereço clicando no link de ativação no e-mail que será enviado ao seu novo endereço.
       page_title: Alterar Meu Endereço de Email
-    connected_apps:
-      connected_apps: Aplicativos conectados
-      listed_below_explanation: Abaixo está uma lista de aplicativos de terceiros que você autorizou a publicação de dados em seu nome. Você  pode revogar estas autorizações a qualquer momento.
-      no_apps: Você ainda não conectou nenhum aplicativo à sua conta.
-      page_title: Meus Apps Conectados
-      table:
-        action: Ações
-        application_name: Nome do aplicativo
-        date_authorised: Data da autorização
     delete_account:
       confirm_delete: Confirmar Exclusão
       delete_account: Excluir conta
@@ -3556,9 +3547,19 @@ pt-BR:
       page_title: Meu Perfil
       reset_password_dialog_text: Ao confirmar esta solicitação, enviaremos um e-mail com instruções de como redefinir a sua senha. Tem certeza de que deseja fazer isto?
     sessions:
+      api:
+        connected_apps: Aplicativos conectados
+        listed_below_explanation: Abaixo está uma lista de aplicativos de terceiros que você autorizou a publicação de dados em seu nome. Você  pode revogar estas autorizações a qualquer momento.
+        no_apps: Você ainda não conectou nenhum aplicativo à sua conta.
+        page_title: Meus Apps Conectados
+        table:
+          action: Ações
+          application_name: Nome do aplicativo
+          date_authorised: Data da autorização
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:

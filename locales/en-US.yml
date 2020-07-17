@@ -3418,15 +3418,6 @@ en-US:
       change_email: Change Email
       change_email_text: If you would like to change your email, enter a new email in the field below. Before being able to log back in, you will have to verify your new address by clicking the activation link in the email we send to your new address.
       page_title: Change My Email Address
-    connected_apps:
-      connected_apps: Connected Apps
-      listed_below_explanation: Listed below are the 3rd party applications you have authorized to write data on your behalf. You can revoke these authorizations at any time.
-      no_apps: You have not connected any apps to your account.
-      page_title: My Connected Apps
-      table:
-        action: Actions
-        application_name: Application Name
-        date_authorised: Date Authorised
     delete_account:
       confirm_delete: Confirm Delete
       delete_account: Delete Account
@@ -3535,9 +3526,19 @@ en-US:
       page_title: My Profile
       reset_password_dialog_text: By confirming this request you will be sent an email with instructions on how to reset your password. Are you sure you want to do this?
     sessions:
+      api:
+        connected_apps: Connected Apps
+        listed_below_explanation: Listed below are the 3rd party applications you have authorized to write data on your behalf. You can revoke these authorizations at any time.
+        no_apps: You have not connected any apps to your account.
+        page_title: My Connected Apps
+        table:
+          action: Actions
+          application_name: Application Name
+          date_authorised: Date Authorised
       navigation:
         api: API
         web: Web
+      page_title: My Sessions
       sessions: Sessions
     sharing:
       favorite_list:

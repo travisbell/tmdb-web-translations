@@ -3429,15 +3429,6 @@ fr-FR:
       change_email: Modifier votre adresse email
       change_email_text: Si vous souhaitez changer votre adresse email, entrez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous identifier à nouveau sur le site, vous devrez d'abord vérifier votre nouvelle adresse email en cliquant sur le lien que nous aurons envoyé dans un email à cette nouvelle adresse.
       page_title: Changer mon adresse mail
-    connected_apps:
-      connected_apps: Applications connectées
-      listed_below_explanation: Ci-dessous sont listés les applications que vous avez autorisées à écrire des données à votre place. Vous pouvez à tout moment enlever ces autorisations.
-      no_apps: Vous n'avez connecté aucune application à votre compte.
-      page_title: Mes applications connectés
-      table:
-        action: Actions
-        application_name: Nom de l'application
-        date_authorised: Date d'autorisation
     delete_account:
       confirm_delete: 'Confirmer la suppression '
       delete_account: Supprimer mon compte
@@ -3546,9 +3537,19 @@ fr-FR:
       page_title: Mon profile
       reset_password_dialog_text: Si vous confirmez votre demande, vous recevrez un email avec les instructions pour définir un nouveau mot de passe. Souhaitez-vous confirmer votre demande ?
     sessions:
+      api:
+        connected_apps: Applications connectées
+        listed_below_explanation: Ci-dessous sont listés les applications que vous avez autorisées à écrire des données à votre place. Vous pouvez à tout moment enlever ces autorisations.
+        no_apps: Vous n'avez connecté aucune application à votre compte.
+        page_title: Mes applications connectés
+        table:
+          action: Actions
+          application_name: Nom de l'application
+          date_authorised: Date d'autorisation
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:

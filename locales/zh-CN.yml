@@ -3388,15 +3388,6 @@ zh-CN:
       change_email: 变更电子邮箱
       change_email_text: 如果你想改变你的电子邮箱，在下面输入一个新的电子邮箱。你需要通过点击我们发送到你的新邮箱的邮件中的激活链接验证新邮箱，然后才能登录。
       page_title: 改变我的电子邮件地址
-    connected_apps:
-      connected_apps: 已连接应用
-      listed_below_explanation: 以下列出了你授权代表你写入数据的第三方应用程序。你可以随时撤销这些授权。
-      no_apps: 未连接任何应用到你的帐号。
-      page_title: 我连接的 App
-      table:
-        action: 动作
-        application_name: 应用名称
-        date_authorised: 授权日期
     delete_account:
       confirm_delete: 确信删除
       delete_account: 删除帐号
@@ -3505,9 +3496,19 @@ zh-CN:
       page_title: 我的个人资料
       reset_password_dialog_text: 确认将给你发送包含密码重置指令的电子邮件。你确定要这么做吗？
     sessions:
+      api:
+        connected_apps: 已连接应用
+        listed_below_explanation: 以下列出了你授权代表你写入数据的第三方应用程序。你可以随时撤销这些授权。
+        no_apps: 未连接任何应用到你的帐号。
+        page_title: 我连接的 App
+        table:
+          action: 动作
+          application_name: 应用名称
+          date_authorised: 授权日期
       navigation:
         api:
         web:
+      page_title:
       sessions:
     sharing:
       favorite_list:
