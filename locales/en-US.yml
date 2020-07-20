@@ -3524,8 +3524,10 @@ en-US:
           <p>In order to change your password we need a valid email address. Unfortunately, we had trouble sending emails to you in the past. You can view the errors <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
 
           <p>If the problems with your email address have been fixed or were only temporary, click the reset button below and we will try sending you another email.</p>
+        sending_problems: We've had problems delivering messages to your email address. Please double check that it is correct and working.
       page_title: My Profile
       reset_password_dialog_text: By confirming this request you will be sent an email with instructions on how to reset your password. Are you sure you want to do this?
+      reset_password_dialog_text2: "<strong>Please note:</strong> by resetting your password you will be logged out of all current sessions."
     sessions:
       api:
         connected_apps: Connected Apps
