@@ -8,7 +8,7 @@ cs-CZ:
   API Libraries: Knihovny API
   API Overview:
   API Read Access Token: Přístupový token API ke čtení
-  API Sessions:
+  API Sessions: Relace API
   API Stats: Statistiky API
   API Status Codes:
   API Terms: Podmínky API
@@ -332,7 +332,7 @@ cs-CZ:
   Preview: Náhled
   Primary Color: Primární barva
   Primary Facts: Základní informace
-  Primary?:
+  Primary?: Primární?
   Privacy Policy: Zásady ochrany osobních údajů
   Production Code: Kód produkce
   Production Companies: Produkční společnosti
@@ -382,7 +382,7 @@ cs-CZ:
   Search for a genre: Hledat žánr
   Search for a keyword: Hledat klíčové slovo
   Search for a language: Hledat jazyk…
-  Search for a movie:
+  Search for a movie: Hledat film
   Search for a movie or TV show: Hledat film nebo seriál
   Search for a movie, TV show, person: Hledat film, seriál, osobu...
   Season: Řada
@@ -1680,7 +1680,7 @@ cs-CZ:
     unsubscribe:
       sad_to_go:
       subscription_changed:
-      unsubscribe:
+      unsubscribe: Odhlásit odběr
       unsubscribed:
   episode_count:
     few: "%{count} epizody"
@@ -3318,11 +3318,11 @@ cs-CZ:
     other: "%{count} hlasů"
   ott:
     available_sentences:
-      ads:
-      buy:
-      flatrate:
-      free:
-      rent:
+      ads: zhlédnout s reklamami
+      buy: koupit
+      flatrate: přehrát
+      free: zhlédnout zadarmo
+      rent: pronajmout
       sentence:
     available_snippet:
       flatrate:
@@ -3414,22 +3414,22 @@ cs-CZ:
     account:
       account_settings: Nastavení účtu
       auto_detect:
-      page_title:
+      page_title: Má nastavení
     api:
       api: API
-      create_page_title:
+      create_page_title: Vytvořit nový klíč API
       directory:
-        page_title:
+        page_title: Můj seznam aplikací
       navigation:
         create: Vytvořit
         details: Podrobnosti
         directory: Adresář
-        overview:
+        overview: Přehled
         sessions: Relace
         stats: Statistika
-      page_title:
+      page_title: Má nastavení API
       session_page_title:
-      stats_page_title:
+      stats_page_title: Mé statistiky API
     blocked_users:
       action: Akce
       blocked_users: Blokovaní uživatelé
@@ -3439,30 +3439,30 @@ cs-CZ:
     change_email:
       change_email: Změnit e-mail
       change_email_text: Pokud chcete změnit svůj e-mail, zadejte nový e-mail do níže uvedeného pole. Než se budete moci znovu přihlásit, budete muset ověřit vaši novou adresu kliknutím na aktivační odkaz v e-mailu, který zašleme na vaši novou adresu.
-      page_title:
+      page_title: Změnit mou emailovou adresu
     delete_account:
-      confirm_delete:
+      confirm_delete: Potvrdit smazání
       delete_account: Odstranit účet
-      page_title:
+      page_title: Smazat můj účet
       summary_text: Právě jste vstoupili do <strong>nebezpečné zóny</strong>! Pokud chcete pokračovat a odebrat svůj účet, můžete to provést zadáním hesla níže a potvrzením výzev.
     import_list:
       import_button: Importovat
       import_list: Importovat seznam
-      import_status:
+      import_status: Stav importu
       navigation:
         import: Importovat
         previous: Předchozí importy
       notification:
         finished_import: Import dokončen...
         started_import: Import spuštěn...
-      page_title:
+      page_title: Importovat seznam
       previous:
         date: Datum
         imported: Importováno
         items: Položky
         local_list: Místní seznam
         no_imports: Neimportovali jste žádné seznamy.
-        page_title:
+        page_title: Mé předchozí importy
         type: Typ
       results:
         complete:
@@ -3498,7 +3498,7 @@ cs-CZ:
       edit_profile: Upravit profil
       import_list: Importovat seznam
       notification_settings: Nastavení oznámení
-      sessions:
+      sessions: Relace
       settings: Nastavení
       sharing_settings: Nastavení sdílení
       social_settings: Nastavení sociálních sítí
@@ -3510,7 +3510,7 @@ cs-CZ:
       new_replies_to_threads_watching: Upozornit mě e-mailem na nové odpovědi ve vláknech, která sleduji?
       news_updates:
       notifications: Oznámení
-      page_title:
+      page_title: Má oznámení
     profile:
       accent_color: Barva zdůraznění
       avatar:
@@ -3539,29 +3539,33 @@ cs-CZ:
         reset_button: Obnovit a odeslat?
         reset_invalid_email_dialog_text:
         reset_password_invalid_email_dialog_text:
-      page_title:
+      page_title: Můj profil
       reset_password_dialog_text: Potvrzením této žádosti vám bude zaslán e-mail s pokyny pro obnovení vašeho hesla. Opravdu to chcete udělat?
     sessions:
       api:
         connected_apps: Připojené aplikace
         listed_below_explanation: Níže jsou vypsány aplikace třetích stran, které jste oprávnili zapisovat data vaším jménem. Tato oprávnění můžete kdykoliv odvolat.
         no_apps: Ke svému účtu nemáte připojené žádné aplikace.
-        page_title:
+        page_title: Mé připojené aplikace
         table:
           action: Akce
           application_name: Název aplikace
           date_authorised: Datum oprávnění
       navigation:
-        api:
-        web:
-      page_title:
-      sessions:
+        api: API
+        web: Web
+      page_title: Mé relace
+      sessions: Relace
       web:
-        current_session:
+        current_session: aktuální relace
+        remove_single:
+          confirm_button:
+          dialog_text:
+          dialog_title:
         table:
-          date:
-          device:
-          ip:
+          date: Datum
+          device: Zařízení
+          ip: IP adresa
     sharing:
       favorite_list:
         favorite_settings: Nastavení seznamu oblíbených
