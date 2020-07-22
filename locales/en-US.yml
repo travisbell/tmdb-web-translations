@@ -1712,9 +1712,17 @@ en-US:
     max: Filter By Release Date (Max)
     min: Filter By Release Date (Min)
   flash:
+    invalid_password_code:
+      message: The password reset code is invalid.
     logged_out:
       message: 'You have been successfully logged out. '
       title: Logged out!
+    password_reset:
+      message: |-
+        <p>We have sent an email to this address if it exists to an account registered on TMDb.</p>
+
+        <p>Check your inbox (your spam folder too!) for instructions on how to proceed with changing your password.</p>
+      title: Password Reset
   homepage:
     community:
       benefits_list:
@@ -3358,7 +3366,6 @@ en-US:
   part_of_collection: Part of the %{collection_name}
   password:
     confirm_new_password: Confirm New Password
-    invalid_reset_code: The password reset code is invalid.
     new_password: New Password
     reset_email_sent: Email sent! You should receive the password reset instructions shortly.
   person:

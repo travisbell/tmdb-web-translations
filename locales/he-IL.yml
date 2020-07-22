@@ -1710,7 +1710,12 @@ he-IL:
     max: סנן לפי תאריך שחרור (מרבי)
     min: סנן לפי תאריך שחרור (מזערי)
   flash:
+    invalid_password_code:
+      message: קוד איפוס הסיסמה אינו תקף.
     logged_out:
+      message: יצאת בהצלחה.
+      title: יצאת
+    password_reset:
       message:
       title:
   homepage:
@@ -3352,7 +3357,6 @@ he-IL:
   part_of_collection: חלק מתוך %{collection_name}
   password:
     confirm_new_password: אשר סיסמה חדשה
-    invalid_reset_code: קוד איפוס הסיסמה אינו תקף.
     new_password: סיסמה חדשה
     reset_email_sent: דוא״ל נשלח! אתה אמור לקבל את הוראות איפוס הסיסמה תוך זמן קצר.
   person:
@@ -3390,7 +3394,7 @@ he-IL:
   settings:
     account:
       account_settings: הגדרות חשבון
-      auto_detect:
+      auto_detect: לגלות באופן אוטומטי?
       page_title: ההגדרות שלי
       reset_password_text:
     api:
@@ -3402,7 +3406,7 @@ he-IL:
         create: צור
         details: פרטים
         directory: סיפרייה
-        overview:
+        overview: תסקיר
         sessions: שיחים
         stats: סטטיסטיקה
       page_title: שלי API הגדרות
@@ -3476,7 +3480,7 @@ he-IL:
       edit_profile: ערוך פרופיל
       import_list: ייבא רשימה
       notification_settings: הגדרות התראה
-      sessions:
+      sessions: שיחים
       settings: הגדרות
       sharing_settings: הגדרות שיתוף
       social_settings: הגדרות חברתיות
@@ -3538,20 +3542,20 @@ he-IL:
           application_name: שם יישום
           date_authorised: תאריך אישור
       navigation:
-        api:
-        web:
-      page_title:
-      sessions:
+        api: API
+        web: אתר
+      page_title: השיחים שלי
+      sessions: שיחים
       web:
-        current_session:
+        current_session: שיח נוכחי
         remove_single:
-          confirm_button:
+          confirm_button: כן, מחק אותו!
           dialog_text:
-          dialog_title:
+          dialog_title: למחוק שיח?
         table:
-          date:
-          device:
-          ip:
+          date: תאריך
+          device: מכשיר
+          ip: כתובת IP
     sharing:
       favorite_list:
         favorite_settings: הגדרות רשימת מועדפים
@@ -3625,7 +3629,7 @@ he-IL:
     formats:
       12hour_minutes: "%l:%M%p"
       am:
-      default:
+      default: "%a, %d %b %Y %I:%M:%S %p %Z"
       long: "%B %d, %Y %I:%M %p"
       pm:
       short: "%d %b %I:%M %p"

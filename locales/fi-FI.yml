@@ -1710,7 +1710,12 @@ fi-FI:
     max: Suodatus julkaisupäivän mukaan (max)
     min: Suodatus julkaisupäivän mukaan (min)
   flash:
+    invalid_password_code:
+      message: Salasanan nollausavain ei kelpaa.
     logged_out:
+      message:
+      title:
+    password_reset:
       message:
       title:
   homepage:
@@ -3349,7 +3354,6 @@ fi-FI:
   part_of_collection: 'Kokoelmassa: %{collection_name}'
   password:
     confirm_new_password: Varmista uusi salasana
-    invalid_reset_code: Salasanan nollausavain ei kelpaa.
     new_password: Uusi salasana
     reset_email_sent: Sähköposti on lähetetty! Sähköpostin nollaamisohjeet saapuvat sinulle pikapuolin.
   person:
