@@ -304,8 +304,6 @@ fi-FI:
   Our History: Historiamme
   Overview: Kuvaus
   Page: Sivu
-  Password: Salasana
-  Password Confirm: Salasanan vahvistus
   People: Ihmiset
   People Results: Henkilötulokset
   Person: Henkilö
@@ -3359,8 +3357,11 @@ fi-FI:
     show_more: Näytä lisää
   part_of_collection: 'Kokoelmassa: %{collection_name}'
   password:
+    4_chars_minimum:
     confirm_new_password: Varmista uusi salasana
     new_password: Uusi salasana
+    password: Salasana
+    password_confirm: Salasanan vahvistus
     reset_email_sent: Sähköposti on lähetetty! Sähköpostin nollaamisohjeet saapuvat sinulle pikapuolin.
   person:
     credits:
@@ -3599,6 +3600,7 @@ fi-FI:
       build_watchlist: Rakenna ja ylläpidä henkilökohtaista seurantalistaa
       contribute: Muokkaa ja paranna tietokantamme tietoja
       discussions: Ota osaa elokuvien ja TV-sarjojen keskusteluihin
+      find_something_to_watch:
       keep_track: Pidä kirjaa lempielokuvista ja sarjoista, ja saa suosituksia perustuen niihin
       log_movies: Pidä kirjaa katsomistasi elokuvista ja TV-sarjoista
     by_clicking_agree_to_terms: Klikkaamalla "Liity" painiketta alla, vahvistan, että olen lukenut ja hyväksyn TMDb:n käyttöehdot ja yksityisyyslausekkeen.
