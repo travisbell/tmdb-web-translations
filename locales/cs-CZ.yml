@@ -1295,7 +1295,7 @@ cs-CZ:
           meaning:
         '6':
           meaning:
-  collection_includes: Zahrnuje %{movie_titles}
+  collection_includes: Obsahuje %{movie_titles}
   confirm_delete: Opravdu chcete odstranit tento záznam?
   content_score:
     helper_tooltip: Hodnocení obsahu je způsob, jak vám pomoci pochopit, jak úplná jsou data pro objekt v databázi.
@@ -1730,11 +1730,14 @@ cs-CZ:
       message:
       title:
     password_reset:
-      message:
-      title:
+      message: |-
+        Pokyny k obnovení hesla byly zaslány na tuto adresu pro ověření, zda náleží k účtu registrovanému na TMDb.
+
+        Zkontrolujte svou doručenou i nevyžádanou poštu!
+      title: Obnovit heslo
     password_reset_email_required:
-      message:
-      title:
+      message: Zadejte prosím platnou emailovou adresu.
+      title: Je vyžadována emailová adresa
     resend_verification_email:
       message:
       title:
@@ -3390,7 +3393,7 @@ cs-CZ:
     show_more: Zobrazit více
   part_of_collection: Součástí %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(minimálně 4 znaky)"
     confirm_new_password: Potvrďte nové heslo
     new_password: Nové heslo
     password: Heslo
@@ -3433,7 +3436,7 @@ cs-CZ:
       auto_detect:
       page_title: Má nastavení
       resend_verification_email_text: Chybí vám e-mail s ověřením vašeho účtu? Zadejte níže své uživatelské jméno a nechte si ho znovu poslat.
-      reset_password_text:
+      reset_password_text: Zadejte email, který jste použili při registraci účtu na TMDb, abychom Vám na něj mohli zaslat pokyny k obnovení vašeho hesla.
     api:
       api: API
       create_page_title: Vytvořit nový klíč API
