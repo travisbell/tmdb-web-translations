@@ -1709,22 +1709,28 @@ he-IL:
     min: סנן לפי תאריך שחרור (מזערי)
   flash:
     email_verified:
-      message:
-      title:
+      message: הדוא״ל שלך וֻדָּא בהצלחה. אתה יכול להיכנס כעת.
+      title: דוא״ל וֻדָּא
     invalid_password_code:
       message: קוד איפוס הסיסמה אינו תקף.
     logged_out:
       message: יצאת בהצלחה.
       title: יצאת
     password_reset:
-      message:
-      title:
+      message: |-
+        הוראות האיפוס נשלחו אל כתובת דוא״ל זו אם הכתובת שייכת אל חשבון רשום בטי־אם־די־בי.
+
+        בדוק את התיבה הנכנסת ואת תיקיית דואר הזבל שלך!
+      title: איפוס סיסמה
     password_reset_email_required:
-      message:
-      title:
+      message: אנא הכנס כתובת דוא״ל תקפה.
+      title: דוא״ל דרוש
     resend_verification_email:
-      message:
-      title:
+      message: |-
+        שלחנו דוא״ל וידוא נוסף אל כתובת זו אם הכתובת שייכת אל חשבון רשום בטי־אם־די־בי.
+
+        בדוק את התיבה הנכנסת ואת תיקיית דואר הזבל שלך!
+      title: דוא״ל וידוא נשלח
   homepage:
     community:
       benefits_list:
@@ -3363,7 +3369,7 @@ he-IL:
     show_more: הראה עוד
   part_of_collection: חלק מתוך %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(4 תווים לפחות)"
     confirm_new_password: אשר סיסמה חדשה
     new_password: סיסמה חדשה
     password: סיסמה
@@ -3405,8 +3411,8 @@ he-IL:
       account_settings: הגדרות חשבון
       auto_detect: לגלות באופן אוטומטי?
       page_title: ההגדרות שלי
-      resend_verification_email_text: דוא״ל אימות החשבון שלך חסר? הכנס את שם המשתמש למטה על מנת שהוא יישלח מחדש.
-      reset_password_text:
+      resend_verification_email_text: דוא״ל וידוא החשבון שלך חסר? הכנס את הדוא״ל שלך למטה כדי שהוא יישלח מחדש.
+      reset_password_text: הכנס את הדוא״ל שהשתמשת בו כדי להירשם אל חשבון טי־אם־די־בי ונשלח לך את הצעדים הדרושים כדי לאפס את הסיסמה שלך.
     api:
       api: API
       create_page_title: חדש API צור מפתח
@@ -3537,11 +3543,11 @@ he-IL:
           <p>על מנת לשנות את הסיסמה שלך, אנחנו צריכים כתובת דוא״ל תקפה. למרבה הצער, הייתה לנו בעיה לשלוח אליך דוא״לים בעבר. אתה יכול לצפות בשגיאות <a href="/u/%{username_url}/events/emails?status=2,3">כאן</a>.</p>
 
           <p>במקרה שהבעיות עם כתובת הדוא״ל שלך תוקנו או שהן היו רק זמניות, לחץ על כפתור האיפוס למטה וננסה לשלוח לך דוא״ל אחר לוודא.</p>
-        sending_problems:
-        what_is_your_email:
+        sending_problems: היו לנו בעיות במסירת הודעות אל כתובת הדוא״ל שלך. לפני שנוכל להמשיך, אנחנו צריכים לוודא שהדוא״לים שלנו נמסרים בהצלחה.
+        what_is_your_email: מה הדוא״ל שלך?
       page_title: הפרופיל שלי
       reset_password_dialog_text: ע״י אישור בקשה זו, יישלח אליך דוא״ל עם הוראות כיצד לאפס את סיסמתך. האם אתה בטוח שאתה רוצה לעשות זאת?
-      reset_password_dialog_text2:
+      reset_password_dialog_text2: "<strong>אנא שים לב:</strong> על ידי איפוס הסיסמה שלך, תנותק מכל השיחים הנוכחיים."
     sessions:
       api:
         connected_apps: יישומים מקושרים
@@ -3561,7 +3567,7 @@ he-IL:
         current_session: שיח נוכחי
         remove_single:
           confirm_button: כן, מחק אותו!
-          dialog_text:
+          dialog_text: האם אתה בטוח שאתה רוצה למחוק שיח זה? אם השיח הנבחר הוא השיח הנוכחי שלך, פעולה זו תנתק אותך.
           dialog_title: למחוק שיח?
         table:
           date: תאריך
@@ -3606,7 +3612,7 @@ he-IL:
       build_watchlist: בנה ותחזק רשימה אישית של צפייה
       contribute: תרום ושפר את המידע במסד הנתונים שלנו
       discussions: קח חלק בדיונים של סרטים וטלוויזיה
-      find_something_to_watch:
+      find_something_to_watch: מצא משהו לצפות בשירותי ההזרמה שאתה מנוי בהם.
       keep_track: עקוב אחר הסרטים והסדרות המועדפים עליך וקבל מהם המלצות
       log_movies: כתוב ביומן את הסרטים והסדרות שצפית בהם
     by_clicking_agree_to_terms: ע״י לחיצה על הכפתור "הירשם" למטה, אני מאשר שקראתי והסכמתי לתנאיי השימוש ולמדיניות הפרטיות של טי־אם־די־בי.
@@ -3640,10 +3646,10 @@ he-IL:
   time:
     formats:
       12hour_minutes: "%l:%M%p"
-      am:
+      am: לפני חצות יום
       default: "%a, %d %b %Y %I:%M:%S %p %Z"
       long: "%B %d, %Y %I:%M %p"
-      pm:
+      pm: אחרי חצות יום
       short: "%d %b %I:%M %p"
   top_contributors: תורמים מובילים
   translation:
