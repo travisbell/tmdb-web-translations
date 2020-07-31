@@ -12,7 +12,7 @@ uk-UA:
   API Stats: API статистика
   API Status Codes:
   API Terms: Умови користування API
-  API Terms of Use:
+  API Terms of Use: API Правила використання
   API Updates: API оновлення
   About: Про
   About TMDb: Про TMDb
@@ -126,7 +126,7 @@ uk-UA:
   Day of Death: День смерті
   Default Language: Мова за замовчуванням
   Delete: Видалити
-  Delete Collection:
+  Delete Collection: '"Видалити Колекцію"'
   Delete Keyword: Видалити ключове слово
   Delete Movie: Видалити фільм
   Delete Person: Видалити особу
@@ -1500,32 +1500,32 @@ uk-UA:
     Visual Effects: Візуальні ефекти
     Writing: Сценарій
   discover:
-    apply:
+    apply: '"Застосувати"'
     filters:
       air_dates:
-        air_dates:
-        search_all_episodes:
-        search_first_air_date:
+        air_dates: '"Дата виходу"'
+        search_all_episodes: '"Шукати усі серії"?'
+        search_first_air_date: '"Шукати першу дату виходу"?'
       availability:
-        availabilities:
-        search_all_availabilities:
+        availabilities: '"Можливість перегляду"'
+        search_all_availabilities: '"Шукати усі можливості перегляду"?'
       certification:
-        certification:
-      filters:
+        certification: '"Сертифікація"'
+      filters: Фільтри
       genres:
-        genres:
+        genres: Жанри
       keywords:
-        keywords:
+        keywords: Ключові слова
       language:
-        language:
-        tooltip:
-      minimum_user_votes:
+        language: Мова
+        tooltip: Сортувати за мовою оригіналу
+      minimum_user_votes: Мінімальна кількість голосів користувачів
       network:
-        filter_by_network:
-        network:
-      none_selected:
+        filter_by_network: Сортувати за TБ каналами
+        network: Телемережа
+      none_selected: Нічого не вибрано
       release_dates:
-        from:
+        from: від
         release_dates:
         search_all_countries:
         search_release_dates:
@@ -1551,13 +1551,13 @@ uk-UA:
           restrict_tooltip:
         where_to_watch:
       years:
-        years:
-    no_items:
-    search:
+        years: Роки
+    no_items: За вашим запитом нічого не знайдено
+    search: Шукати
     tooltips:
-      not_member:
-      signup:
-      want_to_rate:
+      not_member: Немає аккаунта?
+      signup: Приєднайтеся до спільноти
+      want_to_rate: Хочте поставити оцінку або додати в список?
   discussions:
     actions:
       actions: Дії
@@ -1613,7 +1613,7 @@ uk-UA:
       message: Повідомлення
       new_discussion: Нове обговорення
       subject: Тема
-    no_activity:
+    no_activity: Немає активності у цьому обговоренні
     no_discussions: Нема обговорень.
     pagination:
       post_summary:
@@ -1680,10 +1680,10 @@ uk-UA:
     new_email_address: Нова поштова адреса
     sent_verification_email: Ми надіслали повідомлення на адресу %{email_address} для верифікації. Перевірте свою поштову скриньку (включаючи відфільтровані як спам) для отримання інструкцій щодо подальших дій.
     unsubscribe:
-      sad_to_go:
-      subscription_changed:
-      unsubscribe:
-      unsubscribed:
+      sad_to_go: "%{username},  прикро, що ви нас покидаєте!"
+      subscription_changed: Налаштування підписки оновлені. Налаштувати частоту повідомлень можна <a href="%{account_link}">на сторінці налаштувань</a>.
+      unsubscribe: Відписатися
+      unsubscribed: Ви <strong>відписані</strong>. Якщо це зроблено помилково, підписатися наново можна в <a href="%{account_link}">налаштуваннях повідомлень </a>.
   episode_count:
     few: "%{count} серії"
     many: "%{count} серій"
@@ -1727,19 +1727,19 @@ uk-UA:
     min: Фільтрувати за датою виходу (мін.)
   flash:
     email_verified:
-      message:
-      title:
+      message: Ваша електронна пошта успішно перевірена. Ви можете продовжити реєстрацію.
+      title: Електронна пошта успішно перевірена.
     invalid_password_code:
       message: Код скидання пароля недійсний.
     logged_out:
-      message:
-      title:
+      message: Ви успішно увійшли.
+      title: Виходить!
     password_reset:
       message:
       title:
     password_reset_email_required:
-      message:
-      title:
+      message: Введіть справжню адресу електронної пошти.
+      title: Необхідго ввести електронну пошту
     resend_verification_email:
       message:
       title:
