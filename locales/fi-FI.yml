@@ -6,13 +6,15 @@ fi-FI:
   API Details: API määrittelyt
   API Key: API avain
   API Libraries: API-kirjastot
-  API Overview:
+  API Overview: API:n yhteenveto
   API Read Access Token: API:n lukuoikeuden tunnus
-  API Sessions:
+  API Sessions: 'API-istunnot
+
+    '
   API Stats: API tilastot
-  API Status Codes:
+  API Status Codes: API:n tilakoodit
   API Terms: API-ehdot
-  API Terms of Use:
+  API Terms of Use: API:n käyttöehdot
   API Updates: API-päivitykset
   About: Tietoja
   About TMDb: Tietoja TMDb:sta
@@ -126,7 +128,7 @@ fi-FI:
   Day of Death: Kuolinpäivä
   Default Language: Oletuskieli
   Delete: Poista
-  Delete Collection:
+  Delete Collection: Poista kokoelma
   Delete Keyword: Poista avainsana
   Delete Movie: Poista elokuva
   Delete Person: Poista henkilö
@@ -160,7 +162,7 @@ fi-FI:
   Email: Sähköposti
   Email Address: Email-osoite
   Email Content: Sähköpostin sisältö
-  Embed:
+  Embed: Upota
   Episode Images: Jakson kuvat
   Episode Number: Jaksonumero
   Episode Overview: Jakson kuvaus
@@ -621,7 +623,7 @@ fi-FI:
       ratings: Pisteytykset
       ratings_reviews: Pisteytykset ja arvostelut
       recommendations: Suositellut
-      reviews:
+      reviews: Arvostelut
       watchlist: Seurantalista
     order: 'Järjestys:'
     overview:
@@ -1122,7 +1124,7 @@ fi-FI:
         '1':
           meaning: Suositeltu erityisesti nuoremmille lapsille.
         '2':
-          meaning:
+          meaning: Soveltuu kaiken ikäisille.
         '3':
           meaning: Ei suositeltu alle 7-vuotiaille katsojille.
         '4':
@@ -1491,12 +1493,12 @@ fi-FI:
     apply: Käytä
     filters:
       air_dates:
-        air_dates: Julkaisupäivämäärät
-        search_all_episodes:
-        search_first_air_date:
+        air_dates: Esityspäivämäärät
+        search_all_episodes: Etsitäänkö kaikista jaksoista?
+        search_first_air_date: Haetaanko ensiesityksen päivämäärä?
       availability:
-        availabilities:
-        search_all_availabilities:
+        availabilities: Saatavuudet
+        search_all_availabilities: Haetaanko kaikki saatavuudet?
       certification:
         certification: Ikäraja
       filters: Suodattimet
@@ -1515,8 +1517,8 @@ fi-FI:
       release_dates:
         from: lähtien
         release_dates: Julkaisupäivämäärät
-        search_all_countries:
-        search_release_dates:
+        search_all_countries: Haetaanko kaikista maista?
+        search_release_dates: Haetaanko kaikista julkaisuista?
         to: asti
       runtime: Kesto
       show_me:
@@ -1539,13 +1541,13 @@ fi-FI:
           restrict_tooltip: Kirjaudu sisään hallitaksesi tilaamiasi palveluita.
         where_to_watch: Missä katsoa
       years:
-        years:
-    no_items:
-    search:
+        years: Vuodet
+    no_items: Hakua vastaavia nimikkeitä ei löytynyt.
+    search: Haku
     tooltips:
-      not_member:
-      signup:
-      want_to_rate:
+      not_member: Ei rekisteröitynyt jäsen?
+      signup: Rekisteröidy ja liity mukaan yhteisöön
+      want_to_rate: Haluatko pisteyttää vai lisätä tämän nimikkeen listaan?
   discussions:
     actions:
       actions: Toiminnot
@@ -1601,7 +1603,7 @@ fi-FI:
       message: Viesti
       new_discussion: Uusi keskustelu
       subject: Aihe
-    no_activity:
+    no_activity: Tässä keskustelussa ei ole tapahtumia.
     no_discussions: Ei keskusteluja.
     pagination:
       post_summary:
@@ -1664,10 +1666,10 @@ fi-FI:
     new_email_address: Uusi sähköpostiosoite
     sent_verification_email: Olemme lähettäneet varmistussähköpostin osoitteeseen %{email_address}. Tarkista postilaatikostasi (ja roskapostilaatikkostasi) ohjeet, kuinka edetä.
     unsubscribe:
-      sad_to_go:
-      subscription_changed:
-      unsubscribe:
-      unsubscribed:
+      sad_to_go: "%{username}, meille tulee ikävä sinua!"
+      subscription_changed: Tilausasetuksesi on päivitetty. Voit muokata ilmoitusasetuksiasi <a href="%{account_link}">ilmoitusasetusten</a> sivulla.
+      unsubscribe: Lopeta tilaus
+      unsubscribed: Olet<strong>lopettanut tilauksen</strong>. Jos teit tämän vahingossa, voit ottaa tilauksen uudelleen käyttöön <a href="%{account_link}">ilmoitusasetusten</a> sivulla.
   episode_count:
     one: "%{count} Jakso"
     other: "%{count} Jaksoa"
@@ -1709,57 +1711,63 @@ fi-FI:
     min: Suodatus julkaisupäivän mukaan (min)
   flash:
     email_verified:
-      message:
-      title:
+      message: Sähköpostisi on vahvistettu. Voit nyt kirjautua sisään.
+      title: Sähköposti vahvistettu
     invalid_password_code:
       message: Salasanan nollausavain ei kelpaa.
     logged_out:
-      message:
-      title:
+      message: Olet kirjautunut ulos.
+      title: Kirjauduttu ulos!
     password_reset:
-      message:
-      title:
+      message: |-
+        Palautusohjeet on lähetetty tähän sähköpostiosoitteeseen, jos se on rekisteröity TMDb:hen.
+
+        Muista tarkistaa molemmat, saapuvat viestit ja roskapostikansio!
+      title: Salasanan palautus
     password_reset_email_required:
-      message:
-      title:
+      message: Ole hyvä ja syötä kelvollinen sähköpostiosoite.
+      title: Sähköposti vaaditaan
     resend_verification_email:
-      message:
-      title:
+      message: |-
+        Olemme lähettäneet toisen varmistusviestin tähän sähköpostiosoitteeseen, jos se on rekisteröity TMDb:hen.
+
+        Muista tarkistaa molemmat, saapuvat viestit ja roskapostikansio!
+      title: Varmistussähköposti lähetetty
   homepage:
     community:
       benefits_list:
-        '1':
-        '2':
-        '3':
-        '4':
-        '5':
-        '6':
+        '1': Nauti TMDb:stä ilman mainoksia
+        '2': Pidä henkilökohtaista katselulistaa
+        '3': Suodata nimikkeitä tilaamiesi streaming-palveluiden perusteella ja löydä katsottavaa
+        '4': Pidä kirjaa katsomistasi TV-sarjoista ja elokuvista
+        '5': Luo mukautettuja listoja
+        '6': Osallistu ja paranna tietokantaamme
     discussions:
       catch_up_now: Pysy ajan tasalla
       discussions: Keskustelut
     header:
-      quick_snippet_1:
-      welcome_1:
+      quick_snippet_1: Miljoonia elokuvia, TV-sarjoja ja ihmisiä löydettävänä. Tutustu nyt.
+      welcome_1: Tervetuloa
     panels:
       community:
-        join_today:
-        sign_up:
+        join_today: Liity mukaan tänään
+        sign_up: Rekisteröidy
       filters:
-        for_rent:
-        in_theaters:
-        movies:
-        on_tv:
-        streaming:
-        this_week:
-        today:
-        tv:
-      free_to_watch:
-      latest_trailers:
+        for_rent: Vuokrattavana
+        in_theaters: Elokuvateattereissa
+        movies: Elokuvat
+        on_tv: TV:ssä
+        streaming: Striimattavana
+        this_week: Tällä viikolla
+        today: Tänään
+        tv: TV
+      free_to_watch: Katsottavissa ilmaiseksi
+      latest_trailers: Viimeisimmät trailerit
       leaderboard:
-        all_time:
-        leaderboard:
-        this_week:
-      trending:
+        all_time: Muokkauksia yhteensä
+        leaderboard: Pistetaulukko
+        this_week: Muokkauksia tällä viikolla
+      trending: Nousussa
       whats_popular:
     taw:
       read_the_2018_recap: Lue vuoden 2018 yhteenveto
@@ -2013,7 +2021,7 @@ fi-FI:
     Chief Technician / Stop-Motion Expert: Pääteknikko / Stop-Motion asiantuntija
     Child Wrangler:
     Choreographer: Koreografi
-    Cinematography: Kuvaaja
+    Cinematography: Elokuvaaja
     Clapper Loader:
     Clearances Consultant:
     Clearances Coordinator:
@@ -2116,7 +2124,7 @@ fi-FI:
     Director: Ohjaaja
     Director of Communications:
     Director of Operations:
-    Director of Photography: Kuvaaja
+    Director of Photography: Elokuvaaja
     Director of Previsualization:
     Documentation & Support: Dokumentointi ja tuki
     Dolby Consultant: Dolby konsultantti
@@ -2486,7 +2494,7 @@ fi-FI:
     Second Film Editor:
     Second Second Assistant Director:
     Second Unit: Lisäkuvausryhmä
-    Second Unit Cinematographer: Lisäkuvausryhmän kuvaaja
+    Second Unit Cinematographer: Lisäkuvausryhmän elokuvaaja
     Second Unit Director:
     Second Unit Director of Photography:
     Second Unit First Assistant Director:
@@ -2809,9 +2817,9 @@ fi-FI:
     collection:
       edit:
         parts:
-          add:
-          no_records:
-      parts:
+          add: Lisää elokuva
+          no_records: Elokuvia ei ole lisätty.
+      parts: Osat
     company:
       headquarters: Pääkonttori
       movie_page_title: Elokuvat jotka on tuottanut %{name}
@@ -2838,7 +2846,7 @@ fi-FI:
         production_companies: Etsi tuotantoyhtiötä...
       success_fields_locked: Kentät lukittu.
       tooltips:
-        adult:
+        adult: Yleisesti ottaen, tätä merkintää käytetään ainoastaan pornografialle. Löydät<a href="/bible/movie#59f73b759251416e71000004">Avustajan ohjekirjasta</a>lisää tietoa.
         bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
         homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
         logo_format: SVG- ja PNG-tiedostotyypit ovat tuettuja. SVG:tä suositellaan käytettäväksi, koska se ei ole resoluutiosta riippuvainen.
@@ -2971,12 +2979,12 @@ fi-FI:
       fandom:
       main:
       media:
-      overview:
+      overview: Yhteenveto
       posters: Julisteet
       profiles: Profiilit
-      release_dates:
+      release_dates: Esityspäivämäärät
       reviews: Arvostelut
-      translations:
+      translations: Käännökset
       videos: Videot
     social_panel:
       discussions:
@@ -3014,7 +3022,7 @@ fi-FI:
         create_episode: Luo jakso
         episodes:
           no_records: Jaksoja ei ole lisätty.
-        runtime_varies_check:
+        runtime_varies_check: Kesto poikkeaa paljon kauden kestosta. Oletko varma, että syötit oikean keston?
         screened_confirm: Jos tämä kausi on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä kausi esitetty elokuvateatterissa?
       season_cast: Kauden näyttelijät
@@ -3171,7 +3179,7 @@ fi-FI:
       movies: Elokuvat
       tv_shows: TV-ohjelmat
     more:
-      more:
+      more: Enemmän
     movies:
       now_playing: Nyt esitettävät
       popular: Suositut
@@ -3305,10 +3313,10 @@ fi-FI:
     other: "%{count} ääntä"
   ott:
     available_sentences:
-      ads:
-      buy:
-      flatrate:
-      free:
+      ads: Katso mainosten kanssa
+      buy: Osta
+      flatrate: Striimaa
+      free: Katso ilmaiseksi
       rent:
       sentence:
     available_snippet:
@@ -3413,7 +3421,7 @@ fi-FI:
         create: Luo
         details: Tiedot
         directory: Hakemisto
-        overview:
+        overview: Yhteenveto
         sessions: Istunnot
         stats: Tilastot
       page_title:
