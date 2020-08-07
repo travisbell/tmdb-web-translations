@@ -3181,14 +3181,14 @@ th-TH:
         strip_insignificant_zeros: false
         unit: "฿"
     format:
-      delimiter:
-      precision:
+      delimiter: ","
+      precision: 3
       separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format:
+        format: "%n %u"
         units:
           billion:
           million:
@@ -3196,7 +3196,7 @@ th-TH:
           thousand:
           trillion:
       format:
-        precision:
+        precision: 3
         significant: false
         strip_insignificant_zeros: false
       short_decimal_units:
@@ -3210,7 +3210,7 @@ th-TH:
     percentage:
       format:
         delimiter:
-        format:
+        format: "%n%"
     precision:
       format:
         delimiter:
