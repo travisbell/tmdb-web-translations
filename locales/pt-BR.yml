@@ -160,7 +160,7 @@ pt-BR:
   Email: E-mail
   Email Address: Endereço de e-mail
   Email Content: Enviar conteúdo por e-mail
-  Embed:
+  Embed: Incorporar
   Episode Images: Imagens do episódio
   Episode Number: Número do episódio
   Episode Overview: Sinopse do episódio
@@ -1735,22 +1735,28 @@ pt-BR:
     min: Filtrar por Data Lançamento (Mín)
   flash:
     email_verified:
-      message:
-      title:
+      message: Seu e-mail foi verificado com sucesso. Você já pode acessar sua conta.
+      title: E-mail verificado
     invalid_password_code:
       message: O código de redefinição de senha é inválido.
     logged_out:
-      message:
-      title:
+      message: Você foi desconectado com sucesso.
+      title: Desconectado!
     password_reset:
-      message:
-      title:
+      message: |-
+        As instruções de recuperação foram enviadas para esse endereço de e-mail se ele corresponde a alguma conta registrada no TMDb.
+
+        Certifique-se de verificar a caixa de entrada e a pasta de spam!
+      title: Recuperação de senha
     password_reset_email_required:
-      message:
-      title:
+      message: Por favor, insira um endereço de e-mail válido.
+      title: E-mail necessário
     resend_verification_email:
-      message:
-      title:
+      message: |-
+        Nós enviamos outra verificação de e-mail para esse endereço se ele corresponde a alguma conta registrada no TMDb.
+
+        Certifique-se de verificar a caixa de entrada e a pasta de spam!
+      title: Verificação de e-mail enviada
   homepage:
     community:
       benefits_list:
@@ -3390,7 +3396,7 @@ pt-BR:
     show_more: Mostrar mais
   part_of_collection: Parte de %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(mínimo de 4 caracteres)"
     confirm_new_password: Confirmar a senha nova
     new_password: Nova senha
     password: Senha
@@ -3430,10 +3436,10 @@ pt-BR:
   settings:
     account:
       account_settings: Configurações da conta
-      auto_detect:
+      auto_detect: Detecção automática?
       page_title: Minhas configurações
-      resend_verification_email_text: Não recebeu o e-mail para redefinir a sua senha? Insira o seu nome de usuário abaixo que tentaremos enviá-lo novamente.
-      reset_password_text:
+      resend_verification_email_text: Não recebeu o e-mail para verificar seu e-mail? Insira o seu e-mail abaixo que tentaremos enviá-lo novamente.
+      reset_password_text: Insira o e-mail que você usou para criar uma conta TMDb e enviaremos as etapas necessárias para redefinir sua senha.
     api:
       api: API
       create_page_title: Crie uma Nova API Key
@@ -3443,7 +3449,7 @@ pt-BR:
         create: Criar
         details: Detalhes
         directory: Diretório
-        overview:
+        overview: Visão geral
         sessions: Sessões
         stats: Estatísticas
       page_title: Minhas Configurações de API
@@ -3517,7 +3523,7 @@ pt-BR:
       edit_profile: Perfil
       import_list: Importar listas
       notification_settings: Notificações
-      sessions:
+      sessions: Sessões
       settings: Configurações
       sharing_settings: Compartilhamento
       social_settings: Social
@@ -3580,18 +3586,18 @@ pt-BR:
           application_name: Nome do aplicativo
           date_authorised: Data da autorização
       navigation:
-        api:
-        web:
-      page_title:
-      sessions:
+        api: API
+        web: Web
+      page_title: Minhas sessões
+      sessions: Sessões
       web:
-        current_session:
+        current_session: sessão atual
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: Sim, exclua!
+          dialog_text: Tem certeza de que deseja excluir esta sessão? Se a sessão selecionada for sua sessão atual, esta ação o desconectará.
+          dialog_title: Excluir sessão?
         table:
-          date:
+          date: Data
           device:
           ip:
     sharing:
@@ -3670,7 +3676,7 @@ pt-BR:
       am:
       default:
       long: "%B %d, %Y %I:%M %p"
-      pm:
+      pm: pm
       short: "%d %b %I:%M %p"
   top_contributors: Principais colaboradores
   translation:
