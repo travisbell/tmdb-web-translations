@@ -2961,7 +2961,9 @@ fi-FI:
         movies: Elokuvat
         tv: TV
         tv_shows: TV-sarjat
-      years_old: "%{age} vuotta vanha"
+      years_old:
+        one: ''
+        other: "%{count} vuotta vanha"
     rating:
       rated_with_rating: Pisteytetty %{value}
       rating_count:

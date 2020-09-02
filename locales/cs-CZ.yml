@@ -2974,7 +2974,10 @@ cs-CZ:
         movies: Filmy
         tv: TV
         tv_shows: Seriály
-      years_old: "%{age} let"
+      years_old:
+        few: ''
+        one: ''
+        other: "%{count} let"
     rating:
       rated_with_rating: Hodnoceno %{value}
       rating_count:

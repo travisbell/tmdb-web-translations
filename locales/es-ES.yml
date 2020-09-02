@@ -2965,7 +2965,9 @@ es-ES:
         movies: Películas
         tv: Televisión
         tv_shows: Programas de televisión
-      years_old: "%{age} años"
+      years_old:
+        one: ''
+        other: "%{count} años"
     rating:
       rated_with_rating: Valorado %{value}
       rating_count:

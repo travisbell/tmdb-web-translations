@@ -2941,7 +2941,10 @@ lt-LT:
         movies: Filmų
         tv: Televizijos
         tv_shows: TV laidų
-      years_old: "%{age} metų"
+      years_old:
+        few: ''
+        one: ''
+        other: "%{count} metų"
     rating:
       rated_with_rating: Reitingas %{value}
       rating_count:

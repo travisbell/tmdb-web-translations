@@ -2998,7 +2998,11 @@ ru-RU:
         movies: Фильмы
         tv: ТВ
         tv_shows: ТВ сериалы
-      years_old: "%{age} лет"
+      years_old:
+        few: ''
+        many: ''
+        one: ''
+        other: "%{count} лет"
     rating:
       rated_with_rating: Оценка %{value}
       rating_count:

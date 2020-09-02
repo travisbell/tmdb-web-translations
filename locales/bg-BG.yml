@@ -2957,7 +2957,9 @@ bg-BG:
         movies: Филми
         tv: ТВ
         tv_shows: ТВ сериали
-      years_old: "%{age}-годишен"
+      years_old:
+        one: ''
+        other: "%{count}-годишен"
     rating:
       rated_with_rating: Рейтинг %{value}
       rating_count:

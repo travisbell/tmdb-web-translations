@@ -2967,7 +2967,10 @@ sk-SK:
         movies: Filmy
         tv: TV
         tv_shows: Seriály
-      years_old: "%{age} rokov/y"
+      years_old:
+        few: ''
+        one: ''
+        other: "%{count} rokov/y"
     rating:
       rated_with_rating: Hodnotenie %{value}
       rating_count:

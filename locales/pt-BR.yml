@@ -2989,7 +2989,9 @@ pt-BR:
         movies: Filmes
         tv: TV
         tv_shows: Séries
-      years_old: "%{age} de Idade"
+      years_old:
+        one: ''
+        other: "%{count} de Idade"
     rating:
       rated_with_rating: Avaliado em %{value}
       rating_count:

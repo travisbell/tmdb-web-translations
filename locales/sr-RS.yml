@@ -2978,7 +2978,11 @@ sr-RS:
         movies: Филмови
         tv: ТВ
         tv_shows: ТВ емисије
-      years_old: "%{age} година старо"
+      years_old:
+        few: ''
+        many: ''
+        one: ''
+        other: "%{count} година старо"
     rating:
       rated_with_rating: Оцењен %{value}
       rating_count:

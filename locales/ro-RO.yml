@@ -2967,7 +2967,10 @@ ro-RO:
         movies: Filme
         tv: TV
         tv_shows: Seriale
-      years_old: "%{age} vârstă"
+      years_old:
+        few: ''
+        one: ''
+        other: "%{count} vârstă"
     rating:
       rated_with_rating: Evaluat la %{value}
       rating_count:

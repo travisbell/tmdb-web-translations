@@ -2952,7 +2952,9 @@ gl-ES:
         movies: Filmes
         tv: TV
         tv_shows: Series TV
-      years_old: "%{age} anos"
+      years_old:
+        one: ''
+        other: "%{count} anos"
     rating:
       rated_with_rating: Puntuado %{value}
       rating_count:
