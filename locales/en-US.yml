@@ -570,7 +570,9 @@ en-US:
             Mention: Mention
             Messages: Messages
             type: Type
-        notifications: Notifications
+        notifications:
+          one: Notifications
+          other: Notifications
         number_of_items:
           one: "%{count} Notification"
           other: "%{count} Notifications"
@@ -2961,7 +2963,9 @@ en-US:
         movies: Movies
         tv: TV
         tv_shows: TV Shows
-      years_old: "%{age} years old"
+      years_old:
+        one: "%{age} year old"
+        other: "%{age} years old"
     rating:
       rated_with_rating: Rated %{value}
       rating_count:
