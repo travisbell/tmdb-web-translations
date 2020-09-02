@@ -28,7 +28,7 @@ fr-FR:
   Add Creator: Ajouter un·e auteur·e
   Add Data & Content: Ajouter des données et du contenu
   Add Item: Ajouter un élément
-  Add Missing Cast & Crew: Ajouter un membre de distribution ou d'équipe technique manquant
+  Add Missing Cast & Crew: Cliquez pour ajouter un membre de distribution ou d'équipe technique.
   Add Network: Ajouter un diffuseur
   Add New Episode: Ajouter un nouvel épisode
   Add New Movie: Ajouter un nouveau film
@@ -172,10 +172,10 @@ fr-FR:
   Expand: Agrandir
   External IDs: Identifiants externes
   External Links: Liens externes
-  Extra Details: Avez-vous des détails supplémentaires ?
+  Extra Details: Avez-vous des détails supplémentaires à apporter aux modérateurs ?
   Extras: Figuration
   FAQ: Questions fréquentes
-  Facts: Faits
+  Facts: Faits principaux
   Fallback Language: Langue de secours
   Favorite: Favoris
   Favorite Movies: Films favoris
@@ -207,7 +207,7 @@ fr-FR:
   Guidelines: Règles
   Hardware/Embedded: Matériel / Intégré
   Help: Aide
-  Help Us By Contributing Missing Data: Aidez-nous en contribuant aux données manquantes
+  Help Us By Contributing Missing Data: Aidez-nous en contribuant aux données manquantes.
   Hi: Bonjour
   Hide favorites?: Masquer les favoris ?
   Hide items on watchlist?: Masquer les éléments de la liste de suivi ?
@@ -255,7 +255,7 @@ fr-FR:
   Login to create and edit custom lists: Connectez-vous pour créer et modifier des listes personnalisées.
   Login to rate this TV show: Connectez-vous pour noter cette série.
   Login to rate this movie: Connectez-vous pour noter ce film.
-  Login to report an issue: Connectez-vous pour signaler un problème.
+  Login to report an issue: Connectez-vous pour<br>signaler un problème.
   Logo: Logo
   Logos & Attribution: Logos et attribution
   Logout: Déconnexion
@@ -404,7 +404,7 @@ fr-FR:
   Show More: Afficher davantage
   Site: Site
   Size: Définition (en pixels)
-  Social: Partageons
+  Social: Votre opinion
   Sort: Trier
   Sort By: Trier par
   Sort Cast: Trier la distribution
@@ -483,12 +483,12 @@ fr-FR:
   View All Posters: Afficher toutes les affiches
   View All Seasons: Afficher toutes les saisons
   View All Videos: Afficher toutes les vidéos
-  View Discussions: Afficher les conversations
+  View Discussions: Afficher toutes les conversations
   View Edit History: Afficher l'historique des modifications
-  View Episodes: Afficher les épisodes
+  View Episodes: Afficher tous les épisodes
   View More: Afficher davantage
   View Original: Afficher l'original
-  View Profile Images: Afficher les images de profil
+  View Profile Images: Afficher toutes les photos de profil
   View the Collection: Afficher la collection
   Watch Online: Regarder en ligne
   Watchlist: Liste de suivi
@@ -505,7 +505,7 @@ fr-FR:
   Zip Code: Code postal
   account_drop_down:
     discussions: Conversations
-    edit_profile: Modifier le profil
+    edit_profile: Modifier mon profil
     join_tmdb: Rejoindre TMDb
     lists: Listes
     login: Connexion
@@ -515,7 +515,7 @@ fr-FR:
     ratings: Notes
     settings: Paramètres
     sign_up: Créer un compte
-    view_profile: Afficher le profil
+    view_profile: Afficher mon profil
     watchlist: Liste de suivi
   accounts:
     activity:
@@ -595,7 +595,7 @@ fr-FR:
     filter_by: 'Trier par :'
     filters:
       air_date: Date de diffusion
-      date_added: Date d'ajout
+      date_added: Dates d'ajout
       date_rated: Date de notation
       first_air_date: Date de première diffusion
       my_rating: Mes notes
@@ -616,7 +616,7 @@ fr-FR:
       page_title:
         page_owner: Mes listes
         public: Listes de %{username}
-    member_since: Membre depuis %{date}
+    member_since: est membre de TMDb depuis %{date}.
     navigation:
       discussions: Conversations
       favorites: Favoris
@@ -638,8 +638,8 @@ fr-FR:
       empty_watched_genres:
         logged_in: Vous n'avez enregistré aucun film ni série.
         public: "%{username} n'a enregistré aucun film ni série."
-      goto_discussions: Afficher les conversations
-      goto_watchlist: Aller à la liste de suivi
+      goto_discussions: Afficher toutes les conversations
+      goto_watchlist: Afficher la liste de suivi
       most_watched_genres: Genres les plus regardés
       rating_overview: Vue d'ensemble des notes
       recent_activity: Activité récente
@@ -702,7 +702,7 @@ fr-FR:
       message: L'utilisateur de l'API actuellement identifié n'est pas valide.
       title: Utilisateur d'API non valide
     missing_request_token:
-      message: Un jeton de demande est requis pour authentifier les comptes d'utilisateurs.
+      message: Un jeton de demande est nécessaire pour authentifier les comptes d'utilisateurs.
       title: Jeton de demande manquant
     request_token_approval:
       message: "{{APP}} vous demande l'autorisation de lire et d'écrire des données en votre nom. Cette démarche est nécessaire si vous souhaitez, par exemple, maintenir vos listes ou évaluer des films en dehors de TMDb."
@@ -1297,20 +1297,20 @@ fr-FR:
     helper_tooltip: Le score de contenu est un indicateur permettant de comprendre à quel point les données d'un élément sont complètes dans la base de données.
     scale:
       '0': Il faut bien commencer quelque part...
-      '1': Hé, c'est un début.
-      '10': Bien ! Tout semble bon !
-      '2': On progresse.
+      '1': C'est un bon début...
+      '10': Yeah ! Cette page semble complète !
+      '2': Nous progressons...
       '3': Rome ne s'est pas construite en un jour...
       '4': Tous pour un, un pour tous...
-      '5': A encore besoin d'un peu de travail.
-      '6': Nous sommes si proches, mais si loin.
+      '5': Encore un peu de travail...
+      '6': Nous sommes si proches, mais si loin...
       '7': Juste un peu plus...
-      '8': Aller ! Nous sommes proches maintenant.
-      '9': C'est presque bon...
+      '8': Courage ! Nous sommes proches maintenant !
+      '9': C'est presque bon !
   contribute:
     contribute: Contribuer
     missing_a_biography: Biographie manquante
-    missing_a_profile_image: Image de profil manquante
+    missing_a_profile_image: Photo de profil manquante
     movie_language_distribution: Répartition des films selon la langue
     movies_missing_a_backdrop: Films sans fond d'écran
     movies_missing_a_overview: Films sans synopsis
@@ -1318,11 +1318,11 @@ fr-FR:
     movies_missing_a_title: Films sans titre
     page_title: Contribuer aux données manquantes
     selected_language: Langue sélectionnée
-    tv_missing_a_backdrop: Fond d'écran de série manquante
-    tv_missing_a_poster: Affiche de série manquante
+    tv_missing_a_backdrop: Série sans fond d'écran
+    tv_missing_a_poster: Émission télévisée sans affiche
     tv_show_language_distribution: Répartition des séries selon la langue
-    tv_shows_missing_a_name: Nom de série manquante
-    tv_shows_missing_a_overview: Synopsis de série manquante
+    tv_shows_missing_a_name: Séries sans nom
+    tv_shows_missing_a_overview: Séries sans synopsis
   contribution_bible:
     abbreviations:
       collection: col
@@ -1539,9 +1539,9 @@ fr-FR:
         country: Pays
         my_services:
           my_services: Mes services
-          restrict: Restreindre les recherches à mes services de streaming souscrits ?
-          restrict_tooltip: Connectez-vous pour modifier vos services de streaming souscrits.
-        where_to_watch: Streaming ?
+          restrict: Restreindre ma recherche à mes abonnements de streaming souscrits
+          restrict_tooltip: Connectez-vous pour modifier vos abonnements de streaming souscrits.
+        where_to_watch: Filtrer selon mes abonnements de streaming
       years:
         years: Années
     no_items: Aucun résultat pour cette recherche.
@@ -1686,7 +1686,7 @@ fr-FR:
       genres: Le champ des genres est verrouillé
       keywords: Le champ des mots-clés est verrouillé
     messages:
-      blank: est requis·e
+      blank: est nécessaire
       inclusion: doit être sélectionné·e
       invalid: n'est pas valide
       required: doit exister
@@ -1703,7 +1703,7 @@ fr-FR:
       duplicate_guest_star: Cette personne est déjà enregistrée en tant que vedette invitée.
       duplicate_regular_season_member: Cette personne est déjà membre de la distribution récurrente de la saison.
       duplicate_season: Cette saison existe déjà.
-  failed_email: Votre courriel n'a pas pu être envoyé.
+  failed_email: Votre courriel n'a pas pu être envoyé !<br>Merci de bien vouloir réessayer.<br>L'équipe de TMDb.
   failed_generic: Un problème est survenu.
   failed_report: Un problème est survenu lors de l'envoi de votre rapport.
   failed_sharing: Un problème est survenu lors du partage de votre message.
@@ -1740,7 +1740,7 @@ fr-FR:
       benefits_list:
         '1': Profitez de TMDb sans publicité,
         '2': Maintenez une liste de suivi personnelle,
-        '3': Filtrez par services de streaming souscrits et trouvez quelque chose à regarder,
+        '3': Filtrez selon vos abonnements de streaming souscrits et trouvez quelque chose à regarder,
         '4': Enregistrez les films et séries que vous avez vus,
         '5': Construisez des listes personnalisées,
         '6': Contribuez à améliorer notre base de données.
@@ -1749,7 +1749,7 @@ fr-FR:
       discussions: Conversations
     header:
       quick_snippet_1: Des millions de films, séries et artistes à découvrir...
-      welcome_1: Bienvenue,
+      welcome_1: Bienvenue sur TMDb
     panels:
       community:
         join_today: Rejoignez-nous !
@@ -1795,7 +1795,7 @@ fr-FR:
       backdrops_must_meet: 'Les fonds d''écran doivent respecter les critères suivants :'
       episode_stills_must_meet: 'Les images d''épisodes doivent respecter les critères suivants :'
       posters_must_meet: 'Les affiches doivent respecter les critères suivants :'
-      profile_must_meet: 'Les images de profil doivent respecter les critères suivants :'
+      profile_must_meet: 'Les photos de profil doivent respecter les critères suivants :'
       read_guidelines: Veuillez vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images</a>.
       tip: Si votre navigateur le supporte, vous pouvez glisser et déposer une image sur la zone ci-dessous. Sinon, vous pouvez simplement cliquer sur le bouton « Sélectionner les fichiers... » et choisir l'image depuis votre ordinateur.
   invalid_aspect_ratio: Ce format d'image n'est pas valide.
@@ -2739,20 +2739,20 @@ fr-FR:
       back_to_parent: Retour (ou vers le parent si faisable)
       close_window: Fermer une fenêtre ouverte
       focus_search: Mettre le curseur dans la barre de recherche
-      go_to_edit: Aller à la page de modification
-      last_reply: Aller à la dernière réponse
+      go_to_edit: Afficher la page de modification
+      last_reply: Afficher la dernière réponse
       new_discussion: Créer une nouvelle discussion
-      next_episode: Aller à l'épisode suivant (flèche droite)
+      next_episode: Afficher l'épisode suivant (flèche droite)
       next_page: Page suivante (flèche droite)
-      next_season: " Aller à la saison suivante (flèche droite)"
+      next_season: Afficher la saison suivante (flèche droite)
       open_activity: Ouvrir l'activité
       open_add_image_window: Ouvrir la fenêtre d'ajout d'image
       open_profile: Ouvrir le menu du profil
       open_shortcut_window: Ouvrir la fenêtre des raccourcis clavier
       open_translation_selector: Ouvrir le sélecteur de traduction
-      previous_episode: Aller à l'épisode précédent (flèche gauche)
+      previous_episode: Afficher l'épisode précédent (flèche gauche)
       previous_page: Page précédente (flèche gauche)
-      previous_season: Aller à la saison précédente (flèche gauche)
+      previous_season: Afficher la saison précédente (flèche gauche)
       reply_to_discussion: Répondre à la discussion
       save_form: Envoyer le formulaire
       submit_message: Envoyer votre message
@@ -2768,8 +2768,8 @@ fr-FR:
       tv_episode_pages: Sur les pages des séries
       tv_season_pages: Sur les pages des saisons des séries
     keyboard_shortcuts: Raccourcis clavier
-    view_keyboard_shorcuts: Afficher les raccourcis clavier
-    view_shortcuts: Afficher les raccourcis
+    view_keyboard_shorcuts: Afficher tous les raccourcis clavier
+    view_shortcuts: Afficher tous les raccourcis
   list_info:
     average_rating: Note moyenne
     image_selected: Sélectionnée
@@ -2896,7 +2896,7 @@ fr-FR:
 
           <p>Si ce contenu est, par exemple, un DVD de compilation, une vidéo de fitness ou peut-être un DVD du « meilleur de », alors vous devez le marquer comme vidéo.</p>
         crew:
-          job_required: Un métier est requis.
+          job_required: Un métier doit être renseigné.
           no_records: Aucun membre de l'équipe technique n'a été ajouté.
           person_required: Une personne est nécessaire.
         genres:
@@ -2947,7 +2947,7 @@ fr-FR:
       upload_logo: Téléverser un logo
     no_results_found:
       movie: Aucun film trouvé.
-      tv: Aucune série trouvée.
+      tv: Aucune série n'a été trouvée.
     number_of_movies:
       one: "%{count} film"
       other: "%{count} films"
@@ -2997,18 +2997,18 @@ fr-FR:
     social_panel:
       discussions:
         currently_subscribed: Vous êtes actuellement abonné·e pour recevoir une notification lorsque quelqu'un publiera le premier message.
-        no_discussions: Il n'y a aucune conversation pour %{item_title}. Connectez-vous pour l'entamer !
+        no_discussions: Il n'y a aucune conversation pour %{item_title}. Votre contribution est la bienvenue !
         unsubscribe_me: Me désabonner.
         want_to_be_notified: Souhaitez-vous être prévenu·e lorsque quelqu'un publiera le premier message ?
-        yes_notify_me: Oui, prévenez-moi !
+        yes_notify_me: Cliquez ici pour être averti·e !
       reviews:
         a_review_by: Une critique de %{username}
         by: Rédigée par %{username} le %{date}
         featured_review: Critique en vedette
         no_review:
-          logged_in: Aucune critique n'a été rédigée pour %{title}. Voudriez-vous <a href="%{url}">en rédiger une</a> ?
+          logged_in: Aucune critique n'a été rédigée pour %{title}. <a href="%{url}">Cliquez ici pour partager votre opinion !</a>
           public: Aucune critique n'a été rédigée pour %{title}.
-        read_all: Lire toutes les critiques
+        read_all: Afficher toutes les critiques
         read_the_rest: lire la suite.
         write_review:
           logged_in: Rédiger une critique
@@ -3202,13 +3202,13 @@ fr-FR:
       on_tv: En cours de diffusion
       popular: Populaires
       top_rated: Les mieux notées
-  no_biography: Aucune biographie n'est rédigée pour %{name}.
-  no_cast: Aucune distribution n'a été ajoutée à ce·tte %{media_type}. Vous pouvez nous aider en complétant sa fiche !
+  no_biography: Aucune biographie n'est rédigée pour %{name}. Votre contribution est la bienvenue !
+  no_cast: Aucune distribution n'a été ajoutée à ce·tte %{media_type}. Votre contribution est la bienvenue !
   no_collection_search_results: Aucune collection ne correspond à votre recherche.
   no_company_search_results: Aucune société ne correspond à votre recherche.
   no_contributors: Aucun contributeur n'a été trouvé.
   no_created_lists: Vous n'avez créé aucune liste.
-  no_crew: Aucune équipe technique n'a été ajoutée à ce·tte %{media_type}. Vous pouvez nous aider en complétant sa fiche !
+  no_crew: Aucune équipe technique n'a été ajoutée à ce·tte %{media_type}. Votre contribution est la bienvenue !
   no_description: Aucune description n'a été saisie.
   no_director: Aucun réalisateur n'a été ajouté.
   no_episode_images: Aucune image d'épisode n'a été ajoutée.
@@ -3225,7 +3225,7 @@ fr-FR:
   no_list_search_results: Aucune liste ne correspond à votre recherche.
   no_media: Aucune vidéo, ni fond d'écran, ni affiche, n'a été ajouté pour %{title}.
   no_movie_search_results: Aucun film ne correspond à votre recherche.
-  no_overview: Nous ne disposons d'aucun synopsis traduit en français. Aidez-nous à enrichir notre base de données en l'ajoutant.
+  no_overview: Nous ne disposons d'aucun synopsis traduit en français. Votre contribution est la bienvenue !
   no_person_search_results: Aucun artiste ne correspond à votre recherche.
   no_personal_recommendations:
     movie: Pour obtenir des recommandations de films personnalisées, commencez par ajouter tous vos films favoris. À ce stade, vous remarquerez probablement que la plupart des films que nous vous recommandons sont ceux que vous avez déjà vus. Pour les masquer, il vous suffit de les noter. Une fois notés, nous les masquerons automatiquement.
@@ -3321,17 +3321,17 @@ fr-FR:
     other: "%{count} votes"
   ott:
     available_sentences:
-      ads: regarder avec des annonces
+      ads: à regarder gratuitement avec publicités
       buy: à la vente
-      flatrate: regarder en streaming
-      free: regarder gratuitement
-      rent: à la location
+      flatrate: regarder en streaming avec abonnement
+      free: à regarder gratuitement
+      rent: 'à la location '
       sentence: "%{title} est actuellement disponible à %{available_types} en %{country}."
     available_snippet:
       flatrate: Disponible en streaming
       rent_or_buy: Disponible à la location ou à l'achat
       summary_sentence: "%{available_snippet} sur %{service_name}"
-    description: JustWatch vous permet de savoir simplement où vous pouvez regarder en ligne, en toute légalité, vos films favoris et vos séries favorites. Visitez {justwatch_link} pour plus d'informations.
+    description: 'JustWatch vous permet de savoir simplement où vous pouvez regarder en ligne, en toute légalité, vos films favoris et vos séries favorites. Visitez {justwatch_link} pour plus d''informations. Utilisez le sélecteur de pays ci-dessous pour affiner vos recherches. Glossaire : SD désigne la définition standard, HD désigne la haute définition et 4K désigne l''ultra haute définition. Bon visionnage.'
     filters:
       4k: 4K
       best_price: Meilleur prix
@@ -3341,11 +3341,11 @@ fr-FR:
       hd: HD
       sd: SD
     monetization_types:
-      ads: Annonces
-      buy: À la vente
-      flatrate: En streaming
-      free: Gratuitement
-      rent: À la location
+      ads: Gratuitement avec publicités sur
+      buy: À la vente sur
+      flatrate: En streaming avec abonnement sur
+      free: Gratuitement sur
+      rent: À la location sur
     no_offers:
       4k: Aucune offre en 4K ultra haute définition n'a été trouvée.
       bluray: Aucune offre en Blu-ray n'a été trouvée.
@@ -3357,7 +3357,7 @@ fr-FR:
       many: "%{count} saisons"
       one: "%{count} saison"
       other: "%{count} saisons"
-    view_offers: Afficher les offres
+    view_offers: Afficher toutes les offres
     watch_now: Regarder maintenant
     watch_on:
       ads: Regarder %{name} sur %{provider_name}
@@ -3408,18 +3408,18 @@ fr-FR:
     trending_searches: Recherches de tendances
     watchlist_movie: Rechercher un film parmi votre liste de suivi...
     watchlist_tv: Rechercher une série parmi votre liste de suivi...
-  search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » pour filtrer les résultats de votre recherche d''une année spécifique. Exemple : saisissez « Star Wars y:1977 » dans la zone de recherche.'
+  search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » afin de restreindre les résultats de votre recherche à année spécifique. Exemple : saisissez « Star Wars y:1977 » dans la zone de recherche.'
   season_number_name: Saison %{season_number}
   season_overview:
     already_aired: La saison n° %{season_number} de %{show_name} a été diffusée le %{date}.
     to_air: La saison n° %{season_number} de %{show_name} est annoncée pour sa première diffusion le %{date}.
   settings:
     account:
-      account_settings: Paramètres du compte
+      account_settings: Paramètres de mon compte
       auto_detect: Détection automatique ?
       page_title: Mes paramètres
       resend_verification_email_text: Vous n'avez pas reçu le courriel de vérification de votre compte ? Saisissez votre adresse de courriel ci-dessous pour le recevoir à nouveau.
-      reset_password_text: Saisissez l'adresse de courriel que vous avez utilisée pour créer votre compte TMDb et nous vous enverrons les étapes requises afin de réinitialiser votre mot de passe.
+      reset_password_text: Saisissez l'adresse de courriel que vous avez utilisée pour créer votre compte TMDb et nous vous enverrons les étapes nécessaires pour réinitialiser votre mot de passe.
     api:
       api: API
       create_page_title: Créer une nouvelle clé d'API
@@ -3442,12 +3442,12 @@ fr-FR:
       page_title: Mes utilisateurs bloqués
       username: Nom d'utilisateur
     change_email:
-      change_email: Modifier votre adresse de courriel
+      change_email: Modifier mon adresse de courriel
       change_email_text: Si vous souhaitez changer votre adresse de courriel, saisissez une nouvelle adresse dans le champ ci-dessous. Avant de pouvoir vous reconnecter, vous devrez vérifier votre nouvelle adresse en cliquant sur le lien d'activation présent dans le courriel que nous vous enverrons.
       page_title: Changer mon adresse de courriel
     delete_account:
       confirm_delete: 'Confirmer la suppression '
-      delete_account: Supprimer le compte
+      delete_account: Supprimer mon compte
       page_title: Supprimer mon compte
       summary_text: Vous venez de pénétrer dans la <strong>***zone de danger***</strong> Si vous souhaitez continuer et supprimer votre compte, veuillez saisir votre mot de passe ci-dessous et confirmer lorsque cela vous est demandé.
     import_list:
@@ -3495,19 +3495,19 @@ fr-FR:
         watchlist: Liste de suivi
       which_list: Quelle liste voulez-vous remplir ?
     navigation:
-      account_settings: Paramètres du compte
+      account_settings: Paramètres de mon compte
       api: API
       blocked_users: Utilisateurs bloqués
       connected_apps: Applications connectées
-      delete_account: Supprimer le compte
-      edit_profile: Modifier le profil
+      delete_account: Supprimer mon compte
+      edit_profile: Modifier mon profil
       import_list: Importer une liste
       notification_settings: Paramètres de notifications
       sessions: Sessions
       settings: Paramètres
       sharing_settings: Paramètres de partages
       social_settings: Paramètres de réseaux sociaux
-      streaming_services: Services de streaming
+      streaming_services: Mes abonnements de streaming
     notifications:
       api_updates: Me prévenir par courriel des modifications et mises à jour de l'API ?
       email_new_releases_watchlist: Me prévenir par courriel des nouvelles sorties présentes dans ma liste de suivi ?
@@ -3517,14 +3517,14 @@ fr-FR:
       notifications: Notifications
       page_title: Mes notifications
     profile:
-      accent_color: Couleur d'accentuation
+      accent_color: Couleur de mon compte
       avatar:
-        current_avatar: Avatar actuel
+        current_avatar: Mon avatar actuel
         explain: Actuellement, la seule solution dont nous disposons pour afficher un avatar personnalisé est d'utiliser un service appelé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous souhaitez afficher un avatar personnalisé sur TMDb, vous devrez créer un compte sur Gravatar et vous assurer d'ajouter la même adresse de courriel que vous avez utilisée sur TMDb. Ainsi, nous pourrons lier votre compte Gravatar à votre compte TMDb. Une fois que vous l'aurez fait, cliquez sur le bouton de mise à jour ci-dessous et nous rapatrierons votre nouvelle image.
         explain_gravatar: Si vous souhaitez utiliser <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> en tant que fournisseur de votre avatar, assurez-vous d'avoir enregistré la même adresse de courriel sur Gravatar et TMDb. Une fois que vous l'aurez fait et que vous avez, bien entendu, téléversé une image sur Gravatar, cliquez sur le bouton de mise à jour ci-dessous et nous rapatrierons votre nouvelle image.
         not_found: Aucun avatar n'a été trouvé.
         not_found_add: Aucun avatar n'a été trouvé. Souhaitez-vous en <a href="#">ajouter un</a> ?
-        remove_own: Supprimer votre avatar ?
+        remove_own: Supprimer mon avatar
         update_avatar: Mettre à jour l'avatar
         update_gravatar: Mettre à jour Gravatar ?
         updated: Avatar mis à jour !
@@ -3533,21 +3533,21 @@ fr-FR:
         upload_window_tip: Utiliser le sélecteur de fichier ci-dessous pour téléverser votre propre avatar personnalisé. Nous recadrerons automatiquement votre image en carré si ce n'est pas déjà le cas.
         use_gravatar: Utiliser Gravatar ?
       background:
-        background_image: Image de fond
+        background_image: Mon image de fond
         confirm_remove: Veuillez confirmer que vous souhaitez supprimer votre image de fond. Le voulez-vous vraiment ?
-        remove_background: Supprimer votre image de fond ?
+        remove_background: Supprimer mon image de fond
         set_image: Définir une image de fond ?
-      change_password: Modifier le mot de passe
-      edit_profile: Modifier le profil
+      change_password: Modifier mon mot de passe
+      edit_profile: Modifier mon profil
       email:
         invalid_dialog_title: Réinitialiser le courriel ?
         reset_button: Réinitialiser et envoyer ?
         reset_invalid_email_dialog_text: |-
-          <p>Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher les erreurs en cliquant sur <a href="/u/%{username_url}/events/emails?status=2,3">ce lien</a>.</p>
+          <p>Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher toutes les erreurs en cliquant sur <a href="/u/%{username_url}/events/emails?status=2,3">ce lien</a>.</p>
 
           <p>Si les problèmes concernant votre adresse de courriel ont été corrigés ou n'étaient que temporaires, veuillez cliquer sur le bouton de réinitialisation ci-dessous. Nous essaierons de vous envoyer un autre courriel de vérification.</p>
         reset_password_invalid_email_dialog_text: |-
-          <p>Afin de changer votre mot de passe, nous avons besoin d'une adresse de courriel valide. Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher les erreurs en cliquant sur <a href="/u/%{username_url}/events/emails?status=2,3">ce lien</a>.</p>
+          <p>Afin de changer votre mot de passe, nous avons besoin d'une adresse de courriel valide. Malheureusement, nous avons eu du mal à vous envoyer des courriels par le passé. Vous pouvez afficher toutes les erreurs en cliquant sur <a href="/u/%{username_url}/events/emails?status=2,3">ce lien</a>.</p>
 
           <p>Si les problèmes concernant votre adresse de courriel ont été corrigés ou n'étaient que temporaires, veuillez cliquer sur le bouton de réinitialisation ci-dessous. Nous essaierons de vous envoyer un autre courriel de vérification.</p>
         sending_problems: Nous avons rencontré des problèmes pour envoyer des messages à votre adresse de courriel. Avant de pouvoir continuer, nous devons nous assurer que nos courriels vous soient bien délivrés.
@@ -3610,8 +3610,8 @@ fr-FR:
       social_settings: Paramètres de réseaux sociaux
       supported_template_values: 'Valeurs de modèle prises en charge :'
     streaming_services:
-      page_title: Mes services de streaming
-      streaming_services: Services de streaming
+      page_title: Mes abonnements de streaming
+      streaming_services: Mes abonnements de streaming
   sign_up:
     benefits:
       benefits_to_being_member: 'Avantages à devenir membre :'
@@ -3619,7 +3619,7 @@ fr-FR:
       build_watchlist: Créez et maintenez une liste de suivi personnelle,
       contribute: Contribuez à améliorer les informations de notre base de données.
       discussions: Prenez part aux discussions sur les films et séries,
-      find_something_to_watch: Trouvez quelque chose à regarder parmi vos services de streaming souscrits,
+      find_something_to_watch: Trouvez quelque chose à regarder parmi vos abonnements de streaming souscrits,
       keep_track: Gardez une trace de vos films favoris et de vos séries favorites et obtenez des recommandations personnalisées,
       log_movies: Enregistrez les films et séries que vous avez vus,
     by_clicking_agree_to_terms: En cliquant sur le bouton « Créer un compte », je certifie avoir lu et accepté les « Conditions d'utilisation » et la « Politique de confidentialité » de TMDb. Pour les consulter, rendez-vous dans la partie « MENTIONS LÉGALES » des liens de bas de page.
@@ -3628,7 +3628,7 @@ fr-FR:
     signup_text: La création d'un compte est gratuite et facile. Remplissez le formulaire ci-dessous pour commencer.
   success_approved_access_token: Permission accordée !
   success_deleted: L'élément sélectionné a bien été supprimé.
-  success_email: Votre courriel a bien été envoyé.
+  success_email: Votre courriel a bien été envoyé.<br>Nous vous remercions et vous répondrons le plus rapidement possible.<br>L'équipe de TMDb.
   success_image_rated: L'image a bien été notée.
   success_image_uploaded: L'image a bien été téléversée.
   success_rating: Votre note a bien été enregistrée.
@@ -3644,7 +3644,7 @@ fr-FR:
       words_connector: ", "
   suspended:
     explanation_1: Malheureusement, cet utilisateur a été suspendu.
-    go_to_inbox: Aller à la boîte de réception
+    go_to_inbox: Afficher la boîte de réception
     title: Cet utilisateur a été suspendu.
     your_account:
       explanation_1: Si vous souhaitez discuter des raisons qui ont mené à la suspension de votre compte ou bien de la manière par laquelle vous pouvez récupérer son accès, veuillez visiter la zone de messagerie en cliquant sur le lien ci-dessous.
