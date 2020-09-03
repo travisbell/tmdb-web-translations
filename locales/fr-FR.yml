@@ -51,8 +51,8 @@ fr-FR:
   Added By: Ajouté·e par
   Added to Watchlist: Ajouté à votre liste de suivi
   Adding & Editing Content: Ajout et modification de contenu
-  Address 1: Adresse 1
-  Address 2: Adresse 2
+  Address 1: Adresse
+  Address 2: Complément d'adresse
   Admin Tools: Outils d'administration
   Adult Actor: Artiste de contenu pour adultes
   Advanced Search: Recherche avancée
@@ -157,7 +157,7 @@ fr-FR:
   Editing Content: Modification du contenu
   Editing in: Modification en %{language}
   Education: Éducation
-  Email: Courriel
+  Email: Votre adresse de courriel
   Email Address: Adresse de courriel
   Email Content: Contenu du courriel
   Embed: Intégrer
@@ -205,7 +205,7 @@ fr-FR:
   Get Involved: S'impliquer
   Guest Stars: Vedettes invitées
   Guidelines: Règles
-  Hardware/Embedded: Matériel / Intégré
+  Hardware/Embedded: Matériel / intégré
   Help: Aide
   Help Us By Contributing Missing Data: Aidez-nous en contribuant aux données manquantes.
   Hi: Bonjour
@@ -412,7 +412,7 @@ fr-FR:
   Source Key: Clé source
   Specials: Épisodes spéciaux
   Spoken Languages: Langues parlées
-  State: État
+  State: Région
   Stats: Statistiques
   Status: Statut
   Status Codes: Codes des statuts
@@ -493,9 +493,9 @@ fr-FR:
   Watch Online: Regarder en ligne
   Watchlist: Liste de suivi
   Watchlists: Listes de suivi
-  Website: Site Internet
-  Website Terms: Conditions du site Internet
-  Website Updates: Mises à jour du site Internet
+  Website: Site internet
+  Website Terms: Conditions du site internet
+  Website Updates: Mises à jour du site internet
   Wrappers & Libraries: Jaquettes et bibliothèques
   Written by: Scénarisé·e par 
   Year: Année
@@ -551,10 +551,10 @@ fr-FR:
     events:
       all: Tous
       emails:
-        emails: Courriels
+        emails: Mes courriels
         filters:
           status:
-            Bounce: Rebondi
+            Bounce: Non délivré - renvoyé à l'expéditeur
             Complaint: Plainte
             Delivery: Délivré
             Unsubscribed: Désabonné·e
@@ -596,7 +596,7 @@ fr-FR:
     filters:
       air_date: Date de diffusion
       date_added: Dates d'ajout
-      date_rated: Date de notation
+      date_rated: Dates de notation
       first_air_date: Date de première diffusion
       my_rating: Mes notes
       popularity: Popularité
@@ -762,7 +762,7 @@ fr-FR:
         '7':
           meaning: Interdit aux moins de 18 ans. Les films avec cette classification contiennent du contenu pornographique. Les films classés « X18+ » sont interdits à la vente ou à la location dans tous les états australiens et ne sont légalement disponibles que dans le Territoire de la capitale australienne et le Territoire du Nord. Cependant, l'importation de matériel classé « X18+ » depuis les deux territoires vers n'importe quel États australiens est légale. Le contenu a un impact sexuellement explicite.
         '8':
-          meaning: Classification refusée. Interdit à la vente ou à la location en Australie ; s'applique aussi généralement à l'importation (si inspecté et suspect aux douanes). La consultation privée sur Internet n'est pas appliquée et les tentatives de censure légale de ce matériel en ligne ont donné lieu à une controverse. Les films sont classés « RC » si leur contenu dépasse les directives. Le contenu a un impact très élevé.
+          meaning: Classification refusée. Interdit à la vente ou à la location en Australie ; s'applique aussi généralement à l'importation (si inspecté et suspect aux douanes). La consultation privée sur internet n'est pas appliquée et les tentatives de censure légale de ce matériel en ligne ont donné lieu à une controverse. Les films sont classés « RC » si leur contenu dépasse les directives. Le contenu a un impact très élevé.
       BG:
         '1':
           meaning: Recommandé pour les enfants.
@@ -2906,7 +2906,7 @@ fr-FR:
             Aucun genre n'a été ajouté.
         keywords:
           add_keyword: Ajouter un mot-clé
-          create: Créez-le
+          create: Créer
           no_records: Aucun mot-clé n'a été ajouté.
           none_found: Aucun mot-clé ne correspond à votre recherche. Voulez-vous le créer ?
           tip: En règle générale, pensez aux éléments qui aident à décrire l'intrigue, les thèmes généraux et les humeurs.
@@ -2996,11 +2996,11 @@ fr-FR:
       videos: Vidéos
     social_panel:
       discussions:
-        currently_subscribed: Vous êtes actuellement abonné·e pour recevoir une notification lorsque quelqu'un publiera le premier message.
+        currently_subscribed: Vous êtes abonné·e pour recevoir une notification lorsque quelqu'un publiera le premier message.
         no_discussions: Il n'y a aucune conversation pour %{item_title}. Votre contribution est la bienvenue !
         unsubscribe_me: Cliquez ici pour vous désabonner.
         want_to_be_notified: Souhaitez-vous être prévenu·e lorsque quelqu'un publiera le premier message ?
-        yes_notify_me: Cliquez ici pour être averti·e !
+        yes_notify_me: Si oui, cliquez ici.
       reviews:
         a_review_by: Une critique de %{username}
         by: Rédigée par %{username} le %{date}
@@ -3325,13 +3325,13 @@ fr-FR:
       buy: à la vente
       flatrate: regarder en streaming avec abonnement
       free: regarder gratuitement
-      rent: 'à la location '
+      rent: la location
       sentence: "%{title} est actuellement disponible à %{available_types} en %{country}.<br>"
     available_snippet:
       flatrate: Disponible en streaming
-      rent_or_buy: Disponible à la location ou à l'achat
+      rent_or_buy: Disponible à la location ou à la vente
       summary_sentence: "%{available_snippet} sur %{service_name}"
-    description: 'JustWatch permet de savoir où regarder légalement en ligne vos films favoris et vos séries favorites.<br>Visitez {justwatch_link} pour plus d''informations.<br>Utilisez le sélecteur de pays ci-dessous pour affiner vos recherches.<br>Glossaire : SD = définition standard, HD = haute définition, 4K = ultra haute définition.<br>L''équipe de TMDb vous souhaite un bon visionnage.'
+    description: "{justwatch_link} permet de savoir où regarder en ligne légalement vos films favoris et vos séries favorites.<br>Glossaire : SD = définition standard, HD = haute définition, 4K = ultra haute définition.<br>L'équipe de TMDb vous souhaite un bon visionnage."
     filters:
       4k: 4K
       best_price: Meilleur prix
