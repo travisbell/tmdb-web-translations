@@ -20,7 +20,7 @@ id-ID:
   Accept: Terima
   Accept API Terms: Terima Ketentuan API
   Account: Akun
-  Account Filtering:
+  Account Filtering: Penyaringan Akun
   Add Alternative Name: Tambahkan Nama Lain
   Add Alternative Title: Tambahkan Judul Lain
   Add Backdrop: Tambahkan Gambar Latar
@@ -535,14 +535,14 @@ id-ID:
         tv: TV
       page_title:
         page_owner: Aktivitas terbaru
-        public:
+        public: Aktivitas Terakhir %{username}
       table:
         action: Aksi
         edit: Ubah
         key: Kunci
         language_abbreviation: Bahasa
-    average_movie_score:
-    average_tv_score:
+    average_movie_score: Rata-rata Penilaian Film
+    average_tv_score: Rata-rata Penilaian TV
     discussions:
       my_active_boards:
       my_discussions: Diskusi Saya
@@ -553,29 +553,33 @@ id-ID:
     events:
       all: Semua
       emails:
-        emails:
+        emails: Surel
         filters:
           status:
             Bounce:
             Complaint: Komplain
             Delivery: Terkirim
-            Unsubscribed:
+            Unsubscribed: Berhenti berlangganan
             status:
         number_of_items:
+          one: "%{count} Surel"
+          other: "%{count} Surel"
       events:
       notifications:
         filters:
           type:
             Discussion: Diskusi
-            General:
+            General: Umum
             List Import:
-            Mention:
-            Messages:
+            Mention: Sebut
+            Messages: Pesan
             type:
-        notifications:
+        notifications: Pemberitahuan
         number_of_items:
+          one: "%{count} Pemberitahuan"
+          other: "%{count} Pemberitahuan"
       page_title:
-        recent_events:
+        recent_events: Peristiwa Terkini
       recent: Terbaru
     export:
       csv_explanation:
@@ -590,12 +594,12 @@ id-ID:
         public:
     filter_by: 'Urut berdasarkan:'
     filters:
-      air_date:
-      date_added:
+      air_date: Tanggal Tayang
+      date_added: Ditambahkan
       date_rated: Tanggal Ditambahkan
-      first_air_date:
+      first_air_date: Tayang Perdana
       my_rating: 'Nilai Saya:'
-      popularity:
+      popularity: Popularitas
       rating: Nilai
       release_date: Tanggal Rilis
       score: Nilai
@@ -604,24 +608,24 @@ id-ID:
       create_list: Buat daftar
       last_updated: Diperbaharui
       my_lists:
-        logged_in:
-        public:
+        logged_in: Daftar Saya
+        public: Daftar %{username}
       no_lists:
-        logged_in:
-        public:
+        logged_in: Kamu belum membuat daftar apapun.
+        public: "%{username} tidak memiliki daftar publik yang dibagikan."
       page_title:
         page_owner:
         public:
-    member_since:
+    member_since: Anggota sejak %{date}
     navigation:
       discussions: Diskusi
       favorites: Paling Disuka
       lists: Daftar
-      overview:
+      overview: Tinjauan
       ratings: Rating
       ratings_reviews:
       recommendations: Rekomendasi
-      reviews:
+      reviews: Ulasan
       watchlist:
     order:
     overview:
@@ -640,7 +644,7 @@ id-ID:
       rating_overview:
       recent_activity:
       recent_discussions:
-      total_edits:
+      total_edits: Jumlah Suntingan
       total_ratings:
       upcoming_watchlist:
     page_title:
@@ -658,15 +662,15 @@ id-ID:
         public:
       ratings_by_year:
     recommendations:
-      my_recommendations:
-      no_recommendations:
-      no_recommendations_helper:
-      page_title:
+      my_recommendations: Rekomendasi Saya
+      no_recommendations: Kami tidak memiliki cukup data untuk menyarankan rekomendasi apapun.
+      no_recommendations_helper: Coba tambahkan beberapa favorit lagi (lebih banyak lebih baik) dan kembali ke halaman ini untuk melihat hasilnya.
+      page_title: Rekomendasi
     sort_options:
       asc:
       desc:
     tips:
-      import_imdb_ratings:
+      import_imdb_ratings: 'Anda bisa '
       tip:
     watchlist:
       my_watchlist:
@@ -724,17 +728,17 @@ id-ID:
     tv_series_status:
   average edits per day: Perhitungan suntingan per hari
   back_options:
-    back:
-    episode:
+    back: Kembali
+    episode: Kembali ke episode
     episode_groups:
-    episode_list:
-    home:
+    episode_list: Kembali ke daftar episode
+    home: Kembali ke beranda
     main:
     named_episode_group:
-    season:
-    season_list:
-    to_tmdb:
-    top:
+    season: Kembali ke musim
+    season_list: Kembali ke daftar musim
+    to_tmdb: Kembali ke TMDb
+    top: Kembali ke atas
   certifications:
     meaning:
     movies:
@@ -1331,37 +1335,37 @@ id-ID:
     contribution_bible:
     featured_articles:
     general:
-      general:
+      general: Umum
       general_bible:
     image:
-      image:
+      image: Gambar
       image_bible:
     movie:
-      movie:
+      movie: Film
       movie_bible:
       tall_bible:
         bottom:
-        top:
+        top: Film
     new_content:
-      new_content:
+      new_content: Konten Baru
       new_content_bible:
-    note:
+    note: Catatan
     people:
       people:
       people_bible:
       tall_bible:
         bottom:
         top:
-    pro_tip:
+    pro_tip: Saran
     search:
-      placeholder_1:
+      placeholder_1: Butuh bantuan?
     tv:
       tall_bible:
         bottom:
-        top:
-      tv:
+        top: TV
+      tv: TV
       tv_bible:
-    welcome_1:
+    welcome_1: Selamat Datang di
     welcome_2:
   cookie_popup:
     message:
@@ -3429,25 +3433,25 @@ id-ID:
         update_avatar:
         update_gravatar:
         updated:
-        upload_avatar:
+        upload_avatar: Unggah
         upload_own:
         upload_window_tip:
         use_gravatar:
       background:
-        background_image:
+        background_image: Gambar Latar
         confirm_remove:
-        remove_background:
+        remove_background: Hapus Gambar Latar?
         set_image:
-      change_password:
-      edit_profile:
+      change_password: Ubah Kata Sandi
+      edit_profile: Sunting Profil
       email:
-        invalid_dialog_title:
-        reset_button:
+        invalid_dialog_title: Atur ulang Surel
+        reset_button: Atur ulang dan kirimkan?
         reset_invalid_email_dialog_text:
         reset_password_invalid_email_dialog_text:
         sending_problems:
         what_is_your_email:
-      page_title:
+      page_title: Profil Saya
       reset_password_dialog_text:
       reset_password_dialog_text2:
     sessions:

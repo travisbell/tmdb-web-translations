@@ -8,7 +8,7 @@ sr-RS:
   API Libraries: API библиотеке
   API Overview:
   API Read Access Token: API Токен за приступ читању
-  API Sessions:
+  API Sessions: АПИ сесије
   API Stats: API Статистика
   API Status Codes:
   API Terms: API услови
@@ -37,7 +37,7 @@ sr-RS:
   Add New TV Show: Додај нову серију
   Add Poster: Додај постер
   Add Profile: Додај профилну фотографију
-  Add Season Regular: Додај регуларну сезону
+  Add Season Regular: Додај стандардну поставу сезоне
   Add To Every Season?: Додај свакој сезони?
   Add Video: Додај видео
   Add YouTube Video: Додај Youtube видео
@@ -289,11 +289,11 @@ sr-RS:
   Number of edits in the past: Број уређивања у претходних
   Offensive or Spam: Увредљиво или нежељено
   Offical Site: Званични сајт
-  Offline Databases:
+  Offline Databases: Офлајн базе података
   Origin Country: Земља порекла
   Original Air Date: Изворни датум приказивања
-  Original Ascending:
-  Original Descending:
+  Original Ascending: Оригинал Узлазно
+  Original Descending: Оригинал силазно
   Original Language: Изворни језик
   Original Movie Language: Изворни језик филма
   Original Name: Изворно име
@@ -332,7 +332,7 @@ sr-RS:
   Primary Facts: Главне чињенице
   Primary?: Примарна?
   Privacy Policy: Правила приватности
-  Production Code:
+  Production Code: Код продукције
   Production Companies: Продукцијске компаније
   Production Countries: Земље продукције
   Production Information: Информације продукције
@@ -466,7 +466,7 @@ sr-RS:
   Translations: Преводи
   Type: Врста
   Type of Problem: Врста проблема
-  Type of Use:
+  Type of Use: Врста употребе
   URL: URL
   Upcoming Movies: Предстојећи филмови
   Update: Ажурирај
@@ -561,7 +561,7 @@ sr-RS:
           few: "%{count} Поруке"
           many: "%{count} Порука"
           one: "%{count} Порука"
-          other: "%{count} Порука"
+          other: "%{count} Поруке"
       events: Догађаји
       notifications:
         filters:
@@ -1731,7 +1731,10 @@ sr-RS:
       message: Успешно сте се одјавили.
       title: Одјављени сте!
     password_reset:
-      message:
+      message: |-
+        Упутства за ресетовање су послата на ову адресу е-поште ако припада регистрованом налогу на ТМДб-у.
+
+        Обавезно проверите и своју пошту и директоријум за нежељену пошту!
       title: Заборављена лозинка
     password_reset_email_required:
       message: Молимо унесите валидну емаил адресу.
@@ -2758,15 +2761,15 @@ sr-RS:
       open_profile: отворите мени профила
       open_shortcut_window: отвори прозор пречице на тастатури
       open_translation_selector: отвори селектор превода
-      previous_episode:
-      previous_page:
-      previous_season:
+      previous_episode: "(лева стрелица) иди на претходну епизоду"
+      previous_page: "(лева стрелица) претходна страница"
+      previous_season: "(лева стрелица) иди на претходну сезону"
       reply_to_discussion: одговор на дискусију
       save_form: пошаљи образац
       submit_message: пошаљи поруку
-      toggle_close:
-      toggle_private:
-      toggle_watching:
+      toggle_close: мења отвори/затвори
+      toggle_private: мења јавно/приватно
+      toggle_watching: мења статус гледања
     groups:
       discussion_pages: На страницама за дискусију
       edit_pages: На свим страницама за уређивање
@@ -2814,7 +2817,7 @@ sr-RS:
   login_to_create: Не можеш да нађеш филм или серију? Пријави се да додаш.
   login_to_edit: Пријави се да направиш измену
   media:
-    adult:
+    adult: За одрасле
     changes:
       filters:
         clear: Очисти
@@ -2840,11 +2843,11 @@ sr-RS:
     edit:
       cast_updated: Глумачка екипа ажурирана
       genres_updated: Жанрови су ажурирани
-      lock_all_cast_crew_description:
+      lock_all_cast_crew_description: Кликом на „да“ закључаћете да убудуће редовни корисници неће моћи да уређују постојеће записе. Модератори ће и даље моћи да врше измене.
       lock_all_fields: Закључај сва поља
       lock_all_images: Закључај све слике
-      lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_cast: Закључај постојеће улоге
+      lock_existing_crew: Закључај постојећу екипу
       page_title: Измени %{name}
       placeholders:
         country: Изабери земљу...
@@ -2859,7 +2862,7 @@ sr-RS:
         production_companies: Претражи за продукцијску компанију...
       success_fields_locked: Поља су закључана.
       tooltips:
-        adult:
+        adult: Уопштено говорећи, ова застава се користи само за порнографију. Молимо погледајте <a href="/bible/movie#59f73b759251416e71000004">библију доприноса</a> за више информација.
         bible: За помоћ при уређивању информација на ТМДб, кликните овај „?“ да прочитате библију доприноса.
         homepage: Само званичне странице. Странице обожаваоца нису дозвољене.
         logo_format: Подржани су СВГ и ПНГ. СВГ-ови су пожељни јер су независни од резолуције.
@@ -2877,14 +2880,14 @@ sr-RS:
       tv_page_title: "%{name} ТВ серије"
     images:
       format: Формат
-      no_backdrop_stills:
-      no_backdrops:
-      no_logos:
-      no_posters:
+      no_backdrop_stills: Овом уносу нису додате позадине.
+      no_backdrops: Овом уносу нису додате позадине.
+      no_logos: Овом уносу није додан ниједан лого.
+      no_posters: Овом уносу није додан ниједан постер.
       no_profiles: У овај унос нема доданих профила.
       primary: Примарна?
       types:
-        backdrop_stills:
+        backdrop_stills: Позадине
     keyword:
       movie_page_title: '"%{name}" филмови'
       tv_page_title: '"%{name}" ТВ емисије'
@@ -3045,11 +3048,11 @@ sr-RS:
         create_episode: Додај епизоду
         episodes:
           no_records: Епизоде нису додате.
-        runtime_varies_check:
+        runtime_varies_check: Дужина трајања у великој мери варира од времена извођења током сезоне. Да ли сте унели тачну дужину трајања?
         screened_confirm: Ако је ова сезона приказана на филмском фестивалу или у позоришту, кликните "Да" за наставак.
         screened_label: Да ли је ова сезона приказана у биоскопу?
-      season_cast:
-      season_crew:
+      season_cast: Улоге у сезони
+      season_crew: Екипа сезоне
       season_selector:
         current_season: Тренутна сезона
         last_season: Последња сезона
@@ -3059,13 +3062,13 @@ sr-RS:
       create_season: Додај сезону
       edit:
         adult:
-          adult_show:
+          adult_show: ТВ емисија за одрасле?
         alternative_names:
           no_records: Нема додатих алтернативних имена.
         content_ratings:
-          no_records:
+          no_records: Није додата оцена садржаја.
         creator:
-          no_records:
+          no_records: Ниједан аутор није додат.
         crew:
           no_season: Нема сезона! Сезона је потребна како би могли да додате чланове екипе.
         episode_groups:
@@ -3086,7 +3089,7 @@ sr-RS:
               one: "%{count} епизода додата!"
               other: "%{count} епизода додато!"
           name: Име групе
-          no_records:
+          no_records: Није додата ниједна група епизода.
           type: Врста
           types:
             '1': Оригинални датум емитовања
@@ -3097,16 +3100,16 @@ sr-RS:
             '6': Продукција
             '7': ТВ
         networks:
-          no_records:
+          no_records: Није додата ниједна мрежа.
           none_found: Нису нађене тражене мреже. Желите ли да их додате?
         regular_cast:
-          no_records:
-          no_season:
+          no_records: Није додат ниједан редовни члан екипе.
+          no_season: Не постоји ни једна сезона! За додавање редовних чланова глумачке екипе потребна је сезона.
         runtime:
           add_it: Додати ново време трајања?
           enter_value: Додај вредност у минутима
         seasons:
-          no_records:
+          no_records: Није додата сезона.
       episode_groups:
         groups:
           count:
@@ -3121,7 +3124,7 @@ sr-RS:
         one: Мрежа
         other: Мрежа
       series_cast: Глумачка екипа серије
-      series_crew:
+      series_crew: Екипа сезоне
       statuses:
         Canceled: Отказан-а
         Ended: Завршена
@@ -3150,8 +3153,8 @@ sr-RS:
       play_teaser: Пусти рекламу
       play_trailer: Пусти трејлер
       published: Објављено
-      published_at:
-      restricted_regions:
+      published_at: Објављено у
+      restricted_regions: Ограничени региони
       tags: Ознаке
   message_templates:
     help_translate:
@@ -3177,7 +3180,7 @@ sr-RS:
       few: "%{count} поруке"
       many: "%{count} порука"
       one: "%{count} порука"
-      other: "%{count} порука"
+      other: "%{count} поруке"
     options:
       admin: Админ
       archive: Архива
@@ -3185,9 +3188,9 @@ sr-RS:
       viewed_at: Прегледано %{time_ago}
     placeholders:
       no_conversation_selected:
-        create:
-        no_conversations:
-        view:
+        create: Такође можете да направите нову конверзацију тако што ћете <a href="%{link}">кликнути овде</a>.
+        no_conversations: Немате отворених разговора, баш сте срећни!
+        view: Да бисте видели конверзацију, изаберите једну лево.
       no_user_found: Корисник није нађен.
       reply: Укуцај поруку...
       subject: О чему је ово?
@@ -3198,8 +3201,8 @@ sr-RS:
       my_archive: Моја архива
       my_inbox: Моје сандуче
       new_message: Нова порука
-      support_archive:
-      support_inbox:
+      support_archive: Архива подршке
+      support_inbox: Сандуче подршке
     translate: Преведи
   month:
     few: месеци
@@ -3357,18 +3360,18 @@ sr-RS:
       flatrate:
       free: гледај бесплатно
       rent: изнајми
-      sentence:
+      sentence: "%{title} је тренутно доступан као %{available_types} у %{country}."
     available_snippet:
       flatrate:
       rent_or_buy: Доступно је за рентирање или куповину
-      summary_sentence:
+      summary_sentence: "\t\n%{available_snippet} на %{service_name}\n"
     description:
     filters:
       4k: 4K
       best_price: Најбоља цена
       bluray: Blu-ray
       dvd: DVD
-      dvd_bluray:
+      dvd_bluray: DVD/Blu-ray
       hd: HD
       sd: SD
     monetization_types:
@@ -3378,12 +3381,12 @@ sr-RS:
       free: Бесплатно
       rent: Изнајми
     no_offers:
-      4k:
-      bluray:
-      dvd:
-      hd:
-      none:
-      sd:
+      4k: Није пронађена ниједна понуда за 4К.
+      bluray: Није пронађена ниједна понуда за Blu-ray.
+      dvd: Није пронађена ниједна понуда за DVD.
+      hd: Није пронађена ниједна HD понуда.
+      none: Нема понуда за %{title}.
+      sd: Није пронађена ниједна SD понуда.
     seasons:
       few: "%{count} сезоне"
       many: "%{count} сезона"
@@ -3392,11 +3395,11 @@ sr-RS:
     view_offers: Погледати  понуде
     watch_now: Гледајте га сада
     watch_on:
-      ads:
-      buy:
-      flatrate:
-      free:
-      rent:
+      ads: Погледајте %{name} на %{provider_name}
+      buy: Купите %{name} на %{provider_name}
+      flatrate: Погледајте %{name} на %{provider_name}
+      free: Погледајте %{name} на %{provider_name}
+      rent: Изнајмите %{name} на %{provider_name}
   pagination:
     currently_on: Тренутно на страници %{current_page} од %{total_pages}
     last_page: Последња страница
@@ -3440,7 +3443,7 @@ sr-RS:
     trending_searches: Тренд у претрагама
     watchlist_movie: Тражи филмове на листи за погледати...
     watchlist_tv: Тражи серије на листи за погледати...
-  search_tip_1: 'Напомена: Можеш да користиш ''y:'' филтер како би сузио-ла резултате по години. Пример: ''ратови звезда y:1977''.'
+  search_tip_1: 'Напомена: Можете да користите ''y:'' филтер како би сузили резултате по години. Пример: ''ратови звезда y:1977''.'
   season_number_name: Сезона %{season_number}
   season_overview:
     already_aired: Сезона %{season_number} серије %{show_name} премијерно је приказана дана %{date}.
@@ -3448,10 +3451,10 @@ sr-RS:
   settings:
     account:
       account_settings: Подешавање налога
-      auto_detect:
+      auto_detect: Аутоматско откривање?
       page_title: Моја подешавања
       resend_verification_email_text: Нисте добили поруку за верификацију налога? Унесите ваш емаил доле како би смо је поново послали.
-      reset_password_text:
+      reset_password_text: Унесите адресу е-поште коју сте користили за регистрацију за ТМДб рачун и ми ћемо вам послати кораке потребне за ресетовање лозинке.
     api:
       api:
       create_page_title:
@@ -3461,8 +3464,8 @@ sr-RS:
         create: Направи
         details: Детаљи
         directory: Директоријум
-        overview:
-        sessions: Сесија
+        overview: Преглед
+        sessions: Сесије
         stats: Статистика
       page_title:
       session_page_title:
@@ -3485,21 +3488,21 @@ sr-RS:
     import_list:
       import_button: Увези
       import_list: Увези листу
-      import_status:
+      import_status: Статус увоза
       navigation:
         import: Увези
         previous: Претходни увози
       notification:
         finished_import: Завршен увоз!
         started_import: Увоз покренут...
-      page_title:
+      page_title: Увези листу
       previous:
         date: Датум
         imported: Увезено
         items: Ставке
         local_list: Локална листа
-        no_imports:
-        page_title:
+        no_imports: Нисте увезли ниједну листу.
+        page_title: Моји претходни увози
         type: Врста
       results:
         complete:
@@ -3508,18 +3511,18 @@ sr-RS:
           item_reasons:
             already_imported: Већ је увезено.
             cant_find_imdb: Нисам могао да нађем IMDb ID.
-            imdb_id_not_in_row:
-            personal_rating_invalid:
-            personal_rating_not_found:
-            row_is_invalid:
+            imdb_id_not_in_row: IMDb ID није пронађен у овом реду.
+            personal_rating_invalid: Ваша лична оцена није исправна (требало би да буде између 0,5 и 10).
+            personal_rating_not_found: У овом реду није пронађена ваша лична оцена.
+            row_is_invalid: Овај ред је неважећи.
             updated_date: Ажурирани датум.
           reason: Разлог? (ако је примењиво)
-          summary:
-        currently_running:
+          summary: Успели смо да увеземо укупно %{imported_count} ставки од %{total_count} (%{imported_percentage}%) ставки које смо открили на вашој извезеној листи.
+        currently_running: Ваш увоз је тренутно покренут. Можете освежити ову страницу да бисте видели да ли је завршен.
         import_results: Резултати увоза
         in_progress:
           import_status: Статус увоза
-          summary:
+          summary: Открили смо укупан број %{total_count} ставки за увоз. Увоз тренутно ради у позадини и бићете аутоматски обавештени када се заврши.
       select_csv: Изабери CSV фајл
       type:
         favorite: Омиљено
@@ -3535,17 +3538,17 @@ sr-RS:
       edit_profile: Ажурирај профил
       import_list: Увези листу
       notification_settings: Подешавање обавештења
-      sessions:
+      sessions: Сесије
       settings: Подешавања
       sharing_settings: Подешавање дељења
       social_settings: Друштвена подешавања
       streaming_services: Сервиси за стримовање
     notifications:
-      api_updates:
-      email_new_releases_watchlist:
-      new_replies_to_threads_created:
-      new_replies_to_threads_watching:
-      news_updates:
+      api_updates: Пошаљите ми е-поруку о променама и допунама АПИ-ја
+      email_new_releases_watchlist: Пошаљите ми поруку о новим издањима на мојој листи праћења?
+      new_replies_to_threads_created: Аутоматски прати нити које креирам или на које одговарам?
+      new_replies_to_threads_watching: Пошаљите ми поруку о новим одговорима за теме које гледам?
+      news_updates: Пошаљите ми е-поруку о вестима и новостима о производима
       notifications: Обавештења
       page_title: Моја обавештења
     profile:
@@ -3562,63 +3565,69 @@ sr-RS:
         updated: Аватар ажуриран!
         upload_avatar: Ажурирај Аватар
         upload_own: Додај свој?
-        upload_window_tip:
+        upload_window_tip: Користите доњи бирач датотека да бисте отпремили свој прилагођени аватар. Аутоматски ћемо прилагодити вашу слику у квадрат ако то већ није.
         use_gravatar: Користи Граватар?
       background:
         background_image: Позадинска слика
-        confirm_remove:
+        confirm_remove: Потврдите да желите да уклоните позадинску слику. Да ли сте сигурни?
         remove_background: Уклоните слику позадине?
         set_image: Подесите слику позадине?
       change_password: Промени лозинку
       edit_profile: Ажурирај профил
       email:
-        invalid_dialog_title:
-        reset_button:
-        reset_invalid_email_dialog_text:
-        reset_password_invalid_email_dialog_text:
-        sending_problems:
-        what_is_your_email:
+        invalid_dialog_title: Ресетовати е-пошту?
+        reset_button: Ресетовати и послати?
+        reset_invalid_email_dialog_text: |-
+          <p>Нажалост, раније смо имали проблема са слањем ваше е-поште. Грешке можете погледати <a href="/u/%{username_url}/events/emails?status=2,3">овде</a>.</p>
+
+          <p>Ако су проблеми са вашом адресом е-поште отклоњени или су били само привремени, кликните на дугме за ресетовање у наставку и покушаћемо да вам пошаљемо још један е-маил на верификацију.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Да бисмо променили лозинку, потребна нам је важећа адреса е-поште. Нажалост, у прошлости смо имали проблема са слањем ваше е-поште. Грешке можете погледати <a href="/u/%{username_url}/events/emails?status=2,3">овде</a>.</p>
+
+          <p>Ако су проблеми са вашом адресом е-поште отклоњени или су били само привремени, кликните на дугме за ресетовање у наставку и покушаћемо да вам пошаљемо другу е-пошту.</p>
+        sending_problems: Имали смо проблема са испоруком порука на вашу адресу е-поште. Пре него што наставимо, морамо да се уверимо да су нам е-поруке успешно испоручене.
+        what_is_your_email: Која је ваша адреса е-поште?
       page_title: Мој профил
       reset_password_dialog_text: Потврђујући овај захтев, биће вам послата порука са инструкцијама како ресетовати лозинку. Јесте ли сигурни да желите да урадите ово?
-      reset_password_dialog_text2:
+      reset_password_dialog_text2: "<strong>Напомена:</strong> ресетовањем лозинке одјавићете се са свих тренутних сесија."
     sessions:
       api:
         connected_apps: Повезане апликације
-        listed_below_explanation:
-        no_apps:
-        page_title:
+        listed_below_explanation: Испод су наведене независне апликације за које сте овластили да у ваше име пишу податке. Ова овлашћења можете опозвати у било ком тренутку.
+        no_apps: Нисте повезали ниједну апликацију са својим налогом.
+        page_title: Моје повезане апликације
         table:
           action: Акције
-          application_name: Име апликације
+          application_name: Назив апликације
           date_authorised: Датум ауторизације
       navigation:
-        api:
-        web:
-      page_title:
-      sessions:
+        api: АПИ
+        web: Веб
+      page_title: Моје сесије
+      sessions: Сесије
       web:
-        current_session:
+        current_session: тренутна сесија
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: Да, обриши!
+          dialog_text: Јесте ли сигурни да желите да обришете ову сесију? Уколико је изабрана сесија ваша тренутна сесија, ова акција ће вас одјавити.
+          dialog_title: Обрисати сесију?
         table:
-          date:
+          date: Датум
           device: Уређај
-          ip:
+          ip: IP адреса
     sharing:
       favorite_list:
         favorite_settings: Подешавање листе омиљених
         share_on_twitter: Подели нове омиљене на Твитеру?
         share_publicly: Дели ову листу јавно?
-      page_title:
+      page_title: Моја подешавања дељења
       rated_list:
         rated_settings:
         share_publicly: Дели ову листу јавно?
       sharing_settings: Подешавања дељења
       watchlist:
         remove_when_rated: Аутоматски уклони ставке када буду оцењене?
-        share_publicly:
+        share_publicly: Желите ли јавно да делите ову листу?
         watchlist_settings: Подешавање листе за погледати
     social:
       connected_table:
@@ -3627,27 +3636,27 @@ sr-RS:
         connect: Повежи
         connected_to: Повезано са
         info: Информације
-        reload_text:
+        reload_text: Поново учитајте ову страницу након што сте ауторизовали свој налог!
         service: Сервис
-      favorite_message_hint:
+      favorite_message_hint: Када означавате ставку као омиљену и делите је на Твитеру или Фејсбуку...
       message_settings: Подешавање порука
-      page_title:
-      sharing_message_hint:
+      page_title: Моја друштвена подешавања
+      sharing_message_hint: Када делите ставку на Твитеру или Фејсбуку...
       social_settings: Друштвена подешавања
       supported_template_values:
     streaming_services:
-      page_title:
-      streaming_services:
+      page_title: My Streaming Services
+      streaming_services: Услуге стримовања
   sign_up:
     benefits:
       benefits_to_being_member: Бенефити чланства
-      build_custom_lists:
-      build_watchlist:
+      build_custom_lists: Направите прилагођене мешовите листе (филмови и серије)
+      build_watchlist: Направите и одржавајте личну листу за гледање
       contribute: Допринеси и унапреди информације у нашој бази података
       discussions: Учествуј у дискусијама о филмовима и серијама
-      find_something_to_watch:
-      keep_track:
-      log_movies:
+      find_something_to_watch: Пронађите нешто за гледање на претплаћеним услугама стриминга
+      keep_track: Пратите своје омиљене филмове и ТВ емисије и добијајте препоруке од њих
+      log_movies: Забележите филмове и ТВ емисије које сте гледали
     by_clicking_agree_to_terms: Потврдом на доње дугме „Региструј се“, потврђујем са сам прочитао и да се слажем са условима коришћења и правилима приватности.
     javascript_required: JavaScript је потребан за наставак.
     sign_up_for_account: Региструј налог
@@ -3670,7 +3679,7 @@ sr-RS:
       words_connector: ", "
   suspended:
     explanation_1: Нажалост, овај корисник је суспендован.
-    go_to_inbox:
+    go_to_inbox: Отвори сандуче
     title: Овај корисник је суспендован
     your_account:
       explanation_1: Уколико желите да дискутујете о разлозима своје суспензије или како можете да повратите приступ свом налогу, молимо посетите одељак за размену поруке кликом на доњи линк.
@@ -3698,8 +3707,8 @@ sr-RS:
     filters:
       language: Језик
       sort:
-        published_at_asc:
-        published_at_desc:
+        published_at_asc: Објављено у (најстарије прво)
+        published_at_desc: Објављено у (најновије прво)
         sort: Сортирај
       type: Врста
     number_of_videos:

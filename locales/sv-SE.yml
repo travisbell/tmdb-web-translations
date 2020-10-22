@@ -27,7 +27,7 @@ sv-SE:
   Add Content Rating: Lägg till innehållsklassificering
   Add Creator: Lägg till skapare
   Add Data & Content: Lägg till data & innehåll
-  Add Item: Lägg till föremål
+  Add Item: Lägg till objekt
   Add Missing Cast & Crew: Lägg till saknade skådespelare & medarbetare
   Add Network: Lägg till tv-bolag
   Add New Episode: Lägg till avsnitt
@@ -332,7 +332,7 @@ sv-SE:
   Preview: Förhandstitt
   Primary Color: Primär färg
   Primary Facts: Huvudfakta
-  Primary?: Pimär?
+  Primary?: Primär?
   Privacy Policy: Sekretesspolicy
   Production Code: Produktionskod
   Production Companies: Produktionsbolag
@@ -676,11 +676,11 @@ sv-SE:
         public: "%{username}s bevakningslista"
       next_month: Nästa månad
       no_upcoming_movies:
-        one: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
-        other: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
+        one: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
+        other: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
       no_upcoming_tv_shows:
-        one: Det finns inga kommande tv-serier på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
-        other: Det finns inga kommande tv-serier på din bevakningslista. Det finns däremot %{count} föremål i din bevakningslista.
+        one: Det finns inga kommande tv-serier på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
+        other: Det finns inga kommande tv-serier på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
       page_title:
         page_owner: Min bevakningslista
         public: "%{username}s bevakningslista"
@@ -1292,7 +1292,7 @@ sv-SE:
   collection_includes: Innehåller %{movie_titles}
   confirm_delete: Är du säker på att du vill ta bort den här uppgiften?
   content_score:
-    helper_tooltip: Innehållsbetyget är ett sätt att hjälpa dig förstå hur komplett data är för ett föremål i databasen.
+    helper_tooltip: Innehållsbetyget är ett sätt att hjälpa dig förstå hur komplett data är för ett objekt i databasen.
     scale:
       '0': Måste börja någonstans...
       '1': Det är åtminstone en början.
@@ -1428,7 +1428,7 @@ sv-SE:
     one: dag
     other: "%{count} dagar"
   deleted_content:
-    entry_deleted: Föremål borttaget
+    entry_deleted: Post borttagen
     reasons:
       '1':
         message: |-
@@ -1442,7 +1442,7 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Föremålet du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det uppfyller inte våra innehållsriktlinjer (amatör, etc...)
@@ -1450,7 +1450,7 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Föremålet du skapade med titeln "%{title}" har blivit borttagen. Denna titel finns redan som en tv-serie och räknas inte som en giltig film. Du kan läsa mer om våra innehållsriktlinjer [här](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel finns redan som en tv-serie och räknas inte som en giltig film. Du kan läsa mer om våra innehållsriktlinjer [här](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det är en tv-serie
@@ -1458,7 +1458,7 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Föremålet du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det är inte en riktig titel
@@ -1466,11 +1466,11 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Föremålet du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDb. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det är spam
-    why_deleting: Anledning till att du tar bort detta föremål?
+    why_deleting: Varför tar du bort denna post?
   department_credits_count:
     one: "%{department} (%{count} insats)"
     other: "%{department} (%{count} insatser)"
@@ -1508,7 +1508,7 @@ sv-SE:
         keywords: Nyckelord
       language:
         language: Språk
-        tooltip: Filtrera föremål baserat på deras originalspråk.
+        tooltip: Filtrera objekt baserat på deras originalspråk.
       minimum_user_votes: Minsta antal användarröster
       network:
         filter_by_network: Filtrera efter tv-bolag...
@@ -1526,7 +1526,7 @@ sv-SE:
         movies_have_seen: Filmer jag har sett
         movies_havent_seen: Filmer jag inte har sett
         show_me: Visa mig
-        tooltip: Logga in för att kunna filtrera föremål du redan har sett.
+        tooltip: Logga in för att kunna filtrera objekt du redan har sett.
         tv_shows_have_seen: Tv-serier jag har sett
         tv_shows_havent_seen: Tv-serier jag inte har sett
       sort:
@@ -1542,7 +1542,7 @@ sv-SE:
         where_to_watch: Strömningstjänster
       years:
         years: År
-    no_items: Inga föremål hittades som matchade din förfrågan.
+    no_items: Inga objekt hittades som matchade din förfrågan.
     search: Sök
     tooltips:
       not_member: Inte medlem?
@@ -1599,7 +1599,7 @@ sv-SE:
     new_discussion:
       community_guidelines: Gemenskapsriktlinjer
       discussion_category: Kategori
-      for_item: För Föremål
+      for_item: För objekt
       message: Meddelande
       new_discussion: Ny Diskussion
       subject: 'Ämne '
@@ -1655,7 +1655,7 @@ sv-SE:
     your_account: Ditt Konto
   dont_fallback: Inget alternativt språk
   edit_list:
-    add_edit_items: Lägg till/Redigera föremål
+    add_edit_items: Lägg till/redigera objekt
     choose_image: Välj Bild
     delete_list: Radera Lista
     edit_list: Redigera Lista
@@ -1689,7 +1689,7 @@ sv-SE:
       invalid: är ogiltig
       required: måste finnas
       series_status_invalid_to_create_season: är markerad som antingen "Avbruten" eller "Avslutad" och därför kan inte nya säsonger skapas.
-      suspected_tv_series: misstänks vara en befintlig tv-serie eller miniserie, du kan fortsätta att lägga till detta föremål om du är säker, men om det existerar i vår tv-sektion så kommer det att tas bort.
+      suspected_tv_series: misstänks vara en befintlig tv-serie eller miniserie, du kan fortsätta att lägga till detta objekt om du är säker, men om det existerar i vår tv-sektion så kommer det att tas bort.
       taken: har redan tagits
     movie:
       duplicate_cast: Denna personen är redan tillagd som en skådespelare.
@@ -1792,8 +1792,8 @@ sv-SE:
       tip: Om din webbläsare stödjer det, så kan du dra och släppa en bild på området under. Annars, klicka bara på 'Välj filer...' knappen och välj en bild från din dator.
   invalid_aspect_ratio: Det här bildförhållandet är felaktigt.
   item_count:
-    one: "%{count} föremål"
-    other: "%{count} föremål"
+    one: "%{count} objekt"
+    other: "%{count} objekt"
   jobs:
     '"A" Camera Operator':
     '"B" Camera Operator':
@@ -2766,9 +2766,9 @@ sv-SE:
     average_rating: Medelbetyg
     image_selected: Vald
     items_on_list:
-      many: föremål på denna lista
-      one: föremål på denna lista
-      other: föremål på denna lista
+      many: objekt på denna lista
+      one: objekt på denna lista
+      other: objekt på denna lista
     private: Privat
     public: Offentlig
     select_this_image: Välj denna bild
@@ -2777,8 +2777,8 @@ sv-SE:
   list_messages:
     comment_updated: Kommentar uppdaterad!
     image_saved: Bild sparad!
-    item_added: Föremål tillagt!
-    item_already_added: Detta föremål finns redan på listan.
+    item_added: Objekt tillagt!
+    item_already_added: Detta objekt finns redan på listan.
     item_removed: 'Föremål borttaget. '
   list_sort:
     original_order: Ursprunglig ordning
