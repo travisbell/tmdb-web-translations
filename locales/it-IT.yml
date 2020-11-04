@@ -6,11 +6,11 @@ it-IT:
   API Details: Dettagli API
   API Key: Chiave API
   API Libraries: Librerie API
-  API Overview:
+  API Overview: Panoramica API
   API Read Access Token: API Read Access Token
-  API Sessions:
+  API Sessions: Sessioni API
   API Stats: Statistiche API
-  API Status Codes:
+  API Status Codes: Stato dei codici API
   API Terms: Termini API
   API Terms of Use: Termini d'uso delle API
   API Updates: Aggiornamenti API
@@ -160,7 +160,7 @@ it-IT:
   Email: Email
   Email Address: Indirizzo Email
   Email Content: Contenuto dell'Email
-  Embed:
+  Embed: Incorpora
   Episode Images: Immagini Episodio
   Episode Number: Numero Episodio
   Episode Overview: Descrizione Episodio
@@ -504,7 +504,7 @@ it-IT:
   account_drop_down:
     discussions: Discussioni
     edit_profile: Modifica profilo
-    join_tmdb:
+    join_tmdb: Accedi a TMDb
     lists: Liste
     login: Accedi
     logout: Disconnetti
@@ -725,7 +725,7 @@ it-IT:
     title: Titolo
     to_accounts_ids: A
     translated_overview: Panoramica
-    tv_series_status:
+    tv_series_status: Stato delle Serie TV
   average edits per day: media modifiche al giorno
   back_options:
     back: Indietro
@@ -1492,13 +1492,13 @@ it-IT:
     filters:
       air_dates:
         air_dates: Date di trasmissione
-        search_all_episodes:
-        search_first_air_date:
+        search_all_episodes: Cerchi tutti gli episodi?
+        search_first_air_date: Cerchi la prima messa in onda?
       availability:
-        availabilities:
-        search_all_availabilities:
+        availabilities: Disponibilità
+        search_all_availabilities: Cerchi tutte le disponibilità?
       certification:
-        certification:
+        certification: Certificazioni
       filters: Filtri
       genres:
         genres: Generi
@@ -1507,37 +1507,37 @@ it-IT:
       language:
         language: Lingua
         tooltip: Filtra elementi in base alla lingua orginale.
-      minimum_user_votes:
+      minimum_user_votes: Voto minimo degli utenti
       network:
         filter_by_network: Filtra per rete televisiva...
-        network:
-      none_selected:
+        network: Emittente
+      none_selected: Nessun selezionato
       release_dates:
-        from:
-        release_dates:
-        search_all_countries:
-        search_release_dates:
-        to:
-      runtime:
+        from: da
+        release_dates: Date di pubblicazione
+        search_all_countries: Ricerca tutte le nazioni?
+        search_release_dates: Ricerca tutte le pubblicazioni?
+        to: a
+      runtime: Durata
       show_me:
-        everything:
-        movies_have_seen:
-        movies_havent_seen:
-        show_me:
-        tooltip:
-        tv_shows_have_seen:
-        tv_shows_havent_seen:
+        everything: Tutto
+        movies_have_seen: Film che ho visto
+        movies_havent_seen: Film che non ho visto
+        show_me: Mostra
+        tooltip: Accedi per filtrare i titoli che hai visto.
+        tv_shows_have_seen: Serie TV che ho visto
+        tv_shows_havent_seen: Serie TV che non ho visto
       sort:
-        sort_results_by:
+        sort_results_by: Ordina risultati per
       user_score:
-        user_score:
+        user_score: Punteggio utente
       where_to_watch:
         country: Paese
         my_services:
           my_services: I miei servizi
-          restrict:
+          restrict: Restringi ricerche ai servizi che ho sottoscritto?
           restrict_tooltip: Accedi per gestire i tuoi servizi di iscrizione.
-        where_to_watch:
+        where_to_watch: Dove guardare
       years:
         years: Anni
     no_items: Nessun elemento corrisponde alla tua ricerca.
@@ -1601,7 +1601,7 @@ it-IT:
       message: Messaggio
       new_discussion: Nuova discussione
       subject: Soggetto
-    no_activity:
+    no_activity: Non ci sono attività per questa discussione.
     no_discussions: Nessuna discussione
     pagination:
       post_summary:
@@ -1665,9 +1665,9 @@ it-IT:
     sent_verification_email: Abbiamo inviato un'email a %{email_address} per essere verificata. Controlla la tua casella di posta (e la cartella spam) per le istruzioni su come procedere.
     unsubscribe:
       sad_to_go: "%{username}, ci dispiace vederti andare via!"
-      subscription_changed:
+      subscription_changed: Le tue impostazioni di sottoscrizione sono state aggiornate. Puoi modificare le impostazioni di notifica navigando la tua pagina delle<a href="%{account_link}">impostazioni di notifica</a>.
       unsubscribe: Disiscriviti
-      unsubscribed:
+      unsubscribed: Ti sei <strong>annullato</strong> la tua iscrizione. Se è avvenuto per errore puoi iscriverti nuovamente visitando la tua pagina delle<a href="%{account_link}">impostazioni di notifica</a>.
   episode_count:
     one: "%{count} Episodio"
     other: "%{count} Episodi"
@@ -1686,13 +1686,13 @@ it-IT:
       inclusion: deve essere selezionato
       invalid: non è valido
       required: è richiesto
-      series_status_invalid_to_create_season:
+      series_status_invalid_to_create_season: è impostata su 'Annullata' o 'Terminata' quindi una nuova stagione non può essere creata.
       suspected_tv_series: sembra essere una serie TV o miniserie esistente, puoi continuare ad aggiungere questo elemento se sei sicuro, ma se esiste nella nostra sezione TV verrà rimosso
       taken: è già stato preso
     movie:
       duplicate_cast: La persona è già presente come membro del cast.
     tv:
-      create_season_locked:
+      create_season_locked: La creazione di nuove stagioni è stata bloccata per questa serie.
       duplicate_created_by: La persona è già presente come creatore.
       duplicate_crew_member: La persona è già presente come %{job_name}.
       duplicate_episode: Questo episodio è già esistente
@@ -1709,30 +1709,33 @@ it-IT:
     min: Filtra per Data di Rilascio (Min)
   flash:
     email_verified:
-      message:
-      title:
+      message: La tua email è stata verificata correttamente. Adesso puoi accedere.
+      title: Email verificata
     invalid_password_code:
       message: Il codice di ripristino password non è valido.
     logged_out:
-      message:
-      title:
+      message: Ti sei disconnesso correttamente.
+      title: Disconnesso!
     password_reset:
-      message:
-      title:
+      message: |-
+        Le istruzioni di ripristino sono state inviate a questo indirizzo email, a patto che appartiene ad un utente di TMDb.
+
+        Assicurati di controllare sia la posta in arrivo che la cartella spam!
+      title: Reimposta password
     password_reset_email_required:
-      message:
-      title:
+      message: Per favore digita un indirizzo email valido.
+      title: Email richiesta
     resend_verification_email:
-      message:
-      title:
+      message: Assicurati di controllare sia la posta in arrivo che la cartella spam!
+      title: Email di verifica inviata
   homepage:
     community:
       benefits_list:
-        '1':
-        '2':
-        '3':
-        '4':
-        '5':
+        '1': Goditi TMDb senza pubblicità
+        '2': Mantieni la watchlist personale
+        '3': Filtra secondo i tuoi servizi di streaming e trova qualcosa da vedere
+        '4': Tieni traccia dei film e delle serie TV che hai visto
+        '5': Crea liste personalizzate
         '6': Contribuisci e migliora il nostro database
     discussions:
       catch_up_now: Facciamo due chiacchiere
@@ -1742,10 +1745,10 @@ it-IT:
       welcome_1: Benvenuto.
     panels:
       community:
-        join_today:
+        join_today: Accedi oggi
         sign_up: Registrati
       filters:
-        for_rent:
+        for_rent: A noleggio
         in_theaters: Al Cinema
         movies: Films
         on_tv: In TV
@@ -1753,14 +1756,14 @@ it-IT:
         this_week: Questa Settimana
         today: Oggi
         tv: Serie TV
-      free_to_watch:
+      free_to_watch: Visione gratuita
       latest_trailers: Ultimi Trailers
       leaderboard:
-        all_time:
-        leaderboard:
-        this_week:
+        all_time: Tutte le modifiche
+        leaderboard: Classifica
+        this_week: Modifiche di questa settimana
       trending: In Tendenza
-      whats_popular:
+      whats_popular: Cosa è popolare
     taw:
       read_the_2018_recap: Leggi il riassunto del 2018
       read_the_2019_recap: Leggi il riassunto del 2019
@@ -1863,7 +1866,7 @@ it-IT:
     Additional Sound Re-Recording Mixer:
     Additional Sound Re-Recordist:
     Additional Soundtrack: Colonna Sonora Aggiuntiva
-    Additional Still Photographer:
+    Additional Still Photographer: Fotografo addizionale
     Additional Storyboarding:
     Additional Third Assistant Director: Terzo assistente direttore aggiuntivo
     Additional Underwater Photography:
@@ -1921,12 +1924,12 @@ it-IT:
     Assistant Extras Casting:
     Assistant Foley Artist:
     Assistant Gaffer:
-    Assistant Grip:
+    Assistant Grip: Assistente Grip
     Assistant Hairdresser:
-    Assistant Hairstylist:
+    Assistant Hairstylist: Assistente parrucco
     Assistant Location Manager:
-    Assistant Makeup Artist:
-    Assistant Music Supervisor:
+    Assistant Makeup Artist: Assistente truccatore
+    Assistant Music Supervisor: Assistente supervisore musica
     Assistant Picture Car Coordinator:
     Assistant Picture Editor:
     Assistant Production Coordinator:
@@ -1934,7 +1937,7 @@ it-IT:
     Assistant Production Manager:
     Assistant Property Master:
     Assistant Script:
-    Assistant Set Decoration:
+    Assistant Set Decoration: Assistente decorazione set
     Assistant Set Decoration Buyer:
     Assistant Set Designer:
     Assistant Set Dresser:
@@ -1997,7 +2000,7 @@ it-IT:
     Casting Consultant: Consulente casting
     Casting Coordinator: Coordinatore casting
     Casting Director: Direttore casting
-    Casting Producer:
+    Casting Producer: Produttore casting
     Casting Researcher:
     Catering: Catering
     Catering Head Chef: Capo Chef catering
@@ -2020,8 +2023,8 @@ it-IT:
     Cloth Setup: Impostazione Tessuto
     Co-Art Director: Direttore Co-Art
     Co-Costume Designer: Co-Costume Designer
-    Co-Director:
-    Co-Editor:
+    Co-Director: Co-regista
+    Co-Editor: Co-montatore
     Co-Executive Producer: Produttore Co-Esecutivo
     Co-Producer: Co-Produttore
     Co-Writer: Co-Scrittore
@@ -2057,7 +2060,7 @@ it-IT:
     Coordinating Producer:
     Costume Assistant:
     Costume Consultant:
-    Costume Coordinator:
+    Costume Coordinator: Coordinatore costumi
     Costume Design: Costumista
     Costume Designer:
     Costume Illustrator:
@@ -2128,8 +2131,8 @@ it-IT:
     Driver: Autista
     Drone Cinematographer:
     Drone Operator:
-    Drone Pilot:
-    EPK Editor:
+    Drone Pilot: Pilota drone
+    EPK Editor: Montatore Epk
     Editor: Editore
     Editorial Consultant: Consulente Editoriale
     Editorial Coordinator: Coordinatore Editoriale
@@ -2137,11 +2140,11 @@ it-IT:
     Editorial Production Assistant: Assistente Produzione Editoriale
     Editorial Services: Servizi Editoriali
     Editorial Staff: Redazione
-    Effects Supervisor:
+    Effects Supervisor: Supervisore effetti
     Electrician: Elettricista
-    Epk Camera Operator:
-    Epk Director:
-    Epk Producer:
+    Epk Camera Operator: Operatore camera Epk
+    Epk Director: Regista Epk
+    Epk Producer: Produttore Epk
     Executive Assistant: Assistente Esecutivo
     Executive Co-Producer: Co-Produttore Esecutivo
     Executive Consultant: Consulente Esecutivo
@@ -2173,12 +2176,12 @@ it-IT:
     First Assistant Accountant:
     First Assistant Art Direction:
     First Assistant Camera: Primo Assistente Camera
-    First Assistant Director:
+    First Assistant Director: Primo assistente regia
     First Assistant Director (Prep):
     First Assistant Director Trainee:
     First Assistant Editor: Primo Assistente Editor
-    First Assistant Hairstylist:
-    First Assistant Makeup Artist:
+    First Assistant Hairstylist: Primo assistente parrucco
+    First Assistant Makeup Artist: Primo assistente trucco
     First Assistant Picture Editor:
     First Assistant Production Coordinator:
     First Assistant Property Master:
@@ -2226,7 +2229,7 @@ it-IT:
     Head of Story:
     Health and Safety: Salute e Sicurezza
     Helicopter Camera: Camera Elicottero
-    Helping Hand:
+    Helping Hand: Aiutante
     Human Resources: Risorse Umane
     I/O Manager: Manager I/O
     I/O Supervisor: Supervisore I/O
@@ -2240,7 +2243,7 @@ it-IT:
     Interactive Manager:
     Interior Designer: Arredatore
     Intern: Interno
-    Jimmy Jib Operator:
+    Jimmy Jib Operator: Operatore Jimmy Jib
     Joint ADR Mixer:
     Junior Story Editor:
     Key Accountant:
@@ -2289,7 +2292,7 @@ it-IT:
     Loader: Caricatore
     Local Casting:
     Locale Casting Director:
-    Location Assistant:
+    Location Assistant: Assistente location
     Location Casting:
     Location Coordinator:
     Location Manager: Responsabile Location
@@ -2300,10 +2303,10 @@ it-IT:
     Location Sound Recordist:
     Logistics Coordinator:
     Loop Group Coordinator:
-    Lyricist:
+    Lyricist: Paroliere
     Machinist: Macchinista
-    Main Title Designer:
-    Main Title Theme Composer:
+    Main Title Designer: Designer titolo principale
+    Main Title Theme Composer: Compositore tema principale
     Makeup & Hair:
     Makeup & Hair Assistant:
     Makeup Artist: Truccatore
@@ -2323,8 +2326,8 @@ it-IT:
     Matte Painter:
     Mechanical & Creature Designer: Designer Meccanico & Creatura
     Mechanical Designer:
-    Medical Consultant:
-    Military Consultant:
+    Medical Consultant: Consulente medico
+    Military Consultant: Consulente militare
     Mix Technician: Tecnico Mix
     Mixing Engineer: Ingegnere Mixaggio
     Modeling: Modellismo
@@ -2332,10 +2335,10 @@ it-IT:
     Motion Actor: Attore di Movimento
     Motion Capture Artist: Artista Motion Capture
     Music: Musica
-    Music Arranger:
+    Music Arranger: Arrangiatore musicale
     Music Co-Supervisor: Co-Supervisore Musica
-    Music Consultant:
-    Music Coordinator:
+    Music Consultant: Consulente musicale
+    Music Coordinator: Coordinatore musicale
     Music Director: Direttore Musica
     Music Editor: Editor Musicale
     Music Producer: Produttore Musica
@@ -2373,7 +2376,7 @@ it-IT:
     Payroll Accountant:
     Petty Cash Buyer:
     Phantom Operator:
-    Photo Retouching:
+    Photo Retouching: Ritocco foto
     Photoscience Manager: Responsabile Fotoscienza
     Picture Car Coordinator: Coordinatore Picture Car
     Pilot: Pilota
@@ -2383,12 +2386,12 @@ it-IT:
     Poem: Poema
     Police Consultant:
     Post Coordinator:
-    Post Producer:
+    Post Producer: Post produttore
     Post Production Accountant:
     Post Production Assistant: Assistente Post Produzione
     Post Production Consulting: Consulente Post Produzione
-    Post Production Coordinator:
-    Post Production Producer:
+    Post Production Coordinator: Coordinatore post-produzione
+    Post Production Producer: Produttore post-produzione
     Post Production Scripts:
     Post Production Supervisor: Supervisore Post Produzione
     Post Production Technical Engineer:
@@ -2401,12 +2404,12 @@ it-IT:
     Producer's Assistant:
     Production Accountant: Ragioniere Produzione
     Production Artist: Artista di Produzione
-    Production Assistant:
-    Production Consultant:
+    Production Assistant: Assistente di produzione
+    Production Consultant: Consulente di produzione
     Production Controller: Controller di produzione
     Production Coordinator: Coordinatore Produzione
     Production Design: Design di produzione
-    Production Designer:
+    Production Designer: Designer di produzione
     Production Director: Direttore Produzione
     Production Driver:
     Production Executive:
@@ -2416,11 +2419,11 @@ it-IT:
     Production Office Assistant: Assistente Ufficio Produzione
     Production Office Coordinator: Responsabile Ufficio Produzione
     Production Runner:
-    Production Secretary:
+    Production Secretary: Segretaria di produzione
     Production Sound Mixer: Produzione Sound Mixer
     Production Supervisor: Supervisore Produzione
     Production Trainee:
-    Project Manager:
+    Project Manager: Manager di progetto
     Projection: Proiezione
     Prop Designer:
     Prop Maker: Produttore Oggetti di Scena
@@ -2433,19 +2436,19 @@ it-IT:
     Prosthetic Designer:
     Prosthetic Makeup Artist:
     Prosthetic Supervisor: Supervisore Protesico
-    Prosthetics:
-    Prosthetics Painter:
-    Prosthetics Sculptor:
+    Prosthetics: Protesi
+    Prosthetics Painter: Pittore protesico
+    Prosthetics Sculptor: Scultore protesico
     Public Relations: Relazioni Pubbliche
     Publicist: Pubblicista
     Pyrotechnic Supervisor: Supervisore Pirotecnico
-    Pyrotechnician:
+    Pyrotechnician: Pirotecnico
     Quality Control Supervisor: Supervisore Controllo Qualità
     Radio Play: Riproduzione Radio
     Receptionist:
     Recording Supervision: Supervisione Registrazione
-    Red Technician:
-    Research Assistant:
+    Red Technician: Tecnico RED
+    Research Assistant: Assistente ricerche
     Researcher: Ricercatore
     Rigging Gaffer: Elettricista
     Rigging Grip: Impugnatura
@@ -2475,7 +2478,7 @@ it-IT:
     Second Assistant "C" Camera:
     Second Assistant "D" Camera:
     Second Assistant Accountant:
-    Second Assistant Art Director:
+    Second Assistant Art Director: Secondo assistente direttore artistico
     Second Assistant Camera:
     Second Assistant Director:
     Second Assistant Director Trainee:
@@ -2488,7 +2491,7 @@ it-IT:
     Second Unit: Seconda unità
     Second Unit Cinematographer: Seconda unità cinematografica
     Second Unit Director:
-    Second Unit Director of Photography:
+    Second Unit Director of Photography: Seconda unità direttore della fotografia
     Second Unit First Assistant Director:
     Second Unit Location Manager:
     Security: Sicurezza
@@ -2505,7 +2508,7 @@ it-IT:
     Sequence Lead: Conduttori di sequenza
     Sequence Supervisor: Supervisore di sequenza
     Series Composition: Compositore di serie
-    Series Director:
+    Series Director: Regista della serie
     Series Publicist:
     Series Writer: Scrittore di serie
     Set Buyer:
@@ -2522,12 +2525,12 @@ it-IT:
     Set Dressing Supervisor: Supervisore conduttore set
     Set Medic: Medico set
     Set Painter:
-    Set Photographer:
+    Set Photographer: Fotografo del set
     Set Production Assistant: Assistente di produzione set
     Set Production Intern: Stagista di produzione set
     Set Propsman:
     Set Runner:
-    Set Supervisor:
+    Set Supervisor: Supervisore del set
     Sets & Props Artist: Set & Artista di oggetti di scena
     Sets & Props Supervisor: Set & Supervisore di oggetti di scena
     Settings: Installatore
@@ -2548,7 +2551,7 @@ it-IT:
     Sound Designer: Proggettista del suono
     Sound Director: Direttore del suono
     Sound Editor: Editor audio
-    Sound Effects:
+    Sound Effects: Effetti sonori
     Sound Effects Designer:
     Sound Effects Editor: Editor effetti sonori
     Sound Engineer: Tecnico del suono
@@ -2567,10 +2570,10 @@ it-IT:
     Special Effects Best Boy:
     Special Effects Coordinator: Coordinatore degli effetti speciali
     Special Effects Key Makeup Artist:
-    Special Effects Makeup Artist:
-    Special Effects Manager:
+    Special Effects Makeup Artist: Truccatore effetti speciali
+    Special Effects Manager: Manager effetti speciali
     Special Effects Supervisor: Supervisore degli effetti speciali
-    Special Effects Technician:
+    Special Effects Technician: Tecnico effetti speciali
     Special Guest: Special Guest
     Special Guest Director: Direttore Special Guest
     Special Props:
@@ -2595,12 +2598,12 @@ it-IT:
     Still Photographer: Fotografo
     Story: Storia
     Story Artist:
-    Story Consultant:
-    Story Coordinator:
-    Story Developer:
+    Story Consultant: Consulente storia
+    Story Coordinator: Coordinatore storia
+    Story Developer: Sviluppatore storia
     Story Editor:
-    Story Manager:
-    Story Supervisor:
+    Story Manager: Manager storia
+    Story Supervisor: Supervisore storia
     Storyboard: Storyboard
     Storyboard Artist:
     Storyboard Assistant:
@@ -2630,11 +2633,11 @@ it-IT:
     Swing:
     Systems Administrators & Support: Amministratori di sistema & supporto
     Tailor:
-    Tattoo Designer:
+    Tattoo Designer: Disegnatore tattoo
     Tattooist: Tatuatore
     Technical Advisor:
     Technical Supervisor: Supervisore tecnico
-    Techno Crane Operator:
+    Techno Crane Operator: Operatore crane
     Telecine Colorist: Colorista telecine
     Teleplay: Teleplay
     Temp Music Editor: Editor di musica temporanea
@@ -2648,41 +2651,41 @@ it-IT:
     Third Assistant "C" Camera:
     Third Assistant "D" Camera:
     Third Assistant Camera:
-    Third Assistant Director:
-    Title Designer:
+    Third Assistant Director: Terzo assistente regia
+    Title Designer: Disegnatore titolo
     Title Graphics: Grafica del titolo
-    Title Illustration:
+    Title Illustration: Illustratore titolo
     Trainee Production Coordinator:
-    Transcriptions:
+    Transcriptions: Trascrizioni
     Translator: Traduttore
     Transportation Captain: Capitano dei mezzi di trasporto
     Transportation Co-Captain: Co-Capitano dei mezzi di trasporto
     Transportation Coordinator: Coordinatore dei mezzi di trasporto
-    Travel Coordinator:
+    Travel Coordinator: Coordinatore viaggi
     Treatment: Trattamento
     Truck Costumer:
     Truck Production Assistant:
     Truck Supervisor:
     Ultimate Arm Operator:
     Underwater Camera: Macchina fotografica subacquea
-    Underwater Director of Photography:
-    Underwater Epk Photographer:
+    Underwater Director of Photography: Direttore della fotografia sottacqua
+    Underwater Epk Photographer: Fotografo Epk sottacqua
     Underwater Gaffer:
     Underwater Stills Photographer:
     Unit Manager: Direttore dell'unità
-    Unit Medic:
+    Unit Medic: Unità medica
     Unit Production Manager: Responsabile della produzione di unità
     Unit Publicist: Pubblicista dell'unità
     Unit Swing:
     Utility Sound:
     Utility Stunts: Acrobazie di utilità
     VFX Artist: Artista VFX
-    VFX Director of Photography:
+    VFX Director of Photography: Direttore della fotografia VFX
     VFX Editor: Editor VFX
     VFX Lighting Artist:
     VFX Production Coordinator: Coordinatore di produzione VFX
     VFX Supervisor: Supervisore VFX
-    Vehicles Coordinator:
+    Vehicles Coordinator: Coordinatore veicoli
     Vehicles Wrangler:
     Video Assist Operator: Assistente video operatore
     Video Game: Video gioco
