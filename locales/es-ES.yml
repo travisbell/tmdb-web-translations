@@ -27,7 +27,7 @@ es-ES:
   Add Content Rating: Añadir valoracion de contenido
   Add Creator: Añadir creador
   Add Data & Content: Añadir datos y contenido
-  Add Headshot:
+  Add Headshot: Añadir foto de perfil
   Add Item: Añadir elemento
   Add Missing Cast & Crew: Añadir reparto y equipo faltantes
   Add Network: Añadir canal
@@ -38,17 +38,17 @@ es-ES:
   Add New TV Show: Añadir nuevo programa de tv
   Add Poster: Añadir póster
   Add Profile: Añadir perfil
-  Add Season Regular: Añadir temporada regular
-  Add Title Logo:
+  Add Season Regular: Añadir habitual a la temporada
+  Add Title Logo: Añadir logo del título
   Add To Every Season?: "¿Añadir a cada temporada?"
   Add Video: Añadir vídeo
-  Add YouTube Video: Añadir vídeo de Youtube
+  Add YouTube Video: Añadir vídeo de YouTube
   Add a New Cast Member: Añadir nuevo miembro del reparto
   Add a New Crew Member: Añadir nuevo miembro del equipo
   Add a New Guest Star: Añadir nueva estrella invitada
-  Add to Watchlist: Añadir a lista de seguimiento
+  Add to Watchlist: Añadir a la lista de seguimiento
   Add to list: Añadir a la lista
-  Add to your favorite list: Añadir a lista de favoritos
+  Add to your favorite list: Añadir a tu lista de favoritos
   Add to your watchlist: Añadir a tu lista de seguimiento
   Added By: Añadido por
   Added to Watchlist: Añadida a lista de seguimiento
@@ -63,7 +63,7 @@ es-ES:
   Alternative Names: Nombres alternativos
   Alternative Titles: Títulos alternativos
   Apiary Documentation: Documentación de la API
-  App Directory: Directorio de Apps
+  App Directory: Directorio de aplicaciones
   App Showcase: Muestra de aplicaciones
   Application Description: Descripción de la aplicación
   Application Name: Nombre de la aplicación
@@ -114,7 +114,7 @@ es-ES:
   Convert to Collection?: "¿Convertir en colección?"
   Country: País
   Create: Crear
-  Create App: Crear App
+  Create App: Crear aplicación
   Create Application: Crear aplicación
   Create New List: Crear nueva lista
   Create Translation: Crear traducción
@@ -133,7 +133,7 @@ es-ES:
   Delete Movie: Borrar película
   Delete Person: Borrar persona
   Delete TV Show: Borrar programa de televisión
-  Deny: Negar
+  Deny: Denegar
   Department: Departamento
   Description: Descripción
   Design or Functionality Issue: Problema de diseño o funcionalidad
@@ -152,7 +152,7 @@ es-ES:
   Documentation: Documentación
   Duplicate: Duplicado
   Edit: Editar
-  Edit App: Editar App
+  Edit App: Editar aplicación
   Edit Data: Editar datos
   Edit Data & Content: Editar datos y contenido
   Edit Page: Editar página
@@ -164,14 +164,14 @@ es-ES:
   Email Content: Contenido del correo electrónico
   Embed: incrustar
   Episode Images:
-    one: ''
+    one: Imagen del episodio
     other: Imágenes del episodio
   Episode Number: Número de episodio
   Episode Overview: Vista general del episodio
   Episodes: Episodios
   Error: Error
   Example API Request: Ejemplo de solicitud de API
-  Expand: Expandir
+  Expand: Desplegar
   External IDs: Identificadores externos
   External Links: Enlaces externos
   Extra Details: Detalles extra
@@ -198,9 +198,9 @@ es-ES:
   Formatting Help: Ayuda de formato
   Forum: Foro
   Forums: Foros
-  Full Cast & Crew: Equipo y reparto completo
+  Full Cast & Crew: Reparto y equipo completo
   Full Leaderboard: Tabla de clasificación completa
-  Gender: Género
+  Gender: Sexo
   General: General
   Genres: Géneros
   Genres & Keywords: Géneros y palabras clave
@@ -365,8 +365,8 @@ es-ES:
   Release Type: Tipo
   Reload Page: Recargar página
   Remove: Borrar
-  Remove from your favorite list: Quitar de tu lista de favoritos
-  Remove from your watchlist: Quitar de tu lista de seguimiento
+  Remove from your favorite list: Borrar de tu lista de favoritos
+  Remove from your watchlist: Borrar de tu lista de seguimiento
   Remove?: "¿Borrar?"
   Report: Informar
   Report an Issue: Informar de un problema
@@ -390,7 +390,7 @@ es-ES:
   Season: Temporada
   Season Number: Número de temporada
   Season Overview: Vista general de la temporada
-  Season Regulars: Temporadas habituales
+  Season Regulars: Temporadas normales
   Season Specials: Temporadas especiales
   Seasons: Temporadas
   Secondary Color: Color secundario
@@ -411,7 +411,7 @@ es-ES:
   Sort By: Ordenar por
   Sort Cast: Ordenar reparto
   Sort Regular Cast: Ordenar reparto habitual
-  Source Key: Enlace fuente
+  Source Key: Clave de origen
   Specials: Especiales
   Spoken Languages: Idiomas hablados
   State: Estado
@@ -455,7 +455,7 @@ es-ES:
   Title (A-Z): Título (A-Z)
   Title (Z-A): Título (Z-A)
   Today: Hoy
-  Top Billed Cast: Actores principales
+  Top Billed Cast: Reparto principal
   Top Rated Movies: Películas mejor valoradas
   Top Rated TV Shows: Programas de televisión mejor valorados
   Top Users: Usuarios destacados
@@ -480,7 +480,7 @@ es-ES:
   Video?: "¿Vídeo?"
   View: Ver
   View All Backdrops: Ver todas las imágenes de fondo
-  View All Episode Images: Ver todas las imágenes de episodio
+  View All Episode Images: Ver todas las imágenes del episodio
   View All Episodes: Ver todos los episodios
   View All Posters: Ver todos los pósteres
   View All Seasons: Ver todas las temporadas
@@ -574,7 +574,9 @@ es-ES:
             Mention: Mención
             Messages: Mensajes
             type: Tipo
-        notifications: Avisos
+        notifications:
+          one: Aviso
+          other: Avisos
         number_of_items:
           one: "%{count} aviso"
           other: "%{count} avisos"
@@ -595,7 +597,7 @@ es-ES:
     filter_by: 'Filtrar por:'
     filters:
       air_date: Fecha de emisión
-      date_added: Fecha añadido
+      date_added: Fecha de inclusión
       date_rated: Fecha de valoración
       first_air_date: Primera fecha de emisión
       my_rating: Mi valoración
@@ -605,7 +607,7 @@ es-ES:
       score: Puntuación
       upcoming: Próximamente
     lists:
-      create_list: Lista creada
+      create_list: Crear lista
       last_updated: Actualizada
       my_lists:
         logged_in: Mis listas
@@ -671,7 +673,7 @@ es-ES:
       desc: Descendente
     tips:
       import_imdb_ratings: Puedes importar tus valoraciones de IMDb.
-      tip: Tip
+      tip: Consejo
     watchlist:
       my_watchlist:
         logged_in: Mi lista de seguimiento
@@ -711,7 +713,7 @@ es-ES:
         message: Has concedido permiso de lectura y escritura a <strong>%{application_name}</strong>. Puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso entrando en la página de configuración de tu cuenta y luego en tu página de "Aplicaciones conectadas".
         name: Autenticación concedida
       denied:
-        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si esto fue un error, o te gustaría reiniciar el proceso de autentificación vuelve a la aplicación y solicita el permiso de nuevo.</p>"
+        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si fue un error o te gustaría reiniciar el proceso de autentificación vuelve a la aplicación y solicita el permiso de nuevo.</p>"
         name: Autenticación denegada
       invalid_request_token:
         message: El token de acceso que has presentado es inválido. Prueba creando uno nuevo y asegurándote de que lo has copiado correctamente. Si continuas teniendo problemas, contacta con el desarrollador de la aplicación que estás usando.
@@ -737,7 +739,7 @@ es-ES:
     episode_groups: Volver al grupo de episodios
     episode_list: Volver a la lista de episodios
     home: Volver al inicio
-    main: Volver al principal
+    main: Volver a principal
     named_episode_group: Volver a grupos de &lsquo;%{group_name}&rsquo;
     season: Volver a la temporada
     season_list: Volver a lista de temporadas
@@ -1296,54 +1298,54 @@ es-ES:
         '6':
           meaning: Este programa está diseñado específicamente para un público adulto y, por lo tanto, puede no ser adecuado para menores de 17 años.
   character:
-    add_a_character:
-    back:
-    backdrop:
-    character_backdrop_photo:
-    character_bio:
-    character_search_label:
-    character_search_text:
-    character_wiki:
-    choose_a_character:
-    choose_a_character_info:
-    choose_backdrop:
-    create_overview:
-    create_overview_bio_help:
-    create_overview_help:
-    create_overview_name_help:
-    create_overview_note:
-    era:
-    help_our_mods:
-    help_our_mods_info:
+    add_a_character: Añadir un personaje
+    back: Volver
+    backdrop: Imagen de fondo
+    character_backdrop_photo: Imagen de fondo del personaje
+    character_bio: Biografía del personaje
+    character_search_label: "¿Qué personaje estás buscando?"
+    character_search_text: "¿Qué personaje te gustaría encontrar?"
+    character_wiki: Wiki del personaje
+    choose_a_character: Elegir un personaje
+    choose_a_character_info: Añadir un personaje significa vincular la aparición de un actor o una actriz que desempeña un papel específico. Un ejemplo sería la Trilogía del Caballero Oscuro (tres películas) en la que Christen Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel equivalen a un personaje.
+    choose_backdrop: Elegir imagen de fondo
+    create_overview: Crear vista general
+    create_overview_bio_help: Escribe una biografía de esta versión específica, el personaje tiene muchas encarnaciones.
+    create_overview_help: Ayúdanos a completar la biografía de este personaje a lo largo de la serie de apariciones en películas/tv que hizo.
+    create_overview_name_help: Cambia el nombre del personaje solo por una razón específica o por un nombre común por el que se le conoce.
+    create_overview_note: El actor y su foto de perfil no se pueden editar aquí.
+    era: Era
+    help_our_mods: Ayuda a nuestros moderadores
+    help_our_mods_info: "¡Cuéntanos algo del personaje! Este es un campo privado entre el equipo de moderación y tú. Cualquier información que proporciones sobre el personaje y por qué lo estás creando, les ayudará cuando revisen tu página."
     media_types:
-      character:
-      tv_show:
-    need_help:
-    next:
-    next_nav_label:
-    note:
-    note_info:
-    note_mods:
-    okay:
-    optional:
-    played_by:
-    previous:
-    previous_nav_label:
-    results_info_text:
-    results_selection_info:
-    revenue:
-    search:
-    search_error_info:
-    star:
-    submit_and_preview:
-    total_appearance:
-    total_budget:
-    upload_backdrop_title:
-    user_added_backdrop_info:
-    user_added_backdrop_label:
-    user_variant_description:
-    user_variant_intro:
-    view_by:
+      character: Personaje
+      tv_show: Programas de televisión
+    need_help: "¿Necesitas ayuda?"
+    next: Siguiente
+    next_nav_label: Siguiente
+    note: Nota
+    note_info: Para continuar, selecciona una persona del menú desplegable siguiente.
+    note_mods: Una nota para los moderadores
+    okay: Bien
+    optional: opcional
+    played_by: Interpretado por
+    previous: Anterior
+    previous_nav_label: Anterior
+    results_info_text: Selecciona qué representación del personaje te gustaría añadir.
+    results_selection_info: Solo se puede seleccionar una sola persona en el papel del personaje. Cada persona que Interpreta el papel de este personaje cuenta una versión diferente y deberá añadirse por separado.
+    revenue: Ingresos
+    search: Buscar
+    search_error_info: Edita tu búsqueda o verifica que el título en el que aparece el personaje exista en la base de datos y tenga detalles precisos del elenco y del equipo.
+    star: Estrella
+    submit_and_preview: Enviar y previsualizar
+    total_appearance: Aparición total
+    total_budget: Presupuesto total
+    upload_backdrop_title: Selecciona la persona a la que asociar esta imagen.
+    user_added_backdrop_info: Estas son las fotos de fondo que añadiste del personaje. Selecciona las fotos con las que continuar.
+    user_added_backdrop_label: Fotos de fondo añadidas por el usuario
+    user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
+    user_variant_intro: Encuentra tu personaje favorito de películas, programas de televisión y más...
+    view_by: Visto por
   collection_includes: Incluye %{movie_titles}
   confirm_delete: "¿Estás seguro de que quieres borrar este registro?"
   content_score:
@@ -1351,11 +1353,11 @@ es-ES:
     scale:
       '0': Empieza por dónde quieras...
       '1': Hey, es un comienzo
-      '10': "¡Sí! ¡Pinta bien!"
+      '10': "¡Sí! ¡Buena pinta!"
       '2': Estamos llegando.
       '3': Roma no se construyó en un día...
       '4': No hay "yo" en el equipo...
-      '5': Todavía necesita un poco de trabajo.
+      '5': Todavía se necesita un poco de trabajo.
       '6': Estamos muy cerca.
       '7': Solo un poco más...
       '8': "¡Vamos! Estamos muy muy cerca."
@@ -1374,7 +1376,7 @@ es-ES:
     tv_missing_a_backdrop: Programas sin imágenes de fondo
     tv_missing_a_poster: Programas sin póster
     tv_show_language_distribution: Idioma de distribución del programa de televisión
-    tv_shows_missing_a_name: Programas de televisións sin título
+    tv_shows_missing_a_name: Programas de televisión sin título
     tv_shows_missing_a_overview: Programas de televisión sin sinopsis
   contribution_bible:
     abbreviations:
@@ -1405,7 +1407,7 @@ es-ES:
         top: Película
     new_content:
       new_content: Contenido nuevo
-      new_content_bible: Guía de nuevo contenido
+      new_content_bible: Guía de contenido nuevo
     note: Nota
     people:
       people: Personas
@@ -1425,7 +1427,7 @@ es-ES:
     welcome_1: Bienvenido a
     welcome_2: La guía de aportaciones
   cookie_popup:
-    message: Usamos cookies para ayudarte a tener una mejor experiencia con TMDb. Puedes revisar nuestra <a href="%{policy_url}" target="_blank" rel="noopener">política de cookies</a> para aprender más. Al continuar navegando por TMDb, aceptas esta política.
+    message: Usamos cookies para ayudarte a tener una mejor experiencia en TMDb. Puedes revisar nuestra <a href="%{policy_url}" target="_blank" rel="noopener">política de cookies</a> para aprender más. Si continuas navegando en TMDb, aceptas esta política.
     ok_button: Vale
   date:
     abbr_day_names:
@@ -1487,41 +1489,41 @@ es-ES:
     reasons:
       '1':
         message: |-
-          Hola,
+          Hola.
 
-          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creaste titulada "%{title}" fue borrada. Este título ya está en nuestra base de datos y, por lo tanto, se considera duplicado.
+          Esta es una nota amistosa de los moderadores de contenido de TMDb. La entrada que creaste con el título «%{title}» fue eliminada. Este título ya estaba en nuestra base de datos y por lo tanto se consideró un duplicado.
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en contestar a este mensaje.
         subject: Es un duplicado
       '2':
         message: |-
-          Hola,
+          Hola.
 
-          Esto es solo una nota de cortesía de los moderadores de contenido de TMDb. La entrada que creaste titulada «%{title}» ha sido eliminada. Este título no cumplía con nuestras [nuevas directrices de contenido](https://www.themoviedb.org/bible/new_content).
+          Esta es una nota amistosa de los moderadores de contenido de TMDb. La entrada que creaste con el título «%{title}» fue eliminada. Este título no cumplía con nuestras [nuevas directrices de contenido](https://www.themoviedb.org/bible/new_content).
 
-          Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
+          Si tienes alguna pregunta sobre esta eliminación, no dudes en contestar a este mensaje.
         subject: No sigue nuestra directriz de contenidos (amateur, etc...)
       '3':
         message: |-
-          Hola,
+          Hola.
 
-          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creaste titulada "%{title}" fue borrada. Este título ya existe como un programa de televisión y no se considera una película válida. Puedes leer más sobre nuestras directrices de contenido [aquí] (https://www.themoviedb.org/bible/new_content).
+          Esta es una nota amistosa de los moderadores de contenido de TMDb. La entrada que creaste con el título «%{title}» fue eliminada .Este título ya existe como un programa de televisión y no se considera una película válida. Puedes leer más sobre nuestras directrices de contenido [aquí](https://www.themoviedb.org/bible/new_content).
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en contestar a este mensaje.
         subject: Es un programa de televisión
       '4':
         message: |-
-          Hola,
+          Hola.
 
-          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creaste titulada "%{title}" fue borrada. Este título no cumplie con nuestras [nuevas directrices de contenido] (https://www.themoviedb.org/bible/new_content).
+          Esta es una nota amistosa de los moderadores de contenido de TMDb. La entrada que creaste con el título «%{title}» fue eliminada. Este título no cumplía con nuestras [nuevas directrices de contenido](https://www.themoviedb.org/bible/new_content).
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en contestar a este mensaje.
         subject: Es una entrada falsa
       '5':
         message: |-
-          Hola,
+          Hola.
 
-          Esto es una nota amistosa de los moderadores de contenido en TMDb. La entrada que creaste titulada "%{title}" fue borrada. Este título no cumplió con nuestras [nuevas directrices de contenido] (https://www.themoviedb.org/bible/new_content).
+          Esta es una nota amistosa de los moderadores de contenido de TMDb. La entrada que creaste con el título «%{title}» fue eliminada. Este título no cumplía con nuestras [nuevas directrices de contenido](https://www.themoviedb.org/bible/new_content).
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en contestar a este mensaje.
         subject: Es spam
@@ -1658,7 +1660,7 @@ es-ES:
       message: Mensaje
       new_discussion: Nueva discusión
       subject: Tema
-    no_activity: No ha habido actividad en esta discusión.
+    no_activity: Sin actividad en esta discusión.
     no_discussions: Sin discusiones
     pagination:
       post_summary:
@@ -1681,7 +1683,7 @@ es-ES:
         ignore_user: ¿Seguro que quieres ignorar a este usuario? Todas sus discusiones y comentarios desaparecerán. Puedes eliminar este bloqueo yendo a  "Usuarios bloqueados" dentro de la configuración de tu cuenta.
         mark_as_spam: "¿Seguro que quieres marcar esta discusión como spam? Se eliminará automáticamente si lo haces y no se puede deshacer. Marcar discusiones como spam ayuda a aprender al servicio de detección de spam que usamos."
         report_violation: Confirma que deseas informar sobre este usuario por una violación de nuestras <a href="/documentation/community/guidelines" target="_blank" rel="noopener">directrices de la comunidad</a>.
-        unhide_discussion: Haciendo clic en 'Sí', esta conversación será visible de nuevo.
+        unhide_discussion: Si haces click en "Sí", esta conversación será visible de nuevo.
       posted_by_with_datetime: publicado por %{username} el %{date} a las %{time}
       quote: Citar
       reopen_reply: Reabrir y contestar
@@ -1708,10 +1710,10 @@ es-ES:
       no_subscribers: Sin suscriptores
       users_in_discussion: Usuarios en esta discusión
     your_account: Tu cuenta
-  dont_fallback: Ninguno (no volver)
+  dont_fallback: Ninguno (no usar)
   edit_list:
     add_edit_items: Añadir/Editar elementos
-    choose_image: Selecciona imagen
+    choose_image: Elegir imagen
     delete_list: Borrar lista
     edit_list: Editar lista
   edits: ediciones
@@ -1733,18 +1735,18 @@ es-ES:
     images:
       couldnt_process: No podemos procesar esta imagen
       not_jpeg: La imagen no está en formato JPEG
-      not_png: Esta imagen no está en formato PNG
-      not_svg: Esta imagen no está en formato SVG
+      not_png: La imagen no está en formato PNG
+      not_svg: La imagen no está en formato SVG
     locked:
       genres: El campo géneros está bloqueado
       keywords: El campo de palabras clave está bloqueado
     messages:
-      blank: necesario
+      blank: es necesario
       inclusion: debe seleccionarse
       invalid: es inválido
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
-      suspected_tv_series: se sospecha que es una serie de televisión o miniserie existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará
+      suspected_tv_series: se sospecha que es una serie de televisión o miniserie ya existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará
       taken: ya se ha quitado
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
@@ -1754,7 +1756,7 @@ es-ES:
       duplicate_crew_member: Esta persona ya está añadida como %{job_name}.
       duplicate_episode: Este episodio ya existe.
       duplicate_guest_star: Esta estrella invitada ya existe.
-      duplicate_regular_season_member: Esta persona ya está añadida como actor permanente de la temporada.
+      duplicate_regular_season_member: Esta persona ya está añadida como miembro habitual de la temporada.
       duplicate_season: Esta temporada ya existe.
   failed_email: No se ha podido enviar tu correo electrónico.
   failed_generic: Ha habido un problema.
@@ -1771,8 +1773,8 @@ es-ES:
     invalid_password_code:
       message: El código de restablecimiento de contraseña no es válido.
     logged_out:
-      message: Se ha desconectado con éxito.
-      title: Se ha desconectado!
+      message: Te has desconectado con éxito.
+      title: "¡Te has desconectado!"
     password_reset:
       message: |-
         Las instrucciones de restablecimiento se han enviado a esta dirección de correo electrónico, si pertenece a una cuenta registrada en TMDb.
@@ -1780,7 +1782,7 @@ es-ES:
         ¡Asegúrate de revisar tanto tu bandeja de entrada como la carpeta de spam!
       title: Reinicio de la contraseña
     password_reset_email_required:
-      message: Por favor, introduzca una dirección de correo electrónico válida.
+      message: Por favor, introduce una dirección de correo electrónico válida.
       title: Se requiere un correo electrónico
     resend_verification_email:
       message: |-
@@ -1788,7 +1790,7 @@ es-ES:
 
         ¡Asegúrate de revisar tanto tu bandeja de entrada como la carpeta de spam!
       title: Correo electrónico de verificación enviado
-  headshots_must_meet:
+  headshots_must_meet: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
   homepage:
     community:
       benefits_list:
@@ -1835,7 +1837,7 @@ es-ES:
         today: El nuevo episodio se emite hoy
         tomorrow: El nuevo episodio se emite mañana
   images:
-    confirm_delete: "¿Estás seguro de querer borrar esta imagen?"
+    confirm_delete: "¿Seguro que quieres borrar esta imagen?"
     upload_criteria:
       '1': Resolución máxima de 2000x3000
       '2': Resolución mínima de 500x750
@@ -1846,11 +1848,11 @@ es-ES:
       '7': Resolución mínima de 1280x720
       '8': Relación de aspecto de 16x9 (1.78:1)
       '9': Resolución mínima de 300x450
-      backdrops_must_meet: 'Las imágenes de fondo deben cumplir las siguientes reglas:'
-      episode_stills_must_meet: 'Los episodios deben cumplir las siguientes reglas:'
-      headshots_must_meet:
-      posters_must_meet: 'Los pósteres deben cumplir las siguientes reglas:'
-      profile_must_meet: 'Las imágenes de perfil deben cumplir las siguientes reglas:'
+      backdrops_must_meet: 'Las imágenes de fondo deben cumplir los siguientes criterios:'
+      episode_stills_must_meet: 'Los episodios deben cumplir los siguientes criterios:'
+      headshots_must_meet: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
+      posters_must_meet: 'Los pósteres deben cumplir los siguientes criterios:'
+      profile_must_meet: 'Las imágenes de perfil deben cumplir los siguientes criterios:'
       read_guidelines: Familiarízate con nuestras <a href="%{link}" target="_blank" rel="noopener">directrices actualizadas para aportar imágenes</a>.
       tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el área siguiente. En caso contrario, haz clic en el botón 'Seleccionar archivos...' y elige la imagen de tu equipo.
   invalid_aspect_ratio: La relación de aspecto no es válida.
@@ -1897,7 +1899,7 @@ es-ES:
     Actor's Assistant: Asistente de actor
     Adaptation: Adaptación
     Additional Camera: Cámara adicional
-    Additional Casting: Reparto adicional
+    Additional Casting: Castin adicional
     Additional Colorist: Colorista adicional
     Additional Construction: Construcción adicional
     Additional Construction Grip: Grua de construcción adicional
@@ -2793,27 +2795,27 @@ es-ES:
     actions:
       back_to_parent: retrocede (o a padre cuando sea aplicable)
       close_window: cierra una ventana abierta
-      focus_search: enfocar la barra de búsqueda
+      focus_search: centrar la barra de búsqueda
       go_to_edit: ir a la página de edición
       last_reply: ir a la última respuesta
       new_discussion: crear nueva discusión
-      next_episode: "(flecha derecha) ir al siguiente episodio"
-      next_page: "(flecha derecha) siguiente página"
-      next_season: "(flecha derecha) ir a la siguiente temporada"
+      next_episode: "(flecha derecha) ir al episodio siguiente"
+      next_page: "(flecha derecha) página siguiente"
+      next_season: "(flecha derecha) ir a la temporada siguiente"
       open_activity: abrir actividad
       open_add_image_window: abrir la ventana de añadir imagen
       open_profile: abrir menú de perfil
       open_shortcut_window: abrir la ventana de atajos del teclado
       open_translation_selector: abrir la sección de traducción
-      previous_episode: "(flecha izquierda) ir al anterior episodio"
+      previous_episode: "(flecha izquierda) ir al episodio anterior"
       previous_page: "(flecha izquierda) página anterior"
-      previous_season: "(flecha izquierda) ir a la anterior temporada"
+      previous_season: "(flecha izquierda) ir a la temporada anterior"
       reply_to_discussion: responder a la discusión
       save_form: enviar formulario
       submit_message: enviar tu mensaje
       toggle_close: Alternar cerrar/abrir
-      toggle_private: Alternar público/privado
-      toggle_watching: Cambiar estado de observación
+      toggle_private: cambiar público/privado
+      toggle_watching: cambiar estado de observación
     groups:
       discussion_pages: En las páginas de discusión
       edit_pages: En todas las páginas de edición
@@ -2924,7 +2926,7 @@ es-ES:
       format: Formato
       no_backdrop_stills: No se han añadido imágenes de fondo a esta entrada.
       no_backdrops: No se han añadido imágenes de fondo a esta entrada.
-      no_headshots:
+      no_headshots: No se añadieron imágenes de perfil a esta entrada.
       no_logos: No se han añadido logos a esta entrada.
       no_posters: No se ha añadido ningún póster a esta entrada.
       no_profiles: No se han añadido perfiles a esta entrada.
@@ -2943,13 +2945,13 @@ es-ES:
         cast:
           no_records: No se han añadido miembros del reparto.
         confirm_collection: |-
-          <p> Las colecciones son una forma adecuada de agrupar secuelas en TMDb. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, por favor, <a href="%{list_link}" target="_blank" rel="noopener"> crea una lista </a>. Para obtener más información acerca de las colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener"> nuestra documentación </a>. </ P>
+          <p>Las colecciones son una forma adecuada de agrupar secuelas en TMDb. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, <a href="%{list_link}" target="_blank" rel="noopener">crea una lista</a>. Para obtener más información sobre colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener">nuestra documentación</a>.</p>
 
-          <p>Si la colección que vas a crear cumple con esta condición, continúa.</p>
+          <p>Si la colección que vas a crear cumple con estos criterios, continúa.</p>
         confirm_video: |-
-          <p>Etiquetar una película como 'Vídeo' nos ayuda a diferenciar tipos de contenido que no son realmente películas.</ p>
+          <p>Etiquetar una película como video nos ayuda a diferenciar tipos de contenido que no son realmente películas.</p>
 
-          <p>Si este contenido es, por ejemplo, un DVD de compilación, un video de fitness o tal vez un DVD de "lo mejor de", entonces deberías marcarlo como 'Vídeo'.</ p>
+          <p>Si este contenido es, por ejemplo, un DVD recopilatorio, un vídeo de fitness o quizás un DVD de "lo mejor de", deberías marcarlo como vídeo.</p>
         crew:
           job_required: Se necesita trabajar
           no_records: No se han añadido miembros del equipo.
@@ -2984,7 +2986,7 @@ es-ES:
         alternative_names: Nombres alternativos
         logos: Logos
         merge:
-          choose_destination: Elija un registro de destino...
+          choose_destination: Elegir un registro de destino...
           confirm_merge: Confirmar fusionar
           merge: Fusionar
           next: Siguiente
@@ -3014,14 +3016,14 @@ es-ES:
       gender:
         female: Femenino
         male: Masculino
-        non_binary: No binario
+        non_binary: No definido
       media_types:
         all: Todo
         movies: Películas
         tv: Televisión
         tv_shows: Programas de televisión
       years_old:
-        one: ''
+        one: "%{count} año"
         other: "%{count} años"
     rating:
       rated_with_rating: Valorado %{value}
@@ -3035,11 +3037,11 @@ es-ES:
     shortcut_bar:
       alternative_titles: Títulos alternativos
       backdrops: Imágenes de fondo
-      cast_crew: Reparto
+      cast_crew: Reparto y equipo
       changes: Cambios
       fandom: Fandom
-      headshots:
-      logos:
+      headshots: Imágenes de perfil
+      logos: Logos
       main: Principal
       media: Multimedia
       overview: Vista general
@@ -3054,7 +3056,7 @@ es-ES:
         currently_subscribed: Te has suscrito para recibir un aviso cuando se cree la primera publicación.
         no_discussions: No hay discusiones sobre %{item_title}. ¡Accede para ser el primero!
         unsubscribe_me: Cancelar mi suscripción.
-        want_to_be_notified: "¿Quieres que se te avise cuando alguien cree la primera publicación?"
+        want_to_be_notified: "¿Quieres que te avisemos cuando alguien cree la primera publicación?"
         yes_notify_me: "¡Sí, avísame!"
       reviews:
         a_review_by: Una reseña de %{username}
@@ -3078,8 +3080,8 @@ es-ES:
       episode_selector:
         current_episode: Episodio %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
-        next_episode: Siguiente episodio
-        previous_episode: Anterior episodio
+        next_episode: Episodio siguiente
+        previous_episode: Episodio anterior
     tv_season:
       edit:
         create_episode: Crear episodio
@@ -3094,7 +3096,7 @@ es-ES:
         current_season: Temporada actual
         last_season: Última temporada
         next_season: Siguiente temporada
-        previous_season: Anterior temporada
+        previous_season: Temporada anterior
     tv_show:
       create_season: Crear temporada
       edit:
@@ -3138,8 +3140,8 @@ es-ES:
           no_records: No se han añadido canales.
           none_found: No se han encontrado canales. ¿Quieres crear uno?
         regular_cast:
-          no_records: No se han añadido miembros del reparto.
-          no_season: "¡No existen temporadas! Se necesita una temporada para añadir miembros del reparto."
+          no_records: No se han añadido los miembros habituales del reparto.
+          no_season: "¡No existen temporadas! Se necesita una temporada para añadir miembros habituales del reparto."
         runtime:
           add_it: "¿Añadir nueva duración?"
           enter_value: Introducir el valor en minutos
@@ -3157,7 +3159,7 @@ es-ES:
       series_cast: Reparto de la serie
       series_crew: Equipo de la serie
       statuses:
-        Canceled: Cancelada
+        Canceled: Cancelado
         Ended: Finalizado
         In Production: En producción
         Pilot: Piloto
@@ -3168,7 +3170,7 @@ es-ES:
         Miniseries: Miniseries
         News: Noticias
         Reality: Realidad
-        Scripted: Guion
+        Scripted: Con guion
         Talk Show: Programa de entrevistas
         Video: Vídeo
     video:
@@ -3190,11 +3192,11 @@ es-ES:
   message_templates:
     help_translate:
       message: |-
-        Hola, gracias por usar TMDb. He visto que estás navegando por TMDb en un idioma que no se terminó de traducir. Si estas interesado en ayudarnos a completar esta traducción, puedes hacerlo visitando nuestro [Locale project](https://www.localeapp.com/projects/8267). [Signing up](https://www.localeapp.com/users/sign_up) Locale es gratis y puedes agregar todas las traducciones nuevas que quieras. Cada traducción ayuda.
+        Hola, gracias por usar TMDb. He visto que estás navegando por TMDb en un idioma que no se terminó de traducir. Si estas interesado en ayudarnos a completar esta traducción, puedes hacerlo visitando nuestro [Proyecto de configuración regional](https://www.localeapp.com/projects/8267). [Registrarse](https://www.localeapp.com/users/sign_up) en Locale es gratis y puedes añadir todas las traducciones nuevas que quieras. Cada edición ayuda.
 
         Si no te interesa, no te preocupes. Solo quería preguntar.
 
-        Gracias y cuídate!
+        ¡Gracias y cuídate!
       subject: Ayuda a traducir nuestro sitio web.
   messages:
     compose:
@@ -3219,14 +3221,14 @@ es-ES:
       no_conversation_selected:
         create: También puedes crear una nueva conversación haciendo <a href="%{link}">click aquí</a>.
         no_conversations: No tienes ninguna conversación abierta, ¡que suerte!
-        view: Para ver una conversación, selecciona una a la izquierda.
+        view: Para ver una conversación, selecciona una de la izquierda.
       no_user_found: Usuario no encontrado.
-      reply: Escribe un mensaje
+      reply: Escribe un mensaje...
       subject: "¿Sobre que trata esto?"
-      to: Busca un usuario
+      to: Buscar un usuario...
     right_column_titles:
       conversation_with: Conversacion con %{username}
-      message_inbox: Buzón de mensajes de entrada
+      message_inbox: Bandeja de entrada de mensajes
       my_archive: Archivo
       my_inbox: Bandeja de entrada
       new_message: Mensaje nuevo
@@ -3234,7 +3236,7 @@ es-ES:
       support_inbox: Bandeja de entrada de soporte
     translate: Traducir
   month:
-    one: mes
+    one: "%{count} mes"
     other: "%{count} meses"
   navigation:
     discover:
@@ -3265,7 +3267,7 @@ es-ES:
   no_created_lists: No has creado ninguna lista.
   no_crew: No se ha añadido a nadie del equipo a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
   no_description: Sin descripción.
-  no_director: No se ha añadido el director.
+  no_director: No se ha añadido al director.
   no_episode_images: No se han añadido imágenes del episodio.
   no_favorite_movies:
     current_user: No tienes ninguna película favorita.
@@ -3431,7 +3433,7 @@ es-ES:
     show_more: Mostrar más
   part_of_collection: Parte de %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(mínimo 4 caracteres)"
     confirm_new_password: Confirmar nueva contraseña
     new_password: Nueva contraseña
     password: Contraseña
@@ -3472,7 +3474,7 @@ es-ES:
   settings:
     account:
       account_settings: Configuración de mi cuenta
-      auto_detect:
+      auto_detect: "¿Detección automática?"
       page_title: Mi configuración
       resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación? Introduce abajo tu correo y te lo reenviaremos."
       reset_password_text: Introduce el correo que has usado para entrar en TMDB y te mandaremos los pasos necesarios para resetear tu contraseña.
@@ -3485,7 +3487,7 @@ es-ES:
         create: Crear
         details: Detalles
         directory: Directorio
-        overview:
+        overview: Vista general
         sessions: Sesiones
         stats: Estadísticas
       page_title: Mi configuración de API
@@ -3549,7 +3551,7 @@ es-ES:
         favorite: Favorito
         rated: Valorado
         watchlist: Lista de seguimiento
-      which_list: "¿A qué lista lo vas a importar?"
+      which_list: "¿En qué lista lo vas a importar?"
     navigation:
       account_settings: Configuración de cuenta
       api: API
@@ -3606,11 +3608,11 @@ es-ES:
           <p>Para cambiar tu contraseña, necesitamos una dirección de correo electrónico válida. Desafortunadamente, tuvimos problemas para enviarte correos electrónicos en el pasado. Puedes ver los errores <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
 
           <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el botón de restablecer e intentaremos enviarte otro correo electrónico para verificarlo.</p>
-        sending_problems:
+        sending_problems: Hemos tenido problemas para enviar mensajes a su dirección de correo electrónico. Antes de continuar, debemos asegurarnos de que nuestros correos electrónicos se entreguen correctamente.
         what_is_your_email: "¿Cuál es tu correo electrónico?"
       page_title: Mi perfil
       reset_password_dialog_text: Si confirmas esta petición, te enviaremos un correo electrónico con las instrucciones para restablecer la contraseña. ¿Estás seguro de querer hacelo?
-      reset_password_dialog_text2:
+      reset_password_dialog_text2: "<strong>Ten en cuenta:</strong> al restablecer tu contraseña, se cerrará la sesión de todas las sesiones actuales."
     sessions:
       api:
         connected_apps: Aplicaciones conectadas
@@ -3629,9 +3631,9 @@ es-ES:
       web:
         current_session: Sesión actual
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: "¡Sí, bórralo!"
+          dialog_text: "¿Seguro de que deseas borrar esta sesión? Si la sesión seleccionada es tu sesión actual, esta se cerrará."
+          dialog_title: "¿Borrar sesión?"
         table:
           date: Fecha
           device: Dispositivo
@@ -3675,7 +3677,7 @@ es-ES:
       build_watchlist: Crea y mantén una lista de seguimiento personal
       contribute: Aporta y mejora la información de nuestra base de datos
       discussions: Participa en conversaciones de películas y televisión
-      find_something_to_watch:
+      find_something_to_watch: Encuentra algo que ver entre tus suscripciones a servicios de streaming
       keep_track: Mantén un registro de tus películas y programas de televisión favoritos y obtén recomendaciones de ellos
       log_movies: Registra las películas y programas de televisión que has visto
     by_clicking_agree_to_terms: Al hacer clic en el botón "Registrarse", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDb.
@@ -3709,21 +3711,21 @@ es-ES:
   time:
     formats:
       12hour_minutes: "%H:%M"
-      am:
-      default:
-      long: "%B %d, %Y %I:%M %p"
-      pm:
-      short: "%d %b %I:%M %p"
+      am: am
+      default: "%a, %d %b %Y %H:%M:%S %Z"
+      long: "%d de %B de %Y %H:%M"
+      pm: pm
+      short: "%d %b %H:%M"
   top_contributors: Mayores aportadores
   translation:
     one: traducción
     other: traducciones
-  upload_backdrop: Sube una imagen de fondo
-  upload_headshot:
+  upload_backdrop: Subir imagen de fondo
+  upload_headshot: Subir imagen de perfil
   upload_poster: Subir póster
   upload_profile: Subir perfil
-  upload_title_logo:
-  used_by_developers: TMDb es utilizado por más de 200.000 desarrolladores.<br>A continuación examina tu trabajo.
+  upload_title_logo: Subir el logo del título
+  used_by_developers: Más de 200.000 desarrolladores utilizan TMDb.<br>Echa un vistazo a su trabajo.
   videos:
     filters:
       language: Idioma
@@ -3755,8 +3757,8 @@ es-ES:
       Trailers: Tráileres
     vimeo_channel: Canal Vimeo
     visit_vimeo_channel: Visitar canal Vimeo
-    visit_youtube_channel: Visitar canal Youtube
-    youtube_channel: Canal Youtube
+    visit_youtube_channel: Visitar canal YouTube
+    youtube_channel: Canal YouTube
   view all: ver todo
   will_paginate:
     next_label: Siguiente →
