@@ -506,7 +506,7 @@ hu-HU:
   account_drop_down:
     discussions: Beszélgetések
     edit_profile: Profil
-    join_tmdb:
+    join_tmdb: Csatlakozz a TMDb-hez
     lists: Listák
     login: Bejelentkezés
     logout: Kijelentkezés
@@ -592,10 +592,10 @@ hu-HU:
         public: "%{username} kedvencei"
     filter_by: 'Szűrés/Rendezés:'
     filters:
-      air_date:
+      air_date: Sugárzás
       date_added: Hozzáadva
       date_rated: Értékelés dátuma
-      first_air_date:
+      first_air_date: Első sugárzás
       my_rating: Saját értékelésem
       popularity: Népszerűség
       rating: Értékelés
@@ -623,7 +623,7 @@ hu-HU:
       ratings: Értékelések
       ratings_reviews: Értékelések/Vélemények
       recommendations: Ajánlások
-      reviews:
+      reviews: Vélemények
       watchlist: Megnézendők
     order: 'Sorrend:'
     overview:
@@ -665,8 +665,8 @@ hu-HU:
       no_recommendations_helper: Próbálj meg több kedvencet felvenni (minél több, annál jobb) és gyere vissza.
       page_title: Ajánlások
     sort_options:
-      asc:
-      desc:
+      asc: Növekvő
+      desc: Csökkenő
     tips:
       import_imdb_ratings: Importálhatod az értékeléseidet az IMDb-ről.
       tip: Tipp
@@ -1313,16 +1313,16 @@ hu-HU:
       character:
       tv_show:
     need_help:
-    next:
-    next_nav_label:
+    next: Következő
+    next_nav_label: Következő
     note:
     note_info:
     note_mods:
     okay:
     optional:
     played_by:
-    previous:
-    previous_nav_label:
+    previous: Előző
+    previous_nav_label: Előző
     results_info_text:
     results_selection_info:
     revenue:
@@ -1690,8 +1690,10 @@ hu-HU:
       subscription_changed:
       unsubscribe:
       unsubscribed:
-  episode_count: "%{count} rész"
-  episode_number_name: "%{episode_number}. rész"
+  episode_count:
+    one: ''
+    other: "%{count} epizód"
+  episode_number_name: "%{episode_number}. epizód"
   errors:
     images:
       couldnt_process:
@@ -3119,7 +3121,7 @@ hu-HU:
       play_featurette:
       play_opening_credits:
       play_recap:
-      play_teaser:
+      play_teaser: Rövid előzetes megtekintése
       play_trailer: Előzetes megtekintése
       published:
       published_at:
@@ -3302,7 +3304,7 @@ hu-HU:
       rent:
       sentence:
     available_snippet:
-      flatrate:
+      flatrate: Már streamelhető
       rent_or_buy:
       summary_sentence:
     description:
@@ -3329,7 +3331,7 @@ hu-HU:
       sd:
     seasons:
     view_offers:
-    watch_now:
+    watch_now: Nézd meg most
     watch_on:
       ads:
       buy:
@@ -3645,20 +3647,20 @@ hu-HU:
     page_title:
     popular:
     types:
-      Behind the Scenes:
+      Behind the Scenes: Kulisszák mögött
       Blooper:
-      Bloopers:
+      Bloopers: Bakik
       Clip: Klipp
-      Clips: Klippek
+      Clips: Klipek
       Featurette: Rövidfilm
       Featurettes: Kísérő rövidfilmek
       Opening Credits: Nyitó stáblista
       Recap:
       Recaps:
-      Teaser: Teaser
-      Teasers: Előzetesek (Teaser)
-      Trailer: Filmelőzetes
-      Trailers: Ajánlók (Trailer)
+      Teaser: Rövid előzetes
+      Teasers: Rövid előzetesek
+      Trailer: Előzetes
+      Trailers: Előzetesek
     vimeo_channel:
     visit_vimeo_channel:
     visit_youtube_channel:
