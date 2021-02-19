@@ -6,7 +6,7 @@ el-GR:
   API Details: Πληροφορίες API
   API Key: Κλειδί API
   API Libraries: Βιβλιοθήκες API
-  API Overview:
+  API Overview: Επισκόπηση API
   API Read Access Token: Token αναγνωστικής πρόσβασης API
   API Sessions:
   API Stats: Στατιστικά API
@@ -39,7 +39,7 @@ el-GR:
   Add Poster: Προσθήκη αφίσας
   Add Profile: Προσθήκη προφίλ
   Add Season Regular: Προσθήκη ηθοποιού στον κύκλο
-  Add Title Logo:
+  Add Title Logo: Προσθήκη λογότυπου τίτλου
   Add To Every Season?: Προσθήκη σε κάθε κύκλο;
   Add Video: Προσθήκη βίντεο
   Add YouTube Video: Προσθήκη βίντεο από το YouTube
@@ -66,7 +66,7 @@ el-GR:
   App Directory: Κατάλογος εφαρμογών
   App Showcase: Επισκόπηση εφαρμογής
   Application Description: Περιγραφή εφαρμογής
-  Application Name: Όνομα εφαρμογής
+  Application Name: Ονομα εφαρμογής
   Application Summary: Σύνοψη εφαρμογής
   Application URL: URL εφαρμογής
   Approve: Έγκριση
@@ -200,7 +200,7 @@ el-GR:
   Formatting Help: Βοήθεια μορφοποίησης
   Forum: Φόρουμ
   Forums: Φόρουμ
-  Full Cast & Crew: Όλοι οι ηθοποιοί & συντελεστές
+  Full Cast & Crew: Ολοι οι ηθοποιοί & συντελεστές
   Full Leaderboard: Πλήρης πίνακας κατάταξης
   Gender: Φύλο
   General: Γενικό
@@ -386,7 +386,7 @@ el-GR:
   Search for a genre: Αναζήτηση για είδος
   Search for a keyword: Αναζήτηση για λέξη-κλειδί
   Search for a language: Αναζήτηση για γλώσσα...
-  Search for a movie:
+  Search for a movie: Αναζήτηση για ταινία
   Search for a movie or TV show: Αναζήτηση για ταινία ή τηλεοπτική σειρά
   Search for a movie, TV show, person: Αναζήτηση ταινίας, τηλεοπτικής σειράς ή προσώπου...
   Season: Κύκλος
@@ -480,7 +480,7 @@ el-GR:
   Update: Ενημέρωση
   Upload Logo: Ανεβάστε λογότυπο
   User Score: Βαθμολογία χρηστών
-  Username: Όνομα χρήστη
+  Username: Ονομα χρήστη
   Video?: Βίντεο;
   View: Προβολή
   View All Backdrops: Προβολή όλων των ταπετσαριών
@@ -534,7 +534,7 @@ el-GR:
       media_types:
         all: Ολα
         movies: Ταινίες
-        others: Άλλο
+        others: Αλλο
         people: Άτομα
         tv: Τηλεόραση
       page_title:
@@ -728,7 +728,7 @@ el-GR:
     iso_3166_1: Χώρα
     iso_639_1: Γλώσσα
     normalized_email: Email
-    normalized_username: Όνομα χρήστη
+    normalized_username: Ονομα χρήστη
     overview: Επισκόπηση
     title: Τίτλος
     to_accounts_ids: Προς
@@ -1307,23 +1307,23 @@ el-GR:
     choose_a_character:
     choose_a_character_info:
     choose_backdrop:
-    create_overview:
-    create_overview_bio_help:
-    create_overview_help:
-    create_overview_name_help:
+    create_overview: Δημιουργία επισκόπησης
+    create_overview_bio_help: Παρακαλώ γράψτε ένα βιογραφικό για αυτή τη συγκεκριμένη έκδοση, ο χαρακτήρας εκεί έχει πολλές ενσαρκώσεις.
+    create_overview_help: Βοηθήστε μας να συμπληρώσουμε το βιογραφικό αυτού του χαρακτήρα κατά τη σειρά ταινιών/τηλεοπτικών εμφανίσεων που έκαναν.
+    create_overview_name_help: Αλλάξτε το όνομα του χαρακτήρα μόνο εάν υπάρχει συγκεκριμένος λόγος ή σε ένα κοινό όνομα από το οποίο είναι γνωστοί.
     create_overview_note:
     era:
-    help_our_mods:
+    help_our_mods: Βοηθήστε τους συντονιστές μας
     help_our_mods_info:
     media_types:
-      character:
-      tv_show:
+      character: Χαρακτήρας
+      tv_show: Σειρές
     need_help:
     next:
     next_nav_label:
     note:
     note_info:
-    note_mods:
+    note_mods: Μια σημείωση για συντονιστές
     okay:
     optional:
     played_by:
@@ -1332,10 +1332,10 @@ el-GR:
     results_info_text:
     results_selection_info:
     revenue:
-    search:
+    search: Αναζήτηση
     search_error_info:
     star:
-    submit_and_preview:
+    submit_and_preview: Υποβολή και προεπισκόπηση
     total_appearance:
     total_budget:
     upload_backdrop_title:
@@ -1550,12 +1550,14 @@ el-GR:
     apply:
     filters:
       air_dates:
-        air_dates:
+        air_dates: Πρώτης προβολές
         search_all_episodes: Αναζήτηση σε όλα τα επεισόδια;
-        search_first_air_date:
+        search_first_air_date: 'Αναζήτηση ημερομηνία πρώτης προβολής;
+
+          '
       availability:
-        availabilities:
-        search_all_availabilities:
+        availabilities: Διαθεσιμότητα
+        search_all_availabilities: Αναζήτηση όλων των διαθεσίμων;
       certification:
         certification: Πιστοποίηση
       filters: Φίλτρα
@@ -1565,44 +1567,44 @@ el-GR:
         keywords: Λέξεις-κλειδιά
       language:
         language: Γλώσσα
-        tooltip:
-      minimum_user_votes:
+        tooltip: Φιλτράρισμα στοιχείων με βάση την αρχική τους γλώσσα.
+      minimum_user_votes: Ελάχιστες ψήφοι χρήστη
       network:
-        filter_by_network:
+        filter_by_network: Φιλτράρισμα κατά τηλεοπτικά δίκτυα...
         network: Δίκτυο
-      none_selected:
+      none_selected: Κανένα επιλεγμένο
       release_dates:
         from: από
-        release_dates:
+        release_dates: Ημερομηνίες κυκλοφορίας
         search_all_countries: Αναζήτηση σε όλες τις χώρες;
-        search_release_dates:
-        to:
-      runtime:
+        search_release_dates: Αναζήτηση σε όλες τις κυκλοφορίες;
+        to: σε
+      runtime: Διάρκεια
       show_me:
-        everything:
-        movies_have_seen:
-        movies_havent_seen:
-        show_me:
+        everything: Ολα
+        movies_have_seen: Ταινίες που έχω δει
+        movies_havent_seen: Ταινίες που δεν έχω δει
+        show_me: Δείξε μου
         tooltip:
-        tv_shows_have_seen:
-        tv_shows_havent_seen:
+        tv_shows_have_seen: Τηλεοπτικές σειρές που έχω δει
+        tv_shows_havent_seen: Τηλεοπτικές σειρές που δεν έχω δει
       sort:
-        sort_results_by:
+        sort_results_by: Ταξινόμηση αποτελεσμάτων κατά
       user_score:
         user_score:
       where_to_watch:
         country: Χώρα
         my_services:
-          my_services:
-          restrict:
+          my_services: Οι Υπηρεσίες μου
+          restrict: Περιορισμός αναζητήσεων στις συνδρομητικές υπηρεσίες μου;
           restrict_tooltip: Συνδεθείτε για να διαχειριστείτε τις εγγεγραμμένες υπηρεσίες σας.
-        where_to_watch:
+        where_to_watch: Που θα το δείτε
       years:
         years: Χρόνια
-    no_items:
+    no_items: Δεν βρέθηκαν στοιχεία που να ταιριάζουν με το ερώτημά σας.
     search: Αναζήτηση
     tooltips:
-      not_member:
+      not_member: Δεν είσαι μέλος;
       signup:
       want_to_rate:
   discussions:
@@ -1723,10 +1725,10 @@ el-GR:
     new_email_address: Νέα διεύθυνση ηλεκτρονικού ταχυδρομείου
     sent_verification_email: Έχουμε στείλει ένα email στο %{email_address} για επαλήθευση. Ελέγξτε τα εισερχόμενά σας(και το φάκελο ανεπιθύμητης αλληλογραφίας) για οδηγίες σχετικά με το πώς θα προχωρήσετε.
     unsubscribe:
-      sad_to_go:
-      subscription_changed:
-      unsubscribe:
-      unsubscribed:
+      sad_to_go: "%{username}, είμαστε λυπημένοι που σε βλέπουμε να φεύγεις!"
+      subscription_changed: Οι ρυθμίσεις συνδρομής σας ενημερώθηκαν. Μπορείτε να επεξεργαστείτε τις ρυθμίσεις ειδοποιήσεων μεταβαίνοντας στη σελίδα <a href="%{account_link}">ρυθμίσεις ειδοποιήσεων</a>
+      unsubscribe: Κατάργηση εγγραφής
+      unsubscribed: Εχετε <strong>διαγραφεί</strong>.Εάν το κάνατε κατά λάθος, μπορείτε να εγγραφείτε ξανά μεταβαίνοντας στη σελίδα <a href="%{account_link}">ρυθμίσεις ειδοποιήσεων</a>
   episode_count:
     one: "%{count} επεισόδιο"
     other: "%{count} επεισόδια"
@@ -1769,21 +1771,21 @@ el-GR:
   flash:
     email_verified:
       message:
-      title:
+      title: Η διεύθυνση ηλεκτρονικού ταχυδρομείου επαληθεύτηκε
     invalid_password_code:
       message: Ο κωδικός επαναφοράς του συνθηματικού δεν είναι έγκυρος.
     invalid_session:
       message:
       title:
     logged_out:
-      message:
+      message: Εχετε αποσυνδεθεί με επιτυχία.
       title:
     password_reset:
       message:
       title:
     password_reset_email_required:
       message:
-      title:
+      title: Απαιτείται διεύθυνση ηλεκτρονικού ταχυδρομείου
     resend_verification_email:
       message:
       title:
@@ -1791,39 +1793,39 @@ el-GR:
   homepage:
     community:
       benefits_list:
-        '1':
-        '2':
-        '3':
-        '4':
-        '5':
-        '6':
+        '1': Απολαύστε το TMDb χωρίς διαφημίσεις
+        '2': Διατηρήστε μια προσωπική λίστα παρακολούθησης
+        '3': Φιλτράρετε τις υπηρεσίες ροής στις οποίες έχετε εγγραφεί και βρείτε κάτι για παρακολούθηση
+        '4': Επισήμανση ταινιών και σειρών που έχετε δει
+        '5': Δημιουργήστε προσαρμοσμένες λίστες
+        '6': Συνεισφέρετε και βελτιώστε τη βάση δεδομένων μας
     discussions:
-      catch_up_now: Ενημερωθείτε τώρα
+      catch_up_now:
       discussions: Συζητήσεις
     header:
-      quick_snippet_1:
-      welcome_1:
+      quick_snippet_1: Εκατομμύρια ταινίες, τηλεοπτικές σειρές και πρόσωπα για να δείτε. Αναζητήστε τώρα.
+      welcome_1: Καλώς ήρθατε
     panels:
       community:
-        join_today:
-        sign_up:
+        join_today: Εγγραφείτε σήμερα
+        sign_up: Εγγραφή
       filters:
-        for_rent:
-        in_theaters:
-        movies:
-        on_tv:
-        streaming:
-        this_week:
-        today:
-        tv:
-      free_to_watch:
-      latest_trailers:
+        for_rent: Προς ενοικίαση
+        in_theaters: Στους κινηματογράφους
+        movies: Ταινίες
+        on_tv: Στην τηλεόραση
+        streaming: Σε ροή (Streaming)
+        this_week: Αυτή την εβδομάδα
+        today: Σήμερα
+        tv: Τηλεόραση
+      free_to_watch: Δωρεάν για παρακολούθηση
+      latest_trailers: Τελευταία τρέιλερ
       leaderboard:
-        all_time:
-        leaderboard:
-        this_week:
-      trending:
-      whats_popular:
+        all_time: Επεξεργασίες όλων των εποχών
+        leaderboard: Πίνακας Κατάταξης
+        this_week: Επεξεργασίες Αυτής Της Εβδομάδας
+      trending: Τάσεις
+      whats_popular: Τι είναι δημοφιλές
     taw:
       read_the_2018_recap: ΔΙΑΒΑΣΤΕ ΤΗΝ ΑΝΑΣΚΟΠΗΣΗ ΤΟΥ 2018
       read_the_2019_recap: ΔΙΑΒΑΣΤΕ ΤΗΝ ΑΝΑΣΚΟΠΗΣΗ ΤΟΥ 2019
@@ -1856,6 +1858,7 @@ el-GR:
   item_count:
     one: "%{count} στοιχείο"
     other: "%{count} στοιχεία"
+  item_count_more:
   jobs:
     '"A" Camera Operator': Χειριστής πρώτης κάμερας
     '"B" Camera Operator': Χειριστής δεύτερης κάμερας
@@ -2859,7 +2862,7 @@ el-GR:
   login_to_create: Δεν μπορείτε να βρείτε κάποια ταινία ή τηλεοπτική σειρά; Συνδεθείτε για να τη δημιουργήσετε.
   login_to_edit: Συνδεθείτε για να επεξεργαστείτε
   media:
-    adult:
+    adult: Ενήλικες
     changes:
       filters:
         clear: Εκκαθάριση
@@ -2874,21 +2877,21 @@ el-GR:
     collection:
       edit:
         parts:
-          add:
-          no_records:
+          add: Προσθήκη ταινίας
+          no_records: Δεν έχουν προστεθεί ταινίες.
       parts:
     company:
       headquarters: Εγκαταστάσεις
       movie_page_title: 'Ταινίες που έχουν παραχθεί από τον/την %{name} '
       tv_page_title: 'Τηλεοπτικές σειρές που έχουν παραχθεί από τον/την %{name} '
     edit:
-      cast_updated:
-      genres_updated:
-      lock_all_cast_crew_description:
+      cast_updated: Η Πρωταγωνιστές ενημερώθηκαν
+      genres_updated: Τα Είδη ενημερώθηκαν
+      lock_all_cast_crew_description: Κάνοντας κλικ στο "ναι", θα κλειδωθούν όλες οι υπάρχουσες εγγραφές για μελλοντική επεξεργασία από απλούς χρήστες. Οι συντονιστές θα εξακολουθούν να μπορούν να κάνουν αλλαγές.
       lock_all_fields: Κλειδώστε όλα τα πεδία
       lock_all_images: Κλειδώστε όλες τις εικόνες
-      lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_cast: Κλείδωμα υπαρχόντων πρωταγωνιστών
+      lock_existing_crew: Κλείδωμα υπαρχόντων συντελεστών
       page_title: Επεξεργασία %{name}
       placeholders:
         country: Επιλέξτε χώρα...
@@ -3016,9 +3019,11 @@ el-GR:
         non_binary:
       media_types:
         all: Ολα
-        movies:
-        tv:
-        tv_shows:
+        movies: Ταινίες
+        tv: Τηλεόραση
+        tv_shows: 'Τηλεοπτικές Σειρές
+
+          '
       years_old:
         one: "%{count} ετών"
         other: "%{count} ετών"
@@ -3030,21 +3035,21 @@ el-GR:
       score_history:
       score_trend:
     shortcut_bar:
-      alternative_titles:
+      alternative_titles: Εναλλακτικοί τίτλοι
       backdrops: Ταπετσαρίες
       cast_crew: Ηθοποιοί & Συντελεστές
       changes: Αλλαγές
       fandom:
       headshots:
-      logos:
-      main:
-      media:
-      overview:
+      logos: Λογότυπο
+      main: Κύρια σελίδα
+      media: Πολυμέσα
+      overview: Επισκόπηση
       posters: Αφίσες
       profiles: Προφίλ
-      release_dates:
+      release_dates: Ημερομηνίες Κυκλοφορίας
       reviews: Κριτικές
-      translations:
+      translations: Μεταφράσεις
       videos: Βίντεο
     social_panel:
       discussions:
@@ -3453,7 +3458,7 @@ el-GR:
     rated_tv: Αναζήτηση αξιολογούμενων τηλεοπτικών σειρών...
     recommendations_movie: Αναζήτηση σε προσωπικές σας αξιολογήσεις ταινιών
     recommendations_tv: Αναζήτηση στις προσωπικές σας αξιολογήσεις τηλεοπτικών σειρών...
-    search_results:
+    search_results: Αποτελέσματα Αναζήτησης
     trending: Δημοφιλή θέματα
     trending_searches: Δημοφιλείς αναζητήσεις
     watchlist_movie: Αναζήτηση στη λίστα παρακολούθησης ταινιών...
@@ -3466,10 +3471,10 @@ el-GR:
   settings:
     account:
       account_settings: Ρυθμίσεις λογαριασμού
-      auto_detect:
-      page_title:
-      resend_verification_email_text: Λείπει το μήνυμα ηλεκτρονικού ταχυδρομείου επαλήθευσης λογαριασμού; Εισάγετε το όνομα χρήστη σας παρακάτω, για να ξανασταλεί.
-      reset_password_text:
+      auto_detect: Αυτόματος εντοπισμός;
+      page_title: Οι ρυθμίσεις μου
+      resend_verification_email_text: Λείπει το μήνυμα ηλεκτρονικού ταχυδρομείου επαλήθευσης λογαριασμού; Εισάγετε το όνομα χρήστη σας παρακάτω, για να σταλθεί ξανά.
+      reset_password_text: Εισάγετε το μήνυμα ηλεκτρονικού ταχυδρομείου που χρησιμοποιήσατε για να εγγραφείτε για ένα λογαριασμό TMDb και θα σας στείλουμε τα βήματα που απαιτούνται για να επαναφέρετε τον κωδικό πρόσβασης σας.
     api:
       api: API
       create_page_title:
@@ -3479,7 +3484,7 @@ el-GR:
         create: Δημιουργία
         details: Λεπτομέρειες
         directory: Κατάλογος
-        overview:
+        overview: Επισκόπηση
         sessions: Συνεδρίες
         stats: Στατιστικά
       page_title:
@@ -3489,30 +3494,28 @@ el-GR:
       action: Ενέργεια
       blocked_users: Αποκλεισμένοι χρήστες
       no_blocked: Δεν έχετε αποκλείσει κανέναν χρήστη.
-      page_title:
-      username: 'Όνομα χρήστη
-
-        '
+      page_title: Οι αποκλεισμένοι χρήστες μου
+      username: Ονομα χρήστη
     change_email:
       change_email: Αλλαγή email
       change_email_text: Αν θέλετε να αλλάξετε το email σας, πληκτρολογήστε ένα νέο email στο παρακάτω πεδίο. Πριν να είστε σε θέση να συνδεθείτε ξανά, θα πρέπει να επαληθεύσετε τη νέα διεύθυνση σας, κάνοντας κλικ στο σύνδεσμο ενεργοποίησης στο email που στείλαμε στη νέα σας διεύθυνση.
-      page_title:
+      page_title: Αλλαγή της διεύθυνσης email μου
     delete_account:
-      confirm_delete:
+      confirm_delete: Επιβεβαίωση διαγραφής
       delete_account: Διαγραφή λογαριασμού
-      page_title:
+      page_title: Διαγραφή του λογαριασμού μου
       summary_text: Εχετε εισέλθει στην <strong>ζώνη κινδύνου!</strong>! Αν θέλετε να συνεχίσετε και να καταργήσετε το λογαριασμό σας, μπορείτε να το κάνετε εισάγοντας τον προσωπικό σας κωδικό πρόσβασης παρακάτω και επιβεβαιώνοντας τις υποδείξεις.
     import_list:
       import_button: Εισαγωγή
       import_list: Εισαγωγή λίστας
-      import_status:
+      import_status: Εισαγωγή κατάστασης
       navigation:
         import: Εισαγωγή
         previous: Προηγούμενες εισαγωγές
       notification:
         finished_import: Η εισαγωγή ολοκληρώθηκε!
         started_import: Η εισαγωγή άρχισε...
-      page_title:
+      page_title: Εισαγωγή λίστας
       previous:
         date: Ημερομηνία
         imported: Εισαγόμενες
@@ -3533,7 +3536,7 @@ el-GR:
             personal_rating_not_found: Η προσωπική σας αξιολόγηση δεν βρέθηκε σε αυτή τη γραμμή.
             row_is_invalid: Αυτή η γραμμή δεν είναι έγκυρη.
             updated_date: Ημερομηνία ενημέρωσης.
-          reason: Λόγος;(Αν ισχύει)
+          reason: Λόγος; (Αν ισχύει)
           summary: Μπορέσαμε να εισαγάγουμε συνολικά %{imported_count} στοιχεία από τα %{total_count} (%{imported_percentage}%) αντικείμενα που ανιχνεύσαμε στην εξαγόμενη λίστα σας.
         currently_running: Η εισαγωγή σας εκτελείται αυτή τη στιγμή. Μπορείτε να ανανεώσετε αυτήν τη σελίδα για να δείτε αν έχει ολοκληρωθεί.
         import_results: Αποτελέσματα εισαγωγής
@@ -3569,7 +3572,7 @@ el-GR:
       notifications: Ειδοποιήσεις
       page_title:
     profile:
-      accent_color: Έγχρωμο
+      accent_color: Εγχρωμο
       avatar:
         current_avatar: Τρέχων avatar
         explain: Προς το παρόν, η μόνη επιλογή που έχουμε για να εμφανίσετε ένα προσαρμοσμένο άβαταρ είναι με τη χρήση μιας υπηρεσίας που ονομάζεται <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> Εάν θέλετε να εμφανίσετε ένα προσαρμοσμένο άβαταρ για την TMDb, θα πρέπει να δημιουργήσετε λογαριασμό στο Gravatar φροντίζοντας να προσθέσετε την ίδια διεύθυνση ηλεκτρονικού ταχυδρομείου που χρησιμοποιήσατε εδώ(αυτό είναι το πώς μπορείτε να συνδέσετε τον λογαριασμό σας). Μόλις γίνει αυτό, κάντε κλικ στο κουμπί Ενημέρωση παρακάτω και θα αποκτήσετε τη νέα σας εικόνα.
@@ -3604,11 +3607,11 @@ el-GR:
           <p>Για να αλλάξετε τον κωδικό πρόσβασής σας, χρειαζόμαστε μια έγκυρη διεύθυνση email. Δυστυχώς, είχαμε πρόβλημα στην αποστολή emails σε εσάς στο παρελθόν. Μπορείτε να δείτε τα σφάλματα <a href="/u/%{username_url}/events/emails?status=2,3">εδώ</a>.</p>
 
           <p>Αν τα προβλήματα με τη διεύθυνση email έχουν λυθεί ή ήταν μόνο προσωρινά, κάντε κλικ στο κουμπί επαναφοράς κάτω και θα σας στείλουμε άλλο email.</p>
-        sending_problems:
-        what_is_your_email:
-      page_title:
+        sending_problems: Παρουσιάστηκε πρόβλημα κατά την αποστολή μηνυμάτων στη διεύθυνση email σας. Προτού συνεχίσουμε, πρέπει να βεβαιωθούμε ότι τα email μας παραδίδονται με επιτυχία.
+        what_is_your_email: Ποιο είναι το email σας;
+      page_title: Το Προφίλ μου
       reset_password_dialog_text: Με την επιβεβαίωση της αίτησης θα σας σταλεί ένα email με οδηγίες για το πώς να επαναφέρετε το συνθηματικό σας. Είστε σίγουροι ότι θέλετε να το κάνετε αυτό;
-      reset_password_dialog_text2:
+      reset_password_dialog_text2: "<strong>Παρακαλώ σημειώστε:</strong> επαναφέροντας τον κωδικό πρόσβασης σας, θα αποσυνδεθείτε από όλες τις τρέχουσες συνεδρίες."
     sessions:
       api:
         connected_apps: Συνδεδεμένες εφαρμογές
@@ -3659,7 +3662,7 @@ el-GR:
         service: Υπηρεσία
       favorite_message_hint: Όταν επισημαίνετε ένα στοιχείο ως αγαπημένο και το κοινοποιείτε στο Twitter ή στο Facebook...
       message_settings: Ρυθμίσεις μηνυμάτων
-      page_title:
+      page_title: Ρυθμίσεις των κοινωνικών δικτύων μου
       sharing_message_hint: Όταν κοινοποιείτε ένα στοιχείο στο Twitter ή στο Facebook...
       social_settings: Ρυθμίσεις κοινωνικών δικτύων
       supported_template_values: 'Υποστηριζόμενες τιμές προτύπου:'
@@ -3673,7 +3676,7 @@ el-GR:
       build_watchlist: Μπορείτε να φτιάχνετε και να διατηρείτε την προσωπική σας λίστα παρακολούθησης
       contribute: Μπορείτε να συνεισφέρετε και να βελτιώνετε τις πληροφορίες στη βάση δεδομένων μας
       discussions: Μπορείτε να λαμβάνετε μέρος σε συζητήσεις για ταινίες και σειρές
-      find_something_to_watch:
+      find_something_to_watch: Βρείτε κάτι για να παρακολουθήσετε στις υπηρεσίες ροής που έχετε εγγραφεί
       keep_track: Μπορείτε να παρακολουθείτε τις αγαπημένες ταινίες και σειρές και να λαμβάνετε προτάσεις σύμφωνα με αυτές
       log_movies: Ημερολόγιο με ταινίες και τηλεοπτικές εκπομπές που είδατε
     by_clicking_agree_to_terms: Κάνοντας κλικ στο κουμπί "Εγγραφή" παρακάτω, βεβαιώνω ότι έχω διαβάσει και συμφωνώ με τους όρους χρήσης και την πολιτική απορρήτου του TMDb.
