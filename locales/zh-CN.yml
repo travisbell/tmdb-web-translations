@@ -1386,8 +1386,8 @@ zh-CN:
     contribution_bible: 数据编辑参考手册
     featured_articles: 精华文章
     general:
-      general: 一般
-      general_bible: 一般参考手册
+      general: 通用
+      general_bible: 通用参考手册
     image:
       image: 图片
       image_bible: 图片编辑参考手册
@@ -1399,7 +1399,7 @@ zh-CN:
         top: 电影
     new_content:
       new_content: 新内容
-      new_content_bible: 增加新内容參考手冊
+      new_content_bible: 增加新内容参考手册
     note: 笔记
     people:
       people: 人物
@@ -1416,7 +1416,7 @@ zh-CN:
         top: 剧集
       tv: 剧集
       tv_bible: 剧集编辑参考手册
-    welcome_1: 欢迎至
+    welcome_1: 欢迎来到
     welcome_2: 贡献参考手册
   cookie_popup:
     message: 为了让您在访问 TMDb 网站能有更好的体验，我们需要使用 cookies。您可以浏览我们的<a href="%{policy_url}" target="_blank" rel="noopener">cookie 使用条款</a>了解更多内容。如果您继续使用 TMDb，我们默认您已经同意此条款。
@@ -1475,43 +1475,47 @@ zh-CN:
   day: 日
   days: "%{count} 日"
   deleted_content:
-    entry_deleted: 内容已删除
+    entry_deleted: 条目已删除
     reasons:
       '1':
         message: |-
-          你好，
-          这只是一条 TMDb 内容管理员发过来的友好消息。你创建的名为 "%{title}" 的条目已经被删除。因为标题已经存在于我们的数据库中，所以被认为是重复内容。
-          如果对这个删除操作有任何疑问，请不用顾虑，直接回复这条消息。
-        subject: 重复内容
+          您好，
+
+          这是来自 TMDb 内容管理员的友情提示。你创建的标题为 "%{title}" 的条目已经被删除。该标题已经存在于我们的数据库中，因此被认定为重复内容。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
+        subject: 重复条目
       '2':
         message: |-
-          你好，
-          这只是一条 TMDb 内容管理员发过来的友好消息。你创建的名为 "%{title}" 的条目已经被删除。因为标题不符合我们[的新内容准则](https://www.themoviedb.org/bible/new_content)。
-          如果对这个删除操作有任何疑问，请不用顾虑，直接回复这条消息。
+          您好，
+
+          这是来自 TMDb 内容管理员的友情提示。你创建的标题为 "%{title}" 的条目已经被删除。因为该条目不符合我们的[增加新内容准则](https://www.themoviedb.org/bible/new_content)。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 不符合我们的内容准则（业余，等等）
       '3':
         message: |-
-          Hi 您好，
+          您好，
 
-          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目已经显示为一部剧集，因此不认为是一部电影。你可以[在此](https://www.themoviedb.org/bible/new_content)获得更多我们的内容指南。
+          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除。因为已存在以此为标题的剧集，所以不认定其为一部电影。你可以[在此](https://www.themoviedb.org/bible/new_content)阅读更多有关我们内容准则的信息。
 
-          如果您还有任何相关问题，请随时回复本消息。
+          如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是一部剧集
       '4':
         message: |-
-          Hi 您好，
+          您好，
 
-          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
 
-          如果您还有任何相关问题，请随时回复本消息。
+          如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 假条目
       '5':
         message: |-
-          Hi 您好，
+          您好，
 
-          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除了。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDb 内容管理员的友情提示。您创建的标题为"%{title}" 的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
 
-          如果您还有任何相关问题，请随时回复本消息。
+          如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是垃圾邮件
     why_deleting: 你为什么要删除此条目？
   department_credits_count:
@@ -1834,7 +1838,7 @@ zh-CN:
       headshots_must_meet:
       posters_must_meet: 海报需要符合下列条件：
       profile_must_meet: 个人图片必须符合下列条件：
-      read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献指南</a>。
+      read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
   invalid_aspect_ratio: 此宽高比无效。
   item_count:
@@ -2889,7 +2893,7 @@ zh-CN:
       success_fields_locked: 区域已锁定。
       tooltips:
         adult: 此标志通常用于色情内容。更多信息参见 <a href="/bible/movie#59f73b759251416e71000004">数据编辑参考手册</a>
-        bible: 有关 TMDb 上编辑信息的帮助，点击 '?' 按钮阅读贡献指南。
+        bible: 有关 TMDb 上编辑信息的帮助，点击 '?' 按钮阅读贡献参考手册。
         homepage: 仅官方主页，影迷页不允许
         logo_format: 支持 SVG 和 PNG 格式。推荐 SVG 格式，因为 SVG 格式支持无级缩放。
         original_title: 原片名应录入影片的原始语言，通常跟“原始语言”栏的语言一致。
@@ -2921,7 +2925,7 @@ zh-CN:
     movie:
       edit:
         adult:
-          adult_movie: 色情电影？
+          adult_movie: 是否为色情电影？
         alternative_titles:
           no_records: 未添加别名。
         cast:
@@ -3081,7 +3085,7 @@ zh-CN:
       create_season: 创建季
       edit:
         adult:
-          adult_show: 是成人剧集吗？
+          adult_show: 是否成人剧集？
         alternative_names:
           no_records: 未添加别名。
         content_ratings:
@@ -3241,7 +3245,7 @@ zh-CN:
   no_cast: 此%{media_type}还没有演员信息。你可以帮助添加！
   no_collection_search_results: 未找到所查询的系列。
   no_company_search_results: 未找到所查询的公司。
-  no_contributors: 没未找到贡献者
+  no_contributors: 没未找到贡献者。
   no_created_lists: 你尚未创建收藏清单。
   no_crew: 此 %{media_type} 还没有工作人员信息。你可以帮助添加！
   no_description: 尚未录入描述。
