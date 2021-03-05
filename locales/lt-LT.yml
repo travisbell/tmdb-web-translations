@@ -200,6 +200,7 @@ lt-LT:
   Forum: Forumas
   Forums: Forumai
   Full Cast & Crew: Visa aktorių ir filmavimo grupės sudėtis
+  Full Character List:
   Full Leaderboard: Visas lyderių sąrašas
   Gender: Lytis
   General: Pagrindinis
@@ -1298,12 +1299,15 @@ lt-LT:
           meaning: Ši programa yra specialiai sukurta suaugusiems, todėl gali būti netinkama vaikams iki 17 metų amžiaus
   character:
     add_a_character:
+    add_backdrop_grp:
     back:
     backdrop:
     character_backdrop_photo:
     character_bio:
+    character_name:
     character_search_label:
     character_search_text:
+    character_to_search:
     character_wiki:
     choose_a_character:
     choose_a_character_info:
@@ -1313,38 +1317,68 @@ lt-LT:
     create_overview_help:
     create_overview_name_help: Keiskite simbolio pavadinimą tik tuo atveju, jei yra konkreti priežastis, arba bendriniu vardu, kurį jie žino.
     create_overview_note:
+    done_editing:
+    edit_groups:
+    edit_groups_description:
+    edit_label:
     era:
+    find_character:
+    find_character_note:
+    found_everything:
     help_our_mods:
     help_our_mods_info:
+    launch_label:
     media_types:
       character:
+      movie_character_name:
+      tv_character_name:
       tv_show:
+    movie_titles:
+    navigate_to_dashboard:
+    navigate_to_master:
     need_help:
     next:
+    next_edit_groups:
+    next_launch_page:
     next_nav_label:
+    next_review_page:
     note:
     note_info:
     note_mods:
     okay:
     optional:
+    page_is_live:
+    placeholder_synopsis:
     played_by:
     previous:
     previous_nav_label:
+    ready_to_launch:
+    result:
     results_info_text:
     results_selection_info:
     revenue:
+    review_and_launch_title:
+    review_label:
     search:
+    search_character_note:
     search_error_info:
+    select_group_title:
     star:
     submit_and_preview:
+    title_drag_info:
     total_appearance:
     total_budget:
+    tv_titles:
     upload_backdrop_title:
     user_added_backdrop_info:
     user_added_backdrop_label:
     user_variant_description:
     user_variant_intro:
+    validation_charactername:
+    validation_grpname:
+    validation_synopsis:
     view_by:
+    what_next:
   collection_includes: apima %{movie_titles}
   confirm_delete: Ar tikrai norite ištrinti šį įrašą?
   content_score:
@@ -1702,6 +1736,8 @@ lt-LT:
       subscription_changed: Jūsų prenumeratos nustatymai buvo atnaujinti. Pranešimų nustatymus galite redaguoti apsilankę <a href="%{account_link}">pranešimų nustatymų </a> puslapyje.
       unsubscribe: Prenumerata atšaukta
       unsubscribed: <strong>Atšaukėte prenumeratą</strong>. Jei tai padarėte per klaidą, galite iš naujo prenumeruoti apsilankę <a href="%{account_link}">pranešimų nustatymų</a> puslapyje.
+  en-US:
+    Appearances:
   episode_count:
     few: "%{count} epizodai"
     one: "%{count} epizodas"
@@ -3019,6 +3055,7 @@ lt-LT:
       backdrops: Filmo scenos
       cast_crew: Aktoriai ir Filmavimo komanda
       changes: Pakeitimai
+      characters:
       fandom: Gerbėjams
       headshots:
       logos:
@@ -3135,6 +3172,7 @@ lt-LT:
             one: "%{count} Grupė"
             other: ''
         original_air_date: Originali eterio data
+      master_characters:
       networks:
         few: Transliuotojai
         one: Transliuotojas
@@ -3156,6 +3194,7 @@ lt-LT:
         Scripted: Scenarijus
         Talk Show: Pokalbių šou
         Video: Vaizdo įrašas
+      user_characters:
     video:
       audio_language: Garso takelio kalba
       channel: Kanalas

@@ -197,6 +197,7 @@ en-US:
   Forum: Forum
   Forums: Forums
   Full Cast & Crew: Full Cast & Crew
+  Full Character List: Full Character List
   Full Leaderboard: Full Leaderboard
   Gender: Gender
   General: General
@@ -1293,12 +1294,15 @@ en-US:
           meaning: This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17
   character:
     add_a_character: Add a character
+    add_backdrop_grp: Add A Backdrop For This Group
     back: Back
     backdrop: Backdrop
     character_backdrop_photo: Character Backdrop Photo
     character_bio: Character Bio
+    character_name: Character Names
     character_search_label: What character are you looking for?
     character_search_text: Which character would you like to find ?
+    character_to_search: What character or title are you looking for ?
     character_wiki: Character Wiki
     choose_a_character: Choose A Character
     choose_a_character_info: Adding a character means linking together the appearance of an actor ot actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne/Batman. Those three appearance in that role equals one character.
@@ -1308,38 +1312,68 @@ en-US:
     create_overview_help: Help us populate the bio for this character over the series of movies/tv appearances they made.
     create_overview_name_help: Please only change the character name if there is a specific reason or to a common name that they are known by.
     create_overview_note: The actor and their headshot cannot be edited here.
+    done_editing: Done Editing?
+    edit_groups: Edit Groups
+    edit_groups_description: 'Below is the template for the character pages. Please go through and add the group names, <br> synopsis and imagery to complete the page. '
+    edit_label: edit
     era: Era
+    find_character: Which characters or title would you like to find ?
+    find_character_note: Find your favourite character, titles and more
+    found_everything: Found Everything?
     help_our_mods: Help Our Moderators
     help_our_mods_info: Tell us about the character! This is a private field between you and the moderation team. Any info you provide about the character and why you're creating it, will help them when reviewing your page.
+    launch_label: launch
     media_types:
       character: Character
+      movie_character_name: Movie Character Names
+      tv_character_name: TV Character Names
       tv_show: TV Shows
+    movie_titles: Movie Titles
+    navigate_to_dashboard: Go To My Dashboard
+    navigate_to_master: Go To The Master Page
     need_help: Need Help?
     next: Next
+    next_edit_groups: 'Next: Edit Groups'
+    next_launch_page: 'Next: Launch Page'
     next_nav_label: Next
+    next_review_page: 'Next: Review Page'
     note: Note
     note_info: To continue please select a person from the dropdown below.
     note_mods: A note for moderators
     okay: Okay
     optional: optional
+    page_is_live: The page is Live Now!
+    placeholder_synopsis: Enter character Synopsis here
     played_by: Played By
     previous: Previous
     previous_nav_label: Prev
+    ready_to_launch: That\'s All. Ready to launch ?
+    result: Results
     results_info_text: Select what portrayal of character you'd like to add.
     results_selection_info: You can only select a single person in the role of the character. Every person playing the role of this character counts a different version and will need to be added separately.
     revenue: Revenue
+    review_and_launch_title: Review & Launch
+    review_label: review
     search: Search
+    search_character_note: Search for the character or title you'd like to add below. You may create multiple searches to find everything you'd like to add.
     search_error_info: Please edit your search or check that the title in which the character appears exists in the database and has an accurate cast and crew details.
+    select_group_title: Select & Group Titles
     star: Star
     submit_and_preview: Submit and Preview
+    title_drag_info: Any titles you wish to add can be dragged to the sidebar to the left.
     total_appearance: Total Appearance
     total_budget: Total Budget
+    tv_titles: TV Titles
     upload_backdrop_title: Select the person against which you want to associate this image.
     user_added_backdrop_info: Here are the backdrop photos added by you for the character. Please select the photos you want to proceed with.
     user_added_backdrop_label: User Added Backdrop Photos
     user_variant_description: Here's a few possible photos we have pulled up for the Character. Please select one or add an alternate that suits the character better.
     user_variant_intro: Find your favourite character from the Movies, TV Shows and more ...
+    validation_charactername: Master character name is required
+    validation_grpname: Please enter a valid group name
+    validation_synopsis: Enter a valid synopsis
     view_by: View By
+    what_next: What would you like to do next?
   collection_includes: Includes %{movie_titles}
   confirm_delete: Are you sure you want to delete this record?
   content_score:
@@ -1722,6 +1756,8 @@ en-US:
       subscription_changed: Your subscription settings have been updated. You can edit your notification settings by visiting your <a href="%{account_link}">notification settings</a> page.
       unsubscribe: Unsubscribe
       unsubscribed: You've been <strong>unsubscribed</strong>. If you did this in error you can re-subscribe by visiting your <a href="%{account_link}">notification settings</a> page.
+  en-US:
+    Appearances: Appearances
   episode_count:
     many: "%{count} Episodes"
     one: "%{count} Episode"
@@ -3041,6 +3077,7 @@ en-US:
       backdrops: Backdrops
       cast_crew: Cast & Crew
       changes: Changes
+      characters: Characters
       fandom: Fandom
       headshots: Headshots
       logos: Logos
@@ -3155,6 +3192,7 @@ en-US:
             one: "%{count} Group"
             other: "%{count} Groups"
         original_air_date: Original Air Date
+      master_characters: Master Characters
       networks:
         one: Network
         other: Networks
@@ -3175,6 +3213,7 @@ en-US:
         Scripted: Scripted
         Talk Show: Talk Show
         Video: Video
+      user_characters: User Characters
     video:
       audio_language: Audio Language
       channel: Channel

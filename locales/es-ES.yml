@@ -199,6 +199,7 @@ es-ES:
   Forum: Foro
   Forums: Foros
   Full Cast & Crew: Reparto y equipo completo
+  Full Character List:
   Full Leaderboard: Tabla de clasificación completa
   Gender: Sexo
   General: General
@@ -1299,12 +1300,15 @@ es-ES:
           meaning: Este programa está diseñado específicamente para un público adulto y, por lo tanto, puede no ser adecuado para menores de 17 años.
   character:
     add_a_character: Añadir un personaje
+    add_backdrop_grp:
     back: Volver
     backdrop: Imagen de fondo
     character_backdrop_photo: Imagen de fondo del personaje
     character_bio: Biografía del personaje
+    character_name:
     character_search_label: "¿Qué personaje estás buscando?"
     character_search_text: "¿Qué personaje te gustaría encontrar?"
+    character_to_search:
     character_wiki: Wiki del personaje
     choose_a_character: Elegir un personaje
     choose_a_character_info: Añadir un personaje significa vincular la aparición de un actor o una actriz que desempeña un papel específico. Un ejemplo sería la Trilogía del Caballero Oscuro (tres películas) en la que Christen Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel equivalen a un personaje.
@@ -1314,38 +1318,68 @@ es-ES:
     create_overview_help: Ayúdanos a completar la biografía de este personaje a lo largo de la serie de apariciones en películas/tv que hizo.
     create_overview_name_help: Cambia el nombre del personaje solo por una razón específica o por un nombre común por el que se le conoce.
     create_overview_note: El actor y su foto de perfil no se pueden editar aquí.
+    done_editing:
+    edit_groups:
+    edit_groups_description:
+    edit_label:
     era: Era
+    find_character:
+    find_character_note:
+    found_everything:
     help_our_mods: Ayuda a nuestros moderadores
     help_our_mods_info: "¡Cuéntanos algo del personaje! Este es un campo privado entre el equipo de moderación y tú. Cualquier información que proporciones sobre el personaje y por qué lo estás creando, les ayudará cuando revisen tu página."
+    launch_label:
     media_types:
       character: Personaje
+      movie_character_name:
+      tv_character_name:
       tv_show: Programas de televisión
+    movie_titles:
+    navigate_to_dashboard:
+    navigate_to_master:
     need_help: "¿Necesitas ayuda?"
     next: Siguiente
+    next_edit_groups:
+    next_launch_page:
     next_nav_label: Siguiente
+    next_review_page:
     note: Nota
     note_info: Para continuar, selecciona una persona del menú desplegable siguiente.
     note_mods: Una nota para los moderadores
     okay: Bien
     optional: opcional
+    page_is_live:
+    placeholder_synopsis:
     played_by: Interpretado por
     previous: Anterior
     previous_nav_label: Anterior
+    ready_to_launch:
+    result:
     results_info_text: Selecciona qué representación del personaje te gustaría añadir.
     results_selection_info: Solo se puede seleccionar una sola persona en el papel del personaje. Cada persona que Interpreta el papel de este personaje cuenta una versión diferente y deberá añadirse por separado.
     revenue: Ingresos
+    review_and_launch_title:
+    review_label:
     search: Buscar
+    search_character_note:
     search_error_info: Edita tu búsqueda o verifica que el título en el que aparece el personaje exista en la base de datos y tenga detalles precisos del elenco y del equipo.
+    select_group_title:
     star: Estrella
     submit_and_preview: Enviar y previsualizar
+    title_drag_info:
     total_appearance: Aparición total
     total_budget: Presupuesto total
+    tv_titles:
     upload_backdrop_title: Selecciona la persona a la que asociar esta imagen.
     user_added_backdrop_info: Estas son las fotos de fondo que añadiste del personaje. Selecciona las fotos con las que continuar.
     user_added_backdrop_label: Fotos de fondo añadidas por el usuario
     user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
     user_variant_intro: Encuentra tu personaje favorito de películas, programas de televisión y más...
+    validation_charactername:
+    validation_grpname:
+    validation_synopsis:
     view_by: Visto por
+    what_next:
   collection_includes: Incluye %{movie_titles}
   confirm_delete: "¿Estás seguro de que quieres borrar este registro?"
   content_score:
@@ -1727,6 +1761,8 @@ es-ES:
       subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tu configuración visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
       unsubscribe: Darse de baja
       unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
+  en-US:
+    Appearances:
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodios"
@@ -3045,6 +3081,7 @@ es-ES:
       backdrops: Imágenes de fondo
       cast_crew: Reparto y equipo
       changes: Cambios
+      characters:
       fandom: Fandom
       headshots: Imágenes de perfil
       logos: Logos
@@ -3159,6 +3196,7 @@ es-ES:
             one: "%{count} grupo"
             other: "%{count} grupos"
         original_air_date: Fecha de estreno original
+      master_characters:
       networks:
         one: Canal
         other: Canales
@@ -3179,6 +3217,7 @@ es-ES:
         Scripted: Con guion
         Talk Show: Programa de entrevistas
         Video: Vídeo
+      user_characters:
     video:
       audio_language: Idioma de audio
       channel: Canal

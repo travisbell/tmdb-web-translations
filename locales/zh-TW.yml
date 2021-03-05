@@ -197,6 +197,7 @@ zh-TW:
   Forum: 論壇
   Forums: 論壇
   Full Cast & Crew: 完整演員與製作群
+  Full Character List:
   Full Leaderboard: 完整排行榜
   Gender: 性別
   General: 一般
@@ -1291,12 +1292,15 @@ zh-TW:
           meaning: 這部節目特別為成人觀眾設計，因此可能不適合17歲以下兒童觀賞
   character:
     add_a_character:
+    add_backdrop_grp:
     back:
     backdrop:
     character_backdrop_photo:
     character_bio:
+    character_name:
     character_search_label:
     character_search_text:
+    character_to_search:
     character_wiki:
     choose_a_character:
     choose_a_character_info:
@@ -1306,38 +1310,68 @@ zh-TW:
     create_overview_help:
     create_overview_name_help:
     create_overview_note:
+    done_editing:
+    edit_groups:
+    edit_groups_description:
+    edit_label:
     era:
+    find_character:
+    find_character_note:
+    found_everything:
     help_our_mods:
     help_our_mods_info:
+    launch_label:
     media_types:
       character:
+      movie_character_name:
+      tv_character_name:
       tv_show:
+    movie_titles:
+    navigate_to_dashboard:
+    navigate_to_master:
     need_help:
     next:
+    next_edit_groups:
+    next_launch_page:
     next_nav_label:
+    next_review_page:
     note:
     note_info:
     note_mods:
     okay:
     optional:
+    page_is_live:
+    placeholder_synopsis:
     played_by:
     previous:
     previous_nav_label:
+    ready_to_launch:
+    result:
     results_info_text:
     results_selection_info:
     revenue:
+    review_and_launch_title:
+    review_label:
     search:
+    search_character_note:
     search_error_info:
+    select_group_title:
     star:
     submit_and_preview:
+    title_drag_info:
     total_appearance:
     total_budget:
+    tv_titles:
     upload_backdrop_title:
     user_added_backdrop_info:
     user_added_backdrop_label:
     user_variant_description:
     user_variant_intro:
+    validation_charactername:
+    validation_grpname:
+    validation_synopsis:
     view_by:
+    what_next:
   collection_includes: 包含 %{movie_titles}
   confirm_delete: 你確定要刪除這項紀錄嗎？
   content_score:
@@ -1717,6 +1751,8 @@ zh-TW:
       subscription_changed: 你已更新訂閱，現在可透過此<a href="%{account_link}">通知設定</a>頁面編輯帳戶通知設定。
       unsubscribe: 取消訂閱
       unsubscribed: 你已<strong>取消訂閱</strong>。如果你是錯誤取消訂閱，可透過<a href="%{account_link}">通知設定</a>頁面重新訂閱。
+  en-US:
+    Appearances:
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
   errors:
@@ -3023,6 +3059,7 @@ zh-TW:
       backdrops: 背景圖片
       cast_crew: 演員與製作群
       changes: 變更記錄
+      characters:
       fandom: 影迷
       headshots:
       logos:
@@ -3137,6 +3174,7 @@ zh-TW:
             one: "%{count} 個群組"
             other: "%{count} 個群組"
         original_air_date: 原始播出日期
+      master_characters:
       networks:
         one: 電視網
         other: 電視網
@@ -3157,6 +3195,7 @@ zh-TW:
         Scripted: 劇情
         Talk Show: 脫口秀
         Video: 影片
+      user_characters:
     video:
       audio_language: 音訊語言
       channel: 頻道
