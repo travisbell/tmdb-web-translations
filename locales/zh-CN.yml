@@ -45,7 +45,7 @@ zh-CN:
   Add YouTube Video: 添加 YouTube 视频
   Add a New Cast Member: 添加新演员
   Add a New Crew Member: 添加新工作人员
-  Add a New Guest Star: 添加新友情客串
+  Add a New Guest Star: 添加新客串演员
   Add to Watchlist: 添加到待看清单
   Add to list: 添加到收藏清单
   Add to your favorite list: 添加到我的最爱清单
@@ -204,7 +204,7 @@ zh-CN:
   Genres: 类型
   Genres & Keywords: 类型与关键字
   Get Involved: 已加入
-  Guest Stars: 客串
+  Guest Stars: 客串演员
   Guidelines: 准则
   Hardware/Embedded: 硬件/嵌入
   Help: 帮助
@@ -351,7 +351,7 @@ zh-CN:
   Rating Ascending: 评分升序
   Rating Descending: 评分降序
   Read More: 查看更多
-  Recent Blog Posts: 当前博客文章
+  Recent Blog Posts: 最近博客文章
   Recent News: 最近新闻
   Recommendations: " 推荐"
   Regions: 区域
@@ -581,7 +581,7 @@ zh-CN:
         recent_events: 最新动态
       recent: 最近
     export:
-      csv_explanation: 如果您想要这个清单的 CSV 格式，请点击下方的 “导出” 按钮，我们会将其导出并发送到您的邮箱，很长的清单可能会花稍长点的时间。
+      csv_explanation: 如果您想要这个清单的 CSV 格式，请点击下方的 “导出” 按钮，我们会将其导出并发送至您的邮箱，很长的清单可能会花稍长点的时间。
       export: 导出
       export_csv: 导出到 CSV 格式
     favorites:
@@ -1745,7 +1745,7 @@ zh-CN:
     confirm_new_email_address: 确认新邮箱地址
     does_not_match: 邮箱地址不相符，请重试。
     new_email_address: 新邮箱地址
-    sent_verification_email: 我们已将验证邮件发送到 %{email_address}。请检查你的收件箱（和垃圾邮件文件夹）获取指令。
+    sent_verification_email: 我们已将验证邮件发送至 %{email_address}。请检查你的收件箱（和垃圾邮件文件夹）以获取后续操作步骤。
     unsubscribe:
       sad_to_go: "%{username}，你的离开令人伤心！"
       subscription_changed: 您的订阅设置已更新。您可以通过访问<a href="%{account_link}">通知设置</a>页面来编辑通知设置。
@@ -1825,7 +1825,7 @@ zh-CN:
       catch_up_now: 快来吧
       discussions: 讨论
     header:
-      quick_snippet_1: 这里有海量的电影、剧集和人物等你来发现。快来探索吧。
+      quick_snippet_1: 这里有海量的电影、剧集和人物等你来发现。快来探索吧！
       welcome_1: 欢迎。
     panels:
       community:
@@ -1833,9 +1833,9 @@ zh-CN:
         sign_up: 注册
       filters:
         for_rent: 可供租借
-        in_theaters: 电影院上映
+        in_theaters: 影院上映中
         movies: 电影
-        on_tv: 在电视里
+        on_tv: 电视播出
         streaming: 流媒体
         this_week: 本周
         today: 今日
@@ -3188,7 +3188,7 @@ zh-CN:
         Planned: 已计划
         Returning Series: 回归剧
       types:
-        Documentary: 纪录
+        Documentary: 纪录片
         Miniseries: 迷你剧
         News: 新闻
         Reality: 真人秀
@@ -3277,7 +3277,7 @@ zh-CN:
     tv_shows:
       airing_today: 今日播出
       on_the_air: 播出中
-      on_tv: 在电视上
+      on_tv: 电视播出中
       popular: 热门
       top_rated: 高分
   no_biography: 没有 %{name} 的自传
@@ -3398,8 +3398,8 @@ zh-CN:
     available_snippet:
       flatrate: 通过流媒体观看
       rent_or_buy: 租借或购买
-      summary_sentence: 在 %{service_name} 上 %{available_snippet}
-    description: JustWatch 帮你轻松找到在线观看你最喜欢的电影和电视节目的正版平台。更多信息，请访问 {justwatch_link}。
+      summary_sentence: 在 %{service_name} 上%{available_snippet}
+    description: JustWatch 能让你轻松找到可在线观看你最喜欢的电影和剧集的正版平台。更多信息，请访问 {justwatch_link}。
     filters:
       4k: 4K
       best_price: 最优价格
