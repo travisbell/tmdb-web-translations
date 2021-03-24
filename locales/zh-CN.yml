@@ -65,6 +65,7 @@ zh-CN:
   Apiary Documentation: Apiary 文档
   App Directory: App 目录
   App Showcase: 应用展示
+  Appearances:
   Application Description: 应用描述
   Application Name: 应用名称
   Application Summary: 应用简介
@@ -351,15 +352,15 @@ zh-CN:
   Rating Ascending: 评分升序
   Rating Descending: 评分降序
   Read More: 查看更多
-  Recent Blog Posts: 最近博客文章
+  Recent Blog Posts: 最新博客文章
   Recent News: 最近新闻
   Recommendations: " 推荐"
   Regions: 区域
   Regular Cast: 固定演员
-  Release Date Ascending: 上映日期升序
-  Release Date Descending: 上映日期降序
-  Release Dates & Certifications: 上映日期与分级
-  Release Information: 上映信息
+  Release Date Ascending: 发行日期升序
+  Release Date Descending: 发行日期降序
+  Release Dates & Certifications: 发行日期与分级
+  Release Information: 发行信息
   Release Note: 备注
   Release Type: 类型
   Reload Page: 重载页面
@@ -447,8 +448,8 @@ zh-CN:
   Television: 电视
   Terms of Use: 使用条款
   The Basics: 基础信息
-  Theatrical: 电影院
-  Theatrical (limited): 电影院（有限上映）
+  Theatrical: 电影院上映
+  Theatrical (limited): 电影院上映（有限上映）
   Timezone: 时区
   Title: 标题
   Title (A-Z): 片名（A-Z）
@@ -522,7 +523,7 @@ zh-CN:
     activity:
       activity: 活动
       legend:
-        added: 附加
+        added: 添加
         created: 创建
         deleted: 删除
         updated: 修改
@@ -600,7 +601,7 @@ zh-CN:
       my_rating: 我的评分
       popularity: 排名
       rating: 评分
-      release_date: 上映日期
+      release_date: 发行日期
       score: 评分
       upcoming: 即将上映
     lists:
@@ -737,7 +738,7 @@ zh-CN:
     episode_list: 返回集列表
     home: 返回主页
     main: 返回主页面
-    named_episode_group: 返回 &lsquo;%{group_name}&rsquo; 组
+    named_episode_group: 回到“%{group_name}”
     season: 返回季
     season_list: 返回季列表
     to_tmdb: 回到 TMDb
@@ -1542,7 +1543,7 @@ zh-CN:
           这是来自 TMDb 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
-        subject: 假条目
+        subject: 这是一个假条目
       '5':
         message: |-
           您好，
@@ -1592,12 +1593,12 @@ zh-CN:
         tooltip: 按原始语言筛选项目
       minimum_user_votes: 最少投票人数
       network:
-        filter_by_network: 按电视台筛选
+        filter_by_network: 按电视网筛选
         network: 电视网
       none_selected: 未选择
       release_dates:
         from: 从
-        release_dates: 上映日期
+        release_dates: 发行日期
         search_all_countries: 搜索所有国家或地区？
         search_release_dates: 搜索所有发行渠道？
         to: 到
@@ -1633,7 +1634,7 @@ zh-CN:
     actions:
       actions: 动作
       close_discussion: 关闭讨论
-      make_private: 设为私有
+      make_private: 设为私密讨论
       make_public: 设为公开
       mark_spam: 标记为垃圾信息
       reopen_discussion: 重开讨论
@@ -1719,9 +1720,9 @@ zh-CN:
     report_violation: 举报违规
     search:
       advanced_search: 高级搜索
-      search_closed: 搜索关闭？
+      search_closed: 搜索已关闭讨论？
       search_forums: 搜索论坛...
-      search_open: 搜索打开？
+      search_open: 搜索开放评论？
     statuses:
       closed: 已关闭
       open: 开放
@@ -1751,8 +1752,6 @@ zh-CN:
       subscription_changed: 您的订阅设置已更新。您可以通过访问<a href="%{account_link}">通知设置</a>页面来编辑通知设置。
       unsubscribe: 取消订阅
       unsubscribed: 您已成功<strong>取消订阅</strong>。如果这是您误操作，可以通过访问<a href="%{account_link}">通知设置</a>页来重新订阅。
-  en-US:
-    Appearances:
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
   errors:
@@ -1784,12 +1783,12 @@ zh-CN:
       duplicate_season: 这一季已经存在。
   failed_email: 邮件发送失败
   failed_generic: 出现问题。
-  failed_report: 提交报告出问题。
+  failed_report: 提交报告时出了点问题。
   failed_sharing: 分享信息出问题。
   failed_validation: 存在验证错误...
   filter_by_release_date:
-    max: 按上映日期筛选（最晚日期）
-    min: 按上映日期筛选（最早日期）
+    max: 按发行日期筛选（最晚日期）
+    min: 按发行日期筛选（最早日期）
   flash:
     email_verified:
       message: 邮箱验证成功。你现在可以登录了。
@@ -1811,6 +1810,9 @@ zh-CN:
     resend_verification_email:
       message:
       title: 验证邮件已发送
+    upstream_problem:
+      message:
+      title:
   headshots_must_meet:
   homepage:
     community:
@@ -2817,30 +2819,30 @@ zh-CN:
     actions:
       back_to_parent: 返回（或返回上级）
       close_window: 关闭打开的窗口
-      focus_search: 焦点到搜索栏
-      go_to_edit: 访问编辑页面
-      last_reply: 到最新回复
+      focus_search: 聚焦到搜索栏
+      go_to_edit: 进入编辑页面
+      last_reply: 跳转至最新回复
       new_discussion: 创建新讨论
       next_episode: "（右箭头）下一集"
       next_page: "（右箭头）下一页"
       next_season: "（右箭头）下一季"
       open_activity: 打开活动页
-      open_add_image_window: 开启新增图片窗口
+      open_add_image_window: 打开添加图片窗口
       open_profile: 打开个人资料菜单
-      open_shortcut_window: 开启键盘快捷键窗口
+      open_shortcut_window: 打开键盘快捷键窗口
       open_translation_selector: 打开翻译选择器
       previous_episode: "（左箭头）前一集"
       previous_page: "（左箭头）前一页"
       previous_season: "（左箭头）前一季"
       reply_to_discussion: 回复讨论
       save_form: 提交
-      submit_message: 提交你的消息
-      toggle_close: 切换关闭/开启
-      toggle_private: 切换公开/私人
+      submit_message: 发送信息
+      toggle_close: 关闭 / 开放讨论
+      toggle_private: 设为公开 / 私密讨论
       toggle_watching: 切换关注状态
     groups:
       discussion_pages: 在讨论页面
-      edit_pages: 于所有编辑页面
+      edit_pages: 在所有编辑页面
       global: 全站通用
       image_pages: 在所有图像页面
       media_pages: 在媒体页面
@@ -2870,7 +2872,7 @@ zh-CN:
   list_sort:
     original_order: 原始顺序
     rating: 评分
-    release_date: 上映日期
+    release_date: 发行日期
     title: 标题
   list_steps:
     step_1: 步骤1：列示详情
@@ -2993,7 +2995,7 @@ zh-CN:
           none_found: 未找到相符的公司。要创建此制作公司吗？
           production_company: 出品公司
         release_information:
-          no_records: 未添加任何上映日期。
+          no_records: 未添加任何发行日期。
         videos:
           no_records: 未添加视频。
       statuses:
@@ -3068,7 +3070,7 @@ zh-CN:
       overview: 概览
       posters: 海报
       profiles: 档案照
-      release_dates: 上映日期
+      release_dates: 发行日期
       reviews: 评论
       translations: 翻译
       videos: 视频
@@ -3197,8 +3199,8 @@ zh-CN:
         Video: 视频
       user_characters:
     video:
-      audio_language: 配音语言
-      channel: 声道
+      audio_language: 对白语言
+      channel: 频道
       duration: 时长
       play_behind_the_scenes: 播放幕后
       play_blooper: 播放 NG 花絮
@@ -3578,7 +3580,7 @@ zh-CN:
       streaming_services: 流媒体服务
     notifications:
       api_updates: 向我发送有关 API 更改和更新的电子邮件
-      email_new_releases_watchlist: 我的待看清单项目上映时给我发邮件？
+      email_new_releases_watchlist: 我的待看清单项目发行时给我发邮件？
       new_replies_to_threads_created: 自动关注我创建和回复的帖子？
       new_replies_to_threads_watching: 我关注的帖子有新回复时给我发邮件？
       news_updates: 给我发送电子邮件了解新闻和产品更新
@@ -3701,7 +3703,7 @@ zh-CN:
   success_image_uploaded: 图片已成功上传。
   success_rating: 你的评分已保存。
   success_registration: 你已成功完成注册。
-  success_report: 你的报告提交成功。
+  success_report: 报告已成功提交。
   success_saved: 你的修改已成功保存。
   success_set_language: 语言已更新。
   success_sharing: 你的信息分享成功。
