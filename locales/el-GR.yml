@@ -1317,6 +1317,7 @@ el-GR:
     create_overview_help: Βοηθήστε μας να συμπληρώσουμε το βιογραφικό αυτού του χαρακτήρα κατά τη σειρά ταινιών/τηλεοπτικών εμφανίσεων που έκαναν.
     create_overview_name_help: Αλλάξτε το όνομα του χαρακτήρα μόνο εάν υπάρχει συγκεκριμένος λόγος ή σε ένα κοινό όνομα από το οποίο είναι γνωστοί.
     create_overview_note:
+    delete_character:
     done_editing:
     edit_groups:
     edit_groups_description:
@@ -1375,10 +1376,12 @@ el-GR:
     user_variant_description:
     user_variant_intro:
     validation_charactername:
+    validation_group_synopsis:
     validation_grpname:
     validation_synopsis:
     view_by:
     what_next:
+  character name:
   collection_includes: Περιλαμβάνει %{movie_titles}
   confirm_delete: Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την εγγραφή;
   content_score:
@@ -2924,7 +2927,9 @@ el-GR:
       tv_page_title: 'Τηλεοπτικές σειρές που έχουν παραχθεί από τον/την %{name} '
     edit:
       cast_updated: Η Πρωταγωνιστές ενημερώθηκαν
+      delete_all_appearances:
       genres_updated: Τα Είδη ενημερώθηκαν
+      lock_all_appearances:
       lock_all_cast_crew_description: Κάνοντας κλικ στο "ναι", θα κλειδωθούν όλες οι υπάρχουσες εγγραφές για μελλοντική επεξεργασία από απλούς χρήστες. Οι συντονιστές θα εξακολουθούν να μπορούν να κάνουν αλλαγές.
       lock_all_fields: Κλειδώστε όλα τα πεδία
       lock_all_images: Κλειδώστε όλες τις εικόνες
@@ -2951,6 +2956,7 @@ el-GR:
         original_title: Ο αρχικός τίτλος πρέπει να αναγράφεται στην αρχική γλώσσα του αντικειμένου. Στις περισσότερες περιπτώσεις, αυτό θα ταιριάζει με τη γλώσσα που έχει εισαχθεί στο πεδίο "Αρχική γλώσσα".
         overview: Όταν γράφετε μια επισκόπηση, προσπαθήστε να την κρατήσετε σύντομη, συνοπτική και χωρίς σπόιλερ.
         social_links: Οι σύνδεσμοι προς κοινωνικά δίκτυα είναι για επίσημες(επαληθευμένες) σελίδες μόνο. Σελίδες φτιαγμένες από οπαδούς δεν επιτρέπονται.
+      unlock_all_appearances:
     external_links:
       visit_facebook: Επίσκεψη της σελίδας στο Facebook
       visit_homepage: Επίσκεψη αρχικής σελίδας

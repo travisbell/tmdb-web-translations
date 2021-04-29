@@ -163,7 +163,7 @@ hu-HU:
   Email: E-mail
   Email Address: Email cím
   Email Content: E-mail tartalma
-  Embed:
+  Embed: Beágyazva
   Episode Images: Epizód képei
   Episode Number: Epizód száma
   Episode Overview: Epizód leírása
@@ -728,7 +728,7 @@ hu-HU:
     overview: Áttekintés
     title: Cím
     to_accounts_ids:
-    translated_overview:
+    translated_overview: Áttekintés
     tv_series_status:
   average edits per day: átlagos napi szerkesztés
   back_options:
@@ -1311,6 +1311,7 @@ hu-HU:
     create_overview_help:
     create_overview_name_help:
     create_overview_note:
+    delete_character:
     done_editing:
     edit_groups:
     edit_groups_description:
@@ -1326,7 +1327,7 @@ hu-HU:
       character:
       movie_character_name:
       tv_character_name:
-      tv_show:
+      tv_show: Sorozatok
     movie_titles:
     navigate_to_dashboard:
     navigate_to_master:
@@ -1336,10 +1337,10 @@ hu-HU:
     next_launch_page:
     next_nav_label: Következő
     next_review_page:
-    note:
+    note: Megjegyzés
     note_info:
-    note_mods:
-    okay:
+    note_mods: Egy megjegyzés moderátoroknak
+    okay: Rendben
     optional:
     page_is_live:
     placeholder_synopsis:
@@ -1353,11 +1354,11 @@ hu-HU:
     revenue:
     review_and_launch_title:
     review_label:
-    search:
+    search: Keresés
     search_character_note:
     search_error_info:
     select_group_title:
-    star:
+    star: Csillag
     submit_and_preview:
     title_drag_info:
     total_appearance:
@@ -1369,10 +1370,12 @@ hu-HU:
     user_variant_description:
     user_variant_intro:
     validation_charactername:
+    validation_group_synopsis:
     validation_grpname:
     validation_synopsis:
     view_by:
     what_next:
+  character name:
   collection_includes: Tartalmazza %{movie_titles}
   confirm_delete: Biztosan törli ezt a bejegyzést?
   content_score:
@@ -1535,7 +1538,7 @@ hu-HU:
     Art: Látvány (Art)
     Camera: Kamera (Camera)
     Costume & Make-Up: Jelmez és smink (Costume & Make-Up)
-    Creator:
+    Creator: Alkotó
     Crew: Stáblista (Crew)
     Directing: Rendezés (Directing)
     Editing: Vágás (Editing)
@@ -1578,20 +1581,20 @@ hu-HU:
       runtime:
       show_me:
         everything:
-        movies_have_seen:
+        movies_have_seen: Filmek amelyeket láttam
         movies_havent_seen:
         show_me:
         tooltip:
         tv_shows_have_seen:
-        tv_shows_havent_seen:
+        tv_shows_havent_seen: Sorozatok amelyeket nem láttam
       sort:
         sort_results_by:
       user_score:
         user_score:
       where_to_watch:
-        country:
+        country: Ország
         my_services:
-          my_services:
+          my_services: Szolgáltatásaim
           restrict:
           restrict_tooltip:
         where_to_watch:
@@ -1723,7 +1726,7 @@ hu-HU:
     unsubscribe:
       sad_to_go:
       subscription_changed:
-      unsubscribe:
+      unsubscribe: Leiratkozás
       unsubscribed:
   episode_count:
     one: ''
@@ -1732,9 +1735,9 @@ hu-HU:
   errors:
     images:
       couldnt_process:
-      not_jpeg:
-      not_png:
-      not_svg:
+      not_jpeg: Ez a kép nem JPEG formátumú.
+      not_png: Ez a kép nem PNG formátumú.
+      not_svg: Ez a kép nem SVG formátumú.
     locked:
       genres:
       keywords:
@@ -1755,7 +1758,7 @@ hu-HU:
       duplicate_episode:
       duplicate_guest_star:
       duplicate_regular_season_member:
-      duplicate_season:
+      duplicate_season: Ez az évad már létezik.
   failed_email: Az e-mail elküldése sikertelen.
   failed_generic: Van egy kis probléma.
   failed_report: Nem sikerült elküldeni a jelentést.
@@ -1766,25 +1769,25 @@ hu-HU:
     min: Megjelenési dátum szerinti szűrés (Min)
   flash:
     email_verified:
-      message:
+      message: Az emailed sikeresen megerősítésre került. Most már bejelentkezhetsz.
       title:
     invalid_password_code:
       message: A jelszó-helyreállító kód érvénytelen.
     invalid_session:
       message:
-      title:
+      title: Érvénytelen munkamenet
     logged_out:
       message:
-      title:
+      title: Kijelentkezve!
     password_reset:
       message:
-      title:
+      title: Jelszó visszaállítás
     password_reset_email_required:
-      message:
+      message: Adj meg egy valós email címet.
       title:
     resend_verification_email:
       message:
-      title:
+      title: Hitelesítő email elküldve
     upstream_problem:
       message:
       title:
@@ -1809,21 +1812,21 @@ hu-HU:
         join_today:
         sign_up:
       filters:
-        for_rent:
-        in_theaters:
-        movies:
-        on_tv:
+        for_rent: Kölcsönözhető
+        in_theaters: Mozikban
+        movies: Filmek
+        on_tv: TV-ben
         streaming:
-        this_week:
-        today:
-        tv:
-      free_to_watch:
-      latest_trailers:
+        this_week: Ezen a héten
+        today: Ma
+        tv: TV
+      free_to_watch: Ingyenes nézhető
+      latest_trailers: Legújabb előzetesek
       leaderboard:
         all_time:
         leaderboard:
         this_week:
-      trending:
+      trending: Felkapott
       whats_popular:
     taw:
       read_the_2018_recap:
@@ -2136,7 +2139,7 @@ hu-HU:
     Creative Consultant: Kreatív konzultáns (Creative Consultant)
     Creative Director:
     Creative Producer: Kreatív producer (Creative Producer)
-    Creator:
+    Creator: Alkotó
     Creature Design:
     Creature Effects Technical Director:
     Creature Technical Director:
@@ -2883,7 +2886,9 @@ hu-HU:
       tv_page_title:
     edit:
       cast_updated:
+      delete_all_appearances:
       genres_updated:
+      lock_all_appearances:
       lock_all_cast_crew_description:
       lock_all_fields:
       lock_all_images:
@@ -2910,6 +2915,7 @@ hu-HU:
         original_title: Az eredeti címet az elem eredeti nyelvén kell megadni. A legtöbb esetben ez megfelel az "eredeti nyelv" mezőben megadott nyelvnek.
         overview: Tartalom írásakor röviden, tömören fogalmazni, és ne árulj el kulcsfontosságú részleteket.
         social_links: A közösségi linkek a hivatalos oldalaknak vannak, ne adj meg rajongói oldalt.
+      unlock_all_appearances:
     external_links:
       visit_facebook:
       visit_homepage:
@@ -2966,7 +2972,7 @@ hu-HU:
         videos:
           no_records:
       statuses:
-        Canceled: Törölve
+        Canceled: Elkaszálva
         In Production: Készülőben
         Planned: Tervben
         Post Production: Utómunkák
@@ -3139,7 +3145,7 @@ hu-HU:
       series_crew:
       statuses:
         Canceled: Törölve
-        Ended: Vége
+        Ended: Befejezett
         In Production: Készülőben
         Pilot: Bevezető epizód
         Planned: Tervben

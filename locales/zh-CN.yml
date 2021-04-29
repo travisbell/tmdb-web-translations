@@ -670,7 +670,7 @@ zh-CN:
       asc: 升序
       desc: 降序
     tips:
-      import_imdb_ratings: 可以从 IMDb 导入你的评分。
+      import_imdb_ratings: 你可以从 IMDb 导入你的评分。
       tip: 提示
     watchlist:
       my_watchlist:
@@ -1311,6 +1311,7 @@ zh-CN:
     create_overview_help:
     create_overview_name_help:
     create_overview_note:
+    delete_character:
     done_editing:
     edit_groups:
     edit_groups_description:
@@ -1369,26 +1370,28 @@ zh-CN:
     user_variant_description:
     user_variant_intro:
     validation_charactername:
+    validation_group_synopsis:
     validation_grpname:
     validation_synopsis:
     view_by:
     what_next:
+  character name:
   collection_includes: 包括 %{movie_titles}
   confirm_delete: 确定删除此记录吗？
   content_score:
     helper_tooltip: 完成度数值可以帮你了解数据库中一个项目的资料完整性情况。
     scale:
-      '0': 等待开始...
+      '0': 从某个地方开始吧……
       '1': 嗨，这是个开始。
       '10': 好！非常好！
-      '2': 我们有进展了。
-      '3': 罗马不是一天建成的...
-      '4': 让我来贡献力量...
+      '2': 我们在路上了。
+      '3': 罗马不是一天建成的……
+      '4': 众人拾柴火焰高……
       '5': 还需再加把劲。
-      '6': 成功在望了。
+      '6': 离完成是那么近，却又那么远。
       '7': 只差一点点...
       '8': 加油！成功就在眼前。
-      '9': 马上要成功了...
+      '9': 马上要完成了...
   contribute:
     contribute: 贡献
     missing_a_biography: 缺少个人简介
@@ -1490,7 +1493,7 @@ zh-CN:
     formats:
       abbrev: "%Y 年 %m 月 %d 日"
       default: "%Y-%m-%d"
-      full_month_day: "%Y年%m月%d日"
+      full_month_day: "%Y 年 %m 月 %d 日"
       full_month_year: "%Y 年 %m 月"
       short_month_day_year: "%Y-%m-%d"
     month_names:
@@ -2880,8 +2883,8 @@ zh-CN:
     step_3: 步骤3：选择图像
     step_4: 步骤4：分享
   login:
-    login_text_1: 请登录您的帐户，以便使用 TMDb 的编辑、评分和个性化推荐功能。如果您没有帐户，可以点击<a href="%{signup_link}">此处</a>进行免费注册。
-    login_text_2: 如果您未收到确认邮件，请点击<a href="%{verification_link}">此处</a>重新发送。
+    login_text_1: 为了使用 TMDb 的编辑、评分和个性化推荐功能，请登录您的帐户。如果您没有帐户，可以点击<a href="%{signup_link}">此处</a>免费注册。
+    login_text_2: 如果您未收到确认邮件，可点击<a href="%{verification_link}">此处</a>重新发送。
     login_to_your_account: 登录你的帐户
   login_to_create: 找不到电影或剧集？登录并创建它吧。
   login_to_edit: 登录以编辑
@@ -2910,7 +2913,9 @@ zh-CN:
       tv_page_title: "%{name} 制作的剧集"
     edit:
       cast_updated: 演员已更新
+      delete_all_appearances:
       genres_updated: 类型已更新
+      lock_all_appearances:
       lock_all_cast_crew_description: 点击“是”，将锁定所有现有记录，使常规用户无法编辑。版主仍然可以进行编辑。
       lock_all_fields: 锁定所有字段
       lock_all_images: 锁定所有图像
@@ -2937,6 +2942,7 @@ zh-CN:
         original_title: 原始片名应以项目的原始语言书写，通常和“原始语言”栏选择的语言一致。
         overview: 请尽量简短，避免剧透地雷。
         social_links: 社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。
+      unlock_all_appearances:
     external_links:
       visit_facebook: 访问 Facebook
       visit_homepage: 访问首页

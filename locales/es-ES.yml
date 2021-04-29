@@ -1319,6 +1319,7 @@ es-ES:
     create_overview_help: Ayúdanos a completar la biografía de este personaje a lo largo de la serie de apariciones en películas/tv que hizo.
     create_overview_name_help: Cambia el nombre del personaje solo por una razón específica o por un nombre común por el que se le conoce.
     create_overview_note: El actor y su foto de perfil no se pueden editar aquí.
+    delete_character:
     done_editing: "¿Has terminado de editar?"
     edit_groups: Editar Grupos
     edit_groups_description: A continuación está la plantilla para las páginas de personajes. Por favor, entra y añade los nombres de los grupos, <br> sinopsis e imágenes para completar la página.
@@ -1377,10 +1378,12 @@ es-ES:
     user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
     user_variant_intro: Encuentra tu personaje favorito de películas, programas de televisión y más...
     validation_charactername:
+    validation_group_synopsis:
     validation_grpname:
     validation_synopsis:
     view_by: Visto por
     what_next:
+  character name:
   collection_includes: Incluye %{movie_titles}
   confirm_delete: "¿Estás seguro de que quieres borrar este registro?"
   content_score:
@@ -2930,7 +2933,9 @@ es-ES:
       tv_page_title: Programas de televisión en %{name}
     edit:
       cast_updated: Reparto actualizado
+      delete_all_appearances:
       genres_updated: Géneros actualizados
+      lock_all_appearances:
       lock_all_cast_crew_description: Al hacer clic en "Sí", estarás bloqueando todos los registros existentes para que no sean editados en el futuro por usuarios normales. Los moderadores podrán seguir editando.
       lock_all_fields: Bloquea todos los campos
       lock_all_images: Bloquea todas las imágenes
@@ -2957,6 +2962,7 @@ es-ES:
         original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
         overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin destripar el argumento.
         social_links: Los únicos enlaces permitidos son a páginas oficiales (verificadas). No están permitidas las páginas de seguidores.
+      unlock_all_appearances:
     external_links:
       visit_facebook: Visita Facebook
       visit_homepage: Visita la página principal

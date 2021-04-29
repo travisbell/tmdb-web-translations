@@ -1351,6 +1351,7 @@ ar-SA:
     create_overview_help: ساعدنا في ملء السيرة الذاتية لهذه الشخصية عبر سلسلة الأفلام / الظهور التلفزيوني الذي قاموا به.
     create_overview_name_help: الرجاء تغيير اسم الشخصية فقط إذا كان هناك سبب محدد أو اسم شائع معروفه به.
     create_overview_note: لا يمكن تحرير الممثل وصورة وجهه هنا.
+    delete_character:
     done_editing: انتهى التعديل؟
     edit_groups: تعديل المجموعات
     edit_groups_description: يوجد أدناه نموذج لصفحات الشخصيات. يرجى مراجعتها وإضافة أسماء المجموعات ، <br> الملخص والصور لإكمال الصفحة.
@@ -1409,10 +1410,12 @@ ar-SA:
     user_variant_description: إليك بعض الصور المحتملة التي قمنا بإحضارها من أجل الشخصية. الرجاء تحديد واحد أو إضافة بديل يناسب الشخصية بشكل أفضل.
     user_variant_intro: أعثر على شخصياتك المفضلة من الافلام و المسلسلات و المزيد ...
     validation_charactername: اسم الشخصية الرئيسي مطلوب
+    validation_group_synopsis:
     validation_grpname: الرجاء ادخال اسم مجموعة صالح
     validation_synopsis: أدخل ملخصاً صالحاُ
     view_by: عرض بواسطة
     what_next: ماذا تريد فعله بعد ذلك؟
+  character name:
   collection_includes: تضمين %{movie_titles}
   confirm_delete: هل أنت متأكد من أنك تريد أن تحذف هذا السجل؟
   content_score:
@@ -2983,7 +2986,9 @@ ar-SA:
       tv_page_title: المسلسلات المنتجة بواسطة %{name}
     edit:
       cast_updated:
+      delete_all_appearances:
       genres_updated:
+      lock_all_appearances:
       lock_all_cast_crew_description:
       lock_all_fields: قفل كل الحقول
       lock_all_images: قفل كل الصور
@@ -3010,6 +3015,7 @@ ar-SA:
         original_title:
         overview:
         social_links:
+      unlock_all_appearances:
     external_links:
       visit_facebook: زُر فيسبوك
       visit_homepage: زُر الصفحة الرئيسية

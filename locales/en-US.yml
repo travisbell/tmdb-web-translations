@@ -1306,13 +1306,14 @@ en-US:
     character_to_search: What character or title are you looking for ?
     character_wiki: Character Wiki
     choose_a_character: Choose A Character
-    choose_a_character_info: Adding a character means linking together the appearance of an actor ot actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne/Batman. Those three appearance in that role equals one character.
+    choose_a_character_info: Adding a character means linking together the appearance of an actor or actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne / Batman. Those three appearance in that role equals one character.
     choose_backdrop: Choose Backdrop
     create_overview: Create Overview
     create_overview_bio_help: Please write a bio for this specific version, the character in there has many incarnations.
     create_overview_help: Help us populate the bio for this character over the series of movies/tv appearances they made.
     create_overview_name_help: Please only change the character name if there is a specific reason or to a common name that they are known by.
     create_overview_note: The actor and their headshot cannot be edited here.
+    delete_character: Delete Character
     done_editing: Done Editing?
     edit_groups: Edit Groups
     edit_groups_description: 'Below is the template for the character pages. Please go through and add the group names, <br> synopsis and imagery to complete the page. '
@@ -1348,7 +1349,7 @@ en-US:
     played_by: Played By
     previous: Previous
     previous_nav_label: Prev
-    ready_to_launch: That\'s All. Ready to launch ?
+    ready_to_launch: That's All. Ready to Launch ?
     result: Results
     results_info_text: Select what portrayal of character you'd like to add.
     results_selection_info: You can only select a single person in the role of the character. Every person playing the role of this character counts a different version and will need to be added separately.
@@ -1371,10 +1372,12 @@ en-US:
     user_variant_description: Here's a few possible photos we have pulled up for the Character. Please select one or add an alternate that suits the character better.
     user_variant_intro: Find your favourite character from the Movies, TV Shows and more ...
     validation_charactername: Master character name is required
+    validation_group_synopsis: Enter a valid group synopsis
     validation_grpname: Please enter a valid group name
     validation_synopsis: Enter a valid synopsis
     view_by: View By
     what_next: What would you like to do next?
+  character name: Character Name
   collection_includes: Includes %{movie_titles}
   confirm_delete: Are you sure you want to delete this record?
   content_score:
@@ -2926,7 +2929,9 @@ en-US:
       tv_page_title: TV Shows produced by %{name}
     edit:
       cast_updated: Cast updated
+      delete_all_appearances: Delete All Appearances
       genres_updated: Genres updated
+      lock_all_appearances: By clicking 'yes', you will be locking all of the existing records from being edited in the future by regular users. Moderators will still be able to make edits.
       lock_all_cast_crew_description: By clicking 'yes', you will be locking all of the existing records from being edited in the future by regular users. Moderators will still be able to make edits.
       lock_all_fields: Lock all fields
       lock_all_images: Lock all images
@@ -2953,6 +2958,7 @@ en-US:
         original_title: The original title should be entered in the original language of the item. In most cases this would match the language entered in the "original language" field.
         overview: When writing an overview, try to keep it short, concise and free of spoilers.
         social_links: Social links are for the official (verified) pages only. Fan pages are not allowed.
+      unlock_all_appearances: By clicking 'yes', you will be unlocking all of the existing records.
     external_links:
       visit_facebook: Visit Facebook
       visit_homepage: Visit Homepage

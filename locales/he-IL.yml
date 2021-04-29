@@ -267,7 +267,7 @@ he-IL:
   Merge Keyword: מזג מילות מפתח
   Mixed Compact View: תצוגה צמומה מעורבבת
   Mobile Application: יישום לסלולרי
-  Moderator: מנהלן
+  Moderator: רכז
   More Info: עוד מידע
   Most Popular: הכי פופולרי
   Move Credits: העבר קרדיטים
@@ -1311,6 +1311,7 @@ he-IL:
     create_overview_help: עזור לנו למלא את הביוגרפיה עבור דמות זו עם המופעים בסרטים או בסדרות שהיא הופיעה.
     create_overview_name_help: אנא שנה רק את שם הדמות אם יש סיבה מסוימת או אם יש שם מוכר שהדמות ידועה בו.
     create_overview_note: השחקן ותצלום הפנים שלו אינם ניתנים לעריכה כאן.
+    delete_character: מחק דמות
     done_editing: סיימת לערוך?
     edit_groups: ערוך קבוצות
     edit_groups_description: התבנית עבור דפי הדמויות נמצאת למטה. אנא עיין והוסף את שמות הקבוצות, <br> תקציר ותמונות כדי להשלים את הדף.
@@ -1342,7 +1343,7 @@ he-IL:
     okay: בסדר
     optional: רשותי
     page_is_live: הדף באוויר עכשיו!
-    placeholder_synopsis: הכנס תמצית דמות כאן
+    placeholder_synopsis: הכנס תקציר דמות כאן
     played_by: משוחק ע״י
     previous: הקודם
     previous_nav_label: הקודם
@@ -1369,10 +1370,12 @@ he-IL:
     user_variant_description: הנה מעט תצלומים אפשריים שמשכנו עבור הדמות. אנא בחר אחד או הוסף חלופה שמתאימה אל הדמות בצורה טובה יותר.
     user_variant_intro: מצא את הדמות המועדפת שלך מתוך הסרטים, הסדרות ועוד...
     validation_charactername: שם של דמות ראשית נדרש
+    validation_group_synopsis: הכנס תקציר קבוצה תקף
     validation_grpname: הכנס שם קבוצה תקף
     validation_synopsis: הכנס תקציר תקף
     view_by: הצג לפי
     what_next: מה תרצה לעשות לאחר מכן?
+  character name: שם דמות
   collection_includes: כולל את %{movie_titles}
   confirm_delete: האם אתה בטוח שברצונך למחוק רשומה זו?
   content_score:
@@ -1662,7 +1665,7 @@ he-IL:
         content_issues: סוגיות תוכן
         general: כללי
         general_chat: התכתבות כללית
-        moderator_talk: שיחת מנהלנים
+        moderator_talk: שיחת רכזים
         support: תמיכה
         website_support: תמיכת אתר
     category:
@@ -2922,8 +2925,10 @@ he-IL:
       tv_page_title: סדרות ב-%{name}
     edit:
       cast_updated: לַהַק עודכן
+      delete_all_appearances:
       genres_updated: סוגות עודכנו
-      lock_all_cast_crew_description: על ידי לחיצה על 'כן', תנעל את כל הרשומות הקיימות מפני עריכה בעתיד על ידי משתמשים רגילים. רכזים יוכלו לבצע עריכות
+      lock_all_appearances: ע״י לחיצה על 'כן', תנעל את כל הרשומות הקיימות מפני עריכה בעתיד ע״י משתמשים רגילים. רכזים עדיין יוכלו לבצע עריכות.
+      lock_all_cast_crew_description: על ידי לחיצה על 'כן', תנעל את כל הרשומות הקיימות מפני עריכה בעתיד על ידי משתמשים רגילים. רכזים עדיין יוכלו לבצע עריכות.
       lock_all_fields: נעל את כל השדות
       lock_all_images: נעל את כל התמונות
       lock_existing_cast: נעל לַהַק קיים
@@ -2949,12 +2954,13 @@ he-IL:
         original_title: הכותרת המקורית צריכה להיות מוזנת בשפה המקורית של הפריט. ברוב המקרים היא תתאים לשפה שהוזנה בשדה "שפה מקורית".
         overview: בעת כתיבת תקציר, נסה להשאיר אותו קצר, תמציתי ונטול ספוילרים.
         social_links: קישורים חברתיים עבור עמודים רשמיים (מאומתים) בלבד. עמודי מעריצים אינם מותרים.
+      unlock_all_appearances: ע״י לחיצה על 'כן', תשחרר חסימה של כל הרשומות הקיימות.
     external_links:
-      visit_facebook: בקר ב-Facebook
+      visit_facebook: בקר בפייסבוק
       visit_homepage: בקר בדף הבית
-      visit_instagram: בקר ב-Instagram
+      visit_instagram: בקר באינסטגרם
       visit_justwatch: JustWatch-בקר ב
-      visit_twitter: בקר ב-Twitter
+      visit_twitter: בקר בטוויטר
     genre:
       movie_page_title: סרטי %{name}
       tv_page_title: סדרות %{name}
@@ -3704,10 +3710,10 @@ he-IL:
         info: מידע
         reload_text: טען מחדש עמוד זה ברגע שתאשר את חשבונך!
         service: שרות
-      favorite_message_hint: בעת סימון פריט כמועדף ושיתוף ב-Twitter או ב-Facebook...
+      favorite_message_hint: בעת סימון פריט כמועדף ובעת שיתוף בטוויטר או בפייסבוק…
       message_settings: הגדרות הודעה
       page_title: ההגדרות החברתיות שלי
-      sharing_message_hint: בעת שיתוף פריט ב-Twitter או ב-Facebook...
+      sharing_message_hint: בעת שיתוף פריט בטוויטר או בפייסבוק…
       social_settings: הגדרות חברתיות
       supported_template_values: 'ערכי תבנית נתמכים:'
     streaming_services:
