@@ -1,3 +1,6 @@
+# encoding: utf-8
+# frozen_string_literal: true
+
 module TMDb
   module Config
     class I18n
@@ -70,7 +73,7 @@ module TMDb
       ].freeze
 
       def self.country_path
-        File.dirname(__FILE__) + "/../countries"
+        File.dirname(__FILE__) + "/../../../../countries"
       end
 
       def self.default_iso_3166_1_mapping
@@ -126,11 +129,11 @@ module TMDb
       end
 
       def self.language_path
-        File.dirname(__FILE__) + "/../languages"
+        File.dirname(__FILE__) + "/../../../../languages"
       end
 
       def self.load_path
-        File.dirname(__FILE__) + "/../locales"
+        File.dirname(__FILE__) + "/../../../../locales"
       end
 
       def self.parse_valid_i18n(string)
@@ -153,7 +156,7 @@ module TMDb
       end
 
       def self.transliteration_path
-        File.dirname(__FILE__) + "/../transliteration"
+        File.dirname(__FILE__) + "/../../../../transliteration"
       end
 
     end
