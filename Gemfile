@@ -1,8 +1,11 @@
-source "http://rubygems.org"
+# frozen_string_literal: true
 
-group :development do
-  gem 'rspec'
-  gem 'bundler'
-  gem 'localeapp'
-  gem 'tmdb_web_translations', :path => '.'
-end
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in tmdb-youtube.gemspec
+gemspec
+
+gem "localeapp"
+gem "rake", "~> 13.0"
+
+gem "rubocop", "~> 1.7"

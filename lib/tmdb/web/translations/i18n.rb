@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 module TMDb
   module Config
     class I18n
