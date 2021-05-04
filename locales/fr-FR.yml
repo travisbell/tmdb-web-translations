@@ -21,11 +21,11 @@ fr-FR:
   Accept API Terms: Accepter les termes de l'API
   Account: Compte
   Account Filtering: Filtrage du compte
-  Add Alternative Name: Ajouter un titre alternatif
+  Add Alternative Name: Ajouter un nom alternatif
   Add Alternative Title: Ajouter un titre alternatif
   Add Backdrop: Ajouter un fond d'écran
   Add Content Rating: Ajouter une classification
-  Add Creator: Ajouter un auteur
+  Add Creator: Ajouter un créateur
   Add Data & Content: Ajouter des données et du contenu
   Add Headshot: Ajouter une photo
   Add Item: Ajouter un élément
@@ -60,7 +60,7 @@ fr-FR:
   Advanced Search: Recherche avancée
   Air Date: Date de diffusion
   Also Known As: Alias
-  Alternative Names: Titres alternatifs
+  Alternative Names: Noms alternatifs
   Alternative Titles: Titres alternatifs
   Apiary Documentation: Documentation du rucher
   App Directory: Répertoire des applications
@@ -300,12 +300,12 @@ fr-FR:
   Original Air Date: Date de diffusion originale
   Original Ascending: Original - / +
   Original Descending: Original + / -
-  Original Language: Langue originale
-  Original Movie Language: Langue originale du film
+  Original Language: Langue d'origine
+  Original Movie Language: Langue d'origine
   Original Name: Titre d'origine
   Original Order: Ordre d'origine
-  Original TV Show Language: Langue originale de l'émission télévisée
-  Original Title: Titre original
+  Original TV Show Language: Langue d'origine
+  Original Title: Titre d'origine
   Other Databases: Autres bases de données
   Our History: Notre histoire
   Overview: Synopsis
@@ -320,7 +320,7 @@ fr-FR:
   Physical: En copie physique
   Place of Birth: Lieu de naissance
   Play: Regarder
-  Plot Keywords: Mots-clés de l'intrigue
+  Plot Keywords: Mots-clés de l'intrigue (uniquement en ANGLAIS pour le moment)
   Popular Lists: Listes populaires
   Popular Movies: Films populaires
   Popular TV Shows: Émissions télévisées populaires
@@ -388,10 +388,10 @@ fr-FR:
   Search for a language: Rechercher une langue...
   Search for a movie: Rechercher un film
   Search for a movie or TV show: Rechercher un film ou une émission télévisée
-  Search for a movie, TV show, person: Rechercher un film, une émission télévisée, un artiste...
+  Search for a movie, TV show, person: Rechercher un film, une émission télévisée, un artiste
   Season: Saison
-  Season Number: Numéro de saison
-  Season Overview: Vue d'ensemble de la saison
+  Season Number: Numéro de la saison
+  Season Overview: Résumé de la saison
   Season Regulars: Artistes récurrents de la saison
   Season Specials: Vedettes exceptionnelles de la saison
   Seasons: Saisons
@@ -434,7 +434,7 @@ fr-FR:
   Support: Assistance
   Support Forums: Forums d'assistance
   System Status: Statut du système
-  TV: Télévision
+  TV: À la télévision
   TV Network: Diffuseur télévisé
   TV Recommendations: Recommandations de contenus télévisés
   TV Show Data: Données de l'émission télévisée
@@ -465,10 +465,10 @@ fr-FR:
   Translate Movie: Traduire le film
   Translate Person: Traduire la personne
   Translate TV Series: Traduire la série télévisée
-  Translated Name: Titre (si différent du titre original)
+  Translated Name: Titre (si différent du titre d'origine)
   Translated Overview: Traduction du synopsis
   Translated Tagline: Slogan (de l'affiche officielle ou, à défaut, traduit)
-  Translated Title: Titre (si différent du titre original)
+  Translated Title: Titre (si différent du titre d'origine)
   Translations: Traductions
   Type: Type
   Type of Problem: Type de problème
@@ -534,7 +534,7 @@ fr-FR:
         movies: Films
         others: Autre
         people: Artistes
-        tv: Contenu télévisé
+        tv: Émissions télévisées
       page_title:
         page_owner: Mon activité récente
         public: Activité récente de %{username}
@@ -1455,9 +1455,9 @@ fr-FR:
     tv:
       tall_bible:
         bottom: Bible
-        top: TÉLÉ
-      tv: TÉLÉ
-      tv_bible: Bible télévision
+        top: ÉMISSIONS TÉLÉVISÉES
+      tv: ÉMISSIONS TÉLÉVISÉES
+      tv_bible: Bible des émissions télévisées
     welcome_1: Bienvenue sur
     welcome_2: La bible des contributions
   cookie_popup:
@@ -1585,11 +1585,11 @@ fr-FR:
     filters:
       air_dates:
         air_dates: Dates de diffusion
-        search_all_episodes: Rechercher tous les épisodes ?
+        search_all_episodes: Rechercher parmi tous les épisodes ?
         search_first_air_date: Rechercher la première date de diffusion ?
       availability:
         availabilities: Disponibilités
-        search_all_availabilities: Rechercher toutes les disponibilités ?
+        search_all_availabilities: Rechercher parmi toutes les disponibilités ?
       certification:
         certification: Classifications d'âges
       filters: Filtrer
@@ -1608,8 +1608,8 @@ fr-FR:
       release_dates:
         from: Du
         release_dates: Dates de sortie
-        search_all_countries: Rechercher tous les pays ?
-        search_release_dates: Rechercher toutes les sorties ?
+        search_all_countries: Rechercher parmi tous les pays ?
+        search_release_dates: Rechercher parmi toutes les sorties ?
         to: au
       runtime: Durée
       show_me:
@@ -1858,7 +1858,7 @@ fr-FR:
         streaming: En streaming
         this_week: Cette semaine
         today: Aujourd'hui
-        tv: À la télévision
+        tv: Émissions télévisées
       free_to_watch: Gratuits
       latest_trailers: Bandes-annonces
       leaderboard:
@@ -2475,7 +2475,7 @@ fr-FR:
     Original Film Writer: Scénariste du film original
     Original Music Composer: Compositeur de la musique originale
     Original Series Creator: Créateur de la série originale
-    Original Series Design: Conception de la série originale
+    Original Series Design: Conception de la série d'origine
     Original Story: Scénario original
     Other: Autre
     Paint Coordinator: Coordinateur de la peinture
@@ -2945,7 +2945,7 @@ fr-FR:
           create_it: Créer...
         genres: Sélectionner un genre...
         job: Rechercher un métier...
-        keywords: Sélectionner un mot-clé...
+        keywords: Rechercher un mot-clé...
         networks: Rechercher un diffuseur...
         person: Rechercher une personne...
         production_companies: Rechercher une société de production...
@@ -2955,7 +2955,7 @@ fr-FR:
         bible: Pour accéder à l'aide à l'édition d'informations sur TMDb, cliquez sur ce « ? » pour lire la bible des contributions.
         homepage: Page d'accueil du site officiel uniquement. Les pages de fans ne sont pas autorisées.
         logo_format: Les formats « SVG » et « PNG » sont supportés. Les « SVG » sont préférés car ils sont indépendants de la résolution.
-        original_title: Le titre original doit être saisi dans la langue d'origine de l'élément. Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ « langue originale ».
+        original_title: Le titre d'origine doit être saisi dans la langue d'origine de l'élément. Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ « langue d'origine ».
         overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
         social_links: Les liens vers les réseaux sociaux doivent être uniquement ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
       unlock_all_appearances: En cliquant sur « oui », vous déverrouillerez tous les enregistrements existants.
@@ -3033,7 +3033,7 @@ fr-FR:
         Rumored: Rumeur
     network:
       edit:
-        alternative_names: Titres alternatifs
+        alternative_names: Noms alternatifs
         logos: Logos
         merge:
           choose_destination: Choisissez un emplacement d'enregistrement...
@@ -3043,7 +3043,7 @@ fr-FR:
         primary_facts: Faits principaux
         upload_logo: Ajouter un logo
       logos: Logos
-      name: Titre
+      name: Nom
       other_shows_on: Afficher davantage d'émissions télévisées de %{name}...
       search:
         no_results: Aucun diffuseur ne correspond à votre recherche.
@@ -3162,7 +3162,7 @@ fr-FR:
         crew:
           no_season: Aucune saison n'existe ! Une saison doit exister afin de pouvoir ajouter des membres à l'équipe technique.
         episode_groups:
-          create_new_group: Créer un nouveau groupe
+          create_new_group: Créer un nouveau groupe d'épisodes
           description: Description
           episode_groups: Groupes d'épisodes
           episodes:
@@ -3313,12 +3313,12 @@ fr-FR:
       popular: Populaires
       top_rated: Les mieux notées
   no_biography: Aucune biographie n'est rédigée pour %{name}. Votre contribution est la bienvenue !
-  no_cast: 'Aucune distribution n''a été ajoutée à ce film ou à cette émission télévisée : « %{media_type} ». Votre contribution est la bienvenue !'
+  no_cast: Aucune distribution n'a été ajoutée à ce.tte %{media_type}. Votre contribution est la bienvenue !
   no_collection_search_results: Aucune collection ne correspond à votre recherche.
   no_company_search_results: Aucune société de production ne correspond à votre recherche.
   no_contributors: Aucun contributeur n'a été trouvé.
   no_created_lists: Vous n'avez créé aucune liste.
-  no_crew: 'Aucune équipe technique n''a été ajoutée à ce film ou à cette émission télévisée : « %{media_type} ». Votre contribution est la bienvenue !'
+  no_crew: Aucune équipe technique n'a été ajoutée à ce.tte %{media_type}. Votre contribution est la bienvenue !
   no_description: Aucune description n'a été saisie.
   no_director: Aucun réalisateur n'a été ajouté.
   no_episode_images: Aucune image d'épisode n'a été ajoutée.
@@ -3431,15 +3431,15 @@ fr-FR:
     other: "%{count} votes"
   ott:
     available_sentences:
-      ads: à regarder gratuitement avec publicités
-      buy: à la vente
+      ads: gratuitement avec publicités
+      buy: à l'achat
       flatrate: à regarder en streaming avec abonnement
       free: à regarder gratuitement
       rent: 'à la location '
       sentence: "%{title} est actuellement disponible %{available_types} en %{country}.<br>"
     available_snippet:
       flatrate: Disponible en streaming
-      rent_or_buy: Disponible à la location ou à la vente
+      rent_or_buy: Disponible à la location ou à l'achat
       summary_sentence: "%{available_snippet} sur %{service_name}"
     description: "{justwatch_link} permet de savoir où regarder en ligne légalement vos films favoris et vos émissions télévisées favorites.<br>Glossaire : SD = définition standard, HD = haute définition, 4K = ultra haute définition.<br>L'équipe de TMDb vous souhaite un bon visionnage."
     filters:
@@ -3451,10 +3451,10 @@ fr-FR:
       hd: HD
       sd: SD
     monetization_types:
-      ads: Visionnage gratuit avec publicités
+      ads: En visionnage gratuit avec publicités
       buy: À l'achat
       flatrate: En streaming avec abonnement
-      free: Visionnage gratuit
+      free: En visionnage gratuit
       rent: À la location
     no_offers:
       4k: Aucune offre en 4K ultra haute définition n'a été trouvée.
@@ -3523,8 +3523,8 @@ fr-FR:
   search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » afin de restreindre les résultats de votre recherche à une année spécifique. Par exemple, saisissez « Star Wars y:1977 » dans la zone de recherche.'
   season_number_name: Saison %{season_number}
   season_overview:
-    already_aired: La saison n° %{season_number} de %{show_name} a été diffusée le %{date}.
-    to_air: La saison n° %{season_number} de %{show_name} est annoncée pour sa première diffusion le %{date}.
+    already_aired: La saison %{season_number} de %{show_name} a été diffusée à partir du %{date}.
+    to_air: La saison %{season_number} de %{show_name} est annoncée pour sa première diffusion le %{date}.
   settings:
     account:
       account_settings: Mon compte
@@ -3629,14 +3629,14 @@ fr-FR:
       notifications: Notifications
       page_title: Paramètres de notifications
     profile:
-      accent_color: La couleur de mon compte
+      accent_color: Couleur de mon compte
       avatar:
         current_avatar: Mon avatar
         explain: Actuellement, la seule solution dont nous disposons pour afficher un avatar personnalisé est d'utiliser un service appelé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous souhaitez afficher un avatar personnalisé sur TMDb, vous devrez créer un compte sur Gravatar et vous assurer d'ajouter la même adresse électronique que vous avez utilisée sur TMDb. Ainsi, nous pourrons lier votre compte Gravatar à votre compte TMDb. Une fois que vous l'aurez fait, cliquez sur le bouton de mise à jour ci-dessous et nous rapatrierons votre nouvelle image.
         explain_gravatar: Si vous souhaitez utiliser <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> en tant que fournisseur de votre avatar, assurez-vous d'avoir enregistré la même adresse électronique sur Gravatar et TMDb. Une fois que vous l'aurez fait et que si vous avez, bien entendu, téléversé une image sur Gravatar, cliquez sur le bouton de mise à jour ci-dessous et nous récupérerons votre nouvelle image.
         not_found: Aucun avatar n'a été trouvé.
         not_found_add: Aucun avatar n'a été trouvé. Souhaitez-vous en <a href="#">ajouter un</a> ?
-        remove_own: Supprimer mon avatar
+        remove_own: Supprimer mon avatar ?
         update_avatar: Mettre à jour l'avatar
         update_gravatar: Mettre à jour Gravatar ?
         updated: Avatar mis à jour !
@@ -3647,7 +3647,7 @@ fr-FR:
       background:
         background_image: Mon image de fond
         confirm_remove: Voulez-vous vraiment supprimer votre image de fond ?
-        remove_background: Supprimer mon image de fond
+        remove_background: Supprimer mon image de fond ?
         set_image: Définir une image de fond ?
       change_password: Modifier mon mot de passe
       edit_profile: Modifier mon profil
