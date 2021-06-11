@@ -1325,6 +1325,7 @@ en-US:
     help_our_mods: Help Our Moderators
     help_our_mods_info: Tell us about the character! This is a private field between you and the moderation team. Any info you provide about the character and why you're creating it, will help them when reviewing your page.
     launch_label: launch
+    master_group_limit_error: Sorry, you have reached the maximum supported group limit.
     media_types:
       character: Character
       movie_character_name: Movie Character Names
@@ -1471,7 +1472,7 @@ en-US:
     - Fri
     - Sat
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mar
@@ -1499,7 +1500,7 @@ en-US:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    -
+    - 
     - January
     - February
     - March
@@ -1778,6 +1779,7 @@ en-US:
       blank: is required
       inclusion: must be selected
       invalid: is invalid
+      invalid_character_name: Character name should not contain special characters
       required: must exist
       series_status_invalid_to_create_season: is set to either 'Cancelled' or 'Ended' therefore new seasons cannot be created.
       suspected_tv_series: is suspected to be an existing TV series or miniseries, you can continue to add this item if you're sure but if it exists in our TV section it will be removed
@@ -2916,7 +2918,7 @@ en-US:
         one: "%{count} Change"
         other: "%{count} Changes"
       view_weekly_leaderboard: View Weekly Leaderboard
-    character:
+    character: 
     collection:
       edit:
         parts:
@@ -3500,7 +3502,7 @@ en-US:
       as_character: as %{character}
       as_job: "— %{job}"
   reset_password_text: Enter your username below to start the password reset process.
-  sample:
+  sample: 
   search:
     favorites_movie: Search favorite movies...
     favorites_tv: Search favorite TV shows...
