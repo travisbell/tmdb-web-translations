@@ -93,6 +93,7 @@ ar-SA:
   Certification: شهادة
   Change?: تغيير؟
   Character: الشخصية
+  Characters: 
   Choose: اختار ...
   City: المدينة
   Collection Results: نتائج المجموعات
@@ -611,15 +612,19 @@ ar-SA:
     filter_by: 'فرز حسب:'
     filters:
       air_date: تاريخ العرض
+      alphabetical: 
       date_added: تاريخ الإضافة
       date_rated: تاريخ التقييم
       first_air_date: تاريخ أول عرض
+      most_popular: 
       my_rating: تقييماتي
+      newest: 
       popularity: الشهرة
       rating: التقييم
       release_date: تاريخ الإصدار
       score: التقييم
       upcoming: قادم
+      user_characters: 
     lists:
       create_list: إنشاء قائمة
       last_updated: محدث
@@ -1839,6 +1844,7 @@ ar-SA:
       inclusion: لابد ان تحدد
       invalid: غير صالح
       invalid_character_name: اسم الشخصية يجب ان لا يحتوي على رموز خاصة
+      no_characters_found: 
       required: يجب أن يتواجد
       series_status_invalid_to_create_season: تم تعيينه على "ملغي" أو "منتهي" لذلك لا يمكن إنشاء مواسم جديدة.
       suspected_tv_series: يشتبه في أنه مسلسل تلفزيوني أو مسلسل قصير موجود ، يمكنك الاستمرار في إضافة هذا العنصر إذا كنت متأكدًا ولكن إذا كان موجودًا في قسم التلفزيون الخاص بنا ، فسيتم إزالته
@@ -2995,7 +3001,7 @@ ar-SA:
     character:
       edit:
         appearance:
-          no_records: 
+          no_records: لم يتم اضافة اية خصائص.
     collection:
       edit:
         parts:
