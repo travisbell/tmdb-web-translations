@@ -27,7 +27,7 @@ ro-RO:
   Add Content Rating: Adăugare evaluare conținut
   Add Creator: Adăugare realizator
   Add Data & Content: Adăugare date și conținut
-  Add Headshot: 
+  Add Headshot:
   Add Item: Adăugare articol
   Add Missing Cast & Crew: Adăugare distribuție și echipă filmare lipsă
   Add Network: Adăugare rețea
@@ -39,7 +39,7 @@ ro-RO:
   Add Poster: Adăugare afiș
   Add Profile: Adăugare profil
   Add Season Regular: Adăugare personaj frecvent în sezon
-  Add Title Logo: 
+  Add Title Logo:
   Add To Every Season?: Adăugați la fiecare sezon?
   Add Video: Adăugare videoclip
   Add YouTube Video: Adăugare videoclip YouTube
@@ -65,7 +65,7 @@ ro-RO:
   Apiary Documentation: Documentație Apiary
   App Directory: Folderele Aplicației
   App Showcase: Prezentare aplicații
-  Appearances: 
+  Appearances:
   Application Description: Descriere aplicație
   Application Name: Nume aplicație
   Application Summary: Rezumat aplicație
@@ -93,6 +93,7 @@ ro-RO:
   Certification: Certificare
   Change?: Schimbați?
   Character: Personaj
+  Characters:
   Choose: Alege...
   City: Oraș
   Collection Results: Rezultate colecții
@@ -198,7 +199,7 @@ ro-RO:
   Forum: Forum
   Forums: Forumuri
   Full Cast & Crew: Distribuție și echipă filmare completă
-  Full Character List: 
+  Full Character List:
   Full Leaderboard: Clasamentul complet
   Gender: Sex
   General: Generale
@@ -597,15 +598,19 @@ ro-RO:
     filter_by: 'Filtrare după:'
     filters:
       air_date: Data difuzării
+      alphabetical:
       date_added: Data adăugării
       date_rated: Data evaluării
       first_air_date: Data primei difuzări
+      most_popular:
       my_rating: Evaluarea mea
+      newest:
       popularity: Popularitate
       rating: Evaluare
       release_date: Data de lansare
       score: Punctaj
       upcoming: Viitoare
+      user_characters:
     lists:
       create_list: Creare listă
       last_updated: Actualizată
@@ -1296,93 +1301,107 @@ ro-RO:
         '6':
           meaning: Acest program este conceput special pentru a fi văzut de adulți și, prin urmare, poate fi nepotrivit pentru copiii sub 17 ani
   character:
-    add_a_character: 
-    add_backdrop_grp: 
-    add_missing_character: 
-    back: 
-    backdrop: 
-    character_backdrop_photo: 
-    character_bio: 
-    character_name: 
-    character_search_label: 
-    character_search_text: 
-    character_to_search: 
-    character_wiki: 
-    choose_a_character: 
-    choose_a_character_info: 
-    choose_backdrop: 
-    create_overview: 
-    create_overview_bio_help: 
-    create_overview_help: 
-    create_overview_name_help: 
-    create_overview_note: 
-    delete_character: 
-    done_editing: 
-    edit_groups: 
-    edit_groups_description: 
-    edit_label: 
-    era: 
-    find_character: 
-    find_character_note: 
-    found_everything: 
-    help_our_mods: 
-    help_our_mods_info: 
-    launch_label: 
-    master_group_limit_error: 
+    add_a_character:
+    add_an_appearance:
+    add_appearance:
+    add_backdrop:
+    add_backdrop_grp:
+    add_missing_character:
+    all_done:
+    back:
+    backdrop:
+    backdrop_window_title:
+    cancel_edits:
+    character_backdrop_photo:
+    character_bio:
+    character_name:
+    character_search_label:
+    character_search_text:
+    character_to_search:
+    character_wiki:
+    choose_a_character:
+    choose_a_character_info:
+    choose_backdrop:
+    create_overview:
+    create_overview_bio_help:
+    create_overview_help:
+    create_overview_name_help:
+    create_overview_note:
+    delete_backdrop:
+    delete_character:
+    done_editing:
+    edit_groups:
+    edit_groups_description:
+    edit_label:
+    era:
+    find_character:
+    find_character_note:
+    found_everything:
+    headshot_window_title:
+    help_our_mods:
+    help_our_mods_info:
+    inline_edit_original_name:
+    launch_label:
+    master_group_limit_error:
     media_types:
-      character: 
-      movie_character_name: 
-      tv_character_name: 
-      tv_show: 
-    movie_titles: 
-    navigate_to_dashboard: 
-    navigate_to_master: 
-    need_help: 
-    next: 
-    next_edit_groups: 
-    next_launch_page: 
-    next_nav_label: 
-    next_review_page: 
-    note: 
-    note_info: 
-    note_mods: 
-    okay: 
-    optional: 
-    page_is_live: 
-    placeholder_synopsis: 
-    played_by: 
-    previous: 
-    previous_nav_label: 
-    push_test_v1: 
-    ready_to_launch: 
-    result: 
-    results_info_text: 
-    results_selection_info: 
-    revenue: 
-    review_and_launch_title: 
-    review_label: 
-    search: 
-    search_character_note: 
-    search_error_info: 
-    select_group_title: 
-    star: 
-    submit_and_preview: 
-    title_drag_info: 
-    total_appearance: 
-    total_budget: 
-    tv_titles: 
-    upload_backdrop_title: 
-    user_added_backdrop_info: 
-    user_added_backdrop_label: 
-    user_variant_description: 
-    user_variant_intro: 
-    validation_charactername: 
-    validation_group_synopsis: 
-    validation_grpname: 
-    validation_synopsis: 
-    view_by: 
-    what_next: 
-  character name: 
+      character:
+      movie_character_name:
+      tv_character_name:
+      tv_show:
+    movie_titles:
+    navigate_to_dashboard:
+    navigate_to_master:
+    need_help:
+    next:
+    next_edit_groups:
+    next_launch_page:
+    next_nav_label:
+    next_review_page:
+    note:
+    note_info:
+    note_mods:
+    okay:
+    optional:
+    page_is_live:
+    placeholder_synopsis:
+    played_by:
+    previous:
+    previous_nav_label:
+    push_test_v1:
+    ready_to_launch:
+    result:
+    results_info_text:
+    results_selection_info:
+    revenue:
+    review_and_launch_title:
+    review_label:
+    save_edits:
+    search:
+    search_character_note:
+    search_error_info:
+    select_backdrop:
+    select_group_title:
+    star:
+    submit_and_preview:
+    suggested_backdrops:
+    suggested_window_title:
+    title_drag_info:
+    total_appearance:
+    total_budget:
+    tv_titles:
+    update_backdrop:
+    upload_backdrop_title:
+    user_added_backdrop_info:
+    user_added_backdrop_label:
+    user_variant_description:
+    user_variant_intro:
+    validation_charactername:
+    validation_group_synopsis:
+    validation_grpname:
+    validation_synopsis:
+    view_by:
+    what_next:
+  character name:
   collection_includes: Include %{movie_titles}
   confirm_delete: Sigur doriți să ștergeți această înregistrare?
   content_score:
@@ -1476,7 +1495,7 @@ ro-RO:
     - vin
     - sâm
     abbr_month_names:
-    - 
+    -
     - ian
     - feb
     - mar
@@ -1504,7 +1523,7 @@ ro-RO:
       full_month_year: "%B %Y"
       short_month_day_year: "%d %b %Y"
     month_names:
-    - 
+    -
     - ianuarie
     - februarie
     - martie
@@ -1786,7 +1805,8 @@ ro-RO:
       blank: Este necesar
       inclusion: Trebuie să fie selectat
       invalid: nu este valid
-      invalid_character_name: 
+      invalid_character_name:
+      no_characters_found:
       required: Trebuie să existe
       series_status_invalid_to_create_season: este setat pe „Anulat” sau „Încheiat”, prin urmare nu pot fi create sezoane noi.
       suspected_tv_series: suspect de a fi în filmele seriale sau mini serialele existente, puteți continua să adăugați acest element dacă sunteți sigur, dar dacă există deja în filmele seriale, acesta va fi eliminat
@@ -1811,29 +1831,29 @@ ro-RO:
     min: Filtrează după data lansării (minimă)
   flash:
     email_verified:
-      message: 
-      title: 
+      message:
+      title:
     invalid_password_code:
       message: Codul de resetare al parolei nu este valid.
     invalid_session:
-      message: 
-      title: 
+      message:
+      title:
     logged_out:
-      message: 
-      title: 
+      message:
+      title:
     password_reset:
-      message: 
-      title: 
+      message:
+      title:
     password_reset_email_required:
-      message: 
-      title: 
+      message:
+      title:
     resend_verification_email:
-      message: 
-      title: 
+      message:
+      title:
     upstream_problem:
-      message: 
-      title: 
-  headshots_must_meet: 
+      message:
+      title:
+  headshots_must_meet:
   homepage:
     community:
       benefits_list:
@@ -1893,7 +1913,7 @@ ro-RO:
       '9': O rezoluție minimă de 300x450
       backdrops_must_meet: " Fotografiile de fundal trebuie să îndeplinească următoarele criterii:"
       episode_stills_must_meet: 'Episoadele trebuie să îndeplinească următoarele criterii:'
-      headshots_must_meet: 
+      headshots_must_meet:
       posters_must_meet: 'Afișele trebuie să îndeplinească următoarele criterii:'
       profile_must_meet: 'Imaginile de profil trebuie să îndeplinească următoarele criterii:'
       read_guidelines: Vă rugăm să vă familiarizați cu actualizările noastre <a href="%{link}" target="_blank" rel="noopener"> privind regulile de contribuție cu imagini </a>.
@@ -1903,7 +1923,7 @@ ro-RO:
     few: ''
     one: "%{count} element"
     other: "%{count} elemente"
-  item_count_more: 
+  item_count_more:
   jobs:
     '"A" Camera Operator': 'Operator Cameră "A" '
     '"B" Camera Operator': Operator cameră "B"
@@ -2920,7 +2940,10 @@ ro-RO:
         one: "%{count} Modificare"
         other: "%{count} Modificări"
       view_weekly_leaderboard: Arată clasamentul săptămânal
-    character: 
+    character:
+      edit:
+        appearance:
+          no_records:
     collection:
       edit:
         parts:
@@ -2933,9 +2956,9 @@ ro-RO:
       tv_page_title: Seriale produse de %{name}
     edit:
       cast_updated: Distribuție actualizată
-      delete_all_appearances: 
+      delete_all_appearances:
       genres_updated: Genurile au fost actualizate
-      lock_all_appearances: 
+      lock_all_appearances:
       lock_all_cast_crew_description: Făcând clic pe „da”, veți bloca toate înregistrările existente pentru a putea fi editate de utilizatorii obișnuiți. Doar moderatorii vor putea să efectueze modificări.
       lock_all_fields: Blocați toate câmpurile
       lock_all_images: Blocați toate imaginile
@@ -2962,7 +2985,7 @@ ro-RO:
         original_title: Titlul original trebuie introdus în limba originală al elementului. În cele mai multe cazuri acesta s-ar potrivi cu limba introdusă în câmpul „limba originală”.
         overview: Când scrieți o prezentare, încercați să o păstrați scurtă, concisă și fără stricătoare de chef (spoilers).
         social_links: Link-urile sociale sunt doar pentru paginile oficiale (verificate). Paginile fanilor nu sunt permise.
-      unlock_all_appearances: 
+      unlock_all_appearances:
     external_links:
       visit_facebook: Vizitați Facebook
       visit_homepage: Vizitați pagina de pornire
@@ -2976,7 +2999,7 @@ ro-RO:
       format: Format
       no_backdrop_stills: Nu există nicio fotografie de fundal capturată adăugată pentru această înregistrare.
       no_backdrops: Nu există nici o fotografie de fundal adăugată pentru această înregistrare.
-      no_headshots: 
+      no_headshots:
       no_logos: Nu există nicio siglă adăugată pentru această intrare.
       no_posters: Nu există niciun afiș adăugat pentru această intrare.
       no_profiles: Nu există niciun profil adăugat la această intrare.
@@ -3093,10 +3116,10 @@ ro-RO:
       backdrops: Fotografii de fundal
       cast_crew: Distribuție și echipă filmare
       changes: Modificări
-      characters: 
+      characters:
       fandom: Zona Fan
-      headshots: 
-      logos: 
+      headshots:
+      logos:
       main: Principal
       media: Multimedia
       overview: Prezentare
@@ -3210,7 +3233,7 @@ ro-RO:
             one: "%{count} Grup"
             other: "%{count} Grupuri"
         original_air_date: Dată difuzare originală
-      master_characters: 
+      master_characters:
       networks:
         few: ''
         one: Rețea
@@ -3232,7 +3255,7 @@ ro-RO:
         Scripted: Scriptat
         Talk Show: Emisiune de discuții
         Video: Video
-      user_characters: 
+      user_characters:
     video:
       audio_language: Limbă audio
       channel: Canal
@@ -3415,14 +3438,14 @@ ro-RO:
           quadrillion: C
           thousand: Mie
           trillion: T
-          unit: 
+          unit:
     percentage:
       format:
-        delimiter: 
+        delimiter:
         format: "%n%"
     precision:
       format:
-        delimiter: 
+        delimiter:
   number_of_edits:
     few: "%{count} modificări"
     one: "%{count} modificare"
@@ -3501,7 +3524,7 @@ ro-RO:
     show_more: Arată mai multe
   part_of_collection: Parte din %{collection_name}
   password:
-    4_chars_minimum: 
+    4_chars_minimum:
     confirm_new_password: Confirmați parola nouă
     new_password: Parola nouă
     password: Parola
@@ -3512,7 +3535,7 @@ ro-RO:
       as_character: ca %{character}
       as_job: "— %{job}"
   reset_password_text: Introduceți numele dvs. de utilizator mai jos pentru a porni procesul de resetare a parolei.
-  sample: 
+  sample:
   search:
     favorites_movie: Căutare filme artistice favorite...
     favorites_tv: Căutare filme seriale favorite...
@@ -3534,7 +3557,7 @@ ro-RO:
     trending_searches: Căutare avansată
     watchlist_movie: Căutare listă de filme artistice de urmărit...
     watchlist_tv: Căutare listă de filme seriale de urmărit...
-  search_text_validation_error: 
+  search_text_validation_error:
   search_tip_1: 'Sfat: Puteți folosi filtrul „y:” pentru a restrânge rezultatele după an. De exemplu: „Războaiele stelare y:1977”.'
   season_number_name: Sezonul %{season_number}
   season_overview:
@@ -3543,10 +3566,10 @@ ro-RO:
   settings:
     account:
       account_settings: Stabiliri cont
-      auto_detect: 
+      auto_detect:
       page_title: Setările mele
       resend_verification_email_text: Lipsește e-mailul dvs. de verificare a contului? Introduceți numele dvs. de utilizator de mai jos pentru al retrimite.
-      reset_password_text: 
+      reset_password_text:
     api:
       api: API
       create_page_title: Creați o cheie nouă API
@@ -3556,7 +3579,7 @@ ro-RO:
         create: Creează
         details: Detalii
         directory: Director
-        overview: 
+        overview:
         sessions: Sesiuni
         stats: Statistici
       page_title: Setările mele API
@@ -3630,7 +3653,7 @@ ro-RO:
       edit_profile: Editare profil
       import_list: Importare listă
       notification_settings: Stabiliri notificări
-      sessions: 
+      sessions:
       settings: Stabiliri
       sharing_settings: Stabiliri distribuire
       social_settings: Stabiliri sociale
@@ -3677,11 +3700,11 @@ ro-RO:
           <p>Pentru a schimba parola, avem nevoie de o adresă de e-mail validă. Din păcate, am avut probleme în a vă trimite e-mailuri în trecut. Puteți vedea erorile la <a href="/u/%{username_url}/events/emails?status=2,3">here</a>.</p>
 
           <p>Dacă problemele cu adresa dvs. de e-mail au fost rezolvate sau au fost doar temporare, faceți clic pe butonul de resetare de mai jos și vom încerca să vă trimitem un alt e-mail.</p>
-        sending_problems: 
-        what_is_your_email: 
+        sending_problems:
+        what_is_your_email:
       page_title: Profilul meu
       reset_password_dialog_text: Prin confirmarea acestei solicitări veți primi un e-mail cu instrucțiuni despre resetarea parolei. Sigur vrei să faci asta?
-      reset_password_dialog_text2: 
+      reset_password_dialog_text2:
     sessions:
       api:
         connected_apps: Aplicații conectate
@@ -3693,20 +3716,20 @@ ro-RO:
           application_name: Nume aplicație
           date_authorised: Data autorizării
       navigation:
-        api: 
-        web: 
-      page_title: 
-      sessions: 
+        api:
+        web:
+      page_title:
+      sessions:
       web:
-        current_session: 
+        current_session:
         remove_single:
-          confirm_button: 
-          dialog_text: 
-          dialog_title: 
+          confirm_button:
+          dialog_text:
+          dialog_title:
         table:
-          date: 
-          device: 
-          ip: 
+          date:
+          device:
+          ip:
     sharing:
       favorite_list:
         favorite_settings: Stabilire liste favorite
@@ -3746,7 +3769,7 @@ ro-RO:
       build_watchlist: Construiți și întrețineți o listă personală cu filme de urmărit
       contribute: Contribuiți și îmbunătățiți informațiile din baza noastră de date
       discussions: Luați parte la discuțiile despre filmele artistice și seriale
-      find_something_to_watch: 
+      find_something_to_watch:
       keep_track: Țineți evidența filmelor artistice și a serialelor favorite și primiți recomandări pe baza lor
       log_movies: Însemnați filmele artistice și seriale pe care le-ați privit
     by_clicking_agree_to_terms: Dând clic pe butonul  „Înregistrare” de mai jos, Certific că am citit și sunt de acord cu termenii de folosire ai TMDb și cu politica de confidențialitate.
@@ -3780,10 +3803,10 @@ ro-RO:
   time:
     formats:
       12hour_minutes: "%l:%M%p"
-      am: 
-      default: 
+      am:
+      default:
       long: "%B %d, %Y %I:%M %p"
-      pm: 
+      pm:
       short: "%d %b %I:%M %p"
   top_contributors: Top Contribuitori
   translation:
@@ -3791,10 +3814,10 @@ ro-RO:
     one: traducere
     other: de traduceri
   upload_backdrop: Încărcare fotografii de fundal
-  upload_headshot: 
+  upload_headshot:
   upload_poster: Încărcare afiș
   upload_profile: Încărcare imagine de profil
-  upload_title_logo: 
+  upload_title_logo:
   used_by_developers: TMDb este utilizată de mai mult de 400,000 de dezvoltatori.<br>Răsfoiți-le munca mai jos.
   videos:
     filters:

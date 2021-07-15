@@ -93,6 +93,7 @@ en-US:
   Certification: Certification
   Change?: Change?
   Character: Character
+  Characters: Characters
   Choose: Choose...
   City: City
   Collection Results: Collection Results
@@ -597,15 +598,19 @@ en-US:
     filter_by: 'Filter by:'
     filters:
       air_date: Air Date
+      alphabetical: Alphabetical
       date_added: Date Added
       date_rated: Date Rated
       first_air_date: First Air Date
+      most_popular: Most Popular
       my_rating: My Rating
+      newest: Newest
       popularity: Popularity
       rating: Rating
       release_date: Release Date
       score: Score
       upcoming: Upcoming
+      user_characters: User Characters
     lists:
       create_list: Create List
       last_updated: Updated
@@ -1295,10 +1300,16 @@ en-US:
           meaning: This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17
   character:
     add_a_character: Add a character
+    add_an_appearance: Add An Appearance
+    add_appearance: Add Appearance(s)
+    add_backdrop: Add A Backdrop
     add_backdrop_grp: Add A Backdrop For This Group
     add_missing_character: Add Missing Character
+    all_done: All Done
     back: Back
     backdrop: Backdrop
+    backdrop_window_title: Choose a Character Backdrop Photo
+    cancel_edits: Cancel Edits
     character_backdrop_photo: Character Backdrop Photo
     character_bio: Character Bio
     character_name: Character Names
@@ -1314,6 +1325,7 @@ en-US:
     create_overview_help: Help us populate the bio for this character over the series of movies/tv appearances they made.
     create_overview_name_help: Please only change the character name if there is a specific reason or to a common name that they are known by.
     create_overview_note: The actor and their headshot cannot be edited here.
+    delete_backdrop: Delete Backdrop
     delete_character: Delete Character
     done_editing: Done Editing?
     edit_groups: Edit Groups
@@ -1323,8 +1335,10 @@ en-US:
     find_character: Which characters or title would you like to find ?
     find_character_note: Find your favourite character, titles and more
     found_everything: Found Everything?
+    headshot_window_title: Change the Character headshot
     help_our_mods: Help Our Moderators
     help_our_mods_info: Tell us about the character! This is a private field between you and the moderation team. Any info you provide about the character and why you're creating it, will help them when reviewing your page.
+    inline_edit_original_name: Original Name
     launch_label: launch
     master_group_limit_error: Sorry, you have reached the maximum supported group limit.
     media_types:
@@ -1359,16 +1373,21 @@ en-US:
     revenue: Revenue
     review_and_launch_title: Review & Launch
     review_label: review
+    save_edits: Save Edits
     search: Search
     search_character_note: Search for the character or title you'd like to add below. You may create multiple searches to find everything you'd like to add.
     search_error_info: Please edit your search or check that the title in which the character appears exists in the database and has an accurate cast and crew details.
+    select_backdrop: Select Backdrop
     select_group_title: Select & Group Titles
     star: Star
     submit_and_preview: Submit and Preview
+    suggested_backdrops: Select Suggested Backdrops
+    suggested_window_title: Suggested Character Backdrop Photos
     title_drag_info: Any titles you wish to add can be dragged to the sidebar to the left.
     total_appearance: Total Appearance
     total_budget: Total Budget
     tv_titles: TV Titles
+    update_backdrop: Update Backdrop
     upload_backdrop_title: Select the person against which you want to associate this image.
     user_added_backdrop_info: Here are the backdrop photos added by you for the character. Please select the photos you want to proceed with.
     user_added_backdrop_label: User Added Backdrop Photos
@@ -1474,7 +1493,7 @@ en-US:
     - Fri
     - Sat
     abbr_month_names:
-    - 
+    -
     - Jan
     - Feb
     - Mar
@@ -1502,7 +1521,7 @@ en-US:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    - 
+    -
     - January
     - February
     - March
@@ -1782,6 +1801,7 @@ en-US:
       inclusion: must be selected
       invalid: is invalid
       invalid_character_name: Character name should not contain special characters
+      no_characters_found: No Characters Found
       required: must exist
       series_status_invalid_to_create_season: is set to either 'Cancelled' or 'Ended' therefore new seasons cannot be created.
       suspected_tv_series: is suspected to be an existing TV series or miniseries, you can continue to add this item if you're sure but if it exists in our TV section it will be removed
@@ -2920,7 +2940,10 @@ en-US:
         one: "%{count} Change"
         other: "%{count} Changes"
       view_weekly_leaderboard: View Weekly Leaderboard
-    character: 
+    character:
+      edit:
+        appearance:
+          no_records: No appearances have been added
     collection:
       edit:
         parts:
@@ -3504,7 +3527,7 @@ en-US:
       as_character: as %{character}
       as_job: "— %{job}"
   reset_password_text: Enter your username below to start the password reset process.
-  sample: 
+  sample:
   search:
     favorites_movie: Search favorite movies...
     favorites_tv: Search favorite TV shows...

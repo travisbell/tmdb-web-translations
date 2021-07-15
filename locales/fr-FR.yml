@@ -93,6 +93,7 @@ fr-FR:
   Certification: Classification d'âge
   Change?: Modifier ?
   Character: Personnage incarné
+  Characters: Personnages
   Choose: Sélectionner...
   City: Ville
   Collection Results: Résultats de la recherche de la collection
@@ -111,7 +112,7 @@ fr-FR:
   Content Ratings: Classifications d'âges
   Content Score: Score de contenu
   Continue: Continuer
-  Contribution leaders for the week of: Meilleurs contributeurs pour la semaine du
+  Contribution leaders for the week of: Meilleures contributions pour la semaine du
   Convert to Collection?: Convertir en collection ?
   Country: Pays
   Create: Créer
@@ -175,7 +176,7 @@ fr-FR:
   Expand: Agrandir
   External IDs: Identifiants externes
   External Links: Liens externes
-  Extra Details: 'Détails supplémentaires afin d''aider les modérateurs de contenu :'
+  Extra Details: 'Votre commentaire aidera les modérateurs de contenu : détails, liens, etc.<br>Veuillez privilégier la langue anglaise, si possible :'
   Extras: Figuration
   FAQ: Foire aux questions
   Facts: Faits principaux
@@ -242,7 +243,7 @@ fr-FR:
   Last Season Featured Crew: Équipe technique en vedette de la dernière saison
   Last Season Regular Cast: Distribution récurrente des rôles de la dernière saison
   Last Week: Semaine dernière
-  Leaderboard: Top contributeurs
+  Leaderboard: Top contributions
   Legal: Mentions légales
   List Results: Résultats de la recherche de la liste
   Lists: Listes
@@ -460,15 +461,15 @@ fr-FR:
   Top Billed Cast: Têtes d'affiche
   Top Rated Movies: Films les mieux notés
   Top Rated TV Shows: Émissions télévisées les mieux notées
-  Top Users: Top contributeurs
+  Top Users: Top contributions
   Translate Collection: Traduire la collection
   Translate Movie: Traduire le film
   Translate Person: Traduire la personne
   Translate TV Series: Traduire la série télévisée
-  Translated Name: Nom, uniquement si différent du nom d'origine, en
-  Translated Overview: Traduction du synopsis
-  Translated Tagline: Slogan de l'affiche officielle ou, à défaut, traduit en
-  Translated Title: Titre, uniquement si différent du titre d'origine, en
+  Translated Name: Nom, si différent du nom d'origine, en
+  Translated Overview: Si vous modifiez une fiche française, merci de respecter les guillemets avec des espaces insécables.<br>Copier et coller « » pour plus de simplicité. Ne pas utiliser " ".<br>Traduction du synopsis ou synopsis d'origine en
+  Translated Tagline: Slogan de l'affiche officielle.<br>Penser à la ponctuation de fin de phrase.<br>À défaut d'une affiche officielle, traduire le slogan en
+  Translated Title: Titre, si différent du titre d'origine, en
   Translations: Traductions
   Type: Type
   Type of Problem: Type de problème
@@ -599,15 +600,19 @@ fr-FR:
     filter_by: 'Trier par :'
     filters:
       air_date: Date de diffusion
+      alphabetical: Ordre alphabétique
       date_added: Date d'ajout
       date_rated: Date de notation
       first_air_date: Date de première diffusion
+      most_popular: Le plus populaire
       my_rating: Mes notes
+      newest: Le plus récent
       popularity: Popularité
       rating: Note
       release_date: Date de sortie
       score: Note
       upcoming: À venir
+      user_characters: Personnages de l'utilisateur
     lists:
       create_list: Créer une liste
       last_updated: Mise à jour !
@@ -1297,10 +1302,16 @@ fr-FR:
           meaning: Ce programme est spécialement conçu pour être vu par des adultes et peut donc ne pas convenir aux enfants de moins de 18 ans.
   character:
     add_a_character: Ajouter un personnage
+    add_an_appearance: Ajouter un apparition
+    add_appearance: Ajouter une ou des apparition(s)
+    add_backdrop: Ajouter un fond d'écran
     add_backdrop_grp: Ajouter un arrière-plan pour ce groupe
     add_missing_character: Ajouter un personnage manquant
+    all_done: Terminé
     back: Retour
     backdrop: Arrière-plan
+    backdrop_window_title: Choisir un fond d'écran pour le personnage
+    cancel_edits: Annuler les modifications
     character_backdrop_photo: Photo d'arrière-plan du personnage
     character_bio: Biographie du personnage
     character_name: Noms du personnage
@@ -1316,6 +1327,7 @@ fr-FR:
     create_overview_help: Aidez-nous à compléter la biographie de ce personnage au fur et à mesure des séries de films / apparitions télévisées qu'il a faites.
     create_overview_name_help: Veuillez ne modifier le nom d'un personnage que pour une raison spécifique ou pour un nom commun sous lequel il est connu.
     create_overview_note: L'artiste et ses photos de profil ne peuvent pas être modifiés à cet endroit.
+    delete_backdrop: Supprimer le fond d'écran
     delete_character: Supprimer le personnage
     done_editing: Avez-vous terminé vos modifications ?
     edit_groups: Modifier les groupes
@@ -1325,8 +1337,10 @@ fr-FR:
     find_character: Quels personnages ou titre aimeriez-vous trouver ?
     find_character_note: Trouvez votre personnage préféré, vos titres et plus
     found_everything: Avez-vous trouvé tous les éléments ?
+    headshot_window_title: Changer la photo de profil du personnage
     help_our_mods: Aidez nos modérateurs
     help_our_mods_info: Parlez-nous du personnage ! Il s'agit d'un champ privé entre l'équipe de modération et vous-même. Toutes les informations que vous fournirez sur le personnage, et la raison pour laquelle vous le créez, les aideront lors de la révision de votre fiche.
+    inline_edit_original_name: Nom d'origine
     launch_label: mise en ligne
     master_group_limit_error: Vous avez atteint le nombre maximal de groupes qui est supporté.
     media_types:
@@ -1361,23 +1375,28 @@ fr-FR:
     revenue: Salaire
     review_and_launch_title: Réviser et mettre en ligne
     review_label: révision
+    save_edits: Enregistrer les modifications
     search: Rechercher
     search_character_note: Recherchez le personnage ou le titre que vous souhaitez ajouter ci-dessous. Vous pouvez lancer plusieurs recherches afin de trouver tous les éléments que vous souhaitez ajouter.
     search_error_info: Veuillez modifier votre recherche ou vérifier que le titre dans lequel le personnage apparaît existe bien dans notre base de données et contient déjà des détails précis sur la distribution des rôles et l'équipe technique.
+    select_backdrop: Sélectionner un fond d'écran
     select_group_title: Sélectionner et regrouper les titres
     star: Vedette
     submit_and_preview: Prévisualiser et soumettre
+    suggested_backdrops: Sélectionner les fonds d'écran suggérés
+    suggested_window_title: Fonds d'écran de personnage suggérés
     title_drag_info: Tous les titres que vous souhaitez ajouter peuvent être glissés-déposés vers la barre latérale gauche.
     total_appearance: Apparitions cumulées
     total_budget: Budget cumulé
     tv_titles: Titres télévisés
+    update_backdrop: Mettre à jour le fond d'écran
     upload_backdrop_title: Sélectionnez la personne à laquelle vous souhaitez associer cette photo.
     user_added_backdrop_info: Voici les photos d'arrière-plan que vous avez ajoutées pour le personnage. Veuillez sélectionner les photos avec lesquelles vous souhaitez poursuivre.
     user_added_backdrop_label: Photos d'arrière-plan ajoutées par l'utilisateur
     user_variant_description: Voici quelques photos envisageables que nous avons trouvées pour le personnage. Veuillez en sélectionner une, ou bien en ajouter une autre qui conviendrait mieux au personnage.
     user_variant_intro: Trouvez votre personnage préféré parmi les films, les émissions télévisées et plus encore...
     validation_charactername: Le nom du personnage principal est requis.
-    validation_group_synopsis: Veuillez saisir un synopsis de groupe valide
+    validation_group_synopsis: Veuillez saisir un synopsis de groupe valide.
     validation_grpname: Veuillez saisir un nom de groupe valide.
     validation_synopsis: Veuillez saisir un synopsis valide.
     view_by: Vu par
@@ -1476,7 +1495,7 @@ fr-FR:
     - ven
     - sam
     abbr_month_names:
-    - 
+    -
     - janv.
     - févr.
     - mars
@@ -1504,7 +1523,7 @@ fr-FR:
       full_month_year: "%B %Y"
       short_month_day_year: "%e %b %Y"
     month_names:
-    - 
+    -
     - janvier
     - février
     - mars
@@ -1636,7 +1655,7 @@ fr-FR:
         where_to_watch: Abonnements de streaming
       years:
         years: Années
-    no_items: Aucun résultat pour cette recherche.
+    no_items: Aucune fiche ne correspond à votre recherche.
     search: Rechercher
     tooltips:
       not_member: Pas encore membre ?
@@ -1782,6 +1801,7 @@ fr-FR:
       inclusion: doit être sélectionné·e
       invalid: n'est pas valide
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
+      no_characters_found: Aucun personnage n'a été trouvé.
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
       suspected_tv_series: semble exister en tant que série télévisée ou mini-série. Vous pouvez poursuivre l'ajout de cet élément si vous agissez avec certitude, mais il sera supprimé s'il existe déjà dans notre section « Télévision » / « Contenu télévisé ».
@@ -1867,7 +1887,7 @@ fr-FR:
       latest_trailers: Bandes-annonces
       leaderboard:
         all_time: Modifications totales
-        leaderboard: Top contributeurs
+        leaderboard: Top contributions
         this_week: Modifications cette semaine
       trending: Tendances
       whats_popular: Populaires
@@ -2920,7 +2940,10 @@ fr-FR:
         one: "%{count} modification"
         other: "%{count} modifications"
       view_weekly_leaderboard: Afficher le classement de la semaine
-    character: 
+    character:
+      edit:
+        appearance:
+          no_records: Aucune apparition n'a été ajoutée.
     collection:
       edit:
         parts:
@@ -2960,7 +2983,7 @@ fr-FR:
         homepage: Page d'accueil du site officiel uniquement. Les pages de fans ne sont pas autorisées.
         logo_format: Les formats SVG et PNG sont supportés. Les fichiers SVG sont préférés car ils sont indépendants de la résolution.
         original_title: Le nom d'origine de l'émission télévisée ou le titre d'origine du film doit être saisi dans la langue d'origine de l'élément. Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ « Langue d'origine ».
-        overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez les spoilers.
+        overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez de dévoiler l'intrigue.
         social_links: Les liens vers les réseaux sociaux doivent être uniquement ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
       unlock_all_appearances: En cliquant sur « oui », vous déverrouillerez tous les enregistrements existants.
     external_links:
@@ -3406,14 +3429,14 @@ fr-FR:
           quadrillion: Q
           thousand: m
           trillion: B
-          unit: 
+          unit:
     percentage:
       format:
         delimiter: " "
         format: "%n%"
     precision:
       format:
-        delimiter: 
+        delimiter:
   number_of_edits:
     one: " %{count} modification"
     other: " %{count} modifications"
@@ -3497,7 +3520,7 @@ fr-FR:
       as_character: incarnant %{character}
       as_job: "— %{job}"
   reset_password_text: Saisissez ci-dessous votre nom d'utilisateur pour démarrer le processus de réinitialisation du mot de passe.
-  sample: 
+  sample:
   search:
     favorites_movie: Rechercher parmi vos films favoris...
     favorites_tv: Rechercher parmi vos émissions télévisées favorites...
@@ -3735,9 +3758,9 @@ fr-FR:
       keep_track: Gardez une trace de vos films favoris et de vos émissions télévisées favorites et obtenez des recommandations personnalisées,
       log_movies: Enregistrez les films et émissions télévisées que vous avez vus,
     by_clicking_agree_to_terms: En cliquant sur le bouton « Créer un compte », je certifie avoir lu et accepté les « Conditions d'utilisation » et la « Politique de confidentialité » de TMDb. Pour les consulter, rendez-vous dans la partie « MENTIONS LÉGALES » des liens de bas de page.
-    javascript_required: L'activation de JavaScript est nécessaire au bon fonctionnement du processus.
+    javascript_required: L'activation de JavaScript est nécessaire au bon fonctionnement du processus.<br>
     sign_up_for_account: Inscrivez-vous pour obtenir un compte
-    signup_text: La création d'un compte est gratuite et facile.<br><br>Pour commencer, remplissez le formulaire ci-dessous.<br><br>
+    signup_text: "<br>La création d'un compte est gratuite et facile.<br><br>Pour commencer, remplissez le formulaire ci-dessous.<br><br>"
   success_approved_access_token: Permission accordée !
   success_deleted: L'élément sélectionné a bien été supprimé.
   success_email: Votre courriel a bien été envoyé.<br>Nous vous remercions et vous répondrons le plus rapidement possible.<br>L'équipe de TMDb.
@@ -3770,7 +3793,7 @@ fr-FR:
       long: "%e %B %Y %Hh%M"
       pm: du soir
       short: "%e %b %Hh%M"
-  top_contributors: Top contributeurs
+  top_contributors: Top contributions
   translation:
     one: traduction
     other: traductions

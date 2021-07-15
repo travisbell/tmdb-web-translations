@@ -93,6 +93,7 @@ he-IL:
   Certification: סיווג צפייה
   Change?: לשנות?
   Character: דמות
+  Characters: דמויות
   Choose: בחירה...
   City: עיר
   Collection Results: תוצאות אוספים
@@ -595,15 +596,19 @@ he-IL:
     filter_by: 'סנן לפי:'
     filters:
       air_date: תאריך שידור
+      alphabetical: אלפביתי
       date_added: תאריך הוספה
       date_rated: תאריך דירוג
       first_air_date: תאריך ראשון של שידור
+      most_popular: הפופולרי ביותר
       my_rating: הדירוג שלי
+      newest: החדש ביותר
       popularity: פופולריות
       rating: דירוג
       release_date: תאריך שחרור
       score: ניקוד
       upcoming: עתידי
+      user_characters: דמויות משתמש
     lists:
       create_list: צור רשימה
       last_updated: עודכן
@@ -1293,10 +1298,16 @@ he-IL:
           meaning: תוכנית זו מיועדת במפורש לצפייה ע״י מבוגרים ולכן עשויה להיות לא מתאימה לילדים מתחת לגיל 17
   character:
     add_a_character: הוסף דמות
+    add_an_appearance:
+    add_appearance:
+    add_backdrop:
     add_backdrop_grp: הוסף תפאורת־רקע עבור קבוצה זו
     add_missing_character: הוסף דמות חסרה
+    all_done:
     back: הקודם
     backdrop: תפאורת־רקע
+    backdrop_window_title:
+    cancel_edits:
     character_backdrop_photo: תצלום תפאורת־רקע של דמות
     character_bio: ביוגרפית דמות
     character_name: שמות דמויות
@@ -1312,6 +1323,7 @@ he-IL:
     create_overview_help: עזור לנו למלא את הביוגרפיה עבור דמות זו עם המופעים בסרטים או בסדרות שהיא הופיעה.
     create_overview_name_help: אנא שנה רק את שם הדמות אם יש סיבה מסוימת או אם יש שם מוכר שהדמות ידועה בו.
     create_overview_note: השחקן ותצלום הפנים שלו אינם ניתנים לעריכה כאן.
+    delete_backdrop:
     delete_character: מחק דמות
     done_editing: סיימת לערוך?
     edit_groups: ערוך קבוצות
@@ -1321,8 +1333,10 @@ he-IL:
     find_character: אילו דמויות או איזה כותר אתה רוצה למצוא?
     find_character_note: מצא את הדמות המועדפת עליך, הכותרים המועדפים עליך ועוד
     found_everything: מצאת הכל?
+    headshot_window_title:
     help_our_mods: עזור למנהלנים שלנו
     help_our_mods_info: ספר לנו על הדמות! זהו שדה פרטי בינך ולבין צוות המינהל. כל מידע שאתה מספק על הדמות ולמה אתה יוצר אותה, יעזור להם בעת סיקור הדף שלך.
+    inline_edit_original_name:
     launch_label: הרץ
     master_group_limit_error: סליחה, הגעת אל המגבלה המרבית הנתמכת של קבוצה.
     media_types:
@@ -1349,7 +1363,7 @@ he-IL:
     played_by: משוחק ע״י
     previous: הקודם
     previous_nav_label: הקודם
-    push_test_v1: 
+    push_test_v1:
     ready_to_launch: זה הכל. מוכן להריץ?
     result: תוצאות
     results_info_text: בחר איזה מתאר של דמות תרצה להוסיף.
@@ -1357,16 +1371,21 @@ he-IL:
     revenue: פדיון
     review_and_launch_title: סקור והרץ
     review_label: סקור
+    save_edits:
     search: חיפוש
     search_character_note: חפש למטה את הדמות או הכותר שאתה רוצה להוסיף. אתה יכול לבצע חיפושים רבים כדי למצוא כל דבר שאתה רוצה להוסיף.
     search_error_info: אנא ערוך את החיפוש שלך או בדוק שהכותרת שבה הדמות מופיעה קיימת במסד הנתונים ושיש לה פרטים מדויקים של להק וסגל.
+    select_backdrop:
     select_group_title: בחר וקבץ כותרים
     star: כוכב
     submit_and_preview: הגש והצג מראש
+    suggested_backdrops:
+    suggested_window_title:
     title_drag_info: כותרים כלשהם שאתה רוצה להוסיף יכולים להיגרר אל הסרגל הצדדי משמאל.
     total_appearance: מופע כולל
     total_budget: תקציב כולל
     tv_titles: כותרים של סדרות
+    update_backdrop:
     upload_backdrop_title: בחר את האיש שעבורו אתה רוצה לשייך תמונה זו.
     user_added_backdrop_info: כאן תצלומי תפאורת־הרקע שהתווספו על ידך עבור הדמות. אנא בחר את התצלומים שאיתם אתה רוצה להמשיך.
     user_added_backdrop_label: משתמש הוסיף תצלומי תפאורת־רקע
@@ -1472,7 +1491,7 @@ he-IL:
     - ו
     - ש
     abbr_month_names:
-    - 
+    -
     - ינו'
     - פבר'
     - מרץ
@@ -1500,7 +1519,7 @@ he-IL:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    - 
+    -
     - ינואר
     - פברואר
     - מרץ
@@ -1626,9 +1645,9 @@ he-IL:
       where_to_watch:
         country: מדינה
         my_services:
-          my_services: השרותים שלי
-          restrict: הגבל חיפושים אל השרותים שאני מנוי שלהם
-          restrict_tooltip: היכנס כדי לנהל את השרותים שאתה מנוי שלהם
+          my_services: השירותים שלי
+          restrict: הגבל חיפושים אל השירותים שאני מנוי שלהם
+          restrict_tooltip: היכנס כדי לנהל את השירותים שאתה מנוי שלהם
         where_to_watch: איפה לצפות
       years:
         years: שנים
@@ -1714,7 +1733,7 @@ he-IL:
         hide_comment: ע״י לחיצה על 'כן', תגובה זו תוסתר.
         hide_discussion: ע״י לחיצה על 'כן', דיון זה יוסתר.
         ignore_user: האם אתה בטוח שאתה רוצה לחסום משתמש זה? כל הדיונים והתגובות האחרים ייעלמו. אתה יכול להסיר חסימה זו ע״י ניווט אל העמוד "משתמשים חסומים" בתוך הגדרות החשבון שלך.
-        mark_as_spam: האם אתה בטוח שאתה רוצה לסמן דיון זה כזבל? הוא יימחק באופן אוטומטי אם אתה בטוח ופעולה זו אינה יכולה להתבטל. סימון דיונים כזבל עוזר לאמן את שרות זיהוי הזבל שאנחנו משתמשים.
+        mark_as_spam: האם אתה בטוח שאתה רוצה לסמן דיון זה כזבל? הוא יימחק באופן אוטומטי אם אתה בטוח ופעולה זו אינה יכולה להתבטל. סימון דיונים כזבל עוזר לאמן את שירות זיהוי הזבל שאנחנו משתמשים.
         report_violation: אנא אשר שאתה רוצה לדווח על משתמש זה אחר הפרה על <a href="/documentation/community/guidelines" target="_blank" rel="noopener">הקווים המנחים של הקהילה</a> שלנו.
         unhide_discussion: ע״י לחיצה על 'כן', דיון זה יהפוך להיות נראה שוב.
       posted_by_with_datetime: "%{username} בתאריך %{date} בשעה %{time} פורסם ע״י"
@@ -1778,6 +1797,7 @@ he-IL:
       inclusion: חייב להיות מסומן
       invalid: אינו תקף
       invalid_character_name: שם דמות אינו יכול להכיל תווים מיוחדים
+      no_characters_found: דמויות לא נמצאו
       required: חייב להתקיים
       series_status_invalid_to_create_season: הוגדר בתור 'מבוטל' או 'הסתיים' לכן עונות חדשות אינן יכולות להיווצר
       suspected_tv_series: חשודה כסדרה או כמיני סדרה קיימת, אתה יכול להמשיך להוסיף פריט זה אם אתה בטוח אבל אם הוא קיים בפלג הטלוויזיה שלנו, הוא יוסר
@@ -1836,7 +1856,7 @@ he-IL:
       benefits_list:
         '1': תהנה מטי־אם־די־בי נטול פרסומות
         '2': תחזק רשימה אישית של צפייה
-        '3': סנן לפי שרותי ההזרמה שאתה מנוי ומצא משהו לצפות
+        '3': סנן לפי שירותי ההזרמה שאתה מנוי ומצא משהו לצפות
         '4': כתוב ביומן את הסרטים והסדרות שראית
         '5': בנה רשימות מותאמות אישית
         '6': תרום אל מסד הנתונים שלנו ושפר אותו
@@ -2020,7 +2040,7 @@ he-IL:
     Assistant Chef: עוזר שף
     Assistant Chief Lighting Technician: עוזר של טכנאי תאורה ראשי
     Assistant Costume Designer: עוזר מעצב תלבושות
-    Assistant Craft Service: 
+    Assistant Craft Service:
     Assistant Decorator: עוזר תפאורן
     Assistant Dialogue Editor: עוזר עורך דו־שיחים
     Assistant Director: עוזר בִּימַאִי
@@ -2037,15 +2057,15 @@ he-IL:
     Assistant Location Manager: עוזר מנהל מיקומים
     Assistant Makeup Artist: עוזר אומן איפור
     Assistant Music Supervisor: עוזר אחראי מוזיקה
-    Assistant Picture Car Coordinator: 
+    Assistant Picture Car Coordinator:
     Assistant Picture Editor: עוזר עורך תמונה
     Assistant Production Coordinator: עוזר מתאם הפקה
     Assistant Production Design: עוזר עיצוב הפקה
     Assistant Production Manager: עוזר מנהל הפקה
-    Assistant Property Master: 
+    Assistant Property Master:
     Assistant Script: עוזר תסריטאי
     Assistant Set Decoration: עוזר תפאורת אתר צילומים
-    Assistant Set Decoration Buyer: 
+    Assistant Set Decoration Buyer:
     Assistant Set Designer: עוזר מעצב אתרי צילום
     Assistant Set Dresser: עוזר מקשט אתרי צילום
     Assistant Set Propsman: עוזר אמן אביזרי במה
@@ -2064,8 +2084,8 @@ he-IL:
     BTS Footage: צילום מאחורי הקלעים
     BTS Photographer: צלם תמונות מאחורי הקלעים
     BTS Videographer: צלם וידיאו מאחורי הקלעים
-    Back-up Set Production Assistant: 
-    Back-up Truck Production Assistant: 
+    Back-up Set Production Assistant:
+    Back-up Truck Production Assistant:
     Background Casting Director: בִּימַאִי ליהוק רקע
     Background Designer: מעצב רקע
     Base Camp Operator: מתפעל מחנה בסיס
@@ -2073,11 +2093,11 @@ he-IL:
     Best Boy Electric: עוזר ציוד חשמלי
     Best Boy Electrician: עוזר חשמלאי
     Best Boy Grip: תַּמְכָן סייע
-    Best Boy Lighting Technician: 
+    Best Boy Lighting Technician:
     Book: ספר
     Boom Operator: מתפעל בומים
     Broadcast Producer: מפיק שידור
-    Business Affairs Coordinator: 
+    Business Affairs Coordinator:
     CG Animator: מנפיש סי־ג'י
     CG Artist: אומן סי־ג'י
     CG Engineer: CG מהנדס
@@ -2098,7 +2118,7 @@ he-IL:
     Camera Technician: טכנאי מצלמה
     Camera Trainee: מתלמד מצלמה
     Camera Truck: משאית מצלמה
-    Captain Driver: 
+    Captain Driver:
     Carpenter: נגר
     Cast Driver: נהג להק
     Casting: ליהוק
@@ -2112,12 +2132,12 @@ he-IL:
     Catering: הסעדה
     Catering Head Chef: שף הסעדה ראשי
     Chaperone: מלווה
-    Chaperone Tutor: 
+    Chaperone Tutor:
     Character Designer: מעצב דמויות
     Character Modelling Supervisor: אחראי דוגמנות דמויות
     Character Technical Supervisor: אחראי של אופי טכני
     Characters: דמויות
-    Charge Scenic Artist: 
+    Charge Scenic Artist:
     Chef: שף
     Chief Lighting Technician: טכנאי תאורה ראשי
     Chief Technician / Stop-Motion Expert: טכנאי ראשי / מומחה תנועת־עצירה
@@ -2125,7 +2145,7 @@ he-IL:
     Choreographer: כוריאוגרף
     Cinematography: סינמטוגרפיה
     Clapper Loader: טוען נַקָּשׁ
-    Clearances Consultant: 
+    Clearances Consultant:
     Clearances Coordinator: מתאם ניקויים
     Cloth Setup: סידור בגדים
     Co-Art Director: מנהל אומנות שותף
@@ -2150,7 +2170,7 @@ he-IL:
     Conceptual Design: עיצוב תפיסתי
     Conceptual Illustrator: מאייר רעיוני
     Conductor: מנצח
-    Construction Buyer: 
+    Construction Buyer:
     Construction Coordinator: מתאם בניה
     Construction Foreman: מנהל עבודת בניה
     Construction Grip: תַּמְכָן בנייה
@@ -2176,15 +2196,15 @@ he-IL:
     Costume Standby: כונן תלבושות
     Costume Supervisor: אחראי תלבושות
     Costumer: חייט תלבושות
-    Craft Service: שרות מלאכה
+    Craft Service: שירות מלאכה
     Creative Consultant: יועץ יצירתי
     Creative Director: בִּימַאִי יצירתי
     Creative Producer: מפיק יועץ
     Creator: יוצר
     Creature Design: עיצוב יצורים
-    Creature Effects Technical Director: 
-    Creature Technical Director: 
-    Crowd Assistant Director: 
+    Creature Effects Technical Director:
+    Creature Technical Director:
+    Crowd Assistant Director:
     Cyber Scanning Supervisor: אחראי סריקת סבר
     Dailies Manager: מנהל צילומי גלם
     Dailies Operator: מתפעל צילומי גלם
@@ -2204,23 +2224,23 @@ he-IL:
     Dialogue: דו־שיח
     Dialogue Coach: מאמן דו־שיח
     Dialogue Editor: עורך דו־שיחים
-    Digital Color Timer: 
+    Digital Color Timer:
     Digital Colorist: אמן צבעים דיגיטלי
     Digital Compositor: מרכיבי שכבות דיגיטליים
-    Digital Conform Editor: 
+    Digital Conform Editor:
     Digital Effects Producer: מפיק תוצאים מיוחדים
     Digital Effects Supervisor: אחראי תוצאים דיגיטליים
-    Digital Film Recording: 
+    Digital Film Recording:
     Digital Foley Artist: אומן פוליי דיגיטלי
     Digital Imaging Technician: טכנאי של דימות דיגיטלי
     Digital Intermediate: תהליך ביניים דיגיטלי
     Digital Intermediate Assistant: עוזר של מתווך דיגיטלי
     Digital Intermediate Colorist: אמן צבעים ביניים דיגיטלי
     Digital Intermediate Data Wrangler: אחרי נתונים של מתווך דיגיטלי
-    Digital Intermediate Editor: 
-    Digital Intermediate Producer: 
+    Digital Intermediate Editor:
+    Digital Intermediate Producer:
     Digital Producer: מפיק דיגיטלי
-    Digital Storyboarding: 
+    Digital Storyboarding:
     Digital Supervisor: אחראי דיגיטל
     Directing Lighting Artist: אומן תאורה מביים
     Director: בִּימַאִי
@@ -2234,7 +2254,7 @@ he-IL:
     Dramaturgy: דרמטורגיה
     Draughtsman: סַרְטָט
     Dresser: מלביש
-    Dressing Prop: 
+    Dressing Prop:
     Driver: נהג
     Drone Cinematographer: צלם קולנוע של רחפן
     Drone Operator: מתפעל רחפן
@@ -2245,7 +2265,7 @@ he-IL:
     Editorial Coordinator: מתאם עריכה
     Editorial Manager: מנהל עריכה
     Editorial Production Assistant: עוזר הפקת עריכה
-    Editorial Services: שרותי עריכה
+    Editorial Services: שירותי עריכה
     Editorial Staff: צוות עריכה
     Effects Supervisor: אחראי תוצאים
     Electrician: חשמלאי
@@ -2269,10 +2289,10 @@ he-IL:
     Extras Dresser: מלביש ניצבים
     Extras Makeup Artist: אומן איפור ניצבים
     Facial Setup Artist: אומן הכנה של פנים
-    Feature Finishing Producer: 
+    Feature Finishing Producer:
     Field Director: בִּימַאִי שדה
     Fight Choreographer: כוריאוגרף לחימה
-    File Footage: 
+    File Footage:
     Film Processor: מעבד סרטים
     Finance: מימון
     Finishing Producer: מפיק מסיים
@@ -2284,14 +2304,14 @@ he-IL:
     First Assistant Art Direction: עוזר ראשון של כיוון אומנות
     First Assistant Camera: עוזר ראשי של מצלמה
     First Assistant Director: עוזר ראשון של בִּימַאִי
-    First Assistant Director (Prep): 
+    First Assistant Director (Prep):
     First Assistant Director Trainee: מתלמד עוזר ראשון של בִּימַאִי
     First Assistant Editor: עוזר ראשי של עורך
     First Assistant Hairstylist: עוזר ראשון של מעצב שיער
     First Assistant Makeup Artist: עוזר ראשון של אומן איפור
     First Assistant Picture Editor: עוזר ראשון של עורך תמונה
     First Assistant Production Coordinator: עוזר ראשון של מתאם הפקה
-    First Assistant Property Master: 
+    First Assistant Property Master:
     First Assistant Sound Editor: עוזר ראשי של עורך צלילים
     First Company Grip: תַּמְכָן חברה ראשונה
     Fix Animator: מנפיש קבוע
@@ -2344,14 +2364,14 @@ he-IL:
     Imaging Science: מדע תמונות
     In Memory Of: לזכר
     Information Systems Manager: מנהל מערכות מידע
-    Insert Unit Director: 
-    Insert Unit First Assistant Director: 
-    Insert Unit Location Manager: 
+    Insert Unit Director:
+    Insert Unit First Assistant Director:
+    Insert Unit Location Manager:
     Interactive Manager: מנהל אינטראקטיבי
     Interior Designer: מעצב פנים
     Intern: מתמחה
-    Jimmy Jib Operator: 
-    Joint ADR Mixer: 
+    Jimmy Jib Operator:
+    Joint ADR Mixer:
     Junior Story Editor: עורך סיפורים זוטר
     Key Accountant: רואה חשבון מפתח
     Key Animation: הנפשת מפתח
@@ -2381,10 +2401,10 @@ he-IL:
     Lead Creature Designer: מעצב יצורים מוביל
     Lead Editor: עורך ראשי
     Lead Painter: צייר מוביל
-    Lead Set Dresser: 
+    Lead Set Dresser:
     Leadman: אחראי תפאורה
-    Legal Services: שרותים משפטיים
-    Libra Head Technician: 
+    Legal Services: שירותים משפטיים
+    Libra Head Technician:
     Lighting Artist: אומן תאורה
     Lighting Camera: מצלמת תאורה
     Lighting Coordinator: מתאם תאורה
@@ -2409,11 +2429,11 @@ he-IL:
     Location Sound Mixer: מערבל של צלילי מיקום
     Location Sound Recordist: מקליט של צלילי מיקום
     Logistics Coordinator: מתאם לוגיסטיקה
-    Loop Group Coordinator: 
+    Loop Group Coordinator:
     Lyricist: משורר
     Machinist: מכונאי
     Main Title Designer: מעצב כותרת ראשי
-    Main Title Theme Composer: 
+    Main Title Theme Composer:
     Makeup & Hair: איפור ושיער
     Makeup & Hair Assistant: עוזר של איפור ושיער
     Makeup Artist: אומן איפור
@@ -2428,9 +2448,9 @@ he-IL:
     Marine Pilot: טייס נחת
     Martial Arts Choreographer: כוריאוגרף אומנות מלחמתית
     Master Lighting Artist: אומן תאורה מומחה
-    Master at Arms: 
-    Matchmove Supervisor: 
-    Matte Painter: 
+    Master at Arms:
+    Matchmove Supervisor:
+    Matte Painter:
     Mechanical & Creature Designer: מעצב מכני ומעצב יצורים
     Mechanical Designer: מעצב מכני
     Medical Consultant: יועץ רפואי
@@ -2457,16 +2477,16 @@ he-IL:
     Musical: מוזיקלי
     Musical Casting: ליהוק מוזיקלי
     Musician: מוזיקאי
-    Negative Cutter: 
+    Negative Cutter:
     Novel: רומן
-    "O\x01B\x01 Lighting": 
-    "O\x01B\x01 Sound": 
-    On Set Computer Graphics: 
-    On Set Dresser: 
-    On Set Key Props: 
-    On Set Props: 
+    "O\x01B\x01 Lighting":
+    "O\x01B\x01 Sound":
+    On Set Computer Graphics:
+    On Set Dresser:
+    On Set Key Props:
+    On Set Props:
     Online Editor: עורך מקוון
-    Opening Title Sequence: 
+    Opening Title Sequence:
     Opening/Ending Animation: הנפשה של פתיחה/סיום
     Opera: אופרה
     Orchestrator: תזמרן
@@ -2478,10 +2498,10 @@ he-IL:
     Original Series Design: עיצוב סדרה מקורי
     Original Story: סיפור מקורי
     Other: אחר
-    Paint Coordinator: 
+    Paint Coordinator:
     Painter: צייר
     Payroll Accountant: חשב שכר
-    Petty Cash Buyer: 
+    Petty Cash Buyer:
     Phantom Operator: מתפעל פנטום
     Photo Retouching: שכלול תצלומים
     Photoscience Manager: מנהל מדע תצלומים
@@ -2494,19 +2514,19 @@ he-IL:
     Police Consultant: יועץ משטרה
     Post Coordinator: בתר־מתאם
     Post Producer: בתר־מפיק
-    Post Production Accountant: 
+    Post Production Accountant:
     Post Production Assistant: עוזר בתר־הפקה
     Post Production Consulting: ייעוץ בתר־הפקה
-    Post Production Coordinator: 
-    Post Production Producer: 
-    Post Production Scripts: 
+    Post Production Coordinator:
+    Post Production Producer:
+    Post Production Scripts:
     Post Production Supervisor: אחראי בתר־הפקה
     Post Production Technical Engineer: מהנדס טכני של בתר־הפקה
     Post-Production Manager: מנהל בתר־הפקה
     Pre-Visualization Coordinator: מתאם קדם־החזיה
     Pre-Visualization Supervisor: אחראי קדם־החזיה
     Presenter: מציג
-    Principal Costumer: 
+    Principal Costumer:
     Producer: מפיק
     Producer's Assistant: עוזר מפיק
     Production Accountant: חשב הפקה
@@ -2552,16 +2572,16 @@ he-IL:
     Pyrotechnician: טכנאי פירוטכניקה
     Quality Control Supervisor: אחראי בקרת איכות
     Radio Play: תַסכִּית רָדִיוֹ
-    Receptionist: 
+    Receptionist:
     Recording Supervision: הפיקוח על ההקלטה
-    Red Technician: 
+    Red Technician:
     Research Assistant: עוזר מחקר
     Researcher: חוקר
     Rigging Gaffer: חשמלאי חִבלוּל ראשי
     Rigging Grip: תַּמְכָן חִבלוּל
-    Rigging Supervisor: 
-    Roto Supervisor: 
-    Rotoscoping Artist: 
+    Rigging Supervisor:
+    Roto Supervisor:
+    Rotoscoping Artist:
     Runner Art Department: חניך מחלקת אומנות
     Russian Arm Operator: מתפעל זרוע רוסית
     Scenario Writer: סופר תרחישים
@@ -2597,10 +2617,10 @@ he-IL:
     Second Second Assistant Director: עוזר שני של בִּימַאִי
     Second Unit: יחידה שנייה
     Second Unit Cinematographer: צלם קולנוע של יחידה שנייה
-    Second Unit Director: 
-    Second Unit Director of Photography: 
-    Second Unit First Assistant Director: 
-    Second Unit Location Manager: 
+    Second Unit Director:
+    Second Unit Director of Photography:
+    Second Unit First Assistant Director:
+    Second Unit Location Manager:
     Security: אבטחה
     Security Coordinator: מתאם אבטחה
     Senior Animator: מנפיש ותיק
@@ -2616,17 +2636,17 @@ he-IL:
     Sequence Supervisor: אחראי רצף
     Series Composition: חיבור סדרה
     Series Director: בִּימַאִי סדרה
-    Series Publicist: 
+    Series Publicist:
     Series Writer: כותב סדרה
-    Set Buyer: 
+    Set Buyer:
     Set Costumer: חייט תלבושות
-    Set Decorating Coordinator: 
+    Set Decorating Coordinator:
     Set Decoration: קישוט אתר צילומים
     Set Decoration Buyer: קונה קישוט אתר צילומים
     Set Designer: מעצב אתר צילומים
     Set Dresser: מקשט אתרי צילום
     Set Dressing Artist: אומן תפאורה
-    Set Dressing Buyer: 
+    Set Dressing Buyer:
     Set Dressing Manager: מנהל תפאורה
     Set Dressing Production Assistant: עוזר הפקת תלבושות תפאורה
     Set Dressing Supervisor: אחראי תפאורה
@@ -2665,7 +2685,7 @@ he-IL:
     Sound Mix Technician: טכנאי סאונד מיקס
     Sound Mixer: מערבל צלילים
     Sound Montage Associate: עמית מונטאז' צלילים
-    Sound Post Production Coordinator: 
+    Sound Post Production Coordinator:
     Sound Post Supervisor: בתר־אחראי של צלילים
     Sound Re-Recording Assistant: עוזר הקלטה מחדש של צלילים
     Sound Re-Recording Mixer: מערבל הקלטות הקול
@@ -2674,7 +2694,7 @@ he-IL:
     Sound Technical Supervisor: אחרי צלילים טכני
     Special Effects: תוצאים מיוחדים
     Special Effects Assistant: עוזר אפקטים מיוחדים
-    Special Effects Best Boy: 
+    Special Effects Best Boy:
     Special Effects Coordinator: מתאם תוצאים מיוחדים
     Special Effects Key Makeup Artist: אומן מפתח של איפור של תוצאים מיוחדים
     Special Effects Makeup Artist: אומן איפור של תוצאים מיוחדים
@@ -2683,19 +2703,19 @@ he-IL:
     Special Effects Technician: טכנאי תוצאים מיוחדים
     Special Guest: אורח מיוחד
     Special Guest Director: בִּימַאִי אורח מיוחד
-    Special Props: 
+    Special Props:
     Special Sound Effects: תוצאי צליל מיוחדים
     Specialized Driver: נהג מיומן
     Sponsorship Coordinator: מתאם חסויות
     Sponsorship Director: בִּימַאִי חסויות
-    Staff Writer: 
+    Staff Writer:
     Stage Director: בִּימַאִי במה
     Stand In: ממלא מקום
-    Standby Art Director: 
+    Standby Art Director:
     Standby Carpenter: נגר כונן
     Standby Painter: צייר מחליף
-    Standby Property Master: 
-    Standby Rigger: 
+    Standby Property Master:
+    Standby Rigger:
     Steadicam Operator: מתפעל סטדיקאם
     Steadycam: סטדיקאם
     Stereoscopic Coordinator: מתאם פעולות סטריאוסקופי
@@ -2737,7 +2757,7 @@ he-IL:
     Supervising Sound Effects Editor: עורך אחראי של תוצאי צליל
     Supervising Technical Director: בִּימַאִי טכני אחראי
     Supervisor of Production Resources: אחראי של משאבי הפקה
-    Swing: 
+    Swing:
     Systems Administrators & Support: מינהלני מערכת ותמיכה
     Tailor: חייט
     Tattoo Designer: מעצב קעקועים
@@ -2770,21 +2790,21 @@ he-IL:
     Transportation Coordinator: מתאם תחבורה
     Travel Coordinator: מתאם נסיעות
     Treatment: טיפול
-    Truck Costumer: 
+    Truck Costumer:
     Truck Production Assistant: עוזר ייצור משאיות
     Truck Supervisor: אחראי משאיות
     Ultimate Arm Operator: מתפעל זרוע אולטימטיבי
     Underwater Camera: מצלמה מתחת למים
     Underwater Director of Photography: מנהל צילום תת ימי
-    Underwater Epk Photographer: 
+    Underwater Epk Photographer:
     Underwater Gaffer: תאורן תת ימי
     Underwater Stills Photographer: צלם סטילס תת ימי
     Unit Manager: מנהל יחידות
     Unit Medic: חובש יחידה
     Unit Production Manager: מנהל הפקת יחידה
     Unit Publicist: יחצן יחידה
-    Unit Swing: 
-    Utility Sound: שרות שמע
+    Unit Swing:
+    Utility Sound: שירות שמע
     Utility Stunts: פעלולי תועלתיות
     VFX Artist: אמן וי־אף־אקס
     VFX Director of Photography: בִּימַאִי וי־אף־אקס של צילום
@@ -2916,7 +2936,10 @@ he-IL:
         one: שינוי %{count}
         other: "%{count} שינויים"
       view_weekly_leaderboard: הצג לוח תוצאות שבועי
-    character: 
+    character:
+      edit:
+        appearance:
+          no_records:
     collection:
       edit:
         parts:
@@ -3405,14 +3428,14 @@ he-IL:
           quadrillion: ק
           thousand: א
           trillion: ט
-          unit: 
+          unit:
     percentage:
       format:
-        delimiter: 
+        delimiter:
         format: "%n%"
     precision:
       format:
-        delimiter: 
+        delimiter:
   number_of_edits:
     one: "%{count} עריכה"
     other: "%{count} עריכות"
@@ -3439,7 +3462,7 @@ he-IL:
     available_snippet:
       flatrate: מוזרם כעת
       rent_or_buy: זמין להשכרה או למכירה
-      summary_sentence: "%{service_name} בשרות %{available_snippet}"
+      summary_sentence: "%{service_name} בשירות %{available_snippet}"
     description: ".JustWatch הופך לקל את הגילוי איפה אתה יכול לצפות באופן חוקי בסרטים ובסדרות המועדפים עליך. בקר ב{justwatch_link} לעוד מידע"
     filters:
       4k: 4K
@@ -3496,7 +3519,7 @@ he-IL:
       as_character: בתור %{character}
       as_job: "— %{job}"
   reset_password_text: הכנס את שם המשתמש שלך למטה כדי להתחיל בתהליך איפוס הסיסמה
-  sample: 
+  sample:
   search:
     favorites_movie: חפש סרטים מועדפים...
     favorites_tv: חפש סדרות מועדפות...
@@ -3618,7 +3641,7 @@ he-IL:
       settings: הגדרות
       sharing_settings: הגדרות שיתוף
       social_settings: הגדרות חברתיות
-      streaming_services: שרותי הזרמה
+      streaming_services: שירותי הזרמה
     notifications:
       api_updates: API שלח לי דוא״ל לגבי שינויים ועדכונים של
       email_new_releases_watchlist: שלח לי דוא״ל לגבי שחרורים חדשים ברשימת הצפייה שלי
@@ -3631,7 +3654,7 @@ he-IL:
       accent_color: צבע הבלטה
       avatar:
         current_avatar: יצגן נוכחי
-        explain: כרגע, האפשרות היחידה שיש לנו להציג יצגן מותאם אישית היא ע״י שרות שנקרא <a href="https://www.gravatar.com/" target="_blank">גרוואטר</a>. אם אתה רוצה להציג יצגן מותאם אישית באתר, תצטרך להירשם בעם חשבון בגרוואטר ולוודא שאתה מוסיף את אותה כתובת דוא״ל שהשתמשת כאן (כך אנחנו יכולים לקשר את חשבונך). ברגע שזה נעשה, לחץ על הכפתור עדכן למטה ואנחנו נתפוס את התמונה החדשה שלך
+        explain: כרגע, האפשרות היחידה שיש לנו להציג יצגן מותאם אישית היא ע״י שירות שנקרא <a href="https://www.gravatar.com/" target="_blank">גרוואטר</a>. אם אתה רוצה להציג יצגן מותאם אישית באתר, תצטרך להירשם בעם חשבון בגרוואטר ולוודא שאתה מוסיף את אותה כתובת דוא״ל שהשתמשת כאן (כך אנחנו יכולים לקשר את חשבונך). ברגע שזה נעשה, לחץ על הכפתור עדכן למטה ואנחנו נתפוס את התמונה החדשה שלך
         explain_gravatar: אם אתה רוצה להשתמש ב<a href="https://www.gravatar.com/" target="_blank">גראווטר</a> בתור הספק של היצגן שלך, וודא שיש לך את אותה כתובת דוא״ל שהשתמשת כאן ובגראווטר. ברגע שזה נעשה (והעלת תמונה כמובן), לחץ על הכפתור עדכן למטה וננסה לתפוס את תמונתך החדשה.
         not_found: לא נמצא יצגן.
         not_found_add: לא נמצא יצגן. האם תרצה <a href="#">להוסיף אחד</a>?
@@ -3713,7 +3736,7 @@ he-IL:
         connected_to: מחובר אל
         info: מידע
         reload_text: טען מחדש עמוד זה ברגע שתאשר את חשבונך!
-        service: שרות
+        service: שירות
       favorite_message_hint: בעת סימון פריט כמועדף ובעת שיתוף בטוויטר או בפייסבוק…
       message_settings: הגדרות הודעה
       page_title: ההגדרות החברתיות שלי
@@ -3721,8 +3744,8 @@ he-IL:
       social_settings: הגדרות חברתיות
       supported_template_values: 'ערכי תבנית נתמכים:'
     streaming_services:
-      page_title: שרותי ההזרמה שלי
-      streaming_services: שרותי הזרמה
+      page_title: שירותי ההזרמה שלי
+      streaming_services: שירותי הזרמה
   sign_up:
     benefits:
       benefits_to_being_member: יתרונות בהיותך חבר אתר
@@ -3730,7 +3753,7 @@ he-IL:
       build_watchlist: בנה ותחזק רשימה אישית של צפייה
       contribute: תרום ושפר את המידע במסד הנתונים שלנו
       discussions: קח חלק בדיונים של סרטים וטלוויזיה
-      find_something_to_watch: מצא משהו לצפות בשרותי ההזרמה שאתה מנוי בהם.
+      find_something_to_watch: מצא משהו לצפות בשירותי ההזרמה שאתה מנוי אליהם.
       keep_track: עקוב אחר הסרטים והסדרות המועדפים עליך וקבל מהם המלצות
       log_movies: כתוב ביומן את הסרטים והסדרות שצפית בהם
     by_clicking_agree_to_terms: ע״י לחיצה על הכפתור "הירשם" למטה, אני מאשר שקראתי והסכמתי לתנאיי השימוש ולמדיניות הפרטיות של טי־אם־די־בי.
@@ -3815,5 +3838,5 @@ he-IL:
   view all: הצג הכל
   will_paginate:
     next_label: הבא →
-    page_gap: 
+    page_gap:
     previous_label: "← הקודם"
