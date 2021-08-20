@@ -4,6 +4,6 @@ for f in $FILES
 do
   echo "Processing $f file..."
   
-  localeapp push $f
+  bundle exec localeapp push $f
   sleep 1
 done
