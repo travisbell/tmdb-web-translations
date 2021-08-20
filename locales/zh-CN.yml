@@ -37,7 +37,7 @@ zh-CN:
   Add New Season: 添加新季
   Add New TV Show: 添加新剧集
   Add Poster: 添加海报
-  Add Profile: 添加用户资料
+  Add Profile: 添加人物图片
   Add Season Regular: 添加季固定演员
   Add Title Logo:
   Add To Every Season?: 添加到所有季？
@@ -91,7 +91,7 @@ zh-CN:
   Cast: 演员
   Categories: 分类
   Certification: 分级
-  Change?: 确认变更？
+  Change?: 确认更改？
   Character: 角色
   Characters:
   Choose: 选择
@@ -112,7 +112,7 @@ zh-CN:
   Content Ratings: 内容分级
   Content Score: 完成度
   Continue: 继续
-  Contribution leaders for the week of: 一周最多贡献
+  Contribution leaders for the week of: 本周积极贡献者 时间范围：
   Convert to Collection?: 转换为系列？
   Country: 国家或地区
   Create: 创建
@@ -188,7 +188,7 @@ zh-CN:
   Featured Crew: 主创人员
   Featured Lists: 精选片单
   Filter: 过滤
-  Filter Profanity?: 过滤不良内容？
+  Filter Profanity?: 是否过滤污言秽语？
   Filter by genre: 按类型筛选
   Filter by genres: 按类型筛选
   Filter by keywords: 按关键字筛选
@@ -222,7 +222,7 @@ zh-CN:
   Import CSV: 导入 CSV
   Import List: 导入列表
   In Theaters: 影院上映中
-  Include Adult Items in Search?: 搜索包含成人项吗？
+  Include Adult Items in Search?: 搜索结果中是否包含成人内容？
   Incorrect Content: 错误内容
   Info: 信息
   Job: 工作
@@ -291,7 +291,7 @@ zh-CN:
   Now Playing Movies: 正在上映电影
   Number of Movies: 电影数
   Number of TV Shows: 剧集数
-  Number of edits in the past: 过去编辑数量
+  Number of edits in the past: 近期编辑次数统计：
   Offensive or Spam: 攻击或垃圾信息
   Offical Site: 官方网站
   Offline Databases: 离线数据库
@@ -352,7 +352,7 @@ zh-CN:
   Rating: 评分
   Rating Ascending: 评分升序
   Rating Descending: 评分降序
-  Read More: 查看更多
+  Read More: 展开
   Recent Blog Posts: 最新博客文章
   Recent News: 最近新闻
   Recommendations: " 推荐"
@@ -462,7 +462,7 @@ zh-CN:
   Top Users: 用户排行
   Translate Collection: 翻译系列
   Translate Movie: 翻译电影
-  Translate Person: 译者
+  Translate Person: 翻译人物
   Translate TV Series: 翻译剧集
   Translated Name: 所选地区语言的名称
   Translated Overview: 所选地区语言的剧情简介
@@ -491,7 +491,7 @@ zh-CN:
   View Episodes: 浏览集
   View More: 查看更多
   View Original: 显示原图
-  View Profile Images: 浏览档案照
+  View Profile Images: 浏览人物图片
   View the Collection: 浏览电影系列
   Watch Online: 在线观看
   Watchlist: 待看清单
@@ -508,7 +508,7 @@ zh-CN:
   Zip Code: 邮政编码
   account_drop_down:
     discussions: 讨论
-    edit_profile: 编辑用户资料
+    edit_profile: 编辑个人资料
     join_tmdb: 加入 TMDb
     lists: 片单
     login: 登录
@@ -722,7 +722,7 @@ zh-CN:
         message: 您提交的访问令牌无效。 尝试创建一个新的并确保您已正确复制它。 如果您仍然遇到问题，请与您正在使用的应用的开发者联系。
         name: 无效的请求令牌
   attributes:
-    biography: 简介
+    biography: 个人简介
     certification: 分级
     external_href: URL
     homepage: 主页
@@ -1416,20 +1416,20 @@ zh-CN:
       '9': 马上要完成了...
   contribute:
     contribute: 贡献
-    missing_a_biography: 缺少个人简介
-    missing_a_profile_image: 缺少个人资料图片
-    movie_language_distribution: 电影语种发行
-    movies_missing_a_backdrop: 电影缺少剧照
-    movies_missing_a_overview: 电影缺少剧情简介
-    movies_missing_a_poster: 电影缺少海报
-    movies_missing_a_title: 电影缺少片名
+    missing_a_biography: 缺少个人简介的人物
+    missing_a_profile_image: 缺少人物图片的人物
+    movie_language_distribution: 电影语言分布
+    movies_missing_a_backdrop: 缺少剧照的电影
+    movies_missing_a_overview: 缺少剧情简介的电影
+    movies_missing_a_poster: 缺少海报的电影
+    movies_missing_a_title: 缺少片名的电影
     page_title: 贡献缺失数据
-    selected_language: 选定语言
-    tv_missing_a_backdrop: 剧集缺少剧照
-    tv_missing_a_poster: 剧集缺少海报
-    tv_show_language_distribution: 剧集语种发行
-    tv_shows_missing_a_name: 剧集缺少片名
-    tv_shows_missing_a_overview: 剧集缺少剧情简介
+    selected_language: 所选语言
+    tv_missing_a_backdrop: 缺少剧照的剧集
+    tv_missing_a_poster: 缺少海报的剧集
+    tv_show_language_distribution: 剧集语言分布
+    tv_shows_missing_a_name: 缺少名称的剧集
+    tv_shows_missing_a_overview: 缺少剧情简介的剧集
   contribution_bible:
     abbreviations:
       collection: col
@@ -1477,7 +1477,7 @@ zh-CN:
       tv: 剧集
       tv_bible: 剧集编辑参考手册
     welcome_1: 欢迎来到
-    welcome_2: 贡献参考手册
+    welcome_2: 数据编辑参考手册
   cookie_popup:
     message: 为了让您在访问 TMDb 网站能有更好的体验，我们需要使用 cookies。您可以浏览我们的<a href="%{policy_url}" target="_blank" rel="noopener">cookie 使用条款</a>了解更多内容。如果您继续使用 TMDb，我们默认您已经同意此条款。
     ok_button: 好的
@@ -1533,7 +1533,7 @@ zh-CN:
     - 十一月
     - 十二月
   day: 日
-  days: "%{count} 日"
+  days: "%{count} 天"
   deleted_content:
     entry_deleted: 条目已删除
     reasons:
@@ -1793,7 +1793,7 @@ zh-CN:
       inclusion: 必须选定
       invalid: 是无效的
       invalid_character_name:
-      no_characters_found:
+      no_characters_found: 未找到角色
       required: 必须存在
       series_status_invalid_to_create_season: 目前已设置为「已取消」或「已完结」，因此无法创建新季。
       suspected_tv_series: 可能是现有的电视剧或迷你剧，如果你确定，你可以继续添加这个条目，但如果它存在于我们的电视部分，它将被删除
@@ -1849,7 +1849,7 @@ zh-CN:
         '3': 按你订阅的流媒体服务筛选并查找要观看的内容
         '4': 记录你已观看的电影和剧集
         '5': 制作个性化列表
-        '6': 帮助完善我们的数据库
+        '6': 帮助我们完善数据库
     discussions:
       catch_up_now: 快来吧
       discussions: 讨论
@@ -2885,7 +2885,7 @@ zh-CN:
       many: 条目数
       one: 条目数
       other: 条目数
-    private: 私有
+    private: 私密
     public: 公开
     select_this_image: 选择此图像
     total_revenue: 总票房
@@ -2908,7 +2908,7 @@ zh-CN:
     step_4: 第 4 步：分享
   login:
     login_text_1: 为了使用 TMDb 的编辑、评分和个性化推荐功能，请登录您的帐户。如果您没有帐户，可以点击<a href="%{signup_link}">此处</a>免费注册。
-    login_text_2: 如果您未收到确认邮件，可点击<a href="%{verification_link}">此处</a>重新发送。
+    login_text_2: 如果您未收到验证邮件，可点击<a href="%{verification_link}">此处</a>重新发送。
     login_to_your_account: 登录你的帐户
   login_to_create: 找不到电影或剧集？登录并创建它吧。
   login_to_edit: 登录以编辑
@@ -2962,13 +2962,13 @@ zh-CN:
         production_companies: 根据制片公司搜索...
       success_fields_locked: 此字段已锁定。
       tooltips:
-        adult: 此标志通常用于色情内容。更多信息参见 <a href="/bible/movie#59f73b759251416e71000004">数据编辑参考手册</a>
-        bible: 有关 TMDb 上编辑信息的帮助，点击 '?' 按钮阅读贡献参考手册。
+        adult: 一般来说，此项仅用于标记色情内容。更多信息请查阅 <a href="/bible/movie#59f73b759251416e71000004">数据编辑参考手册</a>
+        bible: 如需在 TMDb 编辑影视资料的相关帮助，点击此 '?' 按钮阅读数据编辑参考手册。
         homepage: 仅官方主页，影迷页不允许
         logo_format: 支持 SVG 和 PNG 格式。推荐 SVG 格式，因为 SVG 格式支持无级缩放。
         original_title: 原始片名应以条目的原始语言书写，通常和“原始语言”栏选择的语言一致。
-        overview: 请尽量简短，避免剧透地雷。
-        social_links: 社交链接仅适用于官方（已验证的）网页。不允许粉丝网页。
+        overview: 剧情简介请尽量简明扼要，不要剧透。
+        social_links: 社交链接仅用于填写（已认证的）官方网站，不允许填写粉丝网站 。
       unlock_all_appearances:
     external_links:
       visit_facebook: 访问 Facebook
@@ -2982,11 +2982,11 @@ zh-CN:
     images:
       format: 格式
       no_backdrop_stills: 此条目未添加剧照。
-      no_backdrops: 本条目下无剧照。
+      no_backdrops: 此条目未添加剧照。
       no_headshots:
       no_logos: 此条目未添加徽标。
-      no_posters: 本条目没有添加海报。
-      no_profiles: 此条目未添加简介。
+      no_posters: 此条目未添加海报。
+      no_profiles: 此条目未添加人物图片。
       primary: 是否为主要图片？
       types:
         backdrop_stills: 剧照
@@ -3002,7 +3002,7 @@ zh-CN:
         cast:
           no_records: 未添加演员。
         confirm_collection: |-
-          <p>系列是 TMDb 将续集收集在一起以提供便利的一种组织形式。虽然该方式有时存在争议，但系列并不应该将同一「宇宙」的电影收集在一起。对于前述情况，请 <a href="%{list_link}" target="_blank" rel="noopener">创建一个片单</a>。获取更多系列的相关信息，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文档</a></p>
+          <p>系列是 TMDb 将续集收集在一起以提供便利的一种组织形式。虽然该方式有时存在争议，但系列并不应该将同一「宇宙」的电影收集在一起。对于前述情况，请 <a href="%{list_link}" target="_blank" rel="noopener">创建一个片单</a>。更多系列的相关信息，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文档</a></p>
 
           <p>如果您要创建的系列符合此条件，请继续。</p>
         confirm_video: |-
@@ -3073,7 +3073,7 @@ zh-CN:
       gender:
         female: 女
         male: 男
-        non_binary: 非二进制
+        non_binary: 非二元性别
       media_types:
         all: 全部
         movies: 电影
@@ -3102,7 +3102,7 @@ zh-CN:
       media: 媒体
       overview: 概览
       posters: 海报
-      profiles: 档案照
+      profiles: 人物图片
       release_dates: 发行日期
       reviews: 评论
       translations: 翻译
@@ -3293,7 +3293,7 @@ zh-CN:
       support_archive: 支持存档
       support_inbox: 支持收件箱
     translate: 翻译
-  month: "%{count} 月"
+  month: "%{count} 个月"
   navigation:
     discover:
       discover: 发现
@@ -3315,11 +3315,11 @@ zh-CN:
       on_tv: 电视播出中
       popular: 热门
       top_rated: 高分
-  no_biography: 没有 %{name} 的自传
+  no_biography: 暂无 %{name} 的个人简介。
   no_cast: 此 %{media_type} 还没有演员信息。你可以帮助添加！
   no_collection_search_results: 找不到和您的查询相符的系列。
   no_company_search_results: 找不到和您的查询相符的公司。
-  no_contributors: 没有找到贡献者。
+  no_contributors: 未找到贡献者。
   no_created_lists: 你还未创建过片单。
   no_crew: 此 %{media_type} 还没有工作人员信息。你可以帮助添加！
   no_description: 没有任何描述。
@@ -3338,7 +3338,7 @@ zh-CN:
   no_list_search_results: 找不到和您的查询相符的片单。
   no_media: 暂无《%{title}》的相关视频、剧照和海报。
   no_movie_search_results: 找不到和您的查询相符的电影。
-  no_overview: 没有简体中文的剧情简介，请帮助添加到数据库。
+  no_overview: 暂无简体中文的剧情简介，请帮助添加到数据库。
   no_person_search_results: 找不到和您的查询相符的人物。
   no_personal_recommendations:
     movie: 你可以通过收藏你喜欢的电影来能获得个性化电影推荐。同时，你可能会注意到我们推荐的很多电影都是你看过的。你可以通过给它们评分来过滤掉它们。你已评分的电影会被自动过滤掉。
@@ -3522,7 +3522,7 @@ zh-CN:
       account_settings: 帐户设置
       auto_detect: 自动检测？
       page_title: 我的设置
-      resend_verification_email_text: 未收到你的帐户验证电子邮件？在下面输入用户名重新发送。
+      resend_verification_email_text: 未收到你的帐户验证邮件？在下方输入你的电子邮箱以重新发送。
       reset_password_text: 输入你注册 TMDb 帐户所使用的邮箱，然后我们将向您发送重置密码所需的步骤。
     api:
       api: API
@@ -3604,7 +3604,7 @@ zh-CN:
       blocked_users: 被拉黑用户
       connected_apps: 已连接应用
       delete_account: 删除帐户
-      edit_profile: 编辑用户资料
+      edit_profile: 编辑个人资料
       import_list: 导入列表
       notification_settings: 通知设置
       sessions: 会话
@@ -3642,7 +3642,7 @@ zh-CN:
         remove_background: 删除你的背景图片？
         set_image: 设置背景图片？
       change_password: 修改密码
-      edit_profile: 编辑用户资料
+      edit_profile: 编辑个人资料
       email:
         invalid_dialog_title: 重置电子邮件？
         reset_button: 重置并发送？
@@ -3767,7 +3767,7 @@ zh-CN:
   upload_backdrop: 上传剧照
   upload_headshot:
   upload_poster: 上传海报
-  upload_profile: 上传档案照
+  upload_profile: 上传人物图片
   upload_title_logo:
   used_by_developers: 有超过 40 万开发人员使用 TMDb。<br>以下是 TA 们的作品。
   videos:
