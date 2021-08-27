@@ -1299,27 +1299,63 @@ en-US:
         '6':
           meaning: This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17
   character:
+    Movie: Movie
+    Titles: Titles
     add_a_character: Add a character
     add_an_appearance: Add An Appearance
     add_appearance: Add Appearance(s)
+    add_appearances: Add Appearances
     add_backdrop: Add A Backdrop
     add_backdrop_grp: Add A Backdrop For This Group
+    add_character_backdrop: Add a Character Backdrop Photo
+    add_completely_free: Enjoy completely ad free
     add_missing_character: Add Missing Character
+    add_new_appearance: Add a New Appearance
+    add_new_appearance_links_selection: Adding a new appearance will link together your selection(s) to the current appearances listed already.
+    add_new_group: Add new group
+    add_the_name_of_the_character: Add the name of the character.
+    add_to_tmdb: Add to TMDb
+    add_translation: Add Translation
+    add_valid_translation: Please Add a Valid Translation.
+    adding_easy: Adding to TMDb is simple and easy.
     all_done: All Done
+    all_languages: All Languages
+    all_record_exists_in_group: All records already exists in the current group.
+    already_added: Already Added
+    alter_popularity: Alter popularity
+    are_you_sure: Are you sure that you want to proceed?
+    are_you_sure_updates_will_be_lost: Are you sure you want to leave? Your updates will be lost.
+    association_already_exists: Association Already Exists
+    association_updated: Association Updated!
+    association_warning: Association Change Warning!
+    available_backdrop_images: Available Backdrop Images
     back: Back
     backdrop: Backdrop
+    backdrop_image_message: Here's a few backdrop images we've pulled for the header. Please select 1 to 3 backdrop images to update the header with.
+    backdrop_oops_message: Oops! You Cannot Select More Than 3 Header Images.
     backdrop_window_title: Choose a Character Backdrop Photo
     cancel_edits: Cancel Edits
     character_backdrop_photo: Character Backdrop Photo
     character_bio: Character Bio
+    character_header_images: Character Header Images
     character_name: Character Names
     character_search_label: What character are you looking for?
     character_search_text: Which character would you like to find ?
     character_to_search: What character or title are you looking for ?
     character_wiki: Character Wiki
+    characters: Characters
+    check_it_out: Check it out
+    check_out_bible: <p>Please check out <a target="_blank" href="<%= link_href('%{bible}') %>">the contribution bible</a> for further info on adding to the Movie Db.</p>
     choose_a_character: Choose A Character
     choose_a_character_info: Adding a character means linking together the appearance of an actor or actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne / Batman. Those three appearance in that role equals one character.
     choose_backdrop: Choose Backdrop
+    choose_header_images: Choose Header Images
+    choose_reason: You need to choose a reason.
+    community: COMMUNITY
+    confirmation: Confirmation
+    continue: Continue
+    contribute: Contribute to our database
+    correct_errors_in_forms: Please correct the errors in the form fields.
     create_overview: Create Overview
     create_overview_bio_help: Please write a bio for this specific version, the character in there has many incarnations.
     create_overview_help: Help us populate the bio for this character over the series of movies/tv appearances they made.
@@ -1327,77 +1363,158 @@ en-US:
     create_overview_note: The actor and their headshot cannot be edited here.
     delete_backdrop: Delete Backdrop
     delete_character: Delete Character
+    delete_group: Delete group
+    do_you_want_continue: Do you  want to continue ?
     done_editing: Done Editing?
+    drag_title: Drag Title For A New Group
     edit_groups: Edit Groups
     edit_groups_description: 'Below is the template for the character pages. Please go through and add the group names, <br> synopsis and imagery to complete the page. '
     edit_label: edit
+    edit_mode: You're in Edit Mode
+    edit_translate: Editing & Translate
+    edit_translating: Edit & Translating
+    editing_character_name_uv: Observed that you are creating character with a suggested name. Do you want to continue?
+    enter: Enter
+    enter_group_synopsis: Enter group synopsis
+    enter_text_search: Please enter a text to search
+    enter_valid_translation: Please Enter A Valid Translation.
     era: Era
+    error_while_submitting: Error while submitting
+    failed_draft: failed to get draft response
+    filter_subscribed_services: Filter by your subscribed services.
     find_character: Which characters or title would you like to find ?
     find_character_note: Find your favourite character, titles and more
+    finished_selections: Finished Your Selections ?
     found_everything: Found Everything?
+    group_name: Group Name
+    group_name_already_exists: Group with the set of items already exists. Do you want to create a group.
+    group_name_required: Group name is required
+    groups_not_present: Groups are not present for the character.
+    headshot: Headshot
     headshot_window_title: Change the Character headshot
     help_our_mods: Help Our Moderators
     help_our_mods_info: Tell us about the character! This is a private field between you and the moderation team. Any info you provide about the character and why you're creating it, will help them when reviewing your page.
+    icon: Icon
+    image_change_1: This image is associated with a media record from the selected group, If you proceed, the person associations of the linked media  will also change!
+    image_media_association: This image is associated with a media record,  If you proceed, the person associations of the linked media  will also change!
+    in_translate_mode: You're in Translate Mode
     inline_edit_original_name: Original Name
+    join_community_tmdb: Join our community to contribute to The Movie Db.
     launch_label: launch
+    lock_existing_appearances: Lock Existing Appearances
+    log_tv_movies_watch: Log the TV and Movies you watch
     master_group_limit_error: Sorry, you have reached the maximum supported group limit.
+    media: Media
+    media_association: This media is associated with a image record from the selected group,  If you proceed, the person associations of the linked image  will also change!
+    media_character_id: Media Character Id
+    media_type: Media Type
     media_types:
       character: Character
       movie_character_name: Movie Character Names
       tv_character_name: TV Character Names
       tv_show: TV Shows
     movie_titles: Movie Titles
+    name: Name
     navigate_to_dashboard: Go To My Dashboard
     navigate_to_master: Go To The Master Page
     need_help: Need Help?
+    new_to_tmdb: New to TMDb
     next: Next
     next_edit_groups: 'Next: Edit Groups'
     next_launch_page: 'Next: Launch Page'
     next_nav_label: Next
     next_review_page: 'Next: Review Page'
+    no_backdrop_in_group: Looks like none of the groups are having new character backdrops added!
+    no_cast_credits: No Cast Credits Found, Please Try Another Media!
+    no_records_found: No Records Found, Please Try Another Media!
     note: Note
     note_info: To continue please select a person from the dropdown below.
     note_mods: A note for moderators
     okay: Okay
     optional: optional
     page_is_live: The page is Live Now!
+    person: Person
+    person_image_association: Please Select A New Person Association for this Image
     placeholder_synopsis: Enter character Synopsis here
     played_by: Played By
+    please_select_a_person: Please select a person
+    popularity_weight: Popularity Weight
+    popularity_weight_multiplier: Popularity Weight Multiplier
     previous: Previous
     previous_nav_label: Prev
+    primary_character_name: Primary Character Name
+    problem_refreshing_results: There was a problem refreshing the results.
+    proceed: Proceed
     push_test_v1: Push test v1
     ready_to_launch: That's All. Ready to Launch ?
+    record_exists_in_group: Record already exists in the group.
+    refresh_list: There was a problem refreshing the list.
+    register: Register
     result: Results
     results_info_text: Select what portrayal of character you'd like to add.
     results_selection_info: You can only select a single person in the role of the character. Every person playing the role of this character counts a different version and will need to be added separately.
+    resume_editing: Resume Editing
     revenue: Revenue
     review_and_launch_title: Review & Launch
     review_label: review
+    save_backdrop: Save Backdrop
     save_edits: Save Edits
     search: Search
+    search_all: 'Search: All'
     search_character_note: Search for the character or title you'd like to add below. You may create multiple searches to find everything you'd like to add.
+    search_characters_you_want_to_see: Search for the characters or titles you'd like to add below. You may create multiple searches to find everything you'd like to add.
     search_error_info: Please edit your search or check that the title in which the character appears exists in the database and has an accurate cast and crew details.
+    see_batman_appearance: Ever wanted to see every appearance of Batman?
     select_backdrop: Select Backdrop
+    select_cast_credit: Please Select a Cast Credit
     select_group_title: Select & Group Titles
+    select_message: Select all the stars who have played this version of the character.For example, in a series if the person who is playing the character has changed please select both stars(ie. both Edward Norton & Mark Ruffalo would be selected for the MCU Hulk)
+    select_person: Select a person
+    select_person_association: Select a Person Association
+    select_person_for_media: 'Please Select A New Person For the Selected Media '
+    selected_appearance_linked_to_character: Selected appearance(s) will be linked to character.
+    session_inactive: Session was inactive for too long
+    session_timeout: Session timeout reached
+    session_timeout_continue: Your session is about to end. Would you like to continue the session?
+    sign_up_text: Signing up will also give you access to maintain your own personal lists, track what you'vr seen and search and filter for what to watch next--regardless if it's in the theaters, On TV or available on popular streaming services like Netflix, Amazon Prime Videos and Crave.
     star: Star
+    submit: Submit
     submit_and_preview: Submit and Preview
+    submit_confirmation: Are you sure, you want to submit?
+    submitted: Submitted
     suggested_backdrops: Select Suggested Backdrops
+    suggested_backdrops_not_available: No suggested backdrops are available!
+    suggested_character_backdrop_photos: Suggested Character Backdrop Photos
     suggested_window_title: Suggested Character Backdrop Photos
+    switch_mode_translate: Switch to  %{available_language} mode to translate.
+    switch_to_edit_mode: Switch to Edit Mode
+    switch_translate_mode: Switch to Translate Mode
+    text_for_character_card: We now support characters, which allows community to track appearances across franchises and through tv as well as movies.
     title_drag_info: Any titles you wish to add can be dragged to the sidebar to the left.
+    total_Results: Total Results
     total_appearance: Total Appearance
     total_budget: Total Budget
+    try_again: Please try again!
+    tv: TV
     tv_titles: TV Titles
+    unloading_message: Unloading this page may lose data. What do you want to do...
+    unlock_existing_appearances: UnLock Existing Appearances
+    unsaved_change_lost: Any unsaved changes will be lost.
+    unsaved_will_lost_want_to_continue: Any unsaved changes will be lost. Do you want to continue?
     update_backdrop: Update Backdrop
     upload_backdrop_title: Select the person against which you want to associate this image.
     user_added_backdrop_info: Here are the backdrop photos added by you for the character. Please select the photos you want to proceed with.
     user_added_backdrop_label: User Added Backdrop Photos
     user_variant_description: Here's a few possible photos we have pulled up for the Character. Please select one or add an alternate that suits the character better.
     user_variant_intro: Find your favourite character from the Movies, TV Shows and more ...
-    validation_charactername: Master character name is required
+    validation_charactername: Primary character name is required
     validation_group_synopsis: Enter a valid group synopsis
     validation_grpname: Please enter a valid group name
     validation_synopsis: Enter a valid synopsis
     view_by: View By
+    want_to_delete_group: Are you sure that you want to delete this group?
+    want_to_go_back: Are you sure, you want to go back ?
+    welcome_message: 'Welcome to The Movie Db community where you can:'
     what_next: What would you like to do next?
   character name: Character Name
   collection_includes: Includes %{movie_titles}
@@ -1480,6 +1597,11 @@ en-US:
       tv_bible: TV Bible
     welcome_1: Welcome to
     welcome_2: The Contribution Bible
+  contribution_type:
+    character_appearance: Character Appearance
+    movie: Movie
+    primary_character: Primary Character
+    tv_show: TV Show
   cookie_popup:
     message: We use cookies to help give you a better experience on TMDB. You can review our <a href="%{policy_url}" target="_blank" rel="noopener">cookie policy</a> to learn more. By continuing to use TMDB, you are agreeing to this policy.
     ok_button: Ok
@@ -1493,7 +1615,7 @@ en-US:
     - Fri
     - Sat
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mar
@@ -1521,7 +1643,7 @@ en-US:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    -
+    - 
     - January
     - February
     - March
@@ -3172,6 +3294,7 @@ en-US:
         next_season: Next Season
         previous_season: Previous Season
     tv_show:
+      " primary_characters": Primary Characters
       create_season: Create Season
       edit:
         adult:
@@ -3227,7 +3350,6 @@ en-US:
             one: "%{count} Group"
             other: "%{count} Groups"
         original_air_date: Original Air Date
-      master_characters: Master Characters
       networks:
         one: Network
         other: Networks
@@ -3526,8 +3648,10 @@ en-US:
     credits:
       as_character: as %{character}
       as_job: "— %{job}"
+  placeholder:
+    primary_character_name: Primary Character Name
   reset_password_text: Enter your username below to start the password reset process.
-  sample:
+  sample: 
   search:
     favorites_movie: Search favorite movies...
     favorites_tv: Search favorite TV shows...
