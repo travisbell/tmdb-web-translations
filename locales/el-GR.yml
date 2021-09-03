@@ -27,7 +27,7 @@ el-GR:
   Add Content Rating: Προσθήκη καταλληλότητας περιεχομένου
   Add Creator: Προσθήκη δημιουργού
   Add Data & Content: Προσθήκη δεδομένων & περιεχόμενου
-  Add Headshot: 
+  Add Headshot: Προσθήκη Φωτογραφίας Πορτρέτου
   Add Item: Προσθήκη στοιχείου
   Add Missing Cast & Crew: Προσθήκη ηθοποιών & συντελεστών που λείπουν
   Add Network: Προσθήκη δικτύου
@@ -37,7 +37,7 @@ el-GR:
   Add New Season: Προσθήκη νέου κύκλου
   Add New TV Show: Προσθήκη νέας τηλεοπτικής σειράς
   Add Poster: Προσθήκη αφίσας
-  Add Profile: Προσθήκη προφίλ
+  Add Profile: Προσθήκη Προφίλ
   Add Season Regular: Προσθήκη ηθοποιού στον κύκλο
   Add Title Logo: Προσθήκη λογότυπου τίτλου
   Add To Every Season?: Προσθήκη σε κάθε κύκλο;
@@ -226,7 +226,7 @@ el-GR:
   Import CSV: Εισάγετε αρχείο CSV
   Import List: Εισαγωγή λίστας
   In Theaters: Στις αίθουσες
-  Include Adult Items in Search?: Συμπεριλάβετε τα στοιχεία ενηλίκων στην αναζήτηση;
+  Include Adult Items in Search?: Συμπερίληψη Στοιχείων Ενηλίκων στην Αναζήτηση;
   Incorrect Content: Λανθασμένο περιεχόμενο
   Info: Πληροφορίες
   Job: Ιδιότητα
@@ -497,7 +497,7 @@ el-GR:
   View Episodes: Προβολή επεισόδιων
   View More: Προβολή περισσότερων
   View Original: Προβολή πρωτότυπου
-  View Profile Images: Προβολή εικόνων προφίλ
+  View Profile Images: Προβολή Εικόνων Προφίλ
   View the Collection: Δείτε τη συλλογή
   Watch Online: Παρακολουθήστε online
   Watchlist: Λίστα παρακολούθησης
@@ -514,13 +514,13 @@ el-GR:
   Zip Code: Ταχυδρομικός κώδικας
   account_drop_down:
     discussions: Συζητήσεις
-    edit_profile: Επεξεργασία προφίλ
+    edit_profile: Επεξεργασία Προφίλ
     join_tmdb: Γίνετε μέλος TMDB
     lists: Λίστες
     login: Σύνδεση
     logout: Αποσύνδεση
     messages: Μηνύματα
-    profile_and_settings: Προφίλ και ρυθμίσεις
+    profile_and_settings: Προφίλ και Ρυθμίσεις
     ratings: Αξιολογήσεις
     settings: Ρυθμίσεις
     sign_up: Εγγραφή
@@ -659,8 +659,8 @@ el-GR:
       total_ratings: Σύνολο βαθμολογήσεων
       upcoming_watchlist: Προσεχώς από τη λίστα παρακολούθησης
     page_title:
-      page_owner: Το προφίλ μου
-      public: Το προφίλ του/της %{username}
+      page_owner: Το Προφίλ Μου
+      public: Το Προφίλ του/της %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Οι βαθμολογήσεις μου
@@ -714,7 +714,7 @@ el-GR:
       title: Μη έγκυρος χρήστης API
     missing_request_token:
       message: Απαιτείται ένα διακριτικό αιτήματος για τον έλεγχο ταυτότητας λογαριασμών χρηστών.
-      title: 
+      title: Λείπει Το Διακριτικό Αίτησης
     request_token_approval:
       message: Η εφαρμογή {{APP}} ζητάει την άδειά σας για ανάγνωση/εγγραφή δεδομένων εκ μέρους σας. Είναι απαραίτητο αν θέλετε να κάνετε ενέργειες όπως διατήρηση των λιστών σας ή των αξιολογήσεων που κάνατε εκτός TMDB.
     statuses:
@@ -1303,212 +1303,227 @@ el-GR:
         '6':
           meaning: Το πρόγραμμα αυτό είναι ειδικά σχεδιασμένο για να προβληθεί από ενήλικες και, συνεπώς, ενδέχεται να είναι ακατάλληλο για παιδιά κάτω των 17
   character:
-    Movie: 
-    Titles: 
+    Movie: Ταινία
+    Titles: Τίτλοι
     add_a_character: Προσθήκη χαρακτήρα
-    add_an_appearance: 
-    add_appearance: 
-    add_appearances: 
-    add_backdrop: 
-    add_backdrop_grp: 
-    add_character_backdrop: 
-    add_completely_free: 
-    add_missing_character: 
-    add_new_appearance: 
-    add_new_appearance_links_selection: 
-    add_new_group: 
-    add_the_name_of_the_character: 
-    add_to_tmdb: 
-    add_translation: 
-    add_valid_translation: 
-    adding_easy: 
-    all_done: 
-    all_languages: 
-    all_record_exists_in_group: 
-    already_added: 
+    add_an_appearance: Προσθέστε Μια Εμφάνιση
+    add_appearance: Προσθήκη Εμφάνισης(-ων)
+    add_appearances: Προσθήκη Εμφανίσεων
+    add_backdrop: Προσθέστε Ένα Υπόβαθρο
+    add_backdrop_grp: Προσθέστε Ένα Υπόβαθρο Για Αυτήν Την Ομάδα
+    add_character_backdrop: Προσθέστε Μια Φωτογραφία Υπόβαθρου Χαρακτήρα
+    add_completely_free: Απολαύστε χωρίς διαφημίσεις
+    add_missing_character: Προσθήκη Χαρακτήρα Που Λείπει
+    add_new_appearance: Προσθέστε Μια Νέα Εμφάνιση
+    add_new_appearance_links_selection: Προσθήκη μιας νέας εμφάνισης θα συνδέσει τις επιλογές σας με τις τρέχουσες εμφανίσεις είναι ήδη καταχωρημένες.
+    add_new_group: Προσθήκη νέας ομάδας
+    add_the_name_of_the_character: Προσθέστε το όνομα του χαρακτήρα.
+    add_to_tmdb: Προσθήκη στο TMDb
+    add_translation: Προσθήκη μετάφρασης
+    add_valid_translation: Προσθέστε μια έγκυρη μετάφραση
+    adding_easy: Η προσθήκη στο TMDb είναι απλή και εύκολη.
+    all_done: Όλα Έτοιμα
+    all_languages: Ολες οι γλώσσες
+    all_record_exists_in_group: Όλες οι εγγραφές υπάρχουν ήδη στην τρέχουσα ομάδα.
+    already_added: Έχει ήδη προστεθεί
     alter_popularity: 
-    are_you_sure: 
-    are_you_sure_updates_will_be_lost: 
-    association_already_exists: 
-    association_updated: 
-    association_warning: 
-    available_backdrop_images: 
-    back: 
-    backdrop: 
-    backdrop_image_message: 
-    backdrop_oops_message: 
-    backdrop_window_title: 
+    are_you_sure: Είστε βέβαιοι ότι θέλετε να προχωρήσετε;
+    are_you_sure_updates_will_be_lost: Είσαι σίγουρος ότι θέλεις να αποχωρήσεις; Οι ενημερώσεις σας θα χαθούν.
+    association_already_exists: Η Συσχέτιση Υπάρχει Ήδη
+    association_updated: Η Συσχέτιση Ενημερώθηκε!
+    association_warning: Προειδοποίηση Αλλαγής Συσχέτισης!
+    available_backdrop_images: Διαθέσιμες Εικόνες Υπόβαθρου
+    back: Πίσω
+    backdrop: Υπόβαθρο
+    backdrop_image_message: Εδώ είναι μερικές εικόνες υπόβαθρου που έχουμε τραβήξει για την κεφαλίδα. Επιλέξτε 1 έως 3 εικόνες υπόβαθρου για να ενημερώσετε την κεφαλίδα με.
+    backdrop_oops_message: Ουπς! Δεν Μπορείτε Να Επιλέξετε Περισσότερες Από 3 Εικόνες Κεφαλίδας.
+    backdrop_window_title: Επιλέξτε μια Φωτογραφία Υπόβαθρου Χαρακτήρα
+    below_is_example_text: 
     cancel_edits: Ακύρωση Επεξεργασιών
-    character_backdrop_photo: 
+    character_backdrop_photo: Φωτογραφία Υπόβαθρου Χαρακτήρα
     character_bio: Βιογραφία Χαρακτήρα
-    character_header_images: 
+    character_header_images: Εικόνες Κεφαλίδας Χαρακτήρα
     character_name: Ονόματα χαρακτήρων
     character_search_label: Τι χαρακτήρα ψάχνετε;
     character_search_text: Ποιον χαρακτήρα θέλετε να βρείτε;
     character_to_search: Τι χαρακτήρα ή τίτλο ψάχνετε;
     character_wiki: Wiki χαρακτήρα
-    characters: 
-    check_it_out: 
-    check_out_bible: 
+    characters: Χαρακτήρες
+    check_it_out: Δες εδώ.
+    check_out_bible: <p>Παρακαλώ δες εδώ<a target="_blank" href="<%= link_href('%{bible}') %>">το βιβλίο της συνεισφοράς</a> για περισσότερες πληροφορίες σχετικά με την προσθήκη στο Movie Db.</p>
     choose_a_character: Επιλέξτε έναν χαρακτήρα
     choose_a_character_info: Η προσθήκη ενός χαρακτήρα σημαίνει σύνδεση μεταξύ της εμφάνισης ενός ηθοποιού ή ηθοποιού που παίζει συγκεκριμένο ρόλο. Ένα παράδειγμα θα ήταν η Dark Knight Trilogy (τρεις ταινίες) στην οποία ο Christen Bale παίζει τον Bruce Wayne/Batman. Αυτές οι τρεις εμφανίσεις σε αυτόν τον ρόλο ισούνται με έναν χαρακτήρα.
-    choose_backdrop: 
-    choose_header_images: 
-    choose_reason: 
-    community: 
-    confirmation: 
-    continue: 
-    contribute: 
-    correct_errors_in_forms: 
+    choose_backdrop: Επιλέξτε Υπόβαθρου
+    choose_header_images: Επιλέξτε Εικόνες Κεφαλίδας
+    choose_reason: Πρέπει να επιλέξετε έναν λόγο.
+    community: ΚΟΙΝΟΤΗΤΑ
+    confirm_buffer_time: 
+    confirmation: Επιβεβαίωση
+    continue: Συνεχίστε
+    contribute: Συμβολή στη βάση δεδομένων μας
+    correct_errors_in_forms: Διορθώστε τα σφάλματα στα πεδία φόρμας.
     create_overview: Δημιουργία επισκόπησης
     create_overview_bio_help: Παρακαλώ γράψτε ένα βιογραφικό για αυτή τη συγκεκριμένη έκδοση, ο χαρακτήρας εκεί έχει πολλές ενσαρκώσεις.
     create_overview_help: Βοηθήστε μας να συμπληρώσουμε το βιογραφικό αυτού του χαρακτήρα κατά τη σειρά ταινιών/τηλεοπτικών εμφανίσεων που έκαναν.
     create_overview_name_help: Αλλάξτε το όνομα του χαρακτήρα μόνο εάν υπάρχει συγκεκριμένος λόγος ή σε ένα κοινό όνομα από το οποίο είναι γνωστοί.
-    create_overview_note: 
-    delete_backdrop: 
+    create_overview_note: Ο ηθοποιός και το πορτρέτο τους δεν μπορούν να επεξεργαστούν εδώ.
+    delete_backdrop: Διαγραφή Υπόβαθρου
     delete_character: Διαγραφή Χαρακτήρα
-    delete_group: 
-    do_you_want_continue: 
+    delete_group: Διαγραφή ομάδας
+    delete_group_check: 
+    do_you_want_continue: Θέλετε να συνεχίσετε;
     done_editing: Τελειώσατε Την Επεξεργασία;
-    drag_title: 
+    drag_title: Σύρετε Τον Τίτλο Για Μια Νέα Ομάδα
     edit_groups: Επεξεργασία Ομάδων
     edit_groups_description: Ακολουθεί το πρότυπο για τις σελίδες χαρακτήρων. Περιηγηθείτε και προσθέστε τα ονόματα των ομάδων, <br> σύνοψη και εικόνες για να ολοκληρώσετε τη σελίδα.
+    edit_header_images: 
     edit_label: επεξεργασία
-    edit_mode: 
-    edit_translate: 
-    edit_translating: 
-    editing_character_name_uv: 
-    enter: 
-    enter_group_synopsis: 
-    enter_text_search: 
-    enter_valid_translation: 
-    era: 
-    error_while_submitting: 
-    failed_draft: 
-    filter_subscribed_services: 
+    edit_mode: Είσαι σε λειτουργία επεξεργασίας
+    edit_translate: Επεξεργασία & Μετάφραση
+    edit_translating: Επεξεργασία & Μετάφραση
+    editing_character_name_uv: Παρατηρήθηκε ότι δημιουργείτε χαρακτήρα με ένα προτεινόμενο όνομα. Θέλετε να συνεχίσετε;
+    enter: Εισαγωγή
+    enter_character_synopsis: 
+    enter_group_synopsis: Εισαγάγετε σύνοψη ομάδας
+    enter_text_search: Παρακαλώ εισάγετε ένα κείμενο για αναζήτηση
+    enter_valid_translation: Παρακαλώ εισάγετε μια έγκυρη μετάφραση.
+    era: Era
+    error_while_submitting: Σφάλμα κατά την υποβολή
+    failed_draft: Απέτυχε η λήψη πρόχειρης απάντησης
+    filter_subscribed_services: Φιλτράρετε βάσει των εγγεγραμμένων υπηρεσιών σας.
     find_character: Ποιους χαρακτήρες ή τίτλους θέλετε να βρείτε;
     find_character_note: Βρείτε τον αγαπημένο σας χαρακτήρα, τίτλους και πολλά άλλα
-    finished_selections: 
+    finished_selections: Ολοκληρώσατε τις επιλογές σας;
     found_everything: Βρήκατε Τα Πάντα;
-    group_name: 
-    group_name_already_exists: 
-    group_name_required: 
-    groups_not_present: 
-    headshot: 
-    headshot_window_title: 
+    frequent_translations: 'Συχνές Μεταφράσεις
+
+'
+    group_name: Όνομα Ομάδας
+    group_name_already_exists: Η ομάδα με το σύνολο των στοιχείων υπάρχει ήδη. Θέλετε να δημιουργήσετε μια ομάδα.
+    group_name_required: Απαιτείται όνομα ομάδας
+    groups_minimum_appearance_msg: 
+    groups_not_present: Δεν υπάρχουν ομάδες για τον χαρακτήρα.
+    headshot: Πορτρέτο
+    headshot_window_title: Αλλάξτε το πορτρέτο χαρακτήρα
     help_our_mods: Βοηθήστε τους συντονιστές μας
     help_our_mods_info: Πείτε μας για το χαρακτήρα! Αυτός είναι ένας ιδιωτικός τομέας μεταξύ εσάς και της ομάδας εποπτείας. Οποιεσδήποτε πληροφορίες παρέχετε για τον χαρακτήρα και γιατί τον δημιουργείτε, θα τους βοηθήσει κατά την αναθεώρηση της σελίδας σας.
-    icon: 
-    image_change_1: 
-    image_media_association: 
-    in_translate_mode: 
+    icon: Εικονίδιο
+    image_change_1: Αυτή η εικόνα συσχετίζεται με μια εγγραφή πολυμέσων από την επιλεγμένη ομάδα, αν προχωρήσετε, οι συσχετίσεις προσώπων των συνδεδεμένων μέσων θα αλλάξουν επίσης!
+    image_media_association: Αυτή η εικόνα σχετίζεται με μια εγγραφή πολυμέσων, αν προχωρήσετε, οι συσχετίσεις προσώπων των συνδεδεμένων μέσων θα αλλάξουν επίσης!
+    in_translate_mode: Βρίσκεστε σε λειτουργία μετάφρασης
     inline_edit_original_name: Αρχικό όνομα
-    join_community_tmdb: 
+    join_community_tmdb: Γίνετε μέλος της κοινότητάς μας για να συνεισφέρετε στην The Movie Db.
     launch_label: Εκκίνηση
-    lock_existing_appearances: 
-    log_tv_movies_watch: 
+    lock_existing_appearances: Κλείδωμα Υπαρχουσών Εμφανίσεων
+    log_tv_movies_watch: Καταγραφή της Σειρών και των Ταινιών που παρακολουθείτε
     master_group_limit_error: Δυστυχώς, έχετε φτάσει το μέγιστο υποστηριζόμενο όριο ομάδας.
-    media: 
-    media_association: 
-    media_character_id: 
-    media_type: 
+    media: Πολυμέσα
+    media_association: Αυτό το μέσο σχετίζεται με μια εγγραφή εικόνας από την επιλεγμένη ομάδα, Εάν προχωρήσετε, οι συσχετίσεις προσώπων της συνδεδεμένης εικόνας θα αλλάξουν επίσης!
+    media_character_id: Αναγνωριστικό Χαρακτήρα Πολυμέσων
+    media_type: Τύπος πολυμέσων
     media_types:
       character: Χαρακτήρας
       movie_character_name: Ονόματα χαρακτήρων ταινιών
       tv_character_name: Ονόματα τηλεοπτικών χαρακτήρων
       tv_show: Σειρές
     movie_titles: Τίτλοι ταινιών
-    name: 
+    name: Ονομα
     navigate_to_dashboard: Μετάβαση στον Πίνακα ελέγχου σας
     navigate_to_master: Μετάβαση στην κύρια σελίδα
     need_help: Χρειάζεστε βοήθεια;
-    new_to_tmdb: 
+    new_to_tmdb: Νέο στο TMDb
     next: Επόμενο
     next_edit_groups: 'Επόμενο: Επεξεργασία ομάδων'
     next_launch_page: 'Επόμενο: Εκκίνηση σελίδας'
     next_nav_label: Επόμενο
     next_review_page: 'Επόμενο: Επισκόπηση Σελίδας'
-    no_backdrop_in_group: 
-    no_cast_credits: 
-    no_records_found: 
+    no_appearance_text: 
+    no_appearance_text_1: 
+    no_appearance_text_2: 
+    no_backdrop_in_group: Φαίνεται ότι καμία από τις ομάδες δεν έχει προσθέσει νέα υπόβαθρα χαρακτήρων!
+    no_cast_credits: Δεν Βρέθηκαν Πιστώσεις, Δοκιμάστε Ένα Άλλο Πολυμέσο!
+    no_records_found: Δεν Βρέθηκαν Εγγραφές, Δοκιμάστε Άλλο Πολυμέσο!
     note: Σημείωση
     note_info: Για να συνεχίσετε, επιλέξτε ένα άτομο από το παρακάτω αναπτυσσόμενο μενού.
     note_mods: Μια σημείωση για συντονιστές
     okay: Εντάξει
     optional: προαιρετικό
     page_is_live: 
-    person: 
-    person_image_association: 
+    person: Άτομο
+    person_image_association: Επιλέξτε Μια Συσχέτιση Νέου Ατόμου Για Αυτήν Την Εικόνα
     placeholder_synopsis: Εισάγετε τη σύνοψη χαρακτήρων εδώ
     played_by: Παίχτηκε από
-    please_select_a_person: 
+    please_select_a_person: Παρακαλώ επιλέξτε ένα άτομο
     popularity_weight: 
     popularity_weight_multiplier: 
     previous: Προηγούμενο
     previous_nav_label: Προηγ
-    primary_character_name: 
-    problem_refreshing_results: 
-    proceed: 
+    primary_character_name: Κύριο όνομα χαρακτήρα
+    problem_refreshing_results: Παρουσιάστηκε πρόβλημα με την ανανέωση των αποτελεσμάτων.
+    proceed: Προχωρήσετε
     push_test_v1: Δοκιμή ώθησης v1
     ready_to_launch: Αυτό είναι Ολο. Είστε Έτοιμοι να Ξεκινήσετε;
-    record_exists_in_group: 
-    refresh_list: 
-    register: 
+    record_exists_in_group: Η εγγραφή υπάρχει ήδη στην ομάδα.
+    refresh_list: Παρουσιάστηκε πρόβλημα με την ανανέωση της λίστας.
+    register: Εγγραφείτε
     result: Αποτελέσματα
     results_info_text: Επιλέξτε ποια εικόνα του χαρακτήρα θέλετε να προσθέσετε.
     results_selection_info: Μπορείτε να επιλέξετε μόνο ένα άτομο στο ρόλο του χαρακτήρα. Κάθε άτομο που παίζει τον ρόλο αυτού του χαρακτήρα μετρά μια διαφορετική έκδοση και θα πρέπει να προστεθεί ξεχωριστά.
-    resume_editing: 
+    resume_editing: Συνέχιση επεξεργασίας
     revenue: Εσοδα
     review_and_launch_title: Αναθεώρηση και Εκκίνηση
     review_label: αναθεώρηση
-    save_backdrop: 
+    save_backdrop: Αποθήκευση Υπόβαθρου
     save_edits: Αποθήκευση Επεξεργασιών
     search: Αναζήτηση
-    search_all: 
+    search_all: 'Αναζήτηση: Όλα'
     search_character_note: Αναζητήστε τον χαρακτήρα ή τον τίτλο που θέλετε να προσθέσετε παρακάτω. Μπορείτε να δημιουργήσετε πολλές αναζητήσεις για να βρείτε όλα όσα θέλετε να προσθέσετε.
-    search_characters_you_want_to_see: 
+    search_characters_you_want_to_see: Αναζητήστε τους χαρακτήρες ή τους τίτλους που θέλετε να προσθέσετε παρακάτω. Μπορείτε να δημιουργήσετε πολλές αναζητήσεις για να βρείτε όλα όσα θέλετε να προσθέσετε.
     search_error_info: Επεξεργαστείτε την αναζήτησή σας ή ελέγξτε ότι ο τίτλος στον οποίο εμφανίζεται ο χαρακτήρας υπάρχει στη βάση δεδομένων και έχει ακριβή στοιχεία για το καστ και το πλήρωμα.
-    see_batman_appearance: 
-    select_backdrop: 
-    select_cast_credit: 
-    select_group_title: 
-    select_message: 
-    select_person: 
-    select_person_association: 
-    select_person_for_media: 
-    selected_appearance_linked_to_character: 
-    session_inactive: 
-    session_timeout: 
-    session_timeout_continue: 
-    sign_up_text: 
+    see_batman_appearance: Ήθελες ποτέ να δεις κάθε εμφάνιση του Μπάτμαν;
+    select_backdrop: Επιλογή Υπόβαθρου
+    select_cast_credit: Επιλέξτε μια Πίστωση Διανομής Ρόλων
+    select_group_title: Επιλογή & Ομάδα τίτλων
+    select_message: Επιλέξτε όλα τα αστέρια που έχουν παίξει αυτή την έκδοση του χαρακτήρα. Για παράδειγμα, σε μια σειρά αν το άτομο που παίζει τον χαρακτήρα έχει αλλάξει, επιλέξτε και τα δύο αστέρια (δηλαδή. Τόσο ο Edward Norton & Mark Ruffalo θα επιλεγεί για το MCU Hulk)
+    select_person: Επιλέξτε ένα άτομο
+    select_person_association: Επιλογή Συσχέτισης Ατόμου
+    select_person_for_media: Παρακαλώ επιλέξτε ένα νέο πρόσωπο για τα επιλεγμένα μέσα
+    selected_appearance_linked_to_character: Οι επιλεγμένες εμφανίσεις θα συνδεθούν με χαρακτήρα.
+    session_expired: 
+    session_inactive: Η συνεδρία ήταν ανενεργή για πάρα πολύ καιρό
+    session_over_so_redirect: 
+    session_timeout: Έληξε το χρονικό όριο της περιόδου σύνδεσης
+    session_timeout_continue: Η συνεδρία σας κοντεύει να τελειώσει. Θα θέλατε να συνεχίσετε τη συνεδρία;
+    sign_up_text: Η εγγραφή θα σας δώσει επίσης πρόσβαση για να διατηρήσετε τις προσωπικές σας λίστες, να παρακολουθήσετε τι βλέπετε και να αναζητήσετε και να φιλτράρετε τι να παρακολουθήσετε στη συνέχεια - ανεξάρτητα από το αν είναι στις αίθουσες, στην τηλεόραση ή διαθέσιμη σε δημοφιλείς υπηρεσίες streaming όπως το Netflix, το Amazon Prime Videos και το Crave.
     star: Αστέρι
-    submit: 
+    submit: Υποβολή
     submit_and_preview: Υποβολή και προεπισκόπηση
-    submit_confirmation: 
-    submitted: 
-    suggested_backdrops: 
-    suggested_backdrops_not_available: 
-    suggested_character_backdrop_photos: 
-    suggested_window_title: 
-    switch_mode_translate: 
-    switch_to_edit_mode: 
-    switch_translate_mode: 
-    text_for_character_card: 
+    submit_confirmation: Είστε βέβαιοι ότι θέλετε να υποβάλετε;
+    submitted: Υποβλήθηκε
+    suggested_backdrops: Επιλέξτε Προτεινόμενα Υπόβαθρου
+    suggested_backdrops_not_available: Δεν υπάρχουν προτεινόμενα υπόβαθρα
+    suggested_character_backdrop_photos: Προτεινόμενες Φωτογραφίες Υπόβαθρου Χαρακτήρα
+    suggested_window_title: Προτεινόμενες Φωτογραφίες Υπόβαθρου Χαρακτήρα
+    switch_mode_translate: Εναλλαγή σε %{available_language} για μετάφραση.
+    switch_to_edit_mode: Εναλλαγή σε Λειτουργία Επεξεργασίας
+    switch_translate_mode: Εναλλαγή σε Λειτουργία Μετάφρασης
+    text_for_character_card: Τώρα υποστηρίζουμε χαρακτήρες, κάτι που επιτρέπει στην κοινότητα να παρακολουθεί εμφανίσεις σε franchise και μέσω τηλεόρασης καθώς και ταινιών
     title_drag_info: Όλοι οι τίτλοι που θέλετε να προσθέσετε μπορούν να μεταφερθούν στην πλαϊνή μπάρα προς τα αριστερά.
-    total_Results: 
-    total_appearance: 
+    total_Results: Συνολικά Αποτελέσματα
+    total_appearance: Συνολική Εμφάνιση
     total_budget: Συνολικός Προϋπολογισμός
-    try_again: 
-    tv: 
+    translations_language: Γλώσσα Μεταφράσεων
+    try_again: Παρακαλώ δοκιμάστε ξανά!
+    tv: TV
     tv_titles: Τίτλοι Τηλεόρασης
     unloading_message: 
-    unlock_existing_appearances: 
-    unsaved_change_lost: 
-    unsaved_will_lost_want_to_continue: 
-    update_backdrop: 
+    unlock_existing_appearances: Ξεκλειδώστε υπάρχουσες εμφανίσεις
+    unsaved_change_lost: Τυχόν μη αποθηκευμένες αλλαγές θα χαθούν.
+    unsaved_will_lost_want_to_continue: Τυχόν μη αποθηκευμένες αλλαγές θα χαθούν. Θέλετε να συνεχίσετε;
+    update_backdrop: Ενημέρωση Υπόβαθρου
     upload_backdrop_title: Επιλέξτε το άτομο με το οποίο θέλετε να συσχετίσετε αυτήν την εικόνα.
-    user_added_backdrop_info: 
-    user_added_backdrop_label: 
+    user_added_backdrop_info: Εδώ είναι οι φωτογραφίες υπόβαθρου που πρόσθεσες για τον χαρακτήρα.Παρακαλώ επιλέξτε τις φωτογραφίες με τις οποίες θέλετε να συνεχίσετε.
+    user_added_backdrop_label: Ο Χρήστης Πρόσθεσε Φωτογραφίες Υπόβαθρου
     user_variant_description: Εδώ είναι μερικές πιθανές φωτογραφίες που έχουμε τραβήξει για το Χαρακτήρα. Επιλέξτε ένα ή προσθέστε έναν εναλλακτικό που ταιριάζει καλύτερα στο χαρακτήρα.
     user_variant_intro: Βρείτε τον αγαπημένο σας χαρακτήρα από τις Ταινίες, τις Τηλεοπτικές Σειρές και πολλά άλλα...
     validation_charactername: Απαιτείται όνομα κύριου χαρακτήρα
@@ -1516,9 +1531,9 @@ el-GR:
     validation_grpname: Εισάγετε ένα έγκυρο όνομα ομάδας
     validation_synopsis: Εισάγετε μια έγκυρη σύνοψη
     view_by: Προβολή Από
-    want_to_delete_group: 
-    want_to_go_back: 
-    welcome_message: 
+    want_to_delete_group: Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την ομάδα;
+    want_to_go_back: Είσαι σίγουρος, θέλεις να γυρίσεις πίσω ;
+    welcome_message: 'Καλώς ήλθατε στην Κοινότητα Movie Db όπου μπορείτε:'
     what_next: Τι θα θέλατε να κάνετε στη συνέχεια;
   character name: Ονομα χαρακτήρα
   collection_includes: Περιλαμβάνει %{movie_titles}
@@ -1604,10 +1619,10 @@ el-GR:
     welcome_1: Καλωσήρθες στη
     welcome_2: Βίβλο συνεισφοράς
   contribution_type:
-    character_appearance: 
-    movie: 
-    primary_character: 
-    tv_show: 
+    character_appearance: Εμφάνιση χαρακτήρα
+    movie: Ταινία
+    primary_character: Κύριος χαρακτήρας
+    tv_show: Τηλεοπτική Σειρά
   cookie_popup:
     message: Χρησιμοποιούμε cookies για να σας παρέχουμε μια καλύτερη εμπειρία στο TMDB. Μπορείτε να δείτε την <a href="%{policy_url}" target="_blank" rel="noopener">πολιτική για τα cookies</a> για να μάθετε περισσότερα. Συνεχίζοντας να χρησιμοποιείτε το TMDB, συμφωνείτε με αυτή την πολιτική.
     ok_button: Εντάξει
@@ -1982,7 +1997,7 @@ el-GR:
     upstream_problem:
       message: Παρουσιάστηκε πρόβλημα κατά την ολοκλήρωση αυτού του αιτήματος. Αυτό είναι συνήθως ένα προσωρινό ζήτημα και θα πρέπει να επιλυθεί σύντομα.
       title: Υπήρξε ένα πρόβλημα
-  headshots_must_meet: 
+  headshots_must_meet: 'Τα πορτρέτα πρέπει να πληρούν τα ακόλουθα κριτήρια:'
   homepage:
     community:
       benefits_list:
@@ -2042,7 +2057,7 @@ el-GR:
       '9': Ελάχιστη ανάλυση από 300x450
       backdrops_must_meet: 'Οι ταπετσαρίες πρέπει να πληρούν τα ακόλουθα κριτήρια:'
       episode_stills_must_meet: 'Οι φωτογραφίες του επεισοδίου πρέπει να πληρούν τα ακόλουθα κριτήρια:'
-      headshots_must_meet: 
+      headshots_must_meet: 'Τα πορτρέτα πρέπει να πληρούν τα ακόλουθα κριτήρια:'
       posters_must_meet: 'Οι αφίσες πρέπει να πληρούν τα ακόλουθα κριτήρια:'
       profile_must_meet: 'Οι εικόνες προφίλ πρέπει να πληρούν τα ακόλουθα κριτήρια:'
       read_guidelines: Παρακαλούμε να εξοικειωθείτε με την ενημερωμένες μας <a href="%{link}" target="_blank" rel="noopener">οδηγίες συνεισφοράς στις εικόνες</a>
@@ -3071,7 +3086,7 @@ el-GR:
     character:
       edit:
         appearance:
-          no_records: 
+          no_records: Δεν έχουν προστεθεί εμφανίσεις
     collection:
       edit:
         parts:
@@ -3084,7 +3099,7 @@ el-GR:
       tv_page_title: 'Τηλεοπτικές σειρές που έχουν παραχθεί από τον/την %{name} '
     edit:
       cast_updated: Η Πρωταγωνιστές ενημερώθηκαν
-      delete_all_appearances: 
+      delete_all_appearances: Διαγραφή όλων των εμφανίσεων
       genres_updated: Τα Είδη ενημερώθηκαν
       lock_all_appearances: Κάνοντας κλικ στο «ναι», θα κλειδώσετε όλες τις υπάρχουσες εγγραφές που δεν πρόκειται να τροποποιηθούν στο μέλλον από κανονικούς χρήστες. Οι συντονιστές θα εξακολουθούν να μπορούν να κάνουν αλλαγές.
       lock_all_cast_crew_description: Κάνοντας κλικ στο "ναι", θα κλειδωθούν όλες οι υπάρχουσες εγγραφές για μελλοντική επεξεργασία από απλούς χρήστες. Οι συντονιστές θα εξακολουθούν να μπορούν να κάνουν αλλαγές.
@@ -3115,11 +3130,11 @@ el-GR:
         social_links: Οι σύνδεσμοι προς κοινωνικά δίκτυα είναι για επίσημες(επαληθευμένες) σελίδες μόνο. Σελίδες φτιαγμένες από οπαδούς δεν επιτρέπονται.
       unlock_all_appearances: Κάνοντας κλικ στο «ναι», θα ξεκλειδώσετε όλες τις υπάρχουσες εγγραφές.
     external_links:
-      visit_facebook: Επίσκεψη της σελίδας στο Facebook
+      visit_facebook: Επισκεφθείτε το Facebook
       visit_homepage: Επίσκεψη αρχικής σελίδας
-      visit_instagram: Επίσκεψη της σελίδας στο Instagram
-      visit_justwatch: Επίσκεψη της σελίδας στο JustWatch
-      visit_twitter: Επίσκεψη της σελίδας στο Twitter
+      visit_instagram: Επισκεφθείτε το Instagram
+      visit_justwatch: Επισκεφθείτε το JustWatch
+      visit_twitter: Επισκεφθείτε το Twitter
     genre:
       movie_page_title: "%{name} ταινίες"
       tv_page_title: "%{name} τηλεοπτικές σειρές"
@@ -3127,7 +3142,7 @@ el-GR:
       format: Μορφή
       no_backdrop_stills: Δεν έχει προστεθεί ταπετσαρίες σε αυτή την εισαγωγή.
       no_backdrops: Δεν έχουν προστεθεί ταπετσαρίες σε αυτήν την εισαγωγή
-      no_headshots: 
+      no_headshots: Δεν υπάρχουν πορτρέτα σε αυτή την καταχώρηση.
       no_logos: Δεν έχουν προστεθεί λογότυπα σε αυτήν την εισαγωγή.
       no_posters: Δεν έχουν προστεθεί αφίσες σε αυτήν την καταχώρηση.
       no_profiles: Δεν υπάρχουν προφίλ σε αυτήν την καταχώρηση.
@@ -3243,8 +3258,8 @@ el-GR:
       cast_crew: Ηθοποιοί & Συντελεστές
       changes: Αλλαγές
       characters: Χαρακτήρες
-      fandom: 
-      headshots: 
+      fandom: Fandom
+      headshots: Πορτρέτα
       logos: Λογότυπο
       main: Κύρια σελίδα
       media: Πολυμέσα
@@ -3302,7 +3317,6 @@ el-GR:
         next_season: Επόμενος κύκλος
         previous_season: Προηγούμενος κύκλος
     tv_show:
-      " primary_characters": Κύριοι χαρακτήρες
       create_season: Δημιουργία κύκλου
       edit:
         adult:
@@ -3361,6 +3375,7 @@ el-GR:
       networks:
         one: Δίκτυο
         other: Δίκτυα
+      primary_characters: Κύριοι χαρακτήρες
       series_cast: Ηθοποιοί Σειράς
       series_crew: Πλήρωμα Σειράς
       statuses:
@@ -3385,7 +3400,7 @@ el-GR:
       duration: Διάρκεια
       play_behind_the_scenes: 
       play_blooper: 
-      play_clip: 
+      play_clip: Αναπαραγωγή Κλιπ
       play_featurette: 
       play_opening_credits: 
       play_recap: 'Αναπαραγωγή Ανασκόπησης '
@@ -3650,7 +3665,7 @@ el-GR:
       as_character: ως %{character}
       as_job: "— %{job}"
   placeholder:
-    primary_character_name: 
+    primary_character_name: Αρχικό Όνομα Χαρακτήρα
   reset_password_text: Εισαγάγετε παρακάτω το όνομα χρήστη σας για να ξεκινήσει η διαδικασία επαναφοράς του συνθηματικού.
   sample: 
   search:
@@ -3769,7 +3784,7 @@ el-GR:
       blocked_users: Αποκλεισμένοι χρήστες
       connected_apps: Συνδεδεμένες εφαρμογές
       delete_account: Διαγραφή λογαριασμού
-      edit_profile: Επεξεργασία προφίλ
+      edit_profile: Επεξεργασία Προφίλ
       import_list: Εισαγωγή λίστας
       notification_settings: Ρυθμίσεις ειδοποιήσεων
       sessions: Συνεδρίες
@@ -3809,7 +3824,7 @@ el-GR:
         remove_background: Αφαιρέστε την εικόνα φόντου σας;
         set_image: Να οριστεί εικόνα φόντου;
       change_password: Αλλαγή κωδικού πρόσβασης
-      edit_profile: Επεξεργασία προφίλ
+      edit_profile: Επεξεργασία Προφίλ
       email:
         invalid_dialog_title: Επαναφορά email;
         reset_button: Επαναφορά και αποστολή;
@@ -3863,7 +3878,7 @@ el-GR:
       sharing_settings: Ρυθμίσεις κοινής χρήσης
       watchlist:
         remove_when_rated: Καταργεί αυτόματα τα στοιχεία όταν αξιολογούνται;
-        share_publicly: Μοιραστείτε αυτήν τη λίστα δημοσίως;
+        share_publicly: Μοιραστείτε αυτήν τη λίστα δημόσια;
         watchlist_settings: Ρυθμίσεις λίστας παρακολούθησης
     social:
       connected_table:
@@ -3934,9 +3949,9 @@ el-GR:
     one: μετάφραση
     other: μεταφράσεις
   upload_backdrop: Ανέβασμα ταπετσαρίας
-  upload_headshot: 
+  upload_headshot: Ανεβάστε ένα Πορτρέτο
   upload_poster: Ανέβασμα αφίσας
-  upload_profile: Ανεβάστε προφίλ
+  upload_profile: Ανεβάστε Προφίλ
   upload_title_logo: Μεταφόρτωση λογότυπου τίτλου
   used_by_developers: Το TMDB χρησιμοποιείται περισσότερο από 400.000 κατασκευαστές. <br>Περιηγηθείτε στη δουλειά τους παρακάτω.
   videos:

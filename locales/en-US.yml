@@ -1318,7 +1318,7 @@ en-US:
     add_translation: Add Translation
     add_valid_translation: Please Add a Valid Translation.
     adding_easy: Adding to TMDb is simple and easy.
-    all_done: All Done
+    all_done: All Done ?
     all_languages: All Languages
     all_record_exists_in_group: All records already exists in the current group.
     already_added: Already Added
@@ -1334,6 +1334,7 @@ en-US:
     backdrop_image_message: Here's a few backdrop images we've pulled for the header. Please select 1 to 3 backdrop images to update the header with.
     backdrop_oops_message: Oops! You Cannot Select More Than 3 Header Images.
     backdrop_window_title: Choose a Character Backdrop Photo
+    below_is_example_text: Below is an example of what the page Batman will look like. Please go through the info below <br>and verify it before saving the page and launching it onto TMDb.
     cancel_edits: Cancel Edits
     character_backdrop_photo: Character Backdrop Photo
     character_bio: Character Bio
@@ -1345,13 +1346,14 @@ en-US:
     character_wiki: Character Wiki
     characters: Characters
     check_it_out: Check it out
-    check_out_bible: <p>Please check out <a target="_blank" href="<%= link_href('%{bible}') %>">the contribution bible</a> for further info on adding to the Movie Db.</p>
+    check_out_bible: <p>Please check out <a target="_blank" href='%{bible}'>the contribution bible</a> for further info on adding to the Movie Db.</p>
     choose_a_character: Choose A Character
     choose_a_character_info: Adding a character means linking together the appearance of an actor or actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne / Batman. Those three appearance in that role equals one character.
     choose_backdrop: Choose Backdrop
     choose_header_images: Choose Header Images
     choose_reason: You need to choose a reason.
     community: COMMUNITY
+    confirm_buffer_time: Please confirm if buffer time is required to continue editing ?
     confirmation: Confirmation
     continue: Continue
     contribute: Contribute to our database
@@ -1364,17 +1366,20 @@ en-US:
     delete_backdrop: Delete Backdrop
     delete_character: Delete Character
     delete_group: Delete group
+    delete_group_check: Are you sure of deleting this group
     do_you_want_continue: Do you  want to continue ?
     done_editing: Done Editing?
     drag_title: Drag Title For A New Group
     edit_groups: Edit Groups
     edit_groups_description: 'Below is the template for the character pages. Please go through and add the group names, <br> synopsis and imagery to complete the page. '
+    edit_header_images: Edit Header Images
     edit_label: edit
     edit_mode: You're in Edit Mode
     edit_translate: Editing & Translate
     edit_translating: Edit & Translating
     editing_character_name_uv: Observed that you are creating character with a suggested name. Do you want to continue?
     enter: Enter
+    enter_character_synopsis: Enter character synopsis
     enter_group_synopsis: Enter group synopsis
     enter_text_search: Please enter a text to search
     enter_valid_translation: Please Enter A Valid Translation.
@@ -1386,9 +1391,11 @@ en-US:
     find_character_note: Find your favourite character, titles and more
     finished_selections: Finished Your Selections ?
     found_everything: Found Everything?
+    frequent_translations: Frequent Translations
     group_name: Group Name
     group_name_already_exists: Group with the set of items already exists. Do you want to create a group.
     group_name_required: Group name is required
+    groups_minimum_appearance_msg: A group should have minimum one appearance. Please add an appearance to the group <b><i>%{groupName}</i></b> to proceed further!
     groups_not_present: Groups are not present for the character.
     headshot: Headshot
     headshot_window_title: Change the Character headshot
@@ -1424,6 +1431,9 @@ en-US:
     next_launch_page: 'Next: Launch Page'
     next_nav_label: Next
     next_review_page: 'Next: Review Page'
+    no_appearance_text: No Groups found!
+    no_appearance_text_1: No appearances found! Please <a href="/character/%{page_url}/edit/add_appearances?character_name=%{@object.name}">click here </a>to add new appearances!
+    no_appearance_text_2: No Groups found! Please <a href="/character/%{page_url}/edit/">click here </a>to add new group!
     no_backdrop_in_group: Looks like none of the groups are having new character backdrops added!
     no_cast_credits: No Cast Credits Found, Please Try Another Media!
     no_records_found: No Records Found, Please Try Another Media!
@@ -1473,7 +1483,9 @@ en-US:
     select_person_association: Select a Person Association
     select_person_for_media: 'Please Select A New Person For the Selected Media '
     selected_appearance_linked_to_character: Selected appearance(s) will be linked to character.
+    session_expired: Session Expired!
     session_inactive: Session was inactive for too long
+    session_over_so_redirect: Session has expired. Click of OK will redirect to character page.
     session_timeout: Session timeout reached
     session_timeout_continue: Your session is about to end. Would you like to continue the session?
     sign_up_text: Signing up will also give you access to maintain your own personal lists, track what you'vr seen and search and filter for what to watch next--regardless if it's in the theaters, On TV or available on popular streaming services like Netflix, Amazon Prime Videos and Crave.
@@ -1494,6 +1506,7 @@ en-US:
     total_Results: Total Results
     total_appearance: Total Appearance
     total_budget: Total Budget
+    translations_language: Translations Language
     try_again: Please try again!
     tv: TV
     tv_titles: TV Titles
@@ -3294,7 +3307,6 @@ en-US:
         next_season: Next Season
         previous_season: Previous Season
     tv_show:
-      " primary_characters": Primary Characters
       create_season: Create Season
       edit:
         adult:
@@ -3353,6 +3365,7 @@ en-US:
       networks:
         one: Network
         other: Networks
+      primary_characters: Primary Characters
       series_cast: Series Cast
       series_crew: Series Crew
       statuses:

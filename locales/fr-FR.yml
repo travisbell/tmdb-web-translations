@@ -27,7 +27,7 @@ fr-FR:
   Add Content Rating: Ajouter une classification d'âge
   Add Creator: Ajouter un créateur
   Add Data & Content: Ajouter des données et du contenu
-  Add Headshot: Ajouter une photo
+  Add Headshot: Ajouter une photo de profil
   Add Item: Ajouter un élément
   Add Missing Cast & Crew: Ajouter un membre manquant à la distribution des rôles ou à l'équipe technique
   Add Network: Ajouter un diffuseur télévisé
@@ -119,7 +119,7 @@ fr-FR:
   Create App: Créer une application
   Create Application: Créer une application
   Create New List: 'Créer une nouvelle liste '
-  Create Translation: Créer une traduction
+  Create Translation: Créer cette traduction
   Created By: Une création de
   Credits: Apparitions
   Crew: Équipe technique
@@ -437,7 +437,7 @@ fr-FR:
   System Status: Statut du système
   TV: À la télévision
   TV Network: Diffuseur télévisé
-  TV Recommendations: Recommandations de contenus télévisés
+  TV Recommendations: Recommandations d'émissions télévisées
   TV Show Data: Données de l'émission télévisée
   TV Show Results: Résultats de la recherche de l'émission télévisée
   TV Show Status: Statut de l'émission télévisée
@@ -467,8 +467,8 @@ fr-FR:
   Translate Person: Traduire la personne
   Translate TV Series: Traduire la série télévisée
   Translated Name: Nom, si différent du nom d'origine, en
-  Translated Overview: Traduction du synopsis
-  Translated Tagline: Traduction du slogan
+  Translated Overview: Traduction du synopsis en
+  Translated Tagline: Traduction du slogan en
   Translated Title: Titre, si différent du titre d'origine, en
   Translations: Traductions
   Type: Type
@@ -706,7 +706,7 @@ fr-FR:
       need_account: Votre connexion est nécessaire pour continuer !
       title: La création d'un compte est nécessaire
     approved_session: Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre.
-    continue: Si vous souhaitez poursuivre, cliquez ci-dessous sur le bouton « Approuver ». Sinon, fermer simplement cette fenêtre.
+    continue: Si vous souhaitez continuer, cliquez ci-dessous sur le bouton « Approuver ». Sinon, fermer simplement cette fenêtre.
     invalid_api_app:
       message: L'utilisateur de l'API actuellement identifié n'est pas valide.
       title: Utilisateur d'API non valide
@@ -1301,209 +1301,222 @@ fr-FR:
         '6':
           meaning: Ce programme est spécialement conçu pour être vu par des adultes et peut donc ne pas convenir aux enfants de moins de 18 ans.
   character:
-    Movie: 
-    Titles: 
+    Movie: Film
+    Titles: Titres
     add_a_character: Ajouter un personnage
     add_an_appearance: Ajouter un apparition
     add_appearance: Ajouter une ou des apparition(s)
-    add_appearances: 
-    add_backdrop: Ajouter un fond d'écran
+    add_appearances: Ajouter des apparitions
+    add_backdrop: Ajouter un arrière-plan
     add_backdrop_grp: Ajouter un arrière-plan pour ce groupe
-    add_character_backdrop: 
-    add_completely_free: 
+    add_character_backdrop: Ajouter une photo d'arrière-plan de personnage
+    add_completely_free: Profitez sans aucune publicité
     add_missing_character: Ajouter un personnage manquant
-    add_new_appearance: 
-    add_new_appearance_links_selection: 
-    add_new_group: 
-    add_the_name_of_the_character: 
-    add_to_tmdb: 
-    add_translation: 
-    add_valid_translation: 
-    adding_easy: 
+    add_new_appearance: Ajouter une nouvelle apparition
+    add_new_appearance_links_selection: Le fait d'ajouter une nouvelle apparition reliera ensemble votre ou vos sélection(s) aux apparitions actuelles déjà listées.
+    add_new_group: Ajouter un nouveau groupe
+    add_the_name_of_the_character: Ajouter le nom du personnage.
+    add_to_tmdb: Ajouter à TMDB
+    add_translation: Ajouter une traduction
+    add_valid_translation: Veuillez ajouter une traduction valide.
+    adding_easy: Ajouter à TMDB est simple et facile.
     all_done: Terminé
-    all_languages: 
-    all_record_exists_in_group: 
-    already_added: 
-    alter_popularity: 
-    are_you_sure: 
-    are_you_sure_updates_will_be_lost: 
-    association_already_exists: 
-    association_updated: 
-    association_warning: 
-    available_backdrop_images: 
-    back: 
+    all_languages: Toutes les langues
+    all_record_exists_in_group: Toutes les entrées sont déjà existantes dans le groupe actuel.
+    already_added: Déjà ajouté !
+    alter_popularity: Ajuster la popularité
+    are_you_sure: Voulez-vous vraiment continuer ?
+    are_you_sure_updates_will_be_lost: 'Voulez-vous vraiment quitter le processus ? Vos mises à jour seront perdues. '
+    association_already_exists: L'association existe déjà.
+    association_updated: L'association a bien été mise à jour !
+    association_warning: Avertissement de modification d'association !
+    available_backdrop_images: Images / photos d'arrière-plans disponibles
+    back: Retour
     backdrop: Arrière-plan
-    backdrop_image_message: 
-    backdrop_oops_message: 
-    backdrop_window_title: Choisir un fond d'écran pour le personnage
+    backdrop_image_message: Voici quelques images / photos d'arrière-plan que nous avons dénichées pour vous pour l'en-tête. Veuillez en sélectionner une, deux ou trois afin de le mettre à jour.
+    backdrop_oops_message: Oups ! Vous ne pouvez pas sélectionner plus de 3 images / photos d'en-tête.
+    backdrop_window_title: Choisir une photo d'arrière-plan pour le personnage
+    below_is_example_text: Vous trouverez ci-dessous un exemple de l'apparence que prendra la page Batman. Veuillez parcourir les informations ci-dessous,<br>les vérifier, puis enregistrez la page afin de la lancer sur TMDB.
     cancel_edits: Annuler les modifications
     character_backdrop_photo: Photo d'arrière-plan du personnage
     character_bio: Biographie du personnage
-    character_header_images: 
+    character_header_images: Images / photos d'en-tête du personnage
     character_name: Noms du personnage
     character_search_label: Quel personnage recherchez-vous ?
     character_search_text: Quel personnage aimeriez-vous trouver ?
     character_to_search: Quel personnage ou titre recherchez-vous ?
     character_wiki: Page Wikipédia du personnage
-    characters: 
-    check_it_out: 
-    check_out_bible: 
+    characters: Personnages
+    check_it_out: Vérifiez-le
+    check_out_bible: <p>Merci de consulter <a target="_blank" href="<%= link_href('%{bible}') %>">la bible des contributions</a> pour obtenir de plus amples informations sur l'ajout de données à TMDB.</p>
     choose_a_character: Choisir un personnage
     choose_a_character_info: Ajouter un personnage, c'est associer l'apparition d'un artiste à un rôle spécifique. Un exemple parfait serait la trilogie Batman / The Dark Knight, constituée de trois films de la Saga, dans laquelle Christian Bale incarne Bruce Wayne / Batman. Ces trois apparitions, dans ce même rôle, équivalent à un seul et même personnage.
     choose_backdrop: Choisir un arrière-plan
-    choose_header_images: 
-    choose_reason: 
-    community: 
-    confirmation: 
-    continue: 
-    contribute: 
-    correct_errors_in_forms: 
+    choose_header_images: Sélectionner des images / photos d'en-tête
+    choose_reason: Vous devez choisir une raison.
+    community: COMMUNAUTÉ
+    confirm_buffer_time: Le temps de mise en mémoire tampon est-il requis pour poursuivre la modification ?
+    confirmation: Confirmation
+    continue: Continuer
+    contribute: Contribuez à notre base de données
+    correct_errors_in_forms: Veuillez rectifier les erreurs présentes dans les champs du formulaire.
     create_overview: Créer un aperçu
     create_overview_bio_help: Veuillez écrire une biographie pour cette version spécifique, le personnage y a de nombreuses incarnations.
     create_overview_help: Aidez-nous à compléter la biographie de ce personnage au fur et à mesure des séries de films / apparitions télévisées qu'il a faites.
     create_overview_name_help: Veuillez ne modifier le nom d'un personnage que pour une raison spécifique ou pour un nom commun sous lequel il est connu.
     create_overview_note: L'artiste et ses photos de profil ne peuvent pas être modifiés à cet endroit.
-    delete_backdrop: Supprimer le fond d'écran
+    delete_backdrop: Supprimer l'arrière-plan
     delete_character: Supprimer le personnage
-    delete_group: 
-    do_you_want_continue: 
+    delete_group: Supprimer le groupe
+    delete_group_check: Voulez-vous vraiment supprimer ce groupe ?
+    do_you_want_continue: Voulez-vous continuer ?
     done_editing: Avez-vous terminé vos modifications ?
-    drag_title: 
+    drag_title: Faites glisser le titre pour créer un nouveau groupe
     edit_groups: Modifier les groupes
     edit_groups_description: Vous trouverez ci-dessous le modèle des fiches des personnages. Veuillez parcourir et ajouter les noms des groupes, <br> le synopsis et les photos, afin de compléter la fiche.
+    edit_header_images: Modifier les images / photos d'en-tête
     edit_label: Modifier
-    edit_mode: 
-    edit_translate: 
-    edit_translating: 
-    editing_character_name_uv: 
-    enter: 
-    enter_group_synopsis: 
-    enter_text_search: 
-    enter_valid_translation: 
+    edit_mode: Vous êtes actuellement en mode de modification.
+    edit_translate: Modification et traduction
+    edit_translating: Modifier et traduire
+    editing_character_name_uv: Prêtez attention au fait que vous êtes sur le point de créer un personnage sur la base d'un nom suggéré. Voulez-vous vraiment continuer ?
+    enter: Saisir
+    enter_character_synopsis: Saisissez le synopsis du personnage
+    enter_group_synopsis: Saisir le synopsis du groupe
+    enter_text_search: Veuillez saisir un texte à rechercher
+    enter_valid_translation: Veuillez saisir une traduction valide.
     era: Époque
-    error_while_submitting: 
-    failed_draft: 
-    filter_subscribed_services: 
+    error_while_submitting: Erreur lors de la soumission !
+    failed_draft: a échoué dans l'obtention d'une réponse au brouillon.
+    filter_subscribed_services: Filtrer selon vos services de streaming souscrits.
     find_character: Quels personnages ou titre aimeriez-vous trouver ?
     find_character_note: Trouvez votre personnage préféré, vos titres et plus
-    finished_selections: 
+    finished_selections: Avez-vous terminé vos sélections ?
     found_everything: Avez-vous trouvé tous les éléments ?
-    group_name: 
-    group_name_already_exists: 
-    group_name_required: 
-    groups_not_present: 
-    headshot: 
+    frequent_translations: Traductions fréquentes
+    group_name: Nom du groupe
+    group_name_already_exists: Un groupe contenant l'ensemble de ces éléments existe déjà. Voulez-vous créer un nouveau groupe ?
+    group_name_required: Le nom du groupe est requis.
+    groups_minimum_appearance_msg: Un groupe doit contenir au minimum une apparition. Veuillez ajouter une apparition au groupe <b><i>%{groupName}</i></b> afin de poursuivre.
+    groups_not_present: Les groupes ne sont pas présents pour le personnage.
+    headshot: Photo de profil
     headshot_window_title: Changer la photo de profil du personnage
     help_our_mods: Aidez nos modérateurs
     help_our_mods_info: Parlez-nous du personnage ! Il s'agit d'un champ privé entre l'équipe de modération et vous-même. Toutes les informations que vous fournirez sur le personnage, et la raison pour laquelle vous le créez, les aideront lors de la révision de votre fiche.
-    icon: 
-    image_change_1: 
-    image_media_association: 
-    in_translate_mode: 
+    icon: Icône
+    image_change_1: Cette image / photo est associée à une entrée média du groupe sélectionné. Si vous poursuivez, les associations de la personne des médias liés seront également modifiées !
+    image_media_association: Cette image / photo est associée à une entrée média. Si vous poursuivez, les associations de la personne des médias liés seront également modifiées !
+    in_translate_mode: Vous êtes actuellement en mode de traduction.
     inline_edit_original_name: Nom d'origine
-    join_community_tmdb: 
+    join_community_tmdb: Rejoignez notre communauté afin de contribuer à TMDB.
     launch_label: mise en ligne
-    lock_existing_appearances: 
-    log_tv_movies_watch: 
+    lock_existing_appearances: Verrouiller les apparitions existantes
+    log_tv_movies_watch: Enregistrez les émissions télévisées et les films que vous regardez
     master_group_limit_error: Vous avez atteint le nombre maximal de groupes qui est supporté.
-    media: 
-    media_association: 
-    media_character_id: 
-    media_type: 
+    media: Média
+    media_association: Ce média est associé à une entrée d'image / photo du groupe sélectionné. Si vous poursuivez, les associations de la personne de l'image / photo liée seront également modifiées !
+    media_character_id: Identifiant du média du personnage
+    media_type: Type de média
     media_types:
       character: Personnage
       movie_character_name: Noms de personnages de films
-      tv_character_name: Noms de personnages télévisés
+      tv_character_name: Noms de personnages d'émissions télévisées
       tv_show: Émissions télévisées
     movie_titles: Titres des films
-    name: 
+    name: Nom
     navigate_to_dashboard: Accéder à mon tableau de bord
     navigate_to_master: Aller à la page principale
     need_help: Besoin d'aide ?
-    new_to_tmdb: 
+    new_to_tmdb: Nouveau sur TMDB
     next: Suivant
     next_edit_groups: 'Suivant : Modifier les groupes'
     next_launch_page: 'Suivant : Page de mise en ligne'
     next_nav_label: Suivant
     next_review_page: 'Suivant : Page de révision'
-    no_backdrop_in_group: 
-    no_cast_credits: 
-    no_records_found: 
+    no_appearance_text: Aucun groupe n'a été trouvé !
+    no_appearance_text_1: Aucune apparition n'a été trouvée ! Veuillez <a href="/character/%{page_url}/edit/add_appearances?character_name=%{@object.name}">cliquer ici</a> pour ajouter de nouvelles apparitions !
+    no_appearance_text_2: Aucun groupe n'a été trouvé ! Veuillez <a href="/character/%{page_url}/edit/">cliquer ici</a> pour ajouter un nouveau groupe !
+    no_backdrop_in_group: Il semblerait qu'aucun des groupes n'a de nouvel arrière-plan de personnage d'ajouté !
+    no_cast_credits: Aucune apparition n'a été trouvée dans la distribution des rôles. Veuillez renouveler votre recherche sur un autre média !
+    no_records_found: Aucune entrée n'a été trouvée. Veuillez renouveler votre recherche sur un autre média !
     note: Note
-    note_info: Afin de poursuivre, veuillez sélectionner une personne dans la liste déroulante ci-dessous.
+    note_info: Afin de continuer, veuillez sélectionner une personne dans la liste déroulante ci-dessous.
     note_mods: Une note pour les modérateurs
     okay: D'accord
     optional: optionnel
     page_is_live: La fiche est dorénavant en ligne !
-    person: 
-    person_image_association: 
+    person: Personne
+    person_image_association: Veuillez sélectionner une nouvelle association de personne pour cette image / photo.
     placeholder_synopsis: Saisissez maintenant le synopsis du personnage
     played_by: Incarné par
-    please_select_a_person: 
-    popularity_weight: 
-    popularity_weight_multiplier: 
+    please_select_a_person: Veuillez sélectionner une personne
+    popularity_weight: Poids de popularité
+    popularity_weight_multiplier: Multiplicateur de poids de popularité
     previous: Précédent
     previous_nav_label: Préc
-    primary_character_name: 
-    problem_refreshing_results: 
-    proceed: 
+    primary_character_name: Nom du personnage principal
+    problem_refreshing_results: Un problème est survenu lors de l'actualisation des résultats.
+    proceed: Poursuivre
     push_test_v1: Test de poussée v1
     ready_to_launch: C'est fini. Validez-vous la mise en ligne ?
-    record_exists_in_group: 
-    refresh_list: 
-    register: 
+    record_exists_in_group: L'entrée existe déjà dans ce groupe.
+    refresh_list: Une erreur est survenue lors de l'actualisation de la liste.
+    register: Inscription
     result: Résultats
     results_info_text: Sélectionnez la représentation du personnage que vous souhaitez ajouter.
     results_selection_info: Vous ne pouvez sélectionner qu'une seule personne dans le rôle du personnage. Chaque personne incarnant le rôle de ce personnage comptera pour une version différente et devra être ajoutée séparément.
-    resume_editing: 
+    resume_editing: Reprendre la modification
     revenue: Salaire
     review_and_launch_title: Réviser et mettre en ligne
     review_label: révision
-    save_backdrop: 
+    save_backdrop: Enregistrer l'arrière-plan
     save_edits: Enregistrer les modifications
     search: Rechercher
-    search_all: 
+    search_all: 'Rechercher : Tous'
     search_character_note: Recherchez le personnage ou le titre que vous souhaitez ajouter ci-dessous. Vous pouvez lancer plusieurs recherches afin de trouver tous les éléments que vous souhaitez ajouter.
-    search_characters_you_want_to_see: 
+    search_characters_you_want_to_see: Recherchez ci-dessous les personnages ou les titres que vous souhaitez ajouter. Vous pouvez même créer plusieurs recherches à la fois dans le but de trouver tout ce que vous souhaitez ajouter.
     search_error_info: Veuillez modifier votre recherche ou vérifier que le titre dans lequel le personnage apparaît existe bien dans notre base de données et contient déjà des détails précis sur la distribution des rôles et l'équipe technique.
-    see_batman_appearance: 
-    select_backdrop: Sélectionner un fond d'écran
-    select_cast_credit: 
+    see_batman_appearance: Avez-vous toujours désiré voir chaque apparition de Batman ?
+    select_backdrop: Sélectionner un arrière-plan
+    select_cast_credit: Veuillez sélectionner un crédit de distribution des rôles
     select_group_title: Sélectionner et regrouper les titres
-    select_message: 
-    select_person: 
-    select_person_association: 
-    select_person_for_media: 
-    selected_appearance_linked_to_character: 
-    session_inactive: 
-    session_timeout: 
-    session_timeout_continue: 
-    sign_up_text: 
+    select_message: Sélectionnez toutes les vedettes qui ont interprété cette version du personnage. Par exemple, pour une émission télévisée ou une saga de films, si la personne qui interprète le personnage a été changée au fil des tournages, vous devrez alors sélectionner plusieurs vedettes. Si nous prenons l'exemple précis du personnage de Hulk, tiré de l'univers cinématographique Marvel, à la fois Edward Norton et Mark Ruffalo devront être sélectionnés.
+    select_person: Sélectionner une personne
+    select_person_association: Sélectionner une association de personne
+    select_person_for_media: Veuillez sélectionner une nouvelle personne pour le média sélectionné
+    selected_appearance_linked_to_character: La ou les apparition(s) sélectionnée(s) sera / seront liée(s) au personnage.
+    session_expired: La session a expiré !
+    session_inactive: La session était inactive depuis trop longtemps.
+    session_over_so_redirect: La session a expiré. Cliquer sur OK vous redirigera vers la page du personnage.
+    session_timeout: La limite de la durée de la session a été atteinte.
+    session_timeout_continue: Votre session va s'achever sous peu. Voulez-vous vraiment poursuivre votre session ?
+    sign_up_text: 'L''inscription vous offrira également la possibilité de maintenir des listes personnelles, de répertorier les contenus que vous avez regardés et de rechercher par filtrage ce que vous pourriez ensuite regarder. Tout ceci indépendamment du mode de disponibilité : au cinéma, à la télévision ou en streaming sur les services par abonnement les plus populaires tels que Netflix, Amazon Prime Videos et Crave.'
     star: Vedette
-    submit: 
+    submit: Soumettre
     submit_and_preview: Prévisualiser et soumettre
-    submit_confirmation: 
-    submitted: 
-    suggested_backdrops: Sélectionner les fonds d'écran suggérés
-    suggested_backdrops_not_available: 
-    suggested_character_backdrop_photos: 
+    submit_confirmation: Voulez-vous vraiment le soumettre ?
+    submitted: Soumis !
+    suggested_backdrops: Sélectionner les arrière-plans suggérés
+    suggested_backdrops_not_available: Aucun arrière-plan suggéré n'est disponible !
+    suggested_character_backdrop_photos: Photos d'arrière-plan de personnage suggérées
     suggested_window_title: Fonds d'écran de personnage suggérés
-    switch_mode_translate: 
-    switch_to_edit_mode: 
-    switch_translate_mode: 
-    text_for_character_card: 
+    switch_mode_translate: Basculer vers le mode %{available_language} à traduire.
+    switch_to_edit_mode: Basculer vers le mode de modification
+    switch_translate_mode: Basculer vers le mode de traduction
+    text_for_character_card: Les personnages sont dorénavant pris en charge. Cela permet à la communauté TMDB de répertorier les apparitions de personnages entre les franchises, mais également au travers des émissions télévisées et des films.
     title_drag_info: Tous les titres que vous souhaitez ajouter peuvent être glissés-déposés vers la barre latérale gauche.
-    total_Results: 
+    total_Results: Total de résultats
     total_appearance: Apparitions cumulées
     total_budget: Budget cumulé
-    try_again: 
-    tv: 
-    tv_titles: Titres télévisés
-    unloading_message: 
-    unlock_existing_appearances: 
-    unsaved_change_lost: 
-    unsaved_will_lost_want_to_continue: 
-    update_backdrop: Mettre à jour le fond d'écran
+    translations_language: Langue des traductions
+    try_again: Veuillez réessayer !
+    tv: Émission télévisée
+    tv_titles: Titres d'émissions télévisées
+    unloading_message: Décharger cette page peut causer la perte de données. Que souhaitez-vous faire ?
+    unlock_existing_appearances: Déverrouiller les apparitions existantes.
+    unsaved_change_lost: Toutes les modifications non enregistrées seront perdues !
+    unsaved_will_lost_want_to_continue: 'Toutes les modifications non enregistrées seront perdues. Voulez-vous vraiment continuer ? '
+    update_backdrop: Mettre à jour l'arrière-plan
     upload_backdrop_title: Sélectionnez la personne à laquelle vous souhaitez associer cette photo.
     user_added_backdrop_info: Voici les photos d'arrière-plan que vous avez ajoutées pour le personnage. Veuillez sélectionner les photos avec lesquelles vous souhaitez poursuivre.
     user_added_backdrop_label: Photos d'arrière-plan ajoutées par l'utilisateur
@@ -1514,9 +1527,9 @@ fr-FR:
     validation_grpname: Veuillez saisir un nom de groupe valide.
     validation_synopsis: Veuillez saisir un synopsis valide.
     view_by: Vu par
-    want_to_delete_group: 
-    want_to_go_back: 
-    welcome_message: 
+    want_to_delete_group: Voulez-vous vraiment supprimer ce groupe ?
+    want_to_go_back: Voulez-vous vraiment y retourner ?
+    welcome_message: 'Bienvenue au sein de la communauté de TMDB dans laquelle vous pouvez :'
     what_next: Que voulez-vous faire ensuite ?
   character name: Nom du personnage
   collection_includes: Comprend %{movie_titles}
@@ -1537,20 +1550,20 @@ fr-FR:
       '9': C'est presque bon !
   contribute:
     contribute: Contribuer
-    missing_a_biography: Biographie manquante
-    missing_a_profile_image: Photo de profil manquante
-    movie_language_distribution: Distribution linguistique du film
+    missing_a_biography: Biographies manquantes
+    missing_a_profile_image: Photos de profil<br>manquantes
+    movie_language_distribution: Répartition linguistique des films
     movies_missing_a_backdrop: Films sans fond d'écran
     movies_missing_a_overview: Films sans synopsis
-    movies_missing_a_poster: Films sans affiche
-    movies_missing_a_title: Films sans titre
+    movies_missing_a_poster: Films sans affiches
+    movies_missing_a_title: Films sans titres
     page_title: Contribuer aux données manquantes
-    selected_language: Langue sélectionnée
-    tv_missing_a_backdrop: Contenu télévisé sans fond d'écran
-    tv_missing_a_poster: Contenu télévisé sans affiche
-    tv_show_language_distribution: Distribution linguistique de l'émission télévisée
-    tv_shows_missing_a_name: Émissions télévisées sans nom
-    tv_shows_missing_a_overview: Émissions télévisées sans vue d'ensemble
+    selected_language: "<br>Langue sélectionnée "
+    tv_missing_a_backdrop: Émissions télévisées<br>sans fonds d'écran
+    tv_missing_a_poster: Émissions télévisées<br>sans affiches
+    tv_show_language_distribution: Répartition linguistique des émissions télévisées
+    tv_shows_missing_a_name: Émissions télévisées<br>sans noms
+    tv_shows_missing_a_overview: Émissions télévisées<br>sans vues d'ensemble
   contribution_bible:
     abbreviations:
       collection: col
@@ -1600,10 +1613,10 @@ fr-FR:
     welcome_1: Bienvenue sur
     welcome_2: La bible des contributions
   contribution_type:
-    character_appearance: 
-    movie: 
-    primary_character: 
-    tv_show: 
+    character_appearance: Apparition de personnage
+    movie: Film
+    primary_character: Personnage principal
+    tv_show: Émission télévisée
   cookie_popup:
     message: Nous utilisons des cookies pour vous garantir la meilleure expérience sur TMDB. Vous pouvez consulter notre <a href="%{policy_url}" target="_blank" rel="noopener">politique de cookies</a> pour plus d'informations. En poursuivant votre navigation sur TMDB, vous acceptez cette politique.
     ok_button: D'accord
@@ -1926,7 +1939,7 @@ fr-FR:
       no_characters_found: Aucun personnage n'a été trouvé.
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
-      suspected_tv_series: semble exister en tant que série télévisée ou mini-série. Vous pouvez poursuivre l'ajout de cet élément si vous agissez avec certitude, mais il sera supprimé s'il existe déjà dans notre section « Télévision » / « Contenu télévisé ».
+      suspected_tv_series: semble exister en tant que série télévisée ou mini-série. Vous pouvez maintenir l'ajout de cet élément si vous agissez avec certitude, mais il sera supprimé s'il existe déjà dans notre section « Télévision » / « Émission télévisée ».
       taken: est déjà utilisé·e
     movie:
       duplicate_cast: Cette personne est déjà présente dans la distribution des rôles du film.
@@ -1956,7 +1969,7 @@ fr-FR:
       message: Nous n'avons pas pu valider votre session de connexion. Veuillez actualiser la page courante avant de réessayer.
       title: Session non valide
     logged_out:
-      message: Réussie !<br>À très bientôt sur TMDB.
+      message: Réussie.<br>À très bientôt sur TMDB.
       title: Déconnexion
     password_reset:
       message: |-
@@ -1976,7 +1989,7 @@ fr-FR:
     upstream_problem:
       message: Un problème est survenu lors de la réponse apportée à cette requête. Il s'agit, en général, d'un problème temporaire, qui devrait être résolu sous peu.
       title: Un problème est survenu
-  headshots_must_meet: 'Les photos du visage doivent respecter les critères suivants :'
+  headshots_must_meet: 'Les photos de profil doivent respecter les critères suivants :'
   homepage:
     community:
       benefits_list:
@@ -2036,7 +2049,7 @@ fr-FR:
       '9': Une résolution minimale de 300 x 450 pixels
       backdrops_must_meet: 'Les fonds d''écran doivent respecter les critères suivants :'
       episode_stills_must_meet: 'Les fonds d''écran d''épisodes doivent respecter les critères suivants :'
-      headshots_must_meet: 'Les photos du visage doivent respecter les critères suivants :'
+      headshots_must_meet: 'Les photos de profil doivent respecter les critères suivants :'
       posters_must_meet: 'Les affiches doivent respecter les critères suivants :'
       profile_must_meet: 'Les photos de profil doivent respecter les critères suivants :'
       read_guidelines: Veuillez vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images / photos</a>.
@@ -3121,7 +3134,7 @@ fr-FR:
       format: Format
       no_backdrop_stills: Aucun fond d'écran promotionnel n'a été ajouté à cette fiche.
       no_backdrops: Aucun fond d'écran n'a été ajouté à cette fiche.
-      no_headshots: Aucune photo de visage n'a été ajoutée à cette fiche.
+      no_headshots: Aucune photo de profil n'a été ajoutée à cette fiche.
       no_logos: Aucun logo français n'a été ajouté à cette fiche.<br>Se référer aux autres langues, si disponible.
       no_posters: Aucune affiche n'a été ajoutée à cette fiche.
       no_profiles: Aucun profil n'a été ajouté à cette fiche.
@@ -3215,7 +3228,7 @@ fr-FR:
       media_types:
         all: Tous
         movies: Films
-        tv: Contenu télévisé
+        tv: Émission télévisée
         tv_shows: Émissions télévisées
       years_old:
         one: ''
@@ -3236,7 +3249,7 @@ fr-FR:
       changes: Modifications
       characters: Personnages
       fandom: Domaine des fans
-      headshots: Photos de visage
+      headshots: Photos de profil
       logos: Logos
       main: Page principale
       media: Médias
@@ -3289,12 +3302,11 @@ fr-FR:
       season_cast: Distribution des rôles de la saison
       season_crew: Équipe technique de la saison
       season_selector:
-        current_season: Saison actuelle
+        current_season: Saison en cours
         last_season: Dernière saison
-        next_season: Saison suivante
+        next_season: Saison à venir
         previous_season: Saison précédente
     tv_show:
-      " primary_characters": Personnages principaux
       create_season: Créer une saison
       edit:
         adult:
@@ -3332,7 +3344,7 @@ fr-FR:
             '4': Numérique
             '5': Arc narratif
             '6': Production
-            '7': Contenu télévisé
+            '7': Émission télévisée
         networks:
           no_records: Aucun diffuseur télévisé n'a été ajouté à cette fiche.
           none_found: Aucun diffuseur télévisé ne correspond à votre recherche. Voulez-vous en créer un ?
@@ -3353,6 +3365,7 @@ fr-FR:
       networks:
         one: Diffuseur télévisé
         other: Diffuseurs télévisés
+      primary_characters: Personnages principaux
       series_cast: Distribution des rôles
       series_crew: Équipe technique
       statuses:
@@ -3379,7 +3392,7 @@ fr-FR:
       play_blooper: Regarder le bêtisier
       play_clip: Regarder l'extrait
       play_featurette: Regarder le bonus
-      play_opening_credits: Regarder le générique
+      play_opening_credits: Regarder le générique de début
       play_recap: Regarder le récapitulatif
       play_teaser: Regarder le teaser
       play_trailer: Bande-annonce
@@ -3504,7 +3517,7 @@ fr-FR:
     public: Cette liste de suivi est vide.
   no_writer: Aucun membre scénariste n'a été ajouté à cette fiche.
   not_translated:
-    logged_in: La fiche %{page_title} n'a pas encore été traduite en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si vous souhaitez poursuivre et créer cette traduction, veuillez cliquer sur le bouton ci-dessous.
+    logged_in: La fiche %{page_title} n'a pas encore été traduite en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si vous souhaitez créer cette traduction, veuillez cliquer sur le bouton ci-dessous.
     public: La fiche %{page_title} n'a pas encore été traduite en <strong>%{requested_i18n} (%{requested_language_text})</strong>. Vous pouvez la traduire en procédant à votre <a href="%{signup_link}">inscription</a>. Vous pourrez ensuite procéder à votre <a href="%{login_link}">connexion</a>.
   notifications:
     caught_up: Il semblerait que vous ayez tout lu.
@@ -3642,7 +3655,7 @@ fr-FR:
       as_character: incarnant %{character}
       as_job: "— %{job}"
   placeholder:
-    primary_character_name: 
+    primary_character_name: Nom du personnage principal
   reset_password_text: Saisissez ci-dessous votre nom d'utilisateur pour démarrer le processus de réinitialisation du mot de passe.
   sample: 
   search:
@@ -3922,7 +3935,7 @@ fr-FR:
     one: traduction
     other: traductions
   upload_backdrop: Ajouter un fond d'écran
-  upload_headshot: Téléverser une photo de visage
+  upload_headshot: Téléverser une photo de profil
   upload_poster: Ajouter une affiche
   upload_profile: Ajouter une photo de profil
   upload_title_logo: Téléverser un logo de titre
@@ -3943,17 +3956,17 @@ fr-FR:
     popular: Populaire
     types:
       Behind the Scenes: Dans les coulisses
-      Blooper: Bêtisier
+      Blooper: Bêtisier (Blooper)
       Bloopers: Bêtisiers
-      Clip: Extrait
+      Clip: Extrait (Clip)
       Clips: Extraits
-      Featurette: Bonus
+      Featurette: Bonus (Featurette)
       Featurettes: Bonus
       Opening Credits: Générique de début
-      Recap: Résumé
+      Recap: Résumé (Recap)
       Recaps: Résumés
-      Teaser: Teaser
-      Teasers: Teasers
+      Teaser: Amorce (Teaser)
+      Teasers: Amorces
       Trailer: Bande-annonce (Trailer)
       Trailers: Bandes-annonces
     vimeo_channel: Chaîne Vimeo
