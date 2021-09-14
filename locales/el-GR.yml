@@ -1351,7 +1351,7 @@ el-GR:
     character_wiki: Wiki χαρακτήρα
     characters: Χαρακτήρες
     check_it_out: Δες εδώ.
-    check_out_bible: <p>Παρακαλώ δες εδώ<a target="_blank" href="<%= link_href('%{bible}') %>">το βιβλίο της συνεισφοράς</a> για περισσότερες πληροφορίες σχετικά με την προσθήκη στο Movie Db.</p>
+    check_out_bible: <p>Παρακαλώ δες εδώ<a target="_blank" href='%{bible}'>το βιβλίο της συνεισφοράς</a> για περισσότερες πληροφορίες σχετικά με την προσθήκη στο Movie Db.</p>
     choose_a_character: Επιλέξτε έναν χαρακτήρα
     choose_a_character_info: Η προσθήκη ενός χαρακτήρα σημαίνει σύνδεση μεταξύ της εμφάνισης ενός ηθοποιού ή ηθοποιού που παίζει συγκεκριμένο ρόλο. Ένα παράδειγμα θα ήταν η Dark Knight Trilogy (τρεις ταινίες) στην οποία ο Christen Bale παίζει τον Bruce Wayne/Batman. Αυτές οι τρεις εμφανίσεις σε αυτόν τον ρόλο ισούνται με έναν χαρακτήρα.
     choose_backdrop: Επιλέξτε Υπόβαθρου
@@ -1439,9 +1439,7 @@ el-GR:
     next_nav_label: Επόμενο
     next_review_page: 'Επόμενο: Επισκόπηση Σελίδας'
     no_appearance_text: Δεν βρέθηκαν ομάδες!
-    no_appearance_text_1: 'Δεν βρέθηκαν εμφανίσεις! Παρακαλώ <a href="/character/%{page_url}/edit/add_appearances?character_name=%{@object.name}">κάντε κλικ εδώ  </a>για να προσθέσετε νέες εμφανίσεις!
-
-      '
+    no_appearance_text_1: Δεν βρέθηκαν εμφανίσεις! Παρακαλώ <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">κάντε κλικ εδώ  </a>για να προσθέσετε νέες εμφανίσεις!
     no_appearance_text_2: "Δεν βρέθηκαν ομάδες! Παρακαλώ <a href=\"/character/%{page_url}/edit/\">κάντε κλικ εδώ </a>για να προσθέσετε νέα ομάδα!\n "
     no_backdrop_in_group: Φαίνεται ότι καμία από τις ομάδες δεν έχει προσθέσει νέα υπόβαθρα χαρακτήρων!
     no_cast_credits: Δεν Βρέθηκαν Πιστώσεις, Δοκιμάστε Ένα Άλλο Πολυμέσο!
