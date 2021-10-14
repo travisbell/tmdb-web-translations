@@ -91,6 +91,7 @@ module TMDb
           'ms-SG' => 'ms',
           'pt-BR' => 'pt',
           'zh-HK' => 'zh',
+          'zh-SG' => 'zh',
           'zh-TW' => 'zh'
         ).freeze
       end
