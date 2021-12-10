@@ -261,7 +261,7 @@ zh-CN:
   Login to report an issue: 登录以报告问题
   Logo: 标志
   Logos & Attribution: 标志 & 归属
-  Logout: '注销 '
+  Logout: 退出登录
   Mark as Favorite: 标记为我的最爱
   Media: 媒体
   Member since: 会员注册于
@@ -512,7 +512,7 @@ zh-CN:
     join_tmdb: 加入 TMDB
     lists: 片单
     login: 登录
-    logout: 注销
+    logout: 退出登录
     messages: 消息
     profile_and_settings: 个人资料与设定
     ratings: 评分
@@ -628,9 +628,9 @@ zh-CN:
       lists: 片单
       overview: 概览
       ratings: 评分
-      ratings_reviews: 评分和评论
+      ratings_reviews: 评分和评价
       recommendations: 推荐
-      reviews: 评论
+      reviews: 评价
       watchlist: 待看清单
     order: 排序：
     overview:
@@ -660,11 +660,11 @@ zh-CN:
         logged_in: 我的评分
         public: "%{username} 的评分"
       my_reviews:
-        logged_in: 我的评论
-        public: "%{username} 的评论"
+        logged_in: 我的评价
+        public: "%{username} 的评价"
       page_title:
-        page_owner: 我的评分和评论
-        public: "%{username} 的评分和评论"
+        page_owner: 我的评分和评价
+        public: "%{username} 的评分和评价"
       ratings_by_year: 按年份评分统计
     recommendations:
       my_recommendations: 推荐给我
@@ -1617,7 +1617,7 @@ zh-CN:
     primary_character:
     tv_show:
   cookie_popup:
-    message: 为了让您在访问 TMDB 网站能有更好的体验，我们需要使用 cookies。您可以浏览我们的<a href="%{policy_url}" target="_blank" rel="noopener">cookie 使用条款</a>了解更多内容。如果您继续使用 TMDb，我们默认您已经同意此条款。
+    message: 为了让您在 TMDB 上获得更好的体验，我们需要使用 cookie。您可以查看我们的 <a href="%{policy_url}" target="_blank" rel="noopener">cookie 政策</a> 了解详情。如果您继续使用 TMDB，即表示您同意此政策。
     ok_button: 好的
   date:
     abbr_day_names:
@@ -1885,7 +1885,7 @@ zh-CN:
       advanced_search: 高级搜索
       search_closed: 搜索已关闭讨论？
       search_forums: 搜索论坛...
-      search_open: 搜索开放评论？
+      search_open: 搜索开放讨论？
     statuses:
       closed: 已关闭
       open: 开放
@@ -1965,8 +1965,8 @@ zh-CN:
       message:
       title:
     logged_out:
-      message: 你已成功注销。
-      title: 注销！
+      message: 你已成功退出登录。
+      title: 已退出登录！
     password_reset:
       message:
       title: 密码已重置
@@ -3041,7 +3041,7 @@ zh-CN:
     release_date: 发行日期
     title: 标题
   list_steps:
-    step_1: 第 1 步：列示详情
+    step_1: 第 1 步：片单详情
     step_2: 第 2 步：添加条目
     step_3: 第 3 步：选择图像
     step_4: 第 4 步：分享
@@ -3243,7 +3243,7 @@ zh-CN:
       posters: 海报
       profiles: 人物图片
       release_dates: 发行日期
-      reviews: 评论
+      reviews: 评价
       translations: 翻译
       videos: 视频
     social_panel:
@@ -3254,17 +3254,17 @@ zh-CN:
         want_to_be_notified: 要在有人发布第一个帖子时通知您吗？
         yes_notify_me: 是的，通知我！
       reviews:
-        a_review_by: "%{username} 的评论"
+        a_review_by: "%{username} 的评价"
         by: "%{username} 写于 %{date}"
-        featured_review: 精选评论
+        featured_review: 精选评价
         no_review:
-          logged_in: 还没有关于《%{title}》的评论呢。想要<a href="%{url}">写一个</a>吗？
-          public: 还没有关于《%{title}》的评论呢。
-        read_all: 查看所有评论
+          logged_in: 还没有关于《%{title}》的评价呢。想要<a href="%{url}">写一个</a>吗？
+          public: 还没有关于《%{title}》的评价呢。
+        read_all: 查看所有评价
         read_the_rest: 阅读全文。
         write_review:
-          logged_in: 写评论
-          public: 登录以撰写评论。
+          logged_in: 写评价
+          public: 登录以撰写评价。
     tv_episode:
       edit:
         guest_stars:
@@ -3357,8 +3357,8 @@ zh-CN:
       statuses:
         Canceled: 已取消
         Ended: 已完结
-        In Production: 拍摄中
-        Pilot: 试映集
+        In Production: 制作中
+        Pilot: 试播集
         Planned: 已计划
         Returning Series: 回归剧
       types:
@@ -3477,7 +3477,7 @@ zh-CN:
   no_list_search_results: 找不到和您的查询相符的片单。
   no_media: 暂无《%{title}》的相关视频、剧照和海报。
   no_movie_search_results: 找不到和您的查询相符的电影。
-  no_overview: 暂无简体中文的剧情简介，请帮助添加到数据库。
+  no_overview: 暂无英文的剧情简介，请帮助我们添加到数据库。
   no_person_search_results: 找不到和您的查询相符的人物。
   no_personal_recommendations:
     movie: 你可以通过收藏你喜欢的电影来能获得个性化电影推荐。同时，你可能会注意到我们推荐的很多电影都是你看过的。你可以通过给它们评分来过滤掉它们。你已评分的电影会被自动过滤掉。
@@ -3560,7 +3560,7 @@ zh-CN:
   number_of_items: "%{count} 个条目"
   number_of_results: "%{count} 条结果"
   number_of_translations: "%{count} 个翻译"
-  number_of_votes: "%{count} 投票"
+  number_of_votes: "%{count} 人评分"
   ott:
     available_sentences:
       ads: 带广告
@@ -3820,7 +3820,7 @@ zh-CN:
         current_session: 当前会话
         remove_single:
           confirm_button: 是的，删除它！
-          dialog_text: 确定删除此会话？如果选择的会话为当前会话，本次操作将使您注销。
+          dialog_text: 确定删除此会话？如果选择的会话为当前会话，本次操作将使您退出登录。
           dialog_title: 删除会话？
         table:
           date: 日期
@@ -3871,7 +3871,7 @@ zh-CN:
     by_clicking_agree_to_terms: 点击下方的“注册”按钮，即代表您确认您已阅读并同意 TMDB 使用条款和隐私政策。
     javascript_required: 需要 JavaScript 才能继续。
     sign_up_for_account: 注册一个帐户
-    signup_text: 注册一个帐户是免费的，也很容易。从填写下方的表单开始吧。
+    signup_text: 注册帐户是免费的，而且很简单。从填写下方的表单开始吧。
   success_approved_access_token: 已授权！
   success_deleted: 所选项目已成功删除。
   success_email: 邮件发送成功。

@@ -29,7 +29,7 @@ it-IT:
   Add Data & Content: Aggiungi Dati e Contenuti
   Add Headshot:
   Add Item: Aggiungi Articolo
-  Add Missing Cast & Crew: Aggiungi Cast & Troupe
+  Add Missing Cast & Crew: Aggiungi cast e troupe
   Add Network: Aggiungi Network
   Add New Episode: Aggiungi nuovo episodio
   Add New Movie: Aggiungi Nuovo Film
@@ -39,12 +39,12 @@ it-IT:
   Add Poster: Aggiungi Poster
   Add Profile: Aggiungi Profilo
   Add Season Regular: Aggiungi Stagione Regolare
-  Add Title Logo:
+  Add Title Logo: Aggiungi logo titolo
   Add To Every Season?: Aggiungere ad Ogni Stagione?
   Add Video: Aggiungi un Video
   Add YouTube Video: Aggiungi Video YouTube
   Add a New Cast Member: Aggiungi un Nuovo Membro Del Cast
-  Add a New Crew Member: Aggiungi un Nuovo Membro Della Troupe
+  Add a New Crew Member: Aggiungi un nuovo membro della troupe
   Add a New Guest Star: Aggiungi Una Nuova Guest Star
   Add to Watchlist: Aggiungi alla Watchlist
   Add to list: Aggiungi alla lista
@@ -165,9 +165,11 @@ it-IT:
   Email Address: Indirizzo Email
   Email Content: Contenuto dell'Email
   Embed: Incorpora
-  Episode Images: Immagini Episodio
-  Episode Number: Numero Episodio
-  Episode Overview: Descrizione Episodio
+  Episode Images:
+    one: ''
+    other: Immagini episodio
+  Episode Number: Numero episodio
+  Episode Overview: Descrizione episodio
   Episodes: Episodi
   Error: Errore
   Example API Request: Esempio Richiesta API
@@ -185,7 +187,7 @@ it-IT:
   Favorites: Favoriti
   Featured: In Primo Piano
   Featured Cast: Cast in Evidenza
-  Featured Crew: Troupe in Evidenza
+  Featured Crew: Troupe in evidenza
   Featured Lists: Liste in Evidenza
   Filter: Filtro
   Filter Profanity?: Filtra Parole Offensive?
@@ -198,7 +200,7 @@ it-IT:
   Formatting Help: Aiuto per la formattazione
   Forum: Forum
   Forums: Forums
-  Full Cast & Crew: Cast & Troupe al completo
+  Full Cast & Crew: Cast e troupe al completo
   Full Character List:
   Full Leaderboard: Classifica completa
   Gender: Sesso
@@ -250,7 +252,7 @@ it-IT:
   Login to Add a Backdrop: Accedi per aggiungere uno sfondo
   Login to Add a Poster: Accedi per aggiungere un poster
   Login to Add a Video: Accedi per aggiungere un video
-  Login to Edit Cast & Crew: Accedi per modificare Cast & Troupe
+  Login to Edit Cast & Crew: Accedi per modificare cast e troupe
   Login to add this TV show to your favorite list: Accedi per aggiungere questa serie TV alla tua lista dei preferiti
   Login to add this TV show to your watchlist: Accedi per aggiungere questa serie TV alla tua watchlist
   Login to add this movie to your favorite list: Accedi per aggiungere questo film alla lista dei tuoi preferiti
@@ -270,7 +272,7 @@ it-IT:
   Mobile Application: Applicazione mobile
   Moderator: Moderatore
   More Info: Più Info
-  Most Popular: Più Popolare
+  Most Popular: Più popolare
   Move Credits: Sposta i crediti
   Move TV Credits: Sposta crediti TV
   Movie Data: Dati del film
@@ -327,7 +329,7 @@ it-IT:
   Popularity Ascending: Popolarità Crescente
   Popularity Descending: Popolarità Decrescente
   Popularity Rank: Classifica Di Popolarità
-  Popularity Trend: Trend Gradimento
+  Popularity Trend: Trend gradimento
   Poster Card View: Visualizzazione Poster
   Powered by TMDb: Offerto da TMDB
   Powered by The Movie Database: Offerto da The Movie Database
@@ -370,7 +372,7 @@ it-IT:
   Remove from your watchlist: Elimina dalla tua watchlist
   Remove?: Rimuovi?
   Report: Segnalazione
-  Report an Issue: Segnala un Problema
+  Report an Issue: Segnala un problema
   Reported Issues: Problemi Sengalati
   Request an API Key: Richiedi una chiave API
   Resend Activation Email: Reinoltra email di attivazione
@@ -464,13 +466,13 @@ it-IT:
   Translate Movie: Traduci Film
   Translate Person: Traduci Persona
   Translate TV Series: Traduci Serie TV
-  Translated Name: Nome Tradotto
+  Translated Name: Titolo (Lascia vuoto il campo se uguale all'originale)
   Translated Overview: Descrizione Tradotta
   Translated Tagline: Tagline Tradotta
   Translated Title: Titolo (Lascia vuoto il campo se uguale all'originale)
   Translations: Traduzioni
   Type: Tipo
-  Type of Problem: Tipo di Problema
+  Type of Problem: Tipo di problema
   Type of Use: Tipo di Utilizzo
   URL: URL
   Upcoming Movies: Film In Arrivo
@@ -483,7 +485,7 @@ it-IT:
   View All Backdrops: Mostra tutti gli sfondi
   View All Episode Images: Visualizza tutte le immagini degli episodi
   View All Episodes: Visualizza tutti gli episodi
-  View All Posters: Mostra Tutti i Poster
+  View All Posters: Mostra tutti i poster
   View All Seasons: Visualizza tutte le stagioni
   View All Videos: Visualizza tutti i video
   View Discussions: Visualizza Discussioni
@@ -596,13 +598,13 @@ it-IT:
     filter_by: 'Filtra per:'
     filters:
       air_date: Data di trasmissione
-      alphabetical:
+      alphabetical: Alfabetico
       date_added: Data Aggiunta
       date_rated: Data di Valutazione
       first_air_date: Prima data di trasmissione
-      most_popular:
+      most_popular: Più popolari
       my_rating: La Mia Valutazione
-      newest:
+      newest: Più recenti
       popularity: Popolarità
       rating: Valutazione
       release_date: Data di Rilascio
@@ -643,7 +645,7 @@ it-IT:
       empty_watched_genres:
         logged_in: Non hai registrato alcun film o serie Tv.
         public: "%{username} non ha registrato alcun film o serie Tv."
-      goto_discussions: Vai a Discussioni
+      goto_discussions: Vai a discussioni
       goto_watchlist: Vai alla Watchlist
       most_watched_genres: I Generi Più Guardati
       rating_overview: Panoramica Valutazione
@@ -1306,16 +1308,16 @@ it-IT:
     add_backdrop:
     add_backdrop_grp:
     add_character_backdrop:
-    add_completely_free:
-    add_missing_character:
+    add_completely_free: Goditi l'esperienza senza pubblicità
+    add_missing_character: Aggiungi personaggio mancante
     add_new_appearance:
     add_new_appearance_links_selection:
-    add_new_group:
-    add_the_name_of_the_character:
-    add_to_tmdb:
-    add_translation:
+    add_new_group: Aggiungi nuovo gruppo
+    add_the_name_of_the_character: Aggiungi il nome del personaggio.
+    add_to_tmdb: Aggiungi a TMDB
+    add_translation: Aggiungi traduzione
     add_valid_translation:
-    adding_easy:
+    adding_easy: Aggiungere su TMDB è molto facile.
     all_done:
     all_languages:
     all_record_exists_in_group:
@@ -1538,7 +1540,7 @@ it-IT:
     scale:
       '0': Devo iniziare da qualche parte...
       '1': Ehi, è un inizio.
-      '10': Si! Sembra buono!
+      '10': Sì! Sembra buono!
       '2': Ci stiamo arrivando.
       '3': Roma non fu costruita in un giorno...
       '4': Non c'è un "Io" in squadra...
@@ -1919,8 +1921,8 @@ it-IT:
       unsubscribe: Disiscriviti
       unsubscribed: Ti sei <strong>annullato</strong> la tua iscrizione. Se è avvenuto per errore puoi iscriverti nuovamente visitando la tua pagina delle<a href="%{account_link}">impostazioni di notifica</a>.
   episode_count:
-    one: "%{count} Episodio"
-    other: "%{count} Episodi"
+    one: "%{count} episodio"
+    other: "%{count} episodi"
   episode_number_name: Episodio %{episode_number}
   errors:
     images:
@@ -2016,12 +2018,12 @@ it-IT:
         today: Oggi
         tv: Serie TV
       free_to_watch: Visione gratuita
-      latest_trailers: Ultimi Trailers
+      latest_trailers: Ultimi trailer
       leaderboard:
         all_time: Tutte le modifiche
         leaderboard: Classifica
         this_week: Modifiche di questa settimana
-      trending: In Tendenza
+      trending: Di tendenza
       whats_popular: Cosa è popolare
     taw:
       read_the_2018_recap: Leggi il riassunto del 2018
@@ -2047,7 +2049,7 @@ it-IT:
       backdrops_must_meet: 'Gli sfondi devono soddisfare i seguenti criteri:'
       episode_stills_must_meet: 'Le immagini fisse degli episodi devono soddisfare i seguenti criteri:'
       headshots_must_meet:
-      posters_must_meet: 'I Poster devono soddisfare i seguenti criteri:'
+      posters_must_meet: 'I poster devono soddisfare i seguenti criteri:'
       profile_must_meet: 'Le immagini del profilo devono soddisfare i seguenti criteri:'
       read_guidelines: Ti invitiamo a familiarizzare con le nostre <a href="%{link}" target="_blank" rel="noopener">linee guida per il contributo alle immagini</a> aggiornate.
       tip: Se il tuo browser lo supporta, puoi trascinare e rilasciare un'immagine nell'area sottostante. Altrimenti, fai semplicemente clic sul pulsante "Seleziona file ..." e scegli l'immagine dal tuo computer.
@@ -3021,8 +3023,8 @@ it-IT:
       media_pages: Su tutte le pagine di media
       tv_episode_pages: Nelle pagine degli episodi TV
       tv_season_pages: Nelle pagine delle stagioni TV
-    keyboard_shortcuts: Scorciatoie Tastiera
-    view_keyboard_shorcuts: Vedi Scorciatoie Tastiera
+    keyboard_shortcuts: Scorciatoie tastiera
+    view_keyboard_shorcuts: Vedi Scorciatoie tastiera
     view_shortcuts: Vedi Scorciatoie
   list_info:
     average_rating: Voto Medio
@@ -3245,7 +3247,7 @@ it-IT:
       main:
       media:
       overview:
-      posters: Posters
+      posters: Poster
       profiles: Profili
       release_dates:
       reviews: Recensioni
@@ -3293,7 +3295,7 @@ it-IT:
       season_cast:
       season_crew:
       season_selector:
-        current_season: Stagione Corrente
+        current_season: Stagione attuale
         last_season: Ultima Stagione
         next_season: Prossima stagione
         previous_season: Stagione precedente
@@ -3309,7 +3311,7 @@ it-IT:
         creator:
           no_records: Nessun creatore aggiunto.
         crew:
-          no_season: Nessuna stagione presente! è richiesta una stagione per aggiungere i membri della troupe.
+          no_season: Nessuna stagione presente! È richiesta una stagione per aggiungere i membri della troupe.
         episode_groups:
           create_new_group: Crea Nuovo Gruppo
           description: Descrizione
@@ -3361,7 +3363,7 @@ it-IT:
       series_crew:
       statuses:
         Canceled: Annullato
-        Ended: Terminati
+        Ended: Terminato
         In Production: In Produzione
         Pilot: Pilota
         Planned: Programmato
@@ -3467,7 +3469,7 @@ it-IT:
   no_company_search_results: Non ci sono società che corrispondano alla tua ricerca.
   no_contributors: Nessun contributore trovato.
   no_created_lists: Non hai creato nessuna lista.
-  no_crew: Non abbiamo membri troupe aggiunti a questo %{media_type}. Puoi aiutare aggiungendo qualcuno!
+  no_crew: Non abbiamo membri della troupe aggiunti a questo %{media_type}. Puoi aiutare aggiungendo qualcuno!
   no_description: Nessuna descrizione inserita.
   no_director: Nessun regista è stato aggiunto.
   no_episode_images: Non sono state aggiunte immagini dell'episodio.
@@ -3780,7 +3782,7 @@ it-IT:
     profile:
       accent_color: Colore Accento
       avatar:
-        current_avatar: Avatar Corrente
+        current_avatar: Avatar attuale
         explain: Attualmente, l'unica opzione che abbiamo per visualizzare un avatar personalizzato è l'utilizzo di un servizio chiamato <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Se desideri visualizzare un avatar personalizzato su TMDB, dovrai registrarti per un account su Gravatar e assicurarti di aggiungere lo stesso indirizzo email che hai usato qui (è così che possiamo collegare il tuo account). Fatto ciò, fai clic sul pulsante di aggiornamento qui sotto e prenderemo la tua nuova immagine.
         explain_gravatar: Se desideri utilizzare <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> come fornitore del tuo avatar, assicurati di avere lo stesso indirizzo email che usi qui aggiunto su Gravatar. Fatto ciò (e ovviamente hai caricato un'immagine), fai clic sul pulsante di aggiornamento qui sotto e cercheremo di visualizzare la tua nuova immagine.
         not_found: Nessun avatar trovato.
@@ -3919,7 +3921,7 @@ it-IT:
       long: "%B %d, %Y %I:%M %p"
       pm:
       short: "%d %b %I:%M %p"
-  top_contributors: Collaboratori Principali
+  top_contributors: Collaboratori principali
   translation:
     one: Traduzione
     other: Traduzioni
@@ -3955,7 +3957,7 @@ it-IT:
       Teaser: Teaser
       Teasers: Teasers
       Trailer: Trailer
-      Trailers: Trailers
+      Trailers: Trailer
     vimeo_channel:
     visit_vimeo_channel:
     visit_youtube_channel:
