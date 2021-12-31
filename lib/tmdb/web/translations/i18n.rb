@@ -6,6 +6,7 @@ module TMDb
     class I18n
 
       DEFAULT_MAPPING = {
+        'af' => 'af-ZA',
         'ar' => 'ar-SA',
         'be' => 'be-BY',
         'bg' => 'bg-BG',
@@ -14,6 +15,7 @@ module TMDb
         'ch' => 'ch-GU',
         'cn' => 'cn-CN',
         'cs' => 'cs-CZ',
+        'cy' => 'cy-GB',
         'da' => 'da-DK',
         'de' => 'de-DE',
         'el' => 'el-GR',
@@ -36,13 +38,16 @@ module TMDb
         'kk' => 'kk-KZ',
         'kn' => 'kn-IN',
         'ko' => 'ko-KR',
+        'ky' => 'ky-KG',
         'lt' => 'lt-LT',
         'lv' => 'lv-LV',
         'ml' => 'ml-IN',
+        'mr' => 'mr-IN',
         'ms' => 'ms-MY',
         'nb' => 'nb-NO',
         'nl' => 'nl-NL',
         'no' => 'no-NO',
+        'pa' => 'pa-IN',
         'pl' => 'pl-PL',
         'pt' => 'pt-PT',
         'ro' => 'ro-RO',
