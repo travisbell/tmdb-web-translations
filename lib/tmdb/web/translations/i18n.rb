@@ -27,6 +27,8 @@ module TMDb
         'fa' => 'fa-IR',
         'fi' => 'fi-FI',
         'fr' => 'fr-FR',
+        'ga' => 'ga-IE',
+        'gd' => 'gd-GB',
         'gl' => 'gl-ES',
         'he' => 'he-IL',
         'hi' => 'hi-IN',
