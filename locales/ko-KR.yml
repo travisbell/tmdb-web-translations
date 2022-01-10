@@ -6,11 +6,11 @@ ko-KR:
   API Details: API 세부 정보
   API Key: API 키
   API Libraries: API 라이브러리
-  API Overview:
+  API Overview: API 개요
   API Read Access Token: API 읽기 액세스 토큰
-  API Sessions:
+  API Sessions: API 세션
   API Stats: API 통계
-  API Status Codes:
+  API Status Codes: API 상태 코드
   API Terms: API 이용약관
   API Terms of Use:
   API Updates: API 업데이트 내역
@@ -39,7 +39,7 @@ ko-KR:
   Add Poster: 포스터 추가
   Add Profile: 프로필 추가
   Add Season Regular: 정규 출연진 추가
-  Add Title Logo:
+  Add Title Logo: 제목 로고 추가
   Add To Every Season?: 모든 시즌에 추가하시겠습니까?
   Add Video: 동영상 추가
   Add YouTube Video: 유튜브 동영상 추가
@@ -529,7 +529,7 @@ ko-KR:
         deleted: 삭제됨
         updated: 갱신함
       media_types:
-        all:
+        all: 모든
         movies: 영화
         others: 기타
         people: 인물
@@ -596,13 +596,13 @@ ko-KR:
     filter_by: '필터:'
     filters:
       air_date: 방영일 순
-      alphabetical:
+      alphabetical: 알파벳 순서
       date_added: 추가된 순
       date_rated: 평가일 순
       first_air_date: 최초 방영일 순
-      most_popular:
+      most_popular: 가장 인기있는
       my_rating: 나의 평점 순
-      newest:
+      newest: 최신
       popularity: 인기 순
       rating: 전체 평점 순
       release_date: 개봉일 순
@@ -707,8 +707,8 @@ ko-KR:
       message: 현재 인증중인 API 사용자가 유효하지 않습니다.
       title: 잘못된 API 사용자
     missing_request_token:
-      message:
-      title:
+      message: 사용자 계정을 인증하려면 요청 토큰이 필요합니다.
+      title: 요청 토큰 누락
     request_token_approval:
       message: "{{APP}}에서 사용자의 데이터를 읽고 쓸 수 있는 권한을 요청합니다. TMDB 외부에서 목록을 유지하거나 영화를 평가하는 등의 작업을 수행하려면 이 권한이 필요합니다."
     statuses:
@@ -755,15 +755,15 @@ ko-KR:
         '1':
           meaning: 분류 면제. 등급 분류 대상에서 제외되는 영화에는 논쟁의 여지가있는 소재 (즉, 일반적으로 M 이상 등급의 자료)가 포함되어서는 안됩니다.
         '2':
-          meaning:
+          meaning: 전체관람가능
         '3':
-          meaning:
+          meaning: 부모의 지도가 권장됩니다. 나이 제한은 없습니다.
         '4':
           meaning:
         '5':
           meaning:
         '6':
-          meaning:
+          meaning: 18세 이상으로 이용이 제한됩니다. 미성년자는 이용할 수 없습니다. 컨텐츠의 영향력이 매우 큽니다.
         '7':
           meaning:
         '8':
@@ -1906,11 +1906,11 @@ ko-KR:
       blank: 필수 항목
       inclusion: 반드시 선택해야 합니다.
       invalid: 유효하지 않습니다.
-      invalid_character_name:
-      no_characters_found:
+      invalid_character_name: 등장인물 이름에 특수 문자를 사용할 수 없습니다.
+      no_characters_found: 등장인물을 찾을 수 없습니다.
       required: '존재해야 합니다. '
       series_status_invalid_to_create_season: "'취소'또는 '종료'으로 설정되어 새 시즌을 만들 수 없습니다."
-      suspected_tv_series:
+      suspected_tv_series: 기존 TV 시리즈 또는 미니시리즈로 의심됩니다. 확실한 경우 이 항목을 계속 추가할 수 있지만 TV 섹션에 이미 존재하는 경우 제거됩니다.
       taken: 이미 사용되고 있습니다.
     movie:
       duplicate_cast: 이미 출연진에 입력된 인물입니다.
@@ -3582,9 +3582,9 @@ ko-KR:
     show_more: 더 보기
   part_of_collection: "%{collection_name}에 포함된 작품"
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(최소 4자)"
     confirm_new_password: 새 비밀번호 확인
-    enter_to_continue:
+    enter_to_continue: 계속하려면 현재 비밀번호를 입력하십시오...
     new_password: 새 비밀번호
     password: 비밀번호
     password_confirm: 비밀번호 확인
@@ -3820,12 +3820,12 @@ ko-KR:
   sign_up:
     benefits:
       benefits_to_being_member: 가입회원 혜택
-      build_custom_lists:
-      build_watchlist:
+      build_custom_lists: 사용자 지정 혼합 목록 생성 (영화 및 TV)
+      build_watchlist: 개인 감상목록 생성 및 관리
       contribute: 당사 데이터베이스 구축과 개선에 기여
       discussions: 영화 & TV 토론 참여
-      find_something_to_watch:
-      keep_track:
+      find_something_to_watch: 가입된 스트리밍 서비스에서 볼만한 작품을 찾으세요
+      keep_track: 좋아하는 영화와 TV 프로그램을 기록하고 추천을 받으세요
       log_movies: 감상한 영화 & TV 프로그램 기록
     by_clicking_agree_to_terms: 하단 "가입" 버튼을 눌러, TMDB의 이용약관과 개인정보 처리방침에 대한 정독 여부와 동의를 표시합니다.
     javascript_required: 계속하려면 자바스크립트가 설치되어야 합니다.
@@ -3848,20 +3848,20 @@ ko-KR:
       two_words_connector: " and "
       words_connector: ", "
   suspended:
-    explanation_1:
-    go_to_inbox:
-    title:
+    explanation_1: 불행하게도, 이 사용자는 일시 중지 되었습니다.
+    go_to_inbox: 받은 메시지함으로 이동
+    title: 이 사용자는 일시 중지되었습니다
     your_account:
-      explanation_1:
-      title:
+      explanation_1: 일지중지 사유나 계정에 다시 액세스할 수 있는 방법에 대해 논의하려면 아래 링크를 클릭하여 메시지 영역을 방문하십시오.
+      title: 계정이 일시 중지되었습니다
   the:
   time:
     formats:
       12hour_minutes: "%l:%M %p"
-      am:
-      default:
+      am: 오전
+      default: "%a, %d %b %Y %I:%M:%S %p %Z"
       long: "%B %d, %Y %I:%M %p"
-      pm:
+      pm: 오후
       short: "%d %b %I:%M %p"
   top_contributors: 우수 기여자
   translation: 번역
@@ -3876,15 +3876,15 @@ ko-KR:
       language: 언어
       sort:
         published_at_asc: 게시일
-        published_at_desc:
+        published_at_desc: 게시 날짜 (최신 날짜 순)
         sort: 정렬
       type: 종류
     number_of_videos:
       one: "%{count} 영상"
       other: "%{count} 영상"
     official_channel: 공식채널
-    page_title:
-    popular:
+    page_title: "%{name} 영상 채널"
+    popular: 인기있는
     types:
       Behind the Scenes: 비하인드 영상
       Blooper: NG 영상
