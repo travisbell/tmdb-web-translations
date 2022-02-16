@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 module TMDb
-  module Config
-    class I18n
+  module Web
+    class Translations
 
       DEFAULT_MAPPING = {
         'af' => 'af-ZA',
@@ -85,7 +85,7 @@ module TMDb
       end
 
       def self.default_iso_3166_1_mapping
-        @default_iso_3166_1_mapping ||= TMDb::Config::I18n::DEFAULT_MAPPING.invert.merge!(
+        @default_iso_3166_1_mapping ||= TMDb::Web::Translations::DEFAULT_MAPPING.invert.merge!(
           'ar-AE' => 'ar',
           'de-AT' => 'de',
           'de-CH' => 'de',
@@ -106,17 +106,17 @@ module TMDb
       end
 
       def self.default_iso_3166_1_mapping_lowercase
-        @default_iso_3166_1_mapping_lowercase ||= TMDb::Config::I18n.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
+        @default_iso_3166_1_mapping_lowercase ||= TMDb::Web::Translations.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
           hash[i18n.downcase] = i18n
         end.freeze
       end
 
       def self.valid_i18n_translations
-        @valid_i18n_translations ||= TMDb::Config::I18n.language_list.dup.delete_if { |k,v| TMDb::Config::I18n::IGNORED_TRANSLATIONS.include?(k) }.freeze
+        @valid_i18n_translations ||= TMDb::Web::Translations.language_list.dup.delete_if { |k,v| TMDb::Web::Translations::IGNORED_TRANSLATIONS.include?(k) }.freeze
       end
 
       def self.default_iso_3166_1_i18n
-        @default_iso_3166_1_i18n ||= TMDb::Config::I18n.language_list.each_with_object({}) do |(i18n, iso_3166_1), hash|
+        @default_iso_3166_1_i18n ||= TMDb::Web::Translations.language_list.each_with_object({}) do |(i18n, iso_3166_1), hash|
           iso_3166_1 = i18n.split('-')[1]
           hash[iso_3166_1] = i18n unless hash[iso_3166_1]
         end.freeze
@@ -125,17 +125,17 @@ module TMDb
       def self.default_language_i18n
         @default_language_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash|
           hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
-        }.merge!(TMDb::Config::I18n::DEFAULT_MAPPING).freeze
+        }.merge!(TMDb::Web::Translations::DEFAULT_MAPPING).freeze
       end
 
       def self.default_language_to_country_mapping
-        @default_language_to_country_mapping ||= Hash[TMDb::Config::I18n::DEFAULT_MAPPING.map { |k,v| v.split('-') }].freeze
+        @default_language_to_country_mapping ||= Hash[TMDb::Web::Translations::DEFAULT_MAPPING.map { |k,v| v.split('-') }].freeze
       end
 
       def self.language_list
-        @language_list ||= (Language.distinct(:iso_639_1) - TMDb::Config::I18n.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
+        @language_list ||= (Language.distinct(:iso_639_1) - TMDb::Web::Translations.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
           hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
-        end.merge!(TMDb::Config::I18n.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h.freeze
+        end.merge!(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h.freeze
       end
 
       def self.language_path
@@ -158,11 +158,11 @@ module TMDb
       end
 
       def self.supported_iso_639_1
-        TMDb::Config::I18n::DEFAULT_MAPPING.keys
+        TMDb::Web::Translations::DEFAULT_MAPPING.keys
       end
 
       def self.supported_iso_639_1_path
-        @supported_iso_639_1_path ||= TMDb::Config::I18n.supported_iso_639_1.map { |iso| "/#{iso}" }.freeze
+        @supported_iso_639_1_path ||= TMDb::Web::Translations.supported_iso_639_1.map { |iso| "/#{iso}" }.freeze
       end
 
       def self.transliteration_path

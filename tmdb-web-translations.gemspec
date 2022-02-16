@@ -4,7 +4,7 @@ require_relative "lib/tmdb/web/translations/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "tmdb-web-translations"
-  spec.version       = TMDb::Config::I18n::VERSION
+  spec.version       = TMDb::Web::Translations::VERSION
   spec.authors       = ["Travis Bell"]
   spec.email         = ["travis@themoviedb.org"]
 
@@ -20,5 +20,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency('dotenv')
   spec.add_dependency('i18n')
+  spec.add_dependency('localeapp')
 end
