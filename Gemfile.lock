@@ -1,6 +1,7 @@
 GIT
   remote: git@github.com:tivocorp/tmdb-shared.git
-  revision: c838df8b664116fec16580ac8c0747004dc9f533
+  revision: bd05a4fed11314bb7ce44f9a5b014dda7d9a2f9a
+  branch: prod
   specs:
     shared (1.0)
       activemodel (~> 6)
@@ -17,6 +18,7 @@ GIT
       email_validator
       escape_utils
       faraday
+      faraday-follow_redirects
       faraday-net_http
       faraday-retry
       htmlentities
@@ -68,9 +70,9 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
-    async (2.0.0)
+    async (1.30.1)
       console (~> 1.10)
-      io-event (~> 1.0.0)
+      nio4r (~> 2.3)
       timers (~> 4.1)
     async-http (0.56.5)
       async (>= 1.25)
@@ -87,21 +89,21 @@ GEM
     async-pool (0.3.9)
       async (>= 1.25)
     aws-eventstream (1.2.0)
-    aws-partitions (1.554.0)
-    aws-sdk-core (3.126.1)
+    aws-partitions (1.563.0)
+    aws-sdk-core (3.127.0)
       aws-eventstream (~> 1, >= 1.0.2)
       aws-partitions (~> 1, >= 1.525.0)
       aws-sigv4 (~> 1.1)
       jmespath (~> 1.0)
-    aws-sdk-kms (1.54.0)
-      aws-sdk-core (~> 3, >= 3.126.0)
+    aws-sdk-kms (1.55.0)
+      aws-sdk-core (~> 3, >= 3.127.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.112.0)
-      aws-sdk-core (~> 3, >= 3.126.0)
+    aws-sdk-s3 (1.113.0)
+      aws-sdk-core (~> 3, >= 3.127.0)
       aws-sdk-kms (~> 1)
       aws-sigv4 (~> 1.4)
-    aws-sdk-ses (1.46.0)
-      aws-sdk-core (~> 3, >= 3.126.0)
+    aws-sdk-ses (1.47.0)
+      aws-sdk-core (~> 3, >= 3.127.0)
       aws-sigv4 (~> 1.1)
     aws-sigv4 (1.4.0)
       aws-eventstream (~> 1, >= 1.0.2)
@@ -130,6 +132,8 @@ GEM
     faraday (2.2.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
+    faraday-follow_redirects (0.1.0)
+      faraday (>= 2, < 3)
     faraday-net_http (2.0.1)
     faraday-retry (1.0.3)
     fiber-local (1.0.0)
@@ -141,7 +145,6 @@ GEM
     httpclient (2.8.3)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
-    io-event (1.0.2)
     io-wait (0.2.1)
     jmespath (1.6.0)
     json (2.6.1)
@@ -152,7 +155,7 @@ GEM
       mongoid
     leaderboard (3.12.1)
       redis
-    localeapp (3.2.0)
+    localeapp (3.3.0)
       gli
       i18n (>= 0.7, < 2)
       json (>= 1.7.7)
@@ -168,12 +171,12 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
     mini_mime (1.1.2)
-    mini_portile2 (2.7.1)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
     mongo (2.17.0)
       bson (>= 4.8.2, < 5.0.0)
-    mongoid (7.3.3)
-      activemodel (>= 5.1, < 6.2)
+    mongoid (7.3.4)
+      activemodel (>= 5.1, < 7.1, != 7.0.0)
       mongo (>= 2.10.5, < 3.0.0)
       ruby2_keywords (~> 0.0.5)
     msgpack (1.4.5)
@@ -186,12 +189,13 @@ GEM
       net-protocol
       timeout
     netrc (0.11.0)
-    nokogiri (1.13.1)
-      mini_portile2 (~> 2.7.0)
+    nio4r (2.5.8)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     oj (3.13.11)
     parallel (1.21.0)
-    parser (3.1.0.0)
+    parser (3.1.1.0)
       ast (~> 2.4.1)
     protocol-hpack (1.4.2)
     protocol-http (0.22.5)
@@ -231,8 +235,8 @@ GEM
       rubocop-ast (>= 1.15.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.15.2)
-      parser (>= 3.0.1.1)
+    rubocop-ast (1.16.0)
+      parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
