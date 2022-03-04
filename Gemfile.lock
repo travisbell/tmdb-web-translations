@@ -1,53 +1,3 @@
-GIT
-  remote: git@github.com:tivocorp/tmdb-shared.git
-  revision: bd05a4fed11314bb7ce44f9a5b014dda7d9a2f9a
-  branch: prod
-  specs:
-    shared (1.0)
-      activemodel (~> 6)
-      activesupport (~> 6)
-      addressable
-      async
-      async-http-faraday
-      aws-sdk-s3 (~> 1)
-      aws-sdk-ses (~> 1)
-      brotli
-      browser
-      bson
-      elasticsearch (~> 1)
-      email_validator
-      escape_utils
-      faraday
-      faraday-follow_redirects
-      faraday-net_http
-      faraday-retry
-      htmlentities
-      i18n
-      jwt (~> 2)
-      kaminari-mongoid
-      leaderboard
-      loofah
-      mail
-      matrix
-      memo_wise
-      mini_mime
-      mongo
-      mongoid
-      msgpack
-      net-smtp
-      oj
-      pusher
-      radix
-      rakismet
-      recurrence
-      redis
-      rubyzip
-      snappy
-      tilt
-      tzinfo
-      tzinfo-data
-      zstd-ruby
-
 PATH
   remote: .
   specs:
@@ -59,166 +9,32 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (6.1.4.6)
-      activesupport (= 6.1.4.6)
-    activesupport (6.1.4.6)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 1.6, < 2)
-      minitest (>= 5.1)
-      tzinfo (~> 2.0)
-      zeitwerk (~> 2.3)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
-    async (1.30.1)
-      console (~> 1.10)
-      nio4r (~> 2.3)
-      timers (~> 4.1)
-    async-http (0.56.5)
-      async (>= 1.25)
-      async-io (>= 1.28)
-      async-pool (>= 0.2)
-      protocol-http (~> 0.22.0)
-      protocol-http1 (~> 0.14.0)
-      protocol-http2 (~> 0.14.0)
-    async-http-faraday (0.11.0)
-      async-http (~> 0.42)
-      faraday
-    async-io (1.32.2)
-      async
-    async-pool (0.3.9)
-      async (>= 1.25)
-    aws-eventstream (1.2.0)
-    aws-partitions (1.563.0)
-    aws-sdk-core (3.127.0)
-      aws-eventstream (~> 1, >= 1.0.2)
-      aws-partitions (~> 1, >= 1.525.0)
-      aws-sigv4 (~> 1.1)
-      jmespath (~> 1.0)
-    aws-sdk-kms (1.55.0)
-      aws-sdk-core (~> 3, >= 3.127.0)
-      aws-sigv4 (~> 1.1)
-    aws-sdk-s3 (1.113.0)
-      aws-sdk-core (~> 3, >= 3.127.0)
-      aws-sdk-kms (~> 1)
-      aws-sigv4 (~> 1.4)
-    aws-sdk-ses (1.47.0)
-      aws-sdk-core (~> 3, >= 3.127.0)
-      aws-sigv4 (~> 1.1)
-    aws-sigv4 (1.4.0)
-      aws-eventstream (~> 1, >= 1.0.2)
-    brotli (0.4.0)
-    browser (5.3.1)
-    bson (4.14.1)
     concurrent-ruby (1.1.9)
-    console (1.14.0)
-      fiber-local
-    crass (1.0.6)
-    digest (3.1.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.7.6)
-    elasticsearch (1.1.3)
-      elasticsearch-api (= 1.1.3)
-      elasticsearch-transport (= 1.1.3)
-    elasticsearch-api (1.1.3)
-      multi_json
-    elasticsearch-transport (1.1.3)
-      faraday
-      multi_json
-    email_validator (2.2.3)
-      activemodel
-    escape_utils (1.2.1)
-    faraday (2.2.0)
-      faraday-net_http (~> 2.0)
-      ruby2_keywords (>= 0.0.4)
-    faraday-follow_redirects (0.1.0)
-      faraday (>= 2, < 3)
-    faraday-net_http (2.0.1)
-    faraday-retry (1.0.3)
-    fiber-local (1.0.0)
     gli (2.21.0)
-    htmlentities (4.3.4)
     http-accept (1.7.0)
     http-cookie (1.0.4)
       domain_name (~> 0.5)
-    httpclient (2.8.3)
     i18n (1.10.0)
       concurrent-ruby (~> 1.0)
-    io-wait (0.2.1)
-    jmespath (1.6.0)
     json (2.6.1)
-    jwt (2.3.0)
-    kaminari-core (1.2.2)
-    kaminari-mongoid (1.0.2)
-      kaminari-core (~> 1.0)
-      mongoid
-    leaderboard (3.12.1)
-      redis
     localeapp (3.3.0)
       gli
       i18n (>= 0.7, < 2)
       json (>= 1.7.7)
       rest-client (>= 1.8.0)
-    loofah (2.14.0)
-      crass (~> 1.0.2)
-      nokogiri (>= 1.5.9)
-    mail (2.7.1)
-      mini_mime (>= 0.1.1)
-    matrix (0.4.2)
-    memo_wise (1.6.0)
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
-    minitest (5.15.0)
-    mongo (2.17.0)
-      bson (>= 4.8.2, < 5.0.0)
-    mongoid (7.3.4)
-      activemodel (>= 5.1, < 7.1, != 7.0.0)
-      mongo (>= 2.10.5, < 3.0.0)
-      ruby2_keywords (~> 0.0.5)
-    msgpack (1.4.5)
-    multi_json (1.15.0)
-    net-protocol (0.1.2)
-      io-wait
-      timeout
-    net-smtp (0.3.1)
-      digest
-      net-protocol
-      timeout
     netrc (0.11.0)
-    nio4r (2.5.8)
-    nokogiri (1.13.3)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
-    oj (3.13.11)
     parallel (1.21.0)
     parser (3.1.1.0)
       ast (~> 2.4.1)
-    protocol-hpack (1.4.2)
-    protocol-http (0.22.5)
-    protocol-http1 (0.14.2)
-      protocol-http (~> 0.22)
-    protocol-http2 (0.14.2)
-      protocol-hpack (~> 1.4)
-      protocol-http (~> 0.18)
-    public_suffix (4.0.6)
-    pusher (2.0.2)
-      httpclient (~> 2.8)
-      multi_json (~> 1.15)
-      pusher-signature (~> 0.1.8)
-    pusher-signature (0.1.8)
-    racc (1.6.0)
-    radix (2.2.1)
     rainbow (3.1.1)
     rake (13.0.6)
-    rakismet (1.5.4)
-    recurrence (1.3.0)
-      activesupport
-      i18n
-    redis (4.6.0)
     regexp_parser (2.2.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -238,22 +54,10 @@ GEM
     rubocop-ast (1.16.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
-    ruby2_keywords (0.0.5)
-    rubyzip (2.3.2)
-    snappy (0.2.0)
-    tilt (2.0.10)
-    timeout (0.2.0)
-    timers (4.3.3)
-    tzinfo (2.0.4)
-      concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2021.5)
-      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8)
     unicode-display_width (2.1.0)
-    zeitwerk (2.5.4)
-    zstd-ruby (1.5.1.1)
 
 PLATFORMS
   ruby
@@ -261,7 +65,6 @@ PLATFORMS
 DEPENDENCIES
   rake (~> 13.0)
   rubocop (~> 1.7)
-  shared!
   tmdb-web-translations!
 
 BUNDLED WITH
