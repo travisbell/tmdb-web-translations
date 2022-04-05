@@ -1,13 +1,5 @@
 # tmdb-web-translations
 
----
+You can contriute our translations on TMDB, by visiting our Localeapp project [here](https://app.localeapp.com/projects/8267).
 
-A ruby translation project managed on [Locale](http://www.localeapp.com/) that's open to all!
-
-## Contributing to tmdb-web-translations
-
-- Edit the translations directly on the [tmdb-web-translations](http://www.localeapp.com/projects/public?search=tmdb-web-translations) project on Locale.
-- **That's it!**
-- The maintainer will then pull translations from the Locale project and push to Github.
-
-Happy translating!
+If you have any questions about how this works, feel free to stop by [the forums](https://www.themoviedb.org/talk).
