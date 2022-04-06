@@ -3407,22 +3407,22 @@ zh-SG:
   number:
     currency:
       format:
-        delimiter:
-        format:
-        precision:
-        separator:
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
         significant:
         strip_insignificant_zeros:
-        unit:
+        unit: S$
     format:
-      delimiter:
-      precision:
-      separator:
+      delimiter: ","
+      precision: 3
+      separator: "."
       significant:
       strip_insignificant_zeros:
     human:
       decimal_units:
-        format:
+        format: "%n %u"
         units:
           billion:
           million:
@@ -3430,7 +3430,7 @@ zh-SG:
           thousand:
           trillion:
       format:
-        precision:
+        precision: 3
         significant:
         strip_insignificant_zeros:
       short_decimal_units:
@@ -3444,7 +3444,7 @@ zh-SG:
     percentage:
       format:
         delimiter:
-        format:
+        format: "%n%"
     precision:
       format:
         delimiter:
