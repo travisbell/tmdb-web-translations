@@ -150,8 +150,12 @@ module TMDb
         return ['en-US', 'en', 'US'] if (string.nil? || string == '')
 
         begin
-          split_string = string.split('-')
-          [string, split_string[0], split_string[1]]
+          language, region = string.split('-')
+          if (region = region&.upcase)
+            ["#{language}-#{region}", language, region]
+          else
+            ["#{language}-#{language.upcase}", language, language.upcase]
+          end
         rescue
           ['en-US', 'en', 'US']
         end
