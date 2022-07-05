@@ -80,6 +80,19 @@ module TMDb
         'en-NZ'
       ].freeze
 
+      # This list is based on LANGUAGE_CODES, it contains all assigned ISO-369-1
+      # codes, some deprecated codes and the unused xx code as "no-value".
+      # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+      LANGUAGE_CODES = %w[
+        aa ab ae af ak am an ar as av ay az ba be bg bi bm bn bo br bs ca ce ch cn co cr cs cu
+        cv cy da de dv dz ee el en eo es et eu fa ff fi fj fo fr fy ga gd gl gn gu gv ha he hi
+        ho hr ht hu hy hz ia id ie ig ii ik io is it iu ja jv ka kg ki kj kk kl km kn ko kr ks
+        ku kv kw ky la lb lg li ln lo lt lu lv mg mh mi mk ml mn mo mr ms mt my na nb nd ne ng
+        nl nn no nr nv ny oc oj om or os pa pi pl ps pt qu rm rn ro ru rw sa sc sd se sg sh si
+        sk sl sm sn so sq sr ss st su sv sw ta te tg th ti tk tl tn to tr ts tt tw ty ug uk ur
+        uz ve vi vo wa wo xh xx yi yo za zh zu
+      ].freeze
+
       def self.country_path
         File.dirname(__FILE__) + "/../../../../countries"
       end
@@ -123,7 +136,7 @@ module TMDb
       end
 
       def self.default_language_i18n
-        @default_language_i18n ||= Language.distinct(:iso_639_1).each_with_object({}) { |iso_639_1, hash|
+        @default_language_i18n ||= LANGUAGE_CODES.each_with_object({}) { |iso_639_1, hash|
           hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
         }.merge!(TMDb::Web::Translations::DEFAULT_MAPPING).freeze
       end
@@ -133,7 +146,7 @@ module TMDb
       end
 
       def self.language_list
-        @language_list ||= (Language.distinct(:iso_639_1) - TMDb::Web::Translations.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
+        @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
           hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
         end.merge!(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h.freeze
       end
