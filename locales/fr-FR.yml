@@ -466,10 +466,10 @@ fr-FR:
   Translate Movie: Traduire le film
   Translate Person: Traduire la personne
   Translate TV Series: Traduire la série télévisée
-  Translated Name: Traduction officielle du nom (laisser le champ vide s’il est identique à l’original)
-  Translated Overview: Traduction du synopsis en
-  Translated Tagline: Traduction du slogan en
-  Translated Title: Traduction officielle du titre (laisser le champ vide s’il est identique à l’original)
+  Translated Name: Traduction officielle du nom (laisser le champ vide s’il est identique à l’original) en
+  Translated Overview: Traduction ou rédaction du synopsis (consignes dans le ?) en
+  Translated Tagline: Traduction ou rédaction du slogan (avec ponctuation finale) en
+  Translated Title: Traduction officielle du titre (laisser le champ vide s’il est identique à l’original) en
   Translations: Traductions
   Type: Type
   Type of Problem: Type de problème
@@ -674,6 +674,7 @@ fr-FR:
       my_recommendations: Mes recommandations
       no_recommendations: Nous n'avons pas de données suffisantes pour vous faire des recommandations.
       no_recommendations_helper: Ajoutez des films et émissions télévisées à vos favoris (plus il y en aura, mieux ce sera) et revenez voir ce que l'on vous propose.
+      no_recommendations_helper_2:
       page_title: Recommandations
     sort_options:
       asc: Croissante
@@ -1493,7 +1494,6 @@ fr-FR:
     session_over_so_redirect: La session a expiré. Cliquer sur OK vous redirigera vers la page du personnage.
     session_timeout: La limite de la durée de la session a été atteinte.
     session_timeout_continue: Votre session va s'achever sous peu. Voulez-vous vraiment poursuivre votre session ?
-    sign_up_text: 'L''inscription vous offrira également la possibilité de maintenir des listes personnelles, de répertorier les contenus que vous avez regardés et de rechercher par filtrage ce que vous pourriez ensuite regarder. Tout ceci indépendamment du mode de disponibilité : au cinéma, à la télévision ou en streaming sur les services par abonnement les plus populaires tels que Netflix, Amazon Prime Videos et Crave.'
     star: Vedette
     submit: Soumettre
     submit_and_preview: Prévisualiser et soumettre
@@ -3123,7 +3123,7 @@ fr-FR:
         homepage: Page d'accueil du site officiel uniquement. Les pages de fans ne sont pas autorisées.
         logo_format: Les formats SVG et PNG sont supportés. Les fichiers SVG sont préférés car ils sont indépendants de la résolution.
         original_title: Le nom d'origine de l'émission télévisée ou le titre d'origine du film doit être saisi dans la langue d'origine de l'élément. Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ « Langue d'origine ».
-        overview: Lorsque vous écrivez un synopsis, soyez brefs, concis et évitez de dévoiler l'intrigue.
+        overview: Lorsque vous traduisez ou rédigez un synopsis, visez la brièveté, la concision et évitez de dévoiler l'intrigue. Merci de bien vouloir respecter les guillements français. N'utilisez pas "texte", mais copiez/collez ce « texte » qui contient les bons <a href="https://fr.wikipedia.org/wiki/Espace_ins%C3%A9cable">espaces insécables</a>.
         social_links: Les liens vers les réseaux sociaux doivent être uniquement ceux des pages officielles (vérifiées). Les pages de fans ne sont pas autorisées.
       unlock_all_appearances: En cliquant sur « oui », vous déverrouillerez tous les enregistrements existants.
     external_links:
@@ -3470,7 +3470,7 @@ fr-FR:
       upcoming: À venir
     people:
       people: Artistes
-      popular_people: Les plus consultés
+      popular_people: Populaires
     tv_shows:
       airing_today: Diffusées aujourd'hui
       on_the_air: À l'antenne

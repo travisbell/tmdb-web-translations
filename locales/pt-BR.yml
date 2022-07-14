@@ -678,6 +678,7 @@ pt-BR:
       my_recommendations: Minhas recomendações
       no_recommendations: Ainda não temos informação suficiente para fazer recomendações.
       no_recommendations_helper: Tente adicionar mais alguns itens aos favoritos (quanto mais, melhor) e volte para conferir como nos saímos.
+      no_recommendations_helper_2:
       page_title: Recomendações
     sort_options:
       asc: Crescente
@@ -1403,7 +1404,7 @@ pt-BR:
     edit_mode: Você está no modo de edição
     edit_translate: Editando e traduzir
     edit_translating: Editando e traduzir
-    editing_character_name_uv:
+    editing_character_name_uv: "<h3>Ei <strong>%{user}</strong>! </h3>Observei que você está criando um personagem com um nome sugerido. Você quer continuar?"
     enter: Entrar
     enter_character_name: Insira o nome do personagem
     enter_character_synopsis: Insira a sinopse do personagem
@@ -1420,23 +1421,23 @@ pt-BR:
     found_everything: Encontrou tudo?
     frequent_translations: Traduções Frequentes
     group_name: Nome do Grupo
-    group_name_already_exists:
-    group_name_required:
+    group_name_already_exists: Já existe um grupo com o conjunto de itens. Deseja criar um grupo.
+    group_name_required: O nome do grupo é obrigatório
     groups_minimum_appearance_msg:
-    groups_not_present:
+    groups_not_present: Grupos não estão presentes para o personagem.
     headshot:
     headshot_window_title:
     help_our_mods: Ajude nossos moderadores
     help_our_mods_info: Conte-nos sobre o personagem! Este é um campo privado entre você e a equipe de moderação. Qualquer informação que você fornecer sobre o personagem e por que o está criando irá ajudá-lo a revisar sua página.
     icon: Ícone
-    image_change_1:
+    image_change_1: Esta imagem está associada a um registro de mídia do grupo selecionado. Se você continuar, as associações de pessoas da mídia vinculada também serão alteradas!
     image_media_association:
     in_translate_mode:
     inline_edit_original_name:
     join_community_tmdb:
     launch_label: lançar
     lock_existing_appearances:
-    log_tv_movies_watch:
+    log_tv_movies_watch: Registre a TV e os filmes que você assiste
     master_group_limit_error: Desculpe, você atingiu o limite máximo de grupos com suporte.
     media: Mídia
     media_association: Esta mídia está associada a um registro de imagem do grupo selecionado. Se você continuar, as associações de pessoas da imagem vinculada também serão alteradas!
@@ -1460,7 +1461,7 @@ pt-BR:
     next_review_page: 'Próximo: revisar página'
     no_appearance_text: Nenhum grupo encontrado!
     no_appearance_text_1:
-    no_appearance_text_2:
+    no_appearance_text_2: Nenhum grupo encontrado! Por favor, <a href="/character/%{page_url}/edit/">Clique aqui </a>para adicionar um novo grupo!
     no_backdrop_in_group: Parece que nenhum dos grupos está tendo novos cenários de personagens adicionados!
     no_cast_credits: Nenhum crédito de elenco encontrado, por favor, tente outra mídia!
     no_records_found: Nenhum registro encontrado, tente outra mídia!
@@ -1484,8 +1485,8 @@ pt-BR:
     proceed: Prosseguir
     push_test_v1:
     ready_to_launch: Isso é tudo. Pronto para lançar?
-    record_exists_in_group:
-    refresh_list:
+    record_exists_in_group: O registro já existe no grupo.
+    refresh_list: Ocorreu um problema ao atualizar a lista.
     register: Registre-se
     result: Resultados
     results_info_text: Selecione o retrato do personagem que você gostaria de adicionar.
@@ -1515,7 +1516,6 @@ pt-BR:
     session_over_so_redirect: Sessão expirou. Clique em OK para redirecionar para a página do personagem.
     session_timeout: Tempo limite da sessão atingido
     session_timeout_continue: Sua sessão está prestes a terminar. Você gostaria de continuar a sessão?
-    sign_up_text:
     star: Estrela
     submit: 'Enviar '
     submit_and_preview: Enviar e visualizar
@@ -1598,10 +1598,10 @@ pt-BR:
       tv: sre
     collection:
       collection: Coletâneas
-      collection_bible: Bíblia das Coletâneas
+      collection_bible: Bíblia da Coleção
       tall_bible:
         bottom: Coletâneas
-        top: Bíblia das
+        top: Coleção
     contribution_bible: Bíblia do Colaborador
     featured_articles: Artigos em Destaque
     general:
@@ -1625,16 +1625,16 @@ pt-BR:
       people_bible: Bíblia das Pessoas
       tall_bible:
         bottom: Pessoas
-        top: Bíblia das
+        top: Pessoas
     pro_tip: Dica
     search:
       placeholder_1: Precisa de ajuda com algo?
     tv:
       tall_bible:
         bottom: Bíblia
-        top: Bíblia das
+        top: TV
       tv: TV
-      tv_bible: Bíblia das Séries
+      tv_bible: Bíblia da TV
     welcome_1: Boas-vindas à
     welcome_2: Bíblia do Colaborador
   contribution_type:
