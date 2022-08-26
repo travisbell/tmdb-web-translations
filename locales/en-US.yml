@@ -1917,16 +1917,16 @@ en-US:
         label: Attachments
       copyright:
         label: I have a good faith belief that the copyright holder, its agent, or the law do not authorize the use of the material in the manner I have complained of.
-      description:
-        error: Elaborate more about the problem
-        label: Description
-        note: Please describe the problem that you are experiencing with as much detail as possible.
       e_signature:
         label: Electronic signature
       email:
         error: is not properly formatted
         label: Your email address
       error: Cannot be blank
+      error_checkbox: Must be checked
+      extra_details:
+        label: Extra details
+        note: Please describe the problem that you are experiencing with as much detail as possible.
       full_name:
         label: Full name
       infringed_material:
@@ -1944,25 +1944,9 @@ en-US:
         label: Your primary telephone number
       release:
         label: I acknowledge that TMDB reserves the right to release, in accordance with the Digital Millennium Copyright Act and the company’s discretion, this takedown notice, with appropriate redactions to private information.
-      request_category:
-        label: Please choose the category that best fits your issue
-        option1: I need an IP check on another user
-        option2: I have found a bug
-        option3: I have found a security issue
-        option4: I have an issue with an ad
-        option5: Avast or AVG has said that a wiki is unsafe
-        option6: I have a copyright or trademark issue(DMCA)
-        option7: I don't see any option for my issue
       request_type:
+        default: DMCA takedown request
         label: What can we help you with?
-        option1: I need help with my account
-        option2: I would like to make changes to a wiki
-        option3: I'm reporting a problem on TMDB
-        option4: Protecting yourself on TMDB
-        option5: I don't see any option for my issue
-      subject:
-        label: Subject
-        note: Keep it specific and short!
       success: Thank you for submitting DMCA request!
       title: Submit a request
       username:
