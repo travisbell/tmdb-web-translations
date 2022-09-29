@@ -15,7 +15,7 @@ ka-GE:
   API Terms of Use: API გამოყენების პირობები
   API Updates: API განახლებები
   About: შესახებ
-  About TMDb: TMDB-ს შესახებ
+  About TMDb: TMDB-ის შესახებ
   About this list: ამ სიის შესახებ
   Accept: მიღება
   Accept API Terms: API-ს პირობების მიღება
@@ -379,7 +379,7 @@ ka-GE:
   Revenue: შემოსავალი
   Runtime: ხანგრძლივობა
   Save: შენახვა
-  Search:
+  Search: ძებნა
   Search for a company:
   Search for a country:
   Search for a genre:
@@ -430,7 +430,7 @@ ka-GE:
   Submit:
   Success: წარმატება
   Summary:
-  Support:
+  Support: მხარდაჭერა
   Support Forums:
   System Status:
   TV:
@@ -532,7 +532,7 @@ ka-GE:
         all: ყველა
         movies: ფილმები
         others: სხვა
-        people: მსახიობები
+        people: ადამიანები
         tv: სატელევიზიო
       page_title:
         page_owner: ჩემი ბოლო აქტივობა
@@ -697,6 +697,17 @@ ka-GE:
       this_month: ეს თვე
       this_week: ეს კვირა
       view_them: იხილეთ ისინი.
+  activerecord:
+    errors:
+      models:
+        release:
+          attributes:
+            iso_3166_1:
+              blank:
+              invalid:
+            iso_639_1:
+              blank:
+              invalid:
   add_to_list: დაამატეთ %{media_title} თქვენს ერთერთ სიაში...
   already_translated_in: "%{page_title} უკვე ნათარგმნია მომდევნო ენებზე,,,"
   api_session:
@@ -1624,13 +1635,13 @@ ka-GE:
   create_api: შექმენით API
   date:
     abbr_day_names:
+    - კვ
     - ორშ
     - სამშ
     - ოთხშ
     - ხუთშ
     - პარ
     - შაბ
-    - კვ
     abbr_month_names:
     -
     - იან
@@ -1883,7 +1894,7 @@ ka-GE:
       unhide:
     report_violation:
     search:
-      advanced_search:
+      advanced_search: გაფართოებული ძებნა
       search_closed:
       search_forums:
       search_open:

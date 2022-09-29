@@ -697,6 +697,17 @@ fi-FI:
       this_month: Tässä kuussa
       this_week: Tällä viikolla
       view_them: Näytä ne.
+  activerecord:
+    errors:
+      models:
+        release:
+          attributes:
+            iso_3166_1:
+              blank:
+              invalid:
+            iso_639_1:
+              blank:
+              invalid:
   add_to_list: Lisää %{media_title} listallesi...
   already_translated_in: "%{page_title} on jo käännetty seuraavilla kielille..."
   api_session:

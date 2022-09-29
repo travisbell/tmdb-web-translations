@@ -697,6 +697,17 @@ en-US:
       this_month: This month
       this_week: This week
       view_them: View them.
+  activerecord:
+    errors:
+      models:
+        release:
+          attributes:
+            iso_3166_1:
+              blank: Country is required
+              invalid: is not a valid country
+            iso_639_1:
+              blank: Language is required
+              invalid: is not a valid language
   add_to_list: Add %{media_title} to one of your lists...
   already_translated_in: "%{page_title} is already translated in the following languages..."
   api_session:

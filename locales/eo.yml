@@ -695,6 +695,17 @@ eo:
       this_month: Ĉi tiu monato
       this_week: Ĉi tiu semajno
       view_them:
+  activerecord:
+    errors:
+      models:
+        release:
+          attributes:
+            iso_3166_1:
+              blank:
+              invalid:
+            iso_639_1:
+              blank:
+              invalid:
   add_to_list: Aldoni %{media_title} al unu el viaj listoj...
   already_translated_in: "%{page_title} estas jam tradukita al ĉi tiuj lingvoj"
   api_session:

@@ -703,6 +703,17 @@ sr-RS:
       this_month: Овог месеца
       this_week: Ове недеље
       view_them: Погледај их
+  activerecord:
+    errors:
+      models:
+        release:
+          attributes:
+            iso_3166_1:
+              blank:
+              invalid:
+            iso_639_1:
+              blank:
+              invalid:
   add_to_list: Додај %{media_title} у једну од твојих листи...
   already_translated_in: "%{page_title} је већ преведен на следеће језике..."
   api_session:
