@@ -703,17 +703,6 @@ uk-UA:
       this_month: Цього місяця
       this_week: Цього тижня
       view_them: Оглянути їх.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Додати %{media_title} до одного з ваших списків...
   already_translated_in: "%{page_title} перекладено на наступні мови"
   api_session:
@@ -2004,6 +1993,16 @@ uk-UA:
     other: "%{count} серій"
   episode_number_name: Серія %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Неможливо опрацювати це зображення
       not_jpeg: Зображення не в форматі JPEG

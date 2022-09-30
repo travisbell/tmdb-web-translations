@@ -697,17 +697,6 @@ so-SO:
       this_month: Bishaan
       this_week: Todobaadkaan
       view_them: Daawo iyaga.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list:
   already_translated_in:
   api_session:
@@ -1922,6 +1911,16 @@ so-SO:
   episode_count:
   episode_number_name: Xalqada %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process:
       not_jpeg:

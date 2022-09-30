@@ -699,17 +699,6 @@ ro-RO:
       this_month: Luna aceasta
       this_week: Săptămâna aceasta
       view_them: Văzut.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Adăugați %{media_title} la una din listele voastre...
   already_translated_in: "%{page_title} este deja tradus în următoarele limbi..."
   api_session:
@@ -1995,6 +1984,16 @@ ro-RO:
     other: "%{count} de episoade"
   episode_number_name: Episodul %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Nu putem procesa această imagine
       not_jpeg: Această imagine nu este JPEG

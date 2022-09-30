@@ -707,17 +707,6 @@ hr-HR:
       this_month: Ovaj mjesec
       this_week: Ovaj tjedan
       view_them: Pogledajte ih.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Dodajte %{media_title} na jedan od vaših popisa...
   already_translated_in: "%{page_title} je već prevedeno na sljedećim jezicima..."
   api_session:
@@ -2008,6 +1997,16 @@ hr-HR:
     other: "%{count} epizoda"
   episode_number_name: Epizoda %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Nismo mogli obraditi ovu sliku
       not_jpeg: Slika nije JPEG

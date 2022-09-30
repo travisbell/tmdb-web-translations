@@ -699,17 +699,6 @@ da-DK:
       this_month: Denne måned
       this_week: Denne uge
       view_them: Vis dem.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Tilføj %{media_title} til en af dine lister...
   already_translated_in: "%{page_title} er allerede oversat til følgende sprog..."
   api_session:
@@ -1990,6 +1979,16 @@ da-DK:
     other: "%{count} Episoder"
   episode_number_name: Afsnit %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Vi kunne ikke processere dette billede
       not_jpeg: Dette billede er ikke en JPEG

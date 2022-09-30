@@ -697,17 +697,6 @@ ka-GE:
       this_month: ეს თვე
       this_week: ეს კვირა
       view_them: იხილეთ ისინი.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: დაამატეთ %{media_title} თქვენს ერთერთ სიაში...
   already_translated_in: "%{page_title} უკვე ნათარგმნია მომდევნო ენებზე,,,"
   api_session:
@@ -1984,6 +1973,16 @@ ka-GE:
     other: "%{count} სერია"
   episode_number_name:
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process:
       not_jpeg:

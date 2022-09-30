@@ -697,17 +697,6 @@ kk-KZ:
       this_month: Bul aıda
       this_week: Bul aptada
       view_them: Olardy qaraý.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Tizimderińizdiń bireýine %{media_title} ústeńiz...
   already_translated_in: "%{page_title} áldeqashan kelesi tilderge tárjimelengen..."
   api_session:
@@ -1963,6 +1952,16 @@ kk-KZ:
     other: "%{count} epızod"
   episode_number_name: Epızod %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process:
       not_jpeg:

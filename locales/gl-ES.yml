@@ -695,17 +695,6 @@ gl-ES:
       this_month: Este mes
       this_week: Esta semana
       view_them: Miralos.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Engadir %{media_title} a umha das túas listas…
   already_translated_in: "%{page_title} xa está traducido ás seguintes linguas…"
   api_session:
@@ -1986,6 +1975,16 @@ gl-ES:
     other: "%{count} Episodios"
   episode_number_name: Episodio %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Non pudimos procesar esta imaxe
       not_jpeg: Esta imaxe non é JPEG

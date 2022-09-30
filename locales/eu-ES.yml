@@ -697,17 +697,6 @@ eu-ES:
       this_month: Hilabete hau
       this_week: Aste hau
       view_them: Ikusi.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Gehitu %{media_title} zure zerrendetako batera...
   already_translated_in: "%{page_title} dagoeneko honako hizkuntzetara dago itzulita..."
   api_session:
@@ -1978,6 +1967,16 @@ eu-ES:
     other: "%{count} atal"
   episode_number_name: "%{episode_number}. Atala"
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Ezin izan dugu irudi hau prozesatu
       not_jpeg: Irudia ez da JPEG bat

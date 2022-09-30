@@ -699,17 +699,6 @@ cs-CZ:
       this_month: Tento měsíc
       this_week: Tento týden
       view_them: Zobrazit je.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Přidat %{media_title} do jednoho z vašich seznamů…
   already_translated_in: Stránka %{page_title} je již přeložena do následujících jazyků…
   api_session:
@@ -1999,6 +1988,16 @@ cs-CZ:
     other: "%{count} epizod"
   episode_number_name: "%{episode_number}. epizoda"
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Obrázek nemohl být zpracován
       not_jpeg: Obrázek není JPEG

@@ -687,17 +687,6 @@ bn-BD:
       this_month:
       this_week:
       view_them:
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list:
   already_translated_in: "%{page_title} ইতিমধ্যে নিম্নলিখিত ভাষাগুলিতে অনুবাদ করা হয়েছে ..."
   api_session:
@@ -1947,6 +1936,16 @@ bn-BD:
     other: "%{count} পর্ব"
   episode_number_name:
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process:
       not_jpeg:

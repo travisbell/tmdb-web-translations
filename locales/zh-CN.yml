@@ -695,17 +695,6 @@ zh-CN:
       this_month: 本月
       this_week: 本周
       view_them: 浏览待看清单。
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: 添加 %{media_title} 到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
@@ -1982,6 +1971,16 @@ zh-CN:
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: 我们无法处理此图片
       not_jpeg: 图片不是 JPEG 格式

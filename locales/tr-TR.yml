@@ -695,17 +695,6 @@ tr-TR:
       this_month: Bu Ay
       this_week: Bu Hafta
       view_them: Onları görüntüle.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: "%{media_title} yi listelerinizden birine ekleyin..."
   already_translated_in: "%{page_title} sayfası şu dillere önceden çevrilmiştir..."
   api_session:
@@ -1967,6 +1956,16 @@ tr-TR:
   episode_count: "%{count} Bölüm"
   episode_number_name: "%{episode_number}. Bölüm"
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Bu görseli işleyemiyoruz
       not_jpeg: Bu görsel JPEG biçiminde değil

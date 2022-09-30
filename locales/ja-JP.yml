@@ -697,17 +697,6 @@ ja-JP:
       this_month: 今月
       this_week: 今週
       view_them: それらを表示します。
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: "%{media_title}をあなたのリストに追加"
   already_translated_in: "%{page_title}はすでに以下の言語に翻訳されています..."
   api_session:
@@ -1971,6 +1960,16 @@ ja-JP:
   episode_count: "%{count} 話"
   episode_number_name: 第%{episode_number}話
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: この画像を処理できませんでした
       not_jpeg: この画像はJPEG形式ではありません

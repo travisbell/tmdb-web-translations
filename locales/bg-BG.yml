@@ -699,17 +699,6 @@ bg-BG:
       this_month: Този месец
       this_week: Тази седмица
       view_them: Вижте ги.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Добавяне на %{media_title} към един от списъците Ви...
   already_translated_in: "%{page_title} е преведен на следните езици..."
   api_session:
@@ -1990,6 +1979,16 @@ bg-BG:
     other: "%{count} епизода"
   episode_number_name: Епизод %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Не можахме да обработим това изображение
       not_jpeg: Изображението не е JPEG

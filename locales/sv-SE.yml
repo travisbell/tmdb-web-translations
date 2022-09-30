@@ -697,17 +697,6 @@ sv-SE:
       this_month: Denna månad
       this_week: Denna vecka
       view_them: Visa dem.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Lägg till %{media_title} till en av dina listor ...
   already_translated_in: "%{page_title} är redan översatt till följande språk ..."
   api_session:
@@ -1988,6 +1977,16 @@ sv-SE:
     other: "%{count} avsnitt"
   episode_number_name: Avsnitt %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Vi kunde inte behandla bilden
       not_jpeg: Bilden är inte en JPEG

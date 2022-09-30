@@ -709,17 +709,6 @@ pl-PL:
       this_month: W tym miesiącu
       this_week: W tym tygodniu
       view_them: Zobacz je.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Dodaj %{media_title} do jednej z Twoich list ...
   already_translated_in: Strona %{page_title} jest już przetłumaczona na następujące języki...
   api_session:
@@ -2005,6 +1994,16 @@ pl-PL:
     other: "%{count} odcinki"
   episode_number_name: Odcinek %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Nie mogliśmy przetworzyć tego obrazu
       not_jpeg: Ten obraz nie jest w formacie JPEG

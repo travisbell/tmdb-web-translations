@@ -697,17 +697,6 @@ en-US:
       this_month: This month
       this_week: This week
       view_them: View them.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank: Country is required
-              invalid: is not a valid country
-            iso_639_1:
-              blank: Language is required
-              invalid: is not a valid language
   add_to_list: Add %{media_title} to one of your lists...
   already_translated_in: "%{page_title} is already translated in the following languages..."
   api_session:
@@ -1990,6 +1979,16 @@ en-US:
     other: "%{count} Episodes"
   episode_number_name: Episode %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank: Country is required
+        invalid: is not a valid country
+      iso_639_1:
+        blank: Language is required
+        invalid: is not a valid language
+      release_date:
+        blank: Date is required
+        invalid: is not a valid date
     images:
       couldnt_process: We couldn't process this image
       not_jpeg: The image is not a JPEG

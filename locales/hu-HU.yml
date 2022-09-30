@@ -695,17 +695,6 @@ hu-HU:
       this_month: Ebben a hónapban
       this_week: Ezen a héten
       view_them: Megnézem azokat.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: "%{media_title} hozzáadása az egyik listádhoz..."
   already_translated_in: "%{page_title} rendelkezésre áll a következő nyelveken..."
   api_session:
@@ -1957,6 +1946,16 @@ hu-HU:
     other: "%{count} epizód"
   episode_number_name: "%{episode_number}. epizód"
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process:
       not_jpeg: Ez a kép nem JPEG formátumú.

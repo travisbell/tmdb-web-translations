@@ -701,17 +701,6 @@ el-GR:
       this_month: Αυτό το μήνα
       this_week: Αυτή την εβδομάδα
       view_them: Δείτε τα.
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Προσθήκη %{media_title} σε μία από τις λίστες σας...
   already_translated_in: Η σελίδα %{page_title} έχει μεταφραστεί στις ακόλουθες γλώσσες...
   api_session:
@@ -1998,6 +1987,16 @@ el-GR:
     other: "%{count} επεισόδια"
   episode_number_name: Επεισόδιο %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Δεν μπορέσαμε να επεξεργαστούμε αυτή την εικόνα
       not_jpeg: Η εικόνα δεν είναι JPEG

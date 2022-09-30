@@ -699,17 +699,6 @@ af-ZA:
       this_month: Vandeesmaand
       this_week: Vandeesweek
       view_them: Kyk dit
-  activerecord:
-    errors:
-      models:
-        release:
-          attributes:
-            iso_3166_1:
-              blank:
-              invalid:
-            iso_639_1:
-              blank:
-              invalid:
   add_to_list: Voeg %{media_title} toe tot een van u lyste…
   already_translated_in: "%{page_title} is reeds na die volgende tale vertaal…"
   api_session:
@@ -1990,6 +1979,16 @@ af-ZA:
     other: "%{count} episodes"
   episode_number_name: Episode %{episode_number}
   errors:
+    attributes:
+      iso_3166_1:
+        blank:
+        invalid:
+      iso_639_1:
+        blank:
+        invalid:
+      release_date:
+        blank:
+        invalid:
     images:
       couldnt_process: Ons kon nie die beeld verwerk nie
       not_jpeg: Die beeld is nie ’n JPEG nie
