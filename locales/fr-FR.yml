@@ -674,7 +674,7 @@ fr-FR:
       my_recommendations: Mes recommandations
       no_recommendations: Nous n'avons pas de données suffisantes pour vous faire des recommandations.
       no_recommendations_helper: Ajoutez des films et émissions télévisées à vos favoris (plus il y en aura, mieux ce sera) et revenez voir ce que l'on vous propose.
-      no_recommendations_helper_2:
+      no_recommendations_helper_2: Essayez d'évaluer quelques films et émissions de télévision supplémentaires (plus il y en a, mieux c'est), puis donnez-nous quelques heures pour voir ce que nous pouvons faire. Ces recommandations seront mises à jour au fur et à mesure que vous regarderez et évaluerez plus de contenu.
       page_title: Recommandations
     sort_options:
       asc: Croissante
@@ -1908,54 +1908,54 @@ fr-FR:
   dmca_takedown:
     form:
       about_self:
-        label:
-        option1:
-        option2:
-        option3:
+        label: Je le suis
+        option1: Le titulaire du droit d'auteur
+        option2: Le représentant légal du titulaire du droit d'auteur
+        option3: Aucune de ces réponses
       attachments:
-        add_files:
-        drop_files:
-        label:
+        add_files: Ajouter des fichiers
+        drop_files: ou déposer ici
+        label: Pièces jointes
       copyright:
-        label:
+        label: Je crois en toute bonne foi que le détenteur du droit d'auteur, son agent ou la loi n'autorise pas l'utilisation du matériel de la manière dont je me suis plaint.
       e_signature:
-        label:
+        label: Signature électronique
       email:
-        error:
-        label:
-      error:
-      error_checkbox:
+        error: n'est pas correctement formaté
+        label: Votre adresse mail
+      error: Ne peut être vide
+      error_checkbox: Doit être cochée
       extra_details:
-        label:
-        note:
+        label: Détails supplémentaires
+        note: Veuillez décrire le problème que vous rencontrez avec le plus de détails possible.
       full_name:
-        label:
+        label: Nom entier
       infringed_material:
-        label:
+        label: Lien(s) vers le matériel d'origine qui aurait été enfreint (un par ligne)
       mail_address:
-        label:
+        label: Votre adresse postale complète
       optional:
-        label:
+        label: Optionnel
       original_material:
-        label:
+        label: Lien(s) vers le matériel prétendument en infraction sur TMDB (un par ligne)
       perjury:
-        label:
+        label: Je jure, sous peine de parjure, que les informations contenues dans cet avis sont exactes et que je suis le titulaire du droit d'auteur ou un représentant autorisé du titulaire du droit d'auteur.
       primary_telephone:
-        error:
-        label:
+        error: n'est pas valide
+        label: Votre numéro de téléphone principal
       release:
-        label:
+        label: Je reconnais que TMDB se réserve le droit de publier, conformément au Digital Millennium Copyright Act et à la discrétion de l'entreprise, cet avis de retrait, avec les expurgations appropriées des informations privées.
       request_type:
-        default:
-        label:
-      success:
-      title:
+        default: Demande de retrait DMCA
+        label: En quoi pouvons-nous vous aider?
+      success: Merci d'avoir soumis une demande DMCA !
+      title: Soumettre une demande
       username:
-        label:
-        note:
+        label: Votre nom d'utilisateur
+        note: Gardez à l'esprit que les noms d'utilisateur sont sensibles à la casse
     report:
-      error:
-      submit:
+      error: Un problème est survenu lors de la création de votre rapport. Réessayer ?
+      submit: Soumettez une demande de retrait DMCA.
   dont_fallback: Aucun·e (ne pas se retirer)
   duplicate_character_name: Le nom du personnage existe déjà. Veuillez réessayer avec un autre nom.
   edit_list:
@@ -1981,11 +1981,11 @@ fr-FR:
   errors:
     attributes:
       iso_3166_1:
-        invalid:
+        invalid: n'est pas un pays valide
       iso_639_1:
-        invalid:
+        invalid: n'est pas une langue valide
       release_date:
-        invalid:
+        invalid: n'est pas une date valide
     images:
       couldnt_process: Nous n'avons pas pu traiter cette image / photo.
       not_jpeg: Cette image / photo n'est pas au format JPEG.
@@ -3153,6 +3153,9 @@ fr-FR:
       movie_page_title: Films réalisés par %{name}
       tv_page_title: Émissions télévisées réalisées par %{name}
     edit:
+      alternative_title:
+        lock_existing:
+        locked:
       cast_updated: Distribution des rôles mise à jour
       delete_all_appearances: Supprime toutes les apparences
       genres_updated: Genres mis à jour !
@@ -3311,7 +3314,7 @@ fr-FR:
       cast_crew: Distribution des rôles et équipe technique
       changes: Modifications
       characters: Personnages
-      episodes:
+      episodes: Épisodes
       fandom: Domaine des fans
       headshots: Photos de profil
       logos: Logos
@@ -3322,7 +3325,7 @@ fr-FR:
       profiles: Photos de profil
       release_dates: Dates de sortie
       reviews: Critiques
-      seasons:
+      seasons: Saisons
       translations: Traductions
       videos: Vidéos
     social_panel:
@@ -4026,7 +4029,7 @@ fr-FR:
     official_channel: Chaîne officielle
     page_title: Chaîne vidéo de %{name}
     popular: Populaire
-    refresh_from_youtube:
+    refresh_from_youtube: Rafraîchir depuis YouTube
     types:
       Behind the Scenes: Dans les coulisses
       Blooper: Bêtisier (Blooper)
