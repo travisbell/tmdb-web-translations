@@ -165,6 +165,7 @@ pt-PT:
   Email Address: Endereço de E-mail
   Email Content: Enviar Conteúdo por E-mail
   Embed:
+  Enable Keyboard Shortcut?:
   Episode Images:
     one: Imagem do Episódio
     other: Imagens do Episódio
@@ -216,7 +217,7 @@ pt-PT:
   Hi: Olá,
   Hide favorites?: Ocultar favoritos?
   Hide items on watchlist?: Ocultar itens na Lista de Interesses?
-  Hide rated?: Ocultar os que foram Classificados?
+  Hide rated?: Ocultar os que classificou?
   Home: Início
   Homepage: Página Oficial
   IMDB ID: ID do IMDb
@@ -466,7 +467,7 @@ pt-PT:
   Translate Movie: Traduzir Filme
   Translate Person: Traduzir Pessoa
   Translate TV Series: Traduzir Séries
-  Translated Name: Título (Deixar campo vazio se igual ao original)
+  Translated Name: Título (Deixar campo vazio se igual ao original. Exceto nos títulos de episódios)
   Translated Overview: Sinopse
   Translated Tagline: Slogan (Apenas o Oficial de cada País - Cartaz, DVD... e não traduções. Deixar campo vazio se não existir em ->)
   Translated Title: Título (Deixar campo vazio se igual ao original)
@@ -506,7 +507,7 @@ pt-PT:
   Year: Ano
   'Yes': Sim
   Your lists: As suas listas
-  Your rating: Classificar
+  Your rating: A minha Classificação
   Zip Code: Código Postal
   account_drop_down:
     discussions: Discussões
@@ -1878,7 +1879,7 @@ pt-PT:
         mark_as_spam: Tem a certeza de que deseja marcar esta discussão como spam? Ela será excluída automaticamente e não poderá ser restaurada. Marcar discussões como spam ajuda-nos a treinar o serviço de detecção de spam que usamos.
         report_violation: Por favor, confirme que deseja denunciar este utilizador por violação das nossas <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Regras da Comunidade</a>.
         unhide_discussion: Clicando em "Sim", a discussão será novamente visível.
-      posted_by_with_datetime: postado por %{username} em %{date} às %{time}
+      posted_by_with_datetime: publicado por %{username} em %{date} às %{time}
       quote: Citar
       reopen_reply: Reabrir & Responder
       reply: Responder
@@ -1943,7 +1944,7 @@ pt-PT:
         error:
         label:
       release:
-        label: Reconheço que o TMDB se reserva o direito de publicar, de acordo com a Digital Millennium Copyright Act e a discrição da empresa, este aviso de destituição, com redações adequadas de informações privadas.
+        label: Reconheço que o TMDB reserva o direito de publicar, de acordo com a Digital Millennium Copyright Act e a discrição da empresa, este aviso de destituição, com redações adequadas de informações privadas.
       request_type:
         default:
         label:
@@ -3074,6 +3075,7 @@ pt-PT:
       toggle_close:
       toggle_private:
       toggle_watching:
+    enable:
     groups:
       discussion_pages: Em Páginas de Discussão
       edit_pages: Em Todas as Páginas de Edição
@@ -3083,6 +3085,7 @@ pt-PT:
       tv_episode_pages: Em Páginas de Episódios de Séries
       tv_season_pages: Em Páginas de Temporadas de Séries
     keyboard_shortcuts: Atalhos de Teclado
+    login_to_change_preferences:
     view_keyboard_shorcuts: Ver Atalhos de Teclado
     view_shortcuts: Ver Atalhos
   list_info:
@@ -3295,7 +3298,7 @@ pt-PT:
         tv_shows: Séries
       years_old:
     rating:
-      rated_with_rating: Classificado em %{value}
+      rated_with_rating: Classificou com %{value} estrelas.
       rating_count:
         one: "%{count} Classificação"
         other: "%{count} Classificações"
