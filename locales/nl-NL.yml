@@ -466,7 +466,7 @@ nl-NL:
   Translated Name: Titel (Leeg veld laten staan als dit hetzelfde is als origineel)
   Translated Overview: Vertaalde omschrijving
   Translated Tagline: Vertaalde slagzin
-  Translated Title: Titel (Leeg veld laten staan als dit hetzelfde is als origineel)
+  Translated Title: Titel (Veld leeg laten als dit hetzelfde is als het origineel)
   Translations: Vertalingen
   Type: Soort
   Type of Problem: Soort probleem
@@ -3151,6 +3151,12 @@ nl-NL:
       release_date:
         locked:
       success_fields_locked: Velden zijn vergrendeld.
+      tagline:
+        add_tagline:
+        no_taglines:
+        not_found:
+        taglines:
+        unable_to_delete:
       tooltips:
         adult:
         bible: " Klik op '?' om de bijdragebijbel te openen voor hulp bij het bewerken."
@@ -3734,8 +3740,8 @@ nl-NL:
   settings:
     account:
       account_settings: Accountinstellingen
-      auto_detect:
-      page_title:
+      auto_detect: Automatisch detecteren?
+      page_title: Mijn instellingen
       resend_verification_email_text: Accountverificatie-e-mail niet ontvangen? Voer hieronder je gebruikersnaam in om de e-mail opnieuw te versturen.
       reset_password_text:
     api:
@@ -3757,14 +3763,14 @@ nl-NL:
       action: Actie
       blocked_users: Geblokkeerde gebruikers
       no_blocked: Je hebt geen gebruikers geblokkeerd.
-      page_title:
+      page_title: Mijn geblokkeerde gebruikers
       username: Gebruikersnaam
     change_email:
       change_email: E-mailadres wijzigen
       change_email_text: Als je je e-mailadres wilt wijzigen, voer dan hieronder het nieuwe e-mailadres in. Voordat je weer kunt inloggen, moet je eerst je nieuwe adres verifiëren door te klikken op de activatielink in de e-mail die we versturen naar je nieuwe adres.
-      page_title:
+      page_title: Mijn e-mailadres wijzigen
     delete_account:
-      confirm_delete:
+      confirm_delete: Verwijderen bevestigen
       delete_account: Account verwijderen
       page_title:
       summary_text: Je bent terechtgekomen in de <strong>gevarenzone</strong>! Als je door wilt gaan en je account wilt verwijderen, dan moet je hieronder je wachtwoord invoeren en daarna de verwijdering bevestigen.
@@ -3837,18 +3843,18 @@ nl-NL:
     profile:
       accent_color: Accentkleur
       avatar:
-        current_avatar: Huidige gebruikersafbeelding
-        explain: 'Op dit moment is het alleen mogelijk om een eigen gebruikersafbeelding te tonen via <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Als je een eigen afbeelding wilt gebruiken op TMDB, creëer dan een account bij Gravatar. Let op: gebruikt hetzelfde e-mailadres als hier (zo kunnen we de accounts koppelen). Als je dat hebt gedaan, klik dan op de ''ververs''-knop hieronder en wij halen je nieuwe afbeelding op.'
-        explain_gravatar: Als je <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> wilt gebruiken voor je gebruikersafbeelding, zorg er dan voor dat je op Gravatar hetzelfde e-mailadres gebruikt als hier. Als je dat hebt gedaan (en je een afbeelding hebt geüpload), klik dan op de 'ververs'-knop hieronder en we proberen je nieuwe afbeelding op te halen.
-        not_found: Geen gebruikersafbeelding gevonden.
-        not_found_add: Geen gebruikersfbeelding gevonden. Wil je er <a href="#">een toevoegen</a>?
-        remove_own: Gebruikersafbeelding verwijderen?
-        update_avatar: Gebruikersafbeelding bijwerken
+        current_avatar: Huidige avatar
+        explain: 'Op dit moment is het alleen mogelijk om een eigen avatar te tonen via <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Als je een eigen avatar wilt gebruiken op TMDB, creëer dan een account bij Gravatar. Let op: gebruikt hetzelfde e-mailadres als hier (zo kunnen we de accounts koppelen). Als je dat hebt gedaan, klik dan op de ''ververs''-knop hieronder en wij halen je nieuwe afbeelding op.'
+        explain_gravatar: Als je <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> wilt gebruiken voor je avatar, zorg er dan voor dat je op Gravatar hetzelfde e-mailadres gebruikt als hier. Als je dat hebt gedaan (en je een afbeelding hebt geüpload), klik dan op de 'ververs'-knop hieronder en we proberen je nieuwe afbeelding op te halen.
+        not_found: Geen avatar gevonden.
+        not_found_add: Geen avatar gevonden. Wil je er <a href="#">een toevoegen</a>?
+        remove_own: Avatar verwijderen?
+        update_avatar: Avatar bijwerken
         update_gravatar: Gravatar bijwerken?
-        updated: Gebruikersafbeelding bijgewerkt!
-        upload_avatar: Gebruikersafbeelding uploaden
-        upload_own: Eigen gebruikersafbeelding uploaden?
-        upload_window_tip: Gebruik de bestandskiezer hieronder om je eigen, aangepaste gebruikersafbeelding te uploaden. We snijden hem, indien nodig, automatisch bij.
+        updated: Avatar bijgewerkt!
+        upload_avatar: Avatar uploaden
+        upload_own: Eigen avatar uploaden?
+        upload_window_tip: Gebruik de bestandskiezer hieronder om je eigen, aangepaste avatar te uploaden. We snijden hem, indien nodig, automatisch bij.
         use_gravatar: Gravatar gebruiken?
       background:
         background_image: Achtergrondafbeelding
@@ -3870,7 +3876,7 @@ nl-NL:
           <p>Als de problemen met je e-mailadres opgelost zijn of alleen tijdelijk waren, klik op de resetknop hieronder en we proberen je dan een andere email te sturen om het te verifiëren.</p>
         sending_problems:
         what_is_your_email:
-      page_title:
+      page_title: Mijn profiel
       reset_password_dialog_text: Door deze aanvraag te bevestigen wordt er een e-mail aan je verstuurd met instructies om je wachtwoord te herstellen. Weet je zeker dat je dit wilt doen?
       reset_password_dialog_text2:
     sessions:
@@ -3923,13 +3929,13 @@ nl-NL:
         service: Dienst
       favorite_message_hint: Zodra ik een item markeer als favoriet en deel op Twitter of Facebook...
       message_settings: Berichtinstellingen
-      page_title:
+      page_title: Mijn sociale instellingen
       sharing_message_hint: Zodra ik een item deel op Twitter of Facebook...
       social_settings: Sociale instellingen
       supported_template_values: 'Ondersteunde sjabloonwaarden:'
     streaming_services:
-      page_title: Mijn streaming diensten
-      streaming_services: Streaming diensten
+      page_title: Mijn streamingdiensten
+      streaming_services: Streamingdiensten
   sign_up:
     benefits:
       benefits_to_being_member: Voordelen van lidmaatschap
@@ -3957,29 +3963,29 @@ nl-NL:
   success_sharing: Je bericht is gedeeld.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: en
+      two_words_connector: en
       words_connector: ", "
   suspended:
-    explanation_1:
-    go_to_inbox:
-    title:
+    explanation_1: Helaas is deze gebruiker geblokkeerd.
+    go_to_inbox: Ga naar inbox
+    title: Deze gebruiker is geblokeerd
     your_account:
       explanation_1:
-      title:
+      title: Jouw account is geblokeerd
   the:
   time:
     formats:
-      12hour_minutes: "%l:%M%p"
+      12hour_minutes: "%l:%M %p"
       am:
       default:
       long: "%B %d, %Y %I:%M %p"
       pm:
       short: "%d %b %I:%M %p"
     units:
-      hours:
-      minutes:
-      seconds:
+      hours: Uren
+      minutes: Minuten
+      seconds: Seconden
   top_contributors: Topbijdragers
   translation:
     one: vertaling
@@ -3992,38 +3998,40 @@ nl-NL:
   used_by_developers: TMDB wordt gebruikt door meer dan 400.000 ontwikkelaars.<br>Bekijk hieronder hun werk.
   videos:
     filters:
-      language:
+      language: Taal
       sort:
-        published_at_asc:
-        published_at_desc:
-        sort:
-      type:
+        published_at_asc: Uitgegeven op (oudste eerst)
+        published_at_desc: Uitgegeven op (nieuwste eerst)
+        sort: Sorteren
+      type: Type
     number_of_videos:
-    official_channel:
-    page_title:
+      one: "%{count} video"
+      other: "%{count} video's"
+    official_channel: Officieel kanaal
+    page_title: "%{name} videokanaal"
     popular: Populair
-    refresh_from_youtube:
+    refresh_from_youtube: Vernieuwen van YouTube
     types:
-      Behind the Scenes:
-      Blooper:
-      Bloopers:
+      Behind the Scenes: Achter de schermen
+      Blooper: Blooper
+      Bloopers: Bloopers
       Clip: Fragment
       Clips: Fragmenten
       Featurette: Featurette
       Featurettes: Featurettes
       Opening Credits: Leader
-      Recap:
-      Recaps:
+      Recap: Samenvatting
+      Recaps: Samenvattingen
       Teaser: Voorproefje
       Teasers: Voorproefjes
       Trailer: Trailer
       Trailers: Trailers
-    vimeo_channel:
-    visit_vimeo_channel:
-    visit_youtube_channel:
-    youtube_channel:
+    vimeo_channel: Vimeo kanaal
+    visit_vimeo_channel: Vimeo kanaal bezoeken
+    visit_youtube_channel: YouTube kanaal bezoeken
+    youtube_channel: YouTube kanaal
   view all: alles tonen
   will_paginate:
     next_label: Volgende →
-    page_gap:
+    page_gap: "…"
     previous_label: "← Vorige"
