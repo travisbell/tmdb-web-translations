@@ -19,9 +19,9 @@ zh-CN:
   About this list: 关于本片单
   Accept: 接受
   Accept API Terms: 接受 API 条款
-  Account: 帐户
-  Account Filtering: 帐户过滤
-  Add Alternative Name: 添加备用名称
+  Account: 账户
+  Account Filtering: 账户过滤
+  Add Alternative Name: 添加别名
   Add Alternative Title: 添加别名
   Add Backdrop: 添加背景
   Add Content Rating: 添加内容分级
@@ -92,7 +92,7 @@ zh-CN:
   Categories: 分类
   Change?: 确认更改？
   Character: 角色
-  Characters: 人物角色
+  Characters: 角色
   Choose: 选择
   City: 城市
   Collection Results: 系列结果
@@ -113,6 +113,7 @@ zh-CN:
   Continue: 继续
   Contribution leaders for the week of: 本周积极贡献者 时间范围：
   Convert to Collection?: 转换为系列？
+  Convert to Movie?:
   Country: 国家或地区
   Create: 创建
   Create App: 创建 App
@@ -198,7 +199,7 @@ zh-CN:
   Forum: 论坛
   Forums: 论坛
   Full Cast & Crew: 完整演职员表
-  Full Character List: 完整字符列表
+  Full Character List: 完整角色列表
   Full Leaderboard: 完整排行榜
   Gender: 性别
   General: 常规
@@ -221,7 +222,7 @@ zh-CN:
   Import CSV: 导入 CSV
   Import List: 导入列表
   In Theaters: 影院上映中
-  Include Adult Items in Search?: 搜索结果中包含成人内容？
+  Include Adult Items in Search?: 搜索结果中包含成人内容条目？
   Incorrect Content: 错误内容
   Info: 信息
   Job: 工作
@@ -270,8 +271,8 @@ zh-CN:
   Moderator: 版主
   More Info: 更多信息
   Most Popular: 最热门
-  Move Credits: 移动学分
-  Move TV Credits: 移动电视学分
+  Move Credits: 移动参演作品
+  Move TV Credits: 移动电视参演作品
   Movie Data: 电影数据
   Movie Recommendations: 电影推荐
   Movie Results: 电影结果
@@ -328,7 +329,7 @@ zh-CN:
   Popularity Rank: 人气排行
   Popularity Trend: 热门程度趋势
   Poster Card View: 海报卡视图
-  Powered by TMDb: 由 TMDB 提供动力
+  Powered by TMDb: 由 TMDB 强力驱动
   Powered by The Movie Database: 由 The Movie Database 强力驱动
   Premiere: 首映
   Preview: 预览
@@ -515,7 +516,7 @@ zh-CN:
     messages: 消息
     profile_and_settings: 个人资料与设定
     ratings: 评分
-    settings: 帐户设置
+    settings: 账户设置
     sign_up: 注册
     view_profile: 查看个人资料
     watchlist: 待看清单
@@ -700,20 +701,20 @@ zh-CN:
     3rd_party_request: 第三方身份验证请求
     account_required:
       need_account: 你需要登录以继续
-      title: 需要帐户
+      title: 需要账户
     approved_session: 你已核准 %{application_name}。你可以关闭此窗口。
     continue: 如要继续，点击下方的核准按钮。否则，只需关闭此窗口。
     invalid_api_app:
       message: 授权 API 的用户无效
       title: 无效的 API 用户
     missing_request_token:
-      message: 需要令牌来验证用户帐户
+      message: 需要令牌来验证用户账户
       title: 缺失令牌
     request_token_approval:
       message: "{{APP}} 正在请求授予数据读写权限。如果你想做的事是如在 TMDB 外维护你的片单或给电影评分，则必须同意该请求。"
     statuses:
       completed:
-        message: 您已向 <strong>%{application_name}</strong> 授予读写权限。现在您可以回到应用程序并关闭此窗口。您可以在帐户设置下的“已连接应用”页面，随时撤消本次授权。
+        message: 您已向 <strong>%{application_name}</strong> 授予读写权限。现在您可以回到应用程序并关闭此窗口。您可以在账户设置下的“已连接应用”页面，随时撤消本次授权。
         name: 身份验证已通过
       denied:
         message: "<p>您已拒绝访问 <strong>%{application_name}</strong>。如果这是误操作，或者您想重新启动身份验证过程，请返回应用程序再次请求授权。</p>"
@@ -1299,7 +1300,7 @@ zh-CN:
         '6':
           meaning: 此节目针对成年人，可能不适合 17 岁以下的儿童。
   character:
-    Movie: 电源
+    Movie: 电影
     Titles: 标题
     add_a_character: 添加角色
     add_an_appearance: 添加形象
@@ -1310,14 +1311,14 @@ zh-CN:
     add_character_backdrop: 添加一张角色背景图片
     add_completely_free: 享受完全没有广告的服务
     add_missing_character: 添加缺少的角色
-    add_new_appearance: 添加新的外观
-    add_new_appearance_links_selection: 添加一个新的外观将把你的选择链接到已经列出的当前外观。
+    add_new_appearance: 添加新的形象
+    add_new_appearance_links_selection: 添加一个新的形象将把你的选择链接到已经列出的当前形象。
     add_new_group: 添加新的组
     add_the_name_of_the_character: 添加角色的名字
-    add_to_tmdb: 添加到TMDB
+    add_to_tmdb: 添加到 TMDB
     add_translation: 添加翻译
     add_valid_translation: 请添加有效的翻译。
-    adding_easy: 添加到TMDB很简单，也很容易
+    adding_easy: 添加到 TMDB 很简单，也很容易
     all_done: 全部完成了？
     all_languages: 全部语言
     all_record_exists_in_group: 所有的记录都已经存在于当前组中。
@@ -1334,12 +1335,12 @@ zh-CN:
     backdrop_image_message: 下面是我们为标题提取的一些背景图像。请选择1到3个背景图片来更新标题。
     backdrop_oops_message: 您不能选择超过三个标题图片！
     backdrop_window_title: 选择一张角色背景图片
-    below_is_example_text: 下面是Batman页面的示例。请仔细阅读下面的信息，<br>并在保存页面并将其启动到TMDb之前进行验证。
+    below_is_example_text: 下面是《蝙蝠侠》页面的示例。请仔细阅读下面的信息，<br>并在保存页面并将其启动到 TMDB 之前进行验证。
     cancel_edits: 取消编辑
     character_backdrop_photo: 角色背景幕布图片
     character_bio: 角色介绍
-    character_header_images: 字符标题图像
-    character_login_signup_text: 你需要要登陆后继续。点击<a href="%{login}">这里</a> 登陆，或者点击<a href="%{signup}">这里</a>注册。
+    character_header_images: 角色头图
+    character_login_signup_text: 你需要要登录后继续。点击<a href="%{login}">这里</a>登录，或者点击<a href="%{signup}">这里</a>注册。
     character_name: 角色姓名
     character_search_label: 你要找的是哪个角色？
     character_search_text: 你想找哪个角色？
@@ -1351,7 +1352,7 @@ zh-CN:
     choose_a_character: 选择一个角色
     choose_a_character_info: 添加一个角色意味着将扮演特定角色的男演员或女演员的外观连接在一起。一个例子是《黑暗骑士三部曲》(三部电影)，克里斯汀·贝尔在其中扮演布鲁斯·韦恩/蝙蝠侠。那个角色的三种外表等于一个角色。
     choose_backdrop: 选择背景
-    choose_header_images: 选择标题图片
+    choose_header_images: 选择头图
     choose_reason: 你需要选择一个原因。
     community: 社区
     confirm_buffer_time: 请确认是否需要缓冲时间来继续编辑？
@@ -1373,13 +1374,13 @@ zh-CN:
     done_editing: 编辑完了吗？
     drag_title: 为新的组拖到标题
     edit_groups: 编辑组
-    edit_groups_description: 下面是字符页的模板。请通过并添加组名称，<br>简介和图像完成页面。
-    edit_header_images: 编辑标题图片
+    edit_groups_description: 下面是角色页的模板。请仔细阅读并添加组名称，<br>简介和图片来完成该页面的填写。
+    edit_header_images: 编辑头图
     edit_label: 编辑
     edit_mode: 你在编辑模式下
     edit_translate: 编辑和翻译
     edit_translating: 编辑和翻译
-    editing_character_name_uv: "<h3>嘿！<strong>%{user}</strong>! </h3>观察到您正在使用建议名称创建字符。你想继续吗?"
+    editing_character_name_uv: "<h3>嘿！<strong>%{user}</strong>！</h3>观察到您正在使用建议名称创建角色。你想继续吗?"
     enter: 输入
     enter_character_name: 输入角色名字
     enter_character_synopsis: 输入人物简介
@@ -1396,9 +1397,9 @@ zh-CN:
     found_everything: 找到了什么吗？
     frequent_translations: 常见的翻译
     group_name: 组名
-    group_name_already_exists: 包含项目集的组已存在。是否要创建组。
+    group_name_already_exists: 包含条目集的组已存在。是否要创建组。
     group_name_required: 组名是必选项
-    groups_minimum_appearance_msg: 一个组至少有一个外观。请在组中添加一个外观。
+    groups_minimum_appearance_msg: 一个组至少有一个形象。请在组中添加一个形象。
     groups_not_present: 角色没有组。
     headshot: 头像
     headshot_window_title: 改变人物头像
@@ -1411,31 +1412,31 @@ zh-CN:
     inline_edit_original_name: 原始名称
     join_community_tmdb: 加入我们的社区来建设 The Movie DB 。
     launch_label: 发布
-    lock_existing_appearances: 锁定现有外观
+    lock_existing_appearances: 锁定现有形象
     log_tv_movies_watch: 记录你看的电视和电影
     master_group_limit_error: 对不起，您已达到最大支持组限制。
     media: 媒体
     media_association: 此媒体与所选组中的图像记录相关联，如果继续，链接图像的人物关联也将改变!
-    media_character_id: 媒体字符Id
+    media_character_id: 媒体角色 Id
     media_type: 媒体类型
     media_types:
       character: 角色
       movie_character_name: 电影角色名称
       tv_character_name: 电视剧角色名
-      tv_show: 电视节目
+      tv_show: 剧集
     movie_titles: 电影名字
     name: 名字
     navigate_to_dashboard: 转到我的仪表盘
     navigate_to_master: 前往主页面
     need_help: 需要帮助？
-    new_to_tmdb: TMDb新功能
+    new_to_tmdb: TMDB 上还没有的角色
     next: 下一个
     next_edit_groups: 下一个：编辑类别
     next_launch_page: 下一页：启动界面
     next_nav_label: 下一个
-    next_review_page: 下一页：回顾页
+    next_review_page: 下一页：检查页
     no_appearance_text: 未找到分类！
-    no_appearance_text_1: 没有发现外观！请 <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">点击这里 </a>添加新外观！
+    no_appearance_text_1: 没有发现形象！请 <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">点击这里</a> 添加新形象！
     no_appearance_text_2: 没有找到组！请<a href="/character/%{page_url}/edit/">点击这里</a>添加新组!
     no_backdrop_in_group: 看起来没有任何组有新的角色背景被添加！
     no_cast_credits: 没有找到演职人员，请尝试其他媒体!
@@ -1468,8 +1469,8 @@ zh-CN:
     results_selection_info: 你只能在角色中选择一个人。扮演这个角色的每个人都有不同的版本，需要单独添加。
     resume_editing: 继续
     revenue: 收入
-    review_and_launch_title: 回顾和发布
-    review_label: 审查
+    review_and_launch_title: 检查和发布
+    review_label: 检查
     save_backdrop: 保存背景
     save_edits: 保存修改
     search: 搜索
@@ -1477,18 +1478,18 @@ zh-CN:
     search_character_note: 搜索你想在下面添加的角色或标题。您可以创建多个搜索来查找您想要添加的所有内容。
     search_characters_you_want_to_see: 搜索你想在下面添加的角色或标题。您可以创建多个搜索来查找您想要添加的所有内容。
     search_error_info: 请编辑您的搜索，或检查角色出现的标题是否存在于数据库中，并有准确的演员和工作人员详细信息。
-    see_batman_appearance: 想看蝙蝠侠的每一次亮相吗?
+    see_batman_appearance: 想看蝙蝠侠的每一种形象吗?
     select_backdrop: 选择背景
     select_cast_credit: 请选择一个演员阵容
     select_group_title: 选择&组标题
-    select_message: 选择所有扮演过这个角色的明星。例如，在一个系列中，如果扮演角色的人改变了，请选择两个星(即。爱德华·诺顿和马克·鲁法洛都被选为漫威电影宇宙的绿巨人)
+    select_message: 选择所有扮演过这个版本的角色的明星。例如，在一个系列中，如果扮演这个角色的人已经变了，请选择两位明星（即爱德华·诺顿和马克·鲁法洛都会被选为漫威电影宇宙的绿巨人的扮演者）
     select_person: 选择一名角色
     select_person_association: 选择一个人关联
     select_person_for_media: 请为选定的媒体选择一个新的人
-    selected_appearance_linked_to_character: 选择的外观将与角色相关联。
+    selected_appearance_linked_to_character: 已选择的形象将与角色相关联。
     session_expired: 会话过期!
     session_inactive: 会话太长时间不活动
-    session_over_so_redirect: 会话已过期。点击确定将重定向到字符页。
+    session_over_so_redirect: 会话已过期。点击确定将重定向到角色页。
     session_timeout: 会话超时
     session_timeout_continue: 你的会话就要结束了。你想继续讨论吗?
     star: 开始
@@ -1500,20 +1501,20 @@ zh-CN:
     suggested_backdrops_not_available: 没有建议的背景！
     suggested_character_backdrop_photos: 建议的角色背景图片
     suggested_window_title: 建议的人物背景照片
-    switch_mode_translate: 切换到%{available_language}模式进行防御。
+    switch_mode_translate: 切换到%{available_language}模式进行翻译。
     switch_to_edit_mode: 切换到编辑模式
     switch_translate_mode: 切换到翻译模式
     text_for_character_card: 我们现在支持角色，这让社区能够通过系列游戏、电视和电影追踪角色的出现。
     title_drag_info: 你想添加的任何标题都可以拖动到左侧的侧边栏中。
     total_Results: 所有结果
-    total_appearance: 整体外观
+    total_appearance: 整体形象
     total_budget: 总预算
     translations_language: 翻译语言
     try_again: 请重试！
     tv: 剧集
     tv_titles: 剧集标题
     unloading_message: 卸载此页面可能会丢失数据。你想做什么…
-    unlock_existing_appearances: 解锁已存在的条目
+    unlock_existing_appearances: 解锁现有形象
     unsaved_change_lost: 任何没有保存的更改将会丢失。
     unsaved_will_lost_want_to_continue: 任何未保存的修改都将会丢失。你想继续吗？
     update_backdrop: 更新背景
@@ -1521,7 +1522,7 @@ zh-CN:
     user_added_backdrop_info: 这是你为角色添加的背景照片。请选择您想要进行的照片。
     user_added_backdrop_label: 用户添加的背景幕布图片
     user_variant_description: 下面是我们为这个角色准备的一些照片。请选择一个或添加一个更适合角色的替代。
-    user_variant_intro: 从电影、电视节目中找到你最喜欢的角色……
+    user_variant_intro: 从电影、剧集中找到你最喜欢的角色……
     validation_charactername: 主要角色名称为必填项
     validation_group_synopsis: 请输入有效的组概要
     validation_grpname: 请输入一个有效的组名
@@ -1613,7 +1614,7 @@ zh-CN:
     welcome_1: 欢迎来到
     welcome_2: 数据编辑参考手册
   contribution_type:
-    character_appearance: 角色外观
+    character_appearance: 角色形象
     movie: 电影
     primary_character: 主要的角色
     tv_show: 剧集
@@ -1716,7 +1717,7 @@ zh-CN:
           这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
-        subject: 这是垃圾邮件
+        subject: 这是垃圾信息
     why_deleting: 你为什么要删除此条目？
   department_credits_count:
     one: "%{department} (参与 %{count} 部作品)"
@@ -1786,10 +1787,10 @@ zh-CN:
           my_services: 我的服务
           restrict: 仅在我已订阅的服务中搜索？
           restrict_tooltip: 登录以管理你订阅的服务
-        where_to_watch: 观看地
+        where_to_watch: 在哪里观看
       years:
         years: 年
-    no_items: 找不到和您的查询相符的项目。
+    no_items: 找不到和您的查询相符的条目。
     search: 搜索
     tooltips:
       not_member: 还不是会员？
@@ -1841,12 +1842,12 @@ zh-CN:
       discuss_item: 讨论 %{item_title}
       lets_chat: 来聊天
       support: 支持
-      support_title: 电影数据库支持
+      support_title: The Movie Database 支持
     login_to_be_notified: 登录以获取第一个帖子发布通知。
     new_discussion:
       community_guidelines: 社区指南
       discussion_category: 类别
-      for_item: 关于以下项目
+      for_item: 关于以下条目
       message: 信息
       new_discussion: 新讨论
       subject: 主题
@@ -1870,7 +1871,7 @@ zh-CN:
         delete_discussion: 点击“是”，此讨论贴将被永久删除。
         hide_comment: 点击“是”，此回复将被隐藏。
         hide_discussion: 点击“是”，此讨论贴将被隐藏。
-        ignore_user: 确定拉黑该用户吗？你不会再看到 TA 的任何讨论贴和回复。你可以在你帐户设置中的“被拉黑用户”页面解除拉黑。
+        ignore_user: 确定拉黑该用户吗？你不会再看到 TA 的任何讨论贴和回复。你可以在你账户设置中的“被拉黑用户”页面解除拉黑。
         mark_as_spam: 确定标记此讨论贴为垃圾信息吗？这样做帖子将被自动删除且无法撤消。将讨论贴标记为垃圾信息有助于训练我们的垃圾信息检测服务。
         report_violation: 请确认你要举报的用户违反我们的<a href="/documentation/community/guidelines" target="_blank" rel="noopener">社区准则</a>。
         unhide_discussion: 点击“是”，此讨论贴将恢复可见。
@@ -1899,7 +1900,7 @@ zh-CN:
     users_in_discussion:
       no_subscribers: 无订阅者
       users_in_discussion: 参与此讨论的用户
-    your_account: 你的帐户
+    your_account: 你的账户
   dmca_takedown:
     form:
       about_self:
@@ -1930,27 +1931,27 @@ zh-CN:
       mail_address:
         label: 您的完整邮寄地址
       optional:
-        label: 可选项
+        label: 选填
       original_material:
-        label: 连接到TMDB上的涉嫌侵权资料(每行一个)
+        label: 连接到 TMDB 上的涉嫌侵权资料（每行一个）
       perjury:
         label: 本人以伪证罪发誓，本通告所载资料属实，本人为版权持有人或其授权代表。
       primary_telephone:
         error: 无效的
         label: 您的主要手机号码
       release:
-        label: 我承认TMDB保留权利，根据数字千年版权法和公司的裁量权，发布此下架通知，并对私人信息进行适当的修订。
+        label: 我承认根据数字千年版权法和公司的裁量权，TMDB 保留发布此下架通知的权利，并对私人信息进行适当的删除。
       request_type:
-        default: DMCA撤下请求
+        default: DMCA 移除请求
         label: 我们能帮到您什么？
-      success: 感谢您提交DMCA请求!
-      title: 提交一个申请
+      success: 感谢您提交 DMCA 请求!
+      title: 提交申请
       username:
         label: 您的用户名
         note: 记住，用户名是区分大小写的
     report:
       error: 您的报告创建时遇到了一些问题，是否重试？
-      submit: 提交DMCA下架请求。
+      submit: 提交 DMCA 移除请求。
   dont_fallback: 无（不使用备选）
   duplicate_character_name: 角色名已经存在，请尝试使用其他名称
   edit_list:
@@ -2029,18 +2030,18 @@ zh-CN:
       title: 已退出登录！
     password_reset:
       message: |-
-        如果它属于TMDB上的一个注册帐户，重置说明已经发送到这个电子邮件地址。
+        如果这个邮箱地址属于 TMDB 上的一个注册账户，重置说明已经发送到这个电子邮件地址。
 
-        一定要检查你的收件箱和垃圾邮件文件夹!
+        请务必检查您的收件箱和垃圾邮件文件夹！
       title: 密码已重置
     password_reset_email_required:
       message: 请输入有效的邮箱地址。
       title: 需要验证邮箱
     resend_verification_email:
       message: |-
-        如果这个地址属于TMDB上的一个注册账户，我们已经给这个地址发了另一个验证邮件。
+        如果这个地址属于 TMDB 上的一个注册账户，我们已经给这个地址发送了另一个验证邮件。
 
-        一定要检查你的收件箱和垃圾邮件文件夹!
+        请务必检查您的收件箱和垃圾邮件文件夹！
       title: 验证邮件已发送
     upstream_problem:
       message: 我们在完成这个请求时遇到了问题。这通常是一个临时问题，应该很快解决。
@@ -3082,7 +3083,7 @@ zh-CN:
       tv_episode_pages: 在电视集页面
       tv_season_pages: 在电视季页面
     keyboard_shortcuts: 键盘快捷键
-    login_to_change_preferences: 您可以通过登录您的帐户来禁用键盘快捷键。
+    login_to_change_preferences: 您可以通过登录您的账户来禁用键盘快捷键。
     view_keyboard_shorcuts: 查看键盘快捷键
     view_shortcuts: 查看快捷键
   list_info:
@@ -3114,9 +3115,9 @@ zh-CN:
     step_3: 第 3 步：选择图像
     step_4: 第 4 步：分享
   login:
-    login_text_1: 为了使用 TMDB 的编辑、评分和个性化推荐功能，请登录您的帐户。如果您没有帐户，可以点击<a href="%{signup_link}">此处</a>免费注册。
+    login_text_1: '为了使用 TMDB 的编辑、评分和个性化推荐功能，请登录您的账户。如果您没有账户，可以点击<a href="%{signup_link}">此处</a>开始注册。注册账户是免费的，而且很简单。 '
     login_text_2: 如果您未收到验证邮件，可点击<a href="%{verification_link}">此处</a>重新发送。
-    login_to_your_account: 登录你的帐户
+    login_to_your_account: 登录你的账户
   login_to_create: 找不到电影或剧集？登录并创建它吧。
   login_to_edit: 登录以编辑
   media:
@@ -3134,7 +3135,7 @@ zh-CN:
     character:
       edit:
         appearance:
-          no_records: 没有添加任何外观
+          no_records: 没有添加任何形象
     collection:
       edit:
         parts:
@@ -3150,7 +3151,7 @@ zh-CN:
         lock_existing: 锁定现有标题
         locked: 这个标题是锁定的。
       cast_updated: 演员已更新
-      delete_all_appearances: 删除所有外观
+      delete_all_appearances: 删除所有形象
       genres_updated: 类型已更新
       lock_all_appearances: 通过单击“是”，您将锁定所有现有的记录，使其在未来不能被普通用户编辑。版主仍然可以进行编辑。
       lock_all_cast_crew_description: 点击“是”，将锁定所有现有记录，使常规用户无法编辑。版主仍然可以进行编辑。
@@ -3316,7 +3317,7 @@ zh-CN:
       backdrops: 剧照
       cast_crew: 演职人员
       changes: 编辑记录
-      characters: 字符
+      characters: 角色
       episodes: 集
       fandom: 影迷圈
       headshots: 大头照
@@ -3474,7 +3475,7 @@ zh-CN:
   message_templates:
     help_translate:
       message: |-
-        您好，感谢使用 TMDb。注意到您正使用一种还未翻译完成的语言浏览 TMDb。如果您有兴趣帮助我们完成这些翻译，可以访问我们的[Locale project](https://www.localeapp.com/projects/8267)。Locale 的[注册](https://www.localeapp.com/users/sign_up)是免费的，您可以在有空时添加尽可能多的新翻译。点滴的工作都是有益的。
+        您好，感谢使用 TMDB。注意到您正使用一种还未翻译完成的语言浏览 TMDB。如果您有兴趣帮助我们完成这些翻译，可以访问我们的 [Locale 项目](https://www.localeapp.com/projects/8267)。Locale 的[注册](https://www.localeapp.com/users/sign_up)是免费的，您可以在有空时添加尽可能多的新翻译。点滴的工作都是有益的。
 
         如果您对此不感兴趣也没关系。我只是想问问。
 
@@ -3589,7 +3590,7 @@ zh-CN:
   no_writer: 未添加作者。
   not_translated:
     logged_in: "%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。如果你想继续并创建翻译版本，请点击下方的按钮。"
-    public: '%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。你可以<a href="%{signup_link}">注册</a>一个帐户<a href="%{login_link}">登录</a>后添加翻译版本。'
+    public: '%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。你可以<a href="%{signup_link}">注册</a>一个账户<a href="%{login_link}">登录</a>后添加翻译版本。'
   notifications:
     caught_up: 看来你都读完了。
     clear: 清除
@@ -3748,11 +3749,11 @@ zh-CN:
     to_air: "《%{show_name}》第 %{season_number} 季将于 %{date}首播。"
   settings:
     account:
-      account_settings: 帐户设置
+      account_settings: 账户设置
       auto_detect: 自动检测？
       page_title: 我的设置
-      resend_verification_email_text: 未收到你的帐户验证邮件？在下方输入你的电子邮箱以重新发送。
-      reset_password_text: 输入你注册 TMDB 帐户所使用的邮箱，然后我们将向您发送重置密码所需的步骤。
+      resend_verification_email_text: 未收到你的账户验证邮件？在下方输入你的电子邮箱以重新发送。
+      reset_password_text: 输入你注册 TMDB 账户所使用的邮箱，然后我们将向您发送重置密码所需的步骤。
     api:
       api: API
       create_page_title: 创建一个新 API 密钥
@@ -3780,9 +3781,9 @@ zh-CN:
       page_title: 修改我的邮箱地址
     delete_account:
       confirm_delete: 确认删除
-      delete_account: 删除帐户
-      page_title: 删除我的帐户
-      summary_text: 你已经进入<strong>危险区域</strong>！如果你想继续并删除你的帐户，在下方输入密码并确认。
+      delete_account: 删除账户
+      page_title: 删除我的账户
+      summary_text: 你已经进入<strong>危险区域</strong>！如果你想继续并删除你的账户，在下方输入密码并确认。
     import_list:
       import_button: 导入
       import_list: 导入列表
@@ -3797,7 +3798,7 @@ zh-CN:
       previous:
         date: 日期
         imported: 已导入
-        items: 项目
+        items: 条目
         local_list: 本地列表
         no_imports: 你未导入过任何列表。
         page_title: 我的先前导入
@@ -3820,7 +3821,7 @@ zh-CN:
         import_results: 导入结果
         in_progress:
           import_status: 导入状态
-          summary: 检测到 %{total_count} 个导入项目。导入正在后台运行中，完成后会自动通知。
+          summary: 检测到共 %{total_count} 个要导入的条目。导入工作目前正在后台运行，完成后会自动通知您。
       select_csv: 选择 CSV 文件
       type:
         favorite: 我的最爱
@@ -3828,11 +3829,11 @@ zh-CN:
         watchlist: 待看清单
       which_list: 导入哪个列表？
     navigation:
-      account_settings: 帐户设置
+      account_settings: 账户设置
       api: API
       blocked_users: 已拉黑用户
       connected_apps: 已连接应用
-      delete_account: 删除帐户
+      delete_account: 删除账户
       edit_profile: 编辑个人资料
       import_list: 导入列表
       notification_settings: 通知设置
@@ -3853,7 +3854,7 @@ zh-CN:
       accent_color: 强调色
       avatar:
         current_avatar: 当前头像
-        explain: 目前，我们的自定义头像仅支持 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 的服务。如果你想在 TMDB 显示自定义头像，必须到 Gravatar 注册一个帐户，并确保使用与本站相同的邮箱地址（以此关联你的帐户）。完成上述工作后，点击下方的更新按钮获取你的新头像。
+        explain: 目前，我们的自定义头像仅支持 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 的服务。如果你想在 TMDB 显示自定义头像，必须到 Gravatar 注册一个账户，并确保使用与本站相同的邮箱地址（以此关联你的账户）。完成上述工作后，点击下方的更新按钮获取你的新头像。
         explain_gravatar: 如果你想将 <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> 作为头像提供者，请确保在 Gravatar 使用与本站相同的电子邮箱地址。完成上述工作后（当然还要上传完图片），点击下方的更新按钮获取你的新头像。
         not_found: 未找到头像
         not_found_add: 未找到头像。你要 <a href="#">添加一个</a> 吗？
@@ -3892,7 +3893,7 @@ zh-CN:
       api:
         connected_apps: 已连接应用
         listed_below_explanation: 你已授予以下第三方应用数据写入权限。你可以随时撤销这些授权。
-        no_apps: 未连接任何应用到你的帐户。
+        no_apps: 未连接任何应用到你的账户。
         page_title: 已连接的应用
         table:
           action: 动作
@@ -3934,7 +3935,7 @@ zh-CN:
         connect: 连接
         connected_to: 连接到
         info: 信息
-        reload_text: 授权你的帐户后，请重新加载此页面！
+        reload_text: 授权你的账户后，请重新加载此页面！
         service: 服务
       favorite_message_hint: 当标记条目为我的最爱并分享到 Twitter 或 Facebook...
       message_settings: 信息设置
@@ -3948,7 +3949,7 @@ zh-CN:
   sign_up:
     benefits:
       benefits_to_being_member: 成为会员的好处
-      build_custom_lists: 制作个性化列表（可同时包含电影和剧集)
+      build_custom_lists: 制作个性化混搭片单（可同时包含电影和剧集)
       build_watchlist: 制作并维护自己的待看清单
       contribute: 贡献并完善我们数据库中的信息
       discussions: 参加影视讨论
@@ -3957,10 +3958,10 @@ zh-CN:
       log_movies: 记录你已观看的电影和剧集
     by_clicking_agree_to_terms: 点击下方的“注册”按钮，即代表您确认您已阅读并同意 TMDB 使用条款和隐私政策。
     javascript_required: 需要 JavaScript 才能继续。
-    sign_up_for_account: 注册一个帐户
-    signup_text: 注册帐户是免费的，而且很简单。从填写下方的表单开始吧。
+    sign_up_for_account: 注册一个账户
+    signup_text: 注册账户是免费的，而且很简单。从填写下方的表单开始吧。
   success_approved_access_token: 已授权！
-  success_deleted: 所选项目已成功删除。
+  success_deleted: 所选条目已成功删除。
   success_email: 邮件发送成功。
   success_image_rated: 你已成功对图片评分。
   success_image_uploaded: 图片已成功上传。
@@ -3980,8 +3981,8 @@ zh-CN:
     go_to_inbox: 进入收件箱
     title: 该用户已被冻结
     your_account:
-      explanation_1: 如果您想讨论您被暂停的原因或您如何重新访问您的帐户，请通过点击下面的链接访问消息区域。
-      title: 你的帐户已被冻结
+      explanation_1: 如果您想讨论您被暂停的原因或您如何重新访问您的账户，请通过点击下面的链接访问消息区域。
+      title: 你的账户已被冻结
   the: 此
   time:
     formats:
@@ -4002,7 +4003,7 @@ zh-CN:
   upload_poster: 上传海报
   upload_profile: 上传人物图片
   upload_title_logo: 上传标题Logo
-  used_by_developers: 有超过 40 万开发人员使用 TMDb。<br>以下是 TA 们的作品。
+  used_by_developers: 有超过 40 万开发人员使用 TMDB。<br>以下是他们的作品。
   videos:
     filters:
       language: 语言
