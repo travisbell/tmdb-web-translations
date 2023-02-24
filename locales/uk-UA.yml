@@ -1,19 +1,19 @@
 uk-UA:
   "-": "-"
-  3rd Party Applications: Сторонні додатки
+  3rd Party Applications: Сторонні застосунки
   API: API
   API Access Token: Токен доступу до API
-  API Details: API деталі
-  API Key: API ключ
-  API Libraries: API бібліотеки
-  API Overview: API Огляд
+  API Details: Деталі API
+  API Key: Ключ API
+  API Libraries: Бібліотеки API
+  API Overview: Огляд API
   API Read Access Token: Токен доступу для читання API
-  API Sessions: API Сесії
-  API Stats: API статистика
-  API Status Codes: API Статус кодів
+  API Sessions: Сесії API
+  API Stats: Статистика API
+  API Status Codes: Статус кодів API
   API Terms: Умови користування API
-  API Terms of Use: API Правила використання
-  API Updates: API оновлення
+  API Terms of Use: Правила використання API
+  API Updates: Оновлення API
   About: Про
   About TMDb: Про TMDB
   About this list: Про цей список
@@ -29,7 +29,7 @@ uk-UA:
   Add Data & Content: Редагувати
   Add Headshot: Додати портрет
   Add Item: Додати елемент
-  Add Missing Cast & Crew: Додати відсутнього актора або члена знім. групи
+  Add Missing Cast & Crew: Додати відсутнього актора чи члена знімальної групи
   Add Network: Додати телемережу
   Add New Episode: Додати нову серію
   Add New Movie: Додати новий фільм
@@ -47,9 +47,9 @@ uk-UA:
   Add a New Crew Member: Додати нового члена знімальної групи
   Add a New Guest Star: Додати нову запрошену зірку
   Add to Watchlist: Перегляну пізніше
-  Add to list: Додати у список
+  Add to list: Додати до списку
   Add to your favorite list: Додати до списку улюбленого
-  Add to your watchlist: Подивлюсь
+  Add to your watchlist: Подивлюся
   Added By: Додано
   Added to Watchlist: Додано в "Перегляну пізніше"
   Adding & Editing Content: Додавання та редагування контенту
@@ -63,18 +63,18 @@ uk-UA:
   Alternative Names: Альтернативні назви
   Alternative Titles: Альтернативні назви
   Apiary Documentation: Документація Apiary
-  App Directory: Каталог додатків
-  App Showcase: Огляд додатків
+  App Directory: Каталог застосунків
+  App Showcase: Огляд застосунків
   Appearances:
-  Application Description: Опис програми
-  Application Name: Назва додатку
-  Application Summary: Підсумок додатку
-  Application URL: URL додатку
+  Application Description: Опис застосунку
+  Application Name: Назва застосунку
+  Application Summary: Підсумок застосунку
+  Application URL: URL застосунку
   Approve: Затвердити
   Approved?: Схвалено?
-  Apps: Додатки
+  Apps: Застосунки
   Archived Databases: Архівовані бази даних
-  Are you sure?: Впевнені?
+  Are you sure?: Упевнені?
   Attributes: Атрибути
   Auto: Авто
   Back to top: Вгору
@@ -649,7 +649,7 @@ uk-UA:
         public: "%{username} ще не має будь-яких фільмів або серіалів."
       goto_discussions: Перейти до обговорень
       goto_watchlist: Показати "Перегляну пізніше"
-      most_watched_genres: 'Ви найбільше цікавились жанрами:'
+      most_watched_genres: 'Ви найбільше цікавилися жанрами:'
       rating_overview: Швидкий огляд оцінок
       recent_activity: Останні дії
       recent_discussions: Останні обговорення
@@ -669,12 +669,12 @@ uk-UA:
       page_title:
         page_owner: Мої рейтинги та рецензії
         public: Рейтинги та рецензії учасника %{username}
-      ratings_by_year: Рейтинги по роках
+      ratings_by_year: Рейтинги за роками
     recommendations:
       my_recommendations: Мої рекомендації
       no_recommendations: Маємо ще недостатньо даних, щоби надати рекомендації
-      no_recommendations_helper: Спробуйте додати елементи до улюблених (більше - краще) і побачите, як ми впорались.
-      no_recommendations_helper_2: Спробуйте оцінити трохи більше фільмів та серіалів (чим більше тим краще) та зачекайте декілька годин щоб ми це розглянули. Ці рекомендації буде оновлено коли ви оціните більше контенту.
+      no_recommendations_helper: Спробуйте додати елементи до улюблених (що більше, то краще) і побачите, як ми впоралися.
+      no_recommendations_helper_2: Спробуйте оцінити трохи більше фільмів і серіалів (що більше, то краще) та зачекайте декілька годин, щоб ми це розглянули. Ці рекомендації буде оновлено, коли ви оціните більше контенту.
       page_title: Рекомендації
     sort_options:
       asc: Зростання
@@ -704,11 +704,11 @@ uk-UA:
       this_week: Цього тижня
       view_them: Оглянути їх.
   add_to_list: Додати %{media_title} до одного з ваших списків...
-  already_translated_in: "%{page_title} перекладено на наступні мови"
+  already_translated_in: "%{page_title} перекладено на такі мови"
   api_session:
     3rd_party_request: Запит автентифікації третіх сторін
     account_required:
-      need_account: Вам потрібно увійти щоб продовжити!
+      need_account: Вам потрібно увійти, щоби продовжити!
       title: Потрібен обліковий запис
     approved_session: Ви схвалили %{application_name}. Можете закрити це вікно.
     continue: Натисніть кнопку Підтвердити внизу, якщо бажаєте продовжити. Або ж просто закрийте це вікно.
@@ -716,16 +716,16 @@ uk-UA:
       message: Поточний обліковий запис API наразі є недійсним
       title: Невірний обліковий запис API
     missing_request_token:
-      message: Потрібно токен запиту для аутентифікації облікових записів користувачів
+      message: 'Потрібний токен запиту для автентифікації облікових записів користувачів. '
       title: Відсутній токен запиту
     request_token_approval:
-      message: "{{APP}} запитує вашого дозволу на читання і запис даних від вашого імені. Це необхідно, якщо ви хочете робити щось за межами TMDB, наприклад, підтримувати ваші списки, або оцінювати фільми."
+      message: "{{APP}} запитує вашого дозволу на читання та запис даних від вашого імені. Це потрібно, якщо ви хочете робити щось за межами TMDB, як-от підтримувати ваші списки або оцінювати фільми."
     statuses:
       completed:
-        message: Ви надали дозвіл на читання і запис додаткові <strong>%{application_name}</strong>. Можете повернутися у додаток і закрити це вікно. Ви завжди можете відкликати цей доступ в налаштуваннях вашого профілю, в розділі "Приєднані додатки".
+        message: Ви надали дозвіл на читання та запис застосункові <strong>%{application_name}</strong>. Можете повернутися в застосунок і закрити це вікно. Ви завжди можете відкликати цей доступ у налаштуваннях вашого профілю, в розділі "Приєднані застосунки".
         name: Автентифікацію підтверджено
       denied:
-        message: "<p>Ви заборонили доступ додаткові <strong>%{application_name}</strong>. Якщо це було помилково, або ви хочете заново автентифікувати додаток, тоді просто поверніться в цей додаток і надішліть запит знову.</p>"
+        message: "<p>Ви заборонили доступ застосункові <strong>%{application_name}</strong>. Якщо це було помилково або ви хочете заново автентифікувати застосунок, просто поверніться до нього та надішліть запит знову.</p>"
         name: Автентифікацію відхилено
       invalid_request_token:
         message: Наданий токен недійсний. Спробуйте створити новий і переконайтеся, що ви скопіювали його правильно. Якщо проблема не вирішиться, зверніться до розробника програми, яку ви використовуєте.
@@ -737,7 +737,7 @@ uk-UA:
     homepage: Домашня сторінка
     iso_3166_1: Країна
     iso_639_1: Мова
-    normalized_email: Пошта
+    normalized_email: Електронна пошта
     normalized_username: Ім'я учасника
     overview: Огляд
     title: Назва
@@ -764,9 +764,9 @@ uk-UA:
     movies:
       AU:
         '1':
-          meaning: Поза класифікацією. Фільми поза класифікацією не повинні містити спірних матеріалів (тобто матеріалів, зазвичай класифікуються як M або вище).
+          meaning: Поза класифікацією. Фільми поза класифікацією не мають містити спірних матеріалів (тобто матеріалів, що зазвичай класифікують як M або вище).
         '2':
-          meaning: Загальний. Зміст з дуже м'яким впливом.
+          meaning: Загальний. Зміст із дуже м'яким впливом.
         '3':
           meaning: У присутності батьків.
         '4':
@@ -805,7 +805,7 @@ uk-UA:
           meaning: 18+
       CA:
         '1':
-          meaning: Без вікових обмежень
+          meaning: 'Без вікових обмежень. '
         '2':
           meaning: У присутності батьків.
         '3':
@@ -1368,7 +1368,7 @@ uk-UA:
     continue: Продовжити
     contribute: Внести в нашу базу даних
     correct_errors_in_forms: Будь ласка виправте помилки в полях форми
-    create_overview: Створити Огляд
+    create_overview: Створити огляд
     create_overview_bio_help: Будь ласка додайте біографію для цієї конкретної версії, цей персонаж має багато втілень.
     create_overview_help: Допоможіть нам заповнити біографію цього персонажу на протязі його з'явлень у стрічках
     create_overview_name_help: Будь ласка змінюйте імена персонажів тільки на імена, за якими вони відомі чи якщо є якась інша конкретна причина.
@@ -1816,6 +1816,7 @@ uk-UA:
       close_discussion: Закрити обговорення
       make_private: Зробити приватним
       make_public: Зробити публічним
+      mark_not_spam:
       mark_spam: Позначити як спам
       reopen_discussion: Перезапустити обговорення
       stop_watching: Не слідкувати
@@ -2377,7 +2378,7 @@ uk-UA:
     Color Timer: Монтажер-колорист
     Colorist: Кольорист
     Comic Book: Комікс
-    Commissioning Editor: Редактор введення в експлуатацію
+    Commissioning Editor: 'Випусковий редактор '
     Compositing Artist:
     Compositing Lead:
     Compositing Supervisor:
@@ -2753,7 +2754,7 @@ uk-UA:
     Production Coordinator: Координатор зйомок
     Production Design: Художник-постановник
     Production Designer:
-    Production Director: Режисер зйомок
+    Production Director: Директор картини
     Production Driver:
     Production Executive:
     Production Illustrator: Ілюстратор зйомок
