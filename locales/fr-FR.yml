@@ -2005,8 +2005,8 @@ fr-FR:
       invalid: n'est pas valide
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
       invalid_email_address: ne semble pas être une adresse électronique valide
-      invalid_password:
-      invalid_request:
+      invalid_password: Le mot de passe que vous avez saisi est erroné.
+      invalid_request: Impossible de compléter la requête.
       no_characters_found: Aucun personnage n'a été trouvé.
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
@@ -3192,10 +3192,12 @@ fr-FR:
       success_fields_locked: Les champs sont verrouillés.
       tagline:
         add_tagline: Ajouter un slogan
+        already_exists:
         lock_existing: Verrouiller les slogans existants
         locked: Ce slogan est verrouillé.
         no_taglines: Aucun slogan n'a été ajouté.
         not_found: Le slogan que vous tentiez de modifier n'a pas pu être trouvé.
+        primary:
         taglines: Slogans
         unable_to_delete: Le slogan n'a pas pu être supprimé.
       tooltips:
@@ -3799,9 +3801,9 @@ fr-FR:
         directory: Répertoire
         overview: Vue d'ensemble
         regenerate:
-          confirm_text:
-          regenerate_key:
-          summary_text:
+          confirm_text: Cela va <strong>désactiver</strong> votre ancienne clé API et en régénérer une nouvelle. Cette action ne peut pas être annulée. Vous aurez <strong>30 secondes</strong> pour confirmer l'action, avant de saisir à nouveau votre mot de passe.
+          regenerate_key: Régénérer la clé
+          summary_text: Vous venez d'entrer dans la <strong>zone de danger</strong> ! Si vous souhaitez poursuivre et actualiser votre clé API, vous pouvez le faire en saisissant votre mot de passe, ci-dessous, et en confirmant toutes les instructions.
         sessions: Sessions
         stats: Statistiques
       page_title: Mes paramètres d'API
