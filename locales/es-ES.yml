@@ -2113,20 +2113,20 @@ es-ES:
   images:
     confirm_delete: "¿Seguro que quieres borrar esta imagen?"
     upload_criteria:
-      '1': Resolución máxima de 2000x3000
-      '2': Resolución mínima de 500x750
-      '3': Relación de aspecto 1:1.5 (2:3)
-      '4': Resolución máxima de 3840x2160
-      '5': Resolución mínima de 400x225
-      '6': Se admiten imágenes con relación de aspecto de 16x9 (1.78:1) y 4:3.
-      '7': Resolución mínima de 1280x720
-      '8': Relación de aspecto de 16x9 (1.78:1)
-      '9': Resolución mínima de 300x450
-      backdrops_must_meet: 'Las imágenes de fondo deben cumplir los siguientes criterios:'
-      episode_stills_must_meet: 'Los episodios deben cumplir los siguientes criterios:'
-      headshots_must_meet: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
-      posters_must_meet: 'Los pósteres deben cumplir los siguientes criterios:'
-      profile_must_meet: 'Las imágenes de perfil deben cumplir los siguientes criterios:'
+      aspect_ratio_backdrops: Relación de aspecto de 16x9 (1.78:1)
+      aspect_ratio_both: Se admiten imágenes con relación de aspecto de 16x9 (1.78:1) y 4:3.
+      backdrops: 'Las imágenes de fondo deben cumplir los siguientes criterios:'
+      episode_stills: 'Los episodios deben cumplir los siguientes criterios:'
+      headshots: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
+      landscape_max_res: Resolución máxima de 3840x2160
+      landscape_min_res: Resolución mínima de 400x225
+      min_res_backdrops: Resolución mínima de 1280x720
+      min_res_posters: Resolución mínima de 500x750
+      portrait_aspect_ratio: Relación de aspecto 1:1.5 (2:3)
+      portrait_max_res: Resolución máxima de 2000x3000
+      portrait_min_res: Resolución mínima de 300x450
+      posters: 'Los pósteres deben cumplir los siguientes criterios:'
+      profile: 'Las imágenes de perfil deben cumplir los siguientes criterios:'
       read_guidelines: Familiarízate con nuestras <a href="%{link}" target="_blank" rel="noopener">directrices actualizadas para aportar imágenes</a>.
       tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el área siguiente. En caso contrario, haz clic en el botón 'Seleccionar archivos...' y elige la imagen de tu equipo.
   invalid_aspect_ratio: La relación de aspecto no es válida.

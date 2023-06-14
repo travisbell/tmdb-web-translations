@@ -2102,20 +2102,20 @@ pt-PT:
   images:
     confirm_delete: Tem a certeza que quer remover esta imagem?
     upload_criteria:
-      '1': Resolução máxima de 2000x3000
-      '2': Resolução mínima de 500x750
-      '3': Proporção de 1:1.5 (2:3)
-      '4': Resolução máxima de 3840x2160
-      '5': Resolução mínima de 400x225
-      '6': São suportadas imagens de proporção de 16:9 (1.78:1) e 4:3
-      '7': Resolução mínima de 1280x720
-      '8': Proporção de 16:9 (1.78:1)
-      '9': Resolução mínima de 300x450
-      backdrops_must_meet: 'As imagens de fundo devem respeitar os seguintes critérios:'
-      episode_stills_must_meet: 'As imagens dos episódios devem respeitar os seguintes critérios:'
-      headshots_must_meet:
-      posters_must_meet: 'Os Cartazes devem respeitar os seguintes critérios:'
-      profile_must_meet: 'As imagens do perfil devem respeitar os seguintes critérios:'
+      aspect_ratio_backdrops: Proporção de 16:9 (1.78:1)
+      aspect_ratio_both: São suportadas imagens de proporção de 16:9 (1.78:1) e 4:3
+      backdrops: 'As imagens de fundo devem respeitar os seguintes critérios:'
+      episode_stills: 'As imagens dos episódios devem respeitar os seguintes critérios:'
+      headshots:
+      landscape_max_res: Resolução máxima de 3840x2160
+      landscape_min_res: Resolução mínima de 400x225
+      min_res_backdrops: Resolução mínima de 1280x720
+      min_res_posters: Resolução mínima de 500x750
+      portrait_aspect_ratio: Proporção de 1:1.5 (2:3)
+      portrait_max_res: Resolução máxima de 2000x3000
+      portrait_min_res: Resolução mínima de 300x450
+      posters: 'Os Cartazes devem respeitar os seguintes critérios:'
+      profile: 'As imagens do perfil devem respeitar os seguintes critérios:'
       read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">regras de contribuição de imagens</a>.
       tip: Se o seu navegador suportar, pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar ficheiros..." e escolher a imagem do seu computador.
   invalid_aspect_ratio: Essa proporção do aspecto é inválida.

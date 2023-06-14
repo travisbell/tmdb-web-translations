@@ -2070,20 +2070,20 @@ hu-HU:
   images:
     confirm_delete: Biztosan törölni szeretnéd ezt a képet?
     upload_criteria:
-      '1': Maximum felbontás 2000x3000
-      '2': Maximum felbontás 500x750
-      '3': Képarány 1:1.5 (2:3)
-      '4': Maximum felbontás 3840x2160
-      '5': Maximum felbontás 400x225
-      '6':
-      '7': Minimum felbontás 1280x720
-      '8':
-      '9': Minimum felbontás 300x450
-      backdrops_must_meet:
-      episode_stills_must_meet:
-      headshots_must_meet:
-      posters_must_meet: 'A posztereknek a következő kritériumoknak kell megfelelniük:'
-      profile_must_meet: 'A profil képeknek a következő kritériumoknak kell megfelelniük:'
+      aspect_ratio_backdrops:
+      aspect_ratio_both:
+      backdrops:
+      episode_stills:
+      headshots:
+      landscape_max_res: Maximum felbontás 3840x2160
+      landscape_min_res: Maximum felbontás 400x225
+      min_res_backdrops: Minimum felbontás 1280x720
+      min_res_posters: Maximum felbontás 500x750
+      portrait_aspect_ratio: Képarány 1:1.5 (2:3)
+      portrait_max_res: Maximum felbontás 2000x3000
+      portrait_min_res: Minimum felbontás 300x450
+      posters: 'A posztereknek a következő kritériumoknak kell megfelelniük:'
+      profile: 'A profil képeknek a következő kritériumoknak kell megfelelniük:'
       read_guidelines: Ismerkedj meg a frissített <a href="%{link}" target="_blank" rel="noopener">kép hozzájárulási útmutatónkkal</a>.
       tip: Ha a böngésződ támogatja, fogj meg egy képet és ejtsd a lentebbi területre. Ha nem támogatja, a "Fájlok kiválasztása..." gombra kattints, és válaszd ki a képet a gépedről.
   invalid_aspect_ratio: Érvénytelen képarány.

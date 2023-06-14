@@ -2103,20 +2103,20 @@ es-MX:
   images:
     confirm_delete: "¿Estás seguro que deseas eliminar esta imagen?"
     upload_criteria:
-      '1': Una resolución máxima de 2000x3000
-      '2': Una resolución mínima de 500x750
-      '3': Relación de aspecto de 1:1.5 (2:3)
-      '4': Una resolución máxima de 3840x2160
-      '5': Una resolución mínima de 400x225
-      '6': 'Relación de aspecto de 16x9 (1.78: 1) y 4:3 imágenes son compatibles'
-      '7': Una resolución mínima de 1280x720
-      '8': Relación de aspecto de 16:9 (1.78:1)
-      '9': Una resolución mínima de 300x450
-      backdrops_must_meet: 'Los fondos deben cumplir los siguientes criterios:'
-      episode_stills_must_meet: 'Las imágenes fijas del episodio deben cumplir los siguientes criterios:'
-      headshots_must_meet:
-      posters_must_meet: 'Los Pósters deben cumplir los siguientes criterios:'
-      profile_must_meet: 'Las Imáenes de Perfil deben cumplir los siguientes criterios:'
+      aspect_ratio_backdrops: Relación de aspecto de 16:9 (1.78:1)
+      aspect_ratio_both: 'Relación de aspecto de 16x9 (1.78: 1) y 4:3 imágenes son compatibles'
+      backdrops: 'Los fondos deben cumplir los siguientes criterios:'
+      episode_stills: 'Las imágenes fijas del episodio deben cumplir los siguientes criterios:'
+      headshots:
+      landscape_max_res: Una resolución máxima de 3840x2160
+      landscape_min_res: Una resolución mínima de 400x225
+      min_res_backdrops: Una resolución mínima de 1280x720
+      min_res_posters: Una resolución mínima de 500x750
+      portrait_aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
+      portrait_max_res: Una resolución máxima de 2000x3000
+      portrait_min_res: Una resolución mínima de 300x450
+      posters: 'Los Pósters deben cumplir los siguientes criterios:'
+      profile: 'Las Imáenes de Perfil deben cumplir los siguientes criterios:'
       read_guidelines: Por favor, familiarícese con nuestra actualización <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
       tip: Si el navegador lo soporta, puedes arrastrar y soltar la imagen en el área debajo. De lo contrario, haz clic en "Seleccionar Archivos" y escoge la imagen manualmente.
   invalid_aspect_ratio: La proporción es incorrecta.

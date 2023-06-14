@@ -582,15 +582,15 @@ uk-UA:
             Messages: Повідомлення
             type: Тип
         notifications:
-          few: сповіщення
-          many: сповіщення
-          one: сповіщення
-          other: сповіщень
+          few: Сповіщення
+          many: Сповіщення
+          one: Сповіщення
+          other: Сповіщень
         number_of_items:
-          few: "%{count} сповіщення"
-          many: "%{count} сповіщення"
-          one: "%{count} сповіщення"
-          other: "%{count} сповіщень"
+          few: "%{count} Сповіщення"
+          many: "%{count} Сповіщення"
+          one: "%{count} Сповіщення"
+          other: "%{count} Сповіщень"
       page_title:
         recent_events: Останні події
       recent: Недавні
@@ -2131,20 +2131,20 @@ uk-UA:
   images:
     confirm_delete: Упевнені, що хочете видалити це зображення?
     upload_criteria:
-      '1': Максимальна роздільна здатність – 2000x3000
-      '2': Мінімальна роздільна здатність – 500x750
-      '3': Співвідношення сторін – 1:1,5 (2:3)
-      '4': Максимальна роздільна здатність – 3840x2160
-      '5': Мінімальна роздільна здатність – 400x225
-      '6': Підтримуються зображення зі співвідношенням сторін 16x9 та 4х3
-      '7': Мінімальна роздільна здатність – 1280x720
-      '8': Співвідношення сторін – 16x9 (1,78:1)
-      '9': Мінімальна роздільна здатність – 300x450
-      backdrops_must_meet: 'Світлини мають відповідати таким критеріям:'
-      episode_stills_must_meet: 'Серія все ще потребує узгодження з такими критеріями:'
-      headshots_must_meet: 'Портрети мають відповідати таким критеріям:'
-      posters_must_meet: 'Постери мають відповідати таким критеріям:'
-      profile_must_meet: 'Обов’язкові вимоги до зображень профілю:'
+      aspect_ratio_backdrops: Співвідношення сторін – 16x9 (1,78:1)
+      aspect_ratio_both: Підтримуються зображення зі співвідношенням сторін 16x9 та 4х3
+      backdrops: 'Світлини мають відповідати таким критеріям:'
+      episode_stills: 'Серія все ще потребує узгодження з такими критеріями:'
+      headshots: 'Портрети мають відповідати таким критеріям:'
+      landscape_max_res: Максимальна роздільна здатність – 3840x2160
+      landscape_min_res: Мінімальна роздільна здатність – 400x225
+      min_res_backdrops: Мінімальна роздільна здатність – 1280x720
+      min_res_posters: Мінімальна роздільна здатність – 500x750
+      portrait_aspect_ratio: Співвідношення сторін – 1:1,5 (2:3)
+      portrait_max_res: Максимальна роздільна здатність – 2000x3000
+      portrait_min_res: Мінімальна роздільна здатність – 300x450
+      posters: 'Постери мають відповідати таким критеріям:'
+      profile: 'Обов’язкові вимоги до зображень профілю:'
       read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднання зображень</a>.
       tip: Якщо ваш браузер підтримує, можете перетягнути зображення на ділянку нижче. Або ж натисніть кнопку «Вибрати файли...», знайдіть і виберіть відповідний файл на своєму комп’ютері.
   invalid_aspect_ratio: Співвідношення сторін неправильне.
@@ -2170,7 +2170,7 @@ uk-UA:
     3D Animator: 3D-аніматор
     3D Artist: 3D-художник
     3D Coordinator: 3D-координатор
-    3D Digital Colorist: Цифровий колорист 3D
+    3D Digital Colorist: 3D-колорист оцифровки
     3D Director: 3D-режисер
     3D Editor: 3D-монтажер
     3D Generalist: 3D-універсал
@@ -2208,7 +2208,7 @@ uk-UA:
     Additional Editor: Додатковий монтажер
     Additional Editorial Assistant: Помічник із додаткового монтажу
     Additional Effects Development: Помічник із розроблення ефектів
-    Additional First Assistant Camera: 'Додаткова камера першого помічника '
+    Additional First Assistant Camera: Додатковий перший асистент камери
     Additional Gaffer: Додатковий освітлювач
     Additional Grip: Додатковий механік
     Additional Hairstylist: Додатковий стиліст зачісок
@@ -2222,7 +2222,7 @@ uk-UA:
     Additional Production Assistant: Додатковий помічник із виробництва
     Additional Production Sound Mixer: Додатковий виробничий змішувач звуку
     Additional Script Supervisor: Відповідальний за додатковий сценарій
-    Additional Second Assistant Camera: 'Додаткова камера другого помічника '
+    Additional Second Assistant Camera: Додатковий другий асистент камери
     Additional Second Assistant Director: Додатковий другий помічник режисера
     Additional Set Dresser: Додатковий декоратор
     Additional Set Photographer: Додатковий фотограф на зйомках
@@ -2461,13 +2461,13 @@ uk-UA:
     Dialogue Coach: Тренер діалогів
     Dialogue Editor: Монтажер діалогів
     Digital Color Timer:
-    Digital Colorist: Цифровий колорист
+    Digital Colorist: Колорист оцифровки
     Digital Compositor: Структурувальник оцифровки
     Digital Conform Editor:
     Digital Effects Producer: Продюсер цифрових ефектів
     Digital Effects Supervisor: Відповідальний за цифрові ефекти
     Digital Film Recording: Оцифрування плівки
-    Digital Foley Artist:
+    Digital Foley Artist: Звукоімітатор оцифровки
     Digital Imaging Technician:
     Digital Intermediate: Проміжна оцифровка
     Digital Intermediate Assistant: Помічник із проміжної оцифровки
@@ -3221,12 +3221,12 @@ uk-UA:
       success_fields_locked: Поля заблоковано.
       tagline:
         add_tagline: Додати слоган
-        already_exists:
+        already_exists: слоган уже існує
         lock_existing: Заблокувати наявні слогани
         locked: Цей слоган заблоковано
         no_taglines: Слоганів не додано.
         not_found: 'Ми не можемо знайти слоган, який ви намагалися редагувати. '
-        primary:
+        primary: Основний
         taglines: Слогани
         unable_to_delete: 'Слоган не може бути видалений. '
       tooltips:
@@ -3739,7 +3739,7 @@ uk-UA:
     available_sentences:
       ads: 'дивитися з рекламою '
       buy: придбати
-      flatrate:
+      flatrate: стримінг
       free: дивитися безкоштовно
       rent: взяти в прокат
       sentence:
@@ -3757,9 +3757,9 @@ uk-UA:
       hd: HD
       sd: SD
     monetization_types:
-      ads: Реклама
-      buy:
-      flatrate:
+      ads: Із рекламою
+      buy: Купівля
+      flatrate: Стримінг
       free: Безкоштовно
       rent: Прокат
     no_offers:

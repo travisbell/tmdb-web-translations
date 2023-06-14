@@ -2118,20 +2118,20 @@ pl-PL:
   images:
     confirm_delete: Czy na pewno chcesz usunąć ten obraz?
     upload_criteria:
-      '1': Maksymalna rozdzielczość 2000x3000
-      '2': Minimalna rozdzielczość 500x750
-      '3': Proporcje 1:1.5 (2:3)
-      '4': Maksymalne wymiary to 3840x2160
-      '5': Minimalne wymiary to 400x225
-      '6': 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
-      '7': Minimalne wymiary to 1280x720
-      '8': Wskaźnik proporcji 16x9 (1.78:1)
-      '9': Minimalna rozdzielczość 300x450
-      backdrops_must_meet:
-      episode_stills_must_meet: 'Zdjęcia z odcinka muszą spełniać poniższe kryteria:'
-      headshots_must_meet: 'Zdjęcia portretowe muszą spełniać poniższe kryteria:'
-      posters_must_meet: 'Plakaty muszą spełniać poniższe kryteria:'
-      profile_must_meet:
+      aspect_ratio_backdrops: Wskaźnik proporcji 16x9 (1.78:1)
+      aspect_ratio_both: 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
+      backdrops:
+      episode_stills: 'Zdjęcia z odcinka muszą spełniać poniższe kryteria:'
+      headshots: 'Zdjęcia portretowe muszą spełniać poniższe kryteria:'
+      landscape_max_res: Maksymalne wymiary to 3840x2160
+      landscape_min_res: Minimalne wymiary to 400x225
+      min_res_backdrops: Minimalne wymiary to 1280x720
+      min_res_posters: Minimalna rozdzielczość 500x750
+      portrait_aspect_ratio: Proporcje 1:1.5 (2:3)
+      portrait_max_res: Maksymalna rozdzielczość 2000x3000
+      portrait_min_res: Minimalna rozdzielczość 300x450
+      posters: 'Plakaty muszą spełniać poniższe kryteria:'
+      profile:
       read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.
       tip: Jeśli Twoja przeglądarka wspiera tę funkcjonalność, możesz przeciągnąć obrazki w pole poniżej. W przeciwnym razie naciśnij "Wybierz pliki" i wczytaj obraz ze swojego komputera.
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.

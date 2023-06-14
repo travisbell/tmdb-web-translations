@@ -2107,20 +2107,20 @@ fi-FI:
   images:
     confirm_delete: Oletko varma, että haluat poistaa tämän kuvan?
     upload_criteria:
-      '1': Maksimi resoluution 2000x3000
-      '2': Minimi resoluutio 500x750
-      '3': Kuvasuhde 1:1.5 (2:3)
-      '4': Maksimi resoluutio 3840x2160
-      '5': Minimi resoluutio 400x225
-      '6': Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
-      '7': Minimi resoluutio 1280x720
-      '8': Kuvasuhde 16x9 (1.78:1)
-      '9': Minimiresoluutio 300x450
-      backdrops_must_meet: 'Taustojen on täytettävä seuraavat kriteerit:'
-      episode_stills_must_meet: 'Kohtauskuvien on täytettävä seuraavat kriteerit:'
-      headshots_must_meet: 'Pääkuvien on täytettävä seuraavat kriteerit:'
-      posters_must_meet: 'Julisteiden on täytettävä seuraavat kriteerit:'
-      profile_must_meet: 'Profiilikuvien on täytettävä seuraavat kriteerit:'
+      aspect_ratio_backdrops: Kuvasuhde 16x9 (1.78:1)
+      aspect_ratio_both: Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
+      backdrops: 'Taustojen on täytettävä seuraavat kriteerit:'
+      episode_stills: 'Kohtauskuvien on täytettävä seuraavat kriteerit:'
+      headshots: 'Pääkuvien on täytettävä seuraavat kriteerit:'
+      landscape_max_res: Maksimi resoluutio 3840x2160
+      landscape_min_res: Minimi resoluutio 400x225
+      min_res_backdrops: Minimi resoluutio 1280x720
+      min_res_posters: Minimi resoluutio 500x750
+      portrait_aspect_ratio: Kuvasuhde 1:1.5 (2:3)
+      portrait_max_res: Maksimi resoluution 2000x3000
+      portrait_min_res: Minimiresoluutio 300x450
+      posters: 'Julisteiden on täytettävä seuraavat kriteerit:'
+      profile: 'Profiilikuvien on täytettävä seuraavat kriteerit:'
       read_guidelines: Ole hyvä ja tutustu päivitettyihin <a href="%{link}" target="_blank" rel="noopener">kuvien jako-ohjeisiin</a>.
       tip: Jos selaimesi tukee sitä, voit pudottaa kuvat alapuoliselle alueelle. Muutoin, klikkaa "valitse tiedosto..." nappia ja valitse kuvat tietokoneeltasi.
   invalid_aspect_ratio: Tämä kuvasuhde ei kelpaa.

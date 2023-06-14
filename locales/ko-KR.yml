@@ -2070,20 +2070,20 @@ ko-KR:
   images:
     confirm_delete: 정말로 이 이미지를 삭제하시겠습니까?
     upload_criteria:
-      '1': 최대 해상도 2000x3000
-      '2': 최소 해상도 500x750
-      '3': 화면 비율 1:1.5 (2:3)
-      '4': 최대 해상도 3840x2160
-      '5': 최소 해상도 400x225
-      '6': 화면 비율 16x9 (1.78:1) 이미지와 4:3 이미지 지원됨
-      '7': 최소 해상도 1280x720
-      '8': 화면 비율 16x9 (1.78:1)
-      '9': 최소 해상도 300x450
-      backdrops_must_meet: '배경 이미지는 다음 기준들을 충족해야합니다:'
-      episode_stills_must_meet: '에피소드 스틸 사진은 다음 기준들을 충족해야합니다:'
-      headshots_must_meet:
-      posters_must_meet: '포스터는 다음 기준들을 충족해야합니다:'
-      profile_must_meet: '프로필 이미지는 다음 기준들을 충족해야합니다:'
+      aspect_ratio_backdrops: 화면 비율 16x9 (1.78:1)
+      aspect_ratio_both: 화면 비율 16x9 (1.78:1) 이미지와 4:3 이미지 지원됨
+      backdrops: '배경 이미지는 다음 기준들을 충족해야합니다:'
+      episode_stills: '에피소드 스틸 사진은 다음 기준들을 충족해야합니다:'
+      headshots:
+      landscape_max_res: 최대 해상도 3840x2160
+      landscape_min_res: 최소 해상도 400x225
+      min_res_backdrops: 최소 해상도 1280x720
+      min_res_posters: 최소 해상도 500x750
+      portrait_aspect_ratio: 화면 비율 1:1.5 (2:3)
+      portrait_max_res: 최대 해상도 2000x3000
+      portrait_min_res: 최소 해상도 300x450
+      posters: '포스터는 다음 기준들을 충족해야합니다:'
+      profile: '프로필 이미지는 다음 기준들을 충족해야합니다:'
       read_guidelines: 본 사이트의 업데이트된 <a href="%{link}" target="_blank" rel="noopener">이미지 기여 지침서 내용</a>을 숙달하여 주십시오.
       tip: 지원가능한 브라우저를 쓰신다면, 이미지를 하단 영역에 끌어 놓아주십시오. 지원불가한 브라우저의 경우, '파일 선택' 버튼을 눌러서 이미지를 선택하여 주십시오.
   invalid_aspect_ratio: 비율이 올바르지 않습니다.

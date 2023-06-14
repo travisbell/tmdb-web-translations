@@ -2109,20 +2109,20 @@ en-US:
   images:
     confirm_delete: Are you sure you want to delete this image?
     upload_criteria:
-      '1': A maximum resolution of 2000x3000
-      '2': A minimum resolution of 500x750
-      '3': Aspect ratio of 1:1.5 (2:3)
-      '4': A maximum resolution of 3840x2160
-      '5': A minimum resolution of 400x225
-      '6': Aspect ratio of 16x9 (1.78:1) and 4:3 images are supported
-      '7': A minimum resolution of 1280x720
-      '8': Aspect ratio of 16x9 (1.78:1)
-      '9': A minimum resolution of 300x450
-      backdrops_must_meet: 'Backdrops must meet the following criteria:'
-      episode_stills_must_meet: 'Episode stills must meet the following criteria:'
-      headshots_must_meet: 'Headshots must meet the following criteria:'
-      posters_must_meet: 'Posters must meet the following criteria:'
-      profile_must_meet: 'Profile images must meet the following criteria:'
+      aspect_ratio_backdrops: Aspect ratio of 16x9 (1.78:1)
+      aspect_ratio_both: Aspect ratio of 16x9 (1.78:1) and 4:3 images are supported
+      backdrops: 'Backdrops must meet the following criteria:'
+      episode_stills: 'Episode stills must meet the following criteria:'
+      headshots: 'Headshots must meet the following criteria:'
+      landscape_max_res: A maximum resolution of 3840x2160
+      landscape_min_res: A minimum resolution of 400x225
+      min_res_backdrops: A minimum resolution of 1280x720
+      min_res_posters: A minimum resolution of 500x750
+      portrait_aspect_ratio: Aspect ratio of 1:1.5 (2:3)
+      portrait_max_res: A maximum resolution of 2000x3000
+      portrait_min_res: A minimum resolution of 300x450
+      posters: 'Posters must meet the following criteria:'
+      profile: 'Profile images must meet the following criteria:'
       read_guidelines: Please familiarize yourself with our updated <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
       tip: If your browser supports it, you can drag and drop an image onto the area below. Otherwise, just click the 'Select files...' button and choose the image from your computer.
   invalid_aspect_ratio: This aspect ratio is invalid.

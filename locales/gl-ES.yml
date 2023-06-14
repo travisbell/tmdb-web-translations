@@ -2099,20 +2099,20 @@ gl-ES:
   images:
     confirm_delete: Abofé queres eliminar esta imaxe?
     upload_criteria:
-      '1': Unha resolución máxima de 2000x3000
-      '2': Unha resolución mínima de 500x750
-      '3': Relación de aspecto de 1:1.5 (2:3)
-      '4': Unha resolución máxima de 3840x2160
-      '5': Unha resolución mínima de 400x225
-      '6': Sopórtanse imaxes cunha relación de aspecto de 16x9 (1.78:1) e 4:3
-      '7': Unha resolución mínima de 1280x720
-      '8': 'Relación de aspecto de 16x9 (1.78:1) '
-      '9': Unha resolución mínima de 300x450
-      backdrops_must_meet: 'As imaxes de fondo deben cumprir os seguintes requerimentos:'
-      episode_stills_must_meet: 'O episodio aínda debe cumprir os seguintes criterios:'
-      headshots_must_meet:
-      posters_must_meet: 'Os pósters deben cumprir os seguites criterios:'
-      profile_must_meet: 'As imaxes de perfil deber cumprir este criterio:'
+      aspect_ratio_backdrops: 'Relación de aspecto de 16x9 (1.78:1) '
+      aspect_ratio_both: Sopórtanse imaxes cunha relación de aspecto de 16x9 (1.78:1) e 4:3
+      backdrops: 'As imaxes de fondo deben cumprir os seguintes requerimentos:'
+      episode_stills: 'O episodio aínda debe cumprir os seguintes criterios:'
+      headshots:
+      landscape_max_res: Unha resolución máxima de 3840x2160
+      landscape_min_res: Unha resolución mínima de 400x225
+      min_res_backdrops: Unha resolución mínima de 1280x720
+      min_res_posters: Unha resolución mínima de 500x750
+      portrait_aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
+      portrait_max_res: Unha resolución máxima de 2000x3000
+      portrait_min_res: Unha resolución mínima de 300x450
+      posters: 'Os pósters deben cumprir os seguites criterios:'
+      profile: 'As imaxes de perfil deber cumprir este criterio:'
       read_guidelines: Por favor familiarízate coas <a href="%{link}" target="_blank" rel="noopener">novas directrices para contribuír con imaxes</a>.
       tip: Se o teu navigador o permite podes arrastrar e soltar unha imaxe na área de abaixo. De non ser así, preme o botón "Elixir arquivos...' e escolle a imaxe da túa computadora.
   invalid_aspect_ratio: Esta relación de aspecto non é válida.
