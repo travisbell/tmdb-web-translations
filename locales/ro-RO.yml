@@ -2113,21 +2113,33 @@ ro-RO:
         tomorrow: Un episod nou va fi difuzat mâine
   images:
     confirm_delete: Sigur doriți să ștergeți această imagine?
-    upload_criteria:
-      aspect_ratio_backdrops: Un raport de aspect 16x9 (1.78:1)
-      aspect_ratio_both: Sunt suportate imaginile cu un raport de aspect 16x9 (1.78:1) și 4:3
-      backdrops: " Fotografiile de fundal trebuie să îndeplinească următoarele criterii:"
-      episode_stills: 'Episoadele trebuie să îndeplinească următoarele criterii:'
-      headshots: 'Fotografiile trebuie să îndeplinească următoarele criterii:'
-      landscape_max_res: O rezoluție maximă de 3840x2160
-      landscape_min_res: O rezoluție minimă de 400x225
-      min_res_backdrops: O rezoluție minimă de 1280x720
-      min_res_posters: O rezoluție minimă de 500x750
-      portrait_aspect_ratio: Un raport de aspect de 1:1.5 (2:3)
-      portrait_max_res: O rezoluție maximă de 2000x3000
-      portrait_min_res: O rezoluție minimă de 300x450
-      posters: 'Afișele trebuie să îndeplinească următoarele criterii:'
-      profile: 'Imaginile de profil trebuie să îndeplinească următoarele criterii:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Un raport de aspect 16x9 (1.78:1)
+        format:
+        instructions: " Fotografiile de fundal trebuie să îndeplinească următoarele criterii:"
+        max_res: O rezoluție maximă de 3840x2160
+        min_res: O rezoluție minimă de 1280x720
+      criteria_episodes:
+        aspect_ratio: Sunt suportate imaginile cu un raport de aspect 16x9 (1.78:1) și 4:3
+        format:
+        instructions: 'Episoadele trebuie să îndeplinească următoarele criterii:'
+        max_res:
+        min_res: O rezoluție minimă de 400x225
+      criteria_headshots:
+        instructions: 'Fotografiile trebuie să îndeplinească următoarele criterii:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Afișele trebuie să îndeplinească următoarele criterii:'
+        max_res: O rezoluție maximă de 2000x3000
+        min_res: O rezoluție minimă de 500x750
+      criteria_profiles:
+        aspect_ratio: Un raport de aspect de 1:1.5 (2:3)
+        format:
+        instructions: 'Imaginile de profil trebuie să îndeplinească următoarele criterii:'
+        max_res:
+        min_res: O rezoluție minimă de 300x450
       read_guidelines: Vă rugăm să vă familiarizați cu actualizările noastre <a href="%{link}" target="_blank" rel="noopener"> privind regulile de contribuție cu imagini </a>.
       tip: Dacă browserul dvs. acceptă, puteți trage și plasa o imagine în zona de mai jos. În caz contrar, faceți clic pe butonul "Selectați fișiere ..." și alegeți imaginea de pe calculator.
   invalid_aspect_ratio: Acest raport de aspect nu este valid.

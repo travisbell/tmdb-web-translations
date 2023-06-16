@@ -2086,21 +2086,33 @@ zh-HK:
         tomorrow: 新的集數將於明天上映
   images:
     confirm_delete: 確定要刪除圖片嗎？
-    upload_criteria:
-      aspect_ratio_backdrops: 上傳圖片長寬比為 16x9 (1.78:1)
-      aspect_ratio_both: 上傳圖片長寬比為 16x9 (1.78:1) 或 4:3
-      backdrops: 背景圖片必須符合以下標準：
-      episode_stills: 影集劇照必須符合以下標準：
-      headshots:
-      landscape_max_res: 上傳圖片最大解析度為 3840x2160
-      landscape_min_res: 上傳圖片最小解析度為 400x225
-      min_res_backdrops: 上傳圖片最小解析度為 1280x720
-      min_res_posters: 上傳圖片最小解析度為 500x750
-      portrait_aspect_ratio: 上傳圖片長寬比為 1:1.5 (2:3)
-      portrait_max_res: 上傳圖片最大解析度為 2000x3000
-      portrait_min_res: 上傳圖片最小解析度為 300x450
-      posters: 電影海報必須符合以下標準：
-      profile: 個人資料圖片必須符合以下標準：
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: 上傳圖片長寬比為 16x9 (1.78:1)
+        format:
+        instructions: 背景圖片必須符合以下標準：
+        max_res: 上傳圖片最大解析度為 3840x2160
+        min_res: 上傳圖片最小解析度為 1280x720
+      criteria_episodes:
+        aspect_ratio: 上傳圖片長寬比為 16x9 (1.78:1) 或 4:3
+        format:
+        instructions: 影集劇照必須符合以下標準：
+        max_res:
+        min_res: 上傳圖片最小解析度為 400x225
+      criteria_headshots:
+        instructions:
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 電影海報必須符合以下標準：
+        max_res: 上傳圖片最大解析度為 2000x3000
+        min_res: 上傳圖片最小解析度為 500x750
+      criteria_profiles:
+        aspect_ratio: 上傳圖片長寬比為 1:1.5 (2:3)
+        format:
+        instructions: 個人資料圖片必須符合以下標準：
+        max_res:
+        min_res: 上傳圖片最小解析度為 300x450
       read_guidelines: 請隨時留意我們的更新資訊。<a href="%{link}" target="_blank" rel="noopener">圖片貢獻指南</a>.
       tip: 若您的瀏覽器支援，您可直接拖拉檔案至下面區域以供上傳圖片。若瀏覽器無支援，請點擊「選擇檔案...」按鈕並選擇圖片以供上傳。
   invalid_aspect_ratio: 比例不正確

@@ -2106,21 +2106,33 @@ fi-FI:
         tomorrow: Uusi jakso esitetään huomenna
   images:
     confirm_delete: Oletko varma, että haluat poistaa tämän kuvan?
-    upload_criteria:
-      aspect_ratio_backdrops: Kuvasuhde 16x9 (1.78:1)
-      aspect_ratio_both: Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
-      backdrops: 'Taustojen on täytettävä seuraavat kriteerit:'
-      episode_stills: 'Kohtauskuvien on täytettävä seuraavat kriteerit:'
-      headshots: 'Pääkuvien on täytettävä seuraavat kriteerit:'
-      landscape_max_res: Maksimi resoluutio 3840x2160
-      landscape_min_res: Minimi resoluutio 400x225
-      min_res_backdrops: Minimi resoluutio 1280x720
-      min_res_posters: Minimi resoluutio 500x750
-      portrait_aspect_ratio: Kuvasuhde 1:1.5 (2:3)
-      portrait_max_res: Maksimi resoluution 2000x3000
-      portrait_min_res: Minimiresoluutio 300x450
-      posters: 'Julisteiden on täytettävä seuraavat kriteerit:'
-      profile: 'Profiilikuvien on täytettävä seuraavat kriteerit:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Kuvasuhde 16x9 (1.78:1)
+        format:
+        instructions: 'Taustojen on täytettävä seuraavat kriteerit:'
+        max_res: Maksimi resoluutio 3840x2160
+        min_res: Minimi resoluutio 1280x720
+      criteria_episodes:
+        aspect_ratio: Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
+        format:
+        instructions: 'Kohtauskuvien on täytettävä seuraavat kriteerit:'
+        max_res:
+        min_res: Minimi resoluutio 400x225
+      criteria_headshots:
+        instructions: 'Pääkuvien on täytettävä seuraavat kriteerit:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Julisteiden on täytettävä seuraavat kriteerit:'
+        max_res: Maksimi resoluution 2000x3000
+        min_res: Minimi resoluutio 500x750
+      criteria_profiles:
+        aspect_ratio: Kuvasuhde 1:1.5 (2:3)
+        format:
+        instructions: 'Profiilikuvien on täytettävä seuraavat kriteerit:'
+        max_res:
+        min_res: Minimiresoluutio 300x450
       read_guidelines: Ole hyvä ja tutustu päivitettyihin <a href="%{link}" target="_blank" rel="noopener">kuvien jako-ohjeisiin</a>.
       tip: Jos selaimesi tukee sitä, voit pudottaa kuvat alapuoliselle alueelle. Muutoin, klikkaa "valitse tiedosto..." nappia ja valitse kuvat tietokoneeltasi.
   invalid_aspect_ratio: Tämä kuvasuhde ei kelpaa.

@@ -2117,21 +2117,33 @@ pl-PL:
         tomorrow: Nowy odcinek jutro
   images:
     confirm_delete: Czy na pewno chcesz usunąć ten obraz?
-    upload_criteria:
-      aspect_ratio_backdrops: Wskaźnik proporcji 16x9 (1.78:1)
-      aspect_ratio_both: 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
-      backdrops:
-      episode_stills: 'Zdjęcia z odcinka muszą spełniać poniższe kryteria:'
-      headshots: 'Zdjęcia portretowe muszą spełniać poniższe kryteria:'
-      landscape_max_res: Maksymalne wymiary to 3840x2160
-      landscape_min_res: Minimalne wymiary to 400x225
-      min_res_backdrops: Minimalne wymiary to 1280x720
-      min_res_posters: Minimalna rozdzielczość 500x750
-      portrait_aspect_ratio: Proporcje 1:1.5 (2:3)
-      portrait_max_res: Maksymalna rozdzielczość 2000x3000
-      portrait_min_res: Minimalna rozdzielczość 300x450
-      posters: 'Plakaty muszą spełniać poniższe kryteria:'
-      profile:
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Wskaźnik proporcji 16x9 (1.78:1)
+        format:
+        instructions:
+        max_res: Maksymalne wymiary to 3840x2160
+        min_res: Minimalne wymiary to 1280x720
+      criteria_episodes:
+        aspect_ratio: 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
+        format:
+        instructions: 'Zdjęcia z odcinka muszą spełniać poniższe kryteria:'
+        max_res:
+        min_res: Minimalne wymiary to 400x225
+      criteria_headshots:
+        instructions: 'Zdjęcia portretowe muszą spełniać poniższe kryteria:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Plakaty muszą spełniać poniższe kryteria:'
+        max_res: Maksymalna rozdzielczość 2000x3000
+        min_res: Minimalna rozdzielczość 500x750
+      criteria_profiles:
+        aspect_ratio: Proporcje 1:1.5 (2:3)
+        format:
+        instructions:
+        max_res:
+        min_res: Minimalna rozdzielczość 300x450
       read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.
       tip: Jeśli Twoja przeglądarka wspiera tę funkcjonalność, możesz przeciągnąć obrazki w pole poniżej. W przeciwnym razie naciśnij "Wybierz pliki" i wczytaj obraz ze swojego komputera.
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.

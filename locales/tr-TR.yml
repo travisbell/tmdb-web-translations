@@ -2085,21 +2085,33 @@ tr-TR:
         tomorrow: Yeni bölüm yarın yayınlanıyor
   images:
     confirm_delete: Bu görseli silmek istediğinizden emin misiniz?
-    upload_criteria:
-      aspect_ratio_backdrops: En boy oranı 16x9 (1.78:1)
-      aspect_ratio_both: 16x9 (1.78:1) ve 4:3 görüntülerin en boy oranı destekleniyor
-      backdrops: 'Arka plan aşağıdaki kriterlere uygun olmalıdır:'
-      episode_stills: 'Bölüm hala aşağıdaki kriterleri karşılamalıdır:'
-      headshots: 'Vesikalık resimler aşağıdaki kriterleri karşılamalıdır:'
-      landscape_max_res: Maksimum çözünürlük 3840x2160
-      landscape_min_res: Minimum çözünürlük 400x225
-      min_res_backdrops: 1280x720 minimum çözünürlük
-      min_res_posters: Minimum çözünürlük 500x750
-      portrait_aspect_ratio: 'En boy oranı 1:1.5 (2: 3)'
-      portrait_max_res: maksimum çözünürlük 2000x3000
-      portrait_min_res: En az 300x450 çözünürlük
-      posters: 'Afişler aşağıdaki kriterleri karşılamalıdır:'
-      profile: 'Profil görselleri şu şartları sağlamalıdır:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: En boy oranı 16x9 (1.78:1)
+        format:
+        instructions: 'Arka plan aşağıdaki kriterlere uygun olmalıdır:'
+        max_res: Maksimum çözünürlük 3840x2160
+        min_res: 1280x720 minimum çözünürlük
+      criteria_episodes:
+        aspect_ratio: 16x9 (1.78:1) ve 4:3 görüntülerin en boy oranı destekleniyor
+        format:
+        instructions: 'Bölüm hala aşağıdaki kriterleri karşılamalıdır:'
+        max_res:
+        min_res: Minimum çözünürlük 400x225
+      criteria_headshots:
+        instructions: 'Vesikalık resimler aşağıdaki kriterleri karşılamalıdır:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Afişler aşağıdaki kriterleri karşılamalıdır:'
+        max_res: maksimum çözünürlük 2000x3000
+        min_res: Minimum çözünürlük 500x750
+      criteria_profiles:
+        aspect_ratio: 'En boy oranı 1:1.5 (2: 3)'
+        format:
+        instructions: 'Profil görselleri şu şartları sağlamalıdır:'
+        max_res:
+        min_res: En az 300x450 çözünürlük
       read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">görsel ekleme rehberimizi</a> inceleyin.
       tip: Tarayıcınız destekliyorsa, bir görseli aşağıdaki alana sürükleyip bırakabilirsiniz. Aksi takdirde, 'Dosyaları seç/Gözat...' düğmesine tıklayın ve bilgisayarınızdan yüklemek istediğiniz görseli seçin.
   invalid_aspect_ratio: Bu en boy oranı geçersiz

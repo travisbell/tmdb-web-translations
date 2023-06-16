@@ -2102,21 +2102,33 @@ es-MX:
         tomorrow: Mañana sale un nuevo episodio
   images:
     confirm_delete: "¿Estás seguro que deseas eliminar esta imagen?"
-    upload_criteria:
-      aspect_ratio_backdrops: Relación de aspecto de 16:9 (1.78:1)
-      aspect_ratio_both: 'Relación de aspecto de 16x9 (1.78: 1) y 4:3 imágenes son compatibles'
-      backdrops: 'Los fondos deben cumplir los siguientes criterios:'
-      episode_stills: 'Las imágenes fijas del episodio deben cumplir los siguientes criterios:'
-      headshots:
-      landscape_max_res: Una resolución máxima de 3840x2160
-      landscape_min_res: Una resolución mínima de 400x225
-      min_res_backdrops: Una resolución mínima de 1280x720
-      min_res_posters: Una resolución mínima de 500x750
-      portrait_aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
-      portrait_max_res: Una resolución máxima de 2000x3000
-      portrait_min_res: Una resolución mínima de 300x450
-      posters: 'Los Pósters deben cumplir los siguientes criterios:'
-      profile: 'Las Imáenes de Perfil deben cumplir los siguientes criterios:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Relación de aspecto de 16:9 (1.78:1)
+        format:
+        instructions: 'Los fondos deben cumplir los siguientes criterios:'
+        max_res: Una resolución máxima de 3840x2160
+        min_res: Una resolución mínima de 1280x720
+      criteria_episodes:
+        aspect_ratio: 'Relación de aspecto de 16x9 (1.78: 1) y 4:3 imágenes son compatibles'
+        format:
+        instructions: 'Las imágenes fijas del episodio deben cumplir los siguientes criterios:'
+        max_res:
+        min_res: Una resolución mínima de 400x225
+      criteria_headshots:
+        instructions:
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Los Pósters deben cumplir los siguientes criterios:'
+        max_res: Una resolución máxima de 2000x3000
+        min_res: Una resolución mínima de 500x750
+      criteria_profiles:
+        aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
+        format:
+        instructions: 'Las Imáenes de Perfil deben cumplir los siguientes criterios:'
+        max_res:
+        min_res: Una resolución mínima de 300x450
       read_guidelines: Por favor, familiarícese con nuestra actualización <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
       tip: Si el navegador lo soporta, puedes arrastrar y soltar la imagen en el área debajo. De lo contrario, haz clic en "Seleccionar Archivos" y escoge la imagen manualmente.
   invalid_aspect_ratio: La proporción es incorrecta.

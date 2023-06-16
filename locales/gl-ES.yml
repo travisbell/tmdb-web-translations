@@ -2098,21 +2098,33 @@ gl-ES:
         tomorrow: Maña emítiese un novo episodio
   images:
     confirm_delete: Abofé queres eliminar esta imaxe?
-    upload_criteria:
-      aspect_ratio_backdrops: 'Relación de aspecto de 16x9 (1.78:1) '
-      aspect_ratio_both: Sopórtanse imaxes cunha relación de aspecto de 16x9 (1.78:1) e 4:3
-      backdrops: 'As imaxes de fondo deben cumprir os seguintes requerimentos:'
-      episode_stills: 'O episodio aínda debe cumprir os seguintes criterios:'
-      headshots:
-      landscape_max_res: Unha resolución máxima de 3840x2160
-      landscape_min_res: Unha resolución mínima de 400x225
-      min_res_backdrops: Unha resolución mínima de 1280x720
-      min_res_posters: Unha resolución mínima de 500x750
-      portrait_aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
-      portrait_max_res: Unha resolución máxima de 2000x3000
-      portrait_min_res: Unha resolución mínima de 300x450
-      posters: 'Os pósters deben cumprir os seguites criterios:'
-      profile: 'As imaxes de perfil deber cumprir este criterio:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: 'Relación de aspecto de 16x9 (1.78:1) '
+        format:
+        instructions: 'As imaxes de fondo deben cumprir os seguintes requerimentos:'
+        max_res: Unha resolución máxima de 3840x2160
+        min_res: Unha resolución mínima de 1280x720
+      criteria_episodes:
+        aspect_ratio: Sopórtanse imaxes cunha relación de aspecto de 16x9 (1.78:1) e 4:3
+        format:
+        instructions: 'O episodio aínda debe cumprir os seguintes criterios:'
+        max_res:
+        min_res: Unha resolución mínima de 400x225
+      criteria_headshots:
+        instructions:
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Os pósters deben cumprir os seguites criterios:'
+        max_res: Unha resolución máxima de 2000x3000
+        min_res: Unha resolución mínima de 500x750
+      criteria_profiles:
+        aspect_ratio: Relación de aspecto de 1:1.5 (2:3)
+        format:
+        instructions: 'As imaxes de perfil deber cumprir este criterio:'
+        max_res:
+        min_res: Unha resolución mínima de 300x450
       read_guidelines: Por favor familiarízate coas <a href="%{link}" target="_blank" rel="noopener">novas directrices para contribuír con imaxes</a>.
       tip: Se o teu navigador o permite podes arrastrar e soltar unha imaxe na área de abaixo. De non ser así, preme o botón "Elixir arquivos...' e escolle a imaxe da túa computadora.
   invalid_aspect_ratio: Esta relación de aspecto non é válida.

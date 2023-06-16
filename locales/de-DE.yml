@@ -2104,21 +2104,33 @@ de-DE:
         tomorrow: Neue Episode erscheint morgen
   images:
     confirm_delete: Möchtest Du dieses Bild wirklich löschen?
-    upload_criteria:
-      aspect_ratio_backdrops: Seitenverhältnis 16:9 (1,78:1)
-      aspect_ratio_both: Bilder im Seitenverhältnis 16:9 (1,78:1) und 4:3 werden unterstützt
-      backdrops: 'Hintergrundbilder müssen folgende Kriterien erfüllen:'
-      episode_stills: 'Episodenfotos müssen folgende Kriterien erfüllen:'
-      headshots: 'Portraits müssen die folgenden Kriterien erfüllen:'
-      landscape_max_res: Eine maximale Auflösung von 3840x2160 Pixel
-      landscape_min_res: Eine Mindestauflösung von 400x225 Pixel
-      min_res_backdrops: Eine Mindestauflösung von 1280x720 Pixel
-      min_res_posters: Eine Mindestauflösung von 500x750 Pixel
-      portrait_aspect_ratio: Seitenverhältnis 1:1,5 (2:3)
-      portrait_max_res: Eine maximale Auflösung von 2000x3000 Pixel
-      portrait_min_res: Eine Mindestauflösung von 300x450 Pixel
-      posters: 'Poster müssen folgenden Kriterien entsprechen:'
-      profile: 'Profilbilder müssen folgende Kriterien erfüllen:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Seitenverhältnis 16:9 (1,78:1)
+        format:
+        instructions: 'Hintergrundbilder müssen folgende Kriterien erfüllen:'
+        max_res: Eine maximale Auflösung von 3840x2160 Pixel
+        min_res: Eine Mindestauflösung von 1280x720 Pixel
+      criteria_episodes:
+        aspect_ratio: Bilder im Seitenverhältnis 16:9 (1,78:1) und 4:3 werden unterstützt
+        format:
+        instructions: 'Episodenfotos müssen folgende Kriterien erfüllen:'
+        max_res:
+        min_res: Eine Mindestauflösung von 400x225 Pixel
+      criteria_headshots:
+        instructions: 'Portraits müssen die folgenden Kriterien erfüllen:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Poster müssen folgenden Kriterien entsprechen:'
+        max_res: Eine maximale Auflösung von 2000x3000 Pixel
+        min_res: Eine Mindestauflösung von 500x750 Pixel
+      criteria_profiles:
+        aspect_ratio: Seitenverhältnis 1:1,5 (2:3)
+        format:
+        instructions: 'Profilbilder müssen folgende Kriterien erfüllen:'
+        max_res:
+        min_res: Eine Mindestauflösung von 300x450 Pixel
       read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut
       tip: Falls von deinem Browser unterstützt, kann ein Bild auf die Fläche unterhalb gezogen und abgelegt werden. Ansonsten einfach auf die Schaltfläche „Dateien auswählen” klicken und ein Bild auswählen.
   invalid_aspect_ratio: Seitenverhältnis unzulässig.

@@ -2108,21 +2108,33 @@ fr-FR:
         tomorrow: Nouvel épisode diffusé demain.
   images:
     confirm_delete: Voulez-vous vraiment supprimer cette image / photo ?
-    upload_criteria:
-      aspect_ratio_backdrops: Format d'image / photo de 16 x 9 (1,78:1)
-      aspect_ratio_both: Les formats d'images / photos de 16 x 9 (1,78:1) et de 4:3 sont supportés.
-      backdrops: 'Les fonds d''écran doivent respecter les critères suivants :'
-      episode_stills: 'Les fonds d''écran d''épisodes doivent respecter les critères suivants :'
-      headshots: 'Les photos de profil doivent respecter les critères suivants :'
-      landscape_max_res: Une résolution maximale de 3840 x 2160 pixels
-      landscape_min_res: Une résolution minimale de 400 x 225 pixels
-      min_res_backdrops: Une résolution minimale de 1280 x 720 pixels
-      min_res_posters: Une résolution minimale de 500 x 750 pixels
-      portrait_aspect_ratio: Format d'image de 1:1,5 (2:3) - Largeur x 1,5 = hauteur
-      portrait_max_res: Une résolution maximale de 2 000 x 3 000 pixels
-      portrait_min_res: Une résolution minimale de 300 x 450 pixels
-      posters: 'Les affiches doivent respecter les critères suivants :'
-      profile: 'Les photos de profil doivent respecter les critères suivants :'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Format d'image / photo de 16 x 9 (1,78:1)
+        format:
+        instructions: 'Les fonds d''écran doivent respecter les critères suivants :'
+        max_res: Une résolution maximale de 3840 x 2160 pixels
+        min_res: Une résolution minimale de 1280 x 720 pixels
+      criteria_episodes:
+        aspect_ratio: Les formats d'images / photos de 16 x 9 (1,78:1) et de 4:3 sont supportés.
+        format:
+        instructions: 'Les fonds d''écran d''épisodes doivent respecter les critères suivants :'
+        max_res:
+        min_res: Une résolution minimale de 400 x 225 pixels
+      criteria_headshots:
+        instructions: 'Les photos de profil doivent respecter les critères suivants :'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Les affiches doivent respecter les critères suivants :'
+        max_res: Une résolution maximale de 2 000 x 3 000 pixels
+        min_res: Une résolution minimale de 500 x 750 pixels
+      criteria_profiles:
+        aspect_ratio: Format d'image de 1:1,5 (2:3) - Largeur x 1,5 = hauteur
+        format:
+        instructions: 'Les photos de profil doivent respecter les critères suivants :'
+        max_res:
+        min_res: Une résolution minimale de 300 x 450 pixels
       read_guidelines: Veuillez vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images / photos</a>.
       tip: Si votre navigateur le supporte, vous pouvez glisser et déposer une image / photo sur la zone ci-dessous. Sinon, vous pouvez simplement cliquer sur le bouton « Sélectionner les fichiers... » et choisir l'image / photo depuis votre ordinateur.
   invalid_aspect_ratio: Ce format d'image / photo n'est pas valide.

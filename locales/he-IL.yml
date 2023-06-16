@@ -2106,21 +2106,33 @@ he-IL:
         tomorrow: פרק חדש ישודר מחר
   images:
     confirm_delete: האם אתה בטוח שאתה רוצה למחוק תמונה זו?
-    upload_criteria:
-      aspect_ratio_backdrops: יחס רוחב־גובה של 16x9 (1.78:1)
-      aspect_ratio_both: יחס רוחב־גובה של 16x9 (1.78:1) ותמונות 4:3 נתמכים
-      backdrops: 'תפאורות־רקע חייבות לעמוד באמות המידה הבאות:'
-      episode_stills: 'תצלומי פרק חייבים לעמוד באמות המידה הבאות:'
-      headshots: 'תצלומי פנים חייבים לעמוד בקריטריונים הבאים:'
-      landscape_max_res: רזולוציה מרבית של 3840x2160
-      landscape_min_res: רזולוציה מזערית של 400x225
-      min_res_backdrops: רזולוציה מזערית של 1280x720
-      min_res_posters: רזולוציה מזערית של 500x750
-      portrait_aspect_ratio: יחס רוחב־גובה
-      portrait_max_res: רזולוציה מרבית של 2000x3000
-      portrait_min_res: רזולוציה מזערית של 300x450
-      posters: 'כרזות חייבות לעמוד באמות המידה הבאות:'
-      profile: 'תמונות פרופיל חייבות לעמוד באמות המידה הבאות:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: יחס רוחב־גובה של 16x9 (1.78:1)
+        format:
+        instructions: 'תפאורות־רקע חייבות לעמוד באמות המידה הבאות:'
+        max_res: רזולוציה מרבית של 3840x2160
+        min_res: רזולוציה מזערית של 1280x720
+      criteria_episodes:
+        aspect_ratio: יחס רוחב־גובה של 16x9 (1.78:1) ותמונות 4:3 נתמכים
+        format:
+        instructions: 'תצלומי פרק חייבים לעמוד באמות המידה הבאות:'
+        max_res:
+        min_res: רזולוציה מזערית של 400x225
+      criteria_headshots:
+        instructions: 'תצלומי פנים חייבים לעמוד בקריטריונים הבאים:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'כרזות חייבות לעמוד באמות המידה הבאות:'
+        max_res: רזולוציה מרבית של 2000x3000
+        min_res: רזולוציה מזערית של 500x750
+      criteria_profiles:
+        aspect_ratio: יחס רוחב־גובה
+        format:
+        instructions: 'תמונות פרופיל חייבות לעמוד באמות המידה הבאות:'
+        max_res:
+        min_res: רזולוציה מזערית של 300x450
       read_guidelines: אנא היוודע עם <a href="%{link}" target="_blank" rel="noopener">הקווים המנחים של תרומת תמונה</a> שלנו
       tip: אם הדפדפן שלך תומך בזה, אתה יכול לגרור ולשחרר תמונה לתוך האזור למטה. אחרת, פשוט תלחץ על הכפתור 'בחר קבצים...' ובחר את התמונה מתוך המחשב שלך.
   invalid_aspect_ratio: יחס היבט זה אינו חוקי.

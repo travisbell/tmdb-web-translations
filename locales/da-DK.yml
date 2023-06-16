@@ -2102,21 +2102,33 @@ da-DK:
         tomorrow: Nyt afsnit bliver sendt i morgen
   images:
     confirm_delete: Er du sikker på du vil slette dette billede?
-    upload_criteria:
-      aspect_ratio_backdrops: Aspekt Ratio på 16x9 (1,78:1)
-      aspect_ratio_both: Aspekt Ratio på 16x9 (1,78:1) og 4:3 billeder er supportet
-      backdrops: 'Kulisser skal møde følgende kriterier:'
-      episode_stills: 'Episode skal stadig møde følgende kriterier:'
-      headshots: 'Portrætfoto skal møde følgende kriterier:'
-      landscape_max_res: Opløsning på maximum 3840x2160
-      landscape_min_res: Opløsning på minimum 400x225
-      min_res_backdrops: Opløsning på minimum 1280x720
-      min_res_posters: Opløsning på minimum 500x750
-      portrait_aspect_ratio: Aspekt Ratio på 1:1,5 (2:3)
-      portrait_max_res: Opløsning på maximum 2000x3000
-      portrait_min_res: Opløsning på minimum 300x450
-      posters: 'Plakater skal opfylde følgende kriterier:'
-      profile: 'Profilbilleder skal opfylde følgende kriterier:'
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: Aspekt Ratio på 16x9 (1,78:1)
+        format:
+        instructions: 'Kulisser skal møde følgende kriterier:'
+        max_res: Opløsning på maximum 3840x2160
+        min_res: Opløsning på minimum 1280x720
+      criteria_episodes:
+        aspect_ratio: Aspekt Ratio på 16x9 (1,78:1) og 4:3 billeder er supportet
+        format:
+        instructions: 'Episode skal stadig møde følgende kriterier:'
+        max_res:
+        min_res: Opløsning på minimum 400x225
+      criteria_headshots:
+        instructions: 'Portrætfoto skal møde følgende kriterier:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 'Plakater skal opfylde følgende kriterier:'
+        max_res: Opløsning på maximum 2000x3000
+        min_res: Opløsning på minimum 500x750
+      criteria_profiles:
+        aspect_ratio: Aspekt Ratio på 1:1,5 (2:3)
+        format:
+        instructions: 'Profilbilleder skal opfylde følgende kriterier:'
+        max_res:
+        min_res: Opløsning på minimum 300x450
       read_guidelines: Gør dig bekendt med vores opdaterede <a href="%{link}" target="_blank" rel="noopener">retningslinjer for billedebidrag</a>.
       tip:
   invalid_aspect_ratio: Dette billedeformat er ugyldigt.

@@ -2100,21 +2100,33 @@ zh-CN:
         tomorrow: 明日播出的新集
   images:
     confirm_delete: 确定要删除此图片吗？
-    upload_criteria:
-      aspect_ratio_backdrops: 宽高比为 16x9 (1.78:1)
-      aspect_ratio_both: 支持 16x9 (1.78:1) 和 4:3 图像的宽高比
-      backdrops: 背景幕布需满足以下标准：
-      episode_stills: 单集需满足以下标准：
-      headshots: '大头照必须符合以下条件:'
-      landscape_max_res: 最高分辨率为 3840x2160
-      landscape_min_res: 最低分辨率为 400x225
-      min_res_backdrops: 最低分辨率为 1280x720
-      min_res_posters: 最低分辨率为 500x750
-      portrait_aspect_ratio: 宽高比为 1:1.5 (2:3)
-      portrait_max_res: 最高分辨率为 2000x3000
-      portrait_min_res: 最小分辨率为 300x450
-      posters: 海报需要符合下列条件：
-      profile: 个人图片必须符合下列条件：
+    upload_instructions:
+      criteria_backdrops:
+        aspect_ratio: 宽高比为 16x9 (1.78:1)
+        format:
+        instructions: 背景幕布需满足以下标准：
+        max_res: 最高分辨率为 3840x2160
+        min_res: 最低分辨率为 1280x720
+      criteria_episodes:
+        aspect_ratio: 支持 16x9 (1.78:1) 和 4:3 图像的宽高比
+        format:
+        instructions: 单集需满足以下标准：
+        max_res:
+        min_res: 最低分辨率为 400x225
+      criteria_headshots:
+        instructions: '大头照必须符合以下条件:'
+      criteria_posters:
+        aspect_ratio:
+        format:
+        instructions: 海报需要符合下列条件：
+        max_res: 最高分辨率为 2000x3000
+        min_res: 最低分辨率为 500x750
+      criteria_profiles:
+        aspect_ratio: 宽高比为 1:1.5 (2:3)
+        format:
+        instructions: 个人图片必须符合下列条件：
+        max_res:
+        min_res: 最小分辨率为 300x450
       read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
   invalid_aspect_ratio: 此宽高比无效。
