@@ -2102,35 +2102,20 @@ bg-BG:
         tomorrow: Нов епизод ще се излъчи утре
   images:
     confirm_delete: Сигурни ли сте, че искате да изтриете изображението?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Съотношение на страните 16x9 (1.78:1)
-        format:
-        instructions: 'Тапетите трябва да изпълняват следните изисквания:'
-        max_res: Максимална резолюция 3840x2160
-        min_res: Минимална резолюция 1280x720
-      criteria_episodes:
-        aspect_ratio: Съотношение на страните 16x9 (1.78:1) и 4:3
-        format:
-        instructions: 'Епизодът трябва да изпълнява следните изисквания:'
-        max_res:
-        min_res: Минимална резолюция 400x225
-      criteria_headshots:
-        instructions:
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Плакатите трябва да изпълняват следните изисквания:'
-        max_res: Максимална резолюция 2000x3000
-        min_res: Минимална резолюция 500x750
-      criteria_profiles:
-        aspect_ratio: Съотношение на страните 1:1.5 (2:3)
-        format:
-        instructions: 'Профилните изображения трябва да отговарят на следните изисквания:'
-        max_res:
-        min_res: Минимална резолюция 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Моля, запознайте се с обновените <a href="%{link}" target="_blank" rel="noopener">правила за изображенията</a>.
       tip: Можете да придърпате изображението в зоната долу, ако браузерът Ви поддържа тази функция. Иначе, можете да използвате бутона за избор на файлове.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Съотношението на страните не е валидно
   item_count:
     one: "%{count} елемент"

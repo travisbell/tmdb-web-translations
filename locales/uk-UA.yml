@@ -2130,35 +2130,20 @@ uk-UA:
         tomorrow: Нова серія транслюється завтра
   images:
     confirm_delete: Упевнені, що хочете видалити це зображення?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Співвідношення сторін – 16x9 (1,78:1)
-        format:
-        instructions: 'Світлини мають відповідати таким критеріям:'
-        max_res: Максимальна роздільна здатність – 3840x2160
-        min_res: Мінімальна роздільна здатність – 1280x720
-      criteria_episodes:
-        aspect_ratio: Підтримуються зображення зі співвідношенням сторін 16x9 та 4х3
-        format:
-        instructions: 'Серія все ще потребує узгодження з такими критеріями:'
-        max_res:
-        min_res: Мінімальна роздільна здатність – 400x225
-      criteria_headshots:
-        instructions: 'Портрети мають відповідати таким критеріям:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Постери мають відповідати таким критеріям:'
-        max_res: Максимальна роздільна здатність – 2000x3000
-        min_res: Мінімальна роздільна здатність – 500x750
-      criteria_profiles:
-        aspect_ratio: Співвідношення сторін – 1:1,5 (2:3)
-        format:
-        instructions: 'Обов’язкові вимоги до зображень профілю:'
-        max_res:
-        min_res: Мінімальна роздільна здатність – 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднання зображень</a>.
       tip: Якщо ваш браузер підтримує, можете перетягнути зображення на ділянку нижче. Або ж натисніть кнопку «Вибрати файли...», знайдіть і виберіть відповідний файл на своєму комп’ютері.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Співвідношення сторін неправильне.
   item_count:
     few: "%{count} елементи"

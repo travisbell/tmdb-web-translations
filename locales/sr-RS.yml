@@ -2117,35 +2117,20 @@ sr-RS:
         tomorrow: Нова епизода се емитује сутра
   images:
     confirm_delete: Да ли сте сигурни да желите да обришете ову слику?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Пропорција слике од 16x9 (1.78:1)
-        format:
-        instructions: 'Позадине морају да испуњавају следеће критеријуме:'
-        max_res: Максимална резолуција 3840x2160
-        min_res: Минимална резолуција 1280x720
-      criteria_episodes:
-        aspect_ratio: Пропорције слике од 16x9 (1.78:1) и 4:3 су подржане.
-        format:
-        instructions: 'Епизоде морају да испоштују следеће критеријуме:'
-        max_res:
-        min_res: Минимална резолуција од 400x225
-      criteria_headshots:
-        instructions: 'Снимке главе морају испуњавати следеће критеријуме:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Постери морају да испоштују следеће критеријуме:'
-        max_res: Максимална резолуција 2000x3000
-        min_res: Минимална резолуција 500x750
-      criteria_profiles:
-        aspect_ratio: Пропорција слике 1:1.5 (2:3)
-        format:
-        instructions: 'Профилне слике морају да испоштују следеће критеријуме:'
-        max_res:
-        min_res: Минимална резолуција 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Упознајте се са нашим ажурираним <a href="%{link}" target="_blank" rel="noopener">смерницама доприноса за слике</a>.
       tip: Ако ваш прегледач подржава, можете повући и испустити слику на подручје испод. У супротном, само кликните на дугме „Изаберите фајлове ...“ и изаберите слику са свог рачунара.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Ова пропорција слике није исправна.
   item_count:
     few: "%{count} ставке"

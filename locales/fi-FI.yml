@@ -2106,35 +2106,20 @@ fi-FI:
         tomorrow: Uusi jakso esitetään huomenna
   images:
     confirm_delete: Oletko varma, että haluat poistaa tämän kuvan?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Kuvasuhde 16x9 (1.78:1)
-        format:
-        instructions: 'Taustojen on täytettävä seuraavat kriteerit:'
-        max_res: Maksimi resoluutio 3840x2160
-        min_res: Minimi resoluutio 1280x720
-      criteria_episodes:
-        aspect_ratio: Kuvasuhteen 16x9 (1.78:1) ja 4:3 kuvat ovat tuettuja
-        format:
-        instructions: 'Kohtauskuvien on täytettävä seuraavat kriteerit:'
-        max_res:
-        min_res: Minimi resoluutio 400x225
-      criteria_headshots:
-        instructions: 'Pääkuvien on täytettävä seuraavat kriteerit:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Julisteiden on täytettävä seuraavat kriteerit:'
-        max_res: Maksimi resoluution 2000x3000
-        min_res: Minimi resoluutio 500x750
-      criteria_profiles:
-        aspect_ratio: Kuvasuhde 1:1.5 (2:3)
-        format:
-        instructions: 'Profiilikuvien on täytettävä seuraavat kriteerit:'
-        max_res:
-        min_res: Minimiresoluutio 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Ole hyvä ja tutustu päivitettyihin <a href="%{link}" target="_blank" rel="noopener">kuvien jako-ohjeisiin</a>.
       tip: Jos selaimesi tukee sitä, voit pudottaa kuvat alapuoliselle alueelle. Muutoin, klikkaa "valitse tiedosto..." nappia ja valitse kuvat tietokoneeltasi.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Tämä kuvasuhde ei kelpaa.
   item_count:
     one: "%{count} nimike"

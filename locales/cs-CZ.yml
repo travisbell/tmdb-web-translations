@@ -2114,35 +2114,20 @@ cs-CZ:
         tomorrow: Nová epizoda se vysílá zítra
   images:
     confirm_delete: Opravdu chcete odstranit tento obrázek?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Poměr stran 16:9 (1,78:1)
-        format:
-        instructions: 'Pozadí musí splňovat následující kritéria:'
-        max_res: Maximální rozlišení 3840x2160
-        min_res: Minimální rozlišení 1280x720
-      criteria_episodes:
-        aspect_ratio: Jsou podporovány obrázky s poměrem stran 16:9 (1,78:1) a 4:3
-        format:
-        instructions: 'Obrázky epizod musí splňovat následující kritéria:'
-        max_res:
-        min_res: Minimální rozlišení 400x225
-      criteria_headshots:
-        instructions: 'Portréty musí splňovat následující kritéria:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Plakáty musí splňovat následující kritéria:'
-        max_res: Maximální rozlišení 2000x3000
-        min_res: Minimální rozlišení 500x750
-      criteria_profiles:
-        aspect_ratio: Poměr stran 1:1,5 (2:3)
-        format:
-        instructions: 'Profilové obrázky musí splňovat následující kritéria:'
-        max_res:
-        min_res: Minimální rozlišení 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Seznamte se s našimi <a href="%{link}" target="_blank" rel="noopener">zásadami přispívání obrázků</a>.
       tip: Pokud to váš prohlížeč podporuje, můžete přetáhnout obrázek na níže uvedenou oblast. Jinak prostě klikněte na tlačítko 'Vybrat soubory...' a zvolte obrázek z vašeho počítače.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Tento poměr stran je neplatný.
   item_count:
     few: "%{count} položky"
@@ -3211,12 +3196,12 @@ cs-CZ:
       success_fields_locked: Pole uzamčena.
       tagline:
         add_tagline: Přidat slogan
-        already_exists:
+        already_exists: slogan již exituje
         lock_existing: Uzamknout stávající slogany
         locked: Tento slogan je uzamčený
         no_taglines: Žádné slogany nebyly přidány.
         not_found: Slogan, který chcete upravit, nebyl nalezen.
-        primary:
+        primary: Primární
         taglines: Slogany
         unable_to_delete: Slogan nelze smazat.
       tooltips:

@@ -2108,35 +2108,20 @@ en-US:
         tomorrow: New episode airs tomorrow
   images:
     confirm_delete: Are you sure you want to delete this image?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Aspect ratio of 16x9 (1.78:1)
-        format: Supported image type is JPEG
-        instructions: 'Backdrops must meet the following criteria:'
-        max_res: A maximum resolution of 3840x2160
-        min_res: A minimum resolution of 1280x720
-      criteria_episodes:
-        aspect_ratio: Aspect ratio of 16x9 (1.78:1) and 4:3 images are supported
-        format: Supported image type is JPEG
-        instructions: 'Episode stills must meet the following criteria:'
-        max_res: A maximum resolution of 3840x2160
-        min_res: A minimum resolution of 400x225
-      criteria_headshots:
-        instructions: 'Headshots must meet the following criteria:'
-      criteria_posters:
-        aspect_ratio: Aspect ratio of 1:1.5 (2:3)
-        format: Supported image type is JPEG
-        instructions: 'Posters must meet the following criteria:'
-        max_res: A maximum resolution of 2000x3000
-        min_res: A minimum resolution of 500x750
-      criteria_profiles:
-        aspect_ratio: Aspect ratio of 1:1.5 (2:3)
-        format: Supported image type is JPEG
-        instructions: 'Profile images must meet the following criteria:'
-        max_res: A maximum resolution of 2000x3000
-        min_res: A minimum resolution of 300x450
+    uploader:
+      aspect_ratio: Aspect ratio of %{ratio}
+      aspect_ratio_both: Aspect ratio of %{ratio_first} and %{ratio_second} images are supported
+      file_type: File type of %{file_type}
+      max_res: A maximum resolution of %{res}
+      min_res: A minimum resolution of %{res}
       read_guidelines: Please familiarize yourself with our updated <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
       tip: If your browser supports it, you can drag and drop an image onto the area below. Otherwise, just click the 'Select files...' button and choose the image from your computer.
+      type_backdrops: Backdrops
+      type_episode_stills: Episode stills
+      type_headshots: Headshots
+      type_posters: Posters
+      type_profiles: Profiles
+      validation_header: "%{type} must meet the following criteria:"
   invalid_aspect_ratio: This aspect ratio is invalid.
   item_count:
     one: "%{count} item"

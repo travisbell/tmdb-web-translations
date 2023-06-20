@@ -2103,35 +2103,20 @@ it-IT:
         tomorrow: Il nuovo episodio andrà in onda domani
   images:
     confirm_delete: Sei sicuro di voler eliminare questa immagine?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Proporzioni di 16x9 (1.78:1)
-        format:
-        instructions: 'Gli sfondi devono soddisfare i seguenti criteri:'
-        max_res: Una risoluzione massima di 3840x2160
-        min_res: Una risoluzione minima di 1280x720
-      criteria_episodes:
-        aspect_ratio: 'Sono supportate le proporzioni 16x9 (1.78: 1) e 4:3'
-        format:
-        instructions: 'Le immagini fisse degli episodi devono soddisfare i seguenti criteri:'
-        max_res:
-        min_res: Una risoluzione minima di 400x225
-      criteria_headshots:
-        instructions:
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'I poster devono soddisfare i seguenti criteri:'
-        max_res: Una risoluzione massima di 2000x3000
-        min_res: Una risoluzione minima di 500x750
-      criteria_profiles:
-        aspect_ratio: 'Proporzioni di 1:1.5 (2: 3)'
-        format:
-        instructions: 'Le immagini del profilo devono soddisfare i seguenti criteri:'
-        max_res:
-        min_res: Una risoluzione minima di 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Ti invitiamo a familiarizzare con le nostre <a href="%{link}" target="_blank" rel="noopener">linee guida per il contributo alle immagini</a> aggiornate.
       tip: Se il tuo browser lo supporta, puoi trascinare e rilasciare un'immagine nell'area sottostante. Altrimenti, fai semplicemente clic sul pulsante "Seleziona file ..." e scegli l'immagine dal tuo computer.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Il rapporto d'aspetto non è valido.
   item_count:
     one: "%{count} articolo"

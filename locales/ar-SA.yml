@@ -2165,35 +2165,20 @@ ar-SA:
         tomorrow: حلقة جديدة ستبث غدا
   images:
     confirm_delete: هل انت متأكد من حذف الصورة؟
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: 'نسبة العرض إلى الارتفاع 16 × 9 (1.78: 1)'
-        format:
-        instructions: 'صور الخلفية لا بد ان تستوفي المعايير التالية :'
-        max_res: دقة قصوى 3840 × 2160
-        min_res: دقة لا تقل عن 1280 × 720
-      criteria_episodes:
-        aspect_ratio: 'يتم دعم نسبة العرض إلى الارتفاع 16 × 9 (1.78: 1) والصور 4: 3'
-        format:
-        instructions: 'صور الحلقة يجب أن تتوافق مع المعايير التالية:'
-        max_res:
-        min_res: دقة لا تقل عن 400 × 225
-      criteria_headshots:
-        instructions: 'صور الوجه لابد من تستوفي المعايير التالية:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'الملصقات الدعائية لابد من تستوفي المعايير التالية:'
-        max_res: اقصى دقة 2000x3000
-        min_res: اقل دقة 500x750
-      criteria_profiles:
-        aspect_ratio: 'نسبة العرض إلى الارتفاع 1: 1.5 (2: 3)'
-        format:
-        instructions: 'صور الملف الشخصي لابد من تستوفي المعايير التالية :'
-        max_res:
-        min_res: دقة لا تقل عن 300 × 450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: يرجى التعرف <a href="%{link}" target="_blank" rel="noopener">إرشادات المساهمة بالصور</a> على المحدثة.
       tip: اذا كان متصفحك يدعم، يمكنك سحب و افلات الصور داخل المنطقة ادناه. والا يمكنك الضغط على زر " اختيار الملفات " و اختر الصور من كمبيوترك.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: نسبة الأبعاد هذه غير صالحة.
   item_count:
     few: "%{count} عناصر"

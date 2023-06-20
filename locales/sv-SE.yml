@@ -2100,35 +2100,20 @@ sv-SE:
         tomorrow: Nytt avsnitt sänds i morgon
   images:
     confirm_delete: Är du säker på att du vill ta bort den här bilden?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Bildförhållanden med 16x9 (1.78:1)
-        format:
-        instructions: 'Bakgrundsbilder måste uppfylla följande kriterier:'
-        max_res: En maximal upplösning på 3840x2160
-        min_res: Minsta upplösning 1280x720
-      criteria_episodes:
-        aspect_ratio: Bildförhållanden med 16x9 (1.78:1) och 4:3 bilder stödjs
-        format:
-        instructions: 'Avsnittsstillbilder måste uppfylla följande kriterier:'
-        max_res:
-        min_res: En minsta upplösning på 400x225
-      criteria_headshots:
-        instructions:
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Affischer måste uppfylla följande kriterier:'
-        max_res: En maximal upplösning på 2000x3000
-        min_res: En minsta upplösning på 500x750
-      criteria_profiles:
-        aspect_ratio: Bildförhållande 1:1,5 (2:3)
-        format:
-        instructions: 'Profilbilder måste uppfylla följande kriterier:'
-        max_res:
-        min_res: Minsta upplösning 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Gör dig bekant med våra uppdaterade <a href="%{link}" target="_blank" rel="noopener">riktlinjer för bilder</a>.
       tip: Om din webbläsare stödjer det, så kan du dra och släppa en bild på området under. Annars, klicka bara på 'Välj filer...' knappen och välj en bild från din dator.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Det här bildförhållandet är felaktigt.
   item_count:
     one: "%{count} objekt"

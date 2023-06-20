@@ -1984,9 +1984,9 @@ fa-IR:
       inclusion: باید انتخاب بشه.
       invalid: نامعتبره.
       invalid_character_name: نام شخصیت نباید دارای کاراکترهای خاص باشد
-      invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_email_address: به نظر نمی‌رسد آدرس ایمیل معتبری باشد
+      invalid_password: رمز عبوری که وارد کردید اشتباه است.
+      invalid_request: امکان تکمیل درخواست وجود ندارد.
       no_characters_found: شخصیتی یافت نشد
       required: باید باشه
       series_status_invalid_to_create_season:
@@ -2088,35 +2088,20 @@ fa-IR:
         tomorrow: قسمت جدید فردا منتشر می‌شود
   images:
     confirm_delete: آیا مطمئن هستید که می‌خواهید این عکس را حذف کنید؟
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: نسبت ابعاد 16x9 (1.78:1)
-        format:
-        instructions: 'پشت‌صحنه‌ها باید معیارهای زیر را داشته باشند:'
-        max_res: بیشینه رزولوشن 3840x2160 است
-        min_res: کمینه رزولوشن 1280x720 است
-      criteria_episodes:
-        aspect_ratio: نسبت ابعاد 16x9 (1.78:1) و 4:3 تصاویر پشتیبانی می‌شود
-        format:
-        instructions:
-        max_res:
-        min_res: کمینه رزولوشن 400x225 است
-      criteria_headshots:
-        instructions: تصاویر
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'پوسترها باید معیارهای زیر را داشته باشند:'
-        max_res: حداکثر ابعاد 2000x3000 است
-        min_res: حداقل ابعاد 500x750 است
-      criteria_profiles:
-        aspect_ratio: نسبت ابعاد 1:1.5 (2:3)
-        format:
-        instructions: 'تصاویر پروفایل باید معیارهای زیر را داشته باشند:'
-        max_res:
-        min_res: حداقل وضوح ۳۰۰×۴۰۰
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines:
       tip:
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: این نسبت ابعاد نامعتبره.
   item_count:
     one: "%{count}مورد"
@@ -3170,7 +3155,7 @@ fa-IR:
         country: انتخاب یک کشور...
         create_person:
           click_to_create: جهت ایجاد %{name} کلیک کنید
-          create_it:
+          create_it: ایجادش کن...
         genres: انتخاب یک ژانر...
         job: انتخاب یک شغل...
         keywords: انتخاب یک کلمه کلیدی...
@@ -3312,7 +3297,7 @@ fa-IR:
       rating_count:
         one: "%{count} امتیاز"
         other: "%{count} امتیاز"
-      score_breakdown:
+      score_breakdown: تفکیک امتیاز
       score_distribution: توزیع امتیاز
       score_history: تاریخچه امتیاز
       score_trend:

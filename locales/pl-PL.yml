@@ -2117,35 +2117,20 @@ pl-PL:
         tomorrow: Nowy odcinek jutro
   images:
     confirm_delete: Czy na pewno chcesz usunąć ten obraz?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: Wskaźnik proporcji 16x9 (1.78:1)
-        format:
-        instructions:
-        max_res: Maksymalne wymiary to 3840x2160
-        min_res: Minimalne wymiary to 1280x720
-      criteria_episodes:
-        aspect_ratio: 'Obsługiwany jest współczynnik proporcji 16 x 9 (1,78: 1) i 4: 3'
-        format:
-        instructions: 'Zdjęcia z odcinka muszą spełniać poniższe kryteria:'
-        max_res:
-        min_res: Minimalne wymiary to 400x225
-      criteria_headshots:
-        instructions: 'Zdjęcia portretowe muszą spełniać poniższe kryteria:'
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: 'Plakaty muszą spełniać poniższe kryteria:'
-        max_res: Maksymalna rozdzielczość 2000x3000
-        min_res: Minimalna rozdzielczość 500x750
-      criteria_profiles:
-        aspect_ratio: Proporcje 1:1.5 (2:3)
-        format:
-        instructions:
-        max_res:
-        min_res: Minimalna rozdzielczość 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.
       tip: Jeśli Twoja przeglądarka wspiera tę funkcjonalność, możesz przeciągnąć obrazki w pole poniżej. W przeciwnym razie naciśnij "Wybierz pliki" i wczytaj obraz ze swojego komputera.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.
   item_count:
     few: "%{count} elementy"

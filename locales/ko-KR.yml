@@ -2069,35 +2069,20 @@ ko-KR:
         tomorrow: 새 에피소드 내일 방영 예정
   images:
     confirm_delete: 정말로 이 이미지를 삭제하시겠습니까?
-    upload_instructions:
-      criteria_backdrops:
-        aspect_ratio: 화면 비율 16x9 (1.78:1)
-        format:
-        instructions: '배경 이미지는 다음 기준들을 충족해야합니다:'
-        max_res: 최대 해상도 3840x2160
-        min_res: 최소 해상도 1280x720
-      criteria_episodes:
-        aspect_ratio: 화면 비율 16x9 (1.78:1) 이미지와 4:3 이미지 지원됨
-        format:
-        instructions: '에피소드 스틸 사진은 다음 기준들을 충족해야합니다:'
-        max_res:
-        min_res: 최소 해상도 400x225
-      criteria_headshots:
-        instructions:
-      criteria_posters:
-        aspect_ratio:
-        format:
-        instructions: '포스터는 다음 기준들을 충족해야합니다:'
-        max_res: 최대 해상도 2000x3000
-        min_res: 최소 해상도 500x750
-      criteria_profiles:
-        aspect_ratio: 화면 비율 1:1.5 (2:3)
-        format:
-        instructions: '프로필 이미지는 다음 기준들을 충족해야합니다:'
-        max_res:
-        min_res: 최소 해상도 300x450
+    uploader:
+      aspect_ratio:
+      aspect_ratio_both:
+      file_type:
+      max_res:
+      min_res:
       read_guidelines: 본 사이트의 업데이트된 <a href="%{link}" target="_blank" rel="noopener">이미지 기여 지침서 내용</a>을 숙달하여 주십시오.
       tip: 지원가능한 브라우저를 쓰신다면, 이미지를 하단 영역에 끌어 놓아주십시오. 지원불가한 브라우저의 경우, '파일 선택' 버튼을 눌러서 이미지를 선택하여 주십시오.
+      type_backdrops:
+      type_episode_stills:
+      type_headshots:
+      type_posters:
+      type_profiles:
+      validation_header:
   invalid_aspect_ratio: 비율이 올바르지 않습니다.
   item_count:
     one: "%{count} 개"
