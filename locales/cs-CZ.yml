@@ -27,7 +27,7 @@ cs-CZ:
   Add Content Rating: Přidat hodnocení obsahu
   Add Creator: Přidat autora
   Add Data & Content: Přidat data a obsah
-  Add Headshot:
+  Add Headshot: Přidat portrét
   Add Item: Přidat položku
   Add Missing Cast & Crew: Přidat chybějící obsazení a štáb
   Add Network: Přidat stanici
@@ -1409,8 +1409,8 @@ cs-CZ:
     group_name_required:
     groups_minimum_appearance_msg:
     groups_not_present:
-    headshot:
-    headshot_window_title:
+    headshot: Portrét
+    headshot_window_title: Změnit portrét postavy
     help_our_mods:
     help_our_mods_info:
     icon:
@@ -1517,7 +1517,7 @@ cs-CZ:
     total_Results:
     total_appearance:
     total_budget:
-    translations_language:
+    translations_language: Jazyk překladu
     try_again:
     tv:
     tv_titles:
@@ -2066,7 +2066,7 @@ cs-CZ:
     upstream_problem:
       message:
       title:
-  headshots_must_meet:
+  headshots_must_meet: 'Portréty musí splňovat následující podmínky:'
   homepage:
     community:
       benefits_list:
@@ -2131,6 +2131,20 @@ cs-CZ:
       profile_must_meet: 'Profilové obrázky musí splňovat následující kritéria:'
       read_guidelines: Seznamte se s našimi <a href="%{link}" target="_blank" rel="noopener">zásadami přispívání obrázků</a>.
       tip: Pokud to váš prohlížeč podporuje, můžete přetáhnout obrázek na níže uvedenou oblast. Jinak prostě klikněte na tlačítko 'Vybrat soubory...' a zvolte obrázek z vašeho počítače.
+    uploader:
+      aspect_ratio: Poměr stran %{ratio}
+      aspect_ratio_both: Poměr stran %{ratio_first} nebo %{ratio_second}
+      file_type: Formát souboru %{file_type}
+      max_res: Maximální rozlišení %{res}
+      min_res: Minimální rozlišení %{res}
+      read_guidelines: Seznamte se s našimi <a href="%{link}" target="_blank" rel="noopener">zásadami přispívání obrázků</a>.
+      tip: Pokud to váš prohlížeč podporuje, můžete přetáhnout obrázek na níže uvedenou oblast. Jinak prostě klikněte na tlačítko 'Vybrat soubory...' a zvolte obrázek z vašeho počítače.
+      type_backdrops: Pozadí
+      type_episode_stills: Pozadí epizod
+      type_headshots: Portréty
+      type_posters: Plakáty
+      type_profiles: Profilové fotografie
+      validation_header: "%{type} musí splňovat následující podmínky:"
   invalid_aspect_ratio: Tento poměr stran je neplatný.
   item_count:
     few: "%{count} položky"
@@ -3199,12 +3213,12 @@ cs-CZ:
       success_fields_locked: Pole uzamčena.
       tagline:
         add_tagline: Přidat slogan
-        already_exists:
+        already_exists: slogan již exituje
         lock_existing: Uzamknout stávající slogany
         locked: Tento slogan je uzamčený
         no_taglines: Žádné slogany nebyly přidány.
         not_found: Slogan, který chcete upravit, nebyl nalezen.
-        primary:
+        primary: Primární
         taglines: Slogany
         unable_to_delete: Slogan nelze smazat.
       tooltips:
@@ -3384,6 +3398,19 @@ cs-CZ:
         write_review:
           logged_in: Napsat recenzi
           public: Pro napsání recenze se přihlaste.
+    translations:
+      add_biography: Přidat životopis
+      add_homepage: Přidat domovskou stránku
+      add_name: Přidat název
+      add_overview: Přidat přehled
+      add_runtime: Přidat délku
+      add_tagline: Přidat oficiální slogan
+      add_title: Přidat název
+      biography: Životopis
+      name: Jméno
+      overview: Přehled
+      taglines: Slogany
+      title: Název
     tv_episode:
       edit:
         guest_stars:

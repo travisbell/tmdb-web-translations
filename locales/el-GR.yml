@@ -2133,6 +2133,20 @@ el-GR:
       profile_must_meet: 'Οι εικόνες προφίλ πρέπει να πληρούν τα ακόλουθα κριτήρια:'
       read_guidelines: Παρακαλούμε να εξοικειωθείτε με τις ενημερωμένες μας <a href="%{link}" target="_blank" rel="noopener">οδηγίες συνεισφοράς στις εικόνες</a>
       tip: Αν το πρόγραμμα περιήγησης το υποστηρίζει, μπορείτε να μεταφέρετε και να αποθέσετε μια εικόνα στην παρακάτω περιοχή. Διαφορετικά, απλά κάντε κλικ στο κουμπί "Επιλογή αρχείων..." και επιλέξτε την εικόνα από τον υπολογιστή σας.
+    uploader:
+      aspect_ratio: Αναλογία διαστάσεων %{ratio}
+      aspect_ratio_both: Αναλογία διαστάσεων %{ratio_first} ή %{ratio_second}
+      file_type: Τύπος αρχείου %{file_type}
+      max_res: Μέγιστη ανάλυση %{res}
+      min_res: Ελάχιστη ανάλυση %{res}
+      read_guidelines: Παρακαλούμε να εξοικειωθείτε με τις ενημερωμένες μας <a href="%{link}" target="_blank" rel="noopener">οδηγίες συνεισφοράς στις εικόνες</a>
+      tip: Αν το πρόγραμμα περιήγησης το υποστηρίζει, μπορείτε να μεταφέρετε και να αποθέσετε μια εικόνα στην παρακάτω περιοχή. Διαφορετικά, απλά κάντε κλικ στο κουμπί "Επιλογή αρχείων..." και επιλέξτε την εικόνα από τον υπολογιστή σας.
+      type_backdrops: Σκηνικά
+      type_episode_stills: Στιγμιότυπα επεισόδιου
+      type_headshots: Πορτρέτα
+      type_posters: Αφίσες
+      type_profiles: Προφίλ
+      validation_header: 'Το %{type} πρέπει να πληροί τα ακόλουθα κριτήρια:'
   invalid_aspect_ratio: Η αναλογία δεν είναι έγκυρη.
   item_count:
     one: "%{count} στοιχείο"
@@ -3200,12 +3214,12 @@ el-GR:
       success_fields_locked: Τα πεδία κλειδώθηκαν.
       tagline:
         add_tagline: Προσθήκη Σλόγκαν
-        already_exists:
+        already_exists: Το σλόγκαν υπάρχει ήδη
         lock_existing: Κλείδωμα υπαρχόντων σλόγκαν
         locked: Αυτό το σλόγκαν είναι κλειδωμένο
         no_taglines: Δεν έχουν προστεθεί σλόγκαν.
         not_found: Δεν μπορέσαμε να βρούμε το σλόγκαν που προσπαθούσατε να επεξεργαστείτε.
-        primary:
+        primary: Βασικό
         taglines: Σλόγκαν
         unable_to_delete: Δεν ήταν δυνατή η διαγραφή του σλόγκαν.
       tooltips:
@@ -3381,6 +3395,19 @@ el-GR:
         write_review:
           logged_in: Γράψτε κριτική
           public: Συνδεθείτε για να γράψετε μια κριτική.
+    translations:
+      add_biography:
+      add_homepage: Προσθήκη ιστοσελίδας
+      add_name: Προσθήκη ονόματος
+      add_overview: Προσθήκη επισκόπησης
+      add_runtime: 'Προσθήκη διάρκεια '
+      add_tagline: Προσθήκη σλόγκαν
+      add_title: Προσθήκη τίτλου
+      biography:
+      name:
+      overview:
+      taglines:
+      title:
     tv_episode:
       edit:
         guest_stars:

@@ -1938,7 +1938,7 @@ uk-UA:
         option3: Нічого з переліченого
       attachments:
         add_files: Додати файли
-        drop_files:
+        drop_files: або перетягніть сюди
         label: Додатки
       copyright:
         label:
@@ -2147,6 +2147,20 @@ uk-UA:
       profile_must_meet: 'Обов’язкові вимоги до зображень профілю:'
       read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднання зображень</a>.
       tip: Якщо ваш браузер підтримує, можете перетягнути зображення на ділянку нижче. Або ж натисніть кнопку «Вибрати файли...», знайдіть і виберіть відповідний файл на своєму комп’ютері.
+    uploader:
+      aspect_ratio: Співвідношення сторін %{ratio}
+      aspect_ratio_both: Співвідношення сторін %{ratio_first} або %{ratio_second}
+      file_type: Тип файлу %{file_type}
+      max_res: Максимальна роздільна здатність %{res}
+      min_res: Мінімальна роздільна здатність %{res}
+      read_guidelines: Будь ласка, ознайомтеся з оновленими <a href="%{link}" target="_blank" rel="noopener">порадами щодо приєднання зображень</a>.
+      tip: Якщо ваш браузер підтримує, можете перетягнути зображення на ділянку нижче. Або ж натисніть кнопку «Вибрати файли...», знайдіть і виберіть відповідний файл на своєму комп’ютері.
+      type_backdrops: Світлини
+      type_episode_stills: Кадри із серії
+      type_headshots: Портрети
+      type_posters: Постери
+      type_profiles: Фото профілю
+      validation_header: "%{type} має відповідати таким критеріям:"
   invalid_aspect_ratio: Співвідношення сторін неправильне.
   item_count:
     few: "%{count} елементи"
@@ -2402,7 +2416,7 @@ uk-UA:
     Compositing Lead: Провідний структурувальник
     Compositing Supervisor: Відповідальний за структурування
     Compositor: Структурувальник
-    Concept Artist:
+    Concept Artist: Концептуальний художник
     Conceptual Design: Концептуальний дизайн
     Conceptual Illustrator: Ілюстратор концептів
     Conductor: Диригент
@@ -2467,7 +2481,7 @@ uk-UA:
     Digital Effects Producer: Продюсер цифрових ефектів
     Digital Effects Supervisor: Відповідальний за цифрові ефекти
     Digital Film Recording: Оцифрування плівки
-    Digital Foley Artist:
+    Digital Foley Artist: Звукоімітатор оцифровки
     Digital Imaging Technician:
     Digital Intermediate: Проміжна оцифровка
     Digital Intermediate Assistant: Помічник із проміжної оцифровки
@@ -3221,12 +3235,12 @@ uk-UA:
       success_fields_locked: Поля заблоковано.
       tagline:
         add_tagline: Додати слоган
-        already_exists:
+        already_exists: слоган уже існує
         lock_existing: Заблокувати наявні слогани
         locked: Цей слоган заблоковано
         no_taglines: Слоганів не додано.
         not_found: 'Ми не можемо знайти слоган, який ви намагалися редагувати. '
-        primary:
+        primary: Основний
         taglines: Слогани
         unable_to_delete: 'Слоган не може бути видалений. '
       tooltips:
@@ -3410,6 +3424,19 @@ uk-UA:
         write_review:
           logged_in: Написати рецензію
           public: Увійдіть, щоб написати рецензію.
+    translations:
+      add_biography: Додати біографію
+      add_homepage: Додати домашню сторінку
+      add_name: Додати назву
+      add_overview: Додати огляд
+      add_runtime: Додати тривалість
+      add_tagline: Додати слоган
+      add_title: Додати назву
+      biography: Біографія
+      name: Назва
+      overview: Огляд
+      taglines: Слогани
+      title: Назва
     tv_episode:
       edit:
         guest_stars:
@@ -3677,7 +3704,7 @@ uk-UA:
         strip_insignificant_zeros: false
         unit: "₴"
     format:
-      delimiter: ''
+      delimiter:
       precision: 3
       separator: ","
       significant: false
@@ -3739,7 +3766,7 @@ uk-UA:
     available_sentences:
       ads: 'дивитися з рекламою '
       buy: придбати
-      flatrate:
+      flatrate: стримінг
       free: дивитися безкоштовно
       rent: взяти в прокат
       sentence:
@@ -3758,8 +3785,8 @@ uk-UA:
       sd: SD
     monetization_types:
       ads: Реклама
-      buy:
-      flatrate:
+      buy: Купівля
+      flatrate: Стримінг
       free: Безкоштовно
       rent: Прокат
     no_offers:
@@ -4066,8 +4093,8 @@ uk-UA:
   success_sharing: Ваше повідомлення було успішно надіслано.
   support:
     array:
-      last_word_connector:
-      two_words_connector:
+      last_word_connector: _та_
+      two_words_connector: _та_
       words_connector: ", "
   suspended:
     explanation_1: На жаль, обліковий запис цього користувача наразі не обслуговується.

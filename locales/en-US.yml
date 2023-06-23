@@ -2125,6 +2125,20 @@ en-US:
       profile_must_meet: 'Profile images must meet the following criteria:'
       read_guidelines: Please familiarize yourself with our updated <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
       tip: If your browser supports it, you can drag and drop an image onto the area below. Otherwise, just click the 'Select files...' button and choose the image from your computer.
+    uploader:
+      aspect_ratio: Aspect ratio of %{ratio}
+      aspect_ratio_both: Aspect ratio of %{ratio_first} or %{ratio_second}
+      file_type: File type of %{file_type}
+      max_res: A maximum resolution of %{res}
+      min_res: A minimum resolution of %{res}
+      read_guidelines: Please familiarize yourself with our updated <a href="%{link}" target="_blank" rel="noopener">image contribution guidelines</a>.
+      tip: If your browser supports it, you can drag and drop an image onto the area below. Otherwise, just click the 'Select files...' button and choose the image from your computer.
+      type_backdrops: Backdrops
+      type_episode_stills: Episode stills
+      type_headshots: Headshots
+      type_posters: Posters
+      type_profiles: Profiles
+      validation_header: "%{type} must meet the following criteria:"
   invalid_aspect_ratio: This aspect ratio is invalid.
   item_count:
     one: "%{count} item"
@@ -3373,6 +3387,19 @@ en-US:
         write_review:
           logged_in: Write Review
           public: Login to write a review.
+    translations:
+      add_biography: Add biography
+      add_homepage: Add homepage
+      add_name: Add name
+      add_overview: Add overview
+      add_runtime: Add runtime
+      add_tagline: Add tagline
+      add_title: Add title
+      biography: Biography
+      name: Name
+      overview: Overview
+      taglines: Taglines
+      title: Title
     tv_episode:
       edit:
         guest_stars:
@@ -3664,11 +3691,11 @@ en-US:
           unit: "­"
     percentage:
       format:
-        delimiter: ''
+        delimiter:
         format: "%n%"
     precision:
       format:
-        delimiter: ''
+        delimiter:
   number_of_edits:
     many: "%{count} edits"
     one: "%{count} edit"
