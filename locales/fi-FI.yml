@@ -3398,11 +3398,20 @@ fi-FI:
       title:
     tv_episode:
       edit:
+        episode_type_confirm:
+        episode_type_label:
+        episode_types:
+          finale:
+          mid_season:
+          standard:
         guest_stars:
           no_records: Vierailevia tähtiä ei ole lisätty.
         screened_as_part_of_season: Kyllä, osana kautta
         screened_confirm: Jos tämä jakso on esitetty elokuvafestivaaleilla tai elokuvateatterissa, klikkaa "Kyllä" jatkaaksesi
         screened_label: Onko tämä jakso esitetty elokuvateatterissa?
+      episode_indicator:
+        finale:
+        mid_season:
       episode_selector:
         current_episode: Episode %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"

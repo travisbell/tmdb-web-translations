@@ -3388,25 +3388,34 @@ fr-FR:
           logged_in: Rédiger une critique
           public: Connectez-vous pour rédiger une critique.
     translations:
-      add_biography:
+      add_biography: Ajouter une biographie
       add_homepage: Ajouter une page d'accueil
       add_name: Ajouter un nom
       add_overview: Ajouter une vue d'ensemble
       add_runtime: Ajouter une durée
       add_tagline: Ajouter un slogan
       add_title: Ajouter un titre
-      biography:
-      name:
-      overview:
-      taglines:
-      title:
+      biography: Biographie
+      name: Nom
+      overview: Vue d'ensemble
+      taglines: Slogans
+      title: Titre
     tv_episode:
       edit:
+        episode_type_confirm:
+        episode_type_label:
+        episode_types:
+          finale:
+          mid_season:
+          standard:
         guest_stars:
           no_records: Aucune vedette invitée n'a été ajoutée à cette fiche.
         screened_as_part_of_season: Oui, comme partie de la saison
         screened_confirm: Si cet épisode a été projeté lors d'un festival du film ou au cinéma, cliquez sur « Oui » pour continuer.
         screened_label: Cet épisode a t-il été projeté au cinéma ?
+      episode_indicator:
+        finale:
+        mid_season:
       episode_selector:
         current_episode: Épisode %{season_number} x %{episode_number}
         episode: "%{episode_name} (%{season_number} x %{episode_number})"
@@ -3816,7 +3825,7 @@ fr-FR:
       auto_detect: Détection automatique ?
       page_title: Mes paramètres
       resend_verification_email_text: "<br>Vous n'avez pas reçu le courriel de vérification de votre compte ?<br><br>Saisissez votre adresse électronique pour le recevoir à nouveau :"
-      reset_password_text: "<br>Saisissez l'adresse électronique que vous avez utilisée pour créer votre compte TMDB.<br><br>Nous vous enverrons les étapes nécessaires à la réinitialisation de votre mot de passe."
+      reset_password_text: "<br>Saisissez l'adresse électronique que vous avez utilisée pour créer votre compte TMDB.<br><br>Nous vous enverrons un courriel détaillant les étapes nécessaires à la réinitialisation de votre mot de passe."
     api:
       api: API
       create_page_title: Créer une nouvelle clé d'API

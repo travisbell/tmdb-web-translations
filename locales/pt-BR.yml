@@ -1521,13 +1521,13 @@ pt-BR:
     star: Estrela
     submit: 'Enviar '
     submit_and_preview: Enviar e visualizar
-    submit_confirmation:
+    submit_confirmation: "<h3>Ei, <strong>%{user}</strong>! Muito bem!</h3> Tem certeza que deseja enviar?"
     submitted: Submetido
     suggested_backdrops: Selecione cenários sugeridos
     suggested_backdrops_not_available: Nenhum cenário sugerido está disponível!
     suggested_character_backdrop_photos: Fotos de pano de fundo de personagens sugeridas
     suggested_window_title: Fotos de pano de fundo de personagens sugeridas
-    switch_mode_translate:
+    switch_mode_translate: Mude para o modo %{available_language} para traduzir.
     switch_to_edit_mode: Mudar para o modo de edição
     switch_translate_mode: Alternar para o modo de tradução
     text_for_character_card: Agora oferecemos suporte aos personagens, o que permite que a comunidade acompanhe as aparições nas franquias e na TV, bem como nos filmes.
@@ -1830,7 +1830,7 @@ pt-BR:
       close_discussion: Fechar discussão
       make_private: Tornar privada
       make_public: Tornar pública
-      mark_not_spam:
+      mark_not_spam: Marcar como Não Spam
       mark_spam: Marcar como spam
       reopen_discussion: Reabrir discussão
       stop_watching: Parar de acompanhar
@@ -1901,7 +1901,7 @@ pt-BR:
         hide_comment: Ao clicar em "Sim", este comentário ficará oculto.
         hide_discussion: Ao clicar em "Sim", esta discussão ficará oculta.
         ignore_user: Tem certeza de que deseja ignorar este(a) usuário(a)? Todas as discussões e comentários criados pelo(a) mesmo(a) desaparecerão. Você pode remover este bloqueio na seção "Usuários bloqueados" na sua página de configurações da conta.
-        mark_as_not_spam:
+        mark_as_not_spam: Tem certeza de que deseja marcar esta discussão como válida e não como spam?
         mark_as_spam: Tem certeza de que deseja marcar esta discussão como spam? Ela será excluída automaticamente e não poderá ser restaurada. Marcar discussões como spam nos ajuda a treinar o serviço de detecção de spam que usamos.
         report_violation: Por favor, confirme que você deseja denunciar este usuário por violação das nossas <a href="/documentation/community/guidelines" target="_blank" rel="noopener">diretrizes da comunidade</a>.
         unhide_discussion: Ao clicar em "Sim", esta discussão ficará visivel novamente.
@@ -1934,7 +1934,7 @@ pt-BR:
   dmca_takedown:
     form:
       about_self:
-        label:
+        label: Eu sou
         option1: O detentor dos direitos autorais
         option2: O representante legal do detentor dos direitos autorais
         option3: Nenhuma das acima
@@ -2022,13 +2022,13 @@ pt-BR:
       keywords: O campo de palavras-chave está trancado
     messages:
       blank: é necessário(a)
-      email_address_not_routable:
+      email_address_not_routable: não é roteável
       inclusion: deve estar selecionado(a)
       invalid: é inválido
       invalid_character_name: O nome do personagem não deve conter caracteres especiais
-      invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_email_address: não parece ser um endereço de e-mail válido
+      invalid_password: A senha que você digitou está incorreta.
+      invalid_request: Não foi possível concluir a solicitação.
       no_characters_found: Nenhum personagem encontrado
       required: deve existir
       series_status_invalid_to_create_season: foi definido como "Cancelada" ou "Finalizada", logo novas temporadas não podem ser criadas.
@@ -2148,19 +2148,19 @@ pt-BR:
       read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.
       tip: Se seu navegador suportar, você pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar arquivos..." e escolher a imagem do seu computador.
     uploader:
-      aspect_ratio:
-      aspect_ratio_both:
-      file_type:
-      max_res:
-      min_res:
+      aspect_ratio: Proporção de %{ratio}
+      aspect_ratio_both: Proporção de %{ratio_first} ou %{ratio_second}
+      file_type: Tipo de arquivo de %{file_type}
+      max_res: Uma resolução máxima de %{res}
+      min_res: Uma resolução mínima de %{res}
       read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.
       tip: Se seu navegador suportar, você pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar arquivos..." e escolher a imagem do seu computador.
       type_backdrops:
-      type_episode_stills:
+      type_episode_stills: Fotos do episódio
       type_headshots:
-      type_posters:
-      type_profiles:
-      validation_header:
+      type_posters: Pôsteres
+      type_profiles: Perfis
+      validation_header: "%{type} deve atender aos seguintes critérios:"
   invalid_aspect_ratio: Proporção da imagem inválida.
   item_count:
     one: "%{count} item"
@@ -3232,7 +3232,7 @@ pt-BR:
       success_fields_locked: Campos trancados.
       tagline:
         add_tagline: Adicionar Slogan
-        already_exists:
+        already_exists: slogan já existe
         lock_existing: Bloquear Slogans Existentes
         locked: Este slogan está bloqueado
         no_taglines: Nenhum slogan foi adicionado.
@@ -3368,10 +3368,12 @@ pt-BR:
     rating:
       rated_with_rating: Avaliado em %{value}
       rating_count:
+        one: "%{count} Avaliação"
+        other: "%{count} Avaliações"
       score_breakdown: Detalhamento da pontuação
       score_distribution: Distribuição da Pontuação
       score_history: Histórico de Pontuação
-      score_trend:
+      score_trend: Tendência de Pontuação
     shortcut_bar:
       alternative_titles: Títulos Alternativos
       backdrops: Imagens de fundo
@@ -3414,25 +3416,34 @@ pt-BR:
           logged_in: Fazer uma resenha
           public: Entre com uma conta para fazer uma resenha.
     translations:
-      add_biography:
-      add_homepage:
-      add_name:
-      add_overview:
-      add_runtime:
-      add_tagline:
-      add_title:
-      biography:
-      name:
-      overview:
-      taglines:
-      title:
+      add_biography: Adicionar biografia
+      add_homepage: Adicionar página inicial
+      add_name: Adicionar nome
+      add_overview: Adicionar visão geral
+      add_runtime: Adicionar tempo de execução
+      add_tagline: Adicionar slogan
+      add_title: Adicionar título
+      biography: Biografia
+      name: Nome
+      overview: Visão Geral
+      taglines: Slogans
+      title: Título
     tv_episode:
       edit:
+        episode_type_confirm:
+        episode_type_label:
+        episode_types:
+          finale:
+          mid_season:
+          standard:
         guest_stars:
           no_records: Nenhum artista convidado foi adicionado.
         screened_as_part_of_season: Sim, como parte de uma temporada
         screened_confirm: Se este episódio foi exibido em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Este episódio foi exibido em cinemas ou festivais?
+      episode_indicator:
+        finale:
+        mid_season:
       episode_selector:
         current_episode: Episódio %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -3854,9 +3865,9 @@ pt-BR:
         directory: Diretório
         overview: Visão geral
         regenerate:
-          confirm_text:
-          regenerate_key:
-          summary_text:
+          confirm_text: Isso <strong>desativará</strong> sua chave de API antiga e gerará uma nova. Essa ação não pode ser desfeita. Você tem <strong>30 segundos</strong> para confirmar antes de digitar novamente sua senha.
+          regenerate_key: Chave Regenerada
+          summary_text: Você acabou de entrar na <strong>zona de perigo</strong>! Se você quiser continuar e atualizar sua chave de API, pode fazê-lo inserindo sua senha abaixo e confirmando os prompts.
         sessions: Sessões
         stats: Estatísticas
       page_title: Minhas Configurações de API
