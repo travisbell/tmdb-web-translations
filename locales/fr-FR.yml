@@ -3402,20 +3402,20 @@ fr-FR:
       title: Titre
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: Le type d'épisode « %{episode_type} » existe déjà pour cette saison. Veuillez cliquer sur « Oui » pour confirmer votre sélection.
+        episode_type_label: Type d'épisode
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: Clôture
+          mid_season: Mi-saison
+          standard: Standard
         guest_stars:
           no_records: Aucune vedette invitée n'a été ajoutée à cette fiche.
         screened_as_part_of_season: Oui, comme partie de la saison
         screened_confirm: Si cet épisode a été projeté lors d'un festival du film ou au cinéma, cliquez sur « Oui » pour continuer.
         screened_label: Cet épisode a t-il été projeté au cinéma ?
       episode_indicator:
-        finale:
-        mid_season:
+        finale: "%{episode_type} de la saison"
+        mid_season: Épisode de %{episode_type}
       episode_selector:
         current_episode: Épisode %{season_number} x %{episode_number}
         episode: "%{episode_name} (%{season_number} x %{episode_number})"
