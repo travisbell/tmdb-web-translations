@@ -1974,6 +1974,33 @@ zh-CN:
       unsubscribed: 您已成功<strong>取消订阅</strong>。如果这是您误操作，可以通过访问<a href="%{account_link}">通知设置</a>页来重新订阅。
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
+  error_pages:
+    deleted_account:
+      description:
+      title:
+    missing_privilege:
+      description:
+        logged_in:
+        public:
+      title:
+    out_of_login_attempts:
+      description:
+      title:
+    private:
+      description:
+        logged_in:
+        public:
+      title:
+    suspended:
+      explanation_1: 很遗憾，该用户已被冻结。
+      go_to_inbox: 进入收件箱
+      title: 该用户已被冻结
+      your_account:
+        explanation_1: 如果您想讨论您被暂停的原因或您如何重新访问您的账户，请通过点击下面的链接访问消息区域。
+        title: 你的账户已被冻结
+    suspended_user_post:
+      description:
+      title:
   errors:
     attributes:
       iso_3166_1:
@@ -4027,13 +4054,6 @@ zh-CN:
       last_word_connector: ", and "
       two_words_connector: " and "
       words_connector: ", "
-  suspended:
-    explanation_1: 很遗憾，该用户已被冻结。
-    go_to_inbox: 进入收件箱
-    title: 该用户已被冻结
-    your_account:
-      explanation_1: 如果您想讨论您被暂停的原因或您如何重新访问您的账户，请通过点击下面的链接访问消息区域。
-      title: 你的账户已被冻结
   the: 此
   time:
     formats:

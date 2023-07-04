@@ -1978,6 +1978,33 @@ de-DE:
     one: "%{count} Episode"
     other: "%{count} Episoden"
   episode_number_name: Episode %{episode_number}
+  error_pages:
+    deleted_account:
+      description:
+      title:
+    missing_privilege:
+      description:
+        logged_in:
+        public:
+      title:
+    out_of_login_attempts:
+      description:
+      title:
+    private:
+      description:
+        logged_in:
+        public:
+      title:
+    suspended:
+      explanation_1:
+      go_to_inbox:
+      title:
+      your_account:
+        explanation_1:
+        title:
+    suspended_user_post:
+      description:
+      title:
   errors:
     attributes:
       iso_3166_1:
@@ -3398,20 +3425,20 @@ de-DE:
       title:
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: Es existiert bereits eine Episode des Typs %{episode_type} für diese Staffel. Klicke auf 'Ja', um deine Auswahl zu bestätigen.
+        episode_type_label: Episodentyp
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: Finale
+          mid_season: Zwischensaison
+          standard: Standard
         guest_stars:
           no_records: Es wurden keine Gastdarsteller hinzugefügt.
         screened_as_part_of_season: Ja, als Teil einer Staffel
         screened_confirm: Wurde diese Episode auf einem Filmfestival oder im Kino aufgeführt? Klicke auf 'Ja' um vorzufahren.
         screened_label: Wurde diese Episode im Kino gezeigt?
       episode_indicator:
-        finale:
-        mid_season:
+        finale: "%{episode_type}"
+        mid_season: "%{episode_type}"
       episode_selector:
         current_episode: Episode %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -4048,13 +4075,6 @@ de-DE:
       last_word_connector: " und "
       two_words_connector: " und "
       words_connector: ", "
-  suspended:
-    explanation_1:
-    go_to_inbox:
-    title:
-    your_account:
-      explanation_1:
-      title:
   the:
   time:
     formats:

@@ -1982,6 +1982,36 @@ en-US:
     one: "%{count} Episode"
     other: "%{count} Episodes"
   episode_number_name: Episode %{episode_number}
+  error_pages:
+    deleted_account:
+      description: The owner of this page deleted their account. While all of their contributions to TMDB remain, their user data has been anonymized.
+      title: This account has been deleted
+    missing_privilege:
+      description:
+        logged_in: You don't have access to this page. If you believe this to be an error, let us know <a href="%{forum_link}">on the forums</a>.
+        public: You've tried to request a page that requires you to be logged in. Log in to your account by <a href="%{login_link}">clicking here</a>.
+      title: You don't have permission to access this page
+    out_of_login_attempts:
+      description: |-
+        You've used all of your 10 login attempts. You'll be able to try again in 30 minutes. In the meantime you can also try <a href="%{reset_password_link}">resetting your password</a>.
+
+        You can also <a href="%{about_us_link}">contact us</a> for support.
+      title: Out of login attempts
+    private:
+      description:
+        logged_in: You don't have acess to this page.
+        public: You've tried to request a page that is private.
+      title: This page is private
+    suspended:
+      explanation_1: Unfortunately, this user has been suspended.
+      go_to_inbox: Go to Inbox
+      title: This user has been suspended
+      your_account:
+        explanation_1: If you would like to discuss the reasons for your suspension or how you can regain access to your account, please visit the messaging area by clicking the link below.
+        title: Your account has been suspended
+    suspended_user_post:
+      description: This post was found in violation of our <a href="%{link}">community guidelines</a>. The user resposible for this may also have been suspended.
+      title: This post has been removed
   errors:
     attributes:
       iso_3166_1:
@@ -4059,13 +4089,6 @@ en-US:
       last_word_connector: ", and "
       two_words_connector: " and "
       words_connector: ", "
-  suspended:
-    explanation_1: Unfortunately, this user has been suspended.
-    go_to_inbox: Go to Inbox
-    title: This user has been suspended
-    your_account:
-      explanation_1: If you would like to discuss the reasons for your suspension or how you can regain access to your account, please visit the messaging area by clicking the link below.
-      title: Your account has been suspended
   the: the
   time:
     formats:

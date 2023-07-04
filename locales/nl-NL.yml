@@ -1958,6 +1958,33 @@ nl-NL:
     one: "%{count} aflevering"
     other: "%{count} afleveringen"
   episode_number_name: Aflevering %{episode_number}
+  error_pages:
+    deleted_account:
+      description:
+      title:
+    missing_privilege:
+      description:
+        logged_in:
+        public:
+      title:
+    out_of_login_attempts:
+      description:
+      title:
+    private:
+      description:
+        logged_in:
+        public:
+      title:
+    suspended:
+      explanation_1: Helaas is deze gebruiker geblokkeerd.
+      go_to_inbox: Ga naar inbox
+      title: Deze gebruiker is geblokeerd
+      your_account:
+        explanation_1:
+        title: Jouw account is geblokeerd
+    suspended_user_post:
+      description:
+      title:
   errors:
     attributes:
       iso_3166_1:
@@ -4020,13 +4047,6 @@ nl-NL:
       last_word_connector: en
       two_words_connector: en
       words_connector: ", "
-  suspended:
-    explanation_1: Helaas is deze gebruiker geblokkeerd.
-    go_to_inbox: Ga naar inbox
-    title: Deze gebruiker is geblokeerd
-    your_account:
-      explanation_1:
-      title: Jouw account is geblokeerd
   the:
   time:
     formats:

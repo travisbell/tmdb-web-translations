@@ -479,7 +479,7 @@ lt-LT:
   Upcoming Movies: Greitai kinuose
   Update: Atnaujinti
   Upload Logo: Įkelti logotipą
-  User Score: Žiūrovų balas
+  User Score: Žiūrovų reitingas
   Username: Naudotojo vardas
   Video?: Vaizdo įrašas?
   View: Rodymas
@@ -614,7 +614,7 @@ lt-LT:
       popularity: Populiarumas
       rating: Reitingas
       release_date: Rodymo data
-      score: Reitingai
+      score: Reitingas
       upcoming: Netrukus
       user_characters: Naudotojo personažai
     lists:
@@ -1825,7 +1825,7 @@ lt-LT:
         availabilities: Galimi
         search_all_availabilities: Ieškoti visų galimų?
       certification:
-        certification: Klasifikacija
+        certification: Cenzas
       filters: Filtruoti
       genres:
         genres: Žanrai
@@ -2074,6 +2074,33 @@ lt-LT:
     one: "%{count} epizodas"
     other: "%{count} epizodų"
   episode_number_name: Epizodas %{episode_number}
+  error_pages:
+    deleted_account:
+      description:
+      title:
+    missing_privilege:
+      description:
+        logged_in:
+        public:
+      title:
+    out_of_login_attempts:
+      description:
+      title:
+    private:
+      description:
+        logged_in:
+        public:
+      title:
+    suspended:
+      explanation_1:
+      go_to_inbox:
+      title:
+      your_account:
+        explanation_1:
+        title: Jūsų paskyra laikinai sustabdyta
+    suspended_user_post:
+      description:
+      title:
   errors:
     attributes:
       iso_3166_1:
@@ -3452,10 +3479,10 @@ lt-LT:
         few: "%{count} Įvertinimų"
         one: "%{count} Įvertinimas"
         other: ''
-      score_breakdown: Rezultatų analizė
-      score_distribution: Įvertinimų pasiskirstymas
-      score_history: Įvertinimų istorija
-      score_trend: Įvertinimų tendencija
+      score_breakdown: Reitingų analizė
+      score_distribution: Reitingų pasiskirstymas
+      score_history: Reitingų istorija
+      score_trend: Reitingų tendencija
     shortcut_bar:
       alternative_titles: Alternatyvūs pavadinimai
       backdrops: Scenovaizdžiai
@@ -4175,13 +4202,6 @@ lt-LT:
       last_word_connector: ", ir"
       two_words_connector: ir
       words_connector: ", "
-  suspended:
-    explanation_1:
-    go_to_inbox:
-    title:
-    your_account:
-      explanation_1:
-      title: Jūsų paskyra laikinai sustabdyta
   the:
   time:
     formats:
