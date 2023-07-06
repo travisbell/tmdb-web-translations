@@ -1992,21 +1992,26 @@ el-GR:
   episode_number_name: Επεισόδιο %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: Ο κάτοχος αυτής της σελίδας διέγραψε τον λογαριασμό του. Ενώ όλες οι συνεισφορές τους στο TMDB παραμένουν, τα δεδομένα χρήστη τους έχουν γίνει ανώνυμα.
+      title: Αυτός ο λογαριασμός έχει διαγραφεί
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Δεν έχετε πρόσβαση σε αυτήν τη σελίδα. Εάν πιστεύετε ότι πρόκειται για σφάλμα, ενημερώστε μας a href="%{forum_link}">στα φόρουμ</a>.
+        public: Προσπαθήσατε να ζητήσετε μια σελίδα που απαιτεί να είστε συνδεδεμένοι. Συνδεθείτε στο λογαριασμό σας <a href="%{login_link}">κάνοντας κλικ εδώ</a>.
+      title: 'Δεν έχετε άδεια πρόσβασης σε αυτήν τη σελίδα
+
+        '
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        Έχετε χρησιμοποιήσει και τις 10 προσπάθειες σύνδεσης. Θα μπορείτε να δοκιμάσετε ξανά σε 30 λεπτά. Στο μεταξύ, μπορείτε επίσης να δοκιμάσετε να <a href="%{reset_password_link}">επαναφέρετε τον κωδικό πρόσβασής σας</a>.
+
+        Μπορείτε επίσης να <a href="%{about_us_link}">επικοινωνήσετε μαζί μας</a> για υποστήριξη.
+      title: Εκτός προσπαθειών σύνδεσης
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Δεν έχετε πρόσβαση σε αυτήν τη σελίδα.
+        public: Προσπαθήσατε να εισέλθετε σε μια σελίδα που είναι ιδιωτική.
+      title: Αυτή η σελίδα είναι ιδιωτική
     suspended:
       explanation_1: Δυστυχώς, αυτός ο χρήστης έχει τεθεί σε αναστολή.
       go_to_inbox: Μεταβείτε στα Εισερχόμενα
@@ -2015,8 +2020,8 @@ el-GR:
         explanation_1: Εάν θέλετε να συζητήσετε τους λόγους της αναστολής σας ή πώς μπορείτε να αποκτήσετε ξανά πρόσβαση στον λογαριασμό σας, επισκεφτείτε την περιοχή μηνυμάτων κάνοντας κλικ στον παρακάτω σύνδεσμο.
         title: ο λογαριασμός σας έχει απενεργοποιηθεί
     suspended_user_post:
-      description:
-      title:
+      description: Αυτή η ανάρτηση διαπιστώθηκε ότι παραβιάζει τις <a href="%{link}">οδηγίες κοινότητας</a> μας. Ο χρήστης που είναι υπεύθυνος για αυτό μπορεί επίσης να έχει τεθεί σε αναστολή.
+      title: Αυτή η ανάρτηση έχει αφαιρεθεί
   errors:
     attributes:
       iso_3166_1:
@@ -3423,26 +3428,26 @@ el-GR:
           logged_in: Γράψτε κριτική
           public: Συνδεθείτε για να γράψετε μια κριτική.
     translations:
-      add_biography:
+      add_biography: Προσθήκη βιογραφίας
       add_homepage: Προσθήκη ιστοσελίδας
       add_name: Προσθήκη ονόματος
       add_overview: Προσθήκη επισκόπησης
       add_runtime: 'Προσθήκη διάρκεια '
       add_tagline: Προσθήκη σλόγκαν
       add_title: Προσθήκη τίτλου
-      biography:
-      name:
-      overview:
-      taglines:
-      title:
+      biography: Βιογραφία
+      name: Ονομα
+      overview: Επισκόπηση
+      taglines: Σλόγκαν
+      title: Τίτλος
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: Υπάρχει ήδη ένα επεισόδιο %{episode_type} για αυτή τη σεζόν. Κάντε κλικ στο 'Ναι' για να επιβεβαιώσετε την επιλογή σας.
+        episode_type_label: Τύπος επεισοδίου
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: Φινάλε
+          mid_season: Στα Μέσα Σεζόν
+          standard: Standard
         guest_stars:
           no_records: Δεν έχουν προστεθεί γκεστ.
         screened_as_part_of_season: Ναι, ως μέρος του κύκλου
@@ -3788,6 +3793,7 @@ el-GR:
       hd: Δεν βρέθηκαν προσφορές HD.
       none: Δεν υπάρχουν προσφορές για %{title}.
       sd: Δεν βρέθηκαν προσφορές SD.
+    page_title:
     seasons:
       many: "%{count} Κύκλους"
       one: "%{count} Κύκλους"
