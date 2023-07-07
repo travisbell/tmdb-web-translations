@@ -1993,31 +1993,34 @@ cs-CZ:
   episode_number_name: "%{episode_number}. epizoda"
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: Vlastník této stránky smazal svůj svůj účet. Všechny jeho příspěvky na TMDB byly zachovány jako anonymizované.
+      title: Tento účet byl smazán
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: K této stránce nemáte přístup. Pokud si myslíte, že jde o chybu, dejte nám vědět <a href="%{forum_link}">na diskuzním fóru</a>.
+        public: Přístup k této stránce je možný pouze po přihlášení. Ke svému účtu se můžete přihlásit <a href="%{login_link}">zde</a>.
+      title: Nemáte oprávnění k přístupu na tuto stránku
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        Využili jste všech svých 10 pokusů o přihlášení. Další přihlášení bude možné za 30 minut. Pokud chcete znovu nastavit své heslo, přejděte <a href="%{reset_password_link}">sem</a>.
+
+        Pro další podporu nás můžete kontaktovat <a href="%{about_us_link}">zde</a>.
+      title: Nemáte již žádné další pokusy o přihlášení
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: K této stránce nemáte přístup.
+        public: Pokoušíte se přistupovat k soukromé stránce.
+      title: Tato stránka je soukromá
     suspended:
-      explanation_1:
-      go_to_inbox:
-      title:
+      explanation_1: Tento uživatelský účet byl bohužel zablokován.
+      go_to_inbox: Přejděte do příchozí pošty.
+      title: Tento uživatel byl zablokován
       your_account:
         explanation_1:
-        title:
+        title: Váš účet byl zablokován
     suspended_user_post:
-      description:
-      title:
+      description: Tento příspěvek porušoval naše <a href="%{link}">zásady slušného chování </a>. Příslušný uživatelský účet mohl být zablokován.
+      title: Tento příspěvek byl odstraněn
   errors:
     attributes:
       iso_3166_1:
