@@ -1539,20 +1539,6 @@ sk-SK:
   character name:
   collection_includes: Zahŕňa %{movie_titles}
   confirm_delete: Si si istý, že chceš vymazať tento záznam?
-  content_score:
-    helper_tooltip: Hodnotenie obsahu je spôsob, ktorý Vám pomôže pochopiť, ako kompletné sú dáta pre objekt v databázy.
-    scale:
-      '0': Niekde sa musí začať...
-      '1': Hej, je to začiatok.
-      '10': Áno! Vyzerá to dobre!
-      '2': Už sa tam dostávame.
-      '3': Ani Rím nebol postavený za deň...
-      '4': V tíme nie je žiadne "ja"...
-      '5': Stále to potrebuje trochu práce.
-      '6': Tak blízko, ale súčasne tak ďaleko.
-      '7': Chce to ešte trochu viac...
-      '8': Nevzdávame sa! Už sme tak blízko.
-      '9': Už sme takmer tam...
   contribute:
     contribute: Prispieť
     missing_a_biography: Chýbajúca biografia
@@ -3203,6 +3189,42 @@ sk-SK:
       headquarters: Centrála
       movie_page_title: Film produkovaný %{name}
       tv_page_title: Seriály na %{name}
+    content_score:
+      helper_tooltip: Hodnotenie obsahu je spôsob, ktorý Vám pomôže pochopiť, ako kompletné sú dáta pre objekt v databázy.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Niekde sa musí začať...
+        '1': Hej, je to začiatok.
+        '10': Áno! Vyzerá to dobre!
+        '2': Už sa tam dostávame.
+        '3': Ani Rím nebol postavený za deň...
+        '4': V tíme nie je žiadne "ja"...
+        '5': Stále to potrebuje trochu práce.
+        '6': Tak blízko, ale súčasne tak ďaleko.
+        '7': Chce to ešte trochu viac...
+        '8': Nevzdávame sa! Už sme tak blízko.
+        '9': Už sme takmer tam...
     edit:
       alternative_title:
         lock_existing:

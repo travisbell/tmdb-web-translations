@@ -1549,20 +1549,6 @@ pl-PL:
   character name:
   collection_includes: Zawiera %{movie_titles}
   confirm_delete: Czy na pewno chcesz usunąć ten rekord?
-  content_score:
-    helper_tooltip: Ocena treści pomaga zrozumieć, jak kompletne są dane na temat danego obiektu w bazie danych.
-    scale:
-      '0': Trzeba jakoś zacząć...
-      '1': Hej! To dopiero start.
-      '10': Wygląda całkiem dobrze!
-      '2': Powolutku, aż do skutku.
-      '3': Nie od razu Kraków zbudowano...
-      '4': Bez pracy nie ma kołaczy.
-      '5': Potrzeba jeszcze trochę pracy.
-      '6': Tak blisko, a tak daleko...
-      '7': Jeszcze tylko troszeczkę...
-      '8': Jesteśmy już tak blisko!
-      '9': Już prawie...
   contribute:
     contribute: Współtworzenie
     missing_a_biography: Brakujące biografie
@@ -3214,6 +3200,42 @@ pl-PL:
       headquarters: Siedziba
       movie_page_title:
       tv_page_title:
+    content_score:
+      helper_tooltip: Ocena treści pomaga zrozumieć, jak kompletne są dane na temat danego obiektu w bazie danych.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Trzeba jakoś zacząć...
+        '1': Hej! To dopiero start.
+        '10': Wygląda całkiem dobrze!
+        '2': Powolutku, aż do skutku.
+        '3': Nie od razu Kraków zbudowano...
+        '4': Bez pracy nie ma kołaczy.
+        '5': Potrzeba jeszcze trochę pracy.
+        '6': Tak blisko, a tak daleko...
+        '7': Jeszcze tylko troszeczkę...
+        '8': Jesteśmy już tak blisko!
+        '9': Już prawie...
     edit:
       alternative_title:
         lock_existing:

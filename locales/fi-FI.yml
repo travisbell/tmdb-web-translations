@@ -1537,20 +1537,6 @@ fi-FI:
   character name:
   collection_includes: Sisältää %{movie_titles}
   confirm_delete: Haluatko varmasti poistaa tämän tiedon?
-  content_score:
-    helper_tooltip: Sisällön pisteytys auttaa sinua ymmärtämään kuinka täydelliset tiedot ovat kohteelle.
-    scale:
-      '0': Jostain täytyy aloittaa...
-      '1': Hei, hyvä alku.
-      '10': Kyllä! Hyvältä näyttää!
-      '2': Olemme jo melkein perillä
-      '3': Roomaa ei rakennettu päivässä...
-      '4': Tiimityö ei ole yksilösuorittamista...
-      '5': Vaatii vielä hieman työtä.
-      '6': Olemme niin lähellä, silti niin kaukana.
-      '7': Vielä pieni ponnistus...
-      '8': Vielä jaksaa! Alkaa olla jo valmista.
-      '9': Melkein valmista...
   contribute:
     contribute: Osallistu
     missing_a_biography: Elämäkerta puuttuu
@@ -3199,6 +3185,42 @@ fi-FI:
       headquarters: Pääkonttori
       movie_page_title: Elokuvat jotka on tuottanut %{name}
       tv_page_title: TV-sarjat jotka on tuottanut %{name}
+    content_score:
+      helper_tooltip: Sisällön pisteytys auttaa sinua ymmärtämään kuinka täydelliset tiedot ovat kohteelle.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Jostain täytyy aloittaa...
+        '1': Hei, hyvä alku.
+        '10': Kyllä! Hyvältä näyttää!
+        '2': Olemme jo melkein perillä
+        '3': Roomaa ei rakennettu päivässä...
+        '4': Tiimityö ei ole yksilösuorittamista...
+        '5': Vaatii vielä hieman työtä.
+        '6': Olemme niin lähellä, silti niin kaukana.
+        '7': Vielä pieni ponnistus...
+        '8': Vielä jaksaa! Alkaa olla jo valmista.
+        '9': Melkein valmista...
     edit:
       alternative_title:
         lock_existing:

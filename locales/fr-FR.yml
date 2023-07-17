@@ -125,7 +125,7 @@ fr-FR:
   Crew: Équipe technique
   Currently Airing TV Shows: Émissions télévisées en cours de diffusion
   Currently on page: Actuellement sur la page
-  DMCA Takedown Request: Atteinte aux droits d'auteur
+  DMCA Takedown Request: Atteinte aux droits d'auteur DMCA
   Date: Date
   Day of Death: Date de décès
   Default Language: Langue par défaut
@@ -1539,20 +1539,6 @@ fr-FR:
   character name: Nom du personnage
   collection_includes: Comprend %{movie_titles}
   confirm_delete: Voulez-vous vraiment supprimer cette entrée ?
-  content_score:
-    helper_tooltip: Le score de contenu est un indicateur permettant de comprendre à quel point les données d'un élément sont complètes dans la base de données.
-    scale:
-      '0': Il faut bien commencer quelque part...
-      '1': C'est un bon début...
-      '10': Superbe ! Cette fiche semble complète !
-      '2': Nous progressons...
-      '3': Rome ne s'est pas construite en un jour...
-      '4': Tous pour un, un pour tous...
-      '5': Encore un peu de travail...
-      '6': Nous sommes si proches, mais si loin...
-      '7': Juste un peu plus...
-      '8': Courage ! Nous sommes proches maintenant !
-      '9': C'est presque bon !
   contribute:
     contribute: Contribuer
     missing_a_biography: Biographies manquantes
@@ -1881,7 +1867,7 @@ fr-FR:
         ignore_user: Voulez-vous vraiment ignorer cet utilisateur ? Toutes ses conversations et tous ses commentaires disparaîtront. Vous pouvez révoquer ce blocage en vous rendant sur la page « Utilisateurs bloqués » dans les paramètres de votre compte.
         mark_as_not_spam: Voulez-vous vraiment marquer cette discussion comme étant valide et non comme étant du spam ?
         mark_as_spam: Voulez-vous vraiment marquer cette conversation comme indésirable ? Elle sera automatiquement et définitivement supprimée. Marquer des conversations comme indésirables aide le service de détection d'indésirable que nous utilisons.
-        report_violation: Veuillez confirmer que vous souhaitez signaler cet utilisateur pour une violations de nos <a href="/documentation/community/guidelines" target="_blank" rel="noopener">règles communautaires</a>.
+        report_violation: Veuillez confirmer que vous souhaitez signaler cet utilisateur pour une violation de nos <a href="/documentation/community/guidelines" target="_blank" rel="noopener">règles communautaires</a>.
         unhide_discussion: En cliquant sur 'Oui', cette conversation sera à nouveau rendu visible.
       posted_by_with_datetime: posté par %{username} le %{date} à %{time}
       quote: Citer
@@ -1984,21 +1970,24 @@ fr-FR:
   episode_number_name: Épisode %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: Le propriétaire de cette page a supprimé son compte. Bien que toutes ses contributions demeurent sur TMDB, ses données d'utilisateur ont été rendues anonymes.
+      title: Ce compte a été supprimé.
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Vous n'avez pas accès à cette page. Si vous pensez qu'il s'agit d'une erreur, faites-le nous savoir <a href="%{forum_link}">sur les forums</a>.
+        public: Vous avez tenté d'accéder à une page qui nécessite que vous soyez connecté·e. Connectez-vous à votre compte en <a href="%{login_link}">cliquant ici</a>.
+      title: L'accès à cette page ne vous est pas autorisé.
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        Vous avez épuisé vos 10 tentatives de connexion. Vous pourrez réessayer de vous connecter dans 30 minutes. En attendant, vous pouvez d'ores et déjà <a href="%{reset_password_link}">réinitialiser votre mot de passe</a>.
+
+        Vous pouvez également <a href="%{about_us_link}">nous contacter</a> pour obtenir de l'aide.
+      title: Vous avez épuisé vos tentatives de connexion.
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Vous n'avez pas accès à cette page.
+        public: Vous avez tenté de charger une page privée.
+      title: Cette page est privée.
     suspended:
       explanation_1: Malheureusement, cet utilisateur a été suspendu.
       go_to_inbox: Afficher la boîte de réception
@@ -2007,8 +1996,8 @@ fr-FR:
         explanation_1: Si vous souhaitez discuter des raisons qui ont mené à la suspension de votre compte ou bien de la manière par laquelle vous pouvez récupérer son accès, veuillez visiter la zone de messagerie en cliquant sur le lien ci-dessous.
         title: Votre compte a été suspendu.
     suspended_user_post:
-      description:
-      title:
+      description: Ce message a enfreint nos <a href="%{link}">règles communautaires</a>. L'utilisateur qui en est responsable peut également avoir été suspendu.
+      title: Ce message a été supprimé.
   errors:
     attributes:
       iso_3166_1:
@@ -2033,7 +2022,7 @@ fr-FR:
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
       invalid_email_address: ne semble pas être une adresse électronique valide
       invalid_password: Le mot de passe que vous avez saisi est erroné.
-      invalid_request: Impossible de compléter la requête.
+      invalid_request: Impossible de compléter la demande.
       no_characters_found: Aucun personnage n'a été trouvé.
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
@@ -3203,6 +3192,42 @@ fr-FR:
       headquarters: Siège social
       movie_page_title: Films réalisés par %{name}
       tv_page_title: Émissions télévisées réalisées par %{name}
+    content_score:
+      helper_tooltip: Le score de contenu est un indicateur permettant de comprendre à quel point les données d'un élément sont complètes dans la base de données.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Il faut bien commencer quelque part...
+        '1': C'est un bon début...
+        '10': Superbe ! Cette fiche semble complète !
+        '2': Nous progressons...
+        '3': Rome ne s'est pas construite en un jour...
+        '4': Tous pour un, un pour tous...
+        '5': Encore un peu de travail...
+        '6': Nous sommes si proches, mais si loin...
+        '7': Juste un peu plus...
+        '8': Courage ! Nous sommes proches maintenant !
+        '9': C'est presque bon !
     edit:
       alternative_title:
         lock_existing: Verrouiller les titres existants
@@ -3780,7 +3805,7 @@ fr-FR:
       hd: Aucune offre en haute définition n'a été trouvée.
       none: Il n'y a actuellement aucune offre pour %{title} dans le pays sélectionné.
       sd: Aucune offre en définition standard n'a été trouvée.
-    page_title:
+    page_title: Où puis-je regarder %{media_name} ?
     seasons:
       many: "%{count} saisons"
       one: "%{count} saison"

@@ -1537,20 +1537,6 @@ he-IL:
   character name: שם דמות
   collection_includes: כולל את %{movie_titles}
   confirm_delete: האם אתה בטוח שברצונך למחוק רשומה זו?
-  content_score:
-    helper_tooltip: ניקוד התוכן הוא דרך לעזור לך להבין איך להשלים את המידע עבור עצם במסד הנתונים.
-    scale:
-      '0': חייבים להתחיל איפשהו
-      '1': היי, זאת התחלה
-      '10': כן! נִרְאֶה מעולה
-      '2': אנחנו מתקרבים לשם
-      '3': רומא לא נבנתה ביום אחד
-      '4': אין 'אני' בצוות
-      '5': עדין דרושה מעט עבודה
-      '6': אנחנו כ״כ קרובים, אך עדין רחוקים
-      '7': רק עוד קצת
-      '8': אנחנו קרובים עכשיו
-      '9': כמעט שם
   contribute:
     contribute: תרומה לקהילה
     missing_a_biography: חסרה ביוגרפיה
@@ -3201,6 +3187,42 @@ he-IL:
       headquarters: מַטֶה
       movie_page_title: "%{name} סרטים שהופקו ע״י"
       tv_page_title: סדרות ב-%{name}
+    content_score:
+      helper_tooltip: ניקוד התוכן הוא דרך לעזור לך להבין איך להשלים את המידע עבור עצם במסד הנתונים.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': חייבים להתחיל איפשהו
+        '1': היי, זאת התחלה
+        '10': כן! נִרְאֶה מעולה
+        '2': אנחנו מתקרבים לשם
+        '3': רומא לא נבנתה ביום אחד
+        '4': אין 'אני' בצוות
+        '5': עדין דרושה מעט עבודה
+        '6': אנחנו כ״כ קרובים, אך עדין רחוקים
+        '7': רק עוד קצת
+        '8': אנחנו קרובים עכשיו
+        '9': כמעט שם
     edit:
       alternative_title:
         lock_existing:

@@ -1535,20 +1535,6 @@ ko-KR:
   character name:
   collection_includes: "%{movie_titles} 포함"
   confirm_delete: 정말로 기록을 삭제하시겠습니까?
-  content_score:
-    helper_tooltip: 문서 점수는 해당 문서의 내용이 얼마나 알찬 지 보여줍니다.
-    scale:
-      '0': 어디든 시작부터 해야겠어요...
-      '1': 자, 이제 시작입니다.
-      '10': 좋아요! 알찬 문서입니다!
-      '2': 잘 채워가고 있어요.
-      '3': 로마는 하루 만에 완성되지 않았습니다.
-      '4': 팀에서 '나'란 없습니다.
-      '5': 좀 더 보완이 필요합니다.
-      '6': 이제 완벽이 보이기 시작해요.
-      '7': 아주 조금만 더요...
-      '8': 힘내요! 거의 다 완성되어 가요.
-      '9': 완성 직전...
   contribute:
     contribute: 참여하기
     missing_a_biography: 약력 누락
@@ -3162,6 +3148,42 @@ ko-KR:
       headquarters: 본사
       movie_page_title: "%{name} 제작 영화"
       tv_page_title: "%{name} TV 프로그램"
+    content_score:
+      helper_tooltip: 문서 점수는 해당 문서의 내용이 얼마나 알찬 지 보여줍니다.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': 어디든 시작부터 해야겠어요...
+        '1': 자, 이제 시작입니다.
+        '10': 좋아요! 알찬 문서입니다!
+        '2': 잘 채워가고 있어요.
+        '3': 로마는 하루 만에 완성되지 않았습니다.
+        '4': 팀에서 '나'란 없습니다.
+        '5': 좀 더 보완이 필요합니다.
+        '6': 이제 완벽이 보이기 시작해요.
+        '7': 아주 조금만 더요...
+        '8': 힘내요! 거의 다 완성되어 가요.
+        '9': 완성 직전...
     edit:
       alternative_title:
         lock_existing:

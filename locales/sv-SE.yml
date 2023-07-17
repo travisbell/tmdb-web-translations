@@ -1537,20 +1537,6 @@ sv-SE:
   character name:
   collection_includes: Innehåller %{movie_titles}
   confirm_delete: Är du säker på att du vill ta bort den här uppgiften?
-  content_score:
-    helper_tooltip: Innehållsbetyget är ett sätt att hjälpa dig förstå hur komplett data är för ett objekt i databasen.
-    scale:
-      '0': Måste börja någonstans...
-      '1': Det är åtminstone en början.
-      '10': Det ser bra ut!
-      '2': Vi närmar oss.
-      '3': Rom byggdes inte på en dag...
-      '4':
-      '5': Lite arbete återstår ännu.
-      '6': Vi är så nära, men ändå så långt borta.
-      '7': Bara lite till...
-      '8':
-      '9': Nästan där...
   contribute:
     contribute: Bidra
     missing_a_biography: Saknar en biografi
@@ -3193,6 +3179,42 @@ sv-SE:
       headquarters: Huvudkontor
       movie_page_title: Filmer producerade av %{name}
       tv_page_title: TV-serier producerade av %{name}
+    content_score:
+      helper_tooltip: Innehållsbetyget är ett sätt att hjälpa dig förstå hur komplett data är för ett objekt i databasen.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Måste börja någonstans...
+        '1': Det är åtminstone en början.
+        '10': Det ser bra ut!
+        '2': Vi närmar oss.
+        '3': Rom byggdes inte på en dag...
+        '4':
+        '5': Lite arbete återstår ännu.
+        '6': Vi är så nära, men ändå så långt borta.
+        '7': Bara lite till...
+        '8':
+        '9': Nästan där...
     edit:
       alternative_title:
         lock_existing:

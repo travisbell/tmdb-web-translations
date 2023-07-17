@@ -1537,20 +1537,6 @@ en-US:
   character name: Character Name
   collection_includes: Includes %{movie_titles}
   confirm_delete: Are you sure you want to delete this record?
-  content_score:
-    helper_tooltip: The content score is a way to help you understand how complete the data is for an object in the database.
-    scale:
-      '0': Gotta start somewhere...
-      '1': Hey, it's a start.
-      '10': Yes! Looking good!
-      '2': We're getting there.
-      '3': Rome wasn't built in a day...
-      '4': There's no 'I' in team...
-      '5': Still needs a little work.
-      '6': We're so close, yet so far.
-      '7': Just a little bit more...
-      '8': Pump it up! We're close now.
-      '9': Almost there...
   contribute:
     contribute: Contribute
     missing_a_biography: Missing A Biography
@@ -3206,6 +3192,42 @@ en-US:
       headquarters: Headquarters
       movie_page_title: Movies produced by %{name}
       tv_page_title: TV Shows produced by %{name}
+    content_score:
+      helper_tooltip: The content score is a way to help you understand how complete the data is for an object in the database.
+      missing_data:
+        fields:
+          air_date: Air date
+          backdrop: Backdrop
+          biography: Biography
+          cast_min_4: Cast (4 or more)
+          created_by: Created by credit
+          credits: A movie or TV credit
+          crew_min_2: Crew (2 or more credits)
+          director: Director
+          episode: Episode (1 or more)
+          genres: Genres
+          guest_stars_min_2: Guest stars (2 or more)
+          name: Translated name
+          overview: Overview
+          poster: Poster
+          profile: Profile
+          release_date: Release date
+          title: Translated Title
+          video: Video
+          writer: Writer
+        summary: Looks like we're missing the following data in <strong>%{language}</strong> or <strong>%{fallback_language}</strong>...
+      scale:
+        '0': Gotta start somewhere...
+        '1': Hey, it's a start.
+        '10': Yes! Looking good!
+        '2': We're getting there.
+        '3': Rome wasn't built in a day...
+        '4': There's no 'I' in team...
+        '5': Still needs a little work.
+        '6': We're so close, yet so far.
+        '7': Just a little bit more...
+        '8': Pump it up! We're close now.
+        '9': Almost there...
     edit:
       alternative_title:
         lock_existing: Lock Existing Titles

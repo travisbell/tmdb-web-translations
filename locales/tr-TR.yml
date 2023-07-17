@@ -1535,20 +1535,6 @@ tr-TR:
   character name: Karakter Adı
   collection_includes: "%{movie_titles} içerir"
   confirm_delete: Bu kaydı silmek istediğinden emin misin?
-  content_score:
-    helper_tooltip: İçerik puanı, verilerin veritabanındaki bir nesne için ne kadar tamamlandığını anlamanıza yardımcı olacak bir yoldur
-    scale:
-      '0': Bir yerden başlamak gerek
-      '1': Evet, daha işin başındayız
-      '10': Evet! İyi görünüyor!
-      '2': Yola koyulduk
-      '3': Her şey bir anda olmuyor tabii
-      '4': Bir elin nesi var, iki elin sesi var
-      '5': Hâlâ yapılacak çok iş var
-      '6': Epey yol katettik, ama daha var
-      '7': Biraz daha sabır
-      '8': Ha gayret az kaldı
-      '9': Neredeyse bitti
   contribute:
     contribute: Katkıda Bulun
     missing_a_biography: Özgeçmişiniz Eksik
@@ -3178,6 +3164,42 @@ tr-TR:
       headquarters: Genel Merkez
       movie_page_title: "%{name} tarafından çekilen filmler"
       tv_page_title: "%{name} tarafından çekilen tv dizileri"
+    content_score:
+      helper_tooltip: İçerik puanı, verilerin veritabanındaki bir nesne için ne kadar tamamlandığını anlamanıza yardımcı olacak bir yoldur
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Bir yerden başlamak gerek
+        '1': Evet, daha işin başındayız
+        '10': Evet! İyi görünüyor!
+        '2': Yola koyulduk
+        '3': Her şey bir anda olmuyor tabii
+        '4': Bir elin nesi var, iki elin sesi var
+        '5': Hâlâ yapılacak çok iş var
+        '6': Epey yol katettik, ama daha var
+        '7': Biraz daha sabır
+        '8': Ha gayret az kaldı
+        '9': Neredeyse bitti
     edit:
       alternative_title:
         lock_existing:

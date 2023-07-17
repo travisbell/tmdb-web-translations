@@ -1535,20 +1535,6 @@ zh-CN:
   character name: 角色名字
   collection_includes: 包括 %{movie_titles}
   confirm_delete: 确定删除此记录吗？
-  content_score:
-    helper_tooltip: 完成度数值可以帮你了解数据库中一个条目的资料完整程度。
-    scale:
-      '0': 从某个地方开始吧……
-      '1': 嗨，这是个开始。
-      '10': 好！非常好！
-      '2': 我们在路上了。
-      '3': 罗马不是一天建成的……
-      '4': 众人拾柴火焰高……
-      '5': 还需再加把劲。
-      '6': 离完成是那么近，却又那么远。
-      '7': 只差一点点...
-      '8': 加油！成功就在眼前。
-      '9': 马上要完成了...
   contribute:
     contribute: 贡献
     missing_a_biography: 缺少个人简介的人物
@@ -3193,6 +3179,42 @@ zh-CN:
       headquarters: 总部
       movie_page_title: "%{name} 制作的电影"
       tv_page_title: "%{name} 制作的剧集"
+    content_score:
+      helper_tooltip: 完成度数值可以帮你了解数据库中一个条目的资料完整程度。
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': 从某个地方开始吧……
+        '1': 嗨，这是个开始。
+        '10': 好！非常好！
+        '2': 我们在路上了。
+        '3': 罗马不是一天建成的……
+        '4': 众人拾柴火焰高……
+        '5': 还需再加把劲。
+        '6': 离完成是那么近，却又那么远。
+        '7': 只差一点点...
+        '8': 加油！成功就在眼前。
+        '9': 马上要完成了...
     edit:
       alternative_title:
         lock_existing: 锁定现有标题

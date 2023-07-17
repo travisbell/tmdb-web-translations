@@ -1539,20 +1539,6 @@ da-DK:
   character name: Karakternavn
   collection_includes: Indeholder %{movie_titles}
   confirm_delete: Er du sikker på du vil slette denne optegnelse?
-  content_score:
-    helper_tooltip: Indholds scoren er en måde at hjælpe dig til at forstå hvor komplet dataene er for et objekt i databasen.
-    scale:
-      '0': Man skal starte et sted...
-      '1': Hey, det er en start.
-      '10': Ja. Ser godt ud!
-      '2': Vi er ved at være der.
-      '3': Rom blev ikke bygget på en dag...
-      '4': Der er ikke noget 'Jeg' i hold...
-      '5': Mangler stadig lidt.
-      '6': Vi er så tæt på, men stadig så langt fra.
-      '7': Bare en lille smule mere...
-      '8': Pump det! Vi er så tæt på nu.
-      '9': Næsten...
   contribute:
     contribute: Bidrag
     missing_a_biography: Missing En Biografi
@@ -3193,6 +3179,42 @@ da-DK:
       headquarters: Hovedkvarter
       movie_page_title: Film produceret af %{name}
       tv_page_title: TV-serier produceret af %{name}
+    content_score:
+      helper_tooltip: Indholds scoren er en måde at hjælpe dig til at forstå hvor komplet dataene er for et objekt i databasen.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Man skal starte et sted...
+        '1': Hey, det er en start.
+        '10': Ja. Ser godt ud!
+        '2': Vi er ved at være der.
+        '3': Rom blev ikke bygget på en dag...
+        '4': Der er ikke noget 'Jeg' i hold...
+        '5': Mangler stadig lidt.
+        '6': Vi er så tæt på, men stadig så langt fra.
+        '7': Bare en lille smule mere...
+        '8': Pump det! Vi er så tæt på nu.
+        '9': Næsten...
     edit:
       alternative_title:
         lock_existing:

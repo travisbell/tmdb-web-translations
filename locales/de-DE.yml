@@ -1535,20 +1535,6 @@ de-DE:
   character name: Charakter Name
   collection_includes: Weitere Filme sind %{movie_titles}
   confirm_delete: Soll dieser Eintrag wirklich gelöscht werden?
-  content_score:
-    helper_tooltip: Der „Datenstand” gibt Auskunft über die Vollständigkeit eines Datensatzes in der Datenbank.
-    scale:
-      '0': Irgendwo muss man anfangen …
-      '1': Hey, es geht los.
-      '10': Genial! Das sieht gut aus!
-      '2': Wir kommen voran.
-      '3': Gut Ding will Weile haben …
-      '4': Ein Team kennt kein „Ich” …
-      '5': Es braucht noch etwas Arbeit.
-      '6': Wir sind nah dran und doch noch weit entfernt.
-      '7': Noch ein bisschen mehr …
-      '8': Durchhalten! Wir sind fast fertig.
-      '9': Fast geschafft …
   contribute:
     contribute: Mitwirken
     missing_a_biography: Biografie fehlt
@@ -3199,6 +3185,42 @@ de-DE:
       headquarters: Hauptsitz
       movie_page_title: Filme produziert von %{name}
       tv_page_title: Serien produziert von %{name}
+    content_score:
+      helper_tooltip: Der „Datenstand” gibt Auskunft über die Vollständigkeit eines Datensatzes in der Datenbank.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Irgendwo muss man anfangen …
+        '1': Hey, es geht los.
+        '10': Genial! Das sieht gut aus!
+        '2': Wir kommen voran.
+        '3': Gut Ding will Weile haben …
+        '4': Ein Team kennt kein „Ich” …
+        '5': Es braucht noch etwas Arbeit.
+        '6': Wir sind nah dran und doch noch weit entfernt.
+        '7': Noch ein bisschen mehr …
+        '8': Durchhalten! Wir sind fast fertig.
+        '9': Fast geschafft …
     edit:
       alternative_title:
         lock_existing:

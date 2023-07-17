@@ -1543,20 +1543,6 @@ es-ES:
   character name: Nombre del personaje
   collection_includes: Incluye %{movie_titles}
   confirm_delete: "¿Estás seguro de que quieres borrar este registro?"
-  content_score:
-    helper_tooltip: La puntuación del contenido es una forma de ayudarte a comprender cómo de completos están los datos de un objeto en la base de datos.
-    scale:
-      '0': Empieza por dónde quieras...
-      '1': Oye, es un comienzo.
-      '10': "¡Sí! ¡Buena pinta!"
-      '2': Estamos llegando.
-      '3': Roma no se hizo en un día...
-      '4': No hay "yo" en el equipo...
-      '5': Todavía se necesita un poco de trabajo.
-      '6': Estamos muy cerca.
-      '7': Solo un poco más...
-      '8': "¡Vamos! Estamos muy muy cerca."
-      '9': Ya casi...
   contribute:
     contribute: Aportar
     missing_a_biography: Falta una biografía
@@ -3207,6 +3193,42 @@ es-ES:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
       tv_page_title: Programas de televisión en %{name}
+    content_score:
+      helper_tooltip: La puntuación del contenido es una forma de ayudarte a comprender cómo de completos están los datos de un objeto en la base de datos.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Empieza por dónde quieras...
+        '1': Oye, es un comienzo.
+        '10': "¡Sí! ¡Buena pinta!"
+        '2': Estamos llegando.
+        '3': Roma no se hizo en un día...
+        '4': No hay "yo" en el equipo...
+        '5': Todavía se necesita un poco de trabajo.
+        '6': Estamos muy cerca.
+        '7': Solo un poco más...
+        '8': "¡Vamos! Estamos muy muy cerca."
+        '9': Ya casi...
     edit:
       alternative_title:
         lock_existing: Bloquear títulos existentes

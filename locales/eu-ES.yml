@@ -1537,20 +1537,6 @@ eu-ES:
   character name:
   collection_includes: "%{movie_titles} barne"
   confirm_delete: Ziur al zaude erregistro hau ezabatu nahi duzula?
-  content_score:
-    helper_tooltip: Eduki kalifikazioak datu baseko objektu baten datuak zenbateraino osatuak dauden laguntzeko modu bat da.
-    scale:
-      '0': Nonbait hasi beharko...
-      '1': Aizu, hasteko modu bat da.
-      '10': Bai! Itxura ona du!
-      '2': Iristen ari gara.
-      '3': Roma ez zen egun batean eraiki...
-      '4': Ez dago 'ni' talde lanean...
-      '5': Oraindik lantxo bat behar du.
-      '6': Hain gertu eta hain urrun.
-      '7': Pixka bat gehiago bakarrik...
-      '8': Eutsi! Gertu gaude.
-      '9': Ia iritsi gara...
   contribute:
     contribute: Lagundu
     missing_a_biography: Biografia Falta da
@@ -3178,6 +3164,42 @@ eu-ES:
       headquarters:
       movie_page_title:
       tv_page_title:
+    content_score:
+      helper_tooltip: Eduki kalifikazioak datu baseko objektu baten datuak zenbateraino osatuak dauden laguntzeko modu bat da.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Nonbait hasi beharko...
+        '1': Aizu, hasteko modu bat da.
+        '10': Bai! Itxura ona du!
+        '2': Iristen ari gara.
+        '3': Roma ez zen egun batean eraiki...
+        '4': Ez dago 'ni' talde lanean...
+        '5': Oraindik lantxo bat behar du.
+        '6': Hain gertu eta hain urrun.
+        '7': Pixka bat gehiago bakarrik...
+        '8': Eutsi! Gertu gaude.
+        '9': Ia iritsi gara...
     edit:
       alternative_title:
         lock_existing:

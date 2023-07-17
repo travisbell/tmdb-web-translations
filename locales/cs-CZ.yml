@@ -1543,20 +1543,6 @@ cs-CZ:
   character name:
   collection_includes: Obsahuje %{movie_titles}
   confirm_delete: Opravdu chcete odstranit tento záznam?
-  content_score:
-    helper_tooltip: Hodnocení obsahu je způsob, jak vám pomoci pochopit, jak úplná jsou data pro objekt v databázi.
-    scale:
-      '0': Někde musíme začít...
-      '1': Hej, to je začátek.
-      '10': Ano! To vypadá dobře!
-      '2': Už tam budeme.
-      '3': Řím také nebyl postaven za den...
-      '4': Je to týmová práce...
-      '5': Ještě to chce trochu práce.
-      '6': Je to blízko, přesto ještě daleko.
-      '7': Ještě trochu víc...
-      '8': Do toho! Jsme už blízko.
-      '9': Už to bude...
   contribute:
     contribute: Přispět
     missing_a_biography: Chybějící biografie
@@ -3213,6 +3199,42 @@ cs-CZ:
       headquarters: Sídlo
       movie_page_title: Filmy od společnosti %{name}
       tv_page_title: Seriály na %{name}
+    content_score:
+      helper_tooltip: Hodnocení obsahu je způsob, jak vám pomoci pochopit, jak úplná jsou data pro objekt v databázi.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Někde musíme začít...
+        '1': Hej, to je začátek.
+        '10': Ano! To vypadá dobře!
+        '2': Už tam budeme.
+        '3': Řím také nebyl postaven za den...
+        '4': Je to týmová práce...
+        '5': Ještě to chce trochu práce.
+        '6': Je to blízko, přesto ještě daleko.
+        '7': Ještě trochu víc...
+        '8': Do toho! Jsme už blízko.
+        '9': Už to bude...
     edit:
       alternative_title:
         lock_existing: Uzamknout stávající názvy

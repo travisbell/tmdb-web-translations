@@ -1633,20 +1633,6 @@ lt-LT:
   character name: Personažo vardas
   collection_includes: apima %{movie_titles}
   confirm_delete: Ar tikrai norite ištrinti šį įrašą?
-  content_score:
-    helper_tooltip: Turinio įvertinimas yra būdas suprasti, kiek išsamūs duomenų bazės objekto duomenys.
-    scale:
-      '0': Nuo kažko juk reikia pradėti...
-      '1': Ei, tai tik pradžia.
-      '10': Puikumėlis!
-      '2': Judame pirmyn.
-      '3': Ir Roma nebuvo pastatyta per dieną...
-      '4': Hmm, vis dar kažko trūksta...
-      '5': Dar truputis pastangų.
-      '6': Pusiaukelėje!
-      '7': Spustelk dar šiek tiek...
-      '8': Varyk! Mes jau arti.
-      '9': Ranka pasiekiama...
   contribute:
     contribute: Padėti projektui
     missing_a_biography: Trūksta biografijos
@@ -3301,6 +3287,42 @@ lt-LT:
       headquarters: Pagrindinė būstinė
       movie_page_title: Filmai sukurti %{name}
       tv_page_title: TV laidos sukurtos %{name}
+    content_score:
+      helper_tooltip: Turinio įvertinimas yra būdas suprasti, kiek išsamūs duomenų bazės objekto duomenys.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Nuo kažko juk reikia pradėti...
+        '1': Ei, tai tik pradžia.
+        '10': Puikumėlis!
+        '2': Judame pirmyn.
+        '3': Ir Roma nebuvo pastatyta per dieną...
+        '4': Hmm, vis dar kažko trūksta...
+        '5': Dar truputis pastangų.
+        '6': Pusiaukelėje!
+        '7': Spustelk dar šiek tiek...
+        '8': Varyk! Mes jau arti.
+        '9': Ranka pasiekiama...
     edit:
       alternative_title:
         lock_existing: Užrakinti esamus titrus

@@ -1575,20 +1575,6 @@ ar-SA:
   character name: أسم الشخصية
   collection_includes: تتضمن %{movie_titles}
   confirm_delete: هل أنت متأكد من أنك تريد أن تحذف هذا السجل؟
-  content_score:
-    helper_tooltip: تساعدك درجة المحتوى على معرفة مستوى اكتمال البيانات لعنصر في قاعدة البيانات.
-    scale:
-      '0': عليك البدء في مكان ما...
-      '1': مرحبًا ، إنها البداية.
-      '10': نعم! تبدو جيدة!
-      '2': سنصل للهدف.
-      '3': لم تُبن روما في يوم واحد...
-      '4': فلنتعاون على العمل...
-      '5': مازال يحتاج للقليل من العمل.
-      '6': قد نكون قريبين جداً، لكن مازلنا بعيدين.
-      '7': نحتاج القليل فقط...
-      '8': شدوا الهمة! اقتربنا الآن.
-      '9': أوشكنا الوصول...
   contribute:
     contribute: ساهم
     missing_a_biography: ناقص سيرة حياتية
@@ -3275,6 +3261,42 @@ ar-SA:
       headquarters: المقر
       movie_page_title: الأفلام المنتجة بواسطة %{name}
       tv_page_title: المسلسلات المنتجة بواسطة %{name}
+    content_score:
+      helper_tooltip: تساعدك درجة المحتوى على معرفة مستوى اكتمال البيانات لعنصر في قاعدة البيانات.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': عليك البدء في مكان ما...
+        '1': مرحبًا ، إنها البداية.
+        '10': نعم! تبدو جيدة!
+        '2': سنصل للهدف.
+        '3': لم تُبن روما في يوم واحد...
+        '4': فلنتعاون على العمل...
+        '5': مازال يحتاج للقليل من العمل.
+        '6': قد نكون قريبين جداً، لكن مازلنا بعيدين.
+        '7': نحتاج القليل فقط...
+        '8': شدوا الهمة! اقتربنا الآن.
+        '9': أوشكنا الوصول...
     edit:
       alternative_title:
         lock_existing:

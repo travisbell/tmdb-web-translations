@@ -1537,20 +1537,6 @@ it-IT:
   character name: Nome del personaggio
   collection_includes: Inserire %{movie_titles}
   confirm_delete: Sei sicuro di voler eliminare questo elemento?
-  content_score:
-    helper_tooltip: Il punteggio del contenuto è un modo per aiutarti a comprendere la completezza dei dati per un oggetto nel database.
-    scale:
-      '0': Devo iniziare da qualche parte...
-      '1': Ehi, è un inizio.
-      '10': Sì! Sembra buono!
-      '2': Ci stiamo arrivando.
-      '3': Roma non fu costruita in un giorno...
-      '4': Non c'è un "Io" in squadra...
-      '5': Ha ancora bisogno di un po' di lavoro.
-      '6': Siamo così vicini, eppure così lontani.
-      '7': Solo un altro po...
-      '8': Forza! Siamo vicini ora.
-      '9': Ci siamo quasi...
   contribute:
     contribute: Contribuisci
     missing_a_biography: Biografia Mancante
@@ -3196,6 +3182,42 @@ it-IT:
       headquarters: Quartier generale
       movie_page_title: Film prodotti da %{name}
       tv_page_title: Serie Tv su %{name}
+    content_score:
+      helper_tooltip: Il punteggio del contenuto è un modo per aiutarti a comprendere la completezza dei dati per un oggetto nel database.
+      missing_data:
+        fields:
+          air_date:
+          backdrop:
+          biography:
+          cast_min_4:
+          created_by:
+          credits:
+          crew_min_2:
+          director:
+          episode:
+          genres:
+          guest_stars_min_2:
+          name:
+          overview:
+          poster:
+          profile:
+          release_date:
+          title:
+          video:
+          writer:
+        summary:
+      scale:
+        '0': Devo iniziare da qualche parte...
+        '1': Ehi, è un inizio.
+        '10': Sì! Sembra buono!
+        '2': Ci stiamo arrivando.
+        '3': Roma non fu costruita in un giorno...
+        '4': Non c'è un "Io" in squadra...
+        '5': Ha ancora bisogno di un po' di lavoro.
+        '6': Siamo così vicini, eppure così lontani.
+        '7': Solo un altro po...
+        '8': Forza! Siamo vicini ora.
+        '9': Ci siamo quasi...
     edit:
       alternative_title:
         lock_existing:
