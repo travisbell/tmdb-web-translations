@@ -33,7 +33,7 @@ cs-CZ:
   Add Network: Přidat stanici
   Add New Episode: Přidat novou epizodu
   Add New Movie: Přidat nový film
-  Add New Release: Přidat nové vydání
+  Add New Release: Přidat nové datum vydání
   Add New Season: Přidat novou sezónu
   Add New TV Show: Přidat nový seriál
   Add Poster: Přidat plakát
@@ -45,7 +45,7 @@ cs-CZ:
   Add YouTube Video: Přidat video YouTube
   Add a New Cast Member: Přidat nového člena obsazení
   Add a New Crew Member: Přidat nového člena štábu
-  Add a New Guest Star: Přidat novou hostující hvězdu
+  Add a New Guest Star: Přidat nové hostující obsazení epizody
   Add to Watchlist: Přidat do seznamu ke zhlédnutí
   Add to list: Přidat do seznamu
   Add to your favorite list: Přidat do vašeho seznamu oblíbených
@@ -206,7 +206,7 @@ cs-CZ:
   Genres: Žánry
   Genres & Keywords: Žánry a klíčová slova
   Get Involved: Zapojit se
-  Guest Stars: Hostující hvězda
+  Guest Stars: Hostující obsazení epizody
   Guidelines: Pokyny
   Hardware/Embedded: Hardwarové nebo vložené
   Help: Nápověda
@@ -295,8 +295,8 @@ cs-CZ:
   Offensive or Spam: Urážlivé nebo spam
   Offical Site: Oficiální stránky
   Offline Databases: Offline databáze
-  Origin Country: Země původu
-  Original Air Date: Původní datum vysílání
+  Origin Country: Země původu (pouze pro první oficiální vydání filmu nebo seriálu)
+  Original Air Date: První datum vysílání
   Original Ascending: Původní vzestupně
   Original Descending: Původní sestupně
   Original Language: Původní jazyk
@@ -1764,7 +1764,7 @@ cs-CZ:
         from: od
         release_dates: Data vydání
         search_all_countries: Prohledat všechny země?
-        search_release_dates: Prohledat všechna vydání?
+        search_release_dates: Prohledat všechna data vydání?
         to: do
       runtime: Délka
       show_me:
@@ -2044,7 +2044,7 @@ cs-CZ:
       duplicate_created_by: Tato osoba již je přidána jako tvůrce.
       duplicate_crew_member: Tato osoba již je přidána jako %{job_name}.
       duplicate_episode: Tato epizoda již existuje.
-      duplicate_guest_star: Tato hostující hvězda již existuje.
+      duplicate_guest_star: Toto hostující obsazení epizody již existuje.
       duplicate_regular_season_member: Tato osoba již je přidána jako pravidelný člen obsazení sezóny.
       duplicate_season: Tato sezóna již existuje.
   failed_email: Váš e-mail se nepodařilo odeslat.
@@ -3159,7 +3159,7 @@ cs-CZ:
   list_sort:
     original_order: Původního pořadí
     rating: Hodnocení
-    release_date: Data vydání
+    release_date: Datum vydání
     title: Názvu
   list_steps:
     step_1: 'Krok 1: Podrobnosti o seznamu'
@@ -3203,28 +3203,28 @@ cs-CZ:
       helper_tooltip: Hodnocení obsahu je způsob, jak vám pomoci pochopit, jak úplná jsou data pro objekt v databázi.
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
-          cast_min_4:
-          created_by:
+          air_date: Datum prvního vysílání
+          backdrop: Obrázek pozadí
+          biography: Životopis
+          cast_min_4: Obsazení (alespoň 4)
+          created_by: Autor seriálu (ale pouze pokud je jako autor uvedený v úvodních titulcích, tj. nikoli pouze scénárista!)
           credits:
-          crew_min_2:
-          director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
-          parts:
-          poster:
-          profile:
-          regular_cast_min_4:
-          release_date:
-          title:
+          crew_min_2: Štáb (alespoň 2)
+          director: Režisér
+          episode: Epizody (alespoň 1)
+          genres: Žánry
+          guest_stars_min_2: Hostující obsazení epizody (alespoň 2)
+          name: Oficiální přeložený název (tj. nikoli uživatelem přeložený název!)
+          overview: Přehled
+          parts: Díly (alespoň 1)
+          poster: Plakát
+          profile: Profilová fotografie
+          regular_cast_min_4: Pravidelné obsazení (alespoň 4, ale pouze pokud jsou jako pravidelné obsazení uvedeni v úvodních titulcích seriálu!)
+          release_date: Datum vydání
+          title: Oficiální přeložený název (tj. nikoli uživatelem přeložený název!)
           video:
           writer:
-        summary:
+        summary: Zdá se, že nám v jazycích <strong>%{language}</strong> nebo <strong>%{fallback_language}</strong> chybějí následující údaje...
       scale:
         '0': Někde musíme začít...
         '1': Hej, to je začátek.
@@ -3263,7 +3263,7 @@ cs-CZ:
         person: Hledat osobu...
         production_companies: Hledat produkční společnost...
       release_date:
-        locked:
+        locked: Toto datum vydání je uzamčené.
       success_fields_locked: Pole uzamčena.
       tagline:
         add_tagline: Přidat slogan
@@ -3474,7 +3474,7 @@ cs-CZ:
           mid_season:
           standard:
         guest_stars:
-          no_records: Nebyly přidány žádné hostující hvězdy.
+          no_records: Nebylo přidáno žádné hostující obsazení epizody.
         screened_as_part_of_season: Ano, jako součást sezóny
         screened_confirm: Pokud byla tato epizoda vysílána na filmovém festivalu nebo v kině, klikněte na ‚Ano‘ pro pokračování.
         screened_label: Byla tato epizoda vysílána v kině?
@@ -3558,7 +3558,7 @@ cs-CZ:
             few: "%{count} skupiny"
             one: "%{count} skupina"
             other: "%{count} skupin"
-        original_air_date: Datum původního vysílání
+        original_air_date: První datum vysílání
       networks:
         few: Stanice
         one: Stanice
@@ -3689,7 +3689,7 @@ cs-CZ:
     current_user: Nepřidali jste žádné oblíbené seriály.
     public: "%{username} nemá žádné oblíbené seriály."
   no_genres: Nebyly přidány žádné žánry.
-  no_guest_stars: Nebyly přidány žádné hostující hvězdy.
+  no_guest_stars: Nebylo přidáno žádné hostující obsazení epizody.
   no_keyword_search_results: Vašemu dotazu neodpovídají žádná klíčová slova
   no_keywords: Nebyla přidána žádná klíčová slova.
   no_list_search_results: Vašemu dotazu neodpovídají žádné seznamy.
