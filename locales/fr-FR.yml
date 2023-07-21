@@ -2038,6 +2038,10 @@ fr-FR:
       duplicate_guest_star: Cette personne est déjà enregistrée en tant que vedette invitée.
       duplicate_regular_season_member: Cette personne est déjà enregistrée comme artiste récurrent de la distribution des rôles de la saison.
       duplicate_season: Cette saison existe déjà.
+      duplicate_season_episode_cast_member: Cette personne a déjà été ajoutée, en qualité de membre de la distribution, à un épisode de cette saison. Les crédits de distribution des rôles doivent être ajoutés soit à une saison, soit à un épisode, mais pas aux deux.
+      duplicate_season_episode_crew_member: Cette personne a déjà été ajoutée, en qualité de %{job_name}, à un épisode de cette saison. Les crédits de l'équipe technique doivent être ajoutés soit à une saison, soit à un épisode, mais pas aux deux.
+      missing_credit: Le crédit que vous tentiez de modifier n'existe pas.
+      missing_person: La personne que vous avez renseignée est introuvable.
   failed_email: Votre courriel n'a pas pu être envoyé !<br>Merci de bien vouloir réessayer.<br>L'équipe de TMDB.
   failed_generic: Un problème est survenu.
   failed_report: Un problème est survenu lors de l'envoi de votre rapport.
@@ -3467,7 +3471,7 @@ fr-FR:
         screened_as_part_of_season: Oui, comme partie de la saison
         screened_confirm: Si cet épisode a été projeté lors d'un festival du film ou au cinéma, cliquez sur « Oui » pour continuer.
         screened_label: Cet épisode a t-il été projeté au cinéma ?
-      episode_indicator:
+      episode_label:
         finale: "%{episode_type} de la saison"
         mid_season: Épisode de %{episode_type}
       episode_selector:

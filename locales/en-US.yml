@@ -2038,6 +2038,10 @@ en-US:
       duplicate_guest_star: This guest star already exists.
       duplicate_regular_season_member: This person is already added as a regular season cast member.
       duplicate_season: This season already exists.
+      duplicate_season_episode_cast_member: This person is already added as a cast member to an episode of this season. Cast credits need to be added to either a season, or an episode, and not both.
+      duplicate_season_episode_crew_member: This person is already added as a %{job_name} to an episode of this season. Crew credits need to be added to either a season, or an episode, and not both.
+      missing_credit: The credit you were trying to edit doesn't exist.
+      missing_person: The person you entered could not be found.
   failed_email: Your email failed to send.
   failed_generic: There was a problem.
   failed_report: There was a problem submitting your report.
@@ -3460,16 +3464,16 @@ en-US:
         episode_type_label: Episode Type
         episode_types:
           finale: Finale
-          mid_season: Mid Season
+          mid_season: Mid-Season
           standard: Standard
         guest_stars:
           no_records: No guest stars have been added.
         screened_as_part_of_season: Yes, as part of season
         screened_confirm: If this episode has been screened in a film festival or theatre, click 'Yes' to continue.
         screened_label: Has this episode been screened theatrically?
-      episode_indicator:
-        finale: "%{episode_type}"
-        mid_season: "%{episode_type}"
+      episode_label:
+        finale: Season Finale
+        mid_season: Mid-Season Finale
       episode_selector:
         current_episode: Episode %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
