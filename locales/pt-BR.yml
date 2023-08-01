@@ -1992,21 +1992,24 @@ pt-BR:
   episode_number_name: Episódio %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: O proprietário desta página excluiu sua conta.  Embora todas as suas contribuições para o TMDB permaneçam, seus dados de usuário foram anonimizados.
+      title: Esta conta foi excluída
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Você não tem acesso a esta página.  Se você acredita que isso é um erro, informe-nos <a href="%{forum_link}">nos fóruns</a>.
+        public: Você tentou solicitar uma página que exige que você esteja conectado. Faça login em sua conta <a href="%{login_link}">clicando aqui</a>.
+      title: Você não tem permissão para acessar esta página
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        Você usou todas as suas 10 tentativas de login.  Você poderá tentar novamente em 30 minutos.  Enquanto isso, você também pode tentar <a href="%{reset_password_link}">redefinir sua senha</a>.
+
+         Você também pode <a href="%{about_us_link}">contatar-nos</a> para obter suporte.
+      title: Sem tentativas de login
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Você não tem acesso a esta página.
+        public: Você tentou solicitar uma página que é privada.
+      title: Esta página é privada
     suspended:
       explanation_1: Infelizmente, este usuário foi suspenso.
       go_to_inbox: Vá para a Caixa de Entrada
@@ -2015,8 +2018,8 @@ pt-BR:
         explanation_1: Se desejar discutir os motivos de sua suspensão ou como você pode recuperar o acesso à sua conta, visite a área de mensagens clicando no link abaixo.
         title: A sua conta foi suspensa
     suspended_user_post:
-      description:
-      title:
+      description: Esta postagem foi considerada uma violação de nossas <a href="%{link}">diretrizes da comunidade</a>.  O usuário responsável por isso também pode ter sido suspenso.
+      title: Esta postagem foi removida
   errors:
     attributes:
       iso_3166_1:
@@ -2057,10 +2060,10 @@ pt-BR:
       duplicate_guest_star: Este convidado especial já existe.
       duplicate_regular_season_member: Esta pessoa já foi adicionada como um membro do elenco recorrente da temporada.
       duplicate_season: Esta temporada já existe.
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
-      missing_credit:
-      missing_person:
+      duplicate_season_episode_cast_member: Esta pessoa já foi adicionada como membro do elenco a um episódio desta temporada.  Os créditos do elenco precisam ser adicionados a uma temporada ou a um episódio, e não a ambos.
+      duplicate_season_episode_crew_member: Esta pessoa já foi adicionada como %{job_name} a um episódio desta temporada.  Os créditos da equipe precisam ser adicionados a uma temporada ou a um episódio, e não a ambos.
+      missing_credit: O crédito que você estava tentando editar não existe.
+      missing_person: A pessoa que você digitou não foi encontrada.
   failed_email: Ocorreu um problema ao enviar seu e-mail.
   failed_generic: Ocorreu um problema.
   failed_report: Ocorreu um problema ao enviar seu relatório.
@@ -2172,9 +2175,9 @@ pt-BR:
       min_res: Uma resolução mínima de %{res}
       read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.
       tip: Se seu navegador suportar, você pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar arquivos..." e escolher a imagem do seu computador.
-      type_backdrops:
+      type_backdrops: Imagens de fundo
       type_episode_stills: Fotos do episódio
-      type_headshots:
+      type_headshots: Fotos (de rosto)
       type_posters: Pôsteres
       type_profiles: Perfis
       validation_header: "%{type} deve atender aos seguintes critérios:"
@@ -3223,28 +3226,28 @@ pt-BR:
       helper_tooltip: A avaliação do conteúdo é uma forma de ajudá-lo a entender o quão completo está os dados de um item do nosso banco de dados.
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
-          cast_min_4:
-          created_by:
-          credits:
-          crew_min_2:
-          director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
-          parts:
-          poster:
-          profile:
-          regular_cast_min_4:
-          release_date:
-          title:
-          video:
-          writer:
-        summary:
+          air_date: Data de exibição
+          backdrop: Imagem de fundo
+          biography: Biografia
+          cast_min_4: Elenco (4 ou mais)
+          created_by: Crédito do Criador
+          credits: Um crédito de filme ou TV
+          crew_min_2: Equipe (2 ou mais créditos)
+          director: Diretor(a)
+          episode: Episódio (1 ou mais)
+          genres: Gêneros
+          guest_stars_min_2: Estrelas convidadas (2 ou mais)
+          name: Nome traduzido
+          overview: Visão geral
+          parts: Partes (1 ou mais)
+          poster: Pôster
+          profile: Imagem de perfil
+          regular_cast_min_4: Membros regulares do elenco (4 ou mais)
+          release_date: Data de lançamento
+          title: Título Traduzido
+          video: Vídeo
+          writer: Escritor(a)
+        summary: Parece que faltam os seguintes dados em <strong>%{language}</strong> ou <strong>%{fallback_language}</strong>...
       scale:
         '0': Precisamos começar em algum lugar...
         '1': Olha só, já é um começo.
@@ -3292,7 +3295,7 @@ pt-BR:
         locked: Este slogan está bloqueado
         no_taglines: Nenhum slogan foi adicionado.
         not_found: Não foi possível encontrar o slogan que você estava tentando editar.
-        primary:
+        primary: Primário
         taglines: Slogans
         unable_to_delete: O slogan não pôde ser excluído.
       tooltips:
@@ -3303,7 +3306,7 @@ pt-BR:
         original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
         overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
         social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
-      translation_not_found:
+      translation_not_found: A tradução em %{language} ainda não foi criada.
       unlock_all_appearances: Ao clicar em 'sim', você estará desbloqueando todos os registros existentes.
       videos:
         locked: Este vídeo está bloqueado.
@@ -3486,20 +3489,20 @@ pt-BR:
       title: Título
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: Já existe um episódio %{episode_type} para esta temporada.  Clique em 'Sim' para confirmar sua seleção.
+        episode_type_label: Tipo do Episódio
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: Final da Temporada
+          mid_season: Final da Meia Temporada
+          standard: Padrão
         guest_stars:
           no_records: Nenhum artista convidado foi adicionado.
         screened_as_part_of_season: Sim, como parte de uma temporada
         screened_confirm: Se este episódio foi exibido em algum cinema ou festival de filmes, clique em "Sim" para continuar.
         screened_label: Este episódio foi exibido em cinemas ou festivais?
       episode_label:
-        finale:
-        mid_season:
+        finale: Final da Temporada
+        mid_season: Final da Meia Temporada
       episode_selector:
         current_episode: Episódio %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -3597,7 +3600,7 @@ pt-BR:
         Scripted: Roteirizada
         Talk Show: Programa de Entrevistas (Talk Show)
         Video: Vídeo
-      user_characters:
+      user_characters: Personagens do Usuário
     video:
       audio_language: Idioma do áudio
       channel: Canal
@@ -3837,7 +3840,7 @@ pt-BR:
       hd: Não encontrada oferta HD
       none: Não existe oferta para %{title}.
       sd: Não encontrada oferta SD
-    page_title:
+    page_title: Onde posso assistir %{media_name}?
     seasons:
       many: "%{count} temporadas"
       one: "%{count} temporada"
