@@ -751,7 +751,7 @@ fa-IR:
     top: بازگشت به بالا
   certifications:
     certification: گواهی
-    descriptors:
+    descriptors: توصیف‌گرها
     meaning: معنی
     movies:
       AU:
@@ -2018,9 +2018,9 @@ fa-IR:
       duplicate_guest_star: این هنرمند مهمان از قبل وجود دارد.
       duplicate_regular_season_member: این شخص قبلاً به عنوان یکی از بازیگران عادی فصل اضافه شده است.
       duplicate_season: این فصل از قبل وجود دارد.
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
-      missing_credit:
+      duplicate_season_episode_cast_member: این شخص قبلا به‌عنوان یک بازیگر به قسمتی از این فصل اضافه شده است. عنوان‌بندی عوامل جلوی دوربین باید به یک فصل یا یک قسمت اضافه شود و نه هر دو.
+      duplicate_season_episode_crew_member: این شخص قبلا به‌عنوان یک %{job_name} به قسمتی از این فصل اضافه شده است. عنوان‌بندی عوامل پشت دوربین باید به یک فصل یا یک قسمت اضافه شود و نه هر دو.
+      missing_credit: عنوان‌بندی را که می‌خواهید ویرایش کنید وجود ندارد.
       missing_person: شخصی که وارد کردید پیدا نشد.
   failed_email: ارسال ایمیل شما شکست خورد.
   failed_generic: مشکلی پیش آمد.
@@ -2124,7 +2124,7 @@ fa-IR:
       posters_must_meet: 'پوسترها باید معیارهای زیر را داشته باشند:'
       profile_must_meet: 'تصاویر پروفایل باید معیارهای زیر را داشته باشند:'
       read_guidelines:
-      tip:
+      tip: اگر مرورگر شما از آن پشتیبانی می‌کند، می‌توانید یک تصویر را در ناحیه زیر کشیده و رها کنید. در غیر این صورت، فقط روی دکمه "انتخاب فایل‌ها..." کلیک کرده و تصویر را از رایانه خود انتخاب کنید.
     uploader:
       aspect_ratio:
       aspect_ratio_both:
@@ -2166,13 +2166,13 @@ fa-IR:
     3D Tracking Layout:
     ADR & Dubbing: دوبله
     ADR Coordinator:
-    ADR Editor:
-    ADR Engineer:
+    ADR Editor: تدوین‌گر جایگزینی خودکار گفتار
+    ADR Engineer: سرپرست جایگزینی خودکار گفتار
     ADR Mixer: ترکیب‌کننده صداهای استودیویی
     ADR Post Producer:
     ADR Recording Engineer:
     ADR Recordist:
-    ADR Supervisor:
+    ADR Supervisor: مدیر جایگزینی خودکار گفتار
     ADR Voice Casting:
     Accountant: حسابدار
     Accounting Clerk Assistant:
@@ -2563,7 +2563,7 @@ fa-IR:
     Hair Designer: طراح مو
     Hair Setup: تنظیم مو
     Hair Supervisor: سرپرست مو
-    Hairdresser:
+    Hairdresser: آرایش‌گر
     Hairstylist: آرایشگر
     Head Carpenter:
     Head Decorator:
@@ -3111,7 +3111,7 @@ fa-IR:
       tv_episode_pages: در صفحات قسمت تلویزیونی
       tv_season_pages: در صفحات فصل تلویزیونی
     keyboard_shortcuts: میانبرهای صفحه کلید
-    login_to_change_preferences:
+    login_to_change_preferences: با ورود به حساب کاربری خود می‌توانید میانبرهای صفحه کلید را غیرفعال کنید.
     view_keyboard_shorcuts: نمایش میانبرهای صفحه کلید
     view_shortcuts: نمایش میانبرها
   list_info:
@@ -3175,30 +3175,30 @@ fa-IR:
       movie_page_title: فیلم‌های تولید شده توسط %{name}
       tv_page_title: برنامه‌های تلویزیونی تولید شده توسط %{name}
     content_score:
-      helper_tooltip:
+      helper_tooltip: امتیاز محتوا راهی برای کمک به درک کامل بودن داده‌ها برای یک موضوع در پایگاه داده است.
       missing_data:
         fields:
-          air_date:
+          air_date: تاریخ پخش
           backdrop:
-          biography:
-          cast_min_4:
+          biography: زندگینامه
+          cast_min_4: بازیگران (۴ یا بیشتر)
           created_by:
           credits:
           crew_min_2:
           director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
-          parts:
+          episode: قسمت (۱ یا بیشتر)
+          genres: ژانرها
+          guest_stars_min_2: بازیگران مهمان (۲ یا بیشتر)
+          name: نام ترجمه شده
+          overview: خلاصه
+          parts: بخش‌ها (۱ یا بیشتر)
           poster:
           profile:
           regular_cast_min_4:
-          release_date:
-          title:
-          video:
-          writer:
+          release_date: تاریخ انتشار
+          title: عنوان ترجمه شده
+          video: ویدئو
+          writer: نویسنده
         summary:
       scale:
         '0':
@@ -3219,8 +3219,8 @@ fa-IR:
       cast_updated: بازیگران به‌روزرسانی شدند
       delete_all_appearances: حذف همه حضورها
       genres_updated: ژانرها به‌روز شد
-      lock_all_appearances:
-      lock_all_cast_crew_description:
+      lock_all_appearances: با کلیک بر روی “بلی”، شما تمام سوابق موجود را از ویرایش در آینده توسط کاربران عادی قفل خواهید کرد. مدیران هنوز قادر به ویرایش خواهند بود.
+      lock_all_cast_crew_description: با کلیک بر روی “بلی”، شما تمام سوابق موجود را از ویرایش در آینده توسط کاربران عادی قفل خواهید کرد. مدیران هنوز قادر به ویرایش خواهند بود.
       lock_all_fields:
       lock_all_images: قفل همه تصاویر
       lock_existing_cast:
@@ -3241,15 +3241,15 @@ fa-IR:
         locked: این تاریخ انتشار قفل شده است.
       success_fields_locked: فیلد ها قفل هستند.
       tagline:
-        add_tagline:
-        already_exists:
+        add_tagline: افزودن شعار تبلیغاتی
+        already_exists: شعار تبلیغاتی از پیش موجود است
         lock_existing:
-        locked:
-        no_taglines:
-        not_found:
+        locked: این شعار تبلیغاتی قفل شده است
+        no_taglines: هبچ شعار تبلیغاتی افزوده نشده است.
+        not_found: ما نتوانستیم شعار تبلیغاتی را که می‌خواهید ویرایش کنید پیدا کنیم.
         primary:
-        taglines:
-        unable_to_delete:
+        taglines: شعارهای تبلیغاتی
+        unable_to_delete: شعار تبلیغاتی را نمی‌توان حذف کرد.
       tooltips:
         adult:
         bible: برای کمک به ویرایش اطلاعات در پایگاه‌داده فیلم، روی '?' کلیک نمایید تا مرجع مشارکت را مطالعه کنید.
@@ -3258,7 +3258,7 @@ fa-IR:
         original_title: عنوان اصلی باید بر اساس زبان اصلی آیتم وارد شود. در بیشتر موارد با زبانی که در فیلد "زبان اصلی" وارد شده است مطابقت دارد.
         overview: به هنگام نوشتن خلاصه٫ سعی کنید کوتاه٫ مختصر و عاری از بیهوده‌گویی باشد.
         social_links: پیوندهای اجتماعی فقط برای صفحات رسمی (تایید شده) هستند. صفحات هواداران مجاز نیستند.
-      translation_not_found:
+      translation_not_found: ترجمه %{language} هنوز ایجاد نشده است.
       unlock_all_appearances: با کلیک روی 'بله'، قفل تمام رکوردهای موجود را باز خواهید کرد.
       videos:
         locked: این ویدیو قفل شده است.
@@ -3267,9 +3267,9 @@ fa-IR:
       visit_homepage: بازدید صفحه اصلی
       visit_instagram: بازدید اینستاگرام
       visit_justwatch: مشاهده JustWatch
-      visit_tiktok:
+      visit_tiktok: مشاهده تیک‌تاک
       visit_twitter: بازدید توییتر
-      visit_youtube:
+      visit_youtube: مشاهده یوتیوب
     genre:
       movie_page_title: "%{name} فیلم‌ها"
       tv_page_title: "%{name} برنامه‌های تلویزیونی"
@@ -3417,26 +3417,26 @@ fa-IR:
           logged_in: نوشتن نقد
           public: برای نوشتن نظر وارد شوید.
     translations:
-      add_biography:
-      add_homepage:
-      add_name:
-      add_overview:
-      add_runtime:
+      add_biography: افزودن زندگینامه
+      add_homepage: افزودن صفحه اصلی
+      add_name: افزودن نام
+      add_overview: افزودن خلاصه
+      add_runtime: افزودن زمان پخش
       add_tagline:
-      add_title:
-      biography:
-      name:
-      overview:
+      add_title: افزودن عنوان
+      biography: زندگینامه
+      name: نام
+      overview: خلاصه
       taglines:
-      title:
+      title: عنوان
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: در حال حاضر یک قسمت %{episode_type} برای این فصل وجود دارد. برای تایید انتخاب خود روی "بلی" کلیک کنید.
+        episode_type_label: نوع قسمت
         episode_types:
           finale:
           mid_season:
-          standard:
+          standard: استاندارد
         guest_stars:
           no_records: هیچ ستاره مهمانی اضافه نشده است.
         screened_as_part_of_season: بله، به عنوان بخشی از فصل
@@ -3455,7 +3455,7 @@ fa-IR:
         create_episode: ایجاد قسمت
         episodes:
           no_records: هیچ قسمتی اضافه نشد.
-        runtime_varies_check:
+        runtime_varies_check: مقدار زمان پخش تا حد زیادی با زمان پخش فصل متفاوت است. آیا زمان اجرا را درست وارد کرده‌اید؟
         screened_confirm: اگر این فصل در جشنواره فیلم یا نمایش عمومی نمایش داده شده است، برای ادامه روی "بلی" کلیک کنید.
         screened_label: آیا این فصل به صورت نمایش عمومی اکران شده است؟
       season_cast: بازیگران فصل
@@ -3475,7 +3475,7 @@ fa-IR:
         content_ratings:
           no_records: هیچ رتبه‌بندی محتوایی اضافه نشده است.
         creator:
-          no_records:
+          no_records: هیچ سازنده‌ای اضافه نشده است.
         crew:
           no_season: هیچ فصلی وجود ندارد! یک فصل برای افزودن اعضای عوامل مورد نیاز است.
         episode_groups:
@@ -3501,7 +3501,7 @@ fa-IR:
             '2':
             '3': دی‌وی‌دی
             '4': دیجیتال
-            '5':
+            '5': قوس داستانی
             '6':
             '7': تلویزیون
         networks:
@@ -3518,6 +3518,8 @@ fa-IR:
       episode_groups:
         groups:
           count:
+            one: "%{count} گروه"
+            other: "%{count} گروه"
         original_air_date: تاریخ پخش اصلی
       networks:
         one: شبکه ها
@@ -3740,8 +3742,8 @@ fa-IR:
     available_snippet:
       flatrate:
       rent_or_buy: برای اجاره یا خرید موجود است
-      summary_sentence:
-    description:
+      summary_sentence: "%{available_snippet} در %{service_name}"
+    description: JustWatch به شما این امکان را می‌دهد که بفهمید کجا می‌توانید به صورت قانونی فیلم‌ها و برنامه‌های تلویزیونی مورد علاقه خود را به صورت برخط تماشا کنید. برای اطلاعات بیشتر به {justwatch_link} مراجعه کنید.
     filters:
       4k: 4K
       best_price: بهترین قیمت
@@ -3763,7 +3765,7 @@ fa-IR:
       hd: هیچ پیشنهاد HD یافت نشد.
       none: هیچ پیشنهاد برای %{title} وجود ندارد.
       sd: هیچ پیشنهاد SD یافت نشد.
-    page_title:
+    page_title: از کجا می‌توانم %{media_name} را تماشا کنم؟
     seasons:
       many: "%{count} فصل"
       other: "%{count} فصل"
