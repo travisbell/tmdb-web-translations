@@ -1474,7 +1474,7 @@ ro-RO:
     resume_editing: Reîncepe
     revenue: Venituri
     review_and_launch_title: Examinați și trimiteți
-    review_label:
+    review_label: revizuire
     save_backdrop: Salvați fundalul
     save_edits: Salvați editările
     search: 'Caută '
@@ -1796,7 +1796,7 @@ ro-RO:
       close_discussion: Închide discuția
       make_private: Fă-o privată
       make_public: Fă-o publică
-      mark_not_spam:
+      mark_not_spam: Marcați că nu e spam
       mark_spam: Marchează ca spam
       reopen_discussion: Re-deschide discuția
       stop_watching: Oprește urmărirea
@@ -1869,7 +1869,7 @@ ro-RO:
         hide_comment: Făcând clic pe "Da", acest comentariu va fi ascuns.
         hide_discussion: Făcând clic pe "Da", această discuție va fi ascunsă.
         ignore_user: Sigur doriți să ignorați acest utilizator? Toate discuțiile și comentariile lui vor dispărea. Puteți să eliminați acest blocaj accesând pagina "Utilizatori blocați" din setările contului.
-        mark_as_not_spam:
+        mark_as_not_spam: Sigur doriți să marcați această discuție ca fiind validă și nu ca spam?
         mark_as_spam: Sigur doriți să marcați această discuție ca fiind spam? Aceasta va fi ștearsă automat și nu se poate anula. Marcarea discuțiilor ca spam ajută la detectarea serviciului de spam pe care îl folosim.
         report_violation: Confirmați că doriți să raportați acest utilizator pentru încălcarea <a href="/documentation/community/guidelines" target="_blank" rel="noopener">regulamentului comunității</a>.
         unhide_discussion: Făcând clic pe "Da", această discuție va fi vizibilă din nou.
@@ -1902,53 +1902,53 @@ ro-RO:
   dmca_takedown:
     form:
       about_self:
-        label:
-        option1:
-        option2:
-        option3:
+        label: Eu sunt
+        option1: Deținătorul drepturilor de autor
+        option2: Reprezentantul legal al deținătorului drepturilor de autor
+        option3: Nici unul dintre cele de mai sus
       attachments:
-        add_files:
-        drop_files:
-        label:
+        add_files: Adăugați fișiere
+        drop_files: sau aruncați-le aici
+        label: Atașamente
       copyright:
-        label:
+        label: Cred cu bună-credință că deținătorul drepturilor de autor, agentul acestuia sau legea nu autorizează utilizarea materialului în modul în care m-am plâns.
       e_signature:
-        label:
+        label: Semnătura electronică
       email:
-        error:
-        label:
-      error:
-      error_checkbox:
+        error: nu este formatat corect
+        label: Adresa dvs. de e-mail
+      error: Nu poate fi gol
+      error_checkbox: Trebuie verificat
       extra_details:
-        label:
-        note:
+        label: Detalii suplimentare
+        note: Vă rugăm să descrieți problema cu care vă confruntați cu cât mai multe detalii posibil.
       full_name:
-        label:
+        label: Numele complet
       infringed_material:
-        label:
+        label: Link(uri) către materialul original despre care se presupune că a fost încălcat (unul pe rând)
       mail_address:
-        label:
+        label: Adresa dvs. poștală completă
       optional:
-        label:
+        label: Optional
       original_material:
-        label:
+        label: Link(uri) către materialul care se presupune că încalcă drepturile de pe TMDB (unul pe rând)
       perjury:
-        label:
+        label: Jur, sub sancțiunea de sperjur, că informațiile din această notificare sunt corecte și că sunt deținătorul drepturilor de autor sau un reprezentant autorizat al deținătorului drepturilor de autor.
       primary_telephone:
-        error:
-        label:
+        error: nu e valid
+        label: Numărul dvs. de telefon principal
       release:
-        label:
+        label: Recunosc că TMDB își rezervă dreptul de a elibera, în conformitate cu Digital Millennium Copyright Act și la discreția companiei, această notificare de eliminare, cu redactări corespunzătoare ale informațiilor private.
       request_type:
         default:
-        label:
+        label: Cu ce te putem ajuta?
       success:
-      title:
+      title: Trimite o cerere
       username:
-        label:
-        note:
+        label: Nume de utilizator
+        note: Rețineți că numele de utilizator poate conține și majuscule.
     report:
-      error:
+      error: A apărut o problemă la încercarea de a vă crea raportul. Încearcă din nou?
       submit:
   dont_fallback: Niciuna (Fără limbă de rezervă)
   duplicate_character_name: Numele caracterului există deja, încercați cu alt nume
@@ -1975,21 +1975,24 @@ ro-RO:
   episode_number_name: Episodul %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: Proprietarul acestei pagini și-a șters contul. În timp ce toate contribuțiile lui la TMDB rămân, datele utilizatorului au fost trecute ca anonime.
+      title: Acest cont a fost șters
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Nu aveți acces la această pagină. Dacă credeți că aceasta este o eroare, anunțați-ne <a href="%{forum_link}">pe forumuri</a>.
+        public: Ați încercat să solicitați o pagină care necesită să vă conectați. Conectați-vă la contul dvs. <a href="%{login_link}">făcând clic aici</a>.
+      title: Nu aveți permisiunea de a accesa această pagină
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        Ați folosit toate cele 10 încercări de conectare. Veți putea încerca din nou în 30 de minute. Între timp, puteți încerca și să <a href="%{reset_password_link}">resetarea parolei</a>.
+
+        De asemenea, puteți să ne <a href="%{about_us_link}">contactați</a> pentru asistență.
+      title: Nu mai există încercări de conectare
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Nu aveți acces la această pagină.
+        public: Ați încercat să solicitați o pagină care este privată.
+      title: Această pagină este privată
     suspended:
       explanation_1: Din păcate, acest utilizator a fost suspendat.
       go_to_inbox: Accesați Inbox
@@ -1998,16 +2001,16 @@ ro-RO:
         explanation_1: Dacă doriți să discutați motivele suspendării dvs. sau cum puteți recăpăta accesul la contul dvs., vizitați zona de mesagerie făcând clic pe linkul de mai jos.
         title: Contul tău a fost suspendat
     suspended_user_post:
-      description:
-      title:
+      description: Această postare a fost găsită încălcând <a href="%{link}">regulamentul comunității</a>. Este posibil ca utilizatorul responsabil pentru acest lucru să fi fost, de asemenea, suspendat.
+      title: Această postare a fost eliminată
   errors:
     attributes:
       iso_3166_1:
-        invalid:
+        invalid: nu este o țară valabilă
       iso_639_1:
-        invalid:
+        invalid: nu este o limbă valabilă
       release_date:
-        invalid:
+        invalid: nu este o dată valabilă
     images:
       couldnt_process: Nu putem procesa această imagine
       not_jpeg: Această imagine nu este JPEG
@@ -2018,13 +2021,13 @@ ro-RO:
       keywords: Câmpul de cuvinte cheie e blocat
     messages:
       blank: Este necesar
-      email_address_not_routable:
+      email_address_not_routable: nu este rutabil
       inclusion: Trebuie să fie selectat
       invalid: nu este valid
       invalid_character_name: Numele caracterului nu trebuie să conțină caractere speciale
-      invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_email_address: nu pare a fi o adresă de e-mail validă
+      invalid_password: Parola pe care a-ți introdus-o este incorectă.
+      invalid_request: Nu se poate finaliza solicitarea.
       no_characters_found: Nu s-au găsit caractere
       required: Trebuie să existe
       series_status_invalid_to_create_season: este setat pe „Anulat” sau „Încheiat”, prin urmare nu pot fi create sezoane noi.
@@ -2040,10 +2043,10 @@ ro-RO:
       duplicate_guest_star: Această vedetă oaspete există deja.
       duplicate_regular_season_member: Această persoană este deja adăugată ca membru al distribuției unui sezon.
       duplicate_season: Acest sezon există deja.
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
-      missing_credit:
-      missing_person:
+      duplicate_season_episode_cast_member: Această persoană este deja adăugată ca membru al distribuției la un episod din acest sezon. Creditele distribuite trebuie adăugate fie la un sezon, fie la un episod, și nu la ambele.
+      duplicate_season_episode_crew_member: Această persoană este deja adăugată ca %{job_name} la un episod din acest sezon. Creditele echipei trebuie adăugate fie la un sezon, fie la un episod, și nu la ambele.
+      missing_credit: Creditul pe care încercați să îl editați nu există.
+      missing_person: Persoana pe care ați introdus-o nu a putut fi găsită.
   failed_email: Email-ul tău nu a putut fi trimis.
   failed_generic: A intervenit o problemă.
   failed_report: A intervenit o problemă la trimiterea raportului.
@@ -2148,19 +2151,19 @@ ro-RO:
       read_guidelines: Vă rugăm să vă familiarizați cu actualizările noastre <a href="%{link}" target="_blank" rel="noopener"> privind regulile de contribuție cu imagini </a>.
       tip: Dacă browserul dvs. acceptă, puteți trage și plasa o imagine în zona de mai jos. În caz contrar, faceți clic pe butonul "Selectați fișiere ..." și alegeți imaginea de pe calculator.
     uploader:
-      aspect_ratio:
-      aspect_ratio_both:
-      file_type:
-      max_res:
-      min_res:
+      aspect_ratio: Raport de aspect de %{ratio}
+      aspect_ratio_both: Raport de aspect de %{ratio_first} sau %{ratio_second}
+      file_type: Fișier de tip %{file_type}
+      max_res: O rezoluție maximă de %{res}
+      min_res: O rezoluție minimă de %{res}
       read_guidelines: Vă rugăm să vă familiarizați cu actualizările noastre <a href="%{link}" target="_blank" rel="noopener"> privind regulile de contribuție cu imagini </a>.
       tip: Dacă browserul dvs. acceptă, puteți trage și plasa o imagine în zona de mai jos. În caz contrar, faceți clic pe butonul "Selectați fișiere ..." și alegeți imaginea de pe calculator.
       type_backdrops:
       type_episode_stills:
       type_headshots:
-      type_posters:
-      type_profiles:
-      validation_header:
+      type_posters: Postere
+      type_profiles: Profiluri
+      validation_header: "%{type} trebuie să îndeplinească următoarele criterii:"
   invalid_aspect_ratio: Acest raport de aspect nu este valid.
   item_count:
     few: ''
@@ -3127,7 +3130,7 @@ ro-RO:
       toggle_close: comutați închidere/deschidere
       toggle_private: comutați public/privat
       toggle_watching: comutați stare de vizionare
-    enable:
+    enable: Activați comenzile rapide de la tastatură
     groups:
       discussion_pages: Pe paginile de discuții
       edit_pages: Pe toate paginile de editare
@@ -3137,7 +3140,7 @@ ro-RO:
       tv_episode_pages: Pe paginile episoadelor TV
       tv_season_pages: Pe paginile sezonului TV
     keyboard_shortcuts: Comenzi rapide de la tastatură
-    login_to_change_preferences:
+    login_to_change_preferences: Puteți dezactiva comenzile rapide de la tastatură conectându-vă la contul dvs.
     view_keyboard_shorcuts: Vedeți comenzile rapide de la tastatură
     view_shortcuts: Vedeți comenzile rapide
   list_info:
@@ -3208,7 +3211,7 @@ ro-RO:
         fields:
           air_date:
           backdrop:
-          biography:
+          biography: Biografie
           cast_min_4:
           created_by:
           credits:

@@ -10,7 +10,7 @@ hu-HU:
   API Read Access Token: API olvasási hozzáférési azonosító
   API Sessions: API munkamenetek
   API Stats: API statisztikák
-  API Status Codes:
+  API Status Codes: API állapot kódok
   API Terms: API felhasználási feltételei
   API Terms of Use: API Felhasználási feltételek
   API Updates: API frissítések
@@ -27,7 +27,7 @@ hu-HU:
   Add Content Rating: Korhatár hozzáadása
   Add Creator: Készítő hozzáadása
   Add Data & Content: Adat és tartalom hozzáadása
-  Add Headshot:
+  Add Headshot: Portré fotó hozzáadása
   Add Item: Elem hozzáadása
   Add Missing Cast & Crew: Hiányzó szereplő és stáb hozzáadása
   Add Network: Adó hozzáadása
@@ -38,8 +38,8 @@ hu-HU:
   Add New TV Show: Új tévéműsor hozzáadása
   Add Poster: Poszter hozzáadása
   Add Profile: Profil hozzáadása
-  Add Season Regular: Szezon általános információinak hozzáadása
-  Add Title Logo:
+  Add Season Regular: Évad általános információinak hozzáadása
+  Add Title Logo: Cím logó hozzáadása
   Add To Every Season?: Hozzáadás minden évadhoz?
   Add Video: Videó hozzáadása
   Add YouTube Video: YouTube videó hozzáadása
@@ -65,7 +65,7 @@ hu-HU:
   Apiary Documentation: Apiary dokumentáció
   App Directory: Alkalmazás-gyűjtemény
   App Showcase: Alkalmazás bemutató
-  Appearances:
+  Appearances: Megjelenések
   Application Description: Alkalmazás leírása
   Application Name: Alkalmazás neve
   Application Summary: Alkalmazás leírása
@@ -91,8 +91,8 @@ hu-HU:
   Cast: Szereposztás
   Categories: Kategóriák
   Change?: Változtatnál?
-  Character: Szerep
-  Characters:
+  Character: Szereplő
+  Characters: Szereplők
   Choose: Választás...
   City: Város
   Collection Results: Gyűjtemény találatok
@@ -199,7 +199,7 @@ hu-HU:
   Forum: Fórum
   Forums: Fórumok
   Full Cast & Crew: Összes szereplő és stábtag
-  Full Character List:
+  Full Character List: Teljes szereplő lista
   Full Leaderboard: Teljes ranglista
   Gender: Neme
   General: Általános
@@ -340,7 +340,7 @@ hu-HU:
   Production Code: Produkciós kód
   Production Companies: Produkciós cégek
   Production Countries: Forgatási helyszínek
-  Production Information: Termék információk
+  Production Information: Produkció adatai
   Public List?: Nyilvános lista?
   Public Report?: Publikus jelentés?
   Quality: Minőség
@@ -670,7 +670,7 @@ hu-HU:
       my_recommendations: Nekem ajánlottak
       no_recommendations: Nincs elég adatunk, hogy ajánlásokat készítsünk.
       no_recommendations_helper: Próbálj meg több kedvencet felvenni (minél több, annál jobb) és gyere vissza.
-      no_recommendations_helper_2:
+      no_recommendations_helper_2: Próbáljon meg még néhány filmet és tévéműsort értékelni (minél több, annál jobb), majd adjon nekünk néhány órát, hogy megnézzük, mit tehetünk. Ezek az ajánlások frissítésre kerülnek, amint több tartalmat néz és értékel.
       page_title: Ajánlások
     sort_options:
       asc: Növekvő
@@ -715,12 +715,12 @@ hu-HU:
     statuses:
       completed:
         message:
-        name:
+        name: Hitelesítés engedélyezve
       denied:
         message:
-        name:
+        name: Hitelesítés elutasítva
       invalid_request_token:
-        message:
+        message: A beküldött hozzáférési token érvénytelen. Ez legtöbbször azért van, mert a token lejárt. Próbáljon meg újat létrehozni és győződjön meg arról, hogy megfelelően másolta. Ha továbbra is problémái vannak, forduljon a használt alkalmazás fejlesztőjéhez.
         name:
   attributes:
     biography: Életrajz
@@ -735,12 +735,12 @@ hu-HU:
     title: Cím
     to_accounts_ids:
     translated_overview: Összefoglaló
-    tv_series_status:
+    tv_series_status: Tévésorozat állapota
   average edits per day: átlagos napi szerkesztés
   back_options:
     back: Vissza
     episode: Vissza az epizódhoz
-    episode_groups:
+    episode_groups: Vissza az epizód csoportokhoz
     episode_list: Vissza az epizódok listájához
     home: Vissza a kezdő oldalra
     main: Vissza a főoldalra
@@ -750,7 +750,7 @@ hu-HU:
     to_tmdb: Vissza az TMDb-re
     top: Vissza a tetejére
   certifications:
-    certification: Certifikáció
+    certification: Tanúsítvány
     descriptors:
     meaning: Jelentése
     movies:
@@ -810,13 +810,13 @@ hu-HU:
         '0':
           meaning: Nincs besorolási információ.
         '1':
-          meaning:
+          meaning: Általános korhatár-besorolás – Bármilyen korú személy megtekintheti, bérelheti vagy megvásárolhatja. Ha egy „G” korhatár-besorolású film sértheti egy 8 éven aluli gyermek érzékenységét, a besoroláshoz a „Kisgyermekek számára nem alkalmas” szöveget kell csatolni.
         '2':
-          meaning:
+          meaning: 13 éves kor felett – Csak 13 éves vagy annál idősebb gyermekek tekinthetik meg, bérelhetik vagy vásárolhatják meg. 13 év alatti gyermekek csak nagykorú felügyelete mellett léphetnek be.
         '3':
           meaning: 16 éves kor felett – Csak 16 éves vagy annál idősebb gyermekek tekinthetik meg, bérelhetik vagy vásárolhatják meg.
         '4':
-          meaning:
+          meaning: 18 éves kor felett – Csak 18 éven felüli felnőttek tekinthetik meg, bérelhetik vagy vásárolhatják meg. Ha egy film valós és kifejezett szexuális tevékenységet tartalmaz, a besoroláshoz a "nyílt szexualitás" is hozzá tartozik, és a kiskereskedelmi videóiparban az üzlettulajdonosok kötelesek a filmet egy felnőttek számára fenntartott helyiségben elhelyezni.
       DE:
         '1':
           meaning: Nincs kor korlátozás.
@@ -1134,7 +1134,7 @@ hu-HU:
         '1':
           meaning: Kifejezetten fiatalabb gyermekek számára ajánlott.
         '2':
-          meaning:
+          meaning: Általános megtekintésre.
         '3':
           meaning: Megtekintése 7 éves kor alatt nem ajánlott.
         '4':
@@ -1149,18 +1149,18 @@ hu-HU:
           meaning: Megtekintése 18 éves kor alatt nem ajánlott.
       FR:
         '0':
-          meaning: Nincs besorolási információ.
+          meaning: Nincs korhatár-besorolás.
         '1':
-          meaning:
+          meaning: 10 éven aluli gyermekeknek nem ajánlott. Gyermekcsatornán lévő sorozatokban nem engedélyezett.
         '2':
-          meaning:
+          meaning: 12 éven aluli gyermekeknek nem ajánlott. Este 10 óra előtt nem kerülhet levetítésre. Egyes csatornák és programok kivételt képeznek.
         '3':
-          meaning:
+          meaning: 16 éven aluli gyermekeknek nem ajánlott. Este 10:30 előtt nem kerülhet levetítésre. Egyes csatornák és programok kivételt képeznek.
         '4':
-          meaning:
+          meaning: 18 éven aluliak számára nem ajánlott. Éjfél és hajnali 5 óra között engedélyezett, és csak bizonyos csatornákon, ezekhez a műsorokhoz személyes jelszóval zárolják a hozzáférést.
       GB:
         '0':
-          meaning:
+          meaning: Az U szimbólum az univerzális kifejezést jelenti. Egy U-filmnek alkalmasnak kell lennie a négy éves és annál idősebb közönség számára.
         '1':
           meaning:
         '2':
@@ -1175,7 +1175,7 @@ hu-HU:
           meaning:
       HU:
         '0':
-          meaning: Nincs besorolási információ.
+          meaning: Nincs korhatár-besorolás.
         '1':
           meaning: Nincs korhatár.
         '2':
@@ -1192,7 +1192,7 @@ hu-HU:
         '0':
           meaning:
         '1':
-          meaning:
+          meaning: Ez a korhatár-besorolás minden korosztály számára megfelelő. Ez általában gyermekeknek vagy családoknak készült műsorokat foglal magában.
         '2':
           meaning:
         '3':
@@ -1203,9 +1203,9 @@ hu-HU:
           meaning:
       LT:
         '1':
-          meaning:
+          meaning: 7 éves és annál idősebb nézők számára készült.
         '2':
-          meaning:
+          meaning: 14 éves és annál idősebb nézők számára készült, este 9 és reggel 6 között sugározható műsor.
         '3':
           meaning:
       NL:
@@ -1225,11 +1225,11 @@ hu-HU:
         '0':
           meaning: Nincs korhatár-besorolás.
         '1':
-          meaning:
+          meaning: Megtekintése minden korosztály számára megfelelő.
         '2':
           meaning:
         '3':
-          meaning:
+          meaning: Erősebb és éberebb szülői felügyelet javasolt.
         '4':
           meaning:
       PT:
@@ -1290,7 +1290,7 @@ hu-HU:
         '1':
           meaning: Ez a műsor úgy készült, hogy minden gyermek számára megtekinthető legyen.
         '2':
-          meaning:
+          meaning: Ez a műsor 7 éves és annál idősebb gyermekek számára készült.
         '3':
           meaning: A legtöbb szülő minden korosztály számára megfelelőnek találná ezt a programot.
         '4':
@@ -1300,32 +1300,32 @@ hu-HU:
         '6':
           meaning: Ez a műsor kifejezetten felnőttek számára készült, ezért előfordulhat, hogy 17 éven aluliak számára nem alkalmas
   character:
-    Movie:
+    Movie: Film
     Titles: Címek
-    add_a_character:
-    add_an_appearance:
-    add_appearance:
-    add_appearances:
+    add_a_character: Szereplő hozzáadása
+    add_an_appearance: Egy megjelenés hozzáadása
+    add_appearance: Megjelenés(ek) hozzáadása
+    add_appearances: Megjelenések hozzáadása
     add_backdrop: Háttérkép hozzáadása
-    add_backdrop_grp:
-    add_character_backdrop:
+    add_backdrop_grp: Háttérkép hozzáadása ehhez a csoporthoz
+    add_character_backdrop: Szereplő háttérkép fotó hozzáadása
     add_completely_free: Élvezze teljesen hirdetésmentesen
-    add_missing_character:
-    add_new_appearance:
+    add_missing_character: Hiányzó szereplő hozzáadása
+    add_new_appearance: Új megjelenés hozzáadása
     add_new_appearance_links_selection:
     add_new_group: Új csoport hozzáadása
-    add_the_name_of_the_character:
+    add_the_name_of_the_character: Szereplő nevének hozzáadása
     add_to_tmdb: Hozzáadás a TMDB-hez
     add_translation: Fordítás hozzáadása
-    add_valid_translation:
-    adding_easy:
-    all_done: Minden kész ?
+    add_valid_translation: Kérem adjon hozzá egy érvényes fordítást.
+    adding_easy: Hozzáadás a TMDB-hez egyszerű és könnyű.
+    all_done: Minden kész?
     all_languages: Valamennyi nyelv
     all_record_exists_in_group: Az aktuális csoportban minden mező létezik.
     already_added: Már hozzáadva
     alter_popularity:
     are_you_sure: Biztos, hogy folytatni szeretné?
-    are_you_sure_updates_will_be_lost:
+    are_you_sure_updates_will_be_lost: Biztos, hogy ki akar lépni? A javításai el fognak veszni.
     association_already_exists:
     association_updated:
     association_warning:
@@ -1333,30 +1333,30 @@ hu-HU:
     back: Vissza
     backdrop: Háttérkép
     backdrop_image_message:
-    backdrop_oops_message:
-    backdrop_window_title:
+    backdrop_oops_message: Hoppá! 3 fejlécképnél többet nem választhat ki.
+    backdrop_window_title: Szereplő háttérkép fotó kiválasztása
     below_is_example_text:
     cancel_edits: Szerkesztések visszavonása
-    character_backdrop_photo:
-    character_bio:
+    character_backdrop_photo: Szereplő háttérkép fotó
+    character_bio: Szereplő életrajz
     character_header_images:
     character_login_signup_text:
-    character_name:
+    character_name: Szereplő nevek
     character_search_label:
     character_search_text:
     character_to_search:
-    character_wiki:
-    characters:
-    check_it_out:
+    character_wiki: Szereplő Wiki
+    characters: Szereplők
+    check_it_out: Ellenőrizze
     check_out_bible:
-    choose_a_character:
+    choose_a_character: Válasszon egy szereplőt
     choose_a_character_info:
     choose_backdrop: Háttérkép választása
     choose_header_images:
-    choose_reason:
-    community:
+    choose_reason: Ki kell választania egy okot.
+    community: KÖZÖSSÉG
     confirm_buffer_time:
-    confirmation:
+    confirmation: Megerősítés
     continue: Folytatás
     contribute:
     correct_errors_in_forms: Kérjük, javítsa ki a hibákat az űrlapmezőkben.
@@ -1367,7 +1367,7 @@ hu-HU:
     create_overview_note:
     default_language_results_text:
     delete_backdrop: Háttérkép törlése
-    delete_character:
+    delete_character: Szereplő törlése
     delete_group: Csoport törlése
     delete_group_check: Biztos benne, hogy törli ezt a csoportot
     do_you_want_continue: Akarja folytatni?
@@ -1382,7 +1382,7 @@ hu-HU:
     edit_translating: Szerkesztés és fordítás
     editing_character_name_uv:
     enter:
-    enter_character_name:
+    enter_character_name: Adja meg a szereplő nevét
     enter_character_synopsis:
     enter_group_synopsis:
     enter_text_search:
@@ -1391,19 +1391,19 @@ hu-HU:
     error_while_submitting:
     failed_draft:
     filter_subscribed_services:
-    find_character:
-    find_character_note:
+    find_character: Melyik szereplőt vagy címet szeretné keresni?
+    find_character_note: Keresse meg kedvenc szereplőjét, címét vagy bármi mást
     finished_selections:
     found_everything:
     frequent_translations:
     group_name: Csoport név
     group_name_already_exists:
-    group_name_required:
+    group_name_required: Csoportnév szükséges
     groups_minimum_appearance_msg:
     groups_not_present:
-    headshot:
+    headshot: Portré fotó
     headshot_window_title:
-    help_our_mods:
+    help_our_mods: Segítse moderátorainkat
     help_our_mods_info:
     icon: Ikon
     image_change_1:
@@ -1411,20 +1411,20 @@ hu-HU:
     in_translate_mode: Jelenleg Fordítás módban van.
     inline_edit_original_name: Eredeti név
     join_community_tmdb:
-    launch_label:
+    launch_label: indítás
     lock_existing_appearances:
     log_tv_movies_watch:
     master_group_limit_error:
-    media:
+    media: Média
     media_association:
     media_character_id:
-    media_type:
+    media_type: Média típus
     media_types:
       character:
       movie_character_name:
       tv_character_name:
       tv_show: Tévéműsorok
-    movie_titles:
+    movie_titles: Filmcímek
     name: Név
     navigate_to_dashboard:
     navigate_to_master:
@@ -1445,8 +1445,8 @@ hu-HU:
     note_info:
     note_mods: Egy megjegyzés moderátoroknak
     okay: Rendben
-    optional:
-    page_is_live:
+    optional: opcionális
+    page_is_live: Az oldal mostantól éles!
     person: Személy
     person_image_association:
     placeholder_synopsis:
@@ -1456,7 +1456,7 @@ hu-HU:
     popularity_weight_multiplier:
     previous: Előző
     previous_nav_label: Előző
-    primary_character_name:
+    primary_character_name: Főszereplő neve
     problem_refreshing_results:
     proceed:
     push_test_v1:
@@ -1507,12 +1507,12 @@ hu-HU:
     text_for_character_card:
     title_drag_info:
     total_Results:
-    total_appearance:
-    total_budget:
+    total_appearance: Összes megjelenés
+    total_budget: Teljes költségvetés
     translations_language:
     try_again: Kérem, próbálja újra!
     tv: TV
-    tv_titles:
+    tv_titles: Tévéműsor címek
     unloading_message:
     unlock_existing_appearances:
     unsaved_change_lost: Minden nem elmentett változtatás elvész.
@@ -1520,19 +1520,19 @@ hu-HU:
     update_backdrop: Háttérkép frissítése
     upload_backdrop_title:
     user_added_backdrop_info:
-    user_added_backdrop_label:
+    user_added_backdrop_label: Felhasználó által hozzáadott háttérkép fotók
     user_variant_description:
     user_variant_intro:
-    validation_charactername:
+    validation_charactername: 'Szükséges a főszereplő neve '
     validation_group_synopsis:
-    validation_grpname:
+    validation_grpname: Kérem adjon meg egy érvényes csoportnevet
     validation_synopsis:
     view_by:
     want_to_delete_group:
-    want_to_go_back:
-    welcome_message:
-    what_next:
-  character name:
+    want_to_go_back: Biztos benne, hogy vissza akar menni?
+    welcome_message: 'Üdvözöljük a The Movie Db közösségben ahol az alábbiakra van lehetősége:'
+    what_next: Mit szeretnél csinálni legközelebb?
+  character name: Szereplő név
   collection_includes: Tartalmazza %{movie_titles}
   confirm_delete: Biztosan törli ezt a bejegyzést?
   contribute:
@@ -1560,11 +1560,11 @@ hu-HU:
       tv: tévé
     collection:
       collection: Gyűjtemények
-      collection_bible:
+      collection_bible: Gyűjtemények Bibliája
       tall_bible:
         bottom: Biblia
         top: Gyűjtemény
-    contribution_bible:
+    contribution_bible: Közreműködők Bibliája
     featured_articles: Kiemelt tartalmak
     general:
       general: Általános
@@ -1584,7 +1584,7 @@ hu-HU:
     note: Megjegyzés
     people:
       people: Emberek
-      people_bible: Emberek bibliája
+      people_bible: Emberek Bibliája
       tall_bible:
         bottom: Biblia
         top: Emberek
@@ -1600,9 +1600,9 @@ hu-HU:
     welcome_1: Köszöntünk
     welcome_2: a Közreműködők Bibliájában
   contribution_type:
-    character_appearance:
+    character_appearance: Szereplő megjelenése
     movie: Film
-    primary_character:
+    primary_character: Főszereplő
     tv_show: Tévéműsor
   cookie_popup:
     message:
@@ -1662,7 +1662,7 @@ hu-HU:
   day: nap
   days: "%{count} napban"
   deleted_content:
-    entry_deleted:
+    entry_deleted: Elem törölve
     reasons:
       '1':
         message:
@@ -1678,7 +1678,7 @@ hu-HU:
         subject:
       '5':
         message:
-        subject:
+        subject: Ez spam
     why_deleting: Miért törli ezt az elemet?
   department_credits_count:
   departments:
@@ -1761,7 +1761,7 @@ hu-HU:
       close_discussion: Beszélgetés lezárása
       make_private: Ne legyen publikus
       make_public: Legyen publikus
-      mark_not_spam:
+      mark_not_spam: Ez nem spam
       mark_spam: Megjelölés szemétként
       reopen_discussion: Beszélgetés újbóli megnyitása
       stop_watching: Figyelés befejezése
@@ -1943,7 +1943,7 @@ hu-HU:
       description:
         logged_in:
         public:
-      title:
+      title: Nincs engedélye ennek az oldalnak az eléréséhez
     out_of_login_attempts:
       description:
       title:
@@ -1965,19 +1965,19 @@ hu-HU:
   errors:
     attributes:
       iso_3166_1:
-        invalid:
+        invalid: nem érvényes ország
       iso_639_1:
         invalid: nem érvényes nyelv
       release_date:
         invalid: ez nem érvényes dátum
     images:
-      couldnt_process:
+      couldnt_process: Nem tudjuk feldolgozni ezt a képet
       not_jpeg: Ez a kép nem JPEG formátumú.
       not_png: Ez a kép nem PNG formátumú.
       not_svg: Ez a kép nem SVG formátumú.
     locked:
       genres:
-      keywords:
+      keywords: A kulcsszavak mező zárolva
     messages:
       blank: kötelező
       email_address_not_routable:
@@ -1987,7 +1987,7 @@ hu-HU:
       invalid_email_address:
       invalid_password: A beírt jelszó nem helytelen.
       invalid_request:
-      no_characters_found:
+      no_characters_found: Nem találtunk szereplőket
       required: léteznie kell
       series_status_invalid_to_create_season:
       suspected_tv_series:
@@ -1999,10 +1999,10 @@ hu-HU:
       duplicate_created_by:
       duplicate_crew_member:
       duplicate_episode: Ez az epizód már létezik.
-      duplicate_guest_star:
+      duplicate_guest_star: Ez a vendégszínész már létezik.
       duplicate_regular_season_member:
       duplicate_season: Ez az évad már létezik.
-      duplicate_season_episode_cast_member:
+      duplicate_season_episode_cast_member: Ezt a személyt már hozzáadták színészként ennek az évadnak az egyik epizódjához. A szereplőket vagy egy évadhoz vagy egy epizódhoz kell hozzáadni, és nem mindkettőhöz.
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
@@ -2038,7 +2038,7 @@ hu-HU:
     upstream_problem:
       message:
       title: Probléma merült fel
-  headshots_must_meet:
+  headshots_must_meet: 'A portré fotóknak az alábbi feltételeknek kell megfelelnie:'
   homepage:
     community:
       benefits_list:
@@ -2098,7 +2098,7 @@ hu-HU:
       '9': Minimum felbontás 300x450
       backdrops_must_meet:
       episode_stills_must_meet:
-      headshots_must_meet:
+      headshots_must_meet: 'A portréfotóknak az alábbi feltételeknek kell megfelelnie:'
       posters_must_meet: 'A posztereknek a következő kritériumoknak kell megfelelniük:'
       profile_must_meet: 'A profil képeknek a következő kritériumoknak kell megfelelniük:'
       read_guidelines: Ismerkedj meg a frissített <a href="%{link}" target="_blank" rel="noopener">kép hozzájárulási útmutatónkkal</a>.
@@ -2106,14 +2106,14 @@ hu-HU:
     uploader:
       aspect_ratio:
       aspect_ratio_both:
-      file_type:
-      max_res:
-      min_res:
+      file_type: 'File típus: %{file_type}'
+      max_res: 'Maximális felbontás: %{res}'
+      min_res: 'Minimális felbontás: %{res}'
       read_guidelines: Ismerkedj meg a frissített <a href="%{link}" target="_blank" rel="noopener">kép hozzájárulási útmutatónkkal</a>.
       tip: Ha a böngésződ támogatja, fogj meg egy képet és ejtsd a lentebbi területre. Ha nem támogatja, a "Fájlok kiválasztása..." gombra kattints, és válaszd ki a képet a gépedről.
       type_backdrops: Háttérképek
       type_episode_stills:
-      type_headshots:
+      type_headshots: Portréfotók
       type_posters: Poszterek
       type_profiles: Profilok
       validation_header:
@@ -2138,7 +2138,7 @@ hu-HU:
     3D Director: 3D rendező (3D Director)
     3D Editor:
     3D Generalist:
-    3D Modeller:
+    3D Modeller: 3D modellező
     3D Sequence Supervisor:
     3D Supervisor: 3D felügyelő (3D Supervisor)
     3D Tracking Layout:
@@ -2336,7 +2336,7 @@ hu-HU:
     Character Designer:
     Character Modelling Supervisor:
     Character Technical Supervisor: Karakter-technikai szupervizor (Character Technical Supervisor)
-    Characters: Kakakterek
+    Characters: Szereplők
     Charge Scenic Artist:
     Chef: Séf (Chef)
     Chief Lighting Technician:
@@ -2491,7 +2491,7 @@ hu-HU:
     Facial Setup Artist:
     Feature Finishing Producer:
     Field Director:
-    Fight Choreographer:
+    Fight Choreographer: Harc koreográfus
     File Footage:
     Film Processor:
     Finance: Pénzügy (Finance)
@@ -2703,7 +2703,7 @@ hu-HU:
     Payroll Accountant:
     Petty Cash Buyer:
     Phantom Operator:
-    Photo Retouching:
+    Photo Retouching: Fénykép retusálás
     Photoscience Manager:
     Picture Car Coordinator:
     Pilot:
@@ -3082,11 +3082,11 @@ hu-HU:
     enable: Billentyűparancsok engedélyezése
     groups:
       discussion_pages:
-      edit_pages:
-      global:
-      image_pages:
-      media_pages:
-      tv_episode_pages:
+      edit_pages: Minden szerkesztő oldalon
+      global: Globális
+      image_pages: Minden kép oldalon
+      media_pages: Minden média oldalon
+      tv_episode_pages: Tévéepizód oldalakon
       tv_season_pages:
     keyboard_shortcuts: Billentyűparancsok
     login_to_change_preferences:
@@ -3131,7 +3131,7 @@ hu-HU:
     changes:
       filters:
         clear:
-        key:
+        key: Kulcs
         language: Nyelv
         user: Felhasználó
       number_of_changes:
@@ -3143,11 +3143,11 @@ hu-HU:
     collection:
       edit:
         parts:
-          add:
-          no_records:
+          add: Film hozzáadása
+          no_records: Nincs film hozzáadva.
       parts: Részek
     company:
-      headquarters:
+      headquarters: Főhadiszállás
       movie_page_title:
       tv_page_title:
     content_score:
@@ -3162,18 +3162,18 @@ hu-HU:
           credits:
           crew_min_2: Stáb (2 vagy több megjelenés)
           director: Rendező
-          episode:
-          genres:
+          episode: Epizód (1 vagy több)
+          genres: Műfajok
           guest_stars_min_2:
           name:
-          overview:
+          overview: Összefoglaló
           parts:
           poster:
           profile: Profilkép
           regular_cast_min_4:
           release_date: Premier időpont
-          title:
-          video:
+          title: Lefordított cím
+          video: Video
           writer: Író
         summary:
       scale:
@@ -3208,14 +3208,14 @@ hu-HU:
           click_to_create:
           create_it: Létrehozás...
         genres:
-        job:
-        keywords:
+        job: Foglalkozás keresése...
+        keywords: Kulcsszó választása...
         networks:
-        person:
+        person: Személy keresése...
         production_companies:
       release_date:
         locked: A premier időpontja zárolva.
-      success_fields_locked:
+      success_fields_locked: Mezők zárolva.
       tagline:
         add_tagline: Szlogen hozzáadása
         already_exists: a szlogen már létezik
@@ -3237,11 +3237,11 @@ hu-HU:
       translation_not_found:
       unlock_all_appearances:
       videos:
-        locked:
+        locked: A video zárolva.
     external_links:
       visit_facebook: Facebook meglátogatása
       visit_homepage: Weboldal meglátogatása
-      visit_instagram:
+      visit_instagram: Instagram meglátogatása
       visit_justwatch:
       visit_tiktok: TikTok meglátogatása
       visit_twitter: Twitter meglátogatása
@@ -3252,8 +3252,8 @@ hu-HU:
     images:
       format: Formátum
       no_backdrop_stills:
-      no_backdrops:
-      no_headshots:
+      no_backdrops: Ehhez a bejezéshez nincs háttérkép hozzáadva.
+      no_headshots: Ehhez az elemhez nincs portréfotó hozzáadva.
       no_logos:
       no_posters:
       no_profiles:
@@ -3268,33 +3268,33 @@ hu-HU:
         adult:
           adult_movie: Felnőtt film?
         alternative_titles:
-          no_records:
+          no_records: Nincs alternatív cím hozzáadva.
         cast:
-          no_records:
+          no_records: Nincs stábtag hozzáadva.
         confirm_collection:
         confirm_video:
         crew:
-          job_required:
+          job_required: Egy foglalkozás szükséges
           no_records: Nincs stábtag hozzáadva.
-          person_required:
+          person_required: Egy személy szükséges
         genres:
-          add_genre:
+          add_genre: Műfaj hozzáadása
           no_records:
         keywords:
-          add_keyword:
-          create:
-          no_records:
-          none_found:
+          add_keyword: Kulcsszó hozzáadása
+          create: Létrehozás
+          no_records: Nincsenek kulcsszavak hozzáadva.
+          none_found: Nincs egyező kulcsszó. Szeretne létrehozni?
           tip:
         production_information:
-          add_production_company:
+          add_production_company: Produkciós cég hozzáadása
           no_records:
-          none_found:
-          production_company:
+          none_found: Nem találtunk egyező céget. Létre kívánja hozni?
+          production_company: Produkciós cég
         release_information:
           no_records:
         videos:
-          no_records:
+          no_records: Nincsenek videók hozzáadva.
       statuses:
         Canceled: Elkaszálva
         In Production: Készülőben
@@ -3304,18 +3304,18 @@ hu-HU:
         Rumored: Bejelentve
     network:
       edit:
-        alternative_names:
+        alternative_names: Alternatív nevek
         logos: Logók
         merge:
           choose_destination:
-          confirm_merge:
+          confirm_merge: Egyesítés megerősítése
           merge: Összevonás
           next: Következő
         primary_facts:
         upload_logo:
       logos: Logók
       name: Név
-      other_shows_on:
+      other_shows_on: 'Még több tévéműsor tőle: %{name}...'
       search:
         no_results:
         results:
@@ -3328,6 +3328,8 @@ hu-HU:
       one: film
       other: filmek
     number_of_shows:
+      one: műsor
+      other: műsor
     person:
       edit:
         alternative_names:
@@ -3340,13 +3342,15 @@ hu-HU:
         all: Minden
         movies: Filmek
         tv: TV
-        tv_shows:
+        tv_shows: Tévéműsorok
       years_old:
         one: "%{count} éves"
         other: "%{count} éves"
     rating:
       rated_with_rating: 'Értékelve: %{value}'
       rating_count:
+        one: "%{count} értékelés"
+        other: "%{count} értékelés"
       score_breakdown:
       score_distribution:
       score_history:
@@ -3356,14 +3360,14 @@ hu-HU:
       backdrops: Háttérképek
       cast_crew: Szereplő és stábtag
       changes: Szerkesztések
-      characters:
-      episodes:
+      characters: Szereplők
+      episodes: Epizódok
       fandom:
-      headshots:
-      logos:
+      headshots: Portréfotók
+      logos: Logók
       main: Főoldal
-      media:
-      overview:
+      media: Média
+      overview: Összefoglaló
       posters: Poszterek
       profiles: Profilok
       release_dates: Premier időpontok
@@ -3394,21 +3398,21 @@ hu-HU:
       add_biography: Életrajz hozzáadása
       add_homepage: Weboldal hozzáadása
       add_name: Név hozzáadása
-      add_overview:
+      add_overview: Összefoglaló hozzáadása
       add_runtime: Játékidő hozzáadása
       add_tagline: Szlogen hozzáadása
       add_title: Cím hozzáadása
       biography: Életrajz
       name: Név
-      overview:
+      overview: Összefoglaló
       taglines: Szlogenek
       title: Cím
     tv_episode:
       edit:
         episode_type_confirm:
-        episode_type_label:
+        episode_type_label: Epizód típus
         episode_types:
-          finale:
+          finale: Évad befejezés
           mid_season:
           standard:
         guest_stars:
@@ -3417,7 +3421,7 @@ hu-HU:
         screened_confirm:
         screened_label:
       episode_label:
-        finale:
+        finale: Évad befejezés
         mid_season:
       episode_selector:
         current_episode:
@@ -3429,7 +3433,7 @@ hu-HU:
         create_episode: Epizód létrehozása
         episodes:
           no_records:
-        runtime_varies_check: A játékidő nagymértékben eltér a szezon játékidejétől. Megfelelő játékidőt adott meg?
+        runtime_varies_check: A játékidő nagymértékben eltér az évad játékidejétől. Megfelelő játékidőt adott meg?
         screened_confirm:
         screened_label:
       season_cast: Évad szereposztás
@@ -3458,23 +3462,25 @@ hu-HU:
           episode_groups:
           episodes:
             move_episodes:
-            no_records:
+            no_records: Nincs epizód hozzáadva ehhez a csoporthoz.
           grid:
             episodes: Epizódok
             groups: Csoportok
           group: Csoport
           messages:
             episodes_added:
-          name:
-          no_records:
-          type:
+              one: "%{count} epizód hozzáadva!"
+              other: "%{count} epizód hozzáadva!"
+          name: Csoport neve
+          no_records: Nincs epizód csoport hozzáadva.
+          type: Típus
           types:
-            '1':
+            '1': Eredeti sugárzás
             '2':
             '3': DVD
             '4': Digitális
             '5':
-            '6':
+            '6': Produkció
             '7': Tévé
         networks:
           no_records:
@@ -3496,7 +3502,7 @@ hu-HU:
       networks:
         one: Adó
         other: Adók
-      primary_characters:
+      primary_characters: Főszereplők
       series_cast: Sorozat szereposztás
       series_crew: Sorozat stáblista
       statuses:
@@ -3560,7 +3566,7 @@ hu-HU:
       no_user_found:
       reply: Üzenet írása...
       subject:
-      to:
+      to: Felhasználó keresése...
     right_column_titles:
       conversation_with:
       message_inbox:
@@ -3773,7 +3779,7 @@ hu-HU:
       as_character: mint %{character}
       as_job: "— %{job}"
   placeholder:
-    primary_character_name:
+    primary_character_name: Főszereplő neve
   reset_password_text: Add meg a felhasználónevedet alul a jelszó visszaállítási folyamat elkezdéséhez.
   sample:
   search:
@@ -3820,7 +3826,7 @@ hu-HU:
         create: Létrehoz
         details: Részletek
         directory: Mappa
-        overview:
+        overview: Összefoglaló
         regenerate:
           confirm_text:
           regenerate_key:
@@ -3829,7 +3835,7 @@ hu-HU:
         stats: Statisztikák
       page_title: API beállításaim
       session_page_title: Saját API munkamenetek
-      stats_page_title:
+      stats_page_title: API statisztikám
     blocked_users:
       action: Művelet
       blocked_users: Blokkolt felhasználók
@@ -3841,7 +3847,7 @@ hu-HU:
       change_email_text: Amennyiben szeretnéd megváltoztatni az e-mail címedet, add meg azt az alábbi mezőben. Mielőtt vissza tudnál jelentkezni a fiókodba, hitelesítened kell az újonnan megadott címedet az új címre küldött levélben található aktiváló hivatkozásra történő kattintással.
       page_title: Email címem megváltoztatása
     delete_account:
-      confirm_delete:
+      confirm_delete: Törlés megerősítése
       delete_account: Fiók törlése
       page_title: Saját fiók törlése
       summary_text: Beléptél a <strong>veszélyes zónába</strong>! Ha valóban törölni szeretnéd a fiókod, megteheted alább a jelszavadat megadva és a kérésed megerősítve.
@@ -3853,32 +3859,32 @@ hu-HU:
         import: Importálás
         previous: Korábbi importálások
       notification:
-        finished_import:
-        started_import:
-      page_title:
+        finished_import: Importálás befejezve!
+        started_import: Importálás indítása...
+      page_title: Lista importálása
       previous:
         date: Dátum
         imported: Importálva
         items: Elemek
         local_list: Helyi lista
         no_imports: Még nem importáltál egy listát sem.
-        page_title:
+        page_title: Korábbi importálásaim
         type: Típus
       results:
         complete:
           imported: Importálod?
-          item:
+          item: Elem
           item_reasons:
             already_imported: Már importáltad
             cant_find_imdb: Nem található az IMDb ID.
             imdb_id_not_in_row:
             personal_rating_invalid:
             personal_rating_not_found:
-            row_is_invalid:
+            row_is_invalid: Ez a sor érvénytelen.
             updated_date:
           reason: Ok?
           summary:
-        currently_running:
+        currently_running: Az importálása jelenleg fut. Frissítheti ezt az oldalt, hogy ellenőrizze elkészült-e.
         import_results: Importálás eredménye
         in_progress:
           import_status: Importálás állapota
@@ -3904,7 +3910,7 @@ hu-HU:
       social_settings: Közösségi média
       streaming_services: Streaming-szolgáltatások
     notifications:
-      api_updates:
+      api_updates: Értesítsen emailen az API változásokról és frissítésekről
       email_new_releases_watchlist: E-mail értesítés a megnézendők listája új megjelenéseiről.
       new_replies_to_threads_created: Automatikusan figyelje az általam létrehozott, vagy megválaszolt szálakat.
       new_replies_to_threads_watching: E-mail értesítés, ha az általam figyelt szálakhoz új válasz érkezik.
@@ -4042,14 +4048,14 @@ hu-HU:
       short: "%d %b %I:%M %p"
     units:
       hours: Órák
-      minutes: Percek
-      seconds: Másodpercek
+      minutes: Perc
+      seconds: Másodperc
   top_contributors: Legtöbbet hozzájárulók
   translation:
     one: fordítás
     other: fordítás
   upload_backdrop: Háttérkép feltöltése
-  upload_headshot:
+  upload_headshot: Portréfotó feltöltése
   upload_poster: Poszter feltöltése
   upload_profile: Profil feltöltése
   upload_title_logo:
@@ -4063,8 +4069,10 @@ hu-HU:
         sort: Rendezés
       type: Típus
     number_of_videos:
+      one: "%{count} videó"
+      other: "%{count} videó"
     official_channel: Hivatalos csatorna
-    page_title:
+    page_title: "%{name} Videócsatorna"
     popular: Népszerű
     refresh_from_youtube: Frissítés a YouTube-ról
     types:

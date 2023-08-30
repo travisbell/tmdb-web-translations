@@ -1962,21 +1962,24 @@ zh-CN:
   episode_number_name: 第 %{episode_number} 集
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: 该页面的所有者删除了他们的帐户。 虽然他们对 TMDB 的所有贡献仍然存在，但他们的用户数据已被匿名化。
+      title: 该账户已删除。
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: 您无权访问此页面。 如果您认为这是一个错误，请在<a href="%{forum_link}">论坛</a>上告诉我们。
+        public: 您需要先登录以访问该页面。请<a href="%{login_link}">单击此处</a>登录您的帐户。
+      title: 您没有权限访问该页面。
     out_of_login_attempts:
-      description:
-      title:
+      description: |-
+        您已用完10次登录机会。 请在30分钟后重试。 同时，您还可以尝试<a href="%{reset_password_link}">重置密码</a>。
+
+        您还可以<a href="%{about_us_link}">联系我们</a>寻求支持。
+      title: 登录尝试次数不足
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: 您无权访问此页面。
+        public: 您无权访问此页面。
+      title: 该页面是私有的
     suspended:
       explanation_1: 很遗憾，该用户已被冻结。
       go_to_inbox: 进入收件箱
@@ -1986,7 +1989,7 @@ zh-CN:
         title: 你的账户已被冻结
     suspended_user_post:
       description:
-      title:
+      title: 帖子已被删除
   errors:
     attributes:
       iso_3166_1:
@@ -2005,13 +2008,13 @@ zh-CN:
       keywords: 关键词字段已锁定
     messages:
       blank: 需要
-      email_address_not_routable:
+      email_address_not_routable: 无法访问
       inclusion: 必须选定
       invalid: 是无效的
       invalid_character_name: 角色名不能包含特殊字符
-      invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_email_address: 电子邮件地址无效
+      invalid_password: 您输入的密码不正确。
+      invalid_request: 未能完成您的请求。
       no_characters_found: 未找到角色
       required: 必须存在
       series_status_invalid_to_create_season: 目前已设置为「已取消」或「已完结」，因此无法创建新季。
@@ -2027,10 +2030,10 @@ zh-CN:
       duplicate_guest_star: 这位客串明星已经存在。
       duplicate_regular_season_member: 此人物已被添加为季固定演员。
       duplicate_season: 这一季已经存在。
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
-      missing_credit:
-      missing_person:
+      duplicate_season_episode_cast_member: 此人已被添加为本季某一集中的演员。 演员表需要添加到一季或一集中，不能两处都添加。
+      duplicate_season_episode_crew_member: 此人已作为 %{job_name} 添加到本季的剧集中。 剧组人员名单需要添加到一季或一集中，而不是两处都添加。
+      missing_credit: 您尝试编辑的名单不存在。
+      missing_person: 找不到该人物。
   failed_email: 邮件发送失败
   failed_generic: 出现问题。
   failed_report: 提交报告时出了点问题。
