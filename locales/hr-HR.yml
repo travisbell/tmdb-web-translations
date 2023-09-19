@@ -46,12 +46,12 @@ hr-HR:
   Add a New Cast Member: Dodaj novog člana postave
   Add a New Crew Member: Dodaj novog člana ekipe
   Add a New Guest Star: Dodaj novog gosta
-  Add to Watchlist: Dodaj u Watchlist
+  Add to Watchlist: Dodaj na popis za gledanje
   Add to list: Dodaj na popis
   Add to your favorite list: Dodaj u popis favorita
-  Add to your watchlist: Dodaj u popis za gledanje
+  Add to your watchlist: Dodaj na popis za gledanje
   Added By: Dodano od
-  Added to Watchlist: Dodano u Watchlist
+  Added to Watchlist: Dodano na popis za gledanje
   Adding & Editing Content: Dodavanje i uređivanje sadržaja
   Address 1: Adresa 1
   Address 2: Adresa 2
@@ -205,7 +205,7 @@ hr-HR:
   Full Cast & Crew: Kompletna postava i ekipa
   Full Character List:
   Full Leaderboard: Kompletna ljestvica
-  Gender: Spol
+  Gender: Rod
   General: Općenito
   Genres: Žanrovi
   Genres & Keywords: Žanrovi i ključne riječi
@@ -217,7 +217,7 @@ hr-HR:
   Help Us By Contributing Missing Data: Pomozite nam popunjavajući podatke koji nedostaju
   Hi: Bok
   Hide favorites?: Sakriti favorite?
-  Hide items on watchlist?: Sakriti stavke iz popisa praćenja?
+  Hide items on watchlist?: Sakriti stavke iz popisa za gledanje?
   Hide rated?: Sakriti ocijenjene?
   Home: Početna
   Homepage: Početna stranica
@@ -251,14 +251,14 @@ hr-HR:
   Lists: Liste
   Load More:
   Locked?:
-  Login to Add a Backdrop:
-  Login to Add a Poster: Ulogiraj se za dodavanje plakata
-  Login to Add a Video:
+  Login to Add a Backdrop: Prijavite se za dodavanje pozadine
+  Login to Add a Poster: Prijavite se za dodavanje plakata
+  Login to Add a Video: Prijavite se za dodavanje videozapisa
   Login to Edit Cast & Crew:
-  Login to add this TV show to your favorite list:
-  Login to add this TV show to your watchlist:
-  Login to add this movie to your favorite list:
-  Login to add this movie to your watchlist:
+  Login to add this TV show to your favorite list: Prijavite se da biste dodali seriju u favorite
+  Login to add this TV show to your watchlist: Prijavite se da biste dodali seriju na popis za gledanje
+  Login to add this movie to your favorite list: Prijavite se da biste dodali film u favorite
+  Login to add this movie to your watchlist: Prijavite se da biste dodali film na popis za gledanje
   Login to create and edit custom lists:
   Login to rate this TV show: Prijavite se da ocjenite TV seriju
   Login to rate this movie: Prijavite se da ocjenite film
@@ -378,8 +378,8 @@ hr-HR:
   Reported Issues: Prijavljeni problemi
   Request an API Key: Pošalji zahtjev za API ključ
   Resend Activation Email:
-  Reset:
-  Reset Password:
+  Reset: Ponovno postavi
+  Reset Password: Ponovno postavi lozinku
   Revenue: Prihod
   Runtime: Trajanje
   Save:
@@ -523,7 +523,7 @@ hr-HR:
     settings: Postavke
     sign_up: Učlanite se
     view_profile: Pogledajte profil
-    watchlist: Pogledani filmovi
+    watchlist: Popis za gledanje
   accounts:
     activity:
       activity: Aktivnost
@@ -639,7 +639,7 @@ hr-HR:
       ratings_reviews: Ocjene i recenzije
       recommendations: Preporuke
       reviews: Recenzije
-      watchlist: Gledano
+      watchlist: Popis za gledanje
     order: 'Redoslijed:'
     overview:
       30_day_activity: Posljednjih 30 dana
@@ -688,8 +688,8 @@ hr-HR:
       tip: Savjet
     watchlist:
       my_watchlist:
-        logged_in: Moj popis gledanih
-        public: "%{username}-ov popis praćenja"
+        logged_in: Moj popis za gledanje
+        public: Popis za gledanje korisnika %{username}
       next_month: Sljedeći mjesec
       no_upcoming_movies:
         few: ''
@@ -699,11 +699,11 @@ hr-HR:
       no_upcoming_tv_shows:
         few: ''
         many: ''
-        one: Na vašem popisu praćenja nema nadolazećih TV emisija. Međutim postoji %{count} stavaka na vašem popisu praćenja.
-        other: Na vašem popisu praćenja nema nadolazećih TV emisija. Međutim postoji %{count} stavaka na vašem popisu praćenja.
+        one: Na vašem popisu za gledanje nema nadolazećih TV emisija. Međutim postoji %{count} stavaka na vašem popisu za gledanje.
+        other: Na vašem popisu za gledanje nema nadolazećih TV emisija. Međutim postoji %{count} stavaka na vašem popisu za gledanje.
       page_title:
-        page_owner: Moj popis praćenja
-        public: Popis praćenja od %{username}
+        page_owner: Moj popis za gledanje
+        public: Popis za gledanje korisnika %{username}
       this_month: Ovaj mjesec
       this_week: Ovaj tjedan
       view_them: Pogledajte ih.
@@ -1427,7 +1427,7 @@ hr-HR:
     lock_existing_appearances:
     log_tv_movies_watch:
     master_group_limit_error:
-    media: Medij
+    media: Mediji
     media_association:
     media_character_id:
     media_type: Vrsta sadržaja
@@ -1821,7 +1821,7 @@ hr-HR:
       categories: Kategorije
       discuss:
         content_issues: Problemi sa sadržajem
-        discuss: Raspravite
+        discuss: Rasprave
         general: Općenito
         website_support: Website podrška
       support:
@@ -1844,7 +1844,7 @@ hr-HR:
       unsubscribe: Otkazivanje pretplate
     headers:
       discuss: Rasprava
-      discuss_item: Rasprava %{item_title}
+      discuss_item: Rasprava o stavci %{item_title}
       lets_chat: Razgovarajmo
       support: Podrška
       support_title: TMDB podrška
@@ -1865,10 +1865,10 @@ hr-HR:
         one: "%{count} odgovor (na stranici %{current_page} od %{total_pages})"
         other: "%{count} odgovora (na stranici %{current_page} od %{total_pages})"
       summary:
-        few: ''
-        many: ''
-        one: "%{count} rasprava, trenutno na stranici %{current_page} od %{total_pages}"
-        other: "%{count} rasprava, trenutno na stranici %{current_page} od %{total_pages}"
+        few: "%{count} rasprave, trenutačno na stranici %{current_page} od %{total_pages}"
+        many: "%{count} rasprava, trenutačno na stranici %{current_page} od %{total_pages}"
+        one: "%{count} rasprava, trenutačno na stranici %{current_page} od %{total_pages}"
+        other: "%{count} rasprava, trenutačno na stranici %{current_page} od %{total_pages}"
     post:
       delete: Izbrisati
       edit: Urediti
@@ -1877,12 +1877,12 @@ hr-HR:
       like: Sviđa mi se
       messages:
         delete_comment: Klikom na "Da", ovaj komentar će biti trajno izbrisan.
-        delete_discussion: Klikom na "Da", ova rasprava će biti trajno izbrisana.
+        delete_discussion: Ako kliknete "Da", ta će rasprava biti trajno izbrisana.
         hide_comment: Klikom na "Da", ovaj komentar će biti skriven.
-        hide_discussion: Klikom na "Da", ova rasprava će biti skrivena.
+        hide_discussion: Ako kliknete "Da", ta će rasprava biti skrivena.
         ignore_user: Jeste li sigurni da želite zanemariti ovog korisnika? Sve njihove rasprave i komentari nestat će. Taj blok možete ukloniti tako da odete na stranicu "Blokirani korisnici" unutar postavki računa.
         mark_as_not_spam:
-        mark_as_spam: Jeste li sigurni da ovu raspravu želite označiti kao neželjenu? Automatski će se izbrisati ako to učinite i ne možete više poništiti. Označavanje neželjenih rasprava pomaže u usavršavanju usluge otkrivanja neželjenog sadržaja.
+        mark_as_spam: Jeste li sigurni da ovu raspravu želite označiti kao neželjenu? Ta će radnja automatski izbrisati raspravu i ne može se poništiti. Označavanje neželjenih rasprava pomaže u usavršavanju usluge otkrivanja neželjenog sadržaja.
         report_violation: Potvrdite da želite prijaviti ovog korisnika zbog kršenja naših <a href="/documentation/community/guidelines" target="_blank" rel="noopener">smjernica zajednice</a>.
         unhide_discussion: Ako kliknete "Da", ta će rasprava biti ponovno vidljiva.
       posted_by_with_datetime: postavio %{username} dana %{date} u %{time}
@@ -2036,7 +2036,7 @@ hr-HR:
       invalid: je neispravno
       invalid_character_name:
       invalid_email_address:
-      invalid_password:
+      invalid_password: Unesena je lozinka netočna.
       invalid_request:
       no_characters_found:
       required: mora postojati
@@ -2070,7 +2070,7 @@ hr-HR:
       message:
       title:
     invalid_password_code:
-      message:
+      message: Kod za ponovno postavljanje lozinke nije valjan.
     invalid_session:
       message:
       title:
@@ -2079,10 +2079,10 @@ hr-HR:
       title:
     password_reset:
       message:
-      title:
+      title: Ponovno postavljanje lozinke
     password_reset_email_required:
-      message:
-      title:
+      message: Molimo unesite važeću adresu e-pošte.
+      title: Potrebna je adresa e-pošte
     resend_verification_email:
       message:
       title:
@@ -2114,12 +2114,13 @@ hr-HR:
         in_theaters:
         movies: Filmovi
         on_tv:
+        popular:
         streaming:
         this_week:
         today: Danas
         tv:
       free_to_watch: Gledajte besplatno
-      latest_trailers: Najnoviji foršpani
+      latest_trailers: Najnovije najave
       leaderboard:
         all_time:
         leaderboard: Ljestvica
@@ -2153,7 +2154,7 @@ hr-HR:
       posters_must_meet: 'Plakati moraju ispunjavati sljedeće kriterije:'
       profile_must_meet: 'Slike profila moraju ispunjavati sljedeće kriterije:'
       read_guidelines: Upoznajte se s našim ažuriranim <a href="%{link}" target="_blank" rel="noopener">smjernicama za dodavanje slika</a>.
-      tip: Ako ga vaš preglednik podržava, možete povući i ispustiti sliku na područje ispod. U suprotnom, samo kliknite gumb 'Odabir datoteka...' i odaberite sliku s računala.
+      tip: Ako vaš preglednik to podržava, možete povući sliku na područje ispod. U suprotnom, kliknite gumb ispod i odaberite sliku s računala.
     uploader:
       aspect_ratio:
       aspect_ratio_both:
@@ -2161,7 +2162,7 @@ hr-HR:
       max_res:
       min_res:
       read_guidelines: Upoznajte se s našim ažuriranim <a href="%{link}" target="_blank" rel="noopener">smjernicama za dodavanje slika</a>.
-      tip: Ako ga vaš preglednik podržava, možete povući i ispustiti sliku na područje ispod. U suprotnom, samo kliknite gumb 'Odabir datoteka...' i odaberite sliku s računala.
+      tip: Ako vaš preglednik to podržava, možete povući sliku na područje ispod. U suprotnom, kliknite gumb ispod i odaberite sliku s računala.
       type_backdrops:
       type_episode_stills:
       type_headshots:
@@ -2211,8 +2212,8 @@ hr-HR:
     Accounting Trainee: Accounting Trainee
     Acting Double: Acting Double
     Action Director: Action Director
-    Actor: Actor
-    Actor's Assistant: Actor's Assistant
+    Actor: Glumac
+    Actor's Assistant: Pomoćnik glumca
     Adaptation: Adaptation
     Additional Camera: Additional Camera
     Additional Casting: Additional Casting
@@ -2712,7 +2713,7 @@ hr-HR:
     Mixing Engineer:
     Modeling:
     Modelling Supervisor:
-    Motion Actor:
+    Motion Actor: Glumac pokreta
     Motion Capture Artist:
     Music: Glazba
     Music Arranger:
@@ -3185,7 +3186,7 @@ hr-HR:
     changes:
       filters:
         clear: Očisti
-        key: Ključ
+        key: Tip
         language: Jezik
         user: Korisnik
       number_of_changes:
@@ -3296,7 +3297,7 @@ hr-HR:
       visit_facebook: Posjeti Facebook
       visit_homepage: Posjeti glavnu stranicu
       visit_instagram: Posjeti Instagram
-      visit_justwatch:
+      visit_justwatch: Posjeti JustWatch
       visit_tiktok:
       visit_twitter: Posjeti Twitter
       visit_youtube:
@@ -3353,9 +3354,9 @@ hr-HR:
         Canceled: Otkazano
         In Production: U produkciji
         Planned: Planirano
-        Post Production:
-        Released:
-        Rumored:
+        Post Production: Postprodukcija
+        Released: Objavljeno
+        Rumored: Predmet glasina
     network:
       edit:
         alternative_names:
@@ -3389,9 +3390,9 @@ hr-HR:
         alternative_names:
           no_records:
       gender:
-        female: Žensko
+        female: Ženski
         male: Muški
-        non_binary:
+        non_binary: Nebinarna osoba
       media_types:
         all: Sve
         movies: Filmovi
@@ -3416,11 +3417,11 @@ hr-HR:
       changes: Promjene
       characters: Likovi
       episodes: Epizode
-      fandom: Fandom
+      fandom: Gledatelji
       headshots: Slike lica
       logos: Logotipi
       main: Glavna stranica
-      media: Medij
+      media: Mediji
       overview: Pregled
       posters: Plakati
       profiles: Profili
@@ -3579,8 +3580,8 @@ hr-HR:
       play_featurette:
       play_opening_credits:
       play_recap:
-      play_teaser:
-      play_trailer:
+      play_teaser: Pokreni mamac
+      play_trailer: Pokreni najavu
       published:
       published_at:
       restricted_regions:
@@ -3814,20 +3815,20 @@ hr-HR:
     show_more: Prikaži više
   part_of_collection:
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(najmanje 4 znaka)"
     confirm_new_password: Potvrdi novu lozinku
-    enter_to_continue:
+    enter_to_continue: Upišite trenutačnu lozinku za nastavak...
     new_password: Nova lozinka
     password: Lozinka
     password_confirm: Potvrdi lozinku
-    reset_email_sent:
+    reset_email_sent: E-poruka poslana! Uskoro ćete primiti upute za ponovno postavljanje lozinke.
   person:
     credits:
       as_character:
       as_job: "— %{job}"
   placeholder:
     primary_character_name:
-  reset_password_text:
+  reset_password_text: Unesite svoje korisničko ime da biste započeli proces ponovnog postavljanja lozinke.
   sample:
   search:
     adult:
@@ -3965,36 +3966,42 @@ hr-HR:
       notifications: Obavijesti
       page_title:
     profile:
-      accent_color:
+      accent_color: Boja teme
       avatar:
-        current_avatar: Trenutna slika
+        current_avatar: Profilna slika
         explain:
         explain_gravatar:
-        not_found: Nema pronađenih slika.
-        not_found_add: Nema pronađenih slika. Želite li <a href="#">dodati jednu</a>?
-        remove_own: Ukloni svoju sliku?
+        not_found: Slika nije dodana.
+        not_found_add: Slika nije dodana. Želite li je <a href="#">dodati</a>?
+        remove_own: Ukloni profilnu sliku?
         update_avatar: Ažuriraj sliku
-        update_gravatar:
+        update_gravatar: Ažuriraj Gravatar?
         updated: Slika ažurirana!
-        upload_avatar:
-        upload_own:
-        upload_window_tip:
-        use_gravatar:
+        upload_avatar: Prenesi sliku
+        upload_own: Prenesi vlastitu?
+        upload_window_tip: Upotrijebite izbornik datoteka za prijenos prilagođene slike. Ako odabrana slika nije u formatu kvadrata, automatski ćemo je obrezati.
+        use_gravatar: Upotrijebi Gravatar?
       background:
-        background_image:
-        confirm_remove:
-        remove_background:
-        set_image:
+        background_image: Pozadinska slika
+        confirm_remove: Molimo potvrdite da želite ukloniti pozadinsku sliku. Jeste li sigurni?
+        remove_background: Ukloniti pozadinsku sliku?
+        set_image: Postaviti pozadinsku sliku?
       change_password: Promijeni lozinku
       edit_profile: Uredi profil
       email:
-        invalid_dialog_title:
-        reset_button:
-        reset_invalid_email_dialog_text:
-        reset_password_invalid_email_dialog_text:
-        sending_problems:
-        what_is_your_email:
-      page_title:
+        invalid_dialog_title: Ponovno postaviti adresu e-pošte?
+        reset_button: Ponovno postaviti i poslati?
+        reset_invalid_email_dialog_text: |-
+          <p>Nažalost, dosad vam nismo uspjeli poslati e-poštu. Informacije o pogreškama provjerite <a href="/u/%{username_url}/events/emails?status=2,3">ovdje</a>.</p>
+
+          <p>Ako su problemi s vašom adresom bili privremeni ili su riješeni, pritisnite tipku za ponovno postavljanje u nastavku i pokušat ćemo vam ponovno poslati e-poruku.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Za promjenu lozinke treba nam ispravna adresa e-pošte. Nažalost, dosad vam nismo uspjeli poslati e-poštu. Informacije o pogreškama provjerite <a href="/u/%{username_url}/events/emails?status=2,3">ovdje</a>.</p>
+
+          <p>Ako su problemi s vašom adresom bili privremeni ili su riješeni, pritisnite tipku za ponovno postavljanje u nastavku i pokušat ćemo vam ponovno poslati e-poruku.</p>
+        sending_problems: Došlo je do poteškoća pri dostavljanju pošte na vašu e-adresu. Moramo potvrditi da se pošta uspješno isporučuje kako bismo mogli nastaviti.
+        what_is_your_email: Koja je vaša adresa e-pošte?
+      page_title: Moj profil
       reset_password_dialog_text:
       reset_password_dialog_text2:
     sessions:
@@ -4129,10 +4136,10 @@ hr-HR:
       Opening Credits:
       Recap:
       Recaps:
-      Teaser:
-      Teasers:
+      Teaser: Mamac
+      Teasers: Mamci
       Trailer: Najava
-      Trailers: Foršpani
+      Trailers: Najave
     vimeo_channel: Kanal na Vimeu
     visit_vimeo_channel: Posjeti kanal na Vimeu
     visit_youtube_channel: Posjeti kanal na YouTubeu
