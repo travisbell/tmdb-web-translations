@@ -125,6 +125,7 @@ he-IL:
   Crew: סגל
   Currently Airing TV Shows: סדרות שמשודרות כיום
   Currently on page: כרגע בדף
+  DMCA Policy:
   DMCA Takedown Request: DMCA בקשת הסרה של
   Date: תאריך
   Day of Death: יום פטירה
@@ -335,8 +336,8 @@ he-IL:
   Preview: הצג מראש
   Primary Color: צבע עיקרי
   Primary Facts: עובדות עיקריות
-  Primary Release Date Ascending:
-  Primary Release Date Descending:
+  Primary Release Date Ascending: תאריך שחרור עיקרי עולה
+  Primary Release Date Descending: תאריך שחרור עיקרי יורד
   Primary?: עיקרי?
   Privacy Policy: מדיניות פרטיות
   Production Code: קוד הפקה
@@ -511,7 +512,7 @@ he-IL:
   account_drop_down:
     discussions: דיונים
     edit_profile: ערוך פרופיל
-    join_tmdb: TMDB-הצטרפות ל
+    join_tmdb: הירשם
     lists: רשימות
     login: היכנס
     logout: יציאה
@@ -1412,7 +1413,7 @@ he-IL:
     image_media_association:
     in_translate_mode: אתה במצב תרגום
     inline_edit_original_name: שם מקורי
-    join_community_tmdb: הצטרפו לקהילה שלנו כדי לתרום למסד הנתונים.
+    join_community_tmdb: הצטרף לקהילה שלנו כדי לתרום למסד הנתונים.
     launch_label: הרץ
     lock_existing_appearances: נעל מופעים קיימים
     log_tv_movies_watch: כתוב ביומן את הסדרות והסרטים שאתה צופה בהם
@@ -1972,12 +1973,12 @@ he-IL:
       title: חשבון זה נמחק
     missing_privilege:
       description:
-        logged_in:
+        logged_in: אין לך גישה אל הדף הזה. אם אתה מאמין שזאת שגיאה, יידע אותנו <a href="%{forum_link}">בפורומים</a>
         public:
       title: אין לך הרשאה להשיג גישה אל דף זה
     out_of_login_attempts:
       description:
-      title:
+      title: ניסיונות כניסה אזלו
     private:
       description:
         logged_in: ".אין לך גישה אל דף זה"
@@ -1992,7 +1993,7 @@ he-IL:
         title: החשבון שלך הושעה
     suspended_user_post:
       description:
-      title:
+      title: הפוסט הזה הוסר
   errors:
     attributes:
       iso_3166_1:
@@ -2089,18 +2090,18 @@ he-IL:
       catch_up_now: ".התעדכן עכשיו"
       discussions: דיונים
     header:
-      quick_snippet_1: ".מיליוני סרטים, סדרות ואנשים לגלות. סיירו כעת"
+      quick_snippet_1: ".מלא סרטים, סדרות ואנשים לגלות. גלה עכשיו"
       welcome_1: ברוך הבא
     panels:
       community:
-        join_today: הצטרפו עוד היום
+        join_today: הצטרף עוד היום
         sign_up: הירשם
       filters:
         for_rent: להשכרה
         in_theaters: בבתי הקולנוע
         movies: סרטים
         on_tv: בטלוויזיה
-        popular:
+        popular: פופולרי
         streaming: הזרמה
         this_week: השבוע
         today: היום
@@ -3212,12 +3213,12 @@ he-IL:
           parts: חלקים (1 או יותר)
           poster: כרזה
           profile: תמונת פרופיל
-          regular_cast_min_4:
+          regular_cast_min_4: חברי להק קבועים (4 או יותר)
           release_date: תאריך שחרור
           title: כותר מתורגם
           video: סרטון
           writer: כותב
-        summary:
+        summary: נראה שהנתונים הבאים חסרים ב<strong>%{language}</strong> או ב<strong>%{fallback_language}</strong>…
       scale:
         '0': חייבים להתחיל איפשהו
         '1': היי, זאת התחלה
@@ -3259,15 +3260,15 @@ he-IL:
         locked: ".תאריך השחרור הזה נעול"
       success_fields_locked: השדות ננעלו
       tagline:
-        add_tagline:
-        already_exists:
-        lock_existing:
-        locked:
-        no_taglines:
-        not_found:
+        add_tagline: הוסף תגית
+        already_exists: התגית קיימת כבר
+        lock_existing: נעל תגיות קיימות
+        locked: התגית הזאת נעולה
+        no_taglines: תגיות לא התווספו.
+        not_found: לא היה ניתן למצוא את התגית שניסית לערוך.
         primary: עיקרי
-        taglines:
-        unable_to_delete:
+        taglines: תגיות
+        unable_to_delete: התגית לא יכלה להימחק.
       tooltips:
         adult: באופן כללי, דגל זה משמש עבור פורנוגרפיה. אנא ראה את <a href="/bible/movie#59f73b759251416e71000004">תנ״ך התרומות</a> לעוד מידע
         bible: לעזרה בעריכת מידע באתר טי־אם־די־בי, לחץ על '?' כדי לקרוא את תנ״ך התרומה לקהילה
@@ -3287,7 +3288,7 @@ he-IL:
       visit_justwatch: JustWatch-בקר ב
       visit_tiktok: בקר בטיקטוק
       visit_twitter: בקר בטוויטר
-      visit_youtube:
+      visit_youtube: בקר ביוטיוב
     genre:
       movie_page_title: סרטי %{name}
       tv_page_title: סדרות %{name}
@@ -3448,29 +3449,29 @@ he-IL:
       add_name: הוסף שם
       add_overview: הוסף תקציר
       add_runtime: הוסף זמן ריצה
-      add_tagline:
+      add_tagline: הוסף תגית
       add_title: הוסף כותר
       biography: ביוגרפיה
       name: שם
       overview: תקציר
-      taglines:
-      title:
+      taglines: תגיות
+      title: כותר
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: יש כבר פרק %{episode_type} עבור העונה הזאת. לחץ 'כן' כדי לאשר את בחירתך.
+        episode_type_label: סוג פרק
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: סיום עונה
+          mid_season: סיום אמצע עונה
+          standard: רגיל
         guest_stars:
           no_records: ".כוכבי אורח לא התווספו עדיין"
         screened_as_part_of_season: כן, כחלק מעונה
         screened_confirm: ".אם פרק זה הוקרן בפסטיבל סרטים או בתיאטרון, לחץ 'כן' כדי להמשיך"
         screened_label: האם פרק זה הוקרן באופן קולנועי?
       episode_label:
-        finale:
-        mid_season:
+        finale: סיום עונה
+        mid_season: סיום אמצע עונה
       episode_selector:
         current_episode: פרק %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
@@ -3503,7 +3504,7 @@ he-IL:
         creator:
           no_records: ".יוצרים לא התווספו עדיין"
         crew:
-          no_season: עונות לא קיימות! עונה דרושה כדי להוסיף חברי סגל
+          no_season: אין עונות קיימות! עונה דרושה כדי להוסיף חברי סגל
         episode_groups:
           create_new_group: צור קבוצה חדשה
           description: תיאור
@@ -3535,7 +3536,7 @@ he-IL:
           none_found: "?לא נמצאו רשתות תואמות. רוצה ליצור אותה"
         regular_cast:
           no_records: ".חברי לַהַק קבועים לא התווספו עדיין"
-          no_season: עונות לא קיימות! עונה דרושה כדי להוסיף חברי לַהַק קבועים
+          no_season: אין עונות קיימות! עונה דרושה כדי להוסיף חברי לַהַק קבועים
         runtime:
           add_it: "?להוסיף אורך חדש"
           enter_value: הכנס ערך בדקות
@@ -3811,7 +3812,7 @@ he-IL:
       hd: HD לא נמצאו הצעות
       none: אין הצעות עבור %{title}.
       sd: SD לא נמצאו הצעות
-    page_title:
+    page_title: איפה אני יכול לצפות ב%{media_name}?
     seasons:
       many: "%{count} עונות"
       one: עונה %{count}
@@ -3851,7 +3852,7 @@ he-IL:
   reset_password_text: הכנס את שם המשתמש שלך למטה כדי להתחיל בתהליך איפוס הסיסמה
   sample:
   search:
-    adult:
+    adult: מבוגר
     favorites_movie: "...חפש סרטים מועדפים"
     favorites_tv: "...חפש סדרות מועדפות"
     in_movies: בסרטים
@@ -3896,9 +3897,9 @@ he-IL:
         directory: סיפרייה
         overview: תקציר
         regenerate:
-          confirm_text:
-          regenerate_key:
-          summary_text:
+          confirm_text: זה <strong>ישבית</strong> את מפתח איי־פי־היי הישן שלך ויחולל מחדש אחד חדש. פעולה זו אינה ניתנת לביטול. יש לך <strong>30 שניות</strong> לאשר לפני הכנסה מחדש של הסיסמה שלך.
+          regenerate_key: חולל מחדש מפתח
+          summary_text: נכנסת הרגע אל <strong>אזור הסכנה</strong>! אם אתה רוצה להמשיך ולרענן את מפתח האיי־פי־היי שלך, אתה יכול לעשות זאת על ידי הכנסת הסיסמה שלך למטה ואישור האימותים.
         sessions: שיחים
         stats: סטטיסטיקה
       page_title: שלי API הגדרות
@@ -4148,7 +4149,7 @@ he-IL:
     official_channel: ערוץ רשמי
     page_title: "%{name} ערוץ וידיאו של"
     popular: פופולרי
-    refresh_from_youtube:
+    refresh_from_youtube: רענן מיוטיוב
     types:
       Behind the Scenes: מאחורי הקלעים
       Blooper: מִשׁגֶה
