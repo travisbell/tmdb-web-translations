@@ -14,9 +14,9 @@ es-ES:
   API Terms: Términos de la API
   API Terms of Use: Términos de uso de la API
   API Updates: Actualizaciones de API
-  About: Sobre
-  About TMDb: Sobre TMDB
-  About this list: Sobre esta lista
+  About: Acerca de
+  About TMDb: Acerca de TMDB
+  About this list: Acerca de esta lista
   Accept: Aceptar
   Accept API Terms: Aceptar los términos de la API
   Account: Cuenta
@@ -125,7 +125,7 @@ es-ES:
   Crew: Equipo
   Currently Airing TV Shows: Programas de televisión emitiéndose actualmente
   Currently on page: Actualmente en la página
-  DMCA Policy:
+  DMCA Policy: Política DMCA
   DMCA Takedown Request: Solicitud de retirada por la DMCA
   Date: Fecha
   Day of Death: Fecha de defunción
@@ -512,16 +512,16 @@ es-ES:
   Your rating: Tu valoración
   Zip Code: Código postal
   account_drop_down:
-    discussions: Discusión
+    discussions: Discusiones
     edit_profile: Editar perfil
     join_tmdb: Únete a TMDB
     lists: Listas
     login: Acceder
     logout: Salir
     messages: Mensajes
-    profile_and_settings: Perfil y configuración
+    profile_and_settings: Perfil y Ajustes
     ratings: Valoraciones
-    settings: Configuración
+    settings: Ajustes
     sign_up: Regístrate
     view_profile: Ver perfil
     watchlist: Lista de seguimiento
@@ -547,8 +547,8 @@ es-ES:
         edit: Editar
         key: Clave
         language_abbreviation: Idioma
-    average_movie_score: Media<br>Puntuación película
-    average_tv_score: Media<br>Puntuación TV
+    average_movie_score: Promedio<br>Puntuación película
+    average_tv_score: Promedio<br>Puntuación TV
     discussions:
       my_active_boards: Mis mensajes activos
       my_discussions: Mis discusiones
@@ -590,7 +590,7 @@ es-ES:
         recent_events: Eventos recientes
       recent: Recientes
     export:
-      csv_explanation: Si deseas exportar esta lista en formato CSV, haz click en botón 'Exportar'. El fichero se enviará por correo electrónico. Es posible que el envío tarde unos minutos dependiendo del tamaño de la lista.
+      csv_explanation: Si deseas exportar esta lista en formato CSV, haz click en el botón "Exportar". El fichero se enviará por correo electrónico. Es posible que el envío tarde unos minutos dependiendo del tamaño de la lista.
       export: Exportar
       export_csv: Exportar CSV
     favorites:
@@ -604,7 +604,7 @@ es-ES:
     filters:
       air_date: Fecha de emisión
       alphabetical: alfabético
-      date_added: Fecha de inclusión
+      date_added: Agregado en la Fecha
       date_rated: Fecha de valoración
       first_air_date: Primera fecha de emisión
       most_popular: mas popular
@@ -1470,7 +1470,7 @@ es-ES:
     primary_character_name: Nombre del personaje principal
     problem_refreshing_results: Hubo un problema al actualizar los resultados.
     proceed: Continuar
-    push_test_v1:
+    push_test_v1: Prueba de implementación v1
     ready_to_launch: Eso es todo. Listo para lanzar ?
     record_exists_in_group: El registro ya existe en el grupo.
     refresh_list: Hubo un problema al actualizar la lista.
@@ -1977,21 +1977,24 @@ es-ES:
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: El propietario de esta página eliminó su cuenta. Si bien todas sus contribuciones a TMDB permanecen, sus datos de usuario ahora son anónimos.
+      title: Esta cuenta ha sido eliminada
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Tu cuenta no tiene acceso a esta página. Si cree que se trata de un error, infórmenos <a href="%{forum_link}">en los foros</a>.
+        public: Está intentado acceder ha una página que requiere que inicie sesión. Inicie sesión en su cuenta <a href="%{login_link}">haciendo clic aquí</a>.
+      title: No tienes permiso para acceder a esta página.
     out_of_login_attempts:
-      description:
-      title:
+      description: |
+        Has utilizado tus 10 intentos de inicio de sesión. Podrás volver a intentarlo en 30 minutos. También puedes intentar <a href="%{reset_password_link}">restablecer tu contraseña</a>.
+
+        También puede ponerse en <a href="%{about_us_link}">contacto</a> para obtener ayuda.
+      title: Intentos de inicio de sesión agotados
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: No tienes acceso a esta página.
+        public: Has intentado acceder ha una página que es privada.
+      title: Esta página es privada
     suspended:
       explanation_1: Lamentablemente, este usuario ha sido suspendido.
       go_to_inbox: Ir a la bandeja de entrada
@@ -2000,8 +2003,8 @@ es-ES:
         explanation_1: Si deseas discutir las razones de tu suspensión o cómo puedes recuperar el acceso a tu cuenta, visita el área de mensajes haciendo clic en el siguiente enlace.
         title: Tu cuenta ha sido suspendida
     suspended_user_post:
-      description:
-      title:
+      description: Se detectó que esta publicación infringe nuestras <a href="%{link}">políticas de la comunidad</a>. Es posible que el usuario responsable de ello también haya sido suspendido.
+      title: Esta publicación ha sido eliminada
   errors:
     attributes:
       iso_3166_1:
@@ -2020,13 +2023,13 @@ es-ES:
       keywords: El campo de palabras clave está bloqueado
     messages:
       blank: es necesario
-      email_address_not_routable:
+      email_address_not_routable: no se puede reubicar
       inclusion: debe seleccionarse
       invalid: es inválido
       invalid_character_name: El nombre del personaje no debe contener caracteres especiales
-      invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_email_address: no parece ser una dirección de correo electrónico válida
+      invalid_password: La contraseña que ha ingresado es incorrecta.
+      invalid_request: imposible completar la solicitud.
       no_characters_found: No se encontraron personajes
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
@@ -2042,8 +2045,8 @@ es-ES:
       duplicate_guest_star: Esta estrella invitada ya existe.
       duplicate_regular_season_member: Esta persona ya está añadida como miembro habitual de la temporada.
       duplicate_season: Esta temporada ya existe.
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
+      duplicate_season_episode_cast_member: Esta persona ya está agregada como miembro del elenco de un episodio de esta temporada. Los créditos del reparto deben agregarse a una temporada o a un episodio, y no a ambos.
+      duplicate_season_episode_crew_member: Esta persona ya está agregada como %{job_name} a un episodio de esta temporada. Los créditos del equipo deben agregarse a una temporada o a un episodio, y no a ambos.
       missing_credit:
       missing_person:
   failed_email: No se ha podido enviar tu correo electrónico.
