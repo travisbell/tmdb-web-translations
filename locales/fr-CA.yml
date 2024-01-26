@@ -6,11 +6,11 @@ fr-CA:
   API Details: Détails de l'API
   API Key: Clé de l'API
   API Libraries: Bibliothèques de l'API
-  API Overview:
+  API Overview: Aperçu de l'API
   API Read Access Token: Jeton d'accès en lecture à l'API
-  API Sessions:
+  API Sessions: Sessions API
   API Stats: Stats de l'API
-  API Status Codes:
+  API Status Codes: Codes de statut de l'API
   API Terms: Conditions d'utilisation de l'API
   API Terms of Use: Condition d'utilisation de l'API
   API Updates: Mises à jour de l'API
@@ -27,7 +27,7 @@ fr-CA:
   Add Content Rating: Ajouter un classement
   Add Creator: Ajouter un créateur
   Add Data & Content: Ajouter des données et du contenu
-  Add Headshot:
+  Add Headshot: Ajouter une photo de profil
   Add Item: Ajouter un item
   Add Missing Cast & Crew: Ajouter les membres de la distribution et de l'équipe technique manquant
   Add Network: Ajouter une chaîne
@@ -39,8 +39,8 @@ fr-CA:
   Add Poster: Ajouter une affiche
   Add Profile: Ajouter un profil
   Add Season Regular: Ajouter un acteur principal
-  Add Title Logo:
-  Add To Every Season?: Toutes les saisons ?
+  Add Title Logo: Ajouter un logo du titre
+  Add To Every Season?: Ajouter à chaque saison?
   Add Video: Ajouter une vidéo
   Add YouTube Video: Ajouter une vidéo YouTube
   Add a New Cast Member: Ajouter un nouveau membre de la distribution
@@ -69,12 +69,12 @@ fr-CA:
   Application Description: Description de l'application
   Application Name: Nom de l'application
   Application Summary: Résumé de l'application
-  Application URL: L'adresse URL de l'application
+  Application URL: Adresse URL de l'application
   Approve: Approuver
   Approved?: Approuvé?
   Apps: Applications
   Archived Databases: Bases de données archivées
-  Are you sure?: Êtes-vous certain(e) ?
+  Are you sure?: Voulez-vous vraiment?
   Attributes: Attributs
   Auto: Auto
   Back to top: Retour en haut de page
@@ -93,7 +93,7 @@ fr-CA:
   Change?: Changer?
   Character: Personnage
   Characters:
-  Choose:
+  Choose: Sélectionner...
   City: Ville
   Collection Results: Résultats de recherche pour les collections
   Collections: Collections
@@ -479,7 +479,7 @@ fr-CA:
   Upcoming Movies: Films bientôt à l'affiche
   Update:
   Upload Logo:
-  User Score:
+  User Score: Score de l'utilisateur
   Username: Nom d'utilisateur
   Video?: Vidéo?
   View:
@@ -511,17 +511,17 @@ fr-CA:
   Zip Code: Code postal
   account_drop_down:
     discussions: Discussions
-    edit_profile: Modifier le profile
+    edit_profile: Modifier le profil
     join_tmdb: Rejoindre TMDB
     lists: Listes
     login: Se connecter
     logout: Déconnexion
     messages: Messages
     profile_and_settings: Profil et paramètres
-    ratings: Évaluation
+    ratings: Évaluations
     settings: Paramètres
     sign_up: S'inscrire
-    view_profile: Voir le profile
+    view_profile: Voir le profil
     watchlist: Liste de suivi
   accounts:
     activity:
@@ -529,7 +529,7 @@ fr-CA:
       legend:
         added: Ajouté
         created: Créé
-        deleted: Effacé
+        deleted: Supprimé
         updated: Mis à jour
       media_types:
         all: Tous
@@ -542,7 +542,7 @@ fr-CA:
         public: Activité récente de %{username}
       table:
         action: Action
-        edit: Modifié
+        edit: Modification
         key: Clé
         language_abbreviation: Langue
     average_movie_score: Évaluation<br>moyenne du film
@@ -578,10 +578,12 @@ fr-CA:
             Mention: Mention
             Messages: Messages
             type: Type
-        notifications: Notifications
+        notifications:
+          one: Notification
+          other: Notifications
         number_of_items:
-          one: "%{count} Notification"
-          other: "%{count} Notifications"
+          one: "%{count} notification"
+          other: "%{count} notifications"
       page_title:
         recent_events: Événements récents
       recent: Récent
@@ -596,9 +598,9 @@ fr-CA:
       page_title:
         page_owner: Mes favoris
         public: Favoris de %{username}
-    filter_by: 'Filtré par:'
+    filter_by: 'Filtrer par:'
     filters:
-      air_date: Diffusion
+      air_date: Date de diffusion
       alphabetical: Alphabétique
       date_added: Date d'ajout
       date_rated: Date de l'évaluation
@@ -610,8 +612,8 @@ fr-CA:
       rating: Évaluation
       release_date: Date de sortie
       score: Note
-      upcoming: Prochain
-      user_characters:
+      upcoming: À venir
+      user_characters: Personnages de l'utilisateur
     lists:
       create_list: Créer une liste
       last_updated: Mis à jour
@@ -620,7 +622,7 @@ fr-CA:
         public: Liste de %{username}
       no_lists:
         logged_in: Vous n'avez créé aucune liste.
-        public: "%{username} n'a créé aucune liste publique à partager"
+        public: "%{username} n'a créé aucune liste publique à partager."
       page_title:
         page_owner: Mes listes
         public: Listes de %{username}
@@ -630,14 +632,14 @@ fr-CA:
       favorites: Favoris
       lists: Listes
       overview: Vue d'ensemble
-      ratings: Cotes
+      ratings: Évaluations
       ratings_reviews: Évaluations et commentaires
       recommendations: Recommandations
-      reviews:
+      reviews: Critiques
       watchlist: Liste de suivi
     order: 'Ordre:'
     overview:
-      30_day_activity: Activité de 30 jours
+      30_day_activity: Activité des 30 derniers jours
       empty_recent_activity:
         logged_in: Vous n'avez apporté aucune modification récente.
         public: "%{username} n'a effectué aucune modification récemment."
@@ -654,21 +656,21 @@ fr-CA:
       recent_discussions: Discussions récentes
       total_edits: Nombre total de modifications
       total_ratings: Nombre total d'évaluations
-      upcoming_watchlist: À venir de la liste de suivi
+      upcoming_watchlist: À venir dans la liste de suivi
     page_title:
       page_owner: Mon profil
       public: Profil de %{username}
     ratings_reviews:
       my_ratings:
-        logged_in: Mon classement
-        public: Notes de %{username}
+        logged_in: Mes évaluations
+        public: Évaluations de %{username}
       my_reviews:
         logged_in: Mes commentaires
         public: Commentaires de %{username}
       page_title:
-        page_owner: Mon classement et commentaires
-        public: Classement et commentaires de %{username}
-      ratings_by_year: Notes par année
+        page_owner: Mes évaluations et commentaires
+        public: Évaluations et commentaires de %{username}
+      ratings_by_year: Évaluations par année
     recommendations:
       my_recommendations: Mes recommandations
       no_recommendations: Nous n'avons pas assez de données pour suggérer des recommandations.
@@ -684,7 +686,7 @@ fr-CA:
     watchlist:
       my_watchlist:
         logged_in: Ma liste de suivi
-        public: "%{username}'s liste à regarder"
+        public: Liste de suivi de %{username}
       next_month: Mois prochain
       no_upcoming_movies:
         one: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
@@ -697,7 +699,7 @@ fr-CA:
         public: Liste de suivi de %{username}
       this_month: Ce mois-ci
       this_week: Cette semaine
-      view_them: Les visionner
+      view_them: Les visionner.
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: "%{page_title} est déjà traduit dans les langues suivantes..."
   api_session:
@@ -721,7 +723,7 @@ fr-CA:
         name: Authentification accordée
       denied:
         message: "<p>Vous avez refusé l'accès à <strong>%{application_name}</ strong>. S'il s'agit d'une erreur ou si vous souhaitez redémarrer le processus d'authentification, retournez dans l'application et redemandez l'autorisation. </p>"
-        name: Autorisation refusée
+        name: Authentification refusée
       invalid_request_token:
         message: Le jeton d'accès que vous avez soumis n'est pas valide. Essayez de créer un nouveau et assurez-vous de l'avoir copié correctement. Si vous continuez à avoir des problèmes, contactez le développeur de l'application que vous utilisez.
         name: Jeton de demande invalide
@@ -747,14 +749,14 @@ fr-CA:
     episode_list: Retour à la liste des épisodes
     home: Retour à l'acceuil
     main: Retour à la page principale
-    named_episode_group:
+    named_episode_group: Retour aux groupes &lsquo;%{group_name}&rsquo;
     season: Retour à la saison
     season_list: Retour à la liste des saisons
     to_tmdb: Retour à TMDB
     top: Retour au début
   certifications:
     certification: Classement
-    descriptors:
+    descriptors: Descripteurs
     meaning: Signification
     movies:
       AU:
@@ -811,11 +813,11 @@ fr-CA:
           meaning:
       CA-QC:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
-          meaning:
+          meaning: Visa général – Le film peut être vu, loué ou acheté par des personnes de tout âge.  Si ledit film risque de heurter la sensibilité des enfants de moins de 8 ans, l’indication « Déconseillé aux jeunes enfants » est ajouté au classement.
         '2':
-          meaning:
+          meaning: 13 ans et plus – Le film ne peut être vu, acheté ou loué que par des personnes de 13 ans et plus. Les enfants de moins de 13 ans peuvent y avoir accès s’ils sont accompagnés d’un adulte.
         '3':
           meaning: 16 ans et plus – Peut être visionné, loué ou acheté seulement par des personnes de 16 ans et plus.
         '4':
@@ -942,7 +944,7 @@ fr-CA:
           meaning: Films pour un public à partir de 18 ans.
       MY:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -968,7 +970,7 @@ fr-CA:
           meaning:
       'NO':
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1043,7 +1045,7 @@ fr-CA:
         '0':
           meaning:
         '1':
-          meaning:
+          meaning: Tous âges.
         '2':
           meaning:
         '3':
@@ -1052,7 +1054,7 @@ fr-CA:
           meaning:
       US:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1111,17 +1113,17 @@ fr-CA:
           meaning:
       CA-QC:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
-          meaning:
+          meaning: Convient à tous les âges et doit comporter peu ou pas de violence ou d'érotisme.
         '2':
-          meaning:
+          meaning: Approprié pour les enfants de 8 ans et plus – peut comporter quelques scènes de violence, du langage vulgaire, et peu ou pas d'érotisme.
         '3':
-          meaning:
+          meaning: Approprié – convient aux personnes de 13 ans et plus et peut comporter des scènes de violence modérée, du langage vulgaire et de l'érotisme.
         '4':
-          meaning:
+          meaning: Recommandé pour les personnes de 16 ans et plus et peut comporter des scènes de violence, du langage vulgaire ou de l’érotisme.
         '5':
-          meaning:
+          meaning: Ne peut être vu que par des adultes et peu comporter des scènes de violence ou de sexualité extrêmes. Majoritairement utilisé par les films 18+ et la pornographie.
       DE:
         '0':
           meaning:
@@ -1135,7 +1137,7 @@ fr-CA:
           meaning:
       ES:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1154,7 +1156,7 @@ fr-CA:
           meaning:
       FR:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1180,7 +1182,7 @@ fr-CA:
           meaning:
       HU:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1228,7 +1230,7 @@ fr-CA:
           meaning:
       PH:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1263,7 +1265,7 @@ fr-CA:
           meaning:
       SK:
         '0':
-          meaning:
+          meaning: Aucune information de classement.
         '1':
           meaning:
         '2':
@@ -1288,10 +1290,10 @@ fr-CA:
         '5':
           meaning:
         '6':
-          meaning:
+          meaning: Banni.
       US:
         '0':
-          meaning:
+          meaning: Aucune information de classement
         '1':
           meaning:
         '2':
@@ -1311,25 +1313,25 @@ fr-CA:
     add_an_appearance:
     add_appearance:
     add_appearances:
-    add_backdrop:
-    add_backdrop_grp:
+    add_backdrop: Ajouter une toile de fond
+    add_backdrop_grp: Ajouter une toile de fond pour ce groupe
     add_character_backdrop:
     add_completely_free:
-    add_missing_character:
-    add_new_appearance:
+    add_missing_character: Ajouter personnage manquant
+    add_new_appearance: Ajouter une nouvelle apparence
     add_new_appearance_links_selection:
-    add_new_group:
-    add_the_name_of_the_character:
-    add_to_tmdb:
-    add_translation:
-    add_valid_translation:
-    adding_easy:
-    all_done:
-    all_languages:
+    add_new_group: Ajouter un nouveau groupe
+    add_the_name_of_the_character: Ajouter le nom du personnage.
+    add_to_tmdb: Ajouter à TMDB
+    add_translation: Ajouter une traduction
+    add_valid_translation: Svp ajoutez une traduction valide.
+    adding_easy: Ajouter sur TMDB est simple et gratuit.
+    all_done: Terminé?
+    all_languages: Toutes les langues
     all_record_exists_in_group:
-    already_added:
+    already_added: Déjà ajouté
     alter_popularity:
-    are_you_sure:
+    are_you_sure: Êtes-vous certain de vouloir procéder?
     are_you_sure_updates_will_be_lost:
     association_already_exists:
     association_updated:
@@ -1347,57 +1349,57 @@ fr-CA:
     character_header_images:
     character_login_signup_text:
     character_name:
-    character_search_label:
-    character_search_text:
-    character_to_search:
-    character_wiki:
-    characters:
-    check_it_out:
+    character_search_label: Quel personnage cherchez-vous?
+    character_search_text: Quel personnage voudriez-vous trouver?
+    character_to_search: Quel personnage ou titre cherchez-vous?
+    character_wiki: Wiki du personnage
+    characters: Personnages
+    check_it_out: Jetez un œil
     check_out_bible:
-    choose_a_character:
+    choose_a_character: Choisir un personnage
     choose_a_character_info:
-    choose_backdrop:
+    choose_backdrop: Choisir une toile de fond
     choose_header_images:
-    choose_reason:
-    community:
+    choose_reason: Vous devez sélectionner une raison.
+    community: COMMUNAUTÉ
     confirm_buffer_time:
-    confirmation:
-    continue:
-    contribute:
-    correct_errors_in_forms:
-    create_overview:
+    confirmation: Confirmation
+    continue: Continuer
+    contribute: Contribuer à notre base de données
+    correct_errors_in_forms: Veuillez corriger les erreurs dans le formulaire.
+    create_overview: Créer une vue d'ensemble
     create_overview_bio_help:
     create_overview_help:
     create_overview_name_help:
     create_overview_note:
-    default_language_results_text:
-    delete_backdrop:
-    delete_character:
-    delete_group:
-    delete_group_check:
-    do_you_want_continue:
-    done_editing:
-    drag_title:
-    edit_groups:
+    default_language_results_text: Les résultats sont affichés par défaut en 'en-US', car aucune correspondance n'a été trouvée pour le texte recherchée dans la langue sélectionnée!
+    delete_backdrop: Supprimer la toile de fond
+    delete_character: Supprimer le personnage
+    delete_group: Supprimer le groupe
+    delete_group_check: Voulez-vous vraiment supprimer le groupe
+    do_you_want_continue: Voulez-vous continuer?
+    done_editing: Terminé vos modifications?
+    drag_title: Faites glisser le titre pour créer un nouveau groupe
+    edit_groups: Modifier les groupes
     edit_groups_description:
-    edit_header_images:
-    edit_label:
-    edit_mode:
-    edit_translate:
-    edit_translating:
+    edit_header_images: Modifier les images d'entête
+    edit_label: modifier
+    edit_mode: Vous êtes en mode modification
+    edit_translate: Modification et traduction
+    edit_translating: Modifier et traduire
     editing_character_name_uv:
-    enter:
-    enter_character_name:
-    enter_character_synopsis:
-    enter_group_synopsis:
-    enter_text_search:
-    enter_valid_translation:
-    era:
-    error_while_submitting:
+    enter: Entrer
+    enter_character_name: Entrer le nom du personnage
+    enter_character_synopsis: Entrer le synopsis du personnage
+    enter_group_synopsis: Entrer le synopsis du groupe
+    enter_text_search: Veuillez entrer un texte à rechercher
+    enter_valid_translation: Veuillez saisir une traduction valide.
+    era: Ère
+    error_while_submitting: Erreur lors de l'envoi
     failed_draft:
-    filter_subscribed_services:
-    find_character:
-    find_character_note:
+    filter_subscribed_services: Filtrer selon vos abonnements.
+    find_character: Quel personnage ou titre voudriez-vous trouver?
+    find_character_note: Trouvez votre personnage préféré, vos titres et plus
     finished_selections:
     found_everything:
     frequent_translations:
@@ -1406,8 +1408,8 @@ fr-CA:
     group_name_required:
     groups_minimum_appearance_msg:
     groups_not_present:
-    headshot:
-    headshot_window_title:
+    headshot: Photo de profil
+    headshot_window_title: Changer la photo de profil
     help_our_mods:
     help_our_mods_info:
     icon:
@@ -1516,7 +1518,7 @@ fr-CA:
     total_budget:
     translations_language:
     try_again:
-    tv:
+    tv: TV
     tv_titles:
     unloading_message:
     unlock_existing_appearances:
@@ -1543,13 +1545,13 @@ fr-CA:
   contribute:
     contribute: Contribuer
     missing_a_biography: Sans une biographie
-    missing_a_profile_image: Sans une image de profil
+    missing_a_profile_image: Image de profil manquante
     movie_language_distribution: Distribution linguistique des films
     movies_missing_a_backdrop: Films sans une toile de fond
     movies_missing_a_overview: Films sans un synopsis
     movies_missing_a_poster: Films sans une affiche
     movies_missing_a_title: Films sans un titre
-    page_title:
+    page_title: Contribuer des données manquantes
     selected_language: Langue sélectionnée
     tv_missing_a_backdrop: Émissions sans une toile de fond
     tv_missing_a_poster: Émissions sans une affiche
@@ -1562,51 +1564,51 @@ fr-CA:
       image:
       movie:
       people:
-      tv:
+      tv: tv
     collection:
-      collection:
-      collection_bible:
+      collection: Collections
+      collection_bible: Bible des collections
       tall_bible:
-        bottom:
-        top:
-    contribution_bible:
-    featured_articles:
+        bottom: Bible
+        top: Collection
+    contribution_bible: Bible de contribution
+    featured_articles: Articles en vedette
     general:
-      general:
-      general_bible:
+      general: Général
+      general_bible: Bible du général
     image:
-      image:
-      image_bible:
+      image: Images
+      image_bible: Bible des images
     movie:
-      movie:
-      movie_bible:
+      movie: Films
+      movie_bible: Bible des films
       tall_bible:
-        bottom:
-        top:
+        bottom: Bible
+        top: Film
     new_content:
-      new_content:
-      new_content_bible:
-    note:
+      new_content: Nouveau contenu
+      new_content_bible: Bible du nouveau contenu
+    note: Note
     people:
-      people:
-      people_bible:
+      people: Personnes
+      people_bible: Bible des personnes
       tall_bible:
-        bottom:
-        top:
-    pro_tip:
+        bottom: Bible
+        top: Personnes
+    pro_tip: Conseil de pro
     search:
-      placeholder_1:
+      placeholder_1: Avec quoi avez-vous besoin d'aide?
     tv:
       tall_bible:
-        bottom:
-        top:
-      tv:
-      tv_bible:
-    welcome_1:
-    welcome_2:
+        bottom: Bible
+        top: TV
+      tv: TV
+      tv_bible: Bible TV
+    welcome_1: Bienvenue à
+    welcome_2: La Bible de contribution
   contribution_type:
-    character_appearance:
-    movie:
+    character_appearance: Apparence du personnage
+    movie: Film
     primary_character:
     tv_show:
   cookie_popup:
@@ -1662,11 +1664,11 @@ fr-CA:
     one: jour
     other: "%{count} jours"
   deleted_content:
-    entry_deleted:
+    entry_deleted: Entrée supprimée
     reasons:
       '1':
         message:
-        subject:
+        subject: C'est un doublon
       '2':
         message:
         subject:
@@ -1675,10 +1677,10 @@ fr-CA:
         subject:
       '4':
         message:
-        subject:
+        subject: C'est une fausse entrée
       '5':
         message:
-        subject:
+        subject: C'est du spam
     why_deleting:
   department_credits_count:
   departments:
@@ -1697,17 +1699,17 @@ fr-CA:
     Visual Effects: Effets visuels
     Writing: Écriture
   discover:
-    apply:
+    apply: Appliquer
     filters:
       air_dates:
         air_dates:
         search_all_episodes:
         search_first_air_date:
       availability:
-        availabilities:
+        availabilities: Disponibilités
         search_all_availabilities:
       certification:
-        certification:
+        certification: Certification
       filters:
       genres:
         genres:
@@ -1719,31 +1721,31 @@ fr-CA:
       minimum_user_votes:
       network:
         filter_by_network:
-        network:
+        network: Réseau
       none_selected:
       release_dates:
-        from:
+        from: de
         release_dates:
-        search_all_countries:
+        search_all_countries: Chercher tous les pays?
         search_release_dates:
-        to:
-      runtime:
+        to: à
+      runtime: Durée
       show_me:
-        everything:
-        movies_have_seen:
-        movies_havent_seen:
+        everything: Tout
+        movies_have_seen: Films que j'ai vus
+        movies_havent_seen: Films que je n'ai pas vus
         show_me:
         tooltip:
         tv_shows_have_seen:
         tv_shows_havent_seen:
       sort:
-        sort_results_by:
+        sort_results_by: Classer les résultats par
       user_score:
-        user_score:
+        user_score: Score de l'utilisateur
       where_to_watch:
-        country:
+        country: Pays
         my_services:
-          my_services:
+          my_services: Mes services
           restrict:
           restrict_tooltip:
         where_to_watch:
@@ -1760,30 +1762,30 @@ fr-CA:
       actions:
       close_discussion:
       make_private:
-      make_public:
+      make_public: Rendre public
       mark_not_spam:
-      mark_spam:
+      mark_spam: Marquer comme spam
       reopen_discussion:
       stop_watching:
       view_activity:
       watch:
     admin_panel:
     back_options:
-      back_to_item_with_arrow:
-      back_to_tmdb_with_arrow:
-      back_with_arrow:
+      back_to_item_with_arrow: "← Retour à %{item_title}"
+      back_to_tmdb_with_arrow: "← Retour à TMDB"
+      back_with_arrow: "← Retour"
     categories:
-      categories:
+      categories: Catégories
       discuss:
         content_issues:
-        discuss:
-        general:
-        website_support:
+        discuss: Discuter
+        general: Général
+        website_support: Assistance site web
       support:
         api_requests:
         api_requests_(professional):
         api_support:
-        content_issues:
+        content_issues: Problèmes de contenu
         general:
         general_chat:
         moderator_talk:
@@ -1801,25 +1803,25 @@ fr-CA:
       discuss:
       discuss_item:
       lets_chat:
-      support:
+      support: Assistance
       support_title:
     login_to_be_notified:
     new_discussion:
       community_guidelines:
-      discussion_category:
+      discussion_category: Catégorie
       for_item:
-      message:
-      new_discussion:
-      subject:
+      message: Message
+      new_discussion: Nouvelle discussion
+      subject: Sujet
     no_activity:
-    no_discussions:
+    no_discussions: Aucune discussion.
     pagination:
       post_summary:
       summary:
     post:
-      delete:
-      edit:
-      hide:
+      delete: Supprimer
+      edit: Modifier
+      hide: Cacher
       ignore:
       like:
       messages:
@@ -1833,26 +1835,26 @@ fr-CA:
         report_violation:
         unhide_discussion:
       posted_by_with_datetime:
-      quote:
+      quote: Citer
       reopen_reply:
-      reply:
-      reply_by:
-      reply_on_datetime:
-      report:
+      reply: Répondre
+      reply_by: Réponse par %{username}
+      reply_on_datetime: le %{date} à %{time}
+      report: Signaler
       unhide:
-    report_violation:
+    report_violation: Signaler une violation
     search:
-      advanced_search:
+      advanced_search: Recherche avancée
       search_closed:
-      search_forums:
+      search_forums: Chercher les forums...
       search_open:
     statuses:
-      closed:
-      open:
+      closed: Fermé
+      open: Ouvert
     table_headers:
-      last_reply:
-      replies:
-      status:
+      last_reply: Dernière réponse
+      replies: Réponses
+      status: Statut
       subject:
     users_in_discussion:
       no_subscribers:
@@ -1927,6 +1929,42 @@ fr-CA:
       subscription_changed:
       unsubscribe:
       unsubscribed:
+  emoji:
+    short_name:
+      1f600:
+      1f602:
+      1f60d:
+      1f610:
+      1f612:
+      1f616:
+      1f61e:
+      1f621:
+      1f622:
+      1f623:
+      1f626:
+      1f628:
+      1f629:
+      1f62c:
+      1f62d:
+      1f62e:
+      1f630:
+      1f631:
+      1f633:
+      1f635-1f4ab:
+      1f641:
+      1f914:
+      1f922:
+      1f923:
+      1f928:
+      1f92c:
+      1f92d:
+      1f92e:
+      1f92f:
+      1f971:
+      1f972:
+      1fae2:
+      1fae3:
+      1fae4:
   episode_count:
     one: "%{count} épisode"
     other: "%{count} épisodes"
@@ -1947,30 +1985,30 @@ fr-CA:
       description:
         logged_in:
         public:
-      title:
+      title: Cette page est privée
     suspended:
       explanation_1:
-      go_to_inbox:
-      title:
+      go_to_inbox: Aller à la boite de réception
+      title: Cet utilisateur a été suspendu
       your_account:
         explanation_1:
-        title:
+        title: Votre compte a été suspendu
     suspended_user_post:
       description:
       title:
   errors:
     attributes:
       iso_3166_1:
-        invalid:
+        invalid: n'est pas un pays valide
       iso_639_1:
-        invalid:
+        invalid: n'est pas une langue valide
       release_date:
-        invalid:
+        invalid: n'est pas une date valide
     images:
       couldnt_process:
-      not_jpeg:
-      not_png:
-      not_svg:
+      not_jpeg: Cette image n'est pas un JPEG
+      not_png: Cette image n'est pas un PNG
+      not_svg: Cette image n'est pas un SVG
     locked:
       genres:
       keywords:
@@ -1994,10 +2032,10 @@ fr-CA:
       create_season_locked:
       duplicate_created_by:
       duplicate_crew_member:
-      duplicate_episode:
+      duplicate_episode: Cet épisode existe déjà.
       duplicate_guest_star:
       duplicate_regular_season_member:
-      duplicate_season:
+      duplicate_season: Cette saison existe déjà.
       duplicate_season_episode_cast_member:
       duplicate_season_episode_crew_member:
       missing_credit:
@@ -2018,10 +2056,10 @@ fr-CA:
       message: 'Le code de réinitialisation est invalide. '
     invalid_session:
       message:
-      title:
+      title: Session invalide
     logged_out:
       message:
-      title:
+      title: Déconnecté!
     password_reset:
       message:
       title:
@@ -2034,7 +2072,7 @@ fr-CA:
     upstream_problem:
       message:
       title:
-  headshots_must_meet:
+  headshots_must_meet: 'Les photos de profil doivent rencontrer le critère suivant:'
   homepage:
     community:
       benefits_list:
@@ -2046,23 +2084,23 @@ fr-CA:
         '6':
     discussions:
       catch_up_now:
-      discussions:
+      discussions: Discussions
     header:
       quick_snippet_1:
-      welcome_1:
+      welcome_1: Bienvenue.
     panels:
       community:
-        join_today:
+        join_today: Joindre aujourd'hui
         sign_up:
       filters:
-        for_rent:
-        in_theaters:
+        for_rent: À louer
+        in_theaters: Au cinéma
         movies:
         on_tv:
         popular:
         streaming:
         this_week:
-        today:
+        today: Aujourd'hui
         tv:
       free_to_watch:
       latest_trailers:
@@ -2095,9 +2133,9 @@ fr-CA:
       '9':
       backdrops_must_meet:
       episode_stills_must_meet:
-      headshots_must_meet:
+      headshots_must_meet: 'Les photos de profil doivent rencontrer le critère suivant:'
       posters_must_meet:
-      profile_must_meet:
+      profile_must_meet: 'Les images de profil doivent rencontrer les critères suivants:'
       read_guidelines:
       tip:
     uploader:
@@ -2110,9 +2148,9 @@ fr-CA:
       tip:
       type_backdrops:
       type_episode_stills:
-      type_headshots:
-      type_posters:
-      type_profiles:
+      type_headshots: Photos de profil
+      type_posters: Affiches
+      type_profiles: Profils
       validation_header:
   invalid_aspect_ratio: 'Ce ratio d''image est invalide. '
   item_count:
@@ -2123,14 +2161,14 @@ fr-CA:
     '"C" Camera Operator':
     '"D" Camera Operator':
     24 Frame Playback:
-    2D Artist:
+    2D Artist: Artiste 2D
     2D Sequence Supervisor:
-    2D Supervisor:
-    3D Animator:
-    3D Artist:
-    3D Coordinator:
+    2D Supervisor: Superviseur 2D
+    3D Animator: Animateur 3D
+    3D Artist: Artiste 3D
+    3D Coordinator: Coordonnateur 3D
     3D Digital Colorist:
-    3D Director:
+    3D Director: Réalisateur 3D
     3D Editor:
     3D Generalist:
     3D Modeller:
@@ -3062,7 +3100,7 @@ fr-CA:
       next_season:
       open_activity:
       open_add_image_window:
-      open_profile:
+      open_profile: ouvrir le menu profil
       open_shortcut_window:
       open_translation_selector:
       previous_episode:
@@ -3087,18 +3125,218 @@ fr-CA:
     login_to_change_preferences:
     view_keyboard_shorcuts:
     view_shortcuts:
+  keywords:
+    tone:
+      absurd:
+      admiring:
+      adoring:
+      affectation:
+      aggressive:
+      ambiguous:
+      ambivalent:
+      amused:
+      angry:
+      antagonistic:
+      anxious:
+      apathetic:
+      apologetic:
+      appreciative:
+      approving:
+      arrogant:
+      assertive:
+      audacious:
+      authoritarian:
+      awestruck:
+      baffled:
+      bewildered:
+      biting:
+      bitter:
+      blunt:
+      bold:
+      brisk:
+      burlesque:
+      callous:
+      calm:
+      candid:
+      casual:
+      cautionary:
+      celebratory:
+      cheerful:
+      cliché:
+      clinical:
+      comforting:
+      commanding:
+      compassionate:
+      complex:
+      complicated:
+      conceited:
+      condescending:
+      critical:
+      cruel:
+      curious:
+      cynical:
+      defiant:
+      demeaning:
+      depressed:
+      depressing:
+      derisive:
+      derogatory:
+      desperate:
+      detached:
+      didactic:
+      dignified:
+      direct:
+      disapproving:
+      disdainful:
+      disgusted:
+      disheartening:
+      disrespectful:
+      distressing:
+      disturbed:
+      domineering:
+      doubtful:
+      dramatic:
+      dreary:
+      dubious:
+      earnest:
+      egotistical:
+      embarrassed:
+      empathetic:
+      enchant:
+      enraged:
+      enthusiastic:
+      euphoric:
+      excited:
+      exhilarated:
+      exuberant:
+      factual:
+      familiar:
+      farcical:
+      forceful:
+      foreboding:
+      frantic:
+      frightened:
+      frustrated:
+      furious:
+      gentle:
+      ghoulish:
+      gloomy:
+      grand:
+      grave:
+      grim:
+      hard:
+      harsh:
+      hilarious:
+      hopeful:
+      hopeless:
+      horrified:
+      hostile:
+      humorous:
+      impartial:
+      incredulous:
+      indifferent:
+      inflammatory:
+      informative:
+      insecure:
+      inspirational:
+      instructive:
+      intense:
+      intimate:
+      introspective:
+      ironic:
+      irreverent:
+      joyful:
+      joyous:
+      lighthearted:
+      loving:
+      lyrical:
+      macabre:
+      malicious:
+      matter of fact:
+      mean spirited:
+      meditative:
+      melancholy:
+      melodramatic:
+      mischievous:
+      mocking:
+      modest:
+      mourning:
+      mysterious:
+      negative:
+      nervous:
+      nostalgic:
+      objective:
+      ominous:
+      optimistic:
+      paranoid:
+      pathetic:
+      pessimistic:
+      philosophical:
+      playful:
+      powerful:
+      pretentious:
+      provocative:
+      psychotic:
+      questioning:
+      reflective:
+      relaxed:
+      reminiscent:
+      ridiculous:
+      romantic:
+      sarcastic:
+      sardonic:
+      satirical:
+      scathing:
+      sceptical:
+      sentimental:
+      serene:
+      serious:
+      shocking:
+      sincere:
+      sinister:
+      skeptical:
+      somber:
+      speculative:
+      stern:
+      straightforward:
+      subjective:
+      submissive:
+      suspenseful:
+      suspicious:
+      sympathetic:
+      taunting:
+      tense:
+      thoughtful:
+      tragic:
+      unassuming:
+      understated:
+      urgent:
+      vexed:
+      vibrant:
+      vindictive:
+      whimsical:
+      wistful:
+      witty:
+      wonder:
+      wry:
+      zealous:
   list_info:
     average_rating: Cote moyenne
+    collaborate:
+    hide_comments:
     image_selected: Image choisie
     items_on_list:
       many:
       one: item sur cette liste
       other: items sur cette liste
+    list_options:
     private:
     public:
     select_this_image: Choisir cette image
     total_revenue: Revenu total
     total_runtime: Durée totale
+    use_grid_view:
+    use_list_view:
   list_messages:
     comment_updated: Commentaire mis à jour !
     image_saved: Image sauvegardée !
@@ -3149,39 +3387,39 @@ fr-CA:
       helper_tooltip:
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
+          air_date: Date de diffusion
+          backdrop: Fond d'écran
+          biography: Biographie
           cast_min_4:
           created_by:
           credits:
           crew_min_2:
-          director:
-          episode:
-          genres:
+          director: Réalisateur / Réalisatrice
+          episode: Épisode (1 ou plus)
+          genres: Genres
           guest_stars_min_2:
-          name:
-          overview:
+          name: Nom traduit
+          overview: Synopsis
           parts:
-          poster:
-          profile:
+          poster: Affiche
+          profile: Image de profil
           regular_cast_min_4:
-          release_date:
-          title:
-          video:
-          writer:
+          release_date: Date de sortie
+          title: Titre traduit
+          video: Vidéo
+          writer: Auteur
         summary:
       scale:
-        '0':
-        '1':
+        '0': On doit bien commencer quelque part...
+        '1': Hey, c'est un début.
         '10':
-        '2':
-        '3':
+        '2': On va y arriver.
+        '3': Rome ne s'est pas construite en un jour...
         '4':
         '5':
-        '6':
-        '7':
-        '8':
+        '6': Si proche, mais si loin en même temps.
+        '7': Encore un peu plus...
+        '8': Allez! On y est presque.
         '9':
     edit:
       alternative_title:
@@ -3248,10 +3486,10 @@ fr-CA:
       format:
       no_backdrop_stills:
       no_backdrops:
-      no_headshots:
+      no_headshots: Il n'y a pas de photo de profil pour cette entrée.
       no_logos:
       no_posters:
-      no_profiles:
+      no_profiles: Il n'y a pas de profil pour cette entrée
       primary:
       types:
         backdrop_stills:
@@ -3350,7 +3588,7 @@ fr-CA:
       characters:
       episodes:
       fandom:
-      headshots:
+      headshots: Photos de profil
       logos:
       main:
       media:
@@ -3652,20 +3890,20 @@ fr-CA:
         strip_insignificant_zeros: false
         unit: "$"
     format:
-      delimiter:
+      delimiter: '" "'
       precision:
       separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format:
+        format: "%n %u"
         units:
-          billion: Billion
-          million: Million
-          quadrillion: Quadrillion
-          thousand: Millier
-          trillion: Trillion
+          billion: milliard
+          million: million
+          quadrillion: quadrillion
+          thousand: millier
+          trillion: billion
       format:
         precision:
         significant: false
@@ -3681,7 +3919,7 @@ fr-CA:
     percentage:
       format:
         delimiter:
-        format:
+        format: "%n %"
     precision:
       format:
         delimiter:
@@ -3764,7 +4002,7 @@ fr-CA:
     reset_email_sent: Courriel envoyé! Vous devriez bientôt recevoir les instructions de réinitialisation pour votre mot de passe.
   person:
     credits:
-      as_character:
+      as_character: dans le rôle de %{character}
       as_job: "— %{job}"
   placeholder:
     primary_character_name:
@@ -3889,7 +4127,7 @@ fr-CA:
       blocked_users:
       connected_apps:
       delete_account:
-      edit_profile:
+      edit_profile: Modifier le profil
       import_list:
       notification_settings:
       sessions:
@@ -3906,10 +4144,10 @@ fr-CA:
       notifications:
       page_title:
     profile:
-      accent_color:
+      accent_color: Couleur d'accent
       avatar:
         current_avatar: Votre avatar
-        explain:
+        explain: Présentement, la seule option que nous avons d'afficher un avatar personnalisé est en utilisant un service appelé <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si vous voulez afficher un avatar personnalisé sur TMDB, vous devez vous inscrire sur Gravatar et vous assurer d'utiliser la même adresse courriel que vous avez utilisé ici (c'est comme ça que nous pouvons lier votre compte). Une fois que c'est fait, cliquez sur le bouton d'actualisation ci-dessous et nous tenterons de le mettre à jour.
         explain_gravatar: 'Si vous préférez utiliser <a href="https://www.fr.gravatar.com/" target="_blank">Gravatar</a> comme source pour votre avatar, vous devez utilisez la même adresse courriel ici et sur Gravatar. Une fois que c''est confirmé (et que vous avez ajouté un avatar sur Gravatar!), veuillez cliquer sur le bouton d''actualisation et nous tenterons de le mettre à jour. '
         not_found: 'Nous n''avons pas trouvé d''avatar. '
         not_found_add: Nous n'avons pas trouvé d'avatar. Voulez-vous en <a href="#">ajouter un</a>?
@@ -4043,11 +4281,52 @@ fr-CA:
     one: traduction
     other: traductions
   upload_backdrop: Uploader une toile de fond
-  upload_headshot:
+  upload_headshot: Téléverser une photo de profil
   upload_poster: Uploader une affiche
   upload_profile: Uploader une image de profil
   upload_title_logo:
   used_by_developers:
+  vibes:
+    done:
+    login:
+    mood:
+      label:
+      moods:
+        afraid:
+        angry:
+        disgusted:
+        happy:
+        interested:
+        sad:
+        surprised:
+      prompt:
+    rating:
+      clear:
+      label:
+      prompt:
+      tooltip:
+        '0':
+        '10':
+        '100':
+        '20':
+        '30':
+        '40':
+        '50':
+        '60':
+        '70':
+        '80':
+        '90':
+    tone:
+      label:
+      no_results:
+      prompt:
+        movie:
+        tv:
+      select:
+    welcome:
+    whats_new:
+    whats_your_vibe:
+    your_vibes:
   videos:
     filters:
       language:
@@ -4082,6 +4361,6 @@ fr-CA:
     youtube_channel:
   view all: tout voir
   will_paginate:
-    next_label:
-    page_gap:
-    previous_label:
+    next_label: Suivant →
+    page_gap: "…"
+    previous_label: "← Précédent"
