@@ -42,6 +42,16 @@ module TMDb
         uz ve vi vo wa wo xh xx yi yo za zh zu
       ].freeze
 
+      # This list contains ISO-369-1 codes whose text direction is right to left.
+      # The list is incomplete and only includes RTL translations that TMDB currently supports.
+      # This list should be updated to include new RTL translations that TMDB supports.
+      # https://localizely.com/iso-639-1-list/
+      RTL_LANGUAGE_CODES = [
+        "ar",
+        "fa",
+        "he"
+      ].freeze
+
       def self.country_path
         File.dirname(__FILE__) + "/../../../../countries"
       end
@@ -117,6 +127,10 @@ module TMDb
         rescue
           ['en-US', 'en', 'US']
         end
+      end
+
+      def self.supported_rtl?(language)
+        RTL_LANGUAGE_CODES.include?(language)
       end
 
       def self.supported_iso_639_1
