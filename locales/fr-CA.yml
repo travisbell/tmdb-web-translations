@@ -300,8 +300,6 @@ fr-CA:
   Offline Databases: Bases de données hors ligne
   Origin Country: Pays d'origine
   Original Air Date: Date de diffusion d'origine
-  Original Ascending: Ordre original ascendant
-  Original Descending: Ordre original descendant
   Original Language: Langue d'origine
   Original Movie Language: Langue d'origine du film
   Original Name: Nom d'origine
@@ -327,8 +325,6 @@ fr-CA:
   Popular Movies: Films populaires
   Popular TV Shows: Émissions de télévision populaires
   Popularity: Popularité
-  Popularity Ascending: Popularité ascendante
-  Popularity Descending: Popularité descendante
   Popularity Rank: Rang de popularité
   Popularity Trend: Tendance de popularité
   Poster Card View: Affiches
@@ -338,8 +334,6 @@ fr-CA:
   Preview: Aperçu
   Primary Color: Couleur principale
   Primary Facts: Informations principales
-  Primary Release Date Ascending:
-  Primary Release Date Descending:
   Primary?: Principal?
   Privacy Policy: Politique de confidentialité
   Production Code: Code de production
@@ -355,16 +349,12 @@ fr-CA:
   Rated Movies: Films cotés
   Rated TV Shows: Émissions de télévision cotées
   Rating: Cote
-  Rating Ascending: Cotes ascendantes
-  Rating Descending: Cotes descendantes
   Read More: Lire la suite
   Recent Blog Posts: Dernières entrées du blogue
   Recent News: Nouvelles récentes
   Recommendations: Recommandations
   Regions: Régions
   Regular Cast: Distribution principale
-  Release Date Ascending: Date ascendante
-  Release Date Descending: Date descendante
   Release Dates & Certifications: Dates de sortie & Classements
   Release Information: Informations de sorties
   Release Note: Note
@@ -458,8 +448,6 @@ fr-CA:
   Theatrical (limited): Cinéma (limitée)
   Timezone: Fuseau horaire
   Title: Titre
-  Title (A-Z): Titre (A-Z)
-  Title (Z-A): Titre (Z-A)
   Today: Aujourd'hui
   Top Billed Cast: Têtes d'affiche
   Top Rated Movies: Films les mieux cotés
@@ -1649,11 +1637,11 @@ fr-CA:
     - vendredi
     - samedi
     formats:
-      abbrev: "%-d %b %Y"
+      abbrev: "%e %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%e %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: "%b %d %Y"
+      short_month_day_year: "%e %b %Y"
     month_names: '[nil, "janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]'
   day: jour
   days:
@@ -1751,6 +1739,23 @@ fr-CA:
         years: Années
     no_items:
     search: Rechercher
+    sort_options:
+      first_air_date_asc:
+      first_air_date_desc:
+      name_a_z:
+      name_z_a:
+      original_order_asc: Ordre original ascendant
+      original_order_desc: Ordre original descendant
+      popularity_asc: Popularité ascendante
+      popularity_desc: Popularité descendante
+      primary_release_date_asc:
+      primary_release_date_desc:
+      rating_asc: Cotes ascendantes
+      rating_desc: Cotes descendantes
+      release_date_asc: Date ascendante
+      release_date_desc: Date descendante
+      title_a_z: Titre (A-Z)
+      title_z_a: Titre (Z-A)
     tooltips:
       not_member: Pas encore membre?
       signup:
@@ -2670,7 +2675,7 @@ fr-CA:
     Logistics Coordinator:
     Loop Group Coordinator:
     Lyricist:
-    Machinist:
+    Machinist: Machiniste
     Main Title Designer:
     Main Title Theme Composer:
     Makeup & Hair:

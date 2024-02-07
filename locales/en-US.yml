@@ -298,8 +298,6 @@ en-US:
   Offline Databases: Offline Databases
   Origin Country: Origin Country
   Original Air Date: Original Air Date
-  Original Ascending: Original Ascending
-  Original Descending: Original Descending
   Original Language: Original Language
   Original Movie Language: Original Movie Language
   Original Name: Original Name
@@ -325,8 +323,6 @@ en-US:
   Popular Movies: Popular Movies
   Popular TV Shows: Popular TV Shows
   Popularity: Popularity
-  Popularity Ascending: Popularity Ascending
-  Popularity Descending: Popularity Descending
   Popularity Rank: Popularity Rank
   Popularity Trend: Popularity Trend
   Poster Card View: Poster Card View
@@ -336,8 +332,6 @@ en-US:
   Preview: Preview
   Primary Color: Primary Color
   Primary Facts: Primary Facts
-  Primary Release Date Ascending: Primary Release Date Ascending
-  Primary Release Date Descending: Primary Release Date Descending
   Primary?: Primary?
   Privacy Policy: Privacy Policy
   Production Code: Production Code
@@ -353,16 +347,12 @@ en-US:
   Rated Movies: Rated Movies
   Rated TV Shows: Rated TV Shows
   Rating: Rating
-  Rating Ascending: Rating Ascending
-  Rating Descending: Rating Descending
   Read More: Read More
   Recent Blog Posts: Recent Blog Posts
   Recent News: Recent News
   Recommendations: Recommendations
   Regions: Regions
   Regular Cast: Regular Cast
-  Release Date Ascending: Release Date Ascending
-  Release Date Descending: Release Date Descending
   Release Dates & Certifications: Release Dates & Certifications
   Release Information: Release Information
   Release Note: Note
@@ -456,8 +446,6 @@ en-US:
   Theatrical (limited): Theatrical (limited)
   Timezone: Timezone
   Title: Title
-  Title (A-Z): Title (A-Z)
-  Title (Z-A): Title (Z-A)
   Today: Today
   Top Billed Cast: Top Billed Cast
   Top Rated Movies: Top Rated Movies
@@ -1786,6 +1774,23 @@ en-US:
         years: Years
     no_items: No items were found that match your query.
     search: Search
+    sort_options:
+      first_air_date_asc: First Air Date Ascending
+      first_air_date_desc: First Air Date Descending
+      name_a_z: Name (A-Z)
+      name_z_a: Name (Z-A)
+      original_order_asc: Original Ascending
+      original_order_desc: Original Descending
+      popularity_asc: Popularity Ascending
+      popularity_desc: Popularity Descending
+      primary_release_date_asc: Primary Release Date Ascending
+      primary_release_date_desc: Primary Release Date Descending
+      rating_asc: Rating Ascending
+      rating_desc: Rating Descending
+      release_date_asc: Release Date Ascending
+      release_date_desc: Release Date Descending
+      title_a_z: Title (A-Z)
+      title_z_a: Title (Z-A)
     tooltips:
       not_member: Not a member?
       signup: Sign up and join the community
@@ -3376,12 +3381,12 @@ en-US:
     collaborate: Collaborate
     hide_comments: Hide Comments
     image_selected: Selected
-    items_not_seen: Items I Haven't Seen
+    items_not_seen: Unseen Items
     items_on_list:
       many: items on this list
       one: item on this list
       other: items on this list
-    items_seen: Items I Have Seen
+    items_seen: Seen Items
     list_by: A list by
     list_options: List Options
     login_to_create_list: Login To Create Your Own List!
