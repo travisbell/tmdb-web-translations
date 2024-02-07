@@ -217,7 +217,7 @@ es-ES:
   Hi: Hola
   Hide favorites?: "¿Ocultar favoritos?"
   Hide items on watchlist?: "¿Ocultar elementos en la lista de seguimiento?"
-  Hide rated?: "¿Ocultar las votadas?"
+  Hide rated?: "¿Ocultar las puntuadas?"
   Home: Inicio
   Homepage: Página oficial
   IMDB ID: ID de IMDb
@@ -259,8 +259,8 @@ es-ES:
   Login to add this movie to your favorite list: Iniciar sesión para añadir esta película a tu lista de favoritas
   Login to add this movie to your watchlist: Iniciar sesión para añadir películas tu lista de seguimiento
   Login to create and edit custom lists: Iniciar sesión para crear y editar listas personalizadas.
-  Login to rate this TV show: Inicia sesión para calificar esta serie
-  Login to rate this movie: Iniciar sesión para valorar esta película
+  Login to rate this TV show: Inicia sesión para puntuar esta serie
+  Login to rate this movie: Iniciar sesión para puntuar esta película
   Login to report an issue: Iniciar sesión para informar de un problema
   Logo: Logo
   Logos & Attribution: Logos y atribución
@@ -350,10 +350,10 @@ es-ES:
   Public Report?: "¿Informe público?"
   Quality: Calidad
   Rank: Rango
-  Rate It!: "¡Valórala!"
-  Rated: Valorado
-  Rated Movies: Películas valoradas
-  Rated TV Shows: Series valoradas
+  Rate It!: "¡Puntúala!"
+  Rated: Puntuada
+  Rated Movies: 'Películas puntuada '
+  Rated TV Shows: 'Series puntuadas '
   Rating: Valoración
   Rating Ascending: Valoración ascendente
   Rating Descending: Valoración descendente
@@ -391,8 +391,8 @@ es-ES:
   Search for a keyword: Buscar por palabra clave
   Search for a language: Buscar por idioma...
   Search for a movie: Buscar una película
-  Search for a movie or TV show: Buscar una película o programa de televisión
-  Search for a movie, TV show, person: Buscar una película, programa de televisión, persona...
+  Search for a movie or TV show: Buscar una película o serie
+  Search for a movie, TV show, person: Buscar una película, serie, persona...
   Season: Temporada
   Season Number: Número de temporada
   Season Overview: Vista general de la temporada
@@ -440,14 +440,14 @@ es-ES:
   System Status: Estado del sistema
   TV: TV
   TV Network: Cadena de televisión
-  TV Recommendations: Recomendación de programas de televisión
-  TV Show Data: Datos del programa de televisión
-  TV Show Results: Resultados del programa de televisión
-  TV Show Status: Estado del programa de televisión
-  TV Show Type: Tipo de programa de televisión
-  TV Show Watchlist: Lista de seguimiento de programas de televisión
-  TV Shows: Programas de televisión
-  TV Shows Airing Today: Programas de televisión que se emiten hoy
+  TV Recommendations: Recomendación de series
+  TV Show Data: Datos de la serie
+  TV Show Results: Resultados de la serie
+  TV Show Status: Estado de la serie
+  TV Show Type: Tipo de serie
+  TV Show Watchlist: Lista de seguimiento de series
+  TV Shows: Series
+  TV Shows Airing Today: Series que se emiten hoy
   Tagged People: Gente etiquetada
   Tagline: Etiquetas
   Talk: Debate
@@ -462,8 +462,8 @@ es-ES:
   Title (Z-A): Título (Z-A)
   Today: Hoy
   Top Billed Cast: Reparto principal
-  Top Rated Movies: Películas mejor valoradas
-  Top Rated TV Shows: Programas de televisión mejor valorados
+  Top Rated Movies: Películas mejor puntuadas
+  Top Rated TV Shows: Series mejor puntuadas
   Top Users: Usuarios destacados
   Translate Collection: Traducir colección
   Translate Movie: Traducir película
@@ -605,7 +605,7 @@ es-ES:
       air_date: Fecha de emisión
       alphabetical: Alfabético
       date_added: Fecha de añadido
-      date_rated: Fecha de clasificación
+      date_rated: 'Fecha de puntuación '
       first_air_date: Primera fecha de emisión
       most_popular: Más popular
       my_rating: Mi clasificación
@@ -677,7 +677,7 @@ es-ES:
       my_recommendations: Mis recomendaciones
       no_recommendations: No tenemos suficientes datos para recomendarte nada.
       no_recommendations_helper: Prueba a añadir más favoritas (cuántas más mejor) y vuelve para ver cómo lo hicimos.
-      no_recommendations_helper_2: Intenta calificar más películas y programas de televisión (cuanto más, mejor) y luego danos unas horas para ver qué podemos hacer. Estas recomendaciones se actualizarán a medida que veas y califiques más contenido.
+      no_recommendations_helper_2: Intenta puntuar más películas y series (cuanto más, mejor) y luego danos unas horas para ver qué podemos hacer. Estas recomendaciones se actualizarán a medida que veas y califiques más contenido.
       page_title: Recomendaciones
     sort_options:
       asc: Ascendente
@@ -694,8 +694,8 @@ es-ES:
         one: No hay próximas películas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en tu lista de seguimiento.
         other: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       no_upcoming_tv_shows:
-        one: No hay próximos programas de televisión en tu lista de seguimiento. Sin embargo, hay %{count} elementos en tu lista de seguimiento.
-        other: No hay próximos programas de televisión en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        one: No hay próximas series en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
+        other: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: Mi lista de seguimiento
         public: Lista de seguimiento de %{username}
@@ -1012,7 +1012,7 @@ es-ES:
         '5':
           meaning: Restringido-18. Solo los espectadores mayores de 18 años pueden ser admitidos.
         '6':
-          meaning: No para la exposición pública. Las películas X-rated no son adecuadas para la exhibición pública.
+          meaning: No para la exposición pública. Las películas X no son adecuadas para la exhibición pública.
       PT:
         '1':
           meaning: Para todos los públicos (especialmente diseñada para los niños menores de 3).
@@ -1434,7 +1434,7 @@ es-ES:
       character: Personaje
       movie_character_name: Nombres de los Personales de Películas
       tv_character_name: Nombre de los Personajes de TV
-      tv_show: Programas de televisión
+      tv_show: Series
     movie_titles: Títulos de Películas
     name: Nombre
     navigate_to_dashboard: Ir a Mi Panel
@@ -1515,7 +1515,7 @@ es-ES:
     switch_mode_translate: Cambiar al modo %{available_language} para traducir.
     switch_to_edit_mode: Cambiar al modo de edición
     switch_translate_mode: Cambiar al modo de traducción
-    text_for_character_card: Ahora admitimos personajes, lo que permite a la comunidad realizar un seguimiento de las apariciones en franquicias y a través de los programas de televisión y las películas.
+    text_for_character_card: Ahora admitimos personajes, lo que permite a la comunidad realizar un seguimiento de las apariciones en franquicias y a través de las series y las películas.
     title_drag_info: Cualquier título que quieras añadir se puede arrastrar a la barra lateral de la izquierda.
     total_Results: Resultados totales
     total_appearance: Aparición total
@@ -1533,7 +1533,7 @@ es-ES:
     user_added_backdrop_info: Estas son las fotos de fondo que añadiste del personaje. Selecciona las fotos con las que continuar.
     user_added_backdrop_label: Fotos de fondo añadidas por el usuario
     user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
-    user_variant_intro: Encuentra tu personaje favorito de películas, programas de televisión y más...
+    user_variant_intro: Encuentra tu personaje favorito de películas, series y más...
     validation_charactername: Se necesita el nombre del personaje principal
     validation_group_synopsis: Introduce una sinopsis de grupo válida
     validation_grpname: Introduce un nombre de grupo válido
@@ -1557,11 +1557,11 @@ es-ES:
     movies_missing_a_title: Películas sin título
     page_title: Aportar datos faltantes
     selected_language: Idioma seleccionado
-    tv_missing_a_backdrop: Programas sin imágenes de fondo
+    tv_missing_a_backdrop: Series sin imágenes de fondo
     tv_missing_a_poster: Series sin cartel
     tv_show_language_distribution: Idioma de distribución del programa de televisión
-    tv_shows_missing_a_name: Programas de televisión sin título
-    tv_shows_missing_a_overview: Programas de televisión sin sinopsis
+    tv_shows_missing_a_name: Series sin título
+    tv_shows_missing_a_overview: Series sin sinopsis
   contribution_bible:
     abbreviations:
       collection: col
@@ -1774,8 +1774,8 @@ es-ES:
         movies_havent_seen: Películas que no he visto
         show_me: Muéstrame
         tooltip: Entra para filtrar elementos que has visto
-        tv_shows_have_seen: Programas de televisión que he visto
-        tv_shows_havent_seen: Programas de televisión que no he visto
+        tv_shows_have_seen: Series que he visto
+        tv_shows_havent_seen: Series que no he visto
       sort:
         sort_results_by: Ordenar resultados por
       user_score:
@@ -1794,7 +1794,7 @@ es-ES:
     tooltips:
       not_member: "¿No eres miembro?"
       signup: Regístrate y únete a la comunidad
-      want_to_rate: "¿Quieres valorar o añadir este elemento a una lista?"
+      want_to_rate: "¿Quieres puntuar o añadir este elemento a una lista?"
   discussions:
     actions:
       actions: Acciones
@@ -1973,10 +1973,10 @@ es-ES:
       unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
   emoji:
     short_name:
-      1f600:
-      1f602:
-      1f60d:
-      1f610:
+      1f600: Carita sonriente
+      1f602: Carita con lágrimas de alegría
+      1f60d: Carita sonriente con ojos de corazón
+      1f610: Carita neutral
       1f612:
       1f616:
       1f61e:
@@ -2130,7 +2130,7 @@ es-ES:
         '1': Disfruta de TMDB sin anuncios
         '2': Mantén una lista de seguimiento personal
         '3': Filtra por tus suscripciones a servicios de retransmisión y encuentra algo que ver
-        '4': Registra las películas y programas de televisión que has visto
+        '4': Registra las películas y series que has visto
         '5': Crea listas personalizadas
         '6': Aporta y mejora nuestra base de datos
     discussions:
@@ -3236,7 +3236,7 @@ es-ES:
       depressing:
       derisive:
       derogatory:
-      desperate:
+      desperate: desesperado
       detached:
       didactic:
       dignified:
@@ -3262,7 +3262,7 @@ es-ES:
       enthusiastic:
       euphoric:
       excited:
-      exhilarated:
+      exhilarated: eufórico
       exuberant:
       factual:
       familiar:
@@ -3271,7 +3271,7 @@ es-ES:
       foreboding:
       frantic:
       frightened:
-      frustrated:
+      frustrated: frustrado
       furious:
       gentle:
       ghoulish:
@@ -3377,26 +3377,26 @@ es-ES:
       zealous:
   list_info:
     average_rating: Valoración media
-    collaborate:
+    collaborate: Colaborar
     hide_comments:
     image_selected: Seleccionada
-    items_not_seen:
+    items_not_seen: Elementos que no he visto
     items_on_list:
       many: elementos en esta lista
       one: elemento en esta lista
       other: elementos en esta lista
-    items_seen:
-    list_by:
-    list_options:
-    login_to_create_list:
+    items_seen: Elementos que he visto
+    list_by: Una lista de
+    list_options: Opciones de lista
+    login_to_create_list: "¡Inicia sesión para crear tu propia lista!"
     no_items:
     private: Privado
     public: Público
     select_this_image: Seleccionar esta imagen
-    show_comments:
+    show_comments: Mostrar comentarios
     total_revenue: Ingresos totales
     total_runtime: Duración total
-    use_grid_view:
+    use_grid_view: Usar vista de cuadrícula
     use_list_view:
   list_messages:
     comment_updated: "¡Comentario actualizado!"
@@ -3445,7 +3445,7 @@ es-ES:
     company:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
-      tv_page_title: Programas de televisión en %{name}
+      tv_page_title: Series en %{name}
     content_score:
       helper_tooltip: La puntuación del contenido es una forma de ayudarte a comprender cómo de completos están los datos de un objeto en la base de datos.
       missing_data:
@@ -3544,7 +3544,7 @@ es-ES:
       visit_youtube: Visita YouTube
     genre:
       movie_page_title: Películas %{name}
-      tv_page_title: Programas de televisión %{name}
+      tv_page_title: Series %{name}
     images:
       format: Formato
       no_backdrop_stills: No se han añadido imágenes de fondo a esta entrada.
@@ -3558,7 +3558,7 @@ es-ES:
         backdrop_stills: Imagen de fondo
     keyword:
       movie_page_title: Películas %{name}
-      tv_page_title: Programas de televisión %{name}
+      tv_page_title: Series %{name}
     movie:
       edit:
         adult:
@@ -3617,21 +3617,21 @@ es-ES:
         upload_logo: Subir un logo
       logos: Logos
       name: Nombre
-      other_shows_on: Ver mas programas de televisión de %{name}
+      other_shows_on: Ver más series de %{name}
       search:
         no_results: No hay cadenas que coincidan con la consulta.
         results: Resultados de la cadena
-      tv_page_title: Programas de televisión en %{name}
+      tv_page_title: Series en %{name}
       upload_logo: Subir un logo
     no_results_found:
       movie: No se han encontrado películas.
-      tv: No se han encontrado programas de televisión.
+      tv: No se han encontrado series.
     number_of_movies:
       one: película
       other: películas
     number_of_shows:
-      one: programa
-      other: programas
+      one: serie
+      other: series
     person:
       edit:
         alternative_names:
@@ -3644,12 +3644,12 @@ es-ES:
         all: Todo
         movies: Películas
         tv: Televisión
-        tv_shows: Programas de televisión
+        tv_shows: Series
       years_old:
         one: "%{count} año"
         other: "%{count} años"
     rating:
-      rated_with_rating: Valorado %{value}
+      rated_with_rating: Puntuada %{value}
       rating_count:
         one: "%{count} valoración"
         other: "%{count} valoraciones"
@@ -3894,13 +3894,13 @@ es-ES:
     discover:
       discover: Descubre
       movies: Películas
-      tv_shows: Programas de televisión
+      tv_shows: 'Series '
     more:
       more: Más
     movies:
       now_playing: En cartelera hoy
       popular: Popular
-      top_rated: Mejor valoradas
+      top_rated: 'Mejor puntuadas '
       upcoming: Próximamente
     people:
       people: Gente
@@ -3938,16 +3938,16 @@ es-ES:
   no_person_search_results: No hay personas que coincidan con tu búsqueda.
   no_personal_recommendations:
     movie: Para obtener recomendaciones personales de películas, comienza añadiendo todas tus películas favoritas. En este punto, probablemente notes que muchas de las películas que recomendamos son las que ya has visto. Para filtrarlas, ¡valóralas! Una vez valoradas, las filtraremos automáticamente.
-    tv: Para obtener recomendaciones personales de programas de televisión, comienza añadiendo todos tus programas de televisión favoritos. En este punto, probablemente notes que muchos de los programas de televisión que recomendamos son los que ya has visto. Para filtrarlos, ¡valóralos! Una vez valorados, los filtraremos automáticamente.
+    tv: Para obtener recomendaciones personales de series, comienza añadiendo todas series favoritas. En este punto, probablemente notes que muchas de las series que recomendamos son las que ya has visto. Para filtrarlas, ¡puntúalas! Una vez puntuadas, las filtraremos automáticamente.
   no_rated_movies:
-    current_user: No has valorado ninguna película.
-    public: "%{username} no ha valorado ninguna película."
+    current_user: No has puntuado ninguna película.
+    public: "%{username} no ha puntuado ninguna película."
   no_rated_tv_shows:
     current_user: No has valorado ningún programa de televisión.
-    public: "%{username} no ha valorado ningún programa de televisión."
+    public: "%{username} no ha puntuado ninguna serie."
   no_recommendations:
     movie: No tenemos suficiente información para recomendarte películas basadas en %{title}. Puedes ayudarnos valorando las películas que has visto.
-    tv_show: No tenemos suficiente información para recomendarte programas de televisión basados en %{title}. Puedes ayudarnos valorando los programas de televisión que has visto.
+    tv_show: No tenemos suficiente información para recomendarte series basadas en %{title}. Puedes ayudarnos puntuando las series que has visto.
   no_records: No se ha añadido ningún registro.
   no_tv_search_results: Ningún programa de televisión coincide con tu búsqueda.
   no_watchlist_movies:
@@ -4032,7 +4032,7 @@ es-ES:
     available_sentences:
       ads: ver con anuncios
       buy: comprar
-      flatrate: ver en stream
+      flatrate: 'ver en retransmisión '
       free: ver de forma gratuita
       rent: alquilar
       sentence: "%{title} está actualmente disponible para %{available_types} en %{country}."
@@ -4040,7 +4040,7 @@ es-ES:
       flatrate: Ahora en retransmisión
       rent_or_buy: Disponible para alquilar o comprar
       summary_sentence: "%{available_snippet} en %{service_name}"
-    description: JustWatch hace que sea fácil descubrir dónde puedes ver legalmente tus películas y programas de televisión favoritos en línea. Visita {justwatch_link} para más información.
+    description: JustWatch hace que sea fácil descubrir dónde puedes ver legalmente tus películas y series favoritas en línea. Visita {justwatch_link} para más información.
     filters:
       4k: 4K
       best_price: Mejor precio
@@ -4052,7 +4052,7 @@ es-ES:
     monetization_types:
       ads: Anuncios
       buy: Compra
-      flatrate: Stream
+      flatrate: 'Retransmisión '
       free: Gratis
       rent: Alquiler
     no_offers:
@@ -4104,25 +4104,25 @@ es-ES:
   search:
     adult: Adulto
     favorites_movie: Buscar películas favoritas...
-    favorites_tv: Buscar programas de televisión favoritos...
+    favorites_tv: Buscar series favoritas...
     in_movies: en películas
     in_people: en Gente
-    in_tv_shows: en programas de televisión
+    in_tv_shows: en series
     media_types:
       movie: Película
       person: Persona
       tv_show: Programa de televisión
     no_results: Sin resultados
     no_results_found: No hay resultados
-    rated_movie: Buscar películas valoradas...
-    rated_tv: Buscar programas de televisión valorados...
+    rated_movie: Buscar películas puntuadas...
+    rated_tv: Buscar series puntuadas...
     recommendations_movie: Buscar tus recomendaciones de películas...
     recommendations_tv: Buscar tus recomendaciones de televisión...
     search_results: Resultados de la búsqueda
     trending: Tendencias
     trending_searches: Lo más buscado
     watchlist_movie: Buscar lista de seguimiento de películas...
-    watchlist_tv: Buscar lista de seguimiento de programas de televisión...
+    watchlist_tv: Buscar lista de seguimiento de series...
   search_text_validation_error: "¡Introduce un texto válido!"
   search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados por año. Ejemplo: ''star wars y:1977''.'
   season_number_name: Temporada %{season_number}
@@ -4211,7 +4211,7 @@ es-ES:
       select_csv: Selecciona un archivo CSV
       type:
         favorite: Favorito
-        rated: Valorado
+        rated: 'Puntuada '
         watchlist: Lista de seguimiento
       which_list: "¿En qué lista lo vas a importar?"
     navigation:
@@ -4307,11 +4307,11 @@ es-ES:
         share_publicly: "¿Compartir la lista públicamente?"
       page_title: Mi configuración de compartir
       rated_list:
-        rated_settings: Configuración de la lista de valoración
+        rated_settings: Configuración de la lista de puntuación
         share_publicly: "¿Compartir la lista públicamente?"
       sharing_settings: Configuración de compartir
       watchlist:
-        remove_when_rated: "¿Borrar elementos automáticamente cuando estén valorados?"
+        remove_when_rated: "¿Borrar elementos automáticamente cuando estén puntuados?"
         share_publicly: "¿Compartir la lista públicamente?"
         watchlist_settings: Configuración de la lista de seguimiento
     social:
@@ -4340,8 +4340,8 @@ es-ES:
       contribute: Aporta y mejora la información de nuestra base de datos
       discussions: Participa en conversaciones de películas y televisión
       find_something_to_watch: Encuentra algo que ver entre tus suscripciones a servicios de retransmisión
-      keep_track: Mantén un registro de tus películas y programas de televisión favoritos y obtén recomendaciones de ellos
-      log_movies: Registra las películas y programas de televisión que has visto
+      keep_track: Mantén un registro de tus películas y series favoritas y obtén recomendaciones de ellos
+      log_movies: Registra las películas y series que has visto
     by_clicking_agree_to_terms: Al hacer clic en el botón "Registrarse", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDB.
     javascript_required: Se necesita JavaScript para continuar.
     sign_up_for_account: Crea una cuenta
@@ -4349,7 +4349,7 @@ es-ES:
   success_approved_access_token: "¡Permiso concedido!"
   success_deleted: El elemento seleccionado se ha eliminado correctamente.
   success_email: Tu correo electrónico se ha enviado correctamente.
-  success_image_rated: Has valorado correctamente la imagen.
+  success_image_rated: Has puntuado correctamente la imagen.
   success_image_uploaded: Imagen subida correctamente.
   success_rating: Tu valoración ha sido guardada.
   success_registration: Tu registro se ha completado con éxito.
@@ -4386,10 +4386,10 @@ es-ES:
   upload_title_logo: Subir el logo del título
   used_by_developers: Más de 400.000 desarrolladores utilizan TMDB.<br>Echa un vistazo a su trabajo.
   vibes:
-    done:
+    done: He terminado
     login:
     mood:
-      label:
+      label: Humor
       moods:
         afraid:
         angry:
