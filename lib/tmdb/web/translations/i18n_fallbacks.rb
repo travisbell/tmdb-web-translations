@@ -13,7 +13,7 @@ I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.rb']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.yml']
 
 # I18n.cache_store = ActiveSupport::Cache.lookup_store(:memory_store)
-I18n.enforce_available_locales = false
+I18n.enforce_available_locales = true
 I18n.default_locale = 'en-US'
 
 TMDb::Web::Translations.default_iso_3166_1_mapping.each do |k, v|
@@ -22,6 +22,10 @@ end
 
 TMDb::Web::Translations.default_language_i18n.each do |k, v|
   I18n.fallbacks.map(k => [v, "en-US"])
+end
+
+TMDb::Web::Translations.default_iso_3166_1_i18n.each do |k, v|
+  I18n.fallbacks.map(k => v)
 end
 
 # Monkey patching #transliterate to return an empty string if it's nil
