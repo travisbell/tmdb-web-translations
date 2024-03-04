@@ -58,7 +58,7 @@ uk-UA:
   Admin Tools: Інструменти адміністратора
   Adult Actor: Актор (-ка) фільмів для дорослих
   Advanced Search: Розширений пошук
-  Air Date: Дата виходу
+  Air Date: Дата показу
   Also Known As: Також відомий (-а) як
   Alternative Names: Альтернативні назви
   Alternative Titles: Альтернативні назви
@@ -301,7 +301,7 @@ uk-UA:
   Offical Site: Офіційний сайт
   Offline Databases: 'Офлайнові бази даних '
   Origin Country: Оригінальна країна
-  Original Air Date: Оригінальна дата виходу
+  Original Air Date: Оригінальна дата показу
   Original Language: Мова оригіналу
   Original Movie Language: Мова оригіналу фільму
   Original Name: Оригінальна назва
@@ -598,7 +598,7 @@ uk-UA:
         public: Уподобання учасника %{username}
     filter_by: 'Фільтрувати за:'
     filters:
-      air_date: Дата виходу
+      air_date: Дата показу
       alphabetical: В алфавітному порядку
       date_added: Коли додано
       date_rated: Коли оцінено
@@ -1740,9 +1740,9 @@ uk-UA:
     apply: Застосувати
     filters:
       air_dates:
-        air_dates: Дати виходу
+        air_dates: Дати показу
         search_all_episodes: Шукати всі серії?
-        search_first_air_date: Шукати першу дату виходу?
+        search_first_air_date: Шукати дату першого показу?
       availability:
         availabilities: Можливість перегляду
         search_all_availabilities: Шукати всі можливості перегляду?
@@ -1792,10 +1792,10 @@ uk-UA:
     no_items: 'За вашим запитом нічого не знайдено. '
     search: Шукати
     sort_options:
-      first_air_date_asc:
-      first_air_date_desc:
-      name_a_z:
-      name_z_a:
+      first_air_date_asc: Дата першого показу за зростанням
+      first_air_date_desc: Дата першого показу за спаданням
+      name_a_z: Назва (А–Я)
+      name_z_a: Назва (Я–А)
       original_order_asc: Оригінальний порядок за зростанням
       original_order_desc: Оригінальний порядок за спаданням
       popularity_asc: Популярність за зростанням
@@ -1994,40 +1994,40 @@ uk-UA:
       unsubscribed: Ви <strong>відписані</strong>. Якщо це зроблено помилково, підписатися наново можна в <a href="%{account_link}">налаштуваннях повідомлень </a>.
   emoji:
     short_name:
-      1f600:
-      1f602:
-      1f60d:
-      1f610:
-      1f612:
-      1f616:
-      1f61e:
-      1f621:
-      1f622:
-      1f623:
-      1f626:
-      1f628:
-      1f629:
-      1f62c:
-      1f62d:
-      1f62e:
-      1f630:
-      1f631:
-      1f633:
-      1f635-1f4ab:
-      1f641:
-      1f914:
-      1f922:
-      1f923:
-      1f928:
-      1f92c:
-      1f92d:
-      1f92e:
-      1f92f:
-      1f971:
-      1f972:
-      1fae2:
-      1fae3:
-      1fae4:
+      1f600: Усміхнене обличчя
+      1f602: Обличчя зі сльозами радості
+      1f60d: Усміхнене обличчя з очима-серцями
+      1f610: Нейтральне обличчя
+      1f612: Невеселе обличчя
+      1f616: Збентежене обличчя
+      1f61e: Розчароване обличчя
+      1f621: Розлючене обличчя
+      1f622: Заплакане обличчя
+      1f623: Настійливе обличчя
+      1f626: Насуплене обличчя з відкритим ротом
+      1f628: Налякане обличчя
+      1f629: Утомлене обличчя
+      1f62c: Скривлене обличчя
+      1f62d: Сильно заплакане обличчя
+      1f62e: Обличчя видихає
+      1f630: Тривожне спітніле обличчя
+      1f631: Обличчя кричить від страху
+      1f633: Почервоніле обличчя
+      1f635-1f4ab: Обличчя з очима-спіралями
+      1f641: Трохи насуплене обличчя
+      1f914: Задумане обличчя
+      1f922: Нудотне обличчя
+      1f923: Катається по підлозі від сміху
+      1f928: Обличчя зі здійнятою бровою
+      1f92c: Обличчя із символами на роті
+      1f92d: Обличчя з рукою на роті
+      1f92e: Обличчя блює
+      1f92f: Голова вибухає
+      1f971: Обличчя позіхає
+      1f972: Усміхнене обличчя зі сльозою
+      1fae2: Обличчя з відкритими очима й рукою на роті
+      1fae3: Обличчя визирає одним оком
+      1fae4: Обличчя з діагональним ротом
   episode_count:
     few: "%{count} серії"
     many: "%{count} серії"
@@ -3414,8 +3414,8 @@ uk-UA:
       one: позиція в цьому переліку
       other: позицій у цьому переліку
     items_seen:
-    list_by:
-    list_options:
+    list_by: Список
+    list_options: Параметри списку
     login_to_create_list:
     no_items:
     private: Приватний
@@ -3480,7 +3480,7 @@ uk-UA:
       helper_tooltip: Оцінка вмісту допомагає зрозуміти, наскільки повними є дані про певний об’єкт у базі.
       missing_data:
         fields:
-          air_date: Дата виходу
+          air_date: Дата показу
           backdrop: Світлина
           biography: Біографія
           cast_min_4: Акторський склад (4 та більше)
@@ -3560,7 +3560,7 @@ uk-UA:
         original_title: Оригінальна назва має вводитися мовою оригіналу. У більшості випадків вона відповідатиме такій, що вказана в полі «Мова оригіналу».
         overview: Створюючи опис, намагайтеся писати коротко, стисло та без спойлерів.
         social_links: Посилання на соціальні мережі передбачені лише для офіційних (перевірених) сторінок. Не дозволяються посилання на сторінки фанатських спільнот.
-      translation_already_exists:
+      translation_already_exists: Переклад мовою %{language} вже існує.
       translation_not_found: Переклад мовою %{language} ще не створено.
       unlock_all_appearances: Натисканням «Так» ви розблокуєте всі наявні записи.
       videos:
@@ -3818,7 +3818,7 @@ uk-UA:
           no_records: Груп серій не додано.
           type: Тип
           types:
-            '1': Оригінальна дата виходу
+            '1': Оригінальна дата показу
             '2':
             '3': DVD
             '4': Цифровий реліз
@@ -3843,7 +3843,7 @@ uk-UA:
             many: "%{count} групи"
             one: "%{count} група"
             other: "%{count} груп"
-        original_air_date: Оригінальна дата виходу
+        original_air_date: Оригінальна дата показу
       networks:
         few: Мережі
         many: Мережі
@@ -4446,15 +4446,15 @@ uk-UA:
     done:
     login:
     mood:
-      label:
+      label: Настрій
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
+        afraid: Наляканий
+        angry: Злий
+        disgusted: Гидливий
+        happy: Щасливий
+        interested: Зацікавлений
+        sad: Сумний
+        surprised: Здивований
       prompt:
     rating:
       clear:
@@ -4476,11 +4476,11 @@ uk-UA:
       label:
       no_results:
       prompt:
-        movie:
-        tv:
+        movie: Цей фільм був…
+        tv: Цей серіал був…
       select:
     welcome:
-    whats_new:
+    whats_new: Що нового?
     whats_your_vibe:
     your_vibe:
     your_vibes:
