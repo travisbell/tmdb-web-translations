@@ -13,7 +13,13 @@ I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.rb']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.yml']
 
 # I18n.cache_store = ActiveSupport::Cache.lookup_store(:memory_store)
-I18n.enforce_available_locales = false
+I18n.available_locales = (
+  TMDb::Web::Translations.default_iso_3166_1_mapping.keys +
+  TMDb::Web::Translations.default_language_i18n.values +
+  TMDb::Web::Translations.default_iso_3166_1_i18n.values
+).uniq
+
+I18n.enforce_available_locales = true
 I18n.default_locale = 'en-US'
 
 TMDb::Web::Translations.default_iso_3166_1_mapping.each do |k, v|
