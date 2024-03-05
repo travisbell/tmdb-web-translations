@@ -2059,15 +2059,46 @@ en-US:
       genres: The genres field is locked
       keywords: The keywords field is locked
     messages:
+      accepted: must be accepted
       blank: is required
+      confirmation: doesn't match %{attribute}
       email_address_not_routable: is not routable
+      empty: can't be empty
+      equal_to:
+        one: must be equal to %{count}
+        other: must be equal to %{count}
+      even: must be even
+      exclusion: is reserved
+      greater_than:
+        one: must be greater than %{count}
+        other: must be greater than %{count}
+      greater_than_or_equal_to:
+        one: must be greater than or equal to %{count}
+        other: must be greater than or equal to %{count}
+      in:
+        one: must be in %{count}
+        other: must be in %{count}
       inclusion: must be selected
       invalid: is invalid
       invalid_character_name: Character name should not contain special characters
       invalid_email_address: does not appear to be a valid email address
       invalid_password: The password you entered is incorrect.
       invalid_request: Unable to complete request.
+      less_than:
+        one: must be less than %{count}
+        other: must be less than %{count}
+      less_than_or_equal_to:
+        one: must be less than or equal to %{count}
+        other: must be less than or equal to %{count}
+      model_invalid: "'Validation failed: %{errors}'"
       no_characters_found: No Characters Found
+      not_a_number: is not a number
+      not_an_integer: must be an integer
+      odd: must be odd
+      other_than:
+        one: must be other than %{count}
+        other: must be other than %{count}
+      present: must be blank
       required: must exist
       series_status_invalid_to_create_season: is set to either 'Cancelled' or 'Ended' therefore new seasons cannot be created.
       suspected_tv_series: is suspected to be an existing TV series or miniseries, you can continue to add this item if you're sure but if it exists in our TV section it will be removed
@@ -2078,6 +2109,9 @@ en-US:
       too_short:
         one: is too short (minimum is %{count} character)
         other: is too short (minimum is %{count} characters)
+      wrong_length:
+        one: is the wrong length (should be %{count} character)
+        other: is the wrong length (should be %{count} characters)
     movie:
       duplicate_cast: This person is already added as a cast member.
     tv:
