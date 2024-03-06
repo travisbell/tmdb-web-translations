@@ -612,7 +612,7 @@ ca-AD:
         public: Les llistes de l'usuari %{username}
       no_lists:
         logged_in: No heu creat cap llista.
-        public: L'usuari %{username} no té cap llista pública per compartir.
+        public: L'usuari %{username} no té cap llista pública per a compartir.
       page_title:
         page_owner: Les meves llistes
         public: Les llistes de l'usuari %{username}
@@ -663,8 +663,8 @@ ca-AD:
       ratings_by_year: Valoracions per anys
     recommendations:
       my_recommendations: Les meves recomanacions
-      no_recommendations: No tenim prou dades per suggerir cap recomanació.
-      no_recommendations_helper: Proveu d'afegir alguns preferits més (com més millor) i torneu per comprovar com ho hem fet.
+      no_recommendations: No tenim prou dades per a suggerir cap recomanació.
+      no_recommendations_helper: Proveu d'afegir alguns preferits més (com més millor) i torneu per a comprovar com ho hem fet.
       no_recommendations_helper_2: Proveu de valorar algunes pel·lícules i sèries (com més millor) i després doneu-nos unes hores per veure què hi podem fer. Aquestes recomanacions s'actualitzaran a mesura que mireu i valoreu més contingut.
       page_title: Recomanacions
     sort_options:
@@ -695,7 +695,7 @@ ca-AD:
   api_session:
     3rd_party_request: Sol·licitud d'autenticació de tercers
     account_required:
-      need_account: Cal que inicieu una sessió per continuar!
+      need_account: Cal que inicieu una sessió per a continuar!
       title: Cal un compte
     approved_session: Heu aprovat %{application_name}. Podeu tancar la finestra.
     continue: Si voleu continuar, feu clic al botó d'aprovació de sota. Si no, simplement tanqueu la finestra.
@@ -905,7 +905,7 @@ ca-AD:
           meaning: Restringit per a menors de 18, només per a adults.
       IN:
         '0':
-          meaning: Exhibició pública no restringida a tota l'Índia, apta per a tots els grups d'edat. Les pel·lícules en aquesta categoria no haurien de molestar els nens de més de 4 anys. Aquestes pel·lícules poden contenir temes educatius, socials o familiars. Les pel·lícules en aquesta categoria també poden tenir violència fantàstica o llenguatge moderadament groller.
+          meaning: Exhibició pública no restringida a tota l'Índia, apta per a tots els grups d'edat. Les pel·lícules en aquesta categoria no haurien de molestar els infants de més de 4 anys. Aquestes pel·lícules poden contenir temes educatius, socials o familiars. Les pel·lícules en aquesta categoria també poden tenir violència fantàstica o llenguatge moderadament groller.
         '1':
           meaning: Per a tots els públics, però es recomana que els menors de 12 siguin acompanyats per un adult degut a què el tema o contingut pot ser considerat intens o inapropiat per als infants més menuts. Les pel·lícules en aquesta categoria poden contenir temes adults, referències sexuals, escenes moderades de sexe, violència amb imatges breus de sang i fetge o ús infreqüent de llenguatge barroer.
         '2':
@@ -1190,7 +1190,7 @@ ca-AD:
         '0':
           meaning: Aquesta qualificació només és per a concursos culturals; programes d'estils de vida; programes documentals; programes de tertúlia d'actualitat; programes educatius/culturals; esports, excloent MMA o d'altres esports violents; i d'altres programes que reconegui Korea Communications Standards.
         '1':
-          meaning: Aquesta qualificació és per a programes que són per a tots els públics. Aquest programa normalment està pensat per a nens i famílies.
+          meaning: Aquesta qualificació és per a programes que són per a tots els públics. Aquest programa normalment està pensat per a infants i famílies.
         '2':
           meaning: La qualificació és per a la programació que pot contenir material inapropiat per a menors de 7 anys i els pares haurien d'aplicar el seu criteri. Alguns dibuixos animats no qualificats estrictament com a "educatius" i pel·lícules qualificades com a "G" o "PG" als Estats Units poden caure en aquesta categoria.
         '3':
@@ -1473,7 +1473,7 @@ ca-AD:
     save_edits: Desa les edicions
     search: Cerca
     search_all: 'Cerca: Tot'
-    search_character_note: Cerqueu el personatge o el títol que desitgeu afegir. Podeu fer cerques múltiples per trobar tot el que us agradaria afegir.
+    search_character_note: Cerqueu el personatge o el títol que desitgeu afegir. Podeu fer cerques múltiples per a trobar tot el que us agradaria afegir.
     search_characters_you_want_to_see: Cerqueu els personatges o els títols que desitgeu afegir. Podeu fer cerques múltiples per trobar tot el que voldríeu afegir.
     search_error_info: Editeu la cerca o comproveu que el títol en què apareix el personatge existeix a la base de dades i que té els detalls del repartiment i l'equip tècnic precisos.
     see_batman_appearance: Alguna vegada heu desitjat veure totes les aparicions de Batman?
@@ -1747,7 +1747,7 @@ ca-AD:
         movies_have_seen: Pel·lícules que he vist
         movies_havent_seen: Pel·lícules que no he vist
         show_me: Mostra'm
-        tooltip: Entreu per a filtrar per títols que hagueu vist.
+        tooltip: Entreu per a filtrar per títols que hàgiu vist.
         tv_shows_have_seen: Sèries que he vist
         tv_shows_havent_seen: Sèries que no he vist
       sort:
@@ -2009,7 +2009,7 @@ ca-AD:
     missing_privilege:
       description:
         logged_in: No teniu permís per a accedir a aquesta pàgina. Si creieu que això és un error, feu-nos-ho saber <a href="%{forum_link}">en els fòrums</a>.
-        public: Heu intentat d'accedir a una pàgina que requereix que hagueu iniciat la sessió. Entreu al vostre compte <a href="%{login_link}">clicant aquí</a>.
+        public: Heu intentat d'accedir a una pàgina que requereix que hàgiu iniciat la sessió. Entreu al vostre compte <a href="%{login_link}">clicant aquí</a>.
       title: No teniu permís per accedir a aquesta pàgina
     out_of_login_attempts:
       description: |-
@@ -2049,17 +2049,25 @@ ca-AD:
       genres: El camp dels gèneres està blocat
       keywords: El camp de paraules clau està blocat
     messages:
-      accepted:
+      accepted: ha de ser acceptat
       blank: és necessari
-      confirmation:
+      confirmation: "%{attribute} no coincideix"
       email_address_not_routable: no es pot reubicar
-      empty:
+      empty: no pot estar buit
       equal_to:
-      even:
-      exclusion:
+        one: ha de ser igual a %{count}
+        other: ha de ser igual a %{count}
+      even: ha de ser parell
+      exclusion: està reservat
       greater_than:
+        one: ha de ser més gran que %{count}
+        other: ha de ser més gran que %{count}
       greater_than_or_equal_to:
+        one: ha de ser més gran o igual a %{count}
+        other: ha de ser més gran o igual a %{count}
       in:
+        one: ha de ser en %{count}
+        other: ha de ser en %{count}
       inclusion: ha de ser seleccionat
       invalid: és invàlid
       invalid_character_name: El nom de personatge no hauria de contenir caràcters especials
@@ -2067,21 +2075,33 @@ ca-AD:
       invalid_password: La contrasenya que heu introduït és invàlida.
       invalid_request: No és possible de completar la sol·licitud.
       less_than:
+        one: ha de ser menor de %{count}
+        other: ha de ser menor de %{count}
       less_than_or_equal_to:
-      model_invalid:
+        one: ha de ser menor o igual a %{count}
+        other: ha de ser menor o igual a %{count}
+      model_invalid: "'Ha fallat la validació: %{errors}'"
       no_characters_found: No s'ha trobat caràcters
-      not_a_number:
-      not_an_integer:
-      odd:
+      not_a_number: No és un número
+      not_an_integer: ha de ser un número enter
+      odd: ha de ser senar
       other_than:
-      present:
+        one: ha de ser diferent de %{count}
+        other: ha de ser diferent de %{count}
+      present: ha d'estar en blanc
       required: ha d'existir
       series_status_invalid_to_create_season: està configurat com a "Cancel·lat" o "Finalitzat", per tant, no es poden crear noves temporades.
       suspected_tv_series: se sospita que és una sèrie o minisèrie ja existent, si n'esteu segur podeu continuar afegint aquest element, però si existeix a la nostra secció de sèries s'eliminarà
       taken: ja s'ha pres
       too_long:
+        one: és massa llarg (el màxim és %{count} caràcter)
+        other: és massa llarg (el màxim és %{count} caràcters)
       too_short:
+        one: és massa curt (el mínim és %{count} caràcter)
+        other: és massa curt (el mínim és %{count} caràcters)
       wrong_length:
+        one: és l'allargada errònia (hauria de ser %{count} caràcter)
+        other: és l'allargada errònia (hauria de ser %{count} caràcters)
     movie:
       duplicate_cast: Aquest artista ja està afegit com a membre de repartiment.
     tv:
@@ -3579,7 +3599,7 @@ ca-AD:
         cast:
           no_records: No s'hi han afegit membres del repartiment.
         confirm_collection: |-
-          <p>Les col·leccions són una manera còmoda d'agrupar seqüeles a TMDB. Malgrat sovint pugui ser controvertit, les col·leccions no es proposen ser una manera d'agrupar totes les pel·lícules d'un mateix "univers". Per a aquesta fita <a href="%{list_link}" target="_blank" rel="noopener">creeu, si us plau, una llista</a>. Per a més informació sobre llistes podeu visitar la <a href="%{docs_link}" target="_blank" rel="noopener">nostra documentació</a>.</p>
+          <p>Les col·leccions són una manera còmoda d'agrupar seqüeles a TMDB. Malgrat que sovint pugui ser controvertit, les col·leccions no es proposen ser una manera d'agrupar totes les pel·lícules d'un mateix "univers". Per a aquesta fita <a href="%{list_link}" target="_blank" rel="noopener">creeu, si us plau, una llista</a>. Per a més informació sobre llistes podeu visitar la <a href="%{docs_link}" target="_blank" rel="noopener">nostra documentació</a>.</p>
 
           <p>Procediu, si us plau, si la col·lecció que esteu a punt de crear compleix amb aquest criteri.</p>
         confirm_video: |-
@@ -3855,7 +3875,7 @@ ca-AD:
       message: |-
         Ei, hola, gràcies per fer servir TMDB. Ens hem fixat que esteu navegant per TMDB en una llengua que no té la traducció finalitzada. Si esteu interessat en ajudar-nos en completar-la ho podeu fer visitant el nostre [Projecte de traducció] (http://www.localeapp.com/projects/8267). [Registrar-se](https;www.localeapp.com/users/sign_up) a Locale és gratuït i hi podeu afegir tantes traduccions com temps tingueu. Cada edició ajuda.
 
-        Si no hi teniu cap interès, no us amoïneu. Tant sols us n'informàvem.
+        Si no hi teniu cap interès, no us amoïneu. Tan sols us n'informàvem.
 
         Gràcies per llegir-ho!
       subject: Ajudeu-nos a traduir la pàgina web
@@ -3957,8 +3977,8 @@ ca-AD:
     current_user: No heu valorat cap sèrie.
     public: "%{username} no ha valorat cap sèrie."
   no_recommendations:
-    movie: No tenim prou informació com per a suggerir-vos cap pel·lícula basant-nos en %{title}. Podeu ajudar valorant més pel·lícules que hagueu vist.
-    tv_show: No tenim prou informació com per a suggerir-vos cap sèrie basant-nos en %{title}. Podeu ajudar valorant més sèries que hagueu vist.
+    movie: No tenim prou informació com per a suggerir-vos cap pel·lícula basant-nos en %{title}. Podeu ajudar valorant més pel·lícules que hàgiu vist.
+    tv_show: No tenim prou informació com per a suggerir-vos cap sèrie basant-nos en %{title}. Podeu ajudar valorant més sèries que hàgiu vist.
   no_records: No s'han afegit registres.
   no_tv_search_results: No hi ha sèries coincidents amb la vostra cerca.
   no_watchlist_movies:
@@ -4331,7 +4351,7 @@ ca-AD:
         connect: Connecta
         connected_to: Connectat a
         info: Info
-        reload_text: Recarregueu aquesta pàgina un cop hagueu autoritzat el vostre compte!
+        reload_text: Recarregueu aquesta pàgina un cop hàgiu autoritzat el vostre compte!
         service: Servei
       favorite_message_hint: En marcar un element com a preferit i compartir-lo a Twitter o Facebook...
       message_settings: Configuració de missatgeria

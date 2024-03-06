@@ -2059,17 +2059,25 @@ fr-FR:
       genres: Le champ des genres est verrouillé
       keywords: Le champ des mots-clés est verrouillé
     messages:
-      accepted:
+      accepted: doit être accepté·e
       blank: est nécessaire
-      confirmation:
+      confirmation: ne correspond pas à l'attribut %{attribute}
       email_address_not_routable: n'est pas routable
-      empty:
+      empty: doit être renseigné·e
       equal_to:
-      even:
-      exclusion:
+        one: doit être égal à %{count}
+        other: doivent être égaux à %{count}
+      even: doit être pair·e
+      exclusion: est réservé·e
       greater_than:
+        one: doit être supérieur à %{count}
+        other: doivent être supérieurs à %{count}
       greater_than_or_equal_to:
+        one: doit être supérieur ou égal à %{count}
+        other: doivent être supérieurs ou égaux à %{count}
       in:
+        one: doit être dans %{count}
+        other: doivent être dans %{count}
       inclusion: doit être sélectionné·e
       invalid: n'est pas valide
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
@@ -2077,21 +2085,33 @@ fr-FR:
       invalid_password: Le mot de passe que vous avez saisi est erroné.
       invalid_request: Impossible de compléter la demande.
       less_than:
+        one: doit être inférieur·e à %{count}
+        other: doivent être inférieur·e·s à %{count}
       less_than_or_equal_to:
-      model_invalid:
+        one: doit être inférieur ou égal à %{count}
+        other: doivent être inférieurs ou égaux à %{count}
+      model_invalid: "'Échec de validation : %{errors}'"
       no_characters_found: Aucun personnage n'a été trouvé.
-      not_a_number:
-      not_an_integer:
-      odd:
+      not_a_number: n'est pas un nombre
+      not_an_integer: doit être un nombre entier
+      odd: doit être impair·e
       other_than:
-      present:
+        one: doit être différent·e de %{count}
+        other: doivent être différent·e·s de %{count}
+      present: doit être vide
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
       suspected_tv_series: semble exister en tant que série télévisée ou mini-série. Vous pouvez maintenir l'ajout de cet élément si vous agissez avec certitude, mais il sera supprimé s'il existe déjà dans notre section « Télévision » / « Émission télévisée ».
       taken: est déjà utilisé·e
       too_long:
+        one: est trop long·ue (le maximum est de %{count} caractères)
+        other: sont trop long·ue·s (le maximum est de %{count} caractères)
       too_short:
+        one: est trop court·e (le minimum est de %{count} caractères)
+        other: sont trop court·e·s (le minimum est de %{count} caractères)
       wrong_length:
+        one: n'a pas la bonne longueur (qui doit être de %{count} caractères)
+        other: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
     movie:
       duplicate_cast: Cette personne est déjà présente dans la distribution des rôles du film.
     tv:
@@ -3228,42 +3248,42 @@ fr-FR:
       biting: cinglante / cinglant
       bitter: amère / amer
       blunt: émoussée / émoussé
-      bold:
+      bold: audacieuse / audacieux
       brisk:
       burlesque:
-      callous:
-      calm:
-      candid:
-      casual:
-      cautionary:
-      celebratory:
-      cheerful:
-      cliché:
-      clinical:
+      callous: insensible
+      calm: calme
+      candid: candide
+      casual: occasionnelle / occasionnel
+      cautionary: précautionneuse / précautionneux
+      celebratory: festive / festif
+      cheerful: joyeuse / joyeux
+      cliché: cliché
+      clinical: clinique
       comforting:
-      commanding:
-      compassionate:
-      complex:
-      complicated:
-      conceited:
-      condescending:
-      critical:
-      cruel:
-      curious:
-      cynical:
-      defiant:
-      demeaning:
-      depressed:
-      depressing:
-      derisive:
-      derogatory:
-      desperate:
-      detached:
-      didactic:
-      dignified:
-      direct:
-      disapproving:
-      disdainful:
+      commanding: superviseuse / superviseur
+      compassionate: compatissante / compatissant
+      complex: complexe
+      complicated: compliquée / compliqué
+      conceited: vaniteuse / vaniteux
+      condescending: condescendante / condescendant
+      critical: critique
+      cruel: cruelle / cruel
+      curious: curieuse / curieux
+      cynical: cynique
+      defiant: provocatrice / provocateur
+      demeaning: humiliante / humiliant
+      depressed: déprimée / déprimé
+      depressing: déprimante / déprimant
+      derisive: moqueuse / moqueur
+      derogatory: désobligeante / désobligeant
+      desperate: désespérée / désespéré
+      detached: détachée / détaché
+      didactic: didactique
+      dignified: digne
+      direct: directe / direct
+      disapproving: désapprobatrice / désapprobateur
+      disdainful: dédaigneuse / dédaigneux
       disgusted:
       disheartening:
       disrespectful:
@@ -3271,7 +3291,7 @@ fr-FR:
       disturbed:
       domineering:
       doubtful:
-      dramatic:
+      dramatic: dramatique
       dreary:
       dubious:
       earnest:
@@ -3292,8 +3312,8 @@ fr-FR:
       foreboding:
       frantic:
       frightened:
-      frustrated:
-      furious:
+      frustrated: frustrée / frustré
+      furious: furieuse / furieux
       gentle:
       ghoulish:
       gloomy:
@@ -3357,16 +3377,16 @@ fr-FR:
       reflective:
       relaxed:
       reminiscent:
-      ridiculous:
+      ridiculous: ridicule
       romantic:
       sarcastic:
       sardonic:
       satirical:
       scathing:
       sceptical:
-      sentimental:
+      sentimental: sentimentale / sentimental
       serene:
-      serious:
+      serious: sérieuse / sérieux
       shocking:
       sincere:
       sinister:
@@ -4418,23 +4438,23 @@ fr-FR:
         disgusted: Dégoûté·e
         happy:
         interested:
-        sad:
+        sad: Triste
         surprised:
-      prompt:
+      prompt: Qu'avez-vous ressenti avec %{title} ?
     rating:
-      clear:
-      label:
-      prompt:
+      clear: Effacer ma note
+      label: Notation
+      prompt: Qu'avez-vous pensé de %{title} ?
       tooltip:
-        '0':
-        '10':
-        '100':
-        '20':
-        '30':
-        '40':
-        '50':
-        '60':
-        '70':
+        '0': Incendie de benne à ordures
+        '10': Déchet absolu
+        '100': Championne / Champion
+        '20': Ordure
+        '30': Vraiment mauvais
+        '40': Pas terrible
+        '50': Passable
+        '60': C'est d'accord
+        '70': Plutôt décent
         '80': Très bonne
         '90': Grandiose
     tone:
