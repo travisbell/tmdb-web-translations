@@ -18,8 +18,8 @@ I18n.available_locales = (
   TMDb::Web::Translations.default_language_i18n.values +
   TMDb::Web::Translations.default_iso_3166_1_i18n.values
 ).uniq
-I18n.enforce_available_locales = true
 I18n.default_locale = 'en-US'
+I18n.enforce_available_locales = false
 
 TMDb::Web::Translations.default_iso_3166_1_mapping.each do |k, v|
   I18n.fallbacks.map(v => k)
