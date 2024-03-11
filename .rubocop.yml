@@ -1,0 +1,13 @@
+inherit_gem:
+  tmdb-shared: .rubocop.yml
+
+AllCops:
+  Exclude:
+  - ".irbrc"
+  - vendor/**/*
+  StyleGuideBaseURL: https://shopify.github.io/ruby-style-guide/
+
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+  - Gemfile
+  - spec/**/*_spec.rb
