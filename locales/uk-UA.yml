@@ -265,7 +265,6 @@ uk-UA:
   Login to rate this movie: Увійдіть, щоб оцінити цей фільм
   Login to report an issue: Увійдіть, щоб повідомити про проблему
   Logo: Логотип
-  Logos & Attribution: Логотипи й атрибутика
   Logout: Вийти
   Mark as Favorite: Додати до вподобань
   Media: Медіа
@@ -309,7 +308,6 @@ uk-UA:
   Original TV Show Language: Мова оригіналу серіалу
   Original Title: Оригінальна назва
   Other Databases: Інші бази даних
-  Our History: Наша історія
   Overview: Опис
   Page: Сторінка
   People: Персони
@@ -1508,7 +1506,7 @@ uk-UA:
     suggested_backdrops_not_available: Пропоновані світлини відсутні!
     suggested_character_backdrop_photos: Пропоновані світлини для персонажа
     suggested_window_title: Пропоновані світлини для персонажа
-    switch_mode_translate:
+    switch_mode_translate: Перемкніться на мову %{available_language} для перекладу.
     switch_to_edit_mode: Перемкнутися в режим редагування
     switch_translate_mode: Перемкнутися в режим перекладу
     text_for_character_card: Тепер ми підтримуємо персонажів, що дає спільноті змогу відстежувати появи у франшизах, на телебаченні й у фільмах.
@@ -1542,6 +1540,11 @@ uk-UA:
   character name: Ім’я персонажа
   collection_includes: Містить %{movie_titles}
   confirm_delete: Ви впевнені, що хочете видалити цей запис?
+  contact:
+    contact_sales:
+    general_inquiry:
+    general_support:
+    get_in_touch: Звʼяжіться з нами
   contribute:
     contribute: Посприяти
     missing_a_biography: Відсутня біографія
@@ -2081,16 +2084,28 @@ uk-UA:
       genres: Поле «Жанри» заблоковано
       keywords: Поле «Ключові слова» заблоковано
     messages:
-      accepted:
+      accepted: має бути прийнято
       blank: обов’язково
-      confirmation:
+      confirmation: не відповідає %{attribute}
       email_address_not_routable: не маршрутизується
-      empty:
+      empty: не може бути пустим
       equal_to:
-      even:
-      exclusion:
+        few: мають дорівнювати %{count}
+        many: мають дорівнювати %{count}
+        one: має дорівнювати %{count}
+        other: мають дорівнювати %{count}
+      even: має бути парним
+      exclusion: зарезервовано
       greater_than:
+        few: мають бути більше за %{count}
+        many: мають бути більше за %{count}
+        one: має бути більше за %{count}
+        other: мають бути більше за %{count}
       greater_than_or_equal_to:
+        few: мають дорівнювати або бути більше за %{count}
+        many: мають дорівнювати або бути більше за %{count}
+        one: має дорівнювати або бути більше за %{count}
+        other: мають дорівнювати або бути більше за %{count}
       in:
       inclusion: має бути вибрано
       invalid: недійсно
@@ -2099,21 +2114,41 @@ uk-UA:
       invalid_password: Уведений пароль неправильний.
       invalid_request: Не вдається виконати запит.
       less_than:
+        few: мають бути менше за %{count}
+        many: мають бути менше за %{count}
+        one: має бути менше за %{count}
+        other: мають бути менше за %{count}
       less_than_or_equal_to:
-      model_invalid:
+        few: мають дорівнювати або бути менше за %{count}
+        many: мають дорівнювати або бути менше за %{count}
+        one: має дорівнювати або бути менше за %{count}
+        other: мають дорівнювати або бути менше за %{count}
+      model_invalid: 'Помилка перевірки: %{errors}'
       no_characters_found: Персонажів не знайдено
-      not_a_number:
-      not_an_integer:
-      odd:
+      not_a_number: не число
+      not_an_integer: має бути ціле число
+      odd: має бути непарним
       other_than:
-      present:
+      present: має бути пустим
       required: повинен існувати
       series_status_invalid_to_create_season: новий сезон не може бути додано, бо шоу має статус «Скасовано» або «Завершено».
       suspected_tv_series: підозрюється, що цей серіал або мінісеріал уже є. Якщо ви переконані, що немає, то можете додавати дані, але якщо це не так, їх буде видалено
       taken: вже прийнято
       too_long:
+        few: занадто довге (максимум %{count} символи)
+        many: занадто довге (максимум %{count} символів)
+        one: занадто довге (максимум %{count} символ)
+        other: занадто довге (максимум %{count} символів)
       too_short:
+        few: занадто коротке (мінімум %{count} символи)
+        many: занадто коротке (мінімум %{count} символів)
+        one: занадто коротке (мінімум %{count} символ)
+        other: занадто коротке (мінімум %{count} символів)
       wrong_length:
+        few: неправильної довжини (має бути %{count} символи)
+        many: неправильної довжини (має бути %{count} символів)
+        one: неправильної довжини (має бути %{count} символ)
+        other: неправильної довжини (має бути %{count} символів)
     movie:
       duplicate_cast: Ця персона вже додана як член акторського складу.
     tv:
@@ -2133,6 +2168,14 @@ uk-UA:
   failed_report: 'Виникла проблема з поданням скарги. '
   failed_sharing: Виникла проблема при публікації вашого повідомлення.
   failed_validation: Виникли помилки достовірності... Перевірте мову.
+  faq:
+    sidebar:
+      account: Обліковий запис
+      general: Загальні дані
+      get_in_touch:
+      logos_and_attribution: Логотипи й атрибутика
+      our_history: Наша історія
+      website: Вебсайт
   filter_by_release_date:
     max: Фільтрувати за датою виходу (макс.)
     min: Фільтрувати за датою виходу (мін.)
@@ -3229,86 +3272,86 @@ uk-UA:
     view_shortcuts: Переглянути комбінації клавіш
   keywords:
     tone:
-      absurd:
-      admiring:
-      adoring:
-      affectation:
-      aggressive:
-      ambiguous:
-      ambivalent:
-      amused:
-      angry:
-      antagonistic:
-      anxious:
-      apathetic:
+      absurd: безглуздий
+      admiring: замилуваний
+      adoring: обожнюваний
+      affectation: манірний
+      aggressive: агресивний
+      ambiguous: двозначний
+      ambivalent: двоїстий
+      amused: задоволений
+      angry: злий
+      antagonistic: ворожий
+      anxious: тривожний
+      apathetic: апатичний
       apologetic:
-      appreciative:
+      appreciative: вдячний
       approving:
-      arrogant:
-      assertive:
+      arrogant: зарозумілий
+      assertive: напористий
       audacious:
       authoritarian:
       awestruck:
       baffled:
       bewildered:
       biting:
-      bitter:
+      bitter: гіркий
       blunt:
       bold:
       brisk:
       burlesque:
       callous:
-      calm:
+      calm: спокійний
       candid:
       casual:
       cautionary:
       celebratory:
       cheerful:
-      cliché:
+      cliché: клішований
       clinical:
       comforting:
       commanding:
       compassionate:
       complex:
-      complicated:
+      complicated: складний
       conceited:
       condescending:
       critical:
-      cruel:
-      curious:
-      cynical:
+      cruel: жорстокий
+      curious: цікавий
+      cynical: цинічний
       defiant:
       demeaning:
-      depressed:
-      depressing:
+      depressed: пригнічений
+      depressing: гнітючий
       derisive:
       derogatory:
-      desperate:
+      desperate: відчайдушний
       detached:
       didactic:
       dignified:
       direct:
       disapproving:
       disdainful:
-      disgusted:
+      disgusted: огидний
       disheartening:
-      disrespectful:
+      disrespectful: неповажний
       distressing:
       disturbed:
       domineering:
       doubtful:
-      dramatic:
+      dramatic: драматичний
       dreary:
       dubious:
       earnest:
-      egotistical:
-      embarrassed:
+      egotistical: егоїстичний
+      embarrassed: збентежений
       empathetic:
       enchant:
       enraged:
       enthusiastic:
       euphoric:
-      excited:
+      excited: схвильований
       exhilarated:
       exuberant:
       factual:
@@ -3317,9 +3360,9 @@ uk-UA:
       forceful:
       foreboding:
       frantic:
-      frightened:
+      frightened: наляканий
       frustrated:
-      furious:
+      furious: розлючений
       gentle:
       ghoulish:
       gloomy:
@@ -3330,75 +3373,75 @@ uk-UA:
       harsh:
       hilarious:
       hopeful:
-      hopeless:
+      hopeless: безнадійний
       horrified:
       hostile:
       humorous:
       impartial:
       incredulous:
-      indifferent:
+      indifferent: байдужий
       inflammatory:
-      informative:
-      insecure:
+      informative: інформативний
+      insecure: небезпечний
       inspirational:
       instructive:
-      intense:
-      intimate:
+      intense: інтенсивний
+      intimate: інтимний
       introspective:
-      ironic:
+      ironic: іронічний
       irreverent:
       joyful:
       joyous:
       lighthearted:
       loving:
-      lyrical:
+      lyrical: ліричний
       macabre:
       malicious:
       matter of fact:
       mean spirited:
       meditative:
       melancholy:
-      melodramatic:
+      melodramatic: мелодраматичний
       mischievous:
       mocking:
       modest:
       mourning:
       mysterious:
-      negative:
-      nervous:
-      nostalgic:
+      negative: негативний
+      nervous: нервовий
+      nostalgic: ностальгічний
       objective:
       ominous:
-      optimistic:
+      optimistic: оптимістичний
       paranoid:
-      pathetic:
-      pessimistic:
-      philosophical:
+      pathetic: жалюгідний
+      pessimistic: песимістичний
+      philosophical: філософський
       playful:
       powerful:
-      pretentious:
-      provocative:
+      pretentious: претензійний
+      provocative: провокаційний
       psychotic:
       questioning:
       reflective:
       relaxed:
       reminiscent:
-      ridiculous:
-      romantic:
-      sarcastic:
+      ridiculous: сміховинний
+      romantic: романтичний
+      sarcastic: саркастичний
       sardonic:
-      satirical:
+      satirical: сатиричний
       scathing:
-      sceptical:
-      sentimental:
+      sceptical: скептичний
+      sentimental: сентиментальний
       serene:
-      serious:
+      serious: серйозний
       shocking:
       sincere:
       sinister:
       skeptical:
       somber:
-      speculative:
+      speculative: спекулятивний
       stern:
       straightforward:
       subjective:
@@ -3409,10 +3452,10 @@ uk-UA:
       taunting:
       tense:
       thoughtful:
-      tragic:
+      tragic: трагічний
       unassuming:
       understated:
-      urgent:
+      urgent: невідкладний
       vexed:
       vibrant:
       vindictive:
@@ -3425,27 +3468,27 @@ uk-UA:
   list_info:
     average_rating: Усереднений рейтинг
     collaborate:
-    hide_comments:
+    hide_comments: Приховати коментарі
     image_selected: Вибрано
-    items_not_seen:
+    items_not_seen: Непереглянуте
     items_on_list:
-      few: позиції в цьому переліку
-      many: позиції в цьому переліку
-      one: позиція в цьому переліку
-      other: позицій у цьому переліку
-    items_seen:
+      few: елементи в цьому списку
+      many: елементів у цьому списку
+      one: елемент у цьому списку
+      other: елементів у цьому списку
+    items_seen: Переглянуте
     list_by: Список
     list_options: Параметри списку
-    login_to_create_list:
-    no_items:
+    login_to_create_list: Увійдіть, щоби створити власний список!
+    no_items: До цього списку не додано жодного елемента.
     private: Приватний
     public: Публічний
     select_this_image: Вибрати це зображення
-    show_comments:
+    show_comments: Показати коментарі
     total_revenue: Загальний прибуток
     total_runtime: Загальний час
-    use_grid_view:
-    use_list_view:
+    use_grid_view: Перегляд сіткою
+    use_list_view: Перегляд списком
   list_messages:
     comment_updated: Коментар оновлено!
     image_saved: Зображення збережено!
