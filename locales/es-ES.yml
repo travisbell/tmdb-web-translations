@@ -1985,8 +1985,8 @@ es-ES:
       1f602: Carita con lágrimas de alegría
       1f60d: Carita sonriente con ojos de corazón
       1f610: Carita neutral
-      1f612:
-      1f616:
+      1f612: Cara de desaprobación
+      1f616: Cara de frustración
       1f61e:
       1f621:
       1f622:
@@ -3218,13 +3218,13 @@ es-ES:
     view_shortcuts: Ver atajos
   keywords:
     tone:
-      absurd:
-      admiring:
-      adoring:
+      absurd: absurdo
+      admiring: admirador
+      adoring: adorador
       affectation:
-      aggressive:
-      ambiguous:
-      ambivalent:
+      aggressive: agresivo
+      ambiguous: ambiguo
+      ambivalent: sentimientos encontrados
       amused:
       angry:
       antagonistic:
@@ -3907,7 +3907,7 @@ es-ES:
     placeholders:
       no_conversation_selected:
         create: También puedes crear una nueva conversación haciendo <a href="%{link}">click aquí</a>.
-        no_conversations: No tienes ninguna conversación abierta, ¡que suerte!
+        no_conversations: No tienes ninguna conversación abierta, ¡qué suerte!
         view: Para ver una conversación, selecciona una de la izquierda.
       no_user_found: Usuario no encontrado.
       reply: Escribe un mensaje...
@@ -4425,46 +4425,48 @@ es-ES:
   used_by_developers: Más de 400.000 desarrolladores utilizan TMDB.<br>Echa un vistazo a su trabajo.
   vibes:
     done: He terminado
-    login:
+    login: Inicia sesión para ver el nuevo sistema de puntuación de TMDB
     mood:
-      label: Humor
+      label: Estado de ánimo
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
-      prompt:
+        afraid: Asustado/a
+        angry: Enfadado/a
+        disgusted: Asqueado/a
+        happy: Feliz
+        interested: Interesado/a
+        sad: Triste
+        surprised: Sorprendido/a
+      prompt: "¿Cómo te ha hecho sentir %{title}?"
     rating:
-      clear:
-      label:
-      prompt:
+      clear: Borrar mi puntuación
+      label: Puntuación
+      prompt: "¿Qué te ha parecido %{title}?"
       tooltip:
         '0':
         '10':
         '100':
-        '20':
-        '30':
-        '40':
-        '50':
-        '60':
+        '20': Basura
+        '30': Bastante mala
+        '40': No es buena
+        '50': Pasable
+        '60': Está bien
         '70':
         '80':
         '90':
     tone:
-      label:
+      label: Tono
       no_results:
       prompt:
-        movie:
-        tv:
-      select:
+        movie: Esta película ha sido...
+        tv: Esta serie ha sido...
+      select: Selecciona un tono...
     welcome:
-    whats_new:
+    whats_new: "¿Qué hay de nuevo?"
     whats_your_vibe:
     your_vibe:
-    your_vibes:
+      one: Tu vibra
+      other: Tus vibras
+    your_vibes: Tus vibras
   videos:
     filters:
       language: Idioma
