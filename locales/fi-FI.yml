@@ -115,7 +115,7 @@ fi-FI:
   Continue: Jatka
   Contribution leaders for the week of: Johtavat osallistujat viikolla
   Convert to Collection?: Muunna kokoelmaksi?
-  Convert to Movie?:
+  Convert to Movie?: Muuta elokuvaksi?
   Country: Maa
   Create: Luo
   Create App: Luo sovellus
@@ -1292,7 +1292,7 @@ fi-FI:
           meaning: Tämä ohjelma on suunnatta aikuisille ja on siten sopimaton alle 17-vuotiaille lapsille ja nuorille.
   character:
     Movie:
-    Titles:
+    Titles: Nimikkeet
     add_a_character: Lisää hahmo
     add_an_appearance: Lisää ulkoasu
     add_appearance: Lisää ulkoasu(ja)
@@ -1356,14 +1356,14 @@ fi-FI:
     create_overview_help: Auta meitä täyttämään tämän hahmon elämäkerta hänen tekemiensä elokuvien/tv-esiintymisten sarjan aikana.
     create_overview_name_help: Vaihda hahmon nimi vain, jos siihen on erityinen syy tai jos hahmon nimi on yleinen nimi, jolla hänet tunnetaan.
     create_overview_note: Näyttelijää ja hänen henkilökuvaansa ei voi muokata tässä.
-    default_language_results_text:
+    default_language_results_text: Tulokset ovat oletusarvoisesti kielellä 'en-US', koska haetuille asiasanoilla ei löytynyt vastaavuutta valitulla kielellä!
     delete_backdrop: Poista tausta
     delete_character: Poista henkilöhahmo
     delete_group: Poista ryhmä
     delete_group_check: Oletko varma että halust poistaa tämän ryhmän
     do_you_want_continue: Haluatko jatkaa?
-    done_editing:
-    drag_title:
+    done_editing: Lopetetaanko muokkaus?
+    drag_title: Vedä otsikko uudelle ryhmälle
     edit_groups: Muokkaa ryhmiä
     edit_groups_description:
     edit_header_images: Muokkaa otsikkokuvia
@@ -1371,34 +1371,34 @@ fi-FI:
     edit_mode: Olet muokkaustilassa
     edit_translate: Muokkaus & Käännä
     edit_translating: Muokkaa & Kääntäminen
-    editing_character_name_uv:
+    editing_character_name_uv: "<h3>Hei <strong>%{user}</strong>!  </h3>Havaitsi, että olet luomassa hahmoa ehdotetulla nimellä. Haluatko jatkaa?"
     enter:
     enter_character_name: Syötä hahmon nimi
-    enter_character_synopsis:
-    enter_group_synopsis:
-    enter_text_search:
-    enter_valid_translation:
+    enter_character_synopsis: Lisää hahmon kuvaus
+    enter_group_synopsis: Lisää ryhmän kuvaus
+    enter_text_search: Lisää asiasana hakua varten
+    enter_valid_translation: Lisää kelvollinen käännös.
     era: Aikakausi
     error_while_submitting: Virhe lisättäessä
-    failed_draft:
-    filter_subscribed_services:
-    find_character:
-    find_character_note:
+    failed_draft: Vastausluonnoksen luonti epäonnistui
+    filter_subscribed_services: Suodata tilattujen palveluiden mukaan.
+    find_character: Minkä hahmon tai nimikkeen haluaisit löytää?
+    find_character_note: Löydä suosikkihahmosi, nimikkeet ja paljon muuta
     finished_selections: Valinnat valmiit?
     found_everything: Löysitkö kaiken?
-    frequent_translations:
+    frequent_translations: Usein käytetyt käännökset
     group_name: Ryhmän nimi
-    group_name_already_exists:
+    group_name_already_exists: Ryhmä, joka sisältää kohteet, on jo olemassa. Haluatko luoda ryhmän.
     group_name_required: Ryhmän nimi on pakollinen
-    groups_minimum_appearance_msg:
-    groups_not_present:
+    groups_minimum_appearance_msg: Ryhmällä on oltava vähintään yksi tyyli. Ole hyvä ja lisää ryhmälle tyyli
+    groups_not_present: Hahmolla ei ole ryhmiä.
     headshot: Pääkuva
     headshot_window_title: Muuta hahmon pääkuva
     help_our_mods: Auta moderaattoreitamme
     help_our_mods_info: Kerro meille hahmosta! Tämä kenttä näkyy vain sinulle ja moderaattoreillemme. Kaikki mitä kerrot hahmosta ja miksi olet sitä luomassa auttaa meitä tarkastuksessa.
     icon: Kuvake
-    image_change_1:
-    image_media_association:
+    image_change_1: Tämä kuva on liitetty valitun ryhmän mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
+    image_media_association: Tämä kuva on liitetty mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
     in_translate_mode:
     inline_edit_original_name:
     join_community_tmdb:
@@ -1419,25 +1419,25 @@ fi-FI:
     name:
     navigate_to_dashboard:
     navigate_to_master:
-    need_help:
-    new_to_tmdb:
-    next:
-    next_edit_groups:
-    next_launch_page:
-    next_nav_label:
-    next_review_page:
-    no_appearance_text:
-    no_appearance_text_1:
-    no_appearance_text_2:
+    need_help: Tarvitsetko apua?
+    new_to_tmdb: Uusi TMDb-sivuston käyttäjä
+    next: Seuraava
+    next_edit_groups: 'Seuraava: Muokkaa ryhmää'
+    next_launch_page: 'Seuraava: Aloitussivu'
+    next_nav_label: Seuraava
+    next_review_page: 'Seuraava: Arvostelusivu'
+    no_appearance_text: Ryhmiä ei löytynyt!
+    no_appearance_text_1: Tyylejä ei löytynyt! <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">Klikkaa tästä</a>lisätäksesi uusia tyylejä!
+    no_appearance_text_2: Ryhmiä ei löytynyt! <a href="/character/%{page_url}/edit/">Klikkaa tästä</a>lisätäksesi uuden ryhmän!
     no_backdrop_in_group: Näyttää siltä, ettei millekään ryhmälle ole asetettu uusia hahmojen taustoja!
     no_cast_credits:
     no_records_found:
     note:
-    note_info:
-    note_mods:
-    okay:
-    optional:
-    page_is_live:
+    note_info: Jatkaaksesi valitse henkilö alla olevasta pudotusvalikosta.
+    note_mods: Huomautus moderaattoreille
+    okay: Selvä
+    optional: Vapaaehtoinen
+    page_is_live: Sivu on nyt käytössä!
     person:
     person_image_association:
     placeholder_synopsis:
@@ -1463,21 +1463,21 @@ fi-FI:
     review_and_launch_title:
     review_label:
     save_backdrop: Tallenna tausta
-    save_edits:
-    search:
+    save_edits: Tallenna muokkaukset
+    search: Etsi
     search_all:
-    search_character_note:
+    search_character_note: Etsi hahmoa tai nimikettä, jonka haluat lisätä. Voit luoda useita hakuja löytääksesi kaiken, mitä haluat lisätä.
     search_characters_you_want_to_see: Hae alta hahmoja tai nimikkeitä, jotka haluat lisätä. Voit luoda useita hakuja löytääksesi kaiken, mitä haluat lisätä.
-    search_error_info:
-    see_batman_appearance:
+    search_error_info: Muokkaa hakuasi tai tarkista, että nimike, jossa hahmo esiintyy, on olemassa tietokannassa ja että siinä on oikeat tiedot näyttelijöistä ja tekijöistä.
+    see_batman_appearance: Oletko koskaan halunnut nähdä Batmanin kaikki esiintymiset?
     select_backdrop: Valitse tausta
     select_cast_credit:
     select_group_title:
-    select_message:
-    select_person:
+    select_message: Valitse kaikki tähtinäyttelijät, jotka ovat näytelleet hahmon kyseistä versiota. Jos esimerkiksi sarjassa hahmoa näyttelevä henkilö on vaihtunut, valitse molemmat tähdet (esim. MCU:n Hulkista valitaan sekä Edward Norton että Mark Ruffalo).
+    select_person: Valitse henkilö
     select_person_association:
     select_person_for_media:
-    selected_appearance_linked_to_character:
+    selected_appearance_linked_to_character: Valitut esiintymiset liitetään hahmoon.
     session_expired:
     session_inactive:
     session_over_so_redirect:
@@ -1487,32 +1487,32 @@ fi-FI:
     submit:
     submit_and_preview:
     submit_confirmation:
-    submitted:
+    submitted: Lähetetty
     suggested_backdrops: Valitse ehdotetut taustat
     suggested_backdrops_not_available: Suositeltuja taustoja ei ole saatavilla!
     suggested_character_backdrop_photos: Suositellut hahmojen taustakuvat
-    suggested_window_title:
-    switch_mode_translate:
-    switch_to_edit_mode:
-    switch_translate_mode:
-    text_for_character_card:
+    suggested_window_title: Ehdotetut hahmon taustakuvat
+    switch_mode_translate: Vaihda %{available_language} tilaan käännöstä varten.
+    switch_to_edit_mode: Vaihda muokkaustilaan
+    switch_translate_mode: Vaihda käännöstilaan
+    text_for_character_card: Tuemme nyt hahmoja, minkä ansiosta yhteisö voi seurata esiintymisiä eri sarjoissa, niin TV:ssä kuin elokuvissakin.
     title_drag_info:
     total_Results:
-    total_appearance:
-    total_budget:
+    total_appearance: Esiintymisiä yhteensä
+    total_budget: Yhteenlaskettu budjetti
     translations_language:
-    try_again:
-    tv:
-    tv_titles:
-    unloading_message:
+    try_again: Yritä uudelleen!
+    tv: TV
+    tv_titles: TV-nimikkeet
+    unloading_message: Sivun lataamisen keskeyttäminen voi johtaa tietojen menetykseen. Mitä haluat tehdä...
     unlock_existing_appearances:
-    unsaved_change_lost:
-    unsaved_will_lost_want_to_continue:
+    unsaved_change_lost: Tallentamattomat muutokset menetetään.
+    unsaved_will_lost_want_to_continue: Tallentamattomat muutokset menetetään. Haluatko jatkaa?
     update_backdrop: Päivitä tausta
     upload_backdrop_title: Valitse henkilö, johon haluat liittää tämän kuvan.
     user_added_backdrop_info: Tässä ovat taustakuvat, jotka olet lisännyt hahmoa varten. Valitse kuvat, joiden kanssa haluat jatkaa.
     user_added_backdrop_label: Käyttäjän lisäämät kuvat
-    user_variant_description:
+    user_variant_description: Tässä on muutamia mahdollisia kuvia, joita olemme keränneet hahmoa varten. Valitse yksi tai lisää toinen, joka sopii hahmolle paremmin.
     user_variant_intro:
     validation_charactername:
     validation_group_synopsis:
@@ -1598,8 +1598,8 @@ fi-FI:
   contribution_type:
     character_appearance:
     movie:
-    primary_character:
-    tv_show:
+    primary_character: Päähahmo
+    tv_show: TV-sarja
   cookie_popup:
     message: Käytämme evästeitä tarjotaksemme sinulle paremman käyttökokemuksen. Katso <a href="%{policy_url}" target="_blank" rel="noopener">evästekäytäntömme</a> saadaksesi lisätietoa. Jatkamalla TMDb:n käyttöä hyväksyt evästeiden käytön.
     ok_button: Ok
@@ -1777,10 +1777,10 @@ fi-FI:
     no_items: Hakua vastaavia nimikkeitä ei löytynyt.
     search: Haku
     sort_options:
-      first_air_date_asc:
-      first_air_date_desc:
-      name_a_z:
-      name_z_a:
+      first_air_date_asc: Ensiesitys nousevasti
+      first_air_date_desc: Ensiesitys laskevasti
+      name_a_z: Nimi (A-Z)
+      name_z_a: Nimi (Z-A)
       original_order_asc: Alkuperäinen, nouseva
       original_order_desc: Alkuperäinen, laskeva
       popularity_asc: Suosio, nouseva
@@ -1803,7 +1803,7 @@ fi-FI:
       close_discussion: Sulje keskustelu
       make_private: Aseta yksityiseksi
       make_public: Aseta julkiseksi
-      mark_not_spam:
+      mark_not_spam: Merkitse ei-spämmiksi
       mark_spam: Merkitse roskasisällöksi
       reopen_discussion: Uudelleenavaa keskustelu
       stop_watching: Lopeta seuraaminen
@@ -1874,7 +1874,7 @@ fi-FI:
         hide_comment: Klikkaamalla 'Kyllä', tämä kommentti piilotetaan.
         hide_discussion: Klikkaamalla 'Kyllä', tämä keskustelu piilotetaan.
         ignore_user: Oletko varma, että haluat estää tämän käyttäjän. Kaikki heidän keskustelut ja kommentit piilotetaan. Vois poistaa eston menemällä "Estetyt käyttäjä" sivulle käyttäjätilin asetuksissa.
-        mark_as_not_spam:
+        mark_as_not_spam: Oletko varma, että haluat merkitä tämän keskustelun kelvolliseksi, ja ei-spämmiksi?
         mark_as_spam: Oletko varma, että haluat merkitä tämän viestin roskasisällöksi? Se poistetaan automaattisesti ja sitä ei voida peruuttaa. Viestien merkitseminen auttaa kehittämään roskasisällön tunnistusjärjestelmää mitä käytämme.
         report_violation: Vahvista, että haluat ilmiantaa tämän käyttäjän <a href="/documentation/community/guidelines" target="_blank" rel="noopener">yhteisön ohjesääntöjen</a> rikkomisesta.
         unhide_discussion: Klikkaamalla "Kyllä", tämä keskustelu tehdään jälleen näkyväksi.
@@ -1956,7 +1956,7 @@ fi-FI:
       error: Pyynnön lähettämisessä tapahtui virhe. Yritä uudelleen?
       submit: Lähetä DMCA-poistopyyntö.
   dont_fallback: Ei mitään (ei varakieltä)
-  duplicate_character_name:
+  duplicate_character_name: Hahmon nimi on jo olemassa, yritä toisella nimellä
   edit_list:
     add_edit_items: Lisää/muokkaa nimikkeitä
     choose_image: Valitse kuva
@@ -1975,16 +1975,16 @@ fi-FI:
       unsubscribed: Olet<strong>lopettanut tilauksen</strong>. Jos teit tämän vahingossa, voit ottaa tilauksen uudelleen käyttöön <a href="%{account_link}">ilmoitusasetusten</a> sivulla.
   emoji:
     short_name:
-      1f600:
-      1f602:
-      1f60d:
-      1f610:
-      1f612:
-      1f616:
-      1f61e:
-      1f621:
-      1f622:
-      1f623:
+      1f600: Virnuilevat kasvot
+      1f602: Kasvot ilon kyynelissä
+      1f60d: Hymyilevät kasvot ja sydänsilmät
+      1f610: Neutraali kasvot
+      1f612: Ei-huvittuneet kasvot
+      1f616: Hämmentyneet kasvot
+      1f61e: Pettyneet kasvot
+      1f621: Vihaiset kasvot
+      1f622: Itkevät kasvot
+      1f623: Määrätietoiset kasvot
       1f626:
       1f628:
       1f629:
@@ -2005,9 +2005,9 @@ fi-FI:
       1f92e:
       1f92f:
       1f971:
-      1f972:
+      1f972: Kyynelehtivät hymyilevät kasvot
       1fae2:
-      1fae3:
+      1fae3: Kurkistavat kasvot
       1fae4:
   episode_count:
     one: "%{count} Jakso"
@@ -2015,37 +2015,40 @@ fi-FI:
   episode_number_name: Jakso %{episode_number}
   error_pages:
     deleted_account:
-      description:
+      description: Tämän sivun omistaja on poistanut tilinsä. Vaikka heidät muokkauksensa TMDb:ssä säilyvät, heidän käyttäjätiedot on anonymisoitu.
       title: Tämä käyttäjätili on poistettu
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: Sinulla ei ole pääsyä tälle sivulle. Jos uskot, että kyseessä on virhe, kerro siitä meille <a href="%{forum_link}">foorumissa</a>.
+        public: Yritit päästä sivulle joka vaatii sisäänkirjautumista. Kirjaudu sisään tilillesi <a href="%{login_link}">klikkaamalla tästä</a>.
+      title: Sinulla ei ole käyttöoikeutta tälle sivulle.
     out_of_login_attempts:
-      description:
+      description: |
+        Olet käyttänyt kaikki 10 sisäänkirjautumisyritystä. Voit yrittää uudelleen 30 minuutin kuluttua. Sillä välin voit yrittää <a href="%{reset_password_link}">salasanan palauttamista</a>.
+
+        Voit myös<a href="%{about_us_link}">ottaa yhteyttä</a> saadaksesi tukea.
       title:
     private:
       description:
-        logged_in:
-        public:
+        logged_in: Sinulla ei ole pääsyä tälle sivulle.
+        public: Yritit päästä sivulle, joka on yksityinen.
       title: Tämä sivu on yksityinen
     suspended:
-      explanation_1:
+      explanation_1: Valitettavasti tämä käyttäjä on hyllytetty.
       go_to_inbox: Mene saapuneisiin
-      title:
+      title: Tämä käyttäjä on hyllytetty.
       your_account:
-        explanation_1:
-        title:
+        explanation_1: Jos haluat keskustella hyllytyksesi syistä tai miten saada tilisi takaisin käyttöön, ole hyvä ja vieraile keskustelualueella klikkaamalla allaolevaa linkkiä.
+        title: Tilisi on hyllytetty
     suspended_user_post:
-      description:
-      title:
+      description: Tämä viesti rikkoi <a href="%{link}">yhteisön ohjeitamme</a>. Vastuussa oleva käyttäjä on myös saatettu hyllyttää.
+      title: Tämä viesti on poistettu
   errors:
     attributes:
       iso_3166_1:
-        invalid:
+        invalid: ei ole kelvollinen maa
       iso_639_1:
-        invalid:
+        invalid: ei ole kelvollinen kieli
       release_date:
         invalid: ei ole kelvollinen päivämäärä
     images:
