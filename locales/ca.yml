@@ -9,7 +9,7 @@ ca:
   API Overview: Resum de l'API
   API Read Access Token: Testimoni d'accés de lectura a l'API
   API Sessions: Sessions API
-  API Stats: Estadístiques API
+  API Stats: Estadístiques de l'API
   API Status Codes: Codis dels estats de l'API
   API Terms: Termes de l'API
   API Terms of Use: Termes d'ús de l'API
@@ -158,12 +158,12 @@ ca:
   Edit App: Edita l'aplicació
   Edit Data: Edició de dades
   Edit Data & Content: Edició de dades i contingut
-  Edit Page: edició de pàgina
+  Edit Page: pàgina d'edició
   Editing Content: S'està editant el contingut
   Editing in: S'està editant en %{language}
   Education: Educació
   Email: Correu electrònic
-  Email Address: Direcció de correu electrònic
+  Email Address: Adreça de correu electrònic
   Email Content: Contingut del correu electrònic
   Embed: Embegut
   Episode Images:
@@ -215,12 +215,12 @@ ca:
   Help: Ajuda
   Help Us By Contributing Missing Data: Ajudeu-nos aportant informació faltant
   Hi: Hola
-  Hide favorites?: Voleu amagar els preferits?
-  Hide items on watchlist?: Voleu ocultar els elements a la llista de seguiment?
-  Hide rated?: Voleu ocultar la valoració?
+  Hide favorites?: Desitgeu amagar els preferits?
+  Hide items on watchlist?: Desitgeu ocultar els elements a la llista de seguiment?
+  Hide rated?: Desitgeu ocultar la valoració?
   Home: Inici
   Homepage: Pàgina d'inici
-  IMDB ID: ID de IMDB
+  IMDB ID: ID d'IMDB
   Images: Imatges
   Import CSV: Importa CSV
   Import List: Importa llista
@@ -393,7 +393,7 @@ ca:
   Select a category: Seleccioneu una categoria...
   Send: Envia
   Sessions: Sessions
-  Share: Compartiu
+  Share: Compartiu-ho
   Share Link: Compartiu-ne l'enllaç
   Sharing: Compartint
   Show: Mostra
@@ -464,7 +464,7 @@ ca:
   Type of Problem: Mena de problema
   Type of Use: Mena d'ús
   URL: URL
-  Upcoming Movies: Properes pel·lícules
+  Upcoming Movies: Pròximes pel·lícules
   Update: Actualitza
   Upload Logo: Càrrega de logotip
   User Score: Valoració dels usuaris
@@ -576,7 +576,7 @@ ca:
         recent_events: Esdeveniments recents
       recent: Recents
     export:
-      csv_explanation: Si voleu exportar una còpia d'aquesta llista a un fitxer CSV, feu clic al botó «Exporta» de sota. Es crearà l'exportació i se us enviarà per correu electrònic. Depenent de la mida de la llista, trigarà uns minuts a completar-se.
+      csv_explanation: Si desitgeu exportar una còpia d'aquesta llista a un fitxer CSV, feu clic al botó «Exporta» de sota. Es crearà l'exportació i se us enviarà per correu electrònic. Depenent de la mida de la llista, trigarà uns minuts a completar-se.
       export: Exporta
       export_csv: Exporta CSV
     favorites:
@@ -663,7 +663,7 @@ ca:
       my_recommendations: Les meves recomanacions
       no_recommendations: No tenim prou dades per a suggerir cap recomanació.
       no_recommendations_helper: Proveu d'afegir alguns preferits més (com més millor) i torneu per a comprovar com ho hem fet.
-      no_recommendations_helper_2: Proveu de valorar algunes pel·lícules i sèries (com més millor) i després doneu-nos unes hores per veure què hi podem fer. Aquestes recomanacions s'actualitzaran a mesura que mireu i valoreu més contingut.
+      no_recommendations_helper_2: Proveu de valorar algunes pel·lícules i sèries (com més millor) i després doneu-nos unes hores per a veure què hi podem fer. Aquestes recomanacions s'actualitzaran a mesura que mireu i valoreu més contingut.
       page_title: Recomanacions
     sort_options:
       asc: Ascendent
@@ -696,21 +696,21 @@ ca:
       need_account: Cal que inicieu una sessió per a continuar!
       title: Cal un compte
     approved_session: Heu aprovat %{application_name}. Podeu tancar la finestra.
-    continue: Si voleu continuar, feu clic al botó d'aprovació de sota. Si no, simplement tanqueu la finestra.
+    continue: Si desitgeu continuar, feu clic al botó d'aprovació de sota. Si no, simplement tanqueu la finestra.
     invalid_api_app:
       message: L'usuari de l'API que s'està autenticant actualment no és vàlid.
-      title: Usuari API no vàlid
+      title: L'usuari de l'API no és vàlid
     missing_request_token:
-      message: Es requereix un testimoni de sol·licitud per autenticar els comptes d'usuari.
+      message: Es requereix un testimoni de sol·licitud per a autenticar els comptes d'usuari.
       title: Falta el testimoni de sol·licitud
     request_token_approval:
-      message: "{{APP}} demana permís per llegir i escriure dades en nom vostre. Això és necessari si voleu fer coses com mantenir les vostres llistes o puntuar les pel·lícules fora de TMDB."
+      message: "{{APP}} demana permís per a llegir i escriure dades en nom vostre. Això és necessari si desitgeu fer coses com mantenir les vostres llistes o puntuar les pel·lícules fora de TMDB."
     statuses:
       completed:
         message: Heu concedit permís de lectura i escriptura a <strong>%{application_name}</strong>. Podeu tornar a l'aplicació i tancar aquesta finestra. Sempre podeu revocar aquest accés des de la pàgina de configuració del vostre compte a la pàgina «Aplicacions connectades».
         name: Autenticació concedida
       denied:
-        message: "<p>Heu denegat l'accés a <strong>%{application_name}</strong>. Si és un error, o voleu reiniciar el procés d'autenticació, aneu a l'aplicació i torneu a demanar permís.</p>"
+        message: "<p>Heu denegat l'accés a <strong>%{application_name}</strong>. Si és un error, o desitgeu reiniciar el procés d'autenticació, aneu a l'aplicació i torneu a demanar permís.</p>"
         name: Autenticació denegada
       invalid_request_token:
         message: El testimoni d'accés que heu enviat no és vàlid. La majoria de les vegades, es deu al fet que el testimoni ha caducat. Proveu de crear-ne un de nou i assegureu-vos que l'heu copiat correctament. Si continueu tenint problemes, contacteu amb el desenvolupador de l'aplicació que esteu utilitzant.
@@ -730,6 +730,30 @@ ca:
     translated_overview: Sinopsi
     tv_series_status: Estat de les sèries de televisió
   average edits per day: mitjana d'edicions per dia
+  awards:
+    add_nomination:
+    air_date:
+      future: S'emet %{date}
+      past: Emès %{date}
+    category_empty: Categoria deserta.
+    nominations:
+      one: 1 nominació
+      other: "%{count} nominacions"
+    nominee: Nominat
+    show_info:
+      directed_by: Dirigit per
+      hosted_by: Presentat per
+      location: Ubicació
+      network: Cadena
+      preshow_hosts: Amfitrió previ
+      produced_by: Produït per
+      runtime: Duració
+      title: Mostra la informació
+    title: Premis
+    winner: Guanyador
+    wins:
+      one: 1 guardó
+      other: "%{count} guardons"
   back_options:
     back: Enrere
     episode: Torna al capítol
@@ -749,7 +773,7 @@ ca:
     movies:
       AU:
         '1':
-          meaning: Exempta de classificació. Les pel·lícules exemptes de classificació no han de tenir material polèmic (és a dir, material que normalment es qualificaria de M o superior)..
+          meaning: Exempta de classificació. Les pel·lícules exemptes de classificació no han de tenir material polèmic (és a dir, material que normalment es qualificaria de M o superior).
         '2':
           meaning: General. El contingut és d'impacte molt suau.
         '3':
@@ -777,7 +801,7 @@ ca:
           meaning: Prohibit per a menors de 18.
       BR:
         '1':
-          meaning: Per a tots els públics. No exposeu els nens a contingut potencialment nociu.
+          meaning: Per a tots els públics. No exposeu els infants a contingut potencialment nociu.
         '2':
           meaning: No recomanat per a menors de 10. Contingut violent i llenguatge inapropiat per als infants, encara que sigui de poca intensitat.
         '3':
@@ -803,7 +827,7 @@ ca:
         '0':
           meaning: Sense classificació per edats.
         '1':
-          meaning: Qualificació general - Pot ser vista, llogada o comprada per tots els públics. Si la pel·lícula porta una qualificació de “G”, pot ofendre la sensibilitat dels menors de 8. A la qualificació cal afegir-hi “no apta per a nens”.
+          meaning: Qualificació general - Pot ser vista, llogada o comprada per tots els públics. Si la pel·lícula porta una qualificació de “G”, pot ofendre la sensibilitat dels menors de 8. A la qualificació cal afegir-hi “no apta per a infants”.
         '2':
           meaning: Majors de 13 - Pot ser vist, llogat o comprat només per majors de 13. Els menors de 13 poden ser admesos només en companyia d'un adult.
         '3':
@@ -818,7 +842,7 @@ ca:
         '3':
           meaning: Menors de 12 admesos, infants entre 6 i 11 anys només si estan acompanyats d'un adult.
         '4':
-          meaning: Majors de 16 admesos, ningú per sota d'aquesta edat admès.
+          meaning: Majors de 16 admesos, no s'admet ningú per sota.
         '5':
           meaning: No s'admeten menors, només adults.
       DK:
@@ -864,7 +888,7 @@ ca:
         '1':
           meaning: Per a tots els públics.
         '2':
-          meaning: 'No apte per a menors de 10 (aquesta qualificació només s''empra per a TV); equivalent en cinemes: "avís", algunes escenes poden ser pertorbadores  per a infants i gent sensible; equivalent en vídeo: "supervisió parental".'
+          meaning: 'No apte per a menors de 10 (aquesta qualificació només s''empra per a TV); equivalent en cinemes: "avís", algunes escenes poden ser pertorbadores per a infants i gent sensible; equivalent en vídeo: "supervisió parental".'
         '3':
           meaning: No apte per a menors de 12 i prohibida l'entrada als cinemes per a menors de 12.
         '4':
@@ -875,15 +899,15 @@ ca:
         '1':
           meaning: Per a tots els públics, no hi ha res no apte per als infants.
         '2':
-          meaning: Per a tots els públics, però algunes escenes poden ser pot adequades per als infants. Pot contenir paraulotes suaus i referències a sexe/drogues. Pot contenir violència moderada si està justificada pel context (p.ex. fantasia)
+          meaning: Per a tots els públics, però algunes escenes poden ser poc adequades per als infants. Pot contenir paraulotes suaus i referències a sexe/drogues. Pot contenir violència moderada si està justificada pel context (p. ex. fantasia).
         '3':
           meaning: Les pel·lícules en aquesta categoria es consideren inadequades per a persones molt joves. Els menors de 12 anys només són admesos al cinema si estan acompanyats tota l'estona d'un adult, amb una edat mínima de 18 anys. No obstant això, generalment no es recomana que els menors de 12 anys vegin la pel·lícula. Les pel·lícules amb aquesta qualificació poden contenir temes adults, discriminació, drogues toves, vocabulari moderadament groller, llenguatge fort infreqüent i violència moderada, referències sexuals i nus. L'activitat sexual hi pot ser present breument i discreta. La violència sexual pot ser implícita o indicada breument.
         '4':
-          meaning: Des de 2002 només per a vídeos domèstics. Les pel·lícules qualificades com a 12A normalment reben una qualificació "12" per al VHS/DVD a no ser que s'hi hagi afegit material extra que requereixi una qualificació superior. Ningú menor de 12 pot llogar o comprar un VHS, DVD, disc Blu-ray o joc qualificat com a 12. La guia de continguts és idèntica per a l'emprada per a la qualificació 12A.
+          meaning: Des de 2002 només per a vídeos domèstics. Les pel·lícules qualificades com a 12A normalment reben una qualificació "12" per al VHS/DVD llevat que s'hi hagi afegit material extra que requereixi una qualificació superior. Ningú menor de 12 pot llogar o comprar un VHS, DVD, disc Blu-ray o joc qualificat com a 12. La guia de continguts és idèntica per a l'emprada per a la qualificació 12A.
         '5':
           meaning: Només s'admeten majors de 15. Ningú menor de 15 pot llogar o comprar un VHS, DVD, disc Blu-ray, UMD o joc qualificat com a 15, o veure una pel·lícula al cinema amb aquesta qualificació. Les pel·lícules sota aquesta categoria poden contenir temes per a adults, drogues dures, llenguatge barroer freqüent i ús limitat de llenguatge molt barroer, violència forta i referències sexuals fortes i nues sense detalls gràfics. L'activitat sexual pot ser escenificada però sense cap detall fort. La violència sexual es pot mostrar si és discreta i justificada pel context.
         '6':
-          meaning: Només s'hi admeten adults. Ningú menor de 18 anys pot llogar o comprar un VHS, DVD, Blu-ray Disc, UMD o joc qualificat com a 18, o veure una pel·lícula al cinema amb aquesta qualificació. Pel·lícules sota aquesta qualificació no tenen limitació de llenguatge barroer. Les drogues dures estan generalment permeses, i les referències explícites del sexe juntament amb l'activitat sexual detallada també estan permeses. Es poden permetre escenes de sexe real fort si el context ho justifica. Generalment es permet una violència molt forta, sagnant i/o sàdica. Es permet la violència sexual forta a no ser que sigui erotitzada o excessivament gràfica.
+          meaning: Només s'hi admeten adults. Ningú menor de 18 anys pot llogar o comprar un VHS, DVD, Blu-ray Disc, UMD o joc qualificat com a 18, o veure una pel·lícula al cinema amb aquesta qualificació. Pel·lícules sota aquesta qualificació no tenen limitació de llenguatge barroer. Les drogues dures estan generalment permeses, i les referències explícites del sexe juntament amb l'activitat sexual detallada també estan permeses. Es poden permetre escenes de sexe real fort si el context ho justifica. Generalment, es permet una violència molt forta, sagnant i/o sàdica. Es permet la violència sexual forta llevat que sigui erotitzada o excessivament gràfica.
         '7':
           meaning: 'Només es pot mostrar als cinemes llicenciats per a adults o vendre''s a botigues llicenciades de sexe, i només a adults, a majors de 18 anys o més. Les pel·lícules sota aquesta categoria són sempre pornografia dura, definida com a material destinat a l''estimulació sexual i que conté imatges clares de l''activitat sexual real, material fetitxe fort, imatges explícites animades o la vista de certs actes com ara triple penetració simultània i snowballing. Hi roman una varietat de material que sovint es talla de la qualificació R18: imatges fortes de lesions en BDSM o assots, urolàgnia, escenes que suggereixen incest, fins i tot en escena, referències a relacions sexuals menors o desenvolupament sexual infantil i comportament agressiu com estirades de cabells o escopir en un intèrpret no estan permesos. S''exigeixen més retallades en aquesta categoria que en qualsevol altra.'
       HU:
@@ -905,7 +929,7 @@ ca:
         '0':
           meaning: Exhibició pública no restringida a tota l'Índia, apta per a tots els grups d'edat. Les pel·lícules en aquesta categoria no haurien de molestar els infants de més de 4 anys. Aquestes pel·lícules poden contenir temes educatius, socials o familiars. Les pel·lícules en aquesta categoria també poden tenir violència fantàstica o llenguatge moderadament groller.
         '1':
-          meaning: Per a tots els públics, però es recomana que els menors de 12 siguin acompanyats per un adult degut a què el tema o contingut pot ser considerat intens o inapropiat per als infants més menuts. Les pel·lícules en aquesta categoria poden contenir temes adults, referències sexuals, escenes moderades de sexe, violència amb imatges breus de sang i fetge o ús infreqüent de llenguatge barroer.
+          meaning: Per a tots els públics, però es recomana que els menors de 12 siguin acompanyats per un adult pel fet que el tema o contingut pot ser considerat intens o inapropiat per als infants més menuts. Les pel·lícules en aquesta categoria poden contenir temes adults, referències sexuals, escenes moderades de sexe, violència amb imatges breus de sang i fetge o ús infreqüent de llenguatge barroer.
         '2':
           meaning: Restringit a espectadors adults (majors de 18). Ningú per sota d'aquesta edat o 18 pot comprar/llogar un DVD qualificat com a A, VHS, UMD o veure una pel·lícula en un cinema amb aquesta valoració. Les pel·lícules sota aquesta categoria poden contenir temes adults/pertorbadors, llenguatge barroer freqüent, violència elevada amb sang i fetge, escenes fortes de sexe o escenes d'abús de drogues que es considerin no aptes per a menors.
       IT:
@@ -932,9 +956,9 @@ ca:
         '0':
           meaning: Sense classificació per edats.
         '1':
-          meaning: '(Umum: "Per a tots els públics") - Per a tots els públics. (Emprat en la majoria de pel·lícules exhibides a Malàisia fins al 2008, però el seu ús continua només en televisió, especialment a Ràdio Televisió Malaia)'
+          meaning: '(Umum: "Per a tots els públics") - Per a tots els públics. (Emprat en la majoria de pel·lícules exhibides a Malàisia fins al 2008, però el seu ús continua només en televisió, especialment a Ràdiotelevisió Malaia)'
         '2':
-          meaning: '(Penjaga 13 : "Supervisió parental 13") - No s''admeten menors de 13 excepte acompanyats per un adult. (Introduït el 2006, esdevingué el sistema oficial de qualificació el 2008. La qualificació "PG-13" va ser revisada a "P13" des de l''abril del 2012 per tal d''emfatitzar l''ús del malai en comptes de l''anglès.) Escenes de petons apassionats no estan permeses per sota de la qualificació de P13.'
+          meaning: '(Penjaga 13: "Supervisió parental 13") - No s''admeten menors de 13 excepte acompanyats per un adult. (Introduït el 2006, esdevingué el sistema oficial de qualificació el 2008. La qualificació "PG-13" va ser revisada a "P13" des de l''abril del 2012 per tal d''emfatitzar l''ús del malai en comptes de l''anglès.) Escenes de petons apassionats no estan permeses per sota de la qualificació de P13.'
         '3':
           meaning: '(Seram, Fanas: "Violència gràfica i horror/terror") - La pel·lícula pot contenir elevada violència, sang i fetge o horror/terror que el públic pot trobar objectable.'
         '4':
@@ -951,24 +975,24 @@ ca:
         '3':
           meaning: Potencialment nociu per a menors de 9.
         '4':
-          meaning: Potencialment nociu per a menors de 12; l'emissió no està permesa abans de les 20h.
+          meaning: Potencialment nociu per a menors de 12; l'emissió no està permesa abans de les 20 h.
         '5':
-          meaning: Potencialment nociu per a menors de 16; l'emissió no està permesa abans de les 22h.
+          meaning: Potencialment nociu per a menors de 16; l'emissió no està permesa abans de les 22 h.
       'NO':
         '0':
           meaning: Sense informació de qualificació per edats.
         '1':
           meaning: Per a tots els públics.
         '2':
-          meaning: 6 anys (sense restricció per als infants acompanyats per un adult)
+          meaning: 6 anys (sense restricció per als infants acompanyats per un adult).
         '3':
-          meaning: 9 anys (menors de 6 anys acompanyats d'un adult)
+          meaning: 9 anys (menors de 6 anys acompanyats d'un adult).
         '4':
           meaning: 12 anys (menors de 9 anys acompanyats d'un adult)
         '5':
-          meaning: 15 anys (menors de 12 anys acompanyats d'un adult)
+          meaning: 15 anys (menors de 12 anys acompanyats d'un adult).
         '6':
-          meaning: 18 anys (límit inferior absolut)
+          meaning: 18 anys (límit inferior absolut).
       NZ:
         '1':
           meaning: Per a tots els públics.
@@ -1066,7 +1090,7 @@ ca:
         '6':
           meaning: |-
             No recomanat per a infants i adolescents menors de 15 anys. Els continguts qualificats com a MA15+- només es poden emetre entre les 21:00 i les 5:00. L'avís a l'espectador és obligatori.
-            Algunes pel·lícules qualificades com a R18+ en DVD/Blu-ray sovint són reeditades per obtenir la qualificació MA15+ i poder emetre-les als canals de TV.
+            Algunes pel·lícules qualificades com a R18+ en DVD/Blu-ray sovint són reeditades per a obtenir la qualificació MA15+ i poder emetre-les als canals de TV.
             Algunes pel·lícules qualificades com a R18 en DVD s'han emès a televisions d'Austràlia amb la qualificació MA15+.
         '7':
           meaning: No apte per a infants i adolescents menors de 15 anys. És igual que la qualificació MA15+, amb la diferència de l'AV (Violència adulta), la qual cosa significa que tot allò que es classifiqui "MA15+" amb l'advertència de "Violència freqüent" o "Violència forta" es convertirà automàticament en AV15+ ( amb aquest mateix advertiment al consumidor). La classificació AV encara pot excedir qualsevol contingut MA15+, en particular, 'Violència'. El contingut d'AV15+ només es pot transmetre entre les 21.30 i les 5.00. L'advertiment al consumidor és obligatori.
@@ -1089,7 +1113,7 @@ ca:
         '0':
           meaning: Els programes exempts de qualificació (com notícies o programes esportius) no mostraran cap valoració a la pantalla.
         '1':
-          meaning: Programació adequada per a infants entre els 2 i 7 anys. No s'hi permet cap tipus de llenguatge groller o contingut sexual. Conté violència menor.
+          meaning: Programació adequada per a infants entre els 2 i 7 anys. No s'hi permet cap mena de llenguatge groller o contingut sexual. Conté violència menor.
         '2':
           meaning: Apte per a menors de 8 anys, es permet un nivell baix de violència i terror fantàstic. No es permet llenguatge barroer, però de vegades sí que pot tenir llenguatge “socialment ofensiu i discriminatori” en el context de la història. No es permet cap mena de contingut sexual.
         '3':
@@ -1099,7 +1123,7 @@ ca:
         '5':
           meaning: Programació pensada per a espectadors majors de 14 anys. Pot contenir fortes dosis de violència i llenguatge altament barroer, i representacions d'activitat sexual, sempre que estiguin dindre el context de la història.
         '6':
-          meaning: Programació destinada a espectadors majors de 18 anys. Pot contenir violència explícita i activitat sexual. La programació amb aquesta qualificació no es pot transmetre fora de la franja 21 - 6h.
+          meaning: Programació destinada a espectadors majors de 18 anys. Pot contenir violència explícita i activitat sexual. La programació amb aquesta qualificació no es pot transmetre fora de la franja 21 - 6 h.
       CA-QC:
         '0':
           meaning: Sense qualificació per edats.
@@ -1119,11 +1143,11 @@ ca:
         '1':
           meaning: Pot ser emès en qualsevol horari.
         '2':
-          meaning: L'emissora ha de prendre la decisió sobre l'horari, prenent en consideració l'impacte en infants entre les 6 i les 20h.
+          meaning: L'emissora ha de prendre la decisió sobre l'horari, prenent en consideració l'impacte en infants entre les 6 i les 20 h.
         '3':
-          meaning: Només pot ser emès entre les 22 i les 6h.
+          meaning: Només pot ser emès entre les 22 i les 6 h.
         '4':
-          meaning: Només pot ser emès entre les 23 i les 6h.
+          meaning: Només pot ser emès entre les 23 i les 6 h.
       ES:
         '0':
           meaning: Sense qualificació per edat.
@@ -1149,11 +1173,11 @@ ca:
         '1':
           meaning: No recomanat per a menors de 10. No permès en sèries per als infants.
         '2':
-          meaning: No recomanat per a menors de 12. No es pot emetre abans de les 22h. Alguns canals i programes són subjectes a excepcions.
+          meaning: No recomanat per a menors de 12. No es pot emetre abans de les 22 h. Alguns canals i programes són subjectes a excepcions.
         '3':
           meaning: No recomanat per a menors de 16. No es pot emetre abans de les 22:30. Alguns canals i programes són subjectes a excepcions.
         '4':
-          meaning: No recomanat per a menors de 18. Permès entre la mitja nit i les 5 de la matinada, i només en alguns canals, accés a aquests programes està blocat per a una contrasenya personal.
+          meaning: No recomanat per a menors de 18. Permès entre la mitjanit i les 5 de la matinada, i només en alguns canals, accés a aquests programes està blocat per a una contrasenya personal.
       GB:
         '0':
           meaning: El símbol d'una U és per a "Universal". Una pel·lícula U hauria de ser adequada per a espectadors de més de 4 anys.
@@ -1168,7 +1192,7 @@ ca:
         '5':
           meaning: Les pel·lícules qualificades com a 18 són per a adults. Ningú menor de 18 té dret a veure una pel·lícula qualificada com a 18 al cinema o de comprar / llogar-la. No hi ha pel·lícules qualificades com a 18 aptes per a menors.
         '6':
-          meaning: La categoria R18 és una classificació especial i legalment restringida, per a obres principalment explícits de sexe consentit o material fetitxista fort que involucri adults.
+          meaning: La categoria R18 és una classificació especial i legalment restringida, per a obres principalment explícites de sexe consentit o material fetitxista fort que involucri adults.
       HU:
         '0':
           meaning: Sense qualificació per edats.
@@ -1183,7 +1207,7 @@ ca:
         '5':
           meaning: Programes no recomanats per a menors de 16, pot contenir violència més intensa i contingut sexual. Com a marca es fa servir un cercle groc amb el número 16 a dins.
         '6':
-          meaning: El programa està recomanat només per a adults (majors de 18), poden contenir violència explícita i sexe consentit explícit. Per a aquesta qualificació es fa servir un cercle vermell amb el número 18 a dins (fins el 2002 també es va fer servir un cercle vermell, però no contenia cap número).
+          meaning: El programa està recomanat només per a adults (majors de 18), poden contenir violència explícita i sexe consentit explícit. Per a aquesta qualificació es fa servir un cercle vermell amb el número 18 a dins (fins al 2002 també es va fer servir un cercle vermell, però no contenia cap número).
       KR:
         '0':
           meaning: Aquesta qualificació només és per a concursos culturals; programes d'estils de vida; programes documentals; programes de tertúlia d'actualitat; programes educatius/culturals; esports, excloent MMA o d'altres esports violents; i d'altres programes que reconegui Korea Communications Standards.
@@ -1196,14 +1220,14 @@ ca:
         '4':
           meaning: Aquesta qualificació és per a programes que poden considerar-se inapropiats per a menors de 15 i cal que imperi el criteri dels pares. Exemples d'aquest tipus de programes són els de testimonis i drames en directe (a KBS, MBC, SBS). Els programes amb aquesta qualificació poden incloure temes adults, llenguatge barroer, referències sexuals i violència. Com la qualificació "TV-MA" estatunidenca, s'aplica habitualment en esdeveniments en directe en els quals no es pot predir si hi haurà alguna situació inapropiada. Des de 2007 que aquesta qualificació és la més emprada en televisió.
         '5':
-          meaning: Aquesta qualificació és per a programes destinats només per a adults. La programació amb classificació de 19 no es pot emetre en les franges horàries 7h-9h i 13h-22h. Els programes que reben aquesta qualificació quasi sempre tracten temes per a adults, situacions sexuals, ús freqüent del llenguatge barroer i escenes violentes.
+          meaning: Aquesta qualificació és per a programes destinats només per a adults. La programació amb classificació de 19 no es pot emetre en les franges horàries 7 h - 9 h i 13 h - 22 h. Els programes que reben aquesta qualificació quasi sempre tracten temes per a adults, situacions sexuals, ús freqüent del llenguatge barroer i escenes violentes.
       LT:
         '1':
           meaning: Destinat a majors de 7 anys.
         '2':
-          meaning: Destinat a majors de 14 anys i emès entre les 21h i les 6h.
+          meaning: Destinat a majors de 14 anys i emès entre les 21 h i les 6 h.
         '3':
-          meaning: Destinat a majors de 18 anys i emès (corresponent a l'índex N-18) i emès entre les 23h i les 6h. Menors exclosos, només adults.
+          meaning: Destinat a majors de 18 anys i emès (corresponent a l'índex N-18) i emès entre les 23 h i les 6 h. Menors exclosos, només adults.
       NL:
         '0':
           meaning: Sense qualificació per edats.
@@ -1234,7 +1258,7 @@ ca:
         '1':
           meaning: Per a tots els públics.
         '2':
-          meaning: Supervisió parental (pot no ser apte per a menors de 10 anys, es recomana supervisió parental)
+          meaning: Supervisió parental (pot no ser apte per a menors de 10 anys, es recomana supervisió parental).
         '3':
           meaning: Supervisió parental (pot no ser apte per a menors de 12 anys, es recomana supervisió parental).
         '4':
@@ -1254,7 +1278,7 @@ ca:
           meaning: Només ho poden veure els majors de 18 anys.
       SK:
         '0':
-          meaning: Sense qualificació per edats
+          meaning: Sense qualificació per edats.
         '1':
           meaning: Per a tots els públics.
         '2':
@@ -1286,7 +1310,7 @@ ca:
         '1':
           meaning: Aquest programa està pensat per a ser apropiat per a tots els infants.
         '2':
-          meaning: Aquest programa està pensat per a nens majors de 7 anys.
+          meaning: Aquest programa està pensat per a infants majors de 7 anys.
         '3':
           meaning: La majoria dels pares trobarien aquest programa apte per a totes les edats.
         '4':
@@ -1294,7 +1318,7 @@ ca:
         '5':
           meaning: Aquest programa conté algun material que alguns pares trobarien poc apte per als menors de 14.
         '6':
-          meaning: Aquest programa està específicament pensat per a ser vist per a adults i per tant pot no ser apte per als menors de 17.
+          meaning: Aquest programa està específicament pensat per a ser vist per a adults i, per tant, pot no ser apte per als menors de 17
   character:
     Movie: Pel·lícula
     Titles: Títols
@@ -1310,17 +1334,17 @@ ca:
     add_new_appearance: Afegiu una aparició nova
     add_new_appearance_links_selection: Afegir una nova aparició enllaçarà les vostres eleccions a les aparicions ja actualment llistades.
     add_new_group: Afegiu un grup nou
-    add_the_name_of_the_character: Afegiu el nom del personatge
+    add_the_name_of_the_character: Afegiu el nom del personatge.
     add_to_tmdb: Afegiu a TMDB
     add_translation: Afegiu una traducció
-    add_valid_translation: Cal afegir una traducció vàlida
-    adding_easy: Afegir a TMDB és fàcil i simple
+    add_valid_translation: Cal afegir una traducció vàlida.
+    adding_easy: Afegir a TMDB és fàcil i simple.
     all_done: Ja està?
     all_languages: Totes les llengües
-    all_record_exists_in_group: Tots els registres ja existeixen en el grup actual
+    all_record_exists_in_group: Tots els registres ja existeixen en el grup actual.
     already_added: Ja estava afegit
     alter_popularity: Altera la popularitat
-    are_you_sure: N'esteu segur que voleu procedir?
+    are_you_sure: N'esteu segur que desitgeu procedir?
     are_you_sure_updates_will_be_lost: N'estàs segur de voler sortir? Els teus canvis es perdran.
     association_already_exists: L'associació ja existeix
     association_updated: Associació actualitzada!
@@ -1331,7 +1355,7 @@ ca:
     backdrop_image_message: Aquí hi ha algunes imatges de fons que hem extret per a la capçalera. Si us plau, seleccioneu-ne d'1 a 3 per a actualitzar-la.
     backdrop_oops_message: Ups! No podeu seleccionar més de 3 imatges de capçalera.
     backdrop_window_title: Trieu una foto de fons de personatge
-    below_is_example_text: A sota hi ha un exemple de com seria la pàgina de Batman. Reviseu, si us plau, la següent informació <br>i verifiqueu-la abans de desar la pàgina i fer-la pública a TMDb.
+    below_is_example_text: A sota hi ha un exemple de com seria la pàgina de Batman. Reviseu, si us plau, la següent informació<br>i verifiqueu-la abans de desar la pàgina i fer-la pública a TMDb.
     cancel_edits: Cancel·leu edicions
     character_backdrop_photo: Foto de fons de personatge
     character_bio: Biografia del personatge
@@ -1355,11 +1379,11 @@ ca:
     confirmation: Confirmació
     continue: Continua
     contribute: Contribuïu a la nostra base de dades
-    correct_errors_in_forms: Corregiu els errors en els camps del formulari
+    correct_errors_in_forms: Corregiu els errors en els camps del formulari.
     create_overview: Creeu una sinopsi
     create_overview_bio_help: Escriviu una biografia d'aquesta versió específica. El personatge té moltes encarnacions.
     create_overview_help: Ajudeu-nos a completar la biografia d'aquest personatge al llarg de les pel·lícules i sèries que n'han fet.
-    create_overview_name_help: Canvieu només el nom del personatge si hi ha un motiu específic o per un nom comú pel que sigui conegut.
+    create_overview_name_help: Canvieu només el nom del personatge si hi ha un motiu específic o per un nom comú pel qual sigui conegut.
     create_overview_note: L'actor i la seva foto de perfil no poden ser editats aquí.
     default_language_results_text: Els resultats estan predeterminats en "en-US" perquè no s'ha trobat el text cercat en la llengua seleccionada.
     delete_backdrop: Elimina la imatge de fons
@@ -1381,22 +1405,22 @@ ca:
     enter_character_name: Entreu el nom del personatge
     enter_character_synopsis: Entreu la sinopsi del personatge
     enter_group_synopsis: Entreu la sinopsi del grup
-    enter_text_search: Introduïu un text per fer la cerca
-    enter_valid_translation: Entreu una traducció vàlida
+    enter_text_search: Introduïu un text per a fer la cerca
+    enter_valid_translation: Entreu una traducció vàlida.
     era: Era
     error_while_submitting: Error en enviar
     failed_draft: no s'ha pogut obtenir una resposta preliminar
-    filter_subscribed_services: Filtra pels serveis subscrits
+    filter_subscribed_services: Filtra pels serveis subscrits.
     find_character: Quins personatges o títol li agradaria trobar?
     find_character_note: Trobeu el vostre personatge preferit, títols i més
     finished_selections: Heu acabat les vostres seleccions?
     found_everything: Ho heu trobat tot?
     frequent_translations: Traduccions freqüents
     group_name: Nom del grup
-    group_name_already_exists: El grup amb el conjunt d'elements ja existeix. Voleu crear un grup?
+    group_name_already_exists: El grup amb el conjunt d'elements ja existeix. Desitgeu crear un grup?
     group_name_required: Cal un nom de grup
-    groups_minimum_appearance_msg: El grup ha de tenir com a mínim una aparició. Afegiu-hi, si us plau, una aparició.
-    groups_not_present: Els grups no estan presents en el personatge
+    groups_minimum_appearance_msg: El grup ha de tenir com a mínim una aparició. Afegiu-hi, si us plau, una aparició
+    groups_not_present: Els grups no estan presents en el personatge.
     headshot: Imatge de perfil
     headshot_window_title: Canvieu la foto de perfil del personatge
     help_our_mods: Ajudeu els nostres moderadors
@@ -1406,11 +1430,11 @@ ca:
     image_media_association: Aquesta imatge està associada a algun material multimèdia. Si continueu, les associacions del material enllaçat també canviaran!
     in_translate_mode: Sou en el mode de traducció
     inline_edit_original_name: Nom original
-    join_community_tmdb: Uniu-vos a la comunitat per contribuir a The Movie DB.
+    join_community_tmdb: Uniu-vos a la comunitat per a contribuir a The Movie DB.
     launch_label: llançament
     lock_existing_appearances: Bloca les aparicions existents
     log_tv_movies_watch: Registreu les sèries i pel·lícules que vegeu
-    master_group_limit_error: Ho sentim, però heu arribat al límit màxim suportat pel grup
+    master_group_limit_error: Ho sentim, però heu arribat al límit màxim suportat pel grup.
     media: Materials
     media_association: Aquest material està associat a una imatge d'un grup seleccionat. Si continueu, les associacions personals de la imatge enllaçada també canviaran!
     media_character_id: ID de material de personatge
@@ -1422,8 +1446,8 @@ ca:
       tv_show: Sèries
     movie_titles: Títols de pel·lícules
     name: Nom
-    navigate_to_dashboard: Vés al meu tauler de control
-    navigate_to_master: Vés a la pàgina principal
+    navigate_to_dashboard: Ves al meu tauler de control
+    navigate_to_master: Ves a la pàgina principal
     need_help: Us cal ajuda?
     new_to_tmdb: Nou a TMDb
     next: Següent
@@ -1432,13 +1456,13 @@ ca:
     next_nav_label: Següent
     next_review_page: 'Següent: Ressenyeu la pàgina'
     no_appearance_text: No s'han trobat grups!
-    no_appearance_text_1: No s'han trobat aparicions! <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">Cliqueu aquí </a> per a afegir noves aparicions!
+    no_appearance_text_1: No s'han trobat aparicions! <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">Cliqueu aquí </a>per a afegir noves aparicions!
     no_appearance_text_2: No s'han trobat grups! <a href="/character/%{page_url}/edit/">Cliqueu aquí </a>per a afegir un grup nou!
     no_backdrop_in_group: Cap dels grups té afegits fons de personatges!
     no_cast_credits: No s'han trobat crèdits de repartiment, si us plau, proveu amb un altre material!
     no_records_found: No s'han trobat registres, proveu-ho amb un altre material!
     note: Nota
-    note_info: Per a continuar, seleccioneu una persona del menú desplegable inferior
+    note_info: Per a continuar, seleccioneu una persona del menú desplegable inferior.
     note_mods: Una nota pels moderadors
     okay: D'acord
     optional: opcional
@@ -1458,7 +1482,7 @@ ca:
     push_test_v1: Prova de pulsació v1
     ready_to_launch: Això és tot. Preparat per a publicar-ho?
     record_exists_in_group: El registre ja existeix en el grup.
-    refresh_list: S'ha produït un problema en refrescar la llista
+    refresh_list: S'ha produït un problema en refrescar la llista.
     register: Registre
     result: Resultats
     results_info_text: Seleccioneu quina representació del personatge us agradaria afegir.
@@ -1472,20 +1496,20 @@ ca:
     search: Cerca
     search_all: 'Cerca: Tot'
     search_character_note: Cerqueu el personatge o el títol que desitgeu afegir. Podeu fer cerques múltiples per a trobar tot el que us agradaria afegir.
-    search_characters_you_want_to_see: Cerqueu els personatges o els títols que desitgeu afegir. Podeu fer cerques múltiples per trobar tot el que voldríeu afegir.
+    search_characters_you_want_to_see: Cerqueu els personatges o els títols que desitgeu afegir. Podeu fer cerques múltiples per a trobar tot el que voldríeu afegir.
     search_error_info: Editeu la cerca o comproveu que el títol en què apareix el personatge existeix a la base de dades i que té els detalls del repartiment i l'equip tècnic precisos.
     see_batman_appearance: Alguna vegada heu desitjat veure totes les aparicions de Batman?
     select_backdrop: Seleccioneu una imatge de fons
     select_cast_credit: Seleccioneu un crèdit de repartiment
     select_group_title: Selecció i agrupació de títols
-    select_message: Seleccioneu totes les estrelles que han interpretat aquesta versió del personatge. Per exemple, si l'artista que interpreta el personatge ha canviat, seleccioneu totes dues estrelles (p.ex. Edward Norton i Mark Ruffalo se seleccionarien per al Hulk de l'UCM)
+    select_message: Seleccioneu totes les estrelles que han interpretat aquesta versió del personatge. Per exemple, si l'artista que interpreta el personatge ha canviat, seleccioneu totes dues estrelles (p. ex. Edward Norton i Mark Ruffalo se seleccionarien per al Hulk de l'UCM)
     select_person: Seleccioneu un artista
     select_person_association: Seleccioneu una associació d'artistes
     select_person_for_media: Seleccioneu un artista nou per al material seleccionat
     selected_appearance_linked_to_character: Les aparicions seleccionades estaran enllaçades al personatge.
     session_expired: La sessió ha expirat!
     session_inactive: La sessió ha estat inactiva durant massa estona
-    session_over_so_redirect: La sessió ha expirat. En clicar a D'acord se us redirigirà a la pàgina del personatge.
+    session_over_so_redirect: La sessió ha expirat. En clicar a "D'acord" se us redirigirà a la pàgina del personatge.
     session_timeout: S'ha esgotat el temps de la sessió
     session_timeout_continue: La vostra sessió està a punt de caducar. Us agradaria continuar-la?
     star: Estrella
@@ -1524,7 +1548,7 @@ ca:
     validation_grpname: Entreu, si us plau, un nom vàlid de grup
     validation_synopsis: Entreu una sinopsi vàlida
     view_by: Vist per
-    want_to_delete_group: N'esteu segur que voleu eliminar aquest grup?
+    want_to_delete_group: N'esteu segur que desitgeu eliminar aquest grup?
     want_to_go_back: N'esteu segur de voler tornar enrere?
     welcome_message: 'Us donem la benvinguda a la comunitat de The Movie DB on podeu:'
     what_next: Què és el següent que us agradaria fer?
@@ -1606,7 +1630,7 @@ ca:
     primary_character: Personatge principal
     tv_show: Sèrie
   cookie_popup:
-    message: Per a oferir-vos una millor experiència al TMDB fem servir galetes. Si en voleu saber més, podeu revisar la nostra <a href="%{policy_url}" target="_blank" rel="noopener">política de galetes</a>. Si continueu fent servir TMDB entenem que accepteu aquesta política.
+    message: Per a oferir-vos una millor experiència al TMDB fem servir galetes. Si en desitgeu saber més, podeu revisar la nostra <a href="%{policy_url}" target="_blank" rel="noopener">política de galetes</a>. Si continueu fent servir TMDB entenem que accepteu aquesta política.
     ok_button: D'acord
   create_api: Crea API
   date:
@@ -1669,7 +1693,7 @@ ca:
           Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol no coincidia amb la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
 
           Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
-        subject: No encaixa amb la nostra guia de contingut (aficionat, etc...)
+        subject: No encaixa amb la nostra guia de contingut (aficionat, etc.)
       '3':
         message: |-
           Ei, hola,
@@ -1719,7 +1743,7 @@ ca:
       air_dates:
         air_dates: Dates d'emissió
         search_all_episodes: Desitgeu cercar en tots els episodis?
-        search_first_air_date: Voleu cercar per la primera data d'emissió?
+        search_first_air_date: Desitgeu cercar per la primera data d'emissió?
       availability:
         availabilities: Disponibilitats
         search_all_availabilities: Desitgeu cercar entre totes les opcions?
@@ -1788,7 +1812,7 @@ ca:
     tooltips:
       not_member: No n'ets membre?
       signup: Enregistreu-vos i uniu-vos a la comunitat
-      want_to_rate: Voleu valorar o afegir aquest element a una llista?
+      want_to_rate: Desitgeu valorar o afegir aquest element a una llista?
   discussions:
     actions:
       actions: Accions
@@ -1865,10 +1889,10 @@ ca:
         delete_discussion: En clicar "Sí", aquest debat quedarà permanentment eliminat.
         hide_comment: Si feu clic a «Sí», aquest comentari s'ocultarà.
         hide_discussion: Si cliqueu a «Sí», aquest debat s'ocultarà.
-        ignore_user: N'esteu segur de voler ignorar aquest usuari? Tots els seus debats i comentaris desapareixeran. Podeu eliminar aquest bloqueig anant a la pàgina d' "Usuaris blocats" a la configuració del vostre compte.
-        mark_as_not_spam: N'esteu segur de voler marcar aquest debat com a vàlid i no spam?
-        mark_as_spam: N'esteu segur de voler marcar aquest debat com a spam? S'eliminarà automàticament i no es podrà recuperar. Marcant els debats com a spam ajuda a entrenar el nostre sistema de detecció de spam.
-        report_violation: Si us plau, confirmeu que voleu reportar aquest usuari per violació de les nostres <a href'+/documentation/community/guidelines" target="_blank" rel="noopener">directrius de comunitat</a>.
+        ignore_user: N'esteu segur de voler ignorar aquest usuari? Tots els seus debats i comentaris desapareixeran. Podeu eliminar aquest bloqueig anant a la pàgina d'"Usuaris blocats" a la configuració del vostre compte.
+        mark_as_not_spam: N'esteu segur de voler marcar aquest debat com a vàlid i no missatges brossa?
+        mark_as_spam: N'esteu segur de voler marcar aquest debat com a missatges brossa? S'eliminarà automàticament i no es podrà recuperar. Marcant els debats com a missatges brossa ajuda a entrenar el nostre sistema de detecció de missatges brossa.
+        report_violation: Si us plau, confirmeu que desitgeu reportar aquest usuari per violació de les nostres <a href'+/documentation/community/guidelines" target="_blank" rel="noopener">directrius de comunitat</a>.
         unhide_discussion: Si cliqueu a «Sí», aquest debat tornarà a fer-se visible.
       posted_by_with_datetime: publicat per %{username} el dia %{date} a les %{time}
       quote: Cita
@@ -1913,7 +1937,7 @@ ca:
         label: Firma electrònica
       email:
         error: no té un format adequat
-        label: La vostra direcció de correu
+        label: La vostra adreça de correu
       error: No pot estar en blanc
       error_checkbox: S'ha de revisar
       extra_details:
@@ -1924,13 +1948,13 @@ ca:
       infringed_material:
         label: Enllaç/os cap al material original suposadament infringit (un per línia)
       mail_address:
-        label: La vostra direcció postal completa
+        label: La vostra adreça postal completa
       optional:
         label: Opcional
       original_material:
         label: Enllaç/os al material a TMDB presumptament infringint la llei (un per línia)
       perjury:
-        label: Juro, sota pena de perjuri, que la informació continguda  en aquest avís és acurada i que soc el titular dels drets d'autor o un representant autoritzat del titular dels drets d'autor.
+        label: Juro, sota pena de perjuri, que la informació continguda en aquest avís és acurada i que soc el titular dels drets d'autor o un representant autoritzat del titular dels drets d'autor.
       primary_telephone:
         error: no és vàlid
         label: El vostre número principal de telèfon
@@ -1956,9 +1980,9 @@ ca:
     edit_list: Edita la llista
   edits: edicions
   email:
-    confirm_new_email_address: Confirmeu la nova direcció de correu electrònic
-    does_not_match: Les direccions de correu electrònic no coincideixen, torneu-ho a provar.
-    new_email_address: Nova direcció de correu electrònic
+    confirm_new_email_address: Confirmeu la nova adreça de correu electrònic
+    does_not_match: Les adreces de correu electrònic no coincideixen, torneu-ho a provar.
+    new_email_address: Nova adreça de correu electrònic
     sent_verification_email: Hem enviat un correu electrònic de verificació a %{email_address}. Reviseu la vostra safata d'entrada (i carpeta de correu brossa) per instruccions de com procedir.
     unsubscribe:
       sad_to_go: "%{username}, ens entristeix veure que te'n vas!"
@@ -1987,7 +2011,7 @@ ca:
       1f631: Cara cridant de por
       1f633: Cara de perplexitat
       1f635-1f4ab: Cara amb ulls en espiral
-      1f641: Cara de  lleuger desgrat
+      1f641: Cara de desgrat lleuger
       1f914: Cara pensant
       1f922: Cara amb nàusees
       1f923: Rient fent la croqueta
@@ -2007,13 +2031,13 @@ ca:
   episode_number_name: Episodi %{episode_number}
   error_pages:
     deleted_account:
-      description: El propietari d'aquesta pàgina  ha eliminat el seu compte. Si bé les seves contribucions romandran a TMDB, la seva informació personal ha estat anonimitzada.
+      description: El propietari d'aquesta pàgina ha eliminat el seu compte. Si bé les seves contribucions romandran a TMDB, la seva informació personal ha estat anonimitzada.
       title: Aquest compte s'ha eliminat
     missing_privilege:
       description:
         logged_in: No teniu permís per a accedir a aquesta pàgina. Si creieu que això és un error, feu-nos-ho saber <a href="%{forum_link}">en els fòrums</a>.
         public: Heu intentat d'accedir a una pàgina que requereix que hàgiu iniciat la sessió. Entreu al vostre compte <a href="%{login_link}">clicant aquí</a>.
-      title: No teniu permís per accedir a aquesta pàgina
+      title: No teniu permís per a accedir a aquesta pàgina
     out_of_login_attempts:
       description: |-
         Heu esgotat tots els 10 intents d'inici de sessió. Sereu capaços de tornar-ho a intentar en 30 minuts. Mentrestant també podeu intentar <a href="%{reset_password_link}">reiniciar la vostra contrasenya</a>.
@@ -2074,7 +2098,7 @@ ca:
       inclusion: ha de ser seleccionat
       invalid: és invàlid
       invalid_character_name: El nom de personatge no hauria de contenir caràcters especials
-      invalid_email_address: no sembla ser una direcció vàlida de correu electrònic
+      invalid_email_address: no sembla ser una adreça vàlida de correu electrònic
       invalid_password: La contrasenya que heu introduït és invàlida.
       invalid_request: No és possible de completar la sol·licitud.
       less_than:
@@ -2086,7 +2110,7 @@ ca:
       model_invalid: "'Ha fallat la validació: %{errors}'"
       no_characters_found: No s'ha trobat caràcters
       not_a_number: No és un número
-      not_an_integer: ha de ser un número enter
+      not_an_integer: ha de ser un nombre enter
       odd: ha de ser senar
       other_than:
         one: ha de ser diferent de %{count}
@@ -2171,7 +2195,7 @@ ca:
       benefits_list:
         '1': Gaudiu de TMDB lliure d'anuncis
         '2': Mantingueu una llista de seguiment personal
-        '3': Filtreu els serveis d'emissió subscrits i busqueu alguna cosa per veure
+        '3': Filtreu els serveis d'emissió subscrits i trobeu alguna cosa per a veure
         '4': Registreu les pel·lícules i sèries que heu vist
         '5': Feu llistes personalitzades
         '6': Col·laboreu i milloreu la nostra base de dades
@@ -2179,14 +2203,14 @@ ca:
       catch_up_now: Captura ara
       discussions: Debats
     header:
-      quick_snippet_1: Milions de pel·lícules, sèries i artistes per descobrir. Exploreu-ho!
+      quick_snippet_1: Milions de pel·lícules, sèries i artistes per a descobrir. Exploreu-ho!
       welcome_1: Us donem la benvinguda.
     panels:
       community:
         join_today: Uniu-vos-hi avui
         sign_up: Registreu-vos
       filters:
-        for_rent: Per llogar
+        for_rent: Per a llogar
         in_theaters: Al cinema
         movies: Pel·lícules
         on_tv: A la televisió
@@ -2348,9 +2372,9 @@ ca:
     Animation Production Assistant: Ajudant de producció d'animació
     Animation Supervisor: Supervisor d'animació
     Animation Technical Director: Director tècnic d'animació
-    Animatronic and Prosthetic Effects: Efectes prostètics d'animatrònica
-    Animatronics Designer: Dissenyador d'animatrònica
-    Animatronics Supervisor: Supervisor d'animatrònica
+    Animatronic and Prosthetic Effects: Efectes prostètics d'animació electrònica
+    Animatronics Designer: Dissenyador d'animació electrònica
+    Animatronics Supervisor: Supervisor d'animació electrònica
     Apprentice Sound Editor: Aprenent d'editor de so
     Archival Footage Coordinator: Coordinador d'arxiu de metratge
     Archival Footage Research: Investigació de metratge d'arxiu
@@ -2464,7 +2488,7 @@ ca:
     Chaperone: Acompanyant
     Chaperone Tutor: Tutor acompanyant
     Character Designer: Disseny de personatges
-    Character Modelling Supervisor: Supervisor de modelat de personatges
+    Character Modelling Supervisor: Supervisor de modelatge de personatges
     Character Technical Supervisor: Supervisor tècnic de personatges
     Characters: Personatges
     Charge Scenic Artist: Artista escènic en cap
@@ -2885,7 +2909,7 @@ ca:
     Prop Designer: Disseny d'accessoris
     Prop Maker: Fabricant d'accessoris
     Property Builder: Constructor de propietats
-    Property Buyer: Comprador de propietas
+    Property Buyer: Comprador de propietats
     Property Graphic Designer: Dissenyador gràfic de propietats
     Property Master: Expert en propietats
     Propmaker: Fabricant d'accessoris
@@ -3189,20 +3213,20 @@ ca:
       back_to_parent: torna enrere (o la superior quan sigui aplicable)
       close_window: tanca una finestra oberta
       focus_search: centra la barra de cerca
-      go_to_edit: vés a la pàgina d'edició
-      last_reply: vés a la darrera resposta
+      go_to_edit: ves a la pàgina d'edició
+      last_reply: ves a la darrera resposta
       new_discussion: crea un debat nou
-      next_episode: "(fletxa dreta) vés a l'episodi següent"
+      next_episode: "(fletxa dreta) ves a l'episodi següent"
       next_page: "(fletxa dreta) pàgina següent"
-      next_season: "(fletxa dreta) vés a la temporada següent"
+      next_season: "(fletxa dreta) ves a la temporada següent"
       open_activity: obre activitat
       open_add_image_window: obre la finestra d'afegir imatges
       open_profile: obre el menú del perfil
       open_shortcut_window: obre la finestra de dreceres de teclat
       open_translation_selector: obre el selector de traducció
-      previous_episode: "(fletxa esquerra) vés a l'episodi anterior"
+      previous_episode: "(fletxa esquerra) ves a l'episodi anterior"
       previous_page: "(fletxa esquerra) pàgina anterior"
-      previous_season: "(fletxa esquerra) vés a la temporada anterior"
+      previous_season: "(fletxa esquerra) ves a la temporada anterior"
       reply_to_discussion: resposta al debat
       save_form: envia el formulari
       submit_message: envieu el vostre missatge
@@ -3264,7 +3288,7 @@ ca:
       comforting: confortant
       commanding: dominant
       compassionate: compassiu
-      complex: complexe
+      complex: complex
       complicated: complicat
       conceited: presumit
       condescending: condescendent
@@ -3430,7 +3454,7 @@ ca:
     list_by: Una llista de
     list_options: Llista opcions
     login_to_create_list: Registreu-vos per a crear la vostra pròpia llista!
-    no_items: No hi ha elements per mostrar!
+    no_items: No hi ha elements afegits a aquesta llista.
     private: Privada
     public: Pública
     select_this_image: Selecciona aquesta imatge
@@ -3456,7 +3480,7 @@ ca:
     step_3: 'Pas 3: Trieu una imatge'
     step_4: 'Pas 4: Compartiu'
   login:
-    login_text_1: Per poder editar, valorar a TMDB i obtenir recomanacions personals, heu d'iniciar la sessió al compte. Si no teniu un compte, registrar-vos és gratuït i senzill. <a href="%{signup_link}">Cliqueu aquí</a> per començar.
+    login_text_1: Per a poder editar, valorar a TMDB i obtenir recomanacions personals, heu d'iniciar la sessió al compte. Si no teniu un compte, registrar-vos és gratuït i senzill. <a href="%{signup_link}">Cliqueu aquí</a> per a començar.
     login_text_2: Si us heu registrat, però no heu rebut el correu electrònic de verificació, <a href="%{verification_link}">feu clic aquí</a> perquè el reenviem.
     login_to_your_account: Inicieu la sessió al vostre compte
   login_to_create: No trobeu una pel·lícula o una sèrie? Inicieu la sessió per a crear-la.
@@ -3488,7 +3512,7 @@ ca:
       movie_page_title: Pel·lícules produïdes per %{name}
       tv_page_title: Sèries produïdes per %{name}
     content_score:
-      helper_tooltip: La valoració del contingut és una manera d'ajudar-vos a entendre com de complertes estan les dades d'un objecte a la base de dades.
+      helper_tooltip: La valoració del contingut és una manera d'ajudar-vos a entendre com de completes estan les dades d'un objecte a la base de dades.
       missing_data:
         fields:
           air_date: Data d'emissió
@@ -3532,8 +3556,8 @@ ca:
       cast_updated: Repartiment actualitzat
       delete_all_appearances: Suprimeix totes les aparicions
       genres_updated: Gèneres actualitzats
-      lock_all_appearances: Clicant "sí" estareu blocant tots els registres existents, evitant que puguin ser editats per d'altres usuaris. Els moderadors seguiran podent fer edicions.
-      lock_all_cast_crew_description: Clicant "sí" estareu blocant tots els registres existents, evitant que puguin ser editats per d'altres usuaris. Els moderadors seguiran podent fer edicions.
+      lock_all_appearances: Clicant "sí" estareu blocant tots els registres existents, evitant que puguin ser editats per altres usuaris. Els moderadors seguiran podent fer edicions.
+      lock_all_cast_crew_description: Clicant "sí" estareu blocant tots els registres existents, evitant que puguin ser editats per altres usuaris. Els moderadors seguiran podent fer edicions.
       lock_all_fields: Bloca tots els camps
       lock_all_images: Bloca totes les imatges
       lock_existing_cast: Bloca el repartiment
@@ -3564,7 +3588,7 @@ ca:
         taglines: Eslògans
         unable_to_delete: No s'ha pogut eliminar l'eslògan.
       tooltips:
-        adult: En termes generals, aquesta marca només s'utilitzarà per a la pornografia. Consulteu, si us plau, el <a href="/bible/movie#59f73b759251416e71000004">llibre d'estil </a> per a obtenir-ne més informació.
+        adult: En termes generals, aquesta marca només s'utilitzarà per a la pornografia. Consulteu, si us plau, el <a href="/bible/movie#59f73b759251416e71000004">llibre d'estil</a> per a obtenir-ne més informació.
         bible: Si us cal ajuda sobre com editar a TMDB, cliqueu aquest "?" per a llegir-ne el llibre d'estil.
         homepage: Només la pàgina oficial. No es permeten pàgines de fans.
         logo_format: S'accepten tant fitxers SVG com PNG. Se'n prefereixen els SVG perquè són independents de la resolució.
@@ -3696,7 +3720,7 @@ ca:
         one: "%{count} valoració"
         other: "%{count} valoracions"
       score_breakdown: Desglossament de la valoració
-      score_distribution: Distribució de la valoracions
+      score_distribution: Distribució de les valoracions
       score_history: Historial de valoracions
       score_trend: Tendència de valoracions
     shortcut_bar:
@@ -3778,7 +3802,7 @@ ca:
         episodes:
           no_records: No s'hi han afegit episodis.
         runtime_varies_check: El valor de la durada és molt diferent de la durada de la temporada. Heu introduït la durada correcta?
-        screened_confirm: Si aquesta temporada ha estat exhibida en un cinema o festival de cinema, cliqueu "Sí" per continuar.
+        screened_confirm: Si aquesta temporada ha estat exhibida en un cinema o festival de cinema, cliqueu "Sí" per a continuar.
         screened_label: Aquesta temporada s'ha exhibit al cinema?
       season_cast: Repartiment de la temporada
       season_crew: Equip tècnic de la temporada
@@ -3886,7 +3910,7 @@ ca:
       message: |-
         Ei, hola, gràcies per fer servir TMDB. Ens hem fixat que esteu navegant per TMDB en una llengua que no té la traducció finalitzada. Si esteu interessat en ajudar-nos en completar-la ho podeu fer visitant el nostre [Projecte de traducció] (http://www.localeapp.com/projects/8267). [Registrar-se](https;www.localeapp.com/users/sign_up) a Locale és gratuït i hi podeu afegir tantes traduccions com temps tingueu. Cada edició ajuda.
 
-        Si no hi teniu cap interès, no us amoïneu. Tan sols us n'informàvem.
+        Si no hi teniu gens d'interès, no us amoïneu. Tan sols us n'informàvem.
 
         Gràcies per llegir-ho!
       subject: Ajudeu-nos a traduir la pàgina web
@@ -3943,7 +3967,7 @@ ca:
       now_playing: En cartellera
       popular: Populars
       top_rated: Millor valorades
-      upcoming: Properament
+      upcoming: Pròximament
     people:
       people: Artistes
       popular_people: Artistes populars
@@ -3979,8 +4003,8 @@ ca:
   no_overview: No tenim una sinopsi traduïda en català. Ajudeu-nos a expandir la nostra base de dades afegint-ne una.
   no_person_search_results: No hi ha artistes coincidents amb la vostra cerca.
   no_personal_recommendations:
-    movie: Per obtenir recomanacions personals de pel·lícules comenceu per afegir totes les vostres pel·lícules preferides. En aquest moment probablement us n'adoneu que a un munt de pel·lícules que recomanem són les que ja heu vist. Per a filtrar-les, valoreu-les! Un cop valorades les filtrarem automàticament.
-    tv: Per obtenir recomanacions personals de sèries comenceu per afegir totes les vostres pel·lícules preferides. En aquest moment probablement us n'adoneu que a un munt de sèries que recomanem són les que ja heu vist. Per a filtrar-les, valoreu-les! Un cop valorades les filtrarem automàticament.
+    movie: Per a obtenir recomanacions personals de pel·lícules comenceu per afegir totes les vostres pel·lícules preferides. En aquest moment probablement us adoneu que a un munt de pel·lícules que recomanem són les que ja heu vist. Per a filtrar-les, valoreu-les! Un cop valorades les filtrarem automàticament.
+    tv: Per a obtenir recomanacions personals de sèries comenceu per a afegir totes les vostres pel·lícules preferides. En aquest moment probablement us adoneu que a un munt de sèries que recomanem són les que ja heu vist. Per a filtrar-les, valoreu-les! Un cop valorades les filtrarem automàticament.
   no_rated_movies:
     current_user: No heu valorat cap pel·lícula.
     public: "%{username} no ha valorat cap pel·lícula."
@@ -3988,8 +4012,8 @@ ca:
     current_user: No heu valorat cap sèrie.
     public: "%{username} no ha valorat cap sèrie."
   no_recommendations:
-    movie: No tenim prou informació com per a suggerir-vos cap pel·lícula basant-nos en %{title}. Podeu ajudar valorant més pel·lícules que hàgiu vist.
-    tv_show: No tenim prou informació com per a suggerir-vos cap sèrie basant-nos en %{title}. Podeu ajudar valorant més sèries que hàgiu vist.
+    movie: No tenim prou informació per a suggerir-vos cap pel·lícula basant-nos en %{title}. Podeu ajudar valorant més pel·lícules que hàgiu vist.
+    tv_show: No tenim prou informació per a suggerir-vos cap sèrie basant-nos en %{title}. Podeu ajudar valorant més sèries que hàgiu vist.
   no_records: No s'han afegit registres.
   no_tv_search_results: No hi ha sèries coincidents amb la vostra cerca.
   no_watchlist_movies:
@@ -4177,7 +4201,7 @@ ca:
       auto_detect: Detecció automàtica?
       page_title: La meva configuració
       resend_verification_email_text: No trobeu el correu de verificació? Introduïu el vostre correu a sota perquè se us reenviï.
-      reset_password_text: Introduïu el correu que vau fer servir per enregistrar-vos a TMDB i us enviarem els passos necessaris per a reiniciar la contrasenya.
+      reset_password_text: Introduïu el correu que vau fer servir per a enregistrar-vos a TMDB i us enviarem els passos necessaris per a reiniciar la contrasenya.
     api:
       api: API
       create_page_title: Crea una nova clau de l'API
@@ -4381,7 +4405,7 @@ ca:
       build_watchlist: Creeu i mantingueu una llista de seguiment personal
       contribute: Contribuïu i milloreu la informació a la nostra base de dades
       discussions: Participeu en debats de pel·lícules i sèries
-      find_something_to_watch: Trobeu alguna cosa per veure entre les vostres subscripcions a serveis de streaming
+      find_something_to_watch: Trobeu alguna cosa per a veure entre les vostres subscripcions a serveis de streaming
       keep_track: Mantingueu un registre de les pel·lícules i sèries preferides i obtingueu-ne recomanacions
       log_movies: Registreu les pel·lícules i sèries que heu vist
     by_clicking_agree_to_terms: Si feu clic al botó "Registreu-vos" de sota, certifiqueu que heu llegit i accepteu els termes d'ús i la política de privadesa de TMDB.
@@ -4410,8 +4434,8 @@ ca:
     formats:
       12hour_minutes: "%l:%M %p"
       default: "%a, %d %b %Y %I:%M:%S %p %Z"
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
+      long: "%B %-d, %Y %I:%M %p"
+      short: "%-d %b %I:%M %p"
     pm: p.m.
     units:
       hours: Hores
@@ -4446,17 +4470,17 @@ ca:
       label: Valoració
       prompt: Què en penseu de %{title}?
       tooltip:
-        '0': Incendi a una deixalleria
+        '0': Una deixalleria fumejant
         '10': Absoluta merda
-        '100': Campiona
+        '100': Apoteòsica
         '20': Munt de fems
         '30': Veritablement dolenta
         '40': No és bona
         '50': Passable
         '60': Està bé
         '70': Força decent
-        '80': Realment bona
-        '90': Grandesa
+        '80': Veritablement bona
+        '90': Grandiosa
     tone:
       label: To
       no_results: El to no existeix.
@@ -4464,7 +4488,7 @@ ca:
         movie: Aquesta pel·lícula és...
         tv: Aquesta sèrie és...
       select: Seleccioneu un to...
-    welcome: Benvingut a les vibres, la nova forma de valoració de TMDB! Per a més informació visiteu el <span class="%{style}"><a href="%{link}">llibre d'estil</a></span>.
+    welcome: Us donem la benvinguda a les vibres, la nova forma de valoració de TMDB! Per a més informació visiteu el <span class="%{style}"><a href="%{link}">llibre d'estil</a></span>.
     whats_new: Què hi ha de nou?
     whats_your_vibe: Quina és la vostra <span class="%{style}">vibra</span>?
     your_vibe:
