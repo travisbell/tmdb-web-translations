@@ -275,8 +275,8 @@ uk-UA:
   Moderator: Модератор
   More Info: Більше інформації
   Most Popular: Найпопулярніше
-  Move Credits:
-  Move TV Credits:
+  Move Credits: Перемістити титри
+  Move TV Credits: Перемістити титри серіалу
   Movie Data: Дані про фільм
   Movie Recommendations: Рекомендації фільмів
   Movie Results: Результати фільмів
@@ -743,25 +743,33 @@ uk-UA:
     tv_series_status: Статус серіалу
   average edits per day: у середньому змін на день
   awards:
-    add_nomination:
+    add_nomination: Додати номінацію
     air_date:
-      future:
-      past:
-    category_empty:
+      future: Відбудеться %{date}
+      past: Відбулося %{date}
+    category_empty: У цій категорії відсутні номінації.
     nominations:
-    nominee:
+      few: "%{count} номінації"
+      many: "%{count} номінації"
+      one: 1 номінація
+      other: "%{count} номінацій"
+    nominee: Номінація
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      directed_by: Режисер
+      hosted_by: Ведучий
+      location: Локація
+      network: Мережа
+      preshow_hosts: Ведучий перед заходом
+      produced_by: Продюсер
+      runtime: Тривалість
+      title: Інформація про шоу
+    title: Нагороди
+    winner: Переможець
     wins:
+      few: "%{count} перемоги"
+      many: "%{count} перемоги"
+      one: 1 перемога
+      other: "%{count} перемог"
   back_options:
     back: Назад
     episode: Повернутися до серії
@@ -2180,7 +2188,7 @@ uk-UA:
       duplicate_regular_season_member: Ця персона вже додана як член основного акторського складу сезону.
       duplicate_season: Цей сезон уже існує.
       duplicate_season_episode_cast_member: Цю особу вже додано як актора до епізоду цього сезону. Титри акторів потрібно додавати або до сезону, або до епізоду, але не до обох.
-      duplicate_season_episode_crew_member:
+      duplicate_season_episode_crew_member: Ця персона вже додана як %{job_name} до одного з епізодів цього сезону. Титри знімальної групи потрібно додавати або до сезону, або до епізоду, але не до обох.
       missing_credit: Титр, який ви намагалися відредагувати, не існує.
       missing_person: Введену персону не вдалося знайти.
   failed_email: 'Не вдалося надіслати ваш лист. '
@@ -3319,7 +3327,7 @@ uk-UA:
       blunt: тупий
       bold: виразний
       brisk: жвавий
-      burlesque:
+      burlesque: бурлескний
       callous: черствий
       calm: спокійний
       candid: відвертий
@@ -3857,7 +3865,7 @@ uk-UA:
         create_episode: Додати серію
         episodes:
           no_records: Не додано жодної серії.
-        runtime_varies_check:
+        runtime_varies_check: Значення тривалості значною мірою залежить від тривалості сезону. Ви впевнені, що ввели правильну тривалість?
         screened_confirm: Якщо цей сезон показували на кінофестивалі чи в кінотеатрі, натисніть «Так» для продовження.
         screened_label: Цей сезон показували в кінотеатрі?
       season_cast: Акторський склад сезону
@@ -3885,7 +3893,7 @@ uk-UA:
           description: Опис
           episode_groups: Групи серій
           episodes:
-            move_episodes:
+            move_episodes: Перемістити обрані епізоди
             no_records: Не додано жодної серії до цієї групи.
           grid:
             episodes: Серії
@@ -3902,7 +3910,7 @@ uk-UA:
           type: Тип
           types:
             '1': Оригінальна дата показу
-            '2':
+            '2': Абсолютний
             '3': DVD
             '4': Цифровий реліз
             '5': Сюжетна лінія
@@ -3973,7 +3981,7 @@ uk-UA:
       subject: Допоможіть перекласти наш вебсайт
   messages:
     compose:
-      ban:
+      ban: Заблокувати
       from: Від
       message: Повідомлення
       subject: Тема
@@ -4172,7 +4180,7 @@ uk-UA:
       flatrate: стримінг
       free: дивитися безплатно
       rent: взяти напрокат
-      sentence:
+      sentence: "«%{title}» наразі доступно на %{available_types} (%{country})."
     available_snippet:
       flatrate:
       rent_or_buy: Доступно для прокату чи купівлі
@@ -4539,7 +4547,7 @@ uk-UA:
         interested: Зацікавлення
         sad: Смуток
         surprised: Здивування
-      prompt: Що ви відчули стосовно «%{title}»?
+      prompt: Що ви відчули під час перегляду «%{title}»?
     rating:
       clear: Видалити мою оцінку
       label: Оцінка

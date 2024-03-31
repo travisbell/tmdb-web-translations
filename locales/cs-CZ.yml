@@ -731,25 +731,31 @@ cs-CZ:
     tv_series_status: Stav TV seriálu
   average edits per day: úprav v průměru za den
   awards:
-    add_nomination:
+    add_nomination: Přidat nominaci
     air_date:
-      future:
-      past:
-    category_empty:
+      future: Bude se vysílat %{date}
+      past: Vysílalo se %{date}
+    category_empty: V této kategorii není žádná nominace.
     nominations:
-    nominee:
+      few: "%{count} nominace"
+      one: 1 nominace
+      other: "%{count} nominací"
+    nominee: Nominace
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      directed_by: Režie
+      hosted_by: Uvádí
+      location: Místo konání
+      network: Stanice
+      preshow_hosts: Přenos před předáváním uvádí
+      produced_by: Produkce
+      runtime: Délka
+      title: Informace o pořadu
+    title: Ceny
+    winner: Vítěz
     wins:
+      few: ''
+      one: 1 vítězství
+      other: "%{count} vítězství"
   back_options:
     back: Zpět
     episode: Zpět na epizodu
