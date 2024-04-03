@@ -344,7 +344,7 @@ el-GR:
   Public Report?: Δημόσια αναφορά;
   Quality: Ποιότητα
   Rank: Κατάταξη
-  Rate It!: Αξιολογήστε την!
+  Rate it!: Αξιολογήστε την!
   Rated: Βαθμολογημένες
   Rated Movies: Αξιολογούμενες ταινίες
   Rated TV Shows: Αξιολογούμενες σειρές
@@ -4454,23 +4454,25 @@ el-GR:
   upload_title_logo: Μεταφόρτωση λογότυπου τίτλου
   used_by_developers: Το TMDB χρησιμοποιείται περισσότερο από 400.000 κατασκευαστές. <br>Περιηγηθείτε στη δουλειά τους παρακάτω.
   vibes:
-    done:
-    login:
+    done: Ετοιμος
+    login: Συνδεθείτε για να χρησιμοποιήσετε το νέο σύστημα αξιολόγησης του TMDB.
     mood:
-      label:
+      label: 'Διάθεση
+
+        '
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
-      prompt:
+        afraid: Φοβισμένος
+        angry: Θυμωμένος
+        disgusted: Αηδιάζων
+        happy: Χαρούμενος
+        interested: Ενδιαφέρον
+        sad: Λυπημένος
+        surprised: Εκπληκτος
+      prompt: Πώς σας έκανε το %{title} να νιώσετε;
     rating:
-      clear:
-      label:
-      prompt:
+      clear: Εκκαθάριση της βαθμολογίας μου
+      label: Αξιολόγηση
+      prompt: Πώς σας φάνηκε το %{title};
       tooltip:
         '0':
         '10':
@@ -4484,17 +4486,23 @@ el-GR:
         '80':
         '90':
     tone:
-      label:
-      no_results:
+      label: Τόνος
+      no_results: 'Τόνος δεν υπάρχει.
+
+        '
       prompt:
-        movie:
-        tv:
-      select:
-    welcome:
-    whats_new:
-    whats_your_vibe:
+        movie: Αυτή η ταινία ήταν...
+        tv: Αυτή η σειρά ήταν...
+      select: Επιλέξτε έναν τόνο...
+    welcome: 'Καλώς ήρθατε στο Vibes, το νέο σύστημα αξιολόγησης του TMDB! Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα <span class="%{style}"><a href="%{link}">βιβλίο συνεισφορών</a></span>.
+
+      '
+    whats_new: Τι νέο υπάρχει;
+    whats_your_vibe: Ποιο είναι το <span class="%{style}">Vibe</span> σας;
     your_vibe:
-    your_vibes:
+      one: Το Vibe σας
+      other: Τα Vibes σας
+    your_vibes: Τα vibes σας
   videos:
     filters:
       language: Γλώσσα
