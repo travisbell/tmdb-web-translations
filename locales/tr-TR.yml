@@ -59,7 +59,7 @@ tr-TR:
   Adult Actor: Yetişkin Aktör
   Advanced Search: Gelişmiş Arama
   Air Date: Yayınlanma Tarihi
-  Also Known As: Ayrıca Şöylede Bilinir
+  Also Known As: Ayrıca Şöyle de Bilinir
   Alternative Names: Alternatif İsimleri
   Alternative Titles: Alternatif İsimler
   Apiary Documentation: Apiary Belgeleri
@@ -206,9 +206,9 @@ tr-TR:
   General: Genel
   Genres: Türler
   Genres & Keywords: Türler ve Anahtar Kelimeler
-  Get Involved: Katkıda Bulunun
+  Get Involved: Katkıda Bulun
   Guest Stars: Konuk Yıldızlar
-  Guidelines: Rehberler
+  Guidelines: Yönergeler
   Hardware/Embedded: Donanım/Gömülü
   Help: Yardım
   Help Us By Contributing Missing Data: Eksik içeriği tamamlamak için bize yardımcı olun
@@ -643,7 +643,7 @@ tr-TR:
       upcoming_watchlist: Takip Listesinde Yaklaşanlar
     page_title:
       page_owner: Profilim
-      public: "%{username}'in Profili"
+      public: "%{username} Profili"
     ratings_reviews:
       my_ratings:
         logged_in: Puanlamalarım
@@ -666,7 +666,7 @@ tr-TR:
       desc: Azalan
     tips:
       import_imdb_ratings: Puanlarınızı IMDb'den içe aktarabilirsiniz.
-      tip: Tip
+      tip: İpucu
     watchlist:
       my_watchlist:
         logged_in: İzlenecek Listem
@@ -684,7 +684,7 @@ tr-TR:
       this_month: Bu Ay
       this_week: Bu Hafta
       view_them: Onları görüntüle.
-  add_to_list: Ekle %{media_title} listelerinizden birine ekleyin...
+  add_to_list: Listenize %{media_title} ekleyin...
   already_translated_in: "%{page_title} halihazırda aşağıdaki dillere çevrilmiştir..."
   api_session:
     3rd_party_request: 3.Taraf Kimlik Doğrulama Talebi
@@ -1619,60 +1619,47 @@ tr-TR:
     primary_character: Ana Karakter
     tv_show: Dizi
   cookie_popup:
-    message: Size TMDB hakkında daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Daha fazla bilgi edinmek için  <a href="%{policy_url}" target="_blank" rel="noopener">çerez politikamızı</a> inceleyebilirsiniz. TMDb'yi kullanmaya devam ederek, bu politikayı kabul ediyorsunuz.
+    message: Size TMDB hakkında daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Daha fazla bilgi edinmek için  <a href="%{policy_url}" target="_blank" rel="noopener">çerez politikamızı</a> inceleyebilirsiniz. TMDb'yi kullanmaya devam ederek, bu politikayı kabul etmiş oluyorsunuz.
     ok_button: Tamam
   create_api: API oluştur
   date:
     abbr_day_names:
-    - pzr
-    - pzrt
-    - salı
-    - çrş
-    - prş
-    - cuma
-    - cmrt
+    - Paz
+    - Pzt
+    - Sal
+    - Çar
+    - Per
+    - Cum
+    - Cmt
     abbr_month_names:
     -
-    - ock
-    - şbt
-    - mrt
-    - nsn
-    - mys
-    - hzr
-    - tmm
-    - aug
-    - eyl
-    - ekm
-    - ksm
-    - arl
+    - Oca
+    - Şub
+    - Mar
+    - Nis
+    - May
+    - Haz
+    - Tem
+    - Ağu
+    - Eyl
+    - Eki
+    - Kas
+    - Ara
     day_names:
-    - pazar
-    - pazartesi
-    - salı
-    - çarşamba
-    - perşembe
-    - cuma
-    - cumartesi
+    - Pazar
+    - Pazartesi
+    - Salı
+    - Çarşamba
+    - Perşembe
+    - Cuma
+    - Cumartesi
     formats:
       abbrev: "%-d %b %Y"
-      default: "%m/%d/%Y"
+      default: "%d/%m/%Y"
       full_month_day: "%B %e, %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%d-%m-%Y"
-    month_names:
-    -
-    - ocak
-    - şubat
-    - mart
-    - nisan
-    - mayıs
-    - haziran
-    - temmuz
-    - ağustos
-    - eylül
-    - ekim
-    - kasım
-    - aralık
+    month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
   deleted_content:
@@ -1877,17 +1864,17 @@ tr-TR:
         ignore_user: Bu kullanıcıyı görmezden gelmek istediğinize emin misiniz? Tüm tartışmalar ve yorumlar kaybolacak. Bu bloğu, hesap ayarlarınızdaki "Engellenen Kullanıcılar" sayfasına giderek kaldırabilirsiniz.
         mark_as_not_spam: Bu tartışmayı spam değil, geçerli olarak işaretlemek istediğinizden emin misiniz?
         mark_as_spam: Bu tartışmayı spam olarak işaretlemek istediğinizden emin misiniz? Geri alınır ve geri alınamazsa otomatik olarak silinir. Tartışmaları spam olarak işaretlemek, kullandığımız spam algılama hizmetini eğitmeye yardımcı olur.
-        report_violation: Lütfen bu kullanıcıyı <a href="/documentation/community/guidelines" target="_blank" rel="noopener"> topluluk kurallarımızın </a> ihlal edildiğini bildirmek istediğinizi doğrulayın.
+        report_violation: Lütfen bu kullanıcıyı <a href="/documentation/community/guidelines" target="_blank" rel="noopener"> topluluk kurallarımızı </a> ihlal ettiği için bildirmek istediğinizi onaylayın.
         unhide_discussion: "'Evet'i tıkladığınızda, bu tartışma tekrar görünür hale getirilecek."
       posted_by_with_datetime: "%{time} tarihinde %{date} tarihinde %{username} tarafından gönderildi\n"
       quote: Alıntı
       reopen_reply: Yeniden Aç ve Yanıtla
-      reply: Cevap
+      reply: Cevapla
       reply_by: Yanıtla %{username}
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Sorun Bildir
       unhide: Göster
-    report_violation: İhlal Bildir
+    report_violation: İhlal Bildirimi
     search:
       advanced_search: Gelişmiş Arama
       search_closed: Kapalı Olanlarda Ara?
@@ -3443,8 +3430,8 @@ tr-TR:
     step_3: '3. Adım: Görsel Seç'
     step_4: '4. Adım: Paylaş'
   login:
-    login_text_1: 'TMDb''nin düzenleme ve oy verme işlevlerini kullanabilmek ve size özel tavsiyeler alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDB hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayın</a> '
-    login_text_2: 'Eğer kayıt olduğunuz halde onay epostası size ulaşmadıysa tekrar onay epostası almak için <a href="%{verification_link}">buraya tıklayın</a> '
+    login_text_1: TMDB'nin düzenleme ve oy verme işlevlerini kullanabilmek ve size özel tavsiyeleri alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDB hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayınız.</a>
+    login_text_2: Eğer kayıt olduğunuz halde onay e-postası size ulaşmadıysa tekrar onay e-postası almak için <a href="%{verification_link}">buraya tıklayın.</a>
     login_to_your_account: Hesabına Gir
   login_to_create: 'Bir filmi veya diziyi bulamıyor musun? Eklemek için oturum aç. '
   login_to_edit: Düzenlemek için oturum aç
@@ -4099,7 +4086,7 @@ tr-TR:
     previous_page: Önceki sayfa
     previous_page_with_arrow: "← Önceki Sayfa"
     show_more: Devamını Görüntüle
-  part_of_collection: "%{collection_name} İçerikleri"
+  part_of_collection: "%{collection_name} İçindekiler"
   password:
     4_chars_minimum: "(minimum 4 karakter)"
     confirm_new_password: Yeni Parolayı Onayla
