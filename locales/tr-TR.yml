@@ -12,7 +12,7 @@ tr-TR:
   API Stats: API İstatistikleri
   API Status Codes: API Durum Kodları
   API Terms: API Şartları
-  API Terms of Use: API Kullanım Şartları
+  API Terms of Use: API Kullanım Koşulları
   API Updates: API Güncellemeleri
   About: Hakkında
   About TMDb: TMDB Hakkında
@@ -370,7 +370,7 @@ tr-TR:
   Revenue: Kazanç
   Runtime: Süre
   Save: Kaydet
-  Search: Arama
+  Search: Ara
   Search for a company: Bir şirket ara
   Search for a country: Bir ülke ara
   Search for a genre: Tür ara
@@ -378,7 +378,7 @@ tr-TR:
   Search for a language: Dil ara
   Search for a movie: Bir film arayın
   Search for a movie or TV show: Film veya dizi ara
-  Search for a movie, TV show, person: Film, dizi veya kişi ara
+  Search for a movie, TV show, person: Film, dizi veya kişi ara...
   Season: Sezon
   Season Number: Sezon Numarası
   Season Overview: Sezona Genel Bakış
@@ -506,7 +506,7 @@ tr-TR:
     profile_and_settings: Profil ve Ayarlar
     ratings: Puan
     settings: Ayarlar
-    sign_up: Üye Ol
+    sign_up: Kaydol
     view_profile: Profili görüntüle
     watchlist: Takip Listesi
   accounts:
@@ -1633,18 +1633,18 @@ tr-TR:
     - Cmt
     abbr_month_names:
     -
-    - Oca
-    - Şub
+    - Jan
+    - Feb
     - Mar
-    - Nis
+    - Apr
     - May
-    - Haz
-    - Tem
-    - Ağu
-    - Eyl
-    - Eki
-    - Kas
-    - Ara
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
     day_names:
     - Pazar
     - Pazartesi
@@ -1655,11 +1655,11 @@ tr-TR:
     - Cumartesi
     formats:
       abbrev: "%-d %b %Y"
-      default: "%m/%d/%Y"
+      default: "%d/%m/%Y"
       full_month_day: "%B %e, %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%d-%m-%Y"
-    month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
+    month_names: '[nil, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]'
   day: gün
   days: "%{count} gün"
   deleted_content:
@@ -3430,7 +3430,7 @@ tr-TR:
     step_3: '3. Adım: Görsel Seç'
     step_4: '4. Adım: Paylaş'
   login:
-    login_text_1: TMDB'nin düzenleme ve oy verme işlevlerini kullanabilmek ve size özel tavsiyeleri alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDB hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayınız.</a>
+    login_text_1: TMDB'nin düzenleme ve oy verme işlevlerini kullanabilmek ve kişisel önerileri alabilmek için hesabınıza giriş yapmanız gerekmektedir. Eğer henüz bir TMDB hesabınız yoksa, kolayca ücretsiz üye olabilirsiniz. Başlamak için <a href="%{signup_link}">tıklayınız.</a>
     login_text_2: Eğer kayıt olduğunuz halde onay e-postası size ulaşmadıysa tekrar onay e-postası almak için <a href="%{verification_link}">buraya tıklayın.</a>
     login_to_your_account: Hesabına Gir
   login_to_create: 'Bir filmi veya diziyi bulamıyor musun? Eklemek için oturum aç. '
@@ -3446,7 +3446,7 @@ tr-TR:
       number_of_changes:
         one: "%{count} değişiklik"
         other: "%{count} değişiklik"
-      view_weekly_leaderboard: Haftalık Liderleri Görüntüle
+      view_weekly_leaderboard: Haftanın Liderlerini Görüntüle
     character:
       edit:
         appearance:
@@ -3539,7 +3539,7 @@ tr-TR:
         unable_to_delete: Slogan açıklaması silinemedi.
       tooltips:
         adult: Genel olarak konuşursak, bu etiket yalnızca pornografi için kullanılacaktır. Daha fazla bilgi için lütfen <a href="/bible/movie#59f73b759251416e71000004">Katılım kutsal kitabına</a> bakın.
-        bible: TMDB deki bilgileri nasıl düzenleneceği konusunda yardım almak için '?'e tıklayıp katılım başvuru kitabını okuyabilirsiniz.
+        bible: TMDB deki bilgileri nasıl düzenleneceği konusunda yardım almak için '?'ne tıklayıp katılım başvuru kitabını okuyabilirsiniz.
         homepage: Yalnız resmi anasayfa. Hayran sayfalarına izin verilmez.
         logo_format: SVG ve PNG türleri desteklenir.  Çözünürlükten bağımsız olduğu için SVG tercih edilir.
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
@@ -4093,7 +4093,7 @@ tr-TR:
     enter_to_continue: Devam etmek için mevcut şifrenizi girin...
     new_password: Yeni Parola
     password: Şifre
-    password_confirm: Şifre Onaylama
+    password_confirm: Şifreyi Onayla
     reset_email_sent: E-posta gönderildi! Şifre sıfırlama talimatlarını kısa bir süre içinde almalısınız.
   person:
     credits:
@@ -4332,17 +4332,17 @@ tr-TR:
   sign_up:
     benefits:
       benefits_to_being_member: Üye Olmanın Faydaları
-      build_custom_lists: Özel karışık listeler oluşturun (filmler ve TV)
-      build_watchlist: Kişisel bir izleme listesi oluşturun ve sürdürün
-      contribute: Veritabanımızdaki bilgileri katkıda bulun ve geliştirin
-      discussions: Film ve TV tartışmalarına katılın
-      find_something_to_watch: Abone olduğunuz yayın hizmetlerinde izleyecek bir şeyler bulun.
-      keep_track: En sevdiğiniz filmleri ve TV şovlarını takip edin ve bunlardan öneriler alın
-      log_movies: İzlediğiniz filmleri ve TV şovlarını kaydetme
-    by_clicking_agree_to_terms: Aşağıdaki "Kayıt Ol" düğmesini tıklayarak, TMDB kullanım şartlarını ve gizlilik politikasını okudum ve kabul ettiğimi onaylıyorum.
+      build_custom_lists: Özel karışık listeler oluşturmak (filmler ve TV)
+      build_watchlist: Kişisel bir izleme listesi oluşturmak ve sürdürmek
+      contribute: Veri tabanımızdaki bilgilere katkıda bulunmak ve geliştirmek
+      discussions: Film ve TV tartışmalarına katılmak
+      find_something_to_watch: Abone olunan yayın hizmetlerinde izleyecek bir şeyler bulmak.
+      keep_track: En sevdiğiniz filmleri ve TV şovlarını takip etmek ve bunlara benzer öneriler almak
+      log_movies: İzlediğiniz filmleri ve TV şovlarını günlüğe kaydetmek.
+    by_clicking_agree_to_terms: Aşağıdaki "Kaydol" düğmesine tıklamakla, TMDB kullanım şartlarını ve gizlilik politikasını okuyup ve kabul etmiş olursunuz.
     javascript_required: Devam etmek için JavaScript gereklidir.
-    sign_up_for_account: Hesap oluştur
-    signup_text: Bir hesaba kaydolmak ücretsiz ve kolaydır. Başlamak için aşağıdaki formu doldurun.
+    sign_up_for_account: Hesap Oluşturma
+    signup_text: Bir hesap oluşturmak ücretsiz ve kolaydır. Başlamak için aşağıdaki formu doldurun.
   success_approved_access_token: İzin verildi
   success_deleted:
   success_email: E-Postanız başarıyla gönderildi.
