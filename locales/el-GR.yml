@@ -733,25 +733,29 @@ el-GR:
     tv_series_status: Κατάσταση σειρών
   average edits per day: μέσος όρος επεξεργασιών ανά ημέρα
   awards:
-    add_nomination:
+    add_nomination: Προσθήκη υποψηφιότητας
     air_date:
       future:
       past:
-    category_empty:
+    category_empty: Δεν υπάρχουν υποψηφιότητες για αυτήν την κατηγορία.
     nominations:
-    nominee:
+      one: 1 Υποψηφιότητα
+      other: "%{count} Υποψηφιότητες"
+    nominee: Υποψήφιος
     show_info:
       directed_by:
       hosted_by:
-      location:
-      network:
+      location: Τοποθεσία
+      network: Δίκτυο
       preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      produced_by: Παραγωγή από
+      runtime: Διάρκεια
+      title: Εμφάνιση πληροφοριών
+    title: Βραβεία
+    winner: Νικητής
     wins:
+      one: 1 Νίκη
+      other: "%{count} Νίκες"
   back_options:
     back: Πίσω
     episode: Επιστροφή στο επεισόδιο
@@ -2005,40 +2009,40 @@ el-GR:
       unsubscribed: Εχετε <strong>διαγραφεί</strong>.Εάν το κάνατε κατά λάθος, μπορείτε να εγγραφείτε ξανά μεταβαίνοντας στη σελίδα <a href="%{account_link}">ρυθμίσεις ειδοποιήσεων</a>
   emoji:
     short_name:
-      1f600:
-      1f602:
-      1f60d:
-      1f610:
-      1f612:
-      1f616:
-      1f61e:
-      1f621:
-      1f622:
-      1f623:
-      1f626:
-      1f628:
-      1f629:
-      1f62c:
-      1f62d:
-      1f62e:
-      1f630:
-      1f631:
-      1f633:
-      1f635-1f4ab:
-      1f641:
-      1f914:
-      1f922:
-      1f923:
-      1f928:
-      1f92c:
-      1f92d:
-      1f92e:
-      1f92f:
-      1f971:
-      1f972:
-      1fae2:
-      1fae3:
-      1fae4:
+      1f600: Χαμογελαστό πρόσωπο
+      1f602: Πρόσωπο με δάκρυα χαράς
+      1f60d: Χαμογελαστό πρόσωπο με μάτια καρδιά
+      1f610: Ουδέτερο πρόσωπο
+      1f612: Αδιάφορο πρόσωπο
+      1f616: Μπερδεμένο πρόσωπο
+      1f61e: Απογοητευμένο πρόσωπο
+      1f621: Εξοργισμένο πρόσωπο
+      1f622: Πρόσωπο που κλαίει
+      1f623: Επίμονο πρόσωπο
+      1f626: Κατσουφιασμένο πρόσωπο με ανοιχτό στόμα
+      1f628: Φοβισμένο πρόσωπο
+      1f629: Κουρασμένο πρόσωπο
+      1f62c: Μορφασμός προσώπου
+      1f62d: Πρόσωπο που κλαίει δυνατά
+      1f62e: Εκπνοή προσώπου
+      1f630: Ανήσυχο πρόσωπο με ιδρώτα
+      1f631: Πρόσωπο που ουρλιάζει από φόβο
+      1f633: Κοκκινισμένο πρόσωπο
+      1f635-1f4ab: Πρόσωπο με σπειροειδή μάτια
+      1f641: Ελαφρώς κατσουφιασμένο πρόσωπο
+      1f914: Σκεπτόμενο πρόσωπο
+      1f922: Πρόσωπο με ναυτία
+      1f923: Κυλιέμαι στο πάτωμα γελώντας
+      1f928: Πρόσωπο με ανασηκωμένο φρύδι
+      1f92c: Πρόσωπο με σύμβολα στο στόμα
+      1f92d: Πρόσωπο με το χέρι στο στόμα
+      1f92e: Εμετός στο πρόσωπο
+      1f92f: Εκρηκτικό κεφάλι
+      1f971: Χασμουρητό πρόσωπο
+      1f972: Χαμογελαστό πρόσωπο με δάκρυ
+      1fae2: Πρόσωπο με ανοιχτά μάτια και το χέρι στο στόμα
+      1fae3: Πρόσωπο με μάτι που κρυφοκοιτάζει
+      1fae4: Πρόσωπο με διαγώνιο στόμα
   episode_count:
     one: "%{count} επεισόδιο"
     other: "%{count} επεισόδια"
@@ -2096,7 +2100,7 @@ el-GR:
       blank: απαιτείται
       confirmation:
       email_address_not_routable: δεν είναι δρομολογήσιμο
-      empty:
+      empty: δεν μπορεί να είναι άδειο
       equal_to:
       even:
       exclusion:
@@ -2111,7 +2115,7 @@ el-GR:
       invalid_request: Δεν είναι δυνατή η ολοκλήρωση του αιτήματος.
       less_than:
       less_than_or_equal_to:
-      model_invalid:
+      model_invalid: "'Η επικύρωση απέτυχε: %{errors}'"
       no_characters_found: Δεν Βρέθηκαν Χαρακτήρες
       not_a_number:
       not_an_integer:
@@ -3244,13 +3248,13 @@ el-GR:
     view_shortcuts: Εμφάνιση συντομεύσεων
   keywords:
     tone:
-      absurd:
-      admiring:
-      adoring:
-      affectation:
-      aggressive:
-      ambiguous:
-      ambivalent:
+      absurd: παράλογο
+      admiring: θαυμασμού
+      adoring: λατρεία
+      affectation: επιτήδευση
+      aggressive: επιθετικό
+      ambiguous: διφορούμενο
+      ambivalent: αμφίσημο
       amused:
       angry:
       antagonistic:
@@ -3259,18 +3263,18 @@ el-GR:
       apologetic:
       appreciative:
       approving:
-      arrogant:
-      assertive:
-      audacious:
-      authoritarian:
-      awestruck:
-      baffled:
-      bewildered:
-      biting:
-      bitter:
-      blunt:
-      bold:
-      brisk:
+      arrogant: αλαζονικό
+      assertive: κατηγορηματικός
+      audacious: θρασύς
+      authoritarian: απολυταρχικός
+      awestruck: έκπληκτος
+      baffled: αμηχανία
+      bewildered: σαστισμένος
+      biting: δηκτικός,
+      bitter: πικρός
+      blunt: αμβλύς
+      bold: τολμηρός
+      brisk: ζωηρός
       burlesque:
       callous:
       calm:
@@ -4501,7 +4505,7 @@ el-GR:
     whats_new: Τι νέο υπάρχει;
     whats_your_vibe: Ποιο είναι το <span class="%{style}">Vibe</span> σας;
     your_vibe:
-      one: Το Vibe σας
+      one: 'Το Vibe σας '
       other: Τα Vibes σας
     your_vibes: Τα vibes σας
   videos:
