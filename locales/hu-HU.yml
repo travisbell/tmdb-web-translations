@@ -30,7 +30,7 @@ hu-HU:
   Add Headshot: Portré fotó hozzáadása
   Add Item: Elem hozzáadása
   Add Missing Cast & Crew: Hiányzó szereplő és stáb hozzáadása
-  Add Network: Adó hozzáadása
+  Add Network: Csatorna hozzáadása
   Add New Episode: Új epizód hozzáadása
   Add New Movie: Új film hozzáadása
   Add New Release: Új megjelenés hozzáadása
@@ -330,7 +330,7 @@ hu-HU:
   Preview: Előnézet
   Primary Color: Elsődleges szín
   Primary Facts: Főbb ismérvek
-  Primary?:
+  Primary?: Elsődleges?
   Privacy Policy: Adatvédelmi szabályzat
   Production Code: Produkciós kód
   Production Companies: Produkciós cégek
@@ -584,11 +584,11 @@ hu-HU:
         public: "%{username} kedvencei"
     filter_by: 'Szűrés/Rendezés:'
     filters:
-      air_date: Sugárzás
+      air_date: Adásba kerülés
       alphabetical: Ábécérend
       date_added: Hozzáadva
       date_rated: Értékelés dátuma
-      first_air_date: Első sugárzás
+      first_air_date: Első adásba kerülés
       most_popular: Legnépszerűbb
       my_rating: Saját értékelésem
       newest: Legújabb
@@ -687,7 +687,7 @@ hu-HU:
   add_to_list: "%{media_title} hozzáadása az egyik listádhoz..."
   already_translated_in: "%{page_title} rendelkezésre áll a következő nyelveken..."
   api_session:
-    3rd_party_request:
+    3rd_party_request: Harmadik fél hitelesítési kérés
     account_required:
       need_account: A folytatáshoz be kell jelentkeznie!
       title: Fiók szükséges hozzá
@@ -727,25 +727,29 @@ hu-HU:
     tv_series_status: Tévésorozat állapota
   average edits per day: átlagos napi szerkesztés
   awards:
-    add_nomination:
+    add_nomination: Jelölés hozzáadása
     air_date:
-      future:
+      future: Adásba kerülések %{date}
       past:
-    category_empty:
+    category_empty: Ebben a kategóriában nincsenek jelölések.
     nominations:
-    nominee:
+      one: 1 jelölés
+      other: "%{count} jelölés"
+    nominee: Jelölt
     show_info:
-      directed_by:
+      directed_by: Rendezte
       hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
+      location: Hely
+      network: Csatorna
+      preshow_hosts: Gála házigazdái
+      produced_by: Producer
+      runtime: Játékidő
       title:
-    title:
-    winner:
+    title: Díjak
+    winner: Győztes
     wins:
+      one: 1 nyertes
+      other: "%{count} nyertes"
   back_options:
     back: Vissza
     episode: Vissza az epizódhoz
@@ -1188,7 +1192,7 @@ hu-HU:
         '1':
           meaning: Nincs korhatár.
         '2':
-          meaning:
+          meaning: Gyerekeknek ajánlott műsorok. Ez egy opcionális besorolás, a műsorszolgáltatóknak nem kötelező feltüntetni.
         '3':
           meaning:
         '4':
@@ -1410,8 +1414,8 @@ hu-HU:
     group_name_required: Csoportnév szükséges
     groups_minimum_appearance_msg:
     groups_not_present:
-    headshot: Portré fotó
-    headshot_window_title:
+    headshot: Portréfotó
+    headshot_window_title: Szereplő portréfotó megváltoztatása
     help_our_mods: Segítse moderátorainkat
     help_our_mods_info:
     icon: Ikon
@@ -1419,11 +1423,11 @@ hu-HU:
     image_media_association:
     in_translate_mode: Jelenleg Fordítás módban van.
     inline_edit_original_name: Eredeti név
-    join_community_tmdb:
+    join_community_tmdb: Csatlakozzon közösségünkhöz, hogy együtt építsük a The Movie DB-t.
     launch_label: indítás
     lock_existing_appearances:
     log_tv_movies_watch:
-    master_group_limit_error:
+    master_group_limit_error: Sajnáljuk, elérte a támogatott csoportok maximális számát.
     media: Média
     media_association:
     media_character_id:
@@ -1444,7 +1448,7 @@ hu-HU:
     next_launch_page:
     next_nav_label: Következő
     next_review_page:
-    no_appearance_text:
+    no_appearance_text: Nem találhatók csoportok!
     no_appearance_text_1:
     no_appearance_text_2:
     no_backdrop_in_group:
@@ -1460,7 +1464,7 @@ hu-HU:
     person_image_association:
     placeholder_synopsis:
     played_by:
-    please_select_a_person:
+    please_select_a_person: Kérem válasszon egy személyt
     popularity_weight:
     popularity_weight_multiplier:
     previous: Előző
@@ -1498,9 +1502,9 @@ hu-HU:
     selected_appearance_linked_to_character:
     session_expired: Lejárt munkamenet!
     session_inactive: A munkamenet túl sokáig volt inaktív
-    session_over_so_redirect:
-    session_timeout:
-    session_timeout_continue:
+    session_over_so_redirect: A munkamenet lejárt. Az OK gombra kattintva átirányítjuk a szereplő oldalra.
+    session_timeout: Elérkezett a munkamenet vége
+    session_timeout_continue: A munkamenet hamarosan véget ér. Szeretné folytatni a munkamenetet?
     star: Csillag
     submit:
     submit_and_preview:
@@ -1582,7 +1586,7 @@ hu-HU:
     featured_articles: Kiemelt tartalmak
     general:
       general: Általános
-      general_bible:
+      general_bible: Általános Biblia
     image:
       image: Képek
       image_bible: Kép Biblia
@@ -1602,7 +1606,7 @@ hu-HU:
       tall_bible:
         bottom: Biblia
         top: Emberek
-    pro_tip:
+    pro_tip: Profi tipp
     search:
       placeholder_1: Mivel kapcsolatban van szükséged segítségre?
     tv:
@@ -1733,7 +1737,7 @@ hu-HU:
       minimum_user_votes: Minimum felhasználói szavazat
       network:
         filter_by_network: Szűrés TV csatornára...
-        network: Adó
+        network: Csatorna
       none_selected: Nincs kiválasztva
       release_dates:
         from: innentől
@@ -1768,8 +1772,8 @@ hu-HU:
     sort_options:
       first_air_date_asc:
       first_air_date_desc:
-      name_a_z:
-      name_z_a:
+      name_a_z: Név (A-Z9
+      name_z_a: Név (Z-A)
       original_order_asc: Eredeti rendezés szerint növekvő
       original_order_desc: Eredeti rendezés szerint csökkenő
       popularity_asc: Népszerűség szerint növekvő
@@ -1784,7 +1788,7 @@ hu-HU:
       title_z_a: Cím szerint (Z-A)
     tooltips:
       not_member: Még nem tag?
-      signup:
+      signup: Regisztráljon és csatlakozzon a közösséghez
       want_to_rate:
   discussions:
     actions:
@@ -1842,7 +1846,7 @@ hu-HU:
       message: Üzenet
       new_discussion: Új beszélgetés
       subject: Tárgy
-    no_activity:
+    no_activity: Ebben a beszélgetésben nem volt aktivitás.
     no_discussions: Nincs beszélgetés.
     pagination:
       post_summary:
@@ -1945,7 +1949,7 @@ hu-HU:
       error:
       submit:
   dont_fallback:
-  duplicate_character_name:
+  duplicate_character_name: A szereplőnév már létezik, kérem próbálkozzon egy másik névvel.
   edit_list:
     add_edit_items: Elemek hozzáadadása/szerkesztése
     choose_image: Kép kiválasztása
@@ -1964,15 +1968,15 @@ hu-HU:
       unsubscribed:
   emoji:
     short_name:
-      1f600:
-      1f602:
+      1f600: Vigyorgó arc
+      1f602: Arc örömkönnyekkel
       1f60d:
-      1f610:
+      1f610: Semleges arc
       1f612:
       1f616:
       1f61e:
       1f621:
-      1f622:
+      1f622: Síró arc
       1f623:
       1f626:
       1f628:
@@ -1992,7 +1996,7 @@ hu-HU:
       1f92c:
       1f92d:
       1f92e:
-      1f92f:
+      1f92f: Felrobbanó fej
       1f971:
       1f972:
       1fae2:
@@ -2043,14 +2047,14 @@ hu-HU:
       not_png: Ez a kép nem PNG formátumú.
       not_svg: Ez a kép nem SVG formátumú.
     locked:
-      genres:
+      genres: A műfajok  mező zárolva
       keywords: A kulcsszavak mező zárolva
     messages:
-      accepted:
+      accepted: el kell fogadnia
       blank: kötelező
       confirmation:
       email_address_not_routable:
-      empty:
+      empty: nem lehet üres
       equal_to:
       even:
       exclusion:
@@ -2077,13 +2081,19 @@ hu-HU:
       suspected_tv_series:
       taken: már foglalt
       too_long:
+        one: túl hosszú ( maximum %{count} karakter)
+        other: túl hosszú ( maximum %{count} karakter)
       too_short:
+        one: túl rövid ( minimum %{count} karakter)
+        other: túl rövid ( minimum %{count} karakter)
       wrong_length:
+        one: nem megfelelő hosszúságú ( %{count} karakter legyen)
+        other: nem megfelelő hosszúságú ( %{count} karakter legyen)
     movie:
       duplicate_cast: Ezt a személyt már hozzáadták a szereplőkhöz.
     tv:
       create_season_locked:
-      duplicate_created_by:
+      duplicate_created_by: Ezt a személyt már hozzáadták alkotóként.
       duplicate_crew_member:
       duplicate_episode: Ez az epizód már létezik.
       duplicate_guest_star: Ez a vendégszínész már létezik.
@@ -2119,7 +2129,7 @@ hu-HU:
       message:
       title: Érvénytelen munkamenet
     logged_out:
-      message:
+      message: Sikeresen kijelentkezett.
       title: Kijelentkezve!
     password_reset:
       message:
@@ -2133,7 +2143,7 @@ hu-HU:
     upstream_problem:
       message:
       title: Probléma merült fel
-  headshots_must_meet: 'A portré fotóknak az alábbi feltételeknek kell megfelelnie:'
+  headshots_must_meet: 'A portréfotóknak az alábbi feltételeknek kell megfelelnie:'
   homepage:
     community:
       benefits_list:
@@ -3033,7 +3043,7 @@ hu-HU:
     Storyboard Designer:
     Street Casting:
     Studio Teacher:
-    Stunt Coordinator:
+    Stunt Coordinator: Kaszkadőr koordinátor
     Stunt Double:
     Stunt Driver:
     Stunts: Kaszkadőr (Stunts)
@@ -3058,7 +3068,7 @@ hu-HU:
     Tailor:
     Tattoo Designer:
     Tattooist: Tetováló (Tattooist)
-    Technical Advisor:
+    Technical Advisor: Technikai tanácsadó
     Technical Supervisor:
     Techno Crane Operator:
     Telecine Colorist:
@@ -3198,15 +3208,15 @@ hu-HU:
       ambiguous:
       ambivalent:
       amused:
-      angry:
+      angry: Dühös
       antagonistic:
       anxious:
       apathetic:
       apologetic:
       appreciative:
       approving:
-      arrogant:
-      assertive:
+      arrogant: arrogáns
+      assertive: határozott
       audacious:
       authoritarian:
       awestruck:
@@ -3226,16 +3236,16 @@ hu-HU:
       celebratory:
       cheerful:
       cliché:
-      clinical:
+      clinical: orvosi
       comforting:
       commanding:
       compassionate:
-      complex:
-      complicated:
+      complex: összetett
+      complicated: bonyolult
       conceited:
       condescending:
-      critical:
-      cruel:
+      critical: kritikus
+      cruel: kegyetlen
       curious:
       cynical:
       defiant:
@@ -3366,14 +3376,14 @@ hu-HU:
       submissive:
       suspenseful:
       suspicious:
-      sympathetic:
+      sympathetic: szimpatikus
       taunting:
       tense:
       thoughtful:
-      tragic:
+      tragic: tragikus
       unassuming:
       understated:
-      urgent:
+      urgent: sürgető
       vexed:
       vibrant:
       vindictive:
@@ -3432,7 +3442,7 @@ hu-HU:
     adult: Felnőtt
     changes:
       filters:
-        clear:
+        clear: Törlés
         key: Kulcs
         language: Nyelv
         user: Felhasználó
@@ -3470,7 +3480,7 @@ hu-HU:
           name:
           overview: Összefoglaló
           parts:
-          poster:
+          poster: Poszter
           profile: Profilkép
           regular_cast_min_4:
           release_date: Premier időpont
@@ -3493,10 +3503,10 @@ hu-HU:
     edit:
       alternative_title:
         lock_existing:
-        locked:
+        locked: Ez a cím zárolva van.
       cast_updated: Szereposztás frissítve
       delete_all_appearances: Minden megjelenés törlése
-      genres_updated:
+      genres_updated: Műfajok frissítve
       lock_all_appearances:
       lock_all_cast_crew_description:
       lock_all_fields: Minden mező lezárása
@@ -3509,10 +3519,10 @@ hu-HU:
         create_person:
           click_to_create:
           create_it: Létrehozás...
-        genres:
+        genres: Válasszon műfajt...
         job: Foglalkozás keresése...
         keywords: Kulcsszó választása...
-        networks:
+        networks: Csatorna keresése...
         person: Személy keresése...
         production_companies:
       release_date:
@@ -3536,8 +3546,8 @@ hu-HU:
         original_title: Az eredeti címet az elem eredeti nyelvén kell megadni. A legtöbb esetben ez megfelel az "eredeti nyelv" mezőben megadott nyelvnek.
         overview: Tartalom írásakor röviden, tömören fogalmazni, és ne árulj el kulcsfontosságú részleteket.
         social_links: A közösségi linkek a hivatalos oldalaknak vannak, ne adj meg rajongói oldalt.
-      translation_already_exists:
-      translation_not_found:
+      translation_already_exists: A %{language} fordítás már létezik.
+      translation_not_found: A %{language} fordítást még nem hozták létre.
       unlock_all_appearances:
       videos:
         locked: A video zárolva.
@@ -3545,7 +3555,7 @@ hu-HU:
       visit_facebook: Facebook meglátogatása
       visit_homepage: Weboldal meglátogatása
       visit_instagram: Instagram meglátogatása
-      visit_justwatch:
+      visit_justwatch: ugrás a JustWatch oldalra
       visit_tiktok: TikTok meglátogatása
       visit_twitter: Twitter meglátogatása
       visit_youtube: YouTube meglátogatása
@@ -3560,7 +3570,7 @@ hu-HU:
       no_logos:
       no_posters:
       no_profiles:
-      primary:
+      primary: Elsődleges?
       types:
         backdrop_stills:
     keyword:
@@ -3582,7 +3592,7 @@ hu-HU:
           person_required: Egy személy szükséges
         genres:
           add_genre: Műfaj hozzáadása
-          no_records:
+          no_records: Nem lett műfaj hozzáadva.
         keywords:
           add_keyword: Kulcsszó hozzáadása
           create: Létrehozás
@@ -3623,7 +3633,7 @@ hu-HU:
         no_results:
         results:
       tv_page_title:
-      upload_logo:
+      upload_logo: Logo feltöltése
     no_results_found:
       movie: Nem találtunk filmeket.
       tv: Nem találtunk tévéműsorokat.
@@ -3736,7 +3746,7 @@ hu-HU:
       edit:
         create_episode: Epizód létrehozása
         episodes:
-          no_records:
+          no_records: Nincsenek epizódok hozzáadva.
         runtime_varies_check: A játékidő nagymértékben eltér az évad játékidejétől. Megfelelő játékidőt adott meg?
         screened_confirm:
         screened_label:
@@ -3765,7 +3775,7 @@ hu-HU:
           description:
           episode_groups:
           episodes:
-            move_episodes:
+            move_episodes: Kijelölt epizódok mozgatása
             no_records: Nincs epizód hozzáadva ehhez a csoporthoz.
           grid:
             episodes: Epizódok
@@ -3851,12 +3861,14 @@ hu-HU:
       from:
       message: Üzenet
       subject: Tárgy
-      template:
+      template: Sablon
       to:
     no_messages:
     notifications:
-      new_message:
+      new_message: "%{username} új üzenetet küldött neked"
     number_of_messages:
+      one: "%{count} üzenet"
+      other: "%{count} üzenet"
     options:
       admin:
       archive: Archívum
@@ -4371,16 +4383,16 @@ hu-HU:
     mood:
       label:
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
+        afraid: Riadt
+        angry: Dühös
+        disgusted: Felháborodott
+        happy: Boldog
+        interested: Érdeklődő
+        sad: Szomorú
+        surprised: Meglepett
       prompt:
     rating:
-      clear:
+      clear: Értékelésem törlése
       label:
       prompt:
       tooltip:
