@@ -3566,6 +3566,7 @@ bg-BG:
       tooltips:
         adult: Най-общо казано, този флаг се използва само за порнография. Моля, прегледайте <a href="/bible/movie#59f73b759251416e71000004">наръчника за приноси</a> за повече информация.
         bible: За помощ при редакцията на информация в TMDB, моля, натиснете '?; за да прочетете наръчника за приноси.
+        character:
         homepage: Само официални страници. Създадените от фенове страници са забранени.
         logo_format: Поддържат се SVG и PNG формати. SVG са предпочитани, понеже не зависят от разделителната способност.
         original_title: Оригиналното заглавие трябва да бъде въведено на оригиналния език. В повечето случаи съответства на езика въведен в полето "Оригинален език".
@@ -3609,6 +3610,7 @@ bg-BG:
           no_records: Няма добавени алтернативни заглавия.
         cast:
           no_records: Няма добавени актьори.
+          person_required:
         confirm_collection: |-
           <p>Колекциите са удобен начин за групиране на поредици в TMDB. Може да звучи противоречиво, но колекциите не са създадени като начин за групиране на филми от една "вселена". За такова групиране, моля, <a href="%{list_link}" target="_blank" rel="noopener">създайте списък</a>. За повече информация относно колекциите, можете да посетите <a href="%{docs_link}" target="_blank" rel="noopener">нашата документация</a>.</p>
 
@@ -3678,6 +3680,18 @@ bg-BG:
       edit:
         alternative_names:
           no_records: Няма добавени алтернативни имена.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Жена
         male: Мъж

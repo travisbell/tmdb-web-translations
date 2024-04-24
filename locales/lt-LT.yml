@@ -3676,6 +3676,7 @@ lt-LT:
       tooltips:
         adult: Paprastai, šis pažymėjimas turi būti naudojamas tik pornografijai. Norėdami gauti daugiau informacijos, skaitykite <a href="/bible/movie#59f73b759251416e71000004">Talkininko Bibliją</a>.
         bible: Norėdami padėti redaguoti informaciją TMDB, spustelėkite '?' ir susipažinkite su savanorio biblija.
+        character:
         homepage: Tik oficialus tinklalapis. Neleidžiami gerbėjų puslapiai.
         logo_format: SVG ir PNG palaikomas formatas. SVG yra pageidaujama, nes nepriklauso nuo rezoliucijos.
         original_title: Originalus pavadinimas turėtų būti įrašytas originalo kalba. Daugeliu atvejų tai atitiktų kalbą, įrašytą lauke „originalo kalba“.
@@ -3721,6 +3722,7 @@ lt-LT:
           no_records: Nėra jokių alternatyvių pavadinimų.
         cast:
           no_records: Nerasta jokių aktorių.
+          person_required:
         confirm_collection: |-
           <p>Rinkiniai yra patogus būdas grupuoti filmo tęsinius TMDB svetainėje. Nors kartais tai būna prieštaringa, rinkiniai nėra skirti vienos „visatos“ filmų grupavimui. Dėl to <a href="%{list_link}" target="_blank" rel="noopener">sukurkite sąrašą</a>. Daugiau informacijos apie rinkinius galite rasti <a href="%{docs_link}" target="_blank" rel="noopener">dokumentacija</a>.</p>
 
@@ -3792,6 +3794,18 @@ lt-LT:
       edit:
         alternative_names:
           no_records: Nėra jokių alternatyvių vardų.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Moteris
         male: Vyras

@@ -3603,6 +3603,7 @@ pt-BR:
       tooltips:
         adult: De um modo geral, essa indicação deve ser usada apenas para pornografia. Por favor, veja <a href="/bible/movie#59f73b759251416e71000004">the contribution bible</a> para mais informações.
         bible: Para obter ajuda na edição de informações no TMDB, clique neste '?' para ler a Bíblia do Colaborador.
+        character:
         homepage: Somente sites oficiais, páginas de fãs não são permitidas.
         logo_format: Arquivos SVG e PNG são suportados. Preferimos arquivos SVG, por serem independentes de resolução.
         original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
@@ -3646,6 +3647,7 @@ pt-BR:
           no_records: Nenhum título alternativo foi adicionado.
         cast:
           no_records: Nenhum membro do elenco foi adicionado.
+          person_required:
         confirm_collection: |-
           <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDB. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, <a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
@@ -3715,6 +3717,18 @@ pt-BR:
       edit:
         alternative_names:
           no_records: Nenhum nome alternativo foi adicionado.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Feminino
         male: Masculino

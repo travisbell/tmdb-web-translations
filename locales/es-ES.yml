@@ -3581,6 +3581,7 @@ es-ES:
       tooltips:
         adult: Normalmente, esta marca solo debe usarse para pornografía. Consulta <a href="/bible/movie#59f73b759251416e71000004">la guía de aportaciones</a> para obtener más información.
         bible: Para obtener ayuda sobre cómo editar la información de TMDB, haz clic en '?' para leer la guía de aportaciones.
+        character:
         homepage: Página oficial solamente. Las páginas de seguidores no están permitidas.
         logo_format: Se aceptan ficheros en formato SVG o PNG. Es preferible el uso de archivos SVG ya que la resolución es independiente.
         original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
@@ -3624,6 +3625,7 @@ es-ES:
           no_records: No se han añadido títulos alternativos.
         cast:
           no_records: No se han añadido miembros del reparto.
+          person_required:
         confirm_collection: |-
           <p>Las colecciones son una forma adecuada de agrupar secuelas en TMDB. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, <a href="%{list_link}" target="_blank" rel="noopener">crea una lista</a>. Para obtener más información sobre colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener">nuestra documentación</a>.</p>
 
@@ -3693,6 +3695,18 @@ es-ES:
       edit:
         alternative_names:
           no_records: No se han añadido nombres alternativos.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Femenino
         male: Masculino

@@ -3567,6 +3567,7 @@ it-IT:
       tooltips:
         adult:
         bible: Per assistenza nella modifica delle informazioni su TMDB, fare clic su questo '?' leggere il manuale di contributo.
+        character:
         homepage: Solo homepage ufficiale. Le pagine fan non sono permesse.
         logo_format: SVG e PNG sono supportati. Gli SVG sono preferiti poiché sono indipendenti dalla risoluzione.
         original_title: Il titolo originale deve essere inserito nella lingua originale dell'articolo. Nella maggior parte dei casi questo corrisponderebbe alla lingua inserita nel campo "lingua originale".
@@ -3610,6 +3611,7 @@ it-IT:
           no_records: Nessun titolo alternativo aggiunto.
         cast:
           no_records: Nessun membro del cast aggiunto.
+          person_required:
         confirm_collection: |-
           <p> Le raccolte sono un modo conveniente di raggruppare sequel insieme su TMDB. Anche se a volte controverso, le raccolte non sono intese come un modo per raggruppare film dello stesso "universo". Per questo, per favore <a href="%{list_link}" target="_blank" rel="noopener"> crea un elenco </a>. Per ulteriori informazioni sulle raccolte, puoi visitare <a href="%{docs_link}" target="_blank" rel="noopener"> la nostra documentazione </a>.</p>
 
@@ -3679,6 +3681,18 @@ it-IT:
       edit:
         alternative_names:
           no_records: Nessun nome alternativo aggiunto.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Femmina
         male: Maschio

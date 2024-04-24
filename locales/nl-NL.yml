@@ -3542,6 +3542,7 @@ nl-NL:
       tooltips:
         adult:
         bible: " Klik op '?' om de bijdragebijbel te openen voor hulp bij het bewerken."
+        character:
         homepage: Alleen de officiële website; fansites zijn niet toegestaan.
         logo_format: SVG's en PNG's worden ondersteund. SVG's hebben de voorkeur omdat deze resolutie-onafhankelijk zijn.
         original_title: De originele titel moet in de originele taal worden ingevuld. In de meeste gevallen is dit dezelfde taal als ingevoerd bij "originele taal".
@@ -3585,6 +3586,7 @@ nl-NL:
           no_records: Er zijn geen alternatieve titels toegevoegd.
         cast:
           no_records: Er zijn geen castleden toegevoegd.
+          person_required:
         confirm_collection: |-
           <p>Verzamelingen zijn een handige manier om (film)series te groeperen op TMDB. Hoewel soms gezegd wordt dat het controversieel is, zijn collecties niet bedoeld om films uit hetzelfde "universum" te groeperen. Voor dat laatste kun je <a href="%{list_link}" target="_blank" rel="noopener">een lijst creëren</a>. Bekijk, voor meer informatie over verzamelingen, <a href="%{docs_link}" target="_blank" rel="noopener">onze documentatie</a>.</p>
 
@@ -3654,6 +3656,18 @@ nl-NL:
       edit:
         alternative_names:
           no_records: Er zijn geen alternatieve namen toegevoegd.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Vrouw
         male: Man

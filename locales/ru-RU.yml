@@ -3603,6 +3603,7 @@ ru-RU:
       tooltips:
         adult: Вообще говоря, этот флаг используется только для порнографии. Для получения дополнительной информации см. <a href="/bible/movie#59f73b759251416e71000004">библию о вкладе</a>.
         bible: Для получения справки по правке в TMDB, нажмите «?» и читайте Библию участия.
+        character:
         homepage: Только официальные сайты. Любительские сайты запрещены.
         logo_format: Поддерживаются SVG и PNG. SVG предпочтительнее, поскольку они независимы от разрешения.
         original_title: Исходное название должно вводиться на исходном языке. В большинстве случаев он должен совпадать с языком, выбранным в поле "исходный язык".
@@ -3646,6 +3647,7 @@ ru-RU:
           no_records: Альтернативных названий не добавлено.
         cast:
           no_records: Актёрский состав не добавлен.
+          person_required:
         confirm_collection: |-
           <p>Коллекции - это удобный способ группирования вместе сиквелов на TMDB. Хотя иногда это противоречиво, сборники не предназначены для группирования фильмов одной и той же «Вселенной». Для этого, пожалуйста, <a href="%{list_link}" target="_blank" rel="noopener">создайте список</a>. Для получения дополнительной информации о коллекциях вы можете посетить <a href="%{docs_link}" target="_blank" rel="noopener">нашу документацию</a>.</p>
 
@@ -3719,6 +3721,18 @@ ru-RU:
       edit:
         alternative_names:
           no_records: Альтернативных имён не было добавлено.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Женский
         male: Мужской

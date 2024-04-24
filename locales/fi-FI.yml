@@ -3573,6 +3573,7 @@ fi-FI:
       tooltips:
         adult: Yleisesti ottaen, tätä merkintää käytetään ainoastaan pornografialle. Löydät<a href="/bible/movie#59f73b759251416e71000004">Avustajan ohjekirjasta</a>lisää tietoa.
         bible: Saadaksesi apua tietojen muokkaamiiseen TMDb:ssä, klikkaa tästä '?' lukeaksesi avustajan ohjekirjan.
+        character:
         homepage: Virallinen kotisivu. Fanisivut eivät ole sallittuja.
         logo_format: SVG- ja PNG-tiedostotyypit ovat tuettuja. SVG:tä suositellaan käytettäväksi, koska se ei ole resoluutiosta riippuvainen.
         original_title: Alkuperäinen nimi tulee olla nimikkeen alkuperäisellä kielellä. Yleensä tämä vastaa "alkuperäinen kieli"-kohdan asetusta.
@@ -3616,6 +3617,7 @@ fi-FI:
           no_records: Vaihtoehtoisia nimiä ei ole lisätty.
         cast:
           no_records: Näyttelijöitä ei ole lisätty.
+          person_required:
         confirm_collection: |-
           <p>Kokoelmat ovat kätevä tapa ryhmittää jatko-osat yhteen. Vaikkakin kiistanalaista, kokoelmat eivät ole tarkoitettu kokoamaan saman "universumin" elokuvia yhteen. Niitä varten voit <a href="%{list_link}" target="_blank" rel="noopener">luoda listan</a>. Saadaksesi lisätietoa kokoelmista, voit tutustua <a href="%{docs_link}" target="_blank" rel="noopener">tukisivustoon</a>.</p>
 
@@ -3685,6 +3687,18 @@ fi-FI:
       edit:
         alternative_names:
           no_records: Vaihtoehtoisia nimiä ei ole lisätty.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Nainen
         male: Mies

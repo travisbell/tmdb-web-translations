@@ -3601,6 +3601,7 @@ en-US:
       tooltips:
         adult: Generally speaking, this flag is to only be used for pornography. Please see <a href="/bible/movie#59f73b759251416e71000004">the contribution bible</a> for more information.
         bible: For help editing information on TMDB, click this '?' to read the contribution bible.
+        character: Character name should be entered as it appears in the %{media}.
         homepage: Official homepage only. Fan pages are not allowed.
         logo_format: SVG's and PNG's are supported. SVG's are preferred since they are resolution independent.
         original_title: The original title should be entered in the original language of the item. In most cases this would match the language entered in the "original language" field.
@@ -3644,6 +3645,7 @@ en-US:
           no_records: No alternative titles have been added.
         cast:
           no_records: No cast members have been added.
+          person_required: A person is required.
         confirm_collection: |-
           <p>Collections are a convenient way of grouping sequels together on TMDB. While sometimes controversial, collections are not intended to be a way of grouping movies of the same "universe". For that, please <a href="%{list_link}" target="_blank" rel="noopener">create a list</a>. For more information about collections you can visit <a href="%{docs_link}" target="_blank" rel="noopener">our documentation</a>.</p>
 
@@ -3713,6 +3715,18 @@ en-US:
       edit:
         alternative_names:
           no_records: No alternative names have been added.
+        errors:
+          invalid_unicode: Invalid character(s) detected.
+          leading_whitespace: Leading whitespace(s) detected.
+          locked_name: "<strong>%{name} (%{language})</strong> is locked."
+          name_required: Unable to migrate blank %{name} (%{language}) field.
+          numbers: Invalid numeric character(s) detected.
+          special_characters: Invalid character(s) detected.
+          trailing_whitespace: Trailing whitespace(s) detected.
+        migration_success: Name migrated successfully.
+        move_name: Move Name
+        move_name_tooltip: Move <strong> %{name} (%{language})</strong> to the selected language.
+        translated_name_tooltip: "<strong> %{name} (%{language})</strong> should only be entered for a <strong>valid transformation of the person's name</strong>. If both names are identical, simply leave this field blank and lock it."
       gender:
         female: Female
         male: Male

@@ -3540,6 +3540,7 @@ tr-TR:
       tooltips:
         adult: Genel olarak konuşursak, bu etiket yalnızca pornografi için kullanılacaktır. Daha fazla bilgi için lütfen <a href="/bible/movie#59f73b759251416e71000004">Katılım kutsal kitabına</a> bakın.
         bible: TMDB deki bilgileri nasıl düzenleneceği konusunda yardım almak için '?'ne tıklayıp katılım başvuru kitabını okuyabilirsiniz.
+        character:
         homepage: Yalnız resmi anasayfa. Hayran sayfalarına izin verilmez.
         logo_format: SVG ve PNG türleri desteklenir.  Çözünürlükten bağımsız olduğu için SVG tercih edilir.
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
@@ -3583,6 +3584,7 @@ tr-TR:
           no_records: Alternatif başlık eklenmedi.
         cast:
           no_records: Hiçbir oyuncu eklenmedi.
+          person_required:
         confirm_collection: |-
           <p>Koleksiyonlar, TMDB’de devam filmlerini bir araya getirmenin uygun bir yoludur. Bazen tartışmalı olsa da, koleksiyonlar aynı “evren"deki filmleri gruplandırmanın bir yolu olarak düşünülmemelidir. Bunun için lütfen <a href=”%{list_link}" target=“_blank” rel=“noopener”>bir liste oluşturun</a>. Koleksiyonlar hakkında daha fazla bilgi için <a href=“%{docs_link}” target=“_blank” rel=“noopener”>belgelerimizi</a> ziyaret edebilirsiniz.</p>
 
@@ -3652,6 +3654,18 @@ tr-TR:
       edit:
         alternative_names:
           no_records: Alternatif isimler eklenmedi.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Kadın
         male: Erkek

@@ -3545,6 +3545,7 @@ zh-HK:
       tooltips:
         adult: 一般來說，此標記僅用於色情內容。請參閱<a href="/bible/movie#59f73b759251416e71000004">貢獻指南</a>以取得更多資訊。
         bible: 有關編輯 TMDB 資訊，若需要幫助請點擊 '?' 按鈕
+        character:
         homepage: 僅開放官方網站登錄，不包含粉絲專頁
         logo_format: 支援 SVG 與 PNG 格式。建議使用 SVG 格式，此格式為像素獨立特性。
         original_title: 原始標題的項目，通常與「原始語言」欄位的語言類型相吻合。
@@ -3588,6 +3589,7 @@ zh-HK:
           no_records: 無任何替代標題添加的紀錄
         cast:
           no_records: 無任何演員被添加的紀錄
+          person_required:
         confirm_collection: |-
           <p>系列是在TMDb將續集分組的方式，雖然有時此方式有些為爭議，但系列不一定以同一「故事世界觀」的方式來作分組的依據。若您了解系列型態的原則，請繼續 <a href="%{list_link}" target="_blank" rel="noopener">建立系列</a>. 若您想要了解更多關於系列型態的資訊，請查閱 <a href="%{docs_link}" target="_blank" rel="noopener">我們的文件</a>.</p>
 
@@ -3653,6 +3655,18 @@ zh-HK:
       edit:
         alternative_names:
           no_records: 沒有添加任何替代名稱
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: 女性
         male: 男性

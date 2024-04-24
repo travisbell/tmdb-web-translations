@@ -3586,6 +3586,7 @@ ro-RO:
       tooltips:
         adult: În general, acest semn este folosit doar pentru pornografie. Vă rugăm să consultați <a href="/bible/movie#59f73b759251416e71000004"> contribuție biblie </a> pentru mai multe informații.
         bible: Pentru ajutor la editarea informațiilor despre TMDB, faceți clic pe "?" pentru a citi din contribuție biblie.
+        character:
         homepage: Doar pagina oficială. Paginile fanilor nu sunt permise.
         logo_format: SVG-urile și PNG-urile sunt suportate. SVG-urile sunt preferate deoarece sunt independente de rezoluție.
         original_title: Titlul original trebuie introdus în limba originală al elementului. În cele mai multe cazuri acesta s-ar potrivi cu limba introdusă în câmpul „limba originală”.
@@ -3629,6 +3630,7 @@ ro-RO:
           no_records: Nu au fost adăugate titluri alternative.
         cast:
           no_records: Nu au fost adăugați membrii distribuție
+          person_required:
         confirm_collection: |-
           <p>Colecțiile reprezintă o modalitate convenabilă de a grupa continuări ale unor filme pe TMDB. Câteodată deși discutabile, colecțiile nu sunt neapărat o modalitate de grupare a filmelor din același "univers". Pentru aceasta, vă rugăm <a href="%{list_link}" target="_blank" rel="noopener">creați o listă</a>. Pentru mai multe informații despre colecții, accesați <a href="%{docs_link}" target="_blank" rel="noopener"> documentația noastră</a>.</p>
 
@@ -3700,6 +3702,18 @@ ro-RO:
       edit:
         alternative_names:
           no_records: Nu au fost adăugate nume alternative.
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: Femeie
         male: Bărbat

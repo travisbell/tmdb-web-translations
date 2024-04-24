@@ -3567,6 +3567,7 @@ zh-CN:
       tooltips:
         adult: 一般来说，此项仅用于标记色情内容。更多信息请查阅 <a href="/bible/movie#59f73b759251416e71000004">数据编辑参考手册</a>
         bible: 如需在 TMDB 编辑影视资料的相关帮助，点击此 '?' 按钮阅读数据编辑参考手册。
+        character:
         homepage: 仅官方主页，影迷页不允许
         logo_format: 支持 SVG 和 PNG 格式。推荐 SVG 格式，因为 SVG 格式支持无级缩放。
         original_title: 原始片名应以条目的原始语言书写，通常和“原始语言”栏选择的语言一致。
@@ -3610,6 +3611,7 @@ zh-CN:
           no_records: 未添加别名。
         cast:
           no_records: 未添加演员。
+          person_required:
         confirm_collection: |-
           <p>系列是 TMDB 将续集收集在一起以提供便利的一种组织形式。虽然该方式有时存在争议，但系列并不应该将同一「宇宙」的电影收集在一起。对于前述情况，请 <a href="%{list_link}" target="_blank" rel="noopener">创建一个片单</a>。更多系列的相关信息，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文档</a></p>
 
@@ -3679,6 +3681,18 @@ zh-CN:
       edit:
         alternative_names:
           no_records: 未添加别名。
+        errors:
+          invalid_unicode:
+          leading_whitespace:
+          locked_name:
+          name_required:
+          numbers:
+          special_characters:
+          trailing_whitespace:
+        migration_success:
+        move_name:
+        move_name_tooltip:
+        translated_name_tooltip:
       gender:
         female: 女
         male: 男
