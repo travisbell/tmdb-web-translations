@@ -1564,6 +1564,7 @@ cs-CZ:
     general_inquiry:
     general_support:
     get_in_touch:
+    where_located:
   contribute:
     contribute: Přispět
     missing_a_biography: Chybějící biografie
@@ -3708,17 +3709,17 @@ cs-CZ:
         alternative_names:
           no_records: Nebyla přidána žádná alternativní jména.
         errors:
-          invalid_unicode:
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        translated_name_tooltip:
+          invalid_unicode: Byl nalezen neplatný znak.
+          leading_whitespace: Byla nalezena mezera na začátku textu.
+          locked_name: "<strong>%{name} (%{language})</strong> je uzamčeno."
+          name_required: Prázdné pole %{name} (%{language}) nelze přesunout.
+          numbers: Byl nalezen neplatný číselný znak.
+          special_characters: Byl nalezen neplatný speciální znak.
+          trailing_whitespace: Byla nalezena mezera na konci textu.
+        migration_success: Jméno bylo úspěšně přesunuto.
+        move_name: Přesunout jméno
+        move_name_tooltip: Přesune <strong> %{name} (%{language})</strong> do vybraného jazyka.
+        translated_name_tooltip: "<strong> %{name} (%{language})</strong> by mělo být použito <strong>pouze pro nejvíce užívanou podobu jména</strong> v tomto jazyce. Pokud jsou obě jména identická, mělo by lokalizované jméno zůstat prázdné a uzamčené."
       gender:
         female: Žena
         male: Muž

@@ -112,7 +112,7 @@ ca:
   Content Score: Puntuació del contingut
   Continue: Continua
   Contribution leaders for the week of: Líders de contribució per a la setmana de
-  Convert to Collection?: Desitgeu transformar en una col·lecció?
+  Convert to Collection?: Desitgeu transformar-la en una col·lecció?
   Convert to Movie?: Desitgeu transformar en una pel·lícula?
   Country: País
   Create: Creació
@@ -167,8 +167,8 @@ ca:
   Email Content: Contingut del correu electrònic
   Embed: Embegut
   Episode Images:
-    one: imatge de l'episodi
-    other: imatges de l'episodi
+    one: fotograma de l'episodi
+    other: fotogrames de l'episodi
   Episode Number: Número d'episodi
   Episode Overview: Sinopsi de l'episodi
   Episodes: Episodis
@@ -265,7 +265,7 @@ ca:
   Logo: Logotip
   Logout: Desconnecta
   Mark as Favorite: Marca com a preferit
-  Media: Material
+  Media: Materials
   Member since: Membre des de
   Merge Keyword: Fusiona paraules clau
   Mixed Compact View: Vista compacta mixta
@@ -421,7 +421,7 @@ ca:
   Store URL: Desa l'URL
   Subject: Subjecte
   Submit: Envia
-  Success: Correcte
+  Success: Fet
   Summary: Sinopsi
   Support: Assistència
   Support Forums: Fòrums de suport
@@ -473,7 +473,7 @@ ca:
   Video?: Vídeo?
   View: Mostra
   View All Backdrops: Mostra totes les imatges de fons
-  View All Episode Images: Mostra totes les imatges de l'episodi
+  View All Episode Images: Mostra tots els fotogrames de l'episodi
   View All Episodes: Mostra tots els episodis
   View All Posters: Mostra tots els pòsters
   View All Seasons: Mostra totes les temporades
@@ -1476,7 +1476,7 @@ ca:
     popularity_weight: Pes de la popularitat
     popularity_weight_multiplier: Multiplicador del pes de la popularitat
     previous: Anterior
-    previous_nav_label: Ant.
+    previous_nav_label: Prev
     primary_character_name: Nom principal del personatge
     problem_refreshing_results: S'ha produït un problema en actualitzar els resultats.
     proceed: Continua
@@ -1561,6 +1561,7 @@ ca:
     general_inquiry: Consulta general
     general_support: Assistència general
     get_in_touch: Poseu-vos en contacte
+    where_located:
   contribute:
     contribute: Contribuïu
     missing_a_biography: En falta la biografia
@@ -2107,7 +2108,7 @@ ca:
         other: ha de ser menor de %{count}
       less_than_or_equal_to:
         one: ha de ser menor o igual a %{count}
-        other: ha de ser menor o igual a %{count}
+        other: han de ser menors o iguals a %{count}
       model_invalid: "'Ha fallat la validació: %{errors}'"
       no_characters_found: No s'ha trobat caràcters
       not_a_number: No és un número
@@ -2250,7 +2251,7 @@ ca:
       '8': Una ràtio d'aspecte de 16x9 (1.78:1)
       '9': Una resolució mínima de 300x450
       backdrops_must_meet: 'Les imatges de fons han de reunir els següents criteris:'
-      episode_stills_must_meet: 'Les imatges d''episodis han de reunir els següents criteris:'
+      episode_stills_must_meet: 'Els fotogrames d''episodis han de reunir els següents criteris:'
       headshots_must_meet: 'Les fotos de perfil han de reunir els següents criteris:'
       posters_must_meet: 'Els pòsters han de reunir els següents criteris:'
       profile_must_meet: 'Les imatges de perfil han de reunir els següents criteris:'
@@ -3615,15 +3616,15 @@ ca:
       tv_page_title: Sèries %{name}
     images:
       format: Format
-      no_backdrop_stills: Aquesta entrada no té afegides imatges de fons.
-      no_backdrops: Aquesta entrada no té afegides imatges de fons.
-      no_headshots: No hi ha imatges de perfil afegides a aquesta entrada.
-      no_logos: Aquesta entrada no té afegits logotips.
-      no_posters: Aquesta entrada no té afegits pòsters.
-      no_profiles: Aquesta entrada no té afegides imatges de perfil.
+      no_backdrop_stills: No s'ha afegit cap fotograma a aquesta entrada.
+      no_backdrops: No s'ha afegit cap imatge de fons a aquesta entrada.
+      no_headshots: No s'ha afegit cap imatge de perfil a aquesta entrada.
+      no_logos: No s'ha afegit cap logotip a aquesta entrada.
+      no_posters: No s'ha afegit cap pòster a aquesta entrada.
+      no_profiles: No s'ha afegit cap imatge de perfil a aquesta entrada.
       primary: Principal?
       types:
-        backdrop_stills: Imatges de fons
+        backdrop_stills: Fotogrames
     keyword:
       movie_page_title: Pel·lícules "%{name}"
       tv_page_title: Sèries "%{name}"
@@ -3771,7 +3772,7 @@ ca:
         by: Escrit per %{username} el %{date}
         featured_review: Ressenya destacada
         no_review:
-          logged_in: No tenim ressenyes de %{title}. En voleu <a href="%{url}">escriure una</a>?
+          logged_in: No tenim cap ressenya de %{title}. En voleu <a href="%{url}">escriure una</a>?
           public: No hi ha cap ressenya per a %{title}.
         read_all: Llegiu totes les ressenyes
         read_the_rest: llegiu la resta.
@@ -3837,7 +3838,7 @@ ca:
         content_ratings:
           no_records: No s'han afegit classificacions de contingut.
         creator:
-          no_records: No s'han afegit creadors.
+          no_records: No s'hi han afegit creadors.
         crew:
           no_season: No hi ha cap temporada! Cal que n'hi hagi una per a afegir-hi membres de l'equip tècnic.
         episode_groups:
@@ -3880,8 +3881,8 @@ ca:
       episode_groups:
         groups:
           count:
-            one: "%{count} Grup"
-            other: "%{count} Grups"
+            one: "%{count} grup"
+            other: "%{count} grups"
         original_air_date: Data original d'emissió
       networks:
         one: Cadena
@@ -4002,7 +4003,7 @@ ca:
   no_crew: No hi ha ningú de l'equip tècnic afegit a aquesta %{media_type}. Podeu ajudar afegint-hi algú!
   no_description: No s'hi ha afegit cap descripció.
   no_director: No s'hi ha afegit cap director.
-  no_episode_images: No s'hi han afegit imatges de l'episodi.
+  no_episode_images: No s'hi ha afegit cap fotograma de l'episodi.
   no_favorite_movies:
     current_user: No hi heu afegit cap pel·lícula preferida.
     public: "%{username} no té cap pel·lícula preferida."
@@ -4060,7 +4061,7 @@ ca:
         separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: "$"
+        unit: "€"
     format:
       delimiter: "."
       precision: 3
@@ -4112,7 +4113,7 @@ ca:
     other: "%{count} vots"
   ott:
     available_sentences:
-      ads: visió amb anuncis
+      ads: visionat amb anuncis
       buy: compra
       flatrate: subscripció
       free: mode gratuït
@@ -4132,7 +4133,7 @@ ca:
       hd: HD
       sd: SD
     monetization_types:
-      ads: Anuncis
+      ads: Amb publicitat
       buy: Compra
       flatrate: Subscripció
       free: De franc
@@ -4148,7 +4149,7 @@ ca:
     seasons:
       one: "%{count} temporada"
       other: "%{count} temporades"
-    view_offers: Mostra fonts
+    view_offers: Mostra ofertes
     watch_now: Mireu-la ara
     watch_on:
       ads: Visualitzeu %{name} a %{provider_name}
@@ -4177,7 +4178,7 @@ ca:
   person:
     credits:
       as_character: com a %{character}
-      as_job:
+      as_job: "— %{job}"
   placeholder:
     primary_character_name: Nom del personatge principal
   reset_password_text: Introduïu el nom d'usuari per a iniciar el procediment de restabliment de contrasenya.
@@ -4441,9 +4442,9 @@ ca:
   success_sharing: El missatge s'ha compartit amb èxit.
   support:
     array:
-      last_word_connector: ", i "
+      last_word_connector: i
       two_words_connector: " i "
-      words_connector:
+      words_connector: ","
   the: el/la
   time:
     am: a.m.
@@ -4459,8 +4460,8 @@ ca:
       seconds: Segons
   top_contributors: Col·laboradors principals
   translation:
-    one: Traducció
-    other: Traduccions
+    one: traducció
+    other: traduccions
   upload_backdrop: Càrrega d'una imatge de fons
   upload_headshot: Carrega una imatge de perfil
   upload_poster: Càrrega de pòster

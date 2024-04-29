@@ -459,7 +459,7 @@ es-ES:
   Translated Overview: Sinopsis
   Translated Tagline: Lema traducido
   Translated Title: Título (Deje el campo vacío si es el mismo que el original)
-  Translation:
+  Translation: Traducción
   Translations: Traducciones
   Type: Tipo
   Type of Problem: Tipo de problema
@@ -732,25 +732,29 @@ es-ES:
     tv_series_status: Estado de la serie de televisión
   average edits per day: promedio de ediciones por día
   awards:
-    add_nomination:
+    add_nomination: Añadir nominación
     air_date:
-      future:
-      past:
-    category_empty:
+      future: Se emite %{date}
+      past: Emitido %{date}
+    category_empty: No hay nominaciones en esta categoría.
     nominations:
-    nominee:
+      one: 1 nominación
+      other: "%{count} nominaciones"
+    nominee: Nominado/a
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      directed_by: Dirigido por
+      hosted_by: Presentado por
+      location: Ubicación
+      network: Cadena
+      preshow_hosts: Presentadores de la pregala
+      produced_by: Producido por
+      runtime: Duración
+      title: Mostrar información
+    title: Premios
+    winner: Ganador/a
     wins:
+      one: 1 victoria
+      other: "%{count} victorias"
   back_options:
     back: Volver
     episode: Volver al episodio
@@ -1554,10 +1558,11 @@ es-ES:
   collection_includes: Incluye %{movie_titles}
   confirm_delete: "¿Estás seguro de que quieres borrar este registro?"
   contact:
-    contact_sales:
-    general_inquiry:
-    general_support:
-    get_in_touch:
+    contact_sales: Contactar con ventas
+    general_inquiry: Consulta general
+    general_support: Asistencia general
+    get_in_touch: Ponerse en contacto
+    where_located:
   contribute:
     contribute: Aportar
     missing_a_biography: Falta una biografía
@@ -1691,7 +1696,7 @@ es-ES:
     reasons:
       '1':
         message: |-
-          Hola.
+          Hola:
 
           Esta es una nota amistosa de los moderadores de contenido de TMDB. La entrada que creaste con el título «%{title}» fue eliminada. Este título ya estaba en nuestra base de datos y por lo tanto se consideró un duplicado.
 
@@ -1699,7 +1704,7 @@ es-ES:
         subject: Es un duplicado
       '2':
         message: |-
-          Hola.
+          Hola:
 
           Esta es una nota amistosa de los moderadores de contenido de TMDB. La entrada que creaste con el título «%{title}» fue eliminada. Este título no cumplía con nuestras [nuevas directrices de contenido](https://www.themoviedb.org/bible/new_content).
 
@@ -1707,7 +1712,7 @@ es-ES:
         subject: No sigue nuestra directriz de contenidos (amateur, etc...)
       '3':
         message: |-
-          Hola.
+          Hola:
 
           Esta es una nota amistosa de los moderadores de contenido de TMDB. La entrada que creaste con el título «%{title}» fue eliminada .Este título ya existe como un programa de televisión y no se considera una película válida. Puedes leer más sobre nuestras directrices de contenido [aquí](https://www.themoviedb.org/bible/new_content).
 
@@ -1804,10 +1809,10 @@ es-ES:
     no_items: No se encontró ningún elemento que coincidia con tu consulta
     search: Buscar
     sort_options:
-      first_air_date_asc:
-      first_air_date_desc:
-      name_a_z:
-      name_z_a:
+      first_air_date_asc: Primera fecha de emisión ascendiente
+      first_air_date_desc: Primera fecha de emisión descendiente
+      name_a_z: Nombre (A-Z)
+      name_z_a: Nombre (Z-A)
       original_order_asc: Original ascendente
       original_order_desc: Original descendente
       popularity_asc: Popularidad ascendente
@@ -2008,34 +2013,34 @@ es-ES:
       1f610: Carita neutral
       1f612: Cara de desaprobación
       1f616: Cara de frustración
-      1f61e:
-      1f621:
-      1f622:
-      1f623:
-      1f626:
-      1f628:
-      1f629:
-      1f62c:
-      1f62d:
-      1f62e:
-      1f630:
-      1f631:
-      1f633:
-      1f635-1f4ab:
-      1f641:
-      1f914:
-      1f922:
-      1f923:
-      1f928:
-      1f92c:
-      1f92d:
-      1f92e:
-      1f92f:
-      1f971:
-      1f972:
-      1fae2:
-      1fae3:
-      1fae4:
+      1f61e: Cara decepcionada
+      1f621: Cara cabreada
+      1f622: Cara llorando
+      1f623: Cara desesperada
+      1f626: Cara con el ceño fruncido y la boca abierta
+      1f628: Cara asustada
+      1f629: Cara agotada
+      1f62c: Cara haciendo una mueca
+      1f62d: Cara llorando fuerte
+      1f62e: Cara exhalando
+      1f630: Cara con ansiedad y sudor
+      1f631: Cara gritando de miedo
+      1f633: Cara sonrojada
+      1f635-1f4ab: Cara con ojos de espiral
+      1f641: Cara con el ceño ligeramente fruncido
+      1f914: Cara pensativa
+      1f922: Cara de náuseas
+      1f923: Cara revolviéndose de la risa
+      1f928: Cara con ceja alzada
+      1f92c: Cara con símbolos en la boca
+      1f92d: Cara con mano sobre la boca
+      1f92e: Cara vomitando
+      1f92f: Cabeza explotando
+      1f971: Cara de bostezo
+      1f972: Cara sonriente con lágrima
+      1fae2: Cara con los ojos abiertos y la mano sobre la boca
+      1fae3: Cara con ojos asomándose
+      1fae4: Cara con boca diagonal
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodios"
@@ -2087,14 +2092,16 @@ es-ES:
       genres: El campo géneros está bloqueado
       keywords: El campo de palabras clave está bloqueado
     messages:
-      accepted:
+      accepted: debe ser aceptado
       blank: es necesario
-      confirmation:
+      confirmation: no coincide con %{attribute}
       email_address_not_routable: no se puede reubicar
-      empty:
+      empty: no puede estar vacío
       equal_to:
-      even:
-      exclusion:
+        one: debe ser igual a %{count}
+        other: deben ser igual a %{count}
+      even: debe ser parejo
+      exclusion: está reservado
       greater_than:
       greater_than_or_equal_to:
       in:
@@ -2108,9 +2115,9 @@ es-ES:
       less_than_or_equal_to:
       model_invalid:
       no_characters_found: No se encontraron personajes
-      not_a_number:
+      not_a_number: no es un número
       not_an_integer:
-      odd:
+      odd: debe ser impar
       other_than:
       present:
       required: debe existir
@@ -3239,105 +3246,105 @@ es-ES:
     view_shortcuts: Ver atajos
   keywords:
     tone:
-      absurd: absurdo
-      admiring: admirador
-      adoring: adorador
+      absurd: absurda
+      admiring: admirable
+      adoring: devota
       affectation:
-      aggressive: agresivo
-      ambiguous: ambiguo
-      ambivalent: sentimientos encontrados
-      amused:
-      angry:
-      antagonistic:
-      anxious:
-      apathetic:
-      apologetic:
-      appreciative:
-      approving:
-      arrogant:
-      assertive:
-      audacious:
-      authoritarian:
-      awestruck:
-      baffled:
-      bewildered:
-      biting:
-      bitter:
-      blunt:
-      bold:
-      brisk:
+      aggressive: agresiva
+      ambiguous: ambigua
+      ambivalent: ambivalente
+      amused: entretenida
+      angry: enfadada
+      antagonistic: antagónica
+      anxious: ansiosa
+      apathetic: apática
+      apologetic: pesarosa
+      appreciative: agradecida
+      approving: aprobatoria
+      arrogant: arrogante
+      assertive: asertiva
+      audacious: audaz
+      authoritarian: autoritaria
+      awestruck: atemorizante
+      baffled: perplejante
+      bewildered: desconcertante
+      biting: mordaz
+      bitter: amarga
+      blunt: contundente
+      bold: atrevida
+      brisk: abrupta
       burlesque:
-      callous:
-      calm:
-      candid:
+      callous: insensible
+      calm: calmada
+      candid: franca
       casual:
       cautionary:
-      celebratory:
-      cheerful:
-      cliché:
-      clinical:
-      comforting:
-      commanding:
-      compassionate:
-      complex:
-      complicated:
-      conceited:
-      condescending:
-      critical:
-      cruel:
-      curious:
-      cynical:
-      defiant:
-      demeaning:
-      depressed:
-      depressing:
-      derisive:
+      celebratory: festiva
+      cheerful: alegre
+      cliché: cliché
+      clinical: indiferente
+      comforting: reconfortante
+      commanding: imponente
+      compassionate: compasiva
+      complex: compleja
+      complicated: complicada
+      conceited: presuntuosa
+      condescending: condescendiente
+      critical: crítica
+      cruel: cruel
+      curious: curiosa
+      cynical: cínica
+      defiant: desafiante
+      demeaning: degradante
+      depressed: decaída
+      depressing: depresiva
+      derisive: burlona
       derogatory:
       desperate: desesperado
-      detached:
-      didactic:
-      dignified:
-      direct:
+      detached: despegada
+      didactic: didáctica
+      dignified: dignificante
+      direct: directa
       disapproving:
-      disdainful:
-      disgusted:
-      disheartening:
-      disrespectful:
-      distressing:
-      disturbed:
-      domineering:
+      disdainful: desdeñosa
+      disgusted: asquerosa
+      disheartening: desalentadora
+      disrespectful: irrespetuosa
+      distressing: angustiante
+      disturbed: perturbadora
+      domineering: dominante
       doubtful:
-      dramatic:
-      dreary:
-      dubious:
-      earnest:
-      egotistical:
-      embarrassed:
-      empathetic:
-      enchant:
-      enraged:
-      enthusiastic:
-      euphoric:
+      dramatic: dramática
+      dreary: monótona
+      dubious: ambigua
+      earnest: seria
+      egotistical: egocéntrica
+      embarrassed: bochorsonosa
+      empathetic: empática
+      enchant: cautivadora
+      enraged: enfurecedora
+      enthusiastic: entusiasta
+      euphoric: eufórica
       excited:
       exhilarated: eufórico
       exuberant:
       factual:
-      familiar:
+      familiar: familiar
       farcical:
       forceful:
       foreboding:
       frantic:
       frightened:
       frustrated: frustrado
-      furious:
+      furious: furiosa
       gentle:
       ghoulish:
-      gloomy:
-      grand:
-      grave:
-      grim:
-      hard:
-      harsh:
+      gloomy: sombría
+      grand: buena
+      grave: seria
+      grim: desalentadora
+      hard: dura
+      harsh: severa
       hilarious:
       hopeful:
       hopeless:
@@ -3395,7 +3402,7 @@ es-ES:
       reminiscent:
       ridiculous:
       romantic:
-      sarcastic:
+      sarcastic: sarcástico
       sardonic:
       satirical:
       scathing:
@@ -3426,16 +3433,16 @@ es-ES:
       vexed:
       vibrant:
       vindictive:
-      whimsical:
-      wistful:
-      witty:
-      wonder:
-      wry:
-      zealous:
+      whimsical: extravagante
+      wistful: melancólica
+      witty: ocurrente
+      wonder: asombrosa
+      wry: irónica
+      zealous: ferviente
   list_info:
     average_rating: Valoración media
     collaborate: Colaborar
-    hide_comments:
+    hide_comments: Ocultar comentarios
     image_selected: Seleccionada
     items_not_seen: Elementos que no he visto
     items_on_list:
@@ -3881,7 +3888,7 @@ es-ES:
       series_cast: Reparto de la serie
       series_crew: Equipo de la serie
       statuses:
-        Canceled: Cancelado
+        Canceled: Cancelada
         Ended: Finalizado
         In Production: En producción
         Pilot: Piloto
@@ -4478,17 +4485,17 @@ es-ES:
       label: Puntuación
       prompt: "¿Qué te ha parecido %{title}?"
       tooltip:
-        '0':
-        '10':
-        '100':
+        '0': Absoluto desastre
+        '10': Basura total
+        '100': Campeona
         '20': Basura
         '30': Bastante mala
         '40': No es buena
         '50': Pasable
         '60': Está bien
-        '70':
-        '80':
-        '90':
+        '70': Bastante decente
+        '80': Muy buena
+        '90': Grandeza
     tone:
       label: Tono
       no_results:

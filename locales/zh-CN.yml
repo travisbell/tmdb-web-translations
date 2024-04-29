@@ -732,25 +732,25 @@ zh-CN:
     air_date:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
-    category_empty: 该分类下无提名
+    category_empty: 该类别无提名
     nominations:
-      one: '提名率: %{count}'
-      other: 1次提名
+      one: 1项提名
+      other: "%{count} 项提名"
     nominee: 提名
     show_info:
-      directed_by: '导演:'
-      hosted_by: '主办方:'
-      location: 地区
-      network: 网络
-      preshow_hosts: '预演主持人:'
-      produced_by: 制作人：
-      runtime: '时长:'
+      directed_by: 导演
+      hosted_by: 主持人
+      location: 地点
+      network: 广播网
+      preshow_hosts: 预演主持人
+      produced_by: 制作人
+      runtime: 时长
       title: 演出信息
     title: 奖项
     winner: 获奖
     wins:
-      one: 获奖率： %{count}
-      other: 1次获奖
+      one: 1 项获奖
+      other: "%{count} 项获奖"
   back_options:
     back: 返回
     episode: 返回集
@@ -1554,6 +1554,7 @@ zh-CN:
     general_inquiry: 普通咨询
     general_support: 通用支持
     get_in_touch: 联系
+    where_located:
   contribute:
     contribute: 贡献
     missing_a_biography: 缺少个人简介的人物
@@ -2019,17 +2020,17 @@ zh-CN:
       1f641: 微微不满
       1f914: 思考
       1f922: 恶心
-      1f923:
-      1f928:
-      1f92c:
-      1f92d:
-      1f92e:
-      1f92f:
-      1f971:
-      1f972:
-      1fae2:
-      1fae3:
-      1fae4:
+      1f923: 笑得满地打滚
+      1f928: 挑眉
+      1f92c: 嘴上有符号的脸
+      1f92d: 不说
+      1f92e: 呕吐
+      1f92f: 爆炸头
+      1f971: 打哈欠
+      1f972: 含泪的笑脸
+      1fae2: 睁眼捂嘴
+      1fae3: 偷看
+      1fae4: 郁闷
   episode_count: "%{count} 集"
   episode_number_name: 第 %{episode_number} 集
   error_pages:
@@ -2060,7 +2061,7 @@ zh-CN:
         explanation_1: 如果您想讨论您被暂停的原因或您如何重新访问您的账户，请通过点击下面的链接访问消息区域。
         title: 你的账户已被冻结
     suspended_user_post:
-      description:
+      description: 该海报经发现违反<a href="%{link}">community guidelines</a>。 相关用户也可能会被暂停使用。
       title: 帖子已被删除
   errors:
     attributes:
@@ -2079,39 +2080,43 @@ zh-CN:
       genres: 类型字段已锁定
       keywords: 关键词字段已锁定
     messages:
-      accepted:
+      accepted: 必须被接受
       blank: 需要
-      confirmation:
+      confirmation: 无法匹配 %{attribute}
       email_address_not_routable: 无法访问
-      empty:
-      equal_to:
-      even:
-      exclusion:
-      greater_than:
-      greater_than_or_equal_to:
-      in:
+      empty: 不能为空
+      equal_to: 必须等于 %{count}
+      even: 必须相等
+      exclusion: 已保存
+      greater_than: 必须大于 %{count}
+      greater_than_or_equal_to: 必须大于或等于 %{count}
+      in: 必须处于%{count}
       inclusion: 必须选定
       invalid: 是无效的
       invalid_character_name: 角色名不能包含特殊字符
       invalid_email_address: 电子邮件地址无效
       invalid_password: 您输入的密码不正确。
       invalid_request: 未能完成您的请求。
-      less_than:
-      less_than_or_equal_to:
-      model_invalid:
+      less_than: 必须少于%{count}
+      less_than_or_equal_to: 必须少于或等于%{count}
+      model_invalid: "“验证失败：%{errors}"
       no_characters_found: 未找到角色
-      not_a_number:
-      not_an_integer:
-      odd:
-      other_than:
-      present:
+      not_a_number: 不是一个数
+      not_an_integer: 必须是整数
+      odd: 必须是基数
+      other_than: 必须不为%{count}
+      present: 必须为空
       required: 必须存在
       series_status_invalid_to_create_season: 目前已设置为「已取消」或「已完结」，因此无法创建新季。
       suspected_tv_series: 可能是现有的电视剧或迷你剧，如果你确定，你可以继续添加这个条目，但如果它存在于我们的电视部分，它将被删除
       taken: 已经被使用
       too_long:
+        one: 太长(最长为%{count}字符)
+        other: 太长(最长为%{count}字符)
       too_short:
-      wrong_length:
+        one: 太长(最长为%{count}字符)
+        other: 太短(最短为%{count}字符)
+      wrong_length: 长度错误 (应当为%{count}字符)
     movie:
       duplicate_cast: 此人物已添加为演员。
     tv:
@@ -2135,7 +2140,7 @@ zh-CN:
     sidebar:
       account: 账户
       general: 常规
-      get_in_touch:
+      get_in_touch: 联系我们
       logos_and_attribution: 标志 & 归属
       our_history: 我们的历史
       website: 网站
@@ -2197,7 +2202,7 @@ zh-CN:
         in_theaters: 影院上映中
         movies: 电影
         on_tv: 电视播出
-        popular:
+        popular: 流行
         streaming: 流媒体
         this_week: 本周
         today: 今日
@@ -2239,19 +2244,19 @@ zh-CN:
       read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
     uploader:
-      aspect_ratio:
-      aspect_ratio_both:
-      file_type:
-      max_res:
-      min_res:
+      aspect_ratio: "%{ratio}的纵横比"
+      aspect_ratio_both: "%{ratio_first}或%{ratio_second}的纵横比"
+      file_type: "%{file_type}的文件类型"
+      max_res: "%{res}的最大分辨率"
+      min_res: "%{res}的最小分辨率"
       read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
-      type_backdrops:
-      type_episode_stills:
-      type_headshots:
-      type_posters:
-      type_profiles:
-      validation_header:
+      type_backdrops: 背景
+      type_episode_stills: 剧集剧照
+      type_headshots: 肖像图
+      type_posters: 海报
+      type_profiles: 头像
+      validation_header: "%{type}必须满足以下要求："
   invalid_aspect_ratio: 此宽高比无效。
   item_count:
     one: "%{count} 个条目"
@@ -2259,8 +2264,8 @@ zh-CN:
   item_count_more: "%{count} 更多..."
   jobs:
     '"A" Camera Operator': '"A" 摄影师'
-    '"B" Camera Operator':
-    '"C" Camera Operator':
+    '"B" Camera Operator': '"B"摄影师'
+    '"C" Camera Operator': '"C"摄影师'
     '"D" Camera Operator': D摄像师
     24 Frame Playback: 24 帧播放
     2D Artist: 2D 艺术家
@@ -2279,7 +2284,7 @@ zh-CN:
     3D Tracking Layout: 3D 追踪图层
     ADR & Dubbing: 配音
     ADR Coordinator: ADR 协调
-    ADR Editor: ADR 编辑
+    ADR Editor: 对白录音剪辑师
     ADR Engineer: ADR 工程师
     ADR Mixer: 配音混音
     ADR Post Producer: 配音后期制作
@@ -2314,7 +2319,7 @@ zh-CN:
     Additional Key Construction Grip: 副器械建造师
     Additional Key Grip: 副器械师
     Additional Lighting Technician: 副灯光工
-    Additional Music: 副音乐
+    Additional Music: 附加配乐
     Additional Music Supervisor: 副音乐总监
     Additional Photography: 副摄影
     Additional Post-Production Supervisor: 副制作总监
@@ -2327,7 +2332,7 @@ zh-CN:
     Additional Set Photographer: 其他布景摄影师
     Additional Sound Re-Recording Mixer: 附加声音重录混音器
     Additional Sound Re-Recordist: 其他录音师
-    Additional Soundtrack: 副原声
+    Additional Soundtrack: 附加配乐
     Additional Still Photographer: 其他剧照摄影
     Additional Storyboarding: 额外的故事板
     Additional Third Assistant Director: 附加第三名副导演
@@ -2341,7 +2346,7 @@ zh-CN:
     Aerial Camera Technician: 航拍镜头技术支持
     Aerial Coordinator: 航拍协调
     Aerial Director of Photography: 航拍摄像导演
-    Ager/Dyer:
+    Ager/Dyer: 熟化工/干燥工
     Animal Coordinator: 动物协调员
     Animal Wrangler: 动物饲养员
     Animation: 动画
@@ -2365,7 +2370,7 @@ zh-CN:
     Art Department Coordinator: 艺术部协调
     Art Department Manager: 艺术部经理
     Art Department Production Assistant: 艺术部制作助理
-    Art Department Trainee:
+    Art Department Trainee: 艺术部实习生
     Art Designer: 美术设计师
     Art Direction: 艺术总监（美术制作总监，美术指导）
     Art Direction Intern: 美术指导实习生
@@ -2375,7 +2380,7 @@ zh-CN:
     Assistant Chef: 助理厨师
     Assistant Chief Lighting Technician: 助理总照明技术员
     Assistant Costume Designer: 助理服装指导
-    Assistant Craft Service:
+    Assistant Craft Service: 工艺服务助理
     Assistant Decorator: 助理装饰
     Assistant Dialogue Editor: 对话助理编辑
     Assistant Director: 副导演
@@ -2392,7 +2397,7 @@ zh-CN:
     Assistant Location Manager: 助理现场制片
     Assistant Makeup Artist: 化妆助理
     Assistant Music Supervisor: 音乐总监助理
-    Assistant Picture Car Coordinator:
+    Assistant Picture Car Coordinator: 道具车协调助理
     Assistant Picture Editor: 图片编辑助理
     Assistant Production Coordinator: 制片协调人助理
     Assistant Production Design: 助理美术指导
@@ -2400,7 +2405,7 @@ zh-CN:
     Assistant Property Master: 助理道具领班
     Assistant Script: 脚本助理
     Assistant Set Decoration: 助理布景装饰
-    Assistant Set Decoration Buyer:
+    Assistant Set Decoration Buyer: 布景装饰买方助理
     Assistant Set Designer: 助理布景设计师
     Assistant Set Dresser: 布景师助理
     Assistant Set Propsman: 助理布景道具师
@@ -2408,7 +2413,7 @@ zh-CN:
     Assistant Sound Editor: 助理音效编辑
     Assistant Sound Engineer: 音响工程师助理
     Assistant Unit Manager: 单位经理助理
-    Assistant Vehicles Coordinator:
+    Assistant Vehicles Coordinator: 车辆协调助理
     Associate Choreographer: 助理编导
     Associate Editor: 副主编
     Associate Producer: 总策划
@@ -2420,21 +2425,21 @@ zh-CN:
     BTS Photographer: 品牌战略摄影师
     BTS Videographer: 品牌战略摄像师
     Back-up Set Production Assistant: 后备布景制作助理
-    Back-up Truck Production Assistant:
+    Back-up Truck Production Assistant: 备用卡车制作助理
     Background Casting Director: 背景导演
     Background Designer: 布景
-    Base Camp Operator:
+    Base Camp Operator: 营地操作员
     Battle Motion Coordinator: 动作指导
     Best Boy Electric: 电工助理
     Best Boy Electrician: 照明电工
-    Best Boy Grip:
+    Best Boy Grip: 最佳男助理
     Best Boy Lighting Technician: 灯光助理
     Book: 原著
     Boom Operator: 录音话筒操作员（收音助手）
     Broadcast Producer: 广播制作人
     Business Affairs Coordinator: 商务协调员
-    CG Animator:
-    CG Artist:
+    CG Animator: CG动画师
+    CG Artist: CG画师
     CG Engineer: CG 工程师
     CG Painter: CG 绘画
     CG Supervisor: CG 总监
@@ -2448,14 +2453,14 @@ zh-CN:
     Camera Intern: 见习摄像师
     Camera Loader: 相机加载器
     Camera Operator: 摄像师
-    Camera Production Assistant:
+    Camera Production Assistant: 摄影制作助理
     Camera Supervisor: 摄像总监
     Camera Technician: 摄像技术员
     Camera Trainee: 摄像实习生
     Camera Truck: 摄像车
-    Captain Driver:
+    Captain Driver: 首席驾驶
     Carpenter: 木工
-    Cast Driver:
+    Cast Driver: 演员司机
     Casting: 选角
     Casting Assistant: 选角助理
     Casting Associate: 演员部助理
@@ -2466,20 +2471,20 @@ zh-CN:
     Casting Researcher: 角色分配研究员
     Catering: 配餐
     Catering Head Chef: 餐饮主厨
-    Chaperone:
-    Chaperone Tutor:
+    Chaperone: 监护人
+    Chaperone Tutor: 监护人导师
     Character Designer: 角色设计师
     Character Modelling Supervisor: 角色建模主管
     Character Technical Supervisor: 角色技术总监
     Characters: 角色
-    Charge Scenic Artist:
+    Charge Scenic Artist: 风景艺术家
     Chef: 厨师
-    Chief Lighting Technician:
+    Chief Lighting Technician: 首席灯光技术员
     Chief Technician / Stop-Motion Expert: 主任技师 / 定格动画专家
-    Child Wrangler:
+    Child Wrangler: 儿童监管员
     Choreographer: 编舞
     Cinematography: 摄影
-    Clapper Loader:
+    Clapper Loader: 第二摄影助理
     Clearances Consultant: 许可顾问
     Clearances Coordinator: 许可协调员
     Cloth Setup: 服装设定
@@ -2498,14 +2503,14 @@ zh-CN:
     Comic Book: 漫画书
     Commissioning Editor: 组稿编辑
     Compositing Artist: 合成艺术家
-    Compositing Lead:
+    Compositing Lead: 合成组领导
     Compositing Supervisor: 合成主管
     Compositor: 合成
     Concept Artist: 概念艺术家
     Conceptual Design: 概念设计
     Conceptual Illustrator: 概念插画家
-    Conductor:
-    Construction Buyer:
+    Conductor: 指挥员
+    Construction Buyer: 施工买方
     Construction Coordinator: 建筑协调
     Construction Foreman: 建筑工头
     Construction Grip: 施工控制
@@ -2517,18 +2522,18 @@ zh-CN:
     Contact Lens Painter: 隐形眼镜画家
     Contact Lens Technician: 隐形眼镜技术员
     Continuity: 分镜头剧本
-    Contract Manager:
-    Controller:
-    Coordinating Producer:
-    Costume Assistant:
+    Contract Manager: 合同经理
+    Controller: 管理员
+    Coordinating Producer: 协作制片人
+    Costume Assistant: 服装助理
     Costume Consultant: 服装顾问
-    Costume Coordinator:
+    Costume Coordinator: 服装协调员
     Costume Design: 服装设计
     Costume Designer: 服装指导
-    Costume Illustrator:
-    Costume Mistress:
-    Costume Set Supervisor:
-    Costume Standby:
+    Costume Illustrator: 服装插画师
+    Costume Mistress: 服装女主人
+    Costume Set Supervisor: 服装组主管
+    Costume Standby: 服装候补员
     Costume Supervisor: 服装总监
     Costumer: 服装管理员
     Craft Service: 膳食服务
@@ -2537,17 +2542,17 @@ zh-CN:
     Creative Producer: 创意制片人
     Creator: 创作者
     Creature Design: 生物设计
-    Creature Effects Technical Director:
-    Creature Technical Director:
-    Crowd Assistant Director:
+    Creature Effects Technical Director: 生物特效技术总监
+    Creature Technical Director: 生物技术总监
+    Crowd Assistant Director: 群演助理导演
     Cyber Scanning Supervisor: 网络扫描主管
     Dailies Manager: 每日任务管理器
     Dailies Operator: 每日任务操作员
     Dailies Technician: 每日任务技术员
     Daily Electrics: 日常电气
-    Daily Grip:
+    Daily Grip: 日用手提包
     Daily Makeup & Hair: 日常化妆和头发
-    Daily Wardrobe:
+    Daily Wardrobe: 日用衣橱
     Data Management Technician: 数据管理技术员
     Data Wrangler: 数据管理员
     Decorator: 装饰
@@ -2566,12 +2571,12 @@ zh-CN:
     Digital Effects Producer: 数字效果制作人
     Digital Effects Supervisor: 数字效果总监
     Digital Film Recording: 数字电影录制
-    Digital Foley Artist:
-    Digital Imaging Technician:
+    Digital Foley Artist: 数字拟音师
+    Digital Imaging Technician: 数字影像技师
     Digital Intermediate: 数字中间片
-    Digital Intermediate Assistant:
-    Digital Intermediate Colorist:
-    Digital Intermediate Data Wrangler:
+    Digital Intermediate Assistant: 数字调色助理
+    Digital Intermediate Colorist: 数字调色师
+    Digital Intermediate Data Wrangler: 数字调色档案管理员
     Digital Intermediate Editor: 数字调度编辑
     Digital Intermediate Producer: 数字调度制作人
     Digital Producer: 数字制作
@@ -2587,9 +2592,9 @@ zh-CN:
     Dolby Consultant: 杜比顾问
     Dolly Grip: 轨道操作员
     Dramaturgy: 剧作理论
-    Draughtsman:
-    Dresser:
-    Dressing Prop:
+    Draughtsman: 制图员
+    Dresser: 化妆师
+    Dressing Prop: 道具组
     Driver: 司机
     Drone Cinematographer: 无人机摄影师
     Drone Operator: 无人机操作员
@@ -2631,26 +2636,26 @@ zh-CN:
     Film Processor: 统筹
     Finance: 财政
     Finishing Producer: 整理生产商
-    First Assistant "A" Camera:
-    First Assistant "B" Camera:
-    First Assistant "C" Camera:
-    First Assistant "D" Camera:
-    First Assistant Accountant:
+    First Assistant "A" Camera: A组第一摄影助理
+    First Assistant "B" Camera: B组第一摄影助理
+    First Assistant "C" Camera: C组第一摄影助理
+    First Assistant "D" Camera: D组第一摄影助理
+    First Assistant Accountant: 第一助理会计
     First Assistant Art Direction: 第一助理艺术总监（美术制作总监，美术指导）
     First Assistant Camera: 第一摄影助理
     First Assistant Director: 第一副导演
-    First Assistant Director (Prep):
-    First Assistant Director Trainee:
+    First Assistant Director (Prep): 第一导演助理（预）
+    First Assistant Director Trainee: 第一导演助理实习生
     First Assistant Editor: 第一助理剪辑
-    First Assistant Hairstylist:
-    First Assistant Makeup Artist:
-    First Assistant Picture Editor:
-    First Assistant Production Coordinator:
-    First Assistant Property Master:
+    First Assistant Hairstylist: 第一助理发型师（预）
+    First Assistant Makeup Artist: 第一助理化妆师
+    First Assistant Picture Editor: 第一助理图片剪辑师
+    First Assistant Production Coordinator: 第一助理制片协调员
+    First Assistant Property Master: 第一助理道具管理员
     First Assistant Sound Editor: 第一助理音响编辑
-    First Company Grip:
+    First Company Grip: 第一陪同置景工
     Fix Animator: 固定动画师
-    Floor Runner:
+    Floor Runner: 地板跑动员
     Focus Puller: 摄影助理
     Foley: 音效师
     Foley Artist: 拟音师
@@ -2661,15 +2666,15 @@ zh-CN:
     Foley Supervisor: 效果主管
     Gaffer: 灯光指导
     General Manager: 总经理
-    Generalist:
-    Generator Operator:
-    Genetator Operator:
+    Generalist: 多面通
+    Generator Operator: 发电机操作员
+    Genetator Operator: 发电机操作员
     Graphic Designer: 平面设计师
-    Graphic Novel:
+    Graphic Novel: 连环画小说
     Graphic Novel Illustrator: 图文小说插画
     Greensman: 植物道具员
     Grip: 场务
-    Grip Production Assistant:
+    Grip Production Assistant: 机械制片助理
     Gun Wrangler: 枪支管理
     Hair Assistant: 美发助手
     Hair Department Head: 发型部主管
@@ -2678,11 +2683,11 @@ zh-CN:
     Hair Supervisor: 头发主管
     Hairdresser: 美发师（梳头）
     Hairstylist: 发型师
-    Head Carpenter:
+    Head Carpenter: 首席木匠
     Head Decorator: 头部装饰师
     Head Designer: 首席设计师
-    Head Driver:
-    Head Greensman:
+    Head Driver: 首席司机
+    Head Greensman: 首席安全员
     Head of Animation: 动画总监
     Head of Layout: 布局主管
     Head of Production: 生产主管
@@ -2699,7 +2704,7 @@ zh-CN:
     Imaging Science: 影像科学
     In Memory Of: 纪念
     Information Systems Manager: 信息系统经理
-    Insert Unit Director:
+    Insert Unit Director: 嵌入单元主管
     Insert Unit First Assistant Director: 插入单元第一副导演
     Insert Unit Location Manager: 插入单元位置经理
     Interactive Manager: 交互经理
@@ -2712,11 +2717,11 @@ zh-CN:
     Key Animation: 关键动画
     Key Art Production Assistant: 关键美术制作助理
     Key Carpenter: 关键木工
-    Key Construction Grip:
+    Key Construction Grip: 主要置景工
     Key Costumer: 目标客户
     Key Dresser: 关键化妆
     Key Grip: 器械师
-    Key Grip Production Assistant:
+    Key Grip Production Assistant: 主要置景制片助理
     Key Hair Stylist: 关键发型师
     Key Hairdresser: 主要美发师
     Key Makeup Artist: 主要化妆师
@@ -2732,14 +2737,14 @@ zh-CN:
     Layout Supervisor: 布局主管
     Lead Animator: 首席动画师
     Lead Character Designer: 首席角色设计师
-    Lead Costumer:
+    Lead Costumer: 首席服装师
     Lead Creature Designer: 首席生物设计师
     Lead Editor: 主编
     Lead Painter: 画家长
-    Lead Set Dresser:
+    Lead Set Dresser: 首席布景工
     Leadman: 工长
     Legal Services: 法律服务
-    Libra Head Technician:
+    Libra Head Technician: 机械主要技术员
     Lighting Artist: 灯光艺术
     Lighting Camera: 灯光摄影
     Lighting Coordinator: 灯光协调
@@ -2753,18 +2758,18 @@ zh-CN:
     Line Producer: 策划
     Loader: 搬运工
     Local Casting: 本地选角
-    Locale Casting Director:
+    Locale Casting Director: 本地选角总监
     Location Assistant: 定位助手
     Location Casting: 选角
-    Location Coordinator:
+    Location Coordinator: 外景协调员
     Location Manager: 现场制片（外联制片）
-    Location Production Assistant:
+    Location Production Assistant: 外景制片助理
     Location Scout: 场地寻找
-    Location Sound Assistant:
+    Location Sound Assistant: 外景声音助理
     Location Sound Mixer: 现场收音师
     Location Sound Recordist: 现场录音师
-    Logistics Coordinator:
-    Loop Group Coordinator:
+    Logistics Coordinator: 物流协调员
+    Loop Group Coordinator: 循环组协调员
     Lyricist: 歌词作者
     Machinist: 机械师
     Main Title Designer: 主标题设计师
@@ -2784,8 +2789,8 @@ zh-CN:
     Martial Arts Choreographer: 动作设计（武术设计）
     Master Lighting Artist: 主灯光师
     Master at Arms: 武器大师
-    Matchmove Supervisor:
-    Matte Painter:
+    Matchmove Supervisor: Matchmove主管
+    Matte Painter: 数字绘景师
     Mechanical & Creature Designer: 机械与生物设计师
     Mechanical Designer: 机械设计师
     Medical Consultant: 医疗顾问
@@ -2810,7 +2815,7 @@ zh-CN:
     Music Supervision Assistant:
     Music Supervisor: 音乐总监
     Musical: 作曲
-    Musical Casting:
+    Musical Casting: 音乐选角
     Musician: 音乐家
     Negative Cutter: 底片剪辑师
     Novel: 原著小说
