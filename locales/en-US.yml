@@ -3735,7 +3735,10 @@ en-US:
         migration_success: Name migrated successfully.
         move_name: Move Name
         move_name_tooltip: Move <strong> %{name} (%{language})</strong> to the selected language.
+        primary_translation: Primary Translation
+        confirm_primary_translation: A primary translation (%{i18n_tag}) already exists for this person. Click 'Yes' to move the primary translation.
         translated_name_tooltip: If the person's stage name in their native language is not easily readable in %{language}, consider adding a translated name.
+        blank_translated_name: Unable to set primary translation when <strong> %{name} (%{language}) is blank.
       gender:
         female: Female
         male: Male
