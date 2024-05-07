@@ -295,6 +295,7 @@ es-AR:
   Offensive or Spam:
   Offical Site:
   Offline Databases:
+  Ok:
   Origin Country:
   Original Air Date:
   Original Language:
@@ -559,13 +560,17 @@ es-AR:
         filters:
           type:
             Discussion:
-            General:
+            General: General
             List Import:
             Mention:
             Messages: Mensajes
             type:
         notifications:
+          one: Notificación
+          other: Notificaciones
         number_of_items:
+          one: "%{count} Notificación"
+          other: "%{count} Notificaciones"
       page_title:
         recent_events:
       recent: Reciente
@@ -612,7 +617,7 @@ es-AR:
     navigation:
       discussions: Debates
       favorites: Favoritos
-      lists:
+      lists: Listas
       overview:
       ratings:
       ratings_reviews:
@@ -3613,17 +3618,22 @@ es-AR:
       edit:
         alternative_names:
           no_records:
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
           invalid_unicode:
           leading_whitespace:
           locked_name:
           name_required:
           numbers:
+          primary_name_migration:
+          primary_translation:
           special_characters:
           trailing_whitespace:
         migration_success:
         move_name:
         move_name_tooltip:
+        primary_translation:
         translated_name_tooltip:
       gender:
         female:

@@ -295,6 +295,7 @@ de-DE:
   Offensive or Spam: Anstößig oder Spam
   Offical Site: Offizielle Seite
   Offline Databases: Lokale Datenbanken
+  Ok:
   Origin Country: Herkunftsland
   Original Air Date: Erstausstrahlung
   Original Language: Originalsprache
@@ -733,12 +734,12 @@ de-DE:
     air_date:
       future: Ausstrahlung am %{date}
       past: Ausgestrahlt am %{date}
-    alternative_names:
+    alternative_names: Alternativnamen
     categories:
-      title:
+      title: Kategorien
     category_empty: Keine Nominierungen für diese Kategorie.
     ceremonies:
-      title:
+      title: Zeremonien
     nominations:
       one: 1 Nominierung
       other: "%{count} Nominierungen"
@@ -3696,17 +3697,22 @@ de-DE:
       edit:
         alternative_names:
           no_records: Es wurden keine Alternativnamen hinzugefügt.
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
           invalid_unicode:
           leading_whitespace:
           locked_name:
           name_required:
           numbers:
+          primary_name_migration:
+          primary_translation:
           special_characters:
           trailing_whitespace:
         migration_success:
         move_name:
         move_name_tooltip:
+        primary_translation:
         translated_name_tooltip:
       gender:
         female: Weiblich

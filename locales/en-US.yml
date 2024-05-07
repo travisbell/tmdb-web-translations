@@ -295,6 +295,7 @@ en-US:
   Offensive or Spam: Offensive or Spam
   Offical Site: Official Site
   Offline Databases: Offline Databases
+  Ok: OK
   Origin Country: Origin Country
   Original Air Date: Original Air Date
   Original Language: Original Language
@@ -3723,17 +3724,22 @@ en-US:
       edit:
         alternative_names:
           no_records: No alternative names have been added.
+        blank_translated_name: Unable to set primary translation when <strong>%{name} (%{language})</strong> is blank.
+        confirm_primary_translation: A primary translation (%{i18n_tag}) already exists for this person.
         errors:
           invalid_unicode: Invalid character(s) detected.
           leading_whitespace: Leading whitespace(s) detected.
           locked_name: "<strong>%{name} (%{language})</strong> is locked."
           name_required: Unable to migrate blank %{name} (%{language}) field.
           numbers: Invalid numeric character(s) detected.
+          primary_name_migration: Unable to migrate <strong>%{name} (%{language})</strong> from primary translation.
+          primary_translation: translation already exists.
           special_characters: Invalid character(s) detected.
           trailing_whitespace: Trailing whitespace(s) detected.
         migration_success: Name migrated successfully.
         move_name: Move Name
         move_name_tooltip: Move <strong> %{name} (%{language})</strong> to the selected language.
+        primary_translation: Primary translation
         translated_name_tooltip: If the person's stage name in their native language is not easily readable in %{language}, consider adding a translated name.
       gender:
         female: Female

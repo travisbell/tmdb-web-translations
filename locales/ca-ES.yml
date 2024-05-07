@@ -297,6 +297,7 @@ ca-ES:
   Offensive or Spam: Ofensiu o brossa
   Offical Site: Lloc web oficial
   Offline Databases: Base de dades fora de línia
+  Ok:
   Origin Country: País d'origen
   Original Air Date: Data original d'emissió
   Original Language: Llengua original
@@ -526,7 +527,7 @@ ca-ES:
         movies: Pel·lícules
         others: Altres
         people: Artistes
-        tv: TV
+        tv: Sèries
       page_title:
         page_owner: La meva activitat recent
         public: L'activitat recent de l'usuari %{username}
@@ -636,8 +637,8 @@ ca-ES:
       empty_upcoming_watchlist:
         logged_in: No hi ha pròximes pel·lícules a la vostra llista de seguiment.
       empty_watched_genres:
-        logged_in: No heu enregistrat cap pel·lícula o sèrie.
-        public: L'usuari %{username} no ha enregistrat cap pel·lícula o sèrie.
+        logged_in: No heu registrat cap pel·lícula o sèrie.
+        public: L'usuari %{username} no ha registrat cap pel·lícula o sèrie.
       goto_discussions: Ves als debats
       goto_watchlist: Ves a la llista de seguiment
       most_watched_genres: Gèneres més vistos
@@ -1596,7 +1597,7 @@ ca-ES:
       collection_bible: Guia de col·leccions
       tall_bible:
         bottom: Guia
-        top: Col·lecció
+        top: Col·leccions
     contribution_bible: Guia d'estil
     featured_articles: Articles destacats
     general:
@@ -1610,7 +1611,7 @@ ca-ES:
       movie_bible: Guia de pel·lícules
       tall_bible:
         bottom: Guia
-        top: Pel·lícula
+        top: Pel·lícules
     new_content:
       new_content: Contingut nou
       new_content_bible: Guia del contingut nou
@@ -3725,17 +3726,22 @@ ca-ES:
       edit:
         alternative_names:
           no_records: No s'hi han afegit noms alternatius.
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
           invalid_unicode: S'ha detectat algun caràcter invàlid.
           leading_whitespace: S'ha detectat algun espai en blanc inicial.
           locked_name: "<strong>%{name} (%{language})</strong> està blocat."
           name_required: No s'ha pogut migrar el camp %{name} (%{language}) en blanc.
           numbers: S'ha detectat algun caràcter numèric invàlid.
+          primary_name_migration:
+          primary_translation:
           special_characters: S'ha detectat algun caràcter invàlid.
           trailing_whitespace: S'ha detectat algun espai en blanc final.
         migration_success: Nom migrat amb èxit.
         move_name: Mou el nom
         move_name_tooltip: Mou <strong> %{name} (%{language})</strong> a la llengua seleccionada.
+        primary_translation:
         translated_name_tooltip: Si el nom artístic en la llengua original no és fàcilment llegible en %{language}, considereu afegir-hi un nom traduït.
       gender:
         female: Dona

@@ -297,6 +297,7 @@ es-ES:
   Offensive or Spam: Ofensivo o correo basura
   Offical Site: Sitio oficial
   Offline Databases: Bases de datos fuera de línea
+  Ok:
   Origin Country: País de origen
   Original Air Date: Fecha original de emisión
   Original Language: Idioma original
@@ -408,7 +409,7 @@ es-ES:
   Source Key: Clave de origen
   Specials: Especiales
   Spoken Languages: Idiomas hablados
-  Stage Name:
+  Stage Name: Nombre artístico
   State: Estado
   Stats: Estadísticas
   Status: Estado
@@ -737,12 +738,12 @@ es-ES:
     air_date:
       future: Se emite %{date}
       past: Emitido %{date}
-    alternative_names:
+    alternative_names: Nombres alternativos
     categories:
-      title:
+      title: Categorías
     category_empty: No hay nominaciones en esta categoría.
     ceremonies:
-      title:
+      title: Ceremonias
     nominations:
       one: 1 nominación
       other: "%{count} nominaciones"
@@ -2156,7 +2157,7 @@ es-ES:
     sidebar:
       account: Cuenta
       general: General
-      get_in_touch:
+      get_in_touch: Ponte en contacto
       logos_and_attribution: Logos y atribución
       our_history: Nuestra historia
       website: Sitio web
@@ -3276,15 +3277,15 @@ es-ES:
       bewildered: desconcertante
       biting: mordaz
       bitter: amarga
-      blunt: contundente
+      blunt: desafilado
       bold: atrevida
       brisk: abrupta
-      burlesque:
+      burlesque: burlesco
       callous: insensible
       calm: calmada
       candid: franca
       casual: casual
-      cautionary:
+      cautionary: cauteloso
       celebratory: festiva
       cheerful: alegre
       cliché: cliché
@@ -3304,7 +3305,7 @@ es-ES:
       demeaning: degradante
       depressed: decaída
       depressing: depresiva
-      derisive: burlona
+      derisive: irrisorio
       derogatory: despectivo
       desperate: desesperado
       detached: despegada
@@ -3336,15 +3337,15 @@ es-ES:
       exuberant: exuberante
       factual: fáctico
       familiar: familiar
-      farcical:
-      forceful:
+      farcical: absurdo
+      forceful: contundente
       foreboding: premonitorio
       frantic: frenético
-      frightened:
+      frightened: atemorizado
       frustrated: frustrado
       furious: furiosa
       gentle: amable
-      ghoulish:
+      ghoulish: tétrico
       gloomy: sombría
       grand: buena
       grave: seria
@@ -3370,15 +3371,15 @@ es-ES:
       introspective: introspectivo
       ironic: irónico
       irreverent: irreverente
-      joyful:
-      joyous:
-      lighthearted:
+      joyful: jovial
+      joyous: jubiloso
+      lighthearted: despreocupado
       loving: cariñoso
       lyrical: lírico
       macabre: macabro
       malicious: malicioso
       matter of fact:
-      mean spirited:
+      mean spirited: mezquino
       meditative: meditativo
       melancholy: melancólico
       melodramatic: melodramático
@@ -3422,21 +3423,21 @@ es-ES:
       skeptical: escéptico
       somber: sombrío
       speculative: especulativo
-      stern:
-      straightforward:
+      stern: severo
+      straightforward: sencillo
       subjective: subjetivo
       submissive: sumiso
       suspenseful: suspenso
       suspicious: sospechoso
       sympathetic: simpático
-      taunting:
+      taunting: irritante
       tense: tenso
-      thoughtful:
+      thoughtful: considerado
       tragic: tragico
-      unassuming:
+      unassuming: humilde
       understated: subestimado
       urgent: urgente
-      vexed:
+      vexed: vejado
       vibrant: vibrante
       vindictive: vengativo
       whimsical: extravagante
@@ -3601,7 +3602,7 @@ es-ES:
         original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
         overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin destripar el argumento.
         social_links: Los únicos enlaces permitidos son a páginas oficiales (verificadas). No están permitidas las páginas de seguidores.
-      translation_already_exists:
+      translation_already_exists: La traducción a %{language} ya existe.
       translation_not_found: La traducción en %{language} aún no ha sido creada
       unlock_all_appearances: Al hacer clic en 'sí', desbloquearás todos los registros existentes.
       videos:
@@ -3709,18 +3710,23 @@ es-ES:
       edit:
         alternative_names:
           no_records: No se han añadido nombres alternativos.
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
-          invalid_unicode:
+          invalid_unicode: Detectado personaje(s) inválido.
           leading_whitespace:
           locked_name:
           name_required:
           numbers:
+          primary_name_migration:
+          primary_translation:
           special_characters:
           trailing_whitespace:
         migration_success:
         move_name:
         move_name_tooltip:
-        translated_name_tooltip:
+        primary_translation:
+        translated_name_tooltip: Si el nombre artístico de la persona en su lengua materna no es fácilmente legible en %{language}, considera la posibilidad de añadir un nombre traducido.
       gender:
         female: Femenino
         male: Masculino
@@ -3734,7 +3740,7 @@ es-ES:
         one: "%{count} año"
         other: "%{count} años"
     rating:
-      not_rateable:
+      not_rateable: Este elemento aún no es puntuable.
       rated_with_rating: Puntuada %{value}
       rating_count:
         one: "%{count} valoración"
@@ -3984,7 +3990,7 @@ es-ES:
     more:
       more: Más
     movies:
-      now_playing: En cartelera hoy
+      now_playing: En cartelera
       popular: Popular
       top_rated: 'Mejor puntuadas '
       upcoming: Próximamente
@@ -3996,7 +4002,7 @@ es-ES:
       on_the_air: En emisión
       on_tv: En televisión
       popular: Popular
-      top_rated: Mejor valorados
+      top_rated: Mejor valoradas
   no_biography: No tenemos una biografía de %{name}.
   no_cast: No se ha añadido a nadie del reparto a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
   no_collection_search_results: Ninguna colección coincide con tu búsqueda.
@@ -4509,7 +4515,7 @@ es-ES:
         movie: Esta película ha sido...
         tv: Esta serie ha sido...
       select: Selecciona un tono...
-    welcome:
+    welcome: ' ¡Bienvenido a Vibes, el nuevo sistema de puntuación de TMDB! Para obtener más información, visite el <span class="%{style}"><a href="%{link}"> contribution bible</a></span>.'
     whats_new: "¿Qué hay de nuevo?"
     whats_your_vibe: ¿Cuál es tu <span class="%{style}">vibra</span>?
     your_vibe:

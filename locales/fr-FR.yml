@@ -297,6 +297,7 @@ fr-FR:
   Offensive or Spam: Offensant ou indésirable
   Offical Site: Site officiel
   Offline Databases: Bases de données hors ligne
+  Ok:
   Origin Country: Pays d'origine
   Original Air Date: Date de diffusion originale
   Original Language: Langue d'origine
@@ -408,7 +409,7 @@ fr-FR:
   Source Key: Clé source
   Specials: Épisodes spéciaux
   Spoken Languages: Langues parlées
-  Stage Name:
+  Stage Name: Nom de scène
   State: Région
   Stats: Statistiques
   Status: Statut
@@ -460,7 +461,7 @@ fr-FR:
   Translated Overview: Synopsis (consignes dans le « ? ») en
   Translated Tagline: Slogan de l'affiche officielle (pas de traduction) en
   Translated Title: Titre officiel (si différent du « Titre d'origine ») en
-  Translation:
+  Translation: Traduction
   Translations: Traductions
   Type: Type
   Type of Problem: Type de problème
@@ -737,12 +738,12 @@ fr-FR:
     air_date:
       future: Diffusion prévue le %{date}
       past: Diffusée le %{date}
-    alternative_names:
+    alternative_names: Noms alternatifs
     categories:
-      title:
+      title: Catégories
     category_empty: Aucune nomination au sein de cette catégorie.
     ceremonies:
-      title:
+      title: Cérémonies
     nominations:
       one: 1 nomination
       other: "%{count} nominations"
@@ -1564,7 +1565,7 @@ fr-FR:
     general_inquiry: Demande d'information générale
     general_support: Support général
     get_in_touch: Entrons en contact
-    where_located:
+    where_located: Quel est votre emplacement ?
   contribute:
     contribute: Contribuer
     missing_a_biography: Biographies manquantes
@@ -3609,7 +3610,7 @@ fr-FR:
       tooltips:
         adult: De manière générale, ce drapeau ne devrait être utilisé que pour la pornographie.<br><br>Merci de consulter la <a href="/bible/movie#59f73b759251416e71000004"><b>bible des contributions</b></a> pour de plus amples informations.
         bible: Pour accéder à l'aide à l'édition d'informations sur TMDB, cliquez sur ce « ? » pour lire la bible des contributions.
-        character:
+        character: 'Le nom du personnage doit être saisi tel qu''il apparaît dans : %{media}.'
         homepage: Page d'accueil du <b>site officiel</b> uniquement.<br><br><b>Les pages de fans ne sont pas autorisées.</b>
         logo_format: Les formats SVG et PNG sont supportés. Les fichiers SVG sont préférés car ils sont indépendants de la résolution.
         original_title: Le <b>nom d'origine</b> de l'émission télévisée ou le <b>titre d'origine</b> du film doit être saisi dans la langue d'origine de l'élément.<br><br>Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ <b>« Langue d'origine »</b>.
@@ -3653,7 +3654,7 @@ fr-FR:
           no_records: Aucun titre alternatif n'a été ajouté à cette fiche.
         cast:
           no_records: Aucun membre de la distribution n'a été ajouté à cette fiche.
-          person_required:
+          person_required: Une personne doit être renseignée.
         confirm_collection: |-
           <p>Les collections sont un moyen pratique de regrouper des suites de films sur TMDB. Bien que parfois controversées, les collections ne se veulent pas un moyen de regrouper des films d'un même « univers ». Pour cela, veuillez <a href="%{list_link}" target="_blank" rel="noopener">créer une liste</a>. Pour plus d'informations sur les collections, vous pouvez visiter <a href="%{docs_link}" target="_blank" rel="noopener">notre documentation</a>.</p>
 
@@ -3723,18 +3724,23 @@ fr-FR:
       edit:
         alternative_names:
           no_records: Aucun nom alternatif n'a été ajouté à cette fiche.
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
-          invalid_unicode:
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        translated_name_tooltip:
+          invalid_unicode: Caractère(s) non valide(s) détecté(s).
+          leading_whitespace: Espace(s) de début détecté(s).
+          locked_name: La personne <strong>%{name} (%{language})</strong> est verrouillée.
+          name_required: Impossible de migrer le champ vide %{name} (%{language}).
+          numbers: Caractère(s) numérique(s) non valide(s) détecté(s).
+          primary_name_migration:
+          primary_translation:
+          special_characters: Caractère(s) non valide(s) détecté(s).
+          trailing_whitespace: Espace(s) de fin détecté(s).
+        migration_success: Migration du nom réussie.
+        move_name: Déplacer le nom
+        move_name_tooltip: Déplacer <strong> %{name} (%{language})</strong> vers la langue sélectionnée.
+        primary_translation:
+        translated_name_tooltip: Si le nom de scène de la personne, dans sa langue maternelle, n'est pas facilement lisible en %{language}, veuillez ajouter un nom traduit.
       gender:
         female: Femme
         male: Homme

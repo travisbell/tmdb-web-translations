@@ -20,7 +20,7 @@ uk-UA:
   Accept: Прийняти
   Accept API Terms: Прийняти умови API
   Account: Обліковий запис
-  Account Filtering: Фільтр акаунту
+  Account Filtering: Фільтрація акаунтів
   Add Alternative Name: Додати альтернативне найменування
   Add Alternative Title: Додати альтернативну назву
   Add Backdrop: Додати світлину
@@ -101,7 +101,7 @@ uk-UA:
   Comments: Коментарі
   Community: Спільнота
   Community Data: Рейтинг
-  Community Guidelines: Поради спільноти
+  Community Guidelines: Правила спільноти
   Companies: Компанії
   Company Results: Результати компаній
   Confirm: Підтвердити
@@ -299,6 +299,7 @@ uk-UA:
   Offensive or Spam: Образа чи спам
   Offical Site: Офіційний сайт
   Offline Databases: 'Офлайнові бази даних '
+  Ok:
   Origin Country: Оригінальна країна
   Original Air Date: Оригінальна дата показу
   Original Language: Мова оригіналу
@@ -410,7 +411,7 @@ uk-UA:
   Source Key: Вихідний ключ
   Specials: Спеціальне
   Spoken Languages: Мови спілкування
-  Stage Name:
+  Stage Name: Сценічне імʼя
   State: Стан
   Stats: Статистика
   Status: Статус
@@ -462,7 +463,7 @@ uk-UA:
   Translated Overview: Перекладений опис
   Translated Tagline: Перекладений слоган
   Translated Title: Локалізована назва
-  Translation:
+  Translation: Переклад
   Translations: Переклади
   Type: Тип
   Type of Problem: Тип проблеми
@@ -749,24 +750,24 @@ uk-UA:
     air_date:
       future: Відбудеться %{date}
       past: Відбулося %{date}
-    alternative_names:
+    alternative_names: Альтернативні назви
     categories:
-      title:
+      title: Категорії
     category_empty: У цій категорії відсутні номінації.
     ceremonies:
-      title:
+      title: Церемонії
     nominations:
       few: "%{count} номінації"
       many: "%{count} номінації"
       one: 1 номінація
       other: "%{count} номінацій"
-    nominee: Номінація
+    nominee: Номінант
     show_info:
       directed_by: Режисер
       hosted_by: Ведучий
       location: Локація
       network: Мережа
-      preshow_hosts: Ведучий перед заходом
+      preshow_hosts: Ведучий передшоу
       produced_by: Продюсер
       runtime: Тривалість
       title: Інформація про шоу
@@ -1450,7 +1451,7 @@ uk-UA:
     image_media_association: Це зображення повʼязане з медіазаписом. Якщо ви продовжите, асоціації з персонами, повʼязаними з медіазаписом, також зміняться!
     in_translate_mode: Ви в режимі перекладу
     inline_edit_original_name: Оригінальне ім’я
-    join_community_tmdb: Приєднайтеся до нашої спільноти, щоб додавати до The Movie DB.
+    join_community_tmdb: Приєднуйтеся до нашої спільноти, щоб додавати до The Movie DB.
     launch_label: запустити
     lock_existing_appearances: Заблокувати наявні появи
     log_tv_movies_watch: Записуйте серіали та фільми, які ви дивитеся
@@ -1848,7 +1849,7 @@ uk-UA:
       title_a_z: Назва (А–Я)
       title_z_a: Назва (Я–А)
     tooltips:
-      not_member: Немає акаунту?
+      not_member: Немає облікового запису?
       signup: Приєднайтеся до спільноти
       want_to_rate: Хочете поставити оцінку чи додати до списку?
   discussions:
@@ -1934,14 +1935,14 @@ uk-UA:
         ignore_user: Ви впевнені, що хочете ігнорувати цього користувача надалі? Усі обговорення з ним і коментарі зникнуть. Ви можете зняти це блокування, перейшовши на сторінку «Заблоковані користувачі» в налаштуваннях вашого облікового запису.
         mark_as_not_spam: Упевнені, що хочете позначити це обговорення як дійсне, а не як спам?
         mark_as_spam: Ви справді бажаєте позначити це обговорення як спам? Якщо це зробити, воно автоматично видалиться й не зможе бути відновлено. Маркування обговорень як спам допомагає покращити службу виявлення спаму, що ми використовуємо.
-        report_violation: Будь ласка, підтвердіть, що хочете повідомити про порушення цим користувачем наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">community guidelines</a>.
+        report_violation: Будь ласка, підтвердіть, що хочете повідомити про порушення цим користувачем наших <a href="/documentation/community/guidelines" target="_blank" rel="noopener">правил спільноти</a>.
         unhide_discussion: Натисканням «Так» це обговорення буде відновлено.
-      posted_by_with_datetime: створено %{username} за %{date}, %{time}
-      quote: Цитата
+      posted_by_with_datetime: створено %{username} %{date}, %{time}
+      quote: Цитувати
       reopen_reply: Відкрити наново та відповісти
       reply: Відповісти
       reply_by: Відповідь від %{username}
-      reply_on_datetime: за %{date}, %{time}
+      reply_on_datetime: "%{date}, %{time}"
       report: Поскаржитися
       unhide: Показати приховані
     report_violation: Повідомити про порушення
@@ -2235,7 +2236,7 @@ uk-UA:
       title: Скидання пароля
     password_reset_email_required:
       message: Будь ласка, введіть дійсну адресу електронної пошти.
-      title: Потрібно ввести електронну пошту
+      title: Електронна пошта — обов’язково
     resend_verification_email:
       message: |-
         Ми надіслали ще один електронний лист із підтвердженням на цю адресу, якщо вона належить зареєстрованому обліковому запису на TMDB.
@@ -2252,7 +2253,7 @@ uk-UA:
         '1': Насолоджуйтеся TMDB без реклами
         '2': Підтримуйте особистий список перегляду
         '3': Фільтруйте за потоковими сервісами та шукайте, що подивитися
-        '4': Позначайте стрічки та телепередачі, що ви подивилися
+        '4': Позначайте фільми та серіали, що ви подивилися
         '5': Створюйте свої списки
         '6': Додавайте дані до нашої бази та покращуйте її
     discussions:
@@ -3654,7 +3655,7 @@ uk-UA:
       tooltips:
         adult: Загалом ця позначка використовується лише для порнографії. Додаткову інформацію дивіться в <a href="/bible/movie#59f73b759251416e71000004">біблії зі сприяння</a>.
         bible: Щоб дізнатися, як правильно змінювати інформацію на TMDB, клацніть «?» для переходу до біблії зі сприяння.
-        character:
+        character: Ім’я персонажа треба вводити так, як воно зʼявляється у творі (%{media}).
         homepage: Лише офіційні сторінки. Сторінки фанатських спільнот не дозволені.
         logo_format: Підтримуються зображення SVG та PNG. Перевага віддається SVG-зображенням, оскільки їхня якість не залежить від роздільної здатності.
         original_title: Оригінальна назва має вводитися мовою оригіналу. У більшості випадків вона відповідатиме такій, що вказана в полі «Мова оригіналу».
@@ -3698,7 +3699,7 @@ uk-UA:
           no_records: Альтернативних назв не додано.
         cast:
           no_records: Членів акторського складу не додано.
-          person_required:
+          person_required: Персона — обов’язково
         confirm_collection: |-
           <p>Колекції є зручним способом групування сиквелів, тобто об'єднання продовжень того самого фільму. Хоча це іноді зумовлює суперечки, колекції на TMDB не призначені для групування різних фільмів, що розкривають одну й ту саму вузьку тематику. Із такою метою, будь ласка, <a href="%{list_link}" target="_blank" rel="noopener">створіть список</a>. Отримати більше інформації про колекції вам допоможе <a href="%{docs_link}" target="_blank" rel="noopener">наша документація</a>.</p>
 
@@ -3708,9 +3709,9 @@ uk-UA:
 
           <p>Якщо це, наприклад, записана на DVD компіляція, спортивне відео або, можливо, записана на DVD колекція типу «Найкраще з...», то такий контент треба позначати як «Відео».</p>
         crew:
-          job_required: Робота – обов’язково
+          job_required: Робота — обов’язково
           no_records: Членів знімальної групи не додано.
-          person_required: Персона – обов’язково
+          person_required: Персона — обов’язково
         genres:
           add_genre: Додати жанр
           no_records: Жанрів не додано.
@@ -3772,18 +3773,23 @@ uk-UA:
       edit:
         alternative_names:
           no_records: Альтернативних назв не додано.
+        blank_translated_name:
+        confirm_primary_translation:
         errors:
-          invalid_unicode:
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        translated_name_tooltip:
+          invalid_unicode: Виявлено недійсні символи.
+          leading_whitespace: Виявлено початковий пробіл.
+          locked_name: "<strong>%{name} (%{language})</strong> заблоковано."
+          name_required: Неможливо перенести порожнє поле %{name} (%{language}).
+          numbers: Виявлено недійсні числові символи.
+          primary_name_migration:
+          primary_translation:
+          special_characters: Виявлено недійсні символи.
+          trailing_whitespace: Виявлено кінцевий пробіл.
+        migration_success: Ім'я успішно перенесено.
+        move_name: Перенести імʼя
+        move_name_tooltip: Перемістити <strong> %{name} (%{language})</strong> до вибраної мови.
+        primary_translation:
+        translated_name_tooltip: Якщо сценічне імʼя персони її рідною мовою нелегко читається мовою %{language}, подумайте про додавання перекладеного імені.
       gender:
         female: Жіноча
         male: Чоловіча
@@ -3799,7 +3805,7 @@ uk-UA:
         one: "%{count} рік"
         other: "%{count} років"
     rating:
-      not_rateable:
+      not_rateable: Ще не підлягає оцінюванню.
       rated_with_rating: Оцінено %{value}
       rating_count:
         few: "%{count} оцінки"
@@ -3981,7 +3987,7 @@ uk-UA:
         Scripted: Художній
         Talk Show: Ток-шоу
         Video: Відео
-      user_characters:
+      user_characters: Персонажі користувача
     video:
       audio_language: Мова аудіо
       channel: Канал
