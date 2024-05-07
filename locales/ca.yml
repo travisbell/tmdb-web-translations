@@ -297,7 +297,7 @@ ca:
   Offensive or Spam: Ofensiu o brossa
   Offical Site: Lloc web oficial
   Offline Databases: Base de dades fora de línia
-  Ok:
+  Ok: D'acord
   Origin Country: País d'origen
   Original Air Date: Data original d'emissió
   Original Language: Llengua original
@@ -1810,8 +1810,8 @@ ca:
       original_order_desc: Original descendent
       popularity_asc: Popularitat ascendent
       popularity_desc: Popularitat descendent
-      primary_release_date_asc: Data de llançament primària ascendent
-      primary_release_date_desc: Data de llançament primària descendent
+      primary_release_date_asc: Data de llançament principal ascendent
+      primary_release_date_desc: Data de llançament principal descendent
       rating_asc: Valoració ascendent
       rating_desc: Valoració descendent
       release_date_asc: Data d'estrena ascendent
@@ -3713,22 +3713,22 @@ ca:
       edit:
         alternative_names:
           no_records: No s'hi han afegit noms alternatius.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: No és possible fixar una traducció principal quan <strong>%{name} (%{language})</strong> està en blanc.
+        confirm_primary_translation: Ja existeix una traducció principal (%{i18n_tag}) per a aquesta persona.
         errors:
           invalid_unicode: S'ha detectat algun caràcter invàlid.
           leading_whitespace: S'ha detectat algun espai en blanc inicial.
           locked_name: "<strong>%{name} (%{language})</strong> està blocat."
           name_required: No s'ha pogut migrar el camp %{name} (%{language}) en blanc.
           numbers: S'ha detectat algun caràcter numèric invàlid.
-          primary_name_migration:
-          primary_translation:
+          primary_name_migration: No es pot migrar a <strong>%{name} (%{language})</strong> com a traducció primària.
+          primary_translation: la traducció ja existeix.
           special_characters: S'ha detectat algun caràcter invàlid.
           trailing_whitespace: S'ha detectat algun espai en blanc final.
         migration_success: Nom migrat amb èxit.
         move_name: Mou el nom
         move_name_tooltip: Mou <strong> %{name} (%{language})</strong> a la llengua seleccionada.
-        primary_translation:
+        primary_translation: Traducció principal
         translated_name_tooltip: Si el nom artístic en la llengua original no és fàcilment llegible en %{language}, considereu afegir-hi un nom traduït.
       gender:
         female: Dona
