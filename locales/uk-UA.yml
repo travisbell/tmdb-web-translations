@@ -21,7 +21,7 @@ uk-UA:
   Accept API Terms: Прийняти умови API
   Account: Обліковий запис
   Account Filtering: Фільтрація акаунтів
-  Add Alternative Name: Додати альтернативне найменування
+  Add Alternative Name: Додати альтернативне наймення
   Add Alternative Title: Додати альтернативну назву
   Add Backdrop: Додати світлину
   Add Content Rating: Додати вікові обмеження
@@ -275,15 +275,15 @@ uk-UA:
   Moderator: Модератор
   More Info: Більше інформації
   Most Popular: Найпопулярніше
-  Move Credits: Перемістити титри
-  Move TV Credits: Перемістити титри серіалу
+  Move Credits: Перемістити згадки в титрах
+  Move TV Credits: Перемістити згадки в титрах серіалів
   Movie Data: Дані про фільм
   Movie Recommendations: Рекомендації фільмів
   Movie Results: Результати фільмів
   Movie Status: Статус фільму
   Movie Watchlist: Фільми в «Перегляну пізніше»
   Movies: Фільми
-  Name: Найменування
+  Name: Наймення
   Network: Мережа
   Networks: Мережі
   New: Нові
@@ -299,7 +299,7 @@ uk-UA:
   Offensive or Spam: Образа чи спам
   Offical Site: Офіційний сайт
   Offline Databases: 'Офлайнові бази даних '
-  Ok:
+  Ok: Гаразд
   Origin Country: Оригінальна країна
   Original Air Date: Оригінальна дата показу
   Original Language: Мова оригіналу
@@ -2252,8 +2252,8 @@ uk-UA:
       benefits_list:
         '1': Насолоджуйтеся TMDB без реклами
         '2': Підтримуйте особистий список перегляду
-        '3': Фільтруйте за потоковими сервісами та шукайте, що подивитися
-        '4': Позначайте фільми та серіали, що ви подивилися
+        '3': Фільтруйте за потоковими сервісами, на які ви підписані, та шукайте, що подивитися
+        '4': Позначайте переглянуті фільми та серіали
         '5': Створюйте свої списки
         '6': Додавайте дані до нашої бази та покращуйте її
     discussions:
@@ -3655,7 +3655,7 @@ uk-UA:
       tooltips:
         adult: Загалом ця позначка використовується лише для порнографії. Додаткову інформацію дивіться в <a href="/bible/movie#59f73b759251416e71000004">біблії зі сприяння</a>.
         bible: Щоб дізнатися, як правильно змінювати інформацію на TMDB, клацніть «?» для переходу до біблії зі сприяння.
-        character: Ім’я персонажа треба вводити так, як воно зʼявляється у творі (%{media}).
+        character: Ім’я персонажа треба вводити так, як воно зʼявляється в цьому творі (%{media}).
         homepage: Лише офіційні сторінки. Сторінки фанатських спільнот не дозволені.
         logo_format: Підтримуються зображення SVG та PNG. Перевага віддається SVG-зображенням, оскільки їхня якість не залежить від роздільної здатності.
         original_title: Оригінальна назва має вводитися мовою оригіналу. У більшості випадків вона відповідатиме такій, що вказана в полі «Мова оригіналу».
@@ -3773,23 +3773,23 @@ uk-UA:
       edit:
         alternative_names:
           no_records: Альтернативних назв не додано.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: Неможливо встановити основний переклад, коли поле <strong>%{name} (%{language})</strong> порожнє.
+        confirm_primary_translation: Основний переклад (%{i18n_tag}) уже існує для цієї персони.
         errors:
           invalid_unicode: Виявлено недійсні символи.
           leading_whitespace: Виявлено початковий пробіл.
           locked_name: "<strong>%{name} (%{language})</strong> заблоковано."
           name_required: Неможливо перенести порожнє поле %{name} (%{language}).
           numbers: Виявлено недійсні числові символи.
-          primary_name_migration:
-          primary_translation:
+          primary_name_migration: Неможливо перенести <strong>%{name} (%{language})</strong> з основного перекладу.
+          primary_translation: переклад уже існує.
           special_characters: Виявлено недійсні символи.
           trailing_whitespace: Виявлено кінцевий пробіл.
         migration_success: Ім'я успішно перенесено.
         move_name: Перенести імʼя
-        move_name_tooltip: Перемістити <strong> %{name} (%{language})</strong> до вибраної мови.
-        primary_translation:
-        translated_name_tooltip: Якщо сценічне імʼя персони її рідною мовою нелегко читається мовою %{language}, подумайте про додавання перекладеного імені.
+        move_name_tooltip: Перенести <strong> %{name} (%{language})</strong> до вибраної мови.
+        primary_translation: Основний переклад
+        translated_name_tooltip: Якщо сценічне імʼя персони її рідною мовою нелегко читається вашою мовою (%{language}), подумайте про додавання перекладеного імені.
       gender:
         female: Жіноча
         male: Чоловіча
@@ -3864,7 +3864,7 @@ uk-UA:
       add_tagline: Додати слоган
       add_title: Додати назву
       biography: Біографія
-      name: Назва
+      name: Наймення
       overview: Огляд
       taglines: Слогани
       title: Назва
@@ -3922,7 +3922,7 @@ uk-UA:
           description: Опис
           episode_groups: Групи серій
           episodes:
-            move_episodes: Перемістити обрані епізоди
+            move_episodes: Перемістити вибрані епізоди
             no_records: Не додано жодної серії до цієї групи.
           grid:
             episodes: Серії
@@ -4406,9 +4406,9 @@ uk-UA:
       streaming_services: Потокові сервіси
     notifications:
       api_updates: Надсилати мені листи щодо змін та оновлень API
-      email_new_releases_watchlist: Надсилати мені листи про нові релізи з мого «Перегляну пізніше»?
-      new_replies_to_threads_created: Автоматично стежити за темами, що створені або підтримані мною?
-      new_replies_to_threads_watching: Надсилати мені листи про нові відповіді в темах, за якими я стежу?
+      email_new_releases_watchlist: Надсилати мені листи про нові релізи з мого «Перегляну пізніше»
+      new_replies_to_threads_created: Автоматично стежити за темами, що створені або підтримані мною
+      new_replies_to_threads_watching: Надсилати мені листи про нові відповіді в темах, за якими я стежу
       news_updates: Надсилати мені листи з новинами й оновленнями продукту
       notifications: 'Сповіщення '
       page_title: Мої сповіщення
@@ -4517,7 +4517,7 @@ uk-UA:
       discussions: Беріть участь в обговоренні фільмів і серіалів
       find_something_to_watch: Знаходьте, що переглянути на потокових сервісах, на які ви підписані
       keep_track: Стежте за своїми улюбленими фільмами та серіалами й отримуйте рекомендації
-      log_movies: Позначайте фільми та серіали, які ви переглянули
+      log_movies: Позначайте переглянуті фільми та серіали
     by_clicking_agree_to_terms: Натискаючи на кнопку «Зареєструватися» нижче, я підтверджую, що прочитав (-ла) та погоджуюся з умовами користування й політикою конфіденційності TMDB.
     javascript_required: Для продовження потрібен JavaScript.
     sign_up_for_account: Зареєструвати акаунт

@@ -232,7 +232,7 @@ cs-CZ:
   Keyword: Klíčové slovo
   Keyword Results: Nalezená klíčová slova
   Keywords: Klíčová slova
-  Known Credits: Známé záznamy
+  Known Credits: Počet záznamů
   Known For: Znáte z
   Language: Jazyk
   Language Preferences: Jazykové předvolby
@@ -407,7 +407,7 @@ cs-CZ:
   Source Key: Zdrojový klíč
   Specials: Speciály
   Spoken Languages: Jazyky, kterými se mluví v původní verzi díla
-  Stage Name:
+  Stage Name: Primární jméno
   State: Kraj
   Stats: Statistiky
   Status: Stav
@@ -738,12 +738,12 @@ cs-CZ:
     air_date:
       future: Bude se vysílat %{date}
       past: Vysílalo se %{date}
-    alternative_names:
+    alternative_names: Alternativní jména
     categories:
-      title:
+      title: Kategorie
     category_empty: V této kategorii není žádná nominace.
     ceremonies:
-      title:
+      title: Slavnostní předávání
     nominations:
       few: "%{count} nominace"
       one: 1 nominace
@@ -3715,23 +3715,23 @@ cs-CZ:
       edit:
         alternative_names:
           no_records: Nebyla přidána žádná alternativní jména.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: Nelze nastavit primární jazyk jména, pokud je <strong>%{name} (%{language})</strong> prázdné.
+        confirm_primary_translation: Primární jazyk jména (%{i18n_tag}) pro tuto osobu již existuje.
         errors:
           invalid_unicode: Byl nalezen neplatný znak.
           leading_whitespace: Byla nalezena mezera na začátku textu.
           locked_name: "<strong>%{name} (%{language})</strong> je uzamčeno."
           name_required: Prázdné pole %{name} (%{language}) nelze přesunout.
           numbers: Byl nalezen neplatný číselný znak.
-          primary_name_migration:
-          primary_translation:
+          primary_name_migration: Nelze přesunout <strong>%{name} (%{language})</strong> z primárního jazyka.
+          primary_translation: Překlad do jazyka již existuje
           special_characters: Byl nalezen neplatný speciální znak.
           trailing_whitespace: Byla nalezena mezera na konci textu.
         migration_success: Jméno bylo úspěšně přesunuto.
         move_name: Přesunout jméno
         move_name_tooltip: Přesune <strong> %{name} (%{language})</strong> do vybraného jazyka.
-        primary_translation:
-        translated_name_tooltip:
+        primary_translation: Primární jazyk jména
+        translated_name_tooltip: Pokud není jméno osoby v jejím primárním jazyku v %{language} jednoduše čitelné, zvažte přidání lokalizovaného přepisu tohoto jména.
       gender:
         female: Žena
         male: Muž
@@ -3743,7 +3743,7 @@ cs-CZ:
         tv_shows: Seriály
       years_old:
         few: ''
-        one: ''
+        one: "%{count} rok"
         other: "%{count} let"
     rating:
       not_rateable: Tuto položku zatím nelze ohodnotit.
