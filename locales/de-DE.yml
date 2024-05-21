@@ -437,7 +437,7 @@ de-DE:
   TV Shows: Serien
   TV Shows Airing Today: Serien die heute ausgestrahlt werden
   Tagged People: Markierte Personen
-  Tagline:
+  Tagline: Tagline
   Talk: Forum
   Television: TV
   Terms of Use: Nutzungsbedingungen
@@ -2073,11 +2073,14 @@ de-DE:
       title:
   errors:
     attributes:
+      descriptors:
+        invalid_for_country:
       iso_3166_1:
         invalid: ist kein gültiger Staat
       iso_639_1:
         invalid: ist keine gültige Sprache
       release_date:
+        anachronism:
         invalid: ist kein gültiges Datum
     images:
       couldnt_process: Dieses Bildformat wird nicht unterstützt.
@@ -3571,15 +3574,15 @@ de-DE:
         locked:
       success_fields_locked: Felder sind gesperrt.
       tagline:
-        add_tagline:
-        already_exists: Taglines
-        lock_existing:
-        locked:
-        no_taglines:
-        not_found:
-        primary:
-        taglines:
-        unable_to_delete:
+        add_tagline: Tagline hinzufügen
+        already_exists: Tagline existiert bereits.
+        lock_existing: Bestehende Taglines sperren
+        locked: Diese Tagline ist gesperrt.
+        no_taglines: Es wurden noch keine Tagline hinzugefügt.
+        not_found: Wir konnten die Tagline nicht finden, die du bearbeiten wolltest.
+        primary: Primär
+        taglines: Taglines
+        unable_to_delete: Die Tagline konnte nicht gelöscht werden.
       tooltips:
         adult: Generell darf diese Flagge nur für Pornografie verwendet werden. Weitere Informationen findest Du in der <a href="/bible/movie#59f73b759251416e71000004">Beitragsbibel</a>.
         bible: Klicke auf "?" um die Richtlinien für Beiträge aufzurufen.
@@ -3781,12 +3784,12 @@ de-DE:
       add_name:
       add_overview:
       add_runtime:
-      add_tagline:
+      add_tagline: Tagline hinzufügen
       add_title:
       biography:
       name:
       overview:
-      taglines:
+      taglines: Taglines
       title:
     tv_episode:
       edit:

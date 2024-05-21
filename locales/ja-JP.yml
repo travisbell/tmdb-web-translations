@@ -439,7 +439,7 @@ ja-JP:
   TV Shows: テレビ番組
   TV Shows Airing Today: 今日放送中のテレビ番組
   Tagged People: タグ付けされた人
-  Tagline: キャッチフレーズ
+  Tagline: タグライン
   Talk: 話す
   Television: テレビ
   Terms of Use: 利用規約
@@ -459,7 +459,7 @@ ja-JP:
   Translate TV Series: テレビ番組を翻訳
   Translated Name: 翻訳された名称
   Translated Overview: 翻訳された概要
-  Translated Tagline: 翻訳されたキャッチフレーズ
+  Translated Tagline: 翻訳されたタグライン
   Translated Title: 邦題
   Translation:
   Translations: 翻訳
@@ -2054,11 +2054,14 @@ ja-JP:
       title:
   errors:
     attributes:
+      descriptors:
+        invalid_for_country:
       iso_3166_1:
         invalid:
       iso_639_1:
         invalid:
       release_date:
+        anachronism:
         invalid:
     images:
       couldnt_process: この画像を処理できませんでした
@@ -3551,7 +3554,7 @@ ja-JP:
         no_taglines:
         not_found:
         primary:
-        taglines:
+        taglines: タグライン
         unable_to_delete:
       tooltips:
         adult: 一般的には、このフラグはポルノ映画のみに使用することをお勧めします。詳しくは<a href="/bible/movie#59f73b759251416e71000004">投稿の手引き</a>をご覧ください
@@ -3757,7 +3760,7 @@ ja-JP:
       biography:
       name:
       overview:
-      taglines:
+      taglines: タグライン
       title:
     tv_episode:
       edit:

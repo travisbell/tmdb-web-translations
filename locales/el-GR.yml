@@ -2090,11 +2090,14 @@ el-GR:
       title: Αυτή η ανάρτηση έχει αφαιρεθεί
   errors:
     attributes:
+      descriptors:
+        invalid_for_country:
       iso_3166_1:
         invalid: δεν είναι έγκυρη χώρα
       iso_639_1:
         invalid: δεν είναι έγκυρη γλώσσα
       release_date:
+        anachronism:
         invalid: δεν είναι έγκυρη ημερομηνία
     images:
       couldnt_process: Δεν μπορέσαμε να επεξεργαστούμε αυτή την εικόνα
@@ -3600,13 +3603,13 @@ el-GR:
       tooltips:
         adult: Σε γενικές γραμμές, αυτή η σημαία πρέπει να χρησιμοποιείται μόνο για πορνογραφία. Για περισσότερες πληροφορίες, ανατρέξτε στην <a href="/bible/movie#59f73b759251416e71000004">Βίβλο συνεισφορών</a>
         bible: Για βοήθεια στην επεξεργασία πληροφοριών στην TMDB, κάντε κλικ σε αυτό το '?' για να διαβάσετε τη βίβλο συνεισφοράς.
-        character:
+        character: Το όνομα του χαρακτήρα πρέπει να εισαχθεί όπως εμφανίζεται στο %{media}.
         homepage: Επίσημη ιστοσελίδα μόνο. Οι σελίδες θαυμαστών δεν επιτρέπονται.
         logo_format: Υποστηρίζονται τα αρχεία SVG και PNG. Τα SVG προτιμώνται επειδή είναι ανεξάρτητα ως προς την ανάλυση.
         original_title: Το πρωτότυπο όνομα πρέπει να αναγράφεται στην πρωτότυπη γλώσσα του στοιχείου. Στις περισσότερες περιπτώσεις αυτό θα ταιριάζει με τη γλώσσα που έχει εισαχθεί στο πεδίο "Πρωτότυπη γλώσσα".
         overview: Όταν γράφετε μια επισκόπηση, προσπαθήστε να την κρατήσετε σύντομη, συνοπτική και χωρίς σπόιλερ.
         social_links: Οι σύνδεσμοι προς κοινωνικά δίκτυα είναι για επίσημες (επαληθευμένες) σελίδες μόνο. Οι σελίδες θαυμαστών δεν επιτρέπονται.
-      translation_already_exists:
+      translation_already_exists: Η μετάφραση στα %{language} υπάρχει ήδη.
       translation_not_found: Η μετάφραση %{language} δεν έχει δημιουργηθεί ακόμα.
       unlock_all_appearances: Κάνοντας κλικ στο «ναι», θα ξεκλειδώσετε όλες τις υπάρχουσες εγγραφές.
       videos:
@@ -3644,7 +3647,7 @@ el-GR:
           no_records: Δεν έχουν προστεθεί εναλλακτικοί τίτλοι.
         cast:
           no_records: Δεν έχουν προστεθεί ηθοποιοί.
-          person_required:
+          person_required: Απαιτείται ένα άτομο.
         confirm_collection: |-
           <p>Οι συλλογές είναι ένας βολικός τρόπος για την ομαδοποίηση των αλληλεπιδράσεων μαζί στο TMDB. Ενώ μερικές φορές είναι αμφιλεγόμενες, οι συλλογές δεν προορίζονται να είναι ένας τρόπος ομαδοποίησης ταινιών του ίδιου «σύμπαντος». Για αυτό, παρακαλώ <a href="%{list_link}" target="_blank" rel="noopener"> δημιουργήστε μια λίστα </a>. Για περισσότερες πληροφορίες σχετικά με τις συλλογές, μπορείτε να επισκεφτείτε τη <a href="%{docs_link}" target="_blank" rel="noopener"> our documentation </a>. </p>
 
@@ -3714,23 +3717,23 @@ el-GR:
       edit:
         alternative_names:
           no_records: Δεν έχουν προστεθεί εναλλακτικά ονόματα
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: Δεν είναι δυνατός ο ορισμός της κύριας μετάφρασης όταν το <strong>%{name} (%{language})</strong> είναι κενό.
+        confirm_primary_translation: Υπάρχει ήδη μια κύρια μετάφραση (%{i18n_tag}) για αυτό το άτομο.
         errors:
-          invalid_unicode:
+          invalid_unicode: Εντοπίστηκε μη έγκυρος χαρακτήρας(-ες).
           leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          primary_name_migration:
-          primary_translation:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        primary_translation:
-        translated_name_tooltip:
+          locked_name: Το <strong>%{name} (%{language})</strong> είναι κλειδωμένο.
+          name_required: Δεν είναι δυνατή η μετακίνηση του κενού πεδίου %{name} (%{language}).
+          numbers: Εντοπίστηκε μη έγκυρος(-οι) αριθμητικός(-οί) χαρακτήρας(-ες).
+          primary_name_migration: Αδυναμία μετάβασης <strong>%{name} (%{language})</strong> από την κύρια μετάφραση.
+          primary_translation: Η μετάφραση υπάρχει ήδη.
+          special_characters: Εντοπίστηκε μη έγκυρος χαρακτήρας(-ες).
+          trailing_whitespace: Εντοπίστηκαν κενά στο τέλος του κειμένου.
+        migration_success: Το όνομα μεταφέρθηκε με επιτυχία.
+        move_name: Μετακίνηση ονόματος
+        move_name_tooltip: Μετακινήστε το <strong> %{name} (%{language})</strong> στην επιλεγμένη γλώσσα.
+        primary_translation: Κύρια μετάφραση
+        translated_name_tooltip: Εάν το όνομα του προσώπου στη μητρική του γλώσσα δεν είναι εύκολα αναγνώσιμο στα %{language}, σκεφτείτε να προσθέσετε ένα μεταφρασμένο όνομα.
       gender:
         female: Γυναίκα
         male: Άνδρας
@@ -3744,7 +3747,7 @@ el-GR:
         one: "%{count} ετών"
         other: "%{count} ετών"
     rating:
-      not_rateable:
+      not_rateable: Αυτό το στοιχείο δεν είναι αξιολογήσιμο ακόμα.
       rated_with_rating: Βαθμολογήθηκε με %{value}
       rating_count:
         one: "%{count} Αξιολόγηση"

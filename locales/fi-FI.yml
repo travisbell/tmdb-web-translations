@@ -2074,11 +2074,14 @@ fi-FI:
       title: Tämä viesti on poistettu
   errors:
     attributes:
+      descriptors:
+        invalid_for_country:
       iso_3166_1:
         invalid: ei ole kelvollinen maa
       iso_639_1:
         invalid: ei ole kelvollinen kieli
       release_date:
+        anachronism:
         invalid: ei ole kelvollinen päivämäärä
     images:
       couldnt_process: Emme pystyneet käsittelemään tätä kuvaa

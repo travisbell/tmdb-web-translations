@@ -2080,11 +2080,14 @@ en-US:
       title: This post has been removed
   errors:
     attributes:
+      descriptors:
+        invalid_for_country: is not valid for country %{country_code}
       iso_3166_1:
         invalid: is not a valid country
       iso_639_1:
         invalid: is not a valid language
       release_date:
+        anachronism: predates release type %{min_date}
         invalid: is not a valid date
     images:
       couldnt_process: We couldn't process this image
