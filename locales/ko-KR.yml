@@ -12,7 +12,7 @@ ko-KR:
   API Stats: API 통계
   API Status Codes: API 상태 코드
   API Terms: API 이용약관
-  API Terms of Use:
+  API Terms of Use: API 이용약관
   API Updates: API 업데이트 내역
   About: 정보
   About TMDb: TMDb에 대해
@@ -125,13 +125,13 @@ ko-KR:
   Crew: 제작진
   Currently Airing TV Shows: 현재 방영 중인 TV 프로그램
   Currently on page: 현재 페이지
-  DMCA Policy:
+  DMCA Policy: DMCA 정책
   DMCA Takedown Request: DMCA(디지털밀레니엄저작권법) 게시 중단 요청
   Date: 날짜
   Day of Death: 사망일
   Default Language: 기본 언어
   Delete: 삭제
-  Delete Collection:
+  Delete Collection: 콜렉션 삭제
   Delete Keyword: 키워드 삭제
   Delete Movie: 영화 삭제
   Delete Person: 인물 삭제
@@ -1803,8 +1803,8 @@ ko-KR:
       close_discussion: 토론 끝내기
       make_private: 비공개 설정
       make_public: 공개 설정
-      mark_not_spam:
-      mark_spam: 스팸 설정
+      mark_not_spam: 스팸이 아닌 것으로 표시
+      mark_spam: 스팸으로 표시
       reopen_discussion: 토론 재시작
       stop_watching: 보기 취소
       view_activity: 활동 보기
@@ -1853,7 +1853,7 @@ ko-KR:
       message: 메시지
       new_discussion: 새 토론
       subject: 주제
-    no_activity:
+    no_activity: 이 토론에 대한 활동이 없습니다
     no_discussions: 토론 없음
     pagination:
       post_summary:
@@ -1874,7 +1874,7 @@ ko-KR:
         hide_comment: "'예'를 누르시면, 해당 코멘트는 숨김 처리됩니다."
         hide_discussion: "'예'를 누르시면, 해당 토론은 숨김 처리됩니다."
         ignore_user: 정말로 이 회원님을 차단하시겠습니까? 차단 후, 이 회원님의 모든 토론과 댓글이 사라지게 됩니다. 차단 해제를 원할 경우, 회원님의 계정 설정의 "차단 유저" 페이지에서 하실 수 있습니다.
-        mark_as_not_spam:
+        mark_as_not_spam: 이 토론을 스팸이 아닌 유효한 토론으로 표시하시겠습니까?
         mark_as_spam: 이 토론을 스팸으로 표시 하시겠습니까? 수행 한 후에는 자동으로 삭제되며 취소 할 수 없습니다. 토론을 스팸으로 표시하면 우리가 사용하는 "스팸 탐지 서비스" 개선에 도움이 됩니다.
         report_violation: 이 사용자를 정책위반 신고하기 전에 다시 한번  <a href="/documentation/community/guidelines" target="_blank" rel="noopener">커뮤니티 가이드라인</a>을 확인하십시오.
         unhide_discussion: '"예"를 클릭하면 토론을 다시 볼 수 있습니다.'
@@ -1956,7 +1956,7 @@ ko-KR:
       error:
       submit:
   dont_fallback: 없음
-  duplicate_character_name:
+  duplicate_character_name: 캐릭터 이름이 이미 존재합니다. 다른 이름으로 시도하세요.
   edit_list:
     add_edit_items: 아이템 추가/편집
     choose_image: 이미지 선택
@@ -1969,10 +1969,10 @@ ko-KR:
     new_email_address: 새 이메일 주소
     sent_verification_email: 확인을 위해 %{email_address} 이메일을 보냈습니다. 계속 진행하려면 받은 편지함(및 스팸 폴더)을 확인하십시오.
     unsubscribe:
-      sad_to_go:
-      subscription_changed:
-      unsubscribe:
-      unsubscribed:
+      sad_to_go: "%{username} 님, 떠나신다니 유감입니다!"
+      subscription_changed: 구독 설정이 업데이트되었습니다. <a href="%{account_link}">알림 설정</a>으로 이동하여 알림 설정을 수정할 수 있습니다.
+      unsubscribe: 구독 취소
+      unsubscribed: 구독이 <strong>취소</strong>되었습니다. 실수로 구독을 취소한 경우 <a href="%{account_link}">알림 설정</a>에서 다시 구독할 수 있습니다.
   emoji:
     short_name:
       1f600:
@@ -2013,21 +2013,21 @@ ko-KR:
   episode_number_name: 에피소드 %{episode_number}
   error_pages:
     deleted_account:
-      description:
-      title:
+      description: 이 페이지의 소유자가 계정을 삭제했습니다. TMDB에 대한 모든 기여는 남아 있지만 사용자 데이터는 익명화되었습니다.
+      title: 해당 계정이 삭제되었습니다.
     missing_privilege:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: 이 페이지에 액세스할 수 없습니다. 오류라고 생각되면 <a href="%{forum_link}">포럼</a>에 알려주세요.
+        public: 로그인이 필요한 페이지입니다. 계정에 <a href="%{login_link}">로그인</a>하세요.
+      title: 이 페이지에 액세스할 수 있는 권한이 없습니다.
     out_of_login_attempts:
-      description:
-      title:
+      description: 로그인 시도 횟수 10회를 모두 사용했습니다. 30분 후에 다시 시도할 수 있으며.  <a href="%{reset_password_link}">비밀번호 재설정</a>을 하시거나 <a href="%{about_us_link}">문의 요청<a>을 하실 수 있습니다.
+      title: 로그인 시도 횟수가 초과되었습니다
     private:
       description:
-        logged_in:
-        public:
-      title:
+        logged_in: 이 페이지에 액세스할 수 없습니다.
+        public: 비공개 페이지를 요청하려고 했습니다.
+      title: 이 페이지는 비공개입니다.
     suspended:
       explanation_1: 불행하게도, 이 사용자는 일시 중지 되었습니다.
       go_to_inbox: 받은 메시지함으로 이동
@@ -2036,14 +2036,14 @@ ko-KR:
         explanation_1: 일지중지 사유나 계정에 다시 액세스할 수 있는 방법에 대해 논의하려면 아래 링크를 클릭하여 메시지 영역을 방문하십시오.
         title: 계정이 일시 중지되었습니다
     suspended_user_post:
-      description:
-      title:
+      description: 이 게시물은 <a href="%{link}">커뮤니티 가이드라인</a>을 위반한 것으로 확인되었습니다. 이에 책임이 있는 사용자도 일시 정지되었을 수 있습니다.
+      title: 이 게시물이 삭제되었습니다
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: "%{country_code} 유효하지 않는 국가입니다. "
       iso_3166_1:
-        invalid:
+        invalid: 유효한 국가가 아닙니다.
       iso_639_1:
         invalid:
       release_date:
@@ -2073,14 +2073,14 @@ ko-KR:
       invalid: 유효하지 않습니다.
       invalid_character_name: 등장인물 이름에 특수 문자를 사용할 수 없습니다.
       invalid_email_address:
-      invalid_password:
-      invalid_request:
+      invalid_password: 입력한 비밀번호가 잘못되었습니다.
+      invalid_request: 요청을 완료할 수 없습니다.
       less_than:
-      less_than_or_equal_to:
-      model_invalid:
+      less_than_or_equal_to: "%{count} 보다 작아야 합니다."
+      model_invalid: '유효성 검사 실패: %{errors}'''
       no_characters_found: 등장인물을 찾을 수 없습니다.
-      not_a_number:
-      not_an_integer:
+      not_a_number: 숫자가 아닙니다.
+      not_an_integer: 정수로 입력하세요
       odd:
       other_than:
       present:
@@ -3460,7 +3460,7 @@ ko-KR:
       edit:
         parts:
           add: 영화 추가
-          no_records:
+          no_records: 추가된 영화가 없습니다
       parts: 파트
     company:
       headquarters: 본사
@@ -3506,8 +3506,8 @@ ko-KR:
         '9': 완성 직전...
     edit:
       alternative_title:
-        lock_existing:
-        locked:
+        lock_existing: 제목을 잠급니다
+        locked: 제목은 잠겨 있습니다
       cast_updated:
       delete_all_appearances:
       genres_updated:
@@ -3533,15 +3533,15 @@ ko-KR:
         locked:
       success_fields_locked: 잠그기 완료
       tagline:
-        add_tagline:
-        already_exists:
-        lock_existing:
-        locked:
-        no_taglines:
-        not_found:
-        primary:
-        taglines:
-        unable_to_delete:
+        add_tagline: 태그라인 추가
+        already_exists: 태그라인이 이미 존재합니다
+        lock_existing: 기존 태그라인 잠금
+        locked: 태그라인은 잠겨있습니다
+        no_taglines: 태그라인이 추가되지 않았습니다
+        not_found: 수정하려는 태그라인을 찾을 수 없습니다
+        primary: 기본
+        taglines: 태그라인
+        unable_to_delete: 태그라인을 삭제할 수 없습니다
       tooltips:
         adult:
         bible: TMDB 내 정보 편집에 관해 도움을 원하신다면, '?'를 눌러 기여 지침서를 읽어주세요.
@@ -3697,7 +3697,7 @@ ko-KR:
       episodes:
       fandom: 팬덤
       headshots:
-      logos:
+      logos: 로고
       main: 메인
       media: 미디어
       overview: 개요
@@ -4118,7 +4118,7 @@ ko-KR:
   reset_password_text:
   sample:
   search:
-    adult:
+    adult: 성인
     favorites_movie: 즐겨찾기 영화 검색...
     favorites_tv: 즐겨찾기 TV 프로그램 검색...
     in_movies: 영화 검색
@@ -4135,7 +4135,7 @@ ko-KR:
     rated_tv: 평가한 TV 프로그램 검색
     recommendations_movie: 개인 영화 추천 검색 ...
     recommendations_tv: 개인 TV 프로그램 추천 검색 ...
-    search_results:
+    search_results: 검색 결과
     trending: 인기 급상승
     trending_searches: 인기 급상승 검색
     watchlist_movie: 관심 목록 영화 검색...

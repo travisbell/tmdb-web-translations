@@ -48,7 +48,7 @@ es-ES:
   Add a New Guest Star: Añadir nueva estrella invitada
   Add to Watchlist: Añadir a la lista de seguimiento
   Add to list: Añadir a la lista
-  Add to your favorite list: Añadir a tu lista de favoritos
+  Add to your favorite list: Añadir a tu lista de favoritas
   Add to your watchlist: Añadir a tu lista de seguimiento
   Added By: Añadido por
   Added to Watchlist: Añadida a lista de seguimiento
@@ -144,7 +144,7 @@ es-ES:
   Destination Record: Registro de destino
   Details: Detalles
   Developed By: Desarrollado por
-  Digital: Copia digital
+  Digital: Digital
   Directed by: Dirigido Por
   Directory: Directorio
   Discover Examples: Descubrir ejemplos
@@ -185,7 +185,7 @@ es-ES:
   Favorite: Favorito
   Favorite Movies: Películas favoritas
   Favorite TV Shows: Series favoritas
-  Favorites: Favoritos
+  Favorites: Favoritas
   Featured: Destacado
   Featured Cast: Reparto destacado
   Featured Crew: Equipo destacado
@@ -215,7 +215,7 @@ es-ES:
   Help: Ayuda
   Help Us By Contributing Missing Data: Ayúdanos aportando los datos que faltan
   Hi: Hola
-  Hide favorites?: "¿Ocultar favoritos?"
+  Hide favorites?: "¿Ocultar favoritas?"
   Hide items on watchlist?: "¿Ocultar elementos en la lista de seguimiento?"
   Hide rated?: "¿Ocultar las puntuadas?"
   Home: Inicio
@@ -316,7 +316,7 @@ es-ES:
   Personal Info: Información personal
   Personal Recommendations: Recomendaciones personales
   Phone Number: Número de teléfono
-  Physical: Copia física
+  Physical: Físico
   Place of Birth: Lugar de nacimiento
   Play: Reproducir
   Plot Keywords: Palabras clave
@@ -329,7 +329,7 @@ es-ES:
   Poster Card View: Ver carteles
   Powered by TMDb: Ofrecido por TMDB
   Powered by The Movie Database: Ofrecido por The Movie Database
-  Premiere: Premiere
+  Premiere: Estreno
   Preview: Vista previa
   Primary Color: Color principal
   Primary Facts: Datos principales
@@ -360,7 +360,7 @@ es-ES:
   Release Type: Tipo
   Reload Page: Recargar página
   Remove: Borrar
-  Remove from your favorite list: Borrar de tu lista de favoritos
+  Remove from your favorite list: Borrar de tu lista de favoritas
   Remove from your watchlist: Borrar de tu lista de seguimiento
   Remove?: "¿Borrar?"
   Report: Informar
@@ -444,8 +444,8 @@ es-ES:
   Television: Televisión
   Terms of Use: Términos de uso
   The Basics: Lo básico
-  Theatrical: Estreno
-  Theatrical (limited): Estreno (limitado)
+  Theatrical: En cines
+  Theatrical (limited): En cines (limitado)
   Timezone: Zona horaria
   Title: Título
   Today: Hoy
@@ -584,11 +584,11 @@ es-ES:
       export_csv: Exportar CSV
     favorites:
       my_favorites:
-        logged_in: Mis favoritos
-        public: Favoritos de %{username}
+        logged_in: Mis favoritas
+        public: Favorita de %{username}
       page_title:
-        page_owner: Mis favoritos
-        public: Favoritos de %{username}
+        page_owner: Mis favoritas
+        public: Favoritas de %{username}
     filter_by: 'Filtrar por:'
     filters:
       air_date: Fecha de emisión
@@ -620,7 +620,7 @@ es-ES:
     member_since: Miembro desde %{date}
     navigation:
       discussions: Discusiones
-      favorites: Favoritos
+      favorites: Favoritas
       lists: Listas
       overview: Vista general
       ratings: Valoraciones
@@ -1839,12 +1839,12 @@ es-ES:
   discussions:
     actions:
       actions: Acciones
-      close_discussion: Cerrar discusión
+      close_discussion: Cerrar debate
       make_private: Hacerlo privado
       make_public: Hacerlo público
       mark_not_spam: Marcar como no correo basura
       mark_spam: Marcado como correo basura
-      reopen_discussion: Reabrir discusión
+      reopen_discussion: Reabrir debate
       stop_watching: Dejar de seguir
       view_activity: Ver actividad
       watch: Seguir
@@ -1857,7 +1857,7 @@ es-ES:
       categories: Categorías
       discuss:
         content_issues: Problemas de contenido
-        discuss: Discusión
+        discuss: Debate
         general: General
         website_support: Soporte del sitio web
       support:
@@ -1873,14 +1873,14 @@ es-ES:
     category:
       last_reply_with_datetime: "%{date} a las %{time}"
       last_reply_with_datetime_and_username: "%{date} a las %{time}<br>por %{username}"
-    discussion_activity: Actividad de la discusión
+    discussion_activity: Actividad del debate
     email_notifications:
       email_notifications: Avisos por correo electrónico
       subscribe: Suscribirse
       unsubscribe: Darse de baja
     headers:
       discuss: Discutir
-      discuss_item: Discusión %{item_title}
+      discuss_item: Debate %{item_title}
       lets_chat: Charlemos
       support: Soporte
       support_title: Soporte de The Movie Database
@@ -1890,17 +1890,17 @@ es-ES:
       discussion_category: Categoría
       for_item: Por elemento
       message: Mensaje
-      new_discussion: Nueva discusión
+      new_discussion: Nuevo debate
       subject: Tema
-    no_activity: Sin actividad en esta discusión.
+    no_activity: Sin actividad en este debate.
     no_discussions: Sin discusiones
     pagination:
       post_summary:
         one: "%{count} respuesta (en la página %{current_page} de %{total_pages})"
         other: "%{count} respuestas (en la página %{current_page} de %{total_pages})"
       summary:
-        one: "%{count} discusión, actualmente en la página %{current_page} de %{total_pages}"
-        other: "%{count} discusiones, actualmente en la página %{current_page} de %{total_pages}"
+        one: "%{count} debate, actualmente en la página %{current_page} de %{total_pages}"
+        other: "%{count} debates, actualmente en la página %{current_page} de %{total_pages}"
     post:
       delete: Borrar
       edit: Editar
@@ -1909,9 +1909,9 @@ es-ES:
       like: Me gusta
       messages:
         delete_comment: Si haces click en "Sí", este comentario será borrado permanentemente.
-        delete_discussion: Si haces click en "Sí", esta discusión será borrada permanentemente.
+        delete_discussion: Si haces clic en "Sí", este debate será borrado permanentemente.
         hide_comment: Si haces click en "Sí", este comentario será ocultado.
-        hide_discussion: Si haces click en "Sí", esta discusión será ocultada.
+        hide_discussion: Si haces clic en "Sí", este debate será ocultado.
         ignore_user: ¿Seguro que quieres ignorar a este usuario? Todas sus discusiones y comentarios desaparecerán. Puedes eliminar este bloqueo yendo a  "Usuarios bloqueados" dentro de la configuración de tu cuenta.
         mark_as_not_spam: "¿Seguro que deseas marcar este debate como válido y no como correo basura?"
         mark_as_spam: "¿Seguro que quieres marcar este debate como correo basura? Se eliminará automáticamente si lo haces y no se puede deshacer. Marcar debates como correos basura ayuda a entrenar al servicio de detección de correo basura que usamos."
@@ -1941,7 +1941,7 @@ es-ES:
       subject: Tema
     users_in_discussion:
       no_subscribers: Sin suscriptores
-      users_in_discussion: Usuarios en esta discusión
+      users_in_discussion: Usuarios en este debate
     your_account: Tu cuenta
   dmca_takedown:
     form:
@@ -3223,7 +3223,7 @@ es-ES:
       focus_search: centrar la barra de búsqueda
       go_to_edit: ir a la página de edición
       last_reply: ir a la última respuesta
-      new_discussion: crear nueva discusión
+      new_discussion: crear nuevo debate
       next_episode: "(flecha derecha) ir al episodio siguiente"
       next_page: "(flecha derecha) página siguiente"
       next_season: "(flecha derecha) ir a la temporada siguiente"
@@ -3235,7 +3235,7 @@ es-ES:
       previous_episode: "(flecha izquierda) ir al episodio anterior"
       previous_page: "(flecha izquierda) página anterior"
       previous_season: "(flecha izquierda) ir a la temporada anterior"
-      reply_to_discussion: responder a la discusión
+      reply_to_discussion: responder al debate
       save_form: enviar formulario
       submit_message: enviar tu mensaje
       toggle_close: cambiar cerrar/abrir
@@ -3243,7 +3243,7 @@ es-ES:
       toggle_watching: cambiar el estado de visualización
     enable: Habilitar atajos de teclado
     groups:
-      discussion_pages: En las páginas de discusión
+      discussion_pages: En las páginas de debate
       edit_pages: En todas las páginas de edición
       global: Global
       image_pages: En todas las páginas de imágenes
@@ -4398,8 +4398,8 @@ es-ES:
           ip: Dirección IP
     sharing:
       favorite_list:
-        favorite_settings: Configuración de la lista de favoritos
-        share_on_twitter: "¿Compartir nuevos favoritos en X?"
+        favorite_settings: Configuración de la lista de favoritas
+        share_on_twitter: "¿Compartir nuevos favoritas en X?"
         share_publicly: "¿Compartir la lista públicamente?"
       page_title: Mi configuración de compartir
       rated_list:
