@@ -33,7 +33,7 @@ tr-TR:
   Add Network: Kanal Ekle
   Add New Episode: Yeni Bölüm Ekle
   Add New Movie: Yeni Film Ekle
-  Add New Release: Yeni Yayın Ekle
+  Add New Release: Yeni Gösterim Ekle
   Add New Season: Yeni Sezon Ekle
   Add New TV Show: Yeni Dizi Ekle
   Add Poster: Filim Posteri Ekle
@@ -61,7 +61,7 @@ tr-TR:
   Air Date: Yayınlanma Tarihi
   Also Known As: Ayrıca Şöyle de Bilinir
   Alternative Names: Alternatif İsimleri
-  Alternative Titles: Alternatif İsimler
+  Alternative Titles: Alternatif Başlıklar
   Apiary Documentation: Apiary Belgeleri
   App Directory: Uygulama Rehberi
   App Showcase: Uygulama Vitrini
@@ -145,7 +145,7 @@ tr-TR:
   Details: Ayrıntılar
   Developed By: Geliştiren
   Digital: Dijital
-  Directed by: Yöneten
+  Directed by: Yönetmen
   Directory: Yönetim
   Discover Examples: Keşfedilen Örnekler
   Discover New Movies: Yeni Film Keşfet
@@ -204,8 +204,8 @@ tr-TR:
   Full Leaderboard: Tüm Liderler
   Gender: Cinsiyet
   General: Genel
-  Genres: Türler
-  Genres & Keywords: Türler ve Anahtar Kelimeler
+  Genres: Tarzlar
+  Genres & Keywords: Tarzlar ve Anahtar Kelimeler
   Get Involved: Katkıda Bulun
   Guest Stars: Konuk Yıldızlar
   Guidelines: Yönergeler
@@ -231,7 +231,7 @@ tr-TR:
   Joined in: Katılım Tarihi
   Keyword: Kelime
   Keyword Results: Etiket Sonucu
-  Keywords: Etiketler
+  Keywords: Anahtar Kelimeler
   Known Credits: Bilinen Filmleri
   Known For: Bilinen İşi
   Language: Dil
@@ -264,7 +264,7 @@ tr-TR:
   Logout: Çıkış Yap
   Mark as Favorite: Favori Olarak İşaretle
   Media: Medya
-  Member since: Üyeliğe Başlangıç
+  Member since: Üyelik Başlangıcı
   Merge Keyword: Anahtar kelimeyi birleştir
   Mixed Compact View: Karışık Kompakt Görünüm
   Mobile Application: Cep telefonu uygulaması
@@ -295,7 +295,7 @@ tr-TR:
   Offensive or Spam: Tahrik Edici ya da Spam
   Offical Site: Resmi Site
   Offline Databases: Çevrimdışı Veri tabanları
-  Ok:
+  Ok: Tamam
   Origin Country: Orijinal Ülke
   Original Air Date: Orijinal Yayın Tarihi
   Original Language: Orijinal Dili
@@ -338,7 +338,7 @@ tr-TR:
   Production Countries: Yapım Ülkeleri
   Production Information: Yapım Bilgisi
   Public List?: Genel Liste?
-  Public Report?: Açık Genel Rapor Olsun Mu?
+  Public Report?: Herkese Açık Rapor Olsun Mu?
   Quality: Kalite
   Rank: Derece
   Rate it!: Oyla!
@@ -379,14 +379,14 @@ tr-TR:
   Search for a language: Dil ara
   Search for a movie: Bir film arayın
   Search for a movie or TV show: Film veya dizi ara
-  Search for a movie, TV show, person: Film, dizi veya kişi ara...
+  Search for a movie, TV show, person: Film, dizi veya kişi ara
   Season: Sezon
   Season Number: Sezon Numarası
   Season Overview: Sezona Genel Bakış
   Season Regulars: Sezon Müdavimleri
   Season Specials: Sezon Özel Ürünleri
   Seasons: Sezonlar
-  Secondary Color:
+  Secondary Color: İkincil Renk
   See Episodes: Bölümleri göster
   Select One: Bir tane seçin...
   Select a category: Kategori seç
@@ -455,10 +455,10 @@ tr-TR:
   Translate Movie: Filmi Çevir
   Translate Person: Kişiyi Çevir
   Translate TV Series: Diziyi Çevir
-  Translated Name: Başlık (Orijinalle aynıysa boş bırak)
+  Translated Name: Başlık (Orijinalle aynıysa boş bırakınız)
   Translated Overview: Özet Çevirisi
   Translated Tagline: Çevrilmiş Slogan
-  Translated Title: Başlık (Orijinalle aynıysa boş bırak)
+  Translated Title: Başlık (Orijinalle aynıysa boş bırakınız)
   Translation:
   Translations: Çeviriler
   Type: Tip
@@ -492,7 +492,7 @@ tr-TR:
   Website Terms: Website Koşulları
   Website Updates: Website Güncellemeleri
   Wrappers & Libraries: Sarıcı & Kütüphaneler
-  Written by: Yazan
+  Written by: Yazar
   Year: Yıl
   'Yes': Evet
   Your lists: Listen
@@ -566,7 +566,7 @@ tr-TR:
             List Import: Listeyi İçe Aktar
             Mention: Bahsedilen
             Messages: Mesajlar
-            type: Tip
+            type: Tür
         notifications: Bildirimler
         number_of_items:
           one: "%{count} Bildirim"
@@ -730,30 +730,34 @@ tr-TR:
     tv_series_status: TV Dizileri Durumu
   average edits per day: günlük ortalama düzenleme sayısı
   awards:
-    add_nomination:
+    add_nomination: Adaylık ekle
     air_date:
-      future:
-      past:
-    alternative_names:
+      future: Yayın %{date}
+      past: Yayınlandı %{date}
+    alternative_names: Alternatif İsimler
     categories:
-      title:
-    category_empty:
+      title: Kategoriler
+    category_empty: Bu kategori için adaylık yok.
     ceremonies:
-      title:
+      title: Törenler
     nominations:
-    nominee:
+      one: "%{count} Adaylık"
+      other: 1 Adaylık
+    nominee: Aday
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      directed_by: Yönetmen
+      hosted_by: Sunucu
+      location: Konum
+      network: Ağ
+      preshow_hosts: Ön Gösteri Sunucuları
+      produced_by: Yapımcı
+      runtime: Çalışma süresi
+      title: Bilgi Göster
+    title: Ödüller
+    winner: Kazanan
     wins:
+      one: "%{count} Kazanan"
+      other: 1 Kazanan
   back_options:
     back: Geri
     episode: Bölüme Geri Dön
@@ -1557,7 +1561,7 @@ tr-TR:
     general_inquiry: Genel Sorular
     general_support: Genel Destek
     get_in_touch: İletişime Geçme Seçenekleri
-    where_located:
+    where_located: Konumun neresi?
   contribute:
     contribute: Katkıda Bulun
     missing_a_biography: Özgeçmişiniz Eksik
@@ -1633,13 +1637,13 @@ tr-TR:
   create_api: API oluştur
   date:
     abbr_day_names:
-    - Paz
-    - Pzt
-    - Sal
-    - Çar
-    - Per
-    - Cum
-    - Cmt
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
     abbr_month_names:
     -
     - Jan
@@ -1655,13 +1659,13 @@ tr-TR:
     - Nov
     - Dec
     day_names:
-    - Pazar
-    - Pazartesi
-    - Salı
-    - Çarşamba
-    - Perşembe
-    - Cuma
-    - Cumartesi
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
@@ -1711,7 +1715,7 @@ tr-TR:
     Costume & Make-Up: Kostüm ve Makyaj
     Creator: Yaratıcı
     Crew: Personel
-    Directing: Yönetmenlik
+    Directing: Yönetmen
     Editing: Kurgu
     Lighting: Işıklandırma
     Production: Prodüksiyon
@@ -1726,13 +1730,13 @@ tr-TR:
         search_all_episodes: Tüm bölümler aransın
         search_first_air_date: İlk yayın tarihini ara?
       availability:
-        availabilities: Kullanılabilirlikler
+        availabilities: Geçerlilik
         search_all_availabilities: İlk yayın tarihini ara
       certification:
         certification: Sertifikasyon
       filters: Filtrele
       genres:
-        genres: Türler
+        genres: Tarzlar
       keywords:
         keywords: Anahtar Kelimeler
       language:
@@ -2038,13 +2042,13 @@ tr-TR:
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: "%{country_code} ülkesi için geçerli değil."
       iso_3166_1:
         invalid: geçerli bir ülke değil
       iso_639_1:
         invalid: geçerli bir dil değil
       release_date:
-        anachronism:
+        anachronism: "%{min_date} türü yayının önceki tarihleri"
         invalid: geçerli bir tarih değil
     images:
       couldnt_process: Bu görseli işleyemiyoruz
@@ -2604,23 +2608,23 @@ tr-TR:
     Extras Dresser: Ek Kostümcü
     Extras Makeup Artist: Ek Makyaj Sanatçısı
     Facial Setup Artist: Yüz Hazırlama Sanatçısı
-    Feature Finishing Producer:
-    Field Director:
-    Fight Choreographer:
-    File Footage:
-    Film Processor:
+    Feature Finishing Producer: Özellik Bitirme Yapımcısı
+    Field Director: Saha Direktörü
+    Fight Choreographer: Dövüş Koreografisi
+    File Footage: Dosya Görüntüsü
+    Film Processor: Film İşlemcisi
     Finance: Maliye
-    Finishing Producer:
-    First Assistant "A" Camera:
-    First Assistant "B" Camera:
-    First Assistant "C" Camera:
-    First Assistant "D" Camera:
-    First Assistant Accountant:
-    First Assistant Art Direction:
-    First Assistant Camera:
-    First Assistant Director:
-    First Assistant Director (Prep):
-    First Assistant Director Trainee:
+    Finishing Producer: Bitirme Üreticisi
+    First Assistant "A" Camera: Birinci Asistan "A" Kamerası
+    First Assistant "B" Camera: Birinci Yardımcı "B" Kamera
+    First Assistant "C" Camera: Birinci Yardımcı "C" Kamera
+    First Assistant "D" Camera: Birinci Yardımcı "D" Kamera
+    First Assistant Accountant: Birinci Muhasebeci Yardımcısı
+    First Assistant Art Direction: Sanat Yönetmenliği Birinci Yardımcısı
+    First Assistant Camera: İlk Yardımcı Kamera
+    First Assistant Director: Birinci Yönetmen Yardımcısı
+    First Assistant Director (Prep): Birinci Yönetmen Yardımcısı (Hazırlık)
+    First Assistant Director Trainee: Birinci Müdür Yardımcısı Stajyeri
     First Assistant Editor: Birinci Yardımcı Editör
     First Assistant Hairstylist: Birinci Kuaför Asistanı
     First Assistant Makeup Artist: Birinci Yardımcı Makyaj Sanatçısı
@@ -2646,8 +2650,8 @@ tr-TR:
     Genetator Operator: Jeneratör Operatörü
     Graphic Designer: Grafik Tasarımcı
     Graphic Novel: Çizgi Roman
-    Graphic Novel Illustrator:
-    Greensman:
+    Graphic Novel Illustrator: Çizgi Roman İllüstratörü
+    Greensman: Yeşil Adam
     Grip:
     Grip Production Assistant:
     Gun Wrangler:
@@ -3121,7 +3125,7 @@ tr-TR:
     Unit Swing:
     Utility Sound:
     Utility Stunts:
-    VFX Artist:
+    VFX Artist: VFX Sanatçısı
     VFX Director of Photography: VFX Görüntü Yönetmeni
     VFX Editor:
     VFX Lighting Artist:
@@ -3412,19 +3416,19 @@ tr-TR:
       many: Listedeki öğeler
       one: Listedeki öğe
       other: Listedeki öğe
-    items_seen:
-    list_by:
-    list_options:
-    login_to_create_list:
-    no_items:
+    items_seen: Gördüğüm Öğeler
+    list_by: Tarafından yapılan bir liste
+    list_options: Liste Seçenekleri
+    login_to_create_list: Kendi listenizi oluşturmak için giriş yapın!
+    no_items: Bu listeye eklenen öğe yok.
     private: Özel
     public: Herkese açık
     select_this_image: Bu görseli seçin
-    show_comments:
+    show_comments: Yorumları Göster
     total_revenue: Toplam Gelir
     total_runtime: Toplam Süre
-    use_grid_view:
-    use_list_view:
+    use_grid_view: Izgara Görünümünü Kullan
+    use_list_view: Liste Görünümünü Kullan
   list_messages:
     comment_updated: Yorum güncellendi!
     image_saved: Görüntü kaydedildi!
@@ -3553,7 +3557,7 @@ tr-TR:
       tooltips:
         adult: Genel olarak konuşursak, bu etiket yalnızca pornografi için kullanılacaktır. Daha fazla bilgi için lütfen <a href="/bible/movie#59f73b759251416e71000004">Katılım kutsal kitabına</a> bakın.
         bible: TMDB deki bilgileri nasıl düzenleneceği konusunda yardım almak için '?'ne tıklayıp katılım başvuru kitabını okuyabilirsiniz.
-        character:
+        character: Karakter adı %{media}'da göründüğü şekilde girilmelidir.
         homepage: Yalnız resmi anasayfa. Hayran sayfalarına izin verilmez.
         logo_format: SVG ve PNG türleri desteklenir.  Çözünürlükten bağımsız olduğu için SVG tercih edilir.
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
@@ -3598,7 +3602,7 @@ tr-TR:
           no_records: Alternatif başlık eklenmedi.
         cast:
           no_records: Hiçbir oyuncu eklenmedi.
-          person_required:
+          person_required: Bir kişi gereklidir.
         confirm_collection: |-
           <p>Koleksiyonlar, TMDB’de devam filmlerini bir araya getirmenin uygun bir yoludur. Bazen tartışmalı olsa da, koleksiyonlar aynı “evren"deki filmleri gruplandırmanın bir yolu olarak düşünülmemelidir. Bunun için lütfen <a href=”%{list_link}" target=“_blank” rel=“noopener”>bir liste oluşturun</a>. Koleksiyonlar hakkında daha fazla bilgi için <a href=“%{docs_link}” target=“_blank” rel=“noopener”>belgelerimizi</a> ziyaret edebilirsiniz.</p>
 
@@ -3666,14 +3670,14 @@ tr-TR:
       edit:
         alternative_names:
           no_records: Alternatif isimler eklenmedi.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: "<strong>%{name} (%{language})</strong> boş olduğunda birincil çeviri ayarlanamıyor."
+        confirm_primary_translation: Bu kişi için birincil çeviri (%{i18n_tag}) zaten mevcut.
         errors:
-          invalid_unicode:
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
+          invalid_unicode: Geçersiz karakter(ler) algılandı.
+          leading_whitespace: Önemli beyaz boşluklar algılandı.
+          locked_name: "<strong>%{name} (%{language})</strong> kilitlidir."
+          name_required: Boş %{name} (%{language}) alanı taşınamıyor.
+          numbers: Geçersiz sayısal karakter(ler) algılandı.
           primary_name_migration:
           primary_translation:
           special_characters:
@@ -3747,7 +3751,7 @@ tr-TR:
       add_homepage: Ana sayfa ekle
       add_name: İsim ekle
       add_overview: Özet ekle
-      add_runtime: Çalışma süresi ekle
+      add_runtime: Süre ekle
       add_tagline: Slogan Ekle
       add_title: Başlık ekle
       biography: Biyografi
@@ -3955,7 +3959,7 @@ tr-TR:
       on_tv: Televizyonda
       popular: Popüler
       top_rated: En Fazla Oy Alanlar
-  no_biography: "%{name} için biyografimiz yok."
+  no_biography: "%{name} için biyografimiz yok. Bir tane ekleyerek bize yardımcı olabilirsiniz."
   no_cast:
   no_collection_search_results: Sorgunuza uyan herhangi bir koleksiyon bulunamadı.
   no_company_search_results: Sorgunuza uyan herhangi bir şirket bulunamadı.
@@ -4230,11 +4234,11 @@ tr-TR:
           item_reasons:
             already_imported: Zaten içe aktarıldı
             cant_find_imdb: IMDb ID bulunamadı.
-            imdb_id_not_in_row:
-            personal_rating_invalid:
+            imdb_id_not_in_row: IMDb kimliği bu satırda bulunamadı.
+            personal_rating_invalid: Kişisel puanınız geçersiz (0,5 ile 10,0 arasında olmalıdır).
             personal_rating_not_found: Kişisel derecelendirmeniz bu satırda bulunamadı.
             row_is_invalid: Bu satır geçersiz.
-            updated_date:
+            updated_date: Güncellenme tarihi.
           reason: Sebep? (Uygunsa)
           summary:
         currently_running: İçe aktarma işlemi şu anda devam ediyor. Bitip bitmediğini sayfayı yenileyerek öğrenebilirsiniz.
