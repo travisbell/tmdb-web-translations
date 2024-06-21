@@ -77,7 +77,7 @@ fr-FR:
   Are you sure?: Le voulez-vous vraiment ?
   Attributes: Attributs
   Auto: Auto
-  Awards:
+  Awards: Prix
   Back to top: Retour vers le haut
   Backdrop Card View: Vue en vignettes des fonds d'écran
   Bad Image: Mauvaise image / photo
@@ -298,7 +298,7 @@ fr-FR:
   Offensive or Spam: Offensant ou indésirable
   Offical Site: Site officiel
   Offline Databases: Bases de données hors ligne
-  Ok:
+  Ok: Valider
   Origin Country: Pays d'origine
   Original Air Date: Date de diffusion originale
   Original Language: Langue d'origine
@@ -2082,13 +2082,13 @@ fr-FR:
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: 'n''est pas valide pour le pays : %{country_code}'
       iso_3166_1:
         invalid: n'est pas un pays valide
       iso_639_1:
         invalid: n'est pas une langue valide
       release_date:
-        anachronism:
+        anachronism: est antérieur·e au type de sortie %{min_date}
         invalid: n'est pas une date valide
     images:
       couldnt_process: Nous n'avons pas pu traiter cette image / photo.
@@ -3728,22 +3728,22 @@ fr-FR:
       edit:
         alternative_names:
           no_records: Aucun nom alternatif n'a été ajouté à cette fiche.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: Impossible de définir la traduction principale lorsque <strong>%{name} (%{language})</strong> est vide.
+        confirm_primary_translation: Une traduction principale (%{i18n_tag}) existe déjà pour cette personne.
         errors:
           invalid_unicode: Caractère(s) non valide(s) détecté(s).
           leading_whitespace: Espace(s) de début détecté(s).
           locked_name: La personne <strong>%{name} (%{language})</strong> est verrouillée.
           name_required: Impossible de migrer le champ vide %{name} (%{language}).
           numbers: Caractère(s) numérique(s) non valide(s) détecté(s).
-          primary_name_migration:
-          primary_translation:
+          primary_name_migration: Impossible d'effectuer la migration <strong>%{name} (%{language})</strong> à partir de la traduction principale.
+          primary_translation: La traduction existe déjà.
           special_characters: Caractère(s) non valide(s) détecté(s).
           trailing_whitespace: Espace(s) de fin détecté(s).
         migration_success: Migration du nom réussie.
         move_name: Déplacer le nom
         move_name_tooltip: Déplacer <strong> %{name} (%{language})</strong> vers la langue sélectionnée.
-        primary_translation:
+        primary_translation: Traduction principale
         translated_name_tooltip: Si le nom de scène de la personne, dans sa langue maternelle, n'est pas facilement lisible en %{language}, veuillez ajouter un nom traduit.
       gender:
         female: Femme
@@ -4392,6 +4392,9 @@ fr-FR:
         listed_below_explanation: Vous trouverez, ci-dessous listées, les applications tierces pour lesquelles vous avez autorisé l'écriture de données en votre nom. Vous pouvez révoquer ces autorisations à tout instant.
         no_apps: Vous n'avez, pour le moment, connecté aucune application tierce à votre compte TMDB.
         page_title: Mes applications connectées
+        revoke:
+          confirm_text:
+          confirm_title:
         table:
           action: Actions
           application_name: Nom de l'application
