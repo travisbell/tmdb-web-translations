@@ -8,6 +8,8 @@ I18n::Backend::Simple.include I18n::Backend::Fallbacks
 I18n.load_path += Dir[TMDb::Web::Translations.load_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.country_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.language_path + '/*.yml']
+I18n.load_path += Dir[TMDb::Web::Translations.ordinal_path + '/*.rb']
+I18n.load_path += Dir[TMDb::Web::Translations.ordinal_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.rb']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.yml']
 

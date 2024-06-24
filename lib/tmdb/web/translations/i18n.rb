@@ -143,6 +143,13 @@ module TMDb
         File.dirname(__FILE__) + "/../../../../languages"
       end
 
+      # This list of ordinal localizations is sourced from the rails-i18n gem (v7.0.9)
+      # To update values, clone the repo and copy the rails/ordinals directory.
+      # https://github.com/svenfuchs/rails-i18n
+      def self.ordinal_path
+        File.dirname(__FILE__) + "/../../../../ordinals"
+      end
+
       def self.load_path
         File.dirname(__FILE__) + "/../../../../locales"
       end
