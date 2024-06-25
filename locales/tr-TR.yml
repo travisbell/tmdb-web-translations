@@ -33,7 +33,7 @@ tr-TR:
   Add Network: Kanal Ekle
   Add New Episode: Yeni Bölüm Ekle
   Add New Movie: Yeni Film Ekle
-  Add New Release: Yeni Gösterim Ekle
+  Add New Release: Yeni Yayınlama Ekle
   Add New Season: Yeni Sezon Ekle
   Add New TV Show: Yeni Dizi Ekle
   Add Poster: Filim Posteri Ekle
@@ -358,10 +358,10 @@ tr-TR:
   Release Note: Not
   Release Type: Tip
   Reload Page: Sayfayı Yenile
-  Remove: Temizle
+  Remove: Kaldır
   Remove from your favorite list: Favori listemden çıkar
   Remove from your watchlist: İzleme listemden çıkar
-  Remove?: Temizle?
+  Remove?: Kaldırılsın?
   Report: Sorun Bildir
   Report an Issue: Sorun Bildir
   Reported Issues: Bildirilen Sorunlar
@@ -757,8 +757,8 @@ tr-TR:
     title: Ödüller
     winner: Kazanan
     wins:
-      one: "%{count} Kazanan"
-      other: 1 Kazanan
+      one: "%{count} Kazanılan"
+      other: 1 Kazanılan
   back_options:
     back: Geri
     episode: Bölüme Geri Dön
@@ -1772,7 +1772,7 @@ tr-TR:
         my_services:
           my_services: Benim Servislerim
           restrict: Aramaları abone olduğum hizmetler ile sınırlandır
-          restrict_tooltip: Abone olunen hizmetleri yönetmek için hesabınıza giriş yapın.
+          restrict_tooltip: Abone olunan servisleri yönetmek için hesabınıza giriş yapın.
         where_to_watch: Nerede İzlenir
       years:
         years: Yıllar
@@ -3418,7 +3418,7 @@ tr-TR:
       one: Listedeki öğe
       other: Listedeki öğe
     items_seen: Gördüğüm Öğeler
-    list_by: Tarafından yapılan bir liste
+    list_by: Bu listeyi oluşturan
     list_options: Liste Seçenekleri
     login_to_create_list: Kendi listenizi oluşturmak için giriş yapın!
     no_items: Bu listeye eklenen öğe yok.
@@ -3558,11 +3558,11 @@ tr-TR:
       tooltips:
         adult: Genel olarak konuşursak, bu etiket yalnızca pornografi için kullanılacaktır. Daha fazla bilgi için lütfen <a href="/bible/movie#59f73b759251416e71000004">Katılım kutsal kitabına</a> bakın.
         bible: TMDB deki bilgileri nasıl düzenleneceği konusunda yardım almak için '?'ne tıklayıp katılım başvuru kitabını okuyabilirsiniz.
-        character: Karakter adı %{media}'da göründüğü şekilde girilmelidir.
-        homepage: Yalnız resmi anasayfa. Hayran sayfalarına izin verilmez.
+        character: Karakter adı %{media}'de göründüğü şekilde girilmelidir.
+        homepage: Yalnızca resmi ana sayfalara izin verilir. Hayran sayfalarına izin verilmez.
         logo_format: SVG ve PNG türleri desteklenir.  Çözünürlükten bağımsız olduğu için SVG tercih edilir.
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
-        overview: Lütfen özet yazarken kısa ve öz olmasına, senaryoyu önceden eleverecek ifadeler kullanmamaya özen gösterin
+        overview: Lütfen özet yazarken kısa öz ve düzgün olmasına, senaryoyu önceden elverecek ifadeler (spoiler) kullanmamaya özen gösterin.
         social_links: Sosyal ağ bağlantıları yalnızca (onaylı) resmi sayfalar içindir, hayran sayfalarına izin verilmemektedir.
       translation_already_exists: "%{language} çevirisi zaten mevcut."
       translation_not_found: "%{language} çevirisi henüz oluşturulmadı."
@@ -3617,8 +3617,8 @@ tr-TR:
           no_records: Ekip üyesi eklenmedi.
           person_required: Bir kişi gerekli
         genres:
-          add_genre: Tür Ekle
-          no_records: Hiçbir tür eklenmedi.
+          add_genre: Tarz Ekle
+          no_records: Hiçbir tarz eklenmemiş.
         keywords:
           add_keyword: Anahtar Kelime Ekle
           create: Oluştur
@@ -3685,9 +3685,9 @@ tr-TR:
           trailing_whitespace:
         migration_success:
         move_name:
-        move_name_tooltip:
+        move_name_tooltip: "<strong> %{name} (%{language})</strong>'i seçilen dile taşı."
         primary_translation:
-        translated_name_tooltip:
+        translated_name_tooltip: Kişinin kendi ana dilindeki sahne adı %{language} dilinde kolayca okunamıyorsa, çevrilmiş bir ad eklemeyi düşünün.
       gender:
         female: Kadın
         male: Erkek
@@ -3976,7 +3976,7 @@ tr-TR:
   no_favorite_tv_shows:
     current_user: Hiç favori TV programı eklemediniz.
     public: "%{username} favori TV şovuna sahip değil."
-  no_genres: Hiçbir tür eklenmedi.
+  no_genres: Hiçbir tarz eklenmemiş.
   no_guest_stars: Konuk yıldız eklenmedi.
   no_keyword_search_results: Sorgunuza uyan herhangi bir anahtar kelime bulunamadı.
   no_keywords: Hiç anahtar kelime eklenmedi.
@@ -4011,7 +4011,7 @@ tr-TR:
     public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a>yaparak veya bir hesaba <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
   notifications:
     caught_up: Görünüşe göre her şey yolunda.
-    clear: Temiz
+    clear: Temizle
     good_job: Güzel iş!
     mark_all_as_read: Hepsini Okundu Olarak İşaretle
     refresh: Yenile
