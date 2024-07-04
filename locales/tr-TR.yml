@@ -77,7 +77,7 @@ tr-TR:
   Are you sure?: Emin Misiniz?
   Attributes: Öznitellikler
   Auto: Otomatik
-  Awards:
+  Awards: Ödüller
   Back to top: Başa Dön
   Backdrop Card View: Arka Plan Kartının Görünümü
   Bad Image: Kötü Görsel
@@ -272,8 +272,8 @@ tr-TR:
   Moderator: Moderatör
   More Info: Daha Fazla Bilgi
   Most Popular: En Popüler
-  Move Credits:
-  Move TV Credits:
+  Move Credits: Jeneriği Taşı
+  Move TV Credits: TV Jeneriği Taşı
   Movie Data: Film Verileri
   Movie Recommendations: Film Önerileri
   Movie Results: Film Sonuçları
@@ -408,7 +408,7 @@ tr-TR:
   Source Key: Kaynak Anahtar
   Specials: Özel Yayın
   Spoken Languages: Konuşulan Diller
-  Stage Name:
+  Stage Name: Sahne Adı
   State: Durum
   Stats: İstatistikler
   Status: Durum
@@ -460,7 +460,7 @@ tr-TR:
   Translated Overview: Özet Çevirisi
   Translated Tagline: Çevrilmiş Slogan
   Translated Title: Başlık (Orijinalle aynıysa boş bırakınız)
-  Translation:
+  Translation: Çeviri
   Translations: Çeviriler
   Type: Tip
   Type of Problem: Sorunun Türü
@@ -740,9 +740,9 @@ tr-TR:
       title: Kategoriler
     category_empty: Bu kategori için adaylık yok.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
+      number: Sayı
+      release_date_max: Maksimum Çıkış Tarihi
+      release_date_min: Minimum Çıkış Tarihi
       title: Törenler
     nominations:
       one: "%{count} Adaylık"
@@ -1641,42 +1641,42 @@ tr-TR:
   create_api: API oluştur
   date:
     abbr_day_names:
-    - Sun
-    - Mon
-    - Tue
-    - Wed
-    - Thu
-    - Fri
-    - Sat
+    - Paz
+    - Pts
+    - Sal
+    - Çrş
+    - Prş
+    - Cma
+    - Cts
     abbr_month_names:
     -
-    - Jan
-    - Feb
+    - Oca
+    - Şub
     - Mar
-    - Apr
+    - Nis
     - May
-    - Jun
-    - Jul
+    - Haz
+    - Tmz
     - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
+    - Eyl
+    - Ekm
+    - Kas
+    - Ara
     day_names:
-    - Sunday
-    - Monday
-    - Tuesday
-    - Wednesday
-    - Thursday
-    - Friday
-    - Saturday
+    - Pazar
+    - Pazartesi
+    - Salı
+    - Çarşamba
+    - Perşembe
+    - Cuma
+    - Cumartesi
     formats:
       abbrev: "%-d %b %Y"
       default: "%d/%m/%Y"
       full_month_day: "%B %e, %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%d-%m-%Y"
-    month_names: '[nil, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]'
+    month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
   deleted_content:
@@ -3153,29 +3153,29 @@ tr-TR:
     Visual Effects Director:
     Visual Effects Editor:
     Visual Effects Lineup:
-    Visual Effects Producer:
-    Visual Effects Production Assistant:
-    Visual Effects Production Manager:
-    Visual Effects Supervisor:
-    Visual Effects Technical Director:
+    Visual Effects Producer: Görsel Efekt Yapımcısı
+    Visual Effects Production Assistant: Görsel Efekt Prodüksiyon Asistanı
+    Visual Effects Production Manager: Görsel Efekt Yapım Müdürü
+    Visual Effects Supervisor: Görsel Efekt Süpervizörü
+    Visual Effects Technical Director: Görsel Efekt Teknik Direktörü
     Vocal Coach: Vokal Koçu
     Vocals: Vokaller
     Voice: Ses
-    Wardrobe Assistant:
-    Wardrobe Coordinator:
-    Wardrobe Designer:
-    Wardrobe Intern:
-    Wardrobe Master:
-    Wardrobe Specialized Technician:
-    Wardrobe Supervisor:
+    Wardrobe Assistant: Dolap Asistanı
+    Wardrobe Coordinator: Dolap Koordinatörü
+    Wardrobe Designer: Dolap Tasarımcısı
+    Wardrobe Intern: Dolap Stajyeri
+    Wardrobe Master: Dolap Ustası
+    Wardrobe Specialized Technician: Dolap Uzman Teknisyeni
+    Wardrobe Supervisor: Dolap Sorumlusu
     Weapons Master:
     Weapons Wrangler:
     Web Designer:
     Wig Designer:
-    Wigmaker:
+    Wigmaker: Peruk Yapıcı
     Writer: Yazar
-    Writers' Assistant:
-    Writers' Production:
+    Writers' Assistant: Yazar Asistanı
+    Writers' Production: Yazarların Prodüksiyonu
   joined: katıldı
   keyboard_shortcuts:
     actions:
@@ -3285,7 +3285,7 @@ tr-TR:
       disturbed: rahatsız
       domineering: otoriter
       doubtful: tedirgin
-      dramatic:
+      dramatic: Dramatik
       dreary: kederli
       dubious: şüpheli
       earnest: ağırbaşlı
@@ -3412,10 +3412,10 @@ tr-TR:
       zealous: azimli
   list_info:
     average_rating: Ortalama Puanı
-    collaborate:
-    hide_comments:
+    collaborate: İş Birliği
+    hide_comments: Yorumları Gizle
     image_selected: Seçildi
-    items_not_seen:
+    items_not_seen: Görmediğim Öğeler
     items_on_list:
       many: Listedeki öğeler
       one: Listedeki öğe
@@ -3682,19 +3682,19 @@ tr-TR:
           locked_name: "<strong>%{name} (%{language})</strong> kilitlidir."
           name_required: Boş %{name} (%{language}) alanı taşınamıyor.
           numbers: Geçersiz sayısal karakter(ler) algılandı.
-          primary_name_migration:
-          primary_translation:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
+          primary_name_migration: "<strong>%{name} (%{language})</strong> birincil çeviriden taşınamıyor."
+          primary_translation: Çeviri zaten var.
+          special_characters: Geçersiz karakter(ler) algılandı.
+          trailing_whitespace: Sonda boşluk(lar) algılandı.
+        migration_success: Ad başarıyla taşındı.
+        move_name: Adı Taşı
         move_name_tooltip: "<strong> %{name} (%{language})</strong>'i seçilen dile taşı."
-        primary_translation:
+        primary_translation: Birincil Çeviri
         translated_name_tooltip: Kişinin kendi ana dilindeki sahne adı %{language} dilinde kolayca okunamıyorsa, çevrilmiş bir ad eklemeyi düşünün.
       gender:
         female: Kadın
         male: Erkek
-        non_binary:
+        non_binary: İkili olmayan
       media_types:
         all: Tümü
         movies: Filmler
@@ -3702,7 +3702,7 @@ tr-TR:
         tv_shows: Diziler
       years_old: "%{count} yaşında"
     rating:
-      not_rateable:
+      not_rateable: Bu öğe henüz derecelendirilmedi.
       rated_with_rating: "%{value} olarak derecelendirildi"
       rating_count:
         one: "%{count} Puan"
@@ -3781,7 +3781,7 @@ tr-TR:
         mid_season: Sezon Ortası Finali
       episode_selector:
         current_episode: Bölüm %{season_number}x%{episode_number}
-        episode:
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Sonraki bölüm
         previous_episode: Önceki bölüm
     tv_season:
@@ -3832,10 +3832,10 @@ tr-TR:
           type: Tip
           types:
             '1': Orijinal Yayın Tarihi
-            '2':
+            '2': Mutlak
             '3': DVD
             '4': Dijital
-            '5':
+            '5': Hikaye Arkı
             '6': Yapım
             '7': TV
         networks:
@@ -3881,11 +3881,11 @@ tr-TR:
       audio_language: Konuşma dili
       channel: Kanal
       duration: Süre
-      play_behind_the_scenes:
-      play_blooper:
-      play_clip:
-      play_featurette:
-      play_opening_credits:
+      play_behind_the_scenes: Kamera Arkası Oyun
+      play_blooper: Hata Oynat
+      play_clip: Klibi Oynat
+      play_featurette: Özellik Oynat
+      play_opening_credits: Açılış Jeneriği Oynat
       play_recap: Özeti Oynat
       play_teaser: Tanıtımı Oynat
       play_trailer: Fragmanı Oynat
@@ -3923,9 +3923,9 @@ tr-TR:
       viewed_at: "%{time_ago}'de görüldü"
     placeholders:
       no_conversation_selected:
-        create:
+        create: Ayrıca <a href="%{link}">burayı tıklayarak</a> yeni bir görüşme de oluşturabilirsiniz.
         no_conversations: Hiç açık konuşman yok, şanslısın!
-        view:
+        view: Bir konuşmayı görüntülemek için soldaki birini seçin.
       no_user_found: Kullanıcı bulunamadı
       reply: İleti yaz
       subject: Bu ne hakkında?
@@ -3936,8 +3936,8 @@ tr-TR:
       my_archive: Arşivim
       my_inbox: Gelen kutusu
       new_message: Yeni İleti
-      support_archive:
-      support_inbox:
+      support_archive: Destek Arşivi
+      support_inbox: Destek Gelen Kutusu
     translate: Çevir
   monetize:
     create_api: API Oluştur
@@ -3964,7 +3964,7 @@ tr-TR:
       popular: Popüler
       top_rated: En Fazla Oy Alanlar
   no_biography: "%{name} için biyografimiz yok. Bir tane ekleyerek bize yardımcı olabilirsiniz."
-  no_cast:
+  no_cast: Bu %{media_type} için eklenmiş herhangi bir oyuncu kadromuz yok. Biraz ekleyerek yardımcı olabilirsiniz!
   no_collection_search_results: Sorgunuza uyan herhangi bir koleksiyon bulunamadı.
   no_company_search_results: Sorgunuza uyan herhangi bir şirket bulunamadı.
   no_contributors: Katkıda bulunanlar bulunamadı.
@@ -3998,9 +3998,9 @@ tr-TR:
     current_user: Henüz herhangi bir diziye oy vermedin.
     public: "%{username} hiçbir TV şovunu derecelendirmedi."
   no_recommendations:
-    movie:
-    tv_show:
-  no_records:
+    movie: "%{title} ile ilgili olarak herhangi bir film önermek için yeterli veriye sahip değiliz. İzlediğiniz filmleri derecelendirerek yardımcı olabilirsiniz."
+    tv_show: "%{title} ile ilgili herhangi bir TV şovu önermek için yeterli veriye sahip değiliz. İzlediğiniz TV programlarını derecelendirerek yardımcı olabilirsiniz."
+  no_records: Hiçbir kayıt eklenmedi.
   no_tv_search_results: Sorgunuza uyan herhangi bir televizyon dizisi bulunamadı.
   no_watchlist_movies:
     current_user: İzleme listenize hiç film eklemediniz
@@ -4244,12 +4244,12 @@ tr-TR:
             row_is_invalid: Bu satır geçersiz.
             updated_date: Güncellenme tarihi.
           reason: Sebep? (Uygunsa)
-          summary:
+          summary: Dışa aktarılan listenizde tespit ettiğimiz %{total_count} (%{imported_percentage}%) öğeden toplam %{imported_count} öğeyi içe aktarabildik.
         currently_running: İçe aktarma işlemi şu anda devam ediyor. Bitip bitmediğini sayfayı yenileyerek öğrenebilirsiniz.
         import_results: Aktarım Sonuçları
         in_progress:
           import_status: İçe Aktarma Durumu
-          summary:
+          summary: İçe aktarılacak toplam %{total_count} öğe tespit ettik. İçe aktarma şu anda arka planda çalışıyor ve tamamlandığında otomatik olarak bilgilendirileceksiniz.
       select_csv: CSV Dosyası Seç
       type:
         favorite: Favori Listesi
@@ -4304,8 +4304,14 @@ tr-TR:
       email:
         invalid_dialog_title: E-posta sıfırlansın mı?
         reset_button: Sıfırlanıp gönderilsin mi?
-        reset_invalid_email_dialog_text:
-        reset_password_invalid_email_dialog_text:
+        reset_invalid_email_dialog_text: |-
+          <p>Maalesef daha önce size e-posta gönderirken sorun yaşamıştık. Hataları <a href="/u/%{username_url}/events/emails?status=2,3">burada</a> görüntüleyebilirsiniz.</p>
+
+           <p>E-posta adresinizle ilgili sorunlar düzeltildiyse veya yalnızca geçiciyse, aşağıdaki sıfırlama düğmesini tıklayın; doğrulama için size başka bir e-posta göndermeyi deneyeceğiz.</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>Şifrenizi değiştirmek için geçerli bir e-posta adresine ihtiyacımız var. Maalesef daha önce size e-posta gönderirken sorun yaşamıştık. Hataları <a href="/u/%{username_url}/events/emails?status=2,3">burada</a> görüntüleyebilirsiniz.</p>
+
+          <p>E-posta adresinizle ilgili sorunlar düzeltildiyse veya yalnızca geçiciyse, aşağıdaki sıfırlama düğmesini tıklayın; size başka bir e-posta göndermeyi deneyeceğiz.</p>
         sending_problems: E-posta adresinize mesaj gönderirken sorunlar yaşadık. Devam edebilmemiz için e-postalarımızın başarıyla teslim edildiğinden emin olmamız gerekiyor.
         what_is_your_email: E-postanız nedir?
       page_title: Profilim
@@ -4318,8 +4324,8 @@ tr-TR:
         no_apps: Hesabınıza henüz hiç bir uygulama bağlanmadınız.
         page_title: Bağlı Uygulamalarım
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: Bu oturumu iptal ettiğinizde TMDB'yi bu uygulamayla kullanmaya devam edemezsiniz. Elbette istediğiniz zaman yeni bir oturum oluşturabilirsiniz.
+          confirm_title: Oturum İptal Edilsin mi?
         table:
           action: Eylemler
           application_name: Uygulama Adı
@@ -4386,7 +4392,7 @@ tr-TR:
     sign_up_for_account: Hesap Oluşturma
     signup_text: Bir hesap oluşturmak ücretsiz ve kolaydır. Başlamak için aşağıdaki formu doldurun.
   success_approved_access_token: İzin verildi
-  success_deleted:
+  success_deleted: Seçilen öğe başarıyla silindi.
   success_email: E-Postanız başarıyla gönderildi.
   success_image_rated: Görüntüyü başarıyla derecelendirdiniz.
   success_image_uploaded: Resim başarıyla yüklendi
