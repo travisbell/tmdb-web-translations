@@ -24,10 +24,10 @@ nl-NL:
   Add Alternative Name: Alternatieve naam toevoegen
   Add Alternative Title: Alternatieve titel toevoegen
   Add Backdrop: Achtergrond toevoegen
-  Add Content Rating: Classificatie toevoegen
+  Add Content Rating: Inhoudswijzer toevoegen
   Add Creator: Maker toevoegen
   Add Data & Content: Gegevens en inhoud toevoegen
-  Add Headshot: Headshot toevoegen
+  Add Headshot: Portret toevoegen
   Add Item: Item toevoegen
   Add Missing Cast & Crew: Ontbrekende cast- en crewleden toevoegen
   Add Network: Omroep toevoegen
@@ -99,7 +99,7 @@ nl-NL:
   Collection Results: Collectieresultaten
   Collections: Collecties
   Coming soon!: Binnenkort!
-  Comments: Opmerkingen
+  Comments: Reacties
   Community: Gemeenschap
   Community Data: Gemeenschapsgegevens
   Community Guidelines: Gemeenschapsrichtlijnen
@@ -113,18 +113,18 @@ nl-NL:
   Content Score: Inhoudsscore
   Continue: Doorgaan
   Contribution leaders for the week of: Top-bijdragers voor de week van
-  Convert to Collection?: Omzetten naar verzameling?
-  Convert to Movie?:
+  Convert to Collection?: Omzetten naar collectie?
+  Convert to Movie?: Omzetten naar film?
   Country: Land
-  Create: Creëren
-  Create App: App creëren
-  Create Application: Applicatie creëren
-  Create New List: Nieuwe lijst creëren
-  Create Translation: Vertaling creëren
-  Created By: Gecreëerd door
+  Create: Aanmaken
+  Create App: App aanmaken
+  Create Application: Applicatie aanmaken
+  Create New List: Nieuwe lijst aanmaken
+  Create Translation: Vertaling aanmaken
+  Created By: Gemaakt door
   Credits: Met dank aan
   Crew: Crew
-  Currently Airing TV Shows: Momenteel op TV
+  Currently Airing TV Shows: Momenteel op tv
   Currently on page: Momenteel op pagina
   DMCA Policy:
   DMCA Takedown Request: DMCA-schendingsmelding indienen
@@ -132,7 +132,7 @@ nl-NL:
   Day of Death: Overlijdensdag
   Default Language: Standaardtaal
   Delete: Verwijderen
-  Delete Collection:
+  Delete Collection: Collectie verwijderen
   Delete Keyword: Trefwoord verwijderen
   Delete Movie: Film verwijderen
   Delete Person: Persoon verwijderen
@@ -257,7 +257,7 @@ nl-NL:
   Login to add this TV show to your watchlist: Log in om deze tv-serie aan je watchlist toe te voegen
   Login to add this movie to your favorite list: Log in om deze film aan je favorieten toe te voegen
   Login to add this movie to your watchlist: Log in om deze film aan je watchlist toe te voegen
-  Login to create and edit custom lists: Log in om aangepaste lijsten te creëren en bewerken
+  Login to create and edit custom lists: Meld je aan om aangepaste lijsten te maken en bewerken
   Login to rate this TV show: Log in om deze tv-serie te beoordelen
   Login to rate this movie: Log in om deze film te beoordelen
   Login to report an issue: Log in om een fout te melden
@@ -332,7 +332,7 @@ nl-NL:
   Preview: Voorvertoning
   Primary Color: Primaire kleur
   Primary Facts: Primaire gegevens
-  Primary?:
+  Primary?: Primair?
   Privacy Policy: Privacybeleid
   Production Code: Productiecode
   Production Companies: Productiebedrijven
@@ -353,7 +353,7 @@ nl-NL:
   Recommendations: Aanbevelingen
   Regions: Regio's
   Regular Cast: Vaste cast
-  Release Dates & Certifications: Verschijningsdata en -certificeringen
+  Release Dates & Certifications: Verschijningsdatums en certificeringen
   Release Information: Verschijningsinformatie
   Release Note: Opmerking
   Release Type: Type
@@ -428,15 +428,15 @@ nl-NL:
   Support Forums: Ondersteuningsforum
   System Status:
   TV: TV
-  TV Network: Omroep
+  TV Network: TV-netwerk
   TV Recommendations: TV-aanbevelingen
   TV Show Data: TV-seriegegevens
   TV Show Results: TV-serieresultaten
-  TV Show Status: TV-seriestatus
-  TV Show Type: Soort tv-serie
+  TV Show Status: TV-serie status
+  TV Show Type: TV-serie type
   TV Show Watchlist: TV-seriewatchlist
   TV Shows: TV-series
-  TV Shows Airing Today: Vandaag op TV
+  TV Shows Airing Today: Vandaag op tv
   Tagged People: Getagde personen
   Tagline: Slagzin
   Talk: Praten
@@ -452,7 +452,7 @@ nl-NL:
   Top Rated Movies: Best beoordeelde films
   Top Rated TV Shows: Best beoordeelde tv-series
   Top Users: Topgebruikers
-  Translate Collection: Verzameling vertalen
+  Translate Collection: Collectie vertalen
   Translate Movie: Film vertalen
   Translate Person: Persoon vertalen
   Translate TV Series: TV-serie vertalen
@@ -485,7 +485,7 @@ nl-NL:
   View More: Meer tonen
   View Original: Origineel tonen
   View Profile Images: Profielafbeeldingen tonen
-  View the Collection: Verzameling tonen
+  View the Collection: Collectie tonen
   Watch Online: Online bekijken
   Watchlist: Watchlist
   Watchlists: Watchlists
@@ -497,7 +497,7 @@ nl-NL:
   Year: Jaar
   'Yes': Ja
   Your lists: Jouw lijsten
-  Your rating: Jouw beoordeling
+  Your rating: Je beoordeling
   Zip Code: Postcode
   account_drop_down:
     discussions: Discussies
@@ -508,7 +508,7 @@ nl-NL:
     logout: Uitloggen
     messages: Berichten
     profile_and_settings: Profiel en instellingen
-    ratings: Waarderingen
+    ratings: Beoordelingen
     settings: Instellingen
     sign_up: Registreren
     view_profile: Profiel bekijken
@@ -518,7 +518,7 @@ nl-NL:
       activity: Activiteit
       legend:
         added: Toegevoegd
-        created: Gecreëerd
+        created: Aangemaakt
         deleted: Verwijderd
         updated: Bijgewerkt
       media_types:
@@ -550,35 +550,37 @@ nl-NL:
         emails: E-mails
         filters:
           status:
-            Bounce: Onbestelbaar
+            Bounce: Niet afgeleverd
             Complaint: Klacht
-            Delivery: Geleverd
+            Delivery: Afgeleverd
             Unsubscribed: Afgemeld
             status: Status
         number_of_items:
-          one: "%{count} E-mail"
-          other: "%{count} E-mails"
-      events: Evenementen
+          one: "%{count} e-mail"
+          other: "%{count} e-mails"
+      events: Gebeurtenissen
       notifications:
         filters:
           type:
             Discussion: Discussie
             General: Algemeen
-            List Import: Lijst importeren
-            Mention: Noemen
+            List Import: Importeren lijst
+            Mention: Vermelding
             Messages: Berichten
             type: Type
-        notifications: Notificaties
+        notifications:
+          one: Melding
+          other: Meldingen
         number_of_items:
-          one: "%{count} Melding"
-          other: "%{count} Meldingen"
+          one: "%{count} melding"
+          other: "%{count} meldingen"
       page_title:
         recent_events: Recente gebeurtenissen
       recent: Recent
     export:
-      csv_explanation: Als u een lijst wilt exporteren in CSV-formaat, klik dan op "Export" hieronder. We maken het bestand voor u en sturen dat per e-mail naar u toe. Afhankelijk van de grootte van het bestand, zal dit enkele minuten duren.
+      csv_explanation: Als je deze lijst wilt exporteren in CSV-formaat, klik dan op de knop "Exporteren" hieronder. We maken het bestand en sturen deze per e-mail naar je toe. Afhankelijk van de grootte van je lijst kan dit enkele minuten duren.
       export: Exporteren
-      export_csv: Exporteer CSV
+      export_csv: CSV exporteren
     favorites:
       my_favorites:
         logged_in: Mijn favorieten
@@ -598,12 +600,12 @@ nl-NL:
       newest: Nieuwste
       popularity: Populariteit
       rating: Beoordeling
-      release_date: Uitgebracht op
+      release_date: Verschijningsdatum
       score: Score
       upcoming: Binnenkort
       user_characters: Gebruikerskarakters
     lists:
-      create_list: Lijst creëren
+      create_list: Lijst aanmaken
       last_updated: Bijgewerkt
       my_lists:
         logged_in: Mijn lijsten
@@ -623,9 +625,9 @@ nl-NL:
       ratings: Beoordelingen
       ratings_reviews: Beoordelingen en recensies
       recommendations: Aanbevelingen
-      reviews: Reviews
+      reviews: Recensies
       watchlist: Watchlist
-    order: 'Sorteren op:'
+    order: 'Volgorde:'
     overview:
       30_day_activity: Laatste 30 dagen
       empty_recent_activity:
@@ -663,13 +665,13 @@ nl-NL:
       my_recommendations: Mijn aanbevelingen
       no_recommendations: We hebben onvoldoende gegevens om je aanbevelingen te kunnen doen.
       no_recommendations_helper: Voeg nog een paar films/series toe aan je favorieten (hoe meer, hoe beter) en keer dan terug.
-      no_recommendations_helper_2: Probeer nog een paar films en tv-programma's te beoordelen (hoe meer hoe beter) en geef ons dan een paar uur de tijd om te zien wat we kunnen doen. Deze aanbevelingen worden bijgewerkt naarmate je meer inhoud bekijkt en beoordeelt.
+      no_recommendations_helper_2: Probeer nog een paar films en tv-series te beoordelen (hoe meer hoe beter) en geef ons dan een paar uur de tijd om te zien wat we kunnen doen. Deze aanbevelingen worden bijgewerkt naarmate je meer inhoud bekijkt en beoordeelt.
       page_title: Aanbevelingen
     sort_options:
-      asc: Aflopend
-      desc: Oplopend
+      asc: Oplopend
+      desc: Aflopend
     tips:
-      import_imdb_ratings: Je kunt je beoordelingen importeren uit IMDb.
+      import_imdb_ratings: Je kunt je beoordelingen uit IMDb importeren.
       tip: Tip
     watchlist:
       my_watchlist:
@@ -728,36 +730,40 @@ nl-NL:
     title: Titel
     to_accounts_ids: Aan
     translated_overview: Overzicht
-    tv_series_status: TV-serie Status
-  average edits per day: gemiddeld aantal wijzigingen per dag
+    tv_series_status: TV-serie status
+  average edits per day: gemiddeld aantal bewerkingen per dag
   awards:
-    add_nomination:
+    add_nomination: Nominatie toevoegen
     air_date:
-      future:
-      past:
-    alternative_names:
+      future: Uitgezonden op %{date}
+      past: Uitgezonden op %{date}
+    alternative_names: Alternatieve namen
     categories:
-      title:
-    category_empty:
+      title: Categorieën
+    category_empty: Geen nominaties in deze categorie.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
+      number: Nummer
+      release_date_max: Uitgebracht op max
+      release_date_min: Uitgebracht op min
+      title: Ceremonies
     nominations:
-    nominee:
+      one: 1 nominatie
+      other: "%{count} nominaties"
+    nominee: Genomineerde
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      directed_by: Geregisseerd door
+      hosted_by: Gepresenteerd door
+      location: Locatie
+      network: Netwerk
+      preshow_hosts: Voorprogramma presentatoren
+      produced_by: Geproduceerd door
+      runtime: Speeltijd
+      title: Info weergeven
+    title: Prijzen
+    winner: Winnaar
     wins:
+      one: 1 overwinning
+      other: "%{count} overwinningen"
   back_options:
     back: Terug
     episode: Terug naar aflevering
@@ -1321,7 +1327,7 @@ nl-NL:
         '6':
           meaning: Dit programma is speciaal gemaakt voor volwassenen en kan daardoor mogelijk ongeschikt zijn voor kinderen jonger dan 17.
   character:
-    Movie:
+    Movie: Film
     Titles:
     add_a_character: Personage toevoegen
     add_an_appearance: Verschijning toevoegen
@@ -1336,7 +1342,7 @@ nl-NL:
     add_new_appearance_links_selection:
     add_new_group: Nieuwe groep toevoegen
     add_the_name_of_the_character:
-    add_to_tmdb:
+    add_to_tmdb: Aan TMDB toevoegen
     add_translation: Vertaling toevoegen
     add_valid_translation: Voeg een geldige vertaling toe.
     adding_easy:
@@ -1352,27 +1358,27 @@ nl-NL:
     association_warning:
     available_backdrop_images:
     back: Terug
-    backdrop:
+    backdrop: Achtergrond
     backdrop_image_message:
     backdrop_oops_message:
     backdrop_window_title:
     below_is_example_text:
-    cancel_edits:
+    cancel_edits: Bewerkingen annuleren
     character_backdrop_photo:
-    character_bio:
+    character_bio: Personage bio
     character_header_images:
     character_login_signup_text:
-    character_name:
+    character_name: Personage namen
     character_search_label:
     character_search_text:
     character_to_search:
     character_wiki:
-    characters:
+    characters: Personages
     check_it_out:
     check_out_bible:
-    choose_a_character:
+    choose_a_character: Personage kiezen
     choose_a_character_info:
-    choose_backdrop:
+    choose_backdrop: Achtergrond kiezen
     choose_header_images:
     choose_reason:
     community:
@@ -1381,14 +1387,14 @@ nl-NL:
     continue: Doorgaan
     contribute:
     correct_errors_in_forms:
-    create_overview:
+    create_overview: Overzicht aanmaken
     create_overview_bio_help:
     create_overview_help:
     create_overview_name_help:
     create_overview_note:
     default_language_results_text:
-    delete_backdrop:
-    delete_character:
+    delete_backdrop: Achtergrond verwijderen
+    delete_character: Personage verwijderen
     delete_group: Groep verwijderen
     delete_group_check:
     do_you_want_continue:
@@ -1403,7 +1409,7 @@ nl-NL:
     edit_translating:
     editing_character_name_uv:
     enter:
-    enter_character_name:
+    enter_character_name: Personage naam invoeren
     enter_character_synopsis:
     enter_group_synopsis:
     enter_text_search:
@@ -1422,15 +1428,15 @@ nl-NL:
     group_name_required: Groepsnaam is vereist
     groups_minimum_appearance_msg:
     groups_not_present:
-    headshot:
+    headshot: Portret
     headshot_window_title:
     help_our_mods:
     help_our_mods_info:
-    icon:
+    icon: Pictogram
     image_change_1:
     image_media_association:
     in_translate_mode:
-    inline_edit_original_name:
+    inline_edit_original_name: Oorspronkelijke naam
     join_community_tmdb:
     launch_label:
     lock_existing_appearances:
@@ -1441,12 +1447,12 @@ nl-NL:
     media_character_id:
     media_type:
     media_types:
-      character:
-      movie_character_name:
+      character: Personage
+      movie_character_name: Filmpersonage namen
       tv_character_name:
-      tv_show:
+      tv_show: TV-series
     movie_titles:
-    name:
+    name: Naam
     navigate_to_dashboard:
     navigate_to_master:
     need_help:
@@ -1493,7 +1499,7 @@ nl-NL:
     review_and_launch_title:
     review_label:
     save_backdrop:
-    save_edits:
+    save_edits: Bewerkingen opslaan
     search:
     search_all:
     search_character_note:
@@ -1532,7 +1538,7 @@ nl-NL:
     total_budget:
     translations_language:
     try_again:
-    tv:
+    tv: TV
     tv_titles:
     unloading_message:
     unlock_existing_appearances:
@@ -1559,7 +1565,7 @@ nl-NL:
   contact:
     contact_sales:
     general_inquiry:
-    general_support:
+    general_support: Algemene ondersteuning
     get_in_touch:
     where_located:
   contribute:
@@ -1586,12 +1592,12 @@ nl-NL:
       people: ppl
       tv: tv
     collection:
-      collection: Verzamelingen
-      collection_bible: Verzamelingsbijbel
+      collection: Collecties
+      collection_bible: Collectiebijbel
       tall_bible:
         bottom: Bijbel
-        top: Verzameling
-    contribution_bible: Verzamelingsbijbel
+        top: Collectie
+    contribution_bible: Bijdragebijbel
     featured_articles: Uitgelichte artikelen
     general:
       general: Algemeen
@@ -1607,7 +1613,7 @@ nl-NL:
         top: Film
     new_content:
       new_content: Nieuwe inhoud
-      new_content_bible: Nieuwe inhoudsbijbel
+      new_content_bible: Nieuwe inhoud bijbel
     note: Opmerking
     people:
       people: Personen
@@ -1628,13 +1634,13 @@ nl-NL:
     welcome_2: de bijdragebijbel
   contribution_type:
     character_appearance:
-    movie:
-    primary_character:
-    tv_show:
+    movie: Film
+    primary_character: Hoofdpersonage
+    tv_show: TV-serie
   cookie_popup:
     message: We gebruiken cookies om je een betere gebruikservaring te bieden. Bekijk ons <a href="%{policy_url}" target="_blank" rel="noopener">cookiebeleid</a> voor meer informatie. Als je TMDB gaat gebruiken, dan ga je akkoord met dit beleid.
     ok_button: Oké
-  create_api:
+  create_api: API aanmaken
   date:
     abbr_day_names:
     - zo
@@ -1691,29 +1697,49 @@ nl-NL:
     one: dag
     other: "%{count} dagen"
   deleted_content:
-    entry_deleted: Item gewist
+    entry_deleted: Vermelding verwijderd
     reasons:
       '1':
         message: |-
-          Hey,
+          Hallo,
 
-          Dit is een vriendelijk bericht van de content moderators van TMDB. De toevoeging die je hebt aangemaakt met de titel: "%{title}", is verwijderd. Deze titel bestond al in onze database en is vandaar overwogen als een duplicaat.
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel bestond al in onze database en werd aangemerkt als duplicaat.
 
-          Als je nog enige vragen hebt over dit besluit, voel je vrij om een reactie te geven op dit bericht.
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is een duplicaat
       '2':
-        message:
-        subject: Dit voldoet niet aan onze richtlijnen met betrekking tot de inhoud (amateur,...)
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit voldoet niet aan onze richtlijnen met betrekking tot de inhoud (amateur, etc...)
       '3':
-        message:
-        subject: Het is een TV show
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel bestaat al als een TV-serie en wordt niet beschouwd als een geldige film. Je kunt [hier](https://www.themoviedb.org/bible/new_content) meer lezen over onze inhoudsrichtlijnen.
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit is een tv-serie
       '4':
-        message:
-        subject: Het is een nepitem
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit is een valse vermelding
       '5':
-        message:
-        subject: Het is spam
-    why_deleting: Waarom wilt u dit item verwijderen?
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit is spam
+    why_deleting: Waarom wil je deze vermelding verwijderen?
   department_credits_count:
     one: "%{department} (%{count} bijdrage)"
     other: "%{department} (%{count} bijdragen)"
@@ -1736,14 +1762,14 @@ nl-NL:
     apply: Toepassen
     filters:
       air_dates:
-        air_dates: Uitzenddata
+        air_dates: Uitzenddatums
         search_all_episodes:
         search_first_air_date:
       availability:
         availabilities:
         search_all_availabilities:
       certification:
-        certification: Classificatie
+        certification: Certificering
       filters: Filters
       genres:
         genres: Genres
@@ -1754,15 +1780,15 @@ nl-NL:
         tooltip:
       minimum_user_votes:
       network:
-        filter_by_network:
-        network:
+        filter_by_network: Filteren op tv-netwerken...
+        network: Netwerk
       none_selected:
       release_dates:
-        from:
-        release_dates:
+        from: van
+        release_dates: Verschijningsdatums
         search_all_countries:
         search_release_dates:
-        to:
+        to: tot
       runtime: Speeltijd
       show_me:
         everything:
@@ -1777,7 +1803,7 @@ nl-NL:
       user_score:
         user_score:
       where_to_watch:
-        country:
+        country: Land
         my_services:
           my_services:
           restrict:
@@ -1788,20 +1814,20 @@ nl-NL:
     no_items:
     search: Zoeken
     sort_options:
-      first_air_date_asc:
-      first_air_date_desc:
-      name_a_z:
-      name_z_a:
-      original_order_asc: Oorspronkelijk - Oplopend
-      original_order_desc: Oorspronkelijk - Aflopend
-      popularity_asc: Populariteit - Oplopend
-      popularity_desc: Populariteit - Aflopend
-      primary_release_date_asc:
-      primary_release_date_desc:
-      rating_asc: Beoordeling - Oplopend
-      rating_desc: Beoordeling - Aflopend
-      release_date_asc: Verschijningsdatum - Oplopend
-      release_date_desc: Verschijningsdatum - Aflopend
+      first_air_date_asc: Eerste uitzenddatum oplopend
+      first_air_date_desc: Eerste uitzenddatum aflopend
+      name_a_z: Naam (A-Z)
+      name_z_a: Naam (Z-A)
+      original_order_asc: Oorspronkelijk oplopend
+      original_order_desc: Oorspronkelijk aflopend
+      popularity_asc: Populariteit oplopend
+      popularity_desc: Populariteit aflopend
+      primary_release_date_asc: Primaire verschijningsdatum oplopend
+      primary_release_date_desc: Primaire verschijningsdatum aflopend
+      rating_asc: Beoordeling oplopend
+      rating_desc: Beoordeling aflopend
+      release_date_asc: Verschijningsdatum oplopend
+      release_date_desc: Verschijningsdatum aflopend
       title_a_z: Titel (A-Z)
       title_z_a: Titel (Z-A)
     tooltips:
@@ -1849,7 +1875,7 @@ nl-NL:
     email_notifications:
       email_notifications: E-mailmeldingen
       subscribe: Abonneren
-      unsubscribe: De-abonneren
+      unsubscribe: Afmelden
     headers:
       discuss: Bediscussiëren
       discuss_item: "%{item_title} bediscussiëren"
@@ -1880,9 +1906,9 @@ nl-NL:
       ignore: Negeren
       like: Vind ik leuk
       messages:
-        delete_comment: Als je op 'Ja' klikt, dan wordt deze opmerking permanent verwijderd.
+        delete_comment: Als je op 'Ja' klikt, wordt deze reactie permanent verwijderd.
         delete_discussion: Als je op 'Ja' klikt, dan wordt deze discussie permanent verwijderd.
-        hide_comment: Als je op 'Ja' klikt, dan wordt deze opmerking verborgen.
+        hide_comment: Als je op 'Ja' klikt, wordt deze reactie verborgen.
         hide_discussion: Als je op 'Ja' klikt, dan wordt deze discussie verborgen.
         ignore_user: Weet je zeker dat je deze gebruiker wilt negeren? Al zijn/haar discussies en opmerkingen zullen verdwijnen. Je kunt deze blokkade opheffen door naar de pagina "Geblokkeerde gebruikers" te gaan in je accountinstellingen.
         mark_as_not_spam:
@@ -1951,7 +1977,7 @@ nl-NL:
       perjury:
         label:
       primary_telephone:
-        error:
+        error: is niet geldig
         label:
       release:
         label:
@@ -1972,7 +1998,7 @@ nl-NL:
     add_edit_items: Items toevoegen/bewerken
     choose_image: Afbeelding kiezen
     delete_list: Lijst verwijderen
-    edit_list: Lijst aanpassen
+    edit_list: Lijst bewerken
   edits: bewerkingen
   email:
     confirm_new_email_address: Nieuw e-mailadres bevestigen
@@ -1982,7 +2008,7 @@ nl-NL:
     unsubscribe:
       sad_to_go:
       subscription_changed:
-      unsubscribe: Uitschrijven
+      unsubscribe: Afmelden
       unsubscribed:
   emoji:
     short_name:
@@ -2027,46 +2053,46 @@ nl-NL:
   error_pages:
     deleted_account:
       description:
-      title:
+      title: Dit account is verwijderd
     missing_privilege:
       description:
         logged_in:
         public:
-      title:
+      title: Je hebt geen toegang tot deze pagina
     out_of_login_attempts:
       description:
       title:
     private:
       description:
-        logged_in:
+        logged_in: Je hebt geen toegang tot deze pagina.
         public:
-      title:
+      title: Deze pagina is privé
     suspended:
       explanation_1: Helaas is deze gebruiker geblokkeerd.
       go_to_inbox: Ga naar inbox
-      title: Deze gebruiker is geblokeerd
+      title: Deze gebruiker is geblokkeerd
       your_account:
         explanation_1:
-        title: Jouw account is geblokeerd
+        title: Jouw account is geblokkeerd
     suspended_user_post:
       description:
-      title:
+      title: Dit bericht is verwijderd
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: is niet geldig voor land %{country_code}
       iso_3166_1:
-        invalid:
+        invalid: is geen geldig land
       iso_639_1:
-        invalid:
+        invalid: is geen geldige taal
       release_date:
         anachronism:
-        invalid:
+        invalid: is geen geldige datum
     images:
       couldnt_process: We kunnen deze afbeelding niet verwerken
-      not_jpeg: De afbeelding is niet in JPEG-formaat
-      not_png: De afbeelding is niet in PNG-formaat
-      not_svg: De afbeelding is niet in SVG-formaat
+      not_jpeg: De afbeelding is geen JPEG
+      not_png: De afbeelding is geen PNG
+      not_svg: De afbeelding is geen SVG
     locked:
       genres: Het genresveld is vergrendeld
       keywords: Het trefwoordenveld is vergrendeld
@@ -2075,10 +2101,10 @@ nl-NL:
       blank: is verplicht
       confirmation:
       email_address_not_routable:
-      empty:
+      empty: mag niet leeg zijn
       equal_to:
       even:
-      exclusion:
+      exclusion: is gereserveerd
       greater_than:
       greater_than_or_equal_to:
       in:
@@ -2092,11 +2118,11 @@ nl-NL:
       less_than_or_equal_to:
       model_invalid:
       no_characters_found:
-      not_a_number:
+      not_a_number: is geen nummer
       not_an_integer:
       odd:
       other_than:
-      present:
+      present: moet leeg zijn
       required: moet bestaan
       series_status_invalid_to_create_season:
       suspected_tv_series: is vermoedelijk een bestaande tv- of miniserie. Je kunt dit item alsnog toevoegen als je zeker denkt te weten dat het niet bestaat, maar als het wél bestaat, dan wordt her verwijderd.
@@ -2142,10 +2168,10 @@ nl-NL:
       message: De wachtwoordherstelcode is onjuist.
     invalid_session:
       message:
-      title:
+      title: Ongeldige sessie
     logged_out:
       message:
-      title:
+      title: Afgemeld!
     password_reset:
       message:
       title:
@@ -2172,72 +2198,72 @@ nl-NL:
       catch_up_now: Nu inhalen
       discussions: Discussies
     header:
-      quick_snippet_1:
+      quick_snippet_1: Miljoenen films, tv-series en personen om te verkennen. Ontdek het hier.
       welcome_1: Welkom.
     panels:
       community:
         join_today:
-        sign_up:
+        sign_up: Registreren
       filters:
-        for_rent:
-        in_theaters:
+        for_rent: Te huur
+        in_theaters: In de bioscoop
         movies: Films
-        on_tv:
-        popular:
+        on_tv: Op tv
+        popular: Populair
         streaming: Streaming
-        this_week:
-        today:
-        tv:
-      free_to_watch:
-      latest_trailers:
+        this_week: Deze week
+        today: Vandaag
+        tv: TV
+      free_to_watch: Gratis te bekijken
+      latest_trailers: Nieuwste trailers
       leaderboard:
-        all_time: Alle wijzigingen
+        all_time: Bewerkingen aller tijden
         leaderboard: Klassement
-        this_week: Wijzigingen deze week
-      trending:
-      whats_popular: Wat is populair
+        this_week: Bewerkingen deze week
+      trending: Trending
+      whats_popular: Nu populair
     taw:
       read_the_2018_recap: Lees de samenvatting van 2018
       read_the_2019_recap: Lees de samenvatting van 2019
       thats_a_wrap: Het zit er op!
     tv_shows:
       episode_airs:
-        in_days: Er wordt over %{number_of_days} dagen een nieuwe aflevering uitgezonden
-        today: Er wordt vandaag een nieuwe aflevering uitgezonden
-        tomorrow: Er wordt morgen een nieuwe aflevering uitgezonden
+        in_days: Nieuwe aflevering wordt uitgezonden over %{number_of_days} dagen
+        today: Nieuwe aflevering wordt vandaag uitgezonden
+        tomorrow: Nieuwe aflevering wordt morgen uitgezonden
   images:
     confirm_delete: Weet je zeker dat je deze afbeelding wilt verwijderen?
     upload_criteria:
-      '1': 'Maximale resolutie: 2000x3000'
-      '2': 'Minimale resolutie: 500x750'
-      '3': 'Beeldverhouding: 1:1.5 (2:3)'
-      '4': 'Maximale resolutie: 3840x2160'
-      '5': 'Minimale resolutie: 400x225'
+      '1': Een maximale resolutie van 2000x3000
+      '2': Een minimale resolutie van 500x750
+      '3': Beeldverhouding van 1:1.5 (2:3)
+      '4': Een maximale resolutie van 3840x2160
+      '5': Een minimale resolutie van 400x225
       '6': Afbeeldingen met een beeldverhouding van 16x9 (1.78:1) en 4:3 worden ondersteund
-      '7': 'Minimale resolutie: 1280x720'
-      '8': 'Beeldverhouding: 16x9 (1.78:1)'
-      '9': 'Minimale resolutie: 300x450'
-      backdrops_must_meet: 'Achtergronden moeten voldoen aan de volgende eisen:'
-      episode_stills_must_meet: 'Afleveringsafbeeldingen moeten voldoen aan de volgende eisen:'
-      headshots_must_meet:
-      posters_must_meet: 'Posters moeten voldoen aan de volgende eisen:'
-      profile_must_meet: 'Profielafbeeldingen moeten voldoen aan de volgende eisen:'
+      '7': Een minimale resolutie van 1280x720
+      '8': Beeldverhouding van 16x9 (1.78:1)
+      '9': Een minimale resolutie van 300x450
+      backdrops_must_meet: 'Achtergronden moeten aan de volgende criteria voldoen:'
+      episode_stills_must_meet: 'Afleveringsafbeeldingen moeten aan de volgende criteria voldoen:'
+      headshots_must_meet: 'Portretten moeten aan de volgende criteria voldoen:'
+      posters_must_meet: 'Posters moeten aan de volgende criteria voldoen:'
+      profile_must_meet: 'Profielafbeeldingen moeten aan de volgende criteria voldoen:'
       read_guidelines: Zorg ervoor dat je onze bijgewerkte <a href="%{link}" target="_blank" rel="noopener">richtlijnen voor het bijdragen van afbeeldingen</a> doorneemt.
       tip: Als je browsers dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
     uploader:
-      aspect_ratio:
-      aspect_ratio_both:
+      aspect_ratio: Beeldverhouding van %{ratio}
+      aspect_ratio_both: Beeldverhouding van %{ratio_first} of %{ratio_second}
       file_type:
-      max_res:
-      min_res:
+      max_res: Een maximale resolutie van %{res}
+      min_res: Een minimale resolutie van %{res}
       read_guidelines: Zorg ervoor dat je onze bijgewerkte <a href="%{link}" target="_blank" rel="noopener">richtlijnen voor het bijdragen van afbeeldingen</a> doorneemt.
       tip: Als je browsers dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
-      type_backdrops:
-      type_episode_stills:
-      type_headshots:
-      type_posters:
-      type_profiles:
-      validation_header:
+      type_backdrops: Achtergronden
+      type_episode_stills: Afleveringsafbeeldingen
+      type_headshots: Portretten
+      type_posters: Posters
+      type_profiles: Profielen
+      validation_header: "%{type} moeten aan de volgende criteria voldoen:"
   invalid_aspect_ratio: De beeldverhouding is ongeldig.
   item_count:
     one: "%{count} item"
@@ -3197,22 +3223,22 @@ nl-NL:
       reply_to_discussion: beantwoord discussie
       save_form: verstuur formulier
       submit_message: verstuur uw bericht
-      toggle_close: gesloten of open
+      toggle_close: schakelen sluiten/openen
       toggle_private: privé of openbaar
       toggle_watching: Verander kijk status
-    enable:
+    enable: Sneltoetsen inschakelen
     groups:
       discussion_pages: Op discussiepagina's
       edit_pages: Op alle bewerkte pagina's
       global: Wereldwijd
       image_pages: Op alle afbeeldingspagina's
       media_pages: Op media pagina's
-      tv_episode_pages: Op pagina's met TV-programma's
-      tv_season_pages: Op TV seizoenspagina's
+      tv_episode_pages: Op pagina's met tv-series
+      tv_season_pages: Op tv-seizoenspagina's
     keyboard_shortcuts: Sneltoetsen
     login_to_change_preferences:
-    view_keyboard_shorcuts: Bekijk sneltoetsen
-    view_shortcuts: Bekijk sneltoetsen
+    view_keyboard_shorcuts: Sneltoetsen bekijken
+    view_shortcuts: Sneltoetsen bekijken
   keywords:
     tone:
       absurd:
@@ -3410,29 +3436,29 @@ nl-NL:
       zealous:
   list_info:
     average_rating: Gemiddelde beoordeling
-    collaborate:
-    hide_comments:
+    collaborate: Samenwerken
+    hide_comments: Reacties verbergen
     image_selected: Geselecteerd
-    items_not_seen:
+    items_not_seen: Niet bekeken
     items_on_list:
       many: items op deze lijst
       one: item op deze lijst
       other: items op deze lijst
-    items_seen:
-    list_by:
-    list_options:
-    login_to_create_list:
-    no_items:
+    items_seen: Bekeken
+    list_by: Een lijst van
+    list_options: Lijstopties
+    login_to_create_list: Meld je aan om je eigen lijst te maken!
+    no_items: Er zijn staan geen items op deze lijst.
     private: Privé
     public: Openbaar
     select_this_image: Selecteer deze afbeelding
-    show_comments:
+    show_comments: Reacties weergeven
     total_revenue: Totale opbrengst
     total_runtime: Totale afspeelduur
-    use_grid_view:
-    use_list_view:
+    use_grid_view: Rasterweergave
+    use_list_view: Lijstweergave
   list_messages:
-    comment_updated: Opmerking bijgewerkt!
+    comment_updated: Reactie bijgewerkt!
     image_saved: Afbeelding opgeslagen!
     item_added: Item toegevoegd!
     item_already_added: Dit item staat al op de lijst.
@@ -3451,7 +3477,7 @@ nl-NL:
     login_text_1: Als je de bewerk- en beoordelingsfuncties van TMDB wilt gebruiken en persoonlijke aanbevelingen wilt krijgen, dan moet je inloggen op je account. Als je geen account hebt, dan kun je je gratis en eenvoudig registreren. <a href="%{signup_link}">Klik hier</a> om aan de slag te gaan.
     login_text_2: Als je je geregistreerd hebt maar geen verificatie-e-mail hebt ontvangen, <a href="%{verification_link}">klik dan hier</a> om deze opnieuw te versturen.
     login_to_your_account: Inloggen op je account
-  login_to_create: Film of tv-serie niet gevonden? Log dan in om deze te creëren.
+  login_to_create: Film of tv-serie niet gevonden? Meld je aan om deze toe te voegen.
   login_to_edit: Log in om te bewerken
   media:
     adult:
@@ -3464,7 +3490,7 @@ nl-NL:
       number_of_changes:
         one: "%{count} Verandering"
         other: "%{count} Veranderingen"
-      view_weekly_leaderboard: Weekklassement tonen
+      view_weekly_leaderboard: Weekklassement weergeven
     character:
       edit:
         appearance:
@@ -3472,9 +3498,9 @@ nl-NL:
     collection:
       edit:
         parts:
-          add:
-          no_records:
-      parts:
+          add: Film toevoegen
+          no_records: Geen films toegevoegd.
+      parts: Delen
     company:
       headquarters: Hoofdkantoor
       movie_page_title: Door %{name} geproduceerde films
@@ -3487,7 +3513,7 @@ nl-NL:
           backdrop:
           biography:
           cast_min_4:
-          created_by:
+          created_by: Gemaakt door credit
           credits:
           crew_min_2:
           director:
@@ -3500,7 +3526,7 @@ nl-NL:
           poster:
           profile:
           regular_cast_min_4:
-          release_date:
+          release_date: Verschijningsdatum
           title:
           video:
           writer:
@@ -3519,8 +3545,8 @@ nl-NL:
         '9': Bijna klaar...
     edit:
       alternative_title:
-        lock_existing:
-        locked:
+        lock_existing: Bestaande titles vergrendelen
+        locked: Deze titel is vergrendeld.
       cast_updated:
       delete_all_appearances:
       genres_updated:
@@ -3535,8 +3561,8 @@ nl-NL:
       placeholders:
         country: Selecteer een land...
         create_person:
-          click_to_create: Klik om %{name} te creëren
-          create_it: Creëren...
+          click_to_create: Klik om %{name} aan te maken
+          create_it: Aanmaken...
         genres: Selecteer een genre...
         job: Selecteer een taak...
         keywords: Selecteer een trefwoord...
@@ -3544,18 +3570,18 @@ nl-NL:
         person: Zoek naar een persoon...
         production_companies: Zoek naar een productiebedrijf...
       release_date:
-        locked:
+        locked: Deze verschijningsdatum is vergrendeld.
       success_fields_locked: Velden zijn vergrendeld.
       tagline:
-        add_tagline:
-        already_exists:
-        lock_existing:
-        locked:
+        add_tagline: Slagzin toevoegen
+        already_exists: slagzin bestaat al
+        lock_existing: Bestaande slagzinnen vergrendelen
+        locked: Deze slagzin is vergrendeld
         no_taglines:
         not_found:
-        primary:
-        taglines:
-        unable_to_delete:
+        primary: Primair
+        taglines: Slagzinnen
+        unable_to_delete: De slagzin kon niet worden verwijderd.
       tooltips:
         adult:
         bible: " Klik op '?' om de bijdragebijbel te openen voor hulp bij het bewerken."
@@ -3570,7 +3596,7 @@ nl-NL:
       unlock_all_appearances:
       upload_logo: Upload een logo
       videos:
-        locked:
+        locked: Deze video is vergrendeld.
     external_links:
       visit_facebook: Bezoek Facebook
       visit_homepage: Bezoek homepage
@@ -3586,7 +3612,7 @@ nl-NL:
       format: Formaat
       no_backdrop_stills: Er zijn geen opnames toegevoegd aan dit item.
       no_backdrops: Er zijn geen achtergronden toegevoegd aan dit item.
-      no_headshots:
+      no_headshots: Er zijn geen portretten toegevoegd aan dit item.
       no_logos: Er zijn geen logo's toegevoegd aan dit item.
       no_posters: Er zijn geen posters toegevoegd aan dit item.
       no_profiles: Er zijn geen profielen toegevoegd aan dit item.
@@ -3606,9 +3632,9 @@ nl-NL:
           no_records: Er zijn geen castleden toegevoegd.
           person_required:
         confirm_collection: |-
-          <p>Verzamelingen zijn een handige manier om (film)series te groeperen op TMDB. Hoewel soms gezegd wordt dat het controversieel is, zijn collecties niet bedoeld om films uit hetzelfde "universum" te groeperen. Voor dat laatste kun je <a href="%{list_link}" target="_blank" rel="noopener">een lijst creëren</a>. Bekijk, voor meer informatie over verzamelingen, <a href="%{docs_link}" target="_blank" rel="noopener">onze documentatie</a>.</p>
+          <p>Collecties zijn een handige manier om (film)series te groeperen op TMDB. Hoewel soms gezegd wordt dat het controversieel is, zijn collecties niet bedoeld om films uit hetzelfde "universum" te groeperen. Voor dat laatste kun je <a href="%{list_link}" target="_blank" rel="noopener">een lijst creëren</a>. Bekijk, voor meer informatie over collecties, <a href="%{docs_link}" target="_blank" rel="noopener">onze documentatie</a>.</p>
 
-          <p>Als de verzameling die je wilt creëren voldoet aan bovenstaande criteria, dan kun je doorgaan.</p>
+          <p>Als de collectie die je wilt creëren voldoet aan bovenstaande criteria, dan kun je doorgaan.</p>
         confirm_video: |-
           <p>Het labelen van een film als video helpt ons om inhoud te onderscheiden, omdat niet alle video's ook films zijn.</p>
 
@@ -3622,7 +3648,7 @@ nl-NL:
           no_records: Er zijn geen genres toegevoegd.
         keywords:
           add_keyword: Trefwoord toevoegen
-          create: Creëren
+          create: Aanmaken
           no_records: Er zijn geen trefwoorden toegevoegd.
           none_found: Geen overeenkomende trefwoorden gevonden. Wil je er één creëren?
           tip: Houdt als algemene richtlijn aan dat je dingen toevoegt die de moraal, algemene thema's en stemmingen omschrijven.
@@ -3677,7 +3703,7 @@ nl-NL:
         errors:
           invalid_unicode:
           leading_whitespace:
-          locked_name:
+          locked_name: "<strong>%{name} (%{language})</strong> is vergrendeld."
           name_required:
           numbers:
           primary_name_migration:
@@ -3696,17 +3722,17 @@ nl-NL:
       media_types:
         all:
         movies: Films
-        tv:
-        tv_shows:
+        tv: TV
+        tv_shows: TV-series
       years_old:
         one: "%{count} jaar oud"
         other: "%{count} jaar oud"
     rating:
       not_rateable:
-      rated_with_rating: 'Met beoordeling: %{value}'
+      rated_with_rating: Beoordeeld %{value}
       rating_count:
-        one: "%{count} Waardering"
-        other: "%{count} Waarderingen"
+        one: "%{count} beoordeling"
+        other: "%{count} beoordelingen"
       score_breakdown:
       score_distribution:
       score_history:
@@ -3719,14 +3745,14 @@ nl-NL:
       characters:
       episodes:
       fandom:
-      headshots:
+      headshots: Portretten
       logos:
       main: Overzichtspagina
       media:
       overview:
       posters: Posters
       profiles: Profielen
-      release_dates:
+      release_dates: Verschijningsdatums
       reviews: Recensies
       seasons:
       translations:
@@ -3756,28 +3782,28 @@ nl-NL:
       add_name:
       add_overview:
       add_runtime:
-      add_tagline:
+      add_tagline: Slagzin toevoegen
       add_title:
       biography:
       name:
       overview:
-      taglines:
+      taglines: Slagzinnen
       title:
     tv_episode:
       edit:
         episode_type_confirm:
         episode_type_label:
         episode_types:
-          finale:
+          finale: Seizoensfinale
           mid_season:
-          standard:
+          standard: Standaard
         guest_stars:
           no_records: Er zijn geen gastrollen toegevoegd.
         screened_as_part_of_season: Ja, als onderdeel van een seizoen
         screened_confirm: Als deze aflevering vertoond is op een filmfestival of in een theater, klik dan op 'Ja' om door te gaan.
         screened_label: Is deze aflevering vertoond in een theater?
       episode_label:
-        finale:
+        finale: Seizoensfinale
         mid_season:
       episode_selector:
         current_episode: Aflevering %{season_number}x%{episode_number}
@@ -3786,7 +3812,7 @@ nl-NL:
         previous_episode: Vorige aflevering
     tv_season:
       edit:
-        create_episode: Aflevering toevoegen
+        create_episode: Aflevering aanmaken
         episodes:
           no_records: Er zijn geen afleveringen toegevoegd.
         runtime_varies_check:
@@ -3800,20 +3826,20 @@ nl-NL:
         next_season: Volgend seizoen
         previous_season: Vorig seizoen
     tv_show:
-      create_season: Seizoen toevoegen
+      create_season: Seizoen aanmaken
       edit:
         adult:
           adult_show: Erotische tv-serie?
         alternative_names:
           no_records: Er zijn geen alternatieve namen toegevoegd.
         content_ratings:
-          no_records: Er zijn geen inhoudsclassificaties toegevoegd.
+          no_records: Geen inhoudswijzer toegevoegd.
         creator:
           no_records: Er zijn geen makers toegevoegd.
         crew:
           no_season: Er is nog geen seizoen toegevoegd! Een seizoen is vereist om crewleden toe te voegen.
         episode_groups:
-          create_new_group: Nieuwe groep creëren
+          create_new_group: Nieuwe groep aanmaken
           description: Omschrijving
           episode_groups: Afleveringsgroepen
           episodes:
@@ -3940,7 +3966,7 @@ nl-NL:
       support_inbox: Ondersteunings-Postvak IN
     translate: Vertaal
   monetize:
-    create_api:
+    create_api: API aanmaken
   month:
     one: maand
     other: "%{count} maanden"
@@ -3960,17 +3986,17 @@ nl-NL:
       people: Personen
       popular_people: Populaire personen
     tv_shows:
-      airing_today: Vandaag op TV
-      on_the_air: Nu op TV
-      on_tv: Op TV
+      airing_today: Vandaag op tv
+      on_the_air: Nu op tv
+      on_tv: Op tv
       popular: Populair
       top_rated: Best beoordeeld
   no_biography: We hebben geen biografie voor %{name}.
   no_cast: We hebben geen toegevoegde castleden voor deze %{media_type}. Help ons door er enkele toe te voegen!
-  no_collection_search_results: Er zijn geen verzamelingen die overeenkomen met je zoekopdracht.
+  no_collection_search_results: Er zijn geen collecties die overeenkomen met de zoekopdracht.
   no_company_search_results: Er zijn geen bedrijven die overeenkomen met je zoekopdracht.
   no_contributors: Geen bijdragers gevonden.
-  no_created_lists: Je hebt nog geen lijsten gecreëerd.
+  no_created_lists: Je hebt nog geen lijsten aangemaakt.
   no_crew: We hebben geen toegevoegde crewleden voor deze %{media_type}. Help ons door er enkele toe te voegen!
   no_description: Geen omschrijving ingevoerd.
   no_director: Er is geen regisseur toegevoegd.
@@ -4140,9 +4166,9 @@ nl-NL:
     show_more: Meer tonen
   part_of_collection: Onderdeel van %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(minimaal 4 tekens)"
     confirm_new_password: Nieuw wachtwoord bevestigen
-    enter_to_continue:
+    enter_to_continue: Huidige wachtwoord invoeren om door te gaan...
     new_password: Nieuw wachtwoord
     password: Wachtwoord
     password_confirm: Wachtwoord bevestigen
@@ -4156,7 +4182,7 @@ nl-NL:
   reset_password_text: Voer hieronder je gebruikersnaam in om het wachtwoordherstelproces te starten.
   sample:
   search:
-    adult:
+    adult: Erotiek
     favorites_movie: Favoriete films doorzoeken...
     favorites_tv: Favoriete tv-series doorzoeken...
     in_movies: in films
@@ -4173,9 +4199,9 @@ nl-NL:
     rated_tv: Beoordeelde tv-series doorzoeken...
     recommendations_movie: Persoonlijke filmaanbevelingen doorzoeken...
     recommendations_tv: Persoonlijke tv-aanbevelingen doorzoeken...
-    search_results:
-    trending: Populair
-    trending_searches: Populaire zoekopdrachten
+    search_results: Zoekresultaten
+    trending: Trending
+    trending_searches: Trending zoekopdrachten
     watchlist_movie: Film-watchlist doorzoeken...
     watchlist_tv: TV-serie-watchlist doorzoeken...
   search_text_validation_error:
@@ -4189,27 +4215,27 @@ nl-NL:
       account_settings: Accountinstellingen
       auto_detect: Automatisch detecteren?
       page_title: Mijn instellingen
-      resend_verification_email_text: Accountverificatie-e-mail niet ontvangen? Voer hieronder je gebruikersnaam in om de e-mail opnieuw te versturen.
-      reset_password_text:
+      resend_verification_email_text: Accountverificatie-e-mail niet ontvangen? Voer hieronder je e-mailadres in om opnieuw te versturen.
+      reset_password_text: Voer het e-mailadres in waarmee je je hebt aangemeld voor een TMDB-account en we sturen je de stappen die nodig zijn om je wachtwoord opnieuw in te stellen.
     api:
       api: API
-      create_page_title:
+      create_page_title: Nieuwe API-sleutel aanmaken
       directory:
         page_title:
       navigation:
-        create: Creëren
+        create: Aanmaken
         details: Details
         directory: Map
-        overview:
+        overview: Overzicht
         regenerate:
           confirm_text:
-          regenerate_key:
+          regenerate_key: Sleutel opnieuw genereren
           summary_text:
         sessions: Sessies
         stats: Statistieken
-      page_title:
-      session_page_title:
-      stats_page_title:
+      page_title: Mijn API-instellingen
+      session_page_title: Mijn API-sessies
+      stats_page_title: Mijn API-statistieken
     blocked_users:
       action: Actie
       blocked_users: Geblokkeerde gebruikers
@@ -4223,26 +4249,26 @@ nl-NL:
     delete_account:
       confirm_delete: Verwijderen bevestigen
       delete_account: Account verwijderen
-      page_title:
+      page_title: Mijn account verwijderen
       summary_text: Je bent terechtgekomen in de <strong>gevarenzone</strong>! Als je door wilt gaan en je account wilt verwijderen, dan moet je hieronder je wachtwoord invoeren en daarna de verwijdering bevestigen.
     import_list:
       import_button: Importeren
       import_list: Lijst importeren
-      import_status:
+      import_status: Importstatus
       navigation:
         import: Importeren
-        previous: Eerdere importeringen
+        previous: Eerdere importen
       notification:
         finished_import: Importeren voltooid!
         started_import: Bezig met importeren...
-      page_title:
+      page_title: Een lijst importeren
       previous:
         date: Datum
         imported: Geïmporteerd
         items: Items
         local_list: Lokale lijst
         no_imports: Je hebt geen lijsten geïmporteerd.
-        page_title:
+        page_title: Mijn eerdere importen
         type: Type
       results:
         complete:
@@ -4252,17 +4278,17 @@ nl-NL:
             already_imported: Reeds geïmporteerd.
             cant_find_imdb: De IMDb-ID kan niet worden gevonden.
             imdb_id_not_in_row: Het IMDb ID is niet gevonden in deze rij.
-            personal_rating_invalid: Uw persoonlijke waardering is foutief (moet tussen 0.5 en 10.0 zijn).
-            personal_rating_not_found: Uw persoonlijk waardering is niet gevonden in deze rij.
+            personal_rating_invalid: Je persoonlijke beoordeling is foutief (moet tussen 0.5 en 10.0 zijn).
+            personal_rating_not_found: Je persoonlijk beoordeling is niet gevonden in deze rij.
             row_is_invalid: Deze rij is foutief.
             updated_date: Datum bijgewerkt.
           reason: Reden? (indien van toepassing)
           summary: We hebben in totaal %{imported_count} van %{total_count} (%{imported_percentage}%) items kunnen importeren uit je lijst.
-        currently_running: De importering wordt uitgevoerd. Je kunt de pagina verversen om te zien of de importering al voltooid is.
+        currently_running: De import wordt uitgevoerd. Je kunt de pagina vernieuwen om te zien of deze voltooid is.
         import_results: Importresultaten
         in_progress:
-          import_status: Importeringsstatus
-          summary: We hebben %{total_count} te importeren items gevonden. De importering wordt op de achtergrond uitgevoerd en je krijgt een melding zodra het voltooid is.
+          import_status: Importstatus
+          summary: We hebben %{total_count} te importeren items gevonden. De import wordt op de achtergrond uitgevoerd en je krijgt een melding zodra het voltooid is.
       select_csv: CSV-bestand kiezen
       type:
         favorite: Favoriet
@@ -4282,15 +4308,15 @@ nl-NL:
       settings: Instellingen
       sharing_settings: Deelinstellingen
       social_settings: Sociale instellingen
-      streaming_services: Streaming diensten
+      streaming_services: Streamingdiensten
     notifications:
-      api_updates:
+      api_updates: E-mail versturen over API wijzigingen en updates
       email_new_releases_watchlist: E-mail versturen bij nieuw verschenen items op mijn watchlist?
-      new_replies_to_threads_created: Automatisch onderwerpen volgen die ik creëer of beantwoord?
-      new_replies_to_threads_watching: Automatisch e-mail versturen bij nieuwe antwoorden op onderwerpen die ik volg?
+      new_replies_to_threads_created: Automatisch onderwerpen volgen die ik aanmaak of op reageer?
+      new_replies_to_threads_watching: E-mail versturen bij nieuwe reacties op onderwerpen die ik volg?
       news_updates: E-mail versturen bij nieuws en productupdates
       notifications: Meldingen
-      page_title:
+      page_title: Mijn meldingen
     profile:
       accent_color: Accentkleur
       avatar:
@@ -4315,8 +4341,8 @@ nl-NL:
       change_password: Wachtwoord wijzigen
       edit_profile: Profiel bewerken
       email:
-        invalid_dialog_title: Reset Email?
-        reset_button: Resetten en versturen?
+        invalid_dialog_title: E-mail opnieuw instellen?
+        reset_button: Opnieuw instellen en verzenden?
         reset_invalid_email_dialog_text: |-
           <p>Helaas hebben we eerder problemen gehad met het versturen van e-mails naar jou. Je kan de fouten <a href="/u/%{username_url}/events/emails?status=2,3">hier</a> bekijken.</p>
 
@@ -4325,45 +4351,45 @@ nl-NL:
           <p>Om je wachtwoord te veranderen hebben we een geldig e-mailadres nodig. Helaas hebben we eerder problemen gehad met het versturen van e-mails naar jou. Je kan de fouten <a href="/u/%{username_url}/events/emails?status=2,3">hier</a> bekijken.</p>
 
           <p>Als de problemen met je e-mailadres opgelost zijn of alleen tijdelijk waren, klik op de resetknop hieronder en we proberen je dan een andere email te sturen om het te verifiëren.</p>
-        sending_problems:
-        what_is_your_email:
+        sending_problems: We hebben problemen met het afleveren van berichten op je e-mailadres. Voordat we verder kunnen gaan, moeten we controleren of onze e-mails succesvol worden afgeleverd.
+        what_is_your_email: Wat is je e-mail?
       page_title: Mijn profiel
       reset_password_dialog_text: Door deze aanvraag te bevestigen wordt er een e-mail aan je verstuurd met instructies om je wachtwoord te herstellen. Weet je zeker dat je dit wilt doen?
-      reset_password_dialog_text2:
+      reset_password_dialog_text2: "<strong>Let op:</strong> als je je wachtwoord opnieuw instelt, word je uitgelogd bij alle huidige sessies."
     sessions:
       api:
         connected_apps: Gekoppelde apps
         listed_below_explanation: Hieronder vindt je de externe apps die je gemachtigd hebt om je gegevens te gebruiken. Je kunt de machtigingen op elk moment intrekken.
         no_apps: Je hebt geen apps gekoppeld aan je account.
-        page_title:
+        page_title: Mijn gekoppelde apps
         revoke:
           confirm_text:
-          confirm_title:
+          confirm_title: Sessie intrekken?
         table:
           action: Acties
-          application_name: App-naam
+          application_name: Naam toepassing
           date_authorised: Gemachtigd op
       navigation:
-        api:
-        web:
-      page_title:
+        api: API
+        web: Web
+      page_title: Mijn sessies
       sessions: Sessies
       web:
-        current_session:
+        current_session: huidige sessie
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: Ja, verwijderen!
+          dialog_text: Weet je zeker dat je deze sessie wilt verwijderen? Als de geselecteerde sessie je huidige sessie is, wordt je afgemeld.
+          dialog_title: Sessie verwijderen?
         table:
           date: Datum
-          device:
-          ip:
+          device: Apparaat
+          ip: IP-adres
     sharing:
       favorite_list:
         favorite_settings: Favorietenlijst-instellingen
         share_on_twitter: Nieuwe favorieten delen op Twitter?
         share_publicly: Deze lijst openbaar maken?
-      page_title:
+      page_title: Mijn deelinstellingen
       rated_list:
         rated_settings: Beoordeelde lijst-instellingen
         share_publicly: Deze lijst openbaar maken?
@@ -4438,13 +4464,13 @@ nl-NL:
     one: vertaling
     other: vertalingen
   upload_backdrop: Achtergrond uploaden
-  upload_headshot:
+  upload_headshot: Een portret uploaden
   upload_poster: Poster uploaden
   upload_profile: Profielafbeelding uploaden
   upload_title_logo:
   used_by_developers: TMDB wordt gebruikt door meer dan 400.000 ontwikkelaars.<br>Bekijk hieronder hun werk.
   vibes:
-    done:
+    done: Klaar
     login:
     mood:
       label:
@@ -4458,8 +4484,8 @@ nl-NL:
         surprised:
       prompt:
     rating:
-      clear:
-      label:
+      clear: Mijn beoordeling wissen
+      label: Beoordeling
       prompt:
       tooltip:
         '0':
@@ -4477,8 +4503,8 @@ nl-NL:
       label:
       no_results:
       prompt:
-        movie:
-        tv:
+        movie: Deze film was...
+        tv: De TV-serie was...
       select:
     welcome:
     whats_new:

@@ -38,7 +38,7 @@ tr-TR:
   Add New TV Show: Yeni Dizi Ekle
   Add Poster: Filim Posteri Ekle
   Add Profile: Profil Fotoğrafı Ekle
-  Add Season Regular: Devam Sezonu Ekle
+  Add Season Regular: Sezon Devamlı Oyuncusu Ekle
   Add Title Logo: Başlık Logosu Ekle
   Add To Every Season?: Bütün Sezonlara Ekle?
   Add Video: Video Ekle
@@ -257,10 +257,10 @@ tr-TR:
   Login to add this TV show to your watchlist: Diziyi izleme listenize eklemek için giriş yapınız
   Login to add this movie to your favorite list: Filmi favori listenize eklemek için giriş yapınız
   Login to add this movie to your watchlist: Filmi takibe almak için giriş yapınız
-  Login to create and edit custom lists: Özelleştirilmiş listeleri yaratmak ve düzenlemek için giriş yap
+  Login to create and edit custom lists: Özel listeler oluşturmak ve düzenlemek için giriş yapınız
   Login to rate this TV show: Diziyi değerlendirmek için giriş yapınız
   Login to rate this movie: Filmi değerlendirmek için giriş yapınız
-  Login to report an issue: Hata bildiriminde bulunmak için giriş yapınız
+  Login to report an issue: Sorun bildirmek için giriş yapınız
   Logo: Logo
   Logout: Çıkış Yap
   Mark as Favorite: Favori Olarak İşaretle
@@ -318,7 +318,7 @@ tr-TR:
   Physical: Fiziksel
   Place of Birth: Doğum Yeri
   Play: Yürüt
-  Plot Keywords: Hikaye Anahtar Kelimeleri
+  Plot Keywords: Hikâye Anahtar Kelimeleri
   Popular Lists: Popüler listeler
   Popular Movies: Popüler Filmler
   Popular TV Shows: Popüler Diziler
@@ -350,7 +350,7 @@ tr-TR:
   Read More: Daha Fazla Oku
   Recent Blog Posts: Son Blog Yazıları
   Recent News: Son Haberler
-  Recommendations: Tavsiyeler
+  Recommendations: Ayrıca Önerilenler
   Regions: Bölgeler
   Regular Cast: Devamlı Oyuncular
   Release Dates & Certifications: Yayınlanma Tarihleri & Sertifikasyon
@@ -384,7 +384,7 @@ tr-TR:
   Season: Sezon
   Season Number: Sezon Numarası
   Season Overview: Sezona Genel Bakış
-  Season Regulars: Sezon Müdavimleri
+  Season Regulars: Sezonun Devamlı Oyuncuları
   Season Specials: Sezon Özel Ürünleri
   Seasons: Sezonlar
   Secondary Color: İkincil Renk
@@ -1120,7 +1120,7 @@ tr-TR:
         '1':
           meaning: 2-7 yaş arası çocuklar için uygun programlama. Herhangi bir düzeyde küfür veya cinsel içeriğe izin verilmez. Az şiddet içerir.
         '2':
-          meaning: 8+ yaş çocuklar için uygundur. Düşük seviyeli şiddet, fantezi ve korkuya izin verilir. Kötü bir dile izin verilmez, ancak hikaye bağlamında ara sıra "toplumsal olarak saldırgan ve ayrımcı" dile izin verilir. Hiçbir düzeyde cinsel içeriğe izin verilmez.
+          meaning: 8+ yaş çocuklar için uygundur. Düşük seviyeli şiddet, fantezi ve korkuya izin verilir. Kötü bir dile izin verilmez, ancak hikâye bağlamında ara sıra "toplumsal olarak saldırgan ve ayrımcı" dile izin verilir. Hiçbir düzeyde cinsel içeriğe izin verilmez.
         '3':
           meaning: Genel izleyiciler için uygundur. Hafif şiddet ve hafif küfür ve/veya sansürlü dil ile tüm aileye uygun programlama.
         '4':
@@ -1675,7 +1675,7 @@ tr-TR:
       default: "%d/%m/%Y"
       full_month_day: "%B %e, %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: "%d-%m-%Y"
+      short_month_day_year: "%b %d, %Y"
     month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
@@ -2124,7 +2124,7 @@ tr-TR:
       account: Hesap
       general: Genel
       get_in_touch: İletişim
-      logos_and_attribution: Logolar
+      logos_and_attribution: Logolar & Atıf
       our_history: Tarihimiz
       website: İnternet Sitesi
   filter_by_release_date:
@@ -2164,17 +2164,17 @@ tr-TR:
   homepage:
     community:
       benefits_list:
-        '1': Reklamsız TMDb'nin tadını çıkarın
-        '2': Kişisel bir izleme listesi tutun
-        '3': Abone olduğunuz akış hizmetlerine göre filtreleyin ve izleyecek bir şeyler bulun
-        '4': İzlediğiniz filmleri, dizileri ve TV şovlarını kaydedin
-        '5': Kişisel listeler oluşturun
-        '6': Veritabanımıza katkıda bulunun ve geliştirin
+        '1': TMDb'nin reklamsız tadını çıkarın
+        '2': Kişisel bir izleme listesi oluşturun
+        '3': Abone olduğunuz akış hizmetlerine göre filtreleyin ve izleyecek bir şeyler arayın
+        '4': İzlediğiniz filmleri, dizileri ve TV şovlarını listelerinize kaydedin
+        '5': Özel listeler oluşturun
+        '6': Veri tabanımıza katkıda bulunun ve geliştirin
     discussions:
       catch_up_now: Şimdi yakala
       discussions: Tartışmalar
     header:
-      quick_snippet_1: Milyonlarca film, TV şovu ve keşfedilecek kişi. Şimdi keşfedin.
+      quick_snippet_1: Keşfedilecek milyonlarca film, TV şovu ve kişi. Şimdi keşfedin.
       welcome_1: Hoş Geldiniz!
     panels:
       community:
@@ -2598,7 +2598,7 @@ tr-TR:
     Executive Assistant: Yönetici Asistanı
     Executive Co-Producer: Yönetici Ortak Yapımcı
     Executive Consultant: Yönetici Danışmanı
-    Executive In Charge Of Post Production: Post Prodüksiyondan Sorumlu Yönetici
+    Executive In Charge Of Post Production: Post Prodüksiyondan Sorumlu Yöneticisi
     Executive In Charge Of Production: Üretimden Sorumlu Yönetici
     Executive Music Producer: İdari Müzik Yapımcısı
     Executive Producer: Yönetici Yapımcı
@@ -3639,7 +3639,7 @@ tr-TR:
           no_records: Hiçbir video eklenmedi
       statuses:
         Canceled: İptal Edildi
-        In Production: Prodüksiyonda
+        In Production: Prodüksiyon Aşamasında
         Planned: Planlanmış
         Post Production: Yapım sonrası
         Released: Yayınlandı
@@ -3727,7 +3727,7 @@ tr-TR:
       posters: Afişler
       profiles: Profil Görüntüleri
       release_dates: Yayınlama Tarihleri
-      reviews: Değerlendirmeler
+      reviews: Yorumlar
       seasons: Sezonlar
       translations: Çeviriler
       videos: Videolar
@@ -3864,7 +3864,7 @@ tr-TR:
       statuses:
         Canceled: İptal Edildi
         Ended: Bitti
-        In Production: Prodüksiyonda
+        In Production: Prodüksiyon Aşamasında
         Pilot: Kılavuz
         Planned: Planlanmış
         Returning Series: Yeni Sezonu Olan Diziler
@@ -3950,9 +3950,9 @@ tr-TR:
     more:
       more: Daha Fazla
     movies:
-      now_playing: Gösterimdekiler
+      now_playing: Gösterimde
       popular: Popüler
-      top_rated: En Fazla Oy Alanlar
+      top_rated: En Çok Oy Alan
       upcoming: Yakında
     people:
       people: Kişiler
@@ -3998,7 +3998,7 @@ tr-TR:
     current_user: Henüz herhangi bir diziye oy vermedin.
     public: "%{username} hiçbir TV şovunu derecelendirmedi."
   no_recommendations:
-    movie: "%{title} ile ilgili olarak herhangi bir film önermek için yeterli veriye sahip değiliz. İzlediğiniz filmleri derecelendirerek yardımcı olabilirsiniz."
+    movie: "%{title} ile ilgili olarak herhangi bir film önermek için yeterli veriye sahip değiliz. İzlediğiniz filmleri derecelendirerek bize yardımcı olabilirsiniz."
     tv_show: "%{title} ile ilgili herhangi bir TV şovu önermek için yeterli veriye sahip değiliz. İzlediğiniz TV programlarını derecelendirerek yardımcı olabilirsiniz."
   no_records: Hiçbir kayıt eklenmedi.
   no_tv_search_results: Sorgunuza uyan herhangi bir televizyon dizisi bulunamadı.
@@ -4011,7 +4011,7 @@ tr-TR:
   no_writer: Hiçbir yazar eklenmedi.
   not_translated:
     logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Devam etmek ve çeviri eklemek istiyorsanız lütfen aşağıdaki butona tıklayın."
-    public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a>yaparak veya bir hesaba <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
+    public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a> yaparak veya bir hesaba <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
   notifications:
     caught_up: Görünüşe göre her şey yolunda.
     clear: Temizle
@@ -4072,7 +4072,7 @@ tr-TR:
   number_of_votes: "%{count} oy"
   ott:
     available_sentences:
-      ads: reklamlarla izle
+      ads: reklamlı izle
       buy: satın al
       flatrate: akış
       free: ücretsiz izle
@@ -4109,7 +4109,7 @@ tr-TR:
       many: "%{count} sezon"
       other: "%{count} sezon"
     view_offers: Teklifleri Göster
-    watch_now: Şimdi İzle
+    watch_now: Hemen İzle
     watch_on:
       ads: "%{name} öğesini %{provider_name} üzerinden izle"
       buy: "%{name} öğesini %{provider_name} üzerinden satın al"
@@ -4390,7 +4390,7 @@ tr-TR:
     by_clicking_agree_to_terms: Aşağıdaki "Kaydol" düğmesine tıklamakla, TMDB kullanım şartlarını ve gizlilik politikasını okuyup ve kabul etmiş olursunuz.
     javascript_required: Devam etmek için JavaScript gereklidir.
     sign_up_for_account: Hesap Oluşturma
-    signup_text: Bir hesap oluşturmak ücretsiz ve kolaydır. Başlamak için aşağıdaki formu doldurun.
+    signup_text: Bir hesap açmak ücretsiz ve kolaydır. Başlamak için aşağıdaki formu doldurun.
   success_approved_access_token: İzin verildi
   success_deleted: Seçilen öğe başarıyla silindi.
   success_email: E-Postanız başarıyla gönderildi.

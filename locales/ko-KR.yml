@@ -89,7 +89,7 @@ ko-KR:
   Branding: 브랜딩
   Budget: 제작비
   Cancel: 취소
-  Cast: 배역
+  Cast: 출연진
   Categories: 분류
   Change?: 변경하시겠습니까?
   Character: 배역
@@ -198,8 +198,8 @@ ko-KR:
   First Name: 성을 제외한 이름
   Footnotes: 각주
   Formatting Help:
-  Forum: 포럼
-  Forums: 포럼
+  Forum: 토론
+  Forums: 토론
   Full Cast & Crew: 총 출연진 & 제작진
   Full Character List:
   Full Leaderboard:
@@ -425,8 +425,8 @@ ko-KR:
   Success: 성공
   Summary: 요약
   Support: 지원
-  Support Forums:
-  System Status:
+  Support Forums: 토론 지원
+  System Status: 시스템 상태
   TV: TV
   TV Network: TV 방송사
   TV Recommendations: TV 추천
@@ -564,7 +564,7 @@ ko-KR:
           type:
             Discussion: 토론
             General: 일반
-            List Import: 목록 가져오기
+            List Import: 목록 불러오기
             Mention: 언급
             Messages: 메시지
             type: 유형
@@ -1344,7 +1344,7 @@ ko-KR:
     all_languages:
     all_record_exists_in_group:
     already_added:
-    alter_popularity:
+    alter_popularity: 인기도 변경
     are_you_sure:
     are_you_sure_updates_will_be_lost:
     association_already_exists:
@@ -1473,8 +1473,8 @@ ko-KR:
     placeholder_synopsis:
     played_by:
     please_select_a_person:
-    popularity_weight:
-    popularity_weight_multiplier:
+    popularity_weight: 인기 비중
+    popularity_weight_multiplier: 인기 가중치 비중
     previous:
     previous_nav_label:
     primary_character_name:
@@ -1756,7 +1756,7 @@ ko-KR:
         search_all_countries:
         search_release_dates:
         to:
-      runtime:
+      runtime: 상영시간
       show_me:
         everything:
         movies_have_seen:
@@ -1766,7 +1766,7 @@ ko-KR:
         tv_shows_have_seen:
         tv_shows_havent_seen:
       sort:
-        sort_results_by:
+        sort_results_by: '결과 정렬 기준 '
       user_score:
         user_score:
       where_to_watch:
@@ -1781,12 +1781,12 @@ ko-KR:
     no_items:
     search: 검색
     sort_options:
-      first_air_date_asc:
-      first_air_date_desc:
-      name_a_z:
-      name_z_a:
-      original_order_asc:
-      original_order_desc:
+      first_air_date_asc: 첫 방송일 오름차순
+      first_air_date_desc: 첫 방송일 내림차순
+      name_a_z: 이름 (A-Z)
+      name_z_a: 이름(Z-A)
+      original_order_asc: 기본 오름차순
+      original_order_desc: 기본 내림차순
       popularity_asc: 인기도 오름차순
       popularity_desc: 인기도 내림차순
       primary_release_date_asc:
@@ -1795,8 +1795,8 @@ ko-KR:
       rating_desc: 평점 내림차순
       release_date_asc: 상영일 오름차순
       release_date_desc: 상영일 내림차순
-      title_a_z: 제목 오름차순
-      title_z_a: 제목 내림차순
+      title_a_z: 제목 (A-Z)
+      title_z_a: 제목 (Z-A)
     tooltips:
       not_member:
       signup:
@@ -1894,7 +1894,7 @@ ko-KR:
     search:
       advanced_search: 고급 검색
       search_closed: 검색 취소
-      search_forums: 포럼 검색
+      search_forums: 토론 검색
       search_open: 검색을 열까요?
     statuses:
       closed: 토론끝
@@ -2021,7 +2021,7 @@ ko-KR:
       title: 해당 계정이 삭제되었습니다.
     missing_privilege:
       description:
-        logged_in: 이 페이지에 액세스할 수 없습니다. 오류라고 생각되면 <a href="%{forum_link}">포럼</a>에 알려주세요.
+        logged_in: 이 페이지에 액세스할 수 없습니다. 오류라고 생각되면 <a href="%{forum_link}">토론</a>에 알려주세요.
         public: 로그인이 필요한 페이지입니다. 계정에 <a href="%{login_link}">로그인</a>하세요.
       title: 이 페이지에 액세스할 수 있는 권한이 없습니다.
     out_of_login_attempts:
@@ -2105,7 +2105,7 @@ ko-KR:
       duplicate_guest_star: 이 특별출연은 이미 존재합니다.
       duplicate_regular_season_member: 이미 정규 시즌 출연진으로 입력된 인물입니다.
       duplicate_season: 이미 존재하는 시즌입니다.
-      duplicate_season_episode_cast_member:
+      duplicate_season_episode_cast_member: 이 사람은 이미 이 시즌의 에피소드에 출연진으로 추가되어 있습니다. 출연자 크레딧은 시즌 또는 에피소드 중 하나에 추가해야 하며, 둘 다에 추가할 수 없습니다.
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
@@ -2180,7 +2180,7 @@ ko-KR:
         in_theaters: 극장
         movies: 영화
         on_tv: TV
-        popular:
+        popular: 인기
         streaming: 스트리밍
         this_week: 이번 주
         today: 오늘
@@ -2188,9 +2188,9 @@ ko-KR:
       free_to_watch: 무료 시청
       latest_trailers: 최신 예고편
       leaderboard:
-        all_time:
+        all_time: 전체 편집 점수
         leaderboard: 리더보드
-        this_week:
+        this_week: 이번주 편집 점수
       trending: 트렌드
       whats_popular: 인기 콘텐츠
     taw:
@@ -2269,7 +2269,7 @@ ko-KR:
     ADR Recording Engineer:
     ADR Recordist:
     ADR Supervisor:
-    ADR Voice Casting:
+    ADR Voice Casting: ADR 음성 캐스팅
     Accountant: 회계사
     Accounting Clerk Assistant:
     Accounting Supervisor:
@@ -2280,7 +2280,7 @@ ko-KR:
     Actor's Assistant:
     Adaptation: 각색
     Additional Camera:
-    Additional Casting:
+    Additional Casting: 추가 캐스팅
     Additional Colorist:
     Additional Construction:
     Additional Construction Grip:
@@ -2366,7 +2366,7 @@ ko-KR:
     Assistant Director of Photography: 촬영 조감독
     Assistant Editor:
     Assistant Electrician:
-    Assistant Extras Casting:
+    Assistant Extras Casting: 보조 엑스트라 캐스팅
     Assistant Foley Artist:
     Assistant Gaffer:
     Assistant Grip:
@@ -2404,7 +2404,7 @@ ko-KR:
     BTS Videographer:
     Back-up Set Production Assistant:
     Back-up Truck Production Assistant:
-    Background Casting Director:
+    Background Casting Director: 배경 캐스팅 디렉터
     Background Designer:
     Base Camp Operator:
     Battle Motion Coordinator:
@@ -3518,15 +3518,15 @@ ko-KR:
       alternative_title:
         lock_existing: 제목을 잠급니다
         locked: 제목은 잠겨 있습니다
-      cast_updated:
+      cast_updated: 출연진 업데이트됨
       delete_all_appearances:
-      genres_updated:
-      lock_all_appearances:
-      lock_all_cast_crew_description:
+      genres_updated: 장르 업데이트됨
+      lock_all_appearances: "'예'를 클릭하면 앞으로 일반 사용자가 기존 기록을 모두 편집할 수 없도록 잠급니다. 관리자는 계속 편집할 수 있습니다."
+      lock_all_cast_crew_description: "'예'를 클릭하면 앞으로 일반 사용자가 기존 기록을 모두 편집할 수 없도록 잠급니다. 관리자는 계속 편집할 수 있습니다."
       lock_all_fields: 모든 항목 잠그기
       lock_all_images: 모든 이미지 잠그기
-      lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_cast: 기존 출연진 잠그기
+      lock_existing_crew: 기존 제작진 잠그기
       logos: 로고
       page_title: "%{name} 편집"
       placeholders:
@@ -3572,10 +3572,10 @@ ko-KR:
       visit_facebook: 페이스북 가기
       visit_homepage: 홈페이지 가기
       visit_instagram: 인스타그램 가기
-      visit_justwatch:
-      visit_tiktok:
+      visit_justwatch: JustWatch 가기
+      visit_tiktok: 틱톡 가기
       visit_twitter: 트위터 가기
-      visit_youtube:
+      visit_youtube: 유튜브 가기
     genre:
       movie_page_title: "%{name} 영화"
       tv_page_title: "%{name} TV 프로그램"
@@ -3601,13 +3601,19 @@ ko-KR:
           no_records: 입력된 다른 제목 없음.
         cast:
           no_records: 입력된 출연진 없음.
-          person_required:
-        confirm_collection:
-        confirm_video: 비디오 확인
+          person_required: 인물은 필수입니다
+        confirm_collection: |-
+          <p>컬렉션은 TMDB에서 속편을 함께 그룹화할 수 있는 편리한 방법입니다. 때때로 논란의 여지가 있지만 컬렉션은 같은 '세계관'의 영화를 그룹화하기 위한 것이 아닙니다. 이를 위해 <a href="%{list_link}" target="_blank" rel="noopener">목록</a>을 작성하세요. 컬렉션에 대한 자세한 내용은 <a href="%{docs_link}" target="_blank" rel="noopener">문서</a>에서 확인할 수 있습니다.</p>
+
+          <p>생성하려는 컬렉션이 이 기준을 충족하는 경우 계속 진행하세요.</p>
+        confirm_video: |-
+          <p>영화에 동영상으로 태그를 지정하면 실제 영화가 아닌 콘텐츠 유형을 구분하는 데 도움이 됩니다.</p>
+
+          <p>예를 들어 편집 DVD, 피트니스 비디오 또는 베스트 모음 DVD와 같은 콘텐츠인 경우 동영상으로 표시해야 합니다.</p>
         crew:
           job_required: 분야는 필수입니다.
           no_records: 입력된 제작진이 없습니다.
-          person_required: 인물추가는 필수입니다.
+          person_required: 인물은 필수입니다.
         genres:
           add_genre: 장르 추가
           no_records: 입력된 장르 없음.
@@ -3742,7 +3748,7 @@ ko-KR:
       add_homepage:
       add_name:
       add_overview:
-      add_runtime:
+      add_runtime: 상영시간 추가
       add_tagline:
       add_title:
       biography:
@@ -3776,7 +3782,7 @@ ko-KR:
         create_episode: 에피소드 만들기
         episodes:
           no_records: 추가된 에피소드 없음
-        runtime_varies_check:
+        runtime_varies_check: 방영시간은 시즌 방영시간에 따라 크게 달라집니다. 방송시간을 올바르게 입력하셨나요?
         screened_confirm: 이 시즌이 영화제나 극장에서 상영되었으면, '네'를 눌러주십시오.
         screened_label: 이 시즌이 극장 상영된 적 있습니까?
       season_cast: 시즌 출연진
@@ -3833,7 +3839,7 @@ ko-KR:
           no_season: '에피소드 전무! 시즌 추가시 정규 출연진이 입력되어야 합니다. '
         runtime:
           add_it: 새 방영시간을 추가하시겠습니까?
-          enter_value: 값입력
+          enter_value: 분 단위로 값을 입력
         seasons:
           no_records: 추가된 시즌 없음
       episode_groups:
@@ -3901,6 +3907,8 @@ ko-KR:
     notifications:
       new_message: "%{username}님이 회원님께 새 메세지를 보내셨습니다."
     number_of_messages:
+      one: "%{count} 개 메시지"
+      other: "%{count} 개 메시지"
     options:
       admin: 관리자
       archive: 아카이브
@@ -3909,11 +3917,11 @@ ko-KR:
     placeholders:
       no_conversation_selected:
         create: <a href="%{link}">여기를 눌러</a> 새로운 대화를 시작할 수 있습니다.
-        no_conversations: 어떤 대화 내역도 없어요. 잘 됐군요!
+        no_conversations: " 공개적인 대화가 없습니다. 잘 됐군요!"
         view: 좌측에서 대화 내역을 보실 수 있습니다.
-      no_user_found: 검색되는 이용자 없음
+      no_user_found: 검색된 이용자 없음
       reply: 본문 작성
-      subject:
+      subject: 무슨 일인가요?
       to: 사용자 검색...
     right_column_titles:
       conversation_with: "%{username}님 연락하기"
@@ -3925,7 +3933,7 @@ ko-KR:
       support_inbox: '도움 '
     translate: 번역
   monetize:
-    create_api:
+    create_api: API 만들기
   month: "%{count} 월"
   navigation:
     discover:
@@ -3933,7 +3941,7 @@ ko-KR:
       movies: 영화
       tv_shows: TV 프로그램
     more:
-      more:
+      more: 다음
     movies:
       now_playing: 현재 상영 중
       popular: 인기
@@ -4026,15 +4034,15 @@ ko-KR:
       decimal_units:
         format:
         units:
-          billion:
+          billion: 억
           million:
           quadrillion:
           thousand:
           trillion:
       format:
         precision:
-        significant: false
-        strip_insignificant_zeros: false
+        significant: true
+        strip_insignificant_zeros: true
       short_decimal_units:
         units:
           billion:
@@ -4046,7 +4054,7 @@ ko-KR:
     percentage:
       format:
         delimiter:
-        format:
+        format: "%n%"
     precision:
       format:
         delimiter:
@@ -4057,20 +4065,20 @@ ko-KR:
   number_of_votes: "%{count} 참여"
   ott:
     available_sentences:
-      ads:
-      buy:
-      flatrate:
-      free:
-      rent:
-      sentence:
+      ads: 광고 포함 시청하기
+      buy: 구매
+      flatrate: 스트리밍
+      free: 무료 시청
+      rent: 대여
+      sentence: "%{title}은 %{country}에서 %{available_types}입니다."
     available_snippet:
-      flatrate:
-      rent_or_buy:
-      summary_sentence:
-    description:
+      flatrate: 지금 스트리밍 중
+      rent_or_buy: 대여 또는 구매 가능
+      summary_sentence: "%{service_name}의 %{available_snippet}"
+    description: JustWatch를 사용하면 좋아하는 영화 및 TV 프로그램을 온라인에서 합법적으로 시청할 수 있는 곳을 쉽게 찾을 수 있습니다. 자세한 내용은 {justwatch_link}를 참조하세요.
     filters:
       4k: 4K
-      best_price:
+      best_price: 최저 가격
       bluray: 블루레이
       dvd: DVD
       dvd_bluray: DVD/Blu-ray
@@ -4089,12 +4097,12 @@ ko-KR:
       hd:
       none:
       sd:
-    page_title:
+    page_title: 어디에서 %{media_name} 시청할 수 있나요?
     seasons:
       many: "%{count} 시즌"
       other: "%{count} 시즌"
-    view_offers:
-    watch_now:
+    view_offers: 혜택 보기
+    watch_now: 시청하기
     watch_on:
       ads:
       buy:
@@ -4198,27 +4206,27 @@ ko-KR:
       page_title:
       summary_text: 회원님께선 <strong>위험 구역</strong>에 진입하셨습니다! 정말로 계정 삭제를 원하신다면, 하단에 비밀번호를 입력해주십시오.
     import_list:
-      import_button: 가져오기
-      import_list: 가져오기 목록
-      import_status:
+      import_button: 불러오기
+      import_list: 목록 불러오기
+      import_status: 불러오기 상태
       navigation:
         import: 불러오기
-        previous: '이전 '
+        previous: 이전 불러오기
       notification:
         finished_import: 불러오기 완료!
         started_import: 불러오기 시작
-      page_title:
+      page_title: 불러오기 목록
       previous:
         date: 일자
-        imported: 가져오기
+        imported: 불러오기
         items: 항목
-        local_list: 가져오기 제목
-        no_imports: 가져온 목록 없음
-        page_title:
+        local_list: 불러오기 제목
+        no_imports: 불러온 목록 없음
+        page_title: 나의 이전 불러오기
         type: 종류
       results:
         complete:
-          imported:
+          imported: 불러왔나요?
           item:
           item_reasons:
             already_imported:
@@ -4254,7 +4262,7 @@ ko-KR:
       settings: 설정
       sharing_settings: 공유 설정
       social_settings: SNS 설정
-      streaming_services:
+      streaming_services: 스트리밍 서비스
     notifications:
       api_updates:
       email_new_releases_watchlist: 보고싶어요한 작품들의 개봉/방영 소식을 받으시겠습니까?
@@ -4354,7 +4362,7 @@ ko-KR:
       social_settings: SNS 설정
       supported_template_values:
     streaming_services:
-      page_title:
+      page_title: 나의 스트리밍 서비스
       streaming_services: 스트리밍 서비스
   sign_up:
     benefits:
@@ -4396,9 +4404,9 @@ ko-KR:
       short: "%d %b %I:%M %p"
     pm: 오후
     units:
-      hours:
-      minutes:
-      seconds:
+      hours: 시
+      minutes: 분
+      seconds: 초
   top_contributors: 우수 기여자
   translation: 번역
   upload_backdrop: 배경 업로드
@@ -4408,8 +4416,8 @@ ko-KR:
   upload_title_logo:
   used_by_developers:
   vibes:
-    done:
-    login:
+    done: 완료
+    login: 로그인하여 TMDB의 새로운 등급 시스템을 이용하세요.
     mood:
       label:
       moods:
@@ -4463,7 +4471,7 @@ ko-KR:
     official_channel: 공식채널
     page_title: "%{name} 영상 채널"
     popular: 인기있는
-    refresh_from_youtube:
+    refresh_from_youtube: 유튜브에서 새로고침
     types:
       Behind the Scenes: 비하인드 영상
       Blooper: NG 영상
