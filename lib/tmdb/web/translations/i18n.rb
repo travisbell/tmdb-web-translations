@@ -1,4 +1,3 @@
-# encoding: utf-8
 # frozen_string_literal: true
 
 module TMDb
@@ -11,12 +10,13 @@ module TMDb
         'el' => 'el-GR', 'en' => 'en-US', 'eo' => 'eo-EO', 'es' => 'es-ES', 'et' => 'et-EE', 'eu' => 'eu-ES',
         'fa' => 'fa-IR', 'fi' => 'fi-FI', 'fr' => 'fr-FR', 'ga' => 'ga-IE', 'gd' => 'gd-GB', 'gl' => 'gl-ES',
         'he' => 'he-IL', 'hi' => 'hi-IN', 'hr' => 'hr-HR', 'hu' => 'hu-HU', 'id' => 'id-ID', 'it' => 'it-IT',
-        'ja' => 'ja-JP', 'ka' => 'ka-GE', 'kk' => 'kk-KZ', 'kn' => 'kn-IN', 'ko' => 'ko-KR', 'ky' => 'ky-KG',
-        'lt' => 'lt-LT', 'lv' => 'lv-LV', 'ml' => 'ml-IN', 'mr' => 'mr-IN', 'ms' => 'ms-MY', 'nb' => 'nb-NO',
-        'nl' => 'nl-NL', 'no' => 'no-NO', 'pa' => 'pa-IN', 'pl' => 'pl-PL', 'pt' => 'pt-PT', 'ro' => 'ro-RO',
-        'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK', 'sl' => 'sl-SI', 'sq' => 'sq-AL', 'sr' => 'sr-RS',
-        'sv' => 'sv-SE', 'sw' => 'sw-TZ', 'ta' => 'ta-IN', 'te' => 'te-IN', 'tl' => 'tl-PH', 'th' => 'th-TH',
-        'tr' => 'tr-TR', 'uk' => 'uk-UA', 'ur' => 'ur-PK', 'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
+        'ja' => 'ja-JP', 'ka' => 'ka-GE', 'kk' => 'kk-KZ', 'kn' => 'kn-IN', 'ko' => 'ko-KR', 'ku' => 'ku-TR',
+        'ky' => 'ky-KG', 'lt' => 'lt-LT', 'lv' => 'lv-LV', 'ml' => 'ml-IN', 'mr' => 'mr-IN', 'ms' => 'ms-MY',
+        'nb' => 'nb-NO', 'nl' => 'nl-NL', 'no' => 'no-NO', 'pa' => 'pa-IN', 'pl' => 'pl-PL', 'pt' => 'pt-PT',
+        'ro' => 'ro-RO', 'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK', 'sl' => 'sl-SI', 'so' => 'so-SO',
+        'sq' => 'sq-AL', 'sr' => 'sr-RS', 'sv' => 'sv-SE', 'sw' => 'sw-TZ', 'ta' => 'ta-IN', 'te' => 'te-IN',
+        'tl' => 'tl-PH', 'th' => 'th-TH', 'tr' => 'tr-TR', 'uk' => 'uk-UA', 'ur' => 'ur-PK', 'uz' => 'uz-UZ',
+        'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
       }.freeze
 
       DEFAULT_COUNTRY_MAPPING = {
@@ -86,6 +86,14 @@ module TMDb
         "ar",
         "fa",
         "he"
+      ].freeze
+
+      SUPPORTED_UI_LANGUAGES = %w[
+        en-US af-ZA ar-EG ar-SA be-BY bg-BG bn-BD ca-AD ca-ES cs-CZ da-DK de-DE el-GR en-AU en-CA
+        en-GB es-AR es-ES es-MX eu-ES fa-IR fi-FI fr-CA fr-FR gl-ES he-IL hi-IN hr-HR hu-HU id-ID
+        it-IT ja-JP ka-GE kk-KZ kn-IN ko-KR ku-TR lt-LT lv-LV ml-IN nb-NO nl-BE nl-NL no-NO pl-PL
+        pt-BR pt-PT ro-RO ru-RU sk-SK sl-SI so-SO sq-AL sr-RS sv-SE ta-IN te-IN th-TH tr-TR uk-UA
+        uz-UZ vi-VN zh-CN zh-HK zh-SG zh-TW
       ].freeze
 
       def self.country_path
@@ -181,10 +189,15 @@ module TMDb
         @supported_iso_639_1_path ||= TMDb::Web::Translations.supported_iso_639_1.map { |iso| "/#{iso}" }.freeze
       end
 
+      def self.supported_ui_languages
+        @supported_ui_languages ||= SUPPORTED_UI_LANGUAGES.each_with_object({}) do |i18n, hash|
+          hash[i18n] = TMDb::Web::Translations.default_iso_3166_1_mapping[i18n]
+        end
+      end
+
       def self.transliteration_path
         File.dirname(__FILE__) + "/../../../../transliteration"
       end
-
     end
   end
 end
