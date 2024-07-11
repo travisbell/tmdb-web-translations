@@ -30,7 +30,7 @@ nl-NL:
   Add Headshot: Portret toevoegen
   Add Item: Item toevoegen
   Add Missing Cast & Crew: Ontbrekende cast- en crewleden toevoegen
-  Add Network: Omroep toevoegen
+  Add Network: Netwerk toevoegen
   Add New Episode: Nieuwe aflevering toevoegen
   Add New Movie: Nieuwe film toevoegen
   Add New Release: Nieuwe uitgave toevoegen
@@ -227,7 +227,7 @@ nl-NL:
   Include Adult Items in Search?: Pornografische items weergeven tijdens zoeken?
   Incorrect Content: Onjuiste inhoud
   Info: Informatie
-  Job: Taak
+  Job: Functie
   Join the Community: Deelnemen aan de gemeenschap
   Joined in: Lid geworden in
   Keyword: Trefwoord
@@ -281,8 +281,8 @@ nl-NL:
   Movie Watchlist: Film-watchlist
   Movies: Films
   Name: Naam
-  Network: Omroep
-  Networks: Omroepen
+  Network: Netwerk
+  Networks: Netwerken
   New: Nieuw
   New episode airs in: Nieuwe aflevering wordt uitgezonden over
   'No': Nee
@@ -1832,6 +1832,7 @@ nl-NL:
       title_z_a: Titel (Z-A)
     tooltips:
       not_member:
+      options:
       signup:
       want_to_rate:
   discussions:
@@ -2137,7 +2138,7 @@ nl-NL:
       duplicate_created_by: Deze persoon is al toegevoegd als maker.
       duplicate_crew_member: Deze persoon is al toegevoegd als %{job_name}.
       duplicate_episode: Deze aflevering bestaat al.
-      duplicate_guest_star: Deze gastacteur bestaat al.
+      duplicate_guest_star: Deze gastrol bestaat al.
       duplicate_regular_season_member: Deze persoon is al toegevoegd als terugkerend castlid.
       duplicate_season: Dit seizoen bestaat al.
       duplicate_season_episode_cast_member:
@@ -2249,15 +2250,15 @@ nl-NL:
       posters_must_meet: 'Posters moeten aan de volgende criteria voldoen:'
       profile_must_meet: 'Profielafbeeldingen moeten aan de volgende criteria voldoen:'
       read_guidelines: Zorg ervoor dat je onze bijgewerkte <a href="%{link}" target="_blank" rel="noopener">richtlijnen voor het bijdragen van afbeeldingen</a> doorneemt.
-      tip: Als je browsers dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
+      tip: Als je browser dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
     uploader:
       aspect_ratio: Beeldverhouding van %{ratio}
       aspect_ratio_both: Beeldverhouding van %{ratio_first} of %{ratio_second}
-      file_type:
+      file_type: Bestandstype %{file_type}
       max_res: Een maximale resolutie van %{res}
       min_res: Een minimale resolutie van %{res}
       read_guidelines: Zorg ervoor dat je onze bijgewerkte <a href="%{link}" target="_blank" rel="noopener">richtlijnen voor het bijdragen van afbeeldingen</a> doorneemt.
-      tip: Als je browsers dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
+      tip: Als je browser dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
       type_backdrops: Achtergronden
       type_episode_stills: Afleveringsafbeeldingen
       type_headshots: Portretten
@@ -3480,16 +3481,16 @@ nl-NL:
   login_to_create: Film of tv-serie niet gevonden? Meld je aan om deze toe te voegen.
   login_to_edit: Log in om te bewerken
   media:
-    adult:
+    adult: Erotiek
     changes:
       filters:
-        clear: Leegmaken
+        clear: Wissen
         key: Toets
         language: Taal
         user: Gebruiker
       number_of_changes:
-        one: "%{count} Verandering"
-        other: "%{count} Veranderingen"
+        one: "%{count} wijziging"
+        other: "%{count} wijzigingen"
       view_weekly_leaderboard: Weekklassement weergeven
     character:
       edit:
@@ -3503,33 +3504,33 @@ nl-NL:
       parts: Delen
     company:
       headquarters: Hoofdkantoor
-      movie_page_title: Door %{name} geproduceerde films
-      tv_page_title: Door %{name} geproduceerde tv-series
+      movie_page_title: Films geproduceerd door %{name}
+      tv_page_title: TV-series geproduceerd door %{name}
     content_score:
       helper_tooltip: De inhoudsscore helpt je te achterhalen hoe volledig de gegevens zijn voor een film, serie, persoon etc.
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
-          cast_min_4:
+          air_date: Uitzenddatum
+          backdrop: Achtergrond
+          biography: Biografie
+          cast_min_4: Cast (4 of meer)
           created_by: Gemaakt door credit
-          credits:
-          crew_min_2:
-          director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
-          parts:
-          poster:
-          profile:
-          regular_cast_min_4:
+          credits: Een film of tv credit
+          crew_min_2: Crew (2 of meer credits)
+          director: Regisseur
+          episode: Aflevering (1 of meer)
+          genres: Genres
+          guest_stars_min_2: Gastrollen (2 of meer)
+          name: Vertaalde naam
+          overview: Omschrijving
+          parts: Delen (1 of meer)
+          poster: Poster
+          profile: Profielafbeelding
+          regular_cast_min_4: Vaste castleden (4 of meer)
           release_date: Verschijningsdatum
-          title:
-          video:
-          writer:
+          title: Vertaalde titel
+          video: Video
+          writer: Schrijver
         summary:
       scale:
         '0': We moeten ergens beginnen...
@@ -3545,17 +3546,17 @@ nl-NL:
         '9': Bijna klaar...
     edit:
       alternative_title:
-        lock_existing: Bestaande titles vergrendelen
+        lock_existing: Huidige titles vergrendelen
         locked: Deze titel is vergrendeld.
-      cast_updated:
+      cast_updated: Cast bijgewerkt
       delete_all_appearances:
-      genres_updated:
+      genres_updated: Genres bijgewerkt
       lock_all_appearances:
       lock_all_cast_crew_description:
       lock_all_fields: Alle velden vergrendelen
       lock_all_images: Alle afbeeldingen vergrendelen
-      lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_cast: Huidige cast vergrendelen
+      lock_existing_crew: Huidige crew vergrendelen
       logos: Logo's
       page_title: "%{name} bewerken"
       placeholders:
@@ -3564,20 +3565,20 @@ nl-NL:
           click_to_create: Klik om %{name} aan te maken
           create_it: Aanmaken...
         genres: Selecteer een genre...
-        job: Selecteer een taak...
+        job: Selecteer een functie...
         keywords: Selecteer een trefwoord...
         networks: Zoek naar een netwerk...
         person: Zoek naar een persoon...
         production_companies: Zoek naar een productiebedrijf...
       release_date:
         locked: Deze verschijningsdatum is vergrendeld.
-      success_fields_locked: Velden zijn vergrendeld.
+      success_fields_locked: Velden vergrendeld.
       tagline:
         add_tagline: Slagzin toevoegen
         already_exists: slagzin bestaat al
-        lock_existing: Bestaande slagzinnen vergrendelen
+        lock_existing: Huidige slagzinnen vergrendelen
         locked: Deze slagzin is vergrendeld
-        no_taglines:
+        no_taglines: Geen slagzinnen toegevoegd.
         not_found:
         primary: Primair
         taglines: Slagzinnen
@@ -3586,25 +3587,25 @@ nl-NL:
         adult:
         bible: " Klik op '?' om de bijdragebijbel te openen voor hulp bij het bewerken."
         character:
-        homepage: Alleen de officiële website; fansites zijn niet toegestaan.
+        homepage: Alleen de officiële website. Fansites zijn niet toegestaan.
         logo_format: SVG's en PNG's worden ondersteund. SVG's hebben de voorkeur omdat deze resolutie-onafhankelijk zijn.
         original_title: De originele titel moet in de originele taal worden ingevuld. In de meeste gevallen is dit dezelfde taal als ingevoerd bij "originele taal".
         overview: Als je een omschrijving schrijft, houd deze dan kort, to-the-point en zonder spoilers.
         social_links: Sociale links zijn alleen bedoeld voor officiële (geverifieerde) pagina's; fanpagina's zijn niet toegestaan.
-      translation_already_exists:
+      translation_already_exists: De %{language} vertaling bestaat al.
       translation_not_found:
       unlock_all_appearances:
-      upload_logo: Upload een logo
+      upload_logo: Logo uploaden
       videos:
         locked: Deze video is vergrendeld.
     external_links:
-      visit_facebook: Bezoek Facebook
-      visit_homepage: Bezoek homepage
-      visit_instagram: Bezoek Instagram
-      visit_justwatch:
-      visit_tiktok:
-      visit_twitter: Bezoek Twitter
-      visit_youtube:
+      visit_facebook: Facebook bezoeken
+      visit_homepage: Homepage bezoeken
+      visit_instagram: Instagram bezoeken
+      visit_justwatch: JustWatch bezoeken
+      visit_tiktok: TikTok bezoeken
+      visit_twitter: Twitter bezoeken
+      visit_youtube: YouTube bezoeken
     genre:
       movie_page_title: "%{name} films"
       tv_page_title: "%{name} tv-series"
@@ -3630,7 +3631,7 @@ nl-NL:
           no_records: Er zijn geen alternatieve titels toegevoegd.
         cast:
           no_records: Er zijn geen castleden toegevoegd.
-          person_required:
+          person_required: Eén persoon is vereist.
         confirm_collection: |-
           <p>Collecties zijn een handige manier om (film)series te groeperen op TMDB. Hoewel soms gezegd wordt dat het controversieel is, zijn collecties niet bedoeld om films uit hetzelfde "universum" te groeperen. Voor dat laatste kun je <a href="%{list_link}" target="_blank" rel="noopener">een lijst creëren</a>. Bekijk, voor meer informatie over collecties, <a href="%{docs_link}" target="_blank" rel="noopener">onze documentatie</a>.</p>
 
@@ -3640,7 +3641,7 @@ nl-NL:
 
           <p>Als deze inhoud bijv. een compilatie-DVD, fitnessvideo of een "best of"-DVD, dan moet je het markeren als video.</p>
         crew:
-          job_required: Een taak is vereist
+          job_required: Een functie is vereist
           no_records: Er zijn geen crewleden toegevoegd.
           person_required: Een persoon is vereist
         genres:
@@ -3650,7 +3651,7 @@ nl-NL:
           add_keyword: Trefwoord toevoegen
           create: Aanmaken
           no_records: Er zijn geen trefwoorden toegevoegd.
-          none_found: Geen overeenkomende trefwoorden gevonden. Wil je er één creëren?
+          none_found: Geen overeenkomende trefwoorden gevonden. Aanmaken?
           tip: Houdt als algemene richtlijn aan dat je dingen toevoegt die de moraal, algemene thema's en stemmingen omschrijven.
         production_information:
           add_production_company: Productiebedrijf toevoegen
@@ -3665,7 +3666,7 @@ nl-NL:
         Canceled: Geannuleerd
         In Production: In productie
         Planned: Gepland
-        Post Production: Na-productie
+        Post Production: Postproductie
         Released: Uitgebracht
         Rumored: Gespeculeerd
     network:
@@ -3701,26 +3702,26 @@ nl-NL:
         blank_translated_name:
         confirm_primary_translation:
         errors:
-          invalid_unicode:
+          invalid_unicode: Ongeldig(e) teken(s) gebruikt.
           leading_whitespace:
           locked_name: "<strong>%{name} (%{language})</strong> is vergrendeld."
           name_required:
           numbers:
           primary_name_migration:
-          primary_translation:
-          special_characters:
+          primary_translation: vertaling bestaat al.
+          special_characters: Ongeldig(e) teken(s) gebruikt.
           trailing_whitespace:
         migration_success:
         move_name:
         move_name_tooltip:
-        primary_translation:
+        primary_translation: Primaire vertaling
         translated_name_tooltip:
       gender:
         female: Vrouw
         male: Man
-        non_binary:
+        non_binary: Non-binair
       media_types:
-        all:
+        all: Alles
         movies: Films
         tv: TV
         tv_shows: TV-series
@@ -3738,30 +3739,30 @@ nl-NL:
       score_history:
       score_trend:
     shortcut_bar:
-      alternative_titles:
+      alternative_titles: Alternatieve titels
       backdrops: Achtergronden
-      cast_crew:
+      cast_crew: Cast & crew
       changes: Wijzigingen
-      characters:
-      episodes:
-      fandom:
+      characters: Karakters
+      episodes: Afleveringen
+      fandom: Fandom
       headshots: Portretten
-      logos:
+      logos: Logo's
       main: Overzichtspagina
-      media:
-      overview:
+      media: Media
+      overview: Overzicht
       posters: Posters
       profiles: Profielen
       release_dates: Verschijningsdatums
       reviews: Recensies
-      seasons:
-      translations:
+      seasons: Seizoenen
+      translations: Vertalingen
       videos: Video's
     social_panel:
       discussions:
         currently_subscribed: Je bent momenteel geabonneerd; je ontvangt een melding zodra iemand het eerste bericht creëert.
         no_discussions: Er zijn geen discussies voor %{item_title}. Log in om een discussie te starten!
-        unsubscribe_me: De-abonneren.
+        unsubscribe_me: Afmelden.
         want_to_be_notified: Wil je een melding krijgen zodra iemand het eerste bericht plaatst?
         yes_notify_me: Ja, meld het me!
       reviews:
@@ -3775,24 +3776,24 @@ nl-NL:
         read_the_rest: lees de rest.
         write_review:
           logged_in: Recensie schrijven
-          public: Log in om een recensie te schrijven.
+          public: Meld je aan om een recensie te schrijven.
     translations:
-      add_biography:
-      add_homepage:
-      add_name:
-      add_overview:
-      add_runtime:
+      add_biography: Biografie toevoegen
+      add_homepage: Homepage toevoegen
+      add_name: Naam toevoegen
+      add_overview: Omschrijving toevoegen
+      add_runtime: Looptijd toevoegen
       add_tagline: Slagzin toevoegen
-      add_title:
-      biography:
-      name:
-      overview:
+      add_title: Titel toevoegen
+      biography: Biografie
+      name: Naam
+      overview: Omschrijving
       taglines: Slagzinnen
-      title:
+      title: Titel
     tv_episode:
       edit:
         episode_type_confirm:
-        episode_type_label:
+        episode_type_label: Afleveringstype
         episode_types:
           finale: Seizoensfinale
           mid_season:
@@ -3817,9 +3818,9 @@ nl-NL:
           no_records: Er zijn geen afleveringen toegevoegd.
         runtime_varies_check:
         screened_confirm: Als dit seizoen vertoond is op een filmfestival of in een theater, klik dan op 'Ja' om door te gaan.
-        screened_label: Is dit seizoen vertoond in een theater?
-      season_cast:
-      season_crew:
+        screened_label: Is dit seizoen vertoond in een bioscoop?
+      season_cast: Seizoenscast
+      season_crew: Seizoenscrew
       season_selector:
         current_season: Huidig seizoen
         last_season: Afgelopen seizoen
@@ -3884,9 +3885,9 @@ nl-NL:
       networks:
         one: Netwerk
         other: Netwerken
-      primary_characters:
+      primary_characters: Primaire personages
       series_cast: Seriecast
-      series_crew:
+      series_crew: Seriecrew
       statuses:
         Canceled: Geannuleerd
         Ended: Afgelopen
@@ -3907,13 +3908,13 @@ nl-NL:
       audio_language: Gesproken taal
       channel: Kanaal
       duration: Duur
-      play_behind_the_scenes:
-      play_blooper:
-      play_clip:
-      play_featurette:
-      play_opening_credits:
-      play_recap:
-      play_teaser:
+      play_behind_the_scenes: Achter de schermen afspelen
+      play_blooper: Blooper afspelen
+      play_clip: Fragment afspelen
+      play_featurette: Featurette afspelen
+      play_opening_credits: Intro afspelen
+      play_recap: Samenvatting afspelen
+      play_teaser: Voorproefje afspelen
       play_trailer: Trailer afspelen
       published: Gepubliceerd
       published_at: Gepubliceerd op
@@ -4473,7 +4474,7 @@ nl-NL:
     done: Klaar
     login:
     mood:
-      label:
+      label: Stemming
       moods:
         afraid:
         angry:
@@ -4500,17 +4501,19 @@ nl-NL:
         '80':
         '90':
     tone:
-      label:
-      no_results:
+      label: Toon
+      no_results: Toon bestaat niet.
       prompt:
         movie: Deze film was...
-        tv: De TV-serie was...
-      select:
+        tv: Deze TV-serie was...
+      select: Selecteer een toon...
     welcome:
     whats_new:
-    whats_your_vibe:
+    whats_your_vibe: Wat is jouw <span class="%{style}">vibe</span>?
     your_vibe:
-    your_vibes:
+      one: Je vibe
+      other: Je vibes
+    your_vibes: Je vibes
   videos:
     filters:
       language: Taal
@@ -4534,7 +4537,7 @@ nl-NL:
       Clips: Fragmenten
       Featurette: Featurette
       Featurettes: Featurettes
-      Opening Credits: Leader
+      Opening Credits: Intro
       Recap: Samenvatting
       Recaps: Samenvattingen
       Teaser: Voorproefje

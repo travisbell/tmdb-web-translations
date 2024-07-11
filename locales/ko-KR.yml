@@ -27,7 +27,7 @@ ko-KR:
   Add Content Rating: 내용 등급 추가
   Add Creator: 제작자 추가
   Add Data & Content: 날짜 및 내용 추가
-  Add Headshot:
+  Add Headshot: 얼굴사진 추가
   Add Item: 아이템 추가
   Add Missing Cast & Crew: 누락된 출연진 & 제작진 추가하기
   Add Network: 방송사 추가
@@ -65,7 +65,7 @@ ko-KR:
   Apiary Documentation: API 개발문서
   App Directory: '앱 디렉토리 '
   App Showcase: 앱 쇼케이스
-  Appearances:
+  Appearances: 외모
   Application Description: 어플리케이션 소개
   Application Name: 어플리케이션 이름
   Application Summary: 어플리케이션 개요
@@ -77,7 +77,7 @@ ko-KR:
   Are you sure?: 확실합니까?
   Attributes: 속성
   Auto: 자동
-  Awards:
+  Awards: 수상 내역
   Back to top: 맨 위로
   Backdrop Card View: 배경 카드 보기
   Bad Image: 잘못된 이미지
@@ -731,7 +731,7 @@ ko-KR:
     tv_series_status: TV 시리즈 상태
   average edits per day: 일 평균 편집수
   awards:
-    add_nomination:
+    add_nomination: 노미네이션 추가
     air_date:
       future:
       past:
@@ -1730,8 +1730,8 @@ ko-KR:
     filters:
       air_dates:
         air_dates: 방영일자
-        search_all_episodes:
-        search_first_air_date:
+        search_all_episodes: 모든 에피소드를 검색하시겠습니까?
+        search_first_air_date: 첫 방송일을 검색하시겠습니까?
       availability:
         availabilities:
         search_all_availabilities:
@@ -1745,11 +1745,11 @@ ko-KR:
       language:
         language: 언어
         tooltip:
-      minimum_user_votes:
+      minimum_user_votes: 최소 사용자 투표수
       network:
         filter_by_network:
         network: 방송사
-      none_selected:
+      none_selected: 선택항목 없음
       release_dates:
         from:
         release_dates:
@@ -1768,7 +1768,7 @@ ko-KR:
       sort:
         sort_results_by: '결과 정렬 기준 '
       user_score:
-        user_score:
+        user_score: 사용자 점수
       where_to_watch:
         country:
         my_services:
@@ -1778,7 +1778,7 @@ ko-KR:
         where_to_watch:
       years:
         years:
-    no_items:
+    no_items: 검색어와 일치하는 항목을 찾을 수 없습니다.
     search: 검색
     sort_options:
       first_air_date_asc: 첫 방송일 오름차순
@@ -1799,6 +1799,7 @@ ko-KR:
       title_z_a: 제목 (Z-A)
     tooltips:
       not_member:
+      options:
       signup:
       want_to_rate:
   discussions:
@@ -3941,7 +3942,7 @@ ko-KR:
       movies: 영화
       tv_shows: TV 프로그램
     more:
-      more: 다음
+      more: More
     movies:
       now_playing: 현재 상영 중
       popular: 인기
@@ -4173,23 +4174,23 @@ ko-KR:
       reset_password_text: TMDB 계정에 가입할 때 사용한 이메일을 입력하면 비밀번호 재설정에 필요한 단계를 보내드립니다.
     api:
       api: API
-      create_page_title:
+      create_page_title: 새 API Key 만들기
       directory:
-        page_title:
+        page_title: 나의 앱 디렉토리
       navigation:
         create: 생성
-        details:
-        directory:
-        overview:
+        details: 상세정보
+        directory: 디렉토리
+        overview: 요약
         regenerate:
-          confirm_text:
-          regenerate_key:
-          summary_text:
-        sessions:
-        stats:
-      page_title:
-      session_page_title:
-      stats_page_title:
+          confirm_text: 기존 API 키가 <strong>비활성화</strong>되고 새 키가 다시 생성됩니다. 이 작업은 되돌릴 수 없습니다. <strong>30초</strong> 동안 확인 후 비밀번호를 다시 입력해야 합니다.
+          regenerate_key: Key 재생성
+          summary_text: 방금 <strong>위험 구역</strong>에 들어왔습니다! 계속 진행하여 API 키를 새로 고치려면 아래에 비밀번호를 입력하고 메시지가 표시되면 이를 확인하면 됩니다.
+        sessions: 세션
+        stats: 상태
+      page_title: 나의 API 설정
+      session_page_title: 나의 API 세션
+      stats_page_title: 나의 API 상태
     blocked_users:
       action: 실행
       blocked_users: 차단한 사용자
@@ -4247,7 +4248,7 @@ ko-KR:
       type:
         favorite: 선호
         rated: 평가
-        watchlist: 보고싶어요
+        watchlist: 관심목록
       which_list: 어떤 목록을 가져오시겠습니까?
     navigation:
       account_settings: 계정 설정
@@ -4258,7 +4259,7 @@ ko-KR:
       edit_profile: 프로필 편집
       import_list:
       notification_settings: 알람 설정
-      sessions:
+      sessions: 세션
       settings: 설정
       sharing_settings: 공유 설정
       social_settings: SNS 설정
@@ -4309,29 +4310,29 @@ ko-KR:
         connected_apps: 연결된 앱
         listed_below_explanation: 사용자를 대신하여 데이터를 쓸 수있는 권한을 부여받은 타사 응용 프로그램입니다. 권한 부여는 언제든지 취소 할 수 있습니다.
         no_apps: 연결된 앱이 없습니다.
-        page_title:
+        page_title: 나의 연결된 앱
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: 이 세션을 취소하면 이 애플리케이션에서 TMDB를 계속 사용할 수 없게 됩니다. 물론 언제든지 새 세션을 만들 수 있습니다.
+          confirm_title: 세션을 취소할까요?
         table:
-          action:
-          application_name: 어플리케이션 명칭
-          date_authorised: 허가 일자
+          action: 동작
+          application_name: 어플리케이션 이름
+          date_authorised: 인증 일자
       navigation:
         api: API
-        web:
-      page_title:
-      sessions:
+        web: Web
+      page_title: 나의 세션
+      sessions: 세션
       web:
-        current_session:
+        current_session: 현재 세션
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: 네, 삭제합니다!
+          dialog_text: 이 세션을 삭제하시겠습니까? 선택한 세션이 현재 세션인 경우 이 작업을 수행하면 로그아웃됩니다.
+          dialog_title: 세션을 삭제할까요?
         table:
-          date:
-          device:
-          ip:
+          date: 날짜
+          device: 장비
+          ip: IP 주소
     sharing:
       favorite_list:
         favorite_settings: 선호 목록 설정
