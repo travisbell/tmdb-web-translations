@@ -38,7 +38,7 @@ module TMDb
         "HO"=>"ho-HO", "HR"=>"hr-HR", "HT"=>"ht-HT", "HU"=>"hu-HU", "HY"=>"hy-HY", "HZ"=>"hz-HZ", "IA"=>"ia-IA",
         "ID"=>"id-ID", "IG"=>"ig-IG", "II"=>"ii-II", "IK"=>"ik-IK", "IO"=>"io-IO", "IS"=>"is-IS", "VA"=>"it-VA",
         "IT"=>"it-IT", "IU"=>"iu-IU", "JP"=>"ja-JP", "JV"=>"jv-JV", "GE"=>"ka-GE", "KG"=>"kg-KG", "KI"=>"ki-KI",
-        "KJ"=>"kj-KJ", "KZ"=>"kk-KZ", "KL"=>"kl-KL", "KM"=>"km-KM", "KR"=>"ko-KR", "KS"=>"ks-KS", "KU"=>"ku-KU",
+        "KJ"=>"kj-KJ", "KZ"=>"kk-KZ", "KL"=>"kl-KL", "KM"=>"km-KM", "KR"=>"ko-KR", "KS"=>"ks-KS", "KU"=>"ku-TR",
         "KV"=>"kv-KV", "KW"=>"kw-KW", "LA"=>"la-LA", "LB"=>"lb-LB", "LG"=>"lg-LG", "LI"=>"li-LI", "LN"=>"ln-LN",
         "LO"=>"lo-LO", "LT"=>"lt-LT", "LU"=>"lu-LU", "LV"=>"lv-LV", "MG"=>"mg-MG", "MH"=>"mh-MH", "MI"=>"mi-MI",
         "MK"=>"mk-MK", "MN"=>"mn-MN", "MO"=>"mo-MO", "SG"=>"ms-SG", "MY"=>"ms-MY", "MT"=>"mt-MT", "NA"=>"na-NA",

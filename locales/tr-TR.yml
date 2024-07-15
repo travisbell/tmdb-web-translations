@@ -33,7 +33,7 @@ tr-TR:
   Add Network: Kanal Ekle
   Add New Episode: Yeni Bölüm Ekle
   Add New Movie: Yeni Film Ekle
-  Add New Release: Yeni Yayınlama Ekle
+  Add New Release: Yeni Gösterim Ekle
   Add New Season: Yeni Sezon Ekle
   Add New TV Show: Yeni Dizi Ekle
   Add Poster: Filim Posteri Ekle
@@ -480,7 +480,7 @@ tr-TR:
   View All Seasons: Tüm Sezonları Görüntüle
   View All Videos: Tüm Videoları Göster
   View Discussions: Tartışmaları Görüntüle
-  View Edit History: Düzenleme Geçmişini Görüntüle
+  View Edit History: Düzenleme Geçmişini Göster
   View Episodes: Bölümleri göster
   View More: Devamını Göster
   View Original: Gerçek boyutta görüntüle
@@ -540,7 +540,7 @@ tr-TR:
     discussions:
       my_active_boards: Aktif Konularım
       my_discussions: Tartışmalarım
-      not_watching: Hiçbir tartışmaya katılmıyorsununuz
+      not_watching: Hiçbir tartışmaya katılmıyorsunuz.
       page_title:
         page_owner: Tartışmalarım
         public: "%{username}'nin Tartışmaları"
@@ -551,9 +551,9 @@ tr-TR:
         filters:
           status:
             Bounce: Ulaşmadan Geri Döndü
-            Complaint: Şikayet
+            Complaint: Şikâyet
             Delivery: İletildi
-            Unsubscribed: Abonelik İptal
+            Unsubscribed: Abonelikten çıkıldı
             status: Durum
         number_of_items:
           one: "%{count} E-Posta"
@@ -574,7 +574,7 @@ tr-TR:
           other: "%{count} Bildirim"
       page_title:
         recent_events: Son Olaylar
-      recent: Yeni
+      recent: Son Bildirimler
     export:
       csv_explanation: Eğer bu listenin bir kopyasını CSV olarak dışarı aktarmak istiyorsanız, aşağıdaki "Dışarı aktar" butonuna basın. Aktarmayı gerçekleştireceğiz ve e-mail yoluyla size göndereceğiz. Listenizin boyutuna bağlı olarak, tamamlanması birkaç dakikayı bulabilir.
       export: Dışarı Aktar
@@ -661,7 +661,7 @@ tr-TR:
       ratings_by_year: Yıllara Göre Puanlar
     recommendations:
       my_recommendations: Önerilerim
-      no_recommendations: Önerileri önerecek yeterli veriye sahip değiliz.
+      no_recommendations: Herhangi bir öneride bulunmak için yeterli veriye sahip değiliz.
       no_recommendations_helper: Bir kaç daha fazla favoriyi (daha iyi olanı) eklemeyi deneyin ve nasıl yaptığımızı görmek için geri dönün.
       no_recommendations_helper_2: Birkaç filmi ve TV şovunu daha puanlamayı deneyin (ne kadar çok olursa o kadar iyi) ve sonra neler yapabileceğimizi görmemiz için bize birkaç saat verin. Siz daha fazla içerik izleyip puanladıkça bu öneriler güncellenecektir.
       page_title: Öneriler
@@ -684,10 +684,10 @@ tr-TR:
         other: Takip listenizde yaklaşan TV şovları yok. Ancak, izleme listenizde %{count} öğe var.
       page_title:
         page_owner: Takip Ettiklerim Listesi
-        public: "%{username} 'nin İzleme Listesi"
+        public: "%{username}'nin İzleme Listesi"
       this_month: Bu Ay
       this_week: Bu Hafta
-      view_them: Onları görüntüle.
+      view_them: Onları göster.
   add_to_list: Listenize %{media_title} ekleyin...
   already_translated_in: "%{page_title} halihazırda aşağıdaki dillere çevrilmiştir..."
   api_session:
@@ -1676,7 +1676,7 @@ tr-TR:
       full_month_day: "%B %e, %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
-    month_names: '["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
+    month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
   deleted_content:
@@ -1686,26 +1686,26 @@ tr-TR:
         message: |-
           Merhaba,
 
-          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten veritabanımızda mevcuttu ve bu nedenle bir kopya olarak kabul edildi.
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten veri tabanımızda mevcuttu ve bu nedenle bir kopya olarak kabul edildi.
 
           Bu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin.
         subject: Bu bir mükerrer girdi
       '2':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
         subject: Bu, içerik kurallarımıza uymuyor (amatör, vb ...)
       '3':
         message: |-
           Merhaba,
 
-          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten bir TV dizisi olarak var ve geçerli bir film olarak görünmemekte. İçerik yönergelerimiz hakkında daha fazla bilgiyi [buradam](https://www.themoviedb.org/bible/new_content) edinebilirsiniz.
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık zaten bir TV dizisi olarak var ve geçerli bir film olarak görünmemekte. İçerik yönergelerimiz hakkında daha fazla bilgiyi [buradan](https://www.themoviedb.org/bible/new_content) edinebilirsiniz.
 
           Bu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin.
         subject: Bu bir TV dizisi.
       '4':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
         subject: Bu sahte bir girdi.
       '5':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [new content guidelines](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nBu silme işlemi hakkında sorularınız varsa, bu iletiyi yanıtlamaktan çekinmeyin."
         subject: Bu bir spam.
     why_deleting: Bu girdiyi neden siliyorsunuz?
   department_credits_count:
@@ -1850,7 +1850,7 @@ tr-TR:
       discuss_item: "%{item_title} girdisini tartış"
       lets_chat: Konuşalım
       support: Destek
-      support_title: Film Veritabanı Desteği
+      support_title: Film Veri Tabanı Desteği
     login_to_be_notified: İlk gönderiden haberdar olmak için giriş yap
     new_discussion:
       community_guidelines: Topluluk Rehberleri
@@ -1882,13 +1882,13 @@ tr-TR:
         ignore_user: Bu kullanıcıyı görmezden gelmek istediğinize emin misiniz? Tüm tartışmalar ve yorumlar kaybolacak. Bu bloğu, hesap ayarlarınızdaki "Engellenen Kullanıcılar" sayfasına giderek kaldırabilirsiniz.
         mark_as_not_spam: Bu tartışmayı spam değil, geçerli olarak işaretlemek istediğinizden emin misiniz?
         mark_as_spam: Bu tartışmayı spam olarak işaretlemek istediğinizden emin misiniz? Geri alınır ve geri alınamazsa otomatik olarak silinir. Tartışmaları spam olarak işaretlemek, kullandığımız spam algılama hizmetini eğitmeye yardımcı olur.
-        report_violation: Lütfen bu kullanıcıyı <a href="/documentation/community/guidelines" target="_blank" rel="noopener"> topluluk kurallarımızı </a> ihlal ettiği için bildirmek istediğinizi onaylayın.
+        report_violation: Lütfen bu kullanıcının <a href="/documentation/community/guidelines" target="_blank" rel="noopener"> topluluk kurallarımızı </a> ihlal ettiği için bildirmek istediğinizden emin olun.
         unhide_discussion: "'Evet'i tıkladığınızda, bu tartışma tekrar görünür hale getirilecek."
       posted_by_with_datetime: "%{time} tarihinde %{date} tarihinde %{username} tarafından gönderildi\n"
-      quote: Alıntı
+      quote: Alıntı Yap
       reopen_reply: Yeniden Aç ve Yanıtla
       reply: Cevapla
-      reply_by: Yanıtla %{username}
+      reply_by: "%{username} adlı kullanıcıyı yanıtla"
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Sorun Bildir
       unhide: Göster
@@ -3642,7 +3642,7 @@ tr-TR:
         Canceled: İptal Edildi
         In Production: Prodüksiyon Aşamasında
         Planned: Planlanmış
-        Post Production: Yapım sonrası
+        Post Production: Yapım Sonrasında
         Released: Yayınlandı
         Rumored: Söylenti
     network:
@@ -3888,7 +3888,7 @@ tr-TR:
       play_featurette: Özellik Oynat
       play_opening_credits: Açılış Jeneriği Oynat
       play_recap: Özeti Oynat
-      play_teaser: Tanıtımı Oynat
+      play_teaser: Ön Gösterimi Oynat
       play_trailer: Fragmanı Oynat
       published: Yayın Tarihi
       published_at: Yayınlanma Tarihi
@@ -4297,7 +4297,7 @@ tr-TR:
         use_gravatar: Gravatar Kullanılsın Mı?
       background:
         background_image: Arka Plan Görseli
-        confirm_remove: Lütfen arka plan görselinizi kaldırmak istediğinizi onaylayın. Emin misiniz?
+        confirm_remove: Lütfen arka plan görselinizi kaldırmak istediğinize emin misiniz?
         remove_background: Arka Plan Görselini kaldır?
         set_image: Bir arka plan görseli mi ayarlansın?
       change_password: Parolayı Değiştir
@@ -4494,13 +4494,13 @@ tr-TR:
       Bloopers: Komik Aksilikler
       Clip: Klip
       Clips: Klipler
-      Featurette: Tanıtım
+      Featurette: Sunuş
       Featurettes: Önce Çıkanlar
       Opening Credits: Açılış Jenerikleri
       Recap: Tekrar
       Recaps: Tekrarlar
-      Teaser: Tanıtım
-      Teasers: Tanıtımlar
+      Teaser: Ön Gösterim
+      Teasers: Ön Gösterimler
       Trailer: Fragman
       Trailers: Fragmanlar
     vimeo_channel: Vimeo Kanalı
