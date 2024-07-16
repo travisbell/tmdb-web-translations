@@ -193,7 +193,7 @@ ko-KR:
   Filter Profanity?: 비속어를 필터하시겠습니까?
   Filter by genre: 필터할 장르
   Filter by genres: 필터할 장르
-  Filter by keywords: 필터할 단어
+  Filter by keywords: 검색할 키워드
   First Air Date: 첫 방영일자
   First Name: 성을 제외한 이름
   Footnotes: 각주
@@ -222,7 +222,7 @@ ko-KR:
   IMDB ID: IMDB ID
   Images: 이미지
   Import CSV: CSV 불러오기
-  Import List: 목록 불러오기
+  Import List: 불러오기 목록
   In Theaters: 극장 상영 중
   Include Adult Items in Search?: 검색에 성인용을 포함 시키시겠습니까?
   Incorrect Content: 부적절한 내용
@@ -408,7 +408,7 @@ ko-KR:
   Source Key:
   Specials: 스페셜
   Spoken Languages: 구사된 언어
-  Stage Name: 예명
+  Stage Name: 활동명
   State:
   Stats: 통계
   Status: 상태
@@ -772,7 +772,7 @@ ko-KR:
     top: 맨 위로 돌아가기
   certifications:
     certification: 등급
-    descriptors:
+    descriptors: 설명
     meaning: 의미
     movies:
       AU:
@@ -1411,7 +1411,7 @@ ko-KR:
     era:
     error_while_submitting:
     failed_draft:
-    filter_subscribed_services:
+    filter_subscribed_services: 가입한 서비스별 필터링
     find_character:
     find_character_note:
     finished_selections:
@@ -1772,9 +1772,9 @@ ko-KR:
       where_to_watch:
         country:
         my_services:
-          my_services:
-          restrict:
-          restrict_tooltip:
+          my_services: 나의 스트리밍 서비스
+          restrict: 구독 중인 서비스만 선택할까요?
+          restrict_tooltip: 로그인하여 구독 중인 서비스를 관리하세요.
         where_to_watch:
       years:
         years:
@@ -1850,7 +1850,7 @@ ko-KR:
       lets_chat: 떠들어봅시다!
       support: 지원
       support_title: The Movie Database 지원
-    login_to_be_notified: 첫 게시글 알람을 받으려면 로그인 하십시오
+    login_to_be_notified: 첫 게시글 알림을 받으려면 로그인하세요
     new_discussion:
       community_guidelines: 커뮤니티 가이드라인
       discussion_category: 분류
@@ -3730,8 +3730,8 @@ ko-KR:
         currently_subscribed: 이제 다른 사용자가 첫 게시글을 작성 시 알림을 받을 수 있습니다.
         no_discussions: "%{item_title}에 관한 어떤 토론도 없습니다. 로그인 하셔서 첫 작성자가 되세요! "
         unsubscribe_me: 구독 취소
-        want_to_be_notified: 누군가 첫 게시글 작성시 알람 받길 원하십니까?
-        yes_notify_me: 네, 알림을 받습니다!
+        want_to_be_notified: 첫 게시물이 작성되면 알려드릴까요?
+        yes_notify_me: 네, 알려주세요!
       reviews:
         a_review_by: "%{username}의 리뷰"
         by: "%{username}(이)가 %{date}에 작성"
@@ -4420,20 +4420,20 @@ ko-KR:
     done: 완료
     login: 로그인하여 TMDB의 새로운 등급 시스템을 이용하세요.
     mood:
-      label:
+      label: 기분
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
-      prompt:
+        afraid: 공포
+        angry: 화남
+        disgusted: 혐오
+        happy: 행복
+        interested: 관심
+        sad: 슬픔
+        surprised: 놀라움
+      prompt: "%{title}의 기분은 어떤가요?"
     rating:
-      clear:
-      label:
-      prompt:
+      clear: 평가 지우기
+      label: 평가
+      prompt: "%{title}에 대해 어떻게 생각하세요?"
       tooltip:
         '0':
         '10':
@@ -4447,17 +4447,19 @@ ko-KR:
         '80':
         '90':
     tone:
-      label:
-      no_results:
+      label: 분위기
+      no_results: 분위기가 존재하지 않습니다.
       prompt:
-        movie:
-        tv:
-      select:
-    welcome:
+        movie: 이 영화는...
+        tv: 이 TV프로는...
+      select: 분위기 입력...
+    welcome: TMDB의 새로운 등급 시스템인 바이브에 오신 것을 환영합니다! <span class="%{style}"><a href="%{link}">이용 안내</a></span>
     whats_new:
-    whats_your_vibe:
+    whats_your_vibe: 당신의 <span class="%{style}">바이브</span>는 어떤가요?
     your_vibe:
-    your_vibes:
+      one: 당신의 바이브
+      other: 당신의 바이브
+    your_vibes: 당신의 바이브
   videos:
     filters:
       language: 언어
