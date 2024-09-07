@@ -114,7 +114,7 @@ ko-KR:
   Continue: 계속
   Contribution leaders for the week of: '주간 사이트 기여자 - 기간 :'
   Convert to Collection?: 콜렉션으로 변환하시겠습니까?
-  Convert to Movie?:
+  Convert to Movie?: 영화로 변경할까요?
   Country: 국가
   Create: 생성
   Create App: 앱 만들기
@@ -166,7 +166,7 @@ ko-KR:
   Email: 이메일
   Email Address: 이메일 주소
   Email Content: 이메일 본문
-  Embed:
+  Embed: 퍼가기
   Episode Images: 에피소드 이미지
   Episode Number: 에피소드 수
   Episode Overview: 줄거리
@@ -302,7 +302,7 @@ ko-KR:
   Original Language: 원어
   Original Movie Language: 원어
   Original Name: 원제
-  Original Order:
+  Original Order: 기본정렬
   Original TV Show Language: 오리지널 TV 쇼 언어
   Original Title: 원제
   Other Databases: 다른 데이터베이스
@@ -353,7 +353,7 @@ ko-KR:
   Recommendations: 추천
   Regions: 지역
   Regular Cast: 정규 출연진
-  Release Dates & Certifications: 상영일 & 등급
+  Release Dates & Certifications: 개봉일 & 등급
   Release Information: 개봉 정보
   Release Note: 비고
   Release Type: 형태
@@ -382,7 +382,7 @@ ko-KR:
   Search for a movie or TV show: 영화 또는 TV 프로그램 검색
   Search for a movie, TV show, person: 영화, TV 프로그램, 인물 검색
   Season: 시즌
-  Season Number:
+  Season Number: 시즌 번호
   Season Overview: 시즌 개요
   Season Regulars: 시즌 정규 출연진
   Season Specials: 시즌 스페셜
@@ -394,7 +394,7 @@ ko-KR:
   Send: 보내기
   Sessions: 세션
   Share: 공유
-  Share Link: 공유 링크
+  Share Link: 링크 공유
   Sharing: 공유 설정
   Show: 보기
   Show More: 더 보기
@@ -405,7 +405,7 @@ ko-KR:
   Sort By: 정렬
   Sort Cast: 출연진 정렬
   Sort Regular Cast: 일번 출연진 정렬
-  Source Key:
+  Source Key: 소스 키
   Specials: 스페셜
   Spoken Languages: 구사된 언어
   Stage Name: 활동명
@@ -522,7 +522,7 @@ ko-KR:
         deleted: 삭제됨
         updated: 갱신함
       media_types:
-        all: 모든
+        all: 전체
         movies: 영화
         others: 기타
         people: 인물
@@ -735,7 +735,7 @@ ko-KR:
     air_date:
       future:
       past:
-    alternative_names:
+    alternative_names: 다른 이름
     categories:
       title:
     category_empty:
@@ -753,7 +753,7 @@ ko-KR:
       network:
       preshow_hosts:
       produced_by:
-      runtime:
+      runtime: 상영시간
       title:
     title:
     winner:
@@ -1557,11 +1557,11 @@ ko-KR:
   collection_includes: "%{movie_titles} 포함"
   confirm_delete: 정말로 기록을 삭제하시겠습니까?
   contact:
-    contact_sales:
-    general_inquiry:
-    general_support:
-    get_in_touch:
-    where_located:
+    contact_sales: 영업 문의
+    general_inquiry: 일반 문의
+    general_support: 일반 고객지원
+    get_in_touch: 문의하기
+    where_located: 현재 위치는 어디입니까?
   contribute:
     contribute: 참여하기
     missing_a_biography: 약력 누락
@@ -1627,14 +1627,14 @@ ko-KR:
     welcome_1: 어서오세요
     welcome_2: 기여 지침서
   contribution_type:
-    character_appearance:
-    movie:
-    primary_character:
-    tv_show:
+    character_appearance: 캐릭터 모양
+    movie: 영화
+    primary_character: 기본 캐릭터
+    tv_show: TV 프로
   cookie_popup:
     message: 'TMDB는 회원님들께 더 나은 서비스를 제공하기 위해 쿠키를 사용합니다. 더 자세히 알기 원하신다면 <a href="%{policy_url}" target="_blank" rel="noopener">쿠키 정책</a>을 읽어주십시오. TMDB 이용을 위해선, 해당 정책에 대한 귀하의 동의가 필요합니다. '
     ok_button: 네
-  create_api:
+  create_api: API 생성
   date:
     abbr_day_names:
     - 일
@@ -1734,7 +1734,7 @@ ko-KR:
         search_first_air_date: 방영일 검색
       availability:
         availabilities: 시청 방법
-        search_all_availabilities: 시청 방법으로 검색
+        search_all_availabilities: 전체 시청 방법
       certification:
         certification: 등급
       filters: 필터
@@ -1770,14 +1770,14 @@ ko-KR:
       user_score:
         user_score: 사용자 점수
       where_to_watch:
-        country:
+        country: 국가
         my_services:
           my_services: 나의 스트리밍 서비스
-          restrict: 구독 중인 서비스만 선택할까요?
+          restrict: 나의 구독 중 서비스
           restrict_tooltip: 로그인하여 구독 중인 서비스를 관리하세요.
-        where_to_watch:
+        where_to_watch: 볼 수 있는 곳
       years:
-        years:
+        years: 연도
     no_items: 검색어와 일치하는 항목을 찾을 수 없습니다.
     search: 검색
     sort_options:
@@ -1789,8 +1789,8 @@ ko-KR:
       original_order_desc: 기본 내림차순
       popularity_asc: 인기도 오름차순
       popularity_desc: 인기도 내림차순
-      primary_release_date_asc:
-      primary_release_date_desc:
+      primary_release_date_asc: 개봉일 오름차순
+      primary_release_date_desc: 개봉일 내림차순
       rating_asc: 평점 오름차순
       rating_desc: 평점 내림차순
       release_date_asc: 상영일 오름차순
@@ -1798,10 +1798,10 @@ ko-KR:
       title_a_z: 제목 (A-Z)
       title_z_a: 제목 (Z-A)
     tooltips:
-      not_member:
-      options:
-      signup:
-      want_to_rate:
+      not_member: 회원이 아닌가요?
+      options: 항목 보기 옵션
+      signup: 가입하고 커뮤니티에 참여하세요
+      want_to_rate: 이 항목을 평가하거나 목록에 추가할까요?
   discussions:
     actions:
       actions: 기능
@@ -2053,7 +2053,7 @@ ko-KR:
         invalid:
       release_date:
         anachronism:
-        invalid:
+        invalid: 유효한 날짜가 아닙니다.
     images:
       couldnt_process: 해당 이미지를 처리할 수 없습니다.
       not_jpeg: JPEG 이미지가 아닙니다.
@@ -2156,7 +2156,7 @@ ko-KR:
     upstream_problem:
       message: 이 요청을 완료하는 데 문제가 발생했습니다. 이는 일반적으로 일시적인 문제이며 곧 해결될 것입니다.
       title: 문제가 발생했습니다.
-  headshots_must_meet:
+  headshots_must_meet: '증명사진은 다음 기준을 충족해야 합니다:'
   homepage:
     community:
       benefits_list:
@@ -2217,25 +2217,25 @@ ko-KR:
       '9': 최소 해상도 300x450
       backdrops_must_meet: '배경 이미지는 다음 기준들을 충족해야합니다:'
       episode_stills_must_meet: '에피소드 스틸 사진은 다음 기준들을 충족해야합니다:'
-      headshots_must_meet:
+      headshots_must_meet: '증명사진은 다음 기준들을 충족해야합니다:'
       posters_must_meet: '포스터는 다음 기준들을 충족해야합니다:'
       profile_must_meet: '프로필 이미지는 다음 기준들을 충족해야합니다:'
       read_guidelines: 본 사이트의 업데이트된 <a href="%{link}" target="_blank" rel="noopener">이미지 기여 지침서 내용</a>을 숙달하여 주십시오.
       tip: 지원가능한 브라우저를 쓰신다면, 이미지를 하단 영역에 끌어 놓아주십시오. 지원불가한 브라우저의 경우, '파일 선택' 버튼을 눌러서 이미지를 선택하여 주십시오.
     uploader:
-      aspect_ratio:
-      aspect_ratio_both:
-      file_type:
-      max_res:
-      min_res:
+      aspect_ratio: 가로 세로 비율 %{ratio}
+      aspect_ratio_both: 가로 세로 비율은 %{ratio_first} 에서 %{ratio_second} 까지
+      file_type: 파일종류 %{file_type}
+      max_res: 최대 해상도 %{res}
+      min_res: 최소 해상도 %{res}
       read_guidelines: 본 사이트의 업데이트된 <a href="%{link}" target="_blank" rel="noopener">이미지 기여 지침서 내용</a>을 숙달하여 주십시오.
       tip: 지원가능한 브라우저를 쓰신다면, 이미지를 하단 영역에 끌어 놓아주십시오. 지원불가한 브라우저의 경우, '파일 선택' 버튼을 눌러서 이미지를 선택하여 주십시오.
-      type_backdrops:
-      type_episode_stills:
-      type_headshots:
-      type_posters:
-      type_profiles:
-      validation_header:
+      type_backdrops: 벼경화면
+      type_episode_stills: 에피소드 스틸
+      type_headshots: 증명사진
+      type_posters: 포스터
+      type_profiles: 프로필
+      validation_header: "%{type}은 다음 기준을 충족해야 합니다:"
   invalid_aspect_ratio: 비율이 올바르지 않습니다.
   item_count:
     one: "%{count} 개"
@@ -2856,7 +2856,7 @@ ko-KR:
     Production Coordinator:
     Production Design:
     Production Designer:
-    Production Director:
+    Production Director: 제작 감독
     Production Driver:
     Production Executive:
     Production Illustrator:
@@ -2995,7 +2995,7 @@ ko-KR:
     Sound Assistant:
     Sound Design Assistant:
     Sound Designer:
-    Sound Director:
+    Sound Director: 음악 감독
     Sound Editor:
     Sound Effects: 음향 효과
     Sound Effects Designer:
@@ -3028,7 +3028,7 @@ ko-KR:
     Sponsorship Coordinator:
     Sponsorship Director:
     Staff Writer:
-    Stage Director:
+    Stage Director: 무대 감독
     Stand In:
     Standby Art Director:
     Standby Carpenter:
@@ -3198,7 +3198,7 @@ ko-KR:
       toggle_close: 열기/닫기 전환
       toggle_private: 공개/비공개 전환
       toggle_watching: 보기 상태
-    enable:
+    enable: 키보드 단축키 사용
     groups:
       discussion_pages: 토론 페이지
       edit_pages: 모든 편집 페이지
@@ -3208,7 +3208,7 @@ ko-KR:
       tv_episode_pages: TV 에피소드 페이지
       tv_season_pages: TV 시즌 페이지
     keyboard_shortcuts: 키보드 단축키
-    login_to_change_preferences:
+    login_to_change_preferences: 계정에 로그인하여 키보드 단축키를 비활성화할 수 있습니다.
     view_keyboard_shorcuts: 키보드 단축키 보기
     view_shortcuts: 단축키 보기
   keywords:
@@ -3481,40 +3481,40 @@ ko-KR:
       helper_tooltip: 문서 점수는 해당 문서의 내용이 얼마나 알찬 지 보여줍니다.
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
+          air_date: 방영일
+          backdrop: 배경
+          biography: 약력
           cast_min_4:
           created_by:
           credits:
           crew_min_2:
-          director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
+          director: 감독
+          episode: 에피소드
+          genres: 장르
+          guest_stars_min_2: 특별출연
+          name: 다른 이름
+          overview: 요약
           parts:
-          poster:
-          profile:
+          poster: 포스터
+          profile: 프로필 이미지
           regular_cast_min_4:
-          release_date:
-          title:
-          video:
-          writer:
+          release_date: 개봉일
+          title: 다른 제목
+          video: 영상
+          writer: 각본
         summary:
       scale:
-        '0': 어디든 시작부터 해야겠어요...
-        '1': 자, 이제 시작입니다.
+        '0': 어디든 시작부터 해야겠어요
+        '1': 자, 이제 시작입니다
         '10': 좋아요! 알찬 문서입니다!
         '2': 잘 채워가고 있어요.
         '3': 로마는 하루 만에 완성되지 않았습니다.
         '4': 팀에서 '나'란 없습니다.
         '5': 좀 더 보완이 필요합니다.
-        '6': 이제 완벽이 보이기 시작해요.
-        '7': 아주 조금만 더요...
+        '6': 이제 완벽이 보이기 시작해요
+        '7': 아주 조금만 더요
         '8': 힘내요! 거의 다 완성되어 가요.
-        '9': 완성 직전...
+        '9': 완성 직전입니다
     edit:
       alternative_title:
         lock_existing: 제목을 잠급니다
@@ -3542,7 +3542,7 @@ ko-KR:
         person: 인물 검색
         production_companies: 제작사 검색
       release_date:
-        locked:
+        locked: 개봉일은 잠겨 있습니다.
       success_fields_locked: 잠그기 완료
       tagline:
         add_tagline: 태그라인 추가
@@ -3584,7 +3584,7 @@ ko-KR:
       format: 형식
       no_backdrop_stills: 배경 스틸컷이 추가되지 않았습니다.
       no_backdrops: 배경 화면이 추가되지 않았습니다.
-      no_headshots:
+      no_headshots: 이 항목에 추가된 증명사진이 없습니다.
       no_logos: 추가된 로고 없음
       no_posters: 추가된 포스터 없음
       no_profiles: 추가된 프로필 없음
@@ -3698,32 +3698,34 @@ ko-KR:
         tv_shows: TV 쇼
       years_old:
     rating:
-      not_rateable:
+      not_rateable: 아직 평가할 수 없습니다
       rated_with_rating: 평점 %{value}
       rating_count:
-      score_breakdown:
-      score_distribution:
-      score_history:
-      score_trend:
+        one: "%{count}개 평가"
+        other: "%{count}개 평가"
+      score_breakdown: 점수 분석
+      score_distribution: 점수 분포
+      score_history: 점수 이력
+      score_trend: 점수 추세
     shortcut_bar:
-      alternative_titles:
+      alternative_titles: 다른 제목
       backdrops: 배경
       cast_crew: 출연진 & 제작진
       changes: 수정내역
       characters:
-      episodes:
+      episodes: 에피소드
       fandom: 팬덤
-      headshots:
+      headshots: 증명사진
       logos: 로고
       main: 메인
       media: 미디어
       overview: 개요
       posters: 포스터
       profiles: 프로필 사진
-      release_dates:
+      release_dates: 방송일
       reviews: 리뷰
-      seasons:
-      translations:
+      seasons: 시즌
+      translations: 번역
       videos: 동영상
     social_panel:
       discussions:
@@ -3745,18 +3747,18 @@ ko-KR:
           logged_in: 리뷰 쓰기
           public: 리뷰를 쓰기 위해 로그인 하세요.
     translations:
-      add_biography:
-      add_homepage:
-      add_name:
-      add_overview:
+      add_biography: 약력 추가
+      add_homepage: 홈페이지 추가
+      add_name: 이름 추가
+      add_overview: 개요 추가
       add_runtime: 상영시간 추가
-      add_tagline:
-      add_title:
-      biography:
-      name:
-      overview:
+      add_tagline: 태그라인 추가
+      add_title: 제목 추가
+      biography: 약력
+      name: 이름
+      overview: 개요
       taglines: 태그라인
-      title:
+      title: 제목
     tv_episode:
       edit:
         episode_type_confirm:
@@ -4062,7 +4064,7 @@ ko-KR:
   number_of_edits: "%{count}회 편집"
   number_of_items:
   number_of_results: "%{count}개의 검색 결과"
-  number_of_translations:
+  number_of_translations: "%{count}개 번역됨"
   number_of_votes: "%{count} 참여"
   ott:
     available_sentences:
@@ -4332,6 +4334,7 @@ ko-KR:
         table:
           date: 날짜
           device: 장비
+          expires:
           ip: IP 주소
     sharing:
       favorite_list:
@@ -4428,24 +4431,24 @@ ko-KR:
         happy: 행복
         interested: 관심
         sad: 슬픔
-        surprised: 놀라움
+        surprised: 놀람
       prompt: "%{title}의 기분은 어떤가요?"
     rating:
       clear: 평가 지우기
       label: 평가
       prompt: "%{title}에 대해 어떻게 생각하세요?"
       tooltip:
-        '0':
-        '10':
-        '100':
-        '20':
-        '30':
+        '0': 재앙
+        '10': 완전 쓰레기
+        '100': 우승
+        '20': 폐기물
+        '30': 나쁨
         '40':
-        '50':
-        '60':
-        '70':
-        '80':
-        '90':
+        '50': 보통
+        '60': 괜찮음
+        '70': 꽤 좋음
+        '80': 진짜 좋음
+        '90': 위대함
     tone:
       label: 분위기
       no_results: 분위기가 존재하지 않습니다.
@@ -4454,7 +4457,7 @@ ko-KR:
         tv: 이 TV프로는...
       select: 분위기 입력...
     welcome: TMDB의 새로운 등급 시스템인 바이브에 오신 것을 환영합니다! <span class="%{style}"><a href="%{link}">이용 안내</a></span>
-    whats_new:
+    whats_new: 새로운 기능
     whats_your_vibe: 당신의 <span class="%{style}">바이브</span>는 어떤가요?
     your_vibe:
       one: 당신의 바이브

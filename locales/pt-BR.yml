@@ -77,7 +77,7 @@ pt-BR:
   Are you sure?: Tem certeza?
   Attributes: Atributos
   Auto: Automático
-  Awards:
+  Awards: Premiações
   Back to top: Voltar ao topo
   Backdrop Card View: Grade de miniaturas
   Bad Image: Imagem fora das regras
@@ -749,29 +749,31 @@ pt-BR:
     tv_series_status: Estado da série de TV
   average edits per day: média de edições por dia
   awards:
-    add_nomination:
+    add_nomination: Adicionar indicação
     air_date:
-      future:
-      past:
-    alternative_names:
+      future: Exibição em %{date}
+      past: Exibido em %{date}
+    alternative_names: Nomes Alternativos
     categories:
-      title:
-    category_empty:
+      title: Categorias
+    category_empty: Não há indicações para esta categoria.
     ceremonies:
-      number:
+      number: Número
       release_date_max:
       release_date_min:
-      title:
+      title: Cerimônias
     nominations:
-    nominee:
+      one: Uma indicação
+      other: "%{count} Indicações"
+    nominee: Indicado
     show_info:
-      directed_by:
-      hosted_by:
-      location:
-      network:
-      preshow_hosts:
-      produced_by:
-      runtime:
+      directed_by: Dirigido por
+      hosted_by: Apresentado por
+      location: Localização
+      network: Rede
+      preshow_hosts: Apresentadores do Pré-show
+      produced_by: Produzido por
+      runtime: Duração
       title:
     title:
     winner:
@@ -2056,17 +2058,17 @@ pt-BR:
       1f641:
       1f914:
       1f922:
-      1f923:
-      1f928:
-      1f92c:
-      1f92d:
-      1f92e:
-      1f92f:
-      1f971:
-      1f972:
-      1fae2:
-      1fae3:
-      1fae4:
+      1f923: Rindo e rolando no chão
+      1f928: Rosto com sobrancelha levantada
+      1f92c: Rosto com símbolos na boca
+      1f92d: Rosto com a mão sobre a boca
+      1f92e: Rosto vomitando
+      1f92f: Cabeça explodindo
+      1f971: Rosto bocejando
+      1f972: Rosto sorrindo com lágrima
+      1fae2: Rosto com olhos abertos e mão sobre a boca
+      1fae3: Rosto com olho espionando
+      1fae4: Rosto com boca diagonal
   episode_count:
     one: "%{count} episódio"
     other: "%{count} episódios"
@@ -2104,7 +2106,7 @@ pt-BR:
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: não é válido para o país %{country_code}
       iso_3166_1:
         invalid: não é um país válido
       iso_639_1:
@@ -2121,11 +2123,11 @@ pt-BR:
       genres: O campo de gêneros está trancado
       keywords: O campo de palavras-chave está trancado
     messages:
-      accepted:
+      accepted: deve ser aceito
       blank: é necessário(a)
       confirmation:
       email_address_not_routable: não é roteável
-      empty:
+      empty: não pode estar vazio
       equal_to:
       even:
       exclusion:
@@ -4421,6 +4423,7 @@ pt-BR:
         table:
           date: Data
           device: Aparelho
+          expires:
           ip: Endereço IP
     sharing:
       favorite_list:

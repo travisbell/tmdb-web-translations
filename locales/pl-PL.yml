@@ -12,7 +12,7 @@ pl-PL:
   API Read Access Token: Przeczytaj kod odczytu API
   API Sessions: Sesje API
   API Stats: Statystyki API
-  API Status Codes: Kod statusu API
+  API Status Codes: Kody statusu API
   API Terms: Regulamin API
   API Terms of Use: Warunki użytkowania interfejsu API
   API Updates: Aktualizacje API
@@ -31,7 +31,7 @@ pl-PL:
   Add Data & Content: Dodaj dane i treść
   Add Headshot: Dodaj zdjecie portretowe
   Add Item: Dodaj element
-  Add Missing Cast & Crew: Dodaj brakującą obsadę i załogę
+  Add Missing Cast & Crew: Dodaj brakującą obsadę i ekipę
   Add Network: Dodaj sieć
   Add New Episode: Dodaj nowy odcinek
   Add New Movie: Dodaj nowy film
@@ -53,7 +53,7 @@ pl-PL:
   Add to your favorite list: Dodaj do ulubionych
   Add to your watchlist: Dodaj do obserwowanych
   Added By: Dodane przez
-  Added to Watchlist: Dodaj do obserwowanych
+  Added to Watchlist: Dodane do obserwowanych
   Adding & Editing Content: Dodawanie i edytowanie treści
   Address 1: Adres 1
   Address 2: Adres 2
@@ -67,7 +67,7 @@ pl-PL:
   Apiary Documentation: 'Dokumentacja narzędzi API '
   App Directory: Katalog aplikacji
   App Showcase: Prezentacja aplikacji
-  Appearances:
+  Appearances: Występy
   Application Description: Opis aplikcji
   Application Name: Nazwa aplikacji
   Application Summary: Podsumowanie aplikacji
@@ -75,18 +75,18 @@ pl-PL:
   Approve: Zatwierdzaj
   Approved?: Zatwierdzić?
   Apps: Aplikacje
-  Archived Databases: Zarchowizowane bazy danych
+  Archived Databases: Zarchiwizowane bazy danych
   Are you sure?: Jesteś pewny(-a)?
   Attributes: Atrybuty
   Auto: Automatycznie
-  Awards:
+  Awards: Nagrody
   Back to top: Powrót do góry
   Backdrop Card View: Widok miniatur
-  Bad Image: Zły obrazek
+  Bad Image: Zły obraz
   Best Match: Najlepsze dopasowanie
   Biography: Biografia
   Birthday: Data urodzenia
-  Blocked Users: 'Zablokowani '
+  Blocked Users: Zablokowani użytkownicy
   Blog: Blog
   Branding: |2
 
@@ -487,7 +487,7 @@ pl-PL:
   View All Episode Images: Wyświetl wszystkie obrazki odcinków
   View All Episodes: Wyświetl wszystkie odcinki
   View All Posters: Wyświetl wszystkie plakaty
-  View All Seasons: Wyświetl wszystkie sezony
+  View All Seasons: Pokaż wszystkie sezony
   View All Videos: Wyświetl wszystkie filmy wideo
   View Discussions: Wyświetl dyskusje
   View Edit History: Wyświetl historię edycji
@@ -546,7 +546,7 @@ pl-PL:
         key: Klucz
         language_abbreviation: Język
     average_movie_score: Średnia ocen<br>filmów
-    average_tv_score: Średnia ocen<br>serialów
+    average_tv_score: Średnia ocen<br>seriali
     discussions:
       my_active_boards: Moje aktywne dyskusje
       my_discussions: Moje dyskusje
@@ -573,7 +573,7 @@ pl-PL:
       notifications:
         filters:
           type:
-            Discussion: Dyskusje
+            Discussion: Dyskusja
             General: Ogólne
             List Import: Import listy
             Mention: Wspomniane
@@ -605,7 +605,7 @@ pl-PL:
       date_added: Data dodania
       date_rated: Data oceny
       first_air_date: Pierwsza emisja
-      most_popular: Najbardziej Popularne
+      most_popular: Najbardziej popularne
       my_rating: Moja ocena
       newest: Najnowsze
       popularity: Popularność
@@ -634,7 +634,7 @@ pl-PL:
       overview: Przegląd
       ratings: Oceny
       ratings_reviews: Oceny i recenzje
-      recommendations: 'Zalecenia '
+      recommendations: Rekomendacje
       reviews: Recenzje
       watchlist: Obserwowane
     order: 'Kolejność:'
@@ -646,8 +646,8 @@ pl-PL:
       empty_upcoming_watchlist:
         logged_in: Nie ma nadchodzących filmów na twojej liście obserwowanych.
       empty_watched_genres:
-        logged_in: Nie dodałeś  żadnych filmów ani serialów.
-        public: Użytkownik %{username} nie ocenił jeszcze żadnych filmów ani serialów.
+        logged_in: Nie dodałeś  żadnych filmów ani seriali.
+        public: Użytkownik %{username} nie ocenił jeszcze żadnych filmów ani seriali.
       goto_discussions: Przejdź do dyskusji
       goto_watchlist: Przejdź do obserwowanych
       most_watched_genres: Najczęściej oglądane gatunki
@@ -674,9 +674,9 @@ pl-PL:
     recommendations:
       my_recommendations: Rekomendowane dla ciebie
       no_recommendations: Mamy zbyt mało danych, aby zasugerować ci jakiekolwiek rekomendacje.
-      no_recommendations_helper: Postaraj się dodać więcej ulubionych (czym więcej tym lepiej) i wróć ponownie.
-      no_recommendations_helper_2: Spróbuj ocenić jeszcze kilka filmów i seriali (im więcej tym lepiej) a następnie daj nam kilka godzin aby zobaczyć co możemy zrobić. Te rekomendacje bedą aktualizowane gdy będziesz oglądać i oceniać więcej treści.
-      page_title: Polecenia
+      no_recommendations_helper: Spróbuj dodać więcej ulubionych (im więcej, tym lepiej) i wróć ponownie.
+      no_recommendations_helper_2: Spróbuj ocenić jeszcze kilka filmów i seriali (im więcej tym lepiej) a następnie daj nam kilka godzin, abyś zobaczył, co możemy zrobić. Te rekomendacje bedą aktualizowane, gdy będziesz oglądać i oceniać więcej treści.
+      page_title: Rekomendacje
     sort_options:
       asc: Rosnąco
       desc: Malejąco
@@ -686,37 +686,37 @@ pl-PL:
     watchlist:
       my_watchlist:
         logged_in: Moje obserwowane
-        public: Lista Obserwowanych przez %{username}
+        public: Obserwowane przez %{username}
       next_month: W przyszłym miesiącu
       no_upcoming_movies:
-        few: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} filmy.
-        one: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} film.
-        other: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} filmów.
+        few: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} filmy.
+        one: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} film.
+        other: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} filmów.
       no_upcoming_tv_shows:
-        few: Nie ma nadchodzących serialów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} seriale.
-        one: Nie ma nadchodzących serialów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} serial.
-        other: Nie ma nadchodzących serialów na twojej liście obserwowanych. Jednakże, obserwujesz %{count} serialów.
+        few: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} seriale.
+        one: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} serial.
+        other: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} seriali.
       page_title:
-        page_owner: Moja lista do obejrzenia
-        public: Lista do obejrzenia %{username}
+        page_owner: Moje obserwowane
+        public: Obserwowane przez %{username}
       this_month: W tym miesiącu
       this_week: W tym tygodniu
       view_them: Zobacz je.
   add_to_list: Dodaj %{media_title} do jednej z Twoich list ...
   already_translated_in: Strona %{page_title} jest już przetłumaczona na następujące języki...
   api_session:
-    3rd_party_request: Autoryzowane aplikacje innych firm
+    3rd_party_request: Uwierzytelnione aplikacje innych firm
     account_required:
-      need_account: Musisz być zalogowanym aby kontynuować!
+      need_account: Musisz być zalogowany aby kontynuować!
       title: Wymagane jest posiadanie konta
     approved_session: Aplikacja %{application_name} została zatwierdzona. Można zamknąć to okno.
-    continue: Jeśli chcesz kontynuować, kliknij przycisk zatwierdzaj poniżej. Jeśli nie, można po prostu zamknąć to okno.
+    continue: Jeśli chcesz kontynuować, kliknij przycisk zatwierdzenia poniżej. Jeśli nie, można po prostu zamknąć to okno.
     invalid_api_app:
       message: Aktualnie uwierzytelniany użytkownik API jest nieprawidłowy.
-      title: Nieprawidłowy Użytkownik API
+      title: Nieprawidłowy użytkownik API
     missing_request_token:
       message: Token żądania jest wymagany w celu uwierzytelnienia kont użytkowników.
-      title: Brak Tokenu Żądania.
+      title: Brak tokena żądania.
     request_token_approval:
       message: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDB."
     statuses:
@@ -728,11 +728,11 @@ pl-PL:
         name: Odmowa dostępu
       invalid_request_token:
         message: Podany token jest niepoprawny.Spróbuj stworzyć nowy token i upewnij się, że został poprawnie skopiowany. Jeśli problem będzie się powtarzał, skontaktuj się z twórcą aplikacji.
-        name: NIepoprawny token
+        name: NIepoprawny token żądania
   attributes:
     biography: Biografia
     certification: Certyfikacja
-    external_href: adres internetowy
+    external_href: Adres URL
     homepage: Strona główna
     iso_3166_1: Kraj
     iso_639_1: Język
@@ -745,32 +745,35 @@ pl-PL:
     tv_series_status: Status serialu
   average edits per day: średnio edycji na dzień
   awards:
-    add_nomination:
+    add_nomination: Dodaj nominację
     air_date:
-      future:
-      past:
-    alternative_names:
+      future: Emisje %{date}
+      past: Emitowany %{date}
+    alternative_names: Alternatywne nazwy
     categories:
-      title:
-    category_empty:
+      title: Kategorie
+    category_empty: Brak nominacji w tej kategorii
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
+      number: Liczba
+      release_date_max: Data wydania Max
+      release_date_min: Data wydania Min
+      title: Ceremonie
     nominations:
-    nominee:
+      few: "%{count} nominacje"
+      one: 1 nominacja
+      other: "%{count} nominacji"
+    nominee: Nominowany
     show_info:
-      directed_by:
+      directed_by: Reżyseria
       hosted_by:
-      location:
-      network:
+      location: Lokacja
+      network: Sieć
       preshow_hosts:
-      produced_by:
-      runtime:
-      title:
-    title:
-    winner:
+      produced_by: Produkcja
+      runtime: Czas trwania
+      title: Pokaż informacje
+    title: Nagrody
+    winner: Zwycięzca
     wins:
   back_options:
     back: Wróć
@@ -906,7 +909,7 @@ pl-PL:
         '1':
           meaning: Dozwolony dla każdego.
         '2':
-          meaning: 'Dla TV - nierekomendowany dla osób poniżej 10 lat (klasyfikacja tylko dla TV / serialów). Dla kin - ostrzeżenie: niektóre sceny mogą być niepokojące dla małych dzieci (do 10 lat) i wrażliwych ludzi. Dla cyfrowych treści - dla osób poniżej 10 lat tylko przy obecności rodziców.'
+          meaning: 'Dla TV - nierekomendowany dla osób poniżej 10 lat (klasyfikacja tylko dla TV / seriali). Dla kin - ostrzeżenie: niektóre sceny mogą być niepokojące dla małych dzieci (do 10 lat) i wrażliwych ludzi. Dla cyfrowych treści - dla osób poniżej 10 lat tylko przy obecności rodziców.'
         '3':
           meaning: Nierekomendowany dla osób poniżej 12 lat. Dla kin - zabroniony dla osób poniżej 12 lat.
         '4':
@@ -930,7 +933,7 @@ pl-PL:
           meaning: Może być pokazywany tylko w kinach dla dorosłych lub sprzedawany w licencjonowanych sex-shopach. Tylko dla dorosłych. Filmy z tą klasyfikacją zawierają hard-core'ową pornografię i przemoc.
       HU:
         '0':
-          meaning: Brak dostępnych ocen.
+          meaning: Brak dostępnych ocen treści.
         '1':
           meaning: Bez ograniczeń wiekowych.
         '2':
@@ -1233,7 +1236,7 @@ pl-PL:
         '3':
           meaning: Nieodpowiedni dla dzieci młodszych niż 12 lat, które mogą oglądać tylko przy obecności rodzica. Zazwyczaj zawiera animacje, które przedstawiają przemoc lub mocniejsze motywy, takie jak umiarkowanie brzydki język.
         '4':
-          meaning: Nieodpowiedni dla dzieci młodszych niż 15 lat, które mogą oglądać tylko przy obecności rodzica. Większość serialów telewizyjnych i programów talk-show należy do tej klasyfikacji. Programy mogą zawierać silne motywy dla dorosłych, wulgaryzmy, odniesienia do seksu i przemoc.
+          meaning: Nieodpowiedni dla dzieci młodszych niż 15 lat, które mogą oglądać tylko przy obecności rodzica. Większość seriali telewizyjnych i programów talk-show należy do tej klasyfikacji. Programy mogą zawierać silne motywy dla dorosłych, wulgaryzmy, odniesienia do seksu i przemoc.
         '5':
           meaning: Tylko dla dorosłych (19+). Programy nie mogą być transmitowane pomiędzy 7:00 a 9:00 i pomiędzy 13:00 a 20:00. Takie programy zawierają zazwyczaj motywy dla dorosłych, seks, częste wulgaryzmy i brutalną przemoc.
       LT:
@@ -1345,7 +1348,7 @@ pl-PL:
     add_backdrop_grp: Dodaj tło dla tej grupy
     add_character_backdrop:
     add_completely_free: Korzystaj całowicie bez reklam
-    add_missing_character:
+    add_missing_character: Dodaj brakującą postać
     add_new_appearance:
     add_new_appearance_links_selection:
     add_new_group: Dodaj nową grupę
@@ -3536,7 +3539,7 @@ pl-PL:
           crew_min_2:
           director:
           episode:
-          genres:
+          genres: Gatunki
           guest_stars_min_2:
           name:
           overview:
@@ -3567,7 +3570,7 @@ pl-PL:
         locked:
       cast_updated:
       delete_all_appearances:
-      genres_updated:
+      genres_updated: Zaktualizowano gatunki
       lock_all_appearances:
       lock_all_cast_crew_description:
       lock_all_fields: Zablokuj wszystkie pola
@@ -3581,7 +3584,7 @@ pl-PL:
         create_person:
           click_to_create:
           create_it:
-        genres:
+        genres: Wybierz gatunek...
         job:
         keywords: Wybierz słowo kluczowe...
         networks:
@@ -3656,8 +3659,8 @@ pl-PL:
           no_records:
           person_required:
         genres:
-          add_genre:
-          no_records:
+          add_genre: Dodaj gatunek
+          no_records: Nie dodano żadnych gatunków.
         keywords:
           add_keyword:
           create:
@@ -3742,16 +3745,16 @@ pl-PL:
       score_history:
       score_trend:
     shortcut_bar:
-      alternative_titles:
+      alternative_titles: Alternatywne tytuły
       backdrops: Tła
-      cast_crew:
+      cast_crew: Obsada i Ekipa
       changes: Zmiany
       characters:
       episodes: Odcinki
       fandom: Baza fanów
       headshots: Zdjęcia portretowe
       logos: Loga
-      main: Główny
+      main: Główne
       media:
       overview:
       posters: Plakaty
@@ -3759,7 +3762,7 @@ pl-PL:
       release_dates:
       reviews: Recenzje
       seasons:
-      translations:
+      translations: Tłumaczenia
       videos: Filmy
     social_panel:
       discussions:
@@ -3845,7 +3848,7 @@ pl-PL:
         episode_groups:
           create_new_group:
           description:
-          episode_groups:
+          episode_groups: Grupy odcinków
           episodes:
             move_episodes:
             no_records:
@@ -4371,6 +4374,7 @@ pl-PL:
         table:
           date:
           device: Urządzenie
+          expires:
           ip: Adres IP
     sharing:
       favorite_list:
