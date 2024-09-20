@@ -151,8 +151,8 @@ lv-LV:
   Discover Examples: Atklājiet piemērus
   Discover New Movies: Atklājiet jaunas filmas
   Discover New Movies & TV Shows: Atklājiet jaunas filmas un TV pārraides
-  Discover New TV Shows: Atklājiet jaunas TV pārraides
-  Discussions: Diskusijas
+  Discover New TV Shows: Atklāt jaunus seriālus
+  Discussions: Apspriešanas
   Documentation: Dokumentācija
   Duplicate: Dublikāts
   Edit: Labot
@@ -160,7 +160,7 @@ lv-LV:
   Edit Data: Labot datus
   Edit Data & Content: Labot datus un saturu
   Edit Page: labot lapu
-  Editing Content: Satura rediģēšana
+  Editing Content: Satura labošana
   Editing in:
   Education: Izglītība
   Email: E-pasts
@@ -367,8 +367,8 @@ lv-LV:
   Reported Issues:
   Request an API Key:
   Resend Activation Email:
-  Reset:
-  Reset Password:
+  Reset: Atiestatīt
+  Reset Password: Atiestatīt paroli
   Revenue: Ieņēmumi
   Runtime:
   Save: Saglabāt
@@ -435,7 +435,7 @@ lv-LV:
   TV Show Status: TV pārraides statuss
   TV Show Type: TV pārraides veids
   TV Show Watchlist: TV pārraides skatīšanās saraksts
-  TV Shows: TV pārraide
+  TV Shows: Seriāli
   TV Shows Airing Today:
   Tagged People: Atzīmēti cilvēki
   Tagline:
@@ -480,7 +480,7 @@ lv-LV:
   View All Seasons: Skatīt visas sezonas
   View All Videos: Skatīt visus videoklipus
   View Discussions: Skatīt diskusijas
-  View Edit History: Skatīt rediģēšanas vēsturi
+  View Edit History: Skatīt labošanas vēsturi
   View Episodes: Skatīt epizodes
   View More: Skatīt vairāk
   View Original: Skatīt oriģinālu
@@ -500,22 +500,22 @@ lv-LV:
   Your rating: Jūsu vērtējums
   Zip Code: Pasta indekss
   account_drop_down:
-    discussions: Diskusijas
+    discussions: Apspriešanas
     edit_profile: Labot profilu
     join_tmdb: Reģistrēties
     lists: Tematiskie saraksti
-    login: Pieslēgties
+    login: Pieteikties
     logout: Izlogoties
     messages: Ziņojumi
     profile_and_settings: Profils un iestatījumi
-    ratings: Reitings
+    ratings: Vērtējums
     settings: Iestatījumi
     sign_up: Reģistrēties
     view_profile: Skatīt profilu
     watchlist: Skatīšanās saraksts
   accounts:
     activity:
-      activity: Aktivitāte
+      activity: Darbība
       legend:
         added: Pievienots
         created: Izveidots
@@ -528,22 +528,22 @@ lv-LV:
         people: Cilvēki
         tv: TV
       page_title:
-        page_owner: Manas pēdējās aktivitātes
-        public: "%{username} pēdējās aktivitātes"
+        page_owner: Manas nesenās darbības
+        public: "%{username} nesenās darbības"
       table:
         action: Darbība
         edit: Labot
         key: Kods
         language_abbreviation: Valoda
-    average_movie_score: Vidējais<br>filmas reitings
-    average_tv_score: Vidējais<br>TV pārraides reitings
+    average_movie_score: Vidējais<br>filmas vērtējums
+    average_tv_score: Vidējais<br>pārraides vērtējums
     discussions:
       my_active_boards: Manas darbības kopsavilkums
-      my_discussions: Manas diskusijas
-      not_watching: Jūs neskatāties nekādas diskusijas.
+      my_discussions: Manas apspriešanas
+      not_watching: Tu nevēro nevienu apspriešanu.
       page_title:
-        page_owner: Manas diskusijas
-        public: "%{username} diskusijas"
+        page_owner: Manas apspriešanas
+        public: "%{username} apspriešanas"
     events:
       all: Visi
       emails:
@@ -560,7 +560,9 @@ lv-LV:
       notifications:
         filters:
           type:
-            Discussion: Diskusija
+            Discussion: 'Apspriešana
+
+              '
             General: Kopīgs
             List Import: Importēšanas saraksts
             Mention: Pieminēt
@@ -593,9 +595,9 @@ lv-LV:
       my_rating: Mans vērtējums
       newest: Jaunākās
       popularity: Popularitāte
-      rating: Reitings
+      rating: Vērtējums
       release_date: Izlaišanas datums
-      score: Reitings
+      score: Vērtējums
       upcoming: Drīzumā
       user_characters: Lietotāju rakstzīmes
     lists:
@@ -612,18 +614,18 @@ lv-LV:
         public: "%{username} saraksti"
     member_since: Dalībnieks kopš %{date}
     navigation:
-      discussions: Diskusijas
+      discussions: Apspriešanas
       favorites: Izlase
       lists: Tematiskie saraksti
       overview: Pārskats
-      ratings: Reitingi
-      ratings_reviews: Reitingi un atsauksmes
+      ratings: Vērtējumi
+      ratings_reviews: Vērtējumi un atsauksmes
       recommendations: Rekomendācijas
       reviews: Atsauksmes
       watchlist: Skatīšanās saraksts
     order: 'Secība:'
     overview:
-      30_day_activity: 30 dienu aktivitāte
+      30_day_activity: 30 dienu darbības
       empty_recent_activity:
         logged_in:
         public:
@@ -632,12 +634,12 @@ lv-LV:
       empty_watched_genres:
         logged_in:
         public:
-      goto_discussions: Pievienojieties diskusijai
+      goto_discussions: Doties uz apspriešanām
       goto_watchlist: Dodieties uz skatīšanās sarakstu
       most_watched_genres: Skatītākie žanri
-      rating_overview: Reitingu pārskats
-      recent_activity: Jaunākās aktivitātes
-      recent_discussions: Jaunākās diskusijas
+      rating_overview: Vērtējuma pārskats
+      recent_activity: Nesenās darbības
+      recent_discussions: Nesenas apspriešanas
       total_edits: Kopējās korekcijas
       total_ratings: Kopējie vērtējumi
       upcoming_watchlist: Drīzumā kinoteātros no skatīšanās saraksta
@@ -646,15 +648,15 @@ lv-LV:
       public: "%{username} profils"
     ratings_reviews:
       my_ratings:
-        logged_in: Mani reitingi
-        public: "%{username} reitingi"
+        logged_in: Mani vērtējumi
+        public: "%{username} vērtējumi"
       my_reviews:
         logged_in: Manas atsauksmes
         public: "%{username} atsauksmes"
       page_title:
-        page_owner: Mani reitingi un atsauksmes
-        public: "%{username} reitingi un atsauksmes"
-      ratings_by_year: Reitingi pēc gada
+        page_owner: Mani vērtējumi un atsauksmes
+        public: "%{username} vērtējumi un atsauksmes"
+      ratings_by_year: Vērtējums pēc gada
     recommendations:
       my_recommendations: Mani Rekomendācijas
       no_recommendations:
@@ -1368,7 +1370,7 @@ lv-LV:
     choose_header_images: Izvēlieties galvenes attēlus
     choose_reason: Jums ir jāizvēlas iemesls.
     community: KOPIENA
-    confirm_buffer_time: Lūdzu, apstipriniet, vai ir nepieciešams bufera laiks, lai turpinātu rediģēšanu?
+    confirm_buffer_time: Lūgums apstiprināt, vai ir nepieciešams bufera laiks, lai turpinātu labošanu?
     confirmation: Apstiprinājums
     continue: Turpināt
     contribute: Piedalieties mūsu datubāzē
@@ -1384,14 +1386,14 @@ lv-LV:
     delete_group: Dzēst grupu
     delete_group_check: Vai tiešām dzēsīsit šo grupu
     do_you_want_continue: Vai vēlaties turpināt?
-    done_editing: Vai esat pabeidzis rediģēšanu?
+    done_editing: Labošana ir pabeigta?
     drag_title: Velciet jaunās grupas nosaukumu
     edit_groups: Labot kopas
     edit_groups_description:
     edit_header_images: Labot galvenes attēlus
     edit_label: labot
-    edit_mode: Esat rediģēšanas režīmā
-    edit_translate: Rediģēšana un tulkošana
+    edit_mode: Tu esi labošanas režīmā
+    edit_translate: Labošana un tulkošana
     edit_translating: Labot un tulkot
     editing_character_name_uv:
     enter: Ievadiet
@@ -1436,7 +1438,7 @@ lv-LV:
       character: Varonis
       movie_character_name:
       tv_character_name:
-      tv_show: TV pārraide
+      tv_show: Seriāli
     movie_titles: Filmu nosaukumi
     name: Nosaukums
     navigate_to_dashboard:
@@ -1515,7 +1517,7 @@ lv-LV:
     suggested_character_backdrop_photos:
     suggested_window_title:
     switch_mode_translate: Pārslēdzieties uz %{available_language} režīmu, lai tulkotu.
-    switch_to_edit_mode: Pārslēdzieties uz rediģēšanas režīmu
+    switch_to_edit_mode: Pārslēgties uz labošanas režīmu
     switch_translate_mode: Pārslēdzieties uz tulkošanas režīmu
     text_for_character_card:
     title_drag_info:
@@ -1525,7 +1527,7 @@ lv-LV:
     translations_language: Tulkojumi Valoda
     try_again: Mēģini vēlreiz!
     tv: TV
-    tv_titles: TV pārraides nosaukumi
+    tv_titles: Seriālu nosaukumi
     unloading_message: Izlādējot šo lapu, var tikt zaudēti dati. Ko tu gribi darīt...
     unlock_existing_appearances: Atbloķējiet esošos attēlus
     unsaved_change_lost: Visas nesaglabātās izmaiņas tiks zaudētas.
@@ -1566,10 +1568,10 @@ lv-LV:
     page_title: Pievienojiet trūkstošos datus
     selected_language: Izvēlētā valoda
     tv_missing_a_backdrop:
-    tv_missing_a_poster: Trūkst TV pārraides plakāta
-    tv_show_language_distribution: TV pārraides izplatīšanas valoda
-    tv_shows_missing_a_name: Trūkst TV pārraides nosaukuma
-    tv_shows_missing_a_overview: Trūkst TV pārraides apskata
+    tv_missing_a_poster: Seriāli bez plakāta
+    tv_show_language_distribution: Seriāla valodu izkliede
+    tv_shows_missing_a_name: Seriāli bez nosaukuma
+    tv_shows_missing_a_overview: Seriāli bez apskata
   contribution_bible:
     abbreviations:
       collection:
@@ -1622,7 +1624,7 @@ lv-LV:
     character_appearance:
     movie: Filma
     primary_character:
-    tv_show: TV pārraide
+    tv_show: Seriāls
   cookie_popup:
     message: Mēs izmantojam sīkfailus, lai sniegtu jums labāku pieredzi TMDB. Lai uzzinātu vairāk, varat pārskatīt mūsu <a href="%{policy_url}" target="_blank" rel="noopener">sīkfailu politiku</a>. Turpinot lietot TMDB, jūs piekrītat šai politikai.
     ok_button: Labi
@@ -1706,7 +1708,7 @@ lv-LV:
           Šī ir tikai draudzīga piezīme no TMDB satura moderatoriem. Jūsu izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums jau pastāv kā TV pārraide, un tas netiek uzskatīts par derīgu filmu. Vairāk par mūsu satura vadlīnijām varat lasīt [šeit](https://www.themoviedb.org/bible/new_content).
 
           Ja jums ir kādi jautājumi par šo dzēšanu, droši atbildiet uz šo ziņojumu.
-        subject: Tas ir TV pārraide
+        subject: Tas ir seriāls
       '4':
         message: |-
           Sveiki,
@@ -1778,8 +1780,8 @@ lv-LV:
         movies_havent_seen: Filmas, kuras neesmu redzējusi
         show_me: Parādi man
         tooltip: Jāpiesakās, lai atlasītu skatītos vienumus.
-        tv_shows_have_seen: TV pārraides, ko esmu redzējis
-        tv_shows_havent_seen: TV pārraides, kuras neesmu redzējis
+        tv_shows_have_seen: Seriāli, ko esmu redzējis
+        tv_shows_havent_seen: Seriāli, kurus neesmu redzējis
       sort:
         sort_results_by: Kārtot rezultātus pēc
       user_score:
@@ -1820,12 +1822,12 @@ lv-LV:
   discussions:
     actions:
       actions: Darbības
-      close_discussion: Aizvērt diskusiju
+      close_discussion: Aizvērt apspriešanu
       make_private: Padarīt privātu
       make_public: Padarīt publisku
       mark_not_spam: Atzīmēt kā ne surogātpastu
       mark_spam: Atzīmēt kā surogātpastu
-      reopen_discussion: Atkārtoti atvērt diskusiju
+      reopen_discussion: Atkārtoti atvērt apspriešanu
       stop_watching: Beidziet skatīties
       view_activity: Skatīt darbību
       watch: Skatīties
@@ -1854,7 +1856,7 @@ lv-LV:
     category:
       last_reply_with_datetime:
       last_reply_with_datetime_and_username:
-    discussion_activity: Diskusiju aktivitāte
+    discussion_activity: Apspriežu darbības
     email_notifications:
       email_notifications: E-pasta paziņojumi
       subscribe: Abonēt
@@ -1871,10 +1873,10 @@ lv-LV:
       discussion_category: Kategorija
       for_item:
       message: Ziņojums
-      new_discussion: Jauna diskusija
+      new_discussion: Jauna apspriešana
       subject: Priekšmets
-    no_activity: Šai diskusijai nav bijušas nekādas aktivitātes.
-    no_discussions: Nav diskusiju.
+    no_activity: Šajā apspriedē nav bijušas nekādas darbības.
+    no_discussions: Nav apspriešanu.
     pagination:
       post_summary:
       summary:
@@ -1886,14 +1888,14 @@ lv-LV:
       like: Patīk
       messages:
         delete_comment: Noklikšķinot uz 'Jā', šis komentārs tiks neatgriezeniski izdzēsts.
-        delete_discussion: Noklikšķinot uz 'Jā', šī diskusija tiks neatgriezeniski izdzēsta.
+        delete_discussion: Ar klikšķināšanu uz 'Jā' šī apspriešana tiks neatgriezeniski izdzēsta.
         hide_comment: Noklikšķinot uz 'Jā', šis komentārs tiks paslēpts.
-        hide_discussion: Noklikšķinot uz 'Jā', šī diskusija tiks paslēpta.
-        ignore_user: Vai tiešām vēlaties ignorēt šo lietotāju? Visas viņu diskusijas un komentāri pazudīs. Varat noņemt šo bloķēšanu, sava konta iestatījumos atverot lapu “Bloķētie lietotāji”.
-        mark_as_not_spam: Vai tiešām vēlaties atzīmēt šo diskusiju kā derīgu, nevis surogātpastu?
+        hide_discussion: Ar klikšķināšanu uz 'Jā' šī apspriešana tiks paslēpta.
+        ignore_user: Vai tiešām neņemt vērā lietotāju? Pazudīs visas tā apspriešanas un piebildes. Neņemšanu vērā var atcelt, dodoties uz lapu “Vērā neņemtie lietotāji” sava konta iestatījumos.
+        mark_as_not_spam: Vai tiešām atzīmēt šo apspriešanu kā derīgu, nevis kā mēstuli?
         mark_as_spam:
         report_violation:
-        unhide_discussion: Noklikšķinot uz 'Jā', šī diskusija atkal būs redzama.
+        unhide_discussion: Ar klikšķināšanu uz 'Jā' šī diskusija tiks padarīta atkal redzama.
       posted_by_with_datetime:
       quote: Citāts
       reopen_reply: Atkārtoti atvērt un atbildēt
@@ -1918,7 +1920,7 @@ lv-LV:
       subject: Priekšmets
     users_in_discussion:
       no_subscribers: Nav abonentu
-      users_in_discussion: Lietotāji šajā diskusijā
+      users_in_discussion: Lietotāji šajā apspriešanā
     your_account: Jūsu konts
   dmca_takedown:
     form:
@@ -1978,12 +1980,12 @@ lv-LV:
     choose_image: Izvēlieties Attēls
     delete_list: Dzēst sarakstu
     edit_list: Labot sarakstu
-  edits: rediģējumi
+  edits: labojumi
   email:
     confirm_new_email_address: Apstipriniet jauno e-pasta adresi
     does_not_match: E-pasta adreses nesakrīt. Lūdzu, mēģiniet vēlreiz.
     new_email_address: Jauna e-pasta adrese
-    sent_verification_email: Mēs nosūtījām e-pastu uz %{email_address}, lai to pārbaudītu. Pārbaudiet iesūtni (un surogātpasta mapi), lai uzzinātu, kā rīkoties.
+    sent_verification_email: Mēs nosūtījām e-pastu uz %{email_address}, lai to aplicinātu. Jāpārbauda sava iesūtne (un mēstuļu mapi), lai uzzinātu, kā turpināt.
     unsubscribe:
       sad_to_go:
       subscription_changed: Abonementa iestatījumi tika atjaunināti. Paziņojumu iestatījumus var labot, dodoties uz savu <a href="%{account_link}">paziņojumu iestatījumu</a> lapu.
@@ -2142,8 +2144,8 @@ lv-LV:
     min: Atlaisīt pēc izlaišanas datuma (sākot)
   flash:
     email_verified:
-      message: Jūsu e-pasts ir veiksmīgi verificēts. Tagad varat pieteikties.
-      title: E-pasts pārbaudīts
+      message: E-pasta adrese ir veiksmīgi apliecināta. Tagad vari pieteikties.
+      title: E-pasta adrese apliecināta
     invalid_password_code:
       message: Paroles atiestatīšanas kods nav derīgs.
     invalid_session:
@@ -2163,10 +2165,10 @@ lv-LV:
       title: Nepieciešams e-pasts
     resend_verification_email:
       message: |-
-        Mēs uz šo adresi nosūtījām citu verifikācijas e-pasta ziņojumu, ja tā pieder reģistrētam kontam TMDB.
+        Mēs uz šo adresi nosūtījām vēl vienu apliecināšanas e-pasta ziņojumu, ja tā pieder reģistrētam TMDB kontam.
 
-        Noteikti pārbaudiet gan iesūtni, gan surogātpasta mapi!
-      title: Pārbaudes e-pasts nosūtīts
+        Noteikti jāpārbauda gan iesūtne, gan mēstuļu mape.
+      title: Aplicināšanas e-pasta ziņojums ir nosūtīts
     upstream_problem:
       message:
       title: Radās problēma
@@ -2177,15 +2179,15 @@ lv-LV:
         '1': Izbaudiet TMDB bez reklāmām
         '2': Saglabājiet personīgo skatīšanās sarakstu
         '3': Filtrējiet savas tiešsaistes pārraides un atrodiet, ko skatīties
-        '4': Atzīmējiet filmas un TV pārraides, kuras esat redzējis
+        '4': Atzīmē filmas un seriālus, kuri ir redzēti
         '5': Veidojiet pielāgotus sarakstus
         '6': Piedalieties mūsu datu bāzes izaugsmē un uzlabošanā
     discussions:
       catch_up_now: Sāc tagad
       discussions: Diskusijas
     header:
-      quick_snippet_1: Miljoniem filmu, TV šovu un cilvēku, ko atklāt. Izpētiet tūlīt.
-      welcome_1: Sveicināti.
+      quick_snippet_1: Miljoniem filmu, seriālu un cilvēku, ko atklāt. Izpēti tūlīt!
+      welcome_1: Laipni lūdzam!
     panels:
       community:
         join_today: Pievienojieties šodien
@@ -2201,12 +2203,12 @@ lv-LV:
         today: Šodien
         tv: TV
       free_to_watch: Bezmaksas Skatīties
-      latest_trailers: Jaunākie treileri
+      latest_trailers: Jaunākie reklāmkadri
       leaderboard:
-        all_time: Visu laiku rediģēšana
+        all_time: Visa laika labojumi
         leaderboard: Līderu saraksts
         this_week: Labojumi šonedēļ
-      trending: Tendencēm
+      trending: Populārs
       whats_popular: Kas ir populārs
     taw:
       read_the_2018_recap:
@@ -3190,7 +3192,7 @@ lv-LV:
       back_to_parent: atgriezties (vai pie vecākiem, ja nepieciešams)
       close_window: aizveriet atvērtu logu
       focus_search: fokusējiet meklēšanas joslu
-      go_to_edit: dodieties uz rediģēšanas lapu
+      go_to_edit: doties uz labošanas lapu
       last_reply: dodieties uz pēdējo atbildi
       new_discussion: radīt jaunu diskusiju
       next_episode: "(labā bultiņa) pāriet uz nākamo sēriju"
@@ -3213,7 +3215,7 @@ lv-LV:
     enable: Iespējot īsinājumtaustiņus
     groups:
       discussion_pages: Diskusiju lapās
-      edit_pages: Visās rediģēšanas lapās
+      edit_pages: Visās labošanas lapās
       global: Vispārējs
       image_pages: Visās attēlu lapās
       media_pages: Mediju lapās
@@ -3455,9 +3457,9 @@ lv-LV:
     step_3: 3. darbība. Izvēlieties attēlu
     step_4: '4. darbība: kopīgojiet'
   login:
-    login_text_1: Lai izmantotu TMDB rediģēšanas un vērtēšanas iespējas, kā arī saņemtu personiskus ieteikumus, jums būs jāpiesakās savā kontā. Ja jums nav konta, reģistrēšanās kontam ir bezmaksas un vienkārša. <a href="%{signup_link}">Noklikšķiniet šeit</a>, lai sāktu.
-    login_text_2: Ja reģistrējāties, bet nesaņēmāt verifikācijas e-pastu, <a href="%{verification_link}">noklikšķiniet šeit</a>, lai tas tiktu nosūtīts atkārtoti.
-    login_to_your_account: Ielogojieties savā kontā
+    login_text_1: Lai izmantotu TMDB labošanas un vērtēšanas iespējas, kā arī saņemtu personiskus ieteikumus, būs jāpiesakās savā kontā. Ja nav konta, reģistrēšanās ir vienkārša un bez maksas. <a href="%{signup_link}">Klikšķināt šeit</a>, lai sāktu.
+    login_text_2: Ja reģistrējies, bet nesaņēmi apliecināšanas e-pasta ziņojumu, <a href="%{verification_link}">jāklikšķina šeit</a>, lai tas tiktu nosūtīts atkārtoti.
+    login_to_your_account: Pieteikties savā kontā
   login_to_create: Vai nevarat atrast filmu vai TV pārraidi? Piesakieties, lai to izveidotu.
   login_to_edit: Jāpiesakās, lai labotu
   media:
@@ -3530,13 +3532,13 @@ lv-LV:
       delete_all_appearances: Dzēst visu izskatu
       genres_updated: Žanri atjaunināti
       lock_all_appearances: Klikšķināšana uz 'jā' slēgs visus esošos ierakstus, kurus parastie lietotāji nevarēs labot. Moderatori joprojām varēs veikt labojumus.
-      lock_all_cast_crew_description: Noklikšķinot uz 'jā', jūs bloķēsit visus esošos ierakstus, lai regulāri lietotāji tos turpmāk nevarētu rediģēt. Moderatori joprojām varēs veikt labojumus.
+      lock_all_cast_crew_description: Klikšķinot uz "Jā", parastajiem lietotājiem turpmāk tiks liegts labot visus pastāvošos ierakstos. Moderatori joprojām varēs veikt labojumus.
       lock_all_fields: Bloķēt visus laukus
       lock_all_images: Bloķējiet visus attēlus
       lock_existing_cast:
       lock_existing_crew:
       logos: Logotipi
-      page_title: Rediģēt %{name}
+      page_title: Labot %{name}
       placeholders:
         country: Izvēlieties valsti...
         create_person:
@@ -3557,7 +3559,7 @@ lv-LV:
         lock_existing: Bloķēt esošos moto
         locked: Šis moto ir bloķēts
         no_taglines: Nav pievienoti moto.
-        not_found: Moto, kuru mēģinājāt rediģēt, nevarēja atrast.
+        not_found: Sauklis, kuru mēģināji labot, nav atrodams.
         primary: Primārs
         taglines: Moto
         unable_to_delete: Neizdevās izdzēst moto
@@ -3569,7 +3571,7 @@ lv-LV:
         logo_format: Tiek atbalstīti SVG un PNG. Priekšroka tiek dota SVG, jo tie ir neatkarīgi no izšķirtspējas.
         original_title: Sākotnējais nosaukums jāievada preces oriģinālvalodā. Vairumā gadījumu tas atbilstu valodai, kas ievadīta laukā "oriģinālvaloda".
         overview: Rakstot pārskatu, mēģiniet to saglabāt īsu, kodolīgu un bez spoileriem.
-        social_links: Sociālās saites ir paredzētas tikai oficiālajām (verificētajām) lapām. Fanu lapas nav atļautas.
+        social_links: Sabiedriskās saites ir paredzētas tikai oficiālajām (apliecinātām) lapām. Fanu lapas nav atļautas.
       translation_already_exists:
       translation_not_found: Tulkojums %{language} vēl nav izveidots.
       unlock_all_appearances: Noklikšķinot uz 'jā', jūs atbloķēsit visus esošos ierakstus.
@@ -3692,7 +3694,7 @@ lv-LV:
         all: Visi
         movies: Filmas
         tv: TV
-        tv_shows: TV pārraide
+        tv_shows: Seriāli
       years_old:
     rating:
       not_rateable:
@@ -3929,7 +3931,7 @@ lv-LV:
     discover:
       discover: Atklājiet
       movies: Filmas
-      tv_shows: TV pārraides
+      tv_shows: Seriāli
     more:
       more: Vairāk
     movies:
@@ -3982,7 +3984,7 @@ lv-LV:
     public: "%{username} nav novērtējis nevienu TV pārraidi."
   no_recommendations:
     movie:
-    tv_show: Mums nav pietiekami daudz datu, lai ieteiktu TV pārraides, pamatojoties uz %{title}. Varat palīdzēt, novērtējot redzētās TV pārraides.
+    tv_show: Mums nav pietiekami daudz datu, lai ieteiktu seriālus pēc %{title}. Vari palīdzēt ar redzēto seriālus novērtēšanu.
   no_records: Neviens ieraksts nav pievienots.
   no_tv_search_results: Nav nevienas TV pārraides, kas atbilstu jūsu vaicājumam.
   no_watchlist_movies:
@@ -4133,12 +4135,12 @@ lv-LV:
     media_types:
       movie: Filma
       person: Persona
-      tv: TV pārraide
-      tv_show: TV pārraide
+      tv: Seriāls
+      tv_show: Seriāls
     no_results: Nav rezultātu
     no_results_found: Nekas nav atrasts
     rated_movie: Meklēt novērtētās filmas...
-    rated_tv: Meklēt novērtētās TV pārraides...
+    rated_tv: Meklēt novērtētus seriālus...
     recommendations_movie: Meklējiet savus personīgos filmu ieteikumus...
     recommendations_tv: Meklējiet savus personīgos TV ieteikumus...
     search_results: Meklēšanas rezultāti
@@ -4157,7 +4159,7 @@ lv-LV:
       account_settings: Konta iestatījumi
       auto_detect: Automātiski noteikt?
       page_title: Mani iestatījumi
-      resend_verification_email_text: Vai trūkst konta verifikācijas e-pasta? Tālāk ievadiet savu e-pasta adresi, lai to nosūtītu atkārtoti.
+      resend_verification_email_text: Netika saņemts konta apliecināšanas e-pasta ziņojums? Zemak jāievada sava e-pasta adresi, lai to nosūtītu atkārtoti.
       reset_password_text: Ievadiet e-pasta adresi, ko izmantojāt, lai reģistrētos TMDB kontam, un mēs nosūtīsim jums paroles atiestatīšanai nepieciešamās darbības.
     api:
       api: API
@@ -4243,7 +4245,7 @@ lv-LV:
       blocked_users: Bloķētie lietotāji
       connected_apps:
       delete_account: Dzēst kontu
-      edit_profile: Rediģēt profilu
+      edit_profile: Labot profilu
       import_list: Importēšanas saraksts
       notification_settings: Paziņojumu iestatījumi
       sessions: Sesijas
@@ -4281,7 +4283,7 @@ lv-LV:
         remove_background: Vai noņemt fona attēlu?
         set_image: Vai iestatīt fona attēlu?
       change_password: Mainīt paroli
-      edit_profile: Rediģēt profilu
+      edit_profile: Labot profilu
       email:
         invalid_dialog_title: Vai atiestatīt e-pastu?
         reset_button: Atiestatīt un nosūtīt?
@@ -4362,7 +4364,7 @@ lv-LV:
       discussions:
       find_something_to_watch:
       keep_track: Sekojiet līdzi savām iecienītākajām filmām un TV pārraidēm un saņemiet no tām ieteikumus
-      log_movies: Reģistrējiet skatītās filmas un TV pārraides
+      log_movies: Atzīmēt skatītās filmas un seriālus
     by_clicking_agree_to_terms:
     javascript_required: Lai turpinātu, ir nepieciešams JavaScript.
     sign_up_for_account: Reģistrējieties kontam
@@ -4472,8 +4474,8 @@ lv-LV:
       Recaps:
       Teaser: Tīzers
       Teasers: Tīzeri
-      Trailer: Treileris
-      Trailers: Treileri
+      Trailer: Reklāmkadri
+      Trailers: Reklāmkadri
     vimeo_channel: Vimeo kanāls
     visit_vimeo_channel: Uz Vimeo kanālu
     visit_youtube_channel: Uz YouTube kanālu
