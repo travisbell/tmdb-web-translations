@@ -40,18 +40,18 @@ zh-CN:
   Add Profile: 添加人物图片
   Add Season Regular: 添加季固定演员
   Add Title Logo: 添加标题标志
-  Add To Every Season?: 添加到所有季？
+  Add To Every Season?: 是否添加到所有季？
   Add Video: 添加视频
   Add YouTube Video: 添加 YouTube 视频
   Add a New Cast Member: 添加新演员
   Add a New Crew Member: 添加新工作人员
   Add a New Guest Star: 添加新客串演员
-  Add to Watchlist: 添加到待看清单
+  Add to Watchlist: 添加到待看片单
   Add to list: 添加到片单
   Add to your favorite list: 添加到「我的最爱」片单
-  Add to your watchlist: 添加到待看清单
+  Add to your watchlist: 添加到待看片单
   Added By: 添加者
-  Added to Watchlist: 已加入待看清单
+  Added to Watchlist: 已加入待看片单
   Adding & Editing Content: 添加和编辑内容
   Address 1: 地址 1
   Address 2: 地址 2
@@ -78,7 +78,7 @@ zh-CN:
   Attributes: 属性
   Auto: 自动
   Awards: 奖项
-  Back to top: 回到顶部
+  Back to top: 返回顶部
   Backdrop Card View: 背景卡片视图
   Bad Image: 不良图片
   Best Match: 最佳匹配
@@ -215,7 +215,7 @@ zh-CN:
   Help Us By Contributing Missing Data: 帮助我们完善缺失数据
   Hi: 你好
   Hide favorites?: 隐藏我的最爱？
-  Hide items on watchlist?: 隐藏待看清单中的条目？
+  Hide items on watchlist?: 隐藏待看片单中的条目？
   Hide rated?: 隐藏已评分条目？
   Home: 主页
   Homepage: 主页
@@ -256,7 +256,7 @@ zh-CN:
   Login to add this TV show to your favorite list: 登录以添加此剧集到「我的最爱」片单
   Login to add this TV show to your watchlist: 登录以添加此剧集到待看清单
   Login to add this movie to your favorite list: 登录以添加此电影到「我的最爱」片单
-  Login to add this movie to your watchlist: 登录以添加此电影到待看清单
+  Login to add this movie to your watchlist: 登录以添加此电影到待看片单
   Login to create and edit custom lists: 登录以创建和编辑个性化列表
   Login to rate this TV show: 登录以给此剧集评分
   Login to rate this movie: 登录以给此电影评分
@@ -286,7 +286,7 @@ zh-CN:
   New: 新
   New episode airs in: 新剧集播出中
   'No': 否
-  No Language:
+  No Language: 未定义语言
   None: 无
   Notes: 备注
   Notifications: 通知
@@ -297,7 +297,7 @@ zh-CN:
   Offensive or Spam: 攻击或垃圾信息
   Offical Site: 官方网站
   Offline Databases: 离线数据库
-  Ok:
+  Ok: OK
   Origin Country: 原始国家或地区
   Original Air Date: 最初播出日期
   Original Language: 原始语言
@@ -461,7 +461,7 @@ zh-CN:
   Translated Overview: 所选地区语言的剧情简介
   Translated Tagline: 所选地区语言的海报口号
   Translated Title: 所选地区语言的片名
-  Translation:
+  Translation: 翻译
   Translations: 翻译
   Type: 类型
   Type of Problem: 问题类型
@@ -508,7 +508,7 @@ zh-CN:
     login: 登录
     logout: 退出登录
     messages: 消息
-    profile_and_settings: 个人资料与设定
+    profile_and_settings: 个人资料与设置
     ratings: 评分
     settings: 账户设置
     sign_up: 注册
@@ -587,7 +587,7 @@ zh-CN:
       page_title:
         page_owner: 我的最爱
         public: "%{username} 的最爱"
-    filter_by: 筛选：
+    filter_by: 筛选条件：
     filters:
       air_date: 播出日期
       alphabetical: 按首字母排序
@@ -597,10 +597,10 @@ zh-CN:
       most_popular: 最受欢迎的
       my_rating: 我的评分
       newest: 最新的
-      popularity: 排名
+      popularity: 流行度
       rating: 评分
       release_date: 发行日期
-      score: 评分
+      score: 分数
       upcoming: 即将上映
       user_characters: 用户角色
     lists:
@@ -644,7 +644,7 @@ zh-CN:
       recent_activity: 近期活动
       recent_discussions: 近期讨论
       total_edits: 总编辑次数
-      total_ratings: 共评分
+      total_ratings: 总评分次数
       upcoming_watchlist: 待看片单中即将上映的电影
     page_title:
       page_owner: 我的个人资料
@@ -659,12 +659,12 @@ zh-CN:
       page_title:
         page_owner: 我的评分和评价
         public: "%{username} 的评分和评价"
-      ratings_by_year: 按年份评分统计
+      ratings_by_year: 评分各年度分布
     recommendations:
-      my_recommendations: 推荐给我
-      no_recommendations: 没有足够的数据来形成推荐建议。
-      no_recommendations_helper: 尝试添加一些收藏（越多越好）再回来看有何变化。
-      no_recommendations_helper_2: 试着多评价几部电影和电视节目（越多越好），然后给我们一些时间，看看我们能做什么。这些观看建议将随着你观看和评价更多内容而更新。
+      my_recommendations: 为我推荐
+      no_recommendations: 由于数据不足，暂无法给出相关推荐内容。
+      no_recommendations_helper: 请试着多添加一些收藏（越多越好）再回来看有何变化。
+      no_recommendations_helper_2: 试着多对一些电影和电视节目进行评分（越多越好），然后等待一段时间，我们将分析是否能生成相关推荐内容。随着观看与评分内容数量的增加，这些推荐内容也会进行更新。
       page_title: 推荐
     sort_options:
       asc: 升序
@@ -678,24 +678,24 @@ zh-CN:
         public: "%{username} 的待看片单"
       next_month: 下月
       no_upcoming_movies:
-        one: 你的待看清单中没有即将上映的电影。不过其中还有 %{count} 个条目。
-        other: 你的待看清单中没有即将上映的电影。不过其中还有 %{count} 个条目。
+        one: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
+        other: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
       no_upcoming_tv_shows:
-        one: 你的待看清单中有 %{count} 个条目，但其中没有即将播出的剧集。
-        other: 你的待看清单中有 %{count} 个条目，但其中没有即将播出的剧集。
+        one: 你的待看片单中有 %{count} 个条目，但暂无即将播出的剧集。
+        other: 你的待看片单中有 %{count} 个条目，但暂无即将播出的剧集。
       page_title:
-        page_owner: 我的待看清单
-        public: "%{username} 的待看清单"
+        page_owner: 我的待看片单
+        public: "%{username} 的待看片单"
       this_month: 本月
       this_week: 本周
-      view_them: 浏览待看清单。
-  add_to_list: 添加 %{media_title} 到你的片单...
+      view_them: 浏览待看片单。
+  add_to_list: 将 %{media_title} 添加到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
     3rd_party_request: 第三方身份验证请求
     account_required:
-      need_account: 你需要登录以继续
-      title: 需要账户
+      need_account: 需登录以继续！
+      title: 需有账户
     approved_session: 你已核准 %{application_name}。你可以关闭此窗口。
     continue: 如要继续，点击下方的核准按钮。否则，只需关闭此窗口。
     invalid_api_app:
@@ -705,7 +705,7 @@ zh-CN:
       message: 需要令牌来验证用户账户
       title: 缺失令牌
     request_token_approval:
-      message: "{{APP}} 正在请求授予数据读写权限。如果你想做的事是如在 TMDB 外维护你的片单或给电影评分，则必须同意该请求。"
+      message: "{{APP}} 正在请求授予数据读写权限。如果你想在 TMDB 外维护你的片单或给电影评分，则必须同意该请求。"
     statuses:
       completed:
         message: 您已向 <strong>%{application_name}</strong> 授予读写权限。现在您可以回到应用程序并关闭此窗口。您可以在账户设置下的“已连接应用”页面，随时撤消本次授权。
@@ -714,7 +714,7 @@ zh-CN:
         message: "<p>您已拒绝访问 <strong>%{application_name}</strong>。如果这是误操作，或者您想重新启动身份验证过程，请返回应用程序再次请求授权。</p>"
         name: 身份验证已拒绝
       invalid_request_token:
-        message: 您提交的访问令牌无效。 尝试创建一个新的并确保您已正确复制它。 如果您仍然遇到问题，请与您正在使用的应用的开发者联系。
+        message: 您提交的访问令牌无效，通常是因为令牌已过期，可尝试创建新令牌并确保正确复制。如果您仍然遇到问题，请与您正在使用的应用的开发者联系。
         name: 无效的请求令牌
   attributes:
     biography: 个人简介
@@ -744,7 +744,7 @@ zh-CN:
       number: 编号
       release_date_max: 上映日期上限
       release_date_min: 上映日期下限
-      title: 仪式
+      title: 典礼
     nominations:
       one: 1项提名
       other: "%{count} 项提名"
@@ -770,11 +770,11 @@ zh-CN:
     episode_list: 返回集列表
     home: 返回主页
     main: 返回主页面
-    named_episode_group: 回到“%{group_name}”
+    named_episode_group: 返回“%{group_name}”
     season: 返回季
     season_list: 返回季列表
-    to_tmdb: 回到 TMDB
-    top: 回到顶部
+    to_tmdb: 返回TMDB
+    top: 返回顶部
   certifications:
     certification: 分级
     descriptors: 描述符
@@ -782,26 +782,26 @@ zh-CN:
     movies:
       AU:
         '1':
-          meaning: 豁免分级。豁免分级的影片不得包含会引起争议的内容（如通常应评为M级以上的内容）。
+          meaning: 豁免分级。豁免分级的电影不得含有争议内容（即通常被评定为 M 级或更高级别的内容）。
         '2':
           meaning: 普通。内容给人感觉非常平和。
         '3':
-          meaning: 推荐家长指导观看。没有年龄限制。内容给人感觉温和。
+          meaning: 推荐家长指导观看。没有年龄限制，内容给人感觉温和。
         '4':
-          meaning: 推荐给成熟的观众。 没有年龄限制。内容中等影响。
+          meaning: 推荐成熟观众观看。没有年龄限制，内容中等影响。
         '5':
-          meaning: 成熟陪伴。 不适合 15 岁以下的儿童。15 岁以下的儿童必须由家长或监护人陪同。内容有强刺激。
+          meaning: 成熟陪伴，不适合 15 岁以下的儿童。15 岁以下的儿童必须由家长或监护人陪同，内容有强刺激性。
         '6':
-          meaning: 限制年龄 18 岁以上。仅供成年人。内容刺激强烈。
+          meaning: 仅限 18 岁及以上观众观看。仅限成年人，内容刺激性强。
         '7':
-          meaning: 限制年龄 18 岁以上。此评级的影片有色情内容。分级为 X18+ 的电影禁止在澳大利亚各州出售或租赁，只能在澳大利亚首都境内和北领地合法使用。然而，将 X18+ 材料从两个地区进口到任何澳大利亚州是合法的。有露骨的色情内容。
+          meaning: 仅限18 岁及以上观众观看。此评级的影片含有色情内容。分级为 X18+ 的电影禁止在澳大利亚各州出售或租赁，只能在澳大利亚首都境内和北领地合法使用。然而，将 X18+ 材料从两个地区进口到任何澳大利亚州是合法的。存在露骨的色情内容。
         '8':
-          meaning: 拒绝级。禁止在澳大利亚出售或出租；通常也包括进口（如果海关检查和怀疑）。私人互联网观看未被限制，对此类在线内容的合法审查有争议。如果影片的内容超过指南，评级为 RC。内容刺激非常强烈。
+          meaning: 拒绝级。禁止在澳大利亚出售或出租；通常也包括进口（如果海关检查和怀疑）。私人互联网观看未被限制，对此类在线内容的合法审查有争议。如果影片的内容超过指南，评级为 RC。内容刺激性非常强烈。
       BG:
         '1':
-          meaning: 适合儿童。
+          meaning: 适合儿童观看。
         '2':
-          meaning: 无年龄限制。
+          meaning: 观看无年龄限制。
         '3':
           meaning: 不推荐 12 岁以下的儿童观看。
         '4':
@@ -831,7 +831,7 @@ zh-CN:
         '4':
           meaning: 18 岁以下必须由成人陪同。在加拿大东部滨海诸省和曼尼托巴省，禁止 14 岁以下的少儿观看。
         '5':
-          meaning: 限 18 岁及以上。电影主题是露骨性行为和暴力行为。
+          meaning: 仅限 18 岁及以上。电影主题是露骨性行为和暴力行为。
       CA-QC:
         '0':
           meaning: 无分级信息。
@@ -849,11 +849,11 @@ zh-CN:
         '2':
           meaning: 不允许 6 岁以下儿童。
         '3':
-          meaning: 允许 12 岁及以上，6 至 11 岁的儿童必须有父母或法定监护人陪同。
+          meaning: 允许 12 岁及以上观看，6 至 11 岁的儿童必须有父母或法定监护人陪同。
         '4':
-          meaning: 允许 16 岁及以上，不允许低于此年龄。
+          meaning: 允许 16 岁及以上，低于此年龄禁止观看。
         '5':
-          meaning: 不允许年青人，仅成人。
+          meaning: 禁止青少年观看，仅成人。
       DK:
         '0':
           meaning: 无分级信息
@@ -1339,15 +1339,15 @@ zh-CN:
     add_missing_character: 添加缺少的角色
     add_new_appearance: 添加新的形象
     add_new_appearance_links_selection: 添加一个新的形象将把你的选择链接到已经列出的当前形象。
-    add_new_group: 添加新的组
-    add_the_name_of_the_character: 添加角色的名字
+    add_new_group: 添加新组
+    add_the_name_of_the_character: 添加角色名
     add_to_tmdb: 添加到 TMDB
     add_translation: 添加翻译
-    add_valid_translation: 请添加有效的翻译。
-    adding_easy: 添加到 TMDB 很简单，也很容易
+    add_valid_translation: 请添加有效翻译。
+    adding_easy: 添加到 TMDB 很简单，也很容易。
     all_done: 全部完成了？
     all_languages: 全部语言
-    all_record_exists_in_group: 所有的记录都已经存在于当前组中。
+    all_record_exists_in_group: 当前组中已有全部记录。
     already_added: 已添加
     alter_popularity: 修改受欢迎程度
     are_you_sure: 您确定要继续吗？
@@ -1363,7 +1363,7 @@ zh-CN:
     backdrop_window_title: 选择一张角色背景图片
     below_is_example_text: 下面是蝙蝠侠页面的示例。请仔细阅读下面的信息，<br>并在保存页面并将其启动到 TMDB 之前进行验证。
     cancel_edits: 取消编辑
-    character_backdrop_photo: 角色背景幕布图片
+    character_backdrop_photo: 角色背景图片
     character_bio: 角色介绍
     character_header_images: 角色头图
     character_login_signup_text: 你需要要登录后继续。点击<a href="%{login}">这里</a>登录，或者点击<a href="%{signup}">这里</a>注册。
@@ -1376,7 +1376,7 @@ zh-CN:
     check_it_out: 看看吧
     check_out_bible: <p>请查看 <a target="_blank" href='%{bible}'>贡献说明</a> 以获取有关添加到电影数据库的更多信息。</p>
     choose_a_character: 选择一个角色
-    choose_a_character_info: 添加一个角色意味着将扮演特定角色的男演员或女演员的外观连接在一起。一个例子是《黑暗骑士三部曲》(三部电影)，克里斯汀·贝尔在其中扮演布鲁斯·韦恩/蝙蝠侠。那个角色的三种外表等于一个角色。
+    choose_a_character_info: 添加一个角色意味着将演员饰演特定角色的形象连接起来。例如《黑暗骑士三部曲》（三部电影），克里斯蒂安·贝尔在其中扮演布鲁斯·韦恩/蝙蝠侠。那三次出演该角色等同于一个角色。
     choose_backdrop: 选择背景
     choose_header_images: 选择头图
     choose_reason: 你需要选择一个原因。
@@ -1388,8 +1388,8 @@ zh-CN:
     correct_errors_in_forms: 请改正表格中的错误。
     create_overview: 创建简介
     create_overview_bio_help: 请为这个特定的版本写一个简介，在那里的角色有许多化身。
-    create_overview_help: 帮助我们在他们所做的一系列电影/电视亮相中补充这个角色的简介。
-    create_overview_name_help: 请仅在有特定原因时更改角色名称或更改为他们所知道的常见名称。
+    create_overview_help: 请助我们完善此角色在其出演的一系列电影及电视作品中的人物简介。
+    create_overview_name_help: 请仅在有特定原因时更改角色名称，或更改为众人熟知的常用名。
     create_overview_note: 演员及其头像无法进行编辑
     default_language_results_text: 结果默认为“en-US”，因为在所选语言中没有找到匹配的搜索文本!
     delete_backdrop: 删除背景
@@ -1398,12 +1398,12 @@ zh-CN:
     delete_group_check: 你确定要删除这个组
     do_you_want_continue: 你想继续吗？
     done_editing: 编辑完了吗？
-    drag_title: 为新的组拖到标题
+    drag_title: 为新组拖动标题
     edit_groups: 编辑组
     edit_groups_description: 下面是角色页的模板。请仔细阅读并添加组名称，<br>简介和图片来完成该页面的填写。
     edit_header_images: 编辑头图
     edit_label: 编辑
-    edit_mode: 你在编辑模式下
+    edit_mode: 你处于编辑模式下
     edit_translate: 编辑和翻译
     edit_translating: 编辑和翻译
     editing_character_name_uv: "<h3>嘿！<strong>%{user}</strong>！</h3>观察到您正在使用建议名称创建角色。你想继续吗?"
@@ -1421,7 +1421,7 @@ zh-CN:
     find_character_note: 找到您最喜欢的角色，标题等
     finished_selections: 是否选择完毕？
     found_everything: 找到了什么吗？
-    frequent_translations: 常见的翻译
+    frequent_translations: 常见翻译
     group_name: 组名
     group_name_already_exists: 包含条目集的组已存在。是否要创建组。
     group_name_required: 组名是必选项
@@ -1433,7 +1433,7 @@ zh-CN:
     help_our_mods_info: 跟我们说说这个角色吧!这是您和审核团队之间的私人领域。你提供的任何关于角色的信息以及你创建它的原因，都会在他们审查你的页面时有所帮助。
     icon: 图标
     image_change_1: 此图像与所选组中的媒体记录关联，如果继续操作，所链接媒体的人物关联也将改变!
-    image_media_association: 这个图像与一个媒体记录相关联，如果你继续，链接的媒体的人物关联也会改变!
+    image_media_association: 该图像与媒体记录关联，如果继续进行，关联媒体的人脉关系将会改变！
     in_translate_mode: 您处于翻译模式
     inline_edit_original_name: 原始名称
     join_community_tmdb: 加入我们的社区来建设 The Movie DB 。
@@ -2965,28 +2965,28 @@ zh-CN:
     Second Assistant Camera: 第二摄影助理
     Second Assistant Director: 第二副导演
     Second Assistant Director Trainee: 第二副导演实习生
-    Second Assistant Production Coordinator:
-    Second Assistant Sound:
-    Second Assistant Unit Manager:
-    Second Company Grip:
+    Second Assistant Production Coordinator: 第二助理制片协调员
+    Second Assistant Sound: 第二助理音效师
+    Second Assistant Unit Manager: 第二助理部门经理
+    Second Company Grip: 第二摄制组场务
     Second Film Editor: 第二剪辑
-    Second Second Assistant Director:
+    Second Second Assistant Director: 第二副导演助理
     Second Unit: 第二剧组
     Second Unit Cinematographer: 第二组摄影
     Second Unit Director: 第二组导演
     Second Unit Director of Photography: 第二组摄影指导
-    Second Unit First Assistant Director:
-    Second Unit Location Manager:
+    Second Unit First Assistant Director: 第二摄制组第一助理导演
+    Second Unit Location Manager: 第二摄制组场地经理
     Security: 安全
-    Security Coordinator:
-    Senior Animator:
+    Security Coordinator: 安全协调员
+    Senior Animator: 高级动画师
     Senior Colorist: 高级调色师
-    Senior Digital Intermediate Colorist:
+    Senior Digital Intermediate Colorist: 高级数字中间片调色师
     Senior Executive Consultant: 高级执行顾问
-    Senior Generalist:
-    Senior Modeller:
+    Senior Generalist: 高级多面手
+    Senior Modeller: 高级模型师
     Senior Story Editor: 高级故事剪辑师
-    Senior Visual Effects Supervisor:
+    Senior Visual Effects Supervisor: 高级视觉效果主管
     Sequence Artist: 序列艺术家
     Sequence Lead: 序列指挥
     Sequence Supervisor: 序列指导
@@ -2996,30 +2996,30 @@ zh-CN:
     Series Writer: 剧集编剧
     Set Buyer: 设置买家
     Set Costumer: 布景供应
-    Set Decorating Coordinator:
+    Set Decorating Coordinator: 置景协调员
     Set Decoration: 布景装饰
     Set Decoration Buyer: 布景装饰采购
     Set Designer: 布景设计师
-    Set Dresser:
+    Set Dresser: 置景员
     Set Dressing Artist: 布景艺术师
-    Set Dressing Buyer:
+    Set Dressing Buyer: 置景采购人员
     Set Dressing Manager: 布景经理
     Set Dressing Production Assistant: 布景制作助理
     Set Dressing Supervisor: 布景总监
     Set Medic: 医疗组
-    Set Painter:
-    Set Photographer:
+    Set Painter: 置景画师
+    Set Photographer: 置景摄影师
     Set Production Assistant: 布景师助理
     Set Production Intern: 实习布景师
-    Set Propsman:
+    Set Propsman: 置景道具员
     Set Runner: 场务
-    Set Supervisor:
+    Set Supervisor: 置景主管
     Sets & Props Artist: 布景及道具艺术师
     Sets & Props Supervisor: 布景及道具总监
     Settings: 设置
     Shading: 着色处理
     Shoe Design: 鞋设计
-    Shop Electric:
+    Shop Electric: 电器商店
     Short Story: 短篇小说
     Sign Painter: 签约画家
     Simulation & Effects Artist: 模拟和效果师
@@ -3042,7 +3042,7 @@ zh-CN:
     Sound Mixer: 录音师（收音师）
     Sound Montage Associate: 声音蒙太奇助理
     Sound Post Production Coordinator: 声音后期制作统筹
-    Sound Post Supervisor:
+    Sound Post Supervisor: 声音后期主管
     Sound Re-Recording Assistant: 混音助理
     Sound Re-Recording Mixer: 混音师
     Sound Recordist: 收音师
@@ -3050,18 +3050,18 @@ zh-CN:
     Sound Technical Supervisor: 音响技术指导
     Special Effects: 特效
     Special Effects Assistant: 特效助理
-    Special Effects Best Boy:
+    Special Effects Best Boy: 特效助理
     Special Effects Coordinator: 特效协调
     Special Effects Key Makeup Artist: 主特效化妆师
     Special Effects Makeup Artist: 特效化妆师
-    Special Effects Manager:
+    Special Effects Manager: 特效经理
     Special Effects Supervisor: 特效总监
-    Special Effects Technician:
+    Special Effects Technician: 特效技术员
     Special Guest: 特邀嘉宾
     Special Guest Director: 特邀指导
     Special Props: 特殊道具师
     Special Sound Effects: 特殊音效
-    Specialized Driver:
+    Specialized Driver: 专业司机
     Sponsorship Coordinator: 赞助协调员
     Sponsorship Director: 赞助总监
     Staff Writer: 特约撰稿人
@@ -3074,10 +3074,10 @@ zh-CN:
     Standby Rigger: 后备起重工
     Steadicam Operator: 斯坦尼康操作员
     Steadycam: 摄影稳定装置
-    Stereoscopic Coordinator:
-    Stereoscopic Editor:
-    Stereoscopic Supervisor:
-    Stereoscopic Technical Director:
+    Stereoscopic Coordinator: 立体协调员
+    Stereoscopic Editor: 立体编辑
+    Stereoscopic Supervisor: 立体主管
+    Stereoscopic Technical Director: 立体技术导演
     Still Photographer: 剧照摄影
     Story: 故事
     Story Artist: 故事艺术家
@@ -3085,35 +3085,35 @@ zh-CN:
     Story Coordinator: 故事统筹
     Story Developer: 故事开发者
     Story Editor: 故事剪辑师
-    Story Manager:
-    Story Supervisor:
+    Story Manager: 故事经理
+    Story Supervisor: 故事主管
     Storyboard: 故事板
     Storyboard Artist: 分镜师
     Storyboard Assistant: 分镜助理
     Storyboard Designer: 分镜设计师
-    Street Casting:
+    Street Casting: 街头选角
     Studio Teacher: 片厂教师
     Stunt Coordinator: 特技协调
     Stunt Double: 特技替身
     Stunt Driver: 特技车手
     Stunts: 特技（武师）
     Stunts Coordinator: 特技协调
-    Supervising ADR Editor:
+    Supervising ADR Editor: 监督自动对白替换编辑
     Supervising Animation Director: 动画指导总监
     Supervising Animator: 动画总监
-    Supervising Armorer:
+    Supervising Armorer: 监督军械师
     Supervising Art Director: 副美术指导
-    Supervising Carpenter:
-    Supervising Dialogue Editor:
+    Supervising Carpenter: 监督木匠
+    Supervising Dialogue Editor: 监督对白编辑
     Supervising Editor: 剪辑指导
     Supervising Film Editor: 影片剪辑总监
-    Supervising Music Editor:
+    Supervising Music Editor: 监督音乐编辑
     Supervising Producer: 制片总监
     Supervising Sound Editor: 声音剪辑总监
     Supervising Sound Effects Editor: 音效编辑总监
     Supervising Technical Director: 技术指导总监
     Supervisor of Production Resources: 制片资源主管
-    Swing:
+    Swing: 多能工
     Systems Administrators & Support: 系统管理员及支持
     Tailor: 裁缝
     Tattoo Designer: 纹身设计师
@@ -3125,20 +3125,20 @@ zh-CN:
     Teleplay: 电视剧剧本
     Temp Music Editor: 临时音乐编辑
     Temp Sound Editor: 临时声音剪辑
-    Textile Artist:
+    Textile Artist: 纺织艺术家
     Thanks: 感谢
     Theatre Play: 剧院播放
     Theme Song Performance: 主题曲表演
-    Third Assistant "A" Camera:
-    Third Assistant "B" Camera:
-    Third Assistant "C" Camera:
-    Third Assistant "D" Camera:
+    Third Assistant "A" Camera: "“A” 摄像机第三助理"
+    Third Assistant "B" Camera: "“B” 摄像机第三助理"
+    Third Assistant "C" Camera: "“C” 摄像机第三助理"
+    Third Assistant "D" Camera: "“D” 摄像机第三助理"
     Third Assistant Camera: 第三摄影助理
     Third Assistant Director: 第三副导演
     Title Designer: 标题设计师
     Title Graphics: 标题图形
     Title Illustration: 标题插图
-    Trainee Production Coordinator:
+    Trainee Production Coordinator: 实习制片协调员
     Transcriptions: 改编
     Translator: 翻译
     Transportation Captain: 运输队长
@@ -3146,9 +3146,9 @@ zh-CN:
     Transportation Coordinator: 运输协调员
     Travel Coordinator: 旅行协调员
     Treatment: 文学脚本
-    Truck Costumer:
-    Truck Production Assistant:
-    Truck Supervisor:
+    Truck Costumer: 卡车顾客
+    Truck Production Assistant: 卡车制作助理
+    Truck Supervisor: 卡车主管
     Ultimate Arm Operator: 终极手臂操作员
     Underwater Camera: 水下摄像
     Underwater Director of Photography: 水下摄影总监
@@ -3159,7 +3159,7 @@ zh-CN:
     Unit Medic: 单位医生
     Unit Production Manager: 剧组制片主任
     Unit Publicist: 剧组公关
-    Unit Swing:
+    Unit Swing: 第二组导演
     Utility Sound: 实用声音
     Utility Stunts: 剧组特技
     VFX Artist: VFX 艺术
@@ -3169,7 +3169,7 @@ zh-CN:
     VFX Production Coordinator: VFX 制作协调
     VFX Supervisor: 视觉特效指导
     Vehicles Coordinator: 车辆协调员
-    Vehicles Wrangler:
+    Vehicles Wrangler: 车辆管理员
     Video Assist Operator: 录像辅助操作员
     Video Game: 电子游戏
     Video Report: 视频报告
@@ -3202,7 +3202,7 @@ zh-CN:
     Wardrobe Specialized Technician: 服饰专业技术员
     Wardrobe Supervisor: 服饰主管
     Weapons Master: 武器大师
-    Weapons Wrangler:
+    Weapons Wrangler: 武器管理员
     Web Designer: 网页设计师
     Wig Designer: 假发设计师
     Wigmaker: 假发制作
@@ -3250,205 +3250,205 @@ zh-CN:
     view_shortcuts: 查看快捷键
   keywords:
     tone:
-      absurd:
-      admiring:
-      adoring:
-      affectation:
-      aggressive:
-      ambiguous:
-      ambivalent:
-      amused:
-      angry:
-      antagonistic:
-      anxious:
-      apathetic:
-      apologetic:
-      appreciative:
-      approving:
-      arrogant:
-      assertive:
-      audacious:
-      authoritarian:
-      awestruck:
-      baffled:
-      bewildered:
-      biting:
-      bitter:
-      blunt:
-      bold:
-      brisk:
+      absurd: 抽象
+      admiring: 令人欣赏
+      adoring: 让人爱慕
+      affectation: 喜爱
+      aggressive: 激烈
+      ambiguous: 模糊
+      ambivalent: 矛盾
+      amused: 好笑
+      angry: 生气
+      antagonistic: 敌对
+      anxious: 焦虑
+      apathetic: 冷漠
+      apologetic: 愧疚
+      appreciative: 令人欣赏
+      approving: 满意
+      arrogant: 傲慢
+      assertive: 果断
+      audacious: 勇敢
+      authoritarian: 独裁主义
+      awestruck: 震感
+      baffled: 迷惑
+      bewildered: 困惑
+      biting: 刺痛
+      bitter: 苦涩
+      blunt: 生硬
+      bold: 勇敢
+      brisk: 轻快
       burlesque:
-      callous:
-      calm:
-      candid:
-      casual:
-      cautionary:
-      celebratory:
-      cheerful:
-      cliché:
-      clinical:
-      comforting:
-      commanding:
-      compassionate:
-      complex:
-      complicated:
-      conceited:
-      condescending:
-      critical:
-      cruel:
-      curious:
-      cynical:
-      defiant:
-      demeaning:
-      depressed:
-      depressing:
-      derisive:
-      derogatory:
-      desperate:
-      detached:
-      didactic:
-      dignified:
-      direct:
-      disapproving:
-      disdainful:
-      disgusted:
-      disheartening:
-      disrespectful:
-      distressing:
-      disturbed:
-      domineering:
-      doubtful:
-      dramatic:
-      dreary:
-      dubious:
-      earnest:
-      egotistical:
-      embarrassed:
-      empathetic:
-      enchant:
-      enraged:
-      enthusiastic:
-      euphoric:
-      excited:
-      exhilarated:
-      exuberant:
-      factual:
-      familiar:
-      farcical:
-      forceful:
-      foreboding:
-      frantic:
-      frightened:
-      frustrated:
-      furious:
-      gentle:
-      ghoulish:
-      gloomy:
-      grand:
-      grave:
-      grim:
-      hard:
-      harsh:
-      hilarious:
-      hopeful:
-      hopeless:
-      horrified:
-      hostile:
-      humorous:
-      impartial:
-      incredulous:
-      indifferent:
-      inflammatory:
-      informative:
-      insecure:
-      inspirational:
-      instructive:
-      intense:
-      intimate:
-      introspective:
-      ironic:
-      irreverent:
-      joyful:
-      joyous:
-      lighthearted:
-      loving:
-      lyrical:
-      macabre:
-      malicious:
-      matter of fact:
-      mean spirited:
-      meditative:
-      melancholy:
-      melodramatic:
-      mischievous:
-      mocking:
-      modest:
-      mourning:
-      mysterious:
-      negative:
-      nervous:
-      nostalgic:
-      objective:
-      ominous:
-      optimistic:
-      paranoid:
-      pathetic:
-      pessimistic:
-      philosophical:
-      playful:
-      powerful:
-      pretentious:
-      provocative:
-      psychotic:
-      questioning:
-      reflective:
-      relaxed:
-      reminiscent:
-      ridiculous:
-      romantic:
-      sarcastic:
-      sardonic:
-      satirical:
-      scathing:
-      sceptical:
-      sentimental:
-      serene:
-      serious:
-      shocking:
-      sincere:
-      sinister:
-      skeptical:
-      somber:
-      speculative:
-      stern:
-      straightforward:
-      subjective:
-      submissive:
-      suspenseful:
-      suspicious:
-      sympathetic:
-      taunting:
-      tense:
-      thoughtful:
-      tragic:
-      unassuming:
-      understated:
-      urgent:
-      vexed:
-      vibrant:
-      vindictive:
-      whimsical:
-      wistful:
-      witty:
-      wonder:
-      wry:
-      zealous:
+      callous: 冷酷无情
+      calm: 镇定
+      candid: 坦率
+      casual: 随意
+      cautionary: 谨慎
+      celebratory: 庆贺
+      cheerful: 欢快
+      cliché: 陈词滥调
+      clinical: 冷静
+      comforting: 令人欣慰
+      commanding: 威风凛凛
+      compassionate: 同情
+      complex: 复杂
+      complicated: 难懂
+      conceited: 自负
+      condescending: 居高临下
+      critical: 批判
+      cruel: 残酷
+      curious: 好奇
+      cynical: 愤世嫉俗
+      defiant: 反叛
+      demeaning: 屈尊
+      depressed: 抑郁
+      depressing: 令人抑郁
+      derisive: 让人嘲笑
+      derogatory: 贬低的
+      desperate: 绝望
+      detached: 超然
+      didactic: 说教性
+      dignified: 有尊严
+      direct: 直接
+      disapproving: 不赞成
+      disdainful: 轻蔑
+      disgusted: 厌恶
+      disheartening: 使人沮丧
+      disrespectful: 无礼
+      distressing: 悲伤
+      disturbed: 焦虑
+      domineering: 专横
+      doubtful: 怀疑
+      dramatic: 戏剧性
+      dreary: 沉闷
+      dubious: 可疑
+      earnest: 诚挚
+      egotistical: 任性
+      embarrassed: 尴尬
+      empathetic: 富有同情心
+      enchant: 入迷
+      enraged: 恼火
+      enthusiastic: 热情
+      euphoric: 欣快
+      excited: 兴奋
+      exhilarated: 振奋
+      exuberant: 兴高采烈
+      factual: 事实
+      familiar: 熟悉
+      farcical: 滑稽
+      forceful: 有魄力
+      foreboding: 预感
+      frantic: 紧张忙乱
+      frightened: 受惊
+      frustrated: 沮丧
+      furious: 狂怒
+      gentle: 温柔
+      ghoulish: 毛骨悚然
+      gloomy: 忧郁
+      grand: 宏伟
+      grave: 庄严
+      grim: 严肃
+      hard: 困难
+      harsh: 残酷
+      hilarious: 可笑
+      hopeful: 有希望
+      hopeless: 绝望
+      horrified: 惊恐
+      hostile: 敌对
+      humorous: 幽默
+      impartial: 公正
+      incredulous: 怀疑
+      indifferent: 冷淡
+      inflammatory: 激动
+      informative: 信息丰富
+      insecure: 无信心
+      inspirational: 鼓舞人心
+      instructive: 深受启发
+      intense: 严肃紧张
+      intimate: 亲密
+      introspective: 内省
+      ironic: 讽刺
+      irreverent: 无礼
+      joyful: 开心
+      joyous: 高兴
+      lighthearted: 无忧无虑
+      loving: 钟爱
+      lyrical: 抒情
+      macabre: 可怕
+      malicious: 恶意
+      matter of fact: 事实
+      mean spirited: 心胸狭隘
+      meditative: 耽于默想
+      melancholy: 忧郁
+      melodramatic: 夸张
+      mischievous: 恶作剧
+      mocking: 嘲讽
+      modest: 谦逊
+      mourning: 沉痛哀悼
+      mysterious: 神秘
+      negative: 悲观
+      nervous: 神情紧张
+      nostalgic: 怀旧
+      objective: 客观
+      ominous: 不祥
+      optimistic: 乐观
+      paranoid: 妄想
+      pathetic: 可怜
+      pessimistic: 悲观
+      philosophical: 哲学性
+      playful: 幽默
+      powerful: 强烈
+      pretentious: 自命不凡
+      provocative: 挑衅性
+      psychotic: 精神病
+      questioning: 表示怀疑
+      reflective: 让人沉思
+      relaxed: 放松
+      reminiscent: 怀旧
+      ridiculous: 荒谬
+      romantic: 浪漫
+      sarcastic: 讽刺
+      sardonic: 冷笑
+      satirical: 讥讽
+      scathing: 严厉
+      sceptical: 怀疑
+      sentimental: 多愁善感
+      serene: 平静
+      serious: 严肃
+      shocking: 令人震惊
+      sincere: 真诚
+      sinister: 邪恶
+      skeptical: 怀疑
+      somber: 忧郁
+      speculative: 推测性
+      stern: 严厉
+      straightforward: 直率
+      subjective: 主观
+      submissive: 卑躬屈膝
+      suspenseful: 悬疑
+      suspicious: 感觉可疑
+      sympathetic: 同情
+      taunting: 嘲弄
+      tense: 紧张焦虑
+      thoughtful: 体贴入微
+      tragic: 悲剧
+      unassuming: 谦逊
+      understated: 轻描淡写
+      urgent: 紧急
+      vexed: 苦恼
+      vibrant: 充满活力
+      vindictive: 怀恨在心
+      whimsical: 异想天开
+      wistful: 失意
+      witty: 诙谐
+      wonder: 惊叹
+      wry: 揶揄
+      zealous: 热情
   list_info:
     average_rating: 平均分
-    collaborate:
+    collaborate: 合作
     hide_comments: 隐藏评论
     image_selected: 已选择
-    items_not_seen:
+    items_not_seen: 我未观看的条目
     items_on_list:
       many: 条目数
       one: 条目数
@@ -3518,28 +3518,28 @@ zh-CN:
       helper_tooltip: 完成度数值可以帮你了解数据库中一个条目的资料完整程度。
       missing_data:
         fields:
-          air_date:
-          backdrop:
-          biography:
-          cast_min_4:
-          created_by:
-          credits:
-          crew_min_2:
-          director:
-          episode:
-          genres:
-          guest_stars_min_2:
-          name:
-          overview:
-          parts:
+          air_date: 播出日期
+          backdrop: 背景
+          biography: 生平
+          cast_min_4: 演职人员（4个或更多）
+          created_by: 信誉创建
+          credits: 电影或电视作品的演职员表
+          crew_min_2: 工作人员（2个或更多演职员表条目）
+          director: 导演
+          episode: 集 (1集或更多)
+          genres: 题材
+          guest_stars_min_2: 客串明显（2个或更多）
+          name: 译名
+          overview: 简要介绍
+          parts: 部分（1部分或更多）
           poster: 海报
-          profile:
-          regular_cast_min_4:
-          release_date:
-          title:
-          video:
-          writer:
-        summary:
+          profile: 个人资料图片
+          regular_cast_min_4: 固定演职员（4 个或更多）
+          release_date: 上映日期
+          title: 译名
+          video: 视频
+          writer: 作家
+        summary: 似乎缺少以下数据： <strong>%{language}</strong> 或 <strong>%{fallback_language}</strong>...
       scale:
         '0': 从某个地方开始吧……
         '1': 嗨，这是个开始。
@@ -3583,25 +3583,25 @@ zh-CN:
       success_fields_locked: 此字段已锁定。
       tagline:
         add_tagline: 添加标语
-        already_exists:
+        already_exists: 标语已存在
         lock_existing: 锁定现有标语
         locked: 这个标语是锁定的
         no_taglines: 没有添加任何标语。
         not_found: 我们找不到你想编辑的标语。
-        primary:
+        primary: 主要
         taglines: 标语
         unable_to_delete: 标语不能被删除。
       tooltips:
         adult: 一般来说，此项仅用于标记色情内容。更多信息请查阅 <a href="/bible/movie#59f73b759251416e71000004">数据编辑参考手册</a>
         bible: 如需在 TMDB 编辑影视资料的相关帮助，点击此 '?' 按钮阅读数据编辑参考手册。
-        character:
+        character: 角色名称应按照其在%{media}的显示方式输入。
         homepage: 仅官方主页，影迷页不允许
         logo_format: 支持 SVG 和 PNG 格式。推荐 SVG 格式，因为 SVG 格式支持无级缩放。
         original_title: 原始片名应以条目的原始语言书写，通常和“原始语言”栏选择的语言一致。
         overview: 剧情简介请尽量简明扼要，不要剧透。
         social_links: 社交链接仅用于填写（已认证的）官方网站，不允许填写粉丝网站 。
-      translation_already_exists:
-      translation_not_found:
+      translation_already_exists: "%{language}翻译已经存在。"
+      translation_not_found: "%{language}翻译还未创建。"
       unlock_all_appearances: 通过单击“是”，您将解锁所有现有记录。
       upload_logo: 上传徽标
       videos:
@@ -3639,7 +3639,7 @@ zh-CN:
           no_records: 未添加别名。
         cast:
           no_records: 未添加演员。
-          person_required:
+          person_required: 需要一人。
         confirm_collection: |-
           <p>系列是 TMDB 将续集收集在一起以提供便利的一种组织形式。虽然该方式有时存在争议，但系列并不应该将同一「宇宙」的电影收集在一起。对于前述情况，请 <a href="%{list_link}" target="_blank" rel="noopener">创建一个片单</a>。更多系列的相关信息，请查阅 <a href="%{docs_link}" target="_blank" rel="noopener">我们的文档</a></p>
 
@@ -3707,23 +3707,23 @@ zh-CN:
       edit:
         alternative_names:
           no_records: 未添加别名。
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: 当<strong>%{name} (%{language})</strong>为空时，无法设置主要译文。
+        confirm_primary_translation: 该人物已有初始翻译(%{i18n_tag})。
         errors:
-          invalid_unicode:
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          primary_name_migration:
-          primary_translation:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        primary_translation:
-        translated_name_tooltip:
+          invalid_unicode: 检测到无效字符。
+          leading_whitespace: 检测到首端空白字符。
+          locked_name: "<strong>%{name} (%{language})</strong>已被锁定。"
+          name_required: 无法迁移空白的%{name} (%{language})区域。
+          numbers: 检测到无效数字字符。
+          primary_name_migration: 无法从主要译文中迁移<strong>%{name} (%{language})</strong>。
+          primary_translation: 翻译已经存在。
+          special_characters: 检测到无效字符。
+          trailing_whitespace: 检测到尾端空白字符。
+        migration_success: 名称迁移成功。
+        move_name: 将姓名移动至其他语言
+        move_name_tooltip: 将<strong> %{name} (%{language})</strong>移动至选定语言。
+        primary_translation: 初始翻译
+        translated_name_tooltip: 如果人物在母语中的艺名在%{language}中不易认读，可考虑添加译名。
       gender:
         female: 女
         male: 男
@@ -3735,7 +3735,7 @@ zh-CN:
         tv_shows: 剧集
       years_old: "%{count} 岁"
     rating:
-      not_rateable:
+      not_rateable: 该条目暂不可评分。
       rated_with_rating: 已评分 %{value}
       rating_count:
         one: "%{count} 个评分"
@@ -3784,34 +3784,34 @@ zh-CN:
           logged_in: 写评价
           public: 登录以撰写评价。
     translations:
-      add_biography:
-      add_homepage:
-      add_name:
-      add_overview:
-      add_runtime:
-      add_tagline:
-      add_title:
-      biography:
-      name:
-      overview:
-      taglines:
-      title:
+      add_biography: 添加个人简介
+      add_homepage: 添加主页
+      add_name: 添加姓名
+      add_overview: 添加概要
+      add_runtime: 添加播放时间
+      add_tagline: 添加标语
+      add_title: 添加标题
+      biography: 生平简介
+      name: 姓名
+      overview: 简要介绍
+      taglines: 标语
+      title: 标题
     tv_episode:
       edit:
-        episode_type_confirm:
-        episode_type_label:
+        episode_type_confirm: 本季已有%{episode_type} 剧集。点击“是”确认选择。
+        episode_type_label: 聚集类型
         episode_types:
-          finale:
-          mid_season:
-          standard:
+          finale: 季最终集
+          mid_season: 季中最终集
+          standard: 标准
         guest_stars:
           no_records: 未添加客串演员。
         screened_as_part_of_season: 是的，作为季的一部分
         screened_confirm: 如果本集已在电影节或电影院放映过，请点击“是”以继续。
         screened_label: 本集在电影院上映吗？
       episode_label:
-        finale:
-        mid_season:
+        finale: 季最终集
+        mid_season: 季中最终集
       episode_selector:
         current_episode: 第 %{season_number} 季第 %{episode_number} 集
         episode: "%{episode_name}（第 %{season_number} 季第 %{episode_number} 集） "
@@ -4137,7 +4137,7 @@ zh-CN:
       hd: 未找到 HD 报价。
       none: 无 %{title} 报价。
       sd: 未找到 SD 报价。
-    page_title:
+    page_title: 我在哪里可以观看%{media_name}?
     seasons:
       many: "%{count} 季"
       other: "%{count} 季"
@@ -4173,6 +4173,8 @@ zh-CN:
       as_job: "— %{job}"
   placeholder:
     primary_character_name: 主要角色名称
+  report:
+    details_placeholder:
   reset_password_text: 在下方输入你的用户名开始重置密码。
   sample:
   search:
@@ -4222,9 +4224,9 @@ zh-CN:
         directory: 目录
         overview: 概览
         regenerate:
-          confirm_text:
-          regenerate_key:
-          summary_text:
+          confirm_text: 这将 <strong>停用</strong> 旧有 API 密钥并生成新密钥。此操作不可撤销。在重新输入密码前，你有 <strong>30 秒</strong>时间确认。
+          regenerate_key: 重新生成密钥
+          summary_text: 你已进入<strong>危险区域</strong>！如果要继续并刷新 API 密钥，可于下方输入密码，确认提示即可。
         sessions: 会话
         stats: 统计数据
       page_title: 我的 API 设置
@@ -4357,8 +4359,8 @@ zh-CN:
         no_apps: 未连接任何应用到你的账户。
         page_title: 已连接的应用
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: 撤销本次会话后，你将无法在该应用中继续使用 TMDB。不过，你可随时新建会话。
+          confirm_title: 确认撤销吗？
         table:
           action: 动作
           application_name: 应用名称
@@ -4377,7 +4379,7 @@ zh-CN:
         table:
           date: 日期
           device: 设备
-          expires:
+          expires: 到期
           ip: IP 地址
     sharing:
       favorite_list:
