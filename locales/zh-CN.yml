@@ -30,11 +30,11 @@ zh-CN:
   Add Headshot: 添加头像
   Add Item: 添加条目
   Add Missing Cast & Crew: 添加缺失的演职人员
-  Add Network: 添加电视网
-  Add New Episode: 添加新集
+  Add Network: 添加视频站
+  Add New Episode: 添加新一集
   Add New Movie: 添加新电影
   Add New Release: 添加发行信息
-  Add New Season: 添加新季
+  Add New Season: 添加新一季
   Add New TV Show: 添加新剧集
   Add Poster: 添加海报
   Add Profile: 添加人物图片
@@ -46,12 +46,12 @@ zh-CN:
   Add a New Cast Member: 添加新演员
   Add a New Crew Member: 添加新工作人员
   Add a New Guest Star: 添加新客串演员
-  Add to Watchlist: 添加到待看片单
+  Add to Watchlist: 添加到待看清单
   Add to list: 添加到片单
   Add to your favorite list: 添加到「我的最爱」片单
-  Add to your watchlist: 添加到待看片单
+  Add to your watchlist: 添加到待看清单
   Added By: 添加者
-  Added to Watchlist: 已加入待看片单
+  Added to Watchlist: 已加入待看清单
   Adding & Editing Content: 添加和编辑内容
   Address 1: 地址 1
   Address 2: 地址 2
@@ -215,7 +215,7 @@ zh-CN:
   Help Us By Contributing Missing Data: 帮助我们完善缺失数据
   Hi: 你好
   Hide favorites?: 隐藏我的最爱？
-  Hide items on watchlist?: 隐藏待看片单中的条目？
+  Hide items on watchlist?: 隐藏待看清单中的条目？
   Hide rated?: 隐藏已评分条目？
   Home: 主页
   Homepage: 主页
@@ -234,7 +234,7 @@ zh-CN:
   Keyword Results: 关键词结果
   Keywords: 关键词
   Known Credits: 参演作品数
-  Known For: 代表作
+  Known For: 出名原因
   Language: 语言
   Language Preferences: 语言偏好
   Languages: 语言
@@ -256,7 +256,7 @@ zh-CN:
   Login to add this TV show to your favorite list: 登录以添加此剧集到「我的最爱」片单
   Login to add this TV show to your watchlist: 登录以添加此剧集到待看清单
   Login to add this movie to your favorite list: 登录以添加此电影到「我的最爱」片单
-  Login to add this movie to your watchlist: 登录以添加此电影到待看片单
+  Login to add this movie to your watchlist: 登录以添加此电影到待看清单
   Login to create and edit custom lists: 登录以创建和编辑个性化列表
   Login to rate this TV show: 登录以给此剧集评分
   Login to rate this movie: 登录以给此电影评分
@@ -513,7 +513,7 @@ zh-CN:
     settings: 账户设置
     sign_up: 注册
     view_profile: 查看个人资料
-    watchlist: 待看片单
+    watchlist: 待看清单
   accounts:
     activity:
       activity: 活动
@@ -553,7 +553,7 @@ zh-CN:
           status:
             Bounce: 退回
             Complaint: 投诉
-            Delivery: 已发送
+            Delivery: 已送达
             Unsubscribed: 已取消订阅
             status: 状态
         number_of_items:
@@ -625,7 +625,7 @@ zh-CN:
       ratings_reviews: 评分和评价
       recommendations: 推荐
       reviews: 评价
-      watchlist: 待看片单
+      watchlist: 待看清单
     order: 排序：
     overview:
       30_day_activity: 近 30 天的活动
@@ -633,19 +633,19 @@ zh-CN:
         logged_in: 你最近没有进行编辑。
         public: "%{username} 最近没有进行编辑。"
       empty_upcoming_watchlist:
-        logged_in: 你的待看片单中没有即将上映的电影。
+        logged_in: 你的待看清单中没有即将上映的电影。
       empty_watched_genres:
         logged_in: 你还没有记录过电影或剧集。
         public: "%{username} 还没有记录过电影或剧集。"
       goto_discussions: 查看全部讨论
-      goto_watchlist: 进入待看片单
+      goto_watchlist: 进入待看清单
       most_watched_genres: 类型分布
       rating_overview: 评分值分布
       recent_activity: 近期活动
       recent_discussions: 近期讨论
       total_edits: 总编辑次数
       total_ratings: 总评分次数
-      upcoming_watchlist: 待看片单中即将上映的电影
+      upcoming_watchlist: 待看清单中即将上映的电影
     page_title:
       page_owner: 我的个人资料
       public: "%{username} 的个人资料"
@@ -674,21 +674,21 @@ zh-CN:
       tip: 提示
     watchlist:
       my_watchlist:
-        logged_in: 我的待看片单
-        public: "%{username} 的待看片单"
+        logged_in: 我的待看清单
+        public: "%{username} 的待看清单"
       next_month: 下月
       no_upcoming_movies:
-        one: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
-        other: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
+        one: 你的待看清单中有 %{count} 个条目，但暂无即将上映的电影。
+        other: 你的待看清单中有 %{count} 个条目，但暂无即将上映的电影。
       no_upcoming_tv_shows:
-        one: 你的待看片单中有 %{count} 个条目，但暂无即将播出的剧集。
-        other: 你的待看片单中有 %{count} 个条目，但暂无即将播出的剧集。
+        one: 你的待看清单中有 %{count} 个条目，但暂无即将播出的剧集。
+        other: 你的待看清单中有 %{count} 个条目，但暂无即将播出的剧集。
       page_title:
-        page_owner: 我的待看片单
-        public: "%{username} 的待看片单"
+        page_owner: 我的待看清单
+        public: "%{username} 的待看清单"
       this_month: 本月
       this_week: 本周
-      view_them: 浏览待看片单。
+      view_them: 浏览待看清单。
   add_to_list: 将 %{media_title} 添加到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_session:
@@ -3580,7 +3580,7 @@ zh-CN:
         production_companies: 根据制片公司搜索...
       release_date:
         locked: 此发行日期已被锁定。
-      runtime_in_minutes:
+      runtime_in_minutes: 时长（分钟）
       success_fields_locked: 此字段已锁定。
       tagline:
         add_tagline: 添加标语
@@ -3800,9 +3800,9 @@ zh-CN:
     tv_episode:
       edit:
         episode_type_confirm: 本季已有%{episode_type} 剧集。点击“是”确认选择。
-        episode_type_label: 聚集类型
+        episode_type_label: 单集类型
         episode_types:
-          finale: 季最终集
+          finale: 本季最终集
           mid_season: 季中最终集
           standard: 标准
         guest_stars:
@@ -3811,7 +3811,7 @@ zh-CN:
         screened_confirm: 如果本集已在电影节或电影院放映过，请点击“是”以继续。
         screened_label: 本集在电影院上映吗？
       episode_label:
-        finale: 季最终集
+        finale: 本季最终集
         mid_season: 季中最终集
       episode_selector:
         current_episode: 第 %{season_number} 季第 %{episode_number} 集
@@ -4175,7 +4175,7 @@ zh-CN:
   placeholder:
     primary_character_name: 主要角色名称
   report:
-    details_placeholder:
+    details_placeholder: 请尽可能详尽地输入。原始报告中提供的数据越多，请求的处理速度便越快。
   reset_password_text: 在下方输入你的用户名开始重置密码。
   sample:
   search:

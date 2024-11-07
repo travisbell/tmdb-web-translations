@@ -56,7 +56,7 @@ es-ES:
   Address 1: Dirección 1
   Address 2: Dirección 2
   Admin Tools: Herramientas de administrador
-  Adult Actor: Actor/Actriz adulto/a
+  Adult Actor: Actor adulto
   Advanced Search: Búsqueda avanzada
   Air Date: Fecha de emisión
   Also Known As: También conocido como
@@ -83,7 +83,7 @@ es-ES:
   Bad Image: Imagen incorrecta
   Best Match: Mejor resultado
   Biography: Biografía
-  Birthday: Fecha de nacimiento
+  Birthday: Cumpleaños
   Blocked Users: Usuarios bloqueados
   Blog: Blog
   Branding: Marca
@@ -288,7 +288,7 @@ es-ES:
   New: Nuevo
   New episode airs in: Un nuevo episodio se emite en
   'No': 'No'
-  No Language:
+  No Language: Sin idioma
   None: Ninguno
   Notes: Notas
   Notifications: Avisos
@@ -299,7 +299,7 @@ es-ES:
   Offensive or Spam: Ofensivo o correo basura
   Offical Site: Sitio oficial
   Offline Databases: Bases de datos fuera de línea
-  Ok:
+  Ok: De acuerdo
   Origin Country: País de origen
   Original Air Date: Fecha original de emisión
   Original Language: Idioma original
@@ -459,10 +459,10 @@ es-ES:
   Translate Movie: Traducir película
   Translate Person: Traducir persona
   Translate TV Series: Traducir serie de televisión
-  Translated Name: Título (Deje el campo vacío si es el mismo que el original)
+  Translated Name: Título (Deja el campo vacío si es el mismo que el original)
   Translated Overview: Sinopsis
   Translated Tagline: Lema traducido
-  Translated Title: Título (Deje el campo vacío si es el mismo que el original)
+  Translated Title: Título (Deja el campo vacío si es el mismo que el original)
   Translation: Traducción
   Translations: Traducciones
   Type: Tipo
@@ -595,7 +595,7 @@ es-ES:
     filters:
       air_date: Fecha de emisión
       alphabetical: Alfabético
-      date_added: Fecha de añadido
+      date_added: Fecha de adición
       date_rated: 'Fecha de puntuación '
       first_air_date: Primera fecha de emisión
       most_popular: Más popular
@@ -746,13 +746,13 @@ es-ES:
     category_empty: No hay nominaciones en esta categoría.
     ceremonies:
       number: 'Número '
-      release_date_max: Fecha de lanzamiento máxima/o
-      release_date_min: Fecha de lanzamiento mínimo/a
+      release_date_max: Fecha máxima de estreno
+      release_date_min: Fecha mínima de estreno
       title: Ceremonias
     nominations:
       one: 1 nominación
       other: "%{count} nominaciones"
-    nominee: Nominado/a
+    nominee: Nominado
     show_info:
       directed_by: Dirigido por
       hosted_by: Presentado por
@@ -763,7 +763,7 @@ es-ES:
       runtime: Duración
       title: Mostrar información
     title: Premios
-    winner: Ganador/a
+    winner: Ganador
     wins:
       one: 1 victoria
       other: "%{count} victorias"
@@ -1246,7 +1246,7 @@ es-ES:
         '0':
           meaning: Sin calificar.
         '1':
-          meaning: Inofensivo / Todas los públicos
+          meaning: Inofensivo / Todos los públicos
         '2':
           meaning: No recomendado a menores de 6 años.
         '3':
@@ -1398,7 +1398,7 @@ es-ES:
     create_overview_bio_help: Escribe una biografía de esta versión específica, el personaje tiene muchas encarnaciones.
     create_overview_help: Ayúdanos a completar la biografía de este personaje a lo largo de la serie de apariciones en películas/televisión que hizo.
     create_overview_name_help: Por favor, cambia solo el nombre del personaje por una razón específica o por un nombre común por el que se le conoce.
-    create_overview_note: El/La actor/actriz y su foto de cara no se pueden editar aquí.
+    create_overview_note: El actor y su foto de cara no se pueden editar aquí.
     default_language_results_text: Los resultados están predeterminados en 'en-US' ya que no se encontró el texto buscado en el idioma seleccionado.
     delete_backdrop: Eliminar fondo
     delete_character: Eliminar personaje
@@ -1752,7 +1752,7 @@ es-ES:
     other: "%{department} (%{count} créditos)"
   departments:
     Acting: Interpretación
-    Actors: Actores/Actrices
+    Actors: Actores
     Art: Arte
     Camera: Cámara
     Costume & Make-Up: Vestuario y maquillaje
@@ -1829,8 +1829,8 @@ es-ES:
       original_order_desc: Original descendente
       popularity_asc: Popularidad ascendente
       popularity_desc: Popularidad descendente
-      primary_release_date_asc: Fecha de lanzamiento primaria ascendente
-      primary_release_date_desc: Fecha de lanzamiento primaria descendente
+      primary_release_date_asc: Fecha de estreno principal en orden ascendente
+      primary_release_date_desc: Fecha de estreno principal en orden descendente
       rating_asc: Valoración ascendente
       rating_desc: Valoración descendente
       release_date_asc: Fecha de estreno ascendente
@@ -2065,7 +2065,7 @@ es-ES:
     missing_privilege:
       description:
         logged_in: Tu cuenta no tiene acceso a esta página. Si cree que se trata de un error, infórmenos <a href="%{forum_link}">en los foros</a>.
-        public: Está intentado acceder ha una página que requiere que inicie sesión. Inicie sesión en su cuenta <a href="%{login_link}">haciendo clic aquí</a>.
+        public: Intentaste solicitar una página que requiere que inicies sesión. Inicia sesión en tu cuenta <a href="%{login_link}">haciendo clic aquí</a>.
       title: No tienes permiso para acceder a esta página.
     out_of_login_attempts:
       description: |
@@ -2076,7 +2076,7 @@ es-ES:
     private:
       description:
         logged_in: No tienes acceso a esta página.
-        public: Has intentado acceder ha una página que es privada.
+        public: Intentaste solicitar una página que es privada.
       title: Esta página es privada
     suspended:
       explanation_1: Lamentablemente, este usuario ha sido suspendido.
@@ -2091,13 +2091,13 @@ es-ES:
   errors:
     attributes:
       descriptors:
-        invalid_for_country:
+        invalid_for_country: no es válido en el país %{country_code}
       iso_3166_1:
         invalid: No es un pais valido
       iso_639_1:
         invalid: no es un idioma valido
       release_date:
-        anachronism:
+        anachronism: es anterior al tipo de estreno %{min_date}
         invalid: no es una fecha válida
     images:
       couldnt_process: No podemos procesar esta imagen
@@ -2119,8 +2119,14 @@ es-ES:
       even: debe ser parejo
       exclusion: está reservado
       greater_than:
+        one: debe ser mayor que %{count}
+        other: deben ser mayores que %{count}
       greater_than_or_equal_to:
+        one: debe ser mayor o igual a %{count}
+        other: deben ser mayores o iguales a %{count}
       in:
+        one: debe estar en %{count}
+        other: deben estar en %{count}
       inclusion: debe seleccionarse
       invalid: es inválido
       invalid_character_name: El nombre del personaje no debe contener caracteres especiales
@@ -2128,21 +2134,33 @@ es-ES:
       invalid_password: La contraseña que ha ingresado es incorrecta.
       invalid_request: imposible completar la solicitud.
       less_than:
+        one: debe ser menor que %{count}
+        other: deben ser menores que %{count}
       less_than_or_equal_to:
-      model_invalid:
+        one: debe ser menor o igual a %{count}
+        other: deben ser menores o iguales a %{count}
+      model_invalid: "'La validación falló: %{errors}'"
       no_characters_found: No se encontraron personajes
       not_a_number: no es un número
-      not_an_integer:
+      not_an_integer: debe ser un entero
       odd: debe ser impar
       other_than:
+        one: Debe ser distinto de %{count}
+        other: Deben ser distintos de %{count}
       present: debe quedar vacío
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
       suspected_tv_series: se sospecha que es una serie de televisión o miniserie ya existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará
       taken: ya se ha quitado
       too_long:
+        one: es demasiado largo (el máximo es %{count} carácter)
+        other: es demasiado largo (el máximo es %{count} caracteres)
       too_short:
+        one: es demasiado corto (el mínimo es %{count} carácter)
+        other: es demasiado corto (el mínimo es %{count} caracteres)
       wrong_length:
+        one: La longitud es incorrecta (debería ser %{count} carácter)
+        other: La longitud es incorrecta (deberían ser %{count} caracteres)
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
     tv:
@@ -2297,37 +2315,37 @@ es-ES:
     '"D" Camera Operator': Operador de cámara "D"
     24 Frame Playback: Reproducción a 24 fotogramas
     2D Artist: Artista 2D
-    2D Sequence Supervisor: Supervisor/a de secuencias 2D
-    2D Supervisor: Supervisor/a 2D
-    3D Animator: Animador/a 3D
+    2D Sequence Supervisor: Supervisor de secuencias 2D
+    2D Supervisor: Supervisor 2D
+    3D Animator: Animador 3D
     3D Artist: Artista 3D
-    3D Coordinator: Coordinador/a 3D
+    3D Coordinator: Coordinador 3D
     3D Digital Colorist: Colorista digital 3D
-    3D Director: Director/a 3D
-    3D Editor: Editor/a 3D
+    3D Director: Director 3D
+    3D Editor: Editor 3D
     3D Generalist: Generalista 3D
-    3D Modeller: Modelador/a 3D
-    3D Sequence Supervisor: Supervisor/a de secuencia 3D
-    3D Supervisor: Supervisor/a 3D
+    3D Modeller: Modelador 3D
+    3D Sequence Supervisor: Supervisor de secuencia 3D
+    3D Supervisor: Supervisor 3D
     3D Tracking Layout: Diseño de seguimiento 3D
     ADR & Dubbing: ADR y doblaje
     ADR Coordinator: Coordinador de ADR
     ADR Editor: Editor de ADR
     ADR Engineer: Ingeniero de ADR
     ADR Mixer: Mezclador de ADR
-    ADR Post Producer: Posproductor/a ADR
+    ADR Post Producer: Posproductor ADR
     ADR Recording Engineer: Ingeniero de grabación ADR
     ADR Recordist: Grabador de ADR
     ADR Supervisor: Supervisor de ADR
     ADR Voice Casting: Castin de voz ADR
     Accountant: Contable
-    Accounting Clerk Assistant: Adjunto/a de contabilidad
-    Accounting Supervisor: Supervisor/a de contabilidad
-    Accounting Trainee: Aprendiz/a de contabilidad
+    Accounting Clerk Assistant: Adjunto de contabilidad
+    Accounting Supervisor: Supervisor de contabilidad
+    Accounting Trainee: Aprendiz de contabilidad
     Acting Double: Doble de acción
-    Action Director: Director/a de acción
-    Actor: Actor/Actriz
-    Actor's Assistant: Adjunto/a de actor/actriz
+    Action Director: Director de acción
+    Actor: Actor
+    Actor's Assistant: Adjunto de actor
     Adaptation: Adaptación
     Additional Camera: Cámara adicional
     Additional Casting: Reparto adicional
@@ -2343,7 +2361,7 @@ es-ES:
     Additional First Assistant Camera: Primer asistente adicional de cámara
     Additional Gaffer: Iluminista adicional
     Additional Grip: Maquinista adicional
-    Additional Hairstylist: Peluquero/a adicional
+    Additional Hairstylist: Peluquero adicional
     Additional Key Construction Grip: Grua adicional de construcción clave
     Additional Key Grip: Jefe de maquinistas adicional
     Additional Lighting Technician: Técnico de iluminación adicional
@@ -2429,7 +2447,7 @@ es-ES:
     Assistant Picture Editor: Asistente de editor de imágenes
     Assistant Production Coordinator: Asistente de coordinador de producción
     Assistant Production Design: Asistente de diseño de producción
-    Assistant Production Manager: Asistente de jefe/a de producción
+    Assistant Production Manager: Asistente de jefe de producción
     Assistant Property Master: Asistente maestro de propiedades
     Assistant Script: Asistente de guion
     Assistant Set Decoration: Asistente de escenografía
@@ -2444,7 +2462,7 @@ es-ES:
     Assistant Vehicles Coordinator: Asistente de coordinador de vehículos
     Associate Choreographer: Coreógrafo asociado
     Associate Editor: Editor asociado
-    Associate Producer: Productor/a asociado
+    Associate Producer: Productor asociado
     Atmos Editor: Editor de Atmos
     Attorney: Abogado
     Audio Post Coordinator: Coordinador de audio de posproducción
@@ -2464,7 +2482,7 @@ es-ES:
     Best Boy Lighting Technician: Mejor técnico de Iluminación
     Book: Libro
     Boom Operator: Operador de micrófono
-    Broadcast Producer: Productor/a de difusión
+    Broadcast Producer: Productor de difusión
     Business Affairs Coordinator: Coordinador de asuntos de negocios.
     CG Animator: Animador de gráficos por ordenador
     CG Artist: Artista de gráficos por ordenador
@@ -2495,7 +2513,7 @@ es-ES:
     Casting Consultant: Consultor de castin
     Casting Coordinator: Coordinador de castin
     Casting Director: Director de castin
-    Casting Producer: Productor/a de castin
+    Casting Producer: Productor de castin
     Casting Researcher: Investigador de castin
     Catering: Cáterin
     Catering Head Chef: Jefe de cáterin
@@ -2509,7 +2527,7 @@ es-ES:
     Chef: Jefe
     Chief Lighting Technician: Jefe de técnicos de iluminación.
     Chief Technician / Stop-Motion Expert: Jefe técnico / Experto en Stop-Motion
-    Child Wrangler: Cuidador/a infantil
+    Child Wrangler: Cuidador infantil
     Choreographer: Coreógrafo
     Cinematography: Cinematografía
     Clapper Loader: Segundo asistente de cámara
@@ -2520,8 +2538,8 @@ es-ES:
     Co-Costume Designer: Codiseñador de vestuario
     Co-Director: Codirector
     Co-Editor: Coeditor
-    Co-Executive Producer: Coproductor/a ejecutivo/a
-    Co-Producer: Coproductor/a
+    Co-Executive Producer: Coproductor ejecutivo
+    Co-Producer: Coproductor
     Co-Writer: Coguionista
     Color Assistant: Asistente de color
     Color Designer: Diseñador de color
@@ -2545,14 +2563,14 @@ es-ES:
     Construction Manager: Gestor de construcción
     Consulting Accountant: Consultor contable
     Consulting Editor: Consultor de edición
-    Consulting Producer: Productor/a consultivo/a
+    Consulting Producer: Productor consultivo
     Contact Lens Designer: Diseñador de lentillas
     Contact Lens Painter: Pintor de lentillas
     Contact Lens Technician: Técnico de lentillas
     Continuity: Continuidad
     Contract Manager: Administrador del contrato
     Controller: Controlador
-    Coordinating Producer: Productor/a coordinador/a
+    Coordinating Producer: Productor coordinador
     Costume Assistant: Asistente de vestuario
     Costume Consultant: Consultor de vestuario
     Costume Coordinator: Coordinador de vestuario
@@ -2567,7 +2585,7 @@ es-ES:
     Craft Service: Servicio de cáterin
     Creative Consultant: Consultor creativo
     Creative Director: Director creativo
-    Creative Producer: Productor/a creativo/a
+    Creative Producer: Productor creativo
     Creator: Creador
     Creature Design: Diseñador de criaturas
     Creature Effects Technical Director: Director de efectos técnicos de criaturas
@@ -2584,10 +2602,10 @@ es-ES:
     Data Management Technician: Técnico de gestión de datos
     Data Wrangler: Transcodificador
     Decorator: Decorador
-    Delegated Producer: Productor/a delegado/a
+    Delegated Producer: Productor delegado
     Department Administrator: Administrador de departamentos
     Development Manager: Gerente de desarrollo
-    Development Producer: Productor/a de desarrollo
+    Development Producer: Productor de desarrollo
     Dialect Coach: Entrenador de dialectos
     Dialogue: Diálogos
     Dialogue Coach: Entrenador de dialogos
@@ -2596,7 +2614,7 @@ es-ES:
     Digital Colorist: Colorista
     Digital Compositor: Compositor digital
     Digital Conform Editor: Editor de conformidad Digital
-    Digital Effects Producer: Productor/a de efectos digitales
+    Digital Effects Producer: Productor de efectos digitales
     Digital Effects Supervisor: Supervisor de efectos digitales
     Digital Film Recording: Filmación digital
     Digital Foley Artist: Artista en efectos de sonido digitales
@@ -2606,8 +2624,8 @@ es-ES:
     Digital Intermediate Colorist: Colorista del intermediate digital
     Digital Intermediate Data Wrangler: Técnico de gestión de datos del intermediario digital
     Digital Intermediate Editor: Montador del intermediario digital
-    Digital Intermediate Producer: Productor/a del intermediario digital
-    Digital Producer: Productor/a digital
+    Digital Intermediate Producer: Productor del intermediario digital
+    Digital Producer: Productor digital
     Digital Storyboarding: Storyboard digital
     Digital Supervisor: Supervisor digital
     Directing Lighting Artist: Director de iluminación
@@ -2639,17 +2657,17 @@ es-ES:
     Electrician: Electricista
     Epk Camera Operator: Operador de cámara de kit electrónico de prensa
     Epk Director: Director de kit electrónico de prensa
-    Epk Producer: Productor/a de kit electrónico de prensa
+    Epk Producer: Productor de kit electrónico de prensa
     Executive Assistant: Asistente ejecutivo
-    Executive Co-Producer: Coproductor/a ejecutivo/a
+    Executive Co-Producer: Coproductor ejecutivo
     Executive Consultant: Consultor ejecutivo
     Executive In Charge Of Post Production: Encargado de posproducción
     Executive In Charge Of Production: Encargado de producción
-    Executive Music Producer: Productor/a ejecutivo/a musical
-    Executive Producer: Productor/a ejecutivo/a
-    Executive Producer's Assistant: Asistente de productor/a ejecutivo/a
+    Executive Music Producer: Productor ejecutivo musical
+    Executive Producer: Productor ejecutivo
+    Executive Producer's Assistant: Asistente de productor ejecutivo
     Executive Story Editor: Supervisor de guionistas
-    Executive Visual Effects Producer: Productor/a ejecutivo/a de efectos visuales
+    Executive Visual Effects Producer: Productor ejecutivo de efectos visuales
     Executive in Charge of Finance: Encargado de finanzas
     Extras Casting: Castin de extras
     Extras Casting Assistant: Asistente de castin de extras
@@ -2657,13 +2675,13 @@ es-ES:
     Extras Dresser: Ayudante de camerino de extras
     Extras Makeup Artist: Maquillador de extras
     Facial Setup Artist: Artista facial
-    Feature Finishing Producer: Productor/a de finalización
+    Feature Finishing Producer: Productor de finalización
     Field Director: Director de campo
     Fight Choreographer: Coreógrafo de lucha
     File Footage: Repertorio de imagenes
     Film Processor: Procesador de película
     Finance: Finanzas
-    Finishing Producer: Coordinador/a de producción para medios de comunicación
+    Finishing Producer: Coordinador de producción para medios de comunicación
     First Assistant "A" Camera: Primer ayudante de cámara "A"
     First Assistant "B" Camera: Primer asistente de cámara "B"
     First Assistant "C" Camera: Primer asistente de cámara "C"
@@ -2783,7 +2801,7 @@ es-ES:
     Lighting Programmer: Programador de iluminación
     Lighting Supervisor: Supervisor de iluminación
     Lighting Technician: Técnico de iluminación
-    Line Producer: Productor/a en línea
+    Line Producer: Productor en línea
     Loader: Cargador
     Local Casting: Castin local
     Locale Casting Director: Director de castin local
@@ -2800,8 +2818,8 @@ es-ES:
     Loop Group Coordinator: Coordinador de doblaje
     Lyricist: Letrista
     Machinist: Maquinista
-    Main Title Designer: Diseñador/a del título principal
-    Main Title Theme Composer: Compositor/a del tema del título principal
+    Main Title Designer: Diseñador del título principal
+    Main Title Theme Composer: Compositor del tema del título principal
     Makeup & Hair: Maquillaje y peluquería
     Makeup & Hair Assistant: Asistente de maquillaje y peluquería
     Makeup Artist: Artista de maquillaje
@@ -2827,7 +2845,7 @@ es-ES:
     Mixing Engineer: Ingeniero de mezcla
     Modeling: Modelaje
     Modelling Supervisor: Supervisor de modelado
-    Motion Actor: Actor/Actriz de movimiento
+    Motion Actor: Actor de movimiento
     Motion Capture Artist: Artista de captura de movimiento
     Music: Música
     Music Arranger: Arreglista
@@ -2836,9 +2854,9 @@ es-ES:
     Music Coordinator: Coordinador musical
     Music Director: Director de música
     Music Editor: Editor de música
-    Music Producer: Productor/a musical
+    Music Producer: Productor musical
     Music Programmer: Programador musical
-    Music Score Producer: Productor/a de partituras
+    Music Score Producer: Productor de partituras
     Music Sound Design and Processing: Diseño y tratamiento musical
     Music Supervision Assistant: Asistente de supervisor musical
     Music Supervisor: Supervisor de música
@@ -2881,21 +2899,21 @@ es-ES:
     Poem: '"Poem"'
     Police Consultant: Consultor policial
     Post Coordinator: Coordinador de post-producción
-    Post Producer: Posproductor/a
+    Post Producer: Posproductor
     Post Production Accountant: Contable de postproducción
     Post Production Assistant: Asistente de posproducción
     Post Production Consulting: Consultor de posproducción
     Post Production Coordinator: Coordinador de postproducción
-    Post Production Producer: Productor/a de posproducción
+    Post Production Producer: Productor de posproducción
     Post Production Scripts: Texto de post-producción
     Post Production Supervisor: Supervisor de posproducción
     Post Production Technical Engineer: Ingeniero técnico de post-producción
-    Post-Production Manager: Jefe/a de posproducción
+    Post-Production Manager: Jefe de posproducción
     Pre-Visualization Coordinator: Coordinador de previsualización
     Pre-Visualization Supervisor: Supervisor de previsualización
     Presenter: Presentador
     Principal Costumer: Encargado de vestuario principal
-    Producer: Productor/a
+    Producer: Productor
     Producer's Assistant: Asistente de producción
     Production Accountant: Contable de producción
     Production Artist: Artista de producción
@@ -2910,7 +2928,7 @@ es-ES:
     Production Executive: Ejecutivo de producción
     Production Illustrator: Ilustrador de producción
     Production Intern: Interno de producción
-    Production Manager: Jefe/a de producción
+    Production Manager: Jefe de producción
     Production Office Assistant: Ayudante de oficina de producción
     Production Office Coordinator: Coordinador de pficina de producción
     Production Runner: Asistente de producción
@@ -3076,7 +3094,7 @@ es-ES:
     Specialized Driver: Conductor especializado
     Sponsorship Coordinator: Coordinación de patrocinio
     Sponsorship Director: Director de patrocinio
-    Staff Writer: Redactor/a
+    Staff Writer: Redactor
     Stage Director: Director de escena
     Stand In: Doble de luces
     Standby Art Director: Director de arte en plató
@@ -3120,7 +3138,7 @@ es-ES:
     Supervising Editor: Editor supervisor
     Supervising Film Editor: Supervisor de montaje
     Supervising Music Editor: Supervisor de edición musical
-    Supervising Producer: Productor/a supervisor/a
+    Supervising Producer: Productor supervisor
     Supervising Sound Editor: Editor de sonido supervisor
     Supervising Sound Effects Editor: Editor de efectos de sonido supervisor
     Supervising Technical Director: Director técnico supervisor
@@ -3169,7 +3187,7 @@ es-ES:
     Underwater Stills Photographer: Fotógrafo de tomas submarinas
     Unit Manager: Gerente de unidad
     Unit Medic: Unidad médica
-    Unit Production Manager: Jefe/a de la unidad de producción
+    Unit Production Manager: Jefe de la unidad de producción
     Unit Publicist: Publicista de unidad
     Unit Swing: Cambios de unidad
     Utility Sound: Utilidad de sonido
@@ -3198,9 +3216,9 @@ es-ES:
     Visual Effects Director: Director de efectos visuales
     Visual Effects Editor: Editor de efectos visuales
     Visual Effects Lineup: Encargado de efectos visuales
-    Visual Effects Producer: Productor/a de efectos visuales
+    Visual Effects Producer: Productor de efectos visuales
     Visual Effects Production Assistant: Asistente de producción de efectos visuales
-    Visual Effects Production Manager: Jefe/a de producción de efectos visuales
+    Visual Effects Production Manager: Jefe de producción de efectos visuales
     Visual Effects Supervisor: Supervisor de efectos visuales
     Visual Effects Technical Director: Director técnico de efectos visuales
     Vocal Coach: Entrenador de voz
@@ -3265,7 +3283,7 @@ es-ES:
       absurd: absurda
       admiring: admirable
       adoring: devota
-      affectation:
+      affectation: afectación
       aggressive: agresiva
       ambiguous: ambigua
       ambivalent: ambivalente
@@ -3387,7 +3405,7 @@ es-ES:
       lyrical: lírico
       macabre: macabro
       malicious: malicioso
-      matter of fact:
+      matter of fact: cuestión de hecho
       mean spirited: mezquino
       meditative: meditativo
       melancholy: melancólico
@@ -3469,7 +3487,7 @@ es-ES:
     list_by: Una lista de
     list_options: Opciones de lista
     login_to_create_list: "¡Inicia sesión para crear tu propia lista!"
-    no_items:
+    no_items: No hay elementos añadidos a esta lista.
     private: Privado
     public: Público
     select_this_image: Seleccionar esta imagen
@@ -3477,7 +3495,7 @@ es-ES:
     total_revenue: Ingresos totales
     total_runtime: Duración total
     use_grid_view: Usar vista de cuadrícula
-    use_list_view:
+    use_list_view: Usar la vista de lista
   list_messages:
     comment_updated: "¡Comentario actualizado!"
     image_saved: "¡Imagen guardada!"
@@ -3592,7 +3610,7 @@ es-ES:
         production_companies: Buscar por productora...
       release_date:
         locked: Esta fecha de estreno está bloqueada.
-      runtime_in_minutes:
+      runtime_in_minutes: Tiempo de ejecución (en minutos)
       success_fields_locked: Campos bloqueados.
       tagline:
         add_tagline: Añadir eslogan
@@ -3607,7 +3625,7 @@ es-ES:
       tooltips:
         adult: Normalmente, esta marca solo debe usarse para pornografía. Consulta <a href="/bible/movie#59f73b759251416e71000004">la guía de aportaciones</a> para obtener más información.
         bible: Para obtener ayuda sobre cómo editar la información de TMDB, haz clic en '?' para leer la guía de aportaciones.
-        character:
+        character: El nombre del personaje debe introducirse tal como aparece en %{media}.
         homepage: Página oficial solamente. Las páginas de seguidores no están permitidas.
         logo_format: Se aceptan ficheros en formato SVG o PNG. Es preferible el uso de archivos SVG ya que la resolución es independiente.
         original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
@@ -3652,7 +3670,7 @@ es-ES:
           no_records: No se han añadido títulos alternativos.
         cast:
           no_records: No se han añadido miembros del reparto.
-          person_required:
+          person_required: Se necesita una persona.
         confirm_collection: |-
           <p>Las colecciones son una forma adecuada de agrupar secuelas en TMDB. Aunque a veces son polémicas, las colecciones no pretenden ser una forma de agrupar las películas del mismo "universo". Para eso, <a href="%{list_link}" target="_blank" rel="noopener">crea una lista</a>. Para obtener más información sobre colecciones, puedes visitar <a href="%{docs_link}" target="_blank" rel="noopener">nuestra documentación</a>.</p>
 
@@ -3720,22 +3738,22 @@ es-ES:
       edit:
         alternative_names:
           no_records: No se han añadido nombres alternativos.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: No se puede establecer la traducción principal cuando <strong>%{name} (%{language})</strong> está en blanco.
+        confirm_primary_translation: Ya existe una traducción principal (%{i18n_tag}) para esta persona.
         errors:
           invalid_unicode: Detectado personaje(s) inválido.
-          leading_whitespace:
-          locked_name:
-          name_required:
-          numbers:
-          primary_name_migration:
-          primary_translation:
-          special_characters:
-          trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        primary_translation:
+          leading_whitespace: Se detectaron espacios en blanco al inicio.
+          locked_name: "<strong>%{name} (%{language})</strong> está bloqueado."
+          name_required: No se puede migrar el campo %{name} (%{language}) en blanco.
+          numbers: Se detectaron caracteres numéricos no válidos.
+          primary_name_migration: No se puede migrar <strong>%{name} (%{language})</strong> desde la traducción principal.
+          primary_translation: La traducción ya existe.
+          special_characters: Se detectaron caracteres no válidos.
+          trailing_whitespace: Se detectaron espacios en blanco al final.
+        migration_success: El nombre se migró correctamente.
+        move_name: Mover nombre
+        move_name_tooltip: Mover <strong> %{name} (%{language})</strong> al idioma seleccionado.
+        primary_translation: Traducción principal
         translated_name_tooltip: Si el nombre artístico de la persona en su lengua materna no es fácilmente legible en %{language}, considera la posibilidad de añadir un nombre traducido.
       gender:
         female: Femenino
@@ -3944,7 +3962,7 @@ es-ES:
   message_templates:
     help_translate:
       message: |-
-        Hola, gracias por usar TMDB. He visto que estás navegando por TMDB en un idioma que no se terminó de traducir. Si estas interesado en ayudarnos a completar esta traducción, puedes hacerlo visitando nuestro [Proyecto de configuración regional](https://www.localeapp.com/projects/8267). [Registrarse](https://www.localeapp.com/users/sign_up) en Locale es gratis y puedes añadir todas las traducciones nuevas que quieras. Cada edición ayuda.
+        Hola, gracias por usar TMDB. He visto que estás navegando por TMDB en un idioma que no se terminó de traducir. Si estas interesado en ayudarnos a completar esta traducción, puedes hacerlo visitando nuestro [Proyecto de Locale](https://www.localeapp.com/projects/8267). [Registrarse](https://www.localeapp.com/users/sign_up) en Locale es gratis y puedes añadir todas las traducciones nuevas que quieras. Cada edición ayuda.
 
         Si no te interesa, no te preocupes. Solo quería preguntar.
 
@@ -4202,7 +4220,7 @@ es-ES:
   placeholder:
     primary_character_name: Nombre del personaje principal
   report:
-    details_placeholder:
+    details_placeholder: Introduce la mayor cantidad de detalles posible. Si se proporcionan más datos en el informe original, se agilizará la solicitud lo máximo posible.
   reset_password_text: Escribe tu nombre de usuario debajo para iniciar el proceso de restablecimiento de contraseña.
   sample:
   search:
@@ -4254,7 +4272,7 @@ es-ES:
         regenerate:
           confirm_text: Esto <strong>deshabilitará</strong> su antigua clave API y regenerará una nueva. Esta acción no se puede deshacer. Tienes <strong>30 segundos</strong> para confirmar antes de volver a ingresar tu contraseña.
           regenerate_key: Regenerar clave
-          summary_text: "¡Acabas de entrar en la <strong>zona de peligro</strong>! Si deseas continuar y actualizar tu clave API, puedes hacerlo ingresando tu contraseña a continuación y confirmando las indicaciones."
+          summary_text: "¡Acabas de entrar en la <strong>zona peligrosa</strong>! Si deseas continuar y actualizar tu clave API, puedes hacerlo ingresando tu contraseña a continuación y confirmando las indicaciones."
         sessions: Sesiones
         stats: Estadísticas
       page_title: Mi configuración de API
@@ -4387,8 +4405,8 @@ es-ES:
         no_apps: No tienes ninguna aplicación conectada a tu cuenta.
         page_title: Mis aplicaciones conectadas
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: Al revocar esta sesión, no podrá seguir utilizando TMDB con esta aplicación. Por supuesto, puede crear una nueva sesión en cualquier momento.
+          confirm_title: "¿Revocar sesión?"
         table:
           action: Acciones
           application_name: Nombre de la aplicación
@@ -4407,12 +4425,12 @@ es-ES:
         table:
           date: Fecha
           device: Dispositivo
-          expires:
+          expires: Expira
           ip: Dirección IP
     sharing:
       favorite_list:
         favorite_settings: Configuración de la lista de favoritas
-        share_on_twitter: "¿Compartir nuevos favoritas en X?"
+        share_on_twitter: "¿Compartir nuevos favoritos en X?"
         share_publicly: "¿Compartir la lista públicamente?"
       page_title: Mi configuración de compartir
       rated_list:
@@ -4451,7 +4469,7 @@ es-ES:
       find_something_to_watch: Encuentra algo que ver entre tus suscripciones a servicios de retransmisión
       keep_track: Mantén un registro de tus películas y series favoritas y obtén recomendaciones de ellos
       log_movies: Registra las películas y series que has visto
-    by_clicking_agree_to_terms: Al hacer clic en el botón "Registrarse", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDB.
+    by_clicking_agree_to_terms: Al hacer clic en el botón "Regístrate", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDB.
     javascript_required: Se necesita JavaScript para continuar.
     sign_up_for_account: Crea una cuenta
     signup_text: Crear una cuenta es fácil y gratis. Rellena el formulario para empezar.
@@ -4500,13 +4518,13 @@ es-ES:
     mood:
       label: Estado de ánimo
       moods:
-        afraid: Asustado/a
-        angry: Enfadado/a
-        disgusted: Asqueado/a
+        afraid: Asustado
+        angry: Enfadado
+        disgusted: Asqueado
         happy: Feliz
-        interested: Interesado/a
+        interested: Interesado
         sad: Triste
-        surprised: Sorprendido/a
+        surprised: Sorprendido
       prompt: "¿Cómo te ha hecho sentir %{title}?"
     rating:
       clear: Borrar mi puntuación
