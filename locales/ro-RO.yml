@@ -46,7 +46,7 @@ ro-RO:
   Add a New Cast Member: Adăugare membru distribuție nou
   Add a New Crew Member: Adăugare membru nou echipă filmare
   Add a New Guest Star: Adăugare vedetă oaspete
-  Add to Watchlist: Adaugă în lista filmelor de urmărit
+  Add to Watchlist: Adaugă în lista filmelor de vizionat
   Add to list: Adaugă în listă
   Add to your favorite list: Adaugă în lista mea de favorite
   Add to your watchlist: Adaugă în lista mea de vizionat
@@ -107,7 +107,7 @@ ro-RO:
   Company Results: Rezultate companii
   Confirm: Confirmare
   Confirm Your Application: Confirmați aplicația
-  Contact Email: E-mail de contact
+  Contact Email: Adresă poștă electronică (Email) de contact
   Contact Us: Contactați-ne
   Content Ratings: Evaluare conținut
   Content Score: Scor conținut
@@ -165,7 +165,7 @@ ro-RO:
   Education: Educație
   Email: Adresa de poștă electronică
   Email Address: Adresa de poștă electronică (e-mail)
-  Email Content: Conținut E-mail
+  Email Content: Conținut mesaj poștă electronică (Email)
   Embed: Fixat
   Episode Images:
     few: Imagini episoade
@@ -221,7 +221,7 @@ ro-RO:
   Hide items on watchlist?: Ascundeți articolele din lista de vizionat?
   Hide rated?: Ascundeți evaluarea?
   Home: Acasă
-  Homepage: Pagină principală
+  Homepage: Pagina dedicată
   IMDB ID: Identificator IMDb
   Images: Imagini
   Import CSV: Importare CSV
@@ -322,7 +322,7 @@ ro-RO:
   Physical: Fizic
   Place of Birth: Locul nașterii
   Play: Redă
-  Plot Keywords: Cuvinte cheie subiect
+  Plot Keywords: Cuvinte cheie intrigă
   Popular Lists: Liste populare
   Popular Movies: Filme artistice populare
   Popular TV Shows: Filme seriale populare
@@ -364,7 +364,7 @@ ro-RO:
   Reload Page: Reîncarcă pagina
   Remove: Elimină
   Remove from your favorite list: Elimină din lista de filme favorite
-  Remove from your watchlist: Elimină din lista de filme de urmărit
+  Remove from your watchlist: Elimină din lista personală de filme de vizionat
   Remove?: Eliminați?
   Report: Raportare
   Report an Issue: Raportare problemă
@@ -438,7 +438,7 @@ ro-RO:
   TV Show Results: Rezultate filme seriale
   TV Show Status: Stare film serial
   TV Show Type: Tip film serial
-  TV Show Watchlist: Listă filme seriale de urmărit
+  TV Show Watchlist: Listă filme seriale de vizionat
   TV Shows: Filme seriale
   TV Shows Airing Today: Filme seriale care se difuzează astăzi
   Tagged People: Persoane etichetate
@@ -484,15 +484,15 @@ ro-RO:
   View All Seasons: Arată toate sezoanele
   View All Videos: Arată toate videourile
   View Discussions: Arată discuțiile
-  View Edit History: Arată istoricul editării
+  View Edit History: Arată istoricul editărilor
   View Episodes: Arată toate episoadele
   View More: Arată mai multe
   View Original: Arată originalul
   View Profile Images: Arată imaginile de profil
   View the Collection: Arată colecția
   Watch Online: Vizionare online
-  Watchlist: Listă filme de urmărit
-  Watchlists: Liste filme de urmărit
+  Watchlist: Listă filme de vizionat
+  Watchlists: Liste filme de vizionat
   Website: Site web
   Website Terms: Termeni site web
   Website Updates: Actualizări site web
@@ -557,8 +557,8 @@ ro-RO:
             Bounce: Sărit
             Complaint: Reclamație
             Delivery: Livrat
-            Invalid:
-            Unknown:
+            Invalid: Nevalidă
+            Unknown: Necunoscută
             Unsubscribed: Dezabonat(ă)
             status: Stare
         number_of_items:
@@ -609,7 +609,7 @@ ro-RO:
       newest: Cele mai noi
       popularity: Popularitate
       rating: Evaluare
-      release_date: Data de lansare
+      release_date: Data lansării
       score: Punctaj
       upcoming: Viitoare
       user_characters: Caracterele utilizatorului
@@ -712,7 +712,7 @@ ro-RO:
       this_week: Săptămâna aceasta
       view_them: Văzute.
   add_to_list: Adăugați %{media_title} la una din listele voastre...
-  already_translated_in: "%{page_title} este deja tradus în următoarele limbi..."
+  already_translated_in: "%{page_title} a fost deja tradus în următoarele limbi..."
   api_session:
     3rd_party_request: Solicitare autentificare de la o terță parte
     account_required:
@@ -724,20 +724,20 @@ ro-RO:
       message: Utilizatorul API ce este autentificat nu este valid.
       title: Utilizator API invalid
     missing_request_token:
-      message: Este necesară solicitare token în vederea autentificări în cont.
-      title: Lipsă solicitare Token
+      message: Este necesar un semn (token) cerere în vederea autentificări în cont.
+      title: Lipsește semnul (token) pentru cerere
     request_token_approval:
       message: "{{APP}} solicită permisiunea dvs. de a citi și de a scrie date în numele dvs. Acest lucru este necesar dacă doriți să faceți lucruri cum ar fi să vă mențineți listele sau să evaluați filmele în afara TMDB."
     statuses:
       completed:
-        message: Ați primit permisiunea de citire și scriere la <strong>%{application_name}</strong>. Acum puteți reveni la aplicație și puteți închide această fereastră. Puteți revoca acest acces întotdeauna accesând pagina cu setările contului dvs. și apoi pagina "Aplicații conectate".
+        message: Ați da permisiunile de citire și scriere aplicației <strong>%{application_name}</strong>. Acum puteți reveni la aplicație și puteți închide această fereastră. Puteți revoca acest acces întotdeauna accesând pagina cu setările contului dvs. și apoi pagina „Aplicații conectate”.
         name: Autentificare permisă
       denied:
         message: "<p>Ați refuzat accesul la <strong>%{application_name}</ strong>. Dacă aceasta a fost o greșeală, sau doriți să reporniți procesul de autentificare, reveniți din nou în aplicație și solicitați din nou permisiunea.</p>"
         name: Autentificare refuzată
       invalid_request_token:
         message: Solicitarea de token trimisă este nevalidă. Încercați să creați una nouă și să vă asigurați că ați copiat-o corect. Dacă aveți în continuare probleme, contactați dezvoltatorul aplicației pe care o utilizați.
-        name: Solicitare nevalidă Token
+        name: Solicitare nevalidă semn (token)
   attributes:
     biography: Biografie
     certification: Certificare
@@ -751,7 +751,7 @@ ro-RO:
     title: Titlu
     to_accounts_ids: Către
     translated_overview: Prezentare
-    tv_series_status: Statusul serialului TV
+    tv_series_status: Starea seriei tv
   average edits per day: Medie de modificări pe zi
   awards:
     add_nomination: Adăugare nominalizare
@@ -789,7 +789,7 @@ ro-RO:
       other: "%{count} de victorii"
   back_options:
     back: Înapoi
-    episode: Înapoi la episodul
+    episode: Înapoi la episod
     episode_groups: Înapoi la grupul de episoade
     episode_list: Înapoi la lista de episoade
     home: Înapoi la pagina inițială
@@ -1359,7 +1359,7 @@ ro-RO:
     add_backdrop: Adăugare decor
     add_backdrop_grp: Adăugați un decor pentru acest grup
     add_character_backdrop: Adăugați o imagine decor pentru personaj
-    add_completely_free: Bucurați-vă de anunțuri complet gratuit
+    add_completely_free: Bucurați-vă total fără reclame
     add_missing_character: Adaugă un personaj lipsă
     add_new_appearance: 'Adaugă o nouă apariție '
     add_new_appearance_links_selection: Adăugarea unei noi apariții va lega selecția (selecțiile) dvs.de aparițiile curente deja existente.
@@ -1471,12 +1471,12 @@ ro-RO:
     media_type: Tipul media
     media_types:
       character: Personajul
-      movie_character_name: Numele personajului în film
-      tv_character_name: Numele personajului în serial
-      tv_show: Serial
+      movie_character_name: Toate numele personajului în filmul artistic
+      tv_character_name: Toate numele personajului în filmul serial
+      tv_show: Filme seriale
     movie_titles: Titlul filmului
     name: Nume
-    navigate_to_dashboard: Mergeți la Panoul de utilizator
+    navigate_to_dashboard: Mergi la panoul meu de utilizator
     navigate_to_master: Accesați pagina principală
     need_help: Aveți nevoie de ajutor?
     new_to_tmdb: Nou la TMDb
@@ -1595,7 +1595,7 @@ ro-RO:
     contribute: Contribuire
     missing_a_biography: Lipsește o biografie
     missing_a_profile_image: Lipsește o imagine de profil
-    movie_language_distribution: Distribuția limbilor pentru filmele artistice
+    movie_language_distribution: Distribuirea limbilor pentru filmele artistice
     movies_missing_a_backdrop: Filme artistice la care lipsesc fotografii de fundal
     movies_missing_a_overview: Filme artistice la care lipsește o prezentare
     movies_missing_a_poster: Filme artistice la care lipsește un afiș
@@ -1604,21 +1604,21 @@ ro-RO:
     selected_language: Limba selectată
     tv_missing_a_backdrop: Filme seriale la care lipsesc fotografii de fundal
     tv_missing_a_poster: Filme seriale la care lipsește un afiș
-    tv_show_language_distribution: Distribuția limbilor pentru filmele seriale
+    tv_show_language_distribution: Distribuirea limbilor pentru filmele seriale
     tv_shows_missing_a_name: Filme seriale la care lipsește un nume
     tv_shows_missing_a_overview: Filme seriale la care lipsește o prezentare
   contribution_bible:
     abbreviations:
       collection: col
       image: img
-      movie: film
+      movie: film art.
       people: pers
-      tv: tv
+      tv: film ser.
     collection:
       collection: Colecții
-      collection_bible: Documentație Colecții
+      collection_bible: Documentație colecții
       tall_bible:
-        bottom: Biblie
+        bottom: Documentație
         top: Colecție
     contribution_bible: Documentație contribuire
     featured_articles: Articole evidențiate
@@ -1632,7 +1632,7 @@ ro-RO:
       movie: Filme artistice
       movie_bible: Documentația pentru filmele artistice
       tall_bible:
-        bottom: Biblie
+        bottom: Informații
         top: Film artistic
     new_content:
       new_content: Conținut nou
@@ -1640,19 +1640,19 @@ ro-RO:
     note: Atenție
     people:
       people: Persoane
-      people_bible: Biblie persoane
+      people_bible: Documentație persoane
       tall_bible:
-        bottom: Biblie
+        bottom: Informații
         top: Persoane
     pro_tip: Sfat pentru profesioniști
     search:
       placeholder_1: Cu ce vă putem ajuta?
     tv:
       tall_bible:
-        bottom: Biblie
+        bottom: Informații
         top: Serial
       tv: Serial
-      tv_bible: Seriale Biblie
+      tv_bible: Documentație filme seriale
     welcome_1: Bine ați venit la
     welcome_2: documentația procesului de contribuire
   contribution_type:
@@ -1685,7 +1685,7 @@ ro-RO:
     - aug
     - sep
     - oct
-    - nov
+    - noi
     - dec
     day_names:
     - duminică
@@ -1771,11 +1771,11 @@ ro-RO:
   departments:
     Acting: Actorie
     Actors: Actori
-    Art: 'Producție film '
-    Camera: Cameră
+    Art: Artă
+    Camera: Camere
     Costume & Make-Up: Costume și machiaj
-    Creator: Realizator
-    Crew: Echipă filmare
+    Creator: Realizare
+    Crew: Echipă de filmare
     Directing: Regizare
     Editing: Montaj
     Lighting: Lumini
@@ -1792,7 +1792,7 @@ ro-RO:
         search_first_air_date: Căutați prima dată de lansare?
       availability:
         availabilities: Disponibilități
-        search_all_availabilities: Căutați toate disponibilitățile?
+        search_all_availabilities: Căutare în toate disponibilitățile?
       certification:
         certification: Certificare
       filters: Filtre
@@ -1817,16 +1817,16 @@ ro-RO:
       runtime: Durată
       show_me:
         everything: Toate
-        movies_have_seen: Filme pe care le-am văzut
+        movies_have_seen: Filme artistice pe care le-am văzut
         movies_havent_seen: Filme artistice pe care nu le-am văzut
         show_me: Arată-mi
         tooltip: Conectați-vă pentru a filtra articolele pe care le-ați vizionat.
-        tv_shows_have_seen: Seriale pe care le-am văzut
-        tv_shows_havent_seen: Seriale pe care nu le-am văzut
+        tv_shows_have_seen: Filme seriale pe care le-am văzut
+        tv_shows_havent_seen: Filme seriale pe care nu le-am văzut
       sort:
         sort_results_by: Sortează rezultatele după
       user_score:
-        user_score: Scor utilizator
+        user_score: Scor utilizatori
       where_to_watch:
         country: Țara
         my_services:
@@ -1839,22 +1839,22 @@ ro-RO:
     no_items: Nu există niciun articol care să se potrivească cu căutarea dumneavoastră.
     search: Caută
     sort_options:
-      first_air_date_asc: Prima dată de difuzare în mod ascendent
-      first_air_date_desc: Prima dată de difuzare în mod descendent
+      first_air_date_asc: Prima dată de difuzare ascendentă
+      first_air_date_desc: Prima dată de difuzare descendentă
       name_a_z: Nume (A-Z)
       name_z_a: Nume (Z-A)
-      original_order_asc: Original ascendent
-      original_order_desc: Original descendent
-      popularity_asc: Popularitate ascendent
-      popularity_desc: Popularitate descendent
-      primary_release_date_asc: Data de lansare principală în mod ascendent
-      primary_release_date_desc: Data de lansare principală în mod descendent
+      original_order_asc: Original ascendentă
+      original_order_desc: Original descendentă
+      popularity_asc: Popularitate ascendenta
+      popularity_desc: Popularitate descendentă
+      primary_release_date_asc: Data de lansare principală ascendentă
+      primary_release_date_desc: Data de lansare principală descendentă
       rating_asc: Evaluare ascendentă
       rating_desc: Evaluare descendentă
-      release_date_asc: Dată de lansare ascendent
-      release_date_desc: Dată de lansare descendent
-      title_a_z: Nume (A-Z)
-      title_z_a: Nume (Z-A)
+      release_date_asc: Dată de lansare ascendentă
+      release_date_desc: Dată de lansare descendentă
+      title_a_z: Titlu (A-Z)
+      title_z_a: Titlu (Z-A)
     tooltips:
       not_member: Nu sunteți membru?
       options: Arată opțiunile articolului
@@ -1905,7 +1905,7 @@ ro-RO:
     headers:
       discuss: Discuție
       discuss_item: Discuție %{item_title}
-      lets_chat: Hai să vorbim
+      lets_chat: Haideți să vorbim
       support: Sprijin
       support_title: Sprijin Bază de date filme (The Movie Database)
     login_to_be_notified: Autentificați-vă pentru a primii notificări despre prima postare.
@@ -1920,13 +1920,13 @@ ro-RO:
     no_discussions: Nicio discuție.
     pagination:
       post_summary:
-        few: "%{count} răspunsuri (pe pagină %{current_page} din %{total_pages})"
-        one: "%{count} răspuns (pe pagină %{current_page} din %{total_pages})"
-        other: "%{count} răspunsuri (pe pagină %{current_page} din %{total_pages})"
+        few: "%{count} răspunsuri (pe pagina %{current_page} din %{total_pages})"
+        one: "%{count} răspuns (pe pagina %{current_page} din %{total_pages})"
+        other: "%{count} răspunsuri (pe pagina %{current_page} din %{total_pages})"
       summary:
-        few: "%{count} discuții, momentan pe pagină %{current_page} din %{total_pages}"
-        one: "%{count} discuție, momentan pe pagină %{current_page} din %{total_pages}"
-        other: "%{count} de discuții, momentan pe pagină %{current_page} din %{total_pages}"
+        few: "%{count} discuții, momentan pe pagina %{current_page} din %{total_pages}"
+        one: "%{count} discuție, momentan pe pagina %{current_page} din %{total_pages}"
+        other: "%{count} de discuții, momentan pe pagina %{current_page} din %{total_pages}"
     post:
       delete: Șterge
       edit: Editează
@@ -1938,7 +1938,7 @@ ro-RO:
         delete_discussion: Făcând clic pe "Da", această discuție va fi ștearsă definitiv.
         hide_comment: Făcând clic pe "Da", acest comentariu va fi ascuns.
         hide_discussion: Făcând clic pe "Da", această discuție va fi ascunsă.
-        ignore_user: Sigur doriți să ignorați acest utilizator? Toate discuțiile și comentariile lui vor dispărea. Puteți să eliminați acest blocaj accesând pagina "Utilizatori blocați" din setările contului.
+        ignore_user: Sigur doriți să ignorați acest utilizator? Toate discuțiile și comentariile lui vor dispărea. Puteți să eliminați acest blocaj accesând pagina „Utilizatori blocați” din setările contului.
         mark_as_not_spam: Sigur doriți să marcați această discuție ca fiind validă și nu ca spam?
         mark_as_spam: Sigur doriți să marcați această discuție ca fiind spam? Aceasta va fi ștearsă automat și nu se poate anula. Marcarea discuțiilor ca spam ajută la detectarea serviciului de spam pe care îl folosim.
         report_violation: Confirmați că doriți să raportați acest utilizator pentru încălcarea <a href="/documentation/community/guidelines" target="_blank" rel="noopener">regulamentului comunității</a>.
@@ -2025,7 +2025,7 @@ ro-RO:
   edit_list:
     add_edit_items: Adăugare/Editare articole
     choose_image: Alegeți imaginea
-    delete_list: Șterge lista
+    delete_list: Ștergere listă
     edit_list: Editați lista
   edits: modificări
   email:
@@ -2063,7 +2063,7 @@ ro-RO:
       1f641: Față încruntată ușor
       1f914: Față gânditoare
       1f922: Față dezgustată
-      1f923: Râzând pe spate
+      1f923: Față rostogolită de râs
       1f928: Față cu sprânceană ridicată
       1f92c: Față cu simboluri pe gură
       1f92d: Față cu mâna peste gură
@@ -2256,12 +2256,12 @@ ro-RO:
   homepage:
     community:
       benefits_list:
-        '1': Beneficiați de anunțuri TMDB gratuite
-        '2': Mențineți-vă o listă de urmărire personală
-        '3': Filtrează-ți serviciile de streaming abonate și găsește ceva de urmărit
-        '4': Marchează filmele și emisiunile TV pe care le-ai văzut
-        '5': Creați-vă liste personalizate
-        '6': Contribuie și îmbunătățește baza noastră de date
+        '1': Beneficiați de TMDB fără reclame
+        '2': Mențineți o listă personală cu filme artistice și seriale de vizionat
+        '3': Filtrați serviciile de difuzare în flux la care aveți abonament și găsiți ceva de vizionat
+        '4': Marcați filmele artistice și seriale pe care le-ați văzut
+        '5': Creați liste personalizate
+        '6': Contribuiți și îmbunătățiți baza noastră de date
     discussions:
       catch_up_now: Chiar acum
       discussions: Discuții
@@ -2270,18 +2270,18 @@ ro-RO:
       welcome_1: Bun venit.
     panels:
       community:
-        join_today: Alătură-te astăzi
-        sign_up: Înscrie-te
+        join_today: Alăturați-vă astăzi
+        sign_up: Înscrieți-vă
       filters:
         for_rent: Pentru închiriat
         in_theaters: În cinematografe
-        movies: Filme
+        movies: Filme artistice
         on_tv: La TV
         popular: Populare
-        streaming: Streaming
+        streaming: Difuzate în flux
         this_week: Săptămâna aceasta
         today: Astăzi
-        tv: Seriale
+        tv: Filme seriale
       free_to_watch: Gratuit de vizionat
       latest_trailers: Ultimele secvențe
       leaderboard:
@@ -2342,8 +2342,8 @@ ro-RO:
     one: încă %{count}...
     other: încă %{count}...
   jobs:
-    '"A" Camera Operator': 'Operator Cameră "A" '
-    '"B" Camera Operator': Operator cameră "B"
+    '"A" Camera Operator': Operator cameră „A”
+    '"B" Camera Operator': Operator cameră „B”
     '"C" Camera Operator': Operator cameră "C"
     '"D" Camera Operator': Operator cameră "D"
     24 Frame Playback: Redare în 24 de cadre
@@ -2526,7 +2526,7 @@ ro-RO:
     CGI Supervisor: Supraveghetor imagini generate computerizat
     Cableman: Cablator
     Cameo: Cameo
-    Camera Car: 'Cameră mașină '
+    Camera Car: Mașină cu camere
     Camera Department Manager: Manager departament camere
     Camera Department Production Assistant: 'Asistent cameră departament producție '
     Camera Intern: Ucenic cameră
@@ -2552,7 +2552,7 @@ ro-RO:
     Catering Head Chef: Bucătar șef catering
     Chaperone: Însoțitor
     Chaperone Tutor: 'Tutore însoțitor '
-    Character Designer: Proiectant caracter
+    Character Designer: Proiectant personaje
     Character Modelling Supervisor: Supraveghetor modelare caracter
     Character Technical Supervisor: Supraveghetor tehnic personaje
     Characters: Persoane
@@ -3275,38 +3275,38 @@ ro-RO:
   joined: Înregistrat
   keyboard_shortcuts:
     actions:
-      back_to_parent: înapoi (sau la pornire atunci când este cazul)
+      back_to_parent: mergi înapoi (sau la părinte atunci când este cazul)
       close_window: închide o fereastră deschisă
       focus_search: focalizează bara de căutare
-      go_to_edit: accesați pagina de editare
-      last_reply: mergeți la ultimul răspuns
-      new_discussion: creați o nouă discuție
-      next_episode: "(săgeată dreapta) mergeți la următorul episod"
+      go_to_edit: mergi la pagina de editare
+      last_reply: mergi la ultimul răspuns
+      new_discussion: crează o discuție nouă
+      next_episode: "(săgeată dreapta) mergi la episodul următor"
       next_page: "(săgeată dreapta) pagina următoare"
-      next_season: "(săgeată dreapta) mergeți la sezonul următor"
+      next_season: "(săgeată dreapta) mergi la sezonul următor"
       open_activity: deschide activitatea
-      open_add_image_window: deschideți fereastra pentru adăugarea imaginii
-      open_profile: deschideți meniul profilului
-      open_shortcut_window: deschideți fereastra de scurtături de la tastatură
+      open_add_image_window: deschide fereastra pentru adăugarea de imagini
+      open_profile: deschide meniul profilului
+      open_shortcut_window: deschide fereastra cu scurtături de la tastatură
       open_translation_selector: deschide selectorul de traduceri
-      previous_episode: "(săgeată stânga) mergeți la episodul anterior"
-      previous_page: "(săgeată stânga) pagina anterioară"
-      previous_season: "(săgeată stânga) mergeți la sezonul precedent"
+      previous_episode: "(săgeată stânga) mergi la episodul precedent"
+      previous_page: "(săgeată stânga) pagina precedentă"
+      previous_season: "(săgeată stânga) mergi la sezonul precedent"
       reply_to_discussion: răspuns la discuție
-      save_form: trimiteți formularul
-      submit_message: trimiteți mesajul
-      toggle_close: comutați închidere/deschidere
-      toggle_private: comutați public/privat
-      toggle_watching: comutați stare de vizionare
+      save_form: trimite formularul
+      submit_message: trimite mesajul
+      toggle_close: comută închisă/deschisă
+      toggle_private: comută publică/privată
+      toggle_watching: comută starea de vizionare
     enable: Activăm comenzile rapide de la tastatură
     groups:
       discussion_pages: Pe paginile de discuții
       edit_pages: Pe toate paginile de editare
-      global: Global
+      global: Globale
       image_pages: Pe toate paginile de imagini
       media_pages: Pe paginile media
-      tv_episode_pages: Pe paginile episoadelor TV
-      tv_season_pages: Pe paginile sezonului TV
+      tv_episode_pages: Pe paginile episoadelor filmelor seriale
+      tv_season_pages: Pe paginile sezoanelor filmelor seriale
     keyboard_shortcuts: Comenzi rapide de la tastatură
     login_to_change_preferences: Puteți dezactiva comenzile rapide de la tastatură conectându-vă la contul dvs.
     view_keyboard_shorcuts: Vedeți comenzile rapide de la tastatură
@@ -3316,7 +3316,7 @@ ro-RO:
       absurd: absurd
       admiring: admirator
       adoring: adorator
-      affectation: afectare
+      affectation: afectant
       aggressive: agresiv
       ambiguous: ambiguu
       ambivalent: ambivalent
@@ -3446,7 +3446,7 @@ ro-RO:
       mischievous: obraznic
       mocking: zeflemitor
       modest: modest
-      mourning: jale
+      mourning: Îndurerat
       mysterious: misterios
       negative: pesimist
       nervous: agitat
@@ -3510,7 +3510,7 @@ ro-RO:
     average_rating: Evaluare medie
     collaborate: Colaborare
     hide_comments: Ascunde comentariile
-    image_selected: Selectate
+    image_selected: Selectată
     items_not_seen: Articole pe care nu le-am văzut
     items_on_list:
       few: articole pe această listă
@@ -3572,9 +3572,9 @@ ro-RO:
     collection:
       edit:
         parts:
-          add: Adaugă film
-          no_records: Nu s-au adăugat filme.
-      parts: Piese
+          add: Adăugare film artistic
+          no_records: Nu s-au adăugat filme artistice.
+      parts: Părți
     company:
       headquarters: Sediu
       movie_page_title: Filme produse de %{name}
@@ -3658,12 +3658,12 @@ ro-RO:
         taglines: Slogane
         unable_to_delete: Sloganul nu a putut fi șters.
       tooltips:
-        adult: În general, acest semn este folosit doar pentru pornografie. Vă rugăm să consultați <a href="/bible/movie#59f73b759251416e71000004"> contribuție biblie </a> pentru mai multe informații.
-        bible: Pentru ajutor la editarea informațiilor despre TMDB, faceți clic pe "?" pentru a citi din contribuție biblie.
+        adult: În general, acest semn este folosit doar pentru pornografie. Vă rugăm să consultați <a href="/bible/movie#59f73b759251416e71000004">documentația de contribuire</a> pentru mai multe informații.
+        bible: Pentru ajutor la editarea informațiilor pe TMDB, faceți clic pe acest „?” pentru a citi documentația de contribuire.
         character: Numele personajului ar trebui introdus așa cum apare în %{media}.
         homepage: Doar pagina oficială. Paginile fanilor nu sunt permise.
         logo_format: SVG-urile și PNG-urile sunt suportate. SVG-urile sunt preferate deoarece sunt independente de rezoluție.
-        original_title: Titlul original trebuie introdus în limba originală al elementului. În cele mai multe cazuri acesta s-ar potrivi cu limba introdusă în câmpul „limba originală”.
+        original_title: Titlul original trebuie introdus în limba originală al elementului. În cele mai multe cazuri acesta s-ar potrivi cu limba introdusă în câmpul „Limba originală a filmului ...”.
         overview: Când scrieți o prezentare, încercați să o păstrați scurtă, concisă și fără stricătoare de chef (spoilers).
         social_links: Legăturile sociale sunt doar pentru paginile oficiale (verificate). Paginile fanilor nu sunt permise.
       translation_already_exists: Traducerea în limba %{language} deja există.
@@ -3674,7 +3674,7 @@ ro-RO:
         locked: Acest video este blocat.
     external_links:
       visit_facebook: Vizitați Facebook
-      visit_homepage: Vizitați pagina de pornire
+      visit_homepage: Vizitați pagina dedicată
       visit_instagram: Vizitați Instagram
       visit_justwatch: Vizitați JustWatch
       visit_tiktok: Vizitați TikTok
@@ -3813,7 +3813,7 @@ ro-RO:
         one: "%{count} evaluare"
         other: "%{count} de evaluări"
       score_breakdown: Defalcarea punctelor
-      score_distribution: Distribuția scorului
+      score_distribution: Distribuirea scorului
       score_history: Istoricul scorului
       score_trend: Tendința scorului
     shortcut_bar:
@@ -3826,7 +3826,7 @@ ro-RO:
       fandom: Zonă fani
       headshots: Fotografii
       logos: Sigle
-      main: Principal
+      main: Principală
       media: Multimedia
       overview: Prezentare
       posters: Afișe
@@ -3908,7 +3908,7 @@ ro-RO:
       create_season: Creați un sezon
       edit:
         adult:
-          adult_show: Film serial pentru adulți?
+          adult_show: Filmul serial este doar pentru adulți?
         alternative_names:
           no_records: Nu au fost adăugate nume alternative.
         content_ratings:
@@ -3968,7 +3968,7 @@ ro-RO:
         other: Rețele
       primary_characters: Personaje principale
       series_cast: Distribuția seriei
-      series_crew: Echipă filmare serial
+      series_crew: Echipa de filmare a seriei
       statuses:
         Canceled: Anulat
         Ended: Terminat
@@ -3989,12 +3989,12 @@ ro-RO:
       audio_language: Limbă audio
       channel: Canal
       duration: Durată
-      play_behind_the_scenes: Urmăriți în culisele filmărilor
+      play_behind_the_scenes: Redă în culisele filmărilor
       play_blooper: Rulează gafa
       play_clip: Rulați clip
       play_featurette: Rulați filmulețul
       play_opening_credits: Rulați creditele deschise
-      play_recap: Urmăriți rezumatul
+      play_recap: Redă rezumatul
       play_teaser: Rulați scena scurtă.
       play_trailer: Redare secvențe
       published: Publicat
@@ -4115,7 +4115,7 @@ ro-RO:
   no_records: Nu au fost adăugate înregistrări.
   no_tv_search_results: Nu există niciun film serial care să se potrivească cu căutarea dumneavoastră
   no_watchlist_movies:
-    current_user: Nu ați adăugat niciun film artistic în lista de filme de urmărit.
+    current_user: Nu ați adăugat niciun film artistic în lista de filme artistice de vizionat.
     public: Această listă de filme artistice de urmărit este goală.
   no_watchlist_tv_shows:
     current_user: Nu ați adăugat niciun film serial în lista de filme de urmărit.
@@ -4199,17 +4199,17 @@ ro-RO:
     other: "%{count} de voturi"
   ott:
     available_sentences:
-      ads: urmăriți cu reclame
+      ads: Vizionare cu reclame
       buy: cumpără
       flatrate: următoarele canale de difuzare în flux
-      free: urmăriți gratuit
+      free: Vizionare gratuită
       rent: închiriere
       sentence: "%{title} este în prezent disponibil pe %{available_types} în %{country}."
     available_snippet:
       flatrate: Difuzat acum în flux
       rent_or_buy: Disponibil pentru închiriere sau cumpărare
       summary_sentence: "%{available_snippet} pe %{service_name}"
-    description: JustWatch vă ajută să aflați unde puteți viziona în mod legal filmele și serialele preferate online. Accesați {justwatch_link} pentru mai multe informații.
+    description: JustWatch vă ajută să aflați unde puteți viziona în mod legal filmele dumeavoastră artistice și seriale preferate pe internet. Accesați {justwatch_link} pentru mai multe informații.
     filters:
       4k: 4K
       best_price: Cel mai bun mod
@@ -4240,10 +4240,10 @@ ro-RO:
     view_offers: Vezi Ofertele
     watch_now: Vizionați acum
     watch_on:
-      ads: Urmăriți %{name} pe %{provider_name}
+      ads: Vizionați %{name} pe %{provider_name}
       buy: Cumpărați %{name} pe %{provider_name}
-      flatrate: Urmăriți %{name} pe %{provider_name}
-      free: Urmăriți %{name} pe %{provider_name}
+      flatrate: Vizionați %{name} pe %{provider_name}
+      free: Vizionați %{name} pe %{provider_name}
       rent: Închiriați %{name} pe %{provider_name}
   pagination:
     currently_on: Momentan pe pagina %{current_page} din %{total_pages}
@@ -4294,8 +4294,8 @@ ro-RO:
     search_results: Rezultatele căutării
     trending: Tendință
     trending_searches: Căutări în ascensiune
-    watchlist_movie: Căutare listă de filme artistice de urmărit...
-    watchlist_tv: Căutare listă de filme seriale de urmărit...
+    watchlist_movie: Căutare listă de filme artistice de vizionat...
+    watchlist_tv: Căutare listă de filme seriale de vizionat...
   search_text_validation_error: Vă rugăm să introduceți un text valid!
   search_tip_1: 'Sfat: Puteți folosi filtrul „y:” pentru a restrânge rezultatele după an. De exemplu: „Războaiele stelare y:1977”.'
   season_number_name: Sezonul %{season_number}
@@ -4368,8 +4368,8 @@ ro-RO:
           item: Articol
           item_reasons:
             already_imported: Deja importată.
-            cant_find_imdb: Nu s-a găsit ID-ul IMDb.
-            imdb_id_not_in_row: ID-ul IMDb nu a fost găsit în acest rând.
+            cant_find_imdb: Nu s-a găsit identificatorul IMDb.
+            imdb_id_not_in_row: Identificatorul IMDb nu a fost găsit în acest rând.
             personal_rating_invalid: Evaluarea dumneavoastră personală nu este validă (trebuie să fie între 0,5 și 10,0).
             personal_rating_not_found: Evaluarea dumneavoastră personală nu a fost găsită în acest rând.
             row_is_invalid: Acest rând nu este valid.
@@ -4469,13 +4469,13 @@ ro-RO:
       web:
         current_session: sesiunea actuală
         remove_single:
-          confirm_button: Da. șterge !
+          confirm_button: Da. șterge-o !
           dialog_text: Sigur doriți să ștergeți această sesiune? Dacă sesiunea selectată este sesiunea dvs. actuală, această acțiune vă va deconecta.
           dialog_title: Ștergeți sesiunea?
         table:
-          date: Date
+          date: Data și ora
           device: Dispozitivul
-          expires: Expirare
+          expires: Expiră la data și ora
           ip: Adresa IP
     sharing:
       favorite_list:
@@ -4488,7 +4488,7 @@ ro-RO:
         share_publicly: Distribuiți public această listă?
       sharing_settings: Stabiliri distribuire
       watchlist:
-        remove_when_rated: Ștergere automată articole atunci când sunt evaluate?
+        remove_when_rated: Eliminăm automat din listă articolele atunci când sunt evaluate?
         share_publicly: Distribuiți public această listă?
         watchlist_settings: Stabiliri listă filme de vizionat
     social:
@@ -4513,7 +4513,7 @@ ro-RO:
     benefits:
       benefits_to_being_member: Beneficile ca membru
       build_custom_lists: Construiți liste personale mixte (filme artistice și seriale)
-      build_watchlist: Construiți și întrețineți o listă personală cu filme de urmărit
+      build_watchlist: Construiți și întrețineți o listă personală cu filme de vizionat
       contribute: Contribuiți și îmbunătățiți informațiile din baza noastră de date
       discussions: Luați parte la discuțiile despre filmele artistice și seriale
       find_something_to_watch: Găsiți ce să vizionați pe serviciile dvs. de difuzare în flux unde aveți abonament.
@@ -4536,7 +4536,7 @@ ro-RO:
   success_sharing: Mesajul dumneavoastră a fost distribuit cu succes.
   support:
     array:
-      last_word_connector: ", și"
+      last_word_connector: ", și "
       two_words_connector: " and "
       words_connector: ", "
   the: cel
@@ -4571,16 +4571,16 @@ ro-RO:
       moods:
         afraid: Teamă
         angry: Furie
-        disgusted: Dezgustat
-        happy: Bucuros
-        interested: Interesat
-        sad: Trist
-        surprised: Surprins
+        disgusted: Dezgust
+        happy: Bucurie
+        interested: Interes
+        sad: Tristețe
+        surprised: Surprindere
       prompt: Cum v-a făcut să vă simțiți %{title}?
     rating:
       clear: Elimină evaluarea mea
       label: Evaluare
-      prompt: Ce părere ați avut de %{title}?
+      prompt: Ce părere ați avut despre %{title}?
       tooltip:
         '0': Mizerabil
         '10': Complet varză
@@ -4602,7 +4602,7 @@ ro-RO:
       select: Selectați o nuanță...
     welcome: Bun venit la ambianțe, Sistemul de evaluare nou al TMDB! Pentru mai multe informații, vizitați <span class="%{style}"><a href="%{link}"> documentația de contribuire</a></span>.
     whats_new: Ce e nou?
-    whats_your_vibe: Care e <span class="%{style}">ambianța</span> dumneavoastră?
+    whats_your_vibe: Care e <span class="%{style}">ambianța dumneavoastră</span>?
     your_vibe:
       few: Ambianțele dumneavoastră
       one: Ambianța dumneavoastră
