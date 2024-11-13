@@ -35,11 +35,11 @@ ka-GE:
   Add New Movie: ახალი ფილმის დამატება
   Add New Release: ახალი გამოშვების დამატება
   Add New Season: ახალი სეზონის დამატება
-  Add New TV Show: ახალი ტელეშოუს დამატება
+  Add New TV Show: ახალი შოუს/სერიალის დამატება
   Add Poster: აფიშის დამატება
   Add Profile: პროფილის დამატება
-  Add Season Regular: სეზონის რეგულარული სტუმრის დამატება
-  Add Title Logo: დაამატეთ სათაურის ლოგო
+  Add Season Regular: სეზონის მუდმივი მონაწილის დამატება
+  Add Title Logo: სათაურის ლოგოს დამატება
   Add To Every Season?: დაემატოს ყველა სეზონს?
   Add Video: ვიდეოს დამატება
   Add YouTube Video: YouTube ვიდეოს დამატება
@@ -239,8 +239,8 @@ ka-GE:
   Language Preferences:
   Languages:
   Last Name:
-  Last Season Crew:
-  Last Season Featured Crew: ბოლო სეზონის შემქმნელები
+  Last Season Crew: ბოლო სეზონის შემქმნელები
+  Last Season Featured Crew: ბოლო სეზონის შემქმნელი
   Last Season Regular Cast:
   Last Week:
   Leaderboard: ლიდერების ცხრილი
@@ -252,7 +252,7 @@ ka-GE:
   Login to Add a Backdrop:
   Login to Add a Poster:
   Login to Add a Video: შედით ვიდეოს დასამატებლად
-  Login to Edit Cast & Crew:
+  Login to Edit Cast & Crew: რედაქტირებისთვის საჭიროა ავტორიზაცია
   Login to add this TV show to your favorite list:
   Login to add this TV show to your watchlist:
   Login to add this movie to your favorite list:
@@ -353,7 +353,7 @@ ka-GE:
   Recent News: ბოლო სიახლეები
   Recommendations:
   Regions:
-  Regular Cast:
+  Regular Cast: მონაწილე მსახიობები
   Release Dates & Certifications:
   Release Information: გამოშვების ინფორმაცია
   Release Note: შენიშვნა
@@ -446,9 +446,9 @@ ka-GE:
   The Basics:
   Theatrical: თეატრალური
   Theatrical (limited): თეატრალური (შეზღუდული)
-  Timezone:
-  Title:
-  Today:
+  Timezone: დროის სარტყელი
+  Title: სათაური
+  Today: დღეს
   Top Billed Cast:
   Top Rated Movies: საუკეთესო ფილმები
   Top Rated TV Shows: საუკეთსო სერიალები
@@ -487,18 +487,18 @@ ka-GE:
   View Original:
   View Profile Images:
   View the Collection:
-  Watch Online:
+  Watch Online: ონლაინში ყურება
   Watchlist:
   Watchlists:
-  Website:
-  Website Terms:
-  Website Updates:
+  Website: ვებ-გვერდი
+  Website Terms: ვებსაიტის პირობები
+  Website Updates: ვებ-გვერდის განახლებები
   Wrappers & Libraries:
   Written by: სცენარის ავტორი
   Year: წელი
   'Yes': დიახ
   Your lists: თქვენი სიები
-  Your rating:
+  Your rating: შენი რეიტინგი
   Zip Code: საფოსტო ინდექსი
   account_drop_down:
     discussions: დისკუსიები
@@ -536,10 +536,10 @@ ka-GE:
         edit: რედაქტირება
         key: Გასაღები
         language_abbreviation: ენა
-    average_movie_score: საშუალო<br>ფილმის ქულა
-    average_tv_score: საშუალო<br>ტელევიზიის ქულა
+    average_movie_score: ფილმების<br>საშუალო შეფასება
+    average_tv_score: სერიალების<br>საშუალო შეფასება
     discussions:
-      my_active_boards: ჩემი აქტიური დაფები
+      my_active_boards: ჩემი აქტიური დისკუსიები
       my_discussions: ჩემი დისკუსიები
       not_watching: თქვენ თვალს არ ადევნებთ არცერთ დისკუსიას.
       page_title:
@@ -554,7 +554,7 @@ ka-GE:
             Bounce: მობრუნდა
             Complaint: საჩივარი
             Delivery: მიწოდებული
-            Invalid:
+            Invalid: არასწორია
             Unknown: უცნობი
             Unsubscribed: გამოწერა გაუქმებულია
             status: სტატუსი
@@ -597,7 +597,7 @@ ka-GE:
       alphabetical: ანბანური
       date_added: დამატების თარიღი
       date_rated: შეფასების თარიღი.
-      first_air_date: პირველი გაშვების თარიღი
+      first_air_date: გაშვების პირველი თარიღი
       most_popular: ყველაზე პოპულარული
       my_rating: ჩემი რეიტინგი
       newest: უახლესი
@@ -614,7 +614,7 @@ ka-GE:
         logged_in: ჩემი სიები
         public: "%{username}-ის სიები"
       no_lists:
-        logged_in: თქვენ არ შეგიქმნიათ სიები.
+        logged_in: თქვენ არ შეგიქმნიათ არცერთი სია.
         public: "%{username}-ს არ აქვს გასაზიარებელი საჯარო სიები."
       page_title:
         page_owner: ჩემი სიები
@@ -641,8 +641,8 @@ ka-GE:
       empty_watched_genres:
         logged_in: თქვენ არ შეგიყვანიათ არცერთი ფილმი ან სატელევიზიო შოუ.
         public: "%{username}-ს არ აქვს შეყვანილი არცერთი ფილმი ან სატელევიზიო შოუ."
-      goto_discussions: გადადით დისკუსიებზე
-      goto_watchlist: გადადით საყურებელ სიაში
+      goto_discussions: დისკუსიებზე გადასვლა
+      goto_watchlist: საყურებელ სიაში გადასვლა
       most_watched_genres: ყველაზე ყურებადი ჟანრები
       rating_overview: რეიტინგის მიმოხილვა
       recent_activity: ბოლო აქტიურობა
@@ -667,8 +667,8 @@ ka-GE:
     recommendations:
       my_recommendations: ჩემი რეკომენდაციები
       no_recommendations: ჩვენ არ გვაქვს საკმარისი მონაცემები რაიმე რეკომენდაციისთვის.
-      no_recommendations_helper: სცადეთ კიდევ რამდენიმე რჩეულის დამატება (რაც მეტი, მით უკეთესი) და დაბრუნდით, რომ ნახოთ, როგორ მოვიქეცით.
-      no_recommendations_helper_2: სცადეთ შეაფასოთ კიდევ რამდენიმე ფილმი და სატელევიზიო შოუ (რაც მეტი, მით უკეთესი) და შემდეგ მოგვეცით რამდენიმე საათი, რომ ნახოთ, რისი გაკეთება შეგვიძლია. ეს რეკომენდაციები განახლდება, როცა უყურებთ და შეაფასებთ მეტ კონტენტს.
+      no_recommendations_helper: დაამატეთ რამდენიმე რჩეული (რაც მეტი, მით უკეთესი) და დაბრუნდით, რომ ნახოთ ჩვენი შემოთავაზებები.
+      no_recommendations_helper_2: სცადეთ შეაფასოთ ფილმები,სერიალები ან შოუები (რაც მეტი, მით უკეთესი) და დაელოდეთ რამდენიმე საათი. რეკომენდაციები განახლდება თქვენი ნანახის და შეფასებების მიხედვით.
       page_title: რეკომენდაციები
     sort_options:
       asc: აღმავალი
@@ -694,7 +694,7 @@ ka-GE:
       this_week: ეს კვირა
       view_them: იხილეთ ისინი.
   add_to_list: დაამატეთ %{media_title} თქვენს ერთერთ სიაში...
-  already_translated_in: "%{page_title} უკვე ნათარგმნია მომდევნო ენებზე,,,"
+  already_translated_in: "%{page_title} უკვე ნათარგმნია შემდეგ ენებზე..."
   api_session:
     3rd_party_request: მესამე მხარის ავთენტიფიკაციის მოთხოვნა
     account_required:
@@ -738,12 +738,12 @@ ka-GE:
   awards:
     add_nomination: ნომინაციის დამატება
     air_date:
-      future:
-      past:
+      future: ეთერში გასვლის თარიღი %{date}
+      past: ეთერში გასვლის თარიღი %{date}
     alternative_names: ალტერნატიული სახელები
     categories:
       title: კატეგორიები
-    category_empty:
+    category_empty: ამ კატეგორიაში ნომინაციები არ მოიძებნა.
     ceremonies:
       number:
       release_date_max:
@@ -766,7 +766,7 @@ ka-GE:
   back_options:
     back: უკან
     episode: ეპიზოდზე დაბრუნება
-    episode_groups: ეპიზოდების ჯგუფებში დაბრუნება
+    episode_groups: ეპიზოდის ჯგუფებში დაბრუნება
     episode_list: ეპიზოდების სიაში დაბრუნება
     home: სახლში დაბრუნება
     main: სახლში დაბრუნება
@@ -2131,7 +2131,7 @@ ka-GE:
     tv:
       create_season_locked:
       duplicate_created_by:
-      duplicate_crew_member:
+      duplicate_crew_member: უკვე დამატებულია როგორც %{job_name}.
       duplicate_episode:
       duplicate_guest_star:
       duplicate_regular_season_member:
@@ -2184,7 +2184,7 @@ ka-GE:
   homepage:
     community:
       benefits_list:
-        '1':
+        '1': დატკბი ურეკლამო TMDB-თი
         '2':
         '3':
         '4':
@@ -2192,26 +2192,26 @@ ka-GE:
         '6':
     discussions:
       catch_up_now:
-      discussions:
+      discussions: დისკუსიები
     header:
-      quick_snippet_1: მილიონობით ფილმი, სატელევიზიო შოუ და ხალხი . აღმოჩინე ახლავე.
+      quick_snippet_1: მილიონობით ფილმი, სატელევიზიო შოუ და ხელოვანი. აღმოჩინე ახლავე.
       welcome_1: მოგესალმებით
     panels:
       community:
-        join_today:
+        join_today: შემოგვიერთდით დღეს
         sign_up: შემოგვიერთდი
       filters:
-        for_rent:
+        for_rent: გაქირავებაში
         in_theaters: "\t\nკინოთეატრებში"
         movies: ფილმები
-        on_tv:
-        popular:
-        streaming:
+        on_tv: ტელევიზიით
+        popular: ყურებადი
+        streaming: ეთერში
         this_week: ამ კვირაში
         today: დღეს
-        tv:
-      free_to_watch:
-      latest_trailers:
+        tv: ტელევიზია
+      free_to_watch: უფასო
+      latest_trailers: ბოლო კინოანონსები
       leaderboard:
         all_time:
         leaderboard:
@@ -2224,9 +2224,9 @@ ka-GE:
       thats_a_wrap:
     tv_shows:
       episode_airs:
-        in_days:
-        today:
-        tomorrow:
+        in_days: ახალი ეპიზოდი ეთერში %{number_of_days} დღეში გავა
+        today: ახალი ეპიზოდი დღეს გადის ეთერში
+        tomorrow: ახალი ეპიზოდი ხვალ გამოვა
   images:
     confirm_delete:
     upload_criteria:
@@ -3224,13 +3224,13 @@ ka-GE:
       toggle_watching:
     enable:
     groups:
-      discussion_pages:
-      edit_pages:
-      global:
-      image_pages:
-      media_pages:
-      tv_episode_pages:
-      tv_season_pages:
+      discussion_pages: დისკუსიების გვერდზე
+      edit_pages: რედაქტირების ყველა გვერდზე
+      global: ყველგან
+      image_pages: გამოსახულებების გვერდზე
+      media_pages: მედიის გვერდზე
+      tv_episode_pages: ტელევიზიის ეპიზოდების გვერდზე
+      tv_season_pages: ტელევიზიის სეზონების გვერდზე
     keyboard_shortcuts:
     login_to_change_preferences:
     view_keyboard_shorcuts:
@@ -3484,6 +3484,8 @@ ka-GE:
         language:
         user:
       number_of_changes:
+        one: "%{count} ცვლილება"
+        other: "%{count} ცვლილება"
       view_weekly_leaderboard:
     character:
       edit:
@@ -3497,7 +3499,7 @@ ka-GE:
       parts:
     company:
       headquarters:
-      movie_page_title:
+      movie_page_title: "%{name}-ის მიერ წარმოებული ფილმები"
       tv_page_title:
     content_score:
       helper_tooltip: შინაარსის ქულა არის გზა, რომელიც დაგეხმარებათ გაიგოთ, რამდენად სრულყოფილია მონაცემთა ბაზაში არსებული ობიექტი.
@@ -3509,7 +3511,7 @@ ka-GE:
           cast_min_4:
           created_by:
           credits:
-          crew_min_2:
+          crew_min_2: გადამღები ჯგუფი (2 ან მეტი)
           director:
           episode:
           genres:
@@ -3549,7 +3551,7 @@ ka-GE:
       lock_all_fields:
       lock_all_images:
       lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_crew: არსებული მონაცემების დაბლოკვა
       logos:
       page_title:
       placeholders:
@@ -3629,9 +3631,9 @@ ka-GE:
         confirm_collection:
         confirm_video:
         crew:
-          job_required:
-          no_records:
-          person_required:
+          job_required: კიდე სამუშაოა საჭირო
+          no_records: გადამღებ ჯგუფში არავინაა დამატებული
+          person_required: მიუთითეთ პიროვნება
         genres:
           add_genre:
           no_records:
@@ -3678,6 +3680,8 @@ ka-GE:
       movie:
       tv:
     number_of_movies:
+      one: ფილმი
+      other: ფილმები
     number_of_shows:
     person:
       edit:
@@ -3719,24 +3723,24 @@ ka-GE:
       score_history:
       score_trend:
     shortcut_bar:
-      alternative_titles:
+      alternative_titles: ალტერნატიული სათაურები
       backdrops: უკანა დეკორაციები
-      cast_crew:
+      cast_crew: მსახიობები და გადამღები ჯგუფი
       changes: ცვლილებები
-      characters:
-      episodes:
+      characters: პერსონაჟები
+      episodes: ეპიზოდები
       fandom:
       headshots:
-      logos:
-      main:
-      media:
-      overview:
-      posters:
-      profiles:
-      release_dates:
-      reviews:
-      seasons:
-      translations:
+      logos: ლოგოები
+      main: მთავარი
+      media: მედია
+      overview: მიმოხილვა
+      posters: აფიშები
+      profiles: პროფილები
+      release_dates: გამოშვების თარიღები
+      reviews: მიმოხილვები
+      seasons: სეზონები
+      translations: თარგმანები
       videos: ვიდეოები
     social_panel:
       discussions:
@@ -3800,7 +3804,7 @@ ka-GE:
         screened_confirm:
         screened_label:
       season_cast:
-      season_crew:
+      season_crew: სეზონის გადამღები ჯგუფი
       season_selector:
         current_season: მიმდინარე სესია
         last_season:
@@ -3818,17 +3822,17 @@ ka-GE:
         creator:
           no_records:
         crew:
-          no_season:
+          no_season: სეზონი არ მოიძებნა, გადამღებ ჯგუფში დასამატებლად, ჯერ სეზონი უნდა დაამატოთ.
         episode_groups:
-          create_new_group:
-          description:
-          episode_groups:
+          create_new_group: ახალი ჯგუფის შექმნა
+          description: აღწერა
+          episode_groups: ეპიზოდის ჯგუფები
           episodes:
-            move_episodes:
-            no_records:
+            move_episodes: მონიშნული ეპიზოდების გადატანა
+            no_records: ჯერ არაა ამ ჯგუფში ეპიზოდი დამატებული
           grid:
-            episodes:
-            groups:
+            episodes: ეპიზოდები
+            groups: ჯგუფები
           group:
           messages:
             episodes_added:
@@ -4493,8 +4497,8 @@ ka-GE:
     visit_vimeo_channel:
     visit_youtube_channel:
     youtube_channel:
-  view all:
+  view all: ყველას ნახვა
   will_paginate:
-    next_label:
-    page_gap:
-    previous_label:
+    next_label: შენდეგი  →
+    page_gap: "..."
+    previous_label: "← წინა"

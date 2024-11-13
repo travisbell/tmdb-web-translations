@@ -135,7 +135,7 @@ lv-LV:
   Delete Collection: Izdzēst krājumu
   Delete Keyword: Dzēst atslēgvārdu
   Delete Movie: Dzēst filmu
-  Delete Person: Dzēst personu
+  Delete Person: Izdzēst cilvēku
   Delete TV Show: Izzēst TV pārraidi
   Deny: Noliegt
   Department: Nodaļa
@@ -184,11 +184,11 @@ lv-LV:
   FAQ: BUJ
   Facts: Par
   Fallback Language: Rezerves valoda
-  Favorite: Mīļākais
-  Favorite Movies: Mīļākās filmas
-  Favorite TV Shows:
-  Favorites:
-  Featured: Populārs
+  Favorite: Izlasē
+  Favorite Movies: Iecienītākās filmas
+  Favorite TV Shows: Iecienītākās TV pārraides
+  Favorites: Izlase
+  Featured: Izcelts
   Featured Cast: Ekskluzīvi aktieri
   Featured Crew: Ekskluzīvi izstrādātāji
   Featured Lists: Tematiskie saraksti
@@ -217,7 +217,7 @@ lv-LV:
   Help: Palīdzība
   Help Us By Contributing Missing Data: Palīdzi mums, sniedzot trūkstošos datus
   Hi: Sveiciens,
-  Hide favorites?: Paslēpt izlases?
+  Hide favorites?: Paslēpt izlasi?
   Hide items on watchlist?: Vai paslēpt vienumus skatīšanās sarakstā?
   Hide rated?: Paslēpt novērtēto?
   Home: Sākumlapa
@@ -226,7 +226,7 @@ lv-LV:
   Images: Attēli
   Import CSV: Ievietot CSV
   Import List: Ievietot sarakstu
-  In Theaters: Kinoteātrī
+  In Theaters: Kinoteātros
   Include Adult Items in Search?: Vai iekļaut meklēšanā pieaugušajiem paredzētu saturu?
   Incorrect Content: Nepareizs saturs
   Info: Informācija
@@ -346,7 +346,7 @@ lv-LV:
   Public Report?: Publisks ziņojums?
   Quality: Kvalitāte
   Rank: Rangs
-  Rate it!: Novērtē to!
+  Rate it!: Novērtēt
   Rated: Novērtēts
   Rated Movies: Novērtētas filmas
   Rated TV Shows: Novērtētas TV pārraides
@@ -384,7 +384,7 @@ lv-LV:
   Search for a language:
   Search for a movie:
   Search for a movie or TV show: Meklēt filmu vai TV pārraidi
-  Search for a movie, TV show, person: Meklēt filmu, TV pārraidi, personu...
+  Search for a movie, TV show, person: Meklēt filmu, TV pārraidi, cilvēku...
   Season: Sezona
   Season Number: Sezonas numurs
   Season Overview: Sezonas pārskats
@@ -591,11 +591,11 @@ lv-LV:
       export_csv: Eksportēt CSV
     favorites:
       my_favorites:
-        logged_in: Mani mīļākie
-        public: "%{username} mīļākie"
+        logged_in: Mana izlase
+        public: "%{username} izlase"
       page_title:
-        page_owner: Mani mīļākie
-        public: "%{username} mīļākie"
+        page_owner: Mana izlase
+        public: "%{username} izlase"
     filter_by: 'Atlasīt pēc:'
     filters:
       air_date: Transliacijos dati
@@ -653,8 +653,8 @@ lv-LV:
       recent_activity: Jaunākās darbības
       recent_discussions: Jaunākās apspriešanas
       total_edits: Kopējie labojumi
-      total_ratings: Kopējie vērtējumi
-      upcoming_watchlist: Drīzumā kinoteātros no skatīšanās saraksta
+      total_ratings: Vērtējumi pavisam
+      upcoming_watchlist: Drīzumā no skatīšanās saraksta
     page_title:
       page_owner: Mans profils
       public: "%{username} profils"
@@ -1513,7 +1513,7 @@ lv-LV:
     select_cast_credit: Izvēlieties beigu titrus
     select_group_title: Atlasīt un apkopot nosaukumus
     select_message:
-    select_person: Izvēlieties personu
+    select_person: Atlasīt cilvēku
     select_person_association:
     select_person_for_media:
     selected_appearance_linked_to_character: Alasītā(s) klātbūtne(s) tiks sasaistītas ar tēlu.
@@ -2143,7 +2143,7 @@ lv-LV:
       duplicate_season_episode_cast_member: Šis cilvēks jau ir pievienots kā aktieris šīs sezonas sērijai. Aktieru uzskaite ir jāpievieno vai nu sezonai, vai sērijai, bet ne abējādi.
       duplicate_season_episode_crew_member: Šis cilvēks jau ir pievienots kā %{job_name} šīs sezonas sērijai. Apkalpes uzskaite ir jāpievieno vai nu sezonai, vai arī sērijai, bet ne abējādi.
       missing_credit:
-      missing_person: Ievadīto personu nevarēja atrast.
+      missing_person: Ievadīto cilvēku nevarēja atrast.
   failed_email: Neizdevās nosūtīt e-pasta ziņojumu.
   failed_generic: Radās sarežģījums.
   failed_report: Ziņojuma iesniegšanas laikā radās sarežģījums.
@@ -2211,23 +2211,23 @@ lv-LV:
         join_today: Pievienojies šodien
         sign_up: Reģistrēties
       filters:
-        for_rent: Nuomai
-        in_theaters: Teātrī
+        for_rent: Nomā
+        in_theaters: Kinoteātros
         movies: Filmas
-        on_tv: Pa TV
+        on_tv: TV
         popular:
-        streaming: Straumēšana
+        streaming: Straumēšanā
         this_week: Šonedēļ
         today: Šodien
         tv: TV
-      free_to_watch: Bezmaksas Skatīties
+      free_to_watch: Skatāms bez maksas
       latest_trailers: Jaunākie reklāmkadri
       leaderboard:
-        all_time: Visa laika labojumi
+        all_time: Visi labojumi
         leaderboard: Rezultātu tabula
         this_week: Labojumi šonedēļ
-      trending: Populārs
-      whats_popular: Kas ir populārs
+      trending: Tiek skatīts
+      whats_popular: Kas piesaista uzmanību
     taw:
       read_the_2018_recap:
       read_the_2019_recap:
@@ -3566,7 +3566,7 @@ lv-LV:
         job: Izvēlies profesiju...
         keywords: Jāatlasa atslēgvārds...
         networks: Meklēt raiduzņēmumu...
-        person: Meklēt personu...
+        person: Meklēt cilvēku...
         production_companies: Meklē ražošanas uzņēmumu...
       release_date:
         locked:
@@ -3986,11 +3986,11 @@ lv-LV:
   no_director:
   no_episode_images:
   no_favorite_movies:
-    current_user:
-    public:
+    current_user: Nav pievienota neviena iecienīta filma.
+    public: "%{username} nav nevienas iecienītas filmas."
   no_favorite_tv_shows:
-    current_user:
-    public:
+    current_user: Nav pievienota neviena iecienīta TV pārraide.
+    public: "%{username} nav nevienas iecienītas TV pārraides."
   no_genres: Nav pievienots neviens žanrs.
   no_guest_stars: Vieszvaigznes nav pievienotas.
   no_keyword_search_results: Nav neviena atslēgvārda, kas atbilst vaicājumam.
@@ -4156,7 +4156,7 @@ lv-LV:
   sample:
   search:
     adult:
-    favorites_movie:
+    favorites_movie: Meklēt iecienītās filmas...
     favorites_tv:
     in_movies: Filmas
     in_people: Cilvēki
