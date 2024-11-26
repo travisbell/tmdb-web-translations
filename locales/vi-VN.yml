@@ -3,9 +3,9 @@ vi-VN:
   3rd Party Applications: Ứng dụng của bên thứ 3
   API:
   API Access Token:
-  API Details:
+  API Details: Chi tiết API
   API Key:
-  API Libraries:
+  API Libraries: Thư viện API
   API Overview:
   API Read Access Token:
   API Sessions:
@@ -28,16 +28,16 @@ vi-VN:
   Add Creator: Thêm người tạo
   Add Data & Content: Thêm dữ liệu và nội dung
   Add Headshot:
-  Add Item:
+  Add Item: Thêm mục
   Add Missing Cast & Crew:
   Add Network:
-  Add New Episode:
-  Add New Movie:
-  Add New Release:
-  Add New Season:
-  Add New TV Show:
-  Add Poster:
-  Add Profile:
+  Add New Episode: Thêm tập mới
+  Add New Movie: Thêm phim mới
+  Add New Release: Thêm bản phát hành mới
+  Add New Season: Thêm phần mới
+  Add New TV Show: Thêm chương trình TV mới
+  Add Poster: Thêm ảnh bìa
+  Add Profile: Thêm hồ sơ
   Add Season Regular:
   Add Title Logo:
   Add To Every Season?:
@@ -50,11 +50,11 @@ vi-VN:
   Add to list:
   Add to your favorite list:
   Add to your watchlist:
-  Added By:
+  Added By: Thêm bởi
   Added to Watchlist:
   Adding & Editing Content:
-  Address 1:
-  Address 2:
+  Address 1: Địa chỉ 1
+  Address 2: Địa chỉ 2
   Admin Tools:
   Adult Actor:
   Advanced Search:
@@ -74,17 +74,17 @@ vi-VN:
   Approved?:
   Apps:
   Archived Databases:
-  Are you sure?:
+  Are you sure?: Bạn chắc chắn?
   Attributes:
-  Auto:
-  Awards:
-  Back to top:
+  Auto: Tự động
+  Awards: Giải thưởng
+  Back to top: Quay lại trên cùng
   Backdrop Card View:
-  Bad Image:
+  Bad Image: Hình ảnh xấu
   Best Match:
-  Biography:
+  Biography: Tiểu sử
   Birthday:
-  Blocked Users:
+  Blocked Users: Người dùng đã chặn
   Blog:
   Branding:
   Budget:
@@ -532,7 +532,7 @@ vi-VN:
         tv: tv
       page_title:
         page_owner: chủ trang
-        public:
+        public: Hoạt động gần đây của %{username}
       table:
         action: hành động
         edit: chỉnh sửa
@@ -546,7 +546,7 @@ vi-VN:
       not_watching: Bạn không xem bất kỳ cuộc thảo luận nào.
       page_title:
         page_owner: chủ trang
-        public:
+        public: Cuộc thảo luận của %{username}'
     events:
       all: Tất cả
       emails:
@@ -556,25 +556,25 @@ vi-VN:
             Bounce: nảy
             Complaint: Khiếu nại
             Delivery: Giao hàng
-            Invalid:
-            Unknown:
+            Invalid: Không hợp lệ
+            Unknown: Không xác định
             Unsubscribed: Huỷ đăng ký
             status: trạng thái
-        number_of_items:
+        number_of_items: "%{count} Emails"
       events: Sự kiện
       notifications:
         filters:
           type:
-            Discussion:
-            General:
-            List Import:
-            Mention:
-            Messages:
-            type:
-        notifications:
-        number_of_items:
+            Discussion: Thảo luận
+            General: Tổng quan
+            List Import: Nhập danh sách
+            Mention: Đề cập đến
+            Messages: Tin nhắn
+            type: Loại
+        notifications: Thông báo
+        number_of_items: "%{count} Thông báo"
       page_title:
-        recent_events:
+        recent_events: Sự kiện gần đây
       recent: Gần đây
     export:
       csv_explanation: Nếu bạn muốn có một bản sao của danh sách này được xuất sang CSV, hãy nhấp vào nút "Xuất" bên dưới. Chúng tôi sẽ tạo bản xuất và gửi cho bạn qua email. Tùy thuộc vào kích thước danh sách của bạn, việc này có thể mất vài phút để hoàn thành.
@@ -582,92 +582,92 @@ vi-VN:
       export_csv: Xuất CSV
     favorites:
       my_favorites:
-        logged_in:
-        public:
+        logged_in: Yêu thích
+        public: Yêu thích của %{username}
       page_title:
-        page_owner:
-        public:
+        page_owner: Yêu thích của tôi
+        public: Yêu thích của %{username}
     filter_by: 'Lọc bởi:'
     filters:
       air_date: Ngày phát sóng
-      alphabetical:
+      alphabetical: Theo bảng chữ cái
       date_added: Thêm ngày
       date_rated: Ngày xếp hạng
       first_air_date: Ngày đầu tiên
-      most_popular:
+      most_popular: Phổ biến nhất
       my_rating: Đánh giá của tôi
-      newest:
-      popularity:
-      rating:
-      release_date:
-      score:
-      upcoming:
-      user_characters:
+      newest: Mới nhất
+      popularity: Mức độ phổ biến
+      rating: Đánh giá
+      release_date: Ngày phát hành
+      score: Điểm
+      upcoming: Sắp chiếu
+      user_characters: Nhân vật người dùng
     lists:
-      create_list:
-      last_updated:
+      create_list: Tạo danh sách
+      last_updated: Cập nhật
       my_lists:
-        logged_in:
-        public:
+        logged_in: Danh sách của tôi
+        public: Danh sách của %{username}
       no_lists:
-        logged_in:
-        public:
+        logged_in: Bạn chưa tạo bất kỳ danh sách nào.
+        public: "%{username} không có bất kỳ danh sách công khai nào để chia sẻ"
       page_title:
-        page_owner:
-        public:
+        page_owner: Danh sách của tôi
+        public: Danh sách của %{username}
     member_since: Thành viên kể từ %{date}
     navigation:
-      discussions:
-      favorites:
-      lists:
-      overview:
-      ratings:
-      ratings_reviews:
-      recommendations:
-      reviews:
-      watchlist:
+      discussions: Thảo luận
+      favorites: Yêu thích
+      lists: Danh sách
+      overview: Tổng quan
+      ratings: Xếp hạng
+      ratings_reviews: Xếp hạng & Đánh giá
+      recommendations: Khuyến nghị
+      reviews: Đánh giá
+      watchlist: Danh sách theo dõi
     order: 'Đặt hàng:'
     overview:
-      30_day_activity:
+      30_day_activity: Hoạt động 30 ngày
       empty_recent_activity:
-        logged_in:
-        public:
+        logged_in: Bạn chưa thực hiện bất kỳ chỉnh sửa gần đây.
+        public: "%{username} chưa thực hiện bất kỳ chỉnh sửa gần đây."
       empty_upcoming_watchlist:
         logged_in:
       empty_watched_genres:
-        logged_in:
-        public:
-      goto_discussions:
-      goto_watchlist:
-      most_watched_genres:
-      rating_overview:
-      recent_activity:
+        logged_in: Bạn chưa đăng nhập bất kỳ bộ phim hoặc chương trình TV nào.
+        public: "%{username} chưa đăng nhập bất kỳ bộ phim hoặc chương trình TV nào."
+      goto_discussions: Đi đến Thảo luận
+      goto_watchlist: Đi đến Danh sách theo dõi
+      most_watched_genres: Thể loại được xem nhiều nhất
+      rating_overview: Đánh giá tổng quan
+      recent_activity: Hoạt động gần đây
       recent_discussions:
       total_edits:
       total_ratings:
       upcoming_watchlist:
     page_title:
-      page_owner:
-      public:
+      page_owner: Hồ sơ của tôi
+      public: Hồ sơ của %{username}
     ratings_reviews:
       my_ratings:
-        logged_in:
-        public:
+        logged_in: Xếp hạng của tôi
+        public: Xếp hạng của %{username}
       my_reviews:
-        logged_in:
-        public:
+        logged_in: Đánh giá của tôi
+        public: Đánh giá của %{username}
       page_title:
-        page_owner:
-        public:
-      ratings_by_year:
+        page_owner: Xếp hạng & Đánh giá của tôi
+        public: Xếp hạng & Đánh giá của %{username}
+      ratings_by_year: Xếp hạng của Năm
     recommendations:
-      my_recommendations:
+      my_recommendations: Khuyến nghị của tôi
       no_recommendations:
       no_recommendations_helper:
       no_recommendations_helper_2:
-      page_title:
+      page_title: Khuyến nghị
     sort_options:
-      asc:
+      asc: Tăng dần
       desc:
     tips:
       import_imdb_ratings:
@@ -684,13 +684,13 @@ vi-VN:
         public:
       this_month:
       this_week:
-      view_them:
+      view_them: Xem chúng.
   add_to_list:
   already_translated_in:
   api_session:
     3rd_party_request:
     account_required:
-      need_account:
+      need_account: Bạn cần đăng nhập để tiếp tục!
       title:
     approved_session:
     continue:
@@ -708,33 +708,33 @@ vi-VN:
         name:
       denied:
         message:
-        name:
+        name: Xác thực bị từ chối
       invalid_request_token:
         message:
         name:
   attributes:
     biography:
-    certification:
+    certification: Chứng nhận
     external_href:
-    homepage:
-    iso_3166_1:
-    iso_639_1:
+    homepage: Trang chủ
+    iso_3166_1: Quốc gia
+    iso_639_1: Ngôn ngữ
     normalized_email:
-    normalized_username:
-    overview:
-    title:
-    to_accounts_ids:
-    translated_overview:
-    tv_series_status:
-  average edits per day:
+    normalized_username: Tên người dùng
+    overview: Tổng quan
+    title: Tiêu đề
+    to_accounts_ids: Đến
+    translated_overview: Tổng quan
+    tv_series_status: Trạng thái phim truyền hình
+  average edits per day: Số lần chỉnh sửa trung bình mỗi ngày
   awards:
-    add_nomination:
+    add_nomination: Thêm đề cử
     air_date:
       future:
       past:
-    alternative_names:
+    alternative_names: Tên thay thế
     categories:
-      title:
+      title: Thể loại
     category_empty:
     ceremonies:
       number:
@@ -742,31 +742,33 @@ vi-VN:
       release_date_min:
       title:
     nominations:
+      one: "%{count} Đề cử"
+      other: 1 Đề cử
     nominee:
     show_info:
-      directed_by:
+      directed_by: Đạo diễn bởi
       hosted_by:
-      location:
+      location: Vị trí
       network:
       preshow_hosts:
-      produced_by:
+      produced_by: Sản xuất bởi
       runtime:
-      title:
+      title: Hiển thị thông tin
     title:
     winner:
     wins:
   back_options:
-    back:
+    back: Quay lại
     episode:
     episode_groups:
     episode_list:
     home:
-    main:
+    main: Quay lại trang chính
     named_episode_group:
-    season:
-    season_list:
-    to_tmdb:
-    top:
+    season: Quay lại phần
+    season_list: Quay lại danh sách phần
+    to_tmdb: Quay lại TMDB
+    top: Quay lại trên cùng
   certifications:
     certification:
     descriptors:
@@ -791,15 +793,15 @@ vi-VN:
           meaning:
       BG:
         '1':
-          meaning:
+          meaning: Đề xuất cho trẻ em.
         '2':
           meaning:
         '3':
-          meaning:
+          meaning: Không đề xuất cho trẻ dưới 12 tuổi.
         '4':
-          meaning:
+          meaning: Cấm người dưới 16 tuổi.
         '5':
-          meaning:
+          meaning: Cấm người dưới 18 tuổi.
       BR:
         '1':
           meaning:
@@ -815,11 +817,11 @@ vi-VN:
           meaning:
       CA:
         '1':
-          meaning:
+          meaning: Mọi lứa tuổi.
         '2':
           meaning:
         '3':
-          meaning:
+          meaning: Người dưới 14 tuổi phải có người lớn đi cùng.
         '4':
           meaning:
         '5':
@@ -874,17 +876,17 @@ vi-VN:
           meaning:
       FI:
         '1':
-          meaning:
+          meaning: Dành cho mọi lứa tuổi
         '2':
-          meaning:
+          meaning: Hơn 7 năm.
         '3':
-          meaning:
+          meaning: Hơn 12 năm.
         '4':
-          meaning:
+          meaning: Hơn 16 năm.
         '5':
-          meaning:
+          meaning: Chỉ người lớn
         '6':
-          meaning:
+          meaning: Bị cấm phân phối thương mại.
       FR:
         '1':
           meaning:

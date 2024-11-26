@@ -29,7 +29,7 @@ lv-LV:
   Add Data & Content: Pievienot datus un saturu
   Add Headshot: Pievienot sejas uzņēmumu
   Add Item: Pievienot vienumu
-  Add Missing Cast & Crew:
+  Add Missing Cast & Crew: Pievienot trūkstošos aktierus un komandas dalībniekus
   Add Network: Pievienot raiduzņēmumu
   Add New Episode: Pievienot jaunu sēriju
   Add New Movie: Pievienot jaunu filmu
@@ -44,7 +44,7 @@ lv-LV:
   Add Video: Pievienot video
   Add YouTube Video: Pievienot YouTube video
   Add a New Cast Member: Pievienot jaunu aktieri
-  Add a New Crew Member: Pievienot filmēšanas grupas loceklis
+  Add a New Crew Member: Pievienot komandas dalībnieku
   Add a New Guest Star: Pievienot jaunu viesaktieri
   Add to Watchlist: Pievienot skatīšanās sarakstam
   Add to list: Pievienot sarakstam
@@ -77,7 +77,7 @@ lv-LV:
   Are you sure?: Vai tu esi pārliecināts?
   Attributes: Atribūti
   Auto: Automātiski
-  Awards:
+  Awards: Apbalvojumi
   Back to top: Atpakaļ uz augšu
   Backdrop Card View: Fona karšu skats
   Bad Image: Slikts attēls
@@ -123,7 +123,7 @@ lv-LV:
   Create Translation: Izveidot tulkojumu
   Created By: Izveidojis
   Credits: Kredīti
-  Crew: Filmēšanas grupa
+  Crew: Komanda
   Currently Airing TV Shows: Pašreiz rādītās TV pārraides
   Currently on page: Šobrīd lapā
   DMCA Policy:
@@ -190,7 +190,7 @@ lv-LV:
   Favorites: Izlase
   Featured: Izcelts
   Featured Cast: Ekskluzīvi aktieri
-  Featured Crew: Ekskluzīvi izstrādātāji
+  Featured Crew: Izceltie komandas dalībnieki
   Featured Lists: Tematiskie saraksti
   Filter: Filtrs
   Filter Profanity?: Vai izlaist rupjības?
@@ -242,8 +242,8 @@ lv-LV:
   Language Preferences: Valodas preferences
   Languages: Valodas
   Last Name: Uzvārds
-  Last Season Crew:
-  Last Season Featured Crew:
+  Last Season Crew: Pēdējās sezonas komanda
+  Last Season Featured Crew: Pēdējās sezonas izceltie komandas dalībnieki
   Last Season Regular Cast:
   Last Week: Pagājušajā nedēļā
   Leaderboard: Rezultātu tabula
@@ -255,7 +255,7 @@ lv-LV:
   Login to Add a Backdrop:
   Login to Add a Poster: Jāpiesakās, lai pievienotu plakātu
   Login to Add a Video: Jāpiesakās, lai pievienotu video
-  Login to Edit Cast & Crew:
+  Login to Edit Cast & Crew: Jāpiesakās, lai labotu aktierus un komandu
   Login to add this TV show to your favorite list: Jāpiesakās, lai pievienotu šo TV pārraidi savam izlases sarakstam
   Login to add this TV show to your watchlist: Jāpiesakās, lai pievienotu šo TV pārraidi savam skatīšanās sarakstam
   Login to add this movie to your favorite list: Jāpiesakās, lai pievienotu šo filmu savam izlases sarakstam
@@ -310,7 +310,7 @@ lv-LV:
   Original TV Show Language: TV pārraides oriģinālvaloda
   Original Title: Oriģinālais nosaukums
   Other Databases: Citas datu bāzes
-  Overview:
+  Overview: Pārskats
   Page:
   People: Cilvēki
   People Results: Cilvēku rezultāti
@@ -426,7 +426,7 @@ lv-LV:
   Store URL:
   Subject: Priekšmets
   Submit: Iesniegt
-  Success: Panākumi
+  Success: Sekmīgi
   Summary: Kopsavilkums
   Support: Atbalsts
   Support Forums: Atbalsta forumi
@@ -557,11 +557,14 @@ lv-LV:
             Bounce: Atgriezās
             Complaint: Sūdzība
             Delivery: Piegādāts
-            Invalid:
-            Unknown:
+            Invalid: Nederīgs
+            Unknown: Nezināms
             Unsubscribed: Abonements atcelts
             status: Stāvoklis
         number_of_items:
+          one: "%{count} e-pasta ziņojums"
+          other: "%{count} e-pasta ziņojumi"
+          zero: "%{count} e-pasta ziņojumu"
       events: Pasākumi
       notifications:
         filters:
@@ -586,9 +589,9 @@ lv-LV:
         recent_events: Jaunākie notikumi
       recent: Jaunākais
     export:
-      csv_explanation:
-      export: Eksportēt
-      export_csv: Eksportēt CSV
+      csv_explanation: Ja ir vēlme iegūt šī saraksta kopiju izgūtu kā CSV, jāklikšķina zemāk esošā poga "Izgūt". Mēs izveidosim izguvi un nosūtīsim to e-pastā. Atkarībā no saraksta izmēra, tas var aizņemt dažas minūtes.
+      export: Izgūt
+      export_csv: Izgūt CSV
     favorites:
       my_favorites:
         logged_in: Mana izlase
@@ -619,8 +622,8 @@ lv-LV:
         logged_in: Tematiskie saraksti
         public: "%{username} saraksti"
       no_lists:
-        logged_in:
-        public:
+        logged_in: Nav izveidots neviens saraksts.
+        public: "%{username} nav neviens publisks saraksts, ko kopīgot."
       page_title:
         page_owner: Tematiskie saraksti
         public: "%{username} saraksti"
@@ -671,9 +674,9 @@ lv-LV:
       ratings_by_year: Vērtējums pēc gada
     recommendations:
       my_recommendations: Mani Rekomendācijas
-      no_recommendations:
-      no_recommendations_helper:
-      no_recommendations_helper_2:
+      no_recommendations: Mums nav pietiekami daudz datu, lai veiktu jebkādus ieteikumus.
+      no_recommendations_helper: Mēģini izlasē pievienot vēl dažus vienumus (jo vairāk, jo labāk) un atgriezies, lai redzētu mūsu veikumu!
+      no_recommendations_helper_2: Mēģini novērtēt vēl dažas filmas un TV pārraides (jo vairāk, jo labāk) un tad sniedz mums dažas stundas, lai redzētu, ko mēs varam paveikt! Šie ieteikumi tiks atjaunināti līdz ar satura skatīšanos un novērtēšanu.
       page_title: Rekomendācijas
     sort_options:
       asc: Augošā
@@ -691,14 +694,17 @@ lv-LV:
         other: Tavā skatīšanās sarakstā nav drīzumā iznākošu filmu. Tomēr tajā ir %{count} vienumi.
         zero: Tavā skatīšanās sarakstā nav drīzumā iznākošu filmu. Tomēr tajā ir %{count} vienumu.
       no_upcoming_tv_shows:
+        one: Tavā skatīšanās sarakstā nav drīzumā iznākošu TV pārraižu. Tomēr Tavā skatīšanās sarakstā ir %{count} ieraksts.
+        other: Tavā skatīšanās sarakstā nav drīzumā iznākošu TV pārraižu. Tomēr Tavā skatīšanās sarakstā ir %{count} ieraksti.
+        zero: Tavā skatīšanās sarakstā nav drīzumā iznākošu TV pārraižu. Tomēr Tavā skatīšanās sarakstā ir %{count} ierakstu.
       page_title:
         page_owner: Mans skatīšanās saraksts
         public: "%{username} skatīšanās saraksts"
       this_month: Šis mēnesis
       this_week: Šonedēļ
       view_them: Parādīt.
-  add_to_list:
-  already_translated_in:
+  add_to_list: Pievienot %{media_title} kādam no saviem sarakstiem...
+  already_translated_in: "%{page_title} jau ir tulkojums šajās valodās..."
   api_session:
     3rd_party_request: Trešās puses autentificēšanās pieprasījums
     account_required:
@@ -742,8 +748,8 @@ lv-LV:
   awards:
     add_nomination:
     air_date:
-      future:
-      past:
+      future: Pirmizrāde būs %{date}
+      past: Pirmizrāde bija %{date}
     alternative_names:
     categories:
       title: Kategorijas
@@ -1391,10 +1397,10 @@ lv-LV:
     contribute: Piedalieties mūsu datubāzē
     correct_errors_in_forms: Lūdzu, izlabojiet kļūdas veidlapas laukos.
     create_overview: Izveidot pārskatu
-    create_overview_bio_help:
-    create_overview_help:
-    create_overview_name_help:
-    create_overview_note:
+    create_overview_bio_help: Lūgums rakstīt aprakstu tieši šai versijai, tēlam tur ir vairāki iemeisojumi.
+    create_overview_help: Palīdzi mums izveidot šī tēla aprakstu, kas aptver tā parādīšanos dažādās filmās un pārraidēs.
+    create_overview_name_help: Lūgums mainīt tēla vārdu, ja ir noteikts iemesls vai ja tas ir zināms ar citu plaši izmantotu vārdu.
+    create_overview_note: Aktieri un tā portretu šeit nevar labot.
     default_language_results_text:
     delete_backdrop: Izdzēst fonu
     delete_character: Izdzēst tēlu
@@ -1577,7 +1583,7 @@ lv-LV:
     missing_a_profile_image: Trūkst profila attēla
     movie_language_distribution: Filmas izplatīšanas valoda
     movies_missing_a_backdrop:
-    movies_missing_a_overview: Trūkst filmas apskata
+    movies_missing_a_overview: Trūkst filmas pārskata
     movies_missing_a_poster: Trūkst filmas plakāta
     movies_missing_a_title: Trūkst filmas nosaukuma
     page_title: Pievienot trūkstošos datus
@@ -1586,7 +1592,7 @@ lv-LV:
     tv_missing_a_poster: TV pārraides bez plakāta
     tv_show_language_distribution: TV pārraižu valodu izkliede
     tv_shows_missing_a_name: TV pārraides bez nosaukuma
-    tv_shows_missing_a_overview: TV pārraides bez apskata
+    tv_shows_missing_a_overview: TV pārraides bez pārskata
   contribution_bible:
     abbreviations:
       collection: krāj.
@@ -2135,13 +2141,13 @@ lv-LV:
     tv:
       create_season_locked: Jaunu sezonu izveide šim seriālam ir liegta.
       duplicate_created_by: Šis asmuo jau ir pievienotas kā autorius.
-      duplicate_crew_member: Šī persona jau ir pievienota kā %{job_name}.
+      duplicate_crew_member: Šis cilvēks jau ir pievienots kā %{job_name}.
       duplicate_episode: Šī sērija jau pastāv.
       duplicate_guest_star: Šī vieszvaigzne jau pastāv.
       duplicate_regular_season_member: Šī persona jau ir iekļauta regulārās sezonas dalībnieku sarakstā.
       duplicate_season: Šī sezona jau pastāv.
       duplicate_season_episode_cast_member: Šis cilvēks jau ir pievienots kā aktieris šīs sezonas sērijai. Aktieru uzskaite ir jāpievieno vai nu sezonai, vai sērijai, bet ne abējādi.
-      duplicate_season_episode_crew_member: Šis cilvēks jau ir pievienots kā %{job_name} šīs sezonas sērijai. Apkalpes uzskaite ir jāpievieno vai nu sezonai, vai arī sērijai, bet ne abējādi.
+      duplicate_season_episode_crew_member: Šis cilvēks jau ir pievienots kā %{job_name} šīs sezonas sērijai. Komandas uzskaite ir jāpievieno vai nu sezonai, vai arī sērijai, bet ne abējādi.
       missing_credit:
       missing_person: Ievadīto cilvēku nevarēja atrast.
   failed_email: Neizdevās nosūtīt e-pasta ziņojumu.
@@ -3514,7 +3520,7 @@ lv-LV:
           cast_min_4:
           created_by:
           credits: Filmu vai TV pārraides titri
-          crew_min_2:
+          crew_min_2: Komanda (vismaz 2 apliecinājumi)
           director:
           episode:
           genres: Žanri
@@ -3550,11 +3556,11 @@ lv-LV:
       delete_all_appearances: Izdzēst visas klātbūtnes
       genres_updated: Žanri atjaunināti
       lock_all_appearances: Klikšķināšana uz "Jā" slēgs visus esošos ierakstus, kurus parastie lietotāji nevarēs labot. Satura pārraudzītāji joprojām varēs veikt labojumus.
-      lock_all_cast_crew_description: Klikšķinot uz "Jā", parastajiem lietotājiem turpmāk tiks liegts labot visus pastāvošos ierakstos. Satura pārraudzītāji joprojām varēs veikt labojumus.
+      lock_all_cast_crew_description: Pēc noklikšķināšanās uz "Jā" parastajiem lietotājiem turpmāk tiks liegts labot visus pastāvošos ierakstos. Satura pārraudzītāji joprojām varēs veikt labojumus.
       lock_all_fields: Bloķēt visus laukus
       lock_all_images: Bloķējiet visus attēlus
       lock_existing_cast:
-      lock_existing_crew:
+      lock_existing_crew: Aizslēgt esošo komandu
       logos: Logotipi
       page_title: Labot %{name}
       placeholders:
@@ -3637,9 +3643,9 @@ lv-LV:
           <p>Ja krājums, kuru grasies izveidot, atbilst šim nosacījumam, lūdzu, turpini!</p>
         confirm_video:
         crew:
-          job_required:
-          no_records:
-          person_required: Nepieciešama persona
+          job_required: Ir jānorāda amats
+          no_records: Nav pievienots neviens komandas dalībnieks.
+          person_required: Ir jānorāda cilvēks
         genres:
           add_genre: Pievienot žanru
           no_records: Nav pievienots neviens žanrs.
@@ -3664,7 +3670,7 @@ lv-LV:
         Planned: Plānots
         Post Production: Pēcprodukcija
         Released: Izlaista
-        Rumored: Baumoja
+        Rumored: Baumas
     network:
       edit:
         alternative_names: Alternatīvie nosaukumi
@@ -3729,7 +3735,7 @@ lv-LV:
     shortcut_bar:
       alternative_titles: Alternatīvie nosaukumi
       backdrops: Foni
-      cast_crew:
+      cast_crew: Aktieri un komanda
       changes: Izmaiņas
       characters:
       episodes: Sērijas
@@ -3808,7 +3814,7 @@ lv-LV:
         screened_confirm:
         screened_label:
       season_cast:
-      season_crew:
+      season_crew: Sezonas komanda
       season_selector:
         current_season:
         last_season:
@@ -3826,7 +3832,7 @@ lv-LV:
         creator:
           no_records: Nav pievienots neviens autors.
         crew:
-          no_season:
+          no_season: Nav nevienas sezonas. Ir nepieciešama sezona, lai pievienotu komandas dalībniekus.
         episode_groups:
           create_new_group: Izveidot jaunu grupu
           description: Apraksts
@@ -3872,7 +3878,7 @@ lv-LV:
       networks:
       primary_characters:
       series_cast:
-      series_crew:
+      series_crew: Seriāla komanda
       statuses:
         Canceled: Atcelts
         Ended: Beigusies
@@ -3981,7 +3987,7 @@ lv-LV:
   no_company_search_results:
   no_contributors: Netika atrasts neviens līdzdalībnieks
   no_created_lists:
-  no_crew:
+  no_crew: Nav pievienots neviens komandas dalībnieks šai %{media_type}. Tu vari palīdzēt ar kāda pievienošanu.
   no_description: Nav ievadīts apraksts.
   no_director:
   no_episode_images:
@@ -4181,8 +4187,8 @@ lv-LV:
   search_tip_1: 'Padoms. Varat izmantot filtru ''y:'', lai sašaurinātu rezultātus pēc gada. Piemērs: ''zvaigžņu kari y:1977''.'
   season_number_name: "%{season_number}. sezona"
   season_overview:
-    already_aired:
-    to_air:
+    already_aired: "%{show_name} %{season_number}. sezonas pirmizrādes datums ir %{date}."
+    to_air: "%{show_name} %{season_number}. sezonas paredzētais pirmizrādes datums ir %{date}."
   settings:
     account:
       account_settings: Konta iestatījumi

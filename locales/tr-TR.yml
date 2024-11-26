@@ -1674,11 +1674,11 @@ tr-TR:
     - Cuma
     - Cumartesi
     formats:
-      abbrev: "%-d %b %Y"
-      default: "%d/%m/%Y"
-      full_month_day: "%B %e, %Y"
-      full_month_year: "%B %Y"
-      short_month_day_year: "%b %d, %Y"
+      abbrev:
+      default:
+      full_month_day:
+      full_month_year:
+      short_month_day_year:
     month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
@@ -1891,7 +1891,7 @@ tr-TR:
       quote: Alıntı Yap
       reopen_reply: Yeniden Aç ve Yanıtla
       reply: Cevapla
-      reply_by: "%{username} adlı kullanıcıyı yanıtla"
+      reply_by: "%{username}  adlı kullanıcıyı yanıtla"
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Sorun Bildir
       unhide: Göster
