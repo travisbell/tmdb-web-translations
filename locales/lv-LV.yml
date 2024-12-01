@@ -122,7 +122,7 @@ lv-LV:
   Create New List: Izveidot jaunu sarakstu
   Create Translation: Izveidot tulkojumu
   Created By: Izveidojis
-  Credits: Kredīti
+  Credits: Uzskaitījums
   Crew: Komanda
   Currently Airing TV Shows: Pašreiz rādītās TV pārraides
   Currently on page: Šobrīd lapā
@@ -189,7 +189,7 @@ lv-LV:
   Favorite TV Shows: Iecienītākās TV pārraides
   Favorites: Izlase
   Featured: Izcelts
-  Featured Cast: Ekskluzīvi aktieri
+  Featured Cast: Izceltie aktieri
   Featured Crew: Izceltie komandas dalībnieki
   Featured Lists: Tematiskie saraksti
   Filter: Filtrs
@@ -236,7 +236,7 @@ lv-LV:
   Keyword: Atslēgvārds
   Keyword Results: Atslēgvārdu rezultāti
   Keywords: Atslēgvārdi
-  Known Credits: Zināmi darbi
+  Known Credits: Zināmie darbi
   Known For: Zināms no
   Language: Valoda
   Language Preferences: Valodas preferences
@@ -275,8 +275,8 @@ lv-LV:
   Moderator: Satura pārraudzītājs
   More Info: Vairāk informācijas
   Most Popular: Populārākais
-  Move Credits: Subtitru pārsūtīšana
-  Move TV Credits: TV subtitru pārsūtīšana
+  Move Credits: Pārvietot uzskaitījumu
+  Move TV Credits: Pārvietot TV uzskaitījumu
   Movie Data: Filmas dati
   Movie Recommendations: Filmu ieteikumi
   Movie Results: Filmu rezultāti
@@ -710,16 +710,16 @@ lv-LV:
     account_required:
       need_account: Jāpiesakās, lai turpinātu.
       title: Nepieciešams konts
-    approved_session:
-    continue:
+    approved_session: "%{application_name} ir apstiprināta. Šo logu var aizvērt."
+    continue: Ja ir vēlme turpināt, jāklikšķina zemāk esošā apstiprināšanas poga. Ja nē, var vienkārši aizvērt šo logu.
     invalid_api_app:
       message: API lietotājs, kurš tiek autentificēts, nav derīgs.
       title: Nederīgs API lietotājs
     missing_request_token:
-      message:
+      message: Ir nepieciešama pieprasījumu pilnvara, lai varētu pilnvarot lietotāju kontus.
       title: Trūkst piekļuves atslēgas
     request_token_approval:
-      message:
+      message: "{{APP}} vaicā datu lasīšanas un rakstīšanas Tavā vārdā atļauju. Tas ir nepieciešams, ja ir vēlme darīt tādas lietas kā savu sarakstu uzturēšanu vai filmu vērtēšanu ārpus TMDB."
     statuses:
       completed:
         message: Tu nodrošināji lasīšanas un rakstīšanas piekļuvi <strong>%{application_name}</strong>. Tagad vari atgriezties lietotnē un aizvērt šo logu. Šo piekļuvi vienmēr var atsaukt sava konta iestatījumu lapā "Savienotās lietotnes".
@@ -750,7 +750,7 @@ lv-LV:
     air_date:
       future: Pirmizrāde būs %{date}
       past: Pirmizrāde bija %{date}
-    alternative_names:
+    alternative_names: Citi nosaukumi
     categories:
       title: Kategorijas
     category_empty:
@@ -762,17 +762,20 @@ lv-LV:
     nominations:
     nominee:
     show_info:
-      directed_by:
+      directed_by: Režisēja
       hosted_by:
-      location:
+      location: Atrašanās vieta
       network: Raiduzņēmums
       preshow_hosts:
       produced_by:
       runtime:
-      title:
-    title:
-    winner:
+      title: Informācija par pārraidi
+    title: Apbalvojumi
+    winner: Uzvarētājs
     wins:
+      one: "%{count} uzvara"
+      other: "%{count} uzvaras"
+      zero: "%{count} uzvaru"
   back_options:
     back: Atpakaļ
     episode: Atpakaļ uz sēriju
@@ -1475,7 +1478,7 @@ lv-LV:
     no_appearance_text_1: Nav atrasta neviena klātbūtne. Lūgums <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">klikšķināt šeit</a>, lai pievienot jaunas klātbūtnes.
     no_appearance_text_2: Nav atrasta neviena kopa. Lūgums <a href="/character/%{page_url}/edit/">klikšķināt šeit</a>, lai pievienotu jaunu kopu.
     no_backdrop_in_group: Izskatās, ka nevienā kopā nav pievienoti jauni tēlu foni.
-    no_cast_credits:
+    no_cast_credits: Netika atrasts aktieru uzskaitījums, lūgums mēģināt citu informācijas nesēju.
     no_records_found:
     note: Piezīme
     note_info:
@@ -1516,7 +1519,7 @@ lv-LV:
     search_error_info:
     see_batman_appearance: Vai kādreiz ir bijusi vēlme redzēt katru Betmena klātbūtni?
     select_backdrop: Atlasīt fonu
-    select_cast_credit: Izvēlieties beigu titrus
+    select_cast_credit: Lūgums atlasīt aktieru uzskaitījumu
     select_group_title: Atlasīt un apkopot nosaukumus
     select_message:
     select_person: Atlasīt cilvēku
@@ -1748,6 +1751,9 @@ lv-LV:
         subject: Tas ir surogātpasts
     why_deleting: Kāpēc izdzēs šo ierakstu?
   department_credits_count:
+    one: "%{department} (%{count} uzskaitījums)"
+    other: "%{department} (%{count} uzskaitījumi)"
+    zero: "%{department} (%{count} uzskaitījumu)"
   departments:
     Acting: Aktiermāksla
     Actors: Aktieri
@@ -2137,7 +2143,7 @@ lv-LV:
       too_short:
       wrong_length:
     movie:
-      duplicate_cast: Šī persona jau ir norādīta kā aktieris.
+      duplicate_cast: Šis cilvēks jau ir norādīta kā aktieris.
     tv:
       create_season_locked: Jaunu sezonu izveide šim seriālam ir liegta.
       duplicate_created_by: Šis asmuo jau ir pievienotas kā autorius.
@@ -2148,7 +2154,7 @@ lv-LV:
       duplicate_season: Šī sezona jau pastāv.
       duplicate_season_episode_cast_member: Šis cilvēks jau ir pievienots kā aktieris šīs sezonas sērijai. Aktieru uzskaite ir jāpievieno vai nu sezonai, vai sērijai, bet ne abējādi.
       duplicate_season_episode_crew_member: Šis cilvēks jau ir pievienots kā %{job_name} šīs sezonas sērijai. Komandas uzskaite ir jāpievieno vai nu sezonai, vai arī sērijai, bet ne abējādi.
-      missing_credit:
+      missing_credit: Uzskaitījumus, kuru tika mēģināts labot, nepastāv.
       missing_person: Ievadīto cilvēku nevarēja atrast.
   failed_email: Neizdevās nosūtīt e-pasta ziņojumu.
   failed_generic: Radās sarežģījums.
@@ -2319,7 +2325,7 @@ lv-LV:
     Actor's Assistant:
     Adaptation:
     Additional Camera:
-    Additional Casting:
+    Additional Casting: Papildu aktieri
     Additional Colorist:
     Additional Construction:
     Additional Construction Grip:
@@ -3519,7 +3525,7 @@ lv-LV:
           biography: Biogrāfija
           cast_min_4:
           created_by:
-          credits: Filmu vai TV pārraides titri
+          credits: Filmas vai TV pārraides uzskaitījums
           crew_min_2: Komanda (vismaz 2 apliecinājumi)
           director:
           episode:
@@ -3734,6 +3740,7 @@ lv-LV:
       score_trend: Ranga tendence
     shortcut_bar:
       alternative_titles: Alternatīvie nosaukumi
+      back_to_series:
       backdrops: Foni
       cast_crew: Aktieri un komanda
       changes: Izmaiņas
@@ -3903,7 +3910,7 @@ lv-LV:
       play_blooper:
       play_clip:
       play_featurette:
-      play_opening_credits:
+      play_opening_credits: Atskaņot sākuma titrus
       play_recap:
       play_teaser:
       play_trailer: Atskaņot reklāmkadrus
@@ -4152,7 +4159,7 @@ lv-LV:
     reset_email_sent: E-pasta ziņojums nosūtīts. Drīzumā vajadzētu saņemt paroles atiestatīšanas norādījumus.
   person:
     credits:
-      as_character:
+      as_character: kā %{character}
       as_job: "— %{job}"
   placeholder:
     primary_character_name:
@@ -4507,7 +4514,7 @@ lv-LV:
       Clips: Klipi
       Featurette:
       Featurettes:
-      Opening Credits:
+      Opening Credits: Sākuma titri
       Recap:
       Recaps:
       Teaser: Tīzers

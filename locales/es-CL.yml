@@ -508,7 +508,7 @@ es-CL:
     login: Acceder
     logout: Salir
     messages: Mensajes
-    profile_and_settings: Tu perfil y las preferencias
+    profile_and_settings: Perfil y preferencias
     ratings: Calificaciones
     settings: Preferencias
     sign_up: Registrarse
@@ -551,87 +551,93 @@ es-CL:
         emails: Correos electrónicos
         filters:
           status:
-            Bounce: Repuesto
+            Bounce: Rechazado
             Complaint: Queja
             Delivery: Entregado
-            Invalid:
-            Unknown:
+            Invalid: Inválido
+            Unknown: Desconocido
             Unsubscribed: Desuscrito
             status: Estado
         number_of_items:
-      events:
+          one: "%{count} correo electrónico"
+          other: "%{count} correos electrónicos"
+      events: Eventos
       notifications:
         filters:
           type:
-            Discussion:
-            General:
-            List Import:
-            Mention:
-            Messages:
-            type:
+            Discussion: Discusión
+            General: Común
+            List Import: Importación de nóminas
+            Mention: Alusión
+            Messages: Mensajes
+            type: Clase
         notifications:
+          one: Notificación
+          other: Notificaciones
         number_of_items:
+          one: "%{count} notificación"
+          other: "%{count} notificaciones"
       page_title:
-        recent_events:
-      recent:
+        recent_events: Eventos recientes
+      recent: Recientes
     export:
-      csv_explanation:
-      export:
-      export_csv:
+      csv_explanation: Si quieres tener una copia de esta nómina en formato CSV pincha el botón «Exportar» de abajo. Crearemos la exportación y te la enviaremos mediante un correo electrónico. Dependiendo del tamaño de tu nómina esto puede tardar unos cuantos minutos en realizarse.
+      export: Exportar
+      export_csv: Exportar en CSV
     favorites:
       my_favorites:
-        logged_in:
-        public:
+        logged_in: Mis favoritos
+        public: Los favoritos de %{username}
       page_title:
-        page_owner:
-        public:
-    filter_by:
+        page_owner: Mis favoritos
+        public: Los favoritos de %{username}
+    filter_by: 'Filtrar por:'
     filters:
-      air_date:
-      alphabetical:
-      date_added:
-      date_rated:
-      first_air_date:
-      most_popular:
-      my_rating:
-      newest:
-      popularity:
-      rating:
-      release_date:
-      score:
-      upcoming:
-      user_characters:
+      air_date: Fecha de estreno
+      alphabetical: Orden alfabético
+      date_added: Fecha de adición
+      date_rated: Fecha de puntuación
+      first_air_date: Primera fecha de estreno
+      most_popular: Mayor popularidad
+      my_rating: Mi puntuación
+      newest: Novedad
+      popularity: Popularidad
+      rating: Puntuación
+      release_date: Fecha de lanzamiento
+      score: Resultado
+      upcoming: Por estrenarse
+      user_characters: Caracteres de usuario
     lists:
-      create_list:
-      last_updated:
+      create_list: Hacer nómina
+      last_updated: Actualizado
       my_lists:
-        logged_in:
-        public:
+        logged_in: Mis nóminas
+        public: Las nóminas de %{username}
       no_lists:
-        logged_in:
-        public:
+        logged_in: No has hecho ninguna nómina.
+        public: "%{username} no tiene ninguna nómina pública que mostrar."
       page_title:
-        page_owner:
-        public:
-    member_since:
+        page_owner: Mis nóminas
+        public: Las nóminas de %{username}
+    member_since: Miembro desde %{date}
     navigation:
-      discussions:
-      favorites:
-      lists:
-      overview:
-      ratings:
-      ratings_reviews:
-      recommendations:
-      reviews:
-      watchlist:
-    order:
+      discussions: Discusiones
+      favorites: Favoritos
+      lists: Nóminas
+      overview: Esquema
+      ratings: Puntuaciones
+      ratings_reviews: Puntuaciones y reseñas
+      recommendations: Recomendaciones
+      reviews: Reseñas
+      watchlist: Pendientes
+    order: 'Orden:'
     overview:
-      30_day_activity:
+      30_day_activity: Acciones en treinta días
       empty_recent_activity:
-        logged_in:
-        public:
+        logged_in: No has hecho ninguna modificación reciente.
+        public: "%{username} no ha hecho ninguna modificación reciente."
       empty_upcoming_watchlist:
-        logged_in:
+        logged_in: No hay películas por estrenarse en tus pendientes.
       empty_watched_genres:
         logged_in:
         public:
@@ -3634,6 +3640,7 @@ es-CL:
       score_trend:
     shortcut_bar:
       alternative_titles:
+      back_to_series:
       backdrops:
       cast_crew:
       changes:
