@@ -1,8 +1,8 @@
 es-CL:
   "-": "-"
   3rd Party Applications: Aplicaciones de terceros
-  API:
-  API Access Token:
+  API: API
+  API Access Token: Vale de acceso de API
   API Details:
   API Key:
   API Libraries:
@@ -21,47 +21,47 @@ es-CL:
   Accept API Terms: Aceptar los términos y condiciones de la API
   Account: Cuenta
   Account Filtering: Filtraje de cuentas
-  Add Alternative Name:
-  Add Alternative Title:
-  Add Backdrop:
-  Add Content Rating:
-  Add Creator:
-  Add Data & Content:
-  Add Headshot:
-  Add Item:
-  Add Missing Cast & Crew:
-  Add Network:
-  Add New Episode:
-  Add New Movie:
-  Add New Release:
-  Add New Season:
-  Add New TV Show:
-  Add Poster:
-  Add Profile:
-  Add Season Regular:
-  Add Title Logo:
-  Add To Every Season?:
-  Add Video:
-  Add YouTube Video:
-  Add a New Cast Member:
-  Add a New Crew Member:
-  Add a New Guest Star:
-  Add to Watchlist:
-  Add to list:
-  Add to your favorite list:
-  Add to your watchlist:
-  Added By:
-  Added to Watchlist:
-  Adding & Editing Content:
-  Address 1:
-  Address 2:
-  Admin Tools:
-  Adult Actor:
-  Advanced Search:
-  Air Date:
-  Also Known As:
-  Alternative Names:
-  Alternative Titles:
+  Add Alternative Name: Agregar nombre alternativo
+  Add Alternative Title: Agregar título alternativo
+  Add Backdrop: Agregar fondo
+  Add Content Rating: Agregar clasificación por edad
+  Add Creator: Agregar autor
+  Add Data & Content: Agregar datos y contenido
+  Add Headshot: Agregar fotografía en primer plano
+  Add Item: Agregar elemento
+  Add Missing Cast & Crew: Agregar reparto y equipo faltantes
+  Add Network: Agregar red
+  Add New Episode: Agregar episodio nuevo
+  Add New Movie: Agregar película nueva
+  Add New Release: Agregar nuevo lanzamiento
+  Add New Season: Agregar nueva temporada
+  Add New TV Show: Agregar nuevo programa de televisión
+  Add Poster: Agregar cartel
+  Add Profile: Agregar perfil
+  Add Season Regular: Agregar personaje constante de la temporada
+  Add Title Logo: Agregar logo titular
+  Add To Every Season?: "¿Agregar a cada temporada?"
+  Add Video: Agregar video
+  Add YouTube Video: Agregar video de YouTube
+  Add a New Cast Member: Agregar a un nuevo miembro del reparto
+  Add a New Crew Member: Agregar a un nuevo miembro del equipo
+  Add a New Guest Star: Agregar a un nuevo protagonista invitado
+  Add to Watchlist: Agregar a los pendientes
+  Add to list: Agregar a nómina
+  Add to your favorite list: Agregar a tu nómina de favoritos
+  Add to your watchlist: Agregar a tus pendientes
+  Added By: Agregado por
+  Added to Watchlist: Añadido a los pendientes
+  Adding & Editing Content: Agregación y modificación de contenido
+  Address 1: Primera dirección
+  Address 2: Segunda dirección
+  Admin Tools: Herramientas del administrador
+  Adult Actor: Actor adulto
+  Advanced Search: Búsqueda avanzada
+  Air Date: Fecha de estreno
+  Also Known As: Alias
+  Alternative Names: Nombres alternativos
+  Alternative Titles: Títulos alternativos
   Apiary Documentation:
   App Directory:
   App Showcase:
@@ -639,58 +639,66 @@ es-CL:
       empty_upcoming_watchlist:
         logged_in: No hay películas por estrenarse en tus pendientes.
       empty_watched_genres:
-        logged_in:
-        public:
-      goto_discussions:
-      goto_watchlist:
-      most_watched_genres:
-      rating_overview:
-      recent_activity:
-      recent_discussions:
-      total_edits:
-      total_ratings:
-      upcoming_watchlist:
+        logged_in: No has inscrito ninguna película o programa de televisión.
+        public: "%{username} no ha inscrito ninguna película o programa de televisión."
+      goto_discussions: Ir a las discusiones
+      goto_watchlist: Ir a los pendientes
+      most_watched_genres: Géneros más vistos
+      rating_overview: Esquema de puntuaciones
+      recent_activity: Actividad reciente
+      recent_discussions: Discusiones recientes
+      total_edits: Modificaciones totales
+      total_ratings: Puntuaciones totales
+      upcoming_watchlist: Pendientes por estrenarse
     page_title:
-      page_owner:
-      public:
+      page_owner: Mi perfil
+      public: Perfil de %{username}
     ratings_reviews:
       my_ratings:
-        logged_in:
-        public:
+        logged_in: Mis puntuaciones
+        public: Las puntuaciones de %{username}
       my_reviews:
-        logged_in:
-        public:
+        logged_in: Mis reseñas
+        public: Las reseñas de %{username}
       page_title:
-        page_owner:
-        public:
-      ratings_by_year:
+        page_owner: Mis puntuaciones y reseñas
+        public: Las reseñas y puntuaciones de %{username}
+      ratings_by_year: Puntuaciones por año
     recommendations:
-      my_recommendations:
-      no_recommendations:
-      no_recommendations_helper:
-      no_recommendations_helper_2:
-      page_title:
+      my_recommendations: Mis recomendaciones
+      no_recommendations: No disponemos de los datos suficientes para sugerir recomendación alguna.
+      no_recommendations_helper: Trata de agregar unos cuantos favoritos más (mientras más, mejor) y vuelve para ver cómo nos las arreglamos.
+      no_recommendations_helper_2: Prueba a puntuar unas cuantas películas y programas de televisión (mientras más, mejor) y luego danos unas horas para ver cómo nos las arreglamos. Estas recomendaciones se actualizarán a medida de que veas y puntúes más contenido.
+      page_title: Recomendaciones
     sort_options:
-      asc:
-      desc:
+      asc: Ascendente
+      desc: Descendente
+    statuses:
+      banned:
+      deleted:
+      ok:
     tips:
-      import_imdb_ratings:
-      tip:
+      import_imdb_ratings: Puedes importar tus puntuaciones de IMDb.
+      tip: Consejo
     watchlist:
       my_watchlist:
-        logged_in:
-        public:
-      next_month:
+        logged_in: Mis pendientes
+        public: Los pendientes de %{username}
+      next_month: Próximo mes
       no_upcoming_movies:
+        one: No hay ninguna película por estrenarse en tus pendientes. Aunque sí hay %{count} elemento en tus pendientes.
+        other: No hay ninguna película por estrenarse en tus pendientes. Aunque sí hay %{count} elementos en tus pendientes.
       no_upcoming_tv_shows:
+        one: No hay ningún programa de televisión por estrenarse en tus pendientes. Aunque sí hay %{count} elemento en tus pendientes.
+        other: No hay ningún programa de televisión por estrenarse en tus pendientes. Aunque sí hay %{count} elementos en tus pendientes.
       page_title:
-        page_owner:
-        public:
-      this_month:
-      this_week:
-      view_them:
-  add_to_list:
-  already_translated_in:
+        page_owner: Mis pendientes
+        public: Los pendientes de %{username}
+      this_month: Este mes
+      this_week: Esta semana
+      view_them: Verlos.
+  add_to_list: Agregar %{media_title} a una de tus nóminas...
+  already_translated_in: "%{page_title} ya se tradujo en estos lenguajes..."
   api_session:
     3rd_party_request:
     account_required:

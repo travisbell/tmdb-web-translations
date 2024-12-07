@@ -671,6 +671,10 @@ ko-KR:
     sort_options:
       asc: 오름차순
       desc: 내림차순
+    statuses:
+      banned:
+      deleted:
+      ok:
     tips:
       import_imdb_ratings: IMDB에 기록된 회원님의 평가를 불러올 수 있어요.
       tip: 팁
@@ -4093,18 +4097,18 @@ ko-KR:
       hd: HD
       sd: SD
     monetization_types:
-      ads:
-      buy:
-      flatrate:
-      free:
-      rent:
+      ads: 광고
+      buy: 구매
+      flatrate: 스트리밍
+      free: 무료
+      rent: 대여
     no_offers:
-      4k:
-      bluray:
-      dvd:
-      hd:
-      none:
-      sd:
+      4k: 4K를 찾을 수 없습니다
+      bluray: Blu-ray를 찾을 수 없습니다.
+      dvd: DVD를 찾을 수 없습니다.
+      hd: HD를 찾을 수 없습니다.
+      none: "%{title}를 제공하지 않습니다."
+      sd: SD를 찾을 수 없습니다.
     page_title: 어디에서 %{media_name} 시청할 수 있나요?
     seasons:
       many: "%{count} 시즌"
@@ -4112,11 +4116,11 @@ ko-KR:
     view_offers: 혜택 보기
     watch_now: 시청하기
     watch_on:
-      ads:
-      buy:
-      flatrate:
-      free:
-      rent:
+      ads: "%{provider_name}에서 %{name}를 시청하세요."
+      buy: "%{provider_name}에서 %{name}를 구매하세요"
+      flatrate: "%{provider_name}에서 %{name}를 시청하세요."
+      free: "%{provider_name}에서 %{name}를 시청하세요."
+      rent: "%{provider_name}에서 %{name}를 대여하세요."
   pagination:
     currently_on: 총 %{total_pages} 중 현재 %{current_page} 페이지
     last_page: 마지막 페이지
