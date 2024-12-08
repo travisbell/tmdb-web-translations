@@ -394,17 +394,17 @@ th-TH:
   Select a category:
   Send:
   Sessions:
-  Share:
-  Share Link:
-  Sharing:
-  Show:
-  Show More:
+  Share: แชร์
+  Share Link: แชร์ลิงก์
+  Sharing: การแชร์
+  Show: แสดง
+  Show More: แสดงเพิ่มเติม
   Site: เว็บไซต์
   Size: ขนาด
-  Social:
+  Social: โซเชียล
   Sort: เรียง
   Sort By: เรียงโดย
-  Sort Cast:
+  Sort Cast: เรียงนักแสดง
   Sort Regular Cast:
   Source Key:
   Specials:
@@ -1827,8 +1827,8 @@ th-TH:
       popularity_desc: ความนิยม (ต่ำ-สูง)
       primary_release_date_asc: วันออกอากาศหลัก (เก่า-ใหม่)
       primary_release_date_desc: วันออกอากาศหลัก (ใหม่-เก่า)
-      rating_asc: เรตติ้ง (สูง-ต่ำ)
-      rating_desc: เรตติ้ง (ต่ำ-สูง)
+      rating_asc: เรตติ้ง (ต่ำ-สูง)
+      rating_desc: เรตติ้ง (สูง-ต่ำ)
       release_date_asc: วันออกอากาศ (เก่า-ใหม่)
       release_date_desc: วันออกอากาศ (ใหม่-เก่า)
       title_a_z: ชื่อ (ก-ฮ)
@@ -4287,11 +4287,11 @@ th-TH:
         updated:
         upload_avatar:
         upload_own:
-        upload_window_tip:
+        upload_window_tip: ใช้ตัวเลือกไฟล์ด้านล่างเพื่ออัปโหลดอวาตาร์ที่คุณกำหนดเอง เราจะครอบตัดรูปภาพของคุณให้เป็นรูปสี่เหลี่ยมโดยอัตโนมัติหากยังไม่ได้ครอบตัด
         use_gravatar:
       background:
         background_image:
-        confirm_remove:
+        confirm_remove: กรุณายืนยันว่าต้องการลบภาพพื้นหลังของคุณ คุณแน่ใจหรือไม่
         remove_background:
         set_image:
       change_password:
@@ -4299,46 +4299,52 @@ th-TH:
       email:
         invalid_dialog_title:
         reset_button:
-        reset_invalid_email_dialog_text:
-        reset_password_invalid_email_dialog_text:
-        sending_problems:
-        what_is_your_email:
-      page_title:
-      reset_password_dialog_text:
-      reset_password_dialog_text2:
+        reset_invalid_email_dialog_text: |-
+          <p>ขออภัย เราประสบปัญหาในการส่งอีเมลถึงคุณในอดีต คุณสามารถดูข้อผิดพลาดได้ <a href="/u/%{username_url}/events/emails?status=2,3">ที่นี่</a></p>
+
+          <p>หากปัญหาเกี่ยวกับที่อยู่อีเมลของคุณได้รับการแก้ไขแล้วหรือเป็นเพียงปัญหาชั่วคราว โปรดคลิกปุ่มรีเซ็ตด้านล่าง แล้วเราจะพยายามส่งอีเมลอีกครั้งเพื่อยืนยัน</p>
+        reset_password_invalid_email_dialog_text: |-
+          <p>หากต้องการเปลี่ยนรหัสผ่าน เราจำเป็นต้องมีที่อยู่อีเมลที่ถูกต้อง ขออภัย เราประสบปัญหาในการส่งอีเมลถึงคุณในอดีต คุณสามารถดูข้อผิดพลาดได้ <a href="/u/%{username_url}/events/emails?status=2,3">ที่นี่</a></p>
+
+          <p>หากปัญหาที่เกิดขึ้นกับที่อยู่อีเมลของคุณได้รับการแก้ไขแล้วหรือเป็นเพียงปัญหาชั่วคราว โปรดคลิกปุ่มรีเซ็ตด้านล่าง แล้วเราจะพยายามส่งอีเมลถึงคุณอีกครั้ง</p>
+        sending_problems: เราประสบปัญหาในการส่งข้อความไปยังที่อยู่อีเมลของคุณ ก่อนที่เราจะดำเนินการต่อ เราต้องตรวจสอบให้แน่ใจก่อนว่าอีเมลของเราถูกส่งไปเรียบร้อยแล้ว
+        what_is_your_email: โปรดระบุอีเมลของคุณ
+      page_title: โปรไฟล์ของฉัน
+      reset_password_dialog_text: เมื่อคุณยืนยันคำขอนี้ คุณจะได้รับอีเมลพร้อมคำแนะนำเกี่ยวกับวิธีการรีเซ็ตรหัสผ่านของคุณ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการนี้
+      reset_password_dialog_text2: "<strong>โปรดทราบ:</strong> การรีเซ็ตรหัสผ่านของคุณจะทำให้คุณออกจากระบบจากเซสชันปัจจุบันทั้งหมด"
     sessions:
       api:
-        connected_apps:
-        listed_below_explanation:
-        no_apps:
-        page_title:
+        connected_apps: แอปที่เชื่อมต่อ
+        listed_below_explanation: ด้านล่างนี้คือรายชื่อแอปพลิเคชันบุคคลที่สามที่คุณได้อนุญาตให้เขียนข้อมูลในนามของคุณ คุณสามารถเพิกถอนการอนุญาตเหล่านี้ได้ตลอดเวลา
+        no_apps: คุณไม่ได้เชื่อมต่อแอปใดๆ กับบัญชีของคุณ
+        page_title: แอปที่เชื่อมต่อของฉัน
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: การเพิกถอนเซสชันนี้จะทำให้คุณไม่สามารถใช้ TMDB กับแอปพลิเคชันนี้ต่อไปได้ แน่นอนว่าคุณสามารถสร้างเซสชันใหม่ได้ตลอดเวลา
+          confirm_title: เพิกถอนเซสชั่นหรือไม่
         table:
           action:
           application_name:
           date_authorised:
       navigation:
-        api:
-        web:
-      page_title:
-      sessions:
+        api: API
+        web: เว็บ
+      page_title: เซสชันของฉัน
+      sessions: เซสชัน
       web:
-        current_session:
+        current_session: เซสชันปัจจุบัน
         remove_single:
-          confirm_button:
-          dialog_text:
-          dialog_title:
+          confirm_button: ยืนยันการลบ
+          dialog_text: คุณแน่ใจหรือไม่ว่าต้องการลบเซสชันนี้ หากเซสชันที่เลือกคือเซสชันปัจจุบันของคุณ การดำเนินการนี้จะทำให้คุณออกจากระบบ
+          dialog_title: ลบเซสชันหรือไม่
         table:
           date:
-          device:
+          device: อุปกรณ์
           expires:
-          ip:
+          ip: หมายเลขไอพี
     sharing:
       favorite_list:
         favorite_settings:
-        share_on_twitter:
+        share_on_twitter: แบ่งปันรายการโปรดใหม่บน Twitter หรือไม่
         share_publicly:
       page_title:
       rated_list:
@@ -4363,22 +4369,22 @@ th-TH:
       page_title:
       sharing_message_hint:
       social_settings:
-      supported_template_values:
+      supported_template_values: 'ค่าเทมเพลตที่รองรับ:'
     streaming_services:
-      page_title:
-      streaming_services:
+      page_title: บริการสตรีมมิ่งของฉัน
+      streaming_services: บริการสตรีมมิ่ง
   sign_up:
     benefits:
-      benefits_to_being_member:
-      build_custom_lists:
-      build_watchlist:
-      contribute:
-      discussions:
-      find_something_to_watch:
-      keep_track:
-      log_movies:
-    by_clicking_agree_to_terms:
-    javascript_required:
+      benefits_to_being_member: สิทธิประโยชน์จากการเป็นสมาชิก
+      build_custom_lists: สร้างรายการผสมที่กำหนดเอง (ภาพยนตร์และทีวี)
+      build_watchlist: สร้างและปรับปรุงรายการที่ต้องดูของตนเอง
+      contribute: ร่วมสนับสนุนและปรับปรุงข้อมูลในฐานข้อมูลของเรา
+      discussions: ร่วมเสวนาเรื่องภาพยนต์และโทรทัศน์
+      find_something_to_watch: ค้นหาสิ่งที่จะดูบนบริการสตรีมมิ่งที่คุณสมัครใช้งาน
+      keep_track: ติดตามภาพยนตร์และรายการทีวีที่คุณชื่นชอบและรับคำแนะนำจากรายการเหล่านั้น
+      log_movies: บันทึกภาพยนตร์และรายการทีวีที่คุณได้ชม
+    by_clicking_agree_to_terms: โดยการคลิกปุ่ม "สมัครสมาชิก" ด้านล่าง ฉันรับรองว่าฉันได้อ่านและยอมรับเงื่อนไขการใช้งานและนโยบายความเป็นส่วนตัวของ TMDB แล้ว
+    javascript_required: ต้องใช้ JavaScript เพื่อดำเนินการต่อ
     sign_up_for_account: ลงทะเบียนบัญชีผู้ใช้
     signup_text: การสมัครบัญชีนั้นฟรีและง่ายดาย กรอกแบบฟอร์มด้านล่างเพื่อเริ่มต้น
   success_approved_access_token: อนุมัติคำขอ
