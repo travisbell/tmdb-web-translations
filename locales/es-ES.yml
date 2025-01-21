@@ -511,7 +511,7 @@ es-ES:
     logout: Cerrar sesión
     messages: Mensajes
     profile_and_settings: Perfil y ajustes
-    ratings: Clasificaciones
+    ratings: Valoraciones
     settings: Ajustes
     sign_up: Regístrate
     view_profile: Ver perfil
@@ -601,10 +601,10 @@ es-ES:
       date_rated: 'Fecha de puntuación '
       first_air_date: Fecha de primera emisión
       most_popular: Más popular
-      my_rating: Mi clasificación
+      my_rating: Mi valoración
       newest: Más nuevos
       popularity: Popularidad
-      rating: Clasificación
+      rating: Valoración
       release_date: Fecha de estreno
       score: Puntuación
       upcoming: Próximamente
@@ -859,11 +859,11 @@ es-ES:
         '2':
           meaning: No se admiten menores de 6.
         '3':
-          meaning: Se admiten mayores de 12, los niños entre 6 y 11 años sólo cuando vayan acompañados por sus padres o tutor.
+          meaning: Se admiten mayores de 12, los niños entre 6 y 11 años sólo cuando vayan acompañados por sus padres o tutor legal.
         '4':
-          meaning: Mayores de 16 admitidos, no se admite a nadie por debajo
+          meaning: Mayores de 16 admitidos, no se admite a nadie por debajo.
         '5':
-          meaning: No menores admitidos, sólo adultos
+          meaning: Menores no admitidos, sólo adultos.
       DK:
         '0':
           meaning: Pendiente de clasificar
@@ -1388,7 +1388,7 @@ es-ES:
     character_wiki: Wiki del personaje
     characters: Personajes
     check_it_out: Échale un vistazo
-    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'> la Guía de aportaciones</a> para obtener más información sobre cómo añadir en Movie Db.</p>
+    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'>la guía de aportaciones</a> para obtener más información sobre cómo añadir en the Movie Db.</p>
     choose_a_character: Elegir un personaje
     choose_a_character_info: Añadir un personaje significa vincular la aparición de un actor o una actriz que desempeña un papel específico. Un ejemplo sería la trilogía del Caballero Oscuro (tres películas) en la que Christen Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel equivalen a un personaje.
     choose_backdrop: Elegir imagen de fondo
@@ -2070,14 +2070,14 @@ es-ES:
       title: Esta cuenta ha sido eliminada
     missing_privilege:
       description:
-        logged_in: Tu cuenta no tiene acceso a esta página. Si cree que se trata de un error, infórmenos <a href="%{forum_link}">en los foros</a>.
+        logged_in: Tu cuenta no tiene acceso a esta página. Si crees que se trata de un error, infórmanos <a href="%{forum_link}">en los foros</a>.
         public: Intentaste solicitar una página que requiere que inicies sesión. Inicia sesión en tu cuenta <a href="%{login_link}">haciendo clic aquí</a>.
       title: No tienes permiso para acceder a esta página.
     out_of_login_attempts:
-      description: |
-        Has utilizado tus 10 intentos de inicio de sesión. Podrás volver a intentarlo en 30 minutos. También puedes intentar <a href="%{reset_password_link}">restablecer tu contraseña</a>.
+      description: |-
+        Has usado tus 10 intentos de inicio de sesión. Podrás volver a intentarlo en 30 minutos. También puedes intentar <a href="%{reset_password_link}">restablecer tu contraseña</a>.
 
-        También puede ponerse en <a href="%{about_us_link}">contacto</a> para obtener ayuda.
+        También puedes ponerte en <a href="%{about_us_link}">contacto</a> para obtener ayuda.
       title: Intentos de inicio de sesión agotados
     private:
       description:
@@ -3774,17 +3774,17 @@ es-ES:
         one: "%{count} año"
         other: "%{count} años"
     rating:
-      not_rateable: Este elemento aún no es puntuable.
-      rated_with_rating: Puntuada %{value}
+      not_rateable: Este elemento aún no es valorable.
+      rated_with_rating: Valorada %{value}
       rating_count:
         one: "%{count} valoración"
         other: "%{count} valoraciones"
-      removed:
+      removed: Tu valoración ha sido eliminada.
       score_breakdown: Desglose de puntos
       score_distribution: Distribución de puntos
       score_history: Historial de puntos
       score_trend: Tendencia de puntos
-      success:
+      success: Valoración guardada con éxito.
     shortcut_bar:
       alternative_titles: Títulos alternativos
       back_to_series: Volver a la serie
@@ -4237,7 +4237,7 @@ es-ES:
     favorites_movie: Buscar películas favoritas...
     favorites_tv: Buscar series favoritas...
     in_movies: en películas
-    in_people: en Gente
+    in_people: en gente
     in_tv_shows: en series
     media_types:
       movie: Película
@@ -4279,9 +4279,9 @@ es-ES:
         directory: Directorio
         overview: Vista general
         regenerate:
-          confirm_text: Esto <strong>deshabilitará</strong> su antigua clave API y regenerará una nueva. Esta acción no se puede deshacer. Tienes <strong>30 segundos</strong> para confirmar antes de volver a ingresar tu contraseña.
+          confirm_text: Esto <strong>deshabilitará</strong> tu clave API anterior y generará una nueva. Esta acción no se puede deshacer. Tienes <strong>30 segundos</strong> para confirmar antes de volver a introducir tu contraseña.
           regenerate_key: Regenerar clave
-          summary_text: "¡Acabas de entrar en la <strong>zona peligrosa</strong>! Si deseas continuar y actualizar tu clave API, puedes hacerlo ingresando tu contraseña a continuación y confirmando las indicaciones."
+          summary_text: "¡Acabas de entrar en una <strong>zona peligrosa</strong>! Si quieres continuar y actualizar tu clave API introduce tu contraseña y confirma las indicaciones."
         sessions: Sesiones
         stats: Estadísticas
       page_title: Mi configuración de API
@@ -4536,14 +4536,14 @@ es-ES:
         surprised: Sorprendido
       prompt: "¿Cómo te ha hecho sentir %{title}?"
     rating:
-      clear: Borrar mi puntuación
-      label: Puntuación
+      clear: Borrar mi valoración
+      label: Valoración
       prompt: "¿Qué te ha parecido %{title}?"
       tooltip:
-        '0': Absoluto desastre
+        '0': Un absoluto desastre
         '10': Basura total
         '100': Campeona
-        '20': Basura
+        '20': Un desperdicio
         '30': Bastante mala
         '40': No es buena
         '50': Pasable
@@ -4558,7 +4558,7 @@ es-ES:
         movie: Esta película ha sido...
         tv: Esta serie ha sido...
       select: Selecciona un tono...
-    welcome: ' ¡Bienvenido a Vibes, el nuevo sistema de puntuación de TMDB! Para obtener más información, visite el <span class="%{style}"><a href="%{link}"> contribution bible</a></span>.'
+    welcome: ¡Bienvenido a Vibes, el nuevo sistema de puntuación de TMDB! Para obtener más información, visita la <span class="%{style}"><a href="%{link}"> guía de aportaciones</a></span>.
     whats_new: "¿Qué hay de nuevo?"
     whats_your_vibe: ¿Cuál es tu <span class="%{style}">vibra</span>?
     your_vibe:

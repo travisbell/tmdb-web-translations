@@ -286,7 +286,7 @@ tr-TR:
   New: Yeni
   New episode airs in: Yeni bölüm için kalan süre
   'No': Hayır
-  No Language:
+  No Language: Dil Yok
   None: Hiçbiri
   Notes: Notlar
   Notifications: Uyarılar
@@ -319,7 +319,7 @@ tr-TR:
   Physical: Fiziksel
   Place of Birth: Doğum Yeri
   Play: Yürüt
-  Plot Keywords: Hikâye Anahtar Kelimeleri
+  Plot Keywords: Hikâye İçin Anahtar Kelimeler
   Popular Lists: Popüler listeler
   Popular Movies: Popüler Filmler
   Popular TV Shows: Popüler Diziler
@@ -403,7 +403,7 @@ tr-TR:
   Size: Boyut
   Social: Topluluk
   Sort: Sırala
-  Sort By: Şuna Göre Sırala
+  Sort By: Sıralama Ölçütü
   Sort Cast: Jeneriği Sırala
   Sort Regular Cast: Devamlı Jeneriği Sırala
   Source Key: Kaynak Anahtar
@@ -541,7 +541,7 @@ tr-TR:
     discussions:
       my_active_boards: Aktif Konularım
       my_discussions: Tartışmalarım
-      not_watching: Hiçbir tartışmaya katılmıyorsunuz.
+      not_watching: Hiçbir tartışmaya katılmadınız.
       page_title:
         page_owner: Tartışmalarım
         public: "%{username}'nin Tartışmaları"
@@ -672,9 +672,9 @@ tr-TR:
       asc: Artan
       desc: Azalan
     statuses:
-      banned:
-      deleted:
-      ok:
+      banned: Yasaklandı
+      deleted: Silindi
+      ok: Tamam
     tips:
       import_imdb_ratings: Puanlarınızı IMDb'den içe aktarabilirsiniz.
       tip: İpucu
@@ -1678,11 +1678,11 @@ tr-TR:
     - Cuma
     - Cumartesi
     formats:
-      abbrev:
-      default:
-      full_month_day:
-      full_month_year:
-      short_month_day_year:
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
@@ -1737,7 +1737,7 @@ tr-TR:
     apply: Uygula
     filters:
       air_dates:
-        air_dates: Yayın Tarihleri
+        air_dates: Yayınlama Tarihi
         search_all_episodes: Tüm bölümler aransın
         search_first_air_date: İlk yayın tarihini ara?
       availability:
@@ -1745,7 +1745,7 @@ tr-TR:
         search_all_availabilities: İlk yayın tarihini ara
       certification:
         certification: Sertifikasyon
-      filters: Filtrele
+      filters: Filtreleme Ölçütleri
       genres:
         genres: Tarzlar
       keywords:
@@ -1753,7 +1753,7 @@ tr-TR:
       language:
         language: Lisan
         tooltip: Öğeleri orijinal dillerine göre filtrelemek için listeden birini seçin.
-      minimum_user_votes: Minimum Kullanıcı Oyları
+      minimum_user_votes: En Az Kullanıcı Oyu
       network:
         filter_by_network: TV kanallarına göre filtrele...
         network: Kanal
@@ -1769,7 +1769,7 @@ tr-TR:
         everything: Her şey
         movies_have_seen: Gördüğüm Filmler
         movies_havent_seen: Görmediğim Filmler
-        show_me: Şuna Göre Göster
+        show_me: Gösterme Ölçütü
         tooltip: İzlediğiniz öğeleri filtrelemek için giriş yapın.
         tv_shows_have_seen: Gördüğüm TV Dizileri
         tv_shows_havent_seen: Görmediğim TV Dizileri
@@ -1783,11 +1783,11 @@ tr-TR:
           my_services: Benim Servislerim
           restrict: Aramaları abone olduğum hizmetler ile sınırlandır
           restrict_tooltip: Abone olunan servisleri yönetmek için hesabınıza giriş yapın.
-        where_to_watch: Nerede İzlenir
+        where_to_watch: İzleme Servisleri
       years:
         years: Yıllar
-    no_items: Sorgunuzla eşleşen öğeler bulunamadı.
-    search: Ara
+    no_items: Sorgunuzla eşleşen hiçbir öğe bulunamadı.
+    search: Bul
     sort_options:
       first_air_date_asc: İlk Yayın Tarihine Göre Arttır
       first_air_date_desc: İlk Yayın Tarihine Göre Azalt
@@ -1895,7 +1895,7 @@ tr-TR:
       quote: Alıntı Yap
       reopen_reply: Yeniden Aç ve Yanıtla
       reply: Cevapla
-      reply_by: "%{username}  adlı kullanıcıyı yanıtla"
+      reply_by: "%{username} adlı kullanıcıyı yanıtla"
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Sorun Bildir
       unhide: Göster
@@ -2194,16 +2194,16 @@ tr-TR:
         movies: Filmler
         on_tv: Televizyonda
         popular: Popüler
-        streaming: Yayın Akışı
+        streaming: Yayında
         this_week: Bu Hafta
         today: Bugün
         tv: TV
       free_to_watch: İzlemesi Ücretsiz
       latest_trailers: Son Fragmanlar
       leaderboard:
-        all_time: Tüm Zaman Düzenlemeleri
+        all_time: Bütün Düzenlemeleri
         leaderboard: Liderler Sıralaması
-        this_week: Bu Hafta Yapılan Düzenlemeler
+        this_week: Bu Haftaki Düzenlemeleri
       trending: Ana Akım
       whats_popular: Popüler Olanlar
     taw:
@@ -2704,7 +2704,7 @@ tr-TR:
     Jimmy Jib Operator: Jimmy Jib Operatörü
     Joint ADR Mixer: Joint ADR Mixer
     Junior Story Editor: Junior Story Editor
-    Key Accountant:
+    Key Accountant: Anahtar Muhasebeci
     Key Animation: Kare Animasyon
     Key Art Production Assistant:
     Key Carpenter:
@@ -3017,13 +3017,13 @@ tr-TR:
     Sound Mixer:
     Sound Montage Associate:
     Sound Post Production Coordinator:
-    Sound Post Supervisor:
-    Sound Re-Recording Assistant:
-    Sound Re-Recording Mixer:
-    Sound Recordist:
-    Sound Supervisor:
-    Sound Technical Supervisor:
-    Special Effects:
+    Sound Post Supervisor: Ses Post Prodüksiyon Sorumlusu
+    Sound Re-Recording Assistant: Ses Yeniden Kayıt Asistanı
+    Sound Re-Recording Mixer: Ses Yeniden Kayıt Mikseri
+    Sound Recordist: Ses Kayıtçısı
+    Sound Supervisor: Ses Sorumlusu
+    Sound Technical Supervisor: Ses Teknik Sorumlusu
+    Special Effects: Özel Efekt
     Special Effects Assistant:
     Special Effects Best Boy:
     Special Effects Coordinator:
@@ -3040,13 +3040,13 @@ tr-TR:
     Sponsorship Coordinator:
     Sponsorship Director:
     Staff Writer:
-    Stage Director:
-    Stand In:
-    Standby Art Director:
-    Standby Carpenter:
-    Standby Painter:
-    Standby Property Master:
-    Standby Rigger:
+    Stage Director: Sahne Yönetmeni
+    Stand In: Yardımcı
+    Standby Art Director: Yardımcı Sanat Yönetmeni
+    Standby Carpenter: Yardımcı Marangoz
+    Standby Painter: Yardımcı Ressam
+    Standby Property Master: Yardımcı Emlak Uzmanı
+    Standby Rigger: Yardımcı Makinist
     Steadicam Operator:
     Steadycam:
     Stereoscopic Coordinator:
@@ -3057,24 +3057,24 @@ tr-TR:
     Story: Hikâye
     Story Artist: Hikâye Sanatçısı
     Story Consultant:
-    Story Coordinator:
-    Story Developer:
+    Story Coordinator: Hikaye Koordinatörü
+    Story Developer: Hikaye Geliştiricisi
     Story Editor: Hikaye Editörü
-    Story Manager:
-    Story Supervisor:
+    Story Manager: Hikaye Yöneticisi
+    Story Supervisor: Hikaye Sorumlusu
     Storyboard:
     Storyboard Artist:
     Storyboard Assistant:
     Storyboard Designer:
     Street Casting:
-    Studio Teacher:
-    Stunt Coordinator:
+    Studio Teacher: Stüdyo Öğretmeni
+    Stunt Coordinator: Dublör Koordinatörü
     Stunt Double: Dublör
     Stunt Driver: Dublör Sürücü
-    Stunts:
-    Stunts Coordinator:
-    Supervising ADR Editor:
-    Supervising Animation Director:
+    Stunts: Dublör
+    Stunts Coordinator: Dublör Koordinatörü
+    Supervising ADR Editor: ADR Editörünü Denetleme
+    Supervising Animation Director: Animasyon Yönetmeni Denetleme
     Supervising Animator:
     Supervising Armorer:
     Supervising Art Director:
@@ -3118,12 +3118,12 @@ tr-TR:
     Translator: Çevirmen
     Transportation Captain: Ulaştırma Kaptanı
     Transportation Co-Captain:
-    Transportation Coordinator:
+    Transportation Coordinator: Taşımacılık Koordinatörü
     Travel Coordinator: Seyahat Koordinatörü
     Treatment:
-    Truck Costumer:
-    Truck Production Assistant:
-    Truck Supervisor:
+    Truck Costumer: Kamyon Müşterisi
+    Truck Production Assistant: Kamyon Üretim Asistanı
+    Truck Supervisor: Kamyon Sorumlusu
     Ultimate Arm Operator:
     Underwater Camera: Sualtı Kamerası
     Underwater Director of Photography: Sualtı Görüntü Yönetmeni
@@ -3139,10 +3139,10 @@ tr-TR:
     Utility Stunts:
     VFX Artist: VFX Sanatçısı
     VFX Director of Photography: VFX Görüntü Yönetmeni
-    VFX Editor:
-    VFX Lighting Artist:
-    VFX Production Coordinator:
-    VFX Supervisor:
+    VFX Editor: VFX Editörü
+    VFX Lighting Artist: VFX Aydınlatma Sanatçısı
+    VFX Production Coordinator: VFX Yapım Koordinatörü
+    VFX Supervisor: VFX Süpervizörü
     Vehicles Coordinator:
     Vehicles Wrangler:
     Video Assist Operator:
@@ -3158,9 +3158,9 @@ tr-TR:
     Visual Effects Coordinator:
     Visual Effects Design Consultant:
     Visual Effects Designer:
-    Visual Effects Director:
-    Visual Effects Editor:
-    Visual Effects Lineup:
+    Visual Effects Director: Görsel Efekt Yönetmeni
+    Visual Effects Editor: Görsel Efekt Editörü
+    Visual Effects Lineup: Görsel Efekt Dizilimi
     Visual Effects Producer: Görsel Efekt Yapımcısı
     Visual Effects Production Assistant: Görsel Efekt Prodüksiyon Asistanı
     Visual Effects Production Manager: Görsel Efekt Yapım Müdürü
@@ -3176,10 +3176,10 @@ tr-TR:
     Wardrobe Master: Dolap Ustası
     Wardrobe Specialized Technician: Dolap Uzman Teknisyeni
     Wardrobe Supervisor: Dolap Sorumlusu
-    Weapons Master:
+    Weapons Master: Silah Uzmanı
     Weapons Wrangler:
     Web Designer: Web Tasarımcısı
-    Wig Designer:
+    Wig Designer: Peruk Tasarımcısı
     Wigmaker: Peruk Yapıcı
     Writer: Yazar
     Writers' Assistant: Yazar Asistanı
@@ -3214,7 +3214,7 @@ tr-TR:
     groups:
       discussion_pages: Tartışma sayfalarında
       edit_pages: Tüm düzenleme sayfalarında
-      global: Küresel
+      global: Genel
       image_pages: Tüm görüntü sayfalarında
       media_pages: Medya sayfalarında
       tv_episode_pages: TV bölüm sayfalarında
@@ -3439,8 +3439,8 @@ tr-TR:
     show_comments: Yorumları Göster
     total_revenue: Toplam Gelir
     total_runtime: Toplam Süre
-    use_grid_view: Izgara Görünümünü Kullan
-    use_list_view: Liste Görünümünü Kullan
+    use_grid_view: Izgara Görünümü
+    use_list_view: Liste Görünümü
   list_messages:
     comment_updated: Yorum güncellendi!
     image_saved: Görüntü kaydedildi!
@@ -3555,7 +3555,7 @@ tr-TR:
         production_companies: Yapımcı Şirket Ara
       release_date:
         locked: Bu çıkış tarihi kilitlendi.
-      runtime_in_minutes:
+      runtime_in_minutes: Süre (Dakika Cinsinden)
       success_fields_locked: Kilitli alanlar
       tagline:
         add_tagline: Slogan Ekle
@@ -3716,15 +3716,15 @@ tr-TR:
       rating_count:
         one: "%{count} Puan"
         other: "%{count} Puan"
-      removed:
+      removed: Puanlamanız silindi.
       score_breakdown: Puan Ayrıntısı
       score_distribution: Puan Dağılımı
       score_history: Puan Geçmişi
       score_trend: Eğilim Puanı
-      success:
+      success: Puanlama başarıyla kaydedildi.
     shortcut_bar:
       alternative_titles: Alternatif Başlıklar
-      back_to_series:
+      back_to_series: Seriye Geri Dön
       backdrops: Arka Planlar
       cast_crew: Oyuncu ve Ekip
       changes: Değişiklikler
@@ -4093,7 +4093,7 @@ tr-TR:
     available_snippet:
       flatrate: Yayında
       rent_or_buy: Kirala veya Satın Al
-      summary_sentence: "%{available_snippet} %{service_name} üzerinde kullanılabilir"
+      summary_sentence: "%{available_snippet} %{service_name} üzerinden seyredilebilir"
     description: JustWatch, sevdiğiniz filmleri ve TV şovlarını çevrimiçi ve yasal olarak nerede izleyebileceğinizi kolayca bulmanızı sağlar. Daha fazla bilgi için {justwatch_link} adresini ziyaret edebilirsiniz.
     filters:
       4k: 4K
