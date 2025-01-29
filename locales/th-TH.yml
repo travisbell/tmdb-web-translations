@@ -439,7 +439,7 @@ th-TH:
   TV Shows: รายการทีวี
   TV Shows Airing Today: รายการทีวีออกอากาศวันนี้
   Tagged People:
-  Tagline:
+  Tagline: คำโปรย
   Talk:
   Television:
   Terms of Use: เงื่อนไขการใช้งาน
@@ -454,13 +454,13 @@ th-TH:
   Top Rated TV Shows: รายการทีวีคะแนนสูงสุด
   Top Users:
   Translate Collection:
-  Translate Movie:
-  Translate Person:
-  Translate TV Series:
-  Translated Name:
-  Translated Overview:
-  Translated Tagline:
-  Translated Title:
+  Translate Movie: แปลชื่อหนัง
+  Translate Person: แปลชื่อบุคคล
+  Translate TV Series: แปลชื่อรายการทีวี
+  Translated Name: ชื่อในภาษาอื่น
+  Translated Overview: เรื่องย่อในภาษาอื่น
+  Translated Tagline: คำโปรยในภาษาอื่น
+  Translated Title: ชื่อเรื่องในภาษาอื่น
   Translation:
   Translations:
   Type: รูปแบบ
@@ -672,9 +672,9 @@ th-TH:
       asc: เรียงลำดับอักษร (ก-ฮ)
       desc: เรียงลำดับอักษร (ฮ-ก)
     statuses:
-      banned:
-      deleted:
-      ok:
+      banned: ถูกระงับ
+      deleted: ถูกลบ
+      ok: ไม่มีปัญหา
     tips:
       import_imdb_ratings: คุณสามารถนำเข้าคะแนนจากเว็บ IMDb
       tip: คำแนะนำ
@@ -697,6 +697,20 @@ th-TH:
       view_them: ดูรายการ
   add_to_list: เพิ่ม %{media_title} ในรายชื่อของคุณ
   already_translated_in: "%{page_title} ได้รับการแปลเป็นภาษาต่อไปนี้แล้ว..."
+  api_for_business:
+    form:
+      company_name:
+        label:
+      company_url:
+        label:
+      description:
+        label:
+      email:
+        error:
+        label:
+      error:
+      name:
+        label:
   api_session:
     3rd_party_request: คําขอการรับรองความถูกต้องของบุคคลที่สาม
     account_required:
@@ -1437,7 +1451,7 @@ th-TH:
     headshot_window_title: เปลี่ยนภาพหน้าตรงตัวละคร
     help_our_mods: ช่วยเหลือผู้ดูแลระบบของเรา
     help_our_mods_info: บอกเราเกี่ยวกับตัวละคร นี่เป็นช่องส่วนตัวระหว่างคุณและทีมผู้ดูแล ข้อมูลใดๆ ที่คุณให้เกี่ยวกับตัวละครและเหตุผลที่คุณสร้างมันขึ้นมา จะช่วยให้พวกเขาตรวจสอบรายการของคุณได้
-    icon:
+    icon: ไอคอน
     image_change_1: รูปภาพนี้มีความเกี่ยวข้องกับบันทึกสื่อจากกลุ่มที่เลือก หากดำเนินการต่อ การเชื่อมโยงบุคคลของสื่อที่เชื่อมโยงก็จะเปลี่ยนแปลงเช่นกัน!
     image_media_association: ภาพนี้มีความเกี่ยวข้องกับบันทึกสื่อ หากดำเนินการต่อ การเชื่อมโยงบุคคลในสื่อที่เชื่อมโยงก็จะเปลี่ยนแปลงเช่นกัน!
     in_translate_mode: คุณอยู่ในโหมดแปลภาษา
@@ -1468,10 +1482,10 @@ th-TH:
     next_nav_label: ถัดไป
     next_review_page:
     no_appearance_text: ไม่พบกลุ่ม
-    no_appearance_text_1:
+    no_appearance_text_1: ไม่พบลักษณะที่ปรากฏ! กรุณา <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">คลิกที่นี่ </a> เพื่อเพิ่มลักษณะที่ปรากฏใหม่!
     no_appearance_text_2: ไม่พบกลุ่ม โปรด<a href="/character/%{page_url}/edit/">คลิกที่นี่</a>เพื่อเพิ่มกลุ่ม
-    no_backdrop_in_group:
-    no_cast_credits:
+    no_backdrop_in_group: ดูเหมือนว่าจะไม่มีกลุ่มใดที่มีการเพิ่มฉากหลังตัวละครใหม่
+    no_cast_credits: ไม่พบเครดิตนักแสดง โปรดลองใช้สื่ออื่น
     no_records_found:
     note: บันทึก
     note_info:

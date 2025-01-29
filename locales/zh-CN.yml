@@ -233,7 +233,7 @@ zh-CN:
   Keyword: 关键词
   Keyword Results: 关键词结果
   Keywords: 关键词
-  Known Credits: 参演作品数
+  Known Credits: 参与作品数
   Known For: 出名原因
   Language: 语言
   Language Preferences: 语言偏好
@@ -647,7 +647,7 @@ zh-CN:
       recent_discussions: 近期讨论
       total_edits: 总编辑次数
       total_ratings: 总评分次数
-      upcoming_watchlist: 待看清单中即将上映的电影
+      upcoming_watchlist: 待看清单中接下来播映
     page_title:
       page_owner: 我的个人资料
       public: "%{username} 的个人资料"
@@ -687,8 +687,8 @@ zh-CN:
         one: 你的待看清单中有 %{count} 个条目，但暂无即将上映的电影。
         other: 你的待看清单中有 %{count} 个条目，但暂无即将上映的电影。
       no_upcoming_tv_shows:
-        one: 你的待看清单中有 %{count} 个条目，但暂无即将播出的剧集。
-        other: 你的待看清单中有 %{count} 个条目，但暂无即将播出的剧集。
+        one: 你的待看清单中有 %{count} 个条目，但暂无即将播出的电视节目。
+        other: 你的待看清单中有 %{count} 个条目，但暂无即将播出的电视节目。
       page_title:
         page_owner: 我的待看清单
         public: "%{username} 的待看清单"
@@ -697,6 +697,20 @@ zh-CN:
       view_them: 浏览待看清单。
   add_to_list: 将 %{media_title} 添加到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
+  api_for_business:
+    form:
+      company_name:
+        label:
+      company_url:
+        label:
+      description:
+        label:
+      email:
+        error: 格式不正确
+        label: 您的电子邮箱地址
+      error: 不能为空
+      name:
+        label:
   api_session:
     3rd_party_request: 第三方身份验证请求
     account_required:
@@ -1817,7 +1831,7 @@ zh-CN:
     no_items: 找不到和您的查询相符的条目。
     search: 搜索
     sort_options:
-      first_air_date_asc: 首次播出日期升序
+      first_air_date_asc: 首播日期升序
       first_air_date_desc: 首播日期降序
       name_a_z: 名字（A-Z）
       name_z_a: 名字（Z-A）
@@ -4029,7 +4043,7 @@ zh-CN:
   no_list_search_results: 找不到和您的查询相符的片单。
   no_media: 暂无《%{title}》的相关视频、剧照和海报。
   no_movie_search_results: 找不到和您的查询相符的电影。
-  no_overview: 暂无英文的剧情简介，请帮助我们添加到数据库。
+  no_overview: 剧情简介缺失，请帮助我们更新。
   no_person_search_results: 找不到和您的查询相符的人物。
   no_personal_recommendations:
     movie: 你可以通过收藏你喜欢的电影来能获得个性化电影推荐。同时，你可能会注意到我们推荐的很多电影都是你看过的。你可以通过给它们评分来过滤掉它们。你已评分的电影会被自动过滤掉。
@@ -4042,7 +4056,7 @@ zh-CN:
     public: "%{username} 暂无电视节目评分。"
   no_recommendations:
     movie: 我们没有足够的数据来推荐和《%{title}》相关的电影。你可以通过给看过的电影评分帮助我们完善推荐系统。
-    tv_show: 我们没有足够的数据来推荐和《%{title}》相关的剧集。你可以通过给看过的剧集评分帮助我们完善推荐系统。
+    tv_show: 我们没有足够的数据来推荐和《%{title}》相关的电视节目。你可以通过给看过的电视节目评分帮助我们完善推荐系统。
   no_records: 没有添加记录
   no_tv_search_results: 找不到和您的查询相符的剧集。
   no_watchlist_movies:
@@ -4317,7 +4331,7 @@ zh-CN:
       streaming_services: 流媒体服务
     notifications:
       api_updates: 向我发送有关 API 更改和更新的电子邮件
-      email_new_releases_watchlist: 我的待看清单中的条目发行时给我发邮件？
+      email_new_releases_watchlist: 我的待看清单中的条目播映时给我发邮件？
       new_replies_to_threads_created: 自动关注我创建和回复的帖子？
       new_replies_to_threads_watching: 我关注的帖子有新回复时给我发邮件？
       news_updates: 给我发送电子邮件了解新闻和产品更新
