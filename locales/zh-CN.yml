@@ -30,7 +30,7 @@ zh-CN:
   Add Headshot: 添加头像
   Add Item: 添加条目
   Add Missing Cast & Crew: 添加缺失的演职人员
-  Add Network: 添加视频站
+  Add Network: 添加平台
   Add New Episode: 添加新一集
   Add New Movie: 添加新电影
   Add New Release: 添加发行信息
@@ -146,7 +146,7 @@ zh-CN:
   Details: 详情
   Developed By: 开发者
   Digital: 数字发行
-  Directed by: 导演者
+  Directed by: 导演
   Directory: 目录
   Discover Examples: 发现示例
   Discover New Movies: 发现新电影
@@ -170,7 +170,7 @@ zh-CN:
   Episode Images: 本集图片
   Episode Number: 集编号
   Episode Overview: 分集剧情
-  Episodes: 集
+  Episodes: 集数
   Error: 错误
   Example API Request: 范例 API 请求
   Expand: 展开
@@ -202,7 +202,7 @@ zh-CN:
   Forums: 论坛
   Full Cast & Crew: 完整演职员表
   Full Character List: 完整角色列表
-  Full Leaderboard: 完整排行榜
+  Full Leaderboard: 完整贡献榜
   Gender: 性别
   General: 常规
   Genres: 类型
@@ -243,7 +243,7 @@ zh-CN:
   Last Season Featured Crew: 最新一季主创人员
   Last Season Regular Cast: 最新一季主演
   Last Week: 上周
-  Leaderboard: 排行榜
+  Leaderboard: 贡献榜
   Legal: 法律声明
   List Results: 片单搜索结果
   Lists: 片单
@@ -363,9 +363,9 @@ zh-CN:
   Remove from your favorite list: 从「我的最爱」片单删除
   Remove from your watchlist: 从待看清单中删除
   Remove?: 删除？
-  Report: 报告出错
-  Report an Issue: 报告出错
-  Reported Issues: 已报告出错
+  Report: 反馈
+  Report an Issue: 问题反馈
+  Reported Issues: 已反馈问题
   Request an API Key: 请求 API 密钥
   Resend Activation Email: 重发激活邮件
   Reset: 重置
@@ -381,7 +381,7 @@ zh-CN:
   Search for a language: 搜索语言...
   Search for a movie: 搜索电影
   Search for a movie or TV show: 搜索电影或电视节目
-  Search for a movie, TV show, person: 搜索电影、电视节目、人物
+  Search for a movie, TV show, person: 搜索电影、电视节目、人物……
   Season: 季
   Season Number: 季数
   Season Overview: 季剧情
@@ -426,7 +426,7 @@ zh-CN:
   Success: 成功
   Summary: 简介
   Support: 支持
-  Support Forums: '支持论坛 '
+  Support Forums: 论坛支持
   System Status: 系统状态
   TV: 电视播出
   TV Network: 电视播出平台
@@ -494,7 +494,7 @@ zh-CN:
   Website Terms: 网站条款
   Website Updates: 网站更新
   Wrappers & Libraries: 封装 & 库
-  Written by: 原作
+  Written by: 编剧
   Year: 年
   'Yes': 是
   Your lists: 你的片单
@@ -637,8 +637,8 @@ zh-CN:
       empty_upcoming_watchlist:
         logged_in: 你的待看清单中没有即将上映的电影。
       empty_watched_genres:
-        logged_in: 你还没有记录过电影或剧集。
-        public: "%{username} 还没有记录过电影或剧集。"
+        logged_in: 你还没有记录过电影或电视节目。
+        public: "%{username} 还没有记录过电影或电视节目。"
       goto_discussions: 查看全部讨论
       goto_watchlist: 进入待看清单
       most_watched_genres: 类型分布
@@ -700,17 +700,18 @@ zh-CN:
   api_for_business:
     form:
       company_name:
-        label:
+        label: 公司名
       company_url:
-        label:
+        label: 公司网址
       description:
-        label:
+        label: 请描述使用API的用途
       email:
         error: 格式不正确
         label: 您的电子邮箱地址
       error: 不能为空
       name:
-        label:
+        label: 名字
+      success:
   api_session:
     3rd_party_request: 第三方身份验证请求
     account_required:
@@ -1387,7 +1388,7 @@ zh-CN:
     character_bio: 角色介绍
     character_header_images: 角色头图
     character_login_signup_text: 你需要要登录后继续。点击<a href="%{login}">这里</a>登录，或者点击<a href="%{signup}">这里</a>注册。
-    character_name: 角色姓名
+    character_name: 角色名字
     character_search_label: 你要找的是哪个角色？
     character_search_text: 你想找哪个角色？
     character_to_search: 你想要什么样的角色或标题?
@@ -1469,7 +1470,7 @@ zh-CN:
       character: 角色
       movie_character_name: 电影角色名称
       tv_character_name: 电视角色名
-      tv_show: 剧集
+      tv_show: 电视节目
     movie_titles: 电影名字
     name: 名字
     navigate_to_dashboard: 转到我的仪表盘
@@ -1557,8 +1558,8 @@ zh-CN:
     total_budget: 总预算
     translations_language: 翻译语言
     try_again: 请重试！
-    tv: 剧集
-    tv_titles: 剧集标题
+    tv: 电视
+    tv_titles: 电视标题
     unloading_message: 卸载此页面可能会丢失数据。你想做什么…
     unlock_existing_appearances: 解锁现有形象
     unsaved_change_lost: 任何没有保存的更改将会丢失。
@@ -1568,7 +1569,7 @@ zh-CN:
     user_added_backdrop_info: 这是你为角色添加的背景照片。请选择您想要进行的照片。
     user_added_backdrop_label: 用户添加的背景幕布图片
     user_variant_description: 下面是我们为这个角色准备的一些照片。请选择一个或添加一个更适合角色的替代。
-    user_variant_intro: 从电影、剧集中找到你最喜欢的角色……
+    user_variant_intro: 从电影、电视节目中找到你最喜欢的角色……
     validation_charactername: 主要角色名称为必填项
     validation_group_synopsis: 请输入有效的组概要
     validation_grpname: 请输入一个有效的组名
@@ -1600,9 +1601,9 @@ zh-CN:
     selected_language: 所选语言
     tv_missing_a_backdrop: 缺少背景的剧集
     tv_missing_a_poster: 缺少海报的剧集
-    tv_show_language_distribution: 剧集语言分布
-    tv_shows_missing_a_name: 缺少名称的剧集
-    tv_shows_missing_a_overview: 缺少剧情简介的剧集
+    tv_show_language_distribution: 电视节目语言分布
+    tv_shows_missing_a_name: 缺少名称的电视节目
+    tv_shows_missing_a_overview: 缺少剧情简介的电视节目
   contribution_bible:
     abbreviations:
       collection: col
@@ -1655,7 +1656,7 @@ zh-CN:
     character_appearance: 角色形象
     movie: 电影
     primary_character: 主要的角色
-    tv_show: 剧集
+    tv_show: 电视节目
   cookie_popup:
     message: 为了让您在 TMDB 上获得更好的体验，我们需要使用 cookie。您可以查看我们的 <a href="%{policy_url}" target="_blank" rel="noopener">cookie 政策</a> 了解详情。如果您继续使用 TMDB，即表示您同意此政策。
     ok_button: 好的
@@ -1736,10 +1737,10 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。因为已存在以此为标题的剧集，所以不认定其为一部电影。你可以[在此](https://www.themoviedb.org/bible/new_content)阅读更多有关我们内容准则的信息。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。因为已存在以此为标题的电视节目，所以不认定其为一部电影。你可以[在此](https://www.themoviedb.org/bible/new_content)阅读更多有关我们内容准则的信息。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
-        subject: 这是一部剧集
+        subject: 这是一个电视节目
       '4':
         message: |-
           您好，
@@ -1813,8 +1814,8 @@ zh-CN:
         movies_havent_seen: 未观看的电影
         show_me: 显示
         tooltip: 登录以过滤你已观看的条目。
-        tv_shows_have_seen: 已观看的剧集
-        tv_shows_havent_seen: 未观看的剧集
+        tv_shows_have_seen: 已观看的电视节目
+        tv_shows_havent_seen: 未观看的电视节目
       sort:
         sort_results_by: 结果排序
       user_score:
@@ -2159,7 +2160,7 @@ zh-CN:
       create_season_locked: 此剧集已被锁定无法添加新季。
       duplicate_created_by: 此人物已添加为创作者。
       duplicate_crew_member: 此人物已添加为 %{job_name}。
-      duplicate_episode: 这一集已经存在。
+      duplicate_episode: 该集已经存在。
       duplicate_guest_star: 这位客串明星已经存在。
       duplicate_regular_season_member: 此人物已被添加为季主演。
       duplicate_season: 这一季已经存在。
@@ -2220,7 +2221,7 @@ zh-CN:
         '1': 享受无广告的 TMDB
         '2': 维护个人待看清单
         '3': 按你订阅的流媒体服务筛选并查找要观看的内容
-        '4': 记录你已观看的电影和剧集
+        '4': 记录你已观看的电影和电视节目
         '5': 制作个性化列表
         '6': 帮助我们完善数据库
     discussions:
@@ -2247,7 +2248,7 @@ zh-CN:
       latest_trailers: 最新预告片
       leaderboard:
         all_time: 总编辑量
-        leaderboard: 排行榜
+        leaderboard: 贡献榜
         this_week: 本周编辑量
       trending: 趋势
       whats_popular: 热门
@@ -2257,9 +2258,9 @@ zh-CN:
       thats_a_wrap: 年度总结！
     tv_shows:
       episode_airs:
-        in_days: "%{number_of_days} 天内播出的新集"
-        today: 今日播出的新集
-        tomorrow: 明日播出的新集
+        in_days: "%{number_of_days} 天内播出的剧集"
+        today: 今日播出的剧集
+        tomorrow: 明日播出的剧集
   images:
     confirm_delete: 确定要删除此图片吗？
     upload_criteria:
@@ -2872,7 +2873,7 @@ zh-CN:
     Original Music Composer: 原创音乐作曲
     Original Series Creator: 原创系列创作者
     Original Series Design: 原创系列设计
-    Original Story: 原作
+    Original Story: 原创故事
     Other: 其他
     Paint Coordinator: 油漆协调员
     Painter: 画家
@@ -3519,7 +3520,7 @@ zh-CN:
       number_of_changes:
         one: "%{count} 次更改"
         other: "%{count} 次更改"
-      view_weekly_leaderboard: 查看本周排行榜
+      view_weekly_leaderboard: 查看本周贡献榜
     character:
       edit:
         appearance:
@@ -3741,7 +3742,7 @@ zh-CN:
           special_characters: 检测到无效字符。
           trailing_whitespace: 检测到尾端空白字符。
         migration_success: 名称迁移成功。
-        move_name: 将姓名移动至其他语言
+        move_name: 移动名字
         move_name_tooltip: 将<strong> %{name} (%{language})</strong>移动至选定语言。
         primary_translation: 初始翻译
         translated_name_tooltip: 如果人物在母语中的艺名在%{language}中不易认读，可考虑添加译名。
@@ -3810,13 +3811,13 @@ zh-CN:
     translations:
       add_biography: 添加个人简介
       add_homepage: 添加主页
-      add_name: 添加姓名
+      add_name: 添加名字
       add_overview: 添加概要
       add_runtime: 添加播放时间
       add_tagline: 添加标语
       add_title: 添加标题
       biography: 生平简介
-      name: 姓名
+      name: 名字
       overview: 简要介绍
       taglines: 标语
       title: 标题
@@ -4058,7 +4059,7 @@ zh-CN:
     movie: 我们没有足够的数据来推荐和《%{title}》相关的电影。你可以通过给看过的电影评分帮助我们完善推荐系统。
     tv_show: 我们没有足够的数据来推荐和《%{title}》相关的电视节目。你可以通过给看过的电视节目评分帮助我们完善推荐系统。
   no_records: 没有添加记录
-  no_tv_search_results: 找不到和您的查询相符的剧集。
+  no_tv_search_results: 找不到和您的查询相符的电视节目。
   no_watchlist_movies:
     current_user: 你没有添加过电影到待看清单。
     public: 此待看清单为空。
@@ -4446,7 +4447,7 @@ zh-CN:
       discussions: 参加影视讨论
       find_something_to_watch: 在你订阅的流媒体服务中找点东西看
       keep_track: 跟踪你喜爱的电影和剧集，并获得推荐
-      log_movies: 记录你已观看的电影和剧集
+      log_movies: 记录你已观看的电影和电视节目
     by_clicking_agree_to_terms: 点击下方的“注册”按钮，即代表您确认您已阅读并同意 TMDB 使用条款和隐私政策。
     javascript_required: 需要 JavaScript 才能继续。
     sign_up_for_account: 注册一个账户
@@ -4464,8 +4465,8 @@ zh-CN:
   success_sharing: 你的信息分享成功。
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: ", 和"
+      two_words_connector: 和
       words_connector: ", "
   the: 此
   time:
