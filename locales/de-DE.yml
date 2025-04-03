@@ -4,7 +4,7 @@ de-DE:
   API: API
   API Access Token: API-Token
   API Details: API-Details
-  API Documentation:
+  API Documentation: API-Dokumentation
   API Key: API-Schlüssel
   API Libraries: API-Bibliotheken
   API Overview: API-Übersicht
@@ -32,7 +32,7 @@ de-DE:
   Add Item: Eintrag hinzufügen
   Add Missing Cast & Crew: Fehlende Besetzung und Crew hinzufügen
   Add Network: Sender hinzufügen
-  Add New Episode: Neue Episode hinzufügen
+  Add New Episode: Neue Folge hinzufügen
   Add New Movie: Neuen Film hinzufügen
   Add New Release: Veröffentlichung hinzufügen
   Add New Season: Staffel hinzufügen
@@ -168,10 +168,12 @@ de-DE:
   Email Address: E-Mail-Adresse
   Email Content: Nachricht
   Embed: Einbetten
-  Episode Images: Episodenbilder
-  Episode Number: Episodennummer
-  Episode Overview: Zusammenfassung dieser Episode
-  Episodes: Episoden
+  Episode Images:
+    one: ''
+    other: Folgenbilder
+  Episode Number: Folgennummer
+  Episode Overview: Zusammenfassung dieser Folge
+  Episodes: Folgen
   Error: Fehler
   Example API Request: Beispielhafte API-Anfrage
   Expand: Erweitern
@@ -788,9 +790,9 @@ de-DE:
       other: "%{count} Gewinne"
   back_options:
     back: Zurück
-    episode: Zurück zur Episode
-    episode_groups: Zurück zu den Episodengruppen
-    episode_list: Zurück zur Episodenliste
+    episode: Zurück zur Folge
+    episode_groups: Zurück zu den Folgengruppen
+    episode_list: Zurück zur Folgenliste
     home: Zurück zur Startseite
     main: Zurück zur Hauptseite
     named_episode_group: Zurück zu &lsquo;%{group_name}&rsquo; groups
@@ -1785,7 +1787,7 @@ de-DE:
     filters:
       air_dates:
         air_dates: Ausstrahlung
-        search_all_episodes: Alle Episodenausstrahlungen
+        search_all_episodes: Alle Folgenausstrahlungen?
         search_first_air_date: Nur Serienpremiere
       availability:
         availabilities: Verfügbarkeit
@@ -2070,9 +2072,9 @@ de-DE:
       1fae3:
       1fae4:
   episode_count:
-    one: "%{count} Episode"
-    other: "%{count} Episoden"
-  episode_number_name: Episode %{episode_number}
+    one: "%{count} Folge"
+    other: "%{count} Folgen"
+  episode_number_name: Folge %{episode_number}
   error_pages:
     deleted_account:
       description:
@@ -2159,12 +2161,12 @@ de-DE:
       create_season_locked: Das Hinzufügen neuer Staffeln wurde für diese Serie gesperrt.
       duplicate_created_by: Die Person wurde bereits als Urheber hinzugefügt.
       duplicate_crew_member: Diese Person ist bereits als %{job_name} hinzugefügt.
-      duplicate_episode: Diese Episode existiert bereits.
+      duplicate_episode: Diese Folge existiert bereits.
       duplicate_guest_star: Dieser Gastdarsteller existiert bereits.
       duplicate_regular_season_member: Diese Person ist bereits als regulärer Darsteller dieser Staffel eingetragen.
       duplicate_season: Diese Staffel existiert bereits.
-      duplicate_season_episode_cast_member:
-      duplicate_season_episode_crew_member:
+      duplicate_season_episode_cast_member: Diese Person wurde schon als Besetzung einer Folge dieser Staffel hinzugefügt. Besetzungseinträge dürfen nur einer Staffel oder einer Folge hinzugefügt werden, aber nicht beiden.
+      duplicate_season_episode_crew_member: Diese Person wurde schon als %{job_name} einer Folge dieser Staffel hinzugefügt. Creweinträge dürfen nur einer Staffel oder einer Folge hinzugefügt werden, aber nicht beiden.
       missing_credit:
       missing_person:
   failed_email: Deine E-Mail konnte nicht gesendet werden.
@@ -2257,9 +2259,9 @@ de-DE:
       thats_a_wrap: Im Kasten!
     tv_shows:
       episode_airs:
-        in_days: Neue Episode erscheint in %{number_of_days}
-        today: Neue Episode erscheint heute
-        tomorrow: Neue Episode erscheint morgen
+        in_days: Neue Folge erscheint in %{number_of_days}
+        today: Neue Folge erscheint heute
+        tomorrow: Neue Folge erscheint morgen
   images:
     confirm_delete: Möchtest Du dieses Bild wirklich löschen?
     upload_criteria:
@@ -2273,7 +2275,7 @@ de-DE:
       '8': Seitenverhältnis 16:9 (1,78:1)
       '9': Eine Mindestauflösung von 300x450 Pixel
       backdrops_must_meet: 'Hintergrundbilder müssen folgende Kriterien erfüllen:'
-      episode_stills_must_meet: 'Episodenfotos müssen folgende Kriterien erfüllen:'
+      episode_stills_must_meet: 'Folgenfotos müssen folgende Kriterien erfüllen:'
       headshots_must_meet:
       posters_must_meet: 'Poster müssen folgenden Kriterien entsprechen:'
       profile_must_meet: 'Profilbilder müssen folgende Kriterien erfüllen:'
@@ -2288,7 +2290,7 @@ de-DE:
       read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut
       tip: Falls von deinem Browser unterstützt, kann ein Bild auf die Fläche unterhalb gezogen und abgelegt werden. Ansonsten einfach auf die Schaltfläche „Dateien auswählen” klicken und ein Bild auswählen.
       type_backdrops: Hintergrundbilder
-      type_episode_stills:
+      type_episode_stills: Folgenfotos
       type_headshots:
       type_posters:
       type_profiles:

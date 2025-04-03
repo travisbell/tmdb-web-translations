@@ -4,7 +4,7 @@ pt-BR:
   API: API
   API Access Token: Token de Acesso à API
   API Details: Detalhes da API
-  API Documentation:
+  API Documentation: Documentação da API
   API Key: Chave da API
   API Libraries: Bibliotecas da API
   API Overview: Visão Geral da API
@@ -43,7 +43,7 @@ pt-BR:
   Add Title Logo: Adicionar Logotipo do Título
   Add To Every Season?: Adicionar a todas as temporadas?
   Add Video: Adicionar um vídeo
-  Add YouTube Video: Adicionar um vídeo do Youtube
+  Add YouTube Video: Adicionar um vídeo do YouTube
   Add a New Cast Member: Adicionar um novo membro ao elenco
   Add a New Crew Member: Adicionar um novo membro à equipe técnica
   Add a New Guest Star: Adicionar um novo artista convidado
@@ -287,7 +287,7 @@ pt-BR:
   New: Novo
   New episode airs in: Um novo episódio será exibido em
   'No': Não
-  No Language:
+  No Language: Sem Idioma
   None: Nenhum
   Notes: Anotações
   Notifications: Notificações
@@ -298,7 +298,7 @@ pt-BR:
   Offensive or Spam: Ofensivo ou spam
   Offical Site: Site oficial
   Offline Databases: Bancos de dados indisponíveis
-  Ok:
+  Ok: OK
   Origin Country: País de origem
   Original Air Date: Data da primeira exibição
   Original Language: Idioma original
@@ -462,7 +462,7 @@ pt-BR:
   Translated Overview: Sinopse
   Translated Tagline: Slogan
   Translated Title: Título (Deixe campo vazio se o mesmo que original)
-  Translation:
+  Translation: Tradução
   Translations: Traduções
   Type: Tipo
   Type of Problem: Tipo de problema
@@ -561,8 +561,8 @@ pt-BR:
             Delivery: |2-
 
               Entregue
-            Invalid:
-            Unknown:
+            Invalid: Inválido
+            Unknown: Desconhecido
             Unsubscribed: |2-
 
               Não subscrito
@@ -681,8 +681,8 @@ pt-BR:
       asc: Crescente
       desc: Decrescente
     statuses:
-      banned:
-      deleted:
+      banned: Banido
+      deleted: Excluído
       ok:
     tips:
       import_imdb_ratings: Você pode importar as suas avaliações do IMDb.
@@ -707,20 +707,20 @@ pt-BR:
   add_to_list: Adicionar %{media_title} a uma de suas listas...
   already_translated_in: "%{page_title} já foi traduzido para os seguintes idiomas..."
   api_for_business:
-    api_for_business:
+    api_for_business: API para Empresas
     form:
       company_name:
-        label:
+        label: Nome da Empresa
       company_url:
-        label:
+        label: URL da Empresa
       description:
-        label:
+        label: Descreva o que você pretende fazer com nossa API
       email:
         error: não está formatado corretamente
-        label: Seu endereço de email
-      error: nao pode estar em branco
+        label: Seu endereço de e-mail
+      error: não pode estar em branco
       name:
-        label:
+        label: Nome
       success:
   api_session:
     3rd_party_request: |2-
@@ -817,7 +817,7 @@ pt-BR:
     to_tmdb: Voltar ao TMDB
     top: Voltar ao topo
   certifications:
-    certification: Classificação
+    certification: Classificação Indicativa
     descriptors: Descritores
     meaning: Significado
     movies:
@@ -851,11 +851,11 @@ pt-BR:
           meaning: Proibido para menores de 18 Anos.
       BR:
         '1':
-          meaning: "Livre\t. Não expõe crianças a conteúdos considerados potencialmente prejudiciais."
+          meaning: Livre. Não expõe crianças a conteúdos considerados potencialmente prejudiciais.
         '2':
           meaning: Não recomendado para menores de 10 Anos. Conteúdo violento ou linguagem inapropriada para crianças, ainda que em menor intensidade.
         '3':
-          meaning: Não recomendado para menores de 12 Anos. Algumas cenas contém agressão física, consumo de drogas e/ou insinuação sexual.
+          meaning: Não recomendado para menores de 12 anos. Algumas cenas contém agressão física, consumo de drogas e/ou insinuação sexual.
         '4':
           meaning: Não recomendado para menores de 14 Anos. Algumas cenas contém material mais acentuado com violência e/ou linguagem sexual.
         '5':
@@ -2074,16 +2074,16 @@ pt-BR:
       1f626: Rosto franzido com boca aberta
       1f628: Cara de medo
       1f629: Rosto cansado
-      1f62c:
+      1f62c: Rosto expressando desagrado
       1f62d:
       1f62e:
       1f630:
       1f631:
       1f633: Rosto corado
-      1f635-1f4ab:
-      1f641:
-      1f914:
-      1f922:
+      1f635-1f4ab: Rosto com olhos em espiral
+      1f641: Rosto descontente
+      1f914: Rosto pensativo
+      1f922: Rosto enjoado
       1f923: Rindo e rolando no chão
       1f928: Rosto com sobrancelha levantada
       1f92c: Rosto com símbolos na boca
@@ -2110,9 +2110,9 @@ pt-BR:
       title: Você não tem permissão para acessar esta página
     out_of_login_attempts:
       description: |-
-        Você usou todas as suas 10 tentativas de login.  Você poderá tentar novamente em 30 minutos.  Enquanto isso, você também pode tentar <a href="%{reset_password_link}">redefinir sua senha</a>.
+        Você usou todas as suas 10 tentativas de login. Você poderá tentar novamente em 30 minutos. Enquanto isso, você também pode tentar <a href="%{reset_password_link}">redefinir sua senha</a>.
 
-         Você também pode <a href="%{about_us_link}">contatar-nos</a> para obter suporte.
+         Você também pode <a href="%{about_us_link}">entrar em contato conosco</a> para obter suporte.
       title: Sem tentativas de login
     private:
       description:
@@ -2168,13 +2168,15 @@ pt-BR:
       invalid_request: Não foi possível concluir a solicitação.
       less_than:
       less_than_or_equal_to:
+        one: deve ser menor ou igual a %{count}
+        other: deve ser menor ou igual a %{count}
       model_invalid:
       no_characters_found: Nenhum personagem encontrado
-      not_a_number:
-      not_an_integer:
+      not_a_number: não é um número
+      not_an_integer: deve ser um número inteiro
       odd:
       other_than:
-      present:
+      present: deve estar em branco
       required: deve existir
       series_status_invalid_to_create_season: foi definido como "Cancelada" ou "Finalizada", logo novas temporadas não podem ser criadas.
       suspected_tv_series: parece ser uma Série ou Minissérie já existente. Você pode continuar a adicionar este item, mas ele será removido caso já exista em nossa seção de Séries
@@ -2205,7 +2207,7 @@ pt-BR:
     sidebar:
       account: Conta
       general: Geral
-      get_in_touch:
+      get_in_touch: Entre em Contato
       logos_and_attribution: Logos & Atribuições
       our_history: A Nossa História
       website: Site
@@ -2873,7 +2875,7 @@ pt-BR:
     Motion Actor: Ator/Atriz de captura de movimentos
     Motion Capture Artist: Artista de captura de movimentos
     Music: Música
-    Music Arranger:
+    Music Arranger: Arranjador Musical
     Music Co-Supervisor:
     Music Consultant:
     Music Coordinator: Coordenador de Música
@@ -2902,10 +2904,10 @@ pt-BR:
     Opera: Opera
     Orchestrator: Orquestrador(a)
     Original Casting: Elenco Original
-    Original Concept:
+    Original Concept: Conceito Original
     Original Film Writer:
     Original Music Composer: Compositor(a) de trilha sonora original
-    Original Series Creator:
+    Original Series Creator: Criador da Série Original
     Original Series Design:
     Original Story: História original
     Other: Outro
@@ -2917,7 +2919,7 @@ pt-BR:
     Photo Retouching:
     Photoscience Manager: Gerente de fotociência
     Picture Car Coordinator: Coordenador(a) de veículos em cena
-    Pilot:
+    Pilot: Piloto
     Pipeline Technical Director:
     Playback Coordinator: Coordenador de Reprodução
     Playback Singer:
@@ -2936,13 +2938,13 @@ pt-BR:
     Post-Production Manager: Gerente de pós-produção
     Pre-Visualization Coordinator: Coordenador de Pré-Visualização
     Pre-Visualization Supervisor:
-    Presenter:
-    Principal Costumer:
+    Presenter: Apresentador(a)
+    Principal Costumer: Figurinista Principal
     Producer: Produtor(a)
-    Producer's Assistant:
+    Producer's Assistant: Assistente de Produção
     Production Accountant: Contador(a) produtor(a)
     Production Artist: Artista produtor(a)
-    Production Assistant:
+    Production Assistant: Assistência de Produção
     Production Consultant: Consultor de Produção
     Production Controller: Controlador(a) produtor(a)
     Production Coordinator: Coordenador(a) produtor
@@ -3004,10 +3006,10 @@ pt-BR:
     Screenplay: Roteiro
     Screenstory: História de roteiro
     Script: Script
-    Script Consultant:
+    Script Consultant: Consultor de Roteiro
     Script Coordinator: Coordenador(a) de script
     Script Editor: Editor(a) de script
-    Script Researcher:
+    Script Researcher: Pesquisador de Roteiro
     Script Supervisor: Supervisor de script
     Sculptor: Escultor
     Seamstress: Costureiro
@@ -3084,7 +3086,7 @@ pt-BR:
     Software Team Lead: Chefe de equipe de software
     Songs: Músicas
     Sound: Sonoplastia
-    Sound Assistant:
+    Sound Assistant: Assistente de Som
     Sound Design Assistant: Projetista assistente de som
     Sound Designer: Projetista de som
     Sound Director: Direção de som
@@ -3170,7 +3172,7 @@ pt-BR:
     Supervisor of Production Resources: Supervisor de produção de recursos
     Swing:
     Systems Administrators & Support: Administrador e suporte de sistemas
-    Tailor:
+    Tailor: Alfaiate
     Tattoo Designer:
     Tattooist: Tatuador
     Technical Advisor:
@@ -3183,13 +3185,13 @@ pt-BR:
     Textile Artist:
     Thanks: Agradecimento
     Theatre Play: Adaptação para teatro
-    Theme Song Performance:
+    Theme Song Performance: Artista da Música-Tema
     Third Assistant "A" Camera:
     Third Assistant "B" Camera:
     Third Assistant "C" Camera:
     Third Assistant "D" Camera:
     Third Assistant Camera:
-    Third Assistant Director:
+    Third Assistant Director: Terceiro Diretor Assistente
     Title Designer:
     Title Graphics: Gráficos de Título
     Title Illustration:
@@ -3206,7 +3208,7 @@ pt-BR:
     Truck Supervisor:
     Ultimate Arm Operator:
     Underwater Camera: Câmera submerso
-    Underwater Director of Photography:
+    Underwater Director of Photography: Diretor de Fotografia Subaquática
     Underwater Epk Photographer:
     Underwater Gaffer:
     Underwater Stills Photographer:
@@ -3218,7 +3220,7 @@ pt-BR:
     Utility Sound:
     Utility Stunts: Utilitário para cenas de ação
     VFX Artist: Artista de efeitos visuais
-    VFX Director of Photography:
+    VFX Director of Photography: Diretor de Fotografia VFX
     VFX Editor: Editor(a) de efeitos visuais
     VFX Lighting Artist:
     VFX Production Coordinator: Coordenador(a) de produção de efeitos visuais
@@ -3228,7 +3230,7 @@ pt-BR:
     Video Assist Operator: Assistente de operação de vídeo
     Video Game: Jogo eletrônico
     Video Report:
-    Videojournalist:
+    Videojournalist: Videojornalista
     Visual Development: Desenvolvimento visual
     Visual Effects: Efeitos visuais
     Visual Effects Art Director: Direção de arte de efeitos visuais
@@ -3308,16 +3310,16 @@ pt-BR:
       absurd: absurdo
       admiring: admirando
       adoring: adorando
-      affectation:
+      affectation: afetado
       aggressive: aggressivo
       ambiguous: ambíguo
       ambivalent: ambivalente
       amused: divertido
       angry: zangado
-      antagonistic:
+      antagonistic: antagônico
       anxious: ansioso
       apathetic: apático
-      apologetic:
+      apologetic: apologético
       appreciative: apreciativo
       approving: aprovando
       arrogant: arrogante
@@ -3325,30 +3327,30 @@ pt-BR:
       audacious: audacioso
       authoritarian: autoritário
       awestruck: impressionado
-      baffled:
-      bewildered:
-      biting:
-      bitter:
-      blunt:
+      baffled: perplexo
+      bewildered: confuso
+      biting: mordaz
+      bitter: amargo
+      blunt: cego
       bold: corajoso
-      brisk:
+      brisk: rápido
       burlesque:
-      callous:
+      callous: insensível
       calm: calmo
-      candid:
-      casual:
-      cautionary:
-      celebratory:
-      cheerful:
-      cliché:
-      clinical:
-      comforting:
-      commanding:
-      compassionate:
+      candid: sincero
+      casual: casual
+      cautionary: preventivo
+      celebratory: comemorativo
+      cheerful: alegre
+      cliché: clichê
+      clinical: clínico
+      comforting: reconfortante
+      commanding: autoritário
+      compassionate: compassivo
       complex: complexo
       complicated: complicado
-      conceited:
-      condescending:
+      conceited: pretensioso
+      condescending: condescendente
       critical: crítico
       cruel: cruel
       curious: curioso
@@ -3360,113 +3362,113 @@ pt-BR:
       derisive: irrisório
       derogatory: depreciativo
       desperate: desesperado
-      detached:
+      detached: desconectado
       didactic: didático
       dignified: digno
-      direct:
-      disapproving:
-      disdainful:
-      disgusted:
-      disheartening:
-      disrespectful:
-      distressing:
-      disturbed:
-      domineering:
-      doubtful:
-      dramatic:
-      dreary:
-      dubious:
-      earnest:
-      egotistical:
-      embarrassed:
-      empathetic:
-      enchant:
-      enraged:
-      enthusiastic:
-      euphoric:
-      excited:
-      exhilarated:
+      direct: direto
+      disapproving: desfavorável
+      disdainful: desdenhoso
+      disgusted: intragável
+      disheartening: desanimador
+      disrespectful: desrespeitoso
+      distressing: angustiante
+      disturbed: perturbador
+      domineering: dominador
+      doubtful: duvidoso
+      dramatic: dramático
+      dreary: aborrecido
+      dubious: dúbio
+      earnest: sério
+      egotistical: egoísta
+      embarrassed: envergonhado
+      empathetic: empático
+      enchant: encantador
+      enraged: enfurecido
+      enthusiastic: entusiasmado
+      euphoric: eufórico
+      excited: excitante
+      exhilarated: entusiasmado
       exuberant: exuberante
       factual: real
       familiar: familiar
-      farcical:
-      forceful:
-      foreboding:
+      farcical: ridículo
+      forceful: forte
+      foreboding: presságio
       frantic: frenético
       frightened: amedrontado
       frustrated: frustado
       furious: furioso
       gentle: gentil
       ghoulish: macabro
-      gloomy:
-      grand:
+      gloomy: sombrio
+      grand: grande
       grave:
-      grim:
-      hard:
-      harsh:
-      hilarious:
-      hopeful:
-      hopeless:
-      horrified:
+      grim: sinistro
+      hard: duro
+      harsh: severo
+      hilarious: hilário
+      hopeful: esperançoso
+      hopeless: sem esperança
+      horrified: horrorizado
       hostile: hostil
-      humorous:
-      impartial:
+      humorous: humorístico
+      impartial: imparcial
       incredulous: incrédulo
       indifferent: indiferente
-      inflammatory:
+      inflammatory: inflamatório
       informative: informativo
       insecure: inseguro
-      inspirational:
-      instructive:
+      inspirational: inspirador
+      instructive: instrutivo
       intense: intenso
       intimate: íntimo
       introspective: introspectivo
       ironic: irônico
       irreverent: irreverente
       joyful: alegre
-      joyous:
-      lighthearted:
-      loving:
-      lyrical:
-      macabre:
-      malicious:
-      matter of fact:
-      mean spirited:
-      meditative:
-      melancholy:
-      melodramatic:
-      mischievous:
-      mocking:
-      modest:
-      mourning:
-      mysterious:
-      negative:
-      nervous:
-      nostalgic:
-      objective:
-      ominous:
-      optimistic:
-      paranoid:
+      joyous: feliz
+      lighthearted: alegre
+      loving: amoroso
+      lyrical: lírico
+      macabre: macabro
+      malicious: malicioso
+      matter of fact: prático
+      mean spirited: mal-intencionado
+      meditative: meditativo
+      melancholy: melancólico
+      melodramatic: melodramático
+      mischievous: malicioso
+      mocking: ridicularizado
+      modest: modesto
+      mourning: luto
+      mysterious: misterioso
+      negative: negativo
+      nervous: nervoso
+      nostalgic: nostálgico
+      objective: objetivo
+      ominous: sinistro
+      optimistic: otimista
+      paranoid: paranóico
       pathetic: patético
       pessimistic: pessimista
       philosophical: filosófico
-      playful:
+      playful: brincalhão
       powerful: poderoso
       pretentious: pretencioso
       provocative: provocativo
       psychotic: psicótico
-      questioning:
+      questioning: questionar
       reflective: reflectivo
       relaxed: reflexivo
-      reminiscent:
+      reminiscent: rememorativo
       ridiculous: ridículo
       romantic: romantico
       sarcastic: sarcástico
       sardonic: sardônico
       satirical: satírico
       scathing: contundente
-      sceptical:
-      sentimental:
+      sceptical: cético
+      sentimental: sentimental
       serene: sereno
       serious: sério
       shocking: chocante
@@ -3475,52 +3477,52 @@ pt-BR:
       skeptical: cético
       somber: sombrio
       speculative: especulativo
-      stern:
+      stern: austero
       straightforward: direto
       subjective: subjetivo
       submissive: submisso
       suspenseful: suspense
       suspicious: suspeito
       sympathetic: simpático
-      taunting:
+      taunting: provocativo
       tense: tenso
-      thoughtful:
+      thoughtful: pensativo
       tragic: trágico
-      unassuming:
-      understated:
-      urgent:
-      vexed:
+      unassuming: modesto
+      understated: discreto
+      urgent: urgente
+      vexed: irritado
       vibrant: vibrante
-      vindictive:
-      whimsical:
-      wistful:
-      witty:
-      wonder:
-      wry:
-      zealous:
+      vindictive: vingativo
+      whimsical: caprichoso
+      wistful: melancólico
+      witty: inteligente
+      wonder: maravilhoso
+      wry: irônico
+      zealous: zeloso
   list_info:
     average_rating: Avaliação média
-    collaborate:
-    hide_comments:
+    collaborate: Colaborar
+    hide_comments: Ocultar Comentários
     image_selected: Selecionada
-    items_not_seen:
+    items_not_seen: Itens que eu não vi
     items_on_list:
       many:
       one: item nesta lista
       other: itens nesta lista
-    items_seen:
-    list_by:
-    list_options:
-    login_to_create_list:
-    no_items:
+    items_seen: Itens que eu vi
+    list_by: Uma lista por
+    list_options: Opções de Lista
+    login_to_create_list: Faça login para criar sua própria lista!
+    no_items: Não há itens adicionados a esta lista.
     private: Privada
     public: Pública
     select_this_image: Selecionar esta imagem
-    show_comments:
+    show_comments: Mostrar Comentários
     total_revenue: Receita total
     total_runtime: Duração total
-    use_grid_view:
-    use_list_view:
+    use_grid_view: Usar Visualização de Grade
+    use_list_view: Usar Visualização de Lista
   list_messages:
     comment_updated: Comentário atualizado!
     image_saved: Imagem salva!
@@ -3558,7 +3560,7 @@ pt-BR:
     character:
       edit:
         appearance:
-          no_records:
+          no_records: Nenhuma aparição foi adicionada.
     collection:
       edit:
         parts:
@@ -3635,7 +3637,7 @@ pt-BR:
         production_companies: Buscar por uma produtora...
       release_date:
         locked: Esta data de lançamento está bloqueada.
-      runtime_in_minutes:
+      runtime_in_minutes: Duração (em minutos)
       success_fields_locked: Campos trancados.
       tagline:
         add_tagline: Adicionar Slogan
@@ -3656,7 +3658,7 @@ pt-BR:
         original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
         overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
         social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
-      translation_already_exists:
+      translation_already_exists: A tradução de %{language} já existe.
       translation_not_found: A tradução em %{language} ainda não foi criada.
       unlock_all_appearances: Ao clicar em 'sim', você estará desbloqueando todos os registros existentes.
       upload_logo: Enviar um logo
@@ -3695,7 +3697,7 @@ pt-BR:
           no_records: Nenhum título alternativo foi adicionado.
         cast:
           no_records: Nenhum membro do elenco foi adicionado.
-          person_required:
+          person_required: É necessário uma pessoa.
         confirm_collection: |-
           <p>As coletâneas são uma maneira conveniente de agrupar continuações no TMDB. Embora às vezes sejam controversas, as coletâneas não devem ser usadas como uma forma de agrupar filmes do mesmo "universo cinematográfico". Para isso, por favor, <a href="%{list_link}" target="_blank" rel="noopener">crie uma lista</a>. Para mais informações sobre as coletâneas, você pode visitar <a href="%{docs_link}" target="_blank" rel="noopener">nossa documentação</a>.</p>
 
@@ -3763,23 +3765,23 @@ pt-BR:
       edit:
         alternative_names:
           no_records: Nenhum nome alternativo foi adicionado.
-        blank_translated_name:
-        confirm_primary_translation:
+        blank_translated_name: Não é possível definir a tradução primária quando <strong>%{name} (%{language})</strong> está em branco.
+        confirm_primary_translation: Já existe uma tradução primária (%{i18n_tag}) para esta pessoa.
         errors:
           invalid_unicode:
           leading_whitespace:
-          locked_name:
+          locked_name: "<strong>%{name} (%{language})</strong> está trancado."
           name_required:
           numbers:
-          primary_name_migration:
-          primary_translation:
+          primary_name_migration: Não foi possível migrar <strong>%{name} (%{language})</strong> da tradução primária.
+          primary_translation: tradução já existe.
           special_characters:
           trailing_whitespace:
-        migration_success:
-        move_name:
-        move_name_tooltip:
-        primary_translation:
-        translated_name_tooltip:
+        migration_success: Nome migrado com sucesso
+        move_name: Mover Nome
+        move_name_tooltip: Mover <strong> %{name} (%{language})</strong> para o idioma selecionado.
+        primary_translation: Tradução principal
+        translated_name_tooltip: Se o nome artístico da pessoa em sua língua nativa não for facilmente legível em %{language}, considere adicionar um nome traduzido.
       gender:
         female: Feminino
         male: Masculino
@@ -3793,20 +3795,20 @@ pt-BR:
         one: ''
         other: "%{count} de Idade"
     rating:
-      not_rateable:
+      not_rateable: Este item ainda não pode ser avaliado.
       rated_with_rating: Avaliado em %{value}
       rating_count:
         one: "%{count} Avaliação"
         other: "%{count} Avaliações"
-      removed:
+      removed: Sua avaliação foi excluída.
       score_breakdown: Detalhamento da pontuação
       score_distribution: Distribuição da Pontuação
       score_history: Histórico de Pontuação
       score_trend: Tendência de Pontuação
-      success:
+      success: Avaliação salva com sucesso.
     shortcut_bar:
       alternative_titles: Títulos Alternativos
-      back_to_series:
+      back_to_series: Voltar para a Série
       backdrops: Imagens de fundo
       cast_crew: Elenco & Equipe
       changes: Alterações
@@ -3981,7 +3983,7 @@ pt-BR:
       play_blooper: Assistir Erros
       play_clip: Assistir Clip
       play_featurette: Assistir Featurette
-      play_opening_credits: Assistir Créditos da Abertura
+      play_opening_credits: Assistir Créditos de Abertura
       play_recap: Assistir Recap
       play_teaser: Reproduzir Teaser
       play_trailer: Reproduzir trailer
@@ -4250,7 +4252,7 @@ pt-BR:
   placeholder:
     primary_character_name: Nome do personagem principal
   report:
-    details_placeholder:
+    details_placeholder: Insira o máximo de detalhes possível. Ter mais dados fornecidos no relatório original agilizará a solicitação o mais rápido possível.
   reset_password_text: Insira o seu nome de usuário no campo abaixo para iniciar o processo de redefinição de senha.
   sample:
   search:
@@ -4435,8 +4437,8 @@ pt-BR:
         no_apps: Você ainda não conectou nenhum aplicativo à sua conta.
         page_title: Meus Apps Conectados
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: Ao revogar esta sessão, você não poderá continuar usando o TMDB com este aplicativo. Você pode, é claro, criar uma nova sessão a qualquer momento.
+          confirm_title: Revogar Sessão?
         table:
           action: Ações
           application_name: Nome do aplicativo
@@ -4543,47 +4545,49 @@ pt-BR:
   upload_title_logo: Enviar um Logo do Título
   used_by_developers: O TMDB é usado por mais de 400.000 desenvolvedores.<br>Confira o trabalho de alguns deles a baixo.
   vibes:
-    done:
-    login:
+    done: Terminei
+    login: Faça login para usar o novo sistema de classificação do TMDB.
     mood:
-      label:
+      label: Humor
       moods:
-        afraid:
-        angry:
-        disgusted:
-        happy:
-        interested:
-        sad:
-        surprised:
-      prompt:
+        afraid: Assustado
+        angry: Nervoso
+        disgusted: Indignado
+        happy: Feliz
+        interested: Interessado
+        sad: Triste
+        surprised: Surpreso
+      prompt: Como %{title} fez você se sentir?
     rating:
-      clear:
-      label:
-      prompt:
+      clear: Limpar minha avaliação
+      label: Avaliação
+      prompt: O que você achou de %{title}?
       tooltip:
-        '0':
-        '10':
-        '100':
-        '20':
-        '30':
-        '40':
-        '50':
-        '60':
-        '70':
-        '80':
-        '90':
+        '0': Um desastre completo
+        '10': Fracasso total
+        '100': Excelente
+        '20': Lixo
+        '30': Muito Ruim
+        '40': Não é Bom
+        '50': Aceitável
+        '60': Decente
+        '70': Bastante Digno
+        '80': Muito Bom
+        '90': Grandioso
     tone:
-      label:
-      no_results:
+      label: Tom
+      no_results: O tom não existe.
       prompt:
         movie: Esse filme foi
-        tv:
-      select:
-    welcome:
-    whats_new:
-    whats_your_vibe:
+        tv: Esta série de TV foi...
+      select: Selecione um tom...
+    welcome: Bem-vindo ao Vibes, o novo sistema de classificação do TMDB! Para mais informações, visite a <span class="%{style}"><a href="%{link}"> bíblia de contribuição</a></span>.
+    whats_new: O que há de novo?
+    whats_your_vibe: Qual é a sua <span class="%{style}">vibe</span>?
     your_vibe:
-    your_vibes:
+      one: Sua Vibe
+      other: Suas Vibes
+    your_vibes: Suas vibes
   videos:
     filters:
       language: Idioma

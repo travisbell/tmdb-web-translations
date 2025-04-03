@@ -4,7 +4,7 @@ ko-KR:
   API: API
   API Access Token: API 액세스 토큰
   API Details: API 세부 정보
-  API Documentation:
+  API Documentation: API 문서
   API Key: API 키
   API Libraries: API 라이브러리
   API Overview: API 개요
@@ -673,9 +673,9 @@ ko-KR:
       asc: 오름차순
       desc: 내림차순
     statuses:
-      banned:
-      deleted:
-      ok:
+      banned: 사용중지
+      deleted: 삭제
+      ok: 정상
     tips:
       import_imdb_ratings: IMDB에 기록된 회원님의 평가를 불러올 수 있어요.
       tip: 팁
@@ -699,21 +699,21 @@ ko-KR:
   add_to_list: "%{media_title}(을)를 회원님의 목록에 추가하기"
   already_translated_in: "%{page_title}(은)는 이미 해당 언어로 번역되었어요."
   api_for_business:
-    api_for_business:
+    api_for_business: 기업용 API
     form:
       company_name:
-        label:
+        label: 회사명
       company_url:
-        label:
+        label: 회사 URL
       description:
-        label:
+        label: API로 무엇을 하려는지 설명하세요
       email:
-        error:
-        label:
-      error:
+        error: 형식이 올바르지 않습니다.
+        label: 이메일 주소
+      error: 빈 항목이 있습니다
       name:
-        label:
-      success:
+        label: 이름
+      success: 기업 판매 요청을 제출해 주셔서 감사합니다!
   api_session:
     3rd_party_request: 타사 인증 요청
     account_required:
@@ -1983,7 +1983,7 @@ ko-KR:
         note:
     report:
       error:
-      submit:
+      submit: DMCA 삭제 요청을 제출합니다.
   dont_fallback: 없음
   duplicate_character_name: 캐릭터 이름이 이미 존재합니다. 다른 이름으로 시도하세요.
   edit_list:
@@ -3567,7 +3567,7 @@ ko-KR:
         production_companies: 제작사 검색
       release_date:
         locked: 개봉일은 잠겨 있습니다.
-      runtime_in_minutes:
+      runtime_in_minutes: 상영시간(분)
       success_fields_locked: 잠그기 완료
       tagline:
         add_tagline: 태그라인 추가

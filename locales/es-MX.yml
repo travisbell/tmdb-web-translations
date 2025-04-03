@@ -4,7 +4,7 @@ es-MX:
   API: API
   API Access Token: Token de Acceso a la API
   API Details: Detalles del API
-  API Documentation:
+  API Documentation: Documentación de la API
   API Key: Llave API
   API Libraries: Librerías API
   API Overview: Visión general de la API
@@ -60,7 +60,7 @@ es-MX:
   Adult Actor: Actor Adulto
   Advanced Search: Búsqueda Avanzada
   Air Date: Fecha al Aire
-  Also Known As: También Conocido Como
+  Also Known As: También Conocido/a Como
   Alternative Names: Nombres Alternativos
   Alternative Titles: Otros Títulos
   Apiary Documentation: Documentación de la API
@@ -78,7 +78,7 @@ es-MX:
   Are you sure?: Estás seguro?
   Attributes: Atributos
   Auto: Auto
-  Awards:
+  Awards: Premios
   Back to top: Ir arriba
   Backdrop Card View: Imágenes de fondo modo Tarjeta
   Bad Image: Imagen dañada
@@ -236,8 +236,8 @@ es-MX:
   Keyword: Palabra clave
   Keyword Results: Resultados de palabras clave
   Keywords: Palabras clave
-  Known Credits:
-  Known For:
+  Known Credits: Créditos conocidos
+  Known For: Conocido/a por
   Language: Lenguaje
   Language Preferences:
   Languages:
@@ -557,9 +557,9 @@ es-MX:
             Bounce: Rebotado
             Complaint: Queja
             Delivery: Entregado
-            Invalid:
-            Unknown:
-            Unsubscribed: Desuscrito
+            Invalid: Invalido
+            Unknown: Desconocido/a
+            Unsubscribed: Dado de baja.
             status: Estado
         number_of_items:
           one: "%{count} Correo electrónico"
@@ -606,7 +606,7 @@ es-MX:
       rating: Calificación
       release_date: Fecha de Estreno
       score: Puntuación
-      upcoming: Próximos
+      upcoming: Próximamente
       user_characters: Caracteres de usuario
     lists:
       create_list: Crear Lista
@@ -669,15 +669,15 @@ es-MX:
       my_recommendations: Mis Recomendaciones
       no_recommendations: No tenemos suficiente información para sugerir recomendaciones.
       no_recommendations_helper: Intenta añadiendo más favoritos (mientras más, mejor) y vuelve para ver qué tal lo hicimos.
-      no_recommendations_helper_2:
+      no_recommendations_helper_2: Intenta calificar algunas películas y programas de televisión más (cuantas más, mejor) y luego danos unas horas para ver lo que podemos hacer. Estas recomendaciones se actualizarán a medida que veas y califiques más contenido.
       page_title: Recomendaciones
     sort_options:
       asc: Ascendente
       desc: Descendente
     statuses:
-      banned:
-      deleted:
-      ok:
+      banned: Bloqueado
+      deleted: Eliminado
+      ok: Perfecto
     tips:
       import_imdb_ratings: Puedes importar tus calificaciones desde IMDb.
       tip: Consejo
@@ -701,21 +701,21 @@ es-MX:
   add_to_list: Añadir %{media_title} a una de tus listas...
   already_translated_in: "%{page_title} ya fue traducido en los siguientes lenguajes..."
   api_for_business:
-    api_for_business:
+    api_for_business: API para empresas
     form:
       company_name:
-        label:
+        label: Nombre de la empresa
       company_url:
-        label:
+        label: URL de la empresa
       description:
-        label:
+        label: Describe lo que deseas hacer con nuestra API
       email:
-        error:
+        error: No está correctamente formateado
         label: Tu dirección de correo electrónico
       error: no puede estar vacío
       name:
-        label:
-      success:
+        label: Nombre
+      success: "¡Gracias por enviar tu solicitud de ventas para empresas!"
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
     account_required:
@@ -759,16 +759,16 @@ es-MX:
   awards:
     add_nomination: Añadir nominación
     air_date:
-      future:
-      past:
-    alternative_names:
+      future: Se emite el %{date}
+      past: Se emitió el %{date}
+    alternative_names: Nombres alternativos
     categories:
       title: Categorías
     category_empty: Sin nominaciones para esta categoría.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
+      number: Número
+      release_date_max: Fecha de lanzamiento máxima
+      release_date_min: Fecha de lanzamiento mínima
       title: Ceremonias
     nominations:
       one: 1 Nominación
@@ -776,10 +776,10 @@ es-MX:
     nominee: Nominado
     show_info:
       directed_by: Dirigido por
-      hosted_by:
+      hosted_by: Presentado por
       location: Ubicación
-      network:
-      preshow_hosts:
+      network: Red de premios
+      preshow_hosts: Presentadores del preespectáculo
       produced_by: Producido por
       runtime: Duración
       title: Mostrar Información
@@ -802,7 +802,7 @@ es-MX:
     top: Ir Arriba
   certifications:
     certification: Certificación
-    descriptors:
+    descriptors: Descriptores
     meaning: Descripción
     movies:
       AU:
@@ -1363,26 +1363,26 @@ es-MX:
     add_backdrop_grp: Añadir un fondo para este grupo
     add_character_backdrop: Añadir una foto de fondo del personaje
     add_completely_free: Disfrute de un servicio completamente libre de anuncios
-    add_missing_character:
-    add_new_appearance:
-    add_new_appearance_links_selection:
+    add_missing_character: Agregar personaje faltante
+    add_new_appearance: Agregar una nueva aparición
+    add_new_appearance_links_selection: Agregar una nueva aparición vinculará tu selección con las apariciones actuales ya listadas.
     add_new_group: Añadir nuevo grupo
     add_the_name_of_the_character: Añadir el nombre del personaje.
     add_to_tmdb: Añadir a TMDB
     add_translation: Añadir Traducción
     add_valid_translation: Por favor añadir una traducción válida.
     adding_easy: Añadir a TMDB es sencillo y fácil.
-    all_done:
+    all_done: "¿Todo listo?"
     all_languages: Todos los idiomas
-    all_record_exists_in_group:
+    all_record_exists_in_group: Todos los registros ya existen en el grupo actual.
     already_added: Ya añadido
-    alter_popularity:
-    are_you_sure:
-    are_you_sure_updates_will_be_lost:
-    association_already_exists:
-    association_updated:
-    association_warning:
-    available_backdrop_images:
+    alter_popularity: Alterar popularidad
+    are_you_sure: "¿Estás seguro de que deseas continuar?"
+    are_you_sure_updates_will_be_lost: "¿Estás seguro de que deseas salir? Se perderán tus actualizaciones."
+    association_already_exists: La asociación ya existe
+    association_updated: "¡Asociación actualizada!"
+    association_warning: "¡Advertencia de cambio de asociación!"
+    available_backdrop_images: Imágenes de fondo disponibles
     back: Atrás
     backdrop: Fondo
     backdrop_image_message: Aquí tienes unas cuantas imágenes de fondo que hemos sacado para la cabecera. Por favor, selecciona de 1 a 3 imágenes de fondo para actualizar la cabecera.
@@ -1404,15 +1404,15 @@ es-MX:
     check_out_bible: <p>Porfavor revise <a target="_blank" href='%{bible}'>la biblia de contribución</a> para más información al añadir a la Movie Db.</p>
     choose_a_character: Escoja un personaje
     choose_a_character_info: Añadir un personaje significa unir la apariencia de un actor o actriz que interpreta un papel específico. Un ejemplo sería the Dark Knight Trilogy (tres películas) en las cuales Christen Bale interpreta a Bruce Wayne / Batman. Esas tres apariciones en ese papel equivalen a un personaje.
-    choose_backdrop:
-    choose_header_images:
-    choose_reason:
+    choose_backdrop: Elegir fondo
+    choose_header_images: Elegir imágenes de encabezado.
+    choose_reason: Necesitas elegir un motivo.
     community: COMUNIDAD
-    confirm_buffer_time:
+    confirm_buffer_time: "¿Por favor, confirma si se requiere tiempo de espera para continuar editando?"
     confirmation: Confirmación
     continue: Continuar
     contribute: Contribuir a nuestra base de datos
-    correct_errors_in_forms:
+    correct_errors_in_forms: Por favor, corrige los errores en los campos del formulario.
     create_overview: Crear resumen
     create_overview_bio_help:
     create_overview_help:
@@ -1442,15 +1442,15 @@ es-MX:
     enter_valid_translation: Ingresar una traducción válida.
     era:
     error_while_submitting:
-    failed_draft:
-    filter_subscribed_services:
-    find_character:
-    find_character_note:
-    finished_selections:
-    found_everything:
+    failed_draft: No se pudo obtener la respuesta del borrador
+    filter_subscribed_services: Filtrar por los servicios en los que estás suscrito.
+    find_character: "¿Qué personajes o título te gustaría encontrar?"
+    find_character_note: Encuentra tu personaje, título y más favoritos
+    finished_selections: "¿Has terminado con tus selecciones?"
+    found_everything: "¿Encontraste lo que buscabas?"
     frequent_translations: Traducciones frecuentes
-    group_name:
-    group_name_already_exists:
+    group_name: Nombre del grupo
+    group_name_already_exists: El grupo con el conjunto de elementos ya existe. ¿Deseas crear un nuevo grupo?
     group_name_required:
     groups_minimum_appearance_msg:
     groups_not_present:
@@ -3485,11 +3485,11 @@ es-MX:
     use_grid_view:
     use_list_view:
   list_messages:
-    comment_updated:
-    image_saved:
-    item_added:
-    item_already_added:
-    item_removed:
+    comment_updated: Comentario actualizado.
+    image_saved: Imagen guardada.
+    item_added: Artículo agregado.
+    item_already_added: Este artículo ya está en la lista.
+    item_removed: Artículo eliminado.
   list_sort:
     original_order:
     rating:
@@ -3986,7 +3986,7 @@ es-MX:
       upcoming: Próximo
     people:
       people: Personas
-      popular_people: Populares en Personas
+      popular_people: Personas Populares
     tv_shows:
       airing_today: Transmitiendo Hoy
       on_the_air: Al aire

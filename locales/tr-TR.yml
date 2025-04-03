@@ -4,7 +4,7 @@ tr-TR:
   API: API
   API Access Token: API Erişim Jetonu
   API Details: API Detayları
-  API Documentation:
+  API Documentation: API Belgeleri
   API Key: API Anahtarı
   API Libraries: API Kütüphanesi
   API Overview: API Genel Bakış
@@ -60,7 +60,7 @@ tr-TR:
   Adult Actor: Yetişkin Aktör
   Advanced Search: Gelişmiş Arama
   Air Date: Yayınlanma Tarihi
-  Also Known As: Ayrıca Şöyle de Bilinir
+  Also Known As: Ayrıca Şöyle De Bilinir
   Alternative Names: Alternatif İsimleri
   Alternative Titles: Alternatif Başlıklar
   Apiary Documentation: Apiary Belgeleri
@@ -121,7 +121,7 @@ tr-TR:
   Create App: App Yarat
   Create Application: Uygulama Oluştur
   Create New List: Yeni Liste Oluştur
-  Create Translation: Dil Oluştur
+  Create Translation: Çeviri Oluştur
   Created By: Oluşturan
   Credits: Jenerik
   Crew: Ekip Kadrosu
@@ -697,9 +697,9 @@ tr-TR:
       this_week: Bu Hafta
       view_them: Onları göster.
   add_to_list: Listenize %{media_title} ekleyin...
-  already_translated_in: "%{page_title} halihazırda aşağıdaki dillere çevrilmiştir..."
+  already_translated_in: "%{page_title} çevirisi aşağıdaki dillerde mevcuttur..."
   api_for_business:
-    api_for_business:
+    api_for_business: İşletmeler için API
     form:
       company_name:
         label: Firma Adı
@@ -713,7 +713,7 @@ tr-TR:
       error: boş bırakılamaz
       name:
         label: İsim
-      success:
+      success: Kurumsal satış talebinizi gönderdiğiniz için teşekkür ederiz!
   api_session:
     3rd_party_request: 3.Taraf Kimlik Doğrulama Talebi
     account_required:
@@ -755,34 +755,34 @@ tr-TR:
     tv_series_status: TV Dizileri Durumu
   average edits per day: günlük ortalama düzenleme sayısı
   awards:
-    add_nomination: Adaylık ekle
+    add_nomination: Aday ekle
     air_date:
-      future: Yayın %{date}
-      past: Yayınlama %{date}
+      future: Yayınlama %{date}
+      past: Yayınlandı %{date}
     alternative_names: Alternatif İsimler
     categories:
       title: Kategoriler
-    category_empty: Bu kategori için adaylık yok.
+    category_empty: Bu kategori için aday yok.
     ceremonies:
       number: Sayı
       release_date_max: Maksimum Çıkış Tarihi
       release_date_min: Minimum Çıkış Tarihi
       title: Törenler
     nominations:
-      one: "%{count} Adaylık"
-      other: 1 Adaylık
+      one: "%{count} Aday"
+      other: 1 Aday
     nominee: Aday
     show_info:
       directed_by: Yönetmen
       hosted_by: Sunucu
       location: Konum
       network: Ağ
-      preshow_hosts: Ön Gösteri Sunucuları
+      preshow_hosts: Gösteri Öncesi Sunucular
       produced_by: Yapımcı
-      runtime: Çalışma Süresi
-      title: Bilgiler
+      runtime: Süresi
+      title: Gösteri Bilgisi
     title: Ödüller
-    winner: Kazanan
+    winner: Kazandı
     wins:
       one: "%{count} Kazanılan"
       other: 1 Kazanılan
@@ -1696,10 +1696,10 @@ tr-TR:
     - Cumartesi
     formats:
       abbrev: "%-d %b %Y"
-      default: "%d.%m.%Y"
-      full_month_day: "%e. %B %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%e %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: "%d. %b %Y"
+      short_month_day_year: "%d %b %Y"
     month_names: '[nil, "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]'
   day: gün
   days: "%{count} gün"
@@ -2681,8 +2681,8 @@ tr-TR:
     Graphic Novel: Çizgi Roman
     Graphic Novel Illustrator: Çizgi Roman İllüstratörü
     Greensman: Yeşil Adam
-    Grip:
-    Grip Production Assistant:
+    Grip: Işık Asistanı
+    Grip Production Assistant: Işık Asistanı Yardımcısı
     Gun Wrangler: Silah Uzmanı
     Hair Assistant: Kuaför Kalfası
     Hair Department Head: Kuafmr Bölüm Başkanı
@@ -2725,10 +2725,10 @@ tr-TR:
     Key Animation: Kare Animasyon
     Key Art Production Assistant: Ana Sanat Yapım Asistanı
     Key Carpenter: Ana Marangoz
-    Key Construction Grip:
+    Key Construction Grip: Baş Yapım Işık Asistanı
     Key Costumer: Ana Müşteri
     Key Dresser: Ana Giydirici
-    Key Grip:
+    Key Grip: Baş Işık Asistanı
     Key Grip Production Assistant: Ana Tutamaç Yapım Asistanı
     Key Hair Stylist: Ana Saç Stilisti
     Key Hairdresser: Ana Kuaför
@@ -2746,13 +2746,13 @@ tr-TR:
     Lead Animator: Baş Animatör
     Lead Character Designer: Baş Karakter Tasarımcısı
     Lead Costumer: Baş Kostümcü
-    Lead Creature Designer:
+    Lead Creature Designer: Baş Yaratık Tasarımcısı
     Lead Editor: Baş Editör
-    Lead Painter:
-    Lead Set Dresser:
-    Leadman:
+    Lead Painter: Baş Boyacı
+    Lead Set Dresser: Baş Dekorasyon Sorumlusu
+    Leadman: Ana Dekor Sorumlusu
     Legal Services: Yasal Hizmetler
-    Libra Head Technician:
+    Libra Head Technician: Libra Baş Teknisyeni
     Lighting Artist: Işık Sanatçısı
     Lighting Camera: Işık Kamera
     Lighting Coordinator: Işıklandırma Koordinatörü
@@ -2763,9 +2763,9 @@ tr-TR:
     Lighting Programmer: Işık Programlamacı
     Lighting Supervisor: Işık Danışmanı
     Lighting Technician: Işık Teknisyeni
-    Line Producer:
-    Loader:
-    Local Casting:
+    Line Producer: Set Amiri
+    Loader: Asistan Kamera Operatörü
+    Local Casting: Yerel Oyuncu Seçimi
     Locale Casting Director:
     Location Assistant: Konum Yardımcısı
     Location Casting:
@@ -2862,23 +2862,23 @@ tr-TR:
     Police Consultant: Polis Danışmanı
     Post Coordinator:
     Post Producer:
-    Post Production Accountant:
+    Post Production Accountant: Post Prodüksiyon Muhasebecisi
     Post Production Assistant: Yapım Sonrası Asistanı
-    Post Production Consulting:
+    Post Production Consulting: Post Prodüksiyon Danışmanlığı
     Post Production Coordinator: Yapım Sonrası Koordinatörü
-    Post Production Producer:
-    Post Production Scripts:
+    Post Production Producer: Post Prodüksiyon Yapımcısı
+    Post Production Scripts: Post Prodüksiyon Senaryoları
     Post Production Supervisor: Yapım Sonrası Danışmanı
     Post Production Technical Engineer: Yapım Sonrası Teknik Mühendis
     Post-Production Manager: Yapım Sonrası Müdürü
-    Pre-Visualization Coordinator:
-    Pre-Visualization Supervisor:
+    Pre-Visualization Coordinator: Ön-Görselleştirme Koordinatörü
+    Pre-Visualization Supervisor: Ön-Görselleştirme Görevlisi
     Presenter: Sunucu
-    Principal Costumer:
+    Principal Costumer: Baş Müşteri
     Producer: Yapımcı
     Producer's Assistant: Yapımcı Asistanı
-    Production Accountant:
-    Production Artist:
+    Production Accountant: Yapım Muhasebecisi
+    Production Artist: Yapım Sanatçısı
     Production Assistant: Yapım Asistanı
     Production Consultant: Yapım Danışmanı
     Production Controller: Yapım Denetmeni
@@ -2950,18 +2950,18 @@ tr-TR:
     Seamstress: Terzi
     Second Assistant "A" Camera:
     Second Assistant "B" Camera:
-    Second Assistant "C" Camera:
-    Second Assistant "D" Camera:
+    Second Assistant "C" Camera: İkinci Yardımcı "C" Kamera
+    Second Assistant "D" Camera: İkinci Yardımcı "D" Kamera
     Second Assistant Accountant:
     Second Assistant Art Director:
-    Second Assistant Camera:
-    Second Assistant Director:
-    Second Assistant Director Trainee:
-    Second Assistant Production Coordinator:
-    Second Assistant Sound:
-    Second Assistant Unit Manager:
+    Second Assistant Camera: İkinci Yardımcı Kamera
+    Second Assistant Director: İkinci Yardımcı Yönetmen
+    Second Assistant Director Trainee: İkinci Yardımcı Yönetmen Stajyeri
+    Second Assistant Production Coordinator: İkinci Yardımcı Prodüksiyon Koordinatörü
+    Second Assistant Sound: İkinci Yardımcı Ses
+    Second Assistant Unit Manager: İkinci Yardımcı Birim Yöneticisi
     Second Company Grip:
-    Second Film Editor:
+    Second Film Editor: İkinci Film Editörü
     Second Second Assistant Director:
     Second Unit: İkinci Birim
     Second Unit Cinematographer: İkinci Birim Görüntü Yönetmeni
@@ -2971,10 +2971,10 @@ tr-TR:
     Second Unit Location Manager:
     Security: Güvenlik
     Security Coordinator: Güvenlik Koordinatörü
-    Senior Animator:
-    Senior Colorist:
-    Senior Digital Intermediate Colorist:
-    Senior Executive Consultant:
+    Senior Animator: Kıdemli Animatör
+    Senior Colorist: Kıdemli Renk Uzmanı
+    Senior Digital Intermediate Colorist: ıdemli Dijital Orta Düzey Renk Uzmanı
+    Senior Executive Consultant: Kıdemli Yönetici Danışmanı
     Senior Generalist:
     Senior Modeller:
     Senior Story Editor:
@@ -2998,13 +2998,13 @@ tr-TR:
     Set Dressing Manager:
     Set Dressing Production Assistant:
     Set Dressing Supervisor:
-    Set Medic:
-    Set Painter:
-    Set Photographer:
+    Set Medic: Set Tıbbı
+    Set Painter: Set Ressamı
+    Set Photographer: Set Fotoğrafçısı
     Set Production Assistant:
     Set Production Intern:
     Set Propsman:
-    Set Runner:
+    Set Runner: Set Koşucusu
     Set Supervisor:
     Sets & Props Artist:
     Sets & Props Supervisor:
@@ -3073,17 +3073,17 @@ tr-TR:
     Still Photographer:
     Story: Hikâye
     Story Artist: Hikâye Sanatçısı
-    Story Consultant:
+    Story Consultant: Senaryo Danışmanı
     Story Coordinator: Hikaye Koordinatörü
     Story Developer: Hikaye Geliştiricisi
     Story Editor: Hikaye Editörü
     Story Manager: Hikaye Yöneticisi
     Story Supervisor: Hikaye Sorumlusu
-    Storyboard:
-    Storyboard Artist:
-    Storyboard Assistant:
-    Storyboard Designer:
-    Street Casting:
+    Storyboard: Senaryo Panosu
+    Storyboard Artist: Senaryo Panosu Sanatçısı
+    Storyboard Assistant: Senaryo Panosu Asistanı
+    Storyboard Designer: Senaryo Panosu Tasarımcısı
+    Street Casting: Sokak Oyuncusu Seçimi
     Studio Teacher: Stüdyo Öğretmeni
     Stunt Coordinator: Dublör Koordinatörü
     Stunt Double: Dublör
@@ -3092,41 +3092,41 @@ tr-TR:
     Stunts Coordinator: Dublör Koordinatörü
     Supervising ADR Editor: ADR Editörünü Denetleme
     Supervising Animation Director: Animasyon Yönetmeni Denetleme
-    Supervising Animator:
-    Supervising Armorer:
-    Supervising Art Director:
-    Supervising Carpenter:
-    Supervising Dialogue Editor:
-    Supervising Editor:
-    Supervising Film Editor:
-    Supervising Music Editor:
+    Supervising Animator: Baş Animatör
+    Supervising Armorer: Baş Zırhçı
+    Supervising Art Director: Baş Sanat Yönetmeni
+    Supervising Carpenter: Baş Marangoz
+    Supervising Dialogue Editor: Baş Diyalog Editörü
+    Supervising Editor: Baş Editör
+    Supervising Film Editor: Baş Film Editörü
+    Supervising Music Editor: Baş Müzik Editörü
     Supervising Producer:
     Supervising Sound Editor:
     Supervising Sound Effects Editor:
     Supervising Technical Director:
     Supervisor of Production Resources:
     Swing:
-    Systems Administrators & Support:
+    Systems Administrators & Support: Sistem Yöneticileri ve Destek
     Tailor: Terzi
     Tattoo Designer: Dövme Tasarımcısı
     Tattooist: Dövmeci
     Technical Advisor: Teknik Danışman
-    Technical Supervisor:
-    Techno Crane Operator:
-    Telecine Colorist:
-    Teleplay:
-    Temp Music Editor:
-    Temp Sound Editor:
-    Textile Artist:
+    Technical Supervisor: Teknik Denetçi
+    Techno Crane Operator: Tekno Vinç Operatörü
+    Telecine Colorist: Telesine Renkçisi
+    Teleplay: Televizyon Senaryosu
+    Temp Music Editor: Geçici Müzik Editörü
+    Temp Sound Editor: Geçici Ses Editörü
+    Textile Artist: Tekstil Sanatçısı
     Thanks: Teşekkürler
     Theatre Play: Tiyatro oyunu
     Theme Song Performance: Tema Şarkısı Performansı
-    Third Assistant "A" Camera:
-    Third Assistant "B" Camera:
-    Third Assistant "C" Camera:
-    Third Assistant "D" Camera:
-    Third Assistant Camera:
-    Third Assistant Director:
+    Third Assistant "A" Camera: Üçüncü Yardımcı "A" Kamera
+    Third Assistant "B" Camera: Üçüncü Yardımcı "B" Kamera
+    Third Assistant "C" Camera: Üçüncü Yardımcı "C" Kamera
+    Third Assistant "D" Camera: Üçüncü Yardımcı "D" Kamera
+    Third Assistant Camera: Üçüncü Yardımcı Kamera
+    Third Assistant Director: Üçüncü Yönetmen Yardımcısı
     Title Designer: Başlık Tasarımcısı
     Title Graphics: Başlık Grafikleri
     Title Illustration: Başlık İllüstrasyonu
@@ -3134,47 +3134,47 @@ tr-TR:
     Transcriptions: Transkriptler
     Translator: Çevirmen
     Transportation Captain: Ulaştırma Kaptanı
-    Transportation Co-Captain:
+    Transportation Co-Captain: Ulaşım Yardımcı Kaptanı
     Transportation Coordinator: Taşımacılık Koordinatörü
     Travel Coordinator: Seyahat Koordinatörü
-    Treatment:
+    Treatment: Senaryo Taslağı
     Truck Costumer: Kamyon Müşterisi
     Truck Production Assistant: Kamyon Üretim Asistanı
     Truck Supervisor: Kamyon Sorumlusu
-    Ultimate Arm Operator:
+    Ultimate Arm Operator: Son Kol Operatörü
     Underwater Camera: Sualtı Kamerası
     Underwater Director of Photography: Sualtı Görüntü Yönetmeni
-    Underwater Epk Photographer:
-    Underwater Gaffer:
-    Underwater Stills Photographer:
+    Underwater Epk Photographer: Su Altı EPK Fotoğrafçısı
+    Underwater Gaffer: Su Altı Elektrikçisi
+    Underwater Stills Photographer: Su Altı Fotoğrafçısı
     Unit Manager: Birim Yöneticisi
     Unit Medic: Birim Doktoru
-    Unit Production Manager:
-    Unit Publicist:
-    Unit Swing:
-    Utility Sound:
-    Utility Stunts:
+    Unit Production Manager: Yapım Yönetim Birimi
+    Unit Publicist: Birim Tanıtımcısı
+    Unit Swing: Sahne Görevlisi
+    Utility Sound: Ses Yardımcısı
+    Utility Stunts: Dublör Yardımcısı
     VFX Artist: VFX Sanatçısı
     VFX Director of Photography: VFX Görüntü Yönetmeni
     VFX Editor: VFX Editörü
     VFX Lighting Artist: VFX Aydınlatma Sanatçısı
     VFX Production Coordinator: VFX Yapım Koordinatörü
     VFX Supervisor: VFX Süpervizörü
-    Vehicles Coordinator:
-    Vehicles Wrangler:
-    Video Assist Operator:
+    Vehicles Coordinator: Araç Koordinatörü
+    Vehicles Wrangler: Araç Sorumlusu
+    Video Assist Operator: Video Yardımcı Operatör
     Video Game: Video Oyunu
-    Video Report:
-    Videojournalist:
-    Visual Development:
+    Video Report: Video Raporu
+    Videojournalist: Video muhabiri
+    Visual Development: Görsel Geliştirme
     Visual Effects: Görsel Efektler
-    Visual Effects Art Director:
-    Visual Effects Assistant Editor:
-    Visual Effects Camera:
-    Visual Effects Compositor:
-    Visual Effects Coordinator:
-    Visual Effects Design Consultant:
-    Visual Effects Designer:
+    Visual Effects Art Director: Görsel Efekt Sanat Yönetmeni
+    Visual Effects Assistant Editor: Görsel Efektler Yardımcı Editörü
+    Visual Effects Camera: Görsel Efekt Kamerası
+    Visual Effects Compositor: Görsel Efekt Birleştirici
+    Visual Effects Coordinator: Görsel Efekt Koordinatörü
+    Visual Effects Design Consultant: Görsel Efekt Tasarım Danışmanı
+    Visual Effects Designer: Görsel Efekt Tasarımcısı
     Visual Effects Director: Görsel Efekt Yönetmeni
     Visual Effects Editor: Görsel Efekt Editörü
     Visual Effects Lineup: Görsel Efekt Dizilimi
@@ -3194,7 +3194,7 @@ tr-TR:
     Wardrobe Specialized Technician: Dolap Uzman Teknisyeni
     Wardrobe Supervisor: Dolap Sorumlusu
     Weapons Master: Silah Uzmanı
-    Weapons Wrangler:
+    Weapons Wrangler: Silah Sorumlusu
     Web Designer: Web Tasarımcısı
     Wig Designer: Peruk Tasarımcısı
     Wigmaker: Peruk Yapıcı
@@ -3818,7 +3818,7 @@ tr-TR:
         create_episode: Bölüm Oluştur
         episodes:
           no_records: Eklenen bölüm yok
-        runtime_varies_check: Çalışma zamanı değeri, sezon çalışma süresinden büyük ölçüde farklılık gösterir. Doğru çalışma zamanını girdiniz mi?
+        runtime_varies_check: Süre değeri, sezon süresinden büyük ölçüde farklılık gösterir. Doğru süre değerini girdiniz mi?
         screened_confirm: Sezon eğer bir festival veya tiyatroda gösterildiye, devam etmek için 'Evet' e tıklayın
         screened_label: Bu sezon sinemalarda gösterildi mi?
       season_cast: Sezon Oyuncuları
@@ -4039,8 +4039,8 @@ tr-TR:
     public: Bu izleme listesi boş
   no_writer: Hiçbir yazar eklenmedi.
   not_translated:
-    logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Devam etmek ve çeviri eklemek istiyorsanız lütfen aşağıdaki butona tıklayın."
-    public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a> yaparak veya bir hesaba <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
+    logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Çeviri eklemeye devam etmek istiyorsanız lütfen aşağıdaki <strong>Çeviri Oluştur</strong> butona tıklayın."
+    public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a> yaparak veya hesap açmak için <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
   notifications:
     caught_up: Görünüşe göre her şey yolunda.
     clear: Temizle
@@ -4439,12 +4439,12 @@ tr-TR:
       last_word_connector: ", ve "
       two_words_connector: " ve "
       words_connector: ", "
-  the:
+  the: "-"
   time:
     am: ÖÖ
     formats:
       12hour_minutes: "%l:%M %p"
-      default:
+      default: "%a, %d %b %Y %I:%M:%S %p %Z"
       long: "%B %d, %Y %I:%M %p"
       short: "%d %b %I:%M %p"
     pm: ÖS
