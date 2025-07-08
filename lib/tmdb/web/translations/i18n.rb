@@ -5,18 +5,18 @@ module TMDb
     class Translations
 
       DEFAULT_MAPPING = {
-        'af' => 'af-ZA', 'ar' => 'ar-SA', 'be' => 'be-BY', 'bg' => 'bg-BG', 'bn' => 'bn-BD', 'br' => 'br-FR',
-        'ca' => 'ca-ES', 'ch' => 'ch-GU', 'cs' => 'cs-CZ', 'cy' => 'cy-GB', 'da' => 'da-DK', 'de' => 'de-DE',
-        'el' => 'el-GR', 'en' => 'en-US', 'eo' => 'eo-EO', 'es' => 'es-ES', 'et' => 'et-EE', 'eu' => 'eu-ES',
-        'fa' => 'fa-IR', 'fi' => 'fi-FI', 'fr' => 'fr-FR', 'ga' => 'ga-IE', 'gd' => 'gd-GB', 'gl' => 'gl-ES',
-        'he' => 'he-IL', 'hi' => 'hi-IN', 'hr' => 'hr-HR', 'hu' => 'hu-HU', 'id' => 'id-ID', 'it' => 'it-IT',
-        'ja' => 'ja-JP', 'ka' => 'ka-GE', 'kk' => 'kk-KZ', 'kn' => 'kn-IN', 'ko' => 'ko-KR', 'ku' => 'ku-TR',
-        'ky' => 'ky-KG', 'lt' => 'lt-LT', 'lv' => 'lv-LV', 'ml' => 'ml-IN', 'mr' => 'mr-IN', 'ms' => 'ms-MY',
-        'nb' => 'nb-NO', 'nl' => 'nl-NL', 'no' => 'no-NO', 'pa' => 'pa-IN', 'pl' => 'pl-PL', 'pt' => 'pt-PT',
-        'ro' => 'ro-RO', 'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK', 'sl' => 'sl-SI', 'so' => 'so-SO',
-        'sq' => 'sq-AL', 'sr' => 'sr-RS', 'sv' => 'sv-SE', 'sw' => 'sw-TZ', 'ta' => 'ta-IN', 'te' => 'te-IN',
-        'tl' => 'tl-PH', 'th' => 'th-TH', 'tr' => 'tr-TR', 'uk' => 'uk-UA', 'ur' => 'ur-PK', 'uz' => 'uz-UZ',
-        'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
+        "af" => "af-ZA", "ar" => "ar-SA", "be" => "be-BY", "bg" => "bg-BG", "bn" => "bn-BD", "br" => "br-FR",
+        "ca" => "ca-ES", "ch" => "ch-GU", "cs" => "cs-CZ", "cy" => "cy-GB", "da" => "da-DK", "de" => "de-DE",
+        "el" => "el-GR", "en" => "en-US", "eo" => "eo-EO", "es" => "es-ES", "et" => "et-EE", "eu" => "eu-ES",
+        "fa" => "fa-IR", "fi" => "fi-FI", "fr" => "fr-FR", "ga" => "ga-IE", "gd" => "gd-GB", "gl" => "gl-ES",
+        "he" => "he-IL", "hi" => "hi-IN", "hr" => "hr-HR", "hu" => "hu-HU", "id" => "id-ID", "it" => "it-IT",
+        "ja" => "ja-JP", "ka" => "ka-GE", "kk" => "kk-KZ", "kn" => "kn-IN", "ko" => "ko-KR", "ku" => "ku-TR",
+        "ky" => "ky-KG", "lt" => "lt-LT", "lv" => "lv-LV", "ml" => "ml-IN", "mr" => "mr-IN", "ms" => "ms-MY",
+        "nb" => "nb-NO", "nl" => "nl-NL", "no" => "no-NO", "pa" => "pa-IN", "pl" => "pl-PL", "pt" => "pt-PT",
+        "ro" => "ro-RO", "ru" => "ru-RU", "si" => "si-LK", "sk" => "sk-SK", "sl" => "sl-SI", "so" => "so-SO",
+        "sq" => "sq-AL", "sr" => "sr-RS", "sv" => "sv-SE", "sw" => "sw-TZ", "ta" => "ta-IN", "te" => "te-IN",
+        "tl" => "tl-PH", "th" => "th-TH", "tr" => "tr-TR", "uk" => "uk-UA", "ur" => "ur-PK", "uz" => "uz-UZ",
+        "vi" => "vi-VN", "zh" => "zh-CN", "zu" => "zu-ZA"
       }.freeze
 
       DEFAULT_COUNTRY_MAPPING = {
@@ -43,7 +43,7 @@ module TMDb
         "LT"=>"lt-LT", "LU"=>"lu-LU", "LV"=>"lv-LV", "MG"=>"mg-MG", "MH"=>"mh-MH", "MI"=>"mi-MI", "MK"=>"mk-MK",
         "MN"=>"mn-MN", "MO"=>"mo-MO", "SG"=>"ms-SG", "MY"=>"ms-MY", "MT"=>"mt-MT", "NA"=>"na-NA", "NO"=>"nb-NO",
         "ND"=>"nd-ND", "NE"=>"ne-NE", "NG"=>"ng-NG", "NL"=>"nl-NL", "BE"=>"nl-BE", "NN"=>"nn-NN", "NR"=>"nr-NR",
-        "NV"=>"nv-NV", "NY"=>"ny-NY", "OC"=>"oc-OC", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS",
+        "NV"=>"nv-NV", "NY"=>"ny-NY", "OC"=>"oc-FR", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS",
         "PI"=>"pi-PI", "PL"=>"pl-PL", "PS"=>"ps-PS", "AO"=>"pt-AO", "BR"=>"pt-BR", "PT"=>"pt-PT", "MZ"=>"pt-MZ",
         "QU"=>"qu-QU", "RM"=>"rm-RM", "RN"=>"rn-RN", "MD"=>"ro-MD", "RO"=>"ro-RO", "RU"=>"ru-RU", "RW"=>"rw-RW",
         "SC"=>"sc-SC", "SD"=>"sd-SD", "SE"=>"se-SE", "SH"=>"sh-SH", "LK"=>"si-LK", "SK"=>"sk-SK", "SI"=>"sl-SI",
@@ -56,13 +56,13 @@ module TMDb
       }.freeze
 
       IGNORED_TRANSLATIONS = [
-        'ar-BH', 'ar-EG', 'ar-IQ', 'ar-JO', 'ar-LY', 'ar-MA', 'ar-QA', 'ar-YE', 'ar-TD', 'br-FR', 'ca-AD',
-        'en-AG', 'el-CY', 'en-AG', 'en-AU', 'en-BB', 'en-BZ', 'en-CA', 'en-CM', 'en-GB', 'en-GG',
-        'en-GH', 'en-GI', 'en-GY', 'en-IE', 'en-JM', 'en-KE', 'en-LC', 'en-MW', 'en-NZ', 'en-PG',
-        'en-TC', 'en-ZM', 'en-ZW', 'es-AR', 'es-CL', 'es-DO', 'es-EC', 'es-GT', 'es-GQ', 'es-HN',
-        'es-NI', 'es-PA', 'es-PE', 'es-PY', 'es-SV', 'es-UY', 'fr-BF', 'fr-CD', 'fr-CI', 'fr-GF',
-        'fr-GP', 'fr-MC', 'fr-ML', 'fr-MU', 'fr-PF', 'it-VA', 'pt-AO', 'pt-MZ', 'ro-MD', 'sr-ME',
-        'sq-XK'
+        "ar-BH", "ar-EG", "ar-IQ", "ar-JO", "ar-LY", "ar-MA", "ar-QA", "ar-YE", "ar-TD", "br-FR", "ca-AD",
+        "en-AG", "el-CY", "en-AG", "en-AU", "en-BB", "en-BZ", "en-CA", "en-CM", "en-GB", "en-GG",
+        "en-GH", "en-GI", "en-GY", "en-IE", "en-JM", "en-KE", "en-LC", "en-MW", "en-NZ", "en-PG",
+        "en-TC", "en-ZM", "en-ZW", "es-AR", "es-CL", "es-DO", "es-EC", "es-GT", "es-GQ", "es-HN",
+        "es-NI", "es-PA", "es-PE", "es-PY", "es-SV", "es-UY", "fr-BF", "fr-CD", "fr-CI", "fr-GF",
+        "fr-GP", "fr-MC", "fr-ML", "fr-MU", "fr-PF", "it-VA", "pt-AO", "pt-MZ", "ro-MD", "sr-ME",
+        "sq-XK"
       ].freeze
 
       # This list is based on LANGUAGE_CODES, it contains all assigned ISO-369-1
