@@ -1,15 +1,25 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
+require "fileutils"
 require_relative "../lib/tmdb/web/translations"
 
-# This script generates pluralization files for each of our locales using files from the
-# rails-i18n gem.
-
 RAILS_I18N_PATH = Bundler.rubygems.find_name('rails-i18n').first.full_gem_path
+TRANSLATIONS_PATH = File.expand_path("../", __dir__)
 
-LOCALES = Dir.glob("locales/*.yml").map { |path| File.basename(path, ".yml") }
-PLURALIZERS = Dir.glob(File.join(RAILS_I18N_PATH, "/rails/pluralization/*.rb")).map { |path| [File.basename(path, ".rb"), path] }.to_h
+# Copy the common pluralization rules from rails-i18n.
+# This avoids having a second-order dependency on extra Rails libraries via rails-i18n.
+Dir.glob([
+  "lib/rails_i18n/common_pluralizations/*.rb",
+  "lib/rails_i18n/pluralization.rb"
+], base: RAILS_I18N_PATH).each do |path|
+  FileUtils.mkdir_p(File.join(TRANSLATIONS_PATH, File.dirname(path)))
+  FileUtils.copy(File.join(RAILS_I18N_PATH, path), File.join(TRANSLATIONS_PATH, path), verbose: true)
+end
+
+# Generate pluralization files for each of our locales using files from the rails-i18n gem.
+LOCALES = Dir.glob("locales/*.yml", base: TRANSLATIONS_PATH).map { |path| File.basename(path, ".yml") }
+PLURALIZERS = Dir.glob(File.join(RAILS_I18N_PATH, "rails/pluralization/*.rb")).map { |path| [File.basename(path, ".rb"), path] }.to_h
 ONE_OTHERS = ["af-ZA", "no-NO", "so-SO", "uz-UZ"]
 
 LOCALES.each do |locale|
@@ -38,7 +48,7 @@ LOCALES.each do |locale|
 
 
   if pluralizer
-    File.open("pluralization/#{locale}.rb", "w") do |file|
+    File.open(File.join(TRANSLATIONS_PATH, "pluralization/#{locale}.rb"), "w") do |file|
       file.puts(pluralizer)
     end
   end
