@@ -158,6 +158,10 @@ module TMDb
         File.dirname(__FILE__) + "/../../../../ordinals"
       end
 
+      def self.pluralization_path
+        File.dirname(__FILE__) + "/../../../../pluralization"
+      end
+
       def self.load_path
         File.dirname(__FILE__) + "/../../../../locales"
       end
