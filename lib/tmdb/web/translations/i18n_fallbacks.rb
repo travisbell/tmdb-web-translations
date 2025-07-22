@@ -4,12 +4,15 @@ require 'i18n/backend/fallbacks'
 
 # I18n::Backend::Simple.send(:include, I18n::Backend::Cache)
 I18n::Backend::Simple.include I18n::Backend::Fallbacks
+I18n::Backend::Simple.include I18n::Backend::Pluralization
 
 I18n.load_path += Dir[TMDb::Web::Translations.load_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.country_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.language_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.ordinal_path + '/*.rb']
 I18n.load_path += Dir[TMDb::Web::Translations.ordinal_path + '/*.yml']
+I18n.load_path += Dir[TMDb::Web::Translations.pluralization_path + '/*.rb']
+I18n.load_path += Dir[TMDb::Web::Translations.pluralization_path + '/*.yml']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.rb']
 I18n.load_path += Dir[TMDb::Web::Translations.transliteration_path + '/*.yml']
 
