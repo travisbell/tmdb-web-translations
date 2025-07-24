@@ -1,3 +1,4 @@
+---
 en-US:
   3rd Party Applications: 3rd Party Applications
   API: API
@@ -230,6 +231,7 @@ en-US:
   Job: Job
   Join the Community: Join the Community
   Joined in: Joined in
+  Key: Key
   Keyword: Keyword
   Keyword Results: Keyword Results
   Keywords: Keywords
@@ -291,6 +293,7 @@ en-US:
   Notes: Notes
   Notifications: Notifications
   Now Playing Movies: Now Playing Movies
+  Number: Number
   Number of Movies: Number of Movies
   Number of TV Shows: Number of TV Shows
   Number of edits in the past: Number of edits in the past
@@ -298,6 +301,7 @@ en-US:
   Offical Site: Official Site
   Offline Databases: Offline Databases
   Ok: OK
+  Optional: Optional
   Origin Country: Origin Country
   Original Air Date: Original Air Date
   Original Language: Original Language
@@ -367,6 +371,7 @@ en-US:
   Report an Issue: Report an Issue
   Reported Issues: Reported Issues
   Request an API Key: Request an API Key
+  Required: Required
   Resend Activation Email: Resend activation email
   Reset: Reset
   Reset Password: Reset password
@@ -472,6 +477,7 @@ en-US:
   Upload Logo: Upload Logo
   User Score: User Score
   Username: Username
+  Value: Value
   Video?: Video?
   View: View
   View All Backdrops: View All Backdrops
@@ -763,15 +769,41 @@ en-US:
     alternative_names: Alternative Names
     categories:
       title: Categories
+      add_category: Add Category
+      categories: Categories
+      category: Category
+      crew_credit_departments: Crew Credit Departments
+      crew_credit_jobs: Crew Credit Jobs
+      date_ended: Date Ended
+      date_started: Date Started
+      display_type: Display Type
+      locked: Adding new categories has been disabled and locked by a moderator.
+      media_type: Media Type
+      name: Name
     category_empty: No nominations for this category.
     ceremonies:
       number: Number
       release_date_max: Release Date Max
       release_date_min: Release Date Min
       title: Ceremonies
+      add_ceremony: Add ceremony
+      ceremonies: Ceremonies
+      ceremony: Ceremony
+      date: Date
+      limits: Limits
+      location: Location
+      locked: Adding new ceremonies has been disabled and locked by a moderator.
     nominations:
       one: 1 Nomination
       other: "%{count} Nominations"
+      add_nomination: Add Nomination
+      locked: Adding new nominations has been disabled and locked by a moderator.
+      movie: Movie
+      nomination: Nomination
+      number:
+        one:
+        other:
+      title: Nominations
     nominee: Nominee
     show_info:
       directed_by: Directed By
@@ -787,6 +819,23 @@ en-US:
     wins:
       one: 1 Win
       other: "%{count} Wins"
+    award: Award
+    broadcast_episode: Broadcast Episode
+    broadcast_episode_tooltip: Linking to a TV episode will display production information.
+    broadcast_series: Broadcast Series
+    broadcast_series_tooltip: Linking a TV series allows displaying production information for each ceremony.
+    field:
+      homepage: Homepage
+      name: Name
+      overview: Overview
+    new_award:
+      award_details: Award Details
+      click_next: This 3 step wizard will walk you through the creation process. To get started, click next.
+      getting_started: Getting Started
+      header_1: New Award
+      header_2: Add a New Award
+      note: Adding a new award on TMDB is simple and easy. If you have any questions about how our editing system works make sure to read through our <a href="%{bible_href}">contribition bible</a> or stop by the <a href="%{talk_href}">forums</a>.
+      verify: Verify and Save
   back_options:
     back: Back
     episode: Back to episode
@@ -3980,6 +4029,27 @@ en-US:
       published_at: Published At
       restricted_regions: Restricted Regions
       tags: Tags
+    alternative_names:
+      add_name: Add Name
+      alternative_names: Alternative Names
+      name: Name
+      no_records: No alternative names have been added.
+    award:
+      edit:
+        adult:
+          adult_award: Adult Award
+      header:
+        latest_ceremony: Check out the latest ceremony
+        upcoming_ceremony: Check out the upcoming ceremony
+    cast_credits:
+      cast_credits: Cast Credits
+      select: Select cast credits...
+    companies:
+      companies: Companies
+      select: Select companies...
+    crew_credits:
+      crew_credits: Crew Credits
+      select: Select crew credits...
   message_templates:
     help_translate:
       message: |-
