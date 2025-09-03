@@ -5,18 +5,18 @@ module TMDb
     class Translations
 
       DEFAULT_MAPPING = {
-        "af" => "af-ZA", "ar" => "ar-SA", "be" => "be-BY", "bg" => "bg-BG", "bn" => "bn-BD", "br" => "br-FR",
-        "ca" => "ca-ES", "ch" => "ch-GU", "cs" => "cs-CZ", "cy" => "cy-GB", "da" => "da-DK", "de" => "de-DE",
-        "el" => "el-GR", "en" => "en-US", "eo" => "eo-EO", "es" => "es-ES", "et" => "et-EE", "eu" => "eu-ES",
-        "fa" => "fa-IR", "fi" => "fi-FI", "fr" => "fr-FR", "ga" => "ga-IE", "gd" => "gd-GB", "gl" => "gl-ES",
-        "he" => "he-IL", "hi" => "hi-IN", "hr" => "hr-HR", "hu" => "hu-HU", "id" => "id-ID", "it" => "it-IT",
-        "ja" => "ja-JP", "ka" => "ka-GE", "kk" => "kk-KZ", "kn" => "kn-IN", "ko" => "ko-KR", "ku" => "ku-TR",
-        "ky" => "ky-KG", "lt" => "lt-LT", "lv" => "lv-LV", "ml" => "ml-IN", "mr" => "mr-IN", "ms" => "ms-MY",
-        "nb" => "nb-NO", "nl" => "nl-NL", "no" => "no-NO", "pa" => "pa-IN", "pl" => "pl-PL", "pt" => "pt-PT",
-        "ro" => "ro-RO", "ru" => "ru-RU", "si" => "si-LK", "sk" => "sk-SK", "sl" => "sl-SI", "so" => "so-SO",
-        "sq" => "sq-AL", "sr" => "sr-RS", "sv" => "sv-SE", "sw" => "sw-TZ", "ta" => "ta-IN", "te" => "te-IN",
-        "tl" => "tl-PH", "th" => "th-TH", "tr" => "tr-TR", "uk" => "uk-UA", "ur" => "ur-PK", "uz" => "uz-UZ",
-        "vi" => "vi-VN", "zh" => "zh-CN", "zu" => "zu-ZA"
+        'af' => 'af-ZA', 'ar' => 'ar-SA', 'be' => 'be-BY', 'bg' => 'bg-BG', 'bn' => 'bn-BD', 'br' => 'br-FR',
+        'ca' => 'ca-ES', 'ch' => 'ch-GU', 'cs' => 'cs-CZ', 'cy' => 'cy-GB', 'da' => 'da-DK', 'de' => 'de-DE',
+        'el' => 'el-GR', 'en' => 'en-US', 'eo' => 'eo-EO', 'es' => 'es-ES', 'et' => 'et-EE', 'eu' => 'eu-ES',
+        'fa' => 'fa-IR', 'fi' => 'fi-FI', 'fr' => 'fr-FR', 'ga' => 'ga-IE', 'gd' => 'gd-GB', 'gl' => 'gl-ES',
+        'he' => 'he-IL', 'hi' => 'hi-IN', 'hr' => 'hr-HR', 'hu' => 'hu-HU', 'id' => 'id-ID', 'it' => 'it-IT',
+        'ja' => 'ja-JP', 'ka' => 'ka-GE', 'kk' => 'kk-KZ', 'kn' => 'kn-IN', 'ko' => 'ko-KR', 'ku' => 'ku-TR',
+        'ky' => 'ky-KG', 'lt' => 'lt-LT', 'lv' => 'lv-LV', 'ml' => 'ml-IN', 'mr' => 'mr-IN', 'ms' => 'ms-MY',
+        'nb' => 'nb-NO', 'ne' => 'ne-NP', 'nl' => 'nl-NL', 'no' => 'no-NO', 'pa' => 'pa-IN', 'pl' => 'pl-PL',
+        'pt' => 'pt-PT', 'ro' => 'ro-RO', 'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK', 'sl' => 'sl-SI',
+        'so' => 'so-SO', 'sq' => 'sq-AL', 'sr' => 'sr-RS', 'sv' => 'sv-SE', 'sw' => 'sw-TZ', 'ta' => 'ta-IN',
+        'te' => 'te-IN', 'tl' => 'tl-PH', 'th' => 'th-TH', 'tr' => 'tr-TR', 'uk' => 'uk-UA', 'ur' => 'ur-PK',
+        'uz' => 'uz-UZ', 'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
       }.freeze
 
       DEFAULT_COUNTRY_MAPPING = {
@@ -42,8 +42,8 @@ module TMDb
         "KW"=>"kw-KW", "LA"=>"la-LA", "LB"=>"lb-LB", "LG"=>"lg-LG", "LI"=>"li-LI", "LN"=>"ln-LN", "LO"=>"lo-LO",
         "LT"=>"lt-LT", "LU"=>"lu-LU", "LV"=>"lv-LV", "MG"=>"mg-MG", "MH"=>"mh-MH", "MI"=>"mi-MI", "MK"=>"mk-MK",
         "MN"=>"mn-MN", "MO"=>"mo-MO", "SG"=>"ms-SG", "MY"=>"ms-MY", "MT"=>"mt-MT", "NA"=>"na-NA", "NO"=>"nb-NO",
-        "ND"=>"nd-ND", "NE"=>"ne-NE", "NG"=>"ng-NG", "NL"=>"nl-NL", "BE"=>"nl-BE", "NN"=>"nn-NN", "NR"=>"nr-NR",
-        "NV"=>"nv-NV", "NY"=>"ny-NY", "OC"=>"oc-FR", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS",
+        "ND"=>"nd-ND", "NG"=>"ng-NG", "NL"=>"nl-NL", "BE"=>"nl-BE", "NN"=>"nn-NN", "NP"=>"ne-NP", "NR"=>"nr-NR",
+        "NV"=>"nv-NV", "NY"=>"ny-NY", "OC"=>"oc-OC", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS",
         "PI"=>"pi-PI", "PL"=>"pl-PL", "PS"=>"ps-PS", "AO"=>"pt-AO", "BR"=>"pt-BR", "PT"=>"pt-PT", "MZ"=>"pt-MZ",
         "QU"=>"qu-QU", "RM"=>"rm-RM", "RN"=>"rn-RN", "MD"=>"ro-MD", "RO"=>"ro-RO", "RU"=>"ru-RU", "RW"=>"rw-RW",
         "SC"=>"sc-SC", "SD"=>"sd-SD", "SE"=>"se-SE", "SH"=>"sh-SH", "LK"=>"si-LK", "SK"=>"sk-SK", "SI"=>"sl-SI",
@@ -114,17 +114,17 @@ module TMDb
           'fr-GP' => 'fr', 'fr-MC' => 'fr', 'fr-ML' => 'fr', 'fr-MU' => 'fr', 'fr-PF' => 'fr', 'it-VA' => 'it',
           'ms-SG' => 'ms', 'nl-BE' => 'nl', 'pt-AO' => 'pt', 'pt-BR' => 'pt', 'pt-MZ' => 'pt', 'ro-MD' => 'ro',
           'sr-ME' => 'sr', 'sq-XK' => 'sq', 'zh-HK' => 'zh', 'zh-SG' => 'zh', 'zh-TW' => 'zh'
-        ).freeze
+        )
       end
 
       def self.default_iso_3166_1_mapping_lowercase
         @default_iso_3166_1_mapping_lowercase ||= TMDb::Web::Translations.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, iso_3166_1), hash|
           hash[i18n.downcase] = i18n
-        end.freeze
+        end
       end
 
       def self.valid_i18n_translations
-        @valid_i18n_translations ||= TMDb::Web::Translations.language_list.dup.delete_if { |k,v| IGNORED_TRANSLATIONS.include?(k) }.freeze
+        @valid_i18n_translations ||= TMDb::Web::Translations.language_list.dup.delete_if { |k,v| IGNORED_TRANSLATIONS.include?(k) }
       end
 
       def self.default_iso_3166_1_i18n
@@ -134,17 +134,17 @@ module TMDb
       def self.default_language_i18n
         @default_language_i18n ||= LANGUAGE_CODES.each_with_object({}) { |iso_639_1, hash|
           hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
-        }.merge(DEFAULT_MAPPING).freeze
+        }.merge(DEFAULT_MAPPING)
       end
 
       def self.default_language_to_country_mapping
-        @default_language_to_country_mapping ||= Hash[DEFAULT_MAPPING.map { |k,v| v.split('-') }].freeze
+        @default_language_to_country_mapping ||= Hash[DEFAULT_MAPPING.map { |k,v| v.split('-') }]
       end
 
       def self.language_list
         @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
           hash["#{iso_639_1}-#{iso_639_1.upcase}"] = "#{iso_639_1}"
-        end.merge(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h.freeze
+        end.merge(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |h,v| v }.to_h
       end
 
       def self.language_path
@@ -190,7 +190,7 @@ module TMDb
       end
 
       def self.supported_iso_639_1_path
-        @supported_iso_639_1_path ||= TMDb::Web::Translations.supported_iso_639_1.map { |iso| "/#{iso}" }.freeze
+        @supported_iso_639_1_path ||= TMDb::Web::Translations.supported_iso_639_1.map { |iso| "/#{iso}" }
       end
 
       def self.supported_ui_languages

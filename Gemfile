@@ -6,6 +6,6 @@ gemspec
 
 gem "dotenv"
 gem "rails-i18n", require: false
-gem "rake", "~> 13.0"
+gem "rake"
 gem "rspec", require: false
-gem "rubocop", "~> 1.7"
+gem "rubocop"
