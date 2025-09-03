@@ -12,11 +12,11 @@ module TMDb
         'he' => 'he-IL', 'hi' => 'hi-IN', 'hr' => 'hr-HR', 'hu' => 'hu-HU', 'id' => 'id-ID', 'it' => 'it-IT',
         'ja' => 'ja-JP', 'ka' => 'ka-GE', 'kk' => 'kk-KZ', 'kn' => 'kn-IN', 'ko' => 'ko-KR', 'ku' => 'ku-TR',
         'ky' => 'ky-KG', 'lt' => 'lt-LT', 'lv' => 'lv-LV', 'ml' => 'ml-IN', 'mr' => 'mr-IN', 'ms' => 'ms-MY',
-        'nb' => 'nb-NO', 'ne' => 'ne-NP', 'nl' => 'nl-NL', 'no' => 'no-NO', 'pa' => 'pa-IN', 'pl' => 'pl-PL',
-        'pt' => 'pt-PT', 'ro' => 'ro-RO', 'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK', 'sl' => 'sl-SI',
-        'so' => 'so-SO', 'sq' => 'sq-AL', 'sr' => 'sr-RS', 'sv' => 'sv-SE', 'sw' => 'sw-TZ', 'ta' => 'ta-IN',
-        'te' => 'te-IN', 'tl' => 'tl-PH', 'th' => 'th-TH', 'tr' => 'tr-TR', 'uk' => 'uk-UA', 'ur' => 'ur-PK',
-        'uz' => 'uz-UZ', 'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
+        'nb' => 'nb-NO', 'ne' => 'ne-NP', 'nl' => 'nl-NL', 'no' => 'no-NO', 'oc' => 'oc-FR', 'pa' => 'pa-IN',
+        'pl' => 'pl-PL', 'pt' => 'pt-PT', 'ro' => 'ro-RO', 'ru' => 'ru-RU', 'si' => 'si-LK', 'sk' => 'sk-SK',
+        'sl' => 'sl-SI', 'so' => 'so-SO', 'sq' => 'sq-AL', 'sr' => 'sr-RS', 'sv' => 'sv-SE', 'sw' => 'sw-TZ',
+        'ta' => 'ta-IN', 'te' => 'te-IN', 'tl' => 'tl-PH', 'th' => 'th-TH', 'tr' => 'tr-TR', 'uk' => 'uk-UA',
+        'ur' => 'ur-PK', 'uz' => 'uz-UZ', 'vi' => 'vi-VN', 'zh' => 'zh-CN', 'zu' => 'zu-ZA'
       }.freeze
 
       DEFAULT_COUNTRY_MAPPING = {
@@ -43,16 +43,16 @@ module TMDb
         "LT"=>"lt-LT", "LU"=>"lu-LU", "LV"=>"lv-LV", "MG"=>"mg-MG", "MH"=>"mh-MH", "MI"=>"mi-MI", "MK"=>"mk-MK",
         "MN"=>"mn-MN", "MO"=>"mo-MO", "SG"=>"ms-SG", "MY"=>"ms-MY", "MT"=>"mt-MT", "NA"=>"na-NA", "NO"=>"nb-NO",
         "ND"=>"nd-ND", "NG"=>"ng-NG", "NL"=>"nl-NL", "BE"=>"nl-BE", "NN"=>"nn-NN", "NP"=>"ne-NP", "NR"=>"nr-NR",
-        "NV"=>"nv-NV", "NY"=>"ny-NY", "OC"=>"oc-OC", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS",
-        "PI"=>"pi-PI", "PL"=>"pl-PL", "PS"=>"ps-PS", "AO"=>"pt-AO", "BR"=>"pt-BR", "PT"=>"pt-PT", "MZ"=>"pt-MZ",
-        "QU"=>"qu-QU", "RM"=>"rm-RM", "RN"=>"rn-RN", "MD"=>"ro-MD", "RO"=>"ro-RO", "RU"=>"ru-RU", "RW"=>"rw-RW",
-        "SC"=>"sc-SC", "SD"=>"sd-SD", "SE"=>"se-SE", "SH"=>"sh-SH", "LK"=>"si-LK", "SK"=>"sk-SK", "SI"=>"sl-SI",
-        "SM"=>"sm-SM", "SN"=>"sn-SN", "SO"=>"so-SO", "XK"=>"sq-XK", "AL"=>"sq-AL", "RS"=>"sr-RS", "ME"=>"sr-ME",
-        "SS"=>"ss-SS", "ST"=>"st-ST", "SU"=>"su-SU", "TZ"=>"sw-TZ", "TG"=>"tg-TG", "TH"=>"th-TH", "TI"=>"ti-TI",
-        "TK"=>"tk-TK", "PH"=>"tl-PH", "TN"=>"tn-TN", "TO"=>"to-TO", "TR"=>"tr-TR", "TS"=>"ts-TS", "TT"=>"tt-TT",
-        "TW"=>"tw-TW", "TY"=>"ty-TY", "UG"=>"ug-UG", "UA"=>"uk-UA", "PK"=>"ur-PK", "UZ"=>"uz-UZ", "VE"=>"ve-VE",
-        "VN"=>"vi-VN", "VO"=>"vo-VO", "WA"=>"wa-WA", "WO"=>"wo-WO", "XH"=>"xh-XH", "XX"=>"xx-XX", "YI"=>"yi-YI",
-        "YO"=>"yo-YO", "CN"=>"zh-CN", "HK"=>"zh-HK"
+        "NV"=>"nv-NV", "NY"=>"ny-NY", "OJ"=>"oj-OJ", "OM"=>"om-OM", "OR"=>"or-OR", "OS"=>"os-OS", "PI"=>"pi-PI",
+        "PL"=>"pl-PL", "PS"=>"ps-PS", "AO"=>"pt-AO", "BR"=>"pt-BR", "PT"=>"pt-PT", "MZ"=>"pt-MZ", "QU"=>"qu-QU",
+        "RM"=>"rm-RM", "RN"=>"rn-RN", "MD"=>"ro-MD", "RO"=>"ro-RO", "RU"=>"ru-RU", "RW"=>"rw-RW", "SC"=>"sc-SC",
+        "SD"=>"sd-SD", "SE"=>"se-SE", "SH"=>"sh-SH", "LK"=>"si-LK", "SK"=>"sk-SK", "SI"=>"sl-SI", "SM"=>"sm-SM",
+        "SN"=>"sn-SN", "SO"=>"so-SO", "XK"=>"sq-XK", "AL"=>"sq-AL", "RS"=>"sr-RS", "ME"=>"sr-ME", "SS"=>"ss-SS",
+        "ST"=>"st-ST", "SU"=>"su-SU", "TZ"=>"sw-TZ", "TG"=>"tg-TG", "TH"=>"th-TH", "TI"=>"ti-TI", "TK"=>"tk-TK",
+        "PH"=>"tl-PH", "TN"=>"tn-TN", "TO"=>"to-TO", "TR"=>"tr-TR", "TS"=>"ts-TS", "TT"=>"tt-TT", "TW"=>"tw-TW",
+        "TY"=>"ty-TY", "UG"=>"ug-UG", "UA"=>"uk-UA", "PK"=>"ur-PK", "UZ"=>"uz-UZ", "VE"=>"ve-VE", "VN"=>"vi-VN",
+        "VO"=>"vo-VO", "WA"=>"wa-WA", "WO"=>"wo-WO", "XH"=>"xh-XH", "XX"=>"xx-XX", "YI"=>"yi-YI", "YO"=>"yo-YO",
+        "CN"=>"zh-CN", "HK"=>"zh-HK"
       }.freeze
 
       IGNORED_TRANSLATIONS = [
