@@ -1,16 +1,18 @@
+# frozen_string_literal: true
+
 {
   fr: {
     number: {
       nth: {
-        ordinals: -> (_key, number:, **_options) {
+        ordinals: ->(_key, number:, **_options) {
           if number.to_i.abs == 1
-            'er'
+            "er"
           else
-            'e'
+            "e"
           end
         },
 
-        ordinalized:  -> (_key, number:, **_options) {
+        ordinalized: ->(_key, number:, **_options) {
           "#{number}#{ActiveSupport::Inflector.ordinal(number)}"
         }
       }

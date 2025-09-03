@@ -1,21 +1,23 @@
+# frozen_string_literal: true
+
 {
   gd: {
     number: {
       nth: {
-        ordinals: -> (_key, number:, **_options) {
+        ordinals: ->(_key, number:, **_options) {
           case number.to_i.abs
           when 1
-            'ᵈ'
+            "ᵈ"
           when 2
-            'ⁿᵃ'
+            "ⁿᵃ"
           when 3
-            'ˢ'
+            "ˢ"
           else
-            'ᵐʰ'
+            "ᵐʰ"
           end
         },
 
-        ordinalized:  -> (_key, number:, **_options) {
+        ordinalized: ->(_key, number:, **_options) {
           "#{number}#{ActiveSupport::Inflector.ordinal(number)}"
         }
       }

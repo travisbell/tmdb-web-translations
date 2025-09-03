@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
@@ -40,9 +41,9 @@ at_exit do
 end
 
 def update_each_yaml(paths = ARGV, &block)
-  yaml_files = paths.flat_map { |file_name|
+  yaml_files = paths.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
-  }
+  end
 
   yaml_files.each do |file_path|
     yaml = YAML.load_file(file_path)

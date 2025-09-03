@@ -1,13 +1,39 @@
 inherit_gem:
-  tmdb-shared: .rubocop.yml
+  rubocop-shopify: rubocop.yml
 
 AllCops:
-  Exclude:
-  - ".irbrc"
-  - vendor/**/*
-  StyleGuideBaseURL: https://shopify.github.io/ruby-style-guide/
+  TargetRubyVersion: 3.4
+  NewCops: enable
 
 Style/MethodCallWithArgsParentheses:
   Exclude:
-  - Gemfile
-  - spec/**/*_spec.rb
+    - Gemfile
+    - spec/**/*_spec.rb
+
+Layout/ArrayAlignment:
+  Enabled: true
+
+Layout/HashAlignment:
+  Enabled: true
+  EnforcedStyle: table
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: false
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: false
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: no_comma

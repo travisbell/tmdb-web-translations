@@ -1,3 +1,5 @@
-require 'rails_i18n/common_pluralizations/west_slavic'
+# frozen_string_literal: true
 
-::RailsI18n::Pluralization::WestSlavic.with_locale(:'sk-SK')
+require "rails_i18n/common_pluralizations/west_slavic"
+
+RailsI18n::Pluralization::WestSlavic.with_locale(:"sk-SK")

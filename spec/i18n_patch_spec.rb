@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require "spec_helper"
-require"tmdb/i18n_patch"
+require "tmdb/i18n_patch"
 
 RSpec.describe I18nPatch do
   describe "#apply" do
@@ -17,7 +19,7 @@ RSpec.describe I18nPatch do
         "def" => {
           "ghi" => "234"
         },
-        "jkl" => [1,2,3],
+        "jkl" => [1, 2, 3],
         "xyz" => "345"
       }
 
@@ -27,23 +29,26 @@ RSpec.describe I18nPatch do
           "ghi" => "234",
           "moop" => "456"
         },
-        "jkl" => [1,2,3],
+        "jkl" => [1, 2, 3],
         "xyz" => "345",
         "meep" => "123"
       })
     end
 
     example "converting pluralized keys" do
-      patch = I18nPatch.new({
-        "def" => {
-          "one" => "234",
-          "other" => "456"
-        }
-      }, locale: "lt-LT")
+      patch = I18nPatch.new(
+        {
+          "def" => {
+            "one" => "234",
+            "other" => "456"
+          }
+        },
+        locale: "lt-LT"
+      )
 
       target = {
         "abc" => "123",
-        "jkl" => [1,2,3]
+        "jkl" => [1, 2, 3]
       }
 
       expect(patch.apply(target)).to eq({
@@ -53,7 +58,7 @@ RSpec.describe I18nPatch do
           "few" => nil,
           "other" => nil
         },
-        "jkl" => [1,2,3]
+        "jkl" => [1, 2, 3]
       })
     end
 

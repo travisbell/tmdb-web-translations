@@ -1,7 +1,14 @@
-require 'rails_i18n/pluralization'
+# frozen_string_literal: true
 
-{ :'sl-SI' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :two, :few, :other],
-        :rule => ::RailsI18n::Pluralization::Slovenian.rule }}}}
+require "rails_i18n/pluralization"
+
+{
+  "sl-SI": {
+    "i18n": {
+      plural: {
+        keys: [:one, :two, :few, :other],
+        rule: RailsI18n::Pluralization::Slovenian.rule
+      }
+    }
+  }
+}

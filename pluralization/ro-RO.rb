@@ -1,3 +1,5 @@
-require 'rails_i18n/common_pluralizations/romanian'
+# frozen_string_literal: true
 
-::RailsI18n::Pluralization::Romanian.with_locale(:'ro-RO')
+require "rails_i18n/common_pluralizations/romanian"
+
+RailsI18n::Pluralization::Romanian.with_locale(:"ro-RO")

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module RailsI18n
   module Pluralization
     module Arabic

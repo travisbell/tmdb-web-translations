@@ -1,7 +1,14 @@
-require 'rails_i18n/pluralization'
+# frozen_string_literal: true
 
-{ :'ar-SA' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:zero, :one, :two, :few, :many, :other],
-        :rule => ::RailsI18n::Pluralization::Arabic.rule }}}}
+require "rails_i18n/pluralization"
+
+{
+  "ar-SA": {
+    "i18n": {
+      plural: {
+        keys: [:zero, :one, :two, :few, :many, :other],
+        rule: RailsI18n::Pluralization::Arabic.rule
+      }
+    }
+  }
+}

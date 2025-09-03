@@ -4,8 +4,8 @@
 require "bundler/setup"
 
 begin
-  require 'dotenv'
-  Dotenv.load('.env')
+  require "dotenv"
+  Dotenv.load(".env")
 rescue => e
   puts "Loading Dotenv failed. because: #{e.message}"
 end
@@ -20,10 +20,10 @@ require "tmdb/web/translations"
 # Pry.start
 
 def reload!(print = true)
-  puts 'Reloading ...' if print
+  puts "Reloading ..." if print
 
-  root_dir = File.expand_path('..', __dir__)
-  reload_dirs = %w{lib}
+  root_dir = File.expand_path("..", __dir__)
+  reload_dirs = ["lib"]
   reload_dirs.each do |dir|
     Dir.glob("#{root_dir}/#{dir}/**/*.rb").each { |f| load(f) }
   end

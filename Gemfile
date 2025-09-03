@@ -9,3 +9,4 @@ gem "rails-i18n", require: false
 gem "rake"
 gem "rspec", require: false
 gem "rubocop"
+gem "rubocop-shopify"
