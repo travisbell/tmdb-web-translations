@@ -1,5 +1,3 @@
-# frozen_string_literal: true
+require 'rails_i18n/common_pluralizations/one_upto_two_other'
 
-require "rails_i18n/common_pluralizations/one_upto_two_other"
-
-RailsI18n::Pluralization::OneUptoTwoOther.with_locale(:"fr-CA")
+::RailsI18n::Pluralization::OneUptoTwoOther.with_locale(:'fr-CA')

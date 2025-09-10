@@ -8,6 +8,8 @@ AllCops:
 Style/MethodCallWithArgsParentheses:
   Exclude:
     - Gemfile
+    - lib/rails_i18n/common_pluralizations/**/*.rb
+    - pluralization/**/*.rb
     - spec/**/*_spec.rb
 
 Layout/ArrayAlignment:

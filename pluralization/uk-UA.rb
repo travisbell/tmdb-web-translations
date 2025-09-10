@@ -1,5 +1,3 @@
-# frozen_string_literal: true
+require 'rails_i18n/common_pluralizations/east_slavic'
 
-require "rails_i18n/common_pluralizations/east_slavic"
-
-RailsI18n::Pluralization::EastSlavic.with_locale(:"uk-UA")
+::RailsI18n::Pluralization::EastSlavic.with_locale(:'uk-UA')

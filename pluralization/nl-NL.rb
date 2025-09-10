@@ -1,5 +1,3 @@
-# frozen_string_literal: true
+require 'rails_i18n/common_pluralizations/one_other'
 
-require "rails_i18n/common_pluralizations/one_other"
-
-RailsI18n::Pluralization::OneOther.with_locale(:"nl-NL")
+::RailsI18n::Pluralization::OneOther.with_locale(:'nl-NL')
