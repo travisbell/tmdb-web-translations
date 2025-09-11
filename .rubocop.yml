@@ -4,6 +4,9 @@ inherit_gem:
 AllCops:
   TargetRubyVersion: 3.4
   NewCops: enable
+  Exclude:
+    - pluralization/**/*.rb
+    - transliteration/**/*.rb
 
 Style/MethodCallWithArgsParentheses:
   Exclude:
