@@ -90,12 +90,12 @@ module TMDb
       ].freeze
 
       SUPPORTED_UI_LANGUAGES = [
-        "en-US", "af-ZA", "ar-EG", "ar-SA", "be-BY", "bg-BG", "bn-BD", "ca-AD", "ca-ES", "cs-CZ", "da-DK", "de-DE", "el-GR",
-        "en-AU", "en-CA", "en-GB", "es-AR", "es-ES", "es-MX", "eu-ES", "fa-IR", "fi-FI", "fr-CA", "fr-FR", "gl-ES", "he-IL",
-        "hi-IN", "hr-HR", "hu-HU", "id-ID", "it-IT", "ja-JP", "ka-GE", "kk-KZ", "kn-IN", "ko-KR", "ku-TR", "lt-LT", "lv-LV",
-        "ml-IN", "nb-NO", "nl-BE", "nl-NL", "no-NO", "pl-PL", "pt-BR", "pt-PT", "ro-RO", "ru-RU", "sk-SK", "sl-SI", "so-SO",
-        "sq-AL", "sr-RS", "sv-SE", "ta-IN", "te-IN", "th-TH", "tr-TR", "uk-UA", "uz-UZ", "vi-VN", "zh-CN", "zh-HK", "zh-SG",
-        "zh-TW"
+        "en-US", "af-ZA", "ar-EG", "ar-SA", "be-BY", "bg-BG", "bn-BD", "bn-IN", "ca-AD", "ca-ES", "cs-CZ", "da-DK", "de-DE",
+        "el-GR", "en-AU", "en-CA", "en-GB", "es-AR", "es-ES", "es-MX", "eu-ES", "fa-IR", "fi-FI", "fr-CA", "fr-FR", "gl-ES",
+        "he-IL", "hi-IN", "hr-HR", "hu-HU", "id-ID", "it-IT", "ja-JP", "ka-GE", "kk-KZ", "kn-IN", "ko-KR", "ku-TR", "lt-LT",
+        "lv-LV", "ml-IN", "nb-NO", "nl-BE", "nl-NL", "no-NO", "pl-PL", "pt-BR", "pt-PT", "ro-RO", "ru-RU", "sk-SK", "sl-SI",
+        "so-SO", "sq-AL", "sr-RS", "sv-SE", "ta-IN", "te-IN", "th-TH", "tr-TR", "uk-UA", "uz-UZ", "vi-VN", "zh-CN", "zh-HK",
+        "zh-SG", "zh-TW"
       ].freeze
 
       class << self
@@ -106,16 +106,16 @@ module TMDb
         def default_iso_3166_1_mapping
           @default_iso_3166_1_mapping ||= DEFAULT_MAPPING.invert.merge(
             "ar-AE" => "ar", "ar-BH" => "ar", "ar-EG" => "ar", "ar-IQ" => "ar", "ar-JO" => "ar", "ar-LY" => "ar", "ar-MA" => "ar",
-            "ar-QA" => "ar", "ar-YE" => "ar", "ar-TD" => "ar", "ca-AD" => "ca", "de-AT" => "de", "de-CH" => "de", "el-CY" => "el",
-            "en-AG" => "en", "en-AU" => "en", "en-BB" => "en", "en-BZ" => "en", "en-CA" => "en", "en-CM" => "en", "en-GB" => "en",
-            "en-GG" => "en", "en-GH" => "en", "en-GI" => "en", "en-GY" => "en", "en-IE" => "en", "en-JM" => "en", "en-KE" => "en",
-            "en-LC" => "en", "en-MW" => "en", "en-NZ" => "en", "en-PG" => "en", "en-TC" => "en", "en-ZM" => "en", "en-ZW" => "en",
-            "es-AR" => "es", "es-CL" => "es", "es-DO" => "es", "es-EC" => "es", "es-GT" => "es", "es-GQ" => "es", "es-HN" => "es",
-            "es-MX" => "es", "es-NI" => "es", "es-PA" => "es", "es-PE" => "es", "es-PY" => "es", "es-SV" => "es", "es-UY" => "es",
-            "fr-BF" => "fr", "fr-CA" => "fr", "fr-CD" => "fr", "fr-CI" => "fr", "fr-GF" => "fr", "fr-GP" => "fr", "fr-MC" => "fr",
-            "fr-ML" => "fr", "fr-MU" => "fr", "fr-PF" => "fr", "it-VA" => "it", "ms-SG" => "ms", "nl-BE" => "nl", "pt-AO" => "pt",
-            "pt-BR" => "pt", "pt-MZ" => "pt", "ro-MD" => "ro", "sr-ME" => "sr", "sq-XK" => "sq", "zh-HK" => "zh", "zh-SG" => "zh",
-            "zh-TW" => "zh"
+            "ar-QA" => "ar", "ar-YE" => "ar", "ar-TD" => "ar", "bn-IN" => "bn", "ca-AD" => "ca", "de-AT" => "de", "de-CH" => "de",
+            "el-CY" => "el", "en-AG" => "en", "en-AU" => "en", "en-BB" => "en", "en-BZ" => "en", "en-CA" => "en", "en-CM" => "en",
+            "en-GB" => "en", "en-GG" => "en", "en-GH" => "en", "en-GI" => "en", "en-GY" => "en", "en-IE" => "en", "en-JM" => "en",
+            "en-KE" => "en", "en-LC" => "en", "en-MW" => "en", "en-NZ" => "en", "en-PG" => "en", "en-TC" => "en", "en-ZM" => "en",
+            "en-ZW" => "en", "es-AR" => "es", "es-CL" => "es", "es-DO" => "es", "es-EC" => "es", "es-GT" => "es", "es-GQ" => "es",
+            "es-HN" => "es", "es-MX" => "es", "es-NI" => "es", "es-PA" => "es", "es-PE" => "es", "es-PY" => "es", "es-SV" => "es",
+            "es-UY" => "es", "fr-BF" => "fr", "fr-CA" => "fr", "fr-CD" => "fr", "fr-CI" => "fr", "fr-GF" => "fr", "fr-GP" => "fr",
+            "fr-MC" => "fr", "fr-ML" => "fr", "fr-MU" => "fr", "fr-PF" => "fr", "it-VA" => "it", "ms-SG" => "ms", "nl-BE" => "nl",
+            "pt-AO" => "pt", "pt-BR" => "pt", "pt-MZ" => "pt", "ro-MD" => "ro", "sr-ME" => "sr", "sq-XK" => "sq", "zh-HK" => "zh",
+            "zh-SG" => "zh", "zh-TW" => "zh"
           )
         end
 
@@ -126,7 +126,7 @@ module TMDb
         end
 
         def valid_i18n_translations
-          @valid_i18n_translations ||= TMDb::Web::Translations.language_list.dup.delete_if { |k, _v| IGNORED_TRANSLATIONS.include?(k) }
+          @valid_i18n_translations ||= TMDb::Web::Translations.language_list.except(*IGNORED_TRANSLATIONS)
         end
 
         def default_iso_3166_1_i18n
