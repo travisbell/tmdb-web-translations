@@ -765,12 +765,18 @@ nl-NL:
   average edits per day: gemiddeld aantal bewerkingen per dag
   awards:
     add_nomination: Nominatie toevoegen
+    admin:
+      delete:
     air_date:
       future: Uitgezonden op %{date}
       past: Uitgezonden op %{date}
     alternative_names: Alternatieve namen
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorieën
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ nl-NL:
       locked:
       media_type:
       name:
+      title: Categorieën
     category_empty: Geen nominaties in deze categorie.
     ceremonies:
-      number: Nummer
-      release_date_max: Uitgebracht op max
-      release_date_min: Uitgebracht op min
-      title: Ceremonies
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,9 +798,23 @@ nl-NL:
       limits:
       location:
       locked:
+      number: Nummer
+      release_date_max: Uitgebracht op max
+      release_date_min: Uitgebracht op min
+      title: Ceremonies
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 nominatie
-      other: "%{count} nominaties"
       add_nomination:
       locked:
       movie:
@@ -805,6 +822,8 @@ nl-NL:
       number:
         one:
         other:
+      one: 1 nominatie
+      other: "%{count} nominaties"
       title:
     nominee: Genomineerde
     show_info:
@@ -821,27 +840,10 @@ nl-NL:
     wins:
       one: 1 overwinning
       other: "%{count} overwinningen"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Terug
+    ceremony:
     episode: Terug naar aflevering
     episode_groups: Terug naar afleveringengroepen
     episode_list: Terug naar afleveringenlijst
@@ -852,8 +854,6 @@ nl-NL:
     season_list: Terug naar seizoenslijst
     to_tmdb: Terug naar TMDB
     top: Terug naar boven
-    award:
-    ceremony:
   certifications:
     certification: Classificatie
     descriptors: Beschrijvingen
@@ -2211,6 +2211,7 @@ nl-NL:
       wrong_length:
     movie:
       duplicate_cast: Deze persoon is al toegevoegd als castlid.
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by: Deze persoon is al toegevoegd als maker.
@@ -2223,7 +2224,6 @@ nl-NL:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Het versturen van je e-mail is mislukt.
   failed_generic: Er heeft zich een probleem voorgedaan.
@@ -3562,6 +3562,22 @@ nl-NL:
   login_to_edit: Log in om te bewerken
   media:
     adult: Erotiek
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Wissen
@@ -3582,6 +3598,9 @@ nl-NL:
           add: Film toevoegen
           no_records: Geen films toegevoegd.
       parts: Delen
+    companies:
+      companies:
+      select:
     company:
       headquarters: Hoofdkantoor
       movie_page_title: Films geproduceerd door %{name}
@@ -3624,6 +3643,9 @@ nl-NL:
         '7': Nog een klein beetje...
         '8': Nog even! We zijn er bijna.
         '9': Bijna klaar...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Huidige titles vergrendelen
@@ -4004,28 +4026,6 @@ nl-NL:
       published_at: Gepubliceerd op
       restricted_regions: Beperkte regio's
       tags: Labels
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

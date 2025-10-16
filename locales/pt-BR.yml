@@ -781,12 +781,18 @@ pt-BR:
   average edits per day: média de edições por dia
   awards:
     add_nomination: Adicionar indicação
+    admin:
+      delete:
     air_date:
       future: Exibição em %{date}
       past: Exibido em %{date}
     alternative_names: Nomes Alternativos
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorias
       add_category:
       categories:
       category:
@@ -798,12 +804,9 @@ pt-BR:
       locked:
       media_type:
       name:
+      title: Categorias
     category_empty: Não há indicações para esta categoria.
     ceremonies:
-      number: Número
-      release_date_max: Estréia
-      release_date_min:
-      title: Cerimônias
       add_ceremony:
       ceremonies:
       ceremony:
@@ -811,9 +814,23 @@ pt-BR:
       limits:
       location:
       locked:
+      number: Número
+      release_date_max: Estréia
+      release_date_min:
+      title: Cerimônias
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: Uma indicação
-      other: "%{count} Indicações"
       add_nomination:
       locked:
       movie:
@@ -821,6 +838,8 @@ pt-BR:
       number:
         one:
         other:
+      one: Uma indicação
+      other: "%{count} Indicações"
       title:
     nominee: Indicado
     show_info:
@@ -837,27 +856,10 @@ pt-BR:
     wins:
       one: 1 Vitória
       other: "%{count} Vitórias"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Voltar
+    ceremony:
     episode: Voltar à lista de episódios
     episode_groups: Voltar aos grupos de episódios
     episode_list: Voltar à lista de episódios
@@ -868,8 +870,6 @@ pt-BR:
     season_list: Voltar à lista de temporadas
     to_tmdb: Voltar ao TMDB
     top: Voltar ao topo
-    award:
-    ceremony:
   certifications:
     certification: Classificação Indicativa
     descriptors: Descritores
@@ -2240,6 +2240,7 @@ pt-BR:
       wrong_length:
     movie:
       duplicate_cast: Esta pessoa já foi adicionada como um membro do elenco.
+    nesting:
     tv:
       create_season_locked: A criação de novas temporadas foi bloqueada para esta série.
       duplicate_created_by: Esta pessoa já foi adicionada como um(a) criador(a).
@@ -2252,7 +2253,6 @@ pt-BR:
       duplicate_season_episode_crew_member: Esta pessoa já foi adicionada como %{job_name} a um episódio desta temporada.  Os créditos da equipe precisam ser adicionados a uma temporada ou a um episódio, e não a ambos.
       missing_credit: O crédito que você estava tentando editar não existe.
       missing_person: A pessoa que você digitou não foi encontrada.
-    nesting:
     wrong_count:
   failed_email: Ocorreu um problema ao enviar seu e-mail.
   failed_generic: Ocorreu um problema.
@@ -3603,6 +3603,22 @@ pt-BR:
   login_to_edit: Entre com uma conta para editar
   media:
     adult: Adulto
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Limpar
@@ -3623,6 +3639,9 @@ pt-BR:
           add: Adicionar Filme
           no_records: Nenhum Filme foi adicionado.
       parts: Itens
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sede
       movie_page_title: Filmes produzidos por %{name}
@@ -3665,6 +3684,9 @@ pt-BR:
         '7': Só mais um pouquinho...
         '8': Não desanima não! Estamos tão perto.
         '9': Quase lá...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Bloquear Títulos Existentes
@@ -4047,28 +4069,6 @@ pt-BR:
       published_at: Publicado em
       restricted_regions: Regiões restritas
       tags: Marcadores
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

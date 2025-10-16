@@ -775,12 +775,18 @@ lv-LV:
   average edits per day: vidējais labojumu skaits dienā
   awards:
     add_nomination: Pievienot izvirzīšanu
+    admin:
+      delete:
     air_date:
       future: Pirmizrāde būs %{date}
       past: Pirmizrāde bija %{date}
     alternative_names: Citi nosaukumi
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategorijas
       add_category:
       categories:
       category:
@@ -792,12 +798,9 @@ lv-LV:
       locked:
       media_type:
       name:
+      title: Kategorijas
     category_empty: Šajā kategorijā nav izvirzīšanu
     ceremonies:
-      number: Skaits
-      release_date_max: Izlaišanas datums (jaunākais)
-      release_date_min: Izlaišanas datums (vecākais)
-      title: Svinīgas norises
       add_ceremony:
       ceremonies:
       ceremony:
@@ -805,10 +808,23 @@ lv-LV:
       limits:
       location:
       locked:
+      number: Skaits
+      release_date_max: Izlaišanas datums (jaunākais)
+      release_date_min: Izlaišanas datums (vecākais)
+      title: Svinīgas norises
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: "%{count} izvirzīšana"
-      other: "%{count} izvirzīšanas"
-      zero: "%{count} izvirzīšanu"
       add_nomination:
       locked:
       movie:
@@ -816,7 +832,10 @@ lv-LV:
       number:
         one:
         other:
+      one: "%{count} izvirzīšana"
+      other: "%{count} izvirzīšanas"
       title:
+      zero: "%{count} izvirzīšanu"
     nominee: Izvirzītais
     show_info:
       directed_by: Režisēja
@@ -833,27 +852,10 @@ lv-LV:
       one: "%{count} uzvara"
       other: "%{count} uzvaras"
       zero: "%{count} uzvaru"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Atpakaļ
+    ceremony:
     episode: Atpakaļ uz sēriju
     episode_groups: Atgriezties uz sēriju kopām
     episode_list: Atgriezties uz sēriju sarakstu
@@ -864,8 +866,6 @@ lv-LV:
     season_list: Atpakaļ uz sezonu sarakstu
     to_tmdb: Atpakaļ uz TMDB
     top: Atpakaļ uz augšu
-    award:
-    ceremony:
   certifications:
     certification: Vecuma pārbaude
     descriptors: Atslēgvārds
@@ -2222,6 +2222,7 @@ lv-LV:
       wrong_length:
     movie:
       duplicate_cast: Šis cilvēks jau ir norādīta kā aktieru sastāva dalībnieks.
+    nesting:
     tv:
       create_season_locked: Jaunu sezonu izveide šim seriālam ir slēgta.
       duplicate_created_by: Šis asmuo jau ir pievienotas kā autorius.
@@ -2234,7 +2235,6 @@ lv-LV:
       duplicate_season_episode_crew_member: Šis cilvēks jau ir pievienots kā %{job_name} šīs sezonas sērijai. Komandas uzskaite ir jāpievieno vai nu sezonai, vai arī sērijai, bet ne abējādi.
       missing_credit: Uzskaitījumus, kuru tika mēģināts labot, nepastāv.
       missing_person: Ievadīto cilvēku nevarēja atrast.
-    nesting:
     wrong_count:
   failed_email: Neizdevās nosūtīt e-pasta ziņojumu.
   failed_generic: Radās sarežģījums.
@@ -3574,6 +3574,22 @@ lv-LV:
   login_to_edit: Jāpiesakās, lai labotu
   media:
     adult: Pieaugušais
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Notīrīt
@@ -3595,6 +3611,9 @@ lv-LV:
           add: Pievienot filmu
           no_records: Nav pievienota neviena filma.
       parts: Daļas
+    companies:
+      companies:
+      select:
     company:
       headquarters: Galvenā mītne
       movie_page_title: Filmas, kuras ir producējis %{name}
@@ -3637,6 +3656,9 @@ lv-LV:
         '7': Vēl tikai mazliet...
         '8': Saņemies! Mēs tagad esam tuvu.
         '9': Gandrīz galā...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Aizslēgt esošos nosaukumus
@@ -4024,28 +4046,6 @@ lv-LV:
       published_at: Publicēts
       restricted_regions: Ierobežotie apgabali
       tags: Birkas
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

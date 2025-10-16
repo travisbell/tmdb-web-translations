@@ -765,12 +765,18 @@ es-PA:
   average edits per day: promedio de ediciones por día
   awards:
     add_nomination: Agregar nominación
+    admin:
+      delete:
     air_date:
       future: Se emite el %{date}
       past: Se transmitió el %{date}
     alternative_names: Nombres Alternativos
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorías
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ es-PA:
       locked:
       media_type:
       name:
+      title: Categorías
     category_empty: No hay nominaciones para esta categoría.
     ceremonies:
-      number: Número
-      release_date_max: Fecha de Lanzamiento Máxima
-      release_date_min: Fecha de Lanzamiento Mínima
-      title: Ceremonias
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,9 +798,23 @@ es-PA:
       limits:
       location:
       locked:
+      number: Número
+      release_date_max: Fecha de Lanzamiento Máxima
+      release_date_min: Fecha de Lanzamiento Mínima
+      title: Ceremonias
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 Nominación
-      other: "%{count} Nominaciones"
       add_nomination:
       locked:
       movie:
@@ -805,6 +822,8 @@ es-PA:
       number:
         one:
         other:
+      one: 1 Nominación
+      other: "%{count} Nominaciones"
       title:
     nominee: Nominado
     show_info:
@@ -821,27 +840,10 @@ es-PA:
     wins:
       one: 1 Ganada
       other: "%{count} Ganadas"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Volver
+    ceremony:
     episode: Volver al episodio
     episode_groups: Volver a los grupos de episodios
     episode_list: Volver a la lista de episodios
@@ -852,8 +854,6 @@ es-PA:
     season_list: Volver a la lista de temporadas
     to_tmdb: Volver a TMDB
     top:
-    award:
-    ceremony:
   certifications:
     certification:
     descriptors:
@@ -2161,6 +2161,7 @@ es-PA:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked: Se ha bloqueado la posibilidad de crear nuevas temporadas para esta serie.
       duplicate_created_by: Esta persona ya fue añadida como creador.
@@ -2173,7 +2174,6 @@ es-PA:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email:
   failed_generic:
@@ -3507,6 +3507,22 @@ es-PA:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3525,6 +3541,9 @@ es-PA:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3567,6 +3586,9 @@ es-PA:
         '7': Solo un poco más...
         '8': "¡Apúrate! Estamos cerca."
         '9': Un poco más
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3927,28 +3949,6 @@ es-PA:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

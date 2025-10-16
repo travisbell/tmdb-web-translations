@@ -755,12 +755,18 @@ kn-IN:
   average edits per day:
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -772,12 +778,9 @@ kn-IN:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -785,6 +788,22 @@ kn-IN:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -799,27 +818,10 @@ kn-IN:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back:
+    ceremony:
     episode:
     episode_groups:
     episode_list:
@@ -830,8 +832,6 @@ kn-IN:
     season_list:
     to_tmdb:
     top:
-    award:
-    ceremony:
   certifications:
     certification:
     descriptors:
@@ -2154,6 +2154,7 @@ kn-IN:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2166,7 +2167,6 @@ kn-IN:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email:
   failed_generic:
@@ -3500,6 +3500,22 @@ kn-IN:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3518,6 +3534,9 @@ kn-IN:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3560,6 +3579,9 @@ kn-IN:
         '7':
         '8':
         '9':
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3920,28 +3942,6 @@ kn-IN:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

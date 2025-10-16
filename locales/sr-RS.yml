@@ -771,12 +771,18 @@ sr-RS:
   average edits per day: просечних уређивања по дану
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -788,12 +794,9 @@ sr-RS:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -801,6 +804,22 @@ sr-RS:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -815,27 +834,10 @@ sr-RS:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Назад
+    ceremony:
     episode: Повратак на епизоду
     episode_groups: Назад на групе епизода
     episode_list: Повратак на листу епизода
@@ -846,8 +848,6 @@ sr-RS:
     season_list: Повратак на листу сезона
     to_tmdb: Назад на ТМДб
     top: Повратак на врх
-    award:
-    ceremony:
   certifications:
     certification: Сертификација
     descriptors:
@@ -2211,6 +2211,7 @@ sr-RS:
       wrong_length:
     movie:
       duplicate_cast: Ова особа је већ додата као члан тима.
+    nesting:
     tv:
       create_season_locked: Креирање нових сезона је закључано за ову серију.
       duplicate_created_by: Ова особа је већ додата као креатор.
@@ -2223,7 +2224,6 @@ sr-RS:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Ваш e-mail није послат.
   failed_generic: Дошло је до проблема.
@@ -3570,6 +3570,22 @@ sr-RS:
   login_to_edit: Пријави се да направиш измену
   media:
     adult: За одрасле
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Очисти
@@ -3592,6 +3608,9 @@ sr-RS:
           add: Додати филм
           no_records: Нису додати филмови.
       parts: Делови
+    companies:
+      companies:
+      select:
     company:
       headquarters: Седиште
       movie_page_title: Филмове продуцирни од стране %{name}
@@ -3634,6 +3653,9 @@ sr-RS:
         '7': Још само малчице...
         '8': Дотерај то мало! Сада смо баш близу.
         '9': Још само мало...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Закључај постојеће наслове
@@ -4028,28 +4050,6 @@ sr-RS:
       published_at: Објављено у
       restricted_regions: Ограничени региони
       tags: Ознаке
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

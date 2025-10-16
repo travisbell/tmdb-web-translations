@@ -767,12 +767,18 @@ bg-BG:
   average edits per day: среден брой промени на ден
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ bg-BG:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,6 +800,22 @@ bg-BG:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -811,27 +830,10 @@ bg-BG:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Назад
+    ceremony:
     episode: Назад към епизода
     episode_groups: Назад към групите епизоди
     episode_list: Назад към списъка с епизоди
@@ -842,8 +844,6 @@ bg-BG:
     season_list: Назад към списъка със сезони
     to_tmdb: Връщане към TMDB
     top: Връщане догоре
-    award:
-    ceremony:
   certifications:
     certification: Категоризация
     descriptors:
@@ -2201,6 +2201,7 @@ bg-BG:
       wrong_length:
     movie:
       duplicate_cast: Тази личност е вече добавена като част от екипа.
+    nesting:
     tv:
       create_season_locked: Създаването на нови сезони е заключено за този сериал.
       duplicate_created_by: Тази личност вече е добавена като създател.
@@ -2213,7 +2214,6 @@ bg-BG:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Изпращането на имейла се провали.
   failed_generic: Възникна проблем.
@@ -3552,6 +3552,22 @@ bg-BG:
   login_to_edit: Влезте, за да редактирате
   media:
     adult: За възрастни
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Изчистване
@@ -3572,6 +3588,9 @@ bg-BG:
           add: Добавяне на филм
           no_records: Не са добавени никакви филми.
       parts: Части
+    companies:
+      companies:
+      select:
     company:
       headquarters: Централа
       movie_page_title: Филми продуцирани от %{name}
@@ -3614,6 +3633,9 @@ bg-BG:
         '7': Още съвсем малко...
         '8': Давай! Близо сме.
         '9': Почти...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3994,28 +4016,6 @@ bg-BG:
       published_at: Публикувано на
       restricted_regions: Ограничени региони
       tags: Етикети
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

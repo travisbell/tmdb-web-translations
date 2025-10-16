@@ -765,12 +765,18 @@ ja-JP:
   average edits per day: 1日あたりの平均編集回数
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ ja-JP:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ ja-JP:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee: ノミネート
     show_info:
@@ -809,27 +828,10 @@ ja-JP:
     title: 受賞
     winner: 受賞者
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: 戻る
+    ceremony:
     episode: エピソードに戻る
     episode_groups: エピソードグループに戻る
     episode_list: エピソード一覧に戻る
@@ -840,8 +842,6 @@ ja-JP:
     season_list: シーズン一覧に戻る
     to_tmdb: TMDbに戻る
     top: トップに戻る
-    award:
-    ceremony:
   certifications:
     certification: 審査(年齢制限)
     descriptors:
@@ -2182,6 +2182,7 @@ ja-JP:
       wrong_length:
     movie:
       duplicate_cast: この人物はすでに出演者として追加されています。
+    nesting:
     tv:
       create_season_locked: このシリーズでは新シーズンの作成がロックされています。
       duplicate_created_by: この人物はすでにスタッフとして追加されています。
@@ -2194,7 +2195,6 @@ ja-JP:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: あなたのメールは送信できませんでした。
   failed_generic: 問題が発生しました。
@@ -3533,6 +3533,22 @@ ja-JP:
   login_to_edit: ログインして編集
   media:
     adult: アダルト
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: クリア
@@ -3553,6 +3569,9 @@ ja-JP:
           add: 映画を追加
           no_records: 追加された映画はありません。
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: 本社所在地
       movie_page_title: "%{name}によって制作された映画"
@@ -3595,6 +3614,9 @@ ja-JP:
         '7': あともうちょっと…
         '8': 気合いを入れて！あともう少し。
         '9': もうすぐだ…
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3973,28 +3995,6 @@ ja-JP:
       published_at: 公開済み：
       restricted_regions: 制限地域
       tags: タグ
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

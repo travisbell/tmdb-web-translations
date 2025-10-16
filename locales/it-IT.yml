@@ -765,12 +765,18 @@ it-IT:
   average edits per day: media modifiche al giorno
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorie
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ it-IT:
       locked:
       media_type:
       name:
+      title: Categorie
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ it-IT:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ it-IT:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Indietro
+    ceremony:
     episode: Torna all'episodio
     episode_groups: Torna ai gruppi episodi
     episode_list: Torna all'elenco degli episodi
@@ -840,8 +842,6 @@ it-IT:
     season_list: Torna all'elenco delle stagioni
     to_tmdb: Torna a TMDB
     top: Torna su
-    award:
-    ceremony:
   certifications:
     certification: Certificazione
     descriptors: Descrittori
@@ -2199,6 +2199,7 @@ it-IT:
       wrong_length:
     movie:
       duplicate_cast: La persona è già presente come membro del cast.
+    nesting:
     tv:
       create_season_locked: La creazione di nuove stagioni è stata bloccata per questa serie.
       duplicate_created_by: La persona è già presente come creatore.
@@ -2211,7 +2212,6 @@ it-IT:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: La tua e-mail non è stata inviata.
   failed_generic: C'è stato un problema.
@@ -3553,6 +3553,22 @@ it-IT:
   login_to_edit: Accedi per modificare
   media:
     adult: Per adulti
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Pulisci
@@ -3573,6 +3589,9 @@ it-IT:
           add: Aggiungi film
           no_records: Non sono stati aggiunti film.
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: Quartier generale
       movie_page_title: Film prodotti da %{name}
@@ -3615,6 +3634,9 @@ it-IT:
         '7': Solo un altro po...
         '8': Forza! Siamo vicini ora.
         '9': Ci siamo quasi...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3991,28 +4013,6 @@ it-IT:
       published_at: Pubblicato Alle
       restricted_regions: Restrizione Paesi
       tags: Tags
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

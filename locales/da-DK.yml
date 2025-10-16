@@ -767,12 +767,18 @@ da-DK:
   average edits per day: gennemsnitlige redigeringer per dag
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ da-DK:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,6 +800,22 @@ da-DK:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -811,27 +830,10 @@ da-DK:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Tilbage
+    ceremony:
     episode: Tilbage til episode
     episode_groups: Tilbage til episodegrupper
     episode_list: Tilbage til episodeliste
@@ -842,8 +844,6 @@ da-DK:
     season_list: Tilbage til sæsonliste
     to_tmdb: Tilbage til TMDB
     top: Tilbage til toppen
-    award:
-    ceremony:
   certifications:
     certification: Alderscertificering
     descriptors: Deskriptorer
@@ -2201,6 +2201,7 @@ da-DK:
       wrong_length:
     movie:
       duplicate_cast: Denne person er allerede tilføjet som skuespiller
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by: Denne person er allerede tilføjet som skaber
@@ -2213,7 +2214,6 @@ da-DK:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Din e-mail mislykkedes at sende.
   failed_generic: Der opstod et problem
@@ -3552,6 +3552,22 @@ da-DK:
   login_to_edit: Log ind for at redigere
   media:
     adult: Voksen
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Ryd
@@ -3570,6 +3586,9 @@ da-DK:
           add: Tilføj film
           no_records: Ingen film er blevet tilføjet.
       parts: Dele
+    companies:
+      companies:
+      select:
     company:
       headquarters: Hovedkvarter
       movie_page_title: Film produceret af %{name}
@@ -3612,6 +3631,9 @@ da-DK:
         '7': Bare en lille smule mere...
         '8': Pump det! Vi er så tæt på nu.
         '9': Næsten...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3976,28 +3998,6 @@ da-DK:
       published_at:
       restricted_regions: Begrænsede regioner
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

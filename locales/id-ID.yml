@@ -763,12 +763,18 @@ id-ID:
   average edits per day: Perhitungan suntingan per hari
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ id-ID:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,6 +796,22 @@ id-ID:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -807,27 +826,10 @@ id-ID:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Kembali
+    ceremony:
     episode: Kembali ke episode
     episode_groups:
     episode_list: Kembali ke daftar episode
@@ -838,8 +840,6 @@ id-ID:
     season_list: Kembali ke daftar musim
     to_tmdb: Kembali ke TMDB
     top: Kembali ke atas
-    award:
-    ceremony:
   certifications:
     certification: Sertifikasi
     descriptors:
@@ -2162,6 +2162,7 @@ id-ID:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2174,7 +2175,6 @@ id-ID:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Surel anda gagal terkirim.
   failed_generic: Terjadi masalah.
@@ -3511,6 +3511,22 @@ id-ID:
   login_to_edit: Masuk untuk menyunting
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3529,6 +3545,9 @@ id-ID:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3571,6 +3590,9 @@ id-ID:
         '7':
         '8':
         '9':
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3931,28 +3953,6 @@ id-ID:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

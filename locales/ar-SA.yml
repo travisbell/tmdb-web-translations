@@ -789,12 +789,18 @@ ar-SA:
   average edits per day: متوسط التعديلات في اليوم
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -806,12 +812,9 @@ ar-SA:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -819,6 +822,22 @@ ar-SA:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -833,27 +852,10 @@ ar-SA:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: عوده
+    ceremony:
     episode: الرجوع إلى الحلقة
     episode_groups: الرجوع إلى مجموعات الحلقة
     episode_list: الرجوع إلى قائمة الحلقات
@@ -864,8 +866,6 @@ ar-SA:
     season_list: الرجوع إلى قائمة المواسم
     to_tmdb: الرجوع إلى TMDB
     top: العودة إلى الأعلى
-    award:
-    ceremony:
   certifications:
     certification: شهادة
     descriptors: الواصفون
@@ -2258,6 +2258,7 @@ ar-SA:
       wrong_length:
     movie:
       duplicate_cast: تمت إضافة هذا الشخص بالفعل كعضو فريق التمثيل.
+    nesting:
     tv:
       create_season_locked: تم إغلاق إنشاء مواسم جديدة لهذه السلسلة.
       duplicate_created_by: تمت إضافة هذا الشخص بالفعل كمتج.
@@ -2270,7 +2271,6 @@ ar-SA:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: فشل البريد الإلكتروني الخاص بك في الإرسال.
   failed_generic: هناك مشكلة.
@@ -3628,6 +3628,22 @@ ar-SA:
   login_to_edit: سجل دخولك لـ التعديل
   media:
     adult: بالغ
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: مسح
@@ -3652,6 +3668,9 @@ ar-SA:
           add: اضافة فلم
           no_records: لم يتم اضافة فلم.
       parts: اجزاء
+    companies:
+      companies:
+      select:
     company:
       headquarters: المقر
       movie_page_title: الأفلام المنتجة بواسطة %{name}
@@ -3694,6 +3713,9 @@ ar-SA:
         '7': نحتاج القليل فقط...
         '8': شدوا الهمة! اقتربنا الآن.
         '9': أوشكنا الوصول...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4102,28 +4124,6 @@ ar-SA:
       published_at: نُشرفي
       restricted_regions: المناطق الممنوعة
       tags: العلامات
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

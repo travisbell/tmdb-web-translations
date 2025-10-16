@@ -775,12 +775,18 @@ hr-HR:
   average edits per day: prosjek uređivanja po danu
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -792,12 +798,9 @@ hr-HR:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -805,6 +808,22 @@ hr-HR:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -819,27 +838,10 @@ hr-HR:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Povratak
+    ceremony:
     episode: Povratak na epizodu
     episode_groups: Povratak na grupu epizoda
     episode_list: Povratak na popis epizoda
@@ -850,8 +852,6 @@ hr-HR:
     season_list: Povratak na popis sezona
     to_tmdb: Povratak na TMDB
     top: Povratak na vrh
-    award:
-    ceremony:
   certifications:
     certification: Potvrda
     descriptors:
@@ -2219,6 +2219,7 @@ hr-HR:
       wrong_length:
     movie:
       duplicate_cast: Ta je osoba već dodana kao član postave.
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by: Ta je osoba već dodana kao autor.
@@ -2231,7 +2232,6 @@ hr-HR:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Vaša e-pošta nije posalana.
   failed_generic: Došlo je do problema.
@@ -3573,6 +3573,22 @@ hr-HR:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Očisti
@@ -3591,6 +3607,9 @@ hr-HR:
           add: Dodaj film
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: Glavno sjedište
       movie_page_title:
@@ -3633,6 +3652,9 @@ hr-HR:
         '7': Još samo malo...
         '8': Stisni zube! Sada smo blizu.
         '9': Skoro smo gotovi...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4001,28 +4023,6 @@ hr-HR:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

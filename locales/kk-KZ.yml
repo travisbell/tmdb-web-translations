@@ -765,12 +765,18 @@ kk-KZ:
   average edits per day: kún boıynsha ortasha óńdemeler
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ kk-KZ:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ kk-KZ:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ kk-KZ:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Oralý
+    ceremony:
     episode: Epızodqa oralý
     episode_groups: Epızod toptaryna oralý
     episode_list: Epızod tizimine oralý
@@ -840,8 +842,6 @@ kk-KZ:
     season_list: Telemaýsym tizimine oralý
     to_tmdb: TMDB úshin oralý
     top: Joǵaryǵa oralý
-    award:
-    ceremony:
   certifications:
     certification: Kýálandyrý
     descriptors:
@@ -2174,6 +2174,7 @@ kk-KZ:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2186,7 +2187,6 @@ kk-KZ:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email:
   failed_generic:
@@ -3522,6 +3522,22 @@ kk-KZ:
   login_to_edit: Óńdeý úshin kirińiz
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Tazalaý
@@ -3542,6 +3558,9 @@ kk-KZ:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: Shtab-páter
       movie_page_title: "%{name} arqyly óńdirilgen fılmder"
@@ -3584,6 +3603,9 @@ kk-KZ:
         '7': Sál artyǵyraq qana...
         '8': Kúshteńiz! Qazir jetemiz.
         '9': Derlik jerdemiz
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3961,28 +3983,6 @@ kk-KZ:
       published_at: Jnynda jarıalanǵan
       restricted_regions: Shekteýli aımaqtar
       tags: Tegter
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

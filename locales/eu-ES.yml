@@ -765,12 +765,18 @@ eu-ES:
   average edits per day: batez besteko aldaketak eguneko
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ eu-ES:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ eu-ES:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ eu-ES:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Itzuli
+    ceremony:
     episode: Itzuli atalera
     episode_groups: Itzuli atal taldeetara
     episode_list: Itzuli atal zerrendara
@@ -840,8 +842,6 @@ eu-ES:
     season_list: Itzuli denboraldi zerrendara
     to_tmdb: Itzuli TMDbra
     top: Itzuli gora
-    award:
-    ceremony:
   certifications:
     certification: Egiaztapena
     descriptors:
@@ -2189,6 +2189,7 @@ eu-ES:
       wrong_length:
     movie:
       duplicate_cast: Pertsona hau dagoeneko gehitua dago aktore gisa.
+    nesting:
     tv:
       create_season_locked: Denboraldi berriak sortzeko aukera blokeatuta dago TB saio honentzat.
       duplicate_created_by: Pertsona hau dagoeneko gehitua dago sortzaile gisa.
@@ -2201,7 +2202,6 @@ eu-ES:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Zure posta elektronikoa ez da ondo bidali.
   failed_generic: Arazo bat izan da.
@@ -3537,6 +3537,22 @@ eu-ES:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3555,6 +3571,9 @@ eu-ES:
           add: Gehitu Filma
           no_records: Ez da filmik gehitu.
       parts: Atalak
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3597,6 +3616,9 @@ eu-ES:
         '7': Pixka bat gehiago bakarrik...
         '8': Eutsi! Gertu gaude.
         '9': Ia iritsi gara...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3960,28 +3982,6 @@ eu-ES:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

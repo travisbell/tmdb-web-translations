@@ -755,12 +755,18 @@ bn-BD:
   average edits per day: প্রতিদিনের গড় সম্পাদনা
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -772,12 +778,9 @@ bn-BD:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -785,6 +788,22 @@ bn-BD:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -799,27 +818,10 @@ bn-BD:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back:
+    ceremony:
     episode:
     episode_groups:
     episode_list:
@@ -830,8 +832,6 @@ bn-BD:
     season_list:
     to_tmdb:
     top:
-    award:
-    ceremony:
   certifications:
     certification: প্রত্যায়ন
     descriptors:
@@ -2158,6 +2158,7 @@ bn-BD:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2170,7 +2171,6 @@ bn-BD:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: আপনার ইমেল পাঠাতে ব্যর্থ হয়েছে।
   failed_generic: সমস্যা রয়েছে।
@@ -3507,6 +3507,22 @@ bn-BD:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3525,6 +3541,9 @@ bn-BD:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3567,6 +3586,9 @@ bn-BD:
         '7':
         '8':
         '9':
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3927,28 +3949,6 @@ bn-BD:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:
