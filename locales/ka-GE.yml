@@ -765,12 +765,18 @@ ka-GE:
   average edits per day: საშუალო რედაქტირებები დღეში
   awards:
     add_nomination: ნომინაციის დამატება
+    admin:
+      delete:
     air_date:
       future: ეთერში გასვლის თარიღი %{date}
       past: ეთერში გასვლის თარიღი %{date}
     alternative_names: ალტერნატიული სახელები
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: კატეგორიები
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ ka-GE:
       locked:
       media_type:
       name:
+      title: კატეგორიები
     category_empty: ამ კატეგორიაში ნომინაციები არ მოიძებნა.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title: ცერემონიები
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ ka-GE:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title: ცერემონიები
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee: ნომინანტი
     show_info:
@@ -809,27 +828,10 @@ ka-GE:
     title: ჯილდოები
     winner: გამარჯვებული
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: უკან
+    ceremony:
     episode: ეპიზოდზე დაბრუნება
     episode_groups: ეპიზოდის ჯგუფებში დაბრუნება
     episode_list: ეპიზოდების სიაში დაბრუნება
@@ -840,8 +842,6 @@ ka-GE:
     season_list: სეზონის სიაში დაბრუნება
     to_tmdb: TMDB-ზე დაბრუნება
     top: თავში დაბრუნება
-    award:
-    ceremony:
   certifications:
     certification: სერთიფიკატი
     descriptors: აღმწერები
@@ -2195,6 +2195,7 @@ ka-GE:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2207,7 +2208,6 @@ ka-GE:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: თქვენი ელფოსტა ვერ გაიგზავნა.
   failed_generic: წარმოიშვა პროლმება
@@ -3546,6 +3546,22 @@ ka-GE:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3566,6 +3582,9 @@ ka-GE:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title: "%{name}-ის მიერ წარმოებული ფილმები"
@@ -3608,6 +3627,9 @@ ka-GE:
         '7': სულ ცოტა მეტი...
         '8': ამოტუმბეთ! ჩვენ ახლა ახლოს ვართ.
         '9': თითქმის...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3970,28 +3992,6 @@ ka-GE:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

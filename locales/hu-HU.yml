@@ -763,12 +763,18 @@ hu-HU:
   average edits per day: átlagos napi szerkesztés
   awards:
     add_nomination: Jelölés hozzáadása
+    admin:
+      delete:
     air_date:
       future: Adásba kerülések %{date}
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ hu-HU:
       locked:
       media_type:
       name:
+      title:
     category_empty: Ebben a kategóriában nincsenek jelölések.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,9 +796,23 @@ hu-HU:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 jelölés
-      other: "%{count} jelölés"
       add_nomination:
       locked:
       movie:
@@ -803,6 +820,8 @@ hu-HU:
       number:
         one:
         other:
+      one: 1 jelölés
+      other: "%{count} jelölés"
       title:
     nominee: Jelölt
     show_info:
@@ -819,27 +838,10 @@ hu-HU:
     wins:
       one: 1 nyertes
       other: "%{count} nyertes"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Vissza
+    ceremony:
     episode: Vissza az epizódhoz
     episode_groups: Vissza az epizód csoportokhoz
     episode_list: Vissza az epizódok listájához
@@ -850,8 +852,6 @@ hu-HU:
     season_list: Vissza az évadok listájához
     to_tmdb: Vissza az TMDb-re
     top: Vissza a tetejére
-    award:
-    ceremony:
   certifications:
     certification: Tanúsítvány
     descriptors:
@@ -2186,6 +2186,7 @@ hu-HU:
         other: nem megfelelő hosszúságú ( %{count} karakter legyen)
     movie:
       duplicate_cast: Ezt a személyt már hozzáadták a szereplőkhöz.
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by: Ezt a személyt már hozzáadták alkotóként.
@@ -2198,7 +2199,6 @@ hu-HU:
       duplicate_season_episode_crew_member:
       missing_credit: A szerkeszteni kívánt stáblista nem létezik.
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Az e-mail elküldése sikertelen.
   failed_generic: Van egy kis probléma.
@@ -3537,6 +3537,22 @@ hu-HU:
   login_to_edit: Jelentkezz be szerkesztéshez
   media:
     adult: Felnőtt
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Törlés
@@ -3555,6 +3571,9 @@ hu-HU:
           add: Film hozzáadása
           no_records: Nincs film hozzáadva.
       parts: Részek
+    companies:
+      companies:
+      select:
     company:
       headquarters: Főhadiszállás
       movie_page_title:
@@ -3597,6 +3616,9 @@ hu-HU:
         '7': Csak egy kicsit még...
         '8': Gyerünk! Szinte már teljesen kész.
         '9': Még egy lépés...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3971,28 +3993,6 @@ hu-HU:
       published_at:
       restricted_regions:
       tags: Címkék
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

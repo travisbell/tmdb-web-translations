@@ -783,12 +783,18 @@ ro-RO:
   average edits per day: Medie de modificări pe zi
   awards:
     add_nomination: Adăugare nominalizare
+    admin:
+      delete:
     air_date:
       future: Se difuzează pe data de %{date}
       past: A fost difuzat pe data de %{date}
     alternative_names: Nume alternative
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorii
       add_category:
       categories:
       category:
@@ -800,12 +806,9 @@ ro-RO:
       locked:
       media_type:
       name:
+      title: Categorii
     category_empty: Nicio nominalizare pentru această categorie.
     ceremonies:
-      number: Număr
-      release_date_max: Dată de lansare maximă
-      release_date_min: Dată de lansare minimă
-      title: Ceremonii
       add_ceremony:
       ceremonies:
       ceremony:
@@ -813,18 +816,34 @@ ro-RO:
       limits:
       location:
       locked:
+      number: Număr
+      release_date_max: Dată de lansare maximă
+      release_date_min: Dată de lansare minimă
+      title: Ceremonii
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      few: "%{count} nominalizări"
-      one: O nominalizare
-      other: "%{count} de nominalizări"
       add_nomination:
+      few: "%{count} nominalizări"
       locked:
       movie:
       nomination:
       number:
-        one:
         few:
+        one:
         other:
+      one: O nominalizare
+      other: "%{count} de nominalizări"
       title:
     nominee: Nominalizat
     show_info:
@@ -842,27 +861,10 @@ ro-RO:
       few: "%{count} victorii"
       one: O victorie
       other: "%{count} de victorii"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Înapoi
+    ceremony:
     episode: Înapoi la episod
     episode_groups: Înapoi la grupul de episoade
     episode_list: Înapoi la lista de episoade
@@ -873,8 +875,6 @@ ro-RO:
     season_list: Înapoi la lista de sezoane
     to_tmdb: Înapoi la TMDB
     top: Înapoi sus
-    award:
-    ceremony:
   certifications:
     certification: Certificare
     descriptors: Descriatori
@@ -2270,6 +2270,7 @@ ro-RO:
         other: are lungimea greșită (ar trebui să aibă %{count} de caractere)
     movie:
       duplicate_cast: Această persoană a fost deja adăugată ca membru al distribuției.
+    nesting:
     tv:
       create_season_locked: Crearea de noi sezoane a fost blocată pentru această serie.
       duplicate_created_by: Această persoană a fost deja adăugată ca și realizator.
@@ -2282,7 +2283,6 @@ ro-RO:
       duplicate_season_episode_crew_member: Această persoană este deja adăugată ca %{job_name} la un episod din acest sezon. Creditele echipei trebuie adăugate fie la un sezon, fie la un episod, și nu la ambele.
       missing_credit: Creditul pe care încercați să îl editați nu există.
       missing_person: Persoana pe care ați introdus-o nu a putut fi găsită.
-    nesting:
     wrong_count:
   failed_email: Email-ul tău nu a putut fi trimis.
   failed_generic: A intervenit o problemă.
@@ -3632,6 +3632,22 @@ ro-RO:
   login_to_edit: Autentificați-vă pentru a edita
   media:
     adult: Adult
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Curăță
@@ -3653,6 +3669,9 @@ ro-RO:
           add: Adăugare film artistic
           no_records: Nu s-au adăugat filme artistice.
       parts: Părți
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sediu
       movie_page_title: Filme produse de %{name}
@@ -3695,6 +3714,9 @@ ro-RO:
         '7': Încă un pic mai mult...
         '8': Forțați! Suntem aproape acum.
         '9': Aproape acolo...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Blochează titlurile existente
@@ -4082,28 +4104,6 @@ ro-RO:
       published_at: Publicat la
       restricted_regions: Regiuni restricționate
       tags: Etichete
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

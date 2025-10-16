@@ -765,12 +765,18 @@ pt-PT:
   average edits per day: média de edições por dia
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ pt-PT:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ pt-PT:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ pt-PT:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Voltar
+    ceremony:
     episode: Voltar ao Episódio
     episode_groups: Voltar ao Grupo de Episódios
     episode_list: Voltar a Lista de Episódios
@@ -840,8 +842,6 @@ pt-PT:
     season_list: Voltar à lista de temporadas
     to_tmdb: Voltar ao TMDB
     top: Voltar ao Topo
-    award:
-    ceremony:
   certifications:
     certification: Classificação Etária
     descriptors: Descritores
@@ -2198,6 +2198,7 @@ pt-PT:
       wrong_length:
     movie:
       duplicate_cast: Esta pessoa já foi adicionada ao elenco.
+    nesting:
     tv:
       create_season_locked: A criação de novas temporadas foi bloqueada para esta série.
       duplicate_created_by: Esta pessoa já foi adicionada como um(a) criador(a).
@@ -2210,7 +2211,6 @@ pt-PT:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: E-mail não enviado.
   failed_generic: Houve um problema.
@@ -3551,6 +3551,22 @@ pt-PT:
   login_to_edit: Iniciar Sessão para Editar
   media:
     adult: Adulto
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Eliminar Filtro
@@ -3571,6 +3587,9 @@ pt-PT:
           add: Adicionar filme
           no_records: Não foi adicionado nenhum filme.
       parts: Partes
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sede
       movie_page_title: Filmes produzidos por %{name}
@@ -3613,6 +3632,9 @@ pt-PT:
         '7': Só mais um pouquinho...
         '8': Não desanime! Estamos tão perto.
         '9': Quase lá...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3991,28 +4013,6 @@ pt-PT:
       published_at: Publicado em
       restricted_regions: Regiões Restringidas
       tags: Etiquetas "Tags"
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

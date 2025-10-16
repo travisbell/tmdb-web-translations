@@ -763,12 +763,18 @@ zh-CN:
   average edits per day: 日均编辑量
   awards:
     add_nomination: 添加提名
+    admin:
+      delete:
     air_date:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
     alternative_names: 其他名称
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: 分类
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ zh-CN:
       locked:
       media_type:
       name:
+      title: 分类
     category_empty: 该分类无提名
     ceremonies:
-      number: 编号
-      release_date_max: 上映日期上限
-      release_date_min: 上映日期下限
-      title: 典礼
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,15 +796,31 @@ zh-CN:
       limits:
       location:
       locked:
+      number: 编号
+      release_date_max: 上映日期上限
+      release_date_min: 上映日期下限
+      title: 典礼
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1项提名
-      other: "%{count} 项提名"
       add_nomination:
       locked:
       movie:
       nomination:
       number:
         other:
+      one: 1项提名
+      other: "%{count} 项提名"
       title:
     nominee: 提名
     show_info:
@@ -818,27 +837,10 @@ zh-CN:
     wins:
       one: 1 项获奖
       other: "%{count} 项获奖"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: 返回
+    ceremony:
     episode: 返回集
     episode_groups: 返回剧集组
     episode_list: 返回集列表
@@ -849,8 +851,6 @@ zh-CN:
     season_list: 返回季列表
     to_tmdb: 返回TMDB
     top: 返回顶部
-    award:
-    ceremony:
   certifications:
     certification: 分级
     descriptors: 描述符
@@ -2211,6 +2211,7 @@ zh-CN:
       wrong_length: 长度错误 (应当为%{count}字符)
     movie:
       duplicate_cast: 此人物已添加为演员。
+    nesting:
     tv:
       create_season_locked: 此剧集已被锁定无法添加新季。
       duplicate_created_by: 此人员已添加为创作者。
@@ -2223,7 +2224,6 @@ zh-CN:
       duplicate_season_episode_crew_member: 此人已作为 %{job_name} 添加到本季的剧集中。 剧组人员名单需要添加到一季或一集中，而不是两处都添加。
       missing_credit: 您尝试编辑的名单不存在。
       missing_person: 找不到您输入的人物。
-    nesting:
     wrong_count:
   failed_email: 邮件发送失败
   failed_generic: 出现问题。
@@ -3568,6 +3568,22 @@ zh-CN:
   login_to_edit: 登录以编辑
   media:
     adult: 成人
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: 清除
@@ -3588,6 +3604,9 @@ zh-CN:
           add: 添加电影
           no_records: 尚未添加电影。
       parts: 内含电影
+    companies:
+      companies:
+      select:
     company:
       headquarters: 总部
       movie_page_title: "%{name} 制作的电影"
@@ -3630,6 +3649,9 @@ zh-CN:
         '7': 只差一点点...
         '8': 加油！成功就在眼前。
         '9': 马上要完成了...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: 锁定现有标题
@@ -4008,28 +4030,6 @@ zh-CN:
       published_at: 发布于
       restricted_regions: 限制区域
       tags: 标签
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

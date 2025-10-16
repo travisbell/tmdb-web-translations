@@ -763,12 +763,18 @@ th-TH:
   average edits per day: ค่าเฉลี่ยการแก้ไขต่อวัน
   awards:
     add_nomination: เพิ่มรายชื่อผู้เข้าชิง
+    admin:
+      delete:
     air_date:
       future: ออกอากาศวันที่ %{date}
       past: ออกอากาศวันที่ %{date}
     alternative_names: ชื่ออื่น
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: หมวดหมู่
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ th-TH:
       locked:
       media_type:
       name:
+      title: หมวดหมู่
     category_empty: ไม่มีการเสนอชื่อสําหรับหมวดหมู่นี้
     ceremonies:
-      number: หมายเลข
-      release_date_max:
-      release_date_min:
-      title: เวที
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,15 +796,31 @@ th-TH:
       limits:
       location:
       locked:
+      number: หมายเลข
+      release_date_max:
+      release_date_min:
+      title: เวที
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: เข้าชิง %{count} สาขา
-      other: เข้าชิง 1 สาขา
       add_nomination:
       locked:
       movie:
       nomination:
       number:
         other:
+      one: เข้าชิง %{count} สาขา
+      other: เข้าชิง 1 สาขา
       title:
     nominee: ผู้เข้าชิง
     show_info:
@@ -818,27 +837,10 @@ th-TH:
     wins:
       one: "%{count} รางวัล"
       other: "%{count} รางวัล"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: กลับไป
+    ceremony:
     episode:
     episode_groups:
     episode_list: กลับไปยังรายชื่อตอน
@@ -849,8 +851,6 @@ th-TH:
     season_list: กลับไปยังรายชื่อซีซั่น
     to_tmdb: กลับไป TMDB
     top: กลับไปด้านบนสุด
-    award:
-    ceremony:
   certifications:
     certification: การจำกัดอายุ
     descriptors: คำบรรยาย
@@ -2200,6 +2200,7 @@ th-TH:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2212,7 +2213,6 @@ th-TH:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email:
   failed_generic:
@@ -3549,6 +3549,22 @@ th-TH:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3567,6 +3583,9 @@ th-TH:
           add:
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3609,6 +3628,9 @@ th-TH:
         '7':
         '8':
         '9':
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3969,28 +3991,6 @@ th-TH:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

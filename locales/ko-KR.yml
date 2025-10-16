@@ -763,12 +763,18 @@ ko-KR:
   average edits per day: 일 평균 편집수
   awards:
     add_nomination: 노미네이션 추가
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names: 다른 이름
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ ko-KR:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,6 +796,22 @@ ko-KR:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -807,27 +826,10 @@ ko-KR:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: 돌아가기
+    ceremony:
     episode: 에피소드로 돌아가기
     episode_groups: 에피소드 그룹으로 돌아가기
     episode_list: 에피소드 목록으로 돌아가기
@@ -838,8 +840,6 @@ ko-KR:
     season_list: 시즌 목록으로 돌아가기
     to_tmdb: TMDb로 돌아가기
     top: 맨 위로 돌아가기
-    award:
-    ceremony:
   certifications:
     certification: 등급
     descriptors: 설명
@@ -2168,6 +2168,7 @@ ko-KR:
       wrong_length:
     movie:
       duplicate_cast: 이미 출연진에 입력된 인물입니다.
+    nesting:
     tv:
       create_season_locked: 이 시리즈에서 새 시즌을 만들 수 없도록 잠겨있습니다.
       duplicate_created_by: 이미 추가되어 있습니다.
@@ -2180,7 +2181,6 @@ ko-KR:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: 메일 발송 실패
   failed_generic: 문제가 발생했습니다.
@@ -3525,6 +3525,22 @@ ko-KR:
   login_to_edit: 편집을 하시려면 로그인 하십시오.
   media:
     adult: 성인
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: 지우기
@@ -3545,6 +3561,9 @@ ko-KR:
           add: 영화 추가
           no_records: 추가된 영화가 없습니다
       parts: 파트
+    companies:
+      companies:
+      select:
     company:
       headquarters: 본사
       movie_page_title: "%{name} 제작 영화"
@@ -3587,6 +3606,9 @@ ko-KR:
         '7': 아주 조금만 더요
         '8': 힘내요! 거의 다 완성되어 가요.
         '9': 완성 직전입니다
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: 제목을 잠급니다
@@ -3965,28 +3987,6 @@ ko-KR:
       published_at:
       restricted_regions: 제한 지역
       tags: 태그
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

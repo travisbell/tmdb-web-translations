@@ -763,12 +763,18 @@ tr-TR:
   average edits per day: günlük ortalama düzenleme sayısı
   awards:
     add_nomination: Aday ekle
+    admin:
+      delete:
     air_date:
       future: Yayınlama %{date}
       past: Yayınlandı %{date}
     alternative_names: Alternatif İsimler
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategoriler
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ tr-TR:
       locked:
       media_type:
       name:
+      title: Kategoriler
     category_empty: Bu kategori için aday yok.
     ceremonies:
-      number: Sayı
-      release_date_max: Maksimum Çıkış Tarihi
-      release_date_min: Minimum Çıkış Tarihi
-      title: Törenler
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,9 +796,23 @@ tr-TR:
       limits:
       location:
       locked:
+      number: Sayı
+      release_date_max: Maksimum Çıkış Tarihi
+      release_date_min: Minimum Çıkış Tarihi
+      title: Törenler
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: "%{count} Aday"
-      other: 1 Aday
       add_nomination:
       locked:
       movie:
@@ -803,6 +820,8 @@ tr-TR:
       number:
         one:
         other:
+      one: "%{count} Aday"
+      other: 1 Aday
       title:
     nominee: Aday
     show_info:
@@ -819,27 +838,10 @@ tr-TR:
     wins:
       one: "%{count} Kazanılan"
       other: 1 Kazanılan
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Geri
+    ceremony:
     episode: Bölüme Geri Dön
     episode_groups: Bölüm gruplarına geri dön
     episode_list: Bölüm listesine geri dön
@@ -850,8 +852,6 @@ tr-TR:
     season_list: Sezon listesine geri dön
     to_tmdb: TMDb'ye Geri Dön
     top: Başa Dön
-    award:
-    ceremony:
   certifications:
     certification: Sertifikasyon
     descriptors: Tanımlayıcılar
@@ -2194,6 +2194,7 @@ tr-TR:
       wrong_length: yanlış uzunluk (%{count} karakter olmalıdır)
     movie:
       duplicate_cast: Bu kişi daha önce oyuncu olarak eklenmiş.
+    nesting:
     tv:
       create_season_locked: Bu dizi için yeni sezonların yaratılması kilitlendi.
       duplicate_created_by: Bu kişi zaten bir içerik oluşturucu olarak eklenmiş.
@@ -2206,7 +2207,6 @@ tr-TR:
       duplicate_season_episode_crew_member: Bu kişi zaten bu sezonun bir bölümüne %{job_name} olarak eklendi. Ekip jeneriklerinin bir sezona veya bir bölüme eklenmesi gerekir; her ikisine birden eklenmesi gerekmez.
       missing_credit: Düzenlemeye çalıştığınız jenerik mevcut değil.
       missing_person: Girdiğiniz kişi bulunamadı.
-    nesting:
     wrong_count:
   failed_email: E-Mail adresinize gönderilemedi
   failed_generic: Bir problem oluştu.
@@ -3551,6 +3551,22 @@ tr-TR:
   login_to_edit: Düzenlemek için oturum aç
   media:
     adult: Yetişkin
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Temizle
@@ -3571,6 +3587,9 @@ tr-TR:
           add: Film Ekle
           no_records: Hiçbir film eklenmemiş.
       parts: Filmler
+    companies:
+      companies:
+      select:
     company:
       headquarters: Genel Merkez
       movie_page_title: "%{name} tarafından çekilen filmler"
@@ -3613,6 +3632,9 @@ tr-TR:
         '7': Biraz daha sabır...
         '8': Ha gayret az kaldı.
         '9': Neredeyse bitti...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Mevcut Başlıkları Kilitle
@@ -3991,28 +4013,6 @@ tr-TR:
       published_at: Yayınlanma Tarihi
       restricted_regions: Kısıtlı Bölgeler
       tags: Etiketler
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

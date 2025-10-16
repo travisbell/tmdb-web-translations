@@ -777,12 +777,18 @@ lt-LT:
   average edits per day: vidutiniškai taisymų per dieną
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -794,12 +800,9 @@ lt-LT:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -807,6 +810,22 @@ lt-LT:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -821,27 +840,10 @@ lt-LT:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Atgal
+    ceremony:
     episode: Atgal į epizodą
     episode_groups: Grįžti į epizodų grupes
     episode_list: Grįžti į epizodo sąrašą
@@ -852,8 +854,6 @@ lt-LT:
     season_list: Atgal į sezono sąrašą
     to_tmdb: Atgal į TMDB
     top: Atgal į viršų
-    award:
-    ceremony:
   certifications:
     certification: Amžiaus cenzas
     descriptors: Raktažodis
@@ -2297,6 +2297,7 @@ lt-LT:
       wrong_length:
     movie:
       duplicate_cast: Šis asmuo jau įtrauktas kaip aktorius.
+    nesting:
     tv:
       create_season_locked: Šiai serijai naujų sezonų kūrimas buvo užrakintas.
       duplicate_created_by: Šis asmuo jau yra pridėtas kaip autorius.
@@ -2309,7 +2310,6 @@ lt-LT:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Jūsų el. laiško nepavyko išsiųsti.
   failed_generic: Įvyko klaida.
@@ -3659,6 +3659,22 @@ lt-LT:
   login_to_edit: Prisijunkite, jeigu norite redaguoti
   media:
     adult: Suaugusiems
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Išvalyti
@@ -3682,6 +3698,9 @@ lt-LT:
           add: Pridėti filmą
           no_records: Nebuvo pridėta jokių filmų.
       parts: Dalys
+    companies:
+      companies:
+      select:
     company:
       headquarters: Pagrindinė būstinė
       movie_page_title: Filmai sukurti %{name}
@@ -3724,6 +3743,9 @@ lt-LT:
         '7': Spustelk dar šiek tiek...
         '8': Varyk! Mes jau arti.
         '9': Ranka pasiekiama...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Užrakinti esamus titrus
@@ -4119,28 +4141,6 @@ lt-LT:
       published_at: Paskelbta
       restricted_regions: Riboti regionai
       tags: Žymos
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

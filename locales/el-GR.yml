@@ -769,12 +769,18 @@ el-GR:
   average edits per day: μέσος όρος επεξεργασιών ανά ημέρα
   awards:
     add_nomination: Προσθήκη υποψηφιότητας
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -786,12 +792,9 @@ el-GR:
       locked:
       media_type:
       name:
+      title:
     category_empty: Δεν υπάρχουν υποψηφιότητες για αυτήν την κατηγορία.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -799,9 +802,23 @@ el-GR:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 Υποψηφιότητα
-      other: "%{count} Υποψηφιότητες"
       add_nomination:
       locked:
       movie:
@@ -809,6 +826,8 @@ el-GR:
       number:
         one:
         other:
+      one: 1 Υποψηφιότητα
+      other: "%{count} Υποψηφιότητες"
       title:
     nominee: Υποψήφιος
     show_info:
@@ -825,27 +844,10 @@ el-GR:
     wins:
       one: 1 Νίκη
       other: "%{count} Νίκες"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Πίσω
+    ceremony:
     episode: Επιστροφή στο επεισόδιο
     episode_groups: Επιστροφή στις ομάδες επεισοδίων
     episode_list: Επιστροφή στη λίστα επεισοδίων
@@ -856,8 +858,6 @@ el-GR:
     season_list: Επιστροφή στη λίστα κύκλων
     to_tmdb: Επιστροφή στο TMDB
     top: Επιστροφή στην κορυφή
-    award:
-    ceremony:
   certifications:
     certification: Καταλληλότητα
     descriptors: Περιγραφείς
@@ -2226,6 +2226,7 @@ el-GR:
       wrong_length:
     movie:
       duplicate_cast: Αυτό το άτομο έχει ήδη προστεθεί ως ηθοποιός.
+    nesting:
     tv:
       create_season_locked: Η δημιουργία νέων κύκλων έχει κλειδωθεί για αυτή τη σειρά.
       duplicate_created_by: Αυτό το άτομο έχει ήδη προστεθεί ως δημιουργός.
@@ -2238,7 +2239,6 @@ el-GR:
       duplicate_season_episode_crew_member: Αυτό το άτομο έχει ήδη προστεθεί ως %{job_name} σε ένα επεισόδιο αυτής της σεζόν. Οι πιστώσεις πληρώματος πρέπει να προστεθούν είτε σε μια σεζόν είτε σε ένα επεισόδιο και όχι και στα δύο.
       missing_credit: Η πίστωση που προσπαθούσατε να επεξεργαστείτε δεν υπάρχει.
       missing_person: Το άτομο που καταχωρήσατε δεν βρέθηκε.
-    nesting:
     wrong_count:
   failed_email: Το email σας απέτυχε να στείλει.
   failed_generic: Υπήρξε κάποιο πρόβλημα.
@@ -3585,6 +3585,22 @@ el-GR:
   login_to_edit: Συνδεθείτε για να επεξεργαστείτε
   media:
     adult: Ενήλικες
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Εκκαθάριση
@@ -3605,6 +3621,9 @@ el-GR:
           add: Προσθήκη Ταινίας
           no_records: Δεν έχουν προστεθεί ταινίες.
       parts: Μέρη
+    companies:
+      companies:
+      select:
     company:
       headquarters: Εγκαταστάσεις
       movie_page_title: 'Ταινίες που έχουν παραχθεί από τον/την %{name} '
@@ -3647,6 +3666,9 @@ el-GR:
         '7': Λίγο ακόμα...
         '8': Ανεβάστε ρυθμούς! Είμαστε κοντά τώρα.
         '9': Σχεδόν φτάσαμε...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Κλείδωμα Υπαρχόντων Τίτλων
@@ -4027,28 +4049,6 @@ el-GR:
       published_at: Δημοσιεύτηκε στο
       restricted_regions: Περιοχές με περιορισμό
       tags: Ετικέτες
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

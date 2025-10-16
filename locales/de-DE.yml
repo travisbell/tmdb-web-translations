@@ -765,12 +765,18 @@ de-DE:
   average edits per day: durchschnittliche Beiträge pro Tag
   awards:
     add_nomination: Nominierung hinzufügen
+    admin:
+      delete:
     air_date:
       future: Ausstrahlung am %{date}
       past: Ausgestrahlt am %{date}
     alternative_names: Alternativnamen
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategorien
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ de-DE:
       locked:
       media_type:
       name:
+      title: Kategorien
     category_empty: Keine Nominierungen für diese Kategorie.
     ceremonies:
-      number: Nummer
-      release_date_max: Maximales Veröffentlichungsdatum
-      release_date_min: Minimales Veröffentlichungsdatum
-      title: Zeremonien
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,9 +798,23 @@ de-DE:
       limits:
       location:
       locked:
+      number: Nummer
+      release_date_max: Maximales Veröffentlichungsdatum
+      release_date_min: Minimales Veröffentlichungsdatum
+      title: Zeremonien
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 Nominierung
-      other: "%{count} Nominierungen"
       add_nomination:
       locked:
       movie:
@@ -805,6 +822,8 @@ de-DE:
       number:
         one:
         other:
+      one: 1 Nominierung
+      other: "%{count} Nominierungen"
       title:
     nominee: Nominiert
     show_info:
@@ -821,27 +840,10 @@ de-DE:
     wins:
       one: 1 Gewinn
       other: "%{count} Gewinne"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Zurück
+    ceremony:
     episode: Zurück zur Folge
     episode_groups: Zurück zu den Folgengruppen
     episode_list: Zurück zur Folgenliste
@@ -852,8 +854,6 @@ de-DE:
     season_list: Zurück zur Staffelliste
     to_tmdb: Zurück zur TMDB
     top: Zurück nach oben
-    award:
-    ceremony:
   certifications:
     certification: Altersfreigabe
     descriptors: Deskriptoren
@@ -2211,6 +2211,7 @@ de-DE:
       wrong_length:
     movie:
       duplicate_cast: Diese Person ist bereits Teil der Besetzung.
+    nesting:
     tv:
       create_season_locked: Das Hinzufügen neuer Staffeln wurde für diese Serie gesperrt.
       duplicate_created_by: Die Person wurde bereits als Urheber hinzugefügt.
@@ -2223,7 +2224,6 @@ de-DE:
       duplicate_season_episode_crew_member: Diese Person wurde schon als %{job_name} einer Folge dieser Staffel hinzugefügt. Creweinträge dürfen nur einer Staffel oder einer Folge hinzugefügt werden, aber nicht beiden.
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Deine E-Mail konnte nicht gesendet werden.
   failed_generic: Es trat ein Fehler auf.
@@ -3570,6 +3570,22 @@ de-DE:
   login_to_edit: Anmelden, um zu bearbeiten
   media:
     adult: Erwachsene
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Zurücksetzen
@@ -3590,6 +3606,9 @@ de-DE:
           add: Film hinzufügen
           no_records: Es wurden keine Filme hinzugefügt.
       parts: Teile
+    companies:
+      companies:
+      select:
     company:
       headquarters: Hauptsitz
       movie_page_title: Filme produziert von %{name}
@@ -3632,6 +3651,9 @@ de-DE:
         '7': Noch ein bisschen mehr …
         '8': Durchhalten! Wir sind fast fertig.
         '9': Fast geschafft …
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Vorhanden Titel sperren
@@ -4012,28 +4034,6 @@ de-DE:
       published_at: Veröffentlicht auf
       restricted_regions: Länderrestriktion
       tags: Schlagwörter
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

@@ -780,12 +780,18 @@ uk-UA:
   average edits per day: у середньому змін на день
   awards:
     add_nomination: Додати номінацію
+    admin:
+      delete:
     air_date:
       future: Відбудеться %{date}
       past: Відбулося %{date}
     alternative_names: Альтернативні назви
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Категорії
       add_category:
       categories:
       category:
@@ -797,12 +803,9 @@ uk-UA:
       locked:
       media_type:
       name:
+      title: Категорії
     category_empty: У цій категорії відсутні номінації.
     ceremonies:
-      number: Номер
-      release_date_max: Дата випуску Макс
-      release_date_min: Дата випуску Мін
-      title: Церемонії
       add_ceremony:
       ceremonies:
       ceremony:
@@ -810,20 +813,36 @@ uk-UA:
       limits:
       location:
       locked:
+      number: Номер
+      release_date_max: Дата випуску Макс
+      release_date_min: Дата випуску Мін
+      title: Церемонії
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      few: "%{count} номінації"
-      many: "%{count} номінації"
-      one: 1 номінація
-      other: "%{count} номінацій"
       add_nomination:
+      few: "%{count} номінації"
       locked:
+      many: "%{count} номінації"
       movie:
       nomination:
       number:
-        one:
         few:
         many:
+        one:
         other:
+      one: 1 номінація
+      other: "%{count} номінацій"
       title:
     nominee: Номінант
     show_info:
@@ -842,27 +861,10 @@ uk-UA:
       many: "%{count} перемоги"
       one: 1 перемога
       other: "%{count} перемог"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Назад
+    ceremony:
     episode: Повернутися до серії
     episode_groups: Повернутися до груп серій
     episode_list: Повернутися до списку серій
@@ -873,8 +875,6 @@ uk-UA:
     season_list: Повернутися до списку сезонів
     to_tmdb: Повернутися до TMDB
     top: Повернутися наверх
-    award:
-    ceremony:
   certifications:
     certification: Сертифікація
     descriptors: Опис
@@ -2277,6 +2277,7 @@ uk-UA:
         other: неправильної довжини (має бути %{count} символів)
     movie:
       duplicate_cast: Ця персона вже додана як член акторського складу.
+    nesting:
     tv:
       create_season_locked: 'Додавання нового сезону для цього серіалу заблоковано. '
       duplicate_created_by: Ця персона вже додана як творець.
@@ -2289,7 +2290,6 @@ uk-UA:
       duplicate_season_episode_crew_member: Ця персона вже додана як %{job_name} до одного з епізодів цього сезону. Титри знімальної групи потрібно додавати або до сезону, або до епізоду, але не до обох.
       missing_credit: Титр, який ви намагалися відредагувати, не існує.
       missing_person: Введену персону не вдалося знайти.
-    nesting:
     wrong_count:
   failed_email: 'Не вдалося надіслати ваш лист. '
   failed_generic: 'Виникла проблема. '
@@ -3641,6 +3641,22 @@ uk-UA:
   login_to_edit: Увійдіть, щоб редагувати
   media:
     adult: Для дорослих
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Очистити
@@ -3663,6 +3679,9 @@ uk-UA:
           add: Додати фільм
           no_records: 'Не додано жодного фільму. '
       parts: Частини
+    companies:
+      companies:
+      select:
     company:
       headquarters: Штаб-квартира
       movie_page_title: Фільми виробництва %{name}
@@ -3705,6 +3724,9 @@ uk-UA:
         '7': Ще трішечки…
         '8': Долийте! Чогось бракує.
         '9': Майже як треба…
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Заблокувати наявні назви
@@ -4099,28 +4121,6 @@ uk-UA:
       published_at: Опубліковано
       restricted_regions: Заборонені регіони
       tags: Теги
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

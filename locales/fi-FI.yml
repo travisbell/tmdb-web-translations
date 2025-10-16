@@ -765,12 +765,18 @@ fi-FI:
   average edits per day: muokkausta päivässä keskimäärin
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ fi-FI:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ fi-FI:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ fi-FI:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Takaisin
+    ceremony:
     episode: Takaisin jaksoon
     episode_groups: Takaisin jaksoryhmiin
     episode_list: Takaisin jaksoluetteloon
@@ -840,8 +842,6 @@ fi-FI:
     season_list: Takaisin kausiluetteloon
     to_tmdb: Takaisin TMDb:hen
     top: Takaisin ylös
-    award:
-    ceremony:
   certifications:
     certification: Luokitus
     descriptors: Kuvaajat
@@ -2202,6 +2202,7 @@ fi-FI:
       wrong_length:
     movie:
       duplicate_cast: Tämä henkilö on jo lisätty näyttelijäksi.
+    nesting:
     tv:
       create_season_locked: Uusien kausien luominen on lukittu tälle sarjalle.
       duplicate_created_by: Tämä henkilö on jo lisätty luojaksi.
@@ -2214,7 +2215,6 @@ fi-FI:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person: Lisäämääsi henkilöä ei löydy.
-    nesting:
     wrong_count:
   failed_email: Sähköpostisi lähettäminen epäonnistui.
   failed_generic: Ilmeni ongelma.
@@ -3559,6 +3559,22 @@ fi-FI:
   login_to_edit: Kirjaudu sisään muokataksesi
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Tyhjennä
@@ -3579,6 +3595,9 @@ fi-FI:
           add: Lisää elokuva
           no_records: Elokuvia ei ole lisätty.
       parts: Osat
+    companies:
+      companies:
+      select:
     company:
       headquarters: Pääkonttori
       movie_page_title: Elokuvat jotka on tuottanut %{name}
@@ -3621,6 +3640,9 @@ fi-FI:
         '7': Vielä pieni ponnistus...
         '8': Vielä jaksaa! Alkaa olla jo valmista.
         '9': Melkein valmista...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4001,28 +4023,6 @@ fi-FI:
       published_at: Julkaistu
       restricted_regions: Rajoitetut alueet
       tags: Tunnisteet
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

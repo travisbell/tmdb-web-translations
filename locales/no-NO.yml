@@ -765,12 +765,18 @@ no-NO:
   average edits per day: gjennomsnittlig endringer per dag
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ no-NO:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ no-NO:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ no-NO:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Tilbake
+    ceremony:
     episode: Tilbake til episode
     episode_groups: Tilbkae til episodegruppene
     episode_list: Tilbake til episodelisten
@@ -840,8 +842,6 @@ no-NO:
     season_list: Tilbake til sesonglisten
     to_tmdb: Tilbake til TMDB
     top: Tilbake til toppen
-    award:
-    ceremony:
   certifications:
     certification: Klassifisering
     descriptors: Beskrivere
@@ -2172,6 +2172,7 @@ no-NO:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2184,7 +2185,6 @@ no-NO:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Feil ved sending av e-post.
   failed_generic: En feil har oppstått.
@@ -3526,6 +3526,22 @@ no-NO:
   login_to_edit:
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3544,6 +3560,9 @@ no-NO:
           add: Legg til film
           no_records: Ingen filmer har blitt lagt til
       parts: Deler
+    companies:
+      companies:
+      select:
     company:
       headquarters:
       movie_page_title:
@@ -3586,6 +3605,9 @@ no-NO:
         '7': Bare litt til…
         '8': Kjør på! Vi er nærme nå.
         '9': Nesten der…
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Lås eksisterende titler
@@ -3951,28 +3973,6 @@ no-NO:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

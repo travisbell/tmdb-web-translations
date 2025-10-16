@@ -763,12 +763,18 @@ fa-IR:
   average edits per day: متوسط ویرایش به‌ازای هر روز
   awards:
     add_nomination: افزودن نامزدی
+    admin:
+      delete:
     air_date:
       future: در %{date} پخش خواهد شد
       past: در %{date} پخش شد
     alternative_names: نام‌های جایگزین
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ fa-IR:
       locked:
       media_type:
       name:
+      title:
     category_empty: هیچ نامزدی برای این دسته وجود ندارد.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title: مراسم‌ها
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,15 +796,31 @@ fa-IR:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title: مراسم‌ها
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: ۱ نامزدی
-      other: "%{count} نامزدی"
       add_nomination:
       locked:
       movie:
       nomination:
       number:
         other:
+      one: ۱ نامزدی
+      other: "%{count} نامزدی"
       title:
     nominee: نامزد شده
     show_info:
@@ -818,27 +837,10 @@ fa-IR:
     wins:
       one: ۱ برد
       other: "%{count} برد"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: بازگشت
+    ceremony:
     episode: بازگشت به قسمت
     episode_groups: بازگشت به گروه‌های قسمت
     episode_list: بازگشت به فهرست قسمت
@@ -849,8 +851,6 @@ fa-IR:
     season_list: بازگشت به فهرست فصل
     to_tmdb: TMDB بازگشت به
     top: بازگشت به بالا
-    award:
-    ceremony:
   certifications:
     certification: گواهی
     descriptors: توصیف‌گرها
@@ -2205,6 +2205,7 @@ fa-IR:
       wrong_length:
     movie:
       duplicate_cast: این شخص پیشتر به‌عنوان یک بازیگر اضافه شده است.
+    nesting:
     tv:
       create_season_locked: ساخت فصل‌های جدید برای این سریال قفل شده است.
       duplicate_created_by: این فرد قبلا به‌عنوان سازنده اضافه شده است.
@@ -2217,7 +2218,6 @@ fa-IR:
       duplicate_season_episode_crew_member: این شخص قبلا به‌عنوان یک %{job_name} به قسمتی از این فصل اضافه شده است. عنوان‌بندی عوامل پشت دوربین باید به یک فصل یا یک قسمت اضافه شود و نه هر دو.
       missing_credit: عنوان‌بندی را که می‌خواهید ویرایش کنید وجود ندارد.
       missing_person: شخصی که وارد کردید پیدا نشد.
-    nesting:
     wrong_count:
   failed_email: ارسال ایمیل شما شکست خورد.
   failed_generic: مشکلی پیش آمد.
@@ -3562,6 +3562,22 @@ fa-IR:
   login_to_edit: به سیستم وارد شوید تا ویرایش کنید
   media:
     adult: بزرگسال
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: پاک‌سازی
@@ -3582,6 +3598,9 @@ fa-IR:
           add: افزودن فیلم
           no_records: هیچ فیلمی اضافه نشد.
       parts: بخش‌ها
+    companies:
+      companies:
+      select:
     company:
       headquarters: دفتر مرکزی
       movie_page_title: فیلم‌های تولید شده توسط %{name}
@@ -3624,6 +3643,9 @@ fa-IR:
         '7': فقط کمی بیشتر...
         '8': به تلاشت ادامه بده! الان دیگر به آخرش رسیدیم.
         '9': تقریبا تمومه...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: قفل عناوین موجود
@@ -4002,28 +4024,6 @@ fa-IR:
       published_at: منتشر شده در
       restricted_regions: مناطق محدود
       tags: برچسب‌ها
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

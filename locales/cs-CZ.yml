@@ -767,12 +767,18 @@ cs-CZ:
   average edits per day: úprav v průměru za den
   awards:
     add_nomination: Přidat nominaci
+    admin:
+      delete:
     air_date:
       future: Bude se vysílat %{date}
       past: Vysílalo se %{date}
     alternative_names: Alternativní jména
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategorie
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ cs-CZ:
       locked:
       media_type:
       name:
+      title: Kategorie
     category_empty: V této kategorii není žádná nominace.
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title: Slavnostní předávání
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,18 +800,34 @@ cs-CZ:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title: Slavnostní předávání
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      few: "%{count} nominace"
-      one: 1 nominace
-      other: "%{count} nominací"
       add_nomination:
+      few: "%{count} nominace"
       locked:
       movie:
       nomination:
       number:
-        one:
         few:
+        one:
         other:
+      one: 1 nominace
+      other: "%{count} nominací"
       title:
     nominee: Nominace
     show_info:
@@ -826,27 +845,10 @@ cs-CZ:
       few: ''
       one: 1 vítězství
       other: "%{count} vítězství"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Zpět
+    ceremony:
     episode: Zpět na epizodu
     episode_groups: Zpět na skupiny epizod
     episode_list: Zpět na seznam epizod
@@ -857,8 +859,6 @@ cs-CZ:
     season_list: Zpět na seznam sezón
     to_tmdb: Zpět na TMDB
     top: Zpět nahoru
-    award:
-    ceremony:
   certifications:
     certification: Certifikace
     descriptors:
@@ -2228,6 +2228,7 @@ cs-CZ:
       wrong_length:
     movie:
       duplicate_cast: Tato osoba již je přidána jako člen obsazení.
+    nesting:
     tv:
       create_season_locked: Vytváření nových sezón bylo pro tento seriál uzamčeno.
       duplicate_created_by: Tato osoba již je přidána jako tvůrce.
@@ -2240,7 +2241,6 @@ cs-CZ:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Váš e-mail se nepodařilo odeslat.
   failed_generic: Došlo k problému.
@@ -3584,6 +3584,22 @@ cs-CZ:
   login_to_edit: Pro úpravu se přihlaste
   media:
     adult: Pro dospělé
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Zrušit filtr
@@ -3605,6 +3621,9 @@ cs-CZ:
           add: Přidat film
           no_records: Nebyly přidány žádné filmy.
       parts: Díly
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sídlo
       movie_page_title: Filmy od společnosti %{name}
@@ -3647,6 +3666,9 @@ cs-CZ:
         '7': Ještě trochu víc...
         '8': Do toho! Jsme už blízko.
         '9': Už to bude...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Uzamknout názvy
@@ -4034,28 +4056,6 @@ cs-CZ:
       published_at: Publikováno
       restricted_regions:
       tags: Štítky
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

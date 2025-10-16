@@ -777,12 +777,18 @@ pl-PL:
   average edits per day: średnio edycji na dzień
   awards:
     add_nomination: Dodaj nominację
+    admin:
+      delete:
     air_date:
       future: Emisje %{date}
       past: Emitowany %{date}
     alternative_names: Alternatywne nazwy
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategorie
       add_category:
       categories:
       category:
@@ -794,12 +800,9 @@ pl-PL:
       locked:
       media_type:
       name:
+      title: Kategorie
     category_empty: Brak nominacji w tej kategorii
     ceremonies:
-      number: Liczba
-      release_date_max: Data wydania Max
-      release_date_min: Data wydania Min
-      title: Ceremonie
       add_ceremony:
       ceremonies:
       ceremony:
@@ -807,19 +810,35 @@ pl-PL:
       limits:
       location:
       locked:
+      number: Liczba
+      release_date_max: Data wydania Max
+      release_date_min: Data wydania Min
+      title: Ceremonie
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      few: "%{count} nominacje"
-      one: 1 nominacja
-      other: "%{count} nominacji"
       add_nomination:
+      few: "%{count} nominacje"
       locked:
       movie:
       nomination:
       number:
-        one:
         few:
         many:
+        one:
         other:
+      one: 1 nominacja
+      other: "%{count} nominacji"
       title:
     nominee: Nominowany
     show_info:
@@ -834,27 +853,10 @@ pl-PL:
     title: Nagrody
     winner: Zwycięzca
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Wróć
+    ceremony:
     episode: Wróć do odcinka
     episode_groups: Powrót do grup odcinków
     episode_list: Wróć do listy odcinków
@@ -865,8 +867,6 @@ pl-PL:
     season_list: Wróć do listy sezonów
     to_tmdb: Wróć do TMDB
     top: Wróć do góry
-    award:
-    ceremony:
   certifications:
     certification: Certyfikacja
     descriptors:
@@ -2229,6 +2229,7 @@ pl-PL:
       wrong_length:
     movie:
       duplicate_cast: Ta osoba jest już dodana jako członek obsady.
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by: Ta osoba już została dodana jako twórca.
@@ -2241,7 +2242,6 @@ pl-PL:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Wystąpił błąd przy wysyłaniu e-maila.
   failed_generic: Wystąpił problem.
@@ -3586,6 +3586,22 @@ pl-PL:
   login_to_edit: Zaloguj się, aby edytować
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3604,6 +3620,9 @@ pl-PL:
           add: Dodaj film
           no_records:
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: Siedziba
       movie_page_title:
@@ -3646,6 +3665,9 @@ pl-PL:
         '7': Jeszcze tylko troszeczkę...
         '8': Jesteśmy już tak blisko!
         '9': Już prawie...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4006,28 +4028,6 @@ pl-PL:
       published_at:
       restricted_regions:
       tags: Tagi
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

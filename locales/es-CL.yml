@@ -765,12 +765,18 @@ es-CL:
   average edits per day: cantidad promedio de modificaciones diarias
   awards:
     add_nomination: Agregar nominación
+    admin:
+      delete:
     air_date:
       future: Se estrena el %{date}
       past: Se estrenó el %{date}
     alternative_names: Nombres alternativos
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorías
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ es-CL:
       locked:
       media_type:
       name:
+      title: Categorías
     category_empty: No existen nominaciones para esta categoría.
     ceremonies:
-      number: Número
-      release_date_max: Fecha límite de lanzamiento
-      release_date_min: Fecha mínima de lanzamiento
-      title: Ceremonias
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,9 +798,23 @@ es-CL:
       limits:
       location:
       locked:
+      number: Número
+      release_date_max: Fecha límite de lanzamiento
+      release_date_min: Fecha mínima de lanzamiento
+      title: Ceremonias
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 nominación
-      other: "%{count} nominaciones"
       add_nomination:
       locked:
       movie:
@@ -805,6 +822,8 @@ es-CL:
       number:
         one:
         other:
+      one: 1 nominación
+      other: "%{count} nominaciones"
       title:
     nominee: Nominado
     show_info:
@@ -821,27 +840,10 @@ es-CL:
     wins:
       one: 1 premio
       other: "%{count} premios"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Regresar
+    ceremony:
     episode: Regresar al episodio
     episode_groups: Regresar a los grupos de episodios
     episode_list: Regresar al listado de episodios
@@ -852,8 +854,6 @@ es-CL:
     season_list: Regresar al listado de temporadas
     to_tmdb: Regresar a TMDB
     top: Volver al principio
-    award:
-    ceremony:
   certifications:
     certification: Clasificación
     descriptors: Descriptores
@@ -2141,6 +2141,7 @@ es-CL:
       wrong_length:
     movie:
       duplicate_cast:
+    nesting:
     tv:
       create_season_locked:
       duplicate_created_by:
@@ -2153,7 +2154,6 @@ es-CL:
       duplicate_season_episode_crew_member:
       missing_credit: El crédito que quisiste modificar no existe.
       missing_person:
-    nesting:
     wrong_count:
   failed_email:
   failed_generic:
@@ -3493,6 +3493,22 @@ es-CL:
   login_to_edit: Accede para modificar
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear:
@@ -3511,6 +3527,9 @@ es-CL:
           add: Agregar película
           no_records: No se agregó ninguna película.
       parts:
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
@@ -3553,6 +3572,9 @@ es-CL:
         '7':
         '8':
         '9':
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Bloquear títulos actuales
@@ -3921,28 +3943,6 @@ es-CL:
       published_at:
       restricted_regions:
       tags:
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

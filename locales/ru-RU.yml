@@ -777,12 +777,18 @@ ru-RU:
   average edits per day: в среднем, правок за день
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -794,12 +800,9 @@ ru-RU:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -807,6 +810,22 @@ ru-RU:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -821,27 +840,10 @@ ru-RU:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Назад
+    ceremony:
     episode: Назад к эпизоду
     episode_groups: Назад к группе эпизодов
     episode_list: Назад к списку эпизодов
@@ -852,8 +854,6 @@ ru-RU:
     season_list: Назад к списку сезонов
     to_tmdb: Назад к TMDB
     top: Наверх
-    award:
-    ceremony:
   certifications:
     certification: Возрастная категория
     descriptors:
@@ -2223,6 +2223,7 @@ ru-RU:
       wrong_length:
     movie:
       duplicate_cast: Эта персона уже добавлена в актёрский состав.
+    nesting:
     tv:
       create_season_locked: Создание новых сезонов для этого сериала заблокировано.
       duplicate_created_by: Эта персона уже добавлена как создатель.
@@ -2235,7 +2236,6 @@ ru-RU:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Не удалось отправить ваше письмо.
   failed_generic: Возникла проблема.
@@ -3587,6 +3587,22 @@ ru-RU:
   login_to_edit: Войти для правки
   media:
     adult: Для взрослых
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Очистить
@@ -3609,6 +3625,9 @@ ru-RU:
           add: Добавить фильм
           no_records: Нет добавленных фильмов
       parts: Части
+    companies:
+      companies:
+      select:
     company:
       headquarters: Штаб-квартира
       movie_page_title: Фильмы, созданные %{name}
@@ -3651,6 +3670,9 @@ ru-RU:
         '7': Еще немного, еще чуть-чуть.
         '8': Поднажми! Уже почти у цели.
         '9': Почти готово...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4045,28 +4067,6 @@ ru-RU:
       published_at: Опубликовано на
       restricted_regions: Ограничение По Регионам
       tags: Теги
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

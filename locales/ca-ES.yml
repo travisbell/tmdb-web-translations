@@ -767,12 +767,18 @@ ca-ES:
   average edits per day: mitjana d'edicions per dia
   awards:
     add_nomination: Afegeix nominació
+    admin:
+      delete:
     air_date:
       future: S'emet el %{date}
       past: Emès el %{date}
     alternative_names: Noms alternatius
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categories
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ ca-ES:
       locked:
       media_type:
       name:
+      title: Categories
     category_empty: Categoria deserta.
     ceremonies:
-      number: Número
-      release_date_max: Data d'emissió màx
-      release_date_min: Data d'emissió min
-      title: Cerimònies
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,9 +800,23 @@ ca-ES:
       limits:
       location:
       locked:
+      number: Número
+      release_date_max: Data d'emissió màx
+      release_date_min: Data d'emissió min
+      title: Cerimònies
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 nominació
-      other: "%{count} nominacions"
       add_nomination:
       locked:
       movie:
@@ -807,6 +824,8 @@ ca-ES:
       number:
         one:
         other:
+      one: 1 nominació
+      other: "%{count} nominacions"
       title:
     nominee: Nominat
     show_info:
@@ -823,27 +842,10 @@ ca-ES:
     wins:
       one: 1 guardó
       other: "%{count} guardons"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Torna
+    ceremony:
     episode: Torna a l'episodi
     episode_groups: Torna al grup d'episodis
     episode_list: Torna a la llista d'episodis
@@ -854,8 +856,6 @@ ca-ES:
     season_list: Torna a la llista de temporades
     to_tmdb: Torna a TMDB
     top: Torna a dalt
-    award:
-    ceremony:
   certifications:
     certification: Classificació per edats
     descriptors: Descriptors
@@ -2239,6 +2239,7 @@ ca-ES:
         other: és l'allargada errònia (hauria de ser %{count} caràcters)
     movie:
       duplicate_cast: Aquest artista ja està afegit com a membre de repartiment.
+    nesting:
     tv:
       create_season_locked: La creació de noves temporades ha estat blocada per aquesta sèrie.
       duplicate_created_by: Aquest artista ja ha estat afegit com a creador.
@@ -2251,7 +2252,6 @@ ca-ES:
       duplicate_season_episode_crew_member: Aquesta persona ja s'ha afegit com a %{job_name} a un episodi d'aquesta sessió. Els crèdits de l'equip tècnic han de ser afegits a una temporada o episodi, però no a tots dos.
       missing_credit: El crèdit que intentàveu obrir no existeix.
       missing_person: No s'ha pogut trobar la persona que heu introduït.
-    nesting:
     wrong_count:
   failed_email: No s'ha pogut enviar el vostre correu electrònic.
   failed_generic: Hi ha hagut un problema.
@@ -3597,6 +3597,22 @@ ca-ES:
   login_to_edit: Inicieu la sessió per a editar
   media:
     adult: Adult
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Neteja
@@ -3617,6 +3633,9 @@ ca-ES:
           add: Afegiu-hi una pel·lícula
           no_records: No s'hi han afegit pel·lícules.
       parts: Parts
+    companies:
+      companies:
+      select:
     company:
       headquarters: Seu
       movie_page_title: Pel·lícules produïdes per %{name}
@@ -3659,6 +3678,9 @@ ca-ES:
         '7': Només una miqueta més...
         '8': Fum-li fort, que ja hi som!
         '9': Ja gairebé hi som...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Bloca els títols existents
@@ -4039,28 +4061,6 @@ ca-ES:
       published_at: Publicat a
       restricted_regions: Regions restingides
       tags: Etiquetes
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

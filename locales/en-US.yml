@@ -765,12 +765,18 @@ en-US:
   average edits per day: average edits per day
   awards:
     add_nomination: Add nomination
+    admin:
+      delete: Delete Award
     air_date:
       future: Airs %{date}
       past: Aired %{date}
     alternative_names: Alternative Names
+    award: Award
+    broadcast_episode: Broadcast Episode
+    broadcast_episode_tooltip: Linking to a TV episode will display production information.
+    broadcast_series: Broadcast Series
+    broadcast_series_tooltip: Linking a TV series allows displaying production information for each ceremony.
     categories:
-      title: Categories
       add_category: Add Category
       categories: Categories
       category: Category
@@ -782,12 +788,9 @@ en-US:
       locked: Adding new categories has been disabled and locked by a moderator.
       media_type: Media Type
       name: Name
+      title: Categories
     category_empty: No nominations for this category.
     ceremonies:
-      number: Number
-      release_date_max: Release Date Max
-      release_date_min: Release Date Min
-      title: Ceremonies
       add_ceremony: Add ceremony
       ceremonies: Ceremonies
       ceremony: Ceremony
@@ -795,9 +798,23 @@ en-US:
       limits: Limits
       location: Location
       locked: Adding new ceremonies has been disabled and locked by a moderator.
+      number: Number
+      release_date_max: Release Date Max
+      release_date_min: Release Date Min
+      title: Ceremonies
+    field:
+      homepage: Homepage
+      name: Name
+      overview: Overview
+    new_award:
+      award_details: Award Details
+      click_next: This 3 step wizard will walk you through the creation process. To get started, click next.
+      getting_started: Getting Started
+      header_1: New Award
+      header_2: Add a New Award
+      note: Adding a new award on TMDB is simple and easy. If you have any questions about how our editing system works make sure to read through our <a href="%{bible_href}">contribition bible</a> or stop by the <a href="%{talk_href}">forums</a>.
+      verify: Verify and Save
     nominations:
-      one: 1 Nomination
-      other: "%{count} Nominations"
       add_nomination: Add Nomination
       locked: Adding new nominations has been disabled and locked by a moderator.
       movie: Movie
@@ -805,6 +822,8 @@ en-US:
       number:
         one:
         other:
+      one: 1 Nomination
+      other: "%{count} Nominations"
       title: Nominations
     nominee: Nominee
     show_info:
@@ -821,27 +840,10 @@ en-US:
     wins:
       one: 1 Win
       other: "%{count} Wins"
-    award: Award
-    broadcast_episode: Broadcast Episode
-    broadcast_episode_tooltip: Linking to a TV episode will display production information.
-    broadcast_series: Broadcast Series
-    broadcast_series_tooltip: Linking a TV series allows displaying production information for each ceremony.
-    field:
-      homepage: Homepage
-      name: Name
-      overview: Overview
-    new_award:
-      award_details: Award Details
-      click_next: This 3 step wizard will walk you through the creation process. To get started, click next.
-      getting_started: Getting Started
-      header_1: New Award
-      header_2: Add a New Award
-      note: Adding a new award on TMDB is simple and easy. If you have any questions about how our editing system works make sure to read through our <a href="%{bible_href}">contribition bible</a> or stop by the <a href="%{talk_href}">forums</a>.
-      verify: Verify and Save
-    admin:
-      delete: Delete Award
   back_options:
+    award: Back to award
     back: Back
+    ceremony: Back to ceremony
     episode: Back to episode
     episode_groups: Back to episode groups
     episode_list: Back to episode list
@@ -852,8 +854,6 @@ en-US:
     season_list: Back to season list
     to_tmdb: Back to TMDB
     top: Back to top
-    award: Back to award
-    ceremony: Back to ceremony
   certifications:
     certification: Certification
     descriptors: Descriptors
@@ -2236,6 +2236,7 @@ en-US:
         other: is the wrong length (should be %{count} characters)
     movie:
       duplicate_cast: This person is already added as a cast member.
+    nesting: has invalid nesting
     tv:
       create_season_locked: The creation of new seasons has been locked for this series.
       duplicate_created_by: This person is already added as a creator.
@@ -2248,7 +2249,6 @@ en-US:
       duplicate_season_episode_crew_member: This person is already added as a %{job_name} to an episode of this season. Crew credits need to be added to either a season, or an episode, and not both.
       missing_credit: The credit you were trying to edit doesn't exist.
       missing_person: The person you entered could not be found.
-    nesting: has invalid nesting
     wrong_count: is the wrong length (must have %{count} items)
   failed_email: Your email failed to send.
   failed_generic: There was a problem.
@@ -3595,6 +3595,22 @@ en-US:
   login_to_edit: Login to edit
   media:
     adult: Adult
+    alternative_names:
+      add_name: Add Name
+      alternative_names: Alternative Names
+      name: Name
+      no_records: No alternative names have been added.
+    award:
+      edit:
+        adult:
+          adult_award: Adult Award
+        title_logos: Title Logos
+      header:
+        latest_ceremony: Check out the latest ceremony
+        upcoming_ceremony: Check out the upcoming ceremony
+    cast_credits:
+      cast_credits: Cast Credits
+      select: Select cast credits...
     changes:
       filters:
         clear: Clear
@@ -3615,6 +3631,9 @@ en-US:
           add: Add Movie
           no_records: No movies have been added.
       parts: Parts
+    companies:
+      companies: Companies
+      select: Select companies...
     company:
       headquarters: Headquarters
       movie_page_title: Movies produced by %{name}
@@ -3657,6 +3676,9 @@ en-US:
         '7': Just a little bit more...
         '8': Pump it up! We're close now.
         '9': Almost there...
+    crew_credits:
+      crew_credits: Crew Credits
+      select: Select crew credits...
     edit:
       alternative_title:
         lock_existing: Lock Existing Titles
@@ -4037,28 +4059,6 @@ en-US:
       published_at: Published At
       restricted_regions: Restricted Regions
       tags: Tags
-    alternative_names:
-      add_name: Add Name
-      alternative_names: Alternative Names
-      name: Name
-      no_records: No alternative names have been added.
-    award:
-      edit:
-        adult:
-          adult_award: Adult Award
-        title_logos: Title Logos
-      header:
-        latest_ceremony: Check out the latest ceremony
-        upcoming_ceremony: Check out the upcoming ceremony
-    cast_credits:
-      cast_credits: Cast Credits
-      select: Select cast credits...
-    companies:
-      companies: Companies
-      select: Select companies...
-    crew_credits:
-      crew_credits: Crew Credits
-      select: Select crew credits...
     wizard:
       award_details: Award Details
       getting_started: Getting Started

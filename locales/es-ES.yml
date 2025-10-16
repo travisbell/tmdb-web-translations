@@ -767,12 +767,18 @@ es-ES:
   average edits per day: promedio de ediciones por día
   awards:
     add_nomination: Añadir nominación
+    admin:
+      delete:
     air_date:
       future: Se emite %{date}
       past: Emitido %{date}
     alternative_names: Nombres alternativos
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Categorías
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ es-ES:
       locked:
       media_type:
       name:
+      title: Categorías
     category_empty: No hay nominaciones en esta categoría.
     ceremonies:
-      number: 'Número '
-      release_date_max: Fecha máxima de estreno
-      release_date_min: Fecha mínima de estreno
-      title: Ceremonias
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,9 +800,23 @@ es-ES:
       limits:
       location:
       locked:
+      number: 'Número '
+      release_date_max: Fecha máxima de estreno
+      release_date_min: Fecha mínima de estreno
+      title: Ceremonias
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
-      one: 1 nominación
-      other: "%{count} nominaciones"
       add_nomination:
       locked:
       movie:
@@ -807,6 +824,8 @@ es-ES:
       number:
         one:
         other:
+      one: 1 nominación
+      other: "%{count} nominaciones"
       title:
     nominee: Nominado
     show_info:
@@ -823,27 +842,10 @@ es-ES:
     wins:
       one: 1 victoria
       other: "%{count} victorias"
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Volver
+    ceremony:
     episode: Volver al episodio
     episode_groups: Volver al grupo de episodios
     episode_list: Volver a la lista de episodios
@@ -854,8 +856,6 @@ es-ES:
     season_list: Volver a lista de temporadas
     to_tmdb: Volver a TMDB
     top: Volver arriba
-    award:
-    ceremony:
   certifications:
     certification: Certificación
     descriptors: Descriptores
@@ -2240,6 +2240,7 @@ es-ES:
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
+    nesting:
     tv:
       create_season_locked: La creación de nuevas temporadas ha sido bloqueada en este programa de televisión .
       duplicate_created_by: Esta persona ya está añadida como creador.
@@ -2252,7 +2253,6 @@ es-ES:
       duplicate_season_episode_crew_member: Esta persona ya está agregada como %{job_name} a un episodio de esta temporada. Los créditos del equipo deben agregarse a una temporada o a un episodio, y no a ambos.
       missing_credit: Los créditos que intentabas editar, no existen.
       missing_person: No se pudo encontrar la persona que ingresó.
-    nesting:
     wrong_count:
   failed_email: No se ha podido enviar tu correo electrónico.
   failed_generic: Ha habido un problema.
@@ -3599,6 +3599,22 @@ es-ES:
   login_to_edit: Iniciar sesión para editar
   media:
     adult: Adulto
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Limpiar
@@ -3619,6 +3635,9 @@ es-ES:
           add: Añadir película
           no_records: No se han añadido películas.
       parts: Partes
+    companies:
+      companies:
+      select:
     company:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
@@ -3661,6 +3680,9 @@ es-ES:
         '7': Solo un poco más...
         '8': "¡Vamos! Estamos muy muy cerca."
         '9': Ya casi...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: Bloquear títulos existentes
@@ -4041,28 +4063,6 @@ es-ES:
       published_at: Publicado en
       restricted_regions: Regiones restringidas
       tags: Etiquetas
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

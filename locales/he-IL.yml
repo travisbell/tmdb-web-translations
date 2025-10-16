@@ -763,12 +763,18 @@ he-IL:
   average edits per day: ממוצע עריכות ליום
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -780,12 +786,9 @@ he-IL:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -793,6 +796,22 @@ he-IL:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -807,27 +826,10 @@ he-IL:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: אחורה
+    ceremony:
     episode: אחורה אל פרק
     episode_groups: אחורה אל קבוצות פרקים
     episode_list: אחורה אל רשימת פרקים
@@ -838,8 +840,6 @@ he-IL:
     season_list: אחורה אל רשימת עונות
     to_tmdb: אחורה אל TMDB
     top: אחורה אל ראש
-    award:
-    ceremony:
   certifications:
     certification: סיווג צפייה
     descriptors: מתארים
@@ -2197,6 +2197,7 @@ he-IL:
       wrong_length:
     movie:
       duplicate_cast: איש זה התווסף כבר בתור חבר להק
+    nesting:
     tv:
       create_season_locked: היצירה של עונות חדשות ננעלה עבור סדרה זו.
       duplicate_created_by: איש זה התווסף כבר בתור יוצר
@@ -2209,7 +2210,6 @@ he-IL:
       duplicate_season_episode_crew_member: ".אדם זה התווסף כבר כ%{job_name} אל פרק של העונה הזאת. קרדיטים של סגל צריכים להתווסף אל עונה או פרק, ולא אל שניהם"
       missing_credit: ".הקרדיט שאתה מנסה לערוך אינו קיים"
       missing_person: ".האדם שהכנסת לא היה יכול להימצא"
-    nesting:
     wrong_count:
   failed_email: ישנה בעיה בשליחת הדוא״ל שלך
   failed_generic: הייתה בעיה.
@@ -3556,6 +3556,22 @@ he-IL:
   login_to_edit: היכנס כדי לערוך
   media:
     adult: מבוגר
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: נקה
@@ -3576,6 +3592,9 @@ he-IL:
           add: הוסף סרט
           no_records: ".סרטים לא התווספו עדין"
       parts: חלקים
+    companies:
+      companies:
+      select:
     company:
       headquarters: מַטֶה
       movie_page_title: "%{name} סרטים שהופקו ע״י"
@@ -3618,6 +3637,9 @@ he-IL:
         '7': רק עוד קצת
         '8': אנחנו קרובים עכשיו
         '9': כמעט שם
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing: נעל כותרים קיימים
@@ -3998,28 +4020,6 @@ he-IL:
       published_at: פורסם ב
       restricted_regions: אזורים מוגבלים
       tags: תגיות
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

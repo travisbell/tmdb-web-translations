@@ -765,12 +765,18 @@ sv-SE:
   average edits per day: genomsnittliga ändringar per dag
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title: Kategorier
       add_category:
       categories:
       category:
@@ -782,12 +788,9 @@ sv-SE:
       locked:
       media_type:
       name:
+      title: Kategorier
     category_empty: Inga nomineringar i denna kategori.
     ceremonies:
-      number: Nummer
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -795,6 +798,22 @@ sv-SE:
       limits:
       location:
       locked:
+      number: Nummer
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -809,27 +828,10 @@ sv-SE:
     title:
     winner: Vinnare
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Tillbaka
+    ceremony:
     episode: Tillbaka till avsnitt
     episode_groups: Tillbaka till avsnittsgrupper
     episode_list: Tillbaka till avsnittslistan
@@ -840,8 +842,6 @@ sv-SE:
     season_list: Tillbaka till säsongerna
     to_tmdb: Tillbaka till TMDB
     top: Tillbaka till toppen
-    award:
-    ceremony:
   certifications:
     certification: Åldersgräns
     descriptors: Deskriptorer
@@ -2199,6 +2199,7 @@ sv-SE:
       wrong_length:
     movie:
       duplicate_cast: Denna personen är redan tillagd som en skådespelare.
+    nesting:
     tv:
       create_season_locked: Skapandet av nya säsonger har låsts för denna serie.
       duplicate_created_by: Den här personen har redan lagts till som en skapare.
@@ -2211,7 +2212,6 @@ sv-SE:
       duplicate_season_episode_crew_member: Den här personen är redan tillagd som %{job_name} till ett avsnitt av den här säsongen. Medarbetare måste läggas till antingen en säsong eller ett avsnitt, och inte båda.
       missing_credit:
       missing_person: Personen du skrev in kunde inte hittas.
-    nesting:
     wrong_count:
   failed_email: Ditt e-postmeddelande skickades tyvärr inte.
   failed_generic: Det uppstod ett problem.
@@ -3550,6 +3550,22 @@ sv-SE:
   login_to_edit: Logga in för att redigera
   media:
     adult:
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Rensa
@@ -3570,6 +3586,9 @@ sv-SE:
           add: Lägg till film
           no_records: Inga filmer har blivit tillagda.
       parts: Delar
+    companies:
+      companies:
+      select:
     company:
       headquarters: Huvudkontor
       movie_page_title: Filmer producerade av %{name}
@@ -3612,6 +3631,9 @@ sv-SE:
         '7': Bara lite till...
         '8':
         '9': Nästan där...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3986,28 +4008,6 @@ sv-SE:
       published_at: Publicerad vid
       restricted_regions: Regionbegränsning
       tags: Taggar
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

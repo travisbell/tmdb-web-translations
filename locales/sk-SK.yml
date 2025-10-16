@@ -767,12 +767,18 @@ sk-SK:
   average edits per day: premierne úprav za deň
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -784,12 +790,9 @@ sk-SK:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -797,6 +800,22 @@ sk-SK:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -811,27 +830,10 @@ sk-SK:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: Späť
+    ceremony:
     episode: Späť na epizódu
     episode_groups: Späť na skupinu epizód
     episode_list: Späť na zoznam epizód
@@ -842,8 +844,6 @@ sk-SK:
     season_list: Späť na zoznam sérií
     to_tmdb: Späť na TMDB
     top: Späť na vrch
-    award:
-    ceremony:
   certifications:
     certification: Prístupnosť
     descriptors:
@@ -2206,6 +2206,7 @@ sk-SK:
       wrong_length:
     movie:
       duplicate_cast: Táto osoba je už pridaná ako člen štábu.
+    nesting:
     tv:
       create_season_locked: Vytváranie nových sérií bolo pre tento seriál zamknuté.
       duplicate_created_by: Táto osoba je už pridaná ako tvorca.
@@ -2218,7 +2219,6 @@ sk-SK:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: Odoslanie emailu zlyhalo.
   failed_generic: Nastal problém.
@@ -3559,6 +3559,22 @@ sk-SK:
   login_to_edit: Prihlás sa pre úpravu
   media:
     adult: Pre dospelých
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: Vyčistiť
@@ -3580,6 +3596,9 @@ sk-SK:
           add: Pridať film
           no_records: Neboli pridané žiadne filmy.
       parts: Časti
+    companies:
+      companies:
+      select:
     company:
       headquarters: Centrála
       movie_page_title: Film produkovaný %{name}
@@ -3622,6 +3641,9 @@ sk-SK:
         '7': Chce to ešte trochu viac...
         '8': Nevzdávame sa! Už sme tak blízko.
         '9': Už sme takmer tam...
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -4009,28 +4031,6 @@ sk-SK:
       published_at: Publikované na
       restricted_regions: Obmedzené regióny
       tags: Tagy
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:

@@ -761,12 +761,18 @@ zh-HK:
   average edits per day: 每日平均編輯量
   awards:
     add_nomination:
+    admin:
+      delete:
     air_date:
       future:
       past:
     alternative_names:
+    award:
+    broadcast_episode:
+    broadcast_episode_tooltip:
+    broadcast_series:
+    broadcast_series_tooltip:
     categories:
-      title:
       add_category:
       categories:
       category:
@@ -778,12 +784,9 @@ zh-HK:
       locked:
       media_type:
       name:
+      title:
     category_empty:
     ceremonies:
-      number:
-      release_date_max:
-      release_date_min:
-      title:
       add_ceremony:
       ceremonies:
       ceremony:
@@ -791,6 +794,22 @@ zh-HK:
       limits:
       location:
       locked:
+      number:
+      release_date_max:
+      release_date_min:
+      title:
+    field:
+      homepage:
+      name:
+      overview:
+    new_award:
+      award_details:
+      click_next:
+      getting_started:
+      header_1:
+      header_2:
+      note:
+      verify:
     nominations:
     nominee:
     show_info:
@@ -805,27 +824,10 @@ zh-HK:
     title:
     winner:
     wins:
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
-    field:
-      homepage:
-      name:
-      overview:
-    new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
-    admin:
-      delete:
   back_options:
+    award:
     back: 返回
+    ceremony:
     episode: 回到集數
     episode_groups: 回到集數群
     episode_list: 回到集數清單
@@ -836,8 +838,6 @@ zh-HK:
     season_list: 回到影集清單
     to_tmdb: 返回至 TMDB
     top: 回到開頭頁
-    award:
-    ceremony:
   certifications:
     certification: 分級
     descriptors:
@@ -2185,6 +2185,7 @@ zh-HK:
       wrong_length:
     movie:
       duplicate_cast: 已存在於演員群中
+    nesting:
     tv:
       create_season_locked: 已封鎖建立此影集的新季數的設定。
       duplicate_created_by: 已存在於導演群中
@@ -2197,7 +2198,6 @@ zh-HK:
       duplicate_season_episode_crew_member:
       missing_credit:
       missing_person:
-    nesting:
     wrong_count:
   failed_email: 郵件傳送錯誤
   failed_generic: 發生了問題
@@ -3531,6 +3531,22 @@ zh-HK:
   login_to_edit: 登入編輯
   media:
     adult: 成人
+    alternative_names:
+      add_name:
+      alternative_names:
+      name:
+      no_records:
+    award:
+      edit:
+        adult:
+          adult_award:
+        title_logos:
+      header:
+        latest_ceremony:
+        upcoming_ceremony:
+    cast_credits:
+      cast_credits:
+      select:
     changes:
       filters:
         clear: 清除
@@ -3551,6 +3567,9 @@ zh-HK:
           add: 新增電影
           no_records: 沒有添加的電影。
       parts: 部分
+    companies:
+      companies:
+      select:
     company:
       headquarters: 總部
       movie_page_title: 此電影由 %{name} 製作
@@ -3593,6 +3612,9 @@ zh-HK:
         '7': 還有一點點⋯
         '8': 完成！
         '9': 幾乎要完成了⋯
+    crew_credits:
+      crew_credits:
+      select:
     edit:
       alternative_title:
         lock_existing:
@@ -3961,28 +3983,6 @@ zh-HK:
       published_at: 發佈時間為
       restricted_regions: 限制區域
       tags: 標籤
-    alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
-    award:
-      edit:
-        adult:
-          adult_award:
-        title_logos:
-      header:
-        latest_ceremony:
-        upcoming_ceremony:
-    cast_credits:
-      cast_credits:
-      select:
-    companies:
-      companies:
-      select:
-    crew_credits:
-      crew_credits:
-      select:
     wizard:
       award_details:
       getting_started:
