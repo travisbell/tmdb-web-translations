@@ -3,19 +3,19 @@
 
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
-require "yaml"
-require "tempfile"
 require "optparse"
+require "tempfile"
+require "yaml"
 
 require "tmdb/web/translations"
 require "tmdb/i18n_patch"
 
 # This synchronizes keys from a reference file to target files.
-# Usage: ruby script/sync.rb [options] [target_file1 target_file2 ...]
+# Usage: ruby script/patch.rb [options] [target_file1 target_file2 ...]
 
 OptionParser.new do |parser|
   parser.banner = "Usage: #{$PROGRAM_NAME} [options]"
-  parser.on("--no-sort-keys", "Dont't sort top level keys") do
+  parser.on("--no-sort-keys", "Don't sort top level keys") do
     @no_sort_keys = false
   end
   parser.on("-v", "--verbose", "Verbose output") do
