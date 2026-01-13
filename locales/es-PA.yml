@@ -4087,19 +4087,19 @@ es-PA:
   number:
     currency:
       format:
-        delimiter:
-        format:
-        precision:
-        separator:
-        significant:
-        strip_insignificant_zeros:
-        unit:
+        delimiter: "."
+        format: "%n%u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "$"
     format:
-      delimiter:
-      precision:
-      separator:
-      significant:
-      strip_insignificant_zeros:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
     human:
       decimal_units:
         format:
