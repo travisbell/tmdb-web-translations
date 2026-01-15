@@ -2266,6 +2266,7 @@ ar-SA:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: تمت إضافة هذا الشخص بالفعل كعضو فريق التمثيل.
     nesting:
@@ -4198,7 +4199,7 @@ ar-SA:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: "%{count} أشهر"

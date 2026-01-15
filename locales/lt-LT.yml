@@ -2305,6 +2305,7 @@ lt-LT:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Šis asmuo jau įtrauktas kaip aktorius.
     nesting:
@@ -4212,7 +4213,7 @@ lt-LT:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: "%{count} mėnesius"

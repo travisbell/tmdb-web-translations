@@ -2212,6 +2212,7 @@ zh-TW:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: 此人已存在於演員群組中。
     nesting:
@@ -4087,7 +4088,7 @@ zh-TW:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month: "%{count} 個月"
   navigation:

@@ -2180,6 +2180,7 @@ no-NO:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -4036,7 +4037,7 @@ no-NO:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: måned

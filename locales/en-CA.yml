@@ -567,8 +567,8 @@ en-CA:
             Unsubscribed:
             status:
         number_of_items:
-          one: '%{count} Email'
-          other: '%{count} Emails'
+          one: "%{count} Email"
+          other: "%{count} Emails"
       events:
       notifications:
         filters:
@@ -581,8 +581,8 @@ en-CA:
             type:
         notifications:
         number_of_items:
-          one: '%{count} Notification'
-          other: '%{count} Notifications'
+          one: "%{count} Notification"
+          other: "%{count} Notifications"
       page_title:
         recent_events:
       recent:
@@ -1703,59 +1703,59 @@ en-CA:
   create_api:
   date:
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
     abbr_month_names:
-      -
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%Y-%m-%d'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%Y-%m-%d"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
   day: day
   days:
     one: day
-    other: '%{count} days'
+    other: "%{count} days"
   deleted_content:
     entry_deleted:
     reasons:
@@ -1935,11 +1935,11 @@ en-CA:
     no_discussions:
     pagination:
       post_summary:
-        one: '%{count} reply (on page %{current_page} of %{total_pages})'
-        other: '%{count} replies (on page %{current_page} of %{total_pages})'
+        one: "%{count} reply (on page %{current_page} of %{total_pages})"
+        other: "%{count} replies (on page %{current_page} of %{total_pages})"
       summary:
-        one: '%{count} discussion, currently on page %{current_page} of %{total_pages}'
-        other: '%{count} discussions, currently on page %{current_page} of %{total_pages}'
+        one: "%{count} discussion, currently on page %{current_page} of %{total_pages}"
+        other: "%{count} discussions, currently on page %{current_page} of %{total_pages}"
     post:
       delete:
       edit:
@@ -2192,6 +2192,7 @@ en-CA:
       wrong_length:
         one: is the wrong length (should be %{count} character)
         other: is the wrong length (should be %{count} characters)
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -2330,11 +2331,11 @@ en-CA:
       validation_header:
   invalid_aspect_ratio:
   item_count:
-    one: '%{count} item'
-    other: '%{count} items'
+    one: "%{count} item"
+    other: "%{count} items"
   item_count_more:
-    one: '%{count} more...'
-    other: '%{count} more...'
+    one: "%{count} more..."
+    other: "%{count} more..."
   jobs:
     '"A" Camera Operator':
     '"B" Camera Operator':
@@ -3570,8 +3571,8 @@ en-CA:
         language:
         user:
       number_of_changes:
-        one: '%{count} Change'
-        other: '%{count} Changes'
+        one: "%{count} Change"
+        other: "%{count} Changes"
       view_weekly_leaderboard:
     character:
       edit:
@@ -3812,8 +3813,8 @@ en-CA:
       not_rateable:
       rated_with_rating:
       rating_count:
-        one: '%{count} Rating'
-        other: '%{count} Ratings'
+        one: "%{count} Rating"
+        other: "%{count} Ratings"
       removed:
       score_breakdown:
       score_distribution:
@@ -3935,8 +3936,8 @@ en-CA:
           group:
           messages:
             episodes_added:
-              one: '%{count} episode added!'
-              other: '%{count} episodes added!'
+              one: "%{count} episode added!"
+              other: "%{count} episodes added!"
           name:
           no_records:
           type:
@@ -3962,8 +3963,8 @@ en-CA:
       episode_groups:
         groups:
           count:
-            one: '%{count} Group'
-            other: '%{count} Groups'
+            one: "%{count} Group"
+            other: "%{count} Groups"
         original_air_date:
       networks:
       primary_characters:
@@ -4023,8 +4024,8 @@ en-CA:
     notifications:
       new_message:
     number_of_messages:
-      one: '%{count} message'
-      other: '%{count} messages'
+      one: "%{count} message"
+      other: "%{count} messages"
     options:
       admin:
       archive:
@@ -4056,11 +4057,11 @@ en-CA:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: month
-    other: '%{count} months'
+    other: "%{count} months"
   navigation:
     discover:
       discover:
@@ -4141,17 +4142,17 @@ en-CA:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision:
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: '$'
+        unit: "$"
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -4183,8 +4184,8 @@ en-CA:
       format:
         delimiter:
   number_of_edits:
-    one: '%{count} edit'
-    other: '%{count} edits'
+    one: "%{count} edit"
+    other: "%{count} edits"
   number_of_items:
   number_of_results:
   number_of_translations:
@@ -4225,9 +4226,9 @@ en-CA:
       sd:
     page_title:
     seasons:
-      many: '%{count} seasons'
-      one: '%{count} season'
-      other: '%{count} seasons'
+      many: "%{count} seasons"
+      one: "%{count} season"
+      other: "%{count} seasons"
     view_offers:
     watch_now:
     watch_on:
@@ -4257,7 +4258,7 @@ en-CA:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4521,17 +4522,17 @@ en-CA:
   success_sharing:
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am: am
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm: pm
     units:
       hours:
@@ -4598,8 +4599,8 @@ en-CA:
         sort:
       type:
     number_of_videos:
-      one: '%{count} video'
-      other: '%{count} videos'
+      one: "%{count} video"
+      other: "%{count} videos"
     official_channel:
     page_title:
     popular:

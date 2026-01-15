@@ -540,7 +540,7 @@ sv-SE:
         tv: Tv
       page_title:
         page_owner: Min senaste aktivitet
-        public: '%{username}s senaste aktivitet'
+        public: "%{username}s senaste aktivitet"
       table:
         action: Åtgärd
         edit: Redigera
@@ -554,7 +554,7 @@ sv-SE:
       not_watching: 'Du bevakar inga diskussioner.  '
       page_title:
         page_owner: Mina diskussioner
-        public: '%{username}s diskussioner'
+        public: "%{username}s diskussioner"
     events:
       all: Alla
       emails:
@@ -569,8 +569,8 @@ sv-SE:
             Unsubscribed: Avanmäld
             status: Status
         number_of_items:
-          one: '%{count} e-postmeddelande'
-          other: '%{count} e-postmeddelanden'
+          one: "%{count} e-postmeddelande"
+          other: "%{count} e-postmeddelanden"
       events: Evenemang
       notifications:
         filters:
@@ -583,8 +583,8 @@ sv-SE:
             type: Typ
         notifications: Notiser
         number_of_items:
-          one: '%{count} avisering'
-          other: '%{count} aviseringar'
+          one: "%{count} avisering"
+          other: "%{count} aviseringar"
       page_title:
         recent_events: Senaste händelser
       recent: Nyligen
@@ -595,10 +595,10 @@ sv-SE:
     favorites:
       my_favorites:
         logged_in: Mina favoriter
-        public: '%{username}s favoriter'
+        public: "%{username}s favoriter"
       page_title:
         page_owner: Mina favoriter
-        public: '%{username}s favoriter'
+        public: "%{username}s favoriter"
     filter_by: 'Filtrera efter:'
     filters:
       air_date: Sändningsdatum
@@ -620,13 +620,13 @@ sv-SE:
       last_updated: Uppdaterad
       my_lists:
         logged_in: Mina listor
-        public: '%{username}s listor'
+        public: "%{username}s listor"
       no_lists:
         logged_in: Du har inte skapat några listor.
-        public: '%{username} har inte några offentliga listor att dela'
+        public: "%{username} har inte några offentliga listor att dela"
       page_title:
         page_owner: Mina listor
-        public: '%{username}s listor'
+        public: "%{username}s listor"
     member_since: Medlem sedan %{date}
     navigation:
       discussions: Diskussioner
@@ -643,12 +643,12 @@ sv-SE:
       30_day_activity: 30-dagars aktivitet
       empty_recent_activity:
         logged_in: Du har inte gjort några redigeringar nyligen.
-        public: '%{username} har inte gjort några redigeringar nyligen.'
+        public: "%{username} har inte gjort några redigeringar nyligen."
       empty_upcoming_watchlist:
         logged_in: Det finns inga kommande filmer på din bevakningslista.
       empty_watched_genres:
         logged_in: Du har inte loggat några filmer eller tv-serier.
-        public: '%{username} har inte loggat några filmer eller tv-serier.'
+        public: "%{username} har inte loggat några filmer eller tv-serier."
       goto_discussions: Gå till diskussioner
       goto_watchlist: Gå till bevakningslista
       most_watched_genres: Mest sedda genrer
@@ -660,17 +660,17 @@ sv-SE:
       upcoming_watchlist: Kommande från bevakningslista
     page_title:
       page_owner: Min profil
-      public: '%{username}s profil'
+      public: "%{username}s profil"
     ratings_reviews:
       my_ratings:
         logged_in: Mina betyg
-        public: '%{username}s betyg'
+        public: "%{username}s betyg"
       my_reviews:
         logged_in: Mina recensioner
-        public: '%{username}s recensioner'
+        public: "%{username}s recensioner"
       page_title:
         page_owner: Mina betyg & recensioner
-        public: '%{username}s betyg & recensioner'
+        public: "%{username}s betyg & recensioner"
       ratings_by_year: Betyg per år
     recommendations:
       my_recommendations: Mina rekommendationer
@@ -691,7 +691,7 @@ sv-SE:
     watchlist:
       my_watchlist:
         logged_in: Min bevakningslista
-        public: '%{username}s bevakningslista'
+        public: "%{username}s bevakningslista"
       next_month: Nästa månad
       no_upcoming_movies:
         one: Det finns inga kommande filmer på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
@@ -701,12 +701,12 @@ sv-SE:
         other: Det finns inga kommande tv-serier på din bevakningslista. Det finns däremot %{count} objekt i din bevakningslista.
       page_title:
         page_owner: Min bevakningslista
-        public: '%{username}s bevakningslista'
+        public: "%{username}s bevakningslista"
       this_month: Denna månad
       this_week: Denna vecka
       view_them: Visa dem.
   add_to_list: Lägg till %{media_title} till en av dina listor ...
-  already_translated_in: '%{page_title} är redan översatt till följande språk ...'
+  already_translated_in: "%{page_title} är redan översatt till följande språk ..."
   api_for_business:
     api_for_business:
     form:
@@ -737,13 +737,13 @@ sv-SE:
       message: Ett igenkänningstecken för begäran krävs för att autentisera användarkonton.
       title: Saknar igenkänningstecken för begäran
     request_token_approval:
-      message: '{{APP}} frågar efter ditt tillstånd att läsa och skriva data åt dig. Detta behövs om du till exempel vill ändra i listor eller betygssätta filmer utifrån TMDB.'
+      message: "{{APP}} frågar efter ditt tillstånd att läsa och skriva data åt dig. Detta behövs om du till exempel vill ändra i listor eller betygssätta filmer utifrån TMDB."
     statuses:
       completed:
         message: Du har beviljat läs- och skrivrättigheter till <strong>%{application_name}</strong>. Du kan nu återgå till applikationen och stänga detta fönster. Du kan alltid återkalla denna åtkomst genom att gå till din kontoinställningssida och sedan till din "Anslutna appar"-sida.
         name: Autentisering godkänd
       denied:
-        message: '<p>Du har nekat åtkomst till <strong>%{application_name}</strong>. Om detta var ett misstag eller om du vill starta autentiseringen igen, gå då tillbaka till applikationen och begär tillgång en gång till.</p>'
+        message: "<p>Du har nekat åtkomst till <strong>%{application_name}</strong>. Om detta var ett misstag eller om du vill starta autentiseringen igen, gå då tillbaka till applikationen och begär tillgång en gång till.</p>"
         name: Autentisering nekad
       invalid_request_token:
         message: Igenkänningstecknet för åtkomst som du har skickat med är ogiltigt. Detta beror oftast på att igenkänningstecknet har upphört att gälla. Testa att skapa ett nytt och se till att du har kopierat det korrekt. Om problemen fortsätter, kontakta utvecklaren av appen som du använder.
@@ -962,15 +962,15 @@ sv-SE:
           meaning: Kommersiell distribution förbjuden.
       FR:
         '1':
-          meaning: '(Tous publics) tillåten från alla åldrar.'
+          meaning: "(Tous publics) tillåten från alla åldrar."
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) olämplig för barn under 10 år (denna åldersgräns används endast för tv); motsvarighet på biografer : "avertissement" (varning), en del scener kan vara stötande för små barn och känsliga personer; motsvarighet för video : "accord parental" (föräldraansvar).'
         '3':
-          meaning: '(Interdit aux moins de 12 ans) olämplig för barn under 12 år eller förbjuden på biografer för barn under 12 år.'
+          meaning: "(Interdit aux moins de 12 ans) olämplig för barn under 12 år eller förbjuden på biografer för barn under 12 år."
         '4':
-          meaning: '(Interdit aux moins de 16 ans) olämplig för barn under 16 år eller förbjuden på biografer för barn under 16 år.'
+          meaning: "(Interdit aux moins de 16 ans) olämplig för barn under 16 år eller förbjuden på biografer för barn under 16 år."
         '5':
-          meaning: '(Interdit aux mineurs) olämplig för barn under 18 år eller förbjuden på biografer för barn under 18 år.'
+          meaning: "(Interdit aux mineurs) olämplig för barn under 18 år eller förbjuden på biografer för barn under 18 år."
       GB:
         '1':
           meaning: Alla åldrar tillåtna, det finns inget olämpligt för barn.
@@ -1120,7 +1120,7 @@ sv-SE:
         '1':
           meaning:
         '2':
-          meaning: '(För barn över 6) -- Olämplig för barn under 6.'
+          meaning: "(För barn över 6) -- Olämplig för barn under 6."
         '3':
           meaning:
         '4':
@@ -1588,7 +1588,7 @@ sv-SE:
     star: Stjärnmärk
     submit: Skicka in
     submit_and_preview: Skicka och Förhandsgranska
-    submit_confirmation: '<h3>Hej <strong>%{user}</strong>! Bra jobbat!</h3> Är du säker på att du vill skicka in?'
+    submit_confirmation: "<h3>Hej <strong>%{user}</strong>! Bra jobbat!</h3> Är du säker på att du vill skicka in?"
     submitted: Inskickat
     suggested_backdrops: Välj föreslagna bakgrunder
     suggested_backdrops_not_available: Inga föreslagna bakgrunder är tillgängliga!
@@ -1709,59 +1709,59 @@ sv-SE:
   create_api:
   date:
     abbr_day_names:
-      - sön
-      - mån
-      - tis
-      - ons
-      - tor
-      - fre
-      - lör
+    - sön
+    - mån
+    - tis
+    - ons
+    - tor
+    - fre
+    - lör
     abbr_month_names:
-      -
-      - jan
-      - feb
-      - mar
-      - apr
-      - maj
-      - jun
-      - jul
-      - aug
-      - sep
-      - okt
-      - nov
-      - dec
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - maj
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-      - söndag
-      - måndag
-      - tisdag
-      - onsdag
-      - torsdag
-      - fredag
-      - lördag
+    - söndag
+    - måndag
+    - tisdag
+    - onsdag
+    - torsdag
+    - fredag
+    - lördag
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%Y-%m-%d'
-      full_month_day: '%e %B %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b %Y'
+      abbrev: "%-d %b %Y"
+      default: "%Y-%m-%d"
+      full_month_day: "%e %B %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
-      -
-      - januari
-      - februari
-      - mars
-      - april
-      - maj
-      - juni
-      - juli
-      - augusti
-      - september
-      - oktober
-      - november
-      - december
+    -
+    - januari
+    - februari
+    - mars
+    - april
+    - maj
+    - juni
+    - juli
+    - augusti
+    - september
+    - oktober
+    - november
+    - december
   day: dag
   days:
     one: dag
-    other: '%{count} dagar'
+    other: "%{count} dagar"
   deleted_content:
     entry_deleted: Post borttagen
     reasons:
@@ -1807,8 +1807,8 @@ sv-SE:
         subject: Det är spam
     why_deleting: Varför tar du bort denna post?
   department_credits_count:
-    one: '%{department} (%{count} insats)'
-    other: '%{department} (%{count} insatser)'
+    one: "%{department} (%{count} insats)"
+    other: "%{department} (%{count} insatser)"
   departments:
     Acting: Skådespeleri
     Actors: Skådespelare
@@ -1922,9 +1922,9 @@ sv-SE:
       watch: Bevaka
     admin_panel: Administratörspanelen
     back_options:
-      back_to_item_with_arrow: '← Tillbaka till %{item_title}'
-      back_to_tmdb_with_arrow: '← Tillbaka till TMDB'
-      back_with_arrow: '← Tillbaka'
+      back_to_item_with_arrow: "← Tillbaka till %{item_title}"
+      back_to_tmdb_with_arrow: "← Tillbaka till TMDB"
+      back_with_arrow: "← Tillbaka"
     categories:
       categories: Kategorier
       discuss:
@@ -1943,8 +1943,8 @@ sv-SE:
         support: Support
         website_support: Webbplatssupport
     category:
-      last_reply_with_datetime: '%{date} vid %{time}'
-      last_reply_with_datetime_and_username: '%{date} vid %{time}<br>av %{username}'
+      last_reply_with_datetime: "%{date} vid %{time}"
+      last_reply_with_datetime_and_username: "%{date} vid %{time}<br>av %{username}"
     discussion_activity: Diskussions Aktivitet
     email_notifications:
       email_notifications: E-post aviseringar
@@ -1968,11 +1968,11 @@ sv-SE:
     no_discussions: Inga diskussioner.
     pagination:
       post_summary:
-        one: '%{count} svar (på sida %{current_page} av %{total_pages})'
-        other: '%{count} svar (på sida %{current_page} av %{total_pages})'
+        one: "%{count} svar (på sida %{current_page} av %{total_pages})"
+        other: "%{count} svar (på sida %{current_page} av %{total_pages})"
       summary:
-        one: '%{count} diskussion, nuvarande på sida %{current_page} av %{total_pages}'
-        other: '%{count} diskussioner, nuvarande på sida %{current_page} av %{total_pages}'
+        one: "%{count} diskussion, nuvarande på sida %{current_page} av %{total_pages}"
+        other: "%{count} diskussioner, nuvarande på sida %{current_page} av %{total_pages}"
     post:
       delete: Ta bort
       edit: Redigera
@@ -2121,8 +2121,8 @@ sv-SE:
       1fae3:
       1fae4:
   episode_count:
-    one: '%{count} avsnitt'
-    other: '%{count} avsnitt'
+    one: "%{count} avsnitt"
+    other: "%{count} avsnitt"
   episode_number_name: Avsnitt %{episode_number}
   error_pages:
     deleted_account:
@@ -2207,6 +2207,7 @@ sv-SE:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Denna personen är redan tillagd som en skådespelare.
     nesting:
@@ -2342,11 +2343,11 @@ sv-SE:
       type_headshots: Porträtt
       type_posters: Affischer
       type_profiles: Profiler
-      validation_header: '%{type} måste uppfylla följande kriterier:'
+      validation_header: "%{type} måste uppfylla följande kriterier:"
   invalid_aspect_ratio: Det här bildförhållandet är felaktigt.
   item_count:
-    one: '%{count} objekt'
-    other: '%{count} objekt'
+    one: "%{count} objekt"
+    other: "%{count} objekt"
   item_count_more:
   jobs:
     '"A" Camera Operator': A-foto
@@ -3288,17 +3289,17 @@ sv-SE:
       go_to_edit: gå till redigerings sidan
       last_reply: gå till det senaste svaret
       new_discussion: 'skapa ny diskussion '
-      next_episode: '(höger pil) gå till nästa avsnitt'
-      next_page: '(höger pil) nästa sida'
-      next_season: '(höger pil) gå till nästa säsong'
+      next_episode: "(höger pil) gå till nästa avsnitt"
+      next_page: "(höger pil) nästa sida"
+      next_season: "(höger pil) gå till nästa säsong"
       open_activity: öppna aktivitet
       open_add_image_window: öppna lägg till bild fönstret
       open_profile: öppna profilmenyn
       open_shortcut_window: öppna tangentbordsgenväg fönstret
       open_translation_selector: öppna översättnings väljaren
-      previous_episode: '(vänster pil) gå till föregående avsnitt'
-      previous_page: '(vänster pil) föregående sida '
-      previous_season: '(vänster pil) gå till den föregående säsongen'
+      previous_episode: "(vänster pil) gå till föregående avsnitt"
+      previous_page: "(vänster pil) föregående sida "
+      previous_season: "(vänster pil) gå till den föregående säsongen"
       reply_to_discussion: svara på diskussionen
       save_form: skicka förmulär
       submit_message: skicka ditt meddelande
@@ -3583,8 +3584,8 @@ sv-SE:
         language: Språk
         user: Användare
       number_of_changes:
-        one: '%{count} Ändring'
-        other: '%{count} Ändringar'
+        one: "%{count} Ändring"
+        other: "%{count} Ändringar"
       view_weekly_leaderboard: Visa veckans topplista
     character:
       edit:
@@ -3708,8 +3709,8 @@ sv-SE:
       visit_twitter: Besök Twitter
       visit_youtube:
     genre:
-      movie_page_title: '%{name} filmer'
-      tv_page_title: '%{name} tv-serier'
+      movie_page_title: "%{name} filmer"
+      tv_page_title: "%{name} tv-serier"
     images:
       format: Format
       no_backdrop_stills: Det finns inga tillagda bakgrundsbilder för detta föremål.
@@ -3822,13 +3823,13 @@ sv-SE:
         tv_shows: TV-serier
       years_old:
         one: ''
-        other: '%{count} år gammal'
+        other: "%{count} år gammal"
     rating:
       not_rateable:
       rated_with_rating: Betygsatte med %{value}
       rating_count:
-        one: '%{count} betygsättning'
-        other: '%{count} betygsättningar'
+        one: "%{count} betygsättning"
+        other: "%{count} betygsättningar"
       removed:
       score_breakdown: Betygsuppdelning
       score_distribution: Betygsfördelning
@@ -3906,7 +3907,7 @@ sv-SE:
         mid_season:
       episode_selector:
         current_episode: Avsnitt %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Nästa avsnitt
         previous_episode: Föregående avsnitt
     tv_season:
@@ -3950,8 +3951,8 @@ sv-SE:
           group: Grupp
           messages:
             episodes_added:
-              one: '%{count} avsnitt har lagts till!'
-              other: '%{count} avsnitt har lagts till!'
+              one: "%{count} avsnitt har lagts till!"
+              other: "%{count} avsnitt har lagts till!"
           name: Gruppnamn
           no_records: Inga avsnittsgrupper har lagts till.
           type: Typ
@@ -3977,8 +3978,8 @@ sv-SE:
       episode_groups:
         groups:
           count:
-            one: '%{count} grupp'
-            other: '%{count} grupper'
+            one: "%{count} grupp"
+            other: "%{count} grupper"
         original_air_date: Ursprungligt sändningsdatum
       networks:
         one: Tv-bolag
@@ -4043,10 +4044,10 @@ sv-SE:
       to: Till
     no_messages: Inga meddelanden
     notifications:
-      new_message: '%{username} har skickat ett nytt meddelande till dig'
+      new_message: "%{username} har skickat ett nytt meddelande till dig"
     number_of_messages:
-      one: '%{count} meddelande'
-      other: '%{count} meddelanden'
+      one: "%{count} meddelande"
+      other: "%{count} meddelanden"
     options:
       admin: Admin
       archive: Arkiv
@@ -4078,11 +4079,11 @@ sv-SE:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: månad
-    other: '%{count} månader'
+    other: "%{count} månader"
   navigation:
     discover:
       discover: Upptäck
@@ -4114,10 +4115,10 @@ sv-SE:
   no_episode_images: Inga avsnittsbilder har lagts till.
   no_favorite_movies:
     current_user: Du har inte några favorit filmer.
-    public: '%{username} har inte några favorit filmer.'
+    public: "%{username} har inte några favorit filmer."
   no_favorite_tv_shows:
     current_user: Du har inte lagt till några favorit-tv-serier.
-    public: '%{username} har inga favorit-tv-serier.'
+    public: "%{username} har inga favorit-tv-serier."
   no_genres: Det finns inga genrer tillagda.
   no_guest_stars: Inga gästskådespelare har lagts till.
   no_keyword_search_results: Det finns inga nyckelord som stämmer din sökning.
@@ -4132,10 +4133,10 @@ sv-SE:
     tv:
   no_rated_movies:
     current_user: Du har inte betygsatt några filmer.
-    public: '%{username} har inte betygsatt några filmer.'
+    public: "%{username} har inte betygsatt några filmer."
   no_rated_tv_shows:
     current_user: Du har inte betygsatt några tv-serier.
-    public: '%{username} har inte betygsatt några tv-serier.'
+    public: "%{username} har inte betygsatt några tv-serier."
   no_recommendations:
     movie: Vi har inte nog med data för att föreslå någon film baserat på %{title}. Du kan hjälpa till genom att betygsätta filmer du sett.
     tv_show: Vi har inte tillräckligt med data för att föreslå någon tv-serie baserad på %{title}. Du kan hjälpa till genom att betygsätta tv-serier du sett.
@@ -4149,7 +4150,7 @@ sv-SE:
     public: Denna bevakningslista är tom.
   no_writer: Ingen manusförfattare har angetts.
   not_translated:
-    logged_in: '%{page_title} har ej blivit översatt till <strong>%{requested_i18n} (%{requested_language_text})</strong>. Om du vill fortsätta och skapa denna översättning, klicka på knappen nedan.'
+    logged_in: "%{page_title} har ej blivit översatt till <strong>%{requested_i18n} (%{requested_language_text})</strong>. Om du vill fortsätta och skapa denna översättning, klicka på knappen nedan."
     public: '%{page_title} har ej blivit översatt till <strong>%{requested_i18n} (%{requested_language_text})</strong>. Du kan lägga till denna översättning genom att <a href="%{signup_link}">registrera dig</a> för ett konto och <a href="%{login_link}">logga in</a>.'
   notifications:
     caught_up: Ser ut som om du är klar med allt.
@@ -4164,21 +4165,21 @@ sv-SE:
     currency:
       format:
         delimiter: '" "'
-        format: '%n %u'
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: kr
     format:
-      delimiter: ' '
+      delimiter: " "
       precision: 3
-      separator: ','
+      separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: biljon
           million: Miljon
@@ -4200,25 +4201,25 @@ sv-SE:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
   number_of_edits:
-    one: '%{count} ändring'
-    other: '%{count} ändringar'
+    one: "%{count} ändring"
+    other: "%{count} ändringar"
   number_of_items:
-    one: '%{count} föremål'
-    other: '%{count} föremål'
+    one: "%{count} föremål"
+    other: "%{count} föremål"
   number_of_results:
-    one: '%{count} resultat'
-    other: '%{count} resultat'
+    one: "%{count} resultat"
+    other: "%{count} resultat"
   number_of_translations:
-    one: '%{count} översättning'
-    other: '%{count} översättning'
+    one: "%{count} översättning"
+    other: "%{count} översättning"
   number_of_votes:
-    one: '%{count} röst'
-    other: '%{count} röster'
+    one: "%{count} röst"
+    other: "%{count} röster"
   ott:
     available_sentences:
       ads:
@@ -4255,9 +4256,9 @@ sv-SE:
       sd: Inga SD erbjudanden hittades.
     page_title:
     seasons:
-      many: '%{count} säsonger'
-      one: '%{count} säsong'
-      other: '%{count} säsonger'
+      many: "%{count} säsonger"
+      one: "%{count} säsong"
+      other: "%{count} säsonger"
     view_offers: Visa erbjudanden
     watch_now: Titta nu
     watch_on:
@@ -4273,7 +4274,7 @@ sv-SE:
     next_page: Nästa sida
     next_page_with_arrow: Nästa sida →
     previous_page: Föregående sida
-    previous_page_with_arrow: '← Föregående sida'
+    previous_page_with_arrow: "← Föregående sida"
     show_more: Visa Mer
   part_of_collection: En del av %{collection_name}
   password:
@@ -4287,7 +4288,7 @@ sv-SE:
   person:
     credits:
       as_character: som %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4318,7 +4319,7 @@ sv-SE:
     watchlist_movie: Sök bevakningslista för filmer...
     watchlist_tv: Sök bevakningslista för tv-serier...
   search_text_validation_error:
-  search_tip_1: "Tips: Du kan använda 'y:'-filtret för att begränsa ditt resultat baserat på år. T.ex.: 'star wars y:1977'."
+  search_tip_1: 'Tips: Du kan använda ''y:''-filtret för att begränsa ditt resultat baserat på år. T.ex.: ''star wars y:1977''.'
   season_number_name: Säsong %{season_number}
   season_overview:
     already_aired: Säsong %{season_number} av %{show_name} hade premiär den %{date}.
@@ -4557,17 +4558,17 @@ sv-SE:
   success_sharing: Ditt meddelande har blivit delat.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours:
@@ -4634,10 +4635,10 @@ sv-SE:
         sort: Sortera
       type: Typ
     number_of_videos:
-      one: '%{count} video'
-      other: '%{count} videor'
+      one: "%{count} video"
+      other: "%{count} videor"
     official_channel: Officiell kanal
-    page_title: '%{name} video kanal'
+    page_title: "%{name} video kanal"
     popular: Populär
     refresh_from_youtube:
     types:
@@ -4663,4 +4664,4 @@ sv-SE:
   will_paginate:
     next_label: Nästa→
     page_gap:
-    previous_label: '←Föregående'
+    previous_label: "←Föregående"

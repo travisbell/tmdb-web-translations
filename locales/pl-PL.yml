@@ -2237,6 +2237,7 @@ pl-PL:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Ta osoba jest już dodana jako członek obsady.
     nesting:
@@ -4091,7 +4092,7 @@ pl-PL:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: "%{count} miesiące"

@@ -2247,6 +2247,7 @@ ca-ES:
       wrong_length:
         one: és l'allargada errònia (hauria de ser %{count} caràcter)
         other: és l'allargada errònia (hauria de ser %{count} caràcters)
+      blocked_words:
     movie:
       duplicate_cast: Aquest artista ja està afegit com a membre de repartiment.
     nesting:
@@ -4131,7 +4132,7 @@ ca-ES:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mes

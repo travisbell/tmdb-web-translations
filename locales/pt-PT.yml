@@ -2206,6 +2206,7 @@ pt-PT:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Esta pessoa já foi adicionada ao elenco.
     nesting:
@@ -4083,7 +4084,7 @@ pt-PT:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mês

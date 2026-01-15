@@ -571,8 +571,8 @@ id-ID:
             Unsubscribed: Berhenti berlangganan
             status: Status
         number_of_items:
-          one: '%{count} Surel'
-          other: '%{count} Surel'
+          one: "%{count} Surel"
+          other: "%{count} Surel"
       events: Acara
       notifications:
         filters:
@@ -585,8 +585,8 @@ id-ID:
             type: Jenis
         notifications: Pemberitahuan
         number_of_items:
-          one: '%{count} Pemberitahuan'
-          other: '%{count} Pemberitahuan'
+          one: "%{count} Pemberitahuan"
+          other: "%{count} Pemberitahuan"
       page_title:
         recent_events: Peristiwa Terkini
       recent: Terbaru
@@ -625,7 +625,7 @@ id-ID:
         public: Daftar %{username}
       no_lists:
         logged_in: Kamu belum membuat daftar apapun.
-        public: '%{username} tidak memiliki daftar publik yang dibagikan.'
+        public: "%{username} tidak memiliki daftar publik yang dibagikan."
       page_title:
         page_owner: Daftar Saya
         public: Daftar %{username}
@@ -645,7 +645,7 @@ id-ID:
       30_day_activity: Aktivitas 30 Hari terakhir
       empty_recent_activity:
         logged_in: Anda belum mengubah apa pun baru-baru ini.
-        public: '%{username} belum mengubah apa pun baru-baru ini.'
+        public: "%{username} belum mengubah apa pun baru-baru ini."
       empty_upcoming_watchlist:
         logged_in: Anda tidak memiliki film yang akan datang dalam daftar Anda.
       empty_watched_genres:
@@ -704,7 +704,7 @@ id-ID:
       this_week: Minggu ini
       view_them:
   add_to_list: Tambahkan %{media_title} ke salah satu daftar Anda...
-  already_translated_in: '%{page_title} telah tersedia dalam bahasa berikut...'
+  already_translated_in: "%{page_title} telah tersedia dalam bahasa berikut..."
   api_for_business:
     api_for_business:
     form:
@@ -1624,7 +1624,7 @@ id-ID:
     welcome_message: 'Selamat datang di komunitas The Movie Db  di mana Anda dapat:'
     what_next:
   character name:
-  collection_includes: '%{movie_titles} Tersedia'
+  collection_includes: "%{movie_titles} Tersedia"
   confirm_delete: Anda yakin ingin menghapus ini?
   contact:
     contact_sales:
@@ -1707,57 +1707,57 @@ id-ID:
   create_api:
   date:
     abbr_day_names:
-      - Min
-      - Sen
-      - Sel
-      - Rab
-      - Kam
-      - Jum
-      - Sab
+    - Min
+    - Sen
+    - Sel
+    - Rab
+    - Kam
+    - Jum
+    - Sab
     abbr_month_names:
-      -
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - Mei
-      - Jun
-      - Jul
-      - Ags
-      - Sep
-      - Okt
-      - Nov
-      - Des
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - Mei
+    - Jun
+    - Jul
+    - Ags
+    - Sep
+    - Okt
+    - Nov
+    - Des
     day_names:
-      - Minggu
-      - Senin
-      - Selasa
-      - Rabu
-      - Kamis
-      - Jumat
-      - Sabtu
+    - Minggu
+    - Senin
+    - Selasa
+    - Rabu
+    - Kamis
+    - Jumat
+    - Sabtu
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d/%m/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - Januari
-      - Februari
-      - Maret
-      - April
-      - Mei
-      - Juni
-      - Juli
-      - Agustus
-      - September
-      - Oktober
-      - November
-      - Desember
+    -
+    - Januari
+    - Februari
+    - Maret
+    - April
+    - Mei
+    - Juni
+    - Juli
+    - Agustus
+    - September
+    - Oktober
+    - November
+    - Desember
   day: hari
-  days: '%{count} hari'
+  days: "%{count} hari"
   deleted_content:
     entry_deleted:
     reasons:
@@ -2085,7 +2085,7 @@ id-ID:
       1fae2:
       1fae3:
       1fae4:
-  episode_count: '%{count} Episode'
+  episode_count: "%{count} Episode"
   episode_number_name: Episode %{episode_number}
   error_pages:
     deleted_account:
@@ -2170,6 +2170,7 @@ id-ID:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -4016,9 +4017,9 @@ id-ID:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
-  month: '%{count} bulan'
+  month: "%{count} bulan"
   navigation:
     discover:
       discover: Temukan
@@ -4050,7 +4051,7 @@ id-ID:
   no_episode_images:
   no_favorite_movies:
     current_user: Anda belum menambahkan film kesukaan.
-    public: '%{username} belum memiliki film kesukaan.'
+    public: "%{username} belum memiliki film kesukaan."
   no_favorite_tv_shows:
     current_user:
     public:
@@ -4085,7 +4086,7 @@ id-ID:
     public: Daftar tonton kosong.
   no_writer:
   not_translated:
-    logged_in: '%{page_title} belum tersedia dalam <strong>(%{requested_language_text}) %{requested_i18n}</strong>. Jika anda ingin menerjemahkan, klik tombol dibawah.'
+    logged_in: "%{page_title} belum tersedia dalam <strong>(%{requested_language_text}) %{requested_i18n}</strong>. Jika anda ingin menerjemahkan, klik tombol dibawah."
     public: '%{page_title} belum tersedia dalam <strong>(%{requested_language_text}) %{requested_i18n}</strong>. Anda dapat menambahkan terjemahan dengan <a href="%{signup_link}">mendaftar</a> akun kemudian <a href="%{login_link}">masuk</a>.'
   notifications:
     caught_up:
@@ -4099,22 +4100,22 @@ id-ID:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%u%n'
+        delimiter: "."
+        format: "%u%n"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: Rp
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Milyar
           million: Juta
@@ -4136,15 +4137,15 @@ id-ID:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
-  number_of_edits: '%{count} suntingan'
+  number_of_edits: "%{count} suntingan"
   number_of_items:
-  number_of_results: '%{count} hasil'
-  number_of_translations: '%{count} terjemahan'
-  number_of_votes: '%{count} voting'
+  number_of_results: "%{count} hasil"
+  number_of_translations: "%{count} terjemahan"
+  number_of_votes: "%{count} voting"
   ott:
     available_sentences:
       ads:
@@ -4210,7 +4211,7 @@ id-ID:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4241,10 +4242,10 @@ id-ID:
     watchlist_movie:
     watchlist_tv:
   search_text_validation_error:
-  search_tip_1: "Kiat: Anda bisa menggunakan filter 'y:' untuk menemukan hasil menurut tahun. Contoh: 'star wars y:1977'."
+  search_tip_1: 'Kiat: Anda bisa menggunakan filter ''y:'' untuk menemukan hasil menurut tahun. Contoh: ''star wars y:1977''.'
   season_number_name: Musim ke %{season_number}
   season_overview:
-    already_aired: '%{show_name} season %{season_number} ditayangkan pada %{date}.'
+    already_aired: "%{show_name} season %{season_number} ditayangkan pada %{date}."
     to_air:
   settings:
     account:
@@ -4474,17 +4475,17 @@ id-ID:
   success_sharing: Pesan anda berhasil dibagikan.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours: Jam
@@ -4549,8 +4550,8 @@ id-ID:
         sort: Urutkan
       type: Jenis
     number_of_videos:
-      one: '%{count} video'
-      other: '%{count} video'
+      one: "%{count} video"
+      other: "%{count} video"
     official_channel: Saluran Resmi
     page_title:
     popular: Populer
@@ -4578,4 +4579,4 @@ id-ID:
   will_paginate:
     next_label: Selanjutnya →
     page_gap:
-    previous_label: '← Sebelumnya'
+    previous_label: "← Sebelumnya"

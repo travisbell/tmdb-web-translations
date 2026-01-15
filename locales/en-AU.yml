@@ -2192,6 +2192,7 @@ en-AU:
       wrong_length:
         one: is the wrong length (should be %{count} character)
         other: is the wrong length (should be %{count} characters)
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -4056,7 +4057,7 @@ en-AU:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: month

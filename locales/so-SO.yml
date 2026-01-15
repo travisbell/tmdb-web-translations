@@ -2141,6 +2141,7 @@ so-SO:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -3984,7 +3985,7 @@ so-SO:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
   navigation:

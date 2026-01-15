@@ -637,7 +637,7 @@ ta-IN:
       page_title:
         page_owner:
         public:
-    member_since: ' %{date} முதல் உறுப்பினர்'
+    member_since: " %{date} முதல் உறுப்பினர்"
     navigation:
       discussions: கலந்துரையாடல்
       favorites: பிடித்த
@@ -664,13 +664,13 @@ ta-IN:
       most_watched_genres: பெரும்பாலான பார்வையாளர்கள்
       rating_overview: மதிப்பீடு கண்ணோட்டம்
       recent_activity: சமீபத்திய நடவடிக்கை
-      recent_discussions: ' சமீபத்திய  கலந்துரையாடல்'
+      recent_discussions: " சமீபத்திய  கலந்துரையாடல்"
       total_edits: மொத்த திருத்தங்கள்
       total_ratings: மொத்த மதிப்பீடுகள்
       upcoming_watchlist: கவனிப்புப் பட்டியலில் இருந்து வரவிருக்கிறது
     page_title:
       page_owner: என் சுயவிவரம்
-      public: '%{username} இன் சுயவிவரம்'
+      public: "%{username} இன் சுயவிவரம்"
     ratings_reviews:
       my_ratings:
         logged_in:
@@ -1723,55 +1723,55 @@ ta-IN:
   create_api:
   date:
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
     abbr_month_names:
-      -
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%m/%d/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
   day:
   days:
   deleted_content:
@@ -2186,6 +2186,7 @@ ta-IN:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -4029,7 +4030,7 @@ ta-IN:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
   navigation:
@@ -4112,13 +4113,13 @@ ta-IN:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision:
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: '₹'
+        unit: "₹"
     format:
       delimiter:
       precision:
@@ -4223,7 +4224,7 @@ ta-IN:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4487,17 +4488,17 @@ ta-IN:
   success_sharing:
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours:

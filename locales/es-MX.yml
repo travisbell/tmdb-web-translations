@@ -2221,6 +2221,7 @@ es-MX:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Esta persona ya ha sido agregada como miembro de Elenco
     nesting:
@@ -4069,7 +4070,7 @@ es-MX:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mes

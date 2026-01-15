@@ -163,7 +163,7 @@ tr-TR:
   Edit Data & Content: Verileri ve İçeriği Düzenle
   Edit Page: sayfayı düzenle
   Editing Content: İçeriği Düzenleme
-  Editing in: '%{language} Dilinde Düzenle'
+  Editing in: "%{language} Dilinde Düzenle"
   Education: Eğitim
   Email: E-posta
   Email Address: E-Posta Adresi
@@ -567,8 +567,8 @@ tr-TR:
             Unsubscribed: Abonelikten çıkıldı
             status: Durum
         number_of_items:
-          one: '%{count} E-Posta'
-          other: '%{count} E-Posta'
+          one: "%{count} E-Posta"
+          other: "%{count} E-Posta"
       events: Olaylar
       notifications:
         filters:
@@ -581,8 +581,8 @@ tr-TR:
             type: Tür
         notifications: Bildirimler
         number_of_items:
-          one: '%{count} Bildirim'
-          other: '%{count} Bildirim'
+          one: "%{count} Bildirim"
+          other: "%{count} Bildirim"
       page_title:
         recent_events: Son Olaylar
       recent: Son Bildirimler
@@ -621,11 +621,11 @@ tr-TR:
         public: "%{username}'in listeleri"
       no_lists:
         logged_in: Henüz liste oluşturmadınız
-        public: '%{username} paylaştığı herhangi bir listesi yok.'
+        public: "%{username} paylaştığı herhangi bir listesi yok."
       page_title:
         page_owner: Listelerim
         public: "%{username}'in Listeleri"
-    member_since: '%{date} tarihinden beri üye'
+    member_since: "%{date} tarihinden beri üye"
     navigation:
       discussions: Tartışmalar
       favorites: Favoriler
@@ -641,12 +641,12 @@ tr-TR:
       30_day_activity: 30 Günlük Etkinlik
       empty_recent_activity:
         logged_in: Yeni düzenlemeler yapmadınız.
-        public: '%{username} son zamanlarda herhangi bir düzenleme yapmadı.'
+        public: "%{username} son zamanlarda herhangi bir düzenleme yapmadı."
       empty_upcoming_watchlist:
         logged_in: Takip listenizde yaklaşan filmler yok.
       empty_watched_genres:
         logged_in: Hiç film veya TV şovunu kaydetmedin.
-        public: '%{username} hiç film veya Dizi kaydetmedi.'
+        public: "%{username} hiç film veya Dizi kaydetmedi."
       goto_discussions: Tartışmalara Git
       goto_watchlist: Takip Listesine Git
       most_watched_genres: En Çok İzlenen Tarzlar
@@ -658,7 +658,7 @@ tr-TR:
       upcoming_watchlist: Takip Listesinde Yaklaşanlar
     page_title:
       page_owner: Profilim
-      public: '%{username} Profili'
+      public: "%{username} Profili"
     ratings_reviews:
       my_ratings:
         logged_in: Puanlamalarım
@@ -689,7 +689,7 @@ tr-TR:
     watchlist:
       my_watchlist:
         logged_in: Takip Listesi
-        public: '%{username} İzlenecek Listesi'
+        public: "%{username} İzlenecek Listesi"
       next_month: Gelecek Ay
       no_upcoming_movies:
         one: Takip listenizde yaklaşan filmler yok. Ancak, listenizde %{count} öğe var.
@@ -704,7 +704,7 @@ tr-TR:
       this_week: Bu Hafta
       view_them: Onları göster.
   add_to_list: Listenize %{media_title} ekleyin...
-  already_translated_in: '%{page_title} çevirisi aşağıdaki dillerde mevcuttur...'
+  already_translated_in: "%{page_title} çevirisi aşağıdaki dillerde mevcuttur..."
   api_for_business:
     api_for_business: İşletmeler için API
     form:
@@ -726,7 +726,7 @@ tr-TR:
     account_required:
       need_account: Devam etmek için giriş yapmalısınız!
       title: Bir Hesap Gerekli
-    approved_session: '%{application_name} onayladınız. Bu pencereyi kapatabilirsiniz.'
+    approved_session: "%{application_name} onayladınız. Bu pencereyi kapatabilirsiniz."
     continue: Devam etmek istiyorsanız, aşağıdaki onay düğmesine tıklayın. Eğer istemiyorsanız, bu pencereyi kapatabilirsiniz.
     invalid_api_app:
       message: Kimlik doğrulaması yapılmakta olan API kullanıcısı geçerli değil.
@@ -735,7 +735,7 @@ tr-TR:
       message: Kullanıcı hesaplarını doğrulamak için bir istek belirteci gereklidir.
       title: Eksik İstek Belirteci
     request_token_approval:
-      message: '{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Listelerinizi korumak veya filmleri TMDB dışında derecelendirmek gibi şeyler yapmak istiyorsanız bu gereklidir.'
+      message: "{APP}} sizin adınıza veri okumak ve yazmak için izninizi istiyor. Listelerinizi korumak veya filmleri TMDB dışında derecelendirmek gibi şeyler yapmak istiyorsanız bu gereklidir."
     statuses:
       completed:
         message: <strong>%{application_name}</strong> için okuma ve yazma izni verdiniz. Artık uygulamaya dönebilir ve bu pencereyi kapatabilirsiniz. Hesap ayarları sayfanıza ve ardından "Bağlı Uygulamalar" sayfanıza giderek bu erişimi her zaman iptal edebilirsiniz.
@@ -820,7 +820,7 @@ tr-TR:
       number:
         one:
         other:
-      one: '%{count} Aday'
+      one: "%{count} Aday"
       other: 1 Aday
       title:
     nominee: Aday
@@ -836,7 +836,7 @@ tr-TR:
     title: Ödüller
     winner: Kazandı
     wins:
-      one: '%{count} Kazanılan'
+      one: "%{count} Kazanılan"
       other: 1 Kazanılan
   back_options:
     award:
@@ -847,7 +847,7 @@ tr-TR:
     episode_list: Bölüm listesine geri dön
     home: Anasayfaya Dön
     main: Sayfaya Dön
-    named_episode_group: '&lsquo;%{group_name}&rsquo; gruplarına geri dönün'
+    named_episode_group: "&lsquo;%{group_name}&rsquo; gruplarına geri dönün"
     season: Sezonlara Geri Dön
     season_list: Sezon listesine geri dön
     to_tmdb: TMDb'ye Geri Dön
@@ -980,7 +980,7 @@ tr-TR:
         '4':
           meaning: 16 yaşından küçük çocuklar için uygun değildir veya 16 yaşından küçükler sinemada izleyemez.
         '5':
-          meaning: '(küçüklere yasak) 18 yaşından küçük çocuklar için uygun olmayan veya sinemalarda 18 yaşın altındakilere yasaklanan '
+          meaning: "(küçüklere yasak) 18 yaşından küçük çocuklar için uygun olmayan veya sinemalarda 18 yaşın altındakilere yasaklanan "
       GB:
         '1':
           meaning: Tüm yaş grupları için uygun. Çocuklar için herhangi bir zararı yok.
@@ -1130,13 +1130,13 @@ tr-TR:
         '1':
           meaning: Tüm yaş grupları izleyebilir.
         '2':
-          meaning: '(6 yaşından büyük çocuklar için) - 6 yaşınından küçük çocuklar için uygun değil'
+          meaning: "(6 yaşından büyük çocuklar için) - 6 yaşınından küçük çocuklar için uygun değil"
         '3':
-          meaning: '(12 yaşından büyük çocuklar için) - 12 yaşınından küçük çocuklar için uygun değil'
+          meaning: "(12 yaşından büyük çocuklar için) - 12 yaşınından küçük çocuklar için uygun değil"
         '4':
-          meaning: '(16 yaşından büyük çocuklar için) - 16 yaşınından küçük çocuklar için uygun değil'
+          meaning: "(16 yaşından büyük çocuklar için) - 16 yaşınından küçük çocuklar için uygun değil"
         '5':
-          meaning: '(Çocuk yaştakiler için yasak) - 18 yaşının altındakiler için yasak'
+          meaning: "(Çocuk yaştakiler için yasak) - 18 yaşının altındakiler için yasak"
       SE:
         '0':
           meaning: Derecelendirme bilgisi yok
@@ -1228,9 +1228,9 @@ tr-TR:
         '2':
           meaning: Yayıncı, yayın süresine ilişkin kararı, 06:00 ile 20:00 arasındaki zaman diliminde küçük çocuklar üzerindeki etkisini göz önünde bulundurarak vermelidir.
         '3':
-          meaning: "Yalnız akşam 10'dan sabah 6'ya kadar gösterilebilir "
+          meaning: 'Yalnız akşam 10''dan sabah 6''ya kadar gösterilebilir '
         '4':
-          meaning: "Yalnız akşam 11'den sabah 6'ya kadar gösterilebilir "
+          meaning: 'Yalnız akşam 11''den sabah 6''ya kadar gösterilebilir '
       ES:
         '0':
           meaning: Derecelendirme bilgisi yok
@@ -1256,9 +1256,9 @@ tr-TR:
         '1':
           meaning: 10 yaş altı çocuklar için tavsiye edilmez. Televizyonda çocuk dizilerinde bulunamaz.
         '2':
-          meaning: "12 yaş altı çocuklar için tavsiye edilmez. Akşam 10'dan önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. "
+          meaning: '12 yaş altı çocuklar için tavsiye edilmez. Akşam 10''dan önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. '
         '3':
-          meaning: "16 yaş altı çocuklar için tavsiye edilmez. Akşam 11'den önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. "
+          meaning: '16 yaş altı çocuklar için tavsiye edilmez. Akşam 11''den önce yayınlanamaz. Bazı kanal ve programlar buna istisnadır. '
         '4':
           meaning: 18 yaş altı çocuklar için tavsiye edilmez. Gece 12'den önce ve sabah 5'ten sonra yayınlanamaz. Yalnız belirli kanallarda yayınlanabilir. Bu yayınlara erişim kişisel şifreyle kilitlidir.
       GB:
@@ -1273,7 +1273,7 @@ tr-TR:
         '4':
           meaning: 15 yaşından küçük hiç kimse sinemada 15 puanlık film izleyemez veya 15 puanlık bir video satın alamaz/kiralayamaz. 15 dereceli eser, 15 yaş altı çocuklar için uygun değildir.
         '5':
-          meaning: '+18 puan alan filmler yetişkinler içindir. 18 yaşından küçüklerin sinemada +18 film izlemesine veya 18 puanlı bir videoyu satın almasına / kiralamasına izin verilmez. 18 dereceli eser çocuklara uygun değildir.'
+          meaning: "+18 puan alan filmler yetişkinler içindir. 18 yaşından küçüklerin sinemada +18 film izlemesine veya 18 puanlı bir videoyu satın almasına / kiralamasına izin verilmez. 18 dereceli eser çocuklara uygun değildir."
         '6':
           meaning: R18 kategorisi, öncelikle yetişkinleri içeren rızaya dayalı seks veya güçlü fetiş materyali içeren açık çalışmalar için özel ve yasal olarak kısıtlanmış bir sınıflandırmadır.
       HU:
@@ -1334,7 +1334,7 @@ tr-TR:
         '3':
           meaning: Daha güçlü ve daha dikkatli ebeveyn rehberliği önerilir.
         '4':
-          meaning: '“G”, “PG” ve “SPG” sınıflandırmasına uymayan herhangi bir televizyon programı, televizyon yayını için onaylanmayacaktır.'
+          meaning: "“G”, “PG” ve “SPG” sınıflandırmasına uymayan herhangi bir televizyon programı, televizyon yayını için onaylanmayacaktır."
       PT:
         '0':
           meaning: Derecelendirme bilgisi yok
@@ -1483,7 +1483,7 @@ tr-TR:
     edit_mode: Düzenleme Modundasınız
     edit_translate: Düzenleme ve Çevirme
     edit_translating: Düzenle ve Çevir
-    editing_character_name_uv: '<h3>Merhaba <strong>%{user}</strong>! </h3>Önerilen bir adla karakter oluşturduğunuzu gözlemledim. Devam etmek istiyor musun?'
+    editing_character_name_uv: "<h3>Merhaba <strong>%{user}</strong>! </h3>Önerilen bir adla karakter oluşturduğunuzu gözlemledim. Devam etmek istiyor musun?"
     enter: Gir
     enter_character_name: Karakter adını girin
     enter_character_synopsis: Karakter özetini girin
@@ -1598,7 +1598,7 @@ tr-TR:
     star: Yıldız
     submit: Gönder
     submit_and_preview: Gönder ve Önizleme
-    submit_confirmation: '<h3>Merhaba <strong>%{user}</strong>! Tebrikler!</h3> Göndermek istediğinizden emin misiniz?'
+    submit_confirmation: "<h3>Merhaba <strong>%{user}</strong>! Tebrikler!</h3> Göndermek istediğinizden emin misiniz?"
     submitted: Gönderilen
     suggested_backdrops: Önerilen Arka Planları Seçin
     suggested_backdrops_not_available: Önerilen arka plan yok!
@@ -1636,7 +1636,7 @@ tr-TR:
     welcome_message: 'The Movie Db topluluğuna hoş geldiniz:'
     what_next: Şimdi ne yapmak istersin?
   character name: Karakter Adı
-  collection_includes: '%{movie_titles} içerir'
+  collection_includes: "%{movie_titles} içerir"
   confirm_delete: Bu kaydı silmek istediğinden emin misin?
   contact:
     contact_sales: Satış İçin İrtibat
@@ -1719,57 +1719,57 @@ tr-TR:
   create_api: API oluştur
   date:
     abbr_day_names:
-      - Paz
-      - Pzt
-      - Sal
-      - Çar
-      - Per
-      - Cum
-      - Cmt
+    - Paz
+    - Pzt
+    - Sal
+    - Çar
+    - Per
+    - Cum
+    - Cmt
     abbr_month_names:
-      -
-      - Oca
-      - Şub
-      - Mar
-      - Nis
-      - May
-      - Haz
-      - Tem
-      - Ağu
-      - Eyl
-      - Eki
-      - Kas
-      - Ara
+    -
+    - Oca
+    - Şub
+    - Mar
+    - Nis
+    - May
+    - Haz
+    - Tem
+    - Ağu
+    - Eyl
+    - Eki
+    - Kas
+    - Ara
     day_names:
-      - Pazar
-      - Pazartesi
-      - Salı
-      - Çarşamba
-      - Perşembe
-      - Cuma
-      - Cumartesi
+    - Pazar
+    - Pazartesi
+    - Salı
+    - Çarşamba
+    - Perşembe
+    - Cuma
+    - Cumartesi
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d/%m/%Y'
-      full_month_day: '%e %B %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%e %B %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
-      -
-      - Ocak
-      - Şubat
-      - Mart
-      - Nisan
-      - Mayıs
-      - Haziran
-      - Temmuz
-      - Ağustos
-      - Eylül
-      - Ekim
-      - Kasım
-      - Aralık
+    -
+    - Ocak
+    - Şubat
+    - Mart
+    - Nisan
+    - Mayıs
+    - Haziran
+    - Temmuz
+    - Ağustos
+    - Eylül
+    - Ekim
+    - Kasım
+    - Aralık
   day: gün
-  days: '%{count} gün'
+  days: "%{count} gün"
   deleted_content:
     entry_deleted: Girdi silindi
     reasons:
@@ -1800,8 +1800,8 @@ tr-TR:
         subject: Bu bir spam.
     why_deleting: Bu girdiyi neden siliyorsunuz?
   department_credits_count:
-    one: '%{department} (%{count} jenerik)'
-    other: '%{department} (%{count} jenerik)'
+    one: "%{department} (%{count} jenerik)"
+    other: "%{department} (%{count} jenerik)"
   departments:
     Acting: Oyunculuk
     Actors: Oyuncular
@@ -1915,9 +1915,9 @@ tr-TR:
       watch: İzle
     admin_panel: Yönetim Paneli
     back_options:
-      back_to_item_with_arrow: '← %{item_title} Geri Dön'
+      back_to_item_with_arrow: "← %{item_title} Geri Dön"
       back_to_tmdb_with_arrow: "← TMDb'ye Geri Dön"
-      back_with_arrow: '← Geri'
+      back_with_arrow: "← Geri"
     categories:
       categories: Kategoriler
       discuss:
@@ -1937,7 +1937,7 @@ tr-TR:
         website_support: Website Desteği
     category:
       last_reply_with_datetime: "%{date} tarihinde %{time}\n"
-      last_reply_with_datetime_and_username: '%{date} tarihinde saat %{time} da %{username} <br>tarafından '
+      last_reply_with_datetime_and_username: "%{date} tarihinde saat %{time} da %{username} <br>tarafından "
     discussion_activity: Tartışma Etkinliği
     email_notifications:
       email_notifications: E-Posta Bildirimleri
@@ -1945,7 +1945,7 @@ tr-TR:
       unsubscribe: Abonelikten Çık
     headers:
       discuss: Tartışma
-      discuss_item: '%{item_title} girdisini tartış'
+      discuss_item: "%{item_title} girdisini tartış"
       lets_chat: Konuşalım
       support: Destek
       support_title: Film Veri Tabanı Desteği
@@ -1961,11 +1961,11 @@ tr-TR:
     no_discussions: Tartışma Yok.
     pagination:
       post_summary:
-        one: '%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)'
-        other: '%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)'
+        one: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
+        other: "%{count} yanıt (toplam %{total_pages} sayfanın %{current_page}.sayfasında)"
       summary:
-        one: '%{count} tartışma, şu anda %{total_pages} sayfasının %{current_page} sayfasında'
-        other: '%{count} tartışmalar, şu an %{total_pages} sayfadan %{current_page}'
+        one: "%{count} tartışma, şu anda %{total_pages} sayfasının %{current_page} sayfasında"
+        other: "%{count} tartışmalar, şu an %{total_pages} sayfadan %{current_page}"
     post:
       delete: Sil
       edit: Düzenle
@@ -1986,7 +1986,7 @@ tr-TR:
       quote: Alıntı Yap
       reopen_reply: Yeniden Aç ve Yanıtla
       reply: Cevapla
-      reply_by: '%{username} adlı kullanıcıyı yanıtla'
+      reply_by: "%{username} adlı kullanıcıyı yanıtla"
       reply_on_datetime: "%{date} tarihinde saat %{time}'da"
       report: Sorun Bildir
       unhide: Göster
@@ -2071,9 +2071,9 @@ tr-TR:
     confirm_new_email_address: Yeni E-posta Adresini Onayla
     does_not_match: E-posta adresleri eşleşmiyor, lütfen tekrar deneyin.
     new_email_address: Yeni E-posta Adresi
-    sent_verification_email: '%{email_address} adresine onaylamanız için bir e-posta gönderdik. Gelen kutunuzu (ve spam klasörünü) kontrol edin ve buradaki yönlendirmeleri takip edin.'
+    sent_verification_email: "%{email_address} adresine onaylamanız için bir e-posta gönderdik. Gelen kutunuzu (ve spam klasörünü) kontrol edin ve buradaki yönlendirmeleri takip edin."
     unsubscribe:
-      sad_to_go: '%{username}, ayrıldığınıza üzüldük!'
+      sad_to_go: "%{username}, ayrıldığınıza üzüldük!"
       subscription_changed: Abonelik ayarlarınız güncellendi. <a href="%{account_link}">notification settings</a>  sayfanızı ziyaret ederek bildirim ayarlarınızı düzenleyebilirsiniz.
       unsubscribe: Abonelikten Çık
       unsubscribed: <strong>Abonelikten çıktınız</strong>. Bunu yanlışlıkla yaptıysanız, <a href="%{account_link}">bildirim ayarları</a> sayfanızı ziyaret ederek yeniden abone olabilirsiniz.
@@ -2113,8 +2113,8 @@ tr-TR:
       1fae2: Gözleri açık ve ağzını kapatan surat
       1fae3: Merakla bakan surat
       1fae4: Çapraz ağızlı surat
-  episode_count: '%{count} Bölüm'
-  episode_number_name: '%{episode_number}. Bölüm'
+  episode_count: "%{count} Bölüm"
+  episode_number_name: "%{episode_number}. Bölüm"
   error_pages:
     deleted_account:
       description: Bu sayfanın sahibi hesabını silmiş. Tüm katkıları TMDB’de kalmış olsa da, kullanıcı verileri anonim hale getirilmiştir.
@@ -2148,13 +2148,13 @@ tr-TR:
   errors:
     attributes:
       descriptors:
-        invalid_for_country: '%{country_code} ülkesi için geçerli değil.'
+        invalid_for_country: "%{country_code} ülkesi için geçerli değil."
       iso_3166_1:
         invalid: geçerli bir ülke değil
       iso_639_1:
         invalid: geçerli bir dil değil
       release_date:
-        anachronism: '%{min_date} türü yayının önceki tarihleri'
+        anachronism: "%{min_date} türü yayının önceki tarihleri"
         invalid: geçerli bir tarih değil
     images:
       couldnt_process: Bu görseli işleyemiyoruz
@@ -2167,29 +2167,29 @@ tr-TR:
     messages:
       accepted: kabul edilmeli
       blank: gereklidir
-      confirmation: '%{attribute} ile eşleşmiyor'
+      confirmation: "%{attribute} ile eşleşmiyor"
       email_address_not_routable: yönlendirilebilir değil
       empty: boş olamaz
       equal_to: "%{count}'a eşit olmalıdır"
       even: eşit olmalı
       exclusion: rezerve edildi
-      greater_than: '%{count} değerinden büyük olmalıdır'
+      greater_than: "%{count} değerinden büyük olmalıdır"
       greater_than_or_equal_to: "%{count}'tan büyük veya ona eşit olmalıdır"
-      in: '%{count} içinde olmalıdır'
+      in: "%{count} içinde olmalıdır"
       inclusion: seçilmelidir
       invalid: geçersizdir
       invalid_character_name: Karakter adı özel karakterler içermemelidir
       invalid_email_address: geçerli bir e-posta adresi gibi görünmüyor
       invalid_password: Girdiğiniz şifre yanlış.
       invalid_request: İstek tamamlanamadı.
-      less_than: '%{count} değerinden az olmalıdır'
+      less_than: "%{count} değerinden az olmalıdır"
       less_than_or_equal_to: "%{count}'tan küçük veya ona eşit olmalıdır"
       model_invalid: "'Doğrulama başarısız oldu: %{errors}'"
       no_characters_found: Karakter Bulunamadı
       not_a_number: bir sayı değil
       not_an_integer: tam sayı olmak zorunda
       odd: küsur olmalı
-      other_than: '%{count} dışında olmalıdır'
+      other_than: "%{count} dışında olmalıdır"
       present: boş olmalı
       required: mevcut olmalıdır.
       series_status_invalid_to_create_season: "'İptal edildi' veya 'Bitti' olarak ayarlandığından yeni sezonlar oluşturulamaz."
@@ -2202,6 +2202,7 @@ tr-TR:
         one: çok kısa (en az %{count} karakter)
         other: çok kısa (en az %{count} karakter)
       wrong_length: yanlış uzunluk (%{count} karakter olmalıdır)
+      blocked_words:
     movie:
       duplicate_cast: Bu kişi daha önce oyuncu olarak eklenmiş.
     nesting:
@@ -2331,9 +2332,9 @@ tr-TR:
       read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">görsel ekleme rehberimizi</a> inceleyin.
       tip: Tarayıcınız destekliyorsa, bir görseli aşağıdaki alana sürükleyip bırakabilirsiniz. Aksi takdirde, 'Dosyaları seç/Gözat...' düğmesine tıklayın ve bilgisayarınızdan yüklemek istediğiniz görseli seçin.
     uploader:
-      aspect_ratio: '%{ratio} için en-boy oranı'
+      aspect_ratio: "%{ratio} için en-boy oranı"
       aspect_ratio_both: En-boy oranı %{ratio_first} veya %{ratio_second}
-      file_type: '%{file_type} dosya türü'
+      file_type: "%{file_type} dosya türü"
       max_res: Maksimum %{res} çözünürlük
       min_res: Minimum %{res} çözünürlük
       read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">görsel ekleme rehberimizi</a> inceleyin.
@@ -2343,12 +2344,12 @@ tr-TR:
       type_headshots: Portre Fotoğrafları
       type_posters: Afişler
       type_profiles: Profiller
-      validation_header: '%{type} aşağıdaki kriterleri karşılamalıdır:'
+      validation_header: "%{type} aşağıdaki kriterleri karşılamalıdır:"
   invalid_aspect_ratio: Bu en boy oranı geçersiz
   item_count:
-    one: '%{count} öge'
-    other: '%{count} öge'
-  item_count_more: '%{count} daha fazla...'
+    one: "%{count} öge"
+    other: "%{count} öge"
+  item_count_more: "%{count} daha fazla..."
   jobs:
     '"A" Camera Operator': '"A" Kamera Operatörü'
     '"B" Camera Operator': '"B" Kamera Operatorü'
@@ -3289,17 +3290,17 @@ tr-TR:
       go_to_edit: sayfayı düzenlemeye git
       last_reply: son yanıta git
       new_discussion: yeni tartışma oluştur
-      next_episode: '(sağa ok) sonraki bölüme git'
-      next_page: '(sağa ok) sonraki sayfa'
-      next_season: '(sağa ok) sonraki sezona git'
+      next_episode: "(sağa ok) sonraki bölüme git"
+      next_page: "(sağa ok) sonraki sayfa"
+      next_season: "(sağa ok) sonraki sezona git"
       open_activity: etkinliği aç
       open_add_image_window: resim ekle penceresini aç
       open_profile: profil menüsünü aç
       open_shortcut_window: klavye kısayol penceresini aç
       open_translation_selector: çeviri seçiciyi aç
-      previous_episode: '(sol ok) önceki bölüme git'
-      previous_page: '(sol ok) önceki sayfa'
-      previous_season: '(sol ok) önceki sezona git'
+      previous_episode: "(sol ok) önceki bölüme git"
+      previous_page: "(sol ok) önceki sayfa"
+      previous_season: "(sol ok) önceki sezona git"
       reply_to_discussion: tartışmayı yanıtla
       save_form: formu gönder
       submit_message: mesajını gönder
@@ -3584,8 +3585,8 @@ tr-TR:
         language: Dil
         user: Kullanıcı
       number_of_changes:
-        one: '%{count} değişiklik'
-        other: '%{count} değişiklik'
+        one: "%{count} değişiklik"
+        other: "%{count} değişiklik"
       view_weekly_leaderboard: Haftanın Liderlerini Göster
     character:
       edit:
@@ -3602,8 +3603,8 @@ tr-TR:
       select:
     company:
       headquarters: Genel Merkez
-      movie_page_title: '%{name} tarafından çekilen filmler'
-      tv_page_title: '%{name} tarafından çekilen tv dizileri'
+      movie_page_title: "%{name} tarafından çekilen filmler"
+      tv_page_title: "%{name} tarafından çekilen tv dizileri"
     content_score:
       helper_tooltip: İçerik sonucu, verilerin veri tabanındaki bir nesne için ne kadar tamamlandığını anlamanıza yardımcı olacak bir yoldur.
       missing_data:
@@ -3694,8 +3695,8 @@ tr-TR:
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
         overview: Lütfen özet yazarken kısa öz ve düzgün olmasına, senaryoyu önceden elverecek ifadeler (spoiler) kullanmamaya özen gösterin.
         social_links: Sosyal ağ bağlantıları yalnızca (onaylı) resmi sayfalar içindir, hayran sayfalarına izin verilmemektedir.
-      translation_already_exists: '%{language} çevirisi zaten mevcut.'
-      translation_not_found: '%{language} çevirisi henüz oluşturulmadı.'
+      translation_already_exists: "%{language} çevirisi zaten mevcut."
+      translation_not_found: "%{language} çevirisi henüz oluşturulmadı."
       unlock_all_appearances: "'Evet'i tıkladığınızda mevcut tüm kayıtların kilidini açacaksınız."
       upload_logo: Logo Yükle
       videos:
@@ -3709,8 +3710,8 @@ tr-TR:
       visit_twitter: Twitter'ı ziyaret edin
       visit_youtube: YouTube'u ziyaret edin
     genre:
-      movie_page_title: '%{name} Filmleri'
-      tv_page_title: '%{name} Dizileri'
+      movie_page_title: "%{name} Filmleri"
+      tv_page_title: "%{name} Dizileri"
     images:
       format: Biçim
       no_backdrop_stills: Bu girdiye hala arka plan eklenmedi.
@@ -3723,8 +3724,8 @@ tr-TR:
       types:
         backdrop_stills: Arka Plan Görselleri
     keyword:
-      movie_page_title: '%{name} Filmleri'
-      tv_page_title: '%{name} Dizileri'
+      movie_page_title: "%{name} Filmleri"
+      tv_page_title: "%{name} Dizileri"
     movie:
       edit:
         adult:
@@ -3787,7 +3788,7 @@ tr-TR:
       search:
         no_results: Sorgunuzla eşleşen ağ yok.
         results: Ağ sonuçları
-      tv_page_title: '%{name} üzerinde TV Şovları'
+      tv_page_title: "%{name} üzerinde TV Şovları"
     no_results_found:
       movie: Film Bulunamadı.
       tv: Dizi Bulunamadı.
@@ -3801,15 +3802,15 @@ tr-TR:
       edit:
         alternative_names:
           no_records: Alternatif isimler eklenmedi.
-        blank_translated_name: '<strong>%{name} (%{language})</strong> boş olduğunda birincil çeviri ayarlanamıyor.'
+        blank_translated_name: "<strong>%{name} (%{language})</strong> boş olduğunda birincil çeviri ayarlanamıyor."
         confirm_primary_translation: Bu kişi için birincil çeviri (%{i18n_tag}) zaten mevcut.
         errors:
           invalid_unicode: Geçersiz karakter(ler) algılandı.
           leading_whitespace: Önemli beyaz boşluklar algılandı.
-          locked_name: '<strong>%{name} (%{language})</strong> kilitlidir.'
+          locked_name: "<strong>%{name} (%{language})</strong> kilitlidir."
           name_required: Boş %{name} (%{language}) alanı taşınamıyor.
           numbers: Geçersiz sayısal karakter(ler) algılandı.
-          primary_name_migration: '<strong>%{name} (%{language})</strong> birincil çeviriden taşınamıyor.'
+          primary_name_migration: "<strong>%{name} (%{language})</strong> birincil çeviriden taşınamıyor."
           primary_translation: Çeviri zaten var.
           special_characters: Geçersiz karakter(ler) algılandı.
           trailing_whitespace: Sonda boşluk(lar) algılandı.
@@ -3827,13 +3828,13 @@ tr-TR:
         movies: Filmler
         tv: TV
         tv_shows: Diziler
-      years_old: '%{count} yaşında'
+      years_old: "%{count} yaşında"
     rating:
       not_rateable: Bu öğe henüz derecelendirilmedi.
-      rated_with_rating: '%{value} olarak derecelendirildi'
+      rated_with_rating: "%{value} olarak derecelendirildi"
       rating_count:
-        one: '%{count} Puan'
-        other: '%{count} Puan'
+        one: "%{count} Puan"
+        other: "%{count} Puan"
       removed: Puanlamanız silindi.
       score_breakdown: Puan Ayrıntısı
       score_distribution: Puan Dağılımı
@@ -3864,17 +3865,17 @@ tr-TR:
     social_panel:
       discussions:
         currently_subscribed: Birisi ilk gönderiyi oluşturduğunda bir bildirim alacaksınız.
-        no_discussions: '%{item_title} için hiç tartışma yok. İlkini başlatmak için giriş yapın!'
+        no_discussions: "%{item_title} için hiç tartışma yok. İlkini başlatmak için giriş yapın!"
         unsubscribe_me: Beni üyelikten çıkar.
         want_to_be_notified: İlk gönderim yapıldığında sana haber verilsin mi?
         yes_notify_me: Evet, bana haber ver!
       reviews:
-        a_review_by: '%{username} tarafından eklenen yorum'
-        by: '%{username} tarafından %{date} tarihinde yazılmıştır.'
+        a_review_by: "%{username} tarafından eklenen yorum"
+        by: "%{username} tarafından %{date} tarihinde yazılmıştır."
         featured_review: Öne çıkan yorum
         no_review:
           logged_in: '%{title} için henüz bir yoruma sahip değiliz. <a href="%{url}"> Bir tane yazmak</a> ister misiniz?'
-          public: '%{title} için hiç eleştiri yok. '
+          public: "%{title} için hiç eleştiri yok. "
         read_all: Tüm Yorumları Oku
         read_the_rest: geri kalanları oku
         write_review:
@@ -3911,7 +3912,7 @@ tr-TR:
         mid_season: Sezon Ortası Finali
       episode_selector:
         current_episode: Bölüm %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Sonraki bölüm
         previous_episode: Önceki bölüm
     tv_season:
@@ -3955,8 +3956,8 @@ tr-TR:
           group: Grup
           messages:
             episodes_added:
-              one: '%{count} bölüm eklendi!'
-              other: '%{count} bölüm eklendi!'
+              one: "%{count} bölüm eklendi!"
+              other: "%{count} bölüm eklendi!"
           name: Grup Adı
           no_records: Hiçbir bölüm grubu eklenmedi.
           type: Tip
@@ -3982,8 +3983,8 @@ tr-TR:
       episode_groups:
         groups:
           count:
-            one: '%{count} Grup'
-            other: '%{count} Grup'
+            one: "%{count} Grup"
+            other: "%{count} Grup"
         original_air_date: Orijinal Yayın Tarihi
       networks:
         one: Ağ
@@ -4048,10 +4049,10 @@ tr-TR:
       to: Alıcı
     no_messages: Mesaj yok
     notifications:
-      new_message: '%{username} sana yeni bir ileti gönderdi'
+      new_message: "%{username} sana yeni bir ileti gönderdi"
     number_of_messages:
-      one: '%{count} ileti'
-      other: '%{count} ileti'
+      one: "%{count} ileti"
+      other: "%{count} ileti"
     options:
       admin: Yönetici
       archive: Arşiv
@@ -4067,7 +4068,7 @@ tr-TR:
       subject: Bu ne hakkında?
       to: Kullanıcı ara
     right_column_titles:
-      conversation_with: '%{username} ile konuşma'
+      conversation_with: "%{username} ile konuşma"
       message_inbox: İleti gelen kutusu
       my_archive: Arşivim
       my_inbox: Gelen kutusu
@@ -4083,9 +4084,9 @@ tr-TR:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
-  month: '%{count} ay'
+  month: "%{count} ay"
   navigation:
     discover:
       discover: Keşfet
@@ -4105,7 +4106,7 @@ tr-TR:
       top_rated: En Fazla Oy Alanlar
     popular: Popüler
     more: Daha Fazla
-  no_biography: '%{name} için biyografimiz yok. Bir tane ekleyerek bize yardımcı olabilirsiniz.'
+  no_biography: "%{name} için biyografimiz yok. Bir tane ekleyerek bize yardımcı olabilirsiniz."
   no_cast: Bu %{media_type} için eklenmiş herhangi bir oyuncu kadromuz yok. Biraz ekleyerek yardımcı olabilirsiniz!
   no_collection_search_results: Sorgunuza uyan herhangi bir koleksiyon bulunamadı.
   no_company_search_results: Sorgunuza uyan herhangi bir şirket bulunamadı.
@@ -4117,16 +4118,16 @@ tr-TR:
   no_episode_images: Hiç bir bölüm görseli eklenmedi.
   no_favorite_movies:
     current_user: Hiç favori film eklemediniz.
-    public: '%{username} adlı kullanıcının favori filmi yok.'
+    public: "%{username} adlı kullanıcının favori filmi yok."
   no_favorite_tv_shows:
     current_user: Hiç favori TV programı eklemediniz.
-    public: '%{username} favori TV şovuna sahip değil.'
+    public: "%{username} favori TV şovuna sahip değil."
   no_genres: Hiçbir tarz eklenmemiş.
   no_guest_stars: Konuk yıldız eklenmedi.
   no_keyword_search_results: Sorgunuza uyan herhangi bir anahtar kelime bulunamadı.
   no_keywords: Hiç anahtar kelime eklenmemiş.
   no_list_search_results: Sorgunuza uyan herhangi bir liste bulunamadı.
-  no_media: '%{title} öğesine video, arka plan veya afiş eklenmedi.'
+  no_media: "%{title} öğesine video, arka plan veya afiş eklenmedi."
   no_movie_search_results: Sorgunuza uyan herhangi bir film bulunamadı.
   no_overview: Türkçe'ye çevrilmiş bir özet henüz bulunmuyor. Film için bir tane ekleyerek katkıda bulunabilirsiniz.
   no_person_search_results: Sorgunuza uyan herhangi bir kişi bulunamadı.
@@ -4135,13 +4136,13 @@ tr-TR:
     tv: Kişisel TV önerileri almak için en sevdiğiniz filmleri ekleyerek başlayın. Bu noktada, muhtemelen size önerdiğimiz TV şovlarının çoğunun olduğunu göreceksiniz. Bunları filtrelemek için puanlayın! Derecelendirildikten sonra, bunları otomatik olarak filtreleriz.
   no_rated_movies:
     current_user: Hiçbir filme oy vermediniz.
-    public: '%{username} hiçbir filmi derecelendirmedi.'
+    public: "%{username} hiçbir filmi derecelendirmedi."
   no_rated_tv_shows:
     current_user: Henüz herhangi bir diziye oy vermedin.
-    public: '%{username} hiçbir TV şovunu derecelendirmedi.'
+    public: "%{username} hiçbir TV şovunu derecelendirmedi."
   no_recommendations:
-    movie: '%{title} ile ilgili olarak herhangi bir film önermek için yeterli veriye sahip değiliz. İzlediğiniz filmleri derecelendirerek bize yardımcı olabilirsiniz.'
-    tv_show: '%{title} ile ilgili herhangi bir TV şovu önermek için yeterli veriye sahip değiliz. İzlediğiniz TV programlarını derecelendirerek yardımcı olabilirsiniz.'
+    movie: "%{title} ile ilgili olarak herhangi bir film önermek için yeterli veriye sahip değiliz. İzlediğiniz filmleri derecelendirerek bize yardımcı olabilirsiniz."
+    tv_show: "%{title} ile ilgili herhangi bir TV şovu önermek için yeterli veriye sahip değiliz. İzlediğiniz TV programlarını derecelendirerek yardımcı olabilirsiniz."
   no_records: Hiçbir kayıt eklenmedi.
   no_tv_search_results: Sorgunuza uyan herhangi bir televizyon dizisi bulunamadı.
   no_watchlist_movies:
@@ -4152,7 +4153,7 @@ tr-TR:
     public: Bu izleme listesi boş
   no_writer: Hiçbir yazar eklenmedi.
   not_translated:
-    logged_in: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Çeviri eklemeye devam etmek istiyorsanız lütfen aşağıdaki <strong>Çeviri Oluştur</strong> butona tıklayın.'
+    logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Çeviri eklemeye devam etmek istiyorsanız lütfen aşağıdaki <strong>Çeviri Oluştur</strong> butona tıklayın."
     public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a> yaparak veya hesap açmak için <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
   notifications:
     caught_up: Görünüşe göre her şey yolunda.
@@ -4166,22 +4167,22 @@ tr-TR:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%u%n'
+        delimiter: "."
+        format: "%u%n"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: true
-        unit: '₺'
+        unit: "₺"
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: true
       strip_insignificant_zeros: true
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Milyar
           million: Milyon
@@ -4203,15 +4204,15 @@ tr-TR:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
-  number_of_edits: '%{count} düzenleme'
-  number_of_items: '%{count} öğe'
-  number_of_results: '%{count} sonuç'
-  number_of_translations: '%{count} çeviri'
-  number_of_votes: '%{count} oy'
+  number_of_edits: "%{count} düzenleme"
+  number_of_items: "%{count} öğe"
+  number_of_results: "%{count} sonuç"
+  number_of_translations: "%{count} çeviri"
+  number_of_votes: "%{count} oy"
   ott:
     available_sentences:
       ads: reklamlı izle
@@ -4219,11 +4220,11 @@ tr-TR:
       flatrate: akış
       free: ücretsiz izle
       rent: kirala
-      sentence: '%{title} şu an %{country} için %{available_types} seçenekleriyle seyredilebilir.'
+      sentence: "%{title} şu an %{country} için %{available_types} seçenekleriyle seyredilebilir."
     available_snippet:
       flatrate: Yayında
       rent_or_buy: Kirala veya Satın Al
-      summary_sentence: '%{available_snippet} %{service_name} üzerinden seyredilebilir'
+      summary_sentence: "%{available_snippet} %{service_name} üzerinden seyredilebilir"
     description: JustWatch, sevdiğiniz filmleri ve TV şovlarını çevrimiçi ve yasal olarak nerede izleyebileceğinizi kolayca bulmanızı sağlar. Daha fazla bilgi için {justwatch_link} adresini ziyaret edebilirsiniz.
     filters:
       4k: 4K
@@ -4244,20 +4245,20 @@ tr-TR:
       bluray: Blu-ray teklifi bulunamadı
       dvd: DVD teklifi bulunamadı
       hd: HD teklifi bulunamadı
-      none: '%{title} için öneri yok.'
+      none: "%{title} için öneri yok."
       sd: SD teklifi bulunamadı
-    page_title: '%{media_name} nerede izleyebilirim?'
+    page_title: "%{media_name} nerede izleyebilirim?"
     seasons:
-      many: '%{count} sezon'
-      other: '%{count} sezon'
+      many: "%{count} sezon"
+      other: "%{count} sezon"
     view_offers: Teklifleri Göster
     watch_now: Hemen İzle
     watch_on:
-      ads: '%{name} öğesini %{provider_name} üzerinden izle'
-      buy: '%{name} öğesini %{provider_name} üzerinden satın al'
-      flatrate: '%{name} öğesini %{provider_name} üzerinden izle'
-      free: '%{name} öğesini %{provider_name} üzerinden izle'
-      rent: '%{name} öğesini %{provider_name} üzerinden kirala'
+      ads: "%{name} öğesini %{provider_name} üzerinden izle"
+      buy: "%{name} öğesini %{provider_name} üzerinden satın al"
+      flatrate: "%{name} öğesini %{provider_name} üzerinden izle"
+      free: "%{name} öğesini %{provider_name} üzerinden izle"
+      rent: "%{name} öğesini %{provider_name} üzerinden kirala"
   pagination:
     currently_on: Şu anda Sayfada %{current_page} %{total_pages}
     last_page: Son sayfa
@@ -4265,11 +4266,11 @@ tr-TR:
     next_page: Sonraki sayfa
     next_page_with_arrow: Sonraki Sayfa
     previous_page: Önceki sayfa
-    previous_page_with_arrow: '← Önceki Sayfa'
+    previous_page_with_arrow: "← Önceki Sayfa"
     show_more: Devamını Görüntüle
-  part_of_collection: '%{collection_name} İçindekiler'
+  part_of_collection: "%{collection_name} İçindekiler"
   password:
-    4_chars_minimum: '(minimum 4 karakter)'
+    4_chars_minimum: "(minimum 4 karakter)"
     confirm_new_password: Yeni Parolayı Onayla
     enter_to_continue: Devam etmek için mevcut şifrenizi girin...
     new_password: Yeni Parola
@@ -4278,8 +4279,8 @@ tr-TR:
     reset_email_sent: E-posta gönderildi! Şifre sıfırlama talimatlarını kısa bir süre içinde almalısınız.
   person:
     credits:
-      as_character: '%{character} olarak'
-      as_job: '— %{job}'
+      as_character: "%{character} olarak"
+      as_job: "— %{job}"
   placeholder:
     primary_character_name: Ana Karakter Adı
   report:
@@ -4310,11 +4311,11 @@ tr-TR:
     watchlist_movie: Film izleme listesinde ara
     watchlist_tv: Dizi izleme listesinde ara
   search_text_validation_error: Lütfen geçerli bir metin giriniz!
-  search_tip_1: "İpucu: Sorgunuzda yıl belirtmek için 'y:' kullanabilirsiniz. Örneğin: 'yıldız savaşları y:1977'."
+  search_tip_1: 'İpucu: Sorgunuzda yıl belirtmek için ''y:'' kullanabilirsiniz. Örneğin: ''yıldız savaşları y:1977''.'
   season_number_name: Sezon %{season_number}
   season_overview:
-    already_aired: '%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girdi.'
-    to_air: '%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girecek.'
+    already_aired: "%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girdi."
+    to_air: "%{show_name} dizisinin %{season_number}. sezonu %{date} tarihinde gösterime girecek."
   settings:
     account:
       account_settings: Hesap Ayarları
@@ -4355,7 +4356,7 @@ tr-TR:
       confirm_delete: Silmeyi Onayla
       delete_account: Hesabımı Sil
       page_title: Hesabımı sil
-      summary_text: '<Strong> Tehlikeli bölgeye </ strong> girdiniz! Hesabınızı silmek için, aşağıya şifrenizi girerek ve istenilenleri onaylayarak hesabınızı silebilirsiniz.'
+      summary_text: "<Strong> Tehlikeli bölgeye </ strong> girdiniz! Hesabınızı silmek için, aşağıya şifrenizi girerek ve istenilenleri onaylayarak hesabınızı silebilirsiniz."
     import_list:
       import_button: Yükle
       import_list: Liste Yükle
@@ -4460,7 +4461,7 @@ tr-TR:
         what_is_your_email: E-postanız nedir?
       page_title: Profilim
       reset_password_dialog_text: Bu talebi onaylarsanız, size şifrenizi nasıl sıfırlayacağınızla ilgili talimatları içeren bir e-posta gönderilecektir. Bunu yapmak istediğinize emin misiniz?
-      reset_password_dialog_text2: '<strong>Lütfen unutmayın:</strong> Şifrenizi sıfırladığınızda mevcut tüm oturumlardan çıkış yapılacak.'
+      reset_password_dialog_text2: "<strong>Lütfen unutmayın:</strong> Şifrenizi sıfırladığınızda mevcut tüm oturumlardan çıkış yapılacak."
     sessions:
       api:
         connected_apps: Bağlı Uygulamalar
@@ -4549,17 +4550,17 @@ tr-TR:
   success_sharing: Mesajınız başarı ile gönderildi.
   support:
     array:
-      last_word_connector: ', ve '
-      two_words_connector: ' ve '
-      words_connector: ', '
-  the: '-'
+      last_word_connector: ", ve "
+      two_words_connector: " ve "
+      words_connector: ", "
+  the: "-"
   time:
     am: ÖÖ
     formats:
-      12hour_minutes: '%l:%M %p'
-      default: '%a, %d %b %Y %I:%M:%S %p %Z'
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      12hour_minutes: "%l:%M %p"
+      default: "%a, %d %b %Y %I:%M:%S %p %Z"
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm: ÖS
     units:
       hours: Saat
@@ -4586,11 +4587,11 @@ tr-TR:
         interested: Düşündürdü
         sad: Üzdü
         surprised: Şaşırttı
-      prompt: '%{title} sizi nasıl hissettirdi?'
+      prompt: "%{title} sizi nasıl hissettirdi?"
     rating:
       clear: Puanlamamı sil
       label: Puanlama
-      prompt: '%{title} hakkında ne düşünüyorsunuz?'
+      prompt: "%{title} hakkında ne düşünüyorsunuz?"
       tooltip:
         '0': Felaket Kötü
         '10': Tamamen Çöp
@@ -4626,10 +4627,10 @@ tr-TR:
         sort: Sırala
       type: Tür
     number_of_videos:
-      one: '%{count} video'
-      other: '%{count} video'
+      one: "%{count} video"
+      other: "%{count} video"
     official_channel: Resmi Kanal
-    page_title: '%{name} Video Kanalı'
+    page_title: "%{name} Video Kanalı"
     popular: Popüler
     refresh_from_youtube: YouTube'dan Yenile
     types:
@@ -4654,5 +4655,5 @@ tr-TR:
   view all: tümünü görüntüle
   will_paginate:
     next_label: Sonraki →
-    page_gap: '…'
-    previous_label: '← Önceki'
+    page_gap: "…"
+    previous_label: "← Önceki"

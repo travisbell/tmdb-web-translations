@@ -2248,6 +2248,7 @@ es-ES:
       wrong_length:
         one: La longitud es incorrecta (debería ser %{count} carácter)
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
+      blocked_words:
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
     nesting:
@@ -4133,7 +4134,7 @@ es-ES:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: "%{count} mes"

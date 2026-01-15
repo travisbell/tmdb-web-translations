@@ -567,11 +567,11 @@ ar-EG:
             Unsubscribed: غير مشترك
             status: الحالة
         number_of_items:
-          few: '%{count} Emails'
-          many: '%{count} Emails'
+          few: "%{count} Emails"
+          many: "%{count} Emails"
           one: Email
-          other: '%{count} Emails'
-          two: '%{count} Emails'
+          other: "%{count} Emails"
+          two: "%{count} Emails"
           zero: Emails
       events: أحداث
       notifications:
@@ -591,10 +591,10 @@ ar-EG:
           two: تنبيهان
           zero: ''
         number_of_items:
-          few: '%{count} تنبيهات'
-          many: '%{count} تنبيه'
+          few: "%{count} تنبيهات"
+          many: "%{count} تنبيه"
           one: تنبيه
-          other: '%{count} تنبيه'
+          other: "%{count} تنبيه"
           two: تنبيهان
           zero: ''
       page_title:
@@ -655,12 +655,12 @@ ar-EG:
       30_day_activity: نشاط آخر 30 يوم
       empty_recent_activity:
         logged_in: لم تعدل أي شيء مؤخراً.
-        public: '%{username} لم يقم بأي تعديلات مؤخراً.'
+        public: "%{username} لم يقم بأي تعديلات مؤخراً."
       empty_upcoming_watchlist:
         logged_in: لا توجد أفلام قادمة في قائمة مشاهداتك.
       empty_watched_genres:
         logged_in: لم يسبق لك ان قمت بتدوين أي أفلام أو مسلسلات.
-        public: '%{username} لم يقم بتدوين أي فلم أو مسلسل من قبل.'
+        public: "%{username} لم يقم بتدوين أي فلم أو مسلسل من قبل."
       goto_discussions: اذهب إلى النقاشات
       goto_watchlist: اذهب إلى قائمة المشاهدة
       most_watched_genres: الأنواع الاكثر مشاهدة
@@ -726,7 +726,7 @@ ar-EG:
       this_week: هذا الأسبوع
       view_them: اعرضهم.
   add_to_list: إضافة %{media_title} لإحدى قوائمك ..
-  already_translated_in: '%{page_title} مترجم بالفعل إلى اللغات التالية ...'
+  already_translated_in: "%{page_title} مترجم بالفعل إلى اللغات التالية ..."
   api_for_business:
     api_for_business:
     form:
@@ -763,7 +763,7 @@ ar-EG:
         message: لقد منحت <strong>%{application_name}</strong> صلاحية القراءة والكتابة، يمكنك العودة إلى التطبيق وإغلاق هذه النافذة، كما بإمكانك دائماً إلغاء هذه الصلاحية بذهابك إلى صفحة إعدادات حسابك ثم إلى صفحة "التطبيقات المتصلة".
         name: منحت الصلاحية
       denied:
-        message: '<p>لقد منعت من وصول إلى <strong>%{application_name}</strong>، إذا كان هذا الإجراء بالخطأ أو أردت إعادة عملية منح الصلاحية، توجه مجدداً إلى التطبيق واطلب الإذن مجدداً.</p>'
+        message: "<p>لقد منعت من وصول إلى <strong>%{application_name}</strong>، إذا كان هذا الإجراء بالخطأ أو أردت إعادة عملية منح الصلاحية، توجه مجدداً إلى التطبيق واطلب الإذن مجدداً.</p>"
         name: مُنعت الصلاحية
       invalid_request_token:
         message: قسيمة الوصول التي قدمتها غير صالحة، يرجع السبب إلى انتهاء صلاحيتها، جرب إنشاء واحدة جديدة وتأكد من نسخها بشكل صحيح. إذا استمرت المشكلة، اتصل بمطور التطبيق الذي تستخدمه.
@@ -986,7 +986,7 @@ ar-EG:
         '2':
           meaning: 'غير مناسب للأطفال الذين تقل أعمارهم عن 10 أعوام (يستخدم هذا التصنيف للتلفزيون فقط) ؛ ما يعادل في المسارح: "تجنب" (تحذير) ، قد تكون بعض المشاهد مزعجة للأطفال الصغار والأشخاص الحساسين ؛ مكافئ في الفيديو: "منح الوالدين" (توجيه الوالدين).'
         '3':
-          meaning: ' مناسب للأطفال الذين تقل أعمارهم عن 12 عامًا أو ممنوع في دور السينما لأقل من 12 عامًا.'
+          meaning: " مناسب للأطفال الذين تقل أعمارهم عن 12 عامًا أو ممنوع في دور السينما لأقل من 12 عامًا."
         '4':
           meaning: غير مناسب للأطفال الذين تقل أعمارهم عن 16 عامًا أو ممنوع في دور السينما لمن هم أقل من 16 عامًا.
         '5':
@@ -2152,6 +2152,7 @@ ar-EG:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -3995,7 +3996,7 @@ ar-EG:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
   navigation:
@@ -4078,22 +4079,22 @@ ar-EG:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision: 2
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: '$'
+        unit: "$"
     format:
-      delimiter: '،'
+      delimiter: "،"
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: مليار
           million:
@@ -4114,8 +4115,8 @@ ar-EG:
           unit:
     percentage:
       format:
-        delimiter: '%'
-        format: '%n%'
+        delimiter: "%"
+        format: "%n%"
     precision:
       format:
         delimiter:

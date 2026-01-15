@@ -1,6 +1,6 @@
 ---
 ku-TR:
-  '-':
+  "-":
   3rd Party Applications:
   API:
   API Access Token:
@@ -2123,6 +2123,7 @@ ku-TR:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -3966,7 +3967,7 @@ ku-TR:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
   navigation:
@@ -4049,22 +4050,22 @@ ku-TR:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision: 2
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
         unit: د.ع.‏
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion:
           million:
@@ -4086,7 +4087,7 @@ ku-TR:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
@@ -4433,7 +4434,7 @@ ku-TR:
     formats:
       12hour_minutes:
       default:
-      long: '%B %d, %Y %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
       short:
     pm:
     units:

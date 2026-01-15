@@ -2209,6 +2209,7 @@ bg-BG:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Тази личност е вече добавена като част от екипа.
     nesting:
@@ -4086,7 +4087,7 @@ bg-BG:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: месец

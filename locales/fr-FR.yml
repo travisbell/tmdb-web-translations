@@ -2244,6 +2244,7 @@ fr-FR:
       wrong_length:
         one: n'a pas la bonne longueur (qui doit être de %{count} caractères)
         other: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
+      blocked_words:
     movie:
       duplicate_cast: Cette personne est déjà présente dans la distribution des rôles du film.
     nesting:
@@ -4129,7 +4130,7 @@ fr-FR:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mois

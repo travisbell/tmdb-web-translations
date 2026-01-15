@@ -567,10 +567,10 @@ sr-RS:
             Unsubscribed: Отказане претплате
             status: Стање
         number_of_items:
-          few: '%{count} Поруке'
-          many: '%{count} Порука'
-          one: '%{count} Порука'
-          other: '%{count} Поруке'
+          few: "%{count} Поруке"
+          many: "%{count} Порука"
+          one: "%{count} Порука"
+          other: "%{count} Поруке"
       events: Догађаји
       notifications:
         filters:
@@ -583,10 +583,10 @@ sr-RS:
             type: Тип
         notifications: Обавештења
         number_of_items:
-          few: '%{count} Обавештења'
-          many: '%{count} Обавештења'
-          one: '%{count} Обавештење'
-          other: '%{count} Обавештења'
+          few: "%{count} Обавештења"
+          many: "%{count} Обавештења"
+          one: "%{count} Обавештење"
+          other: "%{count} Обавештења"
       page_title:
         recent_events: Скорашњи догађаји
       recent: Скорашњи
@@ -625,7 +625,7 @@ sr-RS:
         public: 'Листе корисника: %{username}'
       no_lists:
         logged_in: Немаш ни једну листу
-        public: '%{username} нема јавних листи које дели.'
+        public: "%{username} нема јавних листи које дели."
       page_title:
         page_owner: Моје листе
         public: Листе корисника %{username}
@@ -650,7 +650,7 @@ sr-RS:
         logged_in: Нема предстојећих филмова на твојој листи за погледати.
       empty_watched_genres:
         logged_in: Нисте унели ни један филм или ТВ серију.
-        public: '%{username} није унео/ла ни један филм или ТВ серију.'
+        public: "%{username} није унео/ла ни један филм или ТВ серију."
       goto_discussions: Иди на дискусије
       goto_watchlist: Иди на листу за погледати
       most_watched_genres: Најгледанији жанрови
@@ -712,7 +712,7 @@ sr-RS:
       this_week: Ове недеље
       view_them: Погледај их
   add_to_list: Додај %{media_title} у једну од твојих листи...
-  already_translated_in: '%{page_title} је већ преведен на следеће језике...'
+  already_translated_in: "%{page_title} је већ преведен на следеће језике..."
   api_for_business:
     api_for_business:
     form:
@@ -743,7 +743,7 @@ sr-RS:
       message: Токен је неопходан за аутентикацију корисничких налога.
       title: Недостаје токен за захтев
     request_token_approval:
-      message: '{{APP}} тражи дозволу да  чита и пише твоје податке у твоје име. Ово је неопходно ако желиш да мењаш своје листе или да оцењујеш филмове изван TMDb-а.'
+      message: "{{APP}} тражи дозволу да  чита и пише твоје податке у твоје име. Ово је неопходно ако желиш да мењаш своје листе или да оцењујеш филмове изван TMDb-а."
     statuses:
       completed:
         message: Доделио си довзолу <strong>%{application_name}</strong> за писање & читање. Сад можеш да се вратиш у апликацију и да затвориш прозор. У сваком тренутку на својој профилној страници у поставкама, можеш да поништиш ову дозволу.
@@ -1715,61 +1715,61 @@ sr-RS:
   create_api:
   date:
     abbr_day_names:
-      - нед
-      - пон
-      - уто
-      - сре
-      - чет
-      - пет
-      - суб
+    - нед
+    - пон
+    - уто
+    - сре
+    - чет
+    - пет
+    - суб
     abbr_month_names:
-      -
-      - јан
-      - феб
-      - мар
-      - апр
-      - мај
-      - јун
-      - јул
-      - авг
-      - сеп
-      - окт
-      - нов
-      - дец
+    -
+    - јан
+    - феб
+    - мар
+    - апр
+    - мај
+    - јун
+    - јул
+    - авг
+    - сеп
+    - окт
+    - нов
+    - дец
     day_names:
-      - недеља
-      - понедељак
-      - уторак
-      - среда
-      - четвртак
-      - петак
-      - субота
+    - недеља
+    - понедељак
+    - уторак
+    - среда
+    - четвртак
+    - петак
+    - субота
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d/%m/%Y'
-      full_month_day: '%d. %B %Y.'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d.%b.%Y.'
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%d. %B %Y."
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d.%b.%Y."
     month_names:
-      -
-      - јануар
-      - фебруар
-      - март
-      - април
-      - мај
-      - јун
-      - јул
-      - август
-      - септембар
-      - октобар
-      - новембар
-      - децембар
+    -
+    - јануар
+    - фебруар
+    - март
+    - април
+    - мај
+    - јун
+    - јул
+    - август
+    - септембар
+    - октобар
+    - новембар
+    - децембар
   day: дан
   days:
     few: дана
     many: дана
     one: дан
-    other: '%{count} дана'
+    other: "%{count} дана"
   deleted_content:
     entry_deleted: Унос је обрисан
     reasons:
@@ -1928,9 +1928,9 @@ sr-RS:
       watch: Прати
     admin_panel: Администраторски панел
     back_options:
-      back_to_item_with_arrow: '← Назад на %{item_title}'
-      back_to_tmdb_with_arrow: '← Назад на TMDB'
-      back_with_arrow: '← Назад'
+      back_to_item_with_arrow: "← Назад на %{item_title}"
+      back_to_tmdb_with_arrow: "← Назад на TMDB"
+      back_with_arrow: "← Назад"
     categories:
       categories: Категорије
       discuss:
@@ -1949,8 +1949,8 @@ sr-RS:
         support: Подршка
         website_support: Подршка за сајт
     category:
-      last_reply_with_datetime: '%{date} у %{time}'
-      last_reply_with_datetime_and_username: '%{date} у %{time}<br>од стране корисника: %{username}'
+      last_reply_with_datetime: "%{date} у %{time}"
+      last_reply_with_datetime_and_username: "%{date} у %{time}<br>од стране корисника: %{username}"
     discussion_activity: Активност дискусије
     email_notifications:
       email_notifications: Имејл обавештење
@@ -1974,15 +1974,15 @@ sr-RS:
     no_discussions: Нема дискусија.
     pagination:
       post_summary:
-        few: '%{count} одговора (на страни %{current_page} од %{total_pages})'
-        many: '%{count} одговора (на страни %{current_page} од %{total_pages})'
-        one: '%{count} одговор (на страни %{current_page} од %{total_pages})'
-        other: '%{count} одговора (на страни %{current_page} од %{total_pages})'
+        few: "%{count} одговора (на страни %{current_page} од %{total_pages})"
+        many: "%{count} одговора (на страни %{current_page} од %{total_pages})"
+        one: "%{count} одговор (на страни %{current_page} од %{total_pages})"
+        other: "%{count} одговора (на страни %{current_page} од %{total_pages})"
       summary:
-        few: '%{count} дискусије, тренутно на страни %{current_page} од %{total_pages}'
-        many: '%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}'
-        one: '%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}'
-        other: '%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}'
+        few: "%{count} дискусије, тренутно на страни %{current_page} од %{total_pages}"
+        many: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
+        one: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
+        other: "%{count} дискусија, тренутно на страни %{current_page} од %{total_pages}"
     post:
       delete: Обриши
       edit: Измени
@@ -2090,7 +2090,7 @@ sr-RS:
     new_email_address: Нова имејл адреса.
     sent_verification_email: Послали смо поруку на %{email_address} за верификацију. Молимо проверите пристиглу пошту ( и фолдер са нежељеном поштом) за инструкције како наставити даље.
     unsubscribe:
-      sad_to_go: '%{username}, жао нам је што одлазиш!'
+      sad_to_go: "%{username}, жао нам је што одлазиш!"
       subscription_changed: Подешавања претплате су ажурирана. Поставке обавештења можете да измените тако што ћете посетити страницу <a href="%{account_link}">Подешавања обавештења</a>.
       unsubscribe: Укини претплату
       unsubscribed: Ви сте <strong>одјављени</strong>. Ако сте то учинили грешком, можете се поново претплатити тако што ћете посетити страницу a href="%{account_link}">Подешавања обавештења</a>.
@@ -2131,10 +2131,10 @@ sr-RS:
       1fae3:
       1fae4:
   episode_count:
-    few: '%{count} Епизода'
-    many: '%{count} Епизода'
-    one: '%{count} Епизода'
-    other: '%{count} Епизода'
+    few: "%{count} Епизода"
+    many: "%{count} Епизода"
+    one: "%{count} Епизода"
+    other: "%{count} Епизода"
   episode_number_name: Епизода %{episode_number}
   error_pages:
     deleted_account:
@@ -2219,6 +2219,7 @@ sr-RS:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Ова особа је већ додата као члан тима.
     nesting:
@@ -2362,10 +2363,10 @@ sr-RS:
       validation_header:
   invalid_aspect_ratio: Ова пропорција слике није исправна.
   item_count:
-    few: '%{count} ставке'
-    many: '%{count} ставки'
-    one: '%{count} ставка'
-    other: '%{count} ставки'
+    few: "%{count} ставке"
+    many: "%{count} ставки"
+    one: "%{count} ставка"
+    other: "%{count} ставки"
   item_count_more:
   jobs:
     '"A" Camera Operator':
@@ -3307,17 +3308,17 @@ sr-RS:
       go_to_edit: иди на страницу за уређивање
       last_reply: иди на последњи одговор
       new_discussion: отвори нову дискусију
-      next_episode: '(стрелица надесно) пређите на следећу епизоду'
-      next_page: '(стрелица надесно) следећа страница'
-      next_season: '(стрелица надесно) пређите на следећу сезону'
+      next_episode: "(стрелица надесно) пређите на следећу епизоду"
+      next_page: "(стрелица надесно) следећа страница"
+      next_season: "(стрелица надесно) пређите на следећу сезону"
       open_activity: отвори активност
       open_add_image_window: отвори прозор за додавање слике
       open_profile: отворите мени профила
       open_shortcut_window: отвори прозор пречице на тастатури
       open_translation_selector: отвори селектор превода
-      previous_episode: '(лева стрелица) иди на претходну епизоду'
-      previous_page: '(лева стрелица) претходна страница'
-      previous_season: '(лева стрелица) иди на претходну сезону'
+      previous_episode: "(лева стрелица) иди на претходну епизоду"
+      previous_page: "(лева стрелица) претходна страница"
+      previous_season: "(лева стрелица) иди на претходну сезону"
       reply_to_discussion: одговор на дискусију
       save_form: пошаљи образац
       submit_message: пошаљи поруку
@@ -3603,10 +3604,10 @@ sr-RS:
         language: Језик
         user: Корисник
       number_of_changes:
-        few: '%{count} промене'
-        many: '%{count} промена'
-        one: '%{count} промена'
-        other: '%{count} промена'
+        few: "%{count} промене"
+        many: "%{count} промена"
+        one: "%{count} промена"
+        other: "%{count} промена"
       view_weekly_leaderboard: Види недељну таблу лидера
     character:
       edit:
@@ -3730,8 +3731,8 @@ sr-RS:
       visit_twitter: Посети Твитер
       visit_youtube:
     genre:
-      movie_page_title: '%{name} Филмови'
-      tv_page_title: '%{name} ТВ серије'
+      movie_page_title: "%{name} Филмови"
+      tv_page_title: "%{name} ТВ серије"
     images:
       format: Формат
       no_backdrop_stills: Овом уносу нису додате позадине.
@@ -3856,15 +3857,15 @@ sr-RS:
         few: ''
         many: ''
         one: ''
-        other: '%{count} година старости'
+        other: "%{count} година старости"
     rating:
       not_rateable:
       rated_with_rating: Оцењен %{value}
       rating_count:
-        few: '%{count} оцене'
-        many: '%{count} оцена'
-        one: '%{count} оцена'
-        other: '%{count} оцена'
+        few: "%{count} оцене"
+        many: "%{count} оцена"
+        one: "%{count} оцена"
+        other: "%{count} оцена"
       removed:
       score_breakdown: Разлагање резултата
       score_distribution: Дистрибуција резултата
@@ -3942,7 +3943,7 @@ sr-RS:
         mid_season:
       episode_selector:
         current_episode: Епизода %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Следећа епизода
         previous_episode: Претходна епизода
     tv_season:
@@ -3986,10 +3987,10 @@ sr-RS:
           group: Група
           messages:
             episodes_added:
-              few: '%{count} епизоде додате!'
-              many: '%{count} епизода додато!'
-              one: '%{count} епизода додата!'
-              other: '%{count} епизода додато!'
+              few: "%{count} епизоде додате!"
+              many: "%{count} епизода додато!"
+              one: "%{count} епизода додата!"
+              other: "%{count} епизода додато!"
           name: Име групе
           no_records: Није додата ниједна група епизода.
           type: Врста
@@ -4015,10 +4016,10 @@ sr-RS:
       episode_groups:
         groups:
           count:
-            few: '%{count} групе'
-            many: '%{count} група'
-            one: '%{count} група'
-            other: '%{count} група'
+            few: "%{count} групе"
+            many: "%{count} група"
+            one: "%{count} група"
+            other: "%{count} група"
         original_air_date: Оригинални датум емитовања
       networks:
         few: Мреже
@@ -4085,12 +4086,12 @@ sr-RS:
       to: За
     no_messages: Нема порука
     notifications:
-      new_message: '%{username} вам је послао поруку'
+      new_message: "%{username} вам је послао поруку"
     number_of_messages:
-      few: '%{count} поруке'
-      many: '%{count} порука'
-      one: '%{count} порука'
-      other: '%{count} поруке'
+      few: "%{count} поруке"
+      many: "%{count} порука"
+      one: "%{count} порука"
+      other: "%{count} поруке"
     options:
       admin: Админ
       archive: Архива
@@ -4122,13 +4123,13 @@ sr-RS:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: месеци
     many: месеци
     one: месец
-    other: '%{count} месеци'
+    other: "%{count} месеци"
   navigation:
     discover:
       discover: Откриј
@@ -4160,10 +4161,10 @@ sr-RS:
   no_episode_images: Сличице епизода нису додате.
   no_favorite_movies:
     current_user: Није додат ниједан филм на твоју листу омиљених.
-    public: '%{username} нема ниједан омиљени филм.'
+    public: "%{username} нема ниједан омиљени филм."
   no_favorite_tv_shows:
     current_user: Нисте додали омиљене серије.
-    public: '%{username} нема омиљене серије.'
+    public: "%{username} нема омиљене серије."
   no_genres: Нису додати жанрови.
   no_guest_stars: Нема додатих гостујућих звезда.
   no_keyword_search_results: Нема кључних речи које одговарају твом упиту.
@@ -4178,10 +4179,10 @@ sr-RS:
     tv: Да би добили личне препоруке за серије потребно је да додајете све своје омиљене серије. У овом тренутку вероватно примећујете да већина серија које препоручујемо су не које сте погледали. Како би их изфилтрирали, оцените их! Када их оцените, ми ћемо их аутоматски изоставити.
   no_rated_movies:
     current_user: Ниси оценио-ла ниједан филм.
-    public: '%{username} није оценио-ла ниједан филм.'
+    public: "%{username} није оценио-ла ниједан филм."
   no_rated_tv_shows:
     current_user: Ниси оценио-ла ниједну серију.
-    public: '%{username} није оценио-ла ниједну серију.'
+    public: "%{username} није оценио-ла ниједну серију."
   no_recommendations:
     movie: Немамо довољно података да би извршили препоруку филмова базирану на %{title}. Можеш нам помоћи оцењивањем филмова које си погледао-ла.
     tv_show: Немамо довољно података да би извршили препоруку серија базирану на %{title}. Можеш нам помоћи оцењивањем серија које си погледао-ла.
@@ -4195,7 +4196,7 @@ sr-RS:
     public: Ова листа за погледати је празна.
   no_writer: Није додат сценариста.
   not_translated:
-    logged_in: '%{page_title} још није преведен на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Уколико желиш да наставиш и направиш овај превод, кликни на доње дугме.'
+    logged_in: "%{page_title} још није преведен на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Уколико желиш да наставиш и направиш овај превод, кликни на доње дугме."
     public: '%{page_title} још није преведен на <strong>%{requested_i18n} (%{requested_language_text})</strong>. Можеш да додаш овај превод <a href="%{signup_link}">пријавом</a> за налог и <a href="%{login_link}">логовањем</a>.'
   notifications:
     caught_up: Изгледа да је све прегледано.
@@ -4209,22 +4210,22 @@ sr-RS:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%n %u'
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: дин
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Milijarda
           million: Милион
@@ -4246,31 +4247,31 @@ sr-RS:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
   number_of_edits:
-    few: '%{count} уређивања'
-    many: '%{count} уређивања'
-    one: '%{count} уређивање'
-    other: '%{count} уређивања'
-  number_of_items: '%{count} item'
+    few: "%{count} уређивања"
+    many: "%{count} уређивања"
+    one: "%{count} уређивање"
+    other: "%{count} уређивања"
+  number_of_items: "%{count} item"
   number_of_results:
-    few: '%{count} резултата'
-    many: '%{count} резултата'
-    one: '%{count} резултат'
-    other: '%{count} резултата'
+    few: "%{count} резултата"
+    many: "%{count} резултата"
+    one: "%{count} резултат"
+    other: "%{count} резултата"
   number_of_translations:
-    few: '%{count} превода'
-    many: '%{count} превода'
-    one: '%{count} превод'
-    other: '%{count} превода'
+    few: "%{count} превода"
+    many: "%{count} превода"
+    one: "%{count} превод"
+    other: "%{count} превода"
   number_of_votes:
-    few: '%{count} гласова'
-    many: '%{count} гласова'
-    one: '%{count} глас'
-    other: '%{count} гласова'
+    few: "%{count} гласова"
+    many: "%{count} гласова"
+    one: "%{count} глас"
+    other: "%{count} гласова"
   ott:
     available_sentences:
       ads: гледај са рекламама
@@ -4278,7 +4279,7 @@ sr-RS:
       flatrate:
       free: гледај бесплатно
       rent: изнајми
-      sentence: '%{title} је тренутно доступан као %{available_types} у %{country}.'
+      sentence: "%{title} је тренутно доступан као %{available_types} у %{country}."
     available_snippet:
       flatrate:
       rent_or_buy: Доступно је за рентирање или куповину
@@ -4307,10 +4308,10 @@ sr-RS:
       sd: Није пронађена ниједна SD понуда.
     page_title:
     seasons:
-      few: '%{count} сезоне'
-      many: '%{count} сезона'
-      one: '%{count} сезона'
-      other: '%{count} сезона'
+      few: "%{count} сезоне"
+      many: "%{count} сезона"
+      one: "%{count} сезона"
+      other: "%{count} сезона"
     view_offers: Погледати  понуде
     watch_now: Гледајте га сада
     watch_on:
@@ -4326,11 +4327,11 @@ sr-RS:
     next_page: Следећа страница
     next_page_with_arrow: Следећа страница →
     previous_page: Претходна страница
-    previous_page_with_arrow: '← Претходна страница'
+    previous_page_with_arrow: "← Претходна страница"
     show_more: Прикажи више
   part_of_collection: Део је %{collection_name}
   password:
-    4_chars_minimum: '(4 карактера минимум)'
+    4_chars_minimum: "(4 карактера минимум)"
     confirm_new_password: Потврдите нову лозинку
     enter_to_continue:
     new_password: Нова лозинка
@@ -4340,7 +4341,7 @@ sr-RS:
   person:
     credits:
       as_character: као %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4371,7 +4372,7 @@ sr-RS:
     watchlist_movie: Тражи филмове на листи за погледати...
     watchlist_tv: Тражи серије на листи за погледати...
   search_text_validation_error: Унесите исправан текст!
-  search_tip_1: "Напомена: Можете да користите 'y:' филтер како би сузили резултате по години. Пример: 'ратови звезда y:1977'."
+  search_tip_1: 'Напомена: Можете да користите ''y:'' филтер како би сузили резултате по години. Пример: ''ратови звезда y:1977''.'
   season_number_name: Сезона %{season_number}
   season_overview:
     already_aired: Сезона %{season_number} серије %{show_name} премијерно је приказана дана %{date}.
@@ -4521,7 +4522,7 @@ sr-RS:
         what_is_your_email: Која је ваша адреса е-поште?
       page_title: Мој профил
       reset_password_dialog_text: Потврђујући овај захтев, биће вам послата порука са инструкцијама како ресетовати лозинку. Јесте ли сигурни да желите да урадите ово?
-      reset_password_dialog_text2: '<strong>Напомена:</strong> ресетовањем лозинке одјавићете се са свих тренутних сесија.'
+      reset_password_dialog_text2: "<strong>Напомена:</strong> ресетовањем лозинке одјавићете се са свих тренутних сесија."
     sessions:
       api:
         connected_apps: Повезане апликације
@@ -4610,17 +4611,17 @@ sr-RS:
   success_sharing: Порука је успешно подељена.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours: сати
@@ -4689,12 +4690,12 @@ sr-RS:
         sort: Сортирај
       type: Врста
     number_of_videos:
-      few: '%{count} видеa'
-      many: '%{count} видеa'
-      one: '%{count} видео'
-      other: '%{count} видеa'
+      few: "%{count} видеa"
+      many: "%{count} видеa"
+      one: "%{count} видео"
+      other: "%{count} видеa"
     official_channel: Званични канал
-    page_title: '%{name} видео канал'
+    page_title: "%{name} видео канал"
     popular: Популарно
     refresh_from_youtube:
     types:

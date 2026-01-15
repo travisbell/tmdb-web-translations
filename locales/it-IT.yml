@@ -569,8 +569,8 @@ it-IT:
             Unsubscribed: Sottoscrizione annullata
             status: Stato
         number_of_items:
-          one: '%{count} Email'
-          other: '%{count} Email'
+          one: "%{count} Email"
+          other: "%{count} Email"
       events: Eventi
       notifications:
         filters:
@@ -583,8 +583,8 @@ it-IT:
             type: Tipo
         notifications: Notifiche
         number_of_items:
-          one: '%{count} Notifica'
-          other: '%{count} Notifiche'
+          one: "%{count} Notifica"
+          other: "%{count} Notifiche"
       page_title:
         recent_events: Eventi recenti
       recent: Recenti
@@ -613,7 +613,7 @@ it-IT:
       rating: Valutazione
       release_date: Data di Rilascio
       score: Punteggio
-      upcoming: ' In Uscita'
+      upcoming: " In Uscita"
       user_characters: Caratteri utente
     lists:
       create_list: Crea Lista
@@ -623,7 +623,7 @@ it-IT:
         public: Liste di %{username}
       no_lists:
         logged_in: Non hai creato nessuna lista.
-        public: '%{username} non ha nessuna lista pubblica da condividere.'
+        public: "%{username} non ha nessuna lista pubblica da condividere."
       page_title:
         page_owner: Le Mie Liste
         public: Liste di %{username}
@@ -643,12 +643,12 @@ it-IT:
       30_day_activity: 30 Giorni di Attività
       empty_recent_activity:
         logged_in: Non hai apportato modifiche recenti.
-        public: '%{username} non ha apportato modifiche di recente.'
+        public: "%{username} non ha apportato modifiche di recente."
       empty_upcoming_watchlist:
         logged_in: Non ci sono film in uscita nella tua watchlist.
       empty_watched_genres:
         logged_in: Non hai registrato alcun film o serie Tv.
-        public: '%{username} non ha registrato alcun film o serie Tv.'
+        public: "%{username} non ha registrato alcun film o serie Tv."
       goto_discussions: Vai a discussioni
       goto_watchlist: Vai alla Watchlist
       most_watched_genres: I Generi Più Guardati
@@ -706,7 +706,7 @@ it-IT:
       this_week: Questa settimana
       view_them: Visuallizzali.
   add_to_list: Aggiungi %{media_title} a una delle tue liste...
-  already_translated_in: '%{page_title} è già tradotto nelle seguenti lingue...'
+  already_translated_in: "%{page_title} è già tradotto nelle seguenti lingue..."
   api_for_business:
     api_for_business:
     form:
@@ -737,7 +737,7 @@ it-IT:
       message: È necessario un token per poter autenticare gli utenti.
       title: Token mancante
     request_token_approval:
-      message: '{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB.'
+      message: "{{APP}} ti sta chiedendo il permesso di leggere e scrivere dati a vostro nome. Questo è necessario se vuoi mantenere le tue liste o votare film fuori da TMDB."
     statuses:
       completed:
         message: Sei stato abilitato/a alla lettura e scrittura di <strong>%{application_name}</strong>. Puoi tornare all'applicazione e chiudere questa finestra. Puoi sempre revocare questo accesso nelle impostazioni del tuo account alla pagina "Applicazioni connesse".
@@ -962,15 +962,15 @@ it-IT:
           meaning: Bannato dalla distribuzione commerciale.
       FR:
         '1':
-          meaning: '(Tous publics) valido per tutti i pubblici.'
+          meaning: "(Tous publics) valido per tutti i pubblici."
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) inadatto per bambini di età inferiore ai 10 anni (questa valutazione è utilizzatoa solo per la TV); equivalente nei teatri: "avertissement" (avvertimento), alcune scene possono disturbare i bambini piccoli e le persone sensibili; equivalente in video: "accordo dei genitori" (guida dei genitori).'
         '3':
-          meaning: '(Interdit aux moins de 12 ans) inadatto per bambini di età inferiore ai 12 anni o vietato nei cinema per i minori di 12 anni.'
+          meaning: "(Interdit aux moins de 12 ans) inadatto per bambini di età inferiore ai 12 anni o vietato nei cinema per i minori di 12 anni."
         '4':
-          meaning: '(Interdit aux moins de 16 ans) inadatto per bambini di età inferiore a 16 anni o vietato nei cinema per minori di 16 anni.'
+          meaning: "(Interdit aux moins de 16 ans) inadatto per bambini di età inferiore a 16 anni o vietato nei cinema per minori di 16 anni."
         '5':
-          meaning: '(Interdit aux moins de 18 ans) inadatto per bambini di età inferiore a 18 anni o vietato nei cinema per minori di 18 anni.'
+          meaning: "(Interdit aux moins de 18 ans) inadatto per bambini di età inferiore a 18 anni o vietato nei cinema per minori di 18 anni."
       GB:
         '1':
           meaning: Ammesso tutte le età, non c'è nulla di inadatto per i bambini.
@@ -985,7 +985,7 @@ it-IT:
         '6':
           meaning: Sono ammessi solo gli adulti. Nessuno di età inferiore ai 18 anni può noleggiare o acquistare un VHS, un DVD, un Blu-ray Disc, un UMD o un gioco con classificazione 18, oppure guardare un film al cinema con questo punteggio. I film in questa categoria non hanno limitazioni sul linguaggio cattivo che viene utilizzato. Le droghe pesanti sono generalmente consentite e sono consentiti anche riferimenti sessuali espliciti e attività sessuali dettagliate. Scene del sesso reale forte possono essere permesse se giustificate dal contesto. Di solito è consentita violenza molto forte, cruenta e o sadica. È vietata la violenza sessuale a meno che non sia erotizzata o eccessivamente grafica.
         '7':
-          meaning: "Può essere mostrato solo nei cinema per adulti con licenza o venduti presso negozi di sesso autorizzati e solo per adulti, di età pari o superiore a 18 anni. I film di questa categoria sono sempre pornografia hard-core, definita come materiale destinato alla stimolazione sessuale e contenente immagini chiare di attività sessuale reale, materiale fetish forte, immagini animate esplicite o visione di certi atti come la tripla penetrazione simultanea e lo snowball. Resta una gamma di materiali che viene spesso tagliata dalla valutazione R18: immagini forti di lesioni in BDSM o lavori di sculacciata, urolagnia, scene che suggeriscono incesto anche se messo in scena, riferimenti al sesso minorile o allo sviluppo sessuale infantile e al comportamento aggressivo come l'arricciarsi dei capelli o sputare su un artista non è permesso. Più tagli sono richiesti in questa categoria rispetto a qualsiasi altra categoria."
+          meaning: 'Può essere mostrato solo nei cinema per adulti con licenza o venduti presso negozi di sesso autorizzati e solo per adulti, di età pari o superiore a 18 anni. I film di questa categoria sono sempre pornografia hard-core, definita come materiale destinato alla stimolazione sessuale e contenente immagini chiare di attività sessuale reale, materiale fetish forte, immagini animate esplicite o visione di certi atti come la tripla penetrazione simultanea e lo snowball. Resta una gamma di materiali che viene spesso tagliata dalla valutazione R18: immagini forti di lesioni in BDSM o lavori di sculacciata, urolagnia, scene che suggeriscono incesto anche se messo in scena, riferimenti al sesso minorile o allo sviluppo sessuale infantile e al comportamento aggressivo come l''arricciarsi dei capelli o sputare su un artista non è permesso. Più tagli sono richiesti in questa categoria rispetto a qualsiasi altra categoria.'
       HU:
         '0':
           meaning: Nessuna classificazione.
@@ -1120,13 +1120,13 @@ it-IT:
         '1':
           meaning: Qualunque età è ammessa.
         '2':
-          meaning: '(Per bambini sopra i 6 anni) - Non adatto a bambini sotto i 6 anni.'
+          meaning: "(Per bambini sopra i 6 anni) - Non adatto a bambini sotto i 6 anni."
         '3':
-          meaning: '(Per bambini sopra i 12 anni) - Non adatto a bambini sotto i 12 anni.'
+          meaning: "(Per bambini sopra i 12 anni) - Non adatto a bambini sotto i 12 anni."
         '4':
-          meaning: '(Per bambini sopra i 16 anni) - Non adatto a bambini sotto i 16 anni.'
+          meaning: "(Per bambini sopra i 16 anni) - Non adatto a bambini sotto i 16 anni."
         '5':
-          meaning: '(Proibito per i minorenni) - Proibito per i bambini sotto i 18 anni.'
+          meaning: "(Proibito per i minorenni) - Proibito per i bambini sotto i 18 anni."
       SE:
         '0':
           meaning: Nessuna informazione di valutazione.
@@ -1257,7 +1257,7 @@ it-IT:
         '1':
           meaning: PG è l'acronimo di Parental Guidance. Ciò significa che un film è adatto per la visione generale, ma alcune scene potrebbero non essere adatte ai bambini piccoli. Un film per PG non dovrebbe turbare un bambino da circa otto anni in su.
         '2':
-          meaning: ' film classificati 12A e le opere video classificate 12 contengono materiale che non è generalmente adatto ai bambini di età inferiore ai 12 anni. 12A richiede che un adulto accompagni ogni bambino di età inferiore ai 12 anni vedendo un film 12A al cinema.'
+          meaning: " film classificati 12A e le opere video classificate 12 contengono materiale che non è generalmente adatto ai bambini di età inferiore ai 12 anni. 12A richiede che un adulto accompagni ogni bambino di età inferiore ai 12 anni vedendo un film 12A al cinema."
         '3':
           meaning: I film classificati 12A e le opere video classificate 12 contengono materiale generalmente non adatto a bambini di età inferiore ai 12 anni.
         '4':
@@ -1322,7 +1322,7 @@ it-IT:
         '2':
           meaning: Visione con i genitori consigliata.
         '3':
-          meaning: '&Egrave; consigliata la visione con un adulto.'
+          meaning: "&Egrave; consigliata la visione con un adulto."
         '4':
           meaning: Qualsiasi programma televisivo che non sia conforme alla classificazione "G", "PG" e "SPG" non sarà trasmesso.
       PT:
@@ -1709,59 +1709,59 @@ it-IT:
   create_api: Creare API
   date:
     abbr_day_names:
-      - dom
-      - lun
-      - mar
-      - mer
-      - gio
-      - ven
-      - sab
+    - dom
+    - lun
+    - mar
+    - mer
+    - gio
+    - ven
+    - sab
     abbr_month_names:
-      -
-      - gen
-      - feb
-      - mar
-      - apr
-      - mag
-      - giu
-      - lug
-      - ago
-      - set
-      - ott
-      - nov
-      - dec
+    -
+    - gen
+    - feb
+    - mar
+    - apr
+    - mag
+    - giu
+    - lug
+    - ago
+    - set
+    - ott
+    - nov
+    - dec
     day_names:
-      - domenica
-      - lunedì
-      - martedì
-      - mercoledì
-      - giovedì
-      - venerdì
-      - sabato
+    - domenica
+    - lunedì
+    - martedì
+    - mercoledì
+    - giovedì
+    - venerdì
+    - sabato
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d/%m/%Y'
-      full_month_day: '%e %B, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%e %B, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b, %Y"
     month_names:
-      -
-      - gennaio
-      - febbraio
-      - marzo
-      - aprile
-      - maggio
-      - giugno
-      - luglio
-      - agosto
-      - settembre
-      - ottobre
-      - novembre
-      - dicembre
+    -
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
   day: giorno
   days:
     one: giorno
-    other: '%{count} giorni'
+    other: "%{count} giorni"
   deleted_content:
     entry_deleted: Voce cancellata
     reasons:
@@ -1807,8 +1807,8 @@ it-IT:
         subject: È considerato spam
     why_deleting: Perché stai eliminando questa voce?
   department_credits_count:
-    one: '%{department} (%{count} crediti)'
-    other: '%{department} (%{count} crediti)'
+    one: "%{department} (%{count} crediti)"
+    other: "%{department} (%{count} crediti)"
   departments:
     Acting: Recitazione
     Actors: Attori
@@ -1922,9 +1922,9 @@ it-IT:
       watch: Segui
     admin_panel: Pannello di Amministrazione
     back_options:
-      back_to_item_with_arrow: '← Torna a %{item_title}'
-      back_to_tmdb_with_arrow: '← Torna a TMDB'
-      back_with_arrow: '← Indietro'
+      back_to_item_with_arrow: "← Torna a %{item_title}"
+      back_to_tmdb_with_arrow: "← Torna a TMDB"
+      back_with_arrow: "← Indietro"
     categories:
       categories: Categorie
       discuss:
@@ -1943,8 +1943,8 @@ it-IT:
         support: Supporto
         website_support: Supporto Sito Web
     category:
-      last_reply_with_datetime: '%{date} alle %{time}'
-      last_reply_with_datetime_and_username: '%{date} alle %{time}<br>di %{username}'
+      last_reply_with_datetime: "%{date} alle %{time}"
+      last_reply_with_datetime_and_username: "%{date} alle %{time}<br>di %{username}"
     discussion_activity: Attività di discussione
     email_notifications:
       email_notifications: Notifiche Email
@@ -1968,11 +1968,11 @@ it-IT:
     no_discussions: Nessuna discussione
     pagination:
       post_summary:
-        one: '%{count} risposta (nella pagina %{current_page} di %{total_pages})'
-        other: '%{count} risposte (nella pagina %{current_page} di %{total_pages})'
+        one: "%{count} risposta (nella pagina %{current_page} di %{total_pages})"
+        other: "%{count} risposte (nella pagina %{current_page} di %{total_pages})"
       summary:
-        one: '%{count} discussione, attualmente a pagina %{current_page} di %{total_pages}'
-        other: '%{count} discussioni, attualmente a pagina %{current_page} di %{total_pages}'
+        one: "%{count} discussione, attualmente a pagina %{current_page} di %{total_pages}"
+        other: "%{count} discussioni, attualmente a pagina %{current_page} di %{total_pages}"
     post:
       delete: Elimina
       edit: Modifica
@@ -2080,7 +2080,7 @@ it-IT:
     new_email_address: Nuovo indirizzo Email
     sent_verification_email: Abbiamo inviato un'email a %{email_address} per essere verificata. Controlla la tua casella di posta (e la cartella spam) per le istruzioni su come procedere.
     unsubscribe:
-      sad_to_go: '%{username}, ci dispiace vederti andare via!'
+      sad_to_go: "%{username}, ci dispiace vederti andare via!"
       subscription_changed: Le tue impostazioni di sottoscrizione sono state aggiornate. Puoi modificare le impostazioni di notifica navigando la tua pagina delle<a href="%{account_link}">impostazioni di notifica</a>.
       unsubscribe: Disiscriviti
       unsubscribed: Ti sei <strong>annullato</strong> la tua iscrizione. Se è avvenuto per errore puoi iscriverti nuovamente visitando la tua pagina delle<a href="%{account_link}">impostazioni di notifica</a>.
@@ -2121,8 +2121,8 @@ it-IT:
       1fae3:
       1fae4:
   episode_count:
-    one: '%{count} episodio'
-    other: '%{count} episodi'
+    one: "%{count} episodio"
+    other: "%{count} episodi"
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
@@ -2207,6 +2207,7 @@ it-IT:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: La persona è già presente come membro del cast.
     nesting:
@@ -2348,8 +2349,8 @@ it-IT:
       validation_header:
   invalid_aspect_ratio: Il rapporto d'aspetto non è valido.
   item_count:
-    one: '%{count} articolo'
-    other: '%{count} articoli'
+    one: "%{count} articolo"
+    other: "%{count} articoli"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operatore Camera "A"
@@ -3292,16 +3293,16 @@ it-IT:
       last_reply: vai all'ultima risposta
       new_discussion: crea nuova discussione
       next_episode: "(freccia destra) vai all'episodio successivo"
-      next_page: '(freccia destra) pagina successiva'
-      next_season: '(freccia destra) vai alla stagione successiva'
+      next_page: "(freccia destra) pagina successiva"
+      next_season: "(freccia destra) vai alla stagione successiva"
       open_activity: apri attivita
       open_add_image_window: apri finestra aggiungi immagine
       open_profile: apri menu profilo
       open_shortcut_window: apri finestra scorciatoia tastiera
       open_translation_selector: apri selettore traduzione
       previous_episode: "(freccia sinistra) vai all'episodio precedente"
-      previous_page: '(freccia sinistra) pagina precedente'
-      previous_season: '(freccia sinistra) vai alla stagione precedente'
+      previous_page: "(freccia sinistra) pagina precedente"
+      previous_season: "(freccia sinistra) vai alla stagione precedente"
       reply_to_discussion: rispondi alla discussione
       save_form: invia modulo
       submit_message: invia il tuo messaggio
@@ -3586,8 +3587,8 @@ it-IT:
         language: Lingua
         user: Utente
       number_of_changes:
-        one: '%{count} Cambio'
-        other: '%{count} Cambi'
+        one: "%{count} Cambio"
+        other: "%{count} Cambi"
       view_weekly_leaderboard: Visualizza Classifica Settimanale
     character:
       edit:
@@ -3711,8 +3712,8 @@ it-IT:
       visit_twitter: Visita Twitter
       visit_youtube:
     genre:
-      movie_page_title: '%{name} Film'
-      tv_page_title: '%{name} Serie Tv'
+      movie_page_title: "%{name} Film"
+      tv_page_title: "%{name} Serie Tv"
     images:
       format: Formato
       no_backdrop_stills: Nessuna immagine di sfondo aggiunta.
@@ -3911,7 +3912,7 @@ it-IT:
         mid_season:
       episode_selector:
         current_episode: Episodi %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Prossimo episodio
         previous_episode: Episodio precedente
     tv_season:
@@ -3955,8 +3956,8 @@ it-IT:
           group: Gruppo
           messages:
             episodes_added:
-              one: '%{count} episodio aggiunto!'
-              other: '%{count} episodi aggiunti!'
+              one: "%{count} episodio aggiunto!"
+              other: "%{count} episodi aggiunti!"
           name: Nome Gruppo
           no_records: Nessun gruppo episodi è stato aggiunto.
           type: Tipo
@@ -3982,8 +3983,8 @@ it-IT:
       episode_groups:
         groups:
           count:
-            one: '%{count} Gruppo'
-            other: '%{count} Gruppi'
+            one: "%{count} Gruppo"
+            other: "%{count} Gruppi"
         original_air_date: Messa in Onda Originale
       networks:
         one: Network
@@ -4048,10 +4049,10 @@ it-IT:
       to: Da
     no_messages: Nessun messaggio
     notifications:
-      new_message: '%{username} ti ha inviato un nuovo messaggio'
+      new_message: "%{username} ti ha inviato un nuovo messaggio"
     number_of_messages:
-      one: '%{count} messaggio'
-      other: '%{count} messaggi'
+      one: "%{count} messaggio"
+      other: "%{count} messaggi"
     options:
       admin: Admin
       archive: Archivio
@@ -4083,11 +4084,11 @@ it-IT:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mese
-    other: '%{count} mesi'
+    other: "%{count} mesi"
   navigation:
     discover:
       discover: Scopri
@@ -4119,10 +4120,10 @@ it-IT:
   no_episode_images: Non sono state aggiunte immagini dell'episodio.
   no_favorite_movies:
     current_user: Non hai aggiunto nessun film preferito.
-    public: '%{username} non ha film preferiti.'
+    public: "%{username} non ha film preferiti."
   no_favorite_tv_shows:
     current_user: Non hai aggiunto nessuna serie Tv preferita.
-    public: '%{username} non ha serie Tv preferite.'
+    public: "%{username} non ha serie Tv preferite."
   no_genres: Nessun genere è stato aggiunto.
   no_guest_stars: Non sono state aggiunte guest stars.
   no_keyword_search_results: Non ci sono parole chiavi che corrispondano alla tua ricerca.
@@ -4137,10 +4138,10 @@ it-IT:
     tv: Per ottenere consigli TV personalizzati inizia aggiungendo tutti i tuoi film preferiti. A questo punto, probabilmente noterai che molti dei programmi TV che consigliamo sono quelli che hai visto. Per filtrarli, valutali! Una volta valutato lo escluderemo.
   no_rated_movies:
     current_user: Non hai votato nessun film.
-    public: '%{username} non ha votato nessun film.'
+    public: "%{username} non ha votato nessun film."
   no_rated_tv_shows:
     current_user: Non hai votato nessuna serie Tv.
-    public: '%{username} non ha valutato nessuna serie Tv.'
+    public: "%{username} non ha valutato nessuna serie Tv."
   no_recommendations:
     movie: Non disponiamo di dati sufficienti per suggerire film basati su %{title}. Puoi aiutare valutando i film che hai visto.
     tv_show: Non disponiamo di dati sufficienti per suggerire serie Tv basate su %{title}. Puoi aiutare valutando le serie Tv che hai visto.
@@ -4154,7 +4155,7 @@ it-IT:
     public: Questa watchlist è vuota.
   no_writer: Nessuno scrittore è stato aggiunto.
   not_translated:
-    logged_in: '%{page_title} non è ancora stato tradotto in <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desideri continuare e creare questa traduzione, fai clic sul pulsante in basso.'
+    logged_in: "%{page_title} non è ancora stato tradotto in <strong>%{requested_i18n} (%{requested_language_text})</strong>. Se desideri continuare e creare questa traduzione, fai clic sul pulsante in basso."
     public: '%{page_title} non è ancora stato tradotto in <strong>%{requested_i18n} (%{requested_language_text})</strong>. Per aggiungere questa traduzione <a href="%{signup_link}">registrati</a> per un account e <a href="%{login_link}">accedi</a>.'
   notifications:
     caught_up: Sembra che hai controllato tutto.
@@ -4168,22 +4169,22 @@ it-IT:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%n %u'
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: '€'
+        unit: "€"
     format:
-      delimiter: '.'
+      delimiter: "."
       precision: 3
-      separator: ','
+      separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Miliardo
           million: Milione
@@ -4204,26 +4205,26 @@ it-IT:
           unit:
     percentage:
       format:
-        delimiter: ' '
-        format: '%n%'
+        delimiter: " "
+        format: "%n%"
     precision:
       format:
-        delimiter: ' '
+        delimiter: " "
   number_of_edits:
-    one: '%{count} modifica'
-    other: '%{count} modifiche'
+    one: "%{count} modifica"
+    other: "%{count} modifiche"
   number_of_items:
-    one: '%{count} articolo'
-    other: '%{count} articoli'
+    one: "%{count} articolo"
+    other: "%{count} articoli"
   number_of_results:
-    one: '%{count} risultato'
-    other: '%{count} risultati'
+    one: "%{count} risultato"
+    other: "%{count} risultati"
   number_of_translations:
-    one: '%{count} traduzione'
-    other: '%{count} traduzioni'
+    one: "%{count} traduzione"
+    other: "%{count} traduzioni"
   number_of_votes:
-    one: '%{count} voto'
-    other: '%{count} voti'
+    one: "%{count} voto"
+    other: "%{count} voti"
   ott:
     available_sentences:
       ads:
@@ -4275,11 +4276,11 @@ it-IT:
     next_page: Prossima pagina
     next_page_with_arrow: Prossima pagina →
     previous_page: Pagina precedente
-    previous_page_with_arrow: '← Pagina precedente'
+    previous_page_with_arrow: "← Pagina precedente"
     show_more: Mostra di più
   part_of_collection: Parte del %{collection_name}
   password:
-    4_chars_minimum: '(minimo 4 caratteri)'
+    4_chars_minimum: "(minimo 4 caratteri)"
     confirm_new_password: Conferma Nuova password
     enter_to_continue: Inserisci la tua password attuale per continuare...
     new_password: Nuova password
@@ -4289,7 +4290,7 @@ it-IT:
   person:
     credits:
       as_character: come %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4320,7 +4321,7 @@ it-IT:
     watchlist_movie: Cerca nella watchlist del film...
     watchlist_tv: Cerca nella watchlist della serie Tv...
   search_text_validation_error:
-  search_tip_1: "Suggerimento: Puoi usare il filtro 'y:' per restringere i risultati per anno. Ad esempio: 'star wars y:1977'."
+  search_tip_1: 'Suggerimento: Puoi usare il filtro ''y:'' per restringere i risultati per anno. Ad esempio: ''star wars y:1977''.'
   season_number_name: Stagione %{season_number}
   season_overview:
     already_aired: Stagione %{season_number} di %{show_name} in anteprima dal %{date}.
@@ -4559,17 +4560,17 @@ it-IT:
   success_sharing: Il tuo messaggio è stato condiviso.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am: am
     formats:
-      12hour_minutes: '%l:%M%p'
+      12hour_minutes: "%l:%M%p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm: pm
     units:
       hours: Ore
@@ -4663,4 +4664,4 @@ it-IT:
   will_paginate:
     next_label: Successivo →
     page_gap:
-    previous_label: '← Precedente'
+    previous_label: "← Precedente"

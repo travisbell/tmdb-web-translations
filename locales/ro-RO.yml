@@ -2278,6 +2278,7 @@ ro-RO:
         few: are lungimea greșită (ar trebui să aibă %{count} caractere)
         one: are lungimea greșită (ar trebui să aibă %{count} caracter)
         other: are lungimea greșită (ar trebui să aibă %{count} de caractere)
+      blocked_words:
     movie:
       duplicate_cast: Această persoană a fost deja adăugată ca membru al distribuției.
     nesting:
@@ -4175,7 +4176,7 @@ ro-RO:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: "%{count} luni"

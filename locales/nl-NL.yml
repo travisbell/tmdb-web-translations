@@ -567,8 +567,8 @@ nl-NL:
             Unsubscribed: Afgemeld
             status: Status
         number_of_items:
-          one: '%{count} e-mail'
-          other: '%{count} e-mails'
+          one: "%{count} e-mail"
+          other: "%{count} e-mails"
       events: Gebeurtenissen
       notifications:
         filters:
@@ -583,8 +583,8 @@ nl-NL:
           one: Melding
           other: Meldingen
         number_of_items:
-          one: '%{count} melding'
-          other: '%{count} meldingen'
+          one: "%{count} melding"
+          other: "%{count} meldingen"
       page_title:
         recent_events: Recente gebeurtenissen
       recent: Recent
@@ -623,7 +623,7 @@ nl-NL:
         public: "%{username}'s lijsten"
       no_lists:
         logged_in: Je hebt geen lijsten gecreëerd.
-        public: '%{username} heeft geen lijsten openbaar gedeeld.'
+        public: "%{username} heeft geen lijsten openbaar gedeeld."
       page_title:
         page_owner: Mijn lijsten
         public: "%{username}'s lijsten"
@@ -643,12 +643,12 @@ nl-NL:
       30_day_activity: Laatste 30 dagen
       empty_recent_activity:
         logged_in: Je hebt recentelijk geen aanpassingen gedaan.
-        public: '%{username} heeft recentelijk geen aanpassingen gedaan.'
+        public: "%{username} heeft recentelijk geen aanpassingen gedaan."
       empty_upcoming_watchlist:
         logged_in: Er staan geen films op je watchlist die binnenkort verschijnen.
       empty_watched_genres:
         logged_in: Je houdt nog geen films of tv-series bij.
-        public: '%{username} houdt nog geen films of tv-series bij.'
+        public: "%{username} houdt nog geen films of tv-series bij."
       goto_discussions: Ga naar discussies
       goto_watchlist: Ga naar watchlist
       most_watched_genres: Meest bekeken genres
@@ -705,8 +705,8 @@ nl-NL:
       this_month: Deze maand
       this_week: Deze week
       view_them: Bekijk ze.
-  add_to_list: '%{media_title} toevoegen aan één van je lijsten...'
-  already_translated_in: '%{page_title} is al vertaald naar de volgende talen...'
+  add_to_list: "%{media_title} toevoegen aan één van je lijsten..."
+  already_translated_in: "%{page_title} is al vertaald naar de volgende talen..."
   api_for_business:
     api_for_business:
     form:
@@ -737,13 +737,13 @@ nl-NL:
       message: Een verzoektoken is vereist om gebruikersaccounts te verifiëren.
       title: Verzoektoken ontbreekt
     request_token_approval:
-      message: '{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden.'
+      message: "{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden."
     statuses:
       completed:
         message: U hebt <strong>%{application_name}</strong> toestemming gegeven om te lezen en schrijven. U kunt nu teruggaan naar uw applicatie en dit venster sluiten. U kunt uw toestemming altijd intrekken door naar uw instellingenpagina te gaan en daarna naar de pagina "Connected Apps" te gaan.
         name: Authenticatie verleend
       denied:
-        message: '<p>U heeft <strong>%{application_name}</strong> de toegang geweigerd. Als dat een vergissing was or u wilt het authenticatieproces opnieuw starten, kunt u dit gewoon doen via applicatie en daar opnieuw een verzoek indienen.</p>'
+        message: "<p>U heeft <strong>%{application_name}</strong> de toegang geweigerd. Als dat een vergissing was or u wilt het authenticatieproces opnieuw starten, kunt u dit gewoon doen via applicatie en daar opnieuw een verzoek indienen.</p>"
         name: Authenticatie geweigerd
       invalid_request_token:
         message: De token die u meezond is niet geldig. Maak een nieuwe token aan en zorg dat u deze goed kopieert. Als u problemen blijft houden, neem dan contact op met de ontwikkelaar van de app die u gebruikt.
@@ -823,7 +823,7 @@ nl-NL:
         one:
         other:
       one: 1 nominatie
-      other: '%{count} nominaties'
+      other: "%{count} nominaties"
       title:
     nominee: Genomineerde
     show_info:
@@ -839,7 +839,7 @@ nl-NL:
     winner: Winnaar
     wins:
       one: 1 overwinning
-      other: '%{count} overwinningen'
+      other: "%{count} overwinningen"
   back_options:
     award:
     back: Terug
@@ -974,15 +974,15 @@ nl-NL:
           meaning: Commerciële verspreiding verboden
       FR:
         '1':
-          meaning: '(Tous publics) geschikt voor alle leeftijden.'
+          meaning: "(Tous publics) geschikt voor alle leeftijden."
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) ongeschikt voor kinderen onder de 10 (deze classificatie wordt alleen gebruikt voor tv-series); in theaters: "avertissement" (waarschuwing), sommige scènes kunnen té grof zijn voor jonge kinderen en gevoelige mensen; bij video''s: "accord parental" (ouderlijk toezicht vereist).'
         '3':
-          meaning: '(Interdit aux moins de 12 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 12.'
+          meaning: "(Interdit aux moins de 12 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 12."
         '4':
-          meaning: '(Interdit aux moins de 16 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 16.'
+          meaning: "(Interdit aux moins de 16 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 16."
         '5':
-          meaning: '(Interdit aux mineurs) verboden in bioscopen of ongeschikt voor kinderen onder de 18.'
+          meaning: "(Interdit aux mineurs) verboden in bioscopen of ongeschikt voor kinderen onder de 18."
       GB:
         '1':
           meaning: Toegankelijk voor alle leeftijden; niks ongeschikts voor kinderen.
@@ -1132,13 +1132,13 @@ nl-NL:
         '1':
           meaning: Toegankelijk voor alle leeftijden.
         '2':
-          meaning: '(Voor kinderen boven de 6) - ongeschikt voor kinderen onder de 6.'
+          meaning: "(Voor kinderen boven de 6) - ongeschikt voor kinderen onder de 6."
         '3':
-          meaning: '(Voor kinderen boven de 12) - ongeschikt voor kinderen onder de 12.'
+          meaning: "(Voor kinderen boven de 12) - ongeschikt voor kinderen onder de 12."
         '4':
-          meaning: '(Voor kinderen boven de 16) - ongeschikt voor kinderen onder de 16.'
+          meaning: "(Voor kinderen boven de 16) - ongeschikt voor kinderen onder de 16."
         '5':
-          meaning: '(Verboden voor kinderen) - verboden voor kinderen onder de 18.'
+          meaning: "(Verboden voor kinderen) - verboden voor kinderen onder de 18."
       SE:
         '0':
           meaning: Geen classificatie-informatie.
@@ -1166,7 +1166,7 @@ nl-NL:
     tv_series:
       AU:
         '1':
-          meaning: "Programma is bedoelt voor jonge kinderen tussen de 2 en 11 jaar: commerciële zenders moeten minimaal 30 minuten P-rated content laten zien door de weeks en in het weekend ten alle tijden. Er mag geen reclame vertoond worden tijdens P-rated programma's."
+          meaning: 'Programma is bedoelt voor jonge kinderen tussen de 2 en 11 jaar: commerciële zenders moeten minimaal 30 minuten P-rated content laten zien door de weeks en in het weekend ten alle tijden. Er mag geen reclame vertoond worden tijdens P-rated programma''s.'
         '2':
           meaning:
         '3':
@@ -1721,59 +1721,59 @@ nl-NL:
   create_api: API aanmaken
   date:
     abbr_day_names:
-      - zo
-      - ma
-      - di
-      - wo
-      - do
-      - vr
-      - za
+    - zo
+    - ma
+    - di
+    - wo
+    - do
+    - vr
+    - za
     abbr_month_names:
-      -
-      - jan
-      - feb
-      - mar
-      - apr
-      - mei
-      - jun
-      - jul
-      - aug
-      - sep
-      - okt
-      - nov
-      - dec
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - mei
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-      - zondag
-      - maandag
-      - dinsdag
-      - woensdag
-      - donderdag
-      - vrijdag
-      - zaterdag
+    - zondag
+    - maandag
+    - dinsdag
+    - woensdag
+    - donderdag
+    - vrijdag
+    - zaterdag
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d/%m/%Y'
-      full_month_day: '%e %B %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%e %B %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d %Y"
     month_names:
-      -
-      - januari
-      - februari
-      - maart
-      - april
-      - mei
-      - juni
-      - juli
-      - augustus
-      - september
-      - oktober
-      - november
-      - december
+    -
+    - januari
+    - februari
+    - maart
+    - april
+    - mei
+    - juni
+    - juli
+    - augustus
+    - september
+    - oktober
+    - november
+    - december
   day: dag
   days:
     one: dag
-    other: '%{count} dagen'
+    other: "%{count} dagen"
   deleted_content:
     entry_deleted: Vermelding verwijderd
     reasons:
@@ -1819,8 +1819,8 @@ nl-NL:
         subject: Dit is spam
     why_deleting: Waarom wil je deze vermelding verwijderen?
   department_credits_count:
-    one: '%{department} (%{count} bijdrage)'
-    other: '%{department} (%{count} bijdragen)'
+    one: "%{department} (%{count} bijdrage)"
+    other: "%{department} (%{count} bijdragen)"
   departments:
     Acting: Acteren
     Actors: Acteurs
@@ -1934,9 +1934,9 @@ nl-NL:
       watch: Volgen
     admin_panel: Administratorpaneel
     back_options:
-      back_to_item_with_arrow: '← Terug naar %{item_title}'
-      back_to_tmdb_with_arrow: '← Terug naar TMDB'
-      back_with_arrow: '← Terug'
+      back_to_item_with_arrow: "← Terug naar %{item_title}"
+      back_to_tmdb_with_arrow: "← Terug naar TMDB"
+      back_with_arrow: "← Terug"
     categories:
       categories: Categorieën
       discuss:
@@ -1955,8 +1955,8 @@ nl-NL:
         support: Ondersteuning
         website_support: Website-ondersteuning
     category:
-      last_reply_with_datetime: '%{date} om %{time}'
-      last_reply_with_datetime_and_username: '%{date} om %{time}<br>door %{username}'
+      last_reply_with_datetime: "%{date} om %{time}"
+      last_reply_with_datetime_and_username: "%{date} om %{time}<br>door %{username}"
     discussion_activity: Discussie-statistieken
     email_notifications:
       email_notifications: E-mailmeldingen
@@ -1964,7 +1964,7 @@ nl-NL:
       unsubscribe: Afmelden
     headers:
       discuss: Bediscussiëren
-      discuss_item: '%{item_title} bediscussiëren'
+      discuss_item: "%{item_title} bediscussiëren"
       lets_chat: Kom chatten
       support: Ondersteuning
       support_title: The Movie Database-ondersteuning
@@ -1980,11 +1980,11 @@ nl-NL:
     no_discussions: Geen discussies.
     pagination:
       post_summary:
-        one: '%{count} antwoord (op pagina %{current_page} van %{total_pages})'
-        other: '%{count} antwoorden (op pagina %{current_page} van %{total_pages})'
+        one: "%{count} antwoord (op pagina %{current_page} van %{total_pages})"
+        other: "%{count} antwoorden (op pagina %{current_page} van %{total_pages})"
       summary:
-        one: '%{count} discussie (op pagina %{current_page} van %{total_pages})'
-        other: '%{count} discussies (op pagina %{current_page} van %{total_pages})'
+        one: "%{count} discussie (op pagina %{current_page} van %{total_pages})"
+        other: "%{count} discussies (op pagina %{current_page} van %{total_pages})"
     post:
       delete: Verwijderen
       edit: Bewerken
@@ -2133,8 +2133,8 @@ nl-NL:
       1fae3:
       1fae4:
   episode_count:
-    one: '%{count} aflevering'
-    other: '%{count} afleveringen'
+    one: "%{count} aflevering"
+    other: "%{count} afleveringen"
   episode_number_name: Aflevering %{episode_number}
   error_pages:
     deleted_account:
@@ -2219,6 +2219,7 @@ nl-NL:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Deze persoon is al toegevoegd als castlid.
     nesting:
@@ -2354,11 +2355,11 @@ nl-NL:
       type_headshots: Portretten
       type_posters: Posters
       type_profiles: Profielen
-      validation_header: '%{type} moeten aan de volgende criteria voldoen:'
+      validation_header: "%{type} moeten aan de volgende criteria voldoen:"
   invalid_aspect_ratio: De beeldverhouding is ongeldig.
   item_count:
-    one: '%{count} item'
-    other: '%{count} items'
+    one: "%{count} item"
+    other: "%{count} items"
   item_count_more:
   jobs:
     '"A" Camera Operator': '"A"-cameraman'
@@ -3300,17 +3301,17 @@ nl-NL:
       go_to_edit: ga naar beweken
       last_reply: ga naar laatste antwoord
       new_discussion: start nieuwe discussie
-      next_episode: '(rechter pijl) ga naar volgende aflevering'
-      next_page: '(rechter pijl) volgende pagina'
-      next_season: '(rechter pijl) ga naar volgende seizoen'
+      next_episode: "(rechter pijl) ga naar volgende aflevering"
+      next_page: "(rechter pijl) volgende pagina"
+      next_season: "(rechter pijl) ga naar volgende seizoen"
       open_activity: open activiteit
       open_add_image_window: open venster afbeelding toevoegen
       open_profile: open profielmenu
       open_shortcut_window: open sneltoetsen venster
       open_translation_selector: open vertaalmenu
-      previous_episode: '(linker pijl) ga naar vorige aflevering'
-      previous_page: '(linker pijl) vorige pagina'
-      previous_season: '(linker pijl) ga naar vorig seizoen'
+      previous_episode: "(linker pijl) ga naar vorige aflevering"
+      previous_page: "(linker pijl) vorige pagina"
+      previous_season: "(linker pijl) ga naar vorig seizoen"
       reply_to_discussion: beantwoord discussie
       save_form: verstuur formulier
       submit_message: verstuur uw bericht
@@ -3595,8 +3596,8 @@ nl-NL:
         language: Taal
         user: Gebruiker
       number_of_changes:
-        one: '%{count} wijziging'
-        other: '%{count} wijzigingen'
+        one: "%{count} wijziging"
+        other: "%{count} wijzigingen"
       view_weekly_leaderboard: Weekklassement weergeven
     character:
       edit:
@@ -3670,7 +3671,7 @@ nl-NL:
       lock_existing_cast: Huidige cast vergrendelen
       lock_existing_crew: Huidige crew vergrendelen
       logos: Logo's
-      page_title: '%{name} bewerken'
+      page_title: "%{name} bewerken"
       placeholders:
         country: Selecteer een land...
         create_person:
@@ -3720,8 +3721,8 @@ nl-NL:
       visit_twitter: Twitter bezoeken
       visit_youtube: YouTube bezoeken
     genre:
-      movie_page_title: '%{name} films'
-      tv_page_title: '%{name} tv-series'
+      movie_page_title: "%{name} films"
+      tv_page_title: "%{name} tv-series"
     images:
       format: Formaat
       no_backdrop_stills: Er zijn geen opnames toegevoegd aan dit item.
@@ -3817,7 +3818,7 @@ nl-NL:
         errors:
           invalid_unicode: Ongeldig(e) teken(s) gebruikt.
           leading_whitespace:
-          locked_name: '<strong>%{name} (%{language})</strong> is vergrendeld.'
+          locked_name: "<strong>%{name} (%{language})</strong> is vergrendeld."
           name_required:
           numbers:
           primary_name_migration:
@@ -3839,14 +3840,14 @@ nl-NL:
         tv: TV
         tv_shows: TV-series
       years_old:
-        one: '%{count} jaar oud'
-        other: '%{count} jaar oud'
+        one: "%{count} jaar oud"
+        other: "%{count} jaar oud"
     rating:
       not_rateable:
       rated_with_rating: Beoordeeld %{value}
       rating_count:
-        one: '%{count} beoordeling'
-        other: '%{count} beoordelingen'
+        one: "%{count} beoordeling"
+        other: "%{count} beoordelingen"
       removed:
       score_breakdown:
       score_distribution:
@@ -3924,7 +3925,7 @@ nl-NL:
         mid_season:
       episode_selector:
         current_episode: Aflevering %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Volgende aflevering
         previous_episode: Vorige aflevering
     tv_season:
@@ -3968,8 +3969,8 @@ nl-NL:
           group: Groep
           messages:
             episodes_added:
-              one: '%{count} aflevering toegevoegd!'
-              other: '%{count} afleveringen toegevoegd!'
+              one: "%{count} aflevering toegevoegd!"
+              other: "%{count} afleveringen toegevoegd!"
           name: Groepsnaam
           no_records: Er zijn geen afleveringsgroepen toegevoegd.
           type: Soort
@@ -3995,8 +3996,8 @@ nl-NL:
       episode_groups:
         groups:
           count:
-            one: '%{count} groep'
-            other: '%{count} groepen'
+            one: "%{count} groep"
+            other: "%{count} groepen"
         original_air_date: Oorspronkelijk uitgezonden op
       networks:
         one: Netwerk
@@ -4061,15 +4062,15 @@ nl-NL:
       to: aan
     no_messages: Geen berichten
     notifications:
-      new_message: '%{username} heeft jouw een bericht gestuurd'
+      new_message: "%{username} heeft jouw een bericht gestuurd"
     number_of_messages:
-      one: '%{count} bericht'
-      other: '%{count} berichten'
+      one: "%{count} bericht"
+      other: "%{count} berichten"
     options:
       admin: Administrator
       archive: Archief
       settings: Instellingen
-      viewed_at: '%{time_ago} bekeken'
+      viewed_at: "%{time_ago} bekeken"
     placeholders:
       no_conversation_selected:
         create: Je kunt ook een nieuw gesprek starten door <a href="%{link}">hier te klikken</a>.
@@ -4096,11 +4097,11 @@ nl-NL:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: maand
-    other: '%{count} maanden'
+    other: "%{count} maanden"
   navigation:
     discover:
       discover: Ontdekken
@@ -4132,10 +4133,10 @@ nl-NL:
   no_episode_images: Er zijn geen afleveringsafbeeldingen toegevoegd.
   no_favorite_movies:
     current_user: Je hebt geen favoriete films toegevoegd.
-    public: '%{username} heeft geen favoriete films.'
+    public: "%{username} heeft geen favoriete films."
   no_favorite_tv_shows:
     current_user: Je hebt geen favoriete tv-series toegevoegd.
-    public: '%{username} heeft geen favoriete tv-series.'
+    public: "%{username} heeft geen favoriete tv-series."
   no_genres: Er zijn geen genres toegevoegd.
   no_guest_stars: Er zijn geen gastrollen toegevoegd.
   no_keyword_search_results: Er zijn geen trefwoorden die overeenkomen met je zoekopdracht.
@@ -4150,10 +4151,10 @@ nl-NL:
     tv: Om persoonlijke tv-serie-aanbevelingen te krijgen, moet je je favoriete tv-series toevoegen. Daarna zal je waarschijnlijk merken dat vele van de tv-series die we aanbevelen, series zijn die je al gezien hebt. Beoordeel ze om ze eruit te filteren! Na het beoordelen filteren we ze er voortaan automatisch uit.
   no_rated_movies:
     current_user: Je hebt geen films beoordeeld.
-    public: '%{username} heeft geen films beoordeeld.'
+    public: "%{username} heeft geen films beoordeeld."
   no_rated_tv_shows:
     current_user: Je hebt geen tv-series beoordeeld.
-    public: '%{username} heeft geen tv-series beoordeeld.'
+    public: "%{username} heeft geen tv-series beoordeeld."
   no_recommendations:
     movie: We hebben niet genoeg gegevens om films aan te bevelen op basis van %{title}. Je kunt helpen door films te beoordelen die je al gezien hebt.
     tv_show: We hebben niet genoeg gegevens om tv-series aan te bevelen op basis van %{title}. Je kunt helpen door tv-series te beoordelen die je al gezien hebt.
@@ -4167,7 +4168,7 @@ nl-NL:
     public: Deze watchlist is leeg.
   no_writer: Er is geen schrijver toegevoegd.
   not_translated:
-    logged_in: '%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Als je door wilt gaan en deze vertaling toe wilt voegen, klik dan op de onderstaande knop.'
+    logged_in: "%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Als je door wilt gaan en deze vertaling toe wilt voegen, klik dan op de onderstaande knop."
     public: '%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Je kunt deze vertaling toevoegen door een account <a href="%{signup_link}">te registreren</a> en <a href="%{login_link}">in te loggen</a>.'
   notifications:
     caught_up: Je bent helemaal bij.
@@ -4181,22 +4182,22 @@ nl-NL:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%n %u'
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: '€'
+        unit: "€"
     format:
-      delimiter: '.'
+      delimiter: "."
       precision: 3
-      separator: ','
+      separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: miljard
           million: miljoen
@@ -4218,25 +4219,25 @@ nl-NL:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
   number_of_edits:
-    one: '%{count} bewerking'
-    other: '%{count} bewerkingen'
+    one: "%{count} bewerking"
+    other: "%{count} bewerkingen"
   number_of_items:
-    one: '%{count} item'
-    other: '%{count} items'
+    one: "%{count} item"
+    other: "%{count} items"
   number_of_results:
-    one: '%{count} resultaat'
-    other: '%{count} resultaten'
+    one: "%{count} resultaat"
+    other: "%{count} resultaten"
   number_of_translations:
-    one: '%{count} vertaling'
-    other: '%{count} vertalingen'
+    one: "%{count} vertaling"
+    other: "%{count} vertalingen"
   number_of_votes:
-    one: '%{count} stem'
-    other: '%{count} stemmen'
+    one: "%{count} stem"
+    other: "%{count} stemmen"
   ott:
     available_sentences:
       ads: bekijk met advertenties
@@ -4244,11 +4245,11 @@ nl-NL:
       flatrate: stream
       free: bekijk gratis
       rent: huren
-      sentence: '%{title} is enkel beschikbaar om te %{available_types} in %{country}.'
+      sentence: "%{title} is enkel beschikbaar om te %{available_types} in %{country}."
     available_snippet:
       flatrate: Nu aan het streamen
       rent_or_buy: Beschikbaar om te huren of kopen
-      summary_sentence: '%{available_snippet} op %{service_name}'
+      summary_sentence: "%{available_snippet} op %{service_name}"
     description: JustWatch maakt het gemakkelijk om te ontdekken waar je je favoriete films & series online legaal kan kijken. Bezoek {justwatch_link} voor meer informatie.
     filters:
       4k: 4K
@@ -4273,9 +4274,9 @@ nl-NL:
       sd: Geen SD aanbieders gevonden.
     page_title:
     seasons:
-      many: '%{count} seizoenen'
-      one: '%{count} seizoen'
-      other: '%{count} seizoenen'
+      many: "%{count} seizoenen"
+      one: "%{count} seizoen"
+      other: "%{count} seizoenen"
     view_offers: Bekijk aanbieders.
     watch_now: Kijk nu
     watch_on:
@@ -4291,11 +4292,11 @@ nl-NL:
     next_page: Volgende pagina
     next_page_with_arrow: Volgende pagina →
     previous_page: Vorige pagina
-    previous_page_with_arrow: '← Vorige pagina'
+    previous_page_with_arrow: "← Vorige pagina"
     show_more: Meer tonen
   part_of_collection: Onderdeel van %{collection_name}
   password:
-    4_chars_minimum: '(minimaal 4 tekens)'
+    4_chars_minimum: "(minimaal 4 tekens)"
     confirm_new_password: Nieuw wachtwoord bevestigen
     enter_to_continue: Huidige wachtwoord invoeren om door te gaan...
     new_password: Nieuw wachtwoord
@@ -4305,7 +4306,7 @@ nl-NL:
   person:
     credits:
       as_character: als %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4336,7 +4337,7 @@ nl-NL:
     watchlist_movie: Film-watchlist doorzoeken...
     watchlist_tv: TV-serie-watchlist doorzoeken...
   search_text_validation_error:
-  search_tip_1: "Tip: je kunt 'y:' gebruiken om resultaten te filteren op jaar. Bijvoorbeeld: 'star wars y:1977'."
+  search_tip_1: 'Tip: je kunt ''y:'' gebruiken om resultaten te filteren op jaar. Bijvoorbeeld: ''star wars y:1977''.'
   season_number_name: Seizoen %{season_number}
   season_overview:
     already_aired: Seizoen %{season_number} van %{show_name} verscheen op %{date}.
@@ -4486,7 +4487,7 @@ nl-NL:
         what_is_your_email: Wat is je e-mail?
       page_title: Mijn profiel
       reset_password_dialog_text: Door deze aanvraag te bevestigen wordt er een e-mail aan je verstuurd met instructies om je wachtwoord te herstellen. Weet je zeker dat je dit wilt doen?
-      reset_password_dialog_text2: '<strong>Let op:</strong> als je je wachtwoord opnieuw instelt, word je uitgelogd bij alle huidige sessies.'
+      reset_password_dialog_text2: "<strong>Let op:</strong> als je je wachtwoord opnieuw instelt, word je uitgelogd bij alle huidige sessies."
     sessions:
       api:
         connected_apps: Gekoppelde apps
@@ -4575,17 +4576,17 @@ nl-NL:
   success_sharing: Je bericht is gedeeld.
   support:
     array:
-      last_word_connector: ' en '
-      two_words_connector: ' en '
-      words_connector: ', '
+      last_word_connector: " en "
+      two_words_connector: " en "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours: Uren
@@ -4654,10 +4655,10 @@ nl-NL:
         sort: Sorteren
       type: Type
     number_of_videos:
-      one: '%{count} video'
+      one: "%{count} video"
       other: "%{count} video's"
     official_channel: Officieel kanaal
-    page_title: '%{name} videokanaal'
+    page_title: "%{name} videokanaal"
     popular: Populair
     refresh_from_youtube: Vernieuwen van YouTube
     types:
@@ -4682,5 +4683,5 @@ nl-NL:
   view all: alles tonen
   will_paginate:
     next_label: Volgende →
-    page_gap: '…'
-    previous_label: '← Vorige'
+    page_gap: "…"
+    previous_label: "← Vorige"

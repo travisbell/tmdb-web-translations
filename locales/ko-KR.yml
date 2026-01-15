@@ -2176,6 +2176,7 @@ ko-KR:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: 이미 출연진에 입력된 인물입니다.
     nesting:
@@ -4057,7 +4058,7 @@ ko-KR:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month: "%{count} 월"
   navigation:

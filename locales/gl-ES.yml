@@ -2208,6 +2208,7 @@ gl-ES:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast: Esta persoa xa foi engadida como membro do equipo.
     nesting:
@@ -4086,7 +4087,7 @@ gl-ES:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: mes

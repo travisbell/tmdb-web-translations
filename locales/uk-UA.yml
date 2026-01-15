@@ -2285,6 +2285,7 @@ uk-UA:
         many: неправильної довжини (має бути %{count} символів)
         one: неправильної довжини (має бути %{count} символ)
         other: неправильної довжини (має бути %{count} символів)
+      blocked_words:
     movie:
       duplicate_cast: Ця персона вже додана як член акторського складу.
     nesting:
@@ -4188,7 +4189,7 @@ uk-UA:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     few: місяці

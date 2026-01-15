@@ -2183,6 +2183,7 @@ fr-CA:
       too_long:
       too_short:
       wrong_length:
+      blocked_words:
     movie:
       duplicate_cast:
     nesting:
@@ -4047,7 +4048,7 @@ fr-CA:
         external_id_map:
           attributes:
             external_id:
-              format: '%{message}'
+              format: "%{message}"
               blocked_words:
   month:
     one: "%{count} mois"
