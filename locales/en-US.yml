@@ -2171,6 +2171,14 @@ en-US:
     too_many_login_attempts:
       description: We've received too many login requests from your IP address. Give it a few seconds and try again.
       title: Too many login attempts
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: "%{message}"
+              blocked_words: external ID contains blocked words
   errors:
     attributes:
       descriptors:
