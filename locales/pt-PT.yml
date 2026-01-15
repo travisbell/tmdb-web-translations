@@ -4077,6 +4077,14 @@ pt-PT:
     translate: Traduzir
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: mês
     other: "%{count} meses"

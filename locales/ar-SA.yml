@@ -567,10 +567,10 @@ ar-SA:
             Unsubscribed: غير مشترك
             status: الحالة
         number_of_items:
-          few: '%{count} ايميلات'
-          many: '%{count} ايميل'
+          few: "%{count} ايميلات"
+          many: "%{count} ايميل"
           one: ايميل واحد
-          other: '%{count} ايميلات'
+          other: "%{count} ايميلات"
           two: ايميلان
           zero: لا يوجد ايميل
       events: أحداث
@@ -591,18 +591,17 @@ ar-SA:
           two: ''
           zero: لا توجد تنبهات
         number_of_items:
-          few: '%{count} تنبيهات'
-          many: '%{count} تنبية'
+          few: "%{count} تنبيهات"
+          many: "%{count} تنبية"
           one: تنبية واحد
-          other: '%{count} تنبية'
+          other: "%{count} تنبية"
           two: تنبيهان
           zero: لا توجد تنبيهات
       page_title:
         recent_events: أخر الاحداث
       recent: الأخيرة
     export:
-      csv_explanation:
-        'إذا كنت ترغب في الحصول على نسخة من هذه القائمة سيتم تصديرها إلى ملف CSV ، اضغط على زر "تصدير" أدناه. سنقوم بإنشاء النسخة وإرسالها إليك عبر البريد الإلكتروني. استنادًا إلى حجم قائمتك ، يمكن أن يستغرق ذلك بضع دقائق لإرسالها.
+      csv_explanation: 'إذا كنت ترغب في الحصول على نسخة من هذه القائمة سيتم تصديرها إلى ملف CSV ، اضغط على زر "تصدير" أدناه. سنقوم بإنشاء النسخة وإرسالها إليك عبر البريد الإلكتروني. استنادًا إلى حجم قائمتك ، يمكن أن يستغرق ذلك بضع دقائق لإرسالها.
 
         '
       export: تصدير
@@ -663,7 +662,7 @@ ar-SA:
         logged_in: لا توجد أفلام قادمة في قائمة مشاهداتك.
       empty_watched_genres:
         logged_in: لم يسبق لك ان قمت بتدوين اي افلام أو مسلسلات.
-        public: '%{username} لم يقم بتدوين اي فلم او مسلسل من قبل.'
+        public: "%{username} لم يقم بتدوين اي فلم او مسلسل من قبل."
       goto_discussions: اذهب إلى المحادثات
       goto_watchlist: اذهب إلى قائمة المشاهدة
       most_watched_genres: التصنيفات الاكثر مشاهدة
@@ -729,7 +728,7 @@ ar-SA:
       this_week: هذا الأسبوع
       view_them: اعرضهم.
   add_to_list: إضافة %{media_title} لأحدى قوائمك ..
-  already_translated_in: '%{page_title} مترجم بالفعل إلى اللغات التالية ...'
+  already_translated_in: "%{page_title} مترجم بالفعل إلى اللغات التالية ..."
   api_for_business:
     api_for_business:
     form:
@@ -766,7 +765,7 @@ ar-SA:
         message: لقد منحت <strong>%{application_name}</strong> صلاحية القراءة والكتابة، يمكنك العودة إلى التطبيق وإغلاق هذه النافذة، كما بإمكانك دائماً إلغاء هذه الصلاحية بذهابك إلى صفحة إعدادات حسابك ثم إلى صفحة "التطبيقات المتصلة".
         name: منحت الصلاحية
       denied:
-        message: '<p>لقد منعت وصول <strong>%{application_name}</strong>، إذا كان هذا الإجراء بالخطأ أو أردت إعادة عملية منح الصلاحية، توجه مجدداً إلى التطبيق واطلب الإذن مجدداً.</p>'
+        message: "<p>لقد منعت وصول <strong>%{application_name}</strong>، إذا كان هذا الإجراء بالخطأ أو أردت إعادة عملية منح الصلاحية، توجه مجدداً إلى التطبيق واطلب الإذن مجدداً.</p>"
         name: مُنعت الصلاحية
       invalid_request_token:
         message: قسيمة الوصول التي قدمتها غير صالحة، يرجع السبب إلى انتهاء صلاحيتها، جرب إنشاء واحدة جديدة وتأكد من نسخها بشكل صحيح. إذا استمرت المشكلة، اتصل بمطور التطبيق الذي تستخدمه.
@@ -943,8 +942,7 @@ ar-SA:
         '3':
           meaning: يُسمح للأطفال بعمر 12 عامًا أو أكبر ، والأطفال الذين تتراوح أعمارهم بين 6 و 11 عامًا فقط عندما يكونون برفقة أحد الوالدين أو وصي قانوني.
         '4':
-          meaning:
-            'مسموح لـ الأطفال بعمر 16 عامًا أو أكبر ، ولم غير مقبول لـ أي شخص دون هذا العمر.
+          meaning: 'مسموح لـ الأطفال بعمر 16 عامًا أو أكبر ، ولم غير مقبول لـ أي شخص دون هذا العمر.
 
             '
         '5':
@@ -994,15 +992,15 @@ ar-SA:
             '
       FR:
         '1':
-          meaning: '(Tous publics) صالحة لجميع الجماهير.'
+          meaning: "(Tous publics) صالحة لجميع الجماهير."
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) غير مناسب للأطفال الذين تقل أعمارهم عن 10 أعوام (يستخدم هذا التصنيف للتلفزيون فقط) ؛ ما يعادل في المسارح: "تجنب" (تحذير) ، قد تكون بعض المشاهد مزعجة للأطفال الصغار والأشخاص الحساسين ؛ مكافئ في الفيديو: "منح الوالدين" (توجيه الوالدين).'
         '3':
-          meaning: '(Interdit aux moins de 12 ans) غير مناسب للأطفال الذين تقل أعمارهم عن 12 عامًا أو ممنوع في دور السينما لأقل من 12 عامًا.'
+          meaning: "(Interdit aux moins de 12 ans) غير مناسب للأطفال الذين تقل أعمارهم عن 12 عامًا أو ممنوع في دور السينما لأقل من 12 عامًا."
         '4':
-          meaning: '(Interdit aux moins de 16 ans) غير مناسب للأطفال الذين تقل أعمارهم عن 16 عامًا أو ممنوع في دور السينما لمن هم أقل من 16 عامًا.'
+          meaning: "(Interdit aux moins de 16 ans) غير مناسب للأطفال الذين تقل أعمارهم عن 16 عامًا أو ممنوع في دور السينما لمن هم أقل من 16 عامًا."
         '5':
-          meaning: '(Interdit aux Mineurs) غير مناسب للأطفال الذين تقل أعمارهم عن 18 عامًا أو ممنوع في دور السينما لمن تقل أعمارهم عن 18 عامًا.'
+          meaning: "(Interdit aux Mineurs) غير مناسب للأطفال الذين تقل أعمارهم عن 18 عامًا أو ممنوع في دور السينما لمن تقل أعمارهم عن 18 عامًا."
       GB:
         '1':
           meaning: مسموح لكل الاعمار ، لا يوجد شيء غير مناسب للأطفال.
@@ -1152,26 +1150,24 @@ ar-SA:
         '1':
           meaning: مسموح لجميع الاعمار.
         '2':
-          meaning: '(للأطفال فوق 6 سنوات) - غير مناسب للأطفال دون سن 6 سنوات.'
+          meaning: "(للأطفال فوق 6 سنوات) - غير مناسب للأطفال دون سن 6 سنوات."
         '3':
-          meaning: '(للأطفال فوق 12 عامًا) - غير مناسب للأطفال دون سن 12 عامًا.'
+          meaning: "(للأطفال فوق 12 عامًا) - غير مناسب للأطفال دون سن 12 عامًا."
         '4':
-          meaning: '(للأطفال فوق سن 16) - غير مناسب للأطفال دون سن 16.'
+          meaning: "(للأطفال فوق سن 16) - غير مناسب للأطفال دون سن 16."
         '5':
-          meaning: '(ممنوع للأطفال) - ممنوع للأطفال دون سن 18.'
+          meaning: "(ممنوع للأطفال) - ممنوع للأطفال دون سن 18."
       SE:
         '0':
           meaning: لا توجد معلومات تقييم.
         '1':
           meaning: جميع الاعمار.
         '2':
-          meaning:
-            'مسموح لـ الأطفال الذين تقل أعمارهم عن 7 سنوات برفقة شخص بالغ (شخص يبلغ من العمر 18 عامًا أو أكثر) في الأفلام التي تم تمريرها للأطفال من سن 7 سنوات.
+          meaning: 'مسموح لـ الأطفال الذين تقل أعمارهم عن 7 سنوات برفقة شخص بالغ (شخص يبلغ من العمر 18 عامًا أو أكثر) في الأفلام التي تم تمريرها للأطفال من سن 7 سنوات.
 
             '
         '3':
-          meaning:
-            'مسموح لـ الأطفال الذين تزيد أعمارهم عن 7 سنوات ، والذين يرافقهم شخص بالغ ، في الأفلام التي تم تمريرها للأطفال من سن 11 عامًا.
+          meaning: 'مسموح لـ الأطفال الذين تزيد أعمارهم عن 7 سنوات ، والذين يرافقهم شخص بالغ ، في الأفلام التي تم تمريرها للأطفال من سن 11 عامًا.
 
             '
         '4':
@@ -1325,8 +1321,7 @@ ar-SA:
         '1':
           meaning: هذا التصنيف مخصص للبرامج المناسبة لجميع الأعمار. يتضمن هذا البرنامج عادة برامج مصممة للأطفال أو العائلات.
         '2':
-          meaning:
-            'هذا التصنيف خاص بالبرامج التي قد تحتوي على مواد غير مناسبة للأطفال الذين تقل أعمارهم عن 7 سنوات ، ويجب استخدام تقدير الوالدين. بعض برامج الكارتون لا تعتبر "تعليمية" بشكل صارم ، والأفلام المصنفة "G" أو "PG" في أمريكا الشمالية قد تندرج في الفئة السابعة.
+          meaning: 'هذا التصنيف خاص بالبرامج التي قد تحتوي على مواد غير مناسبة للأطفال الذين تقل أعمارهم عن 7 سنوات ، ويجب استخدام تقدير الوالدين. بعض برامج الكارتون لا تعتبر "تعليمية" بشكل صارم ، والأفلام المصنفة "G" أو "PG" في أمريكا الشمالية قد تندرج في الفئة السابعة.
 
             '
         '3':
@@ -1516,7 +1511,7 @@ ar-SA:
     edit_mode: أنت في وضع التحرير
     edit_translate: التحرير والترجمة
     edit_translating: تحرير وترجمة
-    editing_character_name_uv: '<h3>مرحبا <strong>%{user}</strong>! </h3>لاحظت أنك تنشئ شخصية باسم مقترح.  هل تريد الاستمرار؟'
+    editing_character_name_uv: "<h3>مرحبا <strong>%{user}</strong>! </h3>لاحظت أنك تنشئ شخصية باسم مقترح.  هل تريد الاستمرار؟"
     enter: أدخل
     enter_character_name: أدخل اسم الشخصية
     enter_character_synopsis: أدخل وصف الشخصية
@@ -1752,63 +1747,63 @@ ar-SA:
   create_api:
   date:
     abbr_day_names:
-      - أحد
-      - إثن
-      - ثلا
-      - ارب
-      - خمي
-      - جمع
-      - سبت
+    - أحد
+    - إثن
+    - ثلا
+    - ارب
+    - خمي
+    - جمع
+    - سبت
     abbr_month_names:
-      -
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
     day_names:
-      - الأحد
-      - الأثنين
-      - الثلاثاء
-      - الأربعاء
-      - الخميس
-      - الجمعة
-      - السبت
+    - الأحد
+    - الأثنين
+    - الثلاثاء
+    - الأربعاء
+    - الخميس
+    - الجمعة
+    - السبت
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%m/%d/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - يناير
-      - فبراير
-      - مارس
-      - أبريل
-      - مايو
-      - يونيو
-      - يوليو
-      - أغسطس
-      - سبتمبر
-      - أكتوبر
-      - نوفمبر
-      - ديسمبر
+    -
+    - يناير
+    - فبراير
+    - مارس
+    - أبريل
+    - مايو
+    - يونيو
+    - يوليو
+    - أغسطس
+    - سبتمبر
+    - أكتوبر
+    - نوفمبر
+    - ديسمبر
   day: يوم
   days:
-    few: '%{count} أيام'
-    many: '%{count} يوما'
+    few: "%{count} أيام"
+    many: "%{count} يوما"
     one: يوم واحد
-    other: '%{count} يوم'
+    other: "%{count} يوم"
     two: يومين
-    zero: '%{count} يوم'
+    zero: "%{count} يوم"
   deleted_content:
     entry_deleted: حذف الادخال
     reasons:
@@ -1857,8 +1852,8 @@ ar-SA:
   department_credits_count:
     few: ''
     many: ''
-    one: '%{department} (%{count} استحقاق)'
-    other: '%{department} (%{count} استحقاقات)'
+    one: "%{department} (%{count} استحقاق)"
+    other: "%{department} (%{count} استحقاقات)"
     two: ''
     zero: ''
   departments:
@@ -1974,9 +1969,9 @@ ar-SA:
       watch: تابع
     admin_panel: لوحة التحكم
     back_options:
-      back_to_item_with_arrow: '→  الرجوع إلى %{item_title}'
-      back_to_tmdb_with_arrow: '→ الرجوع إلى TMDB'
-      back_with_arrow: '→ الرجوع'
+      back_to_item_with_arrow: "→  الرجوع إلى %{item_title}"
+      back_to_tmdb_with_arrow: "→ الرجوع إلى TMDB"
+      back_with_arrow: "→ الرجوع"
     categories:
       categories: الفئات
       discuss:
@@ -1995,8 +1990,8 @@ ar-SA:
         support: الدعم
         website_support: دعم الموقع
     category:
-      last_reply_with_datetime: '%{date} في %{time}'
-      last_reply_with_datetime_and_username: '%{date} في %{time}<br> بواسطة %{username}'
+      last_reply_with_datetime: "%{date} في %{time}"
+      last_reply_with_datetime_and_username: "%{date} في %{time}<br> بواسطة %{username}"
     discussion_activity: نشاط المحادثة
     email_notifications:
       email_notifications: تبيهات الإيميل
@@ -2022,15 +2017,15 @@ ar-SA:
       post_summary:
         few: ''
         many: ''
-        one: '%{count} رد (على هذه الصفحة %{current_page} من %{total_pages})'
-        other: '%{count} ردود (على هذه الصفحة %{current_page} من %{total_pages})'
+        one: "%{count} رد (على هذه الصفحة %{current_page} من %{total_pages})"
+        other: "%{count} ردود (على هذه الصفحة %{current_page} من %{total_pages})"
         two: ''
         zero: ''
       summary:
         few: ''
         many: ''
-        one: '%{count} محادثة، متاحة على صفحة %{current_page}  من %{total_pages}'
-        other: '%{count} محادثات، متاحة على صفحة %{current_page}  من %{total_pages}'
+        one: "%{count} محادثة، متاحة على صفحة %{current_page}  من %{total_pages}"
+        other: "%{count} محادثات، متاحة على صفحة %{current_page}  من %{total_pages}"
         two: ''
         zero: ''
     post:
@@ -2140,7 +2135,7 @@ ar-SA:
     new_email_address: ايميل جديد
     sent_verification_email: ارسلنا رسالة ايميل إلى %{email_address} ليتم التحقق منه. تحقق من صندوق الوارد الخاص بك (ومجلد البريد العشوائي) للحصول على إرشادات حول كيفية المتابعة.
     unsubscribe:
-      sad_to_go: '%{username}, نحن حزينين لرؤيتك تذهب !'
+      sad_to_go: "%{username}, نحن حزينين لرؤيتك تذهب !"
       subscription_changed: اعدادات اشتراكك تم تحديثها. بأمكانك الان تعديل اعدادات الاشعارات بزيارة  صفحة <a href="%{account_link}"> اعدادات التنبيهات الخاصة بك </a> .
       unsubscribe: إلغاء الاشتراك
       unsubscribed: لقد تم <strong> إلغاء اشتراكك </strong>. لو قمت بذلك عن طريق الخطأ يمكنك اعادة الاشتراك بزيارة صفحة <a href="%{account_link}"> اعدادات التنبيهات </a> .
@@ -2181,12 +2176,12 @@ ar-SA:
       1fae3:
       1fae4:
   episode_count:
-    few: '%{count} حلقات'
-    many: '%{count} حلقة'
+    few: "%{count} حلقات"
+    many: "%{count} حلقة"
     one: حلقة واحدة
-    other: '%{count} حلقة'
+    other: "%{count} حلقة"
     two: حلقتان
-    zero: '%{count} حلقة'
+    zero: "%{count} حلقة"
   episode_number_name: الحلقة %{episode_number}
   error_pages:
     deleted_account:
@@ -2415,18 +2410,18 @@ ar-SA:
       validation_header:
   invalid_aspect_ratio: نسبة الأبعاد هذه غير صالحة.
   item_count:
-    few: '%{count} عناصر'
-    many: '%{count} عنصر'
+    few: "%{count} عناصر"
+    many: "%{count} عنصر"
     one: عنصر
-    other: '%{count} عناصر'
+    other: "%{count} عناصر"
     two: عنصران
     zero: لا توجد عناصر
   item_count_more:
-    few: '%{count} المزيد ...'
-    many: '%{count} المزيد ...'
-    one: '%{count} المزيد ...'
-    other: '%{count} المزيد ...'
-    two: '%{count} المزيد ...'
+    few: "%{count} المزيد ..."
+    many: "%{count} المزيد ..."
+    one: "%{count} المزيد ..."
+    other: "%{count} المزيد ..."
+    two: "%{count} المزيد ..."
     zero: ''
   jobs:
     '"A" Camera Operator': مشغل كامير "A"
@@ -3368,17 +3363,17 @@ ar-SA:
       go_to_edit: انتقل لصفحة التعديل
       last_reply: انتقل لأخر رد
       new_discussion: انشى نقاش جديد
-      next_episode: '(السهم الايمن) انتقل للحلقة التالية'
-      next_page: '(السهم الايمن) الصفحة التالية'
-      next_season: '(السهم الايمن) انتقل للموسم التالي'
+      next_episode: "(السهم الايمن) انتقل للحلقة التالية"
+      next_page: "(السهم الايمن) الصفحة التالية"
+      next_season: "(السهم الايمن) انتقل للموسم التالي"
       open_activity: افتح الانشطة
       open_add_image_window: افتح صفحة اضافة الصورة
       open_profile: افتح قائمة الملف الشخصي
       open_shortcut_window: افتح نافذة اختصارات لوحة المفاتيح
       open_translation_selector: افتح محدد الترجمة
-      previous_episode: '(السهم الايسر) انتقل للحلقة السابقة'
-      previous_page: '(السهم الايسر) الصفحة السابقة'
-      previous_season: '(السهم الايسر) انتقل للموسم السابق'
+      previous_episode: "(السهم الايسر) انتقل للحلقة السابقة"
+      previous_page: "(السهم الايسر) الصفحة السابقة"
+      previous_season: "(السهم الايسر) انتقل للموسم السابق"
       reply_to_discussion: رد على النقاش
       save_form: ارسال النموذج
       submit_message: أرسل رسالتك
@@ -3666,10 +3661,10 @@ ar-SA:
         language: لغة
         user: مستخدم
       number_of_changes:
-        few: '%{count} تعديلات'
-        many: '%{count} تعديل'
+        few: "%{count} تعديلات"
+        many: "%{count} تعديل"
         one: تعديل واحد
-        other: '%{count} تعديل'
+        other: "%{count} تعديل"
         two: تعديلان
         zero: 0 تعديلات
       view_weekly_leaderboard: عرض قائمة المتصدرين الاسبوعية
@@ -3922,22 +3917,22 @@ ar-SA:
         tv: تلفاز
         tv_shows: 'مسلسلات '
       years_old:
-        few: '%{count} سنوات'
-        many: '%{count} سنة'
-        one: '%{count} سنة'
-        other: '%{count} سنة'
-        two: '%{count} سنة'
-        zero: '%{count} سنة'
+        few: "%{count} سنوات"
+        many: "%{count} سنة"
+        one: "%{count} سنة"
+        other: "%{count} سنة"
+        two: "%{count} سنة"
+        zero: "%{count} سنة"
     rating:
       not_rateable:
       rated_with_rating: مصنف %{value}
       rating_count:
-        few: '%{count} تقييمات'
-        many: '%{count} تقييم'
-        one: '%{count} تقييم'
-        other: '%{count} تقييم'
+        few: "%{count} تقييمات"
+        many: "%{count} تقييم"
+        one: "%{count} تقييم"
+        other: "%{count} تقييم"
         two: تقييمان
-        zero: '%{count}  تقييم'
+        zero: "%{count}  تقييم"
       removed:
       score_breakdown: انهيار النتيجة
       score_distribution: توزيع النتيجة
@@ -4015,7 +4010,7 @@ ar-SA:
         mid_season:
       episode_selector:
         current_episode: حلقة %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: الحلقة التالية
         previous_episode: الحلقة السابقة
     tv_season:
@@ -4090,12 +4085,12 @@ ar-SA:
       episode_groups:
         groups:
           count:
-            few: '%{count} مجموعات'
-            many: '%{count} مجموعة'
-            one: '%{count} مجموعة'
-            other: '%{count} مجموعة'
+            few: "%{count} مجموعات"
+            many: "%{count} مجموعة"
+            one: "%{count} مجموعة"
+            other: "%{count} مجموعة"
             two: مجموعتان
-            zero: '%{count} مجموعة'
+            zero: "%{count} مجموعة"
         original_air_date: تاريخ العرض الاصلي
       networks:
         few: قنوات
@@ -4164,12 +4159,12 @@ ar-SA:
       to: إلى
     no_messages: لا توجد رسائل
     notifications:
-      new_message: '%{username} ارسل إليك رسالة جديدة'
+      new_message: "%{username} ارسل إليك رسالة جديدة"
     number_of_messages:
-      few: '%{count} رسائل'
-      many: '%{count} رسالة'
+      few: "%{count} رسائل"
+      many: "%{count} رسالة"
       one: رسالة واحدة
-      other: '%{count} رسالة'
+      other: "%{count} رسالة"
       two: رسالتين
       zero: لا توجد رسائل
     options:
@@ -4197,13 +4192,21 @@ ar-SA:
     translate: ترجم
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
-    few: '%{count} أشهر'
-    many: '%{count} شهرا'
+    few: "%{count} أشهر"
+    many: "%{count} شهرا"
     one: شهر واحد
-    other: '%{count} شهر'
+    other: "%{count} شهر"
     two: شهران
-    zero: '%{count} شهر'
+    zero: "%{count} شهر"
   navigation:
     discover:
       discover: إكتشف
@@ -4235,10 +4238,10 @@ ar-SA:
   no_episode_images: لم يتم إضافة أي صور للحلقة.
   no_favorite_movies:
     current_user: انت لم تقم بإضافة اي افلام مفضلة.
-    public: '%{username} ليس لدية اية افلام مفضلة.'
+    public: "%{username} ليس لدية اية افلام مفضلة."
   no_favorite_tv_shows:
     current_user: انت لم تضف اية مسلسلات مفضلة.
-    public: '%{username} ليس لدية اية مسلسلات مفضلة.'
+    public: "%{username} ليس لدية اية مسلسلات مفضلة."
   no_genres: لم يتم اضافة التصنيفات.
   no_guest_stars: لم يتم إضافة أي ضيف شرف.
   no_keyword_search_results: لا توجد كلمات دالّة تطابق طلب البحث.
@@ -4253,10 +4256,10 @@ ar-SA:
     tv: للحصول على توصيات مسلسلات شخصية ، ابدأ بإضافة جميع مسلسلات الى المفضلة. في هذه المرحلة ، ستلاحظ على الأرجح أن الكثير من المسلسلات التي نوصي بها هي تلك التي شاهدتها. لتصفية هذه المسلسلات، قم بتقييمها! بمجرد التقييم، سنقوم بتصفية هذه المسلسلات تلقائيًا.
   no_rated_movies:
     current_user: لم تقم يتقييم اية افلام.
-    public: '%{username} لم يقم بتقييم اية فلم.'
+    public: "%{username} لم يقم بتقييم اية فلم."
   no_rated_tv_shows:
     current_user: لم تقم يتقييم اية مسلسلات.
-    public: '%{username}  لم يقيم اية مسلسل.'
+    public: "%{username}  لم يقيم اية مسلسل."
   no_recommendations:
     movie: ليس لدينا بيانات كافية لاقتراح افلام بناء على %{title}. تستطيع مساعدتنا بواسطة تقييم الافلام التي شاهدتها.
     tv_show: ليست لدينا بيانات كافية لاقتراح مسلسلات بناء على %{title}. تستطيع مساعدتنا بواسطة تقييم المسلسلات التي شاهدتها.
@@ -4270,7 +4273,7 @@ ar-SA:
     public: قائمة المشاهدة هذه فارغة.
   no_writer: لم يتم إضافة أي كاتب.
   not_translated:
-    logged_in: '%{page_title} لم تتم ترجمتها بعد إلى لغة <strong>%{requested_i18n} (%{requested_language_text})</strong>. اذا كانت ترغب بالمساهمة و انشاء هذه الترجمة، تفضل زيارة الرابط ادناه.'
+    logged_in: "%{page_title} لم تتم ترجمتها بعد إلى لغة <strong>%{requested_i18n} (%{requested_language_text})</strong>. اذا كانت ترغب بالمساهمة و انشاء هذه الترجمة، تفضل زيارة الرابط ادناه."
     public: '%{page_title} لم تتم ترجمتها بعد إلى لغة <strong>%{requested_i18n} (%{requested_language_text})</strong>. تستطيع اضافة الترجمة و ذلك عن طريق <a href="%{signup_link}">التسجيل</a> للحصول على حساب و من ثم <a href="%{login_link}">تسجيل الدخول</a>.'
   notifications:
     caught_up: يبدوا انك شاهدت كل شي.
@@ -4284,22 +4287,22 @@ ar-SA:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision: 2
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: '$'
+        unit: "$"
     format:
-      delimiter: '،'
+      delimiter: "،"
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: مليار
           million: مليون
@@ -4317,49 +4320,49 @@ ar-SA:
           quadrillion: كوادرليون
           thousand: ألف
           trillion: ترليون
-          unit: ' '
+          unit: " "
     percentage:
       format:
-        delimiter: '%'
-        format: '%n%'
+        delimiter: "%"
+        format: "%n%"
     precision:
       format:
         delimiter:
   number_of_edits:
-    few: '%{count} تعديلات'
-    many: '%{count} تعديلا'
+    few: "%{count} تعديلات"
+    many: "%{count} تعديلا"
     one: تعديل واحد
-    other: '%{count} تعديل'
+    other: "%{count} تعديل"
     two: تعديلان
-    zero: '%{count} تعديل'
+    zero: "%{count} تعديل"
   number_of_items:
-    few: '%{count} عناصر'
-    many: '%{count} عنصرا'
+    few: "%{count} عناصر"
+    many: "%{count} عنصرا"
     one: عنصر واحد
-    other: '%{count} عنصر'
+    other: "%{count} عنصر"
     two: عنصران
-    zero: '%{count} عنصر'
+    zero: "%{count} عنصر"
   number_of_results:
-    few: '%{count} نتائج'
-    many: '%{count} نتيجة'
+    few: "%{count} نتائج"
+    many: "%{count} نتيجة"
     one: نتيجة واحدة
-    other: '%{count} نتيجة'
+    other: "%{count} نتيجة"
     two: نتيجتان
-    zero: '%{count} نتيجة'
+    zero: "%{count} نتيجة"
   number_of_translations:
-    few: '%{count} ترجمات'
-    many: '%{count} ترجمة'
+    few: "%{count} ترجمات"
+    many: "%{count} ترجمة"
     one: ترجمة واحدة
-    other: '%{count} ترجمة'
+    other: "%{count} ترجمة"
     two: ترجمتان
-    zero: '%{count} ترجمة'
+    zero: "%{count} ترجمة"
   number_of_votes:
-    few: '%{count} أصوت'
-    many: '%{count} صوتا'
+    few: "%{count} أصوت"
+    many: "%{count} صوتا"
     one: صوت واحد
-    other: '%{count} صوت'
+    other: "%{count} صوت"
     two: صوتان
-    zero: '%{count} صوت'
+    zero: "%{count} صوت"
   ott:
     available_sentences:
       ads: شاهد مع الاعلانات
@@ -4367,11 +4370,11 @@ ar-SA:
       flatrate: بث
       free: شاهد مجانا
       rent: إجار
-      sentence: '%{title} الان متاح على %{available_types} في %{country}.'
+      sentence: "%{title} الان متاح على %{available_types} في %{country}."
     available_snippet:
       flatrate: يعرض الان
       rent_or_buy: متاح للإجار او الشراء
-      summary_sentence: '%{available_snippet} على %{service_name}'
+      summary_sentence: "%{available_snippet} على %{service_name}"
     description: يسهل JustWatch معرفة المكان الذي يمكنك فيه مشاهدة أفلامك ومسلسلاتك المفضلة بشكل قانوني عبر الإنترنت. تفضل بزيارة {justwatch_link} للحصول على مزيد من المعلومات.
     filters:
       4k: 4K
@@ -4396,10 +4399,10 @@ ar-SA:
       sd: لا يوجد دقة SD معروضة
     page_title:
     seasons:
-      few: '%{count} مواسم'
-      many: '%{count} مواسم'
+      few: "%{count} مواسم"
+      many: "%{count} مواسم"
       one: موسم
-      other: '%{count} مواسم'
+      other: "%{count} مواسم"
       two: موسمان
       zero: ''
     view_offers: عرض العروض
@@ -4415,13 +4418,13 @@ ar-SA:
     last_page: الصفحة الاخيرة
     load_more: حمّل المزيد
     next_page: الصفحة التالية
-    next_page_with_arrow: '→ الصفحة التالية '
+    next_page_with_arrow: "→ الصفحة التالية "
     previous_page: 'الصفحة السابقة '
     previous_page_with_arrow: الصفحة السابقة ←
     show_more: اعرض المزيد
   part_of_collection: جزء من الـ %{collection_name}
   password:
-    4_chars_minimum: '(4 حروف على الاقل)'
+    4_chars_minimum: "(4 حروف على الاقل)"
     confirm_new_password: تأكيد كلمة المرور
     enter_to_continue:
     new_password: كلمة المرور الجديدة
@@ -4431,7 +4434,7 @@ ar-SA:
   person:
     credits:
       as_character: في %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4462,7 +4465,7 @@ ar-SA:
     watchlist_movie: بحث قائمة مشاهدة للأفلام...
     watchlist_tv: بحث قائمة مشاهدة للمسلسلات...
   search_text_validation_error: الرجاء أدخال نص صالح!
-  search_tip_1: "نصيحة : يمكنك استخدام هذا الفلتر 'y:' لعرض نتائج بحثك حسب السنة المدخلة. مثال : 'star wars y:1977'."
+  search_tip_1: 'نصيحة : يمكنك استخدام هذا الفلتر ''y:'' لعرض نتائج بحثك حسب السنة المدخلة. مثال : ''star wars y:1977''.'
   season_number_name: الموسم %{season_number}
   season_overview:
     already_aired: الموسم %{season_number} من %{show_name} عرض في %{date}.
@@ -4609,10 +4612,10 @@ ar-SA:
 
           <p>اذا المشاكل في بريدك الالكتروني تم حلها او كانت مشاكل مؤقته ، اضغط على زر اعادة التعيين ادناه و سوف نحاول ان نرسل ايميل آخر للتوثيق البريد الالكتروني.</p>
         sending_problems: لقد واجهنا مشاكل في ايصال الرسائل الى بريدك الالكتروني. قبل ان نستطيع المواصلة، نحن بحاجة للتأكد من اننا بدأنا في ايصال الرسائل بشكل ناجح.
-        what_is_your_email: ' ما هو عنوان بريدك الالكتروني؟'
+        what_is_your_email: " ما هو عنوان بريدك الالكتروني؟"
       page_title: ملفي الشخصي
       reset_password_dialog_text: بالموافقة على هذا الطلب سوف نقوم بارسال ايميل مع تعليمات كيف تستطيع اعادة تعيين كلمة المرور الخاصة بك. هل انت متأكد من هذا الأمر؟
-      reset_password_dialog_text2: '<strong>الرجاء الانتباه : </strong> بإعادة تغيين كلمة المرور الخاصة بك سوف يتم تسجيل خروجك من كافة جلسات الاتصال الحالية.'
+      reset_password_dialog_text2: "<strong>الرجاء الانتباه : </strong> بإعادة تغيين كلمة المرور الخاصة بك سوف يتم تسجيل خروجك من كافة جلسات الاتصال الحالية."
     sessions:
       api:
         connected_apps: البرامج المتصلة
@@ -4701,17 +4704,17 @@ ar-SA:
   success_sharing: تمت مشاركة رسالتك بنجاح.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the: الـ
   time:
     am: صباحا
     formats:
-      12hour_minutes: '%l:%M %p'
-      default: '%a, %d %b %Y %I:%M:%S %p %Z'
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      12hour_minutes: "%l:%M %p"
+      default: "%a, %d %b %Y %I:%M:%S %p %Z"
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm: مساءا
     units:
       hours:
@@ -4782,14 +4785,14 @@ ar-SA:
         sort: فرز
       type: نوع
     number_of_videos:
-      few: '%{count} فديوهات'
-      many: '%{count} فيديو'
+      few: "%{count} فديوهات"
+      many: "%{count} فيديو"
       one: فيديو واحد
-      other: '%{count} فيدوهات'
-      two: '%{count} فيديو'
+      other: "%{count} فيدوهات"
+      two: "%{count} فيديو"
       zero: لا توجد فديوهات
     official_channel: القناة الرسمية
-    page_title: '%{name} فيديو القناة!'
+    page_title: "%{name} فيديو القناة!"
     popular: شائع
     refresh_from_youtube:
     types:
@@ -4813,6 +4816,6 @@ ar-SA:
     youtube_channel: قناة اليوتيوب
   view all: عرض الكل
   will_paginate:
-    next_label: '→ التالي'
-    page_gap: '...'
+    next_label: "→ التالي"
+    page_gap: "..."
     previous_label: 'السابق ← '

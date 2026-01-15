@@ -4087,6 +4087,14 @@ fi-FI:
     translate: Käännä
   monetize:
     create_api: Luo API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: kuukausi
     other: "%{count} kuukautta"

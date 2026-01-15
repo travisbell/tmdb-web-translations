@@ -3959,6 +3959,14 @@ oc-FR:
     translate:
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
   navigation:
     discover:
@@ -4040,22 +4048,22 @@ oc-FR:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%n %u'
+        delimiter: ","
+        format: "%n %u"
         precision: 2
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: ' €'
+        unit: " €"
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Milliard
           million: Million
@@ -4076,8 +4084,8 @@ oc-FR:
           unit:
     percentage:
       format:
-        delimiter: ' '
-        format: '%n%'
+        delimiter: " "
+        format: "%n%"
     precision:
       format:
         delimiter:

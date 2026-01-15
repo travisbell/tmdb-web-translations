@@ -270,7 +270,7 @@ pl-PL:
   Login to add this TV show to your watchlist: Zaloguj się, aby dodać serial do obserwowanych
   Login to add this movie to your favorite list: Zaloguj się, aby dodać ten film do ulubionych
   Login to add this movie to your watchlist: Zaloguj się, aby dodać ten film do obserwowanych
-  Login to create and edit custom lists: ' Zaloguj się, aby utworzyć lub edytować własne listy'
+  Login to create and edit custom lists: " Zaloguj się, aby utworzyć lub edytować własne listy"
   Login to rate this TV show: Zaloguj się, aby ocenić ten serial
   Login to rate this movie: Zaloguj się, aby ocenić ten film
   Login to report an issue: Zaloguj się, aby zgłosić problem
@@ -577,9 +577,9 @@ pl-PL:
             Unsubscribed: Wyrejestrowany
             status: Status
         number_of_items:
-          few: '%{count} maile'
-          one: '%{count} mail'
-          other: '%{count} maili'
+          few: "%{count} maile"
+          one: "%{count} mail"
+          other: "%{count} maili"
       events: Wydarzenia
       notifications:
         filters:
@@ -592,9 +592,9 @@ pl-PL:
             type: Typ
         notifications: 'Notyfikacje '
         number_of_items:
-          few: '%{count} notyfikacje'
-          one: '%{count} notyfikacja'
-          other: '%{count} notyfikacji'
+          few: "%{count} notyfikacje"
+          one: "%{count} notyfikacja"
+          other: "%{count} notyfikacji"
       page_title:
         recent_events: Ostatnie wydarzenia
       recent: Ostatnie
@@ -749,13 +749,13 @@ pl-PL:
       message: Token żądania jest wymagany w celu uwierzytelnienia kont użytkowników.
       title: Brak tokena żądania.
     request_token_approval:
-      message: '{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDB.'
+      message: "{{APP}} prosi o zgodę na dostęp i edycję danych w Twoim imieniu. Jest to konieczne, jeśli chcesz np. edytować swoje listy lub oceniać filmy poza TMDB."
     statuses:
       completed:
         message: Przyznano uprawnienia do odczytu i zapisu dla <strong>%{application_name}</strong>. Możesz teraz powrócić do aplikacji i zamknąć to okno. Zawsze możesz odwołać ten dostęp, wchodząc na stronę ustawień konta, a następnie na stronę "Połączone Aplikacje".
         name: Dostęp udzielony
       denied:
-        message: '<p>Odmówiłeś dostępu aplikacji <strong>%{application_name}</strong>. Jeśli to była pomyłka lub chciałbyś rozpocząć ponownie proces autoryzacji, to zrób to z poziomu aplikacji.</p>'
+        message: "<p>Odmówiłeś dostępu aplikacji <strong>%{application_name}</strong>. Jeśli to była pomyłka lub chciałbyś rozpocząć ponownie proces autoryzacji, to zrób to z poziomu aplikacji.</p>"
         name: Odmowa dostępu
       invalid_request_token:
         message: Podany token jest niepoprawny.Spróbuj stworzyć nowy token i upewnij się, że został poprawnie skopiowany. Jeśli problem będzie się powtarzał, skontaktuj się z twórcą aplikacji.
@@ -828,7 +828,7 @@ pl-PL:
       verify:
     nominations:
       add_nomination:
-      few: '%{count} nominacje'
+      few: "%{count} nominacje"
       locked:
       movie:
       nomination:
@@ -838,7 +838,7 @@ pl-PL:
         one:
         other:
       one: 1 nominacja
-      other: '%{count} nominacji'
+      other: "%{count} nominacji"
       title:
     nominee: Nominowany
     show_info:
@@ -1145,13 +1145,13 @@ pl-PL:
         '1':
           meaning: Dozwolone dla wszystkich grup wiekowych.
         '2':
-          meaning: '(Dla dzieci powyżej 6 roku życia) - Nieodpowiednie dla dzieci poniżej 6 roku życia.'
+          meaning: "(Dla dzieci powyżej 6 roku życia) - Nieodpowiednie dla dzieci poniżej 6 roku życia."
         '3':
-          meaning: '(Dla dzieci powyżej 12 roku życia) - Nieodpowiednie dla dzieci poniżej 12 roku życia.'
+          meaning: "(Dla dzieci powyżej 12 roku życia) - Nieodpowiednie dla dzieci poniżej 12 roku życia."
         '4':
-          meaning: '(Dla dzieci powyżej 16 roku życia) - Nieodpowiednie dla dzieci poniżej 16 roku życia.'
+          meaning: "(Dla dzieci powyżej 16 roku życia) - Nieodpowiednie dla dzieci poniżej 16 roku życia."
         '5':
-          meaning: '(Niedozwolone dla dzieci) - Niedozwolone dla dzieci poniżj 18 roku życia.'
+          meaning: "(Niedozwolone dla dzieci) - Niedozwolone dla dzieci poniżj 18 roku życia."
       SE:
         '0':
           meaning: Brak informacji o klasyfikacji.
@@ -1734,60 +1734,60 @@ pl-PL:
   create_api: Stwórz API
   date:
     abbr_day_names:
-      - nie
-      - pon
-      - wt
-      - śr
-      - czw
-      - pt
-      - so
+    - nie
+    - pon
+    - wt
+    - śr
+    - czw
+    - pt
+    - so
     abbr_month_names:
-      -
-      - sty
-      - lut
-      - mar
-      - kwi
-      - maj
-      - cze
-      - lip
-      - sie
-      - wrz
-      - paź
-      - lis
-      - gru
+    -
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
     day_names:
-      - niedziela
-      - poniedziałek
-      - wtorek
-      - środa
-      - czwartek
-      - piątek
-      - sobota
+    - niedziela
+    - poniedziałek
+    - wtorek
+    - środa
+    - czwartek
+    - piątek
+    - sobota
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d.%m.%Y'
-      full_month_day: '%e %B %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d.%m.%Y"
+      full_month_day: "%e %B %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
-      -
-      - stycznia
-      - lutego
-      - marca
-      - kwietnia
-      - maja
-      - czerwca
-      - lipca
-      - sierpnia
-      - września
-      - października
-      - listopada
-      - grudnia
+    -
+    - stycznia
+    - lutego
+    - marca
+    - kwietnia
+    - maja
+    - czerwca
+    - lipca
+    - sierpnia
+    - września
+    - października
+    - listopada
+    - grudnia
   day: dzień
   days:
     few: ''
     one: dzień
-    other: '%{count} dni'
+    other: "%{count} dni"
   deleted_content:
     entry_deleted: Wpis skazowany
     reasons:
@@ -1833,9 +1833,9 @@ pl-PL:
         subject: To jest spam
     why_deleting: Dlaczego usuwasz ten wpis?
   department_credits_count:
-    few: '%{department} (%{count} kredyty)'
-    one: '%{department} (%{count} kredyt)'
-    other: '%{department} (%{count} kredytów)'
+    few: "%{department} (%{count} kredyty)"
+    one: "%{department} (%{count} kredyt)"
+    other: "%{department} (%{count} kredytów)"
   departments:
     Acting: Aktor
     Actors: Aktorzy
@@ -1949,9 +1949,9 @@ pl-PL:
       watch: Obserwuj
     admin_panel: Panel admina
     back_options:
-      back_to_item_with_arrow: '← Wróć do %{item_title}'
-      back_to_tmdb_with_arrow: '← Wróć do TMDB'
-      back_with_arrow: '← Wróć'
+      back_to_item_with_arrow: "← Wróć do %{item_title}"
+      back_to_tmdb_with_arrow: "← Wróć do TMDB"
+      back_with_arrow: "← Wróć"
     categories:
       categories: Kategorie
       discuss:
@@ -1970,8 +1970,8 @@ pl-PL:
         support: Wsparcie
         website_support: Wsparcie strony
     category:
-      last_reply_with_datetime: '%{date} o godz. %{time}'
-      last_reply_with_datetime_and_username: '%{date} o godz. %{time}<br>przez %{username}'
+      last_reply_with_datetime: "%{date} o godz. %{time}"
+      last_reply_with_datetime_and_username: "%{date} o godz. %{time}<br>przez %{username}"
     discussion_activity: Aktywność w dyskusji
     email_notifications:
       email_notifications: Powiadomienia e-mail
@@ -1996,12 +1996,12 @@ pl-PL:
     pagination:
       post_summary:
         few: ''
-        one: '%{count} odpowiedź (strona %{current_page} z %{total_pages})'
-        other: '%{count} odpowiedzi (strona %{current_page} z %{total_pages})'
+        one: "%{count} odpowiedź (strona %{current_page} z %{total_pages})"
+        other: "%{count} odpowiedzi (strona %{current_page} z %{total_pages})"
       summary:
         few: ''
-        one: '%{count} dyskusja, strona %{current_page} z %{total_pages}'
-        other: '%{count} dyskusji, strona %{current_page} z %{total_pages}'
+        one: "%{count} dyskusja, strona %{current_page} z %{total_pages}"
+        other: "%{count} dyskusji, strona %{current_page} z %{total_pages}"
     post:
       delete: Usuń
       edit: Edytuj
@@ -2023,7 +2023,7 @@ pl-PL:
       reopen_reply: Otwórz i odpowiedz
       reply: Odpowiedz
       reply_by: Odpowiedź użytkownika %{username}
-      reply_on_datetime: '%{date} o godz. %{time}'
+      reply_on_datetime: "%{date} o godz. %{time}"
       report: Zgłoś
       unhide: Wyświetl ponownie
     report_violation: Zgłoś naruszenie
@@ -2150,9 +2150,9 @@ pl-PL:
       1fae3:
       1fae4:
   episode_count:
-    few: '%{count} odcinków'
-    one: '%{count} odcinek'
-    other: '%{count} odcinki'
+    few: "%{count} odcinków"
+    one: "%{count} odcinek"
+    other: "%{count} odcinki"
   episode_number_name: Odcinek %{episode_number}
   error_pages:
     deleted_account:
@@ -2375,9 +2375,9 @@ pl-PL:
       validation_header:
   invalid_aspect_ratio: Proporcje obrazu są nieprawidłowe.
   item_count:
-    few: '%{count} elementy'
-    one: '%{count} element'
-    other: '%{count} elementów'
+    few: "%{count} elementy"
+    one: "%{count} element"
+    other: "%{count} elementów"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operator kamery "A"
@@ -3323,17 +3323,17 @@ pl-PL:
       go_to_edit: przejdź do strony edycji
       last_reply: przejdź do ostatniej odpowiedzi
       new_discussion: otwórz nową dyskusję
-      next_episode: '(prawa strzałka) przejdź do następnego odcinka'
-      next_page: '(prawa strzałka) następna strona'
-      next_season: '(prawa strzałka) przejdź do następnego sezonu'
+      next_episode: "(prawa strzałka) przejdź do następnego odcinka"
+      next_page: "(prawa strzałka) następna strona"
+      next_season: "(prawa strzałka) przejdź do następnego sezonu"
       open_activity:
       open_add_image_window: otwórz okno dodawania obrazu
       open_profile: otwórz menu profilu
       open_shortcut_window: otwórz okno skrótów klawiszowych
       open_translation_selector:
-      previous_episode: '(lewa strzałka) przejdź do poprzedniego odcinka'
-      previous_page: '(lewa strzałka) poprzednia strona'
-      previous_season: '(lewa strzałka) przejdź do poprzedniego sezonu'
+      previous_episode: "(lewa strzałka) przejdź do poprzedniego odcinka"
+      previous_page: "(lewa strzałka) poprzednia strona"
+      previous_season: "(lewa strzałka) przejdź do poprzedniego sezonu"
       reply_to_discussion: odpowiedz na dyskusję
       save_form: prześlij formularz
       submit_message: wyślij swoją wiadomość
@@ -4085,10 +4085,18 @@ pl-PL:
     translate: Tłumacz
   monetize:
     create_api: Stwórz API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
-    few: '%{count} miesiące'
+    few: "%{count} miesiące"
     one: miesiąc
-    other: '%{count} miesięcy'
+    other: "%{count} miesięcy"
   navigation:
     discover:
       discover: Odkrywaj
@@ -4120,7 +4128,7 @@ pl-PL:
   no_episode_images: Brak dodanych zdjęć odcinka.
   no_favorite_movies:
     current_user: Nie dodałeś jeszcze żadnego ulubionego filmu.
-    public: '%{username} nie posiada, jeszcze żadnego ulubionego filmu.'
+    public: "%{username} nie posiada, jeszcze żadnego ulubionego filmu."
   no_favorite_tv_shows:
     current_user: Nie dodałeś jeszcze żadnego ulubionego serialu TV.
     public: Użytkownik %{username} nie posiada jeszcze żadnego ulubionego serialu.
@@ -4170,21 +4178,21 @@ pl-PL:
     currency:
       format:
         delimiter: '" "'
-        format: '%n %u'
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
         unit: zł
     format:
-      delimiter: ' '
+      delimiter: " "
       precision: 3
-      separator: ','
+      separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: '%n %u'
+        format: "%n %u"
         units:
           billion: Miliard
           million: Milion
@@ -4206,30 +4214,30 @@ pl-PL:
     percentage:
       format:
         delimiter:
-        format: '%n%'
+        format: "%n%"
     precision:
       format:
         delimiter:
   number_of_edits:
     few: ''
-    one: '%{count} edycja'
-    other: '%{count} edycji'
+    one: "%{count} edycja"
+    other: "%{count} edycji"
   number_of_items:
     few: ''
-    one: '%{count} element'
-    other: '%{count} elementów'
+    one: "%{count} element"
+    other: "%{count} elementów"
   number_of_results:
-    few: '%{count} wyniki'
-    one: '%{count} wynik'
-    other: '%{count} wyników'
+    few: "%{count} wyniki"
+    one: "%{count} wynik"
+    other: "%{count} wyników"
   number_of_translations:
-    few: '%{count} tłumaczenia'
-    one: '%{count} tłumaczenie'
-    other: '%{count} tłumaczeń'
+    few: "%{count} tłumaczenia"
+    one: "%{count} tłumaczenie"
+    other: "%{count} tłumaczeń"
   number_of_votes:
-    few: '%{count} głosy'
-    one: '%{count} głos'
-    other: '%{count} głosów'
+    few: "%{count} głosy"
+    one: "%{count} głos"
+    other: "%{count} głosów"
   ott:
     available_sentences:
       ads: oglądaj z reklamami
@@ -4281,7 +4289,7 @@ pl-PL:
     next_page: Następna strona
     next_page_with_arrow: Następna strona →
     previous_page: Poprzednia strona
-    previous_page_with_arrow: '← Poprzednia strona'
+    previous_page_with_arrow: "← Poprzednia strona"
     show_more: Pokaż więcej
   part_of_collection: 'Wchodzi w skład: %{collection_name}'
   password:
@@ -4295,7 +4303,7 @@ pl-PL:
   person:
     credits:
       as_character: jako %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4326,7 +4334,7 @@ pl-PL:
     watchlist_movie: Szukaj listy obserwowanych filmów
     watchlist_tv: Szukaj listy obserwowanych seriali
   search_text_validation_error:
-  search_tip_1: "Wskazówka: Możesz użyć 'y:' do zawężenia wyszukiwania według roku. Na przykład: 'gwiezdne wojny y:1977'."
+  search_tip_1: 'Wskazówka: Możesz użyć ''y:'' do zawężenia wyszukiwania według roku. Na przykład: ''gwiezdne wojny y:1977''.'
   season_number_name: Sezon %{season_number}
   season_overview:
     already_aired: Premiera %{season_number} sezonu %{show_name} była %{date}.
@@ -4559,17 +4567,17 @@ pl-PL:
   success_sharing: Twoja wiadomość została udostępniona.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M%p'
+      12hour_minutes: "%l:%M%p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours: Godziny
@@ -4663,5 +4671,5 @@ pl-PL:
   view all: wyświetl wszystkich
   will_paginate:
     next_label: Następny →
-    page_gap: '...'
-    previous_label: '← Poprzedni'
+    page_gap: "..."
+    previous_label: "← Poprzedni"

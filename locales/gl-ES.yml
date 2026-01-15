@@ -4080,6 +4080,14 @@ gl-ES:
     translate: Traducir
   monetize:
     create_api: Crear API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: mes
     other: "%{count} meses"

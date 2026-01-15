@@ -696,7 +696,7 @@ bn-IN:
       this_week:
       view_them:
   add_to_list:
-  already_translated_in: '%{page_title} ইতিমধ্যে নিম্নলিখিত ভাষাগুলিতে অনুবাদ করা হয়েছে ...'
+  already_translated_in: "%{page_title} ইতিমধ্যে নিম্নলিখিত ভাষাগুলিতে অনুবাদ করা হয়েছে ..."
   api_for_business:
     api_for_business:
     form:
@@ -1699,59 +1699,59 @@ bn-IN:
   create_api:
   date:
     abbr_day_names:
-      - রবি
-      - সোম
-      - মঙ্গল
-      - বুধ
-      - বৃহঃ
-      - শুক্র
-      - শনি
+    - রবি
+    - সোম
+    - মঙ্গল
+    - বুধ
+    - বৃহঃ
+    - শুক্র
+    - শনি
     abbr_month_names:
-      -
-      - জানু
-      - ফেব্রু
-      - মার্চ
-      - এপ্রিল
-      - মে
-      - জুন
-      - জুলাই
-      - অগাস্ট
-      - সেপ্টেম্বর
-      - অক্টোবর
-      - নভেম্বর
-      - ডিসেম্বর
+    -
+    - জানু
+    - ফেব্রু
+    - মার্চ
+    - এপ্রিল
+    - মে
+    - জুন
+    - জুলাই
+    - অগাস্ট
+    - সেপ্টেম্বর
+    - অক্টোবর
+    - নভেম্বর
+    - ডিসেম্বর
     day_names:
-      - রবিবার
-      - সোমবার
-      - মঙ্গলবার
-      - বুধবার
-      - বৃহস্পতিবার
-      - শুক্রবার
-      - শনিবার
+    - রবিবার
+    - সোমবার
+    - মঙ্গলবার
+    - বুধবার
+    - বৃহস্পতিবার
+    - শুক্রবার
+    - শনিবার
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%m/%d/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - জানুয়ারি
-      - ফেব্রুয়ারি
-      - মার্চ
-      - এপ্রিল
-      - মে
-      - জুন
-      - জুলাই
-      - অগাস্ট
-      - সেপ্টেম্বর
-      - অক্টোবর
-      - নভেম্বর
-      - ডিসেম্বর
+    -
+    - জানুয়ারি
+    - ফেব্রুয়ারি
+    - মার্চ
+    - এপ্রিল
+    - মে
+    - জুন
+    - জুলাই
+    - অগাস্ট
+    - সেপ্টেম্বর
+    - অক্টোবর
+    - নভেম্বর
+    - ডিসেম্বর
   day: দিন
   days:
     one: দিন
-    other: '%{count} দিনগুলো'
+    other: "%{count} দিনগুলো"
   deleted_content:
     entry_deleted:
     reasons:
@@ -2080,8 +2080,8 @@ bn-IN:
       1fae3:
       1fae4:
   episode_count:
-    one: '%{count} পর্ব'
-    other: '%{count} পর্ব'
+    one: "%{count} পর্ব"
+    other: "%{count} পর্ব"
   episode_number_name:
   error_pages:
     deleted_account:
@@ -4006,9 +4006,17 @@ bn-IN:
     translate:
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: মাস
-    other: '%{count} মাস'
+    other: "%{count} মাস"
   navigation:
     discover:
       discover: উন্মোচন
@@ -4089,17 +4097,17 @@ bn-IN:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision: 2
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
         unit: Tk
     format:
-      delimiter: ','
+      delimiter: ","
       precision: 3
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -4131,16 +4139,16 @@ bn-IN:
       format:
         delimiter:
   number_of_edits:
-    one: '%{count} সম্পাদন'
-    other: '%{count} সম্পাদন'
+    one: "%{count} সম্পাদন"
+    other: "%{count} সম্পাদন"
   number_of_items:
   number_of_results:
-    one: '%{count} ফলাফল'
-    other: '%{count} ফলাফল'
+    one: "%{count} ফলাফল"
+    other: "%{count} ফলাফল"
   number_of_translations:
   number_of_votes:
-    one: '%{count} ভোট'
-    other: '%{count} ভোট'
+    one: "%{count} ভোট"
+    other: "%{count} ভোট"
   ott:
     available_sentences:
       ads:
@@ -4206,7 +4214,7 @@ bn-IN:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4237,7 +4245,7 @@ bn-IN:
     watchlist_movie:
     watchlist_tv:
   search_text_validation_error:
-  search_tip_1: "টিপ: বছরের দ্বারা আপনার ফলাফল সংকীর্ণ করতে আপনি 'Y:' ব্যবহার করতে পারেন। উদাহরণ: 'স্টার ওয়ারস Y: ১৯৭৭'।"
+  search_tip_1: 'টিপ: বছরের দ্বারা আপনার ফলাফল সংকীর্ণ করতে আপনি ''Y:'' ব্যবহার করতে পারেন। উদাহরণ: ''স্টার ওয়ারস Y: ১৯৭৭''।'
   season_number_name:
   season_overview:
     already_aired:
@@ -4470,17 +4478,17 @@ bn-IN:
   success_sharing: আপনার বার্তার সফলভাবে ভাগ করা হয়েছে।
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours:

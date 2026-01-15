@@ -567,10 +567,10 @@ sl-SI:
             Unsubscribed: Odjavljeno
             status: Status
         number_of_items:
-          few: '%{count} sporočila'
-          one: '%{count} sporočilo'
-          other: '%{count} sporočil'
-          two: '%{count} sporočili'
+          few: "%{count} sporočila"
+          one: "%{count} sporočilo"
+          other: "%{count} sporočil"
+          two: "%{count} sporočili"
       events: Dogodki
       notifications:
         filters:
@@ -587,10 +587,10 @@ sl-SI:
           other: Obvestila
           two: Obvestili
         number_of_items:
-          few: '%{count} obvestila'
-          one: '%{count} obvestilo'
-          other: '%{count} obvestil'
-          two: '%{count} obvestili'
+          few: "%{count} obvestila"
+          one: "%{count} obvestilo"
+          other: "%{count} obvestil"
+          two: "%{count} obvestili"
       page_title:
         recent_events: Nedavni dogodki
       recent: Nedavni
@@ -629,7 +629,7 @@ sl-SI:
         public: Seznami uporabnika %{username}
       no_lists:
         logged_in: Niste še ustvarili nobenih seznamov.
-        public: '%{username} še nima javnih seznamov.'
+        public: "%{username} še nima javnih seznamov."
       page_title:
         page_owner: Moji seznami
         public: Seznami uporabnika %{username}
@@ -747,13 +747,13 @@ sl-SI:
       message: Za overjanje uporabniških računov je nujen žeton zahteve.
       title: Manjka žeton zahteve
     request_token_approval:
-      message: '{{APP}} vas prosi za dovoljenje za branje in vpisovanje podatkov v vašem imenu. To je potrebno, če želite na primer prilagajati svoje sezname in ocenjevati filme zunaj TMDB.'
+      message: "{{APP}} vas prosi za dovoljenje za branje in vpisovanje podatkov v vašem imenu. To je potrebno, če želite na primer prilagajati svoje sezname in ocenjevati filme zunaj TMDB."
     statuses:
       completed:
         message: Aplikaciji <strong>%{application_name}</strong> ste dovolili branje in pisanje. Sedaj se lahko vrnete v aplikacijo in zaprete to okno. Dovoljenje lahko vedno prekličete tako, da greste pod nastavitve svojega računa in odprete stran "Povezane aplikacije".
         name: Overitev uspela
       denied:
-        message: '<p>Aplikaciji <strong>%{application_name}</strong> ste zavrnili dostop. Če je bila to pomota ali če želite ponoviti postopek overitve, se vrnite v aplikacijo in ponovno zahtevajte dovoljenje.</p>'
+        message: "<p>Aplikaciji <strong>%{application_name}</strong> ste zavrnili dostop. Če je bila to pomota ali če želite ponoviti postopek overitve, se vrnite v aplikacijo in ponovno zahtevajte dovoljenje.</p>"
         name: Overitev zavrnjena
       invalid_request_token:
         message: Pristopni žeton, ki ste ga oddali, ni veljaven. Pogosto se to zgodi, kadar rok trajanja žetona poteče. Poskusite ustvariti novega in se prepričajte, da ste ga pravilno prekopirali. Če potem še pride do težav, stopite v stik z razvijalcem aplikacije, ki jo uporabljate.
@@ -826,7 +826,7 @@ sl-SI:
       verify:
     nominations:
       add_nomination:
-      few: '%{count} nominacije'
+      few: "%{count} nominacije"
       locked:
       movie:
       nomination:
@@ -836,9 +836,9 @@ sl-SI:
         other:
         two:
       one: 1 nominacija
-      other: '%{count} nominacij'
+      other: "%{count} nominacij"
       title:
-      two: '%{count} nominaciji'
+      two: "%{count} nominaciji"
     nominee: Nominiranec
     show_info:
       directed_by: Režija
@@ -852,10 +852,10 @@ sl-SI:
     title: Nagrade
     winner: Zmagovalec
     wins:
-      few: '%{count} zmage'
+      few: "%{count} zmage"
       one: 1 zmaga
-      other: '%{count} zmag'
-      two: '%{count} zmagi'
+      other: "%{count} zmag"
+      two: "%{count} zmagi"
   back_options:
     award:
     back: Nazaj
@@ -1616,7 +1616,7 @@ sl-SI:
     star: Zvezda
     submit: Oddaj
     submit_and_preview: Oddaja in pregled
-    submit_confirmation: '<h3>Hoj, <strong>%{user}</strong>! Dobro opravljeno!</h3> Ali ste prepričani, da želite oddati?'
+    submit_confirmation: "<h3>Hoj, <strong>%{user}</strong>! Dobro opravljeno!</h3> Ali ste prepričani, da želite oddati?"
     submitted: Oddano
     suggested_backdrops: Izberi predlagana ozadja
     suggested_backdrops_not_available: Na voljo ni nobenih predlaganih ozadij!
@@ -1737,58 +1737,58 @@ sl-SI:
   create_api: Ustvari API
   date:
     abbr_day_names:
-      - ned
-      - pon
-      - tor
-      - sre
-      - čet
-      - pet
-      - sob
+    - ned
+    - pon
+    - tor
+    - sre
+    - čet
+    - pet
+    - sob
     abbr_month_names:
-      -
-      - jan
-      - feb
-      - mar
-      - apr
-      - maj
-      - jun
-      - jul
-      - avg
-      - sep
-      - okt
-      - nov
-      - dec
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - maj
+    - jun
+    - jul
+    - avg
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-      - nedelja
-      - ponedeljek
-      - torek
-      - sreda
-      - četrtek
-      - petek
-      - sobota
+    - nedelja
+    - ponedeljek
+    - torek
+    - sreda
+    - četrtek
+    - petek
+    - sobota
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%d. %m %Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b %Y'
+      abbrev: "%-d %b %Y"
+      default: "%d. %m %Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
-      -
-      - januar
-      - februar
-      - marec
-      - april
-      - maj
-      - junij
-      - julij
-      - avgust
-      - september
-      - oktober
-      - november
-      - december
+    -
+    - januar
+    - februar
+    - marec
+    - april
+    - maj
+    - junij
+    - julij
+    - avgust
+    - september
+    - oktober
+    - november
+    - december
   day: dan
   days:
-    few: '%{count} dni'
+    few: "%{count} dni"
     one: dan
     other: ''
     two: ''
@@ -1817,10 +1817,10 @@ sl-SI:
         subject: To je spam
     why_deleting: Zakaj brišete ta vnos?
   department_credits_count:
-    few: '%{department} (%{count} zasluge)'
-    one: '%{department} (%{count} zasluga)'
-    other: '%{department} (%{count} zaslug)'
-    two: '%{department} (%{count} zaslugi)'
+    few: "%{department} (%{count} zasluge)"
+    one: "%{department} (%{count} zasluga)"
+    other: "%{department} (%{count} zaslug)"
+    two: "%{department} (%{count} zaslugi)"
   departments:
     Acting: Igranje
     Actors: Igralci
@@ -1934,9 +1934,9 @@ sl-SI:
       watch: Spremljaj
     admin_panel: Skrbniška plošča
     back_options:
-      back_to_item_with_arrow: '← Nazaj na %{item_title}'
-      back_to_tmdb_with_arrow: '← Nazaj na TMDB'
-      back_with_arrow: '← Nazaj'
+      back_to_item_with_arrow: "← Nazaj na %{item_title}"
+      back_to_tmdb_with_arrow: "← Nazaj na TMDB"
+      back_with_arrow: "← Nazaj"
     categories:
       categories: Kategorije
       discuss:
@@ -1955,8 +1955,8 @@ sl-SI:
         support: Podpora
         website_support: Podpora spletišča
     category:
-      last_reply_with_datetime: '%{date} ob %{time}'
-      last_reply_with_datetime_and_username: '%{date} ob %{time},<br>avtor/ica %{username}'
+      last_reply_with_datetime: "%{date} ob %{time}"
+      last_reply_with_datetime_and_username: "%{date} ob %{time},<br>avtor/ica %{username}"
     discussion_activity: Dogajanje v razpravi
     email_notifications:
       email_notifications: E-poštna obvestila
@@ -2001,7 +2001,7 @@ sl-SI:
       quote: Citiraj
       reopen_reply: Ponovno odpri in odgovori
       reply: Odgovori
-      reply_by: '%{username} je odgovoril'
+      reply_by: "%{username} je odgovoril"
       reply_on_datetime: dne %{date} ob %{time}
       report: Prijavi
       unhide: Odkrij
@@ -2129,10 +2129,10 @@ sl-SI:
       1fae3:
       1fae4:
   episode_count:
-    few: '%{count} Epizode'
-    one: '%{count} Epizoda'
-    other: '%{count} Episod'
-    two: '%{count} Epizodi'
+    few: "%{count} Epizode"
+    one: "%{count} Epizoda"
+    other: "%{count} Episod"
+    two: "%{count} Epizodi"
   episode_number_name:
   error_pages:
     deleted_account:
@@ -2352,7 +2352,7 @@ sl-SI:
       type_headshots:
       type_posters: Plakati
       type_profiles:
-      validation_header: '%{type} mora ustrezati naslednjim kriterijem:'
+      validation_header: "%{type} mora ustrezati naslednjim kriterijem:"
   invalid_aspect_ratio:
   item_count:
   item_count_more:
@@ -3296,17 +3296,17 @@ sl-SI:
       go_to_edit: pojdi na urejanje strani
       last_reply: pojdi na zadnji odgovor
       new_discussion: ustvari novo razpravo
-      next_episode: '(desna puščica) pojdi na naslednjo epizodo'
-      next_page: '(desna puščica) naslednja stran'
-      next_season: '(desna puščica) pojdi na naslednjo sezono'
+      next_episode: "(desna puščica) pojdi na naslednjo epizodo"
+      next_page: "(desna puščica) naslednja stran"
+      next_season: "(desna puščica) pojdi na naslednjo sezono"
       open_activity: odpri aktivnost
       open_add_image_window: odpri okno za dodajanje slike
       open_profile: odpri meni profila
       open_shortcut_window: odpri okno za bližnjice
       open_translation_selector: odpri izbirnik prevodov
-      previous_episode: '(leva puščica) pojdi na prejšnjo epizodo'
-      previous_page: '(leva puščica) prejšnja stran'
-      previous_season: '(leva puščica) pojdi na prejšnjo sezono'
+      previous_episode: "(leva puščica) pojdi na prejšnjo epizodo"
+      previous_page: "(leva puščica) prejšnja stran"
+      previous_season: "(leva puščica) pojdi na prejšnjo sezono"
       reply_to_discussion: odgovori na razpravo
       save_form: pošlji obrazec
       submit_message: objavi sporočilo
@@ -3593,10 +3593,10 @@ sl-SI:
         language: Jezik
         user: Uporabnik
       number_of_changes:
-        few: '%{count} spremembe'
-        one: '%{count} sprememba'
-        other: '%{count} sprememb'
-        two: '%{count} spremembi'
+        few: "%{count} spremembe"
+        one: "%{count} sprememba"
+        other: "%{count} sprememb"
+        two: "%{count} spremembi"
       view_weekly_leaderboard: Prikaži tedensko lestvico
     character:
       edit:
@@ -4063,10 +4063,18 @@ sl-SI:
     translate:
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
-    few: '%{count} mesece'
+    few: "%{count} mesece"
     one: en mesec
-    other: '%{count} mesecov'
+    other: "%{count} mesecov"
     two: dva meseca
   navigation:
     discover:
@@ -4148,17 +4156,17 @@ sl-SI:
   number:
     currency:
       format:
-        delimiter: '.'
-        format: '%n %u'
+        delimiter: "."
+        format: "%n %u"
         precision: 2
-        separator: ','
+        separator: ","
         significant: false
         strip_insignificant_zeros: false
-        unit: '€'
+        unit: "€"
     format:
       delimiter:
       precision: 3
-      separator: ','
+      separator: ","
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -4194,10 +4202,10 @@ sl-SI:
   number_of_results:
   number_of_translations:
   number_of_votes:
-    few: '%{count} glasove'
-    one: '%{count} glas'
-    other: '%{count} glasov'
-    two: '%{count} glasova'
+    few: "%{count} glasove"
+    one: "%{count} glas"
+    other: "%{count} glasov"
+    two: "%{count} glasova"
   ott:
     available_sentences:
       ads:
@@ -4249,7 +4257,7 @@ sl-SI:
     next_page: Naslednja stran
     next_page_with_arrow: Naslednja stran →
     previous_page: Prejšnja stran
-    previous_page_with_arrow: '← Prejšnja stran'
+    previous_page_with_arrow: "← Prejšnja stran"
     show_more: Pokaži več
   part_of_collection: Del zbirke %{collection_name}
   password:
@@ -4263,7 +4271,7 @@ sl-SI:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4527,17 +4535,17 @@ sl-SI:
   success_sharing:
   support:
     array:
-      last_word_connector: ', and '
+      last_word_connector: ", and "
       two_words_connector: in
-      words_connector: ', '
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours:
@@ -4606,10 +4614,10 @@ sl-SI:
         sort: Razvrščanje
       type: Vrsta
     number_of_videos:
-      few: '%{count} videoposnetki'
-      one: '%{count} videoposnetek'
-      other: '%{count} videoposnetkov'
-      two: '%{count} videoposnetka'
+      few: "%{count} videoposnetki"
+      one: "%{count} videoposnetek"
+      other: "%{count} videoposnetkov"
+      two: "%{count} videoposnetka"
     official_channel: Uradni kanal
     page_title: Videokanal %{name}
     popular: Priljubljeno
@@ -4637,4 +4645,4 @@ sl-SI:
   will_paginate:
     next_label: Naslednje →
     page_gap:
-    previous_label: '← Prejšnje'
+    previous_label: "← Prejšnje"

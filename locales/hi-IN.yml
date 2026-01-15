@@ -15,7 +15,7 @@ hi-IN:
   API Terms:
   API Terms of Use:
   API Updates:
-  About: '"के बारे में'
+  About: "\"के बारे में"
   About TMDb: टीएमडीबी के बारे में
   About this list: इस सूची के बारे में
   Accept: स्वीकार करें
@@ -521,7 +521,7 @@ hi-IN:
     settings: सेटिंग्स
     sign_up: साइन अप करें
     view_profile: प्रोफ़ाइल देखें
-    watchlist: '"देखने की सूची'
+    watchlist: "\"देखने की सूची"
   accounts:
     activity:
       activity: गतिविधि
@@ -1699,55 +1699,55 @@ hi-IN:
   create_api:
   date:
     abbr_day_names:
-      - Sun
-      - Mon
-      - Tue
-      - Wed
-      - Thu
-      - Fri
-      - Sat
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
     abbr_month_names:
-      -
-      - Jan
-      - Feb
-      - Mar
-      - Apr
-      - May
-      - Jun
-      - Jul
-      - Aug
-      - Sep
-      - Oct
-      - Nov
-      - Dec
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
     day_names:
-      - Sunday
-      - Monday
-      - Tuesday
-      - Wednesday
-      - Thursday
-      - Friday
-      - Saturday
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%m/%d/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%b %d, %Y'
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%b %d, %Y"
     month_names:
-      -
-      - January
-      - February
-      - March
-      - April
-      - May
-      - June
-      - July
-      - August
-      - September
-      - October
-      - November
-      - December
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
   day:
   days:
   deleted_content:
@@ -4002,6 +4002,14 @@ hi-IN:
     translate:
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
   navigation:
     discover:
@@ -4083,17 +4091,17 @@ hi-IN:
   number:
     currency:
       format:
-        delimiter: ','
-        format: '%u%n'
+        delimiter: ","
+        format: "%u%n"
         precision: 0
-        separator: '.'
+        separator: "."
         significant: false
         strip_insignificant_zeros: false
-        unit: '₹'
+        unit: "₹"
     format:
-      delimiter: ','
+      delimiter: ","
       precision:
-      separator: '.'
+      separator: "."
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -4194,7 +4202,7 @@ hi-IN:
   person:
     credits:
       as_character:
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name:
   report:
@@ -4458,17 +4466,17 @@ hi-IN:
   success_sharing:
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours:

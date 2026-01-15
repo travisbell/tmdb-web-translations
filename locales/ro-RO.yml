@@ -4169,6 +4169,14 @@ ro-RO:
     translate: Traducere
   monetize:
     create_api: Creați API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     few: "%{count} luni"
     one: lună

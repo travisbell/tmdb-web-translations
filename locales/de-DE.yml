@@ -4098,6 +4098,14 @@ de-DE:
     translate: Übersetzen
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: 1 Monat
     other: "%{count} Monate"

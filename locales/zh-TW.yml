@@ -4081,6 +4081,14 @@ zh-TW:
     translate: 翻譯
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month: "%{count} 個月"
   navigation:
     discover:

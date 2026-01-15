@@ -541,7 +541,7 @@ lv-LV:
         tv: TV
       page_title:
         page_owner: Manas jaunākās darbības
-        public: '%{username} jaunākās darbības'
+        public: "%{username} jaunākās darbības"
       table:
         action: Darbība
         edit: Labot
@@ -555,7 +555,7 @@ lv-LV:
       not_watching: Tu nevēro nevienu apspriešanu.
       page_title:
         page_owner: Manas apspriešanas
-        public: '%{username} apspriešanas'
+        public: "%{username} apspriešanas"
     events:
       all: Visi
       emails:
@@ -570,9 +570,9 @@ lv-LV:
             Unsubscribed: Abonements atcelts
             status: Stāvoklis
         number_of_items:
-          one: '%{count} e-pasta ziņojums'
-          other: '%{count} e-pasta ziņojumi'
-          zero: '%{count} e-pasta ziņojumu'
+          one: "%{count} e-pasta ziņojums"
+          other: "%{count} e-pasta ziņojumi"
+          zero: "%{count} e-pasta ziņojumu"
       events: Pasākumi
       notifications:
         filters:
@@ -590,9 +590,9 @@ lv-LV:
           other: Paziņojumi
           zero: Paziņojumi
         number_of_items:
-          one: '%{count} paziņojums'
-          other: '%{count} paziņojumi'
-          zero: '%{count} paziņojumu'
+          one: "%{count} paziņojums"
+          other: "%{count} paziņojumi"
+          zero: "%{count} paziņojumu"
       page_title:
         recent_events: Jaunākie notikumi
       recent: Jaunākais
@@ -603,10 +603,10 @@ lv-LV:
     favorites:
       my_favorites:
         logged_in: Mana izlase
-        public: '%{username} izlase'
+        public: "%{username} izlase"
       page_title:
         page_owner: Mana izlase
-        public: '%{username} izlase'
+        public: "%{username} izlase"
     filter_by: 'Atlasīt pēc:'
     filters:
       air_date: Pārraides datums
@@ -628,13 +628,13 @@ lv-LV:
       last_updated: Atjaunināts
       my_lists:
         logged_in: Tematiskie saraksti
-        public: '%{username} saraksti'
+        public: "%{username} saraksti"
       no_lists:
         logged_in: Nav izveidots neviens saraksts.
-        public: '%{username} nav neviens publisks saraksts, ko kopīgot.'
+        public: "%{username} nav neviens publisks saraksts, ko kopīgot."
       page_title:
         page_owner: Tematiskie saraksti
-        public: '%{username} saraksti'
+        public: "%{username} saraksti"
     member_since: Dalībnieks kopš %{date}
     navigation:
       discussions: Apspriešana
@@ -651,12 +651,12 @@ lv-LV:
       30_day_activity: 30 dienu darbības
       empty_recent_activity:
         logged_in: Pēdējā laikā nav veikti nekādi labojumi.
-        public: '%{username} pēdējā laikā nav veicis/kusi nekādus labojumus.'
+        public: "%{username} pēdējā laikā nav veicis/kusi nekādus labojumus."
       empty_upcoming_watchlist:
         logged_in: Tavā skatīšanās sarakstā nav nevienas drīzumā iznākošas filmas.
       empty_watched_genres:
         logged_in: Tu neesi žurnalējis nevienu filmu vai TV pārraidi.
-        public: '%{username} nav žurnalējis nevienu filmu vai TV pārraidi.'
+        public: "%{username} nav žurnalējis nevienu filmu vai TV pārraidi."
       goto_discussions: Doties uz apspriešanu
       goto_watchlist: Doties uz skatīšanās sarakstu
       most_watched_genres: Skatītākie žanri
@@ -668,17 +668,17 @@ lv-LV:
       upcoming_watchlist: Drīzumā no skatīšanās saraksta
     page_title:
       page_owner: Mans profils
-      public: '%{username} profils'
+      public: "%{username} profils"
     ratings_reviews:
       my_ratings:
         logged_in: Mani vērtējumi
-        public: '%{username} vērtējumi'
+        public: "%{username} vērtējumi"
       my_reviews:
         logged_in: Manas atsauksmes
-        public: '%{username} atsauksmes'
+        public: "%{username} atsauksmes"
       page_title:
         page_owner: Mani vērtējumi un atsauksmes
-        public: '%{username} vērtējumi un atsauksmes'
+        public: "%{username} vērtējumi un atsauksmes"
       ratings_by_year: Vērtējumi pēc gada
     recommendations:
       my_recommendations: Mani ieteikumi
@@ -699,7 +699,7 @@ lv-LV:
     watchlist:
       my_watchlist:
         logged_in: Mans skatīšanās saraksts
-        public: '%{username} skatīšanās saraksts'
+        public: "%{username} skatīšanās saraksts"
       next_month: Nākammēnes
       no_upcoming_movies:
         one: Tavā skatīšanās sarakstā nav drīzumā iznākošu filmu. Tomēr tajā ir %{count} vienums.
@@ -711,12 +711,12 @@ lv-LV:
         zero: Tavā skatīšanās sarakstā nav drīzumā iznākošu TV pārraižu. Tomēr Tavā skatīšanās sarakstā ir %{count} ierakstu.
       page_title:
         page_owner: Mans skatīšanās saraksts
-        public: '%{username} skatīšanās saraksts'
+        public: "%{username} skatīšanās saraksts"
       this_month: Šis mēnesis
       this_week: Šonedēļ
       view_them: Parādīt.
   add_to_list: Pievienot "%{media_title}" kādam no saviem sarakstiem...
-  already_translated_in: '%{page_title} jau ir tulkojums šajās valodās...'
+  already_translated_in: "%{page_title} jau ir tulkojums šajās valodās..."
   api_for_business:
     api_for_business:
     form:
@@ -738,7 +738,7 @@ lv-LV:
     account_required:
       need_account: Jāpiesakās, lai turpinātu.
       title: Nepieciešams konts
-    approved_session: '%{application_name} ir apstiprināta. Šo logu var aizvērt.'
+    approved_session: "%{application_name} ir apstiprināta. Šo logu var aizvērt."
     continue: Ja ir vēlme turpināt, jāklikšķina zemāk esošā apstiprināšanas poga. Ja nē, var vienkārši aizvērt šo logu.
     invalid_api_app:
       message: API lietotājs, kurš tiek autentificēts, nav derīgs.
@@ -747,13 +747,13 @@ lv-LV:
       message: Ir nepieciešama pieprasījumu pilnvara, lai varētu pilnvarot lietotāju kontus.
       title: Trūkst piekļuves atslēgas
     request_token_approval:
-      message: '{{APP}} vaicā datu lasīšanas un rakstīšanas Tavā vārdā atļauju. Tas ir nepieciešams, ja ir vēlme darīt tādas lietas kā savu sarakstu uzturēšanu vai filmu vērtēšanu ārpus TMDB.'
+      message: "{{APP}} vaicā datu lasīšanas un rakstīšanas Tavā vārdā atļauju. Tas ir nepieciešams, ja ir vēlme darīt tādas lietas kā savu sarakstu uzturēšanu vai filmu vērtēšanu ārpus TMDB."
     statuses:
       completed:
         message: Tu nodrošināji lasīšanas un rakstīšanas piekļuvi <strong>%{application_name}</strong>. Tagad vari atgriezties lietotnē un aizvērt šo logu. Šo piekļuvi vienmēr var atsaukt sava konta iestatījumu lapā "Savienotās lietotnes".
         name: Autentifiēšanās nodrošināta
       denied:
-        message: '<p>Tu noraidīji piekļuvi <strong>%{application_name}</strong>. Jā tā bija kļūda vai tu vēlētos sākt autentificēšanos no jauna, jāatgriežas lietotnē un vēlreiz jāpieprasa atļauja.</p>'
+        message: "<p>Tu noraidīji piekļuvi <strong>%{application_name}</strong>. Jā tā bija kļūda vai tu vēlētos sākt autentificēšanos no jauna, jāatgriežas lietotnē un vēlreiz jāpieprasa atļauja.</p>"
         name: Autentificēšanās noraidīta
       invalid_request_token:
         message: Iesniegtā piekļuves pilnvara nav derīga. Lielākajā daļā gadījumu tas ir tādēļ, ka pilnvarai ir beidzies derīgums. Jāmēģina izveidot jaunu un jāpārliecinās, ka tā ir pareizi ievietota starpliktuvē. Ja joprojām ir sarežģījumi, jāsazinās ar izmantotās lietotnes izstrādātāju.
@@ -832,10 +832,10 @@ lv-LV:
       number:
         one:
         other:
-      one: '%{count} izvirzīšana'
-      other: '%{count} izvirzīšanas'
+      one: "%{count} izvirzīšana"
+      other: "%{count} izvirzīšanas"
       title:
-      zero: '%{count} izvirzīšanu'
+      zero: "%{count} izvirzīšanu"
     nominee: Izvirzītais
     show_info:
       directed_by: Režisēja
@@ -849,9 +849,9 @@ lv-LV:
     title: Apbalvojumi
     winner: Uzvarētājs
     wins:
-      one: '%{count} uzvara'
-      other: '%{count} uzvaras'
-      zero: '%{count} uzvaru'
+      one: "%{count} uzvara"
+      other: "%{count} uzvaras"
+      zero: "%{count} uzvaru"
   back_options:
     award:
     back: Atpakaļ
@@ -1497,7 +1497,7 @@ lv-LV:
     edit_mode: Tu esi labošanas režīmā
     edit_translate: Labošana un tulkošana
     edit_translating: Labot un tulkot
-    editing_character_name_uv: '<h3>Sveiciens, <strong>%{user}</strong>! </h3>Novērojām, ka izveido tēlu ar ieteikto vārdu. Vai turpināt?'
+    editing_character_name_uv: "<h3>Sveiciens, <strong>%{user}</strong>! </h3>Novērojām, ka izveido tēlu ar ieteikto vārdu. Vai turpināt?"
     enter: Ievadīt
     enter_character_name: Ievadīt tēla nosaukumu
     enter_character_synopsis: Ievadīt tēla kopsavilkumu
@@ -1612,7 +1612,7 @@ lv-LV:
     star: Zvaigzne
     submit: Iesniegt
     submit_and_preview: Iesniegt un priekšskatīt
-    submit_confirmation: '<h3>Sveiciens, <strong>%{user}</strong>! Labs darbs!</h3> Vai tiešām iesniegt?'
+    submit_confirmation: "<h3>Sveiciens, <strong>%{user}</strong>! Labs darbs!</h3> Vai tiešām iesniegt?"
     submitted: Iesniegts
     suggested_backdrops: Atlasīt ieteiktos fonus
     suggested_backdrops_not_available: Nav pieejams neviens ieteiktais fons
@@ -1733,55 +1733,55 @@ lv-LV:
   create_api: Izveidot API
   date:
     abbr_day_names:
-      - svēt
-      - pirm
-      - otr
-      - treš
-      - ceturt
-      - piekt
-      - sest
+    - svēt
+    - pirm
+    - otr
+    - treš
+    - ceturt
+    - piekt
+    - sest
     abbr_month_names:
-      -
-      - jan
-      - feb
-      - mar
-      - apr
-      - mai
-      - jūn
-      - jūl
-      - aug
-      - sep
-      - okt
-      - nov
-      - dec
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - mai
+    - jūn
+    - jūl
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
     day_names:
-      - svētdiena
-      - pirmdiena
-      - otrdiena
-      - trešdiena
-      - ceturtdiena
-      - piektdiena
-      - sestdiena
+    - svētdiena
+    - pirmdiena
+    - otrdiena
+    - trešdiena
+    - ceturtdiena
+    - piektdiena
+    - sestdiena
     formats:
-      abbrev: '%-d %b %Y'
-      default: '%m/%d/%Y'
-      full_month_day: '%B %e, %Y'
-      full_month_year: '%B %Y'
-      short_month_day_year: '%d %b %Y'
+      abbrev: "%-d %b %Y"
+      default: "%m/%d/%Y"
+      full_month_day: "%B %e, %Y"
+      full_month_year: "%B %Y"
+      short_month_day_year: "%d %b %Y"
     month_names:
-      -
-      - janvāris
-      - februāris
-      - marts
-      - aprīlis
-      - maijs
-      - jūnijs
-      - jūlijs
-      - augusts
-      - septembris
-      - oktobris
-      - novembris
-      - decembris
+    -
+    - janvāris
+    - februāris
+    - marts
+    - aprīlis
+    - maijs
+    - jūnijs
+    - jūlijs
+    - augusts
+    - septembris
+    - oktobris
+    - novembris
+    - decembris
   day: diena
   days:
   deleted_content:
@@ -1829,9 +1829,9 @@ lv-LV:
         subject: Tas ir surogātpasts
     why_deleting: Kāpēc izdzēs šo ierakstu?
   department_credits_count:
-    one: '%{department} (%{count} uzskaitījums)'
-    other: '%{department} (%{count} uzskaitījumi)'
-    zero: '%{department} (%{count} uzskaitījumu)'
+    one: "%{department} (%{count} uzskaitījums)"
+    other: "%{department} (%{count} uzskaitījumi)"
+    zero: "%{department} (%{count} uzskaitījumu)"
   departments:
     Acting: Aktiermāksla
     Actors: Aktieri
@@ -1945,9 +1945,9 @@ lv-LV:
       watch: Skatīties
     admin_panel: Administrēšanas panelis
     back_options:
-      back_to_item_with_arrow: '← Atpakaļ uz %{item_title}'
-      back_to_tmdb_with_arrow: '← Atpakaļ uz TMDB'
-      back_with_arrow: '← Atpakaļ'
+      back_to_item_with_arrow: "← Atpakaļ uz %{item_title}"
+      back_to_tmdb_with_arrow: "← Atpakaļ uz TMDB"
+      back_with_arrow: "← Atpakaļ"
     categories:
       categories: Kategorijas
       discuss:
@@ -2140,10 +2140,10 @@ lv-LV:
       1fae3:
       1fae4:
   episode_count:
-    one: '%{count} sērija'
-    other: '%{count} sērijas'
-    zero: '%{count} sēriju'
-  episode_number_name: '%{episode_number}. sērija'
+    one: "%{count} sērija"
+    other: "%{count} sērijas"
+    zero: "%{count} sēriju"
+  episode_number_name: "%{episode_number}. sērija"
   error_pages:
     deleted_account:
       description: Šīs lapas īpašnieks izdzēsa savu kontu. Lai gan visi viņu ieguldījumi TMDB paliek, viņu lietotāju dati ir anonimizēti.
@@ -2371,7 +2371,7 @@ lv-LV:
       type_headshots: Sejas fotogrāfijas
       type_posters: Plakāti
       type_profiles: Profili
-      validation_header: '%{type} ir jāatbilst šādiem kritērijiem:'
+      validation_header: "%{type} ir jāatbilst šādiem kritērijiem:"
   invalid_aspect_ratio: Šī malu attiecība nav derīga.
   item_count:
   item_count_more:
@@ -3315,17 +3315,17 @@ lv-LV:
       go_to_edit: doties uz labošanas lapu
       last_reply: doties uz pēdējo atbildi
       new_discussion: radīt jaunu diskusiju
-      next_episode: '(labā bultiņa) pāriet uz nākamo sēriju'
-      next_page: '(labā bultiņa) nākamajā lapā'
-      next_season: '(labā bultiņa) pāriet uz nākamo sezonu'
+      next_episode: "(labā bultiņa) pāriet uz nākamo sēriju"
+      next_page: "(labā bultiņa) nākamajā lapā"
+      next_season: "(labā bultiņa) pāriet uz nākamo sezonu"
       open_activity: atklāta darbība
       open_add_image_window: atvērt attēla pievienošanas logu
       open_profile: atvērt profila izvēlni
       open_shortcut_window: atvērt īsinājumtaustiņu logu
       open_translation_selector: atvērt tulkošanas atlasītāju
-      previous_episode: '(kreisā bultiņa) pāriet uz iepriekšējo sēriju'
-      previous_page: '(kreisā bultiņa) iepriekšējā lapa'
-      previous_season: '(kreisā bultiņa) pāriet uz iepriekšējo sezonu'
+      previous_episode: "(kreisā bultiņa) pāriet uz iepriekšējo sēriju"
+      previous_page: "(kreisā bultiņa) iepriekšējā lapa"
+      previous_season: "(kreisā bultiņa) pāriet uz iepriekšējo sezonu"
       reply_to_discussion: atbilde uz diskusiju
       save_form: iesniegt veidlapu
       submit_message: iesniegt savu ziņojumu
@@ -3607,9 +3607,9 @@ lv-LV:
         language: Valoda
         user: Lietotājs
       number_of_changes:
-        one: '%{count} izmaiņa'
-        other: '%{count} izmaiņas'
-        zero: '%{count} izmaiņu'
+        one: "%{count} izmaiņa"
+        other: "%{count} izmaiņas"
+        zero: "%{count} izmaiņu"
       view_weekly_leaderboard: Apskatīt iknedēļas rezultātu tabulu
     character:
       edit:
@@ -3718,8 +3718,8 @@ lv-LV:
         original_title: Sākotnējais nosaukums jāievada vienuma sākotnējā valodā. Vairumā gadījumu tas atbilstu valodai, kas ievadīta laukā "sākotnējā valoda".
         overview: Rakstot pārskatu, jāmēģina to saglabāt īsu, kodolīgu un bez notikumu atklāšanas.
         social_links: Sabiedriskās saites ir paredzētas tikai oficiālajām (apliecinātām) lapām. Fanu lapas nav atļautas.
-      translation_already_exists: '%{language} tulkojums jau pastāv'
-      translation_not_found: '%{language} tulkojums vēl nav izveidots.'
+      translation_already_exists: "%{language} tulkojums jau pastāv"
+      translation_not_found: "%{language} tulkojums vēl nav izveidots."
       unlock_all_appearances: Klikšķināšana uz "Jā" atslēgs visus esošos ierakstus.
       upload_logo: Augšupielādēt logotipu
       videos:
@@ -3733,8 +3733,8 @@ lv-LV:
       visit_twitter: Apmeklēt Twitter
       visit_youtube: Apmeklēt YouTube
     genre:
-      movie_page_title: '%{name} filmas'
-      tv_page_title: '%{name} TV pārraides'
+      movie_page_title: "%{name} filmas"
+      tv_page_title: "%{name} TV pārraides"
     images:
       format: Veidols
       no_backdrop_stills: Šim ierakstam nav pievienots neviens fona ekrānuzņēmums.
@@ -3832,7 +3832,7 @@ lv-LV:
         errors:
           invalid_unicode: Noteikta(s) nederīga(s) rakstzīme(s).
           leading_whitespace: Noteikta(s) ievadošā(s) atstarpe(s).
-          locked_name: '<strong>%{name} (%{language})</strong> ir slēgts.'
+          locked_name: "<strong>%{name} (%{language})</strong> ir slēgts."
           name_required: Nevar pārcelt tukšu lauku "%{name}" (%{language}).
           numbers: Noteikta(s) nederīga(s) skaitļu rakstzīme(s).
           primary_name_migration: No galvenā tulkojuma nevar pārcelt <strong>%{name} (%{language})</strong>.
@@ -3854,16 +3854,16 @@ lv-LV:
         tv: TV
         tv_shows: TV pārraides
       years_old:
-        one: '%{count} gadu vecs/a'
-        other: '%{count} gadus vecs/a'
-        zero: '%{count} gadu vecs/a'
+        one: "%{count} gadu vecs/a"
+        other: "%{count} gadus vecs/a"
+        zero: "%{count} gadu vecs/a"
     rating:
       not_rateable: Šis vienums vēl nav vērtējams.
       rated_with_rating: Vērtējums %{value}
       rating_count:
-        one: '%{count} vērtējums'
-        other: '%{count} vērtējumi'
-        zero: '%{count} vērtējumu'
+        one: "%{count} vērtējums"
+        other: "%{count} vērtējumi"
+        zero: "%{count} vērtējumu"
       removed:
       score_breakdown: Novērtējuma sadalījums
       score_distribution: Novērtējuma izkliede
@@ -3899,7 +3899,7 @@ lv-LV:
         want_to_be_notified: Vai saņemt paziņojumu, kad kāds izveidos pirmo ierakstu?
         yes_notify_me: Jā, paziņot man.
       reviews:
-        a_review_by: '%{username} atsauksme'
+        a_review_by: "%{username} atsauksme"
         by: Autors %{username}, %{date}
         featured_review: Izcelta atsauksme
         no_review:
@@ -3941,7 +3941,7 @@ lv-LV:
         mid_season: Vidussezonas noslēgums
       episode_selector:
         current_episode: Sērija %{season_number}x%{episode_number}
-        episode: '%{episode_name} (%{season_number}x%{episode_number})'
+        episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Nākamā sērija
         previous_episode: Iepriekšējā sērija
     tv_season:
@@ -4013,9 +4013,9 @@ lv-LV:
       episode_groups:
         groups:
           count:
-            one: '%{count} kopa'
-            other: '%{count} kopas'
-            zero: '%{count} kopu'
+            one: "%{count} kopa"
+            other: "%{count} kopas"
+            zero: "%{count} kopu"
         original_air_date: Sākotnējais rādīšanas datums
       networks:
         one: raiduzņēmums
@@ -4083,7 +4083,7 @@ lv-LV:
       to: Uz
     no_messages: Nav ziņojumu
     notifications:
-      new_message: '%{username} nosūtīja jums jaunu ziņojumu'
+      new_message: "%{username} nosūtīja jums jaunu ziņojumu"
     number_of_messages:
     options:
       admin: Administrators
@@ -4110,6 +4110,14 @@ lv-LV:
     translate: Tulkot
   monetize:
     create_api: Izveidot API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
   navigation:
     discover:
@@ -4142,10 +4150,10 @@ lv-LV:
   no_episode_images:
   no_favorite_movies:
     current_user: Nav pievienota neviena iecienīta filma.
-    public: '%{username} nav nevienas iecienītas filmas.'
+    public: "%{username} nav nevienas iecienītas filmas."
   no_favorite_tv_shows:
     current_user: Nav pievienota neviena iecienīta TV pārraide.
-    public: '%{username} nav nevienas iecienītas TV pārraides.'
+    public: "%{username} nav nevienas iecienītas TV pārraides."
   no_genres: Nav pievienots neviens žanrs.
   no_guest_stars: Vieszvaigznes nav pievienotas.
   no_keyword_search_results: Nav neviena atslēgvārda, kas atbilst vaicājumam.
@@ -4160,10 +4168,10 @@ lv-LV:
     tv: Lai saņemtu personiskus TV ieteikumus, jāsāk ar visu savas iecienītāko filmu pievienošanu. Šajā brīdī, iespējams, pamanīsi, ka daudzas no mūsu ieteiktajām TV pārraidēm ir tās, kuras ir redzētas. Lai neņemtu tās vērā, tās ir jānovērtē. Kad tās būs novērtētas, mēs tās automātiski neņemsim vērā.
   no_rated_movies:
     current_user: Tu neesi novērtējis nevienu filmu.
-    public: '%{username} nav novērtējis nevienu filmu.'
+    public: "%{username} nav novērtējis nevienu filmu."
   no_rated_tv_shows:
     current_user: Tu neesi novērtējis nevienu TV pārraidi.
-    public: '%{username} nav novērtējis nevienu TV pārraidi.'
+    public: "%{username} nav novērtējis nevienu TV pārraidi."
   no_recommendations:
     movie:
     tv_show: Mums nav pietiekami daudz datu, lai ieteiktu TV pārraides pēc %{title}. Tu vari palīdzēt ar redzēto TV pārraižu novērtēšanu.
@@ -4177,7 +4185,7 @@ lv-LV:
     public: Šis skatīšanās saraksts ir tukšs.
   no_writer:
   not_translated:
-    logged_in: '%{page_title} vēl nav <strong>%{requested_i18n} (%{requested_language_text})</strong> tulkojuma. Ja ir vēlme turpināt un izveidot šo tulkojumu, lūgums noklikšķināt uz zemāk esošās pogas.'
+    logged_in: "%{page_title} vēl nav <strong>%{requested_i18n} (%{requested_language_text})</strong> tulkojuma. Ja ir vēlme turpināt un izveidot šo tulkojumu, lūgums noklikšķināt uz zemāk esošās pogas."
     public: '%{page_title} vēl nav <strong>%{requested_i18n} (%{requested_language_text})</strong> tulkojuma. Šo tulkojumu var pievienot pēc <a href="%{signup_link}">reģistrēšanās</a> kontam un <a href="%{login_link}">pieteikšanās</a>.'
   notifications:
     caught_up:
@@ -4192,9 +4200,9 @@ lv-LV:
     currency:
       format:
         delimiter: '" "'
-        format: '%n %u'
+        format: "%n %u"
         precision:
-        separator: ','
+        separator: ","
         significant:
         strip_insignificant_zeros:
         unit: s
@@ -4288,11 +4296,11 @@ lv-LV:
     next_page: Nākamā lapa
     next_page_with_arrow: Nākamā lapa →
     previous_page: Iepriekšējā lapa
-    previous_page_with_arrow: '← Iepriekšējā lapa'
+    previous_page_with_arrow: "← Iepriekšējā lapa"
     show_more: Parādīt vairāk
   part_of_collection: Daļa no %{collection_name}
   password:
-    4_chars_minimum: '(vismaz 4 rakstzīmes)'
+    4_chars_minimum: "(vismaz 4 rakstzīmes)"
     confirm_new_password: Apstiprināt jauno paroli
     enter_to_continue: Jāievada sava pašreizējā parole, lai turpinātu...
     new_password: jauna parole
@@ -4302,7 +4310,7 @@ lv-LV:
   person:
     credits:
       as_character: kā %{character}
-      as_job: '— %{job}'
+      as_job: "— %{job}"
   placeholder:
     primary_character_name: Galvenais tēla vārds
   report:
@@ -4333,11 +4341,11 @@ lv-LV:
     watchlist_movie: Meklēt filmu skatīšanās sarakstā...
     watchlist_tv: Meklēt TV pārraides skatīšanās sarakstā...
   search_text_validation_error: Lūgums ievadīt derīgu tekstu.
-  search_tip_1: "Padoms: var izmantot atlasītāju 'y:', lai sašaurinātu iznākumu pēc gada. Piemērs: 'zvaigžņu kari y:1977'."
-  season_number_name: '%{season_number}. sezona'
+  search_tip_1: 'Padoms: var izmantot atlasītāju ''y:'', lai sašaurinātu iznākumu pēc gada. Piemērs: ''zvaigžņu kari y:1977''.'
+  season_number_name: "%{season_number}. sezona"
   season_overview:
-    already_aired: '%{show_name} %{season_number}. sezonas pirmizrādes datums ir %{date}.'
-    to_air: '%{show_name} %{season_number}. sezonas paredzētais pirmizrādes datums ir %{date}.'
+    already_aired: "%{show_name} %{season_number}. sezonas pirmizrādes datums ir %{date}."
+    to_air: "%{show_name} %{season_number}. sezonas paredzētais pirmizrādes datums ir %{date}."
   settings:
     account:
       account_settings: Konta iestatījumi
@@ -4480,7 +4488,7 @@ lv-LV:
         what_is_your_email: Kāda ir Tava e-pasta adrese?
       page_title: Mans profils
       reset_password_dialog_text: Pēc šī pieprasījuma apstiprināšanas tiks nosūtīts e-pasta ziņojums ar paroles atiestatīšanas norādēm. Vai tiešām to darīt?
-      reset_password_dialog_text2: '<strong>Lūgums ņemit vērā:</strong> atiestatot paroli, notiks izrakstīšanās no visām pašreizējām sesijām.'
+      reset_password_dialog_text2: "<strong>Lūgums ņemit vērā:</strong> atiestatot paroli, notiks izrakstīšanās no visām pašreizējām sesijām."
     sessions:
       api:
         connected_apps: Savienotās lietotnes
@@ -4569,17 +4577,17 @@ lv-LV:
   success_sharing: Ziņojums tika sekmīgi kopīgots.
   support:
     array:
-      last_word_connector: ', and '
-      two_words_connector: ' and '
-      words_connector: ', '
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
   the:
   time:
     am:
     formats:
-      12hour_minutes: '%l:%M %p'
+      12hour_minutes: "%l:%M %p"
       default:
-      long: '%B %d, %Y %I:%M %p'
-      short: '%d %b %I:%M %p'
+      long: "%B %d, %Y %I:%M %p"
+      short: "%d %b %I:%M %p"
     pm:
     units:
       hours: Stundas
@@ -4648,7 +4656,7 @@ lv-LV:
       type: Veids
     number_of_videos:
     official_channel: Oficiālais kanāls
-    page_title: '%{name} video kanāls'
+    page_title: "%{name} video kanāls"
     popular: Populārs
     refresh_from_youtube: Atsvaidzināt no YouTube
     types:
@@ -4673,5 +4681,5 @@ lv-LV:
   view all: Skatīt visu
   will_paginate:
     next_label: Nākamais →
-    page_gap: '...'
-    previous_label: '← Iepriekšējais'
+    page_gap: "..."
+    previous_label: "← Iepriekšējais"

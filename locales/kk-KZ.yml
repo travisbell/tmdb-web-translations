@@ -4047,6 +4047,14 @@ kk-KZ:
     translate: Tárjimeleý
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: "%{count} aı"
     other: "%{count} aı"

@@ -4113,6 +4113,14 @@ el-GR:
     translate: Μετάφραση
   monetize:
     create_api: Δημιουργία API
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: μήνας
     other: "%{count} μήνες"

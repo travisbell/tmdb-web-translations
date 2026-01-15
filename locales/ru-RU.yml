@@ -4133,6 +4133,14 @@ ru-RU:
     translate: Перевести
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     few: "%{count} месяца"
     many: "%{count} месяцев"

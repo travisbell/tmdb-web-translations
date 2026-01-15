@@ -288,7 +288,7 @@ nl-NL:
   Networks: Netwerken
   New: Nieuw
   New episode airs in: Nieuwe aflevering wordt uitgezonden over
-  "No": Nee
+  'No': Nee
   No Language:
   None: Geen
   Notes: Opmerkingen
@@ -504,7 +504,7 @@ nl-NL:
   Wrappers & Libraries: Wrappers en bibliotheken
   Written by: Geschreven door
   Year: Jaar
-  "Yes": Ja
+  'Yes': Ja
   Your lists: Jouw lijsten
   Your rating: Je beoordeling
   Zip Code: Postcode
@@ -567,8 +567,8 @@ nl-NL:
             Unsubscribed: Afgemeld
             status: Status
         number_of_items:
-          one: "%{count} e-mail"
-          other: "%{count} e-mails"
+          one: '%{count} e-mail'
+          other: '%{count} e-mails'
       events: Gebeurtenissen
       notifications:
         filters:
@@ -583,8 +583,8 @@ nl-NL:
           one: Melding
           other: Meldingen
         number_of_items:
-          one: "%{count} melding"
-          other: "%{count} meldingen"
+          one: '%{count} melding'
+          other: '%{count} meldingen'
       page_title:
         recent_events: Recente gebeurtenissen
       recent: Recent
@@ -599,7 +599,7 @@ nl-NL:
       page_title:
         page_owner: Mijn favorieten
         public: "%{username}'s favorieten"
-    filter_by: "Filteren op:"
+    filter_by: 'Filteren op:'
     filters:
       air_date: Uitzenddatum
       alphabetical: Alfabetisch
@@ -623,7 +623,7 @@ nl-NL:
         public: "%{username}'s lijsten"
       no_lists:
         logged_in: Je hebt geen lijsten gecreëerd.
-        public: "%{username} heeft geen lijsten openbaar gedeeld."
+        public: '%{username} heeft geen lijsten openbaar gedeeld.'
       page_title:
         page_owner: Mijn lijsten
         public: "%{username}'s lijsten"
@@ -638,17 +638,17 @@ nl-NL:
       recommendations: Aanbevelingen
       reviews: Recensies
       watchlist: Watchlist
-    order: "Volgorde:"
+    order: 'Volgorde:'
     overview:
       30_day_activity: Laatste 30 dagen
       empty_recent_activity:
         logged_in: Je hebt recentelijk geen aanpassingen gedaan.
-        public: "%{username} heeft recentelijk geen aanpassingen gedaan."
+        public: '%{username} heeft recentelijk geen aanpassingen gedaan.'
       empty_upcoming_watchlist:
         logged_in: Er staan geen films op je watchlist die binnenkort verschijnen.
       empty_watched_genres:
         logged_in: Je houdt nog geen films of tv-series bij.
-        public: "%{username} houdt nog geen films of tv-series bij."
+        public: '%{username} houdt nog geen films of tv-series bij.'
       goto_discussions: Ga naar discussies
       goto_watchlist: Ga naar watchlist
       most_watched_genres: Meest bekeken genres
@@ -705,8 +705,8 @@ nl-NL:
       this_month: Deze maand
       this_week: Deze week
       view_them: Bekijk ze.
-  add_to_list: "%{media_title} toevoegen aan één van je lijsten..."
-  already_translated_in: "%{page_title} is al vertaald naar de volgende talen..."
+  add_to_list: '%{media_title} toevoegen aan één van je lijsten...'
+  already_translated_in: '%{page_title} is al vertaald naar de volgende talen...'
   api_for_business:
     api_for_business:
     form:
@@ -737,13 +737,13 @@ nl-NL:
       message: Een verzoektoken is vereist om gebruikersaccounts te verifiëren.
       title: Verzoektoken ontbreekt
     request_token_approval:
-      message: "{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden."
+      message: '{{APP}} vraagt om toestemming om te lezen en te schrijven met uw toestemming. Dit is nodig om uw lijsten en waarderingen buiten TMBd bij te houden.'
     statuses:
       completed:
         message: U hebt <strong>%{application_name}</strong> toestemming gegeven om te lezen en schrijven. U kunt nu teruggaan naar uw applicatie en dit venster sluiten. U kunt uw toestemming altijd intrekken door naar uw instellingenpagina te gaan en daarna naar de pagina "Connected Apps" te gaan.
         name: Authenticatie verleend
       denied:
-        message: "<p>U heeft <strong>%{application_name}</strong> de toegang geweigerd. Als dat een vergissing was or u wilt het authenticatieproces opnieuw starten, kunt u dit gewoon doen via applicatie en daar opnieuw een verzoek indienen.</p>"
+        message: '<p>U heeft <strong>%{application_name}</strong> de toegang geweigerd. Als dat een vergissing was or u wilt het authenticatieproces opnieuw starten, kunt u dit gewoon doen via applicatie en daar opnieuw een verzoek indienen.</p>'
         name: Authenticatie geweigerd
       invalid_request_token:
         message: De token die u meezond is niet geldig. Maak een nieuwe token aan en zorg dat u deze goed kopieert. Als u problemen blijft houden, neem dan contact op met de ontwikkelaar van de app die u gebruikt.
@@ -823,7 +823,7 @@ nl-NL:
         one:
         other:
       one: 1 nominatie
-      other: "%{count} nominaties"
+      other: '%{count} nominaties'
       title:
     nominee: Genomineerde
     show_info:
@@ -839,7 +839,7 @@ nl-NL:
     winner: Winnaar
     wins:
       one: 1 overwinning
-      other: "%{count} overwinningen"
+      other: '%{count} overwinningen'
   back_options:
     award:
     back: Terug
@@ -860,549 +860,549 @@ nl-NL:
     meaning: Betekenis
     movies:
       AU:
-        "1":
+        '1':
           meaning: Vrijgesteld van classificatie. Films die vrijgesteld zijn van classificatie mogen geen omstreden materiaal bevatten (materiaal dat normaal gesproken M of hoger zou worden beoordeeld).
-        "2":
+        '2':
           meaning: Algemeen. De inhoud heeft weinig impact.
-        "3":
+        '3':
           meaning: Ouderlijk toezicht aanbevolen. Er zijn geen leeftijdsbeperkingen. De inhoud heeft weinig impact.
-        "4":
+        '4':
           meaning: Ouderlijk toezicht aanbevolen. Er zijn geen leeftijdsbeperkingen. De inhoud heeft enige impact.
-        "5":
+        '5':
           meaning: Ouderlijk toezicht verplicht. Ongeschikt voor kinderen onder de 15. Kinderen jonger dan 15 moeten worden begeleid door een ouder of voogd. De inhoud heeft heel veel impact.
-        "6":
+        '6':
           meaning: Beperkt tot 18 jaar of ouder. Alleen voor volwassenen. De inhoud heeft heel veel impact.
-        "7":
+        '7':
           meaning: Beperkt tot 18 jaar of ouder. Films met deze classificatie bevatten pornografische inhoud. Films met de classificatie X18+ zijn verboden voor verkoop of verhuur in alle Australische staten en mogen alleen legaal worden bemachtigd in het Australisch Hoofdstedelijk Territorium en Noordelijk Territorium. Importeren uit die twee territoria is echter legaal. De inhoud is seksueel van aard.
-        "8":
+        '8':
           meaning: Geweigerde classificatie. Verboden voor verkoop of verhuur in Australië. Dit omvat ook importering (indien geïnspecteerd door de douane). Privé op internet kijken wordt gedoogd en pogingen dit te censureren hebben geleid tot controverse. Films hebben de classificatie RC als de inhoud de richtlijnen overschrijdt. De inhoud heeft heel veel impact.
       BG:
-        "1":
+        '1':
           meaning: Aanbevolen voor kinderen.
-        "2":
+        '2':
           meaning: Geen leeftijdsbeperkingen.
-        "3":
+        '3':
           meaning: Niet aanbevolen voor kinderen onder de 12.
-        "4":
+        '4':
           meaning: Verboden voor kinderen onder de 16.
-        "5":
+        '5':
           meaning: Verboden voor kinderen onder de 18.
       BR:
-        "1":
+        '1':
           meaning: Algemeen publiek. Stel kinderen niet bloot aan mogelijk schadelijke inhoud.
-        "2":
+        '2':
           meaning: Niet aanbevolen voor kinderen onder de tien. Geweld en ongewenst taalgebruik kan voorkomen, ook al is het maar beperkt.
-        "3":
+        '3':
           meaning: Niet aanbevolen voor kinderen onder de twaalf. Scènes kunnen fysieke agressie bevatten, alsmede legale drugs en dubbelzinnige grappen.
-        "4":
+        '4':
           meaning: Niet aanbevolen voor kinderen onder de veertien. Meer geweld, meer seksuele grappen en/of naaktheid.
-        "5":
+        '5':
           meaning: Niet aanbevolen voor kinderen onder de zestien. Scènes bevatten productie, smokkel en/of gebruik van illegale drugs, onrealistische seks, seksueel geweldig, abortus, mishandeling, zelfbeschadiging, zelfmoord, banalisering van geweld en de doodstraf.
-        "6":
+        '6':
           meaning: Niet aanbevolen voor kinderen onder de achttien. Scènes bevatten sex, incest, pedofilie, aanprijzing van illegale drugs en geweld met een zeer hoge impact.
       CA:
-        "1":
+        '1':
           meaning: Alle leeftijden.
-        "2":
+        '2':
           meaning: Ouderlijk toezicht aanbevolen. Er zijn geen leeftijdsbeperkingen, maar sommige dingen zijn ongeschikt voor alle kinderen.
-        "3":
+        '3':
           meaning: Kinderen onder de 14 moeten worden begeleid door een volwassene.
-        "4":
+        '4':
           meaning: Kinderen onder de 18 moeten worden begeleid door een volwassene. In Maritimes & Manitoba is het verboden om kinderen onder de 14 deze film te laten bekijken.
-        "5":
+        '5':
           meaning: Toegang is beperkt tot personen van 18 jaar of ouder. Het hoofddoel van de film is het uitbeelden van seksuele activiteit en/of veel geweld.
       CA-QC:
-        "0":
+        '0':
           meaning: Geen classifiseringsinformatie.
-        "1":
+        '1':
           meaning: Algemene classificatie - mag worden bekeken, gehuurd of aangeschaft door personen van alle leeftijden. Als een film de classificatie "G" heeft, dan is er mogelijk impact op kinderen onder de 8. "Ongeschikt voor jonge kinderen" wordt dan toegevoegd.
-        "2":
+        '2':
           meaning: 13 jaar en ouder - mag alleen worden bekeken, gehuurd of aangeschaft door kinderen van 13 jaar of ouder. Kinderen onder de 13 moeten ouderlijk toezicht krijgen.
-        "3":
+        '3':
           meaning: 16 jaar en ouder - mag alleen worden bekeken, gehuurd of aangeschaft door kinderen van 16 jaar of ouder.
-        "4":
+        '4':
           meaning: 18 jaar of ouder - mag alleen worden bekeken, gehuurd of aangeschaft door personen van 18 jaar of ouder. Als de film ongecensureerde en realistische seksscènes bevat, dan wordt "Seksueel" toegevoegd aan de classificatie. In de video-industrie moeten winkeleigenaren deze film in een kamer voor volwassenen leggen.
       DE:
-        "1":
+        '1':
           meaning: Geen leeftijdsbeperkingen.
-        "2":
+        '2':
           meaning: Kinderen onder de 6 worden niet toegelaten.
-        "3":
+        '3':
           meaning: Kinderen van 12 jaar of ouderen worden toegelaten; kinderen tussen de 6 en 11 alleen indien begeleid door een ouder of legale voogd.
-        "4":
+        '4':
           meaning: Alleen kinderen van 16 jaar of ouder worden toegelaten.
-        "5":
+        '5':
           meaning: Kinderen worden niet toegelaten; alleen volwassenen.
       DK:
-        "0":
+        '0':
           meaning: Geen classificeringsinformatie.
-        "1":
+        '1':
           meaning: Geschikt voor een algemeen publiek.
-        "2":
+        '2':
           meaning: Niet aanbevolen voor kinderen onder de 7.
-        "3":
+        '3':
           meaning: Voor kinderen van 11 jaar en ouder.
-        "4":
+        '4':
           meaning: Voor kinderen van 15 jaar en ouder.
-        "5":
+        '5':
           meaning: Vrijgesteld van classificatie.
       ES:
-        "1":
+        '1':
           meaning: Algemene toegang.
-        "2":
+        '2':
           meaning: Niet aanbevolen voor kinderen onder de 7.
-        "3":
+        '3':
           meaning: Niet aanbevolen voor kinderen onder de 12.
-        "4":
+        '4':
           meaning: Niet aanbevolen voor kinderen onder de 16.
-        "5":
+        '5':
           meaning: Niet aanbevolen voor kinderen onder de 18.
-        "6":
+        '6':
           meaning: Verboden voor kinderen onder de 18.
       FI:
-        "1":
+        '1':
           meaning: Voor alle leeftijden.
-        "2":
+        '2':
           meaning: Kinderen boven de 7.
-        "3":
+        '3':
           meaning: Kinderen boven de 12.
-        "4":
+        '4':
           meaning: Kinderen boven de 16.
-        "5":
+        '5':
           meaning: Alleen voor volwassenen.
-        "6":
+        '6':
           meaning: Commerciële verspreiding verboden
       FR:
-        "1":
-          meaning: "(Tous publics) geschikt voor alle leeftijden."
-        "2":
+        '1':
+          meaning: '(Tous publics) geschikt voor alle leeftijden.'
+        '2':
           meaning: '(Déconseillé aux moins de 10 ans) ongeschikt voor kinderen onder de 10 (deze classificatie wordt alleen gebruikt voor tv-series); in theaters: "avertissement" (waarschuwing), sommige scènes kunnen té grof zijn voor jonge kinderen en gevoelige mensen; bij video''s: "accord parental" (ouderlijk toezicht vereist).'
-        "3":
-          meaning: "(Interdit aux moins de 12 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 12."
-        "4":
-          meaning: "(Interdit aux moins de 16 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 16."
-        "5":
-          meaning: "(Interdit aux mineurs) verboden in bioscopen of ongeschikt voor kinderen onder de 18."
+        '3':
+          meaning: '(Interdit aux moins de 12 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 12.'
+        '4':
+          meaning: '(Interdit aux moins de 16 ans) verboden in bioscopen of ongeschikt voor kinderen onder de 16.'
+        '5':
+          meaning: '(Interdit aux mineurs) verboden in bioscopen of ongeschikt voor kinderen onder de 18.'
       GB:
-        "1":
+        '1':
           meaning: Toegankelijk voor alle leeftijden; niks ongeschikts voor kinderen.
-        "2":
+        '2':
           meaning: Toegankelijk voor alle leeftijden, maar sommige scènes kunnen ongeschikt zijn voor jonge kinderen. Kan lichtelijk grof taalgebruik bevatten en sex- of drugsverwijzingen. Kan lichtelijk geweld bevatten, afhankelijk van de context (bijv. fantasie).
-        "3":
+        '3':
           meaning: Films in deze categorie zijn niet geschikt voor jonge kinderen. Kinderen onder de 12 jaar worden alleen toegelaten onder supervisie van een volwassenen, van minimaal 18 jaar, gedurende de hele film. Hoewel er wordt aangeraden om de film niet aan kinderen onder de 12 jaar te vertonen. Films in deze categorie kunnen volwassen thema's bevatten zoals discriminatie, soft drugs, scheldwoorden, geweld, seks referenties en naaktbeelden. Seksuele activiteit kan kort en discreet worden afgebeeld. Seksueel geweld kan impliciet zijn of kort worden aangegeven.
-        "4":
+        '4':
           meaning: Alleen thuismedia sinds 2002. 12A-rated films krijgen meestal een 12-certificaat voor de VHS / DVD-versie tenzij extra materiaal is toegevoegd dat een hogere beoordeling vereist. Niemand jonger dan 12 jaar kan een 12-rated VHS, DVD, Blu-ray Disc, UMD of game huren of kopen. De inhoudsrichtlijnen zijn identiek aan die gebruikt voor het 12A-certificaat.
-        "5":
+        '5':
           meaning: Alleen mensen ouder dan 15 jaar worden toegelaten. Niemand jonger dan 15 jaar kan een 15-rated VHS, DVD, Blu-ray Disc, UMD of game huren of kopen, of een film kijken in de bioscoop met deze rating. Films onder deze categorie kunnen thema's voor volwassenen, harddrugs, veel voorkomende sterke taal en beperkt gebruik van een zeer krachtige taal, sterk geweld en sterke geslachtsreferenties en naaktheid zonder grafisch detail bevatten. Seksuele activiteit kan worden geportretteerd, maar zonder enig detail. Seksueel geweld kan worden getoond als het discreet is en wordt gerechtvaardigd door de context.
-        "6":
+        '6':
           meaning: Alleen volwassenen worden toegelaten. Niemand jonger dan 18 jaar kan een 18-rated VHS, DVD, Blu-ray Disc, UMD of game huren of kopen, of een film kijken in de bioscoop met deze rating. Films onder deze categorie hebben geen beperking voor de slechte taal die wordt gebruikt. Harddrugs zijn over het algemeen toegestaan ​​en expliciete seksreferenties samen met gedetailleerde seksuele activiteit zijn ook toegestaan. Scènes met sterk reëel geslacht kunnen worden toegestaan ​​als dit wordt gerechtvaardigd door de context. Zeer sterk, bloederig en / of sadistisch geweld is meestal toegestaan. Sterk seksueel geweld is toegestaan, tenzij het geërotiseerd of overdreven grafisch is.
-        "7":
-          meaning: "Mag alleen worden vertoond in gelicentieerde bioscopen voor volwassenen of verkocht in gelicentieerde seksshops, en alleen aan volwassenen, van 18 jaar of ouder. Films in deze categorie zijn altijd hardcore pornografie, gedefinieerd als materiaal bedoeld voor seksuele stimulatie en met duidelijke beelden van echte seksuele activiteit, sterk fetisjmateriaal, expliciete geanimeerde afbeeldingen of het zien van bepaalde handelingen zoals drievoudige gelijktijdige penetratie en snowballen. Er blijft een scala aan materiaal over dat vaak van de R18-beoordeling wordt uitgesloten: sterke beelden van verwonding in BDSM- of pak slaag, urolagnia, scènes die incest suggereren, zelfs als ze worden geënsceneerd, verwijzingen naar minderjarige seks of seksuele ontwikkeling in de kindertijd en agressief gedrag zoals haren trekken of spugen op een artiest is niet toegestaan. In deze categorie worden meer versies gevraagd dan in eender andere categorie."
+        '7':
+          meaning: 'Mag alleen worden vertoond in gelicentieerde bioscopen voor volwassenen of verkocht in gelicentieerde seksshops, en alleen aan volwassenen, van 18 jaar of ouder. Films in deze categorie zijn altijd hardcore pornografie, gedefinieerd als materiaal bedoeld voor seksuele stimulatie en met duidelijke beelden van echte seksuele activiteit, sterk fetisjmateriaal, expliciete geanimeerde afbeeldingen of het zien van bepaalde handelingen zoals drievoudige gelijktijdige penetratie en snowballen. Er blijft een scala aan materiaal over dat vaak van de R18-beoordeling wordt uitgesloten: sterke beelden van verwonding in BDSM- of pak slaag, urolagnia, scènes die incest suggereren, zelfs als ze worden geënsceneerd, verwijzingen naar minderjarige seks of seksuele ontwikkeling in de kindertijd en agressief gedrag zoals haren trekken of spugen op een artiest is niet toegestaan. In deze categorie worden meer versies gevraagd dan in eender andere categorie.'
       HU:
-        "0":
+        '0':
           meaning: Geen beoordelingsinformatie beschikbaar.
-        "1":
+        '1':
           meaning: Zonder leeftijdsbeperking.
-        "2":
+        '2':
           meaning: Afgeraden voor kinderen jonger dan 6 jaar.
-        "3":
+        '3':
           meaning: Afgeraden voor kinderen jonger dan 12 jaar.
-        "4":
+        '4':
           meaning: Afgeraden voor jongeren onder de 16.
-        "5":
+        '5':
           meaning: Afgeraden voor jongeren onder de 18.
-        "6":
+        '6':
           meaning: Beperkt onder 18, enkel voor volwassenen
       IN:
-        "0":
+        '0':
           meaning: Onbeperkte publieke vertoning in heel India, geschikt voor alle leeftijdsgroepen. Films in deze categorie mogen kinderen ouder dan 4 jaar niet van streek maken. Dergelijke films kunnen educatieve, sociale of gezinsgerichte thema's bevatten. Films in deze categorie kunnen ook fantasiegeweld en/of licht grof taalgebruik bevatten.
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
       IT:
-        "0":
+        '0':
           meaning: Geen beoordelingsinformatie
-        "1":
+        '1':
           meaning: Voor alle leeftijden.
-        "2":
+        '2':
           meaning: Geen toegang voor kinderen onder de 14 jaar
-        "3":
+        '3':
           meaning: Verboden voor jongeren onder de 18.
       LT:
-        "1":
+        '1':
           meaning: Films voor alle leeftijden.
-        "2":
+        '2':
           meaning: Films voor kinderen van 7 en ouder. Onder de 7 is ouderlijk toezicht vereist.
-        "3":
+        '3':
           meaning: Films voor kinderen van 13 en ouder. Tussen de 7 en 13 is ouderlijk toezicht vereist.
-        "4":
+        '4':
           meaning: Films voor kinderen van 16 en ouder.
-        "5":
+        '5':
           meaning: Films voor personen van 18 en ouder.
       MY:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: '(Umum: "General Audiences") - Voor algemeen publiek. (werd gebruikt door de meeste films in Maleisië van vóór 2008, maar nu alleen nog door tv-series, vooral voor RTM)'
-        "2":
+        '2':
           meaning: '(Penjaga 13 : "Parental Guidance 13") - Kinderen jonger dan 13 jaar krijgen alleen toegang onder begeleiding van een volwassene. (Geïntroduceerd in 2006 en sinds 2008 het officiële waarderingssysteem van Maleisië. De PG-13 waardering is herzien in april 2012 om de nadruk te leggen om het gebruik van de Maleisische taal in plaats van Engels. Gepassioneerde kus scenes zijn niet toegestaan in deze P13 waardering.'
-        "3":
+        '3':
           meaning: '(Seram, Ganas: "Graphic Violence and Horror/Terror" - De film kan hevig geweld en ranzige of horror/terror-scènes bevatten.'
-        "4":
+        '4':
           meaning: '(Seks: "Sexual Content") - De film kan seksscènes, naaktheid of seksuele dialogen/verwijzingen bevatten (ondanks dat seks en naaktheid streng wordt gecensureerd door de LPF).'
-        "5":
+        '5':
           meaning: '(Politik, Agama: "Strong Religous or Political Elements") - De film kan elementen bevatten van discutabele religieuze, sociale of politieke aspecten. Wordt zelden gebruikt.'
-        "6":
+        '6':
           meaning:
       NL:
-        "1":
+        '1':
           meaning: Voor alle leeftijden.
-        "2":
+        '2':
           meaning: Mogelijk schadelijk voor kinderen onder de 6.
-        "3":
+        '3':
           meaning: Mogelijk schadelijk voor kinderen onder de 9.
-        "4":
+        '4':
           meaning: Mogelijk schadelijk voor kinderen onder de 12; uitzenden vóór 20:00 is verboden.
-        "5":
+        '5':
           meaning: Mogelijk schadelijk voor kinderen onder de 16; uitzenden vóór 22:00 is verboden.
-      "NO":
-        "0":
+      'NO':
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Geschikt voor iedereen.
-        "2":
+        '2':
           meaning: 6 jaar (geen beperking indien sprake is van ouderlijk toezicht).
-        "3":
+        '3':
           meaning: 9 jaar (ouderlijk toezicht voor kinderen onder de 6).
-        "4":
+        '4':
           meaning: 12 jaar (ouderlijk toezicht voor kinderen onder de 9).
-        "5":
+        '5':
           meaning: 15 jaar (ouderlijk toezicht voor kinderen onder de 12).
-        "6":
+        '6':
           meaning: 18 jaar
       NZ:
-        "1":
+        '1':
           meaning: Geschikt voor iedereen.
-        "2":
+        '2':
           meaning: Ouderlijk toezicht aanbevolen voor jongere kijkers.
-        "3":
+        '3':
           meaning: Geschikt voor (maar niet beperkt tot) personen van 16 jaar en ouder.
-        "4":
+        '4':
           meaning: Beperkt tot kinderen van 13 jaar en ouder.
-        "5":
+        '5':
           meaning: Beperkt tot kinderen van 15 jaar en ouder.
-        "6":
+        '6':
           meaning: Beperkt tot kinderen van 16 jaar en ouder.
-        "7":
+        '7':
           meaning: Beperkt tot personen van 18 jaar en ouder.
-        "8":
+        '8':
           meaning: Beperkt tot een bepaald soort mensen, voor specifieke doeleinden of beiden.
       PH:
-        "1":
+        '1':
           meaning: Algemeen publiek. Toegankelijk voor alle leeftijden.
-        "2":
+        '2':
           meaning: Ouderlijk toezicht. Kijkers onder de 13 moeten voorzien zijn van ouderlijk toezicht.
-        "3":
+        '3':
           meaning: Restricted-13. Alleen toegankelijk voor kijkers van 13 jaar en ouder.
-        "4":
+        '4':
           meaning: Restricted-16. Alleen toegankelijk voor kijkers van 16 jaar en ouder.
-        "5":
+        '5':
           meaning: Restricted-18. Alleen toegankelijk voor kijkers van 18 jaar en ouder.
-        "6":
+        '6':
           meaning: Niet voor openbare vertoning. Volwassen films zijn niet geschikt voor openbare vertoning.
       PT:
-        "1":
+        '1':
           meaning: Voor iedereen (maar gemaakt voor kinderen onder de 3).
-        "2":
+        '2':
           meaning: Geschikt voor kijkers van 3 jaar en ouder.
-        "3":
+        '3':
           meaning: Geschikt voor kijkers van 6 jaar en ouder.
-        "4":
+        '4':
           meaning: Geschikt voor kijkers van 12 jaar en ouder.
-        "5":
+        '5':
           meaning: Geschikt voor kijkers van 14 jaar en ouder.
-        "6":
+        '6':
           meaning: Geschikt voor kijkers van 16 jaar en ouder.
-        "7":
+        '7':
           meaning: Geschikt voor kijkers van 18 jaar en ouder.
-        "8":
+        '8':
           meaning: Speciale score aanvullend op de M / 18-leeftijdsclassificatie die pornografie aanduidt.
       RU:
-        "1":
+        '1':
           meaning: Toegankelijk voor alle leeftijden.
-        "2":
-          meaning: "(Voor kinderen boven de 6) - ongeschikt voor kinderen onder de 6."
-        "3":
-          meaning: "(Voor kinderen boven de 12) - ongeschikt voor kinderen onder de 12."
-        "4":
-          meaning: "(Voor kinderen boven de 16) - ongeschikt voor kinderen onder de 16."
-        "5":
-          meaning: "(Verboden voor kinderen) - verboden voor kinderen onder de 18."
+        '2':
+          meaning: '(Voor kinderen boven de 6) - ongeschikt voor kinderen onder de 6.'
+        '3':
+          meaning: '(Voor kinderen boven de 12) - ongeschikt voor kinderen onder de 12.'
+        '4':
+          meaning: '(Voor kinderen boven de 16) - ongeschikt voor kinderen onder de 16.'
+        '5':
+          meaning: '(Verboden voor kinderen) - verboden voor kinderen onder de 18.'
       SE:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Alle leeftijden.
-        "2":
+        '2':
           meaning: Kinderen jonger dan 7 jaar, die worden bijgestaan door een volwassenen (een persoon van 18 jaar of ouder), mogen worden toegelaten bij films die geschikt zijn vanaf 7 jaar.
-        "3":
+        '3':
           meaning: Kinderen ouder dan 7 jaar, die worden bijgestaan door een volwassenen, mogen worden toegelaten bij films die geschikt zijn vanaf 11 jaar.
-        "4":
+        '4':
           meaning: Kinderen ouder dan 7 jaar, die worden bijgestaan door een volwassenen, mogen worden toegelaten bij films die geschikt zijn vanaf 11 jaar. 1 maart 2017 ge-update.
       US:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Alle leeftijden toegelaten. Er is geen inhoud die voor de meeste ouders bezwaarlijk zou zijn. Dit is een van slechts twee beoordelingen die dateren uit 1968 en die nog steeds bestaan.
-        "2":
+        '2':
           meaning: Sommige materialen zijn mogelijk niet geschikt voor kinderen onder de 10. Deze films bevatten mogelijk een milde taal, grove / suggestieve humor, enge momenten en / of geweld. Er is geen drugs aanwezig. Er zijn een paar uitzonderingen op deze regel. Een paar racistische beledigingen kunnen ook worden gehoord.
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning: Deze films bevatten overmatig grafisch geweld, intense of expliciete seks, verdorvenheid, afschuwelijk gedrag, expliciet drugsgebruik, aanstootgevende taal, expliciet naakt of andere elementen die de meeste ouders op dit moment te aanstootgevend vinden en daarom niet geschikt voor kinderen en tieners. NC-17 betekent niet noodzakelijk obsceen of pornografisch in de vaak geaccepteerde of legale betekenis van die woorden.
     tv_series:
       AU:
-        "1":
+        '1':
           meaning: "Programma is bedoelt voor jonge kinderen tussen de 2 en 11 jaar: commerciële zenders moeten minimaal 30 minuten P-rated content laten zien door de weeks en in het weekend ten alle tijden. Er mag geen reclame vertoond worden tijdens P-rated programma's."
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning: Voor algemene tentoonstelling zijn programma's met deze rating geschikt voor alle leeftijden.
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning: Aanbevolen voor volwassen doelgroepen; M-rated content mag alleen worden uitgezonden tussen 20.30 uur en 5:00 uur op alle dagen en bovendien tussen 12 uur 's avonds en 15:00 uur op schooldagen.
-        "6":
+        '6':
           meaning:
-        "7":
+        '7':
           meaning:
-        "8":
+        '8':
           meaning: Niet voor kinderen onder de 18; dit is beperkt tot Adult "Pay Per View" VC 196 en 197. Inhoud kan grafisch geweld, seksuele situaties, grof taalgebruik en expliciet drugsgebruik bevatten.
       BR:
-        "0":
+        '0':
           meaning: De inhoud is geschikt voor alle leeftijden.
-        "1":
+        '1':
           meaning: De inhoud is geschikt voor kinderen ouder dan 10.
-        "2":
+        '2':
           meaning: De inhoud is geschikt voor kinderen ouder dan 12.
-        "3":
+        '3':
           meaning: De inhoud is geschikt voor kinderen ouder dan 14.
-        "4":
+        '4':
           meaning: De inhoud is geschikt voor kinderen ouder dan 16.
-        "5":
+        '5':
           meaning: De inhoud is geschikt voor personen ouder dan 18.
       CA:
-        "0":
+        '0':
           meaning: Shows die zijn vrijgesteld van classificatie (zoals journaals en sportprogramma's) tonen geen classificatie bij de uitzending.
-        "1":
+        '1':
           meaning: Programmering geschikt voor kinderen van 2-7 jaar. Geen godslastering of seksuele inhoud van welk niveau dan ook toegestaan. Bevat weinig geweld.
-        "2":
+        '2':
           meaning: Geschikt voor kinderen ouder dan 8 jaar. Licht geweld en fantasy-horror is toegestaan. Geen grof taalgebruik is toegestaan, maar af en toe een "sociaal aanstootgevende en discriminerende" taal is alleen toegestaan ​​als het in de context van het verhaal past. Geen seksuele inhoud van welk niveau dan ook toegestaan.
-        "3":
+        '3':
           meaning: Geschikt voor een algemeen publiek. Programmering geschikt voor het hele gezin met mild geweld en mild vloeken en / of gecensureerd taalgebruik.
-        "4":
+        '4':
           meaning: Ouderlijke toezicht. Matig geweld en matige godslastering is toegestaan, net als korte naaktheid en seksuele verwijzingen als belangrijk voor de context van het verhaal.
-        "5":
+        '5':
           meaning: Programmering bedoeld voor kijkers vanaf 14 jaar en ouder. Kan sterk geweld en sterke godslastering en afbeeldingen van seksuele activiteit bevatten, zolang ze binnen de context van een verhaal blijven.
-        "6":
+        '6':
           meaning: Programmering bedoeld voor kijkers vanaf 18 jaar en ouder. Kan expliciet geweld en seksuele activiteit bevatten. Programmering met deze beoordeling kan niet vóór het keerpunt (21:00 tot 06:00 uur) worden uitgezonden.
       CA-QC:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Geschikt voor alle leeftijden en moet weinig of geen geweld bevatten en weinig tot geen seksuele inhoud.
-        "2":
+        '2':
           meaning: Geschikt voor kinderen vanaf 8 jaar en ouder en moet weinig of geen geweld bevatten, weinig tot geen scheldwoorden en weinig tot geen seksuele inhoud.
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       DE:
-        "0":
+        '0':
           meaning: Mag op elk tijdstip worden uitgezonden.
-        "1":
+        '1':
           meaning: Mag op elk tijdstip worden uitgezonden.
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning: Mag alleen worden uitgezonden tussen 22:00 en 6:00.
-        "4":
+        '4':
           meaning: Mag alleen worden uitgezonden tussen 23:00 en 6:00.
       ES:
-        "0":
+        '0':
           meaning: Geen beoordelingsinformatie
-        "1":
+        '1':
           meaning: Specifiek aanbevolen voor jongere kinderen.
-        "2":
+        '2':
           meaning: Voor algemene bezichtiging.
-        "3":
+        '3':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 7.
-        "4":
+        '4':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 10.
-        "5":
+        '5':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 12.
-        "6":
+        '6':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 13.
-        "7":
+        '7':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 16.
-        "8":
+        '8':
           meaning: Niet aanbevolen voor kijkers onder de leeftijd van 18.
       FR:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Niet aanbevolen voor kinderen onder 10. Niet toegestaan in televisieseries voor kinderen
-        "2":
+        '2':
           meaning: Niet aanbevolen voor kinderen onder 12. Niet toegestaan voor 22:00u. Sommige zenders en programma's zijn hiervan uitgezonderd.
-        "3":
+        '3':
           meaning: Niet aanbevolen voor kinderen onder 16. Niet toegestaan voor 22:30u. Sommige zenders en programma's zijn hiervan uitgezonderd.
-        "4":
+        '4':
           meaning: Niet aanbevolen voor kinderen onder 18. Toegestaan tussen middernacht en 05:00u en alleen op sommige zenders is toegang tot deze programma's afgesloten met een persoonlijk wachtwoord.
       GB:
-        "0":
+        '0':
           meaning: De U staat voor Universeel. Een film met een U zou geschikt moeten zijn voor kinderen vanaf 4 jaar of ouder.
-        "1":
+        '1':
           meaning: PG staat voor Ouderlijk Toezicht. Dit betekent dat de film geschikt is voor algemeen publiek, maar dat sommige scenes mogelijk niet geschikt zijn voor jonge kinderen. Een film met PG zou een kind van 8 jaar of ouder niet bang moeten maken.
-        "2":
+        '2':
           meaning: Films geclassificeerd met 12A en video's geclassificeerd met 12 bevatten materiaal dat geschikt bevonden is voor 12 jaar en ouder. 12A betekent dat een volwassene aanwezig moet zijn wanneer een kind deze film in de bioscoop bekijkt.
-        "3":
+        '3':
           meaning: Films geclassificeerd met 12A en video's geclassificeerd met 12 bevatten materiaal dat geschikt bevonden is voor 12 jaar en ouder.
-        "4":
+        '4':
           meaning: Personen jonger dan 15 jaar mogen films met klasse 15 niet in de bioscoop bekijken of kopen/huren. Films met klasse 15 zijn niet geschikt voor kinderen jonger dan 15 jaar.
-        "5":
+        '5':
           meaning: Films met klasse 18 zijn geschikt voor volwassenen. Kijkers jonger dan 18 jaar mogen deze films niet bekijken in de bioscoop of kopen/huren. Film met klasse 18 zijn niet geschikt voor kinderen.
-        "6":
+        '6':
           meaning:
       HU:
-        "0":
+        '0':
           meaning: Geen beordelingsinformatie beschikbaar.
-        "1":
+        '1':
           meaning: Zonder leeftijdsbeperking.
-        "2":
+        '2':
           meaning: Programma's aanbevolen voor kinderen. Het is een optionele beoordeling, er is geen verplichting voor omroepen om dit aan te geven.
-        "3":
+        '3':
           meaning: Het programma is geschikt voor kijkers vanaf 6 jaar, bevat geen geweld of seksuele inhoud. Een gele cirkel met het nummer 6 er in geschreven wordt gebruikt voor deze beoordeling.
-        "4":
+        '4':
           meaning: Het programma is geschikt voor kijkers vanaf 12 jaar, kan milde seksuele inhoud of grof taalgebruik bevatten. De meeste films zonder ernstig geweld of seksuele inhoud vallen ook onder deze categorie. Een gele cirkel met het nummer 12 er in geschreven wordt gebruikt voor deze beoordeling.
-        "5":
+        '5':
           meaning: Het programma is geschikt voor kijkers vanaf 16 jaar, kan intensief geweld en seksuele inhoud bevatten. Een gele cirkel met het nummer 16 er in geschreven wordt gebruikt voor deze beoordeling.
-        "6":
-          meaning: "Het programma is geschikt voor volwassen kijkers (18 jaar en ouder), kan expliciet geweld en expliciet seksuele inhoud bevatten. Een rode cirkel met het nummer 18 er in geschreven wordt gebruikt voor deze beoordeling (de rode cirkel werd ook gebruikt tot 2002, zonder een nummer er in). "
+        '6':
+          meaning: 'Het programma is geschikt voor volwassen kijkers (18 jaar en ouder), kan expliciet geweld en expliciet seksuele inhoud bevatten. Een rode cirkel met het nummer 18 er in geschreven wordt gebruikt voor deze beoordeling (de rode cirkel werd ook gebruikt tot 2002, zonder een nummer er in). '
       KR:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning: Deze rating is voor programma's geschikt voor alle leeftijden. Deze programma's zijn meestal speciaal gemaakt voor kinderen / gezinnen.
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       LT:
-        "1":
+        '1':
           meaning: Bedoeld voor kijkers van 7 jaar of ouder.
-        "2":
+        '2':
           meaning: Bedoeld voor kijkers van 14 jaar of ouder en uitgezonden tussen 21 uur 's avonds en 6 uur 's ochtends.
-        "3":
+        '3':
           meaning:
       NL:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Niet schadelijk / Alle leeftijden.
-        "2":
+        '2':
           meaning: Let op met kinderen onder de 6.
-        "3":
+        '3':
           meaning: Let op met kinderen onder de 9.
-        "4":
+        '4':
           meaning: Let op met kinderen onder de 12.
-        "5":
+        '5':
           meaning: Let op met kinderen onder de 16.
       PH:
-        "0":
+        '0':
           meaning: Geen beoordelingsinformatie beschikbaar.
-        "1":
+        '1':
           meaning: Geschikt voor alle leeftijden.
-        "2":
+        '2':
           meaning: Ouderlijk toezicht aanbevolen.
-        "3":
+        '3':
           meaning: Strengere en meer waakzame ouderlijke begeleiding wordt aanbevolen.
-        "4":
+        '4':
           meaning: Televisie programma's die niet voldoen aan de "G", "PG" en "SPG" classificatie zullen worden afgekeurd voor uitzending.
       PT:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Todos (geschikt voor alle leeftijden).
-        "2":
+        '2':
           meaning: Acompanhamento Parental (mogelijk niet geschikt voor kinderen onder de 10 jaar, ouderlijk toezicht wordt geadviseerd).
-        "3":
+        '3':
           meaning: Acompanhamento Parental (mogelijk niet geschikt voor kinderen onder de 12 jaar, ouderlijk toezicht wordt geadviseerd).
-        "4":
+        '4':
           meaning: Niet geschikt voor kinderen onder de 16 jaar, toegang tot deze programma's is afgeschermd met een persoonlijk wachtwoord.
-        "5":
+        '5':
           meaning: Niet geschikt voor kinderen onder de 18 jaar.
       RU:
-        "1":
+        '1':
           meaning: Dit mag bekeken worden door iedere leeftijd.
-        "2":
+        '2':
           meaning: Alleen toegestaan voor kinderen ouder dan 6 jaar.
-        "3":
+        '3':
           meaning: Alleen toegestaan voor kinderen ouder dan 12 jaar.
-        "4":
+        '4':
           meaning: Alleen toegestaan voor personen ouder dan 16 jaar.
-        "5":
+        '5':
           meaning: Alleen toegestaan voor personen ouder dan 18 jaar.
       SK:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: De inhoud is geschikt voor iedereen.
-        "2":
+        '2':
           meaning: De inhoud is geschikt voor kinderen ouder dan 7.
-        "3":
+        '3':
           meaning: De inhoud is geschikt voor kinderen ouder dan 12.
-        "4":
+        '4':
           meaning: De inhoud is geschikt voor kinderen ouder dan 15.
-        "5":
+        '5':
           meaning: De inhoud is alleen geschikt voor volwassenen.
       TH:
-        "0":
+        '0':
           meaning: Sor - Educationele films die iedereen wordt aangeraden om te kijken.
-        "1":
+        '1':
           meaning: Tor - G - Films geschikt voor het algemeen publiek. Geen sex, grof taalgebruik of geweld.
-        "2":
+        '2':
           meaning: Nor 13+ - Alleen toegestaan voor publiek van 13 jaar or ouder.
-        "3":
+        '3':
           meaning: Nor 15+ - Alleen toegestaan voor kinderen ouder dan 15 jaar. Er kan geweld, brutaliteit, onmenselijkheid, slecht taalgebruik of onfatsoenlijke gebaren getoond worden.
-        "4":
+        '4':
           meaning: Nor 18+ - Alleen toegestaan voor publiek van 18 jaar or ouder.
-        "5":
+        '5':
           meaning: Chor 20 - Deze films is verboden voor publiek jonger dan 20 jaar.
-        "6":
+        '6':
           meaning: Verboden.
       US:
-        "0":
+        '0':
           meaning: Geen classificatie-informatie.
-        "1":
+        '1':
           meaning: Dit programma is geschikt voor alle leeftijden.
-        "2":
+        '2':
           meaning: Dit programma is gemaakt voor kinderen van 7 jaar of ouder.
-        "3":
+        '3':
           meaning: De meeste ouders vinden dit een geschikt programma voor alle leeftijden.
-        "4":
+        '4':
           meaning: Dit programma bevat materiaal dat ouders niet geschikt kunnen vinden voor jonge kinderen.
-        "5":
+        '5':
           meaning: Dit programma bevat materiaal dat veel ouders niet geschikt kunnen vinden voor kinderen onder de 14 jaar.
-        "6":
+        '6':
           meaning: Dit programma is speciaal gemaakt voor volwassenen en kan daardoor mogelijk ongeschikt zijn voor kinderen jonger dan 17.
   character:
     Movie: Film
@@ -1751,11 +1751,11 @@ nl-NL:
       - vrijdag
       - zaterdag
     formats:
-      abbrev: "%-d %b %Y"
-      default: "%d/%m/%Y"
-      full_month_day: "%e %B %Y"
-      full_month_year: "%B %Y"
-      short_month_day_year: "%b %d %Y"
+      abbrev: '%-d %b %Y'
+      default: '%d/%m/%Y'
+      full_month_day: '%e %B %Y'
+      full_month_year: '%B %Y'
+      short_month_day_year: '%b %d %Y'
     month_names:
       -
       - januari
@@ -1773,11 +1773,11 @@ nl-NL:
   day: dag
   days:
     one: dag
-    other: "%{count} dagen"
+    other: '%{count} dagen'
   deleted_content:
     entry_deleted: Vermelding verwijderd
     reasons:
-      "1":
+      '1':
         message: |-
           Hallo,
 
@@ -1785,7 +1785,7 @@ nl-NL:
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is een duplicaat
-      "2":
+      '2':
         message: |-
           Hallo,
 
@@ -1793,7 +1793,7 @@ nl-NL:
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit voldoet niet aan onze richtlijnen met betrekking tot de inhoud (amateur, etc...)
-      "3":
+      '3':
         message: |-
           Hallo,
 
@@ -1801,7 +1801,7 @@ nl-NL:
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is een tv-serie
-      "4":
+      '4':
         message: |-
           Hallo,
 
@@ -1809,7 +1809,7 @@ nl-NL:
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is een valse vermelding
-      "5":
+      '5':
         message: |-
           Hallo,
 
@@ -1819,8 +1819,8 @@ nl-NL:
         subject: Dit is spam
     why_deleting: Waarom wil je deze vermelding verwijderen?
   department_credits_count:
-    one: "%{department} (%{count} bijdrage)"
-    other: "%{department} (%{count} bijdragen)"
+    one: '%{department} (%{count} bijdrage)'
+    other: '%{department} (%{count} bijdragen)'
   departments:
     Acting: Acteren
     Actors: Acteurs
@@ -1934,9 +1934,9 @@ nl-NL:
       watch: Volgen
     admin_panel: Administratorpaneel
     back_options:
-      back_to_item_with_arrow: "← Terug naar %{item_title}"
-      back_to_tmdb_with_arrow: "← Terug naar TMDB"
-      back_with_arrow: "← Terug"
+      back_to_item_with_arrow: '← Terug naar %{item_title}'
+      back_to_tmdb_with_arrow: '← Terug naar TMDB'
+      back_with_arrow: '← Terug'
     categories:
       categories: Categorieën
       discuss:
@@ -1955,8 +1955,8 @@ nl-NL:
         support: Ondersteuning
         website_support: Website-ondersteuning
     category:
-      last_reply_with_datetime: "%{date} om %{time}"
-      last_reply_with_datetime_and_username: "%{date} om %{time}<br>door %{username}"
+      last_reply_with_datetime: '%{date} om %{time}'
+      last_reply_with_datetime_and_username: '%{date} om %{time}<br>door %{username}'
     discussion_activity: Discussie-statistieken
     email_notifications:
       email_notifications: E-mailmeldingen
@@ -1964,7 +1964,7 @@ nl-NL:
       unsubscribe: Afmelden
     headers:
       discuss: Bediscussiëren
-      discuss_item: "%{item_title} bediscussiëren"
+      discuss_item: '%{item_title} bediscussiëren'
       lets_chat: Kom chatten
       support: Ondersteuning
       support_title: The Movie Database-ondersteuning
@@ -1980,11 +1980,11 @@ nl-NL:
     no_discussions: Geen discussies.
     pagination:
       post_summary:
-        one: "%{count} antwoord (op pagina %{current_page} van %{total_pages})"
-        other: "%{count} antwoorden (op pagina %{current_page} van %{total_pages})"
+        one: '%{count} antwoord (op pagina %{current_page} van %{total_pages})'
+        other: '%{count} antwoorden (op pagina %{current_page} van %{total_pages})'
       summary:
-        one: "%{count} discussie (op pagina %{current_page} van %{total_pages})"
-        other: "%{count} discussies (op pagina %{current_page} van %{total_pages})"
+        one: '%{count} discussie (op pagina %{current_page} van %{total_pages})'
+        other: '%{count} discussies (op pagina %{current_page} van %{total_pages})'
     post:
       delete: Verwijderen
       edit: Bewerken
@@ -2133,8 +2133,8 @@ nl-NL:
       1fae3:
       1fae4:
   episode_count:
-    one: "%{count} aflevering"
-    other: "%{count} afleveringen"
+    one: '%{count} aflevering'
+    other: '%{count} afleveringen'
   episode_number_name: Aflevering %{episode_number}
   error_pages:
     deleted_account:
@@ -2279,12 +2279,12 @@ nl-NL:
   homepage:
     community:
       benefits_list:
-        "1":
-        "2":
-        "3":
-        "4":
-        "5":
-        "6":
+        '1':
+        '2':
+        '3':
+        '4':
+        '5':
+        '6':
     discussions:
       catch_up_now: Nu inhalen
       discussions: Discussies
@@ -2325,20 +2325,20 @@ nl-NL:
   images:
     confirm_delete: Weet je zeker dat je deze afbeelding wilt verwijderen?
     upload_criteria:
-      "1": Een maximale resolutie van 2000x3000
-      "2": Een minimale resolutie van 500x750
-      "3": Beeldverhouding van 1:1.5 (2:3)
-      "4": Een maximale resolutie van 3840x2160
-      "5": Een minimale resolutie van 400x225
-      "6": Afbeeldingen met een beeldverhouding van 16x9 (1.78:1) en 4:3 worden ondersteund
-      "7": Een minimale resolutie van 1280x720
-      "8": Beeldverhouding van 16x9 (1.78:1)
-      "9": Een minimale resolutie van 300x450
-      backdrops_must_meet: "Achtergronden moeten aan de volgende criteria voldoen:"
-      episode_stills_must_meet: "Afleveringsafbeeldingen moeten aan de volgende criteria voldoen:"
-      headshots_must_meet: "Portretten moeten aan de volgende criteria voldoen:"
-      posters_must_meet: "Posters moeten aan de volgende criteria voldoen:"
-      profile_must_meet: "Profielafbeeldingen moeten aan de volgende criteria voldoen:"
+      '1': Een maximale resolutie van 2000x3000
+      '2': Een minimale resolutie van 500x750
+      '3': Beeldverhouding van 1:1.5 (2:3)
+      '4': Een maximale resolutie van 3840x2160
+      '5': Een minimale resolutie van 400x225
+      '6': Afbeeldingen met een beeldverhouding van 16x9 (1.78:1) en 4:3 worden ondersteund
+      '7': Een minimale resolutie van 1280x720
+      '8': Beeldverhouding van 16x9 (1.78:1)
+      '9': Een minimale resolutie van 300x450
+      backdrops_must_meet: 'Achtergronden moeten aan de volgende criteria voldoen:'
+      episode_stills_must_meet: 'Afleveringsafbeeldingen moeten aan de volgende criteria voldoen:'
+      headshots_must_meet: 'Portretten moeten aan de volgende criteria voldoen:'
+      posters_must_meet: 'Posters moeten aan de volgende criteria voldoen:'
+      profile_must_meet: 'Profielafbeeldingen moeten aan de volgende criteria voldoen:'
       read_guidelines: Zorg ervoor dat je onze bijgewerkte <a href="%{link}" target="_blank" rel="noopener">richtlijnen voor het bijdragen van afbeeldingen</a> doorneemt.
       tip: Als je browser dit ondersteunt, dan kun je een afbeelding verslepen naar het onderstaande vlak. Klik anders op de knop 'Bestanden kiezen...' en kies een afbeelding van je computer.
     uploader:
@@ -2354,11 +2354,11 @@ nl-NL:
       type_headshots: Portretten
       type_posters: Posters
       type_profiles: Profielen
-      validation_header: "%{type} moeten aan de volgende criteria voldoen:"
+      validation_header: '%{type} moeten aan de volgende criteria voldoen:'
   invalid_aspect_ratio: De beeldverhouding is ongeldig.
   item_count:
-    one: "%{count} item"
-    other: "%{count} items"
+    one: '%{count} item'
+    other: '%{count} items'
   item_count_more:
   jobs:
     '"A" Camera Operator': '"A"-cameraman'
@@ -2782,7 +2782,7 @@ nl-NL:
     Hairdresser: Kapper
     Hairstylist: Haarstylist
     Head Carpenter: Hoofdtimmerman
-    Head Decorator: "Hoofd decorateur "
+    Head Decorator: 'Hoofd decorateur '
     Head Designer: Hoofdontwerper
     Head Driver: Hoofdchauffeur
     Head Greensman: Hoofd hovenier
@@ -2936,7 +2936,7 @@ nl-NL:
     Original Series Design:
     Original Story: Origineel verhaal
     Other: Overig
-    Paint Coordinator: "Schildercoördinator "
+    Paint Coordinator: 'Schildercoördinator '
     Painter: Schilder
     Payroll Accountant: Accountant loonstroken
     Petty Cash Buyer:
@@ -3300,17 +3300,17 @@ nl-NL:
       go_to_edit: ga naar beweken
       last_reply: ga naar laatste antwoord
       new_discussion: start nieuwe discussie
-      next_episode: "(rechter pijl) ga naar volgende aflevering"
-      next_page: "(rechter pijl) volgende pagina"
-      next_season: "(rechter pijl) ga naar volgende seizoen"
+      next_episode: '(rechter pijl) ga naar volgende aflevering'
+      next_page: '(rechter pijl) volgende pagina'
+      next_season: '(rechter pijl) ga naar volgende seizoen'
       open_activity: open activiteit
       open_add_image_window: open venster afbeelding toevoegen
       open_profile: open profielmenu
       open_shortcut_window: open sneltoetsen venster
       open_translation_selector: open vertaalmenu
-      previous_episode: "(linker pijl) ga naar vorige aflevering"
-      previous_page: "(linker pijl) vorige pagina"
-      previous_season: "(linker pijl) ga naar vorig seizoen"
+      previous_episode: '(linker pijl) ga naar vorige aflevering'
+      previous_page: '(linker pijl) vorige pagina'
+      previous_season: '(linker pijl) ga naar vorig seizoen'
       reply_to_discussion: beantwoord discussie
       save_form: verstuur formulier
       submit_message: verstuur uw bericht
@@ -3560,10 +3560,10 @@ nl-NL:
     release_date: Verschijningsdatum
     title: Titel
   list_steps:
-    step_1: "Stap 1: Lijstdetails"
-    step_2: "Stap 2: Items toevoegen"
-    step_3: "Stap 3: Afbeelding kiezen"
-    step_4: "Stap 4: Delen"
+    step_1: 'Stap 1: Lijstdetails'
+    step_2: 'Stap 2: Items toevoegen'
+    step_3: 'Stap 3: Afbeelding kiezen'
+    step_4: 'Stap 4: Delen'
   login:
     login_text_1: Als je de bewerk- en beoordelingsfuncties van TMDB wilt gebruiken en persoonlijke aanbevelingen wilt krijgen, dan moet je inloggen op je account. Als je geen account hebt, dan kun je je gratis en eenvoudig registreren. <a href="%{signup_link}">Klik hier</a> om aan de slag te gaan.
     login_text_2: Als je je geregistreerd hebt maar geen verificatie-e-mail hebt ontvangen, <a href="%{verification_link}">klik dan hier</a> om deze opnieuw te versturen.
@@ -3595,8 +3595,8 @@ nl-NL:
         language: Taal
         user: Gebruiker
       number_of_changes:
-        one: "%{count} wijziging"
-        other: "%{count} wijzigingen"
+        one: '%{count} wijziging'
+        other: '%{count} wijzigingen'
       view_weekly_leaderboard: Weekklassement weergeven
     character:
       edit:
@@ -3642,17 +3642,17 @@ nl-NL:
           writer: Schrijver
         summary:
       scale:
-        "0": We moeten ergens beginnen...
-        "1": Hé, het is een begin.
-        "10": Ja! Ziet er goed uit!
-        "2": We komen er wel.
-        "3": Rome is niet in één dag gebouwd...
-        "4": Er zit geen 'ik' in team...
-        "5": Moet nog wat aan gewerkt worden.
-        "6": We zijn zo dichtbij, en tóch zo ver weg.
-        "7": Nog een klein beetje...
-        "8": Nog even! We zijn er bijna.
-        "9": Bijna klaar...
+        '0': We moeten ergens beginnen...
+        '1': Hé, het is een begin.
+        '10': Ja! Ziet er goed uit!
+        '2': We komen er wel.
+        '3': Rome is niet in één dag gebouwd...
+        '4': Er zit geen 'ik' in team...
+        '5': Moet nog wat aan gewerkt worden.
+        '6': We zijn zo dichtbij, en tóch zo ver weg.
+        '7': Nog een klein beetje...
+        '8': Nog even! We zijn er bijna.
+        '9': Bijna klaar...
     crew_credits:
       crew_credits:
       select:
@@ -3670,7 +3670,7 @@ nl-NL:
       lock_existing_cast: Huidige cast vergrendelen
       lock_existing_crew: Huidige crew vergrendelen
       logos: Logo's
-      page_title: "%{name} bewerken"
+      page_title: '%{name} bewerken'
       placeholders:
         country: Selecteer een land...
         create_person:
@@ -3720,8 +3720,8 @@ nl-NL:
       visit_twitter: Twitter bezoeken
       visit_youtube: YouTube bezoeken
     genre:
-      movie_page_title: "%{name} films"
-      tv_page_title: "%{name} tv-series"
+      movie_page_title: '%{name} films'
+      tv_page_title: '%{name} tv-series'
     images:
       format: Formaat
       no_backdrop_stills: Er zijn geen opnames toegevoegd aan dit item.
@@ -3817,7 +3817,7 @@ nl-NL:
         errors:
           invalid_unicode: Ongeldig(e) teken(s) gebruikt.
           leading_whitespace:
-          locked_name: "<strong>%{name} (%{language})</strong> is vergrendeld."
+          locked_name: '<strong>%{name} (%{language})</strong> is vergrendeld.'
           name_required:
           numbers:
           primary_name_migration:
@@ -3839,14 +3839,14 @@ nl-NL:
         tv: TV
         tv_shows: TV-series
       years_old:
-        one: "%{count} jaar oud"
-        other: "%{count} jaar oud"
+        one: '%{count} jaar oud'
+        other: '%{count} jaar oud'
     rating:
       not_rateable:
       rated_with_rating: Beoordeeld %{value}
       rating_count:
-        one: "%{count} beoordeling"
-        other: "%{count} beoordelingen"
+        one: '%{count} beoordeling'
+        other: '%{count} beoordelingen'
       removed:
       score_breakdown:
       score_distribution:
@@ -3924,7 +3924,7 @@ nl-NL:
         mid_season:
       episode_selector:
         current_episode: Aflevering %{season_number}x%{episode_number}
-        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        episode: '%{episode_name} (%{season_number}x%{episode_number})'
         next_episode: Volgende aflevering
         previous_episode: Vorige aflevering
     tv_season:
@@ -3968,19 +3968,19 @@ nl-NL:
           group: Groep
           messages:
             episodes_added:
-              one: "%{count} aflevering toegevoegd!"
-              other: "%{count} afleveringen toegevoegd!"
+              one: '%{count} aflevering toegevoegd!'
+              other: '%{count} afleveringen toegevoegd!'
           name: Groepsnaam
           no_records: Er zijn geen afleveringsgroepen toegevoegd.
           type: Soort
           types:
-            "1": Oorspronkelijk uitgezonden op
-            "2": Precies
-            "3": DVD
-            "4": Digitaal
-            "5": Verhalend
-            "6": Productie
-            "7": TV
+            '1': Oorspronkelijk uitgezonden op
+            '2': Precies
+            '3': DVD
+            '4': Digitaal
+            '5': Verhalend
+            '6': Productie
+            '7': TV
         networks:
           no_records: Er zijn geen netwerken toegevoegd.
           none_found: Geen overeenkomende netwerken gevonden. Wil je er één creëren?
@@ -3995,8 +3995,8 @@ nl-NL:
       episode_groups:
         groups:
           count:
-            one: "%{count} groep"
-            other: "%{count} groepen"
+            one: '%{count} groep'
+            other: '%{count} groepen'
         original_air_date: Oorspronkelijk uitgezonden op
       networks:
         one: Netwerk
@@ -4061,15 +4061,15 @@ nl-NL:
       to: aan
     no_messages: Geen berichten
     notifications:
-      new_message: "%{username} heeft jouw een bericht gestuurd"
+      new_message: '%{username} heeft jouw een bericht gestuurd'
     number_of_messages:
-      one: "%{count} bericht"
-      other: "%{count} berichten"
+      one: '%{count} bericht'
+      other: '%{count} berichten'
     options:
       admin: Administrator
       archive: Archief
       settings: Instellingen
-      viewed_at: "%{time_ago} bekeken"
+      viewed_at: '%{time_ago} bekeken'
     placeholders:
       no_conversation_selected:
         create: Je kunt ook een nieuw gesprek starten door <a href="%{link}">hier te klikken</a>.
@@ -4090,9 +4090,17 @@ nl-NL:
     translate: Vertaal
   monetize:
     create_api: API aanmaken
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     one: maand
-    other: "%{count} maanden"
+    other: '%{count} maanden'
   navigation:
     discover:
       discover: Ontdekken
@@ -4124,10 +4132,10 @@ nl-NL:
   no_episode_images: Er zijn geen afleveringsafbeeldingen toegevoegd.
   no_favorite_movies:
     current_user: Je hebt geen favoriete films toegevoegd.
-    public: "%{username} heeft geen favoriete films."
+    public: '%{username} heeft geen favoriete films.'
   no_favorite_tv_shows:
     current_user: Je hebt geen favoriete tv-series toegevoegd.
-    public: "%{username} heeft geen favoriete tv-series."
+    public: '%{username} heeft geen favoriete tv-series.'
   no_genres: Er zijn geen genres toegevoegd.
   no_guest_stars: Er zijn geen gastrollen toegevoegd.
   no_keyword_search_results: Er zijn geen trefwoorden die overeenkomen met je zoekopdracht.
@@ -4142,10 +4150,10 @@ nl-NL:
     tv: Om persoonlijke tv-serie-aanbevelingen te krijgen, moet je je favoriete tv-series toevoegen. Daarna zal je waarschijnlijk merken dat vele van de tv-series die we aanbevelen, series zijn die je al gezien hebt. Beoordeel ze om ze eruit te filteren! Na het beoordelen filteren we ze er voortaan automatisch uit.
   no_rated_movies:
     current_user: Je hebt geen films beoordeeld.
-    public: "%{username} heeft geen films beoordeeld."
+    public: '%{username} heeft geen films beoordeeld.'
   no_rated_tv_shows:
     current_user: Je hebt geen tv-series beoordeeld.
-    public: "%{username} heeft geen tv-series beoordeeld."
+    public: '%{username} heeft geen tv-series beoordeeld.'
   no_recommendations:
     movie: We hebben niet genoeg gegevens om films aan te bevelen op basis van %{title}. Je kunt helpen door films te beoordelen die je al gezien hebt.
     tv_show: We hebben niet genoeg gegevens om tv-series aan te bevelen op basis van %{title}. Je kunt helpen door tv-series te beoordelen die je al gezien hebt.
@@ -4159,7 +4167,7 @@ nl-NL:
     public: Deze watchlist is leeg.
   no_writer: Er is geen schrijver toegevoegd.
   not_translated:
-    logged_in: "%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Als je door wilt gaan en deze vertaling toe wilt voegen, klik dan op de onderstaande knop."
+    logged_in: '%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Als je door wilt gaan en deze vertaling toe wilt voegen, klik dan op de onderstaande knop.'
     public: '%{page_title} is nog niet vertaald naar het <strong>%{requested_i18n} (%{requested_language_text})</strong>. Je kunt deze vertaling toevoegen door een account <a href="%{signup_link}">te registreren</a> en <a href="%{login_link}">in te loggen</a>.'
   notifications:
     caught_up: Je bent helemaal bij.
@@ -4173,22 +4181,22 @@ nl-NL:
   number:
     currency:
       format:
-        delimiter: "."
-        format: "%n %u"
+        delimiter: '.'
+        format: '%n %u'
         precision: 2
-        separator: ","
+        separator: ','
         significant: false
         strip_insignificant_zeros: false
-        unit: "€"
+        unit: '€'
     format:
-      delimiter: "."
+      delimiter: '.'
       precision: 3
-      separator: ","
+      separator: ','
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: "%n %u"
+        format: '%n %u'
         units:
           billion: miljard
           million: miljoen
@@ -4210,25 +4218,25 @@ nl-NL:
     percentage:
       format:
         delimiter:
-        format: "%n%"
+        format: '%n%'
     precision:
       format:
         delimiter:
   number_of_edits:
-    one: "%{count} bewerking"
-    other: "%{count} bewerkingen"
+    one: '%{count} bewerking'
+    other: '%{count} bewerkingen'
   number_of_items:
-    one: "%{count} item"
-    other: "%{count} items"
+    one: '%{count} item'
+    other: '%{count} items'
   number_of_results:
-    one: "%{count} resultaat"
-    other: "%{count} resultaten"
+    one: '%{count} resultaat'
+    other: '%{count} resultaten'
   number_of_translations:
-    one: "%{count} vertaling"
-    other: "%{count} vertalingen"
+    one: '%{count} vertaling'
+    other: '%{count} vertalingen'
   number_of_votes:
-    one: "%{count} stem"
-    other: "%{count} stemmen"
+    one: '%{count} stem'
+    other: '%{count} stemmen'
   ott:
     available_sentences:
       ads: bekijk met advertenties
@@ -4236,11 +4244,11 @@ nl-NL:
       flatrate: stream
       free: bekijk gratis
       rent: huren
-      sentence: "%{title} is enkel beschikbaar om te %{available_types} in %{country}."
+      sentence: '%{title} is enkel beschikbaar om te %{available_types} in %{country}.'
     available_snippet:
       flatrate: Nu aan het streamen
       rent_or_buy: Beschikbaar om te huren of kopen
-      summary_sentence: "%{available_snippet} op %{service_name}"
+      summary_sentence: '%{available_snippet} op %{service_name}'
     description: JustWatch maakt het gemakkelijk om te ontdekken waar je je favoriete films & series online legaal kan kijken. Bezoek {justwatch_link} voor meer informatie.
     filters:
       4k: 4K
@@ -4265,9 +4273,9 @@ nl-NL:
       sd: Geen SD aanbieders gevonden.
     page_title:
     seasons:
-      many: "%{count} seizoenen"
-      one: "%{count} seizoen"
-      other: "%{count} seizoenen"
+      many: '%{count} seizoenen'
+      one: '%{count} seizoen'
+      other: '%{count} seizoenen'
     view_offers: Bekijk aanbieders.
     watch_now: Kijk nu
     watch_on:
@@ -4283,11 +4291,11 @@ nl-NL:
     next_page: Volgende pagina
     next_page_with_arrow: Volgende pagina →
     previous_page: Vorige pagina
-    previous_page_with_arrow: "← Vorige pagina"
+    previous_page_with_arrow: '← Vorige pagina'
     show_more: Meer tonen
   part_of_collection: Onderdeel van %{collection_name}
   password:
-    4_chars_minimum: "(minimaal 4 tekens)"
+    4_chars_minimum: '(minimaal 4 tekens)'
     confirm_new_password: Nieuw wachtwoord bevestigen
     enter_to_continue: Huidige wachtwoord invoeren om door te gaan...
     new_password: Nieuw wachtwoord
@@ -4297,7 +4305,7 @@ nl-NL:
   person:
     credits:
       as_character: als %{character}
-      as_job: "— %{job}"
+      as_job: '— %{job}'
   placeholder:
     primary_character_name:
   report:
@@ -4478,7 +4486,7 @@ nl-NL:
         what_is_your_email: Wat is je e-mail?
       page_title: Mijn profiel
       reset_password_dialog_text: Door deze aanvraag te bevestigen wordt er een e-mail aan je verstuurd met instructies om je wachtwoord te herstellen. Weet je zeker dat je dit wilt doen?
-      reset_password_dialog_text2: "<strong>Let op:</strong> als je je wachtwoord opnieuw instelt, word je uitgelogd bij alle huidige sessies."
+      reset_password_dialog_text2: '<strong>Let op:</strong> als je je wachtwoord opnieuw instelt, word je uitgelogd bij alle huidige sessies.'
     sessions:
       api:
         connected_apps: Gekoppelde apps
@@ -4525,7 +4533,7 @@ nl-NL:
     social:
       connected_table:
         action: Actie
-        auto_sharing: "Automatisch delen:"
+        auto_sharing: 'Automatisch delen:'
         connect: Koppelen
         connected_to: Gekoppeld aan
         info: Informatie
@@ -4536,7 +4544,7 @@ nl-NL:
       page_title: Mijn sociale instellingen
       sharing_message_hint: Zodra ik een item deel op Twitter of Facebook...
       social_settings: Sociale instellingen
-      supported_template_values: "Ondersteunde sjabloonwaarden:"
+      supported_template_values: 'Ondersteunde sjabloonwaarden:'
     streaming_services:
       page_title: Mijn streamingdiensten
       streaming_services: Streamingdiensten
@@ -4567,17 +4575,17 @@ nl-NL:
   success_sharing: Je bericht is gedeeld.
   support:
     array:
-      last_word_connector: " en "
-      two_words_connector: " en "
-      words_connector: ", "
+      last_word_connector: ' en '
+      two_words_connector: ' en '
+      words_connector: ', '
   the:
   time:
     am:
     formats:
-      12hour_minutes: "%l:%M %p"
+      12hour_minutes: '%l:%M %p'
       default:
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
+      long: '%B %d, %Y %I:%M %p'
+      short: '%d %b %I:%M %p'
     pm:
     units:
       hours: Uren
@@ -4612,17 +4620,17 @@ nl-NL:
       label: Beoordeling
       prompt:
       tooltip:
-        "0":
-        "10":
-        "100":
-        "20":
-        "30":
-        "40":
-        "50":
-        "60":
-        "70":
-        "80":
-        "90":
+        '0':
+        '10':
+        '100':
+        '20':
+        '30':
+        '40':
+        '50':
+        '60':
+        '70':
+        '80':
+        '90':
     tone:
       label: Toon
       no_results: Toon bestaat niet.
@@ -4646,10 +4654,10 @@ nl-NL:
         sort: Sorteren
       type: Type
     number_of_videos:
-      one: "%{count} video"
+      one: '%{count} video'
       other: "%{count} video's"
     official_channel: Officieel kanaal
-    page_title: "%{name} videokanaal"
+    page_title: '%{name} videokanaal'
     popular: Populair
     refresh_from_youtube: Vernieuwen van YouTube
     types:
@@ -4674,5 +4682,5 @@ nl-NL:
   view all: alles tonen
   will_paginate:
     next_label: Volgende →
-    page_gap: "…"
-    previous_label: "← Vorige"
+    page_gap: '…'
+    previous_label: '← Vorige'

@@ -4206,6 +4206,14 @@ lt-LT:
     translate: Išversti
   monetize:
     create_api:
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
   month:
     few: "%{count} mėnesius"
     one: mėnesį

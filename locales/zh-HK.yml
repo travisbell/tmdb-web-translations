@@ -540,7 +540,7 @@ zh-HK:
         tv: 電視
       page_title:
         page_owner: 我的近期活動
-        public: "%{username} 的近期活動"
+        public: '%{username} 的近期活動'
       table:
         action: 動作
         edit: 編輯
@@ -554,7 +554,7 @@ zh-HK:
       not_watching: 您尚未參與任何討論
       page_title:
         page_owner: 我的討論
-        public: "%{username} 的討論"
+        public: '%{username} 的討論'
     events:
       all: 全部
       emails:
@@ -569,8 +569,8 @@ zh-HK:
             Unsubscribed: 取消訂閱
             status: 狀態
         number_of_items:
-          one: "%{count} 封電子郵件"
-          other: "%{count} 封電子郵件"
+          one: '%{count} 封電子郵件'
+          other: '%{count} 封電子郵件'
       events: 事件
       notifications:
         filters:
@@ -583,8 +583,8 @@ zh-HK:
             type: 類型
         notifications: 通知
         number_of_items:
-          one: "%{count} 則通知"
-          other: "%{count} 則通知"
+          one: '%{count} 則通知'
+          other: '%{count} 則通知'
       page_title:
         recent_events: 最近事件
       recent: 最近
@@ -595,10 +595,10 @@ zh-HK:
     favorites:
       my_favorites:
         logged_in: 我的最愛
-        public: "%{username} 的最愛"
+        public: '%{username} 的最愛'
       page_title:
         page_owner: 我的最愛
-        public: "%{username} 的最愛"
+        public: '%{username} 的最愛'
     filter_by: 篩選：
     filters:
       air_date: 播出日期
@@ -620,13 +620,13 @@ zh-HK:
       last_updated: 更新
       my_lists:
         logged_in: 我的收藏清單
-        public: "%{username}的收藏清單"
+        public: '%{username}的收藏清單'
       no_lists:
         logged_in: 您尚未建立收藏清單
-        public: "%{username}沒有可公開分享的收藏清單。"
+        public: '%{username}沒有可公開分享的收藏清單。'
       page_title:
         page_owner: 我的收藏清單
-        public: "%{username}的收藏清單"
+        public: '%{username}的收藏清單'
     member_since: 會員加入於 %{date}
     navigation:
       discussions: 討論
@@ -643,12 +643,12 @@ zh-HK:
       30_day_activity: 30天內的活動
       empty_recent_activity:
         logged_in: 您近期內無編輯任何項目。
-        public: "%{username} 近期內無編輯任何項目。"
+        public: '%{username} 近期內無編輯任何項目。'
       empty_upcoming_watchlist:
         logged_in: 您的待看清單中沒有即將上映的電影。
       empty_watched_genres:
         logged_in: 您並未紀錄任何電影或電視節目。
-        public: "%{username} 並未紀錄任何電影及電視節目。"
+        public: '%{username} 並未紀錄任何電影及電視節目。'
       goto_discussions: 前往討論
       goto_watchlist: 前往待看清單
       most_watched_genres: 類型分佈
@@ -660,17 +660,17 @@ zh-HK:
       upcoming_watchlist: 待看清單中即將上映
     page_title:
       page_owner: 我的個人資料
-      public: "%{username} 的資料"
+      public: '%{username} 的資料'
     ratings_reviews:
       my_ratings:
         logged_in: 我的評分
-        public: "%{username} 的評分"
+        public: '%{username} 的評分'
       my_reviews:
         logged_in: 我的評論
-        public: "%{username} 的評論"
+        public: '%{username} 的評論'
       page_title:
         page_owner: 我的評分及評論
-        public: "%{username} 的評分及評論"
+        public: '%{username} 的評分及評論'
       ratings_by_year: 按年份評分統計
     recommendations:
       my_recommendations: 我的推薦
@@ -691,18 +691,18 @@ zh-HK:
     watchlist:
       my_watchlist:
         logged_in: 我的待看清單
-        public: "%{username} 的待看清單"
+        public: '%{username} 的待看清單'
       next_month: 下個月
       no_upcoming_movies: 您的待看清單中有%{count}筆資料，但沒有即將上映的電影。
       no_upcoming_tv_shows: 您的待看清單中有%{count}筆資料，但沒有即將上映的電視節目。
       page_title:
         page_owner: 我的待看清單
-        public: "%{username}的待看清單"
+        public: '%{username}的待看清單'
       this_month: 本月
       this_week: 本週
       view_them: 檢視待看清單。
   add_to_list: 新增 %{media_title} 至收藏清單...
-  already_translated_in: "%{page_title} 已被翻譯成以下語言..."
+  already_translated_in: '%{page_title} 已被翻譯成以下語言...'
   api_for_business:
     api_for_business:
     form:
@@ -733,13 +733,13 @@ zh-HK:
       message: 需要一個請求權杖才能驗證用戶帳戶。
       title: 缺少請求權杖
     request_token_approval:
-      message: "{{APP}} 對您提出讀取/改寫您資料的請求。若您想要在 TMDB 外維護列表或對電影作評價，則必須授權此請求。"
+      message: '{{APP}} 對您提出讀取/改寫您資料的請求。若您想要在 TMDB 外維護列表或對電影作評價，則必須授權此請求。'
     statuses:
       completed:
         message: 您已授權 <strong>%{application_name}</strong>。您可隨時回到帳戶設定中的「連結應用程式」頁取消此授權。
         name: 授權認證
       denied:
-        message: "<p>您已拒絕存取<strong>%{application_name}</strong>。您可重新進行認證流程已更改授權內容。</p>"
+        message: '<p>您已拒絕存取<strong>%{application_name}</strong>。您可重新進行認證流程已更改授權內容。</p>'
         name: 授權拒絕
       invalid_request_token:
         message: 您提交的存取權杖無效。請試著產生新的存取權杖以解決問題，若問題無法解決則請向開發人員聯絡。
@@ -958,15 +958,15 @@ zh-HK:
           meaning: 禁止商業販售。
       FR:
         '1':
-          meaning: "（Tous publics）對所有觀眾有效。"
+          meaning: '（Tous publics）對所有觀眾有效。'
         '2':
-          meaning: "（不推薦10歲以下兒童觀賞）不推薦10歲以下兒童觀賞（此為電視分級制度）。"
+          meaning: '（不推薦10歲以下兒童觀賞）不推薦10歲以下兒童觀賞（此為電視分級制度）。'
         '3':
-          meaning: "（不推薦12歲以下兒童觀賞）不適合12歲以下兒童觀賞或禁止12歲以下在電影院觀賞。"
+          meaning: '（不推薦12歲以下兒童觀賞）不適合12歲以下兒童觀賞或禁止12歲以下在電影院觀賞。'
         '4':
-          meaning: "（不推薦16歲以下人士觀賞）不適合16歲以下人士觀賞或禁止16歲以下的人士在電影院觀賞。"
+          meaning: '（不推薦16歲以下人士觀賞）不適合16歲以下人士觀賞或禁止16歲以下的人士在電影院觀賞。'
         '5':
-          meaning: "（限制級）不適合18歲以下人士觀賞或禁止18歲以下的人士在電影院觀賞。"
+          meaning: '（限制級）不適合18歲以下人士觀賞或禁止18歲以下的人士在電影院觀賞。'
       GB:
         '1':
           meaning: 適合於各年齡層。
@@ -1705,57 +1705,57 @@ zh-HK:
   create_api:
   date:
     abbr_day_names:
-    - 週日
-    - 週一
-    - 週二
-    - 週三
-    - 週四
-    - 週五
-    - 週六
+      - 週日
+      - 週一
+      - 週二
+      - 週三
+      - 週四
+      - 週五
+      - 週六
     abbr_month_names:
-    -
-    - 一月
-    - 二月
-    - 三月
-    - 四月
-    - 五月
-    - 六月
-    - 七月
-    - 八月
-    - 九月
-    - 十月
-    - 十一月
-    - 十二月
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
     day_names:
-    - 星期日
-    - 星期一
-    - 星期二
-    - 星期三
-    - 星期四
-    - 星期五
-    - 星期六
+      - 星期日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
     formats:
-      abbrev: "%Y 年 %m 月 %d 日"
-      default: "%Y/%m/%d"
-      full_month_day: "%Y 年 %B %e 日"
-      full_month_year: "%B %Y"
-      short_month_day_year: "%b %d日 %Y年"
+      abbrev: '%Y 年 %m 月 %d 日'
+      default: '%Y/%m/%d'
+      full_month_day: '%Y 年 %B %e 日'
+      full_month_year: '%B %Y'
+      short_month_day_year: '%b %d日 %Y年'
     month_names:
-    -
-    - 一月
-    - 二月
-    - 三月
-    - 四月
-    - 五月
-    - 六月
-    - 七月
-    - 八月
-    - 九月
-    - 十月
-    - 十一月
-    - 十二月
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
   day: 日
-  days: "%{count} 天"
+  days: '%{count} 天'
   deleted_content:
     entry_deleted: 内容已删除
     reasons:
@@ -1800,7 +1800,7 @@ zh-HK:
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 這是垃圾內容
     why_deleting: 你為什麼要刪除這個條目？
-  department_credits_count: "%{department} (%{count} 信用分數)"
+  department_credits_count: '%{department} (%{count} 信用分數)'
   departments:
     Acting: 演出
     Actors: 演員
@@ -1914,9 +1914,9 @@ zh-HK:
       watch: 檢視
     admin_panel: 控制面板
     back_options:
-      back_to_item_with_arrow: "← 回到%{item_title}"
-      back_to_tmdb_with_arrow: "← 回到 TMDB"
-      back_with_arrow: "← 返回"
+      back_to_item_with_arrow: '← 回到%{item_title}'
+      back_to_tmdb_with_arrow: '← 回到 TMDB'
+      back_with_arrow: '← 返回'
     categories:
       categories: 類別
       discuss:
@@ -1936,7 +1936,7 @@ zh-HK:
         website_support: 網站支援
     category:
       last_reply_with_datetime: 於%{time} %{date}
-      last_reply_with_datetime_and_username: "%{username}於<br>%{date} %{time} 時發言"
+      last_reply_with_datetime_and_username: '%{username}於<br>%{date} %{time} 時發言'
     discussion_activity: 討論串動態
     email_notifications:
       email_notifications: 郵件通知
@@ -1944,7 +1944,7 @@ zh-HK:
       unsubscribe: 取消訂閱
     headers:
       discuss: 討論
-      discuss_item: "%{item_title}的討論"
+      discuss_item: '%{item_title}的討論'
       lets_chat: 開始聊天吧
       support: 支援
       support_title: TMDB 支援
@@ -1977,11 +1977,11 @@ zh-HK:
         mark_as_spam: 請確認您要將此討論串設定為垃圾評論嗎？此動作將會自動刪除此討論且無法回復，標記為垃圾討論將有助於訓練我們的偵測系統。
         report_violation: 請確認您要檢舉此用戶違反了網站規定： <a href="/documentation/community/guidelines" target="_blank" rel="noopener">community guidelines</a>
         unhide_discussion: 按下確認後，此討論將被顯示。
-      posted_by_with_datetime: "%{username} 於 %{date} %{time} 時發布"
+      posted_by_with_datetime: '%{username} 於 %{date} %{time} 時發布'
       quote: 引用
       reopen_reply: 重新開放並回覆
       reply: 回覆
-      reply_by: "%{username} 的回覆"
+      reply_by: '%{username} 的回覆'
       reply_on_datetime: 於 %{time} %{date}
       report: 報告
       unhide: 取消隱藏
@@ -2068,7 +2068,7 @@ zh-HK:
     new_email_address: 新電郵地址
     sent_verification_email: 我們已經傳送一封電子郵件到 %{email_address} 做驗証。請檢查您的收件夾 (及垃圾郵件夾) 以取得此郵件。
     unsubscribe:
-      sad_to_go: "%{username}，我們很遺憾你的離開！"
+      sad_to_go: '%{username}，我們很遺憾你的離開！'
       subscription_changed: 你已更新訂閱，現在可透過此<a href="%{account_link}">通知設定</a>頁面編輯帳戶通知設定。
       unsubscribe: 取消訂閱
       unsubscribed: 你已<strong>取消訂閱</strong>。如果你是錯誤取消訂閱，可透過<a href="%{account_link}">通知設定</a>頁面重新訂閱。
@@ -2108,7 +2108,7 @@ zh-HK:
       1fae2:
       1fae3:
       1fae4:
-  episode_count: "%{count} 集"
+  episode_count: '%{count} 集'
   episode_number_name: 第 %{episode_number} 集
   error_pages:
     deleted_account:
@@ -2330,7 +2330,7 @@ zh-HK:
       type_profiles:
       validation_header:
   invalid_aspect_ratio: 比例不正確
-  item_count: "%{count} 個項目"
+  item_count: '%{count} 個項目'
   item_count_more:
   jobs:
     '"A" Camera Operator': '"A" 攝影機操作員'
@@ -3272,17 +3272,17 @@ zh-HK:
       go_to_edit: 移動至編輯頁
       last_reply: 移動至最後的回覆
       new_discussion: 建立新討論
-      next_episode: "（右箭頭）下一集"
-      next_page: "（右箭頭）下一頁"
-      next_season: "（右箭頭）下一季"
+      next_episode: '（右箭頭）下一集'
+      next_page: '（右箭頭）下一頁'
+      next_season: '（右箭頭）下一季'
       open_activity: 開啟活動頁
       open_add_image_window: 開啟新增圖片視窗
       open_profile: 開啟個人檔案選單
       open_shortcut_window: 開啟快捷鍵視窗
       open_translation_selector: 開啟語言選取器
-      previous_episode: "（左箭頭）上一集"
-      previous_page: "（左箭頭）上一頁"
-      previous_season: "（左箭頭）上一季"
+      previous_episode: '（左箭頭）上一集'
+      previous_page: '（左箭頭）上一頁'
+      previous_season: '（左箭頭）上一季'
       reply_to_discussion: 回覆討論
       save_form: 提交
       submit_message: 寄出訊息
@@ -3564,8 +3564,8 @@ zh-HK:
         language: 語言
         user: 用戶
       number_of_changes:
-        one: "%{count} 項變更"
-        other: "%{count} 項變更"
+        one: '%{count} 項變更'
+        other: '%{count} 項變更'
       view_weekly_leaderboard: 瀏覽本週排行榜
     character:
       edit:
@@ -3689,8 +3689,8 @@ zh-HK:
       visit_twitter: 造訪 Twitter
       visit_youtube:
     genre:
-      movie_page_title: "%{name} 的電影"
-      tv_page_title: "%{name} 的電視節目"
+      movie_page_title: '%{name} 的電影'
+      tv_page_title: '%{name} 的電視節目'
     images:
       format: 格式
       no_backdrop_stills: 此項目沒有背景圖片
@@ -3803,7 +3803,7 @@ zh-HK:
         movies: 電影
         tv: 電視
         tv_shows: 電視節目
-      years_old: "%{count}  歲"
+      years_old: '%{count}  歲'
     rating:
       not_rateable:
       rated_with_rating: 評分 %{value}
@@ -3840,7 +3840,7 @@ zh-HK:
     social_panel:
       discussions:
         currently_subscribed: 您已開始訂閱，當任何人發布訊息時您將會收到通知
-        no_discussions: "%{item_title} 內沒有相關的討論。請登入後加入討論吧！"
+        no_discussions: '%{item_title} 內沒有相關的討論。請登入後加入討論吧！'
         unsubscribe_me: 誰取消訂閱我
         want_to_be_notified: 當有任何人發布訊息時，您想要獲得即時通知嗎？
         yes_notify_me: 好的，請通知我！
@@ -3886,8 +3886,8 @@ zh-HK:
         finale:
         mid_season:
       episode_selector:
-        current_episode: "%{season_number}x%{episode_number} 集"
-        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        current_episode: '%{season_number}x%{episode_number} 集'
+        episode: '%{episode_name} (%{season_number}x%{episode_number})'
         next_episode: 下一集
         previous_episode: 之前的影集
     tv_season:
@@ -3955,7 +3955,7 @@ zh-HK:
           no_records: 沒有添加每季的資料
       episode_groups:
         groups:
-          count: "%{count} 個群組"
+          count: '%{count} 個群組'
         original_air_date: 原定上映日期
       networks: 電視網
       primary_characters:
@@ -4018,15 +4018,15 @@ zh-HK:
       to: 收件人
     no_messages: 沒有訊息
     notifications:
-      new_message: "%{username} 寄給你一封新訊息"
+      new_message: '%{username} 寄給你一封新訊息'
     number_of_messages:
-      one: "%{count} 則訊息"
-      other: "%{count} 則訊息"
+      one: '%{count} 則訊息'
+      other: '%{count} 則訊息'
     options:
       admin: 管理
       archive: 封存
       settings: 設定
-      viewed_at: "%{time_ago} 前已檢視"
+      viewed_at: '%{time_ago} 前已檢視'
     placeholders:
       no_conversation_selected:
         create: 你可按<a href="%{link}">此處</a>來建立新會話。
@@ -4047,7 +4047,15 @@ zh-HK:
     translate: 翻譯
   monetize:
     create_api:
-  month: "%{count}月"
+  mongoid:
+    errors:
+      models:
+        external_id_map:
+          attributes:
+            external_id:
+              format: '%{message}'
+              blocked_words:
+  month: '%{count}月'
   navigation:
     discover:
       discover: 探索
@@ -4079,10 +4087,10 @@ zh-HK:
   no_episode_images: 目前還沒有加入任何影集圖片
   no_favorite_movies:
     current_user: 您尚未加入任何喜愛的電影。
-    public: "%{username} 沒有任何喜愛的電影。"
+    public: '%{username} 沒有任何喜愛的電影。'
   no_favorite_tv_shows:
     current_user: 您尚未加入任何喜愛的電視節目。
-    public: "%{username} 沒有任何喜愛的電視節目。"
+    public: '%{username} 沒有任何喜愛的電視節目。'
   no_genres: 目前還沒有任何電影類型的資料。
   no_guest_stars: 目前沒有關於客串演員的資料。
   no_keyword_search_results: 沒有任何符合關鍵字的資料。
@@ -4097,10 +4105,10 @@ zh-HK:
     tv: 您可透過增加有興趣的電視節目來獲得針對您個人的電視節目推薦。同時您可能已經注意到我們推薦過很多您已經看過的電視節目，請對這些電視節目評分，未來我們將根據您的喜好來做過濾！
   no_rated_movies:
     current_user: 您尚未對任何電影作評分。
-    public: "%{username} 尚未對任何電影作評分。"
+    public: '%{username} 尚未對任何電影作評分。'
   no_rated_tv_shows:
     current_user: 您尚未對任何電視節目作評分。
-    public: "%{username} 尚未對任何電視節目作評分。"
+    public: '%{username} 尚未對任何電視節目作評分。'
   no_recommendations:
     movie: 我們沒有關於%{title}的電影推薦，您可對此電影評分以推薦本電影。
     tv_show: 我們沒有關於%{title}的電視節目推薦，您可對此節目評分以推薦本影集。
@@ -4128,22 +4136,22 @@ zh-HK:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
+        delimiter: ','
+        format: '%u%n'
         precision: 2
-        separator: "."
+        separator: '.'
         significant: false
         strip_insignificant_zeros: false
         unit: HK$
     format:
-      delimiter: ","
+      delimiter: ','
       precision: 3
-      separator: "."
+      separator: '.'
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: "%n %u"
+        format: '%n %u'
         units:
           billion: 十億
           million: 百萬
@@ -4165,15 +4173,15 @@ zh-HK:
     percentage:
       format:
         delimiter:
-        format: "%n%"
+        format: '%n%'
     precision:
       format:
         delimiter:
-  number_of_edits: "%{count}次"
-  number_of_items: "%{count} 個項目"
-  number_of_results: "%{count} 個結果"
-  number_of_translations: "%{count} 個翻譯"
-  number_of_votes: "%{count} 個投票"
+  number_of_edits: '%{count}次'
+  number_of_items: '%{count} 個項目'
+  number_of_results: '%{count} 個結果'
+  number_of_translations: '%{count} 個翻譯'
+  number_of_votes: '%{count} 個投票'
   ott:
     available_sentences:
       ads: 帶廣告觀賞
@@ -4181,7 +4189,7 @@ zh-HK:
       flatrate: 串流
       free: 免費觀賞
       rent: 租借
-      sentence: "%{title}目前可在%{country}透過%{available_types}觀賞。"
+      sentence: '%{title}目前可在%{country}透過%{available_types}觀賞。'
     available_snippet:
       flatrate: 現正串流
       rent_or_buy: 可租借或購買
@@ -4206,12 +4214,12 @@ zh-HK:
       bluray: 無藍光方案
       dvd: 無 DVD 方案
       hd: 無 HD 方案
-      none: "%{title} 無任何方案。"
+      none: '%{title} 無任何方案。'
       sd: 無 SD 方案
     page_title:
     seasons:
-      many: "%{count} 季"
-      other: "%{count} 季"
+      many: '%{count} 季'
+      other: '%{count} 季'
     view_offers: 檢視方案
     watch_now: 立即觀看
     watch_on:
@@ -4227,7 +4235,7 @@ zh-HK:
     next_page: 下一頁
     next_page_with_arrow: 下一頁 →
     previous_page: 上一頁
-    previous_page_with_arrow: "← 上一頁"
+    previous_page_with_arrow: '← 上一頁'
     show_more: 更多
   part_of_collection: 為%{collection_name}的一部分
   password:
@@ -4241,7 +4249,7 @@ zh-HK:
   person:
     credits:
       as_character: 飾演 %{character}
-      as_job: "— %{job}"
+      as_job: '— %{job}'
   placeholder:
     primary_character_name:
   report:
@@ -4275,8 +4283,8 @@ zh-HK:
   search_tip_1: 提示：您可以使用 "y:" 過濾該年份的搜尋結果。例："星際大戰 y:1977
   season_number_name: 第 %{season_number} 季
   season_overview:
-    already_aired: "%{show_name}的第 %{season_number} 季首播於 %{date}。"
-    to_air: "%{show_name}的第 %{season_number} 季預定首播於 %{date}。"
+    already_aired: '%{show_name}的第 %{season_number} 季首播於 %{date}。'
+    to_air: '%{show_name}的第 %{season_number} 季預定首播於 %{date}。'
   settings:
     account:
       account_settings: 帳戶設定
@@ -4317,7 +4325,7 @@ zh-HK:
       confirm_delete: 確認刪除
       delete_account: 刪除帳戶
       page_title: 刪除我的帳號
-      summary_text: "<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作。"
+      summary_text: '<strong>請注意！</strong> 輸入密碼後將會立刻執行刪除帳戶的動作。'
     import_list:
       import_button: 匯入
       import_list: 匯入清單
@@ -4511,17 +4519,17 @@ zh-HK:
   success_sharing: 已成功分享您的訊息。
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
-      words_connector: ", "
+      last_word_connector: ', and '
+      two_words_connector: ' and '
+      words_connector: ', '
   the: 此
   time:
     am:
     formats:
-      12hour_minutes: "%l:%M%p"
+      12hour_minutes: '%l:%M%p'
       default:
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
+      long: '%B %d, %Y %I:%M %p'
+      short: '%d %b %I:%M %p'
     pm:
     units:
       hours:
@@ -4586,10 +4594,10 @@ zh-HK:
         sort: 排序
       type: 類型
     number_of_videos:
-      one: "%{count} 部影片"
-      other: "%{count} 部影片"
+      one: '%{count} 部影片'
+      other: '%{count} 部影片'
     official_channel: 官方頻道
-    page_title: "%{name} 影片頻道"
+    page_title: '%{name} 影片頻道'
     popular: 熱門
     refresh_from_youtube:
     types:
@@ -4615,4 +4623,4 @@ zh-HK:
   will_paginate:
     next_label: 下一頁 →
     page_gap:
-    previous_label: "← 上一頁"
+    previous_label: '← 上一頁'
