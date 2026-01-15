@@ -179,7 +179,7 @@ zh-CN:
   External IDs: 外部编号
   External Links: 外部链接
   Extra Details: 附加信息详情
-  Extras: " 附加信息"
+  Extras: ' 附加信息'
   FAQ: 常见问题
   Facts: 资料
   Fallback Language: 网站界面的备选语言
@@ -356,7 +356,7 @@ zh-CN:
   Read More: 展开
   Recent Blog Posts: 最近博客文章
   Recent News: 最近新闻
-  Recommendations: " 推荐"
+  Recommendations: ' 推荐'
   Regions: 区域
   Regular Cast: 主演
   Release Dates & Certifications: 发行日期与分级
@@ -538,7 +538,7 @@ zh-CN:
         tv: 节目
       page_title:
         page_owner: 我的近期活动
-        public: "%{username} 的近期活动"
+        public: '%{username} 的近期活动'
       table:
         action: 动作
         edit: 修改值
@@ -552,7 +552,7 @@ zh-CN:
       not_watching: 你未关注任何讨论。
       page_title:
         page_owner: 我的讨论
-        public: "%{username} 的讨论"
+        public: '%{username} 的讨论'
     events:
       all: 全部
       emails:
@@ -567,8 +567,8 @@ zh-CN:
             Unsubscribed: 已取消订阅
             status: 状态
         number_of_items:
-          one: "%{count} 封电子邮件"
-          other: "%{count} 封电子邮件"
+          one: '%{count} 封电子邮件'
+          other: '%{count} 封电子邮件'
       events: 事件
       notifications:
         filters:
@@ -581,8 +581,8 @@ zh-CN:
             type: 类型
         notifications: 通知
         number_of_items:
-          one: "%{count} 个通知"
-          other: "%{count} 个通知"
+          one: '%{count} 个通知'
+          other: '%{count} 个通知'
       page_title:
         recent_events: 最近事件
       recent: 最近
@@ -593,10 +593,10 @@ zh-CN:
     favorites:
       my_favorites:
         logged_in: 我的收藏
-        public: "%{username} 的收藏"
+        public: '%{username} 的收藏'
       page_title:
         page_owner: 我的收藏
-        public: "%{username} 的收藏"
+        public: '%{username} 的收藏'
     filter_by: 筛选条件：
     filters:
       air_date: 播出日期
@@ -618,14 +618,14 @@ zh-CN:
       last_updated: 已更新
       my_lists:
         logged_in: 我的片单
-        public: "%{username} 的片单"
+        public: '%{username} 的片单'
       no_lists:
         logged_in: 你尚未创建过任何片单。
-        public: "%{username} 尚未分享过任何片单。"
+        public: '%{username} 尚未分享过任何片单。'
       page_title:
         page_owner: 我的片单
-        public: "%{username} 的片单"
-    member_since: "%{date}成为本网站会员"
+        public: '%{username} 的片单'
+    member_since: '%{date}成为本网站会员'
     navigation:
       discussions: 讨论
       favorites: 收藏
@@ -641,12 +641,12 @@ zh-CN:
       30_day_activity: 近 30 天活动
       empty_recent_activity:
         logged_in: 你最近没有进行编辑。
-        public: "%{username} 最近没有进行编辑。"
+        public: '%{username} 最近没有进行编辑。'
       empty_upcoming_watchlist:
         logged_in: 你的待看片单中没有即将上映的电影。
       empty_watched_genres:
         logged_in: 你还没有记录过电影或电视节目。
-        public: "%{username} 还没有记录过电影或电视节目。"
+        public: '%{username} 还没有记录过电影或电视节目。'
       goto_discussions: 进入讨论
       goto_watchlist: 进入待看片单
       most_watched_genres: 最关注类型
@@ -658,17 +658,17 @@ zh-CN:
       upcoming_watchlist: 待看片单中即将播映
     page_title:
       page_owner: 我的个人资料
-      public: "%{username} 的个人资料"
+      public: '%{username} 的个人资料'
     ratings_reviews:
       my_ratings:
         logged_in: 我的评分
-        public: "%{username} 的评分"
+        public: '%{username} 的评分'
       my_reviews:
         logged_in: 我的评价
-        public: "%{username} 的评价"
+        public: '%{username} 的评价'
       page_title:
         page_owner: 我的评分和评价
-        public: "%{username} 的评分和评价"
+        public: '%{username} 的评分和评价'
       ratings_by_year: 按年度评分分布
     recommendations:
       my_recommendations: 为我推荐
@@ -689,7 +689,7 @@ zh-CN:
     watchlist:
       my_watchlist:
         logged_in: 我的待看片单
-        public: "%{username} 的待看片单"
+        public: '%{username} 的待看片单'
       next_month: 下月
       no_upcoming_movies:
         one: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
@@ -699,12 +699,12 @@ zh-CN:
         other: 你的待看片单中有 %{count} 个条目，但暂无即将播出的电视节目。
       page_title:
         page_owner: 我的待看片单
-        public: "%{username} 的待看片单"
+        public: '%{username} 的待看片单'
       this_month: 本月
       this_week: 本周
       view_them: 浏览待看片单。
   add_to_list: 添加 %{media_title} 到你的片单...
-  already_translated_in: "%{page_title} 已翻译成以下语言..."
+  already_translated_in: '%{page_title} 已翻译成以下语言...'
   api_for_business:
     api_for_business: 商用 API
     form:
@@ -735,13 +735,13 @@ zh-CN:
       message: 需要令牌来验证用户账户
       title: 缺失令牌
     request_token_approval:
-      message: "{{APP}} 正在请求授予数据读写权限。如果你想在 TMDB 外维护你的片单或给电影评分，则必须同意该请求。"
+      message: '{{APP}} 正在请求授予数据读写权限。如果你想在 TMDB 外维护你的片单或给电影评分，则必须同意该请求。'
     statuses:
       completed:
         message: 您已向 <strong>%{application_name}</strong> 授予读写权限。现在您可以回到应用程序并关闭此窗口。您可以在账户设置下的“已连接应用”页面，随时撤消本次授权。
         name: 身份验证已通过
       denied:
-        message: "<p>您已拒绝访问 <strong>%{application_name}</strong>。如果这是误操作，或者您想重新启动身份验证过程，请返回应用程序再次请求授权。</p>"
+        message: '<p>您已拒绝访问 <strong>%{application_name}</strong>。如果这是误操作，或者您想重新启动身份验证过程，请返回应用程序再次请求授权。</p>'
         name: 身份验证已拒绝
       invalid_request_token:
         message: 您提交的访问令牌无效，通常是因为令牌已过期，可尝试创建新令牌并确保正确复制。如果您仍然遇到问题，请与您正在使用的应用的开发者联系。
@@ -820,7 +820,7 @@ zh-CN:
       number:
         other:
       one: 1项提名
-      other: "%{count} 项提名"
+      other: '%{count} 项提名'
       title:
     nominee: 提名
     show_info:
@@ -836,7 +836,7 @@ zh-CN:
     winner: 获奖
     wins:
       one: 1 项获奖
-      other: "%{count} 项获奖"
+      other: '%{count} 项获奖'
   back_options:
     award:
     back: 返回
@@ -971,15 +971,15 @@ zh-CN:
           meaning: 禁止商业发行。
       FR:
         '1':
-          meaning: "（未评级）适合所有观众。"
+          meaning: '（未评级）适合所有观众。'
         '2':
-          meaning: "（不建议 10 岁以下儿童）10 岁以下少儿不宜（此分级仅用于电视）；相当于电影院分级：“警告”，有些场景可能令儿童和敏感的人不适；相当于视频分级：“家长指导”。"
+          meaning: '（不建议 10 岁以下儿童）10 岁以下少儿不宜（此分级仅用于电视）；相当于电影院分级：“警告”，有些场景可能令儿童和敏感的人不适；相当于视频分级：“家长指导”。'
         '3':
-          meaning: "（禁止 12 岁以下）12 岁以下少儿不宜或在电影院禁止 12 岁以下。"
+          meaning: '（禁止 12 岁以下）12 岁以下少儿不宜或在电影院禁止 12 岁以下。'
         '4':
-          meaning: "（禁止 16 岁以下）16 岁以下不宜或在电影院禁止 16 岁以下。"
+          meaning: '（禁止 16 岁以下）16 岁以下不宜或在电影院禁止 16 岁以下。'
         '5':
-          meaning: "（禁止未成年人）18 岁以下不宜或在电影院禁止 18 岁以下。"
+          meaning: '（禁止未成年人）18 岁以下不宜或在电影院禁止 18 岁以下。'
       GB:
         '1':
           meaning: 允许所有年龄，无不适合儿童内容。
@@ -1041,17 +1041,17 @@ zh-CN:
         '0':
           meaning: 无分级信息。
         '1':
-          meaning: "（Umum：“一般观众”）- 针对一般观众。（2008 年之前主要用于在马来西亚放映的电影，之后只适用于电视，特别是马来西亚广播电视台。）"
+          meaning: '（Umum：“一般观众”）- 针对一般观众。（2008 年之前主要用于在马来西亚放映的电影，之后只适用于电视，特别是马来西亚广播电视台。）'
         '2':
-          meaning: "（Penjaga 13：“家长指导 13”） - 13 岁以下儿童不得入场，除非由成人陪同。（2006 年推出，2008 年成为马来西亚官方的电影分级系统。“PG-13”评级从 2012 年 4 月起修改为“P13”，强调使用马来语而不是英语。）P13 级不允许热情的亲吻场面。"
+          meaning: '（Penjaga 13：“家长指导 13”） - 13 岁以下儿童不得入场，除非由成人陪同。（2006 年推出，2008 年成为马来西亚官方的电影分级系统。“PG-13”评级从 2012 年 4 月起修改为“P13”，强调使用马来语而不是英语。）P13 级不允许热情的亲吻场面。'
         '3':
-          meaning: "（Seram，Ganas：“暴力画面和恐怖”） - 电影可能包含强烈的暴力，可能令人反感的血腥和恐怖。"
+          meaning: '（Seram，Ganas：“暴力画面和恐怖”） - 电影可能包含强烈的暴力，可能令人反感的血腥和恐怖。'
         '4':
-          meaning: "（Seks：“性内容”） - 电影可能包含会令人反感的性爱场面，裸露或性对话/暗示（尽管马来西亚审查委员会严格审查性与裸体的场景）。"
+          meaning: '（Seks：“性内容”） - 电影可能包含会令人反感的性爱场面，裸露或性对话/暗示（尽管马来西亚审查委员会严格审查性与裸体的场景）。'
         '5':
-          meaning: "（Politik，Agama：“强烈的宗教或政治元素”） - 电影可能包含人们可能认为令人反感的宗教、社会或政治方面的因素。很少使用。"
+          meaning: '（Politik，Agama：“强烈的宗教或政治元素”） - 电影可能包含人们可能认为令人反感的宗教、社会或政治方面的因素。很少使用。'
         '6':
-          meaning: "（Pelbagai：“各种”） - 电影可能包含人们可能认为令人反感的强烈的暴力、血腥、恐怖、性爱场面、裸体、性对话/暗示、宗教、社会或政治方面。大多数 18+ 的电影使用这个分级。例如，有性爱场面和强烈暴力的电影将被归类为 18PL，尽管马来西亚审查委员会严格审查性与裸体的场景。"
+          meaning: '（Pelbagai：“各种”） - 电影可能包含人们可能认为令人反感的强烈的暴力、血腥、恐怖、性爱场面、裸体、性对话/暗示、宗教、社会或政治方面。大多数 18+ 的电影使用这个分级。例如，有性爱场面和强烈暴力的电影将被归类为 18PL，尽管马来西亚审查委员会严格审查性与裸体的场景。'
       NL:
         '1':
           meaning: 所有年龄。
@@ -1129,13 +1129,13 @@ zh-CN:
         '1':
           meaning: 适合所有年龄段
         '2':
-          meaning: "（适合 6 岁以上）- 不适合 6 岁以下"
+          meaning: '（适合 6 岁以上）- 不适合 6 岁以下'
         '3':
-          meaning: "（适合 12 岁以上）- 不适合 12 岁以下"
+          meaning: '（适合 12 岁以上）- 不适合 12 岁以下'
         '4':
-          meaning: "（适合 16 岁以上）- 不适合 16 岁以下"
+          meaning: '（适合 16 岁以上）- 不适合 16 岁以下'
         '5':
-          meaning: "（限制儿童）- 限制 18 岁以下儿童"
+          meaning: '（限制儿童）- 限制 18 岁以下儿童'
       SE:
         '0':
           meaning: 无分级信息。
@@ -1482,7 +1482,7 @@ zh-CN:
     edit_mode: 你处于编辑模式下
     edit_translate: 编辑和翻译
     edit_translating: 编辑和翻译
-    editing_character_name_uv: "<h3>嘿！<strong>%{user}</strong>！</h3>观察到您正在使用建议名称创建角色。你想继续吗?"
+    editing_character_name_uv: '<h3>嘿！<strong>%{user}</strong>！</h3>观察到您正在使用建议名称创建角色。你想继续吗?'
     enter: 输入
     enter_character_name: 输入角色名
     enter_character_synopsis: 输入角色概要
@@ -1597,7 +1597,7 @@ zh-CN:
     star: 开始
     submit: 提交
     submit_and_preview: 提交并预览
-    submit_confirmation: "<h3>你好<strong>%{user}</strong>！干得好！</h3> 你确定要提交吗？"
+    submit_confirmation: '<h3>你好<strong>%{user}</strong>！干得好！</h3> 你确定要提交吗？'
     submitted: 提交
     suggested_backdrops: 选择建议的背景
     suggested_backdrops_not_available: 没有建议的背景！
@@ -1718,57 +1718,57 @@ zh-CN:
   create_api: 创建API
   date:
     abbr_day_names:
-    - 周日
-    - 周一
-    - 周二
-    - 周三
-    - 周四
-    - 周五
-    - 周六
+      - 周日
+      - 周一
+      - 周二
+      - 周三
+      - 周四
+      - 周五
+      - 周六
     abbr_month_names:
-    -
-    - 一月
-    - 二月
-    - 三月
-    - 四月
-    - 五月
-    - 六月
-    - 七月
-    - 八月
-    - 九月
-    - 十月
-    - 十一月
-    - 十二月
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
     day_names:
-    - 星期日
-    - 星期一
-    - 星期二
-    - 星期三
-    - 星期四
-    - 星期五
-    - 星期六
+      - 星期日
+      - 星期一
+      - 星期二
+      - 星期三
+      - 星期四
+      - 星期五
+      - 星期六
     formats:
-      abbrev: "%Y 年 %m 月 %d 日"
-      default: "%Y-%m-%d"
-      full_month_day: "%Y 年 %m 月 %d 日"
-      full_month_year: "%Y 年 %m 月"
-      short_month_day_year: "%Y-%m-%d"
+      abbrev: '%Y 年 %m 月 %d 日'
+      default: '%Y-%m-%d'
+      full_month_day: '%Y 年 %m 月 %d 日'
+      full_month_year: '%Y 年 %m 月'
+      short_month_day_year: '%Y-%m-%d'
     month_names:
-    -
-    - 一月
-    - 二月
-    - 三月
-    - 四月
-    - 五月
-    - 六月
-    - 七月
-    - 八月
-    - 九月
-    - 十月
-    - 十一月
-    - 十二月
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
   day: 日
-  days: "%{count} 天"
+  days: '%{count} 天'
   deleted_content:
     entry_deleted: 条目已删除
     reasons:
@@ -1814,8 +1814,8 @@ zh-CN:
         subject: 这是垃圾信息
     why_deleting: 你为什么要删除此条目？
   department_credits_count:
-    one: "%{department} (参与 %{count} 部作品)"
-    other: "%{department} (参与 %{count} 部作品)"
+    one: '%{department} (参与 %{count} 部作品)'
+    other: '%{department} (参与 %{count} 部作品)'
   departments:
     Acting: 演员
     Actors: 演员
@@ -1929,9 +1929,9 @@ zh-CN:
       watch: 关注此讨论
     admin_panel: 管理员面板
     back_options:
-      back_to_item_with_arrow: "← 返回 %{item_title}"
-      back_to_tmdb_with_arrow: "← 返回 TMDB"
-      back_with_arrow: "← 返回"
+      back_to_item_with_arrow: '← 返回 %{item_title}'
+      back_to_tmdb_with_arrow: '← 返回 TMDB'
+      back_with_arrow: '← 返回'
     categories:
       categories: 分类
       discuss:
@@ -1975,11 +1975,11 @@ zh-CN:
     no_discussions: 暂无讨论。
     pagination:
       post_summary:
-        one: "%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
-        other: "%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
+        one: '%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）'
+        other: '%{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）'
       summary:
-        one: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
-        other: "%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
+        one: '%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页'
+        other: '%{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页'
     post:
       delete: 删除
       edit: 编辑
@@ -1996,11 +1996,11 @@ zh-CN:
         mark_as_spam: 确定标记此讨论贴为垃圾信息吗？这样做帖子将被自动删除且无法撤消。将讨论贴标记为垃圾信息有助于训练我们的垃圾信息检测服务。
         report_violation: 请确认你要举报的用户违反我们的<a href="/documentation/community/guidelines" target="_blank" rel="noopener">社区准则</a>。
         unhide_discussion: 点击“是”，此讨论贴将恢复可见。
-      posted_by_with_datetime: "%{username} 发布于 %{date} %{time}"
+      posted_by_with_datetime: '%{username} 发布于 %{date} %{time}'
       quote: 引用
       reopen_reply: 重新开放并回复
       reply: 回复
-      reply_by: "%{username} 的回复"
+      reply_by: '%{username} 的回复'
       reply_on_datetime: 于 %{date} %{time}
       report: 报告
       unhide: 取消隐藏
@@ -2087,7 +2087,7 @@ zh-CN:
     new_email_address: 新邮箱地址
     sent_verification_email: 我们已将验证邮件发送至 %{email_address}。请检查你的收件箱（和垃圾邮件文件夹）以获取后续操作步骤。
     unsubscribe:
-      sad_to_go: "%{username}，你的离开令人伤心！"
+      sad_to_go: '%{username}，你的离开令人伤心！'
       subscription_changed: 您的订阅设置已更新。您可以通过访问<a href="%{account_link}">通知设置</a>页面来编辑通知设置。
       unsubscribe: 取消订阅
       unsubscribed: 您已成功<strong>取消订阅</strong>。如果这是您误操作，可以通过访问<a href="%{account_link}">通知设置</a>页来重新订阅。
@@ -2106,7 +2106,7 @@ zh-CN:
       1f626: 惊讶
       1f628: 害怕
       1f629: 疲倦
-      1f62c: " 龇牙"
+      1f62c: ' 龇牙'
       1f62d: 大哭
       1f62e: 叹气
       1f630: 惊恐
@@ -2127,7 +2127,7 @@ zh-CN:
       1fae2: 睁眼捂嘴
       1fae3: 偷看
       1fae4: 郁闷
-  episode_count: "%{count} 集"
+  episode_count: '%{count} 集'
   episode_number_name: 第 %{episode_number} 集
   error_pages:
     deleted_account:
@@ -2201,7 +2201,7 @@ zh-CN:
       invalid_request: 未能完成您的请求。
       less_than: 必须少于%{count}
       less_than_or_equal_to: 必须少于或等于%{count}
-      model_invalid: "“验证失败：%{errors}"
+      model_invalid: '“验证失败：%{errors}'
       no_characters_found: 未找到角色
       not_a_number: 不是数字
       not_an_integer: 必须是整数
@@ -2325,7 +2325,7 @@ zh-CN:
       thats_a_wrap: 年度总结！
     tv_shows:
       episode_airs:
-        in_days: "%{number_of_days} 天后播出的新剧集"
+        in_days: '%{number_of_days} 天后播出的新剧集'
         today: 今日播出新剧集
         tomorrow: 明日播出新剧集
   images:
@@ -2348,11 +2348,11 @@ zh-CN:
       read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
     uploader:
-      aspect_ratio: "%{ratio}的纵横比"
-      aspect_ratio_both: "%{ratio_first}或%{ratio_second}的纵横比"
-      file_type: "%{file_type}的文件类型"
-      max_res: "%{res}的最大分辨率"
-      min_res: "%{res}的最小分辨率"
+      aspect_ratio: '%{ratio}的纵横比'
+      aspect_ratio_both: '%{ratio_first}或%{ratio_second}的纵横比'
+      file_type: '%{file_type}的文件类型'
+      max_res: '%{res}的最大分辨率'
+      min_res: '%{res}的最小分辨率'
       read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
       type_backdrops: 背景
@@ -2360,12 +2360,12 @@ zh-CN:
       type_headshots: 肖像图
       type_posters: 海报
       type_profiles: 头像
-      validation_header: "%{type}必须满足以下要求："
+      validation_header: '%{type}必须满足以下要求：'
   invalid_aspect_ratio: 此宽高比无效。
   item_count:
-    one: "%{count} 个条目"
-    other: "%{count} 个条目"
-  item_count_more: "%{count} 更多..."
+    one: '%{count} 个条目'
+    other: '%{count} 个条目'
+  item_count_more: '%{count} 更多...'
   jobs:
     '"A" Camera Operator': '"A" 摄影师'
     '"B" Camera Operator': '"B"摄影师'
@@ -3217,10 +3217,10 @@ zh-CN:
     Thanks: 感谢
     Theatre Play: 剧院播放
     Theme Song Performance: 主题曲表演
-    Third Assistant "A" Camera: "“A” 摄像机第三助理"
-    Third Assistant "B" Camera: "“B” 摄像机第三助理"
-    Third Assistant "C" Camera: "“C” 摄像机第三助理"
-    Third Assistant "D" Camera: "“D” 摄像机第三助理"
+    Third Assistant "A" Camera: '“A” 摄像机第三助理'
+    Third Assistant "B" Camera: '“B” 摄像机第三助理'
+    Third Assistant "C" Camera: '“C” 摄像机第三助理'
+    Third Assistant "D" Camera: '“D” 摄像机第三助理'
     Third Assistant Camera: 第三摄影助理
     Third Assistant Director: 第三副导演
     Title Designer: 标题设计师
@@ -3306,17 +3306,17 @@ zh-CN:
       go_to_edit: 进入编辑页面
       last_reply: 跳转至最新回复
       new_discussion: 创建新讨论
-      next_episode: "（右箭头）下一集"
-      next_page: "（右箭头）下一页"
-      next_season: "（右箭头）下一季"
+      next_episode: '（右箭头）下一集'
+      next_page: '（右箭头）下一页'
+      next_season: '（右箭头）下一季'
       open_activity: 打开活动页
       open_add_image_window: 打开添加图片窗口
       open_profile: 打开个人资料菜单
       open_shortcut_window: 打开键盘快捷键窗口
       open_translation_selector: 打开翻译选择器
-      previous_episode: "（左箭头）上一集"
-      previous_page: "（左箭头）前一页"
-      previous_season: "（左箭头）前一季"
+      previous_episode: '（左箭头）上一集'
+      previous_page: '（左箭头）前一页'
+      previous_season: '（左箭头）前一季'
       reply_to_discussion: 回复讨论
       save_form: 提交
       submit_message: 发送信息
@@ -3601,8 +3601,8 @@ zh-CN:
         language: 语言
         user: 用户
       number_of_changes:
-        one: "%{count} 次更改"
-        other: "%{count} 次更改"
+        one: '%{count} 次更改'
+        other: '%{count} 次更改'
       view_weekly_leaderboard: 查看本周贡献榜
     character:
       edit:
@@ -3619,8 +3619,8 @@ zh-CN:
       select:
     company:
       headquarters: 总部
-      movie_page_title: "%{name} 制作的电影"
-      tv_page_title: "%{name} 制作的节目"
+      movie_page_title: '%{name} 制作的电影'
+      tv_page_title: '%{name} 制作的节目'
     content_score:
       helper_tooltip: 完成度值可以帮你了解数据库中某个条目的资料完整程度。
       missing_data:
@@ -3711,8 +3711,8 @@ zh-CN:
         original_title: 原始片名应以条目的默认语言书写，通常和“默认语言”栏选择的语言一致。
         overview: 简介请尽量简明扼要，不要剧透。
         social_links: 社交链接仅用于填写（已认证的）官方网站，不允许填写粉丝网站 。
-      translation_already_exists: "%{language}翻译已经存在。"
-      translation_not_found: "%{language}翻译还未创建。"
+      translation_already_exists: '%{language}翻译已经存在。'
+      translation_not_found: '%{language}翻译还未创建。'
       unlock_all_appearances: 通过单击“是”，您将解锁所有现有记录。
       upload_logo: 上传徽标
       videos:
@@ -3726,8 +3726,8 @@ zh-CN:
       visit_twitter: 访问 Twitter
       visit_youtube: 访问 YouTube
     genre:
-      movie_page_title: "%{name} 电影"
-      tv_page_title: "%{name} 电视节目"
+      movie_page_title: '%{name} 电影'
+      tv_page_title: '%{name} 电视节目'
     images:
       format: 格式
       no_backdrop_stills: 此条目未添加剧照。
@@ -3804,7 +3804,7 @@ zh-CN:
       search:
         no_results: 找不到和您的查询相符的播出平台。
         results: 播出平台搜索结果
-      tv_page_title: "%{name} 的节目"
+      tv_page_title: '%{name} 的节目'
     no_results_found:
       movie: 未找到电影。
       tv: 未找到节目。
@@ -3823,7 +3823,7 @@ zh-CN:
         errors:
           invalid_unicode: 检测到无效字符。
           leading_whitespace: 检测到有首端空白字符。
-          locked_name: "<strong>%{name} (%{language})</strong>已被锁定。"
+          locked_name: '<strong>%{name} (%{language})</strong>已被锁定。'
           name_required: 无法迁移空白的%{name} (%{language})区域。
           numbers: 检测到无效数字字符。
           primary_name_migration: 无法从初始翻译中迁移<strong>%{name} (%{language})</strong>。
@@ -3844,13 +3844,13 @@ zh-CN:
         movies: 电影
         tv: 电视
         tv_shows: 电视节目
-      years_old: "%{count} 岁"
+      years_old: '%{count} 岁'
     rating:
       not_rateable: 该条目暂不可评分。
       rated_with_rating: 已评分 %{value}
       rating_count:
-        one: "%{count} 个评分"
-        other: "%{count} 个评分"
+        one: '%{count} 个评分'
+        other: '%{count} 个评分'
       removed: 你的评分已被删除。
       score_breakdown: 评分明细
       score_distribution: 分数分布
@@ -3886,8 +3886,8 @@ zh-CN:
         want_to_be_notified: 要在有人发布第一个帖子时通知您吗？
         yes_notify_me: 是的，通知我！
       reviews:
-        a_review_by: "%{username} 的评价"
-        by: "%{username} 写于 %{date}"
+        a_review_by: '%{username} 的评价'
+        by: '%{username} 写于 %{date}'
         featured_review: 精选评价
         no_review:
           logged_in: 还没有关于《%{title}》的评价呢。想要<a href="%{url}">写一个</a>吗？
@@ -3928,7 +3928,7 @@ zh-CN:
         mid_season: 季中结局
       episode_selector:
         current_episode: 第 %{season_number} 季第 %{episode_number} 集
-        episode: "%{episode_name}（第 %{season_number} 季第 %{episode_number} 集） "
+        episode: '%{episode_name}（第 %{season_number} 季第 %{episode_number} 集） '
         next_episode: 下一集
         previous_episode: 上一集
     tv_season:
@@ -3999,8 +3999,8 @@ zh-CN:
       episode_groups:
         groups:
           count:
-            one: "%{count} 组"
-            other: "%{count} 组"
+            one: '%{count} 组'
+            other: '%{count} 组'
         original_air_date: 首播日期
       networks:
         one: 个播出平台
@@ -4065,10 +4065,10 @@ zh-CN:
       to: 到
     no_messages: 无消息
     notifications:
-      new_message: "%{username} 给你发来新消息"
+      new_message: '%{username} 给你发来新消息'
     number_of_messages:
-      one: "%{count} 条消息"
-      other: "%{count} 条消息"
+      one: '%{count} 条消息'
+      other: '%{count} 条消息'
     options:
       admin: 管理
       archive: 存档
@@ -4094,7 +4094,7 @@ zh-CN:
     translate: 翻译
   monetize:
     create_api: 创建 API
-  month: "%{count} 个月"
+  month: '%{count} 个月'
   navigation:
     discover:
       discover: 发现
@@ -4126,10 +4126,10 @@ zh-CN:
   no_episode_images: 未添加本集图片。
   no_favorite_movies:
     current_user: 你还未添加任何收藏电影。
-    public: "%{username} 还未添加过任何收藏电影。"
+    public: '%{username} 还未添加过任何收藏电影。'
   no_favorite_tv_shows:
     current_user: 你还未添加过任何收藏电视节目。
-    public: "%{username} 还未添加过任何收藏电视节目。"
+    public: '%{username} 还未添加过任何收藏电视节目。'
   no_genres: 尚未添加类型。
   no_guest_stars: 未添加客串演员。
   no_keyword_search_results: 找不到和您的查询相符的关键词。
@@ -4144,10 +4144,10 @@ zh-CN:
     tv: 收藏所有你喜欢的电视节目，就能获得个性化节目推荐。有时，我们推荐的很多节目都是你可能看过的。你可以通过给它们评分来过滤掉它们。已评分的节目会被自动过滤掉。
   no_rated_movies:
     current_user: 你还没有给任何电影评过分。
-    public: "%{username} 还没有给任何电影评过分。"
+    public: '%{username} 还没有给任何电影评过分。'
   no_rated_tv_shows:
     current_user: 你暂无电视节目评分。
-    public: "%{username} 暂无电视节目评分。"
+    public: '%{username} 暂无电视节目评分。'
   no_recommendations:
     movie: 我们没有足够的数据来推荐和《%{title}》相关的电影。你可以通过给看过的电影评分帮助我们完善推荐系统。
     tv_show: 我们没有足够的数据来推荐和《%{title}》相关的电视节目。你可以通过给看过的电视节目评分帮助我们完善推荐系统。
@@ -4161,7 +4161,7 @@ zh-CN:
     public: 此待看片单为空。
   no_writer: 未添加作者。
   not_translated:
-    logged_in: "%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。如果你想继续并创建翻译版本，请点击下方的按钮。"
+    logged_in: '%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。如果你想继续并创建翻译版本，请点击下方的按钮。'
     public: '%{page_title} 还没有翻译为 <strong>%{requested_i18n} (%{requested_language_text})</strong>。你可以<a href="%{signup_link}">注册</a>账户并在<a href="%{login_link}">登录</a>后添加翻译版本。'
   notifications:
     caught_up: 看来你都读完了。
@@ -4175,22 +4175,22 @@ zh-CN:
   number:
     currency:
       format:
-        delimiter: ","
-        format: "%u%n"
+        delimiter: ','
+        format: '%u%n'
         precision: 2
-        separator: "."
+        separator: '.'
         significant: false
         strip_insignificant_zeros: false
-        unit: "¥"
+        unit: '¥'
     format:
-      delimiter: ","
+      delimiter: ','
       precision: 3
-      separator: "."
+      separator: '.'
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: "%n %u"
+        format: '%n %u'
         units:
           billion: 十亿
           million: 百万
@@ -4212,15 +4212,15 @@ zh-CN:
     percentage:
       format:
         delimiter:
-        format: "%n%"
+        format: '%n%'
     precision:
       format:
         delimiter:
-  number_of_edits: "%{count} 次编辑"
-  number_of_items: "%{count} 个条目"
-  number_of_results: "%{count} 个结果"
-  number_of_translations: "%{count} 个翻译"
-  number_of_votes: "%{count} 人评分"
+  number_of_edits: '%{count} 次编辑'
+  number_of_items: '%{count} 个条目'
+  number_of_results: '%{count} 个结果'
+  number_of_translations: '%{count} 个翻译'
+  number_of_votes: '%{count} 人评分'
   ott:
     available_sentences:
       ads: 带广告
@@ -4228,7 +4228,7 @@ zh-CN:
       flatrate: 流媒体
       free: 免费
       rent: 租借
-      sentence: "《%{title}》目前可在 %{country} 通过 %{available_types} 观看。"
+      sentence: '《%{title}》目前可在 %{country} 通过 %{available_types} 观看。'
     available_snippet:
       flatrate: 通过流媒体观看
       rent_or_buy: 租借或购买
@@ -4257,8 +4257,8 @@ zh-CN:
       sd: 未找到 SD 报价。
     page_title: 我在哪里可以观看%{media_name}?
     seasons:
-      many: "%{count} 季"
-      other: "%{count} 季"
+      many: '%{count} 季'
+      other: '%{count} 季'
     view_offers: 浏览报价
     watch_now: 立即观看
     watch_on:
@@ -4274,11 +4274,11 @@ zh-CN:
     next_page: 下一页
     next_page_with_arrow: 下一页 →
     previous_page: 上一页
-    previous_page_with_arrow: "← 上一页"
+    previous_page_with_arrow: '← 上一页'
     show_more: 显示更多
-  part_of_collection: "%{collection_name} 之一"
+  part_of_collection: '%{collection_name} 之一'
   password:
-    4_chars_minimum: "（最少 4 个字符）"
+    4_chars_minimum: '（最少 4 个字符）'
     confirm_new_password: 确认新密码
     enter_to_continue: 输入你当前的密码，继续…
     new_password: 新密码
@@ -4288,7 +4288,7 @@ zh-CN:
   person:
     credits:
       as_character: 饰演 %{character}
-      as_job: "— %{job}"
+      as_job: '— %{job}'
   placeholder:
     primary_character_name: 主要角色名称
   report:
@@ -4322,8 +4322,8 @@ zh-CN:
   search_tip_1: 提示：你可以使用“y:”过滤器以年份来缩小查询范围。例如：“星球大战 y:1977”。
   season_number_name: 第 %{season_number} 季
   season_overview:
-    already_aired: "《%{show_name}》第 %{season_number} 季已于 %{date} 首播。"
-    to_air: "《%{show_name}》第 %{season_number} 季已定于 %{date} 首播。"
+    already_aired: '《%{show_name}》第 %{season_number} 季已于 %{date} 首播。'
+    to_air: '《%{show_name}》第 %{season_number} 季已定于 %{date} 首播。'
   settings:
     account:
       account_settings: 账户设置
@@ -4469,7 +4469,7 @@ zh-CN:
         what_is_your_email: 你的电子邮箱是？
       page_title: 我的个人资料
       reset_password_dialog_text: 确认将给你发送包含密码重置指令的电子邮件。你确定要这么做吗？
-      reset_password_dialog_text2: "<strong>请注意：</strong>重置密码后会退出当前所有会话。"
+      reset_password_dialog_text2: '<strong>请注意：</strong>重置密码后会退出当前所有会话。'
     sessions:
       api:
         connected_apps: 已连接应用
@@ -4558,17 +4558,17 @@ zh-CN:
   success_sharing: 你的信息分享成功。
   support:
     array:
-      last_word_connector: ", 和"
+      last_word_connector: ', 和'
       two_words_connector: 和
-      words_connector: ", "
+      words_connector: ', '
   the: 此
   time:
     am: 上午
     formats:
-      12hour_minutes: "%l:%M%p"
-      default: "%a, %d %b %Y %I:%M:%S %p %Z"
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
+      12hour_minutes: '%l:%M%p'
+      default: '%a, %d %b %Y %I:%M:%S %p %Z'
+      long: '%B %d, %Y %I:%M %p'
+      short: '%d %b %I:%M %p'
     pm: 下午
     units:
       hours: 小时
@@ -4595,7 +4595,7 @@ zh-CN:
         interested: 感兴趣
         sad: 伤心
         surprised: 惊讶
-      prompt: "%{title} 让你感觉如何？"
+      prompt: '%{title} 让你感觉如何？'
     rating:
       clear: 重置我的评分
       label: 评分
@@ -4635,10 +4635,10 @@ zh-CN:
         sort: 排序
       type: 类型
     number_of_videos:
-      one: "%{count} 个视频"
-      other: "%{count} 个视频"
+      one: '%{count} 个视频'
+      other: '%{count} 个视频'
     official_channel: 官方频道
-    page_title: "%{name} 视频频道"
+    page_title: '%{name} 视频频道'
     popular: 热门
     refresh_from_youtube: 从 YouTube 刷新
     types:
@@ -4663,5 +4663,5 @@ zh-CN:
   view all: 查看全部
   will_paginate:
     next_label: 下一页 →
-    page_gap: "…"
-    previous_label: "← 上一页"
+    page_gap: '…'
+    previous_label: '← 上一页'

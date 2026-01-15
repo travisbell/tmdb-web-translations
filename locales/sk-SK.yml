@@ -567,9 +567,9 @@ sk-SK:
             Unsubscribed: Odber zrušený
             status: Stav
         number_of_items:
-          few: "%{count} Emailov"
-          one: "%{count} Email"
-          other: "%{count} Emaily"
+          few: '%{count} Emailov'
+          one: '%{count} Email'
+          other: '%{count} Emaily'
       events: Udalosti
       notifications:
         filters:
@@ -582,9 +582,9 @@ sk-SK:
             type: Typ
         notifications: Notifikácie
         number_of_items:
-          few: "%{count} Notifikácií"
-          one: "%{count} Notifikácia"
-          other: "%{count} Notifikácie"
+          few: '%{count} Notifikácií'
+          one: '%{count} Notifikácia'
+          other: '%{count} Notifikácie'
       page_title:
         recent_events: Nedávne udalosti
       recent: Nedávne
@@ -623,7 +623,7 @@ sk-SK:
         public: Zoznamy používateľa %{username}
       no_lists:
         logged_in: Nevytvorili ste žiadne zoznamy.
-        public: "%{username} nemá žiadne verejné zoznamy pre zdieľanie."
+        public: '%{username} nemá žiadne verejné zoznamy pre zdieľanie.'
       page_title:
         page_owner: Moje zoznamy
         public: Zoznamy používateľa %{username}
@@ -643,12 +643,12 @@ sk-SK:
       30_day_activity: Aktivita za 30 dní
       empty_recent_activity:
         logged_in: Neurobili ste žiadne nedávne úpravy.
-        public: "%{username} neurobil žiadne nedávne úpravy."
+        public: '%{username} neurobil žiadne nedávne úpravy.'
       empty_upcoming_watchlist:
         logged_in: Vo vašom zozname na pozeranie nie sú žiadne nadchádzajúce filmy.
       empty_watched_genres:
         logged_in: Nezaznamenali ste si žiadne filmy alebo seriály.
-        public: "%{username} nezaznamenal žiadne filmy alebo seriály."
+        public: '%{username} nezaznamenal žiadne filmy alebo seriály.'
       goto_discussions: Ísť do diskusií
       goto_watchlist: Ísť do zoznamu na pozeranie
       most_watched_genres: Najviac pozerané žánre
@@ -691,7 +691,7 @@ sk-SK:
     watchlist:
       my_watchlist:
         logged_in: Môj zoznam na pozeranie
-        public: "%{username} zoznam na pozeranie"
+        public: '%{username} zoznam na pozeranie'
       next_month: Ďalší mesiac
       no_upcoming_movies:
         few: Vo vašom zozname na pozeranie nie sú žiadne nadchádzajúce filmy. Avšak, váš zoznam na pozeranie obsahuje %{count} položky.
@@ -708,7 +708,7 @@ sk-SK:
       this_week: Tento týždeň
       view_them: Zobraziť ich.
   add_to_list: Pridať %{media_title} do jedného z vašich zoznamov...
-  already_translated_in: "%{page_title} je už preložený do nasledujúcich jazykov..."
+  already_translated_in: '%{page_title} je už preložený do nasledujúcich jazykov...'
   api_for_business:
     api_for_business:
     form:
@@ -739,13 +739,13 @@ sk-SK:
       message: Požiadavkový token je požadovaný pre overenie používateľského účtu.
       title: Požiadavkový token chýba
     request_token_approval:
-      message: "{{APP}} si pýta vaše povolenie čítať a zapisovať dáta za vás. Toto je nevyhnutné, pokiaľ chcete robiť veci ako udržiavať vaše zoznamy alebo hodnotenia mimo TMDB."
+      message: '{{APP}} si pýta vaše povolenie čítať a zapisovať dáta za vás. Toto je nevyhnutné, pokiaľ chcete robiť veci ako udržiavať vaše zoznamy alebo hodnotenia mimo TMDB.'
     statuses:
       completed:
         message: Udelili ste povolenia čítania a zápisu aplikácií <strong>%{application_name}</strong>. Teraz sa môžete vrátiť do aplikácie a zatvoriť toto okno. Prístupové práva môžete kedykoľvek odoprieť tak, že pôjdete do vašich nastavení účtu a do sekcie "Pripojené aplikácie".
         name: Autentifikácia udelená
       denied:
-        message: "<p>Odopreli ste prístup aplikácií <strong>%{application_name}</strong>. Pokiaľ bol toto omyl, alebo by ste chceli reštartovať autentifikačný proces, jednoducho sa vráťte do aplikácie a vyžiadajte znova nové povolenie.</p>"
+        message: '<p>Odopreli ste prístup aplikácií <strong>%{application_name}</strong>. Pokiaľ bol toto omyl, alebo by ste chceli reštartovať autentifikačný proces, jednoducho sa vráťte do aplikácie a vyžiadajte znova nové povolenie.</p>'
         name: Autentifikácia odmietnutá
       invalid_request_token:
         message: Odoslaný prístupový token je neplatný. Skúste vytvoriť nový a uistite sa, že ste ho nakopírovali správne. Pokiaľ vaše problémy pretrvajú, kontaktujte vývojára aplikácie, ktorú používate.
@@ -1711,60 +1711,60 @@ sk-SK:
   create_api:
   date:
     abbr_day_names:
-    - ned
-    - pon
-    - uto
-    - str
-    - štv
-    - pia
-    - sob
+      - ned
+      - pon
+      - uto
+      - str
+      - štv
+      - pia
+      - sob
     abbr_month_names:
-    -
-    - jan
-    - feb
-    - mar
-    - apr
-    - máj
-    - jún
-    - júl
-    - aug
-    - sep
-    - okt
-    - nov
-    - dec
+      -
+      - jan
+      - feb
+      - mar
+      - apr
+      - máj
+      - jún
+      - júl
+      - aug
+      - sep
+      - okt
+      - nov
+      - dec
     day_names:
-    - nedeľa
-    - pondelok
-    - utorok
-    - streda
-    - štvrtok
-    - piatok
-    - sobota
+      - nedeľa
+      - pondelok
+      - utorok
+      - streda
+      - štvrtok
+      - piatok
+      - sobota
     formats:
-      abbrev: "%-d %b %Y"
-      default: "%d/%m/%Y"
-      full_month_day: "%e. %B, %Y"
-      full_month_year: "%B %Y"
-      short_month_day_year: "%b %d, %Y"
+      abbrev: '%-d %b %Y'
+      default: '%d/%m/%Y'
+      full_month_day: '%e. %B, %Y'
+      full_month_year: '%B %Y'
+      short_month_day_year: '%b %d, %Y'
     month_names:
-    -
-    - január
-    - február
-    - marec
-    - apríl
-    - máj
-    - jún
-    - júl
-    - august
-    - september
-    - október
-    - november
-    - december
+      -
+      - január
+      - február
+      - marec
+      - apríl
+      - máj
+      - jún
+      - júl
+      - august
+      - september
+      - október
+      - november
+      - december
   day: deň
   days:
-    few: "%{count} dní"
+    few: '%{count} dní'
     one: deň
-    other: "%{count} dní"
+    other: '%{count} dní'
   deleted_content:
     entry_deleted: Príspevok vymazaný
     reasons:
@@ -1810,9 +1810,9 @@ sk-SK:
         subject: Je to spam
     why_deleting: Prečo vymazávate tento príspevok?
   department_credits_count:
-    few: "%{department} (%{count} titulkov)"
-    one: "%{department} (%{count} titulky)"
-    other: "%{department} (%{count} titulkov)"
+    few: '%{department} (%{count} titulkov)'
+    one: '%{department} (%{count} titulky)'
+    other: '%{department} (%{count} titulkov)'
   departments:
     Acting: Hral/-a
     Actors: Herci
@@ -1926,9 +1926,9 @@ sk-SK:
       watch: Pozerať
     admin_panel: Panel administrátor
     back_options:
-      back_to_item_with_arrow: "← Späť na %{item_title}"
-      back_to_tmdb_with_arrow: "← Späť na TMDB"
-      back_with_arrow: "← Späť"
+      back_to_item_with_arrow: '← Späť na %{item_title}'
+      back_to_tmdb_with_arrow: '← Späť na TMDB'
+      back_with_arrow: '← Späť'
     categories:
       categories: Kategórie
       discuss:
@@ -1947,8 +1947,8 @@ sk-SK:
         support: Podpora
         website_support: Podpora webstránky
     category:
-      last_reply_with_datetime: "%{date} o %{time}"
-      last_reply_with_datetime_and_username: "%{date} o %{time}<br>užívateľom %{username}"
+      last_reply_with_datetime: '%{date} o %{time}'
+      last_reply_with_datetime_and_username: '%{date} o %{time}<br>užívateľom %{username}'
     discussion_activity: Aktivita v diskusiách
     email_notifications:
       email_notifications: Emailové notifikácie
@@ -1972,13 +1972,13 @@ sk-SK:
     no_discussions: Žiadne diskusie.
     pagination:
       post_summary:
-        few: "%{count} odpoveďí (na strane %{current_page} z %{total_pages})"
-        one: "%{count} odpoveď (na strane %{current_page} z %{total_pages})"
-        other: "%{count} odpoveďí (na strane %{current_page} z %{total_pages})"
+        few: '%{count} odpoveďí (na strane %{current_page} z %{total_pages})'
+        one: '%{count} odpoveď (na strane %{current_page} z %{total_pages})'
+        other: '%{count} odpoveďí (na strane %{current_page} z %{total_pages})'
       summary:
-        few: "%{count} diskusií, aktuálne na stráne %{current_page} z %{total_pages}"
-        one: "%{count} diskusia, aktuálne na stráne %{current_page} z %{total_pages}"
-        other: "%{count} diskusií, aktuálne na stráne %{current_page} z %{total_pages}"
+        few: '%{count} diskusií, aktuálne na stráne %{current_page} z %{total_pages}'
+        one: '%{count} diskusia, aktuálne na stráne %{current_page} z %{total_pages}'
+        other: '%{count} diskusií, aktuálne na stráne %{current_page} z %{total_pages}'
     post:
       delete: Vymazať
       edit: Upraviť
@@ -2086,7 +2086,7 @@ sk-SK:
     new_email_address: Nová emailová adresa
     sent_verification_email: Poslali sme ti email na %{email_address} pre overenie. Skontroluj si email (aj priečinok pre spam) pre inštrukcie ako pokračovať ďalej.
     unsubscribe:
-      sad_to_go: "%{username}, budete nám chýbať!"
+      sad_to_go: '%{username}, budete nám chýbať!'
       subscription_changed: Vaše nastavenia odoberania boli aktualizované. Nastavenia upozornení môžete upraviť v <a href="%{account_link}">nastavení upozornení</a>.
       unsubscribe: Zrušiť odber
       unsubscribed: Zrušili ste si odber. Pokiaľ ste to spravili len náhodou, prihlásiť sa na odber môžete v <a href="%{account_link}">nastaveniach upozornení</a>.
@@ -2127,9 +2127,9 @@ sk-SK:
       1fae3:
       1fae4:
   episode_count:
-    few: "%{count} Epizódy"
-    one: "%{count} Epizóda"
-    other: "%{count} Epizód"
+    few: '%{count} Epizódy'
+    one: '%{count} Epizóda'
+    other: '%{count} Epizód'
   episode_number_name: Epizóda %{episode_number}
   error_pages:
     deleted_account:
@@ -2352,9 +2352,9 @@ sk-SK:
       validation_header:
   invalid_aspect_ratio: Tento pomer strán je nesprávny.
   item_count:
-    few: "%{count} položiek"
-    one: "%{count} položka"
-    other: "%{count} položky"
+    few: '%{count} položiek'
+    one: '%{count} položka'
+    other: '%{count} položky'
   item_count_more:
   jobs:
     '"A" Camera Operator': Operátor kamery "A"
@@ -3296,17 +3296,17 @@ sk-SK:
       go_to_edit: íst na stránku úprav
       last_reply: ísť na poslednú odpoveď
       new_discussion: vytvoriť novú diskusiu
-      next_episode: "(pravá šípka) ísť na nasledujúcu epizódu"
-      next_page: "(pravá šípka) nasledujúca strana"
-      next_season: "(pravá šípka) ísť na nasledujúcu sériu"
+      next_episode: '(pravá šípka) ísť na nasledujúcu epizódu'
+      next_page: '(pravá šípka) nasledujúca strana'
+      next_season: '(pravá šípka) ísť na nasledujúcu sériu'
       open_activity: otvoriť aktivitu
       open_add_image_window: otvoriť okno pre pridanie obrázku
       open_profile: otvoriť menu profilu
       open_shortcut_window: otvoriť okno klávesových skratiek
       open_translation_selector: otvoriť výber prekladu
-      previous_episode: "(ľavá šipka) isť na predchádzajúcu epizódu"
-      previous_page: "(ľavá šípka) predchádzajúca strana"
-      previous_season: "(ľavá šípka) ísť na predchádzajúcu sériu"
+      previous_episode: '(ľavá šipka) isť na predchádzajúcu epizódu'
+      previous_page: '(ľavá šípka) predchádzajúca strana'
+      previous_season: '(ľavá šípka) ísť na predchádzajúcu sériu'
       reply_to_discussion: odpovedať v diskusií
       save_form: odoslať formulár
       submit_message: odoslať vašu správu
@@ -3592,9 +3592,9 @@ sk-SK:
         language: Jazyk
         user: Užívateľ
       number_of_changes:
-        few: "%{count} Zmien"
-        one: "%{count} Zmena"
-        other: "%{count} Zmeny"
+        few: '%{count} Zmien'
+        one: '%{count} Zmena'
+        other: '%{count} Zmeny'
       view_weekly_leaderboard: Zobraziť týždenný rebríček
     character:
       edit:
@@ -3718,8 +3718,8 @@ sk-SK:
       visit_twitter: Navštíviť Twitter
       visit_youtube:
     genre:
-      movie_page_title: "%{name} filmy"
-      tv_page_title: "%{name} seriály"
+      movie_page_title: '%{name} filmy'
+      tv_page_title: '%{name} seriály'
     images:
       format: Formát
       no_backdrop_stills: Do tohto príspevku neboli pridané žiadne pozadia.
@@ -3733,7 +3733,7 @@ sk-SK:
         backdrop_stills: Statické pozadia
     keyword:
       movie_page_title: '"%{name}" filmy'
-      tv_page_title: "%{name} seriály"
+      tv_page_title: '%{name} seriály'
     movie:
       edit:
         adult:
@@ -3841,14 +3841,14 @@ sk-SK:
       years_old:
         few: ''
         one: ''
-        other: "%{count} rokov/y"
+        other: '%{count} rokov/y'
     rating:
       not_rateable:
       rated_with_rating: Hodnotenie %{value}
       rating_count:
-        few: "%{count} hodnotení"
-        one: "%{count} hodnotenie"
-        other: "%{count} hodnotenia"
+        few: '%{count} hodnotení'
+        one: '%{count} hodnotenie'
+        other: '%{count} hodnotenia'
       removed:
       score_breakdown: Rozbor skóre
       score_distribution: Rozdelenie skóre
@@ -3926,7 +3926,7 @@ sk-SK:
         mid_season:
       episode_selector:
         current_episode: Epizóda %{season_number}x%{episode_number}
-        episode: "%{episode_name} (%{season_number}x%{episode_number})"
+        episode: '%{episode_name} (%{season_number}x%{episode_number})'
         next_episode: Nasledujúca epizóda
         previous_episode: Predchádzajúca epizóda
     tv_season:
@@ -3970,9 +3970,9 @@ sk-SK:
           group: Skupina
           messages:
             episodes_added:
-              few: "%{count} epizód pridaných!"
-              one: "%{count} epizóda pridaná!"
-              other: "%{count} epizód pridaných!"
+              few: '%{count} epizód pridaných!'
+              one: '%{count} epizóda pridaná!'
+              other: '%{count} epizód pridaných!'
           name: Názov skupiny
           no_records: Nebola pridaná žiadna skupina epizód.
           type: Typ
@@ -3998,9 +3998,9 @@ sk-SK:
       episode_groups:
         groups:
           count:
-            few: "%{count} skupín"
-            one: "%{count} skupina"
-            other: "%{count} skupiny"
+            few: '%{count} skupín'
+            one: '%{count} skupina'
+            other: '%{count} skupiny'
         original_air_date: Pôvodný dátum vysielania
       networks:
         few: Siete
@@ -4064,11 +4064,11 @@ sk-SK:
       to: Komu
     no_messages: Žiadne správy
     notifications:
-      new_message: "%{username} vám poslal novú správu"
+      new_message: '%{username} vám poslal novú správu'
     number_of_messages:
-      few: "%{count} správ"
-      one: "%{count} správa"
-      other: "%{count} správ"
+      few: '%{count} správ'
+      one: '%{count} správa'
+      other: '%{count} správ'
     options:
       admin: Admin
       archive: Archív
@@ -4095,9 +4095,9 @@ sk-SK:
   monetize:
     create_api:
   month:
-    few: "%{count} mesiace"
+    few: '%{count} mesiace'
     one: mesiac
-    other: "%{count} mesiacov"
+    other: '%{count} mesiacov'
   navigation:
     discover:
       discover: Objav
@@ -4129,10 +4129,10 @@ sk-SK:
   no_episode_images: Neboli pridané žiadne obrázky k epizóde.
   no_favorite_movies:
     current_user: Nemáte žiadne filmy medzi obľúbenými.
-    public: "%{username} nemá žiadne filmy medzi obľúbenými."
+    public: '%{username} nemá žiadne filmy medzi obľúbenými.'
   no_favorite_tv_shows:
     current_user: Nepridali ste žiadne obľúbené seriály.
-    public: "%{username} nemá žiadne obľúbené seriály."
+    public: '%{username} nemá žiadne obľúbené seriály.'
   no_genres: Žiadne žánre neboli pridané
   no_guest_stars: Neboli pridané žiadne hosťujúce hviezdy.
   no_keyword_search_results: Neexistujú žiadne kľúčové slová zodpovedajúce zadaniu.
@@ -4147,10 +4147,10 @@ sk-SK:
     tv: Aby si získal osobné seriálové odporúčania. musíš sem začať pridávať všetky tvoje obľúbené seriály. V tomto momente, si môžeš všimnúť, že veľa z odporúčaných seriálov sú tie, ktoré si už videl. Pre ich filtrovanie, ohodnoťte ich! Akonáhle sú ohodnotené, my ich automaticky vyfiltrujeme.
   no_rated_movies:
     current_user: Neohodnotili ste žiadny film.
-    public: "%{username} neohodnotil žiadne filmy."
+    public: '%{username} neohodnotil žiadne filmy.'
   no_rated_tv_shows:
     current_user: Neohodnili ste žiadny seriál.
-    public: "%{username} nehodnotil žiadne seriály."
+    public: '%{username} nehodnotil žiadne seriály.'
   no_recommendations:
     movie: Nemáme dostatok informácií pre navrhnutie filmov podobných ako %{title}.. Pomôž nám ohodnotením filmov ktoré si videl.
     tv_show: Nemáme dostatok informácií pre navrhnutie seriálov podobných ako %{title}. Pomôž nám ohodnotením seriálov ktoré si videl.
@@ -4164,7 +4164,7 @@ sk-SK:
     public: Tento zoznam na pozeranie je prázdny.
   no_writer: Žiadny scenárista nebol pridaný.
   not_translated:
-    logged_in: "%{page_title} nebola preložená do <strong>%{requested_i18n} (%{requested_language_text})</strong>. Pokiaľ si želáš pokračovať a vytvoriť preklad, prosím klikni na tlačidlo nižšie."
+    logged_in: '%{page_title} nebola preložená do <strong>%{requested_i18n} (%{requested_language_text})</strong>. Pokiaľ si želáš pokračovať a vytvoriť preklad, prosím klikni na tlačidlo nižšie.'
     public: '%{page_title} nebola preložená do <strong>%{requested_i18n} (%{requested_language_text})</strong>. Môžeš pridať preklad <a href="%{signup_link}">signing up</a> účtu a <a href="%{login_link}">logging in</a>.'
   notifications:
     caught_up: Vyzerá to tak, že ste už všetko dohnali.
@@ -4179,21 +4179,21 @@ sk-SK:
     currency:
       format:
         delimiter: '" "'
-        format: "%n %u"
+        format: '%n %u'
         precision: 2
-        separator: ","
+        separator: ','
         significant: false
         strip_insignificant_zeros: false
-        unit: "€"
+        unit: '€'
     format:
-      delimiter: ","
+      delimiter: ','
       precision: 3
-      separator: "."
+      separator: '.'
       significant: false
       strip_insignificant_zeros: false
     human:
       decimal_units:
-        format: "%n %u"
+        format: '%n %u'
         units:
           billion: Bilión
           million: Milión
@@ -4211,34 +4211,34 @@ sk-SK:
           quadrillion: Q
           thousand: K
           trillion: T
-          unit: " "
+          unit: ' '
     percentage:
       format:
         delimiter:
-        format: "%n%"
+        format: '%n%'
     precision:
       format:
         delimiter:
   number_of_edits:
-    few: "%{count} úpravy"
-    one: "%{count} úprava"
-    other: "%{count} úprav"
+    few: '%{count} úpravy'
+    one: '%{count} úprava'
+    other: '%{count} úprav'
   number_of_items:
-    few: "%{count} položky"
-    one: "%{count} položka"
-    other: "%{count} položiek"
+    few: '%{count} položky'
+    one: '%{count} položka'
+    other: '%{count} položiek'
   number_of_results:
-    few: "%{count} výsledky"
-    one: "%{count} výsledok"
-    other: "%{count} výsledkov"
+    few: '%{count} výsledky'
+    one: '%{count} výsledok'
+    other: '%{count} výsledkov'
   number_of_translations:
-    few: "%{count} prekladov"
-    one: "%{count} preklad"
-    other: "%{count} prekladov"
+    few: '%{count} prekladov'
+    one: '%{count} preklad'
+    other: '%{count} prekladov'
   number_of_votes:
-    few: "%{count} hlasov"
-    one: "%{count} hlad"
-    other: "%{count} hlasov"
+    few: '%{count} hlasov'
+    one: '%{count} hlad'
+    other: '%{count} hlasov'
   ott:
     available_sentences:
       ads: pozerať s reklamami
@@ -4246,11 +4246,11 @@ sk-SK:
       flatrate: streamovať
       free: pozerať zadarmo
       rent: požičať
-      sentence: "%{title} je v súčastnosti dostupný na/v %{available_types} na/v %{country}."
+      sentence: '%{title} je v súčastnosti dostupný na/v %{available_types} na/v %{country}.'
     available_snippet:
       flatrate: Teraz streamuje
       rent_or_buy: Dostupné na požičanie alebo kúpu
-      summary_sentence: "%{available_snippet} na %{service_name}"
+      summary_sentence: '%{available_snippet} na %{service_name}'
     description: Vďaka JustWatch môžete zistiť, kde si sa dá legálne pozrieť váš obľúbený film alebo seriál online.
     filters:
       4k: 4K
@@ -4275,10 +4275,10 @@ sk-SK:
       sd: Nebola nájdená žiadna SD ponuka.
     page_title:
     seasons:
-      few: "%{count} serií"
-      many: "%{count} sérií"
-      one: "%{count} séria"
-      other: "%{count} série"
+      few: '%{count} serií'
+      many: '%{count} sérií'
+      one: '%{count} séria'
+      other: '%{count} série'
     view_offers: Zobraziť ponuky
     watch_now: Pozerať teraz
     watch_on:
@@ -4294,7 +4294,7 @@ sk-SK:
     next_page: Ďalšia strana
     next_page_with_arrow: Ďalšia strana →
     previous_page: Predchádzajúca strana
-    previous_page_with_arrow: "← Predchádzajúca strana"
+    previous_page_with_arrow: '← Predchádzajúca strana'
     show_more: Zobraziť viac
   part_of_collection: Súčasť %{collection_name}
   password:
@@ -4308,7 +4308,7 @@ sk-SK:
   person:
     credits:
       as_character: ako %{character}
-      as_job: "— %{job}"
+      as_job: '— %{job}'
   placeholder:
     primary_character_name:
   report:
@@ -4339,7 +4339,7 @@ sk-SK:
     watchlist_movie: Hľadať vo filmovom zozname na pozeranie...
     watchlist_tv: Hľadať v seriálovom zozname na pozeranie...
   search_text_validation_error:
-  search_tip_1: 'Tip: Môžeš použiť ''y:'' filter pre zúženie vyhľadávania podľa roku. Napríklad: ''star wars y:1977''.'
+  search_tip_1: "Tip: Môžeš použiť 'y:' filter pre zúženie vyhľadávania podľa roku. Napríklad: 'star wars y:1977'."
   season_number_name: Séria %{season_number}
   season_overview:
     already_aired: Séria %{season_number} seriálu %{show_name} mala premiéru %{date}.
@@ -4575,17 +4575,17 @@ sk-SK:
   success_sharing: Správa bola úspešne zdielaná.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
-      words_connector: ", "
+      last_word_connector: ', and '
+      two_words_connector: ' and '
+      words_connector: ', '
   the:
   time:
     am:
     formats:
-      12hour_minutes: "%l:%M%p"
+      12hour_minutes: '%l:%M%p'
       default:
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
+      long: '%B %d, %Y %I:%M %p'
+      short: '%d %b %I:%M %p'
     pm:
     units:
       hours:
@@ -4653,11 +4653,11 @@ sk-SK:
         sort: Zoradiť
       type: Typ
     number_of_videos:
-      few: "%{count} videí"
-      one: "%{count} video"
-      other: "%{count} videá"
+      few: '%{count} videí'
+      one: '%{count} video'
+      other: '%{count} videá'
     official_channel: Oficiálny kanál
-    page_title: "%{name} video kanál"
+    page_title: '%{name} video kanál'
     popular: Populárne
     refresh_from_youtube:
     types:
@@ -4683,4 +4683,4 @@ sk-SK:
   will_paginate:
     next_label: Nasledujúce  →
     page_gap:
-    previous_label: "← Predchádzajúce"
+    previous_label: '← Predchádzajúce'

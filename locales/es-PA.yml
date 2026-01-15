@@ -42,7 +42,7 @@ es-PA:
   Add Profile: Añadir Perfil
   Add Season Regular: Agregar Temporada Regular
   Add Title Logo: Añadir el Logo del Título
-  Add To Every Season?: "¿Agregar a Cada Temporada?"
+  Add To Every Season?: '¿Agregar a Cada Temporada?'
   Add Video: Agregar un Video
   Add YouTube Video: Agregar Video de YouTube
   Add a New Cast Member: Agregar Nuevo Miembro del Elenco
@@ -73,10 +73,10 @@ es-PA:
   Application Summary: Descripción General de la Aplicación
   Application URL: URL de la Aplicación
   Approve: Aprobado
-  Approved?: "¿Aprobado?"
+  Approved?: '¿Aprobado?'
   Apps: Apps
   Archived Databases: Bases de Datos Archivados
-  Are you sure?: "¿Estás seguro?"
+  Are you sure?: '¿Estás seguro?'
   Attributes: Atributos
   Auto: Auto
   Awards: Premios
@@ -288,7 +288,7 @@ es-PA:
   Networks:
   New:
   New episode airs in:
-  "No":
+  'No':
   No Language: Sin Idioma
   None:
   Notes:
@@ -504,7 +504,7 @@ es-PA:
   Wrappers & Libraries:
   Written by:
   Year:
-  "Yes": Sí
+  'Yes': Sí
   Your lists: Tus listas
   Your rating: Tu calificación
   Zip Code: Código Postal
@@ -567,8 +567,8 @@ es-PA:
             Unsubscribed: Dado de baja
             status: Estado
         number_of_items:
-          one: "%{count} Correo Electrónico"
-          other: "%{count} Correos Electrónicos"
+          one: '%{count} Correo Electrónico'
+          other: '%{count} Correos Electrónicos'
       events: Eventos
       notifications:
         filters:
@@ -583,8 +583,8 @@ es-PA:
           one: Notificación
           other: Notificaciones
         number_of_items:
-          one: "%{count} Notificación"
-          other: "%{count} Notificaciones"
+          one: '%{count} Notificación'
+          other: '%{count} Notificaciones'
       page_title:
         recent_events: Eventos Recientes
       recent: Reciente
@@ -599,7 +599,7 @@ es-PA:
       page_title:
         page_owner: Mis Favoritos
         public: Favoritos de %{username}
-    filter_by: "Filtrar por:"
+    filter_by: 'Filtrar por:'
     filters:
       air_date: Fecha de Primera Emisión
       alphabetical: Alfabético
@@ -623,7 +623,7 @@ es-PA:
         public: Listas de %{username}
       no_lists:
         logged_in: No has creado ninguna lista.
-        public: "%{username} no tiene ninguna lista pública para compartir."
+        public: '%{username} no tiene ninguna lista pública para compartir.'
       page_title:
         page_owner: Mis Listas
         public: Listas de %{username}
@@ -638,17 +638,17 @@ es-PA:
       recommendations: Recomendaciones
       reviews: Reseñas
       watchlist: Lista de Seguimiento
-    order: "Orden:"
+    order: 'Orden:'
     overview:
       30_day_activity: Actividad de los últimos 30 días
       empty_recent_activity:
         logged_in: No has realizado ediciones recientes.
-        public: "%{username} no ha realizado ediciones recientes."
+        public: '%{username} no ha realizado ediciones recientes.'
       empty_upcoming_watchlist:
         logged_in: No hay películas próximas en tu lista de seguimiento.
       empty_watched_genres:
         logged_in: No has registrado ninguna película o serie de TV.
-        public: "%{username} no ha registrado ninguna película o serie de TV."
+        public: '%{username} no ha registrado ninguna película o serie de TV.'
       goto_discussions: Ir a Discusiones
       goto_watchlist: Ir a la Lista de Seguimiento
       most_watched_genres: Géneros Más Vistos
@@ -706,7 +706,7 @@ es-PA:
       this_week: Esta semana
       view_them: Míralos
   add_to_list: Agregar %{media_title} a una de tus listas...
-  already_translated_in: "%{page_title} ya fue traducido en los siguientes idiomas..."
+  already_translated_in: '%{page_title} ya fue traducido en los siguientes idiomas...'
   api_for_business:
     api_for_business: API para Empresas
     form:
@@ -722,11 +722,11 @@ es-PA:
       error: no puede quedar vacío
       name:
         label: Nombre
-      success: "¡Tu solicitud de ventas empresariales ha sido enviada, gracias!"
+      success: '¡Tu solicitud de ventas empresariales ha sido enviada, gracias!'
   api_session:
     3rd_party_request: Solicitud de Autenticación de Terceros
     account_required:
-      need_account: "¡Debes iniciar sesión para continuar!"
+      need_account: '¡Debes iniciar sesión para continuar!'
       title: Es Necesario Tener una Cuenta
     approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
     continue: Para continuar, haz clic en el botón de aprobación. Si prefieres no hacerlo, puedes cerrar esta ventana.
@@ -737,13 +737,13 @@ es-PA:
       message: Es necesario un token de solicitud para la autenticación de cuentas de usuario.
       title: Falta el Token de Solicitud
     request_token_approval:
-      message: "{{APP}} requiere tu autorización para acceder y modificar datos en tu nombre. Esto es necesario para funciones como gestionar tus listas o puntuar películas fuera de TMDB."
+      message: '{{APP}} requiere tu autorización para acceder y modificar datos en tu nombre. Esto es necesario para funciones como gestionar tus listas o puntuar películas fuera de TMDB.'
     statuses:
       completed:
         message: Has otorgado permiso de lectura y escritura a <strong>%{application_name}</strong>. Ahora puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso desde la configuración de tu cuenta en la sección "Aplicaciones conectadas".
         name: Autenticación Concedida
       denied:
-        message: "<p>El acceso a <strong>%{application_name}</strong> ha sido denegado. Si cometiste un error o deseas repetir el proceso de autenticación, vuelve a la aplicación y solicita nuevamente el permiso.</p>"
+        message: '<p>El acceso a <strong>%{application_name}</strong> ha sido denegado. Si cometiste un error o deseas repetir el proceso de autenticación, vuelve a la aplicación y solicita nuevamente el permiso.</p>'
         name: Autenticación Denegada
       invalid_request_token:
         message: El token de acceso que has enviado no es válido. La mayoría de las veces, esto ocurre porque el token ha expirado. Intenta crear uno nuevo y asegúrate de copiarlo correctamente. Si el problema persiste, contacta al desarrollador de la aplicación que estás usando.
@@ -823,7 +823,7 @@ es-PA:
         one:
         other:
       one: 1 Nominación
-      other: "%{count} Nominaciones"
+      other: '%{count} Nominaciones'
       title:
     nominee: Nominado
     show_info:
@@ -839,7 +839,7 @@ es-PA:
     winner: Ganador
     wins:
       one: 1 Ganada
-      other: "%{count} Ganadas"
+      other: '%{count} Ganadas'
   back_options:
     award:
     back: Volver
@@ -860,549 +860,549 @@ es-PA:
     meaning:
     movies:
       AU:
-        "1":
+        '1':
           meaning: Exento de clasificación. Las películas exentas de clasificación no deben contener material polémico (es decir, contenido que normalmente recibiría una clasificación M o superior).
-        "2":
+        '2':
           meaning: General. El contenido es de impacto mínimo.
-        "3":
+        '3':
           meaning: Se sugiere orientación parental. No existen límites de edad. El contenido es de bajo impacto.
-        "4":
+        '4':
           meaning: Sugerido para público adulto. Sin restricciones de edad. El contenido posee un impacto moderado.
-        "5":
+        '5':
           meaning: Acompañado de adultos. No apto para menores de 15 años. Los niños menores de 15 años deben estar acompañados por sus padres o tutores. El contenido es fuerte.
-        "6":
+        '6':
           meaning: Restringido solo para mayores de 18 años. Solo para adultos. El contenido es fuerte.
-        "7":
+        '7':
           meaning: Restringido solo para mayores de 18 años. Las películas con esta calificación tienen contenido pornográfico. Las películas clasificadas como X18+ tienen prohibida su venta o alquiler en todos los estados australianos y solo están legalmente disponibles en la zona norte y la capital australiana. Sin embargo, importar material X18+ de los dos territorios a cualquiera de los estados australianos es legal. El contenido tiene un contenido sexual explícito.
-        "8":
+        '8':
           meaning: Clasificación rechazada. Prohibida la venta y alquiler en Australia. También se aplica normalmente a la importación (si es inspeccionado por Aduanas). La visualización privada de Internet no se lleva a cabo y los intentos de censurar legalmente dicho material en línea han generado controversia. Las películas tienen una calificación RC si su contenido excede las directrices. El contenido es de alto impacto.
       BG:
-        "1":
+        '1':
           meaning: Apto para niños.
-        "2":
+        '2':
           meaning: Apto para todas las edades.
-        "3":
+        '3':
           meaning: No recomendado para niños menores de 12 años.
-        "4":
+        '4':
           meaning: Prohibido para menores de 16 años.
-        "5":
+        '5':
           meaning: Prohibido para personas menores de 18 años.
       BR:
-        "1":
+        '1':
           meaning: Público general. No expongas a los menores a contenido que pueda ser perjudicial.
-        "2":
+        '2':
           meaning: No recomendado para menores de diez años. Contenido violento o lenguaje inapropiado para niños, aunque de menor intensidad.
-        "3":
+        '3':
           meaning: No recomendado para menores de doce años. Las escenas pueden incluir agresión física, uso de drogas legales y insinuaciones sexuales.
-        "4":
+        '4':
           meaning: No recomendado para menores de catorce años. Contenido más violento, referencias sexuales más fuertes y/o desnudez.
-        "5":
+        '5':
           meaning: No recomendada para menores de dieciséis años. Hay escenas con tráfico y/o uso de drogas ilegales, sexo realista, violencia sexual, aborto, tortura, mutilación, suicidio y trivialización de la violencia y la pena de muerte.
-        "6":
+        '6':
           meaning: No recomendada para menores de dieciocho. Escenas de sexo explícito, incesto, pedofilia, elogios del uso de las drogas ilegales y violencia de muy alta intensidad.
       CA:
-        "1":
+        '1':
           meaning: Para todas las edades.
-        "2":
+        '2':
           meaning: Se recomienda la supervisión parental. No hay restricción de edad, pero algunos contenidos pueden no ser adecuados para todos los niños.
-        "3":
+        '3':
           meaning: Los menores de 14 años deben estar acompañados de un adulto.
-        "4":
+        '4':
           meaning: Los menores de 18 años deben estar acompañados de un adulto. En Manitoba y las Provincias Marítimas de Canadá, los menores de 14 años tienen prohibido su visionado.
-        "5":
+        '5':
           meaning: Restringido a menores de 18. El único propósito de la película es representar actividad sexual explícita y/o violencia explícita.
       CA-QC:
-        "0":
+        '0':
           meaning: No hay información de calificación.
-        "1":
+        '1':
           meaning: Clasificación General - Puede ser vista, alquilada o comprada por gente de todas las edades. Si la película lleva una "G" ofende la sensibilidad de los menores de 8 años. Se añade "no válida para niños".
-        "2":
+        '2':
           meaning: Mayores de 13 años -  Puede ser vista, alquilada o comprada sólo por mayores de 13 años. Los menores de 13 años sólo son admitidos si van acompañados de un adulto.
-        "3":
+        '3':
           meaning: Mayores de 16 años - Puede ser vista, alquilada o comprada sólo por mayores de 16 años.
-        "4":
+        '4':
           meaning: Mayores de 18 años - Puede ser vista, alquilada o comprada sólo por mayores de 18 años. Si la película contiene actividad sexual real y explícita, se añade "Sexo explícito" y en las tiendas de venta es obligatorio que haya una sala para adultos.
       DE:
-        "1":
+        '1':
           meaning: Sin restricción de edad.
-        "2":
+        '2':
           meaning: No se admiten menores de 6 años.
-        "3":
+        '3':
           meaning: Se permite la entrada a niños de 12 años en adelante, y a niños de entre 6 y 11 años solo si van acompañados por unos padres o tutores legales.
-        "4":
+        '4':
           meaning: Solo se permite la entrada a niños de 16 años o más, no se admiten menores de esa edad.
-        "5":
+        '5':
           meaning: No se admite a menores, solo adultos.
       DK:
-        "0":
+        '0':
           meaning: No hay información de clasificación.
-        "1":
+        '1':
           meaning: Apto para todo público.
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       ES:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       FI:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning: Más de 16 años.
-        "5":
+        '5':
           meaning: Solo Adultos
-        "6":
+        '6':
           meaning: Prohibido para la distribución comercial.
       FR:
-        "1":
+        '1':
           meaning: (Todo público)" válido para todo público.
-        "2":
+        '2':
           meaning: '"Desaconsejado para menores de 10 años" (esta clasificación solo se utiliza para televisión); equivalente en cines: "vertissement" (advertencia), algunas escenas pueden ser perturbadoras para niños pequeños y personas sensibles; equivalente en video: "accord parental" (guía parental).'
-        "3":
+        '3':
           meaning: Prohibido para menores de 12 años o Inadecuado para menores de 12 años.
-        "4":
+        '4':
           meaning: Prohibido para menores de 16 años o Inadecuado para menores de 16 años.
-        "5":
+        '5':
           meaning: Prohibido para menores de edad o Prohibido para menores de 18 años.
       GB:
-        "1":
+        '1':
           meaning: Apto para todas las edades, no hay nada inapropiado para los niños.
-        "2":
+        '2':
           meaning: Admitido para todas las edades, pero algunas escenas pueden no ser adecuadas para niños pequeños. Puede contener lenguaje moderado y referencias a sexo/drogas. Puede incluir violencia moderada si está justificada por el contexto (por ejemplo, en fantasía).
-        "3":
+        '3':
           meaning: Admitido para todas las edades, pero algunas escenas pueden no ser adecuadas para niños pequeños. Puede contener lenguaje moderado y referencias a sexo o drogas. Puede incluir violencia moderada si está justificada por el contexto (por ejemplo, en una obra de fantasía).
-        "4":
+        '4':
           meaning: Solo medios caseros desde 2002. Las películas clasificadas como 12A generalmente reciben una clasificación 12 para las versiones en VHS/DVD, a menos que se haya añadido material adicional que requiera una clasificación más alta. Nadie menor de 12 años puede alquilar ni comprar un VHS, DVD, Blu-ray, UMD o juego clasificado como 12. Las pautas de contenido son idénticas a las utilizadas para la clasificación 12A.
-        "5":
+        '5':
           meaning: Solo se permite el acceso a mayores de 15 años. Nadie menor de 15 años puede alquilar o comprar un VHS, DVD, Blu-ray, UMD o videojuego clasificado con una calificación de 15, ni ver una película en el cine con esta calificación. Las películas de esta categoría pueden contener temas adultos, drogas duras, lenguaje fuerte frecuente y un uso limitado de lenguaje muy fuerte, violencia intensa, referencias sexuales explícitas y desnudos sin detalles gráficos. Se puede mostrar actividad sexual, pero sin detalles explícitos. La violencia sexual puede ser mostrada si es discreta y está justificada por el contexto.
-        "6":
+        '6':
           meaning: Solo se admite a adultos. Nadie menor de 18 años puede alquilar o comprar una cinta VHS, DVD, Blu-ray, UMD o videojuego con clasificación 18, ni ver una película en el cine con esta clasificación. Las películas bajo esta categoría no tienen limitación en el uso de lenguaje ofensivo. Las drogas duras generalmente están permitidas, al igual que las referencias explícitas a sexo y actividades sexuales detalladas. Escenas de sexo real explícito pueden ser permitidas si están justificadas por el contexto. Se suele permitir violencia muy fuerte, gore o sadismo. La violencia sexual fuerte es permitida, a menos que esté erotizada o sea excesivamente gráfica.
-        "7":
+        '7':
           meaning: 'Solo puede ser mostrado en cines para adultos con licencia o vendido en tiendas de sexo con licencia, y solo a adultos mayores de 18 años. Las películas bajo esta categoría siempre son pornografía explícita, definida como material destinado a la estimulación sexual y que contiene imágenes claras de actividad sexual real, material fetichista fuerte, imágenes explícitas animadas o escenas de ciertos actos como penetración triple simultánea o "snowballing". Existe una gama de material que a menudo se corta de la calificación R18: imágenes fuertes de lesiones en trabajos BDSM o de azotes, urolagnia, escenas que sugieren incesto, incluso si están actuadas, referencias a sexo con menores o desarrollo sexual infantil, y comportamientos agresivos como tirar del cabello o escupir a un intérprete no están permitidos. Se exigen más cortes en esta categoría que en cualquier otra.'
       HU:
-        "0":
+        '0':
           meaning: Sin información de calificación.
-        "1":
+        '1':
           meaning: Sin restricción de edad.
-        "2":
+        '2':
           meaning: No recomendado para menores de 6 años.
-        "3":
+        '3':
           meaning: No recomendado para menores de 12 años.
-        "4":
+        '4':
           meaning: No recomendado para menores de 16 años.
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       IN:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
       IT:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
       LT:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       MY:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning: '(Pelbagai: "Varios") - La película puede contener violencia extrema, sangre, horror/terror, escenas de sexo, desnudez, diálogos/referencias sexuales, así como aspectos religiosos, sociales o políticos que algunas personas puedan considerar inapropiados. La mayoría de las películas para mayores de 18 años utilizan esta clasificación. Por ejemplo, una película con escenas de sexo y violencia extrema será clasificada como 18PL, aunque las escenas de sexo y desnudez sean estrictamente censuradas por el LPF.'
       NL:
-        "1":
+        '1':
           meaning: Para todas las edades.
-        "2":
+        '2':
           meaning: Potencialmente perjudicial para niños menores de 6 años.
-        "3":
+        '3':
           meaning: Potencialmente perjudicial para niños menores de 9 años.
-        "4":
+        '4':
           meaning: Potencialmente perjudicial para niños menores de 12 años; no se permite la transmisión antes de las 8:00 p.m.
-        "5":
+        '5':
           meaning: '"Potencialmente perjudicial para niños menores de 16 años; no se permite la transmisión antes de las 10:00 p.m."'
-      "NO":
-        "0":
+      'NO':
+        '0':
           meaning: Sin información de calificación.
-        "1":
+        '1':
           meaning: Apto para todos.
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       NZ:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
-        "7":
+        '7':
           meaning:
-        "8":
+        '8':
           meaning:
       PH:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       PT:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
-        "7":
+        '7':
           meaning:
-        "8":
+        '8':
           meaning:
       RU:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       SE:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
       US:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
     tv_series:
       AU:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
-        "7":
+        '7':
           meaning:
-        "8":
+        '8':
           meaning:
       BR:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       CA:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       CA-QC:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       DE:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
       ES:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
-        "7":
+        '7':
           meaning:
-        "8":
+        '8':
           meaning:
       FR:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
       GB:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       HU:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       KR:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       LT:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
       NL:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       PH:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
       PT:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       RU:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       SK:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
       TH:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
       US:
-        "0":
+        '0':
           meaning:
-        "1":
+        '1':
           meaning:
-        "2":
+        '2':
           meaning:
-        "3":
+        '3':
           meaning:
-        "4":
+        '4':
           meaning:
-        "5":
+        '5':
           meaning:
-        "6":
+        '6':
           meaning:
   character:
     Movie:
@@ -1735,7 +1735,7 @@ es-PA:
   deleted_content:
     entry_deleted: Registro Eliminado
     reasons:
-      "1":
+      '1':
         message: |-
           Hola ¿Qué tal?,
 
@@ -1743,7 +1743,7 @@ es-PA:
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
         subject: Es un duplicado
-      "2":
+      '2':
         message: |-
           Hola ¿Qué tal?,
 
@@ -1751,7 +1751,7 @@ es-PA:
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
         subject: No se ajusta a nuestras normas de contenido(amateur, etc...)
-      "3":
+      '3':
         message: |-
           Hola ¿Qué tal?,
 
@@ -1759,7 +1759,7 @@ es-PA:
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
         subject: Es un programa de televisión
-      "4":
+      '4':
         message: |-
           Hola ¿Qué tal?,
 
@@ -1767,7 +1767,7 @@ es-PA:
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
         subject: Es un registro falso
-      "5":
+      '5':
         message: |-
           Hola ¿Qué tal?,
 
@@ -1775,7 +1775,7 @@ es-PA:
 
           Si tienes alguna pregunta sobre esta eliminación, no dudes en responder a este mensaje.
         subject: Es spam
-    why_deleting: "¿Por qué estás eliminando esta entrada?"
+    why_deleting: '¿Por qué estás eliminando esta entrada?'
   department_credits_count:
   departments:
     Acting:
@@ -2229,12 +2229,12 @@ es-PA:
   homepage:
     community:
       benefits_list:
-        "1":
-        "2":
-        "3":
-        "4":
-        "5":
-        "6":
+        '1':
+        '2':
+        '3':
+        '4':
+        '5':
+        '6':
     discussions:
       catch_up_now:
       discussions:
@@ -2275,15 +2275,15 @@ es-PA:
   images:
     confirm_delete:
     upload_criteria:
-      "1":
-      "2":
-      "3":
-      "4":
-      "5":
-      "6":
-      "7":
-      "8":
-      "9":
+      '1':
+      '2':
+      '3':
+      '4':
+      '5':
+      '6':
+      '7':
+      '8':
+      '9':
       backdrops_must_meet:
       episode_stills_must_meet:
       headshots_must_meet:
@@ -3513,7 +3513,7 @@ es-PA:
     login_text_1:
     login_text_2:
     login_to_your_account:
-  login_to_create: "¿No encuentras una película o serie? Inicia sesión para crearla."
+  login_to_create: '¿No encuentras una película o serie? Inicia sesión para crearla.'
   login_to_edit:
   media:
     adult:
@@ -3585,17 +3585,17 @@ es-PA:
           writer: Escritor/a
         summary: Parece que nos falta la siguiente información en <strong>%{language}</strong> o <strong>%{fallback_language}</strong>...
       scale:
-        "0": Comienza por dónde quieras...
-        "1": Es un buen comienzo.
-        "10": "¡Sí! ¡Se ve genial!"
-        "2": Estamos avanzando.
-        "3": Roma no se hizo en un día...
-        "4": No hay un 'yo' en el equipo...
-        "5": Aún necesita un poco de trabajo.
-        "6": Estamos tan cerca, pero a la vez tan lejos.
-        "7": Solo un poco más...
-        "8": "¡Apúrate! Estamos cerca."
-        "9": Un poco más
+        '0': Comienza por dónde quieras...
+        '1': Es un buen comienzo.
+        '10': '¡Sí! ¡Se ve genial!'
+        '2': Estamos avanzando.
+        '3': Roma no se hizo en un día...
+        '4': No hay un 'yo' en el equipo...
+        '5': Aún necesita un poco de trabajo.
+        '6': Estamos tan cerca, pero a la vez tan lejos.
+        '7': Solo un poco más...
+        '8': '¡Apúrate! Estamos cerca.'
+        '9': Un poco más
     crew_credits:
       crew_credits:
       select:
@@ -3901,13 +3901,13 @@ es-PA:
           no_records:
           type:
           types:
-            "1":
-            "2":
-            "3":
-            "4":
-            "5":
-            "6":
-            "7":
+            '1':
+            '2':
+            '3':
+            '4':
+            '5':
+            '6':
+            '7':
         networks:
           no_records:
           none_found:
@@ -4087,17 +4087,17 @@ es-PA:
   number:
     currency:
       format:
-        delimiter: "."
-        format: "%n%u"
+        delimiter: '.'
+        format: '%n%u'
         precision: 2
-        separator: ","
+        separator: ','
         significant: false
         strip_insignificant_zeros: false
-        unit: "$"
+        unit: '$'
     format:
-      delimiter: "."
+      delimiter: '.'
       precision: 3
-      separator: ","
+      separator: ','
       significant: false
       strip_insignificant_zeros: false
     human:
@@ -4336,7 +4336,7 @@ es-PA:
     notifications:
       api_updates:
       email_new_releases_watchlist:
-      new_replies_to_threads_created: "¿Ver automáticamente los temas que creo o a los que respondo?"
+      new_replies_to_threads_created: '¿Ver automáticamente los temas que creo o a los que respondo?'
       new_replies_to_threads_watching:
       news_updates:
       notifications:
@@ -4505,17 +4505,17 @@ es-PA:
       label:
       prompt:
       tooltip:
-        "0":
-        "10":
-        "100":
-        "20":
-        "30":
-        "40":
-        "50":
-        "60":
-        "70":
-        "80":
-        "90":
+        '0':
+        '10':
+        '100':
+        '20':
+        '30':
+        '40':
+        '50':
+        '60':
+        '70':
+        '80':
+        '90':
     tone:
       label:
       no_results:
