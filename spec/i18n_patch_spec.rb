@@ -62,6 +62,33 @@ RSpec.describe I18nPatch do
       })
     end
 
+    example "handle zero edge case when converting pluralized keys for en-US" do
+      pending
+      patch = I18nPatch.new(
+        {
+          "abc" => {
+            "zero" => "789"
+          }
+        },
+        locale: "en-US"
+      )
+
+      target = {
+        "abc" => {
+          "one" => "234",
+          "other" => "456",
+        }
+      }
+
+      expect(patch.apply(target)).to eq({
+        "abc" => {
+          "one" => "234",
+          "other" => "456",
+          "zero" => "789"
+        }
+      })
+    end
+
     example "prioritizes key order of target hash" do
       patch = I18nPatch.new({
         "ghi" => "345",
