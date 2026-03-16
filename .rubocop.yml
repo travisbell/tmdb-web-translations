@@ -1,0 +1,44 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.4
+  NewCops: enable
+  Exclude:
+    - pluralization/**/*.rb
+    - transliteration/**/*.rb
+
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - Gemfile
+    - lib/rails_i18n/common_pluralizations/**/*.rb
+    - pluralization/**/*.rb
+    - spec/**/*_spec.rb
+
+Layout/ArrayAlignment:
+  Enabled: true
+
+Layout/HashAlignment:
+  Enabled: true
+  EnforcedStyle: table
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: false
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: false
+
+Layout/MultilineMethodDefinitionBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/MultilineMethodArgumentLineBreaks:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: no_comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: no_comma

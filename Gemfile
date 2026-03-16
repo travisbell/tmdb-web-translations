@@ -1,8 +1,12 @@
-source "http://rubygems.org"
+# frozen_string_literal: true
 
-group :development do
-  gem 'rspec'
-  gem 'bundler'
-  gem 'localeapp'
-  gem 'tmdb_web_translations', :path => '.'
-end
+source "https://rubygems.org"
+
+gemspec
+
+gem "dotenv"
+gem "rails-i18n", require: false
+gem "rake"
+gem "rspec", require: false
+gem "rubocop"
+gem "rubocop-shopify"
