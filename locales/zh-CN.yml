@@ -568,8 +568,8 @@ zh-CN:
             Unsubscribed: 已取消订阅
             status: 状态
         number_of_items:
-          one: "共 %{count} 封电子邮件"
-          other: "共 %{count} 封电子邮件"
+          one: 共 %{count} 封电子邮件
+          other: 共 %{count} 封电子邮件
       events: 事件
       notifications:
         filters:
@@ -582,8 +582,8 @@ zh-CN:
             type: 类型
         notifications: 通知
         number_of_items:
-          one: "共 %{count} 个通知"
-          other: "共 %{count} 个通知"
+          one: 共 %{count} 个通知
+          other: 共 %{count} 个通知
       page_title:
         recent_events: 最近事件
       recent: 最近
@@ -823,7 +823,7 @@ zh-CN:
       number:
         other:
       one: 共 1 项提名
-      other: "共 %{count} 项提名"
+      other: 共 %{count} 项提名
       title:
       shared_with:
     nominee: 提名
@@ -840,7 +840,7 @@ zh-CN:
     winner: 获奖
     wins:
       one: 共 1 个奖项
-      other: "共 %{count} 个奖项"
+      other: 共 %{count} 个奖项
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1776,7 +1776,7 @@ zh-CN:
     - 十一月
     - 十二月
   day: 日
-  days: "共 %{count} 天"
+  days: 共 %{count} 天
   deleted_content:
     entry_deleted: 条目已删除
     reasons:
@@ -1990,11 +1990,11 @@ zh-CN:
     no_discussions: 暂无讨论。
     pagination:
       post_summary:
-        one: "共 %{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
-        other: "共 %{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）"
+        one: 共 %{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）
+        other: 共 %{count} 回复（第 %{current_page} 页，共 %{total_pages} 页）
       summary:
-        one: "共 %{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
-        other: "共 %{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页"
+        one: 共 %{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页
+        other: 共 %{count} 个讨论，当前第 %{current_page} 页，共 %{total_pages} 页
     post:
       delete: 删除
       edit: 编辑
@@ -2142,7 +2142,7 @@ zh-CN:
       1fae2: 睁眼捂嘴
       1fae3: 偷看
       1fae4: 郁闷
-  episode_count: "共 %{count} 集"
+  episode_count: 共 %{count} 集
   episode_number_name: 第 %{episode_number} 集
   error_pages:
     deleted_account:
@@ -2379,8 +2379,8 @@ zh-CN:
       validation_header: "%{type}必须满足以下要求："
   invalid_aspect_ratio: 此宽高比无效。
   item_count:
-    one: "共 %{count} 个条目"
-    other: "共 %{count} 个条目"
+    one: 共 %{count} 个条目
+    other: 共 %{count} 个条目
   item_count_more: "%{count} 更多..."
   jobs:
     '"A" Camera Operator': A 机位掌机师
@@ -2738,7 +2738,7 @@ zh-CN:
     Executive In Charge Of Post Production: 执行后期制作主管
     Executive In Charge Of Production: 执行制片主管
     Executive Music Producer: 执行音乐制作
-    Executive Producer: '出品人 / 总监制'
+    Executive Producer: 出品人 / 总监制
     Executive Producer's Assistant: 出品人助理
     Executive Story Editor: 执行故事剪辑师
     Executive Visual Effects Producer: 执行视效制作
@@ -2996,7 +2996,7 @@ zh-CN:
     Production Controller: 制作总监
     Production Coordinator: 制作统筹
     Production Design: 美术顾问（美术总监）
-    Production Designer: "场景设计 / 制景师"
+    Production Designer: 场景设计 / 制景师
     Production Director: 制片指导
     Production Driver: 制作推动者
     Production Executive: 制作执行人
@@ -3617,8 +3617,8 @@ zh-CN:
         language: 语言
         user: 用户
       number_of_changes:
-        one: "共 %{count} 次更改"
-        other: "共 %{count} 次更改"
+        one: 共 %{count} 次更改
+        other: 共 %{count} 次更改
       view_weekly_leaderboard: 查看本周贡献榜
     character:
       edit:
@@ -3727,6 +3727,8 @@ zh-CN:
         original_title: 原始片名应以条目的默认语言书写，通常和“默认语言”栏选择的语言一致。
         overview: 简介请尽量简明扼要，不要剧透。
         social_links: 社交链接仅用于填写（已认证的）官方网站，不允许填写粉丝网站 。
+        softcore:
+        video:
       translation_already_exists: "%{language}翻译已经存在。"
       translation_not_found: "%{language}翻译还未创建。"
       unlock_all_appearances: 通过单击“是”，您将解锁所有现有记录。
@@ -3797,6 +3799,8 @@ zh-CN:
           no_records: 尚未添加任何发行日期。
         videos:
           no_records: 尚未添加视频。
+        softcore:
+          softcore_movie:
       statuses:
         Canceled: 已取消
         In Production: 拍摄中
@@ -3865,8 +3869,8 @@ zh-CN:
       not_rateable: 该条目暂不可评分。
       rated_with_rating: 已评分 %{value}
       rating_count:
-        one: "共 %{count} 个评分"
-        other: "共 %{count} 个评分"
+        one: 共 %{count} 个评分
+        other: 共 %{count} 个评分
       removed: 你的评分已被删除。
       score_breakdown: 评分明细
       score_distribution: 分数分布
@@ -4013,11 +4017,13 @@ zh-CN:
           enter_value: 输入分钟值
         seasons:
           no_records: 尚未添加季。
+        softcore:
+          softcore_show:
       episode_groups:
         groups:
           count:
-            one: "共 %{count} 组"
-            other: "共 %{count} 组"
+            one: 共 %{count} 组
+            other: 共 %{count} 组
         original_air_date: 首播日期
       networks:
         one: 播出平台
@@ -4084,8 +4090,8 @@ zh-CN:
     notifications:
       new_message: "%{username} 给你发来新消息"
     number_of_messages:
-      one: "共 %{count} 条消息"
-      other: "共 %{count} 条消息"
+      one: 共 %{count} 条消息
+      other: 共 %{count} 条消息
     options:
       admin: 管理
       archive: 存档
@@ -4241,11 +4247,11 @@ zh-CN:
     precision:
       format:
         delimiter:
-  number_of_edits: "共%{count} 次编辑"
-  number_of_items: "共 %{count} 个条目"
-  number_of_results: "共 {count} 个结果"
-  number_of_translations: "共 %{count} 个翻译"
-  number_of_votes: "共 %{count} 人评分"
+  number_of_edits: 共%{count} 次编辑
+  number_of_items: 共 %{count} 个条目
+  number_of_results: 共 {count} 个结果
+  number_of_translations: 共 %{count} 个翻译
+  number_of_votes: 共 %{count} 人评分
   ott:
     available_sentences:
       ads: 带广告
@@ -4282,8 +4288,8 @@ zh-CN:
       sd: 未找到 SD 报价。
     page_title: 我在哪里可以观看%{media_name}?
     seasons:
-      many: "共 %{count} 季"
-      other: "共 %{count} 季"
+      many: 共 %{count} 季
+      other: 共 %{count} 季
     view_offers: 浏览报价
     watch_now: 立即观看
     watch_on:
@@ -4661,8 +4667,8 @@ zh-CN:
         sort: 排序
       type: 类型
     number_of_videos:
-      one: "共 %{count} 个视频"
-      other: "共 %{count} 个视频"
+      one: 共 %{count} 个视频
+      other: 共 %{count} 个视频
     official_channel: 官方频道
     page_title: "%{name} 视频频道"
     popular: 热门
