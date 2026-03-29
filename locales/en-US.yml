@@ -1978,8 +1978,9 @@ en-US:
       last_reply_with_datetime_and_username: "%{date} at %{time}<br>by %{username}"
       last_reply_with_datetime_v2: last reply on %{date} at %{time}
       last_reply_with_datetime_and_username_v2: last reply by %{username} on %{date} at %{time}
-      posted_by_with_datetime: "posted <time class=\"timeago\" datetime=\"%{time}\">%{time}</time>"
-      posted_by_with_datetime_and_username: "%{username} replied <time class=\"timeago\" datetime=\"%{time}\">%{time}</time>"
+      posted_by_with_datetime: posted <time class="timeago" datetime="%{time}">%{time}</time>
+      posted_by_with_datetime_and_username: '%{username} posted <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} replied <time class="timeago" datetime="%{time}">%{time}</time>'
     discussion_activity: Discussion Activity
     email_notifications:
       email_notifications: Email Notifications
