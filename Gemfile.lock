@@ -124,6 +124,10 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.3.1)
+    rbs (4.0.2)
+      logger
+      prism (>= 1.6.0)
+      tsort
     rdoc (7.2.0)
       erb
       psych (>= 4.0.0)
@@ -160,6 +164,10 @@ GEM
       prism (~> 1.7)
     rubocop-shopify (2.18.0)
       rubocop (~> 1.62)
+    ruby-lsp (0.26.9)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 1.2, < 2.0)
+      rbs (>= 3, < 5)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
     stringio (3.2.0)
@@ -191,6 +199,7 @@ DEPENDENCIES
   rspec
   rubocop
   rubocop-shopify
+  ruby-lsp
   tmdb-web-translations!
 
 BUNDLED WITH
