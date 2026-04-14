@@ -100,7 +100,7 @@ module TMDb
 
       class << self
         def country_path
-          File.dirname(__FILE__) + "/../../../../countries"
+          __dir__ + "/../../../../countries"
         end
 
         def default_iso_3166_1_mapping
@@ -120,9 +120,7 @@ module TMDb
         end
 
         def default_iso_3166_1_mapping_lowercase
-          @default_iso_3166_1_mapping_lowercase ||= TMDb::Web::Translations.default_iso_3166_1_mapping.each_with_object({}) do |(i18n, _iso_3166_1), hash|
-            hash[i18n.downcase] = i18n
-          end
+          @default_iso_3166_1_mapping_lowercase ||= TMDb::Web::Translations.default_iso_3166_1_mapping.to_h { |i18n, _| [i18n.downcase, i18n] }
         end
 
         def valid_i18n_translations
@@ -134,52 +132,48 @@ module TMDb
         end
 
         def default_language_i18n
-          @default_language_i18n ||= LANGUAGE_CODES.to_h do |iso_639_1|
-            [iso_639_1, "#{iso_639_1}-#{iso_639_1.upcase}"]
-          end.merge(DEFAULT_MAPPING)
+          @default_language_i18n ||= LANGUAGE_CODES.to_h { |iso_639_1| [iso_639_1, "#{iso_639_1}-#{iso_639_1.upcase}"] }.merge(DEFAULT_MAPPING)
         end
 
         def default_language_to_country_mapping
-          @default_language_to_country_mapping ||= Hash[DEFAULT_MAPPING.map { |_k, v| v.split("-") }]
+          @default_language_to_country_mapping ||= DEFAULT_MAPPING.values.to_h { |v| v.split("-") }
         end
 
         def language_list
-          @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1).to_h do |iso_639_1|
-                               ["#{iso_639_1}-#{iso_639_1.upcase}", iso_639_1.to_s]
-                             end.merge(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |_h, v| v }.to_h
+          @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1)
+            .to_h { |iso_639_1| ["#{iso_639_1}-#{iso_639_1.upcase}", iso_639_1.to_s] }
+            .merge(TMDb::Web::Translations.default_iso_3166_1_mapping)
+            .sort_by { |_h, v| v }
+            .to_h
         end
 
         def language_path
-          File.dirname(__FILE__) + "/../../../../languages"
+          __dir__ + "/../../../../languages"
         end
 
         # This list of ordinal localizations is sourced from the rails-i18n gem (v7.0.9)
         # To update values, clone the repo and copy the rails/ordinals directory.
         # https://github.com/svenfuchs/rails-i18n
         def ordinal_path
-          File.dirname(__FILE__) + "/../../../../ordinals"
+          __dir__ + "/../../../../ordinals"
         end
 
         def pluralization_path
-          File.dirname(__FILE__) + "/../../../../pluralization"
+          __dir__ + "/../../../../pluralization"
         end
 
         def load_path
-          File.dirname(__FILE__) + "/../../../../locales"
+          __dir__ + "/../../../../locales"
         end
 
         def parse_valid_i18n(string)
           return ["en-US", "en", "US"] if string.nil? || string == ""
 
-          begin
-            language, region = string.split("-")
-            if (region = region&.upcase)
-              ["#{language}-#{region}", language, region]
-            else
-              ["#{language}-#{language.upcase}", language, language.upcase]
-            end
-          rescue
-            ["en-US", "en", "US"]
+          language, region = string.split("-")
+          if (region = region&.upcase)
+            ["#{language}-#{region}", language, region]
+          else
+            ["#{language}-#{language.upcase}", language, language.upcase]
           end
         end
 
@@ -196,13 +190,11 @@ module TMDb
         end
 
         def supported_ui_languages
-          @supported_ui_languages ||= SUPPORTED_UI_LANGUAGES.to_h do |i18n|
-            [i18n, TMDb::Web::Translations.default_iso_3166_1_mapping[i18n]]
-          end
+          @supported_ui_languages ||= SUPPORTED_UI_LANGUAGES.to_h { |i18n| [i18n, TMDb::Web::Translations.default_iso_3166_1_mapping[i18n]] }
         end
 
         def transliteration_path
-          File.dirname(__FILE__) + "/../../../../transliteration"
+          __dir__ + "/../../../../transliteration"
         end
       end
     end
