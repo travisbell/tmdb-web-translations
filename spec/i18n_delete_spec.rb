@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "tmdb/i18n_delete"
 
 RSpec.describe I18nDelete do
@@ -15,7 +16,7 @@ RSpec.describe I18nDelete do
       result = described_class.new(delete_key: ["meep", "moop"]).apply(target)
 
       expect(result).to eq({
-        "en-US" => { }
+        "en-US" => {}
       })
     end
 

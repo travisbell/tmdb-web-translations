@@ -134,8 +134,8 @@ module TMDb
         end
 
         def default_language_i18n
-          @default_language_i18n ||= LANGUAGE_CODES.each_with_object({}) do |iso_639_1, hash|
-            hash[iso_639_1] = "#{iso_639_1}-#{iso_639_1.upcase}"
+          @default_language_i18n ||= LANGUAGE_CODES.to_h do |iso_639_1|
+            [iso_639_1, "#{iso_639_1}-#{iso_639_1.upcase}"]
           end.merge(DEFAULT_MAPPING)
         end
 
@@ -144,9 +144,9 @@ module TMDb
         end
 
         def language_list
-          @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1).each_with_object({}) do |iso_639_1, hash|
-            hash["#{iso_639_1}-#{iso_639_1.upcase}"] = iso_639_1.to_s
-          end.merge(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |_h, v| v }.to_h
+          @language_list ||= (LANGUAGE_CODES - TMDb::Web::Translations.supported_iso_639_1).to_h do |iso_639_1|
+                               ["#{iso_639_1}-#{iso_639_1.upcase}", iso_639_1.to_s]
+                             end.merge(TMDb::Web::Translations.default_iso_3166_1_mapping).sort_by { |_h, v| v }.to_h
         end
 
         def language_path
@@ -196,8 +196,8 @@ module TMDb
         end
 
         def supported_ui_languages
-          @supported_ui_languages ||= SUPPORTED_UI_LANGUAGES.each_with_object({}) do |i18n, hash|
-            hash[i18n] = TMDb::Web::Translations.default_iso_3166_1_mapping[i18n]
+          @supported_ui_languages ||= SUPPORTED_UI_LANGUAGES.to_h do |i18n|
+            [i18n, TMDb::Web::Translations.default_iso_3166_1_mapping[i18n]]
           end
         end
 

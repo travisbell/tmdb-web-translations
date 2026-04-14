@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Used for Cornish, Inari Sami, Inuktitut, Lule Sami, Nama, Northern Sami,
 # Sami Language, Skolt Sami, Southern Sami.
 
@@ -15,11 +17,16 @@ module RailsI18n
       end
 
       def self.with_locale(locale)
-        { locale => {
-            :'i18n' => {
-              :plural => {
-                :keys => [:one, :two, :other],
-                :rule => rule }}}}
+        {
+          locale => {
+            "i18n": {
+              plural: {
+                keys: [:one, :two, :other],
+                rule: rule
+              }
+            }
+          }
+        }
       end
     end
   end

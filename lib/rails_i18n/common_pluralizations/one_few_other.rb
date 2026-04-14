@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module RailsI18n
   module Pluralization
     module OneFewOther
@@ -11,7 +13,7 @@ module RailsI18n
           frac = (n.to_d % 1)
 
           if frac.nonzero?
-            n = frac.to_s.split('.').last.to_i
+            n = frac.to_s.split(".").last.to_i
           end
 
           mod10 = n % 10
@@ -28,11 +30,16 @@ module RailsI18n
       end
 
       def self.with_locale(locale)
-          { locale => {
-              :i18n => {
-                :plural => {
-                  :keys => [:one, :few, :other],
-                  :rule => rule }}}}
+        {
+          locale => {
+            i18n: {
+              plural: {
+                keys: [:one, :few, :other],
+                rule: rule
+              }
+            }
+          }
+        }
       end
     end
   end

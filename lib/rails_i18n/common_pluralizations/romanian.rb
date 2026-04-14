@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Used for Moldavian, Romanian.
 
 module RailsI18n
@@ -20,11 +22,16 @@ module RailsI18n
       end
 
       def self.with_locale(locale)
-        { locale => {
-            :'i18n' => {
-              :plural => {
-                :keys => [:one, :few, :other],
-                :rule => rule }}}}
+        {
+          locale => {
+            "i18n": {
+              plural: {
+                keys: [:one, :few, :other],
+                rule: rule
+              }
+            }
+          }
+        }
       end
     end
   end

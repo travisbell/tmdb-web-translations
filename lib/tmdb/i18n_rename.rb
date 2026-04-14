@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "i18n"
 require "active_support"
 require "active_support/core_ext/hash"
@@ -25,7 +27,7 @@ class I18nRename
     locale_hash = (source[locale] ||= {})
     new_key.each.with_index.inject(locale_hash) do |iterator, (key, index)|
       iterator[key] = new_key[index + 1] ? (iterator[key] || {}) : target.dig(locale, *old_key)
-      iterator[key] # rubocop:disable Lint/UnmodifiedReduceAccumulator
+      iterator[key]
     end
 
     result = I18nPatch.new(source, locale: locale).apply(target)

@@ -25,7 +25,7 @@ class I18nPatch
     @source = source
     @locale = locale
     @plural_keys = I18n.t("i18n.plural.keys", locale: locale).map(&:to_s) || ["other"]
-    @plural_hash = @plural_keys.each_with_object({}) { |key, hash| hash[key] = nil }
+    @plural_hash = @plural_keys.to_h { |key| [key, nil] }
   end
 
   def apply(target, empty: false)
