@@ -632,6 +632,11 @@ en-US:
         page_owner: My Lists
         public: "%{username}'s Lists"
       search: Search for a list...
+      add_to_lists: Add <span class="bold">%{media_name}</span> to lists
+      contributor: Contributor
+      create_new_list: Create a new list
+      created: List created
+      my_new_list: My new list...
     member_since: Member since %{date}
     navigation:
       discussions: Discussions
@@ -2126,6 +2131,10 @@ en-US:
     list_collaboration: List collaboration
     no_contributors: No contributors added, create an invite link and share it to get started.
     created: List created
+    confirm_delete: |-
+      <p>This item has a comment:</p>
+      <p>"%{media_comment}"</p>
+      <p>Are you sure you want to remove it?</p>
   edits: edits
   email:
     confirm_new_email_address: Confirm New Email Address
