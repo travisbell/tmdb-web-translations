@@ -32,7 +32,7 @@ tr-TR:
   Add Item: Öğe Ekle
   Add Missing Cast & Crew: Eksik Oyuncu Kadrosu ve Ekibi ekle
   Add Network: Kanal Ekle
-  Add New Award:
+  Add New Award: Yeni Ödül Ekle
   Add New Episode: Yeni Bölüm Ekle
   Add New Movie: Yeni Film Ekle
   Add New Release: Gösterim Bilgisi Ekle
@@ -233,7 +233,7 @@ tr-TR:
   Job: İşi
   Join the Community: Foruma Katılın
   Joined in: Katılım Tarihi
-  Key:
+  Key: Anahtar
   Keyword: Kelime
   Keyword Results: Etiket Sonucu
   Keywords: Anahtar Kelimeler
@@ -295,7 +295,7 @@ tr-TR:
   Notes: Notlar
   Notifications: Uyarılar
   Now Playing Movies: Gösterimdeki Filmler
-  Number:
+  Number: Sayı
   Number of Movies: Film Sayısı
   Number of TV Shows: TV Programı Sayısı
   Number of edits in the past: Düzenleme geçmişi
@@ -313,7 +313,7 @@ tr-TR:
   Original TV Show Language: Dizi Orijinal Dili
   Original Title: Orijinal Başlık
   Other Databases: Diğer Veri Tabanları
-  Others:
+  Others: Diğerleri
   Overview: Özet
   Page: Sayfa
   People: Kişiler
@@ -374,7 +374,7 @@ tr-TR:
   Report an Issue: Sorun Bildir
   Reported Issues: Bildirilen Sorunlar
   Request an API Key: API Anahtarı iste
-  Required:
+  Required: Gerekli
   Resend Activation Email: Onaylama mailini tekrar gönder
   Reset: Sıfırla
   Reset Password: Şifreyi sıfırla
@@ -439,7 +439,7 @@ tr-TR:
   TV: TV
   TV Network: TV Ağı
   TV Recommendations: TV Önerileri
-  TV Show:
+  TV Show: TV Dizisi
   TV Show Data: Dizi Verileri
   TV Show Results: Dizi Sonuçları
   TV Show Status: Dizi Durumu
@@ -462,7 +462,7 @@ tr-TR:
   Top Rated Movies: En Fazla Oy Alan Filmler
   Top Rated TV Shows: En Fazla Oy Alan Diziler
   Top Users: Öne Çıkan Kullanıcılar
-  Translate Award:
+  Translate Award: Ödülü Çevir
   Translate Collection: Koleksiyon Çevirisi Yap
   Translate Movie: Filmi Çevir
   Translate Person: Kişiyi Çevir
@@ -482,7 +482,7 @@ tr-TR:
   Upload Logo: Logo Yükle
   User Score: Üye Puanları
   Username: Kullanıcı Adı
-  Value:
+  Value: Değer
   Video?: Video?
   View: Görünüm
   View All Backdrops: Tüm Arka planları Görüntüle
@@ -774,68 +774,68 @@ tr-TR:
   awards:
     add_nomination: Aday ekle
     admin:
-      delete:
+      delete: Ödülü Sil
     air_date:
-      future: Yayınlama %{date}
+      future: Yayınlanacak: %{date}
       past: Yayınlandı %{date}
     alternative_names: Alternatif İsimler
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
+    award: Ödül
+    broadcast_episode: Yayın Bölümü
+    broadcast_episode_tooltip: Bir TV bölümüne bağlamak, yapım bilgilerini görüntüleyecektir.
+    broadcast_series: Yayın Serisi
+    broadcast_series_tooltip: Bir TV dizisini bağlamak, her tören için yapım bilgilerinin görüntülenmesini sağlar.
     categories:
-      add_category:
-      categories:
-      category:
-      crew_credit_departments:
-      crew_credit_jobs:
-      date_ended:
-      date_started:
-      display_type:
-      locked:
-      media_type:
-      name:
+      add_category: Kategori Ekle
+      categories: Kategoriler
+      category: Kategori
+      crew_credit_departments: Ekip Jeneriği Departmanları
+      crew_credit_jobs: Ekip Jeneriği Görevleri
+      date_ended: Bitiş Tarihi
+      date_started: Başlangıç Tarihi
+      display_type: Görüntüleme Türü
+      locked: Yeni kategoriler ekleme özelliği bir moderatör tarafından devre dışı bırakıldı ve kilitlendi.
+      media_type: Medya Türü
+      name: İsim
       title: Kategoriler
-      ended_on:
-      started_on:
-    category_empty: Bu kategori için aday yok.
+      ended_on: %{date} tarihinde sona erdi
+      started_on: %{date} tarihinde başladı
+    category_empty: Bu kategori için adaylık bulunmuyor.
     ceremonies:
-      add_ceremony:
-      ceremonies:
-      ceremony:
-      date:
-      limits:
-      location:
-      locked:
+      add_ceremony: Tören Ekle
+      ceremonies: Törenler
+      ceremony: Tören
+      date: Tarih
+      limits: Sınırlar
+      location: Konum
+      locked: Bu tören kilitlendi ve düzenlenemez.
       number: Sayı
       release_date_max: Maksimum Çıkış Tarihi
       release_date_min: Minimum Çıkış Tarihi
       title: Törenler
     field:
-      homepage:
-      name:
-      overview:
+      homepage: Ana Sayfa
+      name: İsim
+      overview: Genel Bakış
     new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
+      award_details: Ödül Detayları
+      click_next: Devam etmek için 'Sonraki'ye tıklayın
+      getting_started: Başlarken
+      header_1: Temel Bilgiler
+      header_2: Ödül Detayları
+      note: Notlar
+      verify: Doğrulama
     nominations:
-      add_nomination:
-      locked:
-      movie:
-      nomination:
+      add_nomination: Adaylık Ekle
+      locked: Bu adaylık bir moderatör tarafından kilitlendi.
+      movie: Film
+      nomination: Adaylık
       number:
-        one:
-        other:
-      one: "%{count} Aday"
-      other: 1 Aday
-      title:
-      shared_with:
+        one: "%{count} adaylık"
+        other: "%{count} adaylık"
+      one: "%{count} aday"
+      other: "%{count} aday"
+      title: Adaylıklar
+      shared_with: Şununla paylaşıldı:
     nominee: Aday
     show_info:
       directed_by: Yönetmen
@@ -849,17 +849,16 @@ tr-TR:
     title: Ödüller
     winner: Kazandı
     wins:
-      one: "%{count} Kazanılan"
-      other: 1 Kazanılan
-    most_awarded_films:
-    most_awarded_people:
-    most_nominated_films:
-    most_nominated_people:
-    media_page_description:
+      one: "%{count} Galibiyet"
+      other: "%{count} Galibiyet"
+    most_awarded_films: En Çok Ödül Alan Filmler
+    most_awarded_people: En Çok Ödül Alan Kişiler
+    most_nominated_films: En Çok Aday Gösterilen Filmler
+    most_nominated_people: En Çok Aday Gösterilen Kişiler
   back_options:
-    award:
+    award: Ödüle Geri Dön
     back: Geri
-    ceremony:
+    ceremony: Törene Geri Dön
     episode: Bölüme Geri Dön
     episode_groups: Bölüm gruplarına geri dön
     episode_list: Bölüm listesine geri dön
@@ -4087,36 +4086,36 @@ tr-TR:
       intro_2:
       verify:
     more_like_this:
-      if_you_liked_this:
-      or_something_more:
+      if_you_liked_this: Eğer <em>%{name}</em> sevdiyseniz, şunları da sevebilirsiniz...
+      or_something_more: Veya belki daha fazlası...
       genres:
-        '12':
-        '14':
-        '16':
-        '18':
-        '27':
-        '28':
-        '35':
-        '36':
-        '37':
-        '53':
-        '80':
-        '99':
-        '878':
-        '9648':
-        '10402':
-        '10749':
-        '10751':
-        '10752':
-        '10762':
-        '10763':
-        '10764':
-        '10759':
-        '10765':
-        '10766':
-        '10767':
-        '10768':
-        '10770':
+        '12': macera dolu
+        '14': fantastik
+        '16': animasyonlu
+        '18': dramatik
+        '27': korkutucu
+        '28': aksiyon dolu
+        '35': komik
+        '36': tarihi
+        '37': engebeli
+        '53': gerilim dolu
+        '80': cesur
+        '99': düşündürücü
+        '878': dünya dışı
+        '9648': gizemli
+        '10402': müzikal
+        '10749': romantik
+        '10751': aile dostu
+        '10752': kahramanca
+        '10762': heyecan verici
+        '10763': çocuk dostu
+        '10764': güncel
+        '10759': senaryosuz
+        '10765': hayal gücü geniş
+        '10766': skandal dolu
+        '10767': samimi
+        '10768': siyasi ağırlıklı
+        '10770': TV için yapılmış
   message_templates:
     help_translate:
       message: |-
@@ -4413,12 +4412,12 @@ tr-TR:
       resend_verification_email_text: Hesap doğrulama e-postasını alamadınız mı? Tekrar göndermek için kullanıcı adınızı aşağıya girin.
       reset_password_text: TMDB hesabı oluştururken kullandığınız e-posta adresini girin ve şifrenizi sıfırlamanız için gereken adımları size göndereceğiz.
       adult_content:
-        show_adult_content:
-        confirm_popup:
+        show_adult_content: Yetişkin İçerikleri Gösterilsin mi?
+        confirm_popup: ÖNEMLİ — Bu bir yetişkin ayarıdır
           title:
-          message:
-          confirm_button:
-          cancel_button:
+          message: Bu ayarı etkinleştirerek, TMDB'de gezinirken çıplaklık ve cinsel aktivite tasvirleri dahil olmak üzere yaş kısıtlamalı materyallerin görüntülenmesini kabul etmiş olursunuz. Bu ayarı etkinleştirmeyi kabul ederek, en az 18 yaşında veya eriştiğiniz bölgedeki reşit olma yaşında olduğunuzu ve müstehcen içerik görüntülemeye rıza gösterdiğinizi beyan edersiniz.
+          confirm_button: Evet, 18 yaşındayım veya daha büyüğüm.
+          cancel_button: İptal, 18 yaşından küçüğüm.
     api:
       api: API
       create_page_title: Yeni bir API Anahtarı Oluşturun
