@@ -10,3 +10,4 @@ gem "rake"
 gem "rspec", require: false
 gem "rubocop"
 gem "rubocop-shopify"
+gem "ruby-lsp"

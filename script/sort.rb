@@ -18,10 +18,10 @@ end
 
 def deep_sort_keys(obj, new_obj = {})
   obj.each do |key, value|
-    if value.is_a?(Hash)
-      new_obj[key] = deep_sort_keys(value, {}).sort.to_h
+    new_obj[key] = if value.is_a?(Hash)
+      deep_sort_keys(value, {}).sort.to_h
     else
-      new_obj[key] = value
+      value
     end
   end
 
@@ -29,9 +29,9 @@ def deep_sort_keys(obj, new_obj = {})
 end
 
 def each_yaml(paths, &block)
-  yaml_files = paths.flat_map { |file_name|
+  yaml_files = paths.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
-  }
+  end
 
   yaml_files.each do |file_path|
     yaml = YAML.load_file(file_path)

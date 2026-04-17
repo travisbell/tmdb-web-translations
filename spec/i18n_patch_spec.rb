@@ -76,7 +76,7 @@ RSpec.describe I18nPatch do
       target = {
         "abc" => {
           "one" => "234",
-          "other" => "456",
+          "other" => "456"
         }
       }
 

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require "tmdb/i18n_rename"
 
 RSpec.describe I18nRename do

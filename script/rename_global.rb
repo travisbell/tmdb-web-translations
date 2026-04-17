@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require "optparse"
 require "set"
@@ -69,9 +70,9 @@ at_exit do
 end
 
 def yaml_files(args)
-  args.flat_map { |file_name|
+  args.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
-  }
+  end
 end
 
 def update_yaml(file_path, &block)

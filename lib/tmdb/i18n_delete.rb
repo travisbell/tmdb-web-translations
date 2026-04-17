@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class I18nDelete
   attr_reader :delete_key
 

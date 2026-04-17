@@ -38,9 +38,9 @@ at_exit do
 end
 
 def yaml_files
-  ARGV.flat_map { |file_name|
+  ARGV.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
-  }
+  end
 end
 
 def update_yaml(file_path, &block)

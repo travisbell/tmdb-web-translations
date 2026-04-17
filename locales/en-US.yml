@@ -627,9 +627,16 @@ en-US:
       no_lists:
         logged_in: You haven't created any lists.
         public: "%{username} doesn't have any public lists to share."
+        search: No lists found.
       page_title:
         page_owner: My Lists
         public: "%{username}'s Lists"
+      search: Search for a list...
+      add_to_lists: Add <span class="bold">%{media_name}</span> to lists
+      contributor: Contributor
+      create_new_list: Create a new list
+      created: List created
+      my_new_list: My new list...
     member_since: Member since %{date}
     navigation:
       discussions: Discussions
@@ -849,6 +856,7 @@ en-US:
       zero: No wins
     most_awarded_films: Most Awarded Films
     most_awarded_people: Most Awarded People
+    media_page_description: Browse award nominations and wins for %{name} on TMDB. %{name} has received %{nominations} and %{wins}.
     most_nominated_films: Most Nominated Films
     most_nominated_people: Most Nominated People
   back_options:
@@ -2122,6 +2130,11 @@ en-US:
     invite_contributor: Invite contributor
     list_collaboration: List collaboration
     no_contributors: No contributors added, create an invite link and share it to get started.
+    created: List created
+    confirm_delete: |-
+      <p>This item has a comment:</p>
+      <p>"%{media_comment}"</p>
+      <p>Are you sure you want to remove it?</p>
   edits: edits
   email:
     confirm_new_email_address: Confirm New Email Address
@@ -3618,6 +3631,9 @@ en-US:
     total_runtime: Total Runtime
     use_grid_view: Use Grid View
     use_list_view: Use List View
+    search: Search
+    no_search_results: No items matched your query.
+    search_within: Search for items within your list...
   list_messages:
     comment_updated: Comment updated!
     image_saved: Image saved!

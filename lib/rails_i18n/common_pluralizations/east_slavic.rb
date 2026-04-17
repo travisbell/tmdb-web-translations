@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Originally was implemented by Yaroslav Markin in "russian" gem
 # (http://github.com/yaroslav/russian)
 #
@@ -31,11 +33,16 @@ module RailsI18n
       end
 
       def self.with_locale(locale)
-        { locale => {
-            :i18n => {
-              :plural => {
-                :keys => [:one, :few, :many, :other],
-                :rule => rule }}}}
+        {
+          locale => {
+            i18n: {
+              plural: {
+                keys: [:one, :few, :many, :other],
+                rule: rule
+              }
+            }
+          }
+        }
       end
     end
   end

@@ -38,10 +38,10 @@ end
 
 def deep_sort_keys(obj, new_obj = {})
   obj.each do |key, value|
-    if value.is_a?(Hash)
-      new_obj[key] = deep_sort_keys(value, {}).sort.to_h
+    new_obj[key] = if value.is_a?(Hash)
+      deep_sort_keys(value, {}).sort.to_h
     else
-      new_obj[key] = value
+      value
     end
   end
 
