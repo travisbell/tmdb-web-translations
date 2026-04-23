@@ -1964,11 +1964,11 @@ tr-TR:
     category:
       last_reply_with_datetime: "%{date} tarihinde %{time}\n"
       last_reply_with_datetime_and_username: "%{date} tarihinde saat %{time} da %{username} <br>tarafından "
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
+      last_reply_with_datetime_v2: Son yanıt %{date} tarihinde %{time} saatinde verildi.
+      last_reply_with_datetime_and_username_v2: %{username} tarafından %{date} tarihinde %{time}'da verilen son yanıt
+      posted_by_with_datetime: <time class="timeago" datetime="%{time}">%{time}</time> yayınlandı
+      posted_by_with_datetime_and_username: '%{username} <time class="timeago" datetime="%{time}">%{time}</time>' gönderisini yayınladı.
+      replied_by_with_datetime_and_username: '%{username} <time class="timeago" datetime="%{time}">%{time}</time>' şeklinde yanıt verdi.
     discussion_activity: Tartışma Etkinliği
     email_notifications:
       email_notifications: E-Posta Bildirimleri
