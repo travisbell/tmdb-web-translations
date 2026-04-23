@@ -2097,16 +2097,23 @@ tr-TR:
     choose_image: Görsel Seç
     delete_list: Liste Sil
     edit_list: Listeyi Düzenle
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: |-
+    Hem herkese açık hem de özel listelere diğer hesapları davet edebilirsiniz.
+    Katkıda bulunanlar yalnızca öğe ekleyebilir, kaldırabilir ve yorumları güncelleyebilir.
+    Yeni bir katkıda bulunanı davet etmek için davet bağlantısını e-posta veya anlık mesajlaşma yoluyla gönderin.
+    Katkıda bulunanların daveti kabul etmek için TMDB'de bir hesabı olması gerekir.
+    contributors: Katkıda bulunanlar
+    create_invite_link: Davet bağlantısı oluştur
+    edit_invite_link: Davet bağlantısını düzenle
+    invite_contributor: Katkıda bulunanı davet et
+    list_collaboration: Liste işbirliği
+    no_contributors: Henüz katkıda bulunan yok, başlamak için bir davet bağlantısı oluşturun ve paylaşın.
+    created: Liste oluşturuldu
+    confirm_delete: |-
+      <p>Bu öğenin bir yorumu var:</p>
+      <p>"%{media_comment}"</p>
+      <p>Bunu kaldırmak istediğinizden emin misiniz?</p>
+    confirm_delete_grid: %{media_name} öğesini kaldırmak istediğinizden emin misiniz?
   edits: düzenlemeler
   email:
     confirm_new_email_address: Yeni E-posta Adresini Onayla
@@ -4646,7 +4653,7 @@ tr-TR:
   success_sharing: Mesajınız başarı ile gönderildi.
   support:
     array:
-      last_word_connector: ", ve "
+      last_word_connector: " ve "
       two_words_connector: " ve "
       words_connector: ", "
   the: "-"
