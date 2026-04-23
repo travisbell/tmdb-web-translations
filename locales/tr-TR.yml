@@ -625,16 +625,16 @@ tr-TR:
       no_lists:
         logged_in: Henüz liste oluşturmadınız
         public: "%{username} paylaştığı herhangi bir listesi yok."
-        search:
+        search: Liste bulunamadı.
       page_title:
         page_owner: Listelerim
         public: "%{username}'in Listeleri"
-      search:
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      search: Liste ara
+      add_to_lists: Listenize <span class="bold">%{media_name}</span> ekleyin
+      contributor: Katkıda Bulunan
+      create_new_list: Yeni bir liste oluştur
+      created: Liste oluşturuldu
+      my_new_list: Yeni Listem...
     member_since: "%{date} tarihinden beri üye"
     navigation:
       discussions: Tartışmalar
@@ -832,8 +832,8 @@ tr-TR:
       number:
         one: "%{count} adaylık"
         other: "%{count} adaylık"
-      one: "%{count} aday"
-      other: "%{count} aday"
+      one: "Aday %{count}"
+      other: "Aday %{count}"
       title: Adaylıklar
       shared_with: 'Şununla paylaşıldı:'
     nominee: Aday
@@ -849,8 +849,8 @@ tr-TR:
     title: Ödüller
     winner: Kazandı
     wins:
-      one: "%{count} Galibiyet"
-      other: "%{count} Galibiyet"
+      one: "Kazanan %{count}"
+      other: "Kazanan %{count}"
     most_awarded_films: En Çok Ödül Alan Filmler
     most_awarded_people: En Çok Ödül Alan Kişiler
     most_nominated_films: En Çok Aday Gösterilen Filmler
@@ -1964,11 +1964,11 @@ tr-TR:
     category:
       last_reply_with_datetime: "%{date} tarihinde %{time}\n"
       last_reply_with_datetime_and_username: "%{date} tarihinde saat %{time} da %{username} <br>tarafından "
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
+      last_reply_with_datetime_v2: Son yanıt %{date} tarihinde %{time} saatinde verildi.
+      last_reply_with_datetime_and_username_v2: %{username} tarafından %{date} tarihinde %{time}'da verilen son yanıt
+      posted_by_with_datetime: <time class="timeago" datetime="%{time}">%{time}</time> yayınlandı
+      posted_by_with_datetime_and_username: '%{username} <time class="timeago" datetime="%{time}">%{time}</time>' gönderisini yayınladı.
+      replied_by_with_datetime_and_username: '%{username} <time class="timeago" datetime="%{time}">%{time}</time>' şeklinde yanıt verdi.
     discussion_activity: Tartışma Etkinliği
     email_notifications:
       email_notifications: E-Posta Bildirimleri
@@ -2097,16 +2097,23 @@ tr-TR:
     choose_image: Görsel Seç
     delete_list: Liste Sil
     edit_list: Listeyi Düzenle
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: |-
+    Hem herkese açık hem de özel listelere diğer hesapları davet edebilirsiniz.
+    Katkıda bulunanlar yalnızca öğe ekleyebilir, kaldırabilir ve yorumları güncelleyebilir.
+    Yeni bir katkıda bulunanı davet etmek için davet bağlantısını e-posta veya anlık mesajlaşma yoluyla gönderin.
+    Katkıda bulunanların daveti kabul etmek için TMDB'de bir hesabı olması gerekir.
+    contributors: Katkıda bulunanlar
+    create_invite_link: Davet bağlantısı oluştur
+    edit_invite_link: Davet bağlantısını düzenle
+    invite_contributor: Katkıda bulunanı davet et
+    list_collaboration: Liste işbirliği
+    no_contributors: Henüz katkıda bulunan yok, başlamak için bir davet bağlantısı oluşturun ve paylaşın.
+    created: Liste oluşturuldu
+    confirm_delete: |-
+      <p>Bu öğenin bir yorumu var:</p>
+      <p>"%{media_comment}"</p>
+      <p>Bunu kaldırmak istediğinizden emin misiniz?</p>
+    confirm_delete_grid: %{media_name} öğesini kaldırmak istediğinizden emin misiniz?
   edits: düzenlemeler
   email:
     confirm_new_email_address: Yeni E-posta Adresini Onayla
@@ -3607,21 +3614,21 @@ tr-TR:
   media:
     adult: Yetişkin
     alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
+      add_name: İsim Ekle
+      alternative_names: Alternatif İsimler
+      name: İsim
+      no_records: Alternatif isim eklenmemiştir.
     award:
       edit:
         adult:
-          adult_award:
-        title_logos:
+          adult_award: Yetişkin Ödülü
+        title_logos: Başlık Logoları
       header:
-        latest_ceremony:
-        upcoming_ceremony:
+        latest_ceremony: En son törene göz at
+        upcoming_ceremony: Yaklaşan törene göz at
     cast_credits:
-      cast_credits:
-      select:
+      cast_credits: Oyuncu Kadrosu
+      select: Oyuncu Kadrosu Seç...
     changes:
       filters:
         clear: Temizle
@@ -3643,8 +3650,8 @@ tr-TR:
           no_records: Hiçbir film eklenmemiş.
       parts: Filmler
     companies:
-      companies:
-      select:
+      companies: Şirketler
+      select: Şirket Seç...
     company:
       headquarters: Genel Merkez
       movie_page_title: "%{name} tarafından çekilen filmler"
@@ -3688,8 +3695,8 @@ tr-TR:
         '8': Ha gayret az kaldı.
         '9': Neredeyse bitti...
     crew_credits:
-      crew_credits:
-      select:
+      crew_credits: Ekip Bilgileri
+      select: Ekip Bilgilerini Seç...
     edit:
       alternative_title:
         lock_existing: Mevcut Başlıkları Kilitle
@@ -3739,8 +3746,8 @@ tr-TR:
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
         overview: Lütfen özet yazarken kısa öz ve düzgün olmasına, senaryoyu önceden elverecek ifadeler (spoiler) kullanmamaya özen gösterin.
         social_links: Sosyal ağ bağlantıları yalnızca (onaylı) resmi sayfalar içindir, hayran sayfalarına izin verilmemektedir.
-        softcore:
-        video:
+        softcore: Bu seçenek, esasen erotik nitelikte olan ancak mutlaka sert pornografi olmayan içerikleri tanımlamak için kullanılır. Daha fazla örnek için <a href="/bible/movie#69b97071cfe788db108e926e" target="_blank">katkı kitabına</a> bakın.
+        video: Bu seçenek genellikle derleme videoları, profesyonel konserler, canlı tiyatro ve PPV etkinlikleri için geçerlidir. Daha fazla örnek için <a href="/bible/movie#59f73b759251416e71000005" target="_blank">katkı kılavuzuna</a> bakın.
       translation_already_exists: "%{language} çevirisi zaten mevcut."
       translation_not_found: "%{language} çevirisi henüz oluşturulmadı."
       unlock_all_appearances: "'Evet'i tıkladığınızda mevcut tüm kayıtların kilidini açacaksınız."
@@ -3776,11 +3783,11 @@ tr-TR:
       edit:
         adult:
           adult_movie: Film Yetişkinler İçin Mİ?
-          adult_status:
+          adult_status: Yetişkinlik Durumu?
           status:
-            none:
-            hardcore:
-            softcore:
+            none: Hiçbiri
+            hardcore: Sert içerikli
+            softcore: Yumuşak içerikli
         alternative_titles:
           no_records: Alternatif başlık eklenmedi.
         cast:
@@ -3915,7 +3922,7 @@ tr-TR:
       seasons: Sezonlar
       translations: Çeviriler
       videos: Videolar
-      awards:
+      awards: Ödüller
     social_panel:
       discussions:
         currently_subscribed: Birisi ilk gönderiyi oluşturduğunda bir bildirim alacaksınız.
@@ -3924,7 +3931,7 @@ tr-TR:
         want_to_be_notified: İlk gönderim yapıldığında sana haber verilsin mi?
         yes_notify_me: Evet, bana haber ver!
       reviews:
-        a_review_by: "%{username} tarafından eklenen yorum"
+        a_review_by: "%{username} adlı kullanıcının incelemesi"
         by: "%{username} tarafından %{date} tarihinde yazılmıştır."
         featured_review: Öne çıkan yorum
         no_review:
@@ -4035,7 +4042,7 @@ tr-TR:
         seasons:
           no_records: Eklenen sezon yok.
         softcore:
-          softcore_show:
+          softcore_show: Yumuşak pornografik bir TV dizisi mi?
       episode_groups:
         groups:
           count:
@@ -4081,41 +4088,41 @@ tr-TR:
       restricted_regions: Kısıtlı Bölgeler
       tags: Etiketler
     wizard:
-      award_details:
-      getting_started:
-      intro_1:
-      intro_2:
-      verify:
+      award_details: Ödül Detayları
+      getting_started: Başlarken
+      intro_1: TMDB'ye yeni bir %{media_type} eklemek basit ve kolaydır. Düzenleme sistemimizin nasıl çalıştığı hakkında herhangi bir sorunuz varsa, <a href="%{bible_href}">katkı kılavuzumuzu</a> okuyun veya <a href="%{talk_href}">forumlarımızı</a> ziyaret edin.
+      intro_2: Bu form, oluşturma sürecinde size yol gösterecektir. Başlamak için "İleri"ye tıklayın.
+      verify: Doğrula ve Kaydet
     more_like_this:
-      if_you_liked_this: Eğer <em>%{name}</em> sevdiyseniz, şunları da sevebilirsiniz...
-      or_something_more: Veya belki daha fazlası...
+      if_you_liked_this: Eğer <em>%{name}</em> beğendiyseniz, belki şunları da beğenebilirsiniz...
+      or_something_more: Veya daha fazlası...
       genres:
-        '12': macera dolu
-        '14': fantastik
-        '16': animasyonlu
-        '18': dramatik
+        '12': Maceralı
+        '14': Fantastik
+        '16': Animasyon
+        '18': Dramatik
         '27': korkutucu
-        '28': aksiyon dolu
-        '35': komik
-        '36': tarihi
-        '37': engebeli
-        '53': gerilim dolu
-        '80': cesur
-        '99': düşündürücü
-        '878': dünya dışı
-        '9648': gizemli
-        '10402': müzikal
-        '10749': romantik
-        '10751': aile dostu
-        '10752': kahramanca
-        '10762': heyecan verici
-        '10763': çocuk dostu
-        '10764': güncel
-        '10759': senaryosuz
-        '10765': hayal gücü geniş
-        '10766': skandal dolu
-        '10767': samimi
-        '10768': siyasi ağırlıklı
+        '28': Aksiyonlu
+        '35': Komik
+        '36': Tarihi
+        '37': İnişli Çıkışlı
+        '53': Gerilim
+        '80': Cesur
+        '99': Düşündürücü
+        '878': Dünya dışı
+        '9648': Gizemli
+        '10402': Müzikal
+        '10749': Romantik
+        '10751': Aile dostu
+        '10752': Kahramanca
+        '10762': Heyecanlı
+        '10763': Çocuk dostu
+        '10764': Güncel
+        '10759': Senaryosuz
+        '10765': Hayalperest
+        '10766': Skandal
+        '10767': Samimi
+        '10768': Siyasi ağırlıklı
         '10770': TV için yapılmış
   message_templates:
     help_translate:
@@ -4172,7 +4179,7 @@ tr-TR:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words:
+              blocked_words: Harici kimlik engellenmiş kelimeler içeriyor.
   month: "%{count} ay"
   navigation:
     discover:
@@ -4646,7 +4653,7 @@ tr-TR:
   success_sharing: Mesajınız başarı ile gönderildi.
   support:
     array:
-      last_word_connector: ", ve "
+      last_word_connector: " ve "
       two_words_connector: " ve "
       words_connector: ", "
   the: "-"
