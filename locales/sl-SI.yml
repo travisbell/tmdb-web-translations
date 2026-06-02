@@ -4,7 +4,7 @@ sl-SI:
   API: API
   API Access Token: Pristopni žeton za API
   API Details: Podrobnosti API-ja
-  API Documentation:
+  API Documentation: Dokumentacija API-ja
   API Key: Ključ za API
   API Libraries: Knjižnice API
   API Overview: Pregled API-ja
@@ -25,14 +25,14 @@ sl-SI:
   Add Alternative Name: Dodaj alternativni naziv
   Add Alternative Title: Dodaj alternativni naslov
   Add Backdrop: Dodaj ozadje
-  Add Content Rating: Dodaj oceno vsebine
+  Add Content Rating: Dodaj uvrstitev vsebine
   Add Creator: Dodaj ustvarjalca
   Add Data & Content: Dodaj podatke in vsebine
   Add Headshot: Dodaj obrazno fotografijo
   Add Item: Dodaj element
   Add Missing Cast & Crew: Dodaj manjkajoče igralce in ekipo
   Add Network: Dodaj omrežje
-  Add New Award:
+  Add New Award: Dodaj novo nagrado
   Add New Episode: Dodaj novo epizodo
   Add New Movie: Dodaj nov film
   Add New Release: Dodaj nov izid
@@ -40,7 +40,7 @@ sl-SI:
   Add New TV Show: Dodaj novo serijo
   Add Poster: Dodaj plakat
   Add Profile: Dodaj profil
-  Add Season Regular:
+  Add Season Regular: Dodaj stalnega igralca
   Add Title Logo: Dodaj naslovni logotip
   Add To Every Season?: Dodam v vsako sezono?
   Add Video: Dodaj videoposnetek
@@ -111,8 +111,8 @@ sl-SI:
   Confirm Your Application: Potrdite svojo aplikacijo
   Contact Email: E-poštni stik
   Contact Us: Kontaktirajte nas
-  Content Ratings:
-  Content Score:
+  Content Ratings: Uvrstitve vsebine
+  Content Score: Ocena vsebine
   Continue: Nadaljuj
   Contribution leaders for the week of:
   Convert to Collection?: Pretvorim v zbirko?
@@ -354,7 +354,7 @@ sl-SI:
   Rated: Ocenjeno
   Rated Movies: Ocenjeni filmi
   Rated TV Shows: Ocenjene serije
-  Rating:
+  Rating: Ocena
   Read More: Preberi več
   Recent Blog Posts:
   Recent News:
@@ -481,7 +481,7 @@ sl-SI:
   Update:
   Upload Logo:
   User Score: Ocena uporabnikov
-  Username:
+  Username: Uporabniško ime
   Value:
   Video?:
   View:
@@ -733,7 +733,7 @@ sl-SI:
   add_to_list: Dodaj %{media_title} na enega svojih seznamov ...
   already_translated_in: Stran %{page_title} je že prevedena v naslednje jezike ...
   api_for_business:
-    api_for_business:
+    api_for_business: API za poslovne subjekte
     form:
       company_name:
         label:
@@ -1790,11 +1790,11 @@ sl-SI:
     - petek
     - sobota
     formats:
-      abbrev: "%-d %b %Y"
-      default: "%d. %m %Y"
-      full_month_day: "%B %e, %Y"
+      abbrev: "%-d. %b %Y"
+      default: "%d. %m. %Y"
+      full_month_day: "%e. %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: "%d %b %Y"
+      short_month_day_year: "%d. %b %Y"
     month_names:
     -
     - januar
@@ -2326,8 +2326,8 @@ sl-SI:
     community:
       benefits_list:
         '1': Uživajte v TMDB brez oglasov
-        '2':
-        '3':
+        '2': Sestavite svoj osebni seznam spremljanih vsebin
+        '3': Iščite vsebine glede na svoje naročnine na pretočne storitve
         '4': Zabeležite filme in serije, ki ste si jih ogledali
         '5': Sestavite sezname po meri
         '6': Prispevajte in izboljšajte našo podatkovno bazo
@@ -4357,12 +4357,12 @@ sl-SI:
     show_more: Pokaži več
   part_of_collection: Del zbirke %{collection_name}
   password:
-    4_chars_minimum:
+    4_chars_minimum: "(najmanj 4 znaki)"
     confirm_new_password:
     enter_to_continue:
     new_password:
     password: Geslo
-    password_confirm: Potrdi Geslo
+    password_confirm: Potrdi geslo
     reset_email_sent:
   person:
     credits:
@@ -4443,7 +4443,7 @@ sl-SI:
       blocked_users:
       no_blocked:
       page_title:
-      username:
+      username: Uporabniško ime
     change_email:
       change_email:
       change_email_text:
@@ -4615,18 +4615,18 @@ sl-SI:
       streaming_services: Pretočne storitve
   sign_up:
     benefits:
-      benefits_to_being_member:
-      build_custom_lists:
-      build_watchlist:
-      contribute:
-      discussions:
-      find_something_to_watch:
-      keep_track:
-      log_movies:
-    by_clicking_agree_to_terms:
-    javascript_required:
-    sign_up_for_account:
-    signup_text:
+      benefits_to_being_member: Prednosti članstva
+      build_custom_lists: Sestavite svoje lastne mešane sezname (filmov in serij)
+      build_watchlist: Sestavite in urejajte osebne sezname spremljanih vsebin
+      contribute: Prispevajte in izboljšajte informacije v naši podatkovni bazi
+      discussions: Sodelujte v debatah o filmih in serijah
+      find_something_to_watch: Najdite perspektiven film ali serijo za ogled glede na svoje naročnine na pretočne storitve
+      keep_track: Sledite svojim najljubšim filmom in serijam ter od njih pridobite priporočila
+      log_movies: Zabeležite že gledane filme in serije
+    by_clicking_agree_to_terms: S klikom na spodnji gumb "Registracija" jamčim, da sem prebral/a TMDB-jeve pogoje uporabe in politiko zasebnosti ter se z njimi strinjam.
+    javascript_required: Za nadaljevanje je potreben JavaScript.
+    sign_up_for_account: Registrirajte nov račun
+    signup_text: Registriranje računa je brezplačno in enostavno. Izpolnite spodnji obrazec.
   success_approved_access_token:
   success_deleted:
   success_email:
@@ -4640,22 +4640,22 @@ sl-SI:
   success_sharing:
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: in
+      last_word_connector: " in "
+      two_words_connector: " in "
       words_connector: ", "
   the:
   time:
-    am:
+    am: dopoldne
     formats:
-      12hour_minutes: "%l:%M %p"
-      default:
+      12hour_minutes: "%H:%M"
+      default: "%a, %d %b %Y %H:%M:%S %Z"
       long: "%B %d, %Y %I:%M %p"
       short: "%d %b %I:%M %p"
-    pm:
+    pm: popoldne
     units:
-      hours:
-      minutes:
-      seconds:
+      hours: ure
+      minutes: minute
+      seconds: sekunde
   top_contributors:
   translation:
   upload_backdrop: Naložite ozadje
