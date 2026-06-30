@@ -32,7 +32,7 @@ zh-CN:
   Add Item: 添加条目
   Add Missing Cast & Crew: 添加缺失的演职人员
   Add Network: 添加播出平台
-  Add New Award:
+  Add New Award: 添加新奖项
   Add New Episode: 添加新一集
   Add New Movie: 添加新电影
   Add New Release: 添加发行信息
@@ -131,7 +131,7 @@ zh-CN:
   DMCA Policy: DMCA政策
   DMCA Takedown Request: DMCA 移除请求
   Date: 日期
-  Date Added:
+  Date Added: 添加日期
   Day of Death: 去世日期
   Default Language: 网站界面的默认语言
   Delete: 删除
@@ -233,7 +233,7 @@ zh-CN:
   Job: 工作
   Join the Community: 加入社区
   Joined in: 加入
-  Key:
+  Key: 键
   Keyword: 关键词
   Keyword Results: 关键词结果
   Keywords: 关键词
@@ -295,7 +295,7 @@ zh-CN:
   Notes: 备注
   Notifications: 通知
   Now Playing Movies: 正在上映电影
-  Number:
+  Number: 数量
   Number of Movies: 电影数
   Number of TV Shows: 节目数
   Number of edits in the past: 过去编辑次数
@@ -303,7 +303,7 @@ zh-CN:
   Offical Site: 官方网站
   Offline Databases: 离线数据库
   Ok: OK
-  Optional:
+  Optional: 可选
   Origin Country: 原始国家或地区
   Original Air Date: 首播日期
   Original Language: 默认语言
@@ -313,7 +313,7 @@ zh-CN:
   Original TV Show Language: 节目原生语言
   Original Title: 原名
   Other Databases: 其它数据库
-  Others:
+  Others: 其他
   Overview: 简介
   Page: 页
   People: 人员
@@ -374,7 +374,7 @@ zh-CN:
   Report an Issue: 问题反馈
   Reported Issues: 已反馈问题
   Request an API Key: 请求 API 密钥
-  Required:
+  Required: 必填
   Resend Activation Email: 重发激活邮件
   Reset: 重置
   Reset Password: 重置密码
@@ -439,7 +439,7 @@ zh-CN:
   TV: 电视
   TV Network: 电视播出平台
   TV Recommendations: 电视节目推荐
-  TV Show:
+  TV Show: 电视剧
   TV Show Data: 节目资料
   TV Show Results: 节目结果
   TV Show Status: 电视节目状态
@@ -462,7 +462,7 @@ zh-CN:
   Top Rated Movies: 高分电影
   Top Rated TV Shows: 高分电视节目
   Top Users: 用户排行
-  Translate Award:
+  Translate Award: 翻译奖项
   Translate Collection: 翻译合集
   Translate Movie: 翻译电影
   Translate Person: 翻译人物
@@ -482,7 +482,7 @@ zh-CN:
   Upload Logo: 上传标志
   User Score: 用户评分
   Username: 用户名
-  Value:
+  Value: 值
   Video?: 视频？
   View: 视图
   View All Backdrops: 查看全部剧照
@@ -514,7 +514,7 @@ zh-CN:
   account:
     reviews:
       delete:
-        message:
+        message: 删除此评论是永久性操作，无法撤销。
   account_drop_down:
     discussions: 讨论
     edit_profile: 编辑个人资料
@@ -529,7 +529,7 @@ zh-CN:
     sign_up: 注册
     view_profile: 查看个人资料
     watchlist: 待看片单
-    reviews:
+    reviews: 评论
   accounts:
     activity:
       activity: 活动
@@ -630,19 +630,19 @@ zh-CN:
       no_lists:
         logged_in: 你尚未创建过任何片单。
         public: "%{username} 尚未分享过任何片单。"
-        search:
+        search: 未找到列表。
       page_title:
         page_owner: 我的片单
         public: "%{username} 的片单"
-      search:
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      search: 搜索列表...
+      add_to_lists: 将 <span class="bold">%{media_name}</span> 添加到列表
+      contributor: 贡献者
+      create_new_list: 创建新列表
+      created: 列表已创建
+      my_new_list: 我的新列表...
       no_reviews:
-        logged_in:
-        public:
+        logged_in: 您还没有写过任何评论。
+        public: "%{username} 还没有写过任何评论。"
     member_since: "%{date}成为本网站会员"
     navigation:
       discussions: 讨论
@@ -723,8 +723,8 @@ zh-CN:
       view_them: 浏览待看片单。
     reviews:
       page_title:
-        page_owner:
-        public:
+        page_owner: 我的评论
+        public: "%{username} 的评论"
   add_to_list: 添加 %{media_title} 到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_for_business:
@@ -786,67 +786,67 @@ zh-CN:
   awards:
     add_nomination: 添加提名
     admin:
-      delete:
+      delete: 删除奖项
     air_date:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
     alternative_names: 其他名称
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
+    award: 奖项
+    broadcast_episode: 播出集数
+    broadcast_episode_tooltip: 链接到电视剧集数将显示制作信息。
+    broadcast_series: 播出剧集
+    broadcast_series_tooltip: 链接到电视剧集允许为每个典礼显示制作信息。
     categories:
-      add_category:
-      categories:
-      category:
-      crew_credit_departments:
-      crew_credit_jobs:
-      date_ended:
-      date_started:
-      display_type:
-      locked:
-      media_type:
-      name:
+      add_category: 添加类别
+      categories: 类别
+      category: 类别
+      crew_credit_departments: 剧组部门
+      crew_credit_jobs: 剧组职位
+      date_ended: 结束日期
+      date_started: 开始日期
+      display_type: 显示类型
+      locked: 版主已禁用并锁定添加新类别。
+      media_type: 媒体类型
+      name: 名称
       title: 分类
-      ended_on:
-      started_on:
+      ended_on: 结束于 %{date}
+      started_on: 开始于 %{date}
     category_empty: 该分类无提名
     ceremonies:
-      add_ceremony:
-      ceremonies:
-      ceremony:
-      date:
-      limits:
-      location:
-      locked:
+      add_ceremony: 添加典礼
+      ceremonies: 典礼
+      ceremony: 典礼
+      date: 日期
+      limits: 限制
+      location: 地点
+      locked: 版主已禁用并锁定添加新典礼。
       number: 编号
       release_date_max: 上映日期上限
       release_date_min: 上映日期下限
       title: 典礼
     field:
-      homepage:
-      name:
-      overview:
+      homepage: 主页
+      name: 名称
+      overview: 简介
     new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
+      award_details: 奖项详情
+      click_next: 这个三步向导将引导您完成创建过程。要开始，请点击下一步。
+      getting_started: 开始
+      header_1: 新奖项
+      header_2: 添加新奖项
+      note: 在 TMDB 上添加新奖项非常简单。如果您对我们的编辑系统有任何疑问，请阅读我们的贡献指南或访问论坛。
+      verify: 验证并保存
     nominations:
-      add_nomination:
-      locked:
-      movie:
-      nomination:
+      add_nomination: 添加提名
+      locked: 版主已禁用并锁定添加新提名。
+      movie: 电影
+      nomination: 提名
       number:
-        other:
+        other: 无
       one: 共 1 项提名
       other: 共 %{count} 项提名
-      title:
-      shared_with:
+      title: 提名
+      shared_with: 与...共享
     nominee: 提名
     show_info:
       directed_by: 导演
@@ -862,15 +862,15 @@ zh-CN:
     wins:
       one: 共 1 个奖项
       other: 共 %{count} 个奖项
-    most_awarded_films:
-    most_awarded_people:
-    most_nominated_films:
-    most_nominated_people:
-    media_page_description:
+    most_awarded_films: 获奖最多的电影
+    most_awarded_people: 获奖最多的人
+    most_nominated_films: 提名最多的电影
+    most_nominated_people: 提名最多的人
+    media_page_description: 在 TMDB 上浏览 %{name} 的奖项提名和获奖情况。%{name} 获得了 %{nominations} 和 %{wins}。
   back_options:
-    award:
+    award: 返回奖项
     back: 返回
-    ceremony:
+    ceremony: 返回典礼
     episode: 返回集
     episode_groups: 返回剧集组
     episode_list: 返回集列表
@@ -1915,19 +1915,19 @@ zh-CN:
       years:
         years: 年
       ceremony_date:
-        ceremony_date:
-        search_all_ceremonies:
-        search_latest_ceremony:
-        latest_ceremony:
+        ceremony_date: 典礼日期
+        search_all_ceremonies: 搜索所有典礼
+        search_latest_ceremony: 搜索最新典礼
+        latest_ceremony: 最新典礼
       last_ceremony:
-        latest_ceremony:
-        search_all_countries:
-        search_latest_ceremony:
-      adult_content:
-      exclude_adult:
-      include_adult:
-      adult_filters:
-      softcore_content:
+        latest_ceremony: 最新典礼
+        search_all_countries: 搜索所有国家
+        search_latest_ceremony: 按最新典礼搜索
+      adult_content: 成人内容
+      exclude_adult: 排除成人
+      include_adult: 包含成人
+      adult_filters: 成人筛选
+      softcore_content: 软性色情内容
     no_items: 找不到和您查询相符的条目。
     search: 搜索
     sort_options:
@@ -1947,8 +1947,8 @@ zh-CN:
       release_date_desc: 发行日期降序
       title_a_z: 片名（A-Z）
       title_z_a: 片名（Z-A）
-      latest_ceremony_asc:
-      latest_ceremony_desc:
+      latest_ceremony_asc: 最新典礼升序
+      latest_ceremony_desc: 最新典礼降序
     tooltips:
       not_member: 还不是会员？
       options: 查看项目选项
@@ -1991,11 +1991,11 @@ zh-CN:
     category:
       last_reply_with_datetime: 于 %{date} %{time}
       last_reply_with_datetime_and_username: 于 %{date} %{time}<br>由 %{username}
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
+      last_reply_with_datetime_v2: 最后回复于 %{date} %{time}
+      last_reply_with_datetime_and_username_v2: "%{username} 于 %{date} %{time} 最后回复"
+      posted_by_with_datetime: '发布于 <time class="timeago" datetime="%{time}">%{time}</time>'
+      posted_by_with_datetime_and_username: '%{username} 于 <time class="timeago" datetime="%{time}">%{time}</time> 发布'
+      replied_by_with_datetime_and_username: '%{username} 于 <time class="timeago" datetime="%{time}">%{time}</time> 回复'
     discussion_activity: 讨论动态
     email_notifications:
       email_notifications: 电子邮件通知
@@ -2124,16 +2124,16 @@ zh-CN:
     choose_image: 选择图像
     delete_list: 删除片单
     edit_list: 编辑片单
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: 您可以邀请其他账户参与公开和私有列表。贡献者只能添加和移除项目，以及更新评论。要邀请新贡献者，请通过电子邮件或即时消息发送邀请链接。贡献者必须在 TMDB 上拥有账户才能接受邀请。
+    contributors: 贡献者
+    create_invite_link: 创建邀请链接
+    edit_invite_link: 编辑邀请链接
+    invite_contributor: 邀请贡献者
+    list_collaboration: 列表协作
+    no_contributors: 暂无贡献者，请创建邀请链接并分享以开始协作。
+    created: 列表已创建
+    confirm_delete: "<p>此项目有一条评论：</p><p>\"%{media_comment}\"</p><p>确定要移除吗？</p>"
+    confirm_delete_grid: "确定要移除 %{media_name} 吗？"
   edits: 编辑
   email:
     confirm_new_email_address: 确认新邮箱地址
@@ -2214,8 +2214,8 @@ zh-CN:
       description: 该海报经发现违反<a href="%{link}">community guidelines</a>。 相关用户也可能会被暂停使用。
       title: 此帖子已被删除
     too_many_login_attempts:
-      description:
-      title:
+      description: 您的 IP 地址发送了太多登录请求。请稍等几秒后重试。
+      title: 登录尝试次数过多
   errors:
     attributes:
       descriptors:
@@ -2273,11 +2273,11 @@ zh-CN:
         one: 太长(最长为%{count}字符)
         other: 太短(最短为%{count}字符)
       wrong_length: 长度错误 (应当为%{count}字符)
-      blocked_words:
-      duplicate_review:
+      blocked_words: 包含被屏蔽的词语
+      duplicate_review: 评论已存在
     movie:
       duplicate_cast: 此人物已添加为演员。
-    nesting:
+    nesting: 嵌套无效
     tv:
       create_season_locked: 此剧集已被锁定无法添加新季。
       duplicate_created_by: 此人员已添加为创作者。
@@ -2290,7 +2290,7 @@ zh-CN:
       duplicate_season_episode_crew_member: 此人已作为 %{job_name} 添加到本季的剧集中。 剧组人员名单需要添加到一季或一集中，而不是两处都添加。
       missing_credit: 您尝试编辑的名单不存在。
       missing_person: 找不到您输入的人物。
-    wrong_count:
+    wrong_count: 长度不正确（必须有 %{count} 个项目）
   failed_email: 邮件发送失败
   failed_generic: 出现问题。
   failed_report: 提交报告时出了点问题。
@@ -3421,7 +3421,7 @@ zh-CN:
       blunt: 生硬
       bold: 勇敢
       brisk: 轻快
-      burlesque:
+      burlesque: 无
       callous: 冷酷无情
       calm: 镇定
       candid: 坦率
@@ -3610,9 +3610,9 @@ zh-CN:
     total_runtime: 总时长
     use_grid_view: 网格视图
     use_list_view: 列表视图
-    search:
-    no_search_results:
-    search_within:
+    search: 搜索
+    no_search_results: 没有匹配您查询的项目。
+    search_within: 在列表中搜索项目...
   list_messages:
     comment_updated: 说明已修改！
     image_saved: 图像已保存！
@@ -3638,21 +3638,21 @@ zh-CN:
   media:
     adult: 成人
     alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
+      add_name: 添加名称
+      alternative_names: 别名
+      name: 名称
+      no_records: 暂无别名。
     award:
       edit:
         adult:
-          adult_award:
-        title_logos:
+          adult_award: 成人奖项
+        title_logos: 标题标志
       header:
-        latest_ceremony:
-        upcoming_ceremony:
+        latest_ceremony: 查看最新典礼
+        upcoming_ceremony: 查看即将到来的典礼
     cast_credits:
-      cast_credits:
-      select:
+      cast_credits: 演员表
+      select: 选择演员表...
     changes:
       filters:
         clear: 清除
@@ -3674,8 +3674,8 @@ zh-CN:
           no_records: 尚未添加电影。
       parts: 内含电影
     companies:
-      companies:
-      select:
+      companies: 公司
+      select: 选择公司...
     company:
       headquarters: 总部
       movie_page_title: "%{name} 制作的电影"
@@ -3719,8 +3719,8 @@ zh-CN:
         '8': 加油！成功就在眼前。
         '9': 马上要完成了...
     crew_credits:
-      crew_credits:
-      select:
+      crew_credits: 剧组
+      select: 选择剧组...
     edit:
       alternative_title:
         lock_existing: 锁定现有标题
@@ -3770,8 +3770,8 @@ zh-CN:
         original_title: 原始片名应以条目的默认语言书写，通常和“默认语言”栏选择的语言一致。
         overview: 简介请尽量简明扼要，不要剧透。
         social_links: 社交链接仅用于填写（已认证的）官方网站，不允许填写粉丝网站 。
-        softcore:
-        video:
+        softcore: 此选项用于标识主要为情色性质但不一定是硬核色情的内容。更多示例请参见贡献指南。
+        video: 此选项通常适用于合辑视频、专业演唱会、现场戏剧和付费观看活动。更多示例请参见贡献指南。
       translation_already_exists: "%{language}翻译已经存在。"
       translation_not_found: "%{language}翻译还未创建。"
       unlock_all_appearances: 通过单击“是”，您将解锁所有现有记录。
@@ -3807,11 +3807,11 @@ zh-CN:
       edit:
         adult:
           adult_movie: 是否为成人影片？
-          adult_status:
+          adult_status: 成人状态？
           status:
-            none:
-            hardcore:
-            softcore:
+            none: 无
+            hardcore: 硬核
+            softcore: 软性
         alternative_titles:
           no_records: 尚未添加别名。
         cast:
@@ -3848,7 +3848,7 @@ zh-CN:
         videos:
           no_records: 尚未添加视频。
         softcore:
-          softcore_movie:
+          softcore_movie: 软性色情电影？
       statuses:
         Canceled: 已取消
         In Production: 拍摄中
@@ -3946,7 +3946,7 @@ zh-CN:
       seasons: 季
       translations: 翻译
       videos: 视频
-      awards:
+      awards: 奖项
     social_panel:
       discussions:
         currently_subscribed: 已订阅，当有人发布第一个帖子时，您将会收到通知。
@@ -3966,11 +3966,11 @@ zh-CN:
         write_review:
           logged_in: 写评价
           public: 登录以撰写评价。
-        written_on:
-        like_button_logged_out:
-        their_rating:
-        your_rating:
-        edit_review:
+        written_on: 写于 %{date}
+        like_button_logged_out: 登录或注册以喜欢此评论
+        their_rating: （他们的评分）
+        your_rating: （您的评分）
+        edit_review: 编辑评论
     translations:
       add_biography: 添加生平简介
       add_homepage: 添加主页
@@ -4071,7 +4071,7 @@ zh-CN:
         seasons:
           no_records: 尚未添加季。
         softcore:
-          softcore_show:
+          softcore_show: 软性色情电视剧？
       episode_groups:
         groups:
           count:
@@ -4117,42 +4117,42 @@ zh-CN:
       restricted_regions: 限制区域
       tags: 标签
     wizard:
-      award_details:
-      getting_started:
-      intro_1:
-      intro_2:
-      verify:
+      award_details: 奖项详情
+      getting_started: 开始
+      intro_1: 在 TMDB 上添加新的 %{media_type} 非常简单。如果您对我们的编辑系统有任何疑问，请阅读我们的贡献指南或访问论坛。
+      intro_2: 此表单将引导您完成创建过程。要开始，请点击下一步。
+      verify: 验证并保存
     more_like_this:
-      if_you_liked_this:
-      or_something_more:
+      if_you_liked_this: "如果您喜欢 <em>%{name}</em>，您可能还会喜欢..."
+      or_something_more: 或者更多...
       genres:
-        '12':
-        '14':
-        '16':
-        '18':
-        '27':
-        '28':
-        '35':
-        '36':
-        '37':
-        '53':
-        '80':
-        '99':
-        '878':
-        '9648':
-        '10402':
-        '10749':
-        '10751':
-        '10752':
-        '10762':
-        '10763':
-        '10764':
-        '10759':
-        '10765':
-        '10766':
-        '10767':
-        '10768':
-        '10770':
+        '12': 冒险的
+        '14': 奇幻的
+        '16': 动画的
+        '18': 戏剧性的
+        '27': 恐怖的
+        '28': 动作感强的
+        '35': 有趣的
+        '36': 历史性的
+        '37': 粗犷的
+        '53': 悬疑的
+        '80': 写实的
+        '99': 发人深省的
+        '878': 超越现实的
+        '9648': 神秘的
+        '10402': 音乐的
+        '10749': 浪漫的
+        '10751': 家庭友好的
+        '10752': 英勇的
+        '10762': 儿童友好的
+        '10763': 时事的
+        '10764': 非剧本的
+        '10759': 惊险的
+        '10765': 富有想象力的
+        '10766': 丑闻的
+        '10767': 坦率的
+        '10768': 政治色彩浓厚的
+        '10770': 电视制作的
   message_templates:
     help_translate:
       message: |-
@@ -4208,7 +4208,7 @@ zh-CN:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words:
+              blocked_words: 外部 ID 包含被屏蔽的词语
   month: "%{count} 个月"
   navigation:
     discover:
@@ -4323,14 +4323,14 @@ zh-CN:
           quadrillion: 千万亿
           thousand: 千
           trillion: 万亿
-          unit:
+          unit: "\u3000"
     percentage:
       format:
-        delimiter:
+        delimiter: 无
         format: "%n%"
     precision:
       format:
-        delimiter:
+        delimiter: 无
   number_of_edits: 共%{count} 次编辑
   number_of_items: 共 %{count} 个条目
   number_of_results: 共 {count} 个结果
@@ -4409,7 +4409,7 @@ zh-CN:
   report:
     details_placeholder: 请尽可能详尽地输入。原始报告中提供的数据越多，请求的处理速度便越快。
   reset_password_text: 在下方输入你的用户名开始重置密码。
-  sample:
+  sample: 示例
   search:
     adult: 成人内容
     favorites_movie: 搜索收藏电影...
@@ -4433,8 +4433,8 @@ zh-CN:
     trending_searches: 热门搜索
     watchlist_movie: 搜索电影待看片单...
     watchlist_tv: 搜索电视节目待看片单...
-    for_media:
-    softcore:
+    for_media: 搜索 %{media_type}...
+    softcore: 软性色情
   search_text_validation_error: 请输入有效的文本!
   search_tip_1: 提示：你可以使用“y:”筛选器以年份来缩小查询范围。例如：“星球大战 y:1977”。
   season_number_name: 第 %{season_number} 季
@@ -4449,12 +4449,12 @@ zh-CN:
       resend_verification_email_text: 未收到你的账户验证邮件？在下方输入你的电子邮箱以重新发送。
       reset_password_text: 输入你注册 TMDB 账户所使用的邮箱，然后我们将向您发送重置密码所需的步骤。
       adult_content:
-        show_adult_content:
+        show_adult_content: 显示成人内容？
         confirm_popup:
-          title:
-          message:
-          confirm_button:
-          cancel_button:
+          title: 重要 — 这是成人设置
+          message: 启用此设置后，浏览 TMDB 时可以显示包括裸露和性行为明确描绘在内的年龄限制材料。同意启用此设置即表示您确认您已年满 18 岁或您访问该网站所在司法管辖区的法定成年年龄，并且您同意查看性露骨内容。
+          confirm_button: 是，我已年满 18 岁
+          cancel_button: 取消，我未满 18 岁
     api:
       api: API
       create_page_title: 创建一个新 API 密钥
