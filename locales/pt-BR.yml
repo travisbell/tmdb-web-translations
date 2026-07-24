@@ -32,7 +32,7 @@ pt-BR:
   Add Item: Adicionar Item
   Add Missing Cast & Crew: Adicionar elenco e equipe faltantes
   Add Network: Adicionar uma emissora
-  Add New Award:
+  Add New Award: Adicionar Nova Premiação
   Add New Episode: Adicionar um novo episódio
   Add New Movie: Adicionar um novo Filme
   Add New Release: Adicionar uma nova versão
@@ -131,7 +131,7 @@ pt-BR:
   DMCA Policy: Política DMCA
   DMCA Takedown Request: Solicitação de remoção por DMCA
   Date: Data
-  Date Added:
+  Date Added: Data de Adição
   Day of Death: Falecimento
   Default Language: Idioma padrão
   Delete: Excluir
@@ -233,7 +233,7 @@ pt-BR:
   Job: Cargo
   Join the Community: Junte-se a Comunidade
   Joined in: Membro desde
-  Key:
+  Key: Chave
   Keyword: Palavra-chave
   Keyword Results: Resultados para palavras-chave
   Keywords: Palavras-chave
@@ -295,7 +295,7 @@ pt-BR:
   Notes: Anotações
   Notifications: Notificações
   Now Playing Movies: Filmes em Cartaz
-  Number:
+  Number: Número
   Number of Movies: Número de Filmes
   Number of TV Shows: Número de Séries
   Number of edits in the past: Número de edições nos últimos
@@ -303,7 +303,7 @@ pt-BR:
   Offical Site: Site oficial
   Offline Databases: Bancos de dados indisponíveis
   Ok: OK
-  Optional:
+  Optional: Opcional
   Origin Country: País de origem
   Original Air Date: Data da primeira exibição
   Original Language: Idioma original
@@ -313,7 +313,7 @@ pt-BR:
   Original TV Show Language: Idioma Original da Série
   Original Title: Título original
   Other Databases: Bancos de dados de terceiros
-  Others:
+  Others: outros
   Overview: Sinopse
   Page: Página
   People: Pessoas
@@ -374,7 +374,7 @@ pt-BR:
   Report an Issue: Reportar um problema
   Reported Issues: Problemas reportados
   Request an API Key: Solicitar chave de API
-  Required:
+  Required: Obrigatório
   Resend Activation Email: Reenviar e-mail de ativação
   Reset: Redefinir
   Reset Password: Resetar a senha
@@ -439,7 +439,7 @@ pt-BR:
   TV: TV
   TV Network: Emissora
   TV Recommendations: Recomendações de séries
-  TV Show:
+  TV Show: Série
   TV Show Data: Dados da Série
   TV Show Results: Resultados para Séries
   TV Show Status: Situação da série
@@ -462,7 +462,7 @@ pt-BR:
   Top Rated Movies: Filmes mais bem avaliados
   Top Rated TV Shows: Séries mais bem avaliadas
   Top Users: Usuários em destaque
-  Translate Award:
+  Translate Award: Traduzir Premiação
   Translate Collection: Traduzir coletânea
   Translate Movie: Traduzir Filme
   Translate Person: Traduzir pessoa
@@ -482,7 +482,7 @@ pt-BR:
   Upload Logo: Enviar logo
   User Score: Avaliação dos usuários
   Username: Nome de usuário
-  Value:
+  Value: Valor
   Video?: Vídeo?
   View: Esquema
   View All Backdrops: Mostrar todas as imagens de fundo
@@ -514,7 +514,7 @@ pt-BR:
   account:
     reviews:
       delete:
-        message:
+        message: Excluir esta resenha é uma ação permanente e não pode ser desfeita.
   account_drop_down:
     discussions: Discussões
     edit_profile: Editar Perfil
@@ -529,7 +529,7 @@ pt-BR:
     sign_up: Registrar
     view_profile: Ver perfil
     watchlist: Lista de Interesses
-    reviews:
+    reviews: Resenhas
   accounts:
     activity:
       activity: Atividade
@@ -567,20 +567,12 @@ pt-BR:
         emails: E-mails
         filters:
           status:
-            Bounce: |2-
-
-              Devolvido
-            Complaint: |2-
-
-              Queixa
-            Delivery: |2-
-
-              Entregue
+            Bounce: Devolvido
+            Complaint: Queixa
+            Delivery: Entregue
             Invalid: Inválido
             Unknown: Desconhecido
-            Unsubscribed: |2-
-
-              Não subscrito
+            Unsubscribed: Não subscrito
             status: Status
         number_of_items:
           one: "%{count} e-mail"
@@ -638,19 +630,19 @@ pt-BR:
       no_lists:
         logged_in: Você ainda não criou nenhuma lista.
         public: "%{username} não tem nenhuma lista pública para compartilhar."
-        search:
+        search: Nenhuma lista encontrada.
       page_title:
         page_owner: Minhas Listas
         public: Listas de %{username}
-      search:
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      search: Buscar uma lista...
+      add_to_lists: Adicionar <span class="bold">%{media_name}</span> às listas
+      contributor: Colaborador
+      create_new_list: Criar uma nova lista
+      created: Lista criada
+      my_new_list: Minha nova lista...
       no_reviews:
-        logged_in:
-        public:
+        logged_in: Você não escreveu nenhuma resenha.
+        public: "%{username} não escreveu nenhuma resenha."
     member_since: Membro desde %{date}
     navigation:
       discussions: Discussões
@@ -708,7 +700,7 @@ pt-BR:
     statuses:
       banned: Banido
       deleted: Excluído
-      ok:
+      ok: Ok
     tips:
       import_imdb_ratings: Você pode importar as suas avaliações do IMDb.
       tip: Dica
@@ -731,8 +723,8 @@ pt-BR:
       view_them: Ver tudo.
     reviews:
       page_title:
-        page_owner:
-        public:
+        page_owner: Minhas Resenhas
+        public: Resenhas de %{username}
   add_to_list: Adicionar %{media_title} a uma de suas listas...
   already_translated_in: "%{page_title} já foi traduzido para os seguintes idiomas..."
   api_for_business:
@@ -750,11 +742,9 @@ pt-BR:
       error: não pode estar em branco
       name:
         label: Nome
-      success:
+      success: Obrigado por enviar sua solicitação de vendas empresariais!
   api_session:
-    3rd_party_request: |2-
-
-      Pedido de autenticação de terceiros
+    3rd_party_request: Pedido de autenticação de terceiros
     account_required:
       need_account: Você precisa estar logado para continuar!
       title: Uma conta é requerida
@@ -780,12 +770,8 @@ pt-BR:
 
           '
       invalid_request_token:
-        message: |2-
-
-          O token de acesso que você enviou é inválido. Tente criar um novo e verifique se copiou corretamente. Se você continuar com problemas, entre em contato com o desenvolvedor do aplicativo que você está usando.
-        name: |2-
-
-          Token de solicitação inválido
+        message: O token de acesso que você enviou é inválido. Tente criar um novo e verifique se copiou corretamente. Se você continuar com problemas, entre em contato com o desenvolvedor do aplicativo que você está usando.
+        name: Token de solicitação inválido
   attributes:
     biography: Biografia
     certification: Certificação
@@ -804,68 +790,68 @@ pt-BR:
   awards:
     add_nomination: Adicionar indicação
     admin:
-      delete:
+      delete: Excluir premiação
     air_date:
       future: Exibição em %{date}
       past: Exibido em %{date}
     alternative_names: Nomes Alternativos
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
+    award: Premiação
+    broadcast_episode: Episódio de exibição
+    broadcast_episode_tooltip: Vincular a um episódio de TV exibirá informações de produção.
+    broadcast_series: Série de exibição
+    broadcast_series_tooltip: Vincular uma série permite exibir informações de produção de cada cerimônia.
     categories:
-      add_category:
-      categories:
-      category:
-      crew_credit_departments:
-      crew_credit_jobs:
-      date_ended:
-      date_started:
-      display_type:
-      locked:
-      media_type:
-      name:
+      add_category: Adicionar categoria
+      categories: Categorias
+      category: Categoria
+      crew_credit_departments: Departamentos de créditos da equipe
+      crew_credit_jobs: Funções de créditos da equipe
+      date_ended: Data de término
+      date_started: Data de início
+      display_type: Tipo de exibição
+      locked: A adição de novas categorias foi desativada e bloqueada por um moderador.
+      media_type: Tipo de mídia
+      name: Nome
       title: Categorias
-      ended_on:
-      started_on:
+      ended_on: Encerrado em %{date}
+      started_on: Iniciado em %{date}
     category_empty: Não há indicações para esta categoria.
     ceremonies:
-      add_ceremony:
-      ceremonies:
-      ceremony:
-      date:
-      limits:
-      location:
-      locked:
+      add_ceremony: Adicionar cerimônia
+      ceremonies: Cerimônias
+      ceremony: Cerimônia
+      date: Data
+      limits: Limites
+      location: Localização
+      locked: A adição de novas cerimônias foi desativada e bloqueada por um moderador.
       number: Número
       release_date_max: Estréia
-      release_date_min:
+      release_date_min: Data mínima de lançamento
       title: Cerimônias
     field:
-      homepage:
-      name:
-      overview:
+      homepage: Página inicial
+      name: Nome
+      overview: Sinopse
     new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
+      award_details: Detalhes da premiação
+      click_next: Este assistente de 3 etapas vai orientar você no processo de criação. Para começar, clique em avançar.
+      getting_started: Primeiros passos
+      header_1: Nova premiação
+      header_2: Adicionar uma nova premiação
+      note: Adicionar uma nova premiação no TMDB é simples e fácil. Se você tiver dúvidas sobre como nosso sistema de edição funciona, leia nossa <a href="%{bible_href}">bíblia de contribuição</a> ou passe nos <a href="%{talk_href}">fóruns</a>.
+      verify: Verificar e salvar
     nominations:
-      add_nomination:
-      locked:
-      movie:
-      nomination:
+      add_nomination: Adicionar indicação
+      locked: A adição de novas indicações foi desativada e bloqueada por um moderador.
+      movie: Filme
+      nomination: Indicação
       number:
         one:
         other:
       one: Uma indicação
       other: "%{count} Indicações"
-      title:
-      shared_with:
+      title: Indicações
+      shared_with: Compartilhado com...
     nominee: Indicado
     show_info:
       directed_by: Dirigido por
@@ -881,15 +867,15 @@ pt-BR:
     wins:
       one: 1 Vitória
       other: "%{count} Vitórias"
-    most_awarded_films:
-    most_awarded_people:
-    most_nominated_films:
-    most_nominated_people:
-    media_page_description:
+    most_awarded_films: Filmes mais premiados
+    most_awarded_people: Pessoas mais premiadas
+    most_nominated_films: Filmes mais indicados
+    most_nominated_people: Pessoas mais indicadas
+    media_page_description: Veja indicações e vitórias em premiações de %{name} no TMDB. %{name} recebeu %{nominations} e %{wins}.
   back_options:
-    award:
+    award: Voltar para a premiação
     back: Voltar
-    ceremony:
+    ceremony: Voltar para a cerimônia
     episode: Voltar à lista de episódios
     episode_groups: Voltar aos grupos de episódios
     episode_list: Voltar à lista de episódios
@@ -1079,9 +1065,7 @@ pt-BR:
         '1':
           meaning: Filmes para o público de todas as idades.
         '2':
-          meaning: |2-
-
-            Filmes para espectadores de 7 anos de idade. Menores de 7 anos de idade, os espectadores deste índice foram apresentados apenas em conjunto com pessoas adultas acompanhantes.
+          meaning: Filmes para espectadores de 7 anos de idade. Menores de 7 anos de idade, os espectadores deste índice foram apresentados apenas em conjunto com pessoas adultas acompanhantes.
         '3':
           meaning: Filmes para espectadores a partir dos 13 anos de idade. Os telespectadores dos 7 aos 13 anos de idade só podem entrar neste índice em conjunto com pessoas adultas acompanhantes.
         '4':
@@ -1178,19 +1162,13 @@ pt-BR:
           meaning: Classificação indicativa especial suplementar ao M/18, denotando pornografia.
       RU:
         '1':
-          meaning: |2-
-
-            Todas as idades são admitidas.
+          meaning: Todas as idades são admitidas.
         '2':
-          meaning: |2-
-
-            (Para crianças acima de 6) - Inadequado para crianças menores de 6 anos.
+          meaning: "(Para crianças acima de 6) - Inadequado para crianças menores de 6 anos."
         '3':
           meaning: "(Para crianças acima de 12 anos) - Inadequado para crianças menores de 12 anos."
         '4':
-          meaning: |2-
-
-            (Para crianças acima de 16 anos) - Inadequado para menores de 16 anos.
+          meaning: "(Para crianças acima de 16 anos) - Inadequado para menores de 16 anos."
         '5':
           meaning: "(Proibido para crianças) - Proibido para menores de 18 anos."
       SE:
@@ -1944,19 +1922,19 @@ pt-BR:
       years:
         years: Anos
       ceremony_date:
-        ceremony_date:
-        search_all_ceremonies:
-        search_latest_ceremony:
-        latest_ceremony:
+        ceremony_date: Data da cerimônia
+        search_all_ceremonies: Pesquisar todas as cerimônias
+        search_latest_ceremony: Pesquisar a cerimônia mais recente
+        latest_ceremony: Cerimônia mais recente
       last_ceremony:
-        latest_ceremony:
-        search_all_countries:
-        search_latest_ceremony:
-      adult_content:
-      exclude_adult:
-      include_adult:
-      adult_filters:
-      softcore_content:
+        latest_ceremony: Cerimônia mais recente
+        search_all_countries: Pesquisar em todos os países
+        search_latest_ceremony: Pesquisar pela cerimônia mais recente
+      adult_content: Conteúdo adulto
+      exclude_adult: Excluir adulto
+      include_adult: Incluir adulto
+      adult_filters: Filtros de conteúdo adulto
+      softcore_content: Conteúdo softcore
     no_items: Nenhum item foi encontrado por sua busca.
     search: Pesquisar
     sort_options:
@@ -1976,8 +1954,8 @@ pt-BR:
       release_date_desc: Lançamento (novo)
       title_a_z: Título (A–Z)
       title_z_a: Título (Z–A)
-      latest_ceremony_asc:
-      latest_ceremony_desc:
+      latest_ceremony_asc: Cerimônia mais recente (crescente)
+      latest_ceremony_desc: Cerimônia mais recente (decrescente)
     tooltips:
       not_member: Não é um membro?
       options: Ver opções de itens
@@ -2020,12 +1998,12 @@ pt-BR:
     category:
       last_reply_with_datetime: "%{date} às %{time}"
       last_reply_with_datetime_and_username: "%{date} às %{time}<br>por %{username}"
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
-      replied_by:
+      last_reply_with_datetime_v2: última resposta em %{date} às %{time}
+      last_reply_with_datetime_and_username_v2: última resposta por %{username} em %{date} às %{time}
+      posted_by_with_datetime: postado <time class="timeago" datetime="%{time}">%{time}</time>
+      posted_by_with_datetime_and_username: "%{username} postou <time class=\"timeago\" datetime=\"%{time}\">%{time}</time>"
+      replied_by_with_datetime_and_username: "%{username} respondeu <time class=\"timeago\" datetime=\"%{time}\">%{time}</time>"
+      replied_by: "%{username} respondeu"
     discussion_activity: Atividade em discussões
     email_notifications:
       email_notifications: Notificações por e-mail
@@ -2154,16 +2132,23 @@ pt-BR:
     choose_image: Selecionar imagem
     delete_list: Excluir lista
     edit_list: Editar Lista
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: |-
+      Você pode convidar outras contas para listas públicas e privadas.
+      Colaboradores só podem adicionar e remover itens e atualizar comentários.
+      Para convidar um novo colaborador, envie o link de convite por e-mail ou mensagem instantânea.
+      Colaboradores precisam ter uma conta no TMDB para aceitar o convite.
+    contributors: Colaboradores
+    create_invite_link: Criar link de convite
+    edit_invite_link: Editar link de convite
+    invite_contributor: Convidar colaborador
+    list_collaboration: Colaboração em listas
+    no_contributors: Nenhum colaborador adicionado. Crie um link de convite e compartilhe para começar.
+    created: Lista criada
+    confirm_delete: |-
+      <p>Este item tem um comentário:</p>
+      <p>"%{media_comment}"</p>
+      <p>Tem certeza de que deseja removê-lo?</p>
+    confirm_delete_grid: Tem certeza de que deseja remover %{media_name}?
   edits: edições
   email:
     confirm_new_email_address: Confirmar novo endereço de e-mail
@@ -2191,10 +2176,10 @@ pt-BR:
       1f628: Cara de medo
       1f629: Rosto cansado
       1f62c: Rosto expressando desagrado
-      1f62d:
-      1f62e:
-      1f630:
-      1f631:
+      1f62d: Rosto chorando alto
+      1f62e: Rosto soltando ar
+      1f630: Rosto ansioso com suor
+      1f631: Rosto gritando de medo
       1f633: Rosto corado
       1f635-1f4ab: Rosto com olhos em espiral
       1f641: Rosto descontente
@@ -2246,8 +2231,8 @@ pt-BR:
       description: Esta postagem foi considerada uma violação de nossas <a href="%{link}">diretrizes da comunidade</a>.  O usuário responsável por isso também pode ter sido suspenso.
       title: Esta postagem foi removida
     too_many_login_attempts:
-      description:
-      title:
+      description: Recebemos muitas tentativas de login do seu endereço IP. Aguarde alguns segundos e tente novamente.
+      title: Muitas tentativas de login
   errors:
     attributes:
       descriptors:
@@ -2257,7 +2242,7 @@ pt-BR:
       iso_639_1:
         invalid: não é um idioma válido
       release_date:
-        anachronism:
+        anachronism: é anterior ao tipo de lançamento %{min_date}
         invalid: não é uma data válida
     images:
       couldnt_process: Não conseguimos processar esta imagem
@@ -2270,12 +2255,12 @@ pt-BR:
     messages:
       accepted: deve ser aceito
       blank: é necessário(a)
-      confirmation:
+      confirmation: não corresponde a %{attribute}
       email_address_not_routable: não é roteável
       empty: não pode estar vazio
       equal_to:
-      even:
-      exclusion:
+      even: deve ser par
+      exclusion: está reservado
       greater_than:
       greater_than_or_equal_to:
       in:
@@ -2289,11 +2274,11 @@ pt-BR:
       less_than_or_equal_to:
         one: deve ser menor ou igual a %{count}
         other: deve ser menor ou igual a %{count}
-      model_invalid:
+      model_invalid: "Falha de validação: %{errors}"
       no_characters_found: Nenhum personagem encontrado
       not_a_number: não é um número
       not_an_integer: deve ser um número inteiro
-      odd:
+      odd: deve ser ímpar
       other_than:
       present: deve estar em branco
       required: deve existir
@@ -2302,12 +2287,12 @@ pt-BR:
       taken: já foi feito(a)
       too_long:
       too_short:
-      wrong_length:
-      blocked_words:
-      duplicate_review:
+      wrong_length: tem o tamanho incorreto (deve ter %{count} itens)
+      blocked_words: contém palavras bloqueadas
+      duplicate_review: A resenha já existe
     movie:
       duplicate_cast: Esta pessoa já foi adicionada como um membro do elenco.
-    nesting:
+    nesting: possui aninhamento inválido
     tv:
       create_season_locked: A criação de novas temporadas foi bloqueada para esta série.
       duplicate_created_by: Esta pessoa já foi adicionada como um(a) criador(a).
@@ -2320,7 +2305,7 @@ pt-BR:
       duplicate_season_episode_crew_member: Esta pessoa já foi adicionada como %{job_name} a um episódio desta temporada.  Os créditos da equipe precisam ser adicionados a uma temporada ou a um episódio, e não a ambos.
       missing_credit: O crédito que você estava tentando editar não existe.
       missing_person: A pessoa que você digitou não foi encontrada.
-    wrong_count:
+    wrong_count: tem o tamanho incorreto (deve ter %{count} itens)
   failed_email: Ocorreu um problema ao enviar seu e-mail.
   failed_generic: Ocorreu um problema.
   failed_report: Ocorreu um problema ao enviar seu relatório.
@@ -2462,9 +2447,7 @@ pt-BR:
     24 Frame Playback: Operador(a) de cadência de quadros
     2D Artist: Artista 2D
     2D Sequence Supervisor: Supervisor de Sequência 2D
-    2D Supervisor: |2-
-
-      Supervisor 2D
+    2D Supervisor: Supervisor 2D
     3D Animator: Animador 3D
     3D Artist: Artista 3D
     3D Coordinator: Coordenador 3D
@@ -3525,7 +3508,7 @@ pt-BR:
       ghoulish: macabro
       gloomy: sombrio
       grand: grande
-      grave:
+      grave: solene
       grim: sinistro
       hard: duro
       harsh: severo
@@ -3630,7 +3613,7 @@ pt-BR:
     image_selected: Selecionada
     items_not_seen: Itens que eu não vi
     items_on_list:
-      many:
+      many: itens nesta lista
       one: item nesta lista
       other: itens nesta lista
     items_seen: Itens que eu vi
@@ -3646,9 +3629,9 @@ pt-BR:
     total_runtime: Duração total
     use_grid_view: Usar Visualização de Grade
     use_list_view: Usar Visualização de Lista
-    search:
-    no_search_results:
-    search_within:
+    search: Buscar
+    no_search_results: Nenhum item correspondeu à sua consulta.
+    search_within: Buscar itens dentro da sua lista...
   list_messages:
     comment_updated: Comentário atualizado!
     image_saved: Imagem salva!
@@ -3674,21 +3657,21 @@ pt-BR:
   media:
     adult: Adulto
     alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
+      add_name: Adicionar nome
+      alternative_names: Nomes alternativos
+      name: Nome
+      no_records: Nenhum nome alternativo foi adicionado.
     award:
       edit:
         adult:
-          adult_award:
-        title_logos:
+          adult_award: Premiação adulta
+        title_logos: Logotipos de título
       header:
-        latest_ceremony:
-        upcoming_ceremony:
+        latest_ceremony: Confira a cerimônia mais recente
+        upcoming_ceremony: Confira a próxima cerimônia
     cast_credits:
-      cast_credits:
-      select:
+      cast_credits: Créditos de elenco
+      select: Selecione créditos de elenco...
     changes:
       filters:
         clear: Limpar
@@ -3710,8 +3693,8 @@ pt-BR:
           no_records: Nenhum Filme foi adicionado.
       parts: Itens
     companies:
-      companies:
-      select:
+      companies: Empresas
+      select: Selecione empresas...
     company:
       headquarters: Sede
       movie_page_title: Filmes produzidos por %{name}
@@ -3755,8 +3738,8 @@ pt-BR:
         '8': Não desanima não! Estamos tão perto.
         '9': Quase lá...
     crew_credits:
-      crew_credits:
-      select:
+      crew_credits: Créditos de equipe
+      select: Selecione créditos de equipe...
     edit:
       alternative_title:
         lock_existing: Bloquear Títulos Existentes
@@ -3800,14 +3783,14 @@ pt-BR:
       tooltips:
         adult: De um modo geral, essa indicação deve ser usada apenas para pornografia. Por favor, veja <a href="/bible/movie#59f73b759251416e71000004">the contribution bible</a> para mais informações.
         bible: Para obter ajuda na edição de informações no TMDB, clique neste '?' para ler a Bíblia do Colaborador.
-        character:
+        character: O nome do personagem deve ser inserido como aparece em %{media}.
         homepage: Somente sites oficiais, páginas de fãs não são permitidas.
         logo_format: Arquivos SVG e PNG são suportados. Preferimos arquivos SVG, por serem independentes de resolução.
         original_title: O título original deve ser inserido no idioma original do item. Na maioria dos casos, seria o mesmo do campo "idioma original".
         overview: Ao escrever uma sinopse, tente mantê-la curta, concisa e livre de spoilers.
         social_links: Links sociais devem ser apenas páginas oficiais e verificadas. Páginas de fãs não são permitidas.
-        softcore:
-        video:
+        softcore: Esta opção é usada para identificar conteúdo principalmente erótico, mas que não é necessariamente pornografia explícita. Veja mais exemplos na <a href="/bible/movie#69b97071cfe788db108e926e" target="_blank">bíblia de contribuição</a>.
+        video: Esta opção normalmente se aplica a vídeos de compilação, shows profissionais, teatro ao vivo e eventos PPV. Veja mais exemplos na <a href="/bible/movie#59f73b759251416e71000005" target="_blank">bíblia de contribuição</a>.
       translation_already_exists: A tradução de %{language} já existe.
       translation_not_found: A tradução em %{language} ainda não foi criada.
       unlock_all_appearances: Ao clicar em 'sim', você estará desbloqueando todos os registros existentes.
@@ -3843,11 +3826,11 @@ pt-BR:
       edit:
         adult:
           adult_movie: Filme Adulto?
-          adult_status:
+          adult_status: Status adulto?
           status:
-            none:
-            hardcore:
-            softcore:
+            none: Nenhum
+            hardcore: Hardcore
+            softcore: Softcore
         alternative_titles:
           no_records: Nenhum título alternativo foi adicionado.
         cast:
@@ -3884,7 +3867,7 @@ pt-BR:
         videos:
           no_records: Nenhum vídeo foi adicionado.
         softcore:
-          softcore_movie:
+          softcore_movie: Filme softcore?
       statuses:
         Canceled: Cancelado
         In Production: Em Produção
@@ -3925,15 +3908,15 @@ pt-BR:
         blank_translated_name: Não é possível definir a tradução primária quando <strong>%{name} (%{language})</strong> está em branco.
         confirm_primary_translation: Já existe uma tradução primária (%{i18n_tag}) para esta pessoa.
         errors:
-          invalid_unicode:
-          leading_whitespace:
+          invalid_unicode: Caractere(s) inválido(s) detectado(s).
+          leading_whitespace: Espaço(s) em branco no início detectado(s).
           locked_name: "<strong>%{name} (%{language})</strong> está trancado."
-          name_required:
-          numbers:
+          name_required: Não foi possível migrar o campo %{name} (%{language}) em branco.
+          numbers: Caractere(s) numérico(s) inválido(s) detectado(s).
           primary_name_migration: Não foi possível migrar <strong>%{name} (%{language})</strong> da tradução primária.
           primary_translation: tradução já existe.
-          special_characters:
-          trailing_whitespace:
+          special_characters: Caractere(s) inválido(s) detectado(s).
+          trailing_whitespace: Espaço(s) em branco no fim detectado(s).
         migration_success: Nome migrado com sucesso
         move_name: Mover Nome
         move_name_tooltip: Mover <strong> %{name} (%{language})</strong> para o idioma selecionado.
@@ -3986,7 +3969,7 @@ pt-BR:
       seasons: Temporadas
       translations: Traduções
       videos: Vídeos
-      awards:
+      awards: Premiações
     social_panel:
       discussions:
         currently_subscribed: Você receberá uma notificação quando alguém fizer a primeira postagem.
@@ -4006,11 +3989,11 @@ pt-BR:
         write_review:
           logged_in: Fazer uma resenha
           public: Entre com uma conta para fazer uma resenha.
-        written_on:
-        like_button_logged_out:
-        their_rating:
-        your_rating:
-        edit_review:
+        written_on: Escrito em %{date}
+        like_button_logged_out: Entre ou registre-se para curtir esta resenha
+        their_rating: (avaliação dele(a))
+        your_rating: (sua avaliação)
+        edit_review: Editar resenha
     translations:
       add_biography: Adicionar biografia
       add_homepage: Adicionar página inicial
@@ -4111,7 +4094,7 @@ pt-BR:
         seasons:
           no_records: Nenhuma temporada foi adicionada.
         softcore:
-          softcore_show:
+          softcore_show: Série softcore?
       episode_groups:
         groups:
           count:
@@ -4157,42 +4140,42 @@ pt-BR:
       restricted_regions: Regiões restritas
       tags: Marcadores
     wizard:
-      award_details:
-      getting_started:
-      intro_1:
-      intro_2:
-      verify:
+      award_details: Detalhes da premiação
+      getting_started: Primeiros passos
+      intro_1: Adicionar um novo %{media_type} no TMDB é simples e fácil. Se você tiver dúvidas sobre como nosso sistema de edição funciona, leia nossa <a href="%{bible_href}">bíblia de contribuição</a> ou passe nos <a href="%{talk_href}">fóruns</a>.
+      intro_2: Este formulário vai orientar você pelo processo de criação. Para começar, clique em avançar.
+      verify: Verificar e salvar
     more_like_this:
-      if_you_liked_this:
-      or_something_more:
+      if_you_liked_this: Se você gostou de <em>%{name}</em>, talvez também goste de...
+      or_something_more: Ou talvez algo um pouco mais...
       genres:
-        '12':
-        '14':
-        '16':
-        '18':
-        '27':
-        '28':
-        '35':
-        '36':
-        '37':
-        '53':
-        '80':
-        '99':
-        '878':
-        '9648':
-        '10402':
-        '10749':
-        '10751':
-        '10752':
-        '10762':
-        '10763':
-        '10764':
-        '10759':
-        '10765':
-        '10766':
-        '10767':
-        '10768':
-        '10770':
+        '12': aventureiro
+        '14': fantástico
+        '16': animado
+        '18': dramático
+        '27': aterrorizante
+        '28': cheio de ação
+        '35': engraçado
+        '36': histórico
+        '37': áspero
+        '53': cheio de suspense
+        '80': bruto
+        '99': reflexivo
+        '878': de outro mundo
+        '9648': misterioso
+        '10402': musical
+        '10749': romântico
+        '10751': para toda a família
+        '10752': heroico
+        '10762': para crianças
+        '10763': atual
+        '10764': sem roteiro
+        '10759': emocionante
+        '10765': imaginativo
+        '10766': escandaloso
+        '10767': sincero
+        '10768': politicamente carregado
+        '10770': feito para TV
   message_templates:
     help_translate:
       message: |-
@@ -4248,7 +4231,7 @@ pt-BR:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words:
+              blocked_words: o ID externo contém palavras bloqueadas
   month:
     one: mês
     other: "%{count} meses"
@@ -4365,7 +4348,7 @@ pt-BR:
           quadrillion: Q
           thousand: Mil
           trillion: Tri
-          unit:
+          unit: "­"
     percentage:
       format:
         delimiter:
@@ -4486,8 +4469,8 @@ pt-BR:
     trending_searches: Mais procurados
     watchlist_movie: Buscar por filme na lista de interesses...
     watchlist_tv: Buscar por séries na lista de interesses...
-    for_media:
-    softcore:
+    for_media: Buscar por %{media_type}...
+    softcore: Softcore
   search_text_validation_error: Por favor insira um texto válido!
   search_tip_1: 'Dica: Você pode usar o filtro ''y:'' para limitar seus resultados por ano. Exemplo: ''tropa de elite y:2007''.'
   season_number_name: Temporada %{season_number}
@@ -4502,12 +4485,12 @@ pt-BR:
       resend_verification_email_text: Não recebeu o e-mail para verificar seu e-mail? Insira o seu e-mail abaixo que tentaremos enviá-lo novamente.
       reset_password_text: Insira o e-mail que você usou para criar uma conta TMDB e enviaremos as etapas necessárias para redefinir sua senha.
       adult_content:
-        show_adult_content:
+        show_adult_content: Exibir conteúdo adulto?
         confirm_popup:
-          title:
-          message:
-          confirm_button:
-          cancel_button:
+          title: IMPORTANTE — Esta é uma configuração adulta
+          message: Ao ativar esta configuração, materiais com restrição de idade, incluindo nudez e representações explícitas de atividade sexual, podem ser exibidos durante a navegação no TMDB. Ao concordar em ativar esta configuração, você afirma que tem pelo menos 18 anos de idade ou a maioridade na jurisdição da qual acessa o site e consente em visualizar conteúdo sexualmente explícito.
+          confirm_button: Sim, tenho 18 anos ou mais
+          cancel_button: Cancelar, tenho menos de 18 anos
     api:
       api: API
       create_page_title: Crie uma Nova API Key
@@ -4674,7 +4657,7 @@ pt-BR:
         table:
           date: Data
           device: Aparelho
-          expires:
+          expires: Expira
           ip: Endereço IP
     sharing:
       favorite_list:
@@ -4842,5 +4825,5 @@ pt-BR:
   view all: Mostrar tudo
   will_paginate:
     next_label: Próxima →
-    page_gap:
+    page_gap: …
     previous_label: "← Anterior"
