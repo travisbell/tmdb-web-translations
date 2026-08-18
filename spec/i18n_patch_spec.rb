@@ -89,6 +89,32 @@ RSpec.describe I18nPatch do
       })
     end
 
+    example "handle nested keys including plural keys, eg. other" do
+      patch = I18nPatch.new(
+        {
+          "abc" => {
+            "other" => "789"
+          }
+        },
+        locale: "en-US"
+      )
+
+      target = {
+        "abc" => {
+          "this" => "123",
+          "that" => "234"
+        }
+      }
+
+      expect(patch.apply(target)).to eq({
+        "abc" => {
+          "this" => "123",
+          "that" => "234",
+          "other" => "789"
+        }
+      })
+    end
+
     example "prioritizes key order of target hash" do
       patch = I18nPatch.new({
         "ghi" => "345",

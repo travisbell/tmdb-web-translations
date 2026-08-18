@@ -52,7 +52,9 @@ class I18nPatch
     end
   end
 
+  # Need at least two keys to detect plural to prevent "other" being added to something causing
+  # other plural keys to be injected unnecessarily.
   private def plural_keys?(object)
-    (object.keys & PLURAL_KEYS).length >= 1
+    (object.keys & PLURAL_KEYS).length >= 2
   end
 end
