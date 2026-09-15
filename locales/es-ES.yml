@@ -1,9 +1,10 @@
+---
 es-ES:
   3rd Party Applications: Aplicaciones de terceros
   API: API
   API Access Token: Token de acceso a la API
   API Details: Detalles de la API
-  API Documentation: Documentación de la API
+  API Documentation:
   API Key: Clave de la API
   API Libraries: Librerías de la API
   API Overview: Vista general de la API
@@ -31,7 +32,7 @@ es-ES:
   Add Item: Añadir elemento
   Add Missing Cast & Crew: Añadir reparto y equipo faltantes
   Add Network: Añadir canal
-  Add New Award: Añadir nuevo premio
+  Add New Award:
   Add New Episode: Añadir nuevo episodio
   Add New Movie: Añadir nueva película
   Add New Release: Añadir nuevo estreno
@@ -171,8 +172,7 @@ es-ES:
   Embed: incrustar
   Episode Images:
     one: Imagen del episodio
-    many: Imágenes del episodio
-    other:
+    other: Imágenes del episodio
   Episode Number: Número de episodio
   Episode Overview: Vista general del episodio
   Episodes: Episodios
@@ -259,16 +259,11 @@ es-ES:
   Login to Add a Poster: Iniciar sesión para añadir un cartel
   Login to Add a Video: Iniciar sesión para añadir un vídeo
   Login to Edit Cast & Crew: Iniciar sesión para editar el reparto y equipo
-  Login to add this TV show to your favorite list: Inicia sesión para añadir 
-    esta serie a tu lista de favoritas
-  Login to add this TV show to your watchlist: Inicia sesión para añadir esta 
-    serie a tu lista de seguimiento
-  Login to add this movie to your favorite list: Iniciar sesión para añadir esta
-    película a tu lista de favoritas
-  Login to add this movie to your watchlist: Iniciar sesión para añadir 
-    películas tu lista de seguimiento
-  Login to create and edit custom lists: Iniciar sesión para crear y editar 
-    listas personalizadas.
+  Login to add this TV show to your favorite list: Inicia sesión para añadir esta serie a tu lista de favoritas
+  Login to add this TV show to your watchlist: Inicia sesión para añadir esta serie a tu lista de seguimiento
+  Login to add this movie to your favorite list: Iniciar sesión para añadir esta película a tu lista de favoritas
+  Login to add this movie to your watchlist: Iniciar sesión para añadir películas tu lista de seguimiento
+  Login to create and edit custom lists: Iniciar sesión para crear y editar listas personalizadas.
   Login to rate this TV show: Inicia sesión para puntuar esta serie
   Login to rate this movie: Iniciar sesión para puntuar esta película
   Login to report an issue: Iniciar sesión para informar de un problema
@@ -469,7 +464,7 @@ es-ES:
   Top Rated Movies: Películas mejor puntuadas
   Top Rated TV Shows: Series mejor puntuadas
   Top Users: Usuarios destacados
-  Translate Award: Traducir premio
+  Translate Award:
   Translate Collection: Traducir colección
   Translate Movie: Traducir película
   Translate Person: Traducir persona
@@ -582,9 +577,8 @@ es-ES:
             Unsubscribed: Sin suscripción
             status: Estado
         number_of_items:
-          one: '%{count} Correo electrónico'
-          many: '%{count} Correos electrónicos'
-          other:
+          one: "%{count} Correo electrónico"
+          other: "%{count} Correos electrónicos"
       events: Eventos
       notifications:
         filters:
@@ -597,20 +591,15 @@ es-ES:
             type: Tipo
         notifications:
           one: Aviso
-          many: Avisos
-          other:
+          other: Avisos
         number_of_items:
-          one: '%{count} aviso'
-          many: '%{count} avisos'
-          other:
+          one: "%{count} aviso"
+          other: "%{count} avisos"
       page_title:
         recent_events: Eventos recientes
       recent: Recientes
     export:
-      csv_explanation: Si deseas exportar esta lista en formato CSV, haz click 
-        en el botón "Exportar". El fichero se enviará por correo electrónico. Es
-        posible que el envío tarde unos minutos dependiendo del tamaño de la 
-        lista.
+      csv_explanation: Si deseas exportar esta lista en formato CSV, haz click en el botón "Exportar". El fichero se enviará por correo electrónico. Es posible que el envío tarde unos minutos dependiendo del tamaño de la lista.
       export: Exportar
       export_csv: Exportar CSV
     favorites:
@@ -706,12 +695,8 @@ es-ES:
     recommendations:
       my_recommendations: Mis recomendaciones
       no_recommendations: No tenemos suficientes datos para recomendarte nada.
-      no_recommendations_helper: Prueba a añadir más favoritas (cuántas más 
-        mejor) y vuelve para ver cómo lo hicimos.
-      no_recommendations_helper_2: Intenta puntuar más películas y series 
-        (cuanto más, mejor) y luego danos unas horas para ver qué podemos hacer.
-        Estas recomendaciones se actualizarán a medida que veas y califiques más
-        contenido.
+      no_recommendations_helper: Prueba a añadir más favoritas (cuántas más mejor) y vuelve para ver cómo lo hicimos.
+      no_recommendations_helper_2: Intenta puntuar más películas y series (cuanto más, mejor) y luego danos unas horas para ver qué podemos hacer. Estas recomendaciones se actualizarán a medida que veas y califiques más contenido.
       page_title: Recomendaciones
     sort_options:
       asc: Ascendente
@@ -729,17 +714,11 @@ es-ES:
         public: Lista de seguimiento de %{username}
       next_month: Próximo mes
       no_upcoming_movies:
-        one: No hay próximas películas en tu lista de seguimiento. Sin embargo, 
-          hay %{count} elemento en tu lista de seguimiento.
-        many: No hay próximas películas en su lista de seguimiento. Sin embargo,
-          hay %{count} elementos en su lista de seguimiento.
-        other:
+        one: No hay próximas películas en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
+        other: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       no_upcoming_tv_shows:
-        one: No hay próximas series en tu lista de seguimiento. Sin embargo, hay
-          %{count} elemento en tu lista de seguimiento.
-        many: No hay próximas series en su lista de seguimiento. Sin embargo, 
-          hay %{count} elementos en su lista de seguimiento.
-        other:
+        one: No hay próximas series en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
+        other: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: Mi lista de seguimiento
         public: Lista de seguimiento de %{username}
@@ -773,40 +752,25 @@ es-ES:
     account_required:
       need_account: "¡Necesitas acceder para continuar!"
       title: Se necesita una cuenta
-    approved_session: Has aprobado %{application_name}. Puedes cerrar esta 
-      ventana.
-    continue: Si quieres continuar, haz click en aprobar. Si no, simplemente 
-      cierra esta ventana.
+    approved_session: Has aprobado %{application_name}. Puedes cerrar esta ventana.
+    continue: Si quieres continuar, haz click en aprobar. Si no, simplemente cierra esta ventana.
     invalid_api_app:
-      message: El usuario de la API que se está autenticando actualmente no es 
-        válido.
+      message: El usuario de la API que se está autenticando actualmente no es válido.
       title: El usuario de la API no es válido
     missing_request_token:
-      message: Es necesario solicitar un token para autenticar la cuentas de 
-        usuario.
+      message: Es necesario solicitar un token para autenticar la cuentas de usuario.
       title: Falta el token de solicitud
     request_token_approval:
-      message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos
-        en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista
-        o peliculas valoradas fuera de TMDB"
+      message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas valoradas fuera de TMDB"
     statuses:
       completed:
-        message: Has concedido permiso de lectura y escritura a 
-          <strong>%{application_name}</strong>. Puedes volver a la aplicación y 
-          cerrar esta ventana. Siempre puedes revocar este acceso entrando en la
-          página de configuración de tu cuenta y luego en tu página de 
-          "Aplicaciones conectadas".
+        message: Has concedido permiso de lectura y escritura a <strong>%{application_name}</strong>. Puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso entrando en la página de configuración de tu cuenta y luego en tu página de "Aplicaciones conectadas".
         name: Autenticación concedida
       denied:
-        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>.
-          Si fue un error o te gustaría reiniciar el proceso de autentificación vuelve
-          a la aplicación y solicita el permiso de nuevo.</p>"
+        message: "<p>Has denegado el acceso a <strong>%{application_name}</strong>. Si fue un error o te gustaría reiniciar el proceso de autentificación vuelve a la aplicación y solicita el permiso de nuevo.</p>"
         name: Autenticación denegada
       invalid_request_token:
-        message: El token de acceso que has presentado es inválido. Prueba 
-          creando uno nuevo y asegurándote de que lo has copiado correctamente. 
-          Si continuas teniendo problemas, contacta con el desarrollador de la 
-          aplicación que estás usando.
+        message: El token de acceso que has presentado es inválido. Prueba creando uno nuevo y asegurándote de que lo has copiado correctamente. Si continuas teniendo problemas, contacta con el desarrollador de la aplicación que estás usando.
         name: Token de solicitud no válido
   attributes:
     biography: Biografía
@@ -902,8 +866,7 @@ es-ES:
     winner: Ganador
     wins:
       one: 1 victoria
-      many: '%{count} victorias'
-      other:
+      other: "%{count} victorias"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -930,39 +893,21 @@ es-ES:
     movies:
       AU:
         '1':
-          meaning: Exento de clasificación. Las películas que están exentas de 
-            clasificación no deben contener material.
+          meaning: Exento de clasificación. Las películas que están exentas de clasificación no deben contener material.
         '2':
           meaning: General. El contenido es muy suave
         '3':
-          meaning: Guía parental recomendada. No hay restricción de edad. El 
-            contenido es suave.
+          meaning: Guía parental recomendada. No hay restricción de edad. El contenido es suave.
         '4':
-          meaning: Recomendado para gente adulta. No hay restricción de edad. El
-            contenido es moderado.
+          meaning: Recomendado para gente adulta. No hay restricción de edad. El contenido es moderado.
         '5':
-          meaning: Acompañado de adultos. Inadecuado para menores de 15 años. 
-            Los niños menores de 15 años deberán ir acompañados de su padre o 
-            tutor. El contenido es fuerte.
+          meaning: Acompañado de adultos. Inadecuado para menores de 15 años. Los niños menores de 15 años deberán ir acompañados de su padre o tutor. El contenido es fuerte.
         '6':
-          meaning: Restringido a mayores de 18 años. Sólo adultos. El contenido 
-            es muy fuerte.
+          meaning: Restringido a mayores de 18 años. Sólo adultos. El contenido es muy fuerte.
         '7':
-          meaning: Restringido a mayores de 18 años. Las películas con esta 
-            calificación tienen contenido pornográfico. Las películas 
-            clasificadas como X18+ tienen prohibida su venta o alquiler en todos
-            los estados australianos y solo están legalmente disponibles en la 
-            zona norte y la capital australiana. Sin embargo, importar material 
-            X18+ de los dos territorios a cualquiera de los estados australianos
-            es legal. El contenido tiene un contenido sexual explícito.
+          meaning: Restringido a mayores de 18 años. Las películas con esta calificación tienen contenido pornográfico. Las películas clasificadas como X18+ tienen prohibida su venta o alquiler en todos los estados australianos y solo están legalmente disponibles en la zona norte y la capital australiana. Sin embargo, importar material X18+ de los dos territorios a cualquiera de los estados australianos es legal. El contenido tiene un contenido sexual explícito.
         '8':
-          meaning: Clasificación rechazada. Prohibida la venta y alquiler en 
-            Australia. También se aplica normalmente a la importación (si es 
-            inspeccionado por Aduanas). La visualización privada de Internet no 
-            se lleva a cabo y los intentos de censurar legalmente dicho material
-            en línea han generado controversia. Las películas tienen una 
-            calificación RC si su contenido excede las directrices. El contenido
-            es de alto impacto.
+          meaning: Clasificación rechazada. Prohibida la venta y alquiler en Australia. También se aplica normalmente a la importación (si es inspeccionado por Aduanas). La visualización privada de Internet no se lleva a cabo y los intentos de censurar legalmente dicho material en línea han generado controversia. Las películas tienen una calificación RC si su contenido excede las directrices. El contenido es de alto impacto.
       BG:
         '1':
           meaning: Recomendada para niños.
@@ -976,70 +921,46 @@ es-ES:
           meaning: Prohibida para menores de 18.
       BR:
         '1':
-          meaning: Para todos los públicos. No expongan a los niños a contenido 
-            potencialmente perjudicial.
+          meaning: Para todos los públicos. No expongan a los niños a contenido potencialmente perjudicial.
         '2':
-          meaning: No recomendada para menores de 10. Contenido violento o 
-            lenguaje inapropiado, aunque sea suave.
+          meaning: No recomendada para menores de 10. Contenido violento o lenguaje inapropiado, aunque sea suave.
         '3':
-          meaning: No recomendada para menores de 12. Hay escenas que incluyen 
-            agresión física, uso de drogal legales o contenido sexual.
+          meaning: No recomendada para menores de 12. Hay escenas que incluyen agresión física, uso de drogal legales o contenido sexual.
         '4':
-          meaning: No recomendada para menores de 14. Más material violento, 
-            fuerte contenido sexual y desnudez.
+          meaning: No recomendada para menores de 14. Más material violento, fuerte contenido sexual y desnudez.
         '5':
-          meaning: No recomendada para menores de 16. Hay escenas con tráfico 
-            y/o uso de drogas ilegales, sexo realista, violencia sexual, aborto,
-            tortura, mutilación, suicidio y trivialización de la violencia y la 
-            pena de muerte.
+          meaning: No recomendada para menores de 16. Hay escenas con tráfico y/o uso de drogas ilegales, sexo realista, violencia sexual, aborto, tortura, mutilación, suicidio y trivialización de la violencia y la pena de muerte.
         '6':
-          meaning: No recomendada para menores de 18. Escenas de sexo explícito,
-            incesto, pedofilia, elogios del uso de las drogas ilegales y 
-            violencia de muy alta intensidad.
+          meaning: No recomendada para menores de 18. Escenas de sexo explícito, incesto, pedofilia, elogios del uso de las drogas ilegales y violencia de muy alta intensidad.
       CA:
         '1':
           meaning: Todas las edades.
         '2':
-          meaning: Guía parental recomendada. No hay restricción de edad pero 
-            alguna escena no es recomendable para los niños.
+          meaning: Guía parental recomendada. No hay restricción de edad pero alguna escena no es recomendable para los niños.
         '3':
           meaning: Los menores de 14 años deben estar acompañados de un adulto.
         '4':
-          meaning: Los menores de 18 años deben estar acompañados de un adulto. 
-            En Manitoba y las Provincias Marítimas de Canadá, los menores de 14 
-            años tienen prohibido su visionado.
+          meaning: Los menores de 18 años deben estar acompañados de un adulto. En Manitoba y las Provincias Marítimas de Canadá, los menores de 14 años tienen prohibido su visionado.
         '5':
-          meaning: Restringido a menores de 18. El único propósito de la 
-            película es representar actividad sexual explícita y/o violencia 
-            explícita.
+          meaning: Restringido a menores de 18. El único propósito de la película es representar actividad sexual explícita y/o violencia explícita.
       CA-QC:
         '0':
           meaning: No hay información de calificación.
         '1':
-          meaning: Clasificación General - Puede ser vista, alquilada o comprada
-            por gente de todas las edades. Si la película lleva una "G" ofende 
-            la sensibilidad de los menores de 8. Se añade "no válida para 
-            niños".
+          meaning: Clasificación General - Puede ser vista, alquilada o comprada por gente de todas las edades. Si la película lleva una "G" ofende la sensibilidad de los menores de 8. Se añade "no válida para niños".
         '2':
-          meaning: Mayores de 13 años -  Puede ser vista, alquilada o comprada 
-            sólo por mayores de 13 años. Los menores de 13 años sólo son 
-            admitidos si van acompañados de un adulto.
+          meaning: Mayores de 13 años -  Puede ser vista, alquilada o comprada sólo por mayores de 13 años. Los menores de 13 años sólo son admitidos si van acompañados de un adulto.
         '3':
-          meaning: Mayores de 16 años - Puede ser vista, alquilada o comprada 
-            sólo por mayores de 16 años.
+          meaning: Mayores de 16 años - Puede ser vista, alquilada o comprada sólo por mayores de 16 años.
         '4':
-          meaning: Mayores de 18 - Puede ser vista, alquilada o comprada sólo 
-            por mayores de 18. Si la película contiene actividad sexual real y 
-            explícita, se añade "Sexo esplícito" y en las tiendas de venta es 
-            obligatorio que haya una sala para adultos.
+          meaning: Mayores de 18 - Puede ser vista, alquilada o comprada sólo por mayores de 18. Si la película contiene actividad sexual real y explícita, se añade "Sexo esplícito" y en las tiendas de venta es obligatorio que haya una sala para adultos.
       DE:
         '1':
           meaning: Sin restricción de edad.
         '2':
           meaning: No se admiten menores de 6.
         '3':
-          meaning: Se admiten mayores de 12, los niños entre 6 y 11 años sólo 
-            cuando vayan acompañados por sus padres o tutor legal.
+          meaning: Se admiten mayores de 12, los niños entre 6 y 11 años sólo cuando vayan acompañados por sus padres o tutor legal.
         '4':
           meaning: Mayores de 16 admitidos, no se admite a nadie por debajo.
         '5':
@@ -1087,83 +1008,28 @@ es-ES:
         '1':
           meaning: "(Tous publics) Válido Para todos los públicos"
         '2':
-          meaning: '(Déconseillé aux moins de 10 ans)  Desaconsejable para menores
-            de 10 (sólo se usa para televisión): equivalente en cines : "avertissement"  (aviso),
-            algunas escenas pueden ser inquietantes para los niños y personas sensibles;
-            equivalente en video: "accord parental"  (guía parental).'
+          meaning: '(Déconseillé aux moins de 10 ans)  Desaconsejable para menores de 10 (sólo se usa para televisión): equivalente en cines : "avertissement"  (aviso), algunas escenas pueden ser inquietantes para los niños y personas sensibles; equivalente en video: "accord parental"  (guía parental).'
         '3':
-          meaning: "(Interdit aux moins de 12 ans)  Desaconsejable para menores de
-            12 o prohibido en cines a menores de 12."
+          meaning: "(Interdit aux moins de 12 ans)  Desaconsejable para menores de 12 o prohibido en cines a menores de 12."
         '4':
-          meaning: "(Interdit aux moins de 16 ans) Desaconsejable para menores de
-            16 o prohibido en cines a menores de 16."
+          meaning: "(Interdit aux moins de 16 ans) Desaconsejable para menores de 16 o prohibido en cines a menores de 16."
         '5':
-          meaning: "(Interdit aux mineurs) Desaconsejable para menores de 18 o prohibido
-            en cines a menores de 18."
+          meaning: "(Interdit aux mineurs) Desaconsejable para menores de 18 o prohibido en cines a menores de 18."
       GB:
         '1':
           meaning: Admitida para todos los públicos.
         '2':
-          meaning: Para todos los públicos, pero ciertas escenas pueden ser 
-            inadecuados para los niños pequeños. Puede contener referencias de 
-            lenguaje y sexo, drogas suaves. Puede contener violencia moderada si
-            se justifica por el contexto (por ejemplo, fantasía).
+          meaning: Para todos los públicos, pero ciertas escenas pueden ser inadecuados para los niños pequeños. Puede contener referencias de lenguaje y sexo, drogas suaves. Puede contener violencia moderada si se justifica por el contexto (por ejemplo, fantasía).
         '3':
-          meaning: Las películas bajo esta categoría se consideran inadecuadas 
-            para personas muy jóvenes. Los menores de 12 años sólo son admitidos
-            si están acompañados por un adulto, con edad mínima de 18 años, en 
-            todo momento durante el cine. Sin embargo, generalmente no se 
-            recomienda que los menores de 12 años vean la película. Las 
-            películas bajo esta categoría pueden contener temas adultos, 
-            discriminación, drogas blandas, palabras de juramento moderado, 
-            lenguaje fuerte infrecuente y violencia moderada, referencias 
-            sexuales y desnudos. La actividad sexual puede ser retratada 
-            brevemente y discreta. La violencia sexual puede estar implícita o 
-            indicada brevemente.
+          meaning: Las películas bajo esta categoría se consideran inadecuadas para personas muy jóvenes. Los menores de 12 años sólo son admitidos si están acompañados por un adulto, con edad mínima de 18 años, en todo momento durante el cine. Sin embargo, generalmente no se recomienda que los menores de 12 años vean la película. Las películas bajo esta categoría pueden contener temas adultos, discriminación, drogas blandas, palabras de juramento moderado, lenguaje fuerte infrecuente y violencia moderada, referencias sexuales y desnudos. La actividad sexual puede ser retratada brevemente y discreta. La violencia sexual puede estar implícita o indicada brevemente.
         '4':
-          meaning: Sólo para videos domésticos desde 2002. Las películas 
-            clasificadas 12A se dan generalmente un certificado 12 para la 
-            versión de VHS/DVD a menos que el material adicional que se ha 
-            agregado requiera una calificación más alta. Nadie menor de 12 puede
-            alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego 
-            clasificado 12A. Las directrices de contenido son idénticas a las 
-            utilizadas para el certificado 12A.
+          meaning: Sólo para videos domésticos desde 2002. Las películas clasificadas 12A se dan generalmente un certificado 12 para la versión de VHS/DVD a menos que el material adicional que se ha agregado requiera una calificación más alta. Nadie menor de 12 puede alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego clasificado 12A. Las directrices de contenido son idénticas a las utilizadas para el certificado 12A.
         '5':
-          meaning: Sólo los mayores de 15 son admitidos. Nadie menor de 15 años 
-            puede alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego de 
-            15, o ver una película en el cine con esta calificación. Las 
-            películas bajo esta categoría pueden contener temas para adultos, 
-            drogas duras, lenguaje fuerte frecuente y uso limitado de lenguaje 
-            muy fuerte, violencia fuerte y referencias sexuales fuertes y 
-            desnudos sin detalles gráficos. La actividad sexual puede ser 
-            retratada pero sin ningún detalle fuerte. La violencia sexual puede 
-            mostrarse si es discreta y justificada por el contexto.
+          meaning: Sólo los mayores de 15 son admitidos. Nadie menor de 15 años puede alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego de 15, o ver una película en el cine con esta calificación. Las películas bajo esta categoría pueden contener temas para adultos, drogas duras, lenguaje fuerte frecuente y uso limitado de lenguaje muy fuerte, violencia fuerte y referencias sexuales fuertes y desnudos sin detalles gráficos. La actividad sexual puede ser retratada pero sin ningún detalle fuerte. La violencia sexual puede mostrarse si es discreta y justificada por el contexto.
         '6':
-          meaning: Sólo se admiten adultos. Nadie menor de 18 años puede 
-            alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego de 18, o 
-            ver una película en el cine con esta calificación. Películas bajo 
-            esta categoría no tienen limitación en el mal lenguaje que se 
-            utiliza. Las drogas duras se permiten generalmente, y las 
-            referencias explícitas del sexo junto con la actividad sexual 
-            detallada también se permiten. Se pueden permitir escenas de sexo 
-            real fuerte si el contexto lo justifica. Generalmente se permite una
-            violencia muy fuerte, sangrienta y / o sádica. Se permite la 
-            violencia sexual fuerte a menos que sea erotizada o excesivamente 
-            gráfica.
+          meaning: Sólo se admiten adultos. Nadie menor de 18 años puede alquilar o comprar un VHS, DVD, Blu-ray Disc, UMD o juego de 18, o ver una película en el cine con esta calificación. Películas bajo esta categoría no tienen limitación en el mal lenguaje que se utiliza. Las drogas duras se permiten generalmente, y las referencias explícitas del sexo junto con la actividad sexual detallada también se permiten. Se pueden permitir escenas de sexo real fuerte si el contexto lo justifica. Generalmente se permite una violencia muy fuerte, sangrienta y / o sádica. Se permite la violencia sexual fuerte a menos que sea erotizada o excesivamente gráfica.
         '7':
-          meaning: 'Sólo se puede mostrar en los cines adultos con licencia o se vende
-            en tiendas de sexo con licencia, y sólo a adultos, los mayores de 18 años
-            o más. Las películas bajo esta categoría son siempre pornografía dura,
-            definida como material destinado a la estimulación sexual y que contiene
-            imágenes claras de la actividad sexual real, material fetiche fuerte,
-            imágenes explícitas animadas o la vista de ciertos actos como triple penetración
-            simultánea y bola de nieve. Sigue habiendo una variedad de material que
-            a menudo se corta de la calificación R18: imágenes fuertes de lesiones
-            en BDSM o azotes, urolagnia, escenas que sugieren incesto, incluso en
-            escena, referencias a relaciones sexuales menores o desarrollo sexual
-            infantil y comportamiento agresivo como el tirar del cabello o escupir
-            en un intérprete no están permitidos. Se exigen más recortes en esta categoría
-            que en cualquier otra categoría.'
+          meaning: 'Sólo se puede mostrar en los cines adultos con licencia o se vende en tiendas de sexo con licencia, y sólo a adultos, los mayores de 18 años o más. Las películas bajo esta categoría son siempre pornografía dura, definida como material destinado a la estimulación sexual y que contiene imágenes claras de la actividad sexual real, material fetiche fuerte, imágenes explícitas animadas o la vista de ciertos actos como triple penetración simultánea y bola de nieve. Sigue habiendo una variedad de material que a menudo se corta de la calificación R18: imágenes fuertes de lesiones en BDSM o azotes, urolagnia, escenas que sugieren incesto, incluso en escena, referencias a relaciones sexuales menores o desarrollo sexual infantil y comportamiento agresivo como el tirar del cabello o escupir en un intérprete no están permitidos. Se exigen más recortes en esta categoría que en cualquier otra categoría.'
       HU:
         '0':
           meaning: Sin calificación
@@ -1181,28 +1047,11 @@ es-ES:
           meaning: Para mayores de 18 años
       IN:
         '0':
-          meaning: Exposición pública sin restricciones en toda la India, apta 
-            para todos los grupos de edad. Las películas bajo esta categoría no 
-            deben molestar a los niños mayores de 4 años. Estas películas pueden
-            contener temas educativos, sociales o familiares. Las películas bajo
-            esta categoría también pueden contener violencia de fantasía y/o 
-            lenguaje malo leve.
+          meaning: Exposición pública sin restricciones en toda la India, apta para todos los grupos de edad. Las películas bajo esta categoría no deben molestar a los niños mayores de 4 años. Estas películas pueden contener temas educativos, sociales o familiares. Las películas bajo esta categoría también pueden contener violencia de fantasía y/o lenguaje malo leve.
         '1':
-          meaning: Todas las edades son admitidas, pero se aconseja que los 
-            niños menores de 12 años estén acompañados por un padre, ya que el 
-            tema o contenido puede ser considerado intenso o inapropiado para 
-            los niños pequeños. Las películas bajo esta categoría pueden 
-            contener temas maduros, referencias sexuales, escenas sexuales 
-            suaves, violencia con breves imágenes sangrientas y / o uso 
-            infrecuente de lenguaje crudo.
+          meaning: Todas las edades son admitidas, pero se aconseja que los niños menores de 12 años estén acompañados por un padre, ya que el tema o contenido puede ser considerado intenso o inapropiado para los niños pequeños. Las películas bajo esta categoría pueden contener temas maduros, referencias sexuales, escenas sexuales suaves, violencia con breves imágenes sangrientas y / o uso infrecuente de lenguaje crudo.
         '2':
-          meaning: Restringido al público adulto (18 años o más). Nadie menor de
-            18 años puede comprar/alquilar un DVD clasificado A, VHS, UMD o ver 
-            una película en el cine con esta calificación. Las películas bajo 
-            esta categoría pueden contener temas adultos/inquietantes, lenguaje 
-            crudo frecuente, violencia brutal con sangre y sangre, escenas de 
-            sexo fuertes y/o escenas de abuso de drogas que se consideran 
-            inadecuadas para menores de edad.
+          meaning: Restringido al público adulto (18 años o más). Nadie menor de 18 años puede comprar/alquilar un DVD clasificado A, VHS, UMD o ver una película en el cine con esta calificación. Las películas bajo esta categoría pueden contener temas adultos/inquietantes, lenguaje crudo frecuente, violencia brutal con sangre y sangre, escenas de sexo fuertes y/o escenas de abuso de drogas que se consideran inadecuadas para menores de edad.
       IT:
         '0':
           meaning: No hay información de calificación.
@@ -1216,11 +1065,9 @@ es-ES:
         '1':
           meaning: Películas para todos los públicos
         '2':
-          meaning: Películas a partir de 7 años. Más jóvenes que 7 años deben ir
-            acompañados por un adulto.
+          meaning: Películas a partir de 7 años. Más jóvenes que 7 años deben ir acompañados por un adulto.
         '3':
-          meaning: Películas a partir de 13 años. Edades entre 7 y 13 años deben
-            ir acompañados por un adulto.
+          meaning: Películas a partir de 13 años. Edades entre 7 y 13 años deben ir acompañados por un adulto.
         '4':
           meaning: Películas a partir de 16 años
         '5':
@@ -1229,38 +1076,17 @@ es-ES:
         '0':
           meaning: No hay información de calificación.
         '1':
-          meaning: '(Umum: "Para todos los públicos") - Para todos los públicos. (Utilizado
-            por la mayoría de las películas proyectadas en Malasia hasta 2008, pero
-            continúa solo para la televisión, especialmente para RTM).'
+          meaning: '(Umum: "Para todos los públicos") - Para todos los públicos. (Utilizado por la mayoría de las películas proyectadas en Malasia hasta 2008, pero continúa solo para la televisión, especialmente para RTM).'
         '2':
-          meaning: '(Penjaga 13: "Parental Guidance 13") - Los niños menores de 13
-            años no son admitidos a menos que estén acompañados por un adulto. (Introducido
-            en 2006, este se convirtió en el sistema oficial de evaluación de películas
-            en Malasia en 2008. La clasificación "PG-13" fue revisada a "P13" a partir
-            de abril de 2012 para enfatizar el uso del idioma malayo en lugar del
-            inglés. no permitido bajo una calificación P13.'
+          meaning: '(Penjaga 13: "Parental Guidance 13") - Los niños menores de 13 años no son admitidos a menos que estén acompañados por un adulto. (Introducido en 2006, este se convirtió en el sistema oficial de evaluación de películas en Malasia en 2008. La clasificación "PG-13" fue revisada a "P13" a partir de abril de 2012 para enfatizar el uso del idioma malayo en lugar del inglés. no permitido bajo una calificación P13.'
         '3':
-          meaning: '(Seram, Ganas: "Violencia gráfica y horror/terror") - La película
-            puede contener gran violencia, gore u horror/terror que la gente pueda
-            encontrar censurable.'
+          meaning: '(Seram, Ganas: "Violencia gráfica y horror/terror") - La película puede contener gran violencia, gore u horror/terror que la gente pueda encontrar censurable.'
         '4':
-          meaning: '(Seks: "Contenido sexual") - La película puede contener escenas
-            de sexo, desnudos o diálogos/referencias sexuales que las personas puedan
-            encontrar objetables (a pesar de que las escenas de sexo y desnudez están
-            estrictamente censuradas por el LPF).'
+          meaning: '(Seks: "Contenido sexual") - La película puede contener escenas de sexo, desnudos o diálogos/referencias sexuales que las personas puedan encontrar objetables (a pesar de que las escenas de sexo y desnudez están estrictamente censuradas por el LPF).'
         '5':
-          meaning: '(Politik, Agama: "Elementos religiosos o políticos fuertes") -
-            La película puede contener elementos que incluyen aspectos religiosos,
-            sociales o políticos que la gente puede encontrar objetables. Raramente
-            usado.'
+          meaning: '(Politik, Agama: "Elementos religiosos o políticos fuertes") - La película puede contener elementos que incluyen aspectos religiosos, sociales o políticos que la gente puede encontrar objetables. Raramente usado.'
         '6':
-          meaning: '(Pelbagai: "Varios") - La película puede contener violencia fuerte,
-            horror, terror, escenas de sexo, desnudos, diálogos/referencias sexuales,
-            aspectos religiosos, sociales o políticos que la gente puede encontrar
-            censurable. La mayoría de las películas 18+ usan esta clasificación. Por
-            ejemplo, una película con escenas de sexo y violencia fuerte se clasificará
-            como 18PL, a pesar de las escenas de sexo y desnudez estrictamente censurado
-            por el LPF'
+          meaning: '(Pelbagai: "Varios") - La película puede contener violencia fuerte, horror, terror, escenas de sexo, desnudos, diálogos/referencias sexuales, aspectos religiosos, sociales o políticos que la gente puede encontrar censurable. La mayoría de las películas 18+ usan esta clasificación. Por ejemplo, una película con escenas de sexo y violencia fuerte se clasificará como 18PL, a pesar de las escenas de sexo y desnudez estrictamente censurado por el LPF'
       NL:
         '1':
           meaning: Para todos los públicos.
@@ -1269,19 +1095,16 @@ es-ES:
         '3':
           meaning: Potencialmente perjudicial para los niños menores de 9 años.
         '4':
-          meaning: Potencialmente perjudicial para los niños menores de 12 años;
-            la proyección no está permitida antes de las 8:00 pm.
+          meaning: Potencialmente perjudicial para los niños menores de 12 años; la proyección no está permitida antes de las 8:00 pm.
         '5':
-          meaning: Potencialmente perjudicial para los niños menores de 16 años;
-            la proyección no está permitida antes de las 10:00 pm.
+          meaning: Potencialmente perjudicial para los niños menores de 16 años; la proyección no está permitida antes de las 10:00 pm.
       'NO':
         '0':
           meaning: No hay información de calificación.
         '1':
           meaning: Para todos los públicos.
         '2':
-          meaning: 6 años (no hay restricción para los niños acompañados por un 
-            adulto).
+          meaning: 6 años (no hay restricción para los niños acompañados por un adulto).
         '3':
           meaning: 9 años (niños menores de 6 años acompañados por un adulto).
         '4':
@@ -1294,11 +1117,9 @@ es-ES:
         '1':
           meaning: Para todos los públicos.
         '2':
-          meaning: Se recomienda la orientación de los padres para los 
-            espectadores más jóvenes.
+          meaning: Se recomienda la orientación de los padres para los espectadores más jóvenes.
         '3':
-          meaning: Adecuado (pero no limitado) para audiencias maduras de 16 
-            años y más
+          meaning: Adecuado (pero no limitado) para audiencias maduras de 16 años y más
         '4':
           meaning: Restringido a personas mayores de 13 años.
         '5':
@@ -1308,32 +1129,23 @@ es-ES:
         '7':
           meaning: Restringido a personas de 18 años de edad o más.
         '8':
-          meaning: Restringido a una clase particular de personas, o para 
-            propósitos particulares, o ambos.
+          meaning: Restringido a una clase particular de personas, o para propósitos particulares, o ambos.
       PH:
         '1':
-          meaning: Para todos los publicos. Se admiten espectadores de todos los
-            públicos
+          meaning: Para todos los publicos. Se admiten espectadores de todos los públicos
         '2':
-          meaning: Orientación de los padres. Los espectadores menores de 13 
-            años de edad deben estar acompañados por un padre o un adulto 
-            supervisor.
+          meaning: Orientación de los padres. Los espectadores menores de 13 años de edad deben estar acompañados por un padre o un adulto supervisor.
         '3':
-          meaning: Restringido-13. Solo los espectadores mayores de 13 años 
-            pueden ser admitidos.
+          meaning: Restringido-13. Solo los espectadores mayores de 13 años pueden ser admitidos.
         '4':
-          meaning: Restringido-16. Solo los espectadores mayores de 16 años 
-            pueden ser admitidos.
+          meaning: Restringido-16. Solo los espectadores mayores de 16 años pueden ser admitidos.
         '5':
-          meaning: Restringido-18. Solo los espectadores mayores de 18 años 
-            pueden ser admitidos.
+          meaning: Restringido-18. Solo los espectadores mayores de 18 años pueden ser admitidos.
         '6':
-          meaning: No para la exposición pública. Las películas X no son 
-            adecuadas para la exhibición pública.
+          meaning: No para la exposición pública. Las películas X no son adecuadas para la exhibición pública.
       PT:
         '1':
-          meaning: Para todos los públicos (especialmente diseñada para los 
-            niños menores de 3).
+          meaning: Para todos los públicos (especialmente diseñada para los niños menores de 3).
         '2':
           meaning: Aprobado para espectadores mayores de 3 años.
         '3':
@@ -1347,8 +1159,7 @@ es-ES:
         '7':
           meaning: Aprobado para espectadores mayores de 18 años.
         '8':
-          meaning: Calificación especial suplementaria a la categoría de edad 
-            M/18 denotando pornografía.
+          meaning: Calificación especial suplementaria a la categoría de edad M/18 denotando pornografía.
       RU:
         '1':
           meaning: Todos los públicos
@@ -1366,47 +1177,22 @@ es-ES:
         '1':
           meaning: Para todos los públicos
         '2':
-          meaning: Los niños menores de 7 años, acompañados por un adulto (una 
-            persona de 18 años o más), son admitidos en películas que han sido 
-            aprobadas para niños a partir de los 7 años.
+          meaning: Los niños menores de 7 años, acompañados por un adulto (una persona de 18 años o más), son admitidos en películas que han sido aprobadas para niños a partir de los 7 años.
         '3':
-          meaning: Los niños mayores de 7 años, acompañados por un adulto, son 
-            admitidos en películas que han sido aprobadas para niños a partir de
-            los 11 años.
+          meaning: Los niños mayores de 7 años, acompañados por un adulto, son admitidos en películas que han sido aprobadas para niños a partir de los 11 años.
         '4':
-          meaning: Los niños mayores de 7 años, acompañados por un adulto, son 
-            admitidos en películas que han sido aprobadas para niños a partir de
-            los 11 años. Actualizado a 1 de marzo de 2017.
+          meaning: Los niños mayores de 7 años, acompañados por un adulto, son admitidos en películas que han sido aprobadas para niños a partir de los 11 años. Actualizado a 1 de marzo de 2017.
       US:
         '0':
           meaning: Sin calificación.
         '1':
-          meaning: Para todas las edades. La mayaoría de los padres no 
-            encontrarían nada que objetar al contenido. Esta es una de las dos 
-            calificaciones de 1968 que todavía existen.
+          meaning: Para todas las edades. La mayaoría de los padres no encontrarían nada que objetar al contenido. Esta es una de las dos calificaciones de 1968 que todavía existen.
         '2':
-          meaning: Es posible que algunos materiales no sean adecuados para 
-            niños menores de 10 años. Estas películas podrían contener lenguaje 
-            un poco fuerte, humor crudo/sugerente, momentos de miedo y/o 
-            violencia. No hay referencia a drogas. Hay pocas excepciones a esta 
-            norma. Se pueden escuchar algunos insultos racistas.
+          meaning: Es posible que algunos materiales no sean adecuados para niños menores de 10 años. Estas películas podrían contener lenguaje un poco fuerte, humor crudo/sugerente, momentos de miedo y/o violencia. No hay referencia a drogas. Hay pocas excepciones a esta norma. Se pueden escuchar algunos insultos racistas.
         '3':
-          meaning: Es posible que algunos materiales sean inapropiados para 
-            niños menores de 13 años. Estas películas podrían incluir contenido 
-            sexual, desnudos breves o parciales, lenguaje fuerte e insinuante, 
-            humor, temas adultos, temática política, terror y/o violencia 
-            intensa. Sin embargo, rara vez hay contenido sangriento. Es la 
-            calificación mínima en la que pueden aparecer drogas.
+          meaning: Es posible que algunos materiales sean inapropiados para niños menores de 13 años. Estas películas podrían incluir contenido sexual, desnudos breves o parciales, lenguaje fuerte e insinuante, humor, temas adultos, temática política, terror y/o violencia intensa. Sin embargo, rara vez hay contenido sangriento. Es la calificación mínima en la que pueden aparecer drogas.
         '4':
-          meaning: "Los menores de 17 años deben ir acompañados por un adulto responsable
-            de 21 años o más. El responsable debe permanecer con el menor de 17 durante
-            toda la película, incluso si le da permiso para verla solo. \nEstas películas
-            pueden contener blasfemias, sexo, desnudos, fuerte violencia, terror,
-            gore, uso de drogas duras. \nUna película calificada R por blasfemias,
-            normalmente tiene un lenguaje más fuerte o con más blasfemias de lo que
-            permitiría la calificación de PG-13.\nUna película con calificación R
-            puede tener más sangre, sangre derramada, consumo de drogas, desnudez
-            o sexualidad gráfica de lo que admitiría una película de PG-13."
+          meaning: "Los menores de 17 años deben ir acompañados por un adulto responsable de 21 años o más. El responsable debe permanecer con el menor de 17 durante toda la película, incluso si le da permiso para verla solo. \nEstas películas pueden contener blasfemias, sexo, desnudos, fuerte violencia, terror, gore, uso de drogas duras. \nUna película calificada R por blasfemias, normalmente tiene un lenguaje más fuerte o con más blasfemias de lo que permitiría la calificación de PG-13.\nUna película con calificación R puede tener más sangre, sangre derramada, consumo de drogas, desnudez o sexualidad gráfica de lo que admitiría una película de PG-13."
         '5':
           meaning: |-
             No apropiado para menores de 17 años
@@ -1414,57 +1200,21 @@ es-ES:
     tv_series:
       AU:
         '1':
-          meaning: Programación para niños pequeños, de 2 a 11 años. Las cadenas
-            comerciales deben programar al menos 30 minutos de contenido 
-            calificado como 'P' cada día. No se deben mostrar anuncios durante 
-            estos programas.
+          meaning: Programación para niños pequeños, de 2 a 11 años. Las cadenas comerciales deben programar al menos 30 minutos de contenido calificado como 'P' cada día. No se deben mostrar anuncios durante estos programas.
         '2':
-          meaning: Programación para niños mayores, de 5 a 14 años. Las cadenas 
-            comerciales deben emitir al menos 30 minutos de contenido calificado
-            como C entre las 7:00 y las 8:00 o entre las 16:00 y las 18:30. Más 
-            de 2 horas y media deben ser emitidas en esas franjas horarias los 
-            fines de semana y vacaciones escolares. Esto hacen un total de 5 
-            horas a la semana (una media de 260 horas anuales). El contenido 
-            calificado C está sujeto a ciertas restricciones y limitaciones 
-            publicitarias (normalmente un máximo de 5 minutos cada media hora o 
-            7 minutos incluyendo promociones y anuncios de la comunidad.)
+          meaning: Programación para niños mayores, de 5 a 14 años. Las cadenas comerciales deben emitir al menos 30 minutos de contenido calificado como C entre las 7:00 y las 8:00 o entre las 16:00 y las 18:30. Más de 2 horas y media deben ser emitidas en esas franjas horarias los fines de semana y vacaciones escolares. Esto hacen un total de 5 horas a la semana (una media de 260 horas anuales). El contenido calificado C está sujeto a ciertas restricciones y limitaciones publicitarias (normalmente un máximo de 5 minutos cada media hora o 7 minutos incluyendo promociones y anuncios de la comunidad.)
         '3':
-          meaning: Para todos los públicos. Se permite el visionado a cualquier 
-            edad del contenido con esta calificación.
+          meaning: Para todos los públicos. Se permite el visionado a cualquier edad del contenido con esta calificación.
         '4':
-          meaning: PG (orientación para padres) está recomendada para 
-            espectadores jóvenes. El contenido con clasificación PG puede 
-            transmitirse en cualquier momento en canales solo digitales, de lo 
-            contrario, solo se debe transmitir entre las 8:30 y las 16:00 y 
-            entre las 19:00 y las 6:00 los días de diario, y de 10:00 a 6:00 los
-            fines de semana.
+          meaning: PG (orientación para padres) está recomendada para espectadores jóvenes. El contenido con clasificación PG puede transmitirse en cualquier momento en canales solo digitales, de lo contrario, solo se debe transmitir entre las 8:30 y las 16:00 y entre las 19:00 y las 6:00 los días de diario, y de 10:00 a 6:00 los fines de semana.
         '5':
-          meaning: Recomendado para adultos. El contenido calificado como M sólo
-            puede ser emitido entre las 20:30 y las 5:00 cualquier día y además 
-            entre las 0:00 y las 15:00 los días lectivos.
+          meaning: Recomendado para adultos. El contenido calificado como M sólo puede ser emitido entre las 20:30 y las 5:00 cualquier día y además entre las 0:00 y las 15:00 los días lectivos.
         '6':
-          meaning: "No recomendado para niños y adolescentes menores de 15 años. Los
-            contenidos calificados como MA15+- solo pueden emitirse entre las 21:00
-            y las 5:00. El aviso al espectador es obligatorio. \nAlgunas películas
-            calificadas como R18+ en DVD/Blu-ray a menudo son reeditadas para obtener
-            la calificación MA15+ y poder emitirlas en los canales de TV. \nAlgunas
-            películas calificadas como R18 en DVD se han emitido en televisiones de
-            Australia con la calificación MA15+."
+          meaning: "No recomendado para niños y adolescentes menores de 15 años. Los contenidos calificados como MA15+- solo pueden emitirse entre las 21:00 y las 5:00. El aviso al espectador es obligatorio. \nAlgunas películas calificadas como R18+ en DVD/Blu-ray a menudo son reeditadas para obtener la calificación MA15+ y poder emitirlas en los canales de TV. \nAlgunas películas calificadas como R18 en DVD se han emitido en televisiones de Australia con la calificación MA15+."
         '7':
-          meaning: No apto para niños y adolescentes menores de 15 años. Es 
-            igual que la calificación MA15+, con la diferencia del "AV" 
-            (Violencia adulta), lo que significa que todo lo que se clasifique 
-            "MA15+" con la advertencia de "Violencia frecuente" o "Violencia 
-            fuerte" se convertirá automáticamente en AV15+ (con esta misma 
-            advertencia al consumidor). La clasificación AV todavía puede 
-            exceder cualquier contenido MA15+, en particular, 'Violencia'. El 
-            contenido de AV15+ solo se puede transmitir entre las 21:30 y 5:00. 
-            La advertencia al consumidor es obligatoria.
+          meaning: No apto para niños y adolescentes menores de 15 años. Es igual que la calificación MA15+, con la diferencia del "AV" (Violencia adulta), lo que significa que todo lo que se clasifique "MA15+" con la advertencia de "Violencia frecuente" o "Violencia fuerte" se convertirá automáticamente en AV15+ (con esta misma advertencia al consumidor). La clasificación AV todavía puede exceder cualquier contenido MA15+, en particular, 'Violencia'. El contenido de AV15+ solo se puede transmitir entre las 21:30 y 5:00. La advertencia al consumidor es obligatoria.
         '8':
-          meaning: No apto para menores de 18 años. Esto se limita al "pago por 
-            visión" para adultos VC 196 y 197. El contenido puede incluir 
-            imágenes violentas, situaciones sexuales, lenguaje burdo y uso 
-            explícito de drogas.
+          meaning: No apto para menores de 18 años. Esto se limita al "pago por visión" para adultos VC 196 y 197. El contenido puede incluir imágenes violentas, situaciones sexuales, lenguaje burdo y uso explícito de drogas.
       BR:
         '0':
           meaning: Contenido para todos los públicos.
@@ -1480,67 +1230,39 @@ es-ES:
           meaning: Contenido adecuado para espectadores sobre los 18 años.
       CA:
         '0':
-          meaning: Los programas que están exentos de calificación (como las 
-            noticias y la programación deportiva) no mostrarán ninguna 
-            calificación en pantalla.
+          meaning: Los programas que están exentos de calificación (como las noticias y la programación deportiva) no mostrarán ninguna calificación en pantalla.
         '1':
-          meaning: Programación apta para niños entre los 2 y 7 años. No está 
-            permitido ningún tipo de blasfemia ni contenido sexual. Puede 
-            contener violecia leve.
+          meaning: Programación apta para niños entre los 2 y 7 años. No está permitido ningún tipo de blasfemia ni contenido sexual. Puede contener violecia leve.
         '2':
-          meaning: Recomendado para niños de más de 8 años, Se permite un nivel 
-            bajo de violencia y terror fantástico. No se permite lenguaje soez, 
-            pero a veces sí que puede tener lenguaje "socialmente ofensivo y 
-            discriminatorio" en el contexto de la historia. No se permite ningún
-            tipo de contenido sexual.
+          meaning: Recomendado para niños de más de 8 años, Se permite un nivel bajo de violencia y terror fantástico. No se permite lenguaje soez, pero a veces sí que puede tener lenguaje "socialmente ofensivo y discriminatorio" en el contexto de la historia. No se permite ningún tipo de contenido sexual.
         '3':
-          meaning: Apto para todos los públicos. Programación recomendada para 
-            toda la familia, con un nivel medio de violencia, palabrotas y/o 
-            lenguaje censurado.
+          meaning: Apto para todos los públicos. Programación recomendada para toda la familia, con un nivel medio de violencia, palabrotas y/o lenguaje censurado.
         '4':
-          meaning: Orientación para padres. Se permite violencia y nivel de 
-            lenguaje moderado, así como desnudos breves o referencias sexuales 
-            si son importantes para el contexto de la historia.
+          meaning: Orientación para padres. Se permite violencia y nivel de lenguaje moderado, así como desnudos breves o referencias sexuales si son importantes para el contexto de la historia.
         '5':
-          meaning: Programación dirigida a espectadores mayores de 14 años. 
-            Puede contener un grado alto de violencia y lenguaje, y 
-            representaciones de actividad sexual, siempre y cuando estén dentro 
-            del contexto de una historia.
+          meaning: Programación dirigida a espectadores mayores de 14 años. Puede contener un grado alto de violencia y lenguaje, y representaciones de actividad sexual, siempre y cuando estén dentro del contexto de una historia.
         '6':
-          meaning: Programación destinada a espectadores mayores de 18 años. 
-            Puede contener violencia explícita y actividad sexual. La 
-            programación con esta calificación no puede transmitirse fuera de la
-            franja 21:00-6:00.
+          meaning: Programación destinada a espectadores mayores de 18 años. Puede contener violencia explícita y actividad sexual. La programación con esta calificación no puede transmitirse fuera de la franja 21:00-6:00.
       CA-QC:
         '0':
           meaning: Sin calificación.
         '1':
-          meaning: Apropiado para todas las edades. Debe contener muy poca o 
-            ninguna violencia y contenido sexual.
+          meaning: Apropiado para todas las edades. Debe contener muy poca o ninguna violencia y contenido sexual.
         '2':
-          meaning: Apropiado para niños mayores de 8 años. Puede contener un 
-            nivel bajo de violencia y lenguaje soez y muy pocas o ninguna 
-            situación sexual.
+          meaning: Apropiado para niños mayores de 8 años. Puede contener un nivel bajo de violencia y lenguaje soez y muy pocas o ninguna situación sexual.
         '3':
-          meaning: Apropiado para niños mayores de 13 años. Puede contener un 
-            nivel moderado de violencia y lenguaje soez y algunas situaciones 
-            sexuales.
+          meaning: Apropiado para niños mayores de 13 años. Puede contener un nivel moderado de violencia y lenguaje soez y algunas situaciones sexuales.
         '4':
-          meaning: Recomendado a mayores de 16 años, Puede contener un nivel 
-            alto de violencia o lenguaje soez y fuerte contenido sexual.
+          meaning: Recomendado a mayores de 16 años, Puede contener un nivel alto de violencia o lenguaje soez y fuerte contenido sexual.
         '5':
-          meaning: Sólo para adultos. Puede contener violencia extema e imágenes
-            sexuales. Se utiliza frecuentemente para películas 18+ y 
-            pornografía.
+          meaning: Sólo para adultos. Puede contener violencia extema e imágenes sexuales. Se utiliza frecuentemente para películas 18+ y pornografía.
       DE:
         '0':
           meaning: Puede ser emitida en cualquier horario.
         '1':
           meaning: Puede ser emitido en cualquier horario.
         '2':
-          meaning: La emisora ​​debe tomar la decisión sobre la franja de 
-            transmisión teniendo en cuenta el impacto en los niños pequeños en 
-            el intervalo  de 6:00 a 20:00.
+          meaning: La emisora ​​debe tomar la decisión sobre la franja de transmisión teniendo en cuenta el impacto en los niños pequeños en el intervalo  de 6:00 a 20:00.
         '3':
           meaning: Sólo puede ser emitido entre las 22:00 y las 6:00.
         '4':
@@ -1568,130 +1290,65 @@ es-ES:
         '0':
           meaning: Sin calificación.
         '1':
-          meaning: No recomendado para niños menores de 10 años. No permitido en
-            los canales de series infantiles.
+          meaning: No recomendado para niños menores de 10 años. No permitido en los canales de series infantiles.
         '2':
-          meaning: No recomendado para niños menores de 12 años. No se permite 
-            la emisión antes de las 22:00. Algunos canales y programas pueden 
-            exceptuarse.
+          meaning: No recomendado para niños menores de 12 años. No se permite la emisión antes de las 22:00. Algunos canales y programas pueden exceptuarse.
         '3':
-          meaning: No recomendado para menores de 16 años. No se permite la 
-            emisión antes de las 22:30. Algunos canales y programas pueden 
-            exceptuarse.
+          meaning: No recomendado para menores de 16 años. No se permite la emisión antes de las 22:30. Algunos canales y programas pueden exceptuarse.
         '4':
-          meaning: No recomendado para menores de 18 años. Sólo se permite la 
-            emisión entre las 0:00 y las 5:00 y sólo en algunos canales. El 
-            acceso a estos programas debe estar protegido por contraseña.
+          meaning: No recomendado para menores de 18 años. Sólo se permite la emisión entre las 0:00 y las 5:00 y sólo en algunos canales. El acceso a estos programas debe estar protegido por contraseña.
       GB:
         '0':
-          meaning: La "U" significa "Universal". Una película "U" debe ser apta 
-            para espectadores de 4 y más años.
+          meaning: La "U" significa "Universal". Una película "U" debe ser apta para espectadores de 4 y más años.
         '1':
-          meaning: PG (Parental Guidance) Orientación para padres. Significa que
-            una película es apta para todos los públicosm aunque algunas escenas
-            podrían no ser aptas para los niños más pequeños. Una película PG no
-            debería afectar a un niño de 8 años o más.
+          meaning: PG (Parental Guidance) Orientación para padres. Significa que una película es apta para todos los públicosm aunque algunas escenas podrían no ser aptas para los niños más pequeños. Una película PG no debería afectar a un niño de 8 años o más.
         '2':
           meaning: |-
             Las películas calificadas con "12A" y los vídeos califificados con "12" continen material que normalmente no es adecuado para niños menores de 12 años.
             La calificación 12A obliga a los niños menores de 12 a ir acompañados de un adulto al cine.
         '3':
-          meaning: Las películas calificadas con "12A" y los vídeos 
-            califificados con "12" continen material que normalmente no es 
-            adecuado para niños menores de 12 años.
+          meaning: Las películas calificadas con "12A" y los vídeos califificados con "12" continen material que normalmente no es adecuado para niños menores de 12 años.
         '4':
-          meaning: No se permite a ningún menor de 15 años ver, comprar o 
-            alquilar una película o vídeo calificados como "15". La marca "15" 
-            indica que el contenido no es adecuado para menores de 15 años.
+          meaning: No se permite a ningún menor de 15 años ver, comprar o alquilar una película o vídeo calificados como "15". La marca "15" indica que el contenido no es adecuado para menores de 15 años.
         '5':
-          meaning: Las películas calificadas como "18" son para adultos. A 
-            ningún menor de 18 años se le permite ver, comprar o alquilar 
-            películas o vídeos calificados como "18". Ningún material con la 
-            marca "18" es adecuado para niños.
+          meaning: Las películas calificadas como "18" son para adultos. A ningún menor de 18 años se le permite ver, comprar o alquilar películas o vídeos calificados como "18". Ningún material con la marca "18" es adecuado para niños.
         '6':
-          meaning: La categoría R18 es una clasificación especial y legalmente 
-            restringida, principalmente para trabajos explícitos de sexo 
-            consentido o material fetichista fuerte que involucre a adultos.
+          meaning: La categoría R18 es una clasificación especial y legalmente restringida, principalmente para trabajos explícitos de sexo consentido o material fetichista fuerte que involucre a adultos.
       HU:
         '0':
           meaning: Sin calificación
         '1':
           meaning: Sin restricción de edad
         '2':
-          meaning: Programas recomendados para niños. Es una calificación 
-            opcional, no existe obligación para las televisiones de indicarlo.
+          meaning: Programas recomendados para niños. Es una calificación opcional, no existe obligación para las televisiones de indicarlo.
         '3':
-          meaning: Programas no recomendados para menores de 6 años. Pueden 
-            incluír alguna violencia o contenido sexual. Un círculo amarillo con
-            el número 6 dentro se usa para indicar esta calificación.
+          meaning: Programas no recomendados para menores de 6 años. Pueden incluír alguna violencia o contenido sexual. Un círculo amarillo con el número 6 dentro se usa para indicar esta calificación.
         '4':
-          meaning: Programas no recomendados para menores de 12 años. Pueden 
-            incluír ligero contenido sexual o lenguaje explícito. La mayoría de 
-            películas sin violencia seria o contenido sexual suelen entrar 
-            dentro de esta categoría. Un círculo amarillo con el número 12 
-            dentro se usa para indicar esta calificación.
+          meaning: Programas no recomendados para menores de 12 años. Pueden incluír ligero contenido sexual o lenguaje explícito. La mayoría de películas sin violencia seria o contenido sexual suelen entrar dentro de esta categoría. Un círculo amarillo con el número 12 dentro se usa para indicar esta calificación.
         '5':
-          meaning: Programas no recomendados para menores de 16 años. Pueden 
-            incluír violencia intensa y contenido sexual. Un círculo amarillo 
-            con el número 16 dentro se usa para indicar esta calificación.
+          meaning: Programas no recomendados para menores de 16 años. Pueden incluír violencia intensa y contenido sexual. Un círculo amarillo con el número 16 dentro se usa para indicar esta calificación.
         '6':
-          meaning: Programa recomendado sólo para audiencia adulta (mayores de 
-            18 años). Puede incluír violencia explícita y contenido sexual 
-            explícito. Un círculo rojo con el número 18 dentro se usa para 
-            indicar esta calificación.
+          meaning: Programa recomendado sólo para audiencia adulta (mayores de 18 años). Puede incluír violencia explícita y contenido sexual explícito. Un círculo rojo con el número 18 dentro se usa para indicar esta calificación.
       KR:
         '0':
-          meaning: Esta clasificación es solo para concursos basados en el 
-            conocimiento; programas de estilo de vida; documentales; noticias; 
-            debates de actualidad; programas culturales/educativos y deportes 
-            que excluyen MMA (Artes Marciales Mixtas) u otros deportes 
-            violentos; y otros programas que reconoce la Comisión de Normas de 
-            Comunicaciones de Corea.
+          meaning: Esta clasificación es solo para concursos basados en el conocimiento; programas de estilo de vida; documentales; noticias; debates de actualidad; programas culturales/educativos y deportes que excluyen MMA (Artes Marciales Mixtas) u otros deportes violentos; y otros programas que reconoce la Comisión de Normas de Comunicaciones de Corea.
         '1':
-          meaning: Esta calificación es para programación adecuada para todas 
-            las edades. Estos programas, normalmente están diseñados para niños 
-            o familias.
+          meaning: Esta calificación es para programación adecuada para todas las edades. Estos programas, normalmente están diseñados para niños o familias.
         '2':
-          meaning: Esta calificación es para programas que pueden contener algún
-            material inapropiado para niños menores de 7 y se debería seguir el 
-            criterio de los padres. Algunos dibujos animados no clasificados 
-            estrictamente como "educativos" y películas calificadas en Estados 
-            Unidos como "G" o "PG" podrían entrar en la categoría "7".
+          meaning: Esta calificación es para programas que pueden contener algún material inapropiado para niños menores de 7 y se debería seguir el criterio de los padres. Algunos dibujos animados no clasificados estrictamente como "educativos" y películas calificadas en Estados Unidos como "G" o "PG" podrían entrar en la categoría "7".
         '3':
-          meaning: Esta calificación es para programas que pueden considerarse 
-            inapropiados para menores de 12 años, y se debe usar el criterio de 
-            los padres. Normalmente se utiliza para animaciones que contienen 
-            temas o violencia más fuertes que las diseñadas para niños, o para 
-            telerrealidades que tienen violencia, temas o lenguaje moderados.
+          meaning: Esta calificación es para programas que pueden considerarse inapropiados para menores de 12 años, y se debe usar el criterio de los padres. Normalmente se utiliza para animaciones que contienen temas o violencia más fuertes que las diseñadas para niños, o para telerrealidades que tienen violencia, temas o lenguaje moderados.
         '4':
-          meaning: Esta calificación es para programas que pueden considerarse 
-            inapropiados para menores de 15 años, y se debe usar el criterio de 
-            los padres. Ejemplos de este tipo de programas son los de 
-            testimonios y dramas en directo de las televisiones (KBS, MBC, 
-            SBS...). Los programas con esta calificaciíon puene incluir temas 
-            adultos, lenguaje fuerte, referencias sexuales y violencia. Como la 
-            calificación "TV-MA" es estadounidense, se aplica habitualmente a 
-            eventos en directo en los que no se puede predecir si habrá alguna 
-            situación inapropiada. Desde 2007 esta calificación es la más 
-            utilizada en televisión.
+          meaning: Esta calificación es para programas que pueden considerarse inapropiados para menores de 15 años, y se debe usar el criterio de los padres. Ejemplos de este tipo de programas son los de testimonios y dramas en directo de las televisiones (KBS, MBC, SBS...). Los programas con esta calificaciíon puene incluir temas adultos, lenguaje fuerte, referencias sexuales y violencia. Como la calificación "TV-MA" es estadounidense, se aplica habitualmente a eventos en directo en los que no se puede predecir si habrá alguna situación inapropiada. Desde 2007 esta calificación es la más utilizada en televisión.
         '5':
-          meaning: Esta calificación es para programas destinados solo para 
-            adultos. La programación con clasificación 19 no se puede transmitir
-            en las franjas horarias 7:00-9:00 y 13:00-22:00. Los programas que 
-            reciben esta calificación casi siempre tratan de temas para adultos,
-            situaciones sexuales, uso frecuente de lenguaje fuerte y escenas 
-            violentas.
+          meaning: Esta calificación es para programas destinados solo para adultos. La programación con clasificación 19 no se puede transmitir en las franjas horarias 7:00-9:00 y 13:00-22:00. Los programas que reciben esta calificación casi siempre tratan de temas para adultos, situaciones sexuales, uso frecuente de lenguaje fuerte y escenas violentas.
       LT:
         '1':
           meaning: Especialmente recomendada para 7 años
         '2':
-          meaning: Especialmente recomendada para 14 años y de 21:00 a 6:00 
-            horas
+          meaning: Especialmente recomendada para 14 años y de 21:00 a 6:00 horas
         '3':
-          meaning: Dirigida a espectadores adultos desde 18 años 
-            (correspondiente para la edad N-18) y emitido entre las 23 (11pm) y 
-            las 6 (6am) horas; Limitado para menores y destinado a espectadores 
-            adultos.
+          meaning: Dirigida a espectadores adultos desde 18 años (correspondiente para la edad N-18) y emitido entre las 23 (11pm) y las 6 (6am) horas; Limitado para menores y destinado a espectadores adultos.
       NL:
         '0':
           meaning: Sin calificar.
@@ -1715,23 +1372,18 @@ es-ES:
         '3':
           meaning: Se recomienda altamente la supervisión parental
         '4':
-          meaning: Todo programa de televisión que no comprenda las 
-            clasificaciones "G", "PG" y "SPG" serán desaprovadas para la 
-            retransmisión televisiva.
+          meaning: Todo programa de televisión que no comprenda las clasificaciones "G", "PG" y "SPG" serán desaprovadas para la retransmisión televisiva.
       PT:
         '0':
           meaning: Sin calificación.
         '1':
           meaning: Todos (adecuado para todos los públicos)
         '2':
-          meaning: Supervisión parental (puede no ser adecuado para niños 
-            menores de 10 años, se recomienda la supervisión de un adulto).
+          meaning: Supervisión parental (puede no ser adecuado para niños menores de 10 años, se recomienda la supervisión de un adulto).
         '3':
-          meaning: Supervisión parental (puede no ser adecuado para niños 
-            menores de 12 años, se recomienda la supervisión de un adulto).
+          meaning: Supervisión parental (puede no ser adecuado para niños menores de 12 años, se recomienda la supervisión de un adulto).
         '4':
-          meaning: No adecuado para menores de 16 años, el acceso a estos 
-            programas debe estar protegido por contraseña.
+          meaning: No adecuado para menores de 16 años, el acceso a estos programas debe estar protegido por contraseña.
         '5':
           meaning: No adecuado para menores de 18 años.
       RU:
@@ -1762,14 +1414,11 @@ es-ES:
         '0':
           meaning: 'Sor: películas educativas que el público se debería animar a ver.'
         '1':
-          meaning: Tor - G Películas apropiadas para el público en general. Sin 
-            sexo, lenguaje obsceno o violencia.
+          meaning: Tor - G Películas apropiadas para el público en general. Sin sexo, lenguaje obsceno o violencia.
         '2':
           meaning: Nor 13+. Películas apropiadas para mayores de 13 años.
         '3':
-          meaning: Nor 15+. Películas apropiadas para mayores de 15 años. Se 
-            permite algo de violencia, brutalidad, inhumanidad, lenguaje 
-            incorrecto o gestos indecentes.
+          meaning: Nor 15+. Películas apropiadas para mayores de 15 años. Se permite algo de violencia, brutalidad, inhumanidad, lenguaje incorrecto o gestos indecentes.
         '4':
           meaning: Nor 18+. Películas apropiadas para mayores de 18 años
         '5':
@@ -1784,18 +1433,13 @@ es-ES:
         '2':
           meaning: Este programa está diseñado para niños mayores de 7 años.
         '3':
-          meaning: La mayoría de los padres considerarían este programa adecuado
-            para todas las edades.
+          meaning: La mayoría de los padres considerarían este programa adecuado para todas las edades.
         '4':
-          meaning: Este programa contiene materiales que algunos padres podrían 
-            considerar no adecuados para niños pequeños.
+          meaning: Este programa contiene materiales que algunos padres podrían considerar no adecuados para niños pequeños.
         '5':
-          meaning: Este programa contiene materiales que algunos padres podrían 
-            considerar no adecuados para menores de 14 años.
+          meaning: Este programa contiene materiales que algunos padres podrían considerar no adecuados para menores de 14 años.
         '6':
-          meaning: Este programa está diseñado específicamente para un público 
-            adulto y, por lo tanto, puede no ser adecuado para menores de 17 
-            años.
+          meaning: Este programa está diseñado específicamente para un público adulto y, por lo tanto, puede no ser adecuado para menores de 17 años.
   character:
     Movie: Película
     Titles: Títulos
@@ -1809,8 +1453,7 @@ es-ES:
     add_completely_free: Disfruta completamente sin publicidad
     add_missing_character: Añadir personaje que falta
     add_new_appearance: Añadir nueva aparición
-    add_new_appearance_links_selection: Añadir una nueva aparición vinculará 
-      su(s) selección(es) a las apariciones actuales ya listadas.
+    add_new_appearance_links_selection: Añadir una nueva aparición vinculará su(s) selección(es) a las apariciones actuales ya listadas.
     add_new_group: Añadir grupo nuevo
     add_the_name_of_the_character: Añadir el nombre del personaje.
     add_to_tmdb: Añadir a TMDB
@@ -1819,34 +1462,26 @@ es-ES:
     adding_easy: Añadir a TMDB es simple y fácil.
     all_done: "¿Todo listo?"
     all_languages: Todos los idiomas
-    all_record_exists_in_group: Todos los registros ya existen en el grupo 
-      actual.
+    all_record_exists_in_group: Todos los registros ya existen en el grupo actual.
     already_added: Ya estaba añadido
     alter_popularity: Alterar la popularidad
     are_you_sure: "¿Seguro que quieres continuar?"
-    are_you_sure_updates_will_be_lost: "¿Seguro que quieres irte? Tus actualizaciones
-      se perderán."
+    are_you_sure_updates_will_be_lost: "¿Seguro que quieres irte? Tus actualizaciones se perderán."
     association_already_exists: La asociación ya existe
     association_updated: "¡Asociación actualizada!"
     association_warning: "¡Advertencia de cambio de asociación! "
     available_backdrop_images: Imágenes de fondo disponibles
     back: Atrás
     backdrop: Imagen de fondo
-    backdrop_image_message: Aquí hay algunas imágenes de fondo que hemos 
-      extraído para el encabezado. Selecciona de 1 a 3 imágenes de fondo para 
-      actualizar el encabezado.
+    backdrop_image_message: Aquí hay algunas imágenes de fondo que hemos extraído para el encabezado. Selecciona de 1 a 3 imágenes de fondo para actualizar el encabezado.
     backdrop_oops_message: "¡Ups! No puede seleccionar más de 3 imágenes de encabezado."
     backdrop_window_title: Elija una foto de fondo del personaje
-    below_is_example_text: A continuación se muestra un ejemplo de cómo se verá 
-      la página de Batman. Revise la información siguiente <br>y verifíquela 
-      antes de guardar la página e iniciarla en TMDb.
+    below_is_example_text: A continuación se muestra un ejemplo de cómo se verá la página de Batman. Revise la información siguiente <br>y verifíquela antes de guardar la página e iniciarla en TMDb.
     cancel_edits: Cancelar edición
     character_backdrop_photo: Imagen de fondo del personaje
     character_bio: Biografía del personaje
     character_header_images: Imágenes de encabezado de personajes
-    character_login_signup_text: Debes iniciar sesión para continuar. Haz clic 
-      <a href="%{login}">aquí</a> para iniciar sesión o <a 
-      href="%{signup}">aquí</a> para registrarte.
+    character_login_signup_text: Debes iniciar sesión para continuar. Haz clic <a href="%{login}">aquí</a> para iniciar sesión o <a href="%{signup}">aquí</a> para registrarte.
     character_name: Nombres de los Personajes
     character_search_label: "¿Qué personaje estás buscando?"
     character_search_text: "¿Qué personaje te gustaría encontrar?"
@@ -1854,35 +1489,24 @@ es-ES:
     character_wiki: Wiki del personaje
     characters: Personajes
     check_it_out: Échale un vistazo
-    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'>la guía de 
-      aportaciones</a> para obtener más información sobre cómo añadir en the 
-      Movie Db.</p>
+    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'>la guía de aportaciones</a> para obtener más información sobre cómo añadir en the Movie Db.</p>
     choose_a_character: Elegir un personaje
-    choose_a_character_info: Añadir un personaje significa vincular la aparición
-      de un actor o una actriz que desempeña un papel específico. Un ejemplo 
-      sería la trilogía del Caballero Oscuro (tres películas) en la que Christen
-      Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel 
-      equivalen a un personaje.
+    choose_a_character_info: Añadir un personaje significa vincular la aparición de un actor o una actriz que desempeña un papel específico. Un ejemplo sería la trilogía del Caballero Oscuro (tres películas) en la que Christen Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel equivalen a un personaje.
     choose_backdrop: Elegir imagen de fondo
     choose_header_images: Elegir imágenes de encabezado
     choose_reason: Debes elegir una razón.
     community: COMUNIDAD
-    confirm_buffer_time: Confirma si se requiere margen de tiempo para continuar
-      con la edición.
+    confirm_buffer_time: Confirma si se requiere margen de tiempo para continuar con la edición.
     confirmation: Confirmación
     continue: Continuar
     contribute: Contribuye con nuestra base de datos
     correct_errors_in_forms: Corrige los errores en los campos del formulario.
     create_overview: Crear vista general
-    create_overview_bio_help: Escribe una biografía de esta versión específica, 
-      el personaje tiene muchas encarnaciones.
-    create_overview_help: Ayúdanos a completar la biografía de este personaje a 
-      lo largo de la serie de apariciones en películas/televisión que hizo.
-    create_overview_name_help: Por favor, cambia solo el nombre del personaje 
-      por una razón específica o por un nombre común por el que se le conoce.
+    create_overview_bio_help: Escribe una biografía de esta versión específica, el personaje tiene muchas encarnaciones.
+    create_overview_help: Ayúdanos a completar la biografía de este personaje a lo largo de la serie de apariciones en películas/televisión que hizo.
+    create_overview_name_help: Por favor, cambia solo el nombre del personaje por una razón específica o por un nombre común por el que se le conoce.
     create_overview_note: El actor y su foto de cara no se pueden editar aquí.
-    default_language_results_text: Los resultados están predeterminados en 
-      'en-US' ya que no se encontró el texto buscado en el idioma seleccionado.
+    default_language_results_text: Los resultados están predeterminados en 'en-US' ya que no se encontró el texto buscado en el idioma seleccionado.
     delete_backdrop: Eliminar fondo
     delete_character: Eliminar personaje
     delete_group: Eliminar grupo
@@ -1891,16 +1515,13 @@ es-ES:
     done_editing: "¿Has terminado de editar?"
     drag_title: Arrastra el título para el nuevo grupo
     edit_groups: Editar Grupos
-    edit_groups_description: A continuación está la plantilla para las páginas 
-      de personajes. Por favor, entra y añade los nombres de los grupos, <br> 
-      sinopsis e imágenes para completar la página.
+    edit_groups_description: A continuación está la plantilla para las páginas de personajes. Por favor, entra y añade los nombres de los grupos, <br> sinopsis e imágenes para completar la página.
     edit_header_images: Editar imágenes de encabezado
     edit_label: editar
     edit_mode: Estás en modo de edición
     edit_translate: Edición y traducción
     edit_translating: Editar y traducir
-    editing_character_name_uv: "<h3>¡Hola, <strong>%{user}</strong>! </h3>Observo
-      que estás creando un personaje de un nombre sugerido. ¿Quieres continuar?"
+    editing_character_name_uv: "<h3>¡Hola, <strong>%{user}</strong>! </h3>Observo que estás creando un personaje de un nombre sugerido. ¿Quieres continuar?"
     enter: Introducir
     enter_character_name: Introduce el nombre del personaje
     enter_character_synopsis: Introduce el nombre del personaje
@@ -1917,38 +1538,26 @@ es-ES:
     found_everything: "¿Lo has encontrado todo?"
     frequent_translations: Traducciones frecuentes
     group_name: Nombre del grupo
-    group_name_already_exists: El grupo con el conjunto de elementos ya existe. 
-      Quieres crear un grupo.
+    group_name_already_exists: El grupo con el conjunto de elementos ya existe. Quieres crear un grupo.
     group_name_required: El nombre del grupo es necesario
-    groups_minimum_appearance_msg: Un grupo debe tener mínimo una aparición. Por
-      favor añade una aparición al grupo
+    groups_minimum_appearance_msg: Un grupo debe tener mínimo una aparición. Por favor añade una aparición al grupo
     groups_not_present: Los grupos no están presentes en el personaje.
     headshot: Foto de perfil
     headshot_window_title: Cambiar la foto de perfil del personaje
     help_our_mods: Ayuda a nuestros moderadores
-    help_our_mods_info: "¡Cuéntanos algo del personaje! Este es un campo privado entre
-      el equipo de moderación y tú. Cualquier información que proporciones sobre el
-      personaje y por qué lo estás creando, les ayudará cuando revisen tu página."
+    help_our_mods_info: "¡Cuéntanos algo del personaje! Este es un campo privado entre el equipo de moderación y tú. Cualquier información que proporciones sobre el personaje y por qué lo estás creando, les ayudará cuando revisen tu página."
     icon: Icono
-    image_change_1: Esta imagen está asociada con un registro multimedia del 
-      grupo seleccionado. Si continúas, ¡las asociaciones multimedia vinculadas 
-      con estas personas también cambiarán!
-    image_media_association: Esta imagen está asociada con un registro 
-      multimedia. Si continúas, ¡las asociaciones multimedia vinculadas con 
-      estas personas también cambiarán!
+    image_change_1: Esta imagen está asociada con un registro multimedia del grupo seleccionado. Si continúas, ¡las asociaciones multimedia vinculadas con estas personas también cambiarán!
+    image_media_association: Esta imagen está asociada con un registro multimedia. Si continúas, ¡las asociaciones multimedia vinculadas con estas personas también cambiarán!
     in_translate_mode: Estás en modo de traducción
     inline_edit_original_name: Nombre original
-    join_community_tmdb: Únase a nuestra comunidad para contribuir en The Movie 
-      DB.
+    join_community_tmdb: Únase a nuestra comunidad para contribuir en The Movie DB.
     launch_label: lanzamiento
     lock_existing_appearances: Bloquear las apariciones existentes
     log_tv_movies_watch: Registra la TV y las películas que ve
-    master_group_limit_error: Lo siento, ha alcanzado el límite máximo del grupo
-      de soporte.
+    master_group_limit_error: Lo siento, ha alcanzado el límite máximo del grupo de soporte.
     media: Multimedia
-    media_association: Esta multimedia está asociada con un registro multimedia 
-      del grupo seleccionado. Si continúas, ¡las asociaciones multimedia 
-      vinculadas con estas personas también cambiarán!
+    media_association: Esta multimedia está asociada con un registro multimedia del grupo seleccionado. Si continúas, ¡las asociaciones multimedia vinculadas con estas personas también cambiarán!
     media_character_id: ID de personaje multimedia
     media_type: Tipo de medio
     media_types:
@@ -1968,27 +1577,19 @@ es-ES:
     next_nav_label: Siguiente
     next_review_page: 'Siguiente: Página de Reseña'
     no_appearance_text: "¡No se encontraron grupos!"
-    no_appearance_text_1: ¡No se encontraron apariciones! <a 
-      href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">haz
-      clic aquí </a>para añadir nuevas apariciones.
-    no_appearance_text_2: ¡No se encontraron grupos! <a 
-      href="/character/%{page_url}/edit/">haz clic aquí </a>para añadir nuevos 
-      grupos.
-    no_backdrop_in_group: "¡Parece que ninguno de los grupos tiene nuevos fondos de
-      personajes añadidos!"
-    no_cast_credits: No se encontraron créditos de transmisión. ¡Intente con 
-      otro medio!
+    no_appearance_text_1: ¡No se encontraron apariciones! <a href="/character/%{page_url}/edit/add_appearances?character_name=%{obj_name}">haz clic aquí </a>para añadir nuevas apariciones.
+    no_appearance_text_2: ¡No se encontraron grupos! <a href="/character/%{page_url}/edit/">haz clic aquí </a>para añadir nuevos grupos.
+    no_backdrop_in_group: "¡Parece que ninguno de los grupos tiene nuevos fondos de personajes añadidos!"
+    no_cast_credits: No se encontraron créditos de transmisión. ¡Intente con otro medio!
     no_records_found: No se encontraron registros, intente con otro medio.
     note: Nota
-    note_info: Para continuar, selecciona una persona del menú desplegable 
-      siguiente.
+    note_info: Para continuar, selecciona una persona del menú desplegable siguiente.
     note_mods: Una nota para los moderadores
     okay: Bien
     optional: opcional
     page_is_live: "¡La página está en vivo ahora!"
     person: Persona
-    person_image_association: Selecciona una nueva asociación de personas para 
-      esta imagen
+    person_image_association: Selecciona una nueva asociación de personas para esta imagen
     placeholder_synopsis: Introduce la sinopsis del personaje aquí
     played_by: Interpretado por
     please_select_a_person: Selecciona una persona
@@ -2005,11 +1606,8 @@ es-ES:
     refresh_list: Hubo un problema al actualizar la lista.
     register: Registro
     result: Resultados
-    results_info_text: Selecciona qué representación del personaje te gustaría 
-      añadir.
-    results_selection_info: Solo se puede seleccionar una sola persona en el 
-      papel del personaje. Cada persona que Interpreta el papel de este 
-      personaje cuenta una versión diferente y deberá añadirse por separado.
+    results_info_text: Selecciona qué representación del personaje te gustaría añadir.
+    results_selection_info: Solo se puede seleccionar una sola persona en el papel del personaje. Cada persona que Interpreta el papel de este personaje cuenta una versión diferente y deberá añadirse por separado.
     resume_editing: Continuar
     revenue: Ingresos
     review_and_launch_title: Revisión y lanzamiento
@@ -2018,41 +1616,27 @@ es-ES:
     save_edits: Guardar ediciones
     search: Buscar
     search_all: 'Buscar: todo'
-    search_character_note: A continuación busca el personaje o el título que 
-      deseas añadir. Puedes crear múltiples búsquedas para encontrar todo lo que
-      le gustaría añadir.
-    search_characters_you_want_to_see: A continuación busca los personajes o 
-      títulos que deseas añadir. Puedes crear múltiples búsquedas para encontrar
-      todo lo que le gustaría añadir.
-    search_error_info: Edita tu búsqueda o verifica que el título en el que 
-      aparece el personaje exista en la base de datos y tenga detalles precisos 
-      del elenco y del equipo.
+    search_character_note: A continuación busca el personaje o el título que deseas añadir. Puedes crear múltiples búsquedas para encontrar todo lo que le gustaría añadir.
+    search_characters_you_want_to_see: A continuación busca los personajes o títulos que deseas añadir. Puedes crear múltiples búsquedas para encontrar todo lo que le gustaría añadir.
+    search_error_info: Edita tu búsqueda o verifica que el título en el que aparece el personaje exista en la base de datos y tenga detalles precisos del elenco y del equipo.
     see_batman_appearance: "¿Alguna vez quisiste ver todas las apariciones de Batman?"
     select_backdrop: Seleccionar fondo
     select_cast_credit: Selecciona un crédito de reparto
     select_group_title: Seleccionar y agrupar títulos
-    select_message: Selecciona todas las estrellas que han interpretado esta 
-      versión del personaje. Por ejemplo, en una serie, si la persona que 
-      interpreta al personaje ha cambiado, selecciona ambas estrellas (es decir,
-      tanto Edward Norton como Mark Ruffalo serían seleccionados para MCU Hulk)
+    select_message: Selecciona todas las estrellas que han interpretado esta versión del personaje. Por ejemplo, en una serie, si la persona que interpreta al personaje ha cambiado, selecciona ambas estrellas (es decir, tanto Edward Norton como Mark Ruffalo serían seleccionados para MCU Hulk)
     select_person: Selecciona una persona
     select_person_association: Selecciona una asociación de personas
-    select_person_for_media: Selecciona una nueva persona para los medios 
-      seleccionados
-    selected_appearance_linked_to_character: Las apariciones seleccionadas se 
-      vincularán al personaje.
+    select_person_for_media: Selecciona una nueva persona para los medios seleccionados
+    selected_appearance_linked_to_character: Las apariciones seleccionadas se vincularán al personaje.
     session_expired: "¡Sesión expirada!"
     session_inactive: La sesión estuvo inactiva durante demasiado tiempo
-    session_over_so_redirect: La sesión ha expirado. Hacer clic en Aceptar te 
-      redirigirá a la página del personaje.
+    session_over_so_redirect: La sesión ha expirado. Hacer clic en Aceptar te redirigirá a la página del personaje.
     session_timeout: Tiempo de espera de la sesión alcanzado
-    session_timeout_continue: Tu sesión está a punto de terminar. ¿Quieres 
-      continuar con la sesión?
+    session_timeout_continue: Tu sesión está a punto de terminar. ¿Quieres continuar con la sesión?
     star: Estrella
     submit: Enviar
     submit_and_preview: Enviar y previsualizar
-    submit_confirmation: "<h3>¡Hola, <strong>%{user}</strong>! ¡Bien hecho!</h3> ¿Seguro
-      que deseas enviarlo?"
+    submit_confirmation: "<h3>¡Hola, <strong>%{user}</strong>! ¡Bien hecho!</h3> ¿Seguro que deseas enviarlo?"
     submitted: Enviado
     suggested_backdrops: Seleccionar fondos sugeridos
     suggested_backdrops_not_available: "¡No hay disponibles fondos sugeridos!"
@@ -2061,11 +1645,8 @@ es-ES:
     switch_mode_translate: Cambiar al modo %{available_language} para traducir.
     switch_to_edit_mode: Cambiar al modo de edición
     switch_translate_mode: Cambiar al modo de traducción
-    text_for_character_card: Ahora admitimos personajes, lo que permite a la 
-      comunidad realizar un seguimiento de las apariciones en franquicias y a 
-      través de las series y las películas.
-    title_drag_info: Cualquier título que quieras añadir se puede arrastrar a la
-      barra lateral de la izquierda.
+    text_for_character_card: Ahora admitimos personajes, lo que permite a la comunidad realizar un seguimiento de las apariciones en franquicias y a través de las series y las películas.
+    title_drag_info: Cualquier título que quieras añadir se puede arrastrar a la barra lateral de la izquierda.
     total_Results: Resultados totales
     total_appearance: Aparición total
     total_budget: Presupuesto total
@@ -2073,22 +1654,16 @@ es-ES:
     try_again: "¡Inténtalo de nuevo!"
     tv: TV
     tv_titles: Títulos de TV
-    unloading_message: Descargar esta página puede perder datos. Qué es lo que 
-      quieres hacer...
+    unloading_message: Descargar esta página puede perder datos. Qué es lo que quieres hacer...
     unlock_existing_appearances: Desbloquear apariciones existentes
     unsaved_change_lost: Cualquier cambio no guardado se perderá.
-    unsaved_will_lost_want_to_continue: Cualquier cambio no guardado se perderá.
-      ¿Quieres continuar?
+    unsaved_will_lost_want_to_continue: Cualquier cambio no guardado se perderá. ¿Quieres continuar?
     update_backdrop: Actualizar fondo
     upload_backdrop_title: Selecciona la persona a la que asociar esta imagen.
-    user_added_backdrop_info: Estas son las fotos de fondo que añadiste del 
-      personaje. Selecciona las fotos con las que continuar.
+    user_added_backdrop_info: Estas son las fotos de fondo que añadiste del personaje. Selecciona las fotos con las que continuar.
     user_added_backdrop_label: Fotos de fondo añadidas por el usuario
-    user_variant_description: Aquí hay algunas fotos que hemos sacado del 
-      personaje. Selecciona o añade una alternativa que se adapte mejor al 
-      personaje.
-    user_variant_intro: Encuentra tu personaje favorito de películas, series y 
-      más...
+    user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
+    user_variant_intro: Encuentra tu personaje favorito de películas, series y más...
     validation_charactername: Se necesita el nombre del personaje principal
     validation_group_synopsis: Introduce una sinopsis de grupo válida
     validation_grpname: Introduce un nombre de grupo válido
@@ -2120,8 +1695,7 @@ es-ES:
     selected_language: Idioma seleccionado
     tv_missing_a_backdrop: Series sin imágenes de fondo
     tv_missing_a_poster: Series sin cartel
-    tv_show_language_distribution: Idioma de distribución del programa de 
-      televisión
+    tv_show_language_distribution: Idioma de distribución del programa de televisión
     tv_shows_missing_a_name: Series sin título
     tv_shows_missing_a_overview: Series sin sinopsis
   contribution_bible:
@@ -2178,10 +1752,7 @@ es-ES:
     primary_character: Personaje principal
     tv_show: Programa de TV
   cookie_popup:
-    message: Usamos cookies para ayudarte a tener una mejor experiencia en TMDB.
-      Puedes revisar nuestra <a href="%{policy_url}" target="_blank" 
-      rel="noopener">política de cookies</a> para aprender más. Si continuas 
-      navegando en TMDB, aceptas esta política.
+    message: Usamos cookies para ayudarte a tener una mejor experiencia en TMDB. Puedes revisar nuestra <a href="%{policy_url}" target="_blank" rel="noopener">política de cookies</a> para aprender más. Si continuas navegando en TMDB, aceptas esta política.
     ok_button: Vale
   create_api: Crear API
   date:
@@ -2194,7 +1765,7 @@ es-ES:
     - vie
     - sáb
     abbr_month_names:
-    - 
+    -
     - ene
     - feb
     - mar
@@ -2222,7 +1793,7 @@ es-ES:
       full_month_year: "%B de %Y"
       short_month_day_year: "%-d %b %Y"
     month_names:
-    - 
+    -
     - enero
     - febrero
     - marzo
@@ -2238,8 +1809,7 @@ es-ES:
   day: día
   days:
     one: día
-    many: '%{count} días'
-    other:
+    other: "%{count} días"
   deleted_content:
     entry_deleted: Entrada eliminada
     reasons:
@@ -2285,9 +1855,8 @@ es-ES:
         subject: Es correo basura
     why_deleting: "¿Por qué quieres borrar esta entrada?"
   department_credits_count:
-    one: '%{department} (%{count} crédito)'
-    many: '%{department} (%{count} créditos)'
-    other:
+    one: "%{department} (%{count} crédito)"
+    other: "%{department} (%{count} créditos)"
   departments:
     Acting: Interpretación
     Actors: Actores
@@ -2450,8 +2019,7 @@ es-ES:
       lets_chat: Charlemos
       support: Soporte
       support_title: Soporte de The Movie Database
-    login_to_be_notified: Acceder para recibir avisos sobre la primera 
-      publicación.
+    login_to_be_notified: Acceder para recibir avisos sobre la primera publicación.
     new_discussion:
       community_guidelines: Directrices de la comunidad
       discussion_category: Categoría
@@ -2463,13 +2031,11 @@ es-ES:
     no_discussions: Sin debates.
     pagination:
       post_summary:
-        one: '%{count} respuesta (en la página %{current_page} de %{total_pages})'
-        many: '%{count} respuestas (en la página %{current_page} de %{total_pages})'
-        other:
+        one: "%{count} respuesta (en la página %{current_page} de %{total_pages})"
+        other: "%{count} respuestas (en la página %{current_page} de %{total_pages})"
       summary:
-        one: '%{count} debate, actualmente en la página %{current_page} de %{total_pages}'
-        many: '%{count} debates, actualmente en la página %{current_page} de %{total_pages}'
-        other:
+        one: "%{count} debate, actualmente en la página %{current_page} de %{total_pages}"
+        other: "%{count} debates, actualmente en la página %{current_page} de %{total_pages}"
     post:
       delete: Borrar
       edit: Editar
@@ -2477,30 +2043,16 @@ es-ES:
       ignore: Ignorar
       like: Me gusta
       messages:
-        delete_comment: Si haces click en "Sí", este comentario será borrado 
-          permanentemente.
-        delete_discussion: Si haces clic en "Sí", este debate será borrado 
-          permanentemente.
+        delete_comment: Si haces click en "Sí", este comentario será borrado permanentemente.
+        delete_discussion: Si haces clic en "Sí", este debate será borrado permanentemente.
         hide_comment: Si haces click en "Sí", este comentario será ocultado.
         hide_discussion: Si haces clic en "Sí", este debate será ocultado.
-        ignore_user: ¿Seguro que quieres ignorar a este usuario? Todos sus 
-          debates y comentarios desaparecerán. Puedes eliminar este bloqueo 
-          yendo a  "Usuarios bloqueados" dentro de la configuración de tu 
-          cuenta.
-        mark_as_not_spam: "¿Seguro que deseas marcar este debate como válido y no
-          como correo basura?"
-        mark_as_spam: "¿Seguro que quieres marcar este debate como correo basura?
-          Se eliminará automáticamente si lo haces y no se puede deshacer. Marcar
-          debates como correos basura ayuda a entrenar al servicio de detección de
-          correo basura que usamos."
-        report_violation: Confirma que deseas informar sobre este usuario por 
-          una violación de nuestras <a 
-          href="/documentation/community/guidelines" target="_blank" 
-          rel="noopener">directrices de la comunidad</a>.
-        unhide_discussion: Si haces click en "Sí", esta conversación será 
-          visible de nuevo.
-      posted_by_with_datetime: publicado por %{username} el %{date} a las 
-        %{time}
+        ignore_user: ¿Seguro que quieres ignorar a este usuario? Todos sus debates y comentarios desaparecerán. Puedes eliminar este bloqueo yendo a  "Usuarios bloqueados" dentro de la configuración de tu cuenta.
+        mark_as_not_spam: "¿Seguro que deseas marcar este debate como válido y no como correo basura?"
+        mark_as_spam: "¿Seguro que quieres marcar este debate como correo basura? Se eliminará automáticamente si lo haces y no se puede deshacer. Marcar debates como correos basura ayuda a entrenar al servicio de detección de correo basura que usamos."
+        report_violation: Confirma que deseas informar sobre este usuario por una violación de nuestras <a href="/documentation/community/guidelines" target="_blank" rel="noopener">directrices de la comunidad</a>.
+        unhide_discussion: Si haces click en "Sí", esta conversación será visible de nuevo.
+      posted_by_with_datetime: publicado por %{username} el %{date} a las %{time}
       quote: Citar
       reopen_reply: Reabrir y contestar
       reply: Contestar
@@ -2538,9 +2090,7 @@ es-ES:
         drop_files: o déjalo aquí
         label: Archivos adjuntos
       copyright:
-        label: Creo de buena fe que el titular de los derechos de autor, su 
-          agente o la ley no autorizan el uso del material en la forma en que me
-          quejé.
+        label: Creo de buena fe que el titular de los derechos de autor, su agente o la ley no autorizan el uso del material en la forma en que me quejé.
       e_signature:
         label: Firma electrónica
       email:
@@ -2550,32 +2100,24 @@ es-ES:
       error_checkbox: Debe ser revisado
       extra_details:
         label: Detalles extra
-        note: Describe el problema que estás experimentando con el mayor detalle
-          posible.
+        note: Describe el problema que estás experimentando con el mayor detalle posible.
       full_name:
         label: Nombre completo
       infringed_material:
-        label: Enlace(s) al material original supuestamente infringido (uno por 
-          línea)
+        label: Enlace(s) al material original supuestamente infringido (uno por línea)
       mail_address:
         label: Su dirección postal completa
       optional:
         label: Opcional
       original_material:
-        label: Enlace(s) al material presuntamente infractor en TMDB (uno por 
-          línea)
+        label: Enlace(s) al material presuntamente infractor en TMDB (uno por línea)
       perjury:
-        label: Juro, bajo pena de perjurio, que la información contenida en este
-          aviso es precisa y que soy el titular de los derechos de autor o un 
-          representante autorizado del titular de los derechos de autor.
+        label: Juro, bajo pena de perjurio, que la información contenida en este aviso es precisa y que soy el titular de los derechos de autor o un representante autorizado del titular de los derechos de autor.
       primary_telephone:
         error: No es válido
         label: Tu número de teléfono principal
       release:
-        label: Reconozco que TMDB se reserva el derecho de publicar, de acuerdo 
-          con la Digital Millennium Copyright Act y a discreción de la empresa, 
-          este aviso de eliminación, con las redacciones correspondientes a la 
-          información privada.
+        label: Reconozco que TMDB se reserva el derecho de publicar, de acuerdo con la Digital Millennium Copyright Act y a discreción de la empresa, este aviso de eliminación, con las redacciones correspondientes a la información privada.
       request_type:
         default: Solicitud de retirada de la DMCA
         label: "¿Cómo podemos ayudarte?"
@@ -2583,14 +2125,12 @@ es-ES:
       title: Presentar una solicitud
       username:
         label: Tu nombre de usuario
-        note: Ten en cuenta que los nombres de usuario distinguen entre 
-          mayúsculas y minúsculas
+        note: Ten en cuenta que los nombres de usuario distinguen entre mayúsculas y minúsculas
     report:
       error: Hubo un problema al intentar crear tu informe. ¿Intentar otra vez?
       submit: Envíe una solicitud de retirada de la DMCA.
   dont_fallback: Ninguno (no usar)
-  duplicate_character_name: El nombre del personaje ya existe, prueba con otro 
-    nombre
+  duplicate_character_name: El nombre del personaje ya existe, prueba con otro nombre
   edit_list:
     add_edit_items: Añadir/Editar elementos
     choose_image: Elegir imagen
@@ -2609,21 +2149,14 @@ es-ES:
   edits: ediciones
   email:
     confirm_new_email_address: Confirmar nueva dirección de correo
-    does_not_match: Las direcciones de correo electrónico no coinciden, 
-      inténtalo otra vez.
+    does_not_match: Las direcciones de correo electrónico no coinciden, inténtalo otra vez.
     new_email_address: Nueva dirección de correo electrónico
-    sent_verification_email: Hemos enviado un correo electrónico a 
-      %{email_address} para verificarlo. Comprueba tu bandeja de entrada (y 
-      carpeta de correo basura) para ver las instrucciones sobre cómo proceder.
+    sent_verification_email: Hemos enviado un correo electrónico a %{email_address} para verificarlo. Comprueba tu bandeja de entrada (y carpeta de correo basura) para ver las instrucciones sobre cómo proceder.
     unsubscribe:
       sad_to_go: "¡%{username}, estamos tristes de ver que te vas!"
-      subscription_changed: La configuración de suscripciones ha sido 
-        actualizada. Puedes editar tu configuración visitando la página de <a 
-        href="%{account_link}"=>Configuración de avisos</a>.
+      subscription_changed: La configuración de suscripciones ha sido actualizada. Puedes editar tu configuración visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
       unsubscribe: Darse de baja
-      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por
-        error, puedes volver a suscribirte visitando la página de <a 
-        href="%{account_link}"=>Configuración de avisos</a>.
+      unsubscribed: Te has dado de <strong>baja</strong>. Si realizaste esto por error, puedes volver a suscribirte visitando la página de <a href="%{account_link}"=>Configuración de avisos</a>.
   emoji:
     short_name:
       1f600: Carita sonriente
@@ -2661,24 +2194,17 @@ es-ES:
       1fae3: Cara con ojos asomándose
       1fae4: Cara con boca diagonal
   episode_count:
-    one: '%{count} episodio'
-    many: '%{count} episodios'
-    other:
+    one: "%{count} episodio"
+    other: "%{count} episodios"
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
-      description: El propietario de esta página eliminó su cuenta. Si bien 
-        todas sus contribuciones a TMDB permanecen, sus datos de usuario ahora 
-        son anónimos.
+      description: El propietario de esta página eliminó su cuenta. Si bien todas sus contribuciones a TMDB permanecen, sus datos de usuario ahora son anónimos.
       title: Esta cuenta ha sido eliminada
     missing_privilege:
       description:
-        logged_in: Tu cuenta no tiene acceso a esta página. Si crees que se 
-          trata de un error, infórmanos <a href="%{forum_link}">en los 
-          foros</a>.
-        public: Intentaste solicitar una página que requiere que inicies sesión.
-          Inicia sesión en tu cuenta <a href="%{login_link}">haciendo clic 
-          aquí</a>.
+        logged_in: Tu cuenta no tiene acceso a esta página. Si crees que se trata de un error, infórmanos <a href="%{forum_link}">en los foros</a>.
+        public: Intentaste solicitar una página que requiere que inicies sesión. Inicia sesión en tu cuenta <a href="%{login_link}">haciendo clic aquí</a>.
       title: No tienes permiso para acceder a esta página.
     out_of_login_attempts:
       description: |-
@@ -2696,14 +2222,10 @@ es-ES:
       go_to_inbox: Ir a la bandeja de entrada
       title: Este usuario ha sido suspendido
       your_account:
-        explanation_1: Si deseas discutir las razones de tu suspensión o cómo 
-          puedes recuperar el acceso a tu cuenta, visita el área de mensajes 
-          haciendo clic en el siguiente enlace.
+        explanation_1: Si deseas discutir las razones de tu suspensión o cómo puedes recuperar el acceso a tu cuenta, visita el área de mensajes haciendo clic en el siguiente enlace.
         title: Tu cuenta ha sido suspendida
     suspended_user_post:
-      description: Se detectó que esta publicación infringe nuestras <a 
-        href="%{link}">políticas de la comunidad</a>. Es posible que el usuario 
-        responsable de ello también haya sido suspendido.
+      description: Se detectó que esta publicación infringe nuestras <a href="%{link}">políticas de la comunidad</a>. Es posible que el usuario responsable de ello también haya sido suspendido.
       title: Esta publicación ha sido eliminada
     too_many_login_attempts:
       description:
@@ -2735,38 +2257,30 @@ es-ES:
       empty: no puede estar vacío
       equal_to:
         one: debe ser igual a %{count}
-        many: deben ser igual a %{count}
-        other:
+        other: deben ser igual a %{count}
       even: debe ser parejo
       exclusion: está reservado
       greater_than:
         one: debe ser mayor que %{count}
-        many: deben ser mayores que %{count}
-        other:
+        other: deben ser mayores que %{count}
       greater_than_or_equal_to:
         one: debe ser mayor o igual a %{count}
-        many: deben ser mayores o iguales a %{count}
-        other:
+        other: deben ser mayores o iguales a %{count}
       in:
         one: debe estar en %{count}
-        many: deben estar en %{count}
-        other:
+        other: deben estar en %{count}
       inclusion: debe seleccionarse
       invalid: es inválido
-      invalid_character_name: El nombre del personaje no debe contener 
-        caracteres especiales
-      invalid_email_address: no parece ser una dirección de correo electrónico 
-        válida
+      invalid_character_name: El nombre del personaje no debe contener caracteres especiales
+      invalid_email_address: no parece ser una dirección de correo electrónico válida
       invalid_password: La contraseña que ha ingresado es incorrecta.
       invalid_request: imposible completar la solicitud.
       less_than:
         one: debe ser menor que %{count}
-        many: deben ser menores que %{count}
-        other:
+        other: deben ser menores que %{count}
       less_than_or_equal_to:
         one: debe ser menor o igual a %{count}
-        many: deben ser menores o iguales a %{count}
-        other:
+        other: deben ser menores o iguales a %{count}
       model_invalid: "'La validación falló: %{errors}'"
       no_characters_found: No se encontraron personajes
       not_a_number: no es un número
@@ -2774,50 +2288,36 @@ es-ES:
       odd: debe ser impar
       other_than:
         one: Debe ser distinto de %{count}
-        many: Deben ser distintos de %{count}
-        other:
+        other: Deben ser distintos de %{count}
       present: debe quedar vacío
       required: debe existir
-      series_status_invalid_to_create_season: está configurado como 'Cancelado' 
-        o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
-      suspected_tv_series: se sospecha que es una serie de televisión o 
-        miniserie ya existente, puedes continuar añadiendo este elemento si 
-        estás seguro, pero si existe en nuestra sección de televisión, se 
-        eliminará
+      series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
+      suspected_tv_series: se sospecha que es una serie de televisión o miniserie ya existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará
       taken: ya se ha quitado
       too_long:
         one: es demasiado largo (el máximo es %{count} carácter)
-        many: es demasiado largo (el máximo es %{count} caracteres)
-        other:
+        other: es demasiado largo (el máximo es %{count} caracteres)
       too_short:
         one: es demasiado corto (el mínimo es %{count} carácter)
-        many: es demasiado corto (el mínimo es %{count} caracteres)
-        other:
+        other: es demasiado corto (el mínimo es %{count} caracteres)
       wrong_length:
         one: La longitud es incorrecta (debería ser %{count} carácter)
-        many: La longitud es incorrecta (deberían ser %{count} caracteres)
-        other:
+        other: La longitud es incorrecta (deberían ser %{count} caracteres)
       blocked_words:
       duplicate_review:
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
     nesting:
     tv:
-      create_season_locked: La creación de nuevas temporadas ha sido bloqueada 
-        en este programa de televisión .
+      create_season_locked: La creación de nuevas temporadas ha sido bloqueada en este programa de televisión .
       duplicate_created_by: Esta persona ya está añadida como creador.
       duplicate_crew_member: Esta persona ya está añadida como %{job_name}.
       duplicate_episode: Este episodio ya existe.
       duplicate_guest_star: Esta estrella invitada ya existe.
-      duplicate_regular_season_member: Esta persona ya está añadida como miembro
-        habitual de la temporada.
+      duplicate_regular_season_member: Esta persona ya está añadida como miembro habitual de la temporada.
       duplicate_season: Esta temporada ya existe.
-      duplicate_season_episode_cast_member: Esta persona ya está agregada como 
-        miembro del elenco de un episodio de esta temporada. Los créditos del 
-        reparto deben agregarse a una temporada o a un episodio, y no a ambos.
-      duplicate_season_episode_crew_member: Esta persona ya está agregada como 
-        %{job_name} a un episodio de esta temporada. Los créditos del equipo 
-        deben agregarse a una temporada o a un episodio, y no a ambos.
+      duplicate_season_episode_cast_member: Esta persona ya está agregada como miembro del elenco de un episodio de esta temporada. Los créditos del reparto deben agregarse a una temporada o a un episodio, y no a ambos.
+      duplicate_season_episode_crew_member: Esta persona ya está agregada como %{job_name} a un episodio de esta temporada. Los créditos del equipo deben agregarse a una temporada o a un episodio, y no a ambos.
       missing_credit: Los créditos que intentabas editar, no existen.
       missing_person: No se pudo encontrar la persona que ingresó.
     wrong_count:
@@ -2839,14 +2339,12 @@ es-ES:
     min: Filtrar por fecha de estreno (Min)
   flash:
     email_verified:
-      message: Su correo electrónico ha sido verificado con éxito. Ya puedes 
-        iniciar sesión.
+      message: Su correo electrónico ha sido verificado con éxito. Ya puedes iniciar sesión.
       title: Correo electrónico verificado
     invalid_password_code:
       message: El código de restablecimiento de contraseña no es válido.
     invalid_session:
-      message: No pudimos validar tu inicio de sesión. Puedes actualizar esta 
-        página e intentarlo de nuevo.
+      message: No pudimos validar tu inicio de sesión. Puedes actualizar esta página e intentarlo de nuevo.
       title: Sesión no válida
     logged_out:
       message: Te has desconectado con éxito.
@@ -2867,8 +2365,7 @@ es-ES:
         ¡Asegúrate de revisar tanto tu bandeja de entrada como la carpeta de correo basura!
       title: Correo electrónico de verificación enviado
     upstream_problem:
-      message: Tuvimos un problema al completar esta solicitud. Esto suele ser 
-        un problema temporal y debe resolverse en breve.
+      message: Tuvimos un problema al completar esta solicitud. Esto suele ser un problema temporal y debe resolverse en breve.
       title: Había un problema
   headshots_must_meet: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
   homepage:
@@ -2876,8 +2373,7 @@ es-ES:
       benefits_list:
         '1': Disfruta de TMDB sin anuncios
         '2': Mantén una lista de seguimiento personal
-        '3': Filtra por tus suscripciones a servicios de retransmisión y 
-          encuentra algo que ver
+        '3': Filtra por tus suscripciones a servicios de retransmisión y encuentra algo que ver
         '4': Registra las películas y series que has visto
         '5': Crea listas personalizadas
         '6': Aporta y mejora nuestra base de datos
@@ -2885,8 +2381,7 @@ es-ES:
       catch_up_now: Ponte ahora
       discussions: Debates
     header:
-      quick_snippet_1: Millones de películas, series y gente por descubrir. 
-        Explora ya.
+      quick_snippet_1: Millones de películas, series y gente por descubrir. Explora ya.
       welcome_1: Te damos la bienvenida.
     panels:
       community:
@@ -2936,24 +2431,16 @@ es-ES:
       headshots_must_meet: 'Las fotos de perfil deben cumplir con los siguientes criterios:'
       posters_must_meet: 'Los carteles deben cumplir los siguientes criterios:'
       profile_must_meet: 'Las imágenes de perfil deben cumplir los siguientes criterios:'
-      read_guidelines: Familiarízate con nuestras <a href="%{link}" 
-        target="_blank" rel="noopener">directrices actualizadas para aportar 
-        imágenes</a>.
-      tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el
-        área siguiente. En caso contrario, haz clic en el botón 'Seleccionar 
-        archivos...' y elige la imagen de tu equipo.
+      read_guidelines: Familiarízate con nuestras <a href="%{link}" target="_blank" rel="noopener">directrices actualizadas para aportar imágenes</a>.
+      tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el área siguiente. En caso contrario, haz clic en el botón 'Seleccionar archivos...' y elige la imagen de tu equipo.
     uploader:
       aspect_ratio: Relación de aspecto de %{ratio}
       aspect_ratio_both: Relación de aspecto de %{ratio_first} o %{ratio_second}
       file_type: Tipo de archivo %{file_type}
       max_res: Una resolución máxima de %{res}
       min_res: Una resolución mínima de %{res}
-      read_guidelines: Familiarízate con nuestras <a href="%{link}" 
-        target="_blank" rel="noopener">directrices actualizadas para aportar 
-        imágenes</a>.
-      tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el
-        área siguiente. En caso contrario, haz clic en el botón 'Seleccionar 
-        archivos...' y elige la imagen de tu equipo.
+      read_guidelines: Familiarízate con nuestras <a href="%{link}" target="_blank" rel="noopener">directrices actualizadas para aportar imágenes</a>.
+      tip: Si tu navegador lo admite, puedes arrastrar y soltar una imagen en el área siguiente. En caso contrario, haz clic en el botón 'Seleccionar archivos...' y elige la imagen de tu equipo.
       type_backdrops: Imágenes de fondo
       type_episode_stills: Fotogramas del episodio
       type_headshots: Fotos de rostro
@@ -2962,13 +2449,11 @@ es-ES:
       validation_header: "%{type} debe cumplir los siguientes criterios:"
   invalid_aspect_ratio: La relación de aspecto no es válida.
   item_count:
-    one: '%{count} elemento'
-    many: '%{count} elementos'
-    other:
+    one: "%{count} elemento"
+    other: "%{count} elementos"
   item_count_more:
-    one: '%{count} más...'
-    many: '%{count} más...'
-    other:
+    one: "%{count} más..."
+    other: "%{count} más..."
   jobs:
     '"A" Camera Operator': Operador de cámara 'A'
     '"B" Camera Operator': Operador de cámara "B"
@@ -3031,16 +2516,13 @@ es-ES:
     Additional Photography: Fotografía adicional
     Additional Post-Production Supervisor: Supervisor de posproducción adicional
     Additional Production Assistant: Asistente de producción adicional
-    Additional Production Sound Mixer: Mezclador de sonido de producción 
-      adicional
+    Additional Production Sound Mixer: Mezclador de sonido de producción adicional
     Additional Script Supervisor: Supervisor del guion adicional
     Additional Second Assistant Camera: Segundo asistente adicional de cámara
-    Additional Second Assistant Director: Segundo asistente del dirección 
-      adicional
+    Additional Second Assistant Director: Segundo asistente del dirección adicional
     Additional Set Dresser: Ayudante de vestuario de estudio
     Additional Set Photographer: Ayudante de fotografía de estudio
-    Additional Sound Re-Recording Mixer: Mezclador adicional de regrabación de 
-      sonido
+    Additional Sound Re-Recording Mixer: Mezclador adicional de regrabación de sonido
     Additional Sound Re-Recordist: Ayudante de Regrabación
     Additional Soundtrack: Banda sonora adicional
     Additional Still Photographer: Fotógrafo de imagen fija adicional
@@ -3079,8 +2561,7 @@ es-ES:
     Art Department Assistant: Ayudante de departamento artístico
     Art Department Coordinator: Coordinador de departamento artístico
     Art Department Manager: Gerente del departamento artístico
-    Art Department Production Assistant: Asistente de producción del 
-      departamento artístico
+    Art Department Production Assistant: Asistente de producción del departamento artístico
     Art Department Trainee: Becario del departamento artístico
     Art Designer: Diseñador artístico
     Art Direction: Dirección artística
@@ -3089,8 +2570,7 @@ es-ES:
     Assistant Art Director: Ayudante de dirección artística
     Assistant Camera: Ayudante de cámara
     Assistant Chef: Asistente de jefe
-    Assistant Chief Lighting Technician: Asistente de jefe técnico de 
-      iluminación
+    Assistant Chief Lighting Technician: Asistente de jefe técnico de iluminación
     Assistant Costume Designer: Asistente de diseñador de vestuario
     Assistant Craft Service: Asistente del servicio de artesanía
     Assistant Decorator: Asistente de decoración
@@ -3120,8 +2600,7 @@ es-ES:
     Assistant Set Decoration Buyer: Asistente de compra de decoracion de estudio
     Assistant Set Designer: Asistente de diseñador de estudios
     Assistant Set Dresser: Asistente de vestuario en plató
-    Assistant Set Propsman: Asistente en el rodaje del encargado de los 
-      accesorios
+    Assistant Set Propsman: Asistente en el rodaje del encargado de los accesorios
     Assistant Sound Designer: Asistente de diseñador de sonido
     Assistant Sound Editor: Asistente de editor de sonido
     Assistant Sound Engineer: Asistente de ingeniero de sonido
@@ -3137,10 +2616,8 @@ es-ES:
     BTS Footage: Imagenes detrás de las cámaras
     BTS Photographer: Fotógrafo detrás de las cámaras
     BTS Videographer: Camarógrafo detrás de las cámaras
-    Back-up Set Production Assistant: Asistente de producción del set de 
-      respaldo
-    Back-up Truck Production Assistant: Asistente de producción de camiones de 
-      respaldo
+    Back-up Set Production Assistant: Asistente de producción del set de respaldo
+    Back-up Truck Production Assistant: Asistente de producción de camiones de respaldo
     Background Casting Director: Director de Castin de extras
     Background Designer: Diseñador de escenarios
     Base Camp Operator: Operador de campo base
@@ -3164,8 +2641,7 @@ es-ES:
     Cameo: Cameo
     Camera Car: Coche cámara
     Camera Department Manager: Gerente del departamento de cámara
-    Camera Department Production Assistant: Asistente de producción del del 
-      departamento de cámara
+    Camera Department Production Assistant: Asistente de producción del del departamento de cámara
     Camera Intern: Aprendiz de cámara
     Camera Loader: Cargador de cámara
     Camera Operator: Operador de cámara
@@ -3258,8 +2734,7 @@ es-ES:
     Creative Producer: Productor creativo
     Creator: Creador
     Creature Design: Diseñador de criaturas
-    Creature Effects Technical Director: Director de efectos técnicos de 
-      criaturas
+    Creature Effects Technical Director: Director de efectos técnicos de criaturas
     Creature Technical Director: Director técnico de criaturas
     Crowd Assistant Director: Asistente del director
     Cyber Scanning Supervisor: Supervisor de Cyber Escaning
@@ -3293,8 +2768,7 @@ es-ES:
     Digital Intermediate: Intermediate digital
     Digital Intermediate Assistant: Ayudante del intermediate digital
     Digital Intermediate Colorist: Colorista del intermediate digital
-    Digital Intermediate Data Wrangler: Técnico de gestión de datos del 
-      intermediario digital
+    Digital Intermediate Data Wrangler: Técnico de gestión de datos del intermediario digital
     Digital Intermediate Editor: Montador del intermediario digital
     Digital Intermediate Producer: Productor del intermediario digital
     Digital Producer: Productor digital
@@ -3368,8 +2842,7 @@ es-ES:
     First Assistant Hairstylist: Primer asistente de peluquería
     First Assistant Makeup Artist: Primer asistente de maquillaje
     First Assistant Picture Editor: Asistente del editor de imagen
-    First Assistant Production Coordinator: Primer asistente de coordinación de 
-      producción
+    First Assistant Production Coordinator: Primer asistente de coordinación de producción
     First Assistant Property Master: Asistente de utilería
     First Assistant Sound Editor: Primer ayudante de edición de sonido
     First Company Grip: Jefe de maquinistas
@@ -3424,8 +2897,7 @@ es-ES:
     In Memory Of: En memoria de
     Information Systems Manager: Gerente de sistemas de información
     Insert Unit Director: Director de segunda unidad
-    Insert Unit First Assistant Director: Asistente de dirección de segunda 
-      unidad
+    Insert Unit First Assistant Director: Asistente de dirección de segunda unidad
     Insert Unit Location Manager: Jefe de localizaciones de segunda unidad
     Interactive Manager: Director interactivo
     Interior Designer: Diseñador de interiores
@@ -3668,10 +3140,8 @@ es-ES:
     Second Assistant Art Director: Segundo asistente de dirección de arte
     Second Assistant Camera: Segundo ayudante de cámara
     Second Assistant Director: Segundo asistente de dirección
-    Second Assistant Director Trainee: Aprendiz de segundo asistente de 
-      dirección
-    Second Assistant Production Coordinator: Segundo Asistente de Coordinador de
-      Producción
+    Second Assistant Director Trainee: Aprendiz de segundo asistente de dirección
+    Second Assistant Production Coordinator: Segundo Asistente de Coordinador de Producción
     Second Assistant Sound: Segundo asistente de sonido
     Second Assistant Unit Manager: Segundo Asistente de Gerente de Unidad
     Second Company Grip: Asistente eléctrico
@@ -3680,10 +3150,8 @@ es-ES:
     Second Unit: Segunda unidad
     Second Unit Cinematographer: Cinematógrafo de segunda unidad
     Second Unit Director: Director de la segunda unidad
-    Second Unit Director of Photography: Director de fotografía de la segunda 
-      unidad
-    Second Unit First Assistant Director: Primer asistente de dirección de la 
-      segunda unidad
+    Second Unit Director of Photography: Director de fotografía de la segunda unidad
+    Second Unit First Assistant Director: Primer asistente de dirección de la segunda unidad
     Second Unit Location Manager: Director de localización de la segunda unidad
     Security: Seguridad
     Security Coordinator: Coordinador de seguridad
@@ -3731,8 +3199,7 @@ es-ES:
     Short Story: Relato corto
     Sign Painter: Pintor de cartelería
     Simulation & Effects Artist: Artista de efectos y simulación
-    Simulation & Effects Production Assistant: Ayudante de producción de 
-      simulación y efectos
+    Simulation & Effects Production Assistant: Ayudante de producción de simulación y efectos
     Smoke Artist: Artista de humo
     Software Engineer: Ingeniero de software
     Software Team Lead: Equipo principal de software
@@ -3761,8 +3228,7 @@ es-ES:
     Special Effects Assistant: Asistente de efectos especiales
     Special Effects Best Boy: Asistente eléctrico en efectos especiales
     Special Effects Coordinator: Coordinador de efectos especiales
-    Special Effects Key Makeup Artist: Maquillaje principal de efectos 
-      especiales
+    Special Effects Key Makeup Artist: Maquillaje principal de efectos especiales
     Special Effects Makeup Artist: Maquillaje de efectos especiales
     Special Effects Manager: Manager de efectos especiales
     Special Effects Supervisor: Supervisor de efectos especiales
@@ -3862,8 +3328,7 @@ es-ES:
     Ultimate Arm Operator: Operador de cámara Ultimate Arm
     Underwater Camera: Cámara submarina
     Underwater Director of Photography: Director de fotografía submarina
-    Underwater Epk Photographer: Fotógrafo submarino de kit electrónico de 
-      prensa
+    Underwater Epk Photographer: Fotógrafo submarino de kit electrónico de prensa
     Underwater Gaffer: Iluminador submarino
     Underwater Stills Photographer: Fotógrafo de tomas submarinas
     Unit Manager: Gerente de unidad
@@ -3898,8 +3363,7 @@ es-ES:
     Visual Effects Editor: Editor de efectos visuales
     Visual Effects Lineup: Encargado de efectos visuales
     Visual Effects Producer: Productor de efectos visuales
-    Visual Effects Production Assistant: Asistente de producción de efectos 
-      visuales
+    Visual Effects Production Assistant: Asistente de producción de efectos visuales
     Visual Effects Production Manager: Jefe de producción de efectos visuales
     Visual Effects Supervisor: Supervisor de efectos visuales
     Visual Effects Technical Director: Director técnico de efectos visuales
@@ -3957,8 +3421,7 @@ es-ES:
       tv_episode_pages: En las páginas de episodio de televisión
       tv_season_pages: En las páginas de temporada de televisión
     keyboard_shortcuts: Atajos de teclado
-    login_to_change_preferences: Puedes deshabilitar los atajos de teclado 
-      iniciando sesión en tu cuenta.
+    login_to_change_preferences: Puedes deshabilitar los atajos de teclado iniciando sesión en tu cuenta.
     view_keyboard_shorcuts: Ver atajos de teclado
     view_shortcuts: Ver atajos
   keywords:
@@ -4163,8 +3626,8 @@ es-ES:
     image_selected: Seleccionada
     items_not_seen: Elementos que no he visto
     items_on_list:
-      one: elemento en esta lista
       many: elementos en esta lista
+      one: elemento en esta lista
       other: elementos en esta lista
     items_seen: Elementos que he visto
     list_by: Una lista de
@@ -4199,13 +3662,8 @@ es-ES:
     step_3: 'Paso 3: Escoger imagen'
     step_4: 'Paso 4: compartir'
   login:
-    login_text_1: Para poder editar y valorar en TMDB, así como para obtener 
-      recomendaciones personales, deberás acceder con tu cuenta. Si no tienes 
-      una, registrarse para obtenerla es gratis y simple. <a 
-      href="%{signup_link}">Pulsa aquí</a> para empezar.
-    login_text_2: Si ya te has registrado pero aún no has recibido el correo de 
-      confirmación, <a href="%{verification_link}">pulsa aquí</a> para enviarlo 
-      de nuevo.
+    login_text_1: Para poder editar y valorar en TMDB, así como para obtener recomendaciones personales, deberás acceder con tu cuenta. Si no tienes una, registrarse para obtenerla es gratis y simple. <a href="%{signup_link}">Pulsa aquí</a> para empezar.
+    login_text_2: Si ya te has registrado pero aún no has recibido el correo de confirmación, <a href="%{verification_link}">pulsa aquí</a> para enviarlo de nuevo.
     login_to_your_account: Iniciar sesión en tu cuenta
   login_to_create: "¿No encuentras una película o serie? Inicia sesión para crearla:"
   login_to_edit: Iniciar sesión para editar
@@ -4234,9 +3692,8 @@ es-ES:
         language: Idioma
         user: Usuario
       number_of_changes:
-        one: '%{count} cambio'
-        many: '%{count} cambios'
-        other:
+        one: "%{count} cambio"
+        other: "%{count} cambios"
       view_weekly_leaderboard: Ver tabla de clasificación semanal
     character:
       edit:
@@ -4256,9 +3713,7 @@ es-ES:
       movie_page_title: Películas producidas por %{name}
       tv_page_title: Series en %{name}
     content_score:
-      helper_tooltip: La puntuación del contenido es una forma de ayudarte a 
-        comprender cómo de completos están los datos de un objeto en la base de 
-        datos.
+      helper_tooltip: La puntuación del contenido es una forma de ayudarte a comprender cómo de completos están los datos de un objeto en la base de datos.
       missing_data:
         fields:
           air_date: Fecha de emisión
@@ -4282,9 +3737,7 @@ es-ES:
           title: Título traducido
           video: Vídeo
           writer: Autor
-        summary: Parece que nos faltan los siguientes datos en 
-          <strong>%{language}</strong> o 
-          <strong>%{fallback_language}</strong>...
+        summary: Parece que nos faltan los siguientes datos en <strong>%{language}</strong> o <strong>%{fallback_language}</strong>...
       scale:
         '0': Empieza por dónde quieras...
         '1': Oye, es un comienzo.
@@ -4307,12 +3760,8 @@ es-ES:
       cast_updated: Reparto actualizado
       delete_all_appearances: Borrar todas las apariciones
       genres_updated: Géneros actualizados
-      lock_all_appearances: Al hacer clic en 'sí', bloquearás todos los 
-        registros existentes para que no puedan ser editados en el futuro por 
-        usuarios habituales. Los moderadores aún podrán realizar modificaciones.
-      lock_all_cast_crew_description: Al hacer clic en "Sí", estarás bloqueando 
-        todos los registros existentes para que no sean editados en el futuro 
-        por usuarios normales. Los moderadores podrán seguir editando.
+      lock_all_appearances: Al hacer clic en 'sí', bloquearás todos los registros existentes para que no puedan ser editados en el futuro por usuarios habituales. Los moderadores aún podrán realizar modificaciones.
+      lock_all_cast_crew_description: Al hacer clic en "Sí", estarás bloqueando todos los registros existentes para que no sean editados en el futuro por usuarios normales. Los moderadores podrán seguir editando.
       lock_all_fields: Bloquea todos los campos
       lock_all_images: Bloquea todas las imágenes
       lock_existing_cast: Bloquea el reparto
@@ -4345,30 +3794,19 @@ es-ES:
         taglines: Eslóganes
         unable_to_delete: No se pudo eliminar el eslogan.
       tooltips:
-        adult: Normalmente, esta marca solo debe usarse para pornografía. 
-          Consulta <a href="/bible/movie#59f73b759251416e71000004">la guía de 
-          aportaciones</a> para obtener más información.
-        bible: Para obtener ayuda sobre cómo editar la información de TMDB, haz 
-          clic en '?' para leer la guía de aportaciones.
-        character: El nombre del personaje debe introducirse tal como aparece en
-          %{media}.
-        homepage: Página oficial solamente. Las páginas de seguidores no están 
-          permitidas.
-        logo_format: Se aceptan ficheros en formato SVG o PNG. Es preferible el 
-          uso de archivos SVG ya que la resolución es independiente.
-        original_title: El título original debería ser en el idioma original del
-          elemento. En la mayoría de casos debería coincidir con el idioma del 
-          campo "idioma original".
-        overview: Cuando escribas un resumen, intenta que sea corto, conciso y 
-          sin destripar el argumento.
-        social_links: Los únicos enlaces permitidos son a páginas oficiales 
-          (verificadas). No están permitidas las páginas de seguidores.
+        adult: Normalmente, esta marca solo debe usarse para pornografía. Consulta <a href="/bible/movie#59f73b759251416e71000004">la guía de aportaciones</a> para obtener más información.
+        bible: Para obtener ayuda sobre cómo editar la información de TMDB, haz clic en '?' para leer la guía de aportaciones.
+        character: El nombre del personaje debe introducirse tal como aparece en %{media}.
+        homepage: Página oficial solamente. Las páginas de seguidores no están permitidas.
+        logo_format: Se aceptan ficheros en formato SVG o PNG. Es preferible el uso de archivos SVG ya que la resolución es independiente.
+        original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
+        overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin destripar el argumento.
+        social_links: Los únicos enlaces permitidos son a páginas oficiales (verificadas). No están permitidas las páginas de seguidores.
         softcore:
         video:
       translation_already_exists: La traducción a %{language} ya existe.
       translation_not_found: La traducción en %{language} aún no ha sido creada
-      unlock_all_appearances: Al hacer clic en 'sí', desbloquearás todos los 
-        registros existentes.
+      unlock_all_appearances: Al hacer clic en 'sí', desbloquearás todos los registros existentes.
       upload_logo: Subir un logo
       videos:
         locked: Este video está bloqueado.
@@ -4430,15 +3868,12 @@ es-ES:
           add_keyword: Añadir palabra clave
           create: Crearlo
           no_records: No se han añadido palabras clave.
-          none_found: No se ha encontrado ninguna palabra clave que coincida. 
-            ¿Quieres crearla?
-          tip: Como guía general, piensa en cosas que ayuden a describir la 
-            trama, los temas generales y los estados de ánimo.
+          none_found: No se ha encontrado ninguna palabra clave que coincida. ¿Quieres crearla?
+          tip: Como guía general, piensa en cosas que ayuden a describir la trama, los temas generales y los estados de ánimo.
         production_information:
           add_production_company: Añadir empresa productora
           no_records: No se han añadido empresas productoras.
-          none_found: No se encontraron productoras que coincidan. ¿Quieres 
-            crearla?
+          none_found: No se encontraron productoras que coincidan. ¿Quieres crearla?
           production_company: Empresa productora
         release_information:
           no_records: No se han añadido fechas de estreno a esta entrada.
@@ -4475,40 +3910,31 @@ es-ES:
       tv: No se han encontrado series.
     number_of_movies:
       one: película
-      many: películas
-      other:
+      other: películas
     number_of_shows:
       one: serie
-      many: series
-      other:
+      other: series
     person:
       edit:
         alternative_names:
           no_records: No se han añadido nombres alternativos.
-        blank_translated_name: No se puede establecer la traducción principal 
-          cuando <strong>%{name} (%{language})</strong> está en blanco.
-        confirm_primary_translation: Ya existe una traducción principal 
-          (%{i18n_tag}) para esta persona.
+        blank_translated_name: No se puede establecer la traducción principal cuando <strong>%{name} (%{language})</strong> está en blanco.
+        confirm_primary_translation: Ya existe una traducción principal (%{i18n_tag}) para esta persona.
         errors:
           invalid_unicode: Detectado personaje(s) inválido.
           leading_whitespace: Se detectaron espacios en blanco al inicio.
           locked_name: "<strong>%{name} (%{language})</strong> está bloqueado."
-          name_required: No se puede migrar el campo %{name} (%{language}) en 
-            blanco.
+          name_required: No se puede migrar el campo %{name} (%{language}) en blanco.
           numbers: Se detectaron caracteres numéricos no válidos.
-          primary_name_migration: No se puede migrar <strong>%{name} 
-            (%{language})</strong> desde la traducción principal.
+          primary_name_migration: No se puede migrar <strong>%{name} (%{language})</strong> desde la traducción principal.
           primary_translation: La traducción ya existe.
           special_characters: Se detectaron caracteres no válidos.
           trailing_whitespace: Se detectaron espacios en blanco al final.
         migration_success: El nombre se migró correctamente.
         move_name: Mover nombre
-        move_name_tooltip: Mover <strong> %{name} (%{language})</strong> al 
-          idioma seleccionado.
+        move_name_tooltip: Mover <strong> %{name} (%{language})</strong> al idioma seleccionado.
         primary_translation: Traducción principal
-        translated_name_tooltip: Si el nombre artístico de la persona en su 
-          lengua materna no es fácilmente legible en %{language}, considera la 
-          posibilidad de añadir un nombre traducido.
+        translated_name_tooltip: Si el nombre artístico de la persona en su lengua materna no es fácilmente legible en %{language}, considera la posibilidad de añadir un nombre traducido.
       gender:
         female: Femenino
         male: Masculino
@@ -4519,16 +3945,14 @@ es-ES:
         tv: Televisión
         tv_shows: Series
       years_old:
-        one: '%{count} año'
-        many: '%{count} años'
-        other:
+        one: "%{count} año"
+        other: "%{count} años"
     rating:
       not_rateable: Este elemento aún no es valorable.
       rated_with_rating: Valorada %{value}
       rating_count:
-        one: '%{count} valoración'
-        many: '%{count} valoraciones'
-        other:
+        one: "%{count} valoración"
+        other: "%{count} valoraciones"
       removed: Tu valoración ha sido eliminada.
       score_breakdown: Desglose de puntos
       score_distribution: Distribución de puntos
@@ -4559,21 +3983,17 @@ es-ES:
       awards:
     social_panel:
       discussions:
-        currently_subscribed: Te has suscrito para recibir un aviso cuando se 
-          cree la primera publicación.
-        no_discussions: No hay debates sobre %{item_title}. ¡Inicia sesión para 
-          ser el primero!
+        currently_subscribed: Te has suscrito para recibir un aviso cuando se cree la primera publicación.
+        no_discussions: No hay debates sobre %{item_title}. ¡Inicia sesión para ser el primero!
         unsubscribe_me: Cancelar mi suscripción.
-        want_to_be_notified: "¿Quieres que te avisemos cuando alguien cree la primera
-          publicación?"
+        want_to_be_notified: "¿Quieres que te avisemos cuando alguien cree la primera publicación?"
         yes_notify_me: "¡Sí, avísame!"
       reviews:
         a_review_by: Una reseña de %{username}
         by: Escrito por %{username} el %{date}
         featured_review: Reseña destacada
         no_review:
-          logged_in: No tenemos reseñas de %{title}. ¿Quieres <a 
-            href="%{url}">escribir una</a>?
+          logged_in: No tenemos reseñas de %{title}. ¿Quieres <a href="%{url}">escribir una</a>?
           public: No tenemos reseñas de %{title}.
         read_all: Leer todas las reseñas
         read_the_rest: Leer el resto
@@ -4586,8 +4006,7 @@ es-ES:
         your_rating:
         edit_review:
         no_featured_review:
-          logged_in: No tenemos reseñas destacadas de %{title}. ¿Quieres <a 
-            href="%{url}">escribir una</a>?
+          logged_in: No tenemos reseñas destacadas de %{title}. ¿Quieres <a href="%{url}">escribir una</a>?
           public: No tenemos reseñas destacadas de %{title}.
     translations:
       add_biography: Añadir biografía
@@ -4604,8 +4023,7 @@ es-ES:
       title: Título
     tv_episode:
       edit:
-        episode_type_confirm: Ya hay un episodio %{episode_type} para esta 
-          temporada. Haz clic en 'Sí' para confirmar tu elección.
+        episode_type_confirm: Ya hay un episodio %{episode_type} para esta temporada. Haz clic en 'Sí' para confirmar tu elección.
         episode_type_label: Tipo de episodio
         episode_types:
           finale: Final de temporada
@@ -4614,9 +4032,7 @@ es-ES:
         guest_stars:
           no_records: No se han añadido estrellas invitadas.
         screened_as_part_of_season: Sí, como parte de una temporada
-        screened_confirm: Si este episodio se ha exhibido en salas (proyectado 
-          en un festival de cine o en un cine), haz click en 'Sí' para 
-          continuar.
+        screened_confirm: Si este episodio se ha exhibido en salas (proyectado en un festival de cine o en un cine), haz click en 'Sí' para continuar.
         screened_label: "¿Este episodio se ha exhibido en salas?"
       episode_label:
         finale: Final de temporada
@@ -4631,11 +4047,8 @@ es-ES:
         create_episode: Crear episodio
         episodes:
           no_records: No se han añadido episodios.
-        runtime_varies_check: El valor de la duración varía mucho de la duración
-          de la temporada. ¿Introdujiste la duración correctamente?
-        screened_confirm: Si esta temporada se ha exhibido en salas (proyectado 
-          en un festival de cine o en un cine), haz click en 'Sí' para 
-          continuar.
+        runtime_varies_check: El valor de la duración varía mucho de la duración de la temporada. ¿Introdujiste la duración correctamente?
+        screened_confirm: Si esta temporada se ha exhibido en salas (proyectado en un festival de cine o en un cine), haz click en 'Sí' para continuar.
         screened_label: "¿Esta temporada se ha exhibido en salas?"
       season_cast: Reparto de la temporada
       season_crew: Equipo de la temporada
@@ -4656,8 +4069,7 @@ es-ES:
         creator:
           no_records: No se han añadido creadores.
         crew:
-          no_season: "¡No existen temporadas! Se necesita una temporada para añadir
-            miembros del equipo."
+          no_season: "¡No existen temporadas! Se necesita una temporada para añadir miembros del equipo."
         episode_groups:
           create_new_group: Crear nuevo grupo
           description: Descripción
@@ -4671,9 +4083,8 @@ es-ES:
           group: Grupo
           messages:
             episodes_added:
-              one: ¡%{count} episodio añadido!
-              many: ¡%{count} episodios añadidos!
-              other:
+              one: "¡%{count} episodio añadido!"
+              other: "¡%{count} episodios añadidos!"
           name: Nombre del grupo
           no_records: No se han añadido grupos de episodios.
           type: Tipo
@@ -4690,8 +4101,7 @@ es-ES:
           none_found: No se han encontrado canales. ¿Quieres crear uno?
         regular_cast:
           no_records: No se han añadido los miembros habituales del reparto.
-          no_season: "¡No existen temporadas! Se necesita una temporada para añadir
-            miembros habituales del reparto."
+          no_season: "¡No existen temporadas! Se necesita una temporada para añadir miembros habituales del reparto."
         runtime:
           add_it: "¿Añadir nueva duración?"
           enter_value: Introducir el valor en minutos
@@ -4702,14 +4112,12 @@ es-ES:
       episode_groups:
         groups:
           count:
-            one: '%{count} grupo'
-            many: '%{count} grupos'
-            other:
+            one: "%{count} grupo"
+            other: "%{count} grupos"
         original_air_date: Fecha de estreno original
       networks:
         one: Canal
-        many: Canales
-        other:
+        other: Canales
       primary_characters: Personajes principales
       series_cast: Reparto de la serie
       series_crew: Equipo de la serie
@@ -4803,9 +4211,8 @@ es-ES:
     notifications:
       new_message: "%{username} te ha enviado un nuevo mensaje"
     number_of_messages:
-      one: '%{count} mensaje'
-      many: '%{count} mensajes'
-      other:
+      one: "%{count} mensaje"
+      other: "%{count} mensajes"
     options:
       admin: Administrador
       archive: Archivo
@@ -4813,8 +4220,7 @@ es-ES:
       viewed_at: Visto %{time_ago}
     placeholders:
       no_conversation_selected:
-        create: También puedes crear una nueva conversación haciendo <a 
-          href="%{link}">click aquí</a>.
+        create: También puedes crear una nueva conversación haciendo <a href="%{link}">click aquí</a>.
         no_conversations: No tienes ninguna conversación abierta, ¡qué suerte!
         view: Para ver una conversación, selecciona una de la izquierda.
       no_user_found: Usuario no encontrado.
@@ -4841,9 +4247,8 @@ es-ES:
               format: "%{message}"
               blocked_words:
   month:
-    one: '%{count} mes'
-    many: '%{count} meses'
-    other:
+    one: "%{count} mes"
+    other: "%{count} meses"
   navigation:
     discover:
       discover: Descubre
@@ -4864,14 +4269,12 @@ es-ES:
     popular: Popular
     more: Más
   no_biography: No tenemos una biografía de %{name}.
-  no_cast: No se ha añadido a nadie del reparto a %{media_type}. ¿Nos puedes 
-    ayudar añadiendo a alguien?
+  no_cast: No se ha añadido a nadie del reparto a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
   no_collection_search_results: Ninguna colección coincide con tu búsqueda.
   no_company_search_results: Ninguna compañía coincide con tu búsqueda.
   no_contributors: No se han encontrado aportaciones.
   no_created_lists: No has creado ninguna lista.
-  no_crew: No se ha añadido a nadie del equipo a %{media_type}. ¿Nos puedes 
-    ayudar añadiendo a alguien?
+  no_crew: No se ha añadido a nadie del equipo a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
   no_description: Sin descripción.
   no_director: No se ha añadido al director.
   no_episode_images: No se han añadido imágenes del episodio.
@@ -4888,19 +4291,11 @@ es-ES:
   no_list_search_results: Ninguna lista coincide con tu búsqueda.
   no_media: No se han añadido vídeos, imágenes de fondo o pósteres a %{title}.
   no_movie_search_results: Ninguna película coincide con tu búsqueda.
-  no_overview: No tenemos una sinopsis en español. Ayúdamos a ampliar nuestra 
-    base de datos añadiendo una.
+  no_overview: No tenemos una sinopsis en español. Ayúdamos a ampliar nuestra base de datos añadiendo una.
   no_person_search_results: No hay personas que coincidan con tu búsqueda.
   no_personal_recommendations:
-    movie: Para obtener recomendaciones personales de películas, comienza 
-      añadiendo todas tus películas favoritas. En este punto, probablemente 
-      notes que muchas de las películas que recomendamos son las que ya has 
-      visto. Para filtrarlas, ¡valóralas! Una vez valoradas, las filtraremos 
-      automáticamente.
-    tv: Para obtener recomendaciones personales de series, comienza añadiendo 
-      todas series favoritas. En este punto, probablemente notes que muchas de 
-      las series que recomendamos son las que ya has visto. Para filtrarlas, 
-      ¡puntúalas! Una vez puntuadas, las filtraremos automáticamente.
+    movie: Para obtener recomendaciones personales de películas, comienza añadiendo todas tus películas favoritas. En este punto, probablemente notes que muchas de las películas que recomendamos son las que ya has visto. Para filtrarlas, ¡valóralas! Una vez valoradas, las filtraremos automáticamente.
+    tv: Para obtener recomendaciones personales de series, comienza añadiendo todas series favoritas. En este punto, probablemente notes que muchas de las series que recomendamos son las que ya has visto. Para filtrarlas, ¡puntúalas! Una vez puntuadas, las filtraremos automáticamente.
   no_rated_movies:
     current_user: No has puntuado ninguna película.
     public: "%{username} no ha puntuado ninguna película."
@@ -4908,27 +4303,20 @@ es-ES:
     current_user: No has valorado ningún programa de televisión.
     public: "%{username} no ha puntuado ninguna serie."
   no_recommendations:
-    movie: No tenemos suficiente información para recomendarte películas basadas
-      en %{title}. Puedes ayudarnos valorando las películas que has visto.
-    tv_show: No tenemos suficiente información para recomendarte series basadas 
-      en %{title}. Puedes ayudarnos puntuando las series que has visto.
+    movie: No tenemos suficiente información para recomendarte películas basadas en %{title}. Puedes ayudarnos valorando las películas que has visto.
+    tv_show: No tenemos suficiente información para recomendarte series basadas en %{title}. Puedes ayudarnos puntuando las series que has visto.
   no_records: No se ha añadido ningún registro.
   no_tv_search_results: Ningún programa de televisión coincide con tu búsqueda.
   no_watchlist_movies:
     current_user: No has añadido ninguna película a tu lista de seguimiento.
     public: Tu lista de seguimiento está vacía.
   no_watchlist_tv_shows:
-    current_user: No has añadido ningún programa de televisión a tu lista de 
-      seguimiento.
+    current_user: No has añadido ningún programa de televisión a tu lista de seguimiento.
     public: Esta lista de seguimiento está vacía.
   no_writer: No se ha añadido ningún guionista.
   not_translated:
-    logged_in: "%{page_title} aún no ha sido traducida al <strong>%{requested_i18n}
-      (%{requested_language_text})</strong>. Si quieres continuar y traducirla tú,
-      por favor, haz click en el botón de abajo."
-    public: '%{page_title} no ha sido traducida al <strong>%{requested_i18n} (%{requested_language_text})</strong>.
-      Puedes añadir esta traducción <a href="%{signup_link}">creando</a> una cuenta
-      e <a href="%{login_link}">iniciando sesión</a>.'
+    logged_in: "%{page_title} aún no ha sido traducida al <strong>%{requested_i18n} (%{requested_language_text})</strong>. Si quieres continuar y traducirla tú, por favor, haz click en el botón de abajo."
+    public: '%{page_title} no ha sido traducida al <strong>%{requested_i18n} (%{requested_language_text})</strong>. Puedes añadir esta traducción <a href="%{signup_link}">creando</a> una cuenta e <a href="%{login_link}">iniciando sesión</a>.'
   notifications:
     caught_up: Parece que estás al día.
     clear: Limpiar
@@ -4943,17 +4331,17 @@ es-ES:
       format:
         delimiter: "."
         format: "%n %u"
-        precision: '2'
+        precision: 2
         separator: ","
-        significant: 'False'
-        strip_insignificant_zeros: 'False'
+        significant: false
+        strip_insignificant_zeros: false
         unit: "€"
     format:
       delimiter: "."
-      precision: '3'
+      precision: 3
       separator: ","
-      significant: 'False'
-      strip_insignificant_zeros: 'False'
+      significant: false
+      strip_insignificant_zeros: false
     human:
       decimal_units:
         format: "%n %u"
@@ -4964,9 +4352,9 @@ es-ES:
           thousand: Mil
           trillion: Billón de
       format:
-        precision: '3'
-        significant: 'True'
-        strip_insignificant_zeros: 'True'
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
       short_decimal_units:
         units:
           billion: "(B)"
@@ -4983,25 +4371,20 @@ es-ES:
       format:
         delimiter:
   number_of_edits:
-    one: '%{count} edición'
-    many: '%{count} ediciones'
-    other:
+    one: "%{count} edición"
+    other: "%{count} ediciones"
   number_of_items:
-    one: '%{count} elemento'
-    many: '%{count} elementos'
-    other:
+    one: "%{count} elemento"
+    other: "%{count} elementos"
   number_of_results:
-    one: '%{count} resultado'
-    many: '%{count} resultados'
-    other:
+    one: "%{count} resultado"
+    other: "%{count} resultados"
   number_of_translations:
-    one: '%{count} traducción'
-    many: '%{count} traducciones'
-    other:
+    one: "%{count} traducción"
+    other: "%{count} traducciones"
   number_of_votes:
-    one: '%{count} voto'
-    many: '%{count} votos'
-    other:
+    one: "%{count} voto"
+    other: "%{count} votos"
   ott:
     available_sentences:
       ads: ver con anuncios
@@ -5014,9 +4397,7 @@ es-ES:
       flatrate: Ahora en retransmisión
       rent_or_buy: Disponible para alquilar o comprar
       summary_sentence: "%{available_snippet} en %{service_name}"
-    description: JustWatch hace que sea fácil descubrir dónde puedes ver 
-      legalmente tus películas y series favoritas en línea. Visita 
-      {justwatch_link} para más información.
+    description: JustWatch hace que sea fácil descubrir dónde puedes ver legalmente tus películas y series favoritas en línea. Visita {justwatch_link} para más información.
     filters:
       4k: 4K
       best_price: Mejor precio
@@ -5040,9 +4421,9 @@ es-ES:
       sd: No se encontraron ofertas en SD.
     page_title: "¿Dónde puedo ver %{media_name}?"
     seasons:
-      one: '%{count} temporada'
-      many: '%{count} temporadas'
-      other: '%{count} temporadas'
+      many: "%{count} temporadas"
+      one: "%{count} temporada"
+      other: "%{count} temporadas"
     view_offers: Ver ofertas
     watch_now: Ver ahora
     watch_on:
@@ -5068,8 +4449,7 @@ es-ES:
     new_password: Nueva contraseña
     password: Contraseña
     password_confirm: Repite la contraseña
-    reset_email_sent: "¡Correo electrónico enviado! En breve deberías recibir las
-      instrucciones para restablecer la contraseña."
+    reset_email_sent: "¡Correo electrónico enviado! En breve deberías recibir las instrucciones para restablecer la contraseña."
   person:
     credits:
       as_character: como %{character}
@@ -5077,11 +4457,8 @@ es-ES:
   placeholder:
     primary_character_name: Nombre del personaje principal
   report:
-    details_placeholder: Introduce la mayor cantidad de detalles posible. Si se 
-      proporcionan más datos en el informe original, se agilizará la solicitud 
-      lo máximo posible.
-  reset_password_text: Escribe tu nombre de usuario debajo para iniciar el 
-    proceso de restablecimiento de contraseña.
+    details_placeholder: Introduce la mayor cantidad de detalles posible. Si se proporcionan más datos en el informe original, se agilizará la solicitud lo máximo posible.
+  reset_password_text: Escribe tu nombre de usuario debajo para iniciar el proceso de restablecimiento de contraseña.
   sample:
   search:
     adult: Adulto
@@ -5109,23 +4486,18 @@ es-ES:
     for_media:
     softcore:
   search_text_validation_error: "¡Introduce un texto válido!"
-  search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados
-    por año. Ejemplo: ''star wars y:1977''.'
+  search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados por año. Ejemplo: ''star wars y:1977''.'
   season_number_name: Temporada %{season_number}
   season_overview:
-    already_aired: La temporada %{season_number} de %{show_name} se estrenó el 
-      %{date}.
-    to_air: La temporada %{season_number} de %{show_name} tiene previsto su 
-      estreno el %{date}.
+    already_aired: La temporada %{season_number} de %{show_name} se estrenó el %{date}.
+    to_air: La temporada %{season_number} de %{show_name} tiene previsto su estreno el %{date}.
   settings:
     account:
       account_settings: Configuración de mi cuenta
       auto_detect: "¿Detección automática?"
       page_title: Mi configuración
-      resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación?
-        Introduce abajo tu correo y te lo reenviaremos."
-      reset_password_text: Introduce el correo que has usado para entrar en TMDB
-        y te mandaremos los pasos necesarios para resetear tu contraseña.
+      resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación? Introduce abajo tu correo y te lo reenviaremos."
+      reset_password_text: Introduce el correo que has usado para entrar en TMDB y te mandaremos los pasos necesarios para resetear tu contraseña.
       adult_content:
         show_adult_content:
         confirm_popup:
@@ -5144,14 +4516,9 @@ es-ES:
         directory: Directorio
         overview: Vista general
         regenerate:
-          confirm_text: Esto <strong>deshabilitará</strong> tu clave API 
-            anterior y generará una nueva. Esta acción no se puede deshacer. 
-            Tienes <strong>30 segundos</strong> para confirmar antes de volver a
-            introducir tu contraseña.
+          confirm_text: Esto <strong>deshabilitará</strong> tu clave API anterior y generará una nueva. Esta acción no se puede deshacer. Tienes <strong>30 segundos</strong> para confirmar antes de volver a introducir tu contraseña.
           regenerate_key: Regenerar clave
-          summary_text: "¡Acabas de entrar en una <strong>zona peligrosa</strong>!
-            Si quieres continuar y actualizar tu clave API introduce tu contraseña
-            y confirma las indicaciones."
+          summary_text: "¡Acabas de entrar en una <strong>zona peligrosa</strong>! Si quieres continuar y actualizar tu clave API introduce tu contraseña y confirma las indicaciones."
         sessions: Sesiones
         stats: Estadísticas
       page_title: Mi configuración de API
@@ -5165,18 +4532,13 @@ es-ES:
       username: Nombre de usuario
     change_email:
       change_email: Cambiar correo electrónico
-      change_email_text: Si deseas cambiar el correo electrónico, intoduce una 
-        nueva dirección en el campo siguiente. Antes de poder volver a iniciar 
-        sesión, tendrás que verificar la nueva dirección haciendo clic en el 
-        enlace de activación en el correo electrónico que te enviaremos a la 
-        nueva dirección.
+      change_email_text: Si deseas cambiar el correo electrónico, intoduce una nueva dirección en el campo siguiente. Antes de poder volver a iniciar sesión, tendrás que verificar la nueva dirección haciendo clic en el enlace de activación en el correo electrónico que te enviaremos a la nueva dirección.
       page_title: Cambiar mi dirección de correo electrónico
     delete_account:
       confirm_delete: Confirmar borrado
       delete_account: Borrar cuenta
       page_title: Borrar mi cuenta
-      summary_text: "¡Has entrado en una <strong>zona peligrosa</strong>! Si quieres
-        continuar y borrar tu cuenta, introduce tu contraseña y confirma las indicaciones."
+      summary_text: "¡Has entrado en una <strong>zona peligrosa</strong>! Si quieres continuar y borrar tu cuenta, introduce tu contraseña y confirma las indicaciones."
     import_list:
       import_button: Importar
       import_list: Importar lista
@@ -5203,26 +4565,18 @@ es-ES:
           item_reasons:
             already_imported: Ya importado.
             cant_find_imdb: No se encuentra el identificador de IMDb.
-            imdb_id_not_in_row: El identificador de IMDb no se encontró en esta 
-              fila.
-            personal_rating_invalid: Tu valoración personal no es válida (debe 
-              estar entre 0.5 y 10.0).
-            personal_rating_not_found: Tu valoración personal no se encontró en 
-              esta fila.
+            imdb_id_not_in_row: El identificador de IMDb no se encontró en esta fila.
+            personal_rating_invalid: Tu valoración personal no es válida (debe estar entre 0.5 y 10.0).
+            personal_rating_not_found: Tu valoración personal no se encontró en esta fila.
             row_is_invalid: Esta fila no es válida.
             updated_date: Fecha actualizada.
           reason: "¿Motivo? (si es aplicable)"
-          summary: Somos capaces de importar %{imported_count} elementos de los 
-            %{total_count} (%{imported_percentage}%) elementos detectados en tu 
-            lista exportada.
-        currently_running: Tu importación está ejecutándose. Puedes refrescar 
-          esta página para ver si se ha completado.
+          summary: Somos capaces de importar %{imported_count} elementos de los %{total_count} (%{imported_percentage}%) elementos detectados en tu lista exportada.
+        currently_running: Tu importación está ejecutándose. Puedes refrescar esta página para ver si se ha completado.
         import_results: Resultados de la importación
         in_progress:
           import_status: Estado de la importación
-          summary: Se han detectado un total de %{total_count} elementos a 
-            importar. Se está ejecutando la importación por detrás y se te 
-            avisará cuando haya terminado.
+          summary: Se han detectado un total de %{total_count} elementos a importar. Se está ejecutando la importación por detrás y se te avisará cuando haya terminado.
       select_csv: Selecciona un archivo CSV
       type:
         favorite: Favorito
@@ -5244,53 +4598,32 @@ es-ES:
       social_settings: Configuración de Redes Sociales
       streaming_services: Servicios de retransmisión
     notifications:
-      api_updates: Envíame un correo electrónico cuando haya cambios y 
-        actualizaciones de la API
-      email_new_releases_watchlist: "¿Enviarme un correo electrónico cuando haya actualizaciones
-        en mi lista de seguimiento?"
-      new_replies_to_threads_created: "¿Ver automáticamente los hilos que he creado
-        o respondido?"
-      new_replies_to_threads_watching: "¿Enviarme un correo electrónico cuando haya
-        nuevas respuestas en los hilos que sigo?"
-      news_updates: Envíame un correo electrónico sobre noticias y actualización
-        de productos
+      api_updates: Envíame un correo electrónico cuando haya cambios y actualizaciones de la API
+      email_new_releases_watchlist: "¿Enviarme un correo electrónico cuando haya actualizaciones en mi lista de seguimiento?"
+      new_replies_to_threads_created: "¿Ver automáticamente los hilos que he creado o respondido?"
+      new_replies_to_threads_watching: "¿Enviarme un correo electrónico cuando haya nuevas respuestas en los hilos que sigo?"
+      news_updates: Envíame un correo electrónico sobre noticias y actualización de productos
       notifications: Avisos
       page_title: Mis avisos
     profile:
       accent_color: Color destacado
       avatar:
         current_avatar: Avatar actual
-        explain: Actualmente, la única opción que tenemos para mostrar un avatar
-          personalizado es usar un servicio llamado <a 
-          href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si 
-          deseas mostrar un avatar personalizado en TMDB, tendrás que 
-          registrarte para tener una cuenta en Gravatar y asegurarte de añadir 
-          la misma dirección de correo electrónico que utilizas aquí (así es 
-          como podemos vincular la cuenta). Una vez hecho esto, haz clic en el 
-          botón de actualizar y a continuación cargaremos tu nueva imagen.
-        explain_gravatar: Si quieres utilizar <a 
-          href="https://www.gravatar.com/" target="_blank">Gravatar</a> como 
-          proveedor de tu avatar, comprueba que aquí tienes la misma dirección 
-          de correo electrónico que en Gravatar. Una vez hecho esto (y subido 
-          una imagen, por supuesto), haz clic en el botón inferior de actualizar
-          e intentaremos cargar tu nueva imagen.
+        explain: Actualmente, la única opción que tenemos para mostrar un avatar personalizado es usar un servicio llamado <a href="https://www.gravatar.com/" target="_blank">Gravatar</a>. Si deseas mostrar un avatar personalizado en TMDB, tendrás que registrarte para tener una cuenta en Gravatar y asegurarte de añadir la misma dirección de correo electrónico que utilizas aquí (así es como podemos vincular la cuenta). Una vez hecho esto, haz clic en el botón de actualizar y a continuación cargaremos tu nueva imagen.
+        explain_gravatar: Si quieres utilizar <a href="https://www.gravatar.com/" target="_blank">Gravatar</a> como proveedor de tu avatar, comprueba que aquí tienes la misma dirección de correo electrónico que en Gravatar. Una vez hecho esto (y subido una imagen, por supuesto), haz clic en el botón inferior de actualizar e intentaremos cargar tu nueva imagen.
         not_found: No hay avatar.
-        not_found_add: No tienes avatar. ¿Te gustaría <a href="#">añadir 
-          uno</a>?
+        not_found_add: No tienes avatar. ¿Te gustaría <a href="#">añadir uno</a>?
         remove_own: "¿Borrar tu avatar?"
         update_avatar: Actualizar avatar
         update_gravatar: "¿Actualizar Gravatar?"
         updated: "¡Avatar actualizado!"
         upload_avatar: Subir avatar
         upload_own: "¿Subir tu propia imagen?"
-        upload_window_tip: Utilizar el selector de archivos de abajo para subir 
-          tu propio avatar personalizado. Nosotros cortaremos automáticamente la
-          imagen para que sea cuadrada si no lo era.
+        upload_window_tip: Utilizar el selector de archivos de abajo para subir tu propio avatar personalizado. Nosotros cortaremos automáticamente la imagen para que sea cuadrada si no lo era.
         use_gravatar: "¿Utilizar Gravatar?"
       background:
         background_image: Imagen de fondo
-        confirm_remove: Por favor confirma que deseas borrar tu imagen de fondo.
-          ¿Estás seguro?
+        confirm_remove: Por favor confirma que deseas borrar tu imagen de fondo. ¿Estás seguro?
         remove_background: "¿Borrar tu imagen de fondo?"
         set_image: "¿Configurar una imagen de fondo?"
       change_password: Cambiar contraseña
@@ -5306,29 +4639,19 @@ es-ES:
           <p>Para cambiar tu contraseña, necesitamos una dirección de correo electrónico válida. Desafortunadamente, tuvimos problemas para enviarte correos electrónicos en el pasado. Puedes ver los errores <a href="/u/%{username_url}/events/emails?status=2,3">aquí</a>.</p>
 
           <p>Si los problemas con tu dirección de correo se han solucionado o solo fueron temporales, haz clic en el botón de restablecer e intentaremos enviarte otro correo electrónico para verificarlo.</p>
-        sending_problems: Hemos tenido problemas para enviar mensajes a su 
-          dirección de correo electrónico. Antes de continuar, debemos 
-          asegurarnos de que nuestros correos electrónicos se entreguen 
-          correctamente.
+        sending_problems: Hemos tenido problemas para enviar mensajes a su dirección de correo electrónico. Antes de continuar, debemos asegurarnos de que nuestros correos electrónicos se entreguen correctamente.
         what_is_your_email: "¿Cuál es tu correo electrónico?"
       page_title: Mi perfil
-      reset_password_dialog_text: Si confirmas esta petición, te enviaremos un 
-        correo electrónico con las instrucciones para restablecer la contraseña.
-        ¿Estás seguro de querer hacelo?
-      reset_password_dialog_text2: "<strong>Ten en cuenta:</strong> al restablecer
-        tu contraseña, se cerrará la sesión de todas las sesiones actuales."
+      reset_password_dialog_text: Si confirmas esta petición, te enviaremos un correo electrónico con las instrucciones para restablecer la contraseña. ¿Estás seguro de querer hacelo?
+      reset_password_dialog_text2: "<strong>Ten en cuenta:</strong> al restablecer tu contraseña, se cerrará la sesión de todas las sesiones actuales."
     sessions:
       api:
         connected_apps: Aplicaciones conectadas
-        listed_below_explanation: A continuación se enumeran las aplicaciones de
-          terceros a las que has autorizado a escribir datos en tu nombre. 
-          Puedes revocar estas autorizaciones en cualquier momento.
+        listed_below_explanation: A continuación se enumeran las aplicaciones de terceros a las que has autorizado a escribir datos en tu nombre. Puedes revocar estas autorizaciones en cualquier momento.
         no_apps: No tienes ninguna aplicación conectada a tu cuenta.
         page_title: Mis aplicaciones conectadas
         revoke:
-          confirm_text: Al revocar esta sesión, no podrá seguir utilizando TMDB 
-            con esta aplicación. Por supuesto, puede crear una nueva sesión en 
-            cualquier momento.
+          confirm_text: Al revocar esta sesión, no podrá seguir utilizando TMDB con esta aplicación. Por supuesto, puede crear una nueva sesión en cualquier momento.
           confirm_title: "¿Revocar sesión?"
         table:
           action: Acciones
@@ -5343,8 +4666,7 @@ es-ES:
         current_session: Sesión actual
         remove_single:
           confirm_button: "¡Sí, bórralo!"
-          dialog_text: "¿Seguro de que deseas borrar esta sesión? Si la sesión seleccionada
-            es tu sesión actual, esta se cerrará."
+          dialog_text: "¿Seguro de que deseas borrar esta sesión? Si la sesión seleccionada es tu sesión actual, esta se cerrará."
           dialog_title: "¿Borrar sesión?"
         table:
           date: Fecha
@@ -5374,8 +4696,7 @@ es-ES:
         info: Información
         reload_text: "¡Recarga esta página cuando hayas autorizado tu cuenta!"
         service: Servicio
-      favorite_message_hint: Al marcar un elemento como favorito y compartirlo 
-        en X o Facebook...
+      favorite_message_hint: Al marcar un elemento como favorito y compartirlo en X o Facebook...
       message_settings: Configuración de mensaje
       page_title: Mi configuración de Redes Sociales
       sharing_message_hint: Cuándo compartir un elemento en X o Facebook...
@@ -5391,18 +4712,13 @@ es-ES:
       build_watchlist: Crea y mantén una lista de seguimiento personal
       contribute: Aporta y mejora la información de nuestra base de datos
       discussions: Participa en conversaciones de películas y televisión
-      find_something_to_watch: Encuentra algo que ver entre tus suscripciones a 
-        servicios de retransmisión
-      keep_track: Mantén un registro de tus películas y series favoritas y obtén
-        recomendaciones de ellos
+      find_something_to_watch: Encuentra algo que ver entre tus suscripciones a servicios de retransmisión
+      keep_track: Mantén un registro de tus películas y series favoritas y obtén recomendaciones de ellos
       log_movies: Registra las películas y series que has visto
-    by_clicking_agree_to_terms: Al hacer clic en el botón "Regístrate", 
-      certifico que he leído y acepto los términos de uso y la política de 
-      privacidad de TMDB.
+    by_clicking_agree_to_terms: Al hacer clic en el botón "Regístrate", certifico que he leído y acepto los términos de uso y la política de privacidad de TMDB.
     javascript_required: Se necesita JavaScript para continuar.
     sign_up_for_account: Crea una cuenta
-    signup_text: Crear una cuenta es fácil y gratis. Rellena el formulario para 
-      empezar.
+    signup_text: Crear una cuenta es fácil y gratis. Rellena el formulario para empezar.
   success_approved_access_token: "¡Permiso concedido!"
   success_deleted: El elemento seleccionado se ha eliminado correctamente.
   success_email: Tu correo electrónico se ha enviado correctamente.
@@ -5435,15 +4751,13 @@ es-ES:
   top_contributors: Mayores aportadores
   translation:
     one: traducción
-    many: traducciones
-    other:
+    other: traducciones
   upload_backdrop: Subir imagen de fondo
   upload_headshot: Subir imagen de perfil
   upload_poster: Subir cartel
   upload_profile: Subir perfil
   upload_title_logo: Subir el logo del título
-  used_by_developers: Más de 400.000 desarrolladores utilizan TMDB.<br>Echa un 
-    vistazo a su trabajo.
+  used_by_developers: Más de 400.000 desarrolladores utilizan TMDB.<br>Echa un vistazo a su trabajo.
   vibes:
     done: He terminado
     login: Inicia sesión para ver el nuevo sistema de puntuación de TMDB
@@ -5481,15 +4795,12 @@ es-ES:
         movie: Esta película ha sido...
         tv: Esta serie ha sido...
       select: Selecciona un tono...
-    welcome: ¡Bienvenido a Vibes, el nuevo sistema de puntuación de TMDB! Para 
-      obtener más información, visita la <span class="%{style}"><a 
-      href="%{link}"> guía de aportaciones</a></span>.
+    welcome: ¡Bienvenido a Vibes, el nuevo sistema de puntuación de TMDB! Para obtener más información, visita la <span class="%{style}"><a href="%{link}"> guía de aportaciones</a></span>.
     whats_new: "¿Qué hay de nuevo?"
     whats_your_vibe: ¿Cuál es tu <span class="%{style}">vibra</span>?
     your_vibe:
       one: Tu vibra
-      many: Tus vibras
-      other:
+      other: Tus vibras
     your_vibes: Tus vibras
   videos:
     filters:
@@ -5500,9 +4811,8 @@ es-ES:
         sort: Ordenar
       type: Tipo
     number_of_videos:
-      one: '%{count} vídeo'
-      many: '%{count} vídeos'
-      other:
+      one: "%{count} vídeo"
+      other: "%{count} vídeos"
     official_channel: Canal oficial
     page_title: Canal de video %{name}
     popular: Popular
