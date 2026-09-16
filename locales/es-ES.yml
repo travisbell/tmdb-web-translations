@@ -1,10 +1,9 @@
----
 es-ES:
   3rd Party Applications: Aplicaciones de terceros
   API: API
   API Access Token: Token de acceso a la API
   API Details: Detalles de la API
-  API Documentation:
+  API Documentation: Documentación de la API
   API Key: Clave de la API
   API Libraries: Librerías de la API
   API Overview: Vista general de la API
@@ -172,7 +171,8 @@ es-ES:
   Embed: incrustar
   Episode Images:
     one: Imagen del episodio
-    other: Imágenes del episodio
+    many: Imágenes del episodio
+    other:
   Episode Number: Número de episodio
   Episode Overview: Vista general del episodio
   Episodes: Episodios
@@ -577,8 +577,9 @@ es-ES:
             Unsubscribed: Sin suscripción
             status: Estado
         number_of_items:
-          one: "%{count} Correo electrónico"
-          other: "%{count} Correos electrónicos"
+          one: '%{count} Correo electrónico'
+          many: '%{count} Correos electrónicos'
+          other:
       events: Eventos
       notifications:
         filters:
@@ -591,10 +592,12 @@ es-ES:
             type: Tipo
         notifications:
           one: Aviso
-          other: Avisos
+          many: Avisos
+          other:
         number_of_items:
-          one: "%{count} aviso"
-          other: "%{count} avisos"
+          one: '%{count} aviso'
+          many: '%{count} avisos'
+          other:
       page_title:
         recent_events: Eventos recientes
       recent: Recientes
@@ -715,10 +718,12 @@ es-ES:
       next_month: Próximo mes
       no_upcoming_movies:
         one: No hay próximas películas en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
-        other: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        other:
       no_upcoming_tv_shows:
         one: No hay próximas series en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
-        other: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        other:
       page_title:
         page_owner: Mi lista de seguimiento
         public: Lista de seguimiento de %{username}
@@ -866,7 +871,8 @@ es-ES:
     winner: Ganador
     wins:
       one: 1 victoria
-      other: "%{count} victorias"
+      many: '%{count} victorias'
+      other:
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1765,7 +1771,7 @@ es-ES:
     - vie
     - sáb
     abbr_month_names:
-    -
+    - 
     - ene
     - feb
     - mar
@@ -1793,7 +1799,7 @@ es-ES:
       full_month_year: "%B de %Y"
       short_month_day_year: "%-d %b %Y"
     month_names:
-    -
+    - 
     - enero
     - febrero
     - marzo
@@ -1809,7 +1815,8 @@ es-ES:
   day: día
   days:
     one: día
-    other: "%{count} días"
+    many: '%{count} días'
+    other:
   deleted_content:
     entry_deleted: Entrada eliminada
     reasons:
@@ -1855,8 +1862,9 @@ es-ES:
         subject: Es correo basura
     why_deleting: "¿Por qué quieres borrar esta entrada?"
   department_credits_count:
-    one: "%{department} (%{count} crédito)"
-    other: "%{department} (%{count} créditos)"
+    one: '%{department} (%{count} crédito)'
+    many: '%{department} (%{count} créditos)'
+    other:
   departments:
     Acting: Interpretación
     Actors: Actores
@@ -2031,11 +2039,13 @@ es-ES:
     no_discussions: Sin debates.
     pagination:
       post_summary:
-        one: "%{count} respuesta (en la página %{current_page} de %{total_pages})"
-        other: "%{count} respuestas (en la página %{current_page} de %{total_pages})"
+        one: '%{count} respuesta (en la página %{current_page} de %{total_pages})'
+        many: '%{count} respuestas (en la página %{current_page} de %{total_pages})'
+        other:
       summary:
-        one: "%{count} debate, actualmente en la página %{current_page} de %{total_pages}"
-        other: "%{count} debates, actualmente en la página %{current_page} de %{total_pages}"
+        one: '%{count} debate, actualmente en la página %{current_page} de %{total_pages}'
+        many: '%{count} debates, actualmente en la página %{current_page} de %{total_pages}'
+        other:
     post:
       delete: Borrar
       edit: Editar
@@ -2194,8 +2204,9 @@ es-ES:
       1fae3: Cara con ojos asomándose
       1fae4: Cara con boca diagonal
   episode_count:
-    one: "%{count} episodio"
-    other: "%{count} episodios"
+    one: '%{count} episodio'
+    many: '%{count} episodios'
+    other:
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
@@ -2257,18 +2268,22 @@ es-ES:
       empty: no puede estar vacío
       equal_to:
         one: debe ser igual a %{count}
-        other: deben ser igual a %{count}
+        many: deben ser igual a %{count}
+        other:
       even: debe ser parejo
       exclusion: está reservado
       greater_than:
         one: debe ser mayor que %{count}
-        other: deben ser mayores que %{count}
+        many: deben ser mayores que %{count}
+        other:
       greater_than_or_equal_to:
         one: debe ser mayor o igual a %{count}
-        other: deben ser mayores o iguales a %{count}
+        many: deben ser mayores o iguales a %{count}
+        other:
       in:
         one: debe estar en %{count}
-        other: deben estar en %{count}
+        many: deben estar en %{count}
+        other:
       inclusion: debe seleccionarse
       invalid: es inválido
       invalid_character_name: El nombre del personaje no debe contener caracteres especiales
@@ -2277,10 +2292,12 @@ es-ES:
       invalid_request: imposible completar la solicitud.
       less_than:
         one: debe ser menor que %{count}
-        other: deben ser menores que %{count}
+        many: deben ser menores que %{count}
+        other:
       less_than_or_equal_to:
         one: debe ser menor o igual a %{count}
-        other: deben ser menores o iguales a %{count}
+        many: deben ser menores o iguales a %{count}
+        other:
       model_invalid: "'La validación falló: %{errors}'"
       no_characters_found: No se encontraron personajes
       not_a_number: no es un número
@@ -2288,7 +2305,8 @@ es-ES:
       odd: debe ser impar
       other_than:
         one: Debe ser distinto de %{count}
-        other: Deben ser distintos de %{count}
+        many: Deben ser distintos de %{count}
+        other:
       present: debe quedar vacío
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
@@ -2296,13 +2314,16 @@ es-ES:
       taken: ya se ha quitado
       too_long:
         one: es demasiado largo (el máximo es %{count} carácter)
-        other: es demasiado largo (el máximo es %{count} caracteres)
+        many: es demasiado largo (el máximo es %{count} caracteres)
+        other:
       too_short:
         one: es demasiado corto (el mínimo es %{count} carácter)
-        other: es demasiado corto (el mínimo es %{count} caracteres)
+        many: es demasiado corto (el mínimo es %{count} caracteres)
+        other:
       wrong_length:
         one: La longitud es incorrecta (debería ser %{count} carácter)
-        other: La longitud es incorrecta (deberían ser %{count} caracteres)
+        many: La longitud es incorrecta (deberían ser %{count} caracteres)
+        other:
       blocked_words:
       duplicate_review:
     movie:
@@ -2449,11 +2470,13 @@ es-ES:
       validation_header: "%{type} debe cumplir los siguientes criterios:"
   invalid_aspect_ratio: La relación de aspecto no es válida.
   item_count:
-    one: "%{count} elemento"
-    other: "%{count} elementos"
+    one: '%{count} elemento'
+    many: '%{count} elementos'
+    other:
   item_count_more:
-    one: "%{count} más..."
-    other: "%{count} más..."
+    one: '%{count} más...'
+    many: '%{count} más...'
+    other:
   jobs:
     '"A" Camera Operator': Operador de cámara 'A'
     '"B" Camera Operator': Operador de cámara "B"
@@ -3626,8 +3649,8 @@ es-ES:
     image_selected: Seleccionada
     items_not_seen: Elementos que no he visto
     items_on_list:
-      many: elementos en esta lista
       one: elemento en esta lista
+      many: elementos en esta lista
       other: elementos en esta lista
     items_seen: Elementos que he visto
     list_by: Una lista de
@@ -3692,8 +3715,9 @@ es-ES:
         language: Idioma
         user: Usuario
       number_of_changes:
-        one: "%{count} cambio"
-        other: "%{count} cambios"
+        one: '%{count} cambio'
+        many: '%{count} cambios'
+        other:
       view_weekly_leaderboard: Ver tabla de clasificación semanal
     character:
       edit:
@@ -3910,10 +3934,12 @@ es-ES:
       tv: No se han encontrado series.
     number_of_movies:
       one: película
-      other: películas
+      many: películas
+      other:
     number_of_shows:
       one: serie
-      other: series
+      many: series
+      other:
     person:
       edit:
         alternative_names:
@@ -3945,14 +3971,16 @@ es-ES:
         tv: Televisión
         tv_shows: Series
       years_old:
-        one: "%{count} año"
-        other: "%{count} años"
+        one: '%{count} año'
+        many: '%{count} años'
+        other:
     rating:
       not_rateable: Este elemento aún no es valorable.
       rated_with_rating: Valorada %{value}
       rating_count:
-        one: "%{count} valoración"
-        other: "%{count} valoraciones"
+        one: '%{count} valoración'
+        many: '%{count} valoraciones'
+        other:
       removed: Tu valoración ha sido eliminada.
       score_breakdown: Desglose de puntos
       score_distribution: Distribución de puntos
@@ -4083,8 +4111,9 @@ es-ES:
           group: Grupo
           messages:
             episodes_added:
-              one: "¡%{count} episodio añadido!"
-              other: "¡%{count} episodios añadidos!"
+              one: ¡%{count} episodio añadido!
+              many: ¡%{count} episodios añadidos!
+              other:
           name: Nombre del grupo
           no_records: No se han añadido grupos de episodios.
           type: Tipo
@@ -4112,12 +4141,14 @@ es-ES:
       episode_groups:
         groups:
           count:
-            one: "%{count} grupo"
-            other: "%{count} grupos"
+            one: '%{count} grupo'
+            many: '%{count} grupos'
+            other:
         original_air_date: Fecha de estreno original
       networks:
         one: Canal
-        other: Canales
+        many: Canales
+        other:
       primary_characters: Personajes principales
       series_cast: Reparto de la serie
       series_crew: Equipo de la serie
@@ -4211,8 +4242,9 @@ es-ES:
     notifications:
       new_message: "%{username} te ha enviado un nuevo mensaje"
     number_of_messages:
-      one: "%{count} mensaje"
-      other: "%{count} mensajes"
+      one: '%{count} mensaje'
+      many: '%{count} mensajes'
+      other:
     options:
       admin: Administrador
       archive: Archivo
@@ -4247,8 +4279,9 @@ es-ES:
               format: "%{message}"
               blocked_words:
   month:
-    one: "%{count} mes"
-    other: "%{count} meses"
+    one: '%{count} mes'
+    many: '%{count} meses'
+    other:
   navigation:
     discover:
       discover: Descubre
@@ -4331,17 +4364,17 @@ es-ES:
       format:
         delimiter: "."
         format: "%n %u"
-        precision: 2
+        precision: '2'
         separator: ","
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: "€"
     format:
       delimiter: "."
-      precision: 3
+      precision: '3'
       separator: ","
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4352,9 +4385,9 @@ es-ES:
           thousand: Mil
           trillion: Billón de
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: "(B)"
@@ -4371,20 +4404,25 @@ es-ES:
       format:
         delimiter:
   number_of_edits:
-    one: "%{count} edición"
-    other: "%{count} ediciones"
+    one: '%{count} edición'
+    many: '%{count} ediciones'
+    other:
   number_of_items:
-    one: "%{count} elemento"
-    other: "%{count} elementos"
+    one: '%{count} elemento'
+    many: '%{count} elementos'
+    other:
   number_of_results:
-    one: "%{count} resultado"
-    other: "%{count} resultados"
+    one: '%{count} resultado'
+    many: '%{count} resultados'
+    other:
   number_of_translations:
-    one: "%{count} traducción"
-    other: "%{count} traducciones"
+    one: '%{count} traducción'
+    many: '%{count} traducciones'
+    other:
   number_of_votes:
-    one: "%{count} voto"
-    other: "%{count} votos"
+    one: '%{count} voto'
+    many: '%{count} votos'
+    other:
   ott:
     available_sentences:
       ads: ver con anuncios
@@ -4421,9 +4459,9 @@ es-ES:
       sd: No se encontraron ofertas en SD.
     page_title: "¿Dónde puedo ver %{media_name}?"
     seasons:
-      many: "%{count} temporadas"
-      one: "%{count} temporada"
-      other: "%{count} temporadas"
+      one: '%{count} temporada'
+      many: '%{count} temporadas'
+      other: '%{count} temporadas'
     view_offers: Ver ofertas
     watch_now: Ver ahora
     watch_on:
@@ -4751,7 +4789,8 @@ es-ES:
   top_contributors: Mayores aportadores
   translation:
     one: traducción
-    other: traducciones
+    many: traducciones
+    other:
   upload_backdrop: Subir imagen de fondo
   upload_headshot: Subir imagen de perfil
   upload_poster: Subir cartel
@@ -4800,7 +4839,8 @@ es-ES:
     whats_your_vibe: ¿Cuál es tu <span class="%{style}">vibra</span>?
     your_vibe:
       one: Tu vibra
-      other: Tus vibras
+      many: Tus vibras
+      other:
     your_vibes: Tus vibras
   videos:
     filters:
@@ -4811,8 +4851,9 @@ es-ES:
         sort: Ordenar
       type: Tipo
     number_of_videos:
-      one: "%{count} vídeo"
-      other: "%{count} vídeos"
+      one: '%{count} vídeo'
+      many: '%{count} vídeos'
+      other:
     official_channel: Canal oficial
     page_title: Canal de video %{name}
     popular: Popular
