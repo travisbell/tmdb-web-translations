@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_other'
+require 'weblate/pluralization/one_other'
 
-::RailsI18n::Pluralization::OneOther.with_locale(:'bg-BG')
+::Weblate::Pluralization::OneOther.with_locale(:'bg-BG')
