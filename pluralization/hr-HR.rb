@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_few_other'
+require 'weblate/pluralization/east_slavic'
 
-::RailsI18n::Pluralization::OneFewOther.with_locale(:'hr-HR')
+::Weblate::Pluralization::EastSlavic.with_locale(:'hr-HR')

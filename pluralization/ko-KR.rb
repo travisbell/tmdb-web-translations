@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/other'
+require 'weblate/pluralization/other'
 
-::RailsI18n::Pluralization::Other.with_locale(:'ko-KR')
+::Weblate::Pluralization::Other.with_locale(:'ko-KR')

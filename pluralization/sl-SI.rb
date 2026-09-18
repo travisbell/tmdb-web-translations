@@ -1,7 +1,3 @@
-require 'rails_i18n/pluralization'
+require 'weblate/pluralization/slovenian'
 
-{ :'sl-SI' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :two, :few, :other],
-        :rule => ::RailsI18n::Pluralization::Slovenian.rule }}}}
+::Weblate::Pluralization::Slovenian.with_locale(:'sl-SI')
