@@ -1,10 +1,9 @@
----
 fr-FR:
   3rd Party Applications: Applications tierces
   API: API
   API Access Token: Jeton d'accès à l'API
   API Details: Détails de l'API
-  API Documentation:
+  API Documentation: ''
   API Key: Clé d'API
   API Libraries: Bibliothèques de l'API
   API Overview: Vue d'ensemble de l'API
@@ -32,7 +31,7 @@ fr-FR:
   Add Item: Ajouter un élément
   Add Missing Cast & Crew: Ajouter un membre manquant à la distribution des rôles ou à l'équipe technique
   Add Network: Ajouter un diffuseur télévisé
-  Add New Award:
+  Add New Award: ''
   Add New Episode: Ajouter un nouvel épisode
   Add New Movie: Ajouter un film
   Add New Release: Ajouter une nouvelle sortie
@@ -131,7 +130,7 @@ fr-FR:
   DMCA Policy: Politique du droit d'autrice ou d'auteur américain « DMCA »
   DMCA Takedown Request: Atteinte aux droits d'autrice ou d'auteur DMCA
   Date: Date
-  Date Added:
+  Date Added: ''
   Day of Death: Date de décès
   Default Language: Langue par défaut
   Delete: Supprimer
@@ -171,8 +170,9 @@ fr-FR:
   Email Content: Contenu du courriel
   Embed: Intégrer
   Episode Images:
-    one: ''
-    other: Fonds d'écran de l'épisode
+    one:
+    many: Fonds d'écran de l'épisode
+    other:
   Episode Number: Numéro de l'épisode
   Episode Overview: Résumé de l'épisode
   Episodes: Épisodes
@@ -235,7 +235,7 @@ fr-FR:
   Job: Métier
   Join the Community: Rejoindre la communauté
   Joined in: membre depuis
-  Key:
+  Key: ''
   Keyword: Mot-clé
   Keyword Results: Résultats de la recherche du mot-clé
   Keywords: Mots-clés
@@ -297,7 +297,7 @@ fr-FR:
   Notes: Notes
   Notifications: Notifications
   Now Playing Movies: Films du moment
-  Number:
+  Number: ''
   Number of Movies: Nombre de films
   Number of TV Shows: Nombre d'émissions télévisées
   Number of edits in the past: Nombre de modifications au cours des derniers
@@ -305,7 +305,7 @@ fr-FR:
   Offical Site: Site officiel
   Offline Databases: Bases de données hors ligne
   Ok: Valider
-  Optional:
+  Optional: ''
   Origin Country: Pays d'origine
   Original Air Date: Date de diffusion originale
   Original Language: Langue d'origine
@@ -315,7 +315,7 @@ fr-FR:
   Original TV Show Language: Langue d'origine
   Original Title: Titre d'origine
   Other Databases: Autres bases de données
-  Others:
+  Others: ''
   Overview: Synopsis
   Page: Page
   People: Artistes
@@ -376,7 +376,7 @@ fr-FR:
   Report an Issue: Signaler un problème
   Reported Issues: Problèmes signalés
   Request an API Key: Demander une clé d'API
-  Required:
+  Required: ''
   Resend Activation Email: Renvoyer le courriel d'activation
   Reset: Réinitialiser
   Reset Password: Réinitialiser le mot de passe
@@ -441,7 +441,7 @@ fr-FR:
   TV: À la télévision
   TV Network: Diffuseur télévisé
   TV Recommendations: Recommandations d'émissions télévisées
-  TV Show:
+  TV Show: ''
   TV Show Data: Données de l'émission télévisée
   TV Show Results: Résultats de la recherche de l'émission télévisée
   TV Show Status: Statut de l'émission télévisée
@@ -464,7 +464,7 @@ fr-FR:
   Top Rated Movies: Films les mieux évalués
   Top Rated TV Shows: Émissions télévisées les mieux évaluées.
   Top Users: Top contributions
-  Translate Award:
+  Translate Award: ''
   Translate Collection: Traduire la collection
   Translate Movie: Traduire le film
   Translate Person: Traduire la personne
@@ -484,7 +484,7 @@ fr-FR:
   Upload Logo: Ajouter un logo
   User Score: Score d'évaluation
   Username: Nom d'utilisatrice ou d'utilisateur
-  Value:
+  Value: ''
   Video?: Vidéo ?
   View: Afficher
   View All Backdrops: Afficher tous les fonds d'écran
@@ -516,7 +516,7 @@ fr-FR:
   account:
     reviews:
       delete:
-        message:
+        message: ''
   account_drop_down:
     discussions: Conversations
     edit_profile: Gérer mon profil
@@ -531,7 +531,7 @@ fr-FR:
     sign_up: Créer un compte
     view_profile: Mon profil
     watchlist: Liste de suivi
-    reviews:
+    reviews: ''
   accounts:
     activity:
       activity: Activité
@@ -577,8 +577,9 @@ fr-FR:
             Unsubscribed: Désabonné·e
             status: Statut
         number_of_items:
-          one: "%{count} courriel"
-          other: "%{count} courriels"
+          one: '%{count} courriel'
+          many: '%{count} courriels'
+          other:
       events: Évènements
       notifications:
         filters:
@@ -591,10 +592,12 @@ fr-FR:
             type: Type
         notifications:
           one: Notifications
-          other: Notifications
+          many: Notifications
+          other:
         number_of_items:
-          one: "%{count} notification"
-          other: "%{count} notifications"
+          one: '%{count} notification'
+          many: '%{count} notifications'
+          other:
       page_title:
         recent_events: Évènements récents
       recent: Récents
@@ -634,19 +637,19 @@ fr-FR:
       no_lists:
         logged_in: Vous n'avez créé aucune liste.
         public: "%{username} n'a aucune liste publique à partager."
-        search:
+        search: ''
       page_title:
         page_owner: Mes listes
         public: Listes de %{username}
-      search:
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      search: ''
+      add_to_lists: ''
+      contributor: ''
+      create_new_list: ''
+      created: ''
+      my_new_list: ''
       no_reviews:
-        logged_in:
-        public:
+        logged_in: ''
+        public: ''
     member_since: est membre de TMDB depuis %{date}.
     navigation:
       discussions: Conversations
@@ -715,10 +718,12 @@ fr-FR:
       next_month: Le mois prochain
       no_upcoming_movies:
         one: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        other:
       no_upcoming_tv_shows:
         one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        other:
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
@@ -727,26 +732,26 @@ fr-FR:
       view_them: Les afficher.
     reviews:
       page_title:
-        page_owner:
-        public:
+        page_owner: ''
+        public: ''
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: La fiche %{page_title} est déjà traduite dans les langues suivantes...
   api_for_business:
-    api_for_business:
+    api_for_business: ''
     form:
       company_name:
-        label:
+        label: ''
       company_url:
-        label:
+        label: ''
       description:
-        label:
+        label: ''
       email:
         error: n'est pas correctement formaté
         label: Votre adresse mail
       error: ne peut être vide
       name:
-        label:
-      success:
+        label: ''
+      success: ''
   api_session:
     3rd_party_request: Demande d'authentification tierce
     account_required:
@@ -790,68 +795,68 @@ fr-FR:
   awards:
     add_nomination: Ajouter une nomination
     admin:
-      delete:
+      delete: ''
     air_date:
       future: Diffusion prévue le %{date}
       past: Diffusée le %{date}
     alternative_names: Noms alternatifs
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
+    award: ''
+    broadcast_episode: ''
+    broadcast_episode_tooltip: ''
+    broadcast_series: ''
+    broadcast_series_tooltip: ''
     categories:
-      add_category:
-      categories:
-      category:
-      crew_credit_departments:
-      crew_credit_jobs:
-      date_ended:
-      date_started:
-      display_type:
-      locked:
-      media_type:
-      name:
+      add_category: ''
+      categories: ''
+      category: ''
+      crew_credit_departments: ''
+      crew_credit_jobs: ''
+      date_ended: ''
+      date_started: ''
+      display_type: ''
+      locked: ''
+      media_type: ''
+      name: ''
       title: Catégories
-      ended_on:
-      started_on:
+      ended_on: ''
+      started_on: ''
     category_empty: Aucune nomination au sein de cette catégorie.
     ceremonies:
-      add_ceremony:
-      ceremonies:
-      ceremony:
-      date:
-      limits:
-      location:
-      locked:
+      add_ceremony: ''
+      ceremonies: ''
+      ceremony: ''
+      date: ''
+      limits: ''
+      location: ''
+      locked: ''
       number: Numéro
       release_date_max: Date de sortie + / -
       release_date_min: Date de sortie - / +
       title: Cérémonies
     field:
-      homepage:
-      name:
-      overview:
+      homepage: ''
+      name: ''
+      overview: ''
     new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
+      award_details: ''
+      click_next: ''
+      getting_started: ''
+      header_1: ''
+      header_2: ''
+      note: ''
+      verify: ''
     nominations:
-      add_nomination:
-      locked:
-      movie:
-      nomination:
+      add_nomination: ''
+      locked: ''
+      movie: ''
+      nomination: ''
       number:
         one:
         other:
       one: 1 nomination
       other: "%{count} nominations"
-      title:
-      shared_with:
+      title: ''
+      shared_with: ''
     nominee: Nominé·e
     show_info:
       directed_by: Une réalisation de
@@ -866,16 +871,17 @@ fr-FR:
     winner: 'Lauréat·e '
     wins:
       one: 1 victoire
-      other: "%{count} victoires"
-    most_awarded_films:
-    most_awarded_people:
-    most_nominated_films:
-    most_nominated_people:
-    media_page_description:
+      many: '%{count} victoires'
+      other:
+    most_awarded_films: ''
+    most_awarded_people: ''
+    most_nominated_films: ''
+    most_nominated_people: ''
+    media_page_description: ''
   back_options:
-    award:
+    award: ''
     back: Retour
-    ceremony:
+    ceremony: ''
     episode: Retour à l'épisode
     episode_groups: Retour aux groupes d'épisodes
     episode_list: Retour à la liste des épisodes
@@ -1761,7 +1767,7 @@ fr-FR:
     - ven
     - sam
     abbr_month_names:
-    -
+    - 
     - janv.
     - févr.
     - mars
@@ -1789,7 +1795,7 @@ fr-FR:
       full_month_year: "%B %Y"
       short_month_day_year: "%e %b %Y"
     month_names:
-    -
+    - 
     - janvier
     - février
     - mars
@@ -1805,7 +1811,8 @@ fr-FR:
   day: jour
   days:
     one: jour
-    other: "%{count} jours"
+    many: '%{count} jours'
+    other:
   deleted_content:
     entry_deleted: Entrée supprimée
     reasons:
@@ -1851,8 +1858,9 @@ fr-FR:
         subject: C'est un indésirable
     why_deleting: Pour quelle raison supprimez-vous cette entrée ?
   department_credits_count:
-    one: "%{department} (%{count} apparition)"
-    other: "%{department} (%{count} apparitions)"
+    one: '%{department} (%{count} apparition)'
+    many: '%{department} (%{count} apparitions)'
+    other:
   departments:
     Acting: Interprétation
     Actors: Artistes
@@ -1922,19 +1930,19 @@ fr-FR:
       years:
         years: Années
       ceremony_date:
-        ceremony_date:
-        search_all_ceremonies:
-        search_latest_ceremony:
-        latest_ceremony:
+        ceremony_date: ''
+        search_all_ceremonies: ''
+        search_latest_ceremony: ''
+        latest_ceremony: ''
       last_ceremony:
-        latest_ceremony:
-        search_all_countries:
-        search_latest_ceremony:
-      adult_content:
-      exclude_adult:
-      include_adult:
-      adult_filters:
-      softcore_content:
+        latest_ceremony: ''
+        search_all_countries: ''
+        search_latest_ceremony: ''
+      adult_content: ''
+      exclude_adult: ''
+      include_adult: ''
+      adult_filters: ''
+      softcore_content: ''
     no_items: Aucune fiche ne correspond à votre recherche.
     search: Rechercher
     sort_options:
@@ -1954,8 +1962,8 @@ fr-FR:
       release_date_desc: Dates de sortie + / -
       title_a_z: Titres (de A à Z)
       title_z_a: Titres (de Z à A)
-      latest_ceremony_asc:
-      latest_ceremony_desc:
+      latest_ceremony_asc: ''
+      latest_ceremony_desc: ''
     tooltips:
       not_member: Pas encore membre ?
       options: Afficher les options de l'élément
@@ -1998,12 +2006,12 @@ fr-FR:
     category:
       last_reply_with_datetime: le %{date} à %{time}
       last_reply_with_datetime_and_username: le %{date} à %{time}<br>par %{username}
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
-      replied_by:
+      last_reply_with_datetime_v2: ''
+      last_reply_with_datetime_and_username_v2: ''
+      posted_by_with_datetime: ''
+      posted_by_with_datetime_and_username: ''
+      replied_by_with_datetime_and_username: ''
+      replied_by: ''
     discussion_activity: Activité de la conversation
     email_notifications:
       email_notifications: Notifications par courriel
@@ -2027,11 +2035,13 @@ fr-FR:
     no_discussions: Aucune conversation.
     pagination:
       post_summary:
-        one: "%{count} réponse (sur la page %{current_page} sur %{total_pages})"
-        other: "%{count} réponses (sur la page %{current_page} sur %{total_pages})"
+        one: '%{count} réponse (sur la page %{current_page} sur %{total_pages})'
+        many: '%{count} réponses (sur la page %{current_page} sur %{total_pages})'
+        other:
       summary:
-        one: "%{count} conversation, actuellement sur la page %{current_page} sur %{total_pages}"
-        other: "%{count} conversations, actuellement sur la page %{current_page} sur %{total_pages}"
+        one: '%{count} conversation, actuellement sur la page %{current_page} sur %{total_pages}'
+        many: '%{count} conversations, actuellement sur la page %{current_page} sur %{total_pages}'
+        other:
     post:
       delete: Supprimer
       edit: Modifier
@@ -2132,16 +2142,16 @@ fr-FR:
     choose_image: Choisir une image / photo
     delete_list: Supprimer la liste
     edit_list: Modifier la liste
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: ''
+    contributors: ''
+    create_invite_link: ''
+    edit_invite_link: ''
+    invite_contributor: ''
+    list_collaboration: ''
+    no_contributors: ''
+    created: ''
+    confirm_delete: ''
+    confirm_delete_grid: ''
   edits: modifications
   email:
     confirm_new_email_address: Confirmez votre nouvelle adresse électronique
@@ -2190,8 +2200,9 @@ fr-FR:
       1fae3: Visage avec un œil furtif
       1fae4: Visage avec la bouche en diagonale
   episode_count:
-    one: "%{count} épisode"
-    other: "%{count} épisodes"
+    one: '%{count} épisode'
+    many: '%{count} épisodes'
+    other:
   episode_number_name: Épisode %{episode_number}
   error_pages:
     deleted_account:
@@ -2224,8 +2235,8 @@ fr-FR:
       description: Ce message a enfreint nos <a href="%{link}">règles communautaires</a>. L'utilisatrice ou l'utilisateur qui en est responsable peut également avoir été suspendu·e.
       title: Ce message a été supprimé.
     too_many_login_attempts:
-      description:
-      title:
+      description: ''
+      title: ''
   errors:
     attributes:
       descriptors:
@@ -2253,18 +2264,22 @@ fr-FR:
       empty: doit être renseigné·e
       equal_to:
         one: doit être égal à %{count}
-        other: doivent être égaux à %{count}
+        many: doivent être égaux à %{count}
+        other:
       even: doit être pair·e
       exclusion: est réservé·e
       greater_than:
         one: doit être supérieur à %{count}
-        other: doivent être supérieurs à %{count}
+        many: doivent être supérieurs à %{count}
+        other:
       greater_than_or_equal_to:
         one: doit être supérieur ou égal à %{count}
-        other: doivent être supérieurs ou égaux à %{count}
+        many: doivent être supérieurs ou égaux à %{count}
+        other:
       in:
         one: doit être dans %{count}
-        other: doivent être dans %{count}
+        many: doivent être dans %{count}
+        other:
       inclusion: doit être sélectionné·e
       invalid: n'est pas valide
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
@@ -2273,10 +2288,12 @@ fr-FR:
       invalid_request: Impossible de compléter la demande.
       less_than:
         one: doit être inférieur·e à %{count}
-        other: doivent être inférieur·e·s à %{count}
+        many: doivent être inférieur·e·s à %{count}
+        other:
       less_than_or_equal_to:
         one: doit être inférieur ou égal à %{count}
-        other: doivent être inférieurs ou égaux à %{count}
+        many: doivent être inférieurs ou égaux à %{count}
+        other:
       model_invalid: "'Échec de validation : %{errors}'"
       no_characters_found: Aucun personnage n'a été trouvé.
       not_a_number: n'est pas un nombre
@@ -2284,7 +2301,8 @@ fr-FR:
       odd: doit être impair·e
       other_than:
         one: doit être différent·e de %{count}
-        other: doivent être différent·e·s de %{count}
+        many: doivent être différent·e·s de %{count}
+        other:
       present: doit être vide
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
@@ -2292,18 +2310,21 @@ fr-FR:
       taken: est déjà utilisé·e
       too_long:
         one: est trop long·ue (le maximum est de %{count} caractères)
-        other: sont trop long·ue·s (le maximum est de %{count} caractères)
+        many: sont trop long·ue·s (le maximum est de %{count} caractères)
+        other:
       too_short:
         one: est trop court·e (le minimum est de %{count} caractères)
-        other: sont trop court·e·s (le minimum est de %{count} caractères)
+        many: sont trop court·e·s (le minimum est de %{count} caractères)
+        other:
       wrong_length:
         one: n'a pas la bonne longueur (qui doit être de %{count} caractères)
-        other: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
-      blocked_words:
-      duplicate_review:
+        many: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
+        other:
+      blocked_words: ''
+      duplicate_review: ''
     movie:
       duplicate_cast: Cette personne est déjà présente dans la distribution des rôles du film.
-    nesting:
+    nesting: ''
     tv:
       create_season_locked: La création de nouvelles saisons a été verrouillée pour cette série.
       duplicate_created_by: Cette personne est déjà enregistrée comme créatrice ou créateur.
@@ -2316,7 +2337,7 @@ fr-FR:
       duplicate_season_episode_crew_member: Cette personne a déjà été ajoutée, en qualité de %{job_name}, à un épisode de cette saison. Les crédits de l'équipe technique doivent être ajoutés soit à une saison, soit à un épisode, mais pas aux deux.
       missing_credit: Le crédit que vous tentiez de modifier n'existe pas.
       missing_person: La personne que vous avez renseignée est introuvable.
-    wrong_count:
+    wrong_count: ''
   failed_email: Votre courriel n'a pas pu être envoyé !<br>Merci de bien vouloir réessayer.<br>L'équipe de TMDB.
   failed_generic: Un problème est survenu.
   failed_report: Un problème est survenu lors de l'envoi de votre rapport.
@@ -2445,11 +2466,13 @@ fr-FR:
       validation_header: "%{type} doit répondre aux critères suivants :"
   invalid_aspect_ratio: Ce format d'image / photo n'est pas valide.
   item_count:
-    one: "%{count} élément"
-    other: "%{count} éléments"
+    one: '%{count} élément'
+    many: '%{count} éléments'
+    other:
   item_count_more:
-    one: "%{count} de plus..."
-    other: "%{count} de plus..."
+    one: '%{count} de plus...'
+    many: '%{count} de plus...'
+    other:
   jobs:
     '"A" Camera Operator': Cadreuse / Cadreur de la caméra « A »
     '"B" Camera Operator': Cadreuse / Cadreur de la caméra « B »
@@ -3622,8 +3645,8 @@ fr-FR:
     image_selected: Sélectionnée
     items_not_seen: Éléments masqués
     items_on_list:
-      many: éléments dans cette liste
       one: élément dans cette liste
+      many: éléments dans cette liste
       other: éléments dans cette liste
     items_seen: Éléments affichés
     list_by: Une liste de
@@ -3638,9 +3661,9 @@ fr-FR:
     total_runtime: Durée totale
     use_grid_view: Utiliser la vue en grille
     use_list_view: Utiliser la vue en liste
-    search:
-    no_search_results:
-    search_within:
+    search: ''
+    no_search_results: ''
+    search_within: ''
   list_messages:
     comment_updated: Commentaire mis à jour !
     image_saved: Image / photo sauvegardée !
@@ -3666,21 +3689,21 @@ fr-FR:
   media:
     adult: Adulte
     alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
+      add_name: ''
+      alternative_names: ''
+      name: ''
+      no_records: ''
     award:
       edit:
         adult:
-          adult_award:
-        title_logos:
+          adult_award: ''
+        title_logos: ''
       header:
-        latest_ceremony:
-        upcoming_ceremony:
+        latest_ceremony: ''
+        upcoming_ceremony: ''
     cast_credits:
-      cast_credits:
-      select:
+      cast_credits: ''
+      select: ''
     changes:
       filters:
         clear: Effacer
@@ -3688,8 +3711,9 @@ fr-FR:
         language: Langues
         user: Utilisatrice / Utilisateur
       number_of_changes:
-        one: "%{count} modification"
-        other: "%{count} modifications"
+        one: '%{count} modification'
+        many: '%{count} modifications'
+        other:
       view_weekly_leaderboard: Afficher le classement de la semaine
     character:
       edit:
@@ -3702,8 +3726,8 @@ fr-FR:
           no_records: Aucun film n'a été ajouté.
       parts: Films dans cette collection
     companies:
-      companies:
-      select:
+      companies: ''
+      select: ''
     company:
       headquarters: Siège social
       movie_page_title: Films réalisés par %{name}
@@ -3747,8 +3771,8 @@ fr-FR:
         '8': Courage ! Nous sommes proches maintenant !
         '9': C'est presque bon !
     crew_credits:
-      crew_credits:
-      select:
+      crew_credits: ''
+      select: ''
     edit:
       alternative_title:
         lock_existing: Verrouiller les titres existants
@@ -3798,8 +3822,8 @@ fr-FR:
         original_title: Le <b>nom d'origine</b> de l'émission télévisée ou le <b>titre d'origine</b> du film doit être saisi dans la langue d'origine de l'élément.<br><br>Dans la plupart des cas, il devrait correspondre à la langue sélectionnée dans le champ <b>« Langue d'origine »</b>.
         overview: Lorsque vous traduisez ou rédigez un synopsis, visez la <b>brièveté</b>, la <b>concision</b> et <b>évitez de dévoiler l'intrigue.</b><br><br>Traduisez ou rédigez le synopsis au <b>présent de l'indicatif</b>.<br><br>Merci de bien vouloir <b>respecter les guillemets français</b>. N'utilisez pas "texte", mais copiez/collez ce « texte », qui contient les bons <a href="https://fr.wikipedia.org/wiki/Espace_ins%C3%A9cable"><b><span>espaces insécables</span></b></a> au format HTML.
         social_links: Les liens vers les réseaux sociaux doivent être uniquement ceux des <b>pages officielles</b> (vérifiées).<br><br><b>Les pages de fans ne sont pas autorisées.</b>
-        softcore:
-        video:
+        softcore: ''
+        video: ''
       translation_already_exists: La traduction %{language} existe déjà.
       translation_not_found: La traduction en %{language} n'a pas encore été créée.
       unlock_all_appearances: En cliquant sur « oui », vous déverrouillerez tous les enregistrements existants.
@@ -3835,11 +3859,11 @@ fr-FR:
       edit:
         adult:
           adult_movie: Est-ce un film pour adultes ?
-          adult_status:
+          adult_status: ''
           status:
-            none:
-            hardcore:
-            softcore:
+            none: ''
+            hardcore: ''
+            softcore: ''
         alternative_titles:
           no_records: Aucun titre alternatif n'a été ajouté à cette fiche.
         cast:
@@ -3876,7 +3900,7 @@ fr-FR:
         videos:
           no_records: Aucune vidéo n'a été ajoutée à cette fiche.
         softcore:
-          softcore_movie:
+          softcore_movie: ''
       statuses:
         Canceled: Film annulé
         In Production: Film en production
@@ -3906,10 +3930,12 @@ fr-FR:
       tv: Aucune émission télévisée n'a été trouvée.
     number_of_movies:
       one: film
-      other: films
+      many: films
+      other:
     number_of_shows:
       one: émission télévisée
-      other: émissions télévisées
+      many: émissions télévisées
+      other:
     person:
       edit:
         alternative_names:
@@ -3941,14 +3967,16 @@ fr-FR:
         tv: Émission télévisée
         tv_shows: Émissions télévisées
       years_old:
-        one: ''
-        other: "%{count} ans"
+        one:
+        many: '%{count} ans'
+        other:
     rating:
       not_rateable: Cet élément n'est pas encore évaluable.
       rated_with_rating: 'Votre évaluation : %{value} / 10.'
       rating_count:
-        one: "%{count} évaluation"
-        other: "%{count} évaluations"
+        one: '%{count} évaluation'
+        many: '%{count} évaluations'
+        other:
       removed: Votre évaluation a été supprimée.
       score_breakdown: Répartition des évaluations
       score_distribution: Répartition des évaluations
@@ -3976,7 +4004,7 @@ fr-FR:
       seasons: Saisons
       translations: Traductions
       videos: Vidéos
-      awards:
+      awards: ''
     social_panel:
       discussions:
         currently_subscribed: Vous recevrez une notification lorsqu'une personne publiera le premier message.
@@ -3996,11 +4024,11 @@ fr-FR:
         write_review:
           logged_in: Rédiger une critique
           public: Connectez-vous afin de rédiger une critique.
-        written_on:
-        like_button_logged_out:
-        their_rating:
-        your_rating:
-        edit_review:
+        written_on: ''
+        like_button_logged_out: ''
+        their_rating: ''
+        your_rating: ''
+        edit_review: ''
         no_featured_review:
           logged_in: Aucune critique en vedette n'a été rédigée pour %{title}. <a href="%{url}">Cliquez ici pour partager votre opinion !</a>
           public: Aucune critique en vedette n'a été rédigée pour %{title}.
@@ -4079,8 +4107,9 @@ fr-FR:
           group: Groupe
           messages:
             episodes_added:
-              one: "%{count} épisode ajouté !"
-              other: "%{count} épisodes ajoutés !"
+              one: '%{count} épisode ajouté !'
+              many: '%{count} épisodes ajoutés !'
+              other:
           name: Nom du groupe
           no_records: Aucun groupe d'épisodes n'a été ajouté à cette fiche.
           type: Type
@@ -4104,16 +4133,18 @@ fr-FR:
         seasons:
           no_records: Aucune saison n'a été ajoutée à cette fiche.
         softcore:
-          softcore_show:
+          softcore_show: ''
       episode_groups:
         groups:
           count:
-            one: "%{count} groupe"
-            other: "%{count} groupes"
+            one: '%{count} groupe'
+            many: '%{count} groupes'
+            other:
         original_air_date: Date de diffusion originale
       networks:
         one: Diffuseur télévisé
-        other: Diffuseurs télévisés
+        many: Diffuseurs télévisés
+        other:
       primary_characters: Personnages principaux
       series_cast: Distribution des rôles
       series_crew: Équipe technique
@@ -4150,42 +4181,42 @@ fr-FR:
       restricted_regions: Régions restreintes
       tags: Mots-clés
     wizard:
-      award_details:
-      getting_started:
-      intro_1:
-      intro_2:
-      verify:
+      award_details: ''
+      getting_started: ''
+      intro_1: ''
+      intro_2: ''
+      verify: ''
     more_like_this:
-      if_you_liked_this:
-      or_something_more:
+      if_you_liked_this: ''
+      or_something_more: ''
       genres:
-        '12':
-        '14':
-        '16':
-        '18':
-        '27':
-        '28':
-        '35':
-        '36':
-        '37':
-        '53':
-        '80':
-        '99':
-        '878':
-        '9648':
-        '10402':
-        '10749':
-        '10751':
-        '10752':
-        '10762':
-        '10763':
-        '10764':
-        '10759':
-        '10765':
-        '10766':
-        '10767':
-        '10768':
-        '10770':
+        '12': ''
+        '14': ''
+        '16': ''
+        '18': ''
+        '27': ''
+        '28': ''
+        '35': ''
+        '36': ''
+        '37': ''
+        '53': ''
+        '80': ''
+        '99': ''
+        '878': ''
+        '9648': ''
+        '10402': ''
+        '10749': ''
+        '10751': ''
+        '10752': ''
+        '10762': ''
+        '10763': ''
+        '10764': ''
+        '10759': ''
+        '10765': ''
+        '10766': ''
+        '10767': ''
+        '10768': ''
+        '10770': ''
   message_templates:
     help_translate:
       message: |-
@@ -4207,8 +4238,9 @@ fr-FR:
     notifications:
       new_message: "%{username} vous a envoyé un nouveau message."
     number_of_messages:
-      one: "%{count} message"
-      other: "%{count} messages"
+      one: '%{count} message'
+      many: '%{count} messages'
+      other:
     options:
       admin: Administratrice / Administrateur
       archive: Archive
@@ -4241,10 +4273,11 @@ fr-FR:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words:
+              blocked_words: ''
   month:
     one: mois
-    other: "%{count} mois"
+    many: '%{count} mois'
+    other:
   navigation:
     discover:
       discover: Découvrir
@@ -4327,17 +4360,17 @@ fr-FR:
       format:
         delimiter: ","
         format: "%n %u"
-        precision: 2
+        precision: '2'
         separator: "."
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: " €"
     format:
       delimiter: ","
-      precision: 3
+      precision: '3'
       separator: "."
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4348,9 +4381,9 @@ fr-FR:
           thousand: Mille
           trillion: Billion
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: Mrd
@@ -4358,7 +4391,7 @@ fr-FR:
           quadrillion: Q
           thousand: m
           trillion: B
-          unit:
+          unit: ''
     percentage:
       format:
         delimiter: " "
@@ -4367,20 +4400,25 @@ fr-FR:
       format:
         delimiter:
   number_of_edits:
-    one: " %{count} modification"
-    other: " %{count} modifications"
+    one:  %{count} modification
+    many:  %{count} modifications
+    other:
   number_of_items:
-    one: "%{count} élément"
-    other: "%{count} éléments"
+    one: '%{count} élément'
+    many: '%{count} éléments'
+    other:
   number_of_results:
-    one: "%{count} résultat"
-    other: "%{count} résultats"
+    one: '%{count} résultat'
+    many: '%{count} résultats'
+    other:
   number_of_translations:
-    one: "%{count} traduction"
-    other: "%{count} traductions"
+    one: '%{count} traduction'
+    many: '%{count} traductions'
+    other:
   number_of_votes:
-    one: "%{count} vote"
-    other: "%{count} votes"
+    one: '%{count} vote'
+    many: '%{count} votes'
+    other:
   ott:
     available_sentences:
       ads: 'en visionnage gratuit avec publicités '
@@ -4417,9 +4455,9 @@ fr-FR:
       sd: Aucune offre en définition standard n'a été trouvée.
     page_title: Où puis-je regarder %{media_name} ?
     seasons:
-      many: "%{count} saisons"
-      one: "%{count} saison"
-      other: "%{count} saisons"
+      one: '%{count} saison'
+      many: '%{count} saisons'
+      other: '%{count} saisons'
     view_offers: Afficher toutes les offres
     watch_now: Regarder maintenant
     watch_on:
@@ -4479,8 +4517,8 @@ fr-FR:
     trending_searches: Recherches de tendances
     watchlist_movie: Rechercher un film parmi votre liste de suivi...
     watchlist_tv: Rechercher une émission télévisée parmi votre liste de suivi...
-    for_media:
-    softcore:
+    for_media: ''
+    softcore: ''
   search_text_validation_error: Veuillez saisir un texte valide !
   search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » afin de restreindre les résultats de votre recherche à une année spécifique. Par exemple, saisissez « Star Wars y:1977 » dans la zone de recherche.'
   season_number_name: Saison %{season_number}
@@ -4495,12 +4533,12 @@ fr-FR:
       resend_verification_email_text: "<br>Vous n'avez pas reçu le courriel de vérification de votre compte ?<br><br>Saisissez votre adresse électronique pour le recevoir à nouveau :"
       reset_password_text: "<br>Saisissez l'adresse électronique que vous avez utilisée pour créer votre compte TMDB.<br><br>Nous vous enverrons un courriel détaillant les étapes nécessaires à la réinitialisation de votre mot de passe."
       adult_content:
-        show_adult_content:
+        show_adult_content: ''
         confirm_popup:
-          title:
-          message:
-          confirm_button:
-          cancel_button:
+          title: ''
+          message: ''
+          confirm_button: ''
+          cancel_button: ''
     api:
       api: API
       create_page_title: Créer une nouvelle clé d'API
@@ -4747,7 +4785,8 @@ fr-FR:
   top_contributors: Top contributions
   translation:
     one: traduction
-    other: traductions
+    many: traductions
+    other:
   upload_backdrop: Ajouter un fond d'écran
   upload_headshot: Téléverser une photo de profil
   upload_poster: Ajouter une affiche
@@ -4796,7 +4835,8 @@ fr-FR:
     whats_your_vibe: Quelle est votre <span class="%{style}">ambiance ?</span>
     your_vibe:
       one: Votre ambiance
-      other: Vos ambiances
+      many: Vos ambiances
+      other:
     your_vibes: Vos ambiances
   videos:
     filters:
@@ -4807,8 +4847,9 @@ fr-FR:
         sort: Trier
       type: Type
     number_of_videos:
-      one: "%{count} vidéo"
-      other: "%{count} vidéos"
+      one: '%{count} vidéo'
+      many: '%{count} vidéos'
+      other:
     official_channel: Chaîne officielle
     page_title: Chaîne vidéo de %{name}
     popular: Populaire
