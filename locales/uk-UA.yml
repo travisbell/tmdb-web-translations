@@ -1,4 +1,3 @@
----
 uk-UA:
   "-": "–"
   3rd Party Applications: Сторонні застосунки
@@ -33,7 +32,7 @@ uk-UA:
   Add Item: Додати елемент
   Add Missing Cast & Crew: Додати відсутнього актора чи члена знімальної групи
   Add Network: Додати мережу
-  Add New Award:
+  Add New Award: ''
   Add New Episode: Додати нову серію
   Add New Movie: Додати новий фільм
   Add New Release: Додати новий реліз
@@ -132,7 +131,7 @@ uk-UA:
   DMCA Policy: Політика щодо DMCA
   DMCA Takedown Request: Запит DMCA на видалення
   Date: Дата
-  Date Added:
+  Date Added: ''
   Day of Death: День смерті
   Default Language: Основна мова
   Delete: Видалити
@@ -172,10 +171,9 @@ uk-UA:
   Email Content: Уміст поштової скриньки
   Embed: Вставити
   Episode Images:
+    one: Світлина серії
     few: Світлини серії
     many: Світлини серії
-    one: Світлина серії
-    other: Світлини серії
   Episode Number: Номер серії
   Episode Overview: Огляд серії
   Episodes: Серії
@@ -238,7 +236,7 @@ uk-UA:
   Job: Робота
   Join the Community: Приєднатися до спільноти
   Joined in: Приєднався
-  Key:
+  Key: ''
   Keyword: Ключове слово
   Keyword Results: Результати ключового слова
   Keywords: Ключові слова
@@ -300,7 +298,7 @@ uk-UA:
   Notes: Нотатки
   Notifications: Повідомлення
   Now Playing Movies: Фільми, що зараз у кіно
-  Number:
+  Number: ''
   Number of Movies: Кількість фільмів
   Number of TV Shows: Кількість серіалів
   Number of edits in the past: Кількість змін за останні
@@ -308,7 +306,7 @@ uk-UA:
   Offical Site: Офіційний сайт
   Offline Databases: 'Офлайнові бази даних '
   Ok: Гаразд
-  Optional:
+  Optional: ''
   Origin Country: Оригінальна країна
   Original Air Date: Дата першого показу
   Original Language: Мова оригіналу
@@ -318,7 +316,7 @@ uk-UA:
   Original TV Show Language: Мова оригіналу серіалу
   Original Title: Оригінальна назва
   Other Databases: Інші бази даних
-  Others:
+  Others: ''
   Overview: Опис
   Page: Сторінка
   People: Персони
@@ -379,7 +377,7 @@ uk-UA:
   Report an Issue: Повідомити про проблему
   Reported Issues: Повідомлені проблеми
   Request an API Key: Замовити ключ API
-  Required:
+  Required: ''
   Resend Activation Email: Повторно надіслати лист активації
   Reset: Скинути
   Reset Password: Скинути пароль
@@ -444,7 +442,7 @@ uk-UA:
   TV: ТБ
   TV Network: Телемережа
   TV Recommendations: 'Рекомендації серіалів '
-  TV Show:
+  TV Show: ''
   TV Show Data: Дані серіалу
   TV Show Results: Результати серіалів
   TV Show Status: Статус серіалу
@@ -467,7 +465,7 @@ uk-UA:
   Top Rated Movies: Фільми з найвищими рейтингами
   Top Rated TV Shows: Серіали з найвищими рейтингами
   Top Users: Найкращі користувачі
-  Translate Award:
+  Translate Award: ''
   Translate Collection: Переклад колекції
   Translate Movie: Переклад фільму
   Translate Person: Переклад персони
@@ -487,7 +485,7 @@ uk-UA:
   Upload Logo: Завантажити логотип
   User Score: Оцінка користувачів
   Username: Ім’я користувача
-  Value:
+  Value: ''
   Video?: Відео?
   View: Переглянути
   View All Backdrops: Переглянути всі світлини
@@ -519,7 +517,7 @@ uk-UA:
   account:
     reviews:
       delete:
-        message:
+        message: ''
   account_drop_down:
     discussions: Обговорення
     edit_profile: Редагувати профіль
@@ -534,7 +532,7 @@ uk-UA:
     sign_up: Зареєструватися
     view_profile: Мій профіль
     watchlist: Перегляну пізніше
-    reviews:
+    reviews: ''
   accounts:
     activity:
       activity: Активність
@@ -580,10 +578,9 @@ uk-UA:
             Unsubscribed: Підписку скасовано
             status: Статус
         number_of_items:
-          few: "%{count} електронні листи"
-          many: "%{count} електронні листи"
-          one: "%{count} електронний лист"
-          other: "%{count} електронних листів"
+          one: '%{count} електронний лист'
+          few: '%{count} електронні листи'
+          many: '%{count} електронні листи'
       events: Події
       notifications:
         filters:
@@ -595,15 +592,13 @@ uk-UA:
             Messages: Повідомлення
             type: Тип
         notifications:
+          one: Сповіщення
           few: Сповіщення
           many: Сповіщення
-          one: Сповіщення
-          other: Сповіщень
         number_of_items:
-          few: "%{count} сповіщення"
-          many: "%{count} сповіщення"
-          one: "%{count} сповіщення"
-          other: "%{count} сповіщень"
+          one: '%{count} сповіщення'
+          few: '%{count} сповіщення'
+          many: '%{count} сповіщення'
       page_title:
         recent_events: Останні події
       recent: Недавні
@@ -643,19 +638,19 @@ uk-UA:
       no_lists:
         logged_in: Ви ще не створили жодного списку.
         public: Учасник %{username} не має публічних списків для обміну.
-        search:
+        search: ''
       page_title:
         page_owner: Мої списки
         public: Списки учасника %{username}
-      search:
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      search: ''
+      add_to_lists: ''
+      contributor: ''
+      create_new_list: ''
+      created: ''
+      my_new_list: ''
       no_reviews:
-        logged_in:
-        public:
+        logged_in: ''
+        public: ''
     member_since: Учасник із %{date}
     navigation:
       discussions: Обговорення
@@ -723,15 +718,13 @@ uk-UA:
         public: Список перегляду %{username}
       next_month: Наступного місяця
       no_upcoming_movies:
+        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних фільмів немає.
         few: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних фільмів немає.
         many: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних фільмів немає.
-        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних фільмів немає.
-        other: Усього %{count} елементів у вашому «Перегляну пізніше». Очікуваних фільмів немає.
       no_upcoming_tv_shows:
+        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних серіалів немає.
         few: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних серіалів немає.
         many: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних серіалів немає.
-        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних серіалів немає.
-        other: Усього %{count} елементів у вашому «Перегляну пізніше». Очікуваних серіалів немає.
       page_title:
         page_owner: Мій список перегляду
         public: Список перегляду учасника %{username}
@@ -740,8 +733,8 @@ uk-UA:
       view_them: Оглянути їх.
     reviews:
       page_title:
-        page_owner:
-        public:
+        page_owner: ''
+        public: ''
   add_to_list: Додати «%{media_title}» до одного з ваших списків…
   already_translated_in: "%{page_title} перекладено такими мовами:"
   api_for_business:
@@ -759,7 +752,7 @@ uk-UA:
       error: hе може бути пустим
       name:
         label: Назва
-      success:
+      success: ''
   api_session:
     3rd_party_request: Запит автентифікації третіх сторін
     account_required:
@@ -803,63 +796,63 @@ uk-UA:
   awards:
     add_nomination: Додати номінацію
     admin:
-      delete:
+      delete: ''
     air_date:
       future: Відбудеться %{date}
       past: Відбулося %{date}
     alternative_names: Альтернативні назви
-    award:
-    broadcast_episode:
-    broadcast_episode_tooltip:
-    broadcast_series:
-    broadcast_series_tooltip:
+    award: ''
+    broadcast_episode: ''
+    broadcast_episode_tooltip: ''
+    broadcast_series: ''
+    broadcast_series_tooltip: ''
     categories:
-      add_category:
-      categories:
-      category:
-      crew_credit_departments:
-      crew_credit_jobs:
-      date_ended:
-      date_started:
-      display_type:
-      locked:
-      media_type:
-      name:
+      add_category: ''
+      categories: ''
+      category: ''
+      crew_credit_departments: ''
+      crew_credit_jobs: ''
+      date_ended: ''
+      date_started: ''
+      display_type: ''
+      locked: ''
+      media_type: ''
+      name: ''
       title: Категорії
-      ended_on:
-      started_on:
+      ended_on: ''
+      started_on: ''
     category_empty: У цій категорії відсутні номінації.
     ceremonies:
-      add_ceremony:
-      ceremonies:
-      ceremony:
-      date:
-      limits:
-      location:
-      locked:
+      add_ceremony: ''
+      ceremonies: ''
+      ceremony: ''
+      date: ''
+      limits: ''
+      location: ''
+      locked: ''
       number: Номер
       release_date_max: Дата випуску Макс
       release_date_min: Дата випуску Мін
       title: Церемонії
     field:
-      homepage:
-      name:
-      overview:
+      homepage: ''
+      name: ''
+      overview: ''
     new_award:
-      award_details:
-      click_next:
-      getting_started:
-      header_1:
-      header_2:
-      note:
-      verify:
+      award_details: ''
+      click_next: ''
+      getting_started: ''
+      header_1: ''
+      header_2: ''
+      note: ''
+      verify: ''
     nominations:
-      add_nomination:
+      add_nomination: ''
       few: "%{count} номінації"
-      locked:
+      locked: ''
       many: "%{count} номінації"
-      movie:
-      nomination:
+      movie: ''
+      nomination: ''
       number:
         few:
         many:
@@ -867,8 +860,8 @@ uk-UA:
         other:
       one: 1 номінація
       other: "%{count} номінацій"
-      title:
-      shared_with:
+      title: ''
+      shared_with: ''
     nominee: Номінант
     show_info:
       directed_by: Режисер
@@ -882,19 +875,18 @@ uk-UA:
     title: Нагороди
     winner: Переможець
     wins:
-      few: "%{count} перемоги"
-      many: "%{count} перемоги"
       one: 1 перемога
-      other: "%{count} перемог"
-    most_awarded_films:
-    most_awarded_people:
-    most_nominated_films:
-    most_nominated_people:
-    media_page_description:
+      few: '%{count} перемоги'
+      many: '%{count} перемоги'
+    most_awarded_films: ''
+    most_awarded_people: ''
+    most_nominated_films: ''
+    most_nominated_people: ''
+    media_page_description: ''
   back_options:
-    award:
+    award: ''
     back: Назад
-    ceremony:
+    ceremony: ''
     episode: Повернутися до серії
     episode_groups: Повернутися до груп серій
     episode_list: Повернутися до списку серій
@@ -1651,7 +1643,7 @@ uk-UA:
     star: Зірка
     submit: Надіслати
     submit_and_preview: Відправка та попередній перегляд
-    submit_confirmation:
+    submit_confirmation: ''
     submitted: Подано
     suggested_backdrops: Вибрати пропоновані світлини
     suggested_backdrops_not_available: Пропоновані світлини відсутні!
@@ -1696,7 +1688,7 @@ uk-UA:
     general_inquiry: Загальний запит
     general_support: Загальна підтримка
     get_in_touch: Звʼязатися з нами
-    where_located:
+    where_located: ''
   contribute:
     contribute: Посприяти
     missing_a_biography: Відсутня біографія
@@ -1780,7 +1772,7 @@ uk-UA:
     - ПТ
     - СБ
     abbr_month_names:
-    -
+    - 
     - січ.
     - лют.
     - бер.
@@ -1808,7 +1800,7 @@ uk-UA:
       full_month_year: "%B %Y"
       short_month_day_year: "%d %b %Y"
     month_names:
-    -
+    - 
     - січня
     - лютого
     - березня
@@ -1823,10 +1815,9 @@ uk-UA:
     - грудня
   day: день
   days:
+    one: день
     few: дні
     many: дні
-    one: день
-    other: "%{count} днів"
   deleted_content:
     entry_deleted: Запис видалено
     reasons:
@@ -1872,10 +1863,9 @@ uk-UA:
         subject: Це спам
     why_deleting: Чому видалено запис?
   department_credits_count:
-    few: "%{department} (%{count} роботи)"
-    many: "%{department} (%{count} роботи)"
-    one: "%{department} (%{count} робота)"
-    other: "%{department} (%{count} робіт)"
+    one: '%{department} (%{count} робота)'
+    few: '%{department} (%{count} роботи)'
+    many: '%{department} (%{count} роботи)'
   departments:
     Acting: Акторська гра
     Actors: Актори
@@ -1945,19 +1935,19 @@ uk-UA:
       years:
         years: Роки
       ceremony_date:
-        ceremony_date:
-        search_all_ceremonies:
-        search_latest_ceremony:
-        latest_ceremony:
+        ceremony_date: ''
+        search_all_ceremonies: ''
+        search_latest_ceremony: ''
+        latest_ceremony: ''
       last_ceremony:
-        latest_ceremony:
-        search_all_countries:
-        search_latest_ceremony:
-      adult_content:
-      exclude_adult:
-      include_adult:
-      adult_filters:
-      softcore_content:
+        latest_ceremony: ''
+        search_all_countries: ''
+        search_latest_ceremony: ''
+      adult_content: ''
+      exclude_adult: ''
+      include_adult: ''
+      adult_filters: ''
+      softcore_content: ''
     no_items: 'За вашим запитом нічого не знайдено. '
     search: Шукати
     sort_options:
@@ -1977,8 +1967,8 @@ uk-UA:
       release_date_desc: Дата виходу за спаданням
       title_a_z: Назва (А–Я)
       title_z_a: Назва (Я–А)
-      latest_ceremony_asc:
-      latest_ceremony_desc:
+      latest_ceremony_asc: ''
+      latest_ceremony_desc: ''
     tooltips:
       not_member: Немає облікового запису?
       options: Де ти знаходишся?
@@ -2021,12 +2011,12 @@ uk-UA:
     category:
       last_reply_with_datetime: "%{date}, %{time}"
       last_reply_with_datetime_and_username: "%{date}, %{time}<br>від %{username}"
-      last_reply_with_datetime_v2:
-      last_reply_with_datetime_and_username_v2:
-      posted_by_with_datetime:
-      posted_by_with_datetime_and_username:
-      replied_by_with_datetime_and_username:
-      replied_by:
+      last_reply_with_datetime_v2: ''
+      last_reply_with_datetime_and_username_v2: ''
+      posted_by_with_datetime: ''
+      posted_by_with_datetime_and_username: ''
+      replied_by_with_datetime_and_username: ''
+      replied_by: ''
     discussion_activity: Участь в обговоренні
     email_notifications:
       email_notifications: Сповіщення на E-mail
@@ -2050,15 +2040,13 @@ uk-UA:
     no_discussions: Немає обговорень.
     pagination:
       post_summary:
-        few: "%{count} відповіді (на сторінці %{current_page} із %{total_pages})"
-        many: "%{count} відповіді (на сторінці %{current_page} із %{total_pages})"
-        one: "%{count} відповідь (на сторінці %{current_page} із %{total_pages})"
-        other: "%{count} відповідей (на сторінці %{current_page} із %{total_pages})"
+        one: '%{count} відповідь (на сторінці %{current_page} із %{total_pages})'
+        few: '%{count} відповіді (на сторінці %{current_page} із %{total_pages})'
+        many: '%{count} відповіді (на сторінці %{current_page} із %{total_pages})'
       summary:
-        few: "%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}"
-        many: "%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}"
-        one: "%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}"
-        other: "%{count} обговорень зараз на сторінці %{current_page} із %{total_pages}"
+        one: '%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}'
+        few: '%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}'
+        many: '%{count} обговорення зараз на сторінці %{current_page} із %{total_pages}'
     post:
       delete: Видалити
       edit: Змінити
@@ -2159,16 +2147,16 @@ uk-UA:
     choose_image: Вибрати зображення
     delete_list: Видалити список
     edit_list: Редагувати список
-    contributor_notes:
-    contributors:
-    create_invite_link:
-    edit_invite_link:
-    invite_contributor:
-    list_collaboration:
-    no_contributors:
-    created:
-    confirm_delete:
-    confirm_delete_grid:
+    contributor_notes: ''
+    contributors: ''
+    create_invite_link: ''
+    edit_invite_link: ''
+    invite_contributor: ''
+    list_collaboration: ''
+    no_contributors: ''
+    created: ''
+    confirm_delete: ''
+    confirm_delete_grid: ''
   edits: правки
   email:
     confirm_new_email_address: Підтвердити нову адресу електронної пошти
@@ -2217,10 +2205,9 @@ uk-UA:
       1fae3: Обличчя, що визирає одним оком
       1fae4: Обличчя з діагональним ротом
   episode_count:
-    few: "%{count} серії"
-    many: "%{count} серії"
-    one: "%{count} серія"
-    other: "%{count} серій"
+    one: '%{count} серія'
+    few: '%{count} серії'
+    many: '%{count} серії'
   episode_number_name: Серія %{episode_number}
   error_pages:
     deleted_account:
@@ -2253,8 +2240,8 @@ uk-UA:
       description: Це повідомлення було визнано таким, що порушує наші <a href="%{link}">правила спільноти</a>. Користувача, відповідального за це, також може бути призупинено.
       title: Цей допис було видалено
     too_many_login_attempts:
-      description:
-      title:
+      description: ''
+      title: ''
   errors:
     attributes:
       descriptors:
@@ -2281,23 +2268,23 @@ uk-UA:
       email_address_not_routable: не маршрутизується
       empty: не може бути пустим
       equal_to:
+        one: має дорівнювати %{count}
         few: мають дорівнювати %{count}
         many: мають дорівнювати %{count}
-        one: має дорівнювати %{count}
-        other: мають дорівнювати %{count}
       even: має бути парним
       exclusion: зарезервовано
       greater_than:
+        one: має бути більше за %{count}
         few: мають бути більше за %{count}
         many: мають бути більше за %{count}
-        one: має бути більше за %{count}
-        other: мають бути більше за %{count}
       greater_than_or_equal_to:
+        one: має дорівнювати або бути більше за %{count}
         few: мають дорівнювати або бути більше за %{count}
         many: мають дорівнювати або бути більше за %{count}
-        one: має дорівнювати або бути більше за %{count}
-        other: мають дорівнювати або бути більше за %{count}
       in:
+        one: ''
+        few: ''
+        many: ''
       inclusion: має бути вибрано
       invalid: недійсно
       invalid_character_name: Не можна використовувати спеціальні символи в імені персонажа
@@ -2305,46 +2292,44 @@ uk-UA:
       invalid_password: Уведений пароль неправильний.
       invalid_request: Не вдається виконати запит.
       less_than:
+        one: має бути менше за %{count}
         few: мають бути менше за %{count}
         many: мають бути менше за %{count}
-        one: має бути менше за %{count}
-        other: мають бути менше за %{count}
       less_than_or_equal_to:
+        one: має дорівнювати або бути менше за %{count}
         few: мають дорівнювати або бути менше за %{count}
         many: мають дорівнювати або бути менше за %{count}
-        one: має дорівнювати або бути менше за %{count}
-        other: мають дорівнювати або бути менше за %{count}
       model_invalid: 'Помилка перевірки: %{errors}'
       no_characters_found: Персонажів не знайдено
       not_a_number: не число
       not_an_integer: має бути ціле число
       odd: має бути непарним
       other_than:
+        one: ''
+        few: ''
+        many: ''
       present: має бути пустим
       required: повинен існувати
       series_status_invalid_to_create_season: новий сезон не може бути додано, бо шоу має статус «Скасовано» або «Завершено».
       suspected_tv_series: підозрюється, що цей серіал або мінісеріал уже є. Якщо ви переконані, що немає, то можете додавати дані, але якщо це не так, їх буде видалено
       taken: вже прийнято
       too_long:
+        one: занадто довге (максимум %{count} символ)
         few: занадто довге (максимум %{count} символи)
         many: занадто довге (максимум %{count} символів)
-        one: занадто довге (максимум %{count} символ)
-        other: занадто довге (максимум %{count} символів)
       too_short:
+        one: занадто коротке (мінімум %{count} символ)
         few: занадто коротке (мінімум %{count} символи)
         many: занадто коротке (мінімум %{count} символів)
-        one: занадто коротке (мінімум %{count} символ)
-        other: занадто коротке (мінімум %{count} символів)
       wrong_length:
+        one: неправильної довжини (має бути %{count} символ)
         few: неправильної довжини (має бути %{count} символи)
         many: неправильної довжини (має бути %{count} символів)
-        one: неправильної довжини (має бути %{count} символ)
-        other: неправильної довжини (має бути %{count} символів)
-      blocked_words:
-      duplicate_review:
+      blocked_words: ''
+      duplicate_review: ''
     movie:
       duplicate_cast: Ця персона вже додана як член акторського складу.
-    nesting:
+    nesting: ''
     tv:
       create_season_locked: 'Додавання нового сезону для цього серіалу заблоковано. '
       duplicate_created_by: Ця персона вже додана як творець.
@@ -2357,7 +2342,7 @@ uk-UA:
       duplicate_season_episode_crew_member: Ця персона вже додана як %{job_name} до одного з епізодів цього сезону. Титри знімальної групи потрібно додавати або до сезону, або до епізоду, але не до обох.
       missing_credit: Титр, який ви намагалися відредагувати, не існує.
       missing_person: Введену персону не вдалося знайти.
-    wrong_count:
+    wrong_count: ''
   failed_email: 'Не вдалося надіслати ваш лист. '
   failed_generic: 'Виникла проблема. '
   failed_report: 'Виникла проблема з поданням скарги. '
@@ -2486,15 +2471,13 @@ uk-UA:
       validation_header: "%{type} має відповідати таким критеріям:"
   invalid_aspect_ratio: Співвідношення сторін неправильне.
   item_count:
-    few: "%{count} елементи"
-    many: "%{count} елементи"
-    one: "%{count} елемент"
-    other: "%{count} елементів"
+    one: '%{count} елемент'
+    few: '%{count} елементи'
+    many: '%{count} елементи'
   item_count_more:
+    one: Ще %{count}…
     few: Ще %{count}…
     many: Ще %{count}…
-    one: Ще %{count}…
-    other: Ще %{count}…
   jobs:
     '"A" Camera Operator': Оператор камери А
     '"B" Camera Operator': Оператор камери B
@@ -2778,15 +2761,15 @@ uk-UA:
     Creature Effects Technical Director: Технічний директор Creature Effects
     Creature Technical Director: Технічний директор створінь
     Crowd Assistant Director: Асистент режисера з питань натовпу
-    Cyber Scanning Supervisor:
-    Dailies Manager:
-    Dailies Operator:
-    Dailies Technician:
+    Cyber Scanning Supervisor: ''
+    Dailies Manager: ''
+    Dailies Operator: ''
+    Dailies Technician: ''
     Daily Electrics: Щоденний електрик
     Daily Grip: Щоденний механік
     Daily Makeup & Hair: Щоденні грим і зачіски
     Daily Wardrobe: Щоденний гардероб
-    Data Management Technician:
+    Data Management Technician: ''
     Data Wrangler: Зберігач даних
     Decorator: Художник-декоратор
     Delegated Producer: Делегований продюсер
@@ -2797,15 +2780,15 @@ uk-UA:
     Dialogue: Діалог
     Dialogue Coach: Тренер діалогів
     Dialogue Editor: Монтажер діалогів
-    Digital Color Timer:
+    Digital Color Timer: ''
     Digital Colorist: Цифровий колорист
     Digital Compositor: Структурувальник оцифровки
-    Digital Conform Editor:
+    Digital Conform Editor: ''
     Digital Effects Producer: Продюсер цифрових ефектів
     Digital Effects Supervisor: Відповідальний за цифрові ефекти
     Digital Film Recording: Оцифрування плівки
     Digital Foley Artist: Звукоімітатор оцифровки
-    Digital Imaging Technician:
+    Digital Imaging Technician: ''
     Digital Intermediate: Проміжна оцифровка
     Digital Intermediate Assistant: Помічник із проміжної оцифровки
     Digital Intermediate Colorist: Колорист проміжної оцифровки
@@ -2827,7 +2810,7 @@ uk-UA:
     Dramaturgy: Драматургія
     Draughtsman: Кресляр
     Dresser: Одягальник
-    Dressing Prop:
+    Dressing Prop: ''
     Driver: Водій
     Drone Cinematographer: Кінооператор дрона
     Drone Operator: Оператор дрона
@@ -2862,10 +2845,10 @@ uk-UA:
     Extras Dresser: Одягальник масовки
     Extras Makeup Artist: Гример масовки
     Facial Setup Artist: Художник з корегування облич
-    Feature Finishing Producer:
+    Feature Finishing Producer: ''
     Field Director: Польовий режисер
     Fight Choreographer: Постановник боїв
-    File Footage:
+    File Footage: ''
     Film Processor: Обробник плівки
     Finance: Фінанси
     Finishing Producer: Кінцевий продюсер
@@ -2877,7 +2860,7 @@ uk-UA:
     First Assistant Art Direction: Перший помічник художника-постановника
     First Assistant Camera: Перший асистент камери
     First Assistant Director: Перший помічник режисера
-    First Assistant Director (Prep):
+    First Assistant Director (Prep): ''
     First Assistant Director Trainee: Перший помічник режисера-стажиста
     First Assistant Editor: Перший помічник монтажера
     First Assistant Hairstylist: Перший помічник стиліста зачісок
@@ -2886,9 +2869,9 @@ uk-UA:
     First Assistant Production Coordinator: Перший помічник координатора виробництва
     First Assistant Property Master: Перший помічник майстра реквізиту
     First Assistant Sound Editor: Перший помічник звукомонтажера
-    First Company Grip:
+    First Company Grip: ''
     Fix Animator: Аніматор кінцевої обробки
-    Floor Runner:
+    Floor Runner: ''
     Focus Puller: Фокусувальник
     Foley: Шумові ефекти
     Foley Artist: Звукоімітатор
@@ -2907,7 +2890,7 @@ uk-UA:
     Graphic Novel Illustrator: Ілюстратор графічного роману
     Greensman: Ґрінсмен
     Grip: Механік
-    Grip Production Assistant:
+    Grip Production Assistant: ''
     Gun Wrangler: Доглядач вогнепальної зброї
     Hair Assistant: Помічник перукаря
     Hair Department Head: Голова відділу зачісок
@@ -2934,36 +2917,36 @@ uk-UA:
     I/O Manager: Менеджер з увімкнення/вимкнення
     I/O Supervisor: Відповідальний за ввімкнення/вимкнення
     Idea: Ідея
-    Imaging Science:
+    Imaging Science: ''
     In Memory Of: У пам’ять про
     Information Systems Manager: Менеджер з інформаційних систем
-    Insert Unit Director:
-    Insert Unit First Assistant Director:
-    Insert Unit Location Manager:
+    Insert Unit Director: ''
+    Insert Unit First Assistant Director: ''
+    Insert Unit Location Manager: ''
     Interactive Manager: Інтерактивний менеджер
     Interior Designer: Дизайнер інтер’єру
     Intern: Практикант
     Jimmy Jib Operator: Оператор крана-стріли
-    Joint ADR Mixer:
+    Joint ADR Mixer: ''
     Junior Story Editor: 'Молодший редактор історії '
     Key Accountant: Старший бухгалтер
     Key Animation: Ключовий аніматор
-    Key Art Production Assistant:
+    Key Art Production Assistant: ''
     Key Carpenter: Старший тесляр
     Key Construction Grip: Старший механік конструкцій
     Key Costumer: Ключовий костюмер
     Key Dresser: Ключовий одягальник
     Key Grip: Старший механік
-    Key Grip Production Assistant:
+    Key Grip Production Assistant: ''
     Key Hair Stylist: Ключовий стиліст зачісок
     Key Hairdresser: Ключовий перукар
     Key Makeup Artist: Ключовий гример
     Key Production Assistant: Ключовий помічник з виробництва
-    Key Rigging Grip:
+    Key Rigging Grip: ''
     Key Scenic Artist: Ключовий сценограф
     Key Set Costumer: Ключовий костюмер на зйомках
     Key Set Painter: Ключовий художник декорацій
-    Key Set Production Assistant:
+    Key Set Production Assistant: ''
     Key Special Effects: Ключовий фахівець зі спецефектів
     Keyboard Programmer: Програміст синтезатора
     Layout: Компонування
@@ -2977,7 +2960,7 @@ uk-UA:
     Lead Set Dresser: Провідний декоратор
     Leadman: Ведучий
     Legal Services: Юридичні послуги
-    Libra Head Technician:
+    Libra Head Technician: ''
     Lighting Artist: Художник з освітлення
     Lighting Camera: Освітлювальна апаратура
     Lighting Coordinator: Координатор освітлення
@@ -2992,17 +2975,17 @@ uk-UA:
     Loader: Вантажник
     Local Casting: Місцевий підбір акторів
     Locale Casting Director: Місцевий директор кастингу
-    Location Assistant:
+    Location Assistant: ''
     Location Casting: Підбір локацій
     Location Coordinator: Координатор локацій
     Location Manager: Менеджер з локацій
-    Location Production Assistant:
+    Location Production Assistant: ''
     Location Scout: Розвідник локацій
-    Location Sound Assistant:
-    Location Sound Mixer:
-    Location Sound Recordist:
+    Location Sound Assistant: ''
+    Location Sound Mixer: ''
+    Location Sound Recordist: ''
     Logistics Coordinator: 'Координатор логістики '
-    Loop Group Coordinator:
+    Loop Group Coordinator: ''
     Lyricist: Автор текстів пісень
     Machinist: Машиніст
     Main Title Designer: Дизайнер заголовних титрів
@@ -3021,9 +3004,9 @@ uk-UA:
     Marine Pilot: Морський лоцман
     Martial Arts Choreographer: Хореограф бойових мистецтв
     Master Lighting Artist: Майстер з освітлення
-    Master at Arms:
-    Matchmove Supervisor:
-    Matte Painter:
+    Master at Arms: ''
+    Matchmove Supervisor: ''
+    Matte Painter: ''
     Mechanical & Creature Designer: Дизайнер механізмів і створінь
     Mechanical Designer: Дизайнер механізмів
     Medical Consultant: Медичний консультант
@@ -3043,8 +3026,8 @@ uk-UA:
     Music Editor: Монтажер музики
     Music Producer: Музичний продюсер
     Music Programmer: Музичний програміст
-    Music Score Producer:
-    Music Sound Design and Processing:
+    Music Score Producer: ''
+    Music Sound Design and Processing: ''
     Music Supervision Assistant: Помічник відповідального за музику
     Music Supervisor: Відповідальний за музику
     Musical: Мюзикл
@@ -3052,8 +3035,8 @@ uk-UA:
     Musician: Музикант
     Negative Cutter: Монтажер негативів
     Novel: Роман
-    "O.B. Lighting":
-    "O.B. Sound":
+    "O.B. Lighting": ''
+    "O.B. Sound": ''
     On Set Computer Graphics: Комп’ютерна графіка на зйомках
     On Set Dresser: Одягальник на зйомках
     On Set Key Props: Ключовий реквізит на зйомках
@@ -3068,20 +3051,20 @@ uk-UA:
     Original Film Writer: Сценарист оригінального фільму
     Original Music Composer: Композитор
     Original Series Creator: 'Творець оригінального серіалу '
-    Original Series Design:
+    Original Series Design: ''
     Original Story: Оригінальна історія
     Other: Інше
-    Paint Coordinator:
+    Paint Coordinator: ''
     Painter: Художник
     Payroll Accountant: Бухгалтер із зарплатні
     Petty Cash Buyer: Закупник дрібʼязку
     Phantom Operator: Оператор дрона Phantom
     Photo Retouching: Ретушер
-    Photoscience Manager:
+    Photoscience Manager: ''
     Picture Car Coordinator: Координатор автівок у кадрі
     Pilot: Пілот
-    Pipeline Technical Director:
-    Playback Coordinator:
+    Pipeline Technical Director: ''
+    Playback Coordinator: ''
     Playback Singer: Закадровий виконавець
     Poem: Поема
     Police Consultant: Поліцейський-консультант
@@ -3103,7 +3086,7 @@ uk-UA:
     Producer: Продюсер
     Producer's Assistant: Помічник продюсера
     Production Accountant: Бухгалтер виробництва
-    Production Artist:
+    Production Artist: ''
     Production Assistant: Помічник з виробництва
     Production Consultant: Консультант на виробництві
     Production Controller: Контролер виробництва
@@ -3112,13 +3095,13 @@ uk-UA:
     Production Designer: Художній керівник
     Production Director: Відеорежисер
     Production Driver: Водій на виробництві
-    Production Executive:
+    Production Executive: ''
     Production Illustrator: Виробничий ілюстратор
     Production Intern: Практикант на виробництві
     Production Manager: Менеджер з виробництва
-    Production Office Assistant:
-    Production Office Coordinator:
-    Production Runner:
+    Production Office Assistant: ''
+    Production Office Coordinator: ''
+    Production Runner: ''
     Production Secretary: Секретар на виробництві
     Production Sound Mixer: Виробничий змішувач звуку
     Production Supervisor: Відповідальний за виробництво
@@ -3126,12 +3109,12 @@ uk-UA:
     Project Manager: Менеджер проєкту
     Projection: Проєктування
     Prop Designer: Дизайнер реквізиту
-    Prop Maker:
-    Property Builder:
+    Prop Maker: ''
+    Property Builder: ''
     Property Buyer: Закупник реквізиту
     Property Graphic Designer: Графічний дизайнер реквізиту
     Property Master: Майстер реквізиту
-    Propmaker:
+    Propmaker: ''
     Props: Реквізит
     Prosthetic Designer: Дизайнер протезів
     Prosthetic Makeup Artist: Пластичний гример
@@ -3147,22 +3130,22 @@ uk-UA:
     Radio Play: Радіовистава
     Receptionist: Секретар
     Recording Supervision: Відповідальний за запис
-    Red Technician:
+    Red Technician: ''
     Research Assistant: Помічник з досліджень
     Researcher: Дослідник
     Rigging Gaffer: Майстер зі світлотехніки
-    Rigging Grip:
+    Rigging Grip: ''
     Rigging Supervisor: Відповідальний такелажник
     Roto Supervisor: Відповідальний за ротоскопіювання
     Rotoscoping Artist: Художник ротоскопіювання
-    Runner Art Department:
+    Runner Art Department: ''
     Russian Arm Operator: Кранмейстер
     Scenario Writer: Короткий сценарій
     Scenic Artist: Сценічний художник
     Schedule Coordinator: Координатор розкладу
     Scientific Consultant: Науковий консультант
-    Score Engineer:
-    Scoring Mixer:
+    Score Engineer: ''
+    Scoring Mixer: ''
     Screenplay: Сценарій
     Screenstory: Сценарій
     Script: Постановний сценарій
@@ -3185,9 +3168,9 @@ uk-UA:
     Second Assistant Production Coordinator: Другий помічник координатора виробництва
     Second Assistant Sound: Другий помічник зі звуком
     Second Assistant Unit Manager: Другий помічник менеджера підвідділу
-    Second Company Grip:
+    Second Company Grip: ''
     Second Film Editor: Другий монтажер плівки
-    Second Second Assistant Director:
+    Second Second Assistant Director: ''
     Second Unit: Другий підвідділ
     Second Unit Cinematographer: Кінематографіст другого підвідділу
     Second Unit Director: Режисер другого підвідділу
@@ -3198,20 +3181,20 @@ uk-UA:
     Security Coordinator: Координатор охорони
     Senior Animator: Старший аніматор
     Senior Colorist: Старший колорист
-    Senior Digital Intermediate Colorist:
+    Senior Digital Intermediate Colorist: ''
     Senior Executive Consultant: Старший виконавчий консультант
     Senior Generalist: Старший спеціаліст загального профілю
     Senior Modeller: Старший модельєр
     Senior Story Editor: 'Старший редактор історії '
     Senior Visual Effects Supervisor: Старший наглядач за візуальними ефектами
-    Sequence Artist:
-    Sequence Lead:
+    Sequence Artist: ''
+    Sequence Lead: ''
     Sequence Supervisor: Відповідальний за послідовність
     Series Composition: Структурувальник серіалу
     Series Director: 'Режисер серіалу '
     Series Publicist: Серіальний публіцист
     Series Writer: Сценарист серіалу
-    Set Buyer:
+    Set Buyer: ''
     Set Costumer: Костюмер на зйомках
     Set Decorating Coordinator: Координатор оформлення декорацій
     Set Decoration: 'Оформлення декорацій '
@@ -3220,28 +3203,28 @@ uk-UA:
     Set Dresser: Декоратор
     Set Dressing Artist: Художник-декоратор
     Set Dressing Buyer: Закупник декору
-    Set Dressing Manager:
-    Set Dressing Production Assistant:
+    Set Dressing Manager: ''
+    Set Dressing Production Assistant: ''
     Set Dressing Supervisor: Відповідальний за декор
     Set Medic: Медик на зйомках
     Set Painter: Художник декорацій
     Set Photographer: Фотограф на зйомках
-    Set Production Assistant:
-    Set Production Intern:
+    Set Production Assistant: ''
+    Set Production Intern: ''
     Set Propsman: Реквізитор декорацій
-    Set Runner:
+    Set Runner: ''
     Set Supervisor: Наглядач на зйомках
     Sets & Props Artist: Художник декорацій і реквізиту
     Sets & Props Supervisor: Відповідальний за декорації та реквізит
     Settings: Налаштування
     Shading: Затінення
     Shoe Design: Дизайн взуття
-    Shop Electric:
+    Shop Electric: ''
     Short Story: Оповідання
-    Sign Painter:
-    Simulation & Effects Artist:
-    Simulation & Effects Production Assistant:
-    Smoke Artist:
+    Sign Painter: ''
+    Simulation & Effects Artist: ''
+    Simulation & Effects Production Assistant: ''
+    Smoke Artist: ''
     Software Engineer: Розробник програмного забезпечення
     Software Team Lead: Керівник команди програмістів
     Songs: Пісні
@@ -3257,9 +3240,9 @@ uk-UA:
     Sound Engineer: Звукоінженер
     Sound Mix Technician: Фахівець зі змішування звуку
     Sound Mixer: Змішувач звуку
-    Sound Montage Associate:
+    Sound Montage Associate: ''
     Sound Post Production Coordinator: Координатор поствиробництва звуку
-    Sound Post Supervisor:
+    Sound Post Supervisor: ''
     Sound Re-Recording Assistant: Помічник з перезапису звуку
     Sound Re-Recording Mixer: Змішувач перезапису звуку
     Sound Recordist: Звукозаписувач
@@ -3283,7 +3266,7 @@ uk-UA:
     Sponsorship Director: Директор зі спонсорства
     Staff Writer: Штатний автор
     Stage Director: Режисер-постановник
-    Stand In:
+    Stand In: ''
     Standby Art Director: Резервний художник-постановник
     Standby Carpenter: Резервний тесляр
     Standby Painter: Резервний художник
@@ -3338,11 +3321,11 @@ uk-UA:
     Technical Advisor: Технічний консультант
     Technical Supervisor: Технічний наглядач
     Techno Crane Operator: Оператор крана-стріли
-    Telecine Colorist:
+    Telecine Colorist: ''
     Teleplay: Телепʼєса
     Temp Music Editor: Монтажер тимчасової музики
     Temp Sound Editor: Монтажер тимчасових звуків
-    Textile Artist:
+    Textile Artist: ''
     Thanks: Подяка
     Theatre Play: Пʼєса
     Theme Song Performance: Виконання музичної теми
@@ -3353,19 +3336,19 @@ uk-UA:
     Third Assistant Camera: Третій асистент камери
     Third Assistant Director: 'Третій помічник режисера '
     Title Designer: Дизайнер титрів
-    Title Graphics:
+    Title Graphics: ''
     Title Illustration: Ілюстратор титрів
     Trainee Production Coordinator: Виробничий координатор стажерів
     Transcriptions: Транскрибація
     Translator: Перекладач
-    Transportation Captain:
-    Transportation Co-Captain:
+    Transportation Captain: ''
+    Transportation Co-Captain: ''
     Transportation Coordinator: Координатор перевезень
     Travel Coordinator: Координатор подорожей
     Treatment: Обробка
-    Truck Costumer:
-    Truck Production Assistant:
-    Truck Supervisor:
+    Truck Costumer: ''
+    Truck Production Assistant: ''
+    Truck Supervisor: ''
     Ultimate Arm Operator: Кранмейстер
     Underwater Camera: Підводна камера
     Underwater Director of Photography: Підводний оператор
@@ -3377,8 +3360,8 @@ uk-UA:
     Unit Production Manager: Менеджер з виробництва в підвідділі
     Unit Publicist: Публіцист підвідділу
     Unit Swing: Оформлювач у підвідділі
-    Utility Sound:
-    Utility Stunts:
+    Utility Sound: ''
+    Utility Stunts: ''
     VFX Artist: Художник візуальних ефектів
     VFX Director of Photography: 'Оператор візуальних ефектів '
     VFX Editor: Монтажер візуальних ефектів
@@ -3402,7 +3385,7 @@ uk-UA:
     Visual Effects Designer: Дизайнер візуальних ефектів
     Visual Effects Director: Режисер візуальних ефектів
     Visual Effects Editor: Монтажер візуальних ефектів
-    Visual Effects Lineup:
+    Visual Effects Lineup: ''
     Visual Effects Producer: Продюсер візуальних ефектів
     Visual Effects Production Assistant: Помічник з виробництва візуальних ефектів
     Visual Effects Production Manager: Менеджер зі створення візуальних ефектів
@@ -3416,7 +3399,7 @@ uk-UA:
     Wardrobe Designer: Дизайнер гардероба
     Wardrobe Intern: Практикант гардероба
     Wardrobe Master: Майстер гардероба
-    Wardrobe Specialized Technician:
+    Wardrobe Specialized Technician: ''
     Wardrobe Supervisor: Відповідальний за гардероб
     Weapons Master: 'Майстер зброї '
     Weapons Wrangler: Доглядач зброї
@@ -3425,7 +3408,7 @@ uk-UA:
     Wigmaker: Постижер
     Writer: Сценарист
     Writers' Assistant: Помічник сценариста
-    Writers' Production:
+    Writers' Production: ''
   joined: приєднався
   keyboard_shortcuts:
     actions:
@@ -3662,15 +3645,14 @@ uk-UA:
       zealous: завзятий
   list_info:
     average_rating: Усереднений рейтинг
-    collaborate:
+    collaborate: ''
     hide_comments: Приховати коментарі
     image_selected: Вибрано
     items_not_seen: Непереглянуте
     items_on_list:
+      one: елемент у цьому списку
       few: елементи в цьому списку
       many: елементів у цьому списку
-      one: елемент у цьому списку
-      other: елементів у цьому списку
     items_seen: Переглянуте
     list_by: Список
     list_options: Параметри списку
@@ -3684,9 +3666,9 @@ uk-UA:
     total_runtime: Загальний час
     use_grid_view: Перегляд сіткою
     use_list_view: Перегляд списком
-    search:
-    no_search_results:
-    search_within:
+    search: ''
+    no_search_results: ''
+    search_within: ''
   list_messages:
     comment_updated: Коментар оновлено!
     image_saved: Зображення збережено!
@@ -3712,21 +3694,21 @@ uk-UA:
   media:
     adult: Для дорослих
     alternative_names:
-      add_name:
-      alternative_names:
-      name:
-      no_records:
+      add_name: ''
+      alternative_names: ''
+      name: ''
+      no_records: ''
     award:
       edit:
         adult:
-          adult_award:
-        title_logos:
+          adult_award: ''
+        title_logos: ''
       header:
-        latest_ceremony:
-        upcoming_ceremony:
+        latest_ceremony: ''
+        upcoming_ceremony: ''
     cast_credits:
-      cast_credits:
-      select:
+      cast_credits: ''
+      select: ''
     changes:
       filters:
         clear: Очистити
@@ -3734,10 +3716,9 @@ uk-UA:
         language: Мова
         user: Користувач
       number_of_changes:
-        few: "%{count} зміни"
-        many: "%{count} зміни"
-        one: "%{count} зміна"
-        other: "%{count} змін"
+        one: '%{count} зміна'
+        few: '%{count} зміни'
+        many: '%{count} зміни'
       view_weekly_leaderboard: Переглянути таблицю лідерів за тиждень
     character:
       edit:
@@ -3750,8 +3731,8 @@ uk-UA:
           no_records: 'Не додано жодного фільму. '
       parts: Частини
     companies:
-      companies:
-      select:
+      companies: ''
+      select: ''
     company:
       headquarters: Штаб-квартира
       movie_page_title: Фільми виробництва %{name}
@@ -3795,8 +3776,8 @@ uk-UA:
         '8': Долийте! Чогось бракує.
         '9': Майже як треба…
     crew_credits:
-      crew_credits:
-      select:
+      crew_credits: ''
+      select: ''
     edit:
       alternative_title:
         lock_existing: Заблокувати наявні назви
@@ -3846,8 +3827,8 @@ uk-UA:
         original_title: Оригінальна назва має вводитися мовою оригіналу. У більшості випадків вона відповідатиме такій, що вказана в полі «Мова оригіналу».
         overview: Створюючи опис, намагайтеся писати коротко, стисло та без спойлерів.
         social_links: Посилання на соціальні мережі передбачені лише для офіційних (перевірених) сторінок. Не дозволяються посилання на сторінки фанатських спільнот.
-        softcore:
-        video:
+        softcore: ''
+        video: ''
       translation_already_exists: Переклад мовою %{language} вже існує.
       translation_not_found: Переклад мовою %{language} ще не створено.
       unlock_all_appearances: Натисканням «Так» ви розблокуєте всі наявні записи.
@@ -3883,11 +3864,11 @@ uk-UA:
       edit:
         adult:
           adult_movie: Фільм для дорослих?
-          adult_status:
+          adult_status: ''
           status:
-            none:
-            hardcore:
-            softcore:
+            none: ''
+            hardcore: ''
+            softcore: ''
         alternative_titles:
           no_records: Альтернативних назв не додано.
         cast:
@@ -3924,7 +3905,7 @@ uk-UA:
         videos:
           no_records: 'Не додано жодного відео. '
         softcore:
-          softcore_movie:
+          softcore_movie: ''
       statuses:
         Canceled: Скасовано
         In Production: У виробництві
@@ -3953,15 +3934,13 @@ uk-UA:
       movie: 'Фільмів не знайдено. '
       tv: 'Серіалів не знайдено. '
     number_of_movies:
+      one: фільм
       few: фільми
       many: фільми
-      one: фільм
-      other: фільмів
     number_of_shows:
+      one: серіал
       few: серіали
       many: серіали
-      one: серіал
-      other: серіалів
     person:
       edit:
         alternative_names:
@@ -3993,18 +3972,16 @@ uk-UA:
         tv: Серіали
         tv_shows: Серіали
       years_old:
-        few: "%{count} роки"
-        many: "%{count} роки"
-        one: "%{count} рік"
-        other: "%{count} років"
+        one: '%{count} рік'
+        few: '%{count} роки'
+        many: '%{count} роки'
     rating:
       not_rateable: Ще не підлягає оцінюванню.
       rated_with_rating: Оцінено %{value}
       rating_count:
-        few: "%{count} оцінки"
-        many: "%{count} оцінки"
-        one: "%{count} оцінка"
-        other: "%{count} оцінок"
+        one: '%{count} оцінка'
+        few: '%{count} оцінки'
+        many: '%{count} оцінки'
       removed: Вашу оцінку було видалено.
       score_breakdown: Аналіз рейтингу
       score_distribution: Розподіл оцінок
@@ -4013,7 +3990,7 @@ uk-UA:
       success: Оцінку успішно збережено.
     shortcut_bar:
       alternative_titles: Альтернативні назви
-      back_to_series:
+      back_to_series: ''
       backdrops: Світлини
       cast_crew: Актори та знімальна група
       changes: Зміни
@@ -4032,7 +4009,7 @@ uk-UA:
       seasons: Сезони
       translations: Переклади
       videos: Відеоролики
-      awards:
+      awards: ''
     social_panel:
       discussions:
         currently_subscribed: Тепер ви підписані на сповіщення про перші дописи інших учасників.
@@ -4052,11 +4029,11 @@ uk-UA:
         write_review:
           logged_in: Написати рецензію
           public: Увійдіть, щоб написати рецензію.
-        written_on:
-        like_button_logged_out:
-        their_rating:
-        your_rating:
-        edit_review:
+        written_on: ''
+        like_button_logged_out: ''
+        their_rating: ''
+        your_rating: ''
+        edit_review: ''
         no_featured_review:
           logged_in: Поки що немає видатних рецензій на «%{title}». Бажаєте <a href="%{url}">написати</a>?
           public: Поки що немає видатних рецензій на «%{title}».
@@ -4135,10 +4112,9 @@ uk-UA:
           group: Група
           messages:
             episodes_added:
-              few: "%{count} серії додано!"
-              many: "%{count} серії додано!"
-              one: "%{count} серію додано!"
-              other: "%{count} серій додано!"
+              one: '%{count} серію додано!'
+              few: '%{count} серії додано!'
+              many: '%{count} серії додано!'
           name: Назва групи
           no_records: Груп серій не додано.
           type: Тип
@@ -4162,20 +4138,18 @@ uk-UA:
         seasons:
           no_records: Не додано жодного сезону.
         softcore:
-          softcore_show:
+          softcore_show: ''
       episode_groups:
         groups:
           count:
-            few: "%{count} групи"
-            many: "%{count} групи"
-            one: "%{count} група"
-            other: "%{count} груп"
+            one: '%{count} група'
+            few: '%{count} групи'
+            many: '%{count} групи'
         original_air_date: Дата першого показу
       networks:
+        one: Мережа
         few: Мережі
         many: Мережі
-        one: Мережа
-        other: Мережі
       primary_characters: Основні персонажі
       series_cast: Акторський склад серіалу
       series_crew: 'Знімальна група серіалу '
@@ -4212,45 +4186,45 @@ uk-UA:
       restricted_regions: Заборонені регіони
       tags: Теги
     wizard:
-      award_details:
-      getting_started:
-      intro_1:
-      intro_2:
-      verify:
+      award_details: ''
+      getting_started: ''
+      intro_1: ''
+      intro_2: ''
+      verify: ''
     more_like_this:
-      if_you_liked_this:
-      or_something_more:
+      if_you_liked_this: ''
+      or_something_more: ''
       genres:
-        '12':
-        '14':
-        '16':
-        '18':
-        '27':
-        '28':
-        '35':
-        '36':
-        '37':
-        '53':
-        '80':
-        '99':
-        '878':
-        '9648':
-        '10402':
-        '10749':
-        '10751':
-        '10752':
-        '10762':
-        '10763':
-        '10764':
-        '10759':
-        '10765':
-        '10766':
-        '10767':
-        '10768':
-        '10770':
+        '12': ''
+        '14': ''
+        '16': ''
+        '18': ''
+        '27': ''
+        '28': ''
+        '35': ''
+        '36': ''
+        '37': ''
+        '53': ''
+        '80': ''
+        '99': ''
+        '878': ''
+        '9648': ''
+        '10402': ''
+        '10749': ''
+        '10751': ''
+        '10752': ''
+        '10762': ''
+        '10763': ''
+        '10764': ''
+        '10759': ''
+        '10765': ''
+        '10766': ''
+        '10767': ''
+        '10768': ''
+        '10770': ''
   message_templates:
     help_translate:
-      message:
+      message: ''
       subject: Допоможіть перекласти наш вебсайт
   messages:
     compose:
@@ -4264,10 +4238,9 @@ uk-UA:
     notifications:
       new_message: "%{username} надіслав вам нове повідомлення"
     number_of_messages:
-      few: "%{count} повідомлення"
-      many: "%{count} повідомлення"
-      one: "%{count} повідомлення"
-      other: "%{count} повідомлень"
+      one: '%{count} повідомлення'
+      few: '%{count} повідомлення'
+      many: '%{count} повідомлення'
     options:
       admin: Адмін
       archive: Архів
@@ -4300,12 +4273,11 @@ uk-UA:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words:
+              blocked_words: ''
   month:
+    one: місяць
     few: місяці
     many: місяці
-    one: місяць
-    other: "%{count} місяців"
   navigation:
     discover:
       discover: Ознайомтеся
@@ -4388,17 +4360,17 @@ uk-UA:
       format:
         delimiter: "."
         format: "%n %u"
-        precision: 2
+        precision: '2'
         separator: ","
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: "₴"
     format:
-      delimiter:
-      precision: 3
+      delimiter: ''
+      precision: '3'
       separator: ","
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4409,9 +4381,9 @@ uk-UA:
           thousand: Тисяча
           trillion: Трильйон
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: млрд
@@ -4419,7 +4391,7 @@ uk-UA:
           quadrillion: квадрлн
           thousand: 'тис. '
           trillion: трлн
-          unit:
+          unit: ''
     percentage:
       format:
         delimiter:
@@ -4428,30 +4400,25 @@ uk-UA:
       format:
         delimiter:
   number_of_edits:
-    few: "%{count} правки"
-    many: "%{count} правки"
-    one: "%{count} правка"
-    other: "%{count} правок"
+    one: '%{count} правка'
+    few: '%{count} правки'
+    many: '%{count} правки'
   number_of_items:
-    few: "%{count} елементи"
-    many: "%{count} елементи"
-    one: "%{count} елемент"
-    other: "%{count} елементів"
+    one: '%{count} елемент'
+    few: '%{count} елементи'
+    many: '%{count} елементи'
   number_of_results:
-    few: "%{count} результати"
-    many: "%{count} результати"
-    one: "%{count} результат"
-    other: "%{count} результатів"
+    one: '%{count} результат'
+    few: '%{count} результати'
+    many: '%{count} результати'
   number_of_translations:
-    few: "%{count} переклади"
-    many: "%{count} переклади"
-    one: "%{count} переклад"
-    other: "%{count} перекладів"
+    one: '%{count} переклад'
+    few: '%{count} переклади'
+    many: '%{count} переклади'
   number_of_votes:
-    few: "%{count} голоси"
-    many: "%{count} голоси"
-    one: "%{count} голос"
-    other: "%{count} голосів"
+    one: '%{count} голос'
+    few: '%{count} голоси'
+    many: '%{count} голоси'
   ott:
     available_sentences:
       ads: 'дивитися з рекламою '
@@ -4461,10 +4428,10 @@ uk-UA:
       rent: взяти напрокат
       sentence: "«%{title}» наразі доступно на %{available_types} (%{country})."
     available_snippet:
-      flatrate:
+      flatrate: ''
       rent_or_buy: Доступно для прокату чи купівлі
       summary_sentence: "%{available_snippet} на %{service_name}"
-    description:
+    description: ''
     filters:
       4k: 4K
       best_price: Найкраща ціна
@@ -4488,10 +4455,9 @@ uk-UA:
       sd: 'Немає пропозицій SD. '
     page_title: Де я можу подивитися «%{media_name}»?
     seasons:
-      few: "%{count} сезони"
-      many: "%{count} сезони"
-      one: "%{count} сезон"
-      other: "%{count} сезонів"
+      one: '%{count} сезон'
+      few: '%{count} сезони'
+      many: '%{count} сезони'
     view_offers: 'Переглянути пропозиції '
     watch_now: Дивитися зараз
     watch_on:
@@ -4551,8 +4517,8 @@ uk-UA:
     trending_searches: Актуальні запити
     watchlist_movie: Шукати серед фільмів у «Перегляну пізніше»…
     watchlist_tv: Шукати серед серіалів у «Перегляну пізніше»…
-    for_media:
-    softcore:
+    for_media: ''
+    softcore: ''
   search_text_validation_error: Будь ласка, введіть коректний текст!
   search_tip_1: 'Щоб отримати результати за певний рік, додайте “y:” латиницею. Наприклад: “зоряні війни y:1977”.'
   season_number_name: Сезон %{season_number}
@@ -4567,12 +4533,12 @@ uk-UA:
       resend_verification_email_text: Немає листа для підтвердження облікового запису? Введіть ім’я користувача, щоб надіслати його повторно.
       reset_password_text: Введіть електронну адресу, яку ви використовували для входу в акаунт TMDB, і ми надішлемо вам інформацію про подальші кроки для скидання пароля.
       adult_content:
-        show_adult_content:
+        show_adult_content: ''
         confirm_popup:
-          title:
-          message:
-          confirm_button:
-          cancel_button:
+          title: ''
+          message: ''
+          confirm_button: ''
+          cancel_button: ''
     api:
       api: API
       create_page_title: Створити новий ключ API
@@ -4585,7 +4551,7 @@ uk-UA:
         overview: Огляд
         regenerate:
           confirm_text: Це призведе до <strong>вимкнення</strong> вашого старого ключа API та створення нового. Цю дію не можна скасувати. Ви маєте <strong>30 секунд</strong> для підтвердження перед повторним уведенням пароля.
-          regenerate_key:
+          regenerate_key: ''
           summary_text: Ви щойно увійшли в <strong>небезпечну зону</strong>! Якщо ви хочете продовжити й оновити свій ключ API, ви можете зробити це, ввівши свій пароль нижче та підтвердивши запити.
         sessions: Сесії
         stats: Статистика
@@ -4719,8 +4685,8 @@ uk-UA:
         no_apps: Ви ще не приєднували застосунків до свого акаунту.
         page_title: Мої приєднанні застосунки
         revoke:
-          confirm_text:
-          confirm_title:
+          confirm_text: ''
+          confirm_title: ''
         table:
           action: Дії
           application_name: Назва застосунку
@@ -4739,7 +4705,7 @@ uk-UA:
         table:
           date: Дата
           device: Пристрій
-          expires:
+          expires: ''
           ip: IP-адреса
     sharing:
       favorite_list:
@@ -4769,7 +4735,7 @@ uk-UA:
       page_title: Мої налаштування соцмереж
       sharing_message_hint: Коли елемент публікується у Twitter або Facebook…
       social_settings: Налаштування соцмереж
-      supported_template_values:
+      supported_template_values: ''
     streaming_services:
       page_title: Мої потокові сервіси
       streaming_services: Потокові сервіси
@@ -4803,7 +4769,7 @@ uk-UA:
       last_word_connector: _та_
       two_words_connector: _та_
       words_connector: ", "
-  the:
+  the: ''
   time:
     am: ночі/ранку
     formats:
@@ -4818,10 +4784,9 @@ uk-UA:
       seconds: Секунди
   top_contributors: Лідери зі сприяння
   translation:
+    one: переклад
     few: переклади
     many: переклади
-    one: переклад
-    other: перекладів
   upload_backdrop: Завантажити світлину
   upload_headshot: Завантажити портрет
   upload_poster: Завантажити постер
@@ -4869,10 +4834,9 @@ uk-UA:
     whats_new: Що нового?
     whats_your_vibe: Яке ваше <span class="%{style}">враження</span>?
     your_vibe:
+      one: Ваше враження
       few: Ваші враження
       many: Ваші враження
-      one: Ваше враження
-      other: Ваші враження
     your_vibes: Ваші враження
   videos:
     filters:
@@ -4883,12 +4847,11 @@ uk-UA:
         sort: Сортування
       type: Тип
     number_of_videos:
-      few: "%{count} відео"
-      many: "%{count} відео"
-      one: "%{count} відео"
-      other: "%{count} відео"
+      one: '%{count} відео'
+      few: '%{count} відео'
+      many: '%{count} відео'
     official_channel: Офіційний канал
-    page_title:
+    page_title: ''
     popular: Популярні
     refresh_from_youtube: Оновити з YouTube
     types:
