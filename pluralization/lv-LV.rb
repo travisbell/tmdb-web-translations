@@ -1,7 +1,3 @@
-require 'rails_i18n/pluralization'
+require 'weblate/pluralization/latvian'
 
-{ :'lv-LV' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :other],
-        :rule => ::RailsI18n::Pluralization::Latvian.rule }}}}
+::Weblate::Pluralization::Latvian.with_locale(:'lv-LV')
