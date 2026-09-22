@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require "weblate/ignore_blank_translations"
 require "i18n/backend/fallbacks"
 
 # I18n::Backend::Simple.send(:include, I18n::Backend::Cache)
+I18n::Backend::Simple.include(Weblate::IgnoreBlankTranslations)
 I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
 I18n::Backend::Simple.include(I18n::Backend::Pluralization)
 
