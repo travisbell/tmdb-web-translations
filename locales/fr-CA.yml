@@ -170,6 +170,7 @@ fr-CA:
   Email Address: Adresse courriel
   Email Content: Contenu du courriel
   Embed: Intégrer
+  Episode: 'Images.other: Images de l''épisode'
   Episode Images:
     one: Image de l'épisode
     other: Images de l'épisode
@@ -579,6 +580,7 @@ fr-CA:
         number_of_items:
           one: "%{count} courriel"
           other: "%{count} courriels"
+          many: "%{count} courriels"
       events: Événements
       notifications:
         filters:
@@ -592,9 +594,11 @@ fr-CA:
         notifications:
           one: Notification
           other: Notifications
+          many: Notifications
         number_of_items:
           one: "%{count} notification"
           other: "%{count} notifications"
+          many: "%{count} notifications"
       page_title:
         recent_events: Événements récents
       recent: Récent
@@ -716,9 +720,11 @@ fr-CA:
       no_upcoming_movies:
         one: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
         other: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a pas de films à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
       no_upcoming_tv_shows:
         one: Il n'y a pas de série à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
         other: Il n'y a pas de série à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a pas de série à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
@@ -848,10 +854,12 @@ fr-CA:
       number:
         one:
         other:
+        many: ''
       one: 1 nomination
       other: "%{count} nominations"
       title:
       shared_with:
+      many: "%{count} nominations"
     nominee:
     show_info:
       directed_by: Réalisé par
@@ -1793,6 +1801,7 @@ fr-CA:
   days:
     one: jour
     other: "%{count} jours"
+    many: "%{count} jours"
   deleted_content:
     entry_deleted: Entrée supprimée
     reasons:
@@ -1815,6 +1824,7 @@ fr-CA:
   department_credits_count:
     one: "%{department} (%{count} crédit)"
     other: "%{department} (%{count} crédits)"
+    many: "%{department} (%{count} crédits)"
   departments:
     Acting: Interprétation
     Actors: Acteurs
@@ -1991,9 +2001,11 @@ fr-CA:
       post_summary:
         one: "%{count} réponse (sur la page %{current_page} de %{total_pages})"
         other: "%{count} réponses (sur la page %{current_page} de %{total_pages})"
+        many: "%{count} réponses (sur la page %{current_page} de %{total_pages})"
       summary:
         one: "%{count} discussion, actuellement sur la page %{current_page} de %{total_pages}"
         other: "%{count} discussions, actuellement sur la page %{current_page} de %{total_pages}"
+        many: "%{count} discussions, actuellement sur la page %{current_page} de %{total_pages}"
     post:
       delete: Supprimer
       edit: Éditer
@@ -2154,6 +2166,7 @@ fr-CA:
   episode_count:
     one: "%{count} épisode"
     other: "%{count} épisodes"
+    many: "%{count} épisodes"
   episode_number_name: Épisode %{episode_number}
   error_pages:
     deleted_account:
@@ -2380,9 +2393,11 @@ fr-CA:
   item_count:
     one: "%{count} élément"
     other: "%{count} éléments"
+    many: "%{count} éléments"
   item_count_more:
     one: "%{count} de plus..."
     other: "%{count} de plus..."
+    many: "%{count} de plus..."
   jobs:
     '"A" Camera Operator':
     '"B" Camera Operator':
@@ -2940,8 +2955,8 @@ fr-CA:
     Musician:
     Negative Cutter:
     Novel:
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3832,9 +3847,11 @@ fr-CA:
     number_of_movies:
       one: film
       other: films
+      many: films
     number_of_shows:
       one: émission
       other: émissions
+      many: émissions
     person:
       edit:
         alternative_names:
@@ -3868,6 +3885,7 @@ fr-CA:
       years_old:
         one: "%{count} an"
         other: "%{count} ans"
+        many: "%{count} ans"
     rating:
       not_rateable:
       rated_with_rating:
@@ -4004,6 +4022,7 @@ fr-CA:
             episodes_added:
               one: "%{count} épisode ajouté!"
               other: "%{count} épisodes ajoutés!"
+              many: "%{count} épisodes ajoutés!"
           name: Nom du groupe
           no_records:
           type: Type
@@ -4033,10 +4052,12 @@ fr-CA:
           count:
             one: "%{count} groupe"
             other: "%{count} groupes"
+            many: "%{count} groupes"
         original_air_date: Date de diffusion originale
       networks:
         one: Réseau
         other: Réseaux
+        many: Réseaux
       primary_characters: Personnages principaux
       series_cast:
       series_crew:
@@ -4127,6 +4148,7 @@ fr-CA:
     number_of_messages:
       one: "%{count} message"
       other: "%{count} messages"
+      many: "%{count} messages"
     options:
       admin: Admin
       archive: Archives
@@ -4163,6 +4185,7 @@ fr-CA:
   month:
     one: "%{count} mois"
     other: "%{count} mois"
+    many: "%{count} mois"
   navigation:
     discover:
       discover: Découvrir
@@ -4287,18 +4310,23 @@ fr-CA:
   number_of_edits:
     one: "%{count} modification"
     other: "%{count} modifications"
+    many: "%{count} modifications"
   number_of_items:
     one: "%{count} élément"
     other: "%{count} éléments"
+    many: "%{count} éléments"
   number_of_results:
     one: "%{count} résultat"
     other: "%{count} résultats"
+    many: "%{count} résultats"
   number_of_translations:
     one: "%{count} traduction"
     other: "%{count} traductions"
+    many: "%{count} traductions"
   number_of_votes:
     one: "%{count} vote"
     other: "%{count} votes"
+    many: "%{count} votes"
   ott:
     available_sentences:
       ads: regarder avec publicité
@@ -4660,6 +4688,7 @@ fr-CA:
   translation:
     one: traduction
     other: traductions
+    many: traductions
   upload_backdrop: Uploader une toile de fond
   upload_headshot: Téléverser une photo de profil
   upload_poster: Uploader une affiche

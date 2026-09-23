@@ -170,6 +170,7 @@ es-MX:
   Email Address: Dirección de Email
   Email Content: Contenido de Email
   Embed:
+  Episode: 'Images.other: Imágenes del Episodio'
   Episode Images:
     one: Imagen del Episodio
     other: Imágenes del Episodio
@@ -579,6 +580,7 @@ es-MX:
         number_of_items:
           one: "%{count} Correo electrónico"
           other: "%{count} Correos electrónicos"
+          many: "%{count} Correos electrónicos"
       events: Eventos
       notifications:
         filters:
@@ -593,6 +595,7 @@ es-MX:
         number_of_items:
           one: "%{count} Notificación"
           other: "%{count} Notificaciones"
+          many: "%{count} Notificaciones"
       page_title:
         recent_events: Eventos recientes
       recent: Reciente
@@ -714,9 +717,11 @@ es-MX:
       no_upcoming_movies:
         one: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
         other: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       no_upcoming_tv_shows:
         one: No hay Programas de TV próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
         other: No hay Programas de TVpróximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay Programas de TVpróximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: MI lista de seguimiento
         public: Lista de seguimiento de %{username}
@@ -846,10 +851,12 @@ es-MX:
       number:
         one:
         other:
+        many: ''
       one: 1 Nominación
       other: "%{count} Nominaciones"
       title:
       shared_with:
+      many: "%{count} Nominaciones"
     nominee: Nominado
     show_info:
       directed_by: Dirigido por
@@ -865,6 +872,7 @@ es-MX:
     wins:
       one: 1 Ganado
       other: "%{count} Ganados"
+      many: "%{count} Ganados"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1806,6 +1814,7 @@ es-MX:
   days:
     one: día
     other: "%{count} días"
+    many: "%{count} días"
   deleted_content:
     entry_deleted: Entrada eliminada
     reasons:
@@ -1853,6 +1862,7 @@ es-MX:
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
+    many: "%{department} (%{count} créditos)"
   departments:
     Acting: Actuando
     Actors: Actores
@@ -2029,9 +2039,11 @@ es-MX:
       post_summary:
         one: "%{count} Respuesta de (on page %{current_page} de %{total_pages})"
         other: "%{count} respuestas (on page %{current_page} de %{total_pages})"
+        many: "%{count} respuestas (on page %{current_page} de %{total_pages})"
       summary:
         one: "%{count} Discusión, actual en la página %{current_page} de %{total_pages}"
         other: "%{count} discusiones, actualmente en la página %{current_page} de %{total_pages}"
+        many: "%{count} discusiones, actualmente en la página %{current_page} de %{total_pages}"
     post:
       delete: Borrar
       edit: Editar
@@ -2192,6 +2204,7 @@ es-MX:
   episode_count:
     one: "%{count} Episodio"
     other: "%{count} Episodios"
+    many: "%{count} Episodios"
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
@@ -2418,6 +2431,7 @@ es-MX:
   item_count:
     one: "%{count} elemento"
     other: "%{count} elementos"
+    many: "%{count} elementos"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operador de Cámara "A"
@@ -2976,8 +2990,8 @@ es-MX:
     Musician: Músico
     Negative Cutter: Cortador de negativos
     Novel: Novela
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -4185,6 +4199,7 @@ es-MX:
   month:
     one: mes
     other: "%{count} meses"
+    many: "%{count} meses"
   navigation:
     discover:
       discover: Descubrir
@@ -4309,16 +4324,20 @@ es-MX:
   number_of_edits:
     one: "%{count} edición"
     other: "%{count} ediciones"
+    many: "%{count} ediciones"
   number_of_items:
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
+    many: "%{count} resultados"
   number_of_translations:
     one: "%{count} traducción"
     other: "%{count} traducciones"
+    many: "%{count} traducciones"
   number_of_votes:
     one: "%{count} voto"
     other: "%{count} votos"
+    many: "%{count} votos"
   ott:
     available_sentences:
       ads:
@@ -4677,6 +4696,7 @@ es-MX:
   translation:
     one: traducción
     other: traducciones
+    many: traducciones
   upload_backdrop: Subir una Imagen de fondo
   upload_headshot:
   upload_poster: Subir un Poster

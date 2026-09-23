@@ -577,6 +577,7 @@ es-CL:
         number_of_items:
           one: "%{count} correo electrónico"
           other: "%{count} correos electrónicos"
+          many: "%{count} correos electrónicos"
       events: Eventos
       notifications:
         filters:
@@ -590,9 +591,11 @@ es-CL:
         notifications:
           one: Notificación
           other: Notificaciones
+          many: Notificaciones
         number_of_items:
           one: "%{count} notificación"
           other: "%{count} notificaciones"
+          many: "%{count} notificaciones"
       page_title:
         recent_events: Eventos recientes
       recent: Recientes
@@ -714,9 +717,11 @@ es-CL:
       no_upcoming_movies:
         one: No hay ninguna película por estrenarse en tus pendientes. Aunque sí hay %{count} ítem en tus pendientes.
         other: No hay ninguna película por estrenarse en tus pendientes. Aunque sí hay %{count} ítems en tus pendientes.
+        many: No hay ninguna película por estrenarse en tus pendientes. Aunque sí hay %{count} ítems en tus pendientes.
       no_upcoming_tv_shows:
         one: No hay ningún programa de televisión por estrenarse en tus pendientes. Aunque sí hay %{count} ítem en tus pendientes.
         other: No hay ningún programa de televisión por estrenarse en tus pendientes. Aunque sí hay %{count} ítems en tus pendientes.
+        many: No hay ningún programa de televisión por estrenarse en tus pendientes. Aunque sí hay %{count} ítems en tus pendientes.
       page_title:
         page_owner: Mis pendientes
         public: Pendientes de %{username}
@@ -846,10 +851,12 @@ es-CL:
       number:
         one:
         other:
+        many: ''
       one: 1 nominación
       other: "%{count} nominaciones"
       title:
       shared_with:
+      many: "%{count} nominaciones"
     nominee: Nominado
     show_info:
       directed_by: Dirigido por
@@ -865,6 +872,7 @@ es-CL:
     wins:
       one: 1 premio
       other: "%{count} premios"
+      many: "%{count} premios"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1784,6 +1792,7 @@ es-CL:
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
+    many: "%{department} (%{count} créditos)"
   departments:
     Acting:
     Actors:
@@ -2346,9 +2355,11 @@ es-CL:
   item_count:
     one: "%{count} elemento"
     other: "%{count} elementos"
+    many: "%{count} elementos"
   item_count_more:
     one: "%{count} más..."
     other: "%{count} más..."
+    many: "%{count} más..."
   jobs:
     '"A" Camera Operator':
     '"B" Camera Operator':
@@ -2906,8 +2917,8 @@ es-CL:
     Musician:
     Negative Cutter:
     Novel:
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3523,6 +3534,7 @@ es-CL:
     items_on_list:
       one: Elemento en esta nómina
       other: Elementos en esta nómina
+      many: Elementos en esta nómina
     items_seen: Elementos que ya he visto
     list_by: Nómina por
     list_options: Preferencias de nómina
@@ -3839,6 +3851,7 @@ es-CL:
       rating_count:
         one: Calificación de %{count}
         other: Calificaciones de %{count}
+        many: Calificaciones de %{count}
       removed: Tu calificación se ha borrado.
       score_breakdown: Desglose de la puntuación
       score_distribution: Distribución de la puntuación
@@ -4245,6 +4258,7 @@ es-CL:
   number_of_items:
     one: "%{count} elemento"
     other: "%{count} elementos"
+    many: "%{count} elementos"
   number_of_results:
   number_of_translations:
   number_of_votes:

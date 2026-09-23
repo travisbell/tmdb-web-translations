@@ -585,6 +585,7 @@ pt-BR:
         number_of_items:
           one: "%{count} e-mail"
           other: "%{count} e-mails"
+          many: "%{count} e-mails"
       events: Eventos
       notifications:
         filters:
@@ -599,6 +600,7 @@ pt-BR:
         number_of_items:
           one: "%{count} Notificação"
           other: "%{count} Notificações"
+          many: "%{count} Notificações"
       page_title:
         recent_events: Eventos recentes
       recent: Recente
@@ -720,9 +722,11 @@ pt-BR:
       no_upcoming_movies:
         one: Não há nenhum filme que estreará em breve na sua lista de interesses. No entanto, você tem %{count} item na sua lista de interesses.
         other: Não há nenhum filme que estreará em breve na sua lista de interesses. No entanto, você tem %{count} itens na sua lista de interesses.
+        many: Não há nenhum filme que estreará em breve na sua lista de interesses. No entanto, você tem %{count} itens na sua lista de interesses.
       no_upcoming_tv_shows:
         one: Não há nenhuma Série que estreará em breve na sua lista de interesses. No entanto, você tem %{count} item na sua lista de interesses.
         other: Não há nenhuma Série que estreará em breve na sua lista de interesses. No entanto, você tem %{count} itens na sua lista de interesses.
+        many: Não há nenhuma Série que estreará em breve na sua lista de interesses. No entanto, você tem %{count} itens na sua lista de interesses.
       page_title:
         page_owner: Minha Lista de Interesses
         public: Lista de Interesses de %{username}
@@ -862,10 +866,12 @@ pt-BR:
       number:
         one:
         other:
+        many: ''
       one: Uma indicação
       other: "%{count} Indicações"
       title:
       shared_with:
+      many: "%{count} Indicações"
     nominee: Indicado
     show_info:
       directed_by: Dirigido por
@@ -881,6 +887,7 @@ pt-BR:
     wins:
       one: 1 Vitória
       other: "%{count} Vitórias"
+      many: "%{count} Vitórias"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1828,6 +1835,7 @@ pt-BR:
   days:
     one: dia
     other: "%{count} dias"
+    many: "%{count} dias"
   deleted_content:
     entry_deleted: Entrada excluída
     reasons:
@@ -1875,6 +1883,7 @@ pt-BR:
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
+    many: "%{department} (%{count} créditos)"
   departments:
     Acting: Atuação
     Actors: Atores
@@ -2051,9 +2060,11 @@ pt-BR:
       post_summary:
         one: "%{count} resposta (na página %{current_page} de %{total_pages})"
         other: "%{count} respostas (na página %{current_page} de %{total_pages})"
+        many: "%{count} respostas (na página %{current_page} de %{total_pages})"
       summary:
         one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
         other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
+        many: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
     post:
       delete: Excluir
       edit: Editar
@@ -2214,6 +2225,7 @@ pt-BR:
   episode_count:
     one: "%{count} episódio"
     other: "%{count} episódios"
+    many: "%{count} episódios"
   episode_number_name: Episódio %{episode_number}
   error_pages:
     deleted_account:
@@ -2289,6 +2301,7 @@ pt-BR:
       less_than_or_equal_to:
         one: deve ser menor ou igual a %{count}
         other: deve ser menor ou igual a %{count}
+        many: deve ser menor ou igual a %{count}
       model_invalid:
       no_characters_found: Nenhum personagem encontrado
       not_a_number: não é um número
@@ -2451,9 +2464,11 @@ pt-BR:
   item_count:
     one: "%{count} item"
     other: "%{count} itens"
+    many: "%{count} itens"
   item_count_more:
     one: "%{count} mais..."
     other: "%{count} mais..."
+    many: "%{count} mais..."
   jobs:
     '"A" Camera Operator': Operador de Câmera
     '"B" Camera Operator': Operador de Câmera "B"
@@ -3015,8 +3030,8 @@ pt-BR:
     Musician: Musico
     Negative Cutter:
     Novel: Novela
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3698,6 +3713,7 @@ pt-BR:
       number_of_changes:
         one: "%{count} Alteração"
         other: "%{count} Alterações"
+        many: "%{count} Alterações"
       view_weekly_leaderboard: Mostrar o placar semanal
     character:
       edit:
@@ -3915,9 +3931,11 @@ pt-BR:
     number_of_movies:
       one: filme
       other: filmes
+      many: filmes
     number_of_shows:
       one: séries
       other: séries
+      many: séries
     person:
       edit:
         alternative_names:
@@ -3951,12 +3969,14 @@ pt-BR:
       years_old:
         one: ''
         other: "%{count} de Idade"
+        many: "%{count} de Idade"
     rating:
       not_rateable: Este item ainda não pode ser avaliado.
       rated_with_rating: Avaliado em %{value}
       rating_count:
         one: "%{count} Avaliação"
         other: "%{count} Avaliações"
+        many: "%{count} Avaliações"
       removed: Sua avaliação foi excluída.
       score_breakdown: Detalhamento da pontuação
       score_distribution: Distribuição da Pontuação
@@ -4091,6 +4111,7 @@ pt-BR:
             episodes_added:
               one: "%{count} episódio adicionado!"
               other: "%{count} episódios adicionados!"
+              many: "%{count} episódios adicionados!"
           name: Nome do grupo
           no_records: Nenhum grupo de episódios foi adicionado.
           type: Tipo
@@ -4120,10 +4141,12 @@ pt-BR:
           count:
             one: "%{count} grupo"
             other: "%{count} grupos"
+            many: "%{count} grupos"
         original_air_date: Ordem de Exibição Original
       networks:
         one: Emissora
         other: Emissoras
+        many: Emissoras
       primary_characters: Personagens Principais
       series_cast: Elenco da série
       series_crew: Equipe da Série
@@ -4219,6 +4242,7 @@ pt-BR:
     number_of_messages:
       one: "%{count} mensagem"
       other: "%{count} mensagens"
+      many: "%{count} mensagens"
     options:
       admin: Admin
       archive: Arquivo
@@ -4255,6 +4279,7 @@ pt-BR:
   month:
     one: mês
     other: "%{count} meses"
+    many: "%{count} meses"
   navigation:
     discover:
       discover: Explorar
@@ -4379,18 +4404,23 @@ pt-BR:
   number_of_edits:
     one: "%{count} edição"
     other: "%{count} edições"
+    many: "%{count} edições"
   number_of_items:
     one: "%{count} item"
     other: "%{count} itens"
+    many: "%{count} itens"
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
+    many: "%{count} resultados"
   number_of_translations:
     one: "%{count} tradução"
     other: "%{count} traduções"
+    many: "%{count} traduções"
   number_of_votes:
     one: "%{count} voto"
     other: "%{count} votos"
+    many: "%{count} votos"
   ott:
     available_sentences:
       ads: assista com anúncios
@@ -4758,6 +4788,7 @@ pt-BR:
   translation:
     one: tradução
     other: traduções
+    many: traduções
   upload_backdrop: Enviar uma imagem de fundo
   upload_headshot: Carregar uma Headshot
   upload_poster: Enviar um pôster
@@ -4807,6 +4838,7 @@ pt-BR:
     your_vibe:
       one: Sua Vibe
       other: Suas Vibes
+      many: Suas Vibes
     your_vibes: Suas vibes
   videos:
     filters:
@@ -4819,6 +4851,7 @@ pt-BR:
     number_of_videos:
       one: "%{count} vídeo"
       other: "%{count} vídeos"
+      many: "%{count} vídeos"
     official_channel: Canal Oficial
     page_title: "%{name} Canal de vídeo"
     popular: Popular

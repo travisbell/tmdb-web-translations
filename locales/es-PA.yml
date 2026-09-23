@@ -577,6 +577,7 @@ es-PA:
         number_of_items:
           one: "%{count} Correo Electrónico"
           other: "%{count} Correos Electrónicos"
+          many: "%{count} Correos Electrónicos"
       events: Eventos
       notifications:
         filters:
@@ -590,9 +591,11 @@ es-PA:
         notifications:
           one: Notificación
           other: Notificaciones
+          many: Notificaciones
         number_of_items:
           one: "%{count} Notificación"
           other: "%{count} Notificaciones"
+          many: "%{count} Notificaciones"
       page_title:
         recent_events: Eventos Recientes
       recent: Reciente
@@ -714,9 +717,11 @@ es-PA:
       no_upcoming_movies:
         one: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
         other: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay películas próximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       no_upcoming_tv_shows:
         one: No hay Programas de TV próximas en tu lista de seguimiento. Sin embargo, hay un elemento %{count} en tu lista de seguimiento.
         other: No hay Programas de TVpróximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay Programas de TVpróximas en tu lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: Mi Lista de Seguimiento
         public: Lista de Seguimiento de %{username}
@@ -846,10 +851,12 @@ es-PA:
       number:
         one:
         other:
+        many: ''
       one: 1 Nominación
       other: "%{count} Nominaciones"
       title:
       shared_with:
+      many: "%{count} Nominaciones"
     nominee: Nominado
     show_info:
       directed_by: Dirigido por
@@ -865,6 +872,7 @@ es-PA:
     wins:
       one: 1 Ganada
       other: "%{count} Ganadas"
+      many: "%{count} Ganadas"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -2922,8 +2930,8 @@ es-PA:
     Musician:
     Negative Cutter:
     Novel:
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:

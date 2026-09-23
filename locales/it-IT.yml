@@ -170,6 +170,7 @@ it-IT:
   Email Address: Indirizzo Email
   Email Content: Contenuto dell'Email
   Embed: Incorpora
+  Episode: 'Images.other: Immagini episodio'
   Episode Images:
     one: ''
     other: Immagini episodio
@@ -579,6 +580,7 @@ it-IT:
         number_of_items:
           one: "%{count} Email"
           other: "%{count} Email"
+          many: "%{count} Email"
       events: Eventi
       notifications:
         filters:
@@ -593,6 +595,7 @@ it-IT:
         number_of_items:
           one: "%{count} Notifica"
           other: "%{count} Notifiche"
+          many: "%{count} Notifiche"
       page_title:
         recent_events: Eventi recenti
       recent: Recenti
@@ -714,9 +717,11 @@ it-IT:
       no_upcoming_movies:
         one: Non ci sono film in uscita nella tua watchlist. C'è tuttavia, %{count} elemento nella tua watchlist.
         other: Non ci sono film in uscita nella tua watchlist. Ci sono tuttavia, %{count} elementi nella tua watchlist.
+        many: Non ci sono film in uscita nella tua watchlist. Ci sono tuttavia, %{count} elementi nella tua watchlist.
       no_upcoming_tv_shows:
         one: Non ci sono serie Tv imminenti nella tua lista di controllo. C'è tuttavia, %{count} elemento nella tua lista watchlist.
         other: Non ci sono serie Tv imminenti nella tua lista di controllo. Ci sono tuttavia, %{count} elementi nella tua watchlist.
+        many: Non ci sono serie Tv imminenti nella tua lista di controllo. Ci sono tuttavia, %{count} elementi nella tua watchlist.
       page_title:
         page_owner: La mia Watchlist
         public: Watchlist di %{username}
@@ -1791,6 +1796,7 @@ it-IT:
   days:
     one: giorno
     other: "%{count} giorni"
+    many: "%{count} giorni"
   deleted_content:
     entry_deleted: Voce cancellata
     reasons:
@@ -1838,6 +1844,7 @@ it-IT:
   department_credits_count:
     one: "%{department} (%{count} crediti)"
     other: "%{department} (%{count} crediti)"
+    many: "%{department} (%{count} crediti)"
   departments:
     Acting: Recitazione
     Actors: Attori
@@ -2014,9 +2021,11 @@ it-IT:
       post_summary:
         one: "%{count} risposta (nella pagina %{current_page} di %{total_pages})"
         other: "%{count} risposte (nella pagina %{current_page} di %{total_pages})"
+        many: "%{count} risposte (nella pagina %{current_page} di %{total_pages})"
       summary:
         one: "%{count} discussione, attualmente a pagina %{current_page} di %{total_pages}"
         other: "%{count} discussioni, attualmente a pagina %{current_page} di %{total_pages}"
+        many: "%{count} discussioni, attualmente a pagina %{current_page} di %{total_pages}"
     post:
       delete: Elimina
       edit: Modifica
@@ -2177,6 +2186,7 @@ it-IT:
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodi"
+    many: "%{count} episodi"
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
@@ -2406,6 +2416,7 @@ it-IT:
   item_count:
     one: "%{count} articolo"
     other: "%{count} articoli"
+    many: "%{count} articoli"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operatore Camera "A"
@@ -2964,8 +2975,8 @@ it-IT:
     Musician: Musicista
     Negative Cutter:
     Novel: Romanzo
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3647,6 +3658,7 @@ it-IT:
       number_of_changes:
         one: "%{count} Cambio"
         other: "%{count} Cambi"
+        many: "%{count} Cambi"
       view_weekly_leaderboard: Visualizza Classifica Settimanale
     character:
       edit:
@@ -3864,9 +3876,11 @@ it-IT:
     number_of_movies:
       one: film
       other: film
+      many: film
     number_of_shows:
       one: serie
       other: serie
+      many: serie
     person:
       edit:
         alternative_names:
@@ -4034,6 +4048,7 @@ it-IT:
             episodes_added:
               one: "%{count} episodio aggiunto!"
               other: "%{count} episodi aggiunti!"
+              many: "%{count} episodi aggiunti!"
           name: Nome Gruppo
           no_records: Nessun gruppo episodi è stato aggiunto.
           type: Tipo
@@ -4063,10 +4078,12 @@ it-IT:
           count:
             one: "%{count} Gruppo"
             other: "%{count} Gruppi"
+            many: "%{count} Gruppi"
         original_air_date: Messa in Onda Originale
       networks:
         one: Network
         other: Network
+        many: Network
       primary_characters:
       series_cast:
       series_crew:
@@ -4162,6 +4179,7 @@ it-IT:
     number_of_messages:
       one: "%{count} messaggio"
       other: "%{count} messaggi"
+      many: "%{count} messaggi"
     options:
       admin: Admin
       archive: Archivio
@@ -4198,6 +4216,7 @@ it-IT:
   month:
     one: mese
     other: "%{count} mesi"
+    many: "%{count} mesi"
   navigation:
     discover:
       discover: Scopri
@@ -4322,18 +4341,23 @@ it-IT:
   number_of_edits:
     one: "%{count} modifica"
     other: "%{count} modifiche"
+    many: "%{count} modifiche"
   number_of_items:
     one: "%{count} articolo"
     other: "%{count} articoli"
+    many: "%{count} articoli"
   number_of_results:
     one: "%{count} risultato"
     other: "%{count} risultati"
+    many: "%{count} risultati"
   number_of_translations:
     one: "%{count} traduzione"
     other: "%{count} traduzioni"
+    many: "%{count} traduzioni"
   number_of_votes:
     one: "%{count} voto"
     other: "%{count} voti"
+    many: "%{count} voti"
   ott:
     available_sentences:
       ads:
@@ -4698,6 +4722,7 @@ it-IT:
   translation:
     one: Traduzione
     other: Traduzioni
+    many: Traduzioni
   upload_backdrop: Carica uno sfondo
   upload_headshot:
   upload_poster: Carica un Poster

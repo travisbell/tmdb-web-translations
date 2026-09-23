@@ -577,6 +577,7 @@ he-IL:
         number_of_items:
           one: דוא״ל %{count}
           other: "%{count} דוא״לים"
+          two: "%{count} דוא״לים"
       events: אירועים
       notifications:
         filters:
@@ -591,6 +592,7 @@ he-IL:
         number_of_items:
           one: התראה %{count}
           other: "%{count} התראות"
+          two: "%{count} התראות"
       page_title:
         recent_events: אירועים אחרונים
       recent: אחרונים
@@ -712,9 +714,11 @@ he-IL:
       no_upcoming_movies:
         one: אין סרטים עתידיים ברשימת הצפייה שלך. יש אולם פריט %{count} ברשימת הצפייה שלך.
         other: אין סרטים עתידיים ברשימת הצפייה שלך. יש אולם %{count} פריטים ברשימת הצפייה שלך.
+        two: אין סרטים עתידיים ברשימת הצפייה שלך. יש אולם %{count} פריטים ברשימת הצפייה שלך.
       no_upcoming_tv_shows:
         one: אין סדרות עתידיות ברשימת הצפייה שלך. יש אולם פריט %{count} ברשימת הצפייה שלך.
         other: אין סדרות עתידיות ברשימת הצפייה שלך. יש אולם %{count} פריטים ברשימת הצפייה שלך.
+        two: אין סדרות עתידיות ברשימת הצפייה שלך. יש אולם %{count} פריטים ברשימת הצפייה שלך.
       page_title:
         page_owner: רשימת הצפייה שלי
         public: רשימת הצפייה של %{username}
@@ -1789,6 +1793,7 @@ he-IL:
   days:
     one: יום
     other: "%{count} ימים"
+    two: "%{count} ימים"
   deleted_content:
     entry_deleted: הערך נמחק
     reasons:
@@ -1836,6 +1841,7 @@ he-IL:
   department_credits_count:
     one: "%{department} (קרדיט %{count})"
     other: "%{department} (%{count} קרדיטים)"
+    two: "%{department} (%{count} קרדיטים)"
   departments:
     Acting: משחק
     Actors: שחקנים
@@ -2012,9 +2018,11 @@ he-IL:
       post_summary:
         one: תגובה %{count} (בדף %{current_page} מתוך %{total_pages})
         other: "%{count} תגובות (בדף %{current_page} מתוך %{total_pages})"
+        two: "%{count} תגובות (בדף %{current_page} מתוך %{total_pages})"
       summary:
         one: דיון %{count}, כרגע בדף %{current_page} מתוך %{total_pages}
         other: "%{count} דיונים, כרגע בדף %{current_page} מתוך %{total_pages}"
+        two: "%{count} דיונים, כרגע בדף %{current_page} מתוך %{total_pages}"
     post:
       delete: מחק
       edit: ערוך
@@ -2175,6 +2183,7 @@ he-IL:
   episode_count:
     one: פרק %{count}
     other: "%{count} פרקים"
+    two: "%{count} פרקים"
   episode_number_name: פרק %{episode_number}
   error_pages:
     deleted_account:
@@ -2407,9 +2416,11 @@ he-IL:
   item_count:
     one: פריט %{count}
     other: "%{count} פריטים"
+    two: "%{count} פריטים"
   item_count_more:
     one: "…עוד %{count}"
     other: "…עוד %{count}"
+    two: "…עוד %{count}"
   jobs:
     '"A" Camera Operator': מתפעל מצלמה "איי"
     '"B" Camera Operator': מתפעל מצלמה "בי"
@@ -2967,8 +2978,8 @@ he-IL:
     Musician: מוזיקאי
     Negative Cutter:
     Novel: רומן
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3585,6 +3596,7 @@ he-IL:
       many: פריטים ברשימה זו
       one: פריט ברשימה זו
       other: פריטים ברשימה זו
+      two: פריטים ברשימה זו
     items_seen:
     list_by:
     list_options:
@@ -3650,6 +3662,7 @@ he-IL:
       number_of_changes:
         one: שינוי %{count}
         other: "%{count} שינויים"
+        two: "%{count} שינויים"
       view_weekly_leaderboard: הצג לוח תוצאות שבועי
     character:
       edit:
@@ -3867,9 +3880,11 @@ he-IL:
     number_of_movies:
       one: סרט
       other: סרטים
+      two: סרטים
     number_of_shows:
       one: סדרה
       other: סדרות
+      two: סדרות
     person:
       edit:
         alternative_names:
@@ -3903,12 +3918,14 @@ he-IL:
       years_old:
         one: ''
         other: בן/בת %{count}
+        two: בן/בת %{count}
     rating:
       not_rateable:
       rated_with_rating: דורג %{value}
       rating_count:
         one: "%{count} דירוג"
         other: "%{count} דירוגים"
+        two: "%{count} דירוגים"
       removed:
       score_breakdown: מפולת ניקודים
       score_distribution: התפלגות ניקודים
@@ -4041,6 +4058,7 @@ he-IL:
             episodes_added:
               one: פרק %{count} התווסף
               other: "%{count} פרקים התווספו"
+              two: "%{count} פרקים התווספו"
           name: שם קבוצה
           no_records: ".קבוצות פרקים לא התווספו עדיין"
           type: סוג
@@ -4070,10 +4088,12 @@ he-IL:
           count:
             one: קבוצה %{count}
             other: "%{count} קבוצות"
+            two: "%{count} קבוצות"
         original_air_date: תאריך מקורי של שידור
       networks:
         one: רשת
         other: רשתות
+        two: רשתות
       primary_characters: דמויות ראשיות
       series_cast: לַהַק סדרה
       series_crew: סגל סדרה
@@ -4172,6 +4192,7 @@ he-IL:
     number_of_messages:
       one: הודעה %{count}
       other: "%{count} הודעות"
+      two: "%{count} הודעות"
     options:
       admin: מינהלן
       archive: ארכיון
@@ -4208,6 +4229,7 @@ he-IL:
   month:
     one: 'חודש '
     other: "%{count} חודשים"
+    two: "%{count} חודשים"
   navigation:
     discover:
       discover: גלה
@@ -4332,18 +4354,23 @@ he-IL:
   number_of_edits:
     one: "%{count} עריכה"
     other: "%{count} עריכות"
+    two: "%{count} עריכות"
   number_of_items:
     one: פריט %{count}
     other: "%{count} פריטים"
+    two: "%{count} פריטים"
   number_of_results:
     one: "%{count} תוצאה"
     other: "%{count} תוצאות"
+    two: "%{count} תוצאות"
   number_of_translations:
     one: "%{count} תרגום"
     other: "%{count} תרגומים"
+    two: "%{count} תרגומים"
   number_of_votes:
     one: "%{count} הצבעה"
     other: "%{count} הצבעות"
+    two: "%{count} הצבעות"
   ott:
     available_sentences:
       ads: צפה עם פרסומות
@@ -4383,6 +4410,7 @@ he-IL:
       many: "%{count} עונות"
       one: עונה %{count}
       other: "%{count} עונות"
+      two: "%{count} עונות"
     view_offers: הצג הצעות
     watch_now: צפה עכשיו
     watch_on:
@@ -4711,6 +4739,7 @@ he-IL:
   translation:
     one: תרגום
     other: תרגומים
+    two: תרגומים
   upload_backdrop: העלה תפאורת־רקע
   upload_headshot: העלה תצלום פנים
   upload_poster: העלה כרזה
@@ -4770,6 +4799,7 @@ he-IL:
     number_of_videos:
       one: וידיאו %{count}
       other: "%{count} וידיאוים"
+      two: "%{count} וידיאוים"
     official_channel: ערוץ רשמי
     page_title: "%{name} ערוץ וידיאו של"
     popular: פופולרי

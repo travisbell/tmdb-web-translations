@@ -588,6 +588,7 @@ pl-PL:
           few: "%{count} maile"
           one: "%{count} mail"
           other: "%{count} maili"
+          many: "%{count} maili"
       events: Wydarzenia
       notifications:
         filters:
@@ -603,6 +604,7 @@ pl-PL:
           few: "%{count} notyfikacje"
           one: "%{count} notyfikacja"
           other: "%{count} notyfikacji"
+          many: "%{count} notyfikacji"
       page_title:
         recent_events: Ostatnie wydarzenia
       recent: Ostatnie
@@ -725,10 +727,12 @@ pl-PL:
         few: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} filmy.
         one: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} film.
         other: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} filmów.
+        many: Nie ma nadchodzących filmów na twojej liście obserwowanych. Jednakże obserwujesz %{count} filmów.
       no_upcoming_tv_shows:
         few: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} seriale.
         one: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} serial.
         other: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} seriali.
+        many: Nie ma nadchodzących seriali na twojej liście obserwowanych. Jednakże obserwujesz %{count} seriali.
       page_title:
         page_owner: Moje obserwowane
         public: Obserwowane przez %{username}
@@ -865,6 +869,7 @@ pl-PL:
       other: "%{count} nominacji"
       title:
       shared_with:
+      many: "%{count} nominacji"
     nominee: Nominowany
     show_info:
       directed_by: Reżyseria
@@ -1818,6 +1823,7 @@ pl-PL:
     few: ''
     one: dzień
     other: "%{count} dni"
+    many: "%{count} dni"
   deleted_content:
     entry_deleted: Wpis skazowany
     reasons:
@@ -1866,6 +1872,7 @@ pl-PL:
     few: "%{department} (%{count} kredyty)"
     one: "%{department} (%{count} kredyt)"
     other: "%{department} (%{count} kredytów)"
+    many: "%{department} (%{count} kredytów)"
   departments:
     Acting: Aktor
     Actors: Aktorzy
@@ -2043,10 +2050,12 @@ pl-PL:
         few: ''
         one: "%{count} odpowiedź (strona %{current_page} z %{total_pages})"
         other: "%{count} odpowiedzi (strona %{current_page} z %{total_pages})"
+        many: "%{count} odpowiedzi (strona %{current_page} z %{total_pages})"
       summary:
         few: ''
         one: "%{count} dyskusja, strona %{current_page} z %{total_pages}"
         other: "%{count} dyskusji, strona %{current_page} z %{total_pages}"
+        many: "%{count} dyskusji, strona %{current_page} z %{total_pages}"
     post:
       delete: Usuń
       edit: Edytuj
@@ -2208,6 +2217,7 @@ pl-PL:
     few: "%{count} odcinków"
     one: "%{count} odcinek"
     other: "%{count} odcinki"
+    many: "%{count} odcinki"
   episode_number_name: Odcinek %{episode_number}
   error_pages:
     deleted_account:
@@ -2435,6 +2445,7 @@ pl-PL:
     few: "%{count} elementy"
     one: "%{count} element"
     other: "%{count} elementów"
+    many: "%{count} elementów"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operator kamery "A"
@@ -2997,8 +3008,8 @@ pl-PL:
     Musician:
     Negative Cutter:
     Novel: Powieść
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -4208,6 +4219,7 @@ pl-PL:
     few: "%{count} miesiące"
     one: miesiąc
     other: "%{count} miesięcy"
+    many: "%{count} miesięcy"
   navigation:
     discover:
       discover: Odkrywaj
@@ -4333,22 +4345,27 @@ pl-PL:
     few: ''
     one: "%{count} edycja"
     other: "%{count} edycji"
+    many: "%{count} edycji"
   number_of_items:
     few: ''
     one: "%{count} element"
     other: "%{count} elementów"
+    many: "%{count} elementów"
   number_of_results:
     few: "%{count} wyniki"
     one: "%{count} wynik"
     other: "%{count} wyników"
+    many: "%{count} wyników"
   number_of_translations:
     few: "%{count} tłumaczenia"
     one: "%{count} tłumaczenie"
     other: "%{count} tłumaczeń"
+    many: "%{count} tłumaczeń"
   number_of_votes:
     few: "%{count} głosy"
     one: "%{count} głos"
     other: "%{count} głosów"
+    many: "%{count} głosów"
   ott:
     available_sentences:
       ads: oglądaj z reklamami
@@ -4708,6 +4725,7 @@ pl-PL:
     few: tłumaczenia
     one: tłumaczenie
     other: tłumaczeń
+    many: tłumaczeń
   upload_backdrop: Wysyłanie tła
   upload_headshot:
   upload_poster: Wysyłanie plakatu

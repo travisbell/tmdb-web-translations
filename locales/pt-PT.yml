@@ -170,6 +170,7 @@ pt-PT:
   Email Address: Endereço de E-mail
   Email Content: Enviar Conteúdo por E-mail
   Embed:
+  Episode: 'Images.other: Imagens do Episódio'
   Episode Images:
     one: Imagem do Episódio
     other: Imagens do Episódio
@@ -579,6 +580,7 @@ pt-PT:
         number_of_items:
           one: "%{count} E-mail"
           other: "%{count} E-mails"
+          many: "%{count} E-mails"
       events: Eventos
       notifications:
         filters:
@@ -593,6 +595,7 @@ pt-PT:
         number_of_items:
           one: "%{count} Notificação"
           other: "%{count} Notificações"
+          many: "%{count} Notificações"
       page_title:
         recent_events: Eventos Recentes
       recent: Recente
@@ -714,9 +717,11 @@ pt-PT:
       no_upcoming_movies:
         one: Não existem filmes a estrear na tua lista de interesses. No entanto, tens %{count} item na tua lista de interesses.
         other: Não existem filmes a estrear na tua lista de interesses. No entanto, tens %{count} itens na tua lista de interesses.
+        many: Não existem filmes a estrear na tua lista de interesses. No entanto, tens %{count} itens na tua lista de interesses.
       no_upcoming_tv_shows:
         one: Não existem séries a estrear na tua lista de interesses. No entanto, tens %{count} item na tua lista de interesses.
         other: Não existem séries a estrear na tua lista de interesses. No entanto, tens %{count} itens na tua lista de interesses.
+        many: Não existem séries a estrear na tua lista de interesses. No entanto, tens %{count} itens na tua lista de interesses.
       page_title:
         page_owner: A minha lista de interesses
         public: Lista de interesses de %{username}
@@ -1791,6 +1796,7 @@ pt-PT:
   days:
     one: dia
     other: "%{count} dias"
+    many: "%{count} dias"
   deleted_content:
     entry_deleted: Registo Removido
     reasons:
@@ -1837,6 +1843,7 @@ pt-PT:
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
+    many: "%{department} (%{count} créditos)"
   departments:
     Acting: Atuação
     Actors: Atores/Atrizes
@@ -2013,9 +2020,11 @@ pt-PT:
       post_summary:
         one: "%{count} resposta (na página %{current_page} de %{total_pages})"
         other: "%{count} respostas (na página %{current_page} de %{total_pages})"
+        many: "%{count} respostas (na página %{current_page} de %{total_pages})"
       summary:
         one: "%{count} discussão, atualmente na página %{current_page} de %{total_pages}"
         other: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
+        many: "%{count} discussões, atualmente na página %{current_page} de %{total_pages}"
     post:
       delete: Remover
       edit: Editar
@@ -2176,6 +2185,7 @@ pt-PT:
   episode_count:
     one: "%{count} Episódio"
     other: "%{count} Episódios"
+    many: "%{count} Episódios"
   episode_number_name: Episódio %{episode_number}
   error_pages:
     deleted_account:
@@ -2402,6 +2412,7 @@ pt-PT:
   item_count:
     one: "%{count} item"
     other: "%{count} itens"
+    many: "%{count} itens"
   item_count_more:
   jobs:
     '"A" Camera Operator': Operador de Camera "A"
@@ -2960,8 +2971,8 @@ pt-PT:
     Musician:
     Negative Cutter:
     Novel: Novela
-    "O.B. Lighting":
-    "O.B. Sound":
+    O.B. Lighting:
+    O.B. Sound:
     On Set Computer Graphics:
     On Set Dresser:
     On Set Key Props:
@@ -3645,6 +3656,7 @@ pt-PT:
       number_of_changes:
         one: "%{count} Alteração"
         other: "%{count} Alterações"
+        many: "%{count} Alterações"
       view_weekly_leaderboard: Ver Líderes Semanais
     character:
       edit:
@@ -3862,9 +3874,11 @@ pt-PT:
     number_of_movies:
       one: Filme
       other: Filmes
+      many: Filmes
     number_of_shows:
       one: Série
       other: Séries
+      many: Séries
     person:
       edit:
         alternative_names:
@@ -3902,6 +3916,7 @@ pt-PT:
       rating_count:
         one: "%{count} Classificação"
         other: "%{count} Classificações"
+        many: "%{count} Classificações"
       removed:
       score_breakdown: Repartição da Classificação
       score_distribution: Distribuição das Classificações
@@ -4034,6 +4049,7 @@ pt-PT:
             episodes_added:
               one: "%{count} episódio adicionado!"
               other: "%{count} episódios adicionados!"
+              many: "%{count} episódios adicionados!"
           name: Nome do Grupo
           no_records: Não foi adicionado nenhum grupo de episódios.
           type: Tipo
@@ -4063,10 +4079,12 @@ pt-PT:
           count:
             one: "%{count} Grupo"
             other: "%{count} Grupos"
+            many: "%{count} Grupos"
         original_air_date: Data de Estreia Original
       networks:
         one: Emissora
         other: Emissoras
+        many: Emissoras
       primary_characters:
       series_cast: Elenco da Série
       series_crew: Equipa técnica da série
@@ -4162,6 +4180,7 @@ pt-PT:
     number_of_messages:
       one: "%{count} messagem"
       other: "%{count} messagens"
+      many: "%{count} messagens"
     options:
       admin: Admin
       archive: Arquivo
@@ -4198,6 +4217,7 @@ pt-PT:
   month:
     one: mês
     other: "%{count} meses"
+    many: "%{count} meses"
   navigation:
     discover:
       discover: Explorar
@@ -4322,18 +4342,23 @@ pt-PT:
   number_of_edits:
     one: "%{count} edição"
     other: "%{count} edições"
+    many: "%{count} edições"
   number_of_items:
     one: "%{count} item"
     other: "%{count} itens"
+    many: "%{count} itens"
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
+    many: "%{count} resultados"
   number_of_translations:
     one: "%{count} tradução"
     other: "%{count} traduções"
+    many: "%{count} traduções"
   number_of_votes:
     one: "%{count} voto"
     other: "%{count} votos"
+    many: "%{count} votos"
   ott:
     available_sentences:
       ads: Ver com Publicidade
@@ -4701,6 +4726,7 @@ pt-PT:
   translation:
     one: tradução
     other: traduções
+    many: traduções
   upload_backdrop: Enviar uma imagem de fundo
   upload_headshot:
   upload_poster: Enviar um Cartaz
@@ -4760,6 +4786,7 @@ pt-PT:
     number_of_videos:
       one: "%{count} vídeo"
       other: "%{count} vídeos"
+      many: "%{count} vídeos"
     official_channel: Canal Oficial
     page_title: Canal de vídeo de %{name}
     popular: Popular

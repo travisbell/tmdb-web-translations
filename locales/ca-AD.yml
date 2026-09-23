@@ -170,6 +170,7 @@ ca-AD:
   Email Address: Adreça de correu electrònic
   Email Content: Contingut del correu electrònic
   Embed: Embegut
+  Episode: 'Images.other: Fotogrames de l''episodi'
   Episode Images:
     one: Fotograma de l'episodi
     other: Fotogrames de l'episodi
@@ -579,6 +580,7 @@ ca-AD:
         number_of_items:
           one: "%{count} correu electrònic"
           other: "%{count} correus electrònics"
+          many: "%{count} correus electrònics"
       events: Esdeveniments
       notifications:
         filters:
@@ -592,9 +594,11 @@ ca-AD:
         notifications:
           one: Notificació
           other: Notificacions
+          many: Notificacions
         number_of_items:
           one: "%{count} notificació"
           other: "%{count} notificacions"
+          many: "%{count} notificacions"
       page_title:
         recent_events: Esdeveniments recents
       recent: Recents
@@ -716,9 +720,11 @@ ca-AD:
       no_upcoming_movies:
         one: No hi ha pròximes pel·lícules a la vostra llista de seguiment. No obstant això, hi ha %{count} element a la llista de seguiment.
         other: No hi ha pròximes pel·lícules a la vostra llista de seguiment. No obstant això, hi ha %{count} elements a la llista de seguiment.
+        many: No hi ha pròximes pel·lícules a la vostra llista de seguiment. No obstant això, hi ha %{count} elements a la llista de seguiment.
       no_upcoming_tv_shows:
         one: No hi ha sèries properes a la llista de seguiment. No obstant això, hi ha %{count} element a la llista de seguiment.
         other: No hi ha sèries properes a la llista de seguiment. No obstant això, hi ha %{count} elements a la llista de seguiment.
+        many: No hi ha sèries properes a la llista de seguiment. No obstant això, hi ha %{count} elements a la llista de seguiment.
       page_title:
         page_owner: La meva llista de seguiment
         public: La llista de seguiment de l'usuari %{username}
@@ -848,10 +854,12 @@ ca-AD:
       number:
         one:
         other:
+        many: ''
       one: 1 nominació
       other: "%{count} nominacions"
       title:
       shared_with:
+      many: "%{count} nominacions"
     nominee: Nominat
     show_info:
       directed_by: Dirigit per
@@ -867,6 +875,7 @@ ca-AD:
     wins:
       one: 1 guardó
       other: "%{count} guardons"
+      many: "%{count} guardons"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1809,6 +1818,7 @@ ca-AD:
   days:
     one: dia
     other: "%{count} dies"
+    many: "%{count} dies"
   deleted_content:
     entry_deleted: Entrada eliminada
     reasons:
@@ -1856,6 +1866,7 @@ ca-AD:
   department_credits_count:
     one: "%{department} (%{count} credit)"
     other: "%{department} (%{count} credits)"
+    many: "%{department} (%{count} credits)"
   departments:
     Acting: Interpretació
     Actors: Actors
@@ -2032,9 +2043,11 @@ ca-AD:
       post_summary:
         one: "%{count} resposta (a la pàgina %{current_page} de %{total_pages})"
         other: "%{count} resposta (a les pàgines %{current_page} de %{total_pages})"
+        many: "%{count} resposta (a les pàgines %{current_page} de %{total_pages})"
       summary:
         one: "%{count} debat, actualment a la pàgina %{current_page} de %{total_pages}"
         other: "%{count} debats, actualment a la pàgina %{current_page} de %{total_pages}"
+        many: "%{count} debats, actualment a la pàgina %{current_page} de %{total_pages}"
     post:
       delete: Elimina
       edit: Edita
@@ -2195,6 +2208,7 @@ ca-AD:
   episode_count:
     one: "%{count} episodi"
     other: "%{count} episodis"
+    many: "%{count} episodis"
   episode_number_name: Episodi %{episode_number}
   error_pages:
     deleted_account:
@@ -2257,17 +2271,21 @@ ca-AD:
       equal_to:
         one: ha de ser igual a %{count}
         other: ha de ser igual a %{count}
+        many: ha de ser igual a %{count}
       even: ha de ser parell
       exclusion: està reservat
       greater_than:
         one: ha de ser més gran que %{count}
         other: ha de ser més gran que %{count}
+        many: ha de ser més gran que %{count}
       greater_than_or_equal_to:
         one: ha de ser més gran o igual a %{count}
         other: ha de ser més gran o igual a %{count}
+        many: ha de ser més gran o igual a %{count}
       in:
         one: ha de ser en %{count}
         other: ha de ser en %{count}
+        many: ha de ser en %{count}
       inclusion: ha de ser seleccionat
       invalid: és invàlid
       invalid_character_name: El nom de personatge no hauria de contenir caràcters especials
@@ -2277,9 +2295,11 @@ ca-AD:
       less_than:
         one: ha de ser menor de %{count}
         other: ha de ser menor de %{count}
+        many: ha de ser menor de %{count}
       less_than_or_equal_to:
         one: ha de ser menor o igual a %{count}
         other: han de ser menors o iguals a %{count}
+        many: han de ser menors o iguals a %{count}
       model_invalid: "'Ha fallat la validació: %{errors}'"
       no_characters_found: No s'ha trobat caràcters
       not_a_number: No és un número
@@ -2288,6 +2308,7 @@ ca-AD:
       other_than:
         one: ha de ser diferent de %{count}
         other: ha de ser diferent de %{count}
+        many: ha de ser diferent de %{count}
       present: ha d'estar en blanc
       required: ha d'existir
       series_status_invalid_to_create_season: està configurat com a "Cancel·lat" o "Finalitzat", per tant, no es poden crear noves temporades.
@@ -2296,12 +2317,15 @@ ca-AD:
       too_long:
         one: és massa llarg (el màxim és %{count} caràcter)
         other: és massa llarg (el màxim és %{count} caràcters)
+        many: és massa llarg (el màxim és %{count} caràcters)
       too_short:
         one: és massa curt (el mínim és %{count} caràcter)
         other: és massa curt (el mínim és %{count} caràcters)
+        many: és massa curt (el mínim és %{count} caràcters)
       wrong_length:
         one: és l'allargada errònia (hauria de ser %{count} caràcter)
         other: és l'allargada errònia (hauria de ser %{count} caràcters)
+        many: és l'allargada errònia (hauria de ser %{count} caràcters)
       blocked_words:
       duplicate_review:
     movie:
@@ -2450,9 +2474,11 @@ ca-AD:
   item_count:
     one: "%{count} element"
     other: "%{count} elements"
+    many: "%{count} elements"
   item_count_more:
     one: "%{count} més..."
     other: "%{count} més..."
+    many: "%{count} més..."
   jobs:
     '"A" Camera Operator': Operador de càmera "A"
     '"B" Camera Operator': Operador de càmera "B"
@@ -3010,8 +3036,8 @@ ca-AD:
     Musician: Músic
     Negative Cutter: Tallador de negatius
     Novel: Novel·la
-    "O.B. Lighting": Il·luminació O.B.
-    "O.B. Sound": So OB
+    O.B. Lighting: Il·luminació O.B.
+    O.B. Sound: So OB
     On Set Computer Graphics: Computació gràfica de rodatge
     On Set Dresser: Vestuari de rodatge
     On Set Key Props: Accessoris principals de rodatge
@@ -3627,6 +3653,7 @@ ca-AD:
     items_on_list:
       one: títol en aquesta llista
       other: títols en aquesta llista
+      many: títols en aquesta llista
     items_seen: Títols que he vist
     list_by: Una llista de
     list_options: Llista opcions
@@ -3692,6 +3719,7 @@ ca-AD:
       number_of_changes:
         one: "%{count} canvi"
         other: "%{count} canvis"
+        many: "%{count} canvis"
       view_weekly_leaderboard: Mostra el rànquing setmanal
     character:
       edit:
@@ -3909,9 +3937,11 @@ ca-AD:
     number_of_movies:
       one: pel·lícula
       other: pel·lícules
+      many: pel·lícules
     number_of_shows:
       one: sèrie
       other: sèries
+      many: sèries
     person:
       edit:
         alternative_names:
@@ -3945,12 +3975,14 @@ ca-AD:
       years_old:
         one: "%{count} any"
         other: "%{count} anys"
+        many: "%{count} anys"
     rating:
       not_rateable: Aquest element encara no es pot valorar.
       rated_with_rating: Valorat %{value}
       rating_count:
         one: "%{count} valoració"
         other: "%{count} valoracions"
+        many: "%{count} valoracions"
       removed: La valoració ha estat eliminada
       score_breakdown: Desglossament de la valoració
       score_distribution: Distribució de les valoracions
@@ -4083,6 +4115,7 @@ ca-AD:
             episodes_added:
               one: "%{count} episodi afegit!"
               other: "%{count} episodis afegits!"
+              many: "%{count} episodis afegits!"
           name: Nom de grup
           no_records: No s'han afegit grups d'episodis.
           type: Mena
@@ -4112,10 +4145,12 @@ ca-AD:
           count:
             one: "%{count} grup"
             other: "%{count} grups"
+            many: "%{count} grups"
         original_air_date: Data original d'emissió
       networks:
         one: Cadena
         other: Cadenes
+        many: Cadenes
       primary_characters: Personatges principals
       series_cast: Repartiment de la sèrie
       series_crew: Equip tècnic de la sèrie
@@ -4211,6 +4246,7 @@ ca-AD:
     number_of_messages:
       one: "%{count} missatge"
       other: "%{count} missatges"
+      many: "%{count} missatges"
     options:
       admin: Administrador
       archive: Arxiu
@@ -4247,6 +4283,7 @@ ca-AD:
   month:
     one: mes
     other: "%{count} mesos"
+    many: "%{count} mesos"
   navigation:
     discover:
       discover: Descobriu
@@ -4371,18 +4408,23 @@ ca-AD:
   number_of_edits:
     one: "%{count} edició"
     other: "%{count} edicions"
+    many: "%{count} edicions"
   number_of_items:
     one: "%{count} element"
     other: "%{count} elements"
+    many: "%{count} elements"
   number_of_results:
     one: "%{count} resultat"
     other: "%{count} resultats"
+    many: "%{count} resultats"
   number_of_translations:
     one: "%{count} traducció"
     other: "%{count} traduccions"
+    many: "%{count} traduccions"
   number_of_votes:
     one: "%{count} vot"
     other: "%{count} vots"
+    many: "%{count} vots"
   ott:
     available_sentences:
       ads: visionat amb anuncis
@@ -4421,6 +4463,7 @@ ca-AD:
     seasons:
       one: "%{count} temporada"
       other: "%{count} temporades"
+      many: "%{count} temporades"
     view_offers: Mostra ofertes
     watch_now: Mireu-la ara
     watch_on:
@@ -4749,6 +4792,7 @@ ca-AD:
   translation:
     one: traducció
     other: traduccions
+    many: traduccions
   upload_backdrop: Càrrega d'una imatge de fons
   upload_headshot: Carrega una imatge de perfil
   upload_poster: Càrrega de pòster
@@ -4798,6 +4842,7 @@ ca-AD:
     your_vibe:
       one: La vostra vibra
       other: Les vostres vibres
+      many: Les vostres vibres
     your_vibes: Les vostres vibres
   videos:
     filters:
@@ -4810,6 +4855,7 @@ ca-AD:
     number_of_videos:
       one: "%{count} vídeo"
       other: "%{count} vídeos"
+      many: "%{count} vídeos"
     official_channel: Canal oficial
     page_title: Canal de vídeo %{name}
     popular: Popular

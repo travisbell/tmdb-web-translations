@@ -170,6 +170,7 @@ fr-FR:
   Email Address: Adresse électronique
   Email Content: Contenu du courriel
   Embed: Intégrer
+  Episode: 'Images.other: Fonds d''écran de l''épisode'
   Episode Images:
     one: ''
     other: Fonds d'écran de l'épisode
@@ -579,6 +580,7 @@ fr-FR:
         number_of_items:
           one: "%{count} courriel"
           other: "%{count} courriels"
+          many: "%{count} courriels"
       events: Évènements
       notifications:
         filters:
@@ -592,9 +594,11 @@ fr-FR:
         notifications:
           one: Notifications
           other: Notifications
+          many: Notifications
         number_of_items:
           one: "%{count} notification"
           other: "%{count} notifications"
+          many: "%{count} notifications"
       page_title:
         recent_events: Évènements récents
       recent: Récents
@@ -716,9 +720,11 @@ fr-FR:
       no_upcoming_movies:
         one: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
         other: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
       no_upcoming_tv_shows:
         one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
         other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
@@ -848,10 +854,12 @@ fr-FR:
       number:
         one:
         other:
+        many: ''
       one: 1 nomination
       other: "%{count} nominations"
       title:
       shared_with:
+      many: "%{count} nominations"
     nominee: Nominé·e
     show_info:
       directed_by: Une réalisation de
@@ -867,6 +875,7 @@ fr-FR:
     wins:
       one: 1 victoire
       other: "%{count} victoires"
+      many: "%{count} victoires"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1806,6 +1815,7 @@ fr-FR:
   days:
     one: jour
     other: "%{count} jours"
+    many: "%{count} jours"
   deleted_content:
     entry_deleted: Entrée supprimée
     reasons:
@@ -1853,6 +1863,7 @@ fr-FR:
   department_credits_count:
     one: "%{department} (%{count} apparition)"
     other: "%{department} (%{count} apparitions)"
+    many: "%{department} (%{count} apparitions)"
   departments:
     Acting: Interprétation
     Actors: Artistes
@@ -2029,9 +2040,11 @@ fr-FR:
       post_summary:
         one: "%{count} réponse (sur la page %{current_page} sur %{total_pages})"
         other: "%{count} réponses (sur la page %{current_page} sur %{total_pages})"
+        many: "%{count} réponses (sur la page %{current_page} sur %{total_pages})"
       summary:
         one: "%{count} conversation, actuellement sur la page %{current_page} sur %{total_pages}"
         other: "%{count} conversations, actuellement sur la page %{current_page} sur %{total_pages}"
+        many: "%{count} conversations, actuellement sur la page %{current_page} sur %{total_pages}"
     post:
       delete: Supprimer
       edit: Modifier
@@ -2192,6 +2205,7 @@ fr-FR:
   episode_count:
     one: "%{count} épisode"
     other: "%{count} épisodes"
+    many: "%{count} épisodes"
   episode_number_name: Épisode %{episode_number}
   error_pages:
     deleted_account:
@@ -2254,17 +2268,21 @@ fr-FR:
       equal_to:
         one: doit être égal à %{count}
         other: doivent être égaux à %{count}
+        many: doivent être égaux à %{count}
       even: doit être pair·e
       exclusion: est réservé·e
       greater_than:
         one: doit être supérieur à %{count}
         other: doivent être supérieurs à %{count}
+        many: doivent être supérieurs à %{count}
       greater_than_or_equal_to:
         one: doit être supérieur ou égal à %{count}
         other: doivent être supérieurs ou égaux à %{count}
+        many: doivent être supérieurs ou égaux à %{count}
       in:
         one: doit être dans %{count}
         other: doivent être dans %{count}
+        many: doivent être dans %{count}
       inclusion: doit être sélectionné·e
       invalid: n'est pas valide
       invalid_character_name: Le nom du personnage ne doit pas contenir de caractères spéciaux.
@@ -2274,9 +2292,11 @@ fr-FR:
       less_than:
         one: doit être inférieur·e à %{count}
         other: doivent être inférieur·e·s à %{count}
+        many: doivent être inférieur·e·s à %{count}
       less_than_or_equal_to:
         one: doit être inférieur ou égal à %{count}
         other: doivent être inférieurs ou égaux à %{count}
+        many: doivent être inférieurs ou égaux à %{count}
       model_invalid: "'Échec de validation : %{errors}'"
       no_characters_found: Aucun personnage n'a été trouvé.
       not_a_number: n'est pas un nombre
@@ -2285,6 +2305,7 @@ fr-FR:
       other_than:
         one: doit être différent·e de %{count}
         other: doivent être différent·e·s de %{count}
+        many: doivent être différent·e·s de %{count}
       present: doit être vide
       required: doit exister
       series_status_invalid_to_create_season: est paramétrée soit sur « Annulée », soit sur « Terminée ». Il est donc impossible de créer de nouvelles saisons.
@@ -2293,12 +2314,15 @@ fr-FR:
       too_long:
         one: est trop long·ue (le maximum est de %{count} caractères)
         other: sont trop long·ue·s (le maximum est de %{count} caractères)
+        many: sont trop long·ue·s (le maximum est de %{count} caractères)
       too_short:
         one: est trop court·e (le minimum est de %{count} caractères)
         other: sont trop court·e·s (le minimum est de %{count} caractères)
+        many: sont trop court·e·s (le minimum est de %{count} caractères)
       wrong_length:
         one: n'a pas la bonne longueur (qui doit être de %{count} caractères)
         other: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
+        many: n'ont pas les bonnes longueurs (qui doivent être de %{count} caractères)
       blocked_words:
       duplicate_review:
     movie:
@@ -2447,9 +2471,11 @@ fr-FR:
   item_count:
     one: "%{count} élément"
     other: "%{count} éléments"
+    many: "%{count} éléments"
   item_count_more:
     one: "%{count} de plus..."
     other: "%{count} de plus..."
+    many: "%{count} de plus..."
   jobs:
     '"A" Camera Operator': Cadreuse / Cadreur de la caméra « A »
     '"B" Camera Operator': Cadreuse / Cadreur de la caméra « B »
@@ -3007,8 +3033,8 @@ fr-FR:
     Musician: Musicienne / Musicien
     Negative Cutter: Monteuse / Monteur de négatifs
     Novel: Roman
-    "O.B. Lighting": Éclairage O.B.
-    "O.B. Sound": Son O.B.
+    O.B. Lighting: Éclairage O.B.
+    O.B. Sound: Son O.B.
     On Set Computer Graphics: Infographiste de plateau
     On Set Dresser: Ensemblière / Ensemblier
     On Set Key Props: Accessoiriste de plateau en cheffe / chef
@@ -3690,6 +3716,7 @@ fr-FR:
       number_of_changes:
         one: "%{count} modification"
         other: "%{count} modifications"
+        many: "%{count} modifications"
       view_weekly_leaderboard: Afficher le classement de la semaine
     character:
       edit:
@@ -3907,9 +3934,11 @@ fr-FR:
     number_of_movies:
       one: film
       other: films
+      many: films
     number_of_shows:
       one: émission télévisée
       other: émissions télévisées
+      many: émissions télévisées
     person:
       edit:
         alternative_names:
@@ -3943,12 +3972,14 @@ fr-FR:
       years_old:
         one: ''
         other: "%{count} ans"
+        many: "%{count} ans"
     rating:
       not_rateable: Cet élément n'est pas encore évaluable.
       rated_with_rating: 'Votre évaluation : %{value} / 10.'
       rating_count:
         one: "%{count} évaluation"
         other: "%{count} évaluations"
+        many: "%{count} évaluations"
       removed: Votre évaluation a été supprimée.
       score_breakdown: Répartition des évaluations
       score_distribution: Répartition des évaluations
@@ -4081,6 +4112,7 @@ fr-FR:
             episodes_added:
               one: "%{count} épisode ajouté !"
               other: "%{count} épisodes ajoutés !"
+              many: "%{count} épisodes ajoutés !"
           name: Nom du groupe
           no_records: Aucun groupe d'épisodes n'a été ajouté à cette fiche.
           type: Type
@@ -4110,10 +4142,12 @@ fr-FR:
           count:
             one: "%{count} groupe"
             other: "%{count} groupes"
+            many: "%{count} groupes"
         original_air_date: Date de diffusion originale
       networks:
         one: Diffuseur télévisé
         other: Diffuseurs télévisés
+        many: Diffuseurs télévisés
       primary_characters: Personnages principaux
       series_cast: Distribution des rôles
       series_crew: Équipe technique
@@ -4209,6 +4243,7 @@ fr-FR:
     number_of_messages:
       one: "%{count} message"
       other: "%{count} messages"
+      many: "%{count} messages"
     options:
       admin: Administratrice / Administrateur
       archive: Archive
@@ -4245,6 +4280,7 @@ fr-FR:
   month:
     one: mois
     other: "%{count} mois"
+    many: "%{count} mois"
   navigation:
     discover:
       discover: Découvrir
@@ -4369,18 +4405,23 @@ fr-FR:
   number_of_edits:
     one: " %{count} modification"
     other: " %{count} modifications"
+    many: " %{count} modifications"
   number_of_items:
     one: "%{count} élément"
     other: "%{count} éléments"
+    many: "%{count} éléments"
   number_of_results:
     one: "%{count} résultat"
     other: "%{count} résultats"
+    many: "%{count} résultats"
   number_of_translations:
     one: "%{count} traduction"
     other: "%{count} traductions"
+    many: "%{count} traductions"
   number_of_votes:
     one: "%{count} vote"
     other: "%{count} votes"
+    many: "%{count} votes"
   ott:
     available_sentences:
       ads: 'en visionnage gratuit avec publicités '
@@ -4748,6 +4789,7 @@ fr-FR:
   translation:
     one: traduction
     other: traductions
+    many: traductions
   upload_backdrop: Ajouter un fond d'écran
   upload_headshot: Téléverser une photo de profil
   upload_poster: Ajouter une affiche
@@ -4797,6 +4839,7 @@ fr-FR:
     your_vibe:
       one: Votre ambiance
       other: Vos ambiances
+      many: Vos ambiances
     your_vibes: Vos ambiances
   videos:
     filters:
@@ -4809,6 +4852,7 @@ fr-FR:
     number_of_videos:
       one: "%{count} vidéo"
       other: "%{count} vidéos"
+      many: "%{count} vidéos"
     official_channel: Chaîne officielle
     page_title: Chaîne vidéo de %{name}
     popular: Populaire

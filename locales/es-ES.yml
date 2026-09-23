@@ -170,6 +170,7 @@ es-ES:
   Email Address: Dirección de correo electrónico
   Email Content: Contenido del correo electrónico
   Embed: incrustar
+  Episode: 'Images.other: Imágenes del episodio'
   Episode Images:
     one: Imagen del episodio
     other: Imágenes del episodio
@@ -579,6 +580,7 @@ es-ES:
         number_of_items:
           one: "%{count} Correo electrónico"
           other: "%{count} Correos electrónicos"
+          many: "%{count} Correos electrónicos"
       events: Eventos
       notifications:
         filters:
@@ -592,9 +594,11 @@ es-ES:
         notifications:
           one: Aviso
           other: Avisos
+          many: Avisos
         number_of_items:
           one: "%{count} aviso"
           other: "%{count} avisos"
+          many: "%{count} avisos"
       page_title:
         recent_events: Eventos recientes
       recent: Recientes
@@ -716,9 +720,11 @@ es-ES:
       no_upcoming_movies:
         one: No hay próximas películas en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
         other: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay próximas películas en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       no_upcoming_tv_shows:
         one: No hay próximas series en tu lista de seguimiento. Sin embargo, hay %{count} elemento en tu lista de seguimiento.
         other: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
+        many: No hay próximas series en su lista de seguimiento. Sin embargo, hay %{count} elementos en su lista de seguimiento.
       page_title:
         page_owner: Mi lista de seguimiento
         public: Lista de seguimiento de %{username}
@@ -848,10 +854,12 @@ es-ES:
       number:
         one:
         other:
+        many: ''
       one: 1 nominación
       other: "%{count} nominaciones"
       title:
       shared_with:
+      many: "%{count} nominaciones"
     nominee: Nominado
     show_info:
       directed_by: Dirigido por
@@ -867,6 +875,7 @@ es-ES:
     wins:
       one: 1 victoria
       other: "%{count} victorias"
+      many: "%{count} victorias"
     most_awarded_films:
     most_awarded_people:
     most_nominated_films:
@@ -1810,6 +1819,7 @@ es-ES:
   days:
     one: día
     other: "%{count} días"
+    many: "%{count} días"
   deleted_content:
     entry_deleted: Entrada eliminada
     reasons:
@@ -1857,6 +1867,7 @@ es-ES:
   department_credits_count:
     one: "%{department} (%{count} crédito)"
     other: "%{department} (%{count} créditos)"
+    many: "%{department} (%{count} créditos)"
   departments:
     Acting: Interpretación
     Actors: Actores
@@ -2033,9 +2044,11 @@ es-ES:
       post_summary:
         one: "%{count} respuesta (en la página %{current_page} de %{total_pages})"
         other: "%{count} respuestas (en la página %{current_page} de %{total_pages})"
+        many: "%{count} respuestas (en la página %{current_page} de %{total_pages})"
       summary:
         one: "%{count} debate, actualmente en la página %{current_page} de %{total_pages}"
         other: "%{count} debates, actualmente en la página %{current_page} de %{total_pages}"
+        many: "%{count} debates, actualmente en la página %{current_page} de %{total_pages}"
     post:
       delete: Borrar
       edit: Editar
@@ -2196,6 +2209,7 @@ es-ES:
   episode_count:
     one: "%{count} episodio"
     other: "%{count} episodios"
+    many: "%{count} episodios"
   episode_number_name: Episodio %{episode_number}
   error_pages:
     deleted_account:
@@ -2258,17 +2272,21 @@ es-ES:
       equal_to:
         one: debe ser igual a %{count}
         other: deben ser igual a %{count}
+        many: deben ser igual a %{count}
       even: debe ser parejo
       exclusion: está reservado
       greater_than:
         one: debe ser mayor que %{count}
         other: deben ser mayores que %{count}
+        many: deben ser mayores que %{count}
       greater_than_or_equal_to:
         one: debe ser mayor o igual a %{count}
         other: deben ser mayores o iguales a %{count}
+        many: deben ser mayores o iguales a %{count}
       in:
         one: debe estar en %{count}
         other: deben estar en %{count}
+        many: deben estar en %{count}
       inclusion: debe seleccionarse
       invalid: es inválido
       invalid_character_name: El nombre del personaje no debe contener caracteres especiales
@@ -2278,9 +2296,11 @@ es-ES:
       less_than:
         one: debe ser menor que %{count}
         other: deben ser menores que %{count}
+        many: deben ser menores que %{count}
       less_than_or_equal_to:
         one: debe ser menor o igual a %{count}
         other: deben ser menores o iguales a %{count}
+        many: deben ser menores o iguales a %{count}
       model_invalid: "'La validación falló: %{errors}'"
       no_characters_found: No se encontraron personajes
       not_a_number: no es un número
@@ -2289,6 +2309,7 @@ es-ES:
       other_than:
         one: Debe ser distinto de %{count}
         other: Deben ser distintos de %{count}
+        many: Deben ser distintos de %{count}
       present: debe quedar vacío
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
@@ -2297,12 +2318,15 @@ es-ES:
       too_long:
         one: es demasiado largo (el máximo es %{count} carácter)
         other: es demasiado largo (el máximo es %{count} caracteres)
+        many: es demasiado largo (el máximo es %{count} caracteres)
       too_short:
         one: es demasiado corto (el mínimo es %{count} carácter)
         other: es demasiado corto (el mínimo es %{count} caracteres)
+        many: es demasiado corto (el mínimo es %{count} caracteres)
       wrong_length:
         one: La longitud es incorrecta (debería ser %{count} carácter)
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
+        many: La longitud es incorrecta (deberían ser %{count} caracteres)
       blocked_words:
       duplicate_review:
     movie:
@@ -2451,9 +2475,11 @@ es-ES:
   item_count:
     one: "%{count} elemento"
     other: "%{count} elementos"
+    many: "%{count} elementos"
   item_count_more:
     one: "%{count} más..."
     other: "%{count} más..."
+    many: "%{count} más..."
   jobs:
     '"A" Camera Operator': Operador de cámara 'A'
     '"B" Camera Operator': Operador de cámara "B"
@@ -3011,8 +3037,8 @@ es-ES:
     Musician: Musico
     Negative Cutter: Cortador de negativos
     Novel: Novela
-    "O.B. Lighting": Iluminación OB
-    "O.B. Sound": Sonido OB
+    O.B. Lighting: Iluminación OB
+    O.B. Sound: Sonido OB
     On Set Computer Graphics: Computación gráfica durante el rodaje
     On Set Dresser: Vestuario durante el rodaje
     On Set Key Props: Atrezo principal durante el rodaje
@@ -3694,6 +3720,7 @@ es-ES:
       number_of_changes:
         one: "%{count} cambio"
         other: "%{count} cambios"
+        many: "%{count} cambios"
       view_weekly_leaderboard: Ver tabla de clasificación semanal
     character:
       edit:
@@ -3911,9 +3938,11 @@ es-ES:
     number_of_movies:
       one: película
       other: películas
+      many: películas
     number_of_shows:
       one: serie
       other: series
+      many: series
     person:
       edit:
         alternative_names:
@@ -3947,12 +3976,14 @@ es-ES:
       years_old:
         one: "%{count} año"
         other: "%{count} años"
+        many: "%{count} años"
     rating:
       not_rateable: Este elemento aún no es valorable.
       rated_with_rating: Valorada %{value}
       rating_count:
         one: "%{count} valoración"
         other: "%{count} valoraciones"
+        many: "%{count} valoraciones"
       removed: Tu valoración ha sido eliminada.
       score_breakdown: Desglose de puntos
       score_distribution: Distribución de puntos
@@ -4085,6 +4116,7 @@ es-ES:
             episodes_added:
               one: "¡%{count} episodio añadido!"
               other: "¡%{count} episodios añadidos!"
+              many: "¡%{count} episodios añadidos!"
           name: Nombre del grupo
           no_records: No se han añadido grupos de episodios.
           type: Tipo
@@ -4114,10 +4146,12 @@ es-ES:
           count:
             one: "%{count} grupo"
             other: "%{count} grupos"
+            many: "%{count} grupos"
         original_air_date: Fecha de estreno original
       networks:
         one: Canal
         other: Canales
+        many: Canales
       primary_characters: Personajes principales
       series_cast: Reparto de la serie
       series_crew: Equipo de la serie
@@ -4213,6 +4247,7 @@ es-ES:
     number_of_messages:
       one: "%{count} mensaje"
       other: "%{count} mensajes"
+      many: "%{count} mensajes"
     options:
       admin: Administrador
       archive: Archivo
@@ -4249,6 +4284,7 @@ es-ES:
   month:
     one: "%{count} mes"
     other: "%{count} meses"
+    many: "%{count} meses"
   navigation:
     discover:
       discover: Descubre
@@ -4373,18 +4409,23 @@ es-ES:
   number_of_edits:
     one: "%{count} edición"
     other: "%{count} ediciones"
+    many: "%{count} ediciones"
   number_of_items:
     one: "%{count} elemento"
     other: "%{count} elementos"
+    many: "%{count} elementos"
   number_of_results:
     one: "%{count} resultado"
     other: "%{count} resultados"
+    many: "%{count} resultados"
   number_of_translations:
     one: "%{count} traducción"
     other: "%{count} traducciones"
+    many: "%{count} traducciones"
   number_of_votes:
     one: "%{count} voto"
     other: "%{count} votos"
+    many: "%{count} votos"
   ott:
     available_sentences:
       ads: ver con anuncios
@@ -4752,6 +4793,7 @@ es-ES:
   translation:
     one: traducción
     other: traducciones
+    many: traducciones
   upload_backdrop: Subir imagen de fondo
   upload_headshot: Subir imagen de perfil
   upload_poster: Subir cartel
@@ -4801,6 +4843,7 @@ es-ES:
     your_vibe:
       one: Tu vibra
       other: Tus vibras
+      many: Tus vibras
     your_vibes: Tus vibras
   videos:
     filters:
@@ -4813,6 +4856,7 @@ es-ES:
     number_of_videos:
       one: "%{count} vídeo"
       other: "%{count} vídeos"
+      many: "%{count} vídeos"
     official_channel: Canal oficial
     page_title: Canal de video %{name}
     popular: Popular
