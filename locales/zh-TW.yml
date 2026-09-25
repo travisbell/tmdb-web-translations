@@ -4282,14 +4282,14 @@ zh-TW:
         precision: '2'
         separator: "."
         significant: 'False'
-        strip_insignificant_zeros: 錯誤
+        strip_insignificant_zeros: 'False'
         unit: NT$
     format:
       delimiter: ","
       precision: '3'
       separator: "."
       significant: 錯誤
-      strip_insignificant_zeros: 錯誤
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4302,7 +4302,7 @@ zh-TW:
       format:
         precision: '3'
         significant: 正確
-        strip_insignificant_zeros: 正確
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: 十億
