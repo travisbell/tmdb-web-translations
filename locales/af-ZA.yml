@@ -4322,14 +4322,14 @@ af-ZA:
         precision: '2'
         separator: "."
         significant: ''
-        strip_insignificant_zeros: ''
+        strip_insignificant_zeros: 'False'
         unit: R
     format:
       delimiter: ","
       precision: '3'
       separator: "."
       significant: ''
-      strip_insignificant_zeros: ''
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4342,7 +4342,7 @@ af-ZA:
       format:
         precision: '3'
         significant: ''
-        strip_insignificant_zeros: ''
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: MJD.
