@@ -289,7 +289,7 @@ cs-CZ:
   New: Nové
   New episode airs in: Nové epizody se vysílají za
   'No': Ne
-  No Language: 'Žádný'
+  No Language: 'Žádný jazyk'
   None: Žádný
   Notes: Poznámky
   Notifications: Oznámení
@@ -413,7 +413,7 @@ cs-CZ:
   Sort By: Seřadit podle
   Sort Cast: Seřadit obsazení
   Sort Regular Cast: Seřadit pravidelné obsazení
-  Source Key: Zdrojový klíč
+  Source Key: Video ID
   Specials: Speciály
   Spoken Languages: Jazyky, kterými se mluví v původní verzi díla
   Stage Name: Primární jméno
@@ -528,7 +528,7 @@ cs-CZ:
     sign_up: Zaregistrovat se
     view_profile: Zobrazit profil
     watchlist: Seznam ke zhlédnutí
-    reviews: ''
+    reviews: 'Recenze'
   accounts:
     activity:
       activity: Aktivita
@@ -642,11 +642,11 @@ cs-CZ:
       add_to_lists: 'Přidat <span class="bold">%{media_name}</span> do seznamu'
       contributor: 'Přispěvatel'
       create_new_list: 'Vytvořit nový seznam'
-      created: ''
+      created: 'Seznam byl vytvořen'
       my_new_list: ''
       no_reviews:
         logged_in: ''
-        public: ''
+        public: '%{username} nenapsal žádnou recenzi.'
     member_since: Členem od %{date}
     navigation:
       discussions: Diskuse
@@ -729,8 +729,8 @@ cs-CZ:
       view_them: Zobrazit je.
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Moje recenze'
+        public: 'Recenze uživatele %{username}'
   add_to_list: Přidat %{media_title} do jednoho z vašich seznamů…
   already_translated_in: Stránka %{page_title} je již přeložena do následujících jazyků…
   api_for_business:
@@ -808,45 +808,45 @@ cs-CZ:
       category: 'Kategorie'
       crew_credit_departments: ''
       crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
-      display_type: ''
-      locked: ''
-      media_type: ''
+      date_ended: 'Datum ukončení'
+      date_started: 'Datum zahájení'
+      display_type: 'Druh zobrazení'
+      locked: 'Přidávání nových kategorií bylo zakázáno moderátorem.'
+      media_type: 'Druh média'
       name: 'Název'
       title: Kategorie
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Ukončeno %{date}'
+      started_on: 'Zahájeno %{date}'
     category_empty: V této kategorii není žádná nominace.
     ceremonies:
       add_ceremony: ''
       ceremonies: ''
       ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
+      date: 'Datum'
+      limits: 'Omezení'
+      location: 'Místo konání'
       locked: ''
-      number: ''
-      release_date_max: ''
-      release_date_min: ''
+      number: 'Počet'
+      release_date_max: 'Poslední datum vydání'
+      release_date_min: 'První datum vydání'
       title: Slavnostní předávání
     field:
-      homepage: ''
-      name: ''
+      homepage: 'Domovská stránka'
+      name: 'Název'
       overview: ''
     new_award:
       award_details: ''
       click_next: ''
       getting_started: ''
-      header_1: ''
-      header_2: ''
+      header_1: 'Nové ocenění'
+      header_2: 'Přidat nové ocenění'
       note: ''
       verify: ''
     nominations:
       add_nomination: 'Přidat nominaci'
       few: "%{count} nominace"
       locked: 'Přidávání nových nominací bylo zakázáno moderátorem.'
-      movie: ''
+      movie: 'Film'
       nomination: 'Nominace'
       number:
         few:
@@ -854,9 +854,9 @@ cs-CZ:
         other:
       one: 1 nominace
       other: "%{count} nominací"
-      title: ''
+      title: 'Nominace'
       shared_with: ''
-    nominee: Nominace
+    nominee: Nominovaný
     show_info:
       directed_by: Režie
       hosted_by: Uvádí
@@ -2510,13 +2510,13 @@ cs-CZ:
     Actor: Herec
     Actor's Assistant: Asistent herce
     Adaptation: Adaptace
-    Additional Camera: Další kamera
+    Additional Camera: Dodatečná kamera
     Additional Casting: Dodatečný casting
     Additional Colorist: ''
     Additional Construction: ''
     Additional Construction Grip: ''
     Additional Dialogue: Dodatečné dialogy
-    Additional Director of Photography: Další hlavní kameraman
+    Additional Director of Photography: Dodatečný hlavní kameraman
     Additional Editing: Dodatečný střih
     Additional Editor: Dodatečný střihač
     Additional Editorial Assistant: ''
@@ -2640,7 +2640,7 @@ cs-CZ:
     Base Camp Operator: ''
     Battle Motion Coordinator: ''
     Best Boy Electric: Zástupce hlavního osvětlovače
-    Best Boy Electrician: Zástupce vrchního osvětlovače
+    Best Boy Electrician: Zástupce hlavního osvětlovače
     Best Boy Grip: ''
     Best Boy Lighting Technician: ''
     Book: Kniha
@@ -3638,7 +3638,7 @@ cs-CZ:
       zealous: ''
   list_info:
     average_rating: Průměrné hodnocení
-    collaborate: ''
+    collaborate: 'Spolupracovat'
     hide_comments: Skrýt komentáře
     image_selected: Vybráno
     items_not_seen: Nezhlédnuté
@@ -3647,21 +3647,21 @@ cs-CZ:
       few: položky na tomto seznamu
       other: položek na tomto seznamu
     items_seen: Zhlédnuté
-    list_by: ''
+    list_by: 'Seznam uživatele'
     list_options: Nastavení seznamu
-    login_to_create_list: ''
-    no_items: ''
+    login_to_create_list: 'K vytvoření vlastního seznamu se přihlašte!'
+    no_items: 'V tomto seznamu nejsou žádné položky.'
     private: Soukromý
     public: Veřejný
     select_this_image: Vybrat tento obrázek
-    show_comments: ''
+    show_comments: 'Zobrazit komentáře'
     total_revenue: Celkové tržby
     total_runtime: Celková délka
     use_grid_view: Použít zobrazení v mřížce
     use_list_view: Použít zobrazení jako seznam
-    search: ''
-    no_search_results: ''
-    search_within: ''
+    search: 'Prohledat'
+    no_search_results: 'Vašemu dotazu neodpovídají žádné položky seznamu.'
+    search_within: 'Vyhledejte položky ve vašem seznamu...'
   list_messages:
     comment_updated: Komentář aktualizován!
     image_saved: Obrázek uložen!
@@ -4261,7 +4261,7 @@ cs-CZ:
       new_message: Nová zpráva
       support_archive: ''
       support_inbox: ''
-    translate: Překlad
+    translate: Přeložit
   monetize:
     create_api: ''
   mongoid:
@@ -4786,23 +4786,23 @@ cs-CZ:
   upload_title_logo: Nahrát titulní logo
   used_by_developers: TMDB je používáno více než 400.000 vývojáři.<br>Níže můžete procházet jejich práci.
   vibes:
-    done: ''
+    done: 'Hotovo'
     login: ''
     mood:
-      label: ''
+      label: 'Nálada'
       moods:
-        afraid: ''
-        angry: ''
-        disgusted: ''
-        happy: ''
-        interested: ''
-        sad: ''
-        surprised: ''
-      prompt: ''
+        afraid: 'Znepokojeně'
+        angry: 'Naštvaně'
+        disgusted: 'Znechuceně'
+        happy: 'Šťastně'
+        interested: 'Zaujatě'
+        sad: 'Smutně'
+        surprised: 'Překvapeně'
+      prompt: 'Jak se z %{title} cítíš?'
     rating:
-      clear: ''
-      label: ''
-      prompt: ''
+      clear: 'Smaž mé hodnocení'
+      label: 'Hodnocení'
+      prompt: 'Co si myslíš o %{title}?'
       tooltip:
         '0': ''
         '10': ''
@@ -4816,20 +4816,20 @@ cs-CZ:
         '80': ''
         '90': ''
     tone:
-      label: ''
-      no_results: ''
+      label: 'Atmosféra'
+      no_results: 'Vyznění neexistuje.'
       prompt:
-        movie: ''
-        tv: ''
-      select: ''
+        movie: 'Tento film byl...'
+        tv: 'Tento seriál byl...'
+      select: 'Vyber vyznění...'
     welcome: ''
-    whats_new: ''
-    whats_your_vibe: ''
+    whats_new: 'Co je nového?'
+    whats_your_vibe: 'Jaký je tvůj <span class="%{style}">pocit</span>?'
     your_vibe:
-      one: ''
-      few: ''
-      other: ''
-    your_vibes: ''
+      one: Tvůj pocit
+      few: Tvé pocity
+      other: Tvé pocity
+    your_vibes: 'Tvé pocity'
   videos:
     filters:
       language: Jazyk
