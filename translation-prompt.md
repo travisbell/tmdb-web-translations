@@ -13,7 +13,7 @@ ruby script/find_blanks.rb {LOCALE}
 # e.g. ruby script/find_blanks.rb de-DE
 ```
 
-This outputs every blank key alongside its English source string, which you can pass to an AI as the definitive list of work to do.
+This lists source-backed text blanks, including absent keys and entries in arrays. It skips numeric configuration and empty English source values, but includes displayed unit labels. Plural categories follow the target locale; for a target-only category, the English `other` text supplies context. A listed `zero` message is an optional I18n override. Review date/time formats separately; this worklist does not verify translation quality or application context.
 
 ---
 
@@ -32,7 +32,7 @@ If a key already has a value in the target locale file, leave it exactly as-is.
 Even if the existing value looks like English, a format string, an abbreviation, or a technical term (e.g. "API", "DVD", "4K", "HD", "Trailer", "Clip"), it was intentionally placed there and must be preserved. Treat the original file as the baseline — any key with a value in the original must still have that same value when you are done.
 
 **3. Do not fall back to the English value.**
-If you cannot confidently translate a key, leave it blank/nil. The Rails i18n library automatically falls back to English at runtime. Writing an English string into a non-English locale file is always wrong.
+If you cannot confidently translate a key, leave it blank/nil. The Rails i18n library automatically falls back to English at runtime. Do not use untranslated English as a substitute for translation. Identical text can be correct for names, abbreviations, shared vocabulary and technical terms; assess each case in context.
 
 **4. Skip keys with no English value.**
 If the corresponding en-US key is also blank or nil, leave the target locale key alone.
@@ -47,7 +47,7 @@ Some keys hold hashes rather than strings — for example pluralization keys (`o
 The file uses long lines for long strings. Do not introduce line wrapping, and do not re-serialize the entire file in a way that changes formatting of lines you did not touch. Make surgical edits only.
 
 **8. Respect TMDB-specific terminology.**
-This is a movie and TV database. Many English terms have specific, established translations that differ from their everyday meaning. Adhere to the glossary below rather than doing a literal translation.
+This is a movie and TV database. Many English terms have specific, established translations that differ from their everyday meaning. Use a reviewed glossary for the target locale and check the meaning in its film, television or interface context. If a glossary entry appears incorrect or ambiguous, flag it with evidence rather than spreading the error.
 
 **9. Match the tone and formality of existing translations.**
 For German (de-DE): the existing translations use the informal **du** form (not Sie). For example: "Zu deinen Favoriten hinzufügen", "Deine Bewertung", "Bist du dir sicher?". All new German translations must follow this convention.
@@ -58,7 +58,7 @@ For other locales, determine the correct formality by reading the existing trans
 
 ### TMDB Glossary (English → German)
 
-Use these established translations consistently. Do not invent alternatives.
+The following German glossary is a starting point for de-DE only. Review ambiguous entries in context; do not apply it to another locale or treat it as proof that an existing term is correct.
 
 | English | German |
 |---|---|
@@ -111,8 +111,8 @@ Use these established translations consistently. Do not invent alternatives.
 ### Verification checklist before finishing
 
 - [ ] Every key that had a value in the original file still has that same value
-- [ ] No English text has been written into the locale file as a "translation"
+- [ ] No untranslated English has been substituted for a translation; justified identical text has been reviewed in context
 - [ ] Format strings (`%B`, `%Y`, `%n`, `%{variable}`) are preserved or locale-appropriate
 - [ ] No pluralization hash has been flattened to a string
-- [ ] YAML is valid: `ruby -e "require 'yaml'; YAML.load_file('locales/{LOCALE}.yml')"`
+- [ ] YAML syntax, keys and locale root are valid: `bundle exec ruby script/locale_check.rb locales/{LOCALE}.yml`
 - [ ] All tests pass: `bundle exec rspec`

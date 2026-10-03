@@ -1,10 +1,13 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+
 require "optparse"
 require "set"
-require "tempfile"
 require "yaml"
+require "tmdb/yaml_file"
+require "tmdb/i18n_rename"
 
 require "active_support"
 require "active_support/core_ext/string/inflections"
@@ -35,7 +38,7 @@ at_exit do
 
     yaml_files(ARGV).each do |file_path|
       locale = File.basename(file_path, ".yml")
-      yaml = YAML.load_file(file_path)
+      yaml = TMDb::YamlFile.load(file_path)
       yaml[locale].each do |key, value|
         if value.is_a?(String)
           substitution = "global.#{key.parameterize(separator: "_")}"
@@ -44,27 +47,27 @@ at_exit do
       end
     end
 
+    collisions = mapping.group_by(&:last).select { |_destination, pairs| pairs.size > 1 }
+    unless collisions.empty?
+      abort collisions.map { |destination, pairs| "#{destination} <= #{pairs.map(&:first).inspect}" }.unshift("Colliding destinations:").join("\n  ")
+    end
+
     mapping_yaml = YAML.dump(mapping.sort.to_h)
-    File.write(@mapping_output, mapping_yaml)
+    TMDb::AtomicFile.write(@mapping_output, mapping_yaml)
   else
-    mapping = @mapping_input ? YAML.load_file(@mapping_input) : {}
+    mapping = @mapping_input ? TMDb::YamlFile.load(@mapping_input) : {}
 
-    yaml_files(ARGV).each do |file_path|
-      locale = File.basename(file_path, ".yml")
-      update_yaml(file_path) do |yaml|
-        translations = yaml[locale]
-        translations["global"] ||= {}
-
-        # NOTE: This only works for top-level keys.
-        mapping.each do |old_key, new_key|
-          value = translations.delete(old_key)
-          _, new_key = new_key.split(".", 2)
-
-          translations["global"][new_key] = value if value
+    TMDb::YamlFile.update_all(yaml_files(ARGV)) do |_file_path, yaml|
+      # NOTE: This only works for top-level keys.
+      mapping.each do |old_key, new_key|
+        group, key = new_key.split(".", 2)
+        unless group == "global" && key && !key.empty?
+          raise ArgumentError, "expected a destination under global for #{old_key.inspect}"
         end
-
-        yaml
+        yaml = I18nRename.new(old_key: [old_key], new_key: ["global", key]).apply(yaml)
       end
+
+      yaml
     end
   end
 end
@@ -73,15 +76,4 @@ def yaml_files(args)
   args.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
   end
-end
-
-def update_yaml(file_path, &block)
-  yaml = YAML.load_file(file_path)
-  yield yaml
-
-  tempfile = Tempfile.create(File.basename(file_path))
-  tempfile.write(YAML.dump(yaml, line_width: -1))
-
-  File.unlink(file_path)
-  File.link(tempfile.path, file_path)
 end
