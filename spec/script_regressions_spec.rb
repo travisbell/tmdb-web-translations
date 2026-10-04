@@ -25,6 +25,43 @@ RSpec.describe "translation scripts" do
     Open3.capture3(env, RbConfig.ruby, File.join(repository, "script", name), *args, chdir: @directory)
   end
 
+  def expect_untouched(path)
+    text = File.read(path)
+    File.utime(Time.at(123456789), Time.at(123456789), path)
+    before = File.stat(path)
+    yield
+    expect(File.read(path)).to eq(text)
+    expect(File.stat(path).ino).to eq(before.ino)
+    expect(File.stat(path).mtime).to eq(before.mtime)
+  end
+
+  example "leaves an already sorted file and its metadata untouched" do
+    path = fixture("en-US.yml", "# Keep this comment\nen-US:\n  a: 'Film'\n  z: \"TV series\"\n")
+    expect_untouched(path) do
+      _, error, status = run_script("sort.rb", path)
+      expect(status.success?).to be(true), error
+    end
+  end
+
+  example "leaves an already patched file and its metadata untouched" do
+    reference = fixture("reference.yml", "en-US:\n  a: Film\n  z: TV series\n")
+    target = fixture("en-US.yml", "# Keep this comment\nen-US:\n  a: 'Film'\n  z: \"TV series\"\n")
+    expect_untouched(target) do
+      _, error, status = run_script("patch.rb", reference, target)
+      expect(status.success?).to be(true), error
+    end
+  end
+
+  example "leaves an unchanged split destination and its metadata untouched" do
+    Dir.mkdir(File.join(@directory, "locales"))
+    reference = fixture("source.yml", "pt-PT:\n  a: Filme\n  z: Série\n")
+    target = fixture("locales/pt-PT.yml", "# Keep this comment\npt-PT:\n  a: 'Filme'\n  z: \"Série\"\n")
+    expect_untouched(target) do
+      _, error, status = run_script("split.rb", reference)
+      expect(status.success?).to be(true), error
+    end
+  end
+
   example "sorts successfully when TMPDIR is on a different filesystem" do
     skip "requires a separate tmpfs" unless File.directory?("/dev/shm") && File.stat("/dev/shm").dev != File.stat(@directory).dev
     path = fixture("en-US.yml", "en-US:\n  z: last\n  a: first\n")

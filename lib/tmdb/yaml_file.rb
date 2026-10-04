@@ -33,6 +33,7 @@ module TMDb
     # Re-serializing changes quoting and wrapping, so leave a file untouched when
     # its data is unchanged. Returns true when the file was written.
     def write(path, data, original: nil)
+      original = load(path) if original.nil? && File.exist?(path)
       content = YAML.dump(data, line_width: -1)
       # Compare serialized forms: Hash#== ignores key order, which sort.rb changes.
       return false if !original.nil? && YAML.dump(original, line_width: -1) == content
