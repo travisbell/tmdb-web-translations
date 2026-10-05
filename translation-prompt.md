@@ -1,7 +1,7 @@
-# TMDB Locale Translation Prompt
+# TMDB Translation Guide
 
-Use this prompt when asking an AI to fill in blank translations in this repository.
-It covers missing text; a full review of existing translations is a separate task.
+Use this guide to fill in missing translations in this repository.
+Review entries individually against their English source and the context in which they appear on TMDB.
 
 ---
 
@@ -21,15 +21,17 @@ This lists source-backed text blanks, including absent keys and entries in array
 
 ---
 
-## Prompt
+## Translation workflow
 
-I need you to fill in blank translations in `{COMPONENT}/{LOCALE}.yml` for the TMDB (The Movie Database) website. Use `{COMPONENT}/en-US.yml` as the source reference. Replace `{COMPONENT}` with `locales`, `countries` or `languages`, and `{LOCALE}` with the exact locale code, such as `pt-PT` or `de-DE`.
+Fill in missing translations in `{COMPONENT}/{LOCALE}.yml` for the TMDB (The Movie Database) website. Use `{COMPONENT}/en-US.yml` as the source reference. Replace `{COMPONENT}` with `locales`, `countries` or `languages`, and `{LOCALE}` with the exact locale code, such as `pt-PT` or `de-DE`.
 
-Before starting, read a broad sample of the existing translated strings in the target locale file — especially short UI labels and user-facing messages — to understand the tone, formality, and vocabulary already in use. All new translations must be consistent with this style.
+Before starting, read existing labels and messages to understand the locale's tone and vocabulary. Then work through the entries one by one, including every applicable plural form. Compare each translation with the English source and check its meaning in the film, television or interface context. Read Weblate comments and check the corresponding TMDB page when needed; ask for context if the meaning is still unclear.
+
+For a full review, also examine existing translations one by one and record proposed corrections separately. Do not treat the existing wording or glossary as proof that a translation is correct.
 
 ### Rules
 
-**1. Only fill blanks — never overwrite existing translations.**
+**1. Keep missing-text changes separate from corrections.**
 If a key already has a value in the target locale file, leave it exactly as-is.
 
 **2. Never remove or blank out a key that already had a value.**
