@@ -4,8 +4,8 @@
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
 require "optparse"
-require "tempfile"
 require "yaml"
+require "tmdb/yaml_file"
 
 require "tmdb/web/translations"
 require "tmdb/i18n_patch"
@@ -16,7 +16,7 @@ require "tmdb/i18n_patch"
 OptionParser.new do |parser|
   parser.banner = "Usage: #{$PROGRAM_NAME} [options]"
   parser.on("--no-sort-keys", "Don't sort top level keys") do
-    @no_sort_keys = false
+    @no_sort_keys = true
   end
   parser.on("--ignore-plurals") do
     @ignore_plurals = true
@@ -27,7 +27,7 @@ OptionParser.new do |parser|
 end.parse!
 
 at_exit do
-  patch_yaml = YAML.load_file(ARGV.shift)
+  patch_yaml = TMDb::YamlFile.load(ARGV.shift)
   patch_locale = patch_yaml.keys.first
 
   update_each_yaml(ARGV) do |file_path, yaml|
@@ -49,13 +49,9 @@ def update_each_yaml(paths = ARGV, &block)
   end
 
   yaml_files.each do |file_path|
-    yaml = YAML.load_file(file_path)
+    yaml = TMDb::YamlFile.load(file_path)
     yield file_path, yaml
 
-    tempfile = Tempfile.create(File.basename(file_path))
-    tempfile.write(YAML.dump(yaml, line_width: -1))
-
-    File.unlink(file_path)
-    File.link(tempfile.path, file_path)
+    TMDb::YamlFile.write(file_path, yaml)
   end
 end
