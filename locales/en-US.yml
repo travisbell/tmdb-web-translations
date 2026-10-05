@@ -1,4 +1,3 @@
----
 en-US:
   3rd Party Applications: 3rd Party Applications
   API: API
@@ -675,7 +674,7 @@ en-US:
       recent_discussions: Recent Discussions
       total_edits: Total Edits
       total_ratings: Total Ratings
-      upcoming_watchlist: Upcoming From Watchlist
+      upcoming_watchlist: Upcoming from Watchlist
     page_title:
       page_owner: My Profile
       public: "%{username}'s Profile"
@@ -864,8 +863,7 @@ en-US:
     winner: Winner
     wins:
       one: 1 Win
-      other: "%{count} Wins"
-      zero: No wins
+      other: '%{count} Wins'
     most_awarded_films: Most Awarded Films
     most_awarded_people: Most Awarded People
     media_page_description: Browse award nominations and wins for %{name} on TMDB. %{name} has received %{nominations} and %{wins}.
@@ -1760,7 +1758,7 @@ en-US:
     - Fri
     - Sat
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mar
@@ -1788,7 +1786,7 @@ en-US:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    -
+    - 
     - January
     - February
     - March
@@ -1804,8 +1802,7 @@ en-US:
   day: day
   days:
     one: day
-    other: "%{count} days"
-    two: days
+    other: '%{count} days'
   deleted_content:
     entry_deleted: Entry Deleted
     reasons:
@@ -2197,9 +2194,8 @@ en-US:
       1fae3: Face with peeking eye
       1fae4: Face with diagonal mouth
   episode_count:
-    many: "%{count} Episodes"
-    one: "%{count} Episode"
-    other: "%{count} Episodes"
+    one: '%{count} Episode'
+    other: '%{count} Episodes'
   episode_number_name: Episode %{episode_number}
   error_pages:
     deleted_account:
@@ -3630,7 +3626,6 @@ en-US:
     image_selected: Selected
     items_not_seen: Items I Haven't Seen
     items_on_list:
-      many: items on this list
       one: item on this list
       other: items on this list
     items_seen: Items I Have Seen
@@ -4252,8 +4247,7 @@ en-US:
               blocked_words: external ID contains blocked words
   month:
     one: month
-    other: "%{count} months"
-    two: "%{count} months"
+    other: '%{count} months'
   navigation:
     discover:
       discover: Discover
@@ -4336,17 +4330,17 @@ en-US:
       format:
         delimiter: ","
         format: "%u%n"
-        precision: 2
+        precision: '2'
         separator: "."
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: "$"
     format:
       delimiter: ","
-      precision: 3
+      precision: '3'
       separator: "."
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4357,9 +4351,9 @@ en-US:
           thousand: Thousand
           trillion: Trillion
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: B
@@ -4376,26 +4370,20 @@ en-US:
       format:
         delimiter:
   number_of_edits:
-    many: "%{count} edits"
-    one: "%{count} edit"
-    other: "%{count} edits"
-    two: "%{count} edits"
+    one: '%{count} edit'
+    other: '%{count} edits'
   number_of_items:
-    many: "%{count} items"
-    one: "%{count} item"
-    other: "%{count} items"
+    one: '%{count} item'
+    other: '%{count} items'
   number_of_results:
-    many: "%{count} results"
-    one: "%{count} result"
-    other: "%{count} results"
+    one: '%{count} result'
+    other: '%{count} results'
   number_of_translations:
-    many: "%{count} translations"
-    one: "%{count} translation"
-    other: "%{count} translations"
+    one: '%{count} translation'
+    other: '%{count} translations'
   number_of_votes:
-    many: "%{count} votes"
-    one: "%{count} vote"
-    other: "%{count} votes"
+    one: '%{count} vote'
+    other: '%{count} votes'
   ott:
     available_sentences:
       ads: watch with ads
@@ -4432,9 +4420,8 @@ en-US:
       sd: No SD offers found.
     page_title: Where can I watch %{media_name}?
     seasons:
-      many: "%{count} seasons"
-      one: "%{count} season"
-      other: "%{count} seasons"
+      one: '%{count} season'
+      other: '%{count} seasons'
     view_offers: View Offers
     watch_now: Watch Now
     watch_on:
@@ -4761,7 +4748,6 @@ en-US:
       seconds: Seconds
   top_contributors: Top Contributors
   translation:
-    many: translations
     one: translation
     other: translations
   upload_backdrop: Upload a Backdrop
