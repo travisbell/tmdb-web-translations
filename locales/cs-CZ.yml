@@ -1792,7 +1792,7 @@ cs-CZ:
     formats:
       abbrev: "%-d %b %Y"
       default: "%-d. %-m. %Y"
-      full_month_day: "%d.%m.%Y"
+      full_month_day: "%d. %m. %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%d. %b. %Y"
     month_names:
@@ -1821,7 +1821,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je a je proto považován za duplicitní.
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je a je proto považován za duplicitní.
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o duplicitu
@@ -1829,7 +1829,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Neodpovídá našim pokynům pro nový obsah (amatér, atd.)
@@ -1837,7 +1837,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je jako seriál a není považován za platný film. Více o našich pokynech pro obsah si můžete přečíst [zde](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název je již v naší databázi přidán jako seriál, protože není považován za film. Více o našich pokynech pro nový obsah si můžete přečíst [zde](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o seriál
@@ -1845,7 +1845,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o falešný záznam
@@ -1853,7 +1853,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o spam
@@ -2143,16 +2143,26 @@ cs-CZ:
     choose_image: Zvolit obrázek
     delete_list: Odstranit seznam
     edit_list: Upravit seznam
-    contributor_notes: ''
-    contributors: ''
-    create_invite_link: ''
-    edit_invite_link: ''
-    invite_contributor: ''
-    list_collaboration: ''
-    no_contributors: ''
-    created: ''
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    contributor_notes: 'Ostatní uživatele můžeš pozvat ke spolupráci na veřejných i soukromých seznamech.
+
+      Pozvaní uživatelé mohou pouze přidávat či odebírat položky a upravovat jejich komentáře.
+
+      Pro pozvání uživatele ke spolupráci na seznamu mu pošli odkaz s pozvánkou, a to buď emailem nebo nějakou jinou komunikační aplikací.
+
+      Aby mohla pozvaná osoba pozvánku přijmout, musí mít vytvořený účet na TMDB.'
+    contributors: 'Přispěvatelé'
+    create_invite_link: 'Vytvořit odkaz s pozvánkou'
+    edit_invite_link: 'Upravit odkaz s pozvánkou'
+    invite_contributor: 'Pozvat přispěvatele'
+    list_collaboration: 'Spolupráce na seznamu'
+    no_contributors: 'Zatím nejsou přidání žádní přispěvatelé k seznamu. Pro pozvání přispěvatele vytvoř odkaz s pozvánkou a odešli jej.'
+    created: 'Seznam byl vytvořen'
+    confirm_delete: '<p>Tato položka má komentář:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Jsi si jistý, že ji chceš odstranit?</p>'
+    confirm_delete_grid: 'Opravdu chceš odstranit %{media_name}?'
   edits: úprav
   email:
     confirm_new_email_address: Potvrďte novou e-mailovou adresu
@@ -3975,7 +3985,7 @@ cs-CZ:
         one: '%{count} hodnocení'
         few: '%{count} hodnocení'
         other: '%{count} hodnocení'
-      removed: ''
+      removed: 'Tvé hodnocení bylo smazáno.'
       score_breakdown: Přehled hodnocení
       score_distribution: Rozložení hodnocení
       score_history: Historie hodnocení
@@ -4518,7 +4528,7 @@ cs-CZ:
     for_media: ''
     softcore: ''
   search_text_validation_error: ''
-  search_tip_1: 'Tip: Pro omezení vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
+  search_tip_1: 'Tip: Pro zúžení rozsahu vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
   season_number_name: "%{season_number}. sezóna"
   season_overview:
     already_aired: "%{season_number}. sezóna seriálu %{show_name} měla premiéru %{date}."
