@@ -2007,12 +2007,12 @@ cs-CZ:
     category:
       last_reply_with_datetime: "%{date} v %{time}"
       last_reply_with_datetime_and_username: "%{date} v %{time}<br>od %{username}"
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
-      posted_by_with_datetime: ''
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      last_reply_with_datetime_v2: 'poslední odpověď %{date} v %{time}'
+      last_reply_with_datetime_and_username_v2: 'poslední odpověď od %{username} %{date} v %{time}'
+      posted_by_with_datetime: 'napsáno <time class="timeago" datetime="%{time}">%{time}</time>'
+      posted_by_with_datetime_and_username: '%{username} napsal <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} odpověděl <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by: '%{username} odpověděl'
     discussion_activity: Aktivita v diskusi
     email_notifications:
       email_notifications: Oznámení e-mailem
@@ -2032,7 +2032,7 @@ cs-CZ:
       message: Zpráva
       new_discussion: Nová diskuse
       subject: Předmět
-    no_activity: ''
+    no_activity: 'V této diskusi nedošlo k žádné aktivitě.'
     no_discussions: Žádné diskuse.
     pagination:
       post_summary:
