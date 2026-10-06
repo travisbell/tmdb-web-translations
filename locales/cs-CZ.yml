@@ -1939,11 +1939,11 @@ cs-CZ:
         latest_ceremony: ''
         search_all_countries: ''
         search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+      adult_content: 'Hardcore obsah'
+      exclude_adult: 'Vyloučit'
+      include_adult: 'Zahrnout'
+      adult_filters: 'Obsah pro dospělé'
+      softcore_content: 'Softcore obsah'
     no_items: Pro váš dotaz nebyly nalezeny žádné výsledky.
     search: Hledat
     sort_options:
@@ -2007,12 +2007,12 @@ cs-CZ:
     category:
       last_reply_with_datetime: "%{date} v %{time}"
       last_reply_with_datetime_and_username: "%{date} v %{time}<br>od %{username}"
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
-      posted_by_with_datetime: ''
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      last_reply_with_datetime_v2: 'poslední odpověď %{date} v %{time}'
+      last_reply_with_datetime_and_username_v2: 'poslední odpověď od %{username} %{date} v %{time}'
+      posted_by_with_datetime: 'napsáno <time class="timeago" datetime="%{time}">%{time}</time>'
+      posted_by_with_datetime_and_username: '%{username} napsal <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} odpověděl <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by: '%{username} odpověděl'
     discussion_activity: Aktivita v diskusi
     email_notifications:
       email_notifications: Oznámení e-mailem
@@ -2032,7 +2032,7 @@ cs-CZ:
       message: Zpráva
       new_discussion: Nová diskuse
       subject: Předmět
-    no_activity: ''
+    no_activity: 'V této diskusi nedošlo k žádné aktivitě.'
     no_discussions: Žádné diskuse.
     pagination:
       post_summary:
@@ -2168,12 +2168,12 @@ cs-CZ:
     confirm_new_email_address: Potvrďte novou e-mailovou adresu
     does_not_match: E-mailové adresy se neshodují, zkuste to znovu.
     new_email_address: Nová e-mailová adresa
-    sent_verification_email: Odeslali jsme e-mail na %{email_address}, aby byla ověřena. Zkontrolujte složku doručené pošty (a složku nevyžádané pošty), kde naleznete pokyny, jak postupovat dále.
+    sent_verification_email: Odeslali jsme e-mail na %{email_address}, k ověření této adresy. Zkontroluj složku doručené pošty (a složku nevyžádané pošty), kde nalezneš pokyny, jak postupovat dále.
     unsubscribe:
-      sad_to_go: ''
-      subscription_changed: ''
+      sad_to_go: '%{username}, mrzí nás, že jsi se odhlásil!'
+      subscription_changed: 'Nastavení tvých odběrů bylo aktualizováno. Nastavení svých oznámení můžeš upravovat na stránce <a href="%{account_link}">nastavení oznámení</a>.'
       unsubscribe: Odhlásit odběr
-      unsubscribed: ''
+      unsubscribed: 'Byl jsi <strong>odhlášen z odběru</strong>. Pokud jsi odhlášení provedl omylem, můžeš se k odběru znovu přihlásit, pokud navšívíš stránku svých <a href="%{account_link}">nastavení oznámení</a>.'
   emoji:
     short_name:
       1f600: ''
@@ -2205,7 +2205,7 @@ cs-CZ:
       1f92d: ''
       1f92e: ''
       1f92f: ''
-      1f971: ''
+      1f971: 'Zívající obličej'
       1f972: ''
       1fae2: ''
       1fae3: ''
@@ -2246,12 +2246,12 @@ cs-CZ:
       description: Tento příspěvek porušoval naše <a href="%{link}">zásady slušného chování</a>. Příslušný uživatelský účet mohl být zablokován.
       title: Tento příspěvek byl odstraněn
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'Z tvojí adresy jsme obdrželi příliš mnoho pokusů o přihlášení. Počkej pár sekund a pak to zkus znovu.'
+      title: 'Příliš mnoho pokusů o přihlášení'
   errors:
     attributes:
       descriptors:
-        invalid_for_country: ''
+        invalid_for_country: 'není platný pro zemi %{country_code}'
       iso_3166_1:
         invalid: není platná země
       iso_639_1:
@@ -3871,7 +3871,7 @@ cs-CZ:
           status:
             none: ''
             hardcore: ''
-            softcore: ''
+            softcore: 'Softcore'
         alternative_titles:
           no_records: Nebyly přidány žádné alternativní názvy.
         cast:
@@ -4526,7 +4526,7 @@ cs-CZ:
     watchlist_movie: Hledat seznam filmů ke zhlédnutí…
     watchlist_tv: Hledat seznam seriálů ke zhlédnutí…
     for_media: ''
-    softcore: ''
+    softcore: 'Softcore'
   search_text_validation_error: ''
   search_tip_1: 'Tip: Pro zúžení rozsahu vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
   season_number_name: "%{season_number}. sezóna"
