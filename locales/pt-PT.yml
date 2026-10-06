@@ -470,7 +470,7 @@ pt-PT:
   Translate Movie: Traduzir filme
   Translate Person: Traduzir pessoa
   Translate TV Series: Traduzir série
-  Translated Name: Nome traduzido
+  Translated Name: Título (Deixar campo vazio se igual ao original. Exceto nos títulos de episódios)
   Translated Overview: Sinopse traduzida
   Translated Tagline: Slogan traduzido
   Translated Title: Título (Deixar campo vazio se igual ao original)
@@ -708,7 +708,7 @@ pt-PT:
     statuses:
       banned: 'Banido'
       deleted: 'Eliminado'
-      ok: ''
+      ok: 'OK'
     tips:
       import_imdb_ratings: Podes importar as tuas classificações do IMDb.
       tip: Dica
@@ -1080,13 +1080,13 @@ pt-PT:
         '0':
           meaning: 'Sem informação de classificação etária.'
         '1':
-          meaning: ''
+          meaning: '(Umum: «Público em geral») - Para todos os públicos. Utilizada na maioria dos filmes exibidos na Malásia até 2008; mantém-se apenas na televisão, sobretudo na RTM.'
         '2':
           meaning: '(Penjaga 13: «Acompanhamento parental 13») - Os menores de 13 anos só podem entrar se estiverem acompanhados por um adulto. Introduzida em 2006, tornou-se o sistema oficial de classificação de filmes da Malásia em 2008. Em abril de 2012, «PG-13» passou a «P13» para destacar o uso da língua malaia em vez do inglês. A classificação P13 não permite cenas de beijos apaixonados.'
         '3':
           meaning: '(Seram, Ganas: «Violência explícita e horror/terror») - O filme pode conter violência forte, imagens sangrentas ou horror/terror que algumas pessoas considerem ofensivos.'
         '4':
-          meaning: ''
+          meaning: '(Seks: «Conteúdo sexual») - O filme pode conter cenas de sexo, nudez ou diálogos/referências sexuais que algumas pessoas considerem ofensivos, apesar de a LPF censurar rigorosamente as cenas de sexo e nudez.'
         '5':
           meaning: '(Politik, Agama: «Elementos religiosos ou políticos fortes») - O filme pode conter aspetos religiosos, sociais ou políticos que algumas pessoas considerem ofensivos. Raramente utilizada.'
         '6':
@@ -1427,7 +1427,7 @@ pt-PT:
           meaning: 'Proibido.'
       US:
         '0':
-          meaning: ''
+          meaning: 'Sem informação de classificação etária.'
         '1':
           meaning: 'Este programa foi concebido para ser adequado a todas as crianças.'
         '2':
@@ -1439,7 +1439,7 @@ pt-PT:
         '5':
           meaning: 'Este programa contém algum material que muitos pais consideram inadequado para menores de 14 anos.'
         '6':
-          meaning: ''
+          meaning: 'Este programa destina-se especificamente a adultos e pode, por isso, ser inadequado para menores de 17 anos.'
   character:
     Movie: 'Filme'
     Titles: Títulos
@@ -1496,7 +1496,7 @@ pt-PT:
     choose_header_images: 'Escolher imagens do cabeçalho'
     choose_reason: 'Tens de escolher um motivo.'
     community: 'COMUNIDADE'
-    confirm_buffer_time: ''
+    confirm_buffer_time: 'Confirma se precisas de mais tempo para continuar a editar.'
     confirmation: 'Confirmação'
     continue: 'Continuar'
     contribute: 'Contribui para a nossa base de dados'
@@ -1506,11 +1506,11 @@ pt-PT:
     create_overview_help: 'Ajuda-nos a preencher a biografia desta personagem ao longo das suas participações em filmes e séries.'
     create_overview_name_help: 'Altera o nome da personagem apenas se houver um motivo específico ou para um nome pelo qual seja habitualmente conhecida.'
     create_overview_note: 'Não é possível editar aqui o ator nem a sua fotografia de rosto.'
-    default_language_results_text: ''
+    default_language_results_text: 'Os resultados são apresentados em «en-US» por predefinição, pois não foram encontradas correspondências para o texto pesquisado no idioma selecionado.'
     delete_backdrop: 'Eliminar imagem de fundo'
     delete_character: 'Eliminar personagem'
     delete_group: 'Eliminar grupo'
-    delete_group_check: ''
+    delete_group_check: 'Tens a certeza de que queres eliminar este grupo?'
     do_you_want_continue: 'Queres continuar?'
     done_editing: 'Terminaste a edição?'
     drag_title: 'Arrasta um título para criar um novo grupo'
@@ -1538,9 +1538,9 @@ pt-PT:
     found_everything: 'Encontraste tudo?'
     frequent_translations: 'Traduções frequentes'
     group_name: 'Nome do grupo'
-    group_name_already_exists: ''
+    group_name_already_exists: 'Já existe um grupo com este conjunto de itens. Queres criar outro grupo?'
     group_name_required: 'O nome do grupo é obrigatório'
-    groups_minimum_appearance_msg: ''
+    groups_minimum_appearance_msg: 'Um grupo deve ter pelo menos uma participação. Adiciona uma participação ao grupo.'
     groups_not_present: 'A personagem não tem grupos.'
     headshot: 'Fotografia de rosto'
     headshot_window_title: 'Alterar a fotografia de rosto da personagem'
@@ -1558,7 +1558,7 @@ pt-PT:
     master_group_limit_error: 'Atingiste o número máximo de grupos permitido.'
     media: 'Conteúdo'
     media_association: 'Este conteúdo está associado a um registo de imagem do grupo selecionado. Se continuares, também serão alteradas as associações entre as pessoas e a imagem correspondente!'
-    media_character_id: ''
+    media_character_id: 'ID da personagem no conteúdo'
     media_type: Tipo de conteúdo
     media_types:
       character: 'Personagem'
@@ -1585,7 +1585,7 @@ pt-PT:
     note: 'Nota'
     note_info: 'Para continuar, seleciona uma pessoa no menu abaixo.'
     note_mods: 'Nota para os moderadores'
-    okay: ''
+    okay: 'OK'
     optional: 'opcional'
     page_is_live: 'A página já está publicada!'
     person: 'Pessoa'
@@ -1623,7 +1623,7 @@ pt-PT:
     select_backdrop: 'Selecionar imagem de fundo'
     select_cast_credit: 'Seleciona um crédito de elenco'
     select_group_title: 'Selecionar e agrupar títulos'
-    select_message: ''
+    select_message: 'Seleciona todos os atores que interpretaram esta versão da personagem. Por exemplo, se o ator mudou ao longo de uma série, seleciona ambos (para o Hulk do MCU, selecionarias Edward Norton e Mark Ruffalo).'
     select_person: 'Selecionar uma pessoa'
     select_person_association: 'Selecionar uma pessoa para associar'
     select_person_for_media: 'Seleciona uma nova pessoa para o conteúdo selecionado '
@@ -1654,7 +1654,7 @@ pt-PT:
     try_again: 'Tenta novamente!'
     tv: 'Séries'
     tv_titles: Títulos de séries
-    unloading_message: ''
+    unloading_message: 'Sair desta página pode causar perda de dados. O que queres fazer?'
     unlock_existing_appearances: Desbloquear participações existentes
     unsaved_change_lost: 'Todas as alterações não guardadas serão perdidas.'
     unsaved_will_lost_want_to_continue: 'Todas as alterações não guardadas serão perdidas. Queres continuar?'
@@ -1753,7 +1753,7 @@ pt-PT:
     tv_show: Série
   cookie_popup:
     message: Utilizamos cookies para te proporcionar uma melhor experiência no TMDB. Consulta a nossa <a href="%{policy_url}" target="_blank" rel="noopener">política de cookies</a> para saberes mais. Ao continuares a utilizar o TMDB, aceitas esta política.
-    ok_button: Ok
+    ok_button: OK
   create_api: 'Criar API'
   date:
     abbr_day_names:
@@ -1788,10 +1788,10 @@ pt-PT:
     - sábado
     formats:
       abbrev: "%-d %b %Y"
-      default: "%d-%m-%Y"
-      full_month_day: "%e %B %Y"
+      default: "%d/%m/%Y"
+      full_month_day: "%-d de %B de %Y"
       full_month_year: "%B de %Y"
-      short_month_day_year: "%d de %b de %Y"
+      short_month_day_year: "%-d de %b de %Y"
     month_names:
     - 
     - janeiro
@@ -2134,7 +2134,7 @@ pt-PT:
       error: 'Ocorreu um problema ao criar o teu pedido. Queres tentar novamente?'
       submit: 'Enviar um pedido de remoção ao abrigo da DMCA.'
   dont_fallback: Nenhum (sem idioma alternativo)
-  duplicate_character_name: ''
+  duplicate_character_name: 'O nome da personagem já existe. Tenta outro nome.'
   edit_list:
     add_edit_items: Adicionar/editar itens
     choose_image: Escolher imagem
@@ -2271,23 +2271,23 @@ pt-PT:
       email_address_not_routable: 'não permite a entrega de e-mail'
       empty: 'não pode ficar em branco'
       equal_to:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser igual a %{count}
+        many: tem de ser igual a %{count}
+        other: tem de ser igual a %{count}
       even: 'tem de ser par'
       exclusion: 'é um valor reservado'
       greater_than:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser superior a %{count}
+        many: tem de ser superior a %{count}
+        other: tem de ser superior a %{count}
       greater_than_or_equal_to:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser superior ou igual a %{count}
+        many: tem de ser superior ou igual a %{count}
+        other: tem de ser superior ou igual a %{count}
       in:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de estar em %{count}
+        many: tem de estar em %{count}
+        other: tem de estar em %{count}
       inclusion: é de seleção obrigatória
       invalid: tem um valor inválido
       invalid_character_name: 'O nome da personagem não deve conter caracteres especiais'
@@ -2295,26 +2295,26 @@ pt-PT:
       invalid_password: 'A palavra-passe que introduziste está incorreta.'
       invalid_request: 'Não foi possível concluir o pedido.'
       less_than:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser inferior a %{count}
+        many: tem de ser inferior a %{count}
+        other: tem de ser inferior a %{count}
       less_than_or_equal_to:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser inferior ou igual a %{count}
+        many: tem de ser inferior ou igual a %{count}
+        other: tem de ser inferior ou igual a %{count}
       model_invalid: '''A validação falhou: %{errors}'''
       no_characters_found: 'Não foram encontradas personagens'
       not_a_number: 'não é um número'
       not_an_integer: 'tem de ser um número inteiro'
       odd: 'tem de ser ímpar'
       other_than:
-        one: ''
-        many: ''
-        other: ''
+        one: tem de ser diferente de %{count}
+        many: tem de ser diferente de %{count}
+        other: tem de ser diferente de %{count}
       present: 'tem de ficar em branco'
       required: deve existir
       series_status_invalid_to_create_season: 'tem o estado «Cancelada» ou «Terminada», pelo que não é possível criar novas temporadas.'
-      suspected_tv_series: parece ser uma Série ou Minissérie já existente. Pode continuar a adicionar este item, mas ela será removida caso já exista na nossa secção de Séries
+      suspected_tv_series: parece ser uma série ou minissérie já existente. Podes continuar a adicionar este item se tiveres a certeza, mas será eliminado se já existir na secção de séries.
       taken: já está em utilização
       too_long:
         one: excede o limite de %{count} carácter
@@ -2478,9 +2478,9 @@ pt-PT:
     many: '%{count} itens'
     other: '%{count} itens'
   item_count_more:
-    one: ''
-    many: ''
-    other: ''
+    one: mais %{count}...
+    many: mais %{count}...
+    other: mais %{count}...
   jobs:
     '"A" Camera Operator': Operador de câmara «A»
     '"B" Camera Operator': 'Operador de câmara «B»'
@@ -2688,7 +2688,7 @@ pt-PT:
     Casting Director: Diretor de casting
     Casting Producer: 'Produtor de casting'
     Casting Researcher: 'Investigador de casting'
-    Catering: ''
+    Catering: 'Catering'
     Catering Head Chef: 'Chefe de cozinha de catering'
     Chaperone: 'Acompanhante de menores'
     Chaperone Tutor: 'Acompanhante e tutor de menores'
@@ -2828,9 +2828,9 @@ pt-PT:
     Editorial Staff: Equipa de montagem
     Effects Supervisor: Supervisor de efeitos
     Electrician: Eletricista
-    Epk Camera Operator: ''
-    Epk Director: ''
-    Epk Producer: ''
+    Epk Camera Operator: 'Operador de câmara de EPK'
+    Epk Director: 'Realizador de EPK'
+    Epk Producer: 'Produtor de EPK'
     Executive Assistant: 'Assistente executivo'
     Executive Co-Producer: 'Coprodutor executivo'
     Executive Consultant: Consultor executivo
@@ -3110,7 +3110,7 @@ pt-PT:
     Production Supervisor: Supervisor de produção
     Production Trainee: 'Estagiário de produção'
     Project Manager: 'Gestor de projeto'
-    Projection: 'Projeção '
+    Projection: 'Projeção'
     Prop Designer: Designer de adereços
     Prop Maker: Aderecista
     Property Builder: 'Construtor de adereços'
@@ -3133,7 +3133,7 @@ pt-PT:
     Radio Play: Peça radiofónica
     Receptionist: 'Rececionista'
     Recording Supervision: Supervisão de gravação
-    Red Technician: ''
+    Red Technician: 'Técnico de câmara RED'
     Research Assistant: 'Assistente de investigação'
     Researcher: Investigador
     Rigging Gaffer: Chefe eletricista de montagem de iluminação
@@ -3290,7 +3290,7 @@ pt-PT:
     Story Editor: 'Editor de argumento'
     Story Manager: 'Gestor de argumento'
     Story Supervisor: 'Supervisor de argumento'
-    Storyboard: Esboço Sequencial
+    Storyboard: Storyboard
     Storyboard Artist: 'Artista de storyboard'
     Storyboard Assistant: 'Assistente de storyboard'
     Storyboard Designer: 'Designer de storyboard'
@@ -3355,7 +3355,7 @@ pt-PT:
     Ultimate Arm Operator: 'Operador de grua Ultimate Arm'
     Underwater Camera: Câmara subaquática
     Underwater Director of Photography: 'Diretor de fotografia subaquática'
-    Underwater Epk Photographer: ''
+    Underwater Epk Photographer: 'Fotógrafo subaquático de EPK'
     Underwater Gaffer: Chefe eletricista subaquático
     Underwater Stills Photographer: Fotógrafo de cena subaquático
     Unit Manager: Gestor da unidade
@@ -3408,7 +3408,7 @@ pt-PT:
     Weapons Wrangler: 'Responsável por armamento'
     Web Designer: Designer de páginas web
     Wig Designer: Designer de perucas
-    Wigmaker: Fabricante de perucas
+    Wigmaker: Peruqueiro
     Writer: Argumentista
     Writers' Assistant: Assistente de argumentistas
     Writers' Production: 'Produção da equipa de argumentistas'
@@ -4483,7 +4483,7 @@ pt-PT:
     previous_page: Página anterior
     previous_page_with_arrow: "← Página anterior"
     show_more: Mostrar mais
-  part_of_collection: Faz parte de %{collection_name}
+  part_of_collection: 'Faz parte de: %{collection_name}'
   password:
     4_chars_minimum: '(mínimo de 4 caracteres)'
     confirm_new_password: Confirmar nova palavra-passe
@@ -4749,7 +4749,7 @@ pt-PT:
       streaming_services: Serviços de streaming
   sign_up:
     benefits:
-      benefits_to_being_member: Benefícios de ser Membro do TMDB
+      benefits_to_being_member: Benefícios de ser membro do TMDB
       build_custom_lists: Criar listas personalizadas (filmes e séries)
       build_watchlist: Criar e manter uma lista de interesses pessoal
       contribute: Contribuir para a informação da nossa base de dados e melhorá-la
@@ -4779,13 +4779,13 @@ pt-PT:
       words_connector: ", "
   the: 'o'
   time:
-    am: ''
+    am: 'AM'
     formats:
       12hour_minutes: "%l:%M %p"
-      default: ''
-      long: "%B %d, %Y %I:%M %p"
-      short: "%d %b %I:%M %p"
-    pm: ''
+      default: '%a, %d %b %Y %H:%M:%S %Z'
+      long: "%-d de %B de %Y, %H:%M"
+      short: "%d %b %H:%M"
+    pm: 'PM'
     units:
       hours: 'Horas'
       minutes: 'Minutos'
@@ -4839,7 +4839,7 @@ pt-PT:
         tv: 'O tom desta série era...'
       select: 'Selecionar um tom...'
     welcome: 'Bem-vindo ao Vibes, o novo sistema de classificação do TMDB! Para saberes mais, consulta o <span class="%{style}"><a href="%{link}"> guia de contribuição</a></span>.'
-    whats_new: ''
+    whats_new: 'Novidades'
     whats_your_vibe: 'Qual é a tua <span class="%{style}">impressão</span>?'
     your_vibe:
       one: A tua impressão
