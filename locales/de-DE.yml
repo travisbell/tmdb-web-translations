@@ -1,4 +1,3 @@
----
 de-DE:
   3rd Party Applications: Drittanbieter-Anwendungen
   API: API
@@ -73,7 +72,7 @@ de-DE:
   Application Summary: Anwendungsübersicht
   Application URL: Anwendungs-URL
   Approve: Genehmigen
-  Approved?: Status
+  Approved?: Genehmigt?
   Apps: Anwendungen
   Archived Databases: Eingestellte Datenquellen
   Are you sure?: Bist du dir sicher?
@@ -85,7 +84,7 @@ de-DE:
   Bad Image: Fehlerhaftes Bild
   Best Match: Beste Treffer
   Biography: Biografie
-  Birthday: Geboren am
+  Birthday: Geburtstag
   Blocked Users: Blockierte Benutzer
   Blog: Blog
   Branding: Branding
@@ -126,16 +125,16 @@ de-DE:
   Created By: Nach einer Idee von
   Credits: Abspann
   Crew: Crew
-  Currently Airing TV Shows: Momentan ausgestrahlte Se­rien
+  Currently Airing TV Shows: Momentan ausgestrahlte Serien
   Currently on page: Seite
   DMCA Policy: DMCA-Richtlinie
   DMCA Takedown Request: Urheberrechtsverletzung
   Date: Datum
   Date Added: Hinzugefügt am
-  Day of Death: Verstorben am
+  Day of Death: Todestag
   Default Language: Hauptsprache
   Delete: Löschen
-  Delete Collection: Sammlung gelöscht
+  Delete Collection: Sammlung löschen
   Delete Keyword: Schlüsselwort löschen
   Delete Movie: Film löschen
   Delete Person: Person löschen
@@ -254,7 +253,7 @@ de-DE:
   List Results: Ergebnisse (Listen)
   Lists: Listen
   Load More: Mehr anzeigen
-  Locked?: Schreibschutz
+  Locked?: Gesperrt?
   Login to Add a Backdrop: Anmelden, um Hintergrundbild hinzuzufügen
   Login to Add a Poster: Anmelden um Poster hinzuzufügen
   Login to Add a Video: Anmelden um Video hinzufügen
@@ -338,7 +337,7 @@ de-DE:
   Poster Card View: Posteransicht
   Powered by TMDb: Powered by TMDB
   Powered by The Movie Database: Betrieben von The Movie Database
-  Premiere: Uraufführung
+  Premiere: Premiere
   Preview: Vorschau
   Primary Color: Primärfarbe
   Primary Facts: Stammdaten
@@ -391,7 +390,7 @@ de-DE:
   Search for a language: Suche nach Sprachen...
   Search for a movie: Suche nach einem Film
   Search for a movie or TV show: Suche nach einen Film oder einer Serie
-  Search for a movie, TV show, person: Suche nach Film, Serie, Person
+  Search for a movie, TV show, person: Suche nach einem Film, einer Serie, einer Person...
   Season: Staffel
   Season Number: Staffelnummer
   Season Overview: Staffelhandlung
@@ -416,7 +415,7 @@ de-DE:
   Sort By: Sortieren nach
   Sort Cast: Darsteller sortieren
   Sort Regular Cast: Gastdarsteller sortieren
-  Source Key: YouTube Video ID
+  Source Key: Video ID
   Specials: Extras
   Spoken Languages: Gesprochene Sprachen
   Stage Name: Künstlername
@@ -467,12 +466,12 @@ de-DE:
   Translate Award: Preis übersetzen
   Translate Collection: Sammlung übersetzen
   Translate Movie: Film übersetzen
-  Translate Person: Person Übersetzen
-  Translate TV Series: Serien übersetzen
-  Translated Name: Lokaler Titel (Feld leer lassen, wenn identisch mit dem Originaltitel)
+  Translate Person: Person übersetzen
+  Translate TV Series: Serie übersetzen
+  Translated Name: Übersetzter Titel
   Translated Overview: Handlung
   Translated Tagline: Lokale Tagline
-  Translated Title: Lokaler Titel (Feld leer lassen, wenn identisch mit dem Originaltitel)
+  Translated Title: Übersetzter Titel
   Translation: Übersetzung
   Translations: Übersetzungen
   Type: Art
@@ -506,13 +505,17 @@ de-DE:
   Website: Webseite
   Website Terms: Nutzungsbedingungen
   Website Updates: Updates
-  Wrappers & Libraries: 'Wrappers & Bibliotheken '
+  Wrappers & Libraries: 'Wrappers & Bibliotheken'
   Written by: Geschrieben von
   Year: Jahr
   'Yes': Ja
   Your lists: Deine Listen
   Your rating: Deine Bewertung
   Zip Code: PLZ
+  account:
+    reviews:
+      delete:
+        message: ''
   account_drop_down:
     discussions: Diskussionen
     edit_profile: Profil
@@ -527,6 +530,7 @@ de-DE:
     sign_up: Registrieren
     view_profile: Profil ansehen
     watchlist: Watchliste
+    reviews: 'Rezensionen'
   accounts:
     activity:
       activity: Aktivitäten
@@ -554,7 +558,7 @@ de-DE:
     discussions:
       my_active_boards: Meine Forumaktivität
       my_discussions: Meine Diskussionen
-      not_watching: Du verfolgst derzeit keine Diskussionen.
+      not_watching: Du beobachtest derzeit keine Diskussionen.
       page_title:
         page_owner: Meine Diskussionen
         public: "%{username}'s Diskussionen"
@@ -569,7 +573,7 @@ de-DE:
             Delivery: Zugestellt
             Invalid: Ungültig
             Unknown: Unbekannt
-            Unsubscribed: Abgemeldet
+            Unsubscribed: Deabonniert
             status: Status
         number_of_items:
           one: "%{count} E-Mail"
@@ -634,11 +638,14 @@ de-DE:
         page_owner: Meine Listen
         public: "%{username}'s Listen"
       search: Suche nach einer Liste...
-      add_to_lists:
-      contributor:
-      create_new_list:
-      created:
-      my_new_list:
+      add_to_lists: ''
+      contributor: 'Mitwirkender'
+      create_new_list: ''
+      created: 'Liste erstellt'
+      my_new_list: 'Meine neue Liste...'
+      no_reviews:
+        logged_in: 'Du hast noch keine Rezensionen geschrieben.'
+        public: '%{username} hat noch keine Rezensionen geschrieben.'
     member_since: Mitglied seit %{date}
     navigation:
       discussions: Diskussionen
@@ -646,9 +653,9 @@ de-DE:
       lists: Listen
       overview: Übersicht
       ratings: Bewertungen
-      ratings_reviews: Bewertungen & Rezessionen
+      ratings_reviews: Bewertungen & Rezensionen
       recommendations: Empfehlungen
-      reviews: Rezessionen
+      reviews: Rezensionen
       watchlist: Watchliste
     order: 'Sortierung:'
     overview:
@@ -678,8 +685,8 @@ de-DE:
         logged_in: Meine Bewertungen
         public: "%{username}'s Bewertungen"
       my_reviews:
-        logged_in: Meine Rezessionen
-        public: "%{username}'s Rezessionen"
+        logged_in: Meine Rezensionen
+        public: "%{username}'s Rezensionen"
       page_title:
         page_owner: Meine Bewertungen & Rezensionen
         public: "%{username}'s Bewertungen & Rezensionen"
@@ -717,6 +724,10 @@ de-DE:
       this_month: Diesen Monat
       this_week: Diese Woche
       view_them: Zeigen
+    reviews:
+      page_title:
+        page_owner: 'Meine Rezensionen'
+        public: '%{username}''s Rezensionen'
   add_to_list: "%{media_title} zu einer deiner Listen hinzufügen …"
   already_translated_in: "%{page_title} wurde bereits für folgende Sprachen übersetzt …"
   api_for_business:
@@ -854,8 +865,7 @@ de-DE:
     winner: Gewinner
     wins:
       one: 1 Gewinn
-      other: "%{count} Gewinne"
-      zero: Keine Siege
+      other: '%{count} Gewinne'
     most_awarded_films: Meistausgezeichnete Filme
     most_awarded_people: Meistausgezeichnete Personen
     most_nominated_films: Am meisten nominierte Filme
@@ -890,13 +900,13 @@ de-DE:
         '4':
           meaning: Für Erwachsene. Es gibt keine Altersbeschränkung.
         '5':
-          meaning: 'Nicht für Kinder geeignet. Kinder unter 15 Jahren nur mit Elternbegleitung. '
+          meaning: 'Nicht für Kinder geeignet. Kinder unter 15 Jahren nur mit Elternbegleitung.'
         '6':
           meaning: Ab 18. Nur für Erwachsene.
         '7':
           meaning: Ab 18 Jahre und älter. Filme mit dieser Bewertung haben pornographische Inhalte. Filme, die als X18+ eingestuft sind, dürfen in keinem der australischen Bundesstaaten verkauft oder gemietet werden und sind nur im Australischen Hauptstadtterritorium und im Northern Territory legal verfügbar. Das Importieren von X18+-Material aus den beiden Territorien in einen der australischen Staaten ist jedoch legal. Der Inhalt ist eindeutig sexuell.
         '8':
-          meaning: 'Abgelehnte Klassifizierung. Verbot von Verkauf oder Vermietung in Australien; gilt auch allgemein für die Einfuhr (wenn sie vom Zoll kontrolliert und verdächtig ist). Versuche, solches Online-Material zu zensieren, hat zu Kontroversen geführt. Filme werden mit RC bewertet, wenn ihr Inhalt die Richtlinien überschreitet. '
+          meaning: 'Abgelehnte Klassifizierung. Verbot von Verkauf oder Vermietung in Australien; gilt auch allgemein für die Einfuhr (wenn sie vom Zoll kontrolliert und verdächtig ist). Versuche, solches Online-Material zu zensieren, hat zu Kontroversen geführt. Filme werden mit RC bewertet, wenn ihr Inhalt die Richtlinien überschreitet.'
       BG:
         '1':
           meaning: Für Kinder geeignet.
@@ -992,14 +1002,14 @@ de-DE:
         '5':
           meaning: Nur für Erwachsene.
         '6':
-          meaning: 'Kommerzieller Vertrieb verboten. '
+          meaning: 'Kommerzieller Vertrieb verboten.'
       FR:
         '1':
           meaning: Gültig für alle Zielgruppen.
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) ungeeignet für Kinder unter 10 Jahren (diese Bewertung wird nur für Serien verwendet); gleichwertig für Kinofilme: "avertissement" (Warnung), einzelne Szenen können für Kinder und sensible Menschen störend sein; gleichwertig auf Video: "accord parental" (elterliche Aufsicht).'
         '3':
-          meaning: " Ungeeignet für Kinder unter 12 Jahren oder für Kinos unter 12 Jahren verboten."
+          meaning: "Ungeeignet für Kinder unter 12 Jahren oder für Kinos unter 12 Jahren verboten."
         '4':
           meaning: "(Interdit aux moins de 16 ans) Keine Freigabe für Jugendliche unter 16 Jahren oder verboten in Kinos für unter 16-jährige."
         '5':
@@ -1021,19 +1031,19 @@ de-DE:
           meaning: 'Darf nur in lizenzierten Erwachsenen-Kinos gezeigt oder in lizenzierten Sexshops verkauft werden und nur an Erwachsene, die 18 Jahre oder älter sind. Filme in dieser Kategorie sind immer Hardcore-Pornografie, definiert als Material, das für sexuelle Stimulation bestimmt ist und klare Bilder von echten sexuellen Aktivitäten, starkes Fetischmaterial, explizite animierte Bilder oder den Anblick bestimmter Handlungen wie dreifache gleichzeitige Penetration und "snowballing". Es bleibt eine Reihe von Materialien, die oft von der R18-Bewertung abgeschnitten werden: starke Bilder von Verletzungen bei BDSM oder Spanking-Spielen, Urolagnie, Szenen, die auf Inzest hinweisen, auch wenn sie inszeniert werden, Hinweise auf Sex mit Minderjährigen oder sexuelle Entwicklung in der Kindheit und aggressives Verhalten wie Haareziehen oder Anspucken eines Darstellers sind nicht erlaubt. In dieser Kategorie werden mehr Schnitte gefordert als in jeder anderen Kategorie.'
       HU:
         '0':
-          meaning:
+          meaning: ''
         '1':
           meaning: Kinderfreundliche Sendung. Diese Sendung kann unbedacht zu jederzeit laufen.
         '2':
-          meaning:
+          meaning: ''
         '3':
-          meaning:
+          meaning: ''
         '4':
-          meaning:
+          meaning: ''
         '5':
-          meaning:
+          meaning: ''
         '6':
-          meaning:
+          meaning: ''
       IN:
         '0':
           meaning: Uneingeschränkte öffentliche Ausstrahlung in ganz Indien, geeignet für alle Altersgruppen. Filme unter dieser Kategorie sollten Kinder über 4 Jahre nicht aufschrecken. Solche Filme können pädagogische, soziale oder familienorientierte Themen enthalten. Filme in dieser Kategorie können auch Fantasy-Gewalt und/oder leichte Schimpfwörter enthalten.
@@ -1175,15 +1185,15 @@ de-DE:
         '0':
           meaning: Keine Informationen zur Freigabe.
         '1':
-          meaning: Alle Altersgruppen sind zugelassen.  Es gibt keine Inhalte, die für die meisten Eltern anstößig wären.  Dies ist eine von nur zwei Bewertungen aus dem Jahr 1968, die heute noch existieren.
+          meaning: Alle Altersgruppen sind zugelassen. Es gibt keine Inhalte, die für die meisten Eltern anstößig wären. Dies ist eine von nur zwei Bewertungen aus dem Jahr 1968, die heute noch existieren.
         '2':
-          meaning: Einige Inhalte sind möglicherweise nicht für Kinder unter 10 Jahren geeignet.  Diese Filme können leichte Schimpfworte, groben/suggestiven Humor, beängstigende Momente und/oder Gewalt enthalten.  Drogen werden nicht thematisiert.  Es gibt einige Ausnahmen von dieser Regel.  Auch ein paar rassistische Beleidigungen sind zu hören.
+          meaning: Einige Inhalte sind möglicherweise nicht für Kinder unter 10 Jahren geeignet. Diese Filme können leichte Schimpfworte, groben/suggestiven Humor, beängstigende Momente und/oder Gewalt enthalten. Drogen werden nicht thematisiert. Es gibt einige Ausnahmen von dieser Regel. Auch ein paar rassistische Beleidigungen sind zu hören.
         '3':
-          meaning: Einige Inhakte können für Kinder unter 13 Jahren ungeeignet sein.  Filme, die diese Bewertung erhalten, können sexuellen Inhalt, kurze oder teilweise Nacktheit, stärkere Schimpfworte und Anspielung, Humor, reife Themen, politische Themen, Terror und/oder intensive Action-Gewalt enthalten.  Blutvergießen ist jedoch selten vorhanden.  Dies ist die Mindestbewertung, bei welcher Drogen vorkommen.
+          meaning: Einige Inhalte können für Kinder unter 13 Jahren ungeeignet sein. Filme, die diese Bewertung erhalten, können sexuellen Inhalt, kurze oder teilweise Nacktheit, stärkere Schimpfworte und Anspielung, Humor, reife Themen, politische Themen, Terror und/oder intensive Action-Gewalt enthalten. Blutvergießen ist jedoch selten vorhanden. Dies ist die Mindestbewertung, bei welcher Drogen vorkommen.
         '4':
           meaning: Unter 17 Jahren ist es erforderlich, in Begleitung eines Elternteils oder erwachsenen Vormunds der 21 Jahre oder älter zu sein. Der Elternteil/Vormund ist verpflichtet, während des gesamten Films bei dem Kind unter 17 Jahren zu bleiben, auch wenn der Elternteil dem Kind/Jugendlichen die Erlaubnis gibt, den Film allein zu sehen. Diese Filme können starke Profanität, grafische Sexualität, Nacktheit, starke Gewalt, Horror, Blut und starken Drogenkonsum enthalten. Ein Film, der mit R für Obszönitäten bewertet ist, hat oft extreme oder häufigere Schimpfworte, als es die PG-13-Bewertung zulassen würde. Ein Film mit R-Rating kann mehr Blut, Drogen, Nacktheit oder grafische Sexualität haben, als ein Film mit PG-13 zulassen würde.
         '5':
-          meaning: Diese Filme enthalten übermäßige grafische Gewalt, intensiven oder expliziten Sex, verkommenes, abstoßendes Verhalten, expliziten Drogenmissbrauch, starke Schimpfworte, explizite Nacktheit oder andere Elemente, die die meisten Eltern derzeit für zu extrem halten würden und daher für ihre Kinder und Jugendlichen tabu sind.  NC-17 bedeutet nicht unbedingt obszön oder pornographisch im Sinne der oft akzeptierten oder rechtlichen Bedeutung dieser Wörter.
+          meaning: Diese Filme enthalten übermäßige grafische Gewalt, intensiven oder expliziten Sex, verkommenes, abstoßendes Verhalten, expliziten Drogenmissbrauch, starke Schimpfworte, explizite Nacktheit oder andere Elemente, die die meisten Eltern derzeit für zu extrem halten würden und daher für ihre Kinder und Jugendlichen tabu sind. NC-17 bedeutet nicht unbedingt obszön oder pornographisch im Sinne der oft akzeptierten oder rechtlichen Bedeutung dieser Wörter.
     tv_series:
       AU:
         '1':
@@ -1197,11 +1207,11 @@ de-DE:
         '5':
           meaning: Empfohlen für ein erwachsenes Publikum; M-bewertete Inhalte dürfen nur zwischen 20:30 Uhr und 5:00 Uhr an jedem Tag und zusätzlich zwischen 12:00 Uhr und 15:00 Uhr an Schultagen ausgestrahlt werden.
         '6':
-          meaning: Nicht geeignet für Kinder und Jugendliche unter 15 Jahren; MA15+-bewertete Programme dürfen nur zwischen 21:00 Uhr und 5:00 Uhr an einem bestimmten Tag ausgestrahlt werden.  Die Warnung der Verbraucher ist obligatorisch. Einige Filme auf DVD/Blu-Ray mit der Bewertung R18+ werden oft auf Free-TV-/Kabelkanälen neu geschnitten, um eine „angemessenere“ MA15+-Bewertung zu erhalten. Einige Filme, die auf DVD mit R18 bewertet wurden, wurden inzwischen im australischen Fernsehen mit MA15+ bewertet.
+          meaning: Nicht geeignet für Kinder und Jugendliche unter 15 Jahren; MA15+-bewertete Programme dürfen nur zwischen 21:00 Uhr und 5:00 Uhr an einem bestimmten Tag ausgestrahlt werden. Die Warnung der Verbraucher ist obligatorisch. Einige Filme auf DVD/Blu-Ray mit der Bewertung R18+ werden oft auf Free-TV-/Kabelkanälen neu geschnitten, um eine „angemessenere“ MA15+-Bewertung zu erhalten. Einige Filme, die auf DVD mit R18 bewertet wurden, wurden inzwischen im australischen Fernsehen mit MA15+ bewertet.
         '7':
-          meaning: Nicht für Kinder und Jugendliche unter 15 Jahren geeignet; dies ist das gleiche wie die MA15+-Bewertung, mit der Ausnahme, dass "AV" für "Adult Violence" steht, was bedeutet, dass alles, was mit der Verbraucherberatung "Frequent Violence" oder "Strong Violence" klassifiziert wird, automatisch zu AV15+ wird (mit der gleichen Verbraucherberatung.) Die AV-Bewertung darf weiterhin alle MA15+-Inhalte überschreiten, insbesondere - "Violence".  AV15+ Inhalte dürfen nur zwischen 21:30 Uhr und 5:00 Uhr an einem Tag übertragen werden.  Die Warnung der Verbraucher ist obligatorisch.
+          meaning: Nicht für Kinder und Jugendliche unter 15 Jahren geeignet; dies ist das gleiche wie die MA15+-Bewertung, mit der Ausnahme, dass "AV" für "Adult Violence" steht, was bedeutet, dass alles, was mit der Verbraucherberatung "Frequent Violence" oder "Strong Violence" klassifiziert wird, automatisch zu AV15+ wird (mit der gleichen Verbraucherberatung.) Die AV-Bewertung darf weiterhin alle MA15+-Inhalte überschreiten, insbesondere - "Violence". AV15+ Inhalte dürfen nur zwischen 21:30 Uhr und 5:00 Uhr an einem Tag übertragen werden. Die Warnung der Verbraucher ist obligatorisch.
         '8':
-          meaning: Nicht für Kinder unter 18 Jahren; beschränkt auf Erwachsene „Pay Per View“ VC 196 und 197.  Zu den Inhalten können grafische Gewalt, sexuelle Situationen, rauhe Sprache und expliziter Drogenkonsum gehören.
+          meaning: Nicht für Kinder unter 18 Jahren; beschränkt auf Erwachsene „Pay Per View“ VC 196 und 197. Zu den Inhalten können grafische Gewalt, sexuelle Situationen, rauhe Sprache und expliziter Drogenkonsum gehören.
       BR:
         '0':
           meaning: Die Inhalte sind für alle Zielgruppen geeignet.
@@ -1219,7 +1229,7 @@ de-DE:
         '0':
           meaning: Programme, die von der Bewertung ausgenommen sind (z. B. Nachrichten und Sportprogramme), zeigen überhaupt keine Bewertung auf dem Bildschirm an.
         '1':
-          meaning: Fernsehprogramm geeignet für Kinder im Alter von 2 bis 7 Jahren.  Keine Obszönitäten oder sexuelle Inhalte jeglicher Art sind erlaubt.  Enthält wenig Gewalt.
+          meaning: Fernsehprogramm geeignet für Kinder im Alter von 2 bis 7 Jahren. Keine Obszönitäten oder sexuelle Inhalte jeglicher Art sind erlaubt. Enthält wenig Gewalt.
         '2':
           meaning: Geeignet für Kinder ab 8 Jahren. Gewalt auf niedriger Ebene und Fantasy-Horror sind erlaubt. Keine schmutzige Sprache ist erlaubt, aber gelegentlich ist eine „sozial beleidigende und diskriminierende“ Sprache erlaubt, wenn sie im Kontext der Geschichte steht. Keine sexuellen Inhalte jeglicher Art erlaubt.
         '3':
@@ -1229,7 +1239,7 @@ de-DE:
         '5':
           meaning: Das Programm richtet sich an Zuschauer ab 14 Jahren. Kann starke Gewalt und starke Profanität sowie Darstellungen sexueller Aktivitäten enthalten, solange sie sich im Kontext einer Geschichte befinden.
         '6':
-          meaning: Das Programm richtet sich an Zuschauer ab 18 Jahren.  Kann explizite Gewalt und sexuelle Aktivitäten beinhalten. Fernsehprogramm mit dieser Bewertung darf nur von 21:00 bis 06:00 Uhr ausgestrahlt werden.
+          meaning: Das Programm richtet sich an Zuschauer ab 18 Jahren. Kann explizite Gewalt und sexuelle Aktivitäten beinhalten. Fernsehprogramm mit dieser Bewertung darf nur von 21:00 bis 06:00 Uhr ausgestrahlt werden.
       CA-QC:
         '0':
           meaning: Keine Bewertungsinformationen
@@ -1242,7 +1252,7 @@ de-DE:
         '4':
           meaning: Empfohlen für Kinder über 16 Jahren, kann starke Gewalt, starker Schimpfworte und starke sexuelle Inhalte enthalten.
         '5':
-          meaning: Nur für Erwachsene geeignet, kann extreme Gewalt und grafische sexuelle Inhalte enthalten.  Es wird hauptsächlich für 18+ Filme und Pornografie verwendet.
+          meaning: Nur für Erwachsene geeignet, kann extreme Gewalt und grafische sexuelle Inhalte enthalten. Es wird hauptsächlich für 18+ Filme und Pornografie verwendet.
       DE:
         '0':
           meaning: Darf jederzeit ausgestrahlt werden.
@@ -1286,11 +1296,11 @@ de-DE:
           meaning: Nicht empfohlen für Personen unter 18 Jahren. Der Zugang zu diesen Programmen ist zwischen Mitternacht und 5 Uhr morgens und nur auf einigen Kanälen unter Eingabe eines persönlichen Passwort möglich.
       GB:
         '0':
-          meaning: Das U-Symbol steht für Universal.  Ein U-Film sollte für ein Publikum ab vier Jahren geeignet sein.
+          meaning: Das U-Symbol steht für Universal. Ein U-Film sollte für ein Publikum ab vier Jahren geeignet sein.
         '1':
-          meaning: PG steht für Parental Guidance (Begleitung durch Eltern).  Das bedeutet, dass ein Film für die allgemeine Betrachtung geeignet ist, aber einige Szenen können für kleine Kinder ungeeignet sein.  Eine PG-Bewertung sollte ein Kind im Alter von etwa acht Jahren oder älter nicht verunsichern.
+          meaning: PG steht für Parental Guidance (Begleitung durch Eltern). Das bedeutet, dass ein Film für die allgemeine Betrachtung geeignet ist, aber einige Szenen können für kleine Kinder ungeeignet sein. Eine PG-Bewertung sollte ein Kind im Alter von etwa acht Jahren oder älter nicht verunsichern.
         '2':
-          meaning: Filme der Kategorie 12A und Videoarbeiten der Kategorie 12 enthalten Material, das für Kinder unter 12 Jahren nicht geeignet ist.  12A verlangt, dass ein Erwachsener jedes Kind unter 12 Jahren begleitet, das einen 12A-Film im Kino sieht.
+          meaning: Filme der Kategorie 12A und Videoarbeiten der Kategorie 12 enthalten Material, das für Kinder unter 12 Jahren nicht geeignet ist. 12A verlangt, dass ein Erwachsener jedes Kind unter 12 Jahren begleitet, das einen 12A-Film im Kino sieht.
         '3':
           meaning: Filme der Kategorie 12A und Videoarbeiten der Kategorie 12 enthalten Material, das für Kinder unter 12 Jahren nicht geeignet ist.
         '4':
@@ -1322,9 +1332,9 @@ de-DE:
         '2':
           meaning: Diese Bewertung gilt für Fernsehsendungen, die Material enthalten können, das für Kinder unter 7 Jahren ungeeignet ist, und die elterliche Diskretion sollte genutzt werden. Einige Cartoon-Programme, die nicht unbedingt als „lehrreich“ gelten, und Filme, die in Nordamerika mit „G“ oder „PG“ bewertet werden, können in die Kategorie 7 fallen.
         '3':
-          meaning: Diese Bewertung gilt für Programme, die für Personen unter 12 Jahren als ungeeignet erachtet werden können, und die elterliche Diskretion sollte genutzt werden.  Normalerweise verwendet für Animationen, die stärkere Themen oder Gewalt haben als die, die für Kinder entwickelt wurden, oder für Reality-Shows, die leichte Gewalt, Themen oder Sprache haben.
+          meaning: Diese Bewertung gilt für Programme, die für Personen unter 12 Jahren als ungeeignet erachtet werden können, und die elterliche Diskretion sollte genutzt werden. Normalerweise verwendet für Animationen, die stärkere Themen oder Gewalt haben als die, die für Kinder entwickelt wurden, oder für Reality-Shows, die leichte Gewalt, Themen oder Sprache haben.
         '4':
-          meaning: Diese Bewertung gilt für Programme, die Material enthalten, das für Kinder unter 15 Jahren ungeeignet sein könnte. Die elterliche Diskretion sollte genutzt werden.  Beispiele sind die meisten Dramen und Talkshows auf OTA (Over-the-Air) TV (KBS, MBC, SBS), und viele amerikanische TV-Sendungen/Dramen auf Kabel-TV-Kanälen wie OCN und OnStyle.  Die Programme, die diese Bewertung haben, können moderate oder starke Themen für Erwachsene, Sprache, sexuelle Referenzen und Gewalt beinhalten.  Wie beim TV-MA-Rating in Nordamerika wird dieses Rating üblicherweise auf Live-Events angewendet, bei denen das Auftreten eines unangemessenen Dialogs unvorhersehbar ist.  Seit 2007 ist diese Bewertung die am häufigsten verwendete Bewertung für das Fernsehen.
+          meaning: Diese Bewertung gilt für Programme, die Material enthalten, das für Kinder unter 15 Jahren ungeeignet sein könnte. Die elterliche Diskretion sollte genutzt werden. Beispiele sind die meisten Dramen und Talkshows auf OTA (Over-the-Air) TV (KBS, MBC, SBS), und viele amerikanische TV-Sendungen/Dramen auf Kabel-TV-Kanälen wie OCN und OnStyle. Die Programme, die diese Bewertung haben, können moderate oder starke Themen für Erwachsene, Sprache, sexuelle Referenzen und Gewalt beinhalten. Wie beim TV-MA-Rating in Nordamerika wird dieses Rating üblicherweise auf Live-Events angewendet, bei denen das Auftreten eines unangemessenen Dialogs unvorhersehbar ist. Seit 2007 ist diese Bewertung die am häufigsten verwendete Bewertung für das Fernsehen.
         '5':
           meaning: Diese Bewertung gilt für Programme, die nur für Erwachsene bestimmt sind. Mit „19“ bewertete Programme können in den Stunden von 7:00 bis 9:00 Uhr und 13:00 bis 22:00 Uhr nicht gesendet werden. Programme, die diese Bewertung erhalten, werden mit ziemlicher Sicherheit Themen wie Erwachsene, sexuelle Situationen, häufiger Gebrauch starken Schimpfworte und verstörende Gewaltszenen haben.
       LT:
@@ -1357,7 +1367,7 @@ de-DE:
         '3':
           meaning: Strengere Elterliche Anleitung wird vorgeschlagen.
         '4':
-          meaning: Die  TV-Ausstrahlung für jedes TV-Programm, das nicht die “G”, “PG”, and “SPG” Klassifikation erfüllt, sollte abgelehnt werden.
+          meaning: Die TV-Ausstrahlung für jedes TV-Programm, das nicht die “G”, “PG”, and “SPG” Klassifikation erfüllt, sollte abgelehnt werden.
       PT:
         '0':
           meaning: Keine Informationen zur Einstufung.
@@ -1750,7 +1760,7 @@ de-DE:
     - Fr
     - Sa
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mär
@@ -1776,9 +1786,9 @@ de-DE:
       default: "%d.%m.%Y"
       full_month_day: "%e. %B %Y"
       full_month_year: "%B %Y"
-      short_month_day_year: " %d. %b %Y"
+      short_month_day_year: "%d. %b %Y"
     month_names:
-    -
+    - 
     - Januar
     - Februar
     - März
@@ -1794,8 +1804,7 @@ de-DE:
   day: Tag
   days:
     one: Tag
-    other: "%{count} Tage"
-    two: Tage
+    other: '%{count} Tage'
   deleted_content:
     entry_deleted: Eintrag gelöscht
     reasons:
@@ -1880,7 +1889,7 @@ de-DE:
         tooltip: Einträge auf Basis ihrer Originalsprache filtern.
       minimum_user_votes: Benutzerbewertungen (Anzahl)
       network:
-        filter_by_network: Nach Sendern filtern
+        filter_by_network: Nach Sendern filtern...
         network: Sender
       none_selected: Nichts ausgewählt
       release_dates:
@@ -1894,7 +1903,7 @@ de-DE:
         everything: Alles
         movies_have_seen: Filme, die ich gesehen habe
         movies_havent_seen: Filme, die ich nicht gesehen habe
-        show_me: Anzeigen
+        show_me: Zeig mir
         tooltip: Einloggen, um gesehene Einträge zu filtern.
         tv_shows_have_seen: Serien, die ich gesehen habe
         tv_shows_havent_seen: Serien, die ich nicht gesehen habe
@@ -1906,7 +1915,7 @@ de-DE:
         country: Land
         my_services:
           my_services: Meine Anbieter
-          restrict: Nur abonierte Dienste
+          restrict: Suchen auf meine abonnierten Dienste beschränken?
           restrict_tooltip: Einloggen, um abonnierte Dienste zu verwalten.
         where_to_watch: Streamingdienste
       years:
@@ -1960,9 +1969,9 @@ de-DE:
       mark_not_spam: Als Nicht-Spam markieren
       mark_spam: Als Spam melden
       reopen_discussion: Thema wieder öffnen
-      stop_watching: Nicht mehr abonnieren
+      stop_watching: Nicht mehr beobachten
       view_activity: Verlauf
-      watch: Abonnieren
+      watch: Beobachten
     admin_panel: Adminbereich
     back_options:
       back_to_item_with_arrow: "← Zurück zu %{item_title}"
@@ -1993,11 +2002,12 @@ de-DE:
       posted_by_with_datetime: veröffentlicht <time class="timeago" datetime="%{time}">%{time}</time>
       posted_by_with_datetime_and_username: '%{username} veröffentlichte <time class="timeago" datetime="%{time}">%{time}</time>'
       replied_by_with_datetime_and_username: '%{username} antwortete <time class="timeago" datetime="%{time}">%{time}</time>'
-    discussion_activity: 'Diskussionsverlauf '
+      replied_by: '%{username} antwortete'
+    discussion_activity: 'Diskussionsverlauf'
     email_notifications:
       email_notifications: E-Mail-Benachrichtigungen
-      subscribe: Anmelden
-      unsubscribe: Abmelden
+      subscribe: Abonnieren
+      unsubscribe: Deabonnieren
     headers:
       discuss: Diskussionen
       discuss_item: Über %{item_title} diskutieren
@@ -2133,8 +2143,12 @@ de-DE:
     list_collaboration: Zusammenarbeit bei Listen
     no_contributors: Keine Mitwirkenden hinzugefügt. Erstelle einen Einladungslink und teile ihn, um loszulegen.
     created: Liste erstellt
-    confirm_delete:
-    confirm_delete_grid:
+    confirm_delete: '<p>Dieses Element hat einen Kommentar:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Bist du dir sicher, dass du es entfernen willst?</p>'
+    confirm_delete_grid: 'Bist du dir sicher, dass du %{media_name} entfernen willst?'
   edits: Beiträge
   email:
     confirm_new_email_address: Neue E-Mail-Adresse bestätigen
@@ -2144,7 +2158,7 @@ de-DE:
     unsubscribe:
       sad_to_go: "%{username}, schade, dass du nichts mehr von uns hören möchtest!"
       subscription_changed: Die Abonnementeinstellungen wurden aktualisiert. Die Einstellungen für Benachrichtigungen können auf der Seite <a href="%{account_link}">Benachrichtigungen</a> geändert werden.
-      unsubscribe: Abmelden
+      unsubscribe: Deabonnieren
       unsubscribed: Die <strong>Abmeldung</strong> ist erfolgt. Sollte dies versehentlich geschehen sein, kann das Abonnement auf der Seite <a href="%{account_link}">Benachrichtigungen</a> erneuert werden.
   emoji:
     short_name:
@@ -2183,9 +2197,8 @@ de-DE:
       1fae3: Gesicht mit spähendem Auge
       1fae4: Gesicht mit diagonalem Mund
   episode_count:
-    many: "%{count} Folgen"
-    one: "%{count} Folge"
-    other: "%{count} Folgen"
+    one: '%{count} Folge'
+    other: '%{count} Folgen'
   episode_number_name: Folge %{episode_number}
   error_pages:
     deleted_account:
@@ -2294,6 +2307,7 @@ de-DE:
         one: hat die falsche Länge (muss genau %{count} Zeichen haben)
         other: hat die falsche Länge (muss genau %{count} Zeichen haben)
       blocked_words: enthält gesperrte Wörter
+      duplicate_review: 'Rezension existiert bereits'
     movie:
       duplicate_cast: Diese Person ist bereits Teil der Besetzung.
     nesting: hat ungültige Verschachtelung
@@ -2386,7 +2400,7 @@ de-DE:
         this_week: Diese Woche
         today: Heute
         tv: Serien
-      free_to_watch: Streaming
+      free_to_watch: Kostenlos ansehen
       latest_trailers: Neuste Trailer
       leaderboard:
         all_time: Beiträge insgesamt
@@ -2428,7 +2442,7 @@ de-DE:
       file_type: Dateityp %{file_type}
       max_res: Maximale Auflösung %{res}
       min_res: Minimale Auflösung %{res}
-      read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut
+      read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut.
       tip: Falls von deinem Browser unterstützt, kann ein Bild auf die Fläche unterhalb gezogen und abgelegt werden. Ansonsten einfach auf die Schaltfläche „Dateien auswählen” klicken und ein Bild auswählen.
       type_backdrops: Hintergrundbilder
       type_episode_stills: Folgenfotos
@@ -2444,10 +2458,10 @@ de-DE:
     one: "%{count} mehr..."
     other: "%{count} mehr..."
   jobs:
-    '"A" Camera Operator': "„A“-Kameraoperateur "
-    '"B" Camera Operator':
-    '"C" Camera Operator':
-    '"D" Camera Operator':
+    '"A" Camera Operator': "„A“-Kameraoperateur"
+    '"B" Camera Operator': ''
+    '"C" Camera Operator': ''
+    '"D" Camera Operator': ''
     24 Frame Playback: 24-Bilder-Wiedergabe
     2D Artist: 2-D-Künstler
     2D Sequence Supervisor: 2-D-Sequenz-Supervisor
@@ -2458,922 +2472,922 @@ de-DE:
     3D Digital Colorist: 3-D-Digitalkolorist
     3D Director: 3-D-Regisseur
     3D Editor: 3-D-Schnitt
-    3D Generalist:
+    3D Generalist: ''
     3D Modeller: 3-D-Modellierer
     3D Sequence Supervisor: 3-D-Sequenz-Supervisor
     3D Supervisor: 3-D-Supervisor
-    3D Tracking Layout:
-    ADR & Dubbing:
-    ADR Coordinator:
-    ADR Editor:
-    ADR Engineer:
-    ADR Mixer:
-    ADR Post Producer:
-    ADR Recording Engineer:
-    ADR Recordist:
-    ADR Supervisor:
-    ADR Voice Casting:
+    3D Tracking Layout: ''
+    ADR & Dubbing: ''
+    ADR Coordinator: ''
+    ADR Editor: ''
+    ADR Engineer: ''
+    ADR Mixer: ''
+    ADR Post Producer: ''
+    ADR Recording Engineer: ''
+    ADR Recordist: ''
+    ADR Supervisor: ''
+    ADR Voice Casting: ''
     Accountant: Buchhalter
     Accounting Clerk Assistant: Buchhaltungs Assistent
-    Accounting Supervisor:
+    Accounting Supervisor: ''
     Accounting Trainee: Buchhaltungs Praktikant
     Acting Double: Darsteller Double
-    Action Director:
+    Action Director: ''
     Actor: Darsteller
     Actor's Assistant: Darsteller Assistent
     Adaptation: Adaption
     Additional Camera: Zusätzliche Kamera
     Additional Casting: Zusätzliches Casting
     Additional Colorist: Zusätzlicher Kolorist
-    Additional Construction:
-    Additional Construction Grip:
+    Additional Construction: ''
+    Additional Construction Grip: ''
     Additional Dialogue: Zusatzdialoge
     Additional Director of Photography: Zusätzliche Kamera
     Additional Editing: Zusätzliche Bearbeitung
     Additional Editor: Zusätzlicher Schnitt
     Additional Editorial Assistant: Zusätzliche Schnittassistenz
     Additional Effects Development: Zusätzliche Effektentwicklung
-    Additional First Assistant Camera:
-    Additional Gaffer:
-    Additional Grip:
-    Additional Hairstylist:
-    Additional Key Construction Grip:
-    Additional Key Grip:
-    Additional Lighting Technician:
-    Additional Music:
-    Additional Music Supervisor:
-    Additional Photography:
-    Additional Post-Production Supervisor:
-    Additional Production Assistant:
-    Additional Production Sound Mixer:
-    Additional Script Supervisor:
-    Additional Second Assistant Camera:
-    Additional Second Assistant Director:
-    Additional Set Dresser:
-    Additional Set Photographer:
-    Additional Sound Re-Recording Mixer:
-    Additional Sound Re-Recordist:
-    Additional Soundtrack:
-    Additional Still Photographer:
-    Additional Storyboarding:
-    Additional Third Assistant Director:
-    Additional Underwater Photography:
-    Additional Visual Effects:
-    Additional Wardrobe Assistant:
-    Additional Writing:
+    Additional First Assistant Camera: ''
+    Additional Gaffer: ''
+    Additional Grip: ''
+    Additional Hairstylist: ''
+    Additional Key Construction Grip: ''
+    Additional Key Grip: ''
+    Additional Lighting Technician: ''
+    Additional Music: ''
+    Additional Music Supervisor: ''
+    Additional Photography: ''
+    Additional Post-Production Supervisor: ''
+    Additional Production Assistant: ''
+    Additional Production Sound Mixer: ''
+    Additional Script Supervisor: ''
+    Additional Second Assistant Camera: ''
+    Additional Second Assistant Director: ''
+    Additional Set Dresser: ''
+    Additional Set Photographer: ''
+    Additional Sound Re-Recording Mixer: ''
+    Additional Sound Re-Recordist: ''
+    Additional Soundtrack: ''
+    Additional Still Photographer: ''
+    Additional Storyboarding: ''
+    Additional Third Assistant Director: ''
+    Additional Underwater Photography: ''
+    Additional Visual Effects: ''
+    Additional Wardrobe Assistant: ''
+    Additional Writing: ''
     Administration: Verwaltung
     Administrative Assistant: Verwaltungs Assistent
-    Aerial Camera:
-    Aerial Camera Technician:
-    Aerial Coordinator:
-    Aerial Director of Photography:
-    Ager/Dyer:
-    Animal Coordinator:
-    Animal Wrangler:
-    Animation:
-    Animation Coordinator:
-    Animation Department Coordinator:
-    Animation Director:
-    Animation Fix Coordinator:
-    Animation Manager:
-    Animation Production Assistant:
-    Animation Supervisor:
-    Animation Technical Director:
-    Animatronic and Prosthetic Effects:
-    Animatronics Designer:
-    Animatronics Supervisor:
-    Apprentice Sound Editor:
-    Archival Footage Coordinator:
-    Archival Footage Research:
-    Armorer:
-    Armory Coordinator:
-    Art Department Assistant:
-    Art Department Coordinator:
-    Art Department Manager:
-    Art Department Production Assistant:
-    Art Department Trainee:
-    Art Designer:
-    Art Direction:
-    Art Direction Intern:
-    Assistant Accountant:
-    Assistant Art Director:
-    Assistant Camera:
-    Assistant Chef:
-    Assistant Chief Lighting Technician:
-    Assistant Costume Designer:
-    Assistant Craft Service:
-    Assistant Decorator:
-    Assistant Dialogue Editor:
-    Assistant Director:
-    Assistant Director Trainee:
-    Assistant Director of Photography:
-    Assistant Editor:
-    Assistant Electrician:
-    Assistant Extras Casting:
-    Assistant Foley Artist:
-    Assistant Gaffer:
-    Assistant Grip:
-    Assistant Hairdresser:
-    Assistant Hairstylist:
-    Assistant Location Manager:
-    Assistant Makeup Artist:
-    Assistant Music Supervisor:
-    Assistant Picture Car Coordinator:
-    Assistant Picture Editor:
-    Assistant Production Coordinator:
-    Assistant Production Design:
-    Assistant Production Manager:
-    Assistant Property Master:
-    Assistant Script:
-    Assistant Set Decoration:
-    Assistant Set Decoration Buyer:
-    Assistant Set Designer:
-    Assistant Set Dresser:
-    Assistant Set Propsman:
-    Assistant Sound Designer:
-    Assistant Sound Editor:
-    Assistant Sound Engineer:
-    Assistant Unit Manager:
-    Assistant Vehicles Coordinator:
-    Associate Choreographer:
-    Associate Editor:
+    Aerial Camera: ''
+    Aerial Camera Technician: ''
+    Aerial Coordinator: ''
+    Aerial Director of Photography: ''
+    Ager/Dyer: ''
+    Animal Coordinator: ''
+    Animal Wrangler: ''
+    Animation: ''
+    Animation Coordinator: ''
+    Animation Department Coordinator: ''
+    Animation Director: ''
+    Animation Fix Coordinator: ''
+    Animation Manager: ''
+    Animation Production Assistant: ''
+    Animation Supervisor: ''
+    Animation Technical Director: ''
+    Animatronic and Prosthetic Effects: ''
+    Animatronics Designer: ''
+    Animatronics Supervisor: ''
+    Apprentice Sound Editor: ''
+    Archival Footage Coordinator: ''
+    Archival Footage Research: ''
+    Armorer: ''
+    Armory Coordinator: ''
+    Art Department Assistant: ''
+    Art Department Coordinator: ''
+    Art Department Manager: ''
+    Art Department Production Assistant: ''
+    Art Department Trainee: ''
+    Art Designer: ''
+    Art Direction: ''
+    Art Direction Intern: ''
+    Assistant Accountant: ''
+    Assistant Art Director: ''
+    Assistant Camera: ''
+    Assistant Chef: ''
+    Assistant Chief Lighting Technician: ''
+    Assistant Costume Designer: ''
+    Assistant Craft Service: ''
+    Assistant Decorator: ''
+    Assistant Dialogue Editor: ''
+    Assistant Director: ''
+    Assistant Director Trainee: ''
+    Assistant Director of Photography: ''
+    Assistant Editor: ''
+    Assistant Electrician: ''
+    Assistant Extras Casting: ''
+    Assistant Foley Artist: ''
+    Assistant Gaffer: ''
+    Assistant Grip: ''
+    Assistant Hairdresser: ''
+    Assistant Hairstylist: ''
+    Assistant Location Manager: ''
+    Assistant Makeup Artist: ''
+    Assistant Music Supervisor: ''
+    Assistant Picture Car Coordinator: ''
+    Assistant Picture Editor: ''
+    Assistant Production Coordinator: ''
+    Assistant Production Design: ''
+    Assistant Production Manager: ''
+    Assistant Property Master: ''
+    Assistant Script: ''
+    Assistant Set Decoration: ''
+    Assistant Set Decoration Buyer: ''
+    Assistant Set Designer: ''
+    Assistant Set Dresser: ''
+    Assistant Set Propsman: ''
+    Assistant Sound Designer: ''
+    Assistant Sound Editor: ''
+    Assistant Sound Engineer: ''
+    Assistant Unit Manager: ''
+    Assistant Vehicles Coordinator: ''
+    Associate Choreographer: ''
+    Associate Editor: ''
     Associate Producer: Co-Produktion
-    Atmos Editor:
+    Atmos Editor: ''
     Attorney: Rechtsanwalt
-    Audio Post Coordinator:
+    Audio Post Coordinator: ''
     Author: Autor
-    BTS Footage:
-    BTS Photographer:
-    BTS Videographer:
-    Back-up Set Production Assistant:
-    Back-up Truck Production Assistant:
-    Background Casting Director:
-    Background Designer:
-    Base Camp Operator:
-    Battle Motion Coordinator:
-    Best Boy Electric:
+    BTS Footage: ''
+    BTS Photographer: ''
+    BTS Videographer: ''
+    Back-up Set Production Assistant: ''
+    Back-up Truck Production Assistant: ''
+    Background Casting Director: ''
+    Background Designer: ''
+    Base Camp Operator: ''
+    Battle Motion Coordinator: ''
+    Best Boy Electric: ''
     Best Boy Electrician: Beleuchter/Elektriker
-    Best Boy Grip:
-    Best Boy Lighting Technician:
+    Best Boy Grip: ''
+    Best Boy Lighting Technician: ''
     Book: Buch
-    Boom Operator:
-    Broadcast Producer:
-    Business Affairs Coordinator:
-    CG Animator:
-    CG Artist:
-    CG Engineer:
-    CG Painter:
-    CG Supervisor:
-    CGI Director:
-    CGI Supervisor:
-    Cableman:
-    Cameo:
-    Camera Car:
-    Camera Department Manager:
-    Camera Department Production Assistant:
-    Camera Intern:
-    Camera Loader:
-    Camera Operator:
-    Camera Production Assistant:
-    Camera Supervisor:
-    Camera Technician:
-    Camera Trainee:
-    Camera Truck:
-    Captain Driver:
+    Boom Operator: ''
+    Broadcast Producer: ''
+    Business Affairs Coordinator: ''
+    CG Animator: ''
+    CG Artist: ''
+    CG Engineer: ''
+    CG Painter: ''
+    CG Supervisor: ''
+    CGI Director: ''
+    CGI Supervisor: ''
+    Cableman: ''
+    Cameo: ''
+    Camera Car: ''
+    Camera Department Manager: ''
+    Camera Department Production Assistant: ''
+    Camera Intern: ''
+    Camera Loader: ''
+    Camera Operator: ''
+    Camera Production Assistant: ''
+    Camera Supervisor: ''
+    Camera Technician: ''
+    Camera Trainee: ''
+    Camera Truck: ''
+    Captain Driver: ''
     Carpenter: Schreiner
-    Cast Driver:
-    Casting:
-    Casting Assistant:
-    Casting Associate:
-    Casting Consultant:
-    Casting Coordinator:
-    Casting Director:
-    Casting Producer:
-    Casting Researcher:
-    Catering:
-    Catering Head Chef:
-    Chaperone:
-    Chaperone Tutor:
-    Character Designer:
-    Character Modelling Supervisor:
-    Character Technical Supervisor:
+    Cast Driver: ''
+    Casting: ''
+    Casting Assistant: ''
+    Casting Associate: ''
+    Casting Consultant: ''
+    Casting Coordinator: ''
+    Casting Director: ''
+    Casting Producer: ''
+    Casting Researcher: ''
+    Catering: ''
+    Catering Head Chef: ''
+    Chaperone: ''
+    Chaperone Tutor: ''
+    Character Designer: ''
+    Character Modelling Supervisor: ''
+    Character Technical Supervisor: ''
     Characters: Figuren
-    Charge Scenic Artist:
+    Charge Scenic Artist: ''
     Chef: Koch
-    Chief Lighting Technician:
-    Chief Technician / Stop-Motion Expert:
-    Child Wrangler:
+    Chief Lighting Technician: ''
+    Chief Technician / Stop-Motion Expert: ''
+    Child Wrangler: ''
     Choreographer: Choreograf
-    Cinematography:
-    Clapper Loader:
-    Clearances Consultant:
-    Clearances Coordinator:
-    Cloth Setup:
-    Co-Art Director:
-    Co-Costume Designer:
-    Co-Director:
-    Co-Editor:
-    Co-Executive Producer:
+    Cinematography: ''
+    Clapper Loader: ''
+    Clearances Consultant: ''
+    Clearances Coordinator: ''
+    Cloth Setup: ''
+    Co-Art Director: ''
+    Co-Costume Designer: ''
+    Co-Director: ''
+    Co-Editor: ''
+    Co-Executive Producer: ''
     Co-Producer: Koproduzent
-    Co-Writer:
-    Color Assistant:
-    Color Designer:
-    Color Grading:
-    Color Timer:
-    Colorist:
-    Comic Book:
-    Commissioning Editor:
-    Compositing Artist:
-    Compositing Lead:
-    Compositing Supervisor:
-    Compositor:
-    Concept Artist:
-    Conceptual Design:
-    Conceptual Illustrator:
-    Conductor:
-    Construction Buyer:
+    Co-Writer: ''
+    Color Assistant: ''
+    Color Designer: ''
+    Color Grading: ''
+    Color Timer: ''
+    Colorist: ''
+    Comic Book: ''
+    Commissioning Editor: ''
+    Compositing Artist: ''
+    Compositing Lead: ''
+    Compositing Supervisor: ''
+    Compositor: ''
+    Concept Artist: ''
+    Conceptual Design: ''
+    Conceptual Illustrator: ''
+    Conductor: ''
+    Construction Buyer: ''
     Construction Coordinator: Baukoordinator
     Construction Foreman: Bauführer
-    Construction Grip:
+    Construction Grip: ''
     Construction Manager: Bauleiter
     Consulting Accountant: Beratender Buchhalter
-    Consulting Editor:
-    Consulting Producer:
-    Contact Lens Designer:
-    Contact Lens Painter:
-    Contact Lens Technician:
-    Continuity:
-    Contract Manager:
-    Controller:
-    Coordinating Producer:
-    Costume Assistant:
-    Costume Consultant:
-    Costume Coordinator:
-    Costume Design:
-    Costume Designer:
-    Costume Illustrator:
-    Costume Mistress:
-    Costume Set Supervisor:
-    Costume Standby:
-    Costume Supervisor:
-    Costumer:
-    Craft Service:
-    Creative Consultant:
-    Creative Director:
-    Creative Producer:
+    Consulting Editor: ''
+    Consulting Producer: ''
+    Contact Lens Designer: ''
+    Contact Lens Painter: ''
+    Contact Lens Technician: ''
+    Continuity: ''
+    Contract Manager: ''
+    Controller: ''
+    Coordinating Producer: ''
+    Costume Assistant: ''
+    Costume Consultant: ''
+    Costume Coordinator: ''
+    Costume Design: ''
+    Costume Designer: ''
+    Costume Illustrator: ''
+    Costume Mistress: ''
+    Costume Set Supervisor: ''
+    Costume Standby: ''
+    Costume Supervisor: ''
+    Costumer: ''
+    Craft Service: ''
+    Creative Consultant: ''
+    Creative Director: ''
+    Creative Producer: ''
     Creator: Urheber
-    Creature Design:
-    Creature Effects Technical Director:
-    Creature Technical Director:
-    Crowd Assistant Director:
-    Cyber Scanning Supervisor:
-    Dailies Manager:
-    Dailies Operator:
-    Dailies Technician:
-    Daily Electrics:
-    Daily Grip:
-    Daily Makeup & Hair:
-    Daily Wardrobe:
-    Data Management Technician:
-    Data Wrangler:
-    Decorator:
-    Delegated Producer:
-    Department Administrator:
-    Development Manager:
-    Development Producer:
-    Dialect Coach:
-    Dialogue:
-    Dialogue Coach:
-    Dialogue Editor:
-    Digital Color Timer:
-    Digital Colorist:
-    Digital Compositor:
-    Digital Conform Editor:
-    Digital Effects Producer:
-    Digital Effects Supervisor:
-    Digital Film Recording:
-    Digital Foley Artist:
-    Digital Imaging Technician:
-    Digital Intermediate:
-    Digital Intermediate Assistant:
-    Digital Intermediate Colorist:
-    Digital Intermediate Data Wrangler:
-    Digital Intermediate Editor:
-    Digital Intermediate Producer:
-    Digital Producer:
-    Digital Storyboarding:
-    Digital Supervisor:
-    Directing Lighting Artist:
+    Creature Design: ''
+    Creature Effects Technical Director: ''
+    Creature Technical Director: ''
+    Crowd Assistant Director: ''
+    Cyber Scanning Supervisor: ''
+    Dailies Manager: ''
+    Dailies Operator: ''
+    Dailies Technician: ''
+    Daily Electrics: ''
+    Daily Grip: ''
+    Daily Makeup & Hair: ''
+    Daily Wardrobe: ''
+    Data Management Technician: ''
+    Data Wrangler: ''
+    Decorator: ''
+    Delegated Producer: ''
+    Department Administrator: ''
+    Development Manager: ''
+    Development Producer: ''
+    Dialect Coach: ''
+    Dialogue: ''
+    Dialogue Coach: ''
+    Dialogue Editor: ''
+    Digital Color Timer: ''
+    Digital Colorist: ''
+    Digital Compositor: ''
+    Digital Conform Editor: ''
+    Digital Effects Producer: ''
+    Digital Effects Supervisor: ''
+    Digital Film Recording: ''
+    Digital Foley Artist: ''
+    Digital Imaging Technician: ''
+    Digital Intermediate: ''
+    Digital Intermediate Assistant: ''
+    Digital Intermediate Colorist: ''
+    Digital Intermediate Data Wrangler: ''
+    Digital Intermediate Editor: ''
+    Digital Intermediate Producer: ''
+    Digital Producer: ''
+    Digital Storyboarding: ''
+    Digital Supervisor: ''
+    Directing Lighting Artist: ''
     Director: Regisseur
-    Director of Communications:
-    Director of Operations:
-    Director of Photography:
-    Director of Previsualization:
+    Director of Communications: ''
+    Director of Operations: ''
+    Director of Photography: ''
+    Director of Previsualization: ''
     Documentation & Support: Dokumentation & Support
-    Dolby Consultant:
+    Dolby Consultant: ''
     Dolly Grip: Dolly Grip
     Dramaturgy: Dramaturgie
-    Draughtsman:
-    Dresser:
-    Dressing Prop:
+    Draughtsman: ''
+    Dresser: ''
+    Dressing Prop: ''
     Driver: Fahrer
-    Drone Cinematographer:
-    Drone Operator:
-    Drone Pilot:
-    EPK Editor:
-    Editor:
-    Editorial Consultant:
-    Editorial Coordinator:
-    Editorial Manager:
-    Editorial Production Assistant:
-    Editorial Services:
-    Editorial Staff:
-    Effects Supervisor:
+    Drone Cinematographer: ''
+    Drone Operator: ''
+    Drone Pilot: ''
+    EPK Editor: ''
+    Editor: ''
+    Editorial Consultant: ''
+    Editorial Coordinator: ''
+    Editorial Manager: ''
+    Editorial Production Assistant: ''
+    Editorial Services: ''
+    Editorial Staff: ''
+    Effects Supervisor: ''
     Electrician: Elektriker
-    Epk Camera Operator:
-    Epk Director:
-    Epk Producer:
-    Executive Assistant:
+    Epk Camera Operator: ''
+    Epk Director: ''
+    Epk Producer: ''
+    Executive Assistant: ''
     Executive Co-Producer: ausführender Koproduzent
-    Executive Consultant:
-    Executive In Charge Of Post Production:
-    Executive In Charge Of Production:
-    Executive Music Producer:
+    Executive Consultant: ''
+    Executive In Charge Of Post Production: ''
+    Executive In Charge Of Production: ''
+    Executive Music Producer: ''
     Executive Producer: ausführender Produzent
-    Executive Producer's Assistant:
-    Executive Story Editor:
-    Executive Visual Effects Producer:
-    Executive in Charge of Finance:
-    Extras Casting:
-    Extras Casting Assistant:
-    Extras Casting Coordinator:
-    Extras Dresser:
-    Extras Makeup Artist:
-    Facial Setup Artist:
-    Feature Finishing Producer:
-    Field Director:
-    Fight Choreographer:
-    File Footage:
-    Film Processor:
+    Executive Producer's Assistant: ''
+    Executive Story Editor: ''
+    Executive Visual Effects Producer: ''
+    Executive in Charge of Finance: ''
+    Extras Casting: ''
+    Extras Casting Assistant: ''
+    Extras Casting Coordinator: ''
+    Extras Dresser: ''
+    Extras Makeup Artist: ''
+    Facial Setup Artist: ''
+    Feature Finishing Producer: ''
+    Field Director: ''
+    Fight Choreographer: ''
+    File Footage: ''
+    Film Processor: ''
     Finance: Finanzen
-    Finishing Producer:
-    First Assistant "A" Camera:
-    First Assistant "B" Camera:
-    First Assistant "C" Camera:
-    First Assistant "D" Camera:
-    First Assistant Accountant:
-    First Assistant Art Direction:
-    First Assistant Camera:
-    First Assistant Director:
-    First Assistant Director (Prep):
-    First Assistant Director Trainee:
-    First Assistant Editor:
-    First Assistant Hairstylist:
-    First Assistant Makeup Artist:
-    First Assistant Picture Editor:
-    First Assistant Production Coordinator:
-    First Assistant Property Master:
-    First Assistant Sound Editor:
-    First Company Grip:
-    Fix Animator:
-    Floor Runner:
-    Focus Puller:
-    Foley:
-    Foley Artist:
-    Foley Editor:
-    Foley Mixer:
-    Foley Recording Engineer:
-    Foley Recordist:
-    Foley Supervisor:
+    Finishing Producer: ''
+    First Assistant "A" Camera: ''
+    First Assistant "B" Camera: ''
+    First Assistant "C" Camera: ''
+    First Assistant "D" Camera: ''
+    First Assistant Accountant: ''
+    First Assistant Art Direction: ''
+    First Assistant Camera: ''
+    First Assistant Director: ''
+    First Assistant Director (Prep): ''
+    First Assistant Director Trainee: ''
+    First Assistant Editor: ''
+    First Assistant Hairstylist: ''
+    First Assistant Makeup Artist: ''
+    First Assistant Picture Editor: ''
+    First Assistant Production Coordinator: ''
+    First Assistant Property Master: ''
+    First Assistant Sound Editor: ''
+    First Company Grip: ''
+    Fix Animator: ''
+    Floor Runner: ''
+    Focus Puller: ''
+    Foley: ''
+    Foley Artist: ''
+    Foley Editor: ''
+    Foley Mixer: ''
+    Foley Recording Engineer: ''
+    Foley Recordist: ''
+    Foley Supervisor: ''
     Gaffer: Oberbeleuchter
-    General Manager:
-    Generalist:
-    Generator Operator:
-    Genetator Operator:
-    Graphic Designer:
-    Graphic Novel:
-    Graphic Novel Illustrator:
-    Greensman:
-    Grip:
-    Grip Production Assistant:
-    Gun Wrangler:
-    Hair Assistant:
-    Hair Department Head:
-    Hair Designer:
-    Hair Setup:
-    Hair Supervisor:
-    Hairdresser:
-    Hairstylist:
-    Head Carpenter:
-    Head Decorator:
-    Head Designer:
-    Head Driver:
-    Head Greensman:
-    Head of Animation:
-    Head of Layout:
-    Head of Production:
-    Head of Programming:
-    Head of Research:
-    Head of Story:
-    Health and Safety:
-    Helicopter Camera:
-    Helping Hand:
-    Human Resources:
-    I/O Manager:
-    I/O Supervisor:
-    Idea:
-    Imaging Science:
-    In Memory Of:
-    Information Systems Manager:
-    Insert Unit Director:
-    Insert Unit First Assistant Director:
-    Insert Unit Location Manager:
-    Interactive Manager:
-    Interior Designer:
-    Intern:
-    Jimmy Jib Operator:
-    Joint ADR Mixer:
-    Junior Story Editor:
-    Key Accountant:
-    Key Animation:
-    Key Art Production Assistant:
-    Key Carpenter:
-    Key Construction Grip:
-    Key Costumer:
-    Key Dresser:
-    Key Grip:
-    Key Grip Production Assistant:
-    Key Hair Stylist:
-    Key Hairdresser:
+    General Manager: ''
+    Generalist: ''
+    Generator Operator: ''
+    Genetator Operator: ''
+    Graphic Designer: ''
+    Graphic Novel: ''
+    Graphic Novel Illustrator: ''
+    Greensman: ''
+    Grip: ''
+    Grip Production Assistant: ''
+    Gun Wrangler: ''
+    Hair Assistant: ''
+    Hair Department Head: ''
+    Hair Designer: ''
+    Hair Setup: ''
+    Hair Supervisor: ''
+    Hairdresser: ''
+    Hairstylist: ''
+    Head Carpenter: ''
+    Head Decorator: ''
+    Head Designer: ''
+    Head Driver: ''
+    Head Greensman: ''
+    Head of Animation: ''
+    Head of Layout: ''
+    Head of Production: ''
+    Head of Programming: ''
+    Head of Research: ''
+    Head of Story: ''
+    Health and Safety: ''
+    Helicopter Camera: ''
+    Helping Hand: ''
+    Human Resources: ''
+    I/O Manager: ''
+    I/O Supervisor: ''
+    Idea: ''
+    Imaging Science: ''
+    In Memory Of: ''
+    Information Systems Manager: ''
+    Insert Unit Director: ''
+    Insert Unit First Assistant Director: ''
+    Insert Unit Location Manager: ''
+    Interactive Manager: ''
+    Interior Designer: ''
+    Intern: ''
+    Jimmy Jib Operator: ''
+    Joint ADR Mixer: ''
+    Junior Story Editor: ''
+    Key Accountant: ''
+    Key Animation: ''
+    Key Art Production Assistant: ''
+    Key Carpenter: ''
+    Key Construction Grip: ''
+    Key Costumer: ''
+    Key Dresser: ''
+    Key Grip: ''
+    Key Grip Production Assistant: ''
+    Key Hair Stylist: ''
+    Key Hairdresser: ''
     Key Makeup Artist: Chefmaskenbildner
-    Key Production Assistant:
-    Key Rigging Grip:
-    Key Scenic Artist:
-    Key Set Costumer:
-    Key Set Painter:
-    Key Set Production Assistant:
-    Key Special Effects:
-    Keyboard Programmer:
-    Layout:
-    Layout Supervisor:
-    Lead Animator:
-    Lead Character Designer:
-    Lead Costumer:
-    Lead Creature Designer:
-    Lead Editor:
-    Lead Painter:
-    Lead Set Dresser:
+    Key Production Assistant: ''
+    Key Rigging Grip: ''
+    Key Scenic Artist: ''
+    Key Set Costumer: ''
+    Key Set Painter: ''
+    Key Set Production Assistant: ''
+    Key Special Effects: ''
+    Keyboard Programmer: ''
+    Layout: ''
+    Layout Supervisor: ''
+    Lead Animator: ''
+    Lead Character Designer: ''
+    Lead Costumer: ''
+    Lead Creature Designer: ''
+    Lead Editor: ''
+    Lead Painter: ''
+    Lead Set Dresser: ''
     Leadman: Vorarbeiter
     Legal Services: Rechtsberatung
-    Libra Head Technician:
-    Lighting Artist:
-    Lighting Camera:
-    Lighting Coordinator:
-    Lighting Design:
-    Lighting Director:
-    Lighting Manager:
-    Lighting Production Assistant:
-    Lighting Programmer:
-    Lighting Supervisor:
+    Libra Head Technician: ''
+    Lighting Artist: ''
+    Lighting Camera: ''
+    Lighting Coordinator: ''
+    Lighting Design: ''
+    Lighting Director: ''
+    Lighting Manager: ''
+    Lighting Production Assistant: ''
+    Lighting Programmer: ''
+    Lighting Supervisor: ''
     Lighting Technician: Beleuchter
-    Line Producer:
-    Loader:
-    Local Casting:
-    Locale Casting Director:
-    Location Assistant:
-    Location Casting:
-    Location Coordinator:
-    Location Manager:
-    Location Production Assistant:
-    Location Scout:
-    Location Sound Assistant:
-    Location Sound Mixer:
-    Location Sound Recordist:
-    Logistics Coordinator:
-    Loop Group Coordinator:
-    Lyricist:
-    Machinist:
-    Main Title Designer:
-    Main Title Theme Composer:
-    Makeup & Hair:
-    Makeup & Hair Assistant:
+    Line Producer: ''
+    Loader: ''
+    Local Casting: ''
+    Locale Casting Director: ''
+    Location Assistant: ''
+    Location Casting: ''
+    Location Coordinator: ''
+    Location Manager: ''
+    Location Production Assistant: ''
+    Location Scout: ''
+    Location Sound Assistant: ''
+    Location Sound Mixer: ''
+    Location Sound Recordist: ''
+    Logistics Coordinator: ''
+    Loop Group Coordinator: ''
+    Lyricist: ''
+    Machinist: ''
+    Main Title Designer: ''
+    Main Title Theme Composer: ''
+    Makeup & Hair: ''
+    Makeup & Hair Assistant: ''
     Makeup Artist: Maskenbildner
-    Makeup Department Head:
-    Makeup Designer:
-    Makeup Effects:
-    Makeup Effects Designer:
-    Makeup Supervisor:
-    Makeup Trainee:
-    Manager of Operations:
-    Marine Coordinator:
-    Marine Pilot:
-    Martial Arts Choreographer:
-    Master Lighting Artist:
-    Master at Arms:
-    Matchmove Supervisor:
-    Matte Painter:
-    Mechanical & Creature Designer:
-    Mechanical Designer:
-    Medical Consultant:
-    Military Consultant:
-    Mix Technician:
-    Mixing Engineer:
-    Modeling:
-    Modelling Supervisor:
-    Motion Actor:
-    Motion Capture Artist:
-    Music:
-    Music Arranger:
-    Music Co-Supervisor:
-    Music Consultant:
-    Music Coordinator:
-    Music Director:
-    Music Editor:
-    Music Producer:
-    Music Programmer:
-    Music Score Producer:
-    Music Sound Design and Processing:
-    Music Supervision Assistant:
-    Music Supervisor:
-    Musical:
-    Musical Casting:
-    Musician:
-    Negative Cutter:
-    Novel:
-    "O\x01B\x01 Lighting":
-    "O\x01B\x01 Sound":
-    On Set Computer Graphics:
-    On Set Dresser:
-    On Set Key Props:
-    On Set Props:
-    Online Editor:
-    Opening Title Sequence:
-    Opening/Ending Animation:
-    Opera:
-    Orchestrator:
-    Original Casting:
-    Original Concept:
-    Original Film Writer:
-    Original Music Composer:
-    Original Series Creator:
-    Original Series Design:
-    Original Story:
+    Makeup Department Head: ''
+    Makeup Designer: ''
+    Makeup Effects: ''
+    Makeup Effects Designer: ''
+    Makeup Supervisor: ''
+    Makeup Trainee: ''
+    Manager of Operations: ''
+    Marine Coordinator: ''
+    Marine Pilot: ''
+    Martial Arts Choreographer: ''
+    Master Lighting Artist: ''
+    Master at Arms: ''
+    Matchmove Supervisor: ''
+    Matte Painter: ''
+    Mechanical & Creature Designer: ''
+    Mechanical Designer: ''
+    Medical Consultant: ''
+    Military Consultant: ''
+    Mix Technician: ''
+    Mixing Engineer: ''
+    Modeling: ''
+    Modelling Supervisor: ''
+    Motion Actor: ''
+    Motion Capture Artist: ''
+    Music: ''
+    Music Arranger: ''
+    Music Co-Supervisor: ''
+    Music Consultant: ''
+    Music Coordinator: ''
+    Music Director: ''
+    Music Editor: ''
+    Music Producer: ''
+    Music Programmer: ''
+    Music Score Producer: ''
+    Music Sound Design and Processing: ''
+    Music Supervision Assistant: ''
+    Music Supervisor: ''
+    Musical: ''
+    Musical Casting: ''
+    Musician: ''
+    Negative Cutter: ''
+    Novel: ''
+    "O.B. Lighting": ''
+    "O.B. Sound": ''
+    On Set Computer Graphics: ''
+    On Set Dresser: ''
+    On Set Key Props: ''
+    On Set Props: ''
+    Online Editor: ''
+    Opening Title Sequence: ''
+    Opening/Ending Animation: ''
+    Opera: ''
+    Orchestrator: ''
+    Original Casting: ''
+    Original Concept: ''
+    Original Film Writer: ''
+    Original Music Composer: ''
+    Original Series Creator: ''
+    Original Series Design: ''
+    Original Story: ''
     Other: Andere
-    Paint Coordinator:
-    Painter:
-    Payroll Accountant:
-    Petty Cash Buyer:
-    Phantom Operator:
-    Photo Retouching:
-    Photoscience Manager:
-    Picture Car Coordinator:
-    Pilot:
-    Pipeline Technical Director:
-    Playback Coordinator:
-    Playback Singer:
-    Poem:
-    Police Consultant:
-    Post Coordinator:
-    Post Producer:
-    Post Production Accountant:
-    Post Production Assistant:
-    Post Production Consulting:
-    Post Production Coordinator:
-    Post Production Producer:
-    Post Production Scripts:
-    Post Production Supervisor:
-    Post Production Technical Engineer:
-    Post-Production Manager:
-    Pre-Visualization Coordinator:
-    Pre-Visualization Supervisor:
-    Presenter:
-    Principal Costumer:
+    Paint Coordinator: ''
+    Painter: ''
+    Payroll Accountant: ''
+    Petty Cash Buyer: ''
+    Phantom Operator: ''
+    Photo Retouching: ''
+    Photoscience Manager: ''
+    Picture Car Coordinator: ''
+    Pilot: ''
+    Pipeline Technical Director: ''
+    Playback Coordinator: ''
+    Playback Singer: ''
+    Poem: ''
+    Police Consultant: ''
+    Post Coordinator: ''
+    Post Producer: ''
+    Post Production Accountant: ''
+    Post Production Assistant: ''
+    Post Production Consulting: ''
+    Post Production Coordinator: ''
+    Post Production Producer: ''
+    Post Production Scripts: ''
+    Post Production Supervisor: ''
+    Post Production Technical Engineer: ''
+    Post-Production Manager: ''
+    Pre-Visualization Coordinator: ''
+    Pre-Visualization Supervisor: ''
+    Presenter: ''
+    Principal Costumer: ''
     Producer: Produzent
     Producer's Assistant: Assistent Produzent
     Production Accountant: Filmgeschäftsführer
-    Production Artist:
-    Production Assistant:
-    Production Consultant:
-    Production Controller:
-    Production Coordinator:
-    Production Design:
-    Production Designer:
-    Production Director:
-    Production Driver:
-    Production Executive:
-    Production Illustrator:
-    Production Intern:
-    Production Manager:
-    Production Office Assistant:
-    Production Office Coordinator:
-    Production Runner:
-    Production Secretary:
-    Production Sound Mixer:
-    Production Supervisor:
-    Production Trainee:
-    Project Manager:
-    Projection:
-    Prop Designer:
-    Prop Maker:
-    Property Builder:
-    Property Buyer:
-    Property Graphic Designer:
-    Property Master:
-    Propmaker:
-    Props:
-    Prosthetic Designer:
-    Prosthetic Makeup Artist:
-    Prosthetic Supervisor:
-    Prosthetics:
-    Prosthetics Painter:
-    Prosthetics Sculptor:
-    Public Relations:
-    Publicist:
-    Pyrotechnic Supervisor:
+    Production Artist: ''
+    Production Assistant: ''
+    Production Consultant: ''
+    Production Controller: ''
+    Production Coordinator: ''
+    Production Design: ''
+    Production Designer: ''
+    Production Director: ''
+    Production Driver: ''
+    Production Executive: ''
+    Production Illustrator: ''
+    Production Intern: ''
+    Production Manager: ''
+    Production Office Assistant: ''
+    Production Office Coordinator: ''
+    Production Runner: ''
+    Production Secretary: ''
+    Production Sound Mixer: ''
+    Production Supervisor: ''
+    Production Trainee: ''
+    Project Manager: ''
+    Projection: ''
+    Prop Designer: ''
+    Prop Maker: ''
+    Property Builder: ''
+    Property Buyer: ''
+    Property Graphic Designer: ''
+    Property Master: ''
+    Propmaker: ''
+    Props: ''
+    Prosthetic Designer: ''
+    Prosthetic Makeup Artist: ''
+    Prosthetic Supervisor: ''
+    Prosthetics: ''
+    Prosthetics Painter: ''
+    Prosthetics Sculptor: ''
+    Public Relations: ''
+    Publicist: ''
+    Pyrotechnic Supervisor: ''
     Pyrotechnician: Pyrotechnik
-    Quality Control Supervisor:
-    Radio Play:
+    Quality Control Supervisor: ''
+    Radio Play: ''
     Receptionist: Rezeptionist
-    Recording Supervision:
-    Red Technician:
-    Research Assistant:
-    Researcher:
-    Rigging Gaffer:
-    Rigging Grip:
-    Rigging Supervisor:
-    Roto Supervisor:
-    Rotoscoping Artist:
-    Runner Art Department:
-    Russian Arm Operator:
-    Scenario Writer:
-    Scenic Artist:
-    Schedule Coordinator:
-    Scientific Consultant:
-    Score Engineer:
-    Scoring Mixer:
+    Recording Supervision: ''
+    Red Technician: ''
+    Research Assistant: ''
+    Researcher: ''
+    Rigging Gaffer: ''
+    Rigging Grip: ''
+    Rigging Supervisor: ''
+    Roto Supervisor: ''
+    Rotoscoping Artist: ''
+    Runner Art Department: ''
+    Russian Arm Operator: ''
+    Scenario Writer: ''
+    Scenic Artist: ''
+    Schedule Coordinator: ''
+    Scientific Consultant: ''
+    Score Engineer: ''
+    Scoring Mixer: ''
     Screenplay: Drehbuch
-    Screenstory:
-    Script:
-    Script Consultant:
-    Script Coordinator:
-    Script Editor:
-    Script Researcher:
-    Script Supervisor:
-    Sculptor:
+    Screenstory: ''
+    Script: ''
+    Script Consultant: ''
+    Script Coordinator: ''
+    Script Editor: ''
+    Script Researcher: ''
+    Script Supervisor: ''
+    Sculptor: ''
     Seamstress: Näherin
-    Second Assistant "A" Camera:
-    Second Assistant "B" Camera:
-    Second Assistant "C" Camera:
-    Second Assistant "D" Camera:
-    Second Assistant Accountant:
-    Second Assistant Art Director:
-    Second Assistant Camera:
-    Second Assistant Director:
-    Second Assistant Director Trainee:
-    Second Assistant Production Coordinator:
-    Second Assistant Sound:
-    Second Assistant Unit Manager:
-    Second Company Grip:
-    Second Film Editor:
-    Second Second Assistant Director:
+    Second Assistant "A" Camera: ''
+    Second Assistant "B" Camera: ''
+    Second Assistant "C" Camera: ''
+    Second Assistant "D" Camera: ''
+    Second Assistant Accountant: ''
+    Second Assistant Art Director: ''
+    Second Assistant Camera: ''
+    Second Assistant Director: ''
+    Second Assistant Director Trainee: ''
+    Second Assistant Production Coordinator: ''
+    Second Assistant Sound: ''
+    Second Assistant Unit Manager: ''
+    Second Company Grip: ''
+    Second Film Editor: ''
+    Second Second Assistant Director: ''
     Second Unit: Zweite Unit
-    Second Unit Cinematographer:
-    Second Unit Director:
-    Second Unit Director of Photography:
-    Second Unit First Assistant Director:
-    Second Unit Location Manager:
+    Second Unit Cinematographer: ''
+    Second Unit Director: ''
+    Second Unit Director of Photography: ''
+    Second Unit First Assistant Director: ''
+    Second Unit Location Manager: ''
     Security: Sicherheitspersonal
-    Security Coordinator:
-    Senior Animator:
-    Senior Colorist:
-    Senior Digital Intermediate Colorist:
-    Senior Executive Consultant:
-    Senior Generalist:
-    Senior Modeller:
-    Senior Story Editor:
-    Senior Visual Effects Supervisor:
-    Sequence Artist:
-    Sequence Lead:
-    Sequence Supervisor:
-    Series Composition:
-    Series Director:
-    Series Publicist:
-    Series Writer:
-    Set Buyer:
+    Security Coordinator: ''
+    Senior Animator: ''
+    Senior Colorist: ''
+    Senior Digital Intermediate Colorist: ''
+    Senior Executive Consultant: ''
+    Senior Generalist: ''
+    Senior Modeller: ''
+    Senior Story Editor: ''
+    Senior Visual Effects Supervisor: ''
+    Sequence Artist: ''
+    Sequence Lead: ''
+    Sequence Supervisor: ''
+    Series Composition: ''
+    Series Director: ''
+    Series Publicist: ''
+    Series Writer: ''
+    Set Buyer: ''
     Set Costumer: Kostümbildner
-    Set Decorating Coordinator:
-    Set Decoration:
-    Set Decoration Buyer:
-    Set Designer:
-    Set Dresser:
-    Set Dressing Artist:
-    Set Dressing Buyer:
-    Set Dressing Manager:
-    Set Dressing Production Assistant:
-    Set Dressing Supervisor:
+    Set Decorating Coordinator: ''
+    Set Decoration: ''
+    Set Decoration Buyer: ''
+    Set Designer: ''
+    Set Dresser: ''
+    Set Dressing Artist: ''
+    Set Dressing Buyer: ''
+    Set Dressing Manager: ''
+    Set Dressing Production Assistant: ''
+    Set Dressing Supervisor: ''
     Set Medic: Sanitäter am Set
-    Set Painter:
-    Set Photographer:
-    Set Production Assistant:
-    Set Production Intern:
-    Set Propsman:
-    Set Runner:
-    Set Supervisor:
-    Sets & Props Artist:
-    Sets & Props Supervisor:
+    Set Painter: ''
+    Set Photographer: ''
+    Set Production Assistant: ''
+    Set Production Intern: ''
+    Set Propsman: ''
+    Set Runner: ''
+    Set Supervisor: ''
+    Sets & Props Artist: ''
+    Sets & Props Supervisor: ''
     Settings: Einstellungen
-    Shading:
-    Shoe Design:
-    Shop Electric:
-    Short Story:
-    Sign Painter:
-    Simulation & Effects Artist:
-    Simulation & Effects Production Assistant:
-    Smoke Artist:
-    Software Engineer:
-    Software Team Lead:
-    Songs:
+    Shading: ''
+    Shoe Design: ''
+    Shop Electric: ''
+    Short Story: ''
+    Sign Painter: ''
+    Simulation & Effects Artist: ''
+    Simulation & Effects Production Assistant: ''
+    Smoke Artist: ''
+    Software Engineer: ''
+    Software Team Lead: ''
+    Songs: ''
     Sound: Ton
     Sound Assistant: Ton Assistent
-    Sound Design Assistant:
-    Sound Designer:
-    Sound Director:
-    Sound Editor:
-    Sound Effects:
-    Sound Effects Designer:
-    Sound Effects Editor:
-    Sound Engineer:
-    Sound Mix Technician:
-    Sound Mixer:
-    Sound Montage Associate:
-    Sound Post Production Coordinator:
-    Sound Post Supervisor:
-    Sound Re-Recording Assistant:
-    Sound Re-Recording Mixer:
-    Sound Recordist:
-    Sound Supervisor:
-    Sound Technical Supervisor:
+    Sound Design Assistant: ''
+    Sound Designer: ''
+    Sound Director: ''
+    Sound Editor: ''
+    Sound Effects: ''
+    Sound Effects Designer: ''
+    Sound Effects Editor: ''
+    Sound Engineer: ''
+    Sound Mix Technician: ''
+    Sound Mixer: ''
+    Sound Montage Associate: ''
+    Sound Post Production Coordinator: ''
+    Sound Post Supervisor: ''
+    Sound Re-Recording Assistant: ''
+    Sound Re-Recording Mixer: ''
+    Sound Recordist: ''
+    Sound Supervisor: ''
+    Sound Technical Supervisor: ''
     Special Effects: Spezialeffekte
-    Special Effects Assistant:
-    Special Effects Best Boy:
-    Special Effects Coordinator:
-    Special Effects Key Makeup Artist:
-    Special Effects Makeup Artist:
-    Special Effects Manager:
-    Special Effects Supervisor:
-    Special Effects Technician:
+    Special Effects Assistant: ''
+    Special Effects Best Boy: ''
+    Special Effects Coordinator: ''
+    Special Effects Key Makeup Artist: ''
+    Special Effects Makeup Artist: ''
+    Special Effects Manager: ''
+    Special Effects Supervisor: ''
+    Special Effects Technician: ''
     Special Guest: Stargast
-    Special Guest Director:
-    Special Props:
-    Special Sound Effects:
-    Specialized Driver:
-    Sponsorship Coordinator:
-    Sponsorship Director:
-    Staff Writer:
-    Stage Director:
-    Stand In:
-    Standby Art Director:
-    Standby Carpenter:
-    Standby Painter:
-    Standby Property Master:
-    Standby Rigger:
-    Steadicam Operator:
-    Steadycam:
-    Stereoscopic Coordinator:
-    Stereoscopic Editor:
-    Stereoscopic Supervisor:
-    Stereoscopic Technical Director:
-    Still Photographer:
-    Story:
-    Story Artist:
-    Story Consultant:
-    Story Coordinator:
-    Story Developer:
-    Story Editor:
-    Story Manager:
-    Story Supervisor:
-    Storyboard:
-    Storyboard Artist:
-    Storyboard Assistant:
-    Storyboard Designer:
-    Street Casting:
-    Studio Teacher:
-    Stunt Coordinator:
-    Stunt Double:
+    Special Guest Director: ''
+    Special Props: ''
+    Special Sound Effects: ''
+    Specialized Driver: ''
+    Sponsorship Coordinator: ''
+    Sponsorship Director: ''
+    Staff Writer: ''
+    Stage Director: ''
+    Stand In: ''
+    Standby Art Director: ''
+    Standby Carpenter: ''
+    Standby Painter: ''
+    Standby Property Master: ''
+    Standby Rigger: ''
+    Steadicam Operator: ''
+    Steadycam: ''
+    Stereoscopic Coordinator: ''
+    Stereoscopic Editor: ''
+    Stereoscopic Supervisor: ''
+    Stereoscopic Technical Director: ''
+    Still Photographer: ''
+    Story: ''
+    Story Artist: ''
+    Story Consultant: ''
+    Story Coordinator: ''
+    Story Developer: ''
+    Story Editor: ''
+    Story Manager: ''
+    Story Supervisor: ''
+    Storyboard: ''
+    Storyboard Artist: ''
+    Storyboard Assistant: ''
+    Storyboard Designer: ''
+    Street Casting: ''
+    Studio Teacher: ''
+    Stunt Coordinator: ''
+    Stunt Double: ''
     Stunt Driver: Stunt-Fahrer
-    Stunts:
-    Stunts Coordinator:
-    Supervising ADR Editor:
-    Supervising Animation Director:
-    Supervising Animator:
-    Supervising Armorer:
-    Supervising Art Director:
-    Supervising Carpenter:
-    Supervising Dialogue Editor:
-    Supervising Editor:
-    Supervising Film Editor:
-    Supervising Music Editor:
-    Supervising Producer:
-    Supervising Sound Editor:
-    Supervising Sound Effects Editor:
-    Supervising Technical Director:
-    Supervisor of Production Resources:
-    Swing:
-    Systems Administrators & Support:
+    Stunts: ''
+    Stunts Coordinator: ''
+    Supervising ADR Editor: ''
+    Supervising Animation Director: ''
+    Supervising Animator: ''
+    Supervising Armorer: ''
+    Supervising Art Director: ''
+    Supervising Carpenter: ''
+    Supervising Dialogue Editor: ''
+    Supervising Editor: ''
+    Supervising Film Editor: ''
+    Supervising Music Editor: ''
+    Supervising Producer: ''
+    Supervising Sound Editor: ''
+    Supervising Sound Effects Editor: ''
+    Supervising Technical Director: ''
+    Supervisor of Production Resources: ''
+    Swing: ''
+    Systems Administrators & Support: ''
     Tailor: Schneider
-    Tattoo Designer:
+    Tattoo Designer: ''
     Tattooist: Tätowierer
-    Technical Advisor:
-    Technical Supervisor:
-    Techno Crane Operator:
-    Telecine Colorist:
-    Teleplay:
-    Temp Music Editor:
-    Temp Sound Editor:
-    Textile Artist:
+    Technical Advisor: ''
+    Technical Supervisor: ''
+    Techno Crane Operator: ''
+    Telecine Colorist: ''
+    Teleplay: ''
+    Temp Music Editor: ''
+    Temp Sound Editor: ''
+    Textile Artist: ''
     Thanks: Besonderen Dank
-    Theatre Play:
-    Theme Song Performance:
-    Third Assistant "A" Camera:
-    Third Assistant "B" Camera:
-    Third Assistant "C" Camera:
-    Third Assistant "D" Camera:
-    Third Assistant Camera:
-    Third Assistant Director:
-    Title Designer:
-    Title Graphics:
-    Title Illustration:
-    Trainee Production Coordinator:
-    Transcriptions:
+    Theatre Play: ''
+    Theme Song Performance: ''
+    Third Assistant "A" Camera: ''
+    Third Assistant "B" Camera: ''
+    Third Assistant "C" Camera: ''
+    Third Assistant "D" Camera: ''
+    Third Assistant Camera: ''
+    Third Assistant Director: ''
+    Title Designer: ''
+    Title Graphics: ''
+    Title Illustration: ''
+    Trainee Production Coordinator: ''
+    Transcriptions: ''
     Translator: Übersetzer
-    Transportation Captain:
-    Transportation Co-Captain:
-    Transportation Coordinator:
-    Travel Coordinator:
-    Treatment:
-    Truck Costumer:
-    Truck Production Assistant:
-    Truck Supervisor:
-    Ultimate Arm Operator:
-    Underwater Camera:
-    Underwater Director of Photography:
-    Underwater Epk Photographer:
-    Underwater Gaffer:
-    Underwater Stills Photographer:
-    Unit Manager:
-    Unit Medic:
-    Unit Production Manager:
-    Unit Publicist:
-    Unit Swing:
-    Utility Sound:
-    Utility Stunts:
-    VFX Artist:
-    VFX Director of Photography:
-    VFX Editor:
-    VFX Lighting Artist:
-    VFX Production Coordinator:
-    VFX Supervisor:
-    Vehicles Coordinator:
-    Vehicles Wrangler:
-    Video Assist Operator:
-    Video Game:
-    Video Report:
-    Videojournalist:
-    Visual Development:
-    Visual Effects:
-    Visual Effects Art Director:
-    Visual Effects Assistant Editor:
-    Visual Effects Camera:
-    Visual Effects Compositor:
-    Visual Effects Coordinator:
-    Visual Effects Design Consultant:
-    Visual Effects Designer:
-    Visual Effects Director:
-    Visual Effects Editor:
-    Visual Effects Lineup:
-    Visual Effects Producer:
-    Visual Effects Production Assistant:
-    Visual Effects Production Manager:
-    Visual Effects Supervisor:
-    Visual Effects Technical Director:
-    Vocal Coach:
+    Transportation Captain: ''
+    Transportation Co-Captain: ''
+    Transportation Coordinator: ''
+    Travel Coordinator: ''
+    Treatment: ''
+    Truck Costumer: ''
+    Truck Production Assistant: ''
+    Truck Supervisor: ''
+    Ultimate Arm Operator: ''
+    Underwater Camera: ''
+    Underwater Director of Photography: ''
+    Underwater Epk Photographer: ''
+    Underwater Gaffer: ''
+    Underwater Stills Photographer: ''
+    Unit Manager: ''
+    Unit Medic: ''
+    Unit Production Manager: ''
+    Unit Publicist: ''
+    Unit Swing: ''
+    Utility Sound: ''
+    Utility Stunts: ''
+    VFX Artist: ''
+    VFX Director of Photography: ''
+    VFX Editor: ''
+    VFX Lighting Artist: ''
+    VFX Production Coordinator: ''
+    VFX Supervisor: ''
+    Vehicles Coordinator: ''
+    Vehicles Wrangler: ''
+    Video Assist Operator: ''
+    Video Game: ''
+    Video Report: ''
+    Videojournalist: ''
+    Visual Development: ''
+    Visual Effects: ''
+    Visual Effects Art Director: ''
+    Visual Effects Assistant Editor: ''
+    Visual Effects Camera: ''
+    Visual Effects Compositor: ''
+    Visual Effects Coordinator: ''
+    Visual Effects Design Consultant: ''
+    Visual Effects Designer: ''
+    Visual Effects Director: ''
+    Visual Effects Editor: ''
+    Visual Effects Lineup: ''
+    Visual Effects Producer: ''
+    Visual Effects Production Assistant: ''
+    Visual Effects Production Manager: ''
+    Visual Effects Supervisor: ''
+    Visual Effects Technical Director: ''
+    Vocal Coach: ''
     Vocals: Gesang
     Voice: Stimme
-    Wardrobe Assistant:
-    Wardrobe Coordinator:
-    Wardrobe Designer:
-    Wardrobe Intern:
-    Wardrobe Master:
-    Wardrobe Specialized Technician:
-    Wardrobe Supervisor:
-    Weapons Master:
-    Weapons Wrangler:
-    Web Designer:
-    Wig Designer:
-    Wigmaker:
-    Writer:
-    Writers' Assistant:
-    Writers' Production:
+    Wardrobe Assistant: ''
+    Wardrobe Coordinator: ''
+    Wardrobe Designer: ''
+    Wardrobe Intern: ''
+    Wardrobe Master: ''
+    Wardrobe Specialized Technician: ''
+    Wardrobe Supervisor: ''
+    Weapons Master: ''
+    Weapons Wrangler: ''
+    Web Designer: ''
+    Wig Designer: ''
+    Wigmaker: ''
+    Writer: ''
+    Writers' Assistant: ''
+    Writers' Production: ''
   joined: beigetreten
   keyboard_shortcuts:
     actions:
@@ -3387,7 +3401,7 @@ de-DE:
       next_page: Nächste Seite
       next_season: Nächste Staffel
       open_activity: Diskussionsverlauf anzeigen
-      open_add_image_window: Poster oder Hintergrundbild hinzufügen
+      open_add_image_window: Bild hinzufügen
       open_profile: Profil öffnen
       open_shortcut_window: Tastenkürzel anzeigen
       open_translation_selector: Sprachauswahl öffnen
@@ -3615,7 +3629,6 @@ de-DE:
     image_selected: Ausgewählt
     items_not_seen: Nicht gesehene Einträge
     items_on_list:
-      many: Einträge auf der Liste
       one: Eintrag auf der Liste
       other: Einträge auf der Liste
     items_seen: Gesehene Einträge
@@ -3723,7 +3736,7 @@ de-DE:
           profile: Profilbild
           regular_cast_min_4: Stammdarsteller (4 oder mehr)
           release_date: Veröffentlichung
-          title: Lokaler Titel (Feld leer lassen, wenn identisch mit dem Originaltitel)
+          title: Übersetzter Titel
           video: Video
           writer: Autor
         summary: Es scheinen die folgenden Daten in <strong>%{language}</strong> oder <strong>%{fallback_language}</strong> zu fehlen...
@@ -3788,7 +3801,7 @@ de-DE:
         character: Der Rollenname sollte so eingegeben werden, wie er im %{media} erscheint.
         homepage: Nur offizielle Webseiten. Fan-Webseiten sind nicht gestattet.
         logo_format: Unterstützt werden die Bildformate „SVG” und „PNG”. Wir bevorzugen das Vektorformat SVG.
-        original_title: Der Originaltitel muss in der Originalsprache eingetragen werden. Häufig ist diese Sprache identisch mit der Originalsprache.
+        original_title: Der Originaltitel muss in der Originalsprache eingetragen werden. In den meisten Fällen entspricht das der Sprache, die im "Originalsprache"-Feld eingegeben wurde.
         overview: Die Handlung muss mit prägnanten und präzisen Formulierungen und vor allem ohne Spoiler beschrieben werden.
         social_links: Nur offizielle (verifizierte) Konten erlaubt. Fan-Seiten sind nicht erlaubt.
         softcore: Diese Option wird verwendet, um Inhalte zu kennzeichnen, die hauptsächlich erotischer Natur sind, aber nicht unbedingt Hardcore-Pornografie darstellen. Weitere Beispiele findest du in <a href="/bible/movie#69b97071cfe788db108e926e" target="_blank">der Beitragsbibel</a>.
@@ -3841,7 +3854,7 @@ de-DE:
         confirm_collection: |-
           <p> Sammlungen bieten eine gute Möglichkeit Fortsetzungen zusammenzufassen. Obwohl es sehr umstritten ist soll diese Funktion nicht dazu dienen Filme eines gleichen "Universums" zu gruppieren. Dazu sind allgemeine Listen gedacht die du ganz einfach <a href="%{list_link}" target="_blank" rel="noopener">erstellen kannst</a>. Für weitere Informationen zu Sammlungen lies in <a href="%{docs_link}" target="_blank" rel="noopener">unseren Richtlinien</a> nach.</p>
 
-          <p>Wenn die Sammlung welche du erstellen wolltest weiterhin die Kriterien erfüllt fahren jetzt fort.</ p>
+          <p>Wenn die Sammlung welche du erstellen wolltest weiterhin die Kriterien erfüllt fahren jetzt fort.</p>
         confirm_video: |-
           <p>Filme als Videos zu markieren, hilft uns Unterschiede schneller zu erkennen.</p>
 
@@ -3854,7 +3867,7 @@ de-DE:
           add_genre: Genre hinzufügen
           no_records: Es wurden keine Genres hinzugefügt.
         keywords:
-          add_keyword: 'Schlüsselwort hinzufügen.. '
+          add_keyword: 'Schlüsselwort hinzufügen'
           create: Erstellen
           no_records: Es wurden keine Schlüsselwörter hinzugefügt.
           none_found: Keine passenden Schlüsselwörter gefunden. Möchtest du ein erstellen?
@@ -3989,6 +4002,14 @@ de-DE:
         write_review:
           logged_in: Rezension verfassen
           public: Melde dich an um einer Rezension zu verfassen.
+        written_on: 'Geschrieben am %{date}'
+        like_button_logged_out: 'Anmelden oder registrieren, um diese Rezension zu bewerten'
+        their_rating: '(deren Bewertung)'
+        your_rating: '(deine Bewertung)'
+        edit_review: 'Rezension bearbeiten'
+        no_featured_review:
+          logged_in: Wir haben keine ausgewählte Rezension für %{title}. Willst du <a href="%{url}">eine schreiben</a>?
+          public: Wir haben keine ausgewählte Rezension für %{title}.
     translations:
       add_biography: Biografie hinzufügen
       add_homepage: Webseite hinzufügen
@@ -4174,9 +4195,11 @@ de-DE:
   message_templates:
     help_translate:
       message: |-
-        Hallo, vielen Dank das du TMDB verwendest. Ich habe festgestellt dass du TMDB in einer Sprache durchsuchst die noch nicht fertig übersetzt wurde. Wenn Du Interesse daran hast uns dabei zu helfen dann besuchen unser [Locale-Projekt] (https://www.localeapp.com/projects/8267). Die [Anmeldung] (https://www.localeapp.com/users/sign_up) für Locale ist völlig kostenlos und wenn du Zeit hast Übersetze doch ein paar Dinge für uns. Jeder Beitrag hilft.
+        Hallo, vielen Dank, dass du TMDB verwendest!
 
-        Wenn Du kein Interesse daran haben solltes, ignoriere einfach diese Nachricht. Ich dachte nur, ich frag mal nach.
+        Ich habe festgestellt, dass du TMDB in einer Sprache nutzt, die nicht zu unseren vollständig übersetzten Sprachen gehört. Wenn du Interesse daran hast, uns bei der Vervollständigung zu helfen, besuche einfach unser [Weblate-Projekt](https://weblate.themoviedb.org).
+
+        Wenn du kein Interesse daran haben solltest, ignoriere einfach diese Nachricht. Ich dachte nur, ich frag mal nach.
 
         Danke und pass auf dich auf!
       subject: Hilf uns die Webseite zu übersetzen
@@ -4229,8 +4252,7 @@ de-DE:
               blocked_words: Externe ID enthält gesperrte Wörter
   month:
     one: 1 Monat
-    other: "%{count} Monate"
-    two: "%{count} Monate"
+    other: '%{count} Monate'
   navigation:
     discover:
       discover: Entdecken
@@ -4313,17 +4335,17 @@ de-DE:
       format:
         delimiter: "."
         format: "%n %u"
-        precision: 2
+        precision: '2'
         separator: ","
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: "€"
     format:
       delimiter: "."
-      precision: 2
+      precision: '2'
       separator: ","
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4334,9 +4356,9 @@ de-DE:
           thousand: Tausend
           trillion: Billionen
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: Mrd.
@@ -4353,26 +4375,20 @@ de-DE:
       format:
         delimiter:
   number_of_edits:
-    many: "%{count} Beiträge"
-    one: "%{count} Beitrag"
-    other: "%{count} Beiträge"
-    two: "%{count} Beiträge"
+    one: '%{count} Beitrag'
+    other: '%{count} Beiträge'
   number_of_items:
-    many: "%{count} Einträge"
-    one: "%{count} Eintrag"
-    other: "%{count} Einträge"
+    one: '%{count} Eintrag'
+    other: '%{count} Einträge'
   number_of_results:
-    many: "%{count} Ergebnisse"
-    one: "%{count} Ergebnis"
-    other: "%{count} Ergebnisse"
+    one: '%{count} Ergebnis'
+    other: '%{count} Ergebnisse'
   number_of_translations:
-    many: "%{count} Übersetzungen"
-    one: "%{count} Übersetzung"
-    other: "%{count} Übersetzungen"
+    one: '%{count} Übersetzung'
+    other: '%{count} Übersetzungen'
   number_of_votes:
-    many: "%{count} Bewertungen"
-    one: "%{count} Bewertung"
-    other: "%{count} Bewertungen"
+    one: '%{count} Bewertung'
+    other: '%{count} Bewertungen'
   ott:
     available_sentences:
       ads: Anschauen mit Werbung
@@ -4409,9 +4425,8 @@ de-DE:
       sd: Keine SD-Angebote gefunden.
     page_title: Wo kann ich %{media_name} anschauen?
     seasons:
-      many: "%{count} Staffeln"
-      one: "%{count} Staffel"
-      other: "%{count} Staffeln"
+      one: '%{count} Staffel'
+      other: '%{count} Staffeln'
     view_offers: Zeige Angebote
     watch_now: Jetzt anschauen
     watch_on:
@@ -4588,8 +4603,8 @@ de-DE:
     notifications:
       api_updates: E-Mail-Benachrichtigung bei API-Anpassungen oder -Updates
       email_new_releases_watchlist: E-Mail-Benachrichtigung bei neuen Veröffentlichungen von meiner Watchliste
-      new_replies_to_threads_created: Themen abonnieren, die ich erstellt oder auf die ich geantwortet habe
-      new_replies_to_threads_watching: E-Mail-Benachrichtigung bei neuen Antworten von mir abonnierten Themen
+      new_replies_to_threads_created: Themen automatisch abonnieren, die ich erstellt oder auf die ich geantwortet habe?
+      new_replies_to_threads_watching: E-Mail-Benachrichtigung bei neuen Antworten von mir abonnierten Themen?
       news_updates: E-Mail-Benachrichtigung bei Neuigkeiten oder Produktupdates
       notifications: Benachrichtigungen
       page_title: Meine Benachrichtigungen
@@ -4738,7 +4753,6 @@ de-DE:
       seconds: Sekunden
   top_contributors: Rangliste
   translation:
-    many: Übersetzungen
     one: Übersetzung
     other: Übersetzungen
   upload_backdrop: Hintergrundbild hochladen

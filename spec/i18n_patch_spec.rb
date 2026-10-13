@@ -56,14 +56,13 @@ RSpec.describe I18nPatch do
         "def" => {
           "one" => nil,
           "few" => nil,
-          "other" => nil
+          "many" => nil
         },
         "jkl" => [1, 2, 3]
       })
     end
 
     example "handle zero edge case when converting pluralized keys for en-US" do
-      pending
       patch = I18nPatch.new(
         {
           "abc" => {
@@ -85,6 +84,32 @@ RSpec.describe I18nPatch do
           "one" => "234",
           "other" => "456",
           "zero" => "789"
+        }
+      })
+    end
+
+    example "handle nested keys including plural keys, eg. other" do
+      patch = I18nPatch.new(
+        {
+          "abc" => {
+            "other" => "789"
+          }
+        },
+        locale: "en-US"
+      )
+
+      target = {
+        "abc" => {
+          "this" => "123",
+          "that" => "234"
+        }
+      }
+
+      expect(patch.apply(target)).to eq({
+        "abc" => {
+          "this" => "123",
+          "that" => "234",
+          "other" => "789"
         }
       })
     end
@@ -119,16 +144,22 @@ RSpec.describe I18nPatch do
   end
 
   describe "#plural_keys" do
-    it "returns a default" do
-      patch = I18nPatch.new(locale: "xx-XX")
-
-      expect(patch.plural_keys).to eq(["one", "other"])
-    end
-
-    it "returns the specified locale" do
+    it "returns keys for ar-EG" do
       patch = I18nPatch.new(locale: "ar-EG")
 
       expect(patch.plural_keys).to eq(["zero", "one", "two", "few", "many", "other"])
+    end
+
+    it "returns keys for uk-UA" do
+      patch = I18nPatch.new(locale: "uk-UA")
+
+      expect(patch.plural_keys).to eq(["one", "few", "many"])
+    end
+
+    it "returns default keys for other languages" do
+      patch = I18nPatch.new(locale: "xx-XX")
+
+      expect(patch.plural_keys).to eq(["one", "other"])
     end
   end
 end

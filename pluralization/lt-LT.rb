@@ -1,7 +1,3 @@
-require 'rails_i18n/pluralization'
+require 'weblate/pluralization/lithuanian'
 
-{ :'lt-LT' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :few, :other],
-        :rule => ::RailsI18n::Pluralization::Lithuanian.rule }}}}
+::Weblate::Pluralization::Lithuanian.with_locale(:'lt-LT')

@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/east_slavic'
+require 'weblate/pluralization/east_slavic'
 
-::RailsI18n::Pluralization::EastSlavic.with_locale(:'ru-RU')
+::Weblate::Pluralization::EastSlavic.with_locale(:'ru-RU')

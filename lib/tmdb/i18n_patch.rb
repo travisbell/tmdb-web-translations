@@ -21,9 +21,10 @@ class I18nPatch
 
   attr_reader :locale, :plural_keys, :source
 
-  def initialize(source = {}, locale: I18n.default_locale)
+  def initialize(source = {}, plurals: true, locale: I18n.default_locale)
     @source = source
     @locale = locale
+    @plurals = plurals
     @plural_keys = I18n.t("i18n.plural.keys", locale: locale).map(&:to_s) || ["other"]
     @plural_hash = @plural_keys.to_h { |key| [key, nil] }
   end
@@ -52,7 +53,9 @@ class I18nPatch
     end
   end
 
+  # Need at least two keys to detect plural to prevent "other" being added to something causing
+  # other plural keys to be injected unnecessarily.
   private def plural_keys?(object)
-    (object.keys & PLURAL_KEYS).length >= 1
+    @plurals && (object.keys & PLURAL_KEYS).length >= 2
   end
 end

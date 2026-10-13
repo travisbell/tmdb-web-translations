@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/other'
+require 'weblate/pluralization/one_with_zero_other'
 
-::RailsI18n::Pluralization::Other.with_locale(:'fa-IR')
+::Weblate::Pluralization::OneWithZeroOther.with_locale(:'fa-IR')

@@ -1,4 +1,3 @@
----
 en-US:
   3rd Party Applications: 3rd Party Applications
   API: API
@@ -389,7 +388,7 @@ en-US:
   Search for a language: Search for a language...
   Search for a movie: Search for a movie
   Search for a movie or TV show: Search for a movie or TV show
-  Search for a movie, TV show, person: Search for a movie, tv show, person...
+  Search for a movie, TV show, person: Search for a movie, TV show, person...
   Season: Season
   Season Number: Season Number
   Season Overview: Season Overview
@@ -511,6 +510,10 @@ en-US:
   Your lists: Your lists
   Your rating: Your rating
   Zip Code: Zip Code
+  account:
+    reviews:
+      delete:
+        message: Deleting this review is a permanent action, it cannot be undone.
   account_drop_down:
     discussions: Discussions
     edit_profile: Edit Profile
@@ -525,6 +528,7 @@ en-US:
     sign_up: Sign Up
     view_profile: View profile
     watchlist: Watchlist
+    reviews: Reviews
   accounts:
     activity:
       activity: Activity
@@ -637,6 +641,9 @@ en-US:
       create_new_list: Create a new list
       created: List created
       my_new_list: My new list...
+      no_reviews:
+        logged_in: You haven't written any reviews.
+        public: "%{username} hasn't written any reviews."
     member_since: Member since %{date}
     navigation:
       discussions: Discussions
@@ -667,7 +674,7 @@ en-US:
       recent_discussions: Recent Discussions
       total_edits: Total Edits
       total_ratings: Total Ratings
-      upcoming_watchlist: Upcoming From Watchlist
+      upcoming_watchlist: Upcoming from Watchlist
     page_title:
       page_owner: My Profile
       public: "%{username}'s Profile"
@@ -715,6 +722,10 @@ en-US:
       this_month: This month
       this_week: This week
       view_them: View them.
+    reviews:
+      page_title:
+        page_owner: My Reviews
+        public: "%{username}'s Reviews"
   add_to_list: Add %{media_title} to one of your lists...
   already_translated_in: "%{page_title} is already translated in the following languages..."
   api_for_business:
@@ -824,7 +835,7 @@ en-US:
       getting_started: Getting Started
       header_1: New Award
       header_2: Add a New Award
-      note: Adding a new award on TMDB is simple and easy. If you have any questions about how our editing system works make sure to read through our <a href="%{bible_href}">contribition bible</a> or stop by the <a href="%{talk_href}">forums</a>.
+      note: Adding a new award on TMDB is simple and easy. If you have any questions about how our editing system works, make sure to read through our <a href="%{bible_href}">contribution bible</a> or stop by the <a href="%{talk_href}">forums</a>.
       verify: Verify and Save
     nominations:
       add_nomination: Add Nomination
@@ -852,8 +863,7 @@ en-US:
     winner: Winner
     wins:
       one: 1 Win
-      other: "%{count} Wins"
-      zero: No wins
+      other: '%{count} Wins'
     most_awarded_films: Most Awarded Films
     most_awarded_people: Most Awarded People
     media_page_description: Browse award nominations and wins for %{name} on TMDB. %{name} has received %{nominations} and %{wins}.
@@ -982,11 +992,11 @@ en-US:
         '1':
           meaning: For all ages.
         '2':
-          meaning: Over 7 years.
+          meaning: For ages 7 and over.
         '3':
-          meaning: Over 12 years.
+          meaning: For ages 12 and over.
         '4':
-          meaning: Over 16 years.
+          meaning: For ages 16 and over.
         '5':
           meaning: Adults only.
         '6':
@@ -1318,9 +1328,9 @@ en-US:
         '1':
           meaning: This rating is for programming that is appropriate for all ages. This program usually involves programs designed for children or families.
         '2':
-          meaning: This rating is for programming that may contain material inappropriate for children younger than 7, and parental discretion should be used. Some cartoon programming not deemed strictly as "educational", and films rated "G" or "PG" in North America may fall into the 7 category.
+          meaning: This rating is for programming that may contain material inappropriate for children younger than 7, and parental discretion should be used. Some cartoon programming not deemed strictly "educational" and films rated "G" or "PG" in North America may fall into this category.
         '3':
-          meaning: This rating is for programs that may deemed inappropriate for those younger than 12, and parental discretion should be used. Usually used for animations that have stronger themes or violence then those designed for children, or for reality shows that have mild violence, themes, or language.
+          meaning: This rating is for programs that may be deemed inappropriate for those younger than 12, and parental discretion should be used. It is usually used for animated programs that have stronger themes or violence than those designed for children, or for reality shows that have mild violence, themes, or language.
         '4':
           meaning: This rating is for programs that contain material that may be inappropriate for children under 15, and that parental discretion should be used. Examples include most dramas, and talk shows on OTA (over-the-air) TV (KBS, MBC, SBS), and many American TV shows/dramas on Cable TV channels like OCN and OnStyle. The programs that have this rating may include moderate or strong adult themes, language, sexual inference, and violence. As with the TV-MA rating in North America, this rating is commonly applied to live events where the occurrence of inappropriate dialogue is unpredictable. Since 2007, this rating is the most used rating for TV.
         '5':
@@ -1459,7 +1469,7 @@ en-US:
     backdrop_image_message: Here's a few backdrop images we've pulled for the header. Please select 1 to 3 backdrop images to update the header with.
     backdrop_oops_message: Oops! You Cannot Select More Than 3 Header Images.
     backdrop_window_title: Choose a Character Backdrop Photo
-    below_is_example_text: Below is an example of what the page Batman will look like. Please go through the info below <br>and verify it before saving the page and launching it onto TMDb.
+    below_is_example_text: Below is an example of what the page Batman will look like. Please go through the info below <br>and verify it before saving the page and launching it onto TMDB.
     cancel_edits: Cancel Edits
     character_backdrop_photo: Character Backdrop Photo
     character_bio: Character Bio
@@ -1472,7 +1482,7 @@ en-US:
     character_wiki: Character Wiki
     characters: Characters
     check_it_out: Check it out
-    check_out_bible: <p>Please check out <a target="_blank" href='%{bible}'>the contribution bible</a> for further info on adding to the Movie Db.</p>
+    check_out_bible: <p>Please check out <a target="_blank" href='%{bible}'>the contribution bible</a> for further info on adding to The Movie Database.</p>
     choose_a_character: Choose A Character
     choose_a_character_info: Adding a character means linking together the appearance of an actor or actress playing a specific role. An example would be the Dark Knight Trilogy (three movies) in which Christen Bale plays Bruce Wayne / Batman. Those three appearance in that role equals one character.
     choose_backdrop: Choose Backdrop
@@ -1534,7 +1544,7 @@ en-US:
     image_media_association: This image is associated with a media record,  If you proceed, the person associations of the linked media  will also change!
     in_translate_mode: You're in Translate Mode
     inline_edit_original_name: Original Name
-    join_community_tmdb: Join our community to contribute to The Movie DB.
+    join_community_tmdb: Join our community to contribute to The Movie Database.
     launch_label: launch
     lock_existing_appearances: Lock Existing Appearances
     log_tv_movies_watch: Log the TV and Movies you watch
@@ -1553,7 +1563,7 @@ en-US:
     navigate_to_dashboard: Go To My Dashboard
     navigate_to_master: Go To The Master Page
     need_help: Need Help?
-    new_to_tmdb: New to TMDb
+    new_to_tmdb: New to TMDB
     next: Next
     next_edit_groups: 'Next: Edit Groups'
     next_launch_page: 'Next: Launch Page'
@@ -1654,7 +1664,7 @@ en-US:
     view_by: View By
     want_to_delete_group: Are you sure that you want to delete this group?
     want_to_go_back: Are you sure, you want to go back ?
-    welcome_message: 'Welcome to The Movie Db community where you can:'
+    welcome_message: 'Welcome to The Movie Database community where you can:'
     what_next: What would you like to do next?
   character name: Character Name
   collection_includes: Includes %{movie_titles}
@@ -1671,7 +1681,7 @@ en-US:
     missing_a_profile_image: Missing A Profile Image
     movie_language_distribution: Movie Language Distribution
     movies_missing_a_backdrop: Movies Missing A Backdrop
-    movies_missing_a_overview: Movies Missing A Overview
+    movies_missing_a_overview: Movies Missing An Overview
     movies_missing_a_poster: Movies Missing A Poster
     movies_missing_a_title: Movies Missing A Title
     page_title: Contribute Missing Data
@@ -1680,7 +1690,7 @@ en-US:
     tv_missing_a_poster: TV Missing A Poster
     tv_show_language_distribution: TV Show Language Distribution
     tv_shows_missing_a_name: TV Shows Missing A Name
-    tv_shows_missing_a_overview: TV Shows Missing A Overview
+    tv_shows_missing_a_overview: TV Shows Missing An Overview
   contribution_bible:
     abbreviations:
       collection: col
@@ -1748,7 +1758,7 @@ en-US:
     - Fri
     - Sat
     abbr_month_names:
-    -
+    - 
     - Jan
     - Feb
     - Mar
@@ -1776,7 +1786,7 @@ en-US:
       full_month_year: "%B %Y"
       short_month_day_year: "%b %d, %Y"
     month_names:
-    -
+    - 
     - January
     - February
     - March
@@ -1792,8 +1802,7 @@ en-US:
   day: day
   days:
     one: day
-    other: "%{count} days"
-    two: days
+    other: '%{count} days'
   deleted_content:
     entry_deleted: Entry Deleted
     reasons:
@@ -1906,7 +1915,7 @@ en-US:
           my_services: My Services
           restrict: Restrict searches to my subscribed services?
           restrict_tooltip: Log in to manage your subscribed services.
-        where_to_watch: Where To Watch
+        where_to_watch: Where to Watch
       years:
         years: Years
       ceremony_date:
@@ -1991,6 +2000,7 @@ en-US:
       posted_by_with_datetime: posted <time class="timeago" datetime="%{time}">%{time}</time>
       posted_by_with_datetime_and_username: '%{username} posted <time class="timeago" datetime="%{time}">%{time}</time>'
       replied_by_with_datetime_and_username: '%{username} replied <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by: "%{username} replied"
     discussion_activity: Discussion Activity
     email_notifications:
       email_notifications: Email Notifications
@@ -2184,9 +2194,8 @@ en-US:
       1fae3: Face with peeking eye
       1fae4: Face with diagonal mouth
   episode_count:
-    many: "%{count} Episodes"
-    one: "%{count} Episode"
-    other: "%{count} Episodes"
+    one: '%{count} Episode'
+    other: '%{count} Episodes'
   episode_number_name: Episode %{episode_number}
   error_pages:
     deleted_account:
@@ -2216,7 +2225,7 @@ en-US:
         explanation_1: If you would like to discuss the reasons for your suspension or how you can regain access to your account, please visit the messaging area by clicking the link below.
         title: Your account has been suspended
     suspended_user_post:
-      description: This post was found in violation of our <a href="%{link}">community guidelines</a>. The user resposible for this may also have been suspended.
+      description: This post was found in violation of our <a href="%{link}">community guidelines</a>. The user responsible for this may also have been suspended.
       title: This post has been removed
     too_many_login_attempts:
       description: We've received too many login requests from your IP address. Give it a few seconds and try again.
@@ -2295,6 +2304,7 @@ en-US:
         one: is the wrong length (should be %{count} character)
         other: is the wrong length (should be %{count} characters)
       blocked_words: contains blocked words
+      duplicate_review: Review already exists
     movie:
       duplicate_cast: This person is already added as a cast member.
     nesting: has invalid nesting
@@ -2387,7 +2397,7 @@ en-US:
         this_week: This Week
         today: Today
         tv: TV
-      free_to_watch: Free To Watch
+      free_to_watch: Free to Watch
       latest_trailers: Latest Trailers
       leaderboard:
         all_time: All Time Edits
@@ -3001,8 +3011,8 @@ en-US:
     Musician: Musician
     Negative Cutter: Negative Cutter
     Novel: Novel
-    "O\x01B\x01 Lighting": O.B. Lighting
-    "O\x01B\x01 Sound": O.B. Sound
+    "O.B. Lighting": O.B. Lighting
+    "O.B. Sound": O.B. Sound
     On Set Computer Graphics: On Set Computer Graphics
     On Set Dresser: On Set Dresser
     On Set Key Props: On Set Key Props
@@ -3616,7 +3626,6 @@ en-US:
     image_selected: Selected
     items_not_seen: Items I Haven't Seen
     items_on_list:
-      many: items on this list
       one: item on this list
       other: items on this list
     items_seen: Items I Have Seen
@@ -3990,6 +3999,14 @@ en-US:
         write_review:
           logged_in: Write Review
           public: Login to write a review.
+        written_on: Written on %{date}
+        like_button_logged_out: Login or sign up to like this review
+        their_rating: "(their rating)"
+        your_rating: "(your rating)"
+        edit_review: Edit Review
+        no_featured_review:
+          logged_in: We don't have any featured reviews for %{title}. Would you like to <a href="%{url}">write one</a>?
+          public: We don't have any featured reviews for %{title}.
     translations:
       add_biography: Add biography
       add_homepage: Add homepage
@@ -4138,7 +4155,7 @@ en-US:
     wizard:
       award_details: Award Details
       getting_started: Getting Started
-      intro_1: Adding a new %{media_type} on TMDB is simple and easy. If you have any questions about how our editing system works make sure to read through our <a href="%{bible_href}">contribution bible</a> or stop by the <a href="%{talk_href}">forums</a>.
+      intro_1: Adding a new %{media_type} on TMDB is simple and easy. If you have any questions about how our editing system works, make sure to read through our <a href="%{bible_href}">contribution bible</a> or stop by the <a href="%{talk_href}">forums</a>.
       intro_2: This form will guide you through the creation process. To get started, click next.
       verify: Verify and Save
     more_like_this:
@@ -4175,7 +4192,9 @@ en-US:
   message_templates:
     help_translate:
       message: |-
-        Hi there, thanks for using TMDB. I noticed you're browsing TMDB in a language that isn't finished being translated. If you have any interest in helping us get this data completed, you can do so by visiting our [Locale project](https://www.localeapp.com/projects/8267). [Signing up](https://www.localeapp.com/users/sign_up) for Locale is free and you can add as many new translations as you have time for. Every edit helps.
+        Hi there, thanks for using TMDB!
+
+        I noticed you're browsing TMDB in a language that isn't one of our completed languages. If you have any interest in helping us get this data completed, you can do so by visiting our [Weblate project](https://weblate.themoviedb.org).
 
         If you don't have any interest in this, don't sweat it. I just thought I'd ask.
 
@@ -4230,8 +4249,7 @@ en-US:
               blocked_words: external ID contains blocked words
   month:
     one: month
-    other: "%{count} months"
-    two: "%{count} months"
+    other: '%{count} months'
   navigation:
     discover:
       discover: Discover
@@ -4314,17 +4332,17 @@ en-US:
       format:
         delimiter: ","
         format: "%u%n"
-        precision: 2
+        precision: '2'
         separator: "."
-        significant: false
-        strip_insignificant_zeros: false
+        significant: 'False'
+        strip_insignificant_zeros: 'False'
         unit: "$"
     format:
       delimiter: ","
-      precision: 3
+      precision: '3'
       separator: "."
-      significant: false
-      strip_insignificant_zeros: false
+      significant: 'False'
+      strip_insignificant_zeros: 'False'
     human:
       decimal_units:
         format: "%n %u"
@@ -4335,9 +4353,9 @@ en-US:
           thousand: Thousand
           trillion: Trillion
       format:
-        precision: 3
-        significant: true
-        strip_insignificant_zeros: true
+        precision: '3'
+        significant: 'True'
+        strip_insignificant_zeros: 'True'
       short_decimal_units:
         units:
           billion: B
@@ -4354,26 +4372,20 @@ en-US:
       format:
         delimiter:
   number_of_edits:
-    many: "%{count} edits"
-    one: "%{count} edit"
-    other: "%{count} edits"
-    two: "%{count} edits"
+    one: '%{count} edit'
+    other: '%{count} edits'
   number_of_items:
-    many: "%{count} items"
-    one: "%{count} item"
-    other: "%{count} items"
+    one: '%{count} item'
+    other: '%{count} items'
   number_of_results:
-    many: "%{count} results"
-    one: "%{count} result"
-    other: "%{count} results"
+    one: '%{count} result'
+    other: '%{count} results'
   number_of_translations:
-    many: "%{count} translations"
-    one: "%{count} translation"
-    other: "%{count} translations"
+    one: '%{count} translation'
+    other: '%{count} translations'
   number_of_votes:
-    many: "%{count} votes"
-    one: "%{count} vote"
-    other: "%{count} votes"
+    one: '%{count} vote'
+    other: '%{count} votes'
   ott:
     available_sentences:
       ads: watch with ads
@@ -4410,9 +4422,8 @@ en-US:
       sd: No SD offers found.
     page_title: Where can I watch %{media_name}?
     seasons:
-      many: "%{count} seasons"
-      one: "%{count} season"
-      other: "%{count} seasons"
+      one: '%{count} season'
+      other: '%{count} seasons'
     view_offers: View Offers
     watch_now: Watch Now
     watch_on:
@@ -4739,7 +4750,6 @@ en-US:
       seconds: Seconds
   top_contributors: Top Contributors
   translation:
-    many: translations
     one: translation
     other: translations
   upload_backdrop: Upload a Backdrop

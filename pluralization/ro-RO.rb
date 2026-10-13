@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/romanian'
+require 'weblate/pluralization/romanian'
 
-::RailsI18n::Pluralization::Romanian.with_locale(:'ro-RO')
+::Weblate::Pluralization::Romanian.with_locale(:'ro-RO')

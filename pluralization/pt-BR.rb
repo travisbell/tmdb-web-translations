@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_other'
+require 'weblate/pluralization/zero_one_many_other'
 
-::RailsI18n::Pluralization::OneOther.with_locale(:'pt-BR')
+::Weblate::Pluralization::ZeroOneManyOther.with_locale(:'pt-BR')

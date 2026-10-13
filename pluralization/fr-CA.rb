@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_upto_two_other'
+require 'weblate/pluralization/zero_one_many_other'
 
-::RailsI18n::Pluralization::OneUptoTwoOther.with_locale(:'fr-CA')
+::Weblate::Pluralization::ZeroOneManyOther.with_locale(:'fr-CA')

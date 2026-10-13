@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_other'
+require 'weblate/pluralization/one_two_other'
 
-::RailsI18n::Pluralization::OneOther.with_locale(:'he-IL')
+::Weblate::Pluralization::OneTwoOther.with_locale(:'he-IL')

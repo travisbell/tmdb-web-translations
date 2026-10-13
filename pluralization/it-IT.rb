@@ -1,3 +1,3 @@
-require 'rails_i18n/common_pluralizations/one_other'
+require 'weblate/pluralization/one_many_other'
 
-::RailsI18n::Pluralization::OneOther.with_locale(:'it-IT')
+::Weblate::Pluralization::OneManyOther.with_locale(:'it-IT')

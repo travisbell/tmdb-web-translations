@@ -170,6 +170,8 @@ module TMDb
           return ["en-US", "en", "US"] if string.nil? || string == ""
 
           language, region = string.split("-")
+          return ["en-US", "en", "US"] if language.nil? || language.empty?
+
           if (region = region&.upcase)
             ["#{language}-#{region}", language, region]
           else

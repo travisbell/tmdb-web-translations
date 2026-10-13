@@ -1,7 +1,3 @@
-require 'rails_i18n/pluralization'
+require 'weblate/pluralization/polish'
 
-{ :'pl-PL' => {
-    :'i18n' => {
-      :plural => {
-        :keys => [:one, :few, :many, :other],
-        :rule => ::RailsI18n::Pluralization::Polish.rule }}}}
+::Weblate::Pluralization::Polish.with_locale(:'pl-PL')

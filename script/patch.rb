@@ -18,6 +18,9 @@ OptionParser.new do |parser|
   parser.on("--no-sort-keys", "Don't sort top level keys") do
     @no_sort_keys = false
   end
+  parser.on("--ignore-plurals") do
+    @ignore_plurals = true
+  end
   parser.on("-v", "--verbose", "Verbose output") do
     @verbose = true
   end
@@ -31,7 +34,7 @@ at_exit do
     puts "Patching #{file_path}" if @verbose
 
     locale = yaml.keys.first
-    patch = I18nPatch.new(patch_yaml[patch_locale], locale:)
+    patch = I18nPatch.new(patch_yaml[patch_locale], plurals: !@ignore_plurals, locale:)
 
     patched_yaml = patch.apply(yaml[locale], empty: locale != patch_locale)
     patched_yaml = patched_yaml.sort.to_h unless @no_sort_keys
