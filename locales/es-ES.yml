@@ -306,7 +306,7 @@ es-ES:
   Offical Site: Sitio oficial
   Offline Databases: Bases de datos fuera de línea
   Ok: De acuerdo
-  Optional: ''
+  Optional: 'Opcional'
   Origin Country: País de origen
   Original Air Date: Fecha original de emisión
   Original Language: Idioma original
@@ -316,7 +316,7 @@ es-ES:
   Original TV Show Language: Idioma original de la serie
   Original Title: Título original
   Other Databases: Otras bases de datos
-  Others: ''
+  Others: 'Otros'
   Overview: Vista general
   Page: Página
   People: Gente
@@ -377,7 +377,7 @@ es-ES:
   Report an Issue: Informar de un problema
   Reported Issues: Problemas informados
   Request an API Key: Solicitar una clave de API
-  Required: ''
+  Required: 'Obligatorio'
   Resend Activation Email: Reenviar correo electrónico de activación.
   Reset: Restablecer
   Reset Password: Restablecer contraseña
@@ -392,7 +392,7 @@ es-ES:
   Search for a language: Buscar por idioma...
   Search for a movie: Buscar una película
   Search for a movie or TV show: Buscar una película o serie
-  Search for a movie, TV show, person: Buscar una película, serie, persona...
+  Search for a movie, TV show, person: Búsqueda de una película, una serie de televisión, una persona...
   Season: Temporada
   Season Number: Número de temporada
   Season Overview: Vista general de la temporada
@@ -465,7 +465,7 @@ es-ES:
   Top Rated Movies: Películas mejor puntuadas
   Top Rated TV Shows: Series mejor puntuadas
   Top Users: Usuarios destacados
-  Translate Award: ''
+  Translate Award: 'Premio'
   Translate Collection: Traducir colección
   Translate Movie: Traducir película
   Translate Person: Traducir persona
@@ -485,7 +485,7 @@ es-ES:
   Upload Logo: Subir logo
   User Score: Puntuación de usuarios
   Username: Usuario
-  Value: ''
+  Value: 'Valor'
   Video?: "¿Vídeo?"
   View: Ver
   View All Backdrops: Ver todas las imágenes de fondo
@@ -517,7 +517,7 @@ es-ES:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Eliminar esta reseña es una acción definitiva que no se puede deshacer.'
   account_drop_down:
     discussions: Debates
     edit_profile: Editar perfil
@@ -532,7 +532,7 @@ es-ES:
     sign_up: Regístrate
     view_profile: Ver perfil
     watchlist: Lista de seguimiento
-    reviews: ''
+    reviews: 'Reseñas'
   accounts:
     activity:
       activity: Actividad
@@ -638,18 +638,18 @@ es-ES:
       no_lists:
         logged_in: No has creado ninguna lista
         public: "%{username} no ha compartido ninguna lista pública"
-        search: ''
+        search: 'No se ha encontrado ninguna lista.'
       page_title:
         page_owner: Mis listas
         public: Listas de %{username}
       search: 'Buscar una lista...'
       add_to_lists: 'Agregar <span class="bold">%{media_name}</span> a las listas'
-      contributor: ''
-      create_new_list: ''
-      created: ''
+      contributor: 'Colaborador'
+      create_new_list: 'Crea una nueva lista'
+      created: 'Lista creada'
       my_new_list: 'Mi nueva lista...'
       no_reviews:
-        logged_in: ''
+        logged_in: 'No has escrito ninguna reseña.'
         public: ''
     member_since: Miembro desde %{date}
     navigation:
@@ -681,7 +681,7 @@ es-ES:
       recent_discussions: Debates recientes
       total_edits: Total de ediciones
       total_ratings: Total de valoraciones
-      upcoming_watchlist: Próximamente en la de lista de seguimiento
+      upcoming_watchlist: Próximamente disponible de la lista de seguimiento
     page_title:
       page_owner: Mi perfil
       public: Perfil de %{username}
@@ -733,12 +733,12 @@ es-ES:
       view_them: Verlos.
     reviews:
       page_title:
-        page_owner: ''
+        page_owner: 'Mis reseñas'
         public: ''
   add_to_list: Añadir %{media_title} a una de tus listas...
   already_translated_in: "%{page_title} ya se ha traducido a los siguientes idiomas..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'Interfaz de programación de aplicaciones para empresas'
     form:
       company_name:
         label: 'Nombre de la compañía'
@@ -751,8 +751,8 @@ es-ES:
         label: Tu correo electrónico
       error: no puede estar en blanco
       name:
-        label: ''
-      success: ''
+        label: 'Nombre'
+      success: '¡Gracias por enviar tu solicitud de venta empresarial!'
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
     account_required:
@@ -796,69 +796,69 @@ es-ES:
   awards:
     add_nomination: Añadir nominación
     admin:
-      delete: ''
+      delete: 'Premio eliminado'
     air_date:
       future: Se emite %{date}
       past: Emitido %{date}
     alternative_names: Nombres alternativos
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
+    award: 'Premio'
+    broadcast_episode: 'Episodio emitido'
+    broadcast_episode_tooltip: 'Al hacer clic en el enlace de un episodio de televisión, se mostrará la información sobre la producción.'
     broadcast_series: 'Series de televisión'
     broadcast_series_tooltip: ''
     categories:
       add_category: 'Añadir categoría'
-      categories: ''
-      category: ''
+      categories: 'Categorías'
+      category: 'Categoría'
       crew_credit_departments: ''
       crew_credit_jobs: ''
       date_ended: 'Fecha de finalización'
       date_started: 'Fecha de comienzo'
       display_type: 'Tipo de visualización'
-      locked: ''
-      media_type: ''
-      name: ''
+      locked: 'Un moderador ha desactivado y bloqueado la posibilidad de añadir nuevas categorías.'
+      media_type: 'Tipo de medio'
+      name: 'Nombre'
       title: Categorías
       ended_on: ''
       started_on: ''
     category_empty: No hay nominaciones en esta categoría.
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
+      add_ceremony: 'Añadir ceremonia'
+      ceremonies: 'Ceremonias'
+      ceremony: 'Ceremonia'
+      date: 'Fecha'
       limits: ''
-      location: ''
-      locked: ''
+      location: 'Localización'
+      locked: 'La función para añadir nuevas ceremonias ha sido desactivada y bloqueada por un moderador.'
       number: 'Número'
       release_date_max: Fecha máxima de estreno
       release_date_min: Fecha mínima de estreno
       title: Ceremonias
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Página de inicio'
+      name: 'Nombre'
+      overview: 'Resumen'
     new_award:
-      award_details: ''
-      click_next: ''
-      getting_started: ''
-      header_1: ''
+      award_details: 'Detalles del premio'
+      click_next: 'Este asistente de tres pasos te guiará a lo largo del proceso de creación. Para empezar, haz clic en «Siguiente».'
+      getting_started: 'Primer paso'
+      header_1: 'Nuevo premio'
       header_2: 'Añadir nuevo premio'
       note: ''
-      verify: ''
+      verify: 'Comprobar y guardar'
     nominations:
       add_nomination: 'Añadir nominación'
-      locked: ''
-      movie: ''
-      nomination: ''
+      locked: 'Un moderador ha desactivado y bloqueado la posibilidad de añadir nuevas candidaturas.'
+      movie: 'Película'
+      nomination: 'Nominación'
       number:
         one: ''
         many: ''
         other: ''
       one: 1 nominación
       other: "%{count} nominaciones"
-      title: ''
-      shared_with: ''
+      title: 'Nominaciones'
+      shared_with: 'Compartido con...'
       many: "%{count} nominaciones"
     nominee: Nominado
     show_info:
@@ -876,15 +876,15 @@ es-ES:
       one: 1 victoria
       many: '%{count} victorias'
       other: '%{count} victorias'
-    most_awarded_films: ''
-    most_awarded_people: ''
-    most_nominated_films: ''
-    most_nominated_people: ''
+    most_awarded_films: 'Las películas más galardonadas'
+    most_awarded_people: 'Las personas más galardonadas'
+    most_nominated_films: 'Las películas más nominadas'
+    most_nominated_people: 'Las personas más nominadas'
     media_page_description: ''
   back_options:
-    award: ''
+    award: 'Regresar al premio'
     back: Volver
-    ceremony: ''
+    ceremony: 'Regreso a la ceremonia'
     episode: Volver al episodio
     episode_groups: Volver al grupo de episodios
     episode_list: Volver a la lista de episodios
