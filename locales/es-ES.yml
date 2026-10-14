@@ -1519,7 +1519,7 @@ es-ES:
     delete_backdrop: Eliminar fondo
     delete_character: Eliminar personaje
     delete_group: Eliminar grupo
-    delete_group_check: "Estás seguro de eliminar este grupo"
+    delete_group_check: "¿Estás seguro de eliminar este grupo?"
     do_you_want_continue: "¿Quieres continuar?"
     done_editing: "¿Has terminado de editar?"
     drag_title: Arrastra el título para el nuevo grupo
@@ -1579,7 +1579,7 @@ es-ES:
     navigate_to_dashboard: Ir a Mi Panel
     navigate_to_master: Ir a la Página Maestra
     need_help: "¿Necesitas ayuda?"
-    new_to_tmdb: Nuevo en TMDb
+    new_to_tmdb: Nuevo en TMDB
     next: Siguiente
     next_edit_groups: 'Siguiente: Editar Grupos'
     next_launch_page: 'Siguiente: Lanzar Página'
@@ -1697,7 +1697,7 @@ es-ES:
     missing_a_profile_image: Falta una imagen de perfil
     movie_language_distribution: Idioma de distribución de la película
     movies_missing_a_backdrop: Películas sin imágenes de fondo
-    movies_missing_a_overview: Películas sin sinopsis
+    movies_missing_a_overview: Películas sin vista general
     movies_missing_a_poster: Películas sin cartel
     movies_missing_a_title: Películas sin título
     page_title: Aportar datos faltantes
@@ -1706,7 +1706,7 @@ es-ES:
     tv_missing_a_poster: Series sin cartel
     tv_show_language_distribution: Idioma de distribución del programa de televisión
     tv_shows_missing_a_name: Series sin título
-    tv_shows_missing_a_overview: Series sin sinopsis
+    tv_shows_missing_a_overview: Series sin vista general
   contribution_bible:
     abbreviations:
       collection: col
@@ -1939,10 +1939,10 @@ es-ES:
       ceremony_date:
         ceremony_date: 'Fecha de la ceremonia'
         search_all_ceremonies: 'Buscar todas las ceremonias'
-        search_latest_ceremony: 'Buscar las últimas ceremonias'
-        latest_ceremony: 'Ultimas ceremonias'
+        search_latest_ceremony: 'Buscar la última ceremonia'
+        latest_ceremony: 'Última ceremonia'
       last_ceremony:
-        latest_ceremony: ''
+        latest_ceremony: 'Última ceremonia'
         search_all_countries: 'Buscar en todos los países'
         search_latest_ceremony: 'Buscar por última ceremonia'
       adult_content: 'Contenido para adultos'
@@ -1970,7 +1970,7 @@ es-ES:
       title_a_z: Título (A-Z)
       title_z_a: Título (Z-A)
       latest_ceremony_asc: 'Última ceremonia: Ascendente'
-      latest_ceremony_desc: 'Última ceremonia: Desscendiente'
+      latest_ceremony_desc: 'Última ceremonia: Descendiente'
     tooltips:
       not_member: "¿No eres miembro?"
       options: 'Ver Opciones '
@@ -2013,12 +2013,12 @@ es-ES:
     category:
       last_reply_with_datetime: "%{date} a las %{time}"
       last_reply_with_datetime_and_username: "%{date} a las %{time}<br>por %{username}"
-      last_reply_with_datetime_v2: 'última respuesta en %{fecha} at %{tiempo}'
-      last_reply_with_datetime_and_username_v2: 'última respuesta de %{usuario} on %{fecha} at %{hora}'
+      last_reply_with_datetime_v2: 'última respuesta en %{date} a las %{time}'
+      last_reply_with_datetime_and_username_v2: 'última respuesta de %{username} en %{date} a las %{time}'
       posted_by_with_datetime: ''
       posted_by_with_datetime_and_username: ''
       replied_by_with_datetime_and_username: ''
-      replied_by: '%{usuario} respondió'
+      replied_by: '%{username} respondió'
     discussion_activity: Actividad del debate
     email_notifications:
       email_notifications: Avisos por correo electrónico
@@ -2149,11 +2149,17 @@ es-ES:
     choose_image: Elegir imagen
     delete_list: Borrar lista
     edit_list: Editar lista
-    contributor_notes: 'Puedes invitar a otras cuentas tanto a listas públicas como privadas. Los colaboradores solo pueden añadir y eliminar elementos, así como actualizar comentarios. Para invitar a un nuevo colaborador, envía el enlace de invitación por correo electrónico o mensajería instantánea. Los colaboradores deben tener una cuenta en TMDB para aceptar la invitación.'
-    contributors: 'Contribuidores'
+    contributor_notes: 'Puedes invitar a otras cuentas tanto a listas públicas como privadas.
+
+      Los colaboradores solo pueden añadir y eliminar elementos, así como actualizar comentarios.
+
+      Para invitar a un nuevo colaborador, envía el enlace de invitación por correo electrónico o mensajería instantánea.
+
+      Los colaboradores deben tener una cuenta en TMDB para aceptar la invitación.'
+    contributors: 'Colaboradores'
     create_invite_link: 'Crear un link de invitación'
     edit_invite_link: 'Editar un link de invitación'
-    invite_contributor: 'Invitar a un contribuidor'
+    invite_contributor: 'Invitar a un colaborador'
     list_collaboration: 'Lista de colaboración'
     no_contributors: 'No se ha añadido ningún colaborador; crea un link de invitación y compártelo para empezar.'
     created: 'Lista creada'
@@ -2327,11 +2333,11 @@ es-ES:
         one: La longitud es incorrecta (debería ser %{count} carácter)
         many: La longitud es incorrecta (deberían ser %{count} caracteres)
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
-      blocked_words: 'Contiene palabras bloqueadas'
+      blocked_words: 'contiene palabras bloqueadas'
       duplicate_review: 'La reseña ya existe'
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
-    nesting: 'Tiene elementos mal anidados'
+    nesting: 'tiene elementos mal anidados'
     tv:
       create_season_locked: La creación de nuevas temporadas ha sido bloqueada en este programa de televisión .
       duplicate_created_by: Esta persona ya está añadida como creador.
@@ -3696,21 +3702,21 @@ es-ES:
   media:
     adult: Adulto
     alternative_names:
-      add_name: 'Añadir Nombre'
-      alternative_names: 'Nombres Alternativos'
+      add_name: 'Añadir nombre'
+      alternative_names: 'Nombres alternativos'
       name: 'Nombre'
-      no_records: 'Ningún nombre alternativo ha sido añadido'
+      no_records: 'Ningún nombre alternativo ha sido añadido.'
     award:
       edit:
         adult:
-          adult_award: 'Premio de Contenido Adulto'
+          adult_award: 'Premio de contenido adulto'
         title_logos: 'Logotipos de título'
       header:
         latest_ceremony: 'No te pierdas la última ceremonia'
         upcoming_ceremony: 'No te pierdas la próxima ceremonia'
     cast_credits:
-      cast_credits: 'Créditos del Casting'
-      select: 'Selecciona créditos del casting'
+      cast_credits: 'Créditos del reparto'
+      select: 'Selecciona créditos del reparto...'
     changes:
       filters:
         clear: Limpiar
@@ -3734,7 +3740,7 @@ es-ES:
       parts: Partes
     companies:
       companies: 'Compañías'
-      select: 'Selecciona compañías'
+      select: 'Selecciona compañías...'
     company:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
