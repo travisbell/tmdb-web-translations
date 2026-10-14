@@ -41,7 +41,7 @@ es-ES:
   Add Profile: Añadir retrato
   Add Season Regular: Añadir habitual a la temporada
   Add Title Logo: Añadir logo del título
-  Add To Every Season?: "¿Añadir a cada temporada?"
+  Add To Every Season?: "¿Añadir a todas las temporada?"
   Add Video: Añadir vídeo
   Add YouTube Video: Añadir vídeo de YouTube
   Add a New Cast Member: Añadir nuevo miembro del reparto
@@ -63,7 +63,7 @@ es-ES:
   Also Known As: También conocido como
   Alternative Names: Nombres alternativos
   Alternative Titles: Títulos alternativos
-  Apiary Documentation: Documentación de la API
+  Apiary Documentation: Documentación de Apiary
   App Directory: Directorio de aplicaciones
   App Showcase: Muestra de aplicaciones
   Appearances: Apariciones
@@ -264,7 +264,7 @@ es-ES:
   Login to add this TV show to your watchlist: Inicia sesión para añadir esta serie a tu lista de seguimiento
   Login to add this movie to your favorite list: Iniciar sesión para añadir esta película a tu lista de favoritas
   Login to add this movie to your watchlist: Iniciar sesión para añadir películas tu lista de seguimiento
-  Login to create and edit custom lists: Iniciar sesión para crear y editar listas personalizadas.
+  Login to create and edit custom lists: Iniciar sesión para crear y editar listas personalizadas
   Login to rate this TV show: Inicia sesión para puntuar esta serie
   Login to rate this movie: Iniciar sesión para puntuar esta película
   Login to report an issue: Iniciar sesión para informar de un problema
@@ -298,7 +298,7 @@ es-ES:
   Notes: Notas
   Notifications: Avisos
   Now Playing Movies: Películas en cartelera
-  Number: ''
+  Number: 'Número'
   Number of Movies: Número de películas
   Number of TV Shows: Número de series
   Number of edits in the past: Número de ediciones pasados
@@ -306,7 +306,7 @@ es-ES:
   Offical Site: Sitio oficial
   Offline Databases: Bases de datos fuera de línea
   Ok: De acuerdo
-  Optional: ''
+  Optional: 'Opcional'
   Origin Country: País de origen
   Original Air Date: Fecha original de emisión
   Original Language: Idioma original
@@ -316,7 +316,7 @@ es-ES:
   Original TV Show Language: Idioma original de la serie
   Original Title: Título original
   Other Databases: Otras bases de datos
-  Others: ''
+  Others: 'Otros'
   Overview: Vista general
   Page: Página
   People: Gente
@@ -355,8 +355,8 @@ es-ES:
   Rank: Rango
   Rate it!: "¡Puntúala!"
   Rated: Puntuada
-  Rated Movies: 'Películas puntuada '
-  Rated TV Shows: 'Series puntuadas '
+  Rated Movies: 'Películas puntuadas'
+  Rated TV Shows: 'Series puntuadas'
   Rating: Valoración
   Read More: Leer más
   Recent Blog Posts: Nuevas entradas de Blog
@@ -377,8 +377,8 @@ es-ES:
   Report an Issue: Informar de un problema
   Reported Issues: Problemas informados
   Request an API Key: Solicitar una clave de API
-  Required: ''
-  Resend Activation Email: Reenviar correo electrónico de activación.
+  Required: 'Obligatorio'
+  Resend Activation Email: Reenviar correo electrónico de activación
   Reset: Restablecer
   Reset Password: Restablecer contraseña
   Revenue: Ingresos
@@ -392,7 +392,7 @@ es-ES:
   Search for a language: Buscar por idioma...
   Search for a movie: Buscar una película
   Search for a movie or TV show: Buscar una película o serie
-  Search for a movie, TV show, person: Buscar una película, serie, persona...
+  Search for a movie, TV show, person: Búsqueda de una película, una serie de televisión, una persona...
   Season: Temporada
   Season Number: Número de temporada
   Season Overview: Vista general de la temporada
@@ -442,7 +442,7 @@ es-ES:
   TV: TV
   TV Network: Cadena de televisión
   TV Recommendations: Recomendación de series
-  TV Show: ''
+  TV Show: 'Serie'
   TV Show Data: Datos de la serie
   TV Show Results: Resultados de la serie
   TV Show Status: Estado de la serie
@@ -465,7 +465,7 @@ es-ES:
   Top Rated Movies: Películas mejor puntuadas
   Top Rated TV Shows: Series mejor puntuadas
   Top Users: Usuarios destacados
-  Translate Award: ''
+  Translate Award: 'Traducir premio'
   Translate Collection: Traducir colección
   Translate Movie: Traducir película
   Translate Person: Traducir persona
@@ -485,7 +485,7 @@ es-ES:
   Upload Logo: Subir logo
   User Score: Puntuación de usuarios
   Username: Usuario
-  Value: ''
+  Value: 'Valor'
   Video?: "¿Vídeo?"
   View: Ver
   View All Backdrops: Ver todas las imágenes de fondo
@@ -517,7 +517,7 @@ es-ES:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Eliminar esta reseña es una acción definitiva que no se puede deshacer.'
   account_drop_down:
     discussions: Debates
     edit_profile: Editar perfil
@@ -532,7 +532,7 @@ es-ES:
     sign_up: Regístrate
     view_profile: Ver perfil
     watchlist: Lista de seguimiento
-    reviews: ''
+    reviews: 'Reseñas'
   accounts:
     activity:
       activity: Actividad
@@ -618,7 +618,7 @@ es-ES:
       air_date: Fecha de emisión
       alphabetical: Alfabético
       date_added: Fecha de adición
-      date_rated: 'Fecha de puntuación '
+      date_rated: 'Fecha de puntuación'
       first_air_date: Fecha de primera emisión
       most_popular: Más popular
       my_rating: Mi valoración
@@ -636,21 +636,21 @@ es-ES:
         logged_in: Mis listas
         public: Listas de %{username}
       no_lists:
-        logged_in: No has creado ninguna lista
-        public: "%{username} no ha compartido ninguna lista pública"
-        search: ''
+        logged_in: No has creado ninguna lista.
+        public: "%{username} no ha compartido ninguna lista pública."
+        search: 'No se ha encontrado ninguna lista.'
       page_title:
         page_owner: Mis listas
         public: Listas de %{username}
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: 'Buscar una lista...'
+      add_to_lists: 'Agregar <span class="bold">%{media_name}</span> a las listas'
+      contributor: 'Colaborador'
+      create_new_list: 'Crea una nueva lista'
+      created: 'Lista creada'
+      my_new_list: 'Mi nueva lista...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'No has escrito ninguna reseña.'
+        public: '%{username} no ha escrito ninguna reseña.'
     member_since: Miembro desde %{date}
     navigation:
       discussions: Debates
@@ -681,7 +681,7 @@ es-ES:
       recent_discussions: Debates recientes
       total_edits: Total de ediciones
       total_ratings: Total de valoraciones
-      upcoming_watchlist: Próximamente en la de lista de seguimiento
+      upcoming_watchlist: Próximamente disponible de la lista de seguimiento
     page_title:
       page_owner: Mi perfil
       public: Perfil de %{username}
@@ -733,26 +733,26 @@ es-ES:
       view_them: Verlos.
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Mis reseñas'
+        public: 'Reseñas del %{username}'
   add_to_list: Añadir %{media_title} a una de tus listas...
   already_translated_in: "%{page_title} ya se ha traducido a los siguientes idiomas..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'Interfaz de programación de aplicaciones para empresas'
     form:
       company_name:
-        label: ''
+        label: 'Nombre de la compañía'
       company_url:
-        label: ''
+        label: 'URL de la compañía'
       description:
-        label: ''
+        label: 'Describe qué quieres hacer con nuestra API'
       email:
         error: no tiene un formato correcto
         label: Tu correo electrónico
       error: no puede estar en blanco
       name:
-        label: ''
-      success: ''
+        label: 'Nombre'
+      success: '¡Gracias por enviar tu solicitud de venta empresarial!'
   api_session:
     3rd_party_request: Solicitud de autenticación de terceros
     account_required:
@@ -796,69 +796,69 @@ es-ES:
   awards:
     add_nomination: Añadir nominación
     admin:
-      delete: ''
+      delete: 'Premio eliminado'
     air_date:
       future: Se emite %{date}
       past: Emitido %{date}
     alternative_names: Nombres alternativos
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+    award: 'Premio'
+    broadcast_episode: 'Episodio emitido'
+    broadcast_episode_tooltip: 'Al hacer clic en el enlace de un episodio de televisión, se mostrará la información sobre la producción.'
+    broadcast_series: 'Series de televisión'
+    broadcast_series_tooltip: 'Al enlazar una serie de televisión, se puede mostrar la información de producción de cada ceremonia.'
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
-      crew_credit_departments: ''
-      crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
-      display_type: ''
-      locked: ''
-      media_type: ''
-      name: ''
+      add_category: 'Añadir categoría'
+      categories: 'Categorías'
+      category: 'Categoría'
+      crew_credit_departments: 'Departamentos de créditos del equipo'
+      crew_credit_jobs: 'Roles de créditos del equipo'
+      date_ended: 'Fecha de finalización'
+      date_started: 'Fecha de comienzo'
+      display_type: 'Tipo de visualización'
+      locked: 'Un moderador ha desactivado y bloqueado la posibilidad de añadir nuevas categorías.'
+      media_type: 'Tipo de medio'
+      name: 'Nombre'
       title: Categorías
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Terminada en %{date}'
+      started_on: 'Empezada en %{date}'
     category_empty: No hay nominaciones en esta categoría.
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
-      locked: ''
-      number: 'Número '
+      add_ceremony: 'Añadir ceremonia'
+      ceremonies: 'Ceremonias'
+      ceremony: 'Ceremonia'
+      date: 'Fecha'
+      limits: 'Limites'
+      location: 'Localización'
+      locked: 'La función para añadir nuevas ceremonias ha sido desactivada y bloqueada por un moderador.'
+      number: 'Número'
       release_date_max: Fecha máxima de estreno
       release_date_min: Fecha mínima de estreno
       title: Ceremonias
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Página de inicio'
+      name: 'Nombre'
+      overview: 'Resumen'
     new_award:
-      award_details: ''
-      click_next: ''
-      getting_started: ''
-      header_1: ''
-      header_2: ''
-      note: ''
-      verify: ''
+      award_details: 'Detalles del premio'
+      click_next: 'Este asistente de tres pasos te guiará a lo largo del proceso de creación. Para empezar, haz clic en «Siguiente».'
+      getting_started: 'Primer paso'
+      header_1: 'Nuevo premio'
+      header_2: 'Añadir nuevo premio'
+      note: 'Añadir un nuevo premio en TMDB es muy sencillo. Si tienes alguna duda sobre cómo funciona nuestro sistema de edición, no dejes de leer nuestra <a href="%{bible_href}">guía de colaboración</a> o pásate por los <a href="%{talk_href}">foros</a>.'
+      verify: 'Comprobar y guardar'
     nominations:
-      add_nomination: ''
-      locked: ''
-      movie: ''
-      nomination: ''
+      add_nomination: 'Añadir nominación'
+      locked: 'Un moderador ha desactivado y bloqueado la posibilidad de añadir nuevas candidaturas.'
+      movie: 'Película'
+      nomination: 'Nominación'
       number:
         one: ''
         many: ''
         other: ''
       one: 1 nominación
       other: "%{count} nominaciones"
-      title: ''
-      shared_with: ''
+      title: 'Nominaciones'
+      shared_with: 'Compartido con...'
       many: "%{count} nominaciones"
     nominee: Nominado
     show_info:
@@ -876,15 +876,15 @@ es-ES:
       one: 1 victoria
       many: '%{count} victorias'
       other: '%{count} victorias'
-    most_awarded_films: ''
-    most_awarded_people: ''
-    most_nominated_films: ''
-    most_nominated_people: ''
-    media_page_description: ''
+    most_awarded_films: 'Las películas más galardonadas'
+    most_awarded_people: 'Las personas más galardonadas'
+    most_nominated_films: 'Las películas más nominadas'
+    most_nominated_people: 'Las personas más nominadas'
+    media_page_description: 'Consulta las nominaciones y los premios ganados por %{name} en TMDB. %{name} ha recibido %{nominations} y %{wins}.'
   back_options:
-    award: ''
+    award: 'Regresar al premio'
     back: Volver
-    ceremony: ''
+    ceremony: 'Regreso a la ceremonia'
     episode: Volver al episodio
     episode_groups: Volver al grupo de episodios
     episode_list: Volver a la lista de episodios
@@ -1004,11 +1004,11 @@ es-ES:
         '1':
           meaning: Para todos los públicos.
         '2':
-          meaning: Más de 7.
+          meaning: A partir de 7 años.
         '3':
-          meaning: Más de 12.
+          meaning: Para mayores de 12 años.
         '4':
-          meaning: Más de 16.
+          meaning: Para mayores de 16 años.
         '5':
           meaning: Sólo adultos.
         '6':
@@ -1017,7 +1017,7 @@ es-ES:
         '1':
           meaning: "(Tous publics) Válido Para todos los públicos"
         '2':
-          meaning: '(Déconseillé aux moins de 10 ans) Desaconsejable para menores de 10 (sólo se usa para televisión): equivalente en cines : "avertissement" (aviso), algunas escenas pueden ser inquietantes para los niños y personas sensibles; equivalente en video: "accord parental"  (guía parental).'
+          meaning: '(Déconseillé aux moins de 10 ans) Desaconsejable para menores de 10 años (sólo se usa para televisión): equivalente en cines : "avertissement" (aviso), algunas escenas pueden ser inquietantes para los niños y personas sensibles; equivalente en video: "accord parental" (guía parental).'
         '3':
           meaning: "(Interdit aux moins de 12 ans) Desaconsejable para menores de 12 o prohibido en cines a menores de 12."
         '4':
@@ -1344,9 +1344,9 @@ es-ES:
         '1':
           meaning: Esta calificación es para programación adecuada para todas las edades. Estos programas, normalmente están diseñados para niños o familias.
         '2':
-          meaning: Esta calificación es para programas que pueden contener algún material inapropiado para niños menores de 7 y se debería seguir el criterio de los padres. Algunos dibujos animados no clasificados estrictamente como "educativos" y películas calificadas en Estados Unidos como "G" o "PG" podrían entrar en la categoría "7".
+          meaning: Esta calificación es para programas que pueden contener algún material inapropiado para niños menores de 7 y se debería seguir el criterio de los padres. Algunos dibujos animados no clasificados estrictamente como "educativos" y películas calificadas en Estados Unidos como "G" o "PG" podrían entrar en esa categoría.
         '3':
-          meaning: Esta calificación es para programas que pueden considerarse inapropiados para menores de 12 años, y se debe usar el criterio de los padres. Normalmente se utiliza para animaciones que contienen temas o violencia más fuertes que las diseñadas para niños, o para telerrealidades que tienen violencia, temas o lenguaje moderados.
+          meaning: Esta clasificación se aplica a programas que pueden considerarse inadecuados para menores de 12 años, por lo que se recomienda que los padres actúen según su criterio. Suele utilizarse para programas de animación que tratan temas más controvertidos o contienen más violencia que los destinados a niños, o para programas de telerrealidad que incluyen violencia, temática o lenguaje de carácter moderado.
         '4':
           meaning: Esta calificación es para programas que pueden considerarse inapropiados para menores de 15 años, y se debe usar el criterio de los padres. Ejemplos de este tipo de programas son los de testimonios y dramas en directo de las televisiones (KBS, MBC, SBS...). Los programas con esta calificaciíon puene incluir temas adultos, lenguaje fuerte, referencias sexuales y violencia. Como la calificación "TV-MA" es estadounidense, se aplica habitualmente a eventos en directo en los que no se puede predecir si habrá alguna situación inapropiada. Desde 2007 esta calificación es la más utilizada en televisión.
         '5':
@@ -1485,7 +1485,7 @@ es-ES:
     backdrop_image_message: Aquí hay algunas imágenes de fondo que hemos extraído para el encabezado. Selecciona de 1 a 3 imágenes de fondo para actualizar el encabezado.
     backdrop_oops_message: "¡Ups! No puede seleccionar más de 3 imágenes de encabezado."
     backdrop_window_title: Elija una foto de fondo del personaje
-    below_is_example_text: A continuación se muestra un ejemplo de cómo se verá la página de Batman. Revise la información siguiente <br>y verifíquela antes de guardar la página e iniciarla en TMDb.
+    below_is_example_text: A continuación se muestra un ejemplo de cómo se verá la página de Batman. Revise la información siguiente <br>y verifíquela antes de guardar la página e iniciarla en TMDB.
     cancel_edits: Cancelar edición
     character_backdrop_photo: Imagen de fondo del personaje
     character_bio: Biografía del personaje
@@ -1498,14 +1498,14 @@ es-ES:
     character_wiki: Wiki del personaje
     characters: Personajes
     check_it_out: Échale un vistazo
-    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'>la guía de aportaciones</a> para obtener más información sobre cómo añadir en the Movie Db.</p>
+    check_out_bible: <p>Consulta <a target="_blank" href='%{bible}'>la guía de aportaciones</a> para obtener más información sobre cómo añadir en The Movie Database.</p>
     choose_a_character: Elegir un personaje
     choose_a_character_info: Añadir un personaje significa vincular la aparición de un actor o una actriz que desempeña un papel específico. Un ejemplo sería la trilogía del Caballero Oscuro (tres películas) en la que Christen Bale interpreta a Bruce Wayne/Batman. Esas tres apariciones en ese papel equivalen a un personaje.
     choose_backdrop: Elegir imagen de fondo
     choose_header_images: Elegir imágenes de encabezado
     choose_reason: Debes elegir una razón.
     community: COMUNIDAD
-    confirm_buffer_time: Confirma si se requiere margen de tiempo para continuar con la edición.
+    confirm_buffer_time: ¿Confirmar si se requiere margen de tiempo para continuar con la edición?
     confirmation: Confirmación
     continue: Continuar
     contribute: Contribuye con nuestra base de datos
@@ -1519,7 +1519,7 @@ es-ES:
     delete_backdrop: Eliminar fondo
     delete_character: Eliminar personaje
     delete_group: Eliminar grupo
-    delete_group_check: "¿Seguro que quieres eliminar este grupo?"
+    delete_group_check: "¿Estás seguro de eliminar este grupo?"
     do_you_want_continue: "¿Quieres continuar?"
     done_editing: "¿Has terminado de editar?"
     drag_title: Arrastra el título para el nuevo grupo
@@ -1560,7 +1560,7 @@ es-ES:
     image_media_association: Esta imagen está asociada con un registro multimedia. Si continúas, ¡las asociaciones multimedia vinculadas con estas personas también cambiarán!
     in_translate_mode: Estás en modo de traducción
     inline_edit_original_name: Nombre original
-    join_community_tmdb: Únase a nuestra comunidad para contribuir en The Movie DB.
+    join_community_tmdb: Únase a nuestra comunidad para contribuir en The Movie Database.
     launch_label: lanzamiento
     lock_existing_appearances: Bloquear las apariciones existentes
     log_tv_movies_watch: Registra la TV y las películas que ve
@@ -1579,7 +1579,7 @@ es-ES:
     navigate_to_dashboard: Ir a Mi Panel
     navigate_to_master: Ir a la Página Maestra
     need_help: "¿Necesitas ayuda?"
-    new_to_tmdb: Nuevo en TMDb
+    new_to_tmdb: Nuevo en TMDB
     next: Siguiente
     next_edit_groups: 'Siguiente: Editar Grupos'
     next_launch_page: 'Siguiente: Lanzar Página'
@@ -1680,7 +1680,7 @@ es-ES:
     view_by: Visto por
     want_to_delete_group: "¿Seguro que deseas eliminar este grupo?"
     want_to_go_back: "¿Seguro que quieres volver?"
-    welcome_message: 'Te damos la bienvenida a la comunidad The Movie Db donde puedes:'
+    welcome_message: 'Te damos la bienvenida a la comunidad de The Movie Database donde puedes:'
     what_next: "¿Qué te gustaría hacer después?"
   character name: Nombre del personaje
   collection_includes: Incluye %{movie_titles}
@@ -1690,14 +1690,14 @@ es-ES:
     general_inquiry: Consulta general
     general_support: Asistencia general
     get_in_touch: Ponerse en contacto
-    where_located: "¿En qué sitio estás? "
+    where_located: "¿En qué sitio estás?"
   contribute:
     contribute: Aportar
     missing_a_biography: Falta una biografía
     missing_a_profile_image: Falta una imagen de perfil
     movie_language_distribution: Idioma de distribución de la película
     movies_missing_a_backdrop: Películas sin imágenes de fondo
-    movies_missing_a_overview: Películas sin sinopsis
+    movies_missing_a_overview: Películas sin vista general
     movies_missing_a_poster: Películas sin cartel
     movies_missing_a_title: Películas sin título
     page_title: Aportar datos faltantes
@@ -1706,7 +1706,7 @@ es-ES:
     tv_missing_a_poster: Series sin cartel
     tv_show_language_distribution: Idioma de distribución del programa de televisión
     tv_shows_missing_a_name: Series sin título
-    tv_shows_missing_a_overview: Series sin sinopsis
+    tv_shows_missing_a_overview: Series sin vista general
   contribution_bible:
     abbreviations:
       collection: col
@@ -1937,19 +1937,19 @@ es-ES:
       years:
         years: Años
       ceremony_date:
-        ceremony_date: ''
-        search_all_ceremonies: ''
-        search_latest_ceremony: ''
-        latest_ceremony: ''
+        ceremony_date: 'Fecha de la ceremonia'
+        search_all_ceremonies: 'Buscar todas las ceremonias'
+        search_latest_ceremony: 'Buscar la última ceremonia'
+        latest_ceremony: 'Última ceremonia'
       last_ceremony:
-        latest_ceremony: ''
-        search_all_countries: ''
-        search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+        latest_ceremony: 'Última ceremonia'
+        search_all_countries: 'Buscar en todos los países'
+        search_latest_ceremony: 'Buscar por última ceremonia'
+      adult_content: 'Contenido para adultos'
+      exclude_adult: 'Excluir contenido para adultos'
+      include_adult: 'Incluir contenido para adultos'
+      adult_filters: 'Filtros para contenido adulto'
+      softcore_content: 'Contenido Softcore'
     no_items: No se encontró ningún elemento que coincidia con tu consulta
     search: Buscar
     sort_options:
@@ -1969,8 +1969,8 @@ es-ES:
       release_date_desc: Fecha de estreno descendente
       title_a_z: Título (A-Z)
       title_z_a: Título (Z-A)
-      latest_ceremony_asc: ''
-      latest_ceremony_desc: ''
+      latest_ceremony_asc: 'Última ceremonia: Ascendente'
+      latest_ceremony_desc: 'Última ceremonia: Descendiente'
     tooltips:
       not_member: "¿No eres miembro?"
       options: 'Ver Opciones '
@@ -2013,12 +2013,12 @@ es-ES:
     category:
       last_reply_with_datetime: "%{date} a las %{time}"
       last_reply_with_datetime_and_username: "%{date} a las %{time}<br>por %{username}"
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
+      last_reply_with_datetime_v2: 'última respuesta en %{date} a las %{time}'
+      last_reply_with_datetime_and_username_v2: 'última respuesta de %{username} en %{date} a las %{time}'
       posted_by_with_datetime: ''
       posted_by_with_datetime_and_username: ''
       replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      replied_by: '%{username} respondió'
     discussion_activity: Actividad del debate
     email_notifications:
       email_notifications: Avisos por correo electrónico
@@ -2149,16 +2149,22 @@ es-ES:
     choose_image: Elegir imagen
     delete_list: Borrar lista
     edit_list: Editar lista
-    contributor_notes: ''
-    contributors: ''
-    create_invite_link: ''
-    edit_invite_link: ''
-    invite_contributor: ''
-    list_collaboration: ''
-    no_contributors: ''
-    created: ''
+    contributor_notes: 'Puedes invitar a otras cuentas tanto a listas públicas como privadas.
+
+      Los colaboradores solo pueden añadir y eliminar elementos, así como actualizar comentarios.
+
+      Para invitar a un nuevo colaborador, envía el enlace de invitación por correo electrónico o mensajería instantánea.
+
+      Los colaboradores deben tener una cuenta en TMDB para aceptar la invitación.'
+    contributors: 'Colaboradores'
+    create_invite_link: 'Crear un link de invitación'
+    edit_invite_link: 'Editar un link de invitación'
+    invite_contributor: 'Invitar a un colaborador'
+    list_collaboration: 'Lista de colaboración'
+    no_contributors: 'No se ha añadido ningún colaborador; crea un link de invitación y compártelo para empezar.'
+    created: 'Lista creada'
     confirm_delete: ''
-    confirm_delete_grid: ''
+    confirm_delete_grid: '¿Estás seguro de que quieres eliminarlo %{media_name}?'
   edits: ediciones
   email:
     confirm_new_email_address: Confirmar nueva dirección de correo
@@ -2242,8 +2248,8 @@ es-ES:
       description: Se detectó que esta publicación infringe nuestras <a href="%{link}">políticas de la comunidad</a>. Es posible que el usuario responsable de ello también haya sido suspendido.
       title: Esta publicación ha sido eliminada
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'Hemos recibido demasiadas solicitudes de inicio de sesión desde tu dirección IP. Espera unos segundos y vuelve a intentarlo.'
+      title: 'Demasiados intentos de inicio de sesión'
   errors:
     attributes:
       descriptors:
@@ -2327,11 +2333,11 @@ es-ES:
         one: La longitud es incorrecta (debería ser %{count} carácter)
         many: La longitud es incorrecta (deberían ser %{count} caracteres)
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
-      blocked_words: ''
-      duplicate_review: ''
+      blocked_words: 'contiene palabras bloqueadas'
+      duplicate_review: 'La reseña ya existe'
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
-    nesting: ''
+    nesting: 'tiene elementos mal anidados'
     tv:
       create_season_locked: La creación de nuevas temporadas ha sido bloqueada en este programa de televisión .
       duplicate_created_by: Esta persona ya está añadida como creador.
@@ -2667,7 +2673,7 @@ es-ES:
     Cameo: Cameo
     Camera Car: Coche cámara
     Camera Department Manager: Gerente del departamento de cámara
-    Camera Department Production Assistant: Asistente de producción del del departamento de cámara
+    Camera Department Production Assistant: Asistente de producción del departamento de cámara
     Camera Intern: Aprendiz de cámara
     Camera Loader: Cargador de cámara
     Camera Operator: Operador de cámara
@@ -3668,9 +3674,9 @@ es-ES:
     total_runtime: Duración total
     use_grid_view: Usar vista de cuadrícula
     use_list_view: Usar la vista de lista
-    search: ''
-    no_search_results: ''
-    search_within: ''
+    search: 'Buscar'
+    no_search_results: 'No se han encontrado resultados que coincidan con tu búsqueda.'
+    search_within: 'Busca elementos en tu lista...'
   list_messages:
     comment_updated: "¡Comentario actualizado!"
     image_saved: "¡Imagen guardada!"
@@ -3696,21 +3702,21 @@ es-ES:
   media:
     adult: Adulto
     alternative_names:
-      add_name: ''
-      alternative_names: ''
-      name: ''
-      no_records: ''
+      add_name: 'Añadir nombre'
+      alternative_names: 'Nombres alternativos'
+      name: 'Nombre'
+      no_records: 'Ningún nombre alternativo ha sido añadido.'
     award:
       edit:
         adult:
-          adult_award: ''
-        title_logos: ''
+          adult_award: 'Premio de contenido adulto'
+        title_logos: 'Logotipos de título'
       header:
-        latest_ceremony: ''
-        upcoming_ceremony: ''
+        latest_ceremony: 'No te pierdas la última ceremonia'
+        upcoming_ceremony: 'No te pierdas la próxima ceremonia'
     cast_credits:
-      cast_credits: ''
-      select: ''
+      cast_credits: 'Créditos del reparto'
+      select: 'Selecciona créditos del reparto...'
     changes:
       filters:
         clear: Limpiar
@@ -3733,8 +3739,8 @@ es-ES:
           no_records: No se han añadido películas.
       parts: Partes
     companies:
-      companies: ''
-      select: ''
+      companies: 'Compañías'
+      select: 'Selecciona compañías...'
     company:
       headquarters: Sede
       movie_page_title: Películas producidas por %{name}
@@ -3775,10 +3781,10 @@ es-ES:
         '5': Todavía se necesita un poco de trabajo.
         '6': Estamos muy cerca.
         '7': Solo un poco más...
-        '8': "¡Vamos! Estamos muy muy cerca."
+        '8': "¡Vamos! Estamos muy cerca."
         '9': Ya casi...
     crew_credits:
-      crew_credits: ''
+      crew_credits: 'Créditos del equipo'
       select: ''
     edit:
       alternative_title:
@@ -4307,12 +4313,12 @@ es-ES:
     popular: Popular
     more: Más
   no_biography: No tenemos una biografía de %{name}.
-  no_cast: No se ha añadido a nadie del reparto a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
+  no_cast: No se ha añadido a nadie del reparto a %{media_type}. ¡Nos puedes ayudar añadiendo a alguien!
   no_collection_search_results: Ninguna colección coincide con tu búsqueda.
   no_company_search_results: Ninguna compañía coincide con tu búsqueda.
   no_contributors: No se han encontrado aportaciones.
   no_created_lists: No has creado ninguna lista.
-  no_crew: No se ha añadido a nadie del equipo a %{media_type}. ¿Nos puedes ayudar añadiendo a alguien?
+  no_crew: No se ha añadido a nadie del equipo a %{media_type}. ¡Nos puedes ayudar añadiendo a alguien!
   no_description: Sin descripción.
   no_director: No se ha añadido al director.
   no_episode_images: No se han añadido imágenes del episodio.
