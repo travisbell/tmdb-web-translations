@@ -2154,11 +2154,11 @@ es-ES:
     create_invite_link: 'Crear un link de invitación'
     edit_invite_link: 'Editar un link de invitación'
     invite_contributor: 'Invitar a un contribuidor'
-    list_collaboration: ''
-    no_contributors: ''
-    created: ''
+    list_collaboration: 'Lista de colaboración'
+    no_contributors: 'No se ha añadido ningún colaborador; crea un link de invitación y compártelo para empezar.'
+    created: 'Lista creada'
     confirm_delete: ''
-    confirm_delete_grid: ''
+    confirm_delete_grid: '¿Estás seguro de que quieres eliminarlo %{media_name}?'
   edits: ediciones
   email:
     confirm_new_email_address: Confirmar nueva dirección de correo
@@ -2242,8 +2242,8 @@ es-ES:
       description: Se detectó que esta publicación infringe nuestras <a href="%{link}">políticas de la comunidad</a>. Es posible que el usuario responsable de ello también haya sido suspendido.
       title: Esta publicación ha sido eliminada
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'Hemos recibido demasiadas solicitudes de inicio de sesión desde tu dirección IP. Espera unos segundos y vuelve a intentarlo.'
+      title: 'Demasiados intentos de inicio de sesión'
   errors:
     attributes:
       descriptors:
@@ -2327,7 +2327,7 @@ es-ES:
         one: La longitud es incorrecta (debería ser %{count} carácter)
         many: La longitud es incorrecta (deberían ser %{count} caracteres)
         other: La longitud es incorrecta (deberían ser %{count} caracteres)
-      blocked_words: ''
+      blocked_words: 'Contiene palabras bloqueadas'
       duplicate_review: ''
     movie:
       duplicate_cast: Esta persona ya está añadida como miembro del reparto.
