@@ -2015,7 +2015,7 @@ es-ES:
       last_reply_with_datetime_and_username: "%{date} a las %{time}<br>por %{username}"
       last_reply_with_datetime_v2: 'última respuesta en %{date} a las %{time}'
       last_reply_with_datetime_and_username_v2: 'última respuesta de %{username} en %{date} a las %{time}'
-      posted_by_with_datetime: ''
+      posted_by_with_datetime: 'publicado <time class="timeago" datetime="%{time}">%{time}</time>'
       posted_by_with_datetime_and_username: ''
       replied_by_with_datetime_and_username: ''
       replied_by: '%{username} respondió'
