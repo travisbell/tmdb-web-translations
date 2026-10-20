@@ -639,13 +639,13 @@ sv-SE:
         public: "%{username}s listor"
       search: 'Sök efter en lista…'
       add_to_lists: 'Lägg till<span class="bold">%{media_name}</span> i listor'
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      contributor: 'Bidragsgivare'
+      create_new_list: 'Skapa en ny lista'
+      created: 'Lista skapad'
+      my_new_list: 'Min nya lista…'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Du har inte skrivit några recensioner.'
+        public: '%{username} har inte skrivit några recensioner.'
     member_since: Medlem sedan %{date}
     navigation:
       discussions: Diskussioner
@@ -701,7 +701,7 @@ sv-SE:
       asc: Stigande
       desc: Fallande
     statuses:
-      banned: ''
+      banned: 'Avstängd'
       deleted: Raderad
       ok: Ok
     tips:
@@ -727,22 +727,22 @@ sv-SE:
     reviews:
       page_title:
         page_owner: 'Mina recensioner'
-        public: '%{username}''s recensioner'
+        public: '%{username}s recensioner'
   add_to_list: Lägg till %{media_title} till en av dina listor ...
   already_translated_in: "%{page_title} är redan översatt till följande språk ..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'API för företag'
     form:
       company_name:
         label: 'Företagsnamn'
       company_url:
         label: 'Företagets URL'
       description:
-        label: ''
+        label: 'Beskriv vad du vill göra med vårat API'
       email:
-        error: 'Formatet är inte korrekt'
+        error: 'är inte korrekt formaterat'
         label: 'Din epost adress'
-      error: ''
+      error: 'kan inte vara tom'
       name:
         label: 'Namn'
       success: 'Tack för att du registrerat ditt företags säljförfrågan!'
@@ -787,9 +787,9 @@ sv-SE:
     tv_series_status: Tv-seriestatus
   average edits per day: genomsnittliga ändringar per dag
   awards:
-    add_nomination: ''
+    add_nomination: 'Lägg till nominering'
     admin:
-      delete: ''
+      delete: 'Ta bort utmärkelse'
     air_date:
       future: ''
       past: ''
