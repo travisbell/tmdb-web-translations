@@ -31,7 +31,7 @@ sv-SE:
   Add Item: Lägg till objekt
   Add Missing Cast & Crew: Lägg till saknade skådespelare & medarbetare
   Add Network: Lägg till tv-bolag
-  Add New Award: 'Lägg till pris'
+  Add New Award: 'Lägg till ny pris'
   Add New Episode: Lägg till avsnitt
   Add New Movie: Lägg till en film
   Add New Release: Lägg till utgåva
@@ -130,7 +130,7 @@ sv-SE:
   DMCA Policy: 'DMCA Policy'
   DMCA Takedown Request: DMCA begärd borttagning
   Date: Datum
-  Date Added: 'Datum Tillagd'
+  Date Added: 'Datum tillagd'
   Day of Death: Dödsdag
   Default Language: Standardspråk
   Delete: Ta bort
@@ -440,7 +440,7 @@ sv-SE:
   TV: TV
   TV Network: Tv-bolag
   TV Recommendations: TV rekommendationer
-  TV Show: 'TV Avsnitt'
+  TV Show: 'TV Serie'
   TV Show Data: TV-serier data
   TV Show Results: TV-serieresultat
   TV Show Status: TV-serie Status
@@ -515,7 +515,7 @@ sv-SE:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Att radera denna recension är permanent, det kan inte ångras.'
   account_drop_down:
     discussions: Diskussioner
     edit_profile: Redigera profil
@@ -530,7 +530,7 @@ sv-SE:
     sign_up: Bli medlem
     view_profile: Visa profil
     watchlist: Bevakningslista
-    reviews: ''
+    reviews: 'Recensioner'
   accounts:
     activity:
       activity: Aktivitet
@@ -558,7 +558,7 @@ sv-SE:
     discussions:
       my_active_boards: Mina aktiva forum
       my_discussions: Mina diskussioner
-      not_watching: 'Du bevakar inga diskussioner.  '
+      not_watching: 'Du bevakar inga diskussioner.'
       page_title:
         page_owner: Mina diskussioner
         public: "%{username}s diskussioner"
@@ -633,19 +633,19 @@ sv-SE:
       no_lists:
         logged_in: Du har inte skapat några listor.
         public: "%{username} har inte några offentliga listor att dela"
-        search: ''
+        search: 'Inga listor funna.'
       page_title:
         page_owner: Mina listor
         public: "%{username}s listor"
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: 'Sök efter en lista…'
+      add_to_lists: 'Lägg till <span class="bold">%{media_name}</span> i listor'
+      contributor: 'Bidragsgivare'
+      create_new_list: 'Skapa en ny lista'
+      created: 'Lista skapad'
+      my_new_list: 'Min nya lista…'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Du har inte skrivit några recensioner.'
+        public: '%{username} har inte skrivit några recensioner.'
     member_since: Medlem sedan %{date}
     navigation:
       discussions: Diskussioner
@@ -701,7 +701,7 @@ sv-SE:
       asc: Stigande
       desc: Fallande
     statuses:
-      banned: ''
+      banned: 'Avstängd'
       deleted: Raderad
       ok: Ok
     tips:
@@ -727,22 +727,22 @@ sv-SE:
     reviews:
       page_title:
         page_owner: 'Mina recensioner'
-        public: '%{username}''s recensioner'
+        public: '%{username}s recensioner'
   add_to_list: Lägg till %{media_title} till en av dina listor ...
   already_translated_in: "%{page_title} är redan översatt till följande språk ..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'API för företag'
     form:
       company_name:
         label: 'Företagsnamn'
       company_url:
         label: 'Företagets URL'
       description:
-        label: ''
+        label: 'Beskriv vad du vill göra med vårat API'
       email:
-        error: 'Formatet är inte korrekt'
+        error: 'är inte korrekt formaterat'
         label: 'Din epost adress'
-      error: ''
+      error: 'kan inte vara tom'
       name:
         label: 'Namn'
       success: 'Tack för att du registrerat ditt företags säljförfrågan!'
@@ -787,91 +787,91 @@ sv-SE:
     tv_series_status: Tv-seriestatus
   average edits per day: genomsnittliga ändringar per dag
   awards:
-    add_nomination: ''
+    add_nomination: 'Lägg till nominering'
     admin:
-      delete: ''
+      delete: 'Ta bort pris'
     air_date:
-      future: ''
-      past: ''
-    alternative_names: ''
-    award: ''
+      future: 'Sänds %{date}'
+      past: 'Sändes %{date}'
+    alternative_names: 'Alternativa namn'
+    award: 'Pris'
     broadcast_episode: ''
     broadcast_episode_tooltip: ''
     broadcast_series: ''
     broadcast_series_tooltip: ''
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
+      add_category: 'Lägg till kategori'
+      categories: 'Kategorier'
+      category: 'Kategori'
       crew_credit_departments: ''
       crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
+      date_ended: 'Sista sändningsdatum'
+      date_started: 'Första sändningsdatum'
       display_type: ''
-      locked: ''
-      media_type: ''
-      name: ''
+      locked: 'Tilägg av nya kategorier har inaktiverats och låsts av en moderator.'
+      media_type: 'Mediatyp'
+      name: 'Namn'
       title: Kategorier
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Avslutades %{date}'
+      started_on: 'Startade %{date}'
     category_empty: Inga nomineringar i denna kategori.
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
-      locked: ''
+      add_ceremony: 'Lägg till ceremoni'
+      ceremonies: 'Ceremonier'
+      ceremony: 'Ceremoni'
+      date: 'Datum'
+      limits: 'Begränsningar'
+      location: 'Plats'
+      locked: 'Tillägg av nya ceremonier har inaktiverats och låsts av en moderator.'
       number: Nummer
       release_date_max: ''
       release_date_min: ''
-      title: ''
+      title: 'Ceremonier'
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Hemsida'
+      name: 'Namn'
+      overview: 'Översikt'
     new_award:
       award_details: ''
-      click_next: ''
-      getting_started: ''
-      header_1: ''
-      header_2: ''
-      note: ''
-      verify: ''
+      click_next: 'Den här 3-stegs guiden kommer att hjälpa dig genom skapandeprocessen. Tryck på nästa för att starta.'
+      getting_started: 'Kom igång'
+      header_1: 'Ny pris'
+      header_2: 'Lägg till ny pris'
+      note: 'Att lägga till en ny pris på TMDB är enkelt och lätt. Om du har några frågor kring hur vårt redigeringssystem fungerar, se till att läsa igenom vår <a href="%{bible_href}">bidragsbibel</a> eller besök <a href="%{talk_href}">forumen</a>.'
+      verify: 'Verifiera och spara'
     nominations:
-      shared_with: ''
-      add_nomination: ''
-      locked: ''
-      movie: ''
-      nomination: ''
-      one: ''
-      other: ''
-      title: ''
-    nominee: ''
+      shared_with: 'Delad med…'
+      add_nomination: 'Lägg till nominering'
+      locked: 'Tillägg av nya nominering har inaktiverats och låsts av en moderator.'
+      movie: 'Film'
+      nomination: 'Nominering'
+      one: '1 nominering'
+      other: '%{count} nomineringar'
+      title: 'Nomineringar'
+    nominee: 'Nominerad'
     show_info:
       directed_by: Regisserad Av
-      hosted_by: ''
-      location: ''
-      network: ''
+      hosted_by: 'Programlett av'
+      location: 'Plats'
+      network: 'Nätverk'
       preshow_hosts: ''
-      produced_by: ''
-      runtime: ''
+      produced_by: 'Producerat av'
+      runtime: 'Speltid'
       title: ''
-    title: ''
+    title: 'Priser'
     winner: Vinnare
     wins:
-      one: ''
-      other: ''
+      one: 1 vinst
+      other: '%{count} vinster'
     most_awarded_films: ''
     most_awarded_people: ''
-    most_nominated_films: ''
-    most_nominated_people: ''
-    media_page_description: ''
+    most_nominated_films: 'Filmer med flest nomineringar'
+    most_nominated_people: 'Personer med flest nomineringar'
+    media_page_description: 'Bläddra bland nomineringar och vinster för %{name} på TMDB. %{name} har fått %{nominations} och %{wins}.'
   back_options:
-    award: ''
+    award: 'Tillbaka till pris'
     back: Tillbaka
-    ceremony: ''
+    ceremony: 'Tillbaka till ceremoni'
     episode: Tillbaka till avsnitt
     episode_groups: Tillbaka till avsnittsgrupper
     episode_list: Tillbaka till avsnittslistan
@@ -991,11 +991,11 @@ sv-SE:
         '1':
           meaning: För alla åldrar.
         '2':
-          meaning: Över 7 år.
+          meaning: Från 7 år och uppåt.
         '3':
-          meaning: Över 12 år.
+          meaning: Från 12 år och uppåt.
         '4':
-          meaning: Över 16 år.
+          meaning: Från 16 år och uppåt.
         '5':
           meaning: Endast vuxna.
         '6':
@@ -1080,27 +1080,27 @@ sv-SE:
         '4':
           meaning: '(Sex: "Sexuellt innehåll") - Filmen kan innehålla sexscener, nakenhet eller sexuell dialog/referenser som personer kan finna stötande (förutom sexscener (trots att scener med sex och nakenhet är strikt censurerade av LPF.) '
         '5':
-          meaning: ''
+          meaning: '(Politik, Agama: "Starka religiösa eller politiska inslag") - Filmen kan innehålla inslag som inkluderar religiösa, sociala eller politiska aspekter som folk kan finna stötande. Används sällan.'
         '6':
-          meaning: ''
+          meaning: '(Pelbagai: "Olika") - Filmen kan innehålla starkt våld, blod, skräck/terror, sexscener, nakenhet, sexuella dialoger/referenser, religiösa, sociala eller politiska aspekter som folk kan finna stötande. Majoriteten av filmerna över 18 år använder denna åldersgräns. Till exempel kommer en film med sexscener och starkt våld att klassificeras som 18PL, trots att sex- och nakenhetsscener är strikt censurerade av LPF.'
       NL:
         '1':
           meaning: Alla åldrar.
         '2':
           meaning: Potentiellt skadligt för barn under 6 år.
         '3':
-          meaning: ''
+          meaning: 'Potentiellt skadligt för barn under 9 år.'
         '4':
-          meaning: ''
+          meaning: 'Potentiellt skadligt för barn under 12 år; sändning är inte tillåten före 20:00.'
         '5':
-          meaning: ''
+          meaning: 'Potentiellt skadligt för barn under 16 år; sändning är inte tillåten före 22:00.'
       'NO':
         '0':
           meaning: Ingen klassificerings information.
         '1':
           meaning: Lämplig för alla.
         '2':
-          meaning: ''
+          meaning: '6 år (ingen begränsning för barn i sällskap av vuxen).'
         '3':
           meaning: 9 år (barn ner till 6 år om ledsagad av vuxen).
         '4':
@@ -1111,13 +1111,13 @@ sv-SE:
           meaning: 18 år (absolut nedre gräns).
       NZ:
         '1':
-          meaning: ''
+          meaning: 'Lämplig för alla åldrar.'
         '2':
-          meaning: ''
+          meaning: 'Sällskap av vuxen rekommenderas för yngre tittare.'
         '3':
-          meaning: ''
+          meaning: 'Lämplig för (men inte begränsad till) en mogen publik från 16 år och uppåt.'
         '4':
-          meaning: ''
+          meaning: 'Begränsat till personer som är 13 år eller äldre.'
         '5':
           meaning: Begränsad för personer som är 15 år och uppåt.
         '6':
@@ -1125,12 +1125,12 @@ sv-SE:
         '7':
           meaning: Begränsad för personer som är 18 år och uppåt.
         '8':
-          meaning: ''
+          meaning: 'Begränsad till en viss grupp av personer, eller för särskilda ändamål, eller både och.'
       PH:
         '1':
-          meaning: ''
+          meaning: 'Ingen åldersgräns. Lämplig för tittare i alla åldrar.'
         '2':
-          meaning: ''
+          meaning: 'Föräldrakontroll. Tittare under 13 år måste åtföljas av en förälder eller annan vuxen.'
         '3':
           meaning: ''
         '4':
@@ -2039,7 +2039,7 @@ sv-SE:
         delete_discussion: Genom att klicka på 'Ja', kommer denna diskussion att raderas permanent.
         hide_comment: Genom att klicka på 'Ja', kommer denna kommentar att döljas.
         hide_discussion: Genom att klicka på 'Ja', kommer denna diskussion att döljas.
-        ignore_user: 'Är du säker på att du vill blockera denna användaren? Alla deras diskussioner och kommentarer kommer att försvinna. Du kan ta bort denna blockeringen genom att gå till "Blockerade Användare" sidan i dina konto inställningar.  '
+        ignore_user: 'Är du säker på att du vill blockera denna användaren? Alla deras diskussioner och kommentarer kommer att försvinna. Du kan ta bort denna blockeringen genom att gå till "Blockerade Användare" sidan i dina konto inställningar.'
         mark_as_not_spam: ''
         mark_as_spam: Är du säker på att du vill markera denna diskussion som spam? Den kommer då automatiskt tas bort och detta kan ej ångras. Att markera diskussioner som spam hjälper till att lära spam detekteringstjänsten som vi använder.
         report_violation: Bekräfta att du vill rapportera denna användare för att ha brutit mot våra <a href="/documentation/community/guidelines" target="_blank" rel="noopener">gemenskapsriktlinjer</a>.

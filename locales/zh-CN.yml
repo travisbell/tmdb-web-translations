@@ -232,7 +232,7 @@ zh-CN:
   Job: 工作
   Join the Community: 加入社区
   Joined in: 加入
-  Key: ''
+  Key: '值'
   Keyword: 关键词
   Keyword Results: 关键词结果
   Keywords: 关键词
@@ -294,7 +294,7 @@ zh-CN:
   Notes: 备注
   Notifications: 通知
   Now Playing Movies: 正在上映电影
-  Number: ''
+  Number: '号码'
   Number of Movies: 电影数
   Number of TV Shows: 节目数
   Number of edits in the past: 过去编辑次数
@@ -302,7 +302,7 @@ zh-CN:
   Offical Site: 官方网站
   Offline Databases: 离线数据库
   Ok: OK
-  Optional: ''
+  Optional: '可选'
   Origin Country: 原始国家或地区
   Original Air Date: 首播日期
   Original Language: 默认语言
@@ -312,7 +312,7 @@ zh-CN:
   Original TV Show Language: 节目原生语言
   Original Title: 原名
   Other Databases: 其它数据库
-  Others: ''
+  Others: '其他'
   Overview: 简介
   Page: 页
   People: 人员
@@ -373,7 +373,7 @@ zh-CN:
   Report an Issue: 问题反馈
   Reported Issues: 已反馈问题
   Request an API Key: 请求 API 密钥
-  Required: ''
+  Required: '必要'
   Resend Activation Email: 重发激活邮件
   Reset: 重置
   Reset Password: 重置密码
@@ -388,7 +388,7 @@ zh-CN:
   Search for a language: 搜索语言...
   Search for a movie: 搜索电影
   Search for a movie or TV show: 搜索电影或节目
-  Search for a movie, TV show, person: 搜索电影、电视节目、人物...
+  Search for a movie, TV show, person: 搜索电影、剧集、人物...
   Season: 季
   Season Number: 季数
   Season Overview: 季简介
@@ -438,7 +438,7 @@ zh-CN:
   TV: 电视
   TV Network: 电视播出平台
   TV Recommendations: 电视节目推荐
-  TV Show: ''
+  TV Show: '剧集'
   TV Show Data: 节目资料
   TV Show Results: 节目结果
   TV Show Status: 电视节目状态
@@ -513,7 +513,7 @@ zh-CN:
   account:
     reviews:
       delete:
-        message: ''
+        message: '删除此评论是永久性操作，无法撤销。'
   account_drop_down:
     discussions: 讨论
     edit_profile: 编辑个人资料
@@ -528,7 +528,7 @@ zh-CN:
     sign_up: 注册
     view_profile: 查看个人资料
     watchlist: 待看片单
-    reviews: ''
+    reviews: '评价'
   accounts:
     activity:
       activity: 活动
@@ -632,15 +632,15 @@ zh-CN:
       page_title:
         page_owner: 我的片单
         public: "%{username} 的片单"
-      search: ''
+      search: '搜索片单...'
       add_to_lists: '添加<span class="bold">%{media_name}</span>到片单'
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      contributor: '贡献者'
+      create_new_list: '创建一个新片单'
+      created: '已创建片单'
+      my_new_list: '我的新片单...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: '你还没有写过任何评论。'
+        public: '%{username}还没有写过任何评论。'
     member_since: "%{date}成为本网站会员"
     navigation:
       discussions: 讨论
@@ -719,8 +719,8 @@ zh-CN:
       view_them: 浏览待看片单。
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: '我的评价'
+        public: '%{username}的评价'
   add_to_list: 添加 %{media_title} 到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_for_business:
@@ -787,10 +787,10 @@ zh-CN:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
     alternative_names: 其他名称
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
+    award: '奖项'
+    broadcast_episode: '播出集数'
+    broadcast_episode_tooltip: '点击剧集链接即可查看制作信息。'
+    broadcast_series: '系列剧'
     broadcast_series_tooltip: ''
     categories:
       add_category: ''
