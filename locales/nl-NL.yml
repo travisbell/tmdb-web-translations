@@ -2135,10 +2135,14 @@ nl-NL:
     edit_invite_link: ''
     invite_contributor: ''
     list_collaboration: ''
-    no_contributors: ''
-    created: ''
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    no_contributors: 'Er zijn nog geen bijdragers toegevoegd. Maak een uitnodigingslink aan en deel deze om te beginnen.'
+    created: 'Lijst gemaakt'
+    confirm_delete: '<p>Dit item heeft een opmerking:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Weet je zeker dat je het wilt verwijderen?</p>'
+    confirm_delete_grid: 'Weet je zeker dat je dit wilt verwijderen? %{media_name} ?'
   edits: bewerkingen
   email:
     confirm_new_email_address: Nieuw e-mailadres bevestigen
@@ -2146,8 +2150,8 @@ nl-NL:
     new_email_address: Nieuw e-mailadres
     sent_verification_email: We hebben een email gestuurd naar %{email_address} ter verificatie. Controleer je Postvak IN (en ongewenste mail-map) voor verdere instructies.
     unsubscribe:
-      sad_to_go: ''
-      subscription_changed: ''
+      sad_to_go: '%{username} , we vinden het jammer dat je weggaat!'
+      subscription_changed: 'Je abonnementsinstellingen zijn bijgewerkt. Je kunt je meldingsinstellingen aanpassen door naar je account te gaan. <a href="%{account_link}">meldingsinstellingen</a> pagina.'
       unsubscribe: Afmelden
       unsubscribed: ''
   emoji:
