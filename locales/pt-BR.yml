@@ -1853,7 +1853,7 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não pode ser adicionado ao TMDB, por exemplo, por ser uma produção amadora. Você pode ler sobre o que pode ser adicionado em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: Não atende às nossas diretrizes de conteúdo (amadores, etc ...)
@@ -1869,7 +1869,7 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Não encontramos nada que comprove a existência deste título, por isso ele foi considerado uma entrada falsa. Adicione apenas títulos que possam ser verificados. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: É uma entrada falsa
@@ -1877,10 +1877,28 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Esta entrada foi considerada spam. Não são permitidas entradas que anunciem ou promovam produtos, serviços ou sites. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: Isso é spam
+      '7':
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título é um filme, não um programa de TV, por isso deve ser adicionado como filme. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É um filme
+      '8':
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Esta entrada continha conteúdo ofensivo ou impróprio, o que não é permitido. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É ofensivo ou impróprio
+      '6':
+        subject: Foi criada por engano ou quem a criou pediu a exclusão
     why_deleting: Por que você está excluindo esta entrada?
   department_credits_count:
     one: '%{department} (%{count} crédito)'
