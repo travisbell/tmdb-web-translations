@@ -1822,7 +1822,7 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento titul nie je možné pridať na TMDB, napríklad preto, že ide o amatérsku produkciu. O tom, čo je možné pridať, sa dočítate v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Nespĺňa naše pravidlá pre obsah (amatérske, atď...)
@@ -1838,7 +1838,7 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Nenašli sme nič, čo by potvrdzovalo existenciu tohto titulu, preto bol vyhodnotený ako falošný príspevok. Pridávajte, prosím, iba tituly, ktoré je možné overiť. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Je to falošný príspevok
@@ -1846,10 +1846,28 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento príspevok bol vyhodnotený ako spam. Príspevky, ktoré propagujú alebo inzerujú produkty, služby či webové stránky, nie sú povolené. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Je to spam
+      '7':
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento titul je film, nie seriál, preto by mal byť pridaný ako film. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to film
+      '8':
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento príspevok obsahoval urážlivý alebo nevhodný obsah, čo nie je povolené. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to urážlivé alebo nevhodné
+      '6':
+        subject: Bol vytvorený omylom alebo autor požiadal o jeho vymazanie
     why_deleting: Prečo vymazávate tento príspevok?
   department_credits_count:
     one: '%{department} (%{count} titulky)'
