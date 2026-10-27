@@ -1817,7 +1817,7 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel kan inte läggas till på TMDB, till exempel för att det är en amatörproduktion. Du kan läsa om vad som får läggas till i våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det uppfyller inte våra innehållsriktlinjer (amatör, etc...)
@@ -1833,7 +1833,7 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Vi kunde inte hitta något som visar att denna titel existerar, så den ansågs vara en falsk post. Lägg bara till titlar som går att verifiera. Du kan läsa mer i våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det är inte en riktig titel
@@ -1841,10 +1841,28 @@ sv-SE:
         message: |-
           Hej.
 
-          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel uppfyller inte våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna post ansågs vara spam. Poster som gör reklam för eller marknadsför produkter, tjänster eller webbplatser är inte tillåtna. Du kan läsa mer i våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
 
           Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
         subject: Det är spam
+      '7':
+        message: |-
+          Hej.
+
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna titel är en film, inte en tv-serie, så den ska läggas till som en film. Du kan läsa mer i våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+
+          Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
+        subject: Det är en film
+      '8':
+        message: |-
+          Hej.
+
+          Detta är bara en vänlig notering från innehållsmoderatorerna på TMDB. Posten du skapade med titeln "%{title}" har blivit borttagen. Denna post innehöll stötande eller olämpligt innehåll, vilket inte är tillåtet. Du kan läsa mer i våra [riktlinjer för nytt innehåll](https://www.themoviedb.org/bible/new_content).
+
+          Om du har några frågor angående denna borttagning, så är det bara att svara på detta meddelande.
+        subject: Det är stötande eller olämpligt
+      '6':
+        subject: Den skapades av misstag, eller skaparen bad om att den skulle tas bort
     why_deleting: Varför tar du bort denna post?
   department_credits_count:
     one: "%{department} (%{count} insats)"
