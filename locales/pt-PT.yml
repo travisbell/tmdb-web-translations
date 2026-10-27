@@ -1826,7 +1826,7 @@ pt-PT:
         message: |-
           Olá,
 
-          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado por não cumprir as nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado. Este título não pode ser adicionado ao TMDB, por exemplo, por se tratar de uma produção amadora. Podes ver o que pode ser adicionado nas nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se tiveres dúvidas sobre esta eliminação, podes responder a esta mensagem.
         subject: Não cumpre as nossas diretrizes de conteúdo (amador, etc.)
@@ -1842,7 +1842,7 @@ pt-PT:
         message: |-
           Olá,
 
-          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado por não cumprir as nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado. Não encontrámos nada que comprove a existência deste título, pelo que foi considerado um registo falso. Adiciona apenas títulos que possam ser verificados. Podes saber mais nas nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se tiveres dúvidas sobre esta eliminação, podes responder a esta mensagem.
         subject: É um registo falso
@@ -1850,10 +1850,28 @@ pt-PT:
         message: |-
           Olá,
 
-          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado por não cumprir as nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado. Este registo foi considerado spam. Não são permitidos registos que publicitem ou promovam produtos, serviços ou sites. Podes saber mais nas nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se tiveres dúvidas sobre esta eliminação, podes responder a esta mensagem.
         subject: Isto é spam
+      '7':
+        message: |-
+          Olá,
+
+          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado. Este título é um filme, não uma série, por isso deve ser adicionado como filme. Podes saber mais nas nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se tiveres dúvidas sobre esta eliminação, podes responder a esta mensagem.
+        subject: É um filme
+      '8':
+        message: |-
+          Olá,
+
+          Esta é uma mensagem dos moderadores de conteúdo do TMDB. O registo que criaste com o título «%{title}» foi eliminado. Este registo continha conteúdo ofensivo ou inapropriado, o que não é permitido. Podes saber mais nas nossas [diretrizes para novo conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se tiveres dúvidas sobre esta eliminação, podes responder a esta mensagem.
+        subject: É ofensivo ou inapropriado
+      '6':
+        subject: Foi criado por engano ou o criador pediu a sua eliminação
     why_deleting: Por que motivo estás a eliminar este registo?
   department_credits_count:
     one: '%{department} (%{count} crédito)'
