@@ -1820,7 +1820,7 @@ de-DE:
         message: |-
           Hallo,
 
-          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser entspricht nicht unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
+          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser Titel kann nicht zu TMDb hinzugefügt werden, zum Beispiel weil es sich um eine Amateurproduktion handelt. Was hinzugefügt werden kann, erfährst du in unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
 
           Wenn du Fragen zu dieser Löschung hast, kannst du gerne auf diese Nachricht antworten.
         subject: Dies entspricht nicht unseren Inhaltsrichtlinien (Amateur, etc....).
@@ -1836,7 +1836,7 @@ de-DE:
         message: |-
           Hallo,
 
-          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser entspricht nicht unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
+          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Wir konnten nichts finden, was belegt, dass dieser Titel existiert, daher wurde er als Fake-Eintrag eingestuft. Bitte füge nur Titel hinzu, die sich belegen lassen. Mehr dazu erfährst du in unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
 
           Wenn du Fragen zu dieser Löschung hast, kannst du gerne auf diese Nachricht antworten.
         subject: Es ist ein Fake-Eintrag.
@@ -1844,10 +1844,28 @@ de-DE:
         message: |-
           Hallo,
 
-          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser entspricht nicht unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
+          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser Eintrag wurde als Spam eingestuft. Einträge, die für Produkte, Dienstleistungen oder Websites werben, sind nicht erlaubt. Mehr dazu erfährst du in unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
 
           Wenn du Fragen zu dieser Löschung hast, kannst du gerne auf diese Nachricht antworten.
         subject: Das ist Spam.
+      '7':
+        message: |-
+          Hallo,
+
+          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser Titel ist ein Film und keine Fernsehsendung, daher sollte er als Film hinzugefügt werden. Mehr dazu erfährst du in unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
+
+          Wenn du Fragen zu dieser Löschung hast, kannst du gerne auf diese Nachricht antworten.
+        subject: Es ist ein Film.
+      '8':
+        message: |-
+          Hallo,
+
+          dies ist ein freundlicher Hinweis von den TMDb-Content-Moderatoren. Der von dir erstellte Eintrag mit dem Titel „%{title}“ wurde gelöscht. Dieser Eintrag enthielt anstößige oder unangemessene Inhalte, die nicht erlaubt sind. Mehr dazu erfährst du in unseren [neuen Inhaltsrichtlinien](https://www.themoviedb.org/bible/new_content).
+
+          Wenn du Fragen zu dieser Löschung hast, kannst du gerne auf diese Nachricht antworten.
+        subject: Es ist anstößig oder unangemessen.
+      '6':
+        subject: Er wurde versehentlich erstellt oder der Ersteller hat um Löschung gebeten.
     why_deleting: Warum löschst du diesen Eintrag?
   department_credits_count:
     one: "%{department} (%{count} Einträge)"
