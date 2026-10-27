@@ -1831,7 +1831,7 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šo nosaukumu nevar pievienot TMDB, piemēram, tāpēc, ka tas ir amatieru darbs. Ko drīkst pievienot, vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas neatbilst mūsu satura vadlīnijām (amatieru utt.)
@@ -1847,7 +1847,7 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Mēs neatradām neko, kas apliecinātu, ka šis nosaukums pastāv, tāpēc tas tika uzskatīts par viltus ierakstu. Lūdzu, pievieno tikai tādus nosaukumus, kurus var pārbaudīt. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas ir viltus ieraksts
@@ -1855,10 +1855,28 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis ieraksts tika uzskatīts par surogātpastu. Ieraksti, kas reklamē vai popularizē produktus, pakalpojumus vai tīmekļa vietnes, nav atļauti. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas ir surogātpasts
+      '7':
+        message: |-
+          Sveiciens!
+
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums ir filma, nevis TV pārraide, tāpēc tas jāpievieno kā filma. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
+
+          Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
+        subject: Tā ir filma
+      '8':
+        message: |-
+          Sveiciens!
+
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis ieraksts saturēja aizskarošu vai nepiemērotu saturu, kas nav atļauts. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
+
+          Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
+        subject: Tas ir aizskarošs vai nepiemērots
+      '6':
+        subject: Tas tika izveidots kļūdas pēc, vai autors lūdza to izdzēst
     why_deleting: Kāpēc izdzēs šo ierakstu?
   department_credits_count:
     zero: '%{department} (%{count} uzskaitījumu)'
