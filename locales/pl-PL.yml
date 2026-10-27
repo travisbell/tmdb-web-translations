@@ -1832,7 +1832,7 @@ pl-PL:
         message: |-
           Witaj,
 
-          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie może zostać dodany do TMDB, na przykład dlatego, że jest produkcją amatorską. Możesz przeczytać, co można dodawać, w naszych [nowych standardach zawartości](https://www.themoviedb.org/bible/new_content).
 
           Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
         subject: Nie spełnia naszych standardów zawartości (niska jakość, itp...)
@@ -1848,7 +1848,7 @@ pl-PL:
         message: |-
           Witaj,
 
-          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Nie znaleźliśmy niczego, co potwierdzałoby istnienie tego tytułu, dlatego został uznany za fałszywy wpis. Dodawaj tylko tytuły, które można zweryfikować. Możesz przeczytać więcej w naszych [nowych standardach zawartości](https://www.themoviedb.org/bible/new_content).
 
           Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
         subject: To jest fałszywy wpis
@@ -1856,10 +1856,28 @@ pl-PL:
         message: |-
           Witaj,
 
-          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł nie spełniał naszych [nowych standardów zawartości](https://www.themoviedb.org/bible/new_content).
+          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten wpis został uznany za spam. Wpisy reklamujące lub promujące produkty, usługi lub strony internetowe są niedozwolone. Możesz przeczytać więcej w naszych [nowych standardach zawartości](https://www.themoviedb.org/bible/new_content).
 
           Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
         subject: To jest spam
+      '7':
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten tytuł jest filmem, a nie serialem telewizyjnym, dlatego powinien zostać dodany jako film. Możesz przeczytać więcej w naszych [nowych standardach zawartości](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest film
+      '8':
+        message: |-
+          Witaj,
+
+          To jest tylko informacja od moderatorów zawartości TMDB. Obiekt, który stworzyłeś - zatytułowany "%{title}" - został usunięty. Ten wpis zawierał obraźliwe lub nieodpowiednie treści, które są niedozwolone. Możesz przeczytać więcej w naszych [nowych standardach zawartości](https://www.themoviedb.org/bible/new_content).
+
+          Jeśli masz pytania dotyczące tej decyzji, możesz odpowiedzieć na tę wiadomość.
+        subject: To jest obraźliwe lub nieodpowiednie
+      '6':
+        subject: Został utworzony przez pomyłkę lub autor poprosił o jego usunięcie
     why_deleting: Dlaczego usuwasz ten wpis?
   department_credits_count:
     one: '%{department} (%{count} kredyt)'
