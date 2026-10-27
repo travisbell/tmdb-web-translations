@@ -1818,7 +1818,7 @@ nl-NL:
         message: |-
           Hallo,
 
-          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel komt niet in aanmerking om aan TMDB te worden toegevoegd, bijvoorbeeld omdat het een amateurproductie is. In onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content) kun je lezen wat er toegevoegd mag worden.
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit voldoet niet aan onze richtlijnen met betrekking tot de inhoud (amateur, etc...)
@@ -1834,7 +1834,7 @@ nl-NL:
         message: |-
           Hallo,
 
-          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. We konden niets vinden waaruit blijkt dat deze titel bestaat, dus werd hij als een valse vermelding beschouwd. Voeg alleen titels toe die geverifieerd kunnen worden. Je kunt meer lezen in onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is een valse vermelding
@@ -1842,10 +1842,28 @@ nl-NL:
         message: |-
           Hallo,
 
-          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel voldeed niet aan onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze vermelding werd als spam beschouwd. Vermeldingen die reclame maken voor producten, diensten of websites, of deze promoten, zijn niet toegestaan. Je kunt meer lezen in onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
 
           Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
         subject: Dit is spam
+      '7':
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze titel is een film, geen tv-serie, en moet daarom als film worden toegevoegd. Je kunt meer lezen in onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit is een film
+      '8':
+        message: |-
+          Hallo,
+
+          Dit is een bericht van de inhoudsbeheerders van TMDB. De vermelding die je hebt gemaakt met de titel "%{title}" is verwijderd. Deze vermelding bevatte aanstootgevende of ongepaste inhoud, wat niet is toegestaan. Je kunt meer lezen in onze [richtlijnen nieuwe inhoud](https://www.themoviedb.org/bible/new_content).
+
+          Als je vragen hebt over dit besluit, kun je reageren op dit bericht.
+        subject: Dit is aanstootgevend of ongepast
+      '6':
+        subject: Dit is per ongeluk aangemaakt, of de maker heeft gevraagd om het te verwijderen
     why_deleting: Waarom wil je deze vermelding verwijderen?
   department_credits_count:
     one: "%{department} (%{count} bijdrage)"
