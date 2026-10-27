@@ -1810,7 +1810,7 @@ zh-HK:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該作品不符合加入 TMDB 的資格，例如屬於業餘製作。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 了解哪些內容可以加入。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 它不符合我們的條目準則（業餘，等等...）
@@ -1826,7 +1826,7 @@ zh-HK:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們「增加新內容指南」（https://www.themoviedb.org/bible/new_content）的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為我們找不到任何資料證明該作品存在，因此被視為虛假條目。請只加入可供查證的作品。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 這是一個假條目
@@ -1834,10 +1834,28 @@ zh-HK:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目被視為垃圾內容。條目不得用於宣傳或推廣產品、服務或網站。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 這是垃圾內容
+      '7':
+        message: |-
+          您好：
+
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該作品是電影而非電視節目，應以電影形式加入。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: 這是一部電影
+      '8':
+        message: |-
+          您好：
+
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目含有冒犯性或不當內容，此類內容並不允許。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: 這是冒犯性或不當內容
+      '6':
+        subject: 建立錯誤，或建立者要求刪除
     why_deleting: 你為什麼要刪除這個條目？
   department_credits_count:
     other: '%{department} (%{count} 信用分數)'
