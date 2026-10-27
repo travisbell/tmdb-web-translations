@@ -1826,7 +1826,7 @@ it-IT:
         message: |-
           Ciao,
 
-          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questo titolo non può essere aggiunto a TMDB, ad esempio perché è una produzione amatoriale. Puoi leggere cosa può essere aggiunto nelle nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
 
           Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
         subject: Non corrisponde alle nostre linee guida sui contenuti (amatoriale, ecc...)
@@ -1842,7 +1842,7 @@ it-IT:
         message: |-
           Ciao,
 
-          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Non abbiamo trovato nulla che dimostri l'esistenza di questo titolo, quindi è stato considerato una voce falsa. Aggiungi solo titoli verificabili. Puoi leggere ulteriori informazioni nelle nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
 
           Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
         subject: È una voce falsa
@@ -1850,10 +1850,28 @@ it-IT:
         message: |-
           Ciao,
 
-          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questo titolo non ha soddisfatto le nostre [nuove linee guida sui contenuti] (https://www.themoviedb.org/bible/new_content).
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questa voce è stata considerata spam. Non sono consentite voci che pubblicizzano o promuovono prodotti, servizi o siti web. Puoi leggere ulteriori informazioni nelle nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
 
           Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
         subject: È considerato spam
+      '7':
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questo titolo è un film, non una serie TV, quindi deve essere aggiunto come film. Puoi leggere ulteriori informazioni nelle nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È un film
+      '8':
+        message: |-
+          Ciao,
+
+          Questa è solo una nota amichevole dai moderatori dei contenuti di TMDB. La voce intitolata "%{title}" è stata cancellata. Questa voce conteneva contenuti offensivi o inappropriati, che non sono consentiti. Puoi leggere ulteriori informazioni nelle nostre [nuove linee guida sui contenuti](https://www.themoviedb.org/bible/new_content).
+
+          Se avete domande su questa cancellazione, sentitevi liberi di rispondere a questo messaggio.
+        subject: È offensivo o inappropriato
+      '6':
+        subject: È stato creato per errore o il creatore ne ha chiesto la cancellazione
     why_deleting: Perché stai eliminando questa voce?
   department_credits_count:
     one: '%{department} (%{count} crediti)'

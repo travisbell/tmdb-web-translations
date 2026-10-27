@@ -1810,7 +1810,7 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。你创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[增加新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该作品不符合添加到 TMDB 的条件，例如因为它是业余作品。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解哪些内容可以添加。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 不符合我们的内容准则（业余，等等）
@@ -1826,7 +1826,7 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。我们未能找到任何能证明该作品存在的信息，因此它被认定为虚假条目。请仅添加可以核实的作品。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是一个假条目
@@ -1834,10 +1834,28 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目被认定为垃圾信息。不允许发布宣传或推广产品、服务或网站的条目。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是垃圾信息
+      '7':
+        message: |-
+          您好，
+
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该作品是电影而不是电视节目，因此应作为电影添加。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
+        subject: 这是一部电影
+      '8':
+        message: |-
+          您好，
+
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目包含冒犯性或不当内容，这是不允许的。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
+        subject: 这是冒犯性或不当内容
+      '6':
+        subject: 误创建，或创建者要求删除
     why_deleting: 你为什么要删除此条目？
   department_credits_count:
     other: '%{department} (参与 %{count} 部作品)'

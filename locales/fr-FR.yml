@@ -1831,7 +1831,7 @@ fr-FR:
         message: |-
           Bonjour,
 
-          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, ce titre ne répondait pas à nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
+          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, ce titre ne peut pas être ajouté à TMDB, par exemple parce qu'il s'agit d'une production amateur. Vous pouvez consulter ce qui peut être ajouté dans nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
 
           Pour toute question relative à cette suppression, n'hésitez pas à répondre à ce message.
         subject: Ne répond pas à nos règles sur le contenu (amatrice, amateur, etc...)
@@ -1847,7 +1847,7 @@ fr-FR:
         message: |-
           Bonjour,
 
-          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, ce titre ne répondait pas à nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
+          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, nous n'avons rien trouvé qui prouve l'existence de ce titre, et il a donc été considéré comme une fausse entrée. Merci de n'ajouter que des titres vérifiables. Vous pouvez en savoir plus dans nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
 
           Pour toute question relative à cette suppression, n'hésitez pas à répondre à ce message.
         subject: C'est une fausse entrée
@@ -1855,10 +1855,28 @@ fr-FR:
         message: |-
           Bonjour,
 
-          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, ce titre ne répondait pas à nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
+          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, cette entrée a été considérée comme indésirable. Les entrées qui font la publicité ou la promotion de produits, de services ou de sites web ne sont pas autorisées. Vous pouvez en savoir plus dans nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
 
           Pour toute question relative à cette suppression, n'hésitez pas à répondre à ce message.
         subject: C'est un indésirable
+      '7':
+        message: |-
+          Bonjour,
+
+          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, ce titre est un film, et non une émission télévisée, et doit donc être ajouté en tant que film. Vous pouvez en savoir plus dans nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
+
+          Pour toute question relative à cette suppression, n'hésitez pas à répondre à ce message.
+        subject: C'est un film
+      '8':
+        message: |-
+          Bonjour,
+
+          Ceci est un simple message amical des modératrices et modérateurs de contenu de TMDB. L'entrée « %{title} » que vous avez créée a été supprimée. En effet, cette entrée comportait des éléments offensants ou inappropriés, ce qui n'est pas autorisé. Vous pouvez en savoir plus dans nos [règles pour les nouveaux contenus](https://www.themoviedb.org/bible/new_content).
+
+          Pour toute question relative à cette suppression, n'hésitez pas à répondre à ce message.
+        subject: C'est offensant ou inapproprié
+      '6':
+        subject: L'entrée a été créée par erreur, ou son auteur a demandé sa suppression
     why_deleting: Pour quelle raison supprimez-vous cette entrée ?
   department_credits_count:
     one: '%{department} (%{count} apparition)'

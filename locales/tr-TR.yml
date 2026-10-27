@@ -1815,7 +1815,7 @@ tr-TR:
           Silme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz.
         subject: Bu bir mükerrer girdi
       '2':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık, örneğin amatör bir yapım olduğu için TMDb'ye eklenmeye uygun değil. Nelerin eklenebileceğini [yeni içerik yönergelerimizde](https://www.themoviedb.org/bible/new_content) okuyabilirsiniz.\n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
         subject: Bu, içerik kurallarımıza uymuyor (amatör, vb ...)
       '3':
         message: |-
@@ -1826,11 +1826,29 @@ tr-TR:
           Silme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz.
         subject: Bu bir TV dizisi.
       '4':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlığın var olduğunu gösteren hiçbir şey bulamadık, bu nedenle sahte bir girdi olarak kabul edildi. Lütfen yalnızca doğrulanabilir başlıklar ekleyin. Daha fazla bilgiyi [yeni içerik yönergelerimizde](https://www.themoviedb.org/bible/new_content) bulabilirsiniz.\n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
         subject: Bu sahte bir girdi.
       '5':
-        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu başlık [yeni içerik yönergeleri](https://www.themoviedb.org/bible/new_content)'i karşılamıyor. \n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
+        message: "Merhaba,\n\nBu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz \"%{title}\" başlıklı girdi silindi. Bu girdi spam olarak kabul edildi. Ürünlerin, hizmetlerin veya web sitelerinin reklamını ya da tanıtımını yapan girdilere izin verilmez. Daha fazla bilgiyi [yeni içerik yönergelerimizde](https://www.themoviedb.org/bible/new_content) bulabilirsiniz.\n\nSilme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz."
         subject: Bu bir spam.
+      '7':
+        message: |-
+          Merhaba,
+
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu başlık bir TV dizisi değil, bir film olduğundan film olarak eklenmelidir. Daha fazla bilgiyi [yeni içerik yönergelerimizde](https://www.themoviedb.org/bible/new_content) bulabilirsiniz.
+
+          Silme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz.
+        subject: Bu bir film.
+      '8':
+        message: |-
+          Merhaba,
+
+          Bu, TMDb'deki içerik denetleyicilerinden sadece arkadaşça bir bildirim. Oluşturduğunuz "%{title}" başlıklı girdi silindi. Bu girdi saldırgan veya uygunsuz içerik barındırıyordu ve bu tür içeriklere izin verilmez. Daha fazla bilgiyi [yeni içerik yönergelerimizde](https://www.themoviedb.org/bible/new_content) bulabilirsiniz.
+
+          Silme işlemi hakkında itirazlarınız varsa, bu iletiye yanıt verebilirsiniz.
+        subject: Bu saldırgan veya uygunsuz bir içerik.
+      '6':
+        subject: Yanlışlıkla oluşturuldu veya oluşturan kişi silinmesini istedi.
     why_deleting: Bu girdiyi neden siliyorsunuz?
   department_credits_count:
     one: "%{department} (%{count} jenerik)"

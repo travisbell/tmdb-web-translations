@@ -1818,7 +1818,7 @@ en-US:
         message: |-
           Hi there,
 
-          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This title isn't eligible to be added to TMDB, for example because it's an amateur production. You can read about what can be added in our [new content guidelines](https://www.themoviedb.org/bible/new_content).
 
           If you have any questions about this deletion, feel free to reply to this message.
         subject: It doesn't meet our content guidelines (amateur, etc...)
@@ -1834,7 +1834,7 @@ en-US:
         message: |-
           Hi there,
 
-          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. We couldn't find anything to show that this title exists, so it was considered a fake entry. Please only add titles that can be verified. You can read more in our [new content guidelines](https://www.themoviedb.org/bible/new_content).
 
           If you have any questions about this deletion, feel free to reply to this message.
         subject: It's a fake entry
@@ -1842,10 +1842,28 @@ en-US:
         message: |-
           Hi there,
 
-          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This title did not meet our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This entry was considered spam. Entries that advertise or promote products, services or websites aren't allowed. You can read more in our [new content guidelines](https://www.themoviedb.org/bible/new_content).
 
           If you have any questions about this deletion, feel free to reply to this message.
         subject: It's spam
+      '6':
+        subject: It was created by mistake, or the creator asked for it to be deleted
+      '7':
+        subject: It's a movie
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This title is a movie, not a TV show, so it should be added as a movie. You can read more in our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
+      '8':
+        subject: It's offensive or inappropriate
+        message: |-
+          Hi there,
+
+          This is just a friendly note from the content moderators at TMDB. The entry you created titled "%{title}" was deleted. This entry contained offensive or inappropriate content, which isn't allowed. You can read more in our [new content guidelines](https://www.themoviedb.org/bible/new_content).
+
+          If you have any questions about this deletion, feel free to reply to this message.
     why_deleting: Why are you deleting this entry?
   department_credits_count:
     one: "%{department} (%{count} credit)"

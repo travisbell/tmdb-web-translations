@@ -1829,7 +1829,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název nesplňuje podmínky pro přidání na TMDB, například proto, že jde o amatérskou produkci. Co lze přidat, si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Neodpovídá našim pokynům pro nový obsah (amatér, atd.)
@@ -1845,7 +1845,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Nenašli jsme nic, co by dokládalo existenci tohoto titulu, a proto byl považován za falešný záznam. Přidávejte prosím pouze tituly, které lze ověřit. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o falešný záznam
@@ -1853,10 +1853,28 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento záznam byl považován za spam. Záznamy, které inzerují nebo propagují produkty, služby či webové stránky, nejsou povoleny. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o spam
+      '7':
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název je film, nikoli seriál, a proto by měl být přidán jako film. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o film
+      '8':
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento záznam obsahoval urážlivý nebo nevhodný obsah, který není povolen. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o urážlivý nebo nevhodný obsah
+      '6':
+        subject: Byl vytvořen omylem nebo jeho autor požádal o odstranění
     why_deleting: Proč jste odstranili tento záznam?
   department_credits_count:
     one: '%{department} (%{count} záznam)'

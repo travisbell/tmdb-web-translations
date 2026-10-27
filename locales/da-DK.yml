@@ -1817,7 +1817,7 @@ da-DK:
         message: |-
           Hejsa,
 
-          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne titel levede ikke op til vores [nyt indholds retningslinjer](https://www.themoviedb.org/bible/new_content).
+          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne titel kan ikke tilføjes til TMDB, for eksempel fordi den er en amatørproduktion. Du kan læse om, hvad der kan tilføjes, i vores [nye indholdsretningslinjer](https://www.themoviedb.org/bible/new_content).
 
           Hvis du har nogle spørgsmål omkring denne sletning, så svar venligst på denne besked.
         subject: Den lever ikke op til vores indholds retningslinjer (amatør, etc...)
@@ -1833,7 +1833,7 @@ da-DK:
         message: |-
           Hejsa,
 
-          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne titel levede ikke op til vores [nyt indholds retningslinjer](https://www.themoviedb.org/bible/new_content).
+          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Vi kunne ikke finde noget, der viser, at denne titel eksisterer, så den blev anset for at være en falsk enhed. Tilføj venligst kun titler, der kan verificeres. Du kan læse mere i vores [nye indholdsretningslinjer](https://www.themoviedb.org/bible/new_content).
 
           Hvis du har nogle spørgsmål omkring denne sletning, så svar venligst på denne besked.
         subject: Enheden er falsk
@@ -1841,10 +1841,28 @@ da-DK:
         message: |-
           Hejsa,
 
-          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne titel levede ikke op til vores [nyt indholds retningslinjer](https://www.themoviedb.org/bible/new_content).
+          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne enhed blev anset for at være spam. Enheder, der reklamerer for eller promoverer produkter, tjenester eller hjemmesider, er ikke tilladt. Du kan læse mere i vores [nye indholdsretningslinjer](https://www.themoviedb.org/bible/new_content).
 
           Hvis du har nogle spørgsmål omkring denne sletning, så svar venligst på denne besked.
         subject: Det er spam
+      '7':
+        message: |-
+          Hejsa,
+
+          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne titel er en film, ikke et TV show, så den skal tilføjes som en film. Du kan læse mere i vores [nye indholdsretningslinjer](https://www.themoviedb.org/bible/new_content).
+
+          Hvis du har nogle spørgsmål omkring denne sletning, så svar venligst på denne besked.
+        subject: Det er en film
+      '8':
+        message: |-
+          Hejsa,
+
+          Dette er bare en venlig note fra indholds moderatorerne hos TMDB. Enheden du oprettede med titlen "%{title}" er blevet slettet. Denne enhed indeholdt stødende eller upassende indhold, hvilket ikke er tilladt. Du kan læse mere i vores [nye indholdsretningslinjer](https://www.themoviedb.org/bible/new_content).
+
+          Hvis du har nogle spørgsmål omkring denne sletning, så svar venligst på denne besked.
+        subject: Det er stødende eller upassende
+      '6':
+        subject: Den blev oprettet ved en fejl, eller opretteren bad om at få den slettet
     why_deleting: Hvorfor sletter du denne enhed?
   department_credits_count:
     one: "%{department} (%{count} kredit)"

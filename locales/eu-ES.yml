@@ -1817,7 +1817,7 @@ eu-ES:
         message: |-
           Kaixo,
 
-          Hau TMDbko moderatzaileen mezu adiskidetsu bat da. Zuk sortu duzun %{title} izeneko sarrera ezabatua izan da. Sarrera honek ez ditu gure [edukien gidalerro berriak](https://www.themoviedb.org/bible/new_content) jarraitzen.
+          Hau TMDbko moderatzaileen mezu adiskidetsu bat da. Zuk sortu duzun %{title} izeneko sarrera ezabatua izan da. Izenburu hau ezin da TMDbn gehitu, adibidez, amateur ekoizpen bat delako. Zer gehi daitekeen irakur dezakezu gure [edukien gidalerro berrietan](https://www.themoviedb.org/bible/new_content).
 
           Ezabaketa honi buruz galderarik baduzu, erantzun mezu honi.
         subject: Ez ditu gure eduki gidalerroak betetzen (amateur, etab.)
@@ -1835,6 +1835,24 @@ eu-ES:
       '5':
         message: ''
         subject: Spama da
+      '7':
+        message: |-
+          Kaixo,
+
+          Hau TMDbko moderatzaileen mezu adiskidetsu bat da. Zuk sortu duzun %{title} izeneko sarrera ezabatua izan da. Izenburu hau film bat da, ez TB saio bat, beraz, film gisa gehitu behar da. Gehiago irakur dezakezu gure [edukien gidalerro berrietan](https://www.themoviedb.org/bible/new_content).
+
+          Ezabaketa honi buruz galderarik baduzu, erantzun mezu honi.
+        subject: Film bat da
+      '8':
+        message: |-
+          Kaixo,
+
+          Hau TMDbko moderatzaileen mezu adiskidetsu bat da. Zuk sortu duzun %{title} izeneko sarrera ezabatua izan da. Sarrera honek eduki iraingarria edo desegokia zuen, eta hori ez dago baimenduta. Gehiago irakur dezakezu gure [edukien gidalerro berrietan](https://www.themoviedb.org/bible/new_content).
+
+          Ezabaketa honi buruz galderarik baduzu, erantzun mezu honi.
+        subject: Iraingarria edo desegokia da
+      '6':
+        subject: Akatsez sortu zen, edo sortzaileak ezabatzeko eskatu zuen
     why_deleting: Zergatik ari zara sarrera hau ezabatzen?
   department_credits_count:
     one: "%{department} (kreditu %{count})"

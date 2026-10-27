@@ -1844,6 +1844,24 @@ sl-SI:
       '5':
         message: ''
         subject: To je spam
+      '7':
+        message: |-
+          Živjo,
+
+          vsebinski moderatorji na TMDB vam prijazno sporočamo, da je bil vaš vnos "%{title}" izbrisan. Ta naslov je film, ne serija, zato ga je treba dodati kot film. Več si lahko preberete v naših [smernicah za novo vsebino](https://www.themoviedb.org/bible/new_content).
+
+          Če vas glede izbrisa še kaj zanima, kar odgovorite na to sporočilo.
+        subject: To je film
+      '8':
+        message: |-
+          Živjo,
+
+          vsebinski moderatorji na TMDB vam prijazno sporočamo, da je bil vaš vnos "%{title}" izbrisan. Vnos je vseboval žaljivo ali neprimerno vsebino, kar ni dovoljeno. Več si lahko preberete v naših [smernicah za novo vsebino](https://www.themoviedb.org/bible/new_content).
+
+          Če vas glede izbrisa še kaj zanima, kar odgovorite na to sporočilo.
+        subject: To je žaljivo ali neprimerno
+      '6':
+        subject: Ustvarjen je bil pomotoma ali pa je ustvarjalec zahteval izbris
     why_deleting: Zakaj brišete ta vnos?
   department_credits_count:
     one: '%{department} (%{count} zasluga)'
