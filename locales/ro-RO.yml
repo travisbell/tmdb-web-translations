@@ -1830,7 +1830,7 @@ ro-RO:
         message: |-
           Bună,
 
-          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Acest titlu nu a respectat [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
+          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Acest titlu nu poate fi adăugat pe TMDB, de exemplu pentru că este o producție de amatori. Puteți citi ce poate fi adăugat în [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
 
           Dacă aveți întrebări legate de această ștergere, nu ezitați să răspundeți la acest mesaj.
         subject: Nu respectă regulamentul nostru privind conținutul (amator, etc ...)
@@ -1846,7 +1846,7 @@ ro-RO:
         message: |-
           Bună,
 
-          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Acest titlu nu a respectat [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
+          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Nu am găsit nimic care să arate că acest titlu există, așa că a fost considerat o înregistrare falsă. Vă rugăm să adăugați doar titluri care pot fi verificate. Puteți citi mai multe în [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
 
           Dacă aveți întrebări legate de această ștergere, nu ezitați să răspundeți la acest mesaj.
         subject: Este o înregistrare falsă
@@ -1854,10 +1854,28 @@ ro-RO:
         message: |-
           Bună,
 
-          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Acest titlu nu a respectat [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
+          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Această înregistrare a fost considerată spam. Înregistrările care fac reclamă sau promovează produse, servicii sau site-uri web nu sunt permise. Puteți citi mai multe în [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
 
           Dacă aveți întrebări legate de această ștergere, nu ezitați să răspundeți la acest mesaj.
         subject: Este un spam
+      '7':
+        message: |-
+          Bună,
+
+          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Acest titlu este un film, nu un serial TV, așa că ar trebui adăugat ca film. Puteți citi mai multe în [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
+
+          Dacă aveți întrebări legate de această ștergere, nu ezitați să răspundeți la acest mesaj.
+        subject: Este un film
+      '8':
+        message: |-
+          Bună,
+
+          Aceasta este doar o notă de la moderatorii de conținut de la TMDB. Înregistrarea creată cu titlul „%{title}” a fost ștearsă. Această înregistrare conținea materiale ofensatoare sau nepotrivite, ceea ce nu este permis. Puteți citi mai multe în [noile reguli de conținut](https://www.themoviedb.org/bible/new_content).
+
+          Dacă aveți întrebări legate de această ștergere, nu ezitați să răspundeți la acest mesaj.
+        subject: Este ofensator sau nepotrivit
+      '6':
+        subject: A fost creată din greșeală sau creatorul a cerut ștergerea ei
     why_deleting: De ce ștergeți această înregistrare?
   department_credits_count:
     one: '%{department} (%{count} mulțumire)'
