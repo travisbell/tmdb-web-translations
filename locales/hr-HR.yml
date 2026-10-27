@@ -1826,7 +1826,7 @@ hr-HR:
         message: |-
           Bok,
 
-          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj naslov nije ispunio naše [nove smjernice o sadržaju](https://www.themoviedb.org/bible/new_content).
+          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj naslov ne ispunjava uvjete za dodavanje na TMDB, na primjer zato što je riječ o amaterskoj produkciji. Što se može dodati, možete pročitati u našim [novim smjernicama o sadržaju](https://www.themoviedb.org/bible/new_content).
 
           Ako imate pitanja o ovom brisanju, slobodno odgovorite na ovu poruku.
         subject: Ne ispunjava naše smjernice o sadržaju (amaterski, itd..)
@@ -1842,7 +1842,7 @@ hr-HR:
         message: |-
           Bok,
 
-          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj naslov nije ispunio naše [nove smjernice o sadržaju] (https://www.themoviedb.org/bible/new_content).
+          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Nismo pronašli ništa što bi potvrdilo da ovaj naslov postoji, pa je smatran lažnim unosom. Molimo vas da dodajete samo naslove koji se mogu provjeriti. Više možete pročitati u našim [novim smjernicama o sadržaju](https://www.themoviedb.org/bible/new_content).
 
           Ako imate pitanja o ovom brisanju, slobodno odgovorite na ovu poruku.
         subject: To je pogrešan unos
@@ -1850,10 +1850,28 @@ hr-HR:
         message: |-
           Bok,
 
-          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj naslov nije ispunio naše [nove smjernice o sadržaju] (https://www.themoviedb.org/bible/new_content).
+          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj unos smatra se neželjenim sadržajem. Unosi koji oglašavaju ili promoviraju proizvode, usluge ili web-stranice nisu dopušteni. Više možete pročitati u našim [novim smjernicama o sadržaju](https://www.themoviedb.org/bible/new_content).
 
           Ako imate pitanja o ovom brisanju, slobodno odgovorite na ovu poruku.
         subject: To je neželjeni sadržaj.
+      '7':
+        message: |-
+          Bok,
+
+          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj naslov je film, a ne TV emisija, pa ga treba dodati kao film. Više možete pročitati u našim [novim smjernicama o sadržaju](https://www.themoviedb.org/bible/new_content).
+
+          Ako imate pitanja o ovom brisanju, slobodno odgovorite na ovu poruku.
+        subject: To je film
+      '8':
+        message: |-
+          Bok,
+
+          ovo je samo prijateljska poruka od moderatora sadržaja na TMDB. Unos koji ste izradili pod naslovom "%{title}" je izbrisan. Ovaj unos sadržavao je uvredljiv ili neprimjeren sadržaj, što nije dopušteno. Više možete pročitati u našim [novim smjernicama o sadržaju](https://www.themoviedb.org/bible/new_content).
+
+          Ako imate pitanja o ovom brisanju, slobodno odgovorite na ovu poruku.
+        subject: To je uvredljivo ili neprimjereno
+      '6':
+        subject: Unos je izrađen greškom ili je autor zatražio njegovo brisanje
     why_deleting: Zašto brišete taj unos?
   department_credits_count:
     one: '%{department} (%{count} zasluga)'
