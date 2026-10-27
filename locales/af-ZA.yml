@@ -1817,7 +1817,7 @@ af-ZA:
         message: |-
           Goeiedag,
 
-          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Dit titel voldoen nie aan ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) nie.
+          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Hierdie titel kom nie in aanmerking om by TMDB gevoeg te word nie, byvoorbeeld omdat dit ’n amateurproduksie is. U kan in ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) lees wat bygevoeg mag word.
 
           Indien u enige vrae oor die skrapping het, voel vry om op hierdie boodskap te antwoord.
         subject: Dit voldoen nie aan ons inhoudriglyne nie (amateur, ens…)
@@ -1833,18 +1833,36 @@ af-ZA:
         message: |-
           Goeiedag,
 
-          Dit is ’n vriendelike nota van die inhoudredigeerders by TMDB. U inskrywing met die titel “%{title}” is geskrap. Hierdie titel voldoen nie aan ons [riglyne vir nuwe inhoud](https://www.themoviedb.org/bible/new-content) nie.
+          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Ons kon niks vind wat bewys dat hierdie titel bestaan nie, en dit is dus as ’n nepinskrywing beskou. Voeg asseblief slegs titels by wat geverifieer kan word. U kan meer in ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) lees.
 
-          Indien u enige vrae oor die skrapping het is u welkom om op hierdie boodskap te reageer.
+          Indien u enige vrae oor die skrapping het, voel vry om op hierdie boodskap te antwoord.
         subject: Dis ’n nepinskrywing
       '5':
         message: |-
           Goeiedag,
 
-          Dit is ’n vriendelike nota van die inhoudredigeerders by TMDB. U inskrywing met die titel “%{title}” is geskrap. Hierdie titel voldoen nie aan ons [riglyne vir nuwe inhoud](https://www.themoviedb.org/bible/new_content) nie.
+          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Hierdie inskrywing is as gemorspos beskou. Inskrywings wat produkte, dienste of webwerwe adverteer of bevorder, word nie toegelaat nie. U kan meer in ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) lees.
 
-          Indien u enige vrae oor die skrapping het is u welkom om op hierdie boodskap te reageer.
+          Indien u enige vrae oor die skrapping het, voel vry om op hierdie boodskap te antwoord.
         subject: Dis gemorspos
+      '7':
+        message: |-
+          Goeiedag,
+
+          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Hierdie titel is ’n rolprent, nie ’n TV-program nie, en moet dus as ’n rolprent bygevoeg word. U kan meer in ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) lees.
+
+          Indien u enige vrae oor die skrapping het, voel vry om op hierdie boodskap te antwoord.
+        subject: Dis ’n rolprent
+      '8':
+        message: |-
+          Goeiedag,
+
+          Dit is ’n vriendelike kennisgewing van die inhoudmoderators by TMDB. Die inskrywing wat u geskep het met die titel “%{title}” is geskrap. Hierdie inskrywing het aanstootlike of onvanpaste inhoud bevat, wat nie toegelaat word nie. U kan meer in ons [nuwe inhoudriglyne](https://www.themoviedb.org/bible/new_content) lees.
+
+          Indien u enige vrae oor die skrapping het, voel vry om op hierdie boodskap te antwoord.
+        subject: Dis aanstootlik of onvanpas
+      '6':
+        subject: Dit is per ongeluk geskep, of die skepper het gevra dat dit geskrap word
     why_deleting: Waarom skrap u hierdie inskrywing?
   department_credits_count:
     one: "%{department} (%{count} krediet)"
