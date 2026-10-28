@@ -1909,17 +1909,35 @@ lt-LT:
         message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis pavadinimas jau buvo mūsų duomenų bazėje ir todėl buvo laikomas pasikartojančiu. \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
         subject: Dublikatas
       '2':
-        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis pavadinimas neatitiko mūsų [naujojo turinio gairių](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
+        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šio pavadinimo negalima pridėti prie TMDB, pavyzdžiui, todėl, kad tai mėgėjiškas kūrinys. Apie tai, ką galima pridėti, galite perskaityti mūsų [naujojo turinio gairėse](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
         subject: Tai neatitinka turinio gairių (mėgėjiškas ir kt.)
       '3':
         message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis pavadinimas jau yra įrašytas kaip  TV laida ir nelaikomas galiojančiu filmu. Galite sužinoti daugiau apie turinio gaires [čia] (https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
         subject: TV laida
       '4':
-        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis pavadinimas neatitiko mūsų [naujojo turinio gairių](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
+        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Neradome jokių įrodymų, kad šis pavadinimas egzistuoja, todėl jis buvo laikomas apgaulingu įrašu. Pridėkite tik tuos pavadinimus, kuriuos galima patikrinti. Daugiau galite perskaityti mūsų [naujojo turinio gairėse](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
         subject: Apgaulingas įrašas
       '5':
-        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis pavadinimas neatitiko mūsų [naujojo turinio gairių](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
+        message: "Sveiki, \n\nTai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu \"%{title}\" buvo ištrintas. Šis įrašas buvo laikomas brukalu. Įrašai, kuriuose reklamuojami produktai, paslaugos ar svetainės, neleidžiami. Daugiau galite perskaityti mūsų [naujojo turinio gairėse](https://www.themoviedb.org/bible/new_content). \n\nJei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą."
         subject: Brukalas
+      '7':
+        message: |-
+          Sveiki, 
+
+          Tai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu "%{title}" buvo ištrintas. Šis pavadinimas yra filmas, o ne TV laida, todėl jis turėtų būti pridėtas kaip filmas. Daugiau galite perskaityti mūsų [naujojo turinio gairėse](https://www.themoviedb.org/bible/new_content). 
+
+          Jei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą.
+        subject: Filmas
+      '8':
+        message: |-
+          Sveiki, 
+
+          Tai tiesiog TMDB turinio moderatorių draugiška pastaba. Jūsų sukurtas įrašas pavadinimu "%{title}" buvo ištrintas. Šiame įraše buvo įžeidžiamo ar netinkamo turinio, o tai neleidžiama. Daugiau galite perskaityti mūsų [naujojo turinio gairėse](https://www.themoviedb.org/bible/new_content). 
+
+          Jei turite klausimų dėl šio ištrynimo, nedvejodami atsakykite į šį pranešimą.
+        subject: Įžeidžiamas ar netinkamas turinys
+      '6':
+        subject: Sukurtas per klaidą arba kūrėjas paprašė jį ištrinti
     why_deleting: Kodėl jūs ištrinate šį įrašą?
   department_credits_count:
     one: '%{department} (%{count} titras)'
@@ -2494,7 +2512,7 @@ lt-LT:
         this_week: Šią savaitę
         today: Šiandien
         tv: TV
-      free_to_watch: 'Žiūrėti nemokamai '
+      free_to_watch: 'Žiūrėti nemokamai'
       latest_trailers: Naujausi treileriai
       leaderboard:
         all_time: Redaguota per visą laiką
@@ -4310,9 +4328,11 @@ lt-LT:
   message_templates:
     help_translate:
       message: |-
-        Labas, ačiū, kad naudoji TMDB. Pastebėjau, kad naršai TMDB kalba, kuri dar nebaigta versti. Jei esi suinteresuotas padėti mums gauti šiuos duomenis, gali tai padaryti apsilankęs mūsų [Locale project] (https://www.localeapp.com/projects/8267). [Registracija] (https://www.localeapp.com/users/sign_up) „Locale“ yra nemokama ir gali pridėti tiek naujų vertimų, kiek gali tam skirti laiko. Kiekvienas redagavimas padeda.
+        Labas, ačiū, kad naudoji TMDB!
 
-        Jei tau tai neįdomu, nevark. Pamaniau, kad paklausiu.
+        Pastebėjau, kad naršai TMDB kalba, kuri nėra tarp mūsų užbaigtų kalbų. Jei nori padėti mums užbaigti šiuos duomenis, gali tai padaryti apsilankęs mūsų [Weblate projekte](https://weblate.themoviedb.org).
+
+        Jei tau tai neįdomu, nesijaudink. Tiesiog pamaniau, kad paklausiu.
 
         Ačiū ir laikykis!
       subject: Padėkite išversti mūsų svetainę

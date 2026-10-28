@@ -390,7 +390,7 @@ fi-FI:
   Search for a language: Etsi kieltä...
   Search for a movie: ''
   Search for a movie or TV show: Etsi elokuvaa tai TV-ohjelmaa
-  Search for a movie, TV show, person: Etsi elokuvaa, tv-ohjelmaa, ihmistä
+  Search for a movie, TV show, person: Etsi elokuvaa, tv-ohjelmaa, ihmistä...
   Season: Kausi
   Season Number: Kauden numero
   Season Overview: Kauden kuvaus
@@ -1628,7 +1628,7 @@ fi-FI:
     star: Tähti
     submit: ''
     submit_and_preview: ''
-    submit_confirmation: ''
+    submit_confirmation: '<h3>Hai<strong>%{user}</strong>! Hienoa!</h3> Haluatko varmasti lähettää?'
     submitted: Lähetetty
     suggested_backdrops: Valitse ehdotetut taustat
     suggested_backdrops_not_available: Suositeltuja taustoja ei ole saatavilla!
@@ -1817,7 +1817,7 @@ fi-FI:
         message: |-
           Hei,
 
-          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Nimike ei vastannut [uuden sisällön ohjeistustamme.] (https://www.themoviedb.org/bible/new_content).
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Tätä nimikettä ei voi lisätä TMDb:hen esimerkiksi siksi, että se on amatöörituotanto. Voit lukea, mitä sivustolle voi lisätä, [uuden sisällön ohjeistuksestamme](https://www.themoviedb.org/bible/new_content).
 
           Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
         subject: Se ei vastaa sisällön ohjeistustamme (amatööri, jne...)
@@ -1830,21 +1830,39 @@ fi-FI:
           Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
         subject: Se on TV ohjelma.
       '4':
-        message: |
+        message: |-
           Hei,
 
-          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi nimike "%{title}" on poistettu. Se ei täyttänyt [uusia sisältöohjeitamme](https://www.themoviedb.org/bible/new_content).
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Emme löytäneet mitään, mikä osoittaisi tämän nimikkeen olevan olemassa, joten se katsottiin tekaistuksi merkinnäksi. Lisää vain nimikkeitä, joiden olemassaolo voidaan todentaa. Voit lukea lisää [uuden sisällön ohjeistuksestamme](https://www.themoviedb.org/bible/new_content).
 
-          Voit vastata tähän viestiin, mikäli sinulla on kysyttävää koskien tätä poistoa.
+          Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
         subject: Se on tekaistu nimike
       '5':
         message: |-
           Hei,
 
-          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi nimike "%{title}" on poistettu. Se ei täyttänyt uusia [sisältöohjeitamme](https://www.themoviedb.org/bible/new_content).
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Merkintä katsottiin spämmiksi. Tuotteita, palveluita tai verkkosivustoja mainostavat merkinnät eivät ole sallittuja. Voit lukea lisää [uuden sisällön ohjeistuksestamme](https://www.themoviedb.org/bible/new_content).
 
-          Voit vastata tähän viestiin, mikäli sinulla on kysyttävää koskien tätä poistoa.
+          Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
         subject: Se on spämmiä
+      '7':
+        message: |-
+          Hei,
+
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Nimike on elokuva eikä TV-ohjelma, joten se pitää lisätä elokuvana. Voit lukea lisää [uuden sisällön ohjeistuksestamme](https://www.themoviedb.org/bible/new_content).
+
+          Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
+        subject: Se on elokuva.
+      '8':
+        message: |-
+          Hei,
+
+          Tämä on ystävällinen huomautus TMDb:n moderaattoreilta. Luomasi merkintä "%{title}" poistettiin. Merkintä sisälsi loukkaavaa tai sopimatonta sisältöä, mikä ei ole sallittua. Voit lukea lisää [uuden sisällön ohjeistuksestamme](https://www.themoviedb.org/bible/new_content).
+
+          Jos sinulla on jotain kysyttävää poistoon liittyen, voit vastata tähän viestiin.
+        subject: Se on loukkaava tai sopimaton.
+      '6':
+        subject: Se luotiin vahingossa tai sen luoja pyysi poistamaan sen.
     why_deleting: Miksi olet poistamassa merkintää?
   department_credits_count:
     one: "%{department} (%{count} credit)"
@@ -4184,9 +4202,11 @@ fi-FI:
   message_templates:
     help_translate:
       message: |-
-        Hei, ja kiitos TMBn: käytöstä. Huomasin, että käytät TMDb:tä kielellä jota ei ole vielä käännetty kokonaan. Jos sinulla on kiinnostusta auttaa käännöksen saattamisessa loppuun, voit vierailla [käännösprojektissamme](https://www.localeapp.com/projects/8267). [Rekisteröityminen](https://www.localeapp.com/users/sign_up) on ilmaista ja voit lisätä niin monta käännöstä kuin haluat. Jokainen muokkaus auttaa.
+        Hei, ja kiitos TMDB:n käytöstä!
 
-        Ei haittaa jos sinua ei kiinnosta osallistua, ajattelin vain kysyä.
+        Huomasin, että käytät TMDB:tä kielellä, joka ei kuulu valmiiksi käännettyihin kieliimme. Jos olet kiinnostunut auttamaan käännöksen saattamisessa loppuun, voit vierailla [Weblate-projektissamme](https://weblate.themoviedb.org).
+
+        Ei haittaa, jos sinua ei kiinnosta osallistua. Ajattelin vain kysyä.
 
         Kiitos ja mukavaa päivänjatkoa!
       subject: Auta kääntämään sivustomme

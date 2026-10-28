@@ -392,7 +392,7 @@ es-MX:
   Search for a language: Busqueda por idioma....
   Search for a movie: ''
   Search for a movie or TV show: Buscar una película o un programa de TV
-  Search for a movie, TV show, person: Buscar película, serie de TV o persona
+  Search for a movie, TV show, person: Buscar película, serie de TV o persona...
   Season: Temporada
   Season Number: Número de Temporada
   Season Overview: Resumen de Temporada
@@ -1833,7 +1833,7 @@ es-MX:
         message: |-
           Hola,
 
-          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Este título no se puede agregar a TMDB, por ejemplo, porque es una producción amateur. Puede leer sobre lo que se puede agregar en nuestras [nuevas pautas de contenido](https://www.themoviedb.org/bible/new_content).
 
           Si tiene alguna pregunta sobre esta eliminación, no dude en responder a este mensaje.
         subject: No se apega a nuestras guías de contenido (amateur, etc...)
@@ -1849,7 +1849,7 @@ es-MX:
         message: |-
           Hola,
 
-          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. No pudimos encontrar nada que demuestre que este título existe, por lo que se consideró una entrada falsa. Por favor, agregue solo títulos que se puedan verificar. Puede leer más en nuestras [nuevas pautas de contenido](https://www.themoviedb.org/bible/new_content).
 
           Si tiene alguna pregunta sobre esta eliminación, no dude en responder a este mensaje.
         subject: Es una entrada falsa
@@ -1857,10 +1857,28 @@ es-MX:
         message: |-
           Hola,
 
-          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Este título no cumplió con nuestras [nuevas pautas de contenido] (https://www.themoviedb.org/bible/new_content).
+          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Esta entrada se consideró spam. No se permiten entradas que anuncien o promocionen productos, servicios o sitios web. Puede leer más en nuestras [nuevas pautas de contenido](https://www.themoviedb.org/bible/new_content).
 
           Si tiene alguna pregunta sobre esta eliminación, no dude en responder a este mensaje.
         subject: Es spam
+      '7':
+        message: |-
+          Hola,
+
+          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Este título es una película, no un programa de televisión, así que debe agregarse como película. Puede leer más en nuestras [nuevas pautas de contenido](https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en responder a este mensaje.
+        subject: Es una película
+      '8':
+        message: |-
+          Hola,
+
+          Esta es solo una nota amistosa de los moderadores de contenido en TMDB. La entrada que creaste titulada "%{title}" fue eliminada. Esta entrada tenía contenido ofensivo o inapropiado, lo cual no está permitido. Puede leer más en nuestras [nuevas pautas de contenido](https://www.themoviedb.org/bible/new_content).
+
+          Si tiene alguna pregunta sobre esta eliminación, no dude en responder a este mensaje.
+        subject: Es ofensivo o inapropiado
+      '6':
+        subject: Se creó por error o su creador pidió que se eliminara
     why_deleting: "¿Por qué estás eliminando esta entrada?"
   department_credits_count:
     one: '%{department} (%{count} crédito)'

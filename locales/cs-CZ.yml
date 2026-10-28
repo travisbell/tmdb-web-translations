@@ -14,7 +14,7 @@ cs-CZ:
   API Terms: Podmínky API
   API Terms of Use: Podmínky použití API
   API Updates: Aktualizace API
-  About: O
+  About: O TMDB
   About TMDb: O TMDB
   About this list: O tomto seznamu
   Accept: Přijmout
@@ -78,7 +78,7 @@ cs-CZ:
   Are you sure?: Opravdu?
   Attributes: Atributy
   Auto: Automaticky
-  Awards: Ceny
+  Awards: Ocenění
   Back to top: Zpět na začátek
   Backdrop Card View: Zobrazení karet pozadí
   Bad Image: Špatný obrázek
@@ -461,7 +461,7 @@ cs-CZ:
   Top Rated Movies: Nejlépe hodnocené filmy
   Top Rated TV Shows: Nejlépe hodnocené seriály
   Top Users: Nejlepší uživatelé
-  Translate Award: ''
+  Translate Award: 'Přeložit ocenění'
   Translate Collection: Přeložit kolekci
   Translate Movie: Přeložit film
   Translate Person: Přeložit osobu
@@ -794,8 +794,8 @@ cs-CZ:
     admin:
       delete: 'Smazat ocenění'
     air_date:
-      future: Bude se vysílat %{date}
-      past: Vysílalo se %{date}
+      future: Bude se konat %{date}
+      past: Konalo se %{date}
     alternative_names: Alternativní jména
     award: 'Ocenění'
     broadcast_episode: ''
@@ -819,25 +819,25 @@ cs-CZ:
       started_on: 'Zahájeno %{date}'
     category_empty: V této kategorii není žádná nominace.
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: 'Datum'
+      add_ceremony: 'Přidat ročník'
+      ceremonies: 'Ročníky'
+      ceremony: 'Ročník'
+      date: 'Datum konání'
       limits: 'Omezení'
       location: 'Místo konání'
-      locked: ''
-      number: 'Počet'
-      release_date_max: 'Poslední datum vydání'
-      release_date_min: 'První datum vydání'
+      locked: 'Přidávání nových ročníků bylo zakázáno moderátorem.'
+      number: 'Pořadí'
+      release_date_max: 'Poslední přípustné datum vydání'
+      release_date_min: 'První přípustné datum vydání'
       title: Slavnostní předávání
     field:
       homepage: 'Domovská stránka'
       name: 'Název'
-      overview: ''
+      overview: 'Popis'
     new_award:
       award_details: ''
-      click_next: ''
-      getting_started: ''
+      click_next: 'Tento průvodce tě ve 3 krocích provede procesem vytvoření nového ocenění. Pro zahájení klikněte na tlačítko Další.'
+      getting_started: 'Začátek'
       header_1: 'Nové ocenění'
       header_2: 'Přidat nové ocenění'
       note: ''
@@ -855,8 +855,8 @@ cs-CZ:
       one: 1 nominace
       other: "%{count} nominací"
       title: 'Nominace'
-      shared_with: ''
-    nominee: Nominovaný
+      shared_with: 'Společně pro...'
+    nominee: Nominace
     show_info:
       directed_by: Režie
       hosted_by: Uvádí
@@ -866,7 +866,7 @@ cs-CZ:
       produced_by: Produkce
       runtime: Délka
       title: Informace o pořadu
-    title: Ceny
+    title: Ocenění
     winner: Vítěz
     wins:
       one: 1 vítězství
@@ -1792,7 +1792,7 @@ cs-CZ:
     formats:
       abbrev: "%-d %b %Y"
       default: "%-d. %-m. %Y"
-      full_month_day: "%d.%m.%Y"
+      full_month_day: "%d. %m. %Y"
       full_month_year: "%B %Y"
       short_month_day_year: "%d. %b. %Y"
     month_names:
@@ -1821,7 +1821,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je a je proto považován za duplicitní.
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je a je proto považován za duplicitní.
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o duplicitu
@@ -1829,7 +1829,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název nesplňuje podmínky pro přidání na TMDB, například proto, že jde o amatérskou produkci. Co lze přidat, si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Neodpovídá našim pokynům pro nový obsah (amatér, atd.)
@@ -1837,7 +1837,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název již v naší databázi je jako seriál a není považován za platný film. Více o našich pokynech pro obsah si můžete přečíst [zde](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název je již v naší databázi přidán jako seriál, protože není považován za film. Více o našich pokynech pro nový obsah si můžete přečíst [zde](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o seriál
@@ -1845,7 +1845,7 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Nenašli jsme nic, co by dokládalo existenci tohoto titulu, a proto byl považován za falešný záznam. Přidávejte prosím pouze tituly, které lze ověřit. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o falešný záznam
@@ -1853,10 +1853,28 @@ cs-CZ:
         message: |-
           Ahoj,
 
-          Toto je jen přátelská poznámka od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název neodpovídá našim [pokynům pro nový obsah](https://www.themoviedb.org/bible/new_content).
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento záznam byl považován za spam. Záznamy, které inzerují nebo propagují produkty, služby či webové stránky, nejsou povoleny. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
         subject: Jedná se o spam
+      '7':
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento název je film, nikoli seriál, a proto by měl být přidán jako film. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o film
+      '8':
+        message: |-
+          Ahoj,
+
+          Toto je jen přátelské upozornění od moderátorů obsahu na TMDB. Vámi vytvořený záznam s názvem „%{title}“ byl odstraněn. Tento záznam obsahoval urážlivý nebo nevhodný obsah, který není povolen. Více si můžete přečíst v našich [pokynech pro nový obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokud máte jakékoli dotazy ohledně tohoto odstranění, neváhejte odpovědět na tuto zprávu.
+        subject: Jedná se o urážlivý nebo nevhodný obsah
+      '6':
+        subject: Byl vytvořen omylem nebo jeho autor požádal o odstranění
     why_deleting: Proč jste odstranili tento záznam?
   department_credits_count:
     one: '%{department} (%{count} záznam)'
@@ -1939,11 +1957,11 @@ cs-CZ:
         latest_ceremony: ''
         search_all_countries: ''
         search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+      adult_content: 'Hardcore obsah'
+      exclude_adult: 'Vyloučit'
+      include_adult: 'Zahrnout'
+      adult_filters: 'Obsah pro dospělé'
+      softcore_content: 'Softcore obsah'
     no_items: Pro váš dotaz nebyly nalezeny žádné výsledky.
     search: Hledat
     sort_options:
@@ -2007,12 +2025,12 @@ cs-CZ:
     category:
       last_reply_with_datetime: "%{date} v %{time}"
       last_reply_with_datetime_and_username: "%{date} v %{time}<br>od %{username}"
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
-      posted_by_with_datetime: ''
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      last_reply_with_datetime_v2: 'poslední odpověď %{date} v %{time}'
+      last_reply_with_datetime_and_username_v2: 'poslední odpověď od %{username} %{date} v %{time}'
+      posted_by_with_datetime: 'napsáno <time class="timeago" datetime="%{time}">%{time}</time>'
+      posted_by_with_datetime_and_username: '%{username} napsal <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} odpověděl <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by: '%{username} odpověděl'
     discussion_activity: Aktivita v diskusi
     email_notifications:
       email_notifications: Oznámení e-mailem
@@ -2032,7 +2050,7 @@ cs-CZ:
       message: Zpráva
       new_discussion: Nová diskuse
       subject: Předmět
-    no_activity: ''
+    no_activity: 'V této diskusi nedošlo k žádné aktivitě.'
     no_discussions: Žádné diskuse.
     pagination:
       post_summary:
@@ -2143,27 +2161,37 @@ cs-CZ:
     choose_image: Zvolit obrázek
     delete_list: Odstranit seznam
     edit_list: Upravit seznam
-    contributor_notes: ''
-    contributors: ''
-    create_invite_link: ''
-    edit_invite_link: ''
-    invite_contributor: ''
-    list_collaboration: ''
-    no_contributors: ''
-    created: ''
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    contributor_notes: 'Ostatní uživatele můžeš pozvat ke spolupráci na veřejných i soukromých seznamech.
+
+      Pozvaní uživatelé mohou pouze přidávat či odebírat položky a upravovat jejich komentáře.
+
+      Pro pozvání uživatele ke spolupráci na seznamu mu pošli odkaz s pozvánkou, a to buď emailem nebo nějakou jinou komunikační aplikací.
+
+      Aby mohla pozvaná osoba pozvánku přijmout, musí mít vytvořený účet na TMDB.'
+    contributors: 'Přispěvatelé'
+    create_invite_link: 'Vytvořit odkaz s pozvánkou'
+    edit_invite_link: 'Upravit odkaz s pozvánkou'
+    invite_contributor: 'Pozvat přispěvatele'
+    list_collaboration: 'Spolupráce na seznamu'
+    no_contributors: 'Zatím nejsou přidání žádní přispěvatelé k seznamu. Pro pozvání přispěvatele vytvoř odkaz s pozvánkou a odešli jej.'
+    created: 'Seznam byl vytvořen'
+    confirm_delete: '<p>Tato položka má komentář:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Jsi si jistý, že ji chceš odstranit?</p>'
+    confirm_delete_grid: 'Opravdu chceš odstranit %{media_name}?'
   edits: úprav
   email:
     confirm_new_email_address: Potvrďte novou e-mailovou adresu
     does_not_match: E-mailové adresy se neshodují, zkuste to znovu.
     new_email_address: Nová e-mailová adresa
-    sent_verification_email: Odeslali jsme e-mail na %{email_address}, aby byla ověřena. Zkontrolujte složku doručené pošty (a složku nevyžádané pošty), kde naleznete pokyny, jak postupovat dále.
+    sent_verification_email: Odeslali jsme e-mail na %{email_address}, k ověření této adresy. Zkontroluj složku doručené pošty (a složku nevyžádané pošty), kde nalezneš pokyny, jak postupovat dále.
     unsubscribe:
-      sad_to_go: ''
-      subscription_changed: ''
+      sad_to_go: '%{username}, mrzí nás, že jsi se odhlásil!'
+      subscription_changed: 'Nastavení tvých odběrů bylo aktualizováno. Nastavení svých oznámení můžeš upravovat na stránce <a href="%{account_link}">nastavení oznámení</a>.'
       unsubscribe: Odhlásit odběr
-      unsubscribed: ''
+      unsubscribed: 'Byl jsi <strong>odhlášen z odběru</strong>. Pokud jsi odhlášení provedl omylem, můžeš se k odběru znovu přihlásit, pokud navšívíš stránku svých <a href="%{account_link}">nastavení oznámení</a>.'
   emoji:
     short_name:
       1f600: ''
@@ -2195,7 +2223,7 @@ cs-CZ:
       1f92d: ''
       1f92e: ''
       1f92f: ''
-      1f971: ''
+      1f971: 'Zívající obličej'
       1f972: ''
       1fae2: ''
       1fae3: ''
@@ -2236,12 +2264,12 @@ cs-CZ:
       description: Tento příspěvek porušoval naše <a href="%{link}">zásady slušného chování</a>. Příslušný uživatelský účet mohl být zablokován.
       title: Tento příspěvek byl odstraněn
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'Z tvojí adresy jsme obdrželi příliš mnoho pokusů o přihlášení. Počkej pár sekund a pak to zkus znovu.'
+      title: 'Příliš mnoho pokusů o přihlášení'
   errors:
     attributes:
       descriptors:
-        invalid_for_country: ''
+        invalid_for_country: 'není platný pro zemi %{country_code}'
       iso_3166_1:
         invalid: není platná země
       iso_639_1:
@@ -2407,7 +2435,7 @@ cs-CZ:
         in_theaters: V kinech
         movies: Filmy
         on_tv: Seriály
-        popular: ''
+        popular: 'Populární'
         streaming: Streamované
         this_week: Tento týden
         today: Dnes
@@ -3697,8 +3725,8 @@ cs-CZ:
           adult_award: ''
         title_logos: ''
       header:
-        latest_ceremony: ''
-        upcoming_ceremony: ''
+        latest_ceremony: 'Prohlédni si poslední ročník'
+        upcoming_ceremony: 'Prohlédni si nadcházející ročník'
     cast_credits:
       cast_credits: ''
       select: ''
@@ -3861,7 +3889,7 @@ cs-CZ:
           status:
             none: ''
             hardcore: ''
-            softcore: ''
+            softcore: 'Softcore'
         alternative_titles:
           no_records: Nebyly přidány žádné alternativní názvy.
         cast:
@@ -3975,7 +4003,7 @@ cs-CZ:
         one: '%{count} hodnocení'
         few: '%{count} hodnocení'
         other: '%{count} hodnocení'
-      removed: ''
+      removed: 'Tvé hodnocení bylo smazáno.'
       score_breakdown: Přehled hodnocení
       score_distribution: Rozložení hodnocení
       score_history: Historie hodnocení
@@ -4002,7 +4030,7 @@ cs-CZ:
       seasons: ''
       translations: Překlady
       videos: Videa
-      awards: ''
+      awards: 'Ocenění'
     social_panel:
       discussions:
         currently_subscribed: Aktuálně jste přihlášeni k odběru, abyste obdrželi oznámení, když někdo vytvoří první příspěvek.
@@ -4185,7 +4213,7 @@ cs-CZ:
       intro_2: ''
       verify: ''
     more_like_this:
-      if_you_liked_this: ''
+      if_you_liked_this: 'Pokud se ti líbil <em>%{name}</em>, mohl by se ti líbit i...'
       or_something_more: ''
       genres:
         '12': ''
@@ -4218,9 +4246,11 @@ cs-CZ:
   message_templates:
     help_translate:
       message: |-
-        Ahoj, díky za používání TMDB. Všiml jsem si, že procházíte TMDB v jazyce, jehož překlad není dokončen. Pokud máte zájem pomoci nám se získáním těchto dat, můžete tak učinit navštívením našeho projektu [Locale project] (https://www.localeapp.com/projects/8267). [Registrace](https://www.localeapp.com/users/sign_up) do služby Locale je zdarma a můžete přidat tolik nových překladů, na kolik máte čas. Každá úprava pomůže.
+        Ahoj, díky za používání TMDB!
 
-        Pokud o to nemáte zájem, nic se neděje. Jen mě napadlo vás požádat.
+        Všiml jsem si, že procházíte TMDB v jazyce, který nepatří mezi naše dokončené jazyky. Pokud máte zájem pomoci nám tato data doplnit, můžete tak učinit návštěvou našeho [projektu na Weblate](https://weblate.themoviedb.org).
+
+        Pokud o to nemáte zájem, nic se neděje. Jen mě napadlo se zeptat.
 
         Díky a mějte se!
       subject: Pomozte nám přeložit naše stránky
@@ -4516,9 +4546,9 @@ cs-CZ:
     watchlist_movie: Hledat seznam filmů ke zhlédnutí…
     watchlist_tv: Hledat seznam seriálů ke zhlédnutí…
     for_media: ''
-    softcore: ''
+    softcore: 'Softcore'
   search_text_validation_error: ''
-  search_tip_1: 'Tip: Pro omezení vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
+  search_tip_1: 'Tip: Pro zúžení rozsahu vyhledávání podle roku můžete použít filtr „y:“. Příklad: „star wars y:1977“.'
   season_number_name: "%{season_number}. sezóna"
   season_overview:
     already_aired: "%{season_number}. sezóna seriálu %{show_name} měla premiéru %{date}."
@@ -4795,14 +4825,14 @@ cs-CZ:
         angry: 'Naštvaně'
         disgusted: 'Znechuceně'
         happy: 'Šťastně'
-        interested: 'Zaujatě'
+        interested: 'Zamyšleně'
         sad: 'Smutně'
         surprised: 'Překvapeně'
-      prompt: 'Jak se z %{title} cítíš?'
+      prompt: 'Jak se po shlédnutí %{title} cítíš?'
     rating:
       clear: 'Smaž mé hodnocení'
       label: 'Hodnocení'
-      prompt: 'Co si myslíš o %{title}?'
+      prompt: 'Jaké je tvé hodnocení %{title}?'
       tooltip:
         '0': ''
         '10': ''
@@ -4824,7 +4854,7 @@ cs-CZ:
       select: 'Vyber vyznění...'
     welcome: ''
     whats_new: 'Co je nového?'
-    whats_your_vibe: 'Jaký je tvůj <span class="%{style}">pocit</span>?'
+    whats_your_vibe: 'Jaký je tvůj <span class="%{style}">dojem</span>?'
     your_vibe:
       one: Tvůj pocit
       few: Tvé pocity

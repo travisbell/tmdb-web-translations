@@ -31,7 +31,7 @@ zh-CN:
   Add Item: 添加条目
   Add Missing Cast & Crew: 添加缺失的演职人员
   Add Network: 添加播出平台
-  Add New Award: ''
+  Add New Award: '添加新奖'
   Add New Episode: 添加新一集
   Add New Movie: 添加新电影
   Add New Release: 添加发行信息
@@ -130,7 +130,7 @@ zh-CN:
   DMCA Policy: DMCA政策
   DMCA Takedown Request: DMCA 移除请求
   Date: 日期
-  Date Added: ''
+  Date Added: '添加日期'
   Day of Death: 去世日期
   Default Language: 网站界面的默认语言
   Delete: 删除
@@ -232,7 +232,7 @@ zh-CN:
   Job: 工作
   Join the Community: 加入社区
   Joined in: 加入
-  Key: ''
+  Key: '值'
   Keyword: 关键词
   Keyword Results: 关键词结果
   Keywords: 关键词
@@ -294,7 +294,7 @@ zh-CN:
   Notes: 备注
   Notifications: 通知
   Now Playing Movies: 正在上映电影
-  Number: ''
+  Number: '号码'
   Number of Movies: 电影数
   Number of TV Shows: 节目数
   Number of edits in the past: 过去编辑次数
@@ -302,7 +302,7 @@ zh-CN:
   Offical Site: 官方网站
   Offline Databases: 离线数据库
   Ok: OK
-  Optional: ''
+  Optional: '可选'
   Origin Country: 原始国家或地区
   Original Air Date: 首播日期
   Original Language: 默认语言
@@ -312,7 +312,7 @@ zh-CN:
   Original TV Show Language: 节目原生语言
   Original Title: 原名
   Other Databases: 其它数据库
-  Others: ''
+  Others: '其他'
   Overview: 简介
   Page: 页
   People: 人员
@@ -373,7 +373,7 @@ zh-CN:
   Report an Issue: 问题反馈
   Reported Issues: 已反馈问题
   Request an API Key: 请求 API 密钥
-  Required: ''
+  Required: '必要'
   Resend Activation Email: 重发激活邮件
   Reset: 重置
   Reset Password: 重置密码
@@ -388,7 +388,7 @@ zh-CN:
   Search for a language: 搜索语言...
   Search for a movie: 搜索电影
   Search for a movie or TV show: 搜索电影或节目
-  Search for a movie, TV show, person: 搜索电影、电视节目、人物...
+  Search for a movie, TV show, person: 搜索电影、剧集、人物...
   Season: 季
   Season Number: 季数
   Season Overview: 季简介
@@ -438,7 +438,7 @@ zh-CN:
   TV: 电视
   TV Network: 电视播出平台
   TV Recommendations: 电视节目推荐
-  TV Show: ''
+  TV Show: '剧集'
   TV Show Data: 节目资料
   TV Show Results: 节目结果
   TV Show Status: 电视节目状态
@@ -461,7 +461,7 @@ zh-CN:
   Top Rated Movies: 高分电影
   Top Rated TV Shows: 高分电视节目
   Top Users: 用户排行
-  Translate Award: ''
+  Translate Award: '翻译奖项'
   Translate Collection: 翻译合集
   Translate Movie: 翻译电影
   Translate Person: 翻译人物
@@ -513,7 +513,7 @@ zh-CN:
   account:
     reviews:
       delete:
-        message: ''
+        message: '删除此评论是永久性操作，无法撤销。'
   account_drop_down:
     discussions: 讨论
     edit_profile: 编辑个人资料
@@ -528,7 +528,7 @@ zh-CN:
     sign_up: 注册
     view_profile: 查看个人资料
     watchlist: 待看片单
-    reviews: ''
+    reviews: '评价'
   accounts:
     activity:
       activity: 活动
@@ -628,19 +628,19 @@ zh-CN:
       no_lists:
         logged_in: 你尚未创建过任何片单。
         public: "%{username} 尚未分享过任何片单。"
-        search: ''
+        search: '未找到片单。'
       page_title:
         page_owner: 我的片单
         public: "%{username} 的片单"
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: '搜索片单...'
+      add_to_lists: '添加<span class="bold">%{media_name}</span>到片单'
+      contributor: '贡献者'
+      create_new_list: '创建一个新片单'
+      created: '已创建片单'
+      my_new_list: '我的新片单...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: '你还没有写过任何评论。'
+        public: '%{username}还没有写过任何评论。'
     member_since: "%{date}成为本网站会员"
     navigation:
       discussions: 讨论
@@ -719,8 +719,8 @@ zh-CN:
       view_them: 浏览待看片单。
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: '我的评价'
+        public: '%{username}的评价'
   add_to_list: 添加 %{media_title} 到你的片单...
   already_translated_in: "%{page_title} 已翻译成以下语言..."
   api_for_business:
@@ -787,14 +787,14 @@ zh-CN:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
     alternative_names: 其他名称
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
+    award: '奖项'
+    broadcast_episode: '播出集数'
+    broadcast_episode_tooltip: '点击剧集链接即可查看制作信息。'
+    broadcast_series: '系列剧'
     broadcast_series_tooltip: ''
     categories:
-      add_category: ''
-      categories: ''
+      add_category: '新增分类'
+      categories: '类别'
       category: ''
       crew_credit_departments: ''
       crew_credit_jobs: ''
@@ -1810,7 +1810,7 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。你创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[增加新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该作品不符合添加到 TMDB 的条件，例如因为它是业余作品。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解哪些内容可以添加。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 不符合我们的内容准则（业余，等等）
@@ -1826,7 +1826,7 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。我们未能找到任何能证明该作品存在的信息，因此它被认定为虚假条目。请仅添加可以核实的作品。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是一个假条目
@@ -1834,10 +1834,28 @@ zh-CN:
         message: |-
           您好，
 
-          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目不符合我们的[新内容准则](https://www.themoviedb.org/bible/new_content)。
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目被认定为垃圾信息。不允许发布宣传或推广产品、服务或网站的条目。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
 
           如果您对本次删除有任何疑问，请随时回复本消息。
         subject: 这是垃圾信息
+      '7':
+        message: |-
+          您好，
+
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该作品是电影而不是电视节目，因此应作为电影添加。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
+        subject: 这是一部电影
+      '8':
+        message: |-
+          您好，
+
+          这是来自 TMDB 内容管理员的友情提示。您创建的标题为“%{title}”的条目已经被删除。该条目包含冒犯性或不当内容，这是不允许的。您可以在我们的[新内容准则](https://www.themoviedb.org/bible/new_content)中了解更多信息。
+
+          如果您对本次删除有任何疑问，请随时回复本消息。
+        subject: 这是冒犯性或不当内容
+      '6':
+        subject: 误创建，或创建者要求删除
     why_deleting: 你为什么要删除此条目？
   department_credits_count:
     other: '%{department} (参与 %{count} 部作品)'
@@ -4152,7 +4170,9 @@ zh-CN:
   message_templates:
     help_translate:
       message: |-
-        您好，感谢使用 TMDB。注意到您正使用一种还未翻译完成的语言浏览 TMDB。如果您有兴趣帮助我们完成这些翻译，可以访问我们的 [Locale 项目](https://www.localeapp.com/projects/8267)。Locale 的[注册](https://www.localeapp.com/users/sign_up)是免费的，您可以在有空时添加尽可能多的新翻译。点滴的工作都是有益的。
+        您好，感谢使用 TMDB！
+
+        注意到您正在使用一种尚未完成翻译的语言浏览 TMDB。如果您有兴趣帮助我们完善这些数据，可以访问我们的 [Weblate 项目](https://weblate.themoviedb.org)。
 
         如果您对此不感兴趣也没关系。我只是想问问。
 
@@ -4332,7 +4352,7 @@ zh-CN:
   number_of_items:
     other: 共 %{count} 个条目
   number_of_results:
-    other: 共 {count} 个结果
+    other: 共 %{count} 个结果
   number_of_translations:
     other: 共 %{count} 个翻译
   number_of_votes:

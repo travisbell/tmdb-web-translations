@@ -3,7 +3,7 @@ ja-JP:
   API: API
   API Access Token: APIアクセストークン
   API Details: APIの詳細
-  API Documentation: ''
+  API Documentation: 'APIドキュメンテーション'
   API Key: APIキー
   API Libraries: APIライブラリー
   API Overview: API概要
@@ -14,7 +14,7 @@ ja-JP:
   API Terms: APIの用語
   API Terms of Use: API利用規約
   API Updates: APIアップデート
-  About: '次について: '
+  About: 'について'
   About TMDb: TMDbについて
   About this list: このリストについて
   Accept: 同意する
@@ -27,11 +27,11 @@ ja-JP:
   Add Content Rating: コンテンツの評価を追加
   Add Creator: クリエイターを追加
   Add Data & Content: データとコンテンツを追加
-  Add Headshot: ''
+  Add Headshot: '顔写真を追加'
   Add Item: アイテムを追加
   Add Missing Cast & Crew: 出演者・スタッフを追加
   Add Network: テレビ局を追加
-  Add New Award: ''
+  Add New Award: '新しい賞を追加'
   Add New Episode: 新しいエピソードを追加
   Add New Movie: 新しい映画を追加
   Add New Release: 新しい公開日を追加
@@ -65,8 +65,8 @@ ja-JP:
   Alternative Titles: 別題
   Apiary Documentation: Apiaryのドキュメンテーション
   App Directory: アプリディレクトリ
-  App Showcase: " アプリ一覧"
-  Appearances: ''
+  App Showcase: "アプリ一覧"
+  Appearances: '出演作品'
   Application Description: アプリケーションの説明
   Application Name: アプリケーション名
   Application Summary: アプリケーション概要
@@ -115,7 +115,7 @@ ja-JP:
   Continue: 続ける
   Contribution leaders for the week of: 直近一週間の貢献度上位者
   Convert to Collection?: コレクションに変換しますか？
-  Convert to Movie?: ''
+  Convert to Movie?: '動画に変換しますか？'
   Country: 国
   Create: 作成する
   Create App: アプリを作る
@@ -125,12 +125,12 @@ ja-JP:
   Created By: によって作成されました
   Credits: クレジット
   Crew: スタッフ
-  Currently Airing TV Shows: " 現在放送中のテレビ番組"
+  Currently Airing TV Shows: "現在放送中のテレビ番組"
   Currently on page: 現在のページ
-  DMCA Policy: ''
+  DMCA Policy: 'DMCA（デジタルミレニアム著作権法）に関する方針'
   DMCA Takedown Request: デジタルミレニアム著作権法による削除リクエスト
   Date: 日付
-  Date Added: ''
+  Date Added: '追加日'
   Day of Death: 逝去
   Default Language: 既定の言語
   Delete: 削除
@@ -205,7 +205,7 @@ ja-JP:
   Forum: フォーラム
   Forums: フォーラム
   Full Cast & Crew: すべての出演者・スタッフ
-  Full Character List: ''
+  Full Character List: '全キャラクター一覧'
   Full Leaderboard: 全てのランキング
   Gender: 性別
   General: 全般
@@ -270,7 +270,7 @@ ja-JP:
   Logout: ログアウト
   Mark as Favorite: お気に入りに追加
   Media: メディア
-  Member since: ''
+  Member since: '会員登録日'
   Merge Keyword: キーワード統合
   Mixed Compact View: コンパクト
   Mobile Application: モバイルアプリ
@@ -500,7 +500,7 @@ ja-JP:
   View Profile Images: プロフィール画像を見る
   View the Collection: コレクションを見る
   Watch Online: ''
-  Watchlist: " ウォッチリスト"
+  Watchlist: "ウォッチリスト"
   Watchlists: ウォッチリスト
   Website: ウェブサイト
   Website Terms: ''
@@ -838,10 +838,10 @@ ja-JP:
       add_nomination: ''
       locked: ''
       movie: ''
-      nomination: ''
+      nomination: 'ノミネート'
       one: ''
       other: ''
-      title: ''
+      title: 'ノミネート'
       shared_with: ''
     nominee: ノミネート
     show_info:
@@ -1809,7 +1809,8 @@ ja-JP:
 
           TMDbのコンテンツ管理者からの友好的な文書です。
           “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
-          このタイトルは「新しいコンテンツの手引き」（https://www.themoviedb.org/bible/new_content）の基準を満たしていません。
+          このタイトルはアマチュア作品であるなどの理由により、TMDbに追加できる対象ではありません。
+          追加できるものについては、[新しいコンテンツのガイドライン](https://www.themoviedb.org/bible/new_content)をご覧ください。
 
           この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
         subject: 私たちのコンテンツガイドラインに合致しません。（アマチュアなど…）
@@ -1817,7 +1818,7 @@ ja-JP:
         message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルはすでにテレビ番組として存在し、有効な映画とはみなされません。\nコンテンツのガイドライン[こちら](https://www.themoviedb.org/bible/new_content)をご覧ください。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
         subject: これはテレビ番組です
       '4':
-        message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。 \n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
+        message: "こんにちは。\n\nTMDbのコンテンツ管理者からの友好的な文書です。\n“%{title}”というタイトルで、あなたが作成した書き込みは削除されました。\nこのタイトルが実在することを示す情報が見つからなかったため、偽のエントリとみなされました。\n実在が確認できるタイトルのみを追加してください。\n詳しくは[新しいコンテンツのガイドライン](https://www.themoviedb.org/bible/new_content)をご覧ください。\n\nこの削除に関するご質問がある場合は、お気軽にこのメールに返信してください。"
         subject: それは偽のエントリです
       '5':
         message: |-
@@ -1825,10 +1826,36 @@ ja-JP:
 
           TMDbのコンテンツ管理者からの友好的な文書です。
           “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
-          このタイトルは、[新しいコンテンツのガイドライン]（https://www.themoviedb.org/bible/new_content）を満たしていませんでした。
+          この書き込みはスパムとみなされました。
+          製品、サービス、ウェブサイトを宣伝・広告する書き込みは許可されていません。
+          詳しくは[新しいコンテンツのガイドライン](https://www.themoviedb.org/bible/new_content)をご覧ください。
 
           この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
         subject: これはスパムです
+      '7':
+        message: |-
+          こんにちは。
+
+          TMDbのコンテンツ管理者からの友好的な文書です。
+          “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
+          このタイトルはテレビ番組ではなく映画であるため、映画として追加する必要があります。
+          詳しくは[新しいコンテンツのガイドライン](https://www.themoviedb.org/bible/new_content)をご覧ください。
+
+          この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
+        subject: これは映画です
+      '8':
+        message: |-
+          こんにちは。
+
+          TMDbのコンテンツ管理者からの友好的な文書です。
+          “%{title}”というタイトルで、あなたが作成した書き込みは削除されました。
+          この書き込みには、許可されていない不快または不適切な内容が含まれていました。
+          詳しくは[新しいコンテンツのガイドライン](https://www.themoviedb.org/bible/new_content)をご覧ください。
+
+          この削除に関するご質問がある場合は、お気軽にこのメールに返信してください。
+        subject: これは不快または不適切な内容です
+      '6':
+        subject: 誤って作成された、または作成者から削除の依頼がありました
     why_deleting: なぜこの書き込みを削除しますか？
   department_credits_count:
     other: '%{department} (%{count} クレジット)'
@@ -4134,16 +4161,13 @@ ja-JP:
   message_templates:
     help_translate:
       message: |-
-        こんにちは、TMDbを使用していただきありがとうございます。
-        あなたがTMDbを翻訳されていない言語でブラウジングしているのに気付きました。
-        このデータを完成させる手助けに関心がある場合は、翻訳プロジェクト(https://www.localeapp.com/projects/8267)にアクセスしてください。
-        サインアップ(https://www.localeapp.com/users/sign_up)は無料で、時間がある限り多くの新しい翻訳を追加できます。
-        すべての編集が役に立ちます。
+        こんにちは、TMDBをご利用いただきありがとうございます！
 
-        興味がないなら気にしないでください。
-        ちょっと尋ねてみただけです。
+        翻訳がまだ完了していない言語でTMDBをご覧になっているようです。翻訳の完成にご協力いただける場合は、[Weblateプロジェクト](https://weblate.themoviedb.org)にアクセスしてください。
 
-        読んでくれてありがとう。お体に気をつけて！
+        ご興味がなければ、どうぞお気になさらないでください。ちょっとお尋ねしてみただけです。
+
+        ありがとうございました。どうぞお元気で！
       subject: 私たちのウェブサイトの翻訳を手伝う
   messages:
     compose:

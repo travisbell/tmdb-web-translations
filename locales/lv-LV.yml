@@ -1831,7 +1831,7 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šo nosaukumu nevar pievienot TMDB, piemēram, tāpēc, ka tas ir amatieru darbs. Ko drīkst pievienot, vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas neatbilst mūsu satura vadlīnijām (amatieru utt.)
@@ -1847,7 +1847,7 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Mēs neatradām neko, kas apliecinātu, ka šis nosaukums pastāv, tāpēc tas tika uzskatīts par viltus ierakstu. Lūdzu, pievieno tikai tādus nosaukumus, kurus var pārbaudīt. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas ir viltus ieraksts
@@ -1855,10 +1855,28 @@ lv-LV:
         message: |-
           Sveiciens!
 
-          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums neatbilda mūsu [jaunajām satura vadlīnijām](https://www.themoviedb.org/bible/new_content).
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis ieraksts tika uzskatīts par surogātpastu. Ieraksti, kas reklamē vai popularizē produktus, pakalpojumus vai tīmekļa vietnes, nav atļauti. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
 
           Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
         subject: Tas ir surogātpasts
+      '7':
+        message: |-
+          Sveiciens!
+
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis nosaukums ir filma, nevis TV pārraide, tāpēc tas jāpievieno kā filma. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
+
+          Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
+        subject: Tā ir filma
+      '8':
+        message: |-
+          Sveiciens!
+
+          Šī ir tikai draudzīga piezīme no TMDB satura pārraudzītājiem. Tevis izveidotais ieraksts ar nosaukumu "%{title}" tika izdzēsts. Šis ieraksts saturēja aizskarošu vai nepiemērotu saturu, kas nav atļauts. Vairāk vari izlasīt mūsu [jaunajās satura vadlīnijās](https://www.themoviedb.org/bible/new_content).
+
+          Ja ir kādi jautājumi par šo izdzēšanu, droši atbildi uz šo ziņojumu!
+        subject: Tas ir aizskarošs vai nepiemērots
+      '6':
+        subject: Tas tika izveidots kļūdas pēc, vai autors lūdza to izdzēst
     why_deleting: Kāpēc izdzēs šo ierakstu?
   department_credits_count:
     zero: '%{department} (%{count} uzskaitījumu)'
@@ -4223,13 +4241,13 @@ lv-LV:
   message_templates:
     help_translate:
       message: |-
-        Sveiciens!
+        Sveiciens, paldies, ka izmanto TMDB!
 
-        Paldies, ka izmanto TMDB. Es pamanīju, ka pārlūko TMDB valodā, kuras tulkošana vēl nav pabeigta. Ja vēlies mums palīdzēt pabeigt tulkošanu, vari to izdarīt mūsu [Locale projektu](https://www.localeapp.com/projects/8267). [Reģistrēšanās](https://www.localeapp.com/users/sign_up) vietnē Locale ir bez maksas, un vari pievienot tik daudz jaunu tulkojumu, cik vien Tev ir laiks. Katrs labojums palīdz.
+        Es pamanīju, ka pārlūko TMDB valodā, kas nav viena no mūsu pabeigtajām valodām. Ja vēlies mums palīdzēt pabeigt tulkošanu, vari to izdarīt, apmeklējot mūsu [Weblate projektu](https://weblate.themoviedb.org).
 
         Neuztraucies, ja Tevi tas nepavisam nesaista! Es tikai iedomājos pajautāt.
 
-        Paldies, un esi uzmanīgs!
+        Paldies, un visu labu!
       subject: Palīdzi tulkot mūsu vietni
   messages:
     compose:

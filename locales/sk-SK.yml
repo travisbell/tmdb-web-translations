@@ -388,7 +388,7 @@ sk-SK:
   Search for a language: Hľadať jazyk...
   Search for a movie: Vyhľadávať film
   Search for a movie or TV show: Hľadať film alebo seriál
-  Search for a movie, TV show, person: Hľadať film, seriál alebo osobu
+  Search for a movie, TV show, person: Hľadať film, seriál alebo osobu...
   Season: Séria
   Season Number: Číslo série
   Season Overview: Obsah série
@@ -1822,7 +1822,7 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento titul nie je možné pridať na TMDB, napríklad preto, že ide o amatérsku produkciu. O tom, čo je možné pridať, sa dočítate v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Nespĺňa naše pravidlá pre obsah (amatérske, atď...)
@@ -1838,7 +1838,7 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Nenašli sme nič, čo by potvrdzovalo existenciu tohto titulu, preto bol vyhodnotený ako falošný príspevok. Pridávajte, prosím, iba tituly, ktoré je možné overiť. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Je to falošný príspevok
@@ -1846,10 +1846,28 @@ sk-SK:
         message: |-
           Ahoj,
 
-          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Jeho názov nespĺňal naše [nové pravidlá pre obsah](https://www.themoviedb.org/bible/new_content).
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento príspevok bol vyhodnotený ako spam. Príspevky, ktoré propagujú alebo inzerujú produkty, služby či webové stránky, nie sú povolené. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
 
           Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
         subject: Je to spam
+      '7':
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento titul je film, nie seriál, preto by mal byť pridaný ako film. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to film
+      '8':
+        message: |-
+          Ahoj,
+
+          táto správa je len priateľský odkaz od moderátorov obsahu na TMDB. Príspevok, ktorý ste vytvorili pod menom "%{title}" bol vymazaný. Tento príspevok obsahoval urážlivý alebo nevhodný obsah, čo nie je povolené. Viac sa môžete dočítať v našich [nových pravidlách pre obsah](https://www.themoviedb.org/bible/new_content).
+
+          Pokiaľ máte otázky ohľadom tohto vymazania, jednoducho odpovedzte na túto správu.
+        subject: Je to urážlivé alebo nevhodné
+      '6':
+        subject: Bol vytvorený omylom alebo autor požiadal o jeho vymazanie
     why_deleting: Prečo vymazávate tento príspevok?
   department_credits_count:
     one: '%{department} (%{count} titulky)'
@@ -4205,9 +4223,13 @@ sk-SK:
   message_templates:
     help_translate:
       message: |-
-        Ahoj, ďakujeme že používate TMDB. Všimli sme si, že prehliadate TMDB v jazyku, ktorý nemá dokončený preklad. Pokiaľ by ste mali záujem nám pomôcť s jeho dokončením, môžete tak urobiť na našej [Locale stránke](https://www.localeapp.com/projects/8267). [Registrácia](https://www.localeapp.com/users/sign_up) na Locale je zdarma a môžete pridať toľko prekladov, na koľko máte čas. Každá jedna úprava nám pomôže.
+        Ahoj, ďakujeme, že používate TMDB!
 
-        Pokiaľ nemáte záujem o túto ponuku, nevadí. Len sme mysleli, že sa aspoň spýtame.
+        Všimli sme si, že prehliadate TMDB v jazyku, ktorý nepatrí medzi naše dokončené jazyky. Pokiaľ by ste mali záujem nám pomôcť s jeho dokončením, môžete tak urobiť v našom [projekte na Weblate](https://weblate.themoviedb.org).
+
+        Ak o to nemáte záujem, nevadí. Len sme sa chceli opýtať.
+
+        Ďakujeme a majte sa!
       subject: Pomôžte preložiť našu webovú stránku
   messages:
     compose:

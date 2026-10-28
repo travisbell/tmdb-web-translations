@@ -856,7 +856,7 @@ zh-TW:
     title: 獎項
     winner: 得獎者
     wins:
-      other: 1 項獲獎
+      other: '%{count} 項獲獎'
     most_awarded_films: ''
     most_awarded_people: ''
     most_nominated_films: ''
@@ -1810,7 +1810,7 @@ zh-TW:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該作品不符合加入 TMDB 的資格，例如屬於業餘製作。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content)，了解哪些內容可以加入。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 不符合內容指南規範
@@ -1826,7 +1826,7 @@ zh-TW:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們「增加新內容指南」（https://www.themoviedb.org/bible/new_content）的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為我們找不到任何資料可證明該作品確實存在，因此被視為虛假條目。請僅新增可查證的作品。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 這是一個假條目
@@ -1834,10 +1834,28 @@ zh-TW:
         message: |-
           您好：
 
-          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目不符合我們 [新內容指南](https://www.themoviedb.org/bible/new_content) 的規範。
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目被視為垃圾內容。我們不允許建立用於宣傳或推廣產品、服務或網站的條目。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
 
           若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
         subject: 這是垃圾內容
+      '7':
+        message: |-
+          您好：
+
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該作品是電影而非電視節目，因此應以電影的形式新增。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: 這是一部電影
+      '8':
+        message: |-
+          您好：
+
+          您先前建立的標題為「%{title}」的條目已被刪除。刪除原因為該條目含有冒犯性或不當內容，此類內容不被允許。您可參閱我們的 [新內容指南](https://www.themoviedb.org/bible/new_content) 以取得更多資訊。
+
+          若您對此動作有疑問，請回覆此訊息，我們將為您處理，謝謝！
+        subject: 這是冒犯性或不當的內容
+      '6':
+        subject: 誤建的條目，或建立者要求刪除
     why_deleting: 你為什麼要刪除這個條目？
   department_credits_count:
     other: '%{department}（參與 %{count} 部作品）'
@@ -4143,11 +4161,13 @@ zh-TW:
   message_templates:
     help_translate:
       message: |-
-        嗨！感謝使用 TMDb。我注意到目前 TMDB 並不支援您所使用的語言，如果您有興趣支援我們的網站翻譯工程，請參訪我們的 [Locale 專案](https://www.localeapp.com/projects/8267) 。在 Locale [註冊](https://www.localeapp.com/users/sign_up) 帳戶是免費的，並且您能協助翻譯網頁任一語言，任何幫助我們都萬分感謝！
+        嗨，感謝使用 TMDB！
 
-        若您對於網站翻譯無任何興趣也不要緊，請隨意的參訪網站。
+        我注意到您正在使用的語言尚未完成翻譯。如果您有興趣協助我們完成這些資料，請參訪我們的 [Weblate 專案](https://weblate.themoviedb.org)。
 
-        謝謝！
+        若您沒有興趣也不要緊，我只是想問問而已。
+
+        謝謝，祝您一切安好！
       subject: 協助翻譯網站
   messages:
     compose:

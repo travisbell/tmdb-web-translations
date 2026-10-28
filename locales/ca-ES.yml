@@ -1834,7 +1834,7 @@ ca-ES:
         message: |-
           Ei, hola,
 
-          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol no coincidia amb la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
+          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol no es pot afegir a TMDB, per exemple perquè és una producció d'aficionats. Podeu llegir què s'hi pot afegir a la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
 
           Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
         subject: No encaixa amb la nostra guia de contingut (aficionat, etc.)
@@ -1850,7 +1850,7 @@ ca-ES:
         message: |-
           Ei, hola,
 
-          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol no complia amb la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
+          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. No hem trobat res que demostri que aquest títol existeix, per la qual cosa s'ha considerat una entrada falsa. Afegiu només títols que es puguin verificar. Podeu llegir-ne més a la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
 
           Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
         subject: És una entrada falsa
@@ -1858,10 +1858,28 @@ ca-ES:
         message: |-
           Ei, hola,
 
-          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol no complia amb la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
+          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquesta entrada s'ha considerat brossa. No es permeten les entrades que anunciïn o promocionin productes, serveis o llocs web. Podeu llegir-ne més a la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
 
           Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
         subject: És brossa
+      '7':
+        message: |-
+          Ei, hola,
+
+          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquest títol és una pel·lícula, no una sèrie de televisió, així que s'ha d'afegir com a pel·lícula. Podeu llegir-ne més a la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
+
+          Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
+        subject: És una pel·lícula
+      '8':
+        message: |-
+          Ei, hola,
+
+          Aquesta és una nota amistosa dels moderadors de contingut de TMDB. L'entrada que heu creat anomenada %{title} ha estat eliminada. Aquesta entrada tenia contingut ofensiu o inadequat, cosa que no està permesa. Podeu llegir-ne més a la nostra [guia de contingut nou](https://www.themoviedb.org/bible/new_content).
+
+          Si teniu cap pregunta sobre aquesta eliminació no dubteu a respondre aquest missatge.
+        subject: És ofensiu o inadequat
+      '6':
+        subject: S'ha creat per error o el creador n'ha demanat l'eliminació
     why_deleting: Per què esteu eliminant aquesta entrada?
   department_credits_count:
     one: '%{department} (%{count} credit)'
@@ -4226,9 +4244,11 @@ ca-ES:
   message_templates:
     help_translate:
       message: |-
-        Ei, hola, gràcies per fer servir TMDB. Ens hem fixat que esteu navegant per TMDB en una llengua que no té la traducció finalitzada. Si esteu interessat en ajudar-nos en completar-la ho podeu fer visitant el nostre [Projecte de traducció] (http://www.localeapp.com/projects/8267). [Registrar-se](https;www.localeapp.com/users/sign_up) a Locale és gratuït i hi podeu afegir tantes traduccions com temps tingueu. Cada edició ajuda.
+        Ei, hola, gràcies per fer servir TMDB!
 
-        Si no hi teniu gens d'interès, no us amoïneu. Tan sols us n'informàvem.
+        Ens hem fixat que esteu navegant per TMDB en una llengua que no forma part de les nostres llengües completades. Si esteu interessat en ajudar-nos a completar-la, ho podeu fer visitant el nostre [projecte de Weblate](https://weblate.themoviedb.org).
+
+        Si no hi teniu gens d'interès, no us amoïneu. Només volíem preguntar-vos-ho.
 
         Gràcies per llegir-ho!
       subject: Ajudeu-nos a traduir la pàgina web
@@ -4882,5 +4902,5 @@ ca-ES:
   view all: Mostra-ho tot
   will_paginate:
     next_label: Següent →
-    page_gap: "..."
+    page_gap: "…"
     previous_label: "← Anterior"

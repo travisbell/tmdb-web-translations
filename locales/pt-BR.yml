@@ -31,12 +31,12 @@ pt-BR:
   Add Item: Adicionar Item
   Add Missing Cast & Crew: Adicionar elenco e equipe faltantes
   Add Network: Adicionar uma emissora
-  Add New Award: ''
+  Add New Award: 'Adicionar um novo prêmio'
   Add New Episode: Adicionar um novo episódio
-  Add New Movie: Adicionar um novo Filme
+  Add New Movie: Adicionar um novo filme
   Add New Release: Adicionar uma nova versão
   Add New Season: Adicionar uma nova temporada
-  Add New TV Show: Adicionar uma nova Série
+  Add New TV Show: Adicionar uma nova série
   Add Poster: Adicionar um pôster
   Add Profile: Adicionar uma foto
   Add Season Regular: Adicionar um(a) ator(iz) recorrente
@@ -388,7 +388,7 @@ pt-BR:
   Search for a language: Buscar por um idioma...
   Search for a movie: Buscar por um Filme
   Search for a movie or TV show: Buscar por um Filme ou Série
-  Search for a movie, TV show, person: Buscar por um Filme, Série ou Pessoa
+  Search for a movie, TV show, person: Buscar um filme, uma série ou uma pessoa...
   Season: Temporada
   Season Number: Número da Temporada
   Season Overview: Sinopse da temporada
@@ -1853,7 +1853,7 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não pode ser adicionado ao TMDB, por exemplo, por ser uma produção amadora. Você pode ler sobre o que pode ser adicionado em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: Não atende às nossas diretrizes de conteúdo (amadores, etc ...)
@@ -1869,7 +1869,7 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Não encontramos nada que comprove a existência deste título, por isso ele foi considerado uma entrada falsa. Adicione apenas títulos que possam ser verificados. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: É uma entrada falsa
@@ -1877,10 +1877,28 @@ pt-BR:
         message: |-
           Olá,
 
-          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título não atendeu às nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Esta entrada foi considerada spam. Não são permitidas entradas que anunciem ou promovam produtos, serviços ou sites. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
 
           Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
         subject: Isso é spam
+      '7':
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Este título é um filme, não um programa de TV, por isso deve ser adicionado como filme. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É um filme
+      '8':
+        message: |-
+          Olá,
+
+          Esta é apenas uma nota amigável dos moderadores de conteúdo do TMDB. A entrada que você criou com o título "%{title}" foi excluída. Esta entrada continha conteúdo ofensivo ou impróprio, o que não é permitido. Você pode ler mais em nossas [novas diretrizes de conteúdo](https://www.themoviedb.org/bible/new_content).
+
+          Se você tiver alguma dúvida sobre essa exclusão, fique à vontade para responder a esta mensagem.
+        subject: É ofensivo ou impróprio
+      '6':
+        subject: Foi criada por engano ou quem a criou pediu a exclusão
     why_deleting: Por que você está excluindo esta entrada?
   department_credits_count:
     one: '%{department} (%{count} crédito)'
@@ -3177,7 +3195,7 @@ pt-BR:
     Script Coordinator: Coordenador(a) de script
     Script Editor: Editor(a) de script
     Script Researcher: Pesquisador de Roteiro
-    Script Supervisor: Supervisor de script
+    Script Supervisor: Continuista
     Sculptor: Escultor
     Seamstress: Costureiro
     Second Assistant "A" Camera: ''
@@ -4251,9 +4269,11 @@ pt-BR:
   message_templates:
     help_translate:
       message: |-
-        Olá, obrigado por usar o TMDB. Percebemos que você está navegando no TMDB em um idioma que ainda não terminamos de traduzir. Se você tiver interesse em nos ajudar a obter esses dados, visite o nosso [projeto no Locale] (https://www.localeapp.com/projects/8267). [Criar uma conta] (https://www.localeapp.com/users/sign_up) no Locale é gratuito e você pode adicionar quantas novas traduções forem necessárias. Toda edição ajuda.
+        Olá, obrigado por usar o TMDB!
 
-        Se você não tem interesse, não se preocupe. Só pensamos em perguntar.
+        Percebemos que você está navegando no TMDB em um idioma que não está entre os nossos idiomas concluídos. Se você tiver interesse em nos ajudar a completar esses dados, visite o nosso [projeto no Weblate](https://weblate.themoviedb.org).
+
+        Se você não tiver interesse, não se preocupe. Só quisemos perguntar.
 
         Obrigado!
       subject: Ajude a traduzir o nosso site
