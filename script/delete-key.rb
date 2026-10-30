@@ -7,8 +7,8 @@
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
 require "optparse"
-require "tempfile"
 require "yaml"
+require "tmdb/yaml_file"
 
 # require "tmdb/web/translations"
 require "tmdb/i18n_delete"
@@ -26,28 +26,12 @@ end.parse!
 at_exit do
   deleter = I18nDelete.new(delete_key: @delete_key)
 
-  yaml_files.each do |file_path|
-    puts "Updating #{file_path}" if @verbose
-
-    update_yaml(file_path) do |yaml|
-      deleter.apply(yaml)
-    end
-  end
+  written = TMDb::YamlFile.update_all(yaml_files) { |_file_path, yaml| deleter.apply(yaml) }
+  written.each { |file_path| puts "Updated #{file_path}" } if @verbose
 end
 
 def yaml_files
   ARGV.flat_map do |file_name|
     File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
   end
-end
-
-def update_yaml(file_path, &block)
-  yaml = YAML.load_file(file_path)
-  updated_yaml = yield yaml
-
-  tempfile = Tempfile.create(File.basename(file_path))
-  tempfile.write(YAML.dump(updated_yaml, line_width: -1))
-
-  File.unlink(file_path)
-  File.link(tempfile.path, file_path)
 end

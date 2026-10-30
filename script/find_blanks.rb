@@ -1,45 +1,42 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "yaml"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
-# Finds keys that are blank/nil in a target locale file but have a value in en-US.yml.
-# Useful for identifying what needs translating before running an AI translation pass.
-#
-# Usage:
-#   script/find_blanks.rb <locale>
-#   script/find_blanks.rb de-DE
-#   script/find_blanks.rb de-DE pt-BR
-#
-# Output:
-#   BLANK: some.key.path => "English value"
+require "optparse"
+require "tmdb/yaml_file"
+require "tmdb/i18n_missing_translations"
 
-def find_blanks(de_node, en_node, path = "")
-  return unless de_node.is_a?(Hash)
+component = "locales"
+directory = File.expand_path("..", __dir__)
+OptionParser.new do |parser|
+  parser.banner = "Usage: #{$PROGRAM_NAME} [options] <locale> [locale ...]"
+  parser.on("--component COMPONENT", ["locales", "countries", "languages"], "Translation component (default: locales)") { |value| component = value }
+  parser.on("--directory DIRECTORY", "Repository directory") { |value| directory = value }
+end.parse!
+abort "Usage: #{$PROGRAM_NAME} [options] <locale> [locale ...]" if ARGV.empty?
 
-  de_node.each do |key, de_val|
-    full_path = path.empty? ? key.to_s : "#{path}.#{key}"
-    en_val = en_node.is_a?(Hash) ? en_node[key] : nil
+# Plural categories used by a locale, from the reviewed rule map. Unknown
+# locales keep every source category in the worklist.
+def plural_keys(locale)
+  rules_path = File.expand_path("../config/pluralization.yml", __dir__)
+  rule = (@rules ||= TMDb::YamlFile.load(rules_path))[locale]
+  return unless rule
 
-    if de_val.nil? && !en_val.nil? && !en_val.is_a?(Hash)
-      puts "BLANK: #{full_path} => #{en_val.inspect}"
-    elsif de_val.is_a?(Hash)
-      find_blanks(de_val, en_val.is_a?(Hash) ? en_val : {}, full_path)
-    end
-  end
+  require "weblate/pluralization/#{rule}"
+  name = rule.split("_").map(&:capitalize).join
+  Weblate::Pluralization.const_get(name).with_locale(locale).dig(locale, :i18n, :plural, :keys).map(&:to_s)
 end
 
-locales = ARGV.empty? ? abort("Usage: script/find_blanks.rb <locale> [locale ...]") : ARGV
-
-en = YAML.load_file(File.join(__dir__, "../locales/en-US.yml"))
-
-locales.each do |locale|
-  path = File.join(__dir__, "../locales/#{locale}.yml")
-  abort("File not found: #{path}") unless File.exist?(path)
-
-  target = YAML.load_file(path)
-  root_key = target.keys.first
-
-  puts "# #{locale}" if locales.size > 1
-  find_blanks(target[root_key], en["en-US"])
+begin
+  source = TMDb::YamlFile.load(File.join(directory, component, "en-US.yml"), locale: "en-US")
+  ARGV.each do |locale|
+    target = TMDb::YamlFile.load(File.join(directory, component, "#{locale}.yml"), locale: locale)
+    puts "# #{locale}" if ARGV.size > 1
+    I18nMissingTranslations.find(source["en-US"], target[locale], plural_keys: plural_keys(locale)).each do |path, value|
+      puts "BLANK: #{path.join('.')} => #{value.inspect}"
+    end
+  end
+rescue TMDb::YamlFile::InvalidYaml, Errno::ENOENT => error
+  abort error.message
 end
