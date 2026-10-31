@@ -1,9 +1,9 @@
 pl-PL:
-  3rd Party Applications: Aplikacje innych firm
-  API: API
-  API Access Token: 'Token dostępu API'
-  API Details: Szczegóły API
-  API Documentation: 'Dokumentacja API'
+  3rd Party Applications: Aplikacje firm trzecich
+  API: Interfejs Programowania Aplikacji (API)
+  API Access Token: 'Token dostępu do API'
+  API Details: Szczegóły interfejsu programowania aplikacji (API)
+  API Documentation: 'Dokumentacja interfejsu programowania aplikacji (API)'
   API Key: Klucz API
   API Libraries: Biblioteki API
   API Overview: Przegląd interfejsu API
@@ -342,7 +342,7 @@ pl-PL:
   Preview: Podgląd
   Primary Color: Kolor podstawowy
   Primary Facts: Najważniejsze dane
-  Primary?: ''
+  Primary?: 'Główny?'
   Privacy Policy: Polityka prywatności
   Production Code: Kod produkcji
   Production Companies: Wytwórnie
@@ -376,7 +376,7 @@ pl-PL:
   Report an Issue: Zgłoś problem
   Reported Issues: Zgłoszone problemy
   Request an API Key: Poproś o klucz API
-  Required: ''
+  Required: 'Wymagane'
   Resend Activation Email: Ponownie wyślij e-mail aktywacyjny
   Reset: Resetuj
   Reset Password: Resetowanie hasła
@@ -391,7 +391,7 @@ pl-PL:
   Search for a language: Szukaj języka
   Search for a movie: Szukaj filmu
   Search for a movie or TV show: Szukaj filmu lub serialu
-  Search for a movie, TV show, person: Szukaj filmu, serialu, osoby
+  Search for a movie, TV show, person: Szukaj filmu, serialu, osoby...
   Season: Sezon
   Season Number: Sezon
   Season Overview: Opis sezonu
@@ -419,7 +419,7 @@ pl-PL:
   Source Key: Klucz źródłowy
   Specials: Odcinki specjalne
   Spoken Languages: Języki mówione
-  Stage Name: ''
+  Stage Name: 'Pseudonim sceniczny'
   State: Stan
   Stats: Statystyki
   Status: Stan
@@ -437,11 +437,11 @@ pl-PL:
   Summary: Podsumowanie
   Support: Wsparcie
   Support Forums: Fora pomocy tech.
-  System Status: ''
+  System Status: 'Status systemu'
   TV: TV
   TV Network: Sieć TV
   TV Recommendations: Rekomendowane seriale TV
-  TV Show: ''
+  TV Show: 'Serial'
   TV Show Data: Informacje o serialu
   TV Show Results: Wyniki wyszukiwania seriali
   TV Show Status: Stan serialu TV
@@ -464,7 +464,7 @@ pl-PL:
   Top Rated Movies: Najlepiej oceniane filmy
   Top Rated TV Shows: Najlepiej oceniane seriale
   Top Users: Najlepsi użytkownicy
-  Translate Award: ''
+  Translate Award: 'Tłumaczenie nagrody'
   Translate Collection: Tłumaczenie zbiorowe
   Translate Movie: Przekład filmu
   Translate Person: Tłumacz
@@ -473,7 +473,7 @@ pl-PL:
   Translated Overview: Przetłumaczony opis
   Translated Tagline: Przetłumaczony slogan
   Translated Title: Tytuł (Pozostaw puste pole, jeśli jest takie samo jak oryginalne)
-  Translation: ''
+  Translation: 'Tłumaczenie'
   Translations: Tłumaczenia
   Type: Typ
   Type of Problem: Typ problemu
@@ -484,7 +484,7 @@ pl-PL:
   Upload Logo: Uaktualnij logo
   User Score: Ocena użytkowników
   Username: Nazwa użytkownika
-  Value: ''
+  Value: 'Wartość'
   Video?: Wideo?
   View: Widok
   View All Backdrops: Wyświetl wszystkie tła
@@ -516,7 +516,7 @@ pl-PL:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Usunięcie tej recenzji jest akcją stałą, nie można jej cofnąć.'
   account_drop_down:
     discussions: Dyskusje
     edit_profile: Edytuj profil
@@ -531,7 +531,7 @@ pl-PL:
     sign_up: Zarejestruj się
     view_profile: Zobacz profil
     watchlist: Obserwowane
-    reviews: ''
+    reviews: 'Recenzje'
   accounts:
     activity:
       activity: Aktywność
@@ -572,8 +572,8 @@ pl-PL:
             Bounce: Odrzucona
             Complaint: Zażalenie
             Delivery: Dostarczone
-            Invalid: ''
-            Unknown: ''
+            Invalid: 'Nieprawidłowy'
+            Unknown: 'Nieznane'
             Unsubscribed: Wyrejestrowany
             status: Status
         number_of_items:
@@ -637,19 +637,23 @@ pl-PL:
       no_lists:
         logged_in: Nie stworzyłeś żadnych list.
         public: Użytkownik %{username} nie posiada żadnych publicznych list.
-        search: ''
+        search: 'Nie znaleziono list.'
       page_title:
         page_owner: Moje listy
         public: Listy %{username}
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: 'Szukaj listy...'
+      add_to_lists: 'Dodaj <span class="bold">
+
+        %{media_name}
+
+        </span> do list'
+      contributor: 'Kontrybutor'
+      create_new_list: 'Utwórz nową listę'
+      created: 'Lista utworzona'
+      my_new_list: 'Moja nowa lista...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Nie napisano żadnych nowych recenzji.'
+        public: '%{username} nie napisał/a żadnych nowych recenzji.'
     member_since: Użytkownik od %{date}
     navigation:
       discussions: Dyskusje
@@ -705,9 +709,9 @@ pl-PL:
       asc: Rosnąco
       desc: Malejąco
     statuses:
-      banned: ''
-      deleted: ''
-      ok: ''
+      banned: 'Zablokowane'
+      deleted: 'Usunięte'
+      ok: 'Ok'
     tips:
       import_imdb_ratings: Możesz importować swoje oceny z IMDb.
       tip: Wskazówka
@@ -732,26 +736,26 @@ pl-PL:
       view_them: Zobacz je.
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Moje recenzje'
+        public: 'Recenzja %{username}'
   add_to_list: Dodaj %{media_title} do jednej z Twoich list ...
   already_translated_in: Strona %{page_title} jest już przetłumaczona na następujące języki...
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'API dla biznesu'
     form:
       company_name:
-        label: ''
+        label: 'Nazwa przedsiębiorstwa'
       company_url:
-        label: ''
+        label: 'URL przedsiębiorstwa'
       description:
-        label: ''
+        label: 'Opisz, co chcesz zrobić za pomocą naszego API'
       email:
-        error: ''
-        label: ''
-      error: ''
+        error: 'nie jest poprawnie sformatowane'
+        label: 'Twój adres e-mail'
+      error: 'nie może być puste'
       name:
-        label: ''
-      success: ''
+        label: 'Nazwa'
+      success: 'Dziękujemy za przesłanie zapytania dotyczącego oferty dla klientów korporacyjnych!'
   api_session:
     3rd_party_request: Uwierzytelnione aplikacje innych firm
     account_required:
@@ -795,16 +799,16 @@ pl-PL:
   awards:
     add_nomination: Dodaj nominację
     admin:
-      delete: ''
+      delete: 'Usuń nagrodę'
     air_date:
       future: Emisje %{date}
       past: Emitowany %{date}
     alternative_names: Alternatywne nazwy
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+    award: 'Nagroda'
+    broadcast_episode: 'Odcinek wyemitowany'
+    broadcast_episode_tooltip: 'Podanie linku do odcinka serialu telewizyjnego spowoduje wyświetlenie informacji o jego produkcji.'
+    broadcast_series: 'Serial telewizyjny'
+    broadcast_series_tooltip: 'Podanie linku do serialu telewizyjnego umożliwia wyświetlanie informacji o produkcji dla każdej ceremonii.'
     categories:
       add_category: ''
       categories: ''
