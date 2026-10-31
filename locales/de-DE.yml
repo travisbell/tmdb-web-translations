@@ -589,7 +589,7 @@ de-DE:
             Messages: Nachrichten
             type: Typ
         notifications:
-          one: Benachrichtigungen
+          one: Benachrichtigung
           other: Benachrichtigungen
         number_of_items:
           one: "%{count} Benachrichtigung"
@@ -638,9 +638,9 @@ de-DE:
         page_owner: Meine Listen
         public: "%{username}'s Listen"
       search: Suche nach einer Liste...
-      add_to_lists: ''
+      add_to_lists: 'Füge <span class="bold">%{media_name}</span> zu Listen hinzu'
       contributor: 'Mitwirkender'
-      create_new_list: ''
+      create_new_list: 'Neue Liste erstellen'
       created: 'Liste erstellt'
       my_new_list: 'Meine neue Liste...'
       no_reviews:
@@ -1035,15 +1035,15 @@ de-DE:
         '1':
           meaning: Kinderfreundliche Sendung. Diese Sendung kann unbedacht zu jederzeit laufen.
         '2':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 6 Jahren.'
         '3':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 12 Jahren.'
         '4':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 16 Jahren.'
         '5':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 18 Jahren.'
         '6':
-          meaning: ''
+          meaning: 'Unter 18 Jahren eingeschränkt, nur für Erwachsene.'
       IN:
         '0':
           meaning: Uneingeschränkte öffentliche Ausstrahlung in ganz Indien, geeignet für alle Altersgruppen. Filme unter dieser Kategorie sollten Kinder über 4 Jahre nicht aufschrecken. Solche Filme können pädagogische, soziale oder familienorientierte Themen enthalten. Filme in dieser Kategorie können auch Fantasy-Gewalt und/oder leichte Schimpfwörter enthalten.
@@ -1491,7 +1491,7 @@ de-DE:
     choose_header_images: Kopfzeilenbilder auswählen
     choose_reason: Du musst einen Grund auswählen.
     community: COMMUNITY
-    confirm_buffer_time: Bitte bestätige, ob für die weitere Bearbeitung eine Pufferzeit erforderlich ist?
+    confirm_buffer_time: Bitte bestätige, ob für die weitere Bearbeitung eine Pufferzeit erforderlich ist.
     confirmation: Bestätigung
     continue: Fortfahren
     contribute: Zu unserer Datenbank beitragen
@@ -1868,8 +1868,8 @@ de-DE:
         subject: Er wurde versehentlich erstellt oder der Ersteller hat um Löschung gebeten.
     why_deleting: Warum löschst du diesen Eintrag?
   department_credits_count:
-    one: "%{department} (%{count} Einträge)"
-    other: "%{department} (%{count} Einträge)"
+    one: '%{department} (%{count} Eintrag)'
+    other: '%{department} (%{count} Einträge)'
   departments:
     Acting: Darsteller
     Actors: Darsteller
@@ -4096,15 +4096,15 @@ de-DE:
           episode_groups: Reihenfolgen
           episodes:
             move_episodes: Verschiebe die markierten Folgen
-            no_records: Es wurden keine Episoden zur Reihenfolge hinzugefügt.
+            no_records: Es wurden keine Folgen zur Reihenfolge hinzugefügt.
           grid:
-            episodes: Episoden
-            groups: Gruppen
-          group: Gruppe
+            episodes: Folgen
+            groups: Reihenfolgen
+          group: Reihenfolge
           messages:
             episodes_added:
-              one: "%{count} Episode hinzugefügt!"
-              other: "%{count} Episoden hinzugefügt!"
+              one: '%{count} Folgee hinzugefügt!'
+              other: '%{count} Folgen hinzugefügt!'
           name: Name
           no_records: Es wurden keine Reihenfolgen hinzugefügt.
           type: Art
