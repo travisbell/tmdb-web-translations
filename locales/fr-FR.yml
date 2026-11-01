@@ -645,12 +645,12 @@ fr-FR:
       search: 'Chercher une liste...'
       add_to_lists: 'Ajouter <span class="bold">%{media_name}</span> à vos listes'
       contributor: 'Contributeur'
-      create_new_list: ''
+      create_new_list: 'Créer une nouvelle liste'
       created: ''
       my_new_list: 'Ma nouvelle liste...'
       no_reviews:
         logged_in: 'Vous n''avez écrit aucune critique.'
-        public: ''
+        public: '%{username} n''a écrit aucune critique.'
     member_since: est membre de TMDB depuis %{date}.
     navigation:
       discussions: Conversations
@@ -751,7 +751,7 @@ fr-FR:
         label: Votre adresse mail
       error: ne peut être vide
       name:
-        label: ''
+        label: 'Nom'
       success: ''
   api_session:
     3rd_party_request: Demande d'authentification tierce
