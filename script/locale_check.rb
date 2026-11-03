@@ -1,22 +1,17 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "yaml"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "tmdb/yaml_file"
 
-# Usage:
-# script/locale_check.rb [target_dirs ... target_files ...]
-
-at_exit do
-  yaml_files(ARGV).each do |file_path|
-    locale = File.basename(file_path, ".yml")
-    yaml = YAML.load_file(file_path)
-
-    warn "Root key #{yaml.keys.first} does not match filename #{file_path}" unless yaml.keys.first == locale
-  end
+# With no arguments, validate all translation data. Extra root keys, duplicate
+# keys and implicitly typed ISO codes are failures rather than warnings.
+paths = ARGV.empty? ? ["countries", "languages", "locales", "ordinals", "transliteration"] : ARGV
+failures = []
+TMDb::YamlFile.paths(paths).each do |path|
+  TMDb::YamlFile.load(path, locale: File.basename(path, ".yml"))
+rescue TMDb::YamlFile::InvalidYaml, Errno::ENOENT => error
+  failures << error.message
 end
-
-def yaml_files(args)
-  args.flat_map do |file_name|
-    File.directory?(file_name) ? Dir.glob(File.join(file_name, "**/*.yml")) : file_name
-  end
-end
+failures.each { |message| warn message }
+exit(failures.empty? ? 0 : 1)
