@@ -556,56 +556,56 @@ nl-BE:
     discussions:
       my_active_boards: mijn actieve borden
       my_discussions: mijn discussies
-      not_watching: niet aan het kijken
+      not_watching: ''
       page_title:
-        page_owner: pagina-eigenaar
-        public: ''
+        page_owner: Mijn discusies
+        public: '%{username}''s discusies'
     events:
-      all: alles
+      all: alle
       emails:
         emails: e-mails
         filters:
           status:
-            Bounce: stuiteren
-            Complaint: Klacht
-            Delivery: Levering
-            Invalid: ''
-            Unknown: ''
-            Unsubscribed: Uitgeschreven
+            Bounce: gestuiterd
+            Complaint: Opmerking
+            Delivery: Geleverd
+            Invalid: 'Ongeldig'
+            Unknown: 'Onbekend'
+            Unsubscribed: Afgemeld
             status: status
         number_of_items:
-          one: ''
-          other: ''
-      events: ''
+          one: '%{count} E-Mail'
+          other: '%{count} E-Mails'
+      events: 'Gebeurtenissen'
       notifications:
         filters:
           type:
-            Discussion: ''
-            General: ''
-            List Import: ''
-            Mention: ''
-            Messages: ''
-            type: ''
+            Discussion: 'Discussies'
+            General: 'Algemeen'
+            List Import: 'Import Lijst'
+            Mention: 'Vernoemen'
+            Messages: 'Berichten'
+            type: 'Type'
         notifications:
-          one: ''
-          other: ''
+          one: Kennisgeving
+          other: Kennisgevingen
         number_of_items:
-          one: ''
-          other: ''
+          one: '%{count} Kennisgeving'
+          other: '%{count} Kennisgevingen'
       page_title:
-        recent_events: ''
-      recent: ''
+        recent_events: 'Recente Gebeurtenissen'
+      recent: 'Recent'
     export:
-      csv_explanation: ''
-      export: ''
-      export_csv: ''
+      csv_explanation: 'Als u een kopie van deze lijst naar een CSV-bestand wilt exporteren, klikt u hieronder op de knop ''Exporteren''. Wij maken de export aan en sturen deze per e-mail naar u toe. Afhankelijk van de grootte van uw lijst kan dit enkele minuten duren.'
+      export: 'Export'
+      export_csv: 'Export CSV'
     favorites:
       my_favorites:
-        logged_in: ''
-        public: ''
+        logged_in: 'Mijn Favorieten'
+        public: '%{username}''s Favorieten'
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Mijn Favorieten'
+        public: '%{username}''s Favorieten'
     filter_by: ''
     filters:
       air_date: ''
