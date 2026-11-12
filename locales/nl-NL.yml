@@ -642,8 +642,8 @@ nl-NL:
       created: 'Lijst aangemaakt'
       my_new_list: 'Mijn nieuwe lijst…'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Je hebt geen recensies geschreven.'
+        public: '%{username} heeft geen recensies geschreven.'
     member_since: Lid sinds %{date}
     navigation:
       discussions: Discussies
@@ -674,7 +674,7 @@ nl-NL:
       recent_discussions: Recente discussies
       total_edits: Aantal bewerkingen
       total_ratings: Aantal beoordelingen
-      upcoming_watchlist: Aankomende uitgaven op je watchlist
+      upcoming_watchlist: Aankomende releases op je watchlist
     page_title:
       page_owner: Mijn profiel
       public: "%{username}'s profiel"
@@ -700,7 +700,7 @@ nl-NL:
       desc: Aflopend
     statuses:
       banned: ''
-      deleted: ''
+      deleted: 'Verwijderd'
       ok: ''
     tips:
       import_imdb_ratings: Je kunt je beoordelingen uit IMDb importeren.
@@ -724,17 +724,17 @@ nl-NL:
       view_them: Bekijk ze.
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Mijn recensies'
+        public: '%{username}''s recensies'
   add_to_list: "%{media_title} toevoegen aan één van je lijsten..."
   already_translated_in: "%{page_title} is al vertaald naar de volgende talen..."
   api_for_business:
     api_for_business: ''
     form:
       company_name:
-        label: ''
+        label: 'Bedrijfsnaam'
       company_url:
-        label: ''
+        label: 'URL van het bedrijf'
       description:
         label: ''
       email:

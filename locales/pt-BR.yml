@@ -95,7 +95,7 @@ pt-BR:
   Change?: Alterar?
   Character: Personagem
   Characters: Personagens
-  Choose: Escolher
+  Choose: Escolher...
   City: Cidade
   Collection Results: Resultados para coletâneas
   Collections: Coletâneas
@@ -130,7 +130,7 @@ pt-BR:
   DMCA Policy: Política DMCA
   DMCA Takedown Request: Solicitação de remoção por DMCA
   Date: Data
-  Date Added: ''
+  Date Added: 'Data de Adição'
   Day of Death: Falecimento
   Default Language: Idioma padrão
   Delete: Excluir
@@ -232,7 +232,7 @@ pt-BR:
   Job: Cargo
   Join the Community: Junte-se a Comunidade
   Joined in: Membro desde
-  Key: ''
+  Key: 'Chave'
   Keyword: Palavra-chave
   Keyword Results: Resultados para palavras-chave
   Keywords: Palavras-chave
@@ -294,7 +294,7 @@ pt-BR:
   Notes: Anotações
   Notifications: Notificações
   Now Playing Movies: Filmes em Cartaz
-  Number: ''
+  Number: 'Número'
   Number of Movies: Número de Filmes
   Number of TV Shows: Número de Séries
   Number of edits in the past: Número de edições nos últimos
@@ -302,7 +302,7 @@ pt-BR:
   Offical Site: Site oficial
   Offline Databases: Bancos de dados indisponíveis
   Ok: OK
-  Optional: ''
+  Optional: 'Opcional'
   Origin Country: País de origem
   Original Air Date: Data da primeira exibição
   Original Language: Idioma original
@@ -312,7 +312,7 @@ pt-BR:
   Original TV Show Language: Idioma Original da Série
   Original Title: Título original
   Other Databases: Bancos de dados de terceiros
-  Others: ''
+  Others: 'Outros'
   Overview: Sinopse
   Page: Página
   People: Pessoas
@@ -348,7 +348,7 @@ pt-BR:
   Public List?: Lista pública?
   Public Report?: Relatório público?
   Quality: Qualidade
-  Rank: 'Classificação:'
+  Rank: 'Classificação'
   Rate it!: Avalie!
   Rated: Avaliado
   Rated Movies: Filmes Avaliados
@@ -373,7 +373,7 @@ pt-BR:
   Report an Issue: Reportar um problema
   Reported Issues: Problemas reportados
   Request an API Key: Solicitar chave de API
-  Required: ''
+  Required: 'Obrigatório'
   Resend Activation Email: Reenviar e-mail de ativação
   Reset: Redefinir
   Reset Password: Resetar a senha
@@ -438,7 +438,7 @@ pt-BR:
   TV: TV
   TV Network: Emissora
   TV Recommendations: Recomendações de séries
-  TV Show: ''
+  TV Show: 'Séries'
   TV Show Data: Dados da Série
   TV Show Results: Resultados para Séries
   TV Show Status: Situação da série
@@ -461,7 +461,7 @@ pt-BR:
   Top Rated Movies: Filmes mais bem avaliados
   Top Rated TV Shows: Séries mais bem avaliadas
   Top Users: Usuários em destaque
-  Translate Award: ''
+  Translate Award: 'Traduzir prêmio'
   Translate Collection: Traduzir coletânea
   Translate Movie: Traduzir Filme
   Translate Person: Traduzir pessoa
@@ -481,7 +481,7 @@ pt-BR:
   Upload Logo: Enviar logo
   User Score: Avaliação dos usuários
   Username: Nome de usuário
-  Value: ''
+  Value: 'Valor'
   Video?: Vídeo?
   View: Esquema
   View All Backdrops: Mostrar todas as imagens de fundo
@@ -513,7 +513,7 @@ pt-BR:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Excluir esta avaliação é uma ação permanente, não é possível desfazê-la.'
   account_drop_down:
     discussions: Discussões
     edit_profile: Editar Perfil
@@ -528,7 +528,7 @@ pt-BR:
     sign_up: Registrar
     view_profile: Ver perfil
     watchlist: Lista de Interesses
-    reviews: ''
+    reviews: 'Avaliações'
   accounts:
     activity:
       activity: Atividade
@@ -566,19 +566,15 @@ pt-BR:
         emails: E-mails
         filters:
           status:
-            Bounce: |2-
-
+            Bounce: |-
               Devolvido
-            Complaint: |2-
-
+            Complaint: |-
               Queixa
-            Delivery: |2-
-
+            Delivery: |-
               Entregue
             Invalid: Inválido
             Unknown: Desconhecido
-            Unsubscribed: |2-
-
+            Unsubscribed: |-
               Não subscrito
             status: Status
         number_of_items:
@@ -642,19 +638,19 @@ pt-BR:
       no_lists:
         logged_in: Você ainda não criou nenhuma lista.
         public: "%{username} não tem nenhuma lista pública para compartilhar."
-        search: ''
+        search: 'Nenhuma lista encontrada.'
       page_title:
         page_owner: Minhas Listas
         public: Listas de %{username}
-      search: ''
+      search: 'Buscar uma lista...'
       add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      contributor: 'Contribuinte'
+      create_new_list: 'Criar uma nova lista'
+      created: 'Lista criada'
+      my_new_list: 'Minha nova lista...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Você não escreveu nenhuma avaliação.'
+        public: '%{username} não escreveu nenhuma avaliação.'
     member_since: Membro desde %{date}
     navigation:
       discussions: Discussões
@@ -712,7 +708,7 @@ pt-BR:
     statuses:
       banned: Banido
       deleted: Excluído
-      ok: ''
+      ok: 'Ok'
     tips:
       import_imdb_ratings: Você pode importar as suas avaliações do IMDb.
       tip: Dica
@@ -737,8 +733,8 @@ pt-BR:
       view_them: Ver tudo.
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Minhas avaliações'
+        public: 'Avaliações de %{username}'
   add_to_list: Adicionar %{media_title} a uma de suas listas...
   already_translated_in: "%{page_title} já foi traduzido para os seguintes idiomas..."
   api_for_business:
@@ -756,10 +752,9 @@ pt-BR:
       error: não pode estar em branco
       name:
         label: Nome
-      success: ''
+      success: 'Obrigado por enviar sua solicitação de vendas corporativas!'
   api_session:
-    3rd_party_request: |2-
-
+    3rd_party_request: |-
       Pedido de autenticação de terceiros
     account_required:
       need_account: Você precisa estar logado para continuar!
@@ -767,10 +762,10 @@ pt-BR:
     approved_session: O aplicativo %{application_name} foi aprovado. Você já pode fechar esta janela.
     continue: Se deseja continuar, clique no botão aprovar abaixo. Se não, você pode simplesmente fechar esta janela.
     invalid_api_app:
-      message: 'A API de usuário que esta sendo autenticada não é válida. '
-      title: 'API de usuário inválida '
+      message: 'A API de usuário que esta sendo autenticada não é válida.'
+      title: 'API de usuário inválida'
     missing_request_token:
-      message: 'Um token de requisição é necessário para poder autenticar as contas de usuários. '
+      message: 'Um token de requisição é necessário para poder autenticar as contas de usuários.'
       title: Token de Requisição Faltando
     request_token_approval:
       message: "{{APP}} está pedindo sua permissão para ler e gravar dados em seu nome. Isso é necessário se você quiser fazer coisas como manter suas listas ou classificar filmes fora do TMDB."
@@ -780,17 +775,12 @@ pt-BR:
         name: Autenticação concedida
       denied:
         message: |-
-          <p>Você negou acesso <strong>%{application_name}</strong>.
-          Se isso foi um erro, ou se você quiser reiniciar o processo de autenticação, basta voltar ao aplicativo e solicitar permissão novamente.</p>
-        name: 'Autenticação negada
-
-          '
+          <p>Você negou acesso <strong>%{application_name}</strong>. Se isso foi um erro, ou se você quiser reiniciar o processo de autenticação, basta voltar ao aplicativo e solicitar permissão novamente.</p>
+        name: 'Autenticação negada'
       invalid_request_token:
-        message: |2-
-
+        message: |-
           O token de acesso que você enviou é inválido. Tente criar um novo e verifique se copiou corretamente. Se você continuar com problemas, entre em contato com o desenvolvedor do aplicativo que você está usando.
-        name: |2-
-
+        name: |-
           Token de solicitação inválido
   attributes:
     biography: Biografia
@@ -1033,11 +1023,11 @@ pt-BR:
         '2':
           meaning: '(Déconseillé aux moins de 10 ans) Impróprio para menores de 10 Anos (esta classificação é usada apenas para TV); equivalente em teatros: "avertissement" (aviso), algumas cenas podem ser perturbadoras para crianças pequenas e pessoas sensíveis; equivalente em vídeo: "accord parental" (orientação parental).'
         '3':
-          meaning: "(Interdit aux moins de 12 ans) Proibido para menores de 12 Anos"
+          meaning: "(Proibido para menores de 12 anos) – inadequado para crianças com menos de 12 anos ou proibido, nos cinemas, para menores de 12 anos."
         '4':
-          meaning: "(Interdit aux moins de 16 ans) Proibido para menores de 16 Anos"
+          meaning: "(Proibido para menores de 16 anos) – inadequado para crianças com menos de 16 anos ou proibido nos cinemas para menores de 16 anos."
         '5':
-          meaning: "(Interdit aux mineurs) Proibido para menores de 18 Anos"
+          meaning: "(Proibido para menores) impróprio para menores de 18 anos ou proibido em cinemas para pessoas com menos de 18 anos."
       GB:
         '1':
           meaning: Permitido para todas as idades, não há nada impróprio para crianças.
@@ -1055,9 +1045,9 @@ pt-BR:
           meaning: 'Só pode ser exibido em cinemas licenciados para adultos ou vendidos em lojas de sexo licenciadas e apenas para adultos com idade superior a 18 Anos. Filmes desta categoria são sempre de Pornografia Pesada, definida como material destinado a estimulação sexual e contendo imagens claras de atividade sexual real, material de fetiche forte, imagens animadas explícitas ou visão de certos atos, como a penetração simultânea tripla e a bola de neve. Existe uma variedade de materiais que geralmente são cortados na classificação R18: imagens fortes de lesões em BDSM ou trabalhos de masturbação, urolagnia, cenas que sugerem incesto, mesmo que encenado, referências a sexo com menores de idade ou exploração sexual infantil e comportamento agressivo, como puxar cabelo ou cuspir em um artista não são permitidos. Nesta categoria são impostos mais cortes do que em qualquer outra categoria.'
       HU:
         '0':
-          meaning: Informação de avaliação não disponivel
+          meaning: Sem informações de classificação.
         '1':
-          meaning: Sem restrição de idade
+          meaning: Sem restrição de idade.
         '2':
           meaning: Não recomendado para menores de 6 anos.
         '3':
@@ -1079,7 +1069,7 @@ pt-BR:
         '0':
           meaning: Nenhuma informação de classificação.
         '1':
-          meaning: Todas as idades admitidas
+          meaning: Todas as idades permitidas.
         '2':
           meaning: Nenhuma admissão para menores de 14 anos.
         '3':
@@ -1088,8 +1078,7 @@ pt-BR:
         '1':
           meaning: Filmes para o público de todas as idades.
         '2':
-          meaning: |2-
-
+          meaning: |-
             Filmes para espectadores de 7 anos de idade. Menores de 7 anos de idade, os espectadores deste índice foram apresentados apenas em conjunto com pessoas adultas acompanhantes.
         '3':
           meaning: Filmes para espectadores a partir dos 13 anos de idade. Os telespectadores dos 7 aos 13 anos de idade só podem entrar neste índice em conjunto com pessoas adultas acompanhantes.
@@ -1107,7 +1096,7 @@ pt-BR:
         '3':
           meaning: '(Seram, Ganas: "Violência Visual e Horror/Terror") - O filme pode conter violência forte, sangue ou horror/terror. As pessoas podem achar repreensível.'
         '4':
-          meaning: '(Seks: "Conteúdo Sexual") - O filme pode conter cenas de sexo, nudez ou diálogo/referências sexuais que as pessoas podem achar censuráveis (apesar de cenas de sexo e nudez serem rigorosamente censuradas pelo LPF).'
+          meaning: '(Sexo: "Conteúdo sexual") – O filme pode conter cenas de sexo, nudez ou diálogos/referências de natureza sexual que algumas pessoas podem considerar censuráveis (embora cenas de sexo e nudez sejam rigorosamente censuradas pelo LPF.)'
         '5':
           meaning: '(Politik, Agama: "Elementos Religiosos ou Políticos Fortes") - O filme pode conter elementos que incluem aspectos religiosos, sociais ou políticos que as pessoas poderão achar censuráveis. Raramente usado.'
         '6':
@@ -1187,18 +1176,15 @@ pt-BR:
           meaning: Classificação indicativa especial suplementar ao M/18, denotando pornografia.
       RU:
         '1':
-          meaning: |2-
-
+          meaning: |-
             Todas as idades são admitidas.
         '2':
-          meaning: |2-
-
+          meaning: |-
             (Para crianças acima de 6) - Inadequado para crianças menores de 6 anos.
         '3':
           meaning: "(Para crianças acima de 12 anos) - Inadequado para crianças menores de 12 anos."
         '4':
-          meaning: |2-
-
+          meaning: |-
             (Para crianças acima de 16 anos) - Inadequado para menores de 16 anos.
         '5':
           meaning: "(Proibido para crianças) - Proibido para menores de 18 anos."
@@ -1206,7 +1192,7 @@ pt-BR:
         '0':
           meaning: Sem informação de Classificação.
         '1':
-          meaning: Para Todas as Idades
+          meaning: Todas as idades.
         '2':
           meaning: Crianças com idade inferior a 7 anos, quando acompanhadas por um adulto (pessoa com 18 Anos ou mais), são admitidos em filmes que foram aprovados para crianças maiores de 7 Anos.
         '3':
@@ -1451,10 +1437,10 @@ pt-BR:
         '5':
           meaning: Chor 20 - Filmes proibidos para audiências menores de 20 anos.
         '6':
-          meaning: Banido
+          meaning: Banido.
       US:
         '0':
-          meaning: Sem informações sobre a classificação.
+          meaning: Sem informações de classificação
         '1':
           meaning: Este programa foi concebido para ser apropriado para todas as crianças.
         '2':
@@ -1466,7 +1452,7 @@ pt-BR:
         '5':
           meaning: Este programa contém algum material que muitos responsáveis considerariam inadequado para crianças menores de 14 anos de idade.
         '6':
-          meaning: Este programa foi concebido especificamente para ser visto por adultos e, portanto, pode ser inadequado para crianças menores de 17 anos.
+          meaning: Este programa foi concebido especificamente para ser assistido por adultos e, portanto, pode ser inadequado para menores de 17 anos
   character:
     Movie: Filme
     Titles: Títulos
@@ -1565,9 +1551,9 @@ pt-BR:
     found_everything: Encontrou tudo?
     frequent_translations: Traduções Frequentes
     group_name: Nome do Grupo
-    group_name_already_exists: Já existe um grupo com o conjunto de itens. Deseja criar um grupo.
+    group_name_already_exists: Já existe um grupo com esse conjunto de itens. Deseja criar um grupo?
     group_name_required: O nome do grupo é obrigatório
-    groups_minimum_appearance_msg: Um grupo deve ter no mínimo uma aparência  Por favor, adicione uma aparência ao grupo
+    groups_minimum_appearance_msg: Um grupo deve ter no mínimo uma aparência. Por favor, adicione uma aparência ao grupo.
     groups_not_present: Grupos não estão presentes para o personagem.
     headshot: Headshot
     headshot_window_title: Mude o headshot do personagem
@@ -1653,7 +1639,7 @@ pt-BR:
     select_message: Selecione todas as estrelas que interpretaram esta versão do personagem. Por exemplo, em uma série, se a pessoa que está interpretando o personagem mudou, selecione ambas as estrelas (ou seja, Edward Norton e Mark Ruffalo seriam selecionados para o Hulk do Universo Cinematográfico da Marvel)
     select_person: Selecionar uma pessoa
     select_person_association: Selecione uma Associação de Pessoa
-    select_person_for_media: Selecione uma nova pessoa para a mídia selecionada
+    select_person_for_media: Selecione uma nova pessoa para a mídia selecionada.
     selected_appearance_linked_to_character: As aparências selecionadas serão vinculadas ao personagem.
     session_expired: Sessão expirada!
     session_inactive: A sessão ficou inativa por muito tempo
@@ -1681,7 +1667,7 @@ pt-BR:
     try_again: Por favor, tente novamente!
     tv: TV
     tv_titles: Títulos de TV
-    unloading_message: Descarregar esta página pode causar perda de dados. O que você quer fazer...
+    unloading_message: Sair desta página pode resultar na perda de dados. O que você deseja fazer?
     unlock_existing_appearances: Desbloquear Aparições Existentes
     unsaved_change_lost: Quaisquer alterações não salvas serão perdidas.
     unsaved_will_lost_want_to_continue: Quaisquer alterações não salvas serão perdidas. Você quer continuar?
@@ -2179,7 +2165,7 @@ pt-BR:
       error: Ocorreu um problema ao tentar criar seu relatório. Tentar novamente?
       submit: Envie uma solicitação de remoção DMCA.
   dont_fallback: Nenhum
-  duplicate_character_name: O nome do personagem já existe, tente com outro nome
+  duplicate_character_name: O nome do personagem já existe, tente outro nome.
   edit_list:
     add_edit_items: Adicionar/Editar itens
     choose_image: Selecionar imagem
@@ -2250,33 +2236,33 @@ pt-BR:
   error_pages:
     deleted_account:
       description: O proprietário desta página excluiu sua conta.  Embora todas as suas contribuições para o TMDB permaneçam, seus dados de usuário foram anonimizados.
-      title: Esta conta foi excluída
+      title: Esta conta foi excluída.
     missing_privilege:
       description:
         logged_in: Você não tem acesso a esta página.  Se você acredita que isso é um erro, informe-nos <a href="%{forum_link}">nos fóruns</a>.
         public: Você tentou solicitar uma página que exige que você esteja conectado. Faça login em sua conta <a href="%{login_link}">clicando aqui</a>.
-      title: Você não tem permissão para acessar esta página
+      title: Você não tem permissão para acessar esta página.
     out_of_login_attempts:
       description: |-
         Você usou todas as suas 10 tentativas de login. Você poderá tentar novamente em 30 minutos. Enquanto isso, você também pode tentar <a href="%{reset_password_link}">redefinir sua senha</a>.
 
          Você também pode <a href="%{about_us_link}">entrar em contato conosco</a> para obter suporte.
-      title: Sem tentativas de login
+      title: Sem tentativas de login.
     private:
       description:
         logged_in: Você não tem acesso a esta página.
         public: Você tentou solicitar uma página que é privada.
-      title: Esta página é privada
+      title: Esta página é privada.
     suspended:
       explanation_1: Infelizmente, este usuário foi suspenso.
       go_to_inbox: Vá para a Caixa de Entrada
-      title: Este usuário foi suspenso.
+      title: Este usuário foi suspenso
       your_account:
         explanation_1: Se desejar discutir os motivos de sua suspensão ou como você pode recuperar o acesso à sua conta, visite a área de mensagens clicando no link abaixo.
-        title: A sua conta foi suspensa
+        title: A sua conta foi suspensa.
     suspended_user_post:
       description: Esta postagem foi considerada uma violação de nossas <a href="%{link}">diretrizes da comunidade</a>.  O usuário responsável por isso também pode ter sido suspenso.
-      title: Esta postagem foi removida
+      title: Esta postagem foi removida.
     too_many_login_attempts:
       description: ''
       title: ''
@@ -2292,10 +2278,10 @@ pt-BR:
         anachronism: ''
         invalid: não é uma data válida
     images:
-      couldnt_process: Não conseguimos processar esta imagem
-      not_jpeg: Esta imagem não é JPEG
-      not_png: Esta imagem não é PNG
-      not_svg: Esta imagem não é SVG
+      couldnt_process: Não conseguimos processar esta imagem.
+      not_jpeg: Esta imagem não é JPEG.
+      not_png: Esta imagem não é PNG.
+      not_svg: Esta imagem não é SVG.
     locked:
       genres: O campo de gêneros está trancado
       keywords: O campo de palavras-chave está trancado
@@ -2325,7 +2311,7 @@ pt-BR:
         other: ''
       inclusion: deve estar selecionado(a)
       invalid: é inválido
-      invalid_character_name: O nome do personagem não deve conter caracteres especiais
+      invalid_character_name: O nome do personagem não deve conter caracteres especiais.
       invalid_email_address: não parece ser um endereço de e-mail válido
       invalid_password: A senha que você digitou está incorreta.
       invalid_request: Não foi possível concluir a solicitação.
@@ -2349,7 +2335,7 @@ pt-BR:
       present: deve estar em branco
       required: deve existir
       series_status_invalid_to_create_season: foi definido como "Cancelada" ou "Finalizada", logo novas temporadas não podem ser criadas.
-      suspected_tv_series: parece ser uma Série ou Minissérie já existente. Você pode continuar a adicionar este item, mas ele será removido caso já exista em nossa seção de Séries
+      suspected_tv_series: parece ser uma Série ou Minissérie já existente. Você pode continuar a adicionar este item, mas ele será removido caso já exista em nossa seção de Séries.
       taken: já foi feito(a)
       too_long:
         one: ''
@@ -2499,7 +2485,7 @@ pt-BR:
       file_type: Tipo de arquivo de %{file_type}
       max_res: Uma resolução máxima de %{res}
       min_res: Uma resolução mínima de %{res}
-      read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.
+      read_guidelines: Por favor, familiarize-se com a nova versão das nossas <a href="%{link}" target="_blank" rel="noopener">diretrizes de contribuição de imagens</a>.<br>Esteja ciente de que fan art ou ilustrações geradas ou editadas por IA não são permitidas. Nossa definição de fan art está disponível <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">aqui</a>.
       tip: Se seu navegador suportar, você pode arrastar e soltar uma imagem na área abaixo. Caso contrário, basta clicar no botão "Selecionar arquivos..." e escolher a imagem do seu computador.
       type_backdrops: Imagens de fundo
       type_episode_stills: Fotos do episódio
@@ -2524,8 +2510,7 @@ pt-BR:
     24 Frame Playback: Operador(a) de cadência de quadros
     2D Artist: Artista 2D
     2D Sequence Supervisor: Supervisor de Sequência 2D
-    2D Supervisor: |2-
-
+    2D Supervisor: |-
       Supervisor 2D
     3D Animator: Animador 3D
     3D Artist: Artista 3D
@@ -2541,9 +2526,7 @@ pt-BR:
     ADR & Dubbing: Substituição automática de diálogo (ADR) e dublagem
     ADR Coordinator: Coordenador ADR
     ADR Editor: Editor de ADR
-    ADR Engineer: 'Engenheiro ADR
-
-      '
+    ADR Engineer: 'Engenheiro ADR'
     ADR Mixer: ADR Mixer
     ADR Post Producer: Pós-Produção de Dublagem
     ADR Recording Engineer: Engenheiro de Gravação ADR
@@ -3925,9 +3908,9 @@ pt-BR:
 
           <p>Se este conteúdo for, por exemplo, um DVD de compilação, um vídeo de fitness ou talvez um DVD de "o melhor de", então você deve marcá-lo como um vídeo.</p>
         crew:
-          job_required: É necessário inserir uma Função.
+          job_required: É necessário inserir uma Função
           no_records: Nenhum membro da equipe técnica foi adicionado.
-          person_required: É necessário inserir uma pessoa.
+          person_required: É necessário inserir uma pessoa
         genres:
           add_genre: Adicionar Gênero
           no_records: Nenhum gênero foi adicionado.
@@ -3999,7 +3982,7 @@ pt-BR:
           primary_translation: tradução já existe.
           special_characters: ''
           trailing_whitespace: ''
-        migration_success: Nome migrado com sucesso
+        migration_success: Nome migrado com sucesso.
         move_name: Mover Nome
         move_name_tooltip: Mover <strong> %{name} (%{language})</strong> para o idioma selecionado.
         primary_translation: Tradução principal
@@ -4043,9 +4026,7 @@ pt-BR:
       logos: Logotipos
       main: Principal
       media: Mídia
-      overview: 'Visão Geral
-
-        '
+      overview: 'Visão Geral'
       posters: Pôsteres
       profiles: Fotos
       release_dates: Datas de lançamentos
@@ -4057,7 +4038,7 @@ pt-BR:
     social_panel:
       discussions:
         currently_subscribed: Você receberá uma notificação quando alguém fizer a primeira postagem.
-        no_discussions: Ainda não há nenhuma discussão sobre %{item_title}. Entre com uma conta para começar uma.
+        no_discussions: Ainda não há nenhuma discussão sobre %{item_title}. Entre com uma conta para começar!
         unsubscribe_me: Cancelar inscrição.
         want_to_be_notified: Deseja receber uma notificação quando alguém fazer a primeira postagem?
         yes_notify_me: Sim, me notifique!
@@ -4498,12 +4479,12 @@ pt-BR:
       free: Grátis
       rent: Alugar
     no_offers:
-      4k: 'Não encontrada oferta 4K '
+      4k: 'Nenhuma oferta em 4K encontrada.'
       bluray: Nenhuma oferta de Bluray.
-      dvd: Não encontrada oferta DVD
-      hd: Não encontrada oferta HD
+      dvd: Não encontrada oferta DVD.
+      hd: Não encontrada oferta HD.
       none: Não existe oferta para %{title}.
-      sd: Não encontrada oferta SD
+      sd: Não encontrada oferta SD.
     page_title: Onde posso assistir %{media_name}?
     seasons:
       one: '%{count} temporada'
@@ -4795,7 +4776,7 @@ pt-BR:
       benefits_to_being_member: Benefícios de se tornar um membro
       build_custom_lists: Fazer listas personalizadas de filmes e séries
       build_watchlist: Manter uma lista de filmes e séries que você deseja assistir no futuro
-      contribute: Contribuir e melhorar as informações do nosso banco de dados.
+      contribute: Contribua para o nosso banco de dados e aprimore as informações nele contidas
       discussions: Fazer parte de discussões sobre filmes e séries
       find_something_to_watch: Encontre algo para assistir em seus serviços de streaming assinados
       keep_track: Marcar os seus filmes e séries favoritos e receber recomendações baseadas em seus gostos
@@ -4817,7 +4798,7 @@ pt-BR:
   success_sharing: Sua mensagem foi compartilhada com sucesso.
   support:
     array:
-      last_word_connector: " e "
+      last_word_connector: ", e "
       two_words_connector: " e "
       words_connector: ", "
   the: o
@@ -4878,7 +4859,7 @@ pt-BR:
       label: Tom
       no_results: O tom não existe.
       prompt:
-        movie: Esse filme foi
+        movie: Este filme foi...
         tv: Esta série de TV foi...
       select: Selecione um tom...
     welcome: Bem-vindo ao Vibes, o novo sistema de classificação do TMDB! Para mais informações, visite a <span class="%{style}"><a href="%{link}"> bíblia de contribuição</a></span>.
