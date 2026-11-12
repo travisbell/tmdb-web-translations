@@ -3,8 +3,8 @@
 
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
-require "tempfile"
 require "yaml"
+require "tmdb/yaml_file"
 
 at_exit do
   each_yaml(ARGV) do |file_path, yaml|
@@ -34,13 +34,9 @@ def each_yaml(paths, &block)
   end
 
   yaml_files.each do |file_path|
-    yaml = YAML.load_file(file_path)
+    yaml = TMDb::YamlFile.load(file_path)
     new_yaml = yield file_path, yaml
 
-    tempfile = Tempfile.create(File.basename(file_path))
-    tempfile.write(YAML.dump(new_yaml, line_width: -1))
-
-    File.unlink(file_path)
-    File.link(tempfile.path, file_path)
+    TMDb::YamlFile.write(file_path, new_yaml)
   end
 end
