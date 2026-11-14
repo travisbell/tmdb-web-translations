@@ -515,7 +515,7 @@ fi-FI:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Tämän arvostelun poistaminen on lopullinen, sitä ei voida perua.'
   account_drop_down:
     discussions: Keskustelut
     edit_profile: Muokkaa profiilia
@@ -530,7 +530,7 @@ fi-FI:
     sign_up: Rekisteröidy
     view_profile: Näytä profiili
     watchlist: Seurantalista
-    reviews: ''
+    reviews: 'Arvostelut'
   accounts:
     activity:
       activity: Viimeaikaiset
@@ -644,7 +644,7 @@ fi-FI:
       created: ''
       my_new_list: ''
       no_reviews:
-        logged_in: ''
+        logged_in: 'Et ole kirjoittanut yhtään arvostelua.'
         public: '%{username} ei ole kirjoittanut yhtään arvostelua.'
     member_since: Liittynyt %{date}
     navigation:
@@ -702,8 +702,8 @@ fi-FI:
       desc: Laskeva
     statuses:
       banned: ''
-      deleted: ''
-      ok: ''
+      deleted: 'Poistettu'
+      ok: 'Ok'
     tips:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
@@ -726,17 +726,17 @@ fi-FI:
       view_them: Näytä ne
     reviews:
       page_title:
-        page_owner: ''
+        page_owner: 'Omat arvostelut'
         public: 'Käyttäjän %{username} arvostelut'
   add_to_list: Lisää %{media_title} listallesi...
   already_translated_in: "%{page_title} on jo käännetty seuraavilla kielille..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'Kaupallinen API'
     form:
       company_name:
-        label: ''
+        label: 'Yrityksen nimi'
       company_url:
-        label: ''
+        label: 'Yrityksen URL'
       description:
         label: 'Kerro mihin käyttäisit ohjelmointirajapintaamme (API)'
       email:
@@ -744,8 +744,8 @@ fi-FI:
         label: Sähköpostiosoitteesi
       error: ei voi olla tyhjä
       name:
-        label: ''
-      success: ''
+        label: 'Nimi'
+      success: 'Kiitos yritysmyynnin yhteydenotostasi!'
   api_session:
     3rd_party_request: Kolmannen osapuolen todennuspyyntö
     account_required:
@@ -1269,7 +1269,7 @@ fi-FI:
         '2':
           meaning: Soveltuu kaiken ikäisille.
         '3':
-          meaning: Ei suositeltu alle 7-vuotiaille katsojille.
+          meaning: Ei suositella alle 7-vuotiaille.
         '4':
           meaning: Ei suositeltu alle 10-vuotiaille katsojille.
         '5':
@@ -1433,7 +1433,7 @@ fi-FI:
         '6':
           meaning: Tämä ohjelma on suunnatta aikuisille ja on siten sopimaton alle 17-vuotiaille lapsille ja nuorille.
   character:
-    Movie: ''
+    Movie: 'Elokuva'
     Titles: Nimikkeet
     add_a_character: Lisää hahmo
     add_an_appearance: Lisää ulkoasu
@@ -1468,7 +1468,7 @@ fi-FI:
     backdrop_image_message: Tässä on muutama satunnainen kuva otsikkoon. Valitse 1-3 kuvaa päivittääksesi otsikon kuvan.
     backdrop_oops_message: Hups! Et voi valita enempää kuin 3 otsikkokuvaa.
     backdrop_window_title: Valitse hahmon taustakuva
-    below_is_example_text: Alla on esimerkki siitä, miltä sivu Batman näyttää. Käy läpi alla olevat tiedot <br>ja tarkista ne ennen kuin tallennat sivun ja käynnistät sen TMDb:ssä.
+    below_is_example_text: Alla on esimerkki, miltä sivu Batman näyttää. Käy läpi alla olevat tiedot <br>ja tarkista ne ennen kuin tallennat sivun ja lataat sen TMDb:hen.
     cancel_edits: Peruuta muokkaukset
     character_backdrop_photo: Hahmon taustakuva
     character_bio: Hahmon elämäkerta
@@ -1502,7 +1502,7 @@ fi-FI:
     delete_backdrop: Poista tausta
     delete_character: Poista henkilöhahmo
     delete_group: Poista ryhmä
-    delete_group_check: Oletko varma että halust poistaa tämän ryhmän
+    delete_group_check: Haluatko varmasti poistaa tämän ryhmän?
     do_you_want_continue: Haluatko jatkaa?
     done_editing: Lopetetaanko muokkaus?
     drag_title: Vedä otsikko uudelle ryhmälle
@@ -1542,7 +1542,7 @@ fi-FI:
     image_change_1: Tämä kuva on liitetty valitun ryhmän mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
     image_media_association: Tämä kuva on liitetty mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
     in_translate_mode: ''
-    inline_edit_original_name: ''
+    inline_edit_original_name: 'Alkuperäinen nimi'
     join_community_tmdb: ''
     launch_label: ''
     lock_existing_appearances: ''
@@ -1562,7 +1562,7 @@ fi-FI:
     navigate_to_dashboard: ''
     navigate_to_master: ''
     need_help: Tarvitsetko apua?
-    new_to_tmdb: Uusi TMDb-sivuston käyttäjä
+    new_to_tmdb: Uusi TMDb-sivustolla
     next: Seuraava
     next_edit_groups: 'Seuraava: Muokkaa ryhmää'
     next_launch_page: 'Seuraava: Aloitussivu'
@@ -1583,15 +1583,15 @@ fi-FI:
     person: ''
     person_image_association: ''
     placeholder_synopsis: ''
-    played_by: ''
+    played_by: 'Esittäjä'
     please_select_a_person: ''
     popularity_weight: ''
     popularity_weight_multiplier: ''
-    previous: ''
-    previous_nav_label: ''
+    previous: 'Edellinen'
+    previous_nav_label: 'Ed.'
     primary_character_name: ''
     problem_refreshing_results: ''
-    proceed: ''
+    proceed: 'Jatka'
     push_test_v1: ''
     ready_to_launch: ''
     record_exists_in_group: ''
@@ -1620,14 +1620,14 @@ fi-FI:
     select_person_association: ''
     select_person_for_media: ''
     selected_appearance_linked_to_character: Valitut esiintymiset liitetään hahmoon.
-    session_expired: ''
-    session_inactive: ''
+    session_expired: 'Istunto on vanhentunut!'
+    session_inactive: 'Istunto oli käyttämättä liian pitkään.'
     session_over_so_redirect: ''
     session_timeout: 'Istunto on vanhentunut'
-    session_timeout_continue: ''
+    session_timeout_continue: 'Istunto on loppumassa. Haluatko jatkaa sitä?'
     star: Tähti
-    submit: ''
-    submit_and_preview: ''
+    submit: 'Lähetä'
+    submit_and_preview: 'Lähetä ja esikatsele'
     submit_confirmation: '<h3>Hai<strong>%{user}</strong>! Hienoa!</h3> Haluatko varmasti lähettää?'
     submitted: Lähetetty
     suggested_backdrops: Valitse ehdotetut taustat
@@ -1642,7 +1642,7 @@ fi-FI:
     total_Results: ''
     total_appearance: Esiintymisiä yhteensä
     total_budget: Yhteenlaskettu budjetti
-    translations_language: ''
+    translations_language: 'Käännöskieli'
     try_again: Yritä uudelleen!
     tv: TV
     tv_titles: TV-nimikkeet
@@ -1661,10 +1661,10 @@ fi-FI:
     validation_grpname: ''
     validation_synopsis: ''
     view_by: ''
-    want_to_delete_group: ''
-    want_to_go_back: ''
+    want_to_delete_group: 'Haluatko varmasti poistaa tämän ryhmän?'
+    want_to_go_back: 'Haluatko varmasti palata?'
     welcome_message: 'Tervetuloa The Movie Database-yhteisöön, jossa voit:'
-    what_next: ''
+    what_next: 'Mitä haluaisit tehdä seuraavaksi?'
   character name: Hahmon nimi
   collection_includes: Sisältää %{movie_titles}
   confirm_delete: Haluatko varmasti poistaa tämän tiedon?
@@ -1740,7 +1740,7 @@ fi-FI:
     welcome_2: Avustajan ohjekirja
   contribution_type:
     character_appearance: ''
-    movie: ''
+    movie: 'Elokuva'
     primary_character: Päähahmo
     tv_show: TV-sarja
   cookie_popup:
