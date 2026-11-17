@@ -1927,11 +1927,11 @@ ru-RU:
       show_me:
         everything: Все
         movies_have_seen: Просмотренные фильмы
-        movies_havent_seen: Фильмы, которые я не видел
-        show_me: Показать мне
+        movies_havent_seen: Не просмотренные фильмы
+        show_me: Показать
         tooltip: Войдите для фильтра по просмотренному.
-        tv_shows_have_seen: Сериалы, которые я смотрел
-        tv_shows_havent_seen: Сериалы, которые я не видел
+        tv_shows_have_seen: Просмотренные сериалы
+        tv_shows_havent_seen: Не просмотренные сериалы
       sort:
         sort_results_by: Сортировать результаты по
       user_score:
@@ -2262,10 +2262,10 @@ ru-RU:
         anachronism: ''
         invalid: ''
     images:
-      couldnt_process: Мы не смогли обработать это изображение
-      not_jpeg: Это изображение не в формате JPEG
-      not_png: Это изображение не в формате PNG
-      not_svg: Изображение не в формате SVG
+      couldnt_process: Не удалось обработать это изображение.
+      not_jpeg: Это изображение не в формате JPEG.
+      not_png: Это изображение не в формате PNG.
+      not_svg: Изображение не в формате SVG.
     locked:
       genres: Поле жанров заблокировано
       keywords: Поле ключевых слов заблокировано
@@ -2677,7 +2677,7 @@ ru-RU:
     Camera Trainee: Стажёр камер
     Camera Truck: Оператор камеры на грузовом автомобиле
     Captain Driver: Координатор водителей
-    Carpenter: " Плотник"
+    Carpenter: "Плотник"
     Cast Driver: Водитель актёрского состава
     Casting: Кастинг
     Casting Assistant: Ассистент по кастингу
@@ -3132,7 +3132,7 @@ ru-RU:
     Radio Play: Радиопьеса
     Receptionist: Рецепционист
     Recording Supervision: Супервайзер записи
-    Red Technician: Техник цифровых камер RED
+    Red Technician: Техник цифровых камер Red
     Research Assistant: Помощник изыскателя
     Researcher: Изыскатель
     Rigging Gaffer: Главный такелажник
@@ -3424,7 +3424,7 @@ ru-RU:
       next_page: "(стрелка вправо) следующая страница"
       next_season: "(стрелка вправо) перейти к следующему сезону"
       open_activity: открыть страницу действий
-      open_add_image_window: открыть окно добавления изображения
+      open_add_image_window: открыть окно ввода изображения
       open_profile: открыть меню профиля
       open_shortcut_window: открыть окно сочетаний клавиш
       open_translation_selector: открыть переключатель переводов
@@ -3866,7 +3866,7 @@ ru-RU:
       edit:
         adult:
           adult_movie: Фильм для взрослых?
-          adult_status: ''
+          adult_status: 'Для взрослых?'
           status:
             none: ''
             hardcore: ''
@@ -3981,9 +3981,9 @@ ru-RU:
       not_rateable: ''
       rated_with_rating: Оценка %{value}
       rating_count:
-        one: одна оценка
-        few: несколько оценок
-        many: много оценок
+        one: '%{count} Оценка'
+        few: '%{count} Оценки'
+        many: '%{count} Оценок'
       removed: ''
       score_breakdown: Разбор рейтинга
       score_distribution: Распределение рейтинга
@@ -4168,7 +4168,7 @@ ru-RU:
         News: Новостной
         Reality: Реалити-шоу
         Scripted: Художественный
-        Talk Show: " Ток-шоу"
+        Talk Show: "Ток-шоу"
         Video: Видеофильм
       user_characters: ''
     video:
@@ -4284,7 +4284,7 @@ ru-RU:
               format: "%{message}"
               blocked_words: ''
   month:
-    one: месяц
+    one: '%{count} месяц'
     few: '%{count} месяца'
     many: '%{count} месяцев'
   navigation:
@@ -4675,7 +4675,7 @@ ru-RU:
         invalid_dialog_title: Сбросить адрес э-почты?
         reset_button: Сбросить и отправить?
         reset_invalid_email_dialog_text: |-
-          К сожалению, в прошлом у нас были проблемы с отправкой Вам писем. Вы можете просмотреть ошибки <a href="/u/%{username_url}/events/emails?status=2,3">здесь</a>.</p>
+          <p>К сожалению, в прошлом у нас были проблемы с отправкой Вам писем. Вы можете просмотреть ошибки <a href="/u/%{username_url}/events/emails?status=2,3">здесь</a>.</p>
 
           <p>Если проблемы с вашим адресом э-почты были исправлены или были только временными, нажмите кнопку сброса ниже, и мы попробуем отправить вам другое письмо для подтверждения.</p>
         reset_password_invalid_email_dialog_text: |-
@@ -4775,8 +4775,8 @@ ru-RU:
   success_sharing: Ваше сообщение опубликовано.
   support:
     array:
-      last_word_connector: ", and "
-      two_words_connector: " and "
+      last_word_connector: ", и "
+      two_words_connector: " и "
       words_connector: ", "
   the: ''
   time:
