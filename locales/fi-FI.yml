@@ -3,7 +3,7 @@ fi-FI:
   API: API
   API Access Token: API:n käyttöoikeuden tunnus
   API Details: API määrittelyt
-  API Documentation: ''
+  API Documentation: 'API-dokumentaatio'
   API Key: API avain
   API Libraries: API-kirjastot
   API Overview: API:n yhteenveto
@@ -43,7 +43,7 @@ fi-FI:
   Add Profile: Lisää profiili
   Add Season Regular: Lisää kauden vakituinen näyttelijä
   Add Title Logo: Lisää nimikkeen logo
-  Add To Every Season?: Lisää joka kaudelle?
+  Add To Every Season?: Lisää jokaiseen kauteen?
   Add Video: Lisää video
   Add YouTube Video: Lisää YouTube-video
   Add a New Cast Member: Lisää uusi näyttelijä
@@ -80,7 +80,7 @@ fi-FI:
   Are you sure?: Oletko varma?
   Attributes: Ominaisuudet
   Auto: Automaattinen
-  Awards: ''
+  Awards: 'Palkinnot'
   Back to top: Sivun alkuun
   Backdrop Card View: Taustojen korttinäkymä
   Bad Image: Huono kuva
@@ -132,7 +132,7 @@ fi-FI:
   DMCA Policy: DMCA-käytäntö
   DMCA Takedown Request: DMCA-poistopyyntö
   Date: Päivämäärä
-  Date Added: ''
+  Date Added: 'Päiväys lisätty'
   Day of Death: Kuolinpäivä
   Default Language: Oletuskieli
   Delete: Poista
@@ -205,7 +205,7 @@ fi-FI:
   Forum: Keskustelu
   Forums: Keskustelut
   Full Cast & Crew: Kaikki näyttelijät ja tekijät
-  Full Character List: ''
+  Full Character List: 'Luettelo kaikista hahmoista'
   Full Leaderboard: Koko tulostaulukko
   Gender: Sukupuoli
   General: Yleinen
@@ -234,7 +234,7 @@ fi-FI:
   Job: Ammatti
   Join the Community: Liity yhteisöön
   Joined in: Liittyi mukaan
-  Key: ''
+  Key: 'Avain'
   Keyword: Avainsana
   Keyword Results: Avainsanatulokset
   Keywords: Avainsanat
@@ -303,7 +303,7 @@ fi-FI:
   Offensive or Spam: Loukkaava tai roskasisältö
   Offical Site: Virallinen kotisivu
   Offline Databases: Offline-tietokannat
-  Ok: ''
+  Ok: 'OK'
   Optional: ''
   Origin Country: Alkuperämaa
   Original Air Date: Alkuperäinen lähetyspäivä
@@ -388,7 +388,7 @@ fi-FI:
   Search for a genre: Etsi lajityyppiä
   Search for a keyword: Hae avainsanalla
   Search for a language: Etsi kieltä...
-  Search for a movie: ''
+  Search for a movie: 'Etsi elokuvaa'
   Search for a movie or TV show: Etsi elokuvaa tai TV-ohjelmaa
   Search for a movie, TV show, person: Etsi elokuvaa, tv-ohjelmaa, ihmistä...
   Season: Kausi
@@ -418,7 +418,7 @@ fi-FI:
   Source Key: Lähdeavain
   Specials: Erikoisjaksot
   Spoken Languages: Puhutut kielet
-  Stage Name: ''
+  Stage Name: 'taiteilijanimi'
   State: Osavaltio
   Stats: Tilastot
   Status: Tila
@@ -440,7 +440,7 @@ fi-FI:
   TV: TV
   TV Network: TV-verkko
   TV Recommendations: TV suosituksia
-  TV Show: ''
+  TV Show: 'TV-ohjelma'
   TV Show Data: TV-ohjelman tiedot
   TV Show Results: TV-ohjelmatulokset
   TV Show Status: TV-ohjelman tila
@@ -472,7 +472,7 @@ fi-FI:
   Translated Overview: Käännetty kuvaus
   Translated Tagline: Käännetty iskulause
   Translated Title: Käännösnimi (Jätä tyhjä kenttä, jos sama kuin alkuperäinen)
-  Translation: ''
+  Translation: 'Käännös'
   Translations: Käännökset
   Type: Tyyppi
   Type of Problem: Ongelman laji
@@ -515,7 +515,7 @@ fi-FI:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Tämän arvostelun poistaminen on lopullinen, sitä ei voida perua.'
   account_drop_down:
     discussions: Keskustelut
     edit_profile: Muokkaa profiilia
@@ -530,7 +530,7 @@ fi-FI:
     sign_up: Rekisteröidy
     view_profile: Näytä profiili
     watchlist: Seurantalista
-    reviews: ''
+    reviews: 'Arvostelut'
   accounts:
     activity:
       activity: Viimeaikaiset
@@ -644,8 +644,8 @@ fi-FI:
       created: ''
       my_new_list: ''
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Et ole kirjoittanut yhtään arvostelua.'
+        public: '%{username} ei ole kirjoittanut yhtään arvostelua.'
     member_since: Liittynyt %{date}
     navigation:
       discussions: Keskustelut
@@ -702,8 +702,8 @@ fi-FI:
       desc: Laskeva
     statuses:
       banned: ''
-      deleted: ''
-      ok: ''
+      deleted: 'Poistettu'
+      ok: 'Ok'
     tips:
       import_imdb_ratings: Voit tuoda pisteytykset IMDb:stä
       tip: Vinkki
@@ -723,29 +723,29 @@ fi-FI:
         public: Käyttäjän %{username} seurantalista
       this_month: Tässä kuussa
       this_week: Tällä viikolla
-      view_them: Näytä ne.
+      view_them: Näytä ne
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Omat arvostelut'
+        public: 'Käyttäjän %{username} arvostelut'
   add_to_list: Lisää %{media_title} listallesi...
   already_translated_in: "%{page_title} on jo käännetty seuraavilla kielille..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'Kaupallinen API'
     form:
       company_name:
-        label: ''
+        label: 'Yrityksen nimi'
       company_url:
-        label: ''
+        label: 'Yrityksen URL'
       description:
-        label: ''
+        label: 'Kerro mihin käyttäisit ohjelmointirajapintaamme (API)'
       email:
         error: ei ole muotoiltu oikein
         label: Sähköpostiosoitteesi
       error: ei voi olla tyhjä
       name:
-        label: ''
-      success: ''
+        label: 'Nimi'
+      success: 'Kiitos yritysmyynnin yhteydenotostasi!'
   api_session:
     3rd_party_request: Kolmannen osapuolen todennuspyyntö
     account_required:
@@ -1269,7 +1269,7 @@ fi-FI:
         '2':
           meaning: Soveltuu kaiken ikäisille.
         '3':
-          meaning: Ei suositeltu alle 7-vuotiaille katsojille.
+          meaning: Ei suositella alle 7-vuotiaille.
         '4':
           meaning: Ei suositeltu alle 10-vuotiaille katsojille.
         '5':
@@ -1433,7 +1433,7 @@ fi-FI:
         '6':
           meaning: Tämä ohjelma on suunnatta aikuisille ja on siten sopimaton alle 17-vuotiaille lapsille ja nuorille.
   character:
-    Movie: ''
+    Movie: 'Elokuva'
     Titles: Nimikkeet
     add_a_character: Lisää hahmo
     add_an_appearance: Lisää ulkoasu
@@ -1468,7 +1468,7 @@ fi-FI:
     backdrop_image_message: Tässä on muutama satunnainen kuva otsikkoon. Valitse 1-3 kuvaa päivittääksesi otsikon kuvan.
     backdrop_oops_message: Hups! Et voi valita enempää kuin 3 otsikkokuvaa.
     backdrop_window_title: Valitse hahmon taustakuva
-    below_is_example_text: Alla on esimerkki siitä, miltä sivu Batman näyttää. Käy läpi alla olevat tiedot <br>ja tarkista ne ennen kuin tallennat sivun ja käynnistät sen TMDb:ssä.
+    below_is_example_text: Alla on esimerkki, miltä sivu Batman näyttää. Käy läpi alla olevat tiedot <br>ja tarkista ne ennen kuin tallennat sivun ja lataat sen TMDb:hen.
     cancel_edits: Peruuta muokkaukset
     character_backdrop_photo: Hahmon taustakuva
     character_bio: Hahmon elämäkerta
@@ -1502,7 +1502,7 @@ fi-FI:
     delete_backdrop: Poista tausta
     delete_character: Poista henkilöhahmo
     delete_group: Poista ryhmä
-    delete_group_check: Oletko varma että halust poistaa tämän ryhmän
+    delete_group_check: Haluatko varmasti poistaa tämän ryhmän?
     do_you_want_continue: Haluatko jatkaa?
     done_editing: Lopetetaanko muokkaus?
     drag_title: Vedä otsikko uudelle ryhmälle
@@ -1542,7 +1542,7 @@ fi-FI:
     image_change_1: Tämä kuva on liitetty valitun ryhmän mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
     image_media_association: Tämä kuva on liitetty mediatietueeseen, Jos jatkat, myös liitettyjen medioiden henkilötunnisteet muuttuvat!
     in_translate_mode: ''
-    inline_edit_original_name: ''
+    inline_edit_original_name: 'Alkuperäinen nimi'
     join_community_tmdb: ''
     launch_label: ''
     lock_existing_appearances: ''
@@ -1562,7 +1562,7 @@ fi-FI:
     navigate_to_dashboard: ''
     navigate_to_master: ''
     need_help: Tarvitsetko apua?
-    new_to_tmdb: Uusi TMDb-sivuston käyttäjä
+    new_to_tmdb: Uusi TMDb-sivustolla
     next: Seuraava
     next_edit_groups: 'Seuraava: Muokkaa ryhmää'
     next_launch_page: 'Seuraava: Aloitussivu'
@@ -1583,15 +1583,15 @@ fi-FI:
     person: ''
     person_image_association: ''
     placeholder_synopsis: ''
-    played_by: ''
+    played_by: 'Esittäjä'
     please_select_a_person: ''
     popularity_weight: ''
     popularity_weight_multiplier: ''
-    previous: ''
-    previous_nav_label: ''
+    previous: 'Edellinen'
+    previous_nav_label: 'Ed.'
     primary_character_name: ''
     problem_refreshing_results: ''
-    proceed: ''
+    proceed: 'Jatka'
     push_test_v1: ''
     ready_to_launch: ''
     record_exists_in_group: ''
@@ -1620,14 +1620,14 @@ fi-FI:
     select_person_association: ''
     select_person_for_media: ''
     selected_appearance_linked_to_character: Valitut esiintymiset liitetään hahmoon.
-    session_expired: ''
-    session_inactive: ''
+    session_expired: 'Istunto on vanhentunut!'
+    session_inactive: 'Istunto oli käyttämättä liian pitkään.'
     session_over_so_redirect: ''
-    session_timeout: ''
-    session_timeout_continue: ''
+    session_timeout: 'Istunto on vanhentunut'
+    session_timeout_continue: 'Istunto on loppumassa. Haluatko jatkaa sitä?'
     star: Tähti
-    submit: ''
-    submit_and_preview: ''
+    submit: 'Lähetä'
+    submit_and_preview: 'Lähetä ja esikatsele'
     submit_confirmation: '<h3>Hai<strong>%{user}</strong>! Hienoa!</h3> Haluatko varmasti lähettää?'
     submitted: Lähetetty
     suggested_backdrops: Valitse ehdotetut taustat
@@ -1642,7 +1642,7 @@ fi-FI:
     total_Results: ''
     total_appearance: Esiintymisiä yhteensä
     total_budget: Yhteenlaskettu budjetti
-    translations_language: ''
+    translations_language: 'Käännöskieli'
     try_again: Yritä uudelleen!
     tv: TV
     tv_titles: TV-nimikkeet
@@ -1661,10 +1661,10 @@ fi-FI:
     validation_grpname: ''
     validation_synopsis: ''
     view_by: ''
-    want_to_delete_group: ''
-    want_to_go_back: ''
-    welcome_message: ''
-    what_next: ''
+    want_to_delete_group: 'Haluatko varmasti poistaa tämän ryhmän?'
+    want_to_go_back: 'Haluatko varmasti palata?'
+    welcome_message: 'Tervetuloa The Movie Database-yhteisöön, jossa voit:'
+    what_next: 'Mitä haluaisit tehdä seuraavaksi?'
   character name: Hahmon nimi
   collection_includes: Sisältää %{movie_titles}
   confirm_delete: Haluatko varmasti poistaa tämän tiedon?
@@ -1740,7 +1740,7 @@ fi-FI:
     welcome_2: Avustajan ohjekirja
   contribution_type:
     character_appearance: ''
-    movie: ''
+    movie: 'Elokuva'
     primary_character: Päähahmo
     tv_show: TV-sarja
   cookie_popup:
@@ -2135,12 +2135,12 @@ fi-FI:
       title: Lähetä pyyntö
       username:
         label: Käyttäjänimesi
-        note: Muista, että käyttäjätunnuksissa kirjainkoolla on merkitystä
+        note: Muista, että käyttäjätunnuksissa kirjainkoolla on merkitystä.
     report:
       error: Pyynnön lähettämisessä tapahtui virhe. Yritä uudelleen?
       submit: Lähetä DMCA-poistopyyntö.
   dont_fallback: Ei mitään (ei varakieltä)
-  duplicate_character_name: Hahmon nimi on jo olemassa, yritä toisella nimellä
+  duplicate_character_name: Hahmon nimi on jo olemassa, yritä toisella nimellä.
   edit_list:
     add_edit_items: Lisää/muokkaa nimikkeitä
     choose_image: Valitse kuva
@@ -2215,7 +2215,7 @@ fi-FI:
       description:
         logged_in: Sinulla ei ole pääsyä tälle sivulle. Jos uskot, että kyseessä on virhe, kerro siitä meille <a href="%{forum_link}">foorumissa</a>.
         public: Yritit päästä sivulle joka vaatii sisäänkirjautumista. Kirjaudu sisään tilillesi <a href="%{login_link}">klikkaamalla tästä</a>.
-      title: Sinulla ei ole käyttöoikeutta tälle sivulle.
+      title: Sinulla ei ole käyttöoikeutta tälle sivulle
     out_of_login_attempts:
       description: |
         Olet käyttänyt kaikki 10 sisäänkirjautumisyritystä. Voit yrittää uudelleen 30 minuutin kuluttua. Sillä välin voit yrittää <a href="%{reset_password_link}">salasanan palauttamista</a>.
@@ -2449,7 +2449,7 @@ fi-FI:
       file_type: ''
       max_res: ''
       min_res: ''
-      read_guidelines: Ole hyvä ja tutustu päivitettyihin <a href="%{link}" target="_blank" rel="noopener">kuvien jako-ohjeisiin</a>.
+      read_guidelines: Ole hyvä ja tutustu päivitettyihin <a href="%{link}" target="_blank" rel="noopener">kuvien jako-ohjeisiin</a>.<br>Huomaa, että tekoälyn avulla luotuja tai muokattuja fanitaideteoksia ja kuvia ei sallita. Määritelmämme fanitaiteesta löytyy <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">täältä</a>.
       tip: Jos selaimesi tukee sitä, voit pudottaa kuvat alapuoliselle alueelle. Muutoin, klikkaa "valitse tiedosto..." nappia ja valitse kuvat tietokoneeltasi.
       type_backdrops: ''
       type_episode_stills: ''
@@ -3867,9 +3867,9 @@ fi-FI:
 
           <p>Jos sisältö on esimerkiksi kokoelma-DVD, kuntoiluvideo tai ehkäpä "parhaat"-DVD, voit merkata sen videoksi.</p>
         crew:
-          job_required: Työnimike vaaditaan
+          job_required: Työnimike vaaditaan.
           no_records: Tekijöitä ei ole lisätty.
-          person_required: Henkilö vaaditaan
+          person_required: Henkilö vaaditaan.
         genres:
           add_genre: Lisää lajityyppi
           no_records: Lajityyppejä ei ole lisätty.
@@ -3994,7 +3994,7 @@ fi-FI:
       discussions:
         currently_subscribed: Olet tilannut ilmoituksen kun joku kirjoittaa ensimmäisen viestin.
         no_discussions: Nimikkeelle %{item_title} ei ole keskusteluja. Kirjaudu sisään aloittaaksesi ensimmäisen!
-        unsubscribe_me: Peruuta tilaukseni.
+        unsubscribe_me: Peruuta tilaukseni
         want_to_be_notified: Haluatko saada ilmoituksen kun joku kirjoittaa ensimmäisen viestin?
         yes_notify_me: Kyllä, ilmoita minulle!
       reviews:
@@ -4005,10 +4005,10 @@ fi-FI:
           logged_in: Meillä ei ole yhtään arvostelua nimikkeelle %{title}. Haluatko <a href="%{url}">kirjoittaa uuden</a>?
           public: Meillä ei ole yhtään arvostelua nimikkeelle %{title}.
         read_all: Lue kaikki arvostelut
-        read_the_rest: Lue kokonaan.
+        read_the_rest: Lue kokonaan
         write_review:
           logged_in: Kirjoita arvostelu
-          public: Kirjaudu sisään arvostellaksesi.
+          public: Kirjaudu sisään arvostellaksesi
         written_on: ''
         like_button_logged_out: ''
         their_rating: ''

@@ -173,7 +173,7 @@ es-ES:
   Episode Images:
     one: Imagen del episodio
     many: Imágenes del episodio
-    other:
+    other: Imágenes del episodio
   Episode Number: Número de episodio
   Episode Overview: Vista general del episodio
   Episodes: Episodios
@@ -517,7 +517,7 @@ es-ES:
   account:
     reviews:
       delete:
-        message: 'Eliminar esta reseña es una acción definitiva que no se puede deshacer.'
+        message: 'Eliminar esta reseña es una acción permanente que no se puede deshacer.'
   account_drop_down:
     discussions: Debates
     edit_profile: Editar perfil
@@ -730,7 +730,7 @@ es-ES:
         public: Lista de seguimiento de %{username}
       this_month: Este mes
       this_week: Esta semana
-      view_them: Verlos.
+      view_them: Verlos
     reviews:
       page_title:
         page_owner: 'Mis reseñas'
@@ -767,7 +767,7 @@ es-ES:
       message: Es necesario solicitar un token para autenticar la cuentas de usuario.
       title: Falta el token de solicitud
     request_token_approval:
-      message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas valoradas fuera de TMDB"
+      message: "{{APP}} esta preguntando por tu permiso para leer y escribir datos en tu favor. Esto es necesario si quieres hacer cosas como mantener tu lista o peliculas valoradas fuera de TMDB."
     statuses:
       completed:
         message: Has concedido permiso de lectura y escritura a <strong>%{application_name}</strong>. Puedes volver a la aplicación y cerrar esta ventana. Siempre puedes revocar este acceso entrando en la página de configuración de tu cuenta y luego en tu página de "Aplicaciones conectadas".
@@ -904,7 +904,7 @@ es-ES:
         '1':
           meaning: Exento de clasificación. Las películas que están exentas de clasificación no deben contener material.
         '2':
-          meaning: General. El contenido es muy suave
+          meaning: General. El contenido es muy suave.
         '3':
           meaning: Guía parental recomendada. No hay restricción de edad. El contenido es suave.
         '4':
@@ -976,9 +976,9 @@ es-ES:
           meaning: Menores no admitidos, sólo adultos.
       DK:
         '0':
-          meaning: Pendiente de clasificar
+          meaning: Pendiente de clasificar.
         '1':
-          meaning: Válido para todos los públicos
+          meaning: Válido para todos los públicos.
         '2':
           meaning: No recomendada para menores de 7.
         '3':
@@ -1674,9 +1674,9 @@ es-ES:
     user_variant_description: Aquí hay algunas fotos que hemos sacado del personaje. Selecciona o añade una alternativa que se adapte mejor al personaje.
     user_variant_intro: Encuentra tu personaje favorito de películas, series y más...
     validation_charactername: Se necesita el nombre del personaje principal
-    validation_group_synopsis: Introduce una sinopsis de grupo válida
+    validation_group_synopsis: Introduce una sinopsis de grupo válida.
     validation_grpname: Introduce un nombre de grupo válido
-    validation_synopsis: Introduce una sinopsis válida
+    validation_synopsis: Introduce una sinopsis válida.
     view_by: Visto por
     want_to_delete_group: "¿Seguro que deseas eliminar este grupo?"
     want_to_go_back: "¿Seguro que quieres volver?"
@@ -2156,7 +2156,7 @@ es-ES:
       title: Presentar una solicitud
       username:
         label: Tu nombre de usuario
-        note: Ten en cuenta que los nombres de usuario distinguen entre mayúsculas y minúsculas
+        note: Ten en cuenta que los nombres de usuario distinguen entre mayúsculas y minúsculas.
     report:
       error: Hubo un problema al intentar crear tu informe. ¿Intentar otra vez?
       submit: Envíe una solicitud de retirada de la DMCA.
@@ -2243,7 +2243,7 @@ es-ES:
       description:
         logged_in: Tu cuenta no tiene acceso a esta página. Si crees que se trata de un error, infórmanos <a href="%{forum_link}">en los foros</a>.
         public: Intentaste solicitar una página que requiere que inicies sesión. Inicia sesión en tu cuenta <a href="%{login_link}">haciendo clic aquí</a>.
-      title: No tienes permiso para acceder a esta página.
+      title: No tienes permiso para acceder a esta página
     out_of_login_attempts:
       description: |-
         Has usado tus 10 intentos de inicio de sesión. Podrás volver a intentarlo en 30 minutos. También puedes intentar <a href="%{reset_password_link}">restablecer tu contraseña</a>.
@@ -2368,7 +2368,7 @@ es-ES:
       duplicate_season_episode_crew_member: Esta persona ya está agregada como %{job_name} a un episodio de esta temporada. Los créditos del equipo deben agregarse a una temporada o a un episodio, y no a ambos.
       missing_credit: Los créditos que intentabas editar, no existen.
       missing_person: No se pudo encontrar la persona que ingresó.
-    wrong_count: ''
+    wrong_count: 'no es la longitud correcta (debe tener %{count} elementos)'
   failed_email: No se ha podido enviar tu correo electrónico.
   failed_generic: Ha habido un problema.
   failed_report: Ha habido un problema al enviar tu informe.
@@ -3909,9 +3909,9 @@ es-ES:
 
           <p>Si este contenido es, por ejemplo, un DVD recopilatorio, un vídeo de fitness o quizás un DVD de "lo mejor de", deberías marcarlo como vídeo.</p>
         crew:
-          job_required: Se necesita trabajar
+          job_required: Se necesita trabajar.
           no_records: No se han añadido miembros del equipo.
-          person_required: Se necesita una persona
+          person_required: Se necesita una persona.
         genres:
           add_genre: Añadir género
           no_records: No se han añadido géneros.
@@ -4040,7 +4040,7 @@ es-ES:
       discussions:
         currently_subscribed: Te has suscrito para recibir un aviso cuando se cree la primera publicación.
         no_discussions: No hay debates sobre %{item_title}. ¡Inicia sesión para ser el primero!
-        unsubscribe_me: Cancelar mi suscripción.
+        unsubscribe_me: Cancelar mi suscripción
         want_to_be_notified: "¿Quieres que te avisemos cuando alguien cree la primera publicación?"
         yes_notify_me: "¡Sí, avísame!"
       reviews:
@@ -4054,7 +4054,7 @@ es-ES:
         read_the_rest: Leer el resto
         write_review:
           logged_in: Escribir reseña
-          public: Accede para escribir una reseña.
+          public: Accede para escribir una reseña
         written_on: ''
         like_button_logged_out: ''
         their_rating: ''
@@ -4552,7 +4552,7 @@ es-ES:
     watchlist_tv: Buscar lista de seguimiento de series...
     for_media: ''
     softcore: ''
-  search_text_validation_error: "¡Introduce un texto válido!"
+  search_text_validation_error: "Introduce un texto válido."
   search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados por año. Ejemplo: ''star wars y:1977''.'
   season_number_name: Temporada %{season_number}
   season_overview:

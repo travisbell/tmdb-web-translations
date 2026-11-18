@@ -515,7 +515,7 @@ pl-PL:
   account:
     reviews:
       delete:
-        message: 'Usunięcie tej recenzji jest akcją stałą, nie można jej cofnąć.'
+        message: 'Usunięcie tej recenzji jest trwałe i nie będzie można go cofnąć.'
   account_drop_down:
     discussions: Dyskusje
     edit_profile: Edytuj profil
@@ -728,7 +728,7 @@ pl-PL:
         public: Obserwowane przez %{username}
       this_month: W tym miesiącu
       this_week: W tym tygodniu
-      view_them: Zobacz je.
+      view_them: Zobacz je
     reviews:
       page_title:
         page_owner: 'Moje recenzje'
@@ -805,51 +805,51 @@ pl-PL:
     broadcast_series: 'Serial telewizyjny'
     broadcast_series_tooltip: 'Podanie linku do serialu telewizyjnego umożliwia wyświetlanie informacji o produkcji dla każdej ceremonii.'
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
+      add_category: 'Dodaj kategorię'
+      categories: 'Kategorie'
+      category: 'Kategoria'
       crew_credit_departments: ''
       crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
+      date_ended: 'Data zakończenia'
+      date_started: 'Data rozpoczęcia'
       display_type: ''
-      locked: ''
-      media_type: ''
+      locked: 'Dodawanie nowych kategorii zostało wyłączone i zablokowane przez moderatora.'
+      media_type: 'Typ mediów'
       name: ''
       title: Kategorie
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Zakończono %{date}'
+      started_on: 'Rozpoczęto %{date}'
     category_empty: Brak nominacji w tej kategorii
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
+      add_ceremony: 'Dodaj ceremonię'
+      ceremonies: 'Ceremonie'
+      ceremony: 'Ceremonia'
+      date: 'Data'
       limits: ''
-      location: ''
-      locked: ''
+      location: 'Miejsce'
+      locked: 'Dodawanie nowych ceremonii zostało wyłączone i zablokowane przez moderatora.'
       number: Liczba
       release_date_max: Data wydania Max
       release_date_min: Data wydania Min
       title: Ceremonie
     field:
-      homepage: ''
+      homepage: 'Strona główna'
       name: ''
-      overview: ''
+      overview: 'Ogólne informacje'
     new_award:
-      award_details: ''
-      click_next: ''
+      award_details: 'Szczegóły nagród'
+      click_next: 'Ten trzyetapowy kreator przeprowadzi cię przez proces tworzenia. By rozpocząć, kliknij Dalej.'
       getting_started: ''
-      header_1: ''
-      header_2: ''
+      header_1: 'Nowa nagroda'
+      header_2: 'Dodaj nową nagrodę'
       note: ''
-      verify: ''
+      verify: 'Zweryfikuj i zapisz'
     nominations:
-      add_nomination: ''
+      add_nomination: 'Dodaj nominację'
       few: "%{count} nominacje"
-      locked: ''
-      movie: ''
-      nomination: ''
+      locked: 'Dodawanie nowych nominacji zostało wyłączone i zablokowane przez moderatora.'
+      movie: 'Film'
+      nomination: 'Nominacja'
       number:
         few:
         many:
@@ -857,13 +857,13 @@ pl-PL:
         other:
       one: 1 nominacja
       other: "%{count} nominacji"
-      title: ''
-      shared_with: ''
+      title: 'Nominacje'
+      shared_with: 'Razem z...'
       many: "%{count} nominacji"
     nominee: Nominowany
     show_info:
       directed_by: Reżyseria
-      hosted_by: ''
+      hosted_by: 'Prowadzący'
       location: Lokacja
       network: Sieć
       preshow_hosts: ''
@@ -873,14 +873,14 @@ pl-PL:
     title: Nagrody
     winner: Zwycięzca
     wins:
-      one: ''
-      few: ''
-      many: ''
-    most_awarded_films: ''
-    most_awarded_people: ''
-    most_nominated_films: ''
-    most_nominated_people: ''
-    media_page_description: ''
+      one: '%{count} wygrana'
+      few: '%{count} wygrane'
+      many: '%{count} wygranych'
+    most_awarded_films: 'Najczęściej nagradzane filmy'
+    most_awarded_people: 'Najczęściej nagradzane osoby'
+    most_nominated_films: 'Najczęściej nominowane filmy'
+    most_nominated_people: 'Najczęściej nominowane osoby'
+    media_page_description: 'Przegląd nominacji i nagród zdobytych przez %{name} na TMDB. %{name} otrzymał(a) %{nominations} i %{wins}.'
   back_options:
     award: ''
     back: Wróć
@@ -1282,7 +1282,7 @@ pl-PL:
         '2':
           meaning: Do ogólnego oglądania.
         '3':
-          meaning: Nie polecane dla widzów poniżej 7 roku życia.
+          meaning: Niepolecane dla widzów poniżej 7 roku życia.
         '4':
           meaning: Nie polecane dla widzów poniżej 10 roku życia.
         '5':
@@ -1449,15 +1449,15 @@ pl-PL:
     Movie: Film
     Titles: Tytuły
     add_a_character: Dodaj postać
-    add_an_appearance: ''
-    add_appearance: ''
-    add_appearances: ''
+    add_an_appearance: 'Dodaj występ'
+    add_appearance: 'Dodaj występ(y)'
+    add_appearances: 'Dodaj występy'
     add_backdrop: Dodaj tło
     add_backdrop_grp: Dodaj tło dla tej grupy
     add_character_backdrop: ''
     add_completely_free: Korzystaj całowicie bez reklam
     add_missing_character: Dodaj brakującą postać
-    add_new_appearance: ''
+    add_new_appearance: 'Dodaj nowy występ'
     add_new_appearance_links_selection: ''
     add_new_group: Dodaj nową grupę
     add_the_name_of_the_character: Dodaj imię postaci
@@ -1467,7 +1467,7 @@ pl-PL:
     adding_easy: Dodawanie do TMDB jest łatwe i przyjemne
     all_done: Wszystko gotowe?
     all_languages: Wszystkie języki
-    all_record_exists_in_group: Wszystkie rekordy już istnieją w bieżącej grupie.
+    all_record_exists_in_group: Wszystkie rejestry już istnieją w bieżącej grupie.
     already_added: Już dodano
     alter_popularity: ''
     are_you_sure: Czy na pewno chcesz kontynuować?
@@ -2468,7 +2468,7 @@ pl-PL:
       file_type: ''
       max_res: ''
       min_res: ''
-      read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.
+      read_guidelines: Zapoznaj się z naszymi uaktualnionymi <a href="%{link}" target="_blank" rel="noopener">standardami społeczności dotyczącymi obrazów</a>.<br>Należy pamiętać, że grafiki fanowskie oraz dzieła sztuki stworzone lub edytowane przy użyciu sztucznej inteligencji są niedozwolone. Nasza definicja grafiki fanowskiej jest dostępna <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">tutaj</a>.
       tip: Jeśli Twoja przeglądarka wspiera tę funkcjonalność, możesz przeciągnąć obrazki w pole poniżej. W przeciwnym razie naciśnij "Wybierz pliki" i wczytaj obraz ze swojego komputera.
       type_backdrops: ''
       type_episode_stills: ''
@@ -4015,7 +4015,7 @@ pl-PL:
       discussions:
         currently_subscribed: Obecnie masz zaznaczoną opcję otrzymywania powiadomień, gdy ktoś napisze pierwszy post.
         no_discussions: Nie ma obecnie żadnych dyskusji dla %{item_title}. Zaloguj się, aby stworzyć pierwszą dyskusję!
-        unsubscribe_me: Odsubskrybuj mnie.
+        unsubscribe_me: Odsubskrybuj mnie
         want_to_be_notified: Chcesz być powiadomiony, gdy ktoś napisze pierwszego posta?
         yes_notify_me: Tak, powiadom mnie!
       reviews:

@@ -718,19 +718,19 @@ fr-FR:
         public: Liste de suivi de %{username}
       next_month: Le mois prochain
       no_upcoming_movies:
-        one: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        many: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
-        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        one: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} élément dans votre liste de suivi.
+        many: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
+        other: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
       no_upcoming_tv_shows:
-        one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
-        other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} élément dans votre liste de suivi.
+        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
+        other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
       this_month: Ce mois-ci
       this_week: Cette semaine
-      view_them: Les afficher.
+      view_them: Les afficher
     reviews:
       page_title:
         page_owner: 'Mes critiques'
@@ -802,25 +802,25 @@ fr-FR:
       past: Diffusée le %{date}
     alternative_names: Noms alternatifs
     award: 'Récompense'
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+    broadcast_episode: 'Épisode diffusé'
+    broadcast_episode_tooltip: 'Lier à un épisode télévisé permet d''afficher les informations de production.'
+    broadcast_series: 'Séries Diffusées'
+    broadcast_series_tooltip: 'Lier une série télévisée permet d''afficher les informations de production pour chaque cérémonie.'
     categories:
-      add_category: ''
+      add_category: 'Ajouter une catégorie'
       categories: 'Catégories'
       category: 'Catégorie'
-      crew_credit_departments: ''
-      crew_credit_jobs: ''
+      crew_credit_departments: 'Crédits de l''équipe technique par Départements'
+      crew_credit_jobs: 'Crédits de l''équipe technique par Postes'
       date_ended: 'Date de fin'
       date_started: 'Date de début'
       display_type: 'Type d''affichage'
-      locked: ''
+      locked: 'L''ajout de nouvelles catégories a été désactivé et verrouillé par un modérateur.'
       media_type: 'Type de média'
-      name: ''
+      name: 'Nom'
       title: Catégories
       ended_on: ''
-      started_on: ''
+      started_on: 'Commencé le %{date}'
     category_empty: Aucune nomination au sein de cette catégorie.
     ceremonies:
       add_ceremony: ''
@@ -828,8 +828,8 @@ fr-FR:
       ceremony: ''
       date: ''
       limits: ''
-      location: ''
-      locked: ''
+      location: 'Lieu'
+      locked: 'L''ajout de nouvelles cérémonies a été désactivé et verrouillé par un modérateur.'
       number: Numéro
       release_date_max: Date de sortie + / -
       release_date_min: Date de sortie - / +
@@ -843,7 +843,7 @@ fr-FR:
       click_next: ''
       getting_started: ''
       header_1: 'Nouvelle récompense'
-      header_2: ''
+      header_2: 'Ajouter une nouvelle récompense'
       note: ''
       verify: ''
     nominations:
@@ -876,7 +876,7 @@ fr-FR:
       one: 1 victoire
       many: '%{count} victoires'
       other: '%{count} victoires'
-    most_awarded_films: ''
+    most_awarded_films: 'Les films les plus récompensés'
     most_awarded_people: ''
     most_nominated_films: 'Films les plus nominés'
     most_nominated_people: 'Les Personnes les plus nominées'
@@ -2152,7 +2152,7 @@ fr-FR:
       title: Soumettre une demande
       username:
         label: Votre nom d'utilisatrice ou d'utilisateur
-        note: Gardez à l'esprit que les noms d'utilisatrice ou d'utilisateur sont sensibles à la casse
+        note: Gardez à l'esprit que les noms d'utilisatrice ou d'utilisateur sont sensibles à la casse.
     report:
       error: Un problème est survenu lors de la création de votre rapport. Réessayer ?
       submit: Soumettez une demande de retrait DMCA.
@@ -2228,33 +2228,33 @@ fr-FR:
   error_pages:
     deleted_account:
       description: La ou le propriétaire de cette page a supprimé son compte. Bien que toutes ses contributions demeurent sur TMDB, ses données d'utilisatrice ou d'utilisateur ont été rendues anonymes.
-      title: Ce compte a été supprimé.
+      title: Ce compte a été supprimé
     missing_privilege:
       description:
         logged_in: Vous n'avez pas accès à cette page. Si vous pensez qu'il s'agit d'une erreur, faites-le nous savoir <a href="%{forum_link}">sur les forums</a>.
         public: Vous avez tenté d'accéder à une page qui nécessite que vous soyez connecté·e. Connectez-vous à votre compte en <a href="%{login_link}">cliquant ici</a>.
-      title: L'accès à cette page ne vous est pas autorisé.
+      title: L'accès à cette page ne vous est pas autorisé
     out_of_login_attempts:
       description: |-
         Vous avez épuisé vos 10 tentatives de connexion. Vous pourrez réessayer de vous connecter dans 30 minutes. En attendant, vous pouvez d'ores et déjà <a href="%{reset_password_link}">réinitialiser votre mot de passe</a>.
 
         Vous pouvez également <a href="%{about_us_link}">nous contacter</a> pour obtenir de l'aide.
-      title: Vous avez épuisé vos tentatives de connexion.
+      title: Vous avez épuisé vos tentatives de connexion
     private:
       description:
         logged_in: Vous n'avez pas accès à cette page.
         public: Vous avez tenté de charger une page privée.
-      title: Cette page est privée.
+      title: Cette page est privée
     suspended:
       explanation_1: Malheureusement, le compte de cette utilisatrice ou de cet utilisateur a été suspendu.
       go_to_inbox: Afficher la boîte de réception
       title: Cette utilisatrice ou cet utilisateur a été suspendu·e.
       your_account:
         explanation_1: Si vous souhaitez discuter des raisons qui ont mené à la suspension de votre compte ou bien de la manière par laquelle vous pouvez récupérer son accès, veuillez visiter la zone de messagerie en cliquant sur le lien ci-dessous.
-        title: Votre compte a été suspendu.
+        title: Votre compte a été suspendu
     suspended_user_post:
       description: Ce message a enfreint nos <a href="%{link}">règles communautaires</a>. L'utilisatrice ou l'utilisateur qui en est responsable peut également avoir été suspendu·e.
-      title: Ce message a été supprimé.
+      title: Ce message a été supprimé
     too_many_login_attempts:
       description: ''
       title: ''
@@ -4030,7 +4030,7 @@ fr-FR:
       discussions:
         currently_subscribed: Vous recevrez une notification lorsqu'une personne publiera le premier message.
         no_discussions: Il n'y a aucune conversation concernant %{item_title}. Votre contribution est la bienvenue !
-        unsubscribe_me: Cliquez ici pour vous désabonner.
+        unsubscribe_me: Cliquez ici pour vous désabonner
         want_to_be_notified: Voulez-vous recevoir une notification lorsqu'une personne publiera le premier message ?
         yes_notify_me: Pour cela, cliquez ici !
       reviews:
@@ -4041,10 +4041,10 @@ fr-FR:
           logged_in: Aucune critique n'a été rédigée pour %{title}. <a href="%{url}">Cliquez ici pour partager votre opinion !</a>
           public: Aucune critique n'a été rédigée pour %{title}.
         read_all: Afficher toutes les critiques
-        read_the_rest: lire la suite.
+        read_the_rest: lire la suite
         write_review:
           logged_in: Rédiger une critique
-          public: Connectez-vous afin de rédiger une critique.
+          public: Connectez-vous afin de rédiger une critique
         written_on: ''
         like_button_logged_out: ''
         their_rating: ''
@@ -4542,7 +4542,7 @@ fr-FR:
     watchlist_tv: Rechercher une émission télévisée parmi votre liste de suivi...
     for_media: ''
     softcore: ''
-  search_text_validation_error: Veuillez saisir un texte valide !
+  search_text_validation_error: Veuillez saisir un texte valide.
   search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » afin de restreindre les résultats de votre recherche à une année spécifique. Par exemple, saisissez « Star Wars y:1977 » dans la zone de recherche.'
   season_number_name: Saison %{season_number}
   season_overview:
@@ -4776,7 +4776,7 @@ fr-FR:
     javascript_required: L'activation de JavaScript est nécessaire au bon fonctionnement du processus.<br>
     sign_up_for_account: Inscrivez-vous pour obtenir un compte
     signup_text: "<br>La création d'un compte est gratuite et facile.<br><br>Pour commencer, remplissez le formulaire ci-dessous.<br><br>"
-  success_approved_access_token: Permission accordée !
+  success_approved_access_token: Permission accordée !
   success_deleted: L'élément sélectionné a bien été supprimé.
   success_email: Votre courriel a bien été envoyé.<br>Nous vous remercions et vous répondrons le plus rapidement possible.<br>L'équipe de TMDB.
   success_image_rated: L'image / photo a bien été évaluée.
