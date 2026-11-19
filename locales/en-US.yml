@@ -1977,6 +1977,15 @@ en-US:
       signup: Sign up and join the community
       want_to_rate: Want to rate or add this item to a list?
   discussions:
+    action_messages:
+      closed: Post closed
+      made_private: Post marked as private
+      made_public: Post marked as public
+      opened: Post reopened
+      stopped_watching: Stopped watching
+      subscribed: Subscribed
+      unsubscribed: Unsubscribed
+      watching: Watching
     actions:
       actions: Actions
       close_discussion: Close Discussion
@@ -1988,6 +1997,7 @@ en-US:
       stop_watching: Stop Watching
       view_activity: View Activity
       watch: Watch
+    admin_actions: Admin Actions
     admin_panel: Admin Panel
     back_options:
       back_to_item_with_arrow: "← Back to %{item_title}"
@@ -2048,8 +2058,10 @@ en-US:
         one: "%{count} discussion, currently on page %{current_page} of %{total_pages}"
         other: "%{count} discussions, currently on page %{current_page} of %{total_pages}"
     post:
+      add_reply: Add a reply
       delete: Delete
       edit: Edit
+      hidden_reply: A reply by %{username} has been hidden.
       hide: Hide
       ignore: Ignore
       like: Like
@@ -2071,6 +2083,15 @@ en-US:
       reply_on_datetime: on %{date} at %{time}
       report: Report
       unhide: Unhide
+    remove_user:
+      confirm: Remove <strong>%{username}</strong> from this discussion? They will be unsubscribed and won't receive further notifications.
+      title: Remove User
+    replies:
+      count:
+        one: "%{number} Reply"
+        other: "%{number} Replies"
+      jump_to_last: Jump to last post
+      page_of: Page %{current_page} of %{total_pages}
     report_violation: Report Violation
     search:
       advanced_search: Advanced Search
@@ -3998,6 +4019,7 @@ en-US:
       translations: Translations
       videos: Videos
       awards: Awards
+      popularity: Popularity
     social_panel:
       discussions:
         currently_subscribed: You are currently subscribed to receive a notification when someone creates the first post.
@@ -4472,6 +4494,30 @@ en-US:
     credits:
       as_character: as %{character}
       as_job: "— %{job}"
+  popularity:
+    change_30_days: 30 Day Change
+    current_rank: Current Rank
+    days_in_top: Days in Top %{rank}
+    events:
+      credit_season_premiere: "%{name}: Season %{number} Premiere"
+      died: Died
+      season_premiere: Season %{number} Premiere
+      title: Key Dates
+      video_legend: Trailer or teaser released
+    history_start: Popularity history goes back to %{date}.
+    no_history: We've tracked popularity daily since %{date}, and %{name} hasn't been ranked yet.
+    of_board: of %{count}
+    page_description: How %{name}'s popularity on TMDB has changed, day by day.
+    peak_rank: Peak Rank
+    ranges:
+      '30': 30 Days
+      '90': 90 Days
+      '365': 1 Year
+      all: All
+    rank_value: "#%{rank}"
+    title: Popularity History
+    top_percent: Top %{percent}
+    unranked: Unranked
   placeholder:
     primary_character_name: Primary Character Name
   report:
