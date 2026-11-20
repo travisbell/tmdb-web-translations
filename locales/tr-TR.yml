@@ -2146,8 +2146,12 @@ tr-TR:
     list_collaboration: 'Liste İş Birliği'
     no_contributors: 'Henüz katkıda bulunan kişi eklenmedi. Başlamak için bir davet bağlantısı oluşturun ve paylaşın.'
     created: 'Liste Oluşturuldu'
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    confirm_delete: '<p>Bu öğeye ait bir yorum var:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Bu öğeyi kaldırmak istediğinizden emin misiniz?</p>'
+    confirm_delete_grid: '%{media_name} öğesini kaldırmak istediğinizden emin misiniz?'
   edits: düzenlemeler
   email:
     confirm_new_email_address: Yeni E-posta Adresini Onayla
@@ -2227,8 +2231,8 @@ tr-TR:
       description: Bu gönderi, <a href=“%{link}”>topluluk kurallarımıza</a> aykırı bulundu. Bu nedenle sorumlu kullanıcı da askıya alınmış olabilir.
       title: Bu yayın kaldırıldı
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'IP adresinizden çok fazla giriş isteği aldık. Birkaç saniye bekleyip tekrar deneyin.'
+      title: 'Çok Fazla Giriş Denemesi'
   errors:
     attributes:
       descriptors:
