@@ -1542,8 +1542,8 @@ de-DE:
     help_our_mods: Helfe unseren Moderatoren
     help_our_mods_info: Erzähle uns etwas über den Charakter! Dies ist ein privates Feld zwischen dir und dem Moderationsteam. Alle Informationen, die du über den Charakter angibst und warum du ihn erstellst, helfen bei der Überprüfung deiner Seite.
     icon: Symbol
-    image_change_1: Dieses Bild ist mit einem Medieneintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert!
-    image_media_association: Dieses Bild ist mit einem Medieneintrag verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert!
+    image_change_1: Dieses Bild ist mit einem Medieneintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert.
+    image_media_association: Dieses Bild ist mit einem Medieneintrag verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert.
     in_translate_mode: Du bist im Übersetzungsmodus
     inline_edit_original_name: Originaltitel
     join_community_tmdb: Tritt unserer Community bei und trage zur Filmdatenbank bei.
@@ -1552,7 +1552,7 @@ de-DE:
     log_tv_movies_watch: Protokolliere die Serien und Filme, die du schaust
     master_group_limit_error: Tut mir leid, du hast die maximal Anzahl an Gruppen erreicht.
     media: Medien
-    media_association: Diese Medien sind mit einem Bildeintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen des verknüpften Bildes geändert!
+    media_association: Diese Medien sind mit einem Bildeintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen des verknüpften Bildes geändert.
     media_character_id: Medien-Charakter-ID
     media_type: Medien-Typ
     media_types:
@@ -1597,7 +1597,7 @@ de-DE:
     proceed: Fortfahren
     push_test_v1: Push-Test v1
     ready_to_launch: Das war's. Bereit zur Veröffentlichung?
-    record_exists_in_group: Eintrag existiert bereits in der Gruppe.
+    record_exists_in_group: Dieser Eintrag existiert bereits in der Gruppe.
     refresh_list: Beim Aktualisieren der Liste ist ein Problem aufgetreten.
     register: Registrieren
     result: Ergebnisse
@@ -2063,7 +2063,7 @@ de-DE:
         ignore_user: Möchtest du diesen Benutzer wirklich sperren? Alle Diskussionen und Kommentare des Benutzers werden ausgeblendet. Du kannst die Sperre auf der Seite „Gesperrte Benutzer” in deinen Konto-Einstellungen aufheben.
         mark_as_not_spam: Bist du sicher, dass du diese Diskussion als gültig und nicht als Spam markieren möchtest?
         mark_as_spam: Möchtest Du diese Diskussion wirklich als Spam melden? Die Diskussion wird danach automatisch und unwiderruflich gelöscht. Spam-Meldungen helfen uns bei der Verbesserung unseres Spam-Filters.
-        report_violation: Bitte bestätigee, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Leitsätze</a> melden möchtest.
+        report_violation: Bitte bestätige, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Leitsätze</a> melden möchtest.
         unhide_discussion: Wenn du auf 'Ja' klickst, wird diese Diskussion wieder sichtbar gemacht.
       posted_by_with_datetime: Verfasst von %{username} am %{date} um %{time}
       quote: Zitat
@@ -2073,6 +2073,8 @@ de-DE:
       reply_on_datetime: am %{date} um %{time}
       report: Melden
       unhide: Sichtbar machen
+      add_reply: Füge eine Antwort hinzu
+      hidden_reply: Eine Antwort von %{username} wurde verborgen.
     report_violation: Verstoß melden
     search:
       advanced_search: Erweiterte Suche
@@ -2091,6 +2093,25 @@ de-DE:
       no_subscribers: Keine Abonnenten
       users_in_discussion: Benutzer in dieser Diskussion
     your_account: Dein Konto
+    action_messages:
+      closed: Eintrag geschlossen
+      made_private: Eintrag als privat markiert
+      made_public: Eintrag als öffentlich markiert
+      opened: Eintrag wieder geöffnet
+      stopped_watching: Nicht mehr beobachtet
+      subscribed: Abonniert
+      unsubscribed: Deabonniert
+      watching: Beobachtend
+    admin_actions: Admin-Aktionen
+    remove_user:
+      confirm: <strong>%{username}</strong> aus dieser Diskussion entfernen? Der Benutzer wird deabonniert und wird keine weiteren Benachrichtigungen erhalten.
+      title: Benutzer entfernen
+    replies:
+      count:
+        one: '%{number} Antwort'
+        other: '%{number} Antworten'
+      jump_to_last: Zum letzten Beitrag springen
+      page_of: Seite %{current_page} von %{total_pages}
   dmca_takedown:
     form:
       about_self:
@@ -4470,7 +4491,7 @@ de-DE:
     new_password: Neues Passwort
     password: Passwort
     password_confirm: Passwort bestätigen
-    reset_email_sent: E-Mail versendet! Du solltest die Anweisungen zum zurücksetzen deines Passwortes in kürze bekommen.
+    reset_email_sent: E-Mail versendet! Du solltest die Anweisungen zum Zurücksetzen deines Passwortes in Kürze bekommen.
   person:
     credits:
       as_character: als %{character}
@@ -4862,3 +4883,27 @@ de-DE:
     next_label: Nächste →
     page_gap: "…"
     previous_label: "← Vorherige"
+  popularity:
+    change_30_days: 30-Tage-Veränderung
+    current_rank: Aktueller Rang
+    days_in_top: Tage in den Top %{rank}
+    events:
+      credit_season_premiere: '%{name}: Staffel %{number} Premiere'
+      died: Gestorben
+      season_premiere: Staffel %{number} Premiere
+      title: Wichtige Termine
+      video_legend: Trailer oder Teaser veröffentlicht
+    history_start: Die Beliebtheitshistorie reicht bis zum %{date} zurück.
+    no_history: Wir erfassen die Beliebtheit seit %{date} täglich, und %{name} ist bisher noch nicht in der Rangliste vertreten.
+    rank_value: '%{rank}.'
+    ranges:
+      all: Komplett
+      '30': 30 Tage
+      '90': 90 Tage
+      '365': 1 Jahr
+    title: Beliebtheitshistorie
+    page_description: Wie sich die Beliebtheit von %{name} auf TMDB von Tag zu Tag verändert hat.
+    peak_rank: Höchster Rang
+    top_percent: Top %{percent}
+    unranked: Nicht platziert
+    of_board: von %{count}
