@@ -2032,8 +2032,8 @@ es-ES:
       last_reply_with_datetime_v2: 'última respuesta en %{date} a las %{time}'
       last_reply_with_datetime_and_username_v2: 'última respuesta de %{username} en %{date} a las %{time}'
       posted_by_with_datetime: 'publicado <time class="timeago" datetime="%{time}">%{time}</time>'
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
+      posted_by_with_datetime_and_username: '%{username} publicó <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} respondió <time class="timeago" datetime="%{time}">%{time}</time>'
       replied_by: '%{username} respondió'
     discussion_activity: Actividad del debate
     email_notifications:
@@ -2159,7 +2159,7 @@ es-ES:
       error: Hubo un problema al intentar crear tu informe. ¿Intentar otra vez?
       submit: Envíe una solicitud de retirada de la DMCA.
   dont_fallback: Ninguno (no usar)
-  duplicate_character_name: Ya existe un personaje con ese nombre, prueba con otro nombre.
+  duplicate_character_name: El nombre del personaje ya existe, prueba con otro nombre.
   edit_list:
     add_edit_items: Añadir/Editar elementos
     choose_image: Elegir imagen
@@ -2335,7 +2335,7 @@ es-ES:
       present: debe quedar vacío
       required: debe existir
       series_status_invalid_to_create_season: está configurado como 'Cancelado' o 'Finalizado', por lo tanto, no se pueden crear nuevas temporadas.
-      suspected_tv_series: se sospecha que es una serie de televisión o miniserie ya existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará
+      suspected_tv_series: se sospecha que es una serie de televisión o miniserie ya existente, puedes continuar añadiendo este elemento si estás seguro, pero si existe en nuestra sección de televisión, se eliminará.
       taken: ya se ha quitado
       too_long:
         one: es demasiado largo (el máximo es %{count} carácter)
