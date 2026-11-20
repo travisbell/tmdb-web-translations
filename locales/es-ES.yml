@@ -4227,27 +4227,27 @@ es-ES:
         '14': 'fantástico'
         '16': 'animado'
         '18': 'dramático'
-        '27': ''
-        '28': ''
-        '35': ''
+        '27': 'aterrador'
+        '28': 'lleno de acción'
+        '35': 'divertido'
         '36': 'histórico'
         '37': 'escabroso'
-        '53': 'de suspense'
+        '53': 'lleno de suspense'
         '80': 'descarnado'
         '99': 'para reflexionar'
-        '878': ''
-        '9648': ''
-        '10402': ''
+        '878': 'de otro mundo'
+        '9648': 'misterioso'
+        '10402': 'musical'
         '10749': 'romántico'
         '10751': 'para toda la familia'
-        '10752': ''
+        '10752': 'heroico'
         '10762': 'apto para niños'
-        '10763': ''
+        '10763': 'actual'
         '10764': 'improvisado'
         '10759': 'emocionante'
-        '10765': ''
-        '10766': ''
-        '10767': ''
+        '10765': 'imaginativo'
+        '10766': 'escandaloso'
+        '10767': 'sincero'
         '10768': 'con tintes políticos'
         '10770': 'hecho para la televisión'
   message_templates:
@@ -4308,7 +4308,7 @@ es-ES:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words: ''
+              blocked_words: 'el ID externo contiene palabras bloqueadas'
   month:
     one: '%{count} mes'
     many: '%{count} meses'
@@ -4552,7 +4552,7 @@ es-ES:
     trending_searches: Lo más buscado
     watchlist_movie: Buscar lista de seguimiento de películas...
     watchlist_tv: Buscar lista de seguimiento de series...
-    for_media: ''
+    for_media: 'Buscar un/a %{media_type}…'
     softcore: 'Erótico no explícito'
   search_text_validation_error: "Introduce un texto válido."
   search_tip_1: 'Consejo: puedes usar el filtro ''y:'' para restringir los resultados por año. Ejemplo: ''star wars y:1977''.'
@@ -4568,12 +4568,12 @@ es-ES:
       resend_verification_email_text: "¿Se ha perdido tu correo electrónico de verificación? Introduce abajo tu correo y te lo reenviaremos."
       reset_password_text: Introduce el correo que has usado para entrar en TMDB y te mandaremos los pasos necesarios para resetear tu contraseña.
       adult_content:
-        show_adult_content: ''
+        show_adult_content: '¿Mostrar contenido para adultos?'
         confirm_popup:
-          title: ''
+          title: 'IMPORTANTE — Esto es un ajuste para adultos'
           message: 'Al activar esta opción se podrán mostrar contenidos con restricción por edad, incluyendo desnudos y representaciones explícitas de actos sexuales mientras navegas por TMDB. Si aceptas activar esta opción, afirmas que tienes al menos 18 años o la edad requerida para ser considerado mayor de edad en el territorio desde el que accedes a este sitio web y das tu consentimiento para ver contenido sexual explicito.'
           confirm_button: 'Sí, tengo 18 años o más'
-          cancel_button: ''
+          cancel_button: 'Cancelar, soy menor de 18 años'
     api:
       api: API
       create_page_title: Crear una nueva clave de API
