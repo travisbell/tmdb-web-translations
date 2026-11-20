@@ -3747,7 +3747,7 @@ es-ES:
     character:
       edit:
         appearance:
-          no_records: No se han añadido apariciones
+          no_records: No se han añadido apariciones.
     collection:
       edit:
         parts:
@@ -3801,7 +3801,7 @@ es-ES:
         '9': Ya casi...
     crew_credits:
       crew_credits: 'Créditos del equipo'
-      select: ''
+      select: 'Selecciona créditos del equipo...'
     edit:
       alternative_title:
         lock_existing: Bloquear títulos existentes
@@ -3851,7 +3851,7 @@ es-ES:
         original_title: El título original debería ser en el idioma original del elemento. En la mayoría de casos debería coincidir con el idioma del campo "idioma original".
         overview: Cuando escribas un resumen, intenta que sea corto, conciso y sin destripar el argumento.
         social_links: Los únicos enlaces permitidos son a páginas oficiales (verificadas). No están permitidas las páginas de seguidores.
-        softcore: ''
+        softcore: 'Esta opción se utiliza para identificar contenido que es principalmente de naturaleza erótica, pero no necesariamente pornografía dura. Vea mas ejemplos en <a href="/bible/movie#69b97071cfe788db108e926e" target="_blank">la biblia de las contribuciones</a>.'
         video: 'Esta opción se aplica generalmente a videos recopilatorios, conciertos profesionales, directos en teatro y eventos de PPV. Vea mas ejemplos en <a href="/bible/movie#59f73b759251416e71000005" target="_blank">la biblia de las contribuciones</a>.'
       translation_already_exists: La traducción a %{language} ya existe.
       translation_not_found: La traducción en %{language} aún no ha sido creada.
@@ -3888,11 +3888,11 @@ es-ES:
       edit:
         adult:
           adult_movie: "¿Cine para adultos?"
-          adult_status: ''
+          adult_status: '¿Es para adultos?'
           status:
-            none: ''
-            hardcore: ''
-            softcore: ''
+            none: 'Ninguno'
+            hardcore: 'Duro'
+            softcore: 'Blando'
         alternative_titles:
           no_records: No se han añadido títulos alternativos.
         cast:
@@ -4033,7 +4033,7 @@ es-ES:
       seasons: Temporadas
       translations: Traducciones
       videos: Vídeos
-      awards: ''
+      awards: 'Premios'
     social_panel:
       discussions:
         currently_subscribed: Te has suscrito para recibir un aviso cuando se cree la primera publicación.
@@ -4053,11 +4053,11 @@ es-ES:
         write_review:
           logged_in: Escribir reseña
           public: Accede para escribir una reseña
-        written_on: ''
-        like_button_logged_out: ''
-        their_rating: ''
-        your_rating: ''
-        edit_review: ''
+        written_on: 'Escrito el %{date}'
+        like_button_logged_out: 'Inicia sesión o regístrate para indicar que te gusta esta reseña'
+        their_rating: '(su valoración)'
+        your_rating: '(tu valoración)'
+        edit_review: 'Editar reseña'
         no_featured_review:
           logged_in: No tenemos reseñas destacadas de %{title}. ¿Quieres <a href="%{url}">escribir una</a>?
           public: No tenemos reseñas destacadas de %{title}.
@@ -4211,18 +4211,18 @@ es-ES:
       tags: Etiquetas
     wizard:
       award_details: 'Detalle del premio'
-      getting_started: ''
+      getting_started: 'Para empezar'
       intro_1: 'Añadir un nuevo %{media_type} en TMDB is fácil y sencillo. Si tienes alguna pregunta sobre cómo funciona nuestro sistema de edición, asegúrate de leer nuestra <a href="%{bible_href}">biblia de contribución</a> o echa un vistazo a los <a href="%{talk_href}">foros</a>.'
-      intro_2: ''
-      verify: ''
+      intro_2: 'Este formulario te guiara a través del proceso de creación. Para empezar, haz clic en siguiente.'
+      verify: 'Verificar y guardar'
     more_like_this:
-      if_you_liked_this: ''
+      if_you_liked_this: 'Si te gustó <em>%{name}</em>, también podría gustarte…'
       or_something_more: 'O quizá algo un poco más...'
       genres:
-        '12': 'de aventuras'
-        '14': ''
-        '16': ''
-        '18': 'dramático'
+        '12': 'aventurero'
+        '14': 'fantástico'
+        '16': 'animado'
+        '18': 'dramatico'
         '27': ''
         '28': ''
         '35': ''
