@@ -4061,7 +4061,17 @@ en-US:
       taglines: Taglines
       title: Title
     tv_episode:
+      canon_status:
+        filler: Filler
+        mixed: Mixed Canon
+        recap: Recap
       edit:
+        canon_status_label: Canon
+        canon_statuses:
+          canon: Canon
+          filler: Filler
+          mixed: Mixed Canon/Filler
+          recap: Recap
         episode_type_confirm: There is already a %{episode_type} episode for this season. Click 'Yes' to confirm your selection.
         episode_type_label: Episode Type
         episode_types:
@@ -4073,6 +4083,20 @@ en-US:
         screened_as_part_of_season: Yes, as part of season
         screened_confirm: If this episode has been screened in a film festival or theater, click 'Yes' to continue.
         screened_label: Has this episode been screened theatrically?
+        special_type_label: Special Type
+        special_types:
+          behind_the_scenes: Behind the Scenes
+          bloopers: Bloopers
+          deleted_scenes: Deleted Scenes
+          episode: Story Episode (Special, OVA)
+          interview: Interview
+          live_event: Live Event or Reunion
+          movie: Movie
+          none: Not Set
+          other: Other Extra
+          promo: Trailer or Promo
+          recap: Recap
+          short: Short or Webisode
       episode_label:
         finale: Season Finale
         mid_season: Mid-Season Finale
@@ -4081,6 +4105,18 @@ en-US:
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Next Episode
         previous_episode: Previous Episode
+      special_type:
+        behind_the_scenes: Behind the Scenes
+        bloopers: Bloopers
+        deleted_scenes: Deleted Scenes
+        episode: Story
+        interview: Interview
+        live_event: Live Event
+        movie: Movie
+        other: Extra
+        promo: Promo
+        recap: Recap
+        short: Short
     tv_season:
       edit:
         create_episode: Create Episode
@@ -4096,6 +4132,11 @@ en-US:
         last_season: Last Season
         next_season: Next Season
         previous_season: Previous Season
+      special_filter:
+        all: All
+        extras: Extras
+        label: Show specials
+        story: Story
     tv_show:
       create_season: Create Season
       edit:
@@ -4110,23 +4151,46 @@ en-US:
         crew:
           no_season: No seasons exist! A season is required to add crew members.
         episode_groups:
+          canonical: Default order
+          canonical_add_only: This is the series' default order, so you can add groups and episodes to it but not change or remove what's already there.
+          canonical_countries: Default order in countries
+          canonical_countries_help: Viewers whose streaming region is one of these countries see this order by default instead.
+          canonical_default: Everywhere
+          canonical_help: Shown by default on the series' page and seasons page, with the original seasons a click away. Only moderators can change or remove its groups and episodes.
+          continuous_numbering: Number episodes continuously
+          continuous_numbering_help: Episode numbers carry on from one group to the next instead of starting at 1 in each, like an anime's absolute numbering.
           create_new_group: Create New Group
           description: Description
           episode_groups: Episode Groups
           episodes:
-            move_episodes: Move Selected Episodes
+            add_to_group: Add to group
+            all_episodes: All episodes
+            combine_with_previous: Combine with previous
+            filter: Filter by name
+            hint: Drag episodes into the group, or select them and choose Add to group. The link between two episodes combines them into one.
+            in_group: In this group
+            no_matches: No episodes match this name.
             no_records: No episodes have been added to this group.
+            none_available: Every episode is already in this episode group.
+            separate_from_previous: Separate from previous
           grid:
             episodes: Episodes
             groups: Groups
           group: Group
-          messages:
-            episodes_added:
-              one: "%{count} episode added!"
-              other: "%{count} episodes added!"
           name: Group Name
           no_records: No episode groups have been added.
+          order: Order
+          season_details: Show season details
+          season_details_help: When all of a group's episodes come from one season, its card shows that season's poster and overview.
           type: Type
+          translations:
+            discard: Discard your unsaved changes to this translation?
+            groups: Groups
+            language: Language
+            original: Original
+            subtitle: Names and descriptions in other languages
+            title: Translations
+            translation: Translation
           types:
             '1': Original Air Date
             '2': Absolute
@@ -4135,6 +4199,8 @@ en-US:
             '5': Story Arc
             '6': Production
             '7': TV
+          saving: Saving…
+          unsaved_changes: Unsaved changes
         networks:
           no_records: No networks have been added.
           none_found: No matching networks found. Want to create it?
@@ -4149,11 +4215,29 @@ en-US:
         softcore:
           softcore_show: Softcore TV Show?
       episode_groups:
+        add_episodes: Add Episodes
+        add_group: Add Group
+        aired_order: Original Seasons
+        all_types: All
+        combined_episode:
+          one: Combined episode, %{count} part
+          other: Combined episode, %{count} parts
+        episode_range:
+          one: Episode %{first}
+          other: Episodes %{first}–%{last}
         groups:
           count:
             one: "%{count} Group"
             other: "%{count} Groups"
-        original_air_date: Original Air Date
+        more_groups: "+%{count} more"
+        next_group: Next Group
+        previous_group: Previous Group
+        season_order: Season order
+        type_filter: Episode group type
+        view_groups: View Groups
+      episode_tile:
+        latest_episode: Latest Episode
+        next_episode: Next Episode
       networks:
         one: Network
         other: Networks
