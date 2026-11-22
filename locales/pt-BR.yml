@@ -2040,7 +2040,7 @@ pt-BR:
       posted_by_with_datetime: ''
       posted_by_with_datetime_and_username: ''
       replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      replied_by: '%{username} respondeu'
     discussion_activity: Atividade em discussões
     email_notifications:
       email_notifications: Notificações por e-mail
@@ -2095,6 +2095,7 @@ pt-BR:
       reply_on_datetime: em %{date} às %{time}
       report: Reportar
       unhide: Desocultar
+      add_reply: Responder
     report_violation: Reportar uma violação
     search:
       advanced_search: Busca avançada
@@ -2113,6 +2114,8 @@ pt-BR:
       no_subscribers: Nenhum inscrito
       users_in_discussion: Usuários nesta discussão
     your_account: Sua conta
+    replies:
+      page_of: Página %{current_page} de %{total_pages}
   dmca_takedown:
     form:
       about_self:
@@ -2179,8 +2182,12 @@ pt-BR:
     list_collaboration: ''
     no_contributors: ''
     created: ''
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    confirm_delete: '<p>Esse item tem um comentário:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Tem certeza que quer removê-lo?</p>'
+    confirm_delete_grid: 'Tem certeza que quer remover %{media_name}?'
   edits: edições
   email:
     confirm_new_email_address: Confirmar novo endereço de e-mail
@@ -2264,7 +2271,7 @@ pt-BR:
       description: Esta postagem foi considerada uma violação de nossas <a href="%{link}">diretrizes da comunidade</a>.  O usuário responsável por isso também pode ter sido suspenso.
       title: Esta postagem foi removida
     too_many_login_attempts:
-      description: ''
+      description: 'Recebemos demasiadas requisições de login de seu Endereço IP. Aguarde alguns segundos, e tente novamente.'
       title: ''
   errors:
     attributes:
@@ -2349,8 +2356,8 @@ pt-BR:
         one: ''
         many: ''
         other: ''
-      blocked_words: ''
-      duplicate_review: ''
+      blocked_words: 'contém palavras censuradas'
+      duplicate_review: 'Resenha já existe'
     movie:
       duplicate_cast: Esta pessoa já foi adicionada como um membro do elenco.
     nesting: ''
@@ -4035,6 +4042,7 @@ pt-BR:
       translations: Traduções
       videos: Vídeos
       awards: ''
+      popularity: Popularidade
     social_panel:
       discussions:
         currently_subscribed: Você receberá uma notificação quando alguém fizer a primeira postagem.
@@ -4215,36 +4223,36 @@ pt-BR:
       getting_started: ''
       intro_1: ''
       intro_2: ''
-      verify: ''
+      verify: 'Verifique e Salve'
     more_like_this:
-      if_you_liked_this: ''
-      or_something_more: ''
+      if_you_liked_this: 'Se você gostou de <em>%{name}</em>, poderá também gostar de...'
+      or_something_more: 'Ou talvez algo um pouquinho mais...'
       genres:
         '12': ''
         '14': ''
         '16': ''
-        '18': ''
-        '27': ''
+        '18': 'dramático'
+        '27': 'aterrorizante'
         '28': ''
-        '35': ''
-        '36': ''
+        '35': 'divertido'
+        '36': 'histórico'
         '37': ''
         '53': ''
         '80': ''
         '99': ''
         '878': ''
-        '9648': ''
-        '10402': ''
-        '10749': ''
+        '9648': 'misterioso'
+        '10402': 'musical'
+        '10749': 'romântico'
         '10751': ''
-        '10752': ''
+        '10752': 'heroico'
         '10762': ''
         '10763': ''
         '10764': ''
         '10759': ''
         '10765': ''
-        '10766': ''
-        '10767': ''
+        '10766': 'escandaloso'
+        '10767': 'cândido'
         '10768': ''
         '10770': ''
   message_templates:
@@ -4305,7 +4313,7 @@ pt-BR:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words: ''
+              blocked_words: 'ID externo contém palavras censuradas'
   month:
     one: mês
     many: '%{count} meses'
@@ -4569,8 +4577,8 @@ pt-BR:
         confirm_popup:
           title: ''
           message: ''
-          confirm_button: ''
-          cancel_button: ''
+          confirm_button: 'Sim, tenho 18 anos ou mais'
+          cancel_button: 'Cancelar, tenho menos de 18 anos'
     api:
       api: API
       create_page_title: Crie uma Nova API Key
@@ -4910,3 +4918,10 @@ pt-BR:
     next_label: Próxima →
     page_gap: ''
     previous_label: "← Anterior"
+  popularity:
+    ranges:
+      '365': 1 Ano
+      '30': 30 Dias
+      '90': 90 Dias
+    title: Histórico de Popularidade
+    page_description: Como a popularidade de %{name} no TMDB mudou, dia por dia.

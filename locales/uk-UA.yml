@@ -53,7 +53,7 @@ uk-UA:
   Add to your favorite list: Додати до списку вподобань
   Add to your watchlist: Перегляну пізніше
   Added By: Додано
-  Added to Watchlist: Додано до «Перегляну пізніше»
+  Added to Watchlist: Додано до списку перегляду
   Adding & Editing Content: Додавання та редагування контенту
   Address 1: Адреса 1
   Address 2: 'Адреса 2'
@@ -221,7 +221,7 @@ uk-UA:
   Help Us By Contributing Missing Data: Допоможіть нам зі внесенням відсутніх даних
   Hi: Привіт,
   Hide favorites?: Приховати улюблене?
-  Hide items on watchlist?: Приховати елементи з «Перегляну пізніше»?
+  Hide items on watchlist?: Приховати елементи зі списку перегляду?
   Hide rated?: Приховати оцінені раніше?
   Home: Додому
   Homepage: Домашня сторінка
@@ -285,7 +285,7 @@ uk-UA:
   Movie Recommendations: Рекомендації фільмів
   Movie Results: Результати фільмів
   Movie Status: Статус фільму
-  Movie Watchlist: Фільми в «Перегляну пізніше»
+  Movie Watchlist: Список фільмів для перегляду
   Movies: Фільми
   Name: Наймення
   Network: Мережа
@@ -371,7 +371,7 @@ uk-UA:
   Reload Page: Перезавантажити сторінку
   Remove: Видалити
   Remove from your favorite list: Видалити зі списку вподобань
-  Remove from your watchlist: Видалити з вашого «Перегляну пізніше»
+  Remove from your watchlist: Видалити з вашого списку перегляду
   Remove?: Видалити?
   Report: Поскаржитися
   Report an Issue: Повідомити про проблему
@@ -447,7 +447,7 @@ uk-UA:
   TV Show Results: Результати серіалів
   TV Show Status: Статус серіалу
   TV Show Type: Тип серіалу
-  TV Show Watchlist: Серіали в «Перегляну пізніше»
+  TV Show Watchlist: Список серіалів для перегляду
   TV Shows: Серіали
   TV Shows Airing Today: Серіали, що сьогодні в ефірі
   Tagged People: Позначені персони
@@ -517,7 +517,7 @@ uk-UA:
   account:
     reviews:
       delete:
-        message: 'Видалення цього відгуку — це незворотна дія; її неможливо скасувати.'
+        message: 'Видалення цієї рецензії є остаточним і не може бути скасовано.'
   account_drop_down:
     discussions: Обговорення
     edit_profile: Редагувати профіль
@@ -549,7 +549,7 @@ uk-UA:
         tv: Серіали
       page_title:
         page_owner: Моя остання активність
-        public: Остання активність учасника %{username}
+        public: Остання активність %{username}
       table:
         action: Дії
         edit: Змінити
@@ -609,10 +609,10 @@ uk-UA:
     favorites:
       my_favorites:
         logged_in: Мої вподобання
-        public: Улюблене учасника %{username}
+        public: Улюблене %{username}
       page_title:
         page_owner: Мої вподобання
-        public: Улюблене учасника %{username}
+        public: Улюблене %{username}
     filter_by: 'Фільтрувати за:'
     filters:
       air_date: Дата показу
@@ -634,17 +634,17 @@ uk-UA:
       last_updated: Оновлено
       my_lists:
         logged_in: Мої списки
-        public: Списки учасника %{username}
+        public: Списки %{username}
       no_lists:
         logged_in: Ви ще не створили жодного списку.
-        public: Учасник %{username} не має публічних списків для обміну.
+        public: '%{username} не має публічних списків.'
         search: 'Списків не знайдено.'
       page_title:
         page_owner: Мої списки
-        public: Списки учасника %{username}
+        public: Списки %{username}
       search: 'Шукати список…'
       add_to_lists: 'Додати «<span class="bold">%{media_name}</span>» до списку'
-      contributor: ''
+      contributor: 'Учасник'
       create_new_list: 'Створити новий список'
       created: 'Список створено'
       my_new_list: 'Мій новий список…'
@@ -674,27 +674,27 @@ uk-UA:
         logged_in: Ви ще не оцінювали фільми або серіали.
         public: "%{username} ще не оцінював (-ла) фільми або серіали."
       goto_discussions: Перейти до обговорень
-      goto_watchlist: Перейти до «Перегляну пізніше»
+      goto_watchlist: Перейти до списку перегляду
       most_watched_genres: 'Ви найбільше цікавилися жанрами:'
       rating_overview: Огляд оцінок
       recent_activity: Останні дії
       recent_discussions: Останні обговорення
       total_edits: Усього правок
       total_ratings: Усього оцінок
-      upcoming_watchlist: 'Очікувані в «Перегляну пізніше»'
+      upcoming_watchlist: 'Очікувані в списку перегляду'
     page_title:
       page_owner: Мій профіль
-      public: Профіль учасника %{username}
+      public: Профіль %{username}
     ratings_reviews:
       my_ratings:
         logged_in: Мої оцінки
-        public: Оцінки учасника %{username}
+        public: Оцінки %{username}
       my_reviews:
         logged_in: Мої рецензії
-        public: Рецензії учасника %{username}
+        public: Рецензії %{username}
       page_title:
         page_owner: Мої оцінки та рецензії
-        public: Оцінки та рецензії учасника %{username}
+        public: Оцінки та рецензії %{username}
       ratings_by_year: Оцінки за роками
     recommendations:
       my_recommendations: Мої рекомендації
@@ -718,16 +718,16 @@ uk-UA:
         public: Список перегляду %{username}
       next_month: Наступного місяця
       no_upcoming_movies:
-        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних фільмів немає.
-        few: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних фільмів немає.
-        many: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних фільмів немає.
+        one: Очікуваних фільмів немає. Проте у вашому списку перегляду є %{count} елемент.
+        few: Очікуваних фільмів немає. Проте у вашому списку перегляду є %{count} елементи.
+        many: Очікуваних фільмів немає. Проте у вашому списку перегляду є %{count} елементів.
       no_upcoming_tv_shows:
-        one: Усього %{count} елемент у вашому «Перегляну пізніше». Очікуваних серіалів немає.
-        few: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних серіалів немає.
-        many: Усього %{count} елементи у вашому «Перегляну пізніше». Очікуваних серіалів немає.
+        one: Очікуваних серіалів немає. Проте у вашому списку перегляду є %{count} елемент.
+        few: Очікуваних серіалів немає. Проте у вашому списку перегляду є %{count} елементи.
+        many: Очікуваних серіалів немає. Проте у вашому списку перегляду є %{count} елементів.
       page_title:
         page_owner: Мій список перегляду
-        public: Список перегляду учасника %{username}
+        public: Список перегляду %{username}
       this_month: Цього місяця
       this_week: Цього тижня
       view_them: Оглянути їх
@@ -802,7 +802,7 @@ uk-UA:
       past: Відбулося %{date}
     alternative_names: Альтернативні назви
     award: 'Нагорода'
-    broadcast_episode: ''
+    broadcast_episode: 'Телевізійний епізод'
     broadcast_episode_tooltip: 'Посилання на епізод телесеріалу відобразить інформацію про його виробництво.'
     broadcast_series: ''
     broadcast_series_tooltip: 'Прив’язка телесеріалу дозволяє відображати інформацію про виробництво для кожної церемонії.'
@@ -2089,6 +2089,7 @@ uk-UA:
       reply_on_datetime: "%{date}, %{time}"
       report: Поскаржитися
       unhide: Показати приховані
+      add_reply: Додати відповідь
     report_violation: Повідомити про порушення
     search:
       advanced_search: Розширений пошук
@@ -4028,6 +4029,7 @@ uk-UA:
       translations: Переклади
       videos: Відеоролики
       awards: 'Нагороди'
+      popularity: Популярність
     social_panel:
       discussions:
         currently_subscribed: Тепер ви підписані на сповіщення про перші дописи інших учасників.
@@ -4036,8 +4038,8 @@ uk-UA:
         want_to_be_notified: Хочете дізнатися, коли хтось опублікує перший допис?
         yes_notify_me: Так, сповістіть мене!
       reviews:
-        a_review_by: Рецензія від учасника %{username}
-        by: Створено учасником %{username} %{date}
+        a_review_by: Рецензія %{username}
+        by: Написано %{username} %{date}
         featured_review: Видатні рецензії
         no_review:
           logged_in: Поки що немає рецензій на «%{title}». Бажаєте <a href="%{url}">написати</a>?
@@ -4345,20 +4347,20 @@ uk-UA:
     tv: Щоб отримувати персональні рекомендації щодо серіалів, додайте свої улюблені шоу. На цьому етапі вам, напевно, буде рекомендовано багато серіалів, які ви вже бачили раніше. Щоб відфільтрувати такі шоу, оцініть їх! Після цього вони будуть автоматично відфільтровані.
   no_rated_movies:
     current_user: Ви не оцінили жодного фільму.
-    public: Фільми ще не оцінювалися учасником %{username}.
+    public: '%{username} не оцінив (-ла) жодного фільму.'
   no_rated_tv_shows:
     current_user: Ви ще не оцінили жодного серіалу.
-    public: Серіали ще не оцінювалися учасником %{username}.
+    public: '%{username} не оцінив (-ла) жодного серіалу.'
   no_recommendations:
     movie: Недосить даних, щоб порадити фільми, схожі на «%{title}». Ви можете допомогти, оцінивши фільми, які бачили раніше.
     tv_show: Недосить даних, щоб порадити серіали, схожі на «%{title}». Ви можете допомогти, оцінивши серіали, які бачили раніше.
   no_records: Не додано жодного запису.
   no_tv_search_results: Немає серіалів, що відповідають вашому запиту.
   no_watchlist_movies:
-    current_user: Ви не додали жодного фільму до «Перегляну пізніше».
+    current_user: Ви не додали жодного фільму до списку перегляду.
     public: Цей список перегляду порожній.
   no_watchlist_tv_shows:
-    current_user: Ви не додали жодного серіалу до «Перегляну пізніше».
+    current_user: Ви не додали жодного серіалу до списку перегляду.
     public: Цей список перегляду порожній.
   no_writer: Сценариста не додано.
   not_translated:
@@ -4533,8 +4535,8 @@ uk-UA:
     search_results: Результати пошуку
     trending: У тренді
     trending_searches: Актуальні запити
-    watchlist_movie: Шукати серед фільмів у «Перегляну пізніше»…
-    watchlist_tv: Шукати серед серіалів у «Перегляну пізніше»…
+    watchlist_movie: Шукати в списку фільмів для перегляду…
+    watchlist_tv: Шукати в списку серіалів для перегляду…
     for_media: 'Шукати %{media_type}...'
     softcore: 'Еротика'
   search_text_validation_error: Будь ласка, введіть коректний пошуковий запит.
@@ -4651,7 +4653,7 @@ uk-UA:
       streaming_services: Потокові сервіси
     notifications:
       api_updates: Надсилати мені листи щодо змін та оновлень API
-      email_new_releases_watchlist: Надсилати мені листи про нові релізи з мого «Перегляну пізніше»
+      email_new_releases_watchlist: Надсилати мені електронні листи про нові релізи з мого списку перегляду?
       new_replies_to_threads_created: Автоматично стежити за темами, що створені або підтримані мною
       new_replies_to_threads_watching: Надсилати мені листи про нові відповіді в темах, за якими я стежу
       news_updates: Надсилати мені листи з новинами й оновленнями продукту
@@ -4738,7 +4740,7 @@ uk-UA:
       watchlist:
         remove_when_rated: Автоматично видаляти зі списку, коли ви поставили оцінку?
         share_publicly: Зробити цей список публічним?
-        watchlist_settings: Налаштування «Перегляну пізніше»
+        watchlist_settings: Налаштування списку перегляду
     social:
       connected_table:
         action: Дії
@@ -4896,3 +4898,8 @@ uk-UA:
     next_label: Далі →
     page_gap: "…"
     previous_label: "← Назад"
+  popularity:
+    ranges:
+      '30': 30 днів
+      '90': 90 днів
+      '365': 1 рік
