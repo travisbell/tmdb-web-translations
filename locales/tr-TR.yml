@@ -513,7 +513,7 @@ tr-TR:
   account:
     reviews:
       delete:
-        message: 'Bu yorumu silmek geri alınamaz bir işlemdir; geri alınamaz.'
+        message: 'Bu yorumu silmek kalıcıdır ve geri alınamaz.'
   account_drop_down:
     discussions: Tartışmalar
     edit_profile: Profili Düzenle
@@ -636,11 +636,11 @@ tr-TR:
         page_owner: Listelerim
         public: "%{username}'in Listeleri"
       search: 'Bir liste ara...'
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      add_to_lists: 'Listelere <span class="bold">%{media_name}</span> ekleyin'
+      contributor: 'Katkıda Bulunan'
+      create_new_list: 'Yeni bir liste oluştur'
+      created: 'Liste oluşturuldu'
+      my_new_list: 'Yeni listem...'
       no_reviews:
         logged_in: 'Henüz hiçbir yorum yazmamışsınız.'
         public: '%{username} henüz hiçbir yorum yazmamış.'
@@ -721,10 +721,10 @@ tr-TR:
         public: "%{username}'nin İzleme Listesi"
       this_month: Bu Ay
       this_week: Bu Hafta
-      view_them: Onları göster.
+      view_them: Onları göster
     reviews:
       page_title:
-        page_owner: ''
+        page_owner: 'Değerlendirmelerim'
         public: ''
   add_to_list: Listenize %{media_title} ekleyin...
   already_translated_in: "%{page_title} çevirisi aşağıdaki dillerde mevcuttur..."
@@ -868,7 +868,7 @@ tr-TR:
     most_awarded_people: En Çok Ödül Alan Kişiler
     most_nominated_films: En Çok Aday Gösterilen Filmler
     most_nominated_people: En Çok Aday Gösterilen Kişiler
-    media_page_description: ''
+    media_page_description: 'TMDB üzerinde %{name} için ödül adaylıklarına ve kazanılan ödüllere göz atın. %{name}, %{nominations} adaylık ve %{wins} ödül elde etmiştir.'
   back_options:
     award: Ödüle Geri Dön
     back: Geri
@@ -1658,9 +1658,9 @@ tr-TR:
     user_variant_description: İşte Karakter için çektiğimiz birkaç olası fotoğraf. Lütfen birini seçin veya karaktere daha uygun bir fotoğraf ekleyin.
     user_variant_intro: Filmler, Diziler ve TV Şovları ve daha fazlasından en sevdiğiniz karakteri bulun ...
     validation_charactername: Birincil karakter adı gerekli...
-    validation_group_synopsis: Geçerli bir grup özeti girin
+    validation_group_synopsis: Geçerli bir grup özeti girin.
     validation_grpname: Lütfen geçerli bir grup adı girin
-    validation_synopsis: Geçerli bir özet girin
+    validation_synopsis: Geçerli bir özet girin.
     view_by: Görüntüleyen By
     want_to_delete_group: Bu grubu silmek istediğinizden emin misiniz?
     want_to_go_back: Geri dönmek istediğinden emin misin?
@@ -1922,19 +1922,19 @@ tr-TR:
       years:
         years: Yıllar
       ceremony_date:
-        ceremony_date: ''
-        search_all_ceremonies: ''
-        search_latest_ceremony: ''
-        latest_ceremony: ''
+        ceremony_date: 'Tören Tarihi'
+        search_all_ceremonies: 'Tüm törenleri ara'
+        search_latest_ceremony: 'En güncel töreni ara'
+        latest_ceremony: 'En Son Tören'
       last_ceremony:
-        latest_ceremony: ''
-        search_all_countries: ''
-        search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+        latest_ceremony: 'En Son Tören'
+        search_all_countries: 'Tüm Ülkelerde Ara'
+        search_latest_ceremony: 'En Son Gerçekleşen Törenle Arama Yapın'
+      adult_content: 'Yetişkin İçeriği'
+      exclude_adult: 'Yetişkinleri Hariç Tut'
+      include_adult: 'Yetişkin Dahil'
+      adult_filters: 'Yetişkin Filtreleri'
+      softcore_content: 'Hafif Cinsel Içerik'
     no_items: Sorgunuzla eşleşen hiçbir öğe bulunamadı.
     search: Bul
     sort_options:
@@ -1954,8 +1954,8 @@ tr-TR:
       release_date_desc: Azalan Yayınlanma Tarihi
       title_a_z: Başlık (A-Z)
       title_z_a: Başlık (Z-A)
-      latest_ceremony_asc: ''
-      latest_ceremony_desc: ''
+      latest_ceremony_asc: 'En Yeni Tören'
+      latest_ceremony_desc: 'En Son Tören (Azalan)'
     tooltips:
       not_member: Üye değil misin?
       options: Öğe Gösterme Seçenekeleri
@@ -1998,12 +1998,12 @@ tr-TR:
     category:
       last_reply_with_datetime: "%{date} tarihinde %{time}\n"
       last_reply_with_datetime_and_username: "%{date} tarihinde saat %{time} da %{username} <br>tarafından "
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
-      posted_by_with_datetime: ''
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      last_reply_with_datetime_v2: 'son yanıt %{date} tarihinde saat %{time} itibarıyla gönderildi'
+      last_reply_with_datetime_and_username_v2: 'son yanıt %{username} tarafından %{date} tarihinde saat %{time}''te gönderildi'
+      posted_by_with_datetime: '<time class="timeago" datetime="%{time}">%{time}</time> paylaşıldı'
+      posted_by_with_datetime_and_username: '%{username} tarafından <time class="timeago" datetime="%{time}">%{time}</time> paylaşıldı'
+      replied_by_with_datetime_and_username: '%{username} tarafından <time class="timeago" datetime="%{time}">%{time}</time> yanıtlandı'
+      replied_by: '%{username} tarafından yanıtlandı'
     discussion_activity: Tartışma Etkinliği
     email_notifications:
       email_notifications: E-Posta Bildirimleri
@@ -2121,7 +2121,7 @@ tr-TR:
       title: Bir istek gönderin
       username:
         label: Kullanıcı adınız
-        note: Kullanıcı adlarının büyük/küçük harfe duyarlı olduğunu unutmayın
+        note: Kullanıcı adlarının büyük/küçük harfe duyarlı olduğunu unutmayın.
     report:
       error: Raporunuzu oluşturmaya çalışırken bir sorun oluştu. Tekrar dener misiniz?
       submit: DMCA yayından kaldırma isteği gönder
@@ -2132,16 +2132,26 @@ tr-TR:
     choose_image: Görsel Seç
     delete_list: Liste Sil
     edit_list: Listeyi Düzenle
-    contributor_notes: ''
-    contributors: ''
-    create_invite_link: ''
-    edit_invite_link: ''
-    invite_contributor: ''
-    list_collaboration: ''
-    no_contributors: ''
-    created: ''
-    confirm_delete: ''
-    confirm_delete_grid: ''
+    contributor_notes: 'Hem herkese açık hem de özel listelere başka kullanıcıları davet edebilirsiniz.
+
+      Katkıda bulunanlar yalnızca öğe ekleyip kaldırabilir ve yorumları güncelleyebilir.
+
+      Yeni bir katkıda bulunan kişiyi davet etmek için davet bağlantısını e-posta veya anlık mesajlaşma yoluyla gönderin.
+
+      Katkıda bulunanların daveti kabul edebilmesi için TMDB hesabına sahip olması gerekir.'
+    contributors: 'Katkıda Bulunanlar'
+    create_invite_link: 'Davet bağlantısı oluştur'
+    edit_invite_link: 'Davet bağlantısını düzenle'
+    invite_contributor: 'Katkıda bulunan kişiyi davet et'
+    list_collaboration: 'Liste iş birliği'
+    no_contributors: 'Henüz katkıda bulunan kişi eklenmedi. Başlamak için bir davet bağlantısı oluşturun ve paylaşın.'
+    created: 'Liste oluşturuldu'
+    confirm_delete: '<p>Bu öğeye ait bir yorum var:</p>
+
+      <p>"%{media_comment}"</p>
+
+      <p>Bu öğeyi kaldırmak istediğinizden emin misiniz?</p>'
+    confirm_delete_grid: '%{media_name} öğesini kaldırmak istediğinizden emin misiniz?'
   edits: düzenlemeler
   email:
     confirm_new_email_address: Yeni E-posta Adresini Onayla
@@ -2221,8 +2231,8 @@ tr-TR:
       description: Bu gönderi, <a href=“%{link}”>topluluk kurallarımıza</a> aykırı bulundu. Bu nedenle sorumlu kullanıcı da askıya alınmış olabilir.
       title: Bu yayın kaldırıldı
     too_many_login_attempts:
-      description: ''
-      title: ''
+      description: 'IP adresinizden çok fazla giriş isteği aldık. Birkaç saniye bekleyip tekrar deneyin.'
+      title: 'Çok fazla giriş denemesi'
   errors:
     attributes:
       descriptors:
@@ -2296,11 +2306,11 @@ tr-TR:
       wrong_length:
         one: yanlış uzunluk (%{count} karakter olmalıdır)
         other:
-      blocked_words: ''
-      duplicate_review: ''
+      blocked_words: 'engellenen kelimeler içeriyor'
+      duplicate_review: 'İnceleme zaten mevcut'
     movie:
       duplicate_cast: Bu kişi daha önce oyuncu olarak eklenmiş.
-    nesting: ''
+    nesting: 'geçersiz iç içe yerleştirme içeriyor'
     tv:
       create_season_locked: Bu dizi için yeni sezonların yaratılması kilitlendi.
       duplicate_created_by: Bu kişi zaten bir içerik oluşturucu olarak eklenmiş.
@@ -2313,7 +2323,7 @@ tr-TR:
       duplicate_season_episode_crew_member: Bu kişi zaten bu sezonun bir bölümüne %{job_name} olarak eklendi. Ekip jeneriklerinin bir sezona veya bir bölüme eklenmesi gerekir; her ikisine birden eklenmesi gerekmez.
       missing_credit: Düzenlemeye çalıştığınız jenerik mevcut değil.
       missing_person: Girdiğiniz kişi bulunamadı.
-    wrong_count: ''
+    wrong_count: 'geçersiz uzunlukta (tam olarak %{count} öğe içermelidir)'
   failed_email: E-Mail adresinize gönderilemedi
   failed_generic: Bir problem oluştu.
   failed_report: Raporunuzun ulaştırılmasında bir problem oluştu.
@@ -2432,7 +2442,7 @@ tr-TR:
       file_type: "%{file_type} dosya türü"
       max_res: Maksimum %{res} çözünürlük
       min_res: Minimum %{res} çözünürlük
-      read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">görsel ekleme rehberimizi</a> inceleyin.
+      read_guidelines: Lütfen güncellenen <a href="%{link}" target="_blank" rel="noopener">görsel ekleme rehberimizi</a> inceleyin.<br>AI kullanılarak oluşturulan veya düzenlenmiş hayran sanatları ve görsellerin kabul edilmediğini lütfen unutmayın. Hayran sanatı tanımımıza <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">buradan</a> ulaşabilirsiniz.
       tip: Tarayıcınız destekliyorsa, bir görseli aşağıdaki alana sürükleyip bırakabilirsiniz. Aksi takdirde, 'Dosyaları seç/Gözat...' düğmesine tıklayın ve bilgisayarınızdan yüklemek istediğiniz görseli seçin.
       type_backdrops: Arka Planlar
       type_episode_stills: Bölüm Fotoğrafları
@@ -2943,18 +2953,18 @@ tr-TR:
     Line Producer: Set Amiri
     Loader: Asistan Kamera Operatörü
     Local Casting: Yerel Oyuncu Seçimi
-    Locale Casting Director: ''
+    Locale Casting Director: 'Yerel Oyuncu Seçimi Yönetmeni'
     Location Assistant: Konum Yardımcısı
-    Location Casting: ''
+    Location Casting: 'Çekim Yerinde Oyuncu Seçimi'
     Location Coordinator: Mekan Koordinatörü
     Location Manager: Konum Yöneticisi
-    Location Production Assistant: ''
-    Location Scout: ''
-    Location Sound Assistant: ''
-    Location Sound Mixer: ''
-    Location Sound Recordist: ''
+    Location Production Assistant: 'Çekim Yeri Prodüksiyon Asistanı'
+    Location Scout: 'Çekim Yeri Araştırmacısı'
+    Location Sound Assistant: 'Çekim Yeri Ses Asistanı'
+    Location Sound Mixer: 'Çekim Yeri Ses Mikseri'
+    Location Sound Recordist: 'Çekim Yeri Ses Kayıt Sorumlusu'
     Logistics Coordinator: Lojistik Koordinatörü
-    Loop Group Coordinator: ''
+    Loop Group Coordinator: 'Dublaj Grubu Koordinatörü'
     Lyricist: Söz Yazarı
     Machinist: Makinist
     Main Title Designer: Ana Başlık Tasarımcısı
@@ -2988,7 +2998,7 @@ tr-TR:
     Motion Capture Artist: Hareket Yakalama Sanatçısı
     Music: Müzik
     Music Arranger: Müzik Düzenleyicisi
-    Music Co-Supervisor: ''
+    Music Co-Supervisor: 'Ortak Müzik Süpervizörü'
     Music Consultant: Müzik Danışmanı
     Music Coordinator: Müzik Koordinatörü
     Music Director: Müzik Yöneticisi
@@ -2996,18 +3006,18 @@ tr-TR:
     Music Producer: Müzik Yapımcısı
     Music Programmer: Müzik Programcısı
     Music Score Producer: Müzik Yapımı Puanı
-    Music Sound Design and Processing: ''
-    Music Supervision Assistant: ''
+    Music Sound Design and Processing: 'Müzik Ses Tasarımı ve İşleme'
+    Music Supervision Assistant: 'Müzik Süpervizyon Asistanı'
     Music Supervisor: Müzik Danışmanı
     Musical: Müzikal
     Musical Casting: Müzikal Oyuncu Kadrosu
     Musician: Müzisyen
-    Negative Cutter: ''
+    Negative Cutter: 'Negatif Kesim Uzmanı'
     Novel: Roman
-    O.B. Lighting: ''
-    O.B. Sound: ''
-    On Set Computer Graphics: ''
-    On Set Dresser: ''
+    O.B. Lighting: 'Dış Çekim Aydınlatması'
+    O.B. Sound: 'Dış Yayın Ses Ekibi'
+    On Set Computer Graphics: 'Sette Bilgisayar Grafikleri'
+    On Set Dresser: 'Set Dekor Düzenleyicisi'
     On Set Key Props: On Set Key Props
     On Set Props: Set Sahne
     Online Editor: Çevrimiçi Editör
@@ -3030,15 +3040,15 @@ tr-TR:
     Phantom Operator: Phantom Operatörü
     Photo Retouching: Fotoğraf Rötuşlama
     Photoscience Manager: Fotobilim Müdürü
-    Picture Car Coordinator: Resim ve  Araba Koordinatörü
+    Picture Car Coordinator: Resim ve Araba Koordinatörü
     Pilot: Pilot
     Pipeline Technical Director: Boru Hattı Teknik Direktörü
     Playback Coordinator: Kayıttan Yürütme Koordinatörü
-    Playback Singer: ''
+    Playback Singer: 'Playback Şarkıcısı'
     Poem: Şiir
     Police Consultant: Polis Danışmanı
-    Post Coordinator: ''
-    Post Producer: ''
+    Post Coordinator: 'Post Prodüksiyon Koordinatörü'
+    Post Producer: 'Post Prodüksiyon Yapımcısı'
     Post Production Accountant: Post Prodüksiyon Muhasebecisi
     Post Production Assistant: Yapım Sonrası Asistanı
     Post Production Consulting: Post Prodüksiyon Danışmanlığı
@@ -3105,16 +3115,16 @@ tr-TR:
     Rigging Gaffer: Donanım Elektrikçisi
     Rigging Grip: Donanım Tutucusu
     Rigging Supervisor: Donanım Görevlisi
-    Roto Supervisor: ''
+    Roto Supervisor: 'Rotoskopi Süpervizörü'
     Rotoscoping Artist: Rotoskop Sanatçısı
     Runner Art Department: Sanat Bölümü Koşucusu
-    Russian Arm Operator: ''
+    Russian Arm Operator: 'Russian Arm Operatörü'
     Scenario Writer: Senaryo Yazarı
-    Scenic Artist: ''
-    Schedule Coordinator: ''
+    Scenic Artist: 'Dekor Ressamı'
+    Schedule Coordinator: 'Çekim Takvimi Koordinatörü'
     Scientific Consultant: Bilimsel Danışman
     Score Engineer: Teknisyen Puanı
-    Scoring Mixer: ''
+    Scoring Mixer: 'Müzik Miksaj Uzmanı'
     Screenplay: Senaryo
     Screenstory: Senaryo Hikâyesi
     Script: Senaryo
@@ -3125,75 +3135,75 @@ tr-TR:
     Script Supervisor: Senaryo Denetçisi
     Sculptor: Heykeltıraş
     Seamstress: Terzi
-    Second Assistant "A" Camera: ''
-    Second Assistant "B" Camera: ''
+    Second Assistant "A" Camera: 'A Kamerası İkinci Asistanı'
+    Second Assistant "B" Camera: 'B Kamerası İkinci Asistanı'
     Second Assistant "C" Camera: İkinci Yardımcı "C" Kamera
     Second Assistant "D" Camera: İkinci Yardımcı "D" Kamera
-    Second Assistant Accountant: ''
-    Second Assistant Art Director: ''
+    Second Assistant Accountant: 'İkinci Muhasebe Asistanı'
+    Second Assistant Art Director: 'İkinci Sanat Yönetmeni Asistanı'
     Second Assistant Camera: İkinci Yardımcı Kamera
     Second Assistant Director: İkinci Yardımcı Yönetmen
     Second Assistant Director Trainee: İkinci Yardımcı Yönetmen Stajyeri
     Second Assistant Production Coordinator: İkinci Yardımcı Prodüksiyon Koordinatörü
     Second Assistant Sound: İkinci Yardımcı Ses
     Second Assistant Unit Manager: İkinci Yardımcı Birim Yöneticisi
-    Second Company Grip: ''
+    Second Company Grip: 'Grip Şefi Yardımcısı'
     Second Film Editor: İkinci Film Editörü
-    Second Second Assistant Director: ''
+    Second Second Assistant Director: 'İkinci Yönetmen Yardımcısının Asistanı'
     Second Unit: İkinci Birim
     Second Unit Cinematographer: İkinci Birim Görüntü Yönetmeni
     Second Unit Director: İkinci Birim Yönetmeni
     Second Unit Director of Photography: İkinci Birim Görüntü Yönetmeni
     Second Unit First Assistant Director: İkinci Ünite Birinci Yardımcı Yönetmeni
-    Second Unit Location Manager: ''
+    Second Unit Location Manager: 'İkinci Ekip Çekim Yeri Sorumlusu'
     Security: Güvenlik
     Security Coordinator: Güvenlik Koordinatörü
     Senior Animator: Kıdemli Animatör
     Senior Colorist: Kıdemli Renk Uzmanı
     Senior Digital Intermediate Colorist: ıdemli Dijital Orta Düzey Renk Uzmanı
     Senior Executive Consultant: Kıdemli Yönetici Danışmanı
-    Senior Generalist: ''
-    Senior Modeller: ''
-    Senior Story Editor: ''
-    Senior Visual Effects Supervisor: ''
-    Sequence Artist: ''
-    Sequence Lead: ''
-    Sequence Supervisor: ''
+    Senior Generalist: 'Kıdemli Çok Yönlü Sanatçı'
+    Senior Modeller: 'Kıdemli Modelleme Sanatçısı'
+    Senior Story Editor: 'Kıdemli Hikâye Editörü'
+    Senior Visual Effects Supervisor: 'Kıdemli Görsel Efekt Süpervizörü'
+    Sequence Artist: 'Sekans Sanatçısı'
+    Sequence Lead: 'Sekans Ekip Lideri'
+    Sequence Supervisor: 'Sekans Süpervizörü'
     Series Composition: Seri Kompozisyonu
     Series Director: Dizi Direktörü
     Series Publicist: Dizi Yayıncısı
     Series Writer: Dizi Yazarı
-    Set Buyer: ''
-    Set Costumer: ''
-    Set Decorating Coordinator: ''
+    Set Buyer: 'Set Satın Alma Sorumlusu'
+    Set Costumer: 'Set Kostüm Sorumlusu'
+    Set Decorating Coordinator: 'Set Dekorasyon Koordinatörü'
     Set Decoration: Set Dekorasyonu
-    Set Decoration Buyer: ''
+    Set Decoration Buyer: 'Set Dekorasyonu Satın Alma Sorumlusu'
     Set Designer: Set Tasarımcısı
-    Set Dresser: ''
-    Set Dressing Artist: ''
-    Set Dressing Buyer: ''
-    Set Dressing Manager: ''
-    Set Dressing Production Assistant: ''
-    Set Dressing Supervisor: ''
+    Set Dresser: 'Set Dekor Düzenleyicisi'
+    Set Dressing Artist: 'Set Dekorasyon Sanatçısı'
+    Set Dressing Buyer: 'Set Dekorasyonu Satın Alma Sorumlusu'
+    Set Dressing Manager: 'Set Dekorasyonu Yöneticisi'
+    Set Dressing Production Assistant: 'Set Dekorasyonu Prodüksiyon Asistanı'
+    Set Dressing Supervisor: 'Set Dekorasyonu Süpervizörü'
     Set Medic: Set Tıbbı
     Set Painter: Set Ressamı
     Set Photographer: Set Fotoğrafçısı
-    Set Production Assistant: ''
-    Set Production Intern: ''
-    Set Propsman: ''
+    Set Production Assistant: 'Set Prodüksiyon Asistanı'
+    Set Production Intern: 'Set Prodüksiyon Stajyeri'
+    Set Propsman: 'Set Aksesuar Sorumlusu'
     Set Runner: Set Koşucusu
-    Set Supervisor: ''
-    Sets & Props Artist: ''
-    Sets & Props Supervisor: ''
+    Set Supervisor: 'Set Süpervizörü'
+    Sets & Props Artist: 'Set ve Aksesuar Sanatçısı'
+    Sets & Props Supervisor: 'Set ve Aksesuar Süpervizörü'
     Settings: Ayarlar
-    Shading: ''
+    Shading: 'Gölgelendirme'
     Shoe Design: Ayakkabı Tasarımı
-    Shop Electric: ''
+    Shop Electric: 'Dekor Atölyesi Elektrikçisi'
     Short Story: Kısa Hikaye
-    Sign Painter: ''
-    Simulation & Effects Artist: ''
-    Simulation & Effects Production Assistant: ''
-    Smoke Artist: ''
+    Sign Painter: 'Tabela Ressamı'
+    Simulation & Effects Artist: 'Simülasyon ve Efekt Sanatçısı'
+    Simulation & Effects Production Assistant: 'Simülasyon ve Efekt Prodüksiyon Asistanı'
+    Smoke Artist: 'Duman Efektleri Sanatçısı'
     Software Engineer: Yazılım Mühendisi
     Software Team Lead: Yazılım Takım Lideri
     Songs: Şarkılar
@@ -3201,16 +3211,16 @@ tr-TR:
     Sound Assistant: Ses Asistanı
     Sound Design Assistant: Ses Dizaynı Asistanı
     Sound Designer: Ses Tasarımcısı
-    Sound Director: ''
+    Sound Director: 'Ses Yönetmeni'
     Sound Editor: Ses Editörü
     Sound Effects: Ses Efektleri
-    Sound Effects Designer: ''
-    Sound Effects Editor: ''
+    Sound Effects Designer: 'Ses Efektleri Tasarımcısı'
+    Sound Effects Editor: 'Ses Efektleri Editörü'
     Sound Engineer: Ses Mühendisi
-    Sound Mix Technician: ''
-    Sound Mixer: ''
-    Sound Montage Associate: ''
-    Sound Post Production Coordinator: ''
+    Sound Mix Technician: 'Ses Miksaj Teknisyeni'
+    Sound Mixer: 'Ses Miksaj Uzmanı'
+    Sound Montage Associate: 'Ses Montajı Yardımcısı'
+    Sound Post Production Coordinator: 'Ses Post Prodüksiyon Koordinatörü'
     Sound Post Supervisor: Ses Post Prodüksiyon Sorumlusu
     Sound Re-Recording Assistant: Ses Yeniden Kayıt Asistanı
     Sound Re-Recording Mixer: Ses Yeniden Kayıt Mikseri
@@ -3218,22 +3228,22 @@ tr-TR:
     Sound Supervisor: Ses Sorumlusu
     Sound Technical Supervisor: Ses Teknik Sorumlusu
     Special Effects: Özel Efekt
-    Special Effects Assistant: ''
-    Special Effects Best Boy: ''
-    Special Effects Coordinator: ''
-    Special Effects Key Makeup Artist: ''
-    Special Effects Makeup Artist: ''
-    Special Effects Manager: ''
-    Special Effects Supervisor: ''
-    Special Effects Technician: ''
+    Special Effects Assistant: 'Özel Efekt Asistanı'
+    Special Effects Best Boy: 'Özel Efekt Baş Asistanı'
+    Special Effects Coordinator: 'Özel Efekt Koordinatörü'
+    Special Effects Key Makeup Artist: 'Özel Efekt Baş Makyaj Sanatçısı'
+    Special Effects Makeup Artist: 'Özel Efekt Makyaj Sanatçısı'
+    Special Effects Manager: 'Özel Efekt Yöneticisi'
+    Special Effects Supervisor: 'Özel Efekt Süpervizörü'
+    Special Effects Technician: 'Özel Efekt Teknisyeni'
     Special Guest: Özel Misafir
-    Special Guest Director: ''
-    Special Props: ''
-    Special Sound Effects: ''
+    Special Guest Director: 'Özel Konuk Yönetmen'
+    Special Props: 'Özel Aksesuarlar'
+    Special Sound Effects: 'Özel Ses Efektleri'
     Specialized Driver: Uzman Sürücü
-    Sponsorship Coordinator: ''
-    Sponsorship Director: ''
-    Staff Writer: ''
+    Sponsorship Coordinator: 'Sponsorluk Koordinatörü'
+    Sponsorship Director: 'Sponsorluk Direktörü'
+    Staff Writer: 'Kadrolu Senarist'
     Stage Director: Sahne Yönetmeni
     Stand In: Yardımcı
     Standby Art Director: Yardımcı Sanat Yönetmeni
@@ -3241,13 +3251,13 @@ tr-TR:
     Standby Painter: Yardımcı Ressam
     Standby Property Master: Yardımcı Emlak Uzmanı
     Standby Rigger: Yardımcı Makinist
-    Steadicam Operator: ''
-    Steadycam: ''
-    Stereoscopic Coordinator: ''
-    Stereoscopic Editor: ''
-    Stereoscopic Supervisor: ''
-    Stereoscopic Technical Director: ''
-    Still Photographer: ''
+    Steadicam Operator: 'Steadicam Operatörü'
+    Steadycam: 'Steadicam'
+    Stereoscopic Coordinator: 'Stereoskopik Görüntü Koordinatörü'
+    Stereoscopic Editor: 'Stereoskopik Kurgu Editörü'
+    Stereoscopic Supervisor: 'Stereoskopik Görüntü Süpervizörü'
+    Stereoscopic Technical Director: 'Stereoskopik Görüntü Teknik Direktörü'
+    Still Photographer: 'Set Fotoğrafçısı'
     Story: Hikâye
     Story Artist: Hikâye Sanatçısı
     Story Consultant: Senaryo Danışmanı
@@ -3277,12 +3287,12 @@ tr-TR:
     Supervising Editor: Baş Editör
     Supervising Film Editor: Baş Film Editörü
     Supervising Music Editor: Baş Müzik Editörü
-    Supervising Producer: ''
-    Supervising Sound Editor: ''
-    Supervising Sound Effects Editor: ''
-    Supervising Technical Director: ''
-    Supervisor of Production Resources: ''
-    Swing: ''
+    Supervising Producer: 'Denetleyici Yapımcı'
+    Supervising Sound Editor: 'Ses Kurgusu Editörü'
+    Supervising Sound Effects Editor: 'Ses Efektleri Kurgusu Süpervizörü'
+    Supervising Technical Director: 'Denetleyici Teknik Direktör'
+    Supervisor of Production Resources: 'Prodüksiyon Kaynakları Süpervizörü'
+    Swing: 'Set Kurulum ve Toplama Görevlisi'
     Systems Administrators & Support: Sistem Yöneticileri ve Destek
     Tailor: Terzi
     Tattoo Designer: Dövme Tasarımcısı
@@ -3634,9 +3644,9 @@ tr-TR:
     total_runtime: Toplam Süre
     use_grid_view: Izgara Görünümü
     use_list_view: Liste Görünümü
-    search: ''
-    no_search_results: ''
-    search_within: ''
+    search: 'Ara'
+    no_search_results: 'Aramanızla eşleşen öğe bulunamadı.'
+    search_within: 'Listenizdeki öğeler arasında arama yapın...'
   list_messages:
     comment_updated: Yorum güncellendi!
     image_saved: Görüntü kaydedildi!
@@ -3662,21 +3672,21 @@ tr-TR:
   media:
     adult: Yetişkin
     alternative_names:
-      add_name: ''
-      alternative_names: ''
-      name: ''
-      no_records: ''
+      add_name: 'İsim Ekle'
+      alternative_names: 'Alternatif İsimler'
+      name: 'İsim'
+      no_records: 'Henüz alternatif isim eklenmedi.'
     award:
       edit:
         adult:
-          adult_award: ''
-        title_logos: ''
+          adult_award: 'Yetişkinlere Yönelik Ödül'
+        title_logos: 'Başlık Logoları'
       header:
-        latest_ceremony: ''
-        upcoming_ceremony: ''
+        latest_ceremony: 'En son ödül törenine göz atın'
+        upcoming_ceremony: 'Yaklaşan ödül törenine göz atın'
     cast_credits:
-      cast_credits: ''
-      select: ''
+      cast_credits: 'Oyuncu Olarak Yer Aldığı Yapımlar'
+      select: 'Oyuncu Olarak Yer Aldığı Yapımları Seçin...'
     changes:
       filters:
         clear: Temizle
@@ -3698,8 +3708,8 @@ tr-TR:
           no_records: Hiçbir film eklenmemiş.
       parts: Filmler
     companies:
-      companies: ''
-      select: ''
+      companies: 'Şirketler'
+      select: 'Şirketleri Seçin...'
     company:
       headquarters: Genel Merkez
       movie_page_title: "%{name} tarafından çekilen filmler"
@@ -3743,8 +3753,8 @@ tr-TR:
         '8': Ha gayret az kaldı.
         '9': Neredeyse bitti...
     crew_credits:
-      crew_credits: ''
-      select: ''
+      crew_credits: 'Teknik Ekipte Yer Aldığı Yapımlar'
+      select: 'Teknik Ekipte Yer Aldığı Yapımları Seçin...'
     edit:
       alternative_title:
         lock_existing: Mevcut Başlıkları Kilitle
@@ -3794,8 +3804,8 @@ tr-TR:
         original_title: Orijinal Başlık, öğenin orijinal dilinde girilmelidir. Bu genelde "orijinal dil" alanına girilen dille örtüşecektir.
         overview: Lütfen özet yazarken kısa öz ve düzgün olmasına, senaryoyu önceden elverecek ifadeler (spoiler) kullanmamaya özen gösterin.
         social_links: Sosyal ağ bağlantıları yalnızca (onaylı) resmi sayfalar içindir, hayran sayfalarına izin verilmemektedir.
-        softcore: ''
-        video: ''
+        softcore: 'Bu seçenek, ağırlıklı olarak erotik içerikli olan ancak mutlaka açık pornografi niteliği taşımayan yapımları tanımlamak için kullanılır. Daha fazla örnek için <a href="/bible/movie#69b97071cfe788db108e926e" target="_blank">katkıda bulunma rehberine</a> göz atın.'
+        video: 'Bu seçenek genellikle derleme videolar, profesyonel konser kayıtları, canlı tiyatro gösterileri ve izleme başına ödemeli (PPV) etkinlikler için kullanılır. Daha fazla örnek için <a href="/bible/movie#59f73b759251416e71000005" target="_blank">katkıda bulunma rehberine</a> göz atın.'
       translation_already_exists: "%{language} çevirisi zaten mevcut."
       translation_not_found: "%{language} çevirisi henüz oluşturulmadı."
       unlock_all_appearances: "'Evet'i tıkladığınızda mevcut tüm kayıtların kilidini açacaksınız."
@@ -3831,11 +3841,11 @@ tr-TR:
       edit:
         adult:
           adult_movie: Film Yetişkinler İçin Mİ?
-          adult_status: ''
+          adult_status: 'Yetişkin İçerik Durumu?'
           status:
-            none: ''
-            hardcore: ''
-            softcore: ''
+            none: 'Hiçbiri'
+            hardcore: 'Açık Pornografik İçerik'
+            softcore: 'Erotik İçerik'
         alternative_titles:
           no_records: Alternatif başlık eklenmedi.
         cast:
@@ -3850,9 +3860,9 @@ tr-TR:
 
           <p>Eğer bu içerik örneğin bir derleme DVD’si, bir fitnes videosu veya belki de ‘en iyiler’ DVD’siyse, bunu bir video olarak işaretlemelisiniz.</p>
         crew:
-          job_required: Bir iş gerekli
+          job_required: Bir iş gerekli.
           no_records: Ekip üyesi eklenmemiş.
-          person_required: Bir kişi gerekli
+          person_required: Bir kişi gerekli.
         genres:
           add_genre: Tarz Ekle
           no_records: Hiçbir tarz eklenmemiş.
@@ -3872,7 +3882,7 @@ tr-TR:
         videos:
           no_records: Hiçbir video eklenmemiş.
         softcore:
-          softcore_movie: ''
+          softcore_movie: 'Erotik İçerikli Film mi?'
       statuses:
         Canceled: İptal Edildi
         In Production: Yapım Aşamasında
@@ -3972,12 +3982,12 @@ tr-TR:
       seasons: Sezonlar
       translations: Çeviriler
       videos: Videolar
-      awards: ''
+      awards: 'Ödüller'
     social_panel:
       discussions:
         currently_subscribed: Birisi ilk gönderiyi oluşturduğunda bir bildirim alacaksınız.
         no_discussions: "%{item_title} için hiç tartışma yok. İlkini başlatmak için giriş yapın!"
-        unsubscribe_me: Beni üyelikten çıkar.
+        unsubscribe_me: Beni üyelikten çıkar
         want_to_be_notified: İlk gönderim yapıldığında sana haber verilsin mi?
         yes_notify_me: Evet, bana haber ver!
       reviews:
@@ -3991,12 +4001,12 @@ tr-TR:
         read_the_rest: geri kalanları oku
         write_review:
           logged_in: Bir Eleştiri Yaz
-          public: Eleştiri yazmak için oturum aç.
-        written_on: ''
-        like_button_logged_out: ''
-        their_rating: ''
-        your_rating: ''
-        edit_review: ''
+          public: Eleştiri yazmak için oturum aç
+        written_on: '%{date} tarihinde yazıldı'
+        like_button_logged_out: 'Bu incelemeyi beğenmek için giriş yapın veya kaydolun'
+        their_rating: '(kendi puanı)'
+        your_rating: '(sizin puanınız)'
+        edit_review: 'İncelemeyi Düzenle'
         no_featured_review:
           logged_in: '%{title} için henüz öne çıkan bir yoruma sahip değiliz. <a href="%{url}"> Bir tane yazmak</a> ister misiniz?'
           public: "%{title} için hiç öne çıkan eleştiri yok. "
@@ -4100,7 +4110,7 @@ tr-TR:
         seasons:
           no_records: Eklenen sezon yok.
         softcore:
-          softcore_show: ''
+          softcore_show: 'Erotik İçerikli Dizi mi?'
       episode_groups:
         groups:
           count:
@@ -4146,11 +4156,11 @@ tr-TR:
       restricted_regions: Kısıtlı Bölgeler
       tags: Etiketler
     wizard:
-      award_details: ''
-      getting_started: ''
-      intro_1: ''
-      intro_2: ''
-      verify: ''
+      award_details: 'Ödül Detayları'
+      getting_started: 'Başlarken'
+      intro_1: 'TMDB''ye yeni bir %{media_type} eklemek oldukça basit ve kolaydır. Düzenleme sistemimizin nasıl çalıştığı hakkında sorularınız varsa <a href="%{bible_href}">katkıda bulunma rehberimizi</a> mutlaka okuyun veya <a href="%{talk_href}">forumlarımızı</a> ziyaret edin.'
+      intro_2: 'Bu form, oluşturma sürecinde size adım adım rehberlik edecektir. Başlamak için İleri''ye tıklayın.'
+      verify: 'Doğrula ve Kaydet'
     more_like_this:
       if_you_liked_this: Eğer <em>%{name}</em> sevdiyseniz, şunları da sevebilirsiniz...
       or_something_more: Veya belki daha fazlası...
@@ -4239,7 +4249,7 @@ tr-TR:
           attributes:
             external_id:
               format: "%{message}"
-              blocked_words: ''
+              blocked_words: 'Harici kimlik engellenen kelimeler içeriyor'
   month:
     one: '%{count} ay'
     other:
@@ -4309,7 +4319,7 @@ tr-TR:
     public: Bu izleme listesi boş
   no_writer: Hiçbir yazar eklenmedi.
   not_translated:
-    logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Çeviri eklemeye devam etmek istiyorsanız lütfen aşağıdaki <strong>Çeviri Oluştur</strong> butona tıklayın."
+    logged_in: "%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiştir. Çeviri eklemeye devam etmek istiyorsanız lütfen aşağıdaki Çeviri Oluştur butona tıklayın."
     public: '%{page_title} henüz <strong>%{requested_i18n} (%{requested_language_text})</strong> diline çevrilmemiş. Bu çeviriyi, <a href="%{login_link}">giriş</a> yaparak veya hesap açmak için <a href="%{signup_link}">kaydolarak</a> yapabilirsiniz.'
   notifications:
     caught_up: Görünüşe göre her şey yolunda.
@@ -4356,7 +4366,7 @@ tr-TR:
           quadrillion: Kad
           thousand: Bin
           trillion: Tio
-          unit: ''
+          unit: '­'
     percentage:
       format:
         delimiter:
@@ -4476,9 +4486,9 @@ tr-TR:
     trending_searches: Popüler Aramalar
     watchlist_movie: Film izleme listesinde ara
     watchlist_tv: Dizi izleme listesinde ara
-    for_media: ''
-    softcore: ''
-  search_text_validation_error: Lütfen geçerli bir metin giriniz!
+    for_media: '%{media_type} ara...'
+    softcore: 'Erotik İçerik'
+  search_text_validation_error: Lütfen geçerli bir metin giriniz.
   search_tip_1: 'İpucu: Sorgunuzda yıl belirtmek için ''y:'' kullanabilirsiniz. Örneğin: ''yıldız savaşları y:1977''.'
   season_number_name: Sezon %{season_number}
   season_overview:

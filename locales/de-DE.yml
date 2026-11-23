@@ -289,7 +289,7 @@ de-DE:
   Network: Sender
   Networks: Sender
   New: Neu
-  New episode airs in: Neue Episode wird ausgestrahlt in
+  New episode airs in: Neue Folge wird ausgestrahlt in
   'No': Nein
   No Language: Keine Sprache
   None: Kein
@@ -398,7 +398,7 @@ de-DE:
   Season Specials: Staffel-Extras
   Seasons: Staffeln
   Secondary Color: Sekundärfarbe
-  See Episodes: Episoden zeigen
+  See Episodes: Folgen zeigen
   Select One: Bitte auswählen …
   Select a category: Wähle eine Kategorie...
   Send: Senden
@@ -487,14 +487,14 @@ de-DE:
   Video?: Video?
   View: Ansicht
   View All Backdrops: Alle Hintergrundbilder anzeigen
-  View All Episode Images: Zeige alle Bilder der Episode
-  View All Episodes: Alle Episoden anzeigen
+  View All Episode Images: Zeige alle Bilder der Folge
+  View All Episodes: Alle Folgen anzeigen
   View All Posters: Alle Poster anzeigen
   View All Seasons: Alle Staffeln anzeigen
   View All Videos: Alle Videos anzeigen
   View Discussions: Diskussionen anzeigen
   View Edit History: Änderungsverlauf
-  View Episodes: Episoden anzeigen
+  View Episodes: Folgen anzeigen
   View More: Mehr anzeigen
   View Original: Original anzeigen
   View Profile Images: Profilbild anzeigen
@@ -515,7 +515,7 @@ de-DE:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'Das Löschen dieser Rezension ist permanent und kann nicht rückgängig gemacht werden.'
   account_drop_down:
     discussions: Diskussionen
     edit_profile: Profil
@@ -589,7 +589,7 @@ de-DE:
             Messages: Nachrichten
             type: Typ
         notifications:
-          one: Benachrichtigungen
+          one: Benachrichtigung
           other: Benachrichtigungen
         number_of_items:
           one: "%{count} Benachrichtigung"
@@ -638,9 +638,9 @@ de-DE:
         page_owner: Meine Listen
         public: "%{username}'s Listen"
       search: Suche nach einer Liste...
-      add_to_lists: ''
+      add_to_lists: 'Füge <span class="bold">%{media_name}</span> zu Listen hinzu'
       contributor: 'Mitwirkender'
-      create_new_list: ''
+      create_new_list: 'Neue Liste erstellen'
       created: 'Liste erstellt'
       my_new_list: 'Meine neue Liste...'
       no_reviews:
@@ -795,7 +795,7 @@ de-DE:
       past: Ausgestrahlt am %{date}
     alternative_names: Alternativnamen
     award: Preis
-    broadcast_episode: Ausgestrahlte Episode
+    broadcast_episode: Ausgestrahlte Folge
     broadcast_episode_tooltip: Eine Verknüpfung mit einer Serienfolge zeigt Produktionsinformationen an.
     broadcast_series: Ausgestrahlte Serie
     broadcast_series_tooltip: Die Verknüpfung einer Serie ermöglicht die Anzeige von Produktionsinformationen für jede Zeremonie.
@@ -880,7 +880,7 @@ de-DE:
     episode_list: Zurück zur Folgenliste
     home: Zurück zur Startseite
     main: Zurück zur Hauptseite
-    named_episode_group: Zurück zu &lsquo;%{group_name}&rsquo; groups
+    named_episode_group: Zurück zu &lsquo;%{group_name}&rsquo; Gruppen
     season: Zurück zur Staffel
     season_list: Zurück zur Staffelliste
     to_tmdb: Zurück zur TMDB
@@ -1031,19 +1031,19 @@ de-DE:
           meaning: 'Darf nur in lizenzierten Erwachsenen-Kinos gezeigt oder in lizenzierten Sexshops verkauft werden und nur an Erwachsene, die 18 Jahre oder älter sind. Filme in dieser Kategorie sind immer Hardcore-Pornografie, definiert als Material, das für sexuelle Stimulation bestimmt ist und klare Bilder von echten sexuellen Aktivitäten, starkes Fetischmaterial, explizite animierte Bilder oder den Anblick bestimmter Handlungen wie dreifache gleichzeitige Penetration und "snowballing". Es bleibt eine Reihe von Materialien, die oft von der R18-Bewertung abgeschnitten werden: starke Bilder von Verletzungen bei BDSM oder Spanking-Spielen, Urolagnie, Szenen, die auf Inzest hinweisen, auch wenn sie inszeniert werden, Hinweise auf Sex mit Minderjährigen oder sexuelle Entwicklung in der Kindheit und aggressives Verhalten wie Haareziehen oder Anspucken eines Darstellers sind nicht erlaubt. In dieser Kategorie werden mehr Schnitte gefordert als in jeder anderen Kategorie.'
       HU:
         '0':
-          meaning: ''
+          meaning: 'Keine Informationen zur Altersfreigabe.'
         '1':
           meaning: Kinderfreundliche Sendung. Diese Sendung kann unbedacht zu jederzeit laufen.
         '2':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 6 Jahren.'
         '3':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 12 Jahren.'
         '4':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 16 Jahren.'
         '5':
-          meaning: ''
+          meaning: 'Nicht empfohlen unter 18 Jahren.'
         '6':
-          meaning: ''
+          meaning: 'Unter 18 Jahren eingeschränkt, nur für Erwachsene.'
       IN:
         '0':
           meaning: Uneingeschränkte öffentliche Ausstrahlung in ganz Indien, geeignet für alle Altersgruppen. Filme unter dieser Kategorie sollten Kinder über 4 Jahre nicht aufschrecken. Solche Filme können pädagogische, soziale oder familienorientierte Themen enthalten. Filme in dieser Kategorie können auch Fantasy-Gewalt und/oder leichte Schimpfwörter enthalten.
@@ -1491,7 +1491,7 @@ de-DE:
     choose_header_images: Kopfzeilenbilder auswählen
     choose_reason: Du musst einen Grund auswählen.
     community: COMMUNITY
-    confirm_buffer_time: Bitte bestätige, ob für die weitere Bearbeitung eine Pufferzeit erforderlich ist?
+    confirm_buffer_time: Bitte bestätige, ob für die weitere Bearbeitung eine Pufferzeit erforderlich ist.
     confirmation: Bestätigung
     continue: Fortfahren
     contribute: Zu unserer Datenbank beitragen
@@ -1542,8 +1542,8 @@ de-DE:
     help_our_mods: Helfe unseren Moderatoren
     help_our_mods_info: Erzähle uns etwas über den Charakter! Dies ist ein privates Feld zwischen dir und dem Moderationsteam. Alle Informationen, die du über den Charakter angibst und warum du ihn erstellst, helfen bei der Überprüfung deiner Seite.
     icon: Symbol
-    image_change_1: Dieses Bild ist mit einem Medieneintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert!
-    image_media_association: Dieses Bild ist mit einem Medieneintrag verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert!
+    image_change_1: Dieses Bild ist mit einem Medieneintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert.
+    image_media_association: Dieses Bild ist mit einem Medieneintrag verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen der verknüpften Medien geändert.
     in_translate_mode: Du bist im Übersetzungsmodus
     inline_edit_original_name: Originaltitel
     join_community_tmdb: Tritt unserer Community bei und trage zur Filmdatenbank bei.
@@ -1552,7 +1552,7 @@ de-DE:
     log_tv_movies_watch: Protokolliere die Serien und Filme, die du schaust
     master_group_limit_error: Tut mir leid, du hast die maximal Anzahl an Gruppen erreicht.
     media: Medien
-    media_association: Diese Medien sind mit einem Bildeintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen des verknüpften Bildes geändert!
+    media_association: Diese Medien sind mit einem Bildeintrag der ausgewählten Gruppe verknüpft. Wenn du fortfährst, werden auch die Personenzuordnungen des verknüpften Bildes geändert.
     media_character_id: Medien-Charakter-ID
     media_type: Medien-Typ
     media_types:
@@ -1597,7 +1597,7 @@ de-DE:
     proceed: Fortfahren
     push_test_v1: Push-Test v1
     ready_to_launch: Das war's. Bereit zur Veröffentlichung?
-    record_exists_in_group: Eintrag existiert bereits in der Gruppe.
+    record_exists_in_group: Dieser Eintrag existiert bereits in der Gruppe.
     refresh_list: Beim Aktualisieren der Liste ist ein Problem aufgetreten.
     register: Registrieren
     result: Ergebnisse
@@ -1660,9 +1660,9 @@ de-DE:
     user_variant_description: Hier sind einige mögliche Bilder, die wir für den Charakter gefunden haben. Bitte wähle eines aus oder füge ein passendes alternatives hinzu.
     user_variant_intro: Finde deinen Lieblingscharakter aus Filmen, Serien und mehr...
     validation_charactername: Primärer Charaktername ist erforderlich
-    validation_group_synopsis: Bitte gib eine gültige Gruppenzusammenfassung ein
+    validation_group_synopsis: Bitte gib eine gültige Gruppenzusammenfassung ein.
     validation_grpname: Bitte gib einen gültigen Gruppennamen ein
-    validation_synopsis: Bitte gib eine gültige Zusammenfassung ein
+    validation_synopsis: Bitte gib eine gültige Zusammenfassung ein.
     view_by: Ansicht nach
     want_to_delete_group: Bist du sicher, dass du diese Gruppe löschen möchtest?
     want_to_go_back: Bist du sicher, dass du zurückgehen möchtest?
@@ -1868,8 +1868,8 @@ de-DE:
         subject: Er wurde versehentlich erstellt oder der Ersteller hat um Löschung gebeten.
     why_deleting: Warum löschst du diesen Eintrag?
   department_credits_count:
-    one: "%{department} (%{count} Einträge)"
-    other: "%{department} (%{count} Einträge)"
+    one: '%{department} (%{count} Eintrag)'
+    other: '%{department} (%{count} Einträge)'
   departments:
     Acting: Darsteller
     Actors: Darsteller
@@ -2063,7 +2063,7 @@ de-DE:
         ignore_user: Möchtest du diesen Benutzer wirklich sperren? Alle Diskussionen und Kommentare des Benutzers werden ausgeblendet. Du kannst die Sperre auf der Seite „Gesperrte Benutzer” in deinen Konto-Einstellungen aufheben.
         mark_as_not_spam: Bist du sicher, dass du diese Diskussion als gültig und nicht als Spam markieren möchtest?
         mark_as_spam: Möchtest Du diese Diskussion wirklich als Spam melden? Die Diskussion wird danach automatisch und unwiderruflich gelöscht. Spam-Meldungen helfen uns bei der Verbesserung unseres Spam-Filters.
-        report_violation: Bitte bestätigee, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Leitsätze</a> melden möchtest.
+        report_violation: Bitte bestätige, dass du diesen Benutzer für einen Verstoß gegen unsere <a href="/documentation/community/guidelines" target="_blank" rel="noopener">Leitsätze</a> melden möchtest.
         unhide_discussion: Wenn du auf 'Ja' klickst, wird diese Diskussion wieder sichtbar gemacht.
       posted_by_with_datetime: Verfasst von %{username} am %{date} um %{time}
       quote: Zitat
@@ -2073,6 +2073,8 @@ de-DE:
       reply_on_datetime: am %{date} um %{time}
       report: Melden
       unhide: Sichtbar machen
+      add_reply: Füge eine Antwort hinzu
+      hidden_reply: Eine Antwort von %{username} wurde verborgen.
     report_violation: Verstoß melden
     search:
       advanced_search: Erweiterte Suche
@@ -2091,6 +2093,25 @@ de-DE:
       no_subscribers: Keine Abonnenten
       users_in_discussion: Benutzer in dieser Diskussion
     your_account: Dein Konto
+    action_messages:
+      closed: Eintrag geschlossen
+      made_private: Eintrag als privat markiert
+      made_public: Eintrag als öffentlich markiert
+      opened: Eintrag wieder geöffnet
+      stopped_watching: Nicht mehr beobachtet
+      subscribed: Abonniert
+      unsubscribed: Deabonniert
+      watching: Beobachtend
+    admin_actions: Admin-Aktionen
+    remove_user:
+      confirm: <strong>%{username}</strong> aus dieser Diskussion entfernen? Der Benutzer wird deabonniert und wird keine weiteren Benachrichtigungen erhalten.
+      title: Benutzer entfernen
+    replies:
+      count:
+        one: '%{number} Antwort'
+        other: '%{number} Antworten'
+      jump_to_last: Zum letzten Beitrag springen
+      page_of: Seite %{current_page} von %{total_pages}
   dmca_takedown:
     form:
       about_self:
@@ -2138,7 +2159,7 @@ de-DE:
       title: Anfrage einreichen
       username:
         label: Dein Benutzername
-        note: Bitte beachte, dass Benutzernamen die Groß-/Kleinschreibung berücksichtigen
+        note: Bitte beachte, dass Benutzernamen die Groß-/Kleinschreibung berücksichtigen.
     report:
       error: Beim Erstellen deines Berichts ist ein Problem aufgetreten. Nochmal versuchen?
       submit: DMCA-Takedown-Anfrage einreichen.
@@ -2460,7 +2481,7 @@ de-DE:
       file_type: Dateityp %{file_type}
       max_res: Maximale Auflösung %{res}
       min_res: Minimale Auflösung %{res}
-      read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut.
+      read_guidelines: Mache dich bitte mit unseren aktualisierten <a href="%{link}" target="_blank" rel="noopener">Richtlinien für Bilder</a> vertraut.<br>Bitte beachte, dass Fan-Art und Bilder, die mithilfe von KI erstellt oder bearbeitet wurden, nicht erlaubt sind. Unsere Definition von Fan-Art findest du <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">hier</a>.
       tip: Falls von deinem Browser unterstützt, kann ein Bild auf die Fläche unterhalb gezogen und abgelegt werden. Ansonsten einfach auf die Schaltfläche „Dateien auswählen” klicken und ein Bild auswählen.
       type_backdrops: Hintergrundbilder
       type_episode_stills: Folgenfotos
@@ -3415,7 +3436,7 @@ de-DE:
       go_to_edit: Bearbeiten
       last_reply: Letzte Antwort anzeigen
       new_discussion: Neue Diskussion erstellen
-      next_episode: Nächste Episode
+      next_episode: (rechter Pfeil) zur nächste Folge
       next_page: Nächste Seite
       next_season: Nächste Staffel
       open_activity: Diskussionsverlauf anzeigen
@@ -3423,7 +3444,7 @@ de-DE:
       open_profile: Profil öffnen
       open_shortcut_window: Tastenkürzel anzeigen
       open_translation_selector: Sprachauswahl öffnen
-      previous_episode: Vorherige Episode
+      previous_episode: (linker Pfeil) zur vorherigen Folge
       previous_page: Vorherige Seite
       previous_season: Vorherige Staffel
       reply_to_discussion: Auf Diskussion antworten
@@ -3437,10 +3458,10 @@ de-DE:
       discussion_pages: Diskussionen
       edit_pages: Editieren
       global: Allgemein
-      image_pages: Bilder
-      media_pages: Videos
-      tv_episode_pages: Episoden
-      tv_season_pages: Staffeln
+      image_pages: Auf allen Bilder-Seiten
+      media_pages: Auf Medien-Seiten
+      tv_episode_pages: Auf Serienfolgen-Seiten
+      tv_season_pages: Auf Serienstaffel-Seiten
     keyboard_shortcuts: Tastenkürzel
     login_to_change_preferences: Du kannst Tastaturkürzel deaktivieren, indem du dich in dein Konto einloggst.
     view_keyboard_shorcuts: Zeige die Tastenkürzel
@@ -3986,7 +4007,7 @@ de-DE:
       cast_crew: Besetzung & Crew
       changes: Änderungsverlauf
       characters: Figuren
-      episodes: Episoden
+      episodes: Folgen
       fandom: Fandom
       headshots: Portraits
       logos: Logos
@@ -4005,7 +4026,7 @@ de-DE:
       discussions:
         currently_subscribed: Du verfolgst das Thema derzeit und wirst benachrichtigt sobald sich etwas tut.
         no_discussions: Es gibt keine Diskussionen für %{item_title}. Melde dich an um der erste zu sein!
-        unsubscribe_me: Melde mich ab.
+        unsubscribe_me: Melde mich ab
         want_to_be_notified: Willst du benachrichtigt werden, wenn jemand etwas dazu schreibt?
         yes_notify_me: Ja, mich benachrichtigen!
       reviews:
@@ -4016,10 +4037,10 @@ de-DE:
           logged_in: Wir haben keine Rezension für %{title}. Willst du <a href="%{url}">eine schreiben</a>?
           public: Wir haben keine Rezension für %{title}.
         read_all: Alle Rezensionen lesen
-        read_the_rest: weiterlesen.
+        read_the_rest: weiterlesen
         write_review:
           logged_in: Rezension verfassen
-          public: Melde dich an um einer Rezension zu verfassen.
+          public: Melde dich an um eine Rezension zu verfassen
         written_on: 'Geschrieben am %{date}'
         like_button_logged_out: 'Anmelden oder registrieren, um diese Rezension zu bewerten'
         their_rating: '(deren Bewertung)'
@@ -4043,8 +4064,8 @@ de-DE:
       title: Titel
     tv_episode:
       edit:
-        episode_type_confirm: Es existiert bereits eine Episode des Typs %{episode_type} für diese Staffel. Klicke auf 'Ja', um deine Auswahl zu bestätigen.
-        episode_type_label: Episodentyp
+        episode_type_confirm: Es existiert bereits eine Folge des Typs %{episode_type} für diese Staffel. Klicke auf 'Ja', um deine Auswahl zu bestätigen.
+        episode_type_label: Folgentyp
         episode_types:
           finale: Staffelfinale
           mid_season: Midseason-Finale
@@ -4052,21 +4073,21 @@ de-DE:
         guest_stars:
           no_records: Es wurden keine Gastdarsteller hinzugefügt.
         screened_as_part_of_season: Ja, als Teil einer Staffel
-        screened_confirm: Wurde diese Episode auf einem Filmfestival oder im Kino aufgeführt? Klicke auf 'Ja' um vorzufahren.
-        screened_label: Wurde diese Episode im Kino gezeigt?
+        screened_confirm: Wurde diese Folge auf einem Filmfestival oder im Kino aufgeführt? Klicke auf 'Ja' um vorzufahren.
+        screened_label: Wurde diese Folge im Kino gezeigt?
       episode_label:
         finale: Staffelfinale
         mid_season: Midseason-Finale
       episode_selector:
-        current_episode: Episode %{season_number}x%{episode_number}
+        current_episode: Folge %{season_number}x%{episode_number}
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
-        next_episode: Nächste Episode
-        previous_episode: Vorherige Episode
+        next_episode: Nächste Folge
+        previous_episode: Vorherige Folge
     tv_season:
       edit:
-        create_episode: Episode erstellen
+        create_episode: Folge erstellen
         episodes:
-          no_records: Es wurden keine Episoden hinzugefügt.
+          no_records: Es wurden keine Folgen hinzugefügt.
         runtime_varies_check: Die eingegebene Laufzeit weicht stark von der Staffellaufzeit ab. Hast du die richtige Laufzeit eingegeben?
         screened_confirm: Wurde diese Serie auf einem Filmfestival oder im Kino aufgeführt? Klicke auf 'Ja' um vorzufahren.
         screened_label: Wurde diese Serie im Kino gezeigt?
@@ -4091,22 +4112,22 @@ de-DE:
         crew:
           no_season: Es existiert keine Staffel! Für das Hinzufügen einer Crew ist eine Staffel notwendig.
         episode_groups:
-          create_new_group: Reihenfolge anlegen
+          create_new_group: Gruppe anlegen
           description: Beschreibung
-          episode_groups: Reihenfolgen
+          episode_groups: Folgengruppen
           episodes:
-            move_episodes: Verschiebe die markierten Episoden.
-            no_records: Es wurden keine Episoden zur Reihenfolge hinzugefügt.
+            move_episodes: Verschiebe die markierten Folgen
+            no_records: Es wurden keine Folgen zu dieser Gruppe hinzugefügt.
           grid:
-            episodes: Episoden
+            episodes: Folgen
             groups: Gruppen
           group: Gruppe
           messages:
             episodes_added:
-              one: "%{count} Episode hinzugefügt!"
-              other: "%{count} Episoden hinzugefügt!"
+              one: '%{count} Folgee hinzugefügt!'
+              other: '%{count} Folgen hinzugefügt!'
           name: Name
-          no_records: Es wurden keine Reihenfolgen hinzugefügt.
+          no_records: Es wurden keine Folgengruppen hinzugefügt.
           type: Art
           types:
             '1': Erstausstrahlung
@@ -4299,7 +4320,7 @@ de-DE:
   no_crew: Wir haben keine Crew für diesen %{media_type}. Hilf uns, indem du eine hinzufügst!
   no_description: Keine Beschreibung eingegeben.
   no_director: Kein Regisseur hinzugefügt.
-  no_episode_images: Für diese Episode wurden keine Bilder hinzugefügt.
+  no_episode_images: Für diese Folge wurden keine Bilder hinzugefügt.
   no_favorite_movies:
     current_user: Du hast keine Filme zu deinen Favoriten hinzugefügt.
     public: "%{username} hat keine Filmfavoriten."
@@ -4470,7 +4491,7 @@ de-DE:
     new_password: Neues Passwort
     password: Passwort
     password_confirm: Passwort bestätigen
-    reset_email_sent: E-Mail versendet! Du solltest die Anweisungen zum zurücksetzen deines Passwortes in kürze bekommen.
+    reset_email_sent: E-Mail versendet! Du solltest die Anweisungen zum Zurücksetzen deines Passwortes in Kürze bekommen.
   person:
     credits:
       as_character: als %{character}
@@ -4506,7 +4527,7 @@ de-DE:
     watchlist_tv: Suche Serien in deiner Watchliste...
     for_media: Suche nach einem %{media_type}...
     softcore: Softcore
-  search_text_validation_error: Bitte gib einen gültigen Text ein!
+  search_text_validation_error: Bitte gib einen gültigen Text ein.
   search_tip_1: 'Tipp: Du kannst den ''y:''-Filter verwenden, um die Resultate nach Jahr einzugrenzen. Beispiel: ''star wars y:1977''.'
   season_number_name: Staffel %{season_number}
   season_overview:
@@ -4706,7 +4727,7 @@ de-DE:
       sharing_settings: Privatsphäre
       watchlist:
         remove_when_rated: Elemente automatisch entfernen, nachdem sie bewertet wurden?
-        share_publicly: Wachtlisten sind öffentlich
+        share_publicly: Diese Liste öffentlich teilen?
         watchlist_settings: Sichtbarkeit von Watchlisten
     social:
       connected_table:
@@ -4862,3 +4883,27 @@ de-DE:
     next_label: Nächste →
     page_gap: "…"
     previous_label: "← Vorherige"
+  popularity:
+    change_30_days: 30-Tage-Veränderung
+    current_rank: Aktueller Rang
+    days_in_top: Tage in den Top %{rank}
+    events:
+      credit_season_premiere: '%{name}: Staffel %{number} Premiere'
+      died: Gestorben
+      season_premiere: Staffel %{number} Premiere
+      title: Wichtige Termine
+      video_legend: Trailer oder Teaser veröffentlicht
+    history_start: Die Beliebtheitshistorie reicht bis zum %{date} zurück.
+    no_history: Wir erfassen die Beliebtheit seit %{date} täglich, und %{name} ist bisher noch nicht in der Rangliste vertreten.
+    rank_value: '%{rank}.'
+    ranges:
+      all: Komplett
+      '30': 30 Tage
+      '90': 90 Tage
+      '365': 1 Jahr
+    title: Beliebtheitshistorie
+    page_description: Wie sich die Beliebtheit von %{name} auf TMDB von Tag zu Tag verändert hat.
+    peak_rank: Höchster Rang
+    top_percent: Top %{percent}
+    unranked: Nicht platziert
+    of_board: von %{count}

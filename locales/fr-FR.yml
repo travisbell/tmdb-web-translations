@@ -54,7 +54,7 @@ fr-FR:
   Added By: Une contribution de
   Added to Watchlist: Ajouté à votre liste de suivi
   Adding & Editing Content: Ajout et modification de contenu
-  Address 1: Adresse
+  Address 1: Adresse 1
   Address 2: Complément d'adresse
   Admin Tools: Outils d'administration
   Adult Actor: Artiste de contenu pour adultes
@@ -99,7 +99,7 @@ fr-FR:
   City: Ville
   Collection Results: Résultats de la recherche de la collection
   Collections: Collections
-  Coming soon!: Bientôt disponible !
+  Coming soon!: Bientôt disponible !
   Comments: Commentaires
   Community: Communauté
   Community Data: Données de la communauté
@@ -114,8 +114,8 @@ fr-FR:
   Content Score: Score de contenu
   Continue: Continuer
   Contribution leaders for the week of: Meilleures contributions pour la semaine du
-  Convert to Collection?: Convertir en collection ?
-  Convert to Movie?: Convertir en film ?
+  Convert to Collection?: Convertir en collection ?
+  Convert to Movie?: Convertir en film ?
   Country: Pays
   Create: Créer
   Create App: Créer une application
@@ -128,7 +128,7 @@ fr-FR:
   Currently Airing TV Shows: Émissions télévisées en cours de diffusion
   Currently on page: Actuellement sur la page
   DMCA Policy: Politique du droit d'autrice ou d'auteur américain « DMCA »
-  DMCA Takedown Request: Atteinte aux droits d'autrice ou d'auteur DMCA
+  DMCA Takedown Request: Atteinte aux droits d'autrice ou d'auteur DMCA
   Date: Date
   Date Added: 'Date ajoutée'
   Day of Death: Date de décès
@@ -140,9 +140,9 @@ fr-FR:
   Delete Person: Supprimer la personne
   Delete TV Show: Supprimer l'émission télévisée
   Deny: Refuser
-  Department: 'Département professionnel '
+  Department: 'Département professionnel'
   Description: Description
-  Design or Functionality Issue: Souci de conception / fonctionnalité
+  Design or Functionality Issue: Souci de conception / fonctionnalité
   Desktop Application: Application de bureau
   Destination Record: Enregistrement de destination
   Details: Détails
@@ -150,7 +150,7 @@ fr-FR:
   Digital: En copie numérique
   Directed by: Une réalisation de
   Directory: Répertoire
-  Discover Examples: Exemples d'API
+  Discover Examples: Découvrez des exemples
   Discover New Movies: Découvrez de nouveaux films
   Discover New Movies & TV Shows: Découvrez de nouveaux films et de nouvelles émissions télévisées
   Discover New TV Shows: Découvrez de nouvelles émissions télévisées
@@ -316,7 +316,7 @@ fr-FR:
   Original TV Show Language: Langue d'origine
   Original Title: Titre d'origine
   Other Databases: Autres bases de données
-  Others: ''
+  Others: 'autres'
   Overview: Synopsis
   Page: Page
   People: Artistes
@@ -377,7 +377,7 @@ fr-FR:
   Report an Issue: Signaler un problème
   Reported Issues: Problèmes signalés
   Request an API Key: Demander une clé d'API
-  Required: ''
+  Required: 'Requis'
   Resend Activation Email: Renvoyer le courriel d'activation
   Reset: Réinitialiser
   Reset Password: Réinitialiser le mot de passe
@@ -442,7 +442,7 @@ fr-FR:
   TV: À la télévision
   TV Network: Diffuseur télévisé
   TV Recommendations: Recommandations d'émissions télévisées
-  TV Show: ''
+  TV Show: 'Série TV'
   TV Show Data: Données de l'émission télévisée
   TV Show Results: Résultats de la recherche de l'émission télévisée
   TV Show Status: Statut de l'émission télévisée
@@ -485,7 +485,7 @@ fr-FR:
   Upload Logo: Ajouter un logo
   User Score: Score d'évaluation
   Username: Nom d'utilisatrice ou d'utilisateur
-  Value: ''
+  Value: 'Valeur'
   Video?: Vidéo ?
   View: Afficher
   View All Backdrops: Afficher tous les fonds d'écran
@@ -532,7 +532,7 @@ fr-FR:
     sign_up: Créer un compte
     view_profile: Mon profil
     watchlist: Liste de suivi
-    reviews: ''
+    reviews: 'Critiques'
   accounts:
     activity:
       activity: Activité
@@ -642,15 +642,15 @@ fr-FR:
       page_title:
         page_owner: Mes listes
         public: Listes de %{username}
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
+      search: 'Chercher une liste...'
+      add_to_lists: 'Ajouter <span class="bold">%{media_name}</span> à vos listes'
+      contributor: 'Contributeur'
+      create_new_list: 'Créer une nouvelle liste'
+      created: 'Liste créée'
       my_new_list: 'Ma nouvelle liste...'
       no_reviews:
         logged_in: 'Vous n''avez écrit aucune critique.'
-        public: ''
+        public: '%{username} n''a écrit aucune critique.'
     member_since: est membre de TMDB depuis %{date}.
     navigation:
       discussions: Conversations
@@ -660,7 +660,7 @@ fr-FR:
       ratings: Évaluations
       ratings_reviews: Évaluations et critiques
       recommendations: Recommandations
-      reviews: Commentaires
+      reviews: Critiques
       watchlist: Liste de suivi
     order: 'Ordre :'
     overview:
@@ -718,48 +718,48 @@ fr-FR:
         public: Liste de suivi de %{username}
       next_month: Le mois prochain
       no_upcoming_movies:
-        one: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        many: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
-        other: Il n'y a aucun film à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        one: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} élément dans votre liste de suivi.
+        many: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
+        other: Il n'y a aucun film à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
       no_upcoming_tv_shows:
-        one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} élément dans votre liste de suivi.
-        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
-        other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Il y a cependant %{count} éléments dans votre liste de suivi.
+        one: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} élément dans votre liste de suivi.
+        many: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
+        other: Il n'y a aucune émission télévisée à venir dans votre liste de suivi. Cependant vous avez %{count} éléments dans votre liste de suivi.
       page_title:
         page_owner: Ma liste de suivi
         public: Liste de suivi de %{username}
       this_month: Ce mois-ci
       this_week: Cette semaine
-      view_them: Les afficher.
+      view_them: Les afficher
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Mes critiques'
+        public: 'Critiques de %{username}'
   add_to_list: Ajouter %{media_title} à une de vos listes...
   already_translated_in: La fiche %{page_title} est déjà traduite dans les langues suivantes...
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'API pour les Entreprises'
     form:
       company_name:
-        label: ''
+        label: 'Nom de l''entreprise'
       company_url:
-        label: ''
+        label: 'URL de l''entreprise'
       description:
-        label: ''
+        label: 'Décrivez ce que vous comptez faire avec notre API'
       email:
         error: n'est pas correctement formaté
         label: Votre adresse mail
       error: ne peut être vide
       name:
-        label: ''
-      success: ''
+        label: 'Nom'
+      success: 'Merci d''avoir soumis votre demande de ventes aux entreprises !'
   api_session:
     3rd_party_request: Demande d'authentification tierce
     account_required:
-      need_account: Votre connexion est nécessaire pour continuer !
+      need_account: Votre connexion est nécessaire pour continuer !
       title: La création d'un compte est nécessaire
     approved_session: Vous avez approuvé %{application_name}. Vous pouvez fermer cette fenêtre.
-    continue: Si vous souhaitez continuer, cliquez ci-dessous sur le bouton « Approuver ». Sinon, fermer simplement cette fenêtre.
+    continue: Si vous souhaitez continuer, cliquez ci-dessous sur le bouton « Approuver ». Sinon, fermer simplement cette fenêtre.
     invalid_api_app:
       message: L'utilisatrice ou l'utilisateur de l'API actuellement identifié·e n'est pas valide.
       title: Utilisatrice ou utilisateur d'API non valide
@@ -796,54 +796,54 @@ fr-FR:
   awards:
     add_nomination: Ajouter une nomination
     admin:
-      delete: ''
+      delete: 'Supprimer la récompense'
     air_date:
       future: Diffusion prévue le %{date}
       past: Diffusée le %{date}
     alternative_names: Noms alternatifs
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+    award: 'Récompense'
+    broadcast_episode: 'Épisode diffusé'
+    broadcast_episode_tooltip: 'Lier à un épisode télévisé permet d''afficher les informations de production.'
+    broadcast_series: 'Séries Diffusées'
+    broadcast_series_tooltip: 'Lier une série télévisée permet d''afficher les informations de production pour chaque cérémonie.'
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
-      crew_credit_departments: ''
-      crew_credit_jobs: ''
+      add_category: 'Ajouter une catégorie'
+      categories: 'Catégories'
+      category: 'Catégorie'
+      crew_credit_departments: 'Crédits de l''équipe technique par Départements'
+      crew_credit_jobs: 'Crédits de l''équipe technique par Postes'
       date_ended: 'Date de fin'
       date_started: 'Date de début'
       display_type: 'Type d''affichage'
-      locked: ''
+      locked: 'L''ajout de nouvelles catégories a été désactivé et verrouillé par un modérateur.'
       media_type: 'Type de média'
-      name: ''
+      name: 'Nom'
       title: Catégories
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Terminé le %{date}'
+      started_on: 'Commencé le %{date}'
     category_empty: Aucune nomination au sein de cette catégorie.
     ceremonies:
       add_ceremony: ''
       ceremonies: ''
       ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
-      locked: ''
+      date: 'Date'
+      limits: 'Limites'
+      location: 'Lieu'
+      locked: 'L''ajout de nouvelles cérémonies a été désactivé et verrouillé par un modérateur.'
       number: Numéro
       release_date_max: Date de sortie + / -
       release_date_min: Date de sortie - / +
       title: Cérémonies
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Page d''accueil'
+      name: 'Nom'
+      overview: 'Vue d''ensemble'
     new_award:
-      award_details: ''
-      click_next: ''
-      getting_started: ''
+      award_details: 'Détails des récompenses'
+      click_next: 'Cet assistant en 3 étapes vous guidera tout au long du processus de création. Pour commencer, cliquez sur Suivant.'
+      getting_started: 'Commencer'
       header_1: 'Nouvelle récompense'
-      header_2: ''
+      header_2: 'Ajouter une nouvelle récompense'
       note: ''
       verify: ''
     nominations:
@@ -876,7 +876,7 @@ fr-FR:
       one: 1 victoire
       many: '%{count} victoires'
       other: '%{count} victoires'
-    most_awarded_films: ''
+    most_awarded_films: 'Les films les plus récompensés'
     most_awarded_people: ''
     most_nominated_films: 'Films les plus nominés'
     most_nominated_people: 'Les Personnes les plus nominées'
@@ -2152,7 +2152,7 @@ fr-FR:
       title: Soumettre une demande
       username:
         label: Votre nom d'utilisatrice ou d'utilisateur
-        note: Gardez à l'esprit que les noms d'utilisatrice ou d'utilisateur sont sensibles à la casse
+        note: Gardez à l'esprit que les noms d'utilisatrice ou d'utilisateur sont sensibles à la casse.
     report:
       error: Un problème est survenu lors de la création de votre rapport. Réessayer ?
       submit: Soumettez une demande de retrait DMCA.
@@ -2228,33 +2228,33 @@ fr-FR:
   error_pages:
     deleted_account:
       description: La ou le propriétaire de cette page a supprimé son compte. Bien que toutes ses contributions demeurent sur TMDB, ses données d'utilisatrice ou d'utilisateur ont été rendues anonymes.
-      title: Ce compte a été supprimé.
+      title: Ce compte a été supprimé
     missing_privilege:
       description:
         logged_in: Vous n'avez pas accès à cette page. Si vous pensez qu'il s'agit d'une erreur, faites-le nous savoir <a href="%{forum_link}">sur les forums</a>.
         public: Vous avez tenté d'accéder à une page qui nécessite que vous soyez connecté·e. Connectez-vous à votre compte en <a href="%{login_link}">cliquant ici</a>.
-      title: L'accès à cette page ne vous est pas autorisé.
+      title: L'accès à cette page ne vous est pas autorisé
     out_of_login_attempts:
       description: |-
         Vous avez épuisé vos 10 tentatives de connexion. Vous pourrez réessayer de vous connecter dans 30 minutes. En attendant, vous pouvez d'ores et déjà <a href="%{reset_password_link}">réinitialiser votre mot de passe</a>.
 
         Vous pouvez également <a href="%{about_us_link}">nous contacter</a> pour obtenir de l'aide.
-      title: Vous avez épuisé vos tentatives de connexion.
+      title: Vous avez épuisé vos tentatives de connexion
     private:
       description:
         logged_in: Vous n'avez pas accès à cette page.
         public: Vous avez tenté de charger une page privée.
-      title: Cette page est privée.
+      title: Cette page est privée
     suspended:
       explanation_1: Malheureusement, le compte de cette utilisatrice ou de cet utilisateur a été suspendu.
       go_to_inbox: Afficher la boîte de réception
       title: Cette utilisatrice ou cet utilisateur a été suspendu·e.
       your_account:
         explanation_1: Si vous souhaitez discuter des raisons qui ont mené à la suspension de votre compte ou bien de la manière par laquelle vous pouvez récupérer son accès, veuillez visiter la zone de messagerie en cliquant sur le lien ci-dessous.
-        title: Votre compte a été suspendu.
+        title: Votre compte a été suspendu
     suspended_user_post:
       description: Ce message a enfreint nos <a href="%{link}">règles communautaires</a>. L'utilisatrice ou l'utilisateur qui en est responsable peut également avoir été suspendu·e.
-      title: Ce message a été supprimé.
+      title: Ce message a été supprimé
     too_many_login_attempts:
       description: ''
       title: ''
@@ -2477,7 +2477,7 @@ fr-FR:
       file_type: Type de fichier de %{file_type}
       max_res: Une résolution maximale de %{res}
       min_res: Une résolution minimale de %{res}
-      read_guidelines: Veuillez vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images / photos</a>.
+      read_guidelines: Veuillez vous familiariser avec nos nouvelles <a href="%{link}" target="_blank" rel="noopener">règles de contribution d'images / photos</a>.<br>Veuillez noter que les fan arts ainsi que les illustrations générées ou modifiées par IA ne sont pas autorisés. Notre définition du fan art est disponible <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">ici</a>.
       tip: Si votre navigateur le supporte, vous pouvez glisser et déposer une image / photo sur la zone ci-dessous. Sinon, vous pouvez simplement cliquer sur le bouton « Sélectionner les fichiers... » et choisir l'image / photo depuis votre ordinateur.
       type_backdrops: Fonds d'écran
       type_episode_stills: Captures de l'épisode
@@ -4030,7 +4030,7 @@ fr-FR:
       discussions:
         currently_subscribed: Vous recevrez une notification lorsqu'une personne publiera le premier message.
         no_discussions: Il n'y a aucune conversation concernant %{item_title}. Votre contribution est la bienvenue !
-        unsubscribe_me: Cliquez ici pour vous désabonner.
+        unsubscribe_me: Cliquez ici pour vous désabonner
         want_to_be_notified: Voulez-vous recevoir une notification lorsqu'une personne publiera le premier message ?
         yes_notify_me: Pour cela, cliquez ici !
       reviews:
@@ -4041,10 +4041,10 @@ fr-FR:
           logged_in: Aucune critique n'a été rédigée pour %{title}. <a href="%{url}">Cliquez ici pour partager votre opinion !</a>
           public: Aucune critique n'a été rédigée pour %{title}.
         read_all: Afficher toutes les critiques
-        read_the_rest: lire la suite.
+        read_the_rest: lire la suite
         write_review:
           logged_in: Rédiger une critique
-          public: Connectez-vous afin de rédiger une critique.
+          public: Connectez-vous afin de rédiger une critique
         written_on: ''
         like_button_logged_out: ''
         their_rating: ''
@@ -4542,7 +4542,7 @@ fr-FR:
     watchlist_tv: Rechercher une émission télévisée parmi votre liste de suivi...
     for_media: ''
     softcore: ''
-  search_text_validation_error: Veuillez saisir un texte valide !
+  search_text_validation_error: Veuillez saisir un texte valide.
   search_tip_1: 'Astuce : vous pouvez utiliser le filtre « y: » afin de restreindre les résultats de votre recherche à une année spécifique. Par exemple, saisissez « Star Wars y:1977 » dans la zone de recherche.'
   season_number_name: Saison %{season_number}
   season_overview:
@@ -4776,7 +4776,7 @@ fr-FR:
     javascript_required: L'activation de JavaScript est nécessaire au bon fonctionnement du processus.<br>
     sign_up_for_account: Inscrivez-vous pour obtenir un compte
     signup_text: "<br>La création d'un compte est gratuite et facile.<br><br>Pour commencer, remplissez le formulaire ci-dessous.<br><br>"
-  success_approved_access_token: Permission accordée !
+  success_approved_access_token: Permission accordée !
   success_deleted: L'élément sélectionné a bien été supprimé.
   success_email: Votre courriel a bien été envoyé.<br>Nous vous remercions et vous répondrons le plus rapidement possible.<br>L'équipe de TMDB.
   success_image_rated: L'image / photo a bien été évaluée.

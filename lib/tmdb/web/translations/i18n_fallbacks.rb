@@ -41,9 +41,10 @@ TMDb::Web::Translations.default_iso_3166_1_i18n.each do |k, v|
   I18n.fallbacks.map(k => v)
 end
 
-TMDb::Web::Translations.default_iso_3166_1_mapping.each do |k, v|
-  I18n.fallbacks.map(v => k)
-end
+# Chains stay short: fr-CA falls back to fr, fr-FR, en-US, en. A lookup that misses (as ActiveSupport's and
+# ActiveModel's do on purpose, before their defaults) walks the whole chain. Mapping each language to all its regions
+# (en to en-AG, en-AU, and 20 more) made chains of up to 39 locales, with every English region in each, only to find
+# plural forms and number formats that callers take whole from the first locale with the entry anyway.
 
 # Monkey patching #transliterate to return an empty string if it's nil
 module I18n

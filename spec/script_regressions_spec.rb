@@ -123,6 +123,27 @@ RSpec.describe "translation scripts" do
     expect(File.read(path)).to eq(text)
   end
 
+  example "accepts empty Weblate country and language placeholders" do
+    %w[countries languages].each do |component|
+      directory = File.join(@directory, component)
+      Dir.mkdir(directory)
+      File.write(File.join(directory, "nb.yml"), "{}\n")
+    end
+
+    _, error, status = run_script("locale_check.rb")
+    expect(status.success?).to be(true), error
+  end
+
+  example "does not accept empty website locale files" do
+    directory = File.join(@directory, "locales")
+    Dir.mkdir(directory)
+    path = fixture("locales/nb.yml", "{}\n")
+
+    _, error, status = run_script("locale_check.rb", path)
+    expect(status.success?).to be(false)
+    expect(error).to include('expected only root "nb"')
+  end
+
   example "returns a failure status for an incorrect locale root" do
     path = fixture("pt-PT.yml", "en-US:\n  title: Film\n")
     _, error, status = run_script("locale_check.rb", path)

@@ -343,8 +343,8 @@ it-IT:
   Preview: Anteprima
   Primary Color: Colore Principale
   Primary Facts: Informazioni Base
-  Primary?: ''
-  Privacy Policy: Politica Privacy
+  Primary?: 'Principale?'
+  Privacy Policy: Politica della Privacy
   Production Code: Codice di Produzione
   Production Companies: Società di Produzione
   Production Countries: Paesi di Produzione
@@ -377,7 +377,7 @@ it-IT:
   Report an Issue: Segnala un problema
   Reported Issues: Problemi Sengalati
   Request an API Key: Richiedi una chiave API
-  Required: ''
+  Required: 'Richiesto'
   Resend Activation Email: Reinoltra email di attivazione
   Reset: Reset
   Reset Password: Reset password
@@ -392,7 +392,7 @@ it-IT:
   Search for a language: Cerca una lingua...
   Search for a movie: Cerca un film
   Search for a movie or TV show: Cerca un film o una serie Tv
-  Search for a movie, TV show, person: Cerca un film, serie tv, personaggio...
+  Search for a movie, TV show, person: Cerca un film, serie TV, personaggio...
   Season: Stagione
   Season Number: Stagione numero
   Season Overview: Osservazione della stagione
@@ -406,11 +406,11 @@ it-IT:
   Send: Invia
   Sessions: Sessioni
   Share: Condividi
-  Share Link: ''
+  Share Link: 'Condividi link'
   Sharing: Condivisione
   Show: Mostra
   Show More: Mostra di più
-  Site: ''
+  Site: 'Sito'
   Size: Dimensione
   Social: Social
   Sort: Ordina
@@ -420,7 +420,7 @@ it-IT:
   Source Key: Codice sorgente
   Specials: Speciali
   Spoken Languages: Lingue Parlate
-  Stage Name: ''
+  Stage Name: 'Nome d''arte'
   State: Stato
   Stats: Statistiche
   Status: Stato
@@ -442,7 +442,7 @@ it-IT:
   TV: TV
   TV Network: TV Network
   TV Recommendations: Raccomandazioni TV
-  TV Show: ''
+  TV Show: 'Serie TV'
   TV Show Data: Dati Serie TV
   TV Show Results: Risultati Serie TV
   TV Show Status: Stato Serie TV
@@ -465,7 +465,7 @@ it-IT:
   Top Rated Movies: Film Più Votati
   Top Rated TV Shows: Serie TV Più Votate
   Top Users: Utenti Top
-  Translate Award: ''
+  Translate Award: 'Premio traduzione'
   Translate Collection: Traduci Collezione
   Translate Movie: Traduci Film
   Translate Person: Traduci Persona
@@ -474,7 +474,7 @@ it-IT:
   Translated Overview: Descrizione Tradotta
   Translated Tagline: Tagline Tradotta
   Translated Title: Titolo (Lascia vuoto il campo se uguale all'originale)
-  Translation: ''
+  Translation: 'Traduzione'
   Translations: Traduzioni
   Type: Tipo
   Type of Problem: Tipo di problema
@@ -485,7 +485,7 @@ it-IT:
   Upload Logo: Carica Logo
   User Score: Punteggio Utente
   Username: Nome Utente
-  Value: ''
+  Value: 'Valore'
   Video?: Video?
   View: Visualizza
   View All Backdrops: Mostra tutti gli sfondi
@@ -517,7 +517,7 @@ it-IT:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'L''eliminazione di questa recensione è permanente e non può essere annullata.'
   account_drop_down:
     discussions: Discussioni
     edit_profile: Modifica profilo
@@ -532,7 +532,7 @@ it-IT:
     sign_up: Registrati
     view_profile: Vedi profilo
     watchlist: Watchlist
-    reviews: ''
+    reviews: 'Recensioni'
   accounts:
     activity:
       activity: Attività
@@ -573,8 +573,8 @@ it-IT:
             Bounce: Rimando
             Complaint: Reclamo
             Delivery: Inviato
-            Invalid: ''
-            Unknown: ''
+            Invalid: 'Non valido'
+            Unknown: 'Sconosciuto'
             Unsubscribed: Sottoscrizione annullata
             status: Stato
         number_of_items:
@@ -638,19 +638,19 @@ it-IT:
       no_lists:
         logged_in: Non hai creato nessuna lista.
         public: "%{username} non ha nessuna lista pubblica da condividere."
-        search: ''
+        search: 'Nessuna lista trovata.'
       page_title:
         page_owner: Le Mie Liste
         public: Liste di %{username}
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: 'Cerca una lista...'
+      add_to_lists: 'Aggiungi <span class="bold">%{media_name}</span> alle liste'
+      contributor: 'Continutore'
+      create_new_list: 'Crea nuova lista'
+      created: 'Lista creata'
+      my_new_list: 'La mia nuova lista...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'Non hai scritto nessuna recensione.'
+        public: '%{username} non ha scritto recensioni.'
     member_since: Membro dal %{date}
     navigation:
       discussions: Discussioni
@@ -681,7 +681,7 @@ it-IT:
       recent_discussions: Discussioni Recenti
       total_edits: Modifiche Totali
       total_ratings: Valutazioni Totali
-      upcoming_watchlist: In Uscita Nella Watchlist
+      upcoming_watchlist: In uscita nella Watchlist
     page_title:
       page_owner: Il Mio Profilo
       public: Profilo di %{username}
@@ -706,9 +706,9 @@ it-IT:
       asc: Crescente
       desc: Decrescente
     statuses:
-      banned: ''
-      deleted: ''
-      ok: ''
+      banned: 'Bannato'
+      deleted: 'Eliminato'
+      ok: 'Ok'
     tips:
       import_imdb_ratings: Puoi importare le tue valutazioni da IMDb.
       tip: Suggerimento
@@ -718,9 +718,9 @@ it-IT:
         public: Lista di %{username}
       next_month: Il mese prossimo
       no_upcoming_movies:
-        one: Non ci sono film in uscita nella tua watchlist. C'è tuttavia, %{count} elemento nella tua watchlist.
-        many: Non ci sono film in uscita nella tua watchlist. Ci sono tuttavia, %{count} elementi nella tua watchlist.
-        other: Non ci sono film in uscita nella tua watchlist. Ci sono tuttavia, %{count} elementi nella tua watchlist.
+        one: Non ci sono film in uscita nella tua watchlist. Tuttavia, hai %{count} voce nella tua watchlist.
+        many: Non ci sono film in uscita nella tua watchlist. Tuttavia, hai %{count} voci nella tua watchlist.
+        other: Non ci sono film in uscita nella tua watchlist. Tuttavia, hai %{count} voci nella tua watchlist.
       no_upcoming_tv_shows:
         one: Non ci sono serie Tv imminenti nella tua lista di controllo. C'è tuttavia, %{count} elemento nella tua lista watchlist.
         many: Non ci sono serie Tv imminenti nella tua lista di controllo. Ci sono tuttavia, %{count} elementi nella tua watchlist.
@@ -730,29 +730,29 @@ it-IT:
         public: Watchlist di %{username}
       this_month: Questo mese
       this_week: Questa settimana
-      view_them: Visuallizzali.
+      view_them: Visuallizzali
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Le mie recensioni'
+        public: 'Le recensioni di %{username}'
   add_to_list: Aggiungi %{media_title} a una delle tue liste...
   already_translated_in: "%{page_title} è già tradotto nelle seguenti lingue..."
   api_for_business:
-    api_for_business: ''
+    api_for_business: 'API per aziende'
     form:
       company_name:
-        label: ''
+        label: 'Nome azienda'
       company_url:
-        label: ''
+        label: 'URL azienda'
       description:
-        label: ''
+        label: 'Descrivi cosa intendi fare con la nostra API'
       email:
         error: non è formattato correttamente
         label: Il vostro indirizzo e-mail
       error: non può essere vuoto
       name:
-        label: ''
-      success: ''
+        label: 'Nome'
+      success: 'Grazie per aver inviato la tua richiesta al team commerciale per le aziende!'
   api_session:
     3rd_party_request: Autenticazione terze parti richiesta
     account_required:
@@ -794,64 +794,64 @@ it-IT:
     tv_series_status: Stato delle Serie TV
   average edits per day: media modifiche al giorno
   awards:
-    add_nomination: ''
+    add_nomination: 'Aggiungi candidatura'
     admin:
-      delete: ''
+      delete: 'Elimina premio'
     air_date:
-      future: ''
-      past: ''
-    alternative_names: ''
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+      future: 'In onda il %{date}'
+      past: 'Andato in onda il %{date}'
+    alternative_names: 'Nomi alternativi'
+    award: 'Premio'
+    broadcast_episode: 'Episodio della trasmissione'
+    broadcast_episode_tooltip: 'Collegando un episodio di una serie TV verranno mostrate le informazioni sulla produzione.'
+    broadcast_series: 'Serie TV della trasmissione'
+    broadcast_series_tooltip: 'Collegando una serie TV si possono mostrare le informazioni sulla produzione di ogni cerimonia.'
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
-      crew_credit_departments: ''
-      crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
-      display_type: ''
-      locked: ''
-      media_type: ''
-      name: ''
+      add_category: 'Aggiungi categoria'
+      categories: 'Categorie'
+      category: 'Categoria'
+      crew_credit_departments: 'Reparti della troupe nei crediti'
+      crew_credit_jobs: 'Ruoli della troupe nei crediti'
+      date_ended: 'Data di fine'
+      date_started: 'Data di inizio'
+      display_type: 'Tipo di visualizzazione'
+      locked: 'Un moderatore ha bloccato l’aggiunta di nuove categorie.'
+      media_type: 'Tipo di contenuto'
+      name: 'Nome'
       title: Categorie
-      ended_on: ''
-      started_on: ''
-    category_empty: ''
+      ended_on: 'Fino al %{date}'
+      started_on: 'Dal %{date}'
+    category_empty: 'Nessuna candidatura in questa categoria.'
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
-      locked: ''
-      number: ''
-      release_date_max: ''
-      release_date_min: ''
-      title: ''
+      add_ceremony: 'Aggiungi cerimonia'
+      ceremonies: 'Cerimonie'
+      ceremony: 'Cerimonia'
+      date: 'Data'
+      limits: 'Limiti'
+      location: 'Luogo'
+      locked: 'Un moderatore ha bloccato l’aggiunta di nuove cerimonie.'
+      number: 'Numero'
+      release_date_max: 'Data di uscita massima'
+      release_date_min: 'Data di uscita minima'
+      title: 'Cerimonie'
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Sito web'
+      name: 'Nome'
+      overview: 'Descrizione'
     new_award:
-      award_details: ''
-      click_next: ''
-      getting_started: ''
-      header_1: ''
-      header_2: ''
-      note: ''
-      verify: ''
+      award_details: 'Dettagli del premio'
+      click_next: 'Questa procedura guidata ti aiuterà a creare un premio in tre passaggi. Per iniziare, fai clic su Avanti.'
+      getting_started: 'Per iniziare'
+      header_1: 'Nuovo premio'
+      header_2: 'Aggiungi un nuovo premio'
+      note: 'Aggiungere un nuovo premio su TMDB è semplice. Se hai dubbi su come funzionano le modifiche, consulta la nostra <a href="%{bible_href}">guida ai contributi</a> o visita i <a href="%{talk_href}">forum</a>.'
+      verify: 'Verifica e salva'
     nominations:
-      add_nomination: ''
-      locked: ''
-      movie: ''
-      nomination: ''
-      one: ''
+      add_nomination: 'Aggiungi candidatura'
+      locked: 'Un moderatore ha bloccato l’aggiunta di nuove candidature.'
+      movie: 'Film'
+      nomination: 'Candidatura'
+      one: '1 candidatura'
       other: ''
       title: ''
       shared_with: ''
@@ -2466,7 +2466,7 @@ it-IT:
       file_type: ''
       max_res: ''
       min_res: ''
-      read_guidelines: Ti invitiamo a familiarizzare con le nostre <a href="%{link}" target="_blank" rel="noopener">linee guida per il contributo alle immagini</a> aggiornate.
+      read_guidelines: Ti invitiamo a familiarizzare con le nostre <a href="%{link}" target="_blank" rel="noopener">linee guida per il contributo alle immagini</a> aggiornate.<br>Si prega di tenere presente che non sono ammesse opere di fan art né immagini generate o modificate tramite intelligenza artificiale. La nostra definizione di fan art è disponibile <a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">qui</a>.
       tip: Se il tuo browser lo supporta, puoi trascinare e rilasciare un'immagine nell'area sottostante. Altrimenti, fai semplicemente clic sul pulsante "Seleziona file ..." e scegli l'immagine dal tuo computer.
       type_backdrops: ''
       type_episode_stills: ''
@@ -3888,9 +3888,9 @@ it-IT:
 
           <p> Se questo contenuto è ad esempio un DVD di compilation, un video di fitness o forse un DVD "migliore di", dovresti contrassegnarlo come un video. </ p>
         crew:
-          job_required: e richiesta un lavoro
+          job_required: e richiesta un lavoro.
           no_records: Nessun membro della troupe aggiunto.
-          person_required: e richiesta una persona
+          person_required: E richiesta una persona.
         genres:
           add_genre: Aggiungi Genere
           no_records: Nessun genere aggiunto.
@@ -4019,7 +4019,7 @@ it-IT:
       discussions:
         currently_subscribed: Al momento sei iscritto per ricevere una notifica quando qualcuno crea il primo post.
         no_discussions: Non ci sono discussioni per %{item_title}. Accedi per essere il primo!
-        unsubscribe_me: 'Disiscriviti. '
+        unsubscribe_me: 'Disiscriviti'
         want_to_be_notified: Vuoi essere avvisato quando qualcuno inserisce il primo post?
         yes_notify_me: Sì, avvisami!
       reviews:
@@ -4030,10 +4030,10 @@ it-IT:
           logged_in: Non abbiamo recensioni per %{title}. Ti piacerebbe <a href="%{url}">scriverne una</a>?
           public: Non abbiamo recensioni per %{title}.
         read_all: Leggi tutte le recensioni
-        read_the_rest: leggi il resto.
+        read_the_rest: leggi il resto
         write_review:
           logged_in: Scrivere una recensione
-          public: Autenticati per poter scrivere una recensione.
+          public: Autenticati per poter scrivere una recensione
         written_on: ''
         like_button_logged_out: ''
         their_rating: ''

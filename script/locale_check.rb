@@ -9,7 +9,16 @@ require "tmdb/yaml_file"
 paths = ARGV.empty? ? ["countries", "languages", "locales", "ordinals", "transliteration"] : ARGV
 failures = []
 TMDb::YamlFile.paths(paths).each do |path|
-  TMDb::YamlFile.load(path, locale: File.basename(path, ".yml"))
+  # Weblate creates '{}' placeholders for newly added country and language locales.
+  # They are valid only for these two components; website locale files need a root.
+  yaml = TMDb::YamlFile.load(path)
+  locale = File.basename(path, ".yml")
+  component = File.basename(File.dirname(path))
+  next if yaml.empty? && %w[countries languages].include?(component)
+
+  unless yaml.keys == [locale]
+    raise TMDb::YamlFile::InvalidYaml, "#{path}: expected only root #{locale.inspect}, got #{yaml.keys.inspect}"
+  end
 rescue TMDb::YamlFile::InvalidYaml, Errno::ENOENT => error
   failures << error.message
 end

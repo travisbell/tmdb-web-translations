@@ -20,7 +20,7 @@ zh-CN:
   Accept: 接受
   Accept API Terms: 接受 API 条款
   Account: 账户
-  Account Filtering: 账户筛选
+  Account Filtering: 筛选账户
   Add Alternative Name: 添加别名
   Add Alternative Title: 添加别名
   Add Backdrop: 添加剧照
@@ -31,7 +31,7 @@ zh-CN:
   Add Item: 添加条目
   Add Missing Cast & Crew: 添加缺失的演职人员
   Add Network: 添加播出平台
-  Add New Award: '添加新奖'
+  Add New Award: '添加新获奖项'
   Add New Episode: 添加新一集
   Add New Movie: 添加新电影
   Add New Release: 添加发行信息
@@ -179,7 +179,7 @@ zh-CN:
   External IDs: 外部编号
   External Links: 外部链接
   Extra Details: 附加信息详情
-  Extras: " 附加信息"
+  Extras: "附加信息"
   FAQ: 常见问题
   Facts: 资料
   Fallback Language: 网站界面的备选语言
@@ -357,7 +357,7 @@ zh-CN:
   Read More: 展开
   Recent Blog Posts: 最近博客文章
   Recent News: 最近新闻
-  Recommendations: " 推荐"
+  Recommendations: "推荐"
   Regions: 区域
   Regular Cast: 主演
   Release Dates & Certifications: 发行日期与分级
@@ -716,7 +716,7 @@ zh-CN:
         public: "%{username} 的待看片单"
       this_month: 本月
       this_week: 本周
-      view_them: 浏览待看片单。
+      view_them: 浏览待看片单
     reviews:
       page_title:
         page_owner: '我的评价'
@@ -782,7 +782,7 @@ zh-CN:
   awards:
     add_nomination: 添加提名
     admin:
-      delete: ''
+      delete: '删除奖项'
     air_date:
       future: 播出日期 %{date}
       past: 播出时间 %{date}
@@ -791,11 +791,11 @@ zh-CN:
     broadcast_episode: '播出集数'
     broadcast_episode_tooltip: '点击剧集链接即可查看制作信息。'
     broadcast_series: '系列剧'
-    broadcast_series_tooltip: ''
+    broadcast_series_tooltip: '关联一部电视剧可显示每场典礼的制作信息。'
     categories:
       add_category: '新增分类'
       categories: '类别'
-      category: ''
+      category: '类别'
       crew_credit_departments: ''
       crew_credit_jobs: ''
       date_ended: ''
@@ -803,10 +803,10 @@ zh-CN:
       display_type: ''
       locked: ''
       media_type: ''
-      name: ''
+      name: '名称'
       title: 分类
-      ended_on: ''
-      started_on: ''
+      ended_on: '于 %{date} 结束'
+      started_on: '于 %{date} 开始'
     category_empty: 该分类无提名
     ceremonies:
       add_ceremony: ''
@@ -821,8 +821,8 @@ zh-CN:
       release_date_min: 上映日期下限
       title: 典礼
     field:
-      homepage: ''
-      name: ''
+      homepage: '主页'
+      name: '名称'
       overview: ''
     new_award:
       award_details: ''
@@ -831,11 +831,11 @@ zh-CN:
       header_1: ''
       header_2: ''
       note: ''
-      verify: ''
+      verify: '验证并保存'
     nominations:
       add_nomination: ''
       locked: ''
-      movie: ''
+      movie: '电影'
       nomination: ''
       number:
         other:
@@ -863,7 +863,7 @@ zh-CN:
     most_nominated_people: ''
     media_page_description: ''
   back_options:
-    award: ''
+    award: '返回奖项'
     back: 返回
     ceremony: ''
     episode: 返回集
@@ -1651,9 +1651,9 @@ zh-CN:
     user_variant_description: 下面是我们为这个角色准备的一些照片。请选择一个或添加一个更适合角色的替代。
     user_variant_intro: 从电影、节目中找到你最喜欢的角色……
     validation_charactername: 主要角色名为必填项
-    validation_group_synopsis: 请输入有效的组概要
+    validation_group_synopsis: 请输入有效的组概要。
     validation_grpname: 请输入一个有效的组名
-    validation_synopsis: 请输入有效的概要
+    validation_synopsis: 请输入有效的概要。
     view_by: 查看方式
     want_to_delete_group: 您确定要删除此组吗?
     want_to_go_back: 您确定要返回吗？
@@ -1936,11 +1936,11 @@ zh-CN:
         latest_ceremony: ''
         search_all_countries: ''
         search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+      adult_content: '成人内容'
+      exclude_adult: '排除成人内容'
+      include_adult: '包含成人内容'
+      adult_filters: '成人内容过滤器'
+      softcore_content: '软色情内容'
     no_items: 找不到和您查询相符的条目。
     search: 搜索
     sort_options:
@@ -2125,7 +2125,7 @@ zh-CN:
       title: 提交申请
       username:
         label: 您的用户名
-        note: 请注意，用户名是区分大小写的
+        note: 请注意，用户名是区分大小写的。
     report:
       error: 您的报告创建时遇到了一些问题，是否重试？
       submit: 提交 DMCA 移除请求。
@@ -2199,12 +2199,12 @@ zh-CN:
   error_pages:
     deleted_account:
       description: 该页面的所有者删除了他们的账户。 虽然他们对 TMDB 的所有贡献仍然存在，但他们的用户数据已被匿名化。
-      title: 该账户已删除。
+      title: 该账户已删除
     missing_privilege:
       description:
         logged_in: 您无权访问此页面。 如果您认为这是一个错误，请在<a href="%{forum_link}">论坛</a>上告诉我们。
         public: 您需要先登录以访问该页面。请<a href="%{login_link}">单击此处</a>登录您的账户。
-      title: 您没有权限访问该页面。
+      title: 您没有权限访问该页面
     out_of_login_attempts:
       description: |-
         您已用完10次登录机会。 请在30分钟后重试。 同时，您还可以尝试<a href="%{reset_password_link}">重置密码</a>。
@@ -2428,7 +2428,7 @@ zh-CN:
       file_type: "%{file_type}的文件类型"
       max_res: "%{res}的最大分辨率"
       min_res: "%{res}的最小分辨率"
-      read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。
+      read_guidelines: 请了解我们更新后的<a href="%{link}" target="_blank" rel="noopener">图片贡献参考指南</a>。<br>请注意，禁止提交使用人工智能生成或编辑的同人作品及艺术作品。关于同人作品的定义，请参见<a href="/bible/image/59f7582c9251416e7100005f" target="_blank" rel="noopener">此处</a>。
       tip: 如果您的浏览器支持，您可以将图片拖拽到下方区域。或者点击“选择文件...”按钮，然后从您的电脑中选择图片。
       type_backdrops: 背景
       type_episode_stills: 剧集剧照
@@ -3844,7 +3844,7 @@ zh-CN:
         crew:
           job_required: 必须填写职务
           no_records: 尚未添加职员。
-          person_required: 必须是人员
+          person_required: 必须是人员。
         genres:
           add_genre: 添加类型
           no_records: 尚未添加类型。
@@ -3965,7 +3965,7 @@ zh-CN:
       discussions:
         currently_subscribed: 已订阅，当有人发布第一个帖子时，您将会收到通知。
         no_discussions: 没有关于 %{item_title} 的讨论。请先登录！
-        unsubscribe_me: 取消订阅。
+        unsubscribe_me: 取消订阅
         want_to_be_notified: 要在有人发布第一个帖子时通知您吗？
         yes_notify_me: 是的，通知我！
       reviews:
@@ -3976,15 +3976,15 @@ zh-CN:
           logged_in: 还没有关于《%{title}》的评价呢。想要<a href="%{url}">写一个</a>吗？
           public: 还没有关于《%{title}》的评价呢。
         read_all: 查看全部评价
-        read_the_rest: 阅读全文。
+        read_the_rest: 阅读全文
         write_review:
           logged_in: 写评价
-          public: 登录以撰写评价。
+          public: 登录以撰写评价
         written_on: ''
-        like_button_logged_out: ''
+        like_button_logged_out: '登录或注册以点赞此评论'
         their_rating: ''
-        your_rating: ''
-        edit_review: ''
+        your_rating: '(你的评分)'
+        edit_review: '编辑评价'
         no_featured_review:
           logged_in: 还没有关于《%{title}》的精选评价呢。想要<a href="%{url}">写一个</a>吗？
           public: 还没有关于《%{title}》的精选评价呢。
@@ -4137,7 +4137,7 @@ zh-CN:
       intro_2: ''
       verify: ''
     more_like_this:
-      if_you_liked_this: ''
+      if_you_liked_this: '如果你喜欢 <em>%{name}</em>, 你可能也会喜欢...'
       or_something_more: ''
       genres:
         '12': ''
@@ -4455,7 +4455,7 @@ zh-CN:
     watchlist_tv: 搜索电视节目待看片单...
     for_media: ''
     softcore: ''
-  search_text_validation_error: 请输入有效的文本!
+  search_text_validation_error: 请输入有效的文本.
   search_tip_1: 提示：你可以使用“y:”筛选器以年份来缩小查询范围。例如：“星球大战 y:1977”。
   season_number_name: 第 %{season_number} 季
   season_overview:
@@ -4474,7 +4474,7 @@ zh-CN:
           title: ''
           message: ''
           confirm_button: ''
-          cancel_button: ''
+          cancel_button: '取消,我未满18岁'
     api:
       api: API
       create_page_title: 创建一个新 API 密钥
