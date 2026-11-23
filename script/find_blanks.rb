@@ -31,7 +31,9 @@ end
 begin
   source = TMDb::YamlFile.load(File.join(directory, component, "en-US.yml"), locale: "en-US")
   ARGV.each do |locale|
-    target = TMDb::YamlFile.load(File.join(directory, component, "#{locale}.yml"), locale: locale)
+    target_path = File.join(directory, component, "#{locale}.yml")
+    allow_empty = %w[countries languages].include?(component)
+    target = TMDb::YamlFile.load(target_path, locale: locale, allow_empty: allow_empty)
     puts "# #{locale}" if ARGV.size > 1
     I18nMissingTranslations.find(source["en-US"], target[locale], plural_keys: plural_keys(locale)).each do |path, value|
       puts "BLANK: #{path.join('.')} => #{value.inspect}"

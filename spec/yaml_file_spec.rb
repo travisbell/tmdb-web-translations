@@ -29,6 +29,12 @@ RSpec.describe TMDb::YamlFile do
     expect(described_class.load(@path)["pt-PT"]["countries"]["NO"]).to eq("Noruega")
   end
 
+  it "accepts an empty Weblate placeholder only when explicitly allowed" do
+    File.write(@path, "{}\n")
+    expect { described_class.load(@path, locale: "pt-PT") }.to raise_error(described_class::InvalidYaml, /expected only root/)
+    expect(described_class.load(@path, locale: "pt-PT", allow_empty: true)).to eq({})
+  end
+
   it "requires exactly the requested locale root" do
     File.write(@path, "pt-PT: {}\nen-US: {}\n")
     expect { described_class.load(@path, locale: "pt-PT") }.to raise_error(described_class::InvalidYaml, /expected only root/)

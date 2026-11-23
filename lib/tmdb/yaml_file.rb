@@ -9,7 +9,7 @@ module TMDb
 
     module_function
 
-    def load(path, locale: nil)
+    def load(path, locale: nil, allow_empty: false)
       source = File.read(path, encoding: "UTF-8")
       raise InvalidYaml, "#{path}: invalid UTF-8" unless source.valid_encoding?
 
@@ -22,7 +22,7 @@ module TMDb
       raise InvalidYaml, "#{path}: expected a mapping" unless data.is_a?(Hash)
 
       validate_key_types(data, path)
-      if locale && data.keys != [locale]
+      if locale && data.keys != [locale] && !(allow_empty && data.empty?)
         raise InvalidYaml, "#{path}: expected only root #{locale.inspect}, got #{data.keys.inspect}"
       end
       data

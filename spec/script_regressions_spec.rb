@@ -151,6 +151,16 @@ RSpec.describe "translation scripts" do
     expect(error).to include("pt-PT")
   end
 
+  example "finds missing language names in an empty Weblate placeholder" do
+    Dir.mkdir(File.join(@directory, "languages"))
+    fixture("languages/en-US.yml", "en-US:\n  languages:\n    aa: Afar\n")
+    fixture("languages/nb.yml", "{}\n")
+
+    output, error, status = run_script("find_blanks.rb", "--directory", @directory, "--component", "languages", "nb")
+    expect(status.success?).to be(true), error
+    expect(output).to include('BLANK: languages.aa => "Afar"')
+  end
+
   example "finds absent keys, whitespace and array blanks from the English source" do
     Dir.mkdir(File.join(@directory, "locales"))
     fixture("locales/en-US.yml", "en-US:\n  absent: Film\n  blank: Series\n  list:\n    - Episode\n  number:\n    format:\n      delimiter: ','\n")
