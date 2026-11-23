@@ -130,7 +130,7 @@ RSpec.describe "translation scripts" do
       File.write(File.join(directory, "nb.yml"), "{}\n")
     end
 
-    _, error, status = run_script("locale_check.rb")
+    _, error, status = run_script("locale_check.rb", "countries", "languages")
     expect(status.success?).to be(true), error
   end
 
