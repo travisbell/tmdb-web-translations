@@ -4654,6 +4654,49 @@ en-US:
   season_number_name: Season %{season_number}
   season_overview:
     already_aired: Season %{season_number} of %{show_name} premiered on %{date}.
+    specials:
+      includes: Includes %{list}.
+      more: "%{count} more"
+      types:
+        behind_the_scenes:
+          one: "%{count} behind-the-scenes feature"
+          other: "%{count} behind-the-scenes features"
+        bloopers:
+          one: "%{count} blooper reel"
+          other: "%{count} blooper reels"
+        deleted_scenes:
+          one: "%{count} set of deleted scenes"
+          other: "%{count} sets of deleted scenes"
+        episode:
+          one: "%{count} story special"
+          other: "%{count} story specials"
+        interview:
+          one: "%{count} interview"
+          other: "%{count} interviews"
+        live_event:
+          one: "%{count} live event"
+          other: "%{count} live events"
+        movie:
+          one: "%{count} movie"
+          other: "%{count} movies"
+        other:
+          one: "%{count} other extra"
+          other: "%{count} other extras"
+        promo:
+          one: "%{count} trailer or promo"
+          other: "%{count} trailers and promos"
+        recap:
+          one: "%{count} recap"
+          other: "%{count} recaps"
+        short:
+          one: "%{count} short"
+          other: "%{count} shorts"
+        unaired:
+          one: "%{count} unaired episode"
+          other: "%{count} unaired episodes"
+        untagged:
+          one: "%{count} other special"
+          other: "%{count} other specials"
     to_air: Season %{season_number} of %{show_name} is set to premiere on %{date}.
   settings:
     account:
