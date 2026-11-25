@@ -1742,6 +1742,37 @@ pt-PT:
       tv_bible: Guia das séries
     welcome_1: Bem-vindo ao
     welcome_2: Guia de contribuição
+    ask:
+      assistant: 'Guia de contribuição'
+      button: 'Fazer uma pergunta'
+      copied: 'Copiado'
+      copy: 'Copiar'
+      disclaimer: 'As respostas são geradas e podem conter erros. Consulta as secções indicadas nos links.'
+      error_failed: 'Algo correu mal. Tenta novamente daqui a pouco.'
+      error_invalid_question: 'As perguntas podem ter até %{max} caracteres.'
+      error_login_required: 'A tua sessão terminou. Inicia sessão novamente para fazeres uma pergunta.'
+      error_rate_limited: 'Fizeste muitas perguntas. Tenta novamente mais tarde.'
+      example_1: 'Posso adicionar uma montagem feita por fãs ou uma versão do realizador?'
+      example_2: 'Como adiciono um episódio-piloto de uma série que nunca foi aprovada para produção?'
+      example_3: 'Em que fontes devo confiar para obter informações sobre o elenco e a equipa técnica?'
+      example_4: 'Como corrijo um cartaz com uma proporção incorreta?'
+      forums: 'Perguntar nos fóruns'
+      heading: 'Que conteúdos são aceites?'
+      hint: 'Enter para enviar · Shift+Enter para mudar de linha'
+      intro: 'Utiliza esta conversa para esclarecer dúvidas sobre o que é ou não aceite no TMDB e como adicionar ou editar conteúdo. As respostas baseiam-se diretamente no guia de contribuição.'
+      login_button: 'Iniciar sessão para perguntar'
+      login_title: 'Inicia sessão para fazeres uma pergunta ao guia de contribuição'
+      not_covered: 'O guia de contribuição não aborda totalmente este assunto.'
+      placeholder: 'Faz uma pergunta sobre como contribuir para o TMDB…'
+      rate_down: 'Não foi útil'
+      rate_up: 'Foi útil'
+      reset: 'Nova conversa'
+      retry: 'Tentar novamente'
+      sources: 'Fontes'
+      submit: 'Perguntar'
+      thanks: 'Obrigado pela tua opinião'
+      thinking: 'A consultar o guia de contribuição…'
+      title: 'Perguntar ao guia de contribuição'
   contribution_type:
     character_appearance: 'Participação da personagem'
     movie: Filme
@@ -2105,7 +2136,19 @@ pt-PT:
       opened: Publicação reaberta
       subscribed: Subscrito
       watching: Acompanhando
+      stopped_watching: 'Deixaste de acompanhar'
+      unsubscribed: 'Subscrição cancelada'
     admin_actions: Ações administrativas
+    remove_user:
+      confirm: 'Remover <strong>%{username}</strong> desta discussão? A sua subscrição será cancelada e deixará de receber notificações.'
+      title: 'Remover utilizador'
+    replies:
+      count:
+        one: '%{number} resposta'
+        other: '%{number} respostas'
+        many: '%{number} respostas'
+      jump_to_last: 'Ir para a última publicação'
+      page_of: 'Página %{current_page} de %{total_pages}'
   dmca_takedown:
     form:
       about_self:
@@ -4037,6 +4080,7 @@ pt-PT:
       translations: Traduções
       videos: Vídeos
       awards: 'Prémios'
+      popularity: 'Popularidade'
     social_panel:
       discussions:
         currently_subscribed: Subscreveste as notificações para receber um aviso quando alguém fizer a primeira publicação.
@@ -4090,6 +4134,27 @@ pt-PT:
         screened_as_part_of_season: Sim, como parte de uma temporada
         screened_confirm: Se este episódio foi exibido num festival de cinema ou numa sala de cinema, clica em «Sim» para continuar.
         screened_label: Este episódio foi exibido em cinemas ou festivais?
+        canon_status_label: 'Cânone'
+        canon_statuses:
+          canon: 'Canónico'
+          filler: 'Episódio de enchimento'
+          mixed: 'Cânone misto (canónico/enchimento)'
+          recap: 'Resumo'
+        special_type_label: 'Tipo de especial'
+        special_types:
+          behind_the_scenes: 'Bastidores'
+          bloopers: 'Erros de gravação'
+          deleted_scenes: 'Cenas eliminadas'
+          episode: 'Episódio narrativo (especial, OVA)'
+          interview: 'Entrevista'
+          live_event: 'Evento em direto ou reencontro'
+          movie: 'Filme'
+          none: 'Não definido'
+          other: 'Outro extra'
+          promo: 'Trailer ou vídeo promocional'
+          recap: 'Resumo'
+          short: 'Curta-metragem ou episódio para a web'
+          unaired: 'Episódio não emitido (piloto, retirado da emissão)'
       episode_label:
         finale: 'Final da temporada'
         mid_season: 'Final a meio da temporada'
@@ -4098,6 +4163,23 @@ pt-PT:
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Próximo episódio
         previous_episode: Episódio anterior
+      canon_status:
+        filler: 'Episódio de enchimento'
+        mixed: 'Cânone misto'
+        recap: 'Resumo'
+      special_type:
+        behind_the_scenes: 'Bastidores'
+        bloopers: 'Erros de gravação'
+        deleted_scenes: 'Cenas eliminadas'
+        episode: 'Narrativo'
+        interview: 'Entrevista'
+        live_event: 'Evento em direto'
+        movie: 'Filme'
+        other: 'Extra'
+        promo: 'Vídeo promocional'
+        recap: 'Resumo'
+        short: 'Curta-metragem'
+        unaired: 'Não emitido'
     tv_season:
       edit:
         create_episode: Criar episódio
@@ -4113,6 +4195,25 @@ pt-PT:
         last_season: Última temporada
         next_season: Próxima temporada
         previous_season: Temporada anterior
+      special_filter:
+        all: 'Todos'
+        extras: 'Extras'
+        label: 'Mostrar especiais'
+        story: 'Narrativos'
+      special_sections:
+        behind_the_scenes: 'Bastidores'
+        bloopers: 'Erros de gravação'
+        deleted_scenes: 'Cenas eliminadas'
+        episode: 'Especiais narrativos'
+        interview: 'Entrevistas'
+        live_event: 'Eventos em direto e reencontros'
+        movie: 'Filmes'
+        other: 'Outros extras'
+        promo: 'Trailers e vídeos promocionais'
+        recap: 'Resumos'
+        short: 'Curtas-metragens e episódios para a web'
+        unaired: 'Episódios não emitidos'
+        uncategorized: 'Sem categoria'
     tv_show:
       create_season: Criar temporada
       edit:
@@ -4133,6 +4234,15 @@ pt-PT:
           episodes:
             move_episodes: Mover episódios selecionados
             no_records: Não foi adicionado nenhum episódio a este grupo.
+            add_to_group: 'Adicionar ao grupo'
+            all_episodes: 'Todos os episódios'
+            combine_with_previous: 'Combinar com o anterior'
+            filter: 'Filtrar por nome'
+            hint: 'Arrasta os episódios para o grupo ou seleciona-os e escolhe «Adicionar ao grupo». O link entre dois episódios permite combiná-los num só.'
+            in_group: 'Neste grupo'
+            no_matches: 'Nenhum episódio corresponde a este nome.'
+            none_available: 'Todos os episódios já fazem parte deste grupo de episódios.'
+            separate_from_previous: 'Separar do anterior'
           grid:
             episodes: Episódios
             groups: Grupos
@@ -4153,6 +4263,27 @@ pt-PT:
             '5': Arco narrativo
             '6': Produção
             '7': TV
+          continuous_numbering: 'Numerar os episódios sequencialmente'
+          continuous_numbering_help: 'A numeração dos episódios continua de um grupo para o seguinte, em vez de recomeçar em 1 em cada grupo, tal como na numeração absoluta de um anime.'
+          default_order: 'Ordem predefinida'
+          default_order_add_only: 'Esta é a ordem predefinida da série. Podes adicionar-lhe grupos e episódios, mas não alterar nem remover os que já existem.'
+          default_order_countries: 'Ordem predefinida por país'
+          default_order_countries_help: 'Os utilizadores cuja região de streaming corresponda a um destes países veem esta ordem por predefinição.'
+          default_order_everywhere: 'Em todo o lado'
+          default_order_help: 'Apresentada por predefinição na página da série e na página das temporadas. As temporadas originais ficam disponíveis com um clique. Apenas os moderadores podem alterar ou remover os seus grupos e episódios.'
+          order: 'Ordem'
+          season_details: 'Mostrar detalhes da temporada'
+          season_details_help: 'Quando todos os episódios de um grupo pertencem à mesma temporada, o cartão apresenta o cartaz e a sinopse dessa temporada.'
+          translations:
+            discard: 'Descartar as alterações não guardadas a esta tradução?'
+            groups: 'Grupos'
+            language: 'Idioma'
+            original: 'Original'
+            subtitle: 'Nomes e descrições noutros idiomas'
+            title: 'Traduções'
+            translation: 'Tradução'
+          saving: 'A guardar…'
+          unsaved_changes: 'Alterações não guardadas'
         networks:
           no_records: Não foi adicionada nenhuma emissora.
           none_found: Não foi encontrada uma emissora correspondente. Queres criá-la?
@@ -4173,6 +4304,24 @@ pt-PT:
             many: '%{count} grupos'
             other: '%{count} grupos'
         original_air_date: Data de emissão original
+        add_episodes: 'Adicionar episódios'
+        add_group: 'Adicionar grupo'
+        aired_order: 'Temporadas originais'
+        all_types: 'Todos'
+        combined_episode:
+          one: 'Episódio combinado, %{count} parte'
+          other: 'Episódio combinado, %{count} partes'
+          many: 'Episódio combinado, %{count} partes'
+        episode_range:
+          one: 'Episódio %{first}'
+          other: 'Episódios %{first}–%{last}'
+          many: 'Episódios %{first}–%{last}'
+        more_groups: '+%{count}'
+        next_group: 'Grupo seguinte'
+        previous_group: 'Grupo anterior'
+        season_order: 'Ordem das temporadas'
+        type_filter: 'Tipo de grupo de episódios'
+        view_groups: 'Ver grupos'
       networks:
         one: Emissora
         many: Emissoras
@@ -4196,6 +4345,9 @@ pt-PT:
         Talk Show: Programa de entrevistas
         Video: Vídeo
       user_characters: 'Personagens do utilizador'
+      episode_tile:
+        latest_episode: 'Último episódio'
+        next_episode: 'Próximo episódio'
     video:
       audio_language: Idioma do áudio
       channel: Canal
@@ -4559,6 +4711,62 @@ pt-PT:
   season_overview:
     already_aired: A temporada %{season_number} de %{show_name} estreou a %{date}.
     to_air: A temporada %{season_number} de %{show_name} vai estrear a %{date}.
+    specials:
+      includes: 'Inclui %{list}.'
+      more: 'Mais %{count}'
+      types:
+        behind_the_scenes:
+          one: '%{count} vídeo de bastidores'
+          other: '%{count} vídeos de bastidores'
+          many: '%{count} vídeos de bastidores'
+        bloopers:
+          one: '%{count} compilação de erros de gravação'
+          other: '%{count} compilações de erros de gravação'
+          many: '%{count} compilações de erros de gravação'
+        deleted_scenes:
+          one: '%{count} conjunto de cenas eliminadas'
+          other: '%{count} conjuntos de cenas eliminadas'
+          many: '%{count} conjuntos de cenas eliminadas'
+        episode:
+          one: '%{count} especial narrativo'
+          other: '%{count} especiais narrativos'
+          many: '%{count} especiais narrativos'
+        interview:
+          one: '%{count} entrevista'
+          other: '%{count} entrevistas'
+          many: '%{count} entrevistas'
+        live_event:
+          one: '%{count} evento em direto'
+          other: '%{count} eventos em direto'
+          many: '%{count} eventos em direto'
+        movie:
+          one: '%{count} filme'
+          other: '%{count} filmes'
+          many: '%{count} filmes'
+        other:
+          one: '%{count} outro extra'
+          other: '%{count} outros extras'
+          many: '%{count} outros extras'
+        promo:
+          one: '%{count} trailer ou vídeo promocional'
+          other: '%{count} trailers e vídeos promocionais'
+          many: '%{count} trailers e vídeos promocionais'
+        recap:
+          one: '%{count} resumo'
+          other: '%{count} resumos'
+          many: '%{count} resumos'
+        short:
+          one: '%{count} curta-metragem'
+          other: '%{count} curtas-metragens'
+          many: '%{count} curtas-metragens'
+        unaired:
+          one: '%{count} episódio não emitido'
+          other: '%{count} episódios não emitidos'
+          many: '%{count} episódios não emitidos'
+        untagged:
+          one: '%{count} outro especial'
+          other: '%{count} outros especiais'
+          many: '%{count} outros especiais'
   settings:
     account:
       account_settings: Definições da conta
@@ -4912,3 +5120,28 @@ pt-PT:
     next_label: Seguinte →
     page_gap: '…'
     previous_label: "← Anterior"
+  episode_part_name: '%{name} (parte %{part_number})'
+  popularity:
+    change_30_days: 'Variação em 30 dias'
+    current_rank: 'Posição atual'
+    days_in_top: 'Dias entre os %{rank} primeiros'
+    events:
+      credit_season_premiere: '%{name}: estreia da temporada %{number}'
+      died: 'Falecimento'
+      season_premiere: 'Estreia da temporada %{number}'
+      title: 'Datas importantes'
+      video_legend: 'Lançamento de trailer ou teaser'
+    history_start: 'O histórico de popularidade remonta a %{date}.'
+    no_history: 'Registamos diariamente a popularidade desde %{date} e %{name} ainda não entrou na classificação.'
+    of_board: 'de %{count}'
+    page_description: 'Como evoluiu, dia após dia, a popularidade de %{name} no TMDB.'
+    peak_rank: 'Melhor posição'
+    ranges:
+      '30': '30 dias'
+      '90': '90 dias'
+      '365': '1 ano'
+      all: 'Todos'
+    rank_value: '#%{rank}'
+    title: 'Histórico de popularidade'
+    top_percent: 'Entre os %{percent} mais populares'
+    unranked: 'Sem posição'
