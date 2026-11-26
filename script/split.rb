@@ -4,8 +4,8 @@
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
 
 require "optparse"
-require "tempfile"
 require "yaml"
+require "tmdb/yaml_file"
 
 # Usage:
 # ruby script/sort.rb --sort-keys ~/Downloads/i18n_locales.yml
@@ -21,18 +21,14 @@ at_exit do
   source_path = ARGV.shift
   abort if source_path.nil? || source_path.empty?
 
-  data = YAML.load_file(source_path)
+  data = TMDb::YamlFile.load(source_path)
   data.each do |locale, translations|
     data = { locale => translations }
     data = deep_sort_keys(data) if @sort
 
     file_path = "locales/#{locale}.yml"
 
-    tempfile = Tempfile.create(File.basename(file_path))
-    tempfile.write(YAML.dump(data, line_width: -1))
-
-    File.unlink(file_path)
-    File.link(tempfile.path, file_path)
+    TMDb::YamlFile.write(file_path, data)
   end
 end
 
