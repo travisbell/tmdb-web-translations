@@ -296,7 +296,7 @@ zh-CN:
   Now Playing Movies: 正在上映电影
   Number: '号码'
   Number of Movies: 电影数
-  Number of TV Shows: 节目数
+  Number of TV Shows: 剧集数
   Number of edits in the past: 过去编辑次数
   Offensive or Spam: 攻击或垃圾信息
   Offical Site: 官方网站
@@ -328,7 +328,7 @@ zh-CN:
   Plot Keywords: 剧情关键词
   Popular Lists: 热门片单
   Popular Movies: 热门电影
-  Popular TV Shows: 热门电视节目
+  Popular TV Shows: 热门剧集
   Popularity: 热门度
   Popularity Rank: 热门排行
   Popularity Trend: 热门度趋势
@@ -352,7 +352,7 @@ zh-CN:
   Rate it!: 评个分吧！
   Rated: 已评分
   Rated Movies: 已评分电影
-  Rated TV Shows: 已评分电视节目
+  Rated TV Shows: 已评分剧集
   Rating: 评分
   Read More: 展开
   Recent Blog Posts: 最近博客文章
@@ -444,8 +444,8 @@ zh-CN:
   TV Show Status: 电视节目状态
   TV Show Type: 电视节目类型
   TV Show Watchlist: 电视节目待看片单
-  TV Shows: 节目
-  TV Shows Airing Today: 今日播出节目
+  TV Shows: 剧集
+  TV Shows Airing Today: 今日播出
   Tagged People: 标记人员
   Tagline: 标语
   Talk: 讨论
@@ -459,7 +459,7 @@ zh-CN:
   Today: 今日
   Top Billed Cast: 演员阵容
   Top Rated Movies: 高分电影
-  Top Rated TV Shows: 高分电视节目
+  Top Rated TV Shows: 高分剧集
   Top Users: 用户排行
   Translate Award: '翻译奖项'
   Translate Collection: 翻译合集
@@ -476,7 +476,7 @@ zh-CN:
   Type of Problem: 问题类型
   Type of Use: 使用类型
   URL: 网址
-  Upcoming Movies: 即将上映电影
+  Upcoming Movies: 即将上映
   Update: 修改
   Upload Logo: 上传标志
   User Score: 用户评分
@@ -661,8 +661,8 @@ zh-CN:
       empty_upcoming_watchlist:
         logged_in: 你的待看片单中没有即将上映的电影。
       empty_watched_genres:
-        logged_in: 你还没有记录过电影或电视节目。
-        public: "%{username} 还没有记录过电影或电视节目。"
+        logged_in: 您还没有收藏过电影或电视节目。
+        public: "%{username} 还没有收藏过电影或电视节目。"
       goto_discussions: 进入讨论
       goto_watchlist: 进入待看片单
       most_watched_genres: 最关注类型
@@ -671,7 +671,7 @@ zh-CN:
       recent_discussions: 近期讨论
       total_edits: 总编辑次数
       total_ratings: 总评分次数
-      upcoming_watchlist: 待看片单中即将播映
+      upcoming_watchlist: 待看清单 · 即将上映
     page_title:
       page_owner: 我的个人资料
       public: "%{username} 的个人资料"
@@ -690,7 +690,7 @@ zh-CN:
       my_recommendations: 为我推荐
       no_recommendations: 由于数据不足，暂无法给出相关推荐内容。
       no_recommendations_helper: 请试着多添加一些收藏（越多越好）再回来看有何变化。
-      no_recommendations_helper_2: 试着多对一些电影和节目进行评分（越多越好），然后等待一段时间，我们将分析是否能生成相关推荐内容。随着观看与评分内容数量的增加，这些推荐内容也会进行更新。
+      no_recommendations_helper_2: 试着多对一些电影和剧集进行评分（越多越好），然后等待一段时间，我们将分析是否能生成相关推荐内容。随着观看与评分内容数量的增加，这些推荐内容也会进行更新。
       page_title: 推荐
     sort_options:
       asc: 升序
@@ -710,7 +710,7 @@ zh-CN:
       no_upcoming_movies:
         other: 你的待看片单中有 %{count} 个条目，但暂无即将上映的电影。
       no_upcoming_tv_shows:
-        other: 你的待看片单中有 %{count} 个条目，但暂无即将播出的电视节目。
+        other: 您的关注列表中没有即将播出的剧集。不过，你的关注列表里目前有 %{count} 个
       page_title:
         page_owner: 我的待看片单
         public: "%{username} 的待看片单"
