@@ -31,7 +31,7 @@ ca-ES:
   Add Item: Afegiu-hi un element
   Add Missing Cast & Crew: Afegiu-hi un membre del repartiment o de l'equip tècnic que encara no hi sigui
   Add Network: Afegiu-hi una cadena
-  Add New Award: ''
+  Add New Award: 'Afegiu un guardó nou'
   Add New Episode: Afegiu-hi un episodi nou
   Add New Movie: Afegiu-hi una pel·lícula nova
   Add New Release: Afegiu-hi una publicació nova
@@ -130,7 +130,7 @@ ca-ES:
   DMCA Policy: Política DMCA
   DMCA Takedown Request: Sol·licitud de retirada per la DMCA
   Date: Data
-  Date Added: ''
+  Date Added: 'Data afegida'
   Day of Death: Dia de la mort
   Default Language: Llengua predefinida
   Delete: Elimina
@@ -173,7 +173,7 @@ ca-ES:
   Episode Images:
     one: Fotograma de l'episodi
     many: Fotogrames de l'episodi
-    other:
+    other: Fotogrames de l'episodi
   Episode Number: Número d'episodi
   Episode Overview: Sinopsi de l'episodi
   Episodes: Episodis
@@ -236,7 +236,7 @@ ca-ES:
   Job: Feina
   Join the Community: Uniu-vos a la comunitat
   Joined in: Unit el
-  Key: ''
+  Key: 'Clau'
   Keyword: Paraula clau
   Keyword Results: Resultats de paraula clau
   Keywords: Paraules clau
@@ -298,7 +298,7 @@ ca-ES:
   Notes: Notes
   Notifications: Notificacions
   Now Playing Movies: Pel·lícules en cartellera
-  Number: ''
+  Number: 'Número'
   Number of Movies: Nombre de pel·lícules
   Number of TV Shows: Nombre de sèries
   Number of edits in the past: Nombre d'edicions en el passat
@@ -306,7 +306,7 @@ ca-ES:
   Offical Site: Lloc web oficial
   Offline Databases: Base de dades fora de línia
   Ok: D'acord
-  Optional: ''
+  Optional: 'Opcional'
   Origin Country: País d’origen
   Original Air Date: Data original d'emissió
   Original Language: Llengua original
@@ -316,7 +316,7 @@ ca-ES:
   Original TV Show Language: Llengua original de la sèrie
   Original Title: Títol original
   Other Databases: D'altres bases de dades
-  Others: ''
+  Others: 'altres'
   Overview: Sinopsi
   Page: Pàgina
   People: Artistes
@@ -377,7 +377,7 @@ ca-ES:
   Report an Issue: Informeu d'un problema
   Reported Issues: Problemes informats
   Request an API Key: Sol·licita una clau API
-  Required: ''
+  Required: 'Requerit'
   Resend Activation Email: Reenvia el correu electrònic d'activació
   Reset: Reinicia
   Reset Password: Reinicia la contrasenya
@@ -442,7 +442,7 @@ ca-ES:
   TV: Televisió
   TV Network: Cadena de televisió
   TV Recommendations: Recomanacions de sèries
-  TV Show: ''
+  TV Show: 'Sèrie'
   TV Show Data: Informació de sèrie
   TV Show Results: Resultats de sèries
   TV Show Status: Estat de la sèrie
@@ -465,7 +465,7 @@ ca-ES:
   Top Rated Movies: Pel·lícules més ben valorades
   Top Rated TV Shows: Sèries més ben valorades
   Top Users: Usuaris principals
-  Translate Award: ''
+  Translate Award: 'Traduïu guardó'
   Translate Collection: Tradueix col·lecció
   Translate Movie: Traduïu la pel·lícula
   Translate Person: Tradueix artista
@@ -485,7 +485,7 @@ ca-ES:
   Upload Logo: Carrega un logotip
   User Score: Valoració dels usuaris
   Username: Nom d'usuari
-  Value: ''
+  Value: 'Valor'
   Video?: Vídeo?
   View: Mostra
   View All Backdrops: Mostra totes les imatges de fons
@@ -517,7 +517,7 @@ ca-ES:
   account:
     reviews:
       delete:
-        message: ''
+        message: 'L''eliminació d''aquesta ressenya és permanent i no es pot desfer.'
   account_drop_down:
     discussions: Debats
     edit_profile: Edició del perfil
@@ -532,7 +532,7 @@ ca-ES:
     sign_up: Registra't
     view_profile: Mostra el perfil
     watchlist: Llista de seguiment
-    reviews: ''
+    reviews: 'Ressenyes'
   accounts:
     activity:
       activity: Activitat
@@ -638,19 +638,19 @@ ca-ES:
       no_lists:
         logged_in: No teniu cap llista creada.
         public: L'usuari %{username} no té cap llista pública per a compartir.
-        search: ''
+        search: 'No s''han trobat llistes.'
       page_title:
         page_owner: Les meves llistes
         public: Les llistes de l'usuari %{username}
-      search: ''
-      add_to_lists: ''
-      contributor: ''
-      create_new_list: ''
-      created: ''
-      my_new_list: ''
+      search: 'Cerqueu una llista...'
+      add_to_lists: 'Afegeix <span class="bold">%{media_name}</span> a les llistes'
+      contributor: 'Col·laborador'
+      create_new_list: 'Crea una llista nova'
+      created: 'Llista creada'
+      my_new_list: 'La meva llista nova...'
       no_reviews:
-        logged_in: ''
-        public: ''
+        logged_in: 'No heu escrit cap ressenya.'
+        public: '%{username} no ha escrit cap ressenya.'
     member_since: Membre des de %{date}
     navigation:
       discussions: Debats
@@ -733,8 +733,8 @@ ca-ES:
       view_them: Mostra'ls
     reviews:
       page_title:
-        page_owner: ''
-        public: ''
+        page_owner: 'Les meves ressenyes'
+        public: 'Ressenyes de %{username}'
   add_to_list: Afegiu %{media_title} a una de les vostres llistes...
   already_translated_in: "%{page_title} ja s'ha traduït a les llengües següents..."
   api_for_business:
@@ -796,69 +796,69 @@ ca-ES:
   awards:
     add_nomination: Afegeix nominació
     admin:
-      delete: ''
+      delete: 'Elimina guardó'
     air_date:
       future: S'emet el %{date}
       past: Emès el %{date}
     alternative_names: Noms alternatius
-    award: ''
-    broadcast_episode: ''
-    broadcast_episode_tooltip: ''
-    broadcast_series: ''
-    broadcast_series_tooltip: ''
+    award: 'Guardó'
+    broadcast_episode: 'Episodi emès'
+    broadcast_episode_tooltip: 'En enllaçar a un episodi de televisió es mostrarà informació de producció.'
+    broadcast_series: 'Sèrie emesa'
+    broadcast_series_tooltip: 'En enllaçar una sèrie de televisió, es pot mostrar informació de producció de cada cerimònia.'
     categories:
-      add_category: ''
-      categories: ''
-      category: ''
-      crew_credit_departments: ''
-      crew_credit_jobs: ''
-      date_ended: ''
-      date_started: ''
-      display_type: ''
-      locked: ''
-      media_type: ''
-      name: ''
+      add_category: 'Afegeix categoria'
+      categories: 'Categories'
+      category: 'Categoria'
+      crew_credit_departments: 'Departaments de l''equip acreditat'
+      crew_credit_jobs: 'Feines de l''equip acreditat'
+      date_ended: 'Data de finalització'
+      date_started: 'Data d''inici'
+      display_type: 'Tipus de visualització'
+      locked: 'Un moderador ha desactivat i bloquejat poder afegir noves categories.'
+      media_type: 'Tipus de suport'
+      name: 'Nom'
       title: Categories
-      ended_on: ''
-      started_on: ''
+      ended_on: 'Finalitzat el %{date}'
+      started_on: 'Iniciat el %{date}'
     category_empty: Categoria deserta.
     ceremonies:
-      add_ceremony: ''
-      ceremonies: ''
-      ceremony: ''
-      date: ''
-      limits: ''
-      location: ''
-      locked: ''
+      add_ceremony: 'Afegiu-hi una cerimònia'
+      ceremonies: 'Cerimònies'
+      ceremony: 'Cerimònia'
+      date: 'Data'
+      limits: 'Límits'
+      location: 'Ubicació'
+      locked: 'Un moderador ha desactivar i bloquejat afegir noves cerimònies.'
       number: Número
       release_date_max: Data d'emissió màx
       release_date_min: Data d'emissió min
       title: Cerimònies
     field:
-      homepage: ''
-      name: ''
-      overview: ''
+      homepage: 'Pàgina d''inici'
+      name: 'Nom'
+      overview: 'Sumari'
     new_award:
-      award_details: ''
-      click_next: ''
-      getting_started: ''
-      header_1: ''
-      header_2: ''
-      note: ''
-      verify: ''
+      award_details: 'Detalls del guardó'
+      click_next: 'Aquest assistent en tres passos us guiarà durant el procés de creació. Per començar, feu clic a Següent.'
+      getting_started: 'Comenceu'
+      header_1: 'Guardó nou'
+      header_2: 'Afegiu-hi un guardó nou'
+      note: 'Afegir un nou premi a TMDB és senzill i fàcil. Si teniu cap dubte sobre com funciona el nostre sistema d''edició, assegureu-vos de consultar la nostra <a href="%{bible_href}">guia d''estil</a> o passeu-vos pels <a href="%{talk_href}">fòrums</a>.'
+      verify: 'Verifica i desa'
     nominations:
-      add_nomination: ''
-      locked: ''
-      movie: ''
-      nomination: ''
+      add_nomination: 'Afegiu-hi una nominació'
+      locked: 'Un moderador ha desactivat i blocat afegir-hi nominacions noves.'
+      movie: 'Pel·lícula'
+      nomination: 'Nominació'
       number:
         one: ''
         many: ''
         other: ''
       one: 1 nominació
       other: "%{count} nominacions"
-      title: ''
-      shared_with: ''
+      title: 'Nominacions'
+      shared_with: 'Compartit amb...'
       many: "%{count} nominacions"
     nominee: Nominat
     show_info:
@@ -876,15 +876,15 @@ ca-ES:
       one: 1 guardó
       many: '%{count} guardons'
       other: '%{count} guardons'
-    most_awarded_films: ''
-    most_awarded_people: ''
-    most_nominated_films: ''
-    most_nominated_people: ''
-    media_page_description: ''
+    most_awarded_films: 'Pel·lícules més guardonades'
+    most_awarded_people: 'Artistes més guardonats'
+    most_nominated_films: 'Pel·lícules més nominades'
+    most_nominated_people: 'Artistes més nominats'
+    media_page_description: 'Consulteu les nominacions i els premis de %{name} a TMDB. %{name} ha rebut %{nominations} i %{wins}.'
   back_options:
-    award: ''
+    award: 'Torna al guardó'
     back: Torna
-    ceremony: ''
+    ceremony: 'Torna a la cerimònia'
     episode: Torna a l'episodi
     episode_groups: Torna al grup d'episodis
     episode_list: Torna a la llista d'episodis
@@ -1534,11 +1534,11 @@ ca-ES:
     enter_character_name: Entreu el nom del personatge
     enter_character_synopsis: Entreu la sinopsi del personatge
     enter_group_synopsis: Entreu la sinopsi del grup
-    enter_text_search: Introduïu un text per a fer la cerca
+    enter_text_search: Introduïu un text per a fer la cerca.
     enter_valid_translation: Entreu una traducció vàlida.
     era: Era
     error_while_submitting: Error en enviar
-    failed_draft: no s'ha pogut obtenir una resposta preliminar
+    failed_draft: No s'ha pogut obtenir una resposta preliminar.
     filter_subscribed_services: Filtra pels serveis subscrits.
     find_character: Quins personatges o títol li agradaria trobar?
     find_character_note: Trobeu el vostre personatge preferit, títols i més
@@ -1547,7 +1547,7 @@ ca-ES:
     frequent_translations: Traduccions freqüents
     group_name: Nom del grup
     group_name_already_exists: El grup amb el conjunt d'elements ja existeix. Voleu crear un grup?
-    group_name_required: Cal un nom de grup
+    group_name_required: Cal un nom de grup.
     groups_minimum_appearance_msg: El grup ha de tenir com a mínim una aparició. Afegiu-hi, si us plau, una aparició
     groups_not_present: Els grups no estan presents en el personatge.
     headshot: Imatge de perfil
@@ -1754,6 +1754,37 @@ ca-ES:
       tv_bible: Guia de sèries
     welcome_1: Us donem la benvinguda a
     welcome_2: La guia d’estil
+    ask:
+      example_3: En quines fonts hauria de confiar pel que fa al repartiment i l'equip tècnic?
+      sources: Fonts
+      submit: Pregunteu
+      thanks: Gràcies pel feedback
+      thinking: S'està llegint la guia d'estil…
+      title: Pregunteu a la Guia d'estil
+      example_4: Com puc arreglar un pòster que tingui unes proporcions incorrectes?
+      forums: Pregunteu als fòrums
+      heading: Què està permès?
+      hint: Intro per enviar · Maj+Intro per a una línia nova
+      copied: Copiat
+      assistant: Guia d'estil
+      copy: Còpia
+      button: Feu una pregunta
+      disclaimer: Les respostes són generades i podrien ser incorrectes. Consulteu les seccions enllaçades.
+      intro: Feu servir aquest xat per a fer preguntes i aclarir què admet TMDB, què no, i com afegir o editar elements. Les respostes provenen directament de la Guia d'estil.
+      error_failed: Ha fallat alguna cosa. Torneu-hi en una estona.
+      login_button: Inicieu sessió per a preguntar
+      error_invalid_question: Les preguntes poden tenir fins a %{max} caràcters.
+      login_title: Inicieu sessió per a fer una pregunta a la Guia d'estil
+      error_login_required: Ha finalitzat la sessió. Torneu a iniciar-la per a fer preguntes.
+      error_rate_limited: Heu fet moltes preguntes. Torneu-hi més tard.
+      not_covered: La Guia d'estil no tracta aquest tema de manera exhaustiva.
+      placeholder: Feu una pregunta sobre com col·laborar a TMDB…
+      example_1: Hi puc afegir un muntatge fet per fans o un muntatge del director?
+      rate_down: No ha estat útil
+      rate_up: Ha estat útil
+      example_2: Com puc afegir un episodi pilot de televisió que no va arribar a ser seleccionat?
+      reset: Nova conversa
+      retry: Torneu-ho a intentar
   contribution_type:
     character_appearance: Aparició del personatge
     movie: Pel·lícula
@@ -1954,19 +1985,19 @@ ca-ES:
       years:
         years: Anys
       ceremony_date:
-        ceremony_date: ''
-        search_all_ceremonies: ''
-        search_latest_ceremony: ''
-        latest_ceremony: ''
+        ceremony_date: 'Data de la cerimònia'
+        search_all_ceremonies: 'Cerca totes les cerimònies'
+        search_latest_ceremony: 'Cerca la darrera cerimònia'
+        latest_ceremony: 'Darrera cerimònia'
       last_ceremony:
-        latest_ceremony: ''
-        search_all_countries: ''
-        search_latest_ceremony: ''
-      adult_content: ''
-      exclude_adult: ''
-      include_adult: ''
-      adult_filters: ''
-      softcore_content: ''
+        latest_ceremony: 'Darrera cerimònia'
+        search_all_countries: 'Cerca a tots els països'
+        search_latest_ceremony: 'Cerca per darrera cerimònia'
+      adult_content: 'Contingut per a adults'
+      exclude_adult: 'Exclou contingut per a adults'
+      include_adult: 'Inclou contingut per a adults'
+      adult_filters: 'Filtres per a contingut adult'
+      softcore_content: 'Contingut porno tou'
     no_items: No s'ha trobat cap element que coincideixi amb la consulta.
     search: Cerca
     sort_options:
@@ -1986,8 +2017,8 @@ ca-ES:
       release_date_desc: Data d'estrena descendent
       title_a_z: Títol (A-Z)
       title_z_a: Títol (Z-A)
-      latest_ceremony_asc: ''
-      latest_ceremony_desc: ''
+      latest_ceremony_asc: 'Darrera cerimònia ascendent'
+      latest_ceremony_desc: 'Darrera cerimònia descendent'
     tooltips:
       not_member: No en sou membre?
       options: Mostra les opcions de l'element
@@ -2030,12 +2061,12 @@ ca-ES:
     category:
       last_reply_with_datetime: "%{date} a les %{time}"
       last_reply_with_datetime_and_username: "%{date} a les %{time} h<br>per %{username}"
-      last_reply_with_datetime_v2: ''
-      last_reply_with_datetime_and_username_v2: ''
-      posted_by_with_datetime: ''
-      posted_by_with_datetime_and_username: ''
-      replied_by_with_datetime_and_username: ''
-      replied_by: ''
+      last_reply_with_datetime_v2: 'última resposta el %{date} a les %{time}'
+      last_reply_with_datetime_and_username_v2: 'darrera resposta de %{username} el %{date} a les %{time}'
+      posted_by_with_datetime: 'publicat <time class="timeago" datetime="%{time}">%{time}</time>'
+      posted_by_with_datetime_and_username: '%{username} ha publicat <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by_with_datetime_and_username: '%{username} ha respost <time class="timeago" datetime="%{time}">%{time}</time>'
+      replied_by: '%{username} ha respost'
     discussion_activity: Activitat de debat
     email_notifications:
       email_notifications: Notificacions de correu electrònic
@@ -2090,6 +2121,8 @@ ca-ES:
       reply_on_datetime: el %{date} a les %{time}
       report: Reporta
       unhide: Mostra
+      add_reply: Afegiu-hi una resposta
+      hidden_reply: S'ha amagat una resposta de %{username} .
     report_violation: Reporta violació
     search:
       advanced_search: Cerca avançada
@@ -2108,6 +2141,16 @@ ca-ES:
       no_subscribers: Sense subscriptors
       users_in_discussion: Usuaris en aquest debat
     your_account: El vostre compte
+    action_messages:
+      closed: Publicació tancada
+      made_private: Publicació marcada com a privada
+      made_public: Publicació marcada com a pública
+      opened: Publicació reoberta
+      stopped_watching: S'ha deixat de seguir
+      subscribed: Subscrit
+      unsubscribed: Subscripció cancel·lada
+      watching: Seguint
+    admin_actions: Accions d'administrador
   dmca_takedown:
     form:
       about_self:
@@ -3329,7 +3372,7 @@ ca-ES:
     Supervising Music Editor: Editor de música supervisor
     Supervising Producer: Productor supervisor
     Supervising Sound Editor: Editor de so supervisor
-    Supervising Sound Effects Editor: 'Supervisor de l''editor d''efectes de so '
+    Supervising Sound Effects Editor: 'Supervisor de l''editor d''efectes de so'
     Supervising Technical Director: Director tècnic supervisor
     Supervisor of Production Resources: Supervisor de recursos de producció
     Swing: Retocador
@@ -3685,9 +3728,9 @@ ca-ES:
     total_runtime: Duració total
     use_grid_view: Empra la vista en quadrícula
     use_list_view: Empra la vista en llistat
-    search: ''
-    no_search_results: ''
-    search_within: ''
+    search: 'Cerca'
+    no_search_results: 'No s''han trobat resultats que coincideixin amb la cerca.'
+    search_within: 'Cerca elements de la vostra llista...'
   list_messages:
     comment_updated: Comentari actualitzat!
     image_saved: Imatge desada!
@@ -3713,20 +3756,20 @@ ca-ES:
   media:
     adult: Adult
     alternative_names:
-      add_name: ''
-      alternative_names: ''
-      name: ''
-      no_records: ''
+      add_name: 'Afegiu-hi un nom'
+      alternative_names: 'Noms alternatius'
+      name: 'Nom'
+      no_records: 'No s''hi ha afegit cap nom alternatiu.'
     award:
       edit:
         adult:
-          adult_award: ''
-        title_logos: ''
+          adult_award: 'Guardó de contingut adult'
+        title_logos: 'Logotips de títol'
       header:
-        latest_ceremony: ''
-        upcoming_ceremony: ''
+        latest_ceremony: 'No us perdeu la darrera cerimònia'
+        upcoming_ceremony: 'No us perdeu la propera cerimònia'
     cast_credits:
-      cast_credits: ''
+      cast_credits: 'Crèdits del repartiment'
       select: ''
     changes:
       filters:
@@ -4082,6 +4125,27 @@ ca-ES:
         screened_as_part_of_season: Sí, com a part d'una temporada
         screened_confirm: Sí aquest episodi s'ha exhibit en un cinema o festival de cinema, cliqueu "Sí" per a continuar.
         screened_label: Aquest episodi s'ha exhibit al cinema?
+        canon_status_label: Cànon
+        canon_statuses:
+          canon: Cànon
+          filler: Farciment
+          mixed: Barreja Cànon/Farciment
+          recap: Recapitulació
+        special_type_label: Tipus especial
+        special_types:
+          behind_the_scenes: Darrere les càmeres
+          bloopers: Preses falses
+          deleted_scenes: Escenes eliminades
+          episode: Episodi de la història (Especial, OVA)
+          interview: Entrevista
+          live_event: Esdeveniment en directe o retrobament
+          movie: Pel·lícula
+          none: No establert
+          other: Altres extres
+          promo: Tràiler o promoció
+          recap: Recapitulació
+          short: Curt o webisodi
+          unaired: Episodi no emès (Pilot, retirat)
       episode_label:
         finale: Final de temporada
         mid_season: Final de mitja temporada
@@ -4090,6 +4154,23 @@ ca-ES:
         episode: "%{episode_name} (%{season_number}x%{episode_number})"
         next_episode: Episodi següent
         previous_episode: Episodi anterior
+      special_type:
+        bloopers: Preses falses
+        deleted_scenes: Escenes eliminades
+        episode: Història
+        interview: Entrevista
+        live_event: Esdeveniment en directe
+        movie: Pel·lícula
+        other: Extra
+        promo: Promoció
+        recap: Recapitulació
+        short: Curt
+        unaired: No emès
+        behind_the_scenes: Darrere les escenes
+      canon_status:
+        filler: Farciment
+        mixed: Parcialment cànon
+        recap: Recapitulació
     tv_season:
       edit:
         create_episode: Crea episodi
@@ -4105,6 +4186,25 @@ ca-ES:
         last_season: Darrera temporada
         next_season: Temporada següent
         previous_season: Temporada anterior
+      special_filter:
+        all: Tot
+        extras: Extres
+        label: Especials de la sèrie
+        story: Història
+      special_sections:
+        bloopers: Preses falses
+        deleted_scenes: Escenes eliminades
+        behind_the_scenes: Darrere les escenes
+        episode: Especials de la història
+        interview: Entrevistes
+        live_event: Esdeveniments en directe i reunions
+        movie: Pel·lícules
+        other: D'altres extres
+        promo: Tràilers i promocions
+        recap: Recapitulacions
+        short: Curts i webisodis
+        unaired: Episodis no emesos
+        uncategorized: Sense categoria
     tv_show:
       create_season: Crea temporada
       edit:
@@ -4145,6 +4245,7 @@ ca-ES:
             '5': Arc argumental
             '6': Producció
             '7': TV
+          continuous_numbering: Numera els episodis de manera contínua
         networks:
           no_records: No s'hi ha afegit cap cadena.
           none_found: No s'ha trobat cap cadena coincident. En voleu crear una?
@@ -4792,7 +4893,7 @@ ca-ES:
   success_sharing: El missatge s'ha compartit amb èxit.
   support:
     array:
-      last_word_connector: " i "
+      last_word_connector: ", i "
       two_words_connector: " i "
       words_connector: ", "
   the: el/la
